@@ -19,27 +19,27 @@ state: "MS"
 primary: false
 rendered: true
 ---
-When a pipe bursts under a pier-and-beam house off Latimer Road or a slow roof leak turns into a mold problem behind the drywall, Vancleave property owners need a restoration crew that understands the area — not a call center routing you to whoever is available. HomeLyft Restoration MS handles water damage mitigation, mold remediation, fire and smoke cleanup, and structural drying for homes and commercial properties throughout Vancleave and the surrounding Jackson County communities. One call gets you a real assessment, not a sales pitch.
+When a pipe bursts under a pier-and-beam house off Latimer Road or a slow roof leak turns into a mold problem behind the drywall, Vancleave property owners need a restoration crew that understands the area, not a call center routing you to whoever is available. HomeLyft Restoration MS handles water damage mitigation, mold remediation, fire and smoke cleanup, and structural drying for homes and commercial properties throughout Vancleave and the surrounding Jackson County communities. One call gets you a real assessment, not a sales pitch.
 
 ## Restoration emergencies common in Vancleave
 
 Vancleave sits in a stretch of Jackson County where the soil is sandy and the water table rises fast after heavy rain. The area's mix of older wood-frame homes and newer construction on large rural lots creates two distinct vulnerability patterns: aging homes with crawl spaces that collect moisture year-round, and newer builds where improper grading sends stormwater toward the foundation rather than away from it.
 
-The Gulf Coast climate does the rest. Jackson County averages more than 60 inches of rainfall annually, and the humidity rarely drops low enough for building materials to dry on their own. After a tropical system or even a sustained stretch of afternoon thunderstorms, water finds its way into wall cavities and under flooring — and mold can begin colonizing porous materials in as little as 24 to 48 hours if drying doesn't start promptly. Roof damage from wind and falling pine debris is also a recurring issue, particularly along the wooded corridors east of Highway 57 that define much of Vancleave's character.
+The Gulf Coast climate does the rest. Jackson County averages more than 60 inches of rainfall annually, and the humidity rarely drops low enough for building materials to dry on their own. After a tropical system or even a sustained stretch of afternoon thunderstorms, water finds its way into wall cavities and under flooring, and mold can begin colonizing porous materials in as little as 24 to 48 hours if drying doesn't start promptly. Roof damage from wind and falling pine debris is also a recurring issue, particularly along the wooded corridors east of Highway 57 that define much of Vancleave's character.
 
 ## Services we provide in Vancleave
 
 ### Water damage mitigation and structural drying
 
-Water damage in Vancleave often involves more than a visible puddle. In homes with crawl spaces, moisture migrates upward into subfloor framing before a homeowner notices warped hardwood or a musty smell. HomeLyft uses calibrated moisture meters and thermal imaging to map the full extent of saturation, then deploys commercial-grade drying equipment — dehumidifiers, air movers, and desiccant systems when needed — to bring structural materials back to acceptable moisture content. Drying is documented throughout so your insurance adjuster has a complete record.
+Water damage in Vancleave often involves more than a visible puddle. In homes with crawl spaces, moisture migrates upward into subfloor framing before a homeowner notices warped hardwood or a musty smell. HomeLyft uses calibrated moisture meters and thermal imaging to map the full extent of saturation, then deploys commercial-grade drying equipment, dehumidifiers, air movers, and desiccant systems when needed, to bring structural materials back to acceptable moisture content. Drying is documented throughout so your insurance adjuster has a complete record.
 
 ### Mold remediation
 
-The combination of high humidity, crawl spaces, and older building materials makes mold a predictable follow-on to any water intrusion that isn't addressed quickly. HomeLyft's remediation process contains the affected area, removes compromised materials, and treats structural surfaces — then addresses the moisture source so the problem doesn't return. We follow established industry protocols and can coordinate post-remediation clearance testing with a third-party industrial hygienist if your insurance carrier or a future buyer requires it.
+The combination of high humidity, crawl spaces, and older building materials makes mold a predictable follow-on to any water intrusion that isn't addressed quickly. HomeLyft's remediation process contains the affected area, removes compromised materials, and treats structural surfaces, then addresses the moisture source so the problem doesn't return. We follow established industry protocols and can coordinate post-remediation clearance testing with a third-party industrial hygienist if your insurance carrier or a future buyer requires it.
 
 ### Fire and smoke damage restoration
 
-House fires in rural Jackson County often involve longer response times from fire departments, which means more burn time and deeper smoke penetration into framing, insulation, and HVAC systems. Smoke residue is acidic and continues to etch surfaces and corrode metals long after the flames are out. HomeLyft's fire restoration work includes odor neutralization, soot removal, content cleaning, and structural repairs — handled as a coordinated process rather than handed off between multiple contractors.
+House fires in rural Jackson County often involve longer response times from fire departments, which means more burn time and deeper smoke penetration into framing, insulation, and HVAC systems. Smoke residue is acidic and continues to etch surfaces and corrode metals long after the flames are out. HomeLyft's fire restoration work includes odor neutralization, soot removal, content cleaning, and structural repairs, handled as a coordinated process rather than handed off between multiple contractors.
 
 ### Storm damage and emergency tarping
 
@@ -47,11 +47,11 @@ When a storm peels back roofing or sends a tree through a wall, the priority is 
 
 ## Coverage and how fast we can get there
 
-HomeLyft Restoration MS is based in Gulfport, and Vancleave is a straightforward run up Highway 49 to Highway 57 — roughly 35 to 40 miles depending on the exact location of the property. Properties along the Highway 57 corridor are the most direct from our HQ. Homes further east toward the Escatawpa area or north toward the Agricola community add some drive time, but remain well within our regular service area. When you call, we'll give you an honest arrival estimate based on current crew location and conditions — not a number we can't stand behind.
+HomeLyft Restoration MS is based in Gulfport, and Vancleave is a straightforward run up Highway 49 to Highway 57, roughly 35 to 40 miles depending on the exact location of the property. Properties along the Highway 57 corridor are the most direct from our HQ. Homes further east toward the Escatawpa area or north toward the Agricola community add some drive time, but remain well within our regular service area. When you call, we'll give you an honest arrival estimate based on current crew location and conditions, not a number we can't stand behind.
 
 ## Building stock, site conditions, and permits in Vancleave
 
-Vancleave is unincorporated, so there is no city hall to call — building permits, floodplain determinations, and septic-related approvals for structural repair or rebuild go through Jackson County, and in flood-mapped areas the 50-percent substantial-improvement rule can change a repair scope into an elevation conversation. Jackson County is a coastal wind zone under Mississippi's statewide code, so reframing and reroofing work carries wind-resistance and fastening expectations that inland contractors miss.
+Vancleave is unincorporated, so there is no city hall to call, building permits, floodplain determinations, and septic-related approvals for structural repair or rebuild go through Jackson County, and in flood-mapped areas the 50-percent substantial-improvement rule can change a repair scope into an elevation conversation. Jackson County is a coastal wind zone under Mississippi's statewide code, so reframing and reroofing work carries wind-resistance and fastening expectations that inland contractors miss.
 
 Most of the housing here is wood-frame with post-1980 plumbing, but older homes still hold cast-iron drains that crack at the hub and galvanized supply that closes off with rust. Late-1980s and 1990s builds may carry polybutylene, which fails at the fittings without warning. On pre-1978 houses we treat paint as lead-bearing and sheet flooring, mastic, and pipe wrap as possible asbestos until tested.
 

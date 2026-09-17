@@ -21,40 +21,40 @@ service_display: "Biohazard and Trauma Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
-When something unexpected and deeply difficult happens at a Bellevue property, the last thing you should have to think about is who to call or whether they'll actually show up. National Restoration Construction has been handling biohazard and trauma cleanup across the greater Seattle area since 2004, and our team responds to Bellevue addresses with the same urgency we'd bring to our own neighborhood. You don't need to manage the scene, coordinate with multiple contractors, or figure out what your insurance covers right now — that's what we're here for.
+When something unexpected and deeply difficult happens at a Bellevue property, the last thing you should have to think about is who to call or whether they'll actually show up. National Restoration Construction has been handling biohazard and trauma cleanup across the greater Seattle area since 2004, and our team responds to Bellevue addresses with the same urgency we'd bring to our own neighborhood. You don't need to manage the scene, coordinate with multiple contractors, or figure out what your insurance covers right now, that's what we're here for.
 
 ## What Our Response in Bellevue Looks Like
 
-From our Federal Way headquarters, most Bellevue locations are reachable within 60–90 minutes of your call — and for properties closer to the I-5 corridor or near the Eastgate area, often sooner. We arrive in unmarked vehicles. There's no signage, no unnecessary foot traffic, and no conversations with neighbors. Discretion isn't a feature we advertise — it's how every job runs.
+From our Federal Way headquarters, most Bellevue locations are reachable within 60–90 minutes of your call, and for properties closer to the I-5 corridor or near the Eastgate area, often sooner. We arrive in unmarked vehicles. There's no signage, no unnecessary foot traffic, and no conversations with neighbors. Discretion isn't a feature we advertise, it's how every job runs.
 
 Once on-site, a certified technician walks the affected area, identifies the full scope of contamination, and explains the process before any work begins. You'll know what we're doing, why, and how long it's expected to take. Nothing proceeds without your understanding and consent.
 
 ## Our Biohazard Remediation Process
 
-Biohazard remediation is regulated work. Our technicians are IICRC certified and operate under OSHA and EPA guidelines, which means the process follows a defined sequence — not guesswork.
+Biohazard remediation is regulated work. Our technicians are IICRC certified and operate under OSHA and EPA guidelines, which means the process follows a defined sequence, not guesswork.
 
 **Containment first.** We isolate the affected area to prevent cross-contamination to other parts of the property. This is especially important in Bellevue's older residential stock, where open floor plans or shared HVAC systems can complicate containment if it isn't addressed immediately.
 
-**Removal and packaging.** All biohazardous materials are collected, packaged, and transported according to Washington State Department of Ecology requirements. This isn't curbside disposal — it's regulated medical waste handling.
+**Removal and packaging.** All biohazardous materials are collected, packaged, and transported according to Washington State Department of Ecology requirements. This isn't curbside disposal, it's regulated medical waste handling.
 
-**Surface treatment and decontamination.** We treat all affected surfaces — including porous materials that may require removal — with hospital-grade disinfectants. HEPA-filtered air scrubbers run continuously during this phase to capture airborne particulates.
+**Surface treatment and decontamination.** We treat all affected surfaces, including porous materials that may require removal, with hospital-grade disinfectants. HEPA-filtered air scrubbers run continuously during this phase to capture airborne particulates.
 
-**Clearance verification.** Before we leave, the area is tested and documented. You receive written confirmation that the space meets safety standards — something your insurance carrier and, if applicable, future occupants may require.
+**Clearance verification.** Before we leave, the area is tested and documented. You receive written confirmation that the space meets safety standards, something your insurance carrier and, if applicable, future occupants may require.
 
 ## Insurance and What We Handle on Your Behalf
 
-Homeowner's and commercial property policies in Washington State often cover trauma scene cleanup and unattended death cleanup under the same provisions as sudden and accidental loss — but the language varies by carrier, and most policyholders have never had to navigate this kind of claim before.
+Homeowner's and commercial property policies in Washington State often cover trauma scene cleanup and unattended death cleanup under the same provisions as sudden and accidental loss, but the language varies by carrier, and most policyholders have never had to navigate this kind of claim before.
 
-We work directly with your insurance adjuster. That means we document the scope of work, photograph affected areas for claim purposes (handled with full discretion), and submit the paperwork in the format adjusters expect. We've processed hundreds of claims with carriers operating in the Bellevue and broader King County market. If your policy doesn't cover the full cost, we'll tell you plainly — before work begins, not after.
+We work directly with your insurance adjuster. That means we document the scope of work, photograph affected areas for claim purposes (handled with full discretion), and submit the paperwork in the format adjusters expect. We've processed hundreds of claims with carriers operating in the Bellevue and broader King County market. If your policy doesn't cover the full cost, we'll tell you plainly, before work begins, not after.
 
 You should not have to fight your insurer while also managing everything else that comes with this kind of event.
 
 ## Serving Bellevue's Neighborhoods and Properties
 
-Bellevue is a dense, varied city — high-rise condominiums in the downtown core, single-family homes in Medina and Clyde Hill, apartment complexes along NE 8th, and commercial properties throughout the Bel-Red corridor. Each property type presents different access, containment, and coordination challenges.
+Bellevue is a dense, varied city, high-rise condominiums in the downtown core, single-family homes in Medina and Clyde Hill, apartment complexes along NE 8th, and commercial properties throughout the Bel-Red corridor. Each property type presents different access, containment, and coordination challenges.
 
-For multi-unit residential buildings, we coordinate with property management and building staff to minimize disruption to other residents while maintaining complete privacy around the affected unit. For single-family homes, we work around your schedule and can stage equipment to avoid drawing attention from the street. We hold a General Contractor Certificate of Registration with the Washington State Department of Labor & Industries (#NATIORC792M6), which means we can also handle any structural repairs or reconstruction that follow remediation — one contractor, one point of contact, from cleanup through rebuild.
+For multi-unit residential buildings, we coordinate with property management and building staff to minimize disruption to other residents while maintaining complete privacy around the affected unit. For single-family homes, we work around your schedule and can stage equipment to avoid drawing attention from the street. We hold a General Contractor Certificate of Registration with the Washington State Department of Labor & Industries (#NATIORC792M6), which means we can also handle any structural repairs or reconstruction that follow remediation, one contractor, one point of contact, from cleanup through rebuild.
 
 ## When You're Ready to Take the Next Step
 
-There's no obligation to have everything figured out before you reach us. Most people who contact us are still in the early hours of a very hard situation. You can call (206) 883-0333 at any hour — we answer around the clock — and a technician will talk through what you're facing, what the process looks like, and what we can do to help. If you're not ready to talk yet, that's understood too. We'll be here when you are.
+There's no obligation to have everything figured out before you reach us. Most people who contact us are still in the early hours of a very hard situation. You can call (206) 883-0333 at any hour, we answer around the clock, and a technician will talk through what you're facing, what the process looks like, and what we can do to help. If you're not ready to talk yet, that's understood too. We'll be here when you are.

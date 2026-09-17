@@ -19,21 +19,21 @@ state: "NJ"
 primary: false
 rendered: true
 ---
-When water is seeping through a finished basement ceiling in the Franklin School area or smoke has worked its way into plaster walls near Springfield Avenue downtown, Summit homeowners need a crew that understands what they're walking into — not just the damage, but the house. The Restoration Group responds to water, fire, mold, and storm emergencies across Summit's 07901 ZIP code, handling high-value millwork, period hardwood floors, and irreplaceable furnishings with the same care we bring to the technical side of drying and reconstruction.
+When water is seeping through a finished basement ceiling in the Franklin School area or smoke has worked its way into plaster walls near Springfield Avenue downtown, Summit homeowners need a crew that understands what they're walking into, not just the damage, but the house. The Restoration Group responds to water, fire, mold, and storm emergencies across Summit's 07901 ZIP code, handling high-value millwork, period hardwood floors, and irreplaceable furnishings with the same care we bring to the technical side of drying and reconstruction.
 
 ## Restoration emergencies common in Summit
 
-Summit sits on a ridge that keeps it above the river flooding that hits Millburn and Chatham — but elevation creates its own set of problems. Steep lots funnel stormwater directly toward foundation walls, and in older sections like Northside and the Brayton School area, those walls are stone or early-poured concrete that was never designed to handle modern drainage volumes. Clay sewer laterals running beneath century-old street trees crack, root, and back up with almost seasonal regularity, sending raw sewage into finished lower levels.
+Summit sits on a ridge that keeps it above the river flooding that hits Millburn and Chatham, but elevation creates its own set of problems. Steep lots funnel stormwater directly toward foundation walls, and in older sections like Northside and the Brayton School area, those walls are stone or early-poured concrete that was never designed to handle modern drainage volumes. Clay sewer laterals running beneath century-old street trees crack, root, and back up with almost seasonal regularity, sending raw sewage into finished lower levels.
 
-The housing stock compounds the risk. Summit's signature 1890s–1930s homes — the large Colonials and Tudors you see throughout the Downtown Summit and Franklin School area — were built with plaster walls, original copper gutters, slate roofs, and supply lines that were never insulated for today's winters. When a freeze event hits, uninsulated radiator lines in older wings burst inside wall cavities, and the water travels silently through lath and plaster before anyone notices. Aging galvanized and lead supply lines fail without warning. These aren't the clean, open-stud water losses you find in newer construction — moisture maps here require more sensor points, more time, and more careful material decisions.
+The housing stock compounds the risk. Summit's signature 1890s–1930s homes, the large Colonials and Tudors you see throughout the Downtown Summit and Franklin School area, were built with plaster walls, original copper gutters, slate roofs, and supply lines that were never insulated for today's winters. When a freeze event hits, uninsulated radiator lines in older wings burst inside wall cavities, and the water travels silently through lath and plaster before anyone notices. Aging galvanized and lead supply lines fail without warning. These aren't the clean, open-stud water losses you find in newer construction, moisture maps here require more sensor points, more time, and more careful material decisions.
 
-High-value contents handling matters more in Summit than almost anywhere else we serve. A homeowner near Reeves-Reed Arboretum with antique rugs and custom cabinetry expects those items to be inventoried, moved with care, and protected during the mitigation process — not stacked in a driveway.
+High-value contents handling matters more in Summit than almost anywhere else we serve. A homeowner near Reeves-Reed Arboretum with antique rugs and custom cabinetry expects those items to be inventoried, moved with care, and protected during the mitigation process, not stacked in a driveway.
 
 ## Services we provide in Summit
 
 ### Water damage restoration
 
-Water damage in Summit most often involves one of three patterns: stormwater intrusion through foundation walls on sloped lots, sewer backup through floor drains in finished basements, or supply-line failures hidden inside plaster walls. All three require thorough moisture mapping before any drying equipment is placed. We use thermal imaging and calibrated moisture meters to trace water migration through historic materials, then dry to IICRC S500 standards — which matters when you're dealing with original hardwood floors that can't simply be replaced with a box-store equivalent.
+Water damage in Summit most often involves one of three patterns: stormwater intrusion through foundation walls on sloped lots, sewer backup through floor drains in finished basements, or supply-line failures hidden inside plaster walls. All three require thorough moisture mapping before any drying equipment is placed. We use thermal imaging and calibrated moisture meters to trace water migration through historic materials, then dry to IICRC S500 standards, which matters when you're dealing with original hardwood floors that can't simply be replaced with a box-store equivalent.
 
 ### Mold remediation
 
@@ -41,7 +41,7 @@ Summit's older homes hold humidity differently than modern construction. Plaster
 
 ### Fire and smoke damage restoration
 
-Smoke behaves differently in a home with plaster walls and pocket doors — it pressurizes into cavities and coats surfaces that drywall construction would never expose. After a kitchen fire or chimney event near the Summit train station corridor, the odor can persist for months if the affected materials aren't properly addressed. We assess char depth, treat porous surfaces, and coordinate reconstruction to match existing period finishes.
+Smoke behaves differently in a home with plaster walls and pocket doors, it pressurizes into cavities and coats surfaces that drywall construction would never expose. After a kitchen fire or chimney event near the Summit train station corridor, the odor can persist for months if the affected materials aren't properly addressed. We assess char depth, treat porous surfaces, and coordinate reconstruction to match existing period finishes.
 
 ### Storm and structural damage
 
@@ -49,7 +49,7 @@ Ice dams on slate roofs, wind-driven rain through deteriorating window frames, a
 
 ## Coverage and how fast we can get there
 
-Our Kenilworth headquarters sits roughly 8 miles from Summit — a straightforward run up Route 82 or the Garden State Parkway to Route 124, depending on traffic. We cover all of Summit's neighborhoods: Downtown Summit, Northside, the Franklin School and Brayton School areas, and properties along the New Providence border. Because we operate 24/7, a call at 2 a.m. after a pipe bursts gets the same response as a midday call — a crew dispatched, not a voicemail.
+Our Kenilworth headquarters sits roughly 8 miles from Summit, a straightforward run up Route 82 or the Garden State Parkway to Route 124, depending on traffic. We cover all of Summit's neighborhoods: Downtown Summit, Northside, the Franklin School and Brayton School areas, and properties along the New Providence border. Because we operate 24/7, a call at 2 a.m. after a pipe bursts gets the same response as a midday call, a crew dispatched, not a voicemail.
 
 ## Building stock, site conditions, and permits in Summit
 

@@ -24,19 +24,19 @@ Vandenberg AFB sits along a stretch of the Central Coast where marine air rolls 
 
 ## Why Vandenberg AFB Properties See Vandalism Damage Differently
 
-The built environment around Vandenberg AFB is a mix of mid-century military construction, newer privatized housing, and commercial structures that serve the base's civilian workforce. Many of the older residential units use textured stucco exteriors — a surface that looks uniform but is actually quite porous. Aerosol paint bonds to stucco differently than it does to smooth concrete or painted wood siding: pigment migrates into the substrate within hours, especially when overnight coastal fog keeps the surface slightly damp. That means a graffiti tag applied at dusk can be chemically bonded to the wall by sunrise.
+The built environment around Vandenberg AFB is a mix of mid-century military construction, newer privatized housing, and commercial structures that serve the base's civilian workforce. Many of the older residential units use textured stucco exteriors, a surface that looks uniform but is actually quite porous. Aerosol paint bonds to stucco differently than it does to smooth concrete or painted wood siding: pigment migrates into the substrate within hours, especially when overnight coastal fog keeps the surface slightly damp. That means a graffiti tag applied at dusk can be chemically bonded to the wall by sunrise.
 
-Broken windows compound the problem quickly in this climate. Once a pane is gone, interior humidity levels can spike within a single night of marine layer, which creates conditions for mold colonization to begin within 24 to 48 hours on drywall and insulation — a timeline that's compressed compared to drier inland climates.
+Broken windows compound the problem quickly in this climate. Once a pane is gone, interior humidity levels can spike within a single night of marine layer, which creates conditions for mold colonization to begin within 24 to 48 hours on drywall and insulation, a timeline that's compressed compared to drier inland climates.
 
 ## Our Vandalism Cleanup Process in Vandenberg AFB
 
-Every job starts with a structured assessment before any cleaning begins. We photograph and document all affected surfaces — graffiti coverage, broken glass scatter patterns, forced-entry damage to frames and hardware — because that documentation is what drives an accurate insurance claim and a defensible repair scope.
+Every job starts with a structured assessment before any cleaning begins. We photograph and document all affected surfaces, graffiti coverage, broken glass scatter patterns, forced-entry damage to frames and hardware, because that documentation is what drives an accurate insurance claim and a defensible repair scope.
 
-For graffiti removal, the method depends on the substrate. Stucco and CMU block typically require a combination of chemical dwell agents and low-pressure hot-water extraction rather than aggressive mechanical abrasion, which can open the surface and make future tagging worse. On painted wood or metal surfaces, we match the removal chemistry to the existing coating to avoid lifting the base paint. After removal, anti-graffiti sealers are applied to create a sacrificial barrier — particularly important on exterior walls that face public corridors.
+For graffiti removal, the method depends on the substrate. Stucco and CMU block typically require a combination of chemical dwell agents and low-pressure hot-water extraction rather than aggressive mechanical abrasion, which can open the surface and make future tagging worse. On painted wood or metal surfaces, we match the removal chemistry to the existing coating to avoid lifting the base paint. After removal, anti-graffiti sealers are applied to create a sacrificial barrier, particularly important on exterior walls that face public corridors.
 
 Broken glass cleanup follows a strict containment protocol: visible shards first, then a systematic sweep with commercial-grade vacuums and magnetic tools for smaller fragments, followed by a final pass with adhesive rollers on soft surfaces like carpet or upholstered furniture near the impact zone. Boarding and temporary glazing are installed the same visit to secure the opening against the elements.
 
-If forced entry caused door or window frame damage, we assess structural integrity before boarding — a compromised frame needs to be stabilized, not just covered.
+If forced entry caused door or window frame damage, we assess structural integrity before boarding, a compromised frame needs to be stabilized, not just covered.
 
 ## Reaching Vandenberg AFB from Santa Maria
 
@@ -50,6 +50,6 @@ For privatized military housing managed by a third-party property management com
 
 ## Local Note
 
-One thing that catches property owners off guard near Vandenberg AFB: the salt air doesn't just affect how paint bonds to surfaces — it also accelerates corrosion on the aluminum frames and hardware around windows and sliding doors. When a window is broken during a vandalism incident, the exposed frame edge begins oxidizing almost immediately in coastal conditions. By the time a replacement pane is ordered and installed, the frame may need treatment or partial replacement to hold a proper seal. We flag this during the initial assessment so there are no surprises when the glazier arrives.
+One thing that catches property owners off guard near Vandenberg AFB: the salt air doesn't just affect how paint bonds to surfaces, it also accelerates corrosion on the aluminum frames and hardware around windows and sliding doors. When a window is broken during a vandalism incident, the exposed frame edge begins oxidizing almost immediately in coastal conditions. By the time a replacement pane is ordered and installed, the frame may need treatment or partial replacement to hold a proper seal. We flag this during the initial assessment so there are no surprises when the glazier arrives.
 
-If you're dealing with vandalism damage on a property near Vandenberg AFB, call Coastal Restoration Services Inc at **(805) 345-7440**. We'll assess the full scope, handle documentation for your insurance claim, and restore the property to pre-loss condition — without leaving you to coordinate multiple contractors on your own.
+If you're dealing with vandalism damage on a property near Vandenberg AFB, call Coastal Restoration Services Inc at **(805) 345-7440**. We'll assess the full scope, handle documentation for your insurance claim, and restore the property to pre-loss condition, without leaving you to coordinate multiple contractors on your own.

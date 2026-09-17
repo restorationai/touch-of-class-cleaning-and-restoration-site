@@ -19,41 +19,41 @@ state: "MN"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall in Fulda or a basement fills with water after a spring storm, Crew Restoration & Construction sends a trained crew to assess the damage, contain the loss, and start drying — before the problem compounds. We handle water damage, fire and smoke cleanup, mold remediation, and reconstruction for homeowners and property managers across Murray County, including ZIP code 56131. Our goal is simple: get your property back to livable condition with as little disruption as possible.
+When a pipe bursts behind a wall in Fulda or a basement fills with water after a spring storm, Crew Restoration & Construction sends a trained crew to assess the damage, contain the loss, and start drying, before the problem compounds. We handle water damage, fire and smoke cleanup, mold remediation, and reconstruction for homeowners and property managers across Murray County, including ZIP code 56131. Our goal is simple: get your property back to livable condition with as little disruption as possible.
 
 ## Restoration emergencies common in Fulda
 
-Fulda sits between Fulda Lakes and Seven Mile Lake, and that geography shapes how water behaves around local properties. Seasonal snowmelt and spring rain push groundwater tables high, which means basements in older homes — many of them built decades before modern waterproofing standards — are vulnerable to seepage and intrusion every March and April. Summer thunderstorms roll across the open Murray County landscape with little warning, overwhelming gutters and window wells on homes that were never designed for that kind of volume.
+Fulda sits between Fulda Lakes and Seven Mile Lake, and that geography shapes how water behaves around local properties. Seasonal snowmelt and spring rain push groundwater tables high, which means basements in older homes, many of them built decades before modern waterproofing standards, are vulnerable to seepage and intrusion every March and April. Summer thunderstorms roll across the open Murray County landscape with little warning, overwhelming gutters and window wells on homes that were never designed for that kind of volume.
 
-The proximity to two recreational lakes also means humidity levels stay elevated through much of the warmer months. When that moisture finds its way into a crawl space or gets trapped behind siding after a storm, mold can begin colonizing porous materials in as little as 24 to 48 hours. Fulda's housing stock skews older — a lot of wood-framed construction, plaster walls, and original cast-iron or galvanized plumbing that is simply more prone to failure than modern materials. Fire risk follows a familiar rural pattern: older wiring, wood-burning stoves, and outbuildings close to the main structure.
+The proximity to two recreational lakes also means humidity levels stay elevated through much of the warmer months. When that moisture finds its way into a crawl space or gets trapped behind siding after a storm, mold can begin colonizing porous materials in as little as 24 to 48 hours. Fulda's housing stock skews older, a lot of wood-framed construction, plaster walls, and original cast-iron or galvanized plumbing that is simply more prone to failure than modern materials. Fire risk follows a familiar rural pattern: older wiring, wood-burning stoves, and outbuildings close to the main structure.
 
 ## Services we provide in Fulda
 
 ### Water damage restoration
 
-Water damage in Fulda often starts small — a slow leak under a kitchen sink, a failed sump pump during a heavy rain event — and becomes a major structural problem once moisture wicks into subfloor framing or insulation. We extract standing water, deploy commercial drying equipment, and monitor moisture readings until materials reach safe levels. Properties near Fulda Lakes and in the Lakeside Fulda area are especially susceptible to recurring moisture issues, and we document everything for insurance purposes.
+Water damage in Fulda often starts small, a slow leak under a kitchen sink, a failed sump pump during a heavy rain event, and becomes a major structural problem once moisture wicks into subfloor framing or insulation. We extract standing water, deploy commercial drying equipment, and monitor moisture readings until materials reach safe levels. Properties near Fulda Lakes and in the Lakeside Fulda area are especially susceptible to recurring moisture issues, and we document everything for insurance purposes.
 
 ### Fire and smoke damage cleanup
 
-Smoke residue doesn't stay in the room where a fire starts. It migrates through ductwork, settles into insulation, and embeds in soft surfaces throughout the structure. After a fire in a Fulda home, we perform a full scope of the affected area — including spaces that look undamaged — before beginning any cleaning or reconstruction. Odor neutralization is part of every fire job, not an add-on.
+Smoke residue doesn't stay in the room where a fire starts. It migrates through ductwork, settles into insulation, and embeds in soft surfaces throughout the structure. After a fire in a Fulda home, we perform a full scope of the affected area, including spaces that look undamaged, before beginning any cleaning or reconstruction. Odor neutralization is part of every fire job, not an add-on.
 
 ### Mold remediation
 
-Given Fulda's lake-adjacent humidity and older housing stock, mold calls are a recurring part of what we do here. We identify the moisture source, contain the affected area, remove compromised materials following established industry protocols, and treat surfaces before reconstruction begins. We do not cut corners on containment — cross-contamination from a mold job done carelessly creates a second problem.
+Given Fulda's lake-adjacent humidity and older housing stock, mold calls are a recurring part of what we do here. We identify the moisture source, contain the affected area, remove compromised materials following established industry protocols, and treat surfaces before reconstruction begins. We do not cut corners on containment, cross-contamination from a mold job done carelessly creates a second problem.
 
 ### Reconstruction
 
-Once mitigation is complete, most properties need some level of rebuild — drywall, flooring, cabinetry, or structural framing. Crew Restoration & Construction handles reconstruction in-house, which means one point of contact from the first day of demo through the final walkthrough.
+Once mitigation is complete, most properties need some level of rebuild, drywall, flooring, cabinetry, or structural framing. Crew Restoration & Construction handles reconstruction in-house, which means one point of contact from the first day of demo through the final walkthrough.
 
 ## Coverage and how fast we can get there
 
-Crew Restoration & Construction is based in Sioux Falls, SD, roughly 90 miles northwest of Fulda via US-18 East and MN-60. That route runs through open prairie and is generally reliable year-round, though winter conditions on US-18 can add time during blizzard season — something we account for when scheduling. We serve all of Fulda's neighborhoods, including Downtown Fulda and the Lakeside Fulda area along the shoreline. When you call (605) 965-2727, we'll give you an honest estimate of when a crew can be on-site based on current conditions and workload.
+Crew Restoration & Construction is based in Sioux Falls, SD, roughly 90 miles northwest of Fulda via US-18 East and MN-60. That route runs through open prairie and is generally reliable year-round, though winter conditions on US-18 can add time during blizzard season, something we account for when scheduling. We serve all of Fulda's neighborhoods, including Downtown Fulda and the Lakeside Fulda area along the shoreline. When you call (605) 965-2727, we'll give you an honest estimate of when a crew can be on-site based on current conditions and workload.
 
 ## Building stock, site conditions, and permits in Fulda
 
-Much of Fulda's older housing sits on full basements, which is what a five-foot frost depth in southwest Minnesota effectively requires — footings have to go below the frost line anyway, so the space came along with it. In the oldest homes those walls are fieldstone or unreinforced block laid in lime mortar, and once water saturates the surrounding till they weep through the joints rather than through a single crack. The glacial till under this part of the county is clay-heavy and slow to drain, so backfill holds water against the wall long after the rain stops.
+Much of Fulda's older housing sits on full basements, which is what a five-foot frost depth in southwest Minnesota effectively requires, footings have to go below the frost line anyway, so the space came along with it. In the oldest homes those walls are fieldstone or unreinforced block laid in lime mortar, and once water saturates the surrounding till they weep through the joints rather than through a single crack. The glacial till under this part of the county is clay-heavy and slow to drain, so backfill holds water against the wall long after the rain stops.
 
-Buried sewer laterals of that vintage are often clay tile or, in mid-century additions, Orangeburg fiber pipe — both fail by root intrusion and collapse rather than a clean break.
+Buried sewer laterals of that vintage are often clay tile or, in mid-century additions, Orangeburg fiber pipe, both fail by root intrusion and collapse rather than a clean break.
 
 Minnesota's building code applies statewide, and structural repair or rebuild work is permitted locally through the city, with plumbing and electrical held to the state code. Pre-1978 paint and pre-1980 assemblies mean lead and asbestos have to be ruled out before demolition starts.
 

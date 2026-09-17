@@ -20,31 +20,31 @@ state: "OH"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-When a fire moves through a home in Austintown, it rarely stops at the room where it started. The township's mix of mid-century ranch houses and split-levels — many built during the postwar expansion along the Mahoning Valley corridor — means open floor plans and shared attic spaces that let smoke travel fast and far. Soot settles into every cavity, and the acrid smell of burned insulation can linger for months if the cleanup stops at what's visible. DISS Restoration responds 24/7 from Youngstown, and our IICRC FSRT-certified technicians begin stabilizing your property the same day you call.
+When a fire moves through a home in Austintown, it rarely stops at the room where it started. The township's mix of mid-century ranch houses and split-levels, many built during the postwar expansion along the Mahoning Valley corridor, means open floor plans and shared attic spaces that let smoke travel fast and far. Soot settles into every cavity, and the acrid smell of burned insulation can linger for months if the cleanup stops at what's visible. DISS Restoration responds 24/7 from Youngstown, and our IICRC FSRT-certified technicians begin stabilizing your property the same day you call.
 
 ## Why Austintown Homes Are Particularly Vulnerable to Fire Damage
 
-Austintown's housing stock tells the story of Mahoning County's mid-20th-century growth. A large share of the township's single-family homes were constructed between the late 1940s and the early 1970s, which means they commonly feature original knob-and-tube or early aluminum wiring — both of which are associated with elevated fire risk as connections loosen or insulation degrades with age. Older balloon-frame construction, common in that era, allows fire and smoke to travel vertically inside wall cavities with almost no resistance, carrying char and soot far beyond the room of origin.
+Austintown's housing stock tells the story of Mahoning County's mid-20th-century growth. A large share of the township's single-family homes were constructed between the late 1940s and the early 1970s, which means they commonly feature original knob-and-tube or early aluminum wiring, both of which are associated with elevated fire risk as connections loosen or insulation degrades with age. Older balloon-frame construction, common in that era, allows fire and smoke to travel vertically inside wall cavities with almost no resistance, carrying char and soot far beyond the room of origin.
 
-Winters in this part of northeastern Ohio are hard on homes too. Freeze-thaw cycles stress chimney mortar and flashing, and a cracked flue liner can allow embers or heat to reach combustible framing — a slow-burn hazard that sometimes doesn't announce itself until a fire is already established inside the wall. Space heaters used to offset drafty windows in older homes are another common ignition source the township's fire responders see regularly.
+Winters in this part of northeastern Ohio are hard on homes too. Freeze-thaw cycles stress chimney mortar and flashing, and a cracked flue liner can allow embers or heat to reach combustible framing, a slow-burn hazard that sometimes doesn't announce itself until a fire is already established inside the wall. Space heaters used to offset drafty windows in older homes are another common ignition source the township's fire responders see regularly.
 
 ## Our Fire Damage Restoration Process in Austintown
 
-The first step on any fire loss is emergency stabilization — boarding windows, tarping roof penetrations, and securing the structure so weather doesn't compound the damage overnight. From there, the process moves in a deliberate sequence:
+The first step on any fire loss is emergency stabilization, boarding windows, tarping roof penetrations, and securing the structure so weather doesn't compound the damage overnight. From there, the process moves in a deliberate sequence:
 
 **Scope and documentation.** We photograph and inventory every affected surface before anything is moved or cleaned. This documentation is the backbone of your insurance claim.
 
-**Dry-out if water is present.** Firefighting leaves standing water and saturated materials. We extract and dry per the IICRC S500 standard before smoke cleaning begins — wet soot is far harder to remove and promotes mold growth within days in Ohio's humid winters.
+**Dry-out if water is present.** Firefighting leaves standing water and saturated materials. We extract and dry per the IICRC S500 standard before smoke cleaning begins, wet soot is far harder to remove and promotes mold growth within days in Ohio's humid winters.
 
-**Structural soot removal.** Dry chemical sponges, HEPA vacuuming, and thermal fogging address smoke residue on framing, drywall, and HVAC surfaces. In homes with plaster walls — still common in older Austintown construction — we test the substrate before applying any wet cleaning method, because plaster absorbs liquid differently than modern drywall and can delaminate if oversaturated.
+**Structural soot removal.** Dry chemical sponges, HEPA vacuuming, and thermal fogging address smoke residue on framing, drywall, and HVAC surfaces. In homes with plaster walls, still common in older Austintown construction, we test the substrate before applying any wet cleaning method, because plaster absorbs liquid differently than modern drywall and can delaminate if oversaturated.
 
 **Odor neutralization.** Ozone treatment and hydroxyl generators run after cleaning to break down odor compounds at the molecular level, not just mask them.
 
-**Reconstruction.** Our team carries EPA Lead-Safe certification, which matters in pre-1978 homes — a category that covers a significant portion of Austintown's residential inventory. Any demo that disturbs painted surfaces is handled with the required containment and disposal protocols.
+**Reconstruction.** Our team carries EPA Lead-Safe certification, which matters in pre-1978 homes, a category that covers a significant portion of Austintown's residential inventory. Any demo that disturbs painted surfaces is handled with the required containment and disposal protocols.
 
 ## Reaching Austintown from Our Youngstown Base
 
-Our staging location in Youngstown puts Austintown within a short drive via Mahoning Avenue or Belmont Avenue — two of the most direct routes into the township. Because we operate 24/7, a call at 2 a.m. gets the same response as a call at noon. We carry our full equipment load on every dispatch, so there's no second trip for additional gear.
+Our staging location in Youngstown puts Austintown within a short drive via Mahoning Avenue or Belmont Avenue, two of the most direct routes into the township. Because we operate 24/7, a call at 2 a.m. gets the same response as a call at noon. We carry our full equipment load on every dispatch, so there's no second trip for additional gear.
 
 ## Austintown Insurance Coordination
 
@@ -52,6 +52,6 @@ Most homeowners' policies cover sudden and accidental fire losses, but the docum
 
 ## Local Note
 
-In Austintown's older ranch-style homes, the attic is often one continuous open space running the full length of the structure with minimal fire blocking between bays. When a kitchen or garage fire produces heavy smoke, that attic void acts like a chimney in reverse — drawing particulates up through light fixtures, recessed cans, and unsealed top plates and depositing soot across the entire ceiling plane even in rooms that show no other visible damage. It's one of the most commonly missed scopes on fire losses in this housing type, and it's something we check on every job before finalizing the cleaning plan.
+In Austintown's older ranch-style homes, the attic is often one continuous open space running the full length of the structure with minimal fire blocking between bays. When a kitchen or garage fire produces heavy smoke, that attic void acts like a chimney in reverse, drawing particulates up through light fixtures, recessed cans, and unsealed top plates and depositing soot across the entire ceiling plane even in rooms that show no other visible damage. It's one of the most commonly missed scopes on fire losses in this housing type, and it's something we check on every job before finalizing the cleaning plan.
 
-If fire has touched your home, call DISS Restoration at **(724) 981-1441**. We'll assess the full scope of damage in Austintown — including what the smoke reached that the flames didn't — and walk you through every step from stabilization to move-back.
+If fire has touched your home, call DISS Restoration at **(724) 981-1441**. We'll assess the full scope of damage in Austintown, including what the smoke reached that the flames didn't, and walk you through every step from stabilization to move-back.

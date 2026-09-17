@@ -17,42 +17,42 @@ service_slug: "soot-removal"
 service_display: "Soot Removal"
 rendered: true
 ---
-The fire is out, but the damage isn't done. Within hours of extinguishment, soot residue begins bonding to walls, ceilings, and contents — and the longer it sits, the deeper it penetrates. That oily, acidic film isn't just a stain problem. It etches painted surfaces, corrodes metal fixtures, and embeds into porous materials like drywall and wood trim in ways that make surface wiping useless. Soot removal is a precision cleaning process, not a scrub-down, and the window to do it right closes faster than most homeowners realize.
+The fire is out, but the damage isn't done. Within hours of extinguishment, soot residue begins bonding to walls, ceilings, and contents, and the longer it sits, the deeper it penetrates. That oily, acidic film isn't just a stain problem. It etches painted surfaces, corrodes metal fixtures, and embeds into porous materials like drywall and wood trim in ways that make surface wiping useless. Soot removal is a precision cleaning process, not a scrub-down, and the window to do it right closes faster than most homeowners realize.
 
 ## What soot removal actually involves
 
-Soot isn't a single substance. The residue left behind after a kitchen grease fire behaves completely differently from the thick, wet soot produced by burning synthetic materials like carpet, foam furniture, or plastics. Protein soot — from cooking fires — is nearly invisible but leaves a powerful odor and a sticky film that smears badly if wiped dry. Synthetic soot is dense, oily, and penetrates porous surfaces aggressively. Identifying the soot type before touching anything determines which cleaning agents, tools, and techniques will actually work.
+Soot isn't a single substance. The residue left behind after a kitchen grease fire behaves completely differently from the thick, wet soot produced by burning synthetic materials like carpet, foam furniture, or plastics. Protein soot, from cooking fires, is nearly invisible but leaves a powerful odor and a sticky film that smears badly if wiped dry. Synthetic soot is dense, oily, and penetrates porous surfaces aggressively. Identifying the soot type before touching anything determines which cleaning agents, tools, and techniques will actually work.
 
-The work itself involves dry chemical sponges for loose soot on walls and ceilings before any wet cleaning begins, followed by pH-matched chemical solutions applied in the correct sequence to lift residue without driving it deeper. HEPA-filtered vacuums capture airborne particulate during the process. Affected HVAC systems require separate attention — soot circulates through ductwork and recontaminates cleaned surfaces if the system is run before it's addressed. In Bakersfield homes, where central air runs most of the year, this step is almost never optional.
+The work itself involves dry chemical sponges for loose soot on walls and ceilings before any wet cleaning begins, followed by pH-matched chemical solutions applied in the correct sequence to lift residue without driving it deeper. HEPA-filtered vacuums capture airborne particulate during the process. Affected HVAC systems require separate attention, soot circulates through ductwork and recontaminates cleaned surfaces if the system is run before it's addressed. In Bakersfield homes, where central air runs most of the year, this step is almost never optional.
 
 Timeline depends on the size of the affected area and soot type, but a thorough residential soot cleaning typically runs one to three days for a moderate single-room fire, longer when smoke has migrated through HVAC or into adjacent rooms.
 
 ## Our process
 
-1. **Soot characterization and scope assessment.** Before any cleaning begins, we identify the fire source, the soot type (protein, synthetic, or wet/dry combination), and how far smoke has traveled. We check HVAC registers, attic access points, and adjacent rooms — smoke follows air pressure, not just sight lines.
+1. **Soot characterization and scope assessment.** Before any cleaning begins, we identify the fire source, the soot type (protein, synthetic, or wet/dry combination), and how far smoke has traveled. We check HVAC registers, attic access points, and adjacent rooms, smoke follows air pressure, not just sight lines.
 
 2. **Dry soot removal first.** Loose soot is removed with dry chemical sponges using single-pass strokes. Scrubbing or using wet solutions before this step smears residue into the surface and creates staining that requires repainting or resurfacing to correct. This sequencing is non-negotiable.
 
 3. **Chemical cleaning by surface type.** Walls, ceilings, cabinets, and hard contents each require different cleaning agents. Alkaline degreasers work on synthetic soot; protein soot requires enzyme-based solutions. We match chemistry to surface and soot type rather than applying a single product across the entire structure.
 
-4. **HVAC and ductwork evaluation.** We assess whether the system circulated smoke during or after the fire. Contaminated ductwork gets sealed or cleaned before the structure is cleared — running a soot-coated system redeposits particulate on every surface in the home.
+4. **HVAC and ductwork evaluation.** We assess whether the system circulated smoke during or after the fire. Contaminated ductwork gets sealed or cleaned before the structure is cleared, running a soot-coated system redeposits particulate on every surface in the home.
 
-5. **Documentation and clearance.** Every affected surface is photographed before and after cleaning. We document materials, cleaning methods used, and areas requiring repainting or replacement — the format insurance adjusters need to process a contents and structure claim without back-and-forth.
+5. **Documentation and clearance.** Every affected surface is photographed before and after cleaning. We document materials, cleaning methods used, and areas requiring repainting or replacement, the format insurance adjusters need to process a contents and structure claim without back-and-forth.
 
 ## What separates a good soot removal response from a bad one
 
 The most common mistake is skipping dry soot removal and going straight to wet cleaning. It feels faster, but it drives oily residue into drywall paper and wood grain, turning a cleanable surface into one that needs replacement. Adjusters see this regularly and it inflates claim costs unnecessarily.
 
-A second failure point is ignoring smoke migration. Soot visible in the room of origin is obvious. What gets missed is the residue that traveled through gaps in framing, into closets, or through return-air vents into other rooms. Cleaning only the visible damage and closing the job leaves odor sources and residue that show up weeks later as discoloration or persistent smell — and reopening a closed insurance claim is significantly harder than documenting it correctly the first time.
+A second failure point is ignoring smoke migration. Soot visible in the room of origin is obvious. What gets missed is the residue that traveled through gaps in framing, into closets, or through return-air vents into other rooms. Cleaning only the visible damage and closing the job leaves odor sources and residue that show up weeks later as discoloration or persistent smell, and reopening a closed insurance claim is significantly harder than documenting it correctly the first time.
 
 Insurance adjusters look for itemized documentation: which surfaces were cleaned versus replaced, what cleaning agents were used, and whether HVAC was addressed. A job without that paper trail creates disputes at settlement. Our IICRC-certified technicians document the work in the format carriers expect, which keeps your claim moving.
 
 ## Seasonal and regional considerations
 
-Bakersfield's climate creates specific conditions that affect soot cleanup. The valley's low humidity for most of the year means soot dries and bonds to surfaces faster than in coastal or humid climates — the window for easier removal is shorter here than it would be in a wetter region. Conversely, the tule fog season brings localized high-humidity periods in winter months that can reactivate odors in structures that weren't fully cleaned, making thoroughness in the initial response especially important. Homes throughout the Central Valley also tend to run HVAC systems year-round, increasing the likelihood that smoke has circulated through ductwork before the system was shut down.
+Bakersfield's climate creates specific conditions that affect soot cleanup. The valley's low humidity for most of the year means soot dries and bonds to surfaces faster than in coastal or humid climates, the window for easier removal is shorter here than it would be in a wetter region. Conversely, the tule fog season brings localized high-humidity periods in winter months that can reactivate odors in structures that weren't fully cleaned, making thoroughness in the initial response especially important. Homes throughout the Central Valley also tend to run HVAC systems year-round, increasing the likelihood that smoke has circulated through ductwork before the system was shut down.
 
 ## Service area
 
 ProRestoration Services is based in Bakersfield and handles soot removal throughout Kern County, including Oildale, Rosamond, Tehachapi, Shafter, Wasco, and McFarland. The city-specific pages for each area link back here for the full technical detail on how soot removal works.
 
-If you're looking at soot-covered walls right now, the clock is already running. Call (661) 393-9306 — we're available around the clock — and we'll assess the soot type, scope the affected area, and start the cleaning sequence before the residue has more time to set. The sooner the work begins, the more of your home's surfaces and contents can be cleaned rather than replaced.
+If you're looking at soot-covered walls right now, the clock is already running. Call (661) 393-9306, we're available around the clock, and we'll assess the soot type, scope the affected area, and start the cleaning sequence before the residue has more time to set. The sooner the work begins, the more of your home's surfaces and contents can be cleaned rather than replaced.

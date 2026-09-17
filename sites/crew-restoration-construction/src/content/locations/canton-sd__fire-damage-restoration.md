@@ -20,43 +20,43 @@ state: "SD"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-When a house fire tears through a home near the Big Sioux River, the damage rarely stops at the charred walls. Smoke travels fast through older construction — seeping into plaster, settling into wood framing, and embedding in the kind of century-old millwork that defines so much of Canton's residential character. Crew Restoration & Construction responds to fire damage in Canton (57013) with a full-scope approach: structural assessment, smoke and soot removal, odor neutralization, and reconstruction — so you're not managing five different contractors while your home sits open to the elements.
+When a house fire tears through a home near the Big Sioux River, the damage rarely stops at the charred walls. Smoke travels fast through older construction, seeping into plaster, settling into wood framing, and embedding in the kind of century-old millwork that defines so much of Canton's residential character. Crew Restoration & Construction responds to fire damage in Canton (57013) with a full-scope approach: structural assessment, smoke and soot removal, odor neutralization, and reconstruction, so you're not managing five different contractors while your home sits open to the elements.
 
 ## Why Canton Properties Face Particular Challenges After a Fire
 
-Cantons's housing stock skews older. Much of the residential fabric around Downtown Canton and the neighborhoods feeding into Lincoln County predates modern fire-resistive construction standards. That means balloon-frame walls, true-dimension lumber, and plaster-and-lath interiors — materials that burn differently and hold smoke odor longer than modern OSB and drywall construction.
+Cantons's housing stock skews older. Much of the residential fabric around Downtown Canton and the neighborhoods feeding into Lincoln County predates modern fire-resistive construction standards. That means balloon-frame walls, true-dimension lumber, and plaster-and-lath interiors, materials that burn differently and hold smoke odor longer than modern OSB and drywall construction.
 
 Balloon framing, common in homes built before the 1950s, creates continuous vertical cavities from the basement sill plate to the roof rafters. When fire or superheated smoke enters one floor, it drafts upward through those cavities and deposits soot in areas that show no visible burn damage. A kitchen fire that looks contained can leave smoke residue in second-floor closets and attic spaces. Missing that hidden contamination is one of the most common reasons fire-damaged homes develop persistent odor months after a surface-level cleanup.
 
-The proximity to Newton Hills State Park also means Canton sees genuine humidity swings through spring and fall. Moisture that moves into fire-damaged framing before drying work begins accelerates secondary damage — charred wood absorbs water readily, and mold colonization can begin in as little as 48 to 72 hours under the right conditions.
+The proximity to Newton Hills State Park also means Canton sees genuine humidity swings through spring and fall. Moisture that moves into fire-damaged framing before drying work begins accelerates secondary damage, charred wood absorbs water readily, and mold colonization can begin in as little as 48 to 72 hours under the right conditions.
 
 ## Our Fire Damage Restoration Process in Canton
 
-Every job starts with a structured scope — not a visual walk-through, but a systematic inspection that includes thermal imaging to locate heat-affected cavities and moisture readings on materials that absorbed water from suppression efforts. We document everything photographically before a single piece of debris moves, which matters when you're filing a claim with your carrier.
+Every job starts with a structured scope, not a visual walk-through, but a systematic inspection that includes thermal imaging to locate heat-affected cavities and moisture readings on materials that absorbed water from suppression efforts. We document everything photographically before a single piece of debris moves, which matters when you're filing a claim with your carrier.
 
 From there, the process moves in a defined sequence:
 
 - **Emergency board-up and tarping** to secure the structure against weather and unauthorized entry
 - **Controlled demolition** of unsalvageable materials, with careful separation of what can be restored versus what needs replacement
-- **HEPA vacuuming and dry-sponge wiping** of soot from surfaces — soot is oily and acidic; scrubbing before dry removal drives it deeper into porous materials
+- **HEPA vacuuming and dry-sponge wiping** of soot from surfaces, soot is oily and acidic; scrubbing before dry removal drives it deeper into porous materials
 - **Hydroxyl or thermal fogging** for odor neutralization in wall cavities and HVAC pathways
 - **Structural drying** of any water-saturated framing from suppression
-- **Reconstruction** — framing, insulation, drywall, finish work — handled in-house so the project doesn't stall waiting on a separate general contractor
+- **Reconstruction**, framing, insulation, drywall, finish work, handled in-house so the project doesn't stall waiting on a separate general contractor
 
 For homes with original plaster walls, we assess whether the plaster can be preserved. In many Downtown Canton homes, that original finish is worth saving both for historical character and because replastering to match is expensive. Where smoke has penetrated deeply, we apply an encapsulating primer before any finish coat to lock in residual odor compounds.
 
 ## Reaching Canton from Our Sioux Falls Base
 
-Canton sits roughly 25 miles south of Sioux Falls along I-29, making it one of the closer Lincoln County communities for our crews to reach. We stage equipment and personnel from Sioux Falls, and the direct interstate corridor means we're not navigating rural county roads to get on-site. When you call (605) 965-2727, the team that responds is the same team that handles the full scope — no handoffs to subcontractors for the mitigation phase.
+Canton sits roughly 25 miles south of Sioux Falls along I-29, making it one of the closer Lincoln County communities for our crews to reach. We stage equipment and personnel from Sioux Falls, and the direct interstate corridor means we're not navigating rural county roads to get on-site. When you call (605) 965-2727, the team that responds is the same team that handles the full scope, no handoffs to subcontractors for the mitigation phase.
 
 ## Canton Insurance Coordination
 
-Fire claims in South Dakota are among the more complex residential insurance losses because the scope often expands once demolition begins — hidden smoke damage, water intrusion from suppression, and structural compromise that wasn't visible at first inspection. We prepare itemized documentation aligned with Xactimate line items, which is the estimating platform most carriers use. That means your adjuster receives a scope that speaks the same language as their internal review process, which reduces back-and-forth and speeds up approval.
+Fire claims in South Dakota are among the more complex residential insurance losses because the scope often expands once demolition begins, hidden smoke damage, water intrusion from suppression, and structural compromise that wasn't visible at first inspection. We prepare itemized documentation aligned with Xactimate line items, which is the estimating platform most carriers use. That means your adjuster receives a scope that speaks the same language as their internal review process, which reduces back-and-forth and speeds up approval.
 
-If your policy includes code-upgrade coverage (sometimes called Ordinance or Law coverage), we flag that early. Older Canton homes often require electrical panel upgrades, egress window sizing, or insulation R-value improvements to meet current Lincoln County building codes when a permitted reconstruction is triggered — costs that standard replacement-value coverage may not automatically include.
+If your policy includes code-upgrade coverage (sometimes called Ordinance or Law coverage), we flag that early. Older Canton homes often require electrical panel upgrades, egress window sizing, or insulation R-value improvements to meet current Lincoln County building codes when a permitted reconstruction is triggered, costs that standard replacement-value coverage may not automatically include.
 
 ## Local Note
 
-Homes in the blocks surrounding the Lincoln County Courthouse and the older sections of Downtown Canton frequently have original knob-and-tube or early aluminum wiring that was never fully updated. After a fire, electricians and restoration crews both need to be in those walls — and the sequencing matters. We coordinate directly with the electrical contractor before any insulation or drywall work begins, because closing up walls over compromised wiring creates a reinspection problem that can delay your certificate of occupancy by weeks. It's a step that's easy to skip when everyone is moving fast, and it's one we've learned not to.
+Homes in the blocks surrounding the Lincoln County Courthouse and the older sections of Downtown Canton frequently have original knob-and-tube or early aluminum wiring that was never fully updated. After a fire, electricians and restoration crews both need to be in those walls, and the sequencing matters. We coordinate directly with the electrical contractor before any insulation or drywall work begins, because closing up walls over compromised wiring creates a reinspection problem that can delay your certificate of occupancy by weeks. It's a step that's easy to skip when everyone is moving fast, and it's one we've learned not to.
 
-If your Canton home has been through a fire — whether a contained kitchen incident or a loss that touched multiple rooms — call Crew Restoration & Construction at (605) 965-2727. We'll walk the property, give you an honest assessment of what's salvageable, and put together a documented scope before any work begins.
+If your Canton home has been through a fire, whether a contained kitchen incident or a loss that touched multiple rooms, call Crew Restoration & Construction at (605) 965-2727. We'll walk the property, give you an honest assessment of what's salvageable, and put together a documented scope before any work begins.

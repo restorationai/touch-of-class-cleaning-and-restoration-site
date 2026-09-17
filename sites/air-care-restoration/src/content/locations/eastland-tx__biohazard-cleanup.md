@@ -21,13 +21,13 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
-Eastland sits at the edge of the Palo Pinto Hills in Eastland County, where summer heat regularly pushes past 100°F and the region's older housing stock — much of it built during the oil-boom decades of the early and mid-twentieth century — presents its own set of challenges when a property needs biohazard remediation. When something difficult happens inside a home or business here, the priority is fast, discreet action that protects everyone on the property and brings the space back to a safe, habitable condition. Air Care Restoration responds 24/7 and handles every step so you don't have to.
+Eastland sits at the edge of the Palo Pinto Hills in Eastland County, where summer heat regularly pushes past 100°F and the region's older housing stock, much of it built during the oil-boom decades of the early and mid-twentieth century, presents its own set of challenges when a property needs biohazard remediation. When something difficult happens inside a home or business here, the priority is fast, discreet action that protects everyone on the property and brings the space back to a safe, habitable condition. Air Care Restoration responds 24/7 and handles every step so you don't have to.
 
 ## Why Eastland Properties Present Unique Biohazard Considerations
 
-The housing stock across Eastland County skews older. Many residences were constructed before modern ventilation standards, which means porous materials — plaster walls, original hardwood subfloors, unsealed concrete — are far more common than in newer builds. Porous surfaces absorb biological material more readily than modern vinyl or engineered composites, and the West Texas heat accelerates the breakdown of organic matter and the spread of pathogens. What might be a surface-level concern in a newer structure can penetrate deeply into original materials in a mid-century Eastland home, requiring more thorough removal and treatment rather than simple surface cleaning.
+The housing stock across Eastland County skews older. Many residences were constructed before modern ventilation standards, which means porous materials, plaster walls, original hardwood subfloors, unsealed concrete, are far more common than in newer builds. Porous surfaces absorb biological material more readily than modern vinyl or engineered composites, and the West Texas heat accelerates the breakdown of organic matter and the spread of pathogens. What might be a surface-level concern in a newer structure can penetrate deeply into original materials in a mid-century Eastland home, requiring more thorough removal and treatment rather than simple surface cleaning.
 
-The region's low humidity swings — dry winters followed by humid late-summer storm periods — also affect how materials off-gas and how quickly contamination can spread through HVAC systems that haven't been updated in decades. These are not abstract concerns; they shape the scope of work on every job.
+The region's low humidity swings, dry winters followed by humid late-summer storm periods, also affect how materials off-gas and how quickly contamination can spread through HVAC systems that haven't been updated in decades. These are not abstract concerns; they shape the scope of work on every job.
 
 ## Our Biohazard Cleanup Process in Eastland
 
@@ -37,13 +37,13 @@ Every situation is different, and we approach each one with that in mind. The pr
 
 **Safe removal of affected materials** follows. Porous materials that cannot be decontaminated to a safe standard are removed and disposed of in accordance with applicable Texas Department of State Health Services regulations for biohazardous waste. Our team is OSHA trained and operates as an IICRC Certified Firm, which means the work meets recognized industry standards for safety and documentation.
 
-**Treatment and disinfection** of remaining surfaces uses EPA-registered disinfectants appropriate to the specific biological hazard present. This is not a general cleaning product — the chemistry is matched to the pathogen category.
+**Treatment and disinfection** of remaining surfaces uses EPA-registered disinfectants appropriate to the specific biological hazard present. This is not a general cleaning product, the chemistry is matched to the pathogen category.
 
 **Final documentation** confirms the scope of work completed before the area is cleared. Documentation is prepared for insurance purposes and, when relevant, for property transfer or landlord-tenant records.
 
 ## Reaching Eastland from Abilene
 
-Air Care Restoration is based in Abilene and serves Eastland County around the clock. The drive out on I-20 East puts our crew in Eastland in roughly an hour under normal conditions — and because we operate 24/7, that response window applies regardless of when you call. If you're coordinating on behalf of a property in the county seat or anywhere along the US-183 corridor, dispatch can confirm an estimated arrival when you call (325) 339-8723.
+Air Care Restoration is based in Abilene and serves Eastland County around the clock. The drive out on I-20 East puts our crew in Eastland in roughly an hour under normal conditions, and because we operate 24/7, that response window applies regardless of when you call. If you're coordinating on behalf of a property in the county seat or anywhere along the US-183 corridor, dispatch can confirm an estimated arrival when you call (325) 339-8723.
 
 ## Insurance Coordination for Eastland Property Owners
 
@@ -51,6 +51,6 @@ Biohazard remediation is often a covered loss under homeowners or commercial pro
 
 ## Local Note
 
-One thing that comes up specifically in Eastland County's older commercial buildings — particularly structures along the historic downtown corridor that were built as retail or mixed-use in the early twentieth century — is the presence of original tongue-and-groove wood flooring laid directly over a crawl space or unfinished slab. Biological contamination that reaches that flooring can wick laterally through the wood grain well beyond the visible affected area. Thermal imaging and moisture readings help identify the true boundary of contamination before any material is removed, which prevents the frustrating situation of completing cleanup only to discover the affected zone extended further than the visible staining suggested.
+One thing that comes up specifically in Eastland County's older commercial buildings, particularly structures along the historic downtown corridor that were built as retail or mixed-use in the early twentieth century, is the presence of original tongue-and-groove wood flooring laid directly over a crawl space or unfinished slab. Biological contamination that reaches that flooring can wick laterally through the wood grain well beyond the visible affected area. Thermal imaging and moisture readings help identify the true boundary of contamination before any material is removed, which prevents the frustrating situation of completing cleanup only to discover the affected zone extended further than the visible staining suggested.
 
-When something difficult happens in your home or on your property in Eastland, the last thing you need is uncertainty about who to call or what comes next. Air Care Restoration handles biohazard cleanup in Eastland with discretion, proper certification, and direct insurance billing — available any hour of the day or night. Call (325) 339-8723 to speak with someone now.
+When something difficult happens in your home or on your property in Eastland, the last thing you need is uncertainty about who to call or what comes next. Air Care Restoration handles biohazard cleanup in Eastland with discretion, proper certification, and direct insurance billing, available any hour of the day or night. Call (325) 339-8723 to speak with someone now.

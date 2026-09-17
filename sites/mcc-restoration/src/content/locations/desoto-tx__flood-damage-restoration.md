@@ -20,7 +20,7 @@ state: "TX"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
-DeSoto's spring storm season hits hard and fast — a line of severe thunderstorms can drop two inches of rain in under an hour, overwhelming the drainage along the Hampton Road corridor and sending water sheeting into garages, crawl spaces, and finished basements before homeowners have time to react. The clay-heavy soil that dominates much of 75115 doesn't absorb that runoff; it sheds it straight toward foundations. When flood water finds its way inside a 1980s brick home in Thorntree or Windmill Hill, the clock starts immediately — and every hour of standing water is an hour closer to structural damage and mold colonization.
+DeSoto's spring storm season hits hard and fast, a line of severe thunderstorms can drop two inches of rain in under an hour, overwhelming the drainage along the Hampton Road corridor and sending water sheeting into garages, crawl spaces, and finished basements before homeowners have time to react. The clay-heavy soil that dominates much of 75115 doesn't absorb that runoff; it sheds it straight toward foundations. When flood water finds its way inside a 1980s brick home in Thorntree or Windmill Hill, the clock starts immediately, and every hour of standing water is an hour closer to structural damage and mold colonization.
 
 ## Why DeSoto Properties See Flood Damage So Often
 
@@ -28,9 +28,9 @@ Three overlapping factors make flood damage a recurring reality for DeSoto homeo
 
 First, the soil. Expansive clay underlies most of the Best Southwest suburbs, and DeSoto is no exception. It shifts with moisture, which means foundations crack, plumbing joints separate, and slab leaks develop in homes that were perfectly sound a decade ago. A slow slab leak can saturate the subfloor for weeks before anyone notices the soft spot under the carpet.
 
-Second, the housing stock. The large-lot brick homes built throughout Thorntree and Windmill Hill between the 1970s and 1990s are now 30 to 50 years old. Water heaters installed during those decades have long since passed their expected service life. A failed water heater in a utility closet can release 40 to 50 gallons before the supply valve is located and shut off — enough to soak drywall, insulation, and hardwood flooring across an entire hallway.
+Second, the housing stock. The large-lot brick homes built throughout Thorntree and Windmill Hill between the 1970s and 1990s are now 30 to 50 years old. Water heaters installed during those decades have long since passed their expected service life. A failed water heater in a utility closet can release 40 to 50 gallons before the supply valve is located and shut off, enough to soak drywall, insulation, and hardwood flooring across an entire hallway.
 
-Third, mature tree canopy. The established oaks and pecans that give neighborhoods near Thorntree Country Club their character also drop heavy limbs onto roofs during hail and wind events — the April 2022 storm being a recent example that kept storm-restoration crews busy across the city for weeks. A breached roof during a rain event is a fast path to ceiling collapse and interior flooding.
+Third, mature tree canopy. The established oaks and pecans that give neighborhoods near Thorntree Country Club their character also drop heavy limbs onto roofs during hail and wind events, the April 2022 storm being a recent example that kept storm-restoration crews busy across the city for weeks. A breached roof during a rain event is a fast path to ceiling collapse and interior flooding.
 
 ## Our Flood Damage Restoration Process in DeSoto
 
@@ -42,22 +42,22 @@ Flood cleanup in DeSoto's older homes requires a methodical sequence, not just w
 
 **3. Controlled demolition of non-salvageable materials.** Saturated drywall, insulation, and flooring that cannot be dried in place are removed and documented before disposal. We photograph and catalog everything for your insurance claim.
 
-**4. Structural drying.** Industrial air movers and dehumidifiers are positioned based on moisture mapping — not guesswork. We take daily readings and adjust equipment placement until affected assemblies reach documented dry standard.
+**4. Structural drying.** Industrial air movers and dehumidifiers are positioned based on moisture mapping, not guesswork. We take daily readings and adjust equipment placement until affected assemblies reach documented dry standard.
 
-**5. Antimicrobial treatment.** Flood water — whether from a burst pipe or storm intrusion — carries contaminants. Affected surfaces receive antimicrobial application before reconstruction begins.
+**5. Antimicrobial treatment.** Flood water, whether from a burst pipe or storm intrusion, carries contaminants. Affected surfaces receive antimicrobial application before reconstruction begins.
 
 **6. Reconstruction.** MCC handles the rebuild, so you are not coordinating a separate contractor for drywall, flooring, and paint. One company manages the job from wet to finished.
 
 ## Reaching DeSoto from Duncanville
 
-MCC Restoration and Contracting Services is based in Duncanville, which shares a border with DeSoto along the Polk Street and Camp Wisdom Road corridors. That proximity means crews are not driving from across the Metroplex — we are neighbors. Whether the call comes from a home near Zeiger Park or a property along the Hampton Road corridor, the route is direct. Call (682) 772-9123 to schedule service and confirm current availability.
+MCC Restoration and Contracting Services is based in Duncanville, which shares a border with DeSoto along the Polk Street and Camp Wisdom Road corridors. That proximity means crews are not driving from across the Metroplex, we are neighbors. Whether the call comes from a home near Zeiger Park or a property along the Hampton Road corridor, the route is direct. Call (682) 772-9123 to schedule service and confirm current availability.
 
 ## DeSoto Insurance Coordination
 
-Flood damage claims in DeSoto most commonly run through standard homeowners policies under the sudden-and-accidental water damage provision — not the separate flood insurance that FEMA's NFIP program covers. The distinction matters because it affects what is covered and how the adjuster documents the loss. We prepare a detailed scope of work, photograph all affected materials before removal, and provide moisture logs that support your claim file. If your carrier requires a preferred vendor or a specific documentation format, let us know at the first call and we will align our paperwork accordingly.
+Flood damage claims in DeSoto most commonly run through standard homeowners policies under the sudden-and-accidental water damage provision, not the separate flood insurance that FEMA's NFIP program covers. The distinction matters because it affects what is covered and how the adjuster documents the loss. We prepare a detailed scope of work, photograph all affected materials before removal, and provide moisture logs that support your claim file. If your carrier requires a preferred vendor or a specific documentation format, let us know at the first call and we will align our paperwork accordingly.
 
 ## Local Note
 
-In Thorntree and Windmill Hill, many homes were built with original cast-iron drain lines that have partially corroded over the past four decades. When a flood event occurs — whether from a storm backup or a burst supply line — those corroded drains sometimes cannot handle the extraction discharge rate without backing up further. We carry flexible discharge hose long enough to route water to a cleanout or exterior point rather than stressing an already compromised drain stack. It is a small adjustment that prevents a second water event during cleanup, and it is the kind of thing that only comes up in neighborhoods with homes this age.
+In Thorntree and Windmill Hill, many homes were built with original cast-iron drain lines that have partially corroded over the past four decades. When a flood event occurs, whether from a storm backup or a burst supply line, those corroded drains sometimes cannot handle the extraction discharge rate without backing up further. We carry flexible discharge hose long enough to route water to a cleanout or exterior point rather than stressing an already compromised drain stack. It is a small adjustment that prevents a second water event during cleanup, and it is the kind of thing that only comes up in neighborhoods with homes this age.
 
-If flood water has entered your DeSoto home, the best move is a prompt call to get the extraction and drying process started before secondary damage compounds the loss. Reach MCC Restoration and Contracting Services at (682) 772-9123 — we serve the full 75115 area and can schedule an assessment to get your home on the path to dry and rebuilt.
+If flood water has entered your DeSoto home, the best move is a prompt call to get the extraction and drying process started before secondary damage compounds the loss. Reach MCC Restoration and Contracting Services at (682) 772-9123, we serve the full 75115 area and can schedule an assessment to get your home on the path to dry and rebuilt.

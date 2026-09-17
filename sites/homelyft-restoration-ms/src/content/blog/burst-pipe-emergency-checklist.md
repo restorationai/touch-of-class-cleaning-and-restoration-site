@@ -21,29 +21,29 @@ A burst pipe can dump hundreds of gallons of water into your home in under an ho
 
 ---
 
-## Step 1 — Stop the Water (First 5 Minutes)
+## Step 1, Stop the Water (First 5 Minutes)
 
 Your main shutoff valve is usually located in one of three places in a Gulf Coast home: near the water meter at the street, in a utility closet, or under the kitchen sink. In older Gulfport neighborhoods with pier-and-beam construction, check the crawl space access panel near the front of the house.
 
 **Sequential steps once you find it:**
 
-1. Turn the valve clockwise until it stops. If it hasn't been moved in years, it may be stiff — use a wrench or a pair of pliers.
+1. Turn the valve clockwise until it stops. If it hasn't been moved in years, it may be stiff, use a wrench or a pair of pliers.
 2. Open a faucet on the lowest floor of the house to drain pressure from the lines and slow any residual flow.
-3. Turn off your water heater at the breaker or the unit's gas valve — running a water heater dry can damage the element or tank.
+3. Turn off your water heater at the breaker or the unit's gas valve, running a water heater dry can damage the element or tank.
 4. If water is near any electrical panel, outlets, or appliances, flip the breaker for that area of the house before you go near it.
 
 If you can't locate the main shutoff or it won't budge, call Gulfport Utility Services to shut off at the meter. Keep that number in your phone now: (228) 868-5700.
 
 ---
 
-## Step 2 — Document Everything Before You Touch Anything Else
+## Step 2, Document Everything Before You Touch Anything Else
 
 Once the water is off and the electricity is safe, resist the urge to start mopping. Spend five minutes with your phone camera first. Insurance adjusters work from documentation, and photos taken before cleanup can be the difference between a full claim payout and a dispute.
 
 **What to photograph:**
 
 - The burst pipe or the area where water is entering (pull back insulation or open a cabinet door if it's accessible without tools)
-- Every room with visible water — standing water on floors, wet baseboards, water stains on ceilings
+- Every room with visible water, standing water on floors, wet baseboards, water stains on ceilings
 - Damaged personal property: furniture legs sitting in water, soaked rugs, warped cabinetry
 - Your water meter reading (timestamp the photo)
 
@@ -51,16 +51,16 @@ Then call your homeowner's insurance company to open a claim. Most carriers have
 
 ---
 
-## Step 3 — Begin Water Removal (If It's Safe to Do So)
+## Step 3, Begin Water Removal (If It's Safe to Do So)
 
-Standing water starts damaging subfloors, wall framing, and drywall immediately. Mold can begin colonizing wet organic material — wood, drywall paper, insulation — within 24 to 48 hours in Mississippi's humidity. Every hour of standing water matters.
+Standing water starts damaging subfloors, wall framing, and drywall immediately. Mold can begin colonizing wet organic material, wood, drywall paper, insulation, within 24 to 48 hours in Mississippi's humidity. Every hour of standing water matters.
 
 If the affected area is manageable (a bathroom, a laundry room, a section of hallway), you can start removing surface water yourself:
 
 - Use a wet/dry shop vac to pull water off hard floors
 - Stack towels or use a mop on smaller puddles, wringing into buckets
 - Move furniture off wet carpet and elevate it on aluminum foil squares or wood blocks to prevent rust stains and dye transfer
-- Open windows if outdoor humidity is lower than indoor humidity — in Gulfport summers, this is often not the case, so use fans pointed outward to exhaust humid air instead
+- Open windows if outdoor humidity is lower than indoor humidity, in Gulfport summers, this is often not the case, so use fans pointed outward to exhaust humid air instead
 
 Do not use a standard household vacuum. Do not use a hair dryer or space heater near standing water.
 
@@ -90,13 +90,13 @@ Call a professional restoration company when:
 - The affected area spans multiple rooms or floors
 - Water has soaked into carpet, subfloor, or wall cavities
 - The source was a pipe in the ceiling or behind finished walls
-- You notice a musty smell within 48 hours — that's mold already starting
+- You notice a musty smell within 48 hours, that's mold already starting
 - The pipe that burst was near a drain, toilet, or washing machine drain line (potential contamination)
 - Your insurance company requires a certified moisture assessment for the claim
 
-Professional water damage restoration involves industrial extractors, desiccant or refrigerant dehumidifiers, air movers positioned to dry cavities — not just surfaces — and moisture mapping to confirm the structure is dry before walls are closed up. The process typically takes three to five days for a contained loss, longer if materials need removal.
+Professional water damage restoration involves industrial extractors, desiccant or refrigerant dehumidifiers, air movers positioned to dry cavities, not just surfaces, and moisture mapping to confirm the structure is dry before walls are closed up. The process typically takes three to five days for a contained loss, longer if materials need removal.
 
-Appliance-related bursts — a washing machine supply hose, a refrigerator ice maker line, a dishwasher that overflowed — follow the same restoration process but sometimes involve different insurance coverage categories. If your loss started at an appliance, document the appliance itself and its connections carefully.
+Appliance-related bursts, a washing machine supply hose, a refrigerator ice maker line, a dishwasher that overflowed, follow the same restoration process but sometimes involve different insurance coverage categories. If your loss started at an appliance, document the appliance itself and its connections carefully.
 
 ---
 
@@ -113,4 +113,4 @@ Keep every invoice, every receipt, and every communication with your insurance a
 
 ---
 
-If you're dealing with a burst pipe right now and the water loss is beyond what you can manage with a shop vac and fans, HomeLyft Restoration MS serves Gulfport and the surrounding Gulf Coast area. Call **(228) 284-5200** to reach the team and get a damage assessment scheduled. The sooner the structure is professionally dried, the lower the total cost of recovery — and the smaller the window for mold to take hold.
+If you're dealing with a burst pipe right now and the water loss is beyond what you can manage with a shop vac and fans, HomeLyft Restoration MS serves Gulfport and the surrounding Gulf Coast area. Call **(228) 284-5200** to reach the team and get a damage assessment scheduled. The sooner the structure is professionally dried, the lower the total cost of recovery, and the smaller the window for mold to take hold.

@@ -24,38 +24,38 @@ Bay St. Louis sits where the Pearl River basin meets the Gulf, and that coastal 
 
 ## Why Bay St. Louis Properties Face Compounded Fire Damage
 
-The Gulf Coast's subtropical humidity — regularly above 80% even in cooler months — turns the aftermath of a fire into a race against moisture as much as a cleanup of soot. Smoke residue is hygroscopic: it pulls moisture from the air and bonds more tightly to walls, ceilings, and HVAC ducts the longer it sits. In Bay St. Louis, that process accelerates quickly after firefighters introduce hundreds of gallons of water into an already-humid structure.
+The Gulf Coast's subtropical humidity, regularly above 80% even in cooler months, turns the aftermath of a fire into a race against moisture as much as a cleanup of soot. Smoke residue is hygroscopic: it pulls moisture from the air and bonds more tightly to walls, ceilings, and HVAC ducts the longer it sits. In Bay St. Louis, that process accelerates quickly after firefighters introduce hundreds of gallons of water into an already-humid structure.
 
-The city's housing stock adds another layer of complexity. Many homes here were built in the decades before and after Hurricane Katrina's 2005 landfall, meaning you'll find a mix of older wood-frame construction with wide-plank pine subflooring and post-storm rebuilds using engineered materials. Older pine absorbs smoke differently than OSB or fiber-cement siding — it holds odor compounds deep in the grain and can require multiple rounds of thermal fogging or hydroxyl treatment to fully neutralize. Homes rebuilt under post-Katrina elevation codes also have crawl spaces and raised foundations that can trap smoke residue and require separate attention during the restoration process.
+The city's housing stock adds another layer of complexity. Many homes here were built in the decades before and after Hurricane Katrina's 2005 landfall, meaning you'll find a mix of older wood-frame construction with wide-plank pine subflooring and post-storm rebuilds using engineered materials. Older pine absorbs smoke differently than OSB or fiber-cement siding, it holds odor compounds deep in the grain and can require multiple rounds of thermal fogging or hydroxyl treatment to fully neutralize. Homes rebuilt under post-Katrina elevation codes also have crawl spaces and raised foundations that can trap smoke residue and require separate attention during the restoration process.
 
 ## Our Fire Damage Restoration Process in Bay St. Louis
 
-Every job starts with a structured assessment — not a quick walk-through. The team documents visible char, measures smoke penetration with calibrated equipment, and identifies moisture intrusion from firefighting water before a single item is moved. That documentation matters for your insurance claim and for sequencing the work correctly.
+Every job starts with a structured assessment, not a quick walk-through. The team documents visible char, measures smoke penetration with calibrated equipment, and identifies moisture intrusion from firefighting water before a single item is moved. That documentation matters for your insurance claim and for sequencing the work correctly.
 
 From there, the process follows a defined order:
 
-**1. Emergency board-up and tarping** — open windows, compromised walls, and roof penetrations are secured to prevent rain intrusion. Given Bay St. Louis's exposure to Gulf weather, this step is non-negotiable even on mild days.
+**1. Emergency board-up and tarping**, open windows, compromised walls, and roof penetrations are secured to prevent rain intrusion. Given Bay St. Louis's exposure to Gulf weather, this step is non-negotiable even on mild days.
 
-**2. Controlled demolition of unsalvageable materials** — char-damaged drywall, insulation, and flooring are removed to the extent required by the damage, not beyond. The goal is to preserve what can be saved.
+**2. Controlled demolition of unsalvageable materials**, char-damaged drywall, insulation, and flooring are removed to the extent required by the damage, not beyond. The goal is to preserve what can be saved.
 
-**3. Soot and residue cleaning** — dry chemical sponges, HEPA vacuuming, and wet-cleaning methods are matched to surface type. Protein smoke from kitchen fires requires different chemistry than the heavy black soot from structural fires.
+**3. Soot and residue cleaning**, dry chemical sponges, HEPA vacuuming, and wet-cleaning methods are matched to surface type. Protein smoke from kitchen fires requires different chemistry than the heavy black soot from structural fires.
 
-**4. Deodorization** — hydroxyl generators and thermal fogging reach into wall cavities and HVAC systems. In Bay St. Louis's climate, odor treatment often requires an extended dwell time because ambient humidity slows off-gassing.
+**4. Deodorization**, hydroxyl generators and thermal fogging reach into wall cavities and HVAC systems. In Bay St. Louis's climate, odor treatment often requires an extended dwell time because ambient humidity slows off-gassing.
 
-**5. Structural drying** — water from suppression efforts is addressed using desiccant or refrigerant dehumidifiers and air movers, monitored against moisture maps until readings return to baseline.
+**5. Structural drying**, water from suppression efforts is addressed using desiccant or refrigerant dehumidifiers and air movers, monitored against moisture maps until readings return to baseline.
 
-**6. Reconstruction** — once the structure is clean and dry, rebuild work begins under Mississippi contractor license #RO 2728.
+**6. Reconstruction**, once the structure is clean and dry, rebuild work begins under Mississippi contractor license #RO 2728.
 
 ## Reaching Bay St. Louis from Gulfport
 
-HomeLyft Restoration MS operates out of Gulfport, roughly 20 miles east of Bay St. Louis along U.S. Highway 90. The team can also access the city via Interstate 10 depending on traffic and the specific address. Bay St. Louis spans from the beachfront along Beach Boulevard north toward the Old Town district and beyond, so routing to a job site varies — crews confirm the address before departure to choose the fastest approach. Scheduling is handled by phone at +12282845200; call to confirm current availability and get an estimated arrival window for your situation.
+HomeLyft Restoration MS operates out of Gulfport, roughly 20 miles east of Bay St. Louis along U.S. Highway 90. The team can also access the city via Interstate 10 depending on traffic and the specific address. Bay St. Louis spans from the beachfront along Beach Boulevard north toward the Old Town district and beyond, so routing to a job site varies, crews confirm the address before departure to choose the fastest approach. Scheduling is handled by phone at +12282845200; call to confirm current availability and get an estimated arrival window for your situation.
 
 ## Insurance Coordination for Bay St. Louis Fire Claims
 
-Fire claims in Mississippi are typically handled under the dwelling coverage section of a homeowner's policy, but the documentation requirements vary by carrier. HomeLyft Restoration MS prepares a detailed scope of loss — room-by-room photo documentation, moisture readings, material inventories, and a line-item estimate formatted for adjuster review. This structured package reduces back-and-forth with the insurance company and helps avoid underpayment on items like odor remediation, which adjusters sometimes attempt to minimize without supporting documentation. The team works alongside your adjuster rather than around them.
+Fire claims in Mississippi are typically handled under the dwelling coverage section of a homeowner's policy, but the documentation requirements vary by carrier. HomeLyft Restoration MS prepares a detailed scope of loss, room-by-room photo documentation, moisture readings, material inventories, and a line-item estimate formatted for adjuster review. This structured package reduces back-and-forth with the insurance company and helps avoid underpayment on items like odor remediation, which adjusters sometimes attempt to minimize without supporting documentation. The team works alongside your adjuster rather than around them.
 
 ## Local Note
 
-Bay St. Louis homes that were rebuilt or heavily renovated after Katrina often contain a mix of building materials from different eras — original pre-storm framing married to post-2005 drywall, insulation, and roofing. In a fire, that material layering creates uneven smoke penetration: the newer drywall may show surface soot while the older framing behind it has absorbed odor compounds much more deeply. Restoration crews who aren't familiar with this pattern sometimes clear a job prematurely, only for the homeowner to notice returning smoke odor weeks later when temperatures rise. Recognizing that layered construction is a routine part of working in this community.
+Bay St. Louis homes that were rebuilt or heavily renovated after Katrina often contain a mix of building materials from different eras, original pre-storm framing married to post-2005 drywall, insulation, and roofing. In a fire, that material layering creates uneven smoke penetration: the newer drywall may show surface soot while the older framing behind it has absorbed odor compounds much more deeply. Restoration crews who aren't familiar with this pattern sometimes clear a job prematurely, only for the homeowner to notice returning smoke odor weeks later when temperatures rise. Recognizing that layered construction is a routine part of working in this community.
 
-If your Bay St. Louis home has been affected by fire or smoke, the sooner the assessment begins, the more material and structure can be preserved. Call HomeLyft Restoration MS at +12282845200 to schedule an on-site evaluation — the team will walk you through what they find, what can be saved, and what the restoration timeline looks like before any work begins.
+If your Bay St. Louis home has been affected by fire or smoke, the sooner the assessment begins, the more material and structure can be preserved. Call HomeLyft Restoration MS at +12282845200 to schedule an on-site evaluation, the team will walk you through what they find, what can be saved, and what the restoration timeline looks like before any work begins.

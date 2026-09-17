@@ -19,13 +19,13 @@ state: "NV"
 primary: false
 rendered: true
 ---
-When water backs up through aging pipes in the Historic District, smoke settles into the sandstone-block walls of a Del Prado bungalow, or mold takes hold in a Lake Mountain Estates garage after a monsoon, PuroClean of East Las Vegas is the team Boulder City property owners call. We handle water damage, fire and smoke cleanup, mold remediation, and reconstruction for homes and commercial properties across ZIP codes **89005** and **89006** — and we document everything so your insurance claim moves forward, not sideways.
+When water backs up through aging pipes in the Historic District, smoke settles into the sandstone-block walls of a Del Prado bungalow, or mold takes hold in a Lake Mountain Estates garage after a monsoon, PuroClean of East Las Vegas is the team Boulder City property owners call. We handle water damage, fire and smoke cleanup, mold remediation, and reconstruction for homes and commercial properties across ZIP codes **89005** and **89006**, and we document everything so your insurance claim moves forward, not sideways.
 
 ## Restoration emergencies common in Boulder City
 
-Boulder City sits in a unique position for a Southern Nevada town: it was purpose-built in the early 1930s to house Hoover Dam construction workers, which means a significant portion of its housing stock is genuinely old. The Historic District alone contains homes with original galvanized-steel supply lines and cast-iron drain stacks that were never designed to last a century. When those pipes fail — and they do, usually at a fitting or a corroded elbow — the water doesn't just pool on a tile floor. It soaks into plaster walls, original hardwood subfloors, and the kind of dense old-growth framing lumber you simply cannot replace at a lumber yard today.
+Boulder City sits in a unique position for a Southern Nevada town: it was purpose-built in the early 1930s to house Hoover Dam construction workers, which means a significant portion of its housing stock is genuinely old. The Historic District alone contains homes with original galvanized-steel supply lines and cast-iron drain stacks that were never designed to last a century. When those pipes fail, and they do, usually at a fitting or a corroded elbow, the water doesn't just pool on a tile floor. It soaks into plaster walls, original hardwood subfloors, and the kind of dense old-growth framing lumber you simply cannot replace at a lumber yard today.
 
-Beyond the aging infrastructure, Boulder City's position adjacent to Lake Mead National Recreation Area means the surrounding terrain drains toward the town during the region's brief but violent monsoon season (roughly July through September). Flash runoff can overwhelm window wells and foundation drains in lower-lying neighborhoods like Del Prado in under an hour. Meanwhile, the Mojave Desert climate — low humidity most of the year, intense UV, and summer temperatures that regularly exceed 110°F — accelerates the deterioration of roof membranes, caulking, and HVAC condensate lines. A slow drip behind a wall in that climate can go undetected for weeks before the musty smell finally surfaces.
+Beyond the aging infrastructure, Boulder City's position adjacent to Lake Mead National Recreation Area means the surrounding terrain drains toward the town during the region's brief but violent monsoon season (roughly July through September). Flash runoff can overwhelm window wells and foundation drains in lower-lying neighborhoods like Del Prado in under an hour. Meanwhile, the Mojave Desert climate, low humidity most of the year, intense UV, and summer temperatures that regularly exceed 110°F, accelerates the deterioration of roof membranes, caulking, and HVAC condensate lines. A slow drip behind a wall in that climate can go undetected for weeks before the musty smell finally surfaces.
 
 Fire risk is real here too. Bootleg Canyon's trail network borders residential properties on the west side of town, and dry-season wind events can push embers toward structures. Even without a wildland interface fire, kitchen and electrical fires in older homes spread faster through knob-and-tube wiring cavities than through modern construction.
 
@@ -33,11 +33,11 @@ Fire risk is real here too. Bootleg Canyon's trail network borders residential p
 
 ### Water damage restoration
 
-Water damage in Boulder City often involves materials that require careful, measured drying — not just industrial fans pointed at a wall. Historic-district homes frequently have plaster over wood lath, which absorbs and holds moisture differently than modern drywall. We use thermal imaging to map moisture migration before we open walls, then dry to the IICRC S500 standard to avoid over-drying materials that could crack or warp irreversibly.
+Water damage in Boulder City often involves materials that require careful, measured drying, not just industrial fans pointed at a wall. Historic-district homes frequently have plaster over wood lath, which absorbs and holds moisture differently than modern drywall. We use thermal imaging to map moisture migration before we open walls, then dry to the IICRC S500 standard to avoid over-drying materials that could crack or warp irreversibly.
 
 ### Mold remediation
 
-Mold can colonize wet organic material within 24 to 48 hours under the right conditions. In Boulder City's older homes, that means plaster, wood framing, and cellulose insulation are all at risk after any water intrusion. We contain affected areas, remove compromised material, and treat surfaces before reconstruction — and we don't sign off until clearance testing confirms the space is safe to re-occupy.
+Mold can colonize wet organic material within 24 to 48 hours under the right conditions. In Boulder City's older homes, that means plaster, wood framing, and cellulose insulation are all at risk after any water intrusion. We contain affected areas, remove compromised material, and treat surfaces before reconstruction, and we don't sign off until clearance testing confirms the space is safe to re-occupy.
 
 ### Fire and smoke damage restoration
 
@@ -45,18 +45,18 @@ Smoke residue in an older Boulder City home behaves differently than in new cons
 
 ### Reconstruction
 
-Once mitigation is complete, our reconstruction team can restore affected areas to pre-loss condition — including period-appropriate finishes in the Historic District where HOA or preservation guidelines apply. We coordinate directly with your adjuster to keep scope and documentation aligned.
+Once mitigation is complete, our reconstruction team can restore affected areas to pre-loss condition, including period-appropriate finishes in the Historic District where HOA or preservation guidelines apply. We coordinate directly with your adjuster to keep scope and documentation aligned.
 
 ## Coverage and how fast we can get there
 
-Our Las Vegas headquarters is roughly 25 miles from central Boulder City via US-93 South — a straightforward run with no significant traffic bottlenecks outside of peak commute windows. Lake Mountain Estates and Del Prado are both reachable from the US-93 / Nevada Way interchange within minutes of arriving in town. The Historic District, closer to the center of Boulder City, is a short drive from there. We schedule promptly and aim to have a crew on-site the same day for active water or fire losses — call **+17025513040** to confirm current availability.
+Our Las Vegas headquarters is roughly 25 miles from central Boulder City via US-93 South, a straightforward run with no significant traffic bottlenecks outside of peak commute windows. Lake Mountain Estates and Del Prado are both reachable from the US-93 / Nevada Way interchange within minutes of arriving in town. The Historic District, closer to the center of Boulder City, is a short drive from there. We schedule promptly and aim to have a crew on-site the same day for active water or fire losses, call **+17025513040** to confirm current availability.
 
 ## Building stock, site conditions, and permits in Boulder City
 
 Boulder City's housing splits into distinct layers. The original 1930s cottages near the center sit low, often on raised wood floors over shallow crawlspaces, with plaster interiors and framing that dries slowly once wet. Postwar and later subdivisions, including the newer hillside builds, are almost all slab-on-grade with stucco over frame and tile or shingle roofs. On slab, a failed under-slab copper line or a 1980s–90s polybutylene run shows up as warm flooring and baseboard wicking long before anything pools.
 
-The ground here is caliche and rocky desert soil over bedrock in places — it sheds water sideways rather than absorbing it, so runoff tracks along foundations.
+The ground here is caliche and rocky desert soil over bedrock in places, it sheds water sideways rather than absorbing it, so runoff tracks along foundations.
 
 Boulder City runs its own building department separate from Clark County, and structural repair or rebuild work is permitted through the city.
 
-If you're dealing with water, fire, smoke, or mold damage anywhere in Boulder City — whether you're in a 1930s Historic District craftsman or a newer build near Lake Mead National Recreation Area — call PuroClean of East Las Vegas at **+17025513040**. We'll assess the damage, explain the process plainly, and get your property moving toward restored.
+If you're dealing with water, fire, smoke, or mold damage anywhere in Boulder City, whether you're in a 1930s Historic District craftsman or a newer build near Lake Mead National Recreation Area, call PuroClean of East Las Vegas at **+17025513040**. We'll assess the damage, explain the process plainly, and get your property moving toward restored.

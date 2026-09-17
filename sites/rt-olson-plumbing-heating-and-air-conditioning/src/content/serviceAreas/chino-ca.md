@@ -19,11 +19,11 @@ state: "CA"
 primary: false
 rendered: true
 ---
-RT Olson Plumbing, Heating and Air Conditioning handles the full range of plumbing, heating, and air conditioning calls that come out of Chino — from a slab leak under a tract home's foundation to a furnace that quits on a January night. Operating around the clock out of Corona, the team reaches Chino quickly via the 71 Freeway and Euclid Avenue, covering the city's mix of newer master-planned communities and older residential pockets without a dispatch delay.
+RT Olson Plumbing, Heating and Air Conditioning handles the full range of plumbing, heating, and air conditioning calls that come out of Chino, from a slab leak under a tract home's foundation to a furnace that quits on a January night. Operating around the clock out of Corona, the team reaches Chino quickly via the 71 Freeway and Euclid Avenue, covering the city's mix of newer master-planned communities and older residential pockets without a dispatch delay.
 
 ## Restoration emergencies common in Chino
 
-Chino sits in the Inland Empire's inland basin, where summer temperatures regularly push past 100°F and the swing between seasons puts real stress on plumbing and mechanical systems. The heat accelerates water heater sediment buildup and strains aging AC equipment. Winter nights — while rarely freezing — are cold enough that exposed supply lines in uninsulated garages and exterior walls can seize or crack during an unusual cold snap. Chino's clay-heavy soils expand when wet and contract in dry stretches, which shifts slabs and stresses underground supply and drain lines over time. Add the city's significant share of 1970s-through-1990s tract construction, where galvanized steel supply lines and original cast-iron drains are now well past their design life, and the conditions for plumbing failures are built into the neighborhood itself.
+Chino sits in the Inland Empire's inland basin, where summer temperatures regularly push past 100°F and the swing between seasons puts real stress on plumbing and mechanical systems. The heat accelerates water heater sediment buildup and strains aging AC equipment. Winter nights, while rarely freezing, are cold enough that exposed supply lines in uninsulated garages and exterior walls can seize or crack during an unusual cold snap. Chino's clay-heavy soils expand when wet and contract in dry stretches, which shifts slabs and stresses underground supply and drain lines over time. Add the city's significant share of 1970s-through-1990s tract construction, where galvanized steel supply lines and original cast-iron drains are now well past their design life, and the conditions for plumbing failures are built into the neighborhood itself.
 
 ## Services we provide in Chino
 
@@ -34,13 +34,13 @@ A burst pipe or slab leak doesn't wait for business hours. Because RT Olson disp
 Tree roots from mature landscaping throughout Chino's established neighborhoods work their way into clay-tile and ABS sewer laterals over the years. Slow drains and recurring backups are often the first sign. Hydro-jetting and camera inspection locate the blockage or breach without guesswork, so the repair scope is clear before any digging starts.
 
 ### Water heater repair and replacement
-Sediment accumulates faster in areas with hard water, and Chino's water supply — drawn from a mix of groundwater and imported sources through the Inland Empire Utilities Agency — runs on the harder side. Rumbling, inconsistent hot water, or a pilot that won't stay lit are signs a tank is near the end. Tankless and traditional tank replacements are both available, sized to the household.
+Sediment accumulates faster in areas with hard water, and Chino's water supply, drawn from a mix of groundwater and imported sources through the Inland Empire Utilities Agency, runs on the harder side. Rumbling, inconsistent hot water, or a pilot that won't stay lit are signs a tank is near the end. Tankless and traditional tank replacements are both available, sized to the household.
 
 ### Heating and air conditioning
 Chino's summers are long and hot. An AC system that starts short-cycling in July or a furnace that won't ignite in December needs attention before the problem compounds. RT Olson handles repair and maintenance for central forced-air systems, with 24/7 availability for calls that can't wait.
 
 ### Leak detection
-Water that migrates under a slab or behind stucco in Chino's drywall-and-frame construction can go undetected for weeks, driving up water bills and saturating framing. Non-invasive detection methods — acoustic listening equipment and thermal imaging — find the source before walls come open unnecessarily.
+Water that migrates under a slab or behind stucco in Chino's drywall-and-frame construction can go undetected for weeks, driving up water bills and saturating framing. Non-invasive detection methods, acoustic listening equipment and thermal imaging, find the source before walls come open unnecessarily.
 
 ## Coverage and how fast we can get there
 
@@ -52,4 +52,4 @@ Most of Chino's residential stock was built between the 1960s and the early 2000
 
 Chino's soils include expansive clay in portions of the city, which moves with moisture changes and can stress underground lines and slab edges over time. Permits for plumbing and mechanical work in Chino are issued through the City of Chino's Building and Safety Division. Work that involves water heater replacement, drain line repair, or HVAC system changes typically requires a permit and inspection; a licensed contractor pulls the permit as part of the job.
 
-Call RT Olson Plumbing, Heating and Air Conditioning at **(951) 344-5596** any time — day or night — to schedule service or get an emergency technician moving toward your Chino address.
+Call RT Olson Plumbing, Heating and Air Conditioning at **(951) 344-5596** any time, day or night, to schedule service or get an emergency technician moving toward your Chino address.

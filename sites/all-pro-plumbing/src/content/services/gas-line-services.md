@@ -19,15 +19,15 @@ rendered: true
 ---
 ## What gas line work actually involves
 
-You catch a faint sulfur smell near the stove, or the gas company shuts off your meter after the last Kern County tremor, or you're adding a tankless water heater and the existing half-inch black iron line can't feed it. Gas line work covers a narrow but high-stakes slice of plumbing: sizing and running new supply lines, extending existing ones to appliances, replacing corroded or undersized pipe, installing seismic shutoff valves, and locating and repairing leaks that may be inside a wall, under a slab, or at a buried service entrance. The work is methodical — pressure testing, not guesswork — and every completed job in Bakersfield requires a city permit, an inspection, and a final pressure hold before the gas comes back on.
+You catch a faint sulfur smell near the stove, or the gas company shuts off your meter after the last Kern County tremor, or you're adding a tankless water heater and the existing half-inch black iron line can't feed it. Gas line work covers a narrow but high-stakes slice of plumbing: sizing and running new supply lines, extending existing ones to appliances, replacing corroded or undersized pipe, installing seismic shutoff valves, and locating and repairing leaks that may be inside a wall, under a slab, or at a buried service entrance. The work is methodical, pressure testing, not guesswork, and every completed job in Bakersfield requires a city permit, an inspection, and a final pressure hold before the gas comes back on.
 
 ## What gas line installation and leak repair actually involves
 
-A gas line job starts with a pressure test on the existing system to establish a baseline — typically 10 PSI on a residential system held for 15 minutes, though the inspector may require longer. If pressure drops, the leak has to be found before any new pipe is run. Leak detection uses a calibrated combustible-gas detector along every joint and fitting, plus liquid leak-check solution on suspect connections. Electronic detectors can read concentrations well below the lower explosive limit, which matters when you're tracing a slow seep inside a wall cavity.
+A gas line job starts with a pressure test on the existing system to establish a baseline, typically 10 PSI on a residential system held for 15 minutes, though the inspector may require longer. If pressure drops, the leak has to be found before any new pipe is run. Leak detection uses a calibrated combustible-gas detector along every joint and fitting, plus liquid leak-check solution on suspect connections. Electronic detectors can read concentrations well below the lower explosive limit, which matters when you're tracing a slow seep inside a wall cavity.
 
-New installations involve sizing the line correctly for BTU demand — a 60,000 BTU range, a 199,000 BTU tankless water heater, and a 100,000 BTU furnace on the same trunk need a pipe diameter that delivers adequate pressure at every appliance simultaneously, not just the closest one. In Bakersfield's older housing stock, that often means upsizing a corroded half-inch galvanized run to three-quarter-inch or one-inch black iron or CSST (corrugated stainless steel tubing), depending on routing and local code requirements.
+New installations involve sizing the line correctly for BTU demand, a 60,000 BTU range, a 199,000 BTU tankless water heater, and a 100,000 BTU furnace on the same trunk need a pipe diameter that delivers adequate pressure at every appliance simultaneously, not just the closest one. In Bakersfield's older housing stock, that often means upsizing a corroded half-inch galvanized run to three-quarter-inch or one-inch black iron or CSST (corrugated stainless steel tubing), depending on routing and local code requirements.
 
-Earthquake shutoff valves — excess-flow or motion-sensing — are installed at the meter and must be compatible with the utility's service pressure. After the 1994 Northridge earthquake, California adopted stricter guidelines on these valves, and Kern County's seismic activity makes them a practical addition, not just a code checkbox.
+Earthquake shutoff valves, excess-flow or motion-sensing, are installed at the meter and must be compatible with the utility's service pressure. After the 1994 Northridge earthquake, California adopted stricter guidelines on these valves, and Kern County's seismic activity makes them a practical addition, not just a code checkbox.
 
 Timeline: a single appliance connection or minor leak repair typically wraps in two to four hours including the pressure test. A whole-house repipe or new service line to a detached structure takes one to two days plus the inspection window.
 
@@ -35,7 +35,7 @@ Timeline: a single appliance connection or minor leak repair typically wraps in 
 
 1. **Pressure test and leak survey.** Before any pipe is cut or fittings are touched, we isolate the system and apply test pressure. A drop tells us there's a leak; the detector and leak-check solution tell us exactly where. We document baseline and post-repair readings.
 
-2. **Scope and sizing.** We calculate total BTU load for every connected appliance, account for pipe length and elevation changes, and determine the correct pipe diameter and material. If you're adding an appliance — a gas drip line for an outdoor kitchen, a line for a new range — we size the extension so it doesn't starve your furnace or water heater.
+2. **Scope and sizing.** We calculate total BTU load for every connected appliance, account for pipe length and elevation changes, and determine the correct pipe diameter and material. If you're adding an appliance, a gas drip line for an outdoor kitchen, a line for a new range, we size the extension so it doesn't starve your furnace or water heater.
 
 3. **Permit pull and material staging.** We pull the required City of Bakersfield or county permit before work begins. Pipe, fittings, and seismic shutoff hardware are staged and inspected on-site. No permit means no final inspection, which means your appliance warranty and homeowner's insurance coverage may be void.
 
@@ -45,22 +45,22 @@ Timeline: a single appliance connection or minor leak repair typically wraps in 
 
 ## What separates a careful gas line response from a careless one
 
-The most common mistake on leak repairs is fixing the fitting you can smell and ignoring the rest of the system. A house with one leaking joint often has several — same age pipe, same installer, same era of thread compound. A thorough job pressure-tests the whole system after the repair, not just the section that was touched.
+The most common mistake on leak repairs is fixing the fitting you can smell and ignoring the rest of the system. A house with one leaking joint often has several, same age pipe, same installer, same era of thread compound. A thorough job pressure-tests the whole system after the repair, not just the section that was touched.
 
 On new installations, undersizing is the chronic problem. A plumber who runs a half-inch line to a high-BTU tankless water heater because "that's what was there before" will leave you with a unit that throttles down under load and never fully recovers. Correct sizing requires actual BTU math, not a visual match to the existing pipe.
 
-CSSTinstallation has its own failure mode: improper bonding. Corrugated stainless steel tubing must be electrically bonded to the grounding system to prevent arc damage from induced lightning current. Skipping the bond is a code violation that inspectors catch — and that insurance adjusters flag when reviewing a fire claim.
+CSSTinstallation has its own failure mode: improper bonding. Corrugated stainless steel tubing must be electrically bonded to the grounding system to prevent arc damage from induced lightning current. Skipping the bond is a code violation that inspectors catch, and that insurance adjusters flag when reviewing a fire claim.
 
 Permits matter beyond the inspection sticker. If a gas fire occurs and unpermitted work is found on the line, your homeowner's insurance carrier has grounds to dispute the claim.
 
 ## Seasonal and regional considerations
 
-Kern County averages several seismic events per year significant enough to trigger motion-sensing shutoff valves. If your valve trips after a quake, the gas utility needs to inspect the system before it's reset — that's not a DIY reset. We can coordinate the pressure test and inspection that follows a utility shutoff so you're not waiting days for heat or hot water.
+Kern County averages several seismic events per year significant enough to trigger motion-sensing shutoff valves. If your valve trips after a quake, the gas utility needs to inspect the system before it's reset, that's not a DIY reset. We can coordinate the pressure test and inspection that follows a utility shutoff so you're not waiting days for heat or hot water.
 
-Bakersfield's summer heat accelerates corrosion on buried fittings and can cause CSST to work against improperly secured hangers. If you're scheduling a gas line inspection, late spring — before the 100°F stretch — is a practical window.
+Bakersfield's summer heat accelerates corrosion on buried fittings and can cause CSST to work against improperly secured hangers. If you're scheduling a gas line inspection, late spring, before the 100°F stretch, is a practical window.
 
 ## Service area
 
 All Pro Plumbing Heating and Air runs gas line installation and leak repair calls throughout Bakersfield and the surrounding communities, including Shafter, Wasco, Delano, Arvin, Tehachapi, and Ridgecrest. Dedicated service pages for each city link back here for the full technical detail on how this work is done.
 
-If you smell gas right now, leave the building, move away from the structure, and call 911 or SoCalGas at 1-800-427-2200 from outside. Do not re-enter until the utility clears the scene. Once the utility has made the property safe, call us at (661) 863-9242 — we're available around the clock — to schedule the pressure test, locate any remaining leak, and complete the permitted repair so your gas service can be restored.
+If you smell gas right now, leave the building, move away from the structure, and call 911 or SoCalGas at 1-800-427-2200 from outside. Do not re-enter until the utility clears the scene. Once the utility has made the property safe, call us at (661) 863-9242, we're available around the clock, to schedule the pressure test, locate any remaining leak, and complete the permitted repair so your gas service can be restored.

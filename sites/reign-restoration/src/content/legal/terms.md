@@ -18,7 +18,7 @@ rendered: true
 ---
 ## What These Terms Cover
 
-These Terms of Service describe the relationship between you and Reign Restoration when you use this website or request services. By contacting us, submitting a form, or signing a work-authorization agreement, you acknowledge these terms. The signed work-authorization form you receive before any project begins is the governing document for the actual service relationship — these website terms do not replace or supersede it.
+These Terms of Service describe the relationship between you and Reign Restoration when you use this website or request services. By contacting us, submitting a form, or signing a work-authorization agreement, you acknowledge these terms. The signed work-authorization form you receive before any project begins is the governing document for the actual service relationship, these website terms do not replace or supersede it.
 
 ## Service Area
 
@@ -26,11 +26,11 @@ Reign Restoration operates out of Royse City, TX and serves the surrounding regi
 
 ## Estimates and Scope of Work
 
-Any estimate we provide — whether given verbally, by email, or through an on-site assessment — is not a binding contract. Estimates reflect conditions visible at the time of inspection. Hidden damage (water migration behind walls, secondary mold growth, structural compromise discovered during demolition) can affect final scope and cost. Work does not begin until you have reviewed and signed a written work-authorization form. That document will specify the agreed scope, materials, timeline, and pricing. Changes to scope during a project are handled through written change orders, which both parties must approve before additional work proceeds.
+Any estimate we provide, whether given verbally, by email, or through an on-site assessment, is not a binding contract. Estimates reflect conditions visible at the time of inspection. Hidden damage (water migration behind walls, secondary mold growth, structural compromise discovered during demolition) can affect final scope and cost. Work does not begin until you have reviewed and signed a written work-authorization form. That document will specify the agreed scope, materials, timeline, and pricing. Changes to scope during a project are handled through written change orders, which both parties must approve before additional work proceeds.
 
 ## Payment Terms and Accepted Methods
 
-Payment terms are outlined in your signed work-authorization form. Reign Restoration accepts payment by check, major credit cards, and electronic transfer unless otherwise noted in your agreement. For insurance-covered losses, we coordinate directly with your carrier on documentation and billing; however, you remain responsible for any deductible, uncovered line items, or amounts your insurer declines. We do not guarantee any specific insurance outcome — coverage decisions rest entirely with your carrier.
+Payment terms are outlined in your signed work-authorization form. Reign Restoration accepts payment by check, major credit cards, and electronic transfer unless otherwise noted in your agreement. For insurance-covered losses, we coordinate directly with your carrier on documentation and billing; however, you remain responsible for any deductible, uncovered line items, or amounts your insurer declines. We do not guarantee any specific insurance outcome, coverage decisions rest entirely with your carrier.
 
 ## Insurance Coordination
 

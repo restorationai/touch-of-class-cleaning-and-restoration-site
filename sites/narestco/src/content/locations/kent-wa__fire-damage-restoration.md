@@ -20,25 +20,25 @@ state: "WA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-A house fire leaves behind more than charred walls. Within hours, smoke particles are embedding into drywall, soot is settling into HVAC ducts, and the water used to extinguish the flames is soaking into subfloors and framing. If you're in Kent right now dealing with the aftermath, the damage clock is already running — and the decisions you make in the next few hours matter. National Restoration Construction responds to fire damage emergencies across Kent and the surrounding South King County area, typically on-site within 60–90 minutes of your call.
+A house fire leaves behind more than charred walls. Within hours, smoke particles are embedding into drywall, soot is settling into HVAC ducts, and the water used to extinguish the flames is soaking into subfloors and framing. If you're in Kent right now dealing with the aftermath, the damage clock is already running, and the decisions you make in the next few hours matter. National Restoration Construction responds to fire damage emergencies across Kent and the surrounding South King County area, typically on-site within 60–90 minutes of your call.
 
 ## Our Fire Damage Restoration Process in Kent
 
-Fire and smoke restoration isn't a single task — it's a sequence of overlapping phases, and skipping steps is how properties end up with lingering odor or hidden structural problems six months later.
+Fire and smoke restoration isn't a single task, it's a sequence of overlapping phases, and skipping steps is how properties end up with lingering odor or hidden structural problems six months later.
 
-When our crew arrives, the first priority is a documented damage assessment. We photograph and scope every affected area — not just the room of origin, but the attic space above it, the adjacent rooms where smoke traveled, and any areas where firefighting water has pooled or wicked into building materials. That documentation matters for your insurance claim as much as it matters for our repair plan.
+When our crew arrives, the first priority is a documented damage assessment. We photograph and scope every affected area, not just the room of origin, but the attic space above it, the adjacent rooms where smoke traveled, and any areas where firefighting water has pooled or wicked into building materials. That documentation matters for your insurance claim as much as it matters for our repair plan.
 
-Once the property is secured and stabilized (board-up and tarping if needed), we move into debris removal and structural cleaning. Soot is acidic. Left on metal fixtures, it causes corrosion within days. Left on porous surfaces like drywall or wood framing, it permanently stains and holds odor. We use dry chemical sponges and HEPA-filtered vacuums for initial soot removal, then wet-cleaning agents appropriate to each surface type — what works on concrete block doesn't belong on finished cabinetry.
+Once the property is secured and stabilized (board-up and tarping if needed), we move into debris removal and structural cleaning. Soot is acidic. Left on metal fixtures, it causes corrosion within days. Left on porous surfaces like drywall or wood framing, it permanently stains and holds odor. We use dry chemical sponges and HEPA-filtered vacuums for initial soot removal, then wet-cleaning agents appropriate to each surface type, what works on concrete block doesn't belong on finished cabinetry.
 
-Smoke odor elimination comes next, and it's where a lot of contractors cut corners. Thermal fogging and hydroxyl generation reach into wall cavities and ductwork where surface cleaning can't. We don't mask the smell — we neutralize the compounds causing it.
+Smoke odor elimination comes next, and it's where a lot of contractors cut corners. Thermal fogging and hydroxyl generation reach into wall cavities and ductwork where surface cleaning can't. We don't mask the smell, we neutralize the compounds causing it.
 
 The final phase is structural repair and reconstruction: framing, drywall, insulation, flooring, and finish work. Because we hold a Washington State General Contractor Certificate of Registration (License #NATIORC792M6), we handle the full scope in-house rather than handing you off to a separate contractor mid-project.
 
 ## Why Kent Properties See Fire Damage Emergencies
 
-Kent's housing stock is a mix of post-war single-family homes, 1980s–1990s construction, and newer multi-family developments — and each era brings its own fire risk profile. Older homes in neighborhoods like Scenic Hill and East Hill often have aging electrical panels, knob-and-tube wiring in attics, and original wood framing that's had decades to dry out. That framing ignites fast and burns hot.
+Kent's housing stock is a mix of post-war single-family homes, 1980s–1990s construction, and newer multi-family developments, and each era brings its own fire risk profile. Older homes in neighborhoods like Scenic Hill and East Hill often have aging electrical panels, knob-and-tube wiring in attics, and original wood framing that's had decades to dry out. That framing ignites fast and burns hot.
 
-The Pacific Northwest's wet winters also create conditions that contribute indirectly to fire risk: moisture intrusion leads to deferred maintenance, which leads to neglected chimneys, failing dryer vents, and overloaded circuits running space heaters. Kent's industrial and warehouse corridors along the Green River valley mean that commercial property fires — and the residential properties nearby — can involve chemical accelerants or materials that complicate smoke cleanup.
+The Pacific Northwest's wet winters also create conditions that contribute indirectly to fire risk: moisture intrusion leads to deferred maintenance, which leads to neglected chimneys, failing dryer vents, and overloaded circuits running space heaters. Kent's industrial and warehouse corridors along the Green River valley mean that commercial property fires, and the residential properties nearby, can involve chemical accelerants or materials that complicate smoke cleanup.
 
 Winter windstorms that move through the region can also knock out power, prompting residents to use candles, generators, or alternative heating sources that spike residential fire incidents seasonally.
 
@@ -46,7 +46,7 @@ Winter windstorms that move through the region can also knock out power, prompti
 
 Most homeowner and commercial property policies cover fire damage restoration, but the claims process has friction points that catch people off guard.
 
-What we handle: We provide a line-item scope of loss — the format most adjusters require — along with photographic documentation, moisture readings, and air quality data where applicable. We've worked with virtually every major carrier operating in Washington State and understand how to structure documentation so your claim moves forward rather than stalling in back-and-forth.
+What we handle: We provide a line-item scope of loss, the format most adjusters require, along with photographic documentation, moisture readings, and air quality data where applicable. We've worked with virtually every major carrier operating in Washington State and understand how to structure documentation so your claim moves forward rather than stalling in back-and-forth.
 
 What you handle: You file the initial claim and communicate directly with your adjuster. We can walk you through what to expect, but we're not a public adjuster and we don't represent you in a legal or financial capacity. What we can do is make sure the scope we submit is complete and accurate so nothing gets left out of your settlement.
 
@@ -54,12 +54,12 @@ One practical note: don't throw anything away before we document it. Disposed ma
 
 ## Response Times Across Kent
 
-Our operations are based in Federal Way, roughly 10–15 minutes from most of Kent depending on traffic. That puts us among the fastest-responding restoration contractors in the area for neighborhoods like Downtown Kent, the East Hill plateau, and the industrial corridor near SR-167. More distant areas — Covington, the Kent-Kangley corridor — typically fall in the 30–45 minute range.
+Our operations are based in Federal Way, roughly 10–15 minutes from most of Kent depending on traffic. That puts us among the fastest-responding restoration contractors in the area for neighborhoods like Downtown Kent, the East Hill plateau, and the industrial corridor near SR-167. More distant areas, Covington, the Kent-Kangley corridor, typically fall in the 30–45 minute range.
 
-We maintain 24/7 availability, 365 days a year. There's no after-hours surcharge for emergency dispatch. When you reach us at (206) 883-0333, you're talking to someone who can actually roll a crew — not an answering service routing a message.
+We maintain 24/7 availability, 365 days a year. There's no after-hours surcharge for emergency dispatch. When you reach us at (206) 883-0333, you're talking to someone who can actually roll a crew, not an answering service routing a message.
 
 Speed matters in fire damage response not just for your peace of mind, but because secondary damage compounds quickly. Smoke residue becomes harder to remove after 72 hours. Wet materials from firefighting water begin mold colonization within 24–48 hours in the right conditions. The sooner we're on-site, the more of your property we can save.
 
 ---
 
-If you're standing in a smoke-damaged home right now or trying to figure out your next step after the fire department has cleared the scene, the most useful thing you can do is get a professional assessment before anything else is touched or discarded. Reach National Restoration Construction at **(206) 883-0333** — we serve Kent around the clock and can typically have a crew at your door within the hour.
+If you're standing in a smoke-damaged home right now or trying to figure out your next step after the fire department has cleared the scene, the most useful thing you can do is get a professional assessment before anything else is touched or discarded. Reach National Restoration Construction at **(206) 883-0333**, we serve Kent around the clock and can typically have a crew at your door within the hour.

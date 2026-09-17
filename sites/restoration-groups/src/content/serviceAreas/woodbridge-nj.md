@@ -19,13 +19,13 @@ state: "NJ"
 primary: false
 rendered: true
 ---
-When a pipe bursts in a finished Colonia basement at 2 a.m. or a kitchen fire leaves smoke residue coating the ceiling of a Fords colonial, The Restoration Group responds — water extraction, structural drying, fire and smoke cleanup, mold remediation, and full reconstruction handled by one crew from first call through final inspection. We work directly with homeowners, landlords, and property managers across Woodbridge Township's ZIP codes, and we bill most major insurance carriers directly so you're not managing the paperwork alone.
+When a pipe bursts in a finished Colonia basement at 2 a.m. or a kitchen fire leaves smoke residue coating the ceiling of a Fords colonial, The Restoration Group responds, water extraction, structural drying, fire and smoke cleanup, mold remediation, and full reconstruction handled by one crew from first call through final inspection. We work directly with homeowners, landlords, and property managers across Woodbridge Township's ZIP codes, and we bill most major insurance carriers directly so you're not managing the paperwork alone.
 
 ## Restoration emergencies common in Woodbridge
 
-Woodbridge Township is one of the more flood-prone municipalities in Middlesex County, and the reasons are baked into the landscape. The Rahway River cuts through the western sections of town, and the Woodbridge River drains toward the Arthur Kill — both waterways have overflowed repeatedly during nor'easters and heavy rain events. Tropical Storm Ida in 2021 sent water into finished basements across Iselin, Avenel, and low-lying blocks near Port Reading and Sewaren, where tidal backflow compounds storm surge. Homes in these neighborhoods sit on a high water table, and many of the postwar capes, split-levels, and colonials built in the 1950s and 1960s still have original cast-iron drain lines and galvanized supply pipes — materials that corrode quietly for years before they fail catastrophically.
+Woodbridge Township is one of the more flood-prone municipalities in Middlesex County, and the reasons are baked into the landscape. The Rahway River cuts through the western sections of town, and the Woodbridge River drains toward the Arthur Kill, both waterways have overflowed repeatedly during nor'easters and heavy rain events. Tropical Storm Ida in 2021 sent water into finished basements across Iselin, Avenel, and low-lying blocks near Port Reading and Sewaren, where tidal backflow compounds storm surge. Homes in these neighborhoods sit on a high water table, and many of the postwar capes, split-levels, and colonials built in the 1950s and 1960s still have original cast-iron drain lines and galvanized supply pipes, materials that corrode quietly for years before they fail catastrophically.
 
-The Route 1 & 9 corridor and the area around Woodbridge Center mall generate a different category of loss: overnight sprinkler discharges, commercial kitchen fires, and sewage backups in older strip-mall plumbing. Inland neighborhoods like Woodbridge Proper and Colonia see the full range of residential losses — burst supply lines, appliance failures, and attic-to-basement mold growth that develops within 48 to 72 hours after an undetected slow leak. Finished basements, common throughout the township, turn a minor water intrusion into a major remediation project the moment moisture reaches drywall and carpet padding.
+The Route 1 & 9 corridor and the area around Woodbridge Center mall generate a different category of loss: overnight sprinkler discharges, commercial kitchen fires, and sewage backups in older strip-mall plumbing. Inland neighborhoods like Woodbridge Proper and Colonia see the full range of residential losses, burst supply lines, appliance failures, and attic-to-basement mold growth that develops within 48 to 72 hours after an undetected slow leak. Finished basements, common throughout the township, turn a minor water intrusion into a major remediation project the moment moisture reaches drywall and carpet padding.
 
 ## Services we provide in Woodbridge
 
@@ -35,11 +35,11 @@ Water damage in Woodbridge often starts in the basement. Whether it's river floo
 
 ### Fire and smoke damage restoration
 
-Smoke moves fast through the open floor plans common in Woodbridge's postwar colonials — by the time the fire department clears the scene, odor particles have already embedded in insulation, HVAC ductwork, and wall cavities two rooms away from the origin. We scope the full extent of smoke migration before we start cleaning, and we use hydroxyl generators and thermal fogging alongside surface cleaning to address odor at the source rather than masking it.
+Smoke moves fast through the open floor plans common in Woodbridge's postwar colonials, by the time the fire department clears the scene, odor particles have already embedded in insulation, HVAC ductwork, and wall cavities two rooms away from the origin. We scope the full extent of smoke migration before we start cleaning, and we use hydroxyl generators and thermal fogging alongside surface cleaning to address odor at the source rather than masking it.
 
 ### Mold remediation
 
-The combination of aging housing stock, high water tables, and frequent basement flooding makes mold a recurring problem in Woodbridge. Crawl spaces in Port Reading (07064) and older homes near Merrill Park are particularly susceptible. We contain affected areas, remove compromised materials, treat surfaces to industry protocols, and dry the space before reconstruction — and we can coordinate post-remediation air quality testing with a third-party industrial hygienist if your insurance carrier or a prospective buyer requires clearance documentation.
+The combination of aging housing stock, high water tables, and frequent basement flooding makes mold a recurring problem in Woodbridge. Crawl spaces in Port Reading (07064) and older homes near Merrill Park are particularly susceptible. We contain affected areas, remove compromised materials, treat surfaces to industry protocols, and dry the space before reconstruction, and we can coordinate post-remediation air quality testing with a third-party industrial hygienist if your insurance carrier or a prospective buyer requires clearance documentation.
 
 ### Commercial restoration
 
@@ -47,16 +47,16 @@ Retail and restaurant properties along the Route 1 & 9 corridor and near the Woo
 
 ### Reconstruction
 
-Once mitigation is complete, our in-house reconstruction team handles drywall, flooring, cabinetry, and finish work — so you're not sourcing a separate contractor and restarting the insurance coordination process from scratch.
+Once mitigation is complete, our in-house reconstruction team handles drywall, flooring, cabinetry, and finish work, so you're not sourcing a separate contractor and restarting the insurance coordination process from scratch.
 
 ## Coverage and how fast we can get there
 
-The Restoration Group is based in Kenilworth, NJ, roughly 10 to 12 miles from central Woodbridge via the Garden State Parkway or Route 1 & 9. Woodbridge Proper and Colonia are typically the quickest to reach; Sewaren and Port Reading in the eastern sections of the township add a few miles. Because we operate 24/7, a call at any hour connects you to a live dispatcher who can route the nearest available crew. We serve all of Woodbridge Township's ZIP codes — 07095, 07064, 07067, 07001, and 08863 among them.
+The Restoration Group is based in Kenilworth, NJ, roughly 10 to 12 miles from central Woodbridge via the Garden State Parkway or Route 1 & 9. Woodbridge Proper and Colonia are typically the quickest to reach; Sewaren and Port Reading in the eastern sections of the township add a few miles. Because we operate 24/7, a call at any hour connects you to a live dispatcher who can route the nearest available crew. We serve all of Woodbridge Township's ZIP codes, 07095, 07064, 07067, 07001, and 08863 among them.
 
 ## Building stock, site conditions, and permits in Woodbridge
 
-Older Woodbridge houses — the pre-war stock in Woodbridge Proper and around Fords — often have plaster and wood lath over block or stone foundations, which hold water far longer than modern drywall and need controlled drying rather than fast heat. Anything built before 1978 can carry lead paint, and pre-1980 basements frequently have asbestos in floor tile, mastic, and pipe wrap, so demo has to be scoped before it starts. Buried heating oil tanks are still a live issue on older New Jersey lots.
+Older Woodbridge houses, the pre-war stock in Woodbridge Proper and around Fords, often have plaster and wood lath over block or stone foundations, which hold water far longer than modern drywall and need controlled drying rather than fast heat. Anything built before 1978 can carry lead paint, and pre-1980 basements frequently have asbestos in floor tile, mastic, and pipe wrap, so demo has to be scoped before it starts. Buried heating oil tanks are still a live issue on older New Jersey lots.
 
 Permits come from Woodbridge Township's construction office under the New Jersey Uniform Construction Code, with separate building, plumbing, electrical, and fire subcodes. Structural repair, rebuilt walls, or panel and service work all trigger one. In mapped flood zones, substantial-improvement rules can pull elevation requirements into an otherwise straightforward rebuild.
 
-If you're dealing with water, fire, mold, or storm damage anywhere in Woodbridge Township, call The Restoration Group at **(855) 650-7422** — we're available around the clock and can have a crew en route the same day.
+If you're dealing with water, fire, mold, or storm damage anywhere in Woodbridge Township, call The Restoration Group at **(855) 650-7422**, we're available around the clock and can have a crew en route the same day.

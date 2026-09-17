@@ -23,7 +23,7 @@ When a pipe bursts, a water heater quits, or an air conditioner stops cooling on
 
 ## Restoration emergencies common in Yorba Linda
 
-Yorba Linda sits in the foothills of the Chino Hills, where the climate swings between dry Santa Ana wind events in fall and winter and the occasional intense rain system that sends runoff sheeting off hardscape faster than aging drainage can handle. That combination — prolonged dryness that shrinks soil, followed by sudden saturation — puts stress on slab foundations, underground supply lines, and drain systems alike. Summers routinely push into the triple digits, which accelerates wear on water heater anode rods, strains HVAC refrigerant circuits, and causes PVC drain fittings to shift under thermal expansion. The city's hillside topography also means that when a supply line fails on an upper floor or a roof penetration leaks, water can travel a long way before it becomes visible, quietly saturating wall cavities or subfloor assemblies.
+Yorba Linda sits in the foothills of the Chino Hills, where the climate swings between dry Santa Ana wind events in fall and winter and the occasional intense rain system that sends runoff sheeting off hardscape faster than aging drainage can handle. That combination, prolonged dryness that shrinks soil, followed by sudden saturation, puts stress on slab foundations, underground supply lines, and drain systems alike. Summers routinely push into the triple digits, which accelerates wear on water heater anode rods, strains HVAC refrigerant circuits, and causes PVC drain fittings to shift under thermal expansion. The city's hillside topography also means that when a supply line fails on an upper floor or a roof penetration leaks, water can travel a long way before it becomes visible, quietly saturating wall cavities or subfloor assemblies.
 
 ## Services we provide in Yorba Linda
 
@@ -33,11 +33,11 @@ Slab leaks are among the more common emergency calls in Yorba Linda's post-1970s
 
 ### Drain cleaning and sewer service
 
-The hillside lots and mature landscaping throughout Yorba Linda mean root intrusion is a recurring problem in older clay sewer laterals. Slow drains that back up seasonally — especially after the first heavy rains — often point to roots or accumulated scale rather than a simple clog. We clear lines with hydro-jetting and can run a camera inspection so you know exactly what you're dealing with before committing to a repair.
+The hillside lots and mature landscaping throughout Yorba Linda mean root intrusion is a recurring problem in older clay sewer laterals. Slow drains that back up seasonally, especially after the first heavy rains, often point to roots or accumulated scale rather than a simple clog. We clear lines with hydro-jetting and can run a camera inspection so you know exactly what you're dealing with before committing to a repair.
 
 ### Water heater repair and replacement
 
-Yorba Linda's hard water, sourced through the Yorba Linda Water District, accelerates sediment buildup inside tank-style water heaters. That low rumbling sound during a heating cycle is sediment being churned — a sign the unit is working harder than it should and its lifespan is shortening. We service and replace both tank and tankless units, and we pull the required permit through the City of Yorba Linda Building Division when a full replacement is involved.
+Yorba Linda's hard water, sourced through the Yorba Linda Water District, accelerates sediment buildup inside tank-style water heaters. That low rumbling sound during a heating cycle is sediment being churned, a sign the unit is working harder than it should and its lifespan is shortening. We service and replace both tank and tankless units, and we pull the required permit through the City of Yorba Linda Building Division when a full replacement is involved.
 
 ### Heating and air conditioning
 
@@ -45,14 +45,14 @@ With summer cooling loads that can run for months and Santa Ana wind events that
 
 ### Leak detection
 
-Not every leak announces itself. Stucco exteriors and slab construction can hide moisture migration for weeks. We use non-invasive detection — acoustic listening equipment and thermal imaging — to locate leaks in walls, under slabs, and in irrigation supply lines before they cause secondary damage.
+Not every leak announces itself. Stucco exteriors and slab construction can hide moisture migration for weeks. We use non-invasive detection, acoustic listening equipment and thermal imaging, to locate leaks in walls, under slabs, and in irrigation supply lines before they cause secondary damage.
 
 ## Coverage and how fast we can get there
 
-RT Olson's home base in Corona puts Yorba Linda roughly 10 to 15 miles away depending on the specific address. The most direct path is east on the 91 to the 55 or 57 northbound, connecting to Yorba Linda Boulevard or Imperial Highway. Because we dispatch around the clock, a call at 2 a.m. gets the same response as a call at noon — no after-hours surcharge disclaimer buried in the fine print, just a technician en route.
+RT Olson's home base in Corona puts Yorba Linda roughly 10 to 15 miles away depending on the specific address. The most direct path is east on the 91 to the 55 or 57 northbound, connecting to Yorba Linda Boulevard or Imperial Highway. Because we dispatch around the clock, a call at 2 a.m. gets the same response as a call at noon, no after-hours surcharge disclaimer buried in the fine print, just a technician en route.
 
 ## Building stock, site conditions, and permits in Yorba Linda
 
-Most of Yorba Linda's residential neighborhoods were developed between the late 1960s and the early 2000s, with the bulk of the single-family stock built in the 1970s through 1990s on slab-on-grade foundations. Homes from that era typically have copper supply lines and cast-iron or ABS drain stacks — copper that is now old enough to develop pinhole leaks, and cast iron that can corrode or crack under root pressure. Properties built before the mid-1980s may have materials that require additional planning in any repair scope. The soil across much of Yorba Linda's foothill terrain includes expansive clay layers that shift with moisture changes, which stresses underground lines and slab perimeters over time. Permits for water heater replacements, sewer lateral repairs, and HVAC changeouts are issued by the City of Yorba Linda Building and Safety Division; work that opens walls or affects structural elements typically requires inspection. California's Title 24 energy standards apply to equipment replacements, which affects water heater and HVAC unit specifications.
+Most of Yorba Linda's residential neighborhoods were developed between the late 1960s and the early 2000s, with the bulk of the single-family stock built in the 1970s through 1990s on slab-on-grade foundations. Homes from that era typically have copper supply lines and cast-iron or ABS drain stacks, copper that is now old enough to develop pinhole leaks, and cast iron that can corrode or crack under root pressure. Properties built before the mid-1980s may have materials that require additional planning in any repair scope. The soil across much of Yorba Linda's foothill terrain includes expansive clay layers that shift with moisture changes, which stresses underground lines and slab perimeters over time. Permits for water heater replacements, sewer lateral repairs, and HVAC changeouts are issued by the City of Yorba Linda Building and Safety Division; work that opens walls or affects structural elements typically requires inspection. California's Title 24 energy standards apply to equipment replacements, which affects water heater and HVAC unit specifications.
 
 If a leak, a failed water heater, or an air conditioner that won't keep up with a Yorba Linda summer has you searching for answers, call RT Olson Plumbing, Heating and Air Conditioning at **(951) 344-5596**. We're available 24 hours a day, every day, and we'll give you a straight answer about what the repair involves before any work begins.

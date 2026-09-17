@@ -24,11 +24,11 @@ Air Care Restoration ("we," "us," or "our") operates aircarerestoration.com and 
 
 ### Information We Collect
 
-When you submit a contact or estimate request form, we collect the name, phone number, email address, and property details you provide. We also collect basic, anonymized analytics data — pages visited, general geographic region, device type — through standard web analytics tools. We do not collect payment card information through this website.
+When you submit a contact or estimate request form, we collect the name, phone number, email address, and property details you provide. We also collect basic, anonymized analytics data, pages visited, general geographic region, device type, through standard web analytics tools. We do not collect payment card information through this website.
 
 ### How We Use Your Information
 
-The information you share is used to respond to your inquiry, schedule on-site estimates, and — if you authorize us to do so — communicate technical scope information with your insurance carrier or adjuster on your behalf. We do not use your contact information for unsolicited marketing, and we do not sell, rent, or trade your personal data to third parties.
+The information you share is used to respond to your inquiry, schedule on-site estimates, and, if you authorize us to do so, communicate technical scope information with your insurance carrier or adjuster on your behalf. We do not use your contact information for unsolicited marketing, and we do not sell, rent, or trade your personal data to third parties.
 
 ### Insurance Coordination and Data Sharing
 
@@ -52,7 +52,7 @@ Questions about this policy? Email us at info@aircarerestoration.com or call (32
 
 Last updated: June 2025
 
-Using this website or requesting services from Air Care Restoration means you agree to the terms below. The actual service relationship — scope of work, authorization to proceed, and payment obligations — is governed by the signed work-authorization form you receive before any work begins, not by this page.
+Using this website or requesting services from Air Care Restoration means you agree to the terms below. The actual service relationship, scope of work, authorization to proceed, and payment obligations, is governed by the signed work-authorization form you receive before any work begins, not by this page.
 
 ### Service Area
 
@@ -60,7 +60,7 @@ We serve the Abilene, TX area and surrounding West Texas communities. Contacting
 
 ### Estimates
 
-Any estimate we provide — written, verbal, or digital — is an assessment based on visible conditions at the time of inspection. It is not a binding contract. Pricing can change if hidden damage is discovered once work begins (for example, water behind walls or subfloor deterioration not visible during the initial walkthrough). A signed work-authorization form creates the binding agreement between you and Air Care Restoration.
+Any estimate we provide, written, verbal, or digital, is an assessment based on visible conditions at the time of inspection. It is not a binding contract. Pricing can change if hidden damage is discovered once work begins (for example, water behind walls or subfloor deterioration not visible during the initial walkthrough). A signed work-authorization form creates the binding agreement between you and Air Care Restoration.
 
 ### Payment Terms
 
@@ -72,7 +72,7 @@ Air Care Restoration operates as a licensed contractor under applicable Texas re
 
 ### Disputes
 
-If a dispute arises, we ask that you contact us directly first — most concerns can be resolved quickly. If a formal process becomes necessary, disputes are governed by the laws of the State of Texas, and venue is Taylor County.
+If a dispute arises, we ask that you contact us directly first, most concerns can be resolved quickly. If a formal process becomes necessary, disputes are governed by the laws of the State of Texas, and venue is Taylor County.
 
 ### Changes to These Terms
 
@@ -84,4 +84,4 @@ We may update these terms periodically. Continued use of the site after changes 
 
 Air Care Restoration is committed to making this website usable by everyone, including people who rely on assistive technologies. We aim to meet the Web Content Accessibility Guidelines (WCAG) 2.1 at the AA conformance level. The site is built to be compatible with screen readers and keyboard navigation, and we review content regularly with accessibility in mind.
 
-If you encounter a barrier — a page that is difficult to read, a form that doesn't work with your assistive technology, or any other accessibility issue — please let us know. Contact us at info@aircarerestoration.com or call (325) 339-8723. We will work to address reported issues within a reasonable timeframe. If you need information from this site in an alternative format in the meantime, we are happy to help you directly.
+If you encounter a barrier, a page that is difficult to read, a form that doesn't work with your assistive technology, or any other accessibility issue, please let us know. Contact us at info@aircarerestoration.com or call (325) 339-8723. We will work to address reported issues within a reasonable timeframe. If you need information from this site in an alternative format in the meantime, we are happy to help you directly.

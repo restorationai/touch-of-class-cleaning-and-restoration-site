@@ -20,40 +20,40 @@ state: "NJ"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
-When the Passaic River crests after a heavy storm — the way it did during Ida in 2021, pushing water into basements across the Third Ward and Fourth Ward within hours — there is no graceful window to wait and see. Standing water in a basement starts warping wood framing, saturating concrete block, and feeding mold colonies within 24 to 48 hours. The Restoration Group responds around the clock to flooded basement emergencies throughout Passaic (07055), bringing the extraction equipment, structural drying systems, and IICRC-certified process needed to stop the damage before it compounds.
+When the Passaic River crests after a heavy storm, the way it did during Ida in 2021, pushing water into basements across the Third Ward and Fourth Ward within hours, there is no graceful window to wait and see. Standing water in a basement starts warping wood framing, saturating concrete block, and feeding mold colonies within 24 to 48 hours. The Restoration Group responds around the clock to flooded basement emergencies throughout Passaic (07055), bringing the extraction equipment, structural drying systems, and IICRC-certified process needed to stop the damage before it compounds.
 
 ## Why Passaic Properties See Basement Flooding So Often
 
 Passaic is one of the most densely built small cities in New Jersey, and its housing stock tells the whole story. The two- and three-family frame houses and brick walkups that line the streets near Third Ward Park and throughout Rutherford Heights were constructed mostly in the early 1900s. Their basements were never designed for modern drainage loads. Many still rely on cast-iron drain lines that have corroded or partially collapsed over a century of use, meaning a single heavy rain event can push sewage and groundwater backward through floor drains simultaneously.
 
-The city's position on the Passaic River amplifies every weather event. Riverfront blocks and low-lying pockets throughout the city experience sheet flooding during nor'easters and tropical remnants — Irene in 2011 and Ida in 2021 both left entire neighborhoods inundated. But flooding in Passaic isn't only a riverbank problem. Compacted urban soil with minimal green space means stormwater has nowhere to go; it migrates laterally into basement walls through failing parging and mortar joints that have been patching and re-patching for decades.
+The city's position on the Passaic River amplifies every weather event. Riverfront blocks and low-lying pockets throughout the city experience sheet flooding during nor'easters and tropical remnants, Irene in 2011 and Ida in 2021 both left entire neighborhoods inundated. But flooding in Passaic isn't only a riverbank problem. Compacted urban soil with minimal green space means stormwater has nowhere to go; it migrates laterally into basement walls through failing parging and mortar joints that have been patching and re-patching for decades.
 
 The city's dense rental stock adds another layer. Unventilated basement apartments and storage areas in older multi-family buildings stay chronically damp, which means a single plumbing failure or sump pump outage can tip a marginally dry space into a full water damage event almost overnight.
 
 ## Our Basement Flooding Cleanup Process in Passaic
 
-Every job starts with a moisture assessment before a single pump is staged. In older Passaic homes, water visible on the floor is rarely the whole picture — it has typically wicked into concrete block walls, traveled under tile or vinyl flooring, and saturated the bottom plates of wood-framed partition walls. Thermal imaging and moisture meters map the full extent before extraction begins.
+Every job starts with a moisture assessment before a single pump is staged. In older Passaic homes, water visible on the floor is rarely the whole picture, it has typically wicked into concrete block walls, traveled under tile or vinyl flooring, and saturated the bottom plates of wood-framed partition walls. Thermal imaging and moisture meters map the full extent before extraction begins.
 
 From there, the process follows the IICRC S500 standard for water damage restoration:
 
-- **Water extraction** — truck-mounted and portable extractors pull standing water from the floor, including from beneath floating subfloors where water pools invisibly.
-- **Controlled demolition** — saturated drywall, insulation, and deteriorated flooring are removed to the flood cut line, exposing framing and masonry for drying. In Passaic's older homes, this often means removing plaster-over-masonry finishes that hold moisture far longer than modern drywall.
-- **Structural drying** — commercial-grade desiccant and refrigerant dehumidifiers combined with high-velocity air movers run on a documented drying schedule, typically three to five days depending on material density and ambient conditions.
-- **Antimicrobial treatment** — applied to framing, masonry, and subfloor surfaces before any rebuild begins.
-- **Documentation** — moisture readings logged daily, supporting your insurance claim with objective data rather than estimates.
+- **Water extraction**, truck-mounted and portable extractors pull standing water from the floor, including from beneath floating subfloors where water pools invisibly.
+- **Controlled demolition**, saturated drywall, insulation, and deteriorated flooring are removed to the flood cut line, exposing framing and masonry for drying. In Passaic's older homes, this often means removing plaster-over-masonry finishes that hold moisture far longer than modern drywall.
+- **Structural drying**, commercial-grade desiccant and refrigerant dehumidifiers combined with high-velocity air movers run on a documented drying schedule, typically three to five days depending on material density and ambient conditions.
+- **Antimicrobial treatment**, applied to framing, masonry, and subfloor surfaces before any rebuild begins.
+- **Documentation**, moisture readings logged daily, supporting your insurance claim with objective data rather than estimates.
 
 ## Reaching Passaic from Kenilworth
 
-The Restoration Group is based in Kenilworth, NJ, and Passaic is a direct run up Route 9 and the Garden State Parkway — typically under 30 minutes in normal traffic conditions. Because the team operates 24/7, a call at 2 a.m. after a sump pump failure near the Main Avenue business district or a pipe burst in a walkup off Downtown Passaic gets the same dispatch priority as a midday call. Crews carry extraction and drying equipment on the vehicle, so there is no separate equipment run once they arrive on site.
+The Restoration Group is based in Kenilworth, NJ, and Passaic is a direct run up Route 9 and the Garden State Parkway, typically under 30 minutes in normal traffic conditions. Because the team operates 24/7, a call at 2 a.m. after a sump pump failure near the Main Avenue business district or a pipe burst in a walkup off Downtown Passaic gets the same dispatch priority as a midday call. Crews carry extraction and drying equipment on the vehicle, so there is no separate equipment run once they arrive on site.
 
 ## Passaic Insurance Coordination
 
-Most homeowners and landlords in Passaic carry standard HO-3 or dwelling-fire policies, but coverage for basement flooding depends heavily on the cause. Sewer backup and groundwater intrusion — the two most common sources in this city — are typically excluded from base policies and require separate endorsements. Sudden and accidental discharge from a burst pipe is usually covered.
+Most homeowners and landlords in Passaic carry standard HO-3 or dwelling-fire policies, but coverage for basement flooding depends heavily on the cause. Sewer backup and groundwater intrusion, the two most common sources in this city, are typically excluded from base policies and require separate endorsements. Sudden and accidental discharge from a burst pipe is usually covered.
 
 The Restoration Group documents the loss origin, photographs all affected materials, and prepares a scope of work formatted for adjuster review. We work directly with most major carriers and can communicate with your adjuster throughout the claim so you are not translating between contractor and insurance language on your own.
 
 ## Local Note
 
-In Passaic's older multi-family buildings — particularly the three-story brick walkups common near Pulaski Park and throughout the Fourth Ward — basement utility chases and shared drain stacks connect multiple units vertically. When a basement floods from a sewer backup, contaminated water can wick up through wall cavities into first-floor units before the basement itself is fully extracted. On jobs in these building types, the crew inspects the first-floor wall base and checks moisture levels in the unit above as a standard step, not an add-on. Landlords managing occupied buildings in Passaic's dense rental corridors should flag the building type when they call — it affects how the job is scoped from the start.
+In Passaic's older multi-family buildings, particularly the three-story brick walkups common near Pulaski Park and throughout the Fourth Ward, basement utility chases and shared drain stacks connect multiple units vertically. When a basement floods from a sewer backup, contaminated water can wick up through wall cavities into first-floor units before the basement itself is fully extracted. On jobs in these building types, the crew inspects the first-floor wall base and checks moisture levels in the unit above as a standard step, not an add-on. Landlords managing occupied buildings in Passaic's dense rental corridors should flag the building type when they call, it affects how the job is scoped from the start.
 
-If your basement is taking on water right now, call (855) 650-7422. The Restoration Group serves all of Passaic — from the riverfront blocks that saw the worst of Ida to the older frame houses in Rutherford Heights — with the equipment and certified process to dry the structure correctly the first time.
+If your basement is taking on water right now, call (855) 650-7422. The Restoration Group serves all of Passaic, from the riverfront blocks that saw the worst of Ida to the older frame houses in Rutherford Heights, with the equipment and certified process to dry the structure correctly the first time.

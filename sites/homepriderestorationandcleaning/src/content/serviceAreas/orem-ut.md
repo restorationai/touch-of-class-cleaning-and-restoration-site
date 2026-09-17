@@ -19,19 +19,19 @@ state: "UT"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall or smoke works its way into every closet, Orem property owners need a crew that already knows the area — not one that's mapping the route while your damage spreads. Home Pride Restoration and Cleaning has been responding to water, fire, mold, and biohazard emergencies across Utah County since 1997. We handle the mitigation, the drying, the cleanup, and the rebuild, and we work directly with your insurance carrier so you're not managing two conversations at once.
+When a pipe bursts behind a wall or smoke works its way into every closet, Orem property owners need a crew that already knows the area, not one that's mapping the route while your damage spreads. Home Pride Restoration and Cleaning has been responding to water, fire, mold, and biohazard emergencies across Utah County since 1997. We handle the mitigation, the drying, the cleanup, and the rebuild, and we work directly with your insurance carrier so you're not managing two conversations at once.
 
 ## Restoration emergencies common in Orem
 
-Orem sits at roughly 4,700 feet in a high-desert valley that swings between hard freezes and dry summers — a combination that stresses homes in specific ways. Freeze-thaw cycles crack supply lines in crawl spaces and attics, especially in the older ranch-style homes built throughout the 1960s and 1970s that make up a significant share of Orem's housing stock. When those pipes let go in January or February, water can travel inside wall cavities for hours before anyone notices the ceiling stain.
+Orem sits at roughly 4,700 feet in a high-desert valley that swings between hard freezes and dry summers, a combination that stresses homes in specific ways. Freeze-thaw cycles crack supply lines in crawl spaces and attics, especially in the older ranch-style homes built throughout the 1960s and 1970s that make up a significant share of Orem's housing stock. When those pipes let go in January or February, water can travel inside wall cavities for hours before anyone notices the ceiling stain.
 
-Summer monsoon moisture is the other side of that equation. Utah County gets enough late-season humidity to push mold colonization timelines faster than homeowners expect — IICRC guidelines put the window at 24 to 48 hours after a moisture event, and Orem's late-summer humidity compresses that window in poorly ventilated basements and crawl spaces. Finished basements are common in the area's newer subdivisions, which means water intrusion often damages flooring, drywall, and stored belongings before it's visible from the main level.
+Summer monsoon moisture is the other side of that equation. Utah County gets enough late-season humidity to push mold colonization timelines faster than homeowners expect, IICRC guidelines put the window at 24 to 48 hours after a moisture event, and Orem's late-summer humidity compresses that window in poorly ventilated basements and crawl spaces. Finished basements are common in the area's newer subdivisions, which means water intrusion often damages flooring, drywall, and stored belongings before it's visible from the main level.
 
 ## Services we provide in Orem
 
 ### Water damage restoration
 
-Water damage in Orem frequently starts with supply-line failures or appliance leaks in split-level and two-story homes, where water migrates down through subfloor assemblies before pooling on the level below. Our technicians use thermal imaging and moisture meters to map the full extent of saturation — not just what's wet on the surface — then deploy commercial drying equipment calibrated to the structure's materials and the day's outdoor dew point.
+Water damage in Orem frequently starts with supply-line failures or appliance leaks in split-level and two-story homes, where water migrates down through subfloor assemblies before pooling on the level below. Our technicians use thermal imaging and moisture meters to map the full extent of saturation, not just what's wet on the surface, then deploy commercial drying equipment calibrated to the structure's materials and the day's outdoor dew point.
 
 ### Fire and smoke damage restoration
 
@@ -39,7 +39,7 @@ House fires in Orem's denser residential corridors often involve attached garage
 
 ### Mold remediation
 
-Mold remediation in Orem requires EPA-compliant containment and removal protocols. We identify the moisture source first — because remediation without fixing the source is temporary — then remove affected materials, treat structural surfaces, and verify clearance before reconstruction begins. We do not make health claims about indoor air quality outcomes, but we follow documented remediation standards designed to return the space to a normal fungal ecology.
+Mold remediation in Orem requires EPA-compliant containment and removal protocols. We identify the moisture source first, because remediation without fixing the source is temporary, then remove affected materials, treat structural surfaces, and verify clearance before reconstruction begins. We do not make health claims about indoor air quality outcomes, but we follow documented remediation standards designed to return the space to a normal fungal ecology.
 
 ### Biohazard and specialty cleanup
 
@@ -47,15 +47,15 @@ Unattended deaths, sewage backups, and trauma scenes require technicians certifi
 
 ### Reconstruction
 
-Once mitigation is complete, we handle the rebuild — drywall, flooring, cabinetry, painting — so you're working with one contractor through the entire claim rather than sourcing a separate GC after the drying crew leaves.
+Once mitigation is complete, we handle the rebuild, drywall, flooring, cabinetry, painting, so you're working with one contractor through the entire claim rather than sourcing a separate GC after the drying crew leaves.
 
 ## Response time and coverage
 
-Home Pride Restoration and Cleaning is headquartered in Saratoga Springs, roughly 15 to 20 minutes from central Orem via US-89 under normal traffic conditions. Most Orem calls see a technician on-site within 45 to 60 minutes of your call to (801) 995-2437. We serve all Orem ZIP codes, including 84057 and 84058, and our coverage extends across the full city — from the established neighborhoods near University Parkway to the newer developments south toward the Vineyard border.
+Home Pride Restoration and Cleaning is headquartered in Saratoga Springs, roughly 15 to 20 minutes from central Orem via US-89 under normal traffic conditions. Most Orem calls see a technician on-site within 45 to 60 minutes of your call to (801) 995-2437. We serve all Orem ZIP codes, including 84057 and 84058, and our coverage extends across the full city, from the established neighborhoods near University Parkway to the newer developments south toward the Vineyard border.
 
 ## Building stock, site conditions, and permits in Orem
 
-Much of Orem's housing predates 1980, which shapes what we find once walls come open: plaster or early drywall over dimensional framing, copper or galvanized supply lines, and cast iron drains that corrode from the inside before they leak. Homes from that era can also carry asbestos in popcorn ceilings, vinyl floor tile, and pipe wrap, plus lead paint — all of which have to be tested for and planned around before demolition rather than after.
+Much of Orem's housing predates 1980, which shapes what we find once walls come open: plaster or early drywall over dimensional framing, copper or galvanized supply lines, and cast iron drains that corrode from the inside before they leak. Homes from that era can also carry asbestos in popcorn ceilings, vinyl floor tile, and pipe wrap, plus lead paint, all of which have to be tested for and planned around before demolition rather than after.
 
 The valley floor here is old Lake Bonneville sediment: silts, sands, and clay layers that hold water against foundation walls and keep crawlspaces damp long after the surface dries. Groundwater sits higher toward the lake side of town.
 

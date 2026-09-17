@@ -19,13 +19,13 @@ state: "WA"
 primary: false
 rendered: true
 ---
-When a pipe bursts under a Harborview cottage or a crawl space floods in Artondale after a week of November rain, National Restoration Construction sends a crew — not a call center. Since 2004, we've handled water damage, mold remediation, fire and smoke cleanup, and full reconstruction for homeowners and property managers across Gig Harbor's ZIP codes 98332 and 98335. Our Federal Way headquarters puts us across the Tacoma Narrows Bridge and on-site faster than most regional competitors, and we work directly with your insurance carrier from first notice of loss through the final inspection.
+When a pipe bursts under a Harborview cottage or a crawl space floods in Artondale after a week of November rain, National Restoration Construction sends a crew, not a call center. Since 2004, we've handled water damage, mold remediation, fire and smoke cleanup, and full reconstruction for homeowners and property managers across Gig Harbor's ZIP codes 98332 and 98335. Our Federal Way headquarters puts us across the Tacoma Narrows Bridge and on-site faster than most regional competitors, and we work directly with your insurance carrier from first notice of loss through the final inspection.
 
 ## Restoration emergencies common in Gig Harbor
 
-Gig Harbor's setting is part of what makes it worth living in — and part of what makes it hard on buildings. The salt-air marine climate off Puget Sound keeps relative humidity elevated for most of the year, and the older fishing-era cottages in Harborview and Millville were built on vented crawl spaces that made sense in drier climates but act like moisture traps here. Ground vapor migrates up through unencapsulated crawl spaces, wood framing absorbs it slowly, and by the time a homeowner notices a musty smell or soft subfloor, fungal growth has often been colonizing for weeks. Mold can begin establishing within 24 to 48 hours of a moisture event — in a Millville crawl space that's been damp since October, the clock started long before anyone called.
+Gig Harbor's setting is part of what makes it worth living in, and part of what makes it hard on buildings. The salt-air marine climate off Puget Sound keeps relative humidity elevated for most of the year, and the older fishing-era cottages in Harborview and Millville were built on vented crawl spaces that made sense in drier climates but act like moisture traps here. Ground vapor migrates up through unencapsulated crawl spaces, wood framing absorbs it slowly, and by the time a homeowner notices a musty smell or soft subfloor, fungal growth has often been colonizing for weeks. Mold can begin establishing within 24 to 48 hours of a moisture event, in a Millville crawl space that's been damp since October, the clock started long before anyone called.
 
-Steep shoreline lots along the harbor rim and Harborview Drive shed rainwater directly toward foundations. Crescent Valley and Rosedale neighborhoods see saturated soils push water through foundation walls and slab cracks during heavy Pacific fronts. The Narrows Bridge toll traffic affects routing from the Tacoma side, which is one reason we stage equipment on the peninsula side when demand is high — it shaves meaningful time off emergency response.
+Steep shoreline lots along the harbor rim and Harborview Drive shed rainwater directly toward foundations. Crescent Valley and Rosedale neighborhoods see saturated soils push water through foundation walls and slab cracks during heavy Pacific fronts. The Narrows Bridge toll traffic affects routing from the Tacoma side, which is one reason we stage equipment on the peninsula side when demand is high, it shaves meaningful time off emergency response.
 
 ## Services we provide in Gig Harbor
 
@@ -35,7 +35,7 @@ Water damage in Gig Harbor most often involves crawl-space intrusion, storm-driv
 
 ### Mold remediation
 
-Persistent marine moisture makes mold remediation one of the most common calls we receive in the 98335 and 98329 ZIP codes. We follow IICRC S520 protocols, contain affected areas, remove compromised materials, and treat structural surfaces before clearance testing. We don't cut corners on post-remediation verification — a passing clearance test is the only objective measure that the work is done.
+Persistent marine moisture makes mold remediation one of the most common calls we receive in the 98335 and 98329 ZIP codes. We follow IICRC S520 protocols, contain affected areas, remove compromised materials, and treat structural surfaces before clearance testing. We don't cut corners on post-remediation verification, a passing clearance test is the only objective measure that the work is done.
 
 ### Fire and smoke damage restoration
 
@@ -43,7 +43,7 @@ Smoke residue from a kitchen fire or chimney event penetrates wall cavities and 
 
 ### Reconstruction and rebuild
 
-National Restoration Construction holds a Washington State contractor's license and handles reconstruction in-house — no subcontracting the rebuild to a third party who's never seen the damage. For Gig Harbor properties, that means one point of contact from demo through drywall, flooring, and final paint.
+National Restoration Construction holds a Washington State contractor's license and handles reconstruction in-house, no subcontracting the rebuild to a third party who's never seen the damage. For Gig Harbor properties, that means one point of contact from demo through drywall, flooring, and final paint.
 
 ### Biohazard and specialty cleanup
 
@@ -51,7 +51,7 @@ We handle sewage backups, unattended situations, and trauma scenes with EPA-comp
 
 ## Response time and coverage
 
-From our Federal Way headquarters, a technician typically reaches central Gig Harbor — Harborview, Millville, the Finholm District — in 45 to 60 minutes under normal Narrows Bridge traffic conditions. Artondale and Rosedale neighborhoods run 50 to 65 minutes. For properties in the 98329 ZIP code near Kopachuck State Park or along the Cushman Trail corridor, plan for 60 to 75 minutes. We answer live 24 hours a day at (206) 883-0333; after-hours calls are not routed to voicemail.
+From our Federal Way headquarters, a technician typically reaches central Gig Harbor, Harborview, Millville, the Finholm District, in 45 to 60 minutes under normal Narrows Bridge traffic conditions. Artondale and Rosedale neighborhoods run 50 to 65 minutes. For properties in the 98329 ZIP code near Kopachuck State Park or along the Cushman Trail corridor, plan for 60 to 75 minutes. We answer live 24 hours a day at (206) 883-0333; after-hours calls are not routed to voicemail.
 
 ## Building stock, site conditions, and permits in Gig Harbor
 
@@ -59,4 +59,4 @@ Gig Harbor's building stock splits roughly in two. The older cottages near the h
 
 Inside city limits, the City of Gig Harbor issues building permits; unincorporated addresses go through Pierce County. Washington's statewide building code governs, structural repairs and rebuilds are permitted work, and shoreline properties carry added review.
 
-If you're dealing with water, fire, mold, or storm damage at a Gig Harbor property right now, call National Restoration Construction at **(206) 883-0333**. We'll tell you exactly how long it will take to reach you and what to do — or not do — before we arrive.
+If you're dealing with water, fire, mold, or storm damage at a Gig Harbor property right now, call National Restoration Construction at **(206) 883-0333**. We'll tell you exactly how long it will take to reach you and what to do, or not do, before we arrive.

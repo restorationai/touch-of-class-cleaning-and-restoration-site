@@ -20,21 +20,21 @@ state: "UT"
 service_display: "Junk & Debris Removal"
 rendered: true
 ---
-Lehi's growth corridor along the Silicon Slopes has brought a wave of new construction, renovation teardowns, and garage overhauls — and with it, a mountain of leftover material that doesn't belong at the curb. Whether you're clearing out a basement full of decades-old furniture in one of Lehi's established neighborhoods or hauling off construction debris from a freshly finished addition, the sheer volume of stuff accumulating in Utah County's fastest-growing city creates a removal challenge that a standard trash pickup simply can't solve.
+Lehi's growth corridor along the Silicon Slopes has brought a wave of new construction, renovation teardowns, and garage overhauls, and with it, a mountain of leftover material that doesn't belong at the curb. Whether you're clearing out a basement full of decades-old furniture in one of Lehi's established neighborhoods or hauling off construction debris from a freshly finished addition, the sheer volume of stuff accumulating in Utah County's fastest-growing city creates a removal challenge that a standard trash pickup simply can't solve.
 
 ## Why Lehi Properties Generate More Debris Than You'd Expect
 
-Lehi sits at the intersection of two very different housing realities. On one side, you have older ranch-style homes — many built in the 1970s and 1980s — where owners are finally tackling long-overdue cleanouts: rusted appliances, particle-board shelving, and garage contents that have outlasted two or three owners. On the other side, the rapid new development pushing west toward Utah Lake means construction scraps, drywall offcuts, and contractor leftovers pile up fast.
+Lehi sits at the intersection of two very different housing realities. On one side, you have older ranch-style homes, many built in the 1970s and 1980s, where owners are finally tackling long-overdue cleanouts: rusted appliances, particle-board shelving, and garage contents that have outlasted two or three owners. On the other side, the rapid new development pushing west toward Utah Lake means construction scraps, drywall offcuts, and contractor leftovers pile up fast.
 
 Utah's climate adds another layer. The freeze-thaw cycles along the Wasatch Front cause concrete walkways, retaining wall blocks, and patio pavers to crack and heave over time. By the time spring arrives, homeowners are often sitting on a pile of broken masonry they have no idea how to move. Add in the dust and windblown debris that sweeps through the valley during inversion season, and it's clear why a single property can accumulate a surprising amount of material in a short time.
 
-Lehi's active HOA landscape — particularly in master-planned communities — also means debris can't simply sit in a driveway for a week while you figure out logistics. Many HOA covenants in this area require prompt removal of visible junk, with violation notices that arrive faster than most homeowners expect.
+Lehi's active HOA landscape, particularly in master-planned communities, also means debris can't simply sit in a driveway for a week while you figure out logistics. Many HOA covenants in this area require prompt removal of visible junk, with violation notices that arrive faster than most homeowners expect.
 
 ## Our Junk & Debris Removal Process in Lehi
 
 When you call Home Pride Restoration and Cleaning at (801) 995-2437, the process is straightforward and built around your schedule, not ours.
 
-**Assessment and sorting on arrival.** Our crew walks the property with you first. We identify what can be donated, what needs to go to a recycling facility, and what is headed to the landfill. Lehi Transfer Station on 500 West handles a portion of standard residential waste, but certain materials — old electronics, paint cans, treated lumber — require separate routing, and we handle that separation so you don't have to.
+**Assessment and sorting on arrival.** Our crew walks the property with you first. We identify what can be donated, what needs to go to a recycling facility, and what is headed to the landfill. Lehi Transfer Station on 500 West handles a portion of standard residential waste, but certain materials, old electronics, paint cans, treated lumber, require separate routing, and we handle that separation so you don't have to.
 
 **Safe loading and staging.** Narrow side yards, HOA-restricted driveways, and homes with finished garage floors all require care during loading. We use protective runners and hand trucks rather than dragging items, which matters especially in newer Lehi homes with epoxy-coated garage floors that scratch easily.
 
@@ -46,12 +46,12 @@ When you call Home Pride Restoration and Cleaning at (801) 995-2437, the process
 
 Home Pride's headquarters sits in Saratoga Springs, which puts Lehi well within our primary service zone. Via Redwood Road north or the SR-68 corridor, our crew can typically reach most Lehi addresses in 20 to 35 minutes depending on time of day. The I-15 interchange near Traverse Mountain can slow things during peak commute hours, so for time-sensitive HOA situations or estate cleanouts with a hard deadline, morning scheduling tends to work best.
 
-For large-volume jobs — full estate cleanouts, construction site debris, or multi-room hoarder situations — we can often mobilize a second truck from the same dispatch, which cuts total job time significantly.
+For large-volume jobs, full estate cleanouts, construction site debris, or multi-room hoarder situations, we can often mobilize a second truck from the same dispatch, which cuts total job time significantly.
 
 ## Local Note: HOA Timing and Dumpster Permit Realities in Lehi
 
-One thing that catches Lehi homeowners off guard: several master-planned communities in the area prohibit temporary dumpster placement on driveways or streets without a permit from the city, and some HOAs layer their own approval process on top of that. Getting a roll-off container approved can take longer than the cleanout itself. Because we load directly into our own trucks and haul same-day, there's no permit required and no HOA approval needed for the equipment — we arrive, load, and leave. For properties near the newer developments pushing toward the Traverse Mountain area, this is often the faster and less complicated path.
+One thing that catches Lehi homeowners off guard: several master-planned communities in the area prohibit temporary dumpster placement on driveways or streets without a permit from the city, and some HOAs layer their own approval process on top of that. Getting a roll-off container approved can take longer than the cleanout itself. Because we load directly into our own trucks and haul same-day, there's no permit required and no HOA approval needed for the equipment, we arrive, load, and leave. For properties near the newer developments pushing toward the Traverse Mountain area, this is often the faster and less complicated path.
 
 If you're managing a cleanout in the 84043 ZIP code and running up against HOA timelines, calling us directly at (801) 995-2437 is usually the quickest way to get a same-week appointment.
 
-When a garage cleanout, estate haul-out, or post-renovation debris pile is standing between you and a finished project in Lehi, the team at Home Pride — operating since 1997 and serving Utah County from our Saratoga Springs base — is ready to load up and clear out. Call (801) 995-2437 to schedule or get a same-day estimate.
+When a garage cleanout, estate haul-out, or post-renovation debris pile is standing between you and a finished project in Lehi, the team at Home Pride, operating since 1997 and serving Utah County from our Saratoga Springs base, is ready to load up and clear out. Call (801) 995-2437 to schedule or get a same-day estimate.

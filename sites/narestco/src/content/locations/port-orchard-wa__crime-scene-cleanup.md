@@ -21,41 +21,41 @@ service_display: "Crime Scene Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
-When something unthinkable happens inside a home or business near the Sinclair Inlet waterfront, the last thing a grieving family should have to think about is cleanup. Port Orchard's mix of older mid-century homes near Annapolis and newer construction in McCormick Woods means the structural conditions our technicians encounter vary widely — from original hardwood subfloors that absorb biological material deeply to modern luxury vinyl that contains it near the surface. National Restoration Construction responds discreetly, around the clock, with the training and equipment to handle the work so you don't have to.
+When something unthinkable happens inside a home or business near the Sinclair Inlet waterfront, the last thing a grieving family should have to think about is cleanup. Port Orchard's mix of older mid-century homes near Annapolis and newer construction in McCormick Woods means the structural conditions our technicians encounter vary widely, from original hardwood subfloors that absorb biological material deeply to modern luxury vinyl that contains it near the surface. National Restoration Construction responds discreetly, around the clock, with the training and equipment to handle the work so you don't have to.
 
 ## Why Port Orchard Properties Present Unique Cleanup Conditions
 
-The housing stock across South Kitsap tells two different stories. Closer to the Bay Street waterfront and the Annapolis neighborhood, many homes date to the 1950s and 1960s — construction eras that used tongue-and-groove subfloor decking, horsehair-blend insulation, and plaster wall systems that are far more porous than modern materials. Biological contamination can wick several inches into these substrates before it's visible on the surface, which means remediation requires more aggressive material removal and longer treatment cycles than a newer build would.
+The housing stock across South Kitsap tells two different stories. Closer to the Bay Street waterfront and the Annapolis neighborhood, many homes date to the 1950s and 1960s, construction eras that used tongue-and-groove subfloor decking, horsehair-blend insulation, and plaster wall systems that are far more porous than modern materials. Biological contamination can wick several inches into these substrates before it's visible on the surface, which means remediation requires more aggressive material removal and longer treatment cycles than a newer build would.
 
-In contrast, the McCormick Woods development — with its engineered flooring, OSB subfloors, and tighter building envelopes — presents different challenges: contaminants are more contained but HVAC systems recirculate air through the structure quickly, making prompt response critical to preventing cross-contamination of adjacent rooms.
+In contrast, the McCormick Woods development, with its engineered flooring, OSB subfloors, and tighter building envelopes, presents different challenges: contaminants are more contained but HVAC systems recirculate air through the structure quickly, making prompt response critical to preventing cross-contamination of adjacent rooms.
 
-A separate factor applies to properties on private well and septic systems outside the city core. Unlike homes connected to Kitsap PUD municipal service, these properties can't simply have utilities suspended with a single call. Our team accounts for this during site assessment — particularly when scene conditions require controlled water use or drainage management.
+A separate factor applies to properties on private well and septic systems outside the city core. Unlike homes connected to Kitsap PUD municipal service, these properties can't simply have utilities suspended with a single call. Our team accounts for this during site assessment, particularly when scene conditions require controlled water use or drainage management.
 
 ## Our Crime Scene Cleanup Process in Port Orchard
 
-Every job begins with a discreet arrival. Our vehicles are unmarked, and we coordinate directly with whoever is managing access to the property — a family member, estate attorney, property manager, or law enforcement liaison. We do not begin work until the scene has been formally released by Kitsap County authorities.
+Every job begins with a discreet arrival. Our vehicles are unmarked, and we coordinate directly with whoever is managing access to the property, a family member, estate attorney, property manager, or law enforcement liaison. We do not begin work until the scene has been formally released by Kitsap County authorities.
 
 Once cleared, the process moves through four structured phases:
 
-- **Assessment and containment** — We identify the full extent of affected materials, including hidden penetration into subfloors, wall cavities, or HVAC pathways, and establish containment barriers to protect unaffected areas.
-- **Removal of affected materials** — Porous materials that cannot be decontaminated to OSHA and EPA standards are removed, bagged, and transported as regulated biohazardous waste through licensed disposal channels.
-- **Treatment and disinfection** — Hospital-grade EPA-registered disinfectants are applied to all affected surfaces. For older homes near Annapolis with original plaster or wood lath, we extend dwell times to account for the higher porosity of those substrates.
-- **Clearance verification** — Before we close out, surfaces are tested and documented. We provide written records suitable for insurance claims, estate proceedings, or property resale disclosure.
+- **Assessment and containment**, We identify the full extent of affected materials, including hidden penetration into subfloors, wall cavities, or HVAC pathways, and establish containment barriers to protect unaffected areas.
+- **Removal of affected materials**, Porous materials that cannot be decontaminated to OSHA and EPA standards are removed, bagged, and transported as regulated biohazardous waste through licensed disposal channels.
+- **Treatment and disinfection**, Hospital-grade EPA-registered disinfectants are applied to all affected surfaces. For older homes near Annapolis with original plaster or wood lath, we extend dwell times to account for the higher porosity of those substrates.
+- **Clearance verification**, Before we close out, surfaces are tested and documented. We provide written records suitable for insurance claims, estate proceedings, or property resale disclosure.
 
-All technicians on this work are IICRC certified and operate under our EPA Certified and Lead-Safe Certified Firm credentials — relevant on any pre-1978 property, which covers a significant portion of Port Orchard's older waterfront neighborhoods.
+All technicians on this work are IICRC certified and operate under our EPA Certified and Lead-Safe Certified Firm credentials, relevant on any pre-1978 property, which covers a significant portion of Port Orchard's older waterfront neighborhoods.
 
 ## Response Time to Port Orchard from Federal Way
 
 Our Federal Way headquarters puts Port Orchard roughly 35–45 minutes away under normal conditions via SR-16 westbound through Tacoma Narrows. In practice, most calls in the 98366 and 98367 ZIP codes see a technician on-site within 60–90 minutes of initial contact. Properties in the downtown core near the Port Orchard Marina or Kitsap County Courthouse are straightforward to reach; rural acreage further south in South Kitsap may add 10–15 minutes depending on road access.
 
-We are available 24 hours a day, every day of the year. When you call (206) 883-0333, you reach a live person — not a voicemail.
+We are available 24 hours a day, every day of the year. When you call (206) 883-0333, you reach a live person, not a voicemail.
 
 ## Local Note: Discretion on Bay Street and in Tight Waterfront Neighborhoods
 
-Port Orchard is a small city. The Bay Street commercial strip and the neighborhoods immediately behind it are close-knit, and an unmarked service vehicle parked outside a residence draws far less attention than a branded fleet truck. We've worked enough jobs in this area to know that neighbors notice, and families deserve privacy during an already difficult time. When requested, we schedule arrival during early morning hours, coordinate with a single point of contact, and remove all waste materials in sealed, unlabeled containers. If a property is visible from the water — not uncommon along Sinclair Inlet — we also plan our staging to minimize visibility from the foot ferry corridor.
+Port Orchard is a small city. The Bay Street commercial strip and the neighborhoods immediately behind it are close-knit, and an unmarked service vehicle parked outside a residence draws far less attention than a branded fleet truck. We've worked enough jobs in this area to know that neighbors notice, and families deserve privacy during an already difficult time. When requested, we schedule arrival during early morning hours, coordinate with a single point of contact, and remove all waste materials in sealed, unlabeled containers. If a property is visible from the water, not uncommon along Sinclair Inlet, we also plan our staging to minimize visibility from the foot ferry corridor.
 
-If you're managing a property remotely — a common situation with vacation homes or inherited estates in this area — we can coordinate entirely by phone and email, provide photo documentation at each phase, and release the property back to you without requiring your physical presence.
+If you're managing a property remotely, a common situation with vacation homes or inherited estates in this area, we can coordinate entirely by phone and email, provide photo documentation at each phase, and release the property back to you without requiring your physical presence.
 
 ---
 
-Dealing with the aftermath of a traumatic event is hard enough without navigating cleanup logistics alone. National Restoration Construction has handled sensitive remediation work across Kitsap County since 2004, and we bring the same discretion and technical rigor to every Port Orchard property we're called to. Reach us any time at **(206) 883-0333** — we'll walk you through next steps calmly and without pressure.
+Dealing with the aftermath of a traumatic event is hard enough without navigating cleanup logistics alone. National Restoration Construction has handled sensitive remediation work across Kitsap County since 2004, and we bring the same discretion and technical rigor to every Port Orchard property we're called to. Reach us any time at **(206) 883-0333**, we'll walk you through next steps calmly and without pressure.

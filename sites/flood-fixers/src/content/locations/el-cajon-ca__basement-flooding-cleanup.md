@@ -20,38 +20,38 @@ state: "CA"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
-El Cajon sits in a bowl — literally. The city's valley geography, ringed by the Crest ridgeline to the north and the Jamul hills to the south, means that when a winter atmospheric river rolls through San Diego County, runoff has nowhere to go except downhill and into the lowest point of whatever structure is in its path. For homeowners in older neighborhoods near East Main Street or the Rancho San Diego corridor, that lowest point is often a basement or subgrade utility room. When water gets in, it moves fast, and the clock on secondary damage — warped framing, saturated insulation, mold colonization — starts within 24 to 48 hours.
+El Cajon sits in a bowl, literally. The city's valley geography, ringed by the Crest ridgeline to the north and the Jamul hills to the south, means that when a winter atmospheric river rolls through San Diego County, runoff has nowhere to go except downhill and into the lowest point of whatever structure is in its path. For homeowners in older neighborhoods near East Main Street or the Rancho San Diego corridor, that lowest point is often a basement or subgrade utility room. When water gets in, it moves fast, and the clock on secondary damage, warped framing, saturated insulation, mold colonization, starts within 24 to 48 hours.
 
 ## Why El Cajon Properties See Basement Flooding Issues
 
-El Cajon's clay-heavy soils are a significant part of the problem. Adobe and expansive clay soils common throughout the East County region absorb water slowly, which means during a heavy rain event the ground around a foundation can become saturated before it drains. That hydrostatic pressure pushes water through hairline cracks in block or poured-concrete basement walls — sometimes in multiple places at once. Homes built in the 1950s through 1970s, which make up a large share of the housing stock in central El Cajon, were often constructed without modern waterproofing membranes or weeping-tile drainage systems. A slow seep that's been ignored for a season can turn into a full-floor flood after a single overnight storm.
+El Cajon's clay-heavy soils are a significant part of the problem. Adobe and expansive clay soils common throughout the East County region absorb water slowly, which means during a heavy rain event the ground around a foundation can become saturated before it drains. That hydrostatic pressure pushes water through hairline cracks in block or poured-concrete basement walls, sometimes in multiple places at once. Homes built in the 1950s through 1970s, which make up a large share of the housing stock in central El Cajon, were often constructed without modern waterproofing membranes or weeping-tile drainage systems. A slow seep that's been ignored for a season can turn into a full-floor flood after a single overnight storm.
 
 The city also sits downstream of several drainage channels that feed into the San Diego River watershed. During heavy rainfall, those channels can back up, raising groundwater tables in low-lying areas faster than most homeowners expect.
 
 ## Our Basement Flooding Cleanup Process in El Cajon
 
-When a Flood Fixers crew arrives, the first priority is stopping active intrusion if possible — identifying whether the source is a burst pipe, a failed sump pump, wall seepage, or surface water entry through window wells or stairwells. Each source changes the extraction approach.
+When a Flood Fixers crew arrives, the first priority is stopping active intrusion if possible, identifying whether the source is a burst pipe, a failed sump pump, wall seepage, or surface water entry through window wells or stairwells. Each source changes the extraction approach.
 
 From there, the process moves through these stages:
 
-- **Water extraction** — truck-mounted and portable submersible pumps remove standing water. In a typical El Cajon basement with 2–4 inches of standing water, extraction takes 30–90 minutes depending on square footage.
-- **Moisture mapping** — thermal imaging cameras and calibrated moisture meters locate water that has wicked into concrete block, wood framing, and drywall above the visible flood line.
-- **Controlled demolition** — saturated drywall, insulation, and flooring materials that cannot be dried in place are removed. In older El Cajon homes with plaster-and-lath construction, this step requires more care; plaster holds moisture longer than modern drywall and can conceal wet framing behind an apparently dry surface.
-- **Structural drying** — industrial desiccant dehumidifiers and high-velocity air movers run continuously, typically for 3–5 days. Drying logs are recorded daily so you have documentation for your insurance claim.
-- **Antimicrobial treatment** — applied to all affected surfaces before any rebuild begins.
+- **Water extraction**, truck-mounted and portable submersible pumps remove standing water. In a typical El Cajon basement with 2–4 inches of standing water, extraction takes 30–90 minutes depending on square footage.
+- **Moisture mapping**, thermal imaging cameras and calibrated moisture meters locate water that has wicked into concrete block, wood framing, and drywall above the visible flood line.
+- **Controlled demolition**, saturated drywall, insulation, and flooring materials that cannot be dried in place are removed. In older El Cajon homes with plaster-and-lath construction, this step requires more care; plaster holds moisture longer than modern drywall and can conceal wet framing behind an apparently dry surface.
+- **Structural drying**, industrial desiccant dehumidifiers and high-velocity air movers run continuously, typically for 3–5 days. Drying logs are recorded daily so you have documentation for your insurance claim.
+- **Antimicrobial treatment**, applied to all affected surfaces before any rebuild begins.
 
 ## Response Time to El Cajon
 
-Flood Fixers dispatches from San Diego. Under normal traffic conditions, a crew can reach most El Cajon addresses in 30–45 minutes via Interstate 8 East. Neighborhoods closer to the western edge of the city — near the El Cajon Transit Center or along Fletcher Parkway — are typically on the shorter end of that window. Areas further east, toward Rancho San Diego or the 92021 ZIP code corridor, may run closer to 45–60 minutes depending on time of day. We answer calls around the clock; if you're calling at 2 a.m. after a pipe burst, someone picks up.
+Flood Fixers dispatches from San Diego. Under normal traffic conditions, a crew can reach most El Cajon addresses in 30–45 minutes via Interstate 8 East. Neighborhoods closer to the western edge of the city, near the El Cajon Transit Center or along Fletcher Parkway, are typically on the shorter end of that window. Areas further east, toward Rancho San Diego or the 92021 ZIP code corridor, may run closer to 45–60 minutes depending on time of day. We answer calls around the clock; if you're calling at 2 a.m. after a pipe burst, someone picks up.
 
 ## El Cajon Insurance Coordination
 
-Most standard homeowner policies cover sudden and accidental water damage — a burst pipe, a failed water heater, a sump pump overflow — but exclude gradual seepage or flooding from outside the structure unless you carry separate flood insurance through the NFIP. El Cajon participates in the National Flood Insurance Program, and properties in mapped flood zones near the San Diego River floodplain may already carry this coverage without realizing it.
+Most standard homeowner policies cover sudden and accidental water damage, a burst pipe, a failed water heater, a sump pump overflow, but exclude gradual seepage or flooding from outside the structure unless you carry separate flood insurance through the NFIP. El Cajon participates in the National Flood Insurance Program, and properties in mapped flood zones near the San Diego River floodplain may already carry this coverage without realizing it.
 
 Flood Fixers documents every step of the job with photos, moisture readings, and equipment logs in a format that aligns with what adjusters need to process a claim. We work directly with your insurance company and can communicate with your adjuster on your behalf if that's helpful.
 
 ## Local Note
 
-Something worth knowing if your home is in the older residential blocks near East Madison Avenue or the neighborhoods surrounding Prescott Promenade: many of these homes were built with concrete block basement walls rather than poured concrete. Block walls are more porous by nature and develop mortar-joint cracks that are nearly invisible until water pressure reveals them. During extraction and drying, we treat block-wall basements differently — sealing active seep points with hydraulic cement before drying begins, rather than after, so the drying equipment isn't fighting ongoing intrusion. It's a small process change that saves significant time and prevents a second round of damage.
+Something worth knowing if your home is in the older residential blocks near East Madison Avenue or the neighborhoods surrounding Prescott Promenade: many of these homes were built with concrete block basement walls rather than poured concrete. Block walls are more porous by nature and develop mortar-joint cracks that are nearly invisible until water pressure reveals them. During extraction and drying, we treat block-wall basements differently, sealing active seep points with hydraulic cement before drying begins, rather than after, so the drying equipment isn't fighting ongoing intrusion. It's a small process change that saves significant time and prevents a second round of damage.
 
 If your basement has flooded and you're not sure what to do next, call Flood Fixers at **(855) 204-1124**. We'll walk you through what's happening, what needs to happen next, and how to protect your home while we're on the way.

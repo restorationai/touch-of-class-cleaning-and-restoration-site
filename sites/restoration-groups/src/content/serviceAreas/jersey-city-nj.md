@@ -19,35 +19,35 @@ state: "NJ"
 primary: false
 rendered: true
 ---
-When a pipe bursts on the 14th floor of a Newport high-rise or a combined-sewer backs up into a Bergen-Lafayette rowhouse basement, the clock starts immediately. The Restoration Group dispatches from Kenilworth around the clock, bringing drying equipment, moisture documentation, and direct insurance coordination to Jersey City property owners — residential and commercial, single-family and multifamily, condo associations and independent landlords.
+When a pipe bursts on the 14th floor of a Newport high-rise or a combined-sewer backs up into a Bergen-Lafayette rowhouse basement, the clock starts immediately. The Restoration Group dispatches from Kenilworth around the clock, bringing drying equipment, moisture documentation, and direct insurance coordination to Jersey City property owners, residential and commercial, single-family and multifamily, condo associations and independent landlords.
 
 ## Restoration emergencies common in Jersey City
 
 Jersey City sits at the edge of the Hudson and on top of a water table that has very little patience for aging infrastructure. The city's housing stock runs two centuries deep: waterfront towers in Newport and along the Exchange Place waterfront were built with modern fire suppression and mechanical systems that, when they fail, fail fast and affect every unit below the break. Meanwhile, the 1890s–1920s brownstones and frame rowhouses that line the streets of The Heights, Bergen-Lafayette, and Greenville were built before modern drainage standards, and their cellars flood routinely when combined sewers surpass capacity during heavy rain.
 
-Hurricane Sandy's surge made national news, but it also exposed how many low-lying Jersey City blocks — particularly in Greenville and around ZIP codes 07305 and 07304 — sit within easy reach of storm-driven water. Ida repeated the lesson years later, flooding basements citywide in a matter of hours. Add the freeze-thaw cycles that split cast-iron supply lines every February, and Jersey City generates a steady, predictable volume of water, fire, and mold emergencies year-round.
+Hurricane Sandy's surge made national news, but it also exposed how many low-lying Jersey City blocks, particularly in Greenville and around ZIP codes 07305 and 07304, sit within easy reach of storm-driven water. Ida repeated the lesson years later, flooding basements citywide in a matter of hours. Add the freeze-thaw cycles that split cast-iron supply lines every February, and Jersey City generates a steady, predictable volume of water, fire, and mold emergencies year-round.
 
 ## Services we provide in Jersey City
 
 ### Water damage restoration
 
-Water damage in Jersey City often follows one of two patterns. In the high-rise condos and rentals near Newport and the Exchange Place waterfront, a single supply-line or riser failure cascades through stacked units — building management needs unit-by-unit moisture mapping and written documentation that satisfies the association's insurer before repairs can begin. In the older rowhouse neighborhoods of The Heights and Bergen-Lafayette, the problem is more often a flooded cellar, saturated fieldstone foundation walls, or sewage intrusion. We carry truck-mounted extraction, commercial desiccant and refrigerant dehumidifiers, and thermal imaging cameras to find moisture that hasn't surfaced yet.
+Water damage in Jersey City often follows one of two patterns. In the high-rise condos and rentals near Newport and the Exchange Place waterfront, a single supply-line or riser failure cascades through stacked units, building management needs unit-by-unit moisture mapping and written documentation that satisfies the association's insurer before repairs can begin. In the older rowhouse neighborhoods of The Heights and Bergen-Lafayette, the problem is more often a flooded cellar, saturated fieldstone foundation walls, or sewage intrusion. We carry truck-mounted extraction, commercial desiccant and refrigerant dehumidifiers, and thermal imaging cameras to find moisture that hasn't surfaced yet.
 
 ### Mold remediation
 
-Mold can begin colonizing wet drywall and wood framing within 24 to 48 hours of a water event — a timeline that matters in Jersey City's dense multifamily buildings, where a slow leak behind a bathroom wall can spread spores across shared structural members before anyone notices a smell. We follow IICRC S520 protocols for containment and remediation, and we document the process in a format that satisfies both residential landlords and condo board insurers.
+Mold can begin colonizing wet drywall and wood framing within 24 to 48 hours of a water event, a timeline that matters in Jersey City's dense multifamily buildings, where a slow leak behind a bathroom wall can spread spores across shared structural members before anyone notices a smell. We follow IICRC S520 protocols for containment and remediation, and we document the process in a format that satisfies both residential landlords and condo board insurers.
 
 ### Fire and smoke damage restoration
 
-Older wood-frame construction in Greenville and Journal Square burns differently than modern drywall construction — char penetrates deeper, and smoke residue settles into plaster, exposed brick, and original hardwood floors in ways that require careful cleaning rather than replacement. We assess what can be restored versus what needs to go, and we work with your adjuster to document the scope accurately.
+Older wood-frame construction in Greenville and Journal Square burns differently than modern drywall construction, char penetrates deeper, and smoke residue settles into plaster, exposed brick, and original hardwood floors in ways that require careful cleaning rather than replacement. We assess what can be restored versus what needs to go, and we work with your adjuster to document the scope accurately.
 
 ### Biohazard and sewage cleanup
 
-Combined-sewer backups are a chronic reality in parts of Jersey City, particularly in lower-lying neighborhoods during heavy rainfall. Sewage intrusion is a Category 3 water event — it requires full protective protocols, proper disposal, and antimicrobial treatment. We handle the cleanup and provide the documentation your insurer needs to process the claim.
+Combined-sewer backups are a chronic reality in parts of Jersey City, particularly in lower-lying neighborhoods during heavy rainfall. Sewage intrusion is a Category 3 water event, it requires full protective protocols, proper disposal, and antimicrobial treatment. We handle the cleanup and provide the documentation your insurer needs to process the claim.
 
 ## Coverage and how fast we can get there
 
-Kenilworth sits roughly 12 to 15 miles from Jersey City, with the most direct route running east on Route 22 to the Garden State Parkway, then north to the New Jersey Turnpike and across to the Holland Tunnel corridor or the Pulaski Skyway into Journal Square and points south. Traffic on that corridor is real — we factor it in and dispatch as soon as a call comes in, 24 hours a day. Downtown Jersey City (07302) and Newport (07310) are accessible via the Turnpike's Exit 14C. The Heights (07307) and Bergen-Lafayette (07304) typically route through Journal Square. We serve all Jersey City ZIP codes, including 07302, 07304, 07305, 07306, 07307, and 07310.
+Kenilworth sits roughly 12 to 15 miles from Jersey City, with the most direct route running east on Route 22 to the Garden State Parkway, then north to the New Jersey Turnpike and across to the Holland Tunnel corridor or the Pulaski Skyway into Journal Square and points south. Traffic on that corridor is real, we factor it in and dispatch as soon as a call comes in, 24 hours a day. Downtown Jersey City (07302) and Newport (07310) are accessible via the Turnpike's Exit 14C. The Heights (07307) and Bergen-Lafayette (07304) typically route through Journal Square. We serve all Jersey City ZIP codes, including 07302, 07304, 07305, 07306, 07307, and 07310.
 
 ## Building stock, site conditions, and permits in Jersey City
 
@@ -57,4 +57,4 @@ Ground varies sharply. The Heights sits on the hard Palisades ridge; the waterfr
 
 In New Jersey, work is governed by the statewide Uniform Construction Code, and structural repairs, rewiring, and re-piping pull permits through Jersey City's construction code office under the relevant subcodes.
 
-If you're dealing with water, fire, mold, or sewage damage anywhere in Jersey City, call The Restoration Group at **(908) 970-8533** — we answer every hour of every day and can begin coordinating your response immediately.
+If you're dealing with water, fire, mold, or sewage damage anywhere in Jersey City, call The Restoration Group at **(908) 970-8533**, we answer every hour of every day and can begin coordinating your response immediately.

@@ -20,40 +20,40 @@ state: "WA"
 service_display: "Reconstruction Services"
 rendered: true
 ---
-When a fire, flood, or structural failure leaves a Bellevue property partially standing, the clock starts immediately. Smoke odor penetrates drywall within hours. Wet framing begins to soften. What looks like surface damage is often a sign of something deeper. National Restoration Construction has been handling post-damage reconstruction across the greater Seattle area since 2004, and our Federal Way headquarters puts us less than 20 miles from most Bellevue job sites — close enough to be on-site fast, experienced enough to know what to do when we get there.
+When a fire, flood, or structural failure leaves a Bellevue property partially standing, the clock starts immediately. Smoke odor penetrates drywall within hours. Wet framing begins to soften. What looks like surface damage is often a sign of something deeper. National Restoration Construction has been handling post-damage reconstruction across the greater Seattle area since 2004, and our Federal Way headquarters puts us less than 20 miles from most Bellevue job sites, close enough to be on-site fast, experienced enough to know what to do when we get there.
 
 ## Our Reconstruction Process in Bellevue
 
-Reconstruction isn't just rebuilding what was there before — it's rebuilding it correctly, so the damage doesn't return. Our process starts with a thorough structural assessment before a single nail goes in. We document everything: load-bearing walls, compromised subflooring, charred framing members, water-saturated insulation. That documentation matters both for the structural rebuild and for your insurance adjuster.
+Reconstruction isn't just rebuilding what was there before, it's rebuilding it correctly, so the damage doesn't return. Our process starts with a thorough structural assessment before a single nail goes in. We document everything: load-bearing walls, compromised subflooring, charred framing members, water-saturated insulation. That documentation matters both for the structural rebuild and for your insurance adjuster.
 
-From there, we move through demolition of unsalvageable materials, framing and structural reconstruction, mechanical rough-ins (if affected), insulation, drywall, and finish work — all under one contractor license. Working with a single crew from demo to final coat eliminates the coordination gaps that cause delays and cost overruns when multiple subcontractors hand off to each other. Our WA State Department of Labor & Industries General Contractor registration (#NATIORC792M6) covers the full scope.
+From there, we move through demolition of unsalvageable materials, framing and structural reconstruction, mechanical rough-ins (if affected), insulation, drywall, and finish work, all under one contractor license. Working with a single crew from demo to final coat eliminates the coordination gaps that cause delays and cost overruns when multiple subcontractors hand off to each other. Our WA State Department of Labor & Industries General Contractor registration (#NATIORC792M6) covers the full scope.
 
-For properties with pre-1978 construction — common in older Bellevue neighborhoods like Beaux Arts Village and parts of the West Bellevue corridor — our Lead-Safe Certified Firm status means we handle disturbed materials in compliance with EPA protocols before reconstruction begins.
+For properties with pre-1978 construction, common in older Bellevue neighborhoods like Beaux Arts Village and parts of the West Bellevue corridor, our Lead-Safe Certified Firm status means we handle disturbed materials in compliance with EPA protocols before reconstruction begins.
 
 ## Why Bellevue Properties Face Reconstruction Emergencies
 
-Bellevue's climate and housing stock create a specific set of risks. The western Cascades funnel persistent moisture into the region from October through April. Homes built in the 1960s and 1970s — a significant portion of Bellevue's residential stock — often have original rooflines, aging flashing, and wood-framed construction that wasn't designed with today's rainfall intensity in mind. A single winter storm can drive water into wall cavities that were already under stress.
+Bellevue's climate and housing stock create a specific set of risks. The western Cascades funnel persistent moisture into the region from October through April. Homes built in the 1960s and 1970s, a significant portion of Bellevue's residential stock, often have original rooflines, aging flashing, and wood-framed construction that wasn't designed with today's rainfall intensity in mind. A single winter storm can drive water into wall cavities that were already under stress.
 
-Wildfires in Eastern Washington push smoke and ash westward during dry summers, and while Bellevue itself rarely sees direct fire exposure, structure fires from electrical faults and kitchen incidents are a year-round reality in the dense residential neighborhoods east of I-405. Post-fire rebuilding typically involves more structural reconstruction than homeowners expect — heat warps framing, and smoke residue embeds into materials that look intact.
+Wildfires in Eastern Washington push smoke and ash westward during dry summers, and while Bellevue itself rarely sees direct fire exposure, structure fires from electrical faults and kitchen incidents are a year-round reality in the dense residential neighborhoods east of I-405. Post-fire rebuilding typically involves more structural reconstruction than homeowners expect, heat warps framing, and smoke residue embeds into materials that look intact.
 
 Seismic risk is a quieter concern, but the Pacific Northwest sits on the Cascadia Subduction Zone. Older Bellevue homes without seismic retrofitting can sustain foundation and cripple-wall damage that requires structural reconstruction before cosmetic repairs make any sense.
 
 ## Handling Insurance Claims for Reconstruction Damage
 
-Insurance paperwork is one of the most stressful parts of a reconstruction event — and one of the places where property owners lose money by not documenting early enough. We work directly with most major carriers and can provide the line-item scope of work, photo documentation, and moisture or structural readings that adjusters require.
+Insurance paperwork is one of the most stressful parts of a reconstruction event, and one of the places where property owners lose money by not documenting early enough. We work directly with most major carriers and can provide the line-item scope of work, photo documentation, and moisture or structural readings that adjusters require.
 
 What we handle: the technical scope of work, material quantities, equipment logs, and progress documentation throughout the rebuild. What you'll manage on your side: your policy deductible, communicating your coverage limits to us upfront, and any supplemental claims if hidden damage is discovered mid-project (which we'll flag immediately and document for you).
 
-We've seen Bellevue homeowners accept initial adjuster estimates that didn't account for full structural reconstruction costs. Having a licensed, IICRC-certified contractor involved early — before you sign off on a scope — can protect you from underfunded repairs.
+We've seen Bellevue homeowners accept initial adjuster estimates that didn't account for full structural reconstruction costs. Having a licensed, IICRC-certified contractor involved early, before you sign off on a scope, can protect you from underfunded repairs.
 
 ## Response Times Across Bellevue
 
-From our Federal Way base, we typically reach Bellevue job sites within 60 to 90 minutes of your call. Properties near the I-90 corridor — Eastgate, Factoria, Somerset — are often closer to 45 minutes. Bellevue's downtown core and the Medina waterfront area can add time during peak commute hours on 405, but we account for that in dispatch.
+From our Federal Way base, we typically reach Bellevue job sites within 60 to 90 minutes of your call. Properties near the I-90 corridor, Eastgate, Factoria, Somerset, are often closer to 45 minutes. Bellevue's downtown core and the Medina waterfront area can add time during peak commute hours on 405, but we account for that in dispatch.
 
-For active emergencies — a roof open to weather, a structure with ongoing water intrusion — faster response directly limits reconstruction scope. Every hour of exposure to the elements after a fire or flood is additional material that will need to come out. Reaching us at (206) 883-0333 as soon as the immediate safety situation is stabilized gives us the best chance to contain the damage before it compounds.
+For active emergencies, a roof open to weather, a structure with ongoing water intrusion, faster response directly limits reconstruction scope. Every hour of exposure to the elements after a fire or flood is additional material that will need to come out. Reaching us at (206) 883-0333 as soon as the immediate safety situation is stabilized gives us the best chance to contain the damage before it compounds.
 
 If you're not sure whether what you're looking at requires emergency stabilization or can wait for a scheduled assessment, call anyway. We'll ask the right questions to help you decide.
 
 ---
 
-Post-disaster rebuilding is disorienting — you're managing safety, insurance, temporary housing, and a property that no longer looks like home. National Restoration Construction's role is to take the reconstruction side off your plate entirely, from the first structural assessment through the final walkthrough. Reach us at **(206) 883-0333** any time — we're available around the clock for Bellevue properties that can't wait until morning.
+Post-disaster rebuilding is disorienting, you're managing safety, insurance, temporary housing, and a property that no longer looks like home. National Restoration Construction's role is to take the reconstruction side off your plate entirely, from the first structural assessment through the final walkthrough. Reach us at **(206) 883-0333** any time, we're available around the clock for Bellevue properties that can't wait until morning.

@@ -21,30 +21,30 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
-When something unexpected and deeply difficult happens inside a home or property near the Big Sioux River corridor, the last thing a family should have to manage is the cleanup. Dell Rapids is a tight-knit community — word travels fast, neighbors notice, and privacy matters. Biohazard situations, whether involving blood, bodily fluids, sharps, or other infectious material, require a response that is both technically thorough and genuinely discreet. Crew Restoration & Construction handles these calls with the same care you'd expect from someone who understands what it means to live in a small South Dakota city where everyone knows your street.
+When something unexpected and deeply difficult happens inside a home or property near the Big Sioux River corridor, the last thing a family should have to manage is the cleanup. Dell Rapids is a tight-knit community, word travels fast, neighbors notice, and privacy matters. Biohazard situations, whether involving blood, bodily fluids, sharps, or other infectious material, require a response that is both technically thorough and genuinely discreet. Crew Restoration & Construction handles these calls with the same care you'd expect from someone who understands what it means to live in a small South Dakota city where everyone knows your street.
 
 ## Why Dell Rapids Properties Present Unique Biohazard Considerations
 
-Dell Rapids sits along the quartzite-lined banks of the Big Sioux River, and that geography shapes the local housing stock in ways that matter for remediation work. Properties near Rocky Run and the river dells tend to sit on lots with limited drainage and occasional flood exposure, which means subfloor and crawl space materials are often already stressed before a biohazard event occurs. When porous materials like aged wood subfloors or older concrete have absorbed moisture over years, they also absorb biological contamination more readily — and require more aggressive treatment to reach a verifiable clean standard.
+Dell Rapids sits along the quartzite-lined banks of the Big Sioux River, and that geography shapes the local housing stock in ways that matter for remediation work. Properties near Rocky Run and the river dells tend to sit on lots with limited drainage and occasional flood exposure, which means subfloor and crawl space materials are often already stressed before a biohazard event occurs. When porous materials like aged wood subfloors or older concrete have absorbed moisture over years, they also absorb biological contamination more readily, and require more aggressive treatment to reach a verifiable clean standard.
 
-The Downtown Dell Rapids Historic District contains a number of homes and commercial buildings constructed before World War II. Older construction in this ZIP code (57022) frequently features original hardwood flooring with wide plank gaps, plaster-and-lath walls, and unfinished basement areas — all surfaces that hold biological material in ways that modern construction does not. Remediation in these buildings takes longer, requires more careful material assessment, and sometimes involves decisions about what can be cleaned versus what must be removed and replaced.
+The Downtown Dell Rapids Historic District contains a number of homes and commercial buildings constructed before World War II. Older construction in this ZIP code (57022) frequently features original hardwood flooring with wide plank gaps, plaster-and-lath walls, and unfinished basement areas, all surfaces that hold biological material in ways that modern construction does not. Remediation in these buildings takes longer, requires more careful material assessment, and sometimes involves decisions about what can be cleaned versus what must be removed and replaced.
 
 ## Our Biohazard Cleanup Process in Dell Rapids
 
-Every job begins with a contained assessment — we evaluate the affected area before any work begins, identify the boundaries of contamination, and establish a containment perimeter so unaffected areas of the home remain protected. No one outside the trained crew enters the work zone.
+Every job begins with a contained assessment, we evaluate the affected area before any work begins, identify the boundaries of contamination, and establish a containment perimeter so unaffected areas of the home remain protected. No one outside the trained crew enters the work zone.
 
 From there, the process follows a structured sequence:
 
 - **Removal of contaminated materials** that cannot be safely decontaminated in place, handled and packaged according to applicable regulations for infectious waste transport in South Dakota
 - **Surface treatment** of all affected hard and semi-porous materials using EPA-registered disinfectants rated for bloodborne pathogens
 - **Odor control and air quality work** using HEPA filtration and, where indicated, hydroxyl or ozone treatment to address airborne particulates
-- **Verification** before we leave — we do not consider a job complete until the space is measurably safe and visually restored
+- **Verification** before we leave, we do not consider a job complete until the space is measurably safe and visually restored
 
 Throughout the process, we use sealed disposal containers, full PPE, and vehicle protocols that ensure nothing visible or identifiable leaves the property in a way that draws attention from neighbors.
 
 ## Reaching Dell Rapids from Sioux Falls
 
-Crew Restoration & Construction operates out of Sioux Falls, and Dell Rapids is a straightforward drive north on SD-115 — a route the crew knows well. For properties in the Big Sioux River area or along the historic downtown blocks, access is generally uncomplicated, though some of the older residential streets near the Dell Rapids Museum have narrower approaches that we account for when staging equipment. We coordinate arrival logistics with the property contact before we pull up, so there is no unnecessary activity visible from the street.
+Crew Restoration & Construction operates out of Sioux Falls, and Dell Rapids is a straightforward drive north on SD-115, a route the crew knows well. For properties in the Big Sioux River area or along the historic downtown blocks, access is generally uncomplicated, though some of the older residential streets near the Dell Rapids Museum have narrower approaches that we account for when staging equipment. We coordinate arrival logistics with the property contact before we pull up, so there is no unnecessary activity visible from the street.
 
 ## Insurance Coordination for Dell Rapids Biohazard Claims
 
@@ -52,6 +52,6 @@ Many homeowner policies in South Dakota include coverage for certain biohazard c
 
 ## Local Note
 
-Properties along the flood-adjacent lots near the Big Sioux River dells sometimes have older septic infrastructure or aging utility connections that were never fully updated when city services expanded. In a biohazard situation, this occasionally means a secondary concern — contaminated water intrusion from a compromised line, or a crawl space that has seen repeated moisture infiltration. When we assess a Dell Rapids property, we flag these secondary conditions so the homeowner has a complete picture, not just a surface-level cleanup with a hidden problem underneath.
+Properties along the flood-adjacent lots near the Big Sioux River dells sometimes have older septic infrastructure or aging utility connections that were never fully updated when city services expanded. In a biohazard situation, this occasionally means a secondary concern, contaminated water intrusion from a compromised line, or a crawl space that has seen repeated moisture infiltration. When we assess a Dell Rapids property, we flag these secondary conditions so the homeowner has a complete picture, not just a surface-level cleanup with a hidden problem underneath.
 
 If you are dealing with a situation that needs professional, discreet biohazard cleanup in Dell Rapids, call Crew Restoration & Construction at (605) 965-2727. We will walk you through what to expect, answer your questions plainly, and handle the work so you do not have to.

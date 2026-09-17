@@ -20,41 +20,41 @@ state: "MS"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-D'Iberville sits in a coastal Mississippi climate where high humidity and Gulf-driven heat don't stop at the fire line — they follow you into the recovery. When a house fire strikes here, smoke residue absorbs ambient moisture within hours, bonding more aggressively to porous surfaces like brick veneer, wood-frame walls, and the vinyl siding common across D'Iberville's newer residential developments. That combination of fire char and coastal humidity creates a restoration window that closes faster than in drier inland markets, and it demands a team that understands both.
+D'Iberville sits in a coastal Mississippi climate where high humidity and Gulf-driven heat don't stop at the fire line, they follow you into the recovery. When a house fire strikes here, smoke residue absorbs ambient moisture within hours, bonding more aggressively to porous surfaces like brick veneer, wood-frame walls, and the vinyl siding common across D'Iberville's newer residential developments. That combination of fire char and coastal humidity creates a restoration window that closes faster than in drier inland markets, and it demands a team that understands both.
 
 ## Why D'Iberville Properties Face Distinct Fire Damage Challenges
 
-D'Iberville's housing stock leans heavily toward construction built during and after the post-Katrina rebuilding boom — ranch-style and two-story homes with engineered lumber framing, spray foam insulation, and open floor plans. Engineered lumber components like LVL beams and OSB sheathing behave differently under fire than old-growth dimensional lumber: they lose structural integrity faster and can appear sound on the surface while being compromised internally. That means post-fire structural assessment here requires more than a visual walk-through.
+D'Iberville's housing stock leans heavily toward construction built during and after the post-Katrina rebuilding boom, ranch-style and two-story homes with engineered lumber framing, spray foam insulation, and open floor plans. Engineered lumber components like LVL beams and OSB sheathing behave differently under fire than old-growth dimensional lumber: they lose structural integrity faster and can appear sound on the surface while being compromised internally. That means post-fire structural assessment here requires more than a visual walk-through.
 
-The area's proximity to the Back Bay of Biloxi also matters. Elevated ambient humidity — routinely above 70% in summer months — accelerates the conversion of smoke residue into acidic compounds that etch metal fixtures, discolor grout, and pit glass within 48 to 72 hours of a fire event. Acting quickly isn't a sales pitch; it's the chemistry of coastal recovery.
+The area's proximity to the Back Bay of Biloxi also matters. Elevated ambient humidity, routinely above 70% in summer months, accelerates the conversion of smoke residue into acidic compounds that etch metal fixtures, discolor grout, and pit glass within 48 to 72 hours of a fire event. Acting quickly isn't a sales pitch; it's the chemistry of coastal recovery.
 
 ## Our Fire and Smoke Restoration Process in D'Iberville
 
-Every job starts with a documented scope — photographs, moisture readings, and a room-by-room inventory of affected materials — before a single surface is touched. That documentation protects your insurance claim and establishes a baseline for measuring restoration progress.
+Every job starts with a documented scope, photographs, moisture readings, and a room-by-room inventory of affected materials, before a single surface is touched. That documentation protects your insurance claim and establishes a baseline for measuring restoration progress.
 
 From there, the process moves in a deliberate sequence:
 
 - **Structural stabilization**: Board-up, roof tarping, and temporary shoring where fire has compromised load-bearing elements.
 - **Debris removal and controlled demolition**: Charred materials are removed to clean substrate, with salvageable items catalogued and set aside.
 - **Smoke and soot cleaning**: Dry chemical sponges for loose soot, followed by alkaline cleaners calibrated to surface type. Porous masonry gets a different treatment than painted drywall or cabinetry.
-- **Odor neutralization**: Thermal fogging and hydroxyl generation — not masking sprays — to break down odor-causing molecules embedded in wall cavities and HVAC ductwork.
+- **Odor neutralization**: Thermal fogging and hydroxyl generation, not masking sprays, to break down odor-causing molecules embedded in wall cavities and HVAC ductwork.
 - **Structural drying**: Because water from suppression efforts is always part of the picture, drying runs concurrently with smoke remediation using commercial dehumidifiers and air movers.
 - **Reconstruction**: Framing, drywall, insulation, and finish work completed by the same crew that handled remediation, so nothing falls through the handoff.
 
-Our team holds the IICRC FSRT (Fire and Smoke Restoration Technician) credential, and structural drying follows IICRC S500 standards — relevant because suppression water left in wall cavities creates a secondary mold risk within days in this climate.
+Our team holds the IICRC FSRT (Fire and Smoke Restoration Technician) credential, and structural drying follows IICRC S500 standards, relevant because suppression water left in wall cavities creates a secondary mold risk within days in this climate.
 
 ## Reaching D'Iberville from Our Gulfport Base
 
-HomeLyft Restoration MS operates out of Gulfport, putting D'Iberville within close reach via I-110 and US-90. We schedule prompt response and can coordinate directly with D'Iberville's local fire marshal office for post-fire re-entry authorization when a property has been red-tagged — a step that trips up out-of-area contractors unfamiliar with the process.
+HomeLyft Restoration MS operates out of Gulfport, putting D'Iberville within close reach via I-110 and US-90. We schedule prompt response and can coordinate directly with D'Iberville's local fire marshal office for post-fire re-entry authorization when a property has been red-tagged, a step that trips up out-of-area contractors unfamiliar with the process.
 
 ## D'Iberville Insurance Coordination
 
 Fire claims in Mississippi are governed by state-mandated timelines for adjuster response, and carriers vary significantly in what they require for documentation. We produce a line-item Xactimate estimate, photograph every affected surface before and after each phase of work, and communicate directly with your adjuster so you are not translating between two technical vocabularies while also dealing with displacement. We bill major carriers directly in most cases, reducing the out-of-pocket burden during an already stressful period.
 
-If your property carries a wind or flood endorsement alongside your fire policy — common in coastal Harrison County — we flag overlapping damage categories early so coverage gaps don't surface at the end of the job.
+If your property carries a wind or flood endorsement alongside your fire policy, common in coastal Harrison County, we flag overlapping damage categories early so coverage gaps don't surface at the end of the job.
 
 ## Local Note
 
-D'Iberville properties built in the years immediately following Hurricane Katrina — roughly 2006 through 2010 — frequently used a mix of materials sourced during a regional supply shortage: non-standard OSB thicknesses, varying insulation types, and in some cases, Chinese-manufactured drywall that was later flagged for off-gassing issues. When fire damage requires partial or full drywall replacement in homes of that vintage, we test before we replace, because installing new material over a pre-existing problem creates a compounding liability. It's a detail that matters specifically to this area and this era of construction.
+D'Iberville properties built in the years immediately following Hurricane Katrina, roughly 2006 through 2010, frequently used a mix of materials sourced during a regional supply shortage: non-standard OSB thicknesses, varying insulation types, and in some cases, Chinese-manufactured drywall that was later flagged for off-gassing issues. When fire damage requires partial or full drywall replacement in homes of that vintage, we test before we replace, because installing new material over a pre-existing problem creates a compounding liability. It's a detail that matters specifically to this area and this era of construction.
 
 If your D'Iberville home has been damaged by fire, the recovery timeline starts the moment you make the call. Smoke chemistry, coastal humidity, and structural complexity all work against delay. Reach HomeLyft Restoration MS at **+1 (228) 284-5200** to schedule an assessment and get a documented scope in hand before conditions deteriorate further.

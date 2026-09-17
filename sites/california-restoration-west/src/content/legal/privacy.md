@@ -20,7 +20,7 @@ rendered: true
 
 *Effective date: see footer for last-updated date.*
 
-This policy explains how California Restoration West collects, uses, and protects information you share when you visit **californiarestorationwest.com** or contact us directly. It is written to be readable — not to bury important details in legal language.
+This policy explains how California Restoration West collects, uses, and protects information you share when you visit **californiarestorationwest.com** or contact us directly. It is written to be readable, not to bury important details in legal language.
 
 ---
 
@@ -28,7 +28,7 @@ This policy explains how California Restoration West collects, uses, and protect
 
 When you fill out a contact or estimate-request form, we receive the information you type: your name, phone number, email address, property address, and a description of the damage or service you need. If you call or email us directly, we retain that correspondence as well.
 
-The site also collects basic, anonymized analytics data — pages visited, approximate geographic region, browser type, and how you arrived at the site. This data contains no personally identifying information and is used only to understand how visitors use the site so we can improve it.
+The site also collects basic, anonymized analytics data, pages visited, approximate geographic region, browser type, and how you arrived at the site. This data contains no personally identifying information and is used only to understand how visitors use the site so we can improve it.
 
 We do not use tracking pixels, behavioral advertising networks, or third-party retargeting tools.
 
@@ -36,7 +36,7 @@ We do not use tracking pixels, behavioral advertising networks, or third-party r
 
 ## How We Use Your Information
 
-The information you provide is used for one purpose: to help you. That means responding to your inquiry, scheduling an on-site estimate, coordinating the scope of work, and — when you authorize it — communicating with your insurance carrier on your behalf to document the loss and process your claim.
+The information you provide is used for one purpose: to help you. That means responding to your inquiry, scheduling an on-site estimate, coordinating the scope of work, and, when you authorize it, communicating with your insurance carrier on your behalf to document the loss and process your claim.
 
 We do not use your contact information for marketing lists, and we do not sell, rent, or trade your personal information to any third party.
 
@@ -52,13 +52,13 @@ We may be required to disclose information if compelled by law, court order, or 
 
 ## Data Retention
 
-We retain job-related records — including contact information, estimates, and insurance documentation — for as long as is reasonably necessary to fulfill the service relationship and comply with California contractor record-keeping requirements. Inquiry records from contacts that did not result in a job are retained for a shorter period and are not used for ongoing outreach.
+We retain job-related records, including contact information, estimates, and insurance documentation, for as long as is reasonably necessary to fulfill the service relationship and comply with California contractor record-keeping requirements. Inquiry records from contacts that did not result in a job are retained for a shorter period and are not used for ongoing outreach.
 
 ---
 
 ## Your Rights as a California Resident
 
-If you are a California resident, the California Consumer Privacy Act (CCPA) gives you the right to know what personal information we hold about you, to request its deletion, and to opt out of any sale of that information. Because we do not sell personal data, the opt-out right is already satisfied — but the rights to access and deletion apply fully.
+If you are a California resident, the California Consumer Privacy Act (CCPA) gives you the right to know what personal information we hold about you, to request its deletion, and to opt out of any sale of that information. Because we do not sell personal data, the opt-out right is already satisfied, but the rights to access and deletion apply fully.
 
 To make a request, contact us at the information below. We will respond within 45 days as required.
 
@@ -78,7 +78,7 @@ If you have a question or concern about how your information is handled, reach u
 
 ## Terms of Service
 
-These terms apply to your use of this website and to any service relationship with California Restoration West. The actual scope of any restoration or remediation work is governed by the signed work-authorization form you receive before work begins — not by these general terms.
+These terms apply to your use of this website and to any service relationship with California Restoration West. The actual scope of any restoration or remediation work is governed by the signed work-authorization form you receive before work begins, not by these general terms.
 
 ### Service Area
 
@@ -86,7 +86,7 @@ We provide restoration services in Ventura County and surrounding areas of Calif
 
 ### Estimates
 
-Any estimate — whether provided verbally, by email, or through a written scope document — is not a binding contract. Work does not begin and pricing is not final until both parties have signed a written work-authorization agreement. Conditions discovered after work begins (such as hidden moisture damage or concealed structural issues) may require a revised scope, which will be presented to you before proceeding.
+Any estimate, whether provided verbally, by email, or through a written scope document, is not a binding contract. Work does not begin and pricing is not final until both parties have signed a written work-authorization agreement. Conditions discovered after work begins (such as hidden moisture damage or concealed structural issues) may require a revised scope, which will be presented to you before proceeding.
 
 ### Payment Terms
 
@@ -98,7 +98,7 @@ California Restoration West operates as a licensed contractor under California s
 
 ### Insurance Coordination
 
-We are experienced in working alongside insurance carriers and can document losses, prepare photo logs, and communicate with adjusters — but we do not guarantee coverage determinations or claim outcomes. Those decisions rest with your carrier.
+We are experienced in working alongside insurance carriers and can document losses, prepare photo logs, and communicate with adjusters, but we do not guarantee coverage determinations or claim outcomes. Those decisions rest with your carrier.
 
 ### Disputes
 
@@ -110,4 +110,4 @@ If a dispute arises from a service relationship, we ask that you contact us dire
 
 California Restoration West is committed to making this website usable by everyone, including people who rely on assistive technologies such as screen readers or keyboard navigation. We aim to meet the Web Content Accessibility Guidelines (WCAG) 2.1 at the AA level, and the site is built with semantic markup intended to be compatible with common screen readers and browser accessibility tools.
 
-If you encounter a barrier — a form that won't cooperate with your assistive technology, an image without a useful description, or anything else that makes it harder to get the information you need — please let us know. You can reach us by phone at **(805) 290-7292** or by email at **Californiarestorationwest@gmail.com**. We will work to address reported issues within a reasonable timeframe.
+If you encounter a barrier, a form that won't cooperate with your assistive technology, an image without a useful description, or anything else that makes it harder to get the information you need, please let us know. You can reach us by phone at **(805) 290-7292** or by email at **Californiarestorationwest@gmail.com**. We will work to address reported issues within a reasonable timeframe.

@@ -17,13 +17,13 @@ service_slug: "contents-restoration"
 service_display: "Contents Restoration and Storage"
 rendered: true
 ---
-When a pipe bursts or a fire tears through a room, the structure gets most of the attention — but it's often your furniture, clothing, documents, artwork, and family heirlooms that are hardest to replace. Smoke odor soaks into upholstery within hours. Soot begins etching finished surfaces within days. Water-saturated wood warps before a drying crew can even finish setting equipment. Contents restoration is the discipline of intercepting that damage before it becomes permanent — and doing it in a controlled environment away from the active loss site.
+When a pipe bursts or a fire tears through a room, the structure gets most of the attention, but it's often your furniture, clothing, documents, artwork, and family heirlooms that are hardest to replace. Smoke odor soaks into upholstery within hours. Soot begins etching finished surfaces within days. Water-saturated wood warps before a drying crew can even finish setting equipment. Contents restoration is the discipline of intercepting that damage before it becomes permanent, and doing it in a controlled environment away from the active loss site.
 
 ## What contents restoration and storage actually involves
 
 Contents restoration is not wiping down furniture with a damp cloth. It is a structured process that begins with a detailed inventory of every affected item, continues through specialized cleaning and deodorization, and ends with climate-controlled storage until your home is ready to receive your belongings back.
 
-The work varies by loss type. After a fire, textiles carry protein soot or synthetic soot depending on what burned — each requires a different chemical approach. After water damage, porous items like upholstered furniture and books absorb Category 1, 2, or 3 water, and the contamination level determines whether an item can be restored or must be discarded. After mold events, soft goods often cannot be fully remediated and require documentation for insurance rather than cleaning.
+The work varies by loss type. After a fire, textiles carry protein soot or synthetic soot depending on what burned, each requires a different chemical approach. After water damage, porous items like upholstered furniture and books absorb Category 1, 2, or 3 water, and the contamination level determines whether an item can be restored or must be discarded. After mold events, soft goods often cannot be fully remediated and require documentation for insurance rather than cleaning.
 
 Equipment used in professional contents restoration includes ultrasonic cleaning tanks (for hard goods, collectibles, and non-porous items), ozone chambers and hydroxyl generators for odor neutralization, freeze-drying equipment for water-damaged documents and photos, and industrial-grade textile cleaning systems. Items are tracked by barcode or photo inventory from pack-out through return, so nothing is lost or misidentified during storage.
 
@@ -33,11 +33,11 @@ Timeline depends on the scope of the loss and the volume of affected items. A si
 
 1. **Pre-pack inventory and condition documentation.** Before a single item leaves your home, every piece is photographed, described, and logged. This inventory becomes the foundation of your insurance claim and protects both you and the carrier from disputes about pre-loss condition.
 
-2. **Pack-out and transport.** Items are packed by category — fragile, textile, electronics, documents, artwork — using appropriate materials, then transported in enclosed vehicles to our cleaning and storage facility. Chain of custody is maintained throughout.
+2. **Pack-out and transport.** Items are packed by category, fragile, textile, electronics, documents, artwork, using appropriate materials, then transported in enclosed vehicles to our cleaning and storage facility. Chain of custody is maintained throughout.
 
-3. **Item-by-item cleaning and deodorization.** Hard goods go through ultrasonic or hand-cleaning appropriate to the material and contamination type. Textiles are processed through specialty cleaning matched to the soot or water category. Odor treatment — ozone, hydroxyl, or thermal fogging depending on the item — follows cleaning, not the other way around. Treating odor before removing the source contamination is one of the most common mistakes in this work.
+3. **Item-by-item cleaning and deodorization.** Hard goods go through ultrasonic or hand-cleaning appropriate to the material and contamination type. Textiles are processed through specialty cleaning matched to the soot or water category. Odor treatment, ozone, hydroxyl, or thermal fogging depending on the item, follows cleaning, not the other way around. Treating odor before removing the source contamination is one of the most common mistakes in this work.
 
-4. **Climate-controlled storage.** Restored items are stored in a secured, climate-controlled facility while structural repairs proceed. Henderson's desert heat — routinely above 110°F in summer — means an uncontrolled warehouse can re-damage items that have already been cleaned. Temperature and humidity-stable storage is not optional here; it is part of the restoration.
+4. **Climate-controlled storage.** Restored items are stored in a secured, climate-controlled facility while structural repairs proceed. Henderson's desert heat, routinely above 110°F in summer, means an uncontrolled warehouse can re-damage items that have already been cleaned. Temperature and humidity-stable storage is not optional here; it is part of the restoration.
 
 5. **Return and placement.** When your home is ready, items are returned, unpacked, and placed. A final walkthrough confirms every inventoried item is accounted for and in the condition documented after cleaning.
 
@@ -45,7 +45,7 @@ Timeline depends on the scope of the loss and the volume of affected items. A si
 
 The most common failure in contents work is treating it as an afterthought to structural restoration. Crews focused on drying walls sometimes leave smoke-damaged furniture sitting in a soot-laden environment for days, allowing secondary damage that would have been preventable with an immediate pack-out.
 
-A second frequent problem is non-specific odor treatment. Spraying a deodorizer on a smoke-saturated couch and calling it restored does not remove the odor compounds — it masks them temporarily. Proper deodorization requires that the contaminating particles be physically removed first, then the residual odor addressed with an appropriate technology matched to the molecule type.
+A second frequent problem is non-specific odor treatment. Spraying a deodorizer on a smoke-saturated couch and calling it restored does not remove the odor compounds, it masks them temporarily. Proper deodorization requires that the contaminating particles be physically removed first, then the residual odor addressed with an appropriate technology matched to the molecule type.
 
 Insurance adjusters look closely at the contents inventory for completeness and for evidence that items were assessed individually rather than bulk-written off. A well-documented pack-out inventory, with pre- and post-cleaning photos and condition notes, supports a stronger claim and reduces the likelihood of a disputed settlement. IICRC FSRT and AMRT certifications indicate a technician has been trained to the industry standards that adjusters reference when reviewing contents line items.
 
@@ -53,7 +53,7 @@ Finally, chain-of-custody documentation matters more than most homeowners realiz
 
 ## What does contents restoration and storage cost?
 
-Typical costs for contents restoration and storage vary significantly based on the volume of items, the type of loss, and how long storage is needed. Most homeowners pay somewhere in the ranges below — these are industry-typical figures, not Life Savers Restoration LLC quotes.
+Typical costs for contents restoration and storage vary significantly based on the volume of items, the type of loss, and how long storage is needed. Most homeowners pay somewhere in the ranges below, these are industry-typical figures, not Life Savers Restoration LLC quotes.
 
 | Scenario | Typical industry range |
 |---|---|
@@ -64,11 +64,11 @@ Typical costs for contents restoration and storage vary significantly based on t
 | Document and photo recovery (freeze-drying) | $500 – $3,000 per batch |
 | Specialty items (artwork, antiques, electronics) | Priced per item |
 
-Every loss is different, and Life Savers Restoration LLC provides a written scope before any work begins. Homeowners insurance typically covers contents restoration when the loss is caused by a covered peril — fire, burst pipe, storm — and most policies include a separate contents coverage limit; your adjuster can confirm what applies to your specific policy.
+Every loss is different, and Life Savers Restoration LLC provides a written scope before any work begins. Homeowners insurance typically covers contents restoration when the loss is caused by a covered peril, fire, burst pipe, storm, and most policies include a separate contents coverage limit; your adjuster can confirm what applies to your specific policy.
 
 ## Seasonal and regional considerations
 
-Henderson's climate creates specific risks for stored contents. Summer temperatures make any non-climate-controlled space a secondary damage risk for wood furniture, vinyl records, photographs, and electronics. Winter is milder, but the region's low humidity year-round means wood items can dry and crack if not stored in a humidity-stable environment. If your loss occurs during a summer monsoon event — which can bring sudden water intrusion from roof damage or drainage backup — the combination of heat and moisture accelerates mold colonization on stored textiles faster than in cooler climates. Items need to be out of the affected environment and into controlled storage quickly.
+Henderson's climate creates specific risks for stored contents. Summer temperatures make any non-climate-controlled space a secondary damage risk for wood furniture, vinyl records, photographs, and electronics. Winter is milder, but the region's low humidity year-round means wood items can dry and crack if not stored in a humidity-stable environment. If your loss occurs during a summer monsoon event, which can bring sudden water intrusion from roof damage or drainage backup, the combination of heat and moisture accelerates mold colonization on stored textiles faster than in cooler climates. Items need to be out of the affected environment and into controlled storage quickly.
 
 ## Service area
 

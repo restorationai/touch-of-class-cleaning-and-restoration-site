@@ -115,7 +115,7 @@ A properly executed ceiling water damage repair follows a specific sequence. Ski
 
 If the source was an upstairs bathroom, the most common ceiling loss in cape and colonial homes, step one often involves a plumber and may include replacing the wax ring, supply line, or a section of drain pipe before the ceiling can be closed.
 
-For ceiling damage that goes beyond cosmetic repair into structural replacement, The Restoration Group handles the [water damage mitigation](/services/water-damage-restoration/) — extraction, structural drying, controlled demolition of unsalvageable materials, and documented moisture clearance — and hands your rebuild contractor and adjuster a clean, photo-supported scope so the repairs can start without a handoff gap.
+For ceiling damage that goes beyond cosmetic repair into structural replacement, The Restoration Group handles the [water damage mitigation](/services/water-damage-restoration/), extraction, structural drying, controlled demolition of unsalvageable materials, and documented moisture clearance, and hands your rebuild contractor and adjuster a clean, photo-supported scope so the repairs can start without a handoff gap.
 
 ---
 

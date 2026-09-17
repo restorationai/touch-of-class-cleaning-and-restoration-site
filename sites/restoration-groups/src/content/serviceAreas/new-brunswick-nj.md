@@ -19,29 +19,29 @@ state: "NJ"
 primary: false
 rendered: true
 ---
-When a pipe bursts in a Rutgers Village apartment at 2 a.m. or a Raritan River flood event pushes water into a Downtown commercial space, The Restoration Group dispatches from Kenilworth around the clock to stabilize the loss, document the damage, and carry the project through to a finished repair. We handle water, fire, mold, and biohazard losses across New Brunswick's full range of property types — student rentals, century-old rowhouses, high-rise condos, and the institutional buildings that define this city.
+When a pipe bursts in a Rutgers Village apartment at 2 a.m. or a Raritan River flood event pushes water into a Downtown commercial space, The Restoration Group dispatches from Kenilworth around the clock to stabilize the loss, document the damage, and carry the project through to a finished repair. We handle water, fire, mold, and biohazard losses across New Brunswick's full range of property types, student rentals, century-old rowhouses, high-rise condos, and the institutional buildings that define this city.
 
 ## Restoration emergencies common in New Brunswick
 
-New Brunswick's restoration profile is shaped by its housing stock, its geography, and its density. The city's oldest neighborhoods — including the Fifth Ward and Robeson Village — are lined with early-1900s rowhouses and multifamily buildings where cast-iron drain stacks and aging galvanized supply lines have been patching together for decades. When those lines finally fail, water travels fast through shared walls and floor assemblies, turning a single-unit leak into a multi-unit event before anyone realizes what's happening.
+New Brunswick's restoration profile is shaped by its housing stock, its geography, and its density. The city's oldest neighborhoods, including the Fifth Ward and Robeson Village, are lined with early-1900s rowhouses and multifamily buildings where cast-iron drain stacks and aging galvanized supply lines have been patching together for decades. When those lines finally fail, water travels fast through shared walls and floor assemblies, turning a single-unit leak into a multi-unit event before anyone realizes what's happening.
 
 The Raritan River defines the city's southern edge at Boyd Park, and that proximity carries real flood risk. Hurricane Ida in 2021 pushed riverfront water levels into low-lying streets and basements along the southern corridors, a reminder that New Brunswick's flood exposure isn't theoretical. Stormwater drainage in the older grid neighborhoods can't always keep pace with intense rain events, and properties in ZIP codes 08901 and 08903 near the river have seen repeated basement infiltration over the years.
 
-Downtown and the George Street business district add a different category of exposure: commercial sprinkler activations, overnight pipe failures in mixed-use buildings, and the kind of fire losses that spread quickly in attached structures. Robert Wood Johnson University Hospital and the broader Rutgers University campus generate continuous institutional exposure — large-footprint buildings, complex HVAC and plumbing systems, and the regulatory requirements that come with healthcare and educational facilities. Student rental turnover near campus in 08906 means deferred maintenance is common, and small leaks that went unreported for a semester can produce significant mold colonization by the time a new tenant moves in.
+Downtown and the George Street business district add a different category of exposure: commercial sprinkler activations, overnight pipe failures in mixed-use buildings, and the kind of fire losses that spread quickly in attached structures. Robert Wood Johnson University Hospital and the broader Rutgers University campus generate continuous institutional exposure, large-footprint buildings, complex HVAC and plumbing systems, and the regulatory requirements that come with healthcare and educational facilities. Student rental turnover near campus in 08906 means deferred maintenance is common, and small leaks that went unreported for a semester can produce significant mold colonization by the time a new tenant moves in.
 
 ## Services we provide in New Brunswick
 
 ### Water damage restoration
 
-Water damage in New Brunswick often starts with what you can't see — moisture wicked into the subfloor of a Rutgers Village triple-decker, or a slow supply-line drip behind drywall in a Downtown loft that's been running for weeks. We use thermal imaging and moisture meters to map the full extent of saturation before any drying equipment is placed, then run commercial-grade dehumidifiers and air movers until readings confirm the structure is dry. For properties near the Raritan River or in low-lying sections of 08901, we also handle Category 3 flood water — sewage-contaminated and requiring full containment and antimicrobial treatment.
+Water damage in New Brunswick often starts with what you can't see, moisture wicked into the subfloor of a Rutgers Village triple-decker, or a slow supply-line drip behind drywall in a Downtown loft that's been running for weeks. We use thermal imaging and moisture meters to map the full extent of saturation before any drying equipment is placed, then run commercial-grade dehumidifiers and air movers until readings confirm the structure is dry. For properties near the Raritan River or in low-lying sections of 08901, we also handle Category 3 flood water, sewage-contaminated and requiring full containment and antimicrobial treatment.
 
 ### Mold remediation
 
-New Brunswick's humid summers and the chronic moisture problems in older building envelopes create reliable conditions for mold growth. In student rentals near Rutgers and in multifamily buildings throughout the Fifth Ward, we regularly find colonies behind bathroom tile, inside wall cavities adjacent to failing windows, and under flooring where a slow leak went unaddressed. We contain affected areas, remove compromised materials, treat surfaces, and clear the space — following EPA guidelines throughout.
+New Brunswick's humid summers and the chronic moisture problems in older building envelopes create reliable conditions for mold growth. In student rentals near Rutgers and in multifamily buildings throughout the Fifth Ward, we regularly find colonies behind bathroom tile, inside wall cavities adjacent to failing windows, and under flooring where a slow leak went unaddressed. We contain affected areas, remove compromised materials, treat surfaces, and clear the space, following EPA guidelines throughout.
 
 ### Fire and smoke damage restoration
 
-Fire losses in attached rowhouses and mixed-use buildings along the George Street corridor can affect multiple units or tenants even when the fire itself is contained to one space. Smoke residue travels through HVAC systems and wall penetrations, and the odor from protein fires — a stovetop event, for instance — can saturate porous surfaces in rooms that never saw a flame. We handle structural cleaning, content pack-out, odor neutralization, and reconstruction.
+Fire losses in attached rowhouses and mixed-use buildings along the George Street corridor can affect multiple units or tenants even when the fire itself is contained to one space. Smoke residue travels through HVAC systems and wall penetrations, and the odor from protein fires, a stovetop event, for instance, can saturate porous surfaces in rooms that never saw a flame. We handle structural cleaning, content pack-out, odor neutralization, and reconstruction.
 
 ### Commercial and institutional restoration
 
@@ -49,7 +49,7 @@ For property managers overseeing commercial buildings near Robert Wood Johnson U
 
 ## Coverage and how fast we can get there
 
-The Restoration Group's Kenilworth headquarters sits roughly 15 miles northeast of New Brunswick via the Garden State Parkway to Route 1, or through US-9 depending on traffic. We reach Downtown, Edgebrook, and Robeson Village on a consistent basis and serve the Highland Park border neighborhoods along the northeastern edge of the city. Because we operate 24/7, a call at any hour connects you directly to a dispatcher who can have a crew moving toward your address — whether that's a Rutgers Village apartment building in 08901 or a commercial property in 08903.
+The Restoration Group's Kenilworth headquarters sits roughly 15 miles northeast of New Brunswick via the Garden State Parkway to Route 1, or through US-9 depending on traffic. We reach Downtown, Edgebrook, and Robeson Village on a consistent basis and serve the Highland Park border neighborhoods along the northeastern edge of the city. Because we operate 24/7, a call at any hour connects you directly to a dispatcher who can have a crew moving toward your address, whether that's a Rutgers Village apartment building in 08901 or a commercial property in 08903.
 
 ## Building stock, site conditions, and permits in New Brunswick
 

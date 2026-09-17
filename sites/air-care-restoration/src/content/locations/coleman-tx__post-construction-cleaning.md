@@ -20,19 +20,19 @@ state: "TX"
 service_display: "Post-Construction and Specialty Cleaning"
 rendered: true
 ---
-Coleman sits in the heart of Coleman County, where the dry West Texas wind carries fine caliche dust through every open doorframe and the region's temperature swings between scorching summers and sharp winter cold fronts. After a renovation or new build, that combination means construction debris doesn't just sit on surfaces — it infiltrates HVAC returns, settles into grout lines, and coats window tracks in a way that a standard sweep-out won't touch. Air Care Restoration brings a structured, equipment-driven final clean to Coleman properties so that the first day in a finished space actually feels finished.
+Coleman sits in the heart of Coleman County, where the dry West Texas wind carries fine caliche dust through every open doorframe and the region's temperature swings between scorching summers and sharp winter cold fronts. After a renovation or new build, that combination means construction debris doesn't just sit on surfaces, it infiltrates HVAC returns, settles into grout lines, and coats window tracks in a way that a standard sweep-out won't touch. Air Care Restoration brings a structured, equipment-driven final clean to Coleman properties so that the first day in a finished space actually feels finished.
 
 ## Why Coleman Properties See Distinct Post-Construction Cleaning Challenges
 
-The caliche-heavy soil common across Coleman County is one of the first things a crew notices when a new build or gut renovation wraps up. Caliche is a calcium carbonate hardpan — when it dries on concrete slabs, tile, or polished concrete floors, it bonds like grout haze and resists a standard mop. On exterior-facing rooms, fine particles blow in through framing gaps during the build and end up layered inside cabinet boxes and on top of rough-in plumbing before drywall is even hung.
+The caliche-heavy soil common across Coleman County is one of the first things a crew notices when a new build or gut renovation wraps up. Caliche is a calcium carbonate hardpan, when it dries on concrete slabs, tile, or polished concrete floors, it bonds like grout haze and resists a standard mop. On exterior-facing rooms, fine particles blow in through framing gaps during the build and end up layered inside cabinet boxes and on top of rough-in plumbing before drywall is even hung.
 
-Coleman's older downtown housing stock — much of it built in the mid-twentieth century when plaster-over-lath construction was standard — presents a separate challenge during renovation cleanups. Disturbing plaster during a remodel releases a fine silica-containing dust that behaves differently from drywall dust: it's denser, settles more slowly, and re-suspends easily if the initial cleaning is rushed. A final clean that doesn't account for that residue leaves it to circulate through the home's air supply for weeks after move-in.
+Coleman's older downtown housing stock, much of it built in the mid-twentieth century when plaster-over-lath construction was standard, presents a separate challenge during renovation cleanups. Disturbing plaster during a remodel releases a fine silica-containing dust that behaves differently from drywall dust: it's denser, settles more slowly, and re-suspends easily if the initial cleaning is rushed. A final clean that doesn't account for that residue leaves it to circulate through the home's air supply for weeks after move-in.
 
-The region's low average humidity also means that adhesive residues from protective films on windows, countertops, and appliances dry faster and grip harder than they would in a humid climate. Removing them without scratching glass or stone surfaces requires the right solvents and technique — not just elbow grease.
+The region's low average humidity also means that adhesive residues from protective films on windows, countertops, and appliances dry faster and grip harder than they would in a humid climate. Removing them without scratching glass or stone surfaces requires the right solvents and technique, not just elbow grease.
 
 ## Our Post-Construction and Specialty Cleaning Process in Coleman
 
-Every post-construction clean starts with a walk-through to document what trades have left behind — overspray, adhesive film, caulk smears, drywall mud splatter, sawdust in HVAC boots, and any hazardous debris that needs to be separated before general cleaning begins. Owner Sarha Boyd holds an EPA Certified Renovator credential, and we can safely manage renovation debris in older Coleman homes where lead-based paint disturbance is a real possibility during remodel work.
+Every post-construction clean starts with a walk-through to document what trades have left behind, overspray, adhesive film, caulk smears, drywall mud splatter, sawdust in HVAC boots, and any hazardous debris that needs to be separated before general cleaning begins. Owner Sarha Boyd holds an EPA Certified Renovator credential, and we can safely manage renovation debris in older Coleman homes where lead-based paint disturbance is a real possibility during remodel work.
 
 The process moves in phases:
 
@@ -40,22 +40,22 @@ The process moves in phases:
 - **Detail clean**: glass polishing, fixture wipe-down, grout line cleaning, caliche or mortar haze removal from tile and concrete, interior cabinet and drawer cleaning
 - **Final clean**: a second pass on all surfaces immediately before occupancy or inspection, including light switch plates, outlet covers, and any surfaces that tradespeople touched after the detail phase
 
-For specialty cleaning requests — deep cleaning after a long-term tenant, cleaning following a hoarding situation, or post-event cleaning in a commercial space — the scope is scoped separately after an on-site assessment.
+For specialty cleaning requests, deep cleaning after a long-term tenant, cleaning following a hoarding situation, or post-event cleaning in a commercial space, the scope is scoped separately after an on-site assessment.
 
 ## Reaching Coleman from Abilene
 
-Air Care Restoration is based in Abilene and serves Coleman via US-84, a straightforward route through the rolling ranch land of central West Texas. Because the team operates around the clock, scheduling isn't limited to weekday business windows — contractors who finish punch-list work on a Friday afternoon can reach us for a same-day or weekend final clean without waiting until Monday.
+Air Care Restoration is based in Abilene and serves Coleman via US-84, a straightforward route through the rolling ranch land of central West Texas. Because the team operates around the clock, scheduling isn't limited to weekday business windows, contractors who finish punch-list work on a Friday afternoon can reach us for a same-day or weekend final clean without waiting until Monday.
 
 Coleman is a smaller market, which means the pool of specialty cleaning crews available locally is limited. Having a certified firm reachable from Abilene gives property owners and general contractors a reliable option that doesn't require sourcing a crew from a larger metro and paying the associated travel premium.
 
 ## Equipment and Methods We Use for Post-Construction Cleaning
 
-HEPA filtration is non-negotiable on post-construction sites. Standard shop vacuums recirculate fine dust; HEPA-rated equipment captures particles down to 0.3 microns, which matters when caliche dust, drywall compound, and insulation fibers are all present. For grout haze and caliche deposits on tile or concrete, we use pH-appropriate acid wash solutions applied with controlled dwell times — strong enough to dissolve mineral deposits, diluted enough to protect the substrate.
+HEPA filtration is non-negotiable on post-construction sites. Standard shop vacuums recirculate fine dust; HEPA-rated equipment captures particles down to 0.3 microns, which matters when caliche dust, drywall compound, and insulation fibers are all present. For grout haze and caliche deposits on tile or concrete, we use pH-appropriate acid wash solutions applied with controlled dwell times, strong enough to dissolve mineral deposits, diluted enough to protect the substrate.
 
 Window and glass cleaning after construction uses a two-step process: a razor-blade scrape to lift paint overspray and adhesive residue, followed by a streak-free solvent wipe. Rushing either step is how scratches happen. On stone countertops, we avoid acidic cleaners entirely and use neutral-pH stone-safe products to remove grout haze without etching the surface.
 
 ## Local Note
 
-Contractors working in Coleman's older residential blocks — particularly homes built in the 1940s through 1960s — should flag any original plaster ceilings or walls before scheduling a post-construction clean. Renovation work on these surfaces can leave a very fine, slow-settling plaster dust that isn't visible until the crew arrives with a UV light. Owner Sarha Boyd holds an EPA Certified Renovator credential, so we're equipped to handle renovation debris from older Coleman homes where lead-containing paint layers may have been disturbed, managing that material under the appropriate containment protocols before the general cleaning begins. It's a step that's easy to skip and costly to address after the fact.
+Contractors working in Coleman's older residential blocks, particularly homes built in the 1940s through 1960s, should flag any original plaster ceilings or walls before scheduling a post-construction clean. Renovation work on these surfaces can leave a very fine, slow-settling plaster dust that isn't visible until the crew arrives with a UV light. Owner Sarha Boyd holds an EPA Certified Renovator credential, so we're equipped to handle renovation debris from older Coleman homes where lead-containing paint layers may have been disturbed, managing that material under the appropriate containment protocols before the general cleaning begins. It's a step that's easy to skip and costly to address after the fact.
 
-When your Coleman project is ready for its final clean — new construction, gut renovation, or specialty deep clean — call Air Care Restoration at (325) 339-8723. We'll confirm scope, schedule around your contractor timeline, and leave the space genuinely move-in ready.
+When your Coleman project is ready for its final clean, new construction, gut renovation, or specialty deep clean, call Air Care Restoration at (325) 339-8723. We'll confirm scope, schedule around your contractor timeline, and leave the space genuinely move-in ready.

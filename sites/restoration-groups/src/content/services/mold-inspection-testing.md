@@ -17,13 +17,13 @@ service_slug: "mold-inspection-testing"
 service_display: "Mold Inspection and Testing"
 rendered: true
 ---
-You notice a musty smell in the basement every time it rains, or a dark stain spreading across the drywall behind a bookshelf you moved for the first time in two years. Maybe someone in the house has had a persistent cough that no one can explain. Mold doesn't announce itself — it colonizes quietly, often inside wall cavities and beneath flooring where no visible inspection can reach. A professional mold inspection and testing engagement answers the question most homeowners can't answer on their own: is there a problem, where exactly is it, and how serious is it?
+You notice a musty smell in the basement every time it rains, or a dark stain spreading across the drywall behind a bookshelf you moved for the first time in two years. Maybe someone in the house has had a persistent cough that no one can explain. Mold doesn't announce itself, it colonizes quietly, often inside wall cavities and beneath flooring where no visible inspection can reach. A professional mold inspection and testing engagement answers the question most homeowners can't answer on their own: is there a problem, where exactly is it, and how serious is it?
 
 ## What mold inspection and testing actually involves
 
-A mold inspection is not a contractor walking through your home with a flashlight and a clipboard. It begins with a structured visual survey — every room, every crawl space, every mechanical closet — using a calibrated thermal imaging camera and a pin-type or pinless moisture meter to map elevated moisture readings behind surfaces that look dry to the naked eye. Mold needs moisture to survive; the moisture map often tells the story before any sample is collected.
+A mold inspection is not a contractor walking through your home with a flashlight and a clipboard. It begins with a structured visual survey, every room, every crawl space, every mechanical closet, using a calibrated thermal imaging camera and a pin-type or pinless moisture meter to map elevated moisture readings behind surfaces that look dry to the naked eye. Mold needs moisture to survive; the moisture map often tells the story before any sample is collected.
 
-Once the visual survey identifies suspect areas, air sampling begins. A calibrated pump draws a measured volume of indoor air through a spore trap cassette — typically in the rooms of concern, plus a baseline sample from outside. Those cassettes go to an accredited third-party laboratory, where a microscopist identifies and counts spore types per cubic meter of air. Surface sampling (tape lifts or swabs) may be added when a visible colony needs species identification or when an insurance adjuster requires documentation of the specific genus present.
+Once the visual survey identifies suspect areas, air sampling begins. A calibrated pump draws a measured volume of indoor air through a spore trap cassette, typically in the rooms of concern, plus a baseline sample from outside. Those cassettes go to an accredited third-party laboratory, where a microscopist identifies and counts spore types per cubic meter of air. Surface sampling (tape lifts or swabs) may be added when a visible colony needs species identification or when an insurance adjuster requires documentation of the specific genus present.
 
 The result is a written laboratory report paired with a site assessment narrative: where elevated spore counts or moisture readings were found, what species were identified, and what the data suggests about the source and scope of growth. That document is what a remediation contractor, an insurance adjuster, or a real estate transaction needs to move forward.
 
@@ -31,34 +31,34 @@ Typical turnaround from inspection to written report: 24–48 hours once samples
 
 ## Our process
 
-1. **Pre-inspection intake.** Before arriving on site, we ask about the property's history — recent water intrusions, HVAC system age, prior remediation work, and any occupant health observations. This shapes where we focus first.
+1. **Pre-inspection intake.** Before arriving on site, we ask about the property's history, recent water intrusions, HVAC system age, prior remediation work, and any occupant health observations. This shapes where we focus first.
 
 2. **Thermal imaging and moisture mapping.** We scan walls, ceilings, and floors with a thermal camera and confirm anomalies with a moisture meter. Areas reading above 16–17% moisture content in building materials are flagged as active risk zones.
 
 3. **Air and surface sampling.** Spore trap cassettes are placed in the areas of concern and in a control location. If visible growth is present, tape lifts or bulk samples are collected for species-level identification. All samples are chain-of-custody documented and shipped to an accredited laboratory.
 
-4. **Laboratory analysis.** An independent, accredited lab performs microscopic analysis and returns a quantified spore count report — typically within 24–48 hours. Independence matters here: the lab has no financial interest in the remediation outcome.
+4. **Laboratory analysis.** An independent, accredited lab performs microscopic analysis and returns a quantified spore count report, typically within 24–48 hours. Independence matters here: the lab has no financial interest in the remediation outcome.
 
 5. **Written assessment and recommendations.** We deliver a report that includes the moisture map, lab results, photographs of all sampled locations, and a plain-language interpretation of what the data means. If remediation is warranted, the report specifies the affected area and the appropriate containment level so any contractor bidding the work is starting from the same documented baseline.
 
 ## What separates a good mold inspection from a bad one
 
-The most common failure in mold inspections is sampling without context. A single air sample that comes back elevated tells you mold spores are present — it doesn't tell you where they're coming from, whether the source is active or dormant, or whether the reading is being driven by an outdoor event like a high-humidity day. Good inspectors collect outdoor control samples every time, without exception, because indoor-to-outdoor comparison is how you determine whether an elevated indoor count is actually anomalous.
+The most common failure in mold inspections is sampling without context. A single air sample that comes back elevated tells you mold spores are present, it doesn't tell you where they're coming from, whether the source is active or dormant, or whether the reading is being driven by an outdoor event like a high-humidity day. Good inspectors collect outdoor control samples every time, without exception, because indoor-to-outdoor comparison is how you determine whether an elevated indoor count is actually anomalous.
 
-A second common problem is relying on visual inspection alone. Mold routinely grows inside wall assemblies, in the paper facing of fiberglass insulation, and on the back side of drywall — none of which is visible without moisture data pointing you there. Thermal imaging and moisture meters are not optional equipment; they're what separates an inspection from a guess.
+A second common problem is relying on visual inspection alone. Mold routinely grows inside wall assemblies, in the paper facing of fiberglass insulation, and on the back side of drywall, none of which is visible without moisture data pointing you there. Thermal imaging and moisture meters are not optional equipment; they're what separates an inspection from a guess.
 
 For insurance purposes, adjusters and carriers increasingly require laboratory-confirmed species identification and chain-of-custody documentation before approving a remediation scope. An inspection report that lacks lab accreditation details or sample location photographs will often be rejected, delaying the claim and the work.
 
-Finally, a mold inspection and a mold remediation should not be performed by the same company on the same job. Clearance testing — the post-remediation air sampling that confirms the work succeeded — must be independent to be meaningful. Our inspection and testing work is structured to be that independent baseline, whether or not we are involved in any subsequent remediation.
+Finally, a mold inspection and a mold remediation should not be performed by the same company on the same job. Clearance testing, the post-remediation air sampling that confirms the work succeeded, must be independent to be meaningful. Our inspection and testing work is structured to be that independent baseline, whether or not we are involved in any subsequent remediation.
 
 ## Seasonal and regional considerations
 
 New Jersey's climate creates two distinct mold-risk windows. The first runs from late spring through early September, when outdoor relative humidity regularly exceeds 70% and air conditioning systems that are undersized or poorly maintained struggle to keep indoor dew points below the threshold where condensation forms on cool surfaces. Crawl spaces and basement rim joists are particularly vulnerable during this window.
 
-The second window opens in late fall and winter, when stack effect pulls cold exterior air through foundation gaps and that air warms and humidifies as it rises through the structure — depositing moisture in attic sheathing and upper-floor wall cavities. Kenilworth and the surrounding Union County communities sit close enough to the coast that nor'easters and sustained rain events can push bulk water into older housing stock that was not built with modern drainage planes.
+The second window opens in late fall and winter, when stack effect pulls cold exterior air through foundation gaps and that air warms and humidifies as it rises through the structure, depositing moisture in attic sheathing and upper-floor wall cavities. Kenilworth and the surrounding Union County communities sit close enough to the coast that nor'easters and sustained rain events can push bulk water into older housing stock that was not built with modern drainage planes.
 
 ## Service area
 
 The Restoration Group is based in Kenilworth, NJ, and performs mold inspection and testing across Union, Essex, Morris, Middlesex, and Bergen counties. Dedicated service-area pages cover individual communities throughout northern and central New Jersey.
 
-If your air quality test results are already in hand and you need a remediation scope, or if you're starting from scratch with an unexplained odor and no data, call (908) 970-8533 — we're available around the clock. Request your indoor air quality test and get documented answers, not guesses.
+If your air quality test results are already in hand and you need a remediation scope, or if you're starting from scratch with an unexplained odor and no data, call (908) 970-8533, we're available around the clock. Request your indoor air quality test and get documented answers, not guesses.

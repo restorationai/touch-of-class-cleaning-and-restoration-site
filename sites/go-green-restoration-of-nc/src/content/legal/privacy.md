@@ -22,13 +22,13 @@ This privacy policy explains how Go Green Restoration of NC collects, uses, and 
 
 ## Information We Collect
 
-When you fill out a contact or estimate-request form, we collect the details you provide — typically your name, phone number, email address, and a description of the damage or service you need. If you call or email directly, we keep a record of that communication as well.
+When you fill out a contact or estimate-request form, we collect the details you provide, typically your name, phone number, email address, and a description of the damage or service you need. If you call or email directly, we keep a record of that communication as well.
 
-The website may also collect basic, non-identifying analytics data — pages visited, approximate geographic region, browser type, and how you arrived at the site. This data is aggregated and is not linked to any individual visitor. We do not use tracking pixels, retargeting scripts, or behavioral advertising tools.
+The website may also collect basic, non-identifying analytics data, pages visited, approximate geographic region, browser type, and how you arrived at the site. This data is aggregated and is not linked to any individual visitor. We do not use tracking pixels, retargeting scripts, or behavioral advertising tools.
 
 ## How We Use Your Information
 
-The information you share is used for one purpose: to help you. That means responding to your inquiry, scheduling an on-site estimate, and — if you authorize us to — coordinating with your insurance carrier on documentation, claims photos, and scope-of-loss reports. We will not contact your insurer or adjuster without your explicit direction.
+The information you share is used for one purpose: to help you. That means responding to your inquiry, scheduling an on-site estimate, and, if you authorize us to, coordinating with your insurance carrier on documentation, claims photos, and scope-of-loss reports. We will not contact your insurer or adjuster without your explicit direction.
 
 We do not sell, rent, or trade your personal information to any third party. We do not use your contact details for marketing lists or share them with lead-generation services.
 
@@ -38,7 +38,7 @@ Inquiry and project records are retained for as long as reasonably necessary to 
 
 ## Your Rights as a Visitor
 
-If you are a California resident, the California Consumer Privacy Act (CCPA) gives you the right to know what personal information we hold about you, request its deletion, and opt out of any sale of that information — though, as noted above, we do not sell data. Residents of other states with similar privacy statutes have comparable rights, and we apply the same straightforward approach regardless of where you live.
+If you are a California resident, the California Consumer Privacy Act (CCPA) gives you the right to know what personal information we hold about you, request its deletion, and opt out of any sale of that information, though, as noted above, we do not sell data. Residents of other states with similar privacy statutes have comparable rights, and we apply the same straightforward approach regardless of where you live.
 
 GDPR (the European data-privacy regulation) is unlikely to apply to a locally operating North Carolina contractor, but if you believe it does apply to your situation, reach out and we will respond in good faith.
 

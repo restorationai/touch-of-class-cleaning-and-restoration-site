@@ -26,11 +26,11 @@ If you have questions about anything here, call **(724) 452-7400** or email **ma
 
 FireDEX Butler, Inc. operates within a defined service area in and around Butler County and the greater Pittsburgh region of Pennsylvania. Requesting an estimate does not guarantee that your property falls within our current service area or that we can begin work on a specific date. We will confirm availability and coverage when you contact us.
 
-All work performed is governed by Pennsylvania state contractor regulations. Services described on this website are general in nature. The actual scope of work — what will be done, how, and at what cost — is defined exclusively by the signed work-authorization form you receive before any project begins.
+All work performed is governed by Pennsylvania state contractor regulations. Services described on this website are general in nature. The actual scope of work, what will be done, how, and at what cost, is defined exclusively by the signed work-authorization form you receive before any project begins.
 
 ## Estimates Are Not Contracts
 
-Any estimate, quote, or cost range provided by FireDEX Butler, Inc. — whether given verbally, by email, or through an on-site assessment — is an approximation based on visible conditions at the time of evaluation. Estimates are not binding agreements. Hidden damage, structural complications, material availability, or changes in scope discovered during work may affect the final cost.
+Any estimate, quote, or cost range provided by FireDEX Butler, Inc., whether given verbally, by email, or through an on-site assessment, is an approximation based on visible conditions at the time of evaluation. Estimates are not binding agreements. Hidden damage, structural complications, material availability, or changes in scope discovered during work may affect the final cost.
 
 A project becomes a binding commitment only when both parties have signed a written work-authorization form. That signed document, not this website or any prior conversation, governs the service relationship.
 
@@ -40,7 +40,7 @@ Payment terms, accepted methods, and any deposit requirements are outlined in yo
 
 ## Insurance Coordination
 
-When you authorize us to communicate with your insurance carrier, we will share documentation — photographs, moisture readings, scope reports, and related records — necessary to process your claim. We do not share your information with any third party beyond your carrier and any subcontractors required to complete the authorized scope of work.
+When you authorize us to communicate with your insurance carrier, we will share documentation, photographs, moisture readings, scope reports, and related records, necessary to process your claim. We do not share your information with any third party beyond your carrier and any subcontractors required to complete the authorized scope of work.
 
 ## Liability
 
@@ -48,7 +48,7 @@ FireDEX Butler, Inc. carries appropriate licensure and insurance as required und
 
 ## Dispute Resolution
 
-If a dispute arises, we ask that you contact us directly first — most concerns can be resolved quickly. Disputes that cannot be resolved informally are subject to the laws of the Commonwealth of Pennsylvania, with venue in Butler County.
+If a dispute arises, we ask that you contact us directly first, most concerns can be resolved quickly. Disputes that cannot be resolved informally are subject to the laws of the Commonwealth of Pennsylvania, with venue in Butler County.
 
 ## Changes to These Terms
 

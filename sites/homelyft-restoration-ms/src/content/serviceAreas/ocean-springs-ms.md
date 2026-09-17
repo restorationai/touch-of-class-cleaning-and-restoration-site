@@ -19,17 +19,17 @@ state: "MS"
 primary: false
 rendered: true
 ---
-When water backs up under the hardwood floors of a century-old cottage, or smoke from a kitchen fire works its way into the attic insulation of a Gulf-front home, Ocean Springs property owners need a restoration crew that understands the specific conditions here — the humidity, the housing stock, the coastal exposure. HomeLyft Restoration MS responds to water damage, fire and smoke damage, mold remediation, and storm-related losses throughout Ocean Springs and the surrounding Jackson County area. Call us at (228) 284-5200 to describe what you're dealing with and we'll walk you through next steps.
+When water backs up under the hardwood floors of a century-old cottage, or smoke from a kitchen fire works its way into the attic insulation of a Gulf-front home, Ocean Springs property owners need a restoration crew that understands the specific conditions here, the humidity, the housing stock, the coastal exposure. HomeLyft Restoration MS responds to water damage, fire and smoke damage, mold remediation, and storm-related losses throughout Ocean Springs and the surrounding Jackson County area. Call us at (228) 284-5200 to describe what you're dealing with and we'll walk you through next steps.
 
 ## Restoration emergencies common in Ocean Springs
 
-Ocean Springs sits on a peninsula between Biloxi Bay and the Back Bay, which means the water table is rarely far below grade. A slow plumbing leak under a slab can saturate the subfloor before a homeowner notices any discoloration, and once moisture is present in the Gulf Coast's warm, humid air, mold colonies can establish within 24 to 48 hours. The city's housing stock ranges from post-Katrina rebuilds with modern moisture barriers to pre-war craftsman bungalows whose pier-and-beam foundations allow ground moisture to wick upward year-round. Older homes near the historic downtown core often have original wood framing, plaster walls, and minimal vapor barriers — materials that absorb water quickly and dry slowly. Tropical systems that stall over the Mississippi Sound can dump several inches of rain in a matter of hours, overwhelming gutters, crawl spaces, and storm drains simultaneously. That combination of geography, climate, and aging housing stock means restoration calls here tend to be more complex than a simple extract-and-dry job.
+Ocean Springs sits on a peninsula between Biloxi Bay and the Back Bay, which means the water table is rarely far below grade. A slow plumbing leak under a slab can saturate the subfloor before a homeowner notices any discoloration, and once moisture is present in the Gulf Coast's warm, humid air, mold colonies can establish within 24 to 48 hours. The city's housing stock ranges from post-Katrina rebuilds with modern moisture barriers to pre-war craftsman bungalows whose pier-and-beam foundations allow ground moisture to wick upward year-round. Older homes near the historic downtown core often have original wood framing, plaster walls, and minimal vapor barriers, materials that absorb water quickly and dry slowly. Tropical systems that stall over the Mississippi Sound can dump several inches of rain in a matter of hours, overwhelming gutters, crawl spaces, and storm drains simultaneously. That combination of geography, climate, and aging housing stock means restoration calls here tend to be more complex than a simple extract-and-dry job.
 
 ## Services we provide in Ocean Springs
 
 ### Water damage restoration
 
-Water damage in Ocean Springs often starts small — a supply line failure, a roof penetration after a squall, an HVAC condensate line that backs up during peak cooling season — and spreads fast in the heat. We extract standing water, use thermal imaging to find moisture hidden behind walls and under flooring, and dry structural materials to IICRC S500 standards before any rebuild begins. Working in older homes along the beachside neighborhoods, we pay particular attention to subfloor assemblies and wall cavities that can trap moisture for weeks without proper airflow.
+Water damage in Ocean Springs often starts small, a supply line failure, a roof penetration after a squall, an HVAC condensate line that backs up during peak cooling season, and spreads fast in the heat. We extract standing water, use thermal imaging to find moisture hidden behind walls and under flooring, and dry structural materials to IICRC S500 standards before any rebuild begins. Working in older homes along the beachside neighborhoods, we pay particular attention to subfloor assemblies and wall cavities that can trap moisture for weeks without proper airflow.
 
 ### Mold remediation
 
@@ -49,7 +49,7 @@ Sewage backups, which are common in low-lying areas of Ocean Springs after heavy
 
 ## Coverage and how fast we can get there
 
-HomeLyft Restoration MS is headquartered in Gulfport, roughly 12 miles west of Ocean Springs via US-90 or I-10. Both routes are straightforward, and our crews are familiar with the local road network, including the causeway approaches and the surface streets through the historic district near Government Street. We serve all areas of Ocean Springs — from properties along the beachfront corridor to neighborhoods further north toward the city limits. Scheduling is handled during our business hours; call (228) 284-5200 and we will give you a realistic arrival window based on current crew availability.
+HomeLyft Restoration MS is headquartered in Gulfport, roughly 12 miles west of Ocean Springs via US-90 or I-10. Both routes are straightforward, and our crews are familiar with the local road network, including the causeway approaches and the surface streets through the historic district near Government Street. We serve all areas of Ocean Springs, from properties along the beachfront corridor to neighborhoods further north toward the city limits. Scheduling is handled during our business hours; call (228) 284-5200 and we will give you a realistic arrival window based on current crew availability.
 
 ## Building stock, site conditions, and permits in Ocean Springs
 
@@ -57,4 +57,4 @@ Between the older cottages downtown and the newer construction north of I-10 sit
 
 Structural repair and rebuild permits are pulled from the City of Ocean Springs. In mapped flood zones, repairs valued at half the structure's worth trigger full elevation and flood-resistant-construction requirements, and coastal wind-uplift detailing applies to any reroof or framing work.
 
-If you're dealing with water, fire, mold, or storm damage in Ocean Springs, the best first step is a phone call. Describe what you're seeing, and we'll help you understand what comes next — no obligation, no pressure. Reach HomeLyft Restoration MS at **(228) 284-5200**.
+If you're dealing with water, fire, mold, or storm damage in Ocean Springs, the best first step is a phone call. Describe what you're seeing, and we'll help you understand what comes next, no obligation, no pressure. Reach HomeLyft Restoration MS at **(228) 284-5200**.

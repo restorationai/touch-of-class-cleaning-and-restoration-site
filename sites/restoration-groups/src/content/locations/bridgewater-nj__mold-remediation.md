@@ -20,11 +20,11 @@ state: "NJ"
 service_display: "Mold Remediation"
 rendered: true
 ---
-The low-lying flats around Finderne and the Raritan River corridor have a long memory for water. After Tropical Storm Ida soaked Bridgewater in 2021, many finished basements in the township's postwar ranches and split-levels never fully dried — and mold colonizes wet framing and drywall in as little as 48 to 72 hours. If you're noticing a musty odor, discolored drywall, or visible growth on basement walls or ceiling joists, the problem is likely further along than it looks from the surface.
+The low-lying flats around Finderne and the Raritan River corridor have a long memory for water. After Tropical Storm Ida soaked Bridgewater in 2021, many finished basements in the township's postwar ranches and split-levels never fully dried, and mold colonizes wet framing and drywall in as little as 48 to 72 hours. If you're noticing a musty odor, discolored drywall, or visible growth on basement walls or ceiling joists, the problem is likely further along than it looks from the surface.
 
 ## Why Bridgewater Properties See Mold Issues
 
-Bridgewater's housing stock spans several distinct eras, and each era brings its own moisture vulnerabilities. The postwar ranches and cape cods concentrated in neighborhoods like Bradley Gardens and Chimney Rock were built before modern vapor barriers were standard. Their slab-on-grade or shallow crawlspace foundations sit close to a water table that rises quickly when the Raritan River and Middle Brook back up during heavy rain events — a pattern Somerset County residents know well from both Floyd and Ida.
+Bridgewater's housing stock spans several distinct eras, and each era brings its own moisture vulnerabilities. The postwar ranches and cape cods concentrated in neighborhoods like Bradley Gardens and Chimney Rock were built before modern vapor barriers were standard. Their slab-on-grade or shallow crawlspace foundations sit close to a water table that rises quickly when the Raritan River and Middle Brook back up during heavy rain events, a pattern Somerset County residents know well from both Floyd and Ida.
 
 Older supply lines and cast-iron drain stacks in finished basements are another persistent source. A slow pinhole leak inside a wall cavity can feed mold growth for months before a homeowner notices staining or smell. Newer colonial and townhome developments along the Route 202/206 corridor present a different problem: tighter building envelopes trap humidity, and HVAC systems that aren't properly balanced push moisture into unconditioned attic spaces where mold can establish itself quietly above insulation.
 
@@ -32,17 +32,17 @@ Commercial properties aren't immune either. Sprinkler discharges and overnight r
 
 ## Our Mold Remediation Process in Bridgewater
 
-Every job starts with a thorough visual inspection and moisture mapping — not just the obvious affected area, but adjacent cavities, subfloor assemblies, and HVAC chases where spores travel. In Bridgewater's older split-levels, that often means pulling back carpet in finished lower levels and probing behind paneling that was installed over masonry walls without a proper drainage plane.
+Every job starts with a thorough visual inspection and moisture mapping, not just the obvious affected area, but adjacent cavities, subfloor assemblies, and HVAC chases where spores travel. In Bridgewater's older split-levels, that often means pulling back carpet in finished lower levels and probing behind paneling that was installed over masonry walls without a proper drainage plane.
 
-Once the scope is established, the affected area is isolated with negative-air containment barriers. HEPA-filtered air scrubbers run continuously throughout the work to capture airborne spores before they migrate to unaffected rooms. Contaminated materials — drywall, insulation, wood framing where necessary — are removed, bagged, and disposed of per New Jersey DEP guidelines. Remaining structural surfaces are treated and dried to IICRC S520 standard moisture thresholds before any reconstruction begins.
+Once the scope is established, the affected area is isolated with negative-air containment barriers. HEPA-filtered air scrubbers run continuously throughout the work to capture airborne spores before they migrate to unaffected rooms. Contaminated materials, drywall, insulation, wood framing where necessary, are removed, bagged, and disposed of per New Jersey DEP guidelines. Remaining structural surfaces are treated and dried to IICRC S520 standard moisture thresholds before any reconstruction begins.
 
-The remediation is performed by an IICRC Certified Firm (Firm #210213), and the work is documented with photos and moisture readings at each stage — documentation that matters when you're filing a claim or satisfying an HOA requirement.
+The remediation is performed by an IICRC Certified Firm (Firm #210213), and the work is documented with photos and moisture readings at each stage, documentation that matters when you're filing a claim or satisfying an HOA requirement.
 
 ## Reaching Bridgewater from Kenilworth
 
-The Restoration Group operates out of Kenilworth, NJ, and reaches Bridgewater 24 hours a day, 7 days a week. From Kenilworth, the most direct route runs west on Route 22, putting crews into the eastern sections of Bridgewater — including the ZIP 08807 corridor — in well under an hour under normal traffic conditions. The Route 287 interchange provides direct access to the Martinsville and Chimney Rock areas on the township's western and southern edges.
+The Restoration Group operates out of Kenilworth, NJ, and reaches Bridgewater 24 hours a day, 7 days a week. From Kenilworth, the most direct route runs west on Route 22, putting crews into the eastern sections of Bridgewater, including the ZIP 08807 corridor, in well under an hour under normal traffic conditions. The Route 287 interchange provides direct access to the Martinsville and Chimney Rock areas on the township's western and southern edges.
 
-For calls that come in overnight or on weekends, dispatch is live — not an answering service — so the clock starts when you call (855) 650-7422, not the next business morning.
+For calls that come in overnight or on weekends, dispatch is live, not an answering service, so the clock starts when you call (855) 650-7422, not the next business morning.
 
 ## Bridgewater Insurance Coordination
 
@@ -52,6 +52,6 @@ If your property is in a townhome or planned development with HOA oversight, we 
 
 ## Local Note
 
-One pattern that comes up repeatedly in Bridgewater's older Finderne-area ranches: finished basement walls were commonly built with wood furring strips nailed directly to the masonry block, with no air gap and no vapor barrier behind the drywall. When the block wicks moisture — which it does during any prolonged wet period — the furring and drywall stay damp for weeks. Mold growth in these assemblies often looks minor on the surface but runs the full height of the wall cavity behind the finish. When we scope a job in this part of the township, we account for that construction pattern before quoting, so there are no surprises mid-project.
+One pattern that comes up repeatedly in Bridgewater's older Finderne-area ranches: finished basement walls were commonly built with wood furring strips nailed directly to the masonry block, with no air gap and no vapor barrier behind the drywall. When the block wicks moisture, which it does during any prolonged wet period, the furring and drywall stay damp for weeks. Mold growth in these assemblies often looks minor on the surface but runs the full height of the wall cavity behind the finish. When we scope a job in this part of the township, we account for that construction pattern before quoting, so there are no surprises mid-project.
 
-If you're in the 08807 or 08805 ZIP codes and you've had any water intrusion in the past few months, a moisture inspection is worth scheduling before mold becomes a larger remediation project. Call (855) 650-7422 any time — the line is answered around the clock.
+If you're in the 08807 or 08805 ZIP codes and you've had any water intrusion in the past few months, a moisture inspection is worth scheduling before mold becomes a larger remediation project. Call (855) 650-7422 any time, the line is answered around the clock.

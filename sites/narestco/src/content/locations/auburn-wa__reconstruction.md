@@ -20,25 +20,25 @@ state: "WA"
 service_display: "Reconstruction Services"
 rendered: true
 ---
-When a fire, flood, or structural failure leaves part of your Auburn property open to the elements, every hour matters. Wet framing invites mold within 24–48 hours; smoke residue bonds deeper into drywall and insulation the longer it sits; a compromised load-bearing wall doesn't get safer on its own. National Restoration Construction has been handling post-damage reconstruction across the South King County corridor since 2004, and our Federal Way headquarters puts us roughly 10–15 minutes from most Auburn addresses — close enough to show up before the situation compounds.
+When a fire, flood, or structural failure leaves part of your Auburn property open to the elements, every hour matters. Wet framing invites mold within 24–48 hours; smoke residue bonds deeper into drywall and insulation the longer it sits; a compromised load-bearing wall doesn't get safer on its own. National Restoration Construction has been handling post-damage reconstruction across the South King County corridor since 2004, and our Federal Way headquarters puts us roughly 10–15 minutes from most Auburn addresses, close enough to show up before the situation compounds.
 
 ## Our Reconstruction Services Process in Auburn
 
-Reconstruction isn't a single trade — it's a sequenced set of decisions that have to happen in the right order or you pay to redo work. Here's how we run it.
+Reconstruction isn't a single trade, it's a sequenced set of decisions that have to happen in the right order or you pay to redo work. Here's how we run it.
 
-First, we do a thorough structural and moisture assessment before a single nail goes in. If water infiltrated during a roof collapse or a burst pipe, we need to confirm the framing is dry — typically below 16% moisture content — before closing walls. Skipping that step is how mold ends up behind new drywall six months later.
+First, we do a thorough structural and moisture assessment before a single nail goes in. If water infiltrated during a roof collapse or a burst pipe, we need to confirm the framing is dry, typically below 16% moisture content, before closing walls. Skipping that step is how mold ends up behind new drywall six months later.
 
 From there we move into structural reconstruction: sistering or replacing damaged joists, reframing walls, repairing or rebuilding roof decking, and restoring sheathing. For fire damage reconstruction, that includes removing char-damaged framing, treating smoke-affected surfaces, and sealing before any finish work begins.
 
-Final phases cover insulation, drywall, interior finishes, and — where required — exterior work like siding, windows, and roofing. We carry a Washington State General Contractor Certificate of Registration (License #NATIORC792M6), so every phase is permitted and inspected correctly, which matters when your insurance carrier or a future buyer reviews the work history.
+Final phases cover insulation, drywall, interior finishes, and, where required, exterior work like siding, windows, and roofing. We carry a Washington State General Contractor Certificate of Registration (License #NATIORC792M6), so every phase is permitted and inspected correctly, which matters when your insurance carrier or a future buyer reviews the work history.
 
 ## Why Auburn Properties See Reconstruction Emergencies
 
 Auburn sits in the Green River Valley, and the regional climate creates a specific set of risks that push properties toward reconstruction-level damage faster than homeowners expect.
 
-Winter months bring sustained rain — not dramatic storms, but weeks of moderate precipitation that finds every gap in aging rooflines, around chimney flashings, and through deteriorating window seals. Many Auburn neighborhoods contain housing stock from the 1960s through the 1980s, when vapor barriers and modern weather-resistive membranes weren't standard. Once water gets into that older framing, it often travels farther than the visible stain on the ceiling suggests.
+Winter months bring sustained rain, not dramatic storms, but weeks of moderate precipitation that finds every gap in aging rooflines, around chimney flashings, and through deteriorating window seals. Many Auburn neighborhoods contain housing stock from the 1960s through the 1980s, when vapor barriers and modern weather-resistive membranes weren't standard. Once water gets into that older framing, it often travels farther than the visible stain on the ceiling suggests.
 
-Fire risk is real here too. The mix of older residential construction, mature landscaping, and proximity to light industrial corridors along Auburn Way means fire damage reconstruction is a regular part of what we handle in this area — from kitchen fires that compromise a single room to structure fires that require a near-complete rebuild.
+Fire risk is real here too. The mix of older residential construction, mature landscaping, and proximity to light industrial corridors along Auburn Way means fire damage reconstruction is a regular part of what we handle in this area, from kitchen fires that compromise a single room to structure fires that require a near-complete rebuild.
 
 Wind events, particularly in fall and early winter, periodically drive tree limbs and debris through roofs, creating sudden openings that let rain in immediately. Post-disaster rebuilding in those cases is a race against the next storm system.
 
@@ -46,20 +46,20 @@ Wind events, particularly in fall and early winter, periodically drive tree limb
 
 Dealing with your insurance company while also managing a damaged property is genuinely stressful, and it's one of the things we try to reduce friction around.
 
-On our end: we document damage thoroughly before any demolition or debris removal — photos, moisture readings, written scope — because that documentation is what supports your claim. We provide itemized estimates formatted for adjuster review, and we're available to walk through scope questions directly with your carrier if needed.
+On our end: we document damage thoroughly before any demolition or debris removal, photos, moisture readings, written scope, because that documentation is what supports your claim. We provide itemized estimates formatted for adjuster review, and we're available to walk through scope questions directly with your carrier if needed.
 
-On your end: notify your insurer as soon as possible, keep any receipts for emergency expenses (temporary lodging, board-up services), and avoid authorizing permanent repairs from any contractor before your adjuster has assessed the damage — that can complicate coverage. We can begin emergency stabilization work (tarping, board-up, structural shoring) while the claim is still open, which protects the property without jeopardizing your settlement.
+On your end: notify your insurer as soon as possible, keep any receipts for emergency expenses (temporary lodging, board-up services), and avoid authorizing permanent repairs from any contractor before your adjuster has assessed the damage, that can complicate coverage. We can begin emergency stabilization work (tarping, board-up, structural shoring) while the claim is still open, which protects the property without jeopardizing your settlement.
 
 We work with most major carriers and can provide supplemental documentation if a first estimate comes back short of actual scope.
 
 ## Response Times Across Auburn
 
-Our Federal Way headquarters is roughly 10–12 miles from central Auburn via Highway 167 or Auburn Way North, which typically translates to 20–30 minutes in normal traffic. For most Auburn addresses — whether you're near the Auburn Supermall corridor, the Lea Hill neighborhoods, or closer to the Kent city line — expect a technician on-site within 60–90 minutes of your first contact, often faster during off-peak hours.
+Our Federal Way headquarters is roughly 10–12 miles from central Auburn via Highway 167 or Auburn Way North, which typically translates to 20–30 minutes in normal traffic. For most Auburn addresses, whether you're near the Auburn Supermall corridor, the Lea Hill neighborhoods, or closer to the Kent city line, expect a technician on-site within 60–90 minutes of your first contact, often faster during off-peak hours.
 
-For emergency stabilization — roof tarping after storm damage, structural shoring after a collapse, or board-up after a fire — we prioritize same-day response. Reconstruction planning and permitting follow once the property is secured.
+For emergency stabilization, roof tarping after storm damage, structural shoring after a collapse, or board-up after a fire, we prioritize same-day response. Reconstruction planning and permitting follow once the property is secured.
 
 If you're in the West Hill or Lakeland Hills areas, response times are comparable; the Auburn geography is compact enough that no part of the city is far from our team.
 
 ---
 
-If your property has been damaged and you're trying to figure out what comes next, the clearest thing you can do right now is get eyes on it from someone who can give you an honest scope. Reach National Restoration Construction at **(206) 883-0333** — we're available around the clock, and an assessment costs you nothing up front.
+If your property has been damaged and you're trying to figure out what comes next, the clearest thing you can do right now is get eyes on it from someone who can give you an honest scope. Reach National Restoration Construction at **(206) 883-0333**, we're available around the clock, and an assessment costs you nothing up front.

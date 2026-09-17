@@ -17,39 +17,39 @@ service_slug: "storm-damage-restoration"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
-A storm doesn't give you a warning before the oak tree lands on your roof, and the rain that follows doesn't wait for a tarp. Within hours of a severe weather event, water is moving through ceiling joists, insulation is saturated, and wind-driven debris has compromised the building envelope in ways that aren't visible from the ground. Storm damage restoration is the work of stopping that cascade — securing the structure, removing what can't be saved, drying what can, and putting the building back together so it performs the way it did before the storm hit.
+A storm doesn't give you a warning before the oak tree lands on your roof, and the rain that follows doesn't wait for a tarp. Within hours of a severe weather event, water is moving through ceiling joists, insulation is saturated, and wind-driven debris has compromised the building envelope in ways that aren't visible from the ground. Storm damage restoration is the work of stopping that cascade, securing the structure, removing what can't be saved, drying what can, and putting the building back together so it performs the way it did before the storm hit.
 
 ## What Storm Damage Restoration actually involves
 
 Storm damage is rarely one problem. A hurricane or tornado typically layers several loss types on top of each other: structural breach from wind or impact, water intrusion through the damaged envelope, and secondary damage from standing water, saturated insulation, and displaced roofing materials. Treating only one layer and ignoring the others is how a manageable claim turns into a mold remediation six weeks later.
 
-The physical work spans emergency stabilization — tarping, board-up, temporary fencing — through debris removal, interior water extraction, structural drying, and eventually reconstruction of damaged framing, roofing, drywall, and finishes. Equipment on a storm job typically includes industrial air movers, low-grain refrigerant dehumidifiers, moisture meters, thermal imaging cameras, and in cases of significant water intrusion, truck-mounted extraction units. Depending on the extent of structural damage, the timeline from emergency response through completed reconstruction can run anywhere from a few days for a contained roof leak to several months for a home that took a direct hit.
+The physical work spans emergency stabilization, tarping, board-up, temporary fencing, through debris removal, interior water extraction, structural drying, and eventually reconstruction of damaged framing, roofing, drywall, and finishes. Equipment on a storm job typically includes industrial air movers, low-grain refrigerant dehumidifiers, moisture meters, thermal imaging cameras, and in cases of significant water intrusion, truck-mounted extraction units. Depending on the extent of structural damage, the timeline from emergency response through completed reconstruction can run anywhere from a few days for a contained roof leak to several months for a home that took a direct hit.
 
-Along the Gulf Coast, the combination of high ambient humidity and warm temperatures means secondary moisture damage accelerates faster than it would in drier climates. Mold colonization can begin within 24 to 48 hours of a water intrusion event — which is why the drying phase of storm restoration here isn't a formality.
+Along the Gulf Coast, the combination of high ambient humidity and warm temperatures means secondary moisture damage accelerates faster than it would in drier climates. Mold colonization can begin within 24 to 48 hours of a water intrusion event, which is why the drying phase of storm restoration here isn't a formality.
 
 ## Our process
 
-1. **Emergency stabilization and site safety assessment.** Before any restoration work begins, the structure is evaluated for hazards — compromised load-bearing elements, downed electrical lines, gas leaks, and standing water near panels. Temporary protective measures (roof tarps, plywood board-up, perimeter fencing) are installed to stop ongoing water intrusion and secure the property.
+1. **Emergency stabilization and site safety assessment.** Before any restoration work begins, the structure is evaluated for hazards, compromised load-bearing elements, downed electrical lines, gas leaks, and standing water near panels. Temporary protective measures (roof tarps, plywood board-up, perimeter fencing) are installed to stop ongoing water intrusion and secure the property.
 
-2. **Damage documentation and scope development.** Every affected surface, material, and system is photographed, measured, and logged using industry-standard estimating software. Moisture readings are taken at multiple depths across all affected areas. This documentation becomes the foundation of the insurance claim and the written scope of work — nothing proceeds without it.
+2. **Damage documentation and scope development.** Every affected surface, material, and system is photographed, measured, and logged using industry-standard estimating software. Moisture readings are taken at multiple depths across all affected areas. This documentation becomes the foundation of the insurance claim and the written scope of work, nothing proceeds without it.
 
 3. **Debris removal and interior extraction.** Storm debris, damaged roofing materials, fallen insulation, and unsalvageable building materials are removed. Standing water is extracted using truck-mounted or portable units. Saturated drywall and flooring that cannot be dried in place are removed to expose the structural assembly underneath.
 
-4. **Structural drying and monitoring.** Air movers and dehumidifiers are positioned to dry framing, subfloor, and wall cavities to pre-loss moisture levels. Readings are logged daily — drying is not declared complete based on calendar days but on verified moisture data. On jobs with significant water intrusion, this phase typically runs three to five days, sometimes longer depending on material type and ambient conditions.
+4. **Structural drying and monitoring.** Air movers and dehumidifiers are positioned to dry framing, subfloor, and wall cavities to pre-loss moisture levels. Readings are logged daily, drying is not declared complete based on calendar days but on verified moisture data. On jobs with significant water intrusion, this phase typically runs three to five days, sometimes longer depending on material type and ambient conditions.
 
-5. **Reconstruction and final inspection.** Once the structure is verified dry and any underlying issues (damaged sheathing, compromised rafters, deteriorated flashing) are addressed, reconstruction begins — roofing, framing repairs, drywall, insulation, and finishes. As a FORTIFIED Building Roofing MS Windstorm Certified contractor, we can complete roofing repairs to the Insurance Institute for Business & Home Safety's FORTIFIED standard, which can reduce future wind damage and may qualify the home for insurance premium discounts.
+5. **Reconstruction and final inspection.** Once the structure is verified dry and any underlying issues (damaged sheathing, compromised rafters, deteriorated flashing) are addressed, reconstruction begins, roofing, framing repairs, drywall, insulation, and finishes. As a FORTIFIED Building Roofing MS Windstorm Certified contractor, we can complete roofing repairs to the Insurance Institute for Business & Home Safety's FORTIFIED standard, which can reduce future wind damage and may qualify the home for insurance premium discounts.
 
 ## What separates a good storm damage response from a bad one
 
 The most common failure on storm jobs is incomplete moisture mapping. A crew that patches the roof, pulls wet carpet, and sets a few fans without verifying moisture levels inside wall cavities and subfloor assemblies will leave hidden wet material that feeds mold growth for weeks before it becomes visible. By then, the original storm claim has closed.
 
-A second common problem is scope creep in the wrong direction — writing a claim that replaces only what's visibly damaged without accounting for code-required upgrades, matching materials, or pre-existing conditions that the storm exposed. Experienced adjusters look for moisture readings tied to specific locations, photo documentation of each damaged material, and a scope that distinguishes storm-caused damage from wear and tear. Gaps in that documentation are the primary reason supplements get denied.
+A second common problem is scope creep in the wrong direction, writing a claim that replaces only what's visibly damaged without accounting for code-required upgrades, matching materials, or pre-existing conditions that the storm exposed. Experienced adjusters look for moisture readings tied to specific locations, photo documentation of each damaged material, and a scope that distinguishes storm-caused damage from wear and tear. Gaps in that documentation are the primary reason supplements get denied.
 
-The IICRC FSRT certification our team holds is relevant here too — fire and smoke from lightning strikes or downed power lines sometimes accompany storm damage, and characterizing that residue correctly changes the cleaning protocol significantly.
+The IICRC FSRT certification our team holds is relevant here too, fire and smoke from lightning strikes or downed power lines sometimes accompany storm damage, and characterizing that residue correctly changes the cleaning protocol significantly.
 
 ## What does Storm Damage Restoration cost?
 
-Typical costs for storm damage restoration vary widely based on the size of the breach, how long water was present, and how much of the structure needs to be rebuilt. Most homeowners pay somewhere in the ranges below — these are industry-typical figures, not quotes.
+Typical costs for storm damage restoration vary widely based on the size of the breach, how long water was present, and how much of the structure needs to be rebuilt. Most homeowners pay somewhere in the ranges below, these are industry-typical figures, not quotes.
 
 | Scenario | Typical range |
 |---|---|
@@ -60,16 +60,16 @@ Typical costs for storm damage restoration vary widely based on the size of the 
 | Emergency stabilization only (tarping, board-up) | $800 – $3,500 |
 | Debris removal and exterior cleanup | $1,200 – $5,000 |
 
-Every loss is different, and HomeLyft Restoration MS provides a written scope of work before any restoration begins so there are no surprises. Standard homeowners insurance policies typically cover sudden and accidental storm damage — wind, hail, falling trees — though flood damage from storm surge requires a separate NFIP or private flood policy.
+Every loss is different, and HomeLyft Restoration MS provides a written scope of work before any restoration begins so there are no surprises. Standard homeowners insurance policies typically cover sudden and accidental storm damage, wind, hail, falling trees, though flood damage from storm surge requires a separate NFIP or private flood policy.
 
 ## Seasonal and regional considerations
 
-The Gulf Coast's named-storm season runs June through November, but severe weather in Mississippi isn't limited to hurricanes. Spring tornado outbreaks, summer squall lines, and winter ice storms all generate storm damage claims — and each creates a slightly different damage profile. Hurricane-driven rain intrudes horizontally through soffits, gable vents, and window frames in ways that vertical rain doesn't, saturating attic insulation and wall cavities that look dry from below. Tornado damage tends to be more violent and localized, with structural failures that require engineering assessment before reconstruction can begin.
+The Gulf Coast's named-storm season runs June through November, but severe weather in Mississippi isn't limited to hurricanes. Spring tornado outbreaks, summer squall lines, and winter ice storms all generate storm damage claims, and each creates a slightly different damage profile. Hurricane-driven rain intrudes horizontally through soffits, gable vents, and window frames in ways that vertical rain doesn't, saturating attic insulation and wall cavities that look dry from below. Tornado damage tends to be more violent and localized, with structural failures that require engineering assessment before reconstruction can begin.
 
-Gulfport's proximity to the Gulf also means post-storm humidity levels routinely exceed 80%, which slows structural drying and compresses the window before secondary mold growth begins. Equipment staging and dehumidifier capacity have to account for that — a drying plan designed for a home in a drier climate will underperform here.
+Gulfport's proximity to the Gulf also means post-storm humidity levels routinely exceed 80%, which slows structural drying and compresses the window before secondary mold growth begins. Equipment staging and dehumidifier capacity have to account for that, a drying plan designed for a home in a drier climate will underperform here.
 
 ## Service area
 
 HomeLyft Restoration MS is based in Gulfport and serves communities throughout the Mississippi Gulf Coast and surrounding region, including Biloxi, Pascagoula, Hattiesburg, Long Beach, Pass Christian, Bay St. Louis, Waveland, and Ocean Springs. Individual service-area pages for each city link back to this page for full service details.
 
-If a storm has compromised your roof, walls, or interior — call **(228) 284-5200** to get a damage assessment scheduled and stop the loss from getting worse.
+If a storm has compromised your roof, walls, or interior, call **(228) 284-5200** to get a damage assessment scheduled and stop the loss from getting worse.

@@ -19,13 +19,13 @@ state: "TX"
 primary: false
 rendered: true
 ---
-When water soaks through drywall at 2 a.m., smoke settles into every corner after a kitchen fire, or mold starts colonizing a wall cavity after a slow leak, Clyde property owners need a restoration crew that knows the area and can move. Air Care Restoration dispatches from Abilene around the clock — water extraction, fire and smoke cleanup, mold remediation, and structural drying — for homes and commercial properties throughout Clyde and the surrounding Callahan County corridor.
+When water soaks through drywall at 2 a.m., smoke settles into every corner after a kitchen fire, or mold starts colonizing a wall cavity after a slow leak, Clyde property owners need a restoration crew that knows the area and can move. Air Care Restoration dispatches from Abilene around the clock, water extraction, fire and smoke cleanup, mold remediation, and structural drying, for homes and commercial properties throughout Clyde and the surrounding Callahan County corridor.
 
 ## Restoration emergencies common in Clyde
 
-Clyde sits on the Rolling Plains at the edge of West Texas, and the weather here does not ease up on buildings. Hard freezes arrive fast in December and January, and the temperature swings between afternoon and overnight can be severe enough to burst supply lines inside exterior walls — especially in older homes where pipes run through uninsulated cavities. When a pipe lets go, water can travel behind sheetrock and under flooring for hours before anyone notices.
+Clyde sits on the Rolling Plains at the edge of West Texas, and the weather here does not ease up on buildings. Hard freezes arrive fast in December and January, and the temperature swings between afternoon and overnight can be severe enough to burst supply lines inside exterior walls, especially in older homes where pipes run through uninsulated cavities. When a pipe lets go, water can travel behind sheetrock and under flooring for hours before anyone notices.
 
-Summer brings a different threat. Extended drought cycles bake and shrink the clay-heavy soils under foundations, and when rain finally arrives — sometimes as a fast-moving thunderstorm off the Caprock — the ground cannot absorb it quickly. Roof penetrations, window seals, and aging siding take the hit. Hail is a recurring driver of roof damage across Callahan County, and a compromised roof deck can let moisture into attic insulation and framing long before a homeowner sees a ceiling stain.
+Summer brings a different threat. Extended drought cycles bake and shrink the clay-heavy soils under foundations, and when rain finally arrives, sometimes as a fast-moving thunderstorm off the Caprock, the ground cannot absorb it quickly. Roof penetrations, window seals, and aging siding take the hit. Hail is a recurring driver of roof damage across Callahan County, and a compromised roof deck can let moisture into attic insulation and framing long before a homeowner sees a ceiling stain.
 
 Wildfire smoke is also a real seasonal concern in this part of West Texas. Grass fires that start miles away can push enough particulate into a home through HVAC systems and gaps in the building envelope to leave odor and residue on surfaces throughout the structure.
 
@@ -33,31 +33,31 @@ Wildfire smoke is also a real seasonal concern in this part of West Texas. Grass
 
 ### Water damage restoration
 
-Water damage in Clyde frequently starts with a burst pipe during a freeze or a roof leak after a hail event. Because many homes here were built on slab foundations, water that enters through a slab penetration or a failed perimeter seal has nowhere to drain — it saturates flooring adhesives, wicks up drywall, and sits under vinyl or tile until it is extracted. We use thermal imaging and moisture meters to find water that has migrated beyond the visible damage, then dry the structure to IICRC S500 standards before any repairs begin.
+Water damage in Clyde frequently starts with a burst pipe during a freeze or a roof leak after a hail event. Because many homes here were built on slab foundations, water that enters through a slab penetration or a failed perimeter seal has nowhere to drain, it saturates flooring adhesives, wicks up drywall, and sits under vinyl or tile until it is extracted. We use thermal imaging and moisture meters to find water that has migrated beyond the visible damage, then dry the structure to IICRC S500 standards before any repairs begin.
 
 ### Fire and smoke damage restoration
 
-Smoke residue from a West Texas grass fire or a kitchen fire behaves differently depending on what burned and how hot. Protein smoke — common in cooking fires — leaves an almost invisible film that carries a persistent odor. Dry, fast-burning fires leave powdery soot that spreads through ductwork. We assess the residue type before cleaning begins, because the wrong method can drive contamination deeper into porous surfaces.
+Smoke residue from a West Texas grass fire or a kitchen fire behaves differently depending on what burned and how hot. Protein smoke, common in cooking fires, leaves an almost invisible film that carries a persistent odor. Dry, fast-burning fires leave powdery soot that spreads through ductwork. We assess the residue type before cleaning begins, because the wrong method can drive contamination deeper into porous surfaces.
 
 ### Mold remediation
 
-Mold can begin colonizing wet building materials within 24 to 48 hours of a water event. In Clyde's older housing stock, where wall assemblies may include paper-faced insulation and wood lath, a slow leak behind a wall can create conditions for mold growth long before the surface shows discoloration. Mold remediation in Texas requires an independent licensed Mold Assessment Consultant to assess the property, write the remediation protocol, and perform post-remediation verification. Air Care Restoration executes the remediation work — containing the affected area, removing compromised materials, and treating structural components — to meet the post-remediation verification criteria established in the Mold Remediation Protocol.
+Mold can begin colonizing wet building materials within 24 to 48 hours of a water event. In Clyde's older housing stock, where wall assemblies may include paper-faced insulation and wood lath, a slow leak behind a wall can create conditions for mold growth long before the surface shows discoloration. Mold remediation in Texas requires an independent licensed Mold Assessment Consultant to assess the property, write the remediation protocol, and perform post-remediation verification. Air Care Restoration executes the remediation work, containing the affected area, removing compromised materials, and treating structural components, to meet the post-remediation verification criteria established in the Mold Remediation Protocol.
 
 ### Biohazard and specialty cleanup
 
-Sewage backups, which happen when aging municipal laterals or private septic systems fail, require full Category 3 water protocols — affected materials are treated as contaminated and handled accordingly. We also respond to other biohazard situations that require proper containment and disposal.
+Sewage backups, which happen when aging municipal laterals or private septic systems fail, require full Category 3 water protocols, affected materials are treated as contaminated and handled accordingly. We also respond to other biohazard situations that require proper containment and disposal.
 
 ## Coverage and how fast we can get there
 
-Clyde is roughly 20 miles east of Abilene along Interstate 20, making it a direct run from our headquarters. Because Air Care Restoration operates 24/7, a call at any hour — including overnight when pipe failures most often happen — reaches a live dispatcher who can route a crew east on I-20 toward Clyde. The drive from Abilene to the Clyde area is straightforward, with no significant routing complications. If you are on the west side of town near the I-20 interchange or further east toward the Callahan County line, coverage is the same — we serve the full city and the surrounding rural addresses.
+Clyde is roughly 20 miles east of Abilene along Interstate 20, making it a direct run from our headquarters. Because Air Care Restoration operates 24/7, a call at any hour, including overnight when pipe failures most often happen, reaches a live dispatcher who can route a crew east on I-20 toward Clyde. The drive from Abilene to the Clyde area is straightforward, with no significant routing complications. If you are on the west side of town near the I-20 interchange or further east toward the Callahan County line, coverage is the same, we serve the full city and the surrounding rural addresses.
 
 ## Building stock, site conditions, and permits in Clyde
 
-Much of Clyde's residential housing dates from the mid-twentieth century, with a mix of wood-frame construction on slab-on-grade foundations and some older pier-and-beam homes. Homes built before the late 1970s may contain asbestos-containing materials in floor tile, pipe insulation, or textured ceiling finishes — a scope consideration that requires a licensed abatement contractor before any demolition begins. Plumbing in that era typically used galvanized steel supply lines, which corrode from the inside out and can fail without visible exterior warning.
+Much of Clyde's residential housing dates from the mid-twentieth century, with a mix of wood-frame construction on slab-on-grade foundations and some older pier-and-beam homes. Homes built before the late 1970s may contain asbestos-containing materials in floor tile, pipe insulation, or textured ceiling finishes, a scope consideration that requires a licensed abatement contractor before any demolition begins. Plumbing in that era typically used galvanized steel supply lines, which corrode from the inside out and can fail without visible exterior warning.
 
 The soils across Callahan County include expansive clays that shift with moisture content. A foundation that has moved over decades may have gaps at the slab perimeter where water can enter during heavy rain events.
 
-Permits for structural repair and reconstruction in Clyde are administered through the City of Clyde. Work that involves structural framing, electrical, or plumbing typically requires a permit before work begins. Texas has adopted the International Building Code family at the state level, and local jurisdictions enforce it — your restoration contractor should be prepared to pull the appropriate permits and schedule inspections for any scope that goes beyond surface-level repairs.
+Permits for structural repair and reconstruction in Clyde are administered through the City of Clyde. Work that involves structural framing, electrical, or plumbing typically requires a permit before work begins. Texas has adopted the International Building Code family at the state level, and local jurisdictions enforce it, your restoration contractor should be prepared to pull the appropriate permits and schedule inspections for any scope that goes beyond surface-level repairs.
 
 ---
 

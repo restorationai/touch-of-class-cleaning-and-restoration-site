@@ -20,31 +20,31 @@ state: "SD"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
-When a severe storm rolls across Lincoln County, Canton's position along the Big Sioux River corridor means it catches weather from multiple directions — squall lines dropping down from the northwest, and storm cells that stall against the river bluffs and dump hail or straight-line winds before residents have time to react. The older housing stock throughout Downtown Canton and the neighborhoods near the riverfront — much of it built before modern roof sheathing standards — takes a harder hit than newer construction, and the damage compounds fast once water finds its way through a compromised soffit or a tree limb punches through aging cedar shakes.
+When a severe storm rolls across Lincoln County, Canton's position along the Big Sioux River corridor means it catches weather from multiple directions, squall lines dropping down from the northwest, and storm cells that stall against the river bluffs and dump hail or straight-line winds before residents have time to react. The older housing stock throughout Downtown Canton and the neighborhoods near the riverfront, much of it built before modern roof sheathing standards, takes a harder hit than newer construction, and the damage compounds fast once water finds its way through a compromised soffit or a tree limb punches through aging cedar shakes.
 
 ## Why Canton Properties See More Storm Damage Than You Might Expect
 
-South Dakota's spring and early summer storm season is well-documented, but Canton's geography adds a specific wrinkle. The Big Sioux River area creates a natural low point where water drains — and backs up — after heavy rainfall. Homes within a few blocks of the river routinely deal with saturated ground that prevents runoff from moving away from foundations quickly. That standing water doesn't just flood basements; it wicks into rim joists, crawl spaces, and the base of wood-framed walls within hours.
+South Dakota's spring and early summer storm season is well-documented, but Canton's geography adds a specific wrinkle. The Big Sioux River area creates a natural low point where water drains, and backs up, after heavy rainfall. Homes within a few blocks of the river routinely deal with saturated ground that prevents runoff from moving away from foundations quickly. That standing water doesn't just flood basements; it wicks into rim joists, crawl spaces, and the base of wood-framed walls within hours.
 
 The housing stock is the other factor. A significant share of Canton's homes predate 1960, which means original wood-framed windows, older roofing systems, and in some cases, brick or stone chimneys that haven't been repointed in decades. A hailstorm that causes cosmetic damage on a newer vinyl-clad home can fracture mortar joints and split aged wood siding on a pre-war structure, opening pathways for water intrusion that won't be obvious until mold or rot appears weeks later.
 
 ## Our Storm Damage Restoration Process in Canton
 
-The first priority after any storm event is a thorough exterior and interior assessment — not just a visual walk-around, but moisture readings at the wall cavities, attic decking, and subfloor where water travels invisibly. We document everything with photos and measurements before a single piece of material is removed, which matters when your insurance adjuster reviews the claim.
+The first priority after any storm event is a thorough exterior and interior assessment, not just a visual walk-around, but moisture readings at the wall cavities, attic decking, and subfloor where water travels invisibly. We document everything with photos and measurements before a single piece of material is removed, which matters when your insurance adjuster reviews the claim.
 
 From there, the process follows the actual path of damage:
 
 - **Tarping and board-up** to stop active water intrusion at the roof or windows
 - **Tree and debris removal** from the structure and immediate perimeter so work can proceed safely
-- **Structural drying** using industrial air movers and dehumidifiers calibrated to the volume of the affected space — not residential box fans
-- **Damaged material removal** — shingles, insulation, drywall, or flooring that has absorbed enough moisture to be unsalvageable
+- **Structural drying** using industrial air movers and dehumidifiers calibrated to the volume of the affected space, not residential box fans
+- **Damaged material removal**, shingles, insulation, drywall, or flooring that has absorbed enough moisture to be unsalvageable
 - **Reconstruction** scoped to match existing materials, which on older Canton homes often means sourcing period-appropriate trim profiles or matching original siding dimensions
 
 We keep a drying log throughout, so you and your adjuster have a written record of daily moisture readings from start to finish.
 
 ## Reaching Canton from Sioux Falls
 
-Crew Restoration & Construction operates out of Sioux Falls, and Canton sits roughly 25 miles to the south via I-29. That's a straightforward run under normal conditions, and we can have a crew and equipment trailer staged in the 57013 ZIP code without the routing complications that affect more remote parts of Lincoln County. For properties near the Lincoln County Courthouse or along the main corridors through Downtown Canton, access is generally direct — no gravel county roads or seasonal weight restrictions to work around.
+Crew Restoration & Construction operates out of Sioux Falls, and Canton sits roughly 25 miles to the south via I-29. That's a straightforward run under normal conditions, and we can have a crew and equipment trailer staged in the 57013 ZIP code without the routing complications that affect more remote parts of Lincoln County. For properties near the Lincoln County Courthouse or along the main corridors through Downtown Canton, access is generally direct, no gravel county roads or seasonal weight restrictions to work around.
 
 If your property is closer to the Newton Hills State Park side of the county, travel time extends, and we'll be upfront about that when you call. Reach us at **(605) 965-2727** to describe your situation and get an accurate arrival estimate.
 
@@ -56,6 +56,6 @@ We work with most major carriers and can discuss direct billing options when you
 
 ## Local Note
 
-One thing that catches homeowners off guard in the older blocks of Downtown Canton: original plaster-and-lath interior walls behave very differently from modern drywall when water gets behind them. Plaster is dense and slow to release absorbed moisture, which means standard drying timelines don't apply — a wall that reads dry at the surface can still be holding significant moisture at the lath layer. We adjust our drying protocols and extend monitoring periods accordingly on these structures, rather than calling a job complete based on surface readings alone. Skipping that step is how hidden mold problems develop in the weeks after a storm.
+One thing that catches homeowners off guard in the older blocks of Downtown Canton: original plaster-and-lath interior walls behave very differently from modern drywall when water gets behind them. Plaster is dense and slow to release absorbed moisture, which means standard drying timelines don't apply, a wall that reads dry at the surface can still be holding significant moisture at the lath layer. We adjust our drying protocols and extend monitoring periods accordingly on these structures, rather than calling a job complete based on surface readings alone. Skipping that step is how hidden mold problems develop in the weeks after a storm.
 
-If your Canton home has experienced storm damage — a compromised roof, a downed tree against the structure, flooded crawl space, or hail damage that's let water in — call Crew Restoration & Construction at **(605) 965-2727**. We'll assess the full scope of the damage, document it properly for your insurance claim, and restore the structure to where it needs to be before the next storm season arrives.
+If your Canton home has experienced storm damage, a compromised roof, a downed tree against the structure, flooded crawl space, or hail damage that's let water in, call Crew Restoration & Construction at **(605) 965-2727**. We'll assess the full scope of the damage, document it properly for your insurance claim, and restore the structure to where it needs to be before the next storm season arrives.

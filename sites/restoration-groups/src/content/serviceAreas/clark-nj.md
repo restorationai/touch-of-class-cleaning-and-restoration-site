@@ -19,11 +19,11 @@ state: "NJ"
 primary: false
 rendered: true
 ---
-When a pipe bursts under a finished basement floor on Lake Avenue or a sump pump quits during a July downpour off Valley Road, The Restoration Group dispatches from Kenilworth around the clock — water extraction, structural drying, mold containment, fire and smoke cleanup, and full reconstruction, all handled by one crew so Clark homeowners aren't coordinating between three different contractors at the worst possible moment. Call us any time at (855) 650-7422.
+When a pipe bursts under a finished basement floor on Lake Avenue or a sump pump quits during a July downpour off Valley Road, The Restoration Group dispatches from Kenilworth around the clock, water extraction, structural drying, mold containment, fire and smoke cleanup, and full reconstruction, all handled by one crew so Clark homeowners aren't coordinating between three different contractors at the worst possible moment. Call us any time at (855) 650-7422.
 
 ## Restoration emergencies common in Clark
 
-Clark's housing stock tells the story. The borough filled in rapidly during the 1950s and '60s with ranches, split-levels, and capes — compact homes with finished basements that were never designed to handle the hydrostatic pressure modern storm events produce. Cast-iron drain stacks and original copper supply lines are now 60-plus years old and fail on schedule. The Rahway River traces Clark's northern and western edges, and Robinson's Branch threads through low ground near Lake Avenue before joining it; during Tropical Storm Ida in 2021, both waterways overwhelmed their banks and backed sewage into basements throughout the Valley Road corridor. That kind of combined sewage and floodwater intrusion requires more than a shop-vac — it demands Category 3 protocols, antimicrobial treatment, and careful documentation for insurance.
+Clark's housing stock tells the story. The borough filled in rapidly during the 1950s and '60s with ranches, split-levels, and capes, compact homes with finished basements that were never designed to handle the hydrostatic pressure modern storm events produce. Cast-iron drain stacks and original copper supply lines are now 60-plus years old and fail on schedule. The Rahway River traces Clark's northern and western edges, and Robinson's Branch threads through low ground near Lake Avenue before joining it; during Tropical Storm Ida in 2021, both waterways overwhelmed their banks and backed sewage into basements throughout the Valley Road corridor. That kind of combined sewage and floodwater intrusion requires more than a shop-vac, it demands Category 3 protocols, antimicrobial treatment, and careful documentation for insurance.
 
 Beyond the river risk, the water table in the low-lying stretches of ZIP code 07066 sits close enough to grade that any prolonged rain event can overwhelm a sump system. The Raritan Road and Westfield Avenue commercial strips introduce a different profile: restaurant grease-trap backflows, sprinkler-line breaks in retail spaces, and the occasional kitchen fire. The Robert Wood Johnson area sees steady residential volume from the denser streets near the hospital corridor. Clark's proximity to Merck's Rahway campus also means we handle commercial water losses where downtime is measured in dollars per hour, not just inconvenience.
 
@@ -31,11 +31,11 @@ Beyond the river risk, the water table in the low-lying stretches of ZIP code 07
 
 ### Water damage restoration
 
-Water damage in Clark most often starts in the basement — a failed sump pump, a cracked cast-iron lateral, or storm-driven groundwater seeping through block foundation walls. We extract standing water, remove saturated flooring and drywall to the flood cut, and run commercial desiccant and refrigerant drying equipment until moisture readings confirm the structure is dry. We document every affected material and reading for your insurance carrier.
+Water damage in Clark most often starts in the basement, a failed sump pump, a cracked cast-iron lateral, or storm-driven groundwater seeping through block foundation walls. We extract standing water, remove saturated flooring and drywall to the flood cut, and run commercial desiccant and refrigerant drying equipment until moisture readings confirm the structure is dry. We document every affected material and reading for your insurance carrier.
 
 ### Mold remediation
 
-After a wet-basement event, mold can begin colonizing organic materials within 24 to 48 hours if drying is incomplete. Homes in the Brant Lake neighborhood and the lower streets near Lake Avenue are particularly susceptible given their proximity to the Robinson's Branch floodplain. We contain affected areas, remove compromised materials, and treat surfaces — then verify clearance before reconstruction begins.
+After a wet-basement event, mold can begin colonizing organic materials within 24 to 48 hours if drying is incomplete. Homes in the Brant Lake neighborhood and the lower streets near Lake Avenue are particularly susceptible given their proximity to the Robinson's Branch floodplain. We contain affected areas, remove compromised materials, and treat surfaces, then verify clearance before reconstruction begins.
 
 ### Fire and smoke damage restoration
 
@@ -43,20 +43,20 @@ Kitchen fires are the most common call on the Westfield Avenue corridor and in t
 
 ### Sewage and biohazard cleanup
 
-Sewer backups — especially the combined-sewage events that hit Valley Road basements during heavy rain — require Category 3 handling: full PPE, antimicrobial application, and disposal of porous materials that absorbed contaminated water. We follow established industry protocols and document the remediation scope for both health and insurance purposes.
+Sewer backups, especially the combined-sewage events that hit Valley Road basements during heavy rain, require Category 3 handling: full PPE, antimicrobial application, and disposal of porous materials that absorbed contaminated water. We follow established industry protocols and document the remediation scope for both health and insurance purposes.
 
 ### Reconstruction
 
-Once mitigation is complete, the same team handles drywall, flooring, trim, and finish work. For Clark homeowners, that continuity matters — it eliminates the gap between the remediation contractor and the rebuild contractor that often delays final inspections and insurance settlements.
+Once mitigation is complete, the same team handles drywall, flooring, trim, and finish work. For Clark homeowners, that continuity matters, it eliminates the gap between the remediation contractor and the rebuild contractor that often delays final inspections and insurance settlements.
 
 ## Coverage and how fast we can get there
 
-The Restoration Group's Kenilworth headquarters sits roughly 3 miles from Clark's eastern border — a straight shot west on Central Avenue or south via Raritan Road. The Arthur L. Johnson High School area and the Raritan Road business district are typically reachable in under 10 minutes from dispatch. The Lake Avenue and Brant Lake neighborhoods, which sit closer to the Rahway River floodplain, add only a few minutes to that run. Because we operate 24 hours a day, seven days a week, there's no waiting for a morning callback — a crew can be en route the same hour you call, whether it's a Tuesday afternoon or a Saturday night during a nor'easter.
+The Restoration Group's Kenilworth headquarters sits roughly 3 miles from Clark's eastern border, a straight shot west on Central Avenue or south via Raritan Road. The Arthur L. Johnson High School area and the Raritan Road business district are typically reachable in under 10 minutes from dispatch. The Lake Avenue and Brant Lake neighborhoods, which sit closer to the Rahway River floodplain, add only a few minutes to that run. Because we operate 24 hours a day, seven days a week, there's no waiting for a morning callback, a crew can be en route the same hour you call, whether it's a Tuesday afternoon or a Saturday night during a nor'easter.
 
 ## Building stock, site conditions, and permits in Clark
 
-Under the plaster or rock-lath walls in these postwar homes, wall cavities were often insulated thinly or not at all, so a wet basement ceiling can hold moisture against framing long after the finished surface looks dry. Basement floors from that era frequently carry 9x9 vinyl-asbestos tile and black mastic, and paint predating 1978 is presumed lead — both change how material gets cut out rather than whether it can be. Sewer laterals of the same vintage are sometimes Orangeburg, which deforms and collapses instead of simply cracking.
+Under the plaster or rock-lath walls in these postwar homes, wall cavities were often insulated thinly or not at all, so a wet basement ceiling can hold moisture against framing long after the finished surface looks dry. Basement floors from that era frequently carry 9x9 vinyl-asbestos tile and black mastic, and paint predating 1978 is presumed lead, both change how material gets cut out rather than whether it can be. Sewer laterals of the same vintage are sometimes Orangeburg, which deforms and collapses instead of simply cracking.
 
-Structural repair and rebuild work in the borough falls under New Jersey's Uniform Construction Code, with permits issued through Clark's construction office by subcode — building, plumbing, electrical, fire. Homes mapped in the Rahway River floodplain carry additional elevation review when repairs reach substantial-improvement thresholds.
+Structural repair and rebuild work in the borough falls under New Jersey's Uniform Construction Code, with permits issued through Clark's construction office by subcode, building, plumbing, electrical, fire. Homes mapped in the Rahway River floodplain carry additional elevation review when repairs reach substantial-improvement thresholds.
 
-If you're dealing with water, fire, mold, or sewage damage anywhere in Clark — from the Westfield Avenue corridor to the streets along the Rahway River — call The Restoration Group at (855) 650-7422. We're available around the clock and we can be there fast.
+If you're dealing with water, fire, mold, or sewage damage anywhere in Clark, from the Westfield Avenue corridor to the streets along the Rahway River, call The Restoration Group at (855) 650-7422. We're available around the clock and we can be there fast.

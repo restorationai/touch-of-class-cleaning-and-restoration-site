@@ -17,7 +17,7 @@ published_at: "2026-07-10"
 services: ["mold-remediation", "mold-inspection-testing"]
 rendered: true
 ---
-If you've spotted a dark stain on the ceiling, caught a musty smell behind a cabinet, or just had a slow leak repaired, you're probably wondering whether there's mold growing somewhere you can't see. The short answer: a DIY test kit can confirm mold is *present*, but it can't tell you what species it is, how much is there, or where it's hiding. A professional inspection does all three. Whether a kit is a reasonable first step or a waste of $30 depends on what question you're actually trying to answer — and that's what this post breaks down.
+If you've spotted a dark stain on the ceiling, caught a musty smell behind a cabinet, or just had a slow leak repaired, you're probably wondering whether there's mold growing somewhere you can't see. The short answer: a DIY test kit can confirm mold is *present*, but it can't tell you what species it is, how much is there, or where it's hiding. A professional inspection does all three. Whether a kit is a reasonable first step or a waste of $30 depends on what question you're actually trying to answer, and that's what this post breaks down.
 
 ## What DIY Mold Test Kits Actually Measure
 
@@ -26,7 +26,7 @@ Most kits you'll find at hardware stores or on Amazon use one of two methods: a 
 - **Swab tests** require you to wipe a visible surface and mail the sample to a lab. Results come back in a few days and tell you whether mold spores were present on that specific surface.
 - **Petri-dish air tests** sit open in a room for a set time (usually 24–48 hours), collecting whatever spores are floating in the air. You then seal the dish and mail it, or watch it yourself over several days to see if anything grows.
 
-Here's the problem with both: mold spores exist in virtually every indoor environment at low levels. A positive result from a petri dish left open in a Las Vegas home in August — when dust and organic particles are blowing in from the desert — doesn't tell you whether you have a *problem*. It tells you that air contains spores, which is almost always true. Without a baseline outdoor sample taken at the same time, you have no meaningful comparison.
+Here's the problem with both: mold spores exist in virtually every indoor environment at low levels. A positive result from a petri dish left open in a Las Vegas home in August, when dust and organic particles are blowing in from the desert, doesn't tell you whether you have a *problem*. It tells you that air contains spores, which is almost always true. Without a baseline outdoor sample taken at the same time, you have no meaningful comparison.
 
 Swab tests are more useful when you can see something suspicious and want to confirm it's mold before paying for remediation. But they still don't tell you the extent of growth behind the drywall, under the flooring, or inside the HVAC system.
 
@@ -36,10 +36,10 @@ Swab tests are more useful when you can see something suspicious and want to con
 
 A certified mold inspector does several things a $30 kit cannot.
 
-1. **Visual inspection of the whole structure** — not just the spot you noticed. Inspectors check crawl spaces, attic sheathing, under sinks, around HVAC air handlers, and inside wall cavities with a moisture meter or thermal camera. In Las Vegas homes, the HVAC system is a common culprit: units run hard through a long cooling season, and condensate drain lines that back up can saturate insulation inside the air handler without any visible sign in the living space.
-2. **Moisture mapping** — a moisture meter identifies elevated readings behind surfaces that look dry. This tells you *where* the water source is, not just where the mold ended up.
-3. **Air and surface sampling with lab analysis** — a professional collects samples using calibrated equipment and sends them to an accredited third-party lab. Results include spore counts, species identification, and a comparison to outdoor baseline levels. That comparison is what makes the data actionable.
-4. **Written report** — this matters if you're dealing with an insurance claim, a real estate transaction, or a landlord-tenant dispute. A professional report with lab chain-of-custody documentation carries weight; a petri dish you watched on your kitchen counter does not.
+1. **Visual inspection of the whole structure**, not just the spot you noticed. Inspectors check crawl spaces, attic sheathing, under sinks, around HVAC air handlers, and inside wall cavities with a moisture meter or thermal camera. In Las Vegas homes, the HVAC system is a common culprit: units run hard through a long cooling season, and condensate drain lines that back up can saturate insulation inside the air handler without any visible sign in the living space.
+2. **Moisture mapping**, a moisture meter identifies elevated readings behind surfaces that look dry. This tells you *where* the water source is, not just where the mold ended up.
+3. **Air and surface sampling with lab analysis**, a professional collects samples using calibrated equipment and sends them to an accredited third-party lab. Results include spore counts, species identification, and a comparison to outdoor baseline levels. That comparison is what makes the data actionable.
+4. **Written report**, this matters if you're dealing with an insurance claim, a real estate transaction, or a landlord-tenant dispute. A professional report with lab chain-of-custody documentation carries weight; a petri dish you watched on your kitchen counter does not.
 
 PuroClean of East Las Vegas offers mold inspection and testing as a separate service from remediation, which matters: you want the person finding the problem and the person fixing it to be working from the same objective data.
 
@@ -52,10 +52,10 @@ PuroClean of East Las Vegas offers mold inspection and testing as a separate ser
 
 **Skip the kit and call a professional directly if:**
 - The musty smell is present but you can't find the source.
-- A water intrusion event happened — a pipe leak, a roof leak, a flooding event — and more than 48 hours passed before it was fully dried. Mold can begin colonizing porous materials like drywall and wood framing within 24–48 hours of sustained moisture exposure.
+- A water intrusion event happened, a pipe leak, a roof leak, a flooding event, and more than 48 hours passed before it was fully dried. Mold can begin colonizing porous materials like drywall and wood framing within 24–48 hours of sustained moisture exposure.
 - Anyone in the home has unexplained allergy-like symptoms, respiratory irritation, or headaches that improve when they leave the house.
 - You're buying or selling the property and need documentation.
-- The HVAC system is involved — mold inside ductwork or an air handler distributes spores throughout the entire home every time the system runs.
+- The HVAC system is involved, mold inside ductwork or an air handler distributes spores throughout the entire home every time the system runs.
 
 ## What Not to Do While You're Deciding
 
@@ -68,15 +68,15 @@ A few common mistakes that make the situation worse:
 
 ## Understanding the Remediation Process If Mold Is Confirmed
 
-If testing — professional or DIY — confirms a significant mold problem, remediation is not a one-step cleaning job. A proper process involves:
+If testing, professional or DIY, confirms a significant mold problem, remediation is not a one-step cleaning job. A proper process involves:
 
 1. **Fixing the moisture source first.** No remediation holds if the water intrusion continues. This sometimes means plumbing repairs, improved ventilation, or grading changes before mold work begins.
 2. **Containment** of the affected area to prevent cross-contamination.
 3. **Physical removal** of contaminated porous materials (drywall, insulation, subflooring) that can't be cleaned to an acceptable spore level.
 4. **HEPA vacuuming and antimicrobial treatment** of structural surfaces.
-5. **Post-remediation verification testing** — a clearance air sample taken after work is complete and containment is removed, confirming spore levels have returned to normal. This is the step many DIY attempts skip, and it's the only way to know the job is actually done.
+5. **Post-remediation verification testing**, a clearance air sample taken after work is complete and containment is removed, confirming spore levels have returned to normal. This is the step many DIY attempts skip, and it's the only way to know the job is actually done.
 
-PuroClean of East Las Vegas handles the full remediation process and can coordinate post-remediation clearance testing so you have documentation that the problem is resolved — not just treated.
+PuroClean of East Las Vegas handles the full remediation process and can coordinate post-remediation clearance testing so you have documentation that the problem is resolved, not just treated.
 
 ## When to Make the Call
 

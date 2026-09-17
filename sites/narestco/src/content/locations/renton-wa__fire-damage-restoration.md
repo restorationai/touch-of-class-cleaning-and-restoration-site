@@ -20,17 +20,17 @@ state: "WA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-A house fire leaves behind more than charred walls. Within hours of the flames being out, smoke residue is already bonding to surfaces, soot is settling into HVAC ducts, and the water used to fight the fire is working its way under subfloors. If your home or building in Renton just went through a fire, the clock matters more than most people realize. National Restoration Construction has been responding to structural fire damage in the greater Seattle area since 2004, and our Federal Way headquarters puts us roughly 15 minutes from most Renton addresses — close enough to be on-site before secondary damage compounds the primary loss.
+A house fire leaves behind more than charred walls. Within hours of the flames being out, smoke residue is already bonding to surfaces, soot is settling into HVAC ducts, and the water used to fight the fire is working its way under subfloors. If your home or building in Renton just went through a fire, the clock matters more than most people realize. National Restoration Construction has been responding to structural fire damage in the greater Seattle area since 2004, and our Federal Way headquarters puts us roughly 15 minutes from most Renton addresses, close enough to be on-site before secondary damage compounds the primary loss.
 
 ## Our Fire Damage Restoration Process in Renton
 
-Every fire and smoke restoration job starts the same way: a thorough assessment before a single item is moved or a single surface is cleaned. Our IICRC-certified technicians document the extent of structural fire damage with photos and moisture readings, then walk you through what's salvageable and what isn't — in plain language, not contractor jargon.
+Every fire and smoke restoration job starts the same way: a thorough assessment before a single item is moved or a single surface is cleaned. Our IICRC-certified technicians document the extent of structural fire damage with photos and moisture readings, then walk you through what's salvageable and what isn't, in plain language, not contractor jargon.
 
 From there, the process typically follows this sequence:
 
-**Emergency stabilization.** Board-up and roof tarping happen the same day when the structure is exposed to the elements — a real concern in Renton's wet fall and winter months, when an unprotected roof opening can turn a fire loss into a water and mold loss within 48 hours.
+**Emergency stabilization.** Board-up and roof tarping happen the same day when the structure is exposed to the elements, a real concern in Renton's wet fall and winter months, when an unprotected roof opening can turn a fire loss into a water and mold loss within 48 hours.
 
-**Smoke and soot removal.** Smoke doesn't stay where the fire was. It travels through wall cavities, coats insulation, and leaves an oily film on surfaces rooms away from the burn origin. We use dry-chemical sponges, thermal fogging, and HEPA-filtered air scrubbers to address odor and particulate at the source — not just mask it.
+**Smoke and soot removal.** Smoke doesn't stay where the fire was. It travels through wall cavities, coats insulation, and leaves an oily film on surfaces rooms away from the burn origin. We use dry-chemical sponges, thermal fogging, and HEPA-filtered air scrubbers to address odor and particulate at the source, not just mask it.
 
 **Structural assessment and demolition.** Char depth matters. Framing that looks intact can be compromised. We remove materials that can't be restored and document everything for your insurance adjuster.
 
@@ -38,13 +38,13 @@ From there, the process typically follows this sequence:
 
 ## Why Renton Properties Face Particular Fire Risks
 
-Renton's housing stock spans a wide range of construction eras — from mid-century ramblers in the Highlands to newer townhomes near the Landing. Older homes in neighborhoods like Kennydale and Earlington often have knob-and-tube or early aluminum wiring that hasn't been fully updated, which is a recognized fire risk factor. Attached garages and close lot spacing, common in many Renton subdivisions, also mean that a contained fire can spread faster than in more rural settings.
+Renton's housing stock spans a wide range of construction eras, from mid-century ramblers in the Highlands to newer townhomes near the Landing. Older homes in neighborhoods like Kennydale and Earlington often have knob-and-tube or early aluminum wiring that hasn't been fully updated, which is a recognized fire risk factor. Attached garages and close lot spacing, common in many Renton subdivisions, also mean that a contained fire can spread faster than in more rural settings.
 
-The region's climate adds another layer. Western Washington's damp winters mean that fire-damaged structures absorb moisture quickly once exterior walls are breached. Mold colonization can begin in as little as 24–48 hours under those conditions. Getting a crew on-site fast isn't just about fire cleanup — it's about preventing the next problem before it starts.
+The region's climate adds another layer. Western Washington's damp winters mean that fire-damaged structures absorb moisture quickly once exterior walls are breached. Mold colonization can begin in as little as 24–48 hours under those conditions. Getting a crew on-site fast isn't just about fire cleanup, it's about preventing the next problem before it starts.
 
 ## How We Work With Your Insurance Company
 
-Dealing with an insurance claim after a fire is stressful on top of an already stressful situation. We've worked with virtually every major carrier that covers Renton homeowners — State Farm, Farmers, PEMCO, Allstate, and others — and we understand what adjusters need to approve a claim efficiently.
+Dealing with an insurance claim after a fire is stressful on top of an already stressful situation. We've worked with virtually every major carrier that covers Renton homeowners, State Farm, Farmers, PEMCO, Allstate, and others, and we understand what adjusters need to approve a claim efficiently.
 
 Here's how the division of work typically breaks down:
 
@@ -55,7 +55,7 @@ We don't inflate scopes and we don't cut corners to hit a low number. Our job is
 
 ## Response Times Across Renton
 
-Our Federal Way headquarters is roughly 10–15 miles from central Renton depending on traffic, which typically translates to a technician on your property within 60–90 minutes of your call during normal conditions. For addresses in South Renton near SR-167, response times are often faster. Neighborhoods further north — Kennydale, May Valley — may run closer to the 90-minute end during peak commute hours, though we dispatch around the clock.
+Our Federal Way headquarters is roughly 10–15 miles from central Renton depending on traffic, which typically translates to a technician on your property within 60–90 minutes of your call during normal conditions. For addresses in South Renton near SR-167, response times are often faster. Neighborhoods further north, Kennydale, May Valley, may run closer to the 90-minute end during peak commute hours, though we dispatch around the clock.
 
 We answer the phone 24 hours a day, every day. Fires don't happen on weekday mornings, and our response doesn't either.
 

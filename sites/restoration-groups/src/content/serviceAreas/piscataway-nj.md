@@ -19,25 +19,25 @@ state: "NJ"
 primary: false
 rendered: true
 ---
-When a pipe bursts in a Society Hill condo at 2 a.m. or a finished basement in Possumtown fills with Raritan River backflow, The Restoration Group dispatches from Kenilworth around the clock to stop the damage, dry the structure, and get the property back to pre-loss condition. We handle water damage, fire and smoke damage, mold remediation, and biohazard cleanup for homeowners, landlords, and property managers across Piscataway's ZIP codes 08854 and 08855 — and we bill insurance directly so you're not fronting the cost alone.
+When a pipe bursts in a Society Hill condo at 2 a.m. or a finished basement in Possumtown fills with Raritan River backflow, The Restoration Group dispatches from Kenilworth around the clock to stop the damage, dry the structure, and get the property back to pre-loss condition. We handle water damage, fire and smoke damage, mold remediation, and biohazard cleanup for homeowners, landlords, and property managers across Piscataway's ZIP codes 08854 and 08855, and we bill insurance directly so you're not fronting the cost alone.
 
 ## Restoration emergencies common in Piscataway
 
-Piscataway's geography sets up repeat losses in ways that aren't obvious until you've worked here. The township runs the length of the Raritan River's south bank, and the River Road corridor and the Johnson Park flatlands sit in a natural flood path. Those areas flooded during Floyd in 1999, Irene in 2011, and again badly during Ida in 2021 — riverine events that push water through foundation walls and window wells long after the rain stops. Properties along that corridor aren't just dealing with a one-time event; many have absorbed multiple flood cycles, which accelerates structural deterioration and creates conditions where mold can colonize in as little as 24 to 48 hours inside wall cavities that were never fully dried.
+Piscataway's geography sets up repeat losses in ways that aren't obvious until you've worked here. The township runs the length of the Raritan River's south bank, and the River Road corridor and the Johnson Park flatlands sit in a natural flood path. Those areas flooded during Floyd in 1999, Irene in 2011, and again badly during Ida in 2021, riverine events that push water through foundation walls and window wells long after the rain stops. Properties along that corridor aren't just dealing with a one-time event; many have absorbed multiple flood cycles, which accelerates structural deterioration and creates conditions where mold can colonize in as little as 24 to 48 hours inside wall cavities that were never fully dried.
 
-The housing stock adds its own complexity. The postwar capes and split-levels that fill neighborhoods like Arbor and New Market were built with galvanized steel supply lines and cast-iron drains that are now 60 to 70 years old. Galvanized pipe corrodes from the inside out — water pressure drops gradually until a section fails without warning, often inside a finished basement ceiling. Cast-iron drains crack and root-intrude, backing up into laundry rooms and utility areas. Society Hill's townhome and condo developments bring a different set of challenges: shared plumbing stacks mean one unit's leak becomes three units' problem, and HOA coordination is part of every job.
+The housing stock adds its own complexity. The postwar capes and split-levels that fill neighborhoods like Arbor and New Market were built with galvanized steel supply lines and cast-iron drains that are now 60 to 70 years old. Galvanized pipe corrodes from the inside out, water pressure drops gradually until a section fails without warning, often inside a finished basement ceiling. Cast-iron drains crack and root-intrude, backing up into laundry rooms and utility areas. Society Hill's townhome and condo developments bring a different set of challenges: shared plumbing stacks mean one unit's leak becomes three units' problem, and HOA coordination is part of every job.
 
-The Rutgers Livingston and Busch campuses generate a steady stream of student-housing water events — failed supply lines in older residence halls, overloaded drains, and the occasional sprinkler discharge. The Stelton commercial corridor and the warehouse and lab space along Centennial Avenue add commercial losses: overnight roof leaks discovered Monday morning, sprinkler-head strikes from forklifts, and HVAC condensate overflows into finished office space.
+The Rutgers Livingston and Busch campuses generate a steady stream of student-housing water events, failed supply lines in older residence halls, overloaded drains, and the occasional sprinkler discharge. The Stelton commercial corridor and the warehouse and lab space along Centennial Avenue add commercial losses: overnight roof leaks discovered Monday morning, sprinkler-head strikes from forklifts, and HVAC condensate overflows into finished office space.
 
 ## Services we provide in Piscataway
 
 ### Water damage restoration
 
-Water damage in Piscataway often involves saturated subfloor assemblies and insulated basement walls — materials that hold moisture invisibly for weeks. We use thermal imaging and calibrated moisture meters to map the full extent of saturation before a single panel comes off the wall, then dry to the IICRC S500 standard using commercial desiccant and refrigerant dehumidifiers and high-velocity air movers. For River Road and Johnson Park properties with repeat flood history, we document everything for NFIP and private flood carriers.
+Water damage in Piscataway often involves saturated subfloor assemblies and insulated basement walls, materials that hold moisture invisibly for weeks. We use thermal imaging and calibrated moisture meters to map the full extent of saturation before a single panel comes off the wall, then dry to the IICRC S500 standard using commercial desiccant and refrigerant dehumidifiers and high-velocity air movers. For River Road and Johnson Park properties with repeat flood history, we document everything for NFIP and private flood carriers.
 
 ### Mold remediation
 
-Mold is a predictable downstream consequence of Piscataway's flood history and aging housing stock. We contain affected areas, remove colonized materials, and treat surfaces per EPA guidelines — without making medical claims about air quality outcomes. Post-remediation clearance testing is available through a third-party industrial hygienist if your insurer or HOA requires it.
+Mold is a predictable downstream consequence of Piscataway's flood history and aging housing stock. We contain affected areas, remove colonized materials, and treat surfaces per EPA guidelines, without making medical claims about air quality outcomes. Post-remediation clearance testing is available through a third-party industrial hygienist if your insurer or HOA requires it.
 
 ### Fire and smoke damage restoration
 
@@ -49,7 +49,7 @@ For property managers overseeing Stelton corridor retail, lab, or warehouse spac
 
 ## Coverage and how fast we can get there
 
-From our Kenilworth headquarters, Piscataway is roughly 25 miles via the Garden State Parkway south to Route 1, or through the US-9 and Route 27 corridor depending on traffic. We cover all of Piscataway's neighborhoods — Arbor, Possumtown, Stelton, New Market, Society Hill, and the River Road corridor — as well as the Rutgers campus zones on the Livingston and Busch sides of the township. Because we operate 24/7, a call at any hour goes to a live dispatcher who can confirm crew availability and get a team moving without waiting for a callback window.
+From our Kenilworth headquarters, Piscataway is roughly 25 miles via the Garden State Parkway south to Route 1, or through the US-9 and Route 27 corridor depending on traffic. We cover all of Piscataway's neighborhoods, Arbor, Possumtown, Stelton, New Market, Society Hill, and the River Road corridor, as well as the Rutgers campus zones on the Livingston and Busch sides of the township. Because we operate 24/7, a call at any hour goes to a live dispatcher who can confirm crew availability and get a team moving without waiting for a callback window.
 
 ## Building stock, site conditions, and permits in Piscataway
 
@@ -57,4 +57,4 @@ Most of the township's older tracts sit on full basements with concrete block or
 
 Soils near the Raritan are alluvial sand and silt with a high seasonal water table, so basements take hydrostatic pressure long after the river drops. Structural repair and rebuild permits run through Piscataway's construction office under the New Jersey Uniform Construction Code, and work in the mapped floodplain brings additional elevation and substantial-improvement review.
 
-If your Piscataway property is dealing with water, fire, mold, or any other restoration emergency, call The Restoration Group at **(855) 650-7422** — any time, day or night. We'll walk you through next steps on the phone and get a crew to you as quickly as road conditions allow.
+If your Piscataway property is dealing with water, fire, mold, or any other restoration emergency, call The Restoration Group at **(855) 650-7422**, any time, day or night. We'll walk you through next steps on the phone and get a crew to you as quickly as road conditions allow.

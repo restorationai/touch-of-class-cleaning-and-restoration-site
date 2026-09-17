@@ -19,19 +19,19 @@ state: "CA"
 primary: false
 rendered: true
 ---
-RT Olson Plumbing, Heating and Air Conditioning dispatches licensed plumbers and HVAC technicians to Santa Ana around the clock — handling emergency plumbing failures, drain cleaning, water heater replacement, leak detection, and heating and cooling repair for homeowners and property managers throughout the city. Operating 24/7 out of our Corona headquarters, we're close enough to reach Santa Ana quickly via the 91 and 55 corridors whenever a pipe bursts or a furnace quits.
+RT Olson Plumbing, Heating and Air Conditioning dispatches licensed plumbers and HVAC technicians to Santa Ana around the clock, handling emergency plumbing failures, drain cleaning, water heater replacement, leak detection, and heating and cooling repair for homeowners and property managers throughout the city. Operating 24/7 out of our Corona headquarters, we're close enough to reach Santa Ana quickly via the 91 and 55 corridors whenever a pipe bursts or a furnace quits.
 
 ## Restoration emergencies common in Santa Ana
 
-Santa Ana's housing stock and climate create a specific set of conditions that drive plumbing and HVAC calls. The city sits in a basin that channels Santa Ana winds — the same dry, fast-moving offshore gusts that stress roofing, dry out HVAC systems, and push wildfire smoke into return-air ducts. When those winds give way to winter rain events, flat or low-slope roofs on mid-century commercial buildings and older residential properties can take on water quickly, and clay-heavy soils in parts of Orange County slow drainage and keep moisture against foundations longer than sandy ground would.
+Santa Ana's housing stock and climate create a specific set of conditions that drive plumbing and HVAC calls. The city sits in a basin that channels Santa Ana winds, the same dry, fast-moving offshore gusts that stress roofing, dry out HVAC systems, and push wildfire smoke into return-air ducts. When those winds give way to winter rain events, flat or low-slope roofs on mid-century commercial buildings and older residential properties can take on water quickly, and clay-heavy soils in parts of Orange County slow drainage and keep moisture against foundations longer than sandy ground would.
 
-The city's older neighborhoods carry aging infrastructure: galvanized steel supply lines that have been corroding since the 1950s and 1960s, cast-iron drain stacks that crack under root intrusion, and water heaters long past their service life. Slab-on-grade construction — the dominant foundation type across much of Santa Ana — means a slab leak can go undetected for weeks, silently saturating the concrete and the flooring above it before a warm spot underfoot or a climbing water bill gives it away. Summer heat regularly pushes air conditioning systems to failure right when homeowners need them most.
+The city's older neighborhoods carry aging infrastructure: galvanized steel supply lines that have been corroding since the 1950s and 1960s, cast-iron drain stacks that crack under root intrusion, and water heaters long past their service life. Slab-on-grade construction, the dominant foundation type across much of Santa Ana, means a slab leak can go undetected for weeks, silently saturating the concrete and the flooring above it before a warm spot underfoot or a climbing water bill gives it away. Summer heat regularly pushes air conditioning systems to failure right when homeowners need them most.
 
 ## Services we provide in Santa Ana
 
 ### Emergency plumbing
 
-Burst pipes, failed shutoff valves, and sewage backups don't wait for business hours. Because Santa Ana's older residential areas include homes with galvanized supply lines that can fail suddenly — especially during the pressure swings that follow a main-break repair by the city — we respond to plumbing emergencies at any hour. We locate the source, stop the loss, and make the repair.
+Burst pipes, failed shutoff valves, and sewage backups don't wait for business hours. Because Santa Ana's older residential areas include homes with galvanized supply lines that can fail suddenly, especially during the pressure swings that follow a main-break repair by the city, we respond to plumbing emergencies at any hour. We locate the source, stop the loss, and make the repair.
 
 ### Drain cleaning and sewer service
 
@@ -39,7 +39,7 @@ Tree roots are a persistent problem in Santa Ana's established neighborhoods, wh
 
 ### Water heater repair and replacement
 
-Hard water from the Metropolitan Water District of Southern California accelerates sediment buildup inside tank-style water heaters — that rumbling sound during a heating cycle is mineral scale, and it shortens the unit's life. We service, flush, and replace both tank and tankless water heaters, and we can advise on whether a tankless upgrade makes sense for your household's hot-water demand.
+Hard water from the Metropolitan Water District of Southern California accelerates sediment buildup inside tank-style water heaters, that rumbling sound during a heating cycle is mineral scale, and it shortens the unit's life. We service, flush, and replace both tank and tankless water heaters, and we can advise on whether a tankless upgrade makes sense for your household's hot-water demand.
 
 ### Leak detection
 
@@ -47,18 +47,18 @@ Slab leaks are common in Santa Ana's post-war housing stock, where copper lines 
 
 ### Heating and air conditioning
 
-Santa Ana's warm climate means air conditioning runs hard from late spring through October. When a compressor fails or refrigerant runs low, we diagnose and repair the system — and when the Santa Ana winds arrive and overnight temperatures drop, a furnace that hasn't been serviced since last winter can leave a family cold by morning. We handle both sides of the system, year-round.
+Santa Ana's warm climate means air conditioning runs hard from late spring through October. When a compressor fails or refrigerant runs low, we diagnose and repair the system, and when the Santa Ana winds arrive and overnight temperatures drop, a furnace that hasn't been serviced since last winter can leave a family cold by morning. We handle both sides of the system, year-round.
 
 ## Coverage and how fast we can get there
 
-From our Corona headquarters, Santa Ana is roughly 20 to 25 miles west via the 91 Freeway to the 55 — a straightforward run that keeps our technicians moving without the longer hauls that some inland contractors face. We serve the full city, including neighborhoods near the Civic Center, the areas around MainPlace Mall, and residential streets closer to the Santa Ana River corridor. Because we dispatch 24/7, we're reachable whenever the problem surfaces — call (951) 344-5596 and a dispatcher will route the nearest available technician.
+From our Corona headquarters, Santa Ana is roughly 20 to 25 miles west via the 91 Freeway to the 55, a straightforward run that keeps our technicians moving without the longer hauls that some inland contractors face. We serve the full city, including neighborhoods near the Civic Center, the areas around MainPlace Mall, and residential streets closer to the Santa Ana River corridor. Because we dispatch 24/7, we're reachable whenever the problem surfaces, call (951) 344-5596 and a dispatcher will route the nearest available technician.
 
 ## Building stock, site conditions, and permits in Santa Ana
 
 Most of Santa Ana's residential housing was built between the 1940s and the 1970s, with slab-on-grade foundations being the norm rather than the exception. Walls from that era frequently used plaster over wood lath, which holds moisture differently than modern drywall and can stay saturated well beneath a surface that feels dry to the touch. Galvanized steel supply lines and cast-iron drain lines are common in homes of this vintage; galvanized pipe corrodes from the inside out, restricting flow before it fails outright.
 
-Orange County's soils vary, but expansive clay is present in portions of the Santa Ana basin, and it exerts lateral pressure on slab edges and foundation walls when it cycles between wet and dry — a pattern that accelerates joint separation in older drain lines. Lead-based paint and asbestos-containing materials are plausible in homes built before 1978 and 1981 respectively, and any scope that disturbs those materials requires proper handling.
+Orange County's soils vary, but expansive clay is present in portions of the Santa Ana basin, and it exerts lateral pressure on slab edges and foundation walls when it cycles between wet and dry, a pattern that accelerates joint separation in older drain lines. Lead-based paint and asbestos-containing materials are plausible in homes built before 1978 and 1981 respectively, and any scope that disturbs those materials requires proper handling.
 
-Permits for plumbing and mechanical work in Santa Ana are issued by the City of Santa Ana Building Division. Water heater replacements, slab penetrations, and gas line alterations all typically require a permit and inspection. California is a seismic design state, and Santa Ana falls within the broader Southern California seismic zone — a factor that informs how gas lines and water heaters are strapped and supported under current code.
+Permits for plumbing and mechanical work in Santa Ana are issued by the City of Santa Ana Building Division. Water heater replacements, slab penetrations, and gas line alterations all typically require a permit and inspection. California is a seismic design state, and Santa Ana falls within the broader Southern California seismic zone, a factor that informs how gas lines and water heaters are strapped and supported under current code.
 
-When a problem arises with your plumbing, heating, or air conditioning in Santa Ana, the right move is a call to a licensed contractor who can respond promptly, pull the correct permits, and get the work inspected. Call RT Olson Plumbing, Heating and Air Conditioning at (951) 344-5596 — we're available around the clock and ready to help.
+When a problem arises with your plumbing, heating, or air conditioning in Santa Ana, the right move is a call to a licensed contractor who can respond promptly, pull the correct permits, and get the work inspected. Call RT Olson Plumbing, Heating and Air Conditioning at (951) 344-5596, we're available around the clock and ready to help.

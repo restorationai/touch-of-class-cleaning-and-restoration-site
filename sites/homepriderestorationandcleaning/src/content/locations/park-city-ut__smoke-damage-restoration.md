@@ -20,44 +20,44 @@ state: "UT"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
-At 7,000 feet, Park City's thin, dry air does something most homeowners don't expect after a fire: smoke odor penetrates deeper and faster than it would at lower elevations. Lower atmospheric pressure means porous materials — ski lodge–style tongue-and-groove pine ceilings, exposed timber beams, the rough-sawn wood paneling common in older Deer Valley–area cabins — absorb smoke particles before the air even has a chance to clear. If you're dealing with smoke damage in a Park City home right now, the clock is already running.
+At 7,000 feet, Park City's thin, dry air does something most homeowners don't expect after a fire: smoke odor penetrates deeper and faster than it would at lower elevations. Lower atmospheric pressure means porous materials, ski lodge–style tongue-and-groove pine ceilings, exposed timber beams, the rough-sawn wood paneling common in older Deer Valley–area cabins, absorb smoke particles before the air even has a chance to clear. If you're dealing with smoke damage in a Park City home right now, the clock is already running.
 
 ## Why Park City Properties Are Especially Vulnerable to Smoke Damage
 
-Park City's housing stock is unlike most of Utah. The area's building boom in the 1970s and 1980s produced a generation of A-frame chalets and log-accented ski condos with heavy use of natural wood — materials that are visually stunning and notoriously difficult to deodorize after smoke exposure. Soot doesn't just sit on the surface; it migrates into the grain.
+Park City's housing stock is unlike most of Utah. The area's building boom in the 1970s and 1980s produced a generation of A-frame chalets and log-accented ski condos with heavy use of natural wood, materials that are visually stunning and notoriously difficult to deodorize after smoke exposure. Soot doesn't just sit on the surface; it migrates into the grain.
 
-Wildfire smoke is a separate and growing concern. Summit County's position in the Wasatch Range means that during red-flag fire weather, smoke from fires burning as far away as Nevada and Idaho settles into the valley inversions that Park City experiences every summer and fall. Even homes with no fire on the property can end up with fine-particle smoke residue coating HVAC filters, infiltrating ductwork, and leaving a persistent haze on light-colored surfaces. This type of wildfire smoke cleanup requires different chemistry than post-structure-fire restoration — the particles are finer and the odor compounds are different.
+Wildfire smoke is a separate and growing concern. Summit County's position in the Wasatch Range means that during red-flag fire weather, smoke from fires burning as far away as Nevada and Idaho settles into the valley inversions that Park City experiences every summer and fall. Even homes with no fire on the property can end up with fine-particle smoke residue coating HVAC filters, infiltrating ductwork, and leaving a persistent haze on light-colored surfaces. This type of wildfire smoke cleanup requires different chemistry than post-structure-fire restoration, the particles are finer and the odor compounds are different.
 
 Older properties in the historic Old Town district add another layer of complexity. Many of these homes were built in the late 1800s during the silver mining era and have been renovated multiple times. Layers of old paint, horsehair plaster, and original fir flooring all respond differently to smoke and to the cleaning agents used to remove it.
 
 ## Our Smoke Damage Restoration Process in Park City
 
-The first thing a crew does on arrival is assess what burned and what didn't. Smoke residue from burning synthetics — foam insulation, carpet padding, modern cabinetry — is oily and smears if cleaned incorrectly. Residue from burning wood or paper is dry and powdery. Getting that chemistry wrong early means re-cleaning the same surfaces twice.
+The first thing a crew does on arrival is assess what burned and what didn't. Smoke residue from burning synthetics, foam insulation, carpet padding, modern cabinetry, is oily and smears if cleaned incorrectly. Residue from burning wood or paper is dry and powdery. Getting that chemistry wrong early means re-cleaning the same surfaces twice.
 
 From there, the process moves in a deliberate sequence:
 
-1. **Containment and ventilation** — sealing off unaffected areas and introducing negative air pressure so soot-laden air moves out rather than spreading through the home.
-2. **Dry soot removal** — HEPA-filtered vacuuming of ceilings, walls, and surfaces before any wet cleaning begins. Skipping this step grinds soot into porous materials.
-3. **Chemical cleaning** — alkaline cleaners for protein-based smoke, dry-cleaning sponges for dry soot, and hydroxyl or thermal fogging for embedded odor compounds in wood and fabric.
-4. **HVAC and ductwork inspection** — smoke travels through forced-air systems within minutes of a fire. Every duct register gets checked; contaminated ductwork gets cleaned or sealed before the system runs again.
-5. **Final air quality verification** — confirming that particulate levels are back within safe ranges before the home is re-occupied.
+1. **Containment and ventilation**, sealing off unaffected areas and introducing negative air pressure so soot-laden air moves out rather than spreading through the home.
+2. **Dry soot removal**, HEPA-filtered vacuuming of ceilings, walls, and surfaces before any wet cleaning begins. Skipping this step grinds soot into porous materials.
+3. **Chemical cleaning**, alkaline cleaners for protein-based smoke, dry-cleaning sponges for dry soot, and hydroxyl or thermal fogging for embedded odor compounds in wood and fabric.
+4. **HVAC and ductwork inspection**, smoke travels through forced-air systems within minutes of a fire. Every duct register gets checked; contaminated ductwork gets cleaned or sealed before the system runs again.
+5. **Final air quality verification**, confirming that particulate levels are back within safe ranges before the home is re-occupied.
 
-For Park City's high-altitude, low-humidity environment, drying times after any wet cleaning phase are faster than at lower elevations — but that same low humidity means smoke odor compounds off-gas more readily into the air, which can actually speed up the hydroxyl treatment phase.
+For Park City's high-altitude, low-humidity environment, drying times after any wet cleaning phase are faster than at lower elevations, but that same low humidity means smoke odor compounds off-gas more readily into the air, which can actually speed up the hydroxyl treatment phase.
 
 ## Response Time to Park City from Our Saratoga Springs Base
 
-Home Pride Restoration and Cleaning operates out of Saratoga Springs, roughly 35–40 miles from Park City via I-80. Under normal conditions, that's a 40-to-50-minute drive. During winter months, when Parley's Canyon can slow to a crawl after a storm, response time to the 84060 ZIP code area can extend to 60–75 minutes — we're transparent about that. For properties closer to the I-80 corridor, the drive is shorter; for homes up in the Deer Valley Resort area or on the upper canyon roads, add 10–15 minutes for the final approach.
+Home Pride Restoration and Cleaning operates out of Saratoga Springs, roughly 35–40 miles from Park City via I-80. Under normal conditions, that's a 40-to-50-minute drive. During winter months, when Parley's Canyon can slow to a crawl after a storm, response time to the 84060 ZIP code area can extend to 60–75 minutes, we're transparent about that. For properties closer to the I-80 corridor, the drive is shorter; for homes up in the Deer Valley Resort area or on the upper canyon roads, add 10–15 minutes for the final approach.
 
 When you call (801) 995-2437, the dispatcher will give you an honest ETA based on current road conditions, not a best-case estimate.
 
 ## Park City Insurance and HOA Coordination
 
-Many Park City properties sit within HOA-governed communities — ski condos, resort-adjacent townhomes, and planned developments all come with their own rules about contractor access, noise hours, and debris removal. Home Pride carries full licensing (RC-25-0737) and general liability coverage, which most Park City HOAs require before a contractor can begin work. We're accustomed to pulling the right paperwork before showing up, not after.
+Many Park City properties sit within HOA-governed communities, ski condos, resort-adjacent townhomes, and planned developments all come with their own rules about contractor access, noise hours, and debris removal. Home Pride carries full licensing (RC-25-0737) and general liability coverage, which most Park City HOAs require before a contractor can begin work. We're accustomed to pulling the right paperwork before showing up, not after.
 
-On the insurance side, Summit County claims adjusters are familiar with the elevated cost of restoration work in a resort market. We document everything — photo logs, moisture readings, scope of work — in a format that supports your claim rather than complicating it.
+On the insurance side, Summit County claims adjusters are familiar with the elevated cost of restoration work in a resort market. We document everything, photo logs, moisture readings, scope of work, in a format that supports your claim rather than complicating it.
 
 ## Local Note
 
-One thing that catches out-of-area contractors working in Old Town Park City: the historic district's design review guidelines can affect what materials are used to replace smoke-damaged exterior elements. If a fire or smoke event damages original wood siding, trim, or windows on a contributing structure, replacement materials may need to match the historic character of the building — which affects both the scope of work and the insurance replacement cost estimate. We flag this early in the assessment so there are no surprises when the adjuster and the city's historic preservation office both weigh in.
+One thing that catches out-of-area contractors working in Old Town Park City: the historic district's design review guidelines can affect what materials are used to replace smoke-damaged exterior elements. If a fire or smoke event damages original wood siding, trim, or windows on a contributing structure, replacement materials may need to match the historic character of the building, which affects both the scope of work and the insurance replacement cost estimate. We flag this early in the assessment so there are no surprises when the adjuster and the city's historic preservation office both weigh in.
 
-Smoke damage in Park City moves fast, and so does the window for limiting permanent staining and odor absorption. Call (801) 995-2437 as soon as it's safe to do so — the sooner the dry soot comes off the walls, the less chemistry it takes to get your home back to the way it was.
+Smoke damage in Park City moves fast, and so does the window for limiting permanent staining and odor absorption. Call (801) 995-2437 as soon as it's safe to do so, the sooner the dry soot comes off the walls, the less chemistry it takes to get your home back to the way it was.

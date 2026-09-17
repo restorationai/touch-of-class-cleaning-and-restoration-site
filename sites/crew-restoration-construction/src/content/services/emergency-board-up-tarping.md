@@ -17,43 +17,43 @@ service_slug: "emergency-board-up-tarping"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
-A broken window at 2 a.m., a roof torn open by a hailstorm, a door frame blown out by a fire hose — the damage itself is only the beginning. Every hour that opening stays exposed, wind, rain, and opportunistic theft compound the loss. Emergency board-up and tarping is the work that stops the clock on that compounding: sealing the structure so the damage that already happened doesn't grow into something far more expensive.
+A broken window at 2 a.m., a roof torn open by a hailstorm, a door frame blown out by a fire hose, the damage itself is only the beginning. Every hour that opening stays exposed, wind, rain, and opportunistic theft compound the loss. Emergency board-up and tarping is the work that stops the clock on that compounding: sealing the structure so the damage that already happened doesn't grow into something far more expensive.
 
 ## What emergency board-up and tarping actually involves
 
 Board-up and tarping is not just nailing plywood over a hole. Done properly, it is a measured, documented process that protects the structure, satisfies your insurance carrier's duty-to-mitigate requirements, and holds up against South Dakota wind loads that can exceed 70 mph during spring and fall storm systems.
 
-For **window and door board-up**, crews use minimum ⅝" OSB or plywood, cut to overlap the frame by at least two inches on each side and fastened into structural framing — not just drywall or trim. For **fire damage board-up**, that often means working around compromised framing and load-bearing walls that may have lost integrity, requiring temporary shoring before any panel goes up.
+For **window and door board-up**, crews use minimum ⅝" OSB or plywood, cut to overlap the frame by at least two inches on each side and fastened into structural framing, not just drywall or trim. For **fire damage board-up**, that often means working around compromised framing and load-bearing walls that may have lost integrity, requiring temporary shoring before any panel goes up.
 
-**Roof tarping** involves heavy-duty polyethylene tarps (typically 6-mil or heavier for anything expected to last more than 48 hours), secured with lumber battens screwed into the decking — not sandbags or bungee cords, which fail in the first real wind gust. The tarp must extend over the ridge line and wrap down far enough that wind-driven rain cannot wick underneath.
+**Roof tarping** involves heavy-duty polyethylene tarps (typically 6-mil or heavier for anything expected to last more than 48 hours), secured with lumber battens screwed into the decking, not sandbags or bungee cords, which fail in the first real wind gust. The tarp must extend over the ridge line and wrap down far enough that wind-driven rain cannot wick underneath.
 
-A full board-up response on a typical single-family home — two broken windows, a compromised entry door, and a partial roof opening — generally runs two to four hours on-site.
+A full board-up response on a typical single-family home, two broken windows, a compromised entry door, and a partial roof opening, generally runs two to four hours on-site.
 
 ## Our process
 
 1. **Site assessment and hazard identification.** Before any material goes up, the crew walks the structure to identify active hazards: unstable walls, live electrical near water intrusion, broken glass paths, or fire-weakened floor sections. This step determines sequencing and whether any temporary shoring is needed before boarding.
 
-2. **Photographic documentation of all openings.** Every breach is photographed before it is covered — the size, location, cause, and pre-existing condition of the surrounding material. These images become part of the insurance claim file and establish the scope of the loss at the time of service.
+2. **Photographic documentation of all openings.** Every breach is photographed before it is covered, the size, location, cause, and pre-existing condition of the surrounding material. These images become part of the insurance claim file and establish the scope of the loss at the time of service.
 
 3. **Material cutting and fitting.** Panels are measured and cut to fit each opening individually. Prefabricated or undersized panels leave gaps at the edges that allow water infiltration and do not meet most carrier documentation standards.
 
-4. **Fastening to structural members.** Panels are secured into studs, headers, or rafters — not surface-mounted to trim or siding. For roof tarps, battens are screwed through the tarp into the roof decking at intervals no greater than 18 inches to resist uplift.
+4. **Fastening to structural members.** Panels are secured into studs, headers, or rafters, not surface-mounted to trim or siding. For roof tarps, battens are screwed through the tarp into the roof decking at intervals no greater than 18 inches to resist uplift.
 
 5. **Final walk and written scope delivery.** Once the structure is secured, the crew documents the completed work with photos, notes materials used, and provides a written scope of work. That document goes directly to your insurance adjuster.
 
 ## What separates a good board-up response from a bad one
 
-The most common failure point is **undersized or improperly anchored tarps**. A tarp that is not lapped over the ridge, or that is held down with weight rather than mechanical fasteners, typically fails within the first 24–48 hours of wind. When it fails, the interior damage that follows — soaked insulation, swelling OSB decking, mold colonization that can begin within 48–72 hours of sustained moisture — often exceeds the original loss.
+The most common failure point is **undersized or improperly anchored tarps**. A tarp that is not lapped over the ridge, or that is held down with weight rather than mechanical fasteners, typically fails within the first 24–48 hours of wind. When it fails, the interior damage that follows, soaked insulation, swelling OSB decking, mold colonization that can begin within 48–72 hours of sustained moisture, often exceeds the original loss.
 
 The second common problem is **missing pre-coverage documentation**. Insurance adjusters need to see the condition of the opening before it was sealed. Crews that skip this step create disputes about what damage was pre-existing versus caused by the event, which can delay or reduce claim payments.
 
-For **fire damage board-up** specifically, less-experienced crews sometimes board openings before smoke odor and soot migration is addressed, sealing contaminated air inside the structure. The right sequence is to ventilate the space, then board — not the reverse.
+For **fire damage board-up** specifically, less-experienced crews sometimes board openings before smoke odor and soot migration is addressed, sealing contaminated air inside the structure. The right sequence is to ventilate the space, then board, not the reverse.
 
 Adjusters also look for evidence that fasteners penetrated structural members. Surface-mounted panels are often flagged as inadequate temporary protection, which can affect coverage for subsequent water intrusion.
 
 ## What does emergency board-up and tarping cost?
 
-Typical costs run from a few hundred dollars for a single broken window board-up to several thousand for a multi-opening fire loss or large roof section. Most homeowners pay somewhere in the middle — the table below reflects industry-typical ranges based on scope, not a quote from Crew Restoration & Construction.
+Typical costs run from a few hundred dollars for a single broken window board-up to several thousand for a multi-opening fire loss or large roof section. Most homeowners pay somewhere in the middle, the table below reflects industry-typical ranges based on scope, not a quote from Crew Restoration & Construction.
 
 | Scenario | Typical industry range |
 |---|---|
@@ -64,14 +64,14 @@ Typical costs run from a few hundred dollars for a single broken window board-up
 | Full fire damage board-up (multiple openings + roof) | $1,500 – $4,500 |
 | Commercial or multi-story structure | $2,500 – $8,000+ |
 
-Every loss is different, and Crew Restoration & Construction provides a written scope before work begins so there are no surprises. Homeowners insurance typically covers emergency board-up and tarping as part of the covered peril claim — it falls under the duty-to-mitigate provision — though deductibles and policy limits apply.
+Every loss is different, and Crew Restoration & Construction provides a written scope before work begins so there are no surprises. Homeowners insurance typically covers emergency board-up and tarping as part of the covered peril claim, it falls under the duty-to-mitigate provision, though deductibles and policy limits apply.
 
 ## Seasonal and regional considerations
 
-Sioux Falls sits in a corridor that sees some of the most variable severe weather in the country. Spring hailstorms can strip shingles and punch through skylights in minutes; late-fall straight-line wind events regularly top 60 mph across Minnehaha and Lincoln counties. The freeze-thaw window between October and April adds urgency to any roof opening — water that enters a structure and then freezes expands into framing cavities, accelerating rot and pushing insurance losses significantly higher. A tarp installed correctly in October can prevent thousands of dollars in freeze damage before a permanent repair is possible.
+Sioux Falls sits in a corridor that sees some of the most variable severe weather in the country. Spring hailstorms can strip shingles and punch through skylights in minutes; late-fall straight-line wind events regularly top 60 mph across Minnehaha and Lincoln counties. The freeze-thaw window between October and April adds urgency to any roof opening, water that enters a structure and then freezes expands into framing cavities, accelerating rot and pushing insurance losses significantly higher. A tarp installed correctly in October can prevent thousands of dollars in freeze damage before a permanent repair is possible.
 
 ## Service area
 
-Crew Restoration & Construction serves Sioux Falls and the surrounding region, including Brandon, Tea, Harrisburg, Dell Rapids, Lennox, and Canton. Each of those communities has its own mix of housing stock and storm exposure — the service-area pages linked throughout this site go deeper on what to expect locally.
+Crew Restoration & Construction serves Sioux Falls and the surrounding region, including Brandon, Tea, Harrisburg, Dell Rapids, Lennox, and Canton. Each of those communities has its own mix of housing stock and storm exposure, the service-area pages linked throughout this site go deeper on what to expect locally.
 
 If your structure has an open breach right now, call **(605) 965-2727** to get a crew dispatched and your opening documented before the next weather system moves through.

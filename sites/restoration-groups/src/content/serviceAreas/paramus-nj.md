@@ -19,23 +19,23 @@ state: "NJ"
 primary: false
 rendered: true
 ---
-When a pipe bursts in a West Paramus split-level at 2 a.m. or a sprinkler discharge soaks a retail tenant near Garden State Plaza on a Sunday, The Restoration Group dispatches from Kenilworth around the clock — arriving with drying equipment, moisture meters, and a documented scope ready for your insurance adjuster. We handle water damage, fire and smoke damage, mold remediation, and reconstruction for homeowners, landlords, and commercial property managers across Paramus's 07652 and 07653 ZIP codes.
+When a pipe bursts in a West Paramus split-level at 2 a.m. or a sprinkler discharge soaks a retail tenant near Garden State Plaza on a Sunday, The Restoration Group dispatches from Kenilworth around the clock, arriving with drying equipment, moisture meters, and a documented scope ready for your insurance adjuster. We handle water damage, fire and smoke damage, mold remediation, and reconstruction for homeowners, landlords, and commercial property managers across Paramus's 07652 and 07653 ZIP codes.
 
 ## Restoration emergencies common in Paramus
 
-Paramus was largely built out in the 1950s and 1960s, and that housing stock tells a consistent story. Ranch homes, split-levels, and colonials — many on slab foundations or with finished basements — sit on streets throughout East Paramus, Arcola, and Farview. The galvanized supply lines and cast-iron drain stacks installed in those decades are now well past their service life, and pinhole leaks or full-pipe failures in finished walls are a routine call for us.
+Paramus was largely built out in the 1950s and 1960s, and that housing stock tells a consistent story. Ranch homes, split-levels, and colonials, many on slab foundations or with finished basements, sit on streets throughout East Paramus, Arcola, and Farview. The galvanized supply lines and cast-iron drain stacks installed in those decades are now well past their service life, and pinhole leaks or full-pipe failures in finished walls are a routine call for us.
 
-The Saddle River corridor adds a second layer of risk. Low-lying streets near Van Saun County Park back up during heavy rain events, and Tropical Storm Ida in 2021 drove basement flooding across Bergen County at a scale that caught many homeowners off guard — including dozens of properties in Spring Valley and along the borough's eastern edge. Even moderate storms can push groundwater into slab cracks or overwhelm sump systems that were never designed for that volume.
+The Saddle River corridor adds a second layer of risk. Low-lying streets near Van Saun County Park back up during heavy rain events, and Tropical Storm Ida in 2021 drove basement flooding across Bergen County at a scale that caught many homeowners off guard, including dozens of properties in Spring Valley and along the borough's eastern edge. Even moderate storms can push groundwater into slab cracks or overwhelm sump systems that were never designed for that volume.
 
-On the commercial side, the Route 17 retail corridor and the properties anchored by Paramus Park Mall generate a different category of loss: overnight sprinkler activations, roof membrane failures that saturate drop ceilings and inventory, and HVAC condensate overflows that go unnoticed until Monday morning. These jobs move fast — tenant leases, insurance deadlines, and reopening pressure all compress the timeline.
+On the commercial side, the Route 17 retail corridor and the properties anchored by Paramus Park Mall generate a different category of loss: overnight sprinkler activations, roof membrane failures that saturate drop ceilings and inventory, and HVAC condensate overflows that go unnoticed until Monday morning. These jobs move fast, tenant leases, insurance deadlines, and reopening pressure all compress the timeline.
 
 ## Services we provide in Paramus
 
-**Water damage restoration** is the most common call we receive from Paramus. In the postwar ranches and split-levels of West Paramus and Arcola, water typically migrates under hardwood floors and into wall cavities before it's visible. We use thermal imaging and penetrating moisture meters to map the full extent, then dry to the IICRC S500 standard — not just until surfaces feel dry to the touch.
+**Water damage restoration** is the most common call we receive from Paramus. In the postwar ranches and split-levels of West Paramus and Arcola, water typically migrates under hardwood floors and into wall cavities before it's visible. We use thermal imaging and penetrating moisture meters to map the full extent, then dry to the IICRC S500 standard, not just until surfaces feel dry to the touch.
 
 **Mold remediation** follows closely behind. Bergen County's humidity and the frequency of slow, undetected leaks in older plumbing mean that mold can begin colonizing within 24 to 48 hours of a moisture event. We contain affected areas, remove compromised material, and apply EPA-registered antimicrobials. We do not offer medical advice on health effects, but we do provide clearance documentation that satisfies most insurance carriers and real estate transactions.
 
-**Fire and smoke damage restoration** in Paramus often involves the odor and residue that travel far beyond the room of origin — smoke moves through HVAC systems and settles into the porous surfaces common in mid-century construction. We clean structural materials, contents, and ductwork, and we document everything photographically for your claim.
+**Fire and smoke damage restoration** in Paramus often involves the odor and residue that travel far beyond the room of origin, smoke moves through HVAC systems and settles into the porous surfaces common in mid-century construction. We clean structural materials, contents, and ductwork, and we document everything photographically for your claim.
 
 **Commercial water and property losses** at retail and office properties along Route 4 and Route 17 require a different response cadence. We work around tenant hours, coordinate with property managers and building engineers, and produce the loss documentation that carriers and mall operators require.
 
@@ -43,7 +43,7 @@ On the commercial side, the Route 17 retail corridor and the properties anchored
 
 ## Coverage and how fast we can get there
 
-Kenilworth sits roughly 18 to 20 miles from Paramus via the Garden State Parkway to Route 17 or I-287 to Route 4 — a straightforward run under most conditions. We are available 24 hours a day, seven days a week, and dispatch on emergency calls at any hour. Neighborhoods like Farview and East Paramus near the borough's eastern boundary are typically the quickest to reach from that corridor; West Paramus and the streets near Bergen Community College add a few minutes depending on traffic on Route 17. When you call (855) 650-7422, we give you a realistic arrival estimate based on current conditions — not a marketing promise.
+Kenilworth sits roughly 18 to 20 miles from Paramus via the Garden State Parkway to Route 17 or I-287 to Route 4, a straightforward run under most conditions. We are available 24 hours a day, seven days a week, and dispatch on emergency calls at any hour. Neighborhoods like Farview and East Paramus near the borough's eastern boundary are typically the quickest to reach from that corridor; West Paramus and the streets near Bergen Community College add a few minutes depending on traffic on Route 17. When you call (855) 650-7422, we give you a realistic arrival estimate based on current conditions, not a marketing promise.
 
 ## Building stock, site conditions, and permits in Paramus
 
@@ -53,4 +53,4 @@ Northeastern Bergen County sits on glacial till and silty soils over shale bedro
 
 Construction permits for structural repair or rebuild come from the Paramus building department under the New Jersey Uniform Construction Code, with added floodplain review near the Saddle River.
 
-If you are dealing with a loss in Paramus — whether it happened overnight or has been quietly worsening for weeks — call The Restoration Group at **(855) 650-7422**. We will walk you through next steps, help you understand what your insurance policy likely covers, and get someone on-site as quickly as the route allows.
+If you are dealing with a loss in Paramus, whether it happened overnight or has been quietly worsening for weeks, call The Restoration Group at **(855) 650-7422**. We will walk you through next steps, help you understand what your insurance policy likely covers, and get someone on-site as quickly as the route allows.

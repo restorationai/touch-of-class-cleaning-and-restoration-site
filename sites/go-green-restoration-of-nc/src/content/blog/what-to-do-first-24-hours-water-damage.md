@@ -17,16 +17,16 @@ published_at: "2026-07-25"
 services: ["water-damage-restoration"]
 rendered: true
 ---
-If water is actively flooding your home right now, start here: **shut off the main water supply valve** (usually near the water meter or where the main line enters the house), cut power to any affected rooms at the breaker box, and move out of standing water. The decisions you make in the next 24 hours will determine how much of your home can be saved — and how large your repair bill grows. Mold can begin colonizing wet materials in as little as 24 to 48 hours. Structural wood starts to swell and warp within hours of saturation. Time is the variable you can actually control.
+If water is actively flooding your home right now, start here: **shut off the main water supply valve** (usually near the water meter or where the main line enters the house), cut power to any affected rooms at the breaker box, and move out of standing water. The decisions you make in the next 24 hours will determine how much of your home can be saved, and how large your repair bill grows. Mold can begin colonizing wet materials in as little as 24 to 48 hours. Structural wood starts to swell and warp within hours of saturation. Time is the variable you can actually control.
 
 ## Step One: Stop the Source and Make It Safe
 
-Before you touch anything else, confirm the water has stopped entering the space. A burst pipe behind a wall will keep feeding moisture into your framing and insulation even after the visible puddle stops growing. If you can hear water running but can't locate it, shut off the main valve — don't try to isolate just the affected fixture while water is actively moving.
+Before you touch anything else, confirm the water has stopped entering the space. A burst pipe behind a wall will keep feeding moisture into your framing and insulation even after the visible puddle stops growing. If you can hear water running but can't locate it, shut off the main valve, don't try to isolate just the affected fixture while water is actively moving.
 
 Once the source is controlled:
 
-- **Cut power to wet zones at the breaker panel.** Water and live circuits are a fatal combination. If your breaker box is itself in a flooded area, call your utility provider — Duke Energy Progress serves most of central NC — before entering.
-- **Open windows and interior doors** if outdoor humidity is lower than indoor humidity. In a humid North Carolina summer, this can backfire — warm, moist outdoor air hitting cool wet surfaces accelerates mold. Use your judgment, or wait for a professional to advise.
+- **Cut power to wet zones at the breaker panel.** Water and live circuits are a fatal combination. If your breaker box is itself in a flooded area, call your utility provider, Duke Energy Progress serves most of central NC, before entering.
+- **Open windows and interior doors** if outdoor humidity is lower than indoor humidity. In a humid North Carolina summer, this can backfire, warm, moist outdoor air hitting cool wet surfaces accelerates mold. Use your judgment, or wait for a professional to advise.
 - **Move valuables, furniture, and rugs** off wet flooring. A saturated area rug sitting on hardwood for six hours can permanently stain and cup the boards beneath it.
 
 Do not run ceiling fans or your HVAC system to "dry things out." HVAC systems can spread mold spores and mycotoxins through ductwork before you even know mold is present.
@@ -35,9 +35,9 @@ Do not run ceiling fans or your HVAC system to "dry things out." HVAC systems ca
 
 This step costs you nothing and can be worth thousands when your insurance adjuster arrives.
 
-1. **Photograph everything from multiple angles** — wide shots showing the full room, mid shots showing the water line on walls, and close-ups of damaged materials, appliances, and personal property.
+1. **Photograph everything from multiple angles**, wide shots showing the full room, mid shots showing the water line on walls, and close-ups of damaged materials, appliances, and personal property.
 2. **Note the timestamp.** Your phone's camera embeds metadata, but also text yourself a few photos so the timestamp is visible in your message thread.
-3. **Write down what happened and when** — even a quick voice memo works. Adjusters ask about the sequence of events, and memory degrades fast under stress.
+3. **Write down what happened and when**, even a quick voice memo works. Adjusters ask about the sequence of events, and memory degrades fast under stress.
 4. **Don't throw anything away yet.** Damaged flooring, drywall, or personal items may need to be inspected before disposal. Your insurer may require proof of loss.
 
 If you have a home inventory document or photos of the space before the damage, pull those now. Before-and-after comparisons make claims faster and cleaner.
@@ -46,7 +46,7 @@ If you have a home inventory document or photos of the space before the damage, 
 
 Some instincts that feel helpful will make things worse:
 
-- **Don't use a standard shop vac on large volumes of water.** Residential wet-vacs move water slowly and can overheat. More importantly, they don't address moisture trapped inside walls, under subfloor, or in insulation — the water you can't see is usually the water that causes the most damage.
+- **Don't use a standard shop vac on large volumes of water.** Residential wet-vacs move water slowly and can overheat. More importantly, they don't address moisture trapped inside walls, under subfloor, or in insulation, the water you can't see is usually the water that causes the most damage.
 - **Don't assume the floor is dry because the surface feels dry.** Engineered hardwood and laminate can feel dry on top while the subfloor beneath is saturated. The only way to know is with a moisture meter.
 - **Don't repaint or patch over water-stained drywall** until the underlying structure has been tested and confirmed dry. Trapping moisture behind a fresh coat of paint is a mold incubator.
 - **Don't run space heaters in a closed room** to speed drying. Uncontrolled heat raises humidity in the air even as it evaporates surface moisture, and it can warp wood and buckle flooring.
@@ -60,26 +60,26 @@ Call a water damage restoration company if any of the following are true:
 
 - **The water was present for more than a few hours** before you discovered it.
 - **The water came from outside, from a sewer line, or from an unknown source.** Category 2 (gray water) and Category 3 (black water, including sewage and floodwater) carry pathogens and require protective equipment and specific disposal protocols.
-- **The affected area is larger than roughly 10 square feet** — the EPA's general threshold for recommending professional mold remediation, which applies to moisture management as well.
+- **The affected area is larger than roughly 10 square feet**, the EPA's general threshold for recommending professional mold remediation, which applies to moisture management as well.
 - **You can smell a musty or earthy odor.** That smell is microbial volatile organic compounds. It means biological growth is already underway, even if you can't see it.
 - **The water reached insulation, subfloor, or wall cavities.** These materials hold moisture invisibly and dry unevenly without professional drying equipment.
 
-A qualified restoration team will use thermal imaging cameras and calibrated moisture meters to map exactly where water has traveled — including places you'd never think to look, like the wall cavity behind a dishwasher or the space between a concrete slab and a floating floor.
+A qualified restoration team will use thermal imaging cameras and calibrated moisture meters to map exactly where water has traveled, including places you'd never think to look, like the wall cavity behind a dishwasher or the space between a concrete slab and a floating floor.
 
 ## The Longer Recovery: What Comes After the First Day
 
 Professional water damage restoration typically unfolds in phases over several days:
 
-**Extraction and drying (Days 1–3):** Industrial extractors remove standing water far more efficiently than consumer equipment. After extraction, high-capacity air movers and dehumidifiers are placed strategically — not just pointed at the wet spot, but positioned to create airflow through wall cavities and under flooring. Drying is monitored with daily moisture readings until materials reach their pre-loss moisture content, which in central North Carolina's humid climate can take longer than in drier regions.
+**Extraction and drying (Days 1–3):** Industrial extractors remove standing water far more efficiently than consumer equipment. After extraction, high-capacity air movers and dehumidifiers are placed strategically, not just pointed at the wet spot, but positioned to create airflow through wall cavities and under flooring. Drying is monitored with daily moisture readings until materials reach their pre-loss moisture content, which in central North Carolina's humid climate can take longer than in drier regions.
 
-**Demolition of unsalvageable materials (as needed):** Drywall that has wicked water above the visible line, insulation that has absorbed moisture, and flooring that has buckled beyond recovery will need to come out. This is called "flood cuts" in the industry — controlled removal that allows walls to dry from the inside out.
+**Demolition of unsalvageable materials (as needed):** Drywall that has wicked water above the visible line, insulation that has absorbed moisture, and flooring that has buckled beyond recovery will need to come out. This is called "flood cuts" in the industry, controlled removal that allows walls to dry from the inside out.
 
 **Mold prevention and treatment:** If any materials were wet for 24 hours or more, antimicrobial treatment of structural components is standard practice before reconstruction begins.
 
-**Reconstruction:** Once everything is confirmed dry and treated, rebuilding begins — drywall, flooring, paint, trim, and anything else that was removed.
+**Reconstruction:** Once everything is confirmed dry and treated, rebuilding begins, drywall, flooring, paint, trim, and anything else that was removed.
 
 The full timeline from water event to move-back-in depends on the size of the loss, but a typical single-room event in a Middlesex-area home takes one to two weeks from first call to final walkthrough.
 
 ---
 
-If your situation is beyond the first-aid stage — or if you're not sure — the team at Go Green Restoration of NC serves Middlesex and the surrounding communities. A call to **(919) 906-5473** gets you a real conversation about what you're dealing with and what the next step looks like. Even if you're still in the "figuring it out" phase, talking through the specifics of your situation costs nothing.
+If your situation is beyond the first-aid stage, or if you're not sure, the team at Go Green Restoration of NC serves Middlesex and the surrounding communities. A call to **(919) 906-5473** gets you a real conversation about what you're dealing with and what the next step looks like. Even if you're still in the "figuring it out" phase, talking through the specifics of your situation costs nothing.

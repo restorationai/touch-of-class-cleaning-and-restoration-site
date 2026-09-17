@@ -20,7 +20,7 @@ state: "AL"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
-Swan Creek doesn't have to overflow its banks to cause serious water damage in Athens. A slow-draining washing machine hose, a cracked supply line behind a vanity, or a roof penetration that finally gives way during a heavy spring storm can saturate a home's structure in hours — and in Limestone County's humid summers, that moisture becomes a mold problem within 24 to 48 hours. Davis Construction Contractors has been responding to water emergencies across North Alabama since 2008, and our crews can reach most Athens addresses from our Madison headquarters in under an hour.
+Swan Creek doesn't have to overflow its banks to cause serious water damage in Athens. A slow-draining washing machine hose, a cracked supply line behind a vanity, or a roof penetration that finally gives way during a heavy spring storm can saturate a home's structure in hours, and in Limestone County's humid summers, that moisture becomes a mold problem within 24 to 48 hours. Davis Construction Contractors has been responding to water emergencies across North Alabama since 2008, and our crews can reach most Athens addresses from our Madison headquarters in under an hour.
 
 ## Why Athens Properties Are Particularly Vulnerable to Water Damage
 
@@ -28,15 +28,15 @@ Athens is a city of two distinct housing eras, and each one carries its own wate
 
 On the other side of the city, the newer subdivisions spreading east along the Highway 72 commercial corridor and beyond bring a different set of concerns. Rapid development on the eastern edge of Athens has placed new construction on soils that haven't fully settled, and improper grading around foundations is a recurring cause of water intrusion after heavy rainfall. Limestone County's clay-heavy soils shed water instead of absorbing it, which means a two-inch rain event can push water against a foundation wall with surprising force.
 
-The area around Swan Creek also deserves attention. Localized flooding near the creek can affect properties that are nowhere near a mapped floodplain — stormwater backs up through drainage systems and finds its way into basements and crawl spaces during significant rain events.
+The area around Swan Creek also deserves attention. Localized flooding near the creek can affect properties that are nowhere near a mapped floodplain, stormwater backs up through drainage systems and finds its way into basements and crawl spaces during significant rain events.
 
 ## Our Water Damage Restoration Process in Athens
 
-When we arrive on-site, the first priority is stopping active water movement and understanding exactly how far moisture has traveled. Water follows framing cavities, runs along subfloor joists, and wicks into insulation long before it's visible on a surface. We use thermal imaging cameras and calibrated moisture meters to map the full extent of saturation — not just the wet spot you can see.
+When we arrive on-site, the first priority is stopping active water movement and understanding exactly how far moisture has traveled. Water follows framing cavities, runs along subfloor joists, and wicks into insulation long before it's visible on a surface. We use thermal imaging cameras and calibrated moisture meters to map the full extent of saturation, not just the wet spot you can see.
 
 Extraction comes next. Truck-mounted and portable extraction units pull standing water out of flooring, carpet, and subfloor assemblies. In Athens's older ranch homes, this step often reveals that water has migrated into the crawl space as well, which requires a separate extraction and drying protocol below the floor system.
 
-Structural drying follows extraction. We place commercial-grade desiccant or refrigerant dehumidifiers and high-velocity air movers in a calculated configuration based on the square footage and material types involved. Drying logs are recorded daily so you — and your insurance adjuster — have a documented moisture reduction curve from start to finish. Most residential water losses in Athens reach drying goals within three to five days, though older plaster-and-lath walls in Downtown Athens homes can extend that timeline.
+Structural drying follows extraction. We place commercial-grade desiccant or refrigerant dehumidifiers and high-velocity air movers in a calculated configuration based on the square footage and material types involved. Drying logs are recorded daily so you, and your insurance adjuster, have a documented moisture reduction curve from start to finish. Most residential water losses in Athens reach drying goals within three to five days, though older plaster-and-lath walls in Downtown Athens homes can extend that timeline.
 
 ## Response Time to Athens from Our Madison HQ
 
@@ -44,6 +44,6 @@ Our headquarters in Madison puts us roughly 15 to 20 minutes from the Athens cit
 
 ## Local Note: What Athens Crawl Spaces Teach Us
 
-One thing that surprises homeowners in Sanderfer Heights and similar established Athens neighborhoods is how much water a crawl space can hold without any visible sign inside the living area. The brick ranch construction common to these streets often has a continuous concrete perimeter with vented crawl spaces that were designed for a drier climate than what North Alabama actually delivers. When ground-level moisture or a plumbing leak saturates the crawl space, the subfloor above begins absorbing that humidity from below — hardwood floors cup, laminate delaminates, and the musty smell that homeowners notice first is often coming from fungal growth on the floor joists, not from anything in the living space itself. We always inspect the crawl space on Athens jobs, even when the reported source of water is on the first floor.
+One thing that surprises homeowners in Sanderfer Heights and similar established Athens neighborhoods is how much water a crawl space can hold without any visible sign inside the living area. The brick ranch construction common to these streets often has a continuous concrete perimeter with vented crawl spaces that were designed for a drier climate than what North Alabama actually delivers. When ground-level moisture or a plumbing leak saturates the crawl space, the subfloor above begins absorbing that humidity from below, hardwood floors cup, laminate delaminates, and the musty smell that homeowners notice first is often coming from fungal growth on the floor joists, not from anything in the living space itself. We always inspect the crawl space on Athens jobs, even when the reported source of water is on the first floor.
 
 If you're dealing with water in your home or commercial property anywhere in Athens, the sooner extraction and drying equipment is running, the lower your total restoration cost will be. Call Davis Construction Contractors at (256) 771-0326 and we'll get a crew scheduled for your address as quickly as possible.

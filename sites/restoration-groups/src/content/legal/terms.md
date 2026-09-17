@@ -26,21 +26,21 @@ The Restoration Group operates within New Jersey. While we serve a wide range of
 
 ## Estimates and Work Authorization
 
-Any estimate, quote, or assessment we provide — whether delivered in person, by phone, or in writing — is not a binding contract. An estimate reflects our best evaluation of the scope and cost of work at the time of inspection, based on visible conditions. Actual scope may change once work begins and concealed damage becomes accessible.
+Any estimate, quote, or assessment we provide, whether delivered in person, by phone, or in writing, is not a binding contract. An estimate reflects our best evaluation of the scope and cost of work at the time of inspection, based on visible conditions. Actual scope may change once work begins and concealed damage becomes accessible.
 
 A signed Work Authorization Form is required before any remediation or restoration work starts. That signed document, along with any attached scope of work, governs the actual service relationship between you and The Restoration Group. Verbal agreements or email exchanges do not substitute for a signed authorization.
 
 ## Payment Terms and Accepted Methods
 
-Payment terms are outlined in your Work Authorization Form and any accompanying estimate. We accept payment by check, major credit cards, and electronic transfer unless otherwise noted in your agreement. For insurance-covered losses, we coordinate directly with your carrier as described below — but the property owner remains ultimately responsible for any balance not covered by insurance.
+Payment terms are outlined in your Work Authorization Form and any accompanying estimate. We accept payment by check, major credit cards, and electronic transfer unless otherwise noted in your agreement. For insurance-covered losses, we coordinate directly with your carrier as described below, but the property owner remains ultimately responsible for any balance not covered by insurance.
 
 ## Insurance Coordination
 
-When your loss is covered by a homeowner's or commercial property policy, we can work alongside your insurance adjuster to document damage, submit photo evidence, and provide itemized scopes of work in the format most carriers require. We do not guarantee coverage decisions — those are made solely by your insurer. Any authorization to share documentation with your carrier must come from you, and we will not release information to third parties without your approval.
+When your loss is covered by a homeowner's or commercial property policy, we can work alongside your insurance adjuster to document damage, submit photo evidence, and provide itemized scopes of work in the format most carriers require. We do not guarantee coverage decisions, those are made solely by your insurer. Any authorization to share documentation with your carrier must come from you, and we will not release information to third parties without your approval.
 
 ## Scope of Work and Change Orders
 
-The scope of work in your signed authorization describes the services we have agreed to perform. If conditions change — hidden moisture behind walls, structural damage discovered during demolition, or materials that require special handling — we will notify you before proceeding with work outside the original scope. Changes to scope require a written change order, which becomes part of your service agreement.
+The scope of work in your signed authorization describes the services we have agreed to perform. If conditions change, hidden moisture behind walls, structural damage discovered during demolition, or materials that require special handling, we will notify you before proceeding with work outside the original scope. Changes to scope require a written change order, which becomes part of your service agreement.
 
 ## Liability
 

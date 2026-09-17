@@ -20,25 +20,25 @@ state: "IA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
-Northwest Iowa winters are no joke, and Orange City's freeze-thaw cycles hit harder than many homeowners expect. When temperatures swing from single digits to the mid-30s in a matter of days — a pattern that runs from November through March in Sioux County — water lines in older homes can burst without warning, and snowmelt can push groundwater against foundations that were never designed to handle that kind of lateral pressure. If you're dealing with standing water, soaked drywall, or a basement that smells like wet concrete and rot, the clock is already running. Mold can begin colonizing wet materials in as little as 24 to 48 hours, and structural drying that gets started on day one costs significantly less than remediation that starts on day four.
+Northwest Iowa winters are no joke, and Orange City's freeze-thaw cycles hit harder than many homeowners expect. When temperatures swing from single digits to the mid-30s in a matter of days, a pattern that runs from November through March in Sioux County, water lines in older homes can burst without warning, and snowmelt can push groundwater against foundations that were never designed to handle that kind of lateral pressure. If you're dealing with standing water, soaked drywall, or a basement that smells like wet concrete and rot, the clock is already running. Mold can begin colonizing wet materials in as little as 24 to 48 hours, and structural drying that gets started on day one costs significantly less than remediation that starts on day four.
 
 ## Why Orange City Properties See Water Damage Issues
 
-Orange City sits on relatively flat, clay-heavy Sioux County soil that drains slowly. After a heavy spring rain — or the rapid snowmelt that follows a late-season storm — that clay holds moisture against foundation walls and window wells rather than pulling it away. Homes near the Windmill Park area, many of which were built in the mid-20th century, often have block or poured-concrete basements without modern waterproofing membranes. Those walls wick moisture inward over time, and a single hard rain event can tip a damp basement into a genuine water intrusion problem.
+Orange City sits on relatively flat, clay-heavy Sioux County soil that drains slowly. After a heavy spring rain, or the rapid snowmelt that follows a late-season storm, that clay holds moisture against foundation walls and window wells rather than pulling it away. Homes near the Windmill Park area, many of which were built in the mid-20th century, often have block or poured-concrete basements without modern waterproofing membranes. Those walls wick moisture inward over time, and a single hard rain event can tip a damp basement into a genuine water intrusion problem.
 
 The housing stock near Downtown Orange City and along the streets radiating out toward Northwestern College includes a mix of older craftsman-style homes and post-war builds. Older homes in this corridor frequently have galvanized steel supply lines that have been corroding quietly for decades. A pinhole leak behind a kitchen cabinet or inside a bathroom wall can saturate insulation and subfloor for weeks before it becomes visible. By the time a homeowner notices the soft spot underfoot or the bubbling paint, the structural drying job is substantially larger than it would have been if caught early.
 
 ## Our Water Damage Restoration Process in Orange City
 
-When the crew arrives, the first priority is stopping the source — whether that's shutting off the main supply, clearing a blocked drain, or coordinating with a plumber on a ruptured line. From there, the process moves through four concrete phases:
+When the crew arrives, the first priority is stopping the source, whether that's shutting off the main supply, clearing a blocked drain, or coordinating with a plumber on a ruptured line. From there, the process moves through four concrete phases:
 
-**Moisture mapping and documentation.** Thermal imaging cameras and calibrated moisture meters identify exactly where water has traveled — not just where it's visible. This documentation also forms the foundation of your insurance claim.
+**Moisture mapping and documentation.** Thermal imaging cameras and calibrated moisture meters identify exactly where water has traveled, not just where it's visible. This documentation also forms the foundation of your insurance claim.
 
 **Water extraction.** Truck-mounted and portable extraction units pull standing water from flooring, carpet, and subfloor assemblies. In a typical Orange City basement scenario, this step alone can remove hundreds of gallons before drying equipment is even placed.
 
 **Structural drying.** Industrial-grade desiccant and refrigerant dehumidifiers, combined with high-velocity air movers, drive moisture out of framing, subfloor, and wall cavities. Drying logs are recorded daily so progress is measurable, not guesswork.
 
-**Controlled demolition if needed.** Saturated drywall, insulation, and flooring that cannot be dried in place are removed to prevent hidden mold growth. Selective demolition — rather than tearing out everything — keeps rebuild costs lower and gets the home back to normal faster.
+**Controlled demolition if needed.** Saturated drywall, insulation, and flooring that cannot be dried in place are removed to prevent hidden mold growth. Selective demolition, rather than tearing out everything, keeps rebuild costs lower and gets the home back to normal faster.
 
 ## Reaching Orange City from Sioux Falls
 
@@ -46,10 +46,10 @@ Crew Restoration & Construction is based in Sioux Falls, SD, and serves communit
 
 ## Orange City Insurance Coordination
 
-Most standard homeowner policies cover sudden and accidental water damage — a burst pipe qualifies; slow seepage from a foundation crack often does not. The distinction matters because adjusters look at documentation closely, and the moisture mapping and photo records created during the assessment phase are exactly what carriers need to process a claim efficiently. The crew documents affected materials, square footage, and moisture readings in a format that travels directly to your adjuster, reducing back-and-forth and helping avoid underpayment on the claim.
+Most standard homeowner policies cover sudden and accidental water damage, a burst pipe qualifies; slow seepage from a foundation crack often does not. The distinction matters because adjusters look at documentation closely, and the moisture mapping and photo records created during the assessment phase are exactly what carriers need to process a claim efficiently. The crew documents affected materials, square footage, and moisture readings in a format that travels directly to your adjuster, reducing back-and-forth and helping avoid underpayment on the claim.
 
 ## Local Note
 
-Orange City's Dutch-heritage homes — particularly the older ones near the Tulip Festival grounds — were often built with plaster-over-lath wall systems rather than modern drywall. Plaster absorbs water more slowly than drywall, which sounds like an advantage, but it also releases moisture slowly during the drying phase. Drying times for plaster walls routinely run 30 to 50 percent longer than comparable drywall assemblies, and moisture meters calibrated for gypsum drywall will read incorrectly on plaster. Knowing this going in means the drying plan is set correctly from day one rather than being extended mid-job after readings plateau.
+Orange City's Dutch-heritage homes, particularly the older ones near the Tulip Festival grounds, were often built with plaster-over-lath wall systems rather than modern drywall. Plaster absorbs water more slowly than drywall, which sounds like an advantage, but it also releases moisture slowly during the drying phase. Drying times for plaster walls routinely run 30 to 50 percent longer than comparable drywall assemblies, and moisture meters calibrated for gypsum drywall will read incorrectly on plaster. Knowing this going in means the drying plan is set correctly from day one rather than being extended mid-job after readings plateau.
 
 If water has reached your floors, walls, or basement in Orange City, the sooner extraction and drying equipment is running, the smaller the job stays. Call Crew Restoration & Construction at (605) 965-2727 to talk through what you're seeing and get a crew scheduled for your Orange City property.

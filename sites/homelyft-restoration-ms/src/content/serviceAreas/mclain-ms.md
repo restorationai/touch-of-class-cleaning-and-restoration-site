@@ -23,19 +23,19 @@ When a pipe bursts behind a wall or a storm pushes water under the doors of a Mc
 
 ## Restoration emergencies common in McLain
 
-McLain sits in Greene County in the heart of south Mississippi's humid subtropical belt. Summers push humidity into the 90-percent range for weeks at a time, and that sustained moisture load does real work on building materials — it softens wood framing, lifts vinyl flooring adhesive, and creates the warm, damp conditions mold needs to colonize a wall cavity in as little as 24 to 48 hours after a leak. The area also sits within the range of Gulf-driven storm systems that can drop several inches of rain in a matter of hours, overwhelming older drainage and pushing water into crawl spaces and slab perimeters.
+McLain sits in Greene County in the heart of south Mississippi's humid subtropical belt. Summers push humidity into the 90-percent range for weeks at a time, and that sustained moisture load does real work on building materials, it softens wood framing, lifts vinyl flooring adhesive, and creates the warm, damp conditions mold needs to colonize a wall cavity in as little as 24 to 48 hours after a leak. The area also sits within the range of Gulf-driven storm systems that can drop several inches of rain in a matter of hours, overwhelming older drainage and pushing water into crawl spaces and slab perimeters.
 
-The housing stock in and around McLain skews older, with a significant share of wood-framed homes built before modern moisture barriers and vapor retarders were standard practice. Crawl-space construction is common, and those spaces tend to trap humidity year-round. When a supply line fails or a roof takes storm damage, water finds its way into framing members that may already be carrying elevated moisture content — meaning the drying process often takes longer and requires more monitoring than a comparable loss in newer construction.
+The housing stock in and around McLain skews older, with a significant share of wood-framed homes built before modern moisture barriers and vapor retarders were standard practice. Crawl-space construction is common, and those spaces tend to trap humidity year-round. When a supply line fails or a roof takes storm damage, water finds its way into framing members that may already be carrying elevated moisture content, meaning the drying process often takes longer and requires more monitoring than a comparable loss in newer construction.
 
 ## Services we provide in McLain
 
 ### Water damage restoration
 
-Water damage in McLain frequently starts in crawl spaces — a slow plumbing leak or a heavy rain event saturates the soil beneath a home and wicks upward into subfloor sheathing and floor joists before a homeowner notices soft spots underfoot or a musty smell. HomeLyft crews extract standing water, deploy commercial-grade desiccant and refrigerant dehumidifiers, and monitor moisture readings in framing and wall assemblies until materials reach safe drying targets. We document the loss thoroughly for insurance purposes throughout the process.
+Water damage in McLain frequently starts in crawl spaces, a slow plumbing leak or a heavy rain event saturates the soil beneath a home and wicks upward into subfloor sheathing and floor joists before a homeowner notices soft spots underfoot or a musty smell. HomeLyft crews extract standing water, deploy commercial-grade desiccant and refrigerant dehumidifiers, and monitor moisture readings in framing and wall assemblies until materials reach safe drying targets. We document the loss thoroughly for insurance purposes throughout the process.
 
 ### Mold remediation
 
-Given Greene County's humidity levels, mold is rarely a surprise — but it is always urgent. We assess affected areas, contain the work zone to prevent cross-contamination, remove compromised materials, and treat structural surfaces. We do not make health claims, but we follow established industry remediation protocols designed to address visible and hidden mold growth.
+Given Greene County's humidity levels, mold is rarely a surprise, but it is always urgent. We assess affected areas, contain the work zone to prevent cross-contamination, remove compromised materials, and treat structural surfaces. We do not make health claims, but we follow established industry remediation protocols designed to address visible and hidden mold growth.
 
 ### Fire and smoke damage restoration
 
@@ -43,11 +43,11 @@ Smoke residue behaves differently depending on what burned and how hot the fire 
 
 ### Reconstruction
 
-Once mitigation is complete, damaged materials need to be replaced — drywall, insulation, flooring, cabinetry. HomeLyft handles reconstruction in-house so McLain property owners work with a single point of contact from the first extraction through the final coat of paint.
+Once mitigation is complete, damaged materials need to be replaced, drywall, insulation, flooring, cabinetry. HomeLyft handles reconstruction in-house so McLain property owners work with a single point of contact from the first extraction through the final coat of paint.
 
 ## Coverage and how fast we can get there
 
-HomeLyft Restoration MS operates out of Gulfport, roughly 90 miles south of McLain via US-49 North. The drive runs through Hattiesburg and into Greene County, a route our crews travel regularly for jobs throughout the region. McLain is a smaller community, and we want to be straightforward: scheduling lead times to McLain may be longer than for properties closer to the Gulf Coast. We encourage McLain property owners to call us as soon as a loss occurs at +12282845200 so we can give you an honest arrival estimate and, where needed, advise on immediate steps — like stopping the water source, opening windows if safe, or documenting damage with photos — while a crew is in transit.
+HomeLyft Restoration MS operates out of Gulfport, roughly 90 miles south of McLain via US-49 North. The drive runs through Hattiesburg and into Greene County, a route our crews travel regularly for jobs throughout the region. McLain is a smaller community, and we want to be straightforward: scheduling lead times to McLain may be longer than for properties closer to the Gulf Coast. We encourage McLain property owners to call us as soon as a loss occurs at +12282845200 so we can give you an honest arrival estimate and, where needed, advise on immediate steps, like stopping the water source, opening windows if safe, or documenting damage with photos, while a crew is in transit.
 
 ## Building stock, site conditions, and permits in McLain
 

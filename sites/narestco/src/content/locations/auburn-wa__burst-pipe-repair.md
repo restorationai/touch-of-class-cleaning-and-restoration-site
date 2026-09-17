@@ -20,25 +20,25 @@ state: "WA"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
-A pipe has burst somewhere in your Auburn home or building, and water is moving fast — into walls, under flooring, through ceilings. Every minute it sits, the damage compounds. National Restoration Construction dispatches from Federal Way, putting our crews in Auburn typically within 60–90 minutes of your call. We handle extraction, structural drying, and the repair work that follows, so you're not coordinating three different contractors while your subfloor buckles.
+A pipe has burst somewhere in your Auburn home or building, and water is moving fast, into walls, under flooring, through ceilings. Every minute it sits, the damage compounds. National Restoration Construction dispatches from Federal Way, putting our crews in Auburn typically within 60–90 minutes of your call. We handle extraction, structural drying, and the repair work that follows, so you're not coordinating three different contractors while your subfloor buckles.
 
 ## Why Auburn Properties Are Vulnerable to Burst Pipes
 
-The stretch of the Green River Valley that Auburn sits in experiences some of the Pacific Northwest's most punishing freeze-thaw cycles. When overnight temperatures dip into the mid-20s — which happens multiple times each winter along the Auburn-Kent corridor — pipes in uninsulated crawl spaces, exterior walls, and garages are at serious risk. Older neighborhoods near downtown Auburn and along Auburn Way carry a significant share of homes built in the 1960s through 1980s, when copper and galvanized steel were standard. Those materials fatigue over decades, and a single hard freeze can split a line that's been weakening for years.
+The stretch of the Green River Valley that Auburn sits in experiences some of the Pacific Northwest's most punishing freeze-thaw cycles. When overnight temperatures dip into the mid-20s, which happens multiple times each winter along the Auburn-Kent corridor, pipes in uninsulated crawl spaces, exterior walls, and garages are at serious risk. Older neighborhoods near downtown Auburn and along Auburn Way carry a significant share of homes built in the 1960s through 1980s, when copper and galvanized steel were standard. Those materials fatigue over decades, and a single hard freeze can split a line that's been weakening for years.
 
 High water pressure from the Lakehaven Utility District's distribution system can also stress aging fittings, especially in homes that haven't had a pressure regulator inspected recently. The result: a water line break that looks like a plumbing problem is often a combination of age, pressure, and one cold night.
 
 ## Our Burst Pipe Cleanup and Repair Process in Auburn
 
-When we arrive, the first priority is stopping the source — if you haven't already shut off the main, our technician does it immediately. From there, the process follows a clear sequence:
+When we arrive, the first priority is stopping the source, if you haven't already shut off the main, our technician does it immediately. From there, the process follows a clear sequence:
 
-**1. Damage assessment and moisture mapping.** We use thermal imaging cameras and calibrated moisture meters to trace exactly where water has traveled. Standing water is obvious; water inside a wall cavity or beneath engineered hardwood is not. We document everything photographically before touching a surface — critical for your insurance claim.
+**1. Damage assessment and moisture mapping.** We use thermal imaging cameras and calibrated moisture meters to trace exactly where water has traveled. Standing water is obvious; water inside a wall cavity or beneath engineered hardwood is not. We document everything photographically before touching a surface, critical for your insurance claim.
 
 **2. Extraction.** Truck-mounted extraction units pull standing water from flooring, carpet, and crawl spaces far faster than portable units. In a typical Auburn single-family home, we can clear visible water in the first hour.
 
-**3. Structural drying.** Industrial air movers and low-grain refrigerant dehumidifiers run continuously — usually 3–5 days depending on material saturation and ambient humidity. We check moisture readings at every visit and adjust equipment placement as drying progresses. Auburn's damp climate means we don't cut corners on drying time; mold can begin colonizing wet framing within 24–48 hours.
+**3. Structural drying.** Industrial air movers and low-grain refrigerant dehumidifiers run continuously, usually 3–5 days depending on material saturation and ambient humidity. We check moisture readings at every visit and adjust equipment placement as drying progresses. Auburn's damp climate means we don't cut corners on drying time; mold can begin colonizing wet framing within 24–48 hours.
 
-**4. Pipe repair and reconstruction.** Once materials are dry and the structure is stable, our licensed general contractors handle the actual pipe repair and any rebuild work — drywall, insulation, flooring, cabinetry. One company, one point of contact, one invoice for your insurer.
+**4. Pipe repair and reconstruction.** Once materials are dry and the structure is stable, our licensed general contractors handle the actual pipe repair and any rebuild work, drywall, insulation, flooring, cabinetry. One company, one point of contact, one invoice for your insurer.
 
 ## Insurance Claims for Burst Pipe Damage
 
@@ -52,10 +52,10 @@ If your policy has a coverage dispute or your adjuster pushes back on scope, we 
 
 ## Response Times Across Auburn
 
-Our Federal Way headquarters sits roughly 10–12 miles from central Auburn via SR-167 — under normal traffic conditions, that's 20–25 minutes. We target a 60–90 minute on-site window from the moment you reach us, accounting for crew dispatch and equipment loading. Neighborhoods in north Auburn near the Auburn-Kent border are often faster; the Lea Hill and Lakeland Hills areas on Auburn's eastern edge may run closer to the 90-minute end depending on time of day.
+Our Federal Way headquarters sits roughly 10–12 miles from central Auburn via SR-167, under normal traffic conditions, that's 20–25 minutes. We target a 60–90 minute on-site window from the moment you reach us, accounting for crew dispatch and equipment loading. Neighborhoods in north Auburn near the Auburn-Kent border are often faster; the Lea Hill and Lakeland Hills areas on Auburn's eastern edge may run closer to the 90-minute end depending on time of day.
 
-We answer the phone at (206) 883-0333 around the clock. There's no after-hours answering service — you reach someone who can dispatch a crew.
+We answer the phone at (206) 883-0333 around the clock. There's no after-hours answering service, you reach someone who can dispatch a crew.
 
 ---
 
-If you're standing in a wet room right now, the most important thing you can do is get the water source shut off and get a crew moving toward your property. National Restoration Construction is licensed through Washington State's Department of Labor & Industries, IICRC certified, and carries the insurance your adjuster will ask about. Reach us at **(206) 883-0333** — we'll tell you exactly how far out we are before you commit to anything.
+If you're standing in a wet room right now, the most important thing you can do is get the water source shut off and get a crew moving toward your property. National Restoration Construction is licensed through Washington State's Department of Labor & Industries, IICRC certified, and carries the insurance your adjuster will ask about. Reach us at **(206) 883-0333**, we'll tell you exactly how far out we are before you commit to anything.

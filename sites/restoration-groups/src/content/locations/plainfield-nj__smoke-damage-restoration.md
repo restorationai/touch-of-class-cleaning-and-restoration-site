@@ -20,29 +20,29 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
-A kitchen fire that gets knocked down fast can still leave a Plainfield home smelling like a campfire for months. Smoke particles — especially from the synthetic materials common in postwar and mid-century interiors throughout Netherwood and the West End — are acidic and microscopic. They penetrate plaster, settle into the original woodwork that gives Plainfield's Victorian and Queen Anne blocks their character, and keep off-gassing long after the flames are out. The Restoration Group reaches Plainfield 24/7 from our Kenilworth headquarters and begins reversing that damage the same day you call (855) 650-7422.
+A kitchen fire that gets knocked down fast can still leave a Plainfield home smelling like a campfire for months. Smoke particles, especially from the synthetic materials common in postwar and mid-century interiors throughout Netherwood and the West End, are acidic and microscopic. They penetrate plaster, settle into the original woodwork that gives Plainfield's Victorian and Queen Anne blocks their character, and keep off-gassing long after the flames are out. The Restoration Group reaches Plainfield 24/7 from our Kenilworth headquarters and begins reversing that damage the same day you call (855) 650-7422.
 
 ## Why Plainfield's Housing Stock Complicates Smoke Damage
 
 Plainfield's building inventory is one of the more demanding in Union County for post-fire cleanup. The Van Wyck Brooks Historic District and surrounding blocks are dense with late-1800s and early-1900s construction: horsehair plaster walls, original hardwood floors with open-grain finishes, and ornate millwork that absorbs smoke residue the way a sponge takes in water. Newer drywall can be cut out and replaced; plaster is a different calculation. It holds smoke odor in its porous matrix and can require multiple rounds of chemical neutralization before an ozone or hydroxyl treatment will hold.
 
-The city's postwar neighborhoods add a second layer of complexity. Homes built in the 1950s and 1960s throughout the Sleepy Hollow and Crescent Area corridors frequently contain older insulation materials and original HVAC ductwork that circulates smoke particulate through every room of the house within minutes of a fire. That means a contained kitchen or utility-room fire rarely stays contained in terms of odor and residue — the duct system becomes a distribution network.
+The city's postwar neighborhoods add a second layer of complexity. Homes built in the 1950s and 1960s throughout the Sleepy Hollow and Crescent Area corridors frequently contain older insulation materials and original HVAC ductwork that circulates smoke particulate through every room of the house within minutes of a fire. That means a contained kitchen or utility-room fire rarely stays contained in terms of odor and residue, the duct system becomes a distribution network.
 
 ## Our Smoke Damage Restoration Process in Plainfield
 
-When we arrive on-site, the first task is a room-by-room scope assessment using particle counters and thermal imaging. Smoke migrates toward cooler surfaces and into wall cavities, so visible soot on ceilings is often the least of it. In Plainfield's finished-basement homes — common throughout the 07060 zip code — smoke from a first-floor fire can stratify downward into a finished lower level and contaminate carpeting, drop ceilings, and stored belongings that were never near the fire itself.
+When we arrive on-site, the first task is a room-by-room scope assessment using particle counters and thermal imaging. Smoke migrates toward cooler surfaces and into wall cavities, so visible soot on ceilings is often the least of it. In Plainfield's finished-basement homes, common throughout the 07060 zip code, smoke from a first-floor fire can stratify downward into a finished lower level and contaminate carpeting, drop ceilings, and stored belongings that were never near the fire itself.
 
 From there, the process moves in a defined sequence:
 
-- **Dry soot removal** — HEPA vacuuming and dry-chemical sponging of all affected surfaces before any wet cleaning, which prevents soot from being ground deeper into porous materials.
-- **Chemical neutralization** — pH-balanced cleaning agents applied to walls, ceilings, and structural surfaces to stop the acidic off-gassing that causes ongoing corrosion and odor.
-- **Duct inspection and cleaning** — particularly important in older homes where ductwork may not have been serviced in decades and now holds a concentrated layer of smoke particulate.
-- **Odor elimination** — hydroxyl generators or thermal fogging, matched to the material types present; we do not simply mask odor with deodorizers.
-- **Structural drying if water is present** — fire suppression water from sprinklers or hose lines is documented and dried per the IICRC S500 standard before any rebuild begins.
+- **Dry soot removal**, HEPA vacuuming and dry-chemical sponging of all affected surfaces before any wet cleaning, which prevents soot from being ground deeper into porous materials.
+- **Chemical neutralization**, pH-balanced cleaning agents applied to walls, ceilings, and structural surfaces to stop the acidic off-gassing that causes ongoing corrosion and odor.
+- **Duct inspection and cleaning**, particularly important in older homes where ductwork may not have been serviced in decades and now holds a concentrated layer of smoke particulate.
+- **Odor elimination**, hydroxyl generators or thermal fogging, matched to the material types present; we do not simply mask odor with deodorizers.
+- **Structural drying if water is present**, fire suppression water from sprinklers or hose lines is documented and dried per the IICRC S500 standard before any rebuild begins.
 
 ## Reaching Plainfield from Kenilworth
 
-Kenilworth sits directly east of Plainfield along the Route 28 corridor, which means our crews are not navigating across county lines or through heavy interchange traffic to reach you. The drive to the Front Street business district or the neighborhoods near Cedar Brook Park is typically a straight shot west on Route 28 or a quick jog up Central Avenue. Because we operate 24/7, a call at 2 a.m. from a homeowner near the Plainfield Train Station gets the same response as a midday call — a crew dispatched immediately, not a voicemail and a callback in the morning.
+Kenilworth sits directly east of Plainfield along the Route 28 corridor, which means our crews are not navigating across county lines or through heavy interchange traffic to reach you. The drive to the Front Street business district or the neighborhoods near Cedar Brook Park is typically a straight shot west on Route 28 or a quick jog up Central Avenue. Because we operate 24/7, a call at 2 a.m. from a homeowner near the Plainfield Train Station gets the same response as a midday call, a crew dispatched immediately, not a voicemail and a callback in the morning.
 
 ## Plainfield Insurance Coordination
 
@@ -50,6 +50,6 @@ Smoke damage claims in Plainfield's older homes tend to run larger than homeowne
 
 ## Local Note
 
-Plainfield's Victorian and Queen Anne homes — particularly those in the Van Wyck Brooks Historic District — often have interior transom windows and open floor plans between the parlor and dining room that were designed for ventilation in the pre-air-conditioning era. That same openness accelerates smoke migration during a fire: a single room event can coat every connected surface within minutes. When we scope these properties, we treat the entire connected first-floor volume as a single contamination zone rather than room by room, which changes the material quantities, the equipment staging, and ultimately the accuracy of the insurance estimate. It is a small detail that makes a significant difference in whether the job is done once or done twice.
+Plainfield's Victorian and Queen Anne homes, particularly those in the Van Wyck Brooks Historic District, often have interior transom windows and open floor plans between the parlor and dining room that were designed for ventilation in the pre-air-conditioning era. That same openness accelerates smoke migration during a fire: a single room event can coat every connected surface within minutes. When we scope these properties, we treat the entire connected first-floor volume as a single contamination zone rather than room by room, which changes the material quantities, the equipment staging, and ultimately the accuracy of the insurance estimate. It is a small detail that makes a significant difference in whether the job is done once or done twice.
 
-If your Plainfield home or commercial property has sustained smoke or fire damage, call The Restoration Group at **(855) 650-7422**. We are available around the clock, and we will have a crew assessing your property — not just scheduling a visit — the same day you reach us.
+If your Plainfield home or commercial property has sustained smoke or fire damage, call The Restoration Group at **(855) 650-7422**. We are available around the clock, and we will have a crew assessing your property, not just scheduling a visit, the same day you reach us.

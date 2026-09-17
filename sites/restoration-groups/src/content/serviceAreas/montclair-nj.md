@@ -19,29 +19,29 @@ state: "NJ"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a plaster wall in Upper Montclair or a finished basement floods after a Watchung ridge storm, The Restoration Group dispatches from Kenilworth around the clock — arriving with drying equipment, moisture meters, and a documented scope ready for your insurance adjuster. We handle water damage, fire and smoke damage, mold remediation, and full reconstruction for homeowners and property managers across Montclair's ZIP codes 07042 and 07043.
+When a pipe bursts behind a plaster wall in Upper Montclair or a finished basement floods after a Watchung ridge storm, The Restoration Group dispatches from Kenilworth around the clock, arriving with drying equipment, moisture meters, and a documented scope ready for your insurance adjuster. We handle water damage, fire and smoke damage, mold remediation, and full reconstruction for homeowners and property managers across Montclair's ZIP codes 07042 and 07043.
 
 ## Restoration emergencies common in Montclair
 
-Montclair's housing stock is part of what makes it beautiful — and part of what makes restoration work here more demanding than in newer suburbs. The town's large Victorians, early-1900s Tudors, center-hall colonials, and grand Estate Section homes were built with plaster walls, slate roofs, cast-iron drain stacks, and galvanized supply lines that are now 80 to 120 years old. When those systems fail — and they do fail, quietly, inside walls and under finished basement slabs — the damage spreads fast through materials that absorb moisture differently than modern drywall.
+Montclair's housing stock is part of what makes it beautiful, and part of what makes restoration work here more demanding than in newer suburbs. The town's large Victorians, early-1900s Tudors, center-hall colonials, and grand Estate Section homes were built with plaster walls, slate roofs, cast-iron drain stacks, and galvanized supply lines that are now 80 to 120 years old. When those systems fail, and they do fail, quietly, inside walls and under finished basement slabs, the damage spreads fast through materials that absorb moisture differently than modern drywall.
 
 The Third River (also called the Yantacaw) and its tributaries cut through the lower elevations of town, and hillside grading off the Watchung ridge funnels runoff directly toward sump pits and foundation walls. Residents in Frog Hollow and the South End know this pattern well: Hurricane Ida in 2021 produced flash flooding and sewer backups that left standing water in dozens of basements overnight. Even in a moderate storm, the combination of clay-heavy soil, aging infrastructure, and steep topography overwhelms drainage systems that were never designed for current rainfall intensity.
 
-Commercial properties along the Bloomfield Avenue and Walnut Street corridors — restaurants, retail storefronts, mixed-use buildings near Watchung Plaza — face their own exposure: flat or low-slope roofs, HVAC condensate lines, and grease-trap plumbing that can push water through ceilings and into adjacent tenant spaces with little warning.
+Commercial properties along the Bloomfield Avenue and Walnut Street corridors, restaurants, retail storefronts, mixed-use buildings near Watchung Plaza, face their own exposure: flat or low-slope roofs, HVAC condensate lines, and grease-trap plumbing that can push water through ceilings and into adjacent tenant spaces with little warning.
 
 ## Services we provide in Montclair
 
 ### Water damage restoration
 
-Water damage in Montclair often originates in places that don't announce themselves — a slow drip from a cast-iron elbow behind a plaster wall, a sump that lost power during a nor'easter, or a supply line under a clawfoot tub that finally gave way. We extract standing water, map moisture with thermal imaging, and set drying systems calibrated to the actual materials in the structure. Plaster dries on a different timeline than drywall; we account for that rather than pulling equipment prematurely.
+Water damage in Montclair often originates in places that don't announce themselves, a slow drip from a cast-iron elbow behind a plaster wall, a sump that lost power during a nor'easter, or a supply line under a clawfoot tub that finally gave way. We extract standing water, map moisture with thermal imaging, and set drying systems calibrated to the actual materials in the structure. Plaster dries on a different timeline than drywall; we account for that rather than pulling equipment prematurely.
 
 ### Mold remediation
 
-Mold can begin colonizing damp organic material within 24 to 48 hours of a moisture event. In Montclair's older homes — particularly those with plaster-over-wood-lath construction or unventilated crawl spaces — mold often establishes behind walls long before a homeowner notices a musty smell. We contain affected areas, remove compromised materials, and treat surfaces to industry standards, then retest before closing walls.
+Mold can begin colonizing damp organic material within 24 to 48 hours of a moisture event. In Montclair's older homes, particularly those with plaster-over-wood-lath construction or unventilated crawl spaces, mold often establishes behind walls long before a homeowner notices a musty smell. We contain affected areas, remove compromised materials, and treat surfaces to industry standards, then retest before closing walls.
 
 ### Fire and smoke damage restoration
 
-Smoke residue from a kitchen fire doesn't stay in the kitchen. In open-floor-plan Victorians and colonials near Anderson Park or the Estate Section, smoke travels through HVAC returns, settles into plaster, and embeds in hardwood floors. We clean and deodorize structural surfaces, contents, and ductwork — and document every line item for your carrier.
+Smoke residue from a kitchen fire doesn't stay in the kitchen. In open-floor-plan Victorians and colonials near Anderson Park or the Estate Section, smoke travels through HVAC returns, settles into plaster, and embeds in hardwood floors. We clean and deodorize structural surfaces, contents, and ductwork, and document every line item for your carrier.
 
 ### Reconstruction
 
@@ -49,12 +49,12 @@ Once mitigation is complete, we can carry the project through repairs and full r
 
 ## Coverage and how fast we can get there
 
-Kenilworth sits roughly 12 to 14 miles southeast of Montclair via the Garden State Parkway to Route 3, or through Bloomfield on Route 506. Both routes are well-traveled corridors our crews run regularly. Because we operate 24 hours a day, seven days a week, a call at 2 a.m. from a property manager near Watchung Plaza gets the same dispatch process as a midday call. Upper Montclair, the South End, Frog Hollow, and the Estate Section are all within our standard service area — no trip surcharge, no referral to a subcontractor.
+Kenilworth sits roughly 12 to 14 miles southeast of Montclair via the Garden State Parkway to Route 3, or through Bloomfield on Route 506. Both routes are well-traveled corridors our crews run regularly. Because we operate 24 hours a day, seven days a week, a call at 2 a.m. from a property manager near Watchung Plaza gets the same dispatch process as a midday call. Upper Montclair, the South End, Frog Hollow, and the Estate Section are all within our standard service area, no trip surcharge, no referral to a subcontractor.
 
 ## Building stock, site conditions, and permits in Montclair
 
-Behind the finish, many of these houses are balloon-framed over wood lath with no sheathing membrane, so water in a wall cavity can travel floor to floor before it shows anywhere. Basements are often stone or brick rubble foundations on glacial till, with Watchung basalt close to the surface on the higher west side of town — water perches on rock and pushes through mortar joints instead of draining away. Old gravity heating systems also left asbestos pipe and boiler insulation behind, and pre-1978 paint and knob-and-tube wiring are common enough that demolition gets planned, not improvised.
+Behind the finish, many of these houses are balloon-framed over wood lath with no sheathing membrane, so water in a wall cavity can travel floor to floor before it shows anywhere. Basements are often stone or brick rubble foundations on glacial till, with Watchung basalt close to the surface on the higher west side of town, water perches on rock and pushes through mortar joints instead of draining away. Old gravity heating systems also left asbestos pipe and boiler insulation behind, and pre-1978 paint and knob-and-tube wiring are common enough that demolition gets planned, not improvised.
 
 Construction permits come from Montclair's building department under the New Jersey Uniform Construction Code. Structural repair, rewiring, and rebuilding a finished basement generally trigger one, and a designated historic property can also require preservation review.
 
-If you're dealing with a water, fire, or mold emergency anywhere in Montclair, call The Restoration Group at **(855) 650-7422** — we answer every hour of every day and can have a crew moving toward you while you're still on the phone.
+If you're dealing with a water, fire, or mold emergency anywhere in Montclair, call The Restoration Group at **(855) 650-7422**, we answer every hour of every day and can have a crew moving toward you while you're still on the phone.

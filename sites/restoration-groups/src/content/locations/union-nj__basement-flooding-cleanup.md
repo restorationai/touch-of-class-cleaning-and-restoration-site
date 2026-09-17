@@ -20,30 +20,30 @@ state: "NJ"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
-When the Elizabeth River tributaries overflow during a hard summer storm, basements in low-lying pockets off Morris Avenue and through Vauxhall can take on water faster than a sump pump can cycle. Union Township's dense postwar housing stock — capes, split-levels, and colonials built between the 1940s and 1960s — means original cast-iron drains and galvanized supply lines are aging on schedule, and nearly every one of those homes has a finished or semi-finished basement that turns a plumbing failure into a real loss. The Restoration Group, based in neighboring Kenilworth, responds around the clock to basement flooding cleanup calls across Union (07083, 07088) and starts water removal the same hour crews arrive.
+When the Elizabeth River tributaries overflow during a hard summer storm, basements in low-lying pockets off Morris Avenue and through Vauxhall can take on water faster than a sump pump can cycle. Union Township's dense postwar housing stock, capes, split-levels, and colonials built between the 1940s and 1960s, means original cast-iron drains and galvanized supply lines are aging on schedule, and nearly every one of those homes has a finished or semi-finished basement that turns a plumbing failure into a real loss. The Restoration Group, based in neighboring Kenilworth, responds around the clock to basement flooding cleanup calls across Union (07083, 07088) and starts water removal the same hour crews arrive.
 
 ## Why Union Properties See Basement Flooding More Than You'd Expect
 
-Union Township's geography works against basements in ways that aren't obvious until the water is already there. The Rahway River system threads through the township's lower elevations, and during events like Tropical Storm Ida, streets in Vauxhall and the Washington neighborhood saw sheet flooding that overwhelmed foundation drainage in minutes. Clay-heavy soil common throughout this part of Union County holds saturation long after rain stops, keeping hydrostatic pressure against foundation walls for days — which means seepage can continue well after the storm passes.
+Union Township's geography works against basements in ways that aren't obvious until the water is already there. The Rahway River system threads through the township's lower elevations, and during events like Tropical Storm Ida, streets in Vauxhall and the Washington neighborhood saw sheet flooding that overwhelmed foundation drainage in minutes. Clay-heavy soil common throughout this part of Union County holds saturation long after rain stops, keeping hydrostatic pressure against foundation walls for days, which means seepage can continue well after the storm passes.
 
-The housing stock adds another layer of risk. A split-level colonial in Battle Hill or a cape on a quiet street near Galloping Hill Golf Course was likely built when basement finishing was done with wood paneling, fiberglass batts, and paper-faced insulation — materials that wick and hold moisture aggressively. A pipe that drips for 48 hours in one of these homes can saturate wall cavities that look perfectly dry on the surface. That's before factoring in the cast-iron drain laterals that are now 60 to 70 years old and prone to root intrusion and joint failure.
+The housing stock adds another layer of risk. A split-level colonial in Battle Hill or a cape on a quiet street near Galloping Hill Golf Course was likely built when basement finishing was done with wood paneling, fiberglass batts, and paper-faced insulation, materials that wick and hold moisture aggressively. A pipe that drips for 48 hours in one of these homes can saturate wall cavities that look perfectly dry on the surface. That's before factoring in the cast-iron drain laterals that are now 60 to 70 years old and prone to root intrusion and joint failure.
 
 ## Our Basement Flooding Cleanup Process in Union
 
-Every job starts with a moisture mapping inspection — thermal imaging and calibrated moisture meters across walls, subfloor, and framing — before a single piece of equipment is placed. In Union's older finished basements, that step is critical: water migrates behind paneling and into floor joist bays in ways that aren't visible, and skipping the inspection means leaving hidden moisture that feeds mold within 24 to 48 hours.
+Every job starts with a moisture mapping inspection, thermal imaging and calibrated moisture meters across walls, subfloor, and framing, before a single piece of equipment is placed. In Union's older finished basements, that step is critical: water migrates behind paneling and into floor joist bays in ways that aren't visible, and skipping the inspection means leaving hidden moisture that feeds mold within 24 to 48 hours.
 
 Once the scope is confirmed, the process moves through four stages:
 
-1. **Standing water extraction** — truck-mounted and portable extractors pull bulk water from carpet, subfloor, and any low points where water has pooled.
-2. **Material assessment** — saturated drywall, insulation, and flooring that cannot be dried in place are removed and documented for your insurance claim.
-3. **Structural drying** — industrial desiccant or refrigerant dehumidifiers paired with high-velocity air movers are positioned to dry framing, concrete, and any salvageable materials. Drying typically runs three to five days, confirmed by daily moisture readings.
-4. **Post-dry verification** — final moisture readings are logged and provided to you and your adjuster before equipment is removed.
+1. **Standing water extraction**, truck-mounted and portable extractors pull bulk water from carpet, subfloor, and any low points where water has pooled.
+2. **Material assessment**, saturated drywall, insulation, and flooring that cannot be dried in place are removed and documented for your insurance claim.
+3. **Structural drying**, industrial desiccant or refrigerant dehumidifiers paired with high-velocity air movers are positioned to dry framing, concrete, and any salvageable materials. Drying typically runs three to five days, confirmed by daily moisture readings.
+4. **Post-dry verification**, final moisture readings are logged and provided to you and your adjuster before equipment is removed.
 
 All drying is performed to the IICRC S500 standard, the industry benchmark for water damage restoration.
 
 ## Reaching Union from Kenilworth
 
-The Restoration Group's operations are based in Kenilworth, which shares a direct border with Union Township — crews traveling via Boulevard or North Michigan Avenue can reach Union Center or the Putnam Ridge area without highway time. Because hours are 24/7, a call at 2 a.m. after a pipe bursts gets the same dispatch as a midday call. For addresses near the Route 22 corridor — commercial properties, the big-box retail centers, or restaurant spaces that have dealt with overnight sprinkler discharges — crews are familiar with the access and loading-dock logistics those properties require.
+The Restoration Group's operations are based in Kenilworth, which shares a direct border with Union Township, crews traveling via Boulevard or North Michigan Avenue can reach Union Center or the Putnam Ridge area without highway time. Because hours are 24/7, a call at 2 a.m. after a pipe bursts gets the same dispatch as a midday call. For addresses near the Route 22 corridor, commercial properties, the big-box retail centers, or restaurant spaces that have dealt with overnight sprinkler discharges, crews are familiar with the access and loading-dock logistics those properties require.
 
 ## Union Insurance Coordination
 
@@ -51,6 +51,6 @@ Most Union homeowners with sudden-discharge losses (burst pipe, appliance failur
 
 ## Local Note
 
-In Union's postwar split-levels, the half-story below grade is often finished with wood-framed walls built directly against the concrete foundation — no air gap, no drainage mat. When water enters, it wicks straight into the bottom plate and lower studs before it ever appears on the floor. Crews working in these homes probe the wall base at every stud bay, not just at visible wet spots, because the damage pattern in this construction type is almost always wider than it looks. Homeowners who've had a previous water event and repainted over staining should mention that during the initial call — it helps the crew know where to look first.
+In Union's postwar split-levels, the half-story below grade is often finished with wood-framed walls built directly against the concrete foundation, no air gap, no drainage mat. When water enters, it wicks straight into the bottom plate and lower studs before it ever appears on the floor. Crews working in these homes probe the wall base at every stud bay, not just at visible wet spots, because the damage pattern in this construction type is almost always wider than it looks. Homeowners who've had a previous water event and repainted over staining should mention that during the initial call, it helps the crew know where to look first.
 
 If your basement in Union is holding water right now, call The Restoration Group at (908) 970-8533. Crews are available around the clock, and the sooner extraction starts, the smaller the scope of what needs to be replaced.

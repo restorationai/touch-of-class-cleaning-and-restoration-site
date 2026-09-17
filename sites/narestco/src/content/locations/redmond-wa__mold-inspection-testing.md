@@ -20,21 +20,21 @@ state: "WA"
 service_display: "Mold Inspection and Testing"
 rendered: true
 ---
-If you've spotted dark patches on drywall, caught a musty smell behind a bathroom cabinet, or had a contractor flag something suspicious during a renovation, you're probably already worried about what's growing inside your walls. Redmond's wet winters and the region's older housing stock — particularly the ranch-style and split-level homes built through the 1970s and '80s in neighborhoods like Education Hill and Overlake — create conditions where mold can colonize a damp cavity in as little as 24 to 48 hours. National Restoration Construction has been responding to mold situations across the greater Seattle area since 2004, and our team reaches most Redmond addresses within 60 to 90 minutes of your call.
+If you've spotted dark patches on drywall, caught a musty smell behind a bathroom cabinet, or had a contractor flag something suspicious during a renovation, you're probably already worried about what's growing inside your walls. Redmond's wet winters and the region's older housing stock, particularly the ranch-style and split-level homes built through the 1970s and '80s in neighborhoods like Education Hill and Overlake, create conditions where mold can colonize a damp cavity in as little as 24 to 48 hours. National Restoration Construction has been responding to mold situations across the greater Seattle area since 2004, and our team reaches most Redmond addresses within 60 to 90 minutes of your call.
 
 ## Why Redmond Properties Are Prone to Mold Growth
 
-Redmond averages around 57 inches of rain per year — well above the national average — and the shoulder seasons (October through March) rarely give building materials a chance to fully dry between storms. Crawl spaces under older homes on the Sammamish Plateau trap ground moisture year-round. Newer construction in the Overlake tech corridor and along SR-520 isn't immune either: tightly sealed building envelopes that improve energy efficiency can also reduce the air exchange that keeps humidity in check.
+Redmond averages around 57 inches of rain per year, well above the national average, and the shoulder seasons (October through March) rarely give building materials a chance to fully dry between storms. Crawl spaces under older homes on the Sammamish Plateau trap ground moisture year-round. Newer construction in the Overlake tech corridor and along SR-520 isn't immune either: tightly sealed building envelopes that improve energy efficiency can also reduce the air exchange that keeps humidity in check.
 
-Common triggers we see in Redmond include slow roof leaks that go unnoticed through multiple rainy seasons, failed vapor barriers in crawl spaces, and condensation problems around single-pane windows in homes that haven't been updated since the '80s. A small water intrusion event — even one that dried out on the surface — can leave enough residual moisture behind a wall to sustain mold growth for months before it becomes visible.
+Common triggers we see in Redmond include slow roof leaks that go unnoticed through multiple rainy seasons, failed vapor barriers in crawl spaces, and condensation problems around single-pane windows in homes that haven't been updated since the '80s. A small water intrusion event, even one that dried out on the surface, can leave enough residual moisture behind a wall to sustain mold growth for months before it becomes visible.
 
 ## Our Mold Inspection and Testing Process in Redmond
 
 A mold assessment isn't just a visual scan. When our IICRC-certified inspector arrives at your Redmond property, the process typically unfolds in three stages:
 
-**1. Visual inspection and moisture mapping.** We walk the structure systematically, using thermal imaging cameras and calibrated moisture meters to locate elevated moisture readings behind surfaces that look dry to the eye. We're looking for the conditions mold needs — not just where it's already visible.
+**1. Visual inspection and moisture mapping.** We walk the structure systematically, using thermal imaging cameras and calibrated moisture meters to locate elevated moisture readings behind surfaces that look dry to the eye. We're looking for the conditions mold needs, not just where it's already visible.
 
-**2. Air quality and surface sampling.** Depending on what the visual inspection reveals, we collect air samples for indoor air quality testing, surface swab or tape-lift samples from suspect areas, and sometimes bulk material samples. These go to an accredited third-party laboratory. Spore counts and species identification from mold spore testing tell us what we're dealing with and how concentrated the problem is — information that shapes any remediation plan.
+**2. Air quality and surface sampling.** Depending on what the visual inspection reveals, we collect air samples for indoor air quality testing, surface swab or tape-lift samples from suspect areas, and sometimes bulk material samples. These go to an accredited third-party laboratory. Spore counts and species identification from mold spore testing tell us what we're dealing with and how concentrated the problem is, information that shapes any remediation plan.
 
 **3. Written assessment report.** You receive a clear, written mold assessment report with lab results, photographs, moisture readings, and our findings. If remediation is warranted, the report documents the scope so you have something concrete to share with your insurance carrier or a future buyer.
 
@@ -42,9 +42,9 @@ We keep inspection and remediation roles transparent: the same report that infor
 
 ## Insurance Claims and What to Expect
 
-Mold coverage is one of the more frustrating corners of homeowner's insurance. Whether your policy covers mold inspection and remediation usually depends on the underlying cause — a sudden pipe burst is treated very differently from long-term humidity buildup. Our team has worked with most major carriers operating in Washington State and can document the loss in the format adjusters expect.
+Mold coverage is one of the more frustrating corners of homeowner's insurance. Whether your policy covers mold inspection and remediation usually depends on the underlying cause, a sudden pipe burst is treated very differently from long-term humidity buildup. Our team has worked with most major carriers operating in Washington State and can document the loss in the format adjusters expect.
 
-Here's how the division of responsibility typically works: we handle the technical documentation — moisture logs, lab reports, photo evidence, scope of work — and communicate directly with your adjuster when you authorize us to. You remain the policyholder and make final decisions. We don't promise coverage outcomes, but thorough documentation from a licensed contractor (WA L&I #NATIORC792M6) gives your claim the strongest foundation it can have.
+Here's how the division of responsibility typically works: we handle the technical documentation, moisture logs, lab reports, photo evidence, scope of work, and communicate directly with your adjuster when you authorize us to. You remain the policyholder and make final decisions. We don't promise coverage outcomes, but thorough documentation from a licensed contractor (WA L&I #NATIORC792M6) gives your claim the strongest foundation it can have.
 
 If your situation isn't covered, we'll tell you plainly and walk through out-of-pocket options without pressure.
 
@@ -52,6 +52,6 @@ If your situation isn't covered, we'll tell you plainly and walk through out-of-
 
 Our headquarters is in Federal Way, roughly 25 miles south of Redmond via I-5 and SR-520. Under normal traffic conditions, that puts a technician at most Redmond addresses in 60 to 90 minutes. If you're in the Overlake or Marymoor area near the 520 interchange, response can be faster. If you're further east toward Redmond Ridge or Union Hill, plan for the upper end of that window.
 
-Mold inspection is rarely a true emergency in the way a burst pipe is — but it often feels that way, especially if you have children, elderly family members, or anyone with respiratory sensitivities in the home. We prioritize same-day appointments for households with documented health concerns.
+Mold inspection is rarely a true emergency in the way a burst pipe is, but it often feels that way, especially if you have children, elderly family members, or anyone with respiratory sensitivities in the home. We prioritize same-day appointments for households with documented health concerns.
 
-If you're seeing visible mold growth, smelling something that wasn't there before a recent leak, or your HVAC system has been flagged as a potential source, don't wait to get answers. Reach out to National Restoration Construction at **(206) 883-0333** — we can usually get eyes on the problem the same day you contact us.
+If you're seeing visible mold growth, smelling something that wasn't there before a recent leak, or your HVAC system has been flagged as a potential source, don't wait to get answers. Reach out to National Restoration Construction at **(206) 883-0333**, we can usually get eyes on the problem the same day you contact us.

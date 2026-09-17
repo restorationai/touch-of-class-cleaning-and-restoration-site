@@ -20,11 +20,11 @@ state: "CA"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
-Chino sits on the western edge of the Inland Empire, where decades of dairy-farm conversion to dense residential development left behind a patchwork of aging sewer laterals, shifting clay-heavy soils, and infill subdivisions that tie into mains originally sized for far fewer households. When a sewer line backs up into a Chino home — whether it's raw sewage rising through a ground-floor drain or a septic system overflowing on a lot that predates the city's sewer expansion — the contamination clock starts immediately. Dry County Restoration responds 24/7 from Corona, and sewage cleanup is one of the few emergencies where every hour of delay genuinely increases both the health risk and the restoration cost.
+Chino sits on the western edge of the Inland Empire, where decades of dairy-farm conversion to dense residential development left behind a patchwork of aging sewer laterals, shifting clay-heavy soils, and infill subdivisions that tie into mains originally sized for far fewer households. When a sewer line backs up into a Chino home, whether it's raw sewage rising through a ground-floor drain or a septic system overflowing on a lot that predates the city's sewer expansion, the contamination clock starts immediately. Dry County Restoration responds 24/7 from Corona, and sewage cleanup is one of the few emergencies where every hour of delay genuinely increases both the health risk and the restoration cost.
 
 ## Why Chino Properties See Sewage Backup Issues
 
-Chino's soil profile is a real factor. The expansive clay that underlies much of the city swells with seasonal moisture and contracts in the dry summer heat, and that repeated movement stresses buried sewer laterals over time. Older sections of the city — particularly neighborhoods developed in the 1960s through the early 1980s — often have clay or Orangeburg pipe laterals that have never been replaced. Those materials crack, root-intrude, and eventually collapse in ways that PVC simply doesn't.
+Chino's soil profile is a real factor. The expansive clay that underlies much of the city swells with seasonal moisture and contracts in the dry summer heat, and that repeated movement stresses buried sewer laterals over time. Older sections of the city, particularly neighborhoods developed in the 1960s through the early 1980s, often have clay or Orangeburg pipe laterals that have never been replaced. Those materials crack, root-intrude, and eventually collapse in ways that PVC simply doesn't.
 
 The city's transition from agricultural to residential use also means some parcels still have private septic systems that were never connected to the municipal sewer when surrounding streets were built out. A septic tank that hasn't been pumped on schedule, or a leach field that has become saturated during a wet winter, can push effluent back into the home just as aggressively as a blocked city main.
 
@@ -32,30 +32,30 @@ Finally, Chino's newer master-planned communities to the south share sewer infra
 
 ## Our Sewage Cleanup and Sanitization Process in Chino
 
-Sewage is classified as Category 3 water — the most contaminated type — regardless of whether it originates from a city sewer backup or a private septic overflow. The process we follow is calibrated to that risk level, not to a lighter water-damage protocol.
+Sewage is classified as Category 3 water, the most contaminated type, regardless of whether it originates from a city sewer backup or a private septic overflow. The process we follow is calibrated to that risk level, not to a lighter water-damage protocol.
 
 **Containment first.** We establish a work perimeter before any material is moved. Cross-contamination to unaffected rooms is a common mistake made when cleanup starts before containment is set.
 
-**Extraction and removal.** Standing sewage is extracted with truck-mounted equipment. Porous materials — carpet, pad, drywall below the flood line, insulation, wood subfloor if saturated — are removed and bagged for disposal. There is no drying a porous material back to safe condition when it has been in contact with raw sewage.
+**Extraction and removal.** Standing sewage is extracted with truck-mounted equipment. Porous materials, carpet, pad, drywall below the flood line, insulation, wood subfloor if saturated, are removed and bagged for disposal. There is no drying a porous material back to safe condition when it has been in contact with raw sewage.
 
 **Antimicrobial treatment.** Hard surfaces, framing, and concrete are treated with EPA-registered disinfectants. We document the products used and their dwell times, which matters if your insurance carrier or an industrial hygienist requests records.
 
-**Structural drying.** Once contaminated material is out and surfaces are treated, we set drying equipment — air movers and dehumidifiers — and monitor daily with moisture meters. Our IICRC-certified technicians follow the S500 standard for drying documentation.
+**Structural drying.** Once contaminated material is out and surfaces are treated, we set drying equipment, air movers and dehumidifiers, and monitor daily with moisture meters. Our IICRC-certified technicians follow the S500 standard for drying documentation.
 
 **Clearance.** We do not close out a sewage job on visual inspection alone. Moisture readings must confirm that structural assemblies have returned to acceptable ranges before reconstruction begins.
 
 ## Reaching Chino from Corona
 
-Dry County Restoration is based in Corona, and Chino is a direct run west on the 71 or via the 60. We answer calls 24 hours a day, seven days a week, and dispatch is not limited to business hours — sewage backups don't wait for Monday morning, and neither do we. If you're in the southern part of the city near the newer residential developments or closer to the older grid near downtown Chino, routing is straightforward and we can typically get a crew moving quickly after your call.
+Dry County Restoration is based in Corona, and Chino is a direct run west on the 71 or via the 60. We answer calls 24 hours a day, seven days a week, and dispatch is not limited to business hours, sewage backups don't wait for Monday morning, and neither do we. If you're in the southern part of the city near the newer residential developments or closer to the older grid near downtown Chino, routing is straightforward and we can typically get a crew moving quickly after your call.
 
 ## Chino Insurance and HOA Coordination
 
-Most standard homeowners policies cover sudden and accidental sewer backups, though coverage often requires a specific sewer backup rider — not all policies include it automatically. We document the loss thoroughly: photographs before any material is touched, moisture readings at multiple points, a written scope of affected materials. That documentation is what your adjuster needs to process the claim.
+Most standard homeowners policies cover sudden and accidental sewer backups, though coverage often requires a specific sewer backup rider, not all policies include it automatically. We document the loss thoroughly: photographs before any material is touched, moisture readings at multiple points, a written scope of affected materials. That documentation is what your adjuster needs to process the claim.
 
-For HOA-governed properties, the question of which party's policy responds — the homeowner's or the association's master policy — depends on where the blockage originated and what the CC&Rs say about lateral responsibility. We work with whatever parties are involved and can communicate directly with adjusters or property managers to keep the process moving.
+For HOA-governed properties, the question of which party's policy responds, the homeowner's or the association's master policy, depends on where the blockage originated and what the CC&Rs say about lateral responsibility. We work with whatever parties are involved and can communicate directly with adjusters or property managers to keep the process moving.
 
 ## Local Note
 
-Chino's history as a dairy and agricultural community means some residential lots — particularly on the city's older western side — were developed on fill or graded land that doesn't drain the way a standard residential parcel does. During heavy rain years, shallow groundwater can push back through floor drains and slab cracks in ways that look like a plumbing backup but are actually hydrostatic intrusion. The cleanup protocol is similar, but the source investigation is different, and misdiagnosing the cause leads to a repair that doesn't solve the problem. If you've had recurring "backups" that your plumber can't find a blockage for, that's worth mentioning when you call.
+Chino's history as a dairy and agricultural community means some residential lots, particularly on the city's older western side, were developed on fill or graded land that doesn't drain the way a standard residential parcel does. During heavy rain years, shallow groundwater can push back through floor drains and slab cracks in ways that look like a plumbing backup but are actually hydrostatic intrusion. The cleanup protocol is similar, but the source investigation is different, and misdiagnosing the cause leads to a repair that doesn't solve the problem. If you've had recurring "backups" that your plumber can't find a blockage for, that's worth mentioning when you call.
 
 If you're dealing with sewage in your Chino home or property right now, call Dry County Restoration at **(951) 667-9910**. We're available around the clock, and we'll walk you through the immediate steps to take before our crew arrives.

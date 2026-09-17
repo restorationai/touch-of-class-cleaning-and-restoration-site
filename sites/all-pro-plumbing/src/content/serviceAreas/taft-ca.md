@@ -19,13 +19,13 @@ state: "CA"
 primary: false
 rendered: true
 ---
-When a water heater fails in Ford City or a wall furnace stops lighting in South Taft on a January night, the nearest help is 35 miles away in Bakersfield — unless you call All Pro Plumbing Heating and Air. We run 24/7 dispatch and make the run down Highway 33 to Taft (93268) for emergency plumbing, drain and sewer work, water heater replacements, repipes, and heating and air service. For Taft property owners dealing with aging infrastructure and a short list of local contractors, that availability matters.
+When a water heater fails in Ford City or a wall furnace stops lighting in South Taft on a January night, the nearest help is 35 miles away in Bakersfield, unless you call All Pro Plumbing Heating and Air. We run 24/7 dispatch and make the run down Highway 33 to Taft (93268) for emergency plumbing, drain and sewer work, water heater replacements, repipes, and heating and air service. For Taft property owners dealing with aging infrastructure and a short list of local contractors, that availability matters.
 
 ## Restoration emergencies common in Taft
 
-Taft was built by the oil industry, and most of its housing stock reflects that history. The workers' cottages in Ford City and South Taft date largely from the 1920s through the 1950s — decades when galvanized steel was the standard pipe material and drain lines were sized for smaller household loads than modern code requires. Galvanized pipe corrodes from the inside out; by the time water pressure drops noticeably or a pinhole leak appears behind a wall, the pipe interior is often choked with rust scale. Undersized cast-iron or clay drains crack, root-intrude, and back up. Wall furnaces from the same era run on aged gas valves and cracked heat exchangers.
+Taft was built by the oil industry, and most of its housing stock reflects that history. The workers' cottages in Ford City and South Taft date largely from the 1920s through the 1950s, decades when galvanized steel was the standard pipe material and drain lines were sized for smaller household loads than modern code requires. Galvanized pipe corrodes from the inside out; by the time water pressure drops noticeably or a pinhole leak appears behind a wall, the pipe interior is often choked with rust scale. Undersized cast-iron or clay drains crack, root-intrude, and back up. Wall furnaces from the same era run on aged gas valves and cracked heat exchangers.
 
-Taft's desert-edge climate accelerates the problem. Summer temperatures regularly push past 100°F, hammering any AC equipment that hasn't been serviced in a season or two. The air is dry and dusty — filters clog faster than they do in coastal climates, and condenser coils pick up oilfield particulate that cuts efficiency. Winter nights drop hard and fast, and a wall furnace that's been limping along will often give out on the coldest evening of the year. With very few plumbers based in Taft itself, most service calls draw contractors from Bakersfield, which means response windows can stretch — a gap All Pro covers with around-the-clock scheduling.
+Taft's desert-edge climate accelerates the problem. Summer temperatures regularly push past 100°F, hammering any AC equipment that hasn't been serviced in a season or two. The air is dry and dusty, filters clog faster than they do in coastal climates, and condenser coils pick up oilfield particulate that cuts efficiency. Winter nights drop hard and fast, and a wall furnace that's been limping along will often give out on the coldest evening of the year. With very few plumbers based in Taft itself, most service calls draw contractors from Bakersfield, which means response windows can stretch, a gap All Pro covers with around-the-clock scheduling.
 
 ## Services we provide in Taft
 
@@ -39,7 +39,7 @@ Ford City and South Taft have some of the highest concentrations of original gal
 
 ### Drains, sewer, and hydro-jetting
 
-Old clay and cast-iron laterals under Taft's older neighborhoods are prime candidates for root intrusion and joint separation. We camera-inspect the line first so you know exactly what you're dealing with — a jetting job or a partial replacement — before any digging starts.
+Old clay and cast-iron laterals under Taft's older neighborhoods are prime candidates for root intrusion and joint separation. We camera-inspect the line first so you know exactly what you're dealing with, a jetting job or a partial replacement, before any digging starts.
 
 ### Water heaters
 
@@ -51,7 +51,7 @@ Wall furnace replacements, forced-air furnace service, and AC repairs are steady
 
 ## Coverage and how fast we can get there
 
-All Pro Plumbing Heating and Air is headquartered in Bakersfield. The drive to Taft runs roughly 35 miles southwest — typically down Highway 58 to Highway 33, or via Maricopa Highway depending on traffic and the specific neighborhood. Downtown Taft and Ford City are the first neighborhoods we reach coming in from the north; South Taft and Taft Heights add a few minutes further in. We dispatch 24 hours a day, seven days a week, so an after-hours call in 93268 goes to a live dispatcher, not a voicemail.
+All Pro Plumbing Heating and Air is headquartered in Bakersfield. The drive to Taft runs roughly 35 miles southwest, typically down Highway 58 to Highway 33, or via Maricopa Highway depending on traffic and the specific neighborhood. Downtown Taft and Ford City are the first neighborhoods we reach coming in from the north; South Taft and Taft Heights add a few minutes further in. We dispatch 24 hours a day, seven days a week, so an after-hours call in 93268 goes to a live dispatcher, not a voicemail.
 
 ## Building stock, site conditions, and permits in Taft
 
@@ -59,4 +59,4 @@ Cottages from the oil-boom decades were typically wood frame with stucco or lap 
 
 Permits matter here because the map is split. Work inside Taft city limits goes through the city; Ford City, South Taft and Taft Heights are unincorporated, so those permits run through Kern County. California's statewide building and energy code applies either way, and seismic detailing is not optional this close to the Temblor Range faults.
 
-For plumbing, heating, or air conditioning service anywhere in Taft — Ford City, South Taft, Downtown Taft, Taft Heights, or anywhere else in 93268 — call All Pro Plumbing Heating and Air at **(661) 863-9242**. We answer around the clock and make the run from Bakersfield so you're not waiting on a short list of local options.
+For plumbing, heating, or air conditioning service anywhere in Taft, Ford City, South Taft, Downtown Taft, Taft Heights, or anywhere else in 93268, call All Pro Plumbing Heating and Air at **(661) 863-9242**. We answer around the clock and make the run from Bakersfield so you're not waiting on a short list of local options.

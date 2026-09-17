@@ -20,24 +20,24 @@ state: "CA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
-When a Pacific storm system pushes inland through San Luis Obispo County, Edna sits in a geographic pocket that can funnel wind and rain in ways that catch property owners off guard. The area's mix of agricultural land, older ranch-style homes, and proximity to the Santa Maria Valley means a single severe weather event can leave behind downed trees across driveways, compromised rooflines, and standing water that has nowhere to drain quickly. Coastal Restoration Services Inc responds to that kind of damage — the kind that doesn't wait for a convenient moment.
+When a Pacific storm system pushes inland through San Luis Obispo County, Edna sits in a geographic pocket that can funnel wind and rain in ways that catch property owners off guard. The area's mix of agricultural land, older ranch-style homes, and proximity to the Santa Maria Valley means a single severe weather event can leave behind downed trees across driveways, compromised rooflines, and standing water that has nowhere to drain quickly. Coastal Restoration Services Inc responds to that kind of damage, the kind that doesn't wait for a convenient moment.
 
 ## Why Edna Properties See Storm Damage Issues
 
-Edna's climate sits at an interesting crossroads. Coastal moisture from the Pacific combines with seasonal wind events to create conditions that test structures differently than inland California communities. Older ranch homes and agricultural outbuildings common to this part of San Luis Obispo County often have wood-frame construction and aging rooflines that weren't engineered to today's wind-load standards. When a storm drops two inches of rain in under an hour — not unusual during an atmospheric river event — shallow-pitched roofs can't shed water fast enough, and water finds its way through fascia boards, attic vents, and gaps around chimney flashing.
+Edna's climate sits at an interesting crossroads. Coastal moisture from the Pacific combines with seasonal wind events to create conditions that test structures differently than inland California communities. Older ranch homes and agricultural outbuildings common to this part of San Luis Obispo County often have wood-frame construction and aging rooflines that weren't engineered to today's wind-load standards. When a storm drops two inches of rain in under an hour, not unusual during an atmospheric river event, shallow-pitched roofs can't shed water fast enough, and water finds its way through fascia boards, attic vents, and gaps around chimney flashing.
 
 The soil composition in and around Edna also plays a role. The region's clay-heavy soils absorb water slowly, which means surface runoff accumulates fast. Garages, crawl spaces, and low-lying areas around foundations can flood well before the rain stops. That standing water, if left more than 24 to 48 hours, creates the humidity conditions mold needs to begin colonizing porous materials like insulation and subflooring.
 
 ## Our Storm Damage Restoration Process in Edna
 
-Every storm job starts with a thorough damage assessment — not just what's visible, but what the moisture readings say. We use thermal imaging cameras and calibrated moisture meters to map water intrusion behind walls and under flooring before a single piece of material is removed. This matters in Edna's older housing stock, where a slow roof leak might have been quietly saturating wall cavities for days before the storm made it obvious.
+Every storm job starts with a thorough damage assessment, not just what's visible, but what the moisture readings say. We use thermal imaging cameras and calibrated moisture meters to map water intrusion behind walls and under flooring before a single piece of material is removed. This matters in Edna's older housing stock, where a slow roof leak might have been quietly saturating wall cavities for days before the storm made it obvious.
 
 From there, the process moves through four concrete phases:
 
-1. **Emergency stabilization** — tarping compromised rooflines, boarding broken windows, and extracting standing water to stop ongoing damage.
-2. **Structural drying** — industrial desiccant dehumidifiers and high-velocity air movers are positioned based on the moisture map, not guesswork. Drying typically runs three to five days depending on material depth and ambient humidity.
-3. **Debris and tree damage cleanup** — storm-felled branches and debris are cleared from structures and staging areas before reconstruction begins.
-4. **Repair and reconstruction** — damaged roofing, siding, drywall, and insulation are replaced to current California building code, with documentation for insurance purposes at every step.
+1. **Emergency stabilization**, tarping compromised rooflines, boarding broken windows, and extracting standing water to stop ongoing damage.
+2. **Structural drying**, industrial desiccant dehumidifiers and high-velocity air movers are positioned based on the moisture map, not guesswork. Drying typically runs three to five days depending on material depth and ambient humidity.
+3. **Debris and tree damage cleanup**, storm-felled branches and debris are cleared from structures and staging areas before reconstruction begins.
+4. **Repair and reconstruction**, damaged roofing, siding, drywall, and insulation are replaced to current California building code, with documentation for insurance purposes at every step.
 
 ## Reaching Edna from Vandenberg Village
 
@@ -49,6 +49,6 @@ Storm damage claims in California can move slowly if the documentation package i
 
 ## Local Note
 
-One pattern we've seen in Edna-area properties: the agricultural outbuildings and detached garages common to this part of the county often share a roofline or gutter system with the main residence. When a storm overwhelms that shared drainage, water can backflow toward the house foundation rather than away from it — the opposite of what the original grading intended. If your property has this configuration and you've just come through a major rain event, it's worth having the foundation perimeter checked for saturation even if the interior looks dry. Moisture that enters a crawl space from outside doesn't always announce itself immediately.
+One pattern we've seen in Edna-area properties: the agricultural outbuildings and detached garages common to this part of the county often share a roofline or gutter system with the main residence. When a storm overwhelms that shared drainage, water can backflow toward the house foundation rather than away from it, the opposite of what the original grading intended. If your property has this configuration and you've just come through a major rain event, it's worth having the foundation perimeter checked for saturation even if the interior looks dry. Moisture that enters a crawl space from outside doesn't always announce itself immediately.
 
-If your property in Edna has taken storm damage — whether it's a tree through a roof, a flooded garage, or water intrusion you're not sure how to trace — call Coastal Restoration Services Inc at (805) 345-7440. We'll assess the situation, explain what the damage actually involves, and give you a clear picture of next steps before any work begins.
+If your property in Edna has taken storm damage, whether it's a tree through a roof, a flooded garage, or water intrusion you're not sure how to trace, call Coastal Restoration Services Inc at (805) 345-7440. We'll assess the situation, explain what the damage actually involves, and give you a clear picture of next steps before any work begins.

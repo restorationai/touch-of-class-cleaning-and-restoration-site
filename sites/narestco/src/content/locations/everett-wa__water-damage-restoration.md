@@ -20,41 +20,41 @@ state: "WA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
-Standing water doesn't wait, and neither should you. Whether a supply line let go under your kitchen sink at 2 a.m., the Snohomish River's overflow crept into your basement, or a roof leak finally gave way during one of Everett's relentless November rain stretches, the window to prevent secondary damage — swollen framing, buckled hardwood, mold colonizing within 24 to 48 hours — is short. National Restoration Construction dispatches crews from Federal Way and reaches most Everett addresses within 60 to 90 minutes of your call, any hour of the day.
+Standing water doesn't wait, and neither should you. Whether a supply line let go under your kitchen sink at 2 a.m., the Snohomish River's overflow crept into your basement, or a roof leak finally gave way during one of Everett's relentless November rain stretches, the window to prevent secondary damage, swollen framing, buckled hardwood, mold colonizing within 24 to 48 hours, is short. National Restoration Construction dispatches crews from Federal Way and reaches most Everett addresses within 60 to 90 minutes of your call, any hour of the day.
 
 ## Why Everett Properties See Water Damage So Often
 
-Everett sits in one of the wettest urban corridors in the continental U.S. The city averages around 38 inches of rain annually, but the real problem isn't the total — it's the delivery: long, slow soaking rains from October through April that saturate soil, overwhelm aging storm drains, and push groundwater up against foundation walls. Homes in neighborhoods like Bayside, Pinehurst, and the older Craftsman and mid-century stock near Colby Avenue often have crawl spaces that were never designed for the hydrostatic pressure those conditions create.
+Everett sits in one of the wettest urban corridors in the continental U.S. The city averages around 38 inches of rain annually, but the real problem isn't the total, it's the delivery: long, slow soaking rains from October through April that saturate soil, overwhelm aging storm drains, and push groundwater up against foundation walls. Homes in neighborhoods like Bayside, Pinehurst, and the older Craftsman and mid-century stock near Colby Avenue often have crawl spaces that were never designed for the hydrostatic pressure those conditions create.
 
 Add to that the region's freeze-thaw cycles in January and February, which crack supply lines and expansion joints, and you have a housing stock that generates water emergencies year-round. Flat-roof commercial buildings along Everett's industrial waterfront corridor face their own version of the problem: ponding water and membrane failures that can push hundreds of gallons into ceiling assemblies before anyone notices a stain.
 
 ## Our Water Damage Restoration Process in Everett
 
-When a technician arrives, the first priority is stopping the source if it hasn't been stopped already — then documenting everything with moisture meters and thermal imaging before a single piece of equipment runs. That documentation matters for your insurance claim, and it tells us exactly where water migrated inside wall cavities and under flooring so we don't miss hidden saturation.
+When a technician arrives, the first priority is stopping the source if it hasn't been stopped already, then documenting everything with moisture meters and thermal imaging before a single piece of equipment runs. That documentation matters for your insurance claim, and it tells us exactly where water migrated inside wall cavities and under flooring so we don't miss hidden saturation.
 
 From there, the process moves in a deliberate sequence:
 
 **Water extraction** comes first. We use truck-mounted extraction units powerful enough to pull standing water from carpet, hardwood, and concrete in a fraction of the time a portable unit can manage. For crawl spaces and tight areas, we bring submersible pumps and specialty attachments.
 
-**Structural drying** follows immediately. Industrial-grade desiccant and refrigerant dehumidifiers, paired with high-velocity air movers, are positioned to create a drying system — not just pointed at wet spots. Readings are logged daily so we can show you and your adjuster a documented dry-down curve, not a guess.
+**Structural drying** follows immediately. Industrial-grade desiccant and refrigerant dehumidifiers, paired with high-velocity air movers, are positioned to create a drying system, not just pointed at wet spots. Readings are logged daily so we can show you and your adjuster a documented dry-down curve, not a guess.
 
 **Affected materials** are assessed for salvageability. Not everything needs to come out. Our IICRC-certified technicians use moisture content thresholds, not gut instinct, to decide what can be dried in place and what has to go. That distinction saves you money and shortens the timeline.
 
-Once the structure reads dry across all monitored points, the site is cleared for reconstruction — which we handle in-house, so there's no gap between mitigation and getting your home back to normal.
+Once the structure reads dry across all monitored points, the site is cleared for reconstruction, which we handle in-house, so there's no gap between mitigation and getting your home back to normal.
 
 ## Response Times Across Everett
 
-Our Federal Way headquarters puts us roughly 30 to 40 miles from central Everett depending on I-5 conditions. Under normal traffic, that's a 60-to-90-minute response. During off-peak hours — nights, early mornings, weekends — crews regularly reach Everett addresses in under an hour.
+Our Federal Way headquarters puts us roughly 30 to 40 miles from central Everett depending on I-5 conditions. Under normal traffic, that's a 60-to-90-minute response. During off-peak hours, nights, early mornings, weekends, crews regularly reach Everett addresses in under an hour.
 
-If you're in south Everett near the Everett Mall area or along Highway 99, you're closer to our typical route and response skews toward the faster end. North Everett, Mukilteo, and the Silver Lake neighborhood add a few minutes but remain well within our standard window. We don't have a separate after-hours line — the same number, (206) 883-0333, reaches a live dispatcher 24 hours a day.
+If you're in south Everett near the Everett Mall area or along Highway 99, you're closer to our typical route and response skews toward the faster end. North Everett, Mukilteo, and the Silver Lake neighborhood add a few minutes but remain well within our standard window. We don't have a separate after-hours line, the same number, (206) 883-0333, reaches a live dispatcher 24 hours a day.
 
 ## Navigating Your Insurance Claim
 
-Most sudden and accidental water losses — a burst pipe, an appliance failure, an ice-dam leak — are covered under standard homeowners policies. Flood damage from rising surface water is a separate policy, and that distinction matters before you file.
+Most sudden and accidental water losses, a burst pipe, an appliance failure, an ice-dam leak, are covered under standard homeowners policies. Flood damage from rising surface water is a separate policy, and that distinction matters before you file.
 
 Here's what we handle on your behalf: detailed scope-of-loss documentation, photo and moisture-log packages formatted for adjuster review, direct billing to your carrier, and communication with the field adjuster throughout the job. Here's what you'll need to do: report the claim to your insurer promptly, note your claim number, and keep us in the loop on any adjuster visit schedule so we can be on-site.
 
-We've worked with every major carrier active in the Puget Sound market and know what documentation adjusters require to approve a full scope. We're licensed through the WA State Department of Labor & Industries (#NATIORC792M6), which some carriers require before they'll authorize work — that paperwork is already in order.
+We've worked with every major carrier active in the Puget Sound market and know what documentation adjusters require to approve a full scope. We're licensed through the WA State Department of Labor & Industries (#NATIORC792M6), which some carriers require before they'll authorize work, that paperwork is already in order.
 
 ## When Every Hour Counts
 

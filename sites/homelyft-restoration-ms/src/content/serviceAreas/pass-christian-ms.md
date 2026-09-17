@@ -19,17 +19,17 @@ state: "MS"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall or storm surge pushes water under a door in Pass Christian, the clock starts immediately. HomeLyft Restoration MS responds to water damage, fire and smoke damage, mold remediation, and storm-related losses for homeowners and property managers throughout Pass Christian — handling everything from initial extraction and drying to full structural reconstruction, and working directly with insurance carriers so the process doesn't fall entirely on your shoulders.
+When a pipe bursts behind a wall or storm surge pushes water under a door in Pass Christian, the clock starts immediately. HomeLyft Restoration MS responds to water damage, fire and smoke damage, mold remediation, and storm-related losses for homeowners and property managers throughout Pass Christian, handling everything from initial extraction and drying to full structural reconstruction, and working directly with insurance carriers so the process doesn't fall entirely on your shoulders.
 
 ## Restoration emergencies common in Pass Christian
 
-Pass Christian sits on a narrow strip of Harrison County between the Gulf of Mexico and the Back Bay, and that geography shapes nearly every restoration call we receive here. The city's elevation drops sharply toward the shoreline, meaning even moderate rainfall can push groundwater into crawl spaces and slab foundations before a storm is officially named. The housing stock along the beachfront corridor skews older — many homes were built in the mid-twentieth century with materials that respond poorly to prolonged moisture: tongue-and-groove subfloors that cup and buckle, plaster walls that wick water laterally, and older HVAC systems that recirculate humid air rather than exhaust it. Inland, newer construction is more storm-hardened, but elevated slab designs create their own drainage challenges when gutters fail or grade slopes toward the foundation. Mold can begin colonizing porous materials within 24 to 48 hours of a moisture event in this climate — the Gulf Coast's summer humidity rarely drops low enough to slow that process on its own.
+Pass Christian sits on a narrow strip of Harrison County between the Gulf of Mexico and the Back Bay, and that geography shapes nearly every restoration call we receive here. The city's elevation drops sharply toward the shoreline, meaning even moderate rainfall can push groundwater into crawl spaces and slab foundations before a storm is officially named. The housing stock along the beachfront corridor skews older, many homes were built in the mid-twentieth century with materials that respond poorly to prolonged moisture: tongue-and-groove subfloors that cup and buckle, plaster walls that wick water laterally, and older HVAC systems that recirculate humid air rather than exhaust it. Inland, newer construction is more storm-hardened, but elevated slab designs create their own drainage challenges when gutters fail or grade slopes toward the foundation. Mold can begin colonizing porous materials within 24 to 48 hours of a moisture event in this climate, the Gulf Coast's summer humidity rarely drops low enough to slow that process on its own.
 
 ## Services we provide in Pass Christian
 
 ### Water damage restoration
 
-Water damage in Pass Christian often starts at the perimeter — storm-driven rain finding gaps in window seals, storm shutters, or aging roof flashing — and works inward. We extract standing water, map moisture with thermal imaging and pin meters, and dry structural assemblies to IICRC S500 standards. Crawl space encapsulation and subfloor replacement are common follow-on scopes in the older sections of the city closest to the beach.
+Water damage in Pass Christian often starts at the perimeter, storm-driven rain finding gaps in window seals, storm shutters, or aging roof flashing, and works inward. We extract standing water, map moisture with thermal imaging and pin meters, and dry structural assemblies to IICRC S500 standards. Crawl space encapsulation and subfloor replacement are common follow-on scopes in the older sections of the city closest to the beach.
 
 ### Mold remediation
 
@@ -41,19 +41,19 @@ House fires in Pass Christian frequently involve older wood-frame construction t
 
 ### Storm damage and reconstruction
 
-Hurricane-force winds and the surge events that follow are a recurring reality for Pass Christian. We handle emergency tarping and board-up, debris removal, structural drying, and full reconstruction — roofing, framing, drywall, flooring, and interior finishes. Working with a single contractor from mitigation through rebuild reduces the documentation gaps that slow insurance claims.
+Hurricane-force winds and the surge events that follow are a recurring reality for Pass Christian. We handle emergency tarping and board-up, debris removal, structural drying, and full reconstruction, roofing, framing, drywall, flooring, and interior finishes. Working with a single contractor from mitigation through rebuild reduces the documentation gaps that slow insurance claims.
 
 ### Biohazard and specialty cleanup
 
-Sewage backups — common after heavy rainfall overwhelms older municipal infrastructure in parts of the city — require Category 3 water protocols: full removal of contaminated materials, disinfection, and controlled drying. We also handle other biohazard scenarios under appropriate safety protocols.
+Sewage backups, common after heavy rainfall overwhelms older municipal infrastructure in parts of the city, require Category 3 water protocols: full removal of contaminated materials, disinfection, and controlled drying. We also handle other biohazard scenarios under appropriate safety protocols.
 
 ## Coverage and how fast we can get there
 
-HomeLyft Restoration MS is headquartered in Gulfport, and Pass Christian is a direct run west on U.S. Highway 90 — roughly 12 miles from our office to the heart of the city. Depending on traffic and the specific address, that typically puts a crew in Pass Christian well within the first hour of a call during business hours. The beachfront areas along Scenic Drive and the residential blocks north toward Henderson Point are all within our standard service zone. If you are coordinating from a property management office or managing multiple units, we can stage equipment and communicate status updates to keep your operation informed throughout the job.
+HomeLyft Restoration MS is headquartered in Gulfport, and Pass Christian is a direct run west on U.S. Highway 90, roughly 12 miles from our office to the heart of the city. Depending on traffic and the specific address, that typically puts a crew in Pass Christian well within the first hour of a call during business hours. The beachfront areas along Scenic Drive and the residential blocks north toward Henderson Point are all within our standard service zone. If you are coordinating from a property management office or managing multiple units, we can stage equipment and communicate status updates to keep your operation informed throughout the job.
 
 ## Building stock, site conditions, and permits in Pass Christian
 
-A large share of what stands in Pass Christian today was rebuilt after Katrina, and those homes are typically elevated on piers or masonry columns with an open or breakaway area underneath. That matters during a loss: the floor system, ductwork, and supply lines under the house are exposed, and a leak up top drains through the framing instead of pooling where you can see it. Surviving older houses are the opposite problem — cast iron drains and galvanized or early copper supply that fail at joints and inside walls.
+A large share of what stands in Pass Christian today was rebuilt after Katrina, and those homes are typically elevated on piers or masonry columns with an open or breakaway area underneath. That matters during a loss: the floor system, ductwork, and supply lines under the house are exposed, and a leak up top drains through the framing instead of pooling where you can see it. Surviving older houses are the opposite problem, cast iron drains and galvanized or early copper supply that fail at joints and inside walls.
 
 Soils near the shoreline run sandy over clay with a shallow water table, so below-grade drying is slow and re-wetting is common.
 

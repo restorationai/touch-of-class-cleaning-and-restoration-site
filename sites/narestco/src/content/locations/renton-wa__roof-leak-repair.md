@@ -20,38 +20,38 @@ state: "WA"
 service_display: "Roof Leak Cleanup and Repair"
 rendered: true
 ---
-Rain is coming through your ceiling right now — or it did last night, and you're staring at a water stain that wasn't there yesterday. Either way, the clock is already running. Mold can begin colonizing wet insulation and drywall within 24 to 48 hours, and a small roof breach can push hundreds of gallons of water into your attic before the storm even passes. National Restoration Construction has been responding to exactly this kind of emergency across the South King County area since 2004, and our crews can typically reach Renton properties within 60 to 90 minutes of your call.
+Rain is coming through your ceiling right now, or it did last night, and you're staring at a water stain that wasn't there yesterday. Either way, the clock is already running. Mold can begin colonizing wet insulation and drywall within 24 to 48 hours, and a small roof breach can push hundreds of gallons of water into your attic before the storm even passes. National Restoration Construction has been responding to exactly this kind of emergency across the South King County area since 2004, and our crews can typically reach Renton properties within 60 to 90 minutes of your call.
 
 ## Why Renton Properties Are Especially Vulnerable to Roof Leaks
 
-Renton sits at the foot of the Cascade foothills, which means it catches more sustained rainfall than many parts of the metro — and the wind patterns off Lake Washington can drive water sideways under flashing and around ridge caps in ways that flat-calm weather never reveals. The housing stock in neighborhoods like Kennydale, Talbot Hill, and the Highlands includes a lot of mid-century construction where original roofing materials are at or past their service life. Cedar shakes, aging composition shingles, and flat torch-down membranes on commercial properties along Rainier Avenue all develop the same failure points: cracked flashing around chimneys and skylights, lifted shingles at the eaves, and deteriorated sealant around HVAC penetrations.
+Renton sits at the foot of the Cascade foothills, which means it catches more sustained rainfall than many parts of the metro, and the wind patterns off Lake Washington can drive water sideways under flashing and around ridge caps in ways that flat-calm weather never reveals. The housing stock in neighborhoods like Kennydale, Talbot Hill, and the Highlands includes a lot of mid-century construction where original roofing materials are at or past their service life. Cedar shakes, aging composition shingles, and flat torch-down membranes on commercial properties along Rainier Avenue all develop the same failure points: cracked flashing around chimneys and skylights, lifted shingles at the eaves, and deteriorated sealant around HVAC penetrations.
 
-When those points fail during a multi-day Pacific storm system — the kind that parks over the region from November through March — the interior damage compounds fast. Attic water damage soaks blown-in insulation until it collapses onto the ceiling drywall below. Ceiling water damage spreads laterally through framing cavities, showing up as a stain six feet from where the actual breach is. By the time most homeowners notice, the moisture has already traveled.
+When those points fail during a multi-day Pacific storm system, the kind that parks over the region from November through March, the interior damage compounds fast. Attic water damage soaks blown-in insulation until it collapses onto the ceiling drywall below. Ceiling water damage spreads laterally through framing cavities, showing up as a stain six feet from where the actual breach is. By the time most homeowners notice, the moisture has already traveled.
 
 ## What Our Roof Leak Cleanup and Repair Process Looks Like
 
-When we arrive, the first priority is stopping ongoing intrusion. We carry emergency tarping materials on every service vehicle, so if the repair itself can't be completed same-day — because weather is still active or because the scope requires a full tear-off — we secure the structure before we touch anything inside.
+When we arrive, the first priority is stopping ongoing intrusion. We carry emergency tarping materials on every service vehicle, so if the repair itself can't be completed same-day, because weather is still active or because the scope requires a full tear-off, we secure the structure before we touch anything inside.
 
 From there, the process moves in a deliberate sequence:
 
 **Moisture mapping.** We use thermal imaging cameras and non-invasive moisture meters to trace exactly how far water has traveled through your attic, insulation, framing, and ceiling assemblies. This matters because visible staining is almost always smaller than the actual wet zone.
 
-**Extraction and drying.** Saturated insulation is removed and bagged. Truck-mounted extraction equipment pulls standing water from any cavity that has pooled. Commercial-grade desiccant dehumidifiers and high-velocity air movers are set throughout the affected area — typically running for three to five days, with daily moisture readings to confirm the structure is drying on schedule.
+**Extraction and drying.** Saturated insulation is removed and bagged. Truck-mounted extraction equipment pulls standing water from any cavity that has pooled. Commercial-grade desiccant dehumidifiers and high-velocity air movers are set throughout the affected area, typically running for three to five days, with daily moisture readings to confirm the structure is drying on schedule.
 
 **Structural assessment.** Prolonged saturation can compromise roof sheathing, rafters, and ceiling joists. We document any structural concerns with photos and written notes, both for your records and for the insurance adjuster.
 
-**Roof repair.** As an IICRC Certified restoration contractor and Washington State licensed general contractor (L&I #NATIORC792M6), we handle the repair side in-house — replacing damaged sheathing, installing new flashing, and matching shingle or membrane material — rather than handing you off to a separate roofer mid-project.
+**Roof repair.** As an IICRC Certified restoration contractor and Washington State licensed general contractor (L&I #NATIORC792M6), we handle the repair side in-house, replacing damaged sheathing, installing new flashing, and matching shingle or membrane material, rather than handing you off to a separate roofer mid-project.
 
 **Interior restoration.** Once the structure passes final moisture readings, we replace insulation, close up drywall, texture, and paint. The goal is to return the space to pre-loss condition, not just dry it out and leave.
 
 ## Navigating the Insurance Claim
 
-Sudden and accidental roof leak damage is typically covered under standard homeowners' policies, but the language matters. Most policies cover the resulting interior damage — the soaked insulation, the ruined drywall, the damaged flooring — even when they exclude the roof repair itself as a maintenance issue. That distinction trips up a lot of homeowners.
+Sudden and accidental roof leak damage is typically covered under standard homeowners' policies, but the language matters. Most policies cover the resulting interior damage, the soaked insulation, the ruined drywall, the damaged flooring, even when they exclude the roof repair itself as a maintenance issue. That distinction trips up a lot of homeowners.
 
 We work directly with adjusters from most major carriers and can provide the moisture documentation, photo evidence, and itemized scope of work they need to process your claim efficiently. We'll walk you through what to photograph before we start work, how to file the initial notice of loss, and what to expect during the adjuster's inspection. You don't need to figure out the paperwork alone while your ceiling is still dripping.
 
 ## How Quickly We Can Reach You in Renton
 
-Our headquarters is in Federal Way, roughly 12 miles south of downtown Renton via I-405 or SR-167. Under normal traffic, that puts a crew at most Renton addresses in under an hour. For properties in South Renton, the Benson Hill area, or along the Valley corridor, response is often faster. Evening and weekend calls get the same response commitment — roof leaks don't wait for business hours, and neither do we.
+Our headquarters is in Federal Way, roughly 12 miles south of downtown Renton via I-405 or SR-167. Under normal traffic, that puts a crew at most Renton addresses in under an hour. For properties in South Renton, the Benson Hill area, or along the Valley corridor, response is often faster. Evening and weekend calls get the same response commitment, roof leaks don't wait for business hours, and neither do we.
 
 If you're not sure whether what you're seeing is an emergency, call (206) 883-0333 anyway. Describing what you're looking at takes two minutes, and we can tell you whether it needs same-day attention or can wait until morning without making the damage worse.

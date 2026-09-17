@@ -20,40 +20,40 @@ state: "MN"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-When a fire tears through a home near Lake Sarah or a commercial building in Downtown Slayton, the damage doesn't stop when the flames do. Smoke and soot keep working — etching surfaces, corroding metal fixtures, and embedding odor into wall cavities — while the water used to suppress the fire soaks into subflooring and insulation. In a county seat like Slayton, where many structures carry decades of history and the nearest large metro is hours away, getting a qualified restoration crew on-site fast is the difference between saving a structure and losing it.
+When a fire tears through a home near Lake Sarah or a commercial building in Downtown Slayton, the damage doesn't stop when the flames do. Smoke and soot keep working, etching surfaces, corroding metal fixtures, and embedding odor into wall cavities, while the water used to suppress the fire soaks into subflooring and insulation. In a county seat like Slayton, where many structures carry decades of history and the nearest large metro is hours away, getting a qualified restoration crew on-site fast is the difference between saving a structure and losing it.
 
 ## Why Slayton Properties See Fire Damage Differently
 
-Murray County's housing stock skews older. Many homes in and around Downtown Slayton were built in the mid-20th century or earlier, which means you're likely dealing with original wood-framed walls, plaster-and-lath construction, and older electrical systems that can complicate both the fire's spread and the restoration afterward. Plaster absorbs smoke residue differently than modern drywall — the surface may look cleanable, but soot particles migrate into the plaster matrix itself, requiring more aggressive chemical sponging and sealing before any repainting.
+Murray County's housing stock skews older. Many homes in and around Downtown Slayton were built in the mid-20th century or earlier, which means you're likely dealing with original wood-framed walls, plaster-and-lath construction, and older electrical systems that can complicate both the fire's spread and the restoration afterward. Plaster absorbs smoke residue differently than modern drywall, the surface may look cleanable, but soot particles migrate into the plaster matrix itself, requiring more aggressive chemical sponging and sealing before any repainting.
 
-Slayton's prairie climate adds another layer. Winters in southwest Minnesota bring sustained cold that can freeze water-soaked structural cavities before drying equipment can do its job. If a fire happens in January and suppression water sits in a wall cavity overnight, you may be dealing with ice expansion and secondary structural damage by morning. Summer humidity, meanwhile, slows evaporation and accelerates mold colonization in fire-damaged areas — mold can begin establishing within 24 to 48 hours in wet, carbon-rich char.
+Slayton's prairie climate adds another layer. Winters in southwest Minnesota bring sustained cold that can freeze water-soaked structural cavities before drying equipment can do its job. If a fire happens in January and suppression water sits in a wall cavity overnight, you may be dealing with ice expansion and secondary structural damage by morning. Summer humidity, meanwhile, slows evaporation and accelerates mold colonization in fire-damaged areas, mold can begin establishing within 24 to 48 hours in wet, carbon-rich char.
 
 ## Our Fire Damage Restoration Process in Slayton
 
 Every fire loss is different, but the sequence of work follows a disciplined order that protects both the structure and the people inside it.
 
-**Board-up and stabilization** comes first. Open walls, broken windows, and compromised rooflines need to be secured before any assessment or cleaning begins — both to prevent weather intrusion and to keep the site safe for the crew working inside.
+**Board-up and stabilization** comes first. Open walls, broken windows, and compromised rooflines need to be secured before any assessment or cleaning begins, both to prevent weather intrusion and to keep the site safe for the crew working inside.
 
 **Damage mapping and documentation** follows immediately. We photograph and catalog every affected surface, structural member, and content item. This documentation is the foundation of your insurance claim, and thorough records at this stage prevent disputes later.
 
-**Soot and smoke removal** is the most labor-intensive phase. Dry soot from fast-burning fires behaves differently than wet, oily soot from smoldering synthetic materials — and older Slayton homes often contain a mix of both because they combine original wood framing with later additions of synthetic insulation and cabinetry. We use dry chemical sponges, HEPA vacuuming, and appropriate cleaning agents matched to each surface type.
+**Soot and smoke removal** is the most labor-intensive phase. Dry soot from fast-burning fires behaves differently than wet, oily soot from smoldering synthetic materials, and older Slayton homes often contain a mix of both because they combine original wood framing with later additions of synthetic insulation and cabinetry. We use dry chemical sponges, HEPA vacuuming, and appropriate cleaning agents matched to each surface type.
 
 **Structural drying** addresses suppression water. Moisture meters guide placement of air movers and dehumidifiers, and we track readings daily until materials reach target moisture content.
 
-**Odor neutralization** closes the loop. Thermal fogging and hydroxyl generation reach into wall cavities and ductwork where surface cleaning can't — critical in older homes where smoke has had time to migrate deep into framing.
+**Odor neutralization** closes the loop. Thermal fogging and hydroxyl generation reach into wall cavities and ductwork where surface cleaning can't, critical in older homes where smoke has had time to migrate deep into framing.
 
 ## Reaching Slayton from Sioux Falls
 
-Crew Restoration & Construction is based in Sioux Falls, SD. Slayton sits roughly 90 miles northeast via US-14, a straightforward route across open prairie that our crews know well. We serve the 56172 ZIP code and the surrounding Murray County area on a scheduled basis. When you call (605) 965-2727, our team will give you an honest arrival window based on current crew availability — we won't promise a number we can't keep.
+Crew Restoration & Construction is based in Sioux Falls, SD. Slayton sits roughly 90 miles northeast via US-14, a straightforward route across open prairie that our crews know well. We serve the 56172 ZIP code and the surrounding Murray County area on a scheduled basis. When you call (605) 965-2727, our team will give you an honest arrival window based on current crew availability, we won't promise a number we can't keep.
 
-For properties near the Lake Sarah area or along the county roads east of Downtown Slayton, we ask callers to note any access considerations when they first reach us — gravel approaches, seasonal road restrictions, or shared driveways — so we can stage equipment efficiently on arrival.
+For properties near the Lake Sarah area or along the county roads east of Downtown Slayton, we ask callers to note any access considerations when they first reach us, gravel approaches, seasonal road restrictions, or shared driveways, so we can stage equipment efficiently on arrival.
 
 ## Slayton Insurance Coordination
 
-Fire claims in rural Minnesota often involve adjusters who are managing multiple properties across a wide geographic area, which means documentation quality matters more, not less. We prepare a detailed scope of loss — line-item estimates, moisture logs, photo sets, and materials inventories — formatted to align with standard carrier requirements. We work directly with your adjuster and can communicate on your behalf if you're displaced or overwhelmed in the days after a fire. We bill carriers directly where that arrangement is available, reducing the out-of-pocket burden during an already stressful period.
+Fire claims in rural Minnesota often involve adjusters who are managing multiple properties across a wide geographic area, which means documentation quality matters more, not less. We prepare a detailed scope of loss, line-item estimates, moisture logs, photo sets, and materials inventories, formatted to align with standard carrier requirements. We work directly with your adjuster and can communicate on your behalf if you're displaced or overwhelmed in the days after a fire. We bill carriers directly where that arrangement is available, reducing the out-of-pocket burden during an already stressful period.
 
 ## Local Note
 
-One thing that surprises homeowners in older Slayton properties: the knob-and-tube wiring found in some pre-1950 homes doesn't just create fire risk — it complicates restoration. When fire or suppression water damages a structure with active knob-and-tube circuits, the electrical system typically needs a licensed electrician to inspect and often re-route before restoration crews can safely work in those wall cavities. We flag this early in our assessment and coordinate with local electricians rather than letting it stall the project mid-stream.
+One thing that surprises homeowners in older Slayton properties: the knob-and-tube wiring found in some pre-1950 homes doesn't just create fire risk, it complicates restoration. When fire or suppression water damages a structure with active knob-and-tube circuits, the electrical system typically needs a licensed electrician to inspect and often re-route before restoration crews can safely work in those wall cavities. We flag this early in our assessment and coordinate with local electricians rather than letting it stall the project mid-stream.
 
 If your home or business in Slayton has been affected by fire, the clock is already running on smoke damage and secondary moisture issues. Call (605) 965-2727 to speak with a Crew Restoration & Construction team member and get a clear picture of what comes next.

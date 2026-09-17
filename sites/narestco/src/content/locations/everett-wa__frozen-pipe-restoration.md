@@ -20,40 +20,40 @@ state: "WA"
 service_display: "Frozen Pipe Restoration"
 rendered: true
 ---
-A pipe that freezes overnight in Everett can release dozens of gallons into your walls, subfloor, or crawl space before you even know it's happening. If you're reading this because water is already spreading — or because you just turned the heat back on and heard something you didn't expect — National Restoration Construction responds to frozen pipe emergencies across Everett and the broader Snohomish County area. We extract standing water, dry structural materials, and handle repairs so you're not left coordinating three different contractors while a wet wall grows mold behind the drywall.
+A pipe that freezes overnight in Everett can release dozens of gallons into your walls, subfloor, or crawl space before you even know it's happening. If you're reading this because water is already spreading, or because you just turned the heat back on and heard something you didn't expect, National Restoration Construction responds to frozen pipe emergencies across Everett and the broader Snohomish County area. We extract standing water, dry structural materials, and handle repairs so you're not left coordinating three different contractors while a wet wall grows mold behind the drywall.
 
 ## Why Everett Properties Are Vulnerable to Frozen Pipe Damage
 
-Everett sits in a climate band that's deceptive. Temperatures rarely stay below freezing for weeks at a time the way they do in eastern Washington, which means a lot of local homes — particularly the older Craftsman and mid-century wood-frame stock in neighborhoods like Riverside, Pinehurst, and North Everett — were never built with aggressive pipe insulation in mind. Supply lines running through unheated crawl spaces, garage walls, or exterior-facing cabinets are the usual suspects.
+Everett sits in a climate band that's deceptive. Temperatures rarely stay below freezing for weeks at a time the way they do in eastern Washington, which means a lot of local homes, particularly the older Craftsman and mid-century wood-frame stock in neighborhoods like Riverside, Pinehurst, and North Everett, were never built with aggressive pipe insulation in mind. Supply lines running through unheated crawl spaces, garage walls, or exterior-facing cabinets are the usual suspects.
 
 The Puget Sound region also gets its coldest snaps in short, sharp bursts: a few nights in the low 20s, then a quick thaw. That freeze-thaw cycle is actually harder on pipes than a sustained cold spell, because the ice expands, cracks the pipe wall, and then the thaw sends pressurized water straight through the fracture. By the time you see a wet ceiling or a puddle on the kitchen floor, the water has often been migrating through framing and insulation for hours.
 
 ## Our Frozen Pipe Restoration Process in Everett
 
-When we arrive — typically within 60 to 90 minutes of your call from our Federal Way headquarters, with response times on the shorter end for properties near I-5 or Highway 99 — the first priority is stopping the water source if it hasn't been stopped already. We'll locate the shutoff, assess which pipe failed, and document the damage for your insurance carrier before we touch anything.
+When we arrive, typically within 60 to 90 minutes of your call from our Federal Way headquarters, with response times on the shorter end for properties near I-5 or Highway 99, the first priority is stopping the water source if it hasn't been stopped already. We'll locate the shutoff, assess which pipe failed, and document the damage for your insurance carrier before we touch anything.
 
 From there, the process moves in a deliberate sequence:
 
 **Water extraction and containment.** Truck-mounted extraction equipment pulls standing water from hardwood floors, carpet, and subfloor assemblies faster than portable units. We set containment where needed to keep wet air from migrating into unaffected rooms.
 
-**Structural drying.** Industrial desiccant dehumidifiers and high-velocity air movers run continuously — sometimes for three to five days depending on material depth and ambient conditions — while moisture meters track readings inside wall cavities and floor assemblies. We don't call a structure dry until the numbers confirm it.
+**Structural drying.** Industrial desiccant dehumidifiers and high-velocity air movers run continuously, sometimes for three to five days depending on material depth and ambient conditions, while moisture meters track readings inside wall cavities and floor assemblies. We don't call a structure dry until the numbers confirm it.
 
 **Mold prevention.** Everett's ambient humidity means that wet framing left untreated for 48 to 72 hours is already a mold risk. We apply EPA-registered antimicrobial treatments to affected cavities as part of standard protocol, not as an add-on.
 
-**Repair and reconstruction.** As a licensed general contractor (WA L&I #NATIORC792M6), we handle the rebuild — drywall, insulation, flooring, trim — so the job closes with a single point of contact rather than a handoff to a separate crew.
+**Repair and reconstruction.** As a licensed general contractor (WA L&I #NATIORC792M6), we handle the rebuild, drywall, insulation, flooring, trim, so the job closes with a single point of contact rather than a handoff to a separate crew.
 
 ## Insurance Claims for Frozen Pipe Damage
 
-Sudden and accidental water damage from a burst pipe is covered under most standard homeowners policies in Washington state, but the claim process has details that trip people up. We've worked with virtually every major carrier that insures Everett properties, and our documentation — moisture mapping, photo logs, equipment placement records, and itemized scope of work — is formatted to meet adjuster requirements.
+Sudden and accidental water damage from a burst pipe is covered under most standard homeowners policies in Washington state, but the claim process has details that trip people up. We've worked with virtually every major carrier that insures Everett properties, and our documentation, moisture mapping, photo logs, equipment placement records, and itemized scope of work, is formatted to meet adjuster requirements.
 
 What we handle: damage documentation, scope writing, direct communication with your adjuster, and supplemental claims if hidden damage turns up during demo. What stays with you: your deductible, your policy review, and the final approval signature. We don't make promises about what your policy covers, but we make sure the adjuster has everything they need to make a fair determination.
 
 ## Response Times Across Everett
 
-National Restoration Construction has operated in the greater Seattle metro since 2004, and Everett is well within our active service corridor. From our Federal Way base, most Everett addresses are reachable in under an hour under normal traffic conditions — faster during off-peak hours or when a crew is already deployed in Snohomish County. Properties near the Everett waterfront, Silver Lake, or Mukilteo Boulevard typically fall in the 45-to-60-minute window.
+National Restoration Construction has operated in the greater Seattle metro since 2004, and Everett is well within our active service corridor. From our Federal Way base, most Everett addresses are reachable in under an hour under normal traffic conditions, faster during off-peak hours or when a crew is already deployed in Snohomish County. Properties near the Everett waterfront, Silver Lake, or Mukilteo Boulevard typically fall in the 45-to-60-minute window.
 
 Winter pipe emergencies don't follow business hours. We take calls around the clock because the damage doesn't pause while you wait for morning.
 
 ---
 
-If water is moving through your home right now, the next 30 minutes matter more than the next 30 days of repairs. Reach National Restoration Construction at **(206) 883-0333** — an IICRC-certified technician will walk you through what to do before we arrive and get a crew headed your way.
+If water is moving through your home right now, the next 30 minutes matter more than the next 30 days of repairs. Reach National Restoration Construction at **(206) 883-0333**, an IICRC-certified technician will walk you through what to do before we arrive and get a crew headed your way.

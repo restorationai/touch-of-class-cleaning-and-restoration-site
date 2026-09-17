@@ -22,19 +22,19 @@ This privacy policy explains how ProRestoration Services Inc. collects, uses, an
 
 ## Information We Collect
 
-When you fill out a contact or estimate request form, we collect the details you provide — typically your name, phone number, property address, and a description of the damage or service you need. We do not require you to create an account or submit payment information through this website.
+When you fill out a contact or estimate request form, we collect the details you provide, typically your name, phone number, property address, and a description of the damage or service you need. We do not require you to create an account or submit payment information through this website.
 
 The site also collects basic, anonymized analytics data (pages visited, approximate location at the city or region level, device type, and referral source) through standard web analytics tools. This data does not identify you personally and is used only to understand how visitors find and use the site so we can improve it.
 
 ## How We Use Your Information
 
-We use the contact information you submit to respond to your inquiry, schedule on-site estimates, and coordinate the documentation your insurance carrier may require during the claims process. If you authorize us to work directly with your insurer — which most clients do — we share relevant project documentation (photos, moisture readings, scope of work) with that carrier on your behalf. We do not share your information with any third party without your explicit authorization.
+We use the contact information you submit to respond to your inquiry, schedule on-site estimates, and coordinate the documentation your insurance carrier may require during the claims process. If you authorize us to work directly with your insurer, which most clients do, we share relevant project documentation (photos, moisture readings, scope of work) with that carrier on your behalf. We do not share your information with any third party without your explicit authorization.
 
 We do not sell, rent, or trade your personal information. Ever.
 
 ## Insurance Coordination
 
-Restoration work often runs through a homeowner's or property owner's insurance policy. When you ask us to bill your carrier directly or communicate with an adjuster, we treat that as your authorization to share the project details necessary to process the claim. We share only what is relevant to your loss — nothing more.
+Restoration work often runs through a homeowner's or property owner's insurance policy. When you ask us to bill your carrier directly or communicate with an adjuster, we treat that as your authorization to share the project details necessary to process the claim. We share only what is relevant to your loss, nothing more.
 
 ## Data Retention
 

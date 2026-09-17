@@ -17,17 +17,17 @@ service_slug: "storm-damage-restoration"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
-A storm doesn't announce how much damage it left behind. The roof takes the obvious hit — shingles stripped, a branch through the fascia — but the water that followed has already moved into the attic insulation, down the wall cavities, and under the subfloor before the rain stops. That hidden moisture is what turns a $4,000 repair into a $40,000 restoration if it's missed in the first 48 to 72 hours. Storm damage restoration is the work of finding all of it, stopping the secondary damage, and rebuilding what can't be saved.
+A storm doesn't announce how much damage it left behind. The roof takes the obvious hit, shingles stripped, a branch through the fascia, but the water that followed has already moved into the attic insulation, down the wall cavities, and under the subfloor before the rain stops. That hidden moisture is what turns a $4,000 repair into a $40,000 restoration if it's missed in the first 48 to 72 hours. Storm damage restoration is the work of finding all of it, stopping the secondary damage, and rebuilding what can't be saved.
 
 ## What Storm Damage Restoration actually involves
 
-Storm losses are layered. Wind peels back the building envelope — roofing, siding, windows, doors — and water exploits every gap. In the Mojave Desert climate around Henderson, the threat isn't a prolonged rainy season; it's the intensity of monsoon-season downpours hitting sun-baked, compacted soil that can't absorb water fast enough. Flash flooding pushes debris-laden water into garages and ground-floor rooms. Microbursts drive rain horizontally under roof flashing and through soffit vents that were never designed to handle that angle of entry.
+Storm losses are layered. Wind peels back the building envelope, roofing, siding, windows, doors, and water exploits every gap. In the Mojave Desert climate around Henderson, the threat isn't a prolonged rainy season; it's the intensity of monsoon-season downpours hitting sun-baked, compacted soil that can't absorb water fast enough. Flash flooding pushes debris-laden water into garages and ground-floor rooms. Microbursts drive rain horizontally under roof flashing and through soffit vents that were never designed to handle that angle of entry.
 
 The work involves:
 
 - **Emergency tarping and board-up** to close the building envelope before secondary rain events or wind cause additional loss
 - **Moisture mapping** using thermal imaging cameras and penetrating moisture meters to trace where water traveled inside wall assemblies and flooring systems
-- **Structural drying** with industrial air movers and refrigerant or desiccant dehumidifiers sized to the affected area — not residential box fans
+- **Structural drying** with industrial air movers and refrigerant or desiccant dehumidifiers sized to the affected area, not residential box fans
 - **Debris removal and selective demolition** of materials that are saturated beyond drying thresholds (typically drywall that has absorbed Category 1 water past the point of structural integrity, or any material touched by Category 3 floodwater)
 - **Reconstruction** scoped to match existing materials, finishes, and code requirements
 
@@ -37,11 +37,11 @@ Timeline depends on the scope. Emergency stabilization happens in the first hour
 
 1. **Damage assessment and emergency stabilization.** The crew walks the exterior and interior, documents every point of entry, and photographs the full loss for insurance purposes. If the roof or windows are open to weather, tarping and board-up happen before anything else.
 
-2. **Moisture mapping.** Thermal imaging reveals temperature differentials behind walls and ceilings where water has wicked into framing or insulation. Penetrating meters confirm actual moisture content in wood and drywall. This step defines the true scope — not just what's visibly wet, but what's wet inside the assembly.
+2. **Moisture mapping.** Thermal imaging reveals temperature differentials behind walls and ceilings where water has wicked into framing or insulation. Penetrating meters confirm actual moisture content in wood and drywall. This step defines the true scope, not just what's visibly wet, but what's wet inside the assembly.
 
-3. **Selective demolition and debris removal.** Materials that can't be dried in place — saturated insulation, buckled flooring, drywall below the flood line — are removed and documented by category for the insurance claim. Structural framing is evaluated for integrity before drying equipment is placed.
+3. **Selective demolition and debris removal.** Materials that can't be dried in place, saturated insulation, buckled flooring, drywall below the flood line, are removed and documented by category for the insurance claim. Structural framing is evaluated for integrity before drying equipment is placed.
 
-4. **Structural drying and monitoring.** Air movers and dehumidifiers are positioned according to the drying plan, not just pointed at wet spots. Moisture readings are logged daily. Equipment is adjusted as materials dry to maintain efficient evaporation rates. Drying is complete when affected materials reach a dry standard consistent with IICRC S500 guidelines — not when the surface feels dry to the touch.
+4. **Structural drying and monitoring.** Air movers and dehumidifiers are positioned according to the drying plan, not just pointed at wet spots. Moisture readings are logged daily. Equipment is adjusted as materials dry to maintain efficient evaporation rates. Drying is complete when affected materials reach a dry standard consistent with IICRC S500 guidelines, not when the surface feels dry to the touch.
 
 5. **Reconstruction scoping and rebuild.** Once the structure is dry and stable, a written scope of work covers framing repairs, insulation replacement, drywall, roofing, siding, and finish work. Permits are pulled where required by Clark County or the City of Henderson.
 
@@ -55,12 +55,12 @@ Other things that separate thorough storm restoration from a surface-level clean
 
 - Identifying wind-driven water that entered through soffit vents or ridge vents, not just obvious roof penetrations
 - Recognizing when Category 1 rainwater has become Category 3 by contact with soil, sewage backup, or standing time beyond 72 hours
-- Testing for pre-existing conditions (mold, asbestos, lead paint in older Henderson homes) before demolition begins — the EPA Lead-Safe certification the team holds matters here
+- Testing for pre-existing conditions (mold, asbestos, lead paint in older Henderson homes) before demolition begins, the EPA Lead-Safe certification the team holds matters here
 - Distinguishing structural damage that requires a licensed contractor from cosmetic damage that doesn't, and knowing when a structural engineer's assessment is warranted
 
 ## What does Storm Damage Restoration cost?
 
-Typical costs for storm damage restoration vary widely depending on how much of the building envelope was breached, how far water traveled, and what materials need replacement. Most homeowners pay somewhere in the ranges below — these are industry-typical figures, not quotes.
+Typical costs for storm damage restoration vary widely depending on how much of the building envelope was breached, how far water traveled, and what materials need replacement. Most homeowners pay somewhere in the ranges below, these are industry-typical figures, not quotes.
 
 | Scenario | Typical range |
 |---|---|
@@ -71,15 +71,15 @@ Typical costs for storm damage restoration vary widely depending on how much of 
 | Significant structural damage with full reconstruction | $25,000 – $80,000+ |
 | Flash flood with Category 3 water, full gut and rebuild | $40,000 – $100,000+ |
 
-Every loss is different, and Life Savers Restoration LLC provides a written scope of work before any restoration begins so there are no surprises. Homeowners insurance typically covers sudden and accidental storm damage — wind, hail, lightning, and resulting water intrusion — though flood damage from rising groundwater usually requires a separate NFIP or private flood policy.
+Every loss is different, and Life Savers Restoration LLC provides a written scope of work before any restoration begins so there are no surprises. Homeowners insurance typically covers sudden and accidental storm damage, wind, hail, lightning, and resulting water intrusion, though flood damage from rising groundwater usually requires a separate NFIP or private flood policy.
 
 ## Seasonal and regional considerations
 
-Henderson and the broader Las Vegas Valley sit in a desert climate that produces storm damage in patterns most homeowners don't expect. The North American Monsoon brings intense thunderstorms from roughly July through September. These storms can drop an inch of rain in under an hour on soil that's spent months baking dry — the result is rapid surface runoff, flash flooding in low-lying streets, and water entering homes through window wells, garage doors, and any gap in the foundation stem wall.
+Henderson and the broader Las Vegas Valley sit in a desert climate that produces storm damage in patterns most homeowners don't expect. The North American Monsoon brings intense thunderstorms from roughly July through September. These storms can drop an inch of rain in under an hour on soil that's spent months baking dry, the result is rapid surface runoff, flash flooding in low-lying streets, and water entering homes through window wells, garage doors, and any gap in the foundation stem wall.
 
 Winter brings a different risk: occasional freezing temperatures at higher elevations in the valley can cause pipe bursts that compound roof or window damage from wind events. Homes built before the mid-1990s in Henderson's older neighborhoods often have original single-pane windows and aging roof flashing that performs poorly under wind-driven rain.
 
-High winds — particularly the Santa Ana-influenced gusts that move through the valley in fall and spring — can exceed 60 mph and are responsible for most of the tree-on-structure damage and fence collapses that follow storms in this area.
+High winds, particularly the Santa Ana-influenced gusts that move through the valley in fall and spring, can exceed 60 mph and are responsible for most of the tree-on-structure damage and fence collapses that follow storms in this area.
 
 ## Service area
 
@@ -87,4 +87,4 @@ Life Savers Restoration LLC is based in Henderson and responds to storm damage t
 
 ---
 
-If a storm has left your roof open, your walls wet, or your floors buckled, the clock on secondary damage is already running. Call Life Savers Restoration LLC at (702) 845-1325 to schedule your storm damage assessment — the sooner moisture is mapped and the building envelope is closed, the more of your home and your claim can be saved.
+If a storm has left your roof open, your walls wet, or your floors buckled, the clock on secondary damage is already running. Call Life Savers Restoration LLC at (702) 845-1325 to schedule your storm damage assessment, the sooner moisture is mapped and the building envelope is closed, the more of your home and your claim can be saved.

@@ -28,11 +28,11 @@ Davis Construction Inc. is based in Madison, AL and primarily serves the greater
 
 ## Estimates and Work Authorization
 
-Any estimate, quote, or proposal provided — whether delivered in person, by phone, or in writing — is not a binding contract. No work begins and no service relationship is formed until both parties have signed a written work-authorization form. That signed document governs the scope of work, pricing, timeline, and all other material terms of the project. If there is ever a conflict between information on this website and a signed work-authorization form, the signed form controls.
+Any estimate, quote, or proposal provided, whether delivered in person, by phone, or in writing, is not a binding contract. No work begins and no service relationship is formed until both parties have signed a written work-authorization form. That signed document governs the scope of work, pricing, timeline, and all other material terms of the project. If there is ever a conflict between information on this website and a signed work-authorization form, the signed form controls.
 
 ## Payment Terms
 
-Payment expectations are outlined in the work-authorization form for each project. Davis Construction Inc. accepts payment by check, major credit cards, and electronic transfer unless otherwise agreed in writing. For insurance-related work, we coordinate directly with your carrier when authorized — but the property owner remains responsible for any deductible, uncovered portions, or amounts not paid by the insurer within the agreed timeframe.
+Payment expectations are outlined in the work-authorization form for each project. Davis Construction Inc. accepts payment by check, major credit cards, and electronic transfer unless otherwise agreed in writing. For insurance-related work, we coordinate directly with your carrier when authorized, but the property owner remains responsible for any deductible, uncovered portions, or amounts not paid by the insurer within the agreed timeframe.
 
 ## Scope of Work and Changes
 

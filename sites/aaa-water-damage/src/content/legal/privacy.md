@@ -18,13 +18,13 @@ rendered: true
 ---
 ## What Information We Collect
 
-When you reach out through the contact form on this site, we collect the information you provide — typically your name, phone number, email address, and a description of the damage or service you need. If you call directly, we may note similar details to schedule your estimate or dispatch a crew.
+When you reach out through the contact form on this site, we collect the information you provide, typically your name, phone number, email address, and a description of the damage or service you need. If you call directly, we may note similar details to schedule your estimate or dispatch a crew.
 
 We also collect basic, anonymized analytics through standard website tools (page visits, general location data at the city or region level, browser type). This data contains no personally identifying information and is used only to understand how visitors find and use the site.
 
 ## How We Use Your Information
 
-The information you share is used to respond to your inquiry, schedule an on-site estimate, and coordinate the work you've authorized. If you ask us to communicate with your insurance carrier on your behalf — for example, to share photos, moisture readings, or scope documentation — we will do so only with your explicit direction. We do not contact insurers, adjusters, or third parties without your knowledge.
+The information you share is used to respond to your inquiry, schedule an on-site estimate, and coordinate the work you've authorized. If you ask us to communicate with your insurance carrier on your behalf, for example, to share photos, moisture readings, or scope documentation, we will do so only with your explicit direction. We do not contact insurers, adjusters, or third parties without your knowledge.
 
 We do not use your contact information for marketing campaigns, and we do not sell, rent, or trade your personal data to any third party.
 
@@ -36,7 +36,7 @@ We do not share data with data brokers, advertising networks, or any organizatio
 
 ## Data Retention
 
-We retain job-related records — including contact details, scope documentation, and signed work-authorization forms — for as long as reasonably necessary for warranty, legal, or accounting purposes under Hawaii state requirements. Contact form submissions that do not result in a scheduled job are not retained beyond the period needed to respond to your inquiry.
+We retain job-related records, including contact details, scope documentation, and signed work-authorization forms, for as long as reasonably necessary for warranty, legal, or accounting purposes under Hawaii state requirements. Contact form submissions that do not result in a scheduled job are not retained beyond the period needed to respond to your inquiry.
 
 ## Your Rights
 

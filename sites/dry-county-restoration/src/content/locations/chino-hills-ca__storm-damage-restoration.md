@@ -24,19 +24,19 @@ Chino Hills sits at the convergence of the Chino Hills State Park ridgeline and 
 
 ## Why Chino Hills Properties See Storm Damage Differently
 
-The city's terrain is the first factor. Chino Hills is built across rolling hills and canyon-cut slopes where graded pads and retaining walls redirect water in ways flat-city drainage systems don't have to manage. During a heavy storm, that water finds the path of least resistance — often a garage door threshold, a window well, or a crawl space vent.
+The city's terrain is the first factor. Chino Hills is built across rolling hills and canyon-cut slopes where graded pads and retaining walls redirect water in ways flat-city drainage systems don't have to manage. During a heavy storm, that water finds the path of least resistance, often a garage door threshold, a window well, or a crawl space vent.
 
-The housing stock adds another layer. Much of Chino Hills developed rapidly from the late 1980s through the early 2000s, meaning a large share of homes have wood-framed roofs with concrete tile — durable in dry weather, but susceptible to cracked underlayment that goes unnoticed until a storm drives water underneath. Older tile installations from that era can also have mortar ridge caps that have dried and separated over decades of thermal cycling, leaving gaps that are invisible from the ground and obvious only after a storm.
+The housing stock adds another layer. Much of Chino Hills developed rapidly from the late 1980s through the early 2000s, meaning a large share of homes have wood-framed roofs with concrete tile, durable in dry weather, but susceptible to cracked underlayment that goes unnoticed until a storm drives water underneath. Older tile installations from that era can also have mortar ridge caps that have dried and separated over decades of thermal cycling, leaving gaps that are invisible from the ground and obvious only after a storm.
 
-Santa Ana wind events, which typically intensify in fall and early winter, are a separate threat from rain. Sustained gusts can dislodge tile sections, snap mature trees planted along hillside lots, and drive debris into attic vents. When wind damage and rain arrive in the same system — as they sometimes do in late-season storms — the combination creates entry points that allow water intrusion to begin before the storm has even passed.
+Santa Ana wind events, which typically intensify in fall and early winter, are a separate threat from rain. Sustained gusts can dislodge tile sections, snap mature trees planted along hillside lots, and drive debris into attic vents. When wind damage and rain arrive in the same system, as they sometimes do in late-season storms, the combination creates entry points that allow water intrusion to begin before the storm has even passed.
 
 ## Our Storm Damage Restoration Process in Chino Hills
 
-The first priority after any storm is stopping ongoing intrusion. Our crew arrives with tarping materials, board-up supplies, and moisture meters to assess what is wet and what is at risk of becoming wet. We document everything with photos and written notes from the first hour — that documentation becomes the foundation of your insurance claim.
+The first priority after any storm is stopping ongoing intrusion. Our crew arrives with tarping materials, board-up supplies, and moisture meters to assess what is wet and what is at risk of becoming wet. We document everything with photos and written notes from the first hour, that documentation becomes the foundation of your insurance claim.
 
 Once the structure is secured, we move to extraction and drying. Stucco exteriors common throughout Chino Hills can absorb and hold water in the scratch coat layer beneath the finish, reading dry at the surface while staying saturated behind it. We use thermal imaging cameras alongside moisture meters to map the actual wet zone, not just the visible one. Industrial air movers and desiccant or refrigerant dehumidifiers are placed based on that map, not by room count.
 
-If wind damage has compromised the roof or exterior walls, we coordinate with licensed roofing and general contractors for structural repairs while the drying equipment runs — so the restoration and the repair move in parallel rather than sequentially.
+If wind damage has compromised the roof or exterior walls, we coordinate with licensed roofing and general contractors for structural repairs while the drying equipment runs, so the restoration and the repair move in parallel rather than sequentially.
 
 ## Reaching Chino Hills from Corona
 
@@ -44,12 +44,12 @@ Our Corona location puts us on the west side of the Chino Hills city limits with
 
 ## Chino Hills Insurance and HOA Coordination
 
-Many Chino Hills neighborhoods are governed by HOAs that have specific requirements around contractor signage, equipment staging in driveways, and exterior repairs — particularly for roof work visible from the street. We are accustomed to working within those constraints and can communicate directly with HOA management when a repair or restoration scope requires prior approval.
+Many Chino Hills neighborhoods are governed by HOAs that have specific requirements around contractor signage, equipment staging in driveways, and exterior repairs, particularly for roof work visible from the street. We are accustomed to working within those constraints and can communicate directly with HOA management when a repair or restoration scope requires prior approval.
 
 On the insurance side, we document the loss in the format most major carriers expect: moisture readings with timestamps, photo logs organized by affected area, and a written scope of work. We bill carriers directly when that arrangement is available, and we walk homeowners through the supplement process when an initial estimate needs to be revised after hidden damage is uncovered.
 
 ## Local Note
 
-Chino Hills lots developed along the steeper canyon-facing slopes often have sub-slab drainage systems or French drains installed during original construction — and those systems can become overwhelmed or partially blocked with sediment after years of minimal maintenance. During a significant storm, a blocked drain can redirect hydrostatic pressure against a foundation wall or slab edge in ways that look like a plumbing leak from inside the home. If you are seeing water intrusion at a foundation wall or garage slab after a storm, the source may be outside the structure, not in it. We assess both possibilities before recommending a scope of work.
+Chino Hills lots developed along the steeper canyon-facing slopes often have sub-slab drainage systems or French drains installed during original construction, and those systems can become overwhelmed or partially blocked with sediment after years of minimal maintenance. During a significant storm, a blocked drain can redirect hydrostatic pressure against a foundation wall or slab edge in ways that look like a plumbing leak from inside the home. If you are seeing water intrusion at a foundation wall or garage slab after a storm, the source may be outside the structure, not in it. We assess both possibilities before recommending a scope of work.
 
 If a storm has left your Chino Hills property with water intrusion, roof damage, or debris impact, call Dry County Restoration at (951) 667-9910. We are available around the clock, and we can begin the documentation and stabilization process the same day.

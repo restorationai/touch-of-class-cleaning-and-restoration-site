@@ -20,41 +20,41 @@ state: "MS"
 service_display: "Carpet Cleaning"
 rendered: true
 ---
-Moselle sits in Jones County where the humid Gulf Coast air pushes north and settles into homes year-round — and that persistent moisture is exactly what makes carpet maintenance here more demanding than in drier climates. Red clay soil from the surrounding pine belt tracks in easily, and when summer humidity keeps indoor relative humidity elevated for months at a stretch, carpet fibers hold onto that grit, pet dander, and organic residue in ways that routine vacuuming simply cannot address. HomeLyft Restoration MS brings IICRC-certified carpet cleaning to Moselle homeowners and businesses who need more than a surface pass.
+Moselle sits in Jones County where the humid Gulf Coast air pushes north and settles into homes year-round, and that persistent moisture is exactly what makes carpet maintenance here more demanding than in drier climates. Red clay soil from the surrounding pine belt tracks in easily, and when summer humidity keeps indoor relative humidity elevated for months at a stretch, carpet fibers hold onto that grit, pet dander, and organic residue in ways that routine vacuuming simply cannot address. HomeLyft Restoration MS brings IICRC-certified carpet cleaning to Moselle homeowners and businesses who need more than a surface pass.
 
 ## Why Moselle Properties See Stubborn Carpet Soiling
 
-Jones County's soil profile is a real factor. The reddish-brown loam common throughout this part of Mississippi binds to carpet fibers at a microscopic level, and once it dries it acts almost like an abrasive — grinding down pile height with every footstep. Homes in Moselle also tend to run central HVAC systems hard through a long cooling season, which circulates fine particulate through return air vents and deposits it into carpet across every room, not just high-traffic hallways.
+Jones County's soil profile is a real factor. The reddish-brown loam common throughout this part of Mississippi binds to carpet fibers at a microscopic level, and once it dries it acts almost like an abrasive, grinding down pile height with every footstep. Homes in Moselle also tend to run central HVAC systems hard through a long cooling season, which circulates fine particulate through return air vents and deposits it into carpet across every room, not just high-traffic hallways.
 
-Humidity compounds the problem. When outdoor dew points stay above 70°F for weeks — which is routine here from May through September — carpet backing can hold enough ambient moisture to encourage dust mite populations and mild odor buildup even without a visible spill or leak. That's a different challenge than what a contractor working in a drier climate faces, and it's why the drying phase after deep cleaning matters as much as the extraction itself.
+Humidity compounds the problem. When outdoor dew points stay above 70°F for weeks, which is routine here from May through September, carpet backing can hold enough ambient moisture to encourage dust mite populations and mild odor buildup even without a visible spill or leak. That's a different challenge than what a contractor working in a drier climate faces, and it's why the drying phase after deep cleaning matters as much as the extraction itself.
 
 ## Our Carpet Cleaning Process in Moselle
 
-Every job starts with a fiber and soiling assessment. Carpet construction varies widely — cut pile, berber, and commercial loop pile each respond differently to heat and agitation — and older homes in this part of Jones County sometimes have original carpet installations over concrete slab, which affects moisture management during cleaning.
+Every job starts with a fiber and soiling assessment. Carpet construction varies widely, cut pile, berber, and commercial loop pile each respond differently to heat and agitation, and older homes in this part of Jones County sometimes have original carpet installations over concrete slab, which affects moisture management during cleaning.
 
 From there the process moves through these stages:
 
-- **Pre-treatment** — a pH-balanced conditioner is applied to loosen bonded soil and break down the iron-rich red clay compounds common to this region before any water touches the fiber.
-- **Hot-water extraction** — truck-mounted equipment heats water to temperatures that sanitize at the fiber level, then extracts it along with suspended soil, allergens, and residue. This is the method the IICRC references in its cleaning standards and the one that produces the most complete soil removal.
-- **Targeted stain treatment** — pet stains, tannin stains from tracked-in organic matter, and grease spots each require a different chemistry. We identify the stain type before applying any agent.
-- **Controlled drying** — in Moselle's humid summers, we deploy air movers and monitor ambient conditions to bring carpet to a safe moisture level before we leave. Leaving carpet damp in a high-humidity environment is an invitation for mildew odor within 24 to 48 hours.
+- **Pre-treatment**, a pH-balanced conditioner is applied to loosen bonded soil and break down the iron-rich red clay compounds common to this region before any water touches the fiber.
+- **Hot-water extraction**, truck-mounted equipment heats water to temperatures that sanitize at the fiber level, then extracts it along with suspended soil, allergens, and residue. This is the method the IICRC references in its cleaning standards and the one that produces the most complete soil removal.
+- **Targeted stain treatment**, pet stains, tannin stains from tracked-in organic matter, and grease spots each require a different chemistry. We identify the stain type before applying any agent.
+- **Controlled drying**, in Moselle's humid summers, we deploy air movers and monitor ambient conditions to bring carpet to a safe moisture level before we leave. Leaving carpet damp in a high-humidity environment is an invitation for mildew odor within 24 to 48 hours.
 
-For commercial properties — offices, rental units, or retail spaces in the Moselle area — we schedule around business hours and can handle larger square footage with additional equipment as needed.
+For commercial properties, offices, rental units, or retail spaces in the Moselle area, we schedule around business hours and can handle larger square footage with additional equipment as needed.
 
 ## Reaching Moselle from Gulfport
 
-HomeLyft Restoration MS is headquartered in Gulfport and serves communities across Mississippi, including Moselle via US-49 North through Hattiesburg and into Jones County. Scheduling is handled by phone at +12282845200 — call to confirm availability and get a same-week appointment in most cases. We do not publish specific response-time guarantees in minutes, but Moselle is a regular service area and not a remote outlier on our coverage map.
+HomeLyft Restoration MS is headquartered in Gulfport and serves communities across Mississippi, including Moselle via US-49 North through Hattiesburg and into Jones County. Scheduling is handled by phone at +12282845200, call to confirm availability and get a same-week appointment in most cases. We do not publish specific response-time guarantees in minutes, but Moselle is a regular service area and not a remote outlier on our coverage map.
 
 For property managers handling multiple units or landlords turning over rentals in the Moselle area, we can coordinate multi-unit scheduling to minimize disruption.
 
 ## Equipment & Methods We Use for Carpet
 
-Truck-mounted hot-water extraction is the core tool, but it works alongside a set of supporting equipment that matters in this climate. Portable low-moisture systems are available for situations where water management is especially critical — slab-on-grade rooms with limited airflow, for example. Rotary extraction heads handle heavily soiled commercial carpet more efficiently than wand-only passes. And for sanitization requests — common after pet incidents or following a water damage event — we apply EPA-registered antimicrobial treatments that address odor at the source rather than masking it.
+Truck-mounted hot-water extraction is the core tool, but it works alongside a set of supporting equipment that matters in this climate. Portable low-moisture systems are available for situations where water management is especially critical, slab-on-grade rooms with limited airflow, for example. Rotary extraction heads handle heavily soiled commercial carpet more efficiently than wand-only passes. And for sanitization requests, common after pet incidents or following a water damage event, we apply EPA-registered antimicrobial treatments that address odor at the source rather than masking it.
 
 Our team holds IICRC certification, which means the cleaning methods and drying protocols we follow are grounded in documented industry standards, not improvised on the job.
 
 ## Local Note
 
-One pattern we've noticed in Jones County homes: houses built on pier-and-beam foundations — which are fairly common in older Moselle-area neighborhoods — tend to have subfloor gaps that allow humid air to migrate upward through the flooring system. After a deep carpet cleaning, that upward vapor drive can slow drying times noticeably compared to a slab-on-grade home. When we're working in a pier-and-beam property, we adjust airflow placement and may extend monitoring time to make sure the carpet backing reaches an acceptable moisture reading before we pack up. It's a small detail that makes a real difference in whether the carpet stays fresh or develops a musty smell within a week.
+One pattern we've noticed in Jones County homes: houses built on pier-and-beam foundations, which are fairly common in older Moselle-area neighborhoods, tend to have subfloor gaps that allow humid air to migrate upward through the flooring system. After a deep carpet cleaning, that upward vapor drive can slow drying times noticeably compared to a slab-on-grade home. When we're working in a pier-and-beam property, we adjust airflow placement and may extend monitoring time to make sure the carpet backing reaches an acceptable moisture reading before we pack up. It's a small detail that makes a real difference in whether the carpet stays fresh or develops a musty smell within a week.
 
-If you're dealing with stained, matted, or odor-holding carpet in Moselle, call HomeLyft Restoration MS at +12282845200 to schedule a cleaning assessment. We'll give you a straight answer on what the carpet needs and what results are realistic — no upselling, no vague estimates.
+If you're dealing with stained, matted, or odor-holding carpet in Moselle, call HomeLyft Restoration MS at +12282845200 to schedule a cleaning assessment. We'll give you a straight answer on what the carpet needs and what results are realistic, no upselling, no vague estimates.

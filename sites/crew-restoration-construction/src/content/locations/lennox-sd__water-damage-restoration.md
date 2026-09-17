@@ -20,13 +20,13 @@ state: "SD"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
-Spring snowmelt across Lincoln County farmland moves fast, and when saturated ground backs up against the foundations of Lennox's newer residential subdivisions, water finds its way inside before most homeowners realize there's a problem. A wet basement in the 57039 ZIP code isn't just an inconvenience — within 24 to 48 hours, standing water begins softening subfloor sheathing, and mold colonies can establish themselves in as little as 72 hours on wet drywall paper. Crew Restoration & Construction responds to water damage calls in Lennox with the equipment and process to stop that clock.
+Spring snowmelt across Lincoln County farmland moves fast, and when saturated ground backs up against the foundations of Lennox's newer residential subdivisions, water finds its way inside before most homeowners realize there's a problem. A wet basement in the 57039 ZIP code isn't just an inconvenience, within 24 to 48 hours, standing water begins softening subfloor sheathing, and mold colonies can establish themselves in as little as 72 hours on wet drywall paper. Crew Restoration & Construction responds to water damage calls in Lennox with the equipment and process to stop that clock.
 
 ## Why Lennox Properties See Water Damage Issues
 
 Lennox sits on the eastern edge of Lincoln County, and the town's steady residential growth over the past two decades means newer construction rings older in-town parcels. That mix creates two distinct water damage patterns.
 
-Older homes near Downtown Lennox — many built before modern vapor barriers and sump systems were standard — tend to see water intrusion through aging mortar joints, cracked poured-concrete walls, and undersized floor drains that can't keep pace with a heavy rain event. Newer builds on the town's expanding edges are better sealed but sit on lots where grading hasn't fully settled, meaning downspout discharge and snowmelt can pool against foundations before drainage corrects itself.
+Older homes near Downtown Lennox, many built before modern vapor barriers and sump systems were standard, tend to see water intrusion through aging mortar joints, cracked poured-concrete walls, and undersized floor drains that can't keep pace with a heavy rain event. Newer builds on the town's expanding edges are better sealed but sit on lots where grading hasn't fully settled, meaning downspout discharge and snowmelt can pool against foundations before drainage corrects itself.
 
 South Dakota's freeze-thaw cycle adds another layer. Pipes in uninsulated exterior walls or crawl spaces are vulnerable during the hard freezes that hit the Sioux Falls metro corridor every January and February. A burst supply line can release hundreds of gallons before the shutoff is located, saturating wall cavities and subfloor assemblies that are expensive to replace if drying is delayed.
 
@@ -34,11 +34,11 @@ South Dakota's freeze-thaw cycle adds another layer. Pipes in uninsulated exteri
 
 Every water loss is different, but the sequence we follow is consistent and deliberate.
 
-**Inspection and moisture mapping.** Before any equipment goes in, a technician walks the affected area with a thermal imaging camera and calibrated moisture meters. This step identifies water that has migrated behind walls or under flooring — the damage you can't see is often worse than what's visible.
+**Inspection and moisture mapping.** Before any equipment goes in, a technician walks the affected area with a thermal imaging camera and calibrated moisture meters. This step identifies water that has migrated behind walls or under flooring, the damage you can't see is often worse than what's visible.
 
 **Water extraction.** Truck-mounted and portable extraction units pull standing water from hard floors, carpet, and subfloor assemblies. Getting bulk water out quickly is the single most important factor in limiting structural damage and secondary mold growth.
 
-**Structural drying.** Industrial desiccant or refrigerant dehumidifiers and high-velocity air movers are placed in a calculated pattern based on the room geometry and the moisture readings. We log temperature, relative humidity, and material moisture content daily — drying is a documented process, not a guess.
+**Structural drying.** Industrial desiccant or refrigerant dehumidifiers and high-velocity air movers are placed in a calculated pattern based on the room geometry and the moisture readings. We log temperature, relative humidity, and material moisture content daily, drying is a documented process, not a guess.
 
 **Demolition of unsalvageable materials.** Saturated insulation, swollen particleboard, and compromised drywall sections are removed to allow the structural framing to dry completely. Leaving wet material in place is the most common reason mold returns after a water loss.
 
@@ -46,16 +46,16 @@ Every water loss is different, but the sequence we follow is consistent and deli
 
 ## Reaching Lennox from Our Sioux Falls Base
 
-Lennox is roughly 20 miles southwest of Sioux Falls via SD-115, a straightforward drive that keeps our response time competitive for a town of this size. Calls coming from the Lennox City Park area or from addresses along the main residential corridors off Main Street are well within our regular service range. We schedule promptly and communicate arrival windows clearly — call (605) 965-2727 to get a technician dispatched.
+Lennox is roughly 20 miles southwest of Sioux Falls via SD-115, a straightforward drive that keeps our response time competitive for a town of this size. Calls coming from the Lennox City Park area or from addresses along the main residential corridors off Main Street are well within our regular service range. We schedule promptly and communicate arrival windows clearly, call (605) 965-2727 to get a technician dispatched.
 
 ## Lennox Insurance Coordination
 
-Most standard homeowners policies cover sudden and accidental water discharge — a burst pipe, an appliance failure, or an ice-dam backup — but coverage language varies, and adjusters want documentation. We photograph affected materials before extraction, log moisture readings throughout the drying period, and produce a written scope of work that aligns with the format most carriers expect. That paper trail reduces back-and-forth with the adjuster and helps ensure the full scope of damage is captured rather than just the surface-visible portion.
+Most standard homeowners policies cover sudden and accidental water discharge, a burst pipe, an appliance failure, or an ice-dam backup, but coverage language varies, and adjusters want documentation. We photograph affected materials before extraction, log moisture readings throughout the drying period, and produce a written scope of work that aligns with the format most carriers expect. That paper trail reduces back-and-forth with the adjuster and helps ensure the full scope of damage is captured rather than just the surface-visible portion.
 
-If your policy includes a deductible assistance program or a preferred-vendor list, let us know when you call — we'll work within whatever framework your carrier requires.
+If your policy includes a deductible assistance program or a preferred-vendor list, let us know when you call, we'll work within whatever framework your carrier requires.
 
 ## Local Note
 
-One pattern we've noticed in Lennox's newer subdivisions: lots graded to drain toward the street sometimes have window wells on basement egress windows that weren't sized for the volume of water a heavy spring storm produces. When those wells fill faster than the drain at the bottom can clear, water presses directly against the window frame and seeps into the basement wall assembly — often at a corner where two framed walls meet, which makes the moisture path harder to trace without a thermal camera. If your basement took on water during a storm and you can't find an obvious entry point, that window well is worth checking first.
+One pattern we've noticed in Lennox's newer subdivisions: lots graded to drain toward the street sometimes have window wells on basement egress windows that weren't sized for the volume of water a heavy spring storm produces. When those wells fill faster than the drain at the bottom can clear, water presses directly against the window frame and seeps into the basement wall assembly, often at a corner where two framed walls meet, which makes the moisture path harder to trace without a thermal camera. If your basement took on water during a storm and you can't find an obvious entry point, that window well is worth checking first.
 
-If you're dealing with water damage in Lennox — whether it's a burst pipe in a Downtown Lennox bungalow, a flooded lower level after a spring thaw, or a slow leak that's been hiding behind a wall — call Crew Restoration & Construction at (605) 965-2727. We'll assess the damage, explain the process plainly, and get drying equipment in place before the problem compounds.
+If you're dealing with water damage in Lennox, whether it's a burst pipe in a Downtown Lennox bungalow, a flooded lower level after a spring thaw, or a slow leak that's been hiding behind a wall, call Crew Restoration & Construction at (605) 965-2727. We'll assess the damage, explain the process plainly, and get drying equipment in place before the problem compounds.

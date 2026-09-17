@@ -20,11 +20,11 @@ state: "MA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
-Shrewsbury's lakefront geography creates a water damage risk profile that's easy to underestimate until you're standing in a flooded basement. Homes along the Lake Quinsigamond shoreline sit close to the water table, and when a pipe bursts or a sump pump fails during a nor'easter, the groundwater doesn't need much invitation to follow. Quality Contracting, Inc. responds to water damage calls across Shrewsbury's 01545 and 01546 ZIP codes — from the postwar capes near Edgemere to the newer subdivisions off the Route 9 corridor — with the equipment and process to stop the damage before it compounds.
+Shrewsbury's lakefront geography creates a water damage risk profile that's easy to underestimate until you're standing in a flooded basement. Homes along the Lake Quinsigamond shoreline sit close to the water table, and when a pipe bursts or a sump pump fails during a nor'easter, the groundwater doesn't need much invitation to follow. Quality Contracting, Inc. responds to water damage calls across Shrewsbury's 01545 and 01546 ZIP codes, from the postwar capes near Edgemere to the newer subdivisions off the Route 9 corridor, with the equipment and process to stop the damage before it compounds.
 
 ## Why Shrewsbury Properties See More Water Damage Than You'd Expect
 
-The town's position across Lake Quinsigamond from Worcester means that heavy rain events raise the water table quickly, especially in low-lying areas near the shoreline. Walk-out basements — common in lakefront and hillside homes — are particularly exposed: the below-grade wall on the uphill side acts as a dam during saturated soil conditions, and even a hairline crack in the foundation becomes a problem when the ground is holding that much moisture.
+The town's position across Lake Quinsigamond from Worcester means that heavy rain events raise the water table quickly, especially in low-lying areas near the shoreline. Walk-out basements, common in lakefront and hillside homes, are particularly exposed: the below-grade wall on the uphill side acts as a dam during saturated soil conditions, and even a hairline crack in the foundation becomes a problem when the ground is holding that much moisture.
 
 Shrewsbury's housing stock adds another layer of complexity. The postwar capes and ranches that make up much of the White City area and older neighborhoods were built before modern moisture barriers and drainage codes. Many have original cast-iron or galvanized steel supply lines that are well past their service life. A slow pinhole leak inside a wall cavity can go undetected for weeks, and by the time a homeowner notices a soft spot in the floor or a stain on the ceiling, the structural framing has already absorbed significant moisture.
 
@@ -32,7 +32,7 @@ The Route 9 commercial corridor presents a different challenge: slab-on-grade re
 
 ## Our Water Damage Restoration Process in Shrewsbury
 
-When we arrive on-site, the first priority is stopping active water movement — shutting the source if it's a supply line failure, or redirecting intrusion if it's groundwater. From there, the process follows a defined sequence:
+When we arrive on-site, the first priority is stopping active water movement, shutting the source if it's a supply line failure, or redirecting intrusion if it's groundwater. From there, the process follows a defined sequence:
 
 **Inspection and moisture mapping.** We use thermal imaging cameras and calibrated moisture meters to find water that's migrated behind walls, under subfloors, and into ceiling cavities. In older Shrewsbury homes, water often travels farther than expected because original framing lacks the blocking and vapor barriers that newer construction includes.
 
@@ -40,20 +40,20 @@ When we arrive on-site, the first priority is stopping active water movement —
 
 **Structural drying.** Industrial desiccant dehumidifiers and high-velocity air movers are positioned based on the moisture map, not placed generically. Drying logs are recorded daily so there's a documented record for your insurance adjuster.
 
-**Monitoring and clearance.** We return to check readings until materials reach dry standard. We don't close out a job based on a visual — we close it based on numbers.
+**Monitoring and clearance.** We return to check readings until materials reach dry standard. We don't close out a job based on a visual, we close it based on numbers.
 
 ## Reaching Shrewsbury from Auburn
 
-Quality Contracting's base in Auburn puts Shrewsbury within a short drive via Route 20 east or the Route 9 corridor depending on traffic. For calls in the Edgemere area or near Dean Park, Route 9 east is typically the faster approach. Calls in the White City area or along the lake tend to route more efficiently via Route 20 to Route 140 north. When you call (508) 756-8800, we'll give you an honest estimate of when we can be on-site based on current conditions — not a number pulled from a script.
+Quality Contracting's base in Auburn puts Shrewsbury within a short drive via Route 20 east or the Route 9 corridor depending on traffic. For calls in the Edgemere area or near Dean Park, Route 9 east is typically the faster approach. Calls in the White City area or along the lake tend to route more efficiently via Route 20 to Route 140 north. When you call (508) 756-8800, we'll give you an honest estimate of when we can be on-site based on current conditions, not a number pulled from a script.
 
 ## Shrewsbury Insurance Coordination
 
-Most homeowner policies cover sudden and accidental water damage — a burst pipe, an appliance failure, an ice dam breach — but the documentation has to support the claim. We photograph affected materials before anything is moved, record moisture readings at each inspection point, and produce a written scope of loss that aligns with the format most carriers expect. If your adjuster needs to walk the site, we coordinate that visit. We bill carriers directly where that's available, which reduces the out-of-pocket burden while the claim is being processed.
+Most homeowner policies cover sudden and accidental water damage, a burst pipe, an appliance failure, an ice dam breach, but the documentation has to support the claim. We photograph affected materials before anything is moved, record moisture readings at each inspection point, and produce a written scope of loss that aligns with the format most carriers expect. If your adjuster needs to walk the site, we coordinate that visit. We bill carriers directly where that's available, which reduces the out-of-pocket burden while the claim is being processed.
 
-Shrewsbury homeowners near the lake should also be aware that standard policies typically exclude flooding from rising groundwater or overland flow — that's a separate flood policy through the NFIP or a private flood carrier. If your loss involves both a plumbing failure and groundwater intrusion simultaneously, we can help you document which portion falls under which coverage.
+Shrewsbury homeowners near the lake should also be aware that standard policies typically exclude flooding from rising groundwater or overland flow, that's a separate flood policy through the NFIP or a private flood carrier. If your loss involves both a plumbing failure and groundwater intrusion simultaneously, we can help you document which portion falls under which coverage.
 
 ## Local Note
 
-Shrewsbury runs its own electric utility — SELCO — rather than drawing from Eversource like most surrounding towns. That matters during extended outages after a storm: SELCO's restoration timeline and outage map are separate from the regional grid status, so a homeowner in the 01545 ZIP who loses power to their sump pump may be waiting on a different repair crew than their neighbor in Worcester County. If your sump failed during a SELCO outage and water entered the basement, document the outage time from SELCO's records — that timestamp can support your insurance claim by establishing that the failure was utility-caused rather than equipment neglect.
+Shrewsbury runs its own electric utility, SELCO, rather than drawing from Eversource like most surrounding towns. That matters during extended outages after a storm: SELCO's restoration timeline and outage map are separate from the regional grid status, so a homeowner in the 01545 ZIP who loses power to their sump pump may be waiting on a different repair crew than their neighbor in Worcester County. If your sump failed during a SELCO outage and water entered the basement, document the outage time from SELCO's records, that timestamp can support your insurance claim by establishing that the failure was utility-caused rather than equipment neglect.
 
-Water is already moving through your structure. Call Quality Contracting, Inc. at **(508) 756-8800** to schedule an assessment — the sooner moisture levels are mapped, the more material can be saved rather than replaced.
+Water is already moving through your structure. Call Quality Contracting, Inc. at **(508) 756-8800** to schedule an assessment, the sooner moisture levels are mapped, the more material can be saved rather than replaced.

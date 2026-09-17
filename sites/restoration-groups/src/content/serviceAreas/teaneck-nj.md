@@ -19,21 +19,21 @@ state: "NJ"
 primary: false
 rendered: true
 ---
-When water is seeping through a finished basement wall in West Teaneck or smoke has settled into the plaster of a 1930s Tudor off Cedar Lane, The Restoration Group sends a trained crew from our Kenilworth base around the clock — extracting, drying, remediating, and rebuilding so the property gets back to its pre-loss condition. We handle water damage, fire and smoke damage, mold remediation, sewer backups, and structural reconstruction for homeowners, landlords, and commercial property managers across Teaneck's 07666 ZIP code.
+When water is seeping through a finished basement wall in West Teaneck or smoke has settled into the plaster of a 1930s Tudor off Cedar Lane, The Restoration Group sends a trained crew from our Kenilworth base around the clock, extracting, drying, remediating, and rebuilding so the property gets back to its pre-loss condition. We handle water damage, fire and smoke damage, mold remediation, sewer backups, and structural reconstruction for homeowners, landlords, and commercial property managers across Teaneck's 07666 ZIP code.
 
 ## Restoration emergencies common in Teaneck
 
-Teaneck's housing stock is the first thing that shapes the losses we see here. The township's residential neighborhoods — West Englewood, The Grange, Whittier, the Bryant School area — are dense with 1920s through 1940s brick Tudors, colonials, and center-hall homes. Most of those houses were built before modern waterproofing standards, and many still run on original cast-iron drain lines that corrode, root-intrude, and back up into finished lower levels. A single blocked lateral can push raw sewage across 600 square feet of carpet and drywall in under an hour.
+Teaneck's housing stock is the first thing that shapes the losses we see here. The township's residential neighborhoods, West Englewood, The Grange, Whittier, the Bryant School area, are dense with 1920s through 1940s brick Tudors, colonials, and center-hall homes. Most of those houses were built before modern waterproofing standards, and many still run on original cast-iron drain lines that corrode, root-intrude, and back up into finished lower levels. A single blocked lateral can push raw sewage across 600 square feet of carpet and drywall in under an hour.
 
-Geography compounds the problem. The Hackensack River forms Teaneck's eastern boundary, and Teaneck Creek winds through low-lying sections near the Teaneck Creek Conservancy before discharging into the river. During Hurricane Ida in September 2021 — the same year The Restoration Group was founded — both waterways overtopped their banks and overwhelmed basement drainage systems across the township. That event reminded a lot of Cedar Lane district homeowners how quickly a managed crawl space or finished rec room can become a total loss.
+Geography compounds the problem. The Hackensack River forms Teaneck's eastern boundary, and Teaneck Creek winds through low-lying sections near the Teaneck Creek Conservancy before discharging into the river. During Hurricane Ida in September 2021, the same year The Restoration Group was founded, both waterways overtopped their banks and overwhelmed basement drainage systems across the township. That event reminded a lot of Cedar Lane district homeowners how quickly a managed crawl space or finished rec room can become a total loss.
 
-Commercial risk runs on a different clock. The Cedar Lane commercial district and Teaneck Road corridor concentrate restaurants, retail, and service businesses whose suppression systems can trip overnight. Fairleigh Dickinson University's campus generates student-housing water events — burst pipes in residence halls, overflowed fixtures, roof leaks into occupied units — that require fast containment to prevent mold colonization, which can begin within 24 to 48 hours of a moisture event. Holy Name Medical Center adds a layer of institutional, round-the-clock exposure where downtime carries real patient-care consequences.
+Commercial risk runs on a different clock. The Cedar Lane commercial district and Teaneck Road corridor concentrate restaurants, retail, and service businesses whose suppression systems can trip overnight. Fairleigh Dickinson University's campus generates student-housing water events, burst pipes in residence halls, overflowed fixtures, roof leaks into occupied units, that require fast containment to prevent mold colonization, which can begin within 24 to 48 hours of a moisture event. Holy Name Medical Center adds a layer of institutional, round-the-clock exposure where downtime carries real patient-care consequences.
 
 ## Services we provide in Teaneck
 
 ### Water damage restoration
 
-Water damage in Teaneck most often involves one of three patterns: sewer backup through aging cast-iron laterals, storm-driven groundwater intrusion into below-grade finished spaces, or supply-line failures in older homes that have never had their galvanized plumbing updated. We extract standing water, remove saturated materials, place industrial drying equipment calibrated to the specific building assembly, and document moisture readings throughout — the kind of documentation your insurance adjuster needs to close the claim cleanly.
+Water damage in Teaneck most often involves one of three patterns: sewer backup through aging cast-iron laterals, storm-driven groundwater intrusion into below-grade finished spaces, or supply-line failures in older homes that have never had their galvanized plumbing updated. We extract standing water, remove saturated materials, place industrial drying equipment calibrated to the specific building assembly, and document moisture readings throughout, the kind of documentation your insurance adjuster needs to close the claim cleanly.
 
 ### Fire and smoke damage restoration
 
@@ -41,23 +41,23 @@ Smoke from a kitchen fire in a 1940s colonial doesn't stay in the kitchen. It tr
 
 ### Mold remediation
 
-The combination of Teaneck's older building envelopes and its proximity to two waterways means mold calls are common here — particularly in basement rim joists, crawl spaces, and behind finished walls that absorbed moisture during Ida-type events. We contain affected areas, remove colonized materials following established remediation protocols, and treat underlying surfaces before any reconstruction work begins.
+The combination of Teaneck's older building envelopes and its proximity to two waterways means mold calls are common here, particularly in basement rim joists, crawl spaces, and behind finished walls that absorbed moisture during Ida-type events. We contain affected areas, remove colonized materials following established remediation protocols, and treat underlying surfaces before any reconstruction work begins.
 
 ### Sewer backup and biohazard cleanup
 
-Sewer backups in the West Teaneck and Whittier neighborhoods frequently involve Category 3 water — the classification for sewage-contaminated losses that require full personal protective equipment, antimicrobial treatment, and disposal of porous materials that cannot be safely restored. We handle the remediation and coordinate with Bergen County waste disposal requirements.
+Sewer backups in the West Teaneck and Whittier neighborhoods frequently involve Category 3 water, the classification for sewage-contaminated losses that require full personal protective equipment, antimicrobial treatment, and disposal of porous materials that cannot be safely restored. We handle the remediation and coordinate with Bergen County waste disposal requirements.
 
 ### Reconstruction
 
-Once the structure is dry, clean, and cleared, our reconstruction crews rebuild — framing, drywall, flooring, painting, tile — so you're working with one contractor from first call to final walkthrough rather than managing a handoff between a remediation company and a separate GC.
+Once the structure is dry, clean, and cleared, our reconstruction crews rebuild, framing, drywall, flooring, painting, tile, so you're working with one contractor from first call to final walkthrough rather than managing a handoff between a remediation company and a separate GC.
 
 ## Coverage and how fast we can get there
 
-From our Kenilworth headquarters, the most direct route to Teaneck runs north on the Garden State Parkway to Route 4, then into Bergen County — roughly 25 miles of highway-dominant driving. We reach West Englewood and the Bryant School area via Teaneck Road; the Cedar Lane district and Votee Park neighborhoods are a short turn off Route 4. Because we operate 24/7, dispatch goes out the moment you call (855) 650-7422, day or night, including weekends and holidays.
+From our Kenilworth headquarters, the most direct route to Teaneck runs north on the Garden State Parkway to Route 4, then into Bergen County, roughly 25 miles of highway-dominant driving. We reach West Englewood and the Bryant School area via Teaneck Road; the Cedar Lane district and Votee Park neighborhoods are a short turn off Route 4. Because we operate 24/7, dispatch goes out the moment you call (855) 650-7422, day or night, including weekends and holidays.
 
 ## Building stock, site conditions, and permits in Teaneck
 
-Most of Teaneck's prewar houses were finished in plaster over wood lath, not drywall, and that assembly holds water very differently — it stays wet behind the surface long after the room feels dry, so drying has to be verified in the cavity rather than assumed. Tudors and colonials here often carry steam or hot-water radiator heat off a converted boiler, which means pipe and boiler insulation from that era should be treated as possible asbestos until tested, and paint in any home built before 1978 as possible lead. Knob-and-tube wiring still turns up in attics and closed walls during demolition.
+Most of Teaneck's prewar houses were finished in plaster over wood lath, not drywall, and that assembly holds water very differently, it stays wet behind the surface long after the room feels dry, so drying has to be verified in the cavity rather than assumed. Tudors and colonials here often carry steam or hot-water radiator heat off a converted boiler, which means pipe and boiler insulation from that era should be treated as possible asbestos until tested, and paint in any home built before 1978 as possible lead. Knob-and-tube wiring still turns up in attics and closed walls during demolition.
 
 Repairs beyond like-for-like patching go through the township construction office under New Jersey's Uniform Construction Code, with separate electrical, plumbing, and fire subcode approvals. Work in the flood-prone lowlands near the river draws extra review.
 

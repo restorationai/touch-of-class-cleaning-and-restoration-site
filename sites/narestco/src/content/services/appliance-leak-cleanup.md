@@ -17,35 +17,35 @@ service_slug: "appliance-leak-cleanup"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
-A slow drip behind the refrigerator. A puddle spreading across the laundry room floor. The faint warping of hardwood near the dishwasher. Appliance leaks rarely announce themselves loudly — but the damage they leave behind is anything but quiet. National Restoration Construction responds to appliance leak calls across Federal Way and the surrounding region, extracting standing water, drying out structural materials, and stopping secondary damage before it compounds into a much larger problem.
+A slow drip behind the refrigerator. A puddle spreading across the laundry room floor. The faint warping of hardwood near the dishwasher. Appliance leaks rarely announce themselves loudly, but the damage they leave behind is anything but quiet. National Restoration Construction responds to appliance leak calls across Federal Way and the surrounding region, extracting standing water, drying out structural materials, and stopping secondary damage before it compounds into a much larger problem.
 
 ## How we handle appliance leak cleanup
 
-The first thing our technicians do on arrival isn't pull out equipment — it's assess. We use thermal imaging cameras and moisture meters to map exactly where water has traveled, because water from a washing machine flood or a refrigerator leak cleanup rarely stays where you can see it. It migrates under flooring, into wall cavities, and beneath cabinet toe-kicks before you notice the surface damage.
+The first thing our technicians do on arrival isn't pull out equipment, it's assess. We use thermal imaging cameras and moisture meters to map exactly where water has traveled, because water from a washing machine flood or a refrigerator leak cleanup rarely stays where you can see it. It migrates under flooring, into wall cavities, and beneath cabinet toe-kicks before you notice the surface damage.
 
-Once we know the full extent of saturation, we extract standing water with truck-mounted and portable extraction units, then place a calculated array of industrial air movers and low-grain refrigerant (LGR) dehumidifiers to drive moisture out of the structure itself — not just the air. LGR dehumidifiers pull significantly more water per day than consumer-grade units, which matters when you're working against a 24–48 hour window before mold can begin to colonize wet cellulose materials like drywall and subfloor.
+Once we know the full extent of saturation, we extract standing water with truck-mounted and portable extraction units, then place a calculated array of industrial air movers and low-grain refrigerant (LGR) dehumidifiers to drive moisture out of the structure itself, not just the air. LGR dehumidifiers pull significantly more water per day than consumer-grade units, which matters when you're working against a 24–48 hour window before mold can begin to colonize wet cellulose materials like drywall and subfloor.
 
-We monitor drying progress with daily moisture readings and adjust equipment placement as the numbers change. When materials reach manufacturer-specified dry standards — not when things *feel* dry — we document the readings and begin any necessary structural repairs. That documentation matters later if you're filing an insurance claim.
+We monitor drying progress with daily moisture readings and adjust equipment placement as the numbers change. When materials reach manufacturer-specified dry standards, not when things *feel* dry, we document the readings and begin any necessary structural repairs. That documentation matters later if you're filing an insurance claim.
 
-For water heater leak cleanup, the process often involves additional steps: sediment and mineral deposit removal from the affected area, and a closer inspection of the subfloor beneath the unit, which is typically the first structural component to absorb a slow tank leak. Ice maker line leaks are deceptively destructive for the same reason — a pinhole in a quarter-inch supply line can run undetected for weeks, saturating the flooring system one drip at a time.
+For water heater leak cleanup, the process often involves additional steps: sediment and mineral deposit removal from the affected area, and a closer inspection of the subfloor beneath the unit, which is typically the first structural component to absorb a slow tank leak. Ice maker line leaks are deceptively destructive for the same reason, a pinhole in a quarter-inch supply line can run undetected for weeks, saturating the flooring system one drip at a time.
 
 ## When to call us
 
 Call us the moment you find standing water or notice any of these warning signs:
 
 - **Buckling or soft spots** in hardwood, laminate, or vinyl near an appliance
-- **A musty or earthy smell** in the laundry room, kitchen, or utility closet — that odor is microbial activity, not just dampness
+- **A musty or earthy smell** in the laundry room, kitchen, or utility closet, that odor is microbial activity, not just dampness
 - **Discoloration or bubbling** on drywall or baseboards behind or beside an appliance
 - **Higher-than-normal water bills** with no obvious explanation (often the first sign of a slow ice maker line leak or a failing water heater connection)
-- **Visible standing water** of any depth — even a quarter-inch across a large area represents significant volume
+- **Visible standing water** of any depth, even a quarter-inch across a large area represents significant volume
 
-What *not* to do before we arrive: avoid using a standard wet-dry shop vac as your primary extraction method on hardwood or engineered wood floors — surface removal doesn't address the moisture already drawn into the wood fibers. Don't place cardboard under furniture legs in a wet area; it accelerates mold growth. And don't assume a dishwasher leak cleanup is a simple mop-up job — the water travels under the unit and into the adjacent cabinet base before it ever reaches open floor.
+What *not* to do before we arrive: avoid using a standard wet-dry shop vac as your primary extraction method on hardwood or engineered wood floors, surface removal doesn't address the moisture already drawn into the wood fibers. Don't place cardboard under furniture legs in a wet area; it accelerates mold growth. And don't assume a dishwasher leak cleanup is a simple mop-up job, the water travels under the unit and into the adjacent cabinet base before it ever reaches open floor.
 
 Time is the variable that controls cost in water damage. The longer saturated materials stay wet, the deeper moisture penetrates and the more likely you are to need full replacement rather than drying and restoration.
 
 ## What sets our appliance leak team apart
 
-Our technicians are IICRC Certified in water damage restoration, which means they're trained to the same standards used by insurance adjusters to evaluate whether a job was done correctly. We're also a Lead-Safe Certified Firm and EPA Certified, which matters in Federal Way's older housing stock — many homes built before 1978 have lead-based paint in areas we'd need to disturb during repairs, and improper handling creates a separate liability.
+Our technicians are IICRC Certified in water damage restoration, which means they're trained to the same standards used by insurance adjusters to evaluate whether a job was done correctly. We're also a Lead-Safe Certified Firm and EPA Certified, which matters in Federal Way's older housing stock, many homes built before 1978 have lead-based paint in areas we'd need to disturb during repairs, and improper handling creates a separate liability.
 
 We've been operating in the South Puget Sound region long enough to know the local construction patterns: the crawl-space foundations common in Federal Way neighborhoods, the way Pacific Northwest humidity levels slow drying timelines compared to drier climates, and the specific subfloor assemblies typical in homes built during the area's major growth periods. That context shapes how we set equipment and how long we plan for drying cycles.
 
@@ -53,10 +53,10 @@ We're available around the clock. Most callers in our primary service area have 
 
 ## Insurance, billing, and the claims process
 
-Most sudden appliance leaks — a burst washing machine hose, a failed water heater, a ruptured ice maker supply line — are covered under standard homeowners insurance as sudden and accidental water damage. Slow leaks that were knowable and unaddressed are often excluded, which is one more reason early detection matters.
+Most sudden appliance leaks, a burst washing machine hose, a failed water heater, a ruptured ice maker supply line, are covered under standard homeowners insurance as sudden and accidental water damage. Slow leaks that were knowable and unaddressed are often excluded, which is one more reason early detection matters.
 
 We work directly with all major carriers and can communicate with your adjuster on your behalf. Our moisture documentation, equipment logs, and photo records are formatted to meet insurance reporting standards, which speeds up the claims process and reduces the chance of a disputed scope. We'll provide a detailed written estimate before work begins, and we're transparent about what insurance typically covers versus what falls outside a standard claim.
 
-General Contractor Certificate of Registration #NATIORC792M6 covers the full scope of work from initial water extraction through structural repairs and finish restoration — one company, one point of contact, no handoffs.
+General Contractor Certificate of Registration #NATIORC792M6 covers the full scope of work from initial water extraction through structural repairs and finish restoration, one company, one point of contact, no handoffs.
 
 If you're dealing with an appliance leak right now, call **(206) 883-0333**. The sooner we can assess the moisture spread, the more of your home's structure and finishes we can save.

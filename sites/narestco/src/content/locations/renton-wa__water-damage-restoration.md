@@ -20,13 +20,13 @@ state: "WA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
-Standing water doesn't wait, and neither should you. Whether a pipe burst in a Renton Hill craftsman at 2 a.m. or a washing machine supply line let go in a Highlands apartment, the first hour after a water damage event is the most important one. National Restoration Construction has been responding to exactly these situations across the greater Seattle area since 2004 — and from our Federal Way headquarters, we can reach most of Renton in under an hour.
+Standing water doesn't wait, and neither should you. Whether a pipe burst in a Renton Hill craftsman at 2 a.m. or a washing machine supply line let go in a Highlands apartment, the first hour after a water damage event is the most important one. National Restoration Construction has been responding to exactly these situations across the greater Seattle area since 2004, and from our Federal Way headquarters, we can reach most of Renton in under an hour.
 
 ## Why Renton Properties Are Especially Vulnerable to Water Damage
 
-Renton sits at the southern tip of Lake Washington and at the confluence of the Cedar River and several smaller drainage systems. That geography, combined with the Pacific Northwest's long wet season — typically October through April — means the region sees sustained rainfall that saturates soil, overwhelms older storm drains, and finds every gap in a foundation or roof flashing. Many of Renton's neighborhoods include housing stock built in the 1950s through 1980s, when galvanized steel supply lines and cast-iron drain pipes were standard. Those materials corrode from the inside out, often failing quietly behind walls until a slow leak has been feeding a subfloor for weeks.
+Renton sits at the southern tip of Lake Washington and at the confluence of the Cedar River and several smaller drainage systems. That geography, combined with the Pacific Northwest's long wet season, typically October through April, means the region sees sustained rainfall that saturates soil, overwhelms older storm drains, and finds every gap in a foundation or roof flashing. Many of Renton's neighborhoods include housing stock built in the 1950s through 1980s, when galvanized steel supply lines and cast-iron drain pipes were standard. Those materials corrode from the inside out, often failing quietly behind walls until a slow leak has been feeding a subfloor for weeks.
 
-Higher-elevation neighborhoods like Talbot Hill and Cascade drain runoff toward lower streets and crawl spaces. Downtown Renton and the Renton Landing area include commercial and mixed-use buildings where a single plumbing failure on an upper floor can cascade through multiple tenant spaces. The Boeing and industrial corridors near the airport add another layer of complexity — larger structures, concrete slabs, and HVAC systems that can distribute moisture through ductwork before anyone notices.
+Higher-elevation neighborhoods like Talbot Hill and Cascade drain runoff toward lower streets and crawl spaces. Downtown Renton and the Renton Landing area include commercial and mixed-use buildings where a single plumbing failure on an upper floor can cascade through multiple tenant spaces. The Boeing and industrial corridors near the airport add another layer of complexity, larger structures, concrete slabs, and HVAC systems that can distribute moisture through ductwork before anyone notices.
 
 None of that is meant to alarm you. It's meant to explain why water damage here is rarely as simple as mopping up and running a fan.
 
@@ -36,11 +36,11 @@ When you reach us at (206) 883-0333, the first thing we do is ask three quick qu
 
 On-site, the process follows a clear sequence:
 
-**1. Emergency water extraction.** We use truck-mounted extraction units capable of pulling hundreds of gallons of standing water quickly — far more effective than portable shop vacs. For water that has migrated under hardwood, laminate, or tile, we use specialty extraction tools that draw moisture through the surface without requiring demolition in every case.
+**1. Emergency water extraction.** We use truck-mounted extraction units capable of pulling hundreds of gallons of standing water quickly, far more effective than portable shop vacs. For water that has migrated under hardwood, laminate, or tile, we use specialty extraction tools that draw moisture through the surface without requiring demolition in every case.
 
-**2. Moisture mapping.** Thermal imaging cameras and calibrated moisture meters let us trace exactly where water traveled — inside wall cavities, beneath subfloors, into insulation. This step is what separates a thorough water cleanup from one that leaves hidden moisture behind to feed mold growth. (Mold can begin colonizing damp organic material in as little as 24 to 48 hours under the right conditions.)
+**2. Moisture mapping.** Thermal imaging cameras and calibrated moisture meters let us trace exactly where water traveled, inside wall cavities, beneath subfloors, into insulation. This step is what separates a thorough water cleanup from one that leaves hidden moisture behind to feed mold growth. (Mold can begin colonizing damp organic material in as little as 24 to 48 hours under the right conditions.)
 
-**3. Structural drying.** We place industrial-grade desiccant dehumidifiers and high-velocity air movers in a calculated pattern based on the room's cubic footage and the moisture readings we recorded. This isn't guesswork — IICRC S500 standards guide our drying targets, and we monitor readings daily until the structure reaches acceptable levels.
+**3. Structural drying.** We place industrial-grade desiccant dehumidifiers and high-velocity air movers in a calculated pattern based on the room's cubic footage and the moisture readings we recorded. This isn't guesswork, IICRC S500 standards guide our drying targets, and we monitor readings daily until the structure reaches acceptable levels.
 
 **4. Controlled demolition if needed.** When wet drywall, insulation, or flooring can't be dried in place, we remove it. Leaving saturated material sealed behind a dry surface is one of the most common causes of mold problems discovered months later.
 
@@ -48,16 +48,16 @@ On-site, the process follows a clear sequence:
 
 ## How We Handle Insurance Claims
 
-Most homeowner and commercial property policies cover sudden and accidental water damage — a burst pipe, an appliance failure, storm-driven water intrusion. What they typically don't cover is gradual leaks or maintenance neglect, which is exactly why the documentation we collect from the first hour matters.
+Most homeowner and commercial property policies cover sudden and accidental water damage, a burst pipe, an appliance failure, storm-driven water intrusion. What they typically don't cover is gradual leaks or maintenance neglect, which is exactly why the documentation we collect from the first hour matters.
 
-We work directly with all major carriers and can communicate with your adjuster on your behalf. We don't inflate scopes to pad claims, and we don't cut corners to fit a low estimate. Our job is to document what actually happened, restore the structure to its pre-loss condition, and give your adjuster a clear, defensible record. You'll still need to file the claim yourself and make decisions about your deductible — that part stays with you — but we handle the technical documentation and the back-and-forth on scope.
+We work directly with all major carriers and can communicate with your adjuster on your behalf. We don't inflate scopes to pad claims, and we don't cut corners to fit a low estimate. Our job is to document what actually happened, restore the structure to its pre-loss condition, and give your adjuster a clear, defensible record. You'll still need to file the claim yourself and make decisions about your deductible, that part stays with you, but we handle the technical documentation and the back-and-forth on scope.
 
 ## Response Times Across Renton
 
-Our Federal Way headquarters puts us roughly 15 to 20 minutes from central Renton under normal traffic conditions. For most addresses in the city, expect a technician on-site within 60 to 90 minutes of your call — often faster during off-peak hours. Neighborhoods closer to the I-405 corridor, including downtown Renton and Renton Highlands, tend to see the fastest arrivals. More residential areas like Talbot Hill or the Benson Hill communities may add a few minutes depending on time of day.
+Our Federal Way headquarters puts us roughly 15 to 20 minutes from central Renton under normal traffic conditions. For most addresses in the city, expect a technician on-site within 60 to 90 minutes of your call, often faster during off-peak hours. Neighborhoods closer to the I-405 corridor, including downtown Renton and Renton Highlands, tend to see the fastest arrivals. More residential areas like Talbot Hill or the Benson Hill communities may add a few minutes depending on time of day.
 
 We operate 24 hours a day, 7 days a week, including holidays. Water damage doesn't observe business hours, and our dispatch doesn't either.
 
 ---
 
-If you're reading this while standing in a wet room, the most useful thing you can do right now is shut off the water source if you haven't already, move valuables and electronics off wet floors, and get us on the phone. The sooner water extraction begins, the smaller the restoration scope — and the smaller the bill. Reach National Restoration Construction at **(206) 883-0333** any time, day or night.
+If you're reading this while standing in a wet room, the most useful thing you can do right now is shut off the water source if you haven't already, move valuables and electronics off wet floors, and get us on the phone. The sooner water extraction begins, the smaller the restoration scope, and the smaller the bill. Reach National Restoration Construction at **(206) 883-0333** any time, day or night.

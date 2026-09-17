@@ -17,17 +17,17 @@ published_at: "2026-07-15"
 services: ["mold-remediation", "water-damage-restoration"]
 rendered: true
 ---
-Mold can begin colonizing wet materials in as little as **24 to 48 hours** after water exposure — and in Las Vegas's dry climate, that timeline surprises most homeowners who assume the desert heat protects them. It doesn't. Once moisture is trapped inside a wall cavity, under flooring, or behind a cabinet, the low outdoor humidity is irrelevant. The spores already in your home — and they're always present at low levels — only need a wet surface and a temperature above 40°F to start growing. By 72 hours, a small wet patch can become a visible colony. By the end of the first week, you may be dealing with a remediation project instead of a drying job.
+Mold can begin colonizing wet materials in as little as **24 to 48 hours** after water exposure, and in Las Vegas's dry climate, that timeline surprises most homeowners who assume the desert heat protects them. It doesn't. Once moisture is trapped inside a wall cavity, under flooring, or behind a cabinet, the low outdoor humidity is irrelevant. The spores already in your home, and they're always present at low levels, only need a wet surface and a temperature above 40°F to start growing. By 72 hours, a small wet patch can become a visible colony. By the end of the first week, you may be dealing with a remediation project instead of a drying job.
 
 ## The 48-Hour Window: Why It Matters So Much
 
-Mold doesn't arrive from outside after a leak — it's already there. Fungal spores exist in virtually every indoor environment at background concentrations too low to cause harm. What a water event does is give those dormant spores exactly what they've been waiting for: sustained moisture on an organic surface.
+Mold doesn't arrive from outside after a leak, it's already there. Fungal spores exist in virtually every indoor environment at background concentrations too low to cause harm. What a water event does is give those dormant spores exactly what they've been waiting for: sustained moisture on an organic surface.
 
-The 48-hour threshold is widely cited because it reflects real biology. Within the first day, spores on wet drywall, wood framing, or carpet backing begin germinating — sending out microscopic root-like structures called hyphae that penetrate the material surface. By hour 48, those hyphae are anchored. By hour 72, a colony is actively producing more spores. What started as a burst supply line under your kitchen sink is now a biological event.
+The 48-hour threshold is widely cited because it reflects real biology. Within the first day, spores on wet drywall, wood framing, or carpet backing begin germinating, sending out microscopic root-like structures called hyphae that penetrate the material surface. By hour 48, those hyphae are anchored. By hour 72, a colony is actively producing more spores. What started as a burst supply line under your kitchen sink is now a biological event.
 
 A few factors accelerate this in Nevada homes specifically:
 
-- **Stucco and interior drywall construction**: Most Las Vegas homes built after the 1980s use paper-faced drywall throughout. Paper is cellulose — mold's preferred food source.
+- **Stucco and interior drywall construction**: Most Las Vegas homes built after the 1980s use paper-faced drywall throughout. Paper is cellulose, mold's preferred food source.
 - **Slab-on-grade foundations**: Water from a slab leak migrates laterally under flooring with no crawl space to ventilate it. Vinyl plank and tile may look dry on top while the concrete and adhesive beneath stay saturated for weeks.
 - **Evaporative coolers (swamp coolers)**: Older East Las Vegas homes sometimes still run evaporative coolers, which introduce humidity directly into the air stream. A water event in a home already running a swamp cooler can push interior humidity high enough to accelerate mold growth significantly faster than the standard 48-hour estimate.
 
@@ -35,20 +35,20 @@ A few factors accelerate this in Nevada homes specifically:
 
 The single most important thing you can do after any water event is reduce moisture as fast as possible. The clock starts the moment water contacts a surface, not the moment you notice it.
 
-1. **Stop the source.** If it's a burst pipe or supply line, turn off the main shutoff valve — typically located near the water meter at the street or in a utility closet. If it's an appliance (dishwasher, water heater, refrigerator ice maker), turn off the dedicated supply valve behind or beneath the unit.
-2. **Remove standing water.** A wet/dry shop vac handles small volumes. For larger floods, a submersible pump is faster. Don't leave standing water overnight — every hour counts.
+1. **Stop the source.** If it's a burst pipe or supply line, turn off the main shutoff valve, typically located near the water meter at the street or in a utility closet. If it's an appliance (dishwasher, water heater, refrigerator ice maker), turn off the dedicated supply valve behind or beneath the unit.
+2. **Remove standing water.** A wet/dry shop vac handles small volumes. For larger floods, a submersible pump is faster. Don't leave standing water overnight, every hour counts.
 3. **Pull up saturated soft materials.** Wet rugs, bath mats, and area rugs should come up immediately. They hold moisture against the subfloor and are rarely worth saving after full saturation.
 4. **Open cabinet doors and vanities.** Under-sink cabinets are a common dead zone for moisture. Open them and direct a fan inside.
-5. **Run air conditioning, not just fans.** In Las Vegas, your AC unit dehumidifies while it cools. Running it continuously after a water event helps lower indoor humidity faster than fans alone. Set it lower than you normally would — 68–70°F — to maximize the dehumidification cycle.
+5. **Run air conditioning, not just fans.** In Las Vegas, your AC unit dehumidifies while it cools. Running it continuously after a water event helps lower indoor humidity faster than fans alone. Set it lower than you normally would, 68–70°F, to maximize the dehumidification cycle.
 6. **Document everything with photos and video** before you move or discard anything. Your insurance claim will depend on it.
 
 What you should not do: crank up the heat thinking it will dry things faster. Higher temperatures accelerate mold growth without meaningfully improving evaporation inside wall cavities where air can't circulate.
 
 ## What You Can't See Is Usually the Bigger Problem
 
-The visible wet spot on your ceiling or the damp baseboard is rarely the full extent of the damage. Water follows gravity and the path of least resistance — it travels along framing, pools in wall cavities, and wicks into insulation long before any surface shows a stain.
+The visible wet spot on your ceiling or the damp baseboard is rarely the full extent of the damage. Water follows gravity and the path of least resistance, it travels along framing, pools in wall cavities, and wicks into insulation long before any surface shows a stain.
 
-If the leak is behind drywall, you'll often see a tide line — a yellowish or brownish ring — appear a day or two after the event. By the time that stain is visible, the paper face of the drywall behind it has likely been wet long enough for germination to begin. A musty, earthy smell (often described as smelling like a wet basement or old books) is a reliable early indicator that microbial growth is already underway, even if you can't see it yet.
+If the leak is behind drywall, you'll often see a tide line, a yellowish or brownish ring, appear a day or two after the event. By the time that stain is visible, the paper face of the drywall behind it has likely been wet long enough for germination to begin. A musty, earthy smell (often described as smelling like a wet basement or old books) is a reliable early indicator that microbial growth is already underway, even if you can't see it yet.
 
 Moisture meters and thermal imaging cameras can detect wet building materials behind intact surfaces without cutting into walls. This is standard equipment for professional water damage assessors and the reason a visual inspection alone is often insufficient after any significant water event.
 
@@ -58,18 +58,18 @@ Not every water event requires professional remediation. A small appliance leak 
 
 - The water was present for more than 24 hours before you discovered it
 - The leak originated from a toilet, sewage line, or any source that may have introduced contaminated water (Category 2 or Category 3 water loss)
-- You can smell a musty or earthy odor — even faintly
+- You can smell a musty or earthy odor, even faintly
 - The affected area includes drywall, insulation, wood framing, or subfloor
 - You can see visible discoloration, fuzzy growth, or staining on any surface
 - The affected area is larger than roughly 10 square feet (the EPA's general threshold for DIY mold cleanup)
 
 Professional water damage restoration involves more than fans and dehumidifiers. Technicians use psychrometric calculations to determine how many drying units a structure needs, track moisture readings in building materials across multiple days, and establish containment if mold is already present. Attempting to dry a Category 2 or 3 loss without proper training can spread contamination through your HVAC system.
 
-PuroClean of East Las Vegas handles both the water damage restoration and mold remediation sides of these events — meaning the same team that dries the structure can assess and address any mold that developed during the response window. If you're unsure whether what you're dealing with requires professional help, a call to (702) 551-3040 costs nothing and can help you make that decision with better information.
+PuroClean of East Las Vegas handles both the water damage restoration and mold remediation sides of these events, meaning the same team that dries the structure can assess and address any mold that developed during the response window. If you're unsure whether what you're dealing with requires professional help, a call to (702) 551-3040 costs nothing and can help you make that decision with better information.
 
 ## The Recovery Timeline: What to Expect After Drying
 
-Even after professional drying equipment is in place, building materials don't return to normal moisture levels overnight. A typical water damage drying project in a Las Vegas home takes **3 to 5 days** of continuous equipment operation, with daily moisture readings to confirm progress. Drywall that has absorbed significant water is often removed rather than dried in place — it's faster, cheaper in the long run, and eliminates the risk of mold growing inside a wall cavity that looks dry on the surface.
+Even after professional drying equipment is in place, building materials don't return to normal moisture levels overnight. A typical water damage drying project in a Las Vegas home takes **3 to 5 days** of continuous equipment operation, with daily moisture readings to confirm progress. Drywall that has absorbed significant water is often removed rather than dried in place, it's faster, cheaper in the long run, and eliminates the risk of mold growing inside a wall cavity that looks dry on the surface.
 
 If mold remediation is also required, that adds time: containment barriers go up, affected materials are removed and bagged, surfaces are treated, and air scrubbers run to capture airborne spores before the area is cleared for reconstruction. The full cycle from water event to repaired, painted walls can range from one week to several weeks depending on the extent of the damage.
 
@@ -77,4 +77,4 @@ The earlier the response, the shorter and less expensive that timeline tends to 
 
 ---
 
-If you've recently had a water event — even one that seems minor — and you're noticing a smell, a stain, or just a nagging doubt about whether everything dried properly, it's worth getting eyes on it before the 48-hour window closes or has already passed. Reach out to PuroClean of East Las Vegas at **(702) 551-3040** for an assessment.
+If you've recently had a water event, even one that seems minor, and you're noticing a smell, a stain, or just a nagging doubt about whether everything dried properly, it's worth getting eyes on it before the 48-hour window closes or has already passed. Reach out to PuroClean of East Las Vegas at **(702) 551-3040** for an assessment.

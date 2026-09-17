@@ -19,11 +19,11 @@ state: "SD"
 primary: false
 rendered: true
 ---
-When a pipe bursts in a Flandreau basement or a kitchen fire leaves smoke baked into the walls of a century-old farmhouse, Crew Restoration & Construction is the team property owners in Moody County call. We handle water extraction, structural drying, fire and smoke cleanup, mold remediation, and full reconstruction — from the first assessment through the final coat of paint — so you are not coordinating a half-dozen contractors while your home sits damaged.
+When a pipe bursts in a Flandreau basement or a kitchen fire leaves smoke baked into the walls of a century-old farmhouse, Crew Restoration & Construction is the team property owners in Moody County call. We handle water extraction, structural drying, fire and smoke cleanup, mold remediation, and full reconstruction, from the first assessment through the final coat of paint, so you are not coordinating a half-dozen contractors while your home sits damaged.
 
 ## Restoration emergencies common in Flandreau
 
-Flandreau sits along the Big Sioux River in a stretch of eastern South Dakota that cycles through hard freezes, spring snowmelt, and severe summer storms with enough regularity that water intrusion is practically a seasonal event. The river corridor raises the water table for homes in the Big Sioux River area, meaning basements that seemed dry for years can take on groundwater during a wet April or after a heavy July thunderstorm. Downtown Flandreau's older commercial and residential buildings — many built before modern vapor barriers and drainage codes — are especially vulnerable to moisture migration through masonry foundations.
+Flandreau sits along the Big Sioux River in a stretch of eastern South Dakota that cycles through hard freezes, spring snowmelt, and severe summer storms with enough regularity that water intrusion is practically a seasonal event. The river corridor raises the water table for homes in the Big Sioux River area, meaning basements that seemed dry for years can take on groundwater during a wet April or after a heavy July thunderstorm. Downtown Flandreau's older commercial and residential buildings, many built before modern vapor barriers and drainage codes, are especially vulnerable to moisture migration through masonry foundations.
 
 Winter in Flandreau also means frozen and burst pipes, ice dams on older rooflines, and furnace failures that leave a home exposed to sub-zero temperatures overnight. The housing stock in and around the Flandreau Santee Sioux Reservation includes a mix of tribal housing, mid-century ranch homes, and newer construction, each presenting different insulation profiles and different failure points when temperatures drop hard and fast. Spring thaw then compounds whatever winter left behind.
 
@@ -31,11 +31,11 @@ Winter in Flandreau also means frozen and burst pipes, ice dams on older rooflin
 
 ### Water damage restoration
 
-Water damage in Flandreau often starts invisibly — a slow seep under a slab, a pinhole leak behind drywall — and announces itself only after mold has had 48 to 72 hours to begin colonizing. We use thermal imaging and moisture meters to find water that a visual inspection misses, then extract standing water, set commercial drying equipment, and monitor moisture readings until structural materials reach safe levels. For homes near the Big Sioux River, we also assess whether the source is internal or groundwater-driven, because the mitigation approach differs significantly.
+Water damage in Flandreau often starts invisibly, a slow seep under a slab, a pinhole leak behind drywall, and announces itself only after mold has had 48 to 72 hours to begin colonizing. We use thermal imaging and moisture meters to find water that a visual inspection misses, then extract standing water, set commercial drying equipment, and monitor moisture readings until structural materials reach safe levels. For homes near the Big Sioux River, we also assess whether the source is internal or groundwater-driven, because the mitigation approach differs significantly.
 
 ### Fire and smoke damage restoration
 
-Smoke residue from even a contained kitchen fire can penetrate drywall, ductwork, and wood framing — and the odor returns every time humidity rises. We clean and seal affected surfaces, clean or replace HVAC components that circulated smoke, and rebuild what cannot be restored. In older Downtown Flandreau structures with plaster walls and original woodwork, we work to preserve salvageable materials rather than default to full tear-out.
+Smoke residue from even a contained kitchen fire can penetrate drywall, ductwork, and wood framing, and the odor returns every time humidity rises. We clean and seal affected surfaces, clean or replace HVAC components that circulated smoke, and rebuild what cannot be restored. In older Downtown Flandreau structures with plaster walls and original woodwork, we work to preserve salvageable materials rather than default to full tear-out.
 
 ### Mold remediation
 
@@ -43,11 +43,11 @@ Flandreau's river-adjacent climate and older housing stock create conditions whe
 
 ### Reconstruction and build-back
 
-Once mitigation is complete, we do not hand you a list of subcontractors and walk away. Our construction team handles drywall, flooring, cabinetry, and structural repairs — which matters when you are managing a rental near Royal River Casino or trying to get a family back into their home before the next school week.
+Once mitigation is complete, we do not hand you a list of subcontractors and walk away. Our construction team handles drywall, flooring, cabinetry, and structural repairs, which matters when you are managing a rental near Royal River Casino or trying to get a family back into their home before the next school week.
 
 ## Coverage and how fast we can get there
 
-Crew Restoration & Construction is headquartered in Sioux Falls, roughly 40 miles southwest of Flandreau via I-90 East and SD-13 North — a straightforward drive that our crews make regularly for jobs throughout Moody County. We serve all of Flandreau's ZIP code (57028), including properties in the Big Sioux River area, Downtown Flandreau, and neighborhoods on and adjacent to the Flandreau Santee Sioux Reservation. Scheduling is handled by phone at (605) 965-2727; call us to confirm availability and get a crew dispatched as quickly as our current schedule allows.
+Crew Restoration & Construction is headquartered in Sioux Falls, roughly 40 miles southwest of Flandreau via I-90 East and SD-13 North, a straightforward drive that our crews make regularly for jobs throughout Moody County. We serve all of Flandreau's ZIP code (57028), including properties in the Big Sioux River area, Downtown Flandreau, and neighborhoods on and adjacent to the Flandreau Santee Sioux Reservation. Scheduling is handled by phone at (605) 965-2727; call us to confirm availability and get a crew dispatched as quickly as our current schedule allows.
 
 ## Building stock, site conditions, and permits in Flandreau
 
@@ -55,6 +55,6 @@ Much of Flandreau's older housing dates to the railroad and early-farm era, whic
 
 Plumbing vintage matters too: galvanized supply lines rust closed from the inside and cast iron drains fail at the hub, both quietly.
 
-Structural repairs and rebuilds are permitted through the city, while work on tribal trust land can fall under tribal jurisdiction instead — worth confirming before demolition starts.
+Structural repairs and rebuilds are permitted through the city, while work on tribal trust land can fall under tribal jurisdiction instead, worth confirming before demolition starts.
 
 If you are dealing with water, fire, smoke, or mold damage at a property in Flandreau or anywhere in Moody County, call Crew Restoration & Construction at **(605) 965-2727**. We will walk you through next steps, answer questions about the insurance process, and get a crew scheduled.

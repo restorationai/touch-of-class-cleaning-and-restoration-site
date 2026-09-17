@@ -20,42 +20,42 @@ state: "WA"
 service_display: "Roof Leak Cleanup and Repair"
 rendered: true
 ---
-Rain has been coming through your ceiling for the past hour, and you're watching a water stain spread across the drywall while a bucket fills on the floor. That's the reality for a lot of Everett homeowners — especially between October and April, when the Pacific Northwest throws week after week of sustained rain, windstorms, and the occasional atmospheric river at rooftops that were already working hard. National Restoration Construction has been responding to exactly this kind of emergency since 2004, and our crews reach most Everett addresses within 60–90 minutes of your call.
+Rain has been coming through your ceiling for the past hour, and you're watching a water stain spread across the drywall while a bucket fills on the floor. That's the reality for a lot of Everett homeowners, especially between October and April, when the Pacific Northwest throws week after week of sustained rain, windstorms, and the occasional atmospheric river at rooftops that were already working hard. National Restoration Construction has been responding to exactly this kind of emergency since 2004, and our crews reach most Everett addresses within 60–90 minutes of your call.
 
 ## Why Everett Properties See Roof Leak Emergencies More Than You'd Expect
 
-Everett sits on a bluff above Puget Sound and Port Gardner Bay, which means it catches onshore wind and rain at angles that flat-facing roofs aren't always designed to handle. The city's housing stock is a wide mix — craftsman bungalows from the early 1900s near Colby Avenue, mid-century ramblers in the Pinehurst and Cascade View neighborhoods, and newer construction out toward Mukilteo. Older homes often have aging asphalt shingles, deteriorated flashing around chimneys and skylights, or low-slope sections above additions that pool water rather than shed it.
+Everett sits on a bluff above Puget Sound and Port Gardner Bay, which means it catches onshore wind and rain at angles that flat-facing roofs aren't always designed to handle. The city's housing stock is a wide mix, craftsman bungalows from the early 1900s near Colby Avenue, mid-century ramblers in the Pinehurst and Cascade View neighborhoods, and newer construction out toward Mukilteo. Older homes often have aging asphalt shingles, deteriorated flashing around chimneys and skylights, or low-slope sections above additions that pool water rather than shed it.
 
-When a shingle lifts in a November windstorm or a flashing seal fails after years of freeze-thaw cycles, the damage rarely stays on the roof. Water follows the path of least resistance — down through roof decking, into attic insulation, along ceiling joists, and eventually through drywall. Attic water damage can go unnoticed for days or weeks, and mold can begin colonizing wet insulation and wood framing within 24 to 48 hours of saturation. That window matters.
+When a shingle lifts in a November windstorm or a flashing seal fails after years of freeze-thaw cycles, the damage rarely stays on the roof. Water follows the path of least resistance, down through roof decking, into attic insulation, along ceiling joists, and eventually through drywall. Attic water damage can go unnoticed for days or weeks, and mold can begin colonizing wet insulation and wood framing within 24 to 48 hours of saturation. That window matters.
 
 ## Our Roof Leak Cleanup and Repair Process in Everett
 
-When we arrive, the first priority is stopping additional water from entering the structure. That usually means emergency tarping or temporary roof patching while we assess the full extent of interior damage — because the visible ceiling stain is almost never the whole picture.
+When we arrive, the first priority is stopping additional water from entering the structure. That usually means emergency tarping or temporary roof patching while we assess the full extent of interior damage, because the visible ceiling stain is almost never the whole picture.
 
 From there, the process moves through several overlapping phases:
 
 **Moisture mapping and documentation.** We use thermal imaging cameras and calibrated moisture meters to trace water migration through walls, ceilings, and attic cavities. This documentation also becomes part of your insurance claim file.
 
-**Water extraction and drying.** Truck-mounted extraction equipment pulls standing water from affected areas. Industrial air movers and refrigerant dehumidifiers then run continuously — sometimes for three to five days — until structural readings return to acceptable dry standards. We monitor daily.
+**Water extraction and drying.** Truck-mounted extraction equipment pulls standing water from affected areas. Industrial air movers and refrigerant dehumidifiers then run continuously, sometimes for three to five days, until structural readings return to acceptable dry standards. We monitor daily.
 
 **Attic and insulation assessment.** Saturated batt insulation loses its R-value and becomes a mold substrate. We remove and dispose of compromised insulation, treat affected framing if needed, and document everything before reinstalling.
 
-**Structural repair and reconstruction.** Once the structure is dry and cleared, we repair or replace damaged roof decking, sheathing, drywall, and finish materials. As a licensed general contractor (WA L&I #NATIORC792M6), we handle the full scope — you don't need to coordinate a separate roofer, a drywaller, and a restoration company.
+**Structural repair and reconstruction.** Once the structure is dry and cleared, we repair or replace damaged roof decking, sheathing, drywall, and finish materials. As a licensed general contractor (WA L&I #NATIORC792M6), we handle the full scope, you don't need to coordinate a separate roofer, a drywaller, and a restoration company.
 
 ## Insurance Claims for Roof Leak Damage
 
-Most homeowners' policies cover sudden and accidental interior water damage from a roof leak — but the language matters, and adjusters will ask for documentation. We work directly with all major carriers and can communicate with your adjuster on your behalf throughout the process.
+Most homeowners' policies cover sudden and accidental interior water damage from a roof leak, but the language matters, and adjusters will ask for documentation. We work directly with all major carriers and can communicate with your adjuster on your behalf throughout the process.
 
 What we handle: damage documentation with photos and moisture readings, line-item estimates formatted to Xactimate (the industry-standard software most insurers use), and supplement requests if hidden damage is found during demo.
 
 What you handle: filing the initial claim with your insurer and paying your deductible. We'll walk you through what to expect at each stage so there are no surprises.
 
-If your policy doesn't cover a portion of the work — or if you're paying out of pocket — we'll give you a clear written estimate before any work begins.
+If your policy doesn't cover a portion of the work, or if you're paying out of pocket, we'll give you a clear written estimate before any work begins.
 
 ## Response Times Across Everett
 
-Our Federal Way headquarters puts us roughly 30–40 minutes from downtown Everett under normal I-5 conditions. We maintain response targets of 60–90 minutes for most Everett addresses, including neighborhoods like Bayside, Silver Lake, and the Eastmont area. During major storm events — when call volume spikes across Snohomish County — we'll give you an honest ETA rather than a number we can't keep.
+Our Federal Way headquarters puts us roughly 30–40 minutes from downtown Everett under normal I-5 conditions. We maintain response targets of 60–90 minutes for most Everett addresses, including neighborhoods like Bayside, Silver Lake, and the Eastmont area. During major storm events, when call volume spikes across Snohomish County, we'll give you an honest ETA rather than a number we can't keep.
 
 If you're in south Everett near the 128th Street corridor, you're closer to our crew staging area and may see us faster. Either way, a technician will confirm your arrival window when you reach us at **(206) 883-0333**.
 
-The longer water sits in a structure, the more expensive and complicated the repair becomes. If you're seeing active ceiling water damage or finding wet insulation in your attic right now, getting a crew on-site today — not tomorrow — is the decision that protects your home and your claim.
+The longer water sits in a structure, the more expensive and complicated the repair becomes. If you're seeing active ceiling water damage or finding wet insulation in your attic right now, getting a crew on-site today, not tomorrow, is the decision that protects your home and your claim.

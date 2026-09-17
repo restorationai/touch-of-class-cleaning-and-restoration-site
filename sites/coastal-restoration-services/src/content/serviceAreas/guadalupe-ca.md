@@ -19,35 +19,35 @@ state: "CA"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall or a slow roof leak finally makes itself known, Guadalupe property owners need someone who can assess the damage quickly, explain what needs to happen, and get to work — not someone reading from a script. Coastal Restoration Services Inc handles water damage mitigation, mold remediation, fire and smoke cleanup, and structural drying for homes and commercial properties throughout Guadalupe and the surrounding Santa Barbara County communities. Call us at **(805) 345-7440** to talk through what you're seeing.
+When a pipe bursts behind a wall or a slow roof leak finally makes itself known, Guadalupe property owners need someone who can assess the damage quickly, explain what needs to happen, and get to work, not someone reading from a script. Coastal Restoration Services Inc handles water damage mitigation, mold remediation, fire and smoke cleanup, and structural drying for homes and commercial properties throughout Guadalupe and the surrounding Santa Barbara County communities. Call us at **(805) 345-7440** to talk through what you're seeing.
 
 ## Restoration emergencies common in Guadalupe
 
 Guadalupe sits in the southernmost corner of Santa Barbara County, where the Santa Maria Valley meets the Pacific coast and the Guadalupe-Nipomo Dunes system. That geography creates a specific set of conditions that drive restoration calls year after year.
 
-The marine layer here is persistent — coastal fog rolls inland most mornings, keeping relative humidity elevated even when it hasn't rained in weeks. That sustained moisture is enough to feed mold growth inside walls, under crawlspace vapor barriers, and in attic insulation, particularly in older wood-frame homes. Many of the residential properties in Guadalupe were built in the mid-twentieth century when vapor barriers, house wraps, and modern flashing details weren't standard practice. Gaps in those older assemblies let moisture migrate inward slowly and silently.
+The marine layer here is persistent, coastal fog rolls inland most mornings, keeping relative humidity elevated even when it hasn't rained in weeks. That sustained moisture is enough to feed mold growth inside walls, under crawlspace vapor barriers, and in attic insulation, particularly in older wood-frame homes. Many of the residential properties in Guadalupe were built in the mid-twentieth century when vapor barriers, house wraps, and modern flashing details weren't standard practice. Gaps in those older assemblies let moisture migrate inward slowly and silently.
 
-When atmospheric river events hit the Central Coast — and they have hit hard in recent years — Guadalupe's flat topography and proximity to agricultural drainage channels means surface water can back up against foundations faster than storm drains can handle it. Crawl spaces flood. Slab-on-grade floors wick moisture upward. Drywall at the base of exterior walls softens before a homeowner realizes there's a problem. The local water table in low-lying areas near the dunes is shallow enough that even a moderate rain event can push groundwater toward a foundation.
+When atmospheric river events hit the Central Coast, and they have hit hard in recent years, Guadalupe's flat topography and proximity to agricultural drainage channels means surface water can back up against foundations faster than storm drains can handle it. Crawl spaces flood. Slab-on-grade floors wick moisture upward. Drywall at the base of exterior walls softens before a homeowner realizes there's a problem. The local water table in low-lying areas near the dunes is shallow enough that even a moderate rain event can push groundwater toward a foundation.
 
-Fire and smoke damage, while less frequent, does occur — both from kitchen incidents in the area's older housing stock and from wildland-urban interface risk on the county's eastern edges.
+Fire and smoke damage, while less frequent, does occur, both from kitchen incidents in the area's older housing stock and from wildland-urban interface risk on the county's eastern edges.
 
 ## Services we provide in Guadalupe
 
 ### Water damage mitigation and structural drying
 
-Water damage in Guadalupe often starts small — a slow supply line leak, a failed wax ring, a compromised roof flashing — and grows quietly inside wall cavities and under flooring. We use thermal imaging and moisture meters to map the full extent of saturation before any drying equipment goes in, so nothing gets missed behind a cabinet or under laminate. Structural drying follows the IICRC S500 standard, with daily moisture readings to confirm the assembly is returning to acceptable levels.
+Water damage in Guadalupe often starts small, a slow supply line leak, a failed wax ring, a compromised roof flashing, and grows quietly inside wall cavities and under flooring. We use thermal imaging and moisture meters to map the full extent of saturation before any drying equipment goes in, so nothing gets missed behind a cabinet or under laminate. Structural drying follows the IICRC S500 standard, with daily moisture readings to confirm the assembly is returning to acceptable levels.
 
 ### Mold remediation
 
-The combination of coastal humidity and older construction makes Guadalupe homes more susceptible to mold colonization than many inland communities. Mold can begin to establish within 24 to 48 hours of a moisture event in the right conditions. Our remediation process isolates the affected area, removes contaminated materials properly, and addresses the underlying moisture source — because treating visible mold without fixing the cause just means it comes back.
+The combination of coastal humidity and older construction makes Guadalupe homes more susceptible to mold colonization than many inland communities. Mold can begin to establish within 24 to 48 hours of a moisture event in the right conditions. Our remediation process isolates the affected area, removes contaminated materials properly, and addresses the underlying moisture source, because treating visible mold without fixing the cause just means it comes back.
 
 ### Fire and smoke damage cleanup
 
-Smoke residue from even a contained kitchen fire can penetrate porous surfaces — drywall, wood framing, cabinet interiors — and leave an odor that ordinary cleaning won't touch. We assess the full scope of affected materials, remove what can't be restored, and use professional-grade deodorization to address what remains.
+Smoke residue from even a contained kitchen fire can penetrate porous surfaces, drywall, wood framing, cabinet interiors, and leave an odor that ordinary cleaning won't touch. We assess the full scope of affected materials, remove what can't be restored, and use professional-grade deodorization to address what remains.
 
 ### Reconstruction and repairs
 
-Once mitigation is complete, most properties need some level of rebuild — drywall replacement, flooring, cabinetry, or structural repairs. We coordinate that work directly so property owners aren't managing two separate contractors and two separate schedules.
+Once mitigation is complete, most properties need some level of rebuild, drywall replacement, flooring, cabinetry, or structural repairs. We coordinate that work directly so property owners aren't managing two separate contractors and two separate schedules.
 
 ## Coverage and how fast we can get there
 

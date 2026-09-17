@@ -20,44 +20,44 @@ state: "SD"
 service_display: "Renovations, Remodels and General Contracting"
 rendered: true
 ---
-Flandreau sits along the Big Sioux River in a stretch of Moody County where the freeze-thaw cycle hits hard every winter, older wood-framed homes are the norm rather than the exception, and a renovation project can uncover surprises that no pre-sale inspection ever flagged. Whether you're updating a kitchen in a 1940s craftsman near Downtown Flandreau, adding a bathroom to a home on the reservation's edge, or rebuilding a commercial space after fire or water damage, Crew Restoration & Construction brings full general contracting capability to the 57028 ZIP code — coordinating trades, managing timelines, and keeping your project on budget from demo day through final walkthrough.
+Flandreau sits along the Big Sioux River in a stretch of Moody County where the freeze-thaw cycle hits hard every winter, older wood-framed homes are the norm rather than the exception, and a renovation project can uncover surprises that no pre-sale inspection ever flagged. Whether you're updating a kitchen in a 1940s craftsman near Downtown Flandreau, adding a bathroom to a home on the reservation's edge, or rebuilding a commercial space after fire or water damage, Crew Restoration & Construction brings full general contracting capability to the 57028 ZIP code, coordinating trades, managing timelines, and keeping your project on budget from demo day through final walkthrough.
 
 ## Why Flandreau's Housing Stock Makes Renovation Planning Different
 
-A large share of Flandreau's residential properties were built before modern building codes standardized insulation requirements, electrical panel sizing, and vapor barrier practices. That matters the moment you open a wall. A kitchen remodel that looks straightforward on paper can reveal knob-and-tube wiring, undersized floor joists, or original plaster over wood lath — all of which change the scope, the timeline, and the permit requirements.
+A large share of Flandreau's residential properties were built before modern building codes standardized insulation requirements, electrical panel sizing, and vapor barrier practices. That matters the moment you open a wall. A kitchen remodel that looks straightforward on paper can reveal knob-and-tube wiring, undersized floor joists, or original plaster over wood lath, all of which change the scope, the timeline, and the permit requirements.
 
 The Big Sioux River area also introduces a soil dynamic worth understanding before any addition or structural change. Seasonal flooding and high water tables in lower-lying parcels can affect foundation conditions and subfloor moisture levels. A general contractor who hasn't worked in river-adjacent communities may miss the signs; we look for them before a single board is pulled.
 
-Flandreau's climate — cold, dry winters followed by wet springs — also means that unheated spaces like garages, mudrooms, and sunrooms often need thermal upgrades before they can be finished into livable square footage. We factor that into the design phase, not as an afterthought.
+Flandreau's climate, cold, dry winters followed by wet springs, also means that unheated spaces like garages, mudrooms, and sunrooms often need thermal upgrades before they can be finished into livable square footage. We factor that into the design phase, not as an afterthought.
 
 ## Our Renovation and General Contracting Process in Flandreau
 
-Every project starts with a site walk, not a phone estimate. For homes near Downtown Flandreau or along the river corridor, that means assessing existing conditions in person before any scope is written — because the variables in older construction are too significant to guess at remotely.
+Every project starts with a site walk, not a phone estimate. For homes near Downtown Flandreau or along the river corridor, that means assessing existing conditions in person before any scope is written, because the variables in older construction are too significant to guess at remotely.
 
 From there, the process moves through four concrete stages:
 
-**1. Scope and Permit Coordination** — We pull the required permits through Moody County and align the project scope with current South Dakota residential and commercial building codes. For properties on or adjacent to the Flandreau Santee Sioux Reservation, we confirm jurisdictional requirements early, since tribal land can involve a separate permitting layer depending on the nature of the work.
+**1. Scope and Permit Coordination**, We pull the required permits through Moody County and align the project scope with current South Dakota residential and commercial building codes. For properties on or adjacent to the Flandreau Santee Sioux Reservation, we confirm jurisdictional requirements early, since tribal land can involve a separate permitting layer depending on the nature of the work.
 
-**2. Trade Scheduling** — General contracting in a small market like Flandreau means managing subcontractor availability carefully. We maintain working relationships with licensed electricians, plumbers, and HVAC technicians who serve the Moody County area, so trades don't sit idle waiting on each other.
+**2. Trade Scheduling**, General contracting in a small market like Flandreau means managing subcontractor availability carefully. We maintain working relationships with licensed electricians, plumbers, and HVAC technicians who serve the Moody County area, so trades don't sit idle waiting on each other.
 
-**3. Active Construction Management** — A project manager stays in contact throughout the build phase. You get progress updates, not silence between invoices.
+**3. Active Construction Management**, A project manager stays in contact throughout the build phase. You get progress updates, not silence between invoices.
 
-**4. Final Inspection and Punch List** — We don't consider a job complete until it passes inspection and every item on the punch list is resolved. For post-damage rebuilds — after a fire, flood, or major structural event — we also coordinate with your insurance carrier's adjuster to ensure the scope of work aligns with the approved claim.
+**4. Final Inspection and Punch List**, We don't consider a job complete until it passes inspection and every item on the punch list is resolved. For post-damage rebuilds, after a fire, flood, or major structural event, we also coordinate with your insurance carrier's adjuster to ensure the scope of work aligns with the approved claim.
 
 ## Post-Damage Rebuilds: From Restoration to Finished Space
 
-Crew Restoration & Construction's background in restoration work gives us a practical edge on post-damage rebuilds that a standard remodeling contractor may not have. When a burst pipe, a kitchen fire, or a roof collapse forces a family out of their home, the rebuild isn't just a construction project — it's a timeline with real human pressure behind it.
+Crew Restoration & Construction's background in restoration work gives us a practical edge on post-damage rebuilds that a standard remodeling contractor may not have. When a burst pipe, a kitchen fire, or a roof collapse forces a family out of their home, the rebuild isn't just a construction project, it's a timeline with real human pressure behind it.
 
-We've managed rebuilds that started with water extraction and ended with a fully remodeled kitchen or bathroom — handling the transition from mitigation to reconstruction under one roof. That continuity matters for insurance documentation, for scheduling, and for the homeowner who doesn't want to manage two separate contractors through a stressful process.
+We've managed rebuilds that started with water extraction and ended with a fully remodeled kitchen or bathroom, handling the transition from mitigation to reconstruction under one roof. That continuity matters for insurance documentation, for scheduling, and for the homeowner who doesn't want to manage two separate contractors through a stressful process.
 
 For commercial properties near Royal River Casino or other Flandreau-area businesses, we also handle light commercial renovation and build-out work, including ADA compliance upgrades and tenant improvement projects.
 
 ## Reaching Flandreau from Our Sioux Falls Base
 
-Crew Restoration & Construction operates out of Sioux Falls, roughly 45 miles southwest of Flandreau via SD-34 East. That's a straightforward drive with no significant routing complications, and we schedule Flandreau-area projects as a regular part of our service territory — not as an outlier that requires special coordination. For project consultations, we come to you.
+Crew Restoration & Construction operates out of Sioux Falls, roughly 45 miles southwest of Flandreau via SD-34 East. That's a straightforward drive with no significant routing complications, and we schedule Flandreau-area projects as a regular part of our service territory, not as an outlier that requires special coordination. For project consultations, we come to you.
 
 ## Local Note
 
-One thing that catches out-of-area contractors in Flandreau: homes built in the 1950s and 1960s in this part of Moody County frequently used a regional brick veneer style over wood-frame construction that looks structurally solid from the outside but can hide significant moisture infiltration between the veneer and the sheathing. When we scope exterior renovations or additions on these properties, we probe the cavity before finalizing the framing plan — because discovering saturated sheathing after demo adds cost and time that no homeowner wants mid-project.
+One thing that catches out-of-area contractors in Flandreau: homes built in the 1950s and 1960s in this part of Moody County frequently used a regional brick veneer style over wood-frame construction that looks structurally solid from the outside but can hide significant moisture infiltration between the veneer and the sheathing. When we scope exterior renovations or additions on these properties, we probe the cavity before finalizing the framing plan, because discovering saturated sheathing after demo adds cost and time that no homeowner wants mid-project.
 
-If you're planning a renovation, remodel, or new construction project in Flandreau, call Crew Restoration & Construction at (605) 965-2727. We'll schedule a site visit, walk the property with you, and give you a scope that reflects what's actually there — not what a generic estimate template assumes.
+If you're planning a renovation, remodel, or new construction project in Flandreau, call Crew Restoration & Construction at (605) 965-2727. We'll schedule a site visit, walk the property with you, and give you a scope that reflects what's actually there, not what a generic estimate template assumes.

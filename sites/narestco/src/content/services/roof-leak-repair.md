@@ -17,26 +17,26 @@ service_slug: "roof-leak-repair"
 service_display: "Roof Leak Cleanup and Repair"
 rendered: true
 ---
-A roof leak rarely announces itself at a convenient time. By the time you notice a water stain spreading across your ceiling or hear dripping inside a wall cavity, the damage is already working its way through insulation, framing, and drywall. National Restoration Construction handles the full picture — emergency tarping and moisture containment, structural drying, ceiling and attic water damage remediation, and the repair work that closes the hole and puts the interior back together. One crew, one call, no handoff gaps.
+A roof leak rarely announces itself at a convenient time. By the time you notice a water stain spreading across your ceiling or hear dripping inside a wall cavity, the damage is already working its way through insulation, framing, and drywall. National Restoration Construction handles the full picture, emergency tarping and moisture containment, structural drying, ceiling and attic water damage remediation, and the repair work that closes the hole and puts the interior back together. One crew, one call, no handoff gaps.
 
 ## How We Handle Roof Leak Cleanup and Repair
 
-The first thing we do on every job is find the actual source of the intrusion — not just the wet spot on the ceiling below it. Water travels. A leak at a flashing seam or a cracked ridge cap can saturate six feet of roof deck before it ever drips into living space. Our technicians use moisture meters and thermal imaging cameras to trace the migration path before any demo begins.
+The first thing we do on every job is find the actual source of the intrusion, not just the wet spot on the ceiling below it. Water travels. A leak at a flashing seam or a cracked ridge cap can saturate six feet of roof deck before it ever drips into living space. Our technicians use moisture meters and thermal imaging cameras to trace the migration path before any demo begins.
 
-Once the source is confirmed, we protect the exterior. Emergency tarping or temporary membrane sealing stops additional water from entering while we assess interior damage. Inside, we extract standing water from attic cavities and ceiling voids, then set industrial air movers and desiccant or refrigerant dehumidifiers calibrated to the specific material densities involved — OSB sheathing, blown-in insulation, and gypsum board all dry at different rates and need different airflow targets.
+Once the source is confirmed, we protect the exterior. Emergency tarping or temporary membrane sealing stops additional water from entering while we assess interior damage. Inside, we extract standing water from attic cavities and ceiling voids, then set industrial air movers and desiccant or refrigerant dehumidifiers calibrated to the specific material densities involved, OSB sheathing, blown-in insulation, and gypsum board all dry at different rates and need different airflow targets.
 
 Moisture readings are logged daily. We don't pull equipment because a surface feels dry; we pull it when the readings confirm the structural wood and wall assemblies have returned to acceptable moisture content, typically between 7–12% for framing lumber in the Pacific Northwest. That documentation matters later if you're filing an insurance claim.
 
-Once the structure is dry, repair work begins: replacing damaged roof decking and sheathing, installing new underlayment and roofing material to match the existing system, repairing or replacing insulation, and restoring interior finishes — drywall, tape, texture, and paint. We hold a General Contractor Certificate of Registration (#NATIORC792M6), so we can take the job from wet ceiling to finished room without subcontracting the reconstruction piece to a separate company.
+Once the structure is dry, repair work begins: replacing damaged roof decking and sheathing, installing new underlayment and roofing material to match the existing system, repairing or replacing insulation, and restoring interior finishes, drywall, tape, texture, and paint. We hold a General Contractor Certificate of Registration (#NATIORC792M6), so we can take the job from wet ceiling to finished room without subcontracting the reconstruction piece to a separate company.
 
 ## When to Call Us
 
 The obvious trigger is water actively dripping or pooling inside the home. But several subtler signs point to interior roof leak damage that's already progressing:
 
-- **Ceiling discoloration or bubbling paint** — the paper face of drywall wicks moisture and stains brown or yellow before the surface feels wet to the touch.
-- **A musty smell in the attic or upper floor** — mold can begin colonizing wet cellulose insulation within 24–48 hours of a leak event. The smell often precedes visible growth.
-- **Sagging drywall or plaster** — saturated gypsum is heavy. A ceiling that looks slightly bowed is one step away from a collapse.
-- **Granules in gutters after a storm** — heavy shingle granule loss exposes the asphalt mat and accelerates leak risk, especially under the freeze-thaw cycles common in Western Washington winters.
+- **Ceiling discoloration or bubbling paint**, the paper face of drywall wicks moisture and stains brown or yellow before the surface feels wet to the touch.
+- **A musty smell in the attic or upper floor**, mold can begin colonizing wet cellulose insulation within 24–48 hours of a leak event. The smell often precedes visible growth.
+- **Sagging drywall or plaster**, saturated gypsum is heavy. A ceiling that looks slightly bowed is one step away from a collapse.
+- **Granules in gutters after a storm**, heavy shingle granule loss exposes the asphalt mat and accelerates leak risk, especially under the freeze-thaw cycles common in Western Washington winters.
 
 What **not** to do first: don't cut into a sagging ceiling section without understanding what's holding the water above it. A ceiling cavity can hold dozens of gallons. If the stain is growing or the drywall is soft, call before you poke.
 
@@ -44,13 +44,13 @@ What **not** to do first: don't cut into a sagging ceiling section without under
 
 Roof leak restoration sits at the intersection of roofing, water damage mitigation, and general construction. Most companies do one of those well. We're structured to do all three under a single project manager who stays on your job from the first call to the final walkthrough.
 
-Our mitigation team is IICRC Certified, which means the drying process follows IICRC S500 and S520 standards — the same protocols insurance adjusters expect to see in documentation. We're also an EPA Certified and Lead-Safe Certified Firm, which matters in Federal Way and the surrounding region where pre-1978 housing stock is common. If disturbing painted surfaces is part of the repair scope, we handle the lead-safe work practices in-house rather than stopping the job to bring in a separate contractor.
+Our mitigation team is IICRC Certified, which means the drying process follows IICRC S500 and S520 standards, the same protocols insurance adjusters expect to see in documentation. We're also an EPA Certified and Lead-Safe Certified Firm, which matters in Federal Way and the surrounding region where pre-1978 housing stock is common. If disturbing painted surfaces is part of the repair scope, we handle the lead-safe work practices in-house rather than stopping the job to bring in a separate contractor.
 
-Response time for active leak situations is typically within a few hours of your call. Our headquarters is in Federal Way, and we serve the surrounding communities across King and Pierce counties — so most of our service area is close.
+Response time for active leak situations is typically within a few hours of your call. Our headquarters is in Federal Way, and we serve the surrounding communities across King and Pierce counties, so most of our service area is close.
 
 ## Insurance, Billing, and the Claims Process
 
-Most homeowner policies cover sudden and accidental water damage from a roof leak — a storm-driven breach, wind-lifted shingles, or ice dam intrusion. What they typically exclude is damage from long-term neglect or deferred maintenance, which is why the timeline of the event matters when you're filing.
+Most homeowner policies cover sudden and accidental water damage from a roof leak, a storm-driven breach, wind-lifted shingles, or ice dam intrusion. What they typically exclude is damage from long-term neglect or deferred maintenance, which is why the timeline of the event matters when you're filing.
 
 We work directly with insurance carriers and can prepare the scope-of-loss documentation your adjuster needs: moisture logs, photo documentation, itemized line-item estimates in Xactimate format, and a clear narrative of the damage pathway. We don't inflate claims, and we don't pad scopes. What we do is make sure legitimate damage is fully documented so you're not paying out of pocket for work your policy should cover.
 

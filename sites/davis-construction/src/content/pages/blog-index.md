@@ -15,8 +15,8 @@ breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Blog"}]
 faq: []
 rendered: true
 ---
-Restoration emergencies don't come with instruction manuals. Whether you're staring at a water-stained ceiling at midnight, trying to figure out what your adjuster actually needs from you, or wondering whether that musty smell in the basement is a problem worth acting on — the posts here are written to give you a straight answer fast.
+Restoration emergencies don't come with instruction manuals. Whether you're staring at a water-stained ceiling at midnight, trying to figure out what your adjuster actually needs from you, or wondering whether that musty smell in the basement is a problem worth acting on, the posts here are written to give you a straight answer fast.
 
-We cover the things Madison-area homeowners and property managers tend to search for when something goes wrong: step-by-step guides for the first hours after a pipe burst or storm intrusion, plain-language walkthroughs of the insurance claim process, seasonal hazard reminders (North Alabama's freeze-thaw cycles and spring storm season keep us busy), and honest explainers on what restoration work actually involves — the timeline, the equipment, the decisions you'll be asked to make. Some posts are evergreen reference material; others are timely, like what to do after a specific weather event moves through the Tennessee Valley.
+We cover the things Madison-area homeowners and property managers tend to search for when something goes wrong: step-by-step guides for the first hours after a pipe burst or storm intrusion, plain-language walkthroughs of the insurance claim process, seasonal hazard reminders (North Alabama's freeze-thaw cycles and spring storm season keep us busy), and honest explainers on what restoration work actually involves, the timeline, the equipment, the decisions you'll be asked to make. Some posts are evergreen reference material; others are timely, like what to do after a specific weather event moves through the Tennessee Valley.
 
 Read whatever's useful. These articles are written to help you make good decisions whether you end up calling us or not.

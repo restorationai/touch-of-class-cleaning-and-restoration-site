@@ -18,17 +18,17 @@ rendered: true
 ---
 ## What Information We Collect
 
-When you contact us through the website — whether through the contact form, a scheduling request, or a direct email — we collect the information you provide: your name, phone number, email address, property address, and a description of the damage or service you need. We also collect basic, anonymized analytics data (pages visited, general geographic region, browser type) through standard website analytics tools. We do not use tracking pixels, sell advertising, or build behavioral profiles.
+When you contact us through the website, whether through the contact form, a scheduling request, or a direct email, we collect the information you provide: your name, phone number, email address, property address, and a description of the damage or service you need. We also collect basic, anonymized analytics data (pages visited, general geographic region, browser type) through standard website analytics tools. We do not use tracking pixels, sell advertising, or build behavioral profiles.
 
 ## How We Use Your Information
 
-The information you share is used for one purpose: to help you. That means responding to your inquiry, scheduling an on-site estimate, coordinating the scope of work, and — if you authorize it — communicating with your insurance carrier on your behalf to document the loss and process your claim. We do not use your contact information for unsolicited marketing, and we do not add you to third-party mailing lists.
+The information you share is used for one purpose: to help you. That means responding to your inquiry, scheduling an on-site estimate, coordinating the scope of work, and, if you authorize it, communicating with your insurance carrier on your behalf to document the loss and process your claim. We do not use your contact information for unsolicited marketing, and we do not add you to third-party mailing lists.
 
 ## How We Share Your Information
 
 We do not sell, rent, or trade your personal information. The only time your information is shared with a third party is when you explicitly authorize us to coordinate with your insurance carrier or a subcontractor directly involved in your restoration project. Any such sharing is limited to what is necessary to complete your service.
 
-If we are ever required to disclose information by law — for example, in response to a valid court order or regulatory requirement — we will comply with that obligation and, where legally permitted, notify you.
+If we are ever required to disclose information by law, for example, in response to a valid court order or regulatory requirement, we will comply with that obligation and, where legally permitted, notify you.
 
 ## Data Retention
 
@@ -36,7 +36,7 @@ We retain contact and project records for as long as reasonably necessary to ful
 
 ## Your Privacy Rights
 
-If you are a California resident, you have rights under the California Consumer Privacy Act (CCPA), including the right to know what personal information we hold about you, the right to request deletion, and the right to opt out of the sale of your data — though we do not sell data in any form. Residents of other states with comparable privacy laws have similar rights, and we extend the same courtesies regardless of where you live.
+If you are a California resident, you have rights under the California Consumer Privacy Act (CCPA), including the right to know what personal information we hold about you, the right to request deletion, and the right to opt out of the sale of your data, though we do not sell data in any form. Residents of other states with comparable privacy laws have similar rights, and we extend the same courtesies regardless of where you live.
 
 GDPR (the European Union's General Data Protection Regulation) is unlikely to apply to most visitors of this site, as our services are limited to the greater Youngstown, Ohio area. If you are accessing this site from outside the United States, please be aware that your information will be processed and stored in the US.
 

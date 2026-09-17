@@ -21,15 +21,15 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
-When something traumatic happens inside a home or rental unit in Edison — whether in a Clara Barton split-level, a North Edison garden apartment, or a commercial suite along the Route 1 corridor — the last thing a family or property manager should have to navigate alone is what comes next. Biohazard cleanup is not a job for general contractors or building maintenance staff. It requires controlled containment, regulated waste disposal, and the kind of discretion that lets affected residents and property owners focus on what actually matters.
+When something traumatic happens inside a home or rental unit in Edison, whether in a Clara Barton split-level, a North Edison garden apartment, or a commercial suite along the Route 1 corridor, the last thing a family or property manager should have to navigate alone is what comes next. Biohazard cleanup is not a job for general contractors or building maintenance staff. It requires controlled containment, regulated waste disposal, and the kind of discretion that lets affected residents and property owners focus on what actually matters.
 
 ## Why Edison Properties Present Unique Biohazard Considerations
 
-Edison's housing stock spans several decades and building types, and that variety shapes how biohazard remediation is approached. Postwar capes and colonials — common in neighborhoods like Stelton and Oak Tree — often have finished basements with drop ceilings, carpet over concrete, and limited ventilation. When a loss occurs in these spaces, porous materials absorb contaminants quickly and may not show visible evidence of the full extent of affected area. Older cast-iron drain lines and original plumbing in these homes can also complicate the picture if bodily fluids have reached a drain or subflooring.
+Edison's housing stock spans several decades and building types, and that variety shapes how biohazard remediation is approached. Postwar capes and colonials, common in neighborhoods like Stelton and Oak Tree, often have finished basements with drop ceilings, carpet over concrete, and limited ventilation. When a loss occurs in these spaces, porous materials absorb contaminants quickly and may not show visible evidence of the full extent of affected area. Older cast-iron drain lines and original plumbing in these homes can also complicate the picture if bodily fluids have reached a drain or subflooring.
 
-Edison's large multifamily footprint — the township has a significant number of apartment complexes and mixed-use buildings — means biohazard incidents frequently involve shared corridors, common stairwells, or HVAC systems that serve multiple units. Coordinating access, protecting neighboring residents, and working within building management protocols requires experience with exactly this kind of property type.
+Edison's large multifamily footprint, the township has a significant number of apartment complexes and mixed-use buildings, means biohazard incidents frequently involve shared corridors, common stairwells, or HVAC systems that serve multiple units. Coordinating access, protecting neighboring residents, and working within building management protocols requires experience with exactly this kind of property type.
 
-Sharps and needle cleanup is another recurring need in the township, particularly in areas near transit corridors and public green spaces like Roosevelt Park. Proper sharps disposal follows regulated medical waste handling procedures — this is not curbside pickup.
+Sharps and needle cleanup is another recurring need in the township, particularly in areas near transit corridors and public green spaces like Roosevelt Park. Proper sharps disposal follows regulated medical waste handling procedures, this is not curbside pickup.
 
 ## Our Biohazard Remediation Process
 
@@ -37,24 +37,24 @@ Every scene is different, and the process is shaped by what materials are affect
 
 **Containment and access control.** Before any remediation begins, the affected area is isolated. In multifamily buildings, this may mean coordinating with building management to restrict access to a hallway or stairwell. In single-family homes, it typically means sealing off the room or rooms involved.
 
-**Removal of affected materials.** Porous materials — carpet, padding, drywall, insulation, drop-ceiling tiles — that cannot be decontaminated are removed and packaged as regulated medical or biohazardous waste. This waste is transported and disposed of through licensed channels, not in standard dumpsters.
+**Removal of affected materials.** Porous materials, carpet, padding, drywall, insulation, drop-ceiling tiles, that cannot be decontaminated are removed and packaged as regulated medical or biohazardous waste. This waste is transported and disposed of through licensed channels, not in standard dumpsters.
 
-**Surface treatment and verification.** Hard surfaces are treated with EPA-registered disinfectants appropriate for bloodborne pathogens and infectious material. The goal is not just visible cleanliness — it is a measurable reduction in biological hazard to safe levels.
+**Surface treatment and verification.** Hard surfaces are treated with EPA-registered disinfectants appropriate for bloodborne pathogens and infectious material. The goal is not just visible cleanliness, it is a measurable reduction in biological hazard to safe levels.
 
 **Documentation.** Every step is photographed and logged. This matters for insurance claims and, in some cases, for property management records.
 
-The team is IICRC Certified (Firm #210213) and operates under protocols consistent with OSHA bloodborne pathogen standards. Work is available around the clock — you can reach us at any hour at (855) 650-7422.
+The team is IICRC Certified (Firm #210213) and operates under protocols consistent with OSHA bloodborne pathogen standards. Work is available around the clock, you can reach us at any hour at (855) 650-7422.
 
 ## Reaching Edison from Kenilworth
 
-The Restoration Group is based in Kenilworth, NJ, which puts Edison within straightforward reach via the Garden State Parkway to Route 1 or through Routes 27 and 28 depending on the specific address. The 08837 ZIP code — covering a large portion of central Edison including areas near Menlo Park Mall and the Edison industrial corridor — is typically accessible without navigating the more congested Route 1 retail stretch. North Edison addresses in the 08820 ZIP are reachable via the Parkway north or through local connectors. Because we operate 24/7, dispatch is not limited to business hours.
+The Restoration Group is based in Kenilworth, NJ, which puts Edison within straightforward reach via the Garden State Parkway to Route 1 or through Routes 27 and 28 depending on the specific address. The 08837 ZIP code, covering a large portion of central Edison including areas near Menlo Park Mall and the Edison industrial corridor, is typically accessible without navigating the more congested Route 1 retail stretch. North Edison addresses in the 08820 ZIP are reachable via the Parkway north or through local connectors. Because we operate 24/7, dispatch is not limited to business hours.
 
 ## Working with Insurance in Edison
 
-Many homeowner and renter policies cover biohazard remediation, particularly when the loss is tied to an unattended death, trauma, or crime. Coverage varies by carrier and policy language, and Edison's mix of owned homes and rental units means the responsible party — and the applicable policy — is not always immediately obvious. We document the affected area thoroughly, provide itemized scopes of work, and communicate directly with adjusters when the policyholder authorizes it. If you are a property manager dealing with a tenant unit, we can work within the framework your carrier requires.
+Many homeowner and renter policies cover biohazard remediation, particularly when the loss is tied to an unattended death, trauma, or crime. Coverage varies by carrier and policy language, and Edison's mix of owned homes and rental units means the responsible party, and the applicable policy, is not always immediately obvious. We document the affected area thoroughly, provide itemized scopes of work, and communicate directly with adjusters when the policyholder authorizes it. If you are a property manager dealing with a tenant unit, we can work within the framework your carrier requires.
 
 ## Local Note
 
-Edison's older split-levels and raised ranches — particularly in the Stelton and Clara Barton sections — frequently have crawl spaces or partial basements with exposed block foundations and minimal vapor barriers. When a biohazard event affects a lower level in one of these homes, contamination can wick into block cavities or reach the crawl space before it is visible at floor level. We account for this during assessment rather than treating only what is immediately apparent, because addressing the visible surface without checking below it can leave a problem that resurfaces weeks later.
+Edison's older split-levels and raised ranches, particularly in the Stelton and Clara Barton sections, frequently have crawl spaces or partial basements with exposed block foundations and minimal vapor barriers. When a biohazard event affects a lower level in one of these homes, contamination can wick into block cavities or reach the crawl space before it is visible at floor level. We account for this during assessment rather than treating only what is immediately apparent, because addressing the visible surface without checking below it can leave a problem that resurfaces weeks later.
 
-If you are dealing with a situation in Edison that requires immediate, discreet, and properly certified biohazard cleanup, call (855) 650-7422. We handle the logistics, the regulated disposal, and the documentation — so you do not have to.
+If you are dealing with a situation in Edison that requires immediate, discreet, and properly certified biohazard cleanup, call (855) 650-7422. We handle the logistics, the regulated disposal, and the documentation, so you do not have to.

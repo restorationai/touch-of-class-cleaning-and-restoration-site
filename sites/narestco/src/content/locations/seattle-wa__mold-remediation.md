@@ -20,38 +20,38 @@ state: "WA"
 service_display: "Mold Remediation"
 rendered: true
 ---
-If you've spotted dark patches spreading across drywall, caught that earthy-musty smell behind a bathroom wall, or just had a plumber confirm moisture damage under your floors, you already know the clock is running. Mold can begin colonizing a damp surface in as little as 24–48 hours — and in Seattle's climate, it rarely stops on its own. National Restoration Construction has been handling mold remediation in the greater Seattle area since 2004, and our crews are dispatched from Federal Way, putting most Seattle neighborhoods within a 60–90 minute response window.
+If you've spotted dark patches spreading across drywall, caught that earthy-musty smell behind a bathroom wall, or just had a plumber confirm moisture damage under your floors, you already know the clock is running. Mold can begin colonizing a damp surface in as little as 24–48 hours, and in Seattle's climate, it rarely stops on its own. National Restoration Construction has been handling mold remediation in the greater Seattle area since 2004, and our crews are dispatched from Federal Way, putting most Seattle neighborhoods within a 60–90 minute response window.
 
 ## Why Seattle Properties See Mold So Often
 
-Seattle averages roughly 150 days of measurable rain per year, and the marine air keeps relative humidity elevated even during dry stretches. That combination is genuinely hard on building envelopes. Older craftsman homes in neighborhoods like Ballard, Wallingford, and Columbia City often have minimal vapor barriers and original wood-framed walls that absorb moisture readily. Newer construction isn't immune either — improper flashing around rooflines and windows is one of the most common sources of hidden water intrusion we find during inspections.
+Seattle averages roughly 150 days of measurable rain per year, and the marine air keeps relative humidity elevated even during dry stretches. That combination is genuinely hard on building envelopes. Older craftsman homes in neighborhoods like Ballard, Wallingford, and Columbia City often have minimal vapor barriers and original wood-framed walls that absorb moisture readily. Newer construction isn't immune either, improper flashing around rooflines and windows is one of the most common sources of hidden water intrusion we find during inspections.
 
-Crawl spaces are a particular concern here. Many Seattle homes sit on pier-and-beam foundations where ground moisture wicks upward year-round. By the time a homeowner notices a musty odor in the living room, mold colonies may already be well-established on the subfloor joists below. Black mold remediation in these confined spaces requires specialized containment and equipment — it's not a situation that responds to bleach and a box fan.
+Crawl spaces are a particular concern here. Many Seattle homes sit on pier-and-beam foundations where ground moisture wicks upward year-round. By the time a homeowner notices a musty odor in the living room, mold colonies may already be well-established on the subfloor joists below. Black mold remediation in these confined spaces requires specialized containment and equipment, it's not a situation that responds to bleach and a box fan.
 
 ## Our Mold Remediation Process in Seattle
 
 Every job starts with a thorough assessment, not a sales pitch. A technician walks the property, uses moisture meters and thermal imaging to locate hidden saturation, and identifies the species and extent of growth before any work begins. That assessment drives the containment plan.
 
-**Containment** comes first. We seal off affected areas with poly barriers and establish negative air pressure using HEPA-filtered air scrubbers. This keeps spores from migrating into clean areas of your home while work is underway — a step that's easy to skip and costly to ignore.
+**Containment** comes first. We seal off affected areas with poly barriers and establish negative air pressure using HEPA-filtered air scrubbers. This keeps spores from migrating into clean areas of your home while work is underway, a step that's easy to skip and costly to ignore.
 
-**Removal and abatement** follows. Porous materials that can't be adequately cleaned — sections of drywall, insulation, compromised wood — are bagged and removed per EPA guidelines. Non-porous surfaces are treated with EPA-registered antimicrobial agents. Because our firm holds Lead-Safe Certification, we can handle mold abatement in pre-1978 homes without triggering a separate contractor call.
+**Removal and abatement** follows. Porous materials that can't be adequately cleaned, sections of drywall, insulation, compromised wood, are bagged and removed per EPA guidelines. Non-porous surfaces are treated with EPA-registered antimicrobial agents. Because our firm holds Lead-Safe Certification, we can handle mold abatement in pre-1978 homes without triggering a separate contractor call.
 
-**Drying and clearance** close the loop. We address the underlying moisture source — because mold cleanup without fixing the water problem is temporary at best — then dry the structure to industry-standard moisture levels. We document conditions before and after, which matters when you're working with your insurance adjuster.
+**Drying and clearance** close the loop. We address the underlying moisture source, because mold cleanup without fixing the water problem is temporary at best, then dry the structure to industry-standard moisture levels. We document conditions before and after, which matters when you're working with your insurance adjuster.
 
 ## Insurance Claims for Mold Damage
 
-Mold coverage varies significantly by policy, and most homeowners don't know what they have until they're standing in front of a damaged wall. As a general rule, insurers are more likely to cover mold that resulted directly from a covered peril — a burst pipe, a storm-driven roof leak — than mold attributed to long-term humidity or maintenance issues.
+Mold coverage varies significantly by policy, and most homeowners don't know what they have until they're standing in front of a damaged wall. As a general rule, insurers are more likely to cover mold that resulted directly from a covered peril, a burst pipe, a storm-driven roof leak, than mold attributed to long-term humidity or maintenance issues.
 
-We work directly with most major carriers and can provide the documentation adjusters require: moisture readings, photo evidence, scope of work, and material inventories. We won't tell you what your policy covers — that's between you and your carrier — but we can make sure the claim file is as complete as possible. Many of our Seattle clients find that having a licensed general contractor (WA L&I #NATIORC792M6) produce the damage assessment strengthens their claim.
+We work directly with most major carriers and can provide the documentation adjusters require: moisture readings, photo evidence, scope of work, and material inventories. We won't tell you what your policy covers, that's between you and your carrier, but we can make sure the claim file is as complete as possible. Many of our Seattle clients find that having a licensed general contractor (WA L&I #NATIORC792M6) produce the damage assessment strengthens their claim.
 
 ## Response Times Across Seattle
 
-Our Federal Way headquarters sits roughly 25 miles south of downtown Seattle via I-5, which translates to a typical on-site arrival of 60–90 minutes for most Seattle addresses under normal traffic conditions. South Seattle neighborhoods — Rainier Beach, Georgetown, Beacon Hill — tend to be on the faster end of that range. Northgate, Shoreline, and areas near the Ship Canal can run closer to 90 minutes during peak commute hours, and we'll tell you honestly when you call.
+Our Federal Way headquarters sits roughly 25 miles south of downtown Seattle via I-5, which translates to a typical on-site arrival of 60–90 minutes for most Seattle addresses under normal traffic conditions. South Seattle neighborhoods, Rainier Beach, Georgetown, Beacon Hill, tend to be on the faster end of that range. Northgate, Shoreline, and areas near the Ship Canal can run closer to 90 minutes during peak commute hours, and we'll tell you honestly when you call.
 
-If you're dealing with active water intrusion alongside the mold — a still-leaking pipe, standing water in a crawl space — tell us when you call (206) 883-0333. We'll dispatch accordingly and can often coordinate water extraction and mold containment in a single mobilization.
+If you're dealing with active water intrusion alongside the mold, a still-leaking pipe, standing water in a crawl space, tell us when you call (206) 883-0333. We'll dispatch accordingly and can often coordinate water extraction and mold containment in a single mobilization.
 
 ## What to Do Right Now
 
-Before a technician arrives, keep the affected area as undisturbed as possible. Don't run fans directly at visible mold growth — that spreads spores. Turn off HVAC if you suspect the system is circulating contaminated air. If there's an active leak, shut off the water supply if you can locate the valve safely.
+Before a technician arrives, keep the affected area as undisturbed as possible. Don't run fans directly at visible mold growth, that spreads spores. Turn off HVAC if you suspect the system is circulating contaminated air. If there's an active leak, shut off the water supply if you can locate the valve safely.
 
-Then reach out. The sooner containment begins, the smaller the remediation footprint — and the lower the final cost. You can describe what you're seeing over the phone and we'll give you an honest read on urgency before anyone commits to anything.
+Then reach out. The sooner containment begins, the smaller the remediation footprint, and the lower the final cost. You can describe what you're seeing over the phone and we'll give you an honest read on urgency before anyone commits to anything.

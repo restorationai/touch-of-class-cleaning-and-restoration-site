@@ -19,13 +19,13 @@ rendered: true
 ---
 ## The clock starts the moment water touches your structure
 
-Standing water in a basement is obvious. What's harder to see is what happens in the hours after: water wicking up drywall, saturating insulation behind walls, and soaking into subfloor assemblies that will never fully dry on their own. Within 24 to 48 hours, secondary damage — swelling framing, delaminating hardwood, and the early stages of microbial growth — can turn a contained incident into a far larger claim. Water damage restoration is the disciplined, equipment-driven process of stopping that clock.
+Standing water in a basement is obvious. What's harder to see is what happens in the hours after: water wicking up drywall, saturating insulation behind walls, and soaking into subfloor assemblies that will never fully dry on their own. Within 24 to 48 hours, secondary damage, swelling framing, delaminating hardwood, and the early stages of microbial growth, can turn a contained incident into a far larger claim. Water damage restoration is the disciplined, equipment-driven process of stopping that clock.
 
 ## What water damage restoration actually involves
 
-This is not a shop-vac-and-fan job. Professional water removal starts with identifying the water category — clean supply line water (Category 1), gray water from appliances or overflows (Category 2), or sewage-contaminated black water (Category 3) — because the category determines every decision that follows: what protective protocols are needed, which materials can be dried in place versus removed, and how the job is documented for your insurance carrier.
+This is not a shop-vac-and-fan job. Professional water removal starts with identifying the water category, clean supply line water (Category 1), gray water from appliances or overflows (Category 2), or sewage-contaminated black water (Category 3), because the category determines every decision that follows: what protective protocols are needed, which materials can be dried in place versus removed, and how the job is documented for your insurance carrier.
 
-After extraction, the real work is structural drying. Industrial desiccant or refrigerant dehumidifiers pull moisture from the air while high-velocity air movers accelerate evaporation from surfaces. Thermal imaging cameras locate moisture trapped behind tile and inside wall cavities that a moisture meter alone can miss. Readings are logged daily against the IICRC S500 standard — the industry benchmark for professional water damage mitigation — so there is a defensible drying record if your adjuster asks for one.
+After extraction, the real work is structural drying. Industrial desiccant or refrigerant dehumidifiers pull moisture from the air while high-velocity air movers accelerate evaporation from surfaces. Thermal imaging cameras locate moisture trapped behind tile and inside wall cavities that a moisture meter alone can miss. Readings are logged daily against the IICRC S500 standard, the industry benchmark for professional water damage mitigation, so there is a defensible drying record if your adjuster asks for one.
 
 Timeline depends on materials and water category. A Category 1 loss in a home with hardwood floors and standard drywall typically reaches drying goals in three to five days under proper equipment loads. Category 2 or 3 losses, or any job where water sat for more than a day before extraction, routinely run longer and require more aggressive containment and material removal.
 
@@ -33,7 +33,7 @@ Timeline depends on materials and water category. A Category 1 loss in a home wi
 
 1. **Emergency water extraction.** Truck-mounted and portable extractors remove standing water from flooring, carpet, and crawl spaces. Submersible pumps handle deep basement flooding. The goal is to eliminate free water before it migrates further into the structure.
 
-2. **Category and contamination assessment.** We identify the water source and classify contamination level. Category 2 and 3 losses require containment barriers, appropriate PPE, and in many cases removal of saturated porous materials — drywall, insulation, carpet — that cannot be safely dried in place.
+2. **Category and contamination assessment.** We identify the water source and classify contamination level. Category 2 and 3 losses require containment barriers, appropriate PPE, and in many cases removal of saturated porous materials, drywall, insulation, carpet, that cannot be safely dried in place.
 
 3. **Structural drying with daily moisture monitoring.** Dehumidifiers, air movers, and when needed, drying mats for hardwood or injection systems for wall cavities, are placed to target affected assemblies. Moisture readings are taken at consistent reference points each day and logged against a drying goal derived from pre-loss material baselines.
 
@@ -43,20 +43,20 @@ Timeline depends on materials and water category. A Category 1 loss in a home wi
 
 ## What separates a good water damage response from a bad one
 
-The most common failure in water mitigation is under-drying — pulling equipment too early because the surface feels dry to the touch while moisture content inside wall assemblies or under flooring is still elevated. Mold colonization can begin in as little as 48 to 72 hours in those hidden pockets. By the time it's visible, the remediation scope has grown substantially.
+The most common failure in water mitigation is under-drying, pulling equipment too early because the surface feels dry to the touch while moisture content inside wall assemblies or under flooring is still elevated. Mold colonization can begin in as little as 48 to 72 hours in those hidden pockets. By the time it's visible, the remediation scope has grown substantially.
 
-A second common mistake is misclassifying water category. A washing machine overflow that sat overnight is no longer Category 1 — bacterial growth begins quickly in warm, nutrient-rich water. Treating a Category 2 loss as clean water means skipping containment steps that protect occupants and that insurance adjusters will flag during desk review.
+A second common mistake is misclassifying water category. A washing machine overflow that sat overnight is no longer Category 1, bacterial growth begins quickly in warm, nutrient-rich water. Treating a Category 2 loss as clean water means skipping containment steps that protect occupants and that insurance adjusters will flag during desk review.
 
-Experienced adjusters also look for daily moisture logs with actual readings, not just a start and end photo. Gaps in documentation are a common reason mitigation invoices get disputed. The IICRC S500 framework exists partly to give adjusters a standard they can audit — which is why working with an IICRC Certified Firm (#210213) matters when a large loss goes to a third-party reviewer.
+Experienced adjusters also look for daily moisture logs with actual readings, not just a start and end photo. Gaps in documentation are a common reason mitigation invoices get disputed. The IICRC S500 framework exists partly to give adjusters a standard they can audit, which is why working with an IICRC Certified Firm (#210213) matters when a large loss goes to a third-party reviewer.
 
 ## Seasonal and regional considerations
 
-New Jersey's climate creates predictable water damage patterns. Freeze-thaw cycles between December and March burst supply lines and crack foundation walls — often overnight, when no one is watching. Spring snowmelt combined with heavy rain overwhelms sump pumps and window wells in older neighborhoods. Summer humidity in the 70–80% range means that a slow leak behind a cabinet can feed mold growth for weeks before the smell becomes noticeable.
+New Jersey's climate creates predictable water damage patterns. Freeze-thaw cycles between December and March burst supply lines and crack foundation walls, often overnight, when no one is watching. Spring snowmelt combined with heavy rain overwhelms sump pumps and window wells in older neighborhoods. Summer humidity in the 70–80% range means that a slow leak behind a cabinet can feed mold growth for weeks before the smell becomes noticeable.
 
 Kenilworth and the surrounding Union County communities sit in a mix of mid-century ranch homes and post-war colonials, many with original cast-iron drain lines and unfinished basements that collect water at the first sign of a failed sump or a backed-up floor drain. Knowing the typical construction means knowing where to look first.
 
 ## Service area
 
-The Restoration Group is based in Kenilworth and provides water damage restoration throughout Union County and the surrounding region, including Springfield, Cranford, Westfield, Clark, Garwood, Roselle Park, and Mountainside. City-specific pages detail local response logistics — this page covers the full scope of what the service involves.
+The Restoration Group is based in Kenilworth and provides water damage restoration throughout Union County and the surrounding region, including Springfield, Cranford, Westfield, Clark, Garwood, Roselle Park, and Mountainside. City-specific pages detail local response logistics, this page covers the full scope of what the service involves.
 
-If you're watching water spread across your floor right now, call **(908) 970-8533**. We respond 24/7 and can walk you through what to do before the crew arrives. If the immediate emergency has passed and you're assessing damage, schedule a moisture assessment — it takes about an hour and gives you a clear picture of what dried on its own and what didn't.
+If you're watching water spread across your floor right now, call **(908) 970-8533**. We respond 24/7 and can walk you through what to do before the crew arrives. If the immediate emergency has passed and you're assessing damage, schedule a moisture assessment, it takes about an hour and gives you a clear picture of what dried on its own and what didn't.

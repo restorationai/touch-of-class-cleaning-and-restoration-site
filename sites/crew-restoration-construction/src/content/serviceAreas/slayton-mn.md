@@ -19,27 +19,27 @@ state: "MN"
 primary: false
 rendered: true
 ---
-When a pipe bursts in a Lake Sarah area cabin or a basement floods near Downtown Slayton, Crew Restoration & Construction handles the extraction, drying, structural repairs, and documentation from start to finish — so you are not coordinating a half-dozen separate contractors while water is still moving through your walls. We cover Slayton and the surrounding Murray County area for water damage, fire and smoke cleanup, mold remediation, and reconstruction, working directly with your insurance carrier to keep the process from stalling.
+When a pipe bursts in a Lake Sarah area cabin or a basement floods near Downtown Slayton, Crew Restoration & Construction handles the extraction, drying, structural repairs, and documentation from start to finish, so you are not coordinating a half-dozen separate contractors while water is still moving through your walls. We cover Slayton and the surrounding Murray County area for water damage, fire and smoke cleanup, mold remediation, and reconstruction, working directly with your insurance carrier to keep the process from stalling.
 
 ## Restoration emergencies common in Slayton
 
 Slayton sits at the edge of the Coteau des Prairies, and that geography shapes the damage patterns we see here. Spring snowmelt across the flat, clay-heavy soils of Murray County has nowhere to drain quickly, which means sump pumps run hard from March through May and sometimes fail under the sustained load. Properties near Lake Sarah face an added layer of risk: seasonal lake-level fluctuations push groundwater toward foundations, and a wet spring can leave crawl spaces and lower-level finishes saturated for weeks before a homeowner realizes the extent of it.
 
-The housing stock around Downtown Slayton skews older — many homes were built in the mid-twentieth century with block or poured-concrete basements that have had decades to develop cracks and failing waterproofing. Older construction also means more legacy materials: cast-iron drain lines that corrode and back up, original plaster walls that absorb moisture slowly and release it even slower, and in some cases building materials that require careful handling under current environmental standards. Winters here are long and cold, and ice damming along rooflines is a recurring source of interior water intrusion that homeowners often mistake for a roof failure rather than a drainage and insulation issue.
+The housing stock around Downtown Slayton skews older, many homes were built in the mid-twentieth century with block or poured-concrete basements that have had decades to develop cracks and failing waterproofing. Older construction also means more legacy materials: cast-iron drain lines that corrode and back up, original plaster walls that absorb moisture slowly and release it even slower, and in some cases building materials that require careful handling under current environmental standards. Winters here are long and cold, and ice damming along rooflines is a recurring source of interior water intrusion that homeowners often mistake for a roof failure rather than a drainage and insulation issue.
 
 ## Services we provide in Slayton
 
 ### Water damage restoration
 
-Water damage in Slayton often involves prolonged ground saturation rather than a single dramatic event. A slow foundation seep can go unnoticed until mold is already colonizing wall cavities — mold can begin colonizing wet materials in as little as 24 to 48 hours. We use thermal imaging and moisture meters to find water that has migrated beyond the visible damage, extract standing water, and dry structural materials to IICRC S500 standards before any rebuild begins.
+Water damage in Slayton often involves prolonged ground saturation rather than a single dramatic event. A slow foundation seep can go unnoticed until mold is already colonizing wall cavities, mold can begin colonizing wet materials in as little as 24 to 48 hours. We use thermal imaging and moisture meters to find water that has migrated beyond the visible damage, extract standing water, and dry structural materials to IICRC S500 standards before any rebuild begins.
 
 ### Fire and smoke damage restoration
 
-House fires in older Slayton neighborhoods tend to involve materials that produce heavy, oily smoke residue — original wood framing, older insulation, and decades of paint layers. Smoke odor embeds in HVAC ductwork, subflooring, and wall cavities well beyond the burn area. We assess the full smoke migration path, clean or remove affected materials, and deodorize before reconstruction so the smell does not return with the first warm day.
+House fires in older Slayton neighborhoods tend to involve materials that produce heavy, oily smoke residue, original wood framing, older insulation, and decades of paint layers. Smoke odor embeds in HVAC ductwork, subflooring, and wall cavities well beyond the burn area. We assess the full smoke migration path, clean or remove affected materials, and deodorize before reconstruction so the smell does not return with the first warm day.
 
 ### Mold remediation
 
-The combination of older construction and recurring moisture events makes mold a common secondary problem for Slayton properties. We identify the moisture source first — because remediation without fixing the underlying water intrusion is a temporary fix — then contain, remove, and treat affected areas. We do not make medical claims about air quality outcomes, but we follow established remediation protocols to address visible and hidden mold growth.
+The combination of older construction and recurring moisture events makes mold a common secondary problem for Slayton properties. We identify the moisture source first, because remediation without fixing the underlying water intrusion is a temporary fix, then contain, remove, and treat affected areas. We do not make medical claims about air quality outcomes, but we follow established remediation protocols to address visible and hidden mold growth.
 
 ### Reconstruction
 
@@ -47,7 +47,7 @@ Because we handle both restoration and construction, we can take a Slayton prope
 
 ## Coverage and how fast we can get there
 
-Crew Restoration & Construction is headquartered in Sioux Falls, SD. Slayton is roughly 90 miles northeast of Sioux Falls via US-14, a straightforward route across open prairie that our crews travel regularly. The Lake Sarah area and Downtown Slayton are both well within our standard coverage zone for Murray County. We schedule promptly and will give you a realistic arrival window when you call — (605) 965-2727.
+Crew Restoration & Construction is headquartered in Sioux Falls, SD. Slayton is roughly 90 miles northeast of Sioux Falls via US-14, a straightforward route across open prairie that our crews travel regularly. The Lake Sarah area and Downtown Slayton are both well within our standard coverage zone for Murray County. We schedule promptly and will give you a realistic arrival window when you call, (605) 965-2727.
 
 ## Building stock, site conditions, and permits in Slayton
 

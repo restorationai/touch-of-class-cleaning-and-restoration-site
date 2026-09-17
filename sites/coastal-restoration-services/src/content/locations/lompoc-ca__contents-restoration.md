@@ -20,25 +20,25 @@ state: "CA"
 service_display: "Contents Restoration and Storage"
 rendered: true
 ---
-Lompoc sits in a coastal valley where marine layer moisture rolls in from the Pacific most mornings, then burns off by afternoon — a daily humidity cycle that can quietly accelerate secondary damage to furniture, artwork, and personal belongings after a water loss or house fire. If a pipe burst, a kitchen fire, or a sewage backup has left your possessions at risk, getting them out of the affected environment and into a controlled storage facility is often the most important step you can take in the first 24 hours. Coastal Restoration Services Inc handles contents pack-out, professional cleaning, and climate-controlled storage for Lompoc homeowners and property managers throughout Santa Barbara County.
+Lompoc sits in a coastal valley where marine layer moisture rolls in from the Pacific most mornings, then burns off by afternoon, a daily humidity cycle that can quietly accelerate secondary damage to furniture, artwork, and personal belongings after a water loss or house fire. If a pipe burst, a kitchen fire, or a sewage backup has left your possessions at risk, getting them out of the affected environment and into a controlled storage facility is often the most important step you can take in the first 24 hours. Coastal Restoration Services Inc handles contents pack-out, professional cleaning, and climate-controlled storage for Lompoc homeowners and property managers throughout Santa Barbara County.
 
 ## Why Lompoc Homes See Elevated Contents Damage
 
-The same coastal air that makes the Santa Ynez Valley so appealing also creates conditions that are hard on household contents after a loss event. Relative humidity in Lompoc regularly climbs above 80% on overcast mornings, which means fabrics, upholstered furniture, wood cabinetry, and paper documents can begin absorbing ambient moisture within hours of a water intrusion — even after the visible water has been extracted.
+The same coastal air that makes the Santa Ynez Valley so appealing also creates conditions that are hard on household contents after a loss event. Relative humidity in Lompoc regularly climbs above 80% on overcast mornings, which means fabrics, upholstered furniture, wood cabinetry, and paper documents can begin absorbing ambient moisture within hours of a water intrusion, even after the visible water has been extracted.
 
 Lompoc's housing stock adds another layer of complexity. A significant portion of the city's residential neighborhoods were built between the 1940s and 1970s, when homes were constructed with solid-wood furniture, plaster walls, and natural-fiber textiles that respond very differently to smoke residue and water than modern synthetic materials do. Smoke odor bonds more stubbornly to natural fibers, and older wood furniture can warp or crack if dried too aggressively. Contents restoration in this market requires a more measured approach than a newer-construction suburb might demand.
 
-Fire damage is also a consideration unique to this region. The dry Santa Ana wind events that sweep through the valley in late summer and fall can push wildfire smoke and ash into homes even when a structure itself is not directly threatened, leaving a fine particulate residue on every surface — clothing, electronics, collectibles, and upholstery included.
+Fire damage is also a consideration unique to this region. The dry Santa Ana wind events that sweep through the valley in late summer and fall can push wildfire smoke and ash into homes even when a structure itself is not directly threatened, leaving a fine particulate residue on every surface, clothing, electronics, collectibles, and upholstery included.
 
 ## Our Contents Restoration and Storage Process in Lompoc
 
 When we arrive at a Lompoc property, the first step is a room-by-room inventory. Every item is photographed, catalogued, and assigned a condition code before anything is moved. This documentation matters both for your insurance claim and for ensuring that nothing is misplaced during transport.
 
-From there, salvageable contents are carefully packed and transported to our climate-controlled storage facility in Vandenberg Village, roughly ten miles from central Lompoc via Highway 1 and Vandenberg Air Force Base Road. Items remain in secure, humidity-regulated storage while structural work is completed on your home — you are not racing to find temporary storage on your own.
+From there, salvageable contents are carefully packed and transported to our climate-controlled storage facility in Vandenberg Village, roughly ten miles from central Lompoc via Highway 1 and Vandenberg Air Force Base Road. Items remain in secure, humidity-regulated storage while structural work is completed on your home, you are not racing to find temporary storage on your own.
 
 Cleaning methods are matched to the material. Ultrasonic cleaning tanks remove smoke residue and soot from hard goods, ceramics, and metal fixtures without abrasion. Ozone and hydroxyl treatment cycles address embedded smoke odor in soft goods. Electronics and documents go through a separate triage process, and items that cannot be restored are documented thoroughly for insurance replacement purposes.
 
-Once your home is cleared for re-occupancy, we coordinate a scheduled return and assist with placement — so belongings go back to the right rooms rather than stacking up in a garage.
+Once your home is cleared for re-occupancy, we coordinate a scheduled return and assist with placement, so belongings go back to the right rooms rather than stacking up in a garage.
 
 ## Reaching Lompoc from Vandenberg Village
 
@@ -48,7 +48,7 @@ Coastal Restoration Services Inc is based in Vandenberg Village, which puts the 
 
 Contents losses are often the most disputed portion of a homeowner's insurance claim because adjusters and policyholders sometimes disagree on what is restorable versus what needs replacement. The itemized photo inventory we complete at pack-out gives your adjuster a clear, timestamped record of every affected item and its pre-treatment condition. We can communicate directly with your carrier's claims team and provide line-item documentation in the format most major insurers use for contents claims in California.
 
-If your policy includes additional living expense (ALE) coverage, off-site contents storage costs are typically a covered line item — something worth confirming with your adjuster early in the process.
+If your policy includes additional living expense (ALE) coverage, off-site contents storage costs are typically a covered line item, something worth confirming with your adjuster early in the process.
 
 ## Local Note
 

@@ -20,11 +20,11 @@ state: "MS"
 service_display: "Crawl Space Encapsulation"
 rendered: true
 ---
-McLain sits in Greene County, where the soil holds moisture like a sponge through long, humid summers and mild but wet winters — conditions that quietly work against any home with an unprotected crawl space. Warm, damp ground air rises into the crawl space, condenses on floor joists, and over weeks turns wood soft and inviting to mold. Crawl space encapsulation breaks that cycle by sealing the space from the ground up, and for homes in this corner of Mississippi it isn't a luxury upgrade — it's a practical defense against the region's climate.
+McLain sits in Greene County, where the soil holds moisture like a sponge through long, humid summers and mild but wet winters, conditions that quietly work against any home with an unprotected crawl space. Warm, damp ground air rises into the crawl space, condenses on floor joists, and over weeks turns wood soft and inviting to mold. Crawl space encapsulation breaks that cycle by sealing the space from the ground up, and for homes in this corner of Mississippi it isn't a luxury upgrade, it's a practical defense against the region's climate.
 
 ## Why McLain Properties Are Especially Vulnerable to Crawl Space Moisture
 
-Greene County averages well over 60 inches of rainfall a year, and much of that water doesn't drain away quickly. The clay-heavy soils common throughout this part of southern Mississippi absorb slowly and release moisture into the air for days after a storm passes. Homes built on pier-and-beam foundations — a very common construction style in rural Greene County — sit directly above that damp ground with little or nothing between the soil and the wood structure above.
+Greene County averages well over 60 inches of rainfall a year, and much of that water doesn't drain away quickly. The clay-heavy soils common throughout this part of southern Mississippi absorb slowly and release moisture into the air for days after a storm passes. Homes built on pier-and-beam foundations, a very common construction style in rural Greene County, sit directly above that damp ground with little or nothing between the soil and the wood structure above.
 
 Without a vapor barrier and proper encapsulation, relative humidity inside an unprotected crawl space can climb above 80% for weeks at a time. At those levels, wood begins to absorb moisture, metal fasteners corrode, and mold can begin colonizing organic material within 48 to 72 hours of sustained exposure. Insulation batts sag, lose R-value, and eventually fall. Homeowners often notice the effects first as musty odors drifting up through floors or as soft spots developing in hardwood or laminate flooring before they ever look under the house.
 
@@ -34,7 +34,7 @@ Every encapsulation job starts with a thorough inspection of the crawl space bef
 
 Once the space is cleared and any remediation work is complete, the process moves through these stages:
 
-- **Ground cover installation**: A heavy-duty polyethylene vapor barrier — typically 20-mil reinforced — is laid across the entire crawl space floor and lapped up the foundation walls. Seams are overlapped and taped to eliminate gaps where ground moisture can bypass the barrier.
+- **Ground cover installation**: A heavy-duty polyethylene vapor barrier, typically 20-mil reinforced, is laid across the entire crawl space floor and lapped up the foundation walls. Seams are overlapped and taped to eliminate gaps where ground moisture can bypass the barrier.
 - **Wall and pier coverage**: The barrier is secured to foundation walls and wrapped around piers, creating a continuous sealed envelope rather than just a floor covering.
 - **Vent sealing**: In a fully conditioned encapsulation, crawl space vents are closed and sealed. This is a deliberate departure from older building practice but is consistent with modern building science and Mississippi's current energy code guidance for conditioned crawl spaces.
 - **Drainage and humidity control**: Depending on site conditions, a perimeter drain channel and sump pump may be installed to handle any water intrusion. A dehumidifier sized for the space keeps relative humidity below 55% year-round.
@@ -42,10 +42,10 @@ Once the space is cleared and any remediation work is complete, the process move
 
 ## Reaching McLain from Gulfport
 
-HomeLyft Restoration MS is based in Gulfport, and McLain is roughly a two-hour drive north through Wiggins and up into Greene County. Because encapsulation is a scheduled service rather than an emergency call, the team coordinates arrival windows in advance so homeowners aren't waiting around. When the crew arrives, they come prepared for the full scope — McLain is not a short drive, and no one wants to make a second trip for forgotten materials.
+HomeLyft Restoration MS is based in Gulfport, and McLain is roughly a two-hour drive north through Wiggins and up into Greene County. Because encapsulation is a scheduled service rather than an emergency call, the team coordinates arrival windows in advance so homeowners aren't waiting around. When the crew arrives, they come prepared for the full scope, McLain is not a short drive, and no one wants to make a second trip for forgotten materials.
 
 ## Local Note: What Working in Greene County Homes Teaches You
 
-Older pier-and-beam homes in rural Greene County often have crawl space clearances that are tighter than what you'd find in newer construction — sometimes as little as 18 to 24 inches of working height. That changes how material is staged and moved into the space, and it means the crew needs to work methodically rather than quickly. It also means a thorough inspection matters more, because low-clearance spaces are harder to see completely from the access hatch. The team accounts for this on McLain jobs by budgeting extra inspection time before any material is quoted or ordered.
+Older pier-and-beam homes in rural Greene County often have crawl space clearances that are tighter than what you'd find in newer construction, sometimes as little as 18 to 24 inches of working height. That changes how material is staged and moved into the space, and it means the crew needs to work methodically rather than quickly. It also means a thorough inspection matters more, because low-clearance spaces are harder to see completely from the access hatch. The team accounts for this on McLain jobs by budgeting extra inspection time before any material is quoted or ordered.
 
-If you've noticed a musty smell coming from your floors, seen condensation on ductwork under the house, or simply know your crawl space has never been sealed, this is the right time to have it looked at. Call HomeLyft Restoration MS at +12282845200 to schedule an assessment for your McLain home — the sooner the space is sealed, the less damage accumulates through the next rainy season.
+If you've noticed a musty smell coming from your floors, seen condensation on ductwork under the house, or simply know your crawl space has never been sealed, this is the right time to have it looked at. Call HomeLyft Restoration MS at +12282845200 to schedule an assessment for your McLain home, the sooner the space is sealed, the less damage accumulates through the next rainy season.

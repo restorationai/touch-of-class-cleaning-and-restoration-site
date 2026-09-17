@@ -20,37 +20,37 @@ state: "WA"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
-Smoke leaves fast and stays long. Within hours of a fire — even a small kitchen fire or a wildfire smoke intrusion — soot and acidic residue begin etching into drywall, discoloring ceilings, and embedding in HVAC systems. If you're in Redmond right now and your home or building smells like it happened yesterday, it probably did. National Restoration Construction has been responding to smoke damage emergencies across the Eastside since 2004, and our team can be at your door — in most cases — within 60 to 90 minutes of your call.
+Smoke leaves fast and stays long. Within hours of a fire, even a small kitchen fire or a wildfire smoke intrusion, soot and acidic residue begin etching into drywall, discoloring ceilings, and embedding in HVAC systems. If you're in Redmond right now and your home or building smells like it happened yesterday, it probably did. National Restoration Construction has been responding to smoke damage emergencies across the Eastside since 2004, and our team can be at your door, in most cases, within 60 to 90 minutes of your call.
 
 ## Our Smoke Damage Restoration Process in Redmond
 
-When our crew arrives, the first priority is assessment, not paperwork. A technician walks the structure to identify the fire origin point, map how smoke traveled through the building, and document everything with photos and moisture readings — documentation your insurance adjuster will ask for later.
+When our crew arrives, the first priority is assessment, not paperwork. A technician walks the structure to identify the fire origin point, map how smoke traveled through the building, and document everything with photos and moisture readings, documentation your insurance adjuster will ask for later.
 
 From there, the work moves in a deliberate sequence:
 
 1. **Containment and ventilation.** We seal off unaffected areas and introduce negative air pressure using commercial air scrubbers with HEPA filtration. This keeps soot from migrating further while we work.
-2. **Dry residue removal.** Loose soot is vacuumed with HEPA-rated equipment before any wet cleaning begins. Wiping soot before vacuuming grinds it deeper — a mistake that costs homeowners weeks of extra odor.
-3. **Surface cleaning and smoke residue cleanup.** Walls, ceilings, cabinets, and structural framing are cleaned with chemistry matched to the residue type — protein smoke from cooking fires behaves differently than the oily smoke from electrical or wildfire events.
+2. **Dry residue removal.** Loose soot is vacuumed with HEPA-rated equipment before any wet cleaning begins. Wiping soot before vacuuming grinds it deeper, a mistake that costs homeowners weeks of extra odor.
+3. **Surface cleaning and smoke residue cleanup.** Walls, ceilings, cabinets, and structural framing are cleaned with chemistry matched to the residue type, protein smoke from cooking fires behaves differently than the oily smoke from electrical or wildfire events.
 4. **Thermal fogging and deodorization.** Odor molecules penetrate into porous materials. Thermal fogging, hydroxyl generators, or ozone treatment (depending on occupancy status) neutralize odor at the molecular level rather than masking it.
-5. **Reconstruction.** Where materials are too saturated with smoke to clean — drywall, insulation, flooring — we remove and rebuild. As a licensed General Contractor (WA L&I #NATIORC792M6), we handle both the remediation and the rebuild under one contract, which simplifies the insurance process significantly.
+5. **Reconstruction.** Where materials are too saturated with smoke to clean, drywall, insulation, flooring, we remove and rebuild. As a licensed General Contractor (WA L&I #NATIORC792M6), we handle both the remediation and the rebuild under one contract, which simplifies the insurance process significantly.
 
 ## Why Redmond Properties Face Elevated Smoke Damage Risk
 
 Redmond's housing stock is a mix of mid-century ramblers, 1980s–1990s wood-frame construction, and newer mixed-use buildings near the Microsoft campus and downtown core. Older homes often have open attic cavities and minimal fire blocking, which means smoke from even a contained fire can travel farther through wall and ceiling cavities than owners expect.
 
-The Pacific Northwest climate adds a layer of complexity. Western Washington's wet winters mean structures hold moisture, and smoke residue on damp surfaces becomes acidic faster — accelerating corrosion on metal fixtures, staining on porous stone, and odor absorption into wood framing. Summer wildfire smoke from Eastern Washington and Oregon is also an increasing concern; fine particulate from regional wildfires infiltrates through HVAC systems and window gaps, leaving a thin but persistent residue that requires professional post-fire smoke cleanup even when there was no fire on the property itself.
+The Pacific Northwest climate adds a layer of complexity. Western Washington's wet winters mean structures hold moisture, and smoke residue on damp surfaces becomes acidic faster, accelerating corrosion on metal fixtures, staining on porous stone, and odor absorption into wood framing. Summer wildfire smoke from Eastern Washington and Oregon is also an increasing concern; fine particulate from regional wildfires infiltrates through HVAC systems and window gaps, leaving a thin but persistent residue that requires professional post-fire smoke cleanup even when there was no fire on the property itself.
 
 ## Navigating Insurance for Smoke Damage in Redmond
 
-Most homeowners' policies cover smoke damage restoration services, but the claims process has real friction points. Adjusters want itemized documentation. Delays in starting remediation — while you wait for an adjuster visit — can void coverage for secondary damage that develops afterward.
+Most homeowners' policies cover smoke damage restoration services, but the claims process has real friction points. Adjusters want itemized documentation. Delays in starting remediation, while you wait for an adjuster visit, can void coverage for secondary damage that develops afterward.
 
-Here's how we split the work: we document the loss thoroughly on arrival, provide a detailed scope of work, and communicate directly with your adjuster or third-party administrator throughout the project. We work with all major carriers and have handled claims with Farmers, PEMCO, State Farm, Allstate, and others common in the Redmond area. What you manage is your deductible and your policy review — we handle everything on the job site side.
+Here's how we split the work: we document the loss thoroughly on arrival, provide a detailed scope of work, and communicate directly with your adjuster or third-party administrator throughout the project. We work with all major carriers and have handled claims with Farmers, PEMCO, State Farm, Allstate, and others common in the Redmond area. What you manage is your deductible and your policy review, we handle everything on the job site side.
 
 If you haven't filed yet, don't wait. Smoke residue cleanup costs that are documented and started promptly are far easier to claim than damage discovered weeks later.
 
 ## Response Times Across Redmond
 
-Our headquarters is in Federal Way, roughly 30 miles south of Redmond via I-5 and SR-520 or I-405. Under normal traffic conditions, that's a 45-to-60-minute drive. We dispatch from Federal Way and from field crews already working on the Eastside, so response times to neighborhoods like Education Hill, Overlake, Grass Lawn, and the Bear Creek corridor typically run 60 to 90 minutes from first contact — often faster if a crew is already in Bellevue or Kirkland.
+Our headquarters is in Federal Way, roughly 30 miles south of Redmond via I-5 and SR-520 or I-405. Under normal traffic conditions, that's a 45-to-60-minute drive. We dispatch from Federal Way and from field crews already working on the Eastside, so response times to neighborhoods like Education Hill, Overlake, Grass Lawn, and the Bear Creek corridor typically run 60 to 90 minutes from first contact, often faster if a crew is already in Bellevue or Kirkland.
 
 For large commercial losses at Redmond's office parks and mixed-use developments, we can mobilize multiple crews simultaneously.
 

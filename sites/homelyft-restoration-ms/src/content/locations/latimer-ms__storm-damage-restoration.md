@@ -20,13 +20,13 @@ state: "MS"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
-Latimer sits in the heart of Harrison County, where Gulf Coast storm seasons don't just bring rain — they bring the full combination of high-sustained winds, saturated soils, and the kind of debris-loaded gusts that peel roofing, snap mature pines across driveways, and drive water through exterior walls before a homeowner can pull furniture away from the windows. When a severe weather event moves through this part of Mississippi, the damage compounds fast: a compromised roof lets in an inch of water per hour, and in the summer humidity that lingers after a storm passes, mold colonization can begin within 24 to 48 hours of the initial intrusion.
+Latimer sits in the heart of Harrison County, where Gulf Coast storm seasons don't just bring rain, they bring the full combination of high-sustained winds, saturated soils, and the kind of debris-loaded gusts that peel roofing, snap mature pines across driveways, and drive water through exterior walls before a homeowner can pull furniture away from the windows. When a severe weather event moves through this part of Mississippi, the damage compounds fast: a compromised roof lets in an inch of water per hour, and in the summer humidity that lingers after a storm passes, mold colonization can begin within 24 to 48 hours of the initial intrusion.
 
 ## Why Latimer Properties See Repeated Storm Damage
 
-Harrison County's position along the Mississippi Gulf Coast makes it one of the most storm-active corridors in the country. Latimer's residential areas include a mix of older wood-frame construction and newer builds, and both present distinct vulnerabilities. Older homes — many built before modern wind-load codes were adopted in Mississippi — often have roof decking attached with smooth-shank nails rather than ring-shank fasteners, which means sheathing can lift under sustained winds well below hurricane threshold. Newer construction isn't immune either: improperly flashed dormers and roof-to-wall transitions are among the most common entry points we document after a storm event in this area.
+Harrison County's position along the Mississippi Gulf Coast makes it one of the most storm-active corridors in the country. Latimer's residential areas include a mix of older wood-frame construction and newer builds, and both present distinct vulnerabilities. Older homes, many built before modern wind-load codes were adopted in Mississippi, often have roof decking attached with smooth-shank nails rather than ring-shank fasteners, which means sheathing can lift under sustained winds well below hurricane threshold. Newer construction isn't immune either: improperly flashed dormers and roof-to-wall transitions are among the most common entry points we document after a storm event in this area.
 
-The soil composition around Latimer also matters. Clay-heavy ground doesn't drain quickly, so pooled water around foundations and crawl spaces lingers long after the storm passes. That standing moisture wicks into sill plates and floor joists — structural members that are expensive to replace if drying is delayed. Tree canopy density in many Harrison County neighborhoods adds a separate layer of risk: large pines and water oaks that haven't been trimmed in several seasons become projectiles in a fast-moving storm system.
+The soil composition around Latimer also matters. Clay-heavy ground doesn't drain quickly, so pooled water around foundations and crawl spaces lingers long after the storm passes. That standing moisture wicks into sill plates and floor joists, structural members that are expensive to replace if drying is delayed. Tree canopy density in many Harrison County neighborhoods adds a separate layer of risk: large pines and water oaks that haven't been trimmed in several seasons become projectiles in a fast-moving storm system.
 
 ## Our Storm Damage Restoration Process in Latimer
 
@@ -34,7 +34,7 @@ Every job starts with a methodical exterior and interior assessment before any d
 
 **1. Emergency stabilization.** Roof tarping, board-up of broken windows and doors, and temporary weatherproofing to stop active water intrusion. This step happens before any interior drying work begins.
 
-**2. Water extraction and structural drying.** Any water that entered through the roof, windows, or foundation is extracted using truck-mounted and portable systems. Structural drying follows the IICRC S500 standard, with calibrated drying equipment placed based on moisture mapping — not guesswork.
+**2. Water extraction and structural drying.** Any water that entered through the roof, windows, or foundation is extracted using truck-mounted and portable systems. Structural drying follows the IICRC S500 standard, with calibrated drying equipment placed based on moisture mapping, not guesswork.
 
 **3. Debris and tree damage cleanup.** Fallen limbs and embedded debris are removed from the structure and property. If a tree has compromised a load-bearing element, we coordinate with a structural assessment before proceeding.
 
@@ -42,7 +42,7 @@ Every job starts with a methodical exterior and interior assessment before any d
 
 **5. Structural repair and reconstruction.** Roofing, siding, interior framing, insulation, and finish work are handled in-house where possible, reducing handoff delays.
 
-As an IICRC Certified Firm holding IICRC WRT, ASD, FSRT, and AMRT credentials, and certified under Mississippi's FORTIFIED Building Roofing Windstorm program, the team is equipped to handle both the mitigation and the rebuild under one roof — which matters when you're trying to get a home dried, repaired, and re-occupied before the next weather system moves in.
+As an IICRC Certified Firm holding IICRC WRT, ASD, FSRT, and AMRT credentials, and certified under Mississippi's FORTIFIED Building Roofing Windstorm program, the team is equipped to handle both the mitigation and the rebuild under one roof, which matters when you're trying to get a home dried, repaired, and re-occupied before the next weather system moves in.
 
 ## Reaching Latimer from Gulfport
 
@@ -50,10 +50,10 @@ HomeLyft Restoration MS operates out of Gulfport, which puts Latimer well within
 
 ## Latimer Insurance Coordination
 
-Mississippi storm claims — especially those involving wind and water damage in the same event — can be complicated by coverage separation between a standard homeowner's policy and a separate windstorm or flood policy. This is a common issue in Harrison County, where many properties carry both. We document damage in a way that clearly separates wind-caused entry points from subsequent water intrusion, which helps adjusters apply coverage correctly and reduces the likelihood of a disputed claim. We work directly with most major carriers and can communicate with your adjuster throughout the process.
+Mississippi storm claims, especially those involving wind and water damage in the same event, can be complicated by coverage separation between a standard homeowner's policy and a separate windstorm or flood policy. This is a common issue in Harrison County, where many properties carry both. We document damage in a way that clearly separates wind-caused entry points from subsequent water intrusion, which helps adjusters apply coverage correctly and reduces the likelihood of a disputed claim. We work directly with most major carriers and can communicate with your adjuster throughout the process.
 
 ## Local Note
 
-In Harrison County, homes built in the 1970s and 1980s frequently used T1-11 plywood siding as both sheathing and exterior finish — a single layer that provides minimal resistance to wind-driven rain. After a storm, this material absorbs moisture rapidly and can begin delaminating within days if not dried properly. When we see T1-11 on a Latimer home, we adjust our drying plan to account for the extended moisture release from that material, and we flag it in the insurance documentation because replacement cost is often underestimated by adjusters unfamiliar with it.
+In Harrison County, homes built in the 1970s and 1980s frequently used T1-11 plywood siding as both sheathing and exterior finish, a single layer that provides minimal resistance to wind-driven rain. After a storm, this material absorbs moisture rapidly and can begin delaminating within days if not dried properly. When we see T1-11 on a Latimer home, we adjust our drying plan to account for the extended moisture release from that material, and we flag it in the insurance documentation because replacement cost is often underestimated by adjusters unfamiliar with it.
 
-If a storm has left your Latimer property with roof damage, standing water, downed trees, or any combination of the above, call HomeLyft Restoration MS at +12282845200. The sooner the assessment happens, the more options you have — and the lower the total cost of getting your home back to where it was before the storm hit.
+If a storm has left your Latimer property with roof damage, standing water, downed trees, or any combination of the above, call HomeLyft Restoration MS at +12282845200. The sooner the assessment happens, the more options you have, and the lower the total cost of getting your home back to where it was before the storm hit.

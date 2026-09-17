@@ -19,15 +19,15 @@ state: "CA"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall in a Los Olivos wine-country cottage or a kitchen fire leaves smoke residue soaked into century-old oak beams, Coastal Restoration Services Inc handles the assessment, drying, cleaning, and rebuild so property owners can focus on what comes next. We serve Los Olivos and the surrounding Santa Ynez Valley — coordinating directly with insurance carriers, documenting damage thoroughly, and working around the realities of rural Santa Barbara County properties.
+When a pipe bursts behind a wall in a Los Olivos wine-country cottage or a kitchen fire leaves smoke residue soaked into century-old oak beams, Coastal Restoration Services Inc handles the assessment, drying, cleaning, and rebuild so property owners can focus on what comes next. We serve Los Olivos and the surrounding Santa Ynez Valley, coordinating directly with insurance carriers, documenting damage thoroughly, and working around the realities of rural Santa Barbara County properties.
 
 ## Restoration emergencies common in Los Olivos
 
 Los Olivos sits in a microclimate shaped by the Santa Ynez Mountains to the south and the dry inland heat that rolls through the valley in summer. That combination creates conditions that push restoration calls in predictable directions.
 
-The housing stock here skews older — craftsman bungalows, converted ranch structures, and wine-estate guest houses that were built or retrofitted decades before modern moisture barriers and fire-rated assemblies became standard. Aging galvanized supply lines and cast-iron drains are common, and when they fail, water travels fast through plaster walls and subfloor assemblies that have little tolerance for saturation. Because many parcels rely on private wells and septic systems rather than municipal infrastructure, a single plumbing failure can involve contaminated water that raises the cleanup category immediately.
+The housing stock here skews older, craftsman bungalows, converted ranch structures, and wine-estate guest houses that were built or retrofitted decades before modern moisture barriers and fire-rated assemblies became standard. Aging galvanized supply lines and cast-iron drains are common, and when they fail, water travels fast through plaster walls and subfloor assemblies that have little tolerance for saturation. Because many parcels rely on private wells and septic systems rather than municipal infrastructure, a single plumbing failure can involve contaminated water that raises the cleanup category immediately.
 
-Fire risk is real and seasonal. The dry grasses that make the valley beautiful in spring become fuel by August, and even a contained kitchen fire in a historic structure can push smoke and soot into attic cavities and crawlspaces that are difficult to access. Mold follows moisture within 24 to 48 hours under the right temperature conditions — and Los Olivos summers provide exactly those conditions if a water loss isn't dried aggressively from the start.
+Fire risk is real and seasonal. The dry grasses that make the valley beautiful in spring become fuel by August, and even a contained kitchen fire in a historic structure can push smoke and soot into attic cavities and crawlspaces that are difficult to access. Mold follows moisture within 24 to 48 hours under the right temperature conditions, and Los Olivos summers provide exactly those conditions if a water loss isn't dried aggressively from the start.
 
 ## Services we provide in Los Olivos
 
@@ -37,25 +37,25 @@ Water damage in Los Olivos often involves older construction where moisture migr
 
 ### Fire and smoke damage restoration
 
-Smoke from a structural fire in a wood-heavy, older home doesn't stay in the room where the fire started — it follows air pathways into attics, HVAC ducts, and wall voids. Our fire restoration process includes odor mapping, content pack-out when needed, and structural cleaning before any reconstruction begins. We document everything photographically for your insurance claim.
+Smoke from a structural fire in a wood-heavy, older home doesn't stay in the room where the fire started, it follows air pathways into attics, HVAC ducts, and wall voids. Our fire restoration process includes odor mapping, content pack-out when needed, and structural cleaning before any reconstruction begins. We document everything photographically for your insurance claim.
 
 ### Mold remediation
 
-A slow roof leak or an undetected supply-line drip in a vacation property that sits unoccupied for weeks is one of the most common mold scenarios we see in the Santa Ynez Valley. We contain affected areas, remove compromised materials, and treat surfaces according to EPA guidelines. We do not offer medical advice on health effects — if you have health concerns, consult a physician.
+A slow roof leak or an undetected supply-line drip in a vacation property that sits unoccupied for weeks is one of the most common mold scenarios we see in the Santa Ynez Valley. We contain affected areas, remove compromised materials, and treat surfaces according to EPA guidelines. We do not offer medical advice on health effects, if you have health concerns, consult a physician.
 
 ### Reconstruction and rebuild
 
-Once the damage is mitigated, many property owners need a contractor who can also handle the rebuild — drywall, flooring, cabinetry, painting. We carry that work through to completion so you're not managing a separate general contractor relationship during an already stressful time.
+Once the damage is mitigated, many property owners need a contractor who can also handle the rebuild, drywall, flooring, cabinetry, painting. We carry that work through to completion so you're not managing a separate general contractor relationship during an already stressful time.
 
 ## Coverage and how fast we can get there
 
-Coastal Restoration Services Inc is headquartered in Vandenberg Village, on the coast west of Santa Barbara. Los Olivos is roughly 45 to 50 miles northeast via US-101 North to CA-154 East through the San Marcos Pass — a scenic route that can run 55 to 65 minutes depending on traffic and time of day. Alternatively, CA-246 through Buellton connects to Los Olivos from the north end of the valley and is a common approach when 101 is congested near Gaviota.
+Coastal Restoration Services Inc is headquartered in Vandenberg Village, on the coast west of Santa Barbara. Los Olivos is roughly 45 to 50 miles northeast via US-101 North to CA-154 East through the San Marcos Pass, a scenic route that can run 55 to 65 minutes depending on traffic and time of day. Alternatively, CA-246 through Buellton connects to Los Olivos from the north end of the valley and is a common approach when 101 is congested near Gaviota.
 
-We schedule service calls for Los Olivos during our regular business hours. When you call (805) 345-7440, our team will confirm availability and give you a realistic arrival window based on current crew location and workload — we won't quote a time we can't keep.
+We schedule service calls for Los Olivos during our regular business hours. When you call (805) 345-7440, our team will confirm availability and give you a realistic arrival window based on current crew location and workload, we won't quote a time we can't keep.
 
 ## Building stock, site conditions, and permits in Los Olivos
 
-Los Olivos is unincorporated, so building permits for structural repair or rebuild come from Santa Barbara County — not a city hall. Anything past cosmetic patching usually triggers one: replacing framing or subfloor, re-roofing, moving supply or drain lines, rewiring. Work is under the California Building and Residential Codes, with seismic bracing expectations that matter when a saturated cripple wall or post-and-pier crawlspace has to be opened up.
+Los Olivos is unincorporated, so building permits for structural repair or rebuild come from Santa Barbara County, not a city hall. Anything past cosmetic patching usually triggers one: replacing framing or subfloor, re-roofing, moving supply or drain lines, rewiring. Work is under the California Building and Residential Codes, with seismic bracing expectations that matter when a saturated cripple wall or post-and-pier crawlspace has to be opened up.
 
 Much of the older housing sits on a raised perimeter foundation over a crawlspace, with later additions on slab. That split changes drying entirely: crawlspace losses need the ground plane and joists addressed, slab losses wick upward into base plates. Valley soils here hold clay, so poor drainage against a foundation keeps a crawlspace damp long after the leak is fixed.
 

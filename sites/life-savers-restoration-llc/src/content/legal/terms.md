@@ -22,11 +22,11 @@ This privacy policy explains how Life Savers Restoration LLC collects, uses, and
 
 ### What We Collect
 
-When you fill out a contact or estimate request form, we receive the information you type — typically your name, phone number, email address, property address, and a description of the damage. We also receive basic, anonymized analytics data (pages visited, browser type, general geographic region) through standard website tools. We do not use tracking pixels, sell advertising, or build behavioral profiles.
+When you fill out a contact or estimate request form, we receive the information you type, typically your name, phone number, email address, property address, and a description of the damage. We also receive basic, anonymized analytics data (pages visited, browser type, general geographic region) through standard website tools. We do not use tracking pixels, sell advertising, or build behavioral profiles.
 
 ### How We Use It
 
-The information you submit is used for one purpose: to help you. That means calling or emailing you back to discuss your situation, scheduling an on-site estimate, and — if you authorize us to coordinate with your insurance carrier — sharing the documentation necessary to process your claim. We will not contact your insurer, adjuster, or any third party without your explicit authorization.
+The information you submit is used for one purpose: to help you. That means calling or emailing you back to discuss your situation, scheduling an on-site estimate, and, if you authorize us to coordinate with your insurance carrier, sharing the documentation necessary to process your claim. We will not contact your insurer, adjuster, or any third party without your explicit authorization.
 
 ### How We Share It
 
@@ -38,7 +38,7 @@ Contact and job records are retained for as long as reasonably necessary for bus
 
 ### Your Rights
 
-If you are a California resident, the California Consumer Privacy Act (CCPA) gives you the right to know what personal information we hold about you, request deletion, and opt out of any sale of that data — though we do not sell data. To exercise any of these rights, email us at info@lifesaversrestoration.com or call (702) 845-1325.
+If you are a California resident, the California Consumer Privacy Act (CCPA) gives you the right to know what personal information we hold about you, request deletion, and opt out of any sale of that data, though we do not sell data. To exercise any of these rights, email us at info@lifesaversrestoration.com or call (702) 845-1325.
 
 ---
 
@@ -48,7 +48,7 @@ Using this website or contacting Life Savers Restoration LLC does not create a s
 
 ### Service Area and Estimates
 
-We serve the greater Henderson and Las Vegas, Nevada area. Service availability outside that region is determined case by case. Any estimate provided — verbally, by email, or through this site — is an assessment of likely scope and cost, not a binding commitment. A signed work-authorization form is the document that establishes the actual agreement between you and Life Savers Restoration LLC and governs all services performed.
+We serve the greater Henderson and Las Vegas, Nevada area. Service availability outside that region is determined case by case. Any estimate provided, verbally, by email, or through this site, is an assessment of likely scope and cost, not a binding commitment. A signed work-authorization form is the document that establishes the actual agreement between you and Life Savers Restoration LLC and governs all services performed.
 
 ### Payment Terms
 
@@ -56,7 +56,7 @@ Accepted payment methods and specific payment schedules are outlined in your sig
 
 ### Scope of Work and Changes
 
-Restoration work sometimes reveals hidden damage — water behind plaster, mold behind drywall, structural issues under flooring — that was not visible at the time of the original estimate. If the scope needs to change, we will document the new conditions and obtain your authorization before proceeding. No additional work is performed without your agreement.
+Restoration work sometimes reveals hidden damage, water behind plaster, mold behind drywall, structural issues under flooring, that was not visible at the time of the original estimate. If the scope needs to change, we will document the new conditions and obtain your authorization before proceeding. No additional work is performed without your agreement.
 
 ### Liability
 
@@ -64,7 +64,7 @@ Life Savers Restoration LLC operates as a licensed contractor under Nevada state
 
 ### Dispute Resolution
 
-If a dispute arises, we ask that you contact us directly first — most concerns can be resolved through conversation. If a formal process becomes necessary, disputes are governed by the laws of the State of Nevada, and venue is Clark County.
+If a dispute arises, we ask that you contact us directly first, most concerns can be resolved through conversation. If a formal process becomes necessary, disputes are governed by the laws of the State of Nevada, and venue is Clark County.
 
 ---
 
@@ -72,4 +72,4 @@ If a dispute arises, we ask that you contact us directly first — most concerns
 
 Life Savers Restoration LLC is committed to making this website usable by everyone, including people who rely on assistive technologies. We aim to meet the Web Content Accessibility Guidelines (WCAG) 2.1 at the AA level, and the site is built to be compatible with screen readers and keyboard navigation.
 
-If you encounter a barrier — a form that is hard to complete, an image without a description, a video without captions — please let us know. Email info@lifesaversrestoration.com or call (702) 845-1325 and describe the issue. We are committed to reviewing and addressing reported accessibility problems within a reasonable timeframe. If you need information in an alternative format in the meantime, we are happy to assist you directly.
+If you encounter a barrier, a form that is hard to complete, an image without a description, a video without captions, please let us know. Email info@lifesaversrestoration.com or call (702) 845-1325 and describe the issue. We are committed to reviewing and addressing reported accessibility problems within a reasonable timeframe. If you need information in an alternative format in the meantime, we are happy to assist you directly.

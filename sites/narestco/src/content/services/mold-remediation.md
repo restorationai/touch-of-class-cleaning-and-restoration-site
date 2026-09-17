@@ -18,53 +18,53 @@ service_display: "Mold Remediation"
 rendered: true
 hero: '/images/services/mold-remediation.webp'
 ---
-Mold doesn't wait. Within 24 to 48 hours of a moisture event — a slow pipe leak, a flooded crawl space, a roof that let in one too many Pacific Northwest rainstorms — mold spores can begin colonizing drywall, insulation, and wood framing. By the time you smell that earthy, musty odor or spot the dark staining behind a baseboard, the colony is already established. National Restoration Construction's mold remediation team responds to Federal Way and the surrounding region with the equipment, training, and containment protocols to stop the spread and restore the space to a safe, livable condition.
+Mold doesn't wait. Within 24 to 48 hours of a moisture event, a slow pipe leak, a flooded crawl space, a roof that let in one too many Pacific Northwest rainstorms, mold spores can begin colonizing drywall, insulation, and wood framing. By the time you smell that earthy, musty odor or spot the dark staining behind a baseboard, the colony is already established. National Restoration Construction's mold remediation team responds to Federal Way and the surrounding region with the equipment, training, and containment protocols to stop the spread and restore the space to a safe, livable condition.
 
 ## How We Handle Mold
 
-Mold remediation is not the same as mold removal — and that distinction matters. Scrubbing visible growth with bleach kills surface cells but leaves the root structure (hyphae) intact and does nothing to address airborne spore counts. Proper mold abatement means finding the moisture source, containing the affected zone, removing contaminated materials, treating structural surfaces, and verifying clearance with post-remediation testing.
+Mold remediation is not the same as mold removal, and that distinction matters. Scrubbing visible growth with bleach kills surface cells but leaves the root structure (hyphae) intact and does nothing to address airborne spore counts. Proper mold abatement means finding the moisture source, containing the affected zone, removing contaminated materials, treating structural surfaces, and verifying clearance with post-remediation testing.
 
 Here's what that looks like in practice:
 
-**Moisture mapping and inspection.** Before anything is touched, technicians use thermal imaging cameras and calibrated moisture meters to trace water migration behind walls and under flooring. Mold follows moisture — if we only treat what's visible, we miss the source.
+**Moisture mapping and inspection.** Before anything is touched, technicians use thermal imaging cameras and calibrated moisture meters to trace water migration behind walls and under flooring. Mold follows moisture, if we only treat what's visible, we miss the source.
 
 **Containment.** Affected areas are sealed with 6-mil poly sheeting and negative air pressure is established using HEPA-filtered air scrubbers. This prevents cross-contamination to unaffected rooms during the remediation process. Containment barriers stay in place until clearance testing confirms spore counts have returned to acceptable levels.
 
-**Removal and disposal.** Porous materials that have absorbed active mold growth — drywall, insulation, carpet, wood trim — are removed, double-bagged, and disposed of per Washington State guidelines. Non-porous structural surfaces are HEPA-vacuumed and treated with EPA-registered antimicrobial agents.
+**Removal and disposal.** Porous materials that have absorbed active mold growth, drywall, insulation, carpet, wood trim, are removed, double-bagged, and disposed of per Washington State guidelines. Non-porous structural surfaces are HEPA-vacuumed and treated with EPA-registered antimicrobial agents.
 
-**Drying and structural treatment.** Any remaining elevated moisture in framing or subfloor is brought down with commercial-grade desiccant dehumidifiers and air movers before reconstruction begins. Treating a wet structure is like painting over rust — it won't hold.
+**Drying and structural treatment.** Any remaining elevated moisture in framing or subfloor is brought down with commercial-grade desiccant dehumidifiers and air movers before reconstruction begins. Treating a wet structure is like painting over rust, it won't hold.
 
-**Clearance and documentation.** We coordinate post-remediation verification testing. When spore counts come back within normal range, you receive a written clearance report — documentation your insurance carrier and any future buyer will want to see.
+**Clearance and documentation.** We coordinate post-remediation verification testing. When spore counts come back within normal range, you receive a written clearance report, documentation your insurance carrier and any future buyer will want to see.
 
 ## When to Call Us
 
-Some situations are obvious. You open a crawl space access panel and find black mold remediation is clearly overdue — the joists are dark, the air is thick, and you can feel the humidity. Other situations are subtler:
+Some situations are obvious. You open a crawl space access panel and find black mold remediation is clearly overdue, the joists are dark, the air is thick, and you can feel the humidity. Other situations are subtler:
 
 - A musty smell in a basement or bathroom that doesn't go away after cleaning
 - Discoloration on drywall or ceiling tiles, especially after a recent leak
 - Warped or bubbling paint with no obvious water source
-- Allergy-like symptoms — runny nose, itchy eyes, coughing — that improve when you leave the building
+- Allergy-like symptoms, runny nose, itchy eyes, coughing, that improve when you leave the building
 - A home inspector's report flagging elevated moisture readings or visible fungal growth
 - Any water intrusion event that wasn't fully dried within 48–72 hours
 
-**What not to do first:** Don't run a box fan across visible mold growth — that disperses spores through your HVAC and into adjacent rooms. Don't paint over staining. Don't pull out drywall yourself without containment in place. These actions can significantly expand the affected area and complicate the remediation scope.
+**What not to do first:** Don't run a box fan across visible mold growth, that disperses spores through your HVAC and into adjacent rooms. Don't paint over staining. Don't pull out drywall yourself without containment in place. These actions can significantly expand the affected area and complicate the remediation scope.
 
 If you're unsure whether what you're seeing is mold, call us. We'd rather do a quick assessment and tell you it's efflorescence than have you discover six months later that a small colony became a structural problem.
 
 ## What Sets Our Mold Team Apart
 
-National Restoration Construction is an IICRC Certified firm, an EPA Certified and Lead-Safe Certified Firm, and holds ANSI Certification — credentials that govern not just what we do but how we document it. Our general contractor license (#NATIORC792M6) means we can carry remediation through to full reconstruction without handing your project off to a third party.
+National Restoration Construction is an IICRC Certified firm, an EPA Certified and Lead-Safe Certified Firm, and holds ANSI Certification, credentials that govern not just what we do but how we document it. Our general contractor license (#NATIORC792M6) means we can carry remediation through to full reconstruction without handing your project off to a third party.
 
-Federal Way sits in a climate that averages over 37 inches of rain annually. Older housing stock in neighborhoods like Dash Point, Steel Lake, and Twin Lakes often features pier-and-beam construction with vented crawl spaces — environments that are chronically prone to moisture accumulation and mold colonization. Our crews work in these conditions year-round and understand the specific failure points common to homes built in the 1960s through 1990s in this region.
+Federal Way sits in a climate that averages over 37 inches of rain annually. Older housing stock in neighborhoods like Dash Point, Steel Lake, and Twin Lakes often features pier-and-beam construction with vented crawl spaces, environments that are chronically prone to moisture accumulation and mold colonization. Our crews work in these conditions year-round and understand the specific failure points common to homes built in the 1960s through 1990s in this region.
 
 Response time: most calls in our service area reach a technician within 60–90 minutes. Mold cleanup that begins quickly after a moisture event is almost always less invasive and less expensive than mold abatement that starts weeks later.
 
 ## Insurance, Billing, and the Claims Process
 
-Whether mold remediation is covered depends on the cause. Sudden and accidental water damage — a burst pipe, an appliance failure — is typically covered under standard homeowner's policies. Gradual leaks or deferred maintenance are usually excluded. We work directly with most major carriers and can provide the scope documentation, moisture logs, and photo evidence adjusters need to process a claim efficiently.
+Whether mold remediation is covered depends on the cause. Sudden and accidental water damage, a burst pipe, an appliance failure, is typically covered under standard homeowner's policies. Gradual leaks or deferred maintenance are usually excluded. We work directly with most major carriers and can provide the scope documentation, moisture logs, and photo evidence adjusters need to process a claim efficiently.
 
 We'll help you understand what your policy covers before work begins, and we'll bill your carrier directly when coverage applies. You shouldn't have to manage that paperwork during an already stressful situation.
 
 ---
 
-If you're seeing signs of mold growth — or if you've had any water intrusion in the past 72 hours — call National Restoration Construction at **(206) 883-0333**. We serve Federal Way, Auburn, Kent, Tacoma, Renton, and the broader South King and Pierce County region. The sooner containment is in place, the smaller the remediation scope. Let's get a technician out to assess the situation today.
+If you're seeing signs of mold growth, or if you've had any water intrusion in the past 72 hours, call National Restoration Construction at **(206) 883-0333**. We serve Federal Way, Auburn, Kent, Tacoma, Renton, and the broader South King and Pierce County region. The sooner containment is in place, the smaller the remediation scope. Let's get a technician out to assess the situation today.

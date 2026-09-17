@@ -20,37 +20,37 @@ state: "SD"
 service_display: "Post-Construction and Specialty Cleaning"
 rendered: true
 ---
-When a remodel or new build wraps up in Crooks, the finish line isn't the last nail — it's the moment a homeowner can actually walk through without tracking drywall dust across fresh flooring or breathing in the fine particulate that settles into every corner after construction crews pack up. South Dakota's dry winters and windy springs mean construction dust in the 57020 area doesn't just sit still; it migrates, works into HVAC returns, and coats surfaces that looked clean at first glance. Crew Restoration & Construction handles post-construction and specialty cleaning for Crooks properties — from quick final cleans on small additions to full-scale deep cleans on new builds — so the space is genuinely move-in or open-for-business ready.
+When a remodel or new build wraps up in Crooks, the finish line isn't the last nail, it's the moment a homeowner can actually walk through without tracking drywall dust across fresh flooring or breathing in the fine particulate that settles into every corner after construction crews pack up. South Dakota's dry winters and windy springs mean construction dust in the 57020 area doesn't just sit still; it migrates, works into HVAC returns, and coats surfaces that looked clean at first glance. Crew Restoration & Construction handles post-construction and specialty cleaning for Crooks properties, from quick final cleans on small additions to full-scale deep cleans on new builds, so the space is genuinely move-in or open-for-business ready.
 
 ## Why Crooks Properties Have Specific Post-Construction Cleaning Demands
 
 Crooks sits just off Highway 138, a quick drive northwest of Sioux Falls, and the community has seen steady residential growth as families look for a quieter alternative to the city. That growth means a mix of property types: newer stick-frame homes going up near West Crooks, established lots with older construction closer to Downtown Crooks, and agricultural-adjacent properties where exterior work often means tracked-in soil and grain dust on top of the usual construction debris.
 
-The climate adds another layer. Freeze-thaw cycles through late winter and early spring mean construction projects often wrap up with residual grit and moisture tracked in from muddy sites. That combination — fine drywall dust plus clay-heavy prairie soil — creates a stubborn film on hard surfaces that standard janitorial cleaning doesn't fully address. Specialty cleaning equipment and techniques are the difference between a surface that looks clean and one that actually is.
+The climate adds another layer. Freeze-thaw cycles through late winter and early spring mean construction projects often wrap up with residual grit and moisture tracked in from muddy sites. That combination, fine drywall dust plus clay-heavy prairie soil, creates a stubborn film on hard surfaces that standard janitorial cleaning doesn't fully address. Specialty cleaning equipment and techniques are the difference between a surface that looks clean and one that actually is.
 
 ## Our Post-Construction Cleaning Process in Crooks
 
-Every job starts with a walkthrough to document what trades were on-site and what materials were used. That matters because the cleaning sequence changes depending on whether the project involved spray foam insulation, tile grout, or fresh paint — each leaves a different residue profile.
+Every job starts with a walkthrough to document what trades were on-site and what materials were used. That matters because the cleaning sequence changes depending on whether the project involved spray foam insulation, tile grout, or fresh paint, each leaves a different residue profile.
 
 From there, the process moves in a deliberate order:
 
-- **Rough clean** — removal of bulk debris, scrap lumber, packaging, and any trade waste left behind
-- **Detail clean** — HEPA-filtered vacuuming of all surfaces including window tracks, door frames, cabinet interiors, and light fixtures before any wet wiping begins
-- **Surface clean** — wiping down all hard surfaces with appropriate cleaners matched to the finish (no abrasives on new cabinetry, no ammonia-based products near fresh caulk)
-- **Final clean** — floor-to-ceiling polish pass, glass cleaning, and a final HEPA vacuum of any disturbed surfaces
-- **Inspection walkthrough** — we walk the space with the client or general contractor before signing off
+- **Rough clean**, removal of bulk debris, scrap lumber, packaging, and any trade waste left behind
+- **Detail clean**, HEPA-filtered vacuuming of all surfaces including window tracks, door frames, cabinet interiors, and light fixtures before any wet wiping begins
+- **Surface clean**, wiping down all hard surfaces with appropriate cleaners matched to the finish (no abrasives on new cabinetry, no ammonia-based products near fresh caulk)
+- **Final clean**, floor-to-ceiling polish pass, glass cleaning, and a final HEPA vacuum of any disturbed surfaces
+- **Inspection walkthrough**, we walk the space with the client or general contractor before signing off
 
-For specialty cleaning requests — post-renovation deep cleans on occupied homes, pressure washing of exterior concrete, or cleaning after specific trades like welders or painters — the scope is scoped and priced separately so you're not paying for services you don't need.
+For specialty cleaning requests, post-renovation deep cleans on occupied homes, pressure washing of exterior concrete, or cleaning after specific trades like welders or painters, the scope is scoped and priced separately so you're not paying for services you don't need.
 
 ## Reaching Crooks from Our Sioux Falls Base
 
-Crew Restoration & Construction operates out of Sioux Falls, and Crooks is a straightforward run northwest on Highway 138 — no complicated routing, no extended travel delays under normal conditions. For scheduled post-construction cleans, we coordinate arrival times directly with the general contractor or property owner to align with site access and any remaining trade activity. Properties near Renner Corner and throughout the surrounding area fall well within our regular service radius, and we've worked on projects across this corridor consistently enough to know the local general contractors and what their job sites typically look like at turnover.
+Crew Restoration & Construction operates out of Sioux Falls, and Crooks is a straightforward run northwest on Highway 138, no complicated routing, no extended travel delays under normal conditions. For scheduled post-construction cleans, we coordinate arrival times directly with the general contractor or property owner to align with site access and any remaining trade activity. Properties near Renner Corner and throughout the surrounding area fall well within our regular service radius, and we've worked on projects across this corridor consistently enough to know the local general contractors and what their job sites typically look like at turnover.
 
 ## Equipment & Methods We Use for Post-Construction Cleaning
 
 Standard mops and shop vacs aren't built for the particulate levels a construction site generates. The tools that actually move the needle:
 
-- **HEPA-filtered vacuums** rated for fine dust capture — critical for drywall compound particles that standard vacuums recirculate into the air
+- **HEPA-filtered vacuums** rated for fine dust capture, critical for drywall compound particles that standard vacuums recirculate into the air
 - **Microfiber systems** for hard surfaces, which trap rather than redistribute dust
 - **Pressure washing equipment** for exterior concrete, driveways, and any flatwork that accumulated construction traffic
 - **Specialty glass scrapers and razor tools** for paint overspray and adhesive residue on windows and mirrors
@@ -58,6 +58,6 @@ Standard mops and shop vacs aren't built for the particulate levels a constructi
 
 ## Local Note
 
-One pattern we've noticed on Crooks-area new builds: properties on the western edge of town, particularly those with larger lots and attached garages, often have concrete aprons and driveways that take a beating during the build phase — heavy equipment, concrete trucks, and subcontractor vehicles leave behind a combination of concrete splatter, oil drips, and embedded aggregate dust that standard pressure washing alone won't fully clear. A two-pass approach — degreaser application followed by high-pressure hot water rinse — is usually what it takes to bring those surfaces back to a condition the homeowner actually expects. It's a small detail, but it's the kind of thing that gets noticed on move-in day.
+One pattern we've noticed on Crooks-area new builds: properties on the western edge of town, particularly those with larger lots and attached garages, often have concrete aprons and driveways that take a beating during the build phase, heavy equipment, concrete trucks, and subcontractor vehicles leave behind a combination of concrete splatter, oil drips, and embedded aggregate dust that standard pressure washing alone won't fully clear. A two-pass approach, degreaser application followed by high-pressure hot water rinse, is usually what it takes to bring those surfaces back to a condition the homeowner actually expects. It's a small detail, but it's the kind of thing that gets noticed on move-in day.
 
-If your project near Crooks City Park or anywhere else in the 57020 area is approaching completion, call Crew Restoration & Construction at (605) 965-2727 to schedule your post-construction or specialty clean. We'll coordinate directly with your contractor, work around the final inspection timeline, and make sure the space is genuinely ready — not just swept.
+If your project near Crooks City Park or anywhere else in the 57020 area is approaching completion, call Crew Restoration & Construction at (605) 965-2727 to schedule your post-construction or specialty clean. We'll coordinate directly with your contractor, work around the final inspection timeline, and make sure the space is genuinely ready, not just swept.

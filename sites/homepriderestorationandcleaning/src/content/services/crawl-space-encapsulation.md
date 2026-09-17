@@ -18,11 +18,11 @@ service_slug: "crawl-space-encapsulation"
 service_display: "Crawl Space Encapsulation"
 rendered: true
 ---
-The first sign is usually a smell — something damp and earthy drifting up through the floorboards into your living room. Then maybe you notice the hardwood cupping slightly, or a door that swings shut on its own because the frame has shifted. What you're dealing with isn't a plumbing leak or a roof problem. It's a crawl space that's been breathing in ground moisture for years, slowly saturating the wood structure above it. Crawl space encapsulation cuts that cycle off at the source by sealing the space from the soil up.
+The first sign is usually a smell, something damp and earthy drifting up through the floorboards into your living room. Then maybe you notice the hardwood cupping slightly, or a door that swings shut on its own because the frame has shifted. What you're dealing with isn't a plumbing leak or a roof problem. It's a crawl space that's been breathing in ground moisture for years, slowly saturating the wood structure above it. Crawl space encapsulation cuts that cycle off at the source by sealing the space from the soil up.
 
 ## What crawl space encapsulation actually involves
 
-Encapsulation is a full vapor and moisture management system installed inside your crawl space — not a coat of paint on the walls or a single layer of plastic thrown over the dirt. A properly encapsulated crawl space has a thick, reinforced polyethylene barrier (typically 12–20 mil) sealed to the foundation walls, piers, and any penetrations like pipes and posts. The goal is to turn an open, vented crawl space into a controlled, semi-conditioned environment where relative humidity stays below 60% year-round.
+Encapsulation is a full vapor and moisture management system installed inside your crawl space, not a coat of paint on the walls or a single layer of plastic thrown over the dirt. A properly encapsulated crawl space has a thick, reinforced polyethylene barrier (typically 12–20 mil) sealed to the foundation walls, piers, and any penetrations like pipes and posts. The goal is to turn an open, vented crawl space into a controlled, semi-conditioned environment where relative humidity stays below 60% year-round.
 
 Depending on what we find during the inspection, the scope of work may also include:
 
@@ -32,7 +32,7 @@ Depending on what we find during the inspection, the scope of work may also incl
 - **A crawl space dehumidifier** sized to the square footage of the space
 - **Structural drying** of existing wood framing before the barrier goes in, if moisture readings are elevated
 
-A typical residential crawl space in the Saratoga Springs area — usually 800 to 1,500 square feet — takes one to two days to encapsulate once prep work is complete.
+A typical residential crawl space in the Saratoga Springs area, usually 800 to 1,500 square feet, takes one to two days to encapsulate once prep work is complete.
 
 ## Our process
 
@@ -40,7 +40,7 @@ A typical residential crawl space in the Saratoga Springs area — usually 800 t
 Before any material goes in, a technician inspects the crawl space with a calibrated moisture meter and thermo-hygrometer. We document wood moisture content (anything above 19% is a concern), standing water, existing vapor barrier condition, insulation status, and any signs of wood rot or active mold growth. This baseline drives every decision that follows.
 
 **2. Debris removal and prep**
-Old fiberglass batt insulation hanging between joists, deteriorated plastic sheeting, and any organic debris on the soil floor all come out. Wet or degraded insulation traps moisture against the wood rather than slowing it — leaving it in place defeats the encapsulation before it starts.
+Old fiberglass batt insulation hanging between joists, deteriorated plastic sheeting, and any organic debris on the soil floor all come out. Wet or degraded insulation traps moisture against the wood rather than slowing it, leaving it in place defeats the encapsulation before it starts.
 
 **3. Structural drying (if indicated)**
 If wood moisture readings are above 16–17%, we run commercial desiccant or refrigerant dehumidifiers and air movers inside the crawl space until framing reaches an acceptable moisture content. Sealing wet wood inside a vapor barrier accelerates decay and can create ideal conditions for wood-destroying fungi.
@@ -53,17 +53,17 @@ Once the liner is in, we install or verify the dehumidifier sizing against the c
 
 ## What separates a good encapsulation from a bad one
 
-The most common failure point is skipping structural drying before the liner goes in. Encapsulating a crawl space with wood moisture content above 19% doesn't stop decay — it accelerates it by eliminating the airflow that was at least partially drying the framing. A year later, homeowners find the same musty smell and now have active wood rot behind a sealed barrier.
+The most common failure point is skipping structural drying before the liner goes in. Encapsulating a crawl space with wood moisture content above 19% doesn't stop decay, it accelerates it by eliminating the airflow that was at least partially drying the framing. A year later, homeowners find the same musty smell and now have active wood rot behind a sealed barrier.
 
 The second most common mistake is undersized or absent humidity control. A vapor barrier slows moisture migration from the soil, but it doesn't eliminate it. Ground moisture still moves through concrete block walls and rim joists. Without a properly sized dehumidifier, relative humidity inside the encapsulated space will creep back up within months, especially during Utah's spring snowmelt season.
 
-Insurance adjusters reviewing crawl space claims look for documentation of pre-encapsulation moisture readings, evidence that existing damage was addressed before sealing, and product specifications for the liner (mil thickness, perm rating). Thin, unsealed liners — the kind sometimes sold as DIY kits — don't meet the standards most adjusters or home inspectors accept for a completed encapsulation.
+Insurance adjusters reviewing crawl space claims look for documentation of pre-encapsulation moisture readings, evidence that existing damage was addressed before sealing, and product specifications for the liner (mil thickness, perm rating). Thin, unsealed liners, the kind sometimes sold as DIY kits, don't meet the standards most adjusters or home inspectors accept for a completed encapsulation.
 
 IICRC-certified technicians approach crawl space work with the same moisture science framework used in structural drying: measure first, dry to standard, then seal.
 
 ## Seasonal and regional considerations
 
-Saratoga Springs sits at the edge of Utah Lake, and the surrounding communities — Eagle Mountain, Lehi, American Fork, Cedar Hills — share a similar pattern: dry summers followed by spring snowmelt that raises the water table and pushes moisture into crawl spaces that seemed fine all winter. Homes built in the 1990s and 2000s boom years often have minimal or no vapor barrier, and the original fiberglass batt insulation between joists has been absorbing humidity for decades.
+Saratoga Springs sits at the edge of Utah Lake, and the surrounding communities, Eagle Mountain, Lehi, American Fork, Cedar Hills, share a similar pattern: dry summers followed by spring snowmelt that raises the water table and pushes moisture into crawl spaces that seemed fine all winter. Homes built in the 1990s and 2000s boom years often have minimal or no vapor barrier, and the original fiberglass batt insulation between joists has been absorbing humidity for decades.
 
 The best window to schedule encapsulation is late summer through early fall, after peak humidity has passed but before the ground freezes and makes any exterior drainage work difficult. That said, a crawl space with active moisture intrusion or wood moisture above 19% shouldn't wait for a seasonal window.
 
@@ -71,4 +71,4 @@ The best window to schedule encapsulation is late summer through early fall, aft
 
 Home Pride Restoration and Cleaning is based in Saratoga Springs and serves crawl space encapsulation projects throughout Utah County and the surrounding region, including Eagle Mountain, Lehi, American Fork, Cedar Hills, Highland, and Lindon. City-specific pages for each community link back here for the full technical detail on how the work is done.
 
-If you've noticed musty air, cupping floors, or elevated humidity readings in your home, call (801) 995-2437 to schedule a crawl space moisture assessment — we'll measure what's actually happening before recommending any scope of work.
+If you've noticed musty air, cupping floors, or elevated humidity readings in your home, call (801) 995-2437 to schedule a crawl space moisture assessment, we'll measure what's actually happening before recommending any scope of work.

@@ -19,13 +19,13 @@ state: "NJ"
 primary: false
 rendered: true
 ---
-When a sump pump fails under a finished home theater in The Gardens, or a wind-thrown oak limb opens a slate roof in Wychwood during a nor'easter, Westfield property owners need a restoration crew that understands what's at stake — not just the water on the floor, but the plaster walls, the original hardwood beneath it, and the full scope of reconstruction that follows. The Restoration Group responds around the clock to water damage, fire and smoke damage, mold remediation, and storm damage throughout Westfield's 07090 ZIP code, dispatching from our Kenilworth headquarters with the equipment and trade knowledge these homes demand.
+When a sump pump fails under a finished home theater in The Gardens, or a wind-thrown oak limb opens a slate roof in Wychwood during a nor'easter, Westfield property owners need a restoration crew that understands what's at stake, not just the water on the floor, but the plaster walls, the original hardwood beneath it, and the full scope of reconstruction that follows. The Restoration Group responds around the clock to water damage, fire and smoke damage, mold remediation, and storm damage throughout Westfield's 07090 ZIP code, dispatching from our Kenilworth headquarters with the equipment and trade knowledge these homes demand.
 
 ## Restoration emergencies common in Westfield
 
 Westfield's housing stock tells the story of its losses. The Victorian, Tudor, and center-hall colonial homes built between the 1890s and 1930s that line streets from Downtown Westfield out through Indian Forest and Manor Park were constructed before modern plumbing standards. Original clay sewer laterals crack and infiltrate. Cast-iron drain stacks corrode slowly and quietly behind plaster walls. Knob-and-tube-era electrical work, even where updated, often left renovation layers that conceal slow leaks for months before a ceiling stain or musty smell in a finished basement finally surfaces the problem.
 
-The geography compounds the risk. Robinson's Branch of the Rahway River runs through town, and the heavy old-growth tree canopy that makes Westfield so attractive becomes a liability in high-wind events — limbs through cedar shake and slate roofing, gutters torn free, water driven behind siding and into attic spaces. Finished basements are nearly universal here, and they're not storage rooms: they're home offices, gyms, and theaters. A failed sump pump or a backed-up lateral can turn into a five-figure claim before the water even reaches the drywall seams.
+The geography compounds the risk. Robinson's Branch of the Rahway River runs through town, and the heavy old-growth tree canopy that makes Westfield so attractive becomes a liability in high-wind events, limbs through cedar shake and slate roofing, gutters torn free, water driven behind siding and into attic spaces. Finished basements are nearly universal here, and they're not storage rooms: they're home offices, gyms, and theaters. A failed sump pump or a backed-up lateral can turn into a five-figure claim before the water even reaches the drywall seams.
 
 Mold is a particular concern in this housing stock. After a slow leak inside a plaster wall, mold can begin colonizing cellulose materials within 24 to 48 hours under the right humidity conditions. Older homes in Brightwood and Wychwood often have limited subfloor ventilation, which accelerates that timeline once moisture finds its way into a floor assembly.
 
@@ -33,11 +33,11 @@ Mold is a particular concern in this housing stock. After a slow leak inside a p
 
 ### Water damage restoration
 
-Water damage in Westfield frequently involves more than a burst pipe — it involves plaster ceilings, original hardwood floors, and finished lower levels that were expensive to build and need to be restored to matching quality. We extract standing water, deploy commercial drying equipment, and monitor moisture levels in wall cavities and subfloors until the structure meets drying standards. We document everything for your insurance carrier and can bill most major carriers directly.
+Water damage in Westfield frequently involves more than a burst pipe, it involves plaster ceilings, original hardwood floors, and finished lower levels that were expensive to build and need to be restored to matching quality. We extract standing water, deploy commercial drying equipment, and monitor moisture levels in wall cavities and subfloors until the structure meets drying standards. We document everything for your insurance carrier and can bill most major carriers directly.
 
 ### Mold remediation
 
-In older Westfield homes, mold often hides inside wall cavities long before it's visible. Our remediation process includes containment, HEPA air filtration, and removal of affected materials — followed by treatment and clearance testing. We work carefully around original trim, plaster, and finish surfaces that can't simply be replaced with off-the-shelf materials.
+In older Westfield homes, mold often hides inside wall cavities long before it's visible. Our remediation process includes containment, HEPA air filtration, and removal of affected materials, followed by treatment and clearance testing. We work carefully around original trim, plaster, and finish surfaces that can't simply be replaced with off-the-shelf materials.
 
 ### Fire and smoke damage restoration
 
@@ -45,11 +45,11 @@ Smoke residue from a kitchen fire or an electrical fault in an older home travel
 
 ### Storm damage and emergency board-up
 
-After a storm drops a limb through a roof near Tamaques Park or Mindowaskin Park, the priority is stopping water from entering the structure. We provide emergency tarping and board-up, then move into full damage assessment and reconstruction — roofing, siding, interior drying, and finish work.
+After a storm drops a limb through a roof near Tamaques Park or Mindowaskin Park, the priority is stopping water from entering the structure. We provide emergency tarping and board-up, then move into full damage assessment and reconstruction, roofing, siding, interior drying, and finish work.
 
 ## Coverage and how fast we can get there
 
-The Restoration Group is headquartered in Kenilworth, roughly 4 miles northeast of Westfield via Boulevard or North Avenue. That proximity means we can reach Downtown Westfield, The Gardens, and Indian Forest quickly — and because we operate 24 hours a day, 7 days a week, a call at 2 a.m. after a sump alarm goes off reaches a live dispatcher, not a voicemail. Crews serving Manor Park and Brightwood travel the same short corridor. We carry the equipment load — truck-mounted extraction, desiccant and refrigerant dehumidifiers, air movers — to begin mitigation on arrival rather than making a preliminary visit.
+The Restoration Group is headquartered in Kenilworth, roughly 4 miles northeast of Westfield via Boulevard or North Avenue. That proximity means we can reach Downtown Westfield, The Gardens, and Indian Forest quickly, and because we operate 24 hours a day, 7 days a week, a call at 2 a.m. after a sump alarm goes off reaches a live dispatcher, not a voicemail. Crews serving Manor Park and Brightwood travel the same short corridor. We carry the equipment load, truck-mounted extraction, desiccant and refrigerant dehumidifiers, air movers, to begin mitigation on arrival rather than making a preliminary visit.
 
 ## Building stock, site conditions, and permits in Westfield
 
@@ -59,4 +59,4 @@ Expect era-linked hazards in any demolition scope: lead paint under later coats,
 
 Structural repair and reconstruction are permitted through Westfield's construction office under the New Jersey Uniform Construction Code, with the state's rehabilitation subcode governing work on existing buildings.
 
-If you're dealing with water, fire, mold, or storm damage anywhere in Westfield's 07090 ZIP code, call The Restoration Group at **(908) 970-8533** — day or night. We'll assess the damage, explain your options clearly, and get mitigation started before the loss grows.
+If you're dealing with water, fire, mold, or storm damage anywhere in Westfield's 07090 ZIP code, call The Restoration Group at **(908) 970-8533**, day or night. We'll assess the damage, explain your options clearly, and get mitigation started before the loss grows.

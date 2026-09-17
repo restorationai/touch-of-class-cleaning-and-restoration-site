@@ -28,9 +28,9 @@ We also aim for the site to be fully navigable by keyboard alone, without requir
 
 ## Known Limitations and Ongoing Work
 
-We are a restoration and construction company, not a software team — and we acknowledge that accessibility is an ongoing process rather than a one-time checkbox. Third-party tools, embedded maps, or content added during routine site updates may occasionally fall short of our target standard. When we become aware of a gap, we work to address it.
+We are a restoration and construction company, not a software team, and we acknowledge that accessibility is an ongoing process rather than a one-time checkbox. Third-party tools, embedded maps, or content added during routine site updates may occasionally fall short of our target standard. When we become aware of a gap, we work to address it.
 
-If you encounter a barrier — a page that does not read correctly in your screen reader, a form you cannot complete, a video without captions, or anything else that prevents you from getting the information you need — we want to hear about it.
+If you encounter a barrier, a page that does not read correctly in your screen reader, a form you cannot complete, a video without captions, or anything else that prevents you from getting the information you need, we want to hear about it.
 
 ## How to Report an Issue
 
@@ -42,7 +42,7 @@ Please reach out to us directly:
 
 When you contact us, it helps to describe the specific page or feature where you ran into difficulty and the assistive technology or browser you were using. That detail lets us reproduce the problem and fix it more quickly.
 
-We aim to acknowledge accessibility reports and respond with a plan of action within a reasonable window — typically within five business days for most issues.
+We aim to acknowledge accessibility reports and respond with a plan of action within a reasonable window, typically within five business days for most issues.
 
 ## Alternative Access to Information
 

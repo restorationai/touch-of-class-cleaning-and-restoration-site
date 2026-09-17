@@ -19,13 +19,13 @@ state: "NV"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall in Nellis Meadows or a monsoon-driven leak soaks the drywall in a Sunrise Vista townhome, PuroClean of East Las Vegas is the team that shows up with the right equipment — moisture meters, commercial drying systems, and a documented scope of work your insurance adjuster can actually use. We handle water damage, fire and smoke damage, mold remediation, and biohazard cleanup for homeowners and property managers throughout Sunrise Manor's ZIP codes, including 89110, 89115, and 89142.
+When a pipe bursts behind a wall in Nellis Meadows or a monsoon-driven leak soaks the drywall in a Sunrise Vista townhome, PuroClean of East Las Vegas is the team that shows up with the right equipment, moisture meters, commercial drying systems, and a documented scope of work your insurance adjuster can actually use. We handle water damage, fire and smoke damage, mold remediation, and biohazard cleanup for homeowners and property managers throughout Sunrise Manor's ZIP codes, including 89110, 89115, and 89142.
 
 ## Restoration emergencies common in Sunrise Manor
 
-Sunrise Manor sits in a climate that punishes homes in ways that aren't always obvious until something fails. Las Vegas averages fewer than five inches of rain annually, but when that rain arrives — typically in the July-through-September monsoon window — it arrives fast and hard. Flat or low-slope roofs common on the ranch-style homes built along the East Charleston corridor in the 1960s and 1970s weren't engineered for that kind of sudden volume. Ponding on the roof, overwhelmed gutters, and window-well flooding are routine calls every summer.
+Sunrise Manor sits in a climate that punishes homes in ways that aren't always obvious until something fails. Las Vegas averages fewer than five inches of rain annually, but when that rain arrives, typically in the July-through-September monsoon window, it arrives fast and hard. Flat or low-slope roofs common on the ranch-style homes built along the East Charleston corridor in the 1960s and 1970s weren't engineered for that kind of sudden volume. Ponding on the roof, overwhelmed gutters, and window-well flooding are routine calls every summer.
 
-The dry heat creates its own problems the rest of the year. PVC supply lines and flexible braided connectors age faster when they cycle through extreme temperature swings — the kind you get when interior air conditioning keeps a house at 72°F while attic temperatures push past 150°F. That stress cracks fittings and loosens connections. Add in the fact that much of the housing stock near Nellis Air Force Base and along the Whitney Ranch border was built before modern moisture-barrier standards, and you have a recipe for water intrusion that hides inside wall cavities for weeks before anyone notices the smell.
+The dry heat creates its own problems the rest of the year. PVC supply lines and flexible braided connectors age faster when they cycle through extreme temperature swings, the kind you get when interior air conditioning keeps a house at 72°F while attic temperatures push past 150°F. That stress cracks fittings and loosens connections. Add in the fact that much of the housing stock near Nellis Air Force Base and along the Whitney Ranch border was built before modern moisture-barrier standards, and you have a recipe for water intrusion that hides inside wall cavities for weeks before anyone notices the smell.
 
 Mold colonization can begin within 24 to 48 hours of a moisture event in enclosed spaces. In Sunrise Manor's older construction, where vapor barriers are thin or absent, that window closes fast.
 
@@ -33,15 +33,15 @@ Mold colonization can begin within 24 to 48 hours of a moisture event in enclose
 
 ### Water damage restoration
 
-Water damage in Sunrise Manor most often involves either appliance failures (water heaters, washing machine supply lines, refrigerator ice-maker lines) or roof intrusion during monsoon season. We extract standing water, document moisture readings across all affected materials, and dry structures to IICRC S500 standards — which matters when your insurance carrier asks for a drying log.
+Water damage in Sunrise Manor most often involves either appliance failures (water heaters, washing machine supply lines, refrigerator ice-maker lines) or roof intrusion during monsoon season. We extract standing water, document moisture readings across all affected materials, and dry structures to IICRC S500 standards, which matters when your insurance carrier asks for a drying log.
 
 ### Fire and smoke damage restoration
 
-House fires in the East Charleston corridor and surrounding neighborhoods frequently involve older electrical panels and aluminum wiring — both common in mid-century construction. After a fire, smoke residue penetrates porous materials like drywall, insulation, and wood framing. We use thermal fogging, HEPA air scrubbing, and targeted content cleaning to address odor at the source rather than masking it.
+House fires in the East Charleston corridor and surrounding neighborhoods frequently involve older electrical panels and aluminum wiring, both common in mid-century construction. After a fire, smoke residue penetrates porous materials like drywall, insulation, and wood framing. We use thermal fogging, HEPA air scrubbing, and targeted content cleaning to address odor at the source rather than masking it.
 
 ### Mold remediation
 
-Mold calls near Sunrise Mountain often trace back to slow leaks that went undetected — a dripping valve under a bathroom vanity, a compromised roof flashing above a closet. We contain the affected area, remove compromised materials, and treat surfaces per EPA guidelines. We do not perform post-remediation air quality testing ourselves; we recommend an independent industrial hygienist for clearance testing so there's no conflict of interest.
+Mold calls near Sunrise Mountain often trace back to slow leaks that went undetected, a dripping valve under a bathroom vanity, a compromised roof flashing above a closet. We contain the affected area, remove compromised materials, and treat surfaces per EPA guidelines. We do not perform post-remediation air quality testing ourselves; we recommend an independent industrial hygienist for clearance testing so there's no conflict of interest.
 
 ### Biohazard and trauma cleanup
 
@@ -49,14 +49,14 @@ We provide discreet, professional biohazard cleanup for property managers and fa
 
 ## Coverage and how fast we can get there
 
-Our team is based in East Las Vegas, which puts Sunrise Manor directly in our backyard. The drive from our location to neighborhoods near Sunrise Mountain and Sunrise Hospital typically runs along Flamingo Road or Boulder Highway — both direct routes with no freeway dependency. Nellis Meadows, Sunrise Vista, and the streets bordering Nellis Air Force Base are all within a short drive under normal traffic conditions. Because we're not coming from the west side of the valley, we're not fighting I-15 or the 215 interchange to reach you. Call us at (702) 551-3040 to confirm scheduling availability.
+Our team is based in East Las Vegas, which puts Sunrise Manor directly in our backyard. The drive from our location to neighborhoods near Sunrise Mountain and Sunrise Hospital typically runs along Flamingo Road or Boulder Highway, both direct routes with no freeway dependency. Nellis Meadows, Sunrise Vista, and the streets bordering Nellis Air Force Base are all within a short drive under normal traffic conditions. Because we're not coming from the west side of the valley, we're not fighting I-15 or the 215 interchange to reach you. Call us at (702) 551-3040 to confirm scheduling availability.
 
 ## Building stock, site conditions, and permits in Sunrise Manor
 
 Sunrise Manor is unincorporated Clark County, so structural repair, reroofing, electrical, and mechanical work is permitted through the county's building and fire prevention department rather than the City of Las Vegas. Full-depth drywall replacement usually does not trigger a permit; framing changes, panel work, and rebuild scopes do.
 
-Nearly everything here sits on slab-on-grade — basements are rare across the valley — often over caliche, a cemented hardpan that sheds water sideways instead of absorbing it. That means a supply-line break travels under tile and laminate along the slab rather than draining away.
+Nearly everything here sits on slab-on-grade, basements are rare across the valley, often over caliche, a cemented hardpan that sheds water sideways instead of absorbing it. That means a supply-line break travels under tile and laminate along the slab rather than draining away.
 
 Wall assemblies are typically wood frame with stucco, plus CMU block on some older single-story homes. In pre-1980 houses, expect cast iron or galvanized drain lines, and treat popcorn ceilings, joint compound, and floor mastic as possible asbestos until sampled. Pre-1978 paint gets lead-safe handling.
 
-If you're dealing with water, fire, mold, or biohazard damage anywhere in Sunrise Manor — from 89101 to 89156 — call PuroClean of East Las Vegas at **(702) 551-3040**. The sooner the drying equipment is running, the less material ends up in a dumpster.
+If you're dealing with water, fire, mold, or biohazard damage anywhere in Sunrise Manor, from 89101 to 89156, call PuroClean of East Las Vegas at **(702) 551-3040**. The sooner the drying equipment is running, the less material ends up in a dumpster.

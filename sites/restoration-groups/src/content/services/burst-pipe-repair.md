@@ -17,27 +17,27 @@ service_slug: "burst-pipe-repair"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
-A pipe doesn't burst gradually — it fails in seconds, and the water that follows doesn't wait. By the time you hear the rush or notice the ceiling sagging, gallons have already moved behind walls, under subfloor, and into insulation that will hold moisture for weeks if it isn't pulled and dried correctly. The cleanup isn't just about mopping up standing water. It's about stopping secondary damage — swelling framing, buckled hardwood, mold colonization that can begin within 24 to 48 hours of saturation — before it turns a plumbing failure into a gut renovation.
+A pipe doesn't burst gradually, it fails in seconds, and the water that follows doesn't wait. By the time you hear the rush or notice the ceiling sagging, gallons have already moved behind walls, under subfloor, and into insulation that will hold moisture for weeks if it isn't pulled and dried correctly. The cleanup isn't just about mopping up standing water. It's about stopping secondary damage, swelling framing, buckled hardwood, mold colonization that can begin within 24 to 48 hours of saturation, before it turns a plumbing failure into a gut renovation.
 
 ## What burst pipe cleanup and repair actually involves
 
-The visible water is rarely the whole problem. When a supply line or drain line lets go, water travels the path of least resistance: through wall cavities, along floor joists, into adjacent rooms on the same level or the floor below. A burst pipe cleanup involves finding all of it — not just the puddle on the kitchen floor.
+The visible water is rarely the whole problem. When a supply line or drain line lets go, water travels the path of least resistance: through wall cavities, along floor joists, into adjacent rooms on the same level or the floor below. A burst pipe cleanup involves finding all of it, not just the puddle on the kitchen floor.
 
 Professional extraction uses truck-mounted or portable wet-vac systems capable of pulling hundreds of gallons from carpet, pad, and subfloor in a single session. After extraction, the real work begins: drying. Industrial air movers and low-grain refrigerant (LGR) dehumidifiers run continuously, sometimes for three to five days, while technicians track moisture readings in walls, ceilings, and structural cavities with pin-type and non-invasive moisture meters. Thermal imaging cameras reveal wet areas behind drywall that look perfectly dry to the eye.
 
-Depending on how long the water sat and what category it falls into — clean supply-line water is Category 1; water that has contacted soil, insulation, or standing debris can escalate — some materials may need to be removed rather than dried in place. Wet drywall below the flood cut, saturated insulation, and swollen hardwood are common candidates for controlled demolition before drying can be effective.
+Depending on how long the water sat and what category it falls into, clean supply-line water is Category 1; water that has contacted soil, insulation, or standing debris can escalate, some materials may need to be removed rather than dried in place. Wet drywall below the flood cut, saturated insulation, and swollen hardwood are common candidates for controlled demolition before drying can be effective.
 
-The pipe repair itself — whether it's a copper repipe, a PEX splice, or a corroded fitting replacement — is coordinated alongside the drying work so the structure isn't left open longer than necessary.
+The pipe repair itself, whether it's a copper repipe, a PEX splice, or a corroded fitting replacement, is coordinated alongside the drying work so the structure isn't left open longer than necessary.
 
 ## Our process
 
 1. **Emergency water shutoff and source control.** The first call is always stopping the flow. If the main hasn't been shut off yet, that happens before anything else. We locate and isolate the break, assess line pressure, and confirm the source is secured before extraction begins.
 
-2. **Damage mapping and moisture baseline.** Using thermal imaging and calibrated moisture meters, we document every affected surface — walls, floors, ceilings, cabinets — and establish baseline readings. This map drives the drying plan and becomes the documentation your insurance adjuster needs.
+2. **Damage mapping and moisture baseline.** Using thermal imaging and calibrated moisture meters, we document every affected surface, walls, floors, ceilings, cabinets, and establish baseline readings. This map drives the drying plan and becomes the documentation your insurance adjuster needs.
 
-3. **Extraction and controlled demolition.** Standing water is extracted with high-capacity equipment. Materials that cannot be effectively dried in place — saturated drywall, soaked insulation, compromised subfloor — are removed to the flood cut line, bagged, and disposed of. Leaving wet materials behind is the single most common reason a burst pipe claim turns into a mold remediation claim months later.
+3. **Extraction and controlled demolition.** Standing water is extracted with high-capacity equipment. Materials that cannot be effectively dried in place, saturated drywall, soaked insulation, compromised subfloor, are removed to the flood cut line, bagged, and disposed of. Leaving wet materials behind is the single most common reason a burst pipe claim turns into a mold remediation claim months later.
 
-4. **Structural drying with daily monitoring.** Air movers and LGR dehumidifiers are positioned per IICRC S500 drying principles. A technician returns each day to log moisture readings, adjust equipment placement, and confirm the structure is trending dry. Drying is not declared complete until readings return to pre-loss reference levels — not just when the floor feels dry underfoot.
+4. **Structural drying with daily monitoring.** Air movers and LGR dehumidifiers are positioned per IICRC S500 drying principles. A technician returns each day to log moisture readings, adjust equipment placement, and confirm the structure is trending dry. Drying is not declared complete until readings return to pre-loss reference levels, not just when the floor feels dry underfoot.
 
 5. **Pipe repair and reconstruction coordination.** Once the structure is dry and documented, the failed line is repaired or replaced. We coordinate the scope of any drywall, flooring, or cabinet reconstruction so you have one point of contact from water loss through finished repair.
 
@@ -47,13 +47,13 @@ The most common mistake in burst pipe cleanup is stopping at extraction. A shop-
 
 A second failure point is misclassifying the water category. A supply-line break that floods a finished basement and contacts fiberglass insulation, stored materials, or a floor drain can escalate from Category 1 to Category 2 quickly. The cleaning and disposal protocols are different, and so is what an insurance adjuster expects to see documented.
 
-Insurance carriers look for a complete moisture log — daily readings, equipment placement records, and a drying certificate signed by a certified technician. Without that paper trail, adjusters may dispute whether drying was necessary, how long it took, or whether removed materials were actually unsalvageable. The Restoration Group is an IICRC Certified Firm (#210213), and every job produces a documented drying report built to support your claim.
+Insurance carriers look for a complete moisture log, daily readings, equipment placement records, and a drying certificate signed by a certified technician. Without that paper trail, adjusters may dispute whether drying was necessary, how long it took, or whether removed materials were actually unsalvageable. The Restoration Group is an IICRC Certified Firm (#210213), and every job produces a documented drying report built to support your claim.
 
 Finally, experienced operators pressure-test repaired lines before closing walls. A patch that holds at ambient pressure can still weep under full supply pressure. Closing drywall over an untested repair is a callback waiting to happen.
 
 ## Seasonal and regional considerations
 
-In northern New Jersey, burst pipes peak between December and March, when overnight temperatures drop sharply and pipes in uninsulated exterior walls, crawl spaces, and garage ceilings freeze and let go — often after the temperature rebounds and the ice thaws. Older housing stock in communities like Kenilworth, Cranford, and Westfield frequently has copper supply lines in exterior wall cavities that were installed before modern insulation standards, making them especially vulnerable during hard freezes.
+In northern New Jersey, burst pipes peak between December and March, when overnight temperatures drop sharply and pipes in uninsulated exterior walls, crawl spaces, and garage ceilings freeze and let go, often after the temperature rebounds and the ice thaws. Older housing stock in communities like Kenilworth, Cranford, and Westfield frequently has copper supply lines in exterior wall cavities that were installed before modern insulation standards, making them especially vulnerable during hard freezes.
 
 The freeze-thaw pattern also means multiple failures can occur in the same structure days apart as temperatures cycle. A thorough inspection after the first break should include adjacent lines in the same chase or wall cavity.
 
@@ -61,6 +61,6 @@ Spring snowmelt and heavy rain events can compound a burst pipe loss when draina
 
 ## Service area
 
-The Restoration Group is based in Kenilworth, NJ, and handles burst pipe cleanup and repair across Union, Essex, Middlesex, and Morris counties — including Cranford, Westfield, Summit, Millburn, Springfield, and surrounding communities. City-specific pages cover local details; this page describes how the work is done regardless of address.
+The Restoration Group is based in Kenilworth, NJ, and handles burst pipe cleanup and repair across Union, Essex, Middlesex, and Morris counties, including Cranford, Westfield, Summit, Millburn, Springfield, and surrounding communities. City-specific pages cover local details; this page describes how the work is done regardless of address.
 
-If you're standing in a wet room right now, call (908) 970-8533. The Restoration Group operates 24/7 — a technician will walk you through immediate steps on the phone and get equipment moving toward your property.
+If you're standing in a wet room right now, call (908) 970-8533. The Restoration Group operates 24/7, a technician will walk you through immediate steps on the phone and get equipment moving toward your property.

@@ -20,36 +20,36 @@ state: "CA"
 service_display: "Furnace Repair"
 rendered: true
 ---
-Ontario's winters are mild by most standards, but when nighttime temperatures dip into the 30s and 40s — not uncommon from December through February in the Inland Empire — a furnace that won't fire becomes an urgent problem fast. The region's dry desert air also means heating systems run hard during those cold snaps without the gradual seasoning that wetter climates provide, which can expose worn igniters, cracked heat exchangers, and clogged burners that sat untouched since the previous season. RT Olson Plumbing, Heating and Air Conditioning responds 24/7 to furnace calls throughout Ontario.
+Ontario's winters are mild by most standards, but when nighttime temperatures dip into the 30s and 40s, not uncommon from December through February in the Inland Empire, a furnace that won't fire becomes an urgent problem fast. The region's dry desert air also means heating systems run hard during those cold snaps without the gradual seasoning that wetter climates provide, which can expose worn igniters, cracked heat exchangers, and clogged burners that sat untouched since the previous season. RT Olson Plumbing, Heating and Air Conditioning responds 24/7 to furnace calls throughout Ontario.
 
 ## Why Ontario Homes See Furnace Problems When the Cold Arrives
 
-Ontario sits at the western edge of the Inland Valley, where cold air drainage off the San Gabriel and San Bernardino mountains can push overnight lows well below what the afternoon forecast suggests. Heating systems that cycle on for the first time in months — or that have been limping along on partial ignition — tend to fail during exactly these rapid temperature drops.
+Ontario sits at the western edge of the Inland Valley, where cold air drainage off the San Gabriel and San Bernardino mountains can push overnight lows well below what the afternoon forecast suggests. Heating systems that cycle on for the first time in months, or that have been limping along on partial ignition, tend to fail during exactly these rapid temperature drops.
 
-The housing stock here adds another layer. Tract homes built across Ontario during the 1970s and 1980s were commonly fitted with builder-grade forced-air furnaces that are now well past their expected service life. Cracked heat exchangers, failed draft inducers, and corroded flame sensors are recurring findings in units of that era. Newer subdivisions built during the 2000s and 2010s growth wave brought high-efficiency condensing furnaces — a different set of failure points, including clogged condensate drains and pressure switch faults that mimic more serious problems.
+The housing stock here adds another layer. Tract homes built across Ontario during the 1970s and 1980s were commonly fitted with builder-grade forced-air furnaces that are now well past their expected service life. Cracked heat exchangers, failed draft inducers, and corroded flame sensors are recurring findings in units of that era. Newer subdivisions built during the 2000s and 2010s growth wave brought high-efficiency condensing furnaces, a different set of failure points, including clogged condensate drains and pressure switch faults that mimic more serious problems.
 
-The area's particulate-heavy air — Ontario is downwind of both freeway corridors and dry agricultural land — also means air filters clog faster than manufacturers' replacement schedules assume. A restricted filter starves a furnace of airflow, causing the heat exchanger to overheat and the high-limit switch to trip. The furnace shuts down. The homeowner calls because the heater is blowing cold air. The fix is sometimes straightforward; other times the repeated overheating has already warped internal components.
+The area's particulate-heavy air, Ontario is downwind of both freeway corridors and dry agricultural land, also means air filters clog faster than manufacturers' replacement schedules assume. A restricted filter starves a furnace of airflow, causing the heat exchanger to overheat and the high-limit switch to trip. The furnace shuts down. The homeowner calls because the heater is blowing cold air. The fix is sometimes straightforward; other times the repeated overheating has already warped internal components.
 
 ## What Our Furnace Repair Process Looks Like in Ontario
 
-When a technician arrives, the first step is always a full system assessment — not just the part that appears broken. A furnace blowing cold air could mean a failed igniter, a tripped limit switch, a fault in the gas valve, or a pressure switch issue on a condensing unit. Jumping straight to part replacement without diagnosing the root cause means the same failure often comes back within weeks.
+When a technician arrives, the first step is always a full system assessment, not just the part that appears broken. A furnace blowing cold air could mean a failed igniter, a tripped limit switch, a fault in the gas valve, or a pressure switch issue on a condensing unit. Jumping straight to part replacement without diagnosing the root cause means the same failure often comes back within weeks.
 
 The sequence we follow:
 
-- **Verify thermostat and power supply** — rules out control board issues and wiring faults before opening the cabinet.
-- **Inspect the heat exchanger** — cracks here are a safety concern and affect the repair-versus-replace decision.
-- **Test ignition components** — hot-surface igniters and flame sensors degrade over time and are among the most common single-point failures in Ontario's aging housing stock.
-- **Check the flue and combustion air pathway** — important in tightly sealed newer homes where combustion air supply can be inadvertently blocked.
-- **Measure temperature rise and airflow** — confirms the repaired system is operating within the manufacturer's design range before the technician leaves.
+- **Verify thermostat and power supply**, rules out control board issues and wiring faults before opening the cabinet.
+- **Inspect the heat exchanger**, cracks here are a safety concern and affect the repair-versus-replace decision.
+- **Test ignition components**, hot-surface igniters and flame sensors degrade over time and are among the most common single-point failures in Ontario's aging housing stock.
+- **Check the flue and combustion air pathway**, important in tightly sealed newer homes where combustion air supply can be inadvertently blocked.
+- **Measure temperature rise and airflow**, confirms the repaired system is operating within the manufacturer's design range before the technician leaves.
 
 We carry commonly needed igniter types, flame sensors, capacitors, and limit switches on the truck, which reduces the need for a return visit on the most frequent repairs.
 
 ## Getting to Ontario from Corona
 
-RT Olson is based in Corona, and Ontario is a regular part of our service area. The most direct route runs west on the 91 to the 15 North, then east on the 60 — typical drive time under normal conditions is well under 30 minutes. For calls closer to the western side of Ontario, the 71 corridor offers a more direct line. We dispatch 24/7, so after-hours calls during those cold January nights are handled the same way as a midday appointment.
+RT Olson is based in Corona, and Ontario is a regular part of our service area. The most direct route runs west on the 91 to the 15 North, then east on the 60, typical drive time under normal conditions is well under 30 minutes. For calls closer to the western side of Ontario, the 71 corridor offers a more direct line. We dispatch 24/7, so after-hours calls during those cold January nights are handled the same way as a midday appointment.
 
 ## Local Note
 
-One pattern worth knowing if you own an older home in Ontario: many tract houses built here in the late 1970s were plumbed with gas lines that also feed wall heaters in secondary rooms alongside the central furnace. When the central furnace develops a gas valve fault, homeowners sometimes notice the wall heaters also behaving erratically — not because they share a fault, but because low gas pressure from a partially failing valve affects the whole branch. A technician who only looks at the furnace cabinet can miss this context. Mentioning all your gas appliances when you call helps us bring the right diagnostic equipment on the first visit.
+One pattern worth knowing if you own an older home in Ontario: many tract houses built here in the late 1970s were plumbed with gas lines that also feed wall heaters in secondary rooms alongside the central furnace. When the central furnace develops a gas valve fault, homeowners sometimes notice the wall heaters also behaving erratically, not because they share a fault, but because low gas pressure from a partially failing valve affects the whole branch. A technician who only looks at the furnace cabinet can miss this context. Mentioning all your gas appliances when you call helps us bring the right diagnostic equipment on the first visit.
 
-If your furnace has stopped working — or is running but pushing cold air through the vents — call RT Olson Plumbing, Heating and Air Conditioning at (951) 344-5596. We serve Ontario around the clock and aim to get a technician to your door the same day you call.
+If your furnace has stopped working, or is running but pushing cold air through the vents, call RT Olson Plumbing, Heating and Air Conditioning at (951) 344-5596. We serve Ontario around the clock and aim to get a technician to your door the same day you call.

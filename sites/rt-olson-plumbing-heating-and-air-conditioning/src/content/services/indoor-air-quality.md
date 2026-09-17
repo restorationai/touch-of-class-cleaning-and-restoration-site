@@ -17,50 +17,50 @@ service_slug: "indoor-air-quality"
 service_display: "Indoor Air Quality Services"
 rendered: true
 ---
-You change the filter every three months, run the AC all summer, and still wake up with a scratchy throat — or notice that one family member's allergies never quite settle down indoors. The air inside a Southern California home can carry fine particulates, volatile organic compounds, mold spores, and dry-season dust that standard 1-inch filters barely touch. Indoor air quality services address what your HVAC system alone cannot: the invisible load of contaminants cycling through your ductwork and living spaces every time the system kicks on.
+You change the filter every three months, run the AC all summer, and still wake up with a scratchy throat, or notice that one family member's allergies never quite settle down indoors. The air inside a Southern California home can carry fine particulates, volatile organic compounds, mold spores, and dry-season dust that standard 1-inch filters barely touch. Indoor air quality services address what your HVAC system alone cannot: the invisible load of contaminants cycling through your ductwork and living spaces every time the system kicks on.
 
 ## What Indoor Air Quality Services actually involves
 
-Indoor air quality work is not a single product or a one-size fix. It starts with understanding what is actually in your air — particulate size, humidity levels, biological contaminants, and chemical off-gassing — and then matching the right equipment or combination of equipment to that specific load.
+Indoor air quality work is not a single product or a one-size fix. It starts with understanding what is actually in your air, particulate size, humidity levels, biological contaminants, and chemical off-gassing, and then matching the right equipment or combination of equipment to that specific load.
 
 Common interventions include:
 
-- **Whole home humidifier installation** — Corona's inland climate swings between dry desert air in summer and low-humidity winter heating seasons. A bypass or fan-powered humidifier installed on the supply plenum adds moisture at the source, reducing static, dry skin, and the cracked woodwork that comes with air that consistently drops below 30% relative humidity.
-- **HVAC filtration upgrades** — Moving from a standard MERV 4–6 filter to a MERV 13 media cabinet filter or a HEPA bypass system captures fine particulates (PM2.5) that pass straight through builder-grade filters. The upgrade has to be sized correctly for your blower's static pressure tolerance, or airflow drops and your system works harder than it should.
-- **UV air purifier for HVAC** — Germicidal UV-C lamps installed at the coil or in the return plenum disrupt the DNA of mold, bacteria, and some viruses before they circulate through the home. Coil-mounted units also keep the evaporator surface cleaner between maintenance visits, which matters in humid cooling seasons when biological growth on the coil is common.
-- **Whole house air purifier systems** — Electronic air cleaners and polarized media systems go beyond filtration by actively charging particles so they clump and get captured on collection surfaces. Some systems also address odors and VOCs through activated carbon stages.
-- **Indoor air quality testing** — Baseline and post-installation testing with calibrated particle counters, hygrometers, and VOC monitors gives you a before-and-after picture rather than a guess.
+- **Whole home humidifier installation**, Corona's inland climate swings between dry desert air in summer and low-humidity winter heating seasons. A bypass or fan-powered humidifier installed on the supply plenum adds moisture at the source, reducing static, dry skin, and the cracked woodwork that comes with air that consistently drops below 30% relative humidity.
+- **HVAC filtration upgrades**, Moving from a standard MERV 4–6 filter to a MERV 13 media cabinet filter or a HEPA bypass system captures fine particulates (PM2.5) that pass straight through builder-grade filters. The upgrade has to be sized correctly for your blower's static pressure tolerance, or airflow drops and your system works harder than it should.
+- **UV air purifier for HVAC**, Germicidal UV-C lamps installed at the coil or in the return plenum disrupt the DNA of mold, bacteria, and some viruses before they circulate through the home. Coil-mounted units also keep the evaporator surface cleaner between maintenance visits, which matters in humid cooling seasons when biological growth on the coil is common.
+- **Whole house air purifier systems**, Electronic air cleaners and polarized media systems go beyond filtration by actively charging particles so they clump and get captured on collection surfaces. Some systems also address odors and VOCs through activated carbon stages.
+- **Indoor air quality testing**, Baseline and post-installation testing with calibrated particle counters, hygrometers, and VOC monitors gives you a before-and-after picture rather than a guess.
 
 ## Our process
 
-1. **Diagnostic assessment** — A technician walks the home with a particle counter and hygrometer, checks the existing filtration setup, inspects the coil and ductwork for visible biological growth, and asks about symptoms (allergy flare-ups, odors, excessive dust on surfaces, static electricity). This shapes the recommendation — not a product catalog.
+1. **Diagnostic assessment**, A technician walks the home with a particle counter and hygrometer, checks the existing filtration setup, inspects the coil and ductwork for visible biological growth, and asks about symptoms (allergy flare-ups, odors, excessive dust on surfaces, static electricity). This shapes the recommendation, not a product catalog.
 
-2. **System compatibility check** — Before recommending any filtration upgrade or add-on device, we verify your air handler's blower capacity and external static pressure. A MERV 13 filter installed on a system sized for MERV 8 will starve the blower and accelerate wear. UV lamp placement is checked against coil geometry and access panel clearances.
+2. **System compatibility check**, Before recommending any filtration upgrade or add-on device, we verify your air handler's blower capacity and external static pressure. A MERV 13 filter installed on a system sized for MERV 8 will starve the blower and accelerate wear. UV lamp placement is checked against coil geometry and access panel clearances.
 
-3. **Equipment installation** — Humidifiers are plumbed to a supply line and wired to the furnace control board so they cycle with the heating system. UV lamps are mounted, wired to a dedicated circuit or the air handler, and positioned for maximum coil coverage. Media cabinets replace the existing filter rack with a sealed housing that eliminates bypass air around the filter edge — a common weak point in retrofit installs.
+3. **Equipment installation**, Humidifiers are plumbed to a supply line and wired to the furnace control board so they cycle with the heating system. UV lamps are mounted, wired to a dedicated circuit or the air handler, and positioned for maximum coil coverage. Media cabinets replace the existing filter rack with a sealed housing that eliminates bypass air around the filter edge, a common weak point in retrofit installs.
 
-4. **Calibration and testing** — After installation, we measure supply and return static pressure to confirm airflow is within manufacturer spec, verify humidistat setpoint against outdoor temperature lockout settings, and run a post-installation particle count to establish a baseline you can reference at future tune-ups.
+4. **Calibration and testing**, After installation, we measure supply and return static pressure to confirm airflow is within manufacturer spec, verify humidistat setpoint against outdoor temperature lockout settings, and run a post-installation particle count to establish a baseline you can reference at future tune-ups.
 
-5. **Documentation and maintenance schedule** — You receive a written record of what was installed, model and serial numbers, filter replacement intervals, UV lamp replacement schedule (typically annual), and humidifier media pad change intervals. These records matter if you ever file an insurance claim or sell the home.
+5. **Documentation and maintenance schedule**, You receive a written record of what was installed, model and serial numbers, filter replacement intervals, UV lamp replacement schedule (typically annual), and humidifier media pad change intervals. These records matter if you ever file an insurance claim or sell the home.
 
 ## What separates a good IAQ response from a bad one
 
 The most common mistake in residential IAQ work is selling equipment without diagnosing the problem. A UV lamp does nothing for a dust problem driven by duct leakage. A whole house air purifier will not correct a humidity imbalance. And a high-MERV filter installed without a static pressure check can reduce airflow enough to cause coil freeze-up in cooling mode.
 
-Less experienced operators also miss biological growth on the evaporator coil — a surface that stays wet during cooling cycles and is a reliable breeding ground for mold and bacteria. If the coil is not inspected and addressed before a UV lamp is installed, you are treating downstream air while the source remains.
+Less experienced operators also miss biological growth on the evaporator coil, a surface that stays wet during cooling cycles and is a reliable breeding ground for mold and bacteria. If the coil is not inspected and addressed before a UV lamp is installed, you are treating downstream air while the source remains.
 
 Finally, filter bypass is a persistent problem in retrofit installations. A media cabinet that does not seal tightly to the air handler cabinet allows unfiltered air to pull around the filter edge. The filter looks clean because the dirty air never touched it.
 
 ## Seasonal and regional considerations
 
-Corona and the Inland Empire sit in a basin that traps particulates during temperature inversions, which are most frequent in fall and winter. Wildfire smoke events — increasingly common across Southern California — push PM2.5 levels well above outdoor air quality thresholds and drive those particles indoors through normal infiltration. Homes without enhanced filtration during a smoke event are recirculating outdoor air that may be many times above safe particulate levels.
+Corona and the Inland Empire sit in a basin that traps particulates during temperature inversions, which are most frequent in fall and winter. Wildfire smoke events, increasingly common across Southern California, push PM2.5 levels well above outdoor air quality thresholds and drive those particles indoors through normal infiltration. Homes without enhanced filtration during a smoke event are recirculating outdoor air that may be many times above safe particulate levels.
 
 Summer cooling seasons bring the opposite challenge: high humidity at the coil, low humidity in the living space, and biological growth risk on evaporator surfaces that run wet for months at a time. A UV lamp installed before the cooling season starts addresses that window directly.
 
-Heating season in the high desert corridor — from Corona through the pass toward the high desert — drops indoor relative humidity sharply. Bypass humidifiers are most effective on gas furnace systems, which are the dominant heating type in this region's housing stock.
+Heating season in the high desert corridor, from Corona through the pass toward the high desert, drops indoor relative humidity sharply. Bypass humidifiers are most effective on gas furnace systems, which are the dominant heating type in this region's housing stock.
 
 ## Service area
 
 RT Olson Plumbing, Heating and Air Conditioning is based in Corona and serves homeowners and property managers throughout the surrounding Inland Empire communities, including Riverside, Norco, Eastvale, Chino Hills, Ontario, and Rancho Cucamonga. City-specific service pages link back here for the full technical detail on what indoor air quality work actually involves.
 
-If your home's air has felt off — more dust than it should, persistent dryness, a smell you cannot locate, or allergy symptoms that ease when you leave — call (951) 344-5596 to schedule a diagnostic assessment. We will tell you what is actually in your air before recommending anything to change it.
+If your home's air has felt off, more dust than it should, persistent dryness, a smell you cannot locate, or allergy symptoms that ease when you leave, call (951) 344-5596 to schedule a diagnostic assessment. We will tell you what is actually in your air before recommending anything to change it.

@@ -20,35 +20,35 @@ state: "UT"
 service_display: "Junk & Debris Removal"
 rendered: true
 ---
-Orem sits at the foot of the Wasatch Range, where decades of rapid growth have layered mid-century ranch homes, 1980s subdivisions, and newer infill construction almost on top of each other. That mix means garages stuffed with two generations of tools, basements converted and re-converted, and yards where landscaping projects got abandoned mid-season. When a cleanout finally becomes urgent — after a tenant moves out, an estate settles, or a renovation uncovers a storage room nobody remembered — Home Pride Restoration and Cleaning can have a crew on-site and hauling within hours, not days.
+Orem sits at the foot of the Wasatch Range, where decades of rapid growth have layered mid-century ranch homes, 1980s subdivisions, and newer infill construction almost on top of each other. That mix means garages stuffed with two generations of tools, basements converted and re-converted, and yards where landscaping projects got abandoned mid-season. When a cleanout finally becomes urgent, after a tenant moves out, an estate settles, or a renovation uncovers a storage room nobody remembered, Home Pride Restoration and Cleaning can have a crew on-site and hauling within hours, not days.
 
 ## Why Orem Properties Accumulate Junk Differently Than Most Utah Cities
 
-Orem's housing stock tells a story in layers. The older neighborhoods near Center Street and State Street were built out in the 1950s and 1960s, when basements doubled as workshops, root cellars, and informal storage for everything from canning jars to cast-iron equipment. Those homes changed hands multiple times before the current owners arrived, and each transfer left behind a sediment of belongings nobody wanted to move. Add Utah County's dry, high-desert climate — where wood doesn't rot and metal rusts slowly — and items that would deteriorate in a wetter state just sit intact for thirty years.
+Orem's housing stock tells a story in layers. The older neighborhoods near Center Street and State Street were built out in the 1950s and 1960s, when basements doubled as workshops, root cellars, and informal storage for everything from canning jars to cast-iron equipment. Those homes changed hands multiple times before the current owners arrived, and each transfer left behind a sediment of belongings nobody wanted to move. Add Utah County's dry, high-desert climate, where wood doesn't rot and metal rusts slowly, and items that would deteriorate in a wetter state just sit intact for thirty years.
 
 Nearer to Utah Valley University, rental turnover is constant. A single-family home near campus can cycle through four or five tenant groups in a decade, and each group leaves something: furniture too heavy to haul in a sedan, mattresses propped against fences, exercise equipment that seemed like a good idea in January. Landlords and property managers in the 84097 ZIP code know the pattern well.
 
 ## Our Junk & Debris Removal Process in Orem
 
-Every job starts with a walkthrough — not a phone estimate, an actual eyes-on assessment. We want to know whether the debris is accessible from a driveway, whether there's a narrow gate between the street and the backyard, and whether any items require special handling (old appliances with refrigerants, electronics, paint cans). Orem's mix of attached garages, side-yard gates, and alley-access lots means access logistics vary block by block.
+Every job starts with a walkthrough, not a phone estimate, an actual eyes-on assessment. We want to know whether the debris is accessible from a driveway, whether there's a narrow gate between the street and the backyard, and whether any items require special handling (old appliances with refrigerants, electronics, paint cans). Orem's mix of attached garages, side-yard gates, and alley-access lots means access logistics vary block by block.
 
 Once we have a clear picture, the crew stages the haul systematically:
 
-1. **Sort on-site** — salvageable items separated from true waste, reducing landfill tonnage and sometimes lowering your cost.
-2. **Load and protect** — driveways and hardscaping protected with plywood runners where needed; no scrape marks left on concrete aprons.
-3. **Haul and dispose responsibly** — debris routed to licensed Utah County disposal facilities; appliances and electronics handled per state e-waste guidelines.
-4. **Final sweep** — the space left broom-clean, or better.
+1. **Sort on-site**, salvageable items separated from true waste, reducing landfill tonnage and sometimes lowering your cost.
+2. **Load and protect**, driveways and hardscaping protected with plywood runners where needed; no scrape marks left on concrete aprons.
+3. **Haul and dispose responsibly**, debris routed to licensed Utah County disposal facilities; appliances and electronics handled per state e-waste guidelines.
+4. **Final sweep**, the space left broom-clean, or better.
 
 For larger estate cleanouts or post-renovation debris, we can coordinate multiple truck runs in a single day rather than scheduling you out over a week.
 
 ## Response Time from Saratoga Springs to Orem
 
-Home Pride's headquarters sits in Saratoga Springs, roughly 15 miles southwest of Orem via UT-68 and I-15. Under normal traffic conditions, that's a 20-to-25-minute drive. During peak Utah County commute hours — particularly the northbound I-15 backup that builds between 4:00 and 6:00 p.m. — our crews use the Redwood Road corridor as an alternate to keep response times predictable. For most Orem addresses, expect a crew on-site within 60 to 90 minutes of your call.
+Home Pride's headquarters sits in Saratoga Springs, roughly 15 miles southwest of Orem via UT-68 and I-15. Under normal traffic conditions, that's a 20-to-25-minute drive. During peak Utah County commute hours, particularly the northbound I-15 backup that builds between 4:00 and 6:00 p.m., our crews use the Redwood Road corridor as an alternate to keep response times predictable. For most Orem addresses, expect a crew on-site within 60 to 90 minutes of your call.
 
 For jobs near the south end of Orem, closer to the Provo border, we can sometimes dispatch directly from an active job in Utah County and cut that window further. Call (801) 995-2437 and give us your address; we'll tell you exactly where the nearest crew is.
 
 ## Local Note: HOA Rules and Curbside Staging in Orem's Newer Developments
 
-Orem's newer planned communities — particularly those developed along the east bench and near the interchange corridors — often have HOA covenants that restrict how long a container, dumpster, or loaded trailer can sit at the curb. Some prohibit overnight staging entirely. We've run into this enough times that we now ask about HOA restrictions before we schedule, not after. If your neighborhood has a 24-hour curbside rule or requires a permit for equipment in the street, we plan the haul as a same-day, load-and-go operation so you're never in violation. It's a small thing, but it saves a headache with your HOA board.
+Orem's newer planned communities, particularly those developed along the east bench and near the interchange corridors, often have HOA covenants that restrict how long a container, dumpster, or loaded trailer can sit at the curb. Some prohibit overnight staging entirely. We've run into this enough times that we now ask about HOA restrictions before we schedule, not after. If your neighborhood has a 24-hour curbside rule or requires a permit for equipment in the street, we plan the haul as a same-day, load-and-go operation so you're never in violation. It's a small thing, but it saves a headache with your HOA board.
 
 Call (801) 995-2437 or reach out online to schedule your Orem junk and debris removal. Whether it's a single-car garage in a mid-century neighborhood off Center Street or a full estate cleanout near the university, we'll give you a straight quote, show up on time, and leave the space genuinely clear.

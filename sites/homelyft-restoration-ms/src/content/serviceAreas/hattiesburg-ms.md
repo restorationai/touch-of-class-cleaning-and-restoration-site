@@ -19,21 +19,21 @@ state: "MS"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind the walls of a Hattiesburg bungalow or a slow roof leak turns a spare bedroom into a mold colony, HomeLyft Restoration MS sends a trained crew with commercial drying equipment, moisture meters, and a documented scope of work — not a sales pitch. We handle water damage mitigation, mold remediation, fire and smoke cleanup, and structural reconstruction for homeowners and property managers throughout Hattiesburg and Forrest County.
+When a pipe bursts behind the walls of a Hattiesburg bungalow or a slow roof leak turns a spare bedroom into a mold colony, HomeLyft Restoration MS sends a trained crew with commercial drying equipment, moisture meters, and a documented scope of work, not a sales pitch. We handle water damage mitigation, mold remediation, fire and smoke cleanup, and structural reconstruction for homeowners and property managers throughout Hattiesburg and Forrest County.
 
 ## Restoration emergencies common in Hattiesburg
 
-Hattiesburg sits in one of the wettest corners of Mississippi. Annual rainfall routinely exceeds 60 inches, and the city's position along the Leaf River and Bouie River corridors means that heavy convective storms — common from late spring through October — can push water into crawl spaces and lower levels faster than sump systems can respond. The region's clay-heavy soils drain slowly, which keeps hydrostatic pressure against foundations long after the rain stops.
+Hattiesburg sits in one of the wettest corners of Mississippi. Annual rainfall routinely exceeds 60 inches, and the city's position along the Leaf River and Bouie River corridors means that heavy convective storms, common from late spring through October, can push water into crawl spaces and lower levels faster than sump systems can respond. The region's clay-heavy soils drain slowly, which keeps hydrostatic pressure against foundations long after the rain stops.
 
-The housing stock compounds the risk. Many of Hattiesburg's established residential neighborhoods feature pier-and-beam construction from the mid-20th century, where moisture migrates freely through unventilated crawl spaces before anyone notices a soft spot in the subfloor. Older homes may also carry legacy materials — cast-iron drain lines prone to root intrusion, original single-pane windows that allow condensation to pool on sills and rot framing, and in some cases building materials that require careful handling under current EPA guidelines. University-adjacent rental properties see a different pattern: deferred maintenance and high tenant turnover mean small leaks go unreported until damage is extensive.
+The housing stock compounds the risk. Many of Hattiesburg's established residential neighborhoods feature pier-and-beam construction from the mid-20th century, where moisture migrates freely through unventilated crawl spaces before anyone notices a soft spot in the subfloor. Older homes may also carry legacy materials, cast-iron drain lines prone to root intrusion, original single-pane windows that allow condensation to pool on sills and rot framing, and in some cases building materials that require careful handling under current EPA guidelines. University-adjacent rental properties see a different pattern: deferred maintenance and high tenant turnover mean small leaks go unreported until damage is extensive.
 
-Summer humidity in Hattiesburg rarely drops below uncomfortable, which matters for restoration timelines. Wet structural materials in a closed, humid environment can begin supporting mold growth within 24 to 48 hours of a water event — a narrow window that makes prompt extraction and drying critical, not optional.
+Summer humidity in Hattiesburg rarely drops below uncomfortable, which matters for restoration timelines. Wet structural materials in a closed, humid environment can begin supporting mold growth within 24 to 48 hours of a water event, a narrow window that makes prompt extraction and drying critical, not optional.
 
 ## Services we provide in Hattiesburg
 
 ### Water damage mitigation
 
-Water damage in Hattiesburg often starts in the crawl space or along the roofline and works inward. Our crews perform standing-water extraction, place industrial air movers and dehumidifiers calibrated to Mississippi's ambient humidity, and monitor moisture readings in walls and subfloors daily until materials reach target dryness levels. We document every reading — a record your insurance adjuster will need.
+Water damage in Hattiesburg often starts in the crawl space or along the roofline and works inward. Our crews perform standing-water extraction, place industrial air movers and dehumidifiers calibrated to Mississippi's ambient humidity, and monitor moisture readings in walls and subfloors daily until materials reach target dryness levels. We document every reading, a record your insurance adjuster will need.
 
 ### Mold remediation
 
@@ -41,19 +41,19 @@ Hattiesburg's climate is nearly ideal for mold. After any water intrusion, spore
 
 ### Fire and smoke damage restoration
 
-Kitchen fires are the most common call we receive after storm-related water damage. Smoke residue penetrates HVAC ductwork, insulation, and wall cavities, and the odor returns weeks later if cleaning stops at visible surfaces. Our technicians use thermal fogging, HEPA air scrubbers, and targeted content cleaning to address residue throughout the structure — not just the room where the fire started.
+Kitchen fires are the most common call we receive after storm-related water damage. Smoke residue penetrates HVAC ductwork, insulation, and wall cavities, and the odor returns weeks later if cleaning stops at visible surfaces. Our technicians use thermal fogging, HEPA air scrubbers, and targeted content cleaning to address residue throughout the structure, not just the room where the fire started.
 
 ### Reconstruction
 
-Once mitigation is complete, many property owners need more than cleanup — they need drywall hung, flooring replaced, and trim reinstalled. HomeLyft Restoration MS handles light-to-moderate reconstruction so you are not coordinating a separate contractor after an already stressful event.
+Once mitigation is complete, many property owners need more than cleanup, they need drywall hung, flooring replaced, and trim reinstalled. HomeLyft Restoration MS handles light-to-moderate reconstruction so you are not coordinating a separate contractor after an already stressful event.
 
 ## Coverage and how fast we can get there
 
-Our Gulfport headquarters sits roughly 75 miles south of Hattiesburg via US-49 North — a straight shot up one of Mississippi's primary inland corridors. We serve Hattiesburg and surrounding Forrest County on a scheduled basis, and we work to prioritize active water-loss calls because every hour of standing water increases both the drying time and the scope of damage. When you call **(228) 284-5200**, our team will confirm current availability and give you an honest arrival window based on where our nearest crew is working that day. We do not make minute-level promises we cannot keep.
+Our Gulfport headquarters sits roughly 75 miles south of Hattiesburg via US-49 North, a straight shot up one of Mississippi's primary inland corridors. We serve Hattiesburg and surrounding Forrest County on a scheduled basis, and we work to prioritize active water-loss calls because every hour of standing water increases both the drying time and the scope of damage. When you call **(228) 284-5200**, our team will confirm current availability and give you an honest arrival window based on where our nearest crew is working that day. We do not make minute-level promises we cannot keep.
 
 ## Building stock, site conditions, and permits in Hattiesburg
 
-Beyond the older pier-and-beam cores, much of Hattiesburg's postwar and later growth went up on slab-on-grade with brick veneer over wood framing and asphalt shingles. On a slab, supply lines routed under the concrete give no warning — the first clue is usually a warm spot on the floor or a water bill that jumped, and locating the break means opening the slab rather than a wall.
+Beyond the older pier-and-beam cores, much of Hattiesburg's postwar and later growth went up on slab-on-grade with brick veneer over wood framing and asphalt shingles. On a slab, supply lines routed under the concrete give no warning, the first clue is usually a warm spot on the floor or a water bill that jumped, and locating the break means opening the slab rather than a wall.
 
 Supply piping tracks the build date: galvanized steel in the oldest houses, copper through the middle decades, PEX in newer work. Anything built before 1978 should be treated as lead-painted until testing says otherwise, and mid-century floor tile and mastic get handled as suspect asbestos.
 

@@ -20,22 +20,22 @@ state: "TX"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
-West Texas storms don't announce themselves politely. In Roby and the surrounding Fisher County flatlands, severe weather can shift from a distant rumble to a full hail barrage or straight-line wind event in minutes — and when it does, the damage to roofing, siding, windows, and structural framing happens fast. Air Care Restoration responds to storm damage calls in Roby around the clock, bringing IICRC-certified crews and the equipment needed to stabilize a property before secondary damage — water intrusion, mold, structural weakening — compounds the original loss.
+West Texas storms don't announce themselves politely. In Roby and the surrounding Fisher County flatlands, severe weather can shift from a distant rumble to a full hail barrage or straight-line wind event in minutes, and when it does, the damage to roofing, siding, windows, and structural framing happens fast. Air Care Restoration responds to storm damage calls in Roby around the clock, bringing IICRC-certified crews and the equipment needed to stabilize a property before secondary damage, water intrusion, mold, structural weakening, compounds the original loss.
 
 ## Why Roby Properties See Significant Storm Damage
 
-Fisher County sits squarely in the southern edge of Tornado Alley, where warm Gulf moisture collides with dry continental air rolling off the Llano Estacado. The result is a storm season that can produce large hail, tornadoes, and 70-plus-mph straight-line winds with limited warning. The flat, open terrain around Roby offers almost no natural windbreak — a storm that might lose energy moving through a wooded or hilly region hits exposed structures here at full force.
+Fisher County sits squarely in the southern edge of Tornado Alley, where warm Gulf moisture collides with dry continental air rolling off the Llano Estacado. The result is a storm season that can produce large hail, tornadoes, and 70-plus-mph straight-line winds with limited warning. The flat, open terrain around Roby offers almost no natural windbreak, a storm that might lose energy moving through a wooded or hilly region hits exposed structures here at full force.
 
-The local housing stock reflects decades of agricultural-community construction: many homes in Roby feature wood-frame builds with pier-and-beam or slab foundations, older composition shingle roofing, and single-pane windows that are especially vulnerable to hail impact. When a roof takes a direct hit, water can enter wall cavities within hours. Because interior humidity in West Texas can be low for much of the year, surface materials sometimes dry deceptively fast while moisture lingers inside wall assemblies — a condition that creates ideal conditions for mold colonization if the structure isn't properly assessed with moisture meters and thermal imaging.
+The local housing stock reflects decades of agricultural-community construction: many homes in Roby feature wood-frame builds with pier-and-beam or slab foundations, older composition shingle roofing, and single-pane windows that are especially vulnerable to hail impact. When a roof takes a direct hit, water can enter wall cavities within hours. Because interior humidity in West Texas can be low for much of the year, surface materials sometimes dry deceptively fast while moisture lingers inside wall assemblies, a condition that creates ideal conditions for mold colonization if the structure isn't properly assessed with moisture meters and thermal imaging.
 
 ## Our Storm Damage Restoration Process in Roby
 
-Every storm job begins with a full exterior and interior assessment before any debris is moved. Documenting the scope — photographing hail strike patterns on roofing and siding, measuring water intrusion depths, identifying compromised structural members — creates the evidence trail your insurance carrier needs to process the claim accurately.
+Every storm job begins with a full exterior and interior assessment before any debris is moved. Documenting the scope, photographing hail strike patterns on roofing and siding, measuring water intrusion depths, identifying compromised structural members, creates the evidence trail your insurance carrier needs to process the claim accurately.
 
 From there, the work follows a clear sequence:
 
 - **Emergency stabilization**: tarping breached rooflines, boarding damaged windows and doors, and securing any structural elements at risk of further movement.
-- **Water extraction and drying**: any rain intrusion is extracted immediately. Drying equipment — industrial air movers and dehumidifiers — is placed per IICRC S500 drying principles to address both surface and cavity moisture.
+- **Water extraction and drying**: any rain intrusion is extracted immediately. Drying equipment, industrial air movers and dehumidifiers, is placed per IICRC S500 drying principles to address both surface and cavity moisture.
 - **Debris and tree damage cleanup**: fallen limbs and wind-driven debris are removed and staging areas are cleared so structural repair work can begin without delay.
 - **Structural and finish repair**: framing, sheathing, roofing, drywall, and interior finishes are restored to pre-loss condition, coordinated with your adjuster's scope.
 
@@ -43,20 +43,20 @@ Because West Texas hail events frequently affect entire neighborhoods simultaneo
 
 ## Reaching Roby from Abilene
 
-Air Care Restoration is based in Abilene, and Roby sits roughly 45 miles to the northwest via US-180 — a straightforward route across open highway. We operate 24/7, so a storm that rolls through Fisher County at 2 a.m. gets the same response as one that hits mid-afternoon. When conditions allow safe travel immediately after a storm event, our crews mobilize directly from Abilene toward Roby without waiting for a dispatch window.
+Air Care Restoration is based in Abilene, and Roby sits roughly 45 miles to the northwest via US-180, a straightforward route across open highway. We operate 24/7, so a storm that rolls through Fisher County at 2 a.m. gets the same response as one that hits mid-afternoon. When conditions allow safe travel immediately after a storm event, our crews mobilize directly from Abilene toward Roby without waiting for a dispatch window.
 
 For properties on the western edge of Fisher County or along the FM roads north and south of Roby, we coordinate access logistics in advance when road debris or downed lines from the storm itself may affect routing.
 
 ## Roby Insurance Coordination
 
-Storm damage claims in this part of Texas are common enough that most regional adjusters are familiar with the scope of a hail or wind loss — but the documentation still has to be thorough. We photograph every affected surface before tarping or boarding, provide itemized moisture readings, and communicate technical scope information directly with your carrier's adjuster throughout the process. Our goal is to make sure nothing is overlooked in the initial scope so the documented loss accurately reflects what the storm caused.
+Storm damage claims in this part of Texas are common enough that most regional adjusters are familiar with the scope of a hail or wind loss, but the documentation still has to be thorough. We photograph every affected surface before tarping or boarding, provide itemized moisture readings, and communicate technical scope information directly with your carrier's adjuster throughout the process. Our goal is to make sure nothing is overlooked in the initial scope so the documented loss accurately reflects what the storm caused.
 
 If your policy includes an ACV (actual cash value) versus RCV (replacement cost value) distinction on roofing, we can walk you through what that means for your out-of-pocket exposure before work begins. Coverage and settlement decisions remain between you and your carrier.
 
 ## Local Note
 
-One pattern worth knowing in Fisher County: older agricultural-area homes built with metal roofing — common on ranch properties and some in-town structures around Roby — often show hail damage that isn't visible from the ground. Dents that look cosmetic can compromise the metal's coating and lead to rust and leaks within a single season. We inspect metal roofing with close-contact assessment, not just a ground-level visual, because what looks intact from the street often tells a different story up close.
+One pattern worth knowing in Fisher County: older agricultural-area homes built with metal roofing, common on ranch properties and some in-town structures around Roby, often show hail damage that isn't visible from the ground. Dents that look cosmetic can compromise the metal's coating and lead to rust and leaks within a single season. We inspect metal roofing with close-contact assessment, not just a ground-level visual, because what looks intact from the street often tells a different story up close.
 
-If your property in Roby took a hit in a recent storm and you're not sure whether the damage is cosmetic or structural, a professional assessment is the right first step — and it costs you nothing to have us take a look before you file or decide not to file.
+If your property in Roby took a hit in a recent storm and you're not sure whether the damage is cosmetic or structural, a professional assessment is the right first step, and it costs you nothing to have us take a look before you file or decide not to file.
 
 Call Air Care Restoration at (325) 339-8723 any time, day or night. We'll document the damage to your Roby property, communicate everything your carrier needs, and get stabilization underway so the storm's impact stops growing.

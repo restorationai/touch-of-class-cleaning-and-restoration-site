@@ -17,50 +17,50 @@ service_slug: "biohazard-cleanup"
 service_display: "Biohazard Cleanup"
 rendered: true
 ---
-When something traumatic happens inside a home or property — an unattended death, a crime scene, a serious injury — the visible aftermath is only part of the problem. Bloodborne pathogens, bodily fluids, and other infectious materials can penetrate porous surfaces like subfloor, drywall, and carpet padding well beyond what the eye can see. Standard cleaning products and household disinfectants are not rated for this work. What the situation requires is a structured, regulated remediation process carried out by trained technicians with the right personal protective equipment, EPA-registered disinfectants, and a licensed pathway for disposing of regulated biological waste.
+When something traumatic happens inside a home or property, an unattended death, a crime scene, a serious injury, the visible aftermath is only part of the problem. Bloodborne pathogens, bodily fluids, and other infectious materials can penetrate porous surfaces like subfloor, drywall, and carpet padding well beyond what the eye can see. Standard cleaning products and household disinfectants are not rated for this work. What the situation requires is a structured, regulated remediation process carried out by trained technicians with the right personal protective equipment, EPA-registered disinfectants, and a licensed pathway for disposing of regulated biological waste.
 
 ## What biohazard cleanup actually involves
 
-Biohazard remediation is not cleaning — it is the controlled removal and decontamination of materials that may carry infectious risk. That distinction matters because the scope of work is determined by what testing and visual assessment reveal, not by what is immediately visible on the surface.
+Biohazard remediation is not cleaning, it is the controlled removal and decontamination of materials that may carry infectious risk. That distinction matters because the scope of work is determined by what testing and visual assessment reveal, not by what is immediately visible on the surface.
 
-Technicians work in full PPE — respirators, Tyvek suits, nitrile gloves, and eye protection — to prevent cross-contamination of unaffected areas. Affected porous materials (carpet, padding, subfloor, drywall) are typically removed rather than treated in place, because enzymatic and disinfectant solutions cannot reliably penetrate deep into saturated substrates. Hard, non-porous surfaces are treated with hospital-grade, EPA-registered disinfectants and verified clean before the area is cleared.
+Technicians work in full PPE, respirators, Tyvek suits, nitrile gloves, and eye protection, to prevent cross-contamination of unaffected areas. Affected porous materials (carpet, padding, subfloor, drywall) are typically removed rather than treated in place, because enzymatic and disinfectant solutions cannot reliably penetrate deep into saturated substrates. Hard, non-porous surfaces are treated with hospital-grade, EPA-registered disinfectants and verified clean before the area is cleared.
 
-All collected biological waste — materials, PPE, and sharps if present — is packaged in regulated biohazard containers and transported under a proper waste manifest to a licensed medical waste disposal facility. This chain of custody is a legal requirement in Nevada, not an optional step.
+All collected biological waste, materials, PPE, and sharps if present, is packaged in regulated biohazard containers and transported under a proper waste manifest to a licensed medical waste disposal facility. This chain of custody is a legal requirement in Nevada, not an optional step.
 
 Timeline varies with the size of the affected area and the materials involved, but most residential biohazard scenes are remediated within one to two days once work begins.
 
 ## Our process
 
-1. **Site assessment and containment staging.** Before any material is disturbed, technicians assess the full extent of contamination — including areas not immediately visible — and establish containment barriers to prevent cross-contamination of adjacent spaces. HVAC vents in the work zone are sealed.
+1. **Site assessment and containment staging.** Before any material is disturbed, technicians assess the full extent of contamination, including areas not immediately visible, and establish containment barriers to prevent cross-contamination of adjacent spaces. HVAC vents in the work zone are sealed.
 
 2. **PPE staging and regulated entry.** All personnel entering the work zone suit up in full PPE before crossing the containment threshold. No exceptions. This protects both the crew and the unaffected areas of your property.
 
-3. **Biohazardous material removal.** Affected porous materials are carefully removed, double-bagged in certified biohazard packaging, and staged for transport. Sharps and needles, when present, are collected using puncture-resistant containers per OSHA handling standards — never by hand.
+3. **Biohazardous material removal.** Affected porous materials are carefully removed, double-bagged in certified biohazard packaging, and staged for transport. Sharps and needles, when present, are collected using puncture-resistant containers per OSHA handling standards, never by hand.
 
-4. **Enzymatic treatment and EPA-registered disinfection.** Remaining hard surfaces and structural elements are treated with enzymatic cleaners that break down organic material at the molecular level, followed by application of an EPA-registered hospital-grade disinfectant. Contact time is observed per the product label — a step that is frequently rushed by less-experienced operators.
+4. **Enzymatic treatment and EPA-registered disinfection.** Remaining hard surfaces and structural elements are treated with enzymatic cleaners that break down organic material at the molecular level, followed by application of an EPA-registered hospital-grade disinfectant. Contact time is observed per the product label, a step that is frequently rushed by less-experienced operators.
 
 5. **Waste manifest and disposal.** All regulated biological waste leaves the property under a documented waste manifest, transported to a licensed medical waste disposal facility. You receive documentation of proper disposal, which matters for both insurance purposes and your own peace of mind.
 
 ## What separates a good biohazard response from a bad one
 
-The most common failure point in biohazard cleanup is incomplete removal of affected porous materials. A technician who treats carpet or subfloor in place — rather than removing it — may leave contaminated substrate behind a surface that looks clean. Weeks later, an odor returns. The problem was never fully resolved.
+The most common failure point in biohazard cleanup is incomplete removal of affected porous materials. A technician who treats carpet or subfloor in place, rather than removing it, may leave contaminated substrate behind a surface that looks clean. Weeks later, an odor returns. The problem was never fully resolved.
 
 A second common gap is skipping or shortening the disinfectant contact time. EPA-registered disinfectants are tested at specific dwell times to achieve their rated kill claims. Wiping a surface immediately after application does not constitute proper disinfection.
 
-For insurance documentation, adjusters and carriers want to see a written scope of work, photographs of affected areas before and after, a waste manifest confirming regulated disposal, and — in some cases — post-remediation verification that the area meets clearance standards. Thorough documentation protects you during the claims process and closes the file cleanly.
+For insurance documentation, adjusters and carriers want to see a written scope of work, photographs of affected areas before and after, a waste manifest confirming regulated disposal, and, in some cases, post-remediation verification that the area meets clearance standards. Thorough documentation protects you during the claims process and closes the file cleanly.
 
 Discretion is also a professional obligation in this work. Unmarked vehicles, plain packaging, and work performed without unnecessary foot traffic or attention are standard practice for a crew that understands what families are going through.
 
 ## Seasonal and regional considerations
 
-Las Vegas's desert climate — low humidity, extreme summer heat — affects biohazard scenes in ways that are easy to underestimate. High ambient temperatures accelerate biological decomposition and odor development, which means that in the summer months, the window between an incident and the onset of secondary odor damage to structural materials is significantly shorter than in cooler climates. Prompt response matters more here than it would in, say, a Pacific Northwest climate where cooler temperatures slow that process.
+Las Vegas's desert climate, low humidity, extreme summer heat, affects biohazard scenes in ways that are easy to underestimate. High ambient temperatures accelerate biological decomposition and odor development, which means that in the summer months, the window between an incident and the onset of secondary odor damage to structural materials is significantly shorter than in cooler climates. Prompt response matters more here than it would in, say, a Pacific Northwest climate where cooler temperatures slow that process.
 
-The valley's older housing stock — particularly properties built before the 1990s in neighborhoods like Sunrise Manor, Whitney, and the areas east of Nellis — often features concrete slab construction with minimal subfloor separation, which can complicate contamination assessment when fluids have migrated toward the slab.
+The valley's older housing stock, particularly properties built before the 1990s in neighborhoods like Sunrise Manor, Whitney, and the areas east of Nellis, often features concrete slab construction with minimal subfloor separation, which can complicate contamination assessment when fluids have migrated toward the slab.
 
 ## Service area
 
-PuroClean of East Las Vegas provides biohazard cleanup throughout the Las Vegas Valley, including Henderson, North Las Vegas, Boulder City, Summerlin, and the unincorporated communities of Clark County. Dedicated service-area pages cover specific cities and neighborhoods — each linking back here for full service details.
+PuroClean of East Las Vegas provides biohazard cleanup throughout the Las Vegas Valley, including Henderson, North Las Vegas, Boulder City, Summerlin, and the unincorporated communities of Clark County. Dedicated service-area pages cover specific cities and neighborhoods, each linking back here for full service details.
 
 ---
 
-If you are dealing with a biohazard situation at a home or property in the Las Vegas area, the next step is a discreet conversation — not a commitment. Call **+1 (702) 551-3040** to speak with someone who can walk you through what the process looks like, answer your questions privately, and schedule remediation at a time that works for you. Begin discreet biohazard cleanup when you're ready.
+If you are dealing with a biohazard situation at a home or property in the Las Vegas area, the next step is a discreet conversation, not a commitment. Call **+1 (702) 551-3040** to speak with someone who can walk you through what the process looks like, answer your questions privately, and schedule remediation at a time that works for you. Begin discreet biohazard cleanup when you're ready.

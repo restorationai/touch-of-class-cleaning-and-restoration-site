@@ -17,31 +17,31 @@ service_slug: "water-cleanup"
 service_display: "Water Cleanup"
 rendered: true
 ---
-Standing water doesn't wait. Within the first hour, water migrates through drywall, underneath flooring, and into wall cavities that look perfectly dry from the outside. By 24 hours, wood framing begins to swell and warp. By 48 to 72 hours, conditions are right for mold colonization — even in Southern California's relatively dry climate. Water cleanup isn't just removing what you can see; it's tracking where water traveled and pulling moisture out of materials before the damage compounds.
+Standing water doesn't wait. Within the first hour, water migrates through drywall, underneath flooring, and into wall cavities that look perfectly dry from the outside. By 24 hours, wood framing begins to swell and warp. By 48 to 72 hours, conditions are right for mold colonization, even in Southern California's relatively dry climate. Water cleanup isn't just removing what you can see; it's tracking where water traveled and pulling moisture out of materials before the damage compounds.
 
 ## What water cleanup actually involves
 
-The visible puddle on your floor is rarely the whole story. Water from a burst pipe, an overflowing appliance, or storm intrusion follows the path of least resistance — seeping under baseboards, wicking up drywall paper, pooling in subfloor cavities, and saturating insulation inside walls. Effective water damage cleanup means treating the structure, not just the surface.
+The visible puddle on your floor is rarely the whole story. Water from a burst pipe, an overflowing appliance, or storm intrusion follows the path of least resistance, seeping under baseboards, wicking up drywall paper, pooling in subfloor cavities, and saturating insulation inside walls. Effective water damage cleanup means treating the structure, not just the surface.
 
-The work involves commercial-grade truck-mounted and portable extractors to pull standing water fast, followed by industrial air movers and low-grain refrigerant (LGR) dehumidifiers positioned to create deliberate airflow through wet building assemblies. Thermal imaging cameras help locate moisture that hasn't surfaced yet. Moisture meters and thermo-hygrometers track readings in wood, drywall, and concrete at every check-in — because drying decisions are data-driven, not guesswork.
+The work involves commercial-grade truck-mounted and portable extractors to pull standing water fast, followed by industrial air movers and low-grain refrigerant (LGR) dehumidifiers positioned to create deliberate airflow through wet building assemblies. Thermal imaging cameras help locate moisture that hasn't surfaced yet. Moisture meters and thermo-hygrometers track readings in wood, drywall, and concrete at every check-in, because drying decisions are data-driven, not guesswork.
 
-Timeline depends on water category and how far it spread. Clean water losses in a single room can reach drying goals in three to five days. Losses involving Category 2 (gray water from appliances or toilet overflows) or Category 3 (sewage, floodwater) require additional containment, antimicrobial treatment, and sometimes selective demolition of materials that cannot be dried in place. The IICRC S500 standard governs how drying goals are set and verified — it's the framework our IICRC-certified team works from on every job.
+Timeline depends on water category and how far it spread. Clean water losses in a single room can reach drying goals in three to five days. Losses involving Category 2 (gray water from appliances or toilet overflows) or Category 3 (sewage, floodwater) require additional containment, antimicrobial treatment, and sometimes selective demolition of materials that cannot be dried in place. The IICRC S500 standard governs how drying goals are set and verified, it's the framework our IICRC-certified team works from on every job.
 
 ## Our process
 
-1. **Emergency extraction and containment** — The first priority is stopping the spread. We extract standing water using high-capacity equipment and, for Category 2 or 3 losses, establish containment to prevent cross-contamination to unaffected areas. Affected contents are moved or protected.
+1. **Emergency extraction and containment**, The first priority is stopping the spread. We extract standing water using high-capacity equipment and, for Category 2 or 3 losses, establish containment to prevent cross-contamination to unaffected areas. Affected contents are moved or protected.
 
-2. **Moisture mapping** — Before any drying equipment is placed, we document the full scope using thermal imaging and calibrated moisture meters. Every affected wall cavity, floor assembly, and ceiling is logged. This baseline is what the insurance adjuster will use to validate the scope — and it's what prevents a dry-looking wall from hiding a saturated stud bay.
+2. **Moisture mapping**, Before any drying equipment is placed, we document the full scope using thermal imaging and calibrated moisture meters. Every affected wall cavity, floor assembly, and ceiling is logged. This baseline is what the insurance adjuster will use to validate the scope, and it's what prevents a dry-looking wall from hiding a saturated stud bay.
 
-3. **Structural drying** — Air movers and LGR dehumidifiers are positioned according to the drying plan, not just placed at random. Equipment counts and placement follow IICRC S500 psychrometric principles. For Category 2 and 3 losses, antimicrobial application is part of this phase.
+3. **Structural drying**, Air movers and LGR dehumidifiers are positioned according to the drying plan, not just placed at random. Equipment counts and placement follow IICRC S500 psychrometric principles. For Category 2 and 3 losses, antimicrobial application is part of this phase.
 
-4. **Daily monitoring and adjustment** — We return each day to read moisture levels, adjust equipment placement, and document progress. Drying is not a set-it-and-forget-it process. Readings that plateau signal a hidden pocket of moisture that needs to be addressed — sometimes by opening a wall or pulling up flooring — before the structure can finish drying.
+4. **Daily monitoring and adjustment**, We return each day to read moisture levels, adjust equipment placement, and document progress. Drying is not a set-it-and-forget-it process. Readings that plateau signal a hidden pocket of moisture that needs to be addressed, sometimes by opening a wall or pulling up flooring, before the structure can finish drying.
 
-5. **Final documentation and clearance** — When all materials reach drying goals, we document final readings and produce a drying report. This report is the record your insurance carrier needs to close the claim and the record you need if you sell the property.
+5. **Final documentation and clearance**, When all materials reach drying goals, we document final readings and produce a drying report. This report is the record your insurance carrier needs to close the claim and the record you need if you sell the property.
 
 ## What separates a good water cleanup response from a bad one
 
-The most common failure in water damage cleanup is stopping too soon. A floor that reads dry at the surface can still hold significant moisture in the subfloor or in the concrete slab beneath it. Crews that rely on visual inspection alone — or that pull equipment after two days regardless of readings — leave behind conditions that produce mold and structural deterioration weeks later.
+The most common failure in water damage cleanup is stopping too soon. A floor that reads dry at the surface can still hold significant moisture in the subfloor or in the concrete slab beneath it. Crews that rely on visual inspection alone, or that pull equipment after two days regardless of readings, leave behind conditions that produce mold and structural deterioration weeks later.
 
 A second common problem is misclassifying the water source. Category 2 gray water from a dishwasher or washing machine overflow is not the same as clean water from a supply line. It contains biological and chemical contaminants that require antimicrobial treatment and, in many cases, removal of porous materials that cannot be adequately cleaned. Treating it like a clean-water loss is a shortcut that creates liability.
 
@@ -49,7 +49,7 @@ Insurance adjusters look for a complete moisture map at intake, daily monitoring
 
 ## What does water cleanup cost?
 
-Typical costs for water damage cleanup vary significantly based on how much water spread, how long it sat, and what category of water was involved. Most homeowners pay somewhere in the ranges below — these are industry-typical figures, not California Restoration West quotes.
+Typical costs for water damage cleanup vary significantly based on how much water spread, how long it sat, and what category of water was involved. Most homeowners pay somewhere in the ranges below, these are industry-typical figures, not California Restoration West quotes.
 
 | Scenario | Typical range |
 |---|---|
@@ -60,16 +60,16 @@ Typical costs for water damage cleanup vary significantly based on how much wate
 | Crawl space or basement flooding | $3,000 – $10,000 |
 | Water loss requiring partial demolition | $5,000 – $20,000+ |
 
-Every loss is different, and California Restoration West provides a written scope before work begins so you know exactly what is being done and why. Standard homeowners insurance policies typically cover sudden and accidental water losses — burst pipes, appliance failures, storm intrusion — but generally exclude gradual leaks and flood damage (which requires a separate NFIP or private flood policy).
+Every loss is different, and California Restoration West provides a written scope before work begins so you know exactly what is being done and why. Standard homeowners insurance policies typically cover sudden and accidental water losses, burst pipes, appliance failures, storm intrusion, but generally exclude gradual leaks and flood damage (which requires a separate NFIP or private flood policy).
 
 ## Seasonal and regional considerations
 
-Ventura County's climate creates a specific water damage pattern. The dry season keeps humidity low, which actually helps structural drying — but it also means plumbing systems go long stretches without stress-testing, and older supply lines or hose bibs can fail suddenly when seasonal rains arrive. The wet season, typically November through March, brings the region's highest risk of roof intrusion, storm drain backup, and hillside drainage pushing water against foundations.
+Ventura County's climate creates a specific water damage pattern. The dry season keeps humidity low, which actually helps structural drying, but it also means plumbing systems go long stretches without stress-testing, and older supply lines or hose bibs can fail suddenly when seasonal rains arrive. The wet season, typically November through March, brings the region's highest risk of roof intrusion, storm drain backup, and hillside drainage pushing water against foundations.
 
-Older housing stock in neighborhoods like Midtown Ventura and the historic areas of Oxnard often features original cast-iron or galvanized plumbing, which is more prone to pinhole leaks and joint failures. Slab-on-grade construction — common throughout the county — means water from a slab leak spreads laterally under flooring before it ever surfaces, making moisture mapping especially important.
+Older housing stock in neighborhoods like Midtown Ventura and the historic areas of Oxnard often features original cast-iron or galvanized plumbing, which is more prone to pinhole leaks and joint failures. Slab-on-grade construction, common throughout the county, means water from a slab leak spreads laterally under flooring before it ever surfaces, making moisture mapping especially important.
 
 ## Service area
 
-California Restoration West is based in Ventura and provides water cleanup throughout Ventura County and the surrounding region, including Oxnard, Camarillo, Thousand Oaks, Simi Valley, Santa Paula, Fillmore, and Moorpark. Individual city service pages go deeper on local conditions — this page covers the process and standards that apply across every job we take.
+California Restoration West is based in Ventura and provides water cleanup throughout Ventura County and the surrounding region, including Oxnard, Camarillo, Thousand Oaks, Simi Valley, Santa Paula, Fillmore, and Moorpark. Individual city service pages go deeper on local conditions, this page covers the process and standards that apply across every job we take.
 
-If you're seeing water on the floor right now, or you've just found damage you're not sure how old it is, call (805) 290-7292. We're available around the clock, and the first step is a moisture assessment — not a sales pitch.
+If you're seeing water on the floor right now, or you've just found damage you're not sure how old it is, call (805) 290-7292. We're available around the clock, and the first step is a moisture assessment, not a sales pitch.

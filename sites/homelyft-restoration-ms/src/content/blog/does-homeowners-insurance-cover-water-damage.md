@@ -17,7 +17,7 @@ published_at: "2026-07-15"
 services: ["water-damage-restoration"]
 rendered: true
 ---
-Homeowners insurance *usually* covers water damage — but the word "usually" is doing a lot of work in that sentence. Whether your claim gets approved depends almost entirely on **how the water got in**, not how bad the damage is. A pipe that bursts suddenly while you're at work is almost always covered. A slow drip behind the vanity that rotted the subfloor over two years almost never is. Understanding that single distinction — sudden and accidental versus gradual and preventable — will tell you more about your policy than reading the declarations page twice.
+Homeowners insurance *usually* covers water damage, but the word "usually" is doing a lot of work in that sentence. Whether your claim gets approved depends almost entirely on **how the water got in**, not how bad the damage is. A pipe that bursts suddenly while you're at work is almost always covered. A slow drip behind the vanity that rotted the subfloor over two years almost never is. Understanding that single distinction, sudden and accidental versus gradual and preventable, will tell you more about your policy than reading the declarations page twice.
 
 ## The Core Rule: Sudden vs. Gradual
 
@@ -27,7 +27,7 @@ Standard HO-3 homeowners policies (the most common type in Mississippi) cover wa
 - Was there a specific, identifiable event that caused it?
 - Could a reasonable homeowner have caught and fixed the problem before it got this bad?
 
-If the answer to that last question is "yes," the insurer will likely call it a maintenance issue and deny the claim — even if the resulting damage is severe.
+If the answer to that last question is "yes," the insurer will likely call it a maintenance issue and deny the claim, even if the resulting damage is severe.
 
 **Typically covered:**
 - A washing machine supply hose that blows off and floods the laundry room
@@ -39,29 +39,29 @@ If the answer to that last question is "yes," the insurer will likely call it a 
 - A slow drip under the kitchen sink that warped the cabinet floor over months
 - A water heater that's been rusting from the inside and finally leaks
 - Seepage through foundation cracks or window frames
-- Flooding from outside the home — that requires a separate NFIP or private flood policy, which matters enormously for Gulfport homeowners in FEMA flood zones
+- Flooding from outside the home, that requires a separate NFIP or private flood policy, which matters enormously for Gulfport homeowners in FEMA flood zones
 
 ## What Your Policy Probably Won't Tell You Outright
 
 Insurance policies are written for lawyers, not homeowners. A few things worth knowing before you file:
 
-**"Resulting damage" clauses** — Some policies cover the *damage caused by* a covered peril even if the source isn't covered. Example: if a hidden plumbing defect (not covered) causes a pipe to burst (covered event), the water damage to your floors and walls may still be payable. This is worth asking your adjuster about explicitly.
+**"Resulting damage" clauses**, Some policies cover the *damage caused by* a covered peril even if the source isn't covered. Example: if a hidden plumbing defect (not covered) causes a pipe to burst (covered event), the water damage to your floors and walls may still be payable. This is worth asking your adjuster about explicitly.
 
-**Service line coverage** — Damage to the supply line running from the city main to your house is often excluded from standard policies but can be added as an endorsement. Mississippi American Water customers in the Gulfport area sometimes assume this is bundled in — it usually isn't.
+**Service line coverage**, Damage to the supply line running from the city main to your house is often excluded from standard policies but can be added as an endorsement. Mississippi American Water customers in the Gulfport area sometimes assume this is bundled in, it usually isn't.
 
-**Mold as a secondary claim** — If a covered water event leads to mold growth, many policies will cover mold remediation *up to a sublimit*, often $5,000–$10,000. That sublimit can disappear fast on a larger job. Document everything before remediation begins.
+**Mold as a secondary claim**, If a covered water event leads to mold growth, many policies will cover mold remediation *up to a sublimit*, often $5,000–$10,000. That sublimit can disappear fast on a larger job. Document everything before remediation begins.
 
-**Personal property vs. dwelling coverage** — Your structure (dwelling) and your belongings (personal property) are covered under separate portions of your policy, sometimes with different deductibles. A flooded living room might involve both.
+**Personal property vs. dwelling coverage**, Your structure (dwelling) and your belongings (personal property) are covered under separate portions of your policy, sometimes with different deductibles. A flooded living room might involve both.
 
 ## What to Do the Moment You Discover Water Damage
 
-The first 24–48 hours after a water intrusion are the most important — both for limiting damage and for protecting your insurance claim. Here's the sequence:
+The first 24–48 hours after a water intrusion are the most important, both for limiting damage and for protecting your insurance claim. Here's the sequence:
 
-1. **Stop the source.** Turn off the main shutoff valve if it's a plumbing failure. If it's an appliance, pull the supply line or cut power. Don't wait to figure out the exact cause — stop the water first.
-2. **Document everything before you touch it.** Walk through with your phone and record a video. Open cabinet doors, pull back rugs, film the ceiling stains. Adjusters need to see the original condition. Cleaning up first — even with good intentions — can complicate your claim.
+1. **Stop the source.** Turn off the main shutoff valve if it's a plumbing failure. If it's an appliance, pull the supply line or cut power. Don't wait to figure out the exact cause, stop the water first.
+2. **Document everything before you touch it.** Walk through with your phone and record a video. Open cabinet doors, pull back rugs, film the ceiling stains. Adjusters need to see the original condition. Cleaning up first, even with good intentions, can complicate your claim.
 3. **Call your insurance company.** Report the loss the same day if possible. Ask specifically: what is covered, what is my deductible, and do I need to use a preferred vendor? Get a claim number.
 4. **Begin emergency mitigation.** Your policy likely requires you to take reasonable steps to prevent further damage. That means extracting standing water, moving wet belongings to a dry area, and placing fans if you have them. Save receipts for anything you rent or buy.
-5. **Do not rip out wet drywall or flooring yet.** Wait until the adjuster has inspected — or until you have written authorization from your insurer — before demolition begins. Premature tear-out can leave you holding the bill for materials the adjuster never got to assess.
+5. **Do not rip out wet drywall or flooring yet.** Wait until the adjuster has inspected, or until you have written authorization from your insurer, before demolition begins. Premature tear-out can leave you holding the bill for materials the adjuster never got to assess.
 
 ## What the Claims Process Actually Looks Like
 
@@ -69,8 +69,8 @@ Once you've filed, here's a realistic timeline for a mid-size water loss in Miss
 
 - **Day 1–3:** Adjuster is assigned. In a busy storm season, desk adjusters may handle your claim remotely using your photos and a third-party inspection service.
 - **Day 3–7:** On-site inspection. The adjuster will probe walls with a moisture meter, photograph affected areas, and review the cause of loss. This is when the "sudden vs. gradual" determination gets made.
-- **Day 7–14:** You receive a scope of loss — a line-item estimate of what the insurer will pay to repair. Review it carefully. Line items are sometimes missing (insulation, vapor barrier, paint matching). You can negotiate or hire a public adjuster if the scope feels low.
-- **Week 2–6:** Repairs begin. A professional restoration contractor will dry the structure first — typically 3–5 days of commercial drying equipment — before any rebuild work starts. Skipping the drying phase and going straight to new drywall is how mold problems start.
+- **Day 7–14:** You receive a scope of loss, a line-item estimate of what the insurer will pay to repair. Review it carefully. Line items are sometimes missing (insulation, vapor barrier, paint matching). You can negotiate or hire a public adjuster if the scope feels low.
+- **Week 2–6:** Repairs begin. A professional restoration contractor will dry the structure first, typically 3–5 days of commercial drying equipment, before any rebuild work starts. Skipping the drying phase and going straight to new drywall is how mold problems start.
 
 In Gulfport's humid Gulf Coast climate, the drying phase is not optional. Ambient humidity here rarely drops below 60% in summer, which means wet framing and insulation won't air-dry on their own. Proper drying requires dehumidifiers calibrated to the vapor pressure differential in the space, not just open windows and box fans.
 
@@ -84,8 +84,8 @@ Some water losses are genuinely DIY-able: a small appliance leak caught in an ho
 - Wet materials are behind walls, under flooring, or in a crawl space you can't access
 - Your insurer is sending an adjuster and you want an independent scope of damage
 
-A restoration contractor can also communicate directly with your insurance carrier — documenting moisture readings, writing a scope, and in many cases billing the insurer directly so you're not fronting costs out of pocket.
+A restoration contractor can also communicate directly with your insurance carrier, documenting moisture readings, writing a scope, and in many cases billing the insurer directly so you're not fronting costs out of pocket.
 
 ---
 
-If you're sorting through a water loss right now and trying to figure out what's covered and what comes next, the team at HomeLyft Restoration MS works with homeowners across the Gulfport area through the entire process — from initial drying through the rebuild. Call **+1 (228) 284-5200** to talk through what you're dealing with.
+If you're sorting through a water loss right now and trying to figure out what's covered and what comes next, the team at HomeLyft Restoration MS works with homeowners across the Gulfport area through the entire process, from initial drying through the rebuild. Call **+1 (228) 284-5200** to talk through what you're dealing with.

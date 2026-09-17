@@ -17,13 +17,13 @@ service_slug: "basement-flooding-cleanup"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
-Standing water in a basement moves fast — soaking into framing, wicking up drywall, and giving mold a foothold within 24 to 48 hours of a leak. Whether a sump pump failed during a Puget Sound rainstorm, a water heater let go overnight, or a backed-up drain turned your storage space into a wading pool, the goal is the same: get the water out, dry the structure completely, and document everything so your insurance claim holds up. That's exactly what we do.
+Standing water in a basement moves fast, soaking into framing, wicking up drywall, and giving mold a foothold within 24 to 48 hours of a leak. Whether a sump pump failed during a Puget Sound rainstorm, a water heater let go overnight, or a backed-up drain turned your storage space into a wading pool, the goal is the same: get the water out, dry the structure completely, and document everything so your insurance claim holds up. That's exactly what we do.
 
 ## How We Handle Basement Flooding
 
-The first thing a technician does on arrival isn't grab a pump — it's assess. We identify the water source and category (clean supply line, gray water from an appliance, or black water from a sewer backup), because that determines how aggressively we need to protect you and your belongings during extraction. Category 3 black water, for example, requires full PPE and antimicrobial treatment of every affected surface; skipping that step creates a health hazard even after the floor looks dry.
+The first thing a technician does on arrival isn't grab a pump, it's assess. We identify the water source and category (clean supply line, gray water from an appliance, or black water from a sewer backup), because that determines how aggressively we need to protect you and your belongings during extraction. Category 3 black water, for example, requires full PPE and antimicrobial treatment of every affected surface; skipping that step creates a health hazard even after the floor looks dry.
 
-Once the source is confirmed and safe to work around, we deploy truck-mounted or portable extraction units capable of pulling hundreds of gallons per hour. Carpet, padding, and saturated insulation typically come out — those materials hold moisture long after the visible water is gone and become mold substrate if left in place. After bulk extraction, we set industrial-grade desiccant dehumidifiers and high-velocity air movers in a calculated pattern based on the square footage and construction type of your basement. Concrete slab, wood subfloor, and finished drywall all dry at different rates, and we monitor moisture readings daily with calibrated meters to know when the structure has actually reached drying goals — not just when it feels dry.
+Once the source is confirmed and safe to work around, we deploy truck-mounted or portable extraction units capable of pulling hundreds of gallons per hour. Carpet, padding, and saturated insulation typically come out, those materials hold moisture long after the visible water is gone and become mold substrate if left in place. After bulk extraction, we set industrial-grade desiccant dehumidifiers and high-velocity air movers in a calculated pattern based on the square footage and construction type of your basement. Concrete slab, wood subfloor, and finished drywall all dry at different rates, and we monitor moisture readings daily with calibrated meters to know when the structure has actually reached drying goals, not just when it feels dry.
 
 For finished basements, we use thermal imaging cameras to find moisture trapped behind walls and under flooring that a visual inspection would miss entirely. Water travels; it doesn't stay where it landed.
 
@@ -34,27 +34,27 @@ Call immediately if you see any of the following:
 - Standing water anywhere on the basement floor, even a thin film
 - Wet carpet, warped laminate, or flooring that squishes underfoot
 - Water stains or tide lines on walls that weren't there before
-- A musty or earthy smell — that's microbial activity, not just dampness
+- A musty or earthy smell, that's microbial activity, not just dampness
 - A sump pit that's full or a pump that's running constantly without keeping up
 
 The 24-to-48-hour window matters more than most homeowners realize. Mold colonies can begin forming on wet drywall and wood framing within that timeframe, and what starts as a water damage claim can become a mold remediation project if extraction is delayed. In Federal Way and the surrounding South Sound area, the wet season runs roughly October through April, and back-to-back storm systems can overwhelm drainage systems that handled last year's rain just fine.
 
-**What not to do:** Don't run a standard shop vac or household fan and call it done. Consumer equipment isn't rated to pull moisture from structural materials, and circulating warm air over wet framing without dehumidification can actually accelerate mold growth. If there's any chance the water contacted sewage — floor drain backup, toilet overflow, visible solids — don't enter without waterproof boots and gloves, and call us before disturbing anything.
+**What not to do:** Don't run a standard shop vac or household fan and call it done. Consumer equipment isn't rated to pull moisture from structural materials, and circulating warm air over wet framing without dehumidification can actually accelerate mold growth. If there's any chance the water contacted sewage, floor drain backup, toilet overflow, visible solids, don't enter without waterproof boots and gloves, and call us before disturbing anything.
 
 ## What Sets Our Basement Flooding Team Apart
 
-Our technicians are IICRC certified in Water Damage Restoration, which means they're trained to the same standards used by insurance adjusters when they evaluate whether a drying job was done correctly. That alignment matters when your claim is being reviewed. We're also a Lead-Safe Certified Firm through the EPA — relevant in any pre-1978 home where disturbing walls or flooring can expose lead paint dust — and we hold ANSI certification and BBB accreditation.
+Our technicians are IICRC certified in Water Damage Restoration, which means they're trained to the same standards used by insurance adjusters when they evaluate whether a drying job was done correctly. That alignment matters when your claim is being reviewed. We're also a Lead-Safe Certified Firm through the EPA, relevant in any pre-1978 home where disturbing walls or flooring can expose lead paint dust, and we hold ANSI certification and BBB accreditation.
 
-Response time in our core Federal Way service area is typically two hours or less from your call. We run crews seven days a week because pipe failures and storm surges don't wait for business hours. Our general contractor license (#NATIORC792M6) means that if structural repairs are needed after drying — replacing a damaged subfloor, reframing a wall, reinstalling drywall — we can handle that work ourselves rather than handing you off to a second contractor.
+Response time in our core Federal Way service area is typically two hours or less from your call. We run crews seven days a week because pipe failures and storm surges don't wait for business hours. Our general contractor license (#NATIORC792M6) means that if structural repairs are needed after drying, replacing a damaged subfloor, reframing a wall, reinstalling drywall, we can handle that work ourselves rather than handing you off to a second contractor.
 
 ## Insurance, Billing, and the Claims Process
 
-Most sudden-onset basement flooding events — burst pipes, appliance failures, storm-driven water intrusion through a foundation crack — are covered under standard homeowner's policies. Gradual leaks and maintenance-related failures often aren't, and the distinction matters before you file.
+Most sudden-onset basement flooding events, burst pipes, appliance failures, storm-driven water intrusion through a foundation crack, are covered under standard homeowner's policies. Gradual leaks and maintenance-related failures often aren't, and the distinction matters before you file.
 
-We work directly with all major insurance carriers and can communicate with your adjuster on your behalf. Our documentation package includes moisture mapping, photo logs, equipment placement records, and daily drying reports — the exact format adjusters need to approve a claim without pushback. We'll also help you understand your deductible and what out-of-pocket costs to expect before work begins, so there are no surprises on the back end.
+We work directly with all major insurance carriers and can communicate with your adjuster on your behalf. Our documentation package includes moisture mapping, photo logs, equipment placement records, and daily drying reports, the exact format adjusters need to approve a claim without pushback. We'll also help you understand your deductible and what out-of-pocket costs to expect before work begins, so there are no surprises on the back end.
 
 If your claim is denied or you're dealing with a non-covered loss, we'll walk you through financing options and provide an itemized estimate so you can make an informed decision.
 
 ---
 
-If your basement has water in it right now, the best move is a phone call, not more research. Reach National Restoration Construction at **(206) 883-0333** — we'll get someone on-site fast, give you an honest assessment, and start protecting your home before the damage compounds.
+If your basement has water in it right now, the best move is a phone call, not more research. Reach National Restoration Construction at **(206) 883-0333**, we'll get someone on-site fast, give you an honest assessment, and start protecting your home before the damage compounds.

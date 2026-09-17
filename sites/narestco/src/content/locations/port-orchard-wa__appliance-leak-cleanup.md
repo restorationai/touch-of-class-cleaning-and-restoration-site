@@ -20,23 +20,23 @@ state: "WA"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
-Port Orchard's damp, overcast winters are hard on appliances. The same marine air rolling off Sinclair Inlet that rusts deck hardware accelerates the corrosion of supply-line fittings behind refrigerators and under dishwashers — and when those fittings finally let go, water moves fast across the vinyl and hardwood floors common in the area's mix of mid-century ramblers and newer McCormick Woods construction. National Restoration Construction responds to appliance leak emergencies throughout Port Orchard and the broader South Kitsap area, typically reaching most 98366 and 98367 addresses within 90 minutes of your call to (206) 883-0333.
+Port Orchard's damp, overcast winters are hard on appliances. The same marine air rolling off Sinclair Inlet that rusts deck hardware accelerates the corrosion of supply-line fittings behind refrigerators and under dishwashers, and when those fittings finally let go, water moves fast across the vinyl and hardwood floors common in the area's mix of mid-century ramblers and newer McCormick Woods construction. National Restoration Construction responds to appliance leak emergencies throughout Port Orchard and the broader South Kitsap area, typically reaching most 98366 and 98367 addresses within 90 minutes of your call to (206) 883-0333.
 
 ## Why Port Orchard Homes See More Appliance Leak Damage Than You'd Expect
 
-The housing stock here spans a wide range of ages and conditions. Older homes near the Annapolis waterfront and along the Bay Street corridor were often built with galvanized supply lines that have long since been patched rather than replaced. A washing machine or dishwasher connected to aging braided hoses on a corroded valve can fail without warning — and because many of those homes have crawl spaces rather than slab foundations, water that escapes under a appliance can travel ten feet before it surfaces visibly.
+The housing stock here spans a wide range of ages and conditions. Older homes near the Annapolis waterfront and along the Bay Street corridor were often built with galvanized supply lines that have long since been patched rather than replaced. A washing machine or dishwasher connected to aging braided hoses on a corroded valve can fail without warning, and because many of those homes have crawl spaces rather than slab foundations, water that escapes under a appliance can travel ten feet before it surfaces visibly.
 
-Out in the rural stretches of South Kitsap, properties on private wells and pressure tanks add another layer of risk. When a water heater supply line or ice maker line fails on a well-fed system, there's no city shutoff at the street — the homeowner has to kill power to the well pump at the breaker before water stops flowing. That extra five to ten minutes of flow before the source is cut can mean the difference between a contained cleanup and saturated subfloor framing.
+Out in the rural stretches of South Kitsap, properties on private wells and pressure tanks add another layer of risk. When a water heater supply line or ice maker line fails on a well-fed system, there's no city shutoff at the street, the homeowner has to kill power to the well pump at the breaker before water stops flowing. That extra five to ten minutes of flow before the source is cut can mean the difference between a contained cleanup and saturated subfloor framing.
 
 Newer developments like McCormick Woods tend to have modern PEX supply lines and updated appliance connections, but they carry their own pattern: larger square footage, open-plan layouts, and LVP flooring that traps water underneath rather than showing it immediately. By the time a refrigerator ice maker line weeps for a week under a wide-plank floor, the OSB subfloor beneath it can already be swelling.
 
 ## Our Appliance Leak Cleanup Process in Port Orchard
 
-When we arrive, the first priority is source control — confirming the appliance supply line is isolated and water is no longer flowing. On properties with city water, that's a meter shutoff. On private-well properties in the South Kitsap rural areas, we verify the pump is de-energized before any extraction begins.
+When we arrive, the first priority is source control, confirming the appliance supply line is isolated and water is no longer flowing. On properties with city water, that's a meter shutoff. On private-well properties in the South Kitsap rural areas, we verify the pump is de-energized before any extraction begins.
 
 From there, the process moves through four concrete phases:
 
-**Moisture mapping.** We use thermal imaging cameras and calibrated moisture meters to trace where water traveled — under toe kicks, behind base cabinets, beneath flooring, and into adjacent wall cavities. Appliance leaks are deceptive because the visible wet spot is rarely the full extent of saturation.
+**Moisture mapping.** We use thermal imaging cameras and calibrated moisture meters to trace where water traveled, under toe kicks, behind base cabinets, beneath flooring, and into adjacent wall cavities. Appliance leaks are deceptive because the visible wet spot is rarely the full extent of saturation.
 
 **Extraction and material assessment.** Standing water comes out with truck-mounted or portable extractors. We assess whether flooring, underlayment, and cabinetry can be dried in place or need to be removed. Laminate and engineered hardwood almost always need to come up; solid hardwood and tile can sometimes be saved with aggressive drying.
 
@@ -46,14 +46,14 @@ From there, the process moves through four concrete phases:
 
 ## Response Time from Federal Way to Port Orchard
 
-National Restoration Construction is headquartered in Federal Way. Port Orchard sits roughly 35–45 minutes away via SR-16 west through Tacoma Narrows — longer during peak commute hours or when the bridge backs up, which it does on weekday afternoons. For most calls in the 98366 and 98367 ZIP codes, expect a technician on-site within 60–90 minutes. Addresses in McCormick Woods or further south toward South Kitsap's rural edges may run closer to 90 minutes depending on traffic.
+National Restoration Construction is headquartered in Federal Way. Port Orchard sits roughly 35–45 minutes away via SR-16 west through Tacoma Narrows, longer during peak commute hours or when the bridge backs up, which it does on weekday afternoons. For most calls in the 98366 and 98367 ZIP codes, expect a technician on-site within 60–90 minutes. Addresses in McCormick Woods or further south toward South Kitsap's rural edges may run closer to 90 minutes depending on traffic.
 
-If you're closer to the Bremerton side of the inlet, the foot ferry is faster for people but not for equipment — our crews drive SR-16 regardless. We'll give you an honest ETA when you call, not a marketing number.
+If you're closer to the Bremerton side of the inlet, the foot ferry is faster for people but not for equipment, our crews drive SR-16 regardless. We'll give you an honest ETA when you call, not a marketing number.
 
 ## Local Note: Crawl Space Moisture in Port Orchard's Older Homes
 
-One thing that catches homeowners off guard in the older waterfront neighborhoods — particularly properties near Annapolis and the Bay Street area — is how quickly an appliance leak compounds with pre-existing crawl space moisture. Port Orchard's proximity to Sinclair Inlet means ground moisture levels in low-lying lots are already elevated through much of the year. When a dishwasher or washing machine leak finds a gap in the subfloor, it drains into a crawl space that may already be at 70–80% relative humidity. We always inspect the crawl on appliance leak jobs in these neighborhoods, because what looks like a contained kitchen cleanup upstairs can be an active mold-growth situation downstairs within 48–72 hours.
+One thing that catches homeowners off guard in the older waterfront neighborhoods, particularly properties near Annapolis and the Bay Street area, is how quickly an appliance leak compounds with pre-existing crawl space moisture. Port Orchard's proximity to Sinclair Inlet means ground moisture levels in low-lying lots are already elevated through much of the year. When a dishwasher or washing machine leak finds a gap in the subfloor, it drains into a crawl space that may already be at 70–80% relative humidity. We always inspect the crawl on appliance leak jobs in these neighborhoods, because what looks like a contained kitchen cleanup upstairs can be an active mold-growth situation downstairs within 48–72 hours.
 
-If you're on a property with a vapor barrier that hasn't been inspected recently, now is the time — not after the next leak.
+If you're on a property with a vapor barrier that hasn't been inspected recently, now is the time, not after the next leak.
 
 Appliance leaks don't wait for a convenient moment. If you're dealing with a dishwasher overflow, a failed water heater supply line, or a refrigerator that's been quietly soaking your subfloor, call National Restoration Construction at (206) 883-0333. We'll tell you exactly how far out we are and walk you through source control steps while we're on the way.

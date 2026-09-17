@@ -15,23 +15,23 @@ breadcrumb: [{"name": "Home", "url": "/"}]
 faq: [{"question": "Are you available for emergency calls on nights and weekends?", "answer": "Yes \u2014 All Pro Plumbing Heating and Air operates 24 hours a day, 7 days a week, including holidays. Whether it's a burst pipe at 2 a.m. or a furnace that stops working on a Sunday, you can reach us at (661) 863-9242 any time."}, {"question": "How does your pricing work \u2014 do you charge for estimates?", "answer": "We diagnose the problem first, then give you a clear quote before any repair work starts. That way you know exactly what you're approving, and the final invoice reflects the number we discussed \u2014 no add-ons after the fact."}, {"question": "Can one company really handle both plumbing and HVAC?", "answer": "Yes. All Pro Plumbing Heating and Air is a full-service shop covering plumbing, drains and sewer, water heaters, furnaces, heat pumps, and air conditioning. One call gets you a technician who can assess the whole picture rather than handing you off to a second contractor."}, {"question": "What cities do you serve outside of Bakersfield?", "answer": "We cover the broader Kern County area, including Shafter, Delano, Wasco, Tehachapi, and Arvin, among other surrounding communities. If you're not sure whether your address falls in our service area, give us a call and we'll confirm quickly."}, {"question": "What should I do while waiting for a plumber on an emergency call?", "answer": "For a burst or leaking pipe, locate your main water shutoff \u2014 typically near the meter at the street or where the main line enters the house \u2014 and turn it off to stop the flow. If the leak is near an electrical panel or outlet, avoid standing in pooled water and switch off the circuit if you can do so safely. Keep the area clear and let us know what you've observed when you call so we can bring the right parts."}]
 rendered: true
 ---
-When a pipe bursts at midnight or your AC quits on a 105° Bakersfield afternoon, you need one number that covers it all. All Pro Plumbing Heating and Air handles plumbing repairs, drain and sewer work, water heaters, furnaces, and air conditioning — 24 hours a day, seven days a week — for homeowners and property managers throughout Kern County.
+When a pipe bursts at midnight or your AC quits on a 105° Bakersfield afternoon, you need one number that covers it all. All Pro Plumbing Heating and Air handles plumbing repairs, drain and sewer work, water heaters, furnaces, and air conditioning, 24 hours a day, seven days a week, for homeowners and property managers throughout Kern County.
 
 ## Services we handle
 
-**Emergency plumbing and drains** — From a slab leak hissing beneath your tile floor to a sewer line backing up into the tub, we diagnose and repair the problem, not just mask it. If water has already spread beyond the pipe, our sister company [ProRestoration Services](https://prorestorationca.com) handles the drying and structural rebuild.
+**Emergency plumbing and drains**, From a slab leak hissing beneath your tile floor to a sewer line backing up into the tub, we diagnose and repair the problem, not just mask it. If water has already spread beyond the pipe, our sister company [ProRestoration Services](https://prorestorationca.com) handles the drying and structural rebuild.
 
-**Water heaters** — Whether your tank is rumbling with sediment and running cold or you're ready to move to a tankless system, we size, install, and test the right unit for your household's demand and Bakersfield's hard water conditions.
+**Water heaters**, Whether your tank is rumbling with sediment and running cold or you're ready to move to a tankless system, we size, install, and test the right unit for your household's demand and Bakersfield's hard water conditions.
 
-**Heating** — A furnace that won't ignite or a heat pump struggling on a cold January night is a comfort and safety issue. We service and replace gas furnaces, heat pumps, and related components so your system is ready before the temperature drops.
+**Heating**, A furnace that won't ignite or a heat pump struggling on a cold January night is a comfort and safety issue. We service and replace gas furnaces, heat pumps, and related components so your system is ready before the temperature drops.
 
-**Air conditioning** — Bakersfield summers push condensers hard. Whether your system is short-cycling, blowing warm air, or simply overdue for a tune-up before peak season, we service all major brands and handle full system replacements when repairs no longer make sense.
+**Air conditioning**, Bakersfield summers push condensers hard. Whether your system is short-cycling, blowing warm air, or simply overdue for a tune-up before peak season, we service all major brands and handle full system replacements when repairs no longer make sense.
 
 ## Why homeowners and property managers call us
 
-Availability matters when something goes wrong at an inconvenient hour — and in this business, it almost always does. All Pro Plumbing Heating and Air operates around the clock, every day of the year, so you're never waiting until Monday morning to get a burst pipe or a dead AC addressed.
+Availability matters when something goes wrong at an inconvenient hour, and in this business, it almost always does. All Pro Plumbing Heating and Air operates around the clock, every day of the year, so you're never waiting until Monday morning to get a burst pipe or a dead AC addressed.
 
-Before any work begins, you get a clear quote. Once we've diagnosed the problem, we walk you through what needs to be done and what it costs — the number on the invoice matches the number you approved, no surprises at the end of the job.
+Before any work begins, you get a clear quote. Once we've diagnosed the problem, we walk you through what needs to be done and what it costs, the number on the invoice matches the number you approved, no surprises at the end of the job.
 
 Handling plumbing and HVAC under one roof also means fewer scheduling headaches. A single call to **(661) 863-9242** covers everything from a leaking water line to a refrigerant issue, and the technician who shows up knows both sides of the house.
 
@@ -39,10 +39,10 @@ Bakersfield's housing stock presents specific challenges: older homes on slab fo
 
 ## Service area
 
-All Pro Plumbing Heating and Air is based in Bakersfield and serves the surrounding communities throughout Kern County. That includes Shafter, Delano, Wasco, Tehachapi, Arvin, and the broader metro area. If you're unsure whether we reach your address, call or text — we'll tell you straight.
+All Pro Plumbing Heating and Air is based in Bakersfield and serves the surrounding communities throughout Kern County. That includes Shafter, Delano, Wasco, Tehachapi, Arvin, and the broader metro area. If you're unsure whether we reach your address, call or text, we'll tell you straight.
 
 We serve both residential customers and commercial property managers. Whether it's a single-family home, a rental unit, or a small commercial building, the diagnostic and repair process is the same: show up, find the root cause, quote it honestly, fix it right.
 
 ---
 
-Whether you're dealing with water on the floor right now or you're planning ahead for a water heater replacement or a seasonal AC check, the process starts the same way — a call to **(661) 863-9242**. We'll ask a few quick questions, give you an honest sense of what's involved, and get someone out to you.
+Whether you're dealing with water on the floor right now or you're planning ahead for a water heater replacement or a seasonal AC check, the process starts the same way, a call to **(661) 863-9242**. We'll ask a few quick questions, give you an honest sense of what's involved, and get someone out to you.

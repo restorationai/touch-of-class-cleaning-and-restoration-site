@@ -19,11 +19,11 @@ state: "IA"
 primary: false
 rendered: true
 ---
-When a pipe bursts in a River District rental or floodwater backs into a Downtown Akron basement, Crew Restoration & Construction handles the extraction, drying, structural repairs, and documentation from start to finish — so Akron property owners aren't left managing a dozen subcontractors while a loss gets worse. We work in the 51001 ZIP code regularly, and we understand what the housing stock and the Big Sioux River corridor throw at buildings here.
+When a pipe bursts in a River District rental or floodwater backs into a Downtown Akron basement, Crew Restoration & Construction handles the extraction, drying, structural repairs, and documentation from start to finish, so Akron property owners aren't left managing a dozen subcontractors while a loss gets worse. We work in the 51001 ZIP code regularly, and we understand what the housing stock and the Big Sioux River corridor throw at buildings here.
 
 ## Restoration emergencies common in Akron
 
-Akron sits right on the Big Sioux River at the Iowa–South Dakota border, and that geography drives most of the restoration calls we get from Plymouth County. Spring snowmelt off the Coteau des Prairies pushes the river hard, and properties in the River District that sit close to the floodplain can see water intrusion before the rest of town even notices the gauge rising. The town's older housing stock — a lot of it built before modern vapor barriers and sump systems were standard — absorbs that seasonal moisture and holds it. Crawl spaces stay damp well into summer, and mold can begin colonizing wet framing within 24 to 48 hours of a water event if drying doesn't start promptly.
+Akron sits right on the Big Sioux River at the Iowa–South Dakota border, and that geography drives most of the restoration calls we get from Plymouth County. Spring snowmelt off the Coteau des Prairies pushes the river hard, and properties in the River District that sit close to the floodplain can see water intrusion before the rest of town even notices the gauge rising. The town's older housing stock, a lot of it built before modern vapor barriers and sump systems were standard, absorbs that seasonal moisture and holds it. Crawl spaces stay damp well into summer, and mold can begin colonizing wet framing within 24 to 48 hours of a water event if drying doesn't start promptly.
 
 Winter brings its own pattern. Freeze-thaw cycles along the border corridor are aggressive; pipes in uninsulated exterior walls and in older homes near the Akron-Westfield School neighborhood are particularly vulnerable when overnight temperatures swing 30 degrees in a single week. Ice damming on low-slope roofs is less common here than in heavily wooded areas, but wind-driven snow against older siding creates moisture pathways that show up as interior wall damage weeks after a storm. Fire calls tend to cluster in the colder months, when heating equipment runs hard and older wiring in pre-1970s homes gets stressed.
 
@@ -31,19 +31,19 @@ Winter brings its own pattern. Freeze-thaw cycles along the border corridor are 
 
 ### Water damage restoration
 
-Water damage in Akron often starts at the foundation — whether that's a sump failure during a Big Sioux River rise, a supply line failure in an older Downtown Akron home, or a slow roof leak that's been saturating insulation for months. We extract standing water, deploy commercial drying equipment calibrated to the moisture load, and monitor with daily readings until structural materials reach target levels. Documentation goes straight to your insurance carrier.
+Water damage in Akron often starts at the foundation, whether that's a sump failure during a Big Sioux River rise, a supply line failure in an older Downtown Akron home, or a slow roof leak that's been saturating insulation for months. We extract standing water, deploy commercial drying equipment calibrated to the moisture load, and monitor with daily readings until structural materials reach target levels. Documentation goes straight to your insurance carrier.
 
 ### Mold remediation
 
-The combination of older construction and a river-adjacent water table means mold finds plenty of footholds in Akron properties. We assess the affected area, contain it to prevent cross-contamination, remove compromised materials, and treat surfaces — following established remediation protocols so the work holds up to post-clearance testing.
+The combination of older construction and a river-adjacent water table means mold finds plenty of footholds in Akron properties. We assess the affected area, contain it to prevent cross-contamination, remove compromised materials, and treat surfaces, following established remediation protocols so the work holds up to post-clearance testing.
 
 ### Fire and smoke damage restoration
 
-Smoke residue from a kitchen fire or a heating-equipment failure doesn't stay in the room where it started — it migrates into ductwork, wall cavities, and soft goods throughout the structure. We clean and deodorize affected surfaces, assess structural integrity, and coordinate reconstruction so you're dealing with one point of contact instead of separate trades.
+Smoke residue from a kitchen fire or a heating-equipment failure doesn't stay in the room where it started, it migrates into ductwork, wall cavities, and soft goods throughout the structure. We clean and deodorize affected surfaces, assess structural integrity, and coordinate reconstruction so you're dealing with one point of contact instead of separate trades.
 
 ### Reconstruction and build-back
 
-Once mitigation is complete, the structure still needs to be put back together. Crew Restoration & Construction handles the build-back phase — drywall, flooring, cabinetry, and finish work — so the property returns to pre-loss condition without a handoff gap between the restoration crew and a separate general contractor.
+Once mitigation is complete, the structure still needs to be put back together. Crew Restoration & Construction handles the build-back phase, drywall, flooring, cabinetry, and finish work, so the property returns to pre-loss condition without a handoff gap between the restoration crew and a separate general contractor.
 
 ## Coverage and how fast we can get there
 
@@ -51,10 +51,10 @@ Crew Restoration & Construction is based in Sioux Falls, SD, roughly 50 miles no
 
 ## Building stock, site conditions, and permits in Akron
 
-Much of Akron's housing predates World War II, with a second wave of postwar builds. That means wood frame over full basements or partial cellars, plaster and wood lath on the older walls, and dimensional lumber that holds water longer than modern framing. Wet plaster and lath has to be dried differently than drywall — it can look sound while the cavity behind it stays saturated. Western Iowa's deep loess soils over glacial till drain unevenly and settle, so foundation seepage and cracked block walls are common in this vintage.
+Much of Akron's housing predates World War II, with a second wave of postwar builds. That means wood frame over full basements or partial cellars, plaster and wood lath on the older walls, and dimensional lumber that holds water longer than modern framing. Wet plaster and lath has to be dried differently than drywall, it can look sound while the cavity behind it stays saturated. Western Iowa's deep loess soils over glacial till drain unevenly and settle, so foundation seepage and cracked block walls are common in this vintage.
 
 Expect galvanized supply lines and cast iron drains in the oldest homes, asbestos in old pipe wrap and floor tile, and lead paint under later coats. Frost runs deep here, so buried lines and footings matter.
 
 Permits for structural repair inside town come through the City of Akron; rural Plymouth County addresses go through the county. Work in the Big Sioux floodplain adds a review step.
 
-If you're dealing with water, fire, mold, or storm damage at a property in Akron or anywhere in Plymouth County, call Crew Restoration & Construction at **(605) 965-2727**. We'll walk through what happened, tell you what the process looks like, and get scheduled — no pressure, no runaround.
+If you're dealing with water, fire, mold, or storm damage at a property in Akron or anywhere in Plymouth County, call Crew Restoration & Construction at **(605) 965-2727**. We'll walk through what happened, tell you what the process looks like, and get scheduled, no pressure, no runaround.

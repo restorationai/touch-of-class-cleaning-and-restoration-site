@@ -24,11 +24,11 @@ California Restoration West operates californiarestorationwest.com to provide in
 
 ### Information We Collect
 
-When you submit a contact or estimate-request form, we receive the details you enter — typically your name, phone number, email address, property address, and a description of the damage. We also use basic, anonymized analytics (such as page views and referral sources) to understand how visitors find the site. We do not use tracking cookies to build advertising profiles.
+When you submit a contact or estimate-request form, we receive the details you enter, typically your name, phone number, email address, property address, and a description of the damage. We also use basic, anonymized analytics (such as page views and referral sources) to understand how visitors find the site. We do not use tracking cookies to build advertising profiles.
 
 ### How We Use Your Information
 
-We use the information you submit to respond to your inquiry, schedule on-site estimates, and — when you authorize us to do so — coordinate with your insurance carrier or adjuster as part of the claims process. We do not use your contact details for unsolicited marketing, and we do not sell, rent, or trade your personal information to third parties.
+We use the information you submit to respond to your inquiry, schedule on-site estimates, and, when you authorize us to do so, coordinate with your insurance carrier or adjuster as part of the claims process. We do not use your contact details for unsolicited marketing, and we do not sell, rent, or trade your personal information to third parties.
 
 ### Sharing With Insurance Carriers
 
@@ -58,7 +58,7 @@ California Restoration West provides water damage, fire damage, mold remediation
 
 ### Estimates Are Not Binding Contracts
 
-Any estimate, quote, or scope of work discussed by phone, email, or on-site walkthrough is preliminary. An estimate does not constitute a binding agreement. The actual service relationship — including the agreed scope, pricing, and authorization to begin work — is governed exclusively by the signed work-authorization form provided to you before work commences. Do not assume work will begin or that a price is locked until that document is signed by both parties.
+Any estimate, quote, or scope of work discussed by phone, email, or on-site walkthrough is preliminary. An estimate does not constitute a binding agreement. The actual service relationship, including the agreed scope, pricing, and authorization to begin work, is governed exclusively by the signed work-authorization form provided to you before work commences. Do not assume work will begin or that a price is locked until that document is signed by both parties.
 
 ### Payment Terms and Accepted Methods
 
@@ -86,4 +86,4 @@ We may update these terms periodically. Continued use of this website after an u
 
 California Restoration West is committed to making this website usable by everyone, including people who rely on assistive technologies such as screen readers or keyboard navigation. We aim to meet the Web Content Accessibility Guidelines (WCAG) 2.1 at the AA conformance level, and the site has been built with semantic markup and contrast ratios intended to support that standard.
 
-If you encounter a barrier — a form that is difficult to complete, an image without a useful description, or any other element that prevents you from getting the information you need — please let us know. Contact us by email at Californiarestorationwest@gmail.com or by phone at (805) 290-7292. We will review reported issues and work to address them within a reasonable timeframe. Your ability to reach us and request services should never depend on a perfectly functioning website.
+If you encounter a barrier, a form that is difficult to complete, an image without a useful description, or any other element that prevents you from getting the information you need, please let us know. Contact us by email at Californiarestorationwest@gmail.com or by phone at (805) 290-7292. We will review reported issues and work to address them within a reasonable timeframe. Your ability to reach us and request services should never depend on a perfectly functioning website.

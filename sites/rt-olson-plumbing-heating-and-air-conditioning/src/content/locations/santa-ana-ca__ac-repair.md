@@ -20,36 +20,36 @@ state: "CA"
 service_display: "Air Conditioning Repair"
 rendered: true
 ---
-Santa Ana summers are no joke — inland heat pushing through the Santa Ana winds can send afternoon temperatures well past 100°F, and when your air conditioner quits on one of those days, the inside of your home can become genuinely dangerous within hours. RT Olson Plumbing, Heating and Air Conditioning responds 24/7, dispatching from Corona to diagnose and repair cooling systems across Santa Ana so you're not left sweating through a night that won't cool down until well past midnight.
+Santa Ana summers are no joke, inland heat pushing through the Santa Ana winds can send afternoon temperatures well past 100°F, and when your air conditioner quits on one of those days, the inside of your home can become genuinely dangerous within hours. RT Olson Plumbing, Heating and Air Conditioning responds 24/7, dispatching from Corona to diagnose and repair cooling systems across Santa Ana so you're not left sweating through a night that won't cool down until well past midnight.
 
 ## Why Santa Ana Properties See AC Repair Issues
 
-Santa Ana's climate creates a specific kind of punishment for residential and commercial cooling equipment. The city sits in a basin that traps heat, and the seasonal Santa Ana wind events — dry, hot offshore flows that arrive in fall and sometimes spring — force air conditioners to run hard during months when most inland California homeowners expect a break. That extended runtime accelerates wear on compressors, fan motors, and capacitors faster than you'd see in a coastal city like Long Beach or San Diego.
+Santa Ana's climate creates a specific kind of punishment for residential and commercial cooling equipment. The city sits in a basin that traps heat, and the seasonal Santa Ana wind events, dry, hot offshore flows that arrive in fall and sometimes spring, force air conditioners to run hard during months when most inland California homeowners expect a break. That extended runtime accelerates wear on compressors, fan motors, and capacitors faster than you'd see in a coastal city like Long Beach or San Diego.
 
-The housing stock adds another layer. Many Santa Ana neighborhoods include mid-century tract homes built in the 1950s and 1960s with ductwork that was sized for the original single-speed systems of that era. When a modern variable-speed unit is installed without a duct audit, the system is often fighting against undersized supply runs or leaky flex duct in unconditioned attic spaces — attics that can reach 150°F on a July afternoon. That thermal load forces the equipment to work harder, refrigerant pressures climb, and compressors fail sooner than the manufacturer's warranty suggests they should.
+The housing stock adds another layer. Many Santa Ana neighborhoods include mid-century tract homes built in the 1950s and 1960s with ductwork that was sized for the original single-speed systems of that era. When a modern variable-speed unit is installed without a duct audit, the system is often fighting against undersized supply runs or leaky flex duct in unconditioned attic spaces, attics that can reach 150°F on a July afternoon. That thermal load forces the equipment to work harder, refrigerant pressures climb, and compressors fail sooner than the manufacturer's warranty suggests they should.
 
 Older multifamily buildings along the city's commercial corridors frequently have rooftop package units that go years without a refrigerant check. A slow refrigerant leak that goes undetected through one mild winter becomes a full cooling failure the first week temperatures spike.
 
 ## Our Air Conditioning Repair Process in Santa Ana
 
-Every repair call starts with a diagnostic, not a guess. A technician arrives with manifold gauges, a refrigerant leak detector, and a digital multimeter to measure actual system pressures, amperage draws, and temperature differentials — the numbers that tell the real story, not just the symptoms a homeowner can describe over the phone.
+Every repair call starts with a diagnostic, not a guess. A technician arrives with manifold gauges, a refrigerant leak detector, and a digital multimeter to measure actual system pressures, amperage draws, and temperature differentials, the numbers that tell the real story, not just the symptoms a homeowner can describe over the phone.
 
-For refrigerant leak repair, we locate the leak point first. Injecting refrigerant into a leaking system without finding the source is money wasted — the charge will be gone again within weeks. Once the leak is confirmed and repaired, we pull a vacuum on the system before recharging to the manufacturer's specified weight, not an estimate based on how the gauges look.
+For refrigerant leak repair, we locate the leak point first. Injecting refrigerant into a leaking system without finding the source is money wasted, the charge will be gone again within weeks. Once the leak is confirmed and repaired, we pull a vacuum on the system before recharging to the manufacturer's specified weight, not an estimate based on how the gauges look.
 
-Capacitor and contactor failures are among the most common repairs we see on Santa Ana equipment — the voltage spikes that accompany summer demand surges on the local grid accelerate the degradation of these components. Replacements are made with parts rated to the original equipment specifications, not the nearest available substitute.
+Capacitor and contactor failures are among the most common repairs we see on Santa Ana equipment, the voltage spikes that accompany summer demand surges on the local grid accelerate the degradation of these components. Replacements are made with parts rated to the original equipment specifications, not the nearest available substitute.
 
 If the compressor itself has failed, we give you an honest assessment of repair versus replacement cost so you can make a decision that makes financial sense for the age and condition of your system.
 
 ## Reaching Santa Ana from Corona
 
-RT Olson operates out of Corona, and Santa Ana is a regular part of our service area. The most direct route runs west on the 91 Freeway to the 55 South, putting us into the heart of the city efficiently. Because we dispatch 24/7, we can reach Santa Ana calls at hours when traffic on those corridors is light — middle-of-the-night breakdowns don't require navigating rush-hour conditions.
+RT Olson operates out of Corona, and Santa Ana is a regular part of our service area. The most direct route runs west on the 91 Freeway to the 55 South, putting us into the heart of the city efficiently. Because we dispatch 24/7, we can reach Santa Ana calls at hours when traffic on those corridors is light, middle-of-the-night breakdowns don't require navigating rush-hour conditions.
 
-For properties in the Floral Park and Willard neighborhoods, we typically approach from the 5 Freeway interchange to avoid surface-street congestion near downtown. Technicians familiar with Santa Ana's street grid aren't circling looking for parking — they're at the door.
+For properties in the Floral Park and Willard neighborhoods, we typically approach from the 5 Freeway interchange to avoid surface-street congestion near downtown. Technicians familiar with Santa Ana's street grid aren't circling looking for parking, they're at the door.
 
 ## Local Note
 
-Santa Ana's older neighborhoods — particularly those with homes built before the widespread adoption of central air — sometimes have systems that were retrofitted into closets or utility spaces not originally designed for HVAC equipment. When a system is crammed into a tight mechanical closet with inadequate clearance around the air handler, heat buildup in that space alone can cause the unit to short-cycle or trip a high-limit switch. If your system keeps shutting off on hot days and a technician hasn't checked the installation environment, that's worth a look before replacing any parts.
+Santa Ana's older neighborhoods, particularly those with homes built before the widespread adoption of central air, sometimes have systems that were retrofitted into closets or utility spaces not originally designed for HVAC equipment. When a system is crammed into a tight mechanical closet with inadequate clearance around the air handler, heat buildup in that space alone can cause the unit to short-cycle or trip a high-limit switch. If your system keeps shutting off on hot days and a technician hasn't checked the installation environment, that's worth a look before replacing any parts.
 
 ## Closing
 
-When your air conditioner stops cooling in Santa Ana — whether it's a refrigerant leak, a failed capacitor, or a compressor that finally gave out after one too many 105-degree afternoons — call RT Olson at (951) 344-5596. We're available around the clock, and we'll give you a straight diagnosis and a clear explanation of what the repair involves before any work begins.
+When your air conditioner stops cooling in Santa Ana, whether it's a refrigerant leak, a failed capacitor, or a compressor that finally gave out after one too many 105-degree afternoons, call RT Olson at (951) 344-5596. We're available around the clock, and we'll give you a straight diagnosis and a clear explanation of what the repair involves before any work begins.

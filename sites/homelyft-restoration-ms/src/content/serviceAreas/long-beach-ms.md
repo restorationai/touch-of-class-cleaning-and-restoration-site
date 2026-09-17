@@ -19,39 +19,39 @@ state: "MS"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall or storm surge pushes water under your doors, Long Beach property owners need someone who knows this stretch of the Mississippi Gulf Coast — not a call center routing your claim to whoever is available. HomeLyft Restoration MS works directly with homeowners, landlords, and property managers in Long Beach to assess damage fast, document everything for insurance, and get your property dried, cleaned, and rebuilt the right way.
+When a pipe bursts behind a wall or storm surge pushes water under your doors, Long Beach property owners need someone who knows this stretch of the Mississippi Gulf Coast, not a call center routing your claim to whoever is available. HomeLyft Restoration MS works directly with homeowners, landlords, and property managers in Long Beach to assess damage fast, document everything for insurance, and get your property dried, cleaned, and rebuilt the right way.
 
 ## Restoration emergencies common in Long Beach
 
-Long Beach sits in Harrison County, sandwiched between the Gulf and the rail corridor, and the geography creates a predictable set of problems. The water table along the coast is shallow — sometimes just a few feet below grade — which means even a moderate rain event can saturate crawl spaces and push moisture up through slab foundations before a homeowner notices anything is wrong. The humid subtropical climate keeps relative humidity above 70 percent for much of the year, and that sustained moisture is exactly the condition mold needs to colonize porous materials: mold can begin forming on wet drywall in as little as 24 to 48 hours after a water intrusion.
+Long Beach sits in Harrison County, sandwiched between the Gulf and the rail corridor, and the geography creates a predictable set of problems. The water table along the coast is shallow, sometimes just a few feet below grade, which means even a moderate rain event can saturate crawl spaces and push moisture up through slab foundations before a homeowner notices anything is wrong. The humid subtropical climate keeps relative humidity above 70 percent for much of the year, and that sustained moisture is exactly the condition mold needs to colonize porous materials: mold can begin forming on wet drywall in as little as 24 to 48 hours after a water intrusion.
 
-The housing stock adds another layer of complexity. Long Beach has a mix of post-Katrina rebuilds — many constructed quickly in 2006 and 2007 under time pressure — alongside older mid-century homes with original plumbing and pier-and-beam construction that can hide water damage for weeks. Homes closer to the beachfront on U.S. 90 face wind-driven rain and storm surge risk every hurricane season, while properties north of the CSX rail line tend to see more plumbing failures and HVAC condensate leaks. Fire risk is also real: older wiring in pre-renovation homes, combined with long, dry stretches in late summer, creates conditions that make kitchen and electrical fires more common than many residents expect.
+The housing stock adds another layer of complexity. Long Beach has a mix of post-Katrina rebuilds, many constructed quickly in 2006 and 2007 under time pressure, alongside older mid-century homes with original plumbing and pier-and-beam construction that can hide water damage for weeks. Homes closer to the beachfront on U.S. 90 face wind-driven rain and storm surge risk every hurricane season, while properties north of the CSX rail line tend to see more plumbing failures and HVAC condensate leaks. Fire risk is also real: older wiring in pre-renovation homes, combined with long, dry stretches in late summer, creates conditions that make kitchen and electrical fires more common than many residents expect.
 
 ## Services we provide in Long Beach
 
 ### Water damage restoration
 
-Water damage in Long Beach often starts quietly — a slow drip from a supply line, condensation from a poorly insulated duct, or storm water wicking in through a compromised door threshold. By the time it's visible, the subfloor or wall cavity may already be saturated. We use thermal imaging and moisture meters to map the full extent of the damage, extract standing water, and set drying equipment calibrated to the ambient humidity conditions on the Gulf Coast. Every job is documented to the IICRC S500 standard for insurance purposes.
+Water damage in Long Beach often starts quietly, a slow drip from a supply line, condensation from a poorly insulated duct, or storm water wicking in through a compromised door threshold. By the time it's visible, the subfloor or wall cavity may already be saturated. We use thermal imaging and moisture meters to map the full extent of the damage, extract standing water, and set drying equipment calibrated to the ambient humidity conditions on the Gulf Coast. Every job is documented to the IICRC S500 standard for insurance purposes.
 
 ### Mold remediation
 
-The combination of heat, humidity, and older building envelopes makes Long Beach one of the more mold-prone communities on the Coast. We contain affected areas, remove compromised materials, treat surfaces with EPA-registered antimicrobials, and clear the air with HEPA filtration. We do not issue health guarantees — mold remediation is a physical process, and post-remediation air testing by an independent industrial hygienist is the appropriate step for clearance verification.
+The combination of heat, humidity, and older building envelopes makes Long Beach one of the more mold-prone communities on the Coast. We contain affected areas, remove compromised materials, treat surfaces with EPA-registered antimicrobials, and clear the air with HEPA filtration. We do not issue health guarantees, mold remediation is a physical process, and post-remediation air testing by an independent industrial hygienist is the appropriate step for clearance verification.
 
 ### Fire and smoke damage restoration
 
-Smoke residue is deceptive. After a kitchen fire, the visible char is only part of the problem — acidic soot migrates through HVAC systems and settles on surfaces in rooms that never saw flames. We clean structural surfaces, deodorize with thermal fogging and hydroxyl treatment, and coordinate pack-out and content cleaning for salvageable belongings.
+Smoke residue is deceptive. After a kitchen fire, the visible char is only part of the problem, acidic soot migrates through HVAC systems and settles on surfaces in rooms that never saw flames. We clean structural surfaces, deodorize with thermal fogging and hydroxyl treatment, and coordinate pack-out and content cleaning for salvageable belongings.
 
 ### Reconstruction and build-back
 
-Once mitigation is complete, we handle the rebuild — drywall, flooring, cabinetry, painting — so you are not managing two separate contractors through an already stressful process. We work directly with your adjuster to keep the scope of work aligned with the approved claim.
+Once mitigation is complete, we handle the rebuild, drywall, flooring, cabinetry, painting, so you are not managing two separate contractors through an already stressful process. We work directly with your adjuster to keep the scope of work aligned with the approved claim.
 
 ## Coverage and how fast we can get there
 
-HomeLyft Restoration MS is based in Gulfport, which sits directly adjacent to Long Beach along U.S. 90. The drive from our Gulfport headquarters to the heart of Long Beach is typically under 15 minutes via U.S. 90 west, with access to neighborhoods throughout the city straightforward from that corridor. Properties north of the rail line are reached via Jeff Davis Avenue or Klondike Road. Our scheduling team can give you a realistic arrival window when you call — (228) 284-5200 — based on current crew availability and job load.
+HomeLyft Restoration MS is based in Gulfport, which sits directly adjacent to Long Beach along U.S. 90. The drive from our Gulfport headquarters to the heart of Long Beach is typically under 15 minutes via U.S. 90 west, with access to neighborhoods throughout the city straightforward from that corridor. Properties north of the rail line are reached via Jeff Davis Avenue or Klondike Road. Our scheduling team can give you a realistic arrival window when you call, (228) 284-5200, based on current crew availability and job load.
 
 ## Building stock, site conditions, and permits in Long Beach
 
-Homes here run from small frame cottages with wood siding over shiplap sheathing to slab-on-grade ranches and newer elevated construction on piles or block piers. In anything built before the late 1970s, expect galvanized supply lines that rust closed from the inside, cast iron drains that scale and crack at the hub, and finishes that can carry lead paint or asbestos in tile, mastic, and joint compound — that changes how we cut and haul debris, not just how we dry.
+Homes here run from small frame cottages with wood siding over shiplap sheathing to slab-on-grade ranches and newer elevated construction on piles or block piers. In anything built before the late 1970s, expect galvanized supply lines that rust closed from the inside, cast iron drains that scale and crack at the hub, and finishes that can carry lead paint or asbestos in tile, mastic, and joint compound, that changes how we cut and haul debris, not just how we dry.
 
 The ground is largely sand and sandy loam over a shallow water table, so water drains fast but crawlspaces stay damp and vented under-floor insulation sags once wet.
 

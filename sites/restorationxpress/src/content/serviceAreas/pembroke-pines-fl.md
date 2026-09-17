@@ -19,19 +19,19 @@ state: "FL"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind the walls of a Chapel Trail townhome or a summer storm backs water into a SilverLakes garage, Pembroke Pines property owners need a restoration crew that knows the city — not a dispatcher reading from a map. RestorationXpress handles water damage mitigation, mold remediation, fire and smoke cleanup, and full reconstruction for homes and commercial properties across Pembroke Pines, operating out of our Davie headquarters just a short drive south on I-595 or University Drive.
+When a pipe bursts behind the walls of a Chapel Trail townhome or a summer storm backs water into a SilverLakes garage, Pembroke Pines property owners need a restoration crew that knows the city, not a dispatcher reading from a map. RestorationXpress handles water damage mitigation, mold remediation, fire and smoke cleanup, and full reconstruction for homes and commercial properties across Pembroke Pines, operating out of our Davie headquarters just a short drive south on I-595 or University Drive.
 
 ## Restoration emergencies common in Pembroke Pines
 
-Pembroke Pines is one of Broward County's largest cities, and its sprawling suburban footprint creates a specific set of vulnerabilities. The city sits on a relatively flat coastal plain with a water table that can rise within inches of slab foundations during the wet season — June through October. When a tropical system or even a routine afternoon thunderstorm drops three inches in an hour, stormwater overwhelms retention ponds and sheet-flows across parking lots, driveways, and into garages and first-floor living spaces faster than sump systems can respond.
+Pembroke Pines is one of Broward County's largest cities, and its sprawling suburban footprint creates a specific set of vulnerabilities. The city sits on a relatively flat coastal plain with a water table that can rise within inches of slab foundations during the wet season, June through October. When a tropical system or even a routine afternoon thunderstorm drops three inches in an hour, stormwater overwhelms retention ponds and sheet-flows across parking lots, driveways, and into garages and first-floor living spaces faster than sump systems can respond.
 
-The housing stock compounds the risk. Neighborhoods like Pembroke Falls and Grand Palms are built on concrete slabs with tile and engineered hardwood over them — materials that trap moisture underneath and show almost no visible damage until mold has already colonized the subfloor. Homes in the 33026 and 33029 ZIP codes often date to the late 1980s and 1990s, when polybutylene supply lines were still common; those pipes are now reaching the end of their service life and fail without warning. Newer construction in Pembroke Isles and Chapel Trail tends to have tighter building envelopes, which means smoke and odors from even a small kitchen fire can saturate HVAC ductwork throughout the entire structure.
+The housing stock compounds the risk. Neighborhoods like Pembroke Falls and Grand Palms are built on concrete slabs with tile and engineered hardwood over them, materials that trap moisture underneath and show almost no visible damage until mold has already colonized the subfloor. Homes in the 33026 and 33029 ZIP codes often date to the late 1980s and 1990s, when polybutylene supply lines were still common; those pipes are now reaching the end of their service life and fail without warning. Newer construction in Pembroke Isles and Chapel Trail tends to have tighter building envelopes, which means smoke and odors from even a small kitchen fire can saturate HVAC ductwork throughout the entire structure.
 
 ## Services we provide in Pembroke Pines
 
 ### Water damage mitigation
 
-Water damage in Pembroke Pines often involves more than the visible puddle. After a roof leak or appliance failure, moisture wicks into drywall, insulation, and the wood framing behind it — and in South Florida's humidity, secondary mold growth can begin within 24 to 48 hours. We extract standing water, deploy industrial air movers and dehumidifiers calibrated for the local dew point, and monitor moisture readings daily until structural materials reach safe levels. We document everything for insurance carriers.
+Water damage in Pembroke Pines often involves more than the visible puddle. After a roof leak or appliance failure, moisture wicks into drywall, insulation, and the wood framing behind it, and in South Florida's humidity, secondary mold growth can begin within 24 to 48 hours. We extract standing water, deploy industrial air movers and dehumidifiers calibrated for the local dew point, and monitor moisture readings daily until structural materials reach safe levels. We document everything for insurance carriers.
 
 ### Mold remediation
 
@@ -39,15 +39,15 @@ The combination of Pembroke Pines' heat, humidity, and slab construction makes m
 
 ### Fire and smoke damage restoration
 
-A grease fire in the kitchen of a Pembroke Falls home can leave smoke residue in every room within minutes. Smoke particles are acidic and continue etching surfaces — countertops, appliances, painted walls — long after the flames are out. We begin odor neutralization and content cleaning quickly to limit secondary damage, then move into structural repairs and repainting.
+A grease fire in the kitchen of a Pembroke Falls home can leave smoke residue in every room within minutes. Smoke particles are acidic and continue etching surfaces, countertops, appliances, painted walls, long after the flames are out. We begin odor neutralization and content cleaning quickly to limit secondary damage, then move into structural repairs and repainting.
 
 ### Reconstruction and build-back
 
-Once mitigation is complete, many property owners in the 33024 and 33028 ZIP codes need a contractor who can handle the rebuild — drywall, flooring, cabinetry, and painting — without hiring a separate general contractor. We carry that work through to a finished, livable space.
+Once mitigation is complete, many property owners in the 33024 and 33028 ZIP codes need a contractor who can handle the rebuild, drywall, flooring, cabinetry, and painting, without hiring a separate general contractor. We carry that work through to a finished, livable space.
 
 ## Coverage and how fast we can get there
 
-RestorationXpress is based in Davie, which puts us roughly 5 to 8 miles from most Pembroke Pines neighborhoods depending on traffic. University Drive runs directly north into the heart of the city, connecting our crew to Pembroke Lakes Mall-area properties and the subdivisions east of Flamingo Road. Pines Boulevard is the main east-west corridor we use to reach Chapel Trail and Pembroke Isles on the western edge of the city, and I-75 provides a fast route to Grand Palms and the communities near the Chapel Trail Nature Preserve. We schedule promptly and will give you a realistic arrival window when you call — (954) 932-5420.
+RestorationXpress is based in Davie, which puts us roughly 5 to 8 miles from most Pembroke Pines neighborhoods depending on traffic. University Drive runs directly north into the heart of the city, connecting our crew to Pembroke Lakes Mall-area properties and the subdivisions east of Flamingo Road. Pines Boulevard is the main east-west corridor we use to reach Chapel Trail and Pembroke Isles on the western edge of the city, and I-75 provides a fast route to Grand Palms and the communities near the Chapel Trail Nature Preserve. We schedule promptly and will give you a realistic arrival window when you call, (954) 932-5420.
 
 ## Building stock, site conditions, and permits in Pembroke Pines
 
@@ -57,4 +57,4 @@ The western subdivisions sit on filled and drained wetland ground laced with can
 
 Permits for structural repair and rebuild come from the City of Pembroke Pines building division. Broward County falls inside the Florida Building Code's High-Velocity Hurricane Zone, so roof, window, and opening work carries stricter attachment and product-approval requirements than most of the state.
 
-If you're dealing with water, fire, mold, or storm damage anywhere in Pembroke Pines — from the 33023 corridor near the Broward-Miami-Dade line to the newer developments in 33029 — call RestorationXpress at **(954) 932-5420**. We'll assess the damage, give you a straight answer about what it will take, and get to work.
+If you're dealing with water, fire, mold, or storm damage anywhere in Pembroke Pines, from the 33023 corridor near the Broward-Miami-Dade line to the newer developments in 33029, call RestorationXpress at **(954) 932-5420**. We'll assess the damage, give you a straight answer about what it will take, and get to work.

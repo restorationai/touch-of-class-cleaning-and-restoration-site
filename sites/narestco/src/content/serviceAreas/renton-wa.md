@@ -19,25 +19,25 @@ state: "WA"
 primary: false
 rendered: true
 ---
-When a pipe bursts at 2 a.m. or smoke from a kitchen fire soaks into your drywall, the last thing you want is a contractor who has to look up where Renton is. National Restoration Construction has been responding to water, fire, mold, and biohazard emergencies across the greater Seattle–Tacoma corridor since 2004 — and Renton is one of our most active service areas. Whether you own a mid-century craftsman in the Highlands or manage a commercial property near the Boeing complex, we can have a crew moving equipment through your door within the hour.
+When a pipe bursts at 2 a.m. or smoke from a kitchen fire soaks into your drywall, the last thing you want is a contractor who has to look up where Renton is. National Restoration Construction has been responding to water, fire, mold, and biohazard emergencies across the greater Seattle–Tacoma corridor since 2004, and Renton is one of our most active service areas. Whether you own a mid-century craftsman in the Highlands or manage a commercial property near the Boeing complex, we can have a crew moving equipment through your door within the hour.
 
 ## Restoration services we provide in Renton
 
 ### Water damage restoration
 
-Standing water is destructive on a clock. Within 24 to 48 hours, saturated subfloor and wall cavities become a breeding ground for mold. We extract standing water, deploy industrial drying equipment, and monitor moisture readings until every structural cavity reads dry — not just the surface. We handle everything from burst supply lines and appliance failures to sewer backups and storm flooding.
+Standing water is destructive on a clock. Within 24 to 48 hours, saturated subfloor and wall cavities become a breeding ground for mold. We extract standing water, deploy industrial drying equipment, and monitor moisture readings until every structural cavity reads dry, not just the surface. We handle everything from burst supply lines and appliance failures to sewer backups and storm flooding.
 
 ### Fire and smoke damage restoration
 
-The visible char is often the smaller problem. Smoke residue penetrates porous materials — insulation, framing, HVAC ductwork — and the acrid odor can persist for months if the source isn't fully addressed. Our process includes structural cleaning, odor neutralization, and coordinating with your insurance adjuster on scope before any rebuild work begins.
+The visible char is often the smaller problem. Smoke residue penetrates porous materials, insulation, framing, HVAC ductwork, and the acrid odor can persist for months if the source isn't fully addressed. Our process includes structural cleaning, odor neutralization, and coordinating with your insurance adjuster on scope before any rebuild work begins.
 
 ### Mold remediation
 
-Renton's wet winters and the moisture that accumulates in crawl spaces, attics, and behind exterior walls create conditions where mold can colonize in as little as 48 to 72 hours after a water intrusion. We follow IICRC S520 protocols for containment, removal, and post-remediation verification — and we document every step for your insurer.
+Renton's wet winters and the moisture that accumulates in crawl spaces, attics, and behind exterior walls create conditions where mold can colonize in as little as 48 to 72 hours after a water intrusion. We follow IICRC S520 protocols for containment, removal, and post-remediation verification, and we document every step for your insurer.
 
 ### Biohazard and trauma cleanup
 
-Unattended deaths, sewage intrusions, and hoarding situations require a different level of care than standard restoration. Our technicians are trained in bloodborne pathogen handling and proper disposal under Washington State Department of Ecology guidelines. This work is handled with discretion and thoroughness — two things that matter equally here.
+Unattended deaths, sewage intrusions, and hoarding situations require a different level of care than standard restoration. Our technicians are trained in bloodborne pathogen handling and proper disposal under Washington State Department of Ecology guidelines. This work is handled with discretion and thoroughness, two things that matter equally here.
 
 ### Reconstruction and rebuild
 
@@ -45,15 +45,15 @@ Most restoration companies hand you off to a separate contractor once the drying
 
 ## Why Renton property owners face restoration emergencies
 
-Renton sits at the southern tip of Lake Washington and drains several creek corridors — Cedar River, Springbrook Creek, and May Creek among them — that can overtop their banks during the heavy atmospheric river events that roll in from November through March. Homes in the Talbot Hill and Benson Hill neighborhoods are particularly familiar with water intrusion from saturated hillside soils pressing against foundation walls.
+Renton sits at the southern tip of Lake Washington and drains several creek corridors, Cedar River, Springbrook Creek, and May Creek among them, that can overtop their banks during the heavy atmospheric river events that roll in from November through March. Homes in the Talbot Hill and Benson Hill neighborhoods are particularly familiar with water intrusion from saturated hillside soils pressing against foundation walls.
 
 The housing stock adds another layer of complexity. A significant portion of Renton's residential inventory was built between the 1950s and 1980s, which means older cast-iron drain lines prone to root intrusion and cracking, galvanized supply pipes that corrode from the inside out, and in some cases, building materials that require lead-safe or asbestos-aware handling during any demolition phase.
 
-Commercial and industrial properties near the Renton Municipal Airport and the former Boeing manufacturing campus have their own set of challenges — large square footage, complex HVAC systems, and tenant-occupied spaces where downtime has a direct dollar cost.
+Commercial and industrial properties near the Renton Municipal Airport and the former Boeing manufacturing campus have their own set of challenges, large square footage, complex HVAC systems, and tenant-occupied spaces where downtime has a direct dollar cost.
 
 ## Response time and coverage in Renton
 
-Our Federal Way headquarters is roughly 15 miles from downtown Renton via I-405 or SR-167 — typically a 20-to-30-minute drive outside of peak commute windows. For most calls in Renton, expect a technician on-site within 60 minutes. We cover all Renton ZIP codes: 98055, 98056, 98057, 98058, and 98059, including the Kennydale, Fairwood, and Cascade neighborhoods.
+Our Federal Way headquarters is roughly 15 miles from downtown Renton via I-405 or SR-167, typically a 20-to-30-minute drive outside of peak commute windows. For most calls in Renton, expect a technician on-site within 60 minutes. We cover all Renton ZIP codes: 98055, 98056, 98057, 98058, and 98059, including the Kennydale, Fairwood, and Cascade neighborhoods.
 
 We answer the phone at (206) 883-0333 every hour of every day. Emergencies don't schedule themselves, and neither do we.
 

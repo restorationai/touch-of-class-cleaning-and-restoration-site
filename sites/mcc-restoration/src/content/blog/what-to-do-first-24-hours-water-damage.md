@@ -17,16 +17,16 @@ published_at: "2026-07-05"
 services: ["water-damage-restoration"]
 rendered: true
 youtube_id: "OYt2Fh8xsYg"
-video_transcript: "Water damage in your home? The next 24 hours are critical. Act fast and you can prevent mold, structural damage, and thousands in extra repair costs. First, shut off your water at the main valve — usually near the meter, in a utility closet, or under the kitchen sink. Stop the source before anything else. Next, switch off electricity to any affected rooms at your breaker panel. Water and live circuits are a dangerous combination — don't skip this step. Before you move a single item, record everything on your phone. Video every wet surface and damaged area. This footage is your insurance claim — do not skip it. Remove standing water immediately using a wet-dry shop vac. For soaked carpet, pull it back from the wall so air can reach the pad — saturated pad almost always needs to come out. Move furniture off wet carpet right away. Place aluminum foil under wooden legs to stop furniture stain from bleeding permanently into the fibers — it happens faster than you'd think. Don't run ceiling fans if the ceiling is wet — a saturated ceiling can collapse. And never use a regular household vacuum on water. It's not designed for liquid and creates a real safety risk. Don't wait and hope it dries out. Mold can start in 24 to 48 hours. Call MCC Restoration and Contracting Services at 682-772-9123 for a free estimate today."
+video_transcript: "Water damage in your home? The next 24 hours are critical. Act fast and you can prevent mold, structural damage, and thousands in extra repair costs. First, shut off your water at the main valve, usually near the meter, in a utility closet, or under the kitchen sink. Stop the source before anything else. Next, switch off electricity to any affected rooms at your breaker panel. Water and live circuits are a dangerous combination, don't skip this step. Before you move a single item, record everything on your phone. Video every wet surface and damaged area. This footage is your insurance claim, do not skip it. Remove standing water immediately using a wet-dry shop vac. For soaked carpet, pull it back from the wall so air can reach the pad, saturated pad almost always needs to come out. Move furniture off wet carpet right away. Place aluminum foil under wooden legs to stop furniture stain from bleeding permanently into the fibers, it happens faster than you'd think. Don't run ceiling fans if the ceiling is wet, a saturated ceiling can collapse. And never use a regular household vacuum on water. It's not designed for liquid and creates a real safety risk. Don't wait and hope it dries out. Mold can start in 24 to 48 hours. Call MCC Restoration and Contracting Services at 682-772-9123 for a free estimate today."
 ---
-Stop the water first. If a pipe burst or an appliance failed, locate your main shutoff valve — usually near the water meter, in a utility closet, or under the kitchen sink — and turn it off. If flooding came from outside or a roof leak, get everyone away from standing water near electrical panels or outlets. Once the source is controlled, you have a narrow window — roughly 24 to 48 hours — before wet materials begin growing mold and structural damage compounds. Here is exactly what to do, in order.
+Stop the water first. If a pipe burst or an appliance failed, locate your main shutoff valve, usually near the water meter, in a utility closet, or under the kitchen sink, and turn it off. If flooding came from outside or a roof leak, get everyone away from standing water near electrical panels or outlets. Once the source is controlled, you have a narrow window, roughly 24 to 48 hours, before wet materials begin growing mold and structural damage compounds. Here is exactly what to do, in order.
 
 ## Step 1: Stop the Source and Make It Safe to Enter
 
 Before you touch anything, confirm the space is safe:
 
 1. **Cut the water supply** at the main shutoff valve or, if it's an appliance line (washing machine, dishwasher, refrigerator icemaker), at the braided supply line valve behind the unit.
-2. **Turn off electricity to affected rooms** at the breaker panel. Water and live circuits are a lethal combination — if the panel itself is in a flooded area, call your utility company (Oncor serves most of Duncanville) and ask them to cut power at the meter before you enter.
+2. **Turn off electricity to affected rooms** at the breaker panel. Water and live circuits are a lethal combination, if the panel itself is in a flooded area, call your utility company (Oncor serves most of Duncanville) and ask them to cut power at the meter before you enter.
 3. **Ventilate if you smell gas.** A water heater flood can extinguish a pilot light and leave gas flowing. Open windows, leave the house, and call Atmos Energy or 911.
 4. **Document before you move anything.** Walk through with your phone and shoot video of every wet surface, soaked item, and visible damage. This footage is your insurance claim.
 
@@ -34,16 +34,16 @@ Do not skip the documentation step even when you're anxious to start cleaning up
 
 ## Step 2: Remove Standing Water and Wet Materials
 
-Time is the enemy here. Drywall begins wicking moisture upward within minutes. Hardwood floors start to cup and buckle within hours. Mold spores — always present in the air — can colonize wet organic material in as little as 24 to 48 hours under warm, humid Texas conditions.
+Time is the enemy here. Drywall begins wicking moisture upward within minutes. Hardwood floors start to cup and buckle within hours. Mold spores, always present in the air, can colonize wet organic material in as little as 24 to 48 hours under warm, humid Texas conditions.
 
-**If you have a wet/dry shop vac**, use it immediately on hard floors and tile. For carpet, extract as much as you can, then pull back the carpet from the tack strip along one wall so air can reach the pad underneath. Saturated carpet pad almost always needs to come out — it holds water like a sponge and dries too slowly to prevent mold.
+**If you have a wet/dry shop vac**, use it immediately on hard floors and tile. For carpet, extract as much as you can, then pull back the carpet from the tack strip along one wall so air can reach the pad underneath. Saturated carpet pad almost always needs to come out, it holds water like a sponge and dries too slowly to prevent mold.
 
 **Move furniture off wet carpet** or place aluminum foil squares under wooden legs. Furniture dye and wood stain can leach into wet carpet permanently within hours.
 
-**Open interior doors and closets** to increase airflow. If outdoor humidity is lower than indoor humidity (common in DFW during late fall and winter), open windows. In summer, keep windows closed and run the air conditioner — it dehumidifies while it cools.
+**Open interior doors and closets** to increase airflow. If outdoor humidity is lower than indoor humidity (common in DFW during late fall and winter), open windows. In summer, keep windows closed and run the air conditioner, it dehumidifies while it cools.
 
 A few things to move outside or to a dry area right away:
-- Books, documents, and photos (freeze them in zip-lock bags if you can't dry them immediately — freezing stops further deterioration)
+- Books, documents, and photos (freeze them in zip-lock bags if you can't dry them immediately, freezing stops further deterioration)
 - Electronics
 - Area rugs
 - Upholstered furniture that absorbed water at the base
@@ -56,18 +56,18 @@ Some common instincts make the damage worse.
 
 **Don't run ceiling fans in a room with a wet ceiling.** If water has pooled above the drywall, the fan motor can arc, and the added vibration can cause a saturated ceiling to collapse.
 
-**Don't assume the damage is only what you can see.** Water travels. A supply line that failed under a bathroom vanity can seep through the subfloor into the ceiling of the room below before you notice it. If the leak ran for more than a few minutes, probe adjacent walls and floors with your hand — soft spots, bubbling paint, or a faint musty smell are signs moisture has migrated.
+**Don't assume the damage is only what you can see.** Water travels. A supply line that failed under a bathroom vanity can seep through the subfloor into the ceiling of the room below before you notice it. If the leak ran for more than a few minutes, probe adjacent walls and floors with your hand, soft spots, bubbling paint, or a faint musty smell are signs moisture has migrated.
 
 **Don't use high heat to dry things faster.** Space heaters and hair dryers can warp wood and drive moisture deeper into wall cavities rather than evaporating it. Controlled airflow with fans and dehumidifiers is more effective.
 
-**Don't throw away damaged materials before your adjuster sees them** — or at minimum, before you've photographed everything in detail. Flooring, cabinetry, and appliances all need to be documented for reimbursement.
+**Don't throw away damaged materials before your adjuster sees them**, or at minimum, before you've photographed everything in detail. Flooring, cabinetry, and appliances all need to be documented for reimbursement.
 
 ## When to Call a Water Damage Professional
 
-DIY extraction and drying works for small, contained incidents — a dishwasher that overflowed onto a tile floor, a toilet supply line that was caught within minutes. It stops being adequate in several situations:
+DIY extraction and drying works for small, contained incidents, a dishwasher that overflowed onto a tile floor, a toilet supply line that was caught within minutes. It stops being adequate in several situations:
 
 - **The water came from a contaminated source.** Sewage backups, floodwater from outside, and water that has sat more than 24 hours are classified as Category 2 or Category 3 water under industry standards. These require protective equipment and antimicrobial treatment, not just drying.
-- **The affected area is larger than roughly 10 square feet of wet drywall**, or water reached wall cavities and insulation. Wet insulation loses its R-value and traps moisture against framing — it needs to come out.
+- **The affected area is larger than roughly 10 square feet of wet drywall**, or water reached wall cavities and insulation. Wet insulation loses its R-value and traps moisture against framing, it needs to come out.
 - **The leak was hidden and slow.** If you discovered damage by smell or a soft floor rather than an obvious flood, mold may already be present. A professional can use moisture meters and thermal imaging to map the full extent of saturation before tearing into walls.
 - **Structural materials are involved.** Wet subfloor, wet load-bearing framing, or a compromised foundation slab all require assessment beyond what a homeowner can safely evaluate.
 - **You're filing an insurance claim.** A documented scope of work from a licensed restoration contractor carries more weight with adjusters than a homeowner's estimate, and many restoration companies handle the billing process directly with carriers.
@@ -76,11 +76,11 @@ For Duncanville homeowners, the combination of clay-heavy soil and older housing
 
 ## The Recovery Process: What Comes After the First Day
 
-Once immediate extraction is done, professional water damage restoration typically follows a structured drying protocol. Industrial air movers and commercial dehumidifiers run continuously — usually for three to five days — while moisture readings are taken daily to confirm materials are returning to acceptable levels. This isn't something that can be rushed by adding more heat; it's a function of vapor pressure and airflow.
+Once immediate extraction is done, professional water damage restoration typically follows a structured drying protocol. Industrial air movers and commercial dehumidifiers run continuously, usually for three to five days, while moisture readings are taken daily to confirm materials are returning to acceptable levels. This isn't something that can be rushed by adding more heat; it's a function of vapor pressure and airflow.
 
 After materials are confirmed dry, reconstruction begins: replacing drywall, insulation, flooring, and cabinetry as needed. If mold is found during demo, remediation happens before any rebuild work closes up the walls.
 
-The full timeline from flood to finished repair varies widely — a single-room water loss might be resolved in one to two weeks, while a multi-floor event with structural damage can take four to six weeks or longer, especially if the home is older and materials need to be sourced to match existing finishes.
+The full timeline from flood to finished repair varies widely, a single-room water loss might be resolved in one to two weeks, while a multi-floor event with structural damage can take four to six weeks or longer, especially if the home is older and materials need to be sourced to match existing finishes.
 
 ---
 
@@ -88,4 +88,4 @@ If you're in the middle of a water loss right now and the damage is beyond what 
 
 ## Video Transcript
 
-Water damage in your home? The next 24 hours are critical. Act fast and you can prevent mold, structural damage, and thousands in extra repair costs. First, shut off your water at the main valve — usually near the meter, in a utility closet, or under the kitchen sink. Stop the source before anything else. Next, switch off electricity to any affected rooms at your breaker panel. Water and live circuits are a dangerous combination — don't skip this step. Before you move a single item, record everything on your phone. Video every wet surface and damaged area. This footage is your insurance claim — do not skip it. Remove standing water immediately using a wet-dry shop vac. For soaked carpet, pull it back from the wall so air can reach the pad — saturated pad almost always needs to come out. Move furniture off wet carpet right away. Place aluminum foil under wooden legs to stop furniture stain from bleeding permanently into the fibers — it happens faster than you'd think. Don't run ceiling fans if the ceiling is wet — a saturated ceiling can collapse. And never use a regular household vacuum on water. It's not designed for liquid and creates a real safety risk. Don't wait and hope it dries out. Mold can start in 24 to 48 hours. Call MCC Restoration and Contracting Services at 682-772-9123 for a free estimate today.
+Water damage in your home? The next 24 hours are critical. Act fast and you can prevent mold, structural damage, and thousands in extra repair costs. First, shut off your water at the main valve, usually near the meter, in a utility closet, or under the kitchen sink. Stop the source before anything else. Next, switch off electricity to any affected rooms at your breaker panel. Water and live circuits are a dangerous combination, don't skip this step. Before you move a single item, record everything on your phone. Video every wet surface and damaged area. This footage is your insurance claim, do not skip it. Remove standing water immediately using a wet-dry shop vac. For soaked carpet, pull it back from the wall so air can reach the pad, saturated pad almost always needs to come out. Move furniture off wet carpet right away. Place aluminum foil under wooden legs to stop furniture stain from bleeding permanently into the fibers, it happens faster than you'd think. Don't run ceiling fans if the ceiling is wet, a saturated ceiling can collapse. And never use a regular household vacuum on water. It's not designed for liquid and creates a real safety risk. Don't wait and hope it dries out. Mold can start in 24 to 48 hours. Call MCC Restoration and Contracting Services at 682-772-9123 for a free estimate today.

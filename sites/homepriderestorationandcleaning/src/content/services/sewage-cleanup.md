@@ -18,46 +18,46 @@ service_slug: "sewage-cleanup"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
-A sewer line backs up and raw sewage surfaces in your basement drain at 11 p.m. By morning, Category 3 black water — carrying fecal coliform, hepatitis-risk pathogens, and aerosolized contaminants — has soaked into the concrete slab, wicked up drywall, and saturated any porous material within reach. Every hour that passes widens the affected zone and deepens the remediation scope. This is not a shop-vac-and-bleach situation. Sewage cleanup requires containment, extraction with the right equipment, hospital-grade disinfection, and documented clearance — in that order.
+A sewer line backs up and raw sewage surfaces in your basement drain at 11 p.m. By morning, Category 3 black water, carrying fecal coliform, hepatitis-risk pathogens, and aerosolized contaminants, has soaked into the concrete slab, wicked up drywall, and saturated any porous material within reach. Every hour that passes widens the affected zone and deepens the remediation scope. This is not a shop-vac-and-bleach situation. Sewage cleanup requires containment, extraction with the right equipment, hospital-grade disinfection, and documented clearance, in that order.
 
 ## What sewage cleanup and sanitization actually involves
 
-Sewage events are classified as Category 3 water intrusions under IICRC S500 standards — the most contaminated category. That classification changes everything: the personal protective equipment worn on-site, the disposal protocol for affected materials, the disinfectants used, and the documentation required for insurance.
+Sewage events are classified as Category 3 water intrusions under IICRC S500 standards, the most contaminated category. That classification changes everything: the personal protective equipment worn on-site, the disposal protocol for affected materials, the disinfectants used, and the documentation required for insurance.
 
 The visible sewage is only part of the problem. Raw sewage carries bacteria, viruses, and parasites that absorb into drywall, insulation, carpet padding, and wood framing within hours. Concrete, often assumed to be impermeable, is porous enough to harbor contamination several inches deep. Subfloor OSB and plywood delaminate quickly and become a reservoir for microbial growth if not removed or treated correctly.
 
-On a typical residential sewage backup — a main line blockage flooding a finished basement in Saratoga Springs or a septic overflow reaching a crawl space — the remediation scope includes physical extraction of standing sewage, controlled demolition of non-salvageable porous materials, HEPA vacuuming of residual solids, multi-stage disinfection with EPA-registered antimicrobials, and structural drying to prevent secondary mold colonization. Mold can begin colonizing wet organic material in as little as 24–48 hours in Utah's dry-but-warm summer conditions, so drying is not a finishing step — it runs concurrently with sanitization.
+On a typical residential sewage backup, a main line blockage flooding a finished basement in Saratoga Springs or a septic overflow reaching a crawl space, the remediation scope includes physical extraction of standing sewage, controlled demolition of non-salvageable porous materials, HEPA vacuuming of residual solids, multi-stage disinfection with EPA-registered antimicrobials, and structural drying to prevent secondary mold colonization. Mold can begin colonizing wet organic material in as little as 24–48 hours in Utah's dry-but-warm summer conditions, so drying is not a finishing step, it runs concurrently with sanitization.
 
 ## Our process
 
 **1. Containment and PPE staging**
-Before extraction begins, the affected area is isolated with poly sheeting and negative air pressure where cross-contamination to living spaces is a risk. Technicians suit up in full Tyvek, respirators, and gloves — not as theater, but because aerosolization of sewage particulate during extraction is a genuine exposure hazard.
+Before extraction begins, the affected area is isolated with poly sheeting and negative air pressure where cross-contamination to living spaces is a risk. Technicians suit up in full Tyvek, respirators, and gloves, not as theater, but because aerosolization of sewage particulate during extraction is a genuine exposure hazard.
 
 **2. Bulk sewage extraction and solid removal**
-Truck-mounted extraction units pull standing liquid. Solids and semi-solids are removed manually and bagged for regulated waste disposal. This step cannot be rushed — residual organic matter left behind defeats every disinfection step that follows.
+Truck-mounted extraction units pull standing liquid. Solids and semi-solids are removed manually and bagged for regulated waste disposal. This step cannot be rushed, residual organic matter left behind defeats every disinfection step that follows.
 
 **3. Controlled demolition of contaminated materials**
 Category 3 water-saturated drywall, insulation, carpet, and pad are non-salvageable under IICRC guidelines and are removed. Subfloor and framing are assessed individually; salvageable structural wood is treated in place. All removed material is documented by type and square footage for the insurance claim.
 
 **4. Multi-stage disinfection**
-The exposed structure receives two rounds of EPA-registered, hospital-grade disinfectant — an initial application after demolition and a final application after HEPA vacuuming removes residual particulate. Disinfectants are selected for efficacy against fecal coliform, norovirus, and hepatitis A — the primary pathogen concerns in residential sewage events. Contact time is strictly observed; wiping product off before dwell time completes is one of the most common shortcuts taken by undertrained crews.
+The exposed structure receives two rounds of EPA-registered, hospital-grade disinfectant, an initial application after demolition and a final application after HEPA vacuuming removes residual particulate. Disinfectants are selected for efficacy against fecal coliform, norovirus, and hepatitis A, the primary pathogen concerns in residential sewage events. Contact time is strictly observed; wiping product off before dwell time completes is one of the most common shortcuts taken by undertrained crews.
 
 **5. Structural drying and clearance documentation**
 Commercial desiccant or refrigerant dehumidifiers and high-velocity air movers run until moisture readings in framing and concrete return to baseline. Final moisture logs and photographic documentation are compiled for the insurance adjuster and for your records before the job is closed.
 
 ## What separates a good sewage response from a bad one
 
-The most common failure point in sewage cleanup is incomplete material removal. A crew that cleans the surface of contaminated drywall instead of removing it is creating a future mold and odor problem — and potentially a liability issue when the next buyer's inspector finds it. Insurance adjusters reviewing sewage claims look for moisture logs with timestamps, pre- and post-remediation photos, and a material removal inventory. A file without those documents is a file that gets disputed.
+The most common failure point in sewage cleanup is incomplete material removal. A crew that cleans the surface of contaminated drywall instead of removing it is creating a future mold and odor problem, and potentially a liability issue when the next buyer's inspector finds it. Insurance adjusters reviewing sewage claims look for moisture logs with timestamps, pre- and post-remediation photos, and a material removal inventory. A file without those documents is a file that gets disputed.
 
 The second most common failure is skipping or shortcutting the dwell time on disinfectants. Quaternary ammonium compounds and accelerated hydrogen peroxide products require 5–10 minutes of wet contact time to achieve rated kill efficacy. Spraying and immediately wiping produces surfaces that test positive for contamination.
 
-Finally, sewage events that reach HVAC systems — floor registers, ductwork, air handlers — require duct cleaning and disinfection as a separate scope. Contaminated ducts will redistribute pathogens and odor every time the system cycles. This scope is frequently missed on initial estimates and added as a supplement after the adjuster reviews.
+Finally, sewage events that reach HVAC systems, floor registers, ductwork, air handlers, require duct cleaning and disinfection as a separate scope. Contaminated ducts will redistribute pathogens and odor every time the system cycles. This scope is frequently missed on initial estimates and added as a supplement after the adjuster reviews.
 
 ## Seasonal and regional considerations
 
-In Saratoga Springs and Utah County broadly, the two peak periods for sewage backups are late winter through early spring — when ground frost heave stresses older clay and cast-iron sewer laterals — and late summer, when monsoon-pattern rain events overwhelm municipal storm-sewer capacity and cause sanitary sewer surcharges. Homes in Eagle Mountain, Lehi, and American Fork built before 2000 are disproportionately represented in sewer lateral failures because of aging pipe materials. Septic system overflows spike in spring as saturated soil reduces drain field absorption capacity.
+In Saratoga Springs and Utah County broadly, the two peak periods for sewage backups are late winter through early spring, when ground frost heave stresses older clay and cast-iron sewer laterals, and late summer, when monsoon-pattern rain events overwhelm municipal storm-sewer capacity and cause sanitary sewer surcharges. Homes in Eagle Mountain, Lehi, and American Fork built before 2000 are disproportionately represented in sewer lateral failures because of aging pipe materials. Septic system overflows spike in spring as saturated soil reduces drain field absorption capacity.
 
-Utah's low ambient humidity is a genuine advantage during structural drying — desiccant dehumidifiers reach target moisture levels faster here than in humid-climate states — but it can mask odor problems that surface later when the structure is sealed up for winter.
+Utah's low ambient humidity is a genuine advantage during structural drying, desiccant dehumidifiers reach target moisture levels faster here than in humid-climate states, but it can mask odor problems that surface later when the structure is sealed up for winter.
 
 ## Service area
 

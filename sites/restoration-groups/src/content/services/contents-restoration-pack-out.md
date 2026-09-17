@@ -17,21 +17,21 @@ service_slug: "contents-restoration-pack-out"
 service_display: "Contents Restoration & Pack-Out"
 rendered: true
 ---
-After a fire, flood, or sewage backup, the structure gets most of the attention — but the belongings inside are often where families feel the loss most acutely. A water-soaked photo album, smoke-saturated upholstered furniture, or mold-colonized clothing can't wait for structural drying to finish. Contents restoration and pack-out is the discipline of moving, cataloging, cleaning, and returning personal property — separately from the building work — so that salvageable items are actually saved instead of written off on a depreciated insurance line.
+After a fire, flood, or sewage backup, the structure gets most of the attention, but the belongings inside are often where families feel the loss most acutely. A water-soaked photo album, smoke-saturated upholstered furniture, or mold-colonized clothing can't wait for structural drying to finish. Contents restoration and pack-out is the discipline of moving, cataloging, cleaning, and returning personal property, separately from the building work, so that salvageable items are actually saved instead of written off on a depreciated insurance line.
 
 ## What contents restoration & pack-out actually involves
 
 Pack-out is not moving day. It is a structured, documented removal of personal property from a loss environment so that items can be cleaned in a controlled facility rather than in a wet, smoky, or contaminated structure. Every item that leaves the home is photographed, barcoded, and entered into a contents management system before it goes into a crate. That inventory becomes part of the insurance claim file.
 
-Once at the cleaning facility, technicians sort contents by material type and contamination category. Textiles go through ozone or hydroxyl treatment for odor, then laundering or dry-cleaning depending on fiber. Hard goods — ceramics, metals, plastics — are cleaned with ultrasonic equipment that uses high-frequency sound waves in a cleaning solution to pull soot, smoke residue, and biological contamination out of surface pores that a hand-wipe cannot reach. Electronics are evaluated by a qualified technician before any cleaning attempt, because heat and soot can compromise circuit boards in ways that aren't visible on the outside.
+Once at the cleaning facility, technicians sort contents by material type and contamination category. Textiles go through ozone or hydroxyl treatment for odor, then laundering or dry-cleaning depending on fiber. Hard goods, ceramics, metals, plastics, are cleaned with ultrasonic equipment that uses high-frequency sound waves in a cleaning solution to pull soot, smoke residue, and biological contamination out of surface pores that a hand-wipe cannot reach. Electronics are evaluated by a qualified technician before any cleaning attempt, because heat and soot can compromise circuit boards in ways that aren't visible on the outside.
 
 Documents and photographs are a specialty category. Wet paper that has been frozen within 24–48 hours of saturation can often be freeze-dried and recovered. Paper that has been wet for longer, or that has begun to develop mold, has a narrower recovery window. Smoke-damaged documents without moisture involvement are more forgiving but still require careful handling.
 
-Storage during the restoration period is climate-controlled. Items return to the home only after the structure has passed drying or clearance milestones — not before.
+Storage during the restoration period is climate-controlled. Items return to the home only after the structure has passed drying or clearance milestones, not before.
 
 ## Our process
 
-1. **Pre-pack inventory and condition documentation.** Before anything is touched, technicians photograph and log every item in the affected areas. Condition at the time of pack-out is recorded — this protects homeowners if a dispute arises later about pre-existing damage versus loss-related damage.
+1. **Pre-pack inventory and condition documentation.** Before anything is touched, technicians photograph and log every item in the affected areas. Condition at the time of pack-out is recorded, this protects homeowners if a dispute arises later about pre-existing damage versus loss-related damage.
 
 2. **Triage and salvageability assessment.** Not everything can or should be packed out. Items that are structurally compromised, heavily contaminated with Category 3 water or biohazard material, or too deteriorated to clean economically are flagged for adjuster review rather than packed. This triage step prevents the cleaning facility from receiving unsalvageable material that inflates the job cost without improving the outcome.
 
@@ -43,17 +43,17 @@ Storage during the restoration period is climate-controlled. Items return to the
 
 ## What separates a good contents response from a bad one
 
-The most common failure in contents work is inadequate documentation at the point of pack-out. When items leave a home without a detailed condition log, the homeowner has no evidence of what was damaged at the time of loss versus what may have been damaged in transit or cleaning. Insurance adjusters look for timestamped photographs and itemized inventories — a handwritten list on a clipboard does not meet that standard.
+The most common failure in contents work is inadequate documentation at the point of pack-out. When items leave a home without a detailed condition log, the homeowner has no evidence of what was damaged at the time of loss versus what may have been damaged in transit or cleaning. Insurance adjusters look for timestamped photographs and itemized inventories, a handwritten list on a clipboard does not meet that standard.
 
 A second common problem is cleaning without triage. Packing out every item regardless of salvageability runs up cleaning costs that insurers will dispute, and it delays the return of the items that actually matter. Experienced technicians make the hard call at the house, not at the facility.
 
-Odor is the most frequently underestimated variable. Smoke odor in particular bonds to porous surfaces at a molecular level. Items that smell clean after a surface wipe will often off-gas again once they're back in a warm room. Proper odor treatment — ozone chamber, hydroxyl generator, or thermal fogging depending on the material — is not optional for smoke-loss contents. Skipping it means the homeowner calls back in three weeks.
+Odor is the most frequently underestimated variable. Smoke odor in particular bonds to porous surfaces at a molecular level. Items that smell clean after a surface wipe will often off-gas again once they're back in a warm room. Proper odor treatment, ozone chamber, hydroxyl generator, or thermal fogging depending on the material, is not optional for smoke-loss contents. Skipping it means the homeowner calls back in three weeks.
 
 Finally, electronics should never be powered on in the field to test them. Soot is conductive. Energizing a smoke-contaminated circuit board can cause a short that destroys a device that was otherwise recoverable.
 
 ## What does contents restoration & pack-out cost?
 
-Typical costs for contents restoration and pack-out depend heavily on volume, contamination type, and the proportion of specialty items involved. Most homeowners pay somewhere in the ranges below — these are industry-typical figures, not quotes, and every loss is different. The Restoration Group provides a written scope of work before any billable work begins. Homeowners insurance typically covers contents restoration when the underlying loss (fire, water, storm) is a covered peril, subject to your policy's contents sublimit and depreciation schedule.
+Typical costs for contents restoration and pack-out depend heavily on volume, contamination type, and the proportion of specialty items involved. Most homeowners pay somewhere in the ranges below, these are industry-typical figures, not quotes, and every loss is different. The Restoration Group provides a written scope of work before any billable work begins. Homeowners insurance typically covers contents restoration when the underlying loss (fire, water, storm) is a covered peril, subject to your policy's contents sublimit and depreciation schedule.
 
 | Scenario | Typical industry range |
 |---|---|
@@ -66,12 +66,12 @@ Typical costs for contents restoration and pack-out depend heavily on volume, co
 
 ## Seasonal & regional considerations
 
-In northern New Jersey, the combination of older housing stock and seasonal humidity creates specific contents risks. Homes built before the 1970s frequently have plaster walls and wood-lath construction that holds moisture longer than drywall — which means contents in those rooms are exposed to elevated humidity for a longer window after a water loss, accelerating mold colonization on textiles and paper. The window between a water event and the onset of visible mold growth can be as short as 48–72 hours in warm, humid conditions, which is why prompt pack-out matters as much as prompt drying.
+In northern New Jersey, the combination of older housing stock and seasonal humidity creates specific contents risks. Homes built before the 1970s frequently have plaster walls and wood-lath construction that holds moisture longer than drywall, which means contents in those rooms are exposed to elevated humidity for a longer window after a water loss, accelerating mold colonization on textiles and paper. The window between a water event and the onset of visible mold growth can be as short as 48–72 hours in warm, humid conditions, which is why prompt pack-out matters as much as prompt drying.
 
-Winter pipe failures — common during hard freezes in Union and Essex counties — tend to produce large-volume clean-water losses quickly. The volume of water that can discharge from a burst supply line in an unoccupied home over a weekend is enough to saturate contents on multiple floors. Early pack-out in those situations protects items from secondary damage while the structure is being dried.
+Winter pipe failures, common during hard freezes in Union and Essex counties, tend to produce large-volume clean-water losses quickly. The volume of water that can discharge from a burst supply line in an unoccupied home over a weekend is enough to saturate contents on multiple floors. Early pack-out in those situations protects items from secondary damage while the structure is being dried.
 
 ## Service area
 
-The Restoration Group is based in Kenilworth, NJ and provides contents restoration and pack-out services throughout Union County and into surrounding Essex, Middlesex, and Morris counties. Individual service-area pages cover specific cities — if you're searching from a neighboring town, those pages link back here for the full process detail.
+The Restoration Group is based in Kenilworth, NJ and provides contents restoration and pack-out services throughout Union County and into surrounding Essex, Middlesex, and Morris counties. Individual service-area pages cover specific cities, if you're searching from a neighboring town, those pages link back here for the full process detail.
 
-If your belongings are sitting in a damaged structure right now, the clock on secondary damage is already running. Call (855) 650-7422 to schedule a contents assessment and pack-out — available 24/7.
+If your belongings are sitting in a damaged structure right now, the clock on secondary damage is already running. Call (855) 650-7422 to schedule a contents assessment and pack-out, available 24/7.

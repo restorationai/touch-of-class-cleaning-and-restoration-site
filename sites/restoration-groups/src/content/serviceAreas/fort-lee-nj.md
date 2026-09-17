@@ -19,29 +19,29 @@ state: "NJ"
 primary: false
 rendered: true
 ---
-When a supply line bursts on the 18th floor of a Palisades high-rise or a storm sends runoff cascading down toward Coytesville, Fort Lee property owners need a restoration crew that already understands the building stock, the terrain, and the pace of a densely populated Bergen County city. The Restoration Group dispatches from Kenilworth around the clock — 24/7 — to handle water damage, fire and smoke damage, mold remediation, and full reconstruction across Fort Lee's ZIP code 07024.
+When a supply line bursts on the 18th floor of a Palisades high-rise or a storm sends runoff cascading down toward Coytesville, Fort Lee property owners need a restoration crew that already understands the building stock, the terrain, and the pace of a densely populated Bergen County city. The Restoration Group dispatches from Kenilworth around the clock, 24/7, to handle water damage, fire and smoke damage, mold remediation, and full reconstruction across Fort Lee's ZIP code 07024.
 
 ## Restoration emergencies common in Fort Lee
 
-Fort Lee's geography and housing mix create a specific pattern of losses that sets it apart from most of Bergen County. The city sits on top of the Palisades cliffs above the Hudson River, and that steep-grade terrain means heavy rain moves fast. Storm runoff overwhelms drains along the ridgeline and funnels into lower-lying streets and basements before municipal systems can keep up — a dynamic that became painfully clear when Ida swept through Bergen County in 2021 and left flooded lower levels and saturated crawl spaces across the region.
+Fort Lee's geography and housing mix create a specific pattern of losses that sets it apart from most of Bergen County. The city sits on top of the Palisades cliffs above the Hudson River, and that steep-grade terrain means heavy rain moves fast. Storm runoff overwhelms drains along the ridgeline and funnels into lower-lying streets and basements before municipal systems can keep up, a dynamic that became painfully clear when Ida swept through Bergen County in 2021 and left flooded lower levels and saturated crawl spaces across the region.
 
-Above grade, the story is different. The dense corridor of high-rise condominiums and apartment towers that lines the Palisades — many of them 20 to 40 stories — means a single failed washing-machine hose or a slow-dripping supply valve on one floor can saturate the unit directly below it, then the one below that, stacking water damage claims through multiple HOA-governed units before anyone locates the source. The Main Street business district and the Hudson Lights mixed-use complex add commercial losses to the mix: retail and restaurant tenants with finished ceilings, electrical infrastructure, and lease obligations that make fast documentation as important as fast drying.
+Above grade, the story is different. The dense corridor of high-rise condominiums and apartment towers that lines the Palisades, many of them 20 to 40 stories, means a single failed washing-machine hose or a slow-dripping supply valve on one floor can saturate the unit directly below it, then the one below that, stacking water damage claims through multiple HOA-governed units before anyone locates the source. The Main Street business district and the Hudson Lights mixed-use complex add commercial losses to the mix: retail and restaurant tenants with finished ceilings, electrical infrastructure, and lease obligations that make fast documentation as important as fast drying.
 
-Older neighborhoods tell a third story. Prewar wood-frame homes and multifamily buildings in Coytesville and The Hill were built before modern vapor barriers and drainage codes. They hold moisture differently than poured-concrete towers, and they're more likely to develop mold colonies within 48 to 72 hours of a slow leak going unnoticed — especially in the humid stretch from June through September.
+Older neighborhoods tell a third story. Prewar wood-frame homes and multifamily buildings in Coytesville and The Hill were built before modern vapor barriers and drainage codes. They hold moisture differently than poured-concrete towers, and they're more likely to develop mold colonies within 48 to 72 hours of a slow leak going unnoticed, especially in the humid stretch from June through September.
 
 ## Services we provide in Fort Lee
 
 ### Water damage restoration
 
-Water damage in Fort Lee often starts as a plumbing failure inside a stacked residential building and spreads vertically before it spreads horizontally. We scope affected units, extract standing water, place industrial drying equipment, and document moisture readings floor by floor — the kind of multi-unit coordination that property managers at buildings near the George Washington Bridge and throughout Central Fort Lee call us back for repeatedly.
+Water damage in Fort Lee often starts as a plumbing failure inside a stacked residential building and spreads vertically before it spreads horizontally. We scope affected units, extract standing water, place industrial drying equipment, and document moisture readings floor by floor, the kind of multi-unit coordination that property managers at buildings near the George Washington Bridge and throughout Central Fort Lee call us back for repeatedly.
 
 ### Mold remediation
 
-Mold in Fort Lee's older housing stock — particularly in Coytesville and The Hill — frequently hides behind plaster walls and under original hardwood subfloors where a slow leak went undetected for weeks. We contain, remediate, and clear affected areas following EPA guidelines, and we provide the written documentation that co-op boards and HOAs typically require before authorizing repairs.
+Mold in Fort Lee's older housing stock, particularly in Coytesville and The Hill, frequently hides behind plaster walls and under original hardwood subfloors where a slow leak went undetected for weeks. We contain, remediate, and clear affected areas following EPA guidelines, and we provide the written documentation that co-op boards and HOAs typically require before authorizing repairs.
 
 ### Fire and smoke damage restoration
 
-Smoke residue in a high-rise unit travels through HVAC returns and under door gaps faster than most residents expect. After a kitchen fire or an electrical event, the visible char is rarely the full extent of the damage. We assess odor penetration, clean affected surfaces, and restore contents where salvageable — working within building management schedules to minimize disruption to neighboring units.
+Smoke residue in a high-rise unit travels through HVAC returns and under door gaps faster than most residents expect. After a kitchen fire or an electrical event, the visible char is rarely the full extent of the damage. We assess odor penetration, clean affected surfaces, and restore contents where salvageable, working within building management schedules to minimize disruption to neighboring units.
 
 ### Storm and flood damage
 
@@ -49,7 +49,7 @@ Runoff events along the Palisades cliffs and in lower-lying streets near Fort Le
 
 ### Reconstruction
 
-Once mitigation is complete, we handle the rebuild — drywall, flooring, cabinetry, and finishes — so property owners are not managing two separate contractors through an already stressful claim.
+Once mitigation is complete, we handle the rebuild, drywall, flooring, cabinetry, and finishes, so property owners are not managing two separate contractors through an already stressful claim.
 
 ## Coverage and how fast we can get there
 

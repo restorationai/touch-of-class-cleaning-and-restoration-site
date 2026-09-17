@@ -19,13 +19,13 @@ state: "NJ"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a finished wall in a Battle Hill split-level, or a storm drain backs up into a Vauxhall basement at 2 a.m., The Restoration Group dispatches from Kenilworth around the clock — water extraction, structural drying, mold containment, fire and smoke cleanup, and full reconstruction, all coordinated under one crew so Union property owners are not juggling multiple contractors during the worst week of their year. Call us at **(908) 970-8533** any time.
+When a pipe bursts behind a finished wall in a Battle Hill split-level, or a storm drain backs up into a Vauxhall basement at 2 a.m., The Restoration Group dispatches from Kenilworth around the clock, water extraction, structural drying, mold containment, fire and smoke cleanup, and full reconstruction, all coordinated under one crew so Union property owners are not juggling multiple contractors during the worst week of their year. Call us at **(908) 970-8533** any time.
 
 ## Restoration emergencies common in Union
 
-Union Township's postwar building boom left behind a dense grid of 1940s–1960s capes, split-levels, and colonials — most of them with original galvanized or early copper supply lines and cast-iron drain stacks that are now well past their design life. When those pipes fail, they almost always fail into finished or semi-finished basements, which means the loss involves drywall, insulation, flooring, and stored contents from the first moment. That pattern repeats itself across Union Center, Washington, and Putnam Ridge every season.
+Union Township's postwar building boom left behind a dense grid of 1940s–1960s capes, split-levels, and colonials, most of them with original galvanized or early copper supply lines and cast-iron drain stacks that are now well past their design life. When those pipes fail, they almost always fail into finished or semi-finished basements, which means the loss involves drywall, insulation, flooring, and stored contents from the first moment. That pattern repeats itself across Union Center, Washington, and Putnam Ridge every season.
 
-Water table and geography compound the problem. Tributaries of the Elizabeth River and the Rahway River thread through the township, and low-lying corridors off Morris Avenue and through Vauxhall flooded significantly during Tropical Storm Ida. Hard summer convective storms regularly push those same channels over their banks. The Route 22 retail corridor adds a commercial dimension: sprinkler-system discharges, roof membrane failures on flat big-box rooftops, and overnight losses at restaurants that sit dark for hours before anyone notices standing water. Kean University's residential buildings generate a steady stream of student-housing water events — appliance failures, tub overflows, and HVAC condensate leaks — that require rapid response to keep one unit's loss from migrating into the floors below.
+Water table and geography compound the problem. Tributaries of the Elizabeth River and the Rahway River thread through the township, and low-lying corridors off Morris Avenue and through Vauxhall flooded significantly during Tropical Storm Ida. Hard summer convective storms regularly push those same channels over their banks. The Route 22 retail corridor adds a commercial dimension: sprinkler-system discharges, roof membrane failures on flat big-box rooftops, and overnight losses at restaurants that sit dark for hours before anyone notices standing water. Kean University's residential buildings generate a steady stream of student-housing water events, appliance failures, tub overflows, and HVAC condensate leaks, that require rapid response to keep one unit's loss from migrating into the floors below.
 
 Union also sits in a climate zone where freeze-thaw cycles hit hard in January and February. Homes in Larchmont and along the older streets near Liberty Hall Museum frequently see ice dams and freeze-cracked supply lines in the same winter week.
 
@@ -33,7 +33,7 @@ Union also sits in a climate zone where freeze-thaw cycles hit hard in January a
 
 ### Water damage restoration
 
-Water damage in Union often originates in the mechanical systems of postwar homes — failing supply lines, corroded drain connections, and sump pumps overwhelmed by storm surge. We extract standing water, remove saturated building materials, and run structural drying equipment calibrated to the dense framing typical of the era. For finished basements, that means careful documentation before any demolition so your insurance adjuster has a clear picture of what was there.
+Water damage in Union often originates in the mechanical systems of postwar homes, failing supply lines, corroded drain connections, and sump pumps overwhelmed by storm surge. We extract standing water, remove saturated building materials, and run structural drying equipment calibrated to the dense framing typical of the era. For finished basements, that means careful documentation before any demolition so your insurance adjuster has a clear picture of what was there.
 
 ### Mold remediation
 
@@ -41,7 +41,7 @@ Union's humid summers and chronically damp basement environments create conditio
 
 ### Fire and smoke damage restoration
 
-Fire losses in Union's attached and semi-attached housing stock carry a real risk of smoke migration into neighboring units through shared wall cavities and attic spaces. We address both the visible char and the invisible smoke residue — the oily film that embeds in drywall, ductwork, and personal belongings and continues to off-gas long after the flames are out. Odor neutralization is part of every fire job, not an add-on.
+Fire losses in Union's attached and semi-attached housing stock carry a real risk of smoke migration into neighboring units through shared wall cavities and attic spaces. We address both the visible char and the invisible smoke residue, the oily film that embeds in drywall, ductwork, and personal belongings and continues to off-gas long after the flames are out. Odor neutralization is part of every fire job, not an add-on.
 
 ### Commercial restoration
 
@@ -49,18 +49,18 @@ The Route 22 corridor's retail and restaurant tenants, and the institutional pro
 
 ### Reconstruction
 
-When structural repairs follow a water, fire, or mold job, we carry the work through to finished condition — framing, drywall, flooring, painting — so property owners deal with one point of contact from emergency response through final walkthrough.
+When structural repairs follow a water, fire, or mold job, we carry the work through to finished condition, framing, drywall, flooring, painting, so property owners deal with one point of contact from emergency response through final walkthrough.
 
 ## Coverage and how fast we can get there
 
-The Restoration Group is based in Kenilworth, which shares a border with Union Township. From our yard, crews reach Vauxhall and the Morris Avenue corridor within minutes via Route 82. Union Center, Battle Hill, and Washington are a short drive north. Putnam Ridge and Larchmont sit at the township's far edges but are still well within our primary service footprint. Because we operate 24/7, dispatch happens regardless of when the call comes in — middle of the night, holiday weekend, or rush hour on Route 22.
+The Restoration Group is based in Kenilworth, which shares a border with Union Township. From our yard, crews reach Vauxhall and the Morris Avenue corridor within minutes via Route 82. Union Center, Battle Hill, and Washington are a short drive north. Putnam Ridge and Larchmont sit at the township's far edges but are still well within our primary service footprint. Because we operate 24/7, dispatch happens regardless of when the call comes in, middle of the night, holiday weekend, or rush hour on Route 22.
 
 ## Building stock, site conditions, and permits in Union
 
-Below the postwar layer, Union has older housing near Liberty Hall and parts of Union Center built with plaster and wood lath over rock-lath — those walls hold water far longer than drywall and need drying from the cavity side rather than demolition by default. Mid-century homes here commonly carry asbestos-containing floor tile, tile mastic, and pipe insulation in the basement, plus lead paint on anything painted before 1978, so testing comes before demolition on a scope of any size.
+Below the postwar layer, Union has older housing near Liberty Hall and parts of Union Center built with plaster and wood lath over rock-lath, those walls hold water far longer than drywall and need drying from the cavity side rather than demolition by default. Mid-century homes here commonly carry asbestos-containing floor tile, tile mastic, and pipe insulation in the basement, plus lead paint on anything painted before 1978, so testing comes before demolition on a scope of any size.
 
 Foundations are mostly poured concrete or hollow block over Piedmont clay and glacial till, which drains slowly and keeps hydrostatic pressure on basement walls for days after a storm.
 
 Structural repair and rebuild work is permitted through Union Township's construction office under the New Jersey Uniform Construction Code, with separate building, plumbing, electrical, and fire subcode approvals.
 
-If you're dealing with a loss in Union right now — or want to talk through a situation before it gets worse — call **(908) 970-8533**. We answer around the clock, and our crews are close.
+If you're dealing with a loss in Union right now, or want to talk through a situation before it gets worse, call **(908) 970-8533**. We answer around the clock, and our crews are close.

@@ -22,13 +22,13 @@ This Privacy Policy explains how The Restoration Group collects, uses, and prote
 
 ## Information We Collect
 
-When you fill out a contact or estimate request form on our site, we collect the details you provide — typically your name, phone number, address of the affected property, and a description of the damage. If you call us directly at (908) 970-8533, we may log basic call information for scheduling and follow-up purposes.
+When you fill out a contact or estimate request form on our site, we collect the details you provide, typically your name, phone number, address of the affected property, and a description of the damage. If you call us directly at (908) 970-8533, we may log basic call information for scheduling and follow-up purposes.
 
-We also collect standard, anonymized analytics data through our website platform — things like which pages were visited, how long a session lasted, and what device type was used. This data contains no personally identifying information and is used only to improve the site experience.
+We also collect standard, anonymized analytics data through our website platform, things like which pages were visited, how long a session lasted, and what device type was used. This data contains no personally identifying information and is used only to improve the site experience.
 
 ## How We Use Your Information
 
-The information you share with us is used to respond to your inquiry, schedule on-site estimates, coordinate the scope of work, and — when you authorize it — communicate with your insurance carrier on your behalf. Insurance coordination often requires us to share documentation such as loss reports, photographs, and moisture readings directly with your adjuster. We do this only with your explicit authorization.
+The information you share with us is used to respond to your inquiry, schedule on-site estimates, coordinate the scope of work, and, when you authorize it, communicate with your insurance carrier on your behalf. Insurance coordination often requires us to share documentation such as loss reports, photographs, and moisture readings directly with your adjuster. We do this only with your explicit authorization.
 
 We do not use your contact information for unsolicited marketing, and we do not sell, rent, or trade your personal data to any third party for their own commercial purposes.
 
@@ -38,7 +38,7 @@ Outside of insurance coordination you've approved, we share your information onl
 
 ## Data Retention
 
-We retain project-related records — including contact information, job documentation, and insurance correspondence — for as long as necessary to fulfill the service relationship and meet applicable recordkeeping obligations under New Jersey state regulations. Contact form submissions that do not result in a project are typically purged within 12 months.
+We retain project-related records, including contact information, job documentation, and insurance correspondence, for as long as necessary to fulfill the service relationship and meet applicable recordkeeping obligations under New Jersey state regulations. Contact form submissions that do not result in a project are typically purged within 12 months.
 
 ## Your Privacy Rights
 

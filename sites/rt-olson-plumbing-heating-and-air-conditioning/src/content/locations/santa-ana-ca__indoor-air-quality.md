@@ -20,15 +20,15 @@ state: "CA"
 service_display: "Indoor Air Quality Services"
 rendered: true
 ---
-Santa Ana's air sits at the intersection of inland heat, coastal marine layer, and some of the densest traffic corridors in Orange County — a combination that pushes particulate matter, ozone, and allergens indoors in ways that a standard one-inch filter was never designed to handle. If you've noticed that your home feels stuffy even with the AC running, or that allergy symptoms flare up indoors rather than outside, the air moving through your ducts is worth a closer look. RT Olson Plumbing, Heating and Air Conditioning provides indoor air quality services to Santa Ana homeowners and property managers who want to breathe easier year-round.
+Santa Ana's air sits at the intersection of inland heat, coastal marine layer, and some of the densest traffic corridors in Orange County, a combination that pushes particulate matter, ozone, and allergens indoors in ways that a standard one-inch filter was never designed to handle. If you've noticed that your home feels stuffy even with the AC running, or that allergy symptoms flare up indoors rather than outside, the air moving through your ducts is worth a closer look. RT Olson Plumbing, Heating and Air Conditioning provides indoor air quality services to Santa Ana homeowners and property managers who want to breathe easier year-round.
 
 ## Why Santa Ana Properties See Air Quality Challenges
 
-Santa Ana's climate is deceptively demanding. Summer temperatures regularly push into the 90s while the relative humidity swings wildly — dry Santa Ana wind events pull moisture out of the air entirely, while June Gloom marine layer can push humidity back up within days. That cycle stresses HVAC systems and creates conditions where dust, pet dander, mold spores, and volatile organic compounds (VOCs) accumulate faster than most homeowners expect.
+Santa Ana's climate is deceptively demanding. Summer temperatures regularly push into the 90s while the relative humidity swings wildly, dry Santa Ana wind events pull moisture out of the air entirely, while June Gloom marine layer can push humidity back up within days. That cycle stresses HVAC systems and creates conditions where dust, pet dander, mold spores, and volatile organic compounds (VOCs) accumulate faster than most homeowners expect.
 
-The city's housing stock adds another layer. A significant portion of Santa Ana's residential neighborhoods were built between the 1940s and 1970s, when duct sealing standards were minimal and insulation was thin. Older duct systems in these homes tend to pull unconditioned air — and whatever is in it — directly into the living space. Homes built before the 1980s may also have original fiberglass duct lining that has degraded over time, shedding particles into the airstream. Upgrading filtration or adding a whole house air purifier in a home like this requires assessing the duct condition first, not just swapping hardware.
+The city's housing stock adds another layer. A significant portion of Santa Ana's residential neighborhoods were built between the 1940s and 1970s, when duct sealing standards were minimal and insulation was thin. Older duct systems in these homes tend to pull unconditioned air, and whatever is in it, directly into the living space. Homes built before the 1980s may also have original fiberglass duct lining that has degraded over time, shedding particles into the airstream. Upgrading filtration or adding a whole house air purifier in a home like this requires assessing the duct condition first, not just swapping hardware.
 
-Santa Ana also sits in the South Coast Air Basin, one of the most closely monitored airsheds in the country. On days when the Air Quality Index climbs — especially during wildfire season or high-traffic commute inversions — the gap between outdoor and indoor air quality depends almost entirely on what your HVAC system is doing to filter and condition that air before it reaches you.
+Santa Ana also sits in the South Coast Air Basin, one of the most closely monitored airsheds in the country. On days when the Air Quality Index climbs, especially during wildfire season or high-traffic commute inversions, the gap between outdoor and indoor air quality depends almost entirely on what your HVAC system is doing to filter and condition that air before it reaches you.
 
 ## Our Indoor Air Quality Services Process in Santa Ana
 
@@ -36,11 +36,11 @@ Every project starts with an honest assessment of what's actually in the air and
 
 From there, services are matched to the specific problem:
 
-- **HVAC filtration upgrades** — moving from a standard filter to a high-MERV media filter or electronic air cleaner that captures fine particulates without starving your system of airflow.
-- **UV air purifiers for HVAC** — germicidal UV-C lamps installed inside the air handler to neutralize mold spores, bacteria, and viruses before they recirculate. Particularly useful in homes where the air handler sits in a garage or attic crawl space that collects humidity.
-- **Whole house air purifiers** — standalone or integrated systems that treat the full volume of conditioned air, not just what passes through a single filter rack.
-- **Whole home humidifier installation** — during dry Santa Ana wind events, indoor relative humidity can drop below 20%, which dries out mucous membranes, aggravates respiratory conditions, and damages wood flooring and cabinetry. A bypass or fan-powered humidifier tied to your furnace or air handler maintains a consistent target range automatically.
-- **Indoor air quality testing** — baseline measurements of particulates, humidity, CO2, and VOCs so you know what you're actually dealing with before spending money on equipment.
+- **HVAC filtration upgrades**, moving from a standard filter to a high-MERV media filter or electronic air cleaner that captures fine particulates without starving your system of airflow.
+- **UV air purifiers for HVAC**, germicidal UV-C lamps installed inside the air handler to neutralize mold spores, bacteria, and viruses before they recirculate. Particularly useful in homes where the air handler sits in a garage or attic crawl space that collects humidity.
+- **Whole house air purifiers**, standalone or integrated systems that treat the full volume of conditioned air, not just what passes through a single filter rack.
+- **Whole home humidifier installation**, during dry Santa Ana wind events, indoor relative humidity can drop below 20%, which dries out mucous membranes, aggravates respiratory conditions, and damages wood flooring and cabinetry. A bypass or fan-powered humidifier tied to your furnace or air handler maintains a consistent target range automatically.
+- **Indoor air quality testing**, baseline measurements of particulates, humidity, CO2, and VOCs so you know what you're actually dealing with before spending money on equipment.
 
 ## Reaching Santa Ana from Corona
 
@@ -48,12 +48,12 @@ RT Olson's team operates out of Corona and runs service calls to Santa Ana aroun
 
 ## Equipment and Methods We Use for Air Quality
 
-Not every air quality product on the market performs the way its marketing suggests. We focus on equipment with independently verified performance data — MERV-rated media filters, ASHRAE-compliant UV systems, and humidifiers sized to the actual cubic footage of your home rather than a generic "up to X square feet" label. Installation is done to manufacturer specifications so the warranty holds and the equipment actually performs at its rated efficiency.
+Not every air quality product on the market performs the way its marketing suggests. We focus on equipment with independently verified performance data, MERV-rated media filters, ASHRAE-compliant UV systems, and humidifiers sized to the actual cubic footage of your home rather than a generic "up to X square feet" label. Installation is done to manufacturer specifications so the warranty holds and the equipment actually performs at its rated efficiency.
 
-For homes with existing HVAC systems, we verify that any added filtration or purification doesn't reduce airflow below the system's minimum operating threshold — a common problem when high-MERV filters are dropped into systems designed for lower-resistance media.
+For homes with existing HVAC systems, we verify that any added filtration or purification doesn't reduce airflow below the system's minimum operating threshold, a common problem when high-MERV filters are dropped into systems designed for lower-resistance media.
 
 ## Local Note
 
-During Santa Ana wind events — which can arrive with almost no warning between October and March — indoor humidity in Orange County homes can drop faster than most humidistats can respond. Homes in Santa Ana's older residential neighborhoods, where original single-pane windows and gaps around door frames are still common, are especially vulnerable because the dry air infiltrates faster than the HVAC system can condition it. If you're considering a whole home humidifier installation, we recommend pairing it with a digital humidistat rather than the basic dial controls that come standard on many units — the precision makes a measurable difference during those rapid-swing weather events.
+During Santa Ana wind events, which can arrive with almost no warning between October and March, indoor humidity in Orange County homes can drop faster than most humidistats can respond. Homes in Santa Ana's older residential neighborhoods, where original single-pane windows and gaps around door frames are still common, are especially vulnerable because the dry air infiltrates faster than the HVAC system can condition it. If you're considering a whole home humidifier installation, we recommend pairing it with a digital humidistat rather than the basic dial controls that come standard on many units, the precision makes a measurable difference during those rapid-swing weather events.
 
-If the air in your Santa Ana home isn't as clean or comfortable as it should be, call RT Olson at (951) 344-5596. We'll assess what's actually happening with your air quality and give you a straightforward plan — no upselling equipment you don't need.
+If the air in your Santa Ana home isn't as clean or comfortable as it should be, call RT Olson at (951) 344-5596. We'll assess what's actually happening with your air quality and give you a straightforward plan, no upselling equipment you don't need.

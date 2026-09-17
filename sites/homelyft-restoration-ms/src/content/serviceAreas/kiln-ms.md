@@ -19,11 +19,11 @@ state: "MS"
 primary: false
 rendered: true
 ---
-HomeLyft Restoration MS responds to water damage, fire and smoke damage, mold remediation, and storm recovery for homeowners and property managers throughout Kiln and the surrounding Hancock County communities. When a pipe bursts under a pier-and-beam house on a back road off Highway 603, or a slow roof leak quietly feeds mold behind a bedroom wall, the path to a dry, safe home runs through a restoration crew that knows this corner of the Mississippi Gulf Coast — not a call center routing you to whoever is available.
+HomeLyft Restoration MS responds to water damage, fire and smoke damage, mold remediation, and storm recovery for homeowners and property managers throughout Kiln and the surrounding Hancock County communities. When a pipe bursts under a pier-and-beam house on a back road off Highway 603, or a slow roof leak quietly feeds mold behind a bedroom wall, the path to a dry, safe home runs through a restoration crew that knows this corner of the Mississippi Gulf Coast, not a call center routing you to whoever is available.
 
 ## Restoration emergencies common in Kiln
 
-Kiln sits in one of the wettest corridors in the continental United States. Hancock County regularly records more than 65 inches of rain annually, and the Pearl River basin to the west means the water table in low-lying areas stays high year-round. That combination creates conditions where a moderate roof breach or a failed sump pump can saturate subfloor framing within hours, not days. Older homes — many built in the 1960s through 1980s on slab or pier-and-beam foundations — often lack modern vapor barriers and drainage membranes, so moisture migrates into crawl spaces and wall cavities faster than homeowners expect.
+Kiln sits in one of the wettest corridors in the continental United States. Hancock County regularly records more than 65 inches of rain annually, and the Pearl River basin to the west means the water table in low-lying areas stays high year-round. That combination creates conditions where a moderate roof breach or a failed sump pump can saturate subfloor framing within hours, not days. Older homes, many built in the 1960s through 1980s on slab or pier-and-beam foundations, often lack modern vapor barriers and drainage membranes, so moisture migrates into crawl spaces and wall cavities faster than homeowners expect.
 
 Hurricane season compounds the risk. Kiln is far enough inland to avoid the worst storm surge, but it sits squarely in the path of tropical systems that funnel up from the Gulf, dropping several inches of rain in a matter of hours and sending debris through rooflines. The dense pine and hardwood canopy that makes the area beautiful also means falling limbs are a regular source of structural breaches. After any named storm, the window between roof penetration and active mold colonization can be as short as 24 to 48 hours in Kiln's summer humidity.
 
@@ -31,15 +31,15 @@ Hurricane season compounds the risk. Kiln is far enough inland to avoid the wors
 
 ### Water damage restoration
 
-Water damage in Kiln frequently starts in places that go unnoticed — a slow drip under a mobile home skirting, condensation accumulating in a poorly ventilated crawl space, or a supply line that finally gives out during a hard freeze on one of the rare January nights when temperatures drop into the low 20s. HomeLyft extracts standing water, maps moisture with thermal imaging and pin meters, and dries structural materials to manufacturer and industry-standard specifications before any repairs begin. Getting the drying right the first time prevents the secondary mold problem that often shows up weeks later.
+Water damage in Kiln frequently starts in places that go unnoticed, a slow drip under a mobile home skirting, condensation accumulating in a poorly ventilated crawl space, or a supply line that finally gives out during a hard freeze on one of the rare January nights when temperatures drop into the low 20s. HomeLyft extracts standing water, maps moisture with thermal imaging and pin meters, and dries structural materials to manufacturer and industry-standard specifications before any repairs begin. Getting the drying right the first time prevents the secondary mold problem that often shows up weeks later.
 
 ### Mold remediation
 
-The humidity that defines life in Hancock County also feeds mold. A bathroom exhaust fan that vents into an attic instead of outside, a slow condensate line drip from a central air unit, or residual moisture from a past flood event are all common starting points we see in Kiln homes. HomeLyft contains the affected area, removes compromised materials, and treats surfaces according to established remediation protocols. We do not make health claims — if you have concerns about air quality or occupant health, your physician and a licensed industrial hygienist are the right resources.
+The humidity that defines life in Hancock County also feeds mold. A bathroom exhaust fan that vents into an attic instead of outside, a slow condensate line drip from a central air unit, or residual moisture from a past flood event are all common starting points we see in Kiln homes. HomeLyft contains the affected area, removes compromised materials, and treats surfaces according to established remediation protocols. We do not make health claims, if you have concerns about air quality or occupant health, your physician and a licensed industrial hygienist are the right resources.
 
 ### Fire and smoke damage restoration
 
-Kitchen fires, electrical faults in aging wiring, and outdoor burning that catches a structure are the most common fire calls we receive in rural Hancock County. Smoke residue is deceptive — it travels through HVAC systems and settles into insulation, cabinetry, and soft goods far from the origin room. HomeLyft performs odor neutralization, surface cleaning, and content pack-out when salvageable belongings need off-site restoration.
+Kitchen fires, electrical faults in aging wiring, and outdoor burning that catches a structure are the most common fire calls we receive in rural Hancock County. Smoke residue is deceptive, it travels through HVAC systems and settles into insulation, cabinetry, and soft goods far from the origin room. HomeLyft performs odor neutralization, surface cleaning, and content pack-out when salvageable belongings need off-site restoration.
 
 ### Storm damage and emergency tarping
 
@@ -47,11 +47,11 @@ After a severe thunderstorm or tropical system pushes through the Kiln area, roo
 
 ## Coverage and how fast we can get there
 
-HomeLyft Restoration MS is headquartered in Gulfport. Kiln is roughly 35 to 40 miles northeast of the Gulfport office, accessible via U.S. Highway 49 North to Highway 603, a route our crews travel regularly for Hancock County calls. Depending on traffic and the time of day, that drive typically runs under an hour. We schedule promptly and communicate an estimated arrival window when you call — reach us at (228) 284-5200 to get a crew moving toward your property.
+HomeLyft Restoration MS is headquartered in Gulfport. Kiln is roughly 35 to 40 miles northeast of the Gulfport office, accessible via U.S. Highway 49 North to Highway 603, a route our crews travel regularly for Hancock County calls. Depending on traffic and the time of day, that drive typically runs under an hour. We schedule promptly and communicate an estimated arrival window when you call, reach us at (228) 284-5200 to get a crew moving toward your property.
 
 ## Building stock, site conditions, and permits in Kiln
 
-Kiln is unincorporated, so there is no city hall issuing permits here — building, electrical, and floodplain permits for structural repair or rebuild come from Hancock County, and the county floodplain administrator gets involved when a damaged home sits in a mapped flood zone. Under FEMA rules, repairs valued at half the structure's value or more push a rebuild toward current elevation and wind standards, which is worth knowing before demolition starts. Mississippi's coastal counties also enforce wind provisions, so roof and sheathing replacement is inspected work, not a handshake job.
+Kiln is unincorporated, so there is no city hall issuing permits here, building, electrical, and floodplain permits for structural repair or rebuild come from Hancock County, and the county floodplain administrator gets involved when a damaged home sits in a mapped flood zone. Under FEMA rules, repairs valued at half the structure's value or more push a rebuild toward current elevation and wind standards, which is worth knowing before demolition starts. Mississippi's coastal counties also enforce wind provisions, so roof and sheathing replacement is inspected work, not a handshake job.
 
 On the materials side, houses of this vintage tend to hide cast iron drain lines, galvanized or early copper supply, and sometimes polybutylene. Anything pre-1978 gets treated as lead-painted and pre-1980 sheet flooring and mastic as possible asbestos until tested.
 

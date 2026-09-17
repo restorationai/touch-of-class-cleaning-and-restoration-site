@@ -17,11 +17,11 @@ published_at: "2026-08-01"
 services: ["water-damage-restoration"]
 rendered: true
 ---
-If water is actively coming in — stop reading and go shut off the main water supply valve first. It's usually near your water meter, in the basement, or in a utility closet. Once the flow stops, come back. The decisions you make in the next 24 hours will determine how much of your home is salvageable, how long the drying process takes, and what your insurance claim looks like. This guide walks through exactly what to do, in order, so you're not guessing while standing in wet socks.
+If water is actively coming in, stop reading and go shut off the main water supply valve first. It's usually near your water meter, in the basement, or in a utility closet. Once the flow stops, come back. The decisions you make in the next 24 hours will determine how much of your home is salvageable, how long the drying process takes, and what your insurance claim looks like. This guide walks through exactly what to do, in order, so you're not guessing while standing in wet socks.
 
 ## Step One: Stop the Source and Make the Space Safe
 
-Before you touch anything else, confirm the water is no longer flowing. If the source was a burst pipe, a failed supply line under a sink, or a washing machine hose, shutting the main valve stops it immediately. If the source is a roof leak or a foundation seep during a storm, you can't stop the water — but you can limit where it goes by moving valuables, placing buckets, and covering electronics with plastic sheeting.
+Before you touch anything else, confirm the water is no longer flowing. If the source was a burst pipe, a failed supply line under a sink, or a washing machine hose, shutting the main valve stops it immediately. If the source is a roof leak or a foundation seep during a storm, you can't stop the water, but you can limit where it goes by moving valuables, placing buckets, and covering electronics with plastic sheeting.
 
 Once the water is stopped or contained, check whether it's safe to be in the space:
 
@@ -38,17 +38,17 @@ This step costs you nothing and protects your insurance claim. Take photos and s
 - The source of the water (the burst pipe, the failed appliance, the window)
 - Any furniture, electronics, or personal property that was damaged
 
-Upload these to cloud storage or email them to yourself so they're timestamped and backed up. Your adjuster will ask for documentation of the initial condition — photos taken after you've already cleaned up are worth far less.
+Upload these to cloud storage or email them to yourself so they're timestamped and backed up. Your adjuster will ask for documentation of the initial condition, photos taken after you've already cleaned up are worth far less.
 
 ## Step Three: Start Removing Water Immediately
 
-Mold can begin colonizing wet organic material — drywall, wood framing, carpet padding — within 24 to 48 hours under the right conditions. In Youngstown's humid summers, that window can be even shorter. Every hour of standing water matters.
+Mold can begin colonizing wet organic material, drywall, wood framing, carpet padding, within 24 to 48 hours under the right conditions. In Youngstown's humid summers, that window can be even shorter. Every hour of standing water matters.
 
 Here's what you can do yourself while waiting for help:
 
-1. **Use a wet/dry shop vac** to extract standing water from hard floors. Make multiple passes — water hides in grout lines and under the edges of flooring.
+1. **Use a wet/dry shop vac** to extract standing water from hard floors. Make multiple passes, water hides in grout lines and under the edges of flooring.
 2. **Pull up area rugs and move them outside** to dry. Wall-to-wall carpet is harder; you can pull back the edges to expose the padding, which absorbs far more water than the carpet face and is usually not salvageable.
-3. **Open windows and interior doors** if outdoor humidity is lower than indoor humidity. On a hot, muggy Ohio summer day, this can backfire — outside air can introduce more moisture than it removes.
+3. **Open windows and interior doors** if outdoor humidity is lower than indoor humidity. On a hot, muggy Ohio summer day, this can backfire, outside air can introduce more moisture than it removes.
 4. **Run fans across wet surfaces**, not just into the room. Airflow across the surface accelerates evaporation. Point box fans low and toward the wet areas.
 5. **Run your HVAC or a dehumidifier** to pull moisture out of the air. A standard window AC unit in dehumidifier mode can remove several pints of water per hour.
 
@@ -75,14 +75,14 @@ Call a restoration company if:
 - The water touched carpet, drywall, wood framing, or insulation
 - You can smell anything musty or sewage-adjacent
 - The water came from a drain, toilet, or any source that isn't a clean supply line
-- Your home was built before the 1980s (older Youngstown-area housing stock often has plaster walls, older insulation, and sometimes lead paint — materials that require different handling)
+- Your home was built before the 1980s (older Youngstown-area housing stock often has plaster walls, older insulation, and sometimes lead paint, materials that require different handling)
 - You're filing an insurance claim
 
 A professional restoration crew brings truck-mounted extraction equipment, industrial air movers, commercial dehumidifiers, and thermal imaging or moisture meters to find water you can't see. They also produce the drying logs that insurance carriers require to close a structural drying claim.
 
 ## What Comes After the First 24 Hours
 
-Professional structural drying typically takes three to five days, depending on materials, building construction, and how quickly the process started. During that time, equipment runs continuously — expect noise and disruption. A technician should check moisture readings daily and adjust equipment placement as readings change.
+Professional structural drying typically takes three to five days, depending on materials, building construction, and how quickly the process started. During that time, equipment runs continuously, expect noise and disruption. A technician should check moisture readings daily and adjust equipment placement as readings change.
 
 Once materials reach their target moisture content, the rebuild phase begins: replacing drywall, flooring, insulation, and any cabinetry that couldn't be saved. This is where a restoration contractor who handles both mitigation and reconstruction saves you the coordination headache of managing two separate companies.
 

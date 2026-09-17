@@ -17,33 +17,33 @@ service_slug: "emergency-board-up-tarping"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
-A broken window, a kicked-in door, a roof torn open by wind — the structure itself becomes the emergency the moment it's exposed. Rain, heat, and opportunistic theft don't wait for business hours, and neither does secondary damage. The purpose of emergency board-up and tarping is to stop the clock on that exposure: seal the opening, protect what's still intact, and give your insurance adjuster a documented starting point rather than a worsening loss.
+A broken window, a kicked-in door, a roof torn open by wind, the structure itself becomes the emergency the moment it's exposed. Rain, heat, and opportunistic theft don't wait for business hours, and neither does secondary damage. The purpose of emergency board-up and tarping is to stop the clock on that exposure: seal the opening, protect what's still intact, and give your insurance adjuster a documented starting point rather than a worsening loss.
 
 ## What emergency board-up and tarping actually involves
 
-Board-up and tarping is protective work, not cosmetic work. The goal is to create a weather-tight, secure barrier over any unintended opening in the building envelope — broken windows, compromised doors, holes in siding, or sections of roof that are missing shingles, decking, or both.
+Board-up and tarping is protective work, not cosmetic work. The goal is to create a weather-tight, secure barrier over any unintended opening in the building envelope, broken windows, compromised doors, holes in siding, or sections of roof that are missing shingles, decking, or both.
 
-For window and door openings, crews use structural-grade plywood (typically ¾-inch OSB or plywood) cut to fit the rough opening and secured with screws rather than nails, so the board holds under wind pressure and can be removed cleanly when permanent repairs begin. For roof damage, heavy-duty polyethylene tarps — rated for the weight of standing water and anchored with wood battens and screws driven into sound decking — are the industry standard. Adhesive tarps or lightweight plastic sheeting are not adequate for anything beyond a temporary overnight hold.
+For window and door openings, crews use structural-grade plywood (typically ¾-inch OSB or plywood) cut to fit the rough opening and secured with screws rather than nails, so the board holds under wind pressure and can be removed cleanly when permanent repairs begin. For roof damage, heavy-duty polyethylene tarps, rated for the weight of standing water and anchored with wood battens and screws driven into sound decking, are the industry standard. Adhesive tarps or lightweight plastic sheeting are not adequate for anything beyond a temporary overnight hold.
 
 Timeline matters here. In West Texas, an unprotected roof opening during a hail or thunderstorm season can allow hundreds of gallons of water into a structure in a single event. An unboarded window after a fire invites both weather and vandalism into a building that's already compromised.
 
 ## Our process
 
-1. **Damage assessment and documentation** — Before any material goes up, the crew photographs and measures every opening. This documentation becomes part of the insurance claim file and establishes the pre-board condition of the structure. Adjusters need to see what was exposed and when.
+1. **Damage assessment and documentation**, Before any material goes up, the crew photographs and measures every opening. This documentation becomes part of the insurance claim file and establishes the pre-board condition of the structure. Adjusters need to see what was exposed and when.
 
-2. **Hazard check before accessing the structure** — Fire-damaged buildings require a structural safety check before crews work on or near them. Weakened roof decking, compromised load-bearing walls, and residual smoke in enclosed spaces are all real hazards. Crews identify these conditions before setting a ladder.
+2. **Hazard check before accessing the structure**, Fire-damaged buildings require a structural safety check before crews work on or near them. Weakened roof decking, compromised load-bearing walls, and residual smoke in enclosed spaces are all real hazards. Crews identify these conditions before setting a ladder.
 
-3. **Board-up or tarp installation** — Openings are measured, materials are cut on-site, and fasteners are driven into sound framing — not into damaged or charred wood that won't hold load. Roof tarps are run past the ridge when possible to prevent wind from catching an edge, and battens are spaced to distribute weight evenly across the tarp surface.
+3. **Board-up or tarp installation**, Openings are measured, materials are cut on-site, and fasteners are driven into sound framing, not into damaged or charred wood that won't hold load. Roof tarps are run past the ridge when possible to prevent wind from catching an edge, and battens are spaced to distribute weight evenly across the tarp surface.
 
-4. **Security and weather-seal verification** — Every board and tarp is checked for gaps at the perimeter. A board that's flush on three sides and open an inch at the bottom still lets water in. Crews walk the perimeter and check the roof installation from the ground with a ladder spot-check before leaving the site.
+4. **Security and weather-seal verification**, Every board and tarp is checked for gaps at the perimeter. A board that's flush on three sides and open an inch at the bottom still lets water in. Crews walk the perimeter and check the roof installation from the ground with a ladder spot-check before leaving the site.
 
-5. **Written scope and photo handoff** — You receive a written record of what was installed, where, and with what materials. This goes directly to your insurance carrier as part of the mitigation documentation.
+5. **Written scope and photo handoff**, You receive a written record of what was installed, where, and with what materials. This goes directly to your insurance carrier as part of the mitigation documentation.
 
 ## What separates a good board-up response from a bad one
 
-The most common failure in board-up work is using inadequate fasteners or undersized material to save time. A ½-inch sheet of OSB toe-nailed into window trim looks like a board-up but won't survive a 40 mph gust — and Abilene sees those regularly in spring storm season. Insurance adjusters are trained to spot installations that weren't done to protect the structure; a claim can be complicated if the board-up itself is deemed insufficient.
+The most common failure in board-up work is using inadequate fasteners or undersized material to save time. A ½-inch sheet of OSB toe-nailed into window trim looks like a board-up but won't survive a 40 mph gust, and Abilene sees those regularly in spring storm season. Insurance adjusters are trained to spot installations that weren't done to protect the structure; a claim can be complicated if the board-up itself is deemed insufficient.
 
-On roof tarps, the critical mistake is anchoring only to damaged decking or relying on sandbags alone. Sandbags shift. Decking that's been compromised by hail or fire doesn't hold screws the way intact wood does. Experienced crews identify sound anchor points — often back from the damaged area — and extend the tarp to cover them.
+On roof tarps, the critical mistake is anchoring only to damaged decking or relying on sandbags alone. Sandbags shift. Decking that's been compromised by hail or fire doesn't hold screws the way intact wood does. Experienced crews identify sound anchor points, often back from the damaged area, and extend the tarp to cover them.
 
 For fire-damaged properties specifically, board-up crews need to understand that soot-coated surfaces are slippery and that smoke can still be present in enclosed attic spaces. Working without proper awareness of those conditions creates liability for the crew and can disturb evidence the adjuster hasn't yet photographed.
 
@@ -51,7 +51,7 @@ Finally, documentation quality varies widely. Adjusters working large storm even
 
 ## What does emergency board-up and tarping cost?
 
-Typical costs for board-up and tarping depend on the size and number of openings, roof pitch and accessibility, and how much structural damage affects safe access. Most homeowners pay somewhere in the ranges below — these are industry-typical figures, not a quote from Air Care Restoration.
+Typical costs for board-up and tarping depend on the size and number of openings, roof pitch and accessibility, and how much structural damage affects safe access. Most homeowners pay somewhere in the ranges below, these are industry-typical figures, not a quote from Air Care Restoration.
 
 | Scenario | Typical industry range |
 |---|---|
@@ -64,14 +64,14 @@ Typical costs for board-up and tarping depend on the size and number of openings
 
 *Industry reference ranges for budgeting context only, not an Air Care quote or guaranteed price. Every project is scoped and documented individually.*
 
-Every loss is different, and Air Care Restoration provides a written scope before any work begins. Homeowners insurance typically covers emergency board-up and tarping as part of the mitigation expense under your dwelling coverage — it's considered a necessary step to prevent further loss, which is what your policy requires you to do after a covered event.
+Every loss is different, and Air Care Restoration provides a written scope before any work begins. Homeowners insurance typically covers emergency board-up and tarping as part of the mitigation expense under your dwelling coverage, it's considered a necessary step to prevent further loss, which is what your policy requires you to do after a covered event.
 
 ## Seasonal and regional considerations
 
-Abilene sits in a corridor that sees hail, straight-line winds, and occasional tornadoes from late March through June, with a secondary storm window in the fall. West Texas soil and the region's older housing stock — a significant share of Abilene homes were built before 1980 with wood-framed roofs that have aged decking — mean that a single hail event can compromise multiple roof sections at once. Summer heat accelerates secondary damage; an unprotected attic opening in July can push interior temperatures high enough to affect framing, insulation, and any contents stored above the ceiling line. Getting a tarp in place the same day as the storm is not overcautious — it's the difference between a roofing repair and a full interior remediation.
+Abilene sits in a corridor that sees hail, straight-line winds, and occasional tornadoes from late March through June, with a secondary storm window in the fall. West Texas soil and the region's older housing stock, a significant share of Abilene homes were built before 1980 with wood-framed roofs that have aged decking, mean that a single hail event can compromise multiple roof sections at once. Summer heat accelerates secondary damage; an unprotected attic opening in July can push interior temperatures high enough to affect framing, insulation, and any contents stored above the ceiling line. Getting a tarp in place the same day as the storm is not overcautious, it's the difference between a roofing repair and a full interior remediation.
 
 ## Service area
 
 Air Care Restoration is based in Abilene and responds to board-up and tarping calls throughout the surrounding region, including Dyess AFB, Merkel, Tye, Tuscola, Clyde, and other communities across the Big Country. The city-specific pages linked from this one cover local details for each area.
 
-If your structure is exposed right now, call **(325) 339-8723** — the line is answered 24/7. The sooner the opening is sealed, the smaller the total loss.
+If your structure is exposed right now, call **(325) 339-8723**, the line is answered 24/7. The sooner the opening is sealed, the smaller the total loss.

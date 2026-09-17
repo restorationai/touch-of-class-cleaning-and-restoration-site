@@ -19,27 +19,27 @@ state: "NJ"
 primary: false
 rendered: true
 ---
-When a pipe bursts in a Third Ward walkup at 2 a.m. or a basement floods on a Rutherford Heights block the morning after a nor'easter, The Restoration Group dispatches crews from Kenilworth around the clock to handle water extraction, structural drying, mold remediation, fire and smoke cleanup, and full reconstruction — for homeowners, landlords, and commercial property managers across Passaic's 07055 ZIP code.
+When a pipe bursts in a Third Ward walkup at 2 a.m. or a basement floods on a Rutherford Heights block the morning after a nor'easter, The Restoration Group dispatches crews from Kenilworth around the clock to handle water extraction, structural drying, mold remediation, fire and smoke cleanup, and full reconstruction, for homeowners, landlords, and commercial property managers across Passaic's 07055 ZIP code.
 
 ## Restoration emergencies common in Passaic
 
-Passaic sits directly on the Passaic River, and that geography shapes nearly every major loss event the city sees. The river crested catastrophically during Hurricane Irene in 2011 and again during Ida in 2021, pushing water into riverfront blocks and low-lying streets well into the Downtown Passaic and Fourth Ward neighborhoods. But flooding here isn't only a storm event — the water table is high enough that sump pumps run hard through every wet season, and older cast-iron drain lines in the city's dense stock of early 20th-century brick multi-families and two- and three-family frame houses fail regularly, sending raw sewage into finished basements.
+Passaic sits directly on the Passaic River, and that geography shapes nearly every major loss event the city sees. The river crested catastrophically during Hurricane Irene in 2011 and again during Ida in 2021, pushing water into riverfront blocks and low-lying streets well into the Downtown Passaic and Fourth Ward neighborhoods. But flooding here isn't only a storm event, the water table is high enough that sump pumps run hard through every wet season, and older cast-iron drain lines in the city's dense stock of early 20th-century brick multi-families and two- and three-family frame houses fail regularly, sending raw sewage into finished basements.
 
-The housing stock itself is a factor. Knob-and-tube wiring remnants in older rowhomes near Pulaski Park raise the fire risk profile, and unventilated basement apartments — common in the rental-heavy blocks around Third Ward Park — create the dark, humid conditions where mold can colonize a wall cavity within 48 to 72 hours of a slow leak going unnoticed. On Main Avenue, the commercial corridor generates its own pattern of losses: overnight sprinkler discharges, roof leaks into mixed-use storefronts, and the occasional kitchen fire that leaves smoke residue baked into masonry walls.
+The housing stock itself is a factor. Knob-and-tube wiring remnants in older rowhomes near Pulaski Park raise the fire risk profile, and unventilated basement apartments, common in the rental-heavy blocks around Third Ward Park, create the dark, humid conditions where mold can colonize a wall cavity within 48 to 72 hours of a slow leak going unnoticed. On Main Avenue, the commercial corridor generates its own pattern of losses: overnight sprinkler discharges, roof leaks into mixed-use storefronts, and the occasional kitchen fire that leaves smoke residue baked into masonry walls.
 
 ## Services we provide in Passaic
 
 ### Water damage restoration
 
-Water damage in Passaic often starts below grade. Sewer backups and sump failures in the dense multi-family buildings near Downtown Passaic and the Prospect Park border can saturate concrete block walls and subfloor assemblies before a tenant notices the smell. Our crews extract standing water, remove contaminated material when the source is a sewage event, and dry structural assemblies to IICRC S500 standards using commercial desiccant and refrigerant dehumidifiers — equipment sized for the square footage of a three-story walkup, not a single-family ranch.
+Water damage in Passaic often starts below grade. Sewer backups and sump failures in the dense multi-family buildings near Downtown Passaic and the Prospect Park border can saturate concrete block walls and subfloor assemblies before a tenant notices the smell. Our crews extract standing water, remove contaminated material when the source is a sewage event, and dry structural assemblies to IICRC S500 standards using commercial desiccant and refrigerant dehumidifiers, equipment sized for the square footage of a three-story walkup, not a single-family ranch.
 
 ### Mold remediation
 
-Unventilated basements and chronically damp crawl spaces throughout the Fourth Ward and Rutherford Heights are where mold problems tend to hide longest. We contain affected areas, remove colonized materials, and treat surfaces — then address the moisture source so the problem doesn't return by the next rain season. We do not make medical claims about air quality outcomes, but we document pre- and post-remediation conditions thoroughly for landlords who need records for tenants or code inspectors.
+Unventilated basements and chronically damp crawl spaces throughout the Fourth Ward and Rutherford Heights are where mold problems tend to hide longest. We contain affected areas, remove colonized materials, and treat surfaces, then address the moisture source so the problem doesn't return by the next rain season. We do not make medical claims about air quality outcomes, but we document pre- and post-remediation conditions thoroughly for landlords who need records for tenants or code inspectors.
 
 ### Fire and smoke damage restoration
 
-Smoke from a kitchen fire in a wood-frame two-family travels fast through shared wall cavities and stairwells. In older Passaic construction, that means odor and soot can reach units two floors above the origin room. We handle debris removal, structural assessment, odor neutralization with hydroxyl and thermal fogging, and content cleaning — and we work directly with your insurance adjuster to document scope before any demolition begins.
+Smoke from a kitchen fire in a wood-frame two-family travels fast through shared wall cavities and stairwells. In older Passaic construction, that means odor and soot can reach units two floors above the origin room. We handle debris removal, structural assessment, odor neutralization with hydroxyl and thermal fogging, and content cleaning, and we work directly with your insurance adjuster to document scope before any demolition begins.
 
 ### Commercial and multi-unit restoration
 
@@ -47,14 +47,14 @@ Property managers overseeing buildings near the Main Avenue business district or
 
 ## Coverage and how fast we can get there
 
-Kenilworth sits roughly 12 to 14 miles southwest of Passaic via Route 22 East and the Garden State Parkway North, or through surface roads on Bloomfield Avenue. Because we operate 24/7, a call at any hour reaches a live dispatcher who can route the nearest available crew. Downtown Passaic, the Third Ward, and Rutherford Heights are all reachable without navigating the city's more congested interior corridors — crews typically enter from the southern end of the city and can reach most addresses in 07055 without significant delay. We do not quote a guaranteed on-site minute window, but same-day response is standard for active water or fire losses.
+Kenilworth sits roughly 12 to 14 miles southwest of Passaic via Route 22 East and the Garden State Parkway North, or through surface roads on Bloomfield Avenue. Because we operate 24/7, a call at any hour reaches a live dispatcher who can route the nearest available crew. Downtown Passaic, the Third Ward, and Rutherford Heights are all reachable without navigating the city's more congested interior corridors, crews typically enter from the southern end of the city and can reach most addresses in 07055 without significant delay. We do not quote a guaranteed on-site minute window, but same-day response is standard for active water or fire losses.
 
 ## Building stock, site conditions, and permits in Passaic
 
 Most of Passaic's housing went up between roughly 1900 and 1940, which means plaster over wood lath on the interior, brick or wood-frame exterior walls, and full basements rather than slabs. Plaster holds water long after the surface feels dry, so drying a wall here usually means treating the cavity, not just the finish. Low-slope built-up and modified bitumen roofs on the rowhomes and mixed-use blocks leak at seams and parapets instead of shedding cleanly.
 
-That era also brings galvanized supply lines that pinhole from the inside, asbestos in old pipe wrap and 9x9 floor tile, and lead paint in anything pre-1978 — all of which change a demolition scope.
+That era also brings galvanized supply lines that pinhole from the inside, asbestos in old pipe wrap and 9x9 floor tile, and lead paint in anything pre-1978, all of which change a demolition scope.
 
 Structural repair and rebuild work in Passaic is permitted through the city's construction code office under the New Jersey Uniform Construction Code. In mapped flood areas, the extent of repair can trigger elevation requirements.
 
-If you're dealing with an active loss in Passaic — water, fire, mold, or sewage — call The Restoration Group at **(855) 650-7422**. We answer around the clock, and we'll tell you exactly what to expect before we arrive.
+If you're dealing with an active loss in Passaic, water, fire, mold, or sewage, call The Restoration Group at **(855) 650-7422**. We answer around the clock, and we'll tell you exactly what to expect before we arrive.

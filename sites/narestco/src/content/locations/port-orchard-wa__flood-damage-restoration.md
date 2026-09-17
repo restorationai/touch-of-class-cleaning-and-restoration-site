@@ -20,44 +20,44 @@ state: "WA"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
-When king tides push Sinclair Inlet up over the Bay Street waterfront, or when a winter atmospheric river drops three inches of rain on South Kitsap in 24 hours, the flooding that follows isn't a slow-moving inconvenience — it's water inside walls, under subfloors, and saturating insulation before most homeowners realize the extent of the damage. National Restoration Construction has been responding to flood emergencies across the Puget Sound region since 2004, and the specific combination of tidal exposure, rural septic infrastructure, and varied housing stock in Port Orchard shapes how we approach every job here.
+When king tides push Sinclair Inlet up over the Bay Street waterfront, or when a winter atmospheric river drops three inches of rain on South Kitsap in 24 hours, the flooding that follows isn't a slow-moving inconvenience, it's water inside walls, under subfloors, and saturating insulation before most homeowners realize the extent of the damage. National Restoration Construction has been responding to flood emergencies across the Puget Sound region since 2004, and the specific combination of tidal exposure, rural septic infrastructure, and varied housing stock in Port Orchard shapes how we approach every job here.
 
 ## Why Port Orchard Properties See Flood Damage Differently
 
-The low-lying commercial strip along Bay Street is the most visible flood risk in Port Orchard — businesses near the Port Orchard Marina have learned to watch the tide charts as closely as the weather forecast. But the flood calls we receive most often come from neighborhoods further inland, where the risk is less obvious.
+The low-lying commercial strip along Bay Street is the most visible flood risk in Port Orchard, businesses near the Port Orchard Marina have learned to watch the tide charts as closely as the weather forecast. But the flood calls we receive most often come from neighborhoods further inland, where the risk is less obvious.
 
-Much of South Kitsap outside the downtown core sits on rural acreage served by private wells and septic systems rather than city utilities. When saturated soils overwhelm a drain field or a pressure tank fails after a power outage during a storm, the resulting water intrusion carries a contamination risk that changes the entire remediation protocol. That's a fundamentally different job than a burst supply line in a newer McCormick Woods home — the extraction equipment is the same, but the containment, PPE, and disposal requirements are not.
+Much of South Kitsap outside the downtown core sits on rural acreage served by private wells and septic systems rather than city utilities. When saturated soils overwhelm a drain field or a pressure tank fails after a power outage during a storm, the resulting water intrusion carries a contamination risk that changes the entire remediation protocol. That's a fundamentally different job than a burst supply line in a newer McCormick Woods home, the extraction equipment is the same, but the containment, PPE, and disposal requirements are not.
 
 Older waterfront and mid-century construction near Annapolis adds another layer of complexity. Homes built in the 1950s and 1960s frequently have subfloor assemblies, wall cavities, and insulation types that hold moisture far longer than modern construction. Our Lead-Safe Certified Firm status matters on these jobs: pre-1978 paint disturbed during flood-driven demolition requires specific handling under EPA guidelines, and we document that compliance for every affected property.
 
 ## Our Flood Damage Restoration Process in Port Orchard
 
-The first priority on any flood call is stopping the moisture clock. Mold colonization can begin within 24 to 48 hours on wet organic material — drywall paper, wood framing, carpet padding — so the window between water intrusion and permanent structural damage is narrow.
+The first priority on any flood call is stopping the moisture clock. Mold colonization can begin within 24 to 48 hours on wet organic material, drywall paper, wood framing, carpet padding, so the window between water intrusion and permanent structural damage is narrow.
 
 Here's how a typical job unfolds:
 
-1. **Emergency extraction** — truck-mounted and portable extractors remove standing water from all affected areas, including crawlspaces, which are common in Port Orchard's older housing stock.
-2. **Moisture mapping** — thermal imaging cameras and calibrated moisture meters identify water migration behind walls and under flooring before any drying equipment is placed. This step prevents hidden pockets from being missed.
-3. **Structural drying** — industrial desiccant dehumidifiers and high-velocity air movers are positioned based on the moisture map, not placed by guesswork. Drying logs are recorded daily.
-4. **Contamination assessment** — on properties with septic involvement or any Category 3 (blackwater) intrusion, affected materials are removed and disposed of per Washington State Department of Ecology standards before drying begins.
-5. **Reconstruction** — as an IICRC Certified and licensed General Contractor (#NATIORC792M6) in Washington State, we handle the rebuild phase in-house, which eliminates the coordination gap between mitigation and repair that delays most insurance claims.
+1. **Emergency extraction**, truck-mounted and portable extractors remove standing water from all affected areas, including crawlspaces, which are common in Port Orchard's older housing stock.
+2. **Moisture mapping**, thermal imaging cameras and calibrated moisture meters identify water migration behind walls and under flooring before any drying equipment is placed. This step prevents hidden pockets from being missed.
+3. **Structural drying**, industrial desiccant dehumidifiers and high-velocity air movers are positioned based on the moisture map, not placed by guesswork. Drying logs are recorded daily.
+4. **Contamination assessment**, on properties with septic involvement or any Category 3 (blackwater) intrusion, affected materials are removed and disposed of per Washington State Department of Ecology standards before drying begins.
+5. **Reconstruction**, as an IICRC Certified and licensed General Contractor (#NATIORC792M6) in Washington State, we handle the rebuild phase in-house, which eliminates the coordination gap between mitigation and repair that delays most insurance claims.
 
 ## Response Time to Port Orchard
 
-National Restoration Construction operates out of Federal Way, roughly 35 to 45 minutes from Port Orchard via SR-16 west across the Tacoma Narrows Bridge. In non-peak traffic, our crews can reach most ZIP codes in the area — 98366 and 98367 — within that window after your call to (206) 883-0333.
+National Restoration Construction operates out of Federal Way, roughly 35 to 45 minutes from Port Orchard via SR-16 west across the Tacoma Narrows Bridge. In non-peak traffic, our crews can reach most ZIP codes in the area, 98366 and 98367, within that window after your call to (206) 883-0333.
 
-For properties closer to the Annapolis or Manchester areas on the eastern side of the peninsula, routing via the Southworth ferry corridor can occasionally be faster for equipment staging, and our dispatchers account for that. We do not route calls through a national call center — when you call, you reach our local operations team.
+For properties closer to the Annapolis or Manchester areas on the eastern side of the peninsula, routing via the Southworth ferry corridor can occasionally be faster for equipment staging, and our dispatchers account for that. We do not route calls through a national call center, when you call, you reach our local operations team.
 
 ## Port Orchard Insurance Coordination
 
 Standard homeowner policies in Washington State vary significantly in how they treat flood damage depending on the source. Water that enters through a foundation or overland flow from a storm is typically excluded from standard HO-3 policies and requires a separate NFIP (National Flood Insurance Program) policy. Water that originates from a plumbing failure or appliance is generally covered.
 
-We document every job with photo evidence, moisture readings, and written scope from the first hour on-site — the format that adjusters and third-party reviewers expect. For properties in the Bay Street commercial corridor or low-lying residential areas that carry NFIP coverage, we're familiar with the additional documentation requirements those claims involve.
+We document every job with photo evidence, moisture readings, and written scope from the first hour on-site, the format that adjusters and third-party reviewers expect. For properties in the Bay Street commercial corridor or low-lying residential areas that carry NFIP coverage, we're familiar with the additional documentation requirements those claims involve.
 
 ## Local Note: Septic-Adjacent Flood Jobs Require a Different First Step
 
-One thing that distinguishes Port Orchard flood calls from those in fully sewered cities: when a property is on a septic system and flooding has occurred, the first call after reaching us should be to your septic service provider — not after remediation, but before or during our arrival. Saturated soils can cause a drain field to back up even days after the initial flood event, and if we dry and close up a structure before that secondary intrusion happens, the damage starts over. We've seen this sequence enough times in South Kitsap that we ask about septic status on the intake call and build the drying timeline around that risk.
+One thing that distinguishes Port Orchard flood calls from those in fully sewered cities: when a property is on a septic system and flooding has occurred, the first call after reaching us should be to your septic service provider, not after remediation, but before or during our arrival. Saturated soils can cause a drain field to back up even days after the initial flood event, and if we dry and close up a structure before that secondary intrusion happens, the damage starts over. We've seen this sequence enough times in South Kitsap that we ask about septic status on the intake call and build the drying timeline around that risk.
 
 If you're in the 98367 area on a private system and you're not sure of your drain field's condition after a flood event, we can coordinate with local septic contractors before finalizing our drying schedule.
 
-Flood damage in Port Orchard moves fast — tidal events, saturated soils, and aging infrastructure don't wait for business hours. Call National Restoration Construction at (206) 883-0333 any time, day or night, and we'll have an IICRC-certified technician on the road to your Port Orchard property as quickly as conditions allow.
+Flood damage in Port Orchard moves fast, tidal events, saturated soils, and aging infrastructure don't wait for business hours. Call National Restoration Construction at (206) 883-0333 any time, day or night, and we'll have an IICRC-certified technician on the road to your Port Orchard property as quickly as conditions allow.

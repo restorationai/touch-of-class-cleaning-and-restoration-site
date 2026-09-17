@@ -19,19 +19,19 @@ state: "CA"
 primary: false
 rendered: true
 ---
-When a pipe lets go at 2 a.m. in a Riverview cottage or smoke damage shuts down a North Chester Avenue business, ProRestoration Services sends a crew from our Bakersfield headquarters across the Kern River to assess, contain, and start drying or cleaning — around the clock. We handle water damage, fire and smoke damage, mold remediation, sewage cleanup, and reconstruction for homeowners, renters, landlords, and property managers throughout Oildale's 93308 ZIP code.
+When a pipe lets go at 2 a.m. in a Riverview cottage or smoke damage shuts down a North Chester Avenue business, ProRestoration Services sends a crew from our Bakersfield headquarters across the Kern River to assess, contain, and start drying or cleaning, around the clock. We handle water damage, fire and smoke damage, mold remediation, sewage cleanup, and reconstruction for homeowners, renters, landlords, and property managers throughout Oildale's 93308 ZIP code.
 
 ## Restoration emergencies common in Oildale
 
-Oildale was built fast and built cheap — Standard Oil-era cottages from the 1940s through the 1960s line streets from Highland to the Airport Drive corridor, and a significant share of the housing stock has never had its original plumbing replaced. Galvanized steel supply lines corrode from the inside out and fail without warning. Cast-iron and Orangeburg sewer laterals — a fiber-and-pitch pipe that was common before PVC — collapse under root pressure and age, causing sewage backups that can saturate subfloor framing before anyone notices the smell. Swamp coolers, still the dominant cooling system in much of Oildale, sit on roof penetrations that crack and channel water into ceiling cavities every time a seal fails or a pan overflows.
+Oildale was built fast and built cheap, Standard Oil-era cottages from the 1940s through the 1960s line streets from Highland to the Airport Drive corridor, and a significant share of the housing stock has never had its original plumbing replaced. Galvanized steel supply lines corrode from the inside out and fail without warning. Cast-iron and Orangeburg sewer laterals, a fiber-and-pitch pipe that was common before PVC, collapse under root pressure and age, causing sewage backups that can saturate subfloor framing before anyone notices the smell. Swamp coolers, still the dominant cooling system in much of Oildale, sit on roof penetrations that crack and channel water into ceiling cavities every time a seal fails or a pan overflows.
 
-Above-average house-fire frequency tracks directly to older knob-and-tube or early post-war wiring that was never upgraded. The Kern River bluffs create a wind channel that fans structure fires quickly. And because most Oildale properties are unincorporated Kern County rather than City of Bakersfield, permit and code pathways for reconstruction follow county rules — something an out-of-area contractor unfamiliar with the jurisdiction can get wrong in ways that delay your insurance settlement.
+Above-average house-fire frequency tracks directly to older knob-and-tube or early post-war wiring that was never upgraded. The Kern River bluffs create a wind channel that fans structure fires quickly. And because most Oildale properties are unincorporated Kern County rather than City of Bakersfield, permit and code pathways for reconstruction follow county rules, something an out-of-area contractor unfamiliar with the jurisdiction can get wrong in ways that delay your insurance settlement.
 
 ## Services we provide in Oildale
 
 ### Water damage restoration
 
-Water damage in Oildale most often starts with a burst galvanized line, an overflowing swamp-cooler pan, or a sewage backup from a failing Orangeburg lateral. We extract standing water, remove saturated materials, and dry structural assemblies to documented moisture targets — the kind of paperwork your insurance adjuster needs to close the claim. We use thermal imaging to find water that has migrated behind plaster walls in older cottages before it becomes a mold problem.
+Water damage in Oildale most often starts with a burst galvanized line, an overflowing swamp-cooler pan, or a sewage backup from a failing Orangeburg lateral. We extract standing water, remove saturated materials, and dry structural assemblies to documented moisture targets, the kind of paperwork your insurance adjuster needs to close the claim. We use thermal imaging to find water that has migrated behind plaster walls in older cottages before it becomes a mold problem.
 
 ### Fire and smoke damage restoration
 
@@ -39,25 +39,25 @@ Smoke from a house fire in older Oildale homes penetrates deeply into wood-frame
 
 ### Mold remediation
 
-A slow swamp-cooler leak or a sewage backup that wasn't fully dried creates ideal conditions for mold colonization — spores can establish a colony within 24 to 48 hours in Oildale's warm summers. We contain the affected area, remove compromised materials, and treat surfaces per established remediation protocols. We do not make health claims, but we do give you a documented, clearance-ready job.
+A slow swamp-cooler leak or a sewage backup that wasn't fully dried creates ideal conditions for mold colonization, spores can establish a colony within 24 to 48 hours in Oildale's warm summers. We contain the affected area, remove compromised materials, and treat surfaces per established remediation protocols. We do not make health claims, but we do give you a documented, clearance-ready job.
 
 ### Sewage and biohazard cleanup
 
-Sewage backups from failed laterals are one of the most common calls we get from the North of the River area. Category 3 contaminated water requires personal protective equipment, proper disposal, and antimicrobial treatment of affected surfaces — not a shop vac and bleach. We handle the cleanup, the documentation, and the coordination with your adjuster.
+Sewage backups from failed laterals are one of the most common calls we get from the North of the River area. Category 3 contaminated water requires personal protective equipment, proper disposal, and antimicrobial treatment of affected surfaces, not a shop vac and bleach. We handle the cleanup, the documentation, and the coordination with your adjuster.
 
 ### Reconstruction
 
-Once mitigation is complete, we can carry the project through drywall, flooring, cabinetry, and paint — working within Kern County permit requirements for unincorporated properties. Keeping one contractor through mitigation and rebuild reduces the gap time that leaves your home or rental unit uninhabitable.
+Once mitigation is complete, we can carry the project through drywall, flooring, cabinetry, and paint, working within Kern County permit requirements for unincorporated properties. Keeping one contractor through mitigation and rebuild reduces the gap time that leaves your home or rental unit uninhabitable.
 
 ## Coverage and how fast we can get there
 
-Oildale sits directly across the Kern River from our Bakersfield base — the drive up North Chester Avenue or across the Truxtun Avenue bridge is short under most traffic conditions. We serve every part of the 93308 ZIP code: the older residential blocks near Standard Park and North High School, the mobile home parks along the Airport Drive corridor, and the hillside streets backing up to the Kern River bluffs. Because we operate 24/7, a crew can be dispatched at any hour — call (661) 393-9306 and you will reach a live person, not an answering service.
+Oildale sits directly across the Kern River from our Bakersfield base, the drive up North Chester Avenue or across the Truxtun Avenue bridge is short under most traffic conditions. We serve every part of the 93308 ZIP code: the older residential blocks near Standard Park and North High School, the mobile home parks along the Airport Drive corridor, and the hillside streets backing up to the Kern River bluffs. Because we operate 24/7, a crew can be dispatched at any hour, call (661) 393-9306 and you will reach a live person, not an answering service.
 
 ## Building stock, site conditions, and permits in Oildale
 
 Most of Oildale's cottages are small wood-frame boxes on raised foundations with shallow crawlspaces, with slab-on-grade becoming common in the later 1950s and 1960s tracts. That difference matters: a crawlspace lets water sit under joists and subfloor where nobody sees it, while a slab wicks moisture sideways into bottom plates and baseboards. Anything built before 1978 should be treated as possibly containing lead paint, and pre-1980 floor tile, mastic, textured ceilings, and joint compound get tested before demolition rather than after.
 
-The ground here is Kern River alluvium — sand and silty loam that drains fast but erodes and washes out under footings during heavy winter storms.
+The ground here is Kern River alluvium, sand and silty loam that drains fast but erodes and washes out under footings during heavy winter storms.
 
 Oildale is unincorporated, so building permits come through Kern County under the California Building Code. Mobile homes are a separate track handled by the state, not the county.
 

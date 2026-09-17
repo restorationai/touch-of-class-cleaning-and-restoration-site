@@ -21,12 +21,12 @@ If you're dealing with water damage, fire damage, or a hazardous situation right
 
 ## For urgent situations
 
-When something goes wrong — a burst pipe soaking your floors, smoke damage after a kitchen fire, or a sewage backup — pick up the phone. Call **(954) 932-5420** during business hours and a member of the RestorationXpress team will take your information, ask a few quick questions about what you're seeing, and get you scheduled as fast as possible. The sooner we can assess the damage, the more material and structural cost we can help you avoid.
+When something goes wrong, a burst pipe soaking your floors, smoke damage after a kitchen fire, or a sewage backup, pick up the phone. Call **(954) 932-5420** during business hours and a member of the RestorationXpress team will take your information, ask a few quick questions about what you're seeing, and get you scheduled as fast as possible. The sooner we can assess the damage, the more material and structural cost we can help you avoid.
 
 ## For estimates and non-urgent inquiries
 
-If you're not in an active emergency — you noticed a slow leak that's been patched, you want a mold inspection before buying a property, or you need documentation for an insurance claim — email us at [issac@restorationxpress.com](mailto:issac@restorationxpress.com) with a brief description of the situation and any photos you have. We typically respond to email inquiries within one business day. For faster turnaround, calling is still your best option.
+If you're not in an active emergency, you noticed a slow leak that's been patched, you want a mold inspection before buying a property, or you need documentation for an insurance claim, email us at [issac@restorationxpress.com](mailto:issac@restorationxpress.com) with a brief description of the situation and any photos you have. We typically respond to email inquiries within one business day. For faster turnaround, calling is still your best option.
 
 ## Where we're located
 
-RestorationXpress is based in Davie, FL, at **4700 SW 51st St, Suite 205, Davie, FL 33314** — centrally positioned in Broward County. From here we serve homeowners and property managers throughout the surrounding area, including Fort Lauderdale, Hollywood, Pembroke Pines, Miramar, Weston, Cooper City, and Plantation. South Florida's humidity and storm patterns mean water intrusion and mold issues are year-round concerns in this region, not just seasonal ones. If you're unsure whether your address falls within our service area, call or email and we'll let you know quickly.
+RestorationXpress is based in Davie, FL, at **4700 SW 51st St, Suite 205, Davie, FL 33314**, centrally positioned in Broward County. From here we serve homeowners and property managers throughout the surrounding area, including Fort Lauderdale, Hollywood, Pembroke Pines, Miramar, Weston, Cooper City, and Plantation. South Florida's humidity and storm patterns mean water intrusion and mold issues are year-round concerns in this region, not just seasonal ones. If you're unsure whether your address falls within our service area, call or email and we'll let you know quickly.

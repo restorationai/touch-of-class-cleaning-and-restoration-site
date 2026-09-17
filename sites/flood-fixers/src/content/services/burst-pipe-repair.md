@@ -18,27 +18,27 @@ service_slug: "burst-pipe-repair"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
-A pipe doesn't announce itself before it bursts. One minute you're asleep, the next you're standing in two inches of water in the hallway, listening to the hiss of a pressurized line still pumping water into your walls. In the first 60 minutes after a water line break, water migrates through drywall, soaks into subfloor assemblies, and begins wicking up wall cavities — often reaching rooms that look completely dry. The cleanup is never just mopping up what you can see.
+A pipe doesn't announce itself before it bursts. One minute you're asleep, the next you're standing in two inches of water in the hallway, listening to the hiss of a pressurized line still pumping water into your walls. In the first 60 minutes after a water line break, water migrates through drywall, soaks into subfloor assemblies, and begins wicking up wall cavities, often reaching rooms that look completely dry. The cleanup is never just mopping up what you can see.
 
 ## What burst pipe cleanup and repair actually involves
 
-A pipe burst emergency creates two simultaneous problems: the active water source and the water that has already spread. Stopping the flow — whether that means shutting the main, capping a supply line, or making a temporary repair — is step one, but it's the least time-consuming part of the job. The real work is tracing where the water went.
+A pipe burst emergency creates two simultaneous problems: the active water source and the water that has already spread. Stopping the flow, whether that means shutting the main, capping a supply line, or making a temporary repair, is step one, but it's the least time-consuming part of the job. The real work is tracing where the water went.
 
 Water from a supply line (clean water, IICRC Category 1) can escalate to Category 2 or 3 contamination within 24–72 hours once it contacts building materials, insulation, or sits in a crawl space. That changes how the job is scoped, what PPE is required, and what materials can be dried in place versus removed.
 
-Equipment deployed on a typical pipe break water damage job includes high-capacity truck-mounted or portable extractors, low-grain refrigerant (LGR) dehumidifiers, axial and centrifugal air movers, and thermal imaging cameras to map moisture migration behind walls and under flooring without tearing into every surface. Drying typically runs 3–5 days, with daily moisture readings logged to IICRC S500 standards — documentation your insurance adjuster will ask for.
+Equipment deployed on a typical pipe break water damage job includes high-capacity truck-mounted or portable extractors, low-grain refrigerant (LGR) dehumidifiers, axial and centrifugal air movers, and thermal imaging cameras to map moisture migration behind walls and under flooring without tearing into every surface. Drying typically runs 3–5 days, with daily moisture readings logged to IICRC S500 standards, documentation your insurance adjuster will ask for.
 
 ## Our process
 
-1. **Source control and site safety** — We locate and stop the active water source, assess structural safety (sagging ceilings, compromised subfloors, electrical panels in the flood zone), and document the scene with photos and moisture readings before any work begins. If the main shutoff hasn't been found, we find it.
+1. **Source control and site safety**, We locate and stop the active water source, assess structural safety (sagging ceilings, compromised subfloors, electrical panels in the flood zone), and document the scene with photos and moisture readings before any work begins. If the main shutoff hasn't been found, we find it.
 
-2. **Moisture mapping and damage classification** — Using thermal imaging and calibrated moisture meters, we map the full extent of water migration — not just the visible wet area. We classify the water category (1, 2, or 3) and contamination level, which determines whether materials can be dried in place or must be removed. This step is what separates a complete remediation from one that grows mold six weeks later.
+2. **Moisture mapping and damage classification**, Using thermal imaging and calibrated moisture meters, we map the full extent of water migration, not just the visible wet area. We classify the water category (1, 2, or 3) and contamination level, which determines whether materials can be dried in place or must be removed. This step is what separates a complete remediation from one that grows mold six weeks later.
 
-3. **Extraction and controlled demolition** — Standing water is extracted first. Saturated materials that cannot be dried within the drying window — wet insulation, swollen hardwood, drywall with wicking above the flood line — are removed. Flood cuts are made at a height that allows air movers to dry the wall cavity from the inside out. We document every material removed for your insurance claim.
+3. **Extraction and controlled demolition**, Standing water is extracted first. Saturated materials that cannot be dried within the drying window, wet insulation, swollen hardwood, drywall with wicking above the flood line, are removed. Flood cuts are made at a height that allows air movers to dry the wall cavity from the inside out. We document every material removed for your insurance claim.
 
-4. **Structural drying with daily monitoring** — LGR dehumidifiers and air movers are positioned using psychrometric calculations, not guesswork. We return daily to log temperature, relative humidity, and material moisture content. Drying is not complete until readings return to regional equilibrium moisture content — in San Diego's coastal zones, that baseline is lower than inland areas, which affects target numbers.
+4. **Structural drying with daily monitoring**, LGR dehumidifiers and air movers are positioned using psychrometric calculations, not guesswork. We return daily to log temperature, relative humidity, and material moisture content. Drying is not complete until readings return to regional equilibrium moisture content, in San Diego's coastal zones, that baseline is lower than inland areas, which affects target numbers.
 
-5. **Pipe repair coordination and rebuild scope** — Once the structure is dry and cleared, we coordinate or complete the pipe repair and provide a written scope of work for any reconstruction — drywall, flooring, cabinetry, or paint — so you have a single point of contact from the emergency call through the finished repair.
+5. **Pipe repair coordination and rebuild scope**, Once the structure is dry and cleared, we coordinate or complete the pipe repair and provide a written scope of work for any reconstruction, drywall, flooring, cabinetry, or paint, so you have a single point of contact from the emergency call through the finished repair.
 
 ## What separates a good burst pipe response from a bad one
 
@@ -50,12 +50,12 @@ Insurance adjusters reviewing a pipe break water damage claim look for: a moistu
 
 ## Seasonal and regional considerations
 
-San Diego's mild climate creates a false sense of security around pipes. Homes in inland areas — El Cajon, Santee, Ramona — do experience overnight freezes in January and February that can stress older copper and PEX supply lines, particularly in uninsulated garage walls and exterior hose bibs. Coastal homes face a different risk: aging galvanized and cast-iron supply lines in pre-1980s construction in neighborhoods like North Park, University Heights, and Golden Hill corrode from the inside out and fail without warning.
+San Diego's mild climate creates a false sense of security around pipes. Homes in inland areas, El Cajon, Santee, Ramona, do experience overnight freezes in January and February that can stress older copper and PEX supply lines, particularly in uninsulated garage walls and exterior hose bibs. Coastal homes face a different risk: aging galvanized and cast-iron supply lines in pre-1980s construction in neighborhoods like North Park, University Heights, and Golden Hill corrode from the inside out and fail without warning.
 
-The region's low ambient humidity (averaging 60–65% RH near the coast, lower inland) is actually an advantage during structural drying — materials reach equilibrium faster here than in humid climates — but it also means moisture meters read differently than in other markets. Technicians calibrated for Florida or the Pacific Northwest need to adjust their target readings.
+The region's low ambient humidity (averaging 60–65% RH near the coast, lower inland) is actually an advantage during structural drying, materials reach equilibrium faster here than in humid climates, but it also means moisture meters read differently than in other markets. Technicians calibrated for Florida or the Pacific Northwest need to adjust their target readings.
 
 ## Service area
 
 Flood Fixers responds to burst pipe emergencies throughout San Diego County, including Chula Vista, El Cajon, Escondido, La Mesa, National City, Oceanside, Santee, and the city of San Diego. Each service-area page links back here for full technical detail on how the work is done.
 
-If you're standing in water right now, call **(855) 204-1124**. If the damage has already happened and you're trying to understand what a proper cleanup looks like before you hire anyone — this page is your benchmark. When you're ready to get a moisture assessment and a written scope of work, we're the call to make.
+If you're standing in water right now, call **(855) 204-1124**. If the damage has already happened and you're trying to understand what a proper cleanup looks like before you hire anyone, this page is your benchmark. When you're ready to get a moisture assessment and a written scope of work, we're the call to make.

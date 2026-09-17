@@ -20,45 +20,45 @@ state: "WA"
 service_display: "Odor Removal and Deodorization"
 rendered: true
 ---
-That smell isn't going away on its own. Whether it's smoke baked into drywall after a kitchen fire, mildew trapped under flooring from a slow leak, or something worse — odors in Auburn homes and commercial properties tend to get stronger before they get better, especially once the region's damp fall and winter air sets in. National Restoration Construction has been responding to odor emergencies across the South King County area since 2004, and our crews can typically be on-site in Auburn within 60–90 minutes of your call.
+That smell isn't going away on its own. Whether it's smoke baked into drywall after a kitchen fire, mildew trapped under flooring from a slow leak, or something worse, odors in Auburn homes and commercial properties tend to get stronger before they get better, especially once the region's damp fall and winter air sets in. National Restoration Construction has been responding to odor emergencies across the South King County area since 2004, and our crews can typically be on-site in Auburn within 60–90 minutes of your call.
 
 ## Why Auburn Properties Are Especially Vulnerable to Persistent Odors
 
-Auburn sits in the Green River Valley, where moisture levels stay elevated for most of the year. That humidity is the invisible accelerant behind most odor problems — it keeps smoke particles active longer, speeds up mold colonization (which can begin within 24–48 hours of a water intrusion), and allows pet and sewage odors to penetrate porous building materials more deeply than they would in a drier climate.
+Auburn sits in the Green River Valley, where moisture levels stay elevated for most of the year. That humidity is the invisible accelerant behind most odor problems, it keeps smoke particles active longer, speeds up mold colonization (which can begin within 24–48 hours of a water intrusion), and allows pet and sewage odors to penetrate porous building materials more deeply than they would in a drier climate.
 
-The housing stock in Auburn adds another layer of complexity. Many neighborhoods — from Lea Hill to the older subdivisions near Auburn Way — feature homes built in the 1970s through 1990s with fiberglass insulation, particle board subflooring, and plaster or textured drywall that absorbs odors like a sponge. These materials don't respond to surface sprays or store-bought foggers. By the time a smell is noticeable to visitors, it's usually already embedded several layers deep.
+The housing stock in Auburn adds another layer of complexity. Many neighborhoods, from Lea Hill to the older subdivisions near Auburn Way, feature homes built in the 1970s through 1990s with fiberglass insulation, particle board subflooring, and plaster or textured drywall that absorbs odors like a sponge. These materials don't respond to surface sprays or store-bought foggers. By the time a smell is noticeable to visitors, it's usually already embedded several layers deep.
 
 ## Our Odor Removal and Deodorization Process in Auburn
 
-We don't mask odors — we eliminate the source and then neutralize what's left at the molecular level. Here's what that looks like in practice:
+We don't mask odors, we eliminate the source and then neutralize what's left at the molecular level. Here's what that looks like in practice:
 
-**1. Source identification and containment.** Before any equipment goes on, a technician traces the odor to its origin. Smoke residue behind a range hood, mold colonies inside a wall cavity, or sewage contamination under a subfloor — each requires a different approach. Skipping this step is why DIY attempts fail.
+**1. Source identification and containment.** Before any equipment goes on, a technician traces the odor to its origin. Smoke residue behind a range hood, mold colonies inside a wall cavity, or sewage contamination under a subfloor, each requires a different approach. Skipping this step is why DIY attempts fail.
 
-**2. Physical removal of contaminated material.** If the source is structural — charred framing, saturated insulation, compromised drywall — it comes out. No deodorization method works reliably over materials that are still actively off-gassing.
+**2. Physical removal of contaminated material.** If the source is structural, charred framing, saturated insulation, compromised drywall, it comes out. No deodorization method works reliably over materials that are still actively off-gassing.
 
 **3. Treatment with the right technology for the situation.** This is where professional odor elimination separates itself from anything available at a hardware store:
 
 - **Thermal fogging** penetrates the same microscopic pores that smoke traveled through, neutralizing residue in cavities and behind surfaces.
-- **Hydroxyl deodorization** uses UV-generated hydroxyl radicals to break down odor-causing compounds at the molecular level — safe to run in occupied spaces and effective on a wide range of organic odors.
+- **Hydroxyl deodorization** uses UV-generated hydroxyl radicals to break down odor-causing compounds at the molecular level, safe to run in occupied spaces and effective on a wide range of organic odors.
 - **Ozone treatment** is reserved for unoccupied spaces where a high-concentration, time-limited application is appropriate; it's particularly effective after smoke odor removal in heavily affected rooms.
 - **HEPA air scrubbing** runs continuously to capture airborne particulates that carry odor.
 
-**4. Post-treatment verification.** We don't pack up when the equipment shuts off. A technician walks the space, checks air quality readings, and confirms the odor is gone — not just reduced.
+**4. Post-treatment verification.** We don't pack up when the equipment shuts off. A technician walks the space, checks air quality readings, and confirms the odor is gone, not just reduced.
 
 ## Equipment and Methods We Use
 
-Our Auburn crews arrive with truck-mounted and portable equipment sized for the job. For large commercial properties or multi-unit buildings, we can deploy multiple hydroxyl generators simultaneously to reduce total treatment time. For smoke odor removal in homes with finished basements or crawl spaces — common in Auburn's hillside neighborhoods — thermal fogging equipment reaches areas that surface treatments can't.
+Our Auburn crews arrive with truck-mounted and portable equipment sized for the job. For large commercial properties or multi-unit buildings, we can deploy multiple hydroxyl generators simultaneously to reduce total treatment time. For smoke odor removal in homes with finished basements or crawl spaces, common in Auburn's hillside neighborhoods, thermal fogging equipment reaches areas that surface treatments can't.
 
-All of our technicians are IICRC certified, and the company holds EPA certification and Lead-Safe Certified Firm status — relevant any time we're working in pre-1978 housing stock, which is not uncommon in Auburn's older corridors near downtown.
+All of our technicians are IICRC certified, and the company holds EPA certification and Lead-Safe Certified Firm status, relevant any time we're working in pre-1978 housing stock, which is not uncommon in Auburn's older corridors near downtown.
 
 ## Insurance Claims for Odor Removal in Auburn
 
-Most homeowners' policies cover odor remediation when it's tied to a covered event — a fire, a burst pipe, a sewage backup. The part that trips people up is documentation: insurers want a clear chain from the loss event to the odor damage to the scope of work performed.
+Most homeowners' policies cover odor remediation when it's tied to a covered event, a fire, a burst pipe, a sewage backup. The part that trips people up is documentation: insurers want a clear chain from the loss event to the odor damage to the scope of work performed.
 
-We handle direct billing with most major carriers and provide the photo documentation, moisture readings, and written scope your adjuster needs. You don't need to have that conversation figured out before you reach out — we can walk you through what your policy is likely to cover once we've assessed the damage in person. What matters right now is stopping the odor from spreading further into building materials while the claim is being sorted.
+We handle direct billing with most major carriers and provide the photo documentation, moisture readings, and written scope your adjuster needs. You don't need to have that conversation figured out before you reach out, we can walk you through what your policy is likely to cover once we've assessed the damage in person. What matters right now is stopping the odor from spreading further into building materials while the claim is being sorted.
 
 ## Response Times Across Auburn
 
-Our Federal Way headquarters puts Auburn well within our priority response zone. Most Auburn addresses — whether you're near Auburn Station, out in the Lakeland Hills development, or closer to the Kent border on the north end — are within 60–90 minutes of a crew dispatch, often faster depending on time of day and crew availability. We operate 24 hours a day, seven days a week, including holidays, because odor emergencies don't follow business hours.
+Our Federal Way headquarters puts Auburn well within our priority response zone. Most Auburn addresses, whether you're near Auburn Station, out in the Lakeland Hills development, or closer to the Kent border on the north end, are within 60–90 minutes of a crew dispatch, often faster depending on time of day and crew availability. We operate 24 hours a day, seven days a week, including holidays, because odor emergencies don't follow business hours.
 
-If you're dealing with a smell that's getting worse, or you've just had a fire or water event and you're not sure what comes next, reach out to us at **(206) 883-0333**. The sooner the source is identified, the less material ends up needing replacement — and the lower the final cost.
+If you're dealing with a smell that's getting worse, or you've just had a fire or water event and you're not sure what comes next, reach out to us at **(206) 883-0333**. The sooner the source is identified, the less material ends up needing replacement, and the lower the final cost.

@@ -20,34 +20,34 @@ state: "MS"
 service_display: "Crawl Space Encapsulation"
 rendered: true
 ---
-Moselle sits in the humid heart of Jones County, where long, wet summers and mild winters create the kind of persistent ground moisture that crawl spaces were never designed to handle on their own. Homes built on pier-and-beam foundations — common throughout this part of Mississippi — draw that moisture up through exposed soil, letting it condense on floor joists, insulation batts, and subfloor sheathing until wood rot and mold become a matter of when, not if. Crawl space encapsulation changes that equation by sealing the space from the ground up, cutting off the moisture source before it reaches your living area.
+Moselle sits in the humid heart of Jones County, where long, wet summers and mild winters create the kind of persistent ground moisture that crawl spaces were never designed to handle on their own. Homes built on pier-and-beam foundations, common throughout this part of Mississippi, draw that moisture up through exposed soil, letting it condense on floor joists, insulation batts, and subfloor sheathing until wood rot and mold become a matter of when, not if. Crawl space encapsulation changes that equation by sealing the space from the ground up, cutting off the moisture source before it reaches your living area.
 
 ## Why Moselle Properties Are Especially Vulnerable to Crawl Space Moisture
 
 Jones County averages over 55 inches of rainfall annually, and Moselle's position in the Leaf River watershed means the water table sits closer to the surface than homeowners often expect. During a wet spring or after a significant storm system, that table can rise enough to push moisture through bare soil floors in crawl spaces that were bone-dry the previous fall. Clay-heavy soils common to this part of Mississippi retain water for weeks after rain events, keeping relative humidity in unencapsulated crawl spaces well above the 60% threshold where mold colonies begin to establish.
 
-Older homes in the Moselle area — many constructed in the 1960s and 1970s — were built with fiberglass batt insulation draped between floor joists rather than any form of vapor control beneath them. That insulation acts like a sponge, absorbing ambient moisture until it sags, loses R-value, and becomes a food source for mold. By the time a homeowner notices musty odors or soft spots in the floor, the damage is often already significant.
+Older homes in the Moselle area, many constructed in the 1960s and 1970s, were built with fiberglass batt insulation draped between floor joists rather than any form of vapor control beneath them. That insulation acts like a sponge, absorbing ambient moisture until it sags, loses R-value, and becomes a food source for mold. By the time a homeowner notices musty odors or soft spots in the floor, the damage is often already significant.
 
 ## Our Crawl Space Encapsulation Process in Moselle
 
-Every encapsulation project starts with a thorough inspection of the crawl space — not a quick flashlight sweep, but a documented assessment of moisture readings at multiple points, existing insulation condition, wood moisture content in floor joists, and any evidence of standing water or prior mold activity. Our team holds IICRC AMRT (mold) and IICRC WRT (water) certifications, so we're reading the crawl space the same way a structural drying specialist would, not just a general contractor.
+Every encapsulation project starts with a thorough inspection of the crawl space, not a quick flashlight sweep, but a documented assessment of moisture readings at multiple points, existing insulation condition, wood moisture content in floor joists, and any evidence of standing water or prior mold activity. Our team holds IICRC AMRT (mold) and IICRC WRT (water) certifications, so we're reading the crawl space the same way a structural drying specialist would, not just a general contractor.
 
 From there, the process follows a defined sequence:
 
-1. **Debris and damaged insulation removal** — old, moisture-laden batts are bagged and disposed of properly before any sealing begins.
-2. **Mold treatment if warranted** — any active mold growth on joists or sheathing is treated before encapsulation seals it in.
-3. **Ground-level vapor barrier installation** — we use a heavy-duty reinforced polyethylene liner (typically 20-mil) that covers the entire soil floor and runs up foundation walls, sealed at seams and penetrations with approved tape.
-4. **Foundation wall insulation** — rigid foam board is applied to interior foundation walls to reduce thermal bridging and further limit condensation.
-5. **Ventilation or conditioning assessment** — depending on your home's configuration, we evaluate whether existing vents should be sealed and whether a dehumidifier or conditioned air supply is the right long-term moisture management strategy for your specific crawl space volume.
+1. **Debris and damaged insulation removal**, old, moisture-laden batts are bagged and disposed of properly before any sealing begins.
+2. **Mold treatment if warranted**, any active mold growth on joists or sheathing is treated before encapsulation seals it in.
+3. **Ground-level vapor barrier installation**, we use a heavy-duty reinforced polyethylene liner (typically 20-mil) that covers the entire soil floor and runs up foundation walls, sealed at seams and penetrations with approved tape.
+4. **Foundation wall insulation**, rigid foam board is applied to interior foundation walls to reduce thermal bridging and further limit condensation.
+5. **Ventilation or conditioning assessment**, depending on your home's configuration, we evaluate whether existing vents should be sealed and whether a dehumidifier or conditioned air supply is the right long-term moisture management strategy for your specific crawl space volume.
 
-The goal isn't just to install plastic sheeting — it's to create a controlled environment that stays below 55% relative humidity year-round, even through a Jones County August.
+The goal isn't just to install plastic sheeting, it's to create a controlled environment that stays below 55% relative humidity year-round, even through a Jones County August.
 
 ## Reaching Moselle from Our Gulfport Base
 
-HomeLyft Restoration MS operates out of Gulfport and serves communities across Mississippi, including Moselle and the surrounding Jones County area. Scheduling is handled by phone at +12282845200, and our team coordinates arrival windows that work around your schedule. While Moselle is an inland community rather than a Gulf Coast location, our crews make the drive regularly for encapsulation projects — it's not a service we subcontract out or hand off to a third party.
+HomeLyft Restoration MS operates out of Gulfport and serves communities across Mississippi, including Moselle and the surrounding Jones County area. Scheduling is handled by phone at +12282845200, and our team coordinates arrival windows that work around your schedule. While Moselle is an inland community rather than a Gulf Coast location, our crews make the drive regularly for encapsulation projects, it's not a service we subcontract out or hand off to a third party.
 
 ## Local Note: What Moselle's Soil Does After a Rain
 
-One thing that becomes clear after working crawl spaces in this part of Jones County is how deceptive the dry season can be. A homeowner will have an inspection done in September, see no standing water, and assume the crawl space is fine. Then February and March arrive with back-to-back rain systems, and that same crawl space has two inches of water sitting on bare soil for three weeks. The clay content in the soil here doesn't drain — it holds. A vapor barrier alone won't solve that if surface grading or foundation drainage is pushing water toward the home, which is why our inspections always include a look at exterior grading and downspout discharge before we finalize a scope of work. Fixing the crawl space without addressing the source is a short-term answer.
+One thing that becomes clear after working crawl spaces in this part of Jones County is how deceptive the dry season can be. A homeowner will have an inspection done in September, see no standing water, and assume the crawl space is fine. Then February and March arrive with back-to-back rain systems, and that same crawl space has two inches of water sitting on bare soil for three weeks. The clay content in the soil here doesn't drain, it holds. A vapor barrier alone won't solve that if surface grading or foundation drainage is pushing water toward the home, which is why our inspections always include a look at exterior grading and downspout discharge before we finalize a scope of work. Fixing the crawl space without addressing the source is a short-term answer.
 
 If you're seeing signs of moisture damage, soft flooring, or musty odors in your Moselle home, the crawl space is almost always the first place to look. Call HomeLyft Restoration MS at +12282845200 to schedule an inspection and get a clear picture of what's happening beneath your floors before the next rainy season compounds the problem.

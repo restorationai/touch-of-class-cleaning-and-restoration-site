@@ -20,42 +20,42 @@ state: "OH"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
-Warren sits in the Mahoning Valley where cold air funneling down from Lake Erie collides with warm fronts pushing up from the Ohio River basin — a recipe for the kind of fast-moving, violent storms that can strip a roof, drop a tree through a garage, and push inches of water into a basement in the same afternoon. When that happens, the clock starts immediately: structural moisture begins working into framing within hours, and storm-loosened debris left on a roof overnight can turn a manageable repair into a full tear-off. DISS Restoration responds 24/7 to storm damage calls throughout Warren and the surrounding Trumbull County area.
+Warren sits in the Mahoning Valley where cold air funneling down from Lake Erie collides with warm fronts pushing up from the Ohio River basin, a recipe for the kind of fast-moving, violent storms that can strip a roof, drop a tree through a garage, and push inches of water into a basement in the same afternoon. When that happens, the clock starts immediately: structural moisture begins working into framing within hours, and storm-loosened debris left on a roof overnight can turn a manageable repair into a full tear-off. DISS Restoration responds 24/7 to storm damage calls throughout Warren and the surrounding Trumbull County area.
 
 ## Why Warren Properties See Serious Storm Damage
 
-Warren's housing stock tells a specific story. Much of the city was built during the steel boom of the early-to-mid twentieth century, which means a large share of homes feature older roof systems — original slate, aging asphalt shingles over skip sheathing, or wood-framed structures that have seen decades of freeze-thaw cycling. When a severe line of thunderstorms or a tornado-warned cell moves through Trumbull County, those older roofs are more vulnerable to uplift and puncture than newer construction.
+Warren's housing stock tells a specific story. Much of the city was built during the steel boom of the early-to-mid twentieth century, which means a large share of homes feature older roof systems, original slate, aging asphalt shingles over skip sheathing, or wood-framed structures that have seen decades of freeze-thaw cycling. When a severe line of thunderstorms or a tornado-warned cell moves through Trumbull County, those older roofs are more vulnerable to uplift and puncture than newer construction.
 
-The region also sits in a recognized tornado corridor for northeast Ohio. While direct strikes are less common than in the central plains, straight-line winds from severe thunderstorms regularly exceed 60 to 70 mph across the valley — enough to topple mature trees, shear off gutters, and drive rain horizontally into soffits and attic spaces. Once water enters the attic, it follows the path of least resistance: down through insulation, into ceiling joists, and eventually through drywall below. By the time a homeowner notices a water stain on the ceiling, the structural cavity above it has often been wet for hours.
+The region also sits in a recognized tornado corridor for northeast Ohio. While direct strikes are less common than in the central plains, straight-line winds from severe thunderstorms regularly exceed 60 to 70 mph across the valley, enough to topple mature trees, shear off gutters, and drive rain horizontally into soffits and attic spaces. Once water enters the attic, it follows the path of least resistance: down through insulation, into ceiling joists, and eventually through drywall below. By the time a homeowner notices a water stain on the ceiling, the structural cavity above it has often been wet for hours.
 
 ## Our Storm Damage Restoration Process in Warren
 
-The first step on every storm job is a thorough exterior and interior assessment — not just a visual check, but moisture readings at the wall cavities, subfloor, and ceiling planes most likely to have absorbed water from the event. We document everything with photographs and moisture logs before a single piece of material is moved, because that documentation is what your insurance adjuster will need to process the claim accurately.
+The first step on every storm job is a thorough exterior and interior assessment, not just a visual check, but moisture readings at the wall cavities, subfloor, and ceiling planes most likely to have absorbed water from the event. We document everything with photographs and moisture logs before a single piece of material is moved, because that documentation is what your insurance adjuster will need to process the claim accurately.
 
 From there, the process follows a clear sequence:
 
 - **Emergency tarping and board-up** to stop active water intrusion at the roof or wall breach
 - **Structural drying** using commercial-grade desiccant dehumidifiers and high-velocity air movers, calibrated to the specific materials and cavity depths involved
-- **Debris removal** — downed tree limbs, damaged roofing material, compromised insulation
+- **Debris removal**, downed tree limbs, damaged roofing material, compromised insulation
 - **Controlled demolition** of unsalvageable materials (wet drywall, saturated insulation, buckled flooring) to expose framing for drying
 - **Reconstruction coordination** once the structure passes dry-standard verification
 
-Our team holds IICRC certifications in Water Damage Restoration, Structural Drying, and Fire and Smoke Restoration — relevant here because lightning strikes and downed power lines sometimes introduce smoke and char damage alongside wind and water loss.
+Our team holds IICRC certifications in Water Damage Restoration, Structural Drying, and Fire and Smoke Restoration, relevant here because lightning strikes and downed power lines sometimes introduce smoke and char damage alongside wind and water loss.
 
 ## Reaching Warren from Youngstown
 
-DISS Restoration is based in Youngstown, roughly 15 miles southwest of Warren via US-422. That route runs directly into the heart of Warren, making it one of the faster corridors between the two cities. Because our hours are 24/7, a call placed at 2 a.m. after a storm cell moves through gets the same response as a midday call — a crew dispatched, not a voicemail.
+DISS Restoration is based in Youngstown, roughly 15 miles southwest of Warren via US-422. That route runs directly into the heart of Warren, making it one of the faster corridors between the two cities. Because our hours are 24/7, a call placed at 2 a.m. after a storm cell moves through gets the same response as a midday call, a crew dispatched, not a voicemail.
 
-For properties on the north side of the city closer to Lordstown or along the SR-5 corridor, we route accordingly. Storm jobs often require multiple trips — an initial emergency stabilization visit, followed by equipment setup, daily moisture monitoring, and a final clearance check — so familiarity with the local road network matters.
+For properties on the north side of the city closer to Lordstown or along the SR-5 corridor, we route accordingly. Storm jobs often require multiple trips, an initial emergency stabilization visit, followed by equipment setup, daily moisture monitoring, and a final clearance check, so familiarity with the local road network matters.
 
 ## Warren Insurance Coordination After a Storm
 
-Trumbull County storm claims follow patterns that experienced restoration contractors recognize. Most homeowners' policies cover sudden and accidental storm damage — wind, hail, falling trees — but the documentation burden falls on the policyholder to prove the damage was storm-caused rather than pre-existing deterioration. That distinction matters especially in older Warren neighborhoods where deferred maintenance and storm damage can look similar to an adjuster reviewing photographs.
+Trumbull County storm claims follow patterns that experienced restoration contractors recognize. Most homeowners' policies cover sudden and accidental storm damage, wind, hail, falling trees, but the documentation burden falls on the policyholder to prove the damage was storm-caused rather than pre-existing deterioration. That distinction matters especially in older Warren neighborhoods where deferred maintenance and storm damage can look similar to an adjuster reviewing photographs.
 
 We provide detailed scope-of-loss documentation, moisture readings, and photo evidence organized to support your claim. We bill carriers directly and work with adjusters throughout the process so you are not left translating between a contractor and an insurance company on your own.
 
 ## Local Note
 
-One thing that comes up specifically in Warren's older residential areas: many homes built before 1960 used true-dimension lumber framing with dense wood that holds moisture differently than modern dimensional lumber. Moisture meters calibrated for standard softwood can under-read saturation levels in these older, denser members — which means a wall cavity can appear to be drying on schedule when it isn't. We account for this by extending monitoring intervals and cross-checking with thermal imaging on older structures, rather than relying solely on surface meter readings to call a job dry.
+One thing that comes up specifically in Warren's older residential areas: many homes built before 1960 used true-dimension lumber framing with dense wood that holds moisture differently than modern dimensional lumber. Moisture meters calibrated for standard softwood can under-read saturation levels in these older, denser members, which means a wall cavity can appear to be drying on schedule when it isn't. We account for this by extending monitoring intervals and cross-checking with thermal imaging on older structures, rather than relying solely on surface meter readings to call a job dry.
 
-If your Warren home took a hit in a recent storm, don't wait to see whether the damage resolves on its own — it won't. Call DISS Restoration at (724) 981-1441 any time, day or night, and we'll assess the damage, stop what's active, and walk you through every step from emergency stabilization to final reconstruction.
+If your Warren home took a hit in a recent storm, don't wait to see whether the damage resolves on its own, it won't. Call DISS Restoration at (724) 981-1441 any time, day or night, and we'll assess the damage, stop what's active, and walk you through every step from emergency stabilization to final reconstruction.

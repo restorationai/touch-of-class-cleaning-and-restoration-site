@@ -17,33 +17,33 @@ service_slug: "biohazard-cleanup"
 service_display: "Biohazard Cleanup"
 rendered: true
 ---
-When something happens in a home or property that leaves behind blood, bodily fluids, or other infectious material, the instinct is to clean it up immediately. That instinct is understandable — but standard cleaning products and household disinfectants do not neutralize bloodborne pathogens. What looks clean at the surface can still harbor hepatitis, HIV, or other biological hazards in porous materials, subfloor gaps, or wall cavities. Biohazard remediation is a regulated, equipment-intensive process, and it matters that it is done correctly the first time.
+When something happens in a home or property that leaves behind blood, bodily fluids, or other infectious material, the instinct is to clean it up immediately. That instinct is understandable, but standard cleaning products and household disinfectants do not neutralize bloodborne pathogens. What looks clean at the surface can still harbor hepatitis, HIV, or other biological hazards in porous materials, subfloor gaps, or wall cavities. Biohazard remediation is a regulated, equipment-intensive process, and it matters that it is done correctly the first time.
 
 ## What biohazard cleanup actually involves
 
 Biohazard cleanup covers a range of situations: unattended deaths, trauma scenes, blood or bodily fluid exposure, sharps and needle cleanup from drug activity, and infectious material cleanup after a medical event. The common thread is biological contamination that poses a genuine health risk to anyone who enters the space without proper protection.
 
-The work itself is methodical. Technicians use hospital-grade disinfectants and enzymatic treatments designed to break down organic matter at a molecular level — not just mask it. Affected porous materials (carpet, padding, drywall, subfloor) are typically removed rather than treated in place, because pathogens can penetrate well below the visible surface. Air quality is managed throughout. All collected waste is packaged, labeled, and transported under a regulated waste manifest — the same chain-of-custody documentation required for medical and laboratory waste.
+The work itself is methodical. Technicians use hospital-grade disinfectants and enzymatic treatments designed to break down organic matter at a molecular level, not just mask it. Affected porous materials (carpet, padding, drywall, subfloor) are typically removed rather than treated in place, because pathogens can penetrate well below the visible surface. Air quality is managed throughout. All collected waste is packaged, labeled, and transported under a regulated waste manifest, the same chain-of-custody documentation required for medical and laboratory waste.
 
 Timeline depends on the size of the affected area and the depth of penetration into building materials. A contained single-room scene may be resolved in a single day. Larger or longer-duration contamination events require structural assessment and may extend into a multi-day remediation and reconstruction sequence.
 
 ## Our process
 
-1. **Site assessment and PPE staging.** Before any cleanup begins, the affected area is assessed for the extent of contamination — visible and non-visible. Technicians arrive in full personal protective equipment and establish a controlled work zone to prevent cross-contamination to unaffected areas of the property.
+1. **Site assessment and PPE staging.** Before any cleanup begins, the affected area is assessed for the extent of contamination, visible and non-visible. Technicians arrive in full personal protective equipment and establish a controlled work zone to prevent cross-contamination to unaffected areas of the property.
 
 2. **Biohazardous material removal.** Contaminated materials are carefully removed, bagged in certified biohazard containers, and sealed at the point of collection. This includes soft goods, flooring, and any structural materials that cannot be adequately disinfected. Nothing is carried through unaffected living spaces.
 
-3. **Enzymatic treatment and disinfection.** Remaining hard surfaces and structural elements are treated with EPA-registered disinfectants and enzymatic cleaners. These agents break down organic proteins rather than simply covering them. Contact time and concentration are followed per the product's label requirements — a step that is often rushed or skipped in non-professional cleanup attempts.
+3. **Enzymatic treatment and disinfection.** Remaining hard surfaces and structural elements are treated with EPA-registered disinfectants and enzymatic cleaners. These agents break down organic proteins rather than simply covering them. Contact time and concentration are followed per the product's label requirements, a step that is often rushed or skipped in non-professional cleanup attempts.
 
-4. **Regulated waste transport and manifest documentation.** All biohazardous waste collected on-site is transported by licensed carriers under a regulated waste manifest. This documentation is part of the job file and is available to property owners and insurance adjusters. Disposal at an unlicensed facility is both illegal and a liability — the manifest is your proof that it was handled correctly.
+4. **Regulated waste transport and manifest documentation.** All biohazardous waste collected on-site is transported by licensed carriers under a regulated waste manifest. This documentation is part of the job file and is available to property owners and insurance adjusters. Disposal at an unlicensed facility is both illegal and a liability, the manifest is your proof that it was handled correctly.
 
 5. **Post-remediation verification.** Before the work zone is released, surfaces are inspected and, where indicated, ATP testing or other verification methods confirm that biological contamination has been reduced to safe levels. The property is not cleared until that standard is met.
 
 ## What separates a good biohazard response from a bad one
 
-The most common failure in biohazard cleanup is incomplete removal of porous materials. A technician who disinfects the surface of a carpet without removing the padding and testing the subfloor beneath it has not completed the job — the contamination is simply hidden. Insurance adjusters who review biohazard claims look for documentation of material removal, disinfectant product names and EPA registration numbers, and a waste manifest. A scope of work that lacks those elements is a scope that may not pay out.
+The most common failure in biohazard cleanup is incomplete removal of porous materials. A technician who disinfects the surface of a carpet without removing the padding and testing the subfloor beneath it has not completed the job, the contamination is simply hidden. Insurance adjusters who review biohazard claims look for documentation of material removal, disinfectant product names and EPA registration numbers, and a waste manifest. A scope of work that lacks those elements is a scope that may not pay out.
 
-Discretion is the other variable that separates experienced operators from general cleaning services. Neighbors, building tenants, and passersby should not be able to identify what is happening at the property. Unmarked vehicles, plain packaging, and professional conduct on-site are not optional courtesies — they are part of the service.
+Discretion is the other variable that separates experienced operators from general cleaning services. Neighbors, building tenants, and passersby should not be able to identify what is happening at the property. Unmarked vehicles, plain packaging, and professional conduct on-site are not optional courtesies, they are part of the service.
 
 OSHA-trained technicians working under a documented safety plan are also a meaningful differentiator. Biohazard cleanup without a written exposure control plan puts workers at risk and exposes property owners to liability if something goes wrong on-site.
 
@@ -60,11 +60,11 @@ Typical costs for biohazard remediation vary significantly based on the size of 
 | Unattended death with extended exposure period | $5,000 – $25,000+ |
 | Vehicle biohazard remediation | $500 – $3,000 |
 
-Every loss is different, and DISS Restoration provides a written scope of work before any work begins so there are no surprises. Homeowners insurance frequently covers biohazard cleanup when the event is sudden and accidental — trauma scenes, unattended deaths, and certain infectious material events are commonly covered under the dwelling or personal property sections of a standard policy, though coverage varies by carrier and policy language.
+Every loss is different, and DISS Restoration provides a written scope of work before any work begins so there are no surprises. Homeowners insurance frequently covers biohazard cleanup when the event is sudden and accidental, trauma scenes, unattended deaths, and certain infectious material events are commonly covered under the dwelling or personal property sections of a standard policy, though coverage varies by carrier and policy language.
 
 ## Seasonal and regional considerations
 
-In the Mahoning Valley, older housing stock — much of it built before 1980 — means that biohazard remediation frequently intersects with lead paint and asbestos concerns. When contaminated materials include pre-1978 painted surfaces or suspected asbestos-containing materials, those hazards must be identified and handled under separate regulatory requirements before or alongside biohazard remediation. DISS Restoration is EPA Lead-Safe Certified, which matters when remediation work disturbs painted surfaces in older Youngstown-area homes.
+In the Mahoning Valley, older housing stock, much of it built before 1980, means that biohazard remediation frequently intersects with lead paint and asbestos concerns. When contaminated materials include pre-1978 painted surfaces or suspected asbestos-containing materials, those hazards must be identified and handled under separate regulatory requirements before or alongside biohazard remediation. DISS Restoration is EPA Lead-Safe Certified, which matters when remediation work disturbs painted surfaces in older Youngstown-area homes.
 
 ## Service area
 

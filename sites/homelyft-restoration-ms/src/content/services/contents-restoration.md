@@ -17,7 +17,7 @@ service_slug: "contents-restoration"
 service_display: "Contents Restoration and Storage"
 rendered: true
 ---
-After a fire, flood, or storm tears through a home, the structure gets most of the attention — but the belongings inside are often what hurt the most to lose. Smoke odor soaks into upholstery within hours. Soot bonds to porous surfaces within days. Floodwater carries bacteria into fabric fibers that no surface wipe will reach. Contents restoration is the discipline of recovering those items — furniture, clothing, electronics, documents, family heirlooms — before the damage becomes permanent, and storing them safely while the structure is being rebuilt around them.
+After a fire, flood, or storm tears through a home, the structure gets most of the attention, but the belongings inside are often what hurt the most to lose. Smoke odor soaks into upholstery within hours. Soot bonds to porous surfaces within days. Floodwater carries bacteria into fabric fibers that no surface wipe will reach. Contents restoration is the discipline of recovering those items, furniture, clothing, electronics, documents, family heirlooms, before the damage becomes permanent, and storing them safely while the structure is being rebuilt around them.
 
 ## What Contents Restoration and Storage actually involves
 
@@ -25,15 +25,15 @@ Contents restoration is not cleaning. It is a multi-step recovery process that b
 
 The work breaks into two parallel tracks. The first is **pack-out**: every salvageable item is photographed, barcoded, and removed from the loss site before demolition, drying equipment, or reconstruction crews create secondary damage to your belongings. The second track is **off-site treatment**, where items go through ultrasonic cleaning tanks, ozone chambers, thermal fogging, HEPA-filtered dry cleaning, and document freeze-drying depending on what they are and what damaged them.
 
-Timeline matters. Smoke odor compounds — particularly from synthetic materials — begin cross-linking with fabric and wood finishes within 24 to 48 hours of a fire. Category 2 or 3 floodwater can colonize soft goods with mold in as little as 48 to 72 hours in Mississippi's coastal humidity. The faster a pack-out happens, the wider the window for successful restoration.
+Timeline matters. Smoke odor compounds, particularly from synthetic materials, begin cross-linking with fabric and wood finishes within 24 to 48 hours of a fire. Category 2 or 3 floodwater can colonize soft goods with mold in as little as 48 to 72 hours in Mississippi's coastal humidity. The faster a pack-out happens, the wider the window for successful restoration.
 
-Storage runs concurrently. Items that cannot be immediately treated are held in a climate-controlled facility — not a warehouse with a padlock, but a monitored environment where temperature and relative humidity are tracked to prevent secondary mold growth during the weeks or months a home is under reconstruction.
+Storage runs concurrently. Items that cannot be immediately treated are held in a climate-controlled facility, not a warehouse with a padlock, but a monitored environment where temperature and relative humidity are tracked to prevent secondary mold growth during the weeks or months a home is under reconstruction.
 
 ## Our process
 
 1. **On-site inventory and photo documentation.** Every room is walked before anything is moved. Items are photographed in place, categorized by material type and damage level (salvageable, questionable, total loss), and logged into a digital inventory that becomes part of your insurance claim file.
 
-2. **Selective pack-out.** Salvageable contents are packed using appropriate materials — electronics in anti-static wrap, artwork face-out in padded crates, textiles in sealed bags to prevent cross-contamination of smoke or mold odors. Items are transported to our climate-controlled facility.
+2. **Selective pack-out.** Salvageable contents are packed using appropriate materials, electronics in anti-static wrap, artwork face-out in padded crates, textiles in sealed bags to prevent cross-contamination of smoke or mold odors. Items are transported to our climate-controlled facility.
 
 3. **Material-specific cleaning and treatment.** Hard goods go through ultrasonic cleaning, which uses high-frequency sound waves in a cleaning solution to pull soot and residue from crevices no hand-wiping can reach. Soft goods are assessed for dry cleaning, ozone treatment, or hydroxyl generation. Smoke-damaged wood furniture may require thermal fogging to neutralize odor compounds that have penetrated the grain. Documents and photos are freeze-dried if water-damaged to halt deterioration before restoration.
 
@@ -43,11 +43,11 @@ Storage runs concurrently. Items that cannot be immediately treated are held in 
 
 ## What separates a good contents response from a bad one
 
-The most common failure in contents restoration is the absence of a proper inventory. Without item-level documentation completed before pack-out, there is no baseline to compare against at return — and no paper trail for your insurance adjuster to approve replacement of items that could not be restored. Adjusters specifically look for pre-loss photos, condition notes, and cleaning method justification. A crew that packs boxes without barcoding them is creating a dispute waiting to happen.
+The most common failure in contents restoration is the absence of a proper inventory. Without item-level documentation completed before pack-out, there is no baseline to compare against at return, and no paper trail for your insurance adjuster to approve replacement of items that could not be restored. Adjusters specifically look for pre-loss photos, condition notes, and cleaning method justification. A crew that packs boxes without barcoding them is creating a dispute waiting to happen.
 
-The second common failure is treating all soot the same. Protein soot — from cooking fires or smoldering organic material — is nearly invisible but extraordinarily pungent and requires enzymatic or alkaline cleaning agents. Synthetic soot from burning plastics and foam is oily, stains aggressively, and smears if wiped dry. Using the wrong chemistry on either type can permanently set the damage into fabric or finish. IICRC FSRT training covers soot characterization precisely because the cleaning method must match the soot type.
+The second common failure is treating all soot the same. Protein soot, from cooking fires or smoldering organic material, is nearly invisible but extraordinarily pungent and requires enzymatic or alkaline cleaning agents. Synthetic soot from burning plastics and foam is oily, stains aggressively, and smears if wiped dry. Using the wrong chemistry on either type can permanently set the damage into fabric or finish. IICRC FSRT training covers soot characterization precisely because the cleaning method must match the soot type.
 
-A third failure is inadequate storage. Items placed in a non-climate-controlled environment during a Gulf Coast summer — where ambient humidity can exceed 80% — will develop mold within weeks, converting a restorable item into a total loss. Climate-controlled, monitored storage is not optional in this region; it is the difference between a successful claim and a supplement fight.
+A third failure is inadequate storage. Items placed in a non-climate-controlled environment during a Gulf Coast summer, where ambient humidity can exceed 80%, will develop mold within weeks, converting a restorable item into a total loss. Climate-controlled, monitored storage is not optional in this region; it is the difference between a successful claim and a supplement fight.
 
 ## What does Contents Restoration and Storage cost?
 
@@ -62,16 +62,16 @@ Typical costs for contents restoration and storage vary significantly based on t
 | Document and photo restoration (per batch) | $400 – $2,000 |
 | Electronics assessment and cleaning | $150 – $600 per item |
 
-Every loss is different — the figures above are typical industry ranges, not quotes. HomeLyft Restoration MS provides a written scope of work before any billable work begins. Homeowners insurance policies with personal property coverage (Coverage C) typically cover contents restoration and storage when the loss is caused by a covered peril; HomeLyft Restoration MS works with all insurance carriers and handles the claim documentation directly.
+Every loss is different, the figures above are typical industry ranges, not quotes. HomeLyft Restoration MS provides a written scope of work before any billable work begins. Homeowners insurance policies with personal property coverage (Coverage C) typically cover contents restoration and storage when the loss is caused by a covered peril; HomeLyft Restoration MS works with all insurance carriers and handles the claim documentation directly.
 
 ## Seasonal and regional considerations
 
-The Mississippi Gulf Coast presents specific challenges for contents restoration that inland markets do not. Ambient relative humidity along the coast regularly runs between 70% and 90% from May through October. That means any item removed from a loss site and placed in an uncontrolled environment — even briefly — is at immediate risk of secondary mold colonization. Pack-out vehicles and storage facilities must be climate-controlled, not just covered.
+The Mississippi Gulf Coast presents specific challenges for contents restoration that inland markets do not. Ambient relative humidity along the coast regularly runs between 70% and 90% from May through October. That means any item removed from a loss site and placed in an uncontrolled environment, even briefly, is at immediate risk of secondary mold colonization. Pack-out vehicles and storage facilities must be climate-controlled, not just covered.
 
-Hurricane season (June through November) also means that contents losses here frequently involve both wind-driven water intrusion and mold that has already begun before the storm clears. Items that appear dry on the surface may have absorbed enough humidity to support mold growth within 48 hours. Gulfport's older housing stock — much of it built before modern vapor barriers were standard — tends to hold moisture in ways that accelerate this timeline.
+Hurricane season (June through November) also means that contents losses here frequently involve both wind-driven water intrusion and mold that has already begun before the storm clears. Items that appear dry on the surface may have absorbed enough humidity to support mold growth within 48 hours. Gulfport's older housing stock, much of it built before modern vapor barriers were standard, tends to hold moisture in ways that accelerate this timeline.
 
 ## Service area
 
 HomeLyft Restoration MS is headquartered in Gulfport and provides contents restoration and storage services throughout the Mississippi Gulf Coast, including Biloxi, Long Beach, Pass Christian, D'Iberville, Ocean Springs, Pascagoula, and surrounding Harrison, Jackson, and Hancock County communities. Detailed service-area pages cover each city and link back here for the full process description.
 
-If your belongings are at risk right now — from smoke, water, or storm damage — call **(228) 284-5200** to schedule a contents assessment and pack-out. The sooner items are inventoried and moved to a controlled environment, the more of them come back.
+If your belongings are at risk right now, from smoke, water, or storm damage, call **(228) 284-5200** to schedule a contents assessment and pack-out. The sooner items are inventoried and moved to a controlled environment, the more of them come back.

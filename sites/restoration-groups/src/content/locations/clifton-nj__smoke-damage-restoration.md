@@ -20,46 +20,46 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
-A kitchen fire that gets knocked down fast can still leave a Clifton home smelling like a campfire for months. Smoke doesn't stop moving when the flames do — it migrates through wall cavities, settles into the plaster and horsehair insulation common in Botany Village's older brick multifamilies, and embeds itself in HVAC ductwork before most homeowners have even called their insurance adjuster. If you're dealing with that acrid, oily residue right now, the clock matters more than most people realize.
+A kitchen fire that gets knocked down fast can still leave a Clifton home smelling like a campfire for months. Smoke doesn't stop moving when the flames do, it migrates through wall cavities, settles into the plaster and horsehair insulation common in Botany Village's older brick multifamilies, and embeds itself in HVAC ductwork before most homeowners have even called their insurance adjuster. If you're dealing with that acrid, oily residue right now, the clock matters more than most people realize.
 
 ## Why Clifton Properties See Smoke Damage Issues
 
-Clifton's housing stock is dominated by postwar construction — 1940s through 1960s capes, colonials, and split-levels packed tightly across ZIP codes 07011 through 07014. These homes were built before modern fire-blocking requirements, which means smoke travels freely through open stud bays, attic knee walls, and unlined chases connecting floors. A fire that starts in a finished basement — common in the split-levels along the Lakeview and Richfield corridors — can push smoke into every level of the house within minutes.
+Clifton's housing stock is dominated by postwar construction, 1940s through 1960s capes, colonials, and split-levels packed tightly across ZIP codes 07011 through 07014. These homes were built before modern fire-blocking requirements, which means smoke travels freely through open stud bays, attic knee walls, and unlined chases connecting floors. A fire that starts in a finished basement, common in the split-levels along the Lakeview and Richfield corridors, can push smoke into every level of the house within minutes.
 
 Botany Village's brick multifamily buildings present a different challenge. Shared wall assemblies and common HVAC returns mean smoke from one unit can cross into adjacent spaces. Landlords and property managers in those buildings often discover the damage extends further than the unit of origin, complicating both the scope of work and the insurance claim.
 
-The Route 3 commercial corridor and the retail density around Styertowne Shopping Center also generate their own pattern of fire losses — sprinkler discharges triggered by cooking equipment, overnight electrical fires in strip retail, and roof-level HVAC units that spread smoke through connected tenant spaces before anyone is on-site to catch it.
+The Route 3 commercial corridor and the retail density around Styertowne Shopping Center also generate their own pattern of fire losses, sprinkler discharges triggered by cooking equipment, overnight electrical fires in strip retail, and roof-level HVAC units that spread smoke through connected tenant spaces before anyone is on-site to catch it.
 
 ## Our Smoke Damage Restoration Process in Clifton
 
-Smoke damage restoration isn't a single step — it's a sequence that has to happen in the right order or you're sealing odor into surfaces permanently.
+Smoke damage restoration isn't a single step, it's a sequence that has to happen in the right order or you're sealing odor into surfaces permanently.
 
-We start with a full assessment of affected materials, mapping where soot has settled and where smoke has penetrated beyond what's visible. In older Clifton homes with original plaster walls, that penetration is often deeper than in modern drywall construction — plaster is porous, and fine smoke particles work their way into the finish coat and the brown coat beneath it.
+We start with a full assessment of affected materials, mapping where soot has settled and where smoke has penetrated beyond what's visible. In older Clifton homes with original plaster walls, that penetration is often deeper than in modern drywall construction, plaster is porous, and fine smoke particles work their way into the finish coat and the brown coat beneath it.
 
 From there, the process moves through:
 
-- **Dry soot removal** using HEPA-filtered vacuums and chemical sponges before any wet cleaning — wetting soot before dry removal drives it deeper into porous surfaces
+- **Dry soot removal** using HEPA-filtered vacuums and chemical sponges before any wet cleaning, wetting soot before dry removal drives it deeper into porous surfaces
 - **Chemical cleaning** of hard surfaces, cabinetry, and structural materials with pH-appropriate agents matched to the type of fire (protein fires from cooking leave a different residue than synthetic-material fires)
 - **Thermal fogging or hydroxyl treatment** to neutralize odor molecules in air spaces, wall cavities, and soft goods that can't be wiped clean
-- **Duct cleaning and HVAC decontamination** — skipping this step is the most common reason smoke odor returns weeks after a job is "done"
+- **Duct cleaning and HVAC decontamination**, skipping this step is the most common reason smoke odor returns weeks after a job is "done"
 - **Controlled demolition** of materials that can't be cleaned to an acceptable standard, followed by reconstruction coordinated through our NJ Licensed Home Improvement Contractor license
 
 All drying and decontamination work is performed per IICRC standards by our IICRC Certified Firm (#210213).
 
 ## Reaching Clifton from Kenilworth
 
-Our team operates out of Kenilworth, NJ, and reaches Clifton via Route 22 East to Route 21 North — a corridor that puts us into the Delawanna and Lakeview sections of Clifton quickly, and connects to the Route 3 interchange for losses on the commercial side of town. We're available 24/7, so a call at 2 a.m. after a kitchen fire gets the same response as a call on a Tuesday afternoon.
+Our team operates out of Kenilworth, NJ, and reaches Clifton via Route 22 East to Route 21 North, a corridor that puts us into the Delawanna and Lakeview sections of Clifton quickly, and connects to the Route 3 interchange for losses on the commercial side of town. We're available 24/7, so a call at 2 a.m. after a kitchen fire gets the same response as a call on a Tuesday afternoon.
 
 For addresses in the Athenia or Montclair Heights sections, we typically route through Bloomfield Avenue, which keeps us off the Route 3 interchange congestion during peak hours.
 
 ## Clifton Insurance Coordination
 
-Most homeowner policies in New Jersey cover sudden and accidental fire and smoke damage, but the documentation burden falls on the policyholder to establish scope. We photograph affected materials systematically, generate moisture and air quality readings where applicable, and produce a line-item scope that aligns with Xactimate — the estimating platform most carriers use. We bill carriers directly on agreed scopes, which reduces the out-of-pocket exposure for Clifton homeowners who are already managing a stressful situation.
+Most homeowner policies in New Jersey cover sudden and accidental fire and smoke damage, but the documentation burden falls on the policyholder to establish scope. We photograph affected materials systematically, generate moisture and air quality readings where applicable, and produce a line-item scope that aligns with Xactimate, the estimating platform most carriers use. We bill carriers directly on agreed scopes, which reduces the out-of-pocket exposure for Clifton homeowners who are already managing a stressful situation.
 
 For landlords managing multifamily properties in Botany Village or along the two-family rental corridors near Route 46, we can document unit-by-unit scope separately, which simplifies the claim when multiple units are involved.
 
 ## Local Note
 
-Clifton's older plaster-wall homes hold smoke odor differently than modern construction, and this catches some contractors off guard. Plaster is alkaline, and many smoke residues are acidic — the wrong cleaning chemistry doesn't just fail to clean, it can drive the residue deeper into the substrate and cause surface damage that wasn't there before. We've also found that the original horsehair-reinforced plaster in some Botany Village buildings absorbs odor molecules into the organic fiber matrix itself, which means thermal fogging needs longer dwell time than a standard job. Getting the chemistry and the timing right on the front end avoids a callback two weeks later when the smell comes back on a humid day.
+Clifton's older plaster-wall homes hold smoke odor differently than modern construction, and this catches some contractors off guard. Plaster is alkaline, and many smoke residues are acidic, the wrong cleaning chemistry doesn't just fail to clean, it can drive the residue deeper into the substrate and cause surface damage that wasn't there before. We've also found that the original horsehair-reinforced plaster in some Botany Village buildings absorbs odor molecules into the organic fiber matrix itself, which means thermal fogging needs longer dwell time than a standard job. Getting the chemistry and the timing right on the front end avoids a callback two weeks later when the smell comes back on a humid day.
 
-If you're in Clifton and dealing with smoke damage right now — whether it's a contained kitchen fire in a Lakeview split-level or a commercial loss near Clifton Commons — call The Restoration Group at (855) 650-7422. We'll assess the damage, walk you through the scope, and get the process started before the residue has more time to set.
+If you're in Clifton and dealing with smoke damage right now, whether it's a contained kitchen fire in a Lakeview split-level or a commercial loss near Clifton Commons, call The Restoration Group at (855) 650-7422. We'll assess the damage, walk you through the scope, and get the process started before the residue has more time to set.

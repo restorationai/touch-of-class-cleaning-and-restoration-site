@@ -19,35 +19,35 @@ state: "CA"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall in your Escondido home or a slow roof leak finally soaks through the drywall, Flood Fixers dispatches a certified crew from San Diego to your door — typically within 60 to 90 minutes. We handle water damage mitigation, fire and smoke cleanup, mold remediation, and full reconstruction for homeowners and property managers across Escondido's neighborhoods, and we work directly with your insurance carrier from the first call to the final invoice.
+When a pipe bursts behind a wall in your Escondido home or a slow roof leak finally soaks through the drywall, Flood Fixers dispatches a certified crew from San Diego to your door, typically within 60 to 90 minutes. We handle water damage mitigation, fire and smoke cleanup, mold remediation, and full reconstruction for homeowners and property managers across Escondido's neighborhoods, and we work directly with your insurance carrier from the first call to the final invoice.
 
 ## Restoration emergencies common in Escondido
 
 Escondido sits inland from the coast, which means it swings between dry Santa Ana wind events and the kind of concentrated winter rain that the coastal marine layer softens elsewhere. That combination creates a predictable pattern: months of dry air cause wood framing, stucco, and roof flashing to contract and gap, then the first hard rain of the season finds every crack at once. Flash flooding along Escondido Creek and its tributaries can push water into ground-floor units and garages faster than sump pumps can respond.
 
-The city's housing stock adds another layer. Large sections of Escondido — particularly in the older core neighborhoods — were built in the 1950s through 1970s, when galvanized steel supply lines and cast-iron drain stacks were standard. Those pipes are at or past the end of their service life, and a sudden pressure spike or temperature drop is often all it takes. Newer master-planned communities on the eastern edges of the city tend to see slab-leak and irrigation-line failures instead. Mold follows quickly in either case: at Escondido's summer humidity levels, mold can begin colonizing wet drywall in as little as 24 to 48 hours.
+The city's housing stock adds another layer. Large sections of Escondido, particularly in the older core neighborhoods, were built in the 1950s through 1970s, when galvanized steel supply lines and cast-iron drain stacks were standard. Those pipes are at or past the end of their service life, and a sudden pressure spike or temperature drop is often all it takes. Newer master-planned communities on the eastern edges of the city tend to see slab-leak and irrigation-line failures instead. Mold follows quickly in either case: at Escondido's summer humidity levels, mold can begin colonizing wet drywall in as little as 24 to 48 hours.
 
 ## Services we provide in Escondido
 
 ### Water damage and drying
 
-Water damage in Escondido often starts invisibly — a slow slab leak under a tile floor, a failed washing-machine supply hose inside a cabinet, or stormwater intrusion through a cracked stem wall. Flood Fixers uses thermal imaging and moisture mapping to find water that hasn't surfaced yet, then deploys industrial air movers and desiccant dehumidifiers sized to the structure. We document every reading for your insurance claim.
+Water damage in Escondido often starts invisibly, a slow slab leak under a tile floor, a failed washing-machine supply hose inside a cabinet, or stormwater intrusion through a cracked stem wall. Flood Fixers uses thermal imaging and moisture mapping to find water that hasn't surfaced yet, then deploys industrial air movers and desiccant dehumidifiers sized to the structure. We document every reading for your insurance claim.
 
 ### Fire and smoke damage
 
-After a kitchen fire or a wildfire-smoke intrusion event, the visible char is rarely the main problem — it's the oily smoke residue that has migrated into HVAC ducts, cabinet interiors, and wall cavities. Our IICRC-certified technicians use hydroxyl generators and thermal fogging alongside structural cleaning to address odor at the source, not just at the surface.
+After a kitchen fire or a wildfire-smoke intrusion event, the visible char is rarely the main problem, it's the oily smoke residue that has migrated into HVAC ducts, cabinet interiors, and wall cavities. Our IICRC-certified technicians use hydroxyl generators and thermal fogging alongside structural cleaning to address odor at the source, not just at the surface.
 
 ### Mold remediation
 
-Escondido's warm inland summers and periodic moisture events create reliable conditions for mold growth inside wall assemblies and under flooring. We follow EPA guidelines for containment and removal, and we can coordinate post-remediation clearance testing with an independent industrial hygienist — an important step if you're managing a rental property or preparing a home for sale.
+Escondido's warm inland summers and periodic moisture events create reliable conditions for mold growth inside wall assemblies and under flooring. We follow EPA guidelines for containment and removal, and we can coordinate post-remediation clearance testing with an independent industrial hygienist, an important step if you're managing a rental property or preparing a home for sale.
 
 ### Reconstruction
 
-Once the damage is mitigated, most properties need some level of rebuild — drywall, flooring, cabinetry, or in serious cases, structural framing. Flood Fixers carries a California contractor's license and handles reconstruction in-house, so you're not managing two separate contractors or two separate insurance tracks.
+Once the damage is mitigated, most properties need some level of rebuild, drywall, flooring, cabinetry, or in serious cases, structural framing. Flood Fixers carries a California contractor's license and handles reconstruction in-house, so you're not managing two separate contractors or two separate insurance tracks.
 
 ## Response time and coverage
 
-From our San Diego headquarters, Escondido is roughly 30 miles north on I-15. Under normal traffic conditions, a crew can reach most of the city in 45 to 60 minutes. We cover all of Escondido's ZIP codes, including 92025, 92026, and 92027, and we're familiar with the access quirks of hillside properties in the older downtown-adjacent blocks as well as the gated communities in the northeastern part of the city. For after-hours calls — which is when most pipe failures actually happen — our dispatch line, (855) 204-1124, connects to a live coordinator, not a voicemail box.
+From our San Diego headquarters, Escondido is roughly 30 miles north on I-15. Under normal traffic conditions, a crew can reach most of the city in 45 to 60 minutes. We cover all of Escondido's ZIP codes, including 92025, 92026, and 92027, and we're familiar with the access quirks of hillside properties in the older downtown-adjacent blocks as well as the gated communities in the northeastern part of the city. For after-hours calls, which is when most pipe failures actually happen, our dispatch line, (855) 204-1124, connects to a live coordinator, not a voicemail box.
 
 ## Building stock, site conditions, and permits in Escondido
 
@@ -57,4 +57,4 @@ Hillside lots around the city are often cut-and-fill terraces, and the valley so
 
 Structural repair, reroofing, and framing replacement are permitted through the City of Escondido's building division under the California Building Code.
 
-If you're dealing with a water, fire, mold, or smoke emergency anywhere in Escondido, call Flood Fixers at **(855) 204-1124**. We'll tell you exactly who is coming, when they'll arrive, and what to do — or not do — in the meantime.
+If you're dealing with a water, fire, mold, or smoke emergency anywhere in Escondido, call Flood Fixers at **(855) 204-1124**. We'll tell you exactly who is coming, when they'll arrive, and what to do, or not do, in the meantime.

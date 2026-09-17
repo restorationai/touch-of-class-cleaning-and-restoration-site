@@ -20,11 +20,11 @@ state: "MS"
 service_display: "Post-Construction and Specialty Cleaning"
 rendered: true
 ---
-Poplarville's humid subtropical climate means that by the time a renovation crew packs up, the freshly installed drywall, flooring, and trim have already been breathing in construction dust, adhesive fumes, and the kind of fine silica particulate that settles into every horizontal surface and HVAC return. A standard mop-and-vacuum pass won't cut it here — Pearl River County's persistent humidity causes that dust to clump and bond to surfaces faster than it would in a drier climate, which means a post-construction clean that looks done can still leave behind residue that shows up the moment a client turns on the lights or the air handler kicks on.
+Poplarville's humid subtropical climate means that by the time a renovation crew packs up, the freshly installed drywall, flooring, and trim have already been breathing in construction dust, adhesive fumes, and the kind of fine silica particulate that settles into every horizontal surface and HVAC return. A standard mop-and-vacuum pass won't cut it here, Pearl River County's persistent humidity causes that dust to clump and bond to surfaces faster than it would in a drier climate, which means a post-construction clean that looks done can still leave behind residue that shows up the moment a client turns on the lights or the air handler kicks on.
 
 ## Why Poplarville Construction Projects Create Unique Cleaning Challenges
 
-Building in and around Poplarville means contending with conditions that contractors from drier parts of the country don't always anticipate. The region's high average relative humidity — routinely above 70% even in cooler months — means construction adhesives, caulks, and grout release off-gassing longer than their manufacturer timelines suggest. Sawdust and drywall compound don't just sit on surfaces; they absorb ambient moisture and become a tacky film that bonds to window tracks, cabinet interiors, and light fixture housings.
+Building in and around Poplarville means contending with conditions that contractors from drier parts of the country don't always anticipate. The region's high average relative humidity, routinely above 70% even in cooler months, means construction adhesives, caulks, and grout release off-gassing longer than their manufacturer timelines suggest. Sawdust and drywall compound don't just sit on surfaces; they absorb ambient moisture and become a tacky film that bonds to window tracks, cabinet interiors, and light fixture housings.
 
 Older homes in the Poplarville area, particularly those built before modern vapor barrier standards were common in Mississippi, present an additional wrinkle: subfloor cavities and crawl spaces can trap construction debris and fine particulate that migrates upward through gaps in flooring. A thorough post-construction clean here means working from the crawl space up, not just cleaning what's visible at eye level.
 
@@ -32,15 +32,15 @@ Pearl River County also sits in a region where pine pollen and red clay soil are
 
 ## Our Post-Construction Cleaning Process in Poplarville
 
-Every post-construction or specialty clean starts with a structured walk-through to document what trades left behind — overspray, grout haze, adhesive residue, construction film on glass, and debris in mechanical spaces. From there, the work moves in a deliberate sequence:
+Every post-construction or specialty clean starts with a structured walk-through to document what trades left behind, overspray, grout haze, adhesive residue, construction film on glass, and debris in mechanical spaces. From there, the work moves in a deliberate sequence:
 
 **Rough clean first.** Large debris, scrap materials, and bulk dust are removed before any detail work begins. This protects finished surfaces from being scratched by grit during the fine-clean phase.
 
 **HEPA-filtered vacuuming of all surfaces.** Walls, ceilings, window sills, cabinet interiors, and ductwork grilles are vacuumed with HEPA-filtered equipment before any wet cleaning begins. In Poplarville's climate, skipping this step and going straight to wet methods just turns fine dust into a muddy smear.
 
-**Surface-specific detail cleaning.** Window glass gets razor-blade treatment for paint and caulk overspray. Tile and grout receive appropriate acid or alkaline washes depending on the grout type. Cabinet interiors are wiped in sequence — top to bottom, back to front. Hardware is polished and inspected.
+**Surface-specific detail cleaning.** Window glass gets razor-blade treatment for paint and caulk overspray. Tile and grout receive appropriate acid or alkaline washes depending on the grout type. Cabinet interiors are wiped in sequence, top to bottom, back to front. Hardware is polished and inspected.
 
-**Final light-source inspection.** A construction clean isn't signed off until every room is inspected under raking light — a handheld work light held at a low angle that reveals streaks, haze, and residue invisible under overhead lighting. This is the step that separates a true final clean from a surface pass.
+**Final light-source inspection.** A construction clean isn't signed off until every room is inspected under raking light, a handheld work light held at a low angle that reveals streaks, haze, and residue invisible under overhead lighting. This is the step that separates a true final clean from a surface pass.
 
 ## Specialty Cleaning Services Beyond the Construction Phase
 
@@ -49,13 +49,13 @@ Post-construction cleaning is one category; specialty cleaning covers the situat
 - **Renovation deep cleans** after kitchen or bath remodels where grease, old caulk, and construction film have layered together
 - **Move-in / move-out cleaning** calibrated to the condition of the property, not a checklist
 - **Trauma and biohazard cleaning** handled by our OSHA-trained technicians using EPA-registered disinfectants
-- **Odor neutralization** after smoke events, long-term vacancy, or persistent mold — addressed at the source, not masked
+- **Odor neutralization** after smoke events, long-term vacancy, or persistent mold, addressed at the source, not masked
 
-Because our team holds IICRC certification and is EPA Lead-Safe Certified, we can work safely in pre-1978 homes where renovation work may have disturbed lead-containing paint — a real consideration in Poplarville's older housing stock.
+Because our team holds IICRC certification and is EPA Lead-Safe Certified, we can work safely in pre-1978 homes where renovation work may have disturbed lead-containing paint, a real consideration in Poplarville's older housing stock.
 
 ## Reaching Poplarville from Our Gulfport Base
 
-HomeLyft Restoration MS operates out of Gulfport, with crews that regularly work throughout Pearl River County. Poplarville is accessible via US-11 and MS-26, and we schedule Poplarville jobs with realistic drive-time built in so crews arrive with a full equipment load rather than making multiple trips. When you call +12282845200, we'll confirm scheduling and give you an honest arrival window based on current crew availability — no overpromised response times.
+HomeLyft Restoration MS operates out of Gulfport, with crews that regularly work throughout Pearl River County. Poplarville is accessible via US-11 and MS-26, and we schedule Poplarville jobs with realistic drive-time built in so crews arrive with a full equipment load rather than making multiple trips. When you call +12282845200, we'll confirm scheduling and give you an honest arrival window based on current crew availability, no overpromised response times.
 
 ## Local Note
 

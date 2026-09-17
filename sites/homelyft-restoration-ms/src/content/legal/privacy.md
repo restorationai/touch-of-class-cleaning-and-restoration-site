@@ -20,7 +20,7 @@ rendered: true
 
 This privacy policy explains how HomeLyft Restoration MS collects, uses, and protects information submitted through this website. It applies to visitors who contact us through our contact form, request an estimate, or otherwise interact with the site. We are based in Gulfport, Mississippi, and primarily serve residential and commercial property owners along the Gulf Coast.
 
-If you are a California resident, the California Consumer Privacy Act (CCPA) gives you additional rights regarding your personal information — those are described below. GDPR is generally not applicable to a Mississippi-based restoration contractor, but if you are visiting from outside the United States, we handle your data with the same care described here.
+If you are a California resident, the California Consumer Privacy Act (CCPA) gives you additional rights regarding your personal information, those are described below. GDPR is generally not applicable to a Mississippi-based restoration contractor, but if you are visiting from outside the United States, we handle your data with the same care described here.
 
 ## Information We Collect
 
@@ -30,7 +30,7 @@ The site also uses basic, anonymized analytics (such as page views and general g
 
 ## How We Use Your Information
 
-The information you submit is used to respond to your inquiry, schedule an on-site estimate, and — if you authorize us to work with your insurance carrier — to document and coordinate your claim. We may use your contact details to follow up on an open estimate or to send information directly related to your service request. We do not use your information for unrelated marketing without your consent.
+The information you submit is used to respond to your inquiry, schedule an on-site estimate, and, if you authorize us to work with your insurance carrier, to document and coordinate your claim. We may use your contact details to follow up on an open estimate or to send information directly related to your service request. We do not use your information for unrelated marketing without your consent.
 
 ## How We Share Your Information
 
@@ -38,7 +38,7 @@ We do not sell, rent, or trade your personal information to third parties. The o
 
 ## Data Retention
 
-We retain contact and project records for as long as reasonably necessary to fulfill the purpose for which they were collected — typically for the duration of a project and a reasonable period afterward for warranty, billing, and legal compliance purposes. Anonymized analytics data may be retained indefinitely.
+We retain contact and project records for as long as reasonably necessary to fulfill the purpose for which they were collected, typically for the duration of a project and a reasonable period afterward for warranty, billing, and legal compliance purposes. Anonymized analytics data may be retained indefinitely.
 
 ## Your Rights
 

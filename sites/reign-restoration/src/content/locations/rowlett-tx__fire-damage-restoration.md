@@ -20,13 +20,13 @@ state: "TX"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-Rowlett sits on a peninsula between Lake Ray Hubbard and Lake Lavon, and that geography shapes fire risk in ways that aren't obvious until you're standing in a smoke-damaged living room. The hot, dry summers that bake Dallas County push attic temperatures past 150°F, accelerating how quickly a kitchen fire or electrical fault travels into framing before the fire department arrives. When Reign Restoration responds to a fire in Rowlett, the crew brings IICRC FSRT-certified fire and smoke restoration technicians who understand that the work doesn't end when the flames go out — it ends when the odor, the soot, and the compromised structure are fully addressed.
+Rowlett sits on a peninsula between Lake Ray Hubbard and Lake Lavon, and that geography shapes fire risk in ways that aren't obvious until you're standing in a smoke-damaged living room. The hot, dry summers that bake Dallas County push attic temperatures past 150°F, accelerating how quickly a kitchen fire or electrical fault travels into framing before the fire department arrives. When Reign Restoration responds to a fire in Rowlett, the crew brings IICRC FSRT-certified fire and smoke restoration technicians who understand that the work doesn't end when the flames go out, it ends when the odor, the soot, and the compromised structure are fully addressed.
 
 ## Why Rowlett Properties Experience Distinct Fire Damage Patterns
 
-Rowlett's housing stock skews heavily toward homes built between the late 1980s and early 2000s — a period when builders used OSB (oriented strand board) sheathing and lightweight engineered lumber rather than the dimensional lumber common in older Dallas-area suburbs. That matters after a fire because OSB loses structural integrity faster under heat and water exposure than solid lumber does. A wall that looks intact from the outside may have sheathing that crumbles when probed. Restoration scopes in Rowlett frequently involve more structural assessment than comparable jobs in neighborhoods with older, heavier framing.
+Rowlett's housing stock skews heavily toward homes built between the late 1980s and early 2000s, a period when builders used OSB (oriented strand board) sheathing and lightweight engineered lumber rather than the dimensional lumber common in older Dallas-area suburbs. That matters after a fire because OSB loses structural integrity faster under heat and water exposure than solid lumber does. A wall that looks intact from the outside may have sheathing that crumbles when probed. Restoration scopes in Rowlett frequently involve more structural assessment than comparable jobs in neighborhoods with older, heavier framing.
 
-The city's position near two large reservoirs also means post-fire humidity levels can spike quickly once exterior walls are opened for inspection. Soot that might dry and brush off in an arid environment can instead become a sticky, acidic paste that etches into drywall, cabinetry, and HVAC components. Getting dehumidification running alongside smoke cleanup — not after — is standard practice on every Rowlett job.
+The city's position near two large reservoirs also means post-fire humidity levels can spike quickly once exterior walls are opened for inspection. Soot that might dry and brush off in an arid environment can instead become a sticky, acidic paste that etches into drywall, cabinetry, and HVAC components. Getting dehumidification running alongside smoke cleanup, not after, is standard practice on every Rowlett job.
 
 ## The Fire and Smoke Restoration Process We Follow in Rowlett
 
@@ -34,12 +34,12 @@ The first hour on-site is documentation: photos, moisture readings, and a room-b
 
 From there, the process moves in a defined sequence:
 
-1. **Emergency board-up and tarping** — Rowlett's afternoon thunderstorm season means an open roof or broken window can introduce water damage on top of fire damage within hours. Securing the envelope comes before any cleaning.
-2. **Structural assessment** — Identifying load-bearing elements that need engineering review before reconstruction begins, particularly relevant in the engineered-lumber homes common throughout Rowlett.
-3. **Dry soot removal** — HEPA vacuuming and dry-sponge wiping of surfaces before any wet cleaning, which prevents soot from being ground deeper into porous materials.
-4. **Wet cleaning and chemical treatment** — Alkaline cleaners neutralize the acidic residue left by synthetic materials common in modern home furnishings. Protein-fire residue from kitchen fires requires enzymatic treatment.
-5. **Odor elimination** — Thermal fogging and hydroxyl generation reach into wall cavities, ductwork, and subflooring where ozone units cannot safely operate in occupied or partially occupied structures.
-6. **Reconstruction coordination** — Reign Restoration holds Mold Remediation Contractor license #MRC2276, which means the same team that cleans the structure can manage the rebuild without handing off to an unknown subcontractor.
+1. **Emergency board-up and tarping**, Rowlett's afternoon thunderstorm season means an open roof or broken window can introduce water damage on top of fire damage within hours. Securing the envelope comes before any cleaning.
+2. **Structural assessment**, Identifying load-bearing elements that need engineering review before reconstruction begins, particularly relevant in the engineered-lumber homes common throughout Rowlett.
+3. **Dry soot removal**, HEPA vacuuming and dry-sponge wiping of surfaces before any wet cleaning, which prevents soot from being ground deeper into porous materials.
+4. **Wet cleaning and chemical treatment**, Alkaline cleaners neutralize the acidic residue left by synthetic materials common in modern home furnishings. Protein-fire residue from kitchen fires requires enzymatic treatment.
+5. **Odor elimination**, Thermal fogging and hydroxyl generation reach into wall cavities, ductwork, and subflooring where ozone units cannot safely operate in occupied or partially occupied structures.
+6. **Reconstruction coordination**, Reign Restoration holds Mold Remediation Contractor license #MRC2276, which means the same team that cleans the structure can manage the rebuild without handing off to an unknown subcontractor.
 
 ## Reaching Rowlett from Royse City
 
@@ -51,10 +51,10 @@ Call (214) 304-0621 to reach the team directly and discuss scheduling.
 
 Most Rowlett homeowners carry standard HO-3 policies that cover sudden and accidental fire loss, but the documentation requirements vary by carrier. Reign Restoration photographs every affected surface before and after cleaning, generates itemized scope reports compatible with Xactimate (the estimating platform most adjusters use), and communicates directly with your insurance representative so you are not translating between a contractor and an adjuster who speak different technical languages.
 
-One detail Rowlett homeowners sometimes miss: smoke damage to HVAC systems is frequently a covered loss, but it requires a separate line item in the claim. Ductwork that carries soot throughout an otherwise undamaged wing of the house can contaminate the entire system. Document it early — before the adjuster closes the file.
+One detail Rowlett homeowners sometimes miss: smoke damage to HVAC systems is frequently a covered loss, but it requires a separate line item in the claim. Ductwork that carries soot throughout an otherwise undamaged wing of the house can contaminate the entire system. Document it early, before the adjuster closes the file.
 
 ## Local Note
 
-Rowlett's newer subdivisions, particularly those developed after 2010 in the northern sections of the city near the Lake Ray Hubbard shoreline, were built with open-concept floor plans and tall vaulted ceilings. Those design features accelerate smoke travel dramatically — a fire that stays contained to one room can push a full smoke load into every connected space within minutes because there are no interior walls to slow the draft. When Reign Restoration scopes a fire in one of these homes, the cleaning area almost always extends further than the visible char line, and homeowners are often surprised that rooms with no visible soot still require odor treatment and surface cleaning.
+Rowlett's newer subdivisions, particularly those developed after 2010 in the northern sections of the city near the Lake Ray Hubbard shoreline, were built with open-concept floor plans and tall vaulted ceilings. Those design features accelerate smoke travel dramatically, a fire that stays contained to one room can push a full smoke load into every connected space within minutes because there are no interior walls to slow the draft. When Reign Restoration scopes a fire in one of these homes, the cleaning area almost always extends further than the visible char line, and homeowners are often surprised that rooms with no visible soot still require odor treatment and surface cleaning.
 
-If your Rowlett home has been affected by fire or smoke, the next call you make matters. Reach Reign Restoration at **(214) 304-0621** — the sooner the soot and residue are stabilized, the narrower the scope of restoration and the lower the final cost.
+If your Rowlett home has been affected by fire or smoke, the next call you make matters. Reach Reign Restoration at **(214) 304-0621**, the sooner the soot and residue are stabilized, the narrower the scope of restoration and the lower the final cost.

@@ -17,7 +17,7 @@ published_at: "2026-06-23"
 services: ["drain-cleaning", "sewer-line-repair"]
 rendered: true
 ---
-Both methods clear blocked drains, but they work very differently — and choosing the wrong one wastes money or leaves the real problem untouched. The short answer: **snaking** is the right first move for most routine clogs (hair, soap, a wad of grease near the drain opening). **Hydro jetting** is the right call when buildup coats the pipe walls, roots have infiltrated a sewer line, or a snake keeps clearing the same drain every few months without lasting results. Read on to understand exactly when each method earns its place.
+Both methods clear blocked drains, but they work very differently, and choosing the wrong one wastes money or leaves the real problem untouched. The short answer: **snaking** is the right first move for most routine clogs (hair, soap, a wad of grease near the drain opening). **Hydro jetting** is the right call when buildup coats the pipe walls, roots have infiltrated a sewer line, or a snake keeps clearing the same drain every few months without lasting results. Read on to understand exactly when each method earns its place.
 
 ---
 
@@ -25,13 +25,13 @@ Both methods clear blocked drains, but they work very differently — and choosi
 
 ### Drain Snaking (Mechanical Auger)
 
-A drain snake — also called a mechanical auger — is a long, flexible steel cable with a corkscrew or blade tip. A plumber feeds it into the drain and rotates it until the tip punches through or hooks the obstruction. The clog either breaks apart and flushes downstream or gets pulled back out in one piece.
+A drain snake, also called a mechanical auger, is a long, flexible steel cable with a corkscrew or blade tip. A plumber feeds it into the drain and rotates it until the tip punches through or hooks the obstruction. The clog either breaks apart and flushes downstream or gets pulled back out in one piece.
 
-Snaking is fast, low-cost, and gentle on older pipes. It excels at physical obstructions: a clump of hair in a bathroom drain, a small grease plug near the kitchen trap, or a toy that found its way into a toilet. The limitation is that a snake only pokes a hole *through* the blockage — it doesn't scrub the pipe walls. If grease, mineral scale, or biofilm has been building up for years, the snake clears just enough of a path that water flows again, but the buildup stays and the clog returns.
+Snaking is fast, low-cost, and gentle on older pipes. It excels at physical obstructions: a clump of hair in a bathroom drain, a small grease plug near the kitchen trap, or a toy that found its way into a toilet. The limitation is that a snake only pokes a hole *through* the blockage, it doesn't scrub the pipe walls. If grease, mineral scale, or biofilm has been building up for years, the snake clears just enough of a path that water flows again, but the buildup stays and the clog returns.
 
 ### Hydro Jetting
 
-Hydro jetting uses a specialized nozzle and a high-pressure water pump — typically 3,000 to 4,000 PSI for residential lines — to blast water through the pipe in all directions simultaneously. The forward jet cuts through blockages; the rear-facing jets scrub the pipe walls clean as the nozzle advances.
+Hydro jetting uses a specialized nozzle and a high-pressure water pump, typically 3,000 to 4,000 PSI for residential lines, to blast water through the pipe in all directions simultaneously. The forward jet cuts through blockages; the rear-facing jets scrub the pipe walls clean as the nozzle advances.
 
 The result is a pipe that looks close to new on the inside. Grease that has polymerized onto cast iron, mineral scale from Bakersfield's notoriously hard water, and even fine root tendrils get scoured out rather than just punctured. Because the pipe walls are actually clean, buildup takes much longer to return.
 
@@ -43,10 +43,10 @@ The tradeoff: hydro jetting requires a camera inspection first to confirm the pi
 
 Snaking is the appropriate starting point in most of these situations:
 
-- **A single fixture is slow or stopped** — one bathroom sink, one shower, one toilet. A localized clog near the drain opening is almost always the cause.
-- **The clog came on suddenly** — something went down the drain (hair, food, a small object) and the drain went from fine to blocked the same day.
-- **The drain has been clear until recently** — no history of repeat clogs in that line.
-- **You're dealing with a toilet** — hydro jetting a toilet is rarely necessary and almost never the first step.
+- **A single fixture is slow or stopped**, one bathroom sink, one shower, one toilet. A localized clog near the drain opening is almost always the cause.
+- **The clog came on suddenly**, something went down the drain (hair, food, a small object) and the drain went from fine to blocked the same day.
+- **The drain has been clear until recently**, no history of repeat clogs in that line.
+- **You're dealing with a toilet**, hydro jetting a toilet is rarely necessary and almost never the first step.
 
 A snake job typically takes 20–45 minutes and costs a fraction of a hydro jet service. If it solves the problem and the drain stays clear for a year or more, you made the right call.
 
@@ -57,9 +57,9 @@ A snake job typically takes 20–45 minutes and costs a fraction of a hydro jet 
 Consider hydro jetting when any of these scenarios fit:
 
 - **The same drain clogs every few months.** A snake is clearing just enough of a passage that water moves, but the underlying buildup is still there. You're paying for the same repair on a loop.
-- **Multiple fixtures are draining slowly at the same time.** When a kitchen sink, a bathroom down the hall, and a washing machine all back up together, the problem is usually in the main sewer line — not at each individual drain. That's a job for a camera inspection followed by hydro jetting.
+- **Multiple fixtures are draining slowly at the same time.** When a kitchen sink, a bathroom down the hall, and a washing machine all back up together, the problem is usually in the main sewer line, not at each individual drain. That's a job for a camera inspection followed by hydro jetting.
 - **A camera inspection shows grease or scale coating the pipe walls.** You can see the difference: a healthy drain line looks open and round; a scaled-up one looks like a narrowed artery.
-- **Tree roots have partially blocked the line.** Roots find their way into sewer lines through joints and hairline cracks — a common finding in older Bakersfield neighborhoods with mature landscaping. A snake can cut through roots, but hydro jetting flushes the debris out and scours the pipe clean. Note: if roots have caused structural damage, [sewer line repair](sewer-line-repair) may be needed alongside or instead of jetting.
+- **Tree roots have partially blocked the line.** Roots find their way into sewer lines through joints and hairline cracks, a common finding in older Bakersfield neighborhoods with mature landscaping. A snake can cut through roots, but hydro jetting flushes the debris out and scours the pipe clean. Note: if roots have caused structural damage, [sewer line repair](sewer-line-repair) may be needed alongside or instead of jetting.
 - **Pre-sale or post-purchase pipe cleaning.** Many buyers and sellers request a clean sewer line as part of a real estate transaction. Hydro jetting delivers a documented, camera-verified result.
 - **Hard water scale.** Bakersfield's water supply carries significant mineral content. Over years, calcium and magnesium deposits narrow drain lines the same way they narrow water heater elements. A snake won't touch that scale; hydro jetting strips it.
 
@@ -71,9 +71,9 @@ A few common mistakes that make drain problems worse:
 
 **Don't reach for chemical drain cleaners as a long-term fix.** Caustic drain cleaners (lye-based or sulfuric acid) can temporarily dissolve organic clogs, but they also attack pipe joints, corrode older cast iron, and leave residue that a plumber then has to work around safely. One use in a pinch is one thing; repeated use on a chronic clog is damaging the pipe.
 
-**Don't run water into a completely backed-up drain.** If a drain is fully stopped and you keep running water, you risk an overflow — especially if the backup is in the main sewer line. Sewage backing up into a tub or floor drain is a much bigger cleanup than a slow sink.
+**Don't run water into a completely backed-up drain.** If a drain is fully stopped and you keep running water, you risk an overflow, especially if the backup is in the main sewer line. Sewage backing up into a tub or floor drain is a much bigger cleanup than a slow sink.
 
-**Don't assume a DIY snake will solve a main-line problem.** Consumer-grade hand augers reach 15–25 feet. A main sewer line runs 50–100 feet to the city connection. If the blockage is deep in the line or at the root intrusion point, a hand snake won't reach it — and you'll lose time you didn't have.
+**Don't assume a DIY snake will solve a main-line problem.** Consumer-grade hand augers reach 15–25 feet. A main sewer line runs 50–100 feet to the city connection. If the blockage is deep in the line or at the root intrusion point, a hand snake won't reach it, and you'll lose time you didn't have.
 
 **Don't skip the camera inspection before hydro jetting.** Reputable drain cleaning services run a camera before jetting. If a plumber offers to hydro jet without looking first, that's a red flag. A cracked or offset pipe needs repair, not high-pressure water.
 
@@ -90,7 +90,7 @@ Here's a simple way to frame it:
 | Multiple slow drains at once | Camera + hydro jet |
 | Root intrusion confirmed by camera | Hydro jet + evaluate for repair |
 | Grease or scale buildup on pipe walls | Hydro jet |
-| Unknown — first time calling a plumber | Camera inspection first, then decide |
+| Unknown, first time calling a plumber | Camera inspection first, then decide |
 
 The camera inspection is the real decision-maker. Once you can see what's inside the pipe, the right method is usually obvious.
 

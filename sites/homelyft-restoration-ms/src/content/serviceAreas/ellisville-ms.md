@@ -19,17 +19,17 @@ state: "MS"
 primary: false
 rendered: true
 ---
-HomeLyft Restoration MS responds to water damage, fire damage, mold, and biohazard situations at properties across Ellisville and the surrounding Jones County area. When a pipe bursts behind a wall or smoke odor soaks into the drywall of a decades-old home, the clock starts immediately — and the decisions made in the first few hours shape how much of the structure can be saved. Our crews bring the equipment, documentation, and insurance coordination that Ellisville property owners need to move from emergency to restored.
+HomeLyft Restoration MS responds to water damage, fire damage, mold, and biohazard situations at properties across Ellisville and the surrounding Jones County area. When a pipe bursts behind a wall or smoke odor soaks into the drywall of a decades-old home, the clock starts immediately, and the decisions made in the first few hours shape how much of the structure can be saved. Our crews bring the equipment, documentation, and insurance coordination that Ellisville property owners need to move from emergency to restored.
 
 ## Restoration emergencies common in Ellisville
 
-Ellisville sits in the piney woods of Jones County, where the climate runs hot and humid for most of the year. That combination — high ambient moisture, warm temperatures, and frequent summer thunderstorms — creates conditions where a slow roof leak or a backed-up crawl space drain can turn into an active mold colony within 24 to 48 hours. The housing stock here skews toward older ranch-style and pier-and-beam construction, and those crawl spaces are among the first places moisture accumulates unseen. Seasonal storms rolling up from the Gulf regularly produce wind-driven rain that finds its way through aging siding, deteriorated window seals, and compromised roof decking. In winter, the occasional hard freeze catches residents off guard — pipes in unconditioned spaces like garages and crawl spaces freeze and split, releasing water into wall cavities before anyone notices. Fire damage is a year-round concern as well, with older wiring in mid-century homes and the widespread use of wood-burning stoves during cooler months both contributing to residential fire incidents across the county.
+Ellisville sits in the piney woods of Jones County, where the climate runs hot and humid for most of the year. That combination, high ambient moisture, warm temperatures, and frequent summer thunderstorms, creates conditions where a slow roof leak or a backed-up crawl space drain can turn into an active mold colony within 24 to 48 hours. The housing stock here skews toward older ranch-style and pier-and-beam construction, and those crawl spaces are among the first places moisture accumulates unseen. Seasonal storms rolling up from the Gulf regularly produce wind-driven rain that finds its way through aging siding, deteriorated window seals, and compromised roof decking. In winter, the occasional hard freeze catches residents off guard, pipes in unconditioned spaces like garages and crawl spaces freeze and split, releasing water into wall cavities before anyone notices. Fire damage is a year-round concern as well, with older wiring in mid-century homes and the widespread use of wood-burning stoves during cooler months both contributing to residential fire incidents across the county.
 
 ## Services we provide in Ellisville
 
 ### Water damage restoration
 
-Water damage in Ellisville often starts quietly — a slow drip under a sink, a hairline crack in a supply line, or stormwater that pools against a foundation and seeps into a crawl space. By the time it's visible, the subfloor or wall cavity may already be saturated. We extract standing water, dry structural materials to measured moisture targets, and document every step for your insurance carrier. Pier-and-beam homes common in this part of Jones County require particular attention to the crawl space environment, where moisture can wick upward into flooring and floor joists.
+Water damage in Ellisville often starts quietly, a slow drip under a sink, a hairline crack in a supply line, or stormwater that pools against a foundation and seeps into a crawl space. By the time it's visible, the subfloor or wall cavity may already be saturated. We extract standing water, dry structural materials to measured moisture targets, and document every step for your insurance carrier. Pier-and-beam homes common in this part of Jones County require particular attention to the crawl space environment, where moisture can wick upward into flooring and floor joists.
 
 ### Mold remediation
 
@@ -37,7 +37,7 @@ The humidity that defines a Mississippi summer makes Ellisville properties espec
 
 ### Fire and smoke damage restoration
 
-Smoke residue is deceptive — it migrates far beyond the room where a fire started, settling into HVAC ductwork, insulation, and soft surfaces throughout a home. After a kitchen fire or a chimney flare-up in an older Ellisville home, we assess the full extent of smoke penetration, remove unsalvageable materials, clean and deodorize salvageable surfaces, and coordinate reconstruction so property owners are working with one point of contact rather than juggling multiple contractors.
+Smoke residue is deceptive, it migrates far beyond the room where a fire started, settling into HVAC ductwork, insulation, and soft surfaces throughout a home. After a kitchen fire or a chimney flare-up in an older Ellisville home, we assess the full extent of smoke penetration, remove unsalvageable materials, clean and deodorize salvageable surfaces, and coordinate reconstruction so property owners are working with one point of contact rather than juggling multiple contractors.
 
 ### Biohazard and specialty cleanup
 
@@ -45,18 +45,18 @@ Sewage backups, unattended situations, and similar events require handling that 
 
 ### Reconstruction
 
-Once mitigation is complete, many properties need structural repairs — drywall replacement, flooring, framing, or roofing work. Handling reconstruction through the same team that performed the mitigation reduces delays and keeps the scope of work consistent with what was documented for the insurance claim.
+Once mitigation is complete, many properties need structural repairs, drywall replacement, flooring, framing, or roofing work. Handling reconstruction through the same team that performed the mitigation reduces delays and keeps the scope of work consistent with what was documented for the insurance claim.
 
 ## Coverage and how fast we can get there
 
-HomeLyft Restoration MS is headquartered in Gulfport, and Ellisville is roughly 80 miles north via US-49. That route runs straight through the heart of the Pine Belt, and our crews travel it regularly for Jones County jobs. Call us during business hours and we will get a crew scheduled and moving toward Ellisville as quickly as our current dispatch allows — we will give you an honest arrival estimate when you call rather than a number we cannot stand behind. Property managers overseeing multiple units in the Ellisville area can also arrange standing service agreements so that response logistics are already in place before an emergency happens.
+HomeLyft Restoration MS is headquartered in Gulfport, and Ellisville is roughly 80 miles north via US-49. That route runs straight through the heart of the Pine Belt, and our crews travel it regularly for Jones County jobs. Call us during business hours and we will get a crew scheduled and moving toward Ellisville as quickly as our current dispatch allows, we will give you an honest arrival estimate when you call rather than a number we cannot stand behind. Property managers overseeing multiple units in the Ellisville area can also arrange standing service agreements so that response logistics are already in place before an emergency happens.
 
 ## Building stock, site conditions, and permits in Ellisville
 
-Much of Ellisville's older core is early-to-mid-century frame construction — plank or shiplap sheathing, brick veneer or lap siding, and hardwood over board subfloor. Post-1970s houses and additions in town are more often slab-on-grade with truss roofs. Anything built before 1978 should be treated as possible lead paint, and pre-1980s vinyl floor tile, mastic, and pipe wrap as possible asbestos, so demo has to be tested and scoped rather than swung at.
+Much of Ellisville's older core is early-to-mid-century frame construction, plank or shiplap sheathing, brick veneer or lap siding, and hardwood over board subfloor. Post-1970s houses and additions in town are more often slab-on-grade with truss roofs. Anything built before 1978 should be treated as possible lead paint, and pre-1980s vinyl floor tile, mastic, and pipe wrap as possible asbestos, so demo has to be tested and scoped rather than swung at.
 
 Plumbing vintage matters just as much: galvanized supply and cast iron drains in the oldest houses, copper mid-century, and polybutylene in some late-1980s work. Galvanized fails from the inside out and cast iron fails at the hub.
 
 Structural repair and rebuild inside the city limits is permitted through Ellisville City Hall; work outside them goes through Jones County. Mississippi's statewide residential code sets the baseline.
 
-If you are dealing with damage at an Ellisville property — or want to get ahead of a situation before it worsens — call HomeLyft Restoration MS at (228) 284-5200. We will walk you through what to do right now and get the right crew headed your way.
+If you are dealing with damage at an Ellisville property, or want to get ahead of a situation before it worsens, call HomeLyft Restoration MS at (228) 284-5200. We will walk you through what to do right now and get the right crew headed your way.

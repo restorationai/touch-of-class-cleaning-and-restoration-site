@@ -20,11 +20,11 @@ state: "TX"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
-Dallas sits on some of the most expansive Blackland clay soil in North Texas — and when that clay shifts after a plumbing failure or a spring hailstorm floods a crawlspace, the water doesn't just stay where it landed. It migrates. Whether you're dealing with a burst supply line in a 1930s pier-and-beam Tudor off the M Streets or a slab-foundation ranch in Lake Highlands that's holding standing water after a Five Mile Creek overflow, the clock starts the moment moisture contacts your structure. Reign Restoration responds 24/7 and can be reached directly at (214) 304-0621.
+Dallas sits on some of the most expansive Blackland clay soil in North Texas, and when that clay shifts after a plumbing failure or a spring hailstorm floods a crawlspace, the water doesn't just stay where it landed. It migrates. Whether you're dealing with a burst supply line in a 1930s pier-and-beam Tudor off the M Streets or a slab-foundation ranch in Lake Highlands that's holding standing water after a Five Mile Creek overflow, the clock starts the moment moisture contacts your structure. Reign Restoration responds 24/7 and can be reached directly at (214) 304-0621.
 
 ## Why Dallas Properties See Water Damage Differently
 
-The Austin Chalk escarpment that divides Dallas isn't just a geological curiosity — it's a practical factor in how water moves through neighborhoods. Oak Cliff's rolling terrain channels runoff in ways that flat East Dallas doesn't, and older homes in Lakewood and along Swiss Avenue were built on pier-and-beam foundations with cast-iron drain lines that are now 80 to 100 years old. Those original drains corrode from the inside out, and a slow leak behind a bathroom wall can saturate a subfloor for weeks before anyone notices the soft spot underfoot.
+The Austin Chalk escarpment that divides Dallas isn't just a geological curiosity, it's a practical factor in how water moves through neighborhoods. Oak Cliff's rolling terrain channels runoff in ways that flat East Dallas doesn't, and older homes in Lakewood and along Swiss Avenue were built on pier-and-beam foundations with cast-iron drain lines that are now 80 to 100 years old. Those original drains corrode from the inside out, and a slow leak behind a bathroom wall can saturate a subfloor for weeks before anyone notices the soft spot underfoot.
 
 Meanwhile, Uptown's high-rise condos face a completely different problem: when a supply line fails on the 14th floor, water travels through concrete decking and shows up two or three units below the actual source. Tracing the origin requires moisture mapping, not just a visual inspection.
 
@@ -32,28 +32,28 @@ Dallas also sits in one of the most active hail corridors in the country. Spring
 
 ## Our Water Damage Restoration Process in Dallas
 
-Every job starts with a thorough moisture assessment using thermal imaging and calibrated moisture meters — not a visual walkthrough. In homes with Blackland clay foundations, we pay close attention to the perimeter of slabs, where clay expansion can open hairline cracks that allow groundwater intrusion during wet seasons.
+Every job starts with a thorough moisture assessment using thermal imaging and calibrated moisture meters, not a visual walkthrough. In homes with Blackland clay foundations, we pay close attention to the perimeter of slabs, where clay expansion can open hairline cracks that allow groundwater intrusion during wet seasons.
 
 Once we've mapped the moisture, extraction comes first. For pier-and-beam homes in Lakewood or the M Streets, that often means accessing the crawlspace to remove standing water and assess whether subfloor joists have begun to absorb. On slab homes, we use weighted extraction tools to pull water from carpet and pad before it wicks into the tack strip and baseboards.
 
-Structural drying follows IICRC S500 standards. We calculate the number of air movers and dehumidifiers based on the actual cubic footage of affected space — not a rough estimate — and we monitor drying progress with daily moisture readings. In Dallas's humid subtropical climate, ambient humidity can slow evaporation significantly during spring and fall, so equipment selection and placement matter more than they would in a drier region. Our team holds IICRC WRT certification, and Reign Restoration is an IICRC Certified Firm.
+Structural drying follows IICRC S500 standards. We calculate the number of air movers and dehumidifiers based on the actual cubic footage of affected space, not a rough estimate, and we monitor drying progress with daily moisture readings. In Dallas's humid subtropical climate, ambient humidity can slow evaporation significantly during spring and fall, so equipment selection and placement matter more than they would in a drier region. Our team holds IICRC WRT certification, and Reign Restoration is an IICRC Certified Firm.
 
-If building materials can't be dried in place — saturated drywall below the flood line, buckled hardwood, compromised insulation — we remove only what's necessary and document everything for your insurance claim.
+If building materials can't be dried in place, saturated drywall below the flood line, buckled hardwood, compromised insulation, we remove only what's necessary and document everything for your insurance claim.
 
 ## Reaching Dallas from Royse City
 
 Reign Restoration is based in Royse City, roughly 30 miles east of downtown Dallas via I-30. We run calls across the metro 24 hours a day, seven days a week. Neighborhoods like Casa Linda and Lake Highlands in East Dallas are a straightforward run down I-30 and US-80. For calls in Oak Cliff or the Bishop Arts District, we typically route south through I-30 to I-35E. Preston Hollow and North Dallas are accessible via US-75 or the Dallas North Tollway depending on traffic conditions.
 
-If you're unsure whether your address falls in our service area, call (214) 304-0621 — we'll confirm immediately.
+If you're unsure whether your address falls in our service area, call (214) 304-0621, we'll confirm immediately.
 
 ## Dallas Insurance Coordination
 
-Most standard homeowners policies in Texas cover sudden and accidental water damage — a burst pipe, an appliance supply line failure, or storm-driven water entry — but they typically exclude gradual leaks and flood events, which require separate NFIP or private flood coverage. Dallas saw significant flood claim activity after the 2015 Memorial Day storms, and many carriers tightened their documentation requirements in the years that followed.
+Most standard homeowners policies in Texas cover sudden and accidental water damage, a burst pipe, an appliance supply line failure, or storm-driven water entry, but they typically exclude gradual leaks and flood events, which require separate NFIP or private flood coverage. Dallas saw significant flood claim activity after the 2015 Memorial Day storms, and many carriers tightened their documentation requirements in the years that followed.
 
 We photograph and document affected materials before any removal, generate moisture logs that adjusters can verify, and communicate directly with your insurance representative throughout the process. We don't bill you for work your carrier should cover without making that clear upfront.
 
 ## Local Note
 
-One thing that catches homeowners off guard in older East Dallas neighborhoods like the M Streets and Lakewood: the original cast-iron drain stacks in these 1920s and 30s homes often have decades of scale buildup on the interior walls. When a drain backs up and causes an overflow, the water is frequently Category 2 or Category 3 contaminated — not clean water — because it's passed through that corroded piping. That changes the remediation protocol significantly. Materials that could be dried in place after a clean supply-line break may need to be removed after a drain overflow. We assess contamination level on arrival and explain what that means for your specific situation before any work begins.
+One thing that catches homeowners off guard in older East Dallas neighborhoods like the M Streets and Lakewood: the original cast-iron drain stacks in these 1920s and 30s homes often have decades of scale buildup on the interior walls. When a drain backs up and causes an overflow, the water is frequently Category 2 or Category 3 contaminated, not clean water, because it's passed through that corroded piping. That changes the remediation protocol significantly. Materials that could be dried in place after a clean supply-line break may need to be removed after a drain overflow. We assess contamination level on arrival and explain what that means for your specific situation before any work begins.
 
-If you're dealing with water damage anywhere in Dallas — from a ZIP code like 75214 in East Dallas to a high-rise in 75201 downtown — call Reign Restoration at (214) 304-0621. We'll assess the situation, explain your options, and get drying equipment in place before secondary damage compounds the loss.
+If you're dealing with water damage anywhere in Dallas, from a ZIP code like 75214 in East Dallas to a high-rise in 75201 downtown, call Reign Restoration at (214) 304-0621. We'll assess the situation, explain your options, and get drying equipment in place before secondary damage compounds the loss.

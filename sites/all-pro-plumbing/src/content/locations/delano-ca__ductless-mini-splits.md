@@ -20,33 +20,33 @@ state: "CA"
 service_display: "Ductless Mini-Split Systems"
 rendered: true
 ---
-Delano's summers are no joke — triple-digit heat rolls through the San Joaquin Valley from June through September, and the harvest season that drives this region's economy doesn't pause for a broken AC. For homes along the Cecil Avenue corridor or older bungalows near Downtown Delano that were built before central ductwork was standard, a ductless mini-split system isn't a luxury upgrade; it's often the most practical path to reliable cooling and heating without tearing open walls or ceilings. All Pro Plumbing Heating and Air installs and services mini-split systems across Delano (93215) and the surrounding area, seven days a week, around the clock.
+Delano's summers are no joke, triple-digit heat rolls through the San Joaquin Valley from June through September, and the harvest season that drives this region's economy doesn't pause for a broken AC. For homes along the Cecil Avenue corridor or older bungalows near Downtown Delano that were built before central ductwork was standard, a ductless mini-split system isn't a luxury upgrade; it's often the most practical path to reliable cooling and heating without tearing open walls or ceilings. All Pro Plumbing Heating and Air installs and services mini-split systems across Delano (93215) and the surrounding area, seven days a week, around the clock.
 
 ## Why Delano's Housing Stock and Climate Make Mini-Splits a Strong Fit
 
-Delano's residential landscape is a tale of two eras. The blocks radiating out from Downtown Delano and the Randolph Street corridor are filled with pre-1960 bungalows and ranch-style homes that were never designed for ducted central air. Retrofitting traditional ductwork into those attics and crawl spaces is expensive, disruptive, and sometimes structurally complicated. Ductless mini-splits sidestep that problem entirely — the refrigerant line set between the outdoor condenser and the wall-mounted air handler fits through a small penetration, leaving the original plaster and framing intact.
+Delano's residential landscape is a tale of two eras. The blocks radiating out from Downtown Delano and the Randolph Street corridor are filled with pre-1960 bungalows and ranch-style homes that were never designed for ducted central air. Retrofitting traditional ductwork into those attics and crawl spaces is expensive, disruptive, and sometimes structurally complicated. Ductless mini-splits sidestep that problem entirely, the refrigerant line set between the outdoor condenser and the wall-mounted air handler fits through a small penetration, leaving the original plaster and framing intact.
 
-On the west side of town, the 2000s subdivisions near West Delano were built with central systems, but homeowners there often add mini-splits to handle rooms that the original system under-serves — a converted garage, a bonus room above the garage, or a home office addition. Multi-zone mini-split configurations let each space run independently, so a teenager's bedroom doesn't have to be the same temperature as the living room.
+On the west side of town, the 2000s subdivisions near West Delano were built with central systems, but homeowners there often add mini-splits to handle rooms that the original system under-serves, a converted garage, a bonus room above the garage, or a home office addition. Multi-zone mini-split configurations let each space run independently, so a teenager's bedroom doesn't have to be the same temperature as the living room.
 
 Kern County's summer heat also puts unusual stress on equipment. A condenser running at full capacity on a 108°F afternoon near the Highway 99 commercial strip is working harder than the same unit in a coastal climate. We size every system to account for Delano's design temperatures, not just a national average, which affects both the BTU capacity we specify and the SEER2 rating we recommend for long-term efficiency.
 
 ## Our Mini-Split Installation Process in Delano
 
-Every installation starts with a load calculation for the specific space — square footage, ceiling height, insulation quality, window orientation, and how much direct sun the room absorbs during peak afternoon hours. Delano's west-facing rooms take a beating from late-afternoon sun, and undersizing a unit because the calculation skipped that detail means the system short-cycles and never quite catches up on the hottest days.
+Every installation starts with a load calculation for the specific space, square footage, ceiling height, insulation quality, window orientation, and how much direct sun the room absorbs during peak afternoon hours. Delano's west-facing rooms take a beating from late-afternoon sun, and undersizing a unit because the calculation skipped that detail means the system short-cycles and never quite catches up on the hottest days.
 
 Once we've selected the right equipment, the process typically runs like this:
 
 1. **Mounting the indoor air handler** at the correct height on an exterior or interior wall, ensuring the condensate drain has a proper slope to daylight or a condensate pump.
-2. **Running the line set** — refrigerant lines, power, and drain — through the wall penetration and down to the outdoor condenser location. We seal the penetration against pests and weather, which matters in an agricultural area where rodent pressure is real.
+2. **Running the line set**, refrigerant lines, power, and drain, through the wall penetration and down to the outdoor condenser location. We seal the penetration against pests and weather, which matters in an agricultural area where rodent pressure is real.
 3. **Setting and securing the outdoor condenser** on a concrete pad or wall bracket, clear of obstructions and with adequate airflow clearance.
 4. **Pressure-testing and evacuating the system** before releasing refrigerant, then verifying superheat and subcooling at startup.
-5. **Pulling the required Delano/Kern County building permit** and scheduling the inspection — we handle the paperwork so you don't have to track it.
+5. **Pulling the required Delano/Kern County building permit** and scheduling the inspection, we handle the paperwork so you don't have to track it.
 
-For multi-zone jobs — say, a main house plus a detached garage workshop near Cesar Chavez Park — we plan the line set routing before the first hole is drilled so the finished installation looks intentional, not improvised.
+For multi-zone jobs, say, a main house plus a detached garage workshop near Cesar Chavez Park, we plan the line set routing before the first hole is drilled so the finished installation looks intentional, not improvised.
 
 ## Reaching Delano from Bakersfield
 
-All Pro's base in Bakersfield puts Delano roughly 30 miles north via Highway 99 — a straightforward run that keeps response times reasonable for both scheduled installs and urgent service calls. Because we operate 24/7, a mini-split that stops cooling at midnight during August harvest season isn't a problem you have to sit on until Monday morning. Call (661) 863-9242 any time and we'll dispatch.
+All Pro's base in Bakersfield puts Delano roughly 30 miles north via Highway 99, a straightforward run that keeps response times reasonable for both scheduled installs and urgent service calls. Because we operate 24/7, a mini-split that stops cooling at midnight during August harvest season isn't a problem you have to sit on until Monday morning. Call (661) 863-9242 any time and we'll dispatch.
 
 ## Local Note
 

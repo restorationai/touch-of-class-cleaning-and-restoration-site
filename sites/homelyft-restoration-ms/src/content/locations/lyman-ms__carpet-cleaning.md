@@ -20,43 +20,43 @@ state: "MS"
 service_display: "Carpet Cleaning"
 rendered: true
 ---
-Lyman sits in Harrison County where the Gulf Coast's humidity rarely lets up — summer air that feels like a warm, wet towel means carpet fibers hold onto moisture, pet dander, pollen, and the fine red-clay dust that blows in from surrounding Piney Woods roads far longer than carpets in drier climates do. By the time a rug looks dirty in a Lyman home, it has usually been trapping allergens and soil deep in its pile for weeks. HomeLyft Restoration MS brings IICRC-certified carpet cleaning to Lyman to pull that embedded grime out completely, not just push it around.
+Lyman sits in Harrison County where the Gulf Coast's humidity rarely lets up, summer air that feels like a warm, wet towel means carpet fibers hold onto moisture, pet dander, pollen, and the fine red-clay dust that blows in from surrounding Piney Woods roads far longer than carpets in drier climates do. By the time a rug looks dirty in a Lyman home, it has usually been trapping allergens and soil deep in its pile for weeks. HomeLyft Restoration MS brings IICRC-certified carpet cleaning to Lyman to pull that embedded grime out completely, not just push it around.
 
 ## Why Lyman Carpets Take a Harder Hit
 
-Harrison County's coastal climate delivers a one-two punch that accelerates carpet deterioration. Relative humidity regularly exceeds 80 percent from May through September, which keeps carpet backing damp enough to encourage microbial growth even without a visible spill. Add the sandy-loam and clay-mix soil that tracks in from driveways and yards throughout the area, and you end up with abrasive grit grinding against carpet fibers every time someone walks across the room — the kind of wear that shortens carpet life by years if it is not extracted regularly.
+Harrison County's coastal climate delivers a one-two punch that accelerates carpet deterioration. Relative humidity regularly exceeds 80 percent from May through September, which keeps carpet backing damp enough to encourage microbial growth even without a visible spill. Add the sandy-loam and clay-mix soil that tracks in from driveways and yards throughout the area, and you end up with abrasive grit grinding against carpet fibers every time someone walks across the room, the kind of wear that shortens carpet life by years if it is not extracted regularly.
 
 Lyman's housing stock leans heavily toward single-story ranch homes and newer subdivision builds, many with open floor plans where a single large carpet section covers hundreds of square feet of living space. Those wide, continuous runs give soil and odors nowhere to hide, and they demand equipment powerful enough to work across the full depth of a dense, low-pile or Berber weave without oversaturating the pad underneath.
 
 ## Our Carpet Cleaning Process in Lyman
 
-Every job starts with a fiber-type assessment. Nylon, polyester, olefin, and wool each respond differently to heat and cleaning agents, and using the wrong chemistry on a Berber or cut-pile wool rug can cause irreversible shrinkage — a real concern in homes where wall-to-wall carpet was installed as a single fitted piece.
+Every job starts with a fiber-type assessment. Nylon, polyester, olefin, and wool each respond differently to heat and cleaning agents, and using the wrong chemistry on a Berber or cut-pile wool rug can cause irreversible shrinkage, a real concern in homes where wall-to-wall carpet was installed as a single fitted piece.
 
 From there, the process moves through four stages:
 
-1. **Dry soil removal** — commercial-grade HEPA vacuuming pulls loose particulate before any moisture is introduced, so the cleaning solution is not diluted by surface debris.
-2. **Pre-treatment and dwell time** — pH-balanced pre-spray is applied to stains and high-traffic lanes and allowed to break down bonded soils for several minutes before agitation.
-3. **Hot-water extraction** — truck-mounted extraction equipment delivers heated water at controlled pressure and immediately vacuums it back out, removing dissolved soils, cleaning agents, and the bulk of residual moisture in a single pass.
-4. **Post-cleaning grooming and speed-drying** — carpet rake realigns the pile, and air movers are positioned to accelerate drying. In Lyman's humid summer conditions, this step is not optional — carpet left damp overnight in high humidity can develop a musty odor within 24 hours.
+1. **Dry soil removal**, commercial-grade HEPA vacuuming pulls loose particulate before any moisture is introduced, so the cleaning solution is not diluted by surface debris.
+2. **Pre-treatment and dwell time**, pH-balanced pre-spray is applied to stains and high-traffic lanes and allowed to break down bonded soils for several minutes before agitation.
+3. **Hot-water extraction**, truck-mounted extraction equipment delivers heated water at controlled pressure and immediately vacuums it back out, removing dissolved soils, cleaning agents, and the bulk of residual moisture in a single pass.
+4. **Post-cleaning grooming and speed-drying**, carpet rake realigns the pile, and air movers are positioned to accelerate drying. In Lyman's humid summer conditions, this step is not optional, carpet left damp overnight in high humidity can develop a musty odor within 24 hours.
 
-For commercial spaces — offices, retail, or any property with heavy foot traffic — we schedule around business hours and use low-moisture encapsulation methods where rapid return-to-service is the priority.
+For commercial spaces, offices, retail, or any property with heavy foot traffic, we schedule around business hours and use low-moisture encapsulation methods where rapid return-to-service is the priority.
 
 ## Reaching Lyman from Our Gulfport Base
 
-HomeLyft Restoration MS operates out of Gulfport, and Lyman is a straightforward run up US-49 North — a route our crews travel regularly for restoration and cleaning calls throughout Harrison County. Scheduling is handled by phone at +12282845200, and we coordinate arrival windows that work around your day rather than asking you to clear a four-hour block.
+HomeLyft Restoration MS operates out of Gulfport, and Lyman is a straightforward run up US-49 North, a route our crews travel regularly for restoration and cleaning calls throughout Harrison County. Scheduling is handled by phone at +12282845200, and we coordinate arrival windows that work around your day rather than asking you to clear a four-hour block.
 
 For commercial accounts in Lyman, we can often arrange early-morning or weekend slots so cleaning does not interrupt business operations. Call us to discuss what scheduling looks like for your specific property.
 
 ## Stain Removal and Carpet Sanitization
 
-Pet urine is the most common stain request we handle in residential Lyman homes, and it is also the most mishandled by DIY approaches. Store-bought enzyme sprays rarely penetrate the carpet backing and pad where urine salts actually crystallize — the odor returns with the next humid day because the source was never fully removed. Our process uses professional-grade enzyme treatments followed by hot-water extraction that reaches the pad, not just the surface fibers.
+Pet urine is the most common stain request we handle in residential Lyman homes, and it is also the most mishandled by DIY approaches. Store-bought enzyme sprays rarely penetrate the carpet backing and pad where urine salts actually crystallize, the odor returns with the next humid day because the source was never fully removed. Our process uses professional-grade enzyme treatments followed by hot-water extraction that reaches the pad, not just the surface fibers.
 
-For households with allergy concerns, carpet sanitization with an EPA-registered antimicrobial applied post-extraction reduces bacteria and dust-mite populations in the pile — a meaningful step in a climate where high humidity keeps those populations elevated year-round.
+For households with allergy concerns, carpet sanitization with an EPA-registered antimicrobial applied post-extraction reduces bacteria and dust-mite populations in the pile, a meaningful step in a climate where high humidity keeps those populations elevated year-round.
 
 ## Local Note
 
-One thing our crews have noticed working in Lyman and the surrounding Harrison County area: homes built in the 1990s and early 2000s — a large portion of the local housing stock — frequently have carpet installed directly over a concrete slab with a thin foam pad. Slab-on-grade construction is common this close to the coast because it avoids the moisture problems of a crawl space, but it also means there is nowhere for extraction water to go except back up through the pad if the machine's vacuum is not strong enough. Truck-mounted extraction, rather than portable units, makes a measurable difference on these slab homes — portable machines simply do not generate the water-lift needed to pull moisture back out of a pad sitting on concrete.
+One thing our crews have noticed working in Lyman and the surrounding Harrison County area: homes built in the 1990s and early 2000s, a large portion of the local housing stock, frequently have carpet installed directly over a concrete slab with a thin foam pad. Slab-on-grade construction is common this close to the coast because it avoids the moisture problems of a crawl space, but it also means there is nowhere for extraction water to go except back up through the pad if the machine's vacuum is not strong enough. Truck-mounted extraction, rather than portable units, makes a measurable difference on these slab homes, portable machines simply do not generate the water-lift needed to pull moisture back out of a pad sitting on concrete.
 
-If you have ever had carpet cleaned and noticed it stayed damp for two or three days afterward, the equipment — not the carpet — was likely the issue.
+If you have ever had carpet cleaned and noticed it stayed damp for two or three days afterward, the equipment, not the carpet, was likely the issue.
 
 Ready to schedule professional carpet cleaning in Lyman? Call HomeLyft Restoration MS at +12282845200 and let us put together a cleaning plan that fits your home's layout, your carpet type, and Harrison County's climate realities.

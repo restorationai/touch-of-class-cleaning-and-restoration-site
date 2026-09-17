@@ -18,11 +18,11 @@ service_slug: "water-damage-restoration"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
-A burst pipe behind your laundry room wall. A water heater that failed overnight. A slow roof leak that soaked your attic insulation for weeks before anyone noticed. Water damage rarely announces itself cleanly — it hides in wall cavities, wicks up baseboards, and saturates subfloor sheathing long before you see a stain on the ceiling. The clock starts the moment moisture contacts a building material, and mold can begin colonizing within 24 to 48 hours in Utah's dry-but-warm interior climate. Fast, thorough water removal and structural drying are the difference between a contained repair and a gut renovation.
+A burst pipe behind your laundry room wall. A water heater that failed overnight. A slow roof leak that soaked your attic insulation for weeks before anyone noticed. Water damage rarely announces itself cleanly, it hides in wall cavities, wicks up baseboards, and saturates subfloor sheathing long before you see a stain on the ceiling. The clock starts the moment moisture contacts a building material, and mold can begin colonizing within 24 to 48 hours in Utah's dry-but-warm interior climate. Fast, thorough water removal and structural drying are the difference between a contained repair and a gut renovation.
 
 ## What water damage restoration actually involves
 
-Water damage restoration is not mopping up and running a fan. It's a sequenced technical process that starts with locating every pocket of moisture — not just the obvious puddle — and ends only when building materials return to documented dry standards.
+Water damage restoration is not mopping up and running a fan. It's a sequenced technical process that starts with locating every pocket of moisture, not just the obvious puddle, and ends only when building materials return to documented dry standards.
 
 The equipment involved is industrial-grade: truck-mounted or portable extraction units that pull standing water at hundreds of gallons per hour, low-grain refrigerant (LGR) dehumidifiers that wring moisture from the air down to single-digit grain levels, and high-velocity axial air movers positioned to create a drying vortex inside wall cavities and under flooring. Thermal imaging cameras and penetrating moisture meters map the full extent of saturation before a single piece of equipment is placed.
 
@@ -32,32 +32,32 @@ Timeline depends on water category and material type. Category 1 (clean water fr
 
 1. **Emergency water extraction.** We arrive, assess the water source and category, and begin extraction immediately. Submersible pumps handle standing water; weighted extraction tools pull water from carpet and pad. The goal is to remove bulk water before it migrates further.
 
-2. **Moisture mapping and scope documentation.** Before equipment is placed, every affected surface is mapped with thermal imaging and calibrated moisture meters. Readings are logged by room and material type — this documentation becomes the foundation of your insurance claim and our drying target.
+2. **Moisture mapping and scope documentation.** Before equipment is placed, every affected surface is mapped with thermal imaging and calibrated moisture meters. Readings are logged by room and material type, this documentation becomes the foundation of your insurance claim and our drying target.
 
-3. **Structural drying with monitored equipment placement.** LGR dehumidifiers, air movers, and where needed, drying mats or injecti-dry systems for hardwood floors and wall cavities, are positioned according to IICRC S500 drying principles. Equipment placement isn't arbitrary — airflow patterns are engineered to move evaporated moisture toward the dehumidifier's intake.
+3. **Structural drying with monitored equipment placement.** LGR dehumidifiers, air movers, and where needed, drying mats or injecti-dry systems for hardwood floors and wall cavities, are positioned according to IICRC S500 drying principles. Equipment placement isn't arbitrary, airflow patterns are engineered to move evaporated moisture toward the dehumidifier's intake.
 
-4. **Daily moisture monitoring and adjustments.** A technician checks and logs moisture readings every 24 hours. Equipment is repositioned or added as drying progresses. This step is where corners get cut by less disciplined operators — skipping daily checks means you don't catch a wall cavity that isn't drying on schedule.
+4. **Daily moisture monitoring and adjustments.** A technician checks and logs moisture readings every 24 hours. Equipment is repositioned or added as drying progresses. This step is where corners get cut by less disciplined operators, skipping daily checks means you don't catch a wall cavity that isn't drying on schedule.
 
-5. **Final clearance and documentation.** Drying is complete when all affected materials reach IICRC-standard dry goals for their material class and regional reference values. We provide a full moisture log and photo documentation — the kind of organized file an insurance adjuster or a future buyer's inspector can actually use.
+5. **Final clearance and documentation.** Drying is complete when all affected materials reach IICRC-standard dry goals for their material class and regional reference values. We provide a full moisture log and photo documentation, the kind of organized file an insurance adjuster or a future buyer's inspector can actually use.
 
 ## What separates a good water damage response from a bad one
 
-The most common failure in water damage work is under-scoping the affected area. Water follows gravity and the path of least resistance — it travels inside wall assemblies, under tile, and into adjoining rooms before it's visible on the surface. Operators who rely on visual inspection alone routinely miss saturated insulation in crawl spaces, wet OSB behind shower surrounds, and moisture that has wicked six feet along a bottom plate.
+The most common failure in water damage work is under-scoping the affected area. Water follows gravity and the path of least resistance, it travels inside wall assemblies, under tile, and into adjoining rooms before it's visible on the surface. Operators who rely on visual inspection alone routinely miss saturated insulation in crawl spaces, wet OSB behind shower surrounds, and moisture that has wicked six feet along a bottom plate.
 
-A second common failure is premature equipment removal. Drying feels like it's done before it actually is. Pulling dehumidifiers a day early to save a rental day leaves residual moisture that feeds mold growth inside the wall assembly — invisible until months later when the smell starts.
+A second common failure is premature equipment removal. Drying feels like it's done before it actually is. Pulling dehumidifiers a day early to save a rental day leaves residual moisture that feeds mold growth inside the wall assembly, invisible until months later when the smell starts.
 
 Insurance adjusters look for daily moisture logs with actual meter readings (not just notes that say "drying progressing"), photo documentation of equipment placement, and a clear scope that ties each line item to a specific affected area. Claims without this documentation get disputed or underpaid. Our IICRC-certified process produces the paperwork your adjuster needs.
 
-For Category 2 and Category 3 losses, containment and proper disposal of contaminated materials matter both for occupant safety and for liability. Gray and black water carry bacteria and pathogens that don't disappear when the water dries — affected porous materials typically need to be removed, not just dried.
+For Category 2 and Category 3 losses, containment and proper disposal of contaminated materials matter both for occupant safety and for liability. Gray and black water carry bacteria and pathogens that don't disappear when the water dries, affected porous materials typically need to be removed, not just dried.
 
 ## Seasonal and regional considerations
 
 Saratoga Springs and the broader Utah Valley sit at roughly 4,500 feet elevation, which means hard freezes arrive earlier and linger longer than many homeowners expect. Freeze-thaw cycles in late October through March are a leading cause of supply-line failures and ice-dam-driven roof leaks in the area's large inventory of two-story suburban homes built since the early 2000s. Many of these homes have PEX supply lines in exterior walls that weren't adequately insulated during construction.
 
-Summer monsoon moisture from July through September can also drive humidity into crawl spaces and basements — especially in homes near the Jordan River corridor and lower-elevation areas of Eagle Mountain and Lehi — creating conditions where a slow leak that might dry on its own in an arid month instead stays wet long enough to grow mold.
+Summer monsoon moisture from July through September can also drive humidity into crawl spaces and basements, especially in homes near the Jordan River corridor and lower-elevation areas of Eagle Mountain and Lehi, creating conditions where a slow leak that might dry on its own in an arid month instead stays wet long enough to grow mold.
 
 ## Service area
 
-Home Pride Restoration and Cleaning is based in Saratoga Springs and provides water damage restoration throughout Utah County and the surrounding region, including Lehi, Eagle Mountain, American Fork, Pleasant Grove, Orem, Provo, and communities along the Wasatch Front. City-specific pages cover local considerations in more detail — this page covers the full scope of what water damage restoration involves regardless of location.
+Home Pride Restoration and Cleaning is based in Saratoga Springs and provides water damage restoration throughout Utah County and the surrounding region, including Lehi, Eagle Mountain, American Fork, Pleasant Grove, Orem, Provo, and communities along the Wasatch Front. City-specific pages cover local considerations in more detail, this page covers the full scope of what water damage restoration involves regardless of location.
 
 If you're seeing water, smelling must, or watching a stain spread across your ceiling right now, the window to limit damage is measured in hours. Call (801) 995-2437 to schedule your moisture assessment and get a technician moving toward your property.

@@ -18,7 +18,7 @@ published_at: "2026-06-04"
 services: ["fire-damage-restoration", "smoke-damage-restoration", "reconstruction"]
 rendered: true
 ---
-Your house fire is out. The fire marshal has cleared the property. Now you're standing in the driveway trying to figure out what this is going to cost and whether your insurance will cover it. The honest answer: residential fire damage restoration runs anywhere from $3,000 for a contained kitchen fire with limited smoke spread to $50,000 or more when structural framing, multiple rooms, and full contents are involved. The range is wide because fire damage is rarely just one thing — it's soot, smoke penetration, water from suppression, structural char, and odor, often all at once.
+Your house fire is out. The fire marshal has cleared the property. Now you're standing in the driveway trying to figure out what this is going to cost and whether your insurance will cover it. The honest answer: residential fire damage restoration runs anywhere from $3,000 for a contained kitchen fire with limited smoke spread to $50,000 or more when structural framing, multiple rooms, and full contents are involved. The range is wide because fire damage is rarely just one thing, it's soot, smoke penetration, water from suppression, structural char, and odor, often all at once.
 
 Here's how restoration contractors actually price this work, and what you should expect at each severity level.
 
@@ -28,7 +28,7 @@ Fire damage restoration isn't priced as a single line item. Contractors working 
 
 **1. Smoke and soot removal**
 
-Soot is acidic and bonds to surfaces within hours of a fire. The longer it sits, the deeper it etches into drywall, wood trim, cabinetry, and HVAC systems. Soot removal typically runs $2 to $6 per square foot depending on surface porosity and soot density. A 1,500 sq ft home with moderate smoke spread might see $3,000 to $9,000 in soot cleaning costs alone, before any structural work begins. Protein-based fires (cooking fires) are the most difficult — the residue is nearly invisible but penetrates deeply and produces a persistent odor that requires chemical counteractants, not just wiping.
+Soot is acidic and bonds to surfaces within hours of a fire. The longer it sits, the deeper it etches into drywall, wood trim, cabinetry, and HVAC systems. Soot removal typically runs $2 to $6 per square foot depending on surface porosity and soot density. A 1,500 sq ft home with moderate smoke spread might see $3,000 to $9,000 in soot cleaning costs alone, before any structural work begins. Protein-based fires (cooking fires) are the most difficult, the residue is nearly invisible but penetrates deeply and produces a persistent odor that requires chemical counteractants, not just wiping.
 
 **2. Structural fire damage repair**
 
@@ -38,11 +38,11 @@ Charred framing, burned subfloor, and fire-compromised drywall require removal a
 - Multi-room or partial second floor involvement: $15,000 to $35,000
 - Significant structural involvement (roof, load-bearing walls, multiple floors): $35,000 to $80,000+
 
-These ranges assume a licensed general contractor is doing the rebuild under permit — which is required in Washington State and most jurisdictions for structural work. Cutting corners on the rebuild scope to save money upfront routinely creates code compliance problems at resale.
+These ranges assume a licensed general contractor is doing the rebuild under permit, which is required in Washington State and most jurisdictions for structural work. Cutting corners on the rebuild scope to save money upfront routinely creates code compliance problems at resale.
 
 **3. Odor removal and deodorization**
 
-Smoke odor isn't cosmetic. It's a chemical residue embedded in porous materials: insulation, carpet padding, wall cavities, HVAC ductwork. Effective odor removal uses a combination of thermal fogging, hydroxyl generators, and ozone treatment — not air fresheners. Budget $500 to $2,500 for odor treatment on a contained fire; $2,500 to $6,000 when smoke has spread through HVAC or into wall cavities throughout the home. If HVAC ductwork is contaminated, duct cleaning adds another $300 to $1,000 depending on system size.
+Smoke odor isn't cosmetic. It's a chemical residue embedded in porous materials: insulation, carpet padding, wall cavities, HVAC ductwork. Effective odor removal uses a combination of thermal fogging, hydroxyl generators, and ozone treatment, not air fresheners. Budget $500 to $2,500 for odor treatment on a contained fire; $2,500 to $6,000 when smoke has spread through HVAC or into wall cavities throughout the home. If HVAC ductwork is contaminated, duct cleaning adds another $300 to $1,000 depending on system size.
 
 **4. Water damage from fire suppression**
 
@@ -64,7 +64,7 @@ These figures cover mitigation and restoration but not full rebuild of a total l
 
 Most standard homeowners policies (HO-3 form) cover fire damage under the dwelling coverage (Coverage A) and personal property coverage (Coverage C). The key things to understand:
 
-**What's generally covered**: Structural damage from the fire, smoke and soot remediation, water damage from suppression efforts, temporary housing (ALE — Additional Living Expenses) while the home is uninhabitable, and contents replacement up to your policy limits.
+**What's generally covered**: Structural damage from the fire, smoke and soot remediation, water damage from suppression efforts, temporary housing (ALE, Additional Living Expenses) while the home is uninhabitable, and contents replacement up to your policy limits.
 
 **What's commonly disputed or excluded**: Damage to detached structures (covered under Coverage B, usually at 10% of dwelling limit), high-value items above scheduled limits (jewelry, art, electronics), and any pre-existing damage the adjuster identifies during inspection.
 
@@ -76,7 +76,7 @@ One practical note: your insurer will likely send their own preferred vendor to 
 
 Understanding the sequence helps you evaluate contractor proposals and avoid being upsold on work that happens later.
 
-**Days 1 to 3 (Emergency mitigation)**: Board-up and tarping to secure the structure, initial water extraction from suppression water, placement of air movers and dehumidifiers, HEPA air scrubbers to begin clearing airborne particulate. This phase is time-sensitive — soot etching and secondary water damage worsen with every hour of delay.
+**Days 1 to 3 (Emergency mitigation)**: Board-up and tarping to secure the structure, initial water extraction from suppression water, placement of air movers and dehumidifiers, HEPA air scrubbers to begin clearing airborne particulate. This phase is time-sensitive, soot etching and secondary water damage worsen with every hour of delay.
 
 **Days 3 to 14 (Mitigation and cleaning)**: Structural drying documentation, soot removal from salvageable surfaces, contents pack-out and inventory for insurance purposes, HVAC cleaning if contaminated, odor treatment.
 
@@ -88,7 +88,7 @@ The mitigation and reconstruction phases are often handled by the same contracto
 
 A few things to watch for when reviewing proposals:
 
-**Vague line items**: Legitimate restoration scopes are itemized — square footage of drywall removed, linear feet of framing replaced, hours of HEPA air scrubbing. "Fire cleanup" as a single lump sum is not a scope; it's a guess.
+**Vague line items**: Legitimate restoration scopes are itemized, square footage of drywall removed, linear feet of framing replaced, hours of HEPA air scrubbing. "Fire cleanup" as a single lump sum is not a scope; it's a guess.
 
 **No mention of IICRC S700**: The S700 standard defines how fire and smoke damage is categorized and treated. Contractors who don't reference it may not be following industry-standard protocols, which can create problems if the insurer disputes the scope later.
 
@@ -101,11 +101,11 @@ A few things to watch for when reviewing proposals:
 If you're reading this within two days of a fire, here's the practical sequence:
 
 1. **Notify your insurer** and get a claim number. Ask specifically whether they require you to use their preferred vendor or whether you can choose your own contractor.
-2. **Document everything before cleanup begins** — photograph and video every room, every damaged surface, every piece of damaged contents.
+2. **Document everything before cleanup begins**, photograph and video every room, every damaged surface, every piece of damaged contents.
 3. **Get a written scope from an independent contractor** before the adjuster's inspection if possible. An itemized scope gives you a baseline to compare against the adjuster's estimate.
 4. **Don't discard any damaged contents** until they've been inventoried for the claim. Even items that appear unsalvageable need to be documented.
-5. **Ask about temporary housing** — your policy's ALE coverage should cover hotel or rental costs while the home is uninhabitable.
+5. **Ask about temporary housing**, your policy's ALE coverage should cover hotel or rental costs while the home is uninhabitable.
 
 National Restoration Construction handles fire damage restoration and full reconstruction under one roof, which means one scope, one point of contact, and one timeline submitted to your insurer. If you're in the early stages of a claim and want an independent written scope, request a fire damage assessment through our [fire damage restoration service](/services/fire-damage-restoration/) or reach out directly at (206) 883-0333.
 
-For smoke-specific damage — including situations where a neighboring property fire sent smoke through your HVAC — see our [smoke damage restoration service](/services/smoke-damage-restoration/). When the scope includes structural rebuild, our [reconstruction team](/services/reconstruction/) handles permitted work from framing through finish.
+For smoke-specific damage, including situations where a neighboring property fire sent smoke through your HVAC, see our [smoke damage restoration service](/services/smoke-damage-restoration/). When the scope includes structural rebuild, our [reconstruction team](/services/reconstruction/) handles permitted work from framing through finish.

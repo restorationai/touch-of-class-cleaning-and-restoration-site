@@ -19,7 +19,7 @@ published_at: "2026-06-15"
 services: ["water-damage-restoration"]
 rendered: true
 ---
-Stop the water first. If a pipe burst or an appliance failed, locate your main shutoff valve — in most Saratoga Springs homes it's in the utility room, crawl space, or near the water meter at the street — and turn it off completely. Then take a breath. The decisions you make in the next 24 hours will determine how much of your flooring, drywall, and personal property can be saved, and how much of your insurance claim holds up. Here's exactly what to do, in order.
+Stop the water first. If a pipe burst or an appliance failed, locate your main shutoff valve, in most Saratoga Springs homes it's in the utility room, crawl space, or near the water meter at the street, and turn it off completely. Then take a breath. The decisions you make in the next 24 hours will determine how much of your flooring, drywall, and personal property can be saved, and how much of your insurance claim holds up. Here's exactly what to do, in order.
 
 ---
 
@@ -27,11 +27,11 @@ Stop the water first. If a pipe burst or an appliance failed, locate your main s
 
 Before you touch anything, make sure the area is safe to enter.
 
-- **Electricity:** If water is pooling near outlets, baseboards, or your electrical panel, don't walk into it. Flip the breaker for that zone at your main panel — or the whole house if you're unsure. Standing water and live circuits are a fatal combination.
+- **Electricity:** If water is pooling near outlets, baseboards, or your electrical panel, don't walk into it. Flip the breaker for that zone at your main panel, or the whole house if you're unsure. Standing water and live circuits are a fatal combination.
 - **Structural risk:** A ceiling that's sagging and discolored is holding water. Don't stand under it. Puncture it from the side with a screwdriver if you need to drain it, but do it carefully.
 - **Gas:** If you smell anything sulfuric, leave and call Dominion Energy's emergency line before re-entering.
 
-Once it's safe, shut off the water source if you haven't already. A washing machine supply line that's been spraying for an hour can dump 500–1,000 gallons into a laundry room. Every minute the source runs, the water migrates further — under baseboards, through subfloor seams, into wall cavities.
+Once it's safe, shut off the water source if you haven't already. A washing machine supply line that's been spraying for an hour can dump 500–1,000 gallons into a laundry room. Every minute the source runs, the water migrates further, under baseboards, through subfloor seams, into wall cavities.
 
 ---
 
@@ -39,30 +39,30 @@ Once it's safe, shut off the water source if you haven't already. A washing mach
 
 This step feels counterintuitive when you're standing in an inch of water, but documentation is what makes an insurance claim payable.
 
-1. **Photograph the source** — the burst pipe, the failed supply line, the overflowed toilet — before anyone touches it.
+1. **Photograph the source**, the burst pipe, the failed supply line, the overflowed toilet, before anyone touches it.
 2. **Walk every affected room** with your phone camera recording video, not just photos. Pan slowly across walls, floors, and ceilings. Narrate what you see: "Water is coming through the baseboard here, the carpet is saturated about eight feet from the wall."
 3. **Open cabinets and closets** adjacent to the wet area. Water travels horizontally under flooring and vertically inside walls faster than most people expect. If the leak is behind your kitchen sink, the cabinet next to it and the toe kick under the dishwasher are almost certainly wet too.
 4. **Write down the time** you discovered the damage and the approximate time you believe it started, if you can estimate it. Insurers use this to assess the claim.
 
-Don't throw anything away yet — not the broken fitting, not the wet insulation you pulled out, not the warped laminate plank. Adjusters sometimes want to inspect physical evidence.
+Don't throw anything away yet, not the broken fitting, not the wet insulation you pulled out, not the warped laminate plank. Adjusters sometimes want to inspect physical evidence.
 
 ---
 
 ## Hours 3–12: Remove Standing Water and Start Drying
 
-Mold can begin colonizing wet organic material — drywall paper, wood subfloor, carpet backing — in as little as 24 to 48 hours under the right conditions. Utah's dry climate helps, but an enclosed room with saturated materials can create its own humidity pocket fast.
+Mold can begin colonizing wet organic material, drywall paper, wood subfloor, carpet backing, in as little as 24 to 48 hours under the right conditions. Utah's dry climate helps, but an enclosed room with saturated materials can create its own humidity pocket fast.
 
-**If you have a wet/dry shop vac**, use it to pull standing water off hard floors. Don't use a regular household vacuum — it will destroy the motor and potentially electrocute you.
+**If you have a wet/dry shop vac**, use it to pull standing water off hard floors. Don't use a regular household vacuum, it will destroy the motor and potentially electrocute you.
 
 **Move wet items out of the space:**
-- Rugs and area rugs (wall-to-wall carpet is a different situation — see below)
+- Rugs and area rugs (wall-to-wall carpet is a different situation, see below)
 - Upholstered furniture with legs sitting in water
 - Cardboard boxes, books, paper documents
-- Wood furniture — prolonged contact will stain and warp it
+- Wood furniture, prolonged contact will stain and warp it
 
-**Open windows if the outdoor air is drier than the indoor air.** In Saratoga Springs, summer afternoons are often dry enough that ventilation helps. In winter or during a rainstorm, outside air can actually add humidity — keep windows closed and run your HVAC fan or a dehumidifier instead.
+**Open windows if the outdoor air is drier than the indoor air.** In Saratoga Springs, summer afternoons are often dry enough that ventilation helps. In winter or during a rainstorm, outside air can actually add humidity, keep windows closed and run your HVAC fan or a dehumidifier instead.
 
-**Wall-to-wall carpet** is complicated. You can pull back the edges and lift the pad — the pad is almost always a total loss and should come out — but the carpet itself may be salvageable if it's dried within 24–48 hours and wasn't contaminated by sewage or gray water. Don't attempt to dry carpet in place over a wet subfloor; you'll trap moisture and guarantee mold growth.
+**Wall-to-wall carpet** is complicated. You can pull back the edges and lift the pad, the pad is almost always a total loss and should come out, but the carpet itself may be salvageable if it's dried within 24–48 hours and wasn't contaminated by sewage or gray water. Don't attempt to dry carpet in place over a wet subfloor; you'll trap moisture and guarantee mold growth.
 
 ---
 
@@ -83,14 +83,14 @@ Some water events are genuinely DIY-manageable: a small appliance leak caught wi
 
 Call a professional if any of these apply:
 
-- The water source was a toilet, sewer backup, or anything that came up through a floor drain — that's Category 3 (black water) and requires protective equipment and antimicrobial treatment, not just drying.
+- The water source was a toilet, sewer backup, or anything that came up through a floor drain, that's Category 3 (black water) and requires protective equipment and antimicrobial treatment, not just drying.
 - The water reached carpet, subfloor, drywall, or insulation.
 - The affected area is more than one room, or you can't identify where the water stopped.
-- You can smell anything musty within 24–48 hours of the event — that's mold already starting.
+- You can smell anything musty within 24–48 hours of the event, that's mold already starting.
 - The leak was slow and hidden (a pinhole pipe leak behind a wall, a slow toilet supply line) and you don't know how long it ran.
 
-A certified water damage technician will use moisture meters and thermal imaging cameras to find water you can't see, then set industrial drying equipment — high-velocity air movers and commercial dehumidifiers — that pulls moisture out of structural materials rather than just drying the surface.
+A certified water damage technician will use moisture meters and thermal imaging cameras to find water you can't see, then set industrial drying equipment, high-velocity air movers and commercial dehumidifiers, that pulls moisture out of structural materials rather than just drying the surface.
 
 ---
 
-If you're in the Saratoga Springs area and the situation is beyond what you can manage on your own, Home Pride Restoration and Cleaning can have a technician on-site quickly to assess the damage, document it for your insurance claim, and start the drying process before the 24-hour mold window closes. Call **(801) 995-2437** any time — water damage doesn't keep business hours.
+If you're in the Saratoga Springs area and the situation is beyond what you can manage on your own, Home Pride Restoration and Cleaning can have a technician on-site quickly to assess the damage, document it for your insurance claim, and start the drying process before the 24-hour mold window closes. Call **(801) 995-2437** any time, water damage doesn't keep business hours.

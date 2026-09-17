@@ -18,7 +18,7 @@ rendered: true
 ---
 ## Who These Terms Apply To
 
-By visiting this website or requesting services from Quality Contracting, Inc., located at 211 Southbridge Street, Auburn, MA 01501, you agree to the terms described on this page. These terms govern your use of our website and any service relationship that begins through an inquiry submitted here. They do not replace a signed work-authorization agreement — that document, once executed, governs the actual scope, pricing, and conditions of any project we perform.
+By visiting this website or requesting services from Quality Contracting, Inc., located at 211 Southbridge Street, Auburn, MA 01501, you agree to the terms described on this page. These terms govern your use of our website and any service relationship that begins through an inquiry submitted here. They do not replace a signed work-authorization agreement, that document, once executed, governs the actual scope, pricing, and conditions of any project we perform.
 
 If you have questions about anything below, reach us at info@qualitycontracting.us or (508) 756-8800.
 
@@ -26,7 +26,7 @@ If you have questions about anything below, reach us at info@qualitycontracting.
 
 Quality Contracting, Inc. operates within Massachusetts. We reserve the right to decline service requests outside our current service area or beyond our current capacity without explanation.
 
-Any estimate, quote, or proposal we provide — whether delivered in person, by phone, by email, or through this website — is an assessment of likely scope and cost, not a binding contract. Work does not begin and pricing is not locked until both parties have signed a written work-authorization form. Until that form is signed, no service obligation exists on either side.
+Any estimate, quote, or proposal we provide, whether delivered in person, by phone, by email, or through this website, is an assessment of likely scope and cost, not a binding contract. Work does not begin and pricing is not locked until both parties have signed a written work-authorization form. Until that form is signed, no service obligation exists on either side.
 
 ## Payment Terms and Accepted Methods
 
@@ -36,7 +36,7 @@ For projects involving insurance claims, we will coordinate directly with your c
 
 ## Scope of Work and Changes
 
-The signed work-authorization form defines what work will be performed, in what sequence, and at what price. Any change to that scope — whether requested by you or made necessary by conditions discovered during the project — requires a written change order before additional work proceeds. Verbal approvals are not sufficient to authorize scope changes.
+The signed work-authorization form defines what work will be performed, in what sequence, and at what price. Any change to that scope, whether requested by you or made necessary by conditions discovered during the project, requires a written change order before additional work proceeds. Verbal approvals are not sufficient to authorize scope changes.
 
 Quality Contracting, Inc. operates as a licensed contractor under Massachusetts state regulations. Our liability is limited to the work described in the signed agreement and any written change orders. We are not liable for pre-existing conditions, hidden damage discovered after work is complete, or outcomes resulting from decisions made by the property owner or other trades.
 

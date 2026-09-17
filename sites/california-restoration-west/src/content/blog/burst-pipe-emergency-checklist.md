@@ -19,7 +19,7 @@ rendered: true
 ---
 ## What to Do the Moment a Pipe Bursts
 
-Stop the water first, then worry about everything else. Locate your main water shutoff valve — in most Ventura homes it's near the meter at the street curb or on an exterior wall — and turn it clockwise until it stops. If the burst is on a supply line to a single fixture, the angle stop under the sink or behind the toilet will do. Once the water is off, cut power to any rooms where water is pooling near outlets or appliances. Those two actions — water off, electricity off — buy you time to think clearly before the damage compounds.
+Stop the water first, then worry about everything else. Locate your main water shutoff valve, in most Ventura homes it's near the meter at the street curb or on an exterior wall, and turn it clockwise until it stops. If the burst is on a supply line to a single fixture, the angle stop under the sink or behind the toilet will do. Once the water is off, cut power to any rooms where water is pooling near outlets or appliances. Those two actions, water off, electricity off, buy you time to think clearly before the damage compounds.
 
 ---
 
@@ -27,11 +27,11 @@ Stop the water first, then worry about everything else. Locate your main water s
 
 Work through these in order. Skipping ahead or doing them out of sequence is how small emergencies become large ones.
 
-1. **Shut off the main water supply.** Turn the valve clockwise. If it hasn't been touched in years, it may be stiff — use a wrench or a shutoff key. If the valve won't close fully, call the Ventura Water utility emergency line to shut off at the meter.
+1. **Shut off the main water supply.** Turn the valve clockwise. If it hasn't been touched in years, it may be stiff, use a wrench or a shutoff key. If the valve won't close fully, call the Ventura Water utility emergency line to shut off at the meter.
 
 2. **Cut power to affected areas.** Go to your breaker panel and switch off circuits for any room with standing water or visible saturation. Do not walk through standing water to reach a live outlet.
 
-3. **Open faucets to drain the lines.** Turn on the lowest faucet in the house — usually a hose bib outside or a utility sink — to relieve pressure and drain remaining water from the pipes. This reduces the volume still pushing through the break.
+3. **Open faucets to drain the lines.** Turn on the lowest faucet in the house, usually a hose bib outside or a utility sink, to relieve pressure and drain remaining water from the pipes. This reduces the volume still pushing through the break.
 
 4. **Document everything before you touch it.** Take photos and video of the burst pipe, the water path, and every affected surface. Walk through each room and narrate what you see. This footage is your insurance claim. Do it now, before anything dries or gets moved.
 
@@ -39,7 +39,7 @@ Work through these in order. Skipping ahead or doing them out of sequence is how
 
 6. **Move salvageable belongings out of the wet zone.** Furniture legs sitting in water will stain and swell. Electronics, documents, and rugs should come out immediately. Stack furniture on aluminum foil or plastic sheeting if you can't relocate it.
 
-7. **Ventilate, but don't over-rely on it.** Open windows and interior doors to encourage airflow. A box fan aimed at wet flooring helps — but consumer fans cannot substitute for professional drying equipment. They move air; they don't measure or control moisture content.
+7. **Ventilate, but don't over-rely on it.** Open windows and interior doors to encourage airflow. A box fan aimed at wet flooring helps, but consumer fans cannot substitute for professional drying equipment. They move air; they don't measure or control moisture content.
 
 8. **Call your insurance carrier.** Most homeowner policies cover sudden and accidental pipe bursts. Report the claim as soon as possible. Ask whether they require you to use a specific vendor list or whether you can choose your own restoration contractor.
 
@@ -51,7 +51,7 @@ Some common instincts will make the situation worse.
 
 - **Don't use a standard household vacuum on standing water.** Wet-dry vacs are built for it; regular vacuums are not, and the motor can be destroyed or create an electrocution risk.
 - **Don't turn the heat up high to speed drying.** Warm, humid air without airflow can actually accelerate mold growth. Ventilation matters more than temperature.
-- **Don't ignore water that went behind walls.** Drywall and insulation absorb water invisibly. If the pipe ran inside a wall cavity, the surface may feel barely damp while the framing behind it is saturated. Mold can begin colonizing porous materials within 24 to 48 hours of a moisture event — and you won't see or smell it until it's already established.
+- **Don't ignore water that went behind walls.** Drywall and insulation absorb water invisibly. If the pipe ran inside a wall cavity, the surface may feel barely damp while the framing behind it is saturated. Mold can begin colonizing porous materials within 24 to 48 hours of a moisture event, and you won't see or smell it until it's already established.
 - **Don't assume it's dry because it looks dry.** Moisture meters and thermal imaging cameras reveal what your hand cannot. A surface that reads dry to the touch can still hold enough moisture to sustain mold growth for weeks.
 - **Don't delay the repair thinking you'll handle it later.** A temporary pipe patch (epoxy putty, pipe clamp, or compression coupling) can buy you time, but it is not a fix. Continued slow seepage is harder to detect and just as damaging as the original burst.
 
@@ -64,13 +64,13 @@ You can handle the first-response steps above yourself. But there are situations
 **Call a water damage restoration professional when:**
 
 - The water has been sitting for more than a few hours, or you don't know how long it's been there (a slow leak behind a wall or under a slab is often discovered long after it started).
-- The affected area is larger than roughly 10 square feet of saturated material — the threshold above which the EPA recommends professional remediation for moisture-related issues.
+- The affected area is larger than roughly 10 square feet of saturated material, the threshold above which the EPA recommends professional remediation for moisture-related issues.
 - Water reached HVAC ducts, insulation, or a crawl space. These are environments where moisture hides and mold thrives, and they require specialized equipment to dry properly.
-- You notice a musty smell. That odor is microbial — it means biological activity is already underway.
+- You notice a musty smell. That odor is microbial, it means biological activity is already underway.
 - The burst involved a supply line to a dishwasher, refrigerator ice maker, or washing machine. Appliance leak cleanup often involves contamination from detergent residue, food debris, or lint that complicates the drying process.
 - Your insurance adjuster is coming and you want a professional moisture assessment on record before any materials are removed.
 
-A certified restoration crew uses industrial dehumidifiers, air movers, and thermal imaging to dry a structure to IICRC S500 standards — the industry benchmark for water damage response. That documentation also matters when you're negotiating a claim.
+A certified restoration crew uses industrial dehumidifiers, air movers, and thermal imaging to dry a structure to IICRC S500 standards, the industry benchmark for water damage response. That documentation also matters when you're negotiating a claim.
 
 ---
 
@@ -78,9 +78,9 @@ A certified restoration crew uses industrial dehumidifiers, air movers, and ther
 
 Once the water is stopped and a restoration team has assessed the damage, the work shifts from emergency response to structured drying and repair.
 
-Professional drying typically takes three to five days, depending on the materials affected and the extent of saturation. During that window, equipment runs continuously — expect noise and some disruption. Technicians will check moisture readings daily and adjust equipment placement as the structure dries.
+Professional drying typically takes three to five days, depending on the materials affected and the extent of saturation. During that window, equipment runs continuously, expect noise and some disruption. Technicians will check moisture readings daily and adjust equipment placement as the structure dries.
 
-After drying is confirmed, any materials that cannot be dried in place — sections of drywall, soaked insulation, warped hardwood planks — are removed and replaced. This is where the work transitions from restoration into reconstruction.
+After drying is confirmed, any materials that cannot be dried in place, sections of drywall, soaked insulation, warped hardwood planks, are removed and replaced. This is where the work transitions from restoration into reconstruction.
 
 If your home was built before the 1980s, which covers a significant portion of Ventura's older neighborhoods, a pre-demolition test for lead paint or asbestos-containing materials may be required before any drywall or flooring is cut. A reputable contractor will flag this before work begins, not after.
 
@@ -88,4 +88,4 @@ Throughout the process, keep a written log: dates, technician names, moisture re
 
 ---
 
-If you're working through this checklist right now and the situation is beyond what you can manage alone, California Restoration West handles water damage restoration and appliance leak cleanup throughout Ventura. Reach the team at **(805) 290-7292** — they can walk you through next steps, coordinate with your insurance carrier, and get equipment on-site before secondary damage sets in.
+If you're working through this checklist right now and the situation is beyond what you can manage alone, California Restoration West handles water damage restoration and appliance leak cleanup throughout Ventura. Reach the team at **(805) 290-7292**, they can walk you through next steps, coordinate with your insurance carrier, and get equipment on-site before secondary damage sets in.

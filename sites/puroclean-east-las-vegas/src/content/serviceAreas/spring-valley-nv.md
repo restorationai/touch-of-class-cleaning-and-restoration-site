@@ -19,23 +19,23 @@ state: "NV"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind the walls of a Rhodes Ranch townhome or a slow HVAC leak soaks the drywall in a Peccole Ranch condo, the clock starts immediately. PuroClean of East Las Vegas responds to water damage, fire and smoke damage, mold remediation, and biohazard cleanup across Spring Valley — handling the documentation, the drying, and the direct communication with your insurance adjuster so you can focus on getting back to normal.
+When a pipe bursts behind the walls of a Rhodes Ranch townhome or a slow HVAC leak soaks the drywall in a Peccole Ranch condo, the clock starts immediately. PuroClean of East Las Vegas responds to water damage, fire and smoke damage, mold remediation, and biohazard cleanup across Spring Valley, handling the documentation, the drying, and the direct communication with your insurance adjuster so you can focus on getting back to normal.
 
 ## Restoration emergencies common in Spring Valley
 
-Spring Valley sits in one of the driest metro areas in the country, yet water damage is its most common restoration call — and the climate is a big reason why. Las Vegas summers push HVAC systems to their limits. Condensate drain lines clog, overflow pans fill, and by the time a homeowner notices a soft spot in the ceiling, moisture has been migrating through insulation for days. The Chinatown corridor and the dense residential subdivisions surrounding it see a disproportionate share of these HVAC condensation and pipe-break calls every summer, partly because the housing stock in ZIP codes like **89103** and **89117** includes a high concentration of multi-story condos and older garden-style apartment buildings where supply lines and drain connections are harder to inspect.
+Spring Valley sits in one of the driest metro areas in the country, yet water damage is its most common restoration call, and the climate is a big reason why. Las Vegas summers push HVAC systems to their limits. Condensate drain lines clog, overflow pans fill, and by the time a homeowner notices a soft spot in the ceiling, moisture has been migrating through insulation for days. The Chinatown corridor and the dense residential subdivisions surrounding it see a disproportionate share of these HVAC condensation and pipe-break calls every summer, partly because the housing stock in ZIP codes like **89103** and **89117** includes a high concentration of multi-story condos and older garden-style apartment buildings where supply lines and drain connections are harder to inspect.
 
-Winter brings its own surprises. Temperatures in the Las Vegas valley can drop sharply overnight in January and February, and homes built during the rapid growth of the 1990s and early 2000s — the era that produced most of Spring Valley Ranch and Peccole Ranch — often have supply lines routed through exterior walls or uninsulated garage spaces. A single hard freeze can split copper or CPVC pipe and release hundreds of gallons before anyone is awake to shut the main. Fire calls in Spring Valley tend to cluster around kitchen incidents and electrical faults in that same aging housing stock, where original wiring was sometimes undersized for modern appliance loads.
+Winter brings its own surprises. Temperatures in the Las Vegas valley can drop sharply overnight in January and February, and homes built during the rapid growth of the 1990s and early 2000s, the era that produced most of Spring Valley Ranch and Peccole Ranch, often have supply lines routed through exterior walls or uninsulated garage spaces. A single hard freeze can split copper or CPVC pipe and release hundreds of gallons before anyone is awake to shut the main. Fire calls in Spring Valley tend to cluster around kitchen incidents and electrical faults in that same aging housing stock, where original wiring was sometimes undersized for modern appliance loads.
 
 ## Services we provide in Spring Valley
 
 ### Water damage restoration
 
-Water damage in Spring Valley often involves materials that hide moisture well — tile-over-slab floors, spray-foam insulation in newer builds near **89147** and **89148**, and the stucco-clad exterior walls common throughout the area. We use thermal imaging and calibrated moisture meters to map the full extent of saturation before any drying equipment goes in, then follow IICRC S500 drying protocols to document progress for your insurance carrier. We bill most major carriers directly.
+Water damage in Spring Valley often involves materials that hide moisture well, tile-over-slab floors, spray-foam insulation in newer builds near **89147** and **89148**, and the stucco-clad exterior walls common throughout the area. We use thermal imaging and calibrated moisture meters to map the full extent of saturation before any drying equipment goes in, then follow IICRC S500 drying protocols to document progress for your insurance carrier. We bill most major carriers directly.
 
 ### Mold remediation
 
-A slow leak behind a vanity or under a kitchen sink can produce visible mold growth within 48 to 72 hours in a climate where interior humidity spikes the moment an AC unit cycles off. In Spring Valley's older garden apartments near Chinatown Plaza, we frequently find secondary mold colonies inside wall cavities that weren't visible from the bathroom or kitchen where the original leak occurred. Remediation includes containment, HEPA filtration, and removal of affected materials — followed by clearance documentation your HOA or property manager can file.
+A slow leak behind a vanity or under a kitchen sink can produce visible mold growth within 48 to 72 hours in a climate where interior humidity spikes the moment an AC unit cycles off. In Spring Valley's older garden apartments near Chinatown Plaza, we frequently find secondary mold colonies inside wall cavities that weren't visible from the bathroom or kitchen where the original leak occurred. Remediation includes containment, HEPA filtration, and removal of affected materials, followed by clearance documentation your HOA or property manager can file.
 
 ### Fire and smoke damage restoration
 
@@ -43,15 +43,15 @@ Smoke residue is acidic and keeps damaging surfaces long after the flames are ou
 
 ### Biohazard and specialty cleanup
 
-For property managers overseeing rental units in Spring Valley Ranch or Rhodes Ranch, we handle unattended death scenes, sewage backups, and hoarding remediation — with full PPE protocols and disposal in compliance with Nevada and Clark County regulations.
+For property managers overseeing rental units in Spring Valley Ranch or Rhodes Ranch, we handle unattended death scenes, sewage backups, and hoarding remediation, with full PPE protocols and disposal in compliance with Nevada and Clark County regulations.
 
 ## Coverage and how fast we can get there
 
-PuroClean of East Las Vegas operates out of Las Vegas and reaches Spring Valley via US-95 westbound to Decatur Boulevard or via I-215 to Rainbow Boulevard — a straightforward run that keeps drive time short from our side of the valley. We serve all of Spring Valley's ZIP codes: **89102**, **89103**, **89117**, **89118**, **89147**, and **89148**. Whether the call comes from a property manager near Rhodes Ranch Golf Club or a homeowner in Peccole Ranch, we dispatch a crew with moisture meters, air movers, and dehumidifiers already loaded. Call **+17025513040** to schedule or to speak with someone about an active loss.
+PuroClean of East Las Vegas operates out of Las Vegas and reaches Spring Valley via US-95 westbound to Decatur Boulevard or via I-215 to Rainbow Boulevard, a straightforward run that keeps drive time short from our side of the valley. We serve all of Spring Valley's ZIP codes: **89102**, **89103**, **89117**, **89118**, **89147**, and **89148**. Whether the call comes from a property manager near Rhodes Ranch Golf Club or a homeowner in Peccole Ranch, we dispatch a crew with moisture meters, air movers, and dehumidifiers already loaded. Call **+17025513040** to schedule or to speak with someone about an active loss.
 
 ## Building stock, site conditions, and permits in Spring Valley
 
-Spring Valley is unincorporated Clark County, not part of the City of Las Vegas, so permits for structural repair, reroofing, or rebuild go through Clark County's building department — and in the master-planned tracts, HOA architectural approval usually has to happen alongside it. Plan for both when a loss means rebuilding more than a drywall patch.
+Spring Valley is unincorporated Clark County, not part of the City of Las Vegas, so permits for structural repair, reroofing, or rebuild go through Clark County's building department, and in the master-planned tracts, HOA architectural approval usually has to happen alongside it. Plan for both when a loss means rebuilding more than a drywall patch.
 
 Homes here sit on slab-on-grade over caliche and desert alluvium; basements are essentially nonexistent and crawlspaces are rare. Many 1990s and 2000s slabs are post-tensioned, which matters because you cannot cut or core one to chase a leaking supply line without an engineer's involvement. Water under a slab tends to travel along the vapor barrier and wick up into tack strip, baseboard, and the underside of tile, well past where the ceiling stain appears.
 

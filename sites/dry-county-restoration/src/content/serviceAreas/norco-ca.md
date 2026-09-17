@@ -19,11 +19,11 @@ state: "CA"
 primary: false
 rendered: true
 ---
-Dry County Restoration responds to water damage, fire and smoke damage, mold remediation, and biohazard cleanup for homeowners and property managers throughout Norco, CA. Operating around the clock from our Corona headquarters, we handle the full scope of a loss — emergency mitigation, structural drying, and reconstruction — so you are dealing with one company from the first call to the final inspection.
+Dry County Restoration responds to water damage, fire and smoke damage, mold remediation, and biohazard cleanup for homeowners and property managers throughout Norco, CA. Operating around the clock from our Corona headquarters, we handle the full scope of a loss, emergency mitigation, structural drying, and reconstruction, so you are dealing with one company from the first call to the final inspection.
 
 ## Restoration emergencies common in Norco
 
-Norco sits in the Inland Empire's Santa Ana River corridor, where the combination of hot, dry summers and periodic heavy rain events creates a predictable cycle of property damage. The region's infamous Santa Ana winds drive wildfire embers and push smoke into attic cavities and HVAC systems, leaving behind odor and soot residue that standard cleaning cannot reach. When rain does arrive — particularly during El Niño-driven wet seasons — the ground absorbs poorly after months of drought hardening, and surface runoff moves fast. Older irrigation infrastructure on the city's many horse properties can fail quietly, saturating soil against foundations before anyone notices standing water inside. The combination of heat, occasional humidity spikes, and any undetected moisture creates conditions where mold can begin colonizing porous materials within 24 to 48 hours of a water event.
+Norco sits in the Inland Empire's Santa Ana River corridor, where the combination of hot, dry summers and periodic heavy rain events creates a predictable cycle of property damage. The region's infamous Santa Ana winds drive wildfire embers and push smoke into attic cavities and HVAC systems, leaving behind odor and soot residue that standard cleaning cannot reach. When rain does arrive, particularly during El Niño-driven wet seasons, the ground absorbs poorly after months of drought hardening, and surface runoff moves fast. Older irrigation infrastructure on the city's many horse properties can fail quietly, saturating soil against foundations before anyone notices standing water inside. The combination of heat, occasional humidity spikes, and any undetected moisture creates conditions where mold can begin colonizing porous materials within 24 to 48 hours of a water event.
 
 ## Services we provide in Norco
 
@@ -33,11 +33,11 @@ Water damage in Norco frequently starts at the source before spreading into wall
 
 ### Fire and smoke damage restoration
 
-Smoke behaves differently depending on what burned and how hot the fire ran. Protein smoke from a kitchen fire leaves a nearly invisible film that carries a persistent odor; structural fires driven by synthetic materials deposit heavy soot that etches surfaces quickly. Norco's single-story, open-floor-plan homes mean smoke can travel through an entire structure before suppression. Restoration work includes content cleaning, HVAC decontamination, odor neutralization, and structural repair — not just painting over stained surfaces.
+Smoke behaves differently depending on what burned and how hot the fire ran. Protein smoke from a kitchen fire leaves a nearly invisible film that carries a persistent odor; structural fires driven by synthetic materials deposit heavy soot that etches surfaces quickly. Norco's single-story, open-floor-plan homes mean smoke can travel through an entire structure before suppression. Restoration work includes content cleaning, HVAC decontamination, odor neutralization, and structural repair, not just painting over stained surfaces.
 
 ### Mold remediation
 
-Mold growth in Norco often traces back to a slow leak that went unnoticed — a dripping supply line behind a vanity, a failing roof boot around a vent stack, or irrigation water wicking against a stucco exterior. Remediation involves containing the affected area, removing compromised materials, treating surfaces, and verifying clearance — not simply spraying and repainting. Post-remediation air testing is available and is often required before drywall can be reinstalled.
+Mold growth in Norco often traces back to a slow leak that went unnoticed, a dripping supply line behind a vanity, a failing roof boot around a vent stack, or irrigation water wicking against a stucco exterior. Remediation involves containing the affected area, removing compromised materials, treating surfaces, and verifying clearance, not simply spraying and repainting. Post-remediation air testing is available and is often required before drywall can be reinstalled.
 
 ### Biohazard and specialty cleanup
 
@@ -49,9 +49,9 @@ Dry County Restoration is headquartered in Corona, directly adjacent to Norco al
 
 ## Building stock, site conditions, and permits in Norco
 
-Norco developed substantially from the 1950s through the 1980s, and that era's construction dominates the residential landscape. Ranch-style homes on slab-on-grade foundations are common, with wood-frame walls finished in stucco — an assembly that can trap moisture against the sheathing when exterior waterproofing fails. Homes built before the mid-1980s may contain asbestos-containing materials in floor tile, joint compound, and popcorn ceiling texture, which must be addressed before any demolition work begins. Copper supply lines are typical in mid-century construction; galvanized drain lines from the same era are prone to internal corrosion and reduced flow capacity.
+Norco developed substantially from the 1950s through the 1980s, and that era's construction dominates the residential landscape. Ranch-style homes on slab-on-grade foundations are common, with wood-frame walls finished in stucco, an assembly that can trap moisture against the sheathing when exterior waterproofing fails. Homes built before the mid-1980s may contain asbestos-containing materials in floor tile, joint compound, and popcorn ceiling texture, which must be addressed before any demolition work begins. Copper supply lines are typical in mid-century construction; galvanized drain lines from the same era are prone to internal corrosion and reduced flow capacity.
 
-Soils in the Santa Ana River basin include alluvial deposits that can shift with saturation, placing stress on slab edges and underground utility penetrations. Permits for structural repair and reconstruction in Norco are issued by the City of Norco's Building and Safety Division. Work that involves opening walls, replacing structural members, or modifying electrical and plumbing systems generally triggers a permit requirement — something to confirm before scoping a repair rather than after.
+Soils in the Santa Ana River basin include alluvial deposits that can shift with saturation, placing stress on slab edges and underground utility penetrations. Permits for structural repair and reconstruction in Norco are issued by the City of Norco's Building and Safety Division. Work that involves opening walls, replacing structural members, or modifying electrical and plumbing systems generally triggers a permit requirement, something to confirm before scoping a repair rather than after.
 
 ---
 

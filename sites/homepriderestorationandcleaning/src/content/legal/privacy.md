@@ -18,11 +18,11 @@ rendered: true
 ---
 ## What Information We Collect
 
-When you reach out through the contact form on this site, we collect the information you provide — typically your name, phone number, email address, and a description of the damage or service you need. If you call us directly at (801) 995-2437, we may note details from that conversation to follow up accurately. We also use basic, anonymized analytics (page views, general traffic sources) to understand how visitors find us. We do not use tracking pixels, behavioral ad networks, or third-party data brokers.
+When you reach out through the contact form on this site, we collect the information you provide, typically your name, phone number, email address, and a description of the damage or service you need. If you call us directly at (801) 995-2437, we may note details from that conversation to follow up accurately. We also use basic, anonymized analytics (page views, general traffic sources) to understand how visitors find us. We do not use tracking pixels, behavioral ad networks, or third-party data brokers.
 
 ## How We Use Your Information
 
-The only reason we collect your contact details is to respond to your inquiry, schedule an on-site estimate, or coordinate the documentation your insurance carrier requires. If your claim involves an adjuster or a third-party administrator, we will share only the information necessary to process that claim — and only with your explicit authorization. We do not sell, rent, or trade your personal information to anyone, ever.
+The only reason we collect your contact details is to respond to your inquiry, schedule an on-site estimate, or coordinate the documentation your insurance carrier requires. If your claim involves an adjuster or a third-party administrator, we will share only the information necessary to process that claim, and only with your explicit authorization. We do not sell, rent, or trade your personal information to anyone, ever.
 
 ## How We Share Your Information
 
@@ -30,14 +30,14 @@ Outside of insurance coordination you've authorized, we do not share your inform
 
 ## How Long We Keep Your Information
 
-We retain job records — including contact details, scope-of-work documentation, and insurance correspondence — for a minimum of five years. This is consistent with standard contractor recordkeeping practices in Utah and supports warranty claims or insurance audits that may arise after a project closes. If you'd like your information removed and there is no active legal or insurance obligation requiring us to keep it, contact us and we will honor that request.
+We retain job records, including contact details, scope-of-work documentation, and insurance correspondence, for a minimum of five years. This is consistent with standard contractor recordkeeping practices in Utah and supports warranty claims or insurance audits that may arise after a project closes. If you'd like your information removed and there is no active legal or insurance obligation requiring us to keep it, contact us and we will honor that request.
 
 ## Your Rights as a Visitor
 
 If you are a California resident, the California Consumer Privacy Act (CCPA) gives you the right to know what personal information we hold about you, request its deletion, and opt out of any sale of that data (we don't sell it, but the right exists). Residents of other states may have similar rights under emerging state privacy laws. To exercise any of these rights, email us at homepriderestorationut@gmail.com or call (801) 995-2437. We'll respond within 30 days.
 
-Because Home Pride Restoration and Cleaning operates exclusively in Utah and does not target customers in the European Union, the GDPR is unlikely to apply to our interactions — but we believe in treating everyone's data with the same care regardless of jurisdiction.
+Because Home Pride Restoration and Cleaning operates exclusively in Utah and does not target customers in the European Union, the GDPR is unlikely to apply to our interactions, but we believe in treating everyone's data with the same care regardless of jurisdiction.
 
 ## Questions About This Policy
 
-This policy may be updated occasionally to reflect changes in our tools or applicable law. The current version will always live at homepriderestorationandcleaning.com. For any privacy-related questions, reach us at homepriderestorationut@gmail.com or by phone at (801) 995-2437. We're a small, local team — you'll get a real answer from a real person.
+This policy may be updated occasionally to reflect changes in our tools or applicable law. The current version will always live at homepriderestorationandcleaning.com. For any privacy-related questions, reach us at homepriderestorationut@gmail.com or by phone at (801) 995-2437. We're a small, local team, you'll get a real answer from a real person.

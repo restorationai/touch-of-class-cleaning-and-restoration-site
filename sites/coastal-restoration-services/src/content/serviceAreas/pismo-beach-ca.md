@@ -19,19 +19,19 @@ state: "CA"
 primary: false
 rendered: true
 ---
-Coastal Restoration Services Inc responds to water damage, fire damage, mold, and biohazard emergencies for homeowners and property managers throughout Pismo Beach. Whether it's a vacation rental on the bluffs that woke up to a burst pipe, a condo association dealing with mold behind a shower wall, or a commercial property near the pier that caught smoke damage, we handle the assessment, mitigation, and documentation — including direct coordination with your insurance carrier.
+Coastal Restoration Services Inc responds to water damage, fire damage, mold, and biohazard emergencies for homeowners and property managers throughout Pismo Beach. Whether it's a vacation rental on the bluffs that woke up to a burst pipe, a condo association dealing with mold behind a shower wall, or a commercial property near the pier that caught smoke damage, we handle the assessment, mitigation, and documentation, including direct coordination with your insurance carrier.
 
 ## Restoration emergencies common in Pismo Beach
 
-Pismo Beach sits at the edge of the Pacific, and the coast does not go easy on buildings. Salt-laden marine air accelerates corrosion on plumbing fittings, HVAC components, and fasteners inside wall cavities — meaning a slow leak that might take years to surface in an inland home can cause significant structural damage here in a fraction of that time. The marine layer keeps relative humidity elevated for much of the year, which shortens the window between a water intrusion event and visible mold growth; under the right conditions, mold can begin colonizing damp drywall and framing within 24 to 48 hours.
+Pismo Beach sits at the edge of the Pacific, and the coast does not go easy on buildings. Salt-laden marine air accelerates corrosion on plumbing fittings, HVAC components, and fasteners inside wall cavities, meaning a slow leak that might take years to surface in an inland home can cause significant structural damage here in a fraction of that time. The marine layer keeps relative humidity elevated for much of the year, which shortens the window between a water intrusion event and visible mold growth; under the right conditions, mold can begin colonizing damp drywall and framing within 24 to 48 hours.
 
-The housing stock adds another layer of complexity. Pismo Beach has a high concentration of older vacation cottages and multi-unit rentals, many built in the 1960s and 1970s, that may contain older plumbing materials prone to pinhole leaks. Hillside properties face drainage challenges during the rainy season — storm runoff can find its way into crawl spaces and lower-level units in ways that aren't immediately obvious from the surface. And because a significant share of Pismo Beach properties are short-term rentals or second homes, damage sometimes goes undetected for days before an owner or manager is notified.
+The housing stock adds another layer of complexity. Pismo Beach has a high concentration of older vacation cottages and multi-unit rentals, many built in the 1960s and 1970s, that may contain older plumbing materials prone to pinhole leaks. Hillside properties face drainage challenges during the rainy season, storm runoff can find its way into crawl spaces and lower-level units in ways that aren't immediately obvious from the surface. And because a significant share of Pismo Beach properties are short-term rentals or second homes, damage sometimes goes undetected for days before an owner or manager is notified.
 
 ## Services we provide in Pismo Beach
 
 ### Water damage mitigation
 
-Water damage in Pismo Beach often starts small — a slow supply line leak under a vacation rental kitchen, condensation buildup in a poorly ventilated bathroom — and grows quietly behind walls and under flooring. We extract standing water, deploy drying equipment calibrated to coastal humidity levels, and monitor moisture readings daily until structural materials reach target drying goals. Documentation is thorough enough to support an insurance claim from day one.
+Water damage in Pismo Beach often starts small, a slow supply line leak under a vacation rental kitchen, condensation buildup in a poorly ventilated bathroom, and grows quietly behind walls and under flooring. We extract standing water, deploy drying equipment calibrated to coastal humidity levels, and monitor moisture readings daily until structural materials reach target drying goals. Documentation is thorough enough to support an insurance claim from day one.
 
 ### Mold remediation
 
@@ -47,13 +47,13 @@ Vacation rental turnover, unattended properties, and sewage backups after heavy 
 
 ## Coverage and how fast we can get there
 
-Our headquarters is in Vandenberg Village, roughly 25 to 30 miles north of Pismo Beach via U.S. 101. Under normal traffic conditions on 101 southbound, that puts our crew in Pismo Beach in well under an hour. We do not publish a guaranteed minute figure, but Pismo Beach is well within our primary service corridor — it is not a distant edge-of-territory call for us. Property managers coordinating access for a rental unit, or homeowners who need to meet us on-site, can reach us directly at (805) 345-7440 to schedule arrival.
+Our headquarters is in Vandenberg Village, roughly 25 to 30 miles north of Pismo Beach via U.S. 101. Under normal traffic conditions on 101 southbound, that puts our crew in Pismo Beach in well under an hour. We do not publish a guaranteed minute figure, but Pismo Beach is well within our primary service corridor, it is not a distant edge-of-territory call for us. Property managers coordinating access for a rental unit, or homeowners who need to meet us on-site, can reach us directly at (805) 345-7440 to schedule arrival.
 
 ## Building stock, site conditions, and permits in Pismo Beach
 
 Much of the older housing here is single-story wood frame with stucco or wood siding, raised on short cripple walls over a vented crawlspace, with later infill and condo work built on slab-on-grade. Those two foundations behave very differently after a loss: a crawlspace traps humid air under the floor and needs its own drying plan, while a slab wicks moisture sideways into bottom plates and flooring adhesive.
 
-Pre-1980s homes commonly hide galvanized supply, cast iron drains, and asbestos-suspect materials like sheet vinyl, joint compound, and popcorn ceilings, plus lead paint in anything before 1978 — all of which have to be tested or assumed before demolition.
+Pre-1980s homes commonly hide galvanized supply, cast iron drains, and asbestos-suspect materials like sheet vinyl, joint compound, and popcorn ceilings, plus lead paint in anything before 1978, all of which have to be tested or assumed before demolition.
 
 Permits for structural repair go through the City of Pismo Beach building division, and because the city sits inside California's coastal zone, work that goes beyond repair in kind can pull in coastal review. Condo and HOA rules add a second approval layer.
 

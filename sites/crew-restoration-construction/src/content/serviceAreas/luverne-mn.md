@@ -23,7 +23,7 @@ When a pipe bursts behind a wall in Downtown Luverne or a prairie storm drives w
 
 ## Restoration emergencies common in Luverne
 
-Luverne sits at the edge of the Coteau des Prairies, which means it catches the full force of southwest Minnesota's weather without much topographic shelter. Severe thunderstorms roll through Rock County with little warning, and the hail that dents vehicles outside Redbird Field can punch through roofing and push water into attic insulation within minutes. Winter brings freeze-thaw cycles that crack masonry on older structures near the Rock County Courthouse, and spring snowmelt raises the water table quickly in low-lying lots — sometimes faster than sump pumps can keep pace.
+Luverne sits at the edge of the Coteau des Prairies, which means it catches the full force of southwest Minnesota's weather without much topographic shelter. Severe thunderstorms roll through Rock County with little warning, and the hail that dents vehicles outside Redbird Field can punch through roofing and push water into attic insulation within minutes. Winter brings freeze-thaw cycles that crack masonry on older structures near the Rock County Courthouse, and spring snowmelt raises the water table quickly in low-lying lots, sometimes faster than sump pumps can keep pace.
 
 The housing stock in and around ZIP code 56156 skews older: two-story wood-frame homes built in the mid-twentieth century, with plaster walls, older cast-iron or galvanized supply lines, and basements that were never designed to handle modern drainage loads. When those pipes fail or a storm overwhelms the foundation, moisture gets into wall cavities and subfloor assemblies that are harder to dry than modern construction. Mold can begin colonizing wet cellulose material in 24 to 48 hours, which is why the response window matters as much as the repair quality.
 
@@ -31,11 +31,11 @@ The housing stock in and around ZIP code 56156 skews older: two-story wood-frame
 
 ### Water damage restoration
 
-Water damage in Luverne often starts with a slow leak — a water heater in a basement utility room, a supply line behind a kitchen cabinet — that goes unnoticed until flooring buckles or a ceiling stain appears. We use thermal imaging and moisture meters to trace the actual boundary of the damage rather than guessing, then extract standing water, deploy drying equipment, and monitor the structure until readings confirm it is dry. Work is documented throughout for your insurance claim.
+Water damage in Luverne often starts with a slow leak, a water heater in a basement utility room, a supply line behind a kitchen cabinet, that goes unnoticed until flooring buckles or a ceiling stain appears. We use thermal imaging and moisture meters to trace the actual boundary of the damage rather than guessing, then extract standing water, deploy drying equipment, and monitor the structure until readings confirm it is dry. Work is documented throughout for your insurance claim.
 
 ### Storm and wind damage
 
-The prairie exposure around the Bluffs area means roofing and siding take a beating during severe weather seasons. After a significant storm, we assess structural integrity, apply temporary protective measures to stop additional water intrusion, and move into permanent repairs — roofing, siding, windows, and interior finishes — under a single scope of work.
+The prairie exposure around the Bluffs area means roofing and siding take a beating during severe weather seasons. After a significant storm, we assess structural integrity, apply temporary protective measures to stop additional water intrusion, and move into permanent repairs, roofing, siding, windows, and interior finishes, under a single scope of work.
 
 ### Fire and smoke damage restoration
 
@@ -43,7 +43,7 @@ Smoke residue from even a contained kitchen fire travels farther than most homeo
 
 ### Mold remediation
 
-Mold remediation in older Luverne homes requires careful containment because disturbing colonies in a plaster-and-lath wall without proper barriers spreads spores to unaffected areas. We follow established industry protocols for containment, removal, and post-remediation verification. We do not offer medical advice about health effects — if you have health concerns, consult a physician.
+Mold remediation in older Luverne homes requires careful containment because disturbing colonies in a plaster-and-lath wall without proper barriers spreads spores to unaffected areas. We follow established industry protocols for containment, removal, and post-remediation verification. We do not offer medical advice about health effects, if you have health concerns, consult a physician.
 
 ### Reconstruction
 
@@ -51,14 +51,14 @@ Once the mitigation work is complete, our construction team handles the rebuild:
 
 ## Coverage and how fast we can get there
 
-Crew Restoration & Construction is headquartered in Sioux Falls, SD, roughly 90 miles northwest of Luverne via I-90 East — a straightforward highway route with no significant interchange complexity. From our dispatch point, we can reach Downtown Luverne and the neighborhoods along the Bluffs area without routing through secondary roads. We schedule Luverne calls promptly; contact us at (605) 965-2727 to confirm current availability and get a crew on the calendar.
+Crew Restoration & Construction is headquartered in Sioux Falls, SD, roughly 90 miles northwest of Luverne via I-90 East, a straightforward highway route with no significant interchange complexity. From our dispatch point, we can reach Downtown Luverne and the neighborhoods along the Bluffs area without routing through secondary roads. We schedule Luverne calls promptly; contact us at (605) 965-2727 to confirm current availability and get a crew on the calendar.
 
 ## Building stock, site conditions, and permits in Luverne
 
-Much of the older construction in and around Luverne rests on foundations built from local Sioux quartzite rubble — the same pink stone quarried near Blue Mounds. Those walls are strong but porous at the mortar joints, so basement water tends to move through the joints rather than through a single crack, and drying means treating the whole wall rather than patching one spot. Soils across this part of the Coteau are glacial till with clay content that holds water against the foundation after heavy rain.
+Much of the older construction in and around Luverne rests on foundations built from local Sioux quartzite rubble, the same pink stone quarried near Blue Mounds. Those walls are strong but porous at the mortar joints, so basement water tends to move through the joints rather than through a single crack, and drying means treating the whole wall rather than patching one spot. Soils across this part of the Coteau are glacial till with clay content that holds water against the foundation after heavy rain.
 
 Homes built before the late 1970s can carry lead paint, and mid-century flooring, mastic, and pipe insulation may contain asbestos, so demolition scopes get planned around testing rather than after it.
 
 Building permits for structural repair or rebuild inside the city come from Luverne; the Minnesota State Building Code applies statewide, and rural properties permit through Rock County.
 
-If your Luverne property has been affected by water, storm, fire, smoke, or mold, the right time to call is now — not after you have spent a week waiting to see whether the problem resolves on its own. Reach Crew Restoration & Construction at (605) 965-2727.
+If your Luverne property has been affected by water, storm, fire, smoke, or mold, the right time to call is now, not after you have spent a week waiting to see whether the problem resolves on its own. Reach Crew Restoration & Construction at (605) 965-2727.

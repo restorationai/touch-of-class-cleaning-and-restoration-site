@@ -20,40 +20,40 @@ state: "SD"
 service_display: "Contents Restoration and Storage"
 rendered: true
 ---
-When a burst pipe or kitchen fire leaves your belongings soaked, smoke-stained, or coated in soot, the last thing you want is to sort through the damage alone. For homeowners along Highway 138 in Crooks — where South Dakota's wide temperature swings can push pipes to their limits every winter — getting your furniture, clothing, documents, and keepsakes into professional hands quickly is the difference between restoration and replacement. Crew Restoration & Construction handles the full cycle: careful pack-out from your home, cleaning and restoration at our facility, secure storage, and coordinated return delivery once your property is ready.
+When a burst pipe or kitchen fire leaves your belongings soaked, smoke-stained, or coated in soot, the last thing you want is to sort through the damage alone. For homeowners along Highway 138 in Crooks, where South Dakota's wide temperature swings can push pipes to their limits every winter, getting your furniture, clothing, documents, and keepsakes into professional hands quickly is the difference between restoration and replacement. Crew Restoration & Construction handles the full cycle: careful pack-out from your home, cleaning and restoration at our facility, secure storage, and coordinated return delivery once your property is ready.
 
 ## Why Crooks Properties See Contents Restoration Challenges
 
-Crooks sits in a climate corridor that swings from brutal January cold snaps to humid summer thunderstorms, and the housing stock reflects decades of that stress. Many homes in and around West Crooks were built with older construction methods — think solid-wood cabinetry, plaster-and-lath interior walls, and hardwood floors that have absorbed decades of humidity cycles. When water damage or fire hits those materials, the restoration window is narrow. Porous wood and aged finishes absorb smoke odor and moisture faster than modern composites, which means contents need to leave the structure quickly before secondary damage sets in.
+Crooks sits in a climate corridor that swings from brutal January cold snaps to humid summer thunderstorms, and the housing stock reflects decades of that stress. Many homes in and around West Crooks were built with older construction methods, think solid-wood cabinetry, plaster-and-lath interior walls, and hardwood floors that have absorbed decades of humidity cycles. When water damage or fire hits those materials, the restoration window is narrow. Porous wood and aged finishes absorb smoke odor and moisture faster than modern composites, which means contents need to leave the structure quickly before secondary damage sets in.
 
-The area also sees a fair share of basement flooding tied to spring snowmelt and heavy summer rain events. When water intrudes at the lower level, it doesn't stay there — it wicks into stored boxes, upholstered furniture legs, and area rugs before most homeowners realize the extent of the problem. Getting those items out and into a controlled environment stops the clock on mold colonization, which can begin within 24 to 48 hours of saturation.
+The area also sees a fair share of basement flooding tied to spring snowmelt and heavy summer rain events. When water intrudes at the lower level, it doesn't stay there, it wicks into stored boxes, upholstered furniture legs, and area rugs before most homeowners realize the extent of the problem. Getting those items out and into a controlled environment stops the clock on mold colonization, which can begin within 24 to 48 hours of saturation.
 
 ## Our Contents Restoration and Storage Process in Crooks
 
-Every job starts with a detailed inventory. Before anything leaves your home, our crew photographs, barcodes, and logs each item — furniture, electronics, artwork, clothing, documents — so you always know exactly what we have and where it is. That documentation also becomes part of your insurance claim file.
+Every job starts with a detailed inventory. Before anything leaves your home, our crew photographs, barcodes, and logs each item, furniture, electronics, artwork, clothing, documents, so you always know exactly what we have and where it is. That documentation also becomes part of your insurance claim file.
 
 From there, the process breaks into three tracks depending on what each item needs:
 
 - **Soft contents** (clothing, bedding, curtains): cleaned using specialized ozone or hydroxyl treatment to neutralize smoke odor, then laundered or dry-cleaned as appropriate.
-- **Hard goods** (furniture, cabinetry, appliances): cleaned with ultrasonic equipment or hand-cleaned with pH-appropriate solutions depending on finish type. Smoke residue on older lacquered wood — common in homes near Crooks City Park that date to the 1970s and 1980s — requires gentler chemistry than modern polyurethane finishes.
+- **Hard goods** (furniture, cabinetry, appliances): cleaned with ultrasonic equipment or hand-cleaned with pH-appropriate solutions depending on finish type. Smoke residue on older lacquered wood, common in homes near Crooks City Park that date to the 1970s and 1980s, requires gentler chemistry than modern polyurethane finishes.
 - **Documents and photos**: freeze-dried or air-dried under controlled conditions to prevent further deterioration.
 
 Items that can't be immediately returned to your home are stored in our climate-controlled facility until your structure is dry, repaired, and cleared for reoccupancy. You receive a digital inventory link so you can check item status without having to call.
 
 ## Reaching Crooks from Sioux Falls
 
-Our team operates out of Sioux Falls and reaches Crooks via Highway 138 — a straightforward northwest run that keeps drive time short for a community this close to the metro edge. Whether the call comes from a home near Renner Corner or from a property deeper into the 57020 ZIP code, we can dispatch a crew and begin the pack-out assessment without the delays that come with longer-haul response.
+Our team operates out of Sioux Falls and reaches Crooks via Highway 138, a straightforward northwest run that keeps drive time short for a community this close to the metro edge. Whether the call comes from a home near Renner Corner or from a property deeper into the 57020 ZIP code, we can dispatch a crew and begin the pack-out assessment without the delays that come with longer-haul response.
 
-When you call (605) 965-2727, we'll ask a few quick questions about the type of damage and the number of rooms affected so we can size the crew and bring the right equipment on the first trip — reducing the back-and-forth that costs you time when contents are still at risk.
+When you call (605) 965-2727, we'll ask a few quick questions about the type of damage and the number of rooms affected so we can size the crew and bring the right equipment on the first trip, reducing the back-and-forth that costs you time when contents are still at risk.
 
 ## Crooks Insurance Coordination
 
-Contents losses are often the most contested part of a property insurance claim because adjusters want itemized documentation, not a rough estimate. Our inventory process — photos, barcodes, condition notes, and restoration cost comparisons against replacement value — is built to satisfy that standard. We work with most major carriers and can communicate directly with your adjuster to clarify scope, which takes that burden off your plate during an already stressful period.
+Contents losses are often the most contested part of a property insurance claim because adjusters want itemized documentation, not a rough estimate. Our inventory process, photos, barcodes, condition notes, and restoration cost comparisons against replacement value, is built to satisfy that standard. We work with most major carriers and can communicate directly with your adjuster to clarify scope, which takes that burden off your plate during an already stressful period.
 
 If your policy includes additional living expense (ALE) coverage, contents storage costs are typically a reimbursable line item. We can provide the documentation your adjuster needs to process that portion of the claim.
 
 ## Local Note
 
-One pattern we've noticed in older homes on the west side of Crooks: many of them have unfinished utility rooms where stored items — holiday décor, off-season clothing, family heirlooms — sit directly on concrete slab floors with no shelving. Concrete wicks moisture year-round, and after a water loss those stored items are often more saturated than anything in the finished living space. If you're calling us after a basement or utility room event, pull items off the floor and onto any elevated surface you can find while you wait for our crew — even a few inches of air gap slows the absorption rate and improves the odds of successful restoration.
+One pattern we've noticed in older homes on the west side of Crooks: many of them have unfinished utility rooms where stored items, holiday décor, off-season clothing, family heirlooms, sit directly on concrete slab floors with no shelving. Concrete wicks moisture year-round, and after a water loss those stored items are often more saturated than anything in the finished living space. If you're calling us after a basement or utility room event, pull items off the floor and onto any elevated surface you can find while you wait for our crew, even a few inches of air gap slows the absorption rate and improves the odds of successful restoration.
 
 If you're dealing with damage to belongings in Crooks right now, call Crew Restoration & Construction at (605) 965-2727. We'll walk you through what to do before we arrive, get an inventory crew to your door, and keep your property and your possessions on a coordinated recovery timeline.

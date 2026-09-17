@@ -19,13 +19,13 @@ state: "CA"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall in Atascadero or a kitchen fire leaves smoke residue baked into the cabinetry, Coastal Restoration Services Inc handles the full scope — water extraction, structural drying, smoke and odor removal, mold remediation, and reconstruction — so property owners here have one number to call instead of coordinating three separate contractors. We work directly with insurance carriers and stay on-site until the job is documented, dried, and closed.
+When a pipe bursts behind a wall in Atascadero or a kitchen fire leaves smoke residue baked into the cabinetry, Coastal Restoration Services Inc handles the full scope, water extraction, structural drying, smoke and odor removal, mold remediation, and reconstruction, so property owners here have one number to call instead of coordinating three separate contractors. We work directly with insurance carriers and stay on-site until the job is documented, dried, and closed.
 
 ## Restoration emergencies common in Atascadero
 
-Atascadero sits in a transitional climate zone where the marine layer that pushes in from Morro Bay meets the warmer, drier air of the Salinas River valley. That swing between cool, humid nights and dry summer afternoons creates conditions that accelerate hidden moisture problems. Concrete-block construction — common in the city's mid-century commercial core and in many of the ranch-style homes built during Atascadero's post-WWII growth — traps moisture differently than wood-frame buildings. Once water infiltrates a block wall, it wicks laterally and can stay damp for weeks before a homeowner notices discoloration or a musty smell. Mold colonization can begin within 24 to 48 hours of saturation, so a slow roof leak or a failed washing-machine supply line that goes undetected over a weekend is enough to create a remediation project.
+Atascadero sits in a transitional climate zone where the marine layer that pushes in from Morro Bay meets the warmer, drier air of the Salinas River valley. That swing between cool, humid nights and dry summer afternoons creates conditions that accelerate hidden moisture problems. Concrete-block construction, common in the city's mid-century commercial core and in many of the ranch-style homes built during Atascadero's post-WWII growth, traps moisture differently than wood-frame buildings. Once water infiltrates a block wall, it wicks laterally and can stay damp for weeks before a homeowner notices discoloration or a musty smell. Mold colonization can begin within 24 to 48 hours of saturation, so a slow roof leak or a failed washing-machine supply line that goes undetected over a weekend is enough to create a remediation project.
 
-Wildfires in the Santa Lucia Range and the hills east of Highway 101 are a recurring reality for Atascadero residents. Even homes that survive a fire structurally often carry smoke and soot damage that penetrates HVAC systems, insulation, and subflooring. The 2020 Willow Fire and earlier events left a generation of homeowners here familiar with the lingering smell of pyrolysis residue — a sharp, oily odor that household cleaning products cannot neutralize.
+Wildfires in the Santa Lucia Range and the hills east of Highway 101 are a recurring reality for Atascadero residents. Even homes that survive a fire structurally often carry smoke and soot damage that penetrates HVAC systems, insulation, and subflooring. The 2020 Willow Fire and earlier events left a generation of homeowners here familiar with the lingering smell of pyrolysis residue, a sharp, oily odor that household cleaning products cannot neutralize.
 
 Winter atmospheric-river events bring rapid, high-volume rainfall to a city whose storm-drain infrastructure was largely designed for the drier baseline of the 1960s and 1970s. Basement-level rooms, crawl spaces under older homes on the west side of El Camino Real, and low-lying lots near Atascadero Creek are especially vulnerable to intrusion when back-to-back storms saturate the soil.
 
@@ -33,7 +33,7 @@ Winter atmospheric-river events bring rapid, high-volume rainfall to a city whos
 
 ### Water damage restoration
 
-Water damage in Atascadero often involves more than the visible wet surface. Hardwood floors common in older Craftsman and ranch-style homes absorb moisture into the tongue-and-groove seams before buckling is visible. We use thermal imaging and calibrated moisture meters to map the full extent of saturation, then set drying equipment — air movers, desiccant or refrigerant dehumidifiers — sized to the actual volume of affected material rather than a generic room count.
+Water damage in Atascadero often involves more than the visible wet surface. Hardwood floors common in older Craftsman and ranch-style homes absorb moisture into the tongue-and-groove seams before buckling is visible. We use thermal imaging and calibrated moisture meters to map the full extent of saturation, then set drying equipment, air movers, desiccant or refrigerant dehumidifiers, sized to the actual volume of affected material rather than a generic room count.
 
 ### Mold remediation
 
@@ -41,7 +41,7 @@ The combination of Atascadero's humidity swings and the prevalence of older cons
 
 ### Fire and smoke damage restoration
 
-Smoke from wildland fires behaves differently than smoke from a contained kitchen fire — the particles are finer, travel farther through a structure, and embed in porous materials including drywall paper, wood framing, and ductwork insulation. We assess the full odor and residue footprint before scoping the restoration, which often includes duct cleaning, content pack-out, and controlled demolition of materials that cannot be cleaned to an acceptable standard.
+Smoke from wildland fires behaves differently than smoke from a contained kitchen fire, the particles are finer, travel farther through a structure, and embed in porous materials including drywall paper, wood framing, and ductwork insulation. We assess the full odor and residue footprint before scoping the restoration, which often includes duct cleaning, content pack-out, and controlled demolition of materials that cannot be cleaned to an acceptable standard.
 
 ### Reconstruction
 
@@ -49,12 +49,12 @@ Once mitigation is complete and the structure is dry and cleared, our reconstruc
 
 ## Coverage and how fast we can get there
 
-Coastal Restoration Services Inc operates out of Vandenberg Village, roughly 45 miles southwest of Atascadero via US-101 North. Under normal traffic conditions on 101, our crew can reach Atascadero — whether that's a property near the Sunken Gardens civic center, a home off Santa Rosa Road, or a commercial building along Traffic Way — without the extended delays that affect contractors coming from Los Angeles or the Bay Area. Call (805) 345-7440 during business hours to schedule an assessment; we will confirm an arrival window at the time of booking.
+Coastal Restoration Services Inc operates out of Vandenberg Village, roughly 45 miles southwest of Atascadero via US-101 North. Under normal traffic conditions on 101, our crew can reach Atascadero, whether that's a property near the Sunken Gardens civic center, a home off Santa Rosa Road, or a commercial building along Traffic Way, without the extended delays that affect contractors coming from Los Angeles or the Bay Area. Call (805) 345-7440 during business hours to schedule an assessment; we will confirm an arrival window at the time of booking.
 
 ## Building stock, site conditions, and permits in Atascadero
 
-Atascadero's housing splits roughly in two. The older Colony-era homes are raised wood-frame on perimeter foundations with vented crawlspaces, and those crawlspaces are where a supply-line failure hides longest — wet soil under the floor keeps releasing moisture into joists and subfloor after the visible water is gone. The tract and custom homes built from the 1970s onward are usually slab-on-grade, where water tracks under flooring and into bottom plates instead. Anything built before 1980 gets tested before demolition for asbestos in floor tile, mastic and texture, and pre-1978 paint is assumed to contain lead.
+Atascadero's housing splits roughly in two. The older Colony-era homes are raised wood-frame on perimeter foundations with vented crawlspaces, and those crawlspaces are where a supply-line failure hides longest, wet soil under the floor keeps releasing moisture into joists and subfloor after the visible water is gone. The tract and custom homes built from the 1970s onward are usually slab-on-grade, where water tracks under flooring and into bottom plates instead. Anything built before 1980 gets tested before demolition for asbestos in floor tile, mastic and texture, and pre-1978 paint is assumed to contain lead.
 
-Structural repair and rebuild permits come from the City of Atascadero's building division. This is high-seismic country — the 2003 San Simeon earthquake badly damaged the historic City Hall — so framing and shear repairs draw real plan review.
+Structural repair and rebuild permits come from the City of Atascadero's building division. This is high-seismic country, the 2003 San Simeon earthquake badly damaged the historic City Hall, so framing and shear repairs draw real plan review.
 
 If you are dealing with water, fire, or mold damage at an Atascadero property, call (805) 345-7440. We will walk through what you are seeing, explain the next steps, and get a crew scheduled.

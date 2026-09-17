@@ -19,31 +19,31 @@ state: "TX"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall or a storm pushes water under your back door, the last thing you need is a restoration crew that treats Terrell like a pin on a map. Reign Restoration handles water damage mitigation, fire and smoke cleanup, mold remediation, and reconstruction for homeowners and property managers across Terrell and Kaufman County — working quickly, documenting everything for your insurance carrier, and staying on-site until the job is genuinely finished.
+When a pipe bursts behind a wall or a storm pushes water under your back door, the last thing you need is a restoration crew that treats Terrell like a pin on a map. Reign Restoration handles water damage mitigation, fire and smoke cleanup, mold remediation, and reconstruction for homeowners and property managers across Terrell and Kaufman County, working quickly, documenting everything for your insurance carrier, and staying on-site until the job is genuinely finished.
 
 ## Restoration emergencies common in Terrell
 
-Terrell sits squarely in the East Texas blackland prairie, and that geography shapes the kinds of damage calls we receive. The expansive clay soils that dominate Kaufman County shrink hard during summer droughts and swell dramatically when the rains return — a cycle that stresses slab foundations, cracks exterior masonry, and opens gaps where water finds its way inside. North Texas storm seasons bring hail that punches through roof decking and sudden heavy rain that overwhelms gutters on older homes before the ground can absorb it.
+Terrell sits squarely in the East Texas blackland prairie, and that geography shapes the kinds of damage calls we receive. The expansive clay soils that dominate Kaufman County shrink hard during summer droughts and swell dramatically when the rains return, a cycle that stresses slab foundations, cracks exterior masonry, and opens gaps where water finds its way inside. North Texas storm seasons bring hail that punches through roof decking and sudden heavy rain that overwhelms gutters on older homes before the ground can absorb it.
 
-A significant portion of Terrell's housing stock dates to the mid-twentieth century, which means galvanized supply lines that have quietly corroded for decades, cast-iron drain stacks that crack under root pressure, and attic insulation that holds moisture long after a slow leak is found. Older homes also carry a higher probability of legacy materials — asbestos-containing floor tile or textured ceilings — that require careful handling before any demolition begins. When water sits in a structure for more than 24 to 48 hours in Terrell's humid summers, mold colonization is a realistic concern, not a remote one.
+A significant portion of Terrell's housing stock dates to the mid-twentieth century, which means galvanized supply lines that have quietly corroded for decades, cast-iron drain stacks that crack under root pressure, and attic insulation that holds moisture long after a slow leak is found. Older homes also carry a higher probability of legacy materials, asbestos-containing floor tile or textured ceilings, that require careful handling before any demolition begins. When water sits in a structure for more than 24 to 48 hours in Terrell's humid summers, mold colonization is a realistic concern, not a remote one.
 
 ## Services we provide in Terrell
 
 ### Water damage mitigation and drying
 
-Water damage in Terrell frequently starts small and hides well — a slow supply-line drip inside a cabinet, condensation backing up from an aging HVAC unit, or stormwater that wicks up through a cracked slab. Reign Restoration uses moisture meters and thermal imaging to map the full extent of saturation before any drying equipment is placed, so walls and subfloors are dried to measured targets rather than dried until they look dry.
+Water damage in Terrell frequently starts small and hides well, a slow supply-line drip inside a cabinet, condensation backing up from an aging HVAC unit, or stormwater that wicks up through a cracked slab. Reign Restoration uses moisture meters and thermal imaging to map the full extent of saturation before any drying equipment is placed, so walls and subfloors are dried to measured targets rather than dried until they look dry.
 
 ### Fire and smoke damage restoration
 
-House fires in Terrell's older neighborhoods leave smoke residue that travels far beyond the room of origin — into ductwork, inside wall cavities, and onto surfaces two or three rooms away. Smoke odor from a kitchen fire can make an entire home unlivable if the affected materials aren't properly cleaned or removed. We assess structural integrity, remove charred material, clean and seal smoke-affected surfaces, and coordinate reconstruction so the property is genuinely restored, not just painted over.
+House fires in Terrell's older neighborhoods leave smoke residue that travels far beyond the room of origin, into ductwork, inside wall cavities, and onto surfaces two or three rooms away. Smoke odor from a kitchen fire can make an entire home unlivable if the affected materials aren't properly cleaned or removed. We assess structural integrity, remove charred material, clean and seal smoke-affected surfaces, and coordinate reconstruction so the property is genuinely restored, not just painted over.
 
 ### Mold remediation
 
-Terrell's warm, humid summers mean that any moisture intrusion left unaddressed for more than a day or two creates real mold risk. Reign Restoration follows established remediation protocols — containment, HEPA filtration, removal of affected materials, and post-remediation verification — to address mold at the source rather than surface-treating it. We do not provide medical advice, but we do remove the contaminated materials and correct the moisture conditions that allowed growth to begin.
+Terrell's warm, humid summers mean that any moisture intrusion left unaddressed for more than a day or two creates real mold risk. Reign Restoration follows established remediation protocols, containment, HEPA filtration, removal of affected materials, and post-remediation verification, to address mold at the source rather than surface-treating it. We do not provide medical advice, but we do remove the contaminated materials and correct the moisture conditions that allowed growth to begin.
 
 ### Reconstruction and build-back
 
-Mitigation is only half the job. After damaged materials are removed and the structure is dry, Reign Restoration can handle the rebuild — drywall, flooring, cabinetry, painting — so property owners are dealing with one contractor and one point of contact through the entire claim rather than coordinating a separate GC after the mitigation crew leaves.
+Mitigation is only half the job. After damaged materials are removed and the structure is dry, Reign Restoration can handle the rebuild, drywall, flooring, cabinetry, painting, so property owners are dealing with one contractor and one point of contact through the entire claim rather than coordinating a separate GC after the mitigation crew leaves.
 
 ## Coverage and how fast we can get there
 
@@ -57,4 +57,4 @@ Houses built from the late 1970s into the mid-1990s across this part of North Te
 
 Structural repair and rebuild permits come from the City of Terrell; properties near creek bottoms should be checked against the mapped floodplain before build-back.
 
-If you're dealing with water, fire, smoke, or mold damage at a Terrell property, call Reign Restoration at **(214) 304-0621**. We'll assess the damage, walk you through the process, and work directly with your insurance carrier to document and bill the loss — so you're focused on getting back to normal, not managing paperwork.
+If you're dealing with water, fire, smoke, or mold damage at a Terrell property, call Reign Restoration at **(214) 304-0621**. We'll assess the damage, walk you through the process, and work directly with your insurance carrier to document and bill the loss, so you're focused on getting back to normal, not managing paperwork.

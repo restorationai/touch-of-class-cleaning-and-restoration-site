@@ -17,19 +17,19 @@ published_at: "2026-07-30"
 services: ["water-damage-restoration", "appliance-leak-cleanup"]
 rendered: true
 ---
-When a pipe bursts, the first five minutes matter more than the next five hours. Shut off your home's main water supply valve immediately — don't wait to find the source of the leak. Then cut power to any rooms with standing water at the breaker box. After that, you can slow down enough to work through the rest of this checklist methodically. The steps below are ordered the way a restoration professional would walk through them, from the moment water hits the floor to the point where your home is dry and structurally sound again.
+When a pipe bursts, the first five minutes matter more than the next five hours. Shut off your home's main water supply valve immediately, don't wait to find the source of the leak. Then cut power to any rooms with standing water at the breaker box. After that, you can slow down enough to work through the rest of this checklist methodically. The steps below are ordered the way a restoration professional would walk through them, from the moment water hits the floor to the point where your home is dry and structurally sound again.
 
-## Step 1 — Stop the Water and the Electricity
+## Step 1, Stop the Water and the Electricity
 
-Your main shutoff valve is usually located where the water line enters the house. In Abilene homes, that's often in a utility closet, under the kitchen sink, or in the garage near the exterior wall. Turn it clockwise until it stops. If you're in an older home built before the 1980s — and there are plenty of those in established neighborhoods across Abilene — the valve may be stiff or partially corroded. Use both hands and don't force it; a broken shutoff compounds the problem.
+Your main shutoff valve is usually located where the water line enters the house. In Abilene homes, that's often in a utility closet, under the kitchen sink, or in the garage near the exterior wall. Turn it clockwise until it stops. If you're in an older home built before the 1980s, and there are plenty of those in established neighborhoods across Abilene, the valve may be stiff or partially corroded. Use both hands and don't force it; a broken shutoff compounds the problem.
 
 Once the water is off, open a cold-water faucet on the lowest floor to drain pressure from the lines. This slows seepage from the burst section.
 
 For electricity: if water is pooling near outlets, appliances, or the electrical panel, do not wade through it to reach the breaker. Cut power from a dry location or, if that's not possible, call your utility provider and wait. No flooring is worth an electrocution risk.
 
-## Step 2 — Document Everything Before You Touch It
+## Step 2, Document Everything Before You Touch It
 
-Before you move furniture, pull up rugs, or start mopping, take photos and video of every affected area. Walk the perimeter of the room. Open cabinet doors under sinks and capture what's inside. If water has migrated into an adjacent room — which it will, especially on slab foundations common throughout West Texas — document that too.
+Before you move furniture, pull up rugs, or start mopping, take photos and video of every affected area. Walk the perimeter of the room. Open cabinet doors under sinks and capture what's inside. If water has migrated into an adjacent room, which it will, especially on slab foundations common throughout West Texas, document that too.
 
 This documentation is the foundation of your insurance claim. Adjusters work from evidence, not memory. Photograph:
 
@@ -41,13 +41,13 @@ This documentation is the foundation of your insurance claim. Adjusters work fro
 
 Save everything to cloud storage immediately so it can't be lost if a device gets wet.
 
-## Step 3 — Remove Standing Water and Start Air Movement
+## Step 3, Remove Standing Water and Start Air Movement
 
-Once you've documented the scene, begin removing water. A wet/dry shop vac handles small volumes well. For anything more than a thin film across a hard floor, you're looking at a mop-and-bucket operation at minimum — and even then, you're only addressing surface water.
+Once you've documented the scene, begin removing water. A wet/dry shop vac handles small volumes well. For anything more than a thin film across a hard floor, you're looking at a mop-and-bucket operation at minimum, and even then, you're only addressing surface water.
 
-Here's the part most homeowners underestimate: the water you can see is rarely the water that causes the most damage. In a typical Abilene home with a slab foundation, water wicks up into drywall from the bottom, travels under vinyl plank or laminate flooring, and saturates the concrete beneath. The surface can feel dry to the touch within a day while the wall cavity and subfloor stay wet for a week. That hidden moisture is where mold takes hold — and mold can begin colonizing porous materials within 24 to 48 hours of a moisture event.
+Here's the part most homeowners underestimate: the water you can see is rarely the water that causes the most damage. In a typical Abilene home with a slab foundation, water wicks up into drywall from the bottom, travels under vinyl plank or laminate flooring, and saturates the concrete beneath. The surface can feel dry to the touch within a day while the wall cavity and subfloor stay wet for a week. That hidden moisture is where mold takes hold, and mold can begin colonizing porous materials within 24 to 48 hours of a moisture event.
 
-Open windows if the outdoor humidity is lower than indoor humidity (less reliable in summer months in West Texas, when afternoon humidity can spike). Run ceiling fans. If you own box fans, point them across wet surfaces, not directly at walls — you want air movement across the floor plane, not just circulation.
+Open windows if the outdoor humidity is lower than indoor humidity (less reliable in summer months in West Texas, when afternoon humidity can spike). Run ceiling fans. If you own box fans, point them across wet surfaces, not directly at walls, you want air movement across the floor plane, not just circulation.
 
 These steps buy time. They are not a substitute for professional drying equipment.
 
@@ -58,12 +58,12 @@ Some common instincts make the situation worse:
 - **Don't use a standard household vacuum on standing water.** They aren't sealed for liquid and will burn out the motor or create an electrical hazard.
 - **Don't run the HVAC system** if water has reached the air handler, ductwork, or return vents. Circulating air through a contaminated system spreads particulates and accelerates mold spread.
 - **Don't pull up flooring yourself** before documenting and before a professional has assessed what's beneath it. Flooring removal affects the moisture readings that adjusters and restoration crews rely on.
-- **Don't assume the drywall is fine** because it doesn't feel wet. Press firmly along the baseboard line — if it gives or feels soft, the wall cavity has water in it.
+- **Don't assume the drywall is fine** because it doesn't feel wet. Press firmly along the baseboard line, if it gives or feels soft, the wall cavity has water in it.
 - **Don't wait on the insurance call.** Most policies have a reporting window, and delayed reporting can complicate coverage. Call your agent or carrier the same day.
 
 ## When to Call a Water Damage Professional
 
-Call a restoration company — not just a plumber — when any of the following are true:
+Call a restoration company, not just a plumber, when any of the following are true:
 
 - Water has been sitting for more than an hour before you found it
 - The affected area is larger than roughly 10 square feet
@@ -72,24 +72,24 @@ Call a restoration company — not just a plumber — when any of the following 
 - The burst pipe is in a wall, ceiling, or under a slab
 - You have any doubt about whether the structure is fully dry
 
-A plumber fixes the pipe. A water damage restoration crew handles everything that happened after the pipe broke — moisture mapping with thermal imaging and pin meters, industrial drying equipment, controlled demolition of materials that can't be saved, and documentation for your insurance carrier. These are different scopes of work, and you typically need both.
+A plumber fixes the pipe. A water damage restoration crew handles everything that happened after the pipe broke, moisture mapping with thermal imaging and pin meters, industrial drying equipment, controlled demolition of materials that can't be saved, and documentation for your insurance carrier. These are different scopes of work, and you typically need both.
 
-If you're in the Abilene area and you're past the point of DIY mitigation, Air Care Restoration handles water damage restoration and can be reached at (325) 339-8723. The same process applies whether the source was a burst pipe, a failed appliance supply line, or a slow leak behind a wall that finally gave way — the drying science is the same regardless of what caused the water event.
+If you're in the Abilene area and you're past the point of DIY mitigation, Air Care Restoration handles water damage restoration and can be reached at (325) 339-8723. The same process applies whether the source was a burst pipe, a failed appliance supply line, or a slow leak behind a wall that finally gave way, the drying science is the same regardless of what caused the water event.
 
 ## The Recovery Timeline: What Comes After the Emergency
 
-Once professional drying equipment is in place — typically high-capacity air movers and dehumidifiers — the active drying phase runs several days, not hours. Crews monitor moisture readings daily and adjust equipment placement based on what the readings show. Materials are cleared for reconstruction only when they meet the dry standard, not on a fixed schedule.
+Once professional drying equipment is in place, typically high-capacity air movers and dehumidifiers, the active drying phase runs several days, not hours. Crews monitor moisture readings daily and adjust equipment placement based on what the readings show. Materials are cleared for reconstruction only when they meet the dry standard, not on a fixed schedule.
 
 After drying:
 
-1. **Damaged materials are removed** — saturated drywall, compromised insulation, swollen baseboards, flooring that can't be saved.
+1. **Damaged materials are removed**, saturated drywall, compromised insulation, swollen baseboards, flooring that can't be saved.
 2. **The space is treated** if microbial growth is present or at risk.
-3. **Reconstruction begins** — drywall, paint, flooring, cabinetry, whatever was affected.
+3. **Reconstruction begins**, drywall, paint, flooring, cabinetry, whatever was affected.
 
-For appliance-related leaks (dishwasher supply lines, refrigerator ice makers, washing machine hoses), the process is the same but the affected area is often more contained. Appliance leak cleanup follows the same drying protocol as a burst pipe — the source doesn't change how moisture behaves once it's in your walls.
+For appliance-related leaks (dishwasher supply lines, refrigerator ice makers, washing machine hoses), the process is the same but the affected area is often more contained. Appliance leak cleanup follows the same drying protocol as a burst pipe, the source doesn't change how moisture behaves once it's in your walls.
 
 The full timeline from emergency to move-back-in ranges from a week for a small, caught-early event to several weeks for a loss that reached multiple rooms or sat undetected. Your insurance adjuster will work from the restoration company's documentation to determine coverage.
 
 ---
 
-If you've worked through this checklist and you're still looking at wet walls, soft flooring, or a musty smell that wasn't there yesterday, that's the point where professional equipment and assessment make a real difference. Air Care Restoration serves Abilene and the surrounding area — give them a call at (325) 339-8723 to talk through what you're dealing with.
+If you've worked through this checklist and you're still looking at wet walls, soft flooring, or a musty smell that wasn't there yesterday, that's the point where professional equipment and assessment make a real difference. Air Care Restoration serves Abilene and the surrounding area, give them a call at (325) 339-8723 to talk through what you're dealing with.

@@ -20,19 +20,19 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
-Fort Lee's high-rise towers along the Palisades create a smoke damage scenario unlike almost anywhere else in Bergen County. When a kitchen fire or electrical fault ignites on the 18th floor of a condominium building near the Hudson Lights complex, smoke doesn't just fill one unit — it migrates through HVAC risers, elevator shafts, and shared corridors, leaving soot and odor on floors that never saw a flame. The Restoration Group responds 24/7 to smoke damage calls across Fort Lee's 07024 ZIP code, from the dense residential towers overlooking the George Washington Bridge to the older prewar homes tucked into Coytesville and The Hill.
+Fort Lee's high-rise towers along the Palisades create a smoke damage scenario unlike almost anywhere else in Bergen County. When a kitchen fire or electrical fault ignites on the 18th floor of a condominium building near the Hudson Lights complex, smoke doesn't just fill one unit, it migrates through HVAC risers, elevator shafts, and shared corridors, leaving soot and odor on floors that never saw a flame. The Restoration Group responds 24/7 to smoke damage calls across Fort Lee's 07024 ZIP code, from the dense residential towers overlooking the George Washington Bridge to the older prewar homes tucked into Coytesville and The Hill.
 
 ## Why Fort Lee Properties Face Distinct Smoke Damage Challenges
 
-Building stock in Fort Lee spans nearly a century of construction in a very small footprint. The high-rises that define the Palisades skyline — many built in the 1960s and 1970s — rely on centralized HVAC systems that act as highways for smoke particulate. A single unit fire can deposit a fine layer of smoke residue on walls and ceilings two or three floors away within minutes, long before the fire department clears the scene.
+Building stock in Fort Lee spans nearly a century of construction in a very small footprint. The high-rises that define the Palisades skyline, many built in the 1960s and 1970s, rely on centralized HVAC systems that act as highways for smoke particulate. A single unit fire can deposit a fine layer of smoke residue on walls and ceilings two or three floors away within minutes, long before the fire department clears the scene.
 
-The older housing in Coytesville and The Hill tells a different story. Pre-1960 wood-frame homes and multifamily buildings in those neighborhoods often have plaster-and-lath walls rather than modern drywall. Plaster is porous and absorbs smoke odor compounds deeply — the kind of embedded smell that surface cleaning alone will never reach. Restoration in those structures requires a different chemical approach and longer treatment dwell times than a newer build would.
+The older housing in Coytesville and The Hill tells a different story. Pre-1960 wood-frame homes and multifamily buildings in those neighborhoods often have plaster-and-lath walls rather than modern drywall. Plaster is porous and absorbs smoke odor compounds deeply, the kind of embedded smell that surface cleaning alone will never reach. Restoration in those structures requires a different chemical approach and longer treatment dwell times than a newer build would.
 
 Fort Lee's position atop the Palisades cliffs also means limited ventilation options during smoke remediation in winter months. Cold air off the Hudson River makes aggressive cross-ventilation impractical, so equipment-driven air scrubbing with HEPA filtration and hydroxyl generators carries more of the load than it would in a suburban ranch house with open windows.
 
 ## Our Smoke Damage Restoration Process in Fort Lee
 
-Every smoke damage job starts with a structured assessment before any cleaning begins. Soot behaves differently depending on what burned — a grease fire in a kitchen leaves a wet, smearing residue that sets permanently if wiped incorrectly, while an electrical fire produces a dry, powdery smoke that travels farther but releases more easily from hard surfaces. Misidentifying the soot type is one of the most common reasons smoke odor returns weeks after a "completed" cleanup.
+Every smoke damage job starts with a structured assessment before any cleaning begins. Soot behaves differently depending on what burned, a grease fire in a kitchen leaves a wet, smearing residue that sets permanently if wiped incorrectly, while an electrical fire produces a dry, powdery smoke that travels farther but releases more easily from hard surfaces. Misidentifying the soot type is one of the most common reasons smoke odor returns weeks after a "completed" cleanup.
 
 Once we've categorized the damage, the process moves through these stages:
 
@@ -51,12 +51,12 @@ The Restoration Group operates out of Kenilworth, NJ, and our crews reach Fort L
 
 ## Fort Lee Insurance and HOA Coordination
 
-Smoke damage claims in Fort Lee's condominium buildings often involve multiple insurance policies simultaneously — the unit owner's HO-6 policy, the building's master policy, and sometimes a neighbor's policy if smoke migrated into adjacent units. We document affected areas with photo logs, moisture and air quality readings, and itemized scope reports formatted to meet the requirements of most major carriers.
+Smoke damage claims in Fort Lee's condominium buildings often involve multiple insurance policies simultaneously, the unit owner's HO-6 policy, the building's master policy, and sometimes a neighbor's policy if smoke migrated into adjacent units. We document affected areas with photo logs, moisture and air quality readings, and itemized scope reports formatted to meet the requirements of most major carriers.
 
 Fort Lee condominium associations frequently require advance notice and written scope approval before contractors begin work in common areas or shared mechanical spaces. We handle that communication directly, so you're not navigating building management paperwork while also dealing with the aftermath of a fire.
 
 ## Local Note
 
-In Fort Lee's older Coytesville and Palisade neighborhood homes, we've found that original horsehair plaster walls absorb smoke odor compounds into the substrate in a way that standard odor counteractants can't fully neutralize from the surface alone. On those jobs, we apply a shellac-based primer-sealer to the affected plaster before repainting — it locks in residual odor molecules rather than just masking them. Skipping that step is why some homeowners repaint after a fire and still smell smoke six months later. It's a small detail that makes a significant difference in the long-term result.
+In Fort Lee's older Coytesville and Palisade neighborhood homes, we've found that original horsehair plaster walls absorb smoke odor compounds into the substrate in a way that standard odor counteractants can't fully neutralize from the surface alone. On those jobs, we apply a shellac-based primer-sealer to the affected plaster before repainting, it locks in residual odor molecules rather than just masking them. Skipping that step is why some homeowners repaint after a fire and still smell smoke six months later. It's a small detail that makes a significant difference in the long-term result.
 
-If your Fort Lee home or building has smoke damage from any source — a kitchen fire, an electrical fault, or smoke that traveled from a neighboring unit — call The Restoration Group at (855) 650-7422. We'll assess the damage, walk you through the process, and coordinate with your insurance carrier from the first call forward.
+If your Fort Lee home or building has smoke damage from any source, a kitchen fire, an electrical fault, or smoke that traveled from a neighboring unit, call The Restoration Group at (855) 650-7422. We'll assess the damage, walk you through the process, and coordinate with your insurance carrier from the first call forward.

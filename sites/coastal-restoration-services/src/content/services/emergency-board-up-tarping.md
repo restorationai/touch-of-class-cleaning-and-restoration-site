@@ -17,41 +17,41 @@ service_slug: "emergency-board-up-tarping"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
-A broken window at 2 a.m., a roof torn open by a falling oak limb, a door frame blown out by a structure fire — the damage doesn't stop when the initial event does. Rain, wind, and opportunistic theft keep working on a compromised building until something physically closes the gap. Emergency board-up and tarping is that physical barrier: the difference between a single bad day and weeks of compounding losses while you wait for permanent repairs.
+A broken window at 2 a.m., a roof torn open by a falling oak limb, a door frame blown out by a structure fire, the damage doesn't stop when the initial event does. Rain, wind, and opportunistic theft keep working on a compromised building until something physically closes the gap. Emergency board-up and tarping is that physical barrier: the difference between a single bad day and weeks of compounding losses while you wait for permanent repairs.
 
 ## What emergency board-up and tarping actually involves
 
-Board-up and tarping is not hammering a sheet of plywood over a hole and calling it done. Done correctly, it is a systematic weatherproofing of every breach in a building's envelope — windows, doors, roof decking, soffits, and any wall penetrations created by fire, impact, or forced entry.
+Board-up and tarping is not hammering a sheet of plywood over a hole and calling it done. Done correctly, it is a systematic weatherproofing of every breach in a building's envelope, windows, doors, roof decking, soffits, and any wall penetrations created by fire, impact, or forced entry.
 
-For **broken window board-up**, crews cut plywood to fit the rough opening, fasten it with structural screws into the surrounding framing (not just the drywall), and seal the perimeter to block wind-driven rain. For **roof tarping**, heavy-duty polyethylene tarps rated for UV exposure are anchored with 2×4 battens screwed into undamaged decking — not simply weighted down — so they hold through the kind of coastal gusts common along the Santa Barbara County coast. For **fire damage board-up**, the process also accounts for structural instability: crews assess load-bearing elements before entering, and openings are sealed in a sequence that maintains ventilation where fire investigators may still need access.
+For **broken window board-up**, crews cut plywood to fit the rough opening, fasten it with structural screws into the surrounding framing (not just the drywall), and seal the perimeter to block wind-driven rain. For **roof tarping**, heavy-duty polyethylene tarps rated for UV exposure are anchored with 2×4 battens screwed into undamaged decking, not simply weighted down, so they hold through the kind of coastal gusts common along the Santa Barbara County coast. For **fire damage board-up**, the process also accounts for structural instability: crews assess load-bearing elements before entering, and openings are sealed in a sequence that maintains ventilation where fire investigators may still need access.
 
 A full response typically takes two to six hours depending on the number of openings and roof pitch. The goal is a structure that can sit securely for the days or weeks it takes to schedule permanent repairs.
 
 ## Our process
 
-1. **Site assessment and hazard identification.** Before a single sheet of plywood goes up, the crew walks the perimeter and interior (where safe) to catalog every breach, check for standing water or active gas odors, and flag any areas where the structure may be compromised. This step determines sequencing — some openings need to be addressed before others to prevent interior pressure differentials that can pull tarps loose.
+1. **Site assessment and hazard identification.** Before a single sheet of plywood goes up, the crew walks the perimeter and interior (where safe) to catalog every breach, check for standing water or active gas odors, and flag any areas where the structure may be compromised. This step determines sequencing, some openings need to be addressed before others to prevent interior pressure differentials that can pull tarps loose.
 
 2. **Measurement and material staging.** Openings are measured precisely. Plywood is cut on-site to fit; pre-cut stock rarely fits correctly and leaves gaps at corners that admit water and pests. Tarp size is calculated to overlap undamaged roofing by a minimum of two feet on every side, with extra material factored in for batten attachment.
 
-3. **Securing the structure.** Windows and doors are boarded from the outside using exterior-grade plywood fastened into structural members. Roof tarps are installed with 2×4 or 2×6 battens screwed through the tarp into solid decking — never stapled or taped. Where roof decking itself is missing, battens bridge to the nearest intact rafter.
+3. **Securing the structure.** Windows and doors are boarded from the outside using exterior-grade plywood fastened into structural members. Roof tarps are installed with 2×4 or 2×6 battens screwed through the tarp into solid decking, never stapled or taped. Where roof decking itself is missing, battens bridge to the nearest intact rafter.
 
-4. **Photographic documentation for insurance.** Every opening is photographed before and after boarding. Measurements, materials used, and fastener locations are recorded. This documentation package is handed directly to your insurance adjuster and becomes part of the claim file — it establishes the scope of the original damage before any permanent repairs alter the evidence.
+4. **Photographic documentation for insurance.** Every opening is photographed before and after boarding. Measurements, materials used, and fastener locations are recorded. This documentation package is handed directly to your insurance adjuster and becomes part of the claim file, it establishes the scope of the original damage before any permanent repairs alter the evidence.
 
 5. **Temporary access provisions.** Where occupants or investigators need re-entry, crews install hinged or removable panel sections rather than fully nailing off an opening. This avoids the property owner having to destroy the board-up to get back inside.
 
 ## What separates a good board-up response from a bad one
 
-The most common failure in emergency board-up is **inadequate fastening**. Tarps weighted down with sandbags or tied to vent pipes routinely fail in the first significant wind event — and a failed tarp during a rainstorm can cause more water intrusion than the original damage. Insurance adjusters frequently see secondary water claims that trace directly back to a tarp that wasn't properly battened.
+The most common failure in emergency board-up is **inadequate fastening**. Tarps weighted down with sandbags or tied to vent pipes routinely fail in the first significant wind event, and a failed tarp during a rainstorm can cause more water intrusion than the original damage. Insurance adjusters frequently see secondary water claims that trace directly back to a tarp that wasn't properly battened.
 
 The second common failure is **undersized plywood**. Half-inch OSB is not the same as ¾-inch exterior plywood when a board spans a large window opening or a garage door frame. Thinner stock deflects under wind load and can pop fasteners.
 
-For **fire damage board-up** specifically, less-experienced operators sometimes seal a structure too tightly before fire investigators have cleared it, creating access problems and potential spoliation-of-evidence issues. Coordinating with the fire marshal's office before fully closing a fire-damaged structure is standard practice — and something adjusters will ask about.
+For **fire damage board-up** specifically, less-experienced operators sometimes seal a structure too tightly before fire investigators have cleared it, creating access problems and potential spoliation-of-evidence issues. Coordinating with the fire marshal's office before fully closing a fire-damaged structure is standard practice, and something adjusters will ask about.
 
-Finally, documentation quality matters enormously at claim time. Adjusters need to see the pre-board-up condition of each opening, not just a photo of finished plywood. Crews who document after the fact — or not at all — leave homeowners in disputes over what damage existed before the board-up versus what happened afterward.
+Finally, documentation quality matters enormously at claim time. Adjusters need to see the pre-board-up condition of each opening, not just a photo of finished plywood. Crews who document after the fact, or not at all, leave homeowners in disputes over what damage existed before the board-up versus what happened afterward.
 
 ## What does emergency board-up and tarping cost?
 
-Typical costs for emergency board-up and tarping depend heavily on the number of openings, roof pitch, and whether the structure requires hazard assessment before entry. Most homeowners pay somewhere in the ranges below — these are industry-typical figures, not quotes from Coastal Restoration Services Inc.
+Typical costs for emergency board-up and tarping depend heavily on the number of openings, roof pitch, and whether the structure requires hazard assessment before entry. Most homeowners pay somewhere in the ranges below, these are industry-typical figures, not quotes from Coastal Restoration Services Inc.
 
 | Scenario | Typical range |
 |---|---|
@@ -62,13 +62,13 @@ Typical costs for emergency board-up and tarping depend heavily on the number of
 | Full fire damage board-up, single-family home | $1,500 – $4,500 |
 | Commercial or multi-story structure | $3,000 – $10,000+ |
 
-Every loss is different, and Coastal Restoration Services Inc provides a written scope before work begins so there are no surprises. Homeowners insurance typically covers emergency board-up and tarping as a "protective measures" or "mitigation" expense under the dwelling coverage portion of a standard HO-3 policy — your adjuster can confirm your specific sublimit.
+Every loss is different, and Coastal Restoration Services Inc provides a written scope before work begins so there are no surprises. Homeowners insurance typically covers emergency board-up and tarping as a "protective measures" or "mitigation" expense under the dwelling coverage portion of a standard HO-3 policy, your adjuster can confirm your specific sublimit.
 
 ## Seasonal and regional considerations
 
-Vandenberg Village and the broader Santa Barbara County coast sit in a climate that can shift quickly: dry offshore winds in fall and early winter (the same conditions that drive regional fire risk), followed by atmospheric river events that can drop several inches of rain in 24 hours. A structure left unboarded after a fire in October can be flooded by November. The window between an initial loss event and the first significant rainfall is often shorter here than homeowners expect — which is why getting a tarp on a damaged roof the same day matters.
+Vandenberg Village and the broader Santa Barbara County coast sit in a climate that can shift quickly: dry offshore winds in fall and early winter (the same conditions that drive regional fire risk), followed by atmospheric river events that can drop several inches of rain in 24 hours. A structure left unboarded after a fire in October can be flooded by November. The window between an initial loss event and the first significant rainfall is often shorter here than homeowners expect, which is why getting a tarp on a damaged roof the same day matters.
 
-The region's older housing stock — particularly ranch-style homes built in the 1960s and 1970s common throughout Vandenberg Village and Lompoc — often has lower roof pitches that pool water more readily under a poorly installed tarp. Batten-and-screw installation is especially important on low-slope roofs where water has nowhere to run if the tarp sags.
+The region's older housing stock, particularly ranch-style homes built in the 1960s and 1970s common throughout Vandenberg Village and Lompoc, often has lower roof pitches that pool water more readily under a poorly installed tarp. Batten-and-screw installation is especially important on low-slope roofs where water has nowhere to run if the tarp sags.
 
 ## Service area
 

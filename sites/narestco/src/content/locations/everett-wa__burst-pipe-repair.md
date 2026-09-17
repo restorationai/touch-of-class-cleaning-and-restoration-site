@@ -20,13 +20,13 @@ state: "WA"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
-A pipe burst doesn't wait for business hours, and the damage it causes doesn't slow down while you figure out who to call. If you're standing in a wet room right now — water spreading across hardwood, soaking into drywall, pooling under a subfloor you can't even see — the next few hours matter more than most homeowners realize. National Restoration Construction has been responding to pipe burst emergencies across the greater Seattle area since 2004, and our crews reach Everett properties typically within 60 to 90 minutes of your call.
+A pipe burst doesn't wait for business hours, and the damage it causes doesn't slow down while you figure out who to call. If you're standing in a wet room right now, water spreading across hardwood, soaking into drywall, pooling under a subfloor you can't even see, the next few hours matter more than most homeowners realize. National Restoration Construction has been responding to pipe burst emergencies across the greater Seattle area since 2004, and our crews reach Everett properties typically within 60 to 90 minutes of your call.
 
 ## Why Everett Properties Are Especially Vulnerable to Burst Pipes
 
-Everett's climate does a number on residential plumbing in ways that catch even long-time homeowners off guard. The city sits in a stretch of western Washington where overnight temperatures regularly dip below freezing from November through March — cold enough to freeze pipes in uninsulated crawl spaces, exterior walls, and garages, but not so consistently cold that many older homes were built with freeze protection in mind. Much of Everett's housing stock dates from the mid-20th century, when standard practice left supply lines in exterior walls with minimal insulation. A single night in the low 20s is enough to split copper or galvanized steel.
+Everett's climate does a number on residential plumbing in ways that catch even long-time homeowners off guard. The city sits in a stretch of western Washington where overnight temperatures regularly dip below freezing from November through March, cold enough to freeze pipes in uninsulated crawl spaces, exterior walls, and garages, but not so consistently cold that many older homes were built with freeze protection in mind. Much of Everett's housing stock dates from the mid-20th century, when standard practice left supply lines in exterior walls with minimal insulation. A single night in the low 20s is enough to split copper or galvanized steel.
 
-Beyond freezing, Everett's wet season — which runs roughly October through April — keeps soil saturated, raising hydrostatic pressure around foundation walls and aging underground water lines. Homes near the Snohomish River delta and the lower-lying neighborhoods around Lowell and Pinehurst see this most acutely. Water line breaks in those areas can go unnoticed for hours, especially when the ground is already waterlogged and the leak doesn't immediately surface indoors.
+Beyond freezing, Everett's wet season, which runs roughly October through April, keeps soil saturated, raising hydrostatic pressure around foundation walls and aging underground water lines. Homes near the Snohomish River delta and the lower-lying neighborhoods around Lowell and Pinehurst see this most acutely. Water line breaks in those areas can go unnoticed for hours, especially when the ground is already waterlogged and the leak doesn't immediately surface indoors.
 
 ## What Our Burst Pipe Cleanup and Repair Response Looks Like
 
@@ -34,22 +34,22 @@ When you reach us at (206) 883-0333, the first thing we do is ask three quick qu
 
 On arrival, the process follows a clear sequence:
 
-1. **Source control** — If the pipe hasn't been shut off yet, we isolate it. If the break is in a supply line inside the wall, we locate it with moisture meters and thermal imaging before opening anything up.
-2. **Standing water extraction** — Truck-mounted extractors pull hundreds of gallons per hour from hard surfaces and carpet. For water that has migrated under flooring, we use specialty floor mat systems that draw moisture up through the subfloor without requiring full demolition in every case.
-3. **Structural drying** — Industrial air movers and refrigerant dehumidifiers run in a calculated pattern based on the square footage and material types affected. We monitor moisture readings daily until materials reach target levels — typically 3 to 5 days for a contained loss, longer for a water line break that went undetected.
-4. **Controlled demolition when necessary** — Wet insulation, saturated drywall, and compromised subfloor sections don't dry — they become mold substrate. We remove what can't be saved and document everything for your insurance claim.
-5. **Repair and reconstruction** — As a licensed general contractor (WA L&I #NATIORC792M6), we handle the rebuild ourselves. You don't need to coordinate a separate contractor for framing, drywall, or finish work.
+1. **Source control**, If the pipe hasn't been shut off yet, we isolate it. If the break is in a supply line inside the wall, we locate it with moisture meters and thermal imaging before opening anything up.
+2. **Standing water extraction**, Truck-mounted extractors pull hundreds of gallons per hour from hard surfaces and carpet. For water that has migrated under flooring, we use specialty floor mat systems that draw moisture up through the subfloor without requiring full demolition in every case.
+3. **Structural drying**, Industrial air movers and refrigerant dehumidifiers run in a calculated pattern based on the square footage and material types affected. We monitor moisture readings daily until materials reach target levels, typically 3 to 5 days for a contained loss, longer for a water line break that went undetected.
+4. **Controlled demolition when necessary**, Wet insulation, saturated drywall, and compromised subfloor sections don't dry, they become mold substrate. We remove what can't be saved and document everything for your insurance claim.
+5. **Repair and reconstruction**, As a licensed general contractor (WA L&I #NATIORC792M6), we handle the rebuild ourselves. You don't need to coordinate a separate contractor for framing, drywall, or finish work.
 
 ## Handling the Insurance Side of a Pipe Burst Emergency
 
-Most standard homeowner policies in Washington cover sudden and accidental pipe burst damage — but the documentation you submit in the first 48 hours shapes how smoothly that claim moves. We work directly with adjusters and provide the moisture logs, photo documentation, and scope of loss reports that carriers require. We don't file the claim for you — that's your relationship with your insurer — but we make sure the paperwork reflects the actual scope of damage rather than a rushed visual estimate.
+Most standard homeowner policies in Washington cover sudden and accidental pipe burst damage, but the documentation you submit in the first 48 hours shapes how smoothly that claim moves. We work directly with adjusters and provide the moisture logs, photo documentation, and scope of loss reports that carriers require. We don't file the claim for you, that's your relationship with your insurer, but we make sure the paperwork reflects the actual scope of damage rather than a rushed visual estimate.
 
 One thing worth knowing: policies typically cover the water damage but not the cost of repairing the pipe itself. We'll be straightforward with you about what's likely covered before any work begins.
 
 ## Response Times Across Everett
 
-Our Federal Way headquarters puts us roughly 30 to 40 minutes from most of Everett under normal I-5 conditions. Factor in dispatch and loading time, and most Everett callers see a technician on-site within 60 to 90 minutes. For properties in south Everett — near Highway 99 or the Airport Road corridor — we're often closer to 45 minutes. North Everett, Mukilteo Boulevard, and the Silver Lake area may run toward the 90-minute end depending on traffic.
+Our Federal Way headquarters puts us roughly 30 to 40 minutes from most of Everett under normal I-5 conditions. Factor in dispatch and loading time, and most Everett callers see a technician on-site within 60 to 90 minutes. For properties in south Everett, near Highway 99 or the Airport Road corridor, we're often closer to 45 minutes. North Everett, Mukilteo Boulevard, and the Silver Lake area may run toward the 90-minute end depending on traffic.
 
-If you're reading this during a pipe burst emergency, the fastest thing you can do right now — before anything else — is shut off the main water supply and then reach us at **(206) 883-0333**. Every minute of active flow adds to the extraction time and the drying timeline. We'll talk you through what to do while the crew is en route.
+If you're reading this during a pipe burst emergency, the fastest thing you can do right now, before anything else, is shut off the main water supply and then reach us at **(206) 883-0333**. Every minute of active flow adds to the extraction time and the drying timeline. We'll talk you through what to do while the crew is en route.
 
 National Restoration Construction is IICRC Certified, EPA Certified, and a BBB Accredited Business. We've been handling water damage in western Washington for over 20 years, and we're ready to be on-site in Everett today.

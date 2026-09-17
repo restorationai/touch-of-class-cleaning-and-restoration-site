@@ -19,27 +19,27 @@ state: "NJ"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind the drywall of a Shackamaxon split-level or a finished basement in Willow Grove takes on water after a hard rain, The Restoration Group dispatches from Kenilworth around the clock — water extraction, structural drying, mold containment, fire and smoke cleanup, and full reconstruction, all handled by one crew so you are not juggling three separate contractors while your home is still wet.
+When a pipe bursts behind the drywall of a Shackamaxon split-level or a finished basement in Willow Grove takes on water after a hard rain, The Restoration Group dispatches from Kenilworth around the clock, water extraction, structural drying, mold containment, fire and smoke cleanup, and full reconstruction, all handled by one crew so you are not juggling three separate contractors while your home is still wet.
 
 ## Restoration emergencies common in Scotch Plains
 
-Scotch Plains sits in a part of Union County where the geology and the housing stock conspire to produce predictable, recurring losses. The Green Brook and Cedar Brook trace the township's southern edge, and anyone who lived here during Hurricane Ida in 2021 knows what happens when those channels overtop — low-lying streets near the Fanwood border and the Plainfield line flooded fast, and some basements took on several feet before the water crested. That pattern is not a once-in-a-generation event; it repeats with any sustained nor'easter or tropical remnant that stalls over the region.
+Scotch Plains sits in a part of Union County where the geology and the housing stock conspire to produce predictable, recurring losses. The Green Brook and Cedar Brook trace the township's southern edge, and anyone who lived here during Hurricane Ida in 2021 knows what happens when those channels overtop, low-lying streets near the Fanwood border and the Plainfield line flooded fast, and some basements took on several feet before the water crested. That pattern is not a once-in-a-generation event; it repeats with any sustained nor'easter or tropical remnant that stalls over the region.
 
-The housing stock amplifies the risk. Most of 07076 was built between 1950 and 1970 — split-levels, ranches, and colonials with finished basements that sit directly over aging cast-iron floor drains and original galvanized or early copper supply lines. Those materials have a service life, and they are past it. A pinhole leak behind a laundry room wall can saturate insulation and framing for weeks before anyone notices the smell. Older homes near Downtown Scotch Plains and along the Frazee House corridor add a second layer: original plaster walls, balloon-frame construction, and knob-and-tube remnants that change how fire and smoke travel through a structure and how drying equipment needs to be positioned. The Park Avenue business district and the Route 22 commercial corridor bring their own loss profile — flat and low-slope roofs that pond water, sprinkler-discharge events from aging suppression systems, and pipe breaks in unheated mechanical rooms during cold snaps.
+The housing stock amplifies the risk. Most of 07076 was built between 1950 and 1970, split-levels, ranches, and colonials with finished basements that sit directly over aging cast-iron floor drains and original galvanized or early copper supply lines. Those materials have a service life, and they are past it. A pinhole leak behind a laundry room wall can saturate insulation and framing for weeks before anyone notices the smell. Older homes near Downtown Scotch Plains and along the Frazee House corridor add a second layer: original plaster walls, balloon-frame construction, and knob-and-tube remnants that change how fire and smoke travel through a structure and how drying equipment needs to be positioned. The Park Avenue business district and the Route 22 commercial corridor bring their own loss profile, flat and low-slope roofs that pond water, sprinkler-discharge events from aging suppression systems, and pipe breaks in unheated mechanical rooms during cold snaps.
 
 ## Services we provide in Scotch Plains
 
 ### Water damage restoration
 
-Water damage in Scotch Plains often starts in the basement. The finished lower levels common in Ashbrook and Southside neighborhoods trap moisture under LVP flooring and behind finished walls, where it is invisible until the odor or the buckle gives it away. We extract standing water, remove saturated materials where necessary, and run calibrated drying systems until moisture readings in the framing and subfloor match pre-loss levels — not just until the surface feels dry.
+Water damage in Scotch Plains often starts in the basement. The finished lower levels common in Ashbrook and Southside neighborhoods trap moisture under LVP flooring and behind finished walls, where it is invisible until the odor or the buckle gives it away. We extract standing water, remove saturated materials where necessary, and run calibrated drying systems until moisture readings in the framing and subfloor match pre-loss levels, not just until the surface feels dry.
 
 ### Mold remediation
 
-The combination of high summer humidity, older building envelopes, and chronic minor flooding means mold colonization is a real follow-on risk in Scotch Plains homes, particularly in crawl spaces and the rim-joist areas of mid-century construction. Remediation work here follows EPA guidelines and addresses the moisture source first — containment and cleaning without fixing the underlying water intrusion is a short-term answer.
+The combination of high summer humidity, older building envelopes, and chronic minor flooding means mold colonization is a real follow-on risk in Scotch Plains homes, particularly in crawl spaces and the rim-joist areas of mid-century construction. Remediation work here follows EPA guidelines and addresses the moisture source first, containment and cleaning without fixing the underlying water intrusion is a short-term answer.
 
 ### Fire and smoke damage restoration
 
-Fire losses in older Scotch Plains homes — especially the colonials near the Scotch Hills Country Club area — tend to involve heavy smoke migration through open wall cavities and HVAC ductwork. Smoke residue is acidic and continues to damage surfaces after the fire is out. We begin odor neutralization and content evaluation quickly to limit secondary losses.
+Fire losses in older Scotch Plains homes, especially the colonials near the Scotch Hills Country Club area, tend to involve heavy smoke migration through open wall cavities and HVAC ductwork. Smoke residue is acidic and continues to damage surfaces after the fire is out. We begin odor neutralization and content evaluation quickly to limit secondary losses.
 
 ### Commercial restoration
 
@@ -47,11 +47,11 @@ Property managers overseeing retail and office space along the Park Avenue busin
 
 ### Reconstruction
 
-Once mitigation is complete, the same crew handles structural repairs — drywall, framing, flooring, and finish work — so the job reaches a single completion point rather than sitting in limbo between a restoration contractor and a general contractor.
+Once mitigation is complete, the same crew handles structural repairs, drywall, framing, flooring, and finish work, so the job reaches a single completion point rather than sitting in limbo between a restoration contractor and a general contractor.
 
 ## Coverage and how fast we can get there
 
-The Restoration Group's Kenilworth headquarters is roughly four miles from central Scotch Plains via Route 28 or North Avenue — a straightforward run under most traffic conditions. Shackamaxon and the neighborhoods near Shackamaxon Country Club are reachable in minutes from that corridor. Willow Grove and the Southside, which sit closer to the Green Brook flood zone, are a short additional distance south. Because we operate 24/7, a call at 2 a.m. after a sump pump failure gets the same response as a midday call — a crew is dispatched, not a voicemail.
+The Restoration Group's Kenilworth headquarters is roughly four miles from central Scotch Plains via Route 28 or North Avenue, a straightforward run under most traffic conditions. Shackamaxon and the neighborhoods near Shackamaxon Country Club are reachable in minutes from that corridor. Willow Grove and the Southside, which sit closer to the Green Brook flood zone, are a short additional distance south. Because we operate 24/7, a call at 2 a.m. after a sump pump failure gets the same response as a midday call, a crew is dispatched, not a voicemail.
 
 ## Building stock, site conditions, and permits in Scotch Plains
 
@@ -59,4 +59,4 @@ Foundations here are mostly poured concrete or hollow block, and the mid-century
 
 Plan for era hazards: 9x9 floor tile and mastic, pipe wrap, and pre-1978 lead paint all need testing before demolition. Structural, electrical, and plumbing repairs are permitted through the township construction office under the New Jersey Uniform Construction Code.
 
-If you are dealing with a water, fire, mold, or storm loss anywhere in Scotch Plains — ZIP code 07076, Downtown Scotch Plains, Ashbrook, or anywhere along the Fanwood border — call The Restoration Group at **(855) 650-7422**. We answer every hour of every day, and we can walk you through what to do right now while a crew is on the way.
+If you are dealing with a water, fire, mold, or storm loss anywhere in Scotch Plains, ZIP code 07076, Downtown Scotch Plains, Ashbrook, or anywhere along the Fanwood border, call The Restoration Group at **(855) 650-7422**. We answer every hour of every day, and we can walk you through what to do right now while a crew is on the way.

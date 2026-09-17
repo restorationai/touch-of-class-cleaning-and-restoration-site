@@ -23,13 +23,13 @@ When a pipe bursts behind a wall in Downtown Rock Valley or the Rock River backs
 
 ## Restoration emergencies common in Rock Valley
 
-Rock Valley sits in the northwest corner of Iowa where the climate swings hard — frozen pipes are a winter fixture, and spring snowmelt pushes the Rock River higher than many newer residents expect. The housing stock in and around Downtown Rock Valley skews older, which means cast-iron drain lines, knob-and-wiring that complicates fire restoration scopes, and crawl spaces that were never designed with today's moisture loads in mind. The water table in low-lying areas near the Rock River can rise quickly after heavy rain, turning a slow seep into a flooded utility room within hours. Summer storms roll through the Sioux Falls–to–Sioux City corridor with little warning, and Rock Valley's position on the open prairie means wind-driven rain finds every gap in aging siding and rooflines. These aren't abstract risks — they're the calls we take regularly from this part of Sioux County.
+Rock Valley sits in the northwest corner of Iowa where the climate swings hard, frozen pipes are a winter fixture, and spring snowmelt pushes the Rock River higher than many newer residents expect. The housing stock in and around Downtown Rock Valley skews older, which means cast-iron drain lines, knob-and-wiring that complicates fire restoration scopes, and crawl spaces that were never designed with today's moisture loads in mind. The water table in low-lying areas near the Rock River can rise quickly after heavy rain, turning a slow seep into a flooded utility room within hours. Summer storms roll through the Sioux Falls–to–Sioux City corridor with little warning, and Rock Valley's position on the open prairie means wind-driven rain finds every gap in aging siding and rooflines. These aren't abstract risks, they're the calls we take regularly from this part of Sioux County.
 
 ## Services we provide in Rock Valley
 
 ### Water damage restoration
 
-Water damage in Rock Valley often starts with one of two patterns: a plumbing failure inside an older home, or ground water intrusion tied to Rock River flooding affecting low-lying properties near the river corridor. Either way, standing water under flooring needs to come out within the first 24 to 48 hours before secondary damage — warped subfloors, saturated insulation, early mold colonization — compounds the repair scope. We use truck-mounted extraction, commercial-grade desiccant and refrigerant dehumidifiers, and moisture mapping to dry structures to documented standards before any rebuild begins.
+Water damage in Rock Valley often starts with one of two patterns: a plumbing failure inside an older home, or ground water intrusion tied to Rock River flooding affecting low-lying properties near the river corridor. Either way, standing water under flooring needs to come out within the first 24 to 48 hours before secondary damage, warped subfloors, saturated insulation, early mold colonization, compounds the repair scope. We use truck-mounted extraction, commercial-grade desiccant and refrigerant dehumidifiers, and moisture mapping to dry structures to documented standards before any rebuild begins.
 
 ### Mold remediation
 
@@ -37,23 +37,23 @@ Mold can begin colonizing damp material in as little as 24 to 72 hours after a m
 
 ### Fire and smoke damage restoration
 
-Smoke residue doesn't stay where the fire was — it migrates through HVAC systems, settles into insulation, and leaves an odor that resurfaces months later if the cleanup stops at the visible char. In older homes common to Downtown Rock Valley, that means tracing smoke damage through original ductwork and plaster walls before any cosmetic repairs begin. We handle board-up and tarping to secure the structure, full contents cleaning, odor neutralization, and reconstruction.
+Smoke residue doesn't stay where the fire was, it migrates through HVAC systems, settles into insulation, and leaves an odor that resurfaces months later if the cleanup stops at the visible char. In older homes common to Downtown Rock Valley, that means tracing smoke damage through original ductwork and plaster walls before any cosmetic repairs begin. We handle board-up and tarping to secure the structure, full contents cleaning, odor neutralization, and reconstruction.
 
 ### Biohazard and specialty cleanup
 
-Some situations — sewage backups, unattended events, trauma scenes — require cleanup that goes beyond standard restoration protocols. We follow established safety and disposal procedures and work discreetly, which matters in a smaller community like Rock Valley.
+Some situations, sewage backups, unattended events, trauma scenes, require cleanup that goes beyond standard restoration protocols. We follow established safety and disposal procedures and work discreetly, which matters in a smaller community like Rock Valley.
 
 ### Reconstruction
 
-Once mitigation is complete, a separate contractor handoff creates delays and gaps in accountability. Crew Restoration & Construction carries the project through rebuild — framing, drywall, flooring, cabinetry, painting — so property owners in Rock Valley deal with one point of contact from the first call to the final walkthrough.
+Once mitigation is complete, a separate contractor handoff creates delays and gaps in accountability. Crew Restoration & Construction carries the project through rebuild, framing, drywall, flooring, cabinetry, painting, so property owners in Rock Valley deal with one point of contact from the first call to the final walkthrough.
 
 ## Coverage and how fast we can get there
 
-Crew Restoration & Construction is headquartered in Sioux Falls, SD. Rock Valley sits roughly 75 miles southeast via I-90 East and US-75 South — a straightforward drive through Lyon and Sioux County. We serve all of Rock Valley's ZIP code 51247, including properties in the Downtown Rock Valley core, the Rock River area, and neighborhoods near Rock Valley City Park and Hospers Park. Scheduling is handled through our main line at (605) 965-2727. We'll give you a clear arrival window when you call so you're not waiting without information.
+Crew Restoration & Construction is headquartered in Sioux Falls, SD. Rock Valley sits roughly 75 miles southeast via I-90 East and US-75 South, a straightforward drive through Lyon and Sioux County. We serve all of Rock Valley's ZIP code 51247, including properties in the Downtown Rock Valley core, the Rock River area, and neighborhoods near Rock Valley City Park and Hospers Park. Scheduling is handled through our main line at (605) 965-2727. We'll give you a clear arrival window when you call so you're not waiting without information.
 
 ## Building stock, site conditions, and permits in Rock Valley
 
-Rock Valley's older core holds pre-war houses with plaster over wood lath, dimensional-lumber framing, and full basements — the standard in this part of Iowa, where footings have to sit below a deep frost line. Newer subdivisions on the edges of town use poured walls, batt insulation, and PEX supply. In the older stock, galvanized steel supply lines pinhole and plaster holds water long after drywall would have dried, so we drill and cavity-dry rather than gut. Pre-1978 paint and asbestos-bearing floor tile or pipe wrap also shape a demolition scope.
+Rock Valley's older core holds pre-war houses with plaster over wood lath, dimensional-lumber framing, and full basements, the standard in this part of Iowa, where footings have to sit below a deep frost line. Newer subdivisions on the edges of town use poured walls, batt insulation, and PEX supply. In the older stock, galvanized steel supply lines pinhole and plaster holds water long after drywall would have dried, so we drill and cavity-dry rather than gut. Pre-1978 paint and asbestos-bearing floor tile or pipe wrap also shape a demolition scope.
 
 Soils along the Rock River are alluvial sand and gravel over glacial till, which drains fast but also lets groundwater reach basement walls quickly. Building permits for structural repair and rebuild go through the City of Rock Valley, and work in the mapped floodplain carries added review.
 

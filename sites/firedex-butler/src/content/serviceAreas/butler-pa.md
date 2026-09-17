@@ -19,21 +19,21 @@ state: "PA"
 primary: false
 rendered: true
 ---
-FireDEX Butler has been responding to water, fire, mold, and biohazard losses across Butler city and county since 1981. When a pipe lets go in a Lyndora foursquare at 2 a.m. or a kitchen fire chars the cabinetry of a Downtown Butler row house, our crew leaves Cranberry Township and heads up Route 228 or I-79 North to get there — not a call center dispatching a stranger from three counties away. We handle the mitigation, the drying, the rebuild, and the insurance paperwork so the property owner deals with one company from first call to final walkthrough.
+FireDEX Butler has been responding to water, fire, mold, and biohazard losses across Butler city and county since 1981. When a pipe lets go in a Lyndora foursquare at 2 a.m. or a kitchen fire chars the cabinetry of a Downtown Butler row house, our crew leaves Cranberry Township and heads up Route 228 or I-79 North to get there, not a call center dispatching a stranger from three counties away. We handle the mitigation, the drying, the rebuild, and the insurance paperwork so the property owner deals with one company from first call to final walkthrough.
 
 ## Restoration emergencies common in Butler
 
-Butler's housing stock is the single biggest driver of its restoration claim volume. Most of the city's residential neighborhoods — Institute Hill, Lyndora, East Butler — were built before 1950, which means original cast-iron drain stacks, galvanized supply lines that have been corroding for seven decades, and fuse-panel electrical systems that were never designed for modern loads. Galvanized pipe doesn't burst cleanly; it weeps, then fails in sections, and the water travels inside wall cavities for weeks before a stain appears on the plaster. That slow migration is exactly the condition that allows mold to colonize within 24 to 48 hours of saturation.
+Butler's housing stock is the single biggest driver of its restoration claim volume. Most of the city's residential neighborhoods, Institute Hill, Lyndora, East Butler, were built before 1950, which means original cast-iron drain stacks, galvanized supply lines that have been corroding for seven decades, and fuse-panel electrical systems that were never designed for modern loads. Galvanized pipe doesn't burst cleanly; it weeps, then fails in sections, and the water travels inside wall cavities for weeks before a stain appears on the plaster. That slow migration is exactly the condition that allows mold to colonize within 24 to 48 hours of saturation.
 
-Connoquenessing Creek and its tributary runs add a second layer of risk. In a heavy rain event — the kind Western PA gets in March and again in late summer — low-lying streets near the creek corridor back up with stormwater and, frequently, combined sewer overflow. That's a category 3 contaminated-water loss, not a standard wet-carpet job, and it requires a different protocol than a supply-line break.
+Connoquenessing Creek and its tributary runs add a second layer of risk. In a heavy rain event, the kind Western PA gets in March and again in late summer, low-lying streets near the creek corridor back up with stormwater and, frequently, combined sewer overflow. That's a category 3 contaminated-water loss, not a standard wet-carpet job, and it requires a different protocol than a supply-line break.
 
-Downtown Butler's older commercial blocks along the Main Street business district, and the institutional corridor around Butler Memorial Hospital, generate their own pattern: commercial water losses from aging HVAC condensate lines and sprinkler-system failures, and periodic fire losses in buildings where the original construction predates modern fire-stop requirements. Steep hillside streets in the 16001 and 16002 ZIP codes can complicate winter access, which is one reason local knowledge matters — our crews have driven those grades in ice.
+Downtown Butler's older commercial blocks along the Main Street business district, and the institutional corridor around Butler Memorial Hospital, generate their own pattern: commercial water losses from aging HVAC condensate lines and sprinkler-system failures, and periodic fire losses in buildings where the original construction predates modern fire-stop requirements. Steep hillside streets in the 16001 and 16002 ZIP codes can complicate winter access, which is one reason local knowledge matters, our crews have driven those grades in ice.
 
 ## Services we provide in Butler
 
 ### Water damage restoration
 
-Water damage in Butler most often starts with a failed galvanized supply line, a sewage backup through a floor drain, or a Connoquenessing-area flood event. We extract standing water, remove saturated materials where necessary, and dry structural assemblies using calibrated drying equipment tracked against the IICRC S500 standard. Category 3 losses — sewage, floodwater — require full containment and antimicrobial treatment before any rebuild begins.
+Water damage in Butler most often starts with a failed galvanized supply line, a sewage backup through a floor drain, or a Connoquenessing-area flood event. We extract standing water, remove saturated materials where necessary, and dry structural assemblies using calibrated drying equipment tracked against the IICRC S500 standard. Category 3 losses, sewage, floodwater, require full containment and antimicrobial treatment before any rebuild begins.
 
 ### Fire and smoke damage restoration
 
@@ -41,7 +41,7 @@ Older frame homes on Institute Hill and in East Butler burn differently than new
 
 ### Mold remediation
 
-Butler's combination of aging plaster walls, slow galvanized-pipe leaks, and humid Western PA summers creates favorable conditions for mold growth inside wall cavities. We identify the moisture source first — because remediation without fixing the source is temporary — then contain, remove, and treat affected materials following established remediation protocols.
+Butler's combination of aging plaster walls, slow galvanized-pipe leaks, and humid Western PA summers creates favorable conditions for mold growth inside wall cavities. We identify the moisture source first, because remediation without fixing the source is temporary, then contain, remove, and treat affected materials following established remediation protocols.
 
 ### Commercial restoration
 
@@ -49,7 +49,7 @@ Property managers and building owners in the Main Street business district and t
 
 ## Coverage and how fast we can get there
 
-FireDEX Butler's headquarters sits in Cranberry Township, roughly 12 miles south of the Butler County Courthouse. The standard route is I-79 North to Route 228 or PA-8 into the city — a straightforward run under normal conditions. Butler Township and Oakland Township fringe properties to the east and northeast add a few miles but remain well within our regular service area. We operate 24/7, so a call at midnight gets the same crew response as a call at noon. We don't publish a minute guarantee here because road conditions in Butler County — particularly on hillside streets in the 16001 and 16003 ZIP codes in winter — vary too much for an honest fixed number. What we can say is that we're closer than any Pittsburgh-based firm, and we're moving as soon as the phone rings.
+FireDEX Butler's headquarters sits in Cranberry Township, roughly 12 miles south of the Butler County Courthouse. The standard route is I-79 North to Route 228 or PA-8 into the city, a straightforward run under normal conditions. Butler Township and Oakland Township fringe properties to the east and northeast add a few miles but remain well within our regular service area. We operate 24/7, so a call at midnight gets the same crew response as a call at noon. We don't publish a minute guarantee here because road conditions in Butler County, particularly on hillside streets in the 16001 and 16003 ZIP codes in winter, vary too much for an honest fixed number. What we can say is that we're closer than any Pittsburgh-based firm, and we're moving as soon as the phone rings.
 
 ## Building stock, site conditions, and permits in Butler
 
@@ -57,6 +57,6 @@ Almost every pre-1950 house here sits on a full basement with stone or brick fou
 
 Era hazards drive the scope more than the water does. Coal-era boiler conversions often left asbestos pipe insulation in basements, plaster keys hide knob-and-tube, and anything painted before 1978 should be treated as lead until tested.
 
-Permits come from the municipality — the City of Butler inside city limits, Butler Township outside them — under Pennsylvania's Uniform Construction Code. Structural framing, electrical, and mechanical replacement typically trigger one; drying alone does not.
+Permits come from the municipality, the City of Butler inside city limits, Butler Township outside them, under Pennsylvania's Uniform Construction Code. Structural framing, electrical, and mechanical replacement typically trigger one; drying alone does not.
 
-If you're dealing with a loss in Butler right now — or want to talk through a situation before it becomes an emergency — call (724) 452-7400. We've been handling Western PA restoration work since 1981, and Butler is home territory.
+If you're dealing with a loss in Butler right now, or want to talk through a situation before it becomes an emergency, call (724) 452-7400. We've been handling Western PA restoration work since 1981, and Butler is home territory.

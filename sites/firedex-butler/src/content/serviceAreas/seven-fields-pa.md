@@ -19,15 +19,15 @@ state: "PA"
 primary: false
 rendered: true
 ---
-When water pours through a kitchen ceiling in Castlebrook or smoke from a garage fire settles into a Wakefield Estates townhome, FireDEX Butler is the crew that shows up — not a call center that dispatches a subcontractor. Operating out of Cranberry Township since 1981, we handle water damage, fire and smoke damage, mold remediation, and full reconstruction for homeowners and property managers throughout Seven Fields Borough and the surrounding 16046 ZIP code. Calls come in around the clock, and we respond around the clock.
+When water pours through a kitchen ceiling in Castlebrook or smoke from a garage fire settles into a Wakefield Estates townhome, FireDEX Butler is the crew that shows up, not a call center that dispatches a subcontractor. Operating out of Cranberry Township since 1981, we handle water damage, fire and smoke damage, mold remediation, and full reconstruction for homeowners and property managers throughout Seven Fields Borough and the surrounding 16046 ZIP code. Calls come in around the clock, and we respond around the clock.
 
 ## Restoration emergencies common in Seven Fields
 
-Seven Fields is one of Pennsylvania's youngest boroughs — a master-planned community built almost entirely from the late 1980s onward. That means the housing stock is relatively uniform: two-story colonials, townhomes, and patio homes with finished basements, second-floor laundry closets, and appliance packages that are now 25 to 35 years old.
+Seven Fields is one of Pennsylvania's youngest boroughs, a master-planned community built almost entirely from the late 1980s onward. That means the housing stock is relatively uniform: two-story colonials, townhomes, and patio homes with finished basements, second-floor laundry closets, and appliance packages that are now 25 to 35 years old.
 
-That age bracket is exactly when washing-machine supply hoses crack, water heater tanks corrode through, dishwasher drain lines work loose, and refrigerator ice-maker lines fail behind the unit. A second-floor laundry failure doesn't just wet a subfloor — it travels through the ceiling into the kitchen below before anyone notices. In the townhome and patio-home clusters near Brandywine Park and along the Route 228 corridor, a single appliance failure can push water through a shared wall into a neighbor's unit within hours.
+That age bracket is exactly when washing-machine supply hoses crack, water heater tanks corrode through, dishwasher drain lines work loose, and refrigerator ice-maker lines fail behind the unit. A second-floor laundry failure doesn't just wet a subfloor, it travels through the ceiling into the kitchen below before anyone notices. In the townhome and patio-home clusters near Brandywine Park and along the Route 228 corridor, a single appliance failure can push water through a shared wall into a neighbor's unit within hours.
 
-The regional climate adds pressure. Butler County's freeze-thaw cycles stress supply lines and exterior hose bibs every winter. Finished basements — standard in nearly every Seven Fields floor plan — sit directly in the path of any first-floor leak and can absorb thousands of dollars in flooring and drywall damage before the source is even identified.
+The regional climate adds pressure. Butler County's freeze-thaw cycles stress supply lines and exterior hose bibs every winter. Finished basements, standard in nearly every Seven Fields floor plan, sit directly in the path of any first-floor leak and can absorb thousands of dollars in flooring and drywall damage before the source is even identified.
 
 ## Services we provide in Seven Fields
 
@@ -37,11 +37,11 @@ Water damage in Seven Fields most often starts at an appliance or plumbing fixtu
 
 ### Fire and smoke damage restoration
 
-Garage fires, kitchen fires, and electrical fires in the two-story plans common throughout Seven Fields Borough push smoke into HVAC systems and attic spaces fast. Smoke residue has a distinctive acrid odor that embeds in insulation, ductwork, and soft goods — and it doesn't go away with ventilation alone. We clean structural surfaces, treat ductwork, and rebuild damaged areas to pre-loss condition.
+Garage fires, kitchen fires, and electrical fires in the two-story plans common throughout Seven Fields Borough push smoke into HVAC systems and attic spaces fast. Smoke residue has a distinctive acrid odor that embeds in insulation, ductwork, and soft goods, and it doesn't go away with ventilation alone. We clean structural surfaces, treat ductwork, and rebuild damaged areas to pre-loss condition.
 
 ### Mold remediation
 
-A slow appliance leak behind a dishwasher or under a refrigerator can colonize drywall with mold in as little as 48 to 72 hours. In finished basements — where moisture often goes unnoticed for weeks — mold can spread across a large area before it's visible. We contain affected areas, remove compromised materials, and treat surfaces to industry protocols.
+A slow appliance leak behind a dishwasher or under a refrigerator can colonize drywall with mold in as little as 48 to 72 hours. In finished basements, where moisture often goes unnoticed for weeks, mold can spread across a large area before it's visible. We contain affected areas, remove compromised materials, and treat surfaces to industry protocols.
 
 ### Reconstruction
 
@@ -49,11 +49,11 @@ Mitigation is only half the job. After drying or remediation is complete, we han
 
 ## Coverage and how fast we can get there
 
-FireDEX Butler's shop is in Cranberry Township, which shares a border with Seven Fields to the south. Seven Fields Borough, Wakefield Estates, Castlebrook, and Brandywine are all reachable in a short drive — typically via Route 228 or the local connector roads that run between the Cranberry Township border and the Seven Fields Community Center. There is no long highway run, no county-line delay. Because we operate 24/7, a call at 2 a.m. about a burst washing-machine hose gets the same response as a call at noon.
+FireDEX Butler's shop is in Cranberry Township, which shares a border with Seven Fields to the south. Seven Fields Borough, Wakefield Estates, Castlebrook, and Brandywine are all reachable in a short drive, typically via Route 228 or the local connector roads that run between the Cranberry Township border and the Seven Fields Community Center. There is no long highway run, no county-line delay. Because we operate 24/7, a call at 2 a.m. about a burst washing-machine hose gets the same response as a call at noon.
 
 ## Building stock, site conditions, and permits in Seven Fields
 
-Because nearly everything here went up after the late 1980s, the hazards that complicate older Butler County rebuilds — asbestos floor tile and pipe wrap, lead paint, knob-and-tube wiring — are largely absent. Instead you get copper or PEX supply lines, PVC drains, OSB sheathing, and engineered floor trusses. Those trusses and the lightweight subfloors over them wick water fast and are unforgiving if dried slowly.
+Because nearly everything here went up after the late 1980s, the hazards that complicate older Butler County rebuilds, asbestos floor tile and pipe wrap, lead paint, knob-and-tube wiring, are largely absent. Instead you get copper or PEX supply lines, PVC drains, OSB sheathing, and engineered floor trusses. Those trusses and the lightweight subfloors over them wick water fast and are unforgiving if dried slowly.
 
 Much of the borough was graded from rolling farmland, so basements sit in cut-and-fill ground with clay-rich subsoil that holds water against poured foundation walls. Footings are set below western Pennsylvania's frost depth, but perimeter seepage still shows up in finished lower levels.
 

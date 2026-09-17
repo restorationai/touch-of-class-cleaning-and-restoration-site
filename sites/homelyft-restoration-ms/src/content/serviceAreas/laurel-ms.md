@@ -23,15 +23,15 @@ When a pipe bursts behind a wall or a storm pushes water under your back door, t
 
 ## Restoration emergencies common in Laurel
 
-Laurel sits in the Pine Belt region of south-central Mississippi, where the combination of high annual rainfall, clay-heavy soils, and aging housing stock creates a predictable set of restoration problems. Summer humidity regularly pushes into the 90-percent range, which means that any moisture intrusion — a slow roof leak, a sweating crawl space, a dishwasher supply line that drips for weeks unnoticed — can produce visible mold colonization in as little as 24 to 48 hours. The city's older neighborhoods contain a significant share of homes built before 1980, many with pier-and-beam foundations that leave crawl spaces vulnerable to ground moisture and standing water after heavy rain events.
+Laurel sits in the Pine Belt region of south-central Mississippi, where the combination of high annual rainfall, clay-heavy soils, and aging housing stock creates a predictable set of restoration problems. Summer humidity regularly pushes into the 90-percent range, which means that any moisture intrusion, a slow roof leak, a sweating crawl space, a dishwasher supply line that drips for weeks unnoticed, can produce visible mold colonization in as little as 24 to 48 hours. The city's older neighborhoods contain a significant share of homes built before 1980, many with pier-and-beam foundations that leave crawl spaces vulnerable to ground moisture and standing water after heavy rain events.
 
-Thunderstorm activity peaks in spring and again in late fall, and Laurel's position inland doesn't insulate it from tropical moisture that tracks up from the Gulf. That moisture feeds roof damage, attic condensation, and basement or crawl-space flooding. Jones County also sees its share of residential structure fires driven by older electrical panels and wood-burning heating equipment that hasn't been serviced in years. Smoke and soot from those fires behave differently in older plaster-and-lathe construction than in modern drywall — they penetrate deeper and require more aggressive cleaning protocols.
+Thunderstorm activity peaks in spring and again in late fall, and Laurel's position inland doesn't insulate it from tropical moisture that tracks up from the Gulf. That moisture feeds roof damage, attic condensation, and basement or crawl-space flooding. Jones County also sees its share of residential structure fires driven by older electrical panels and wood-burning heating equipment that hasn't been serviced in years. Smoke and soot from those fires behave differently in older plaster-and-lathe construction than in modern drywall, they penetrate deeper and require more aggressive cleaning protocols.
 
 ## Services we provide in Laurel
 
 ### Water damage restoration
 
-Water damage in Laurel often starts in the crawl space or at the roofline and works its way inward before a homeowner notices. Standing water under pier-and-beam flooring warps hardwood from below, and by the time the floor feels soft underfoot, the floor joists may already be compromised. HomeLyft uses industrial moisture meters and thermal imaging to locate hidden saturation, then deploys commercial-grade drying equipment — dehumidifiers, air movers, desiccant systems — to bring structural materials back to acceptable moisture levels before any rebuild begins.
+Water damage in Laurel often starts in the crawl space or at the roofline and works its way inward before a homeowner notices. Standing water under pier-and-beam flooring warps hardwood from below, and by the time the floor feels soft underfoot, the floor joists may already be compromised. HomeLyft uses industrial moisture meters and thermal imaging to locate hidden saturation, then deploys commercial-grade drying equipment, dehumidifiers, air movers, desiccant systems, to bring structural materials back to acceptable moisture levels before any rebuild begins.
 
 ### Fire and smoke damage restoration
 
@@ -39,19 +39,19 @@ After a fire, the visible char is often the least complicated part of the job. S
 
 ### Mold remediation
 
-Given Laurel's climate, mold remediation is one of the most common calls we receive. A slow leak behind a bathroom wall or a crawl space that floods seasonally is enough to establish a colony that spreads into framing lumber and insulation. Remediation involves containing the affected area, removing compromised materials, treating structural surfaces, and addressing the moisture source — because remediation without fixing the underlying water problem is a temporary fix at best.
+Given Laurel's climate, mold remediation is one of the most common calls we receive. A slow leak behind a bathroom wall or a crawl space that floods seasonally is enough to establish a colony that spreads into framing lumber and insulation. Remediation involves containing the affected area, removing compromised materials, treating structural surfaces, and addressing the moisture source, because remediation without fixing the underlying water problem is a temporary fix at best.
 
 ### Reconstruction
 
-Once mitigation is complete, many property owners need a single contractor to handle the rebuild rather than coordinating a separate GC. HomeLyft handles reconstruction from drywall and insulation replacement through flooring, cabinetry, and paint — keeping the project under one insurance estimate and one point of contact.
+Once mitigation is complete, many property owners need a single contractor to handle the rebuild rather than coordinating a separate GC. HomeLyft handles reconstruction from drywall and insulation replacement through flooring, cabinetry, and paint, keeping the project under one insurance estimate and one point of contact.
 
 ## Coverage and how fast we can get there
 
-HomeLyft Restoration MS is headquartered in Gulfport, roughly 90 miles south of Laurel via US-49 North. That route runs directly into Jones County and puts our crews on the ground in Laurel with straightforward logistics — no interstate transfers or complicated routing. For scheduling, call us at (228) 284-5200 and we'll confirm availability and an estimated arrival window based on current crew deployment. We serve all of Laurel's residential and commercial corridors, from the established neighborhoods near downtown to properties along the city's outskirts toward Ellisville.
+HomeLyft Restoration MS is headquartered in Gulfport, roughly 90 miles south of Laurel via US-49 North. That route runs directly into Jones County and puts our crews on the ground in Laurel with straightforward logistics, no interstate transfers or complicated routing. For scheduling, call us at (228) 284-5200 and we'll confirm availability and an estimated arrival window based on current crew deployment. We serve all of Laurel's residential and commercial corridors, from the established neighborhoods near downtown to properties along the city's outskirts toward Ellisville.
 
 ## Building stock, site conditions, and permits in Laurel
 
-Much of Laurel's housing dates to the lumber-boom years and the decades after, which means shiplap sheathing, board subfloors, and later additions layered on top of original framing. Pre-1978 paint and asbestos-containing floor tile, mastic, and pipe wrap are ordinary finds in that vintage, so demolition gets tested and contained rather than opened up fast. Plumbing runs the range from galvanized supply and cast iron drains to polybutylene in 1980s and 90s builds — galvanized rusts closed and leaks at threads, cast iron cracks at the hub.
+Much of Laurel's housing dates to the lumber-boom years and the decades after, which means shiplap sheathing, board subfloors, and later additions layered on top of original framing. Pre-1978 paint and asbestos-containing floor tile, mastic, and pipe wrap are ordinary finds in that vintage, so demolition gets tested and contained rather than opened up fast. Plumbing runs the range from galvanized supply and cast iron drains to polybutylene in 1980s and 90s builds, galvanized rusts closed and leaks at threads, cast iron cracks at the hub.
 
 The Pine Belt's sandy loam over clay drains unevenly, so runoff collects against piers and slab edges instead of moving away.
 

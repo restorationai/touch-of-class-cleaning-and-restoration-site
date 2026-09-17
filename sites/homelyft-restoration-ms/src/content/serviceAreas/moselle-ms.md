@@ -19,27 +19,27 @@ state: "MS"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall or a storm pushes water under a crawl space door in Moselle, the clock starts immediately. HomeLyft Restoration MS responds to water damage, fire and smoke damage, mold remediation, and storm-related structural losses for homeowners and property managers throughout Moselle and the surrounding Jones County corridor. We handle the documentation, the drying, and the rebuild — so you're not coordinating three separate contractors while your floors are still wet.
+When a pipe bursts behind a wall or a storm pushes water under a crawl space door in Moselle, the clock starts immediately. HomeLyft Restoration MS responds to water damage, fire and smoke damage, mold remediation, and storm-related structural losses for homeowners and property managers throughout Moselle and the surrounding Jones County corridor. We handle the documentation, the drying, and the rebuild, so you're not coordinating three separate contractors while your floors are still wet.
 
 ## Restoration emergencies common in Moselle
 
 Moselle sits in a part of Jones County where the soil shifts between sandy loam and heavy clay depending on the parcel, and that inconsistency matters when water enters a structure. Clay-heavy soil holds moisture against foundation walls and crawl space vapor barriers long after the rain stops, which means hidden saturation can persist for days before a homeowner notices musty odors or soft subfloor sections. Mississippi's humid subtropical climate compounds the problem: average summer relative humidity in this region regularly exceeds 75%, and mold can begin colonizing wet building materials in as little as 24 to 48 hours under those conditions.
 
-The housing stock in and around Moselle skews toward single-family homes built between the 1970s and early 2000s — a generation of construction that often used paper-faced drywall, OSB subfloor, and fiberglass batt insulation, all of which absorb and hold moisture readily. Older homes along rural routes may also have galvanized supply lines that are reaching the end of their service life, making sudden pipe failures more common than in newer subdivisions. Severe thunderstorms and the occasional tornado that tracks through the Pine Belt each spring add wind-driven rain intrusion and roof damage to the list of recurring calls we receive from this area.
+The housing stock in and around Moselle skews toward single-family homes built between the 1970s and early 2000s, a generation of construction that often used paper-faced drywall, OSB subfloor, and fiberglass batt insulation, all of which absorb and hold moisture readily. Older homes along rural routes may also have galvanized supply lines that are reaching the end of their service life, making sudden pipe failures more common than in newer subdivisions. Severe thunderstorms and the occasional tornado that tracks through the Pine Belt each spring add wind-driven rain intrusion and roof damage to the list of recurring calls we receive from this area.
 
 ## Services we provide in Moselle
 
 ### Water damage restoration
 
-Water damage in Moselle frequently involves crawl space flooding after heavy rain events, supply-line failures in older ranch-style homes, and roof leaks that funnel water into wall cavities before it ever reaches the floor. We extract standing water, deploy commercial-grade drying equipment calibrated to the ambient humidity typical of Jones County summers, and monitor moisture readings in walls and subfloor assemblies until materials reach acceptable drying targets — not just until the surface feels dry to the touch.
+Water damage in Moselle frequently involves crawl space flooding after heavy rain events, supply-line failures in older ranch-style homes, and roof leaks that funnel water into wall cavities before it ever reaches the floor. We extract standing water, deploy commercial-grade drying equipment calibrated to the ambient humidity typical of Jones County summers, and monitor moisture readings in walls and subfloor assemblies until materials reach acceptable drying targets, not just until the surface feels dry to the touch.
 
 ### Mold remediation
 
-The combination of high humidity, older construction, and crawl space foundations makes mold a consistent concern for Moselle property owners. We contain affected areas, remove compromised materials, treat structural surfaces, and restore air quality — following established remediation protocols to protect the occupants and the structure. We do not provide medical advice, but we do provide clear documentation of what was found, what was removed, and what post-remediation conditions looked like.
+The combination of high humidity, older construction, and crawl space foundations makes mold a consistent concern for Moselle property owners. We contain affected areas, remove compromised materials, treat structural surfaces, and restore air quality, following established remediation protocols to protect the occupants and the structure. We do not provide medical advice, but we do provide clear documentation of what was found, what was removed, and what post-remediation conditions looked like.
 
 ### Fire and smoke damage restoration
 
-House fires in rural Jones County often involve longer response times from local fire departments, which can mean deeper smoke penetration into wall cavities, HVAC ductwork, and attic insulation by the time suppression is complete. We assess the full scope of smoke odor and soot migration — not just the visible char — and work through deodorization, content cleaning, and structural repairs to make the home livable again.
+House fires in rural Jones County often involve longer response times from local fire departments, which can mean deeper smoke penetration into wall cavities, HVAC ductwork, and attic insulation by the time suppression is complete. We assess the full scope of smoke odor and soot migration, not just the visible char, and work through deodorization, content cleaning, and structural repairs to make the home livable again.
 
 ### Storm damage and reconstruction
 
@@ -47,7 +47,7 @@ When a severe storm damages roofing, siding, or windows, water intrusion typical
 
 ## Coverage and how fast we can get there
 
-HomeLyft Restoration MS is headquartered in Gulfport, and Moselle sits roughly 85 miles to the north via US-49. That route runs through Hattiesburg and into Jones County, giving us a direct corridor to Moselle and the surrounding communities without navigating around major urban congestion. When you call, we'll confirm scheduling and give you a realistic arrival window based on current crew availability and job load — we'd rather give you an honest time than a number we can't keep. Property managers overseeing multiple units in the area are welcome to set up a direct contact arrangement so response coordination is faster when something comes up.
+HomeLyft Restoration MS is headquartered in Gulfport, and Moselle sits roughly 85 miles to the north via US-49. That route runs through Hattiesburg and into Jones County, giving us a direct corridor to Moselle and the surrounding communities without navigating around major urban congestion. When you call, we'll confirm scheduling and give you a realistic arrival window based on current crew availability and job load, we'd rather give you an honest time than a number we can't keep. Property managers overseeing multiple units in the area are welcome to set up a direct contact arrangement so response coordination is faster when something comes up.
 
 ## Building stock, site conditions, and permits in Moselle
 
@@ -57,4 +57,4 @@ Drain lines in older houses are often cast iron nearing the end of their life, a
 
 Moselle is unincorporated, so structural repair and rebuild permitting runs through Jones County rather than a city hall, and septic work falls to the state health department.
 
-If you're dealing with water, fire, mold, or storm damage in Moselle, call HomeLyft Restoration MS at (228) 284-5200. We'll walk you through what we're seeing, what needs to happen next, and what it will cost — before any work begins.
+If you're dealing with water, fire, mold, or storm damage in Moselle, call HomeLyft Restoration MS at (228) 284-5200. We'll walk you through what we're seeing, what needs to happen next, and what it will cost, before any work begins.

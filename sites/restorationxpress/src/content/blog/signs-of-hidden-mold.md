@@ -17,29 +17,29 @@ published_at: "2026-07-10"
 services: ["mold-remediation"]
 rendered: true
 ---
-Hidden mold doesn't announce itself. It grows behind drywall, under flooring, inside HVAC ducts, and in crawl spaces — often for weeks or months before anyone notices. By the time you smell something musty or see a stain, a colony can already cover several square feet. South Florida's humidity makes this worse: Davie and the surrounding Broward County area routinely sit above 70% relative humidity, which is well past the 60% threshold where mold begins to colonize porous materials. Here are seven specific signs to look for, and a clear path forward once you find them.
+Hidden mold doesn't announce itself. It grows behind drywall, under flooring, inside HVAC ducts, and in crawl spaces, often for weeks or months before anyone notices. By the time you smell something musty or see a stain, a colony can already cover several square feet. South Florida's humidity makes this worse: Davie and the surrounding Broward County area routinely sit above 70% relative humidity, which is well past the 60% threshold where mold begins to colonize porous materials. Here are seven specific signs to look for, and a clear path forward once you find them.
 
 ## The 7 Signs
 
-### 1. A Persistent Musty Odor — Even After Cleaning
+### 1. A Persistent Musty Odor, Even After Cleaning
 
-Mold produces microbial volatile organic compounds (mVOCs) as it metabolizes organic material. That earthy, damp-basement smell is the byproduct. If you've cleaned a room thoroughly and the smell returns within a day or two, the source isn't on the surface — it's behind it. Pay attention to whether the smell intensifies when the AC kicks on; that's a strong indicator mold is growing inside the air handler or ductwork.
+Mold produces microbial volatile organic compounds (mVOCs) as it metabolizes organic material. That earthy, damp-basement smell is the byproduct. If you've cleaned a room thoroughly and the smell returns within a day or two, the source isn't on the surface, it's behind it. Pay attention to whether the smell intensifies when the AC kicks on; that's a strong indicator mold is growing inside the air handler or ductwork.
 
 ### 2. Visible Discoloration That Keeps Coming Back
 
-A dark spot on a ceiling tile or a greyish patch on grout isn't always mold, but if you bleach it and it returns within two weeks, treat it as mold until proven otherwise. Colors range from black and green to white, orange, and even pink. The color tells you little about the species or severity — only surface sampling or air testing can do that.
+A dark spot on a ceiling tile or a greyish patch on grout isn't always mold, but if you bleach it and it returns within two weeks, treat it as mold until proven otherwise. Colors range from black and green to white, orange, and even pink. The color tells you little about the species or severity, only surface sampling or air testing can do that.
 
 ### 3. Warped, Bubbling, or Soft Drywall
 
-Drywall is essentially compressed paper sandwiched around gypsum. When moisture gets behind it, the paper facing absorbs water, the gypsum softens, and the surface warps or develops a spongy feel when you press it. If you're pressing on a wall near a bathroom, under a window, or adjacent to an exterior wall and it gives slightly — that wall likely has a moisture problem, and where there's sustained moisture in South Florida, mold follows within 24 to 48 hours.
+Drywall is essentially compressed paper sandwiched around gypsum. When moisture gets behind it, the paper facing absorbs water, the gypsum softens, and the surface warps or develops a spongy feel when you press it. If you're pressing on a wall near a bathroom, under a window, or adjacent to an exterior wall and it gives slightly, that wall likely has a moisture problem, and where there's sustained moisture in South Florida, mold follows within 24 to 48 hours.
 
 ### 4. Unexplained Allergy or Respiratory Symptoms at Home
 
-This one requires nuance: mold exposure can cause symptoms, but so can dozens of other things. The pattern to watch for is symptoms that improve when you leave the house and return when you come back. Runny nose, itchy eyes, a cough that started around the same time as a plumbing leak or a roof repair — these are worth taking seriously. This post can't tell you whether mold is making you sick; a doctor and a certified industrial hygienist can.
+This one requires nuance: mold exposure can cause symptoms, but so can dozens of other things. The pattern to watch for is symptoms that improve when you leave the house and return when you come back. Runny nose, itchy eyes, a cough that started around the same time as a plumbing leak or a roof repair, these are worth taking seriously. This post can't tell you whether mold is making you sick; a doctor and a certified industrial hygienist can.
 
 ### 5. A Recent Water Event You Didn't Fully Dry
 
-A slow drip under the kitchen sink. A toilet that overflowed. A window left open during a heavy rain. Any water intrusion that wasn't professionally dried within 48 to 72 hours is a mold risk. If you mopped it up and moved on, check the materials underneath — the subfloor, the cabinet base, the baseboard. Moisture meters are inexpensive and available at hardware stores; a reading above 16% on wood or 1% on concrete is elevated.
+A slow drip under the kitchen sink. A toilet that overflowed. A window left open during a heavy rain. Any water intrusion that wasn't professionally dried within 48 to 72 hours is a mold risk. If you mopped it up and moved on, check the materials underneath, the subfloor, the cabinet base, the baseboard. Moisture meters are inexpensive and available at hardware stores; a reading above 16% on wood or 1% on concrete is elevated.
 
 ### 6. Rust Stains or Efflorescence on Concrete
 
@@ -47,13 +47,13 @@ In block-construction homes common throughout Davie and much of Broward, look at
 
 ### 7. Your HVAC System Smells Musty at Startup
 
-Florida homes run their air conditioning nearly year-round. The evaporator coil and drain pan inside the air handler stay cold and wet — ideal conditions for mold. When the system starts, it can push spores through every room in the house. If the smell is strongest in the first 30 seconds after the AC turns on and then fades, the problem is almost certainly inside the unit or the ductwork.
+Florida homes run their air conditioning nearly year-round. The evaporator coil and drain pan inside the air handler stay cold and wet, ideal conditions for mold. When the system starts, it can push spores through every room in the house. If the smell is strongest in the first 30 seconds after the AC turns on and then fades, the problem is almost certainly inside the unit or the ductwork.
 
 ## What To Do Immediately
 
 1. **Stop the moisture source first.** Mold remediation without fixing the underlying leak or humidity problem is temporary at best. Identify whether the issue is a plumbing leak, roof intrusion, condensation, or high ambient humidity, and address it before or alongside any cleanup.
 2. **Don't disturb large colonies.** If you're looking at more than roughly 10 square feet of visible mold (about the size of a standard ceiling tile), stop. Scrubbing or cutting into affected material without containment releases spores into the air and can spread contamination to clean areas.
-3. **Increase ventilation — carefully.** Open windows to exhaust air out if outdoor humidity is lower than indoor humidity. Running a portable dehumidifier to keep indoor RH below 50% slows active growth. Do not run a box fan blowing directly across a moldy surface.
+3. **Increase ventilation, carefully.** Open windows to exhaust air out if outdoor humidity is lower than indoor humidity. Running a portable dehumidifier to keep indoor RH below 50% slows active growth. Do not run a box fan blowing directly across a moldy surface.
 4. **Document everything.** Photograph affected areas with something for scale. Note when you first noticed the smell, stain, or symptom. If this is related to a covered water loss, your insurance carrier will want documentation.
 
 ## What NOT To Do
@@ -74,14 +74,14 @@ Call a mold remediation professional if any of the following apply:
 - The mold returned after a previous DIY cleanup
 - The source of moisture was a sewage backup or Category 3 water (which introduces additional biological hazards)
 
-A qualified remediation team will establish containment, use negative air pressure to prevent cross-contamination, remove and bag affected materials, treat structural surfaces, and verify clearance through post-remediation testing. That last step — clearance testing by an independent third party — is worth asking about specifically.
+A qualified remediation team will establish containment, use negative air pressure to prevent cross-contamination, remove and bag affected materials, treat structural surfaces, and verify clearance through post-remediation testing. That last step, clearance testing by an independent third party, is worth asking about specifically.
 
 ## The Longer Recovery Process
 
-Once remediation is complete, the work isn't quite done. Rebuilt areas need materials that were properly dried before enclosure. Any replacement drywall or insulation should go in only after moisture readings confirm the framing is dry — typically below 19% moisture content for wood framing. If the event was large enough to involve an insurance claim, your adjuster will want a scope of work, photo documentation, and often a clearance report before releasing final payment.
+Once remediation is complete, the work isn't quite done. Rebuilt areas need materials that were properly dried before enclosure. Any replacement drywall or insulation should go in only after moisture readings confirm the framing is dry, typically below 19% moisture content for wood framing. If the event was large enough to involve an insurance claim, your adjuster will want a scope of work, photo documentation, and often a clearance report before releasing final payment.
 
 For ongoing prevention in South Florida's climate, keep indoor humidity below 50% year-round (a whole-home dehumidifier or a properly sized AC system helps), inspect your roof and window seals annually before hurricane season, and check under sinks and around water heaters every few months. Mold is a moisture problem as much as it is a biological one.
 
 ---
 
-If you've worked through this list and you're finding more than one sign — especially a combination of a past water event, a persistent smell, and any physical symptoms — it's worth having a professional assessment before the problem grows. RestorationXpress serves Davie and the surrounding Broward area and can be reached at **(954) 932-5420**. Even if you're not ready to schedule anything, a conversation about what you're seeing can help you decide on next steps.
+If you've worked through this list and you're finding more than one sign, especially a combination of a past water event, a persistent smell, and any physical symptoms, it's worth having a professional assessment before the problem grows. RestorationXpress serves Davie and the surrounding Broward area and can be reached at **(954) 932-5420**. Even if you're not ready to schedule anything, a conversation about what you're seeing can help you decide on next steps.

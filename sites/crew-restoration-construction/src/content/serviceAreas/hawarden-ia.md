@@ -19,38 +19,38 @@ state: "IA"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall in Downtown Hawarden or floodwater from the Big Sioux creeps into a basement along the Central Avenue district, Crew Restoration & Construction is the team Hawarden property owners call. We handle water damage mitigation, fire and smoke cleanup, mold remediation, and structural reconstruction — coordinating directly with your insurance carrier so you can focus on your family or tenants, not paperwork. One number — (605) 965-2727 — connects you to a crew that knows this corner of Sioux County.
+When a pipe bursts behind a wall in Downtown Hawarden or floodwater from the Big Sioux creeps into a basement along the Central Avenue district, Crew Restoration & Construction is the team Hawarden property owners call. We handle water damage mitigation, fire and smoke cleanup, mold remediation, and structural reconstruction, coordinating directly with your insurance carrier so you can focus on your family or tenants, not paperwork. One number, (605) 965-2727, connects you to a crew that knows this corner of Sioux County.
 
 ## Restoration emergencies common in Hawarden
 
 Hawarden sits in the 51023 ZIP code along the Big Sioux River, and that geography shapes the kind of damage property owners face here. Spring snowmelt and heavy summer thunderstorms push the river toward flood stage with regularity, and homes in the low-lying stretches near the Calliope Village area have learned that a few inches of standing water in a crawl space can become a serious mold problem within 48 to 72 hours if it isn't extracted and dried properly.
 
-The housing stock adds another layer of complexity. Much of Hawarden's residential core — particularly the blocks radiating off the Central Avenue district and the older sections of Downtown Hawarden — was built in the early to mid-twentieth century. That means cast-iron drain lines prone to root intrusion, knob-and-wiring that complicates post-fire reconstruction, and plaster walls that hold moisture far longer than modern drywall. When a supply line fails or a kitchen fire scorches a ceiling, the remediation has to account for materials and building methods that predate current Iowa code by decades.
+The housing stock adds another layer of complexity. Much of Hawarden's residential core, particularly the blocks radiating off the Central Avenue district and the older sections of Downtown Hawarden, was built in the early to mid-twentieth century. That means cast-iron drain lines prone to root intrusion, knob-and-wiring that complicates post-fire reconstruction, and plaster walls that hold moisture far longer than modern drywall. When a supply line fails or a kitchen fire scorches a ceiling, the remediation has to account for materials and building methods that predate current Iowa code by decades.
 
-Sioux County winters also drive freeze-thaw damage. A single hard cold snap — the kind that drops overnight temps into the negative teens — can split an uninsulated exterior wall cavity and send water running silently behind cabinets for hours before anyone notices the damage.
+Sioux County winters also drive freeze-thaw damage. A single hard cold snap, the kind that drops overnight temps into the negative teens, can split an uninsulated exterior wall cavity and send water running silently behind cabinets for hours before anyone notices the damage.
 
 ## Services we provide in Hawarden
 
-**Water damage mitigation and drying.** Water damage in Hawarden often involves river-adjacent moisture intrusion or interior plumbing failures in older homes. We extract standing water, deploy commercial desiccant and refrigerant drying equipment, and monitor moisture readings daily until structural materials reach dry standard — a process guided by the IICRC S500 framework.
+**Water damage mitigation and drying.** Water damage in Hawarden often involves river-adjacent moisture intrusion or interior plumbing failures in older homes. We extract standing water, deploy commercial desiccant and refrigerant drying equipment, and monitor moisture readings daily until structural materials reach dry standard, a process guided by the IICRC S500 framework.
 
-**Mold remediation.** The combination of a high water table near the Big Sioux and older construction with limited vapor barriers makes mold a realistic follow-on to any water event in Hawarden. We contain affected areas, remove colonized materials, and treat surfaces before reconstruction — without overpromising on air-quality outcomes that only a post-remediation test can confirm.
+**Mold remediation.** The combination of a high water table near the Big Sioux and older construction with limited vapor barriers makes mold a realistic follow-on to any water event in Hawarden. We contain affected areas, remove colonized materials, and treat surfaces before reconstruction, without overpromising on air-quality outcomes that only a post-remediation test can confirm.
 
-**Fire and smoke damage restoration.** Smoke residue in an older Hawarden home — the kind with plaster ceilings and original woodwork — penetrates deeply and leaves an odor that lingers for months if it isn't chemically neutralized. We clean structural surfaces, remove unsalvageable materials, and coordinate the reconstruction phase so you're dealing with one contractor, not three.
+**Fire and smoke damage restoration.** Smoke residue in an older Hawarden home, the kind with plaster ceilings and original woodwork, penetrates deeply and leaves an odor that lingers for months if it isn't chemically neutralized. We clean structural surfaces, remove unsalvageable materials, and coordinate the reconstruction phase so you're dealing with one contractor, not three.
 
-**Reconstruction and build-back.** After mitigation is complete, our construction division handles the rebuild — drywall, flooring, cabinetry, roofing, whatever the loss requires. For properties near Hawarden Golf Course or in the Central Avenue district, we work to match existing finishes and keep the character of the home intact.
+**Reconstruction and build-back.** After mitigation is complete, our construction division handles the rebuild, drywall, flooring, cabinetry, roofing, whatever the loss requires. For properties near Hawarden Golf Course or in the Central Avenue district, we work to match existing finishes and keep the character of the home intact.
 
 **Biohazard and specialty cleanup.** We also respond to sewage backups, which are not uncommon when aging municipal laterals in Downtown Hawarden back up during heavy rain events.
 
 ## Coverage and how fast we can get there
 
-Crew Restoration & Construction is headquartered in Sioux Falls, SD. Hawarden is roughly 45 miles southeast of Sioux Falls via SD-11 South into Iowa — a straightforward drive that puts our crew on the ground in Sioux County without routing through major metro congestion. We serve all of Hawarden's 51023 ZIP code, including the Central Avenue district, Downtown Hawarden, and the river-adjacent properties near the Big Sioux and Calliope Village. Call (605) 965-2727 to schedule a prompt assessment; our team will confirm an arrival window when you call.
+Crew Restoration & Construction is headquartered in Sioux Falls, SD. Hawarden is roughly 45 miles southeast of Sioux Falls via SD-11 South into Iowa, a straightforward drive that puts our crew on the ground in Sioux County without routing through major metro congestion. We serve all of Hawarden's 51023 ZIP code, including the Central Avenue district, Downtown Hawarden, and the river-adjacent properties near the Big Sioux and Calliope Village. Call (605) 965-2727 to schedule a prompt assessment; our team will confirm an arrival window when you call.
 
 ## Building stock, site conditions, and permits in Hawarden
 
 Most homes here sit over a full basement rather than a slab, which is standard for this part of northwest Iowa. That matters because the basement is where the mechanicals live, so a failure or a wet spring shows up in framing sills, ductwork, and finished lower levels all at once. Nearer the Big Sioux the subsoil turns to river-deposited sand and gravel over glacial till, so water moves laterally toward foundation walls instead of sitting still.
 
-In houses built before the late 1970s, expect galvanized supply lines pitting from the inside, asbestos-containing pipe wrap or floor tile, and lead paint under later coats — all of which change how demolition is scoped.
+In houses built before the late 1970s, expect galvanized supply lines pitting from the inside, asbestos-containing pipe wrap or floor tile, and lead paint under later coats, all of which change how demolition is scoped.
 
 Structural repair and rebuild permits come from the City of Hawarden. Work in the mapped floodplain brings extra review, and formal HOAs are uncommon in town.
 
-If you're dealing with water, fire, mold, or structural damage anywhere in Hawarden, call Crew Restoration & Construction at **(605) 965-2727**. We'll assess the damage, walk you through the process, and get the work scheduled — no pressure, no guesswork.
+If you're dealing with water, fire, mold, or structural damage anywhere in Hawarden, call Crew Restoration & Construction at **(605) 965-2727**. We'll assess the damage, walk you through the process, and get the work scheduled, no pressure, no guesswork.

@@ -20,24 +20,24 @@ state: "CA"
 service_display: "Water Softeners and Filtration Systems"
 rendered: true
 ---
-Ontario's tap water arrives carrying a heavy mineral load — the Inland Empire sits atop one of Southern California's hardest water corridors, where calcium and magnesium concentrations routinely push past 300 parts per million before the water even reaches your meter. That hardness leaves chalky scale on fixtures, shortens water heater life, and makes soap feel like it never quite rinses clean. RT Olson Plumbing, Heating and Air Conditioning installs water softeners and whole-house filtration systems sized for Ontario homes and businesses, from compact condominiums near the Ontario Mills area to larger single-family properties further east toward the city's newer master-planned developments.
+Ontario's tap water arrives carrying a heavy mineral load, the Inland Empire sits atop one of Southern California's hardest water corridors, where calcium and magnesium concentrations routinely push past 300 parts per million before the water even reaches your meter. That hardness leaves chalky scale on fixtures, shortens water heater life, and makes soap feel like it never quite rinses clean. RT Olson Plumbing, Heating and Air Conditioning installs water softeners and whole-house filtration systems sized for Ontario homes and businesses, from compact condominiums near the Ontario Mills area to larger single-family properties further east toward the city's newer master-planned developments.
 
 ## Why Ontario Properties See Hard Water and Filtration Challenges
 
 The water delivered to Ontario homes is sourced from a blend of imported State Water Project supplies and local groundwater drawn from the Chino Basin. Both sources carry elevated dissolved minerals, and the groundwater component can also introduce trace nitrates and other agricultural-era compounds that have lingered in basin aquifers for decades. The result is water that attacks copper fittings from the inside, leaves orange-tinged stains in toilets and showers, and causes scale buildup inside tankless water heaters that can cut efficiency and trigger warranty concerns within just a few years of installation.
 
-Homes built during Ontario's rapid growth periods — particularly the tract developments that spread across the city through the 1980s and 1990s — often have original galvanized or early copper supply lines that are already narrowed by decades of mineral accumulation. Adding a properly sized softener at the point of entry doesn't just improve water quality; it slows further deterioration of the plumbing infrastructure behind your walls.
+Homes built during Ontario's rapid growth periods, particularly the tract developments that spread across the city through the 1980s and 1990s, often have original galvanized or early copper supply lines that are already narrowed by decades of mineral accumulation. Adding a properly sized softener at the point of entry doesn't just improve water quality; it slows further deterioration of the plumbing infrastructure behind your walls.
 
 ## Our Water Softener and Filtration Installation Process in Ontario
 
-Every installation starts with a water test. We measure hardness, TDS (total dissolved solids), and pH at your specific address before recommending equipment — because water quality in Ontario can vary meaningfully between service zones and even between neighboring streets depending on which blend of sources is running that day.
+Every installation starts with a water test. We measure hardness, TDS (total dissolved solids), and pH at your specific address before recommending equipment, because water quality in Ontario can vary meaningfully between service zones and even between neighboring streets depending on which blend of sources is running that day.
 
 From there, the process typically follows these steps:
 
-- **System sizing**: We calculate grain capacity based on household size, daily water use, and your measured hardness level — not a one-size-fits-all chart.
+- **System sizing**: We calculate grain capacity based on household size, daily water use, and your measured hardness level, not a one-size-fits-all chart.
 - **Point-of-entry placement**: The softener goes on the main supply line before the water heater, protecting all fixtures and appliances simultaneously. We confirm there's adequate clearance and a nearby drain for the regeneration cycle.
 - **Bypass valve installation**: Required for code compliance and practical maintenance, a bypass lets you isolate the softener without shutting down the whole house.
-- **Reverse osmosis (RO) add-on**: For drinking water, many Ontario homeowners add an under-sink RO system at the kitchen. RO removes what softening doesn't — including residual chloramines used by local water treatment facilities and any trace contaminants from the Chino Basin groundwater blend.
+- **Reverse osmosis (RO) add-on**: For drinking water, many Ontario homeowners add an under-sink RO system at the kitchen. RO removes what softening doesn't, including residual chloramines used by local water treatment facilities and any trace contaminants from the Chino Basin groundwater blend.
 - **System commissioning and programming**: We set the regeneration schedule based on your actual hardness reading and household demand, then walk you through salt type, maintenance intervals, and what to watch for.
 
 ## Reaching Ontario from Corona
@@ -46,6 +46,6 @@ RT Olson operates out of Corona, which puts the team on the 91 or the 15 dependi
 
 ## Local Note
 
-One thing that catches Ontario homeowners off guard: many properties in the city's older grid neighborhoods still have their original water softener loop — a pre-plumbed stub-out in the garage specifically designed for softener installation — but the loop was never activated and the homeowner doesn't know it's there. If your home was built between roughly 1975 and 1995, there's a reasonable chance that loop exists behind a drywall patch or inside a utility cabinet. We check for it before quoting any new installation, because using an existing loop saves significant labor and avoids cutting into finished walls.
+One thing that catches Ontario homeowners off guard: many properties in the city's older grid neighborhoods still have their original water softener loop, a pre-plumbed stub-out in the garage specifically designed for softener installation, but the loop was never activated and the homeowner doesn't know it's there. If your home was built between roughly 1975 and 1995, there's a reasonable chance that loop exists behind a drywall patch or inside a utility cabinet. We check for it before quoting any new installation, because using an existing loop saves significant labor and avoids cutting into finished walls.
 
-If you're dealing with stubborn scale buildup, soap scum that no cleaner seems to touch, or a water heater that's underperforming despite being relatively new, the water itself is almost certainly the cause. Call RT Olson Plumbing, Heating and Air Conditioning at (951) 344-5596 to schedule a water quality assessment for your Ontario property — we'll test before we recommend, and size the system to what your home actually needs.
+If you're dealing with stubborn scale buildup, soap scum that no cleaner seems to touch, or a water heater that's underperforming despite being relatively new, the water itself is almost certainly the cause. Call RT Olson Plumbing, Heating and Air Conditioning at (951) 344-5596 to schedule a water quality assessment for your Ontario property, we'll test before we recommend, and size the system to what your home actually needs.

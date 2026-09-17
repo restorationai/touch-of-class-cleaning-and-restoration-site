@@ -19,15 +19,15 @@ state: "WA"
 primary: false
 rendered: true
 ---
-When a pipe bursts at 2 a.m. or smoke from a kitchen fire settles into every corner of your home, the last thing you want is a contractor who treats Redmond like a distant job site. National Restoration Construction has been responding to water, fire, mold, and biohazard emergencies across the greater Seattle area since 2004. We carry full IICRC certification and work directly with most major insurance carriers — so when something goes wrong at your Redmond property, one call gets the process moving.
+When a pipe bursts at 2 a.m. or smoke from a kitchen fire settles into every corner of your home, the last thing you want is a contractor who treats Redmond like a distant job site. National Restoration Construction has been responding to water, fire, mold, and biohazard emergencies across the greater Seattle area since 2004. We carry full IICRC certification and work directly with most major insurance carriers, so when something goes wrong at your Redmond property, one call gets the process moving.
 
 ## Restoration services we provide in Redmond
 
 ### Water damage restoration
-A slow leak behind drywall or a flooded basement after a heavy rain event can saturate structural materials within hours. We extract standing water, deploy industrial drying equipment, and monitor moisture levels daily until readings confirm the structure is dry — not just surface-dry. We document everything for your insurance claim as we go.
+A slow leak behind drywall or a flooded basement after a heavy rain event can saturate structural materials within hours. We extract standing water, deploy industrial drying equipment, and monitor moisture levels daily until readings confirm the structure is dry, not just surface-dry. We document everything for your insurance claim as we go.
 
 ### Fire and smoke damage restoration
-Smoke residue isn't just a smell — it's an acidic film that keeps etching surfaces for days after the flames are out. Our crews handle debris removal, structural drying if firefighting water is involved, odor neutralization with hydroxyl and thermal fogging, and full reconstruction when walls or ceilings need to come back.
+Smoke residue isn't just a smell, it's an acidic film that keeps etching surfaces for days after the flames are out. Our crews handle debris removal, structural drying if firefighting water is involved, odor neutralization with hydroxyl and thermal fogging, and full reconstruction when walls or ceilings need to come back.
 
 ### Mold remediation
 Redmond's wet winters give mold a long runway. Once moisture sits in wall cavities or under flooring, colonies can establish in 24 to 48 hours. We contain affected areas, remove compromised materials following EPA guidelines, treat surfaces, and verify clearance before containment comes down.
@@ -36,21 +36,21 @@ Redmond's wet winters give mold a long runway. Once moisture sits in wall caviti
 Unattended deaths, sewage backups, and similar situations require licensed handling and disposal. Our technicians follow OSHA bloodborne pathogen protocols and coordinate with local waste disposal requirements so the property is safe for re-occupancy.
 
 ### Reconstruction
-Most restoration companies stop at mitigation and hand you off to a general contractor. We carry a Washington State contractor license and handle the rebuild ourselves — framing, drywall, flooring, painting — which compresses the timeline and simplifies the insurance process.
+Most restoration companies stop at mitigation and hand you off to a general contractor. We carry a Washington State contractor license and handle the rebuild ourselves, framing, drywall, flooring, painting, which compresses the timeline and simplifies the insurance process.
 
 ## Why Redmond property owners face restoration emergencies
 
 Redmond sits in the rain shadow of the Cascades' western slope, which means it collects significant annual rainfall and sees extended stretches of overcast, damp weather from October through April. That sustained moisture load stresses roofing, gutters, and foundation drainage on older homes in neighborhoods like Education Hill and Grass Lawn. When gutters back up or flashing fails, water finds its way into attic insulation and wall assemblies before a homeowner notices a stain on the ceiling.
 
-The city's tech-corridor growth has also produced a large stock of newer construction — townhomes and mixed-use buildings where unit-to-unit plumbing failures can affect multiple owners at once. A supply line failure in a second-floor unit can mean water damage claims across two or three units below it before the water is shut off.
+The city's tech-corridor growth has also produced a large stock of newer construction, townhomes and mixed-use buildings where unit-to-unit plumbing failures can affect multiple owners at once. A supply line failure in a second-floor unit can mean water damage claims across two or three units below it before the water is shut off.
 
 Winter wind events occasionally knock trees into roofs, and the combination of structural breach plus rain creates the kind of rapid moisture intrusion that turns a roof repair into a mold remediation job if it isn't addressed within the first day or two.
 
 ## Response time and coverage in Redmond
 
-Our crews travel SR-520 and NE 8th Street regularly. From our Federal Way headquarters, most Redmond addresses fall within a 45-to-60-minute drive under normal traffic conditions — and we dispatch around the clock, every day of the year. For emergency calls placed during off-peak hours, on-site arrival is typically faster. We cover all Redmond zip codes, including 98052 and 98053, as well as neighboring Kirkland, Bellevue, and Sammamish when your property straddles city boundaries.
+Our crews travel SR-520 and NE 8th Street regularly. From our Federal Way headquarters, most Redmond addresses fall within a 45-to-60-minute drive under normal traffic conditions, and we dispatch around the clock, every day of the year. For emergency calls placed during off-peak hours, on-site arrival is typically faster. We cover all Redmond zip codes, including 98052 and 98053, as well as neighboring Kirkland, Bellevue, and Sammamish when your property straddles city boundaries.
 
-When we arrive, the first priority is stopping active damage — shutting off water sources, boarding up openings, or placing containment barriers — before the assessment and documentation begin.
+When we arrive, the first priority is stopping active damage, shutting off water sources, boarding up openings, or placing containment barriers, before the assessment and documentation begin.
 
 ---
 

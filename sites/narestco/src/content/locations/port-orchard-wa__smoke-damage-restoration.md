@@ -20,42 +20,42 @@ state: "WA"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
-Smoke from a house fire doesn't stop moving when the flames go out. In Port Orchard's damp marine climate, the moisture that rolls in off Sinclair Inlet drives smoke particles deeper into porous surfaces — drywall, insulation, wood framing — and the resulting odor compounds bond more stubbornly than they would in a drier inland environment. If you're dealing with smoke damage in the 98366 or 98367 ZIP codes, the window to prevent permanent staining and odor saturation is measured in hours, not days. National Restoration Construction has been responding to fire and smoke emergencies across Western Washington since 2004, and we know what Port Orchard's housing stock and climate demand.
+Smoke from a house fire doesn't stop moving when the flames go out. In Port Orchard's damp marine climate, the moisture that rolls in off Sinclair Inlet drives smoke particles deeper into porous surfaces, drywall, insulation, wood framing, and the resulting odor compounds bond more stubbornly than they would in a drier inland environment. If you're dealing with smoke damage in the 98366 or 98367 ZIP codes, the window to prevent permanent staining and odor saturation is measured in hours, not days. National Restoration Construction has been responding to fire and smoke emergencies across Western Washington since 2004, and we know what Port Orchard's housing stock and climate demand.
 
 ## Why Port Orchard Properties See Smoke Damage Differently
 
-The building inventory across South Kitsap spans several distinct eras, and that matters for smoke cleanup. The older waterfront homes near Annapolis and along the Bay Street corridor — many built in the mid-20th century — frequently feature original wood-panel interiors, single-pane windows, and minimal vapor barriers. Smoke infiltrates those assemblies fast and lingers. Newer construction in McCormick Woods typically has tighter building envelopes, which sounds like an advantage until you realize that tighter homes trap smoke-laden air and recirculate it through HVAC systems, coating ductwork, coils, and filters with oily soot residue.
+The building inventory across South Kitsap spans several distinct eras, and that matters for smoke cleanup. The older waterfront homes near Annapolis and along the Bay Street corridor, many built in the mid-20th century, frequently feature original wood-panel interiors, single-pane windows, and minimal vapor barriers. Smoke infiltrates those assemblies fast and lingers. Newer construction in McCormick Woods typically has tighter building envelopes, which sounds like an advantage until you realize that tighter homes trap smoke-laden air and recirculate it through HVAC systems, coating ductwork, coils, and filters with oily soot residue.
 
-The marine air itself is a complicating factor. Relative humidity along the Sinclair Inlet waterfront regularly exceeds 80 percent during fall and winter months. At that humidity level, smoke residue — which is already hygroscopic — absorbs ambient moisture and becomes a sticky, acidic film that etches glass, corrodes metal fixtures, and discolors painted surfaces faster than in drier climates. Acting within the first 24 to 48 hours is not a sales pitch; it's the difference between cleaning a surface and replacing it.
+The marine air itself is a complicating factor. Relative humidity along the Sinclair Inlet waterfront regularly exceeds 80 percent during fall and winter months. At that humidity level, smoke residue, which is already hygroscopic, absorbs ambient moisture and becomes a sticky, acidic film that etches glass, corrodes metal fixtures, and discolors painted surfaces faster than in drier climates. Acting within the first 24 to 48 hours is not a sales pitch; it's the difference between cleaning a surface and replacing it.
 
 ## Our Smoke Damage Restoration Process in Port Orchard
 
-When a technician arrives on-site, the first priority is a systematic scope assessment — identifying every surface and cavity that smoke has reached, not just the rooms with visible char. Smoke travels through wall cavities, attic spaces, and crawlspaces, and a restoration plan that ignores those pathways will fail the sniff test weeks later.
+When a technician arrives on-site, the first priority is a systematic scope assessment, identifying every surface and cavity that smoke has reached, not just the rooms with visible char. Smoke travels through wall cavities, attic spaces, and crawlspaces, and a restoration plan that ignores those pathways will fail the sniff test weeks later.
 
 From there, the process moves through several concrete phases:
 
-- **Containment and ventilation** — negative air pressure units and HEPA-filtered air scrubbers establish controlled airflow to stop cross-contamination to unaffected areas.
-- **Dry and wet chemical sponge cleaning** — different soot types (dry flaky soot from fast-burning fires vs. wet protein residue from kitchen fires) require different chemistry. We match the agent to the residue.
-- **Thermal fogging and hydroxyl treatment** — for deep odor penetration in wood framing or older plaster-and-lath assemblies common in Annapolis-area homes, thermal fogging or hydroxyl generators reach into cavities that surface wiping cannot.
-- **HVAC decontamination** — ductwork is inspected and cleaned to prevent the system from redistributing smoke particles every time the heat kicks on.
-- **Final air quality verification** — before we close out, particulate readings confirm the indoor air is back within acceptable ranges.
+- **Containment and ventilation**, negative air pressure units and HEPA-filtered air scrubbers establish controlled airflow to stop cross-contamination to unaffected areas.
+- **Dry and wet chemical sponge cleaning**, different soot types (dry flaky soot from fast-burning fires vs. wet protein residue from kitchen fires) require different chemistry. We match the agent to the residue.
+- **Thermal fogging and hydroxyl treatment**, for deep odor penetration in wood framing or older plaster-and-lath assemblies common in Annapolis-area homes, thermal fogging or hydroxyl generators reach into cavities that surface wiping cannot.
+- **HVAC decontamination**, ductwork is inspected and cleaned to prevent the system from redistributing smoke particles every time the heat kicks on.
+- **Final air quality verification**, before we close out, particulate readings confirm the indoor air is back within acceptable ranges.
 
 For homes in McCormick Woods with HOA architectural review requirements, we document every phase with photos and written scope notes to support permit applications and HOA submissions.
 
 ## Response Time from Federal Way to Port Orchard
 
-National Restoration Construction's headquarters is in Federal Way. Under normal traffic conditions, the drive to Port Orchard via SR-16 and the Tacoma Narrows Bridge runs approximately 45 to 55 minutes. For calls that come in during peak commute hours, we route through Highway 3 as conditions warrant. Our target is a technician on-site within 60 to 90 minutes of your call for most Port Orchard addresses — closer to 60 minutes for properties near the Bay Street waterfront, slightly longer for rural acreage in the outer South Kitsap area where addresses can be harder to locate quickly.
+National Restoration Construction's headquarters is in Federal Way. Under normal traffic conditions, the drive to Port Orchard via SR-16 and the Tacoma Narrows Bridge runs approximately 45 to 55 minutes. For calls that come in during peak commute hours, we route through Highway 3 as conditions warrant. Our target is a technician on-site within 60 to 90 minutes of your call for most Port Orchard addresses, closer to 60 minutes for properties near the Bay Street waterfront, slightly longer for rural acreage in the outer South Kitsap area where addresses can be harder to locate quickly.
 
 When you call (206) 883-0333, the dispatcher will give you an honest ETA based on crew location at that moment, not a marketing number.
 
 ## Port Orchard Insurance Coordination
 
-Most homeowner policies cover sudden and accidental fire and smoke damage, and we work directly with your adjuster from the first site visit. We prepare itemized scope-of-loss documentation — line items, photos, moisture and soot readings — in the format adjusters use, which reduces back-and-forth and keeps your claim moving. If your policy includes additional living expenses (ALE) coverage and the smoke damage makes your home temporarily uninhabitable, we can help you document that threshold as well.
+Most homeowner policies cover sudden and accidental fire and smoke damage, and we work directly with your adjuster from the first site visit. We prepare itemized scope-of-loss documentation, line items, photos, moisture and soot readings, in the format adjusters use, which reduces back-and-forth and keeps your claim moving. If your policy includes additional living expenses (ALE) coverage and the smoke damage makes your home temporarily uninhabitable, we can help you document that threshold as well.
 
 For commercial properties along the Bay Street corridor, business interruption claims have different documentation requirements, and we've navigated those with local property owners before.
 
 ## Local Note: Older Homes Near Annapolis and Attic Smoke Migration
 
-One pattern we see repeatedly in the mid-century homes between Annapolis and the Port Orchard Marina: uninsulated or minimally insulated attic spaces with open soffit venting allow smoke from a first-floor or garage fire to migrate into the attic and then back-draft into living spaces through ceiling light fixtures and exhaust fans. Homeowners often think the fire was contained to one room, then notice the smell returning from above. On any job in that part of town, we treat attic inspection as a standard step — not an add-on — because missing it means the odor comes back in two weeks.
+One pattern we see repeatedly in the mid-century homes between Annapolis and the Port Orchard Marina: uninsulated or minimally insulated attic spaces with open soffit venting allow smoke from a first-floor or garage fire to migrate into the attic and then back-draft into living spaces through ceiling light fixtures and exhaust fans. Homeowners often think the fire was contained to one room, then notice the smell returning from above. On any job in that part of town, we treat attic inspection as a standard step, not an add-on, because missing it means the odor comes back in two weeks.
 
 If you're dealing with smoke damage anywhere in Port Orchard, call National Restoration Construction at (206) 883-0333. We'll give you a straight answer about what the damage looks like, what the process involves, and what it will realistically take to get your home or property back to pre-loss condition.

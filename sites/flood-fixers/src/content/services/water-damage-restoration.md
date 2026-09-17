@@ -18,46 +18,46 @@ service_slug: "water-damage-restoration"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
-You notice it first by feel — a soft give in the floor where there wasn't one yesterday, or a baseboard that's warm to the touch despite the AC running. By the time standing water is visible, the clock has already been ticking for hours. Drywall begins absorbing moisture within minutes of contact. Hardwood starts cupping in the first 24 hours. Mold can colonize wet framing in as little as 48 to 72 hours under San Diego's mild, humid coastal conditions. Water damage restoration is a race against those timelines, and every hour of delay narrows your options.
+You notice it first by feel, a soft give in the floor where there wasn't one yesterday, or a baseboard that's warm to the touch despite the AC running. By the time standing water is visible, the clock has already been ticking for hours. Drywall begins absorbing moisture within minutes of contact. Hardwood starts cupping in the first 24 hours. Mold can colonize wet framing in as little as 48 to 72 hours under San Diego's mild, humid coastal conditions. Water damage restoration is a race against those timelines, and every hour of delay narrows your options.
 
 ## What water damage restoration actually involves
 
 Water damage restoration is not mopping up and running a fan. The work spans two distinct phases: water mitigation (stopping the loss and removing moisture) and structural drying (pulling residual water out of building materials before it causes secondary damage).
 
-The mitigation phase involves truck-mounted or portable extraction units that pull hundreds of gallons of water from flooring, subfloor, and carpet padding — materials that hold far more moisture than they appear to. After bulk water removal, the drying phase begins. Industrial-grade desiccant or refrigerant dehumidifiers, high-velocity air movers, and in some cases drying mats or injectidry panels work in combination to drive moisture out of wall cavities, concrete slabs, and wood framing.
+The mitigation phase involves truck-mounted or portable extraction units that pull hundreds of gallons of water from flooring, subfloor, and carpet padding, materials that hold far more moisture than they appear to. After bulk water removal, the drying phase begins. Industrial-grade desiccant or refrigerant dehumidifiers, high-velocity air movers, and in some cases drying mats or injectidry panels work in combination to drive moisture out of wall cavities, concrete slabs, and wood framing.
 
-Throughout the process, technicians use thermal imaging cameras and calibrated moisture meters to map moisture migration — because water travels. A supply line failure under a kitchen sink can saturate the cabinet, wick into the adjacent wall, travel down the interior of that wall, and pool in the subfloor two rooms away. Chasing that moisture map is the job.
+Throughout the process, technicians use thermal imaging cameras and calibrated moisture meters to map moisture migration, because water travels. A supply line failure under a kitchen sink can saturate the cabinet, wick into the adjacent wall, travel down the interior of that wall, and pool in the subfloor two rooms away. Chasing that moisture map is the job.
 
-A standard residential drying project in San Diego runs three to five days for Category 1 (clean water) losses. Category 2 losses — gray water from appliance overflows or toilet backups — require containment protocols and antimicrobial treatment alongside drying. Category 3 (sewage, floodwater) involves full PPE, containment, and material removal before drying can begin.
+A standard residential drying project in San Diego runs three to five days for Category 1 (clean water) losses. Category 2 losses, gray water from appliance overflows or toilet backups, require containment protocols and antimicrobial treatment alongside drying. Category 3 (sewage, floodwater) involves full PPE, containment, and material removal before drying can begin.
 
 ## Our process
 
-1. **Emergency assessment and water source control.** The first priority on arrival is confirming the water source is stopped — whether that means locating a shutoff, coordinating with the San Diego County Water Authority, or tarping a roof breach. We document conditions with photos and moisture readings before any equipment is placed, which matters for your insurance claim.
+1. **Emergency assessment and water source control.** The first priority on arrival is confirming the water source is stopped, whether that means locating a shutoff, coordinating with the San Diego County Water Authority, or tarping a roof breach. We document conditions with photos and moisture readings before any equipment is placed, which matters for your insurance claim.
 
 2. **Bulk water extraction.** Truck-mounted extraction removes standing water from hard and soft surfaces quickly. Carpet and pad are evaluated: pad is almost always non-restorable and removed immediately. Carpet restorability depends on water category, contact time, and fiber type.
 
-3. **Drying system placement and psychrometric baseline.** Air movers and dehumidifiers are positioned based on the moisture map, not a generic room count. We record temperature, relative humidity, and grain depression at setup — the psychrometric baseline your adjuster needs to verify that equipment was sized and placed correctly.
+3. **Drying system placement and psychrometric baseline.** Air movers and dehumidifiers are positioned based on the moisture map, not a generic room count. We record temperature, relative humidity, and grain depression at setup, the psychrometric baseline your adjuster needs to verify that equipment was sized and placed correctly.
 
 4. **Daily moisture monitoring.** A technician returns each day to read moisture levels at documented points, adjust equipment placement, and log progress. Drying is not passive. Walls that aren't drying on schedule may need flood cuts or cavity drying equipment. Slabs may need drying mats. These decisions require daily data, not a check-in on day five.
 
-5. **Final documentation and clearance.** When all materials reach target moisture content — compared against unaffected reference readings in the same structure — equipment is removed and a final moisture report is generated. That report is your record that the structure was returned to dry standard, which matters if a mold claim surfaces later.
+5. **Final documentation and clearance.** When all materials reach target moisture content, compared against unaffected reference readings in the same structure, equipment is removed and a final moisture report is generated. That report is your record that the structure was returned to dry standard, which matters if a mold claim surfaces later.
 
 ## What separates a good water damage response from a bad one
 
 The most common failure point is incomplete extraction before drying equipment is placed. Dehumidifiers and air movers cannot compensate for bulk water that was never removed. A technician who skips thorough extraction and relies on equipment to do the heavy lifting will produce a drying log that looks fine while moisture persists in the subfloor or wall cavity beneath the readings.
 
-The second common failure is ignoring moisture migration. Water follows the path of least resistance — through seams, along framing members, under flooring. Operators who take readings only at the obvious wet area and call it contained routinely miss satellite damage zones that show up as mold or structural failure months later. Thermal imaging at the initial assessment is not optional; it's how you find what the water actually did.
+The second common failure is ignoring moisture migration. Water follows the path of least resistance, through seams, along framing members, under flooring. Operators who take readings only at the obvious wet area and call it contained routinely miss satellite damage zones that show up as mold or structural failure months later. Thermal imaging at the initial assessment is not optional; it's how you find what the water actually did.
 
 Insurance adjusters look for a complete psychrometric log with daily readings, equipment placement diagrams, and before-and-after moisture readings tied to specific structural components. Claims that arrive without this documentation are frequently underpaid or disputed. Proper documentation from day one protects your settlement.
 
 ## Seasonal and regional considerations
 
-San Diego's climate is mild enough that freeze-thaw pipe failures are rare, but the region has its own water damage patterns. The dry season creates brittle caulking and cracked stucco that fails quietly — until the first significant rain event sends water into wall assemblies that haven't been wet in years. El Niño winters can bring sustained rainfall that overwhelms flat-roof drainage systems common in mid-century Clairemont and City Heights homes. Coastal neighborhoods from Ocean Beach to Carlsbad deal with elevated ambient humidity year-round, which slows structural drying and compresses the window before secondary mold growth becomes a concern.
+San Diego's climate is mild enough that freeze-thaw pipe failures are rare, but the region has its own water damage patterns. The dry season creates brittle caulking and cracked stucco that fails quietly, until the first significant rain event sends water into wall assemblies that haven't been wet in years. El Niño winters can bring sustained rainfall that overwhelms flat-roof drainage systems common in mid-century Clairemont and City Heights homes. Coastal neighborhoods from Ocean Beach to Carlsbad deal with elevated ambient humidity year-round, which slows structural drying and compresses the window before secondary mold growth becomes a concern.
 
-Slabs-on-grade — the dominant foundation type across most of San Diego's inland neighborhoods — hold moisture longer than crawl spaces and require specialized drying equipment and extended monitoring periods.
+Slabs-on-grade, the dominant foundation type across most of San Diego's inland neighborhoods, hold moisture longer than crawl spaces and require specialized drying equipment and extended monitoring periods.
 
 ## Service area
 
 Flood Fixers responds to water damage throughout San Diego County, including Chula Vista, El Cajon, Escondido, La Mesa, National City, Oceanside, Santee, and the coastal communities from Coronado to Encinitas. City-specific pages detail local response logistics and common loss types for each area.
 
-If you're seeing moisture readings that won't drop, buckling floors, or a musty smell that appeared after a recent leak, call (855) 204-1124 to schedule your moisture assessment. We'll map what the water actually reached — not just what's visible — and give you a clear picture of what drying will take before any work begins.
+If you're seeing moisture readings that won't drop, buckling floors, or a musty smell that appeared after a recent leak, call (855) 204-1124 to schedule your moisture assessment. We'll map what the water actually reached, not just what's visible, and give you a clear picture of what drying will take before any work begins.

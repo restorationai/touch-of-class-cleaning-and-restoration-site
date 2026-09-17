@@ -15,8 +15,8 @@ breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Blog"}]
 faq: []
 rendered: true
 ---
-Flooding doesn't wait for business hours, and neither does the anxiety that comes with it. The posts here are written to give Honolulu homeowners and property managers straight answers — what to do in the first hour after a pipe bursts, how mold spreads in Hawaii's humidity, what your adjuster is actually looking for when you file a water damage claim, and what the drying process looks like from day one to the final moisture reading.
+Flooding doesn't wait for business hours, and neither does the anxiety that comes with it. The posts here are written to give Honolulu homeowners and property managers straight answers, what to do in the first hour after a pipe bursts, how mold spreads in Hawaii's humidity, what your adjuster is actually looking for when you file a water damage claim, and what the drying process looks like from day one to the final moisture reading.
 
-You'll find emergency response guides you can skim on a phone screen while standing in wet carpet, plain-language walkthroughs of the insurance documentation process, and honest explainers on regional hazards — from trade-wind-driven rain finding its way through aging window flashing to the way Oahu's warm, damp winters accelerate microbial growth inside walls. Some posts are practical checklists; others go deeper into the science of structural drying or the difference between surface mold and a hidden cavity problem.
+You'll find emergency response guides you can skim on a phone screen while standing in wet carpet, plain-language walkthroughs of the insurance documentation process, and honest explainers on regional hazards, from trade-wind-driven rain finding its way through aging window flashing to the way Oahu's warm, damp winters accelerate microbial growth inside walls. Some posts are practical checklists; others go deeper into the science of structural drying or the difference between surface mold and a hidden cavity problem.
 
 Read whatever's useful. These articles are written to help you make good decisions whether you call us or not.

@@ -19,13 +19,13 @@ state: "MS"
 primary: false
 rendered: true
 ---
-When a pipe bursts under a slab or a slow roof leak finally saturates the insulation in your Escatawpa home, the last thing you want is a restoration crew that treats your property like a checkbox on a regional route. HomeLyft Restoration MS handles water damage, fire and smoke cleanup, mold remediation, and structural drying for Escatawpa property owners — working through the full scope of the loss, from the first moisture reading to the final repaired surface, so you are not left managing a chain of disconnected subcontractors.
+When a pipe bursts under a slab or a slow roof leak finally saturates the insulation in your Escatawpa home, the last thing you want is a restoration crew that treats your property like a checkbox on a regional route. HomeLyft Restoration MS handles water damage, fire and smoke cleanup, mold remediation, and structural drying for Escatawpa property owners, working through the full scope of the loss, from the first moisture reading to the final repaired surface, so you are not left managing a chain of disconnected subcontractors.
 
 ## Restoration emergencies common in Escatawpa
 
-Escatawpa sits in Jackson County along the upper tidal reaches of the Escatawpa River, and that geography shapes the kind of damage property owners deal with here. Gulf Coast humidity rarely drops low enough to let a wet crawl space or a flooded wall cavity dry on its own — mold can begin colonizing damp cellulose materials within 24 to 48 hours under typical summer conditions. The area's housing stock includes a significant number of older pier-and-beam and wood-frame homes where subfloor assemblies absorb moisture quickly and hold it long after the visible water is gone.
+Escatawpa sits in Jackson County along the upper tidal reaches of the Escatawpa River, and that geography shapes the kind of damage property owners deal with here. Gulf Coast humidity rarely drops low enough to let a wet crawl space or a flooded wall cavity dry on its own, mold can begin colonizing damp cellulose materials within 24 to 48 hours under typical summer conditions. The area's housing stock includes a significant number of older pier-and-beam and wood-frame homes where subfloor assemblies absorb moisture quickly and hold it long after the visible water is gone.
 
-Hurricane-season storm surges and heavy rain events push water into low-lying lots faster than municipal drainage can handle it. Even outside named storms, the region averages well over 60 inches of rainfall per year, and repeated wet-dry cycles cause exterior cladding, window seals, and roof penetrations to degrade faster than they would in a drier climate. When those envelope failures let water in, the damage rarely stays near the entry point — it migrates along framing, wicks up drywall, and pools in areas that are not visible until flooring starts to buckle or an odor develops.
+Hurricane-season storm surges and heavy rain events push water into low-lying lots faster than municipal drainage can handle it. Even outside named storms, the region averages well over 60 inches of rainfall per year, and repeated wet-dry cycles cause exterior cladding, window seals, and roof penetrations to degrade faster than they would in a drier climate. When those envelope failures let water in, the damage rarely stays near the entry point, it migrates along framing, wicks up drywall, and pools in areas that are not visible until flooring starts to buckle or an odor develops.
 
 Fire damage in Escatawpa frequently involves older electrical systems and wood-burning appliances in homes that predate modern fire codes. Smoke residue from these fires tends to be heavy and oily, penetrating porous materials deeply and requiring more than surface cleaning to fully neutralize the odor.
 
@@ -33,7 +33,7 @@ Fire damage in Escatawpa frequently involves older electrical systems and wood-b
 
 ### Water damage restoration
 
-Water damage in Escatawpa often starts in crawl spaces and subfloor cavities that stay damp through the humid months, or arrives suddenly during a Gulf Coast rain event that overwhelms gutters and grade. We extract standing water, map moisture with thermal imaging and pin meters, and set commercial-grade drying equipment sized to the actual affected area — not a one-size estimate. Drying timelines and documentation are tracked daily so your insurance adjuster has a clear record.
+Water damage in Escatawpa often starts in crawl spaces and subfloor cavities that stay damp through the humid months, or arrives suddenly during a Gulf Coast rain event that overwhelms gutters and grade. We extract standing water, map moisture with thermal imaging and pin meters, and set commercial-grade drying equipment sized to the actual affected area, not a one-size estimate. Drying timelines and documentation are tracked daily so your insurance adjuster has a clear record.
 
 ### Mold remediation
 
@@ -41,20 +41,20 @@ The combination of high ambient humidity and older construction materials makes 
 
 ### Fire and smoke damage cleanup
 
-After a kitchen fire or a chimney event, smoke residue settles into walls, ductwork, and soft furnishings throughout the structure — not just the room of origin. Our fire restoration process includes structural assessment, soot removal, odor neutralization using hydroxyl or thermal fogging where appropriate, and coordination with your carrier on contents documentation.
+After a kitchen fire or a chimney event, smoke residue settles into walls, ductwork, and soft furnishings throughout the structure, not just the room of origin. Our fire restoration process includes structural assessment, soot removal, odor neutralization using hydroxyl or thermal fogging where appropriate, and coordination with your carrier on contents documentation.
 
 ### Storm and wind damage
 
-Jackson County properties take a beating during Gulf hurricane season. We board up and tarp damaged structures to stop secondary water intrusion, then move into full restoration once the site is stable — debris removal, structural drying, and repair work handled under one scope.
+Jackson County properties take a beating during Gulf hurricane season. We board up and tarp damaged structures to stop secondary water intrusion, then move into full restoration once the site is stable, debris removal, structural drying, and repair work handled under one scope.
 
 ## Coverage and how fast we can get there
 
-HomeLyft Restoration MS is headquartered in Gulfport, roughly 45 to 50 miles west of Escatawpa via I-10 East. That route is straightforward and well-traveled, and our crews are familiar with it. From the interstate, we reach the Escatawpa area by taking the Highway 63 corridor north, which puts us close to residential areas along the river and the communities that sit between Escatawpa and Moss Point. Call us to confirm scheduling and get a realistic arrival window based on current crew availability — we will give you a straight answer rather than a number that sounds good.
+HomeLyft Restoration MS is headquartered in Gulfport, roughly 45 to 50 miles west of Escatawpa via I-10 East. That route is straightforward and well-traveled, and our crews are familiar with it. From the interstate, we reach the Escatawpa area by taking the Highway 63 corridor north, which puts us close to residential areas along the river and the communities that sit between Escatawpa and Moss Point. Call us to confirm scheduling and get a realistic arrival window based on current crew availability, we will give you a straight answer rather than a number that sounds good.
 
 ## Building stock, site conditions, and permits in Escatawpa
 
 Escatawpa is unincorporated, so building permits for structural repair or rebuild generally come through Jackson County rather than a city hall. County review is typically triggered by structural framing work, roof replacement, electrical or mechanical changes, and by anything in a mapped FEMA flood zone, where elevation and substantial-improvement rules apply. Mississippi's coastal counties also carry wind-load and wind-borne debris requirements, so reroofing and sheathing repairs are worth confirming before work starts.
 
-The ground here is coastal-plain sand and loam over a shallow water table — no basements, and slab-on-grade homes from the 1970s onward sit low to grade. Houses of that vintage often still have cast iron drains, galvanized or early copper supply, and pre-1978 paint or asbestos-containing floor tile and mastic, all of which change how a demolition scope is written.
+The ground here is coastal-plain sand and loam over a shallow water table, no basements, and slab-on-grade homes from the 1970s onward sit low to grade. Houses of that vintage often still have cast iron drains, galvanized or early copper supply, and pre-1978 paint or asbestos-containing floor tile and mastic, all of which change how a demolition scope is written.
 
-If you are dealing with water, fire, smoke, or mold damage at an Escatawpa property, call HomeLyft Restoration MS at (228) 284-5200. We will walk you through what we are seeing, what the process looks like, and what you can expect — before any work begins.
+If you are dealing with water, fire, smoke, or mold damage at an Escatawpa property, call HomeLyft Restoration MS at (228) 284-5200. We will walk you through what we are seeing, what the process looks like, and what you can expect, before any work begins.

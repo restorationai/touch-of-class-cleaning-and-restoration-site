@@ -20,25 +20,25 @@ state: "NJ"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-The smell of smoke doesn't leave a house the way water does — it binds to plaster, soaks into wood framing, and settles into every closet and cabinet. In Highland Park's dense stock of 1910s–1940s colonials and two-family homes, that problem is compounded by construction materials that were never designed to be cleaned with modern chemistry: horsehair plaster, old-growth fir framing, and layers of oil-based paint that can trap char and odor deep beneath the surface. When a fire tears through a home in the 08904 ZIP code, the restoration challenge isn't just what burned — it's everything the smoke touched afterward.
+The smell of smoke doesn't leave a house the way water does, it binds to plaster, soaks into wood framing, and settles into every closet and cabinet. In Highland Park's dense stock of 1910s–1940s colonials and two-family homes, that problem is compounded by construction materials that were never designed to be cleaned with modern chemistry: horsehair plaster, old-growth fir framing, and layers of oil-based paint that can trap char and odor deep beneath the surface. When a fire tears through a home in the 08904 ZIP code, the restoration challenge isn't just what burned, it's everything the smoke touched afterward.
 
 ## Why Highland Park's Older Housing Stock Complicates Fire Recovery
 
-Most of Highland Park's residential neighborhoods — from the craftsman bungalows near Donaldson Park to the two-family colonials in Livingston Manor — were built before modern building codes standardized fire-stopping, vapor barriers, and synthetic insulation. That matters enormously after a structural fire. In pre-war construction, open balloon framing (where wall cavities run continuously from basement to attic) allows smoke, soot, and combustion gases to travel vertically through the entire structure, even when the fire itself was confined to one floor or one room.
+Most of Highland Park's residential neighborhoods, from the craftsman bungalows near Donaldson Park to the two-family colonials in Livingston Manor, were built before modern building codes standardized fire-stopping, vapor barriers, and synthetic insulation. That matters enormously after a structural fire. In pre-war construction, open balloon framing (where wall cavities run continuously from basement to attic) allows smoke, soot, and combustion gases to travel vertically through the entire structure, even when the fire itself was confined to one floor or one room.
 
-This means a kitchen fire in a 1930s Triangle-neighborhood colonial can deposit soot inside wall cavities two stories up. Standard post-fire inspections that work fine in newer construction will miss it. Our crews probe wall cavities with borescopes and use thermal imaging to trace smoke migration paths before any cleaning or reconstruction begins — because restoring surfaces while hidden contamination remains is a short-term fix that fails within months.
+This means a kitchen fire in a 1930s Triangle-neighborhood colonial can deposit soot inside wall cavities two stories up. Standard post-fire inspections that work fine in newer construction will miss it. Our crews probe wall cavities with borescopes and use thermal imaging to trace smoke migration paths before any cleaning or reconstruction begins, because restoring surfaces while hidden contamination remains is a short-term fix that fails within months.
 
-The borough's aging electrical infrastructure adds another layer of risk. Many homes still have original knob-and-tube wiring in attic spaces or partial panel upgrades that left older branch circuits in place. After a fire, those circuits need to be evaluated by a licensed electrician before we restore power to affected areas — something we coordinate directly so the reconstruction timeline doesn't stall.
+The borough's aging electrical infrastructure adds another layer of risk. Many homes still have original knob-and-tube wiring in attic spaces or partial panel upgrades that left older branch circuits in place. After a fire, those circuits need to be evaluated by a licensed electrician before we restore power to affected areas, something we coordinate directly so the reconstruction timeline doesn't stall.
 
 ## Our Fire Damage Restoration Process in Highland Park
 
 Every fire loss is different, but the sequence matters. Here's how we approach a typical structural fire in Highland Park:
 
-**Stabilization and board-up.** If windows, doors, or roof sections are compromised, we secure the structure first — both to prevent weather intrusion and to protect against unauthorized entry in a dense residential neighborhood where homes sit close together.
+**Stabilization and board-up.** If windows, doors, or roof sections are compromised, we secure the structure first, both to prevent weather intrusion and to protect against unauthorized entry in a dense residential neighborhood where homes sit close together.
 
 **Smoke and soot mapping.** Before any cleaning, we document the full extent of smoke migration using air sampling, thermal imaging, and visual inspection of wall cavities, attic spaces, and HVAC ductwork. In balloon-framed homes, this step is non-negotiable.
 
-**Content pack-out.** Salvageable belongings are inventoried, packed, and transported to our facility for cleaning and deodorization — keeping them out of the work zone and protecting them from secondary damage during demolition.
+**Content pack-out.** Salvageable belongings are inventoried, packed, and transported to our facility for cleaning and deodorization, keeping them out of the work zone and protecting them from secondary damage during demolition.
 
 **Structural cleaning and deodorization.** We use hydroxyl generators and thermal fogging alongside wet and dry sponge cleaning methods calibrated to the surface type. Horsehair plaster, for example, requires lower-moisture techniques than modern drywall to avoid crumbling.
 
@@ -46,18 +46,18 @@ Every fire loss is different, but the sequence matters. Here's how we approach a
 
 ## Reaching Highland Park Around the Clock
 
-The Restoration Group operates 24/7, and our Kenilworth headquarters puts us roughly 20 minutes from most Highland Park addresses under normal traffic conditions — typically via Route 1 to New Brunswick or the Garden State Parkway to Route 27. The Landing Lane Bridge and Route 27 corridor give us direct access to the Raritan Avenue business district and the residential blocks north of it. For a fire loss, that proximity means we can have a crew on-site for emergency stabilization the same night you call, not the following morning.
+The Restoration Group operates 24/7, and our Kenilworth headquarters puts us roughly 20 minutes from most Highland Park addresses under normal traffic conditions, typically via Route 1 to New Brunswick or the Garden State Parkway to Route 27. The Landing Lane Bridge and Route 27 corridor give us direct access to the Raritan Avenue business district and the residential blocks north of it. For a fire loss, that proximity means we can have a crew on-site for emergency stabilization the same night you call, not the following morning.
 
-If your property is near the North Highland Park or Meadow neighborhood streets closer to the river, we account for Route 27 congestion during peak hours and route accordingly — this is not a part of Middlesex County where we're navigating blind.
+If your property is near the North Highland Park or Meadow neighborhood streets closer to the river, we account for Route 27 congestion during peak hours and route accordingly, this is not a part of Middlesex County where we're navigating blind.
 
 ## Insurance Coordination for Highland Park Fire Claims
 
-Fire losses generate some of the most complex insurance claims in residential restoration. We document the loss photographically and in writing from the first hour on-site, produce line-item Xactimate estimates in the format most major carriers use, and communicate directly with your adjuster throughout the process. You shouldn't have to translate between your contractor and your insurance company — that's our job.
+Fire losses generate some of the most complex insurance claims in residential restoration. We document the loss photographically and in writing from the first hour on-site, produce line-item Xactimate estimates in the format most major carriers use, and communicate directly with your adjuster throughout the process. You shouldn't have to translate between your contractor and your insurance company, that's our job.
 
-For multi-unit properties in Highland Park — the two- and three-family homes common along the Raritan Avenue corridor and in Livingston Manor — coverage questions around shared walls, separate policies for owner and tenant, and landlord liability can complicate the claim. We've worked through those scenarios before and can help you identify what documentation each policy will require.
+For multi-unit properties in Highland Park, the two- and three-family homes common along the Raritan Avenue corridor and in Livingston Manor, coverage questions around shared walls, separate policies for owner and tenant, and landlord liability can complicate the claim. We've worked through those scenarios before and can help you identify what documentation each policy will require.
 
 ## Local Note
 
-One thing that catches homeowners off guard in Highland Park's older two-families: the shared chimney. Many of these homes were built with a single masonry chimney serving both units, often with a coal-converted-to-gas flue on one side and a fireplace flue on the other. After a fire — even one that starts in a first-floor kitchen — the chimney chase can act as a conduit for smoke and heat into the adjacent unit, creating a secondary damage claim that the upstairs or downstairs neighbor wasn't expecting. We flag this on every two-family fire loss and inspect the shared chimney structure before signing off on any scope of work.
+One thing that catches homeowners off guard in Highland Park's older two-families: the shared chimney. Many of these homes were built with a single masonry chimney serving both units, often with a coal-converted-to-gas flue on one side and a fireplace flue on the other. After a fire, even one that starts in a first-floor kitchen, the chimney chase can act as a conduit for smoke and heat into the adjacent unit, creating a secondary damage claim that the upstairs or downstairs neighbor wasn't expecting. We flag this on every two-family fire loss and inspect the shared chimney structure before signing off on any scope of work.
 
 If you're dealing with fire damage at a Highland Park property, call The Restoration Group at (855) 650-7422. We'll be there to assess the damage, secure the structure, and walk you through every step from stabilization to the final coat of paint.

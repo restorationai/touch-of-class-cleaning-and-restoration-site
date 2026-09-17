@@ -25,29 +25,29 @@ When something traumatic happens at a Redmond home or property, the last thing y
 
 ## What Our Biohazard and Trauma Cleanup Process Looks Like in Redmond
 
-From the moment you reach us at (206) 883-0333, the process is designed to reduce the burden on you. A technician will ask a few brief questions — the type of situation, the location, and whether the property is currently accessible — so we arrive prepared rather than improvising on-site.
+From the moment you reach us at (206) 883-0333, the process is designed to reduce the burden on you. A technician will ask a few brief questions, the type of situation, the location, and whether the property is currently accessible, so we arrive prepared rather than improvising on-site.
 
-Once on the ground, our crew conducts a contained assessment of the affected areas. Every surface, material, and airspace that requires attention is identified before any work begins. We use hospital-grade disinfectants, EPA-registered biocides, and HEPA-filtered air scrubbers to address biological contamination at the pathogen level, not just the visible level. Materials that cannot be safely restored — flooring, drywall, subflooring, soft goods — are removed, bagged, and disposed of in compliance with Washington State Department of Ecology regulations for biohazardous waste.
+Once on the ground, our crew conducts a contained assessment of the affected areas. Every surface, material, and airspace that requires attention is identified before any work begins. We use hospital-grade disinfectants, EPA-registered biocides, and HEPA-filtered air scrubbers to address biological contamination at the pathogen level, not just the visible level. Materials that cannot be safely restored, flooring, drywall, subflooring, soft goods, are removed, bagged, and disposed of in compliance with Washington State Department of Ecology regulations for biohazardous waste.
 
 Throughout the process, we document everything: photographs, disposal manifests, and written remediation records. That documentation matters for insurance, for peace of mind, and in some cases for legal or estate purposes.
 
 ## Response Times to Redmond from Our Federal Way Headquarters
 
-Our headquarters in Federal Way puts us roughly 25–35 minutes from most Redmond addresses under normal I-5 and SR-99 corridor conditions — closer via SR-18 and I-405 depending on where in Redmond you are. For most calls, you can expect a technician on-site within 60 to 90 minutes of your first contact. If you're near the Overlake or Marymoor area, response times are often on the shorter end of that window.
+Our headquarters in Federal Way puts us roughly 25–35 minutes from most Redmond addresses under normal I-5 and SR-99 corridor conditions, closer via SR-18 and I-405 depending on where in Redmond you are. For most calls, you can expect a technician on-site within 60 to 90 minutes of your first contact. If you're near the Overlake or Marymoor area, response times are often on the shorter end of that window.
 
 We operate 24 hours a day, seven days a week. Trauma and unattended death cleanup situations don't follow business hours, and neither do we. If you're calling at 2 a.m. on a Sunday, you'll reach a live person, not a voicemail.
 
 ## Discretion, Privacy, and What to Expect on Your Property
 
-One concern we hear often — especially from families and property managers — is visibility. Neighbors, tenants, and passersby shouldn't know what's happening inside a home unless you choose to tell them. Our vehicles are unmarked. Our crew arrives in plain work attire, not branded hazmat suits that draw attention from the street. We work within the footprint of the affected space and do not discuss the nature of the job with anyone outside your authorized contacts.
+One concern we hear often, especially from families and property managers, is visibility. Neighbors, tenants, and passersby shouldn't know what's happening inside a home unless you choose to tell them. Our vehicles are unmarked. Our crew arrives in plain work attire, not branded hazmat suits that draw attention from the street. We work within the footprint of the affected space and do not discuss the nature of the job with anyone outside your authorized contacts.
 
 If the property is part of an estate, a rental unit, or a situation involving multiple stakeholders, we can coordinate directly with attorneys, property management companies, or insurance adjusters on your behalf. You tell us who needs to be in the loop, and we work within those boundaries.
 
-National Restoration Construction is IICRC Certified, ANSI Certified, and an EPA Certified Firm — credentials that matter when insurance carriers review remediation documentation and when you need confidence that the work meets an established professional standard.
+National Restoration Construction is IICRC Certified, ANSI Certified, and an EPA Certified Firm, credentials that matter when insurance carriers review remediation documentation and when you need confidence that the work meets an established professional standard.
 
 ## Navigating Insurance for Biohazard Cleanup in Redmond
 
-Most homeowners' insurance policies include some coverage for trauma scene cleanup and biohazard remediation, though the specifics depend on your carrier and policy language. Washington State policies vary, and coverage for unattended death cleanup or blood cleanup is not always automatic — it often falls under a rider or supplemental coverage.
+Most homeowners' insurance policies include some coverage for trauma scene cleanup and biohazard remediation, though the specifics depend on your carrier and policy language. Washington State policies vary, and coverage for unattended death cleanup or blood cleanup is not always automatic, it often falls under a rider or supplemental coverage.
 
 Here's what we handle: we document the scope of work in the format most carriers require, communicate directly with your adjuster if you authorize it, and provide itemized invoices that align with standard insurance line items. We've worked with virtually every major carrier that operates in the Puget Sound region.
 
@@ -57,4 +57,4 @@ If you're unsure whether your policy covers this situation, call us anyway. We c
 
 ---
 
-If you're in Redmond and facing a situation that needs immediate, professional attention, reach out to National Restoration Construction at **(206) 883-0333**. You don't need to have all the answers before you call — that's what we're here for.
+If you're in Redmond and facing a situation that needs immediate, professional attention, reach out to National Restoration Construction at **(206) 883-0333**. You don't need to have all the answers before you call, that's what we're here for.

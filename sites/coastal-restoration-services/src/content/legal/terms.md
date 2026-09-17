@@ -24,7 +24,7 @@ By visiting this website or requesting services from Coastal Restoration Service
 
 Coastal Restoration Services Inc operates within a defined service area in and around Santa Barbara and San Luis Obispo counties. Requests from outside that area may not be fulfilled, and submitting a contact form does not guarantee service availability at your location.
 
-Any estimate provided — whether over the phone, by email, or in person — is an assessment based on visible conditions at the time of inspection. It is **not a binding contract**. A signed work-authorization form is required before any remediation, restoration, or reconstruction work begins. That signed authorization, along with any attached scope-of-work documents, governs the actual service relationship between you and Coastal Restoration Services Inc.
+Any estimate provided, whether over the phone, by email, or in person, is an assessment based on visible conditions at the time of inspection. It is **not a binding contract**. A signed work-authorization form is required before any remediation, restoration, or reconstruction work begins. That signed authorization, along with any attached scope-of-work documents, governs the actual service relationship between you and Coastal Restoration Services Inc.
 
 ## Payment Terms and Accepted Methods
 
@@ -38,7 +38,7 @@ Insurance coordination does not guarantee claim approval. Coverage decisions are
 
 ## Scope of Work and Liability
 
-The scope of work performed is limited to what is described in the signed work-authorization form. Conditions discovered after work begins that were not visible during the initial inspection — such as concealed mold growth, structural damage behind walls, or pre-existing code violations — may require a revised authorization and adjusted pricing before work on those items proceeds.
+The scope of work performed is limited to what is described in the signed work-authorization form. Conditions discovered after work begins that were not visible during the initial inspection, such as concealed mold growth, structural damage behind walls, or pre-existing code violations, may require a revised authorization and adjusted pricing before work on those items proceeds.
 
 Coastal Restoration Services Inc carries the licensure and insurance required under California law for the work we perform. Our liability is limited to the scope of services described in the signed authorization and does not extend to pre-existing conditions, consequential damages, or decisions made by your insurance carrier.
 

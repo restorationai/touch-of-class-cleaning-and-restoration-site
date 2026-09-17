@@ -17,20 +17,20 @@ published_at: "2026-05-21"
 services: ["mold-remediation"]
 rendered: true
 ---
-Most mold you find in a home is not the toxic black mold people fear — but some of it is, and the color alone won't tell you which is which. The short answer: you cannot reliably identify *Stachybotrys chartarum* (the mold commonly called "black mold") by eye. Color, texture, and location give you clues, but a lab test is the only way to confirm species. What you *can* do at home is assess the situation, understand the risk factors, and decide whether this is a DIY wipe-down or something that needs professional remediation.
+Most mold you find in a home is not the toxic black mold people fear, but some of it is, and the color alone won't tell you which is which. The short answer: you cannot reliably identify *Stachybotrys chartarum* (the mold commonly called "black mold") by eye. Color, texture, and location give you clues, but a lab test is the only way to confirm species. What you *can* do at home is assess the situation, understand the risk factors, and decide whether this is a DIY wipe-down or something that needs professional remediation.
 
 ## Why Color Is a Misleading Clue
 
-The term "black mold" has become shorthand for *Stachybotrys chartarum*, but dozens of mold species grow in dark colors — green-black, gray-black, blue-black — and most of them are not *Stachybotrys*. Meanwhile, *Stachybotrys* itself can appear dark green or even grayish depending on its growth stage and the surface it colonizes.
+The term "black mold" has become shorthand for *Stachybotrys chartarum*, but dozens of mold species grow in dark colors, green-black, gray-black, blue-black, and most of them are not *Stachybotrys*. Meanwhile, *Stachybotrys* itself can appear dark green or even grayish depending on its growth stage and the surface it colonizes.
 
 Common household molds and their typical appearances:
 
-- **Cladosporium** — olive green to black, often found on window sills, fabric, and wood. Very common, not considered highly toxic.
-- **Aspergillus** — can be black, green, yellow, or white depending on the strain. Some strains produce mycotoxins; others don't.
-- **Penicillium** — usually blue-green with a powdery texture. Common after water damage, spreads quickly.
-- **Stachybotrys chartarum** — dark greenish-black, slimy or wet-looking when active, powdery when dry. Almost always found on materials with high cellulose content — drywall paper, ceiling tiles, wood — that have been wet for an extended period (typically 7–10 days or more).
+- **Cladosporium**, olive green to black, often found on window sills, fabric, and wood. Very common, not considered highly toxic.
+- **Aspergillus**, can be black, green, yellow, or white depending on the strain. Some strains produce mycotoxins; others don't.
+- **Penicillium**, usually blue-green with a powdery texture. Common after water damage, spreads quickly.
+- **Stachybotrys chartarum**, dark greenish-black, slimy or wet-looking when active, powdery when dry. Almost always found on materials with high cellulose content, drywall paper, ceiling tiles, wood, that have been wet for an extended period (typically 7–10 days or more).
 
-If the growth you're looking at is fuzzy, powdery, or white-to-green, it's more likely a common species. If it's dark, slimy, and growing on water-damaged drywall or wood that stayed wet for over a week, the risk of *Stachybotrys* is higher — though still not certain without testing.
+If the growth you're looking at is fuzzy, powdery, or white-to-green, it's more likely a common species. If it's dark, slimy, and growing on water-damaged drywall or wood that stayed wet for over a week, the risk of *Stachybotrys* is higher, though still not certain without testing.
 
 ## Where Each Type Tends to Grow
 
@@ -48,19 +48,19 @@ Location and moisture history are more useful diagnostic clues than color.
 - On ceiling tiles below a roof leak that was patched but not dried properly
 - In basements that flooded and weren't fully dried within 24–48 hours
 
-In Madison and the broader Tennessee Valley, the combination of humid summers and older housing stock — particularly homes built in the 1970s and 1980s with paper-faced drywall — creates conditions where *Stachybotrys* can establish itself after even a single significant water event if drying is delayed. If you've had a leak that sat for more than a few days, the moisture history alone warrants a closer look.
+In Madison and the broader Tennessee Valley, the combination of humid summers and older housing stock, particularly homes built in the 1970s and 1980s with paper-faced drywall, creates conditions where *Stachybotrys* can establish itself after even a single significant water event if drying is delayed. If you've had a leak that sat for more than a few days, the moisture history alone warrants a closer look.
 
 ## How To Assess What You're Looking At
 
-Before you touch anything, take stock of the situation. Do not disturb the growth if the affected area is larger than about 10 square feet — that's roughly a 3×3 patch — or if it's in an HVAC system, because agitating mold releases spores into the air.
+Before you touch anything, take stock of the situation. Do not disturb the growth if the affected area is larger than about 10 square feet, that's roughly a 3×3 patch, or if it's in an HVAC system, because agitating mold releases spores into the air.
 
 For smaller patches you're evaluating visually:
 
 1. **Note the surface.** Mold on non-porous surfaces (tile, glass, metal) is almost always removable and less likely to be *Stachybotrys*, which needs cellulose. Mold on drywall, wood framing, or ceiling tiles is a more serious situation.
 2. **Check for sliminess.** Active *Stachybotrys* has a wet, slimy appearance. If it looks slimy rather than fuzzy, treat it with more caution.
-3. **Smell the area.** All mold produces a musty, earthy odor from microbial volatile organic compounds (MVOCs). A strong smell doesn't confirm *Stachybotrys*, but it does confirm active mold growth — and the stronger the smell behind a wall or under flooring, the larger the colony likely is.
+3. **Smell the area.** All mold produces a musty, earthy odor from microbial volatile organic compounds (MVOCs). A strong smell doesn't confirm *Stachybotrys*, but it does confirm active mold growth, and the stronger the smell behind a wall or under flooring, the larger the colony likely is.
 4. **Trace the moisture source.** Find where the water came from. A one-time condensation event is different from a slow leak that's been feeding growth for months. If you can't find a clear moisture source, that's a sign the problem may be larger than what's visible.
-5. **Consider an air quality or surface test.** DIY mold test kits are available at hardware stores, but their results are often difficult to interpret without lab analysis. A certified industrial hygienist or mold inspector can take air samples and surface swabs that identify species and spore counts — useful if you're dealing with a real estate transaction, an insurance claim, or a health concern.
+5. **Consider an air quality or surface test.** DIY mold test kits are available at hardware stores, but their results are often difficult to interpret without lab analysis. A certified industrial hygienist or mold inspector can take air samples and surface swabs that identify species and spore counts, useful if you're dealing with a real estate transaction, an insurance claim, or a health concern.
 
 ## What Not To Do
 
@@ -83,10 +83,10 @@ Call a mold remediation professional when:
 - Anyone in the household has respiratory conditions, immune compromise, or is experiencing unexplained symptoms
 - You're preparing to sell the home or filing an insurance claim and need documentation
 
-Professional remediation isn't just cleaning — it involves containment to prevent cross-contamination, HEPA air filtration during removal, proper disposal of affected materials, and post-remediation verification testing to confirm the area is clear. Professional remediation technicians follow the S520 Standard for Mold Remediation, which sets the protocols for how this work is done safely and thoroughly.
+Professional remediation isn't just cleaning, it involves containment to prevent cross-contamination, HEPA air filtration during removal, proper disposal of affected materials, and post-remediation verification testing to confirm the area is clear. Professional remediation technicians follow the S520 Standard for Mold Remediation, which sets the protocols for how this work is done safely and thoroughly.
 
 ## The Bottom Line
 
-Black mold and regular mold look similar enough that visual identification is genuinely unreliable. What matters more than color is moisture history, surface type, and the size and location of the growth. If you're dealing with a small, surface-level patch on a non-porous material with an obvious and corrected moisture source, you may be able to handle it yourself. If there's any doubt — especially after a significant leak or if the growth is on drywall or wood — the cost of a professional assessment is far lower than the cost of remediation that didn't fully work the first time.
+Black mold and regular mold look similar enough that visual identification is genuinely unreliable. What matters more than color is moisture history, surface type, and the size and location of the growth. If you're dealing with a small, surface-level patch on a non-porous material with an obvious and corrected moisture source, you may be able to handle it yourself. If there's any doubt, especially after a significant leak or if the growth is on drywall or wood, the cost of a professional assessment is far lower than the cost of remediation that didn't fully work the first time.
 
 If you're in the Madison, AL area and want a professional set of eyes on what you're dealing with, Davis Construction Contractors offers mold remediation services and can help you understand what you're actually looking at. Call (256) 771-0326 to talk through your situation.

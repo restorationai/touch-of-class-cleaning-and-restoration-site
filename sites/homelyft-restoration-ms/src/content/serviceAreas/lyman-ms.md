@@ -19,23 +19,23 @@ state: "MS"
 primary: false
 rendered: true
 ---
-HomeLyft Restoration MS handles water damage, mold remediation, fire and smoke cleanup, and storm recovery for homeowners and property managers throughout Lyman. When something goes wrong with your property — a burst pipe, a roof breach after a Gulf storm, smoke damage that has worked its way into your HVAC — our team comes from our Gulfport base directly to your door, ready to assess, document, and start work the same day you call.
+HomeLyft Restoration MS handles water damage, mold remediation, fire and smoke cleanup, and storm recovery for homeowners and property managers throughout Lyman. When something goes wrong with your property, a burst pipe, a roof breach after a Gulf storm, smoke damage that has worked its way into your HVAC, our team comes from our Gulfport base directly to your door, ready to assess, document, and start work the same day you call.
 
 ## Restoration emergencies common in Lyman
 
-Lyman sits in Harrison County, close enough to the Gulf Coast that it catches the full force of tropical systems while also dealing with the slower, quieter damage that Mississippi's humidity inflicts year-round. The area's housing stock includes a mix of older wood-frame homes and newer construction on slab foundations — two very different problems when water gets involved. Older pier-and-beam houses can hide standing water in crawl spaces for days before a homeowner notices the floor starting to flex. Slab homes, meanwhile, can trap moisture under vinyl plank or tile, where mold can begin colonizing within 24 to 48 hours of a leak.
+Lyman sits in Harrison County, close enough to the Gulf Coast that it catches the full force of tropical systems while also dealing with the slower, quieter damage that Mississippi's humidity inflicts year-round. The area's housing stock includes a mix of older wood-frame homes and newer construction on slab foundations, two very different problems when water gets involved. Older pier-and-beam houses can hide standing water in crawl spaces for days before a homeowner notices the floor starting to flex. Slab homes, meanwhile, can trap moisture under vinyl plank or tile, where mold can begin colonizing within 24 to 48 hours of a leak.
 
-Harrison County's water table is high, and Lyman's position along the I-10 corridor means the area drains toward low-lying areas quickly when heavy rain hits. Roof damage from wind-driven rain — a hallmark of Gulf Coast storm seasons — is a frequent first call we receive from Lyman residents, often followed by a mold assessment request weeks later when the initial patch didn't fully seal the structure.
+Harrison County's water table is high, and Lyman's position along the I-10 corridor means the area drains toward low-lying areas quickly when heavy rain hits. Roof damage from wind-driven rain, a hallmark of Gulf Coast storm seasons, is a frequent first call we receive from Lyman residents, often followed by a mold assessment request weeks later when the initial patch didn't fully seal the structure.
 
 ## Services we provide in Lyman
 
 ### Water damage restoration
 
-Water damage in Lyman frequently starts with storm intrusion or plumbing failures in older supply lines. We extract standing water, use thermal imaging to locate moisture hidden inside walls and under flooring, and dry the structure to documented moisture levels. Every job is logged with readings and photographs — material your insurance adjuster will need.
+Water damage in Lyman frequently starts with storm intrusion or plumbing failures in older supply lines. We extract standing water, use thermal imaging to locate moisture hidden inside walls and under flooring, and dry the structure to documented moisture levels. Every job is logged with readings and photographs, material your insurance adjuster will need.
 
 ### Mold remediation
 
-Lyman's combination of heat, humidity, and aging housing stock makes mold a realistic outcome after almost any water event. We contain affected areas, remove compromised materials, treat surfaces, and clear the space — following industry drying and remediation standards so the work holds up to scrutiny. We do not make health claims, but we do remove the visible and hidden growth that causes ongoing structural damage.
+Lyman's combination of heat, humidity, and aging housing stock makes mold a realistic outcome after almost any water event. We contain affected areas, remove compromised materials, treat surfaces, and clear the space, following industry drying and remediation standards so the work holds up to scrutiny. We do not make health claims, but we do remove the visible and hidden growth that causes ongoing structural damage.
 
 ### Fire and smoke damage restoration
 
@@ -47,16 +47,16 @@ When a storm peels back roofing or breaks out windows, the structure needs to be
 
 ### Reconstruction
 
-Once mitigation is complete, many Lyman homeowners need the damaged areas rebuilt — drywall, flooring, cabinetry, trim. We handle reconstruction in-house so you are not managing a separate contractor while your home is still partially open.
+Once mitigation is complete, many Lyman homeowners need the damaged areas rebuilt, drywall, flooring, cabinetry, trim. We handle reconstruction in-house so you are not managing a separate contractor while your home is still partially open.
 
 ## Coverage and how fast we can get there
 
-Our Gulfport headquarters puts us roughly 10 to 15 miles from Lyman via U.S. Highway 49 or I-10, depending on exactly where your property sits in Harrison County. That distance is straightforward on most days, and we prioritize Lyman calls on our dispatch schedule the same way we do calls from Gulfport itself. When you call **(228) 284-5200**, our team will confirm scheduling and give you a realistic arrival window based on current crew availability — we will not give you a time we cannot keep.
+Our Gulfport headquarters puts us roughly 10 to 15 miles from Lyman via U.S. Highway 49 or I-10, depending on exactly where your property sits in Harrison County. That distance is straightforward on most days, and we prioritize Lyman calls on our dispatch schedule the same way we do calls from Gulfport itself. When you call **(228) 284-5200**, our team will confirm scheduling and give you a realistic arrival window based on current crew availability, we will not give you a time we cannot keep.
 
 ## Building stock, site conditions, and permits in Lyman
 
-Lyman is unincorporated, so structural repair and rebuild permits come from Harrison County rather than a city hall — county building inspection signs off on framing, roof deck replacement, and electrical, and the substantial work that follows a bad storm usually triggers one. Coastal Mississippi work also carries high-wind fastening and, near mapped flood areas, elevation requirements, so a rebuild scope is rarely a like-for-like patch.
+Lyman is unincorporated, so structural repair and rebuild permits come from Harrison County rather than a city hall, county building inspection signs off on framing, roof deck replacement, and electrical, and the substantial work that follows a bad storm usually triggers one. Coastal Mississippi work also carries high-wind fastening and, near mapped flood areas, elevation requirements, so a rebuild scope is rarely a like-for-like patch.
 
-Much of the older stock here predates 1978, which means lead paint on trim and siding, and pre-1980 houses can hide asbestos in floor tile, mastic, and duct wrap. Plan for that before demolition. Supply and drain vintages vary widely — galvanized steel, copper, cast iron, and 1980s polybutylene all show up — and each fails differently: pinholes, scale, cracked hubs, split fittings behind finished walls.
+Much of the older stock here predates 1978, which means lead paint on trim and siding, and pre-1980 houses can hide asbestos in floor tile, mastic, and duct wrap. Plan for that before demolition. Supply and drain vintages vary widely, galvanized steel, copper, cast iron, and 1980s polybutylene all show up, and each fails differently: pinholes, scale, cracked hubs, split fittings behind finished walls.
 
 If you are dealing with water, fire, smoke, mold, or storm damage at a Lyman property, the next step is a phone call. Reach HomeLyft Restoration MS at **(228) 284-5200** to describe what you are seeing and get a crew scheduled.

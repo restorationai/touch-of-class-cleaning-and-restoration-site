@@ -19,11 +19,11 @@ RT Olson Plumbing, Heating and Air Conditioning handles the full range of plumbi
 
 ## Emergency plumbing
 
-When water is actively going somewhere it shouldn't, every minute matters. RT Olson dispatches around the clock — burst pipes, sudden major leaks, completely backed-up drains, and loss of hot water all qualify as situations that can't wait for a scheduled appointment. The goal on an emergency call is to stop the damage first, then diagnose what caused it, so you're not left managing a worsening situation while waiting on a crew.
+When water is actively going somewhere it shouldn't, every minute matters. RT Olson dispatches around the clock, burst pipes, sudden major leaks, completely backed-up drains, and loss of hot water all qualify as situations that can't wait for a scheduled appointment. The goal on an emergency call is to stop the damage first, then diagnose what caused it, so you're not left managing a worsening situation while waiting on a crew.
 
 ## Reconstruction and renovation
 
-Water and moisture damage rarely stops at the leak itself — drywall, framing, flooring, and cabinetry often need attention once the source is controlled. RT Olson's reconstruction work picks up where mitigation ends, handling the rebuild so you're not coordinating a separate contractor for every trade. This side of the business also covers planned renovation work: bathroom and kitchen remodels, fixture upgrades, and any structural plumbing changes that come with updating an older Inland Empire home.
+Water and moisture damage rarely stops at the leak itself, drywall, framing, flooring, and cabinetry often need attention once the source is controlled. RT Olson's reconstruction work picks up where mitigation ends, handling the rebuild so you're not coordinating a separate contractor for every trade. This side of the business also covers planned renovation work: bathroom and kitchen remodels, fixture upgrades, and any structural plumbing changes that come with updating an older Inland Empire home.
 
 ## Plumbing repairs & installations
 
@@ -31,8 +31,8 @@ The everyday plumbing side covers the full list of residential and light-commerc
 
 ## Heating & air conditioning
 
-Inland Empire summers push residential AC systems hard, and a furnace that fails during a January cold snap is just as urgent as any plumbing call. RT Olson's HVAC work includes air conditioner repair and tune-ups, furnace repair and maintenance, thermostat and controls work, and indoor air quality solutions — filtration, humidity control, and ventilation improvements that make a real difference in how a home feels year-round.
+Inland Empire summers push residential AC systems hard, and a furnace that fails during a January cold snap is just as urgent as any plumbing call. RT Olson's HVAC work includes air conditioner repair and tune-ups, furnace repair and maintenance, thermostat and controls work, and indoor air quality solutions, filtration, humidity control, and ventilation improvements that make a real difference in how a home feels year-round.
 
 ## One company, start to finish
 
-The most disruptive part of a plumbing or water-damage event is often the handoff — mitigation stops, and then you're left finding a separate contractor to put things back together. RT Olson is built to handle both sides under one roof, which means faster scheduling, consistent communication, and no gap between the crew that stopped the problem and the crew that fixes what it left behind. When you're ready to talk through what your home or property needs, call **(951) 344-5596** — any hour, any day.
+The most disruptive part of a plumbing or water-damage event is often the handoff, mitigation stops, and then you're left finding a separate contractor to put things back together. RT Olson is built to handle both sides under one roof, which means faster scheduling, consistent communication, and no gap between the crew that stopped the problem and the crew that fixes what it left behind. When you're ready to talk through what your home or property needs, call **(951) 344-5596**, any hour, any day.

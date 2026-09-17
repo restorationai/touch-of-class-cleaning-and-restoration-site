@@ -20,26 +20,26 @@ state: "MN"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-A house fire in Worthington hits differently than in a larger metro. When smoke settles into a home near Lake Okabena on a cold January night, the combination of subzero temperatures, older housing stock, and a small-town supply chain means restoration decisions made in the first 24 hours carry more weight than anywhere else. Crew Restoration & Construction responds to fire and smoke damage throughout the 56187 area, bringing the equipment and process discipline that a loss of this scale demands — without the runaround that comes from calling a distant call center.
+A house fire in Worthington hits differently than in a larger metro. When smoke settles into a home near Lake Okabena on a cold January night, the combination of subzero temperatures, older housing stock, and a small-town supply chain means restoration decisions made in the first 24 hours carry more weight than anywhere else. Crew Restoration & Construction responds to fire and smoke damage throughout the 56187 area, bringing the equipment and process discipline that a loss of this scale demands, without the runaround that comes from calling a distant call center.
 
 ## Why Worthington Properties See Distinct Fire Damage Challenges
 
-Northwest Minnesota winters shape how fire damage behaves here. When firefighters pump thousands of gallons of water through a structure in January, that water doesn't just soak into drywall — it freezes inside wall cavities, under subfloor sheathing, and in crawl spaces before anyone can extract it. What looks like a contained fire loss on the surface can mask a secondary moisture and ice problem that won't reveal itself until the spring thaw.
+Northwest Minnesota winters shape how fire damage behaves here. When firefighters pump thousands of gallons of water through a structure in January, that water doesn't just soak into drywall, it freezes inside wall cavities, under subfloor sheathing, and in crawl spaces before anyone can extract it. What looks like a contained fire loss on the surface can mask a secondary moisture and ice problem that won't reveal itself until the spring thaw.
 
-Worthington's housing stock adds another layer. Many homes in the Downtown Worthington corridor were built in the mid-20th century, with plaster-and-lath walls, balloon-frame construction, and older wiring configurations that predate modern fire-stop requirements. In balloon-frame homes, fire and smoke travel vertically through open wall cavities with almost no resistance — which means smoke odor and soot can reach the attic from a kitchen fire without any visible scorching on the walls between floors. Identifying the full extent of smoke migration in these structures requires thermal imaging and systematic cavity inspection, not a visual walkthrough.
+Worthington's housing stock adds another layer. Many homes in the Downtown Worthington corridor were built in the mid-20th century, with plaster-and-lath walls, balloon-frame construction, and older wiring configurations that predate modern fire-stop requirements. In balloon-frame homes, fire and smoke travel vertically through open wall cavities with almost no resistance, which means smoke odor and soot can reach the attic from a kitchen fire without any visible scorching on the walls between floors. Identifying the full extent of smoke migration in these structures requires thermal imaging and systematic cavity inspection, not a visual walkthrough.
 
 ## Our Fire Damage Restoration Process in Worthington
 
-The first thing we do on a fire loss isn't cleanup — it's documentation. Every affected surface, every structural member, every piece of personal property gets photographed and catalogued before a single item moves. That documentation protects your insurance claim and gives the adjuster a clear picture of the loss scope.
+The first thing we do on a fire loss isn't cleanup, it's documentation. Every affected surface, every structural member, every piece of personal property gets photographed and catalogued before a single item moves. That documentation protects your insurance claim and gives the adjuster a clear picture of the loss scope.
 
 From there, the process follows a logical sequence:
 
-- **Board-up and structural stabilization** — open windows, compromised roof decking, and damaged doors get secured immediately to prevent weather intrusion and unauthorized entry.
-- **Water and ice extraction** — firefighting water is removed with truck-mounted extractors; in winter losses, we address frozen moisture before it causes secondary structural damage.
-- **Soot and smoke residue removal** — different fire types produce different residue. Protein fires (kitchen grease) leave an almost invisible but intensely odorous film. Synthetic material fires leave oily, smearing soot. Each requires a different cleaning chemistry and technique.
-- **Structural drying** — any water used in suppression is fully dried using commercial desiccant dehumidifiers and air movers, with moisture readings logged until materials return to acceptable levels.
-- **Odor neutralization** — thermal fogging and hydroxyl generation are used to break down smoke odor molecules embedded in porous surfaces, not just mask them.
-- **Reconstruction** — once the structure is clean, dry, and documented, rebuild work begins, from drywall and insulation replacement to full kitchen or room reconstruction.
+- **Board-up and structural stabilization**, open windows, compromised roof decking, and damaged doors get secured immediately to prevent weather intrusion and unauthorized entry.
+- **Water and ice extraction**, firefighting water is removed with truck-mounted extractors; in winter losses, we address frozen moisture before it causes secondary structural damage.
+- **Soot and smoke residue removal**, different fire types produce different residue. Protein fires (kitchen grease) leave an almost invisible but intensely odorous film. Synthetic material fires leave oily, smearing soot. Each requires a different cleaning chemistry and technique.
+- **Structural drying**, any water used in suppression is fully dried using commercial desiccant dehumidifiers and air movers, with moisture readings logged until materials return to acceptable levels.
+- **Odor neutralization**, thermal fogging and hydroxyl generation are used to break down smoke odor molecules embedded in porous surfaces, not just mask them.
+- **Reconstruction**, once the structure is clean, dry, and documented, rebuild work begins, from drywall and insulation replacement to full kitchen or room reconstruction.
 
 ## Reaching Worthington from Sioux Falls
 
@@ -47,10 +47,10 @@ Crew Restoration & Construction is headquartered in Sioux Falls, SD, with servic
 
 ## Worthington Insurance Coordination
 
-Fire losses in Worthington are typically covered under standard homeowner's policies, but the documentation burden falls on the policyholder unless someone is actively managing it. We work alongside your adjuster from the first site visit — providing itemized scope documents, moisture logs, photo evidence, and material specifications in the format carriers expect. This matters especially in total or near-total losses where the rebuild estimate needs to align with local labor and material costs, not national averages that don't reflect what things actually cost in southwest Minnesota.
+Fire losses in Worthington are typically covered under standard homeowner's policies, but the documentation burden falls on the policyholder unless someone is actively managing it. We work alongside your adjuster from the first site visit, providing itemized scope documents, moisture logs, photo evidence, and material specifications in the format carriers expect. This matters especially in total or near-total losses where the rebuild estimate needs to align with local labor and material costs, not national averages that don't reflect what things actually cost in southwest Minnesota.
 
 ## Local Note
 
-Homes in the Lake Okabena area were built across several decades, and a meaningful number of them have crawl spaces rather than full basements. After a fire, crawl-space areas are easy to overlook during the initial walkthrough — but smoke infiltrates these spaces through HVAC returns, plumbing penetrations, and floor framing gaps. We've found significant soot accumulation in crawl spaces beneath rooms that appeared largely undamaged above. In Worthington's climate, a contaminated crawl space that goes untreated through a humid summer can develop secondary mold growth on top of the fire damage, compounding both the health concern and the remediation cost.
+Homes in the Lake Okabena area were built across several decades, and a meaningful number of them have crawl spaces rather than full basements. After a fire, crawl-space areas are easy to overlook during the initial walkthrough, but smoke infiltrates these spaces through HVAC returns, plumbing penetrations, and floor framing gaps. We've found significant soot accumulation in crawl spaces beneath rooms that appeared largely undamaged above. In Worthington's climate, a contaminated crawl space that goes untreated through a humid summer can develop secondary mold growth on top of the fire damage, compounding both the health concern and the remediation cost.
 
-If your home in Worthington has been through a fire — whether a contained kitchen incident or a structural loss — call Crew Restoration & Construction at (605) 965-2727. We'll assess the full scope of the damage, walk you through the process honestly, and get stabilization work started before the situation worsens.
+If your home in Worthington has been through a fire, whether a contained kitchen incident or a structural loss, call Crew Restoration & Construction at (605) 965-2727. We'll assess the full scope of the damage, walk you through the process honestly, and get stabilization work started before the situation worsens.

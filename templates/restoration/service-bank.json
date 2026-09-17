@@ -1,0 +1,81 @@
+{
+  "_doc": "A5 service-name bank (Santino 2026-09-17). Volume-validated long-tail GBP service names, grouped by the base capability that makes them truthful. gbp_service_bank.py fans these out weekly to every client that has the base capability; A2's nightly batch applies them. Volumes are US-national DataForSEO (2026-09). Zero-volume phrasings are excluded on purpose — exact phrasing matters (soaked carpet water removal = 0/mo while carpet water damage = 720/mo). license_gate families only apply when the client record carries the license fact.",
+  "families": {
+    "water-damage-restoration": [
+      {"name": "24/7 Water Damage Restoration", "vol": 480},
+      {"name": "Emergency Water Damage Restoration", "vol": 590},
+      {"name": "Emergency Water Removal", "vol": 320},
+      {"name": "24/7 Emergency Water Cleanup", "vol": 140},
+      {"name": "Emergency Water Cleanup", "vol": 210},
+      {"name": "24/7 Water Cleanup", "vol": 110},
+      {"name": "Water Damage Repair", "vol": 1300},
+      {"name": "Water Mitigation", "vol": 1900},
+      {"name": "Standing Water Removal", "vol": 90},
+      {"name": "Ceiling Water Damage Repair", "vol": 1900},
+      {"name": "Wet Drywall Repair", "vol": 110},
+      {"name": "Carpet Water Damage", "vol": 720},
+      {"name": "Carpet Water Extraction", "vol": 480},
+      {"name": "Wet Carpet Drying", "vol": 260},
+      {"name": "Hardwood Floor Water Damage", "vol": 1600},
+      {"name": "Wood Floor Water Damage Repair", "vol": 880},
+      {"name": "Laminate Floor Water Damage", "vol": 1000},
+      {"name": "Water Damage Under Flooring", "vol": 70}
+    ],
+    "flood-damage-restoration": [
+      {"name": "24/7 Flood Restoration", "vol": 90},
+      {"name": "Emergency Flood Restoration", "vol": 170},
+      {"name": "24/7 Emergency Flood Damage", "vol": 50},
+      {"name": "Emergency Flood Cleanup", "vol": 140},
+      {"name": "Flood Water Removal", "vol": 320},
+      {"name": "Basement Flood Cleanup", "vol": 590}
+    ],
+    "fire-damage-restoration": [
+      {"name": "Emergency Fire Damage Restoration", "vol": 90},
+      {"name": "Fire and Smoke Damage Cleanup", "vol": 140},
+      {"name": "Smoke Odor Removal", "vol": 590},
+      {"name": "Soot Removal", "vol": 480},
+      {"name": "Fire Damage Cleanup", "vol": 720}
+    ],
+    "mold-remediation": [
+      {"name": "Emergency Mold Removal", "vol": 90},
+      {"name": "Black Mold Removal", "vol": 4400},
+      {"name": "Mold Inspection", "vol": 6600},
+      {"name": "Mold Testing", "vol": 9900},
+      {"name": "Attic Mold Removal", "vol": 480},
+      {"name": "Basement Mold Removal", "vol": 590},
+      {"name": "Bathroom Mold Removal", "vol": 320},
+      {"name": "Crawl Space Mold Removal", "vol": 480},
+      {"name": "Mold Removal Behind Walls", "vol": 90}
+    ],
+    "sewage-cleanup": [
+      {"name": "Emergency Sewage Cleanup", "vol": 140},
+      {"name": "Sewage Backup Cleanup", "vol": 720},
+      {"name": "Category 3 Water Cleanup", "vol": 50},
+      {"name": "Basement Sewage Cleanup", "vol": 110}
+    ],
+    "storm-damage-restoration": [
+      {"name": "Emergency Storm Damage Repair", "vol": 210},
+      {"name": "Hurricane Damage Restoration", "vol": 260},
+      {"name": "Wind Damage Repair", "vol": 320},
+      {"name": "Roof Leak Water Damage", "vol": 390},
+      {"name": "Emergency Tarping", "vol": 170},
+      {"name": "Emergency Board Up", "vol": 480}
+    ],
+    "burst-pipe-repair": [
+      {"name": "Burst Pipe Water Damage", "vol": 210},
+      {"name": "Frozen Pipe Water Damage", "vol": 140},
+      {"name": "Pipe Leak Water Damage", "vol": 90},
+      {"name": "Appliance Leak Cleanup", "vol": 50}
+    ],
+    "emergency-plumbing": {
+      "license_gate": "plumbing",
+      "variants": [
+        {"name": "24/7 Emergency Plumbing", "vol": 720},
+        {"name": "24/7 Plumbing", "vol": 480},
+        {"name": "Emergency Plumber", "vol": 720},
+        {"name": "Emergency Plumbing Repair", "vol": 320},
+        {"name": "Burst Pipe Plumber", "vol": 90}
+      ]
+    }
+  }
+}

@@ -21,23 +21,23 @@ If you smell gas inside your home, do one thing before anything else: get everyo
 
 ## Why the Smell Hits You Before the Danger Does
 
-Natural gas is odorless in its raw state. Utility companies add mercaptan — a sulfur compound that smells like rotten eggs or a struck match — specifically so you can detect a leak before concentrations reach dangerous levels. That rotten-egg warning is your early-alert system, and it works. The problem is that people sometimes second-guess it: *maybe it's just the pilot light, maybe it's the neighbor's BBQ, maybe I'm imagining it.* Don't talk yourself out of it. Mercaptan is detectable at concentrations far below what it takes to ignite, which means the smell itself is the safety margin working as designed.
+Natural gas is odorless in its raw state. Utility companies add mercaptan, a sulfur compound that smells like rotten eggs or a struck match, specifically so you can detect a leak before concentrations reach dangerous levels. That rotten-egg warning is your early-alert system, and it works. The problem is that people sometimes second-guess it: *maybe it's just the pilot light, maybe it's the neighbor's BBQ, maybe I'm imagining it.* Don't talk yourself out of it. Mercaptan is detectable at concentrations far below what it takes to ignite, which means the smell itself is the safety margin working as designed.
 
-Propane behaves a little differently than natural gas — it's heavier than air, so it sinks and pools at floor level rather than rising toward the ceiling. If you have a propane appliance and notice the smell low to the ground, near baseboards, or in a basement or crawlspace, the same rule applies: leave first, call from outside.
+Propane behaves a little differently than natural gas, it's heavier than air, so it sinks and pools at floor level rather than rising toward the ceiling. If you have a propane appliance and notice the smell low to the ground, near baseboards, or in a basement or crawlspace, the same rule applies: leave first, call from outside.
 
 ## The Exact Steps to Take When You Smell Gas
 
 Follow these in order. Speed matters, but so does not creating an ignition source on your way out.
 
 1. **Stop what you're doing.** Don't finish the dishes, don't turn off the stove burner, don't check the water heater.
-2. **Alert everyone in the building.** Knock on doors, call out — get people and pets moving toward an exit.
+2. **Alert everyone in the building.** Knock on doors, call out, get people and pets moving toward an exit.
 3. **Don't touch any switches.** Light switches, ceiling fans, garage door openers, even plugging in or unplugging a phone charger can produce a small arc. Leave everything as-is.
-4. **Leave doors open as you exit** if they're already open — this can help dissipate gas — but don't stop to open windows or doors that are closed.
+4. **Leave doors open as you exit** if they're already open, this can help dissipate gas, but don't stop to open windows or doors that are closed.
 5. **Do not use your cell phone until you are outside.** Move at least a few houses away, ideally upwind.
 6. **Call 911 or SoCalGas (1-800-427-2200) from outside.** Give your address and describe what you smelled and where.
 7. **Do not re-enter the building** until the utility crew has inspected the property and told you it's safe.
 
-That's the complete emergency sequence. Everything else — finding the source, repairing the line, getting your appliances back online — comes after the utility has cleared the scene.
+That's the complete emergency sequence. Everything else, finding the source, repairing the line, getting your appliances back online, comes after the utility has cleared the scene.
 
 ## What Not to Do (Common Mistakes That Make It Worse)
 
@@ -50,22 +50,22 @@ Some of the most natural instincts in this situation are also the most dangerous
 - **Don't run the HVAC system.** Furnaces, air handlers, and whole-house fans can circulate gas through the ductwork and accelerate the buildup.
 - **Don't assume the utility's all-clear means the repair is done.** SoCalGas will shut off the supply and confirm there's no immediate hazard, but they don't repair your interior gas lines. That step still needs a licensed plumber.
 
-## When to Call a Plumber — and What That Work Looks Like
+## When to Call a Plumber, and What That Work Looks Like
 
 Once the utility has made the scene safe and given you the go-ahead to re-enter, the next call is to a plumber who handles gas lines. In California, interior gas line work falls under the C-36 plumbing contractor license, and any repair or modification requires a permit and inspection through the city or county building department.
 
 Here's what the repair process typically involves:
 
-- **Leak location and assessment.** A technician will use a combustible-gas detector to pinpoint the source. Common culprits in Bakersfield-area homes include corroded black iron fittings, flexible connector hoses on older appliances that have stiffened and cracked, and joints that have shifted over time — especially in slab-on-grade construction where ground movement is a factor.
+- **Leak location and assessment.** A technician will use a combustible-gas detector to pinpoint the source. Common culprits in Bakersfield-area homes include corroded black iron fittings, flexible connector hoses on older appliances that have stiffened and cracked, and joints that have shifted over time, especially in slab-on-grade construction where ground movement is a factor.
 - **Repair or replacement.** Depending on the location and extent of the damage, the fix might be a single fitting, a section of pipe, or a full rerun of a branch line. Corroded or undersized lines are sometimes better replaced than patched.
-- **Pressure testing.** Before the gas is turned back on, the repaired line is pressure-tested — typically with air or nitrogen — to confirm there are no remaining leaks. This is a code requirement, not optional.
+- **Pressure testing.** Before the gas is turned back on, the repaired line is pressure-tested, typically with air or nitrogen, to confirm there are no remaining leaks. This is a code requirement, not optional.
 - **Permit and inspection.** The building department inspector signs off that the work meets current code. That sign-off matters for your homeowner's insurance and for any future sale of the property.
 
 All Pro Plumbing Heating and Air handles gas line repair, replacement, and pressure testing in Bakersfield and the surrounding area. You can learn more about that work on the [gas line services](/gas-line-services) page.
 
 ## After the Repair: Getting Your Appliances Back Online
 
-When the gas is restored, appliances with standing pilots — older furnaces, some water heaters, older ranges — will need to be relit. Your plumber or the utility technician can walk you through this, or you can follow the manufacturer's instructions printed on the appliance. Electronic-ignition appliances typically restart on their own once gas pressure is restored.
+When the gas is restored, appliances with standing pilots, older furnaces, some water heaters, older ranges, will need to be relit. Your plumber or the utility technician can walk you through this, or you can follow the manufacturer's instructions printed on the appliance. Electronic-ignition appliances typically restart on their own once gas pressure is restored.
 
 If your water heater was off for an extended period, give it 30–45 minutes to recover before expecting hot water. If your furnace was off during cold weather and the house dropped below 55°F, check for any frozen or stressed pipes before assuming everything is fine.
 

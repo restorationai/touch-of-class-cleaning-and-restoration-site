@@ -20,21 +20,21 @@ state: "TX"
 service_display: "Air Duct Cleaning"
 rendered: true
 ---
-San Angelo's climate does something particular to ductwork: the combination of hot, dry summers, periodic dust storms rolling in off the Concho Valley, and the occasional hard freeze creates a cycle of fine particulate buildup inside HVAC systems that most homeowners never see until airflow drops or allergy symptoms spike. If your system is pushing air that smells faintly of caliche dust or something stale you can't quite place, the ducts are likely the source — and a thorough cleaning makes a measurable difference in both air quality and system efficiency.
+San Angelo's climate does something particular to ductwork: the combination of hot, dry summers, periodic dust storms rolling in off the Concho Valley, and the occasional hard freeze creates a cycle of fine particulate buildup inside HVAC systems that most homeowners never see until airflow drops or allergy symptoms spike. If your system is pushing air that smells faintly of caliche dust or something stale you can't quite place, the ducts are likely the source, and a thorough cleaning makes a measurable difference in both air quality and system efficiency.
 
 ## Why San Angelo Properties See Duct Issues
 
 The high desert environment around Tom Green County means airborne particulates are a year-round reality, not just a seasonal nuisance. Fine silica dust and clay particles common to the region work their way into return air vents during dry spells, then get locked in place when humidity briefly rises during spring storms or when irrigation systems run. Over time, that cycle builds a compacted layer inside flex duct and sheet metal trunk lines alike.
 
-San Angelo also has a significant share of homes built in the 1960s through 1980s — a construction era when duct systems were often undersized by today's standards and installed with materials that degrade over decades. Older flex duct can develop micro-tears at elbow connections, pulling in unconditioned attic air along with whatever dust has settled up there. In a West Texas attic that reaches 140°F in July, that infiltration affects both air quality and cooling costs.
+San Angelo also has a significant share of homes built in the 1960s through 1980s, a construction era when duct systems were often undersized by today's standards and installed with materials that degrade over decades. Older flex duct can develop micro-tears at elbow connections, pulling in unconditioned attic air along with whatever dust has settled up there. In a West Texas attic that reaches 140°F in July, that infiltration affects both air quality and cooling costs.
 
 ## Our Air Duct Cleaning Process in San Angelo
 
-The process starts with a visual inspection — camera or direct access — of the main trunk lines and branch runs before any equipment goes in. This matters in San Angelo homes where original ductwork may have been modified over the years by different HVAC contractors, leaving disconnected sections or improperly sealed joints that a cleaning alone won't fix.
+The process starts with a visual inspection, camera or direct access, of the main trunk lines and branch runs before any equipment goes in. This matters in San Angelo homes where original ductwork may have been modified over the years by different HVAC contractors, leaving disconnected sections or improperly sealed joints that a cleaning alone won't fix.
 
-Once the system is mapped, negative air pressure is established at the main trunk using a high-CFM vacuum unit while rotating brush agitation works through each branch run. For supply and return registers throughout the home, each is sealed individually so loosened debris travels toward the collection point rather than back into living spaces. After mechanical cleaning, an EPA-registered sanitizing agent can be applied to interior duct surfaces — particularly relevant in homes where musty odors suggest microbial growth has taken hold in the ductwork.
+Once the system is mapped, negative air pressure is established at the main trunk using a high-CFM vacuum unit while rotating brush agitation works through each branch run. For supply and return registers throughout the home, each is sealed individually so loosened debris travels toward the collection point rather than back into living spaces. After mechanical cleaning, an EPA-registered sanitizing agent can be applied to interior duct surfaces, particularly relevant in homes where musty odors suggest microbial growth has taken hold in the ductwork.
 
-Dryer vent cleaning follows a similar negative-pressure approach. In San Angelo's older housing stock, dryer vents are sometimes routed longer distances than current standards recommend, and lint accumulation in those extended runs is a genuine fire risk — not a hypothetical one.
+Dryer vent cleaning follows a similar negative-pressure approach. In San Angelo's older housing stock, dryer vents are sometimes routed longer distances than current standards recommend, and lint accumulation in those extended runs is a genuine fire risk, not a hypothetical one.
 
 ## Reaching San Angelo from Abilene
 
@@ -42,10 +42,10 @@ Air Care Restoration is based in Abilene, and San Angelo is a regular service ar
 
 ## Local Note
 
-One thing worth knowing about San Angelo specifically: the city sits on a mix of limestone and clay soils, and homes with pier-and-beam foundations — common in older neighborhoods near the Concho River — often have crawl space conditions that directly affect duct performance. When ground moisture wicks upward into an unconditioned crawl space, flex duct running through that space can sweat during summer, and that condensation creates exactly the damp interior surface where mold and bacteria establish themselves. If your home has a raised foundation and you've noticed musty air from floor vents, the crawl space environment is worth inspecting alongside the duct cleaning itself.
+One thing worth knowing about San Angelo specifically: the city sits on a mix of limestone and clay soils, and homes with pier-and-beam foundations, common in older neighborhoods near the Concho River, often have crawl space conditions that directly affect duct performance. When ground moisture wicks upward into an unconditioned crawl space, flex duct running through that space can sweat during summer, and that condensation creates exactly the damp interior surface where mold and bacteria establish themselves. If your home has a raised foundation and you've noticed musty air from floor vents, the crawl space environment is worth inspecting alongside the duct cleaning itself.
 
 ## What to Expect After Cleaning
 
-Most San Angelo homeowners notice improved airflow at registers within the first full HVAC cycle after cleaning — particularly in rooms that always seemed to run warmer or cooler than the rest of the house. Odor improvement is typically immediate if the source was duct-borne debris or microbial growth. The IICRC-certified team documents conditions before and after, which is useful if you're coordinating with a home warranty provider or preparing a property for sale in the current market.
+Most San Angelo homeowners notice improved airflow at registers within the first full HVAC cycle after cleaning, particularly in rooms that always seemed to run warmer or cooler than the rest of the house. Odor improvement is typically immediate if the source was duct-borne debris or microbial growth. The IICRC-certified team documents conditions before and after, which is useful if you're coordinating with a home warranty provider or preparing a property for sale in the current market.
 
 To schedule air duct cleaning in San Angelo or to ask about combining it with a dryer vent inspection, call Air Care Restoration at (325) 339-8723. The team is available around the clock and can walk you through what the process looks like for your specific home before any work begins.

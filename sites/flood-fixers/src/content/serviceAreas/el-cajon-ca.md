@@ -19,13 +19,13 @@ state: "CA"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall or a washing machine floods a laundry room at 2 a.m., El Cajon property owners need someone on-site fast — not a call center reading from a script. Flood Fixers dispatches IICRC-certified technicians directly from San Diego with extraction equipment already loaded, handling water damage, fire and smoke cleanup, mold remediation, and full reconstruction for homes and commercial properties across El Cajon. One call to (855) 204-1124 starts the process.
+When a pipe bursts behind a wall or a washing machine floods a laundry room at 2 a.m., El Cajon property owners need someone on-site fast, not a call center reading from a script. Flood Fixers dispatches IICRC-certified technicians directly from San Diego with extraction equipment already loaded, handling water damage, fire and smoke cleanup, mold remediation, and full reconstruction for homes and commercial properties across El Cajon. One call to (855) 204-1124 starts the process.
 
 ## Restoration emergencies common in El Cajon
 
-El Cajon sits in an inland valley that concentrates heat and funnels the occasional heavy rain in ways coastal San Diego neighborhoods never experience. The city's average summer highs regularly push past 95°F, and that heat accelerates mold colonization — a slow leak behind drywall that might take two weeks to show visible growth near the coast can produce active mold colonies in four to five days in an El Cajon attic or crawl space during July or August.
+El Cajon sits in an inland valley that concentrates heat and funnels the occasional heavy rain in ways coastal San Diego neighborhoods never experience. The city's average summer highs regularly push past 95°F, and that heat accelerates mold colonization, a slow leak behind drywall that might take two weeks to show visible growth near the coast can produce active mold colonies in four to five days in an El Cajon attic or crawl space during July or August.
 
-The housing stock adds complexity. Large stretches of the city — particularly older blocks near the downtown core and along East Main Street — are built on slab foundations from the 1950s through the 1970s. When supply lines fail under those slabs, water migrates laterally before it surfaces, saturating subfloor materials and wall cavities far from the actual break. Newer subdivisions in the hills carry their own risk: steeper lots mean that a roof failure or broken irrigation line can push water downhill into a structure faster than any drain can handle it. El Cajon's position in a natural drainage basin also means that during a significant rain event — even a brief one — stormwater can overwhelm older municipal infrastructure and back up into ground-floor units and garages.
+The housing stock adds complexity. Large stretches of the city, particularly older blocks near the downtown core and along East Main Street, are built on slab foundations from the 1950s through the 1970s. When supply lines fail under those slabs, water migrates laterally before it surfaces, saturating subfloor materials and wall cavities far from the actual break. Newer subdivisions in the hills carry their own risk: steeper lots mean that a roof failure or broken irrigation line can push water downhill into a structure faster than any drain can handle it. El Cajon's position in a natural drainage basin also means that during a significant rain event, even a brief one, stormwater can overwhelm older municipal infrastructure and back up into ground-floor units and garages.
 
 ## Services we provide in El Cajon
 
@@ -39,15 +39,15 @@ El Cajon's inland heat means mold remediation timelines are compressed. If a lea
 
 ### Fire and smoke damage restoration
 
-Smoke residue from a kitchen fire or a garage fire behaves differently in El Cajon's dry heat — it bakes into porous surfaces faster than in humid climates. Flood Fixers uses dry-ice blasting and chemical sponge cleaning on structural surfaces, and ozone or hydroxyl treatment to address odor that has penetrated HVAC ductwork.
+Smoke residue from a kitchen fire or a garage fire behaves differently in El Cajon's dry heat, it bakes into porous surfaces faster than in humid climates. Flood Fixers uses dry-ice blasting and chemical sponge cleaning on structural surfaces, and ozone or hydroxyl treatment to address odor that has penetrated HVAC ductwork.
 
 ### Reconstruction
 
-After mitigation is complete, Flood Fixers handles the rebuild — drywall, flooring, cabinetry, painting — under a general contractor license, so property owners deal with one company and one invoice rather than coordinating a separate GC while still living out of a hotel.
+After mitigation is complete, Flood Fixers handles the rebuild, drywall, flooring, cabinetry, painting, under a general contractor license, so property owners deal with one company and one invoice rather than coordinating a separate GC while still living out of a hotel.
 
 ## Response time and coverage
 
-From Flood Fixers' San Diego headquarters, a technician can reach central El Cajon in approximately 25 to 35 minutes under normal traffic conditions — faster than most local competitors who are dispatching from farther inland. Properties near Gillespie Field or along the Fletcher Parkway corridor typically see arrival within 30 minutes. Addresses further east toward the foothills or in neighborhoods closer to the El Cajon city limits may run 35 to 45 minutes depending on time of day. The team is available 24 hours a day, every day of the year, and the truck arrives stocked with commercial-grade extractors, air movers, and dehumidifiers — no waiting for a second trip to pick up equipment.
+From Flood Fixers' San Diego headquarters, a technician can reach central El Cajon in approximately 25 to 35 minutes under normal traffic conditions, faster than most local competitors who are dispatching from farther inland. Properties near Gillespie Field or along the Fletcher Parkway corridor typically see arrival within 30 minutes. Addresses further east toward the foothills or in neighborhoods closer to the El Cajon city limits may run 35 to 45 minutes depending on time of day. The team is available 24 hours a day, every day of the year, and the truck arrives stocked with commercial-grade extractors, air movers, and dehumidifiers, no waiting for a second trip to pick up equipment.
 
 ## Building stock, site conditions, and permits in El Cajon
 
@@ -57,4 +57,4 @@ Plumbing vintage drives a lot of the calls: galvanized supply in the oldest hous
 
 Permits for structural repair or rebuild come from the City of El Cajon; addresses in unincorporated pockets nearby go through the County instead. California's Building Code and its seismic bracing rules apply either way.
 
-If you're dealing with water, fire, or mold damage in El Cajon right now, call Flood Fixers at **(855) 204-1124**. A technician picks up — not a voicemail box — and can tell you exactly how far out the crew is before you hang up.
+If you're dealing with water, fire, or mold damage in El Cajon right now, call Flood Fixers at **(855) 204-1124**. A technician picks up, not a voicemail box, and can tell you exactly how far out the crew is before you hang up.

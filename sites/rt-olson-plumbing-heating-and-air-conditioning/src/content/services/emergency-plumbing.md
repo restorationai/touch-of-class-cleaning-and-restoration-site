@@ -17,31 +17,31 @@ service_slug: "emergency-plumbing"
 service_display: "Emergency Plumbing"
 rendered: true
 ---
-A pipe doesn't care that it's 2 a.m. on a Sunday. One moment you're asleep; the next you're standing in an inch of water watching it creep toward the hallway. Emergency plumbing failures — burst supply lines, sewer backups pushing raw waste through floor drains, water heaters rupturing in the garage — don't pause for business hours, and the damage they cause compounds by the minute. The faster the water stops moving, the less of your home it takes with it.
+A pipe doesn't care that it's 2 a.m. on a Sunday. One moment you're asleep; the next you're standing in an inch of water watching it creep toward the hallway. Emergency plumbing failures, burst supply lines, sewer backups pushing raw waste through floor drains, water heaters rupturing in the garage, don't pause for business hours, and the damage they cause compounds by the minute. The faster the water stops moving, the less of your home it takes with it.
 
 ## What emergency plumbing actually involves
 
 Emergency plumbing is not the same as scheduling a leaky faucet repair for next Tuesday. It means a licensed plumber arrives while the problem is still active, diagnoses it under pressure, and stops the loss before it migrates into walls, subfloor, or the slab. That requires a truck stocked for the unexpected: pipe repair clamps, push-fit fittings, drain snakes and hydro-jetting equipment, camera inspection gear, and the ability to shut down and isolate a single branch line without cutting water to the whole house.
 
-In Corona and the surrounding Inland Empire, the housing stock runs the gamut — 1960s tract homes in older Corona neighborhoods with galvanized supply lines that corrode from the inside out, 1980s and 1990s construction with polybutylene or early CPVC that can crack without warning, and newer builds where slab penetrations are the first place a pinhole leak hides. The region's hard water accelerates scale buildup inside water heaters and at valve seats, which is why a water heater that rumbles and pops during the heating cycle is worth taking seriously before it becomes a flooded garage.
+In Corona and the surrounding Inland Empire, the housing stock runs the gamut, 1960s tract homes in older Corona neighborhoods with galvanized supply lines that corrode from the inside out, 1980s and 1990s construction with polybutylene or early CPVC that can crack without warning, and newer builds where slab penetrations are the first place a pinhole leak hides. The region's hard water accelerates scale buildup inside water heaters and at valve seats, which is why a water heater that rumbles and pops during the heating cycle is worth taking seriously before it becomes a flooded garage.
 
-RT Olson Plumbing, Heating and Air Conditioning dispatches around the clock — 24 hours a day, seven days a week — and is licensed (#997337) to handle the full scope of emergency repairs, from isolating a burst line to clearing a main sewer stoppage that's backing up into multiple fixtures.
+RT Olson Plumbing, Heating and Air Conditioning dispatches around the clock, 24 hours a day, seven days a week, and is licensed (#997337) to handle the full scope of emergency repairs, from isolating a burst line to clearing a main sewer stoppage that's backing up into multiple fixtures.
 
 ## Our process
 
 1. **Immediate triage by phone.** When you call (951) 344-5596, the first goal is to keep the damage from spreading while the crew is in transit. A technician will walk you through locating your main shutoff or the individual stop valve for the affected fixture, so water stops moving before anyone arrives.
 
-2. **On-site diagnosis.** The plumber isolates the affected line or drain, confirms the source — not just the symptom — and identifies whether secondary damage (wet drywall, saturated insulation, water under flooring) has already begun. A camera inspection is used when a sewer backup or hidden leak is suspected, so the repair targets the actual failure point rather than the nearest accessible section of pipe.
+2. **On-site diagnosis.** The plumber isolates the affected line or drain, confirms the source, not just the symptom, and identifies whether secondary damage (wet drywall, saturated insulation, water under flooring) has already begun. A camera inspection is used when a sewer backup or hidden leak is suspected, so the repair targets the actual failure point rather than the nearest accessible section of pipe.
 
 3. **Emergency repair.** The immediate fix stops the loss: a burst copper line is cut out and replaced, a broken cleanout cap is restored, a failed pressure relief valve on a water heater is swapped before the tank can build dangerous pressure. Where a permanent repair requires a permit or additional materials not on the truck, a code-compliant temporary repair stabilizes the situation first.
 
-4. **Documentation for insurance.** Before the truck leaves, the technician photographs the failure point, the affected area, and the completed repair. That documentation — what failed, where, and what was done — is exactly what a homeowner needs when filing a claim, and it's far easier to capture at the time of repair than to reconstruct later.
+4. **Documentation for insurance.** Before the truck leaves, the technician photographs the failure point, the affected area, and the completed repair. That documentation, what failed, where, and what was done, is exactly what a homeowner needs when filing a claim, and it's far easier to capture at the time of repair than to reconstruct later.
 
 5. **Follow-up scope if secondary damage is present.** If water has already migrated into structure, the technician flags it clearly so you can arrange drying and remediation before mold has a window to establish. Stopping the water is step one; knowing what the water touched is step two.
 
 ## What separates a good emergency plumbing response from a bad one
 
-The most common mistake in an emergency plumbing call is treating the visible symptom as the whole problem. A toilet overflowing because of a partial main-line blockage will overflow again the next day if the technician clears only the toilet branch and not the obstruction downstream. Similarly, a pinhole leak in a copper line is rarely isolated — hard water and age affect the whole run, and a patch that ignores adjacent pitting buys weeks, not years.
+The most common mistake in an emergency plumbing call is treating the visible symptom as the whole problem. A toilet overflowing because of a partial main-line blockage will overflow again the next day if the technician clears only the toilet branch and not the obstruction downstream. Similarly, a pinhole leak in a copper line is rarely isolated, hard water and age affect the whole run, and a patch that ignores adjacent pitting buys weeks, not years.
 
 A thorough emergency response confirms the source with camera or pressure testing rather than assumption. It checks whether the failure point is upstream or downstream of other fixtures, whether a pressure regulator failure contributed to the burst (high static pressure is a chronic issue in parts of the Inland Empire where supply pressure can run well above the 80 psi residential standard), and whether the water heater's temperature-and-pressure relief valve has ever been tested.
 
@@ -49,12 +49,12 @@ On the documentation side: adjusters want to see the failure point photographed 
 
 ## Seasonal and regional considerations
 
-Corona sits in a climate that rarely freezes hard, but the occasional cold snap — temperatures dipping into the upper 20s in elevated neighborhoods or during a sharp Santa Ana reversal — is enough to freeze an uninsulated line in an exterior wall or an exposed hose bib. Those freezes are fast and unexpected, which means pipes that have never been a concern suddenly split overnight.
+Corona sits in a climate that rarely freezes hard, but the occasional cold snap, temperatures dipping into the upper 20s in elevated neighborhoods or during a sharp Santa Ana reversal, is enough to freeze an uninsulated line in an exterior wall or an exposed hose bib. Those freezes are fast and unexpected, which means pipes that have never been a concern suddenly split overnight.
 
 Summer heat is the other pressure point. Attic temperatures in Inland Empire homes regularly exceed 140°F in July and August, and CPVC or flexible supply lines routed through unconditioned attic space age faster than the same lines in a conditioned space. Water heaters working against high incoming water temperatures also run their relief valves harder. If you notice your T&P valve dripping during a heat wave, that's a sign worth acting on before it becomes an emergency.
 
 ## Service area
 
-RT Olson Plumbing, Heating and Air Conditioning is based in Corona and serves communities throughout the surrounding region, including Norco, Eastvale, Riverside, Chino Hills, Ontario, Rancho Cucamonga, and Anaheim Hills. Each city-specific emergency plumbing page links back here for the full service description — if you're searching for an emergency plumber near you right now, call (951) 344-5596 directly.
+RT Olson Plumbing, Heating and Air Conditioning is based in Corona and serves communities throughout the surrounding region, including Norco, Eastvale, Riverside, Chino Hills, Ontario, Rancho Cucamonga, and Anaheim Hills. Each city-specific emergency plumbing page links back here for the full service description, if you're searching for an emergency plumber near you right now, call (951) 344-5596 directly.
 
 When a pipe lets go, every minute of flow is more water in the wall, more flooring to replace, more time before your home is back to normal. Call (951) 344-5596 to stop the loss now.

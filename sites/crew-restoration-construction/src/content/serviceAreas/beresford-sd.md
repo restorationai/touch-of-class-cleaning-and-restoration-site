@@ -19,38 +19,38 @@ state: "SD"
 primary: false
 rendered: true
 ---
-When a pipe bursts in the middle of a January cold snap or a summer storm pushes water through a basement window, Beresford property owners need a crew that already knows the route — not one figuring out the map. Crew Restoration & Construction handles water damage mitigation, mold remediation, fire and smoke cleanup, and reconstruction for homes and commercial properties throughout the 57004 ZIP code. We document losses for insurance carriers, pull the right permits, and stay on-site until the work is genuinely finished.
+When a pipe bursts in the middle of a January cold snap or a summer storm pushes water through a basement window, Beresford property owners need a crew that already knows the route, not one figuring out the map. Crew Restoration & Construction handles water damage mitigation, mold remediation, fire and smoke cleanup, and reconstruction for homes and commercial properties throughout the 57004 ZIP code. We document losses for insurance carriers, pull the right permits, and stay on-site until the work is genuinely finished.
 
 ## Restoration emergencies common in Beresford
 
-Beresford sits at the Union-Lincoln county line along I-29, and that geography shapes the kind of damage local properties take. The town's position on the eastern edge of the James River lowlands means the water table can be surprisingly shallow — basements in older neighborhoods like Downtown Beresford absorb groundwater intrusion during spring snowmelt in ways that newer construction farther west rarely sees. The housing stock in East Beresford includes a mix of mid-century ranch homes and more recent builds, and those older homes often have original cast-iron drain lines that back up under heavy rain before a homeowner realizes anything is wrong.
+Beresford sits at the Union-Lincoln county line along I-29, and that geography shapes the kind of damage local properties take. The town's position on the eastern edge of the James River lowlands means the water table can be surprisingly shallow, basements in older neighborhoods like Downtown Beresford absorb groundwater intrusion during spring snowmelt in ways that newer construction farther west rarely sees. The housing stock in East Beresford includes a mix of mid-century ranch homes and more recent builds, and those older homes often have original cast-iron drain lines that back up under heavy rain before a homeowner realizes anything is wrong.
 
-Winters here are serious: freeze-thaw cycles crack foundation walls and split supply lines inside exterior walls that weren't insulated to modern standards. Summer thunderstorms roll up the I-29 corridor fast, and hail damage to roofing is common enough that it's worth checking attic sheathing after any significant storm — roof deck saturation leads to mold colonization within 24 to 48 hours if the moisture isn't addressed. Fire risk picks up in dry stretches of late summer and early fall, particularly in properties with older knob-and-tube wiring or wood-burning stoves.
+Winters here are serious: freeze-thaw cycles crack foundation walls and split supply lines inside exterior walls that weren't insulated to modern standards. Summer thunderstorms roll up the I-29 corridor fast, and hail damage to roofing is common enough that it's worth checking attic sheathing after any significant storm, roof deck saturation leads to mold colonization within 24 to 48 hours if the moisture isn't addressed. Fire risk picks up in dry stretches of late summer and early fall, particularly in properties with older knob-and-tube wiring or wood-burning stoves.
 
 ## Services we provide in Beresford
 
 ### Water damage mitigation
-Water damage in Beresford often starts quietly — a slow seep under a slab, condensation that's been building behind drywall, or a sump pump that gave out overnight. We extract standing water, place industrial drying equipment, and monitor moisture readings daily until structural materials reach safe levels. Homes near the Beresford Golf Course area tend to sit on lots with limited drainage slope, so we pay close attention to crawlspace and sub-floor saturation that visual inspection alone can miss.
+Water damage in Beresford often starts quietly, a slow seep under a slab, condensation that's been building behind drywall, or a sump pump that gave out overnight. We extract standing water, place industrial drying equipment, and monitor moisture readings daily until structural materials reach safe levels. Homes near the Beresford Golf Course area tend to sit on lots with limited drainage slope, so we pay close attention to crawlspace and sub-floor saturation that visual inspection alone can miss.
 
 ### Mold remediation
-Mold doesn't wait. In a Beresford home that's taken on water, visible growth can appear in less than two days in warm months. We contain affected areas, remove compromised materials, treat surfaces, and verify clearance before reconstruction begins. We follow established industry protocols and do not cut corners on air scrubbing or containment barriers — especially in occupied homes with children or elderly residents.
+Mold doesn't wait. In a Beresford home that's taken on water, visible growth can appear in less than two days in warm months. We contain affected areas, remove compromised materials, treat surfaces, and verify clearance before reconstruction begins. We follow established industry protocols and do not cut corners on air scrubbing or containment barriers, especially in occupied homes with children or elderly residents.
 
 ### Fire and smoke damage restoration
 Smoke residue from even a contained kitchen fire works its way into HVAC ductwork, wall cavities, and soft materials throughout a home. In older Downtown Beresford properties with open floor plans or forced-air systems, that spread happens faster than most homeowners expect. We assess the full scope of smoke migration, clean or remove affected materials, and neutralize odor at the source rather than masking it.
 
 ### Reconstruction
-Once mitigation is complete, we handle the rebuild — drywall, flooring, cabinetry, roofing, and structural repairs — so property owners aren't managing a second contractor relationship during an already stressful time. We coordinate directly with insurance adjusters on scope and pricing.
+Once mitigation is complete, we handle the rebuild, drywall, flooring, cabinetry, roofing, and structural repairs, so property owners aren't managing a second contractor relationship during an already stressful time. We coordinate directly with insurance adjusters on scope and pricing.
 
 ## Coverage and how fast we can get there
 
-Beresford is approximately 25 miles south of our Sioux Falls headquarters via I-29 South to Exit 47. That's a straightforward drive with no significant routing complications in normal conditions. We dispatch from Sioux Falls and can reach most Beresford addresses — including properties in East Beresford and the streets surrounding Downtown Beresford — with prompt scheduling. Call us at (605) 965-2727 to confirm current availability and get a crew on the schedule.
+Beresford is approximately 25 miles south of our Sioux Falls headquarters via I-29 South to Exit 47. That's a straightforward drive with no significant routing complications in normal conditions. We dispatch from Sioux Falls and can reach most Beresford addresses, including properties in East Beresford and the streets surrounding Downtown Beresford, with prompt scheduling. Call us at (605) 965-2727 to confirm current availability and get a crew on the schedule.
 
 ## Building stock, site conditions, and permits in Beresford
 
-Much of Beresford's older housing predates World War II, with plaster-and-lath walls, wood lap siding, and full basements under nearly everything — footings in this part of southeastern South Dakota have to sit well below frost depth, so a basement comes essentially free with the foundation. That means water almost always ends up in a below-grade assembly, and plaster holds moisture far longer than drywall does.
+Much of Beresford's older housing predates World War II, with plaster-and-lath walls, wood lap siding, and full basements under nearly everything, footings in this part of southeastern South Dakota have to sit well below frost depth, so a basement comes essentially free with the foundation. That means water almost always ends up in a below-grade assembly, and plaster holds moisture far longer than drywall does.
 
 Supply lines in those homes are often galvanized steel or early copper, and mid-century sewer laterals in small towns like this can still be Orangeburg fiber pipe, which collapses rather than cracks. Pre-1978 paint and asbestos in floor tile, mastic, and pipe wrap change the demolition scope.
 
 South Dakota leaves residential code adoption to municipalities, so structural repair and rebuild permits come from the City of Beresford.
 
-If your Beresford property has taken on water, smoke, or any damage that's getting worse by the hour, the right move is a phone call — not a wait-and-see approach. Reach Crew Restoration & Construction at **(605) 965-2727** and tell us what you're dealing with.
+If your Beresford property has taken on water, smoke, or any damage that's getting worse by the hour, the right move is a phone call, not a wait-and-see approach. Reach Crew Restoration & Construction at **(605) 965-2727** and tell us what you're dealing with.

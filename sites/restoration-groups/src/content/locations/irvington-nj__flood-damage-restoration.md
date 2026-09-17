@@ -20,19 +20,19 @@ state: "NJ"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
-When Tropical Storm Ida swept through Essex County in 2021, basements across Irvington filled faster than sump pumps could react — and the tight rows of early-1900s two- and three-family homes along streets like Union Avenue gave that water nowhere to go but deeper into finished lower levels. Flood damage in a densely built township like Irvington moves differently than it does in newer suburban construction, and cleaning it up correctly requires understanding exactly what's behind those walls and under those floors. The Restoration Group responds 24/7 and can be reached at (855) 650-7422 the moment you realize the water isn't stopping.
+When Tropical Storm Ida swept through Essex County in 2021, basements across Irvington filled faster than sump pumps could react, and the tight rows of early-1900s two- and three-family homes along streets like Union Avenue gave that water nowhere to go but deeper into finished lower levels. Flood damage in a densely built township like Irvington moves differently than it does in newer suburban construction, and cleaning it up correctly requires understanding exactly what's behind those walls and under those floors. The Restoration Group responds 24/7 and can be reached at (855) 650-7422 the moment you realize the water isn't stopping.
 
 ## Why Irvington Properties See Flood Damage Differently
 
-Irvington's housing stock was built largely between 1900 and 1945, and that era left a specific set of vulnerabilities. Galvanized steel supply lines — standard in that period — corrode from the inside out over decades, narrowing and eventually failing without warning. Cast-iron drain stacks crack under shifting soil. When either gives way, water doesn't just pool on a tile floor; it travels through subfloor framing, wicks into plaster and lath, and saturates the insulation packed between floors in multifamily buildings.
+Irvington's housing stock was built largely between 1900 and 1945, and that era left a specific set of vulnerabilities. Galvanized steel supply lines, standard in that period, corrode from the inside out over decades, narrowing and eventually failing without warning. Cast-iron drain stacks crack under shifting soil. When either gives way, water doesn't just pool on a tile floor; it travels through subfloor framing, wicks into plaster and lath, and saturates the insulation packed between floors in multifamily buildings.
 
-The Elizabeth River watershed drains much of the township, and low-lying pockets near Irvington Park and along the Springfield Avenue corridor sit in natural collection zones. Hard rain events — the kind Essex County has seen with increasing frequency — overwhelm the combined sewer system and push water back through floor drains and cleanouts. Finished basements, which are extremely common in the Grove Park and Upsala neighborhoods, turn what might be a minor drain backup into a total-loss living space.
+The Elizabeth River watershed drains much of the township, and low-lying pockets near Irvington Park and along the Springfield Avenue corridor sit in natural collection zones. Hard rain events, the kind Essex County has seen with increasing frequency, overwhelm the combined sewer system and push water back through floor drains and cleanouts. Finished basements, which are extremely common in the Grove Park and Upsala neighborhoods, turn what might be a minor drain backup into a total-loss living space.
 
 ## Our Flood Damage Restoration Process in Irvington
 
-The first thing we do on-site is stop the source if it hasn't been stopped already — whether that's coordinating a shutoff with PSE&G on an affected unit or capping a broken supply line. From there, the process follows a defined sequence calibrated to the conditions we find.
+The first thing we do on-site is stop the source if it hasn't been stopped already, whether that's coordinating a shutoff with PSE&G on an affected unit or capping a broken supply line. From there, the process follows a defined sequence calibrated to the conditions we find.
 
-**Extraction** comes first. Standing water in a finished basement is removed with truck-mounted extraction units that pull far more volume per hour than portable wet-vacs. In multifamily buildings, we assess each unit independently — water migrates through shared framing, and a flooded first-floor unit often means moisture has already reached the unit above.
+**Extraction** comes first. Standing water in a finished basement is removed with truck-mounted extraction units that pull far more volume per hour than portable wet-vacs. In multifamily buildings, we assess each unit independently, water migrates through shared framing, and a flooded first-floor unit often means moisture has already reached the unit above.
 
 **Structural drying** follows IICRC S500 standards for category and class of water loss. In Irvington's older homes, this step takes longer than it would in newer construction. Plaster walls release absorbed moisture slowly and unevenly; we set drying targets based on psychrometric readings, not guesswork or a fixed number of days.
 
@@ -40,7 +40,7 @@ The first thing we do on-site is stop the source if it hasn't been stopped alrea
 
 ## Reaching Irvington from Kenilworth
 
-The Restoration Group is based in Kenilworth, which sits roughly three miles southwest of Irvington Center. The most direct route — Route 22 east to the Garden State Parkway north, or straight up Springfield Avenue — keeps us close to the township regardless of which part of the 07111 ZIP code is affected. Because we operate 24/7, we dispatch on your call whether the loss happens at 2 p.m. on a Tuesday or 3 a.m. on a Sunday. Neighborhoods closer to the Camptown Historic District or the Chancellor Avenue corridor are all within our standard service area.
+The Restoration Group is based in Kenilworth, which sits roughly three miles southwest of Irvington Center. The most direct route, Route 22 east to the Garden State Parkway north, or straight up Springfield Avenue, keeps us close to the township regardless of which part of the 07111 ZIP code is affected. Because we operate 24/7, we dispatch on your call whether the loss happens at 2 p.m. on a Tuesday or 3 a.m. on a Sunday. Neighborhoods closer to the Camptown Historic District or the Chancellor Avenue corridor are all within our standard service area.
 
 ## Insurance Coordination for Irvington Flood Losses
 
@@ -48,6 +48,6 @@ Most flood losses in Irvington involve at least one complication: the property i
 
 ## Local Note
 
-In Irvington's prewar rowhouses and two-family homes, subfloor assemblies were often built with tongue-and-groove boards over dimensional lumber joists — not plywood over engineered I-joists like you'd find in post-1980 construction. That matters for flood cleanup because tongue-and-groove subfloor holds water in the seams and dries much more slowly than plywood. In some cases, what looks like a surface-level water loss on the first floor has actually saturated the subfloor system enough to require controlled demolition to prevent long-term structural decay. We probe and moisture-map before we assume the floor can be saved in place.
+In Irvington's prewar rowhouses and two-family homes, subfloor assemblies were often built with tongue-and-groove boards over dimensional lumber joists, not plywood over engineered I-joists like you'd find in post-1980 construction. That matters for flood cleanup because tongue-and-groove subfloor holds water in the seams and dries much more slowly than plywood. In some cases, what looks like a surface-level water loss on the first floor has actually saturated the subfloor system enough to require controlled demolition to prevent long-term structural decay. We probe and moisture-map before we assume the floor can be saved in place.
 
 If water is standing in your basement or you're watching a stain spread across your ceiling, call (855) 650-7422 now. The Restoration Group is IICRC Certified (Firm #210213), licensed by the NJ Division of Consumer Affairs as a Home Improvement Contractor, and available around the clock for flood damage restoration across Irvington and the surrounding Essex County area.

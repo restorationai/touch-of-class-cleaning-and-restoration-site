@@ -20,19 +20,19 @@ state: "TX"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-West Texas fires move fast. When dry winds push a kitchen fire into the walls of a Clyde home, smoke travels through every gap in the framing before the flames are even out — and in a town where many houses sit on open acreage with minimal wind breaks, that spread can be brutal. Air Care Restoration responds to fire damage calls in Clyde around the clock, bringing IICRC FSRT-certified technicians and the equipment to begin stabilizing your property the same day you call.
+West Texas fires move fast. When dry winds push a kitchen fire into the walls of a Clyde home, smoke travels through every gap in the framing before the flames are even out, and in a town where many houses sit on open acreage with minimal wind breaks, that spread can be brutal. Air Care Restoration responds to fire damage calls in Clyde around the clock, bringing IICRC FSRT-certified technicians and the equipment to begin stabilizing your property the same day you call.
 
 ## Why Clyde Properties Face Particular Fire Damage Challenges
 
-Clyde sits in Callahan County where the climate is semi-arid, winters can drop hard, and summer heat regularly pushes past 100°F. That heat-and-drought cycle dries out wood framing, attic insulation, and exterior siding faster than in more humid parts of Texas — meaning structural materials in Clyde homes can be primed to absorb fire and smoke damage more aggressively than in wetter regions.
+Clyde sits in Callahan County where the climate is semi-arid, winters can drop hard, and summer heat regularly pushes past 100°F. That heat-and-drought cycle dries out wood framing, attic insulation, and exterior siding faster than in more humid parts of Texas, meaning structural materials in Clyde homes can be primed to absorb fire and smoke damage more aggressively than in wetter regions.
 
-The housing stock here skews toward ranch-style construction and older farmhouses on larger lots, many built with pier-and-beam foundations and open attic spaces. Those attic voids are efficient smoke highways. Once smoke infiltrates an uninsulated attic above a ranch-style ceiling, the odor-bearing particles settle into wood decking, rafters, and insulation batts — materials that require specific thermal fogging and encapsulation treatments to address properly, not just surface cleaning.
+The housing stock here skews toward ranch-style construction and older farmhouses on larger lots, many built with pier-and-beam foundations and open attic spaces. Those attic voids are efficient smoke highways. Once smoke infiltrates an uninsulated attic above a ranch-style ceiling, the odor-bearing particles settle into wood decking, rafters, and insulation batts, materials that require specific thermal fogging and encapsulation treatments to address properly, not just surface cleaning.
 
 Wood-burning stoves and propane heating systems are common in rural Callahan County homes, and both carry a higher ignition risk than natural gas forced-air systems. A flue that hasn't been swept before winter, or a propane line with a loose fitting, can turn a cold night into a structural fire quickly.
 
 ## Our Fire Damage Restoration Process in Clyde
 
-The first step on any fire loss is a thorough assessment — not just of what burned, but of where smoke traveled. Smoke follows air pressure, which means a fire that started in a utility room may have deposited soot inside closets, HVAC ducts, and wall cavities on the opposite side of the house. We use thermal imaging to map the full extent of contamination before we begin any cleaning.
+The first step on any fire loss is a thorough assessment, not just of what burned, but of where smoke traveled. Smoke follows air pressure, which means a fire that started in a utility room may have deposited soot inside closets, HVAC ducts, and wall cavities on the opposite side of the house. We use thermal imaging to map the full extent of contamination before we begin any cleaning.
 
 From there, the process moves in a deliberate sequence:
 
@@ -47,16 +47,16 @@ Every phase is documented with photographs and moisture readings, which feeds di
 
 ## Reaching Clyde from Abilene
 
-Air Care Restoration is based in Abilene, and Clyde is a straightforward run east on I-20 — roughly 25 miles from our dispatch point. Because we operate 24/7, a call at 2 a.m. gets the same response as a call at noon. We stage equipment in Abilene and can load a fire damage response unit quickly, which matters when the goal is to get a tarp on a compromised roof before a West Texas weather system rolls through overnight.
+Air Care Restoration is based in Abilene, and Clyde is a straightforward run east on I-20, roughly 25 miles from our dispatch point. Because we operate 24/7, a call at 2 a.m. gets the same response as a call at noon. We stage equipment in Abilene and can load a fire damage response unit quickly, which matters when the goal is to get a tarp on a compromised roof before a West Texas weather system rolls through overnight.
 
 ## Clyde Insurance Coordination
 
-Most homeowner policies in Texas cover sudden and accidental fire losses, but the documentation burden falls on the policyholder unless someone manages it for them. We photograph every affected surface, log material quantities, and produce a scope of work formatted to align with Xactimate — the estimating platform most Texas carriers use. If your adjuster needs to walk the site, we coordinate that visit and communicate technical scope information so the damage is fully visible and documented before any cleaning obscures the evidence. Coverage and settlement decisions remain between you and your carrier.
+Most homeowner policies in Texas cover sudden and accidental fire losses, but the documentation burden falls on the policyholder unless someone manages it for them. We photograph every affected surface, log material quantities, and produce a scope of work formatted to align with Xactimate, the estimating platform most Texas carriers use. If your adjuster needs to walk the site, we coordinate that visit and communicate technical scope information so the damage is fully visible and documented before any cleaning obscures the evidence. Coverage and settlement decisions remain between you and your carrier.
 
 We bill carriers directly where assignments of benefit are in place, reducing the out-of-pocket burden during an already stressful period.
 
 ## Local Note
 
-Older ranch homes in the Clyde area — particularly those built in the 1960s and 1970s — frequently used cellulose insulation blown into wall cavities and attics. Cellulose is made from recycled paper, and it absorbs smoke odor compounds deeply. Standard ozone treatments that work on fiberglass insulation often fall short on cellulose-insulated walls. When we encounter this material in a Clyde fire loss, we factor in a longer odor-treatment cycle and, in severe cases, recommend full insulation replacement rather than in-place treatment — an honest call that saves homeowners from a lingering smoke smell months after the job closes.
+Older ranch homes in the Clyde area, particularly those built in the 1960s and 1970s, frequently used cellulose insulation blown into wall cavities and attics. Cellulose is made from recycled paper, and it absorbs smoke odor compounds deeply. Standard ozone treatments that work on fiberglass insulation often fall short on cellulose-insulated walls. When we encounter this material in a Clyde fire loss, we factor in a longer odor-treatment cycle and, in severe cases, recommend full insulation replacement rather than in-place treatment, an honest call that saves homeowners from a lingering smoke smell months after the job closes.
 
-If your home has been affected by fire, call Air Care Restoration at (325) 339-8723. We'll assess the damage, walk you through the process, and get to work protecting your property — day or night.
+If your home has been affected by fire, call Air Care Restoration at (325) 339-8723. We'll assess the damage, walk you through the process, and get to work protecting your property, day or night.

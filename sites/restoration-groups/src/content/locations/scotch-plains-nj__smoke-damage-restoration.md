@@ -20,13 +20,13 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
-A kitchen fire that gets knocked down fast can still leave a Scotch Plains home smelling like a chimney for months. Smoke is deceptive — the visible char is only part of the story. In the mid-century split-levels and colonials that line the streets off Park Avenue and through the Shackamaxon neighborhood, smoke particles travel through forced-air ductwork, settle into plaster ceilings, and seep behind original wood paneling before the fire trucks have even left the driveway. Getting the structure back to livable takes more than airing out a window.
+A kitchen fire that gets knocked down fast can still leave a Scotch Plains home smelling like a chimney for months. Smoke is deceptive, the visible char is only part of the story. In the mid-century split-levels and colonials that line the streets off Park Avenue and through the Shackamaxon neighborhood, smoke particles travel through forced-air ductwork, settle into plaster ceilings, and seep behind original wood paneling before the fire trucks have even left the driveway. Getting the structure back to livable takes more than airing out a window.
 
 ## Why Scotch Plains Homes Are Particularly Vulnerable to Smoke Damage
 
-Most of the residential housing stock in the 07076 ZIP code was built between the late 1940s and the mid-1960s. Those homes share a few traits that make smoke damage harder to resolve than in newer construction. Plaster walls — common in the older colonials near Downtown Scotch Plains — are porous in a way that drywall is not. Smoke odor compounds, particularly the aldehydes and phenols produced by burning wood and synthetic materials, bond into plaster at a molecular level. A surface wipe-down does not touch them.
+Most of the residential housing stock in the 07076 ZIP code was built between the late 1940s and the mid-1960s. Those homes share a few traits that make smoke damage harder to resolve than in newer construction. Plaster walls, common in the older colonials near Downtown Scotch Plains, are porous in a way that drywall is not. Smoke odor compounds, particularly the aldehydes and phenols produced by burning wood and synthetic materials, bond into plaster at a molecular level. A surface wipe-down does not touch them.
 
-Original hardwood subfloors, uninsulated interior wall cavities, and older HVAC systems with unsealed duct runs all act as pathways. Smoke migrates to cooler areas of the structure, which means an attic fire can deposit residue in a finished basement two floors below. Homes with cast-iron duct boots and original return-air chases — both common in this housing stock — are especially prone to distributing soot through every room before the system is shut down.
+Original hardwood subfloors, uninsulated interior wall cavities, and older HVAC systems with unsealed duct runs all act as pathways. Smoke migrates to cooler areas of the structure, which means an attic fire can deposit residue in a finished basement two floors below. Homes with cast-iron duct boots and original return-air chases, both common in this housing stock, are especially prone to distributing soot through every room before the system is shut down.
 
 ## Our Smoke Damage Restoration Process in Scotch Plains
 
@@ -35,9 +35,9 @@ The process starts with a full structural assessment, not a visual scan. We use 
 From there, the work moves in a defined sequence:
 
 - **Dry soot removal** using HEPA-filtered vacuums and dry chemical sponges before any wet cleaning, which prevents soot from being ground deeper into porous surfaces
-- **Duct and HVAC decontamination**, including cleaning of registers, return-air boxes, and accessible duct runs — critical in homes where the original ductwork has never been sealed
+- **Duct and HVAC decontamination**, including cleaning of registers, return-air boxes, and accessible duct runs, critical in homes where the original ductwork has never been sealed
 - **Surface cleaning with pH-matched detergents** calibrated to the specific residue type (protein smoke from kitchen fires behaves differently than wood-smoke residue from a fireplace or structural fire)
-- **Hydroxyl generator deployment** for odor neutralization — hydroxyl technology oxidizes odor molecules throughout the structure without requiring the space to be vacated, unlike ozone treatment
+- **Hydroxyl generator deployment** for odor neutralization, hydroxyl technology oxidizes odor molecules throughout the structure without requiring the space to be vacated, unlike ozone treatment
 - **Sealing and encapsulation** of affected framing and subfloor where residue has penetrated beyond what cleaning alone can address
 - **Post-treatment air quality verification** before the job is closed out
 
@@ -45,14 +45,14 @@ We are an IICRC Certified Firm (#210213), and all work follows the IICRC S700 st
 
 ## Reaching Scotch Plains from Our Kenilworth HQ
 
-Kenilworth sits just a few miles from Scotch Plains, and our crews can reach most of the township — including the Willow Grove and Ashbrook areas near the southern edge — quickly regardless of time of day. We operate 24/7, so a fire that gets contained at 2 a.m. can have a restoration crew on-site before sunrise. We route through Route 28 or the Garden State Parkway depending on traffic, and we know the local road layout well enough to avoid the bottlenecks near the Route 22 corridor during peak hours.
+Kenilworth sits just a few miles from Scotch Plains, and our crews can reach most of the township, including the Willow Grove and Ashbrook areas near the southern edge, quickly regardless of time of day. We operate 24/7, so a fire that gets contained at 2 a.m. can have a restoration crew on-site before sunrise. We route through Route 28 or the Garden State Parkway depending on traffic, and we know the local road layout well enough to avoid the bottlenecks near the Route 22 corridor during peak hours.
 
 ## Insurance Coordination for Scotch Plains Homeowners
 
-Most homeowner policies in New Jersey cover sudden and accidental fire and smoke losses, but the documentation requirements vary by carrier. We photograph affected materials, generate itemized moisture and particulate readings, and produce a scope of work that aligns with how adjusters from the major carriers — Allstate, State Farm, NJM, and others common in Union County — review residential fire claims. We bill carriers directly where possible, which reduces the out-of-pocket burden during an already stressful period. If your policy includes Additional Living Expenses coverage, we can also help you understand what that means for temporary relocation while remediation is underway.
+Most homeowner policies in New Jersey cover sudden and accidental fire and smoke losses, but the documentation requirements vary by carrier. We photograph affected materials, generate itemized moisture and particulate readings, and produce a scope of work that aligns with how adjusters from the major carriers, Allstate, State Farm, NJM, and others common in Union County, review residential fire claims. We bill carriers directly where possible, which reduces the out-of-pocket burden during an already stressful period. If your policy includes Additional Living Expenses coverage, we can also help you understand what that means for temporary relocation while remediation is underway.
 
 ## Local Note
 
-One pattern we see repeatedly in the older homes near the Fanwood border and through the Southside: original plaster ceilings that have been skim-coated with joint compound over the decades. That compound layer absorbs smoke odor differently than the plaster beneath it — it releases odor more slowly and can continue off-gassing for weeks after the plaster itself has been cleaned. In these homes, we adjust the hydroxyl treatment schedule to run longer cycles and re-test air quality at 48-hour intervals rather than at job close-out. It adds time, but it prevents callbacks.
+One pattern we see repeatedly in the older homes near the Fanwood border and through the Southside: original plaster ceilings that have been skim-coated with joint compound over the decades. That compound layer absorbs smoke odor differently than the plaster beneath it, it releases odor more slowly and can continue off-gassing for weeks after the plaster itself has been cleaned. In these homes, we adjust the hydroxyl treatment schedule to run longer cycles and re-test air quality at 48-hour intervals rather than at job close-out. It adds time, but it prevents callbacks.
 
-If your Scotch Plains home has smoke damage from a kitchen fire, an electrical fire, or a structural loss, call The Restoration Group at (855) 650-7422. We are available around the clock, and we will give you a straight assessment of what the structure needs — no upselling, no vague timelines.
+If your Scotch Plains home has smoke damage from a kitchen fire, an electrical fire, or a structural loss, call The Restoration Group at (855) 650-7422. We are available around the clock, and we will give you a straight assessment of what the structure needs, no upselling, no vague timelines.

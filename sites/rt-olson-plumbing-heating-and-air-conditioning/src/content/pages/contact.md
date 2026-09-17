@@ -19,12 +19,12 @@ Whether you're watching water spread across your floor or just planning a system
 
 ## For urgent situations
 
-Burst pipes, gas odors, no heat in January, an AC that quits on a 105-degree Inland Empire afternoon — these don't wait for a callback window. Because we dispatch around the clock, calling **(951) 344-5596** at any hour connects you directly to our team. Have your address ready and we'll get moving.
+Burst pipes, gas odors, no heat in January, an AC that quits on a 105-degree Inland Empire afternoon, these don't wait for a callback window. Because we dispatch around the clock, calling **(951) 344-5596** at any hour connects you directly to our team. Have your address ready and we'll get moving.
 
 ## For estimates and non-urgent inquiries
 
-If you're pricing out a water heater replacement, scheduling routine maintenance, or have a question about an existing invoice, email works well: **office@rtoplumbing.com**. You can also use the contact form on this page. For estimate requests, a brief description of the work and your preferred time window helps us respond with something useful rather than a generic quote range. Expect a reply within one business day — usually sooner.
+If you're pricing out a water heater replacement, scheduling routine maintenance, or have a question about an existing invoice, email works well: **office@rtoplumbing.com**. You can also use the contact form on this page. For estimate requests, a brief description of the work and your preferred time window helps us respond with something useful rather than a generic quote range. Expect a reply within one business day, usually sooner.
 
 ## Where we're located
 
-Our shop is in Corona at **9064 Pulsar Ct., Suite J, Corona, CA 92883**, near the 15 and 91 interchange. We serve the surrounding Inland Empire and Riverside County communities, including Norco, Eastvale, Jurupa Valley, Riverside, Chino Hills, and Temecula. If you're not sure whether you're in our service area, call or email — we'd rather tell you directly than have you guess.
+Our shop is in Corona at **9064 Pulsar Ct., Suite J, Corona, CA 92883**, near the 15 and 91 interchange. We serve the surrounding Inland Empire and Riverside County communities, including Norco, Eastvale, Jurupa Valley, Riverside, Chino Hills, and Temecula. If you're not sure whether you're in our service area, call or email, we'd rather tell you directly than have you guess.

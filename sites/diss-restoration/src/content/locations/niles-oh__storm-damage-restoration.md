@@ -20,39 +20,39 @@ state: "OH"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
-Niles sits squarely in the Mahoning Valley's storm corridor, where Lake Erie's moisture collides with cold fronts pushing down from the north and severe convective lines that can drop baseball-sized hail and spin up brief but destructive tornadoes with little warning. When a storm peels back roofing, drops a tree through a garage, or drives water under siding and into wall cavities, the damage compounds fast — especially in a city where a significant share of the housing stock predates the Korean War and was built before modern weather-resistant sheathing was standard. DISS Restoration responds 24/7 from Youngstown to stop that compounding.
+Niles sits squarely in the Mahoning Valley's storm corridor, where Lake Erie's moisture collides with cold fronts pushing down from the north and severe convective lines that can drop baseball-sized hail and spin up brief but destructive tornadoes with little warning. When a storm peels back roofing, drops a tree through a garage, or drives water under siding and into wall cavities, the damage compounds fast, especially in a city where a significant share of the housing stock predates the Korean War and was built before modern weather-resistant sheathing was standard. DISS Restoration responds 24/7 from Youngstown to stop that compounding.
 
 ## Why Niles Properties See Elevated Storm Damage
 
 The geography here matters. Niles is positioned at an elevation transition between the Mahoning River valley floor and the surrounding upland, which means storm runoff concentrates quickly. Older neighborhoods with aging storm sewer infrastructure can see surface flooding within minutes of a heavy downpour, pushing water toward foundations and through basement windows before the rain even stops.
 
-The housing stock adds another layer of vulnerability. Homes built in the mid-20th century — common throughout Niles — often feature original cedar or asphalt-over-wood-board roof decking rather than modern OSB, original single-pane windows, and masonry chimneys that have seen decades of freeze-thaw cycling. A strong wind event that a newer build shrugs off can crack mortar joints, lift tab shingles, and open gaps that funnel water into attic framing within hours. Once water reaches old-growth dimensional lumber framing, it absorbs more slowly than engineered lumber but holds moisture longer — extending the drying timeline if the structure isn't addressed quickly.
+The housing stock adds another layer of vulnerability. Homes built in the mid-20th century, common throughout Niles, often feature original cedar or asphalt-over-wood-board roof decking rather than modern OSB, original single-pane windows, and masonry chimneys that have seen decades of freeze-thaw cycling. A strong wind event that a newer build shrugs off can crack mortar joints, lift tab shingles, and open gaps that funnel water into attic framing within hours. Once water reaches old-growth dimensional lumber framing, it absorbs more slowly than engineered lumber but holds moisture longer, extending the drying timeline if the structure isn't addressed quickly.
 
 ## Our Storm Damage Restoration Process in Niles
 
-Every storm job starts with a full exterior and interior assessment before any work begins. We document structural damage, photograph affected materials for the insurance file, and identify hidden water intrusion points — because what's visible from the curb is rarely the whole picture.
+Every storm job starts with a full exterior and interior assessment before any work begins. We document structural damage, photograph affected materials for the insurance file, and identify hidden water intrusion points, because what's visible from the curb is rarely the whole picture.
 
 From there, the process follows a clear sequence:
 
-- **Emergency stabilization** — tarping compromised rooflines, boarding broken windows, and securing any structural elements at risk of further failure.
-- **Water intrusion mapping** — using moisture meters and thermal imaging to trace where driven rain or roof leaks have traveled inside wall assemblies and ceiling cavities.
-- **Controlled demolition** — removing saturated insulation, drywall, or damaged sheathing only to the extent necessary, preserving as much original material as the drying readings support.
-- **Structural drying** — deploying commercial desiccant and refrigerant dehumidifiers alongside high-velocity air movers, calibrated to the building's construction type. Our IICRC-certified team follows IICRC S500 and S520 drying protocols throughout.
-- **Debris and tree removal coordination** — for tree-impact jobs, we work alongside licensed tree services to clear the site before reconstruction begins.
-- **Reconstruction** — from roof decking and sheathing to interior finishes, completed in-house so you're not managing two separate contractors.
+- **Emergency stabilization**, tarping compromised rooflines, boarding broken windows, and securing any structural elements at risk of further failure.
+- **Water intrusion mapping**, using moisture meters and thermal imaging to trace where driven rain or roof leaks have traveled inside wall assemblies and ceiling cavities.
+- **Controlled demolition**, removing saturated insulation, drywall, or damaged sheathing only to the extent necessary, preserving as much original material as the drying readings support.
+- **Structural drying**, deploying commercial desiccant and refrigerant dehumidifiers alongside high-velocity air movers, calibrated to the building's construction type. Our IICRC-certified team follows IICRC S500 and S520 drying protocols throughout.
+- **Debris and tree removal coordination**, for tree-impact jobs, we work alongside licensed tree services to clear the site before reconstruction begins.
+- **Reconstruction**, from roof decking and sheathing to interior finishes, completed in-house so you're not managing two separate contractors.
 
 ## Reaching Niles from Youngstown
 
-Our Youngstown base puts us on Route 422 or the I-80 corridor and into Niles in a matter of minutes — a practical advantage when a storm rolls through the Mahoning Valley and multiple properties need attention simultaneously. We dispatch 24 hours a day, seven days a week, so a storm that hits at 2 a.m. doesn't mean waiting until morning for someone to cover your exposed roof.
+Our Youngstown base puts us on Route 422 or the I-80 corridor and into Niles in a matter of minutes, a practical advantage when a storm rolls through the Mahoning Valley and multiple properties need attention simultaneously. We dispatch 24 hours a day, seven days a week, so a storm that hits at 2 a.m. doesn't mean waiting until morning for someone to cover your exposed roof.
 
-Because we work regularly throughout Trumbull County, our crews are familiar with the local road patterns, utility easement layouts, and the access constraints that come with some of the narrower residential streets in older sections of the city — details that matter when you're staging equipment and coordinating with utility crews after a major event.
+Because we work regularly throughout Trumbull County, our crews are familiar with the local road patterns, utility easement layouts, and the access constraints that come with some of the narrower residential streets in older sections of the city, details that matter when you're staging equipment and coordinating with utility crews after a major event.
 
 ## Niles Insurance Coordination
 
 Storm damage claims in Ohio move faster when the documentation is complete from the first visit. We photograph and log every affected area, produce moisture readings with timestamps, and organize the file in a format that adjusters can work from directly. We bill most major carriers directly, which means you're not fronting the full cost of emergency services while waiting for a claim decision.
 
-If your carrier requires a scope of loss before authorizing work, we can provide that documentation. If a supplemental claim becomes necessary after hidden damage is uncovered during drying — a common occurrence in older Niles homes where water travels farther than it first appears — we support that process as well.
+If your carrier requires a scope of loss before authorizing work, we can provide that documentation. If a supplemental claim becomes necessary after hidden damage is uncovered during drying, a common occurrence in older Niles homes where water travels farther than it first appears, we support that process as well.
 
 ## Local Note
 
-In Niles, homes along the lower elevations near the Mahoning River and its tributaries sometimes have crawl spaces or partial basements that were not designed with modern drainage expectations in mind. After a severe storm, water that enters through a compromised foundation wall or window well can pool in these spaces for days without being noticed — long enough for mold colonization to begin on the floor joists above. If your home has a crawl space and you've had any roof or foundation breach during a storm, getting a moisture reading in that space is worth doing before you assume the damage is limited to what you can see from the main floor.
+In Niles, homes along the lower elevations near the Mahoning River and its tributaries sometimes have crawl spaces or partial basements that were not designed with modern drainage expectations in mind. After a severe storm, water that enters through a compromised foundation wall or window well can pool in these spaces for days without being noticed, long enough for mold colonization to begin on the floor joists above. If your home has a crawl space and you've had any roof or foundation breach during a storm, getting a moisture reading in that space is worth doing before you assume the damage is limited to what you can see from the main floor.

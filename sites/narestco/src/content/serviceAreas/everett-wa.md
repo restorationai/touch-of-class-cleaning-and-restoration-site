@@ -19,17 +19,17 @@ state: "WA"
 primary: false
 rendered: true
 ---
-When water is seeping under your hardwood floors at 2 a.m., or smoke smell has soaked into every wall after a kitchen fire, the last thing you need is a contractor who can't tell you when they'll arrive. National Restoration Construction has been responding to property emergencies across Snohomish County since 2004. We handle water damage, fire and smoke damage, mold remediation, biohazard cleanup, and full reconstruction — and we dispatch directly to Everett, typically on-site within 60 to 90 minutes of your call.
+When water is seeping under your hardwood floors at 2 a.m., or smoke smell has soaked into every wall after a kitchen fire, the last thing you need is a contractor who can't tell you when they'll arrive. National Restoration Construction has been responding to property emergencies across Snohomish County since 2004. We handle water damage, fire and smoke damage, mold remediation, biohazard cleanup, and full reconstruction, and we dispatch directly to Everett, typically on-site within 60 to 90 minutes of your call.
 
 ## Restoration services we provide in Everett
 
 ### Water damage restoration
 
-Everett's wet winters and aging housing stock — much of it built before modern moisture barriers were standard — make burst pipes, roof leaks, and flooded crawl spaces a recurring reality. We extract standing water, deploy commercial drying equipment, and monitor moisture levels daily until structural readings return to normal. The faster water is removed, the less likely you are to face secondary damage like warped subfloors or mold growth, which can begin colonizing wet materials in as little as 24 to 48 hours.
+Everett's wet winters and aging housing stock, much of it built before modern moisture barriers were standard, make burst pipes, roof leaks, and flooded crawl spaces a recurring reality. We extract standing water, deploy commercial drying equipment, and monitor moisture levels daily until structural readings return to normal. The faster water is removed, the less likely you are to face secondary damage like warped subfloors or mold growth, which can begin colonizing wet materials in as little as 24 to 48 hours.
 
 ### Fire and smoke damage restoration
 
-Fire damage is rarely limited to charred surfaces. Smoke residue travels through HVAC systems, settles into insulation, and leaves an acidic film on metal fixtures that continues corroding long after the flames are out. We assess the full extent of damage — visible and hidden — then clean, deodorize, and restore affected materials or coordinate replacement through our reconstruction team.
+Fire damage is rarely limited to charred surfaces. Smoke residue travels through HVAC systems, settles into insulation, and leaves an acidic film on metal fixtures that continues corroding long after the flames are out. We assess the full extent of damage, visible and hidden, then clean, deodorize, and restore affected materials or coordinate replacement through our reconstruction team.
 
 ### Mold remediation
 
@@ -37,20 +37,20 @@ Snohomish County's humidity levels make mold a genuine concern in any property t
 
 ### Biohazard and trauma cleanup
 
-Some situations require more than standard cleaning — unattended deaths, sewage backups, and certain hoarding conditions involve pathogens that ordinary crews aren't equipped or licensed to handle. Our technicians are trained in bloodborne pathogen protocols and work discreetly, often coordinating directly with families or property managers to reduce the burden on people already under stress.
+Some situations require more than standard cleaning, unattended deaths, sewage backups, and certain hoarding conditions involve pathogens that ordinary crews aren't equipped or licensed to handle. Our technicians are trained in bloodborne pathogen protocols and work discreetly, often coordinating directly with families or property managers to reduce the burden on people already under stress.
 
 ### Reconstruction and build-back
 
-Most restoration companies stop at mitigation and hand you off to a separate contractor for repairs. We carry a Washington State contractor's license and handle build-back in-house — from replacing water-damaged drywall and flooring to full room reconstruction after a fire. One point of contact from emergency call to finished repair simplifies both the project and the insurance claim.
+Most restoration companies stop at mitigation and hand you off to a separate contractor for repairs. We carry a Washington State contractor's license and handle build-back in-house, from replacing water-damaged drywall and flooring to full room reconstruction after a fire. One point of contact from emergency call to finished repair simplifies both the project and the insurance claim.
 
 ## Why Everett property owners face restoration emergencies
 
-Everett sits on Port Gardner Bay and receives more than 35 inches of rain annually, with the heaviest accumulation running October through March. Older neighborhoods like North Everett and the waterfront district have homes with original cast-iron drain lines, single-pane windows prone to condensation, and crawl spaces that flood seasonally. Newer construction in south Everett and along Hwy 99 isn't immune — slab-on-grade foundations can trap moisture, and the region's freeze-thaw cycles in January and February split pipes in uninsulated exterior walls with regularity. Commercial properties along the Everett waterfront and near Paine Field deal with their own set of challenges: large flat roofs that pond water, older HVAC systems that spread smoke damage quickly, and tenant-occupied spaces where every hour of downtime has a dollar figure attached.
+Everett sits on Port Gardner Bay and receives more than 35 inches of rain annually, with the heaviest accumulation running October through March. Older neighborhoods like North Everett and the waterfront district have homes with original cast-iron drain lines, single-pane windows prone to condensation, and crawl spaces that flood seasonally. Newer construction in south Everett and along Hwy 99 isn't immune, slab-on-grade foundations can trap moisture, and the region's freeze-thaw cycles in January and February split pipes in uninsulated exterior walls with regularity. Commercial properties along the Everett waterfront and near Paine Field deal with their own set of challenges: large flat roofs that pond water, older HVAC systems that spread smoke damage quickly, and tenant-occupied spaces where every hour of downtime has a dollar figure attached.
 
 ## Response time and coverage in Everett
 
-We cover all of Everett — from Bayside to Silver Lake, from the Port area north through Pinehurst. From our Federal Way headquarters, drive time to central Everett typically runs 45 to 60 minutes under normal conditions; we aim to have a crew on your property within 90 minutes of your call, any time of day or night. For large-loss commercial jobs, we can mobilize multiple crews simultaneously. Call **(206) 883-0333** and you'll reach a live person, not a voicemail.
+We cover all of Everett, from Bayside to Silver Lake, from the Port area north through Pinehurst. From our Federal Way headquarters, drive time to central Everett typically runs 45 to 60 minutes under normal conditions; we aim to have a crew on your property within 90 minutes of your call, any time of day or night. For large-loss commercial jobs, we can mobilize multiple crews simultaneously. Call **(206) 883-0333** and you'll reach a live person, not a voicemail.
 
 ---
 
-If you're dealing with an active emergency, don't wait to see if it gets better on its own — water spreads, smoke odor sets, and mold doesn't pause over the weekend. Call National Restoration Construction at **(206) 883-0333** for immediate dispatch to your Everett property.
+If you're dealing with an active emergency, don't wait to see if it gets better on its own, water spreads, smoke odor sets, and mold doesn't pause over the weekend. Call National Restoration Construction at **(206) 883-0333** for immediate dispatch to your Everett property.

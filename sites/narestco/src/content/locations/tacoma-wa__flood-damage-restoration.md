@@ -20,40 +20,40 @@ state: "WA"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
-Standing water doesn't wait, and neither should you. Whether a burst pipe flooded your basement in the South End, a backed-up storm drain soaked your crawl space in Hilltop, or the Puyallup River's overflow crept into a first-floor unit in Fife, the clock starts the moment water touches your structure. National Restoration Construction responds to Tacoma flood emergencies from our Federal Way headquarters — typically on-site within 60–90 minutes of your call — because every hour water sits, it works deeper into subfloor, drywall, and framing.
+Standing water doesn't wait, and neither should you. Whether a burst pipe flooded your basement in the South End, a backed-up storm drain soaked your crawl space in Hilltop, or the Puyallup River's overflow crept into a first-floor unit in Fife, the clock starts the moment water touches your structure. National Restoration Construction responds to Tacoma flood emergencies from our Federal Way headquarters, typically on-site within 60–90 minutes of your call, because every hour water sits, it works deeper into subfloor, drywall, and framing.
 
 ## Why Tacoma Properties Are Vulnerable to Flood Damage
 
-Tacoma sits at the convergence of several risk factors that make residential and commercial flood damage a recurring reality, not a freak event. The city averages around 38 inches of rain per year, most of it falling in long, slow saturating stretches between October and March — the kind of rain that overwhelms aging storm infrastructure and finds every gap in a foundation. Many Tacoma neighborhoods feature older housing stock: craftsman bungalows, mid-century split-levels, and post-war rentals built before modern waterproofing standards. Crawl spaces in these homes are particularly susceptible, often showing standing water after a single heavy weekend.
+Tacoma sits at the convergence of several risk factors that make residential and commercial flood damage a recurring reality, not a freak event. The city averages around 38 inches of rain per year, most of it falling in long, slow saturating stretches between October and March, the kind of rain that overwhelms aging storm infrastructure and finds every gap in a foundation. Many Tacoma neighborhoods feature older housing stock: craftsman bungalows, mid-century split-levels, and post-war rentals built before modern waterproofing standards. Crawl spaces in these homes are particularly susceptible, often showing standing water after a single heavy weekend.
 
-The proximity to Commencement Bay and the Puyallup River delta adds another layer. Properties in the Tideflats and lower Puyallup corridor have documented flood plain exposure. Even neighborhoods farther uphill can see water intrusion when municipal storm drains back up during peak rainfall events — a problem that Tacoma Public Utilities has acknowledged in several older grid sections. The point isn't to alarm you; it's to explain why post-flood restoration in this area requires someone who understands the local patterns, not a generic national call center routing a crew from two counties away.
+The proximity to Commencement Bay and the Puyallup River delta adds another layer. Properties in the Tideflats and lower Puyallup corridor have documented flood plain exposure. Even neighborhoods farther uphill can see water intrusion when municipal storm drains back up during peak rainfall events, a problem that Tacoma Public Utilities has acknowledged in several older grid sections. The point isn't to alarm you; it's to explain why post-flood restoration in this area requires someone who understands the local patterns, not a generic national call center routing a crew from two counties away.
 
 ## Our Flood Damage Restoration Process in Tacoma
 
-When a technician arrives, the first priority is stopping ongoing damage — not paperwork. Here's what a typical response looks like:
+When a technician arrives, the first priority is stopping ongoing damage, not paperwork. Here's what a typical response looks like:
 
 ### 1. Emergency Water Extraction
 Truck-mounted extraction units pull standing water at a rate that portable shop-vac setups simply can't match. We work room to room, including under appliances, inside wall cavities if moisture mapping indicates saturation, and across any affected crawl space.
 
 ### 2. Moisture Mapping and Structural Assessment
-Thermal imaging cameras and calibrated moisture meters identify where water has migrated beyond what's visible. Water under a vinyl floor can be soaking the OSB subfloor and the top of a floor joist before you see any surface sign. We document everything — photos, moisture readings, affected square footage — which matters for your insurance claim.
+Thermal imaging cameras and calibrated moisture meters identify where water has migrated beyond what's visible. Water under a vinyl floor can be soaking the OSB subfloor and the top of a floor joist before you see any surface sign. We document everything, photos, moisture readings, affected square footage, which matters for your insurance claim.
 
 ### 3. Drying and Dehumidification
 Commercial-grade desiccant dehumidifiers and high-velocity air movers are staged based on the moisture map, not just placed randomly. Drying is monitored daily with updated readings until materials reach acceptable moisture content. Rushing this step is how mold colonies establish within 24–48 hours of a flood event.
 
 ### 4. Antimicrobial Treatment and Controlled Demolition (When Needed)
-If water sat longer than a few hours, or if it entered from a source that may carry contaminants — sewage backup, storm runoff, river overflow — affected materials are treated with EPA-registered antimicrobials. Saturated drywall, insulation, and flooring that can't be dried in place are removed cleanly, with the opening documented for reconstruction. As an IICRC Certified firm and licensed Washington State General Contractor (L&I #NATIORC792M6), we handle both the mitigation and the rebuild under one roof.
+If water sat longer than a few hours, or if it entered from a source that may carry contaminants, sewage backup, storm runoff, river overflow, affected materials are treated with EPA-registered antimicrobials. Saturated drywall, insulation, and flooring that can't be dried in place are removed cleanly, with the opening documented for reconstruction. As an IICRC Certified firm and licensed Washington State General Contractor (L&I #NATIORC792M6), we handle both the mitigation and the rebuild under one roof.
 
 ## Handling the Insurance Claim
 
-Insurance paperwork is the part most homeowners dread almost as much as the flood itself. We work directly with your adjuster — providing the moisture logs, photo documentation, scope of work, and line-item estimates in the format carriers expect. We've been doing this since 2004 and have processed claims with most major carriers operating in the Pacific Northwest.
+Insurance paperwork is the part most homeowners dread almost as much as the flood itself. We work directly with your adjuster, providing the moisture logs, photo documentation, scope of work, and line-item estimates in the format carriers expect. We've been doing this since 2004 and have processed claims with most major carriers operating in the Pacific Northwest.
 
 What you'll need to do on your end: report the loss to your carrier as soon as possible, avoid throwing away damaged materials before they're documented (take photos first), and keep any receipts for emergency expenses like a hotel stay if your home is uninhabitable. We can walk you through the rest when we arrive.
 
 ## Response Times Across Tacoma
 
-Our Federal Way location puts us roughly 15–20 minutes from most Tacoma zip codes under normal traffic conditions. That means a 60–90 minute response window from first contact to a technician walking through your door is realistic for neighborhoods like Stadium District, North End, Proctor, and the Hilltop. Areas farther south — Lakewood, Fircrest, University Place — fall within the same window. We operate 24 hours a day, seven days a week, including holidays, because floods don't respect business hours.
+Our Federal Way location puts us roughly 15–20 minutes from most Tacoma zip codes under normal traffic conditions. That means a 60–90 minute response window from first contact to a technician walking through your door is realistic for neighborhoods like Stadium District, North End, Proctor, and the Hilltop. Areas farther south, Lakewood, Fircrest, University Place, fall within the same window. We operate 24 hours a day, seven days a week, including holidays, because floods don't respect business hours.
 
 ---
 
-If water is in your home right now, the most useful thing you can do in the next five minutes is reach us at **(206) 883-0333**. A real person answers, not a voicemail system. If you're still assessing the situation and want to talk through what you're seeing before committing to anything, that conversation is free — and it may help you understand exactly what's at stake before the damage gets worse.
+If water is in your home right now, the most useful thing you can do in the next five minutes is reach us at **(206) 883-0333**. A real person answers, not a voicemail system. If you're still assessing the situation and want to talk through what you're seeing before committing to anything, that conversation is free, and it may help you understand exactly what's at stake before the damage gets worse.

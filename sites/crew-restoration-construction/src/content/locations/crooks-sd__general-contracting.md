@@ -20,21 +20,21 @@ state: "SD"
 service_display: "Renovations, Remodels and General Contracting"
 rendered: true
 ---
-Crooks sits just off Highway 138, a quick drive northwest of Sioux Falls, and the town's housing stock reflects that in-between character — established enough to have homes that need serious updating, growing fast enough that new construction and additions are popping up near West Crooks and out toward Renner Corner. Whether you're gutting a dated kitchen, converting a basement into livable square footage, or managing a full post-damage rebuild after a burst pipe or fire, Crew Restoration & Construction brings the same crew and the same standards to 57020 that we use on larger Sioux Falls projects — without the big-city markup or the scheduling delays.
+Crooks sits just off Highway 138, a quick drive northwest of Sioux Falls, and the town's housing stock reflects that in-between character, established enough to have homes that need serious updating, growing fast enough that new construction and additions are popping up near West Crooks and out toward Renner Corner. Whether you're gutting a dated kitchen, converting a basement into livable square footage, or managing a full post-damage rebuild after a burst pipe or fire, Crew Restoration & Construction brings the same crew and the same standards to 57020 that we use on larger Sioux Falls projects, without the big-city markup or the scheduling delays.
 
 ## Why Crooks Homes Are Ripe for Renovation Right Now
 
-A lot of the residential stock in and around Crooks was built during the suburban expansion of the 1970s through 1990s — an era of functional but dated construction. Galley kitchens with low ceilings, single-car garages that don't fit modern vehicles, bathrooms with fiberglass tub surrounds and undersized vanities — these are common complaints we hear from homeowners in the area. Add in South Dakota's freeze-thaw cycles, which are hard on foundation walls, exterior cladding, and any penetration point where water can find a seam, and you have a recipe for renovation projects that go deeper than cosmetic updates.
+A lot of the residential stock in and around Crooks was built during the suburban expansion of the 1970s through 1990s, an era of functional but dated construction. Galley kitchens with low ceilings, single-car garages that don't fit modern vehicles, bathrooms with fiberglass tub surrounds and undersized vanities, these are common complaints we hear from homeowners in the area. Add in South Dakota's freeze-thaw cycles, which are hard on foundation walls, exterior cladding, and any penetration point where water can find a seam, and you have a recipe for renovation projects that go deeper than cosmetic updates.
 
-Crooks also sits in a zone where soil expansion and contraction from seasonal moisture changes can shift slabs and cause interior cracking along drywall seams and tile grout lines. When we scope a remodel here, we look at those stress points before we finalize a materials plan — because there's no point in installing new flooring over a subfloor that hasn't been properly addressed.
+Crooks also sits in a zone where soil expansion and contraction from seasonal moisture changes can shift slabs and cause interior cracking along drywall seams and tile grout lines. When we scope a remodel here, we look at those stress points before we finalize a materials plan, because there's no point in installing new flooring over a subfloor that hasn't been properly addressed.
 
 ## Our Renovation and General Contracting Process in Crooks
 
-Every project starts with a walk-through and an honest scope of work. We don't hand you a one-page estimate and disappear — we walk the space with you, identify what's structural versus cosmetic, and flag anything that will affect permitting or sequencing.
+Every project starts with a walk-through and an honest scope of work. We don't hand you a one-page estimate and disappear, we walk the space with you, identify what's structural versus cosmetic, and flag anything that will affect permitting or sequencing.
 
 For kitchen and bathroom remodels, we handle the full trade stack: demo, framing changes, plumbing rough-in, electrical updates, insulation, drywall, tile, cabinetry, and finish work. You deal with one point of contact rather than coordinating a separate plumber, electrician, and tile setter who may or may not show up on the same week.
 
-For post-damage rebuilds — situations where a water loss, fire, or mold remediation has left rooms stripped to the studs — we move from mitigation directly into reconstruction without a gap in scheduling. That continuity matters when you're living out of a hotel or managing a rental property that's sitting vacant.
+For post-damage rebuilds, situations where a water loss, fire, or mold remediation has left rooms stripped to the studs, we move from mitigation directly into reconstruction without a gap in scheduling. That continuity matters when you're living out of a hotel or managing a rental property that's sitting vacant.
 
 All work is permitted through Minnehaha County where required. We pull the permits, schedule the inspections, and close them out before we consider a job finished.
 
@@ -42,12 +42,12 @@ All work is permitted through Minnehaha County where required. We pull the permi
 
 Our crews stage out of Sioux Falls and reach the Crooks area by heading west on I-90 and cutting south on Highway 11 or directly out Highway 138 depending on traffic. The drive is short enough that we can schedule morning starts in Crooks without the project day being eaten by windshield time. For homeowners near Downtown Crooks or out toward Crooks City Park, that proximity means we're not billing you for a long haul and we can make same-day material runs to Sioux Falls suppliers when a project calls for it.
 
-We schedule projects in Crooks the same way we do in our home market — with a realistic timeline communicated upfront, not a moving target.
+We schedule projects in Crooks the same way we do in our home market, with a realistic timeline communicated upfront, not a moving target.
 
 ## Local Note
 
-One thing we've noticed working in the Crooks corridor: homes built in the 1980s in this area frequently used a lower-grade OSB sheathing on exterior walls that doesn't hold fasteners as reliably as modern panels after decades of South Dakota winters. When we're doing a siding replacement or adding an exterior door or window as part of a remodel, we probe that sheathing before we spec the new installation. Skipping that step means callbacks — and we'd rather catch it in the scope than discover it mid-project when the wall is already open.
+One thing we've noticed working in the Crooks corridor: homes built in the 1980s in this area frequently used a lower-grade OSB sheathing on exterior walls that doesn't hold fasteners as reliably as modern panels after decades of South Dakota winters. When we're doing a siding replacement or adding an exterior door or window as part of a remodel, we probe that sheathing before we spec the new installation. Skipping that step means callbacks, and we'd rather catch it in the scope than discover it mid-project when the wall is already open.
 
 If you're planning a renovation in the 57020 area and you've had any moisture intrusion along exterior walls, mention it during the initial walk-through. It changes the material spec and sometimes the framing approach.
 
-Crew Restoration & Construction is ready to talk through your project in Crooks — whether it's a kitchen remodel you've been putting off for three years, a bathroom addition, or a full rebuild after a covered loss. Call us at (605) 965-2727 to schedule a walk-through and get a straight answer on scope, timeline, and cost.
+Crew Restoration & Construction is ready to talk through your project in Crooks, whether it's a kitchen remodel you've been putting off for three years, a bathroom addition, or a full rebuild after a covered loss. Call us at (605) 965-2727 to schedule a walk-through and get a straight answer on scope, timeline, and cost.

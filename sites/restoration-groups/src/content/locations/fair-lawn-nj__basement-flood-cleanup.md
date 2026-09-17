@@ -20,13 +20,13 @@ state: "NJ"
 service_display: "Basement Flood Cleanup"
 rendered: true
 ---
-When the Passaic River backs up or a nor'easter drops three inches overnight, Fair Lawn basements pay the price first. The borough sits between two waterways — the Passaic to the south and the Saddle River threading the east side — and the low-lying corridors along River Road and Saddle River Road have flooded repeatedly, most severely during Tropical Storm Ida in 2021. If you're standing in an inch of water right now, The Restoration Group has crews based locally and available around the clock. Call (855) 650-7422 and we'll get moving.
+When the Passaic River backs up or a nor'easter drops three inches overnight, Fair Lawn basements pay the price first. The borough sits between two waterways, the Passaic to the south and the Saddle River threading the east side, and the low-lying corridors along River Road and Saddle River Road have flooded repeatedly, most severely during Tropical Storm Ida in 2021. If you're standing in an inch of water right now, The Restoration Group has crews based locally and available around the clock. Call (855) 650-7422 and we'll get moving.
 
-## Why Fair Lawn Basements Flood — and Why Cleanup Is Complicated Here
+## Why Fair Lawn Basements Flood, and Why Cleanup Is Complicated Here
 
-Fair Lawn's housing stock tells the story. The Radburn Historic District, planned in the late 1920s, features homes with original cast-iron drain stacks and galvanized supply lines that have had a century to corrode, scale, and fail without warning. Postwar capes and colonials built through the 1950s and '60s across Warren Point and Columbia Heights added finished basements — rec rooms, laundry areas, home offices — that are far more expensive to restore than an unfinished slab.
+Fair Lawn's housing stock tells the story. The Radburn Historic District, planned in the late 1920s, features homes with original cast-iron drain stacks and galvanized supply lines that have had a century to corrode, scale, and fail without warning. Postwar capes and colonials built through the 1950s and '60s across Warren Point and Columbia Heights added finished basements, rec rooms, laundry areas, home offices, that are far more expensive to restore than an unfinished slab.
 
-Beyond the pipes, Fair Lawn's geography creates a compounding problem. The Saddle River floodplain extends well inland from the riverbank, and the clay-heavy soil common across Bergen County doesn't drain quickly. During sustained rain, hydrostatic pressure builds against foundation walls and floor slabs faster than most sump pumps can handle. A pump that runs fine in a light storm can be overwhelmed when the water table rises to slab level — which it does here.
+Beyond the pipes, Fair Lawn's geography creates a compounding problem. The Saddle River floodplain extends well inland from the riverbank, and the clay-heavy soil common across Bergen County doesn't drain quickly. During sustained rain, hydrostatic pressure builds against foundation walls and floor slabs faster than most sump pumps can handle. A pump that runs fine in a light storm can be overwhelmed when the water table rises to slab level, which it does here.
 
 The Broadway commercial corridor adds a different wrinkle: older retail buildings with flat or low-slope roofs and aging interior drains can send water through shared walls or below-grade utility chases into adjacent residential foundations. If your home or rental property is near the Broadway or Fair Lawn Avenue strips, a neighbor's roof drain failure can become your basement problem.
 
@@ -34,28 +34,28 @@ The Broadway commercial corridor adds a different wrinkle: older retail building
 
 Water damage compounds quickly. Porous concrete, wood framing, and drywall begin absorbing moisture within the first hour; mold can colonize damp organic material within 24 to 48 hours under the right conditions. Speed and thoroughness both matter.
 
-When our crew arrives, the first step is stopping any active water source and assessing the category of water involved — clean supply-line water, gray water from a drain backup, or black water from a sewage or river intrusion. Category determines how aggressively materials need to be removed rather than dried in place.
+When our crew arrives, the first step is stopping any active water source and assessing the category of water involved, clean supply-line water, gray water from a drain backup, or black water from a sewage or river intrusion. Category determines how aggressively materials need to be removed rather than dried in place.
 
 From there, the process follows the IICRC S500 standard for water damage restoration:
 
-- **Extraction** — truck-mounted and portable extractors pull standing water from carpet, subfloor, and slab joints. In Radburn-era homes with original hardwood subfloors, we probe carefully before assuming the surface is the only wet layer.
-- **Structural drying** — commercial-grade desiccant and refrigerant dehumidifiers, paired with high-velocity air movers, create a controlled drying environment. Moisture readings are logged at each visit so you and your insurer have a documented drying curve, not just our word.
-- **Material assessment** — drywall, insulation, and flooring are tested rather than assumed dry or assumed ruined. Saving salvageable material keeps your claim cost down.
-- **Antimicrobial treatment** — applied to affected framing and concrete after drying to address microbial growth that the flood water may have introduced.
-- **Documentation** — photo logs, moisture maps, and equipment placement records are packaged for your insurance adjuster.
+- **Extraction**, truck-mounted and portable extractors pull standing water from carpet, subfloor, and slab joints. In Radburn-era homes with original hardwood subfloors, we probe carefully before assuming the surface is the only wet layer.
+- **Structural drying**, commercial-grade desiccant and refrigerant dehumidifiers, paired with high-velocity air movers, create a controlled drying environment. Moisture readings are logged at each visit so you and your insurer have a documented drying curve, not just our word.
+- **Material assessment**, drywall, insulation, and flooring are tested rather than assumed dry or assumed ruined. Saving salvageable material keeps your claim cost down.
+- **Antimicrobial treatment**, applied to affected framing and concrete after drying to address microbial growth that the flood water may have introduced.
+- **Documentation**, photo logs, moisture maps, and equipment placement records are packaged for your insurance adjuster.
 
 ## Reaching Fair Lawn from Kenilworth
 
-Our Kenilworth office puts us on Route 17 or the Garden State Parkway north to Fair Lawn in a direct shot — no navigating through multiple towns. We serve every part of the 07410 ZIP code, including the flood-prone River Road and Saddle River Road stretches, the Radburn neighborhood, and the Warren Point area near the Saddle River County Park. Because we operate 24/7, a call at 2 a.m. after a sump pump failure reaches a live dispatcher, not a voicemail.
+Our Kenilworth office puts us on Route 17 or the Garden State Parkway north to Fair Lawn in a direct shot, no navigating through multiple towns. We serve every part of the 07410 ZIP code, including the flood-prone River Road and Saddle River Road stretches, the Radburn neighborhood, and the Warren Point area near the Saddle River County Park. Because we operate 24/7, a call at 2 a.m. after a sump pump failure reaches a live dispatcher, not a voicemail.
 
 ## Working with Your Insurance Carrier
 
-Most standard homeowner policies in New Jersey cover sudden and accidental water damage — a burst pipe, a washing machine supply line failure, an ice-dam leak — but exclude gradual seepage and flood damage from rising surface water. If your loss is storm-related flooding from the Passaic or Saddle River, a separate NFIP (National Flood Insurance Program) policy is what responds, and those claims have their own documentation requirements.
+Most standard homeowner policies in New Jersey cover sudden and accidental water damage, a burst pipe, a washing machine supply line failure, an ice-dam leak, but exclude gradual seepage and flood damage from rising surface water. If your loss is storm-related flooding from the Passaic or Saddle River, a separate NFIP (National Flood Insurance Program) policy is what responds, and those claims have their own documentation requirements.
 
 We photograph and document every affected area before extraction begins, produce moisture logs that satisfy carrier requirements, and communicate directly with your adjuster throughout the process. We are a licensed NJ Home Improvement Contractor, which carriers require before authorizing structural work.
 
 ## Local Note
 
-Radburn homes — and many of the colonials built in their shadow through the 1940s — were constructed with plaster-over-lath interior walls rather than modern drywall. When a basement floods and water wicks up into a plaster partition, the surface can feel dry to the touch within a day or two while the lath behind it stays saturated for a week or more. Standard moisture meters read the face of the plaster, not the cavity. We use thermal imaging alongside pin and pinless meters on these older Fair Lawn homes specifically because the drying timeline is longer and the hidden moisture risk is real. Closing out a job too early in a Radburn-area basement is how mold problems start two months later.
+Radburn homes, and many of the colonials built in their shadow through the 1940s, were constructed with plaster-over-lath interior walls rather than modern drywall. When a basement floods and water wicks up into a plaster partition, the surface can feel dry to the touch within a day or two while the lath behind it stays saturated for a week or more. Standard moisture meters read the face of the plaster, not the cavity. We use thermal imaging alongside pin and pinless meters on these older Fair Lawn homes specifically because the drying timeline is longer and the hidden moisture risk is real. Closing out a job too early in a Radburn-area basement is how mold problems start two months later.
 
-If your basement has taken on water — whether from the river, a drain backup, or a pipe that finally gave out — call The Restoration Group at (855) 650-7422. We know Fair Lawn's basements, and we'll treat yours like it matters.
+If your basement has taken on water, whether from the river, a drain backup, or a pipe that finally gave out, call The Restoration Group at (855) 650-7422. We know Fair Lawn's basements, and we'll treat yours like it matters.

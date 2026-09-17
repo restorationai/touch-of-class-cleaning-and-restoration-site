@@ -19,27 +19,27 @@ state: "CA"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall in Arroyo Grande or a coastal storm pushes water under a crawl space door, Coastal Restoration Services Inc handles the extraction, drying, and structural repair so the damage stops spreading. From the Village district's older craftsman bungalows to newer construction near the East Grand Avenue corridor, the team knows how San Luis Obispo County's coastal microclimates accelerate deterioration — and responds accordingly.
+When a pipe bursts behind a wall in Arroyo Grande or a coastal storm pushes water under a crawl space door, Coastal Restoration Services Inc handles the extraction, drying, and structural repair so the damage stops spreading. From the Village district's older craftsman bungalows to newer construction near the East Grand Avenue corridor, the team knows how San Luis Obispo County's coastal microclimates accelerate deterioration, and responds accordingly.
 
 ## Restoration emergencies common in Arroyo Grande
 
-Arroyo Grande sits in a fog belt that keeps relative humidity elevated for much of the year. That persistent moisture is the backdrop against which every leak, flood, or fire plays out differently here than it would in a drier inland city. Wood framing in homes built before 1980 — and there are many in the older residential pockets west of Highway 101 — absorbs ambient moisture even before a loss event occurs, which means drying times run longer and mold colonization can begin within 24 to 48 hours of a water intrusion rather than the 72-hour window people often assume.
+Arroyo Grande sits in a fog belt that keeps relative humidity elevated for much of the year. That persistent moisture is the backdrop against which every leak, flood, or fire plays out differently here than it would in a drier inland city. Wood framing in homes built before 1980, and there are many in the older residential pockets west of Highway 101, absorbs ambient moisture even before a loss event occurs, which means drying times run longer and mold colonization can begin within 24 to 48 hours of a water intrusion rather than the 72-hour window people often assume.
 
-The Arroyo Grande Creek drainage basin creates localized flood risk during atmospheric river events. Properties near the creek corridor have seen repeated storm-water intrusion, and slab foundations common in mid-century ranch homes offer little buffer when the water table rises quickly. Wildfire smoke from inland San Luis Obispo County fires — including the hills east of Highway 227 — regularly blankets the city, leaving fine particulate and odor-producing residue in HVAC systems and attic insulation that standard cleaning won't reach. Older galvanized supply lines, still present in a meaningful share of pre-1970 homes in the city, are also a recurring source of slow leaks that go undetected until a ceiling or subfloor gives way.
+The Arroyo Grande Creek drainage basin creates localized flood risk during atmospheric river events. Properties near the creek corridor have seen repeated storm-water intrusion, and slab foundations common in mid-century ranch homes offer little buffer when the water table rises quickly. Wildfire smoke from inland San Luis Obispo County fires, including the hills east of Highway 227, regularly blankets the city, leaving fine particulate and odor-producing residue in HVAC systems and attic insulation that standard cleaning won't reach. Older galvanized supply lines, still present in a meaningful share of pre-1970 homes in the city, are also a recurring source of slow leaks that go undetected until a ceiling or subfloor gives way.
 
 ## Services we provide in Arroyo Grande
 
 ### Water damage restoration
 
-Water damage in Arroyo Grande frequently involves subfloor saturation — hardwood and engineered flooring installed over a vapor-permeable crawl space can wick moisture from below even without a visible pipe failure. The team uses thermal imaging to map moisture boundaries before any demolition, then deploys commercial desiccant and refrigerant drying equipment calibrated to the ambient conditions. Documentation is formatted for direct submission to most major insurance carriers.
+Water damage in Arroyo Grande frequently involves subfloor saturation, hardwood and engineered flooring installed over a vapor-permeable crawl space can wick moisture from below even without a visible pipe failure. The team uses thermal imaging to map moisture boundaries before any demolition, then deploys commercial desiccant and refrigerant drying equipment calibrated to the ambient conditions. Documentation is formatted for direct submission to most major insurance carriers.
 
 ### Mold remediation
 
-The same coastal humidity that makes Arroyo Grande pleasant in summer creates ideal conditions for mold growth inside wall cavities, under bathroom tile, and in poorly ventilated crawl spaces. Remediation work follows established containment and air-filtration protocols to limit cross-contamination during removal. Post-remediation clearance testing is coordinated with independent industrial hygienists — the company does not self-certify clearance, which keeps the process credible for insurers and buyers during real estate transactions.
+The same coastal humidity that makes Arroyo Grande pleasant in summer creates ideal conditions for mold growth inside wall cavities, under bathroom tile, and in poorly ventilated crawl spaces. Remediation work follows established containment and air-filtration protocols to limit cross-contamination during removal. Post-remediation clearance testing is coordinated with independent industrial hygienists, the company does not self-certify clearance, which keeps the process credible for insurers and buyers during real estate transactions.
 
 ### Fire and smoke damage restoration
 
-Smoke damage after a kitchen fire or a nearby wildland event leaves behind two distinct problems: visible char and soot, and invisible odor molecules embedded in porous materials. The restoration process addresses both — structural cleaning, content pack-out when needed, hydroxyl or thermal fogging for odor neutralization, and coordination with your adjuster on scope. Homes with older wood-shake or composite roofing, common in parts of Arroyo Grande, often require closer inspection for ember intrusion into attic spaces.
+Smoke damage after a kitchen fire or a nearby wildland event leaves behind two distinct problems: visible char and soot, and invisible odor molecules embedded in porous materials. The restoration process addresses both, structural cleaning, content pack-out when needed, hydroxyl or thermal fogging for odor neutralization, and coordination with your adjuster on scope. Homes with older wood-shake or composite roofing, common in parts of Arroyo Grande, often require closer inspection for ember intrusion into attic spaces.
 
 ### Biohazard and specialty cleanup
 
@@ -47,11 +47,11 @@ Sewage backups from aging municipal laterals, trauma scenes, and hazardous mater
 
 ### Reconstruction
 
-Once mitigation is complete, the same contractor handles structural repairs — framing, drywall, flooring, and finish work — so property owners are not managing a handoff between a restoration company and a separate general contractor. That continuity matters when a loss is being tracked under a single insurance claim.
+Once mitigation is complete, the same contractor handles structural repairs, framing, drywall, flooring, and finish work, so property owners are not managing a handoff between a restoration company and a separate general contractor. That continuity matters when a loss is being tracked under a single insurance claim.
 
 ## Coverage and how fast we can get there
 
-Coastal Restoration Services Inc is based in Vandenberg Village, roughly 20 miles northwest of Arroyo Grande via Highway 1 south to Highway 101. The drive runs through Pismo Beach and into the city from the north, typically 25 to 35 minutes depending on traffic on the 101 corridor near the Five Cities area. For property managers or homeowners in the eastern parts of the city — closer to the Corbett Canyon Road corridor — routing through Los Berros Road can shave time during peak hours. Call (805) 345-7440 to confirm scheduling and get an accurate arrival estimate for your specific address.
+Coastal Restoration Services Inc is based in Vandenberg Village, roughly 20 miles northwest of Arroyo Grande via Highway 1 south to Highway 101. The drive runs through Pismo Beach and into the city from the north, typically 25 to 35 minutes depending on traffic on the 101 corridor near the Five Cities area. For property managers or homeowners in the eastern parts of the city, closer to the Corbett Canyon Road corridor, routing through Los Berros Road can shave time during peak hours. Call (805) 345-7440 to confirm scheduling and get an accurate arrival estimate for your specific address.
 
 ## Building stock, site conditions, and permits in Arroyo Grande
 
@@ -59,4 +59,4 @@ Older homes in the Village and the surrounding blocks tend to be redwood-framed 
 
 Structural repairs are permitted through the City of Arroyo Grande's building division. Framing replacement, re-roofing, and electrical or plumbing alterations generally trigger a permit; California's seismic requirements for this coastal zone shape how foundation and cripple-wall work gets detailed.
 
-If you are dealing with water, fire, mold, or structural damage at a property in Arroyo Grande, call Coastal Restoration Services Inc at **(805) 345-7440**. The sooner the assessment begins, the more of the structure — and the claim — can be preserved.
+If you are dealing with water, fire, mold, or structural damage at a property in Arroyo Grande, call Coastal Restoration Services Inc at **(805) 345-7440**. The sooner the assessment begins, the more of the structure, and the claim, can be preserved.

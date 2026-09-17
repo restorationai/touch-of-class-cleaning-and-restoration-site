@@ -19,27 +19,27 @@ state: "TX"
 primary: false
 rendered: true
 ---
-When a water heater fails at midnight in Thorntree or a spring hailstorm peels shingles off a Windmill Hill brick ranch, DeSoto property owners need a restoration crew that already knows the neighborhood — not one that has to look it up. MCC Restoration and Contracting Services operates out of Duncanville, minutes from DeSoto's western edge, and handles water damage, fire and smoke cleanup, mold remediation, storm repair, and full reconstruction for homes and commercial properties across ZIP code 75115.
+When a water heater fails at midnight in Thorntree or a spring hailstorm peels shingles off a Windmill Hill brick ranch, DeSoto property owners need a restoration crew that already knows the neighborhood, not one that has to look it up. MCC Restoration and Contracting Services operates out of Duncanville, minutes from DeSoto's western edge, and handles water damage, fire and smoke cleanup, mold remediation, storm repair, and full reconstruction for homes and commercial properties across ZIP code 75115.
 
 ## Restoration emergencies common in DeSoto
 
-DeSoto's housing stock tells the story. The large-lot brick homes built through the 1970s, '80s, and '90s in Thorntree, Windmill Hill, and along the Hampton Road corridor are well-built — but they're aging. Water heaters that have been in service for 25 or 30 years fail without warning, and when they go, the water spreads fast across slab foundations before anyone notices. The expansive clay soil that underlies most of this part of Dallas County shifts with every wet-dry cycle, stressing supply lines and drain connections until something gives.
+DeSoto's housing stock tells the story. The large-lot brick homes built through the 1970s, '80s, and '90s in Thorntree, Windmill Hill, and along the Hampton Road corridor are well-built, but they're aging. Water heaters that have been in service for 25 or 30 years fail without warning, and when they go, the water spreads fast across slab foundations before anyone notices. The expansive clay soil that underlies most of this part of Dallas County shifts with every wet-dry cycle, stressing supply lines and drain connections until something gives.
 
-Above ground, the mature oak and pecan canopy that makes Windmill Hill and Meadow Creek so attractive becomes a liability during storm season. Limbs — some of them heavy enough to breach a roof deck — come down in the same spring squall lines that bring golf-ball hail. The April 2022 hailstorm left a long trail of damaged roofing and gutters across 75115, and repeated spring events since then have kept storm-restoration demand steady. Add in the occasional plumbing freeze during a hard North Texas cold snap, and the pattern is clear: DeSoto sees a wide mix of water, storm, and mold calls year-round.
+Above ground, the mature oak and pecan canopy that makes Windmill Hill and Meadow Creek so attractive becomes a liability during storm season. Limbs, some of them heavy enough to breach a roof deck, come down in the same spring squall lines that bring golf-ball hail. The April 2022 hailstorm left a long trail of damaged roofing and gutters across 75115, and repeated spring events since then have kept storm-restoration demand steady. Add in the occasional plumbing freeze during a hard North Texas cold snap, and the pattern is clear: DeSoto sees a wide mix of water, storm, and mold calls year-round.
 
 ## Services we provide in DeSoto
 
 ### Water damage restoration
 
-Water damage in DeSoto most often starts with a burst supply line, a failed water heater, or an HVAC condensate pan that overflows into a finished ceiling. In the older brick homes near Thorntree Country Club, original galvanized or early copper plumbing can develop pinhole leaks that go undetected inside walls for weeks — long enough for mold to begin colonizing drywall cavities. We extract standing water, use thermal imaging to find hidden moisture, and dry structural assemblies to IICRC S500 standards before any rebuild work begins.
+Water damage in DeSoto most often starts with a burst supply line, a failed water heater, or an HVAC condensate pan that overflows into a finished ceiling. In the older brick homes near Thorntree Country Club, original galvanized or early copper plumbing can develop pinhole leaks that go undetected inside walls for weeks, long enough for mold to begin colonizing drywall cavities. We extract standing water, use thermal imaging to find hidden moisture, and dry structural assemblies to IICRC S500 standards before any rebuild work begins.
 
 ### Storm and hail damage repair
 
-After a hail event or high-wind storm, the most urgent priority is stopping secondary water intrusion — a compromised roof deck can soak ceiling insulation and framing within a single rain cycle. We tarp and board damaged areas, document everything for insurance, and carry the job through from emergency stabilization to finished roofing and interior repair. Homeowners near Eagle Stadium and along the Hampton Road corridor have seen repeated storm activity; we know the roofing profiles common to this era of construction.
+After a hail event or high-wind storm, the most urgent priority is stopping secondary water intrusion, a compromised roof deck can soak ceiling insulation and framing within a single rain cycle. We tarp and board damaged areas, document everything for insurance, and carry the job through from emergency stabilization to finished roofing and interior repair. Homeowners near Eagle Stadium and along the Hampton Road corridor have seen repeated storm activity; we know the roofing profiles common to this era of construction.
 
 ### Mold remediation
 
-DeSoto's humidity and the frequency of slow, hidden leaks in older homes create conditions where mold can establish itself quickly — often inside wall cavities or beneath flooring where it isn't visible. We identify the moisture source, contain the affected area, and remove contaminated materials following EPA guidelines. Remediation without fixing the underlying moisture problem is a short-term fix, so we address both together.
+DeSoto's humidity and the frequency of slow, hidden leaks in older homes create conditions where mold can establish itself quickly, often inside wall cavities or beneath flooring where it isn't visible. We identify the moisture source, contain the affected area, and remove contaminated materials following EPA guidelines. Remediation without fixing the underlying moisture problem is a short-term fix, so we address both together.
 
 ### Fire and smoke damage restoration
 
@@ -47,11 +47,11 @@ Smoke residue penetrates HVAC systems, insulation, and wall cavities far beyond 
 
 ### Full reconstruction
 
-Some losses — a roof collapse from a fallen limb, a fire that damaged a load-bearing wall — require permitted reconstruction, not just cleanup. We carry the work through demolition, framing, mechanical rough-ins, and finished surfaces, coordinating with the city of DeSoto's building department so inspections stay on schedule.
+Some losses, a roof collapse from a fallen limb, a fire that damaged a load-bearing wall, require permitted reconstruction, not just cleanup. We carry the work through demolition, framing, mechanical rough-ins, and finished surfaces, coordinating with the city of DeSoto's building department so inspections stay on schedule.
 
 ## Coverage and how fast we can get there
 
-Duncanville and DeSoto share a border. From our location, the most direct route into DeSoto's core neighborhoods runs east on Belt Line Road or south on Hampton Road — both put us into Thorntree, Windmill Hill, and the Meadow Creek area without highway delays. Zeiger Park and DeSoto Town Center are similarly close. We serve the full 75115 ZIP code and schedule crews as quickly as our current dispatch allows; call (682) 772-9123 to get an accurate arrival window based on the day's workload.
+Duncanville and DeSoto share a border. From our location, the most direct route into DeSoto's core neighborhoods runs east on Belt Line Road or south on Hampton Road, both put us into Thorntree, Windmill Hill, and the Meadow Creek area without highway delays. Zeiger Park and DeSoto Town Center are similarly close. We serve the full 75115 ZIP code and schedule crews as quickly as our current dispatch allows; call (682) 772-9123 to get an accurate arrival window based on the day's workload.
 
 ## Building stock, site conditions, and permits in DeSoto
 

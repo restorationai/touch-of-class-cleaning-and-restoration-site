@@ -17,44 +17,44 @@ service_slug: "biohazard-cleanup"
 service_display: "Biohazard Cleanup"
 rendered: true
 ---
-When something unexpected and traumatic happens inside a home or property, the physical aftermath doesn't wait. Bloodborne pathogens can remain infectious on porous surfaces for days. Bodily fluids seep into subfloor seams, carpet padding, and drywall cavities that look untouched from the surface. What appears to be a contained area often isn't — and the window for safe, effective biohazard remediation is shorter than most people realize. HomeLyft Restoration MS handles these situations with the clinical precision and quiet discretion the circumstances demand.
+When something unexpected and traumatic happens inside a home or property, the physical aftermath doesn't wait. Bloodborne pathogens can remain infectious on porous surfaces for days. Bodily fluids seep into subfloor seams, carpet padding, and drywall cavities that look untouched from the surface. What appears to be a contained area often isn't, and the window for safe, effective biohazard remediation is shorter than most people realize. HomeLyft Restoration MS handles these situations with the clinical precision and quiet discretion the circumstances demand.
 
 ## What biohazard cleanup actually involves
 
 Biohazard cleanup is not general cleaning. It requires personal protective equipment rated for bloodborne pathogen exposure, EPA-registered hospital-grade disinfectants, enzymatic treatments that break down organic material at the molecular level, and regulated waste disposal under a documented chain of custody.
 
-The scope of a biohazard scene varies widely. A single-surface incident in a tiled bathroom is a fundamentally different job than one involving upholstered furniture, hardwood flooring with open grain, or HVAC returns that may have circulated aerosolized particles. Our OSHA-trained technicians assess the full affected zone — not just the visible area — before any removal begins.
+The scope of a biohazard scene varies widely. A single-surface incident in a tiled bathroom is a fundamentally different job than one involving upholstered furniture, hardwood flooring with open grain, or HVAC returns that may have circulated aerosolized particles. Our OSHA-trained technicians assess the full affected zone, not just the visible area, before any removal begins.
 
 Common biohazard scenarios we respond to include:
 
-- **Unattended death cleanup** — decomposition accelerates rapidly in Mississippi's heat and humidity, and the affected area is almost always larger than it appears.
-- **Blood and bodily fluid cleanup** — trauma, injury, or medical emergency scenes requiring infectious material cleanup and surface decontamination.
-- **Sharps and needle cleanup** — discarded needles and syringes require puncture-resistant containment and regulated disposal; they cannot go into standard waste streams.
-- **Infectious material cleanup** — sewage backups involving human waste, or other situations where pathogen exposure is a documented risk.
+- **Unattended death cleanup**, decomposition accelerates rapidly in Mississippi's heat and humidity, and the affected area is almost always larger than it appears.
+- **Blood and bodily fluid cleanup**, trauma, injury, or medical emergency scenes requiring infectious material cleanup and surface decontamination.
+- **Sharps and needle cleanup**, discarded needles and syringes require puncture-resistant containment and regulated disposal; they cannot go into standard waste streams.
+- **Infectious material cleanup**, sewage backups involving human waste, or other situations where pathogen exposure is a documented risk.
 
 Timeline depends on surface porosity, square footage, and whether structural materials need to be removed. Most single-room responses are completed in one to two days. Larger or more complex scenes may require additional time for clearance verification.
 
 ## Our process
 
-1. **PPE staging and scene assessment.** Before any technician enters the affected area, the team dons appropriate PPE — Tyvek suits, respirators, gloves, and boot covers — and evaluates the full extent of contamination, including hidden migration into adjacent materials.
+1. **PPE staging and scene assessment.** Before any technician enters the affected area, the team dons appropriate PPE, Tyvek suits, respirators, gloves, and boot covers, and evaluates the full extent of contamination, including hidden migration into adjacent materials.
 
 2. **Containment and access control.** Affected areas are isolated from the rest of the structure using physical barriers and negative air pressure where appropriate. This protects unaffected areas and prevents cross-contamination during removal.
 
-3. **Biohazardous material removal and surface treatment.** Contaminated porous materials — carpet, padding, drywall, subfloor sections — are carefully removed and double-bagged in certified biohazard containers. Remaining hard surfaces are treated with EPA-registered disinfectants, followed by enzymatic agents that neutralize organic residue rather than simply masking it.
+3. **Biohazardous material removal and surface treatment.** Contaminated porous materials, carpet, padding, drywall, subfloor sections, are carefully removed and double-bagged in certified biohazard containers. Remaining hard surfaces are treated with EPA-registered disinfectants, followed by enzymatic agents that neutralize organic residue rather than simply masking it.
 
-4. **Regulated waste transport and manifest documentation.** All biohazardous waste is transported by a licensed medical waste carrier under a written waste manifest — a legal chain-of-custody document required by Mississippi state regulation. This documentation is provided to the property owner and insurer.
+4. **Regulated waste transport and manifest documentation.** All biohazardous waste is transported by a licensed medical waste carrier under a written waste manifest, a legal chain-of-custody document required by Mississippi state regulation. This documentation is provided to the property owner and insurer.
 
 5. **Post-remediation verification.** Before containment comes down, surfaces are inspected and, where indicated, ATP testing or other verification methods confirm that the treated area meets decontamination standards. The property is returned in a condition that allows normal restoration or reconstruction to proceed.
 
 ## What separates a good biohazard response from a bad one
 
-The most common failure in biohazard cleanup is treating only what's visible. Blood and bodily fluids follow gravity and capillary action — they travel through grout lines, under baseboards, between subfloor panels, and into wall cavities. A crew that wipes down the visible surface and leaves has not completed the job. Weeks later, the odor returns, and the underlying contamination is now harder to access.
+The most common failure in biohazard cleanup is treating only what's visible. Blood and bodily fluids follow gravity and capillary action, they travel through grout lines, under baseboards, between subfloor panels, and into wall cavities. A crew that wipes down the visible surface and leaves has not completed the job. Weeks later, the odor returns, and the underlying contamination is now harder to access.
 
-A second common problem is improper waste disposal. Biohazardous waste in Mississippi must be handled under a regulated manifest system. Crews that bag material and place it in standard dumpsters — or transport it without documentation — expose the property owner to liability and leave no paper trail for the insurance claim.
+A second common problem is improper waste disposal. Biohazardous waste in Mississippi must be handled under a regulated manifest system. Crews that bag material and place it in standard dumpsters, or transport it without documentation, expose the property owner to liability and leave no paper trail for the insurance claim.
 
 Insurance adjusters reviewing biohazard claims look for three things: a documented scope of work that identifies all affected materials, proof of regulated waste disposal (the manifest), and evidence that decontamination was verified rather than assumed. HomeLyft Restoration MS provides all three as standard.
 
-Discreet scheduling matters too. Unmarked vehicles and crew attire that doesn't broadcast the nature of the work are available on request — a detail that matters to many families and property managers.
+Discreet scheduling matters too. Unmarked vehicles and crew attire that doesn't broadcast the nature of the work are available on request, a detail that matters to many families and property managers.
 
 ## What does biohazard cleanup cost?
 
@@ -68,14 +68,14 @@ Typical costs for biohazard remediation vary significantly based on the size of 
 | Sharps cleanup, contained area | $400 – $1,200 |
 | Unattended death, extended timeline | $5,000 – $25,000+ |
 
-Every loss is different, and HomeLyft Restoration MS provides a written scope of work before any remediation begins so there are no surprises. Homeowners insurance frequently covers biohazard cleanup under the dwelling or personal property provisions of a standard policy — particularly for sudden, accidental events — though coverage varies by carrier and policy language.
+Every loss is different, and HomeLyft Restoration MS provides a written scope of work before any remediation begins so there are no surprises. Homeowners insurance frequently covers biohazard cleanup under the dwelling or personal property provisions of a standard policy, particularly for sudden, accidental events, though coverage varies by carrier and policy language.
 
 ## Seasonal and regional considerations
 
-Gulfport and the Mississippi Gulf Coast present specific challenges for biohazard response. Summer temperatures routinely exceed 90°F with high humidity, which accelerates decomposition and the growth of secondary biological hazards. Scenes that might remain stable for 48 hours in a cooler climate can deteriorate significantly faster here. Prompt response is not a sales point — it is a practical necessity in this region.
+Gulfport and the Mississippi Gulf Coast present specific challenges for biohazard response. Summer temperatures routinely exceed 90°F with high humidity, which accelerates decomposition and the growth of secondary biological hazards. Scenes that might remain stable for 48 hours in a cooler climate can deteriorate significantly faster here. Prompt response is not a sales point, it is a practical necessity in this region.
 
 ## Service area
 
 HomeLyft Restoration MS is based in Gulfport and provides biohazard cleanup throughout the Gulf Coast, including Biloxi, Pascagoula, Long Beach, Pass Christian, Bay St. Louis, Hattiesburg, and surrounding communities. City-specific service pages link back here for full process and technical detail.
 
-If you are dealing with a situation that requires biohazard remediation, call HomeLyft Restoration MS at (228) 284-5200. We handle scheduling with discretion, arrive in unmarked vehicles on request, and walk you through every step before work begins — so you know exactly what to expect.
+If you are dealing with a situation that requires biohazard remediation, call HomeLyft Restoration MS at (228) 284-5200. We handle scheduling with discretion, arrive in unmarked vehicles on request, and walk you through every step before work begins, so you know exactly what to expect.

@@ -20,19 +20,19 @@ state: "SD"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
-When Sixmile Creek backs up during a heavy spring thaw or a supply line lets go in a farmhouse off Highway 14, water moves fast — and in Volga's climate, the window between a wet floor and a mold problem is shorter than most homeowners expect. Crew Restoration & Construction responds to water damage calls throughout the 57071 area, bringing industrial extraction and structural drying equipment to properties that range from century-old main-street buildings in Downtown Volga to newer lake-adjacent homes near Oakwood Lakes State Park.
+When Sixmile Creek backs up during a heavy spring thaw or a supply line lets go in a farmhouse off Highway 14, water moves fast, and in Volga's climate, the window between a wet floor and a mold problem is shorter than most homeowners expect. Crew Restoration & Construction responds to water damage calls throughout the 57071 area, bringing industrial extraction and structural drying equipment to properties that range from century-old main-street buildings in Downtown Volga to newer lake-adjacent homes near Oakwood Lakes State Park.
 
 ## Why Volga Properties See Water Damage Issues
 
-Volga sits in a part of eastern South Dakota where the soil holds moisture long after a rain event. That clay-heavy ground doesn't drain the way sandy soil does, which means water that pools against a foundation has nowhere to go except through it. Basement seepage is the most common call we get from the Oakwood area and the older residential streets near the grain elevator corridor — especially in March and April when frozen ground thaws from the top down and snowmelt has no path to absorb.
+Volga sits in a part of eastern South Dakota where the soil holds moisture long after a rain event. That clay-heavy ground doesn't drain the way sandy soil does, which means water that pools against a foundation has nowhere to go except through it. Basement seepage is the most common call we get from the Oakwood area and the older residential streets near the grain elevator corridor, especially in March and April when frozen ground thaws from the top down and snowmelt has no path to absorb.
 
-Beyond seasonal flooding, Volga's housing stock includes a meaningful number of homes built before modern plumbing standards, where galvanized supply lines and cast-iron drain stacks are still in service. Those materials corrode from the inside out, and when they fail, they tend to fail quietly — behind a wall or under a subfloor — for days before anyone notices the soft spot in the hardwood or the stain spreading across a ceiling tile. The longer that water sits, the deeper it wicks into framing and insulation.
+Beyond seasonal flooding, Volga's housing stock includes a meaningful number of homes built before modern plumbing standards, where galvanized supply lines and cast-iron drain stacks are still in service. Those materials corrode from the inside out, and when they fail, they tend to fail quietly, behind a wall or under a subfloor, for days before anyone notices the soft spot in the hardwood or the stain spreading across a ceiling tile. The longer that water sits, the deeper it wicks into framing and insulation.
 
 Summer storm systems that track northeast across the Brookings County area can drop two to three inches of rain in under an hour, overwhelming window wells and sump pumps that haven't been serviced since the previous season. Lake-home owners near Oakwood Lakes State Park face an additional variable: properties that sit vacant between visits can sustain significant water intrusion before anyone arrives to catch it.
 
 ## Our Water Damage Restoration Process in Volga
 
-The first step on any water loss is stopping the source — whether that means shutting a main valve or tarping a compromised roof section — before extraction begins. We use truck-mounted and portable extractors to pull standing water from finished basements, crawl spaces, and slab-on-grade areas, then deploy high-capacity air movers and refrigerant dehumidifiers calibrated to the indoor temperature and humidity conditions typical of a South Dakota home in any season.
+The first step on any water loss is stopping the source, whether that means shutting a main valve or tarping a compromised roof section, before extraction begins. We use truck-mounted and portable extractors to pull standing water from finished basements, crawl spaces, and slab-on-grade areas, then deploy high-capacity air movers and refrigerant dehumidifiers calibrated to the indoor temperature and humidity conditions typical of a South Dakota home in any season.
 
 Moisture mapping is done with thermal imaging cameras and pin-type meters rather than visual inspection alone. Water travels along framing members and vapor barriers in ways that aren't visible on the surface, and in Volga's older homes, it can migrate through plaster lath and settle in wall cavities that look dry from the outside. We document readings at every monitoring point, which creates the drying log your insurance adjuster will need to close the claim.
 
@@ -40,18 +40,18 @@ Structural drying typically runs three to five days depending on material satura
 
 ## Reaching Volga from Sioux Falls
 
-Crew Restoration & Construction is based in Sioux Falls and serves Volga via Interstate 29 north to the Brookings area, then east on Highway 14 — a route that keeps drive time predictable in most weather conditions. For scheduling and dispatch, call us at (605) 965-2727. We coordinate arrival windows directly with you so you're not left waiting without information.
+Crew Restoration & Construction is based in Sioux Falls and serves Volga via Interstate 29 north to the Brookings area, then east on Highway 14, a route that keeps drive time predictable in most weather conditions. For scheduling and dispatch, call us at (605) 965-2727. We coordinate arrival windows directly with you so you're not left waiting without information.
 
-For properties near the Oakwood Lakes corridor, access can occasionally be complicated by seasonal road conditions on township gravel roads — something we ask about when taking the initial call so we can plan equipment staging accordingly.
+For properties near the Oakwood Lakes corridor, access can occasionally be complicated by seasonal road conditions on township gravel roads, something we ask about when taking the initial call so we can plan equipment staging accordingly.
 
 ## Volga Insurance Coordination
 
-Most standard homeowner policies cover sudden and accidental water losses — a burst pipe, a washing machine supply line, an ice-dam leak — but exclude long-term seepage that could have been caught earlier. The distinction matters when an adjuster reviews your claim, and the documentation we produce during the drying process is designed to support your position clearly.
+Most standard homeowner policies cover sudden and accidental water losses, a burst pipe, a washing machine supply line, an ice-dam leak, but exclude long-term seepage that could have been caught earlier. The distinction matters when an adjuster reviews your claim, and the documentation we produce during the drying process is designed to support your position clearly.
 
 We photograph affected materials before, during, and after extraction, log moisture readings with timestamps, and can communicate directly with your carrier's field adjuster to answer technical questions about scope and method. If your policy includes contents coverage, we inventory damaged personal property as part of the initial assessment.
 
 ## Local Note
 
-Homes in the Oakwood area that were built on crawl space foundations — common in Volga's residential neighborhoods platted in the 1950s and 1960s — often have fiberglass batt insulation stapled between floor joists. When a crawl space floods, that insulation acts like a sponge, holding water against the subfloor for weeks even after the visible standing water is gone. We always pull and bag saturated batt insulation rather than attempting to dry it in place; it can't be restored to its original R-value once it's been wet, and leaving it creates a persistent moisture reservoir that feeds mold growth on the joists above.
+Homes in the Oakwood area that were built on crawl space foundations, common in Volga's residential neighborhoods platted in the 1950s and 1960s, often have fiberglass batt insulation stapled between floor joists. When a crawl space floods, that insulation acts like a sponge, holding water against the subfloor for weeks even after the visible standing water is gone. We always pull and bag saturated batt insulation rather than attempting to dry it in place; it can't be restored to its original R-value once it's been wet, and leaving it creates a persistent moisture reservoir that feeds mold growth on the joists above.
 
 If you're dealing with water in a Volga home or a lake property near Oakwood Lakes State Park, call Crew Restoration & Construction at (605) 965-2727. We'll assess the damage, start extraction, and walk you through every step of the drying and documentation process so nothing gets missed.

@@ -21,42 +21,42 @@ service_display: "Trauma Scene Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
-Tacoma's older housing stock — particularly the early-1900s craftsman and Victorian-era homes concentrated in the Stadium District and Proctor District — presents a specific challenge after a trauma event: porous plaster walls, original hardwood subfloors, and decades of settled dust create surfaces that absorb biological material at a different rate than modern construction. When a family in one of these homes faces an unthinkable situation, the cleanup isn't just emotionally difficult — it's technically demanding in ways that require both compassion and precision. National Restoration Construction has handled trauma scene cleanup in Tacoma since 2004, responding discreetly and thoroughly when it matters most.
+Tacoma's older housing stock, particularly the early-1900s craftsman and Victorian-era homes concentrated in the Stadium District and Proctor District, presents a specific challenge after a trauma event: porous plaster walls, original hardwood subfloors, and decades of settled dust create surfaces that absorb biological material at a different rate than modern construction. When a family in one of these homes faces an unthinkable situation, the cleanup isn't just emotionally difficult, it's technically demanding in ways that require both compassion and precision. National Restoration Construction has handled trauma scene cleanup in Tacoma since 2004, responding discreetly and thoroughly when it matters most.
 
 ## Why Tacoma's Building Stock Affects Trauma Scene Cleanup
 
-Homes built before 1950 behave differently under remediation conditions. In neighborhoods like the Stadium District and North Tacoma, original fir subfloors and lathe-and-plaster walls are common. These materials are far more absorbent than modern OSB and drywall — biological contaminants can wick into subfloor seams or behind plaster before they're visible on the surface. That means a thorough trauma cleanup in these homes requires more aggressive surface testing, deeper material assessment, and sometimes controlled demolition of affected sections that a less experienced crew might overlook.
+Homes built before 1950 behave differently under remediation conditions. In neighborhoods like the Stadium District and North Tacoma, original fir subfloors and lathe-and-plaster walls are common. These materials are far more absorbent than modern OSB and drywall, biological contaminants can wick into subfloor seams or behind plaster before they're visible on the surface. That means a thorough trauma cleanup in these homes requires more aggressive surface testing, deeper material assessment, and sometimes controlled demolition of affected sections that a less experienced crew might overlook.
 
-Tacoma also enforces a municipal HEPA filtration ordinance for restoration work that generates airborne particulate — a requirement that applies directly to trauma scene decontamination. Every technician we deploy carries HEPA-rated negative air machines and follows containment protocols that meet or exceed that standard. Our IICRC certification and EPA credentials aren't just credentials on a wall — they're the baseline for complying with what Tacoma actually requires on-site.
+Tacoma also enforces a municipal HEPA filtration ordinance for restoration work that generates airborne particulate, a requirement that applies directly to trauma scene decontamination. Every technician we deploy carries HEPA-rated negative air machines and follows containment protocols that meet or exceed that standard. Our IICRC certification and EPA credentials aren't just credentials on a wall, they're the baseline for complying with what Tacoma actually requires on-site.
 
 ## Our Trauma Scene Cleanup Process in Tacoma
 
-When you call (206) 883-0333, the first thing we do is listen. We gather enough information to dispatch the right crew and equipment — not a generic restoration van, but a team equipped specifically for biohazard decontamination. We arrive in unmarked vehicles when requested, understanding that discretion matters in close-knit neighborhoods.
+When you call (206) 883-0333, the first thing we do is listen. We gather enough information to dispatch the right crew and equipment, not a generic restoration van, but a team equipped specifically for biohazard decontamination. We arrive in unmarked vehicles when requested, understanding that discretion matters in close-knit neighborhoods.
 
 On-site, our process follows a structured sequence:
 
-- **Containment and assessment** — We establish a containment perimeter and conduct a thorough surface and air assessment before any removal begins.
-- **Biohazard removal and packaging** — All affected materials are removed, packaged, and transported in compliance with Washington State Department of Ecology regulations for biohazardous waste.
-- **Surface decontamination** — Hospital-grade EPA-registered disinfectants are applied to all affected and adjacent surfaces, including subfloor cavities in older homes where material may have migrated.
-- **HEPA air scrubbing** — Negative air pressure and HEPA filtration run continuously during work and for a verified period afterward, meeting Tacoma's particulate ordinance requirements.
-- **Final clearance verification** — We document the completed work with surface and air testing results before we close out the job.
+- **Containment and assessment**, We establish a containment perimeter and conduct a thorough surface and air assessment before any removal begins.
+- **Biohazard removal and packaging**, All affected materials are removed, packaged, and transported in compliance with Washington State Department of Ecology regulations for biohazardous waste.
+- **Surface decontamination**, Hospital-grade EPA-registered disinfectants are applied to all affected and adjacent surfaces, including subfloor cavities in older homes where material may have migrated.
+- **HEPA air scrubbing**, Negative air pressure and HEPA filtration run continuously during work and for a verified period afterward, meeting Tacoma's particulate ordinance requirements.
+- **Final clearance verification**, We document the completed work with surface and air testing results before we close out the job.
 
-The family or property manager doesn't need to be present for any of this. We coordinate directly with whoever is designated — an attorney, a property manager, a family member who lives out of state.
+The family or property manager doesn't need to be present for any of this. We coordinate directly with whoever is designated, an attorney, a property manager, a family member who lives out of state.
 
 ## Response Time from Federal Way to Tacoma
 
 Our headquarters in Federal Way sits roughly 20 miles north of central Tacoma via I-5. Under normal traffic conditions, that's a 25–35 minute drive to ZIP codes like 98403 and 98405 covering the Stadium District and Hilltop. During peak commute hours on I-5, we route through SR-99 or Pacific Highway to avoid the Fife corridor backup. For properties near the Ruston Way waterfront or Old Town, we typically add 10–15 minutes for surface street navigation once we're in the city.
 
-We aim to have a crew on-site within 60–90 minutes of your call for most Tacoma addresses. We don't promise what we can't deliver — but we track our response data and that range reflects actual performance, not marketing copy.
+We aim to have a crew on-site within 60–90 minutes of your call for most Tacoma addresses. We don't promise what we can't deliver, but we track our response data and that range reflects actual performance, not marketing copy.
 
 ## Tacoma Insurance Coordination
 
-Most homeowner and commercial property policies cover trauma scene cleanup under the same loss provisions as fire or water damage, though the documentation requirements differ. We work directly with adjusters and provide the itemized scope-of-work documentation that Washington State insurers require to process these claims. For commercial properties along the Tacoma waterfront — where salt-spray corrosion already complicates standard restoration assessments — we include material condition notes that help adjusters understand pre-existing versus incident-related damage, which protects the property owner during the claims process.
+Most homeowner and commercial property policies cover trauma scene cleanup under the same loss provisions as fire or water damage, though the documentation requirements differ. We work directly with adjusters and provide the itemized scope-of-work documentation that Washington State insurers require to process these claims. For commercial properties along the Tacoma waterfront, where salt-spray corrosion already complicates standard restoration assessments, we include material condition notes that help adjusters understand pre-existing versus incident-related damage, which protects the property owner during the claims process.
 
 We hold a General Contractor Certificate of Registration (#NATIORC792M6) through WA State Department of Labor & Industries and carry full liability coverage, which most insurers require before authorizing a remediation contractor on a claim.
 
 ## Local Note
 
-In Tacoma's Hilltop neighborhood and parts of North Tacoma, many properties share narrow side yards or have detached garages that were converted to living spaces decades ago — structures that often lack vapor barriers and have minimal subfloor clearance. When a trauma event occurs in one of these converted spaces, biological material can reach soil contact points faster than in a standard foundation home. We probe those subfloor cavities as a standard step in Tacoma jobs rather than treating them as optional — it's the kind of detail that separates a complete remediation from one that leaves a problem behind a wall.
+In Tacoma's Hilltop neighborhood and parts of North Tacoma, many properties share narrow side yards or have detached garages that were converted to living spaces decades ago, structures that often lack vapor barriers and have minimal subfloor clearance. When a trauma event occurs in one of these converted spaces, biological material can reach soil contact points faster than in a standard foundation home. We probe those subfloor cavities as a standard step in Tacoma jobs rather than treating them as optional, it's the kind of detail that separates a complete remediation from one that leaves a problem behind a wall.
 
-If you're managing a property in Tacoma and need help now, call (206) 883-0333. We handle the logistics — permits, waste transport, insurance documentation, and discreet on-site work — so you can focus on what actually matters.
+If you're managing a property in Tacoma and need help now, call (206) 883-0333. We handle the logistics, permits, waste transport, insurance documentation, and discreet on-site work, so you can focus on what actually matters.

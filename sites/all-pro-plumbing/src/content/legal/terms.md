@@ -26,7 +26,7 @@ All Pro Plumbing Heating and Air provides plumbing, heating, and air conditionin
 
 ## Estimates and Work Authorization
 
-Any estimate, quote, or verbal price discussion is informational only — it is not a binding contract. Work does not begin until a written work-authorization form has been signed by the customer or an authorized representative. That signed document governs the actual scope of work, agreed pricing, and any special conditions. If the scope changes once work is underway (for example, a concealed leak turns out to involve additional pipe sections), we will communicate the revised scope and obtain approval before proceeding.
+Any estimate, quote, or verbal price discussion is informational only, it is not a binding contract. Work does not begin until a written work-authorization form has been signed by the customer or an authorized representative. That signed document governs the actual scope of work, agreed pricing, and any special conditions. If the scope changes once work is underway (for example, a concealed leak turns out to involve additional pipe sections), we will communicate the revised scope and obtain approval before proceeding.
 
 ## Payment Terms
 
@@ -34,7 +34,7 @@ Payment is due upon completion of the work unless a separate written payment sch
 
 ## Insurance Coordination
 
-When a repair or replacement is part of an insurance claim, we can work directly with your carrier to document the scope and cost of work. Coordinating with a third-party insurer requires your explicit written or verbal authorization. We do not guarantee coverage determinations — those decisions rest solely with your insurance provider.
+When a repair or replacement is part of an insurance claim, we can work directly with your carrier to document the scope and cost of work. Coordinating with a third-party insurer requires your explicit written or verbal authorization. We do not guarantee coverage determinations, those decisions rest solely with your insurance provider.
 
 ## Scope of Work and Liability
 
@@ -42,7 +42,7 @@ All Pro Plumbing Heating and Air operates as a licensed contractor under Califor
 
 ## Dispute Resolution
 
-If a concern arises about completed work, contact us first — most issues can be resolved quickly with a follow-up visit or a direct conversation. If a dispute cannot be resolved informally, the parties agree to pursue resolution through mediation or, if necessary, through the courts of Kern County, California, under California law.
+If a concern arises about completed work, contact us first, most issues can be resolved quickly with a follow-up visit or a direct conversation. If a dispute cannot be resolved informally, the parties agree to pursue resolution through mediation or, if necessary, through the courts of Kern County, California, under California law.
 
 ## Changes to These Terms
 

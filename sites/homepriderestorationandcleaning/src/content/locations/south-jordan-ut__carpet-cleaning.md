@@ -20,25 +20,25 @@ state: "UT"
 service_display: "Carpet Cleaning"
 rendered: true
 ---
-South Jordan sits at roughly 4,400 feet elevation on the western bench of the Wasatch Front, where high-desert dust, clay-heavy soils from the old Lake Bonneville lakebed, and a dry climate that swings hard between summer heat and winter inversions create a carpet-soiling pattern unlike anywhere else in the Salt Lake Valley. That fine alkaline dust works deep into carpet fiber before it's even visible, and once it bonds with the occasional tracked-in red clay from the Jordan River Parkway trail system, standard vacuuming barely touches it. Home Pride Restoration and Cleaning has been doing deep carpet cleaning in South Jordan since the late 1990s, and the difference between a surface clean and a genuine extraction clean here is something you can see — and breathe.
+South Jordan sits at roughly 4,400 feet elevation on the western bench of the Wasatch Front, where high-desert dust, clay-heavy soils from the old Lake Bonneville lakebed, and a dry climate that swings hard between summer heat and winter inversions create a carpet-soiling pattern unlike anywhere else in the Salt Lake Valley. That fine alkaline dust works deep into carpet fiber before it's even visible, and once it bonds with the occasional tracked-in red clay from the Jordan River Parkway trail system, standard vacuuming barely touches it. Home Pride Restoration and Cleaning has been doing deep carpet cleaning in South Jordan since the late 1990s, and the difference between a surface clean and a genuine extraction clean here is something you can see, and breathe.
 
 ## Why South Jordan Carpets Get Dirty Faster Than You'd Expect
 
-The Lake Bonneville lakebed soils that underlie much of South Jordan — particularly in newer subdivisions west of Bangerter Highway — are fine-grained and alkaline. When dry, that soil turns to a talc-like dust that floats through door seals and HVAC returns. When wet from irrigation or snowmelt, it becomes a rust-tinted clay that stains light-colored carpet fibers almost immediately. Combine that with the valley's notorious winter temperature inversions, which trap particulate pollution close to ground level for days at a time, and you end up with carpets that accumulate airborne grime faster than comparable homes in less-affected parts of the valley.
+The Lake Bonneville lakebed soils that underlie much of South Jordan, particularly in newer subdivisions west of Bangerter Highway, are fine-grained and alkaline. When dry, that soil turns to a talc-like dust that floats through door seals and HVAC returns. When wet from irrigation or snowmelt, it becomes a rust-tinted clay that stains light-colored carpet fibers almost immediately. Combine that with the valley's notorious winter temperature inversions, which trap particulate pollution close to ground level for days at a time, and you end up with carpets that accumulate airborne grime faster than comparable homes in less-affected parts of the valley.
 
-Homes in the Daybreak community and the neighborhoods surrounding South Jordan's Mountain View Corridor corridor also see high foot traffic from connected trail systems and community parks — meaning dirt doesn't just come in from the garage. It comes in from every door.
+Homes in the Daybreak community and the neighborhoods surrounding South Jordan's Mountain View Corridor corridor also see high foot traffic from connected trail systems and community parks, meaning dirt doesn't just come in from the garage. It comes in from every door.
 
 ## Our Deep Carpet Cleaning Process in South Jordan
 
-Because of the alkaline dust and clay-soil profile here, a pre-treatment step that neutralizes mineral deposits is essential before hot-water extraction begins. Skipping it means the extraction rinse simply reactivates the alkaline bond and leaves a residue that re-soils faster than before — a common complaint homeowners have after budget cleanings.
+Because of the alkaline dust and clay-soil profile here, a pre-treatment step that neutralizes mineral deposits is essential before hot-water extraction begins. Skipping it means the extraction rinse simply reactivates the alkaline bond and leaves a residue that re-soils faster than before, a common complaint homeowners have after budget cleanings.
 
 Our process runs in five stages:
 
-1. **Dry soil removal** — commercial-grade HEPA vacuuming to pull out the loose particulate load before any moisture touches the fiber.
-2. **Pre-treatment and dwell time** — a pH-balanced solution applied to break the alkaline mineral bond specific to Bonneville-soil dust.
-3. **Targeted stain treatment** — red clay, pet enzyme, and food-based stains each get a separate chemistry before the main extraction pass.
-4. **Truck-mounted hot-water extraction** — our truck-mount units run at consistent water temperature and pressure regardless of how far we are from the supply line, which matters in South Jordan's larger homes where hose runs can exceed 100 feet.
-5. **Speed-dry pass** — high-velocity air movers reduce dry time significantly, important in South Jordan's drier climate where rapid drying is achievable but low humidity can cause fiber distortion if airflow isn't managed.
+1. **Dry soil removal**, commercial-grade HEPA vacuuming to pull out the loose particulate load before any moisture touches the fiber.
+2. **Pre-treatment and dwell time**, a pH-balanced solution applied to break the alkaline mineral bond specific to Bonneville-soil dust.
+3. **Targeted stain treatment**, red clay, pet enzyme, and food-based stains each get a separate chemistry before the main extraction pass.
+4. **Truck-mounted hot-water extraction**, our truck-mount units run at consistent water temperature and pressure regardless of how far we are from the supply line, which matters in South Jordan's larger homes where hose runs can exceed 100 feet.
+5. **Speed-dry pass**, high-velocity air movers reduce dry time significantly, important in South Jordan's drier climate where rapid drying is achievable but low humidity can cause fiber distortion if airflow isn't managed.
 
 All technicians are IICRC Certified, and the company holds Utah contractor license #RC-25-0737.
 
@@ -50,10 +50,10 @@ For commercial accounts in the 84095 ZIP code, we schedule after-hours or weeken
 
 ## Local Note: Daybreak HOA Carpet Standards
 
-Daybreak, South Jordan's large master-planned community, has a higher-than-average concentration of homes with light-colored or patterned Berber carpet installed by the original builders — a style choice that looks sharp but shows soiling and staining more readily than cut-pile carpet. What most Daybreak homeowners don't realize is that Berber loops require lower water pressure during extraction than standard cut-pile; too much pressure can stretch or fray the loops permanently. We adjust our extraction settings specifically for Berber on every job in that community, and we flag it during the pre-inspection walk-through so there are no surprises. If you're in Daybreak and a previous cleaner left your carpet looking worse than before, that's often the reason.
+Daybreak, South Jordan's large master-planned community, has a higher-than-average concentration of homes with light-colored or patterned Berber carpet installed by the original builders, a style choice that looks sharp but shows soiling and staining more readily than cut-pile carpet. What most Daybreak homeowners don't realize is that Berber loops require lower water pressure during extraction than standard cut-pile; too much pressure can stretch or fray the loops permanently. We adjust our extraction settings specifically for Berber on every job in that community, and we flag it during the pre-inspection walk-through so there are no surprises. If you're in Daybreak and a previous cleaner left your carpet looking worse than before, that's often the reason.
 
 For questions or to schedule, call Home Pride Restoration and Cleaning at **(801) 995-2437**.
 
 ---
 
-If your South Jordan home or business has carpets that haven't responded well to previous cleanings — or if you're dealing with pet stains, red-clay tracking, or post-winter grime buildup — call **(801) 995-2437**. We're based in Saratoga Springs, less than 15 minutes from most of South Jordan, and we can typically schedule within 24–48 hours for non-emergency residential work.
+If your South Jordan home or business has carpets that haven't responded well to previous cleanings, or if you're dealing with pet stains, red-clay tracking, or post-winter grime buildup, call **(801) 995-2437**. We're based in Saratoga Springs, less than 15 minutes from most of South Jordan, and we can typically schedule within 24–48 hours for non-emergency residential work.

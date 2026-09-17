@@ -24,29 +24,29 @@ When a severe storm rolls across Moody County, Flandreau takes the hit different
 
 ## Why Flandreau Properties See Severe Storm Damage
 
-Flandreau sits in a stretch of eastern South Dakota where spring and summer storm systems accelerate across open prairie before slamming into river-valley terrain. That geography matters. The Big Sioux River floodplain creates a low-pressure corridor that intensifies straight-line winds — the kind that strip shingles clean off a roof in under a minute and push water under door thresholds before a homeowner can stack a single sandbag.
+Flandreau sits in a stretch of eastern South Dakota where spring and summer storm systems accelerate across open prairie before slamming into river-valley terrain. That geography matters. The Big Sioux River floodplain creates a low-pressure corridor that intensifies straight-line winds, the kind that strip shingles clean off a roof in under a minute and push water under door thresholds before a homeowner can stack a single sandbag.
 
-The housing stock compounds the problem. A significant portion of Flandreau's residential properties were built before modern wind-load standards were codified in South Dakota's building codes. Older wood-frame homes with original roofing substrates — common in the blocks surrounding Downtown Flandreau — are particularly vulnerable to decking separation when wind gets beneath lifted shingles. Once the roof deck is compromised, interior water intrusion can saturate insulation, wall cavities, and subfloor within hours, not days. Mold colonization in wet cellulose insulation can begin in as little as 24 to 48 hours in summer humidity, which is why the window between storm and mitigation matters enormously.
+The housing stock compounds the problem. A significant portion of Flandreau's residential properties were built before modern wind-load standards were codified in South Dakota's building codes. Older wood-frame homes with original roofing substrates, common in the blocks surrounding Downtown Flandreau, are particularly vulnerable to decking separation when wind gets beneath lifted shingles. Once the roof deck is compromised, interior water intrusion can saturate insulation, wall cavities, and subfloor within hours, not days. Mold colonization in wet cellulose insulation can begin in as little as 24 to 48 hours in summer humidity, which is why the window between storm and mitigation matters enormously.
 
 ## Our Storm Damage Restoration Process in Flandreau
 
-Every storm job starts with a structured assessment — not a walk-through with a clipboard, but a systematic inspection that separates visible damage from hidden moisture migration. We use thermal imaging and moisture meters to map how far water has traveled behind walls and under flooring before we pull a single piece of material.
+Every storm job starts with a structured assessment, not a walk-through with a clipboard, but a systematic inspection that separates visible damage from hidden moisture migration. We use thermal imaging and moisture meters to map how far water has traveled behind walls and under flooring before we pull a single piece of material.
 
 From there, the process follows a clear sequence:
 
 - **Emergency tarping and board-up** to stop ongoing water intrusion at the roof or wall breach
-- **Controlled demolition** of saturated materials — wet drywall, soaked insulation, compromised decking — down to structurally sound substrate
+- **Controlled demolition** of saturated materials, wet drywall, soaked insulation, compromised decking, down to structurally sound substrate
 - **Industrial drying** using commercial-grade desiccant and refrigerant dehumidifiers, calibrated to the specific material types and square footage of the affected space
 - **Structural repair and reconstruction**, handled in-house so you're not coordinating between a mitigation crew and a separate contractor
 - **Final documentation** for your insurance file, including moisture readings at the start and close of drying to demonstrate the structure returned to pre-loss conditions
 
-For tree-impact jobs — which are common in Flandreau after high-wind events — we also coordinate debris removal and assess for hidden structural loading damage that isn't always obvious from street level.
+For tree-impact jobs, which are common in Flandreau after high-wind events, we also coordinate debris removal and assess for hidden structural loading damage that isn't always obvious from street level.
 
 ## Reaching Flandreau from Sioux Falls
 
-Crew Restoration & Construction operates out of Sioux Falls, and Flandreau (ZIP 57028) is a straightforward run up I-29 North to SD-32 East — a route our crews know well from serving Moody County properties. We schedule prompt response and will give you a clear arrival window when you call, so you're not left guessing while water is sitting on your subfloor.
+Crew Restoration & Construction operates out of Sioux Falls, and Flandreau (ZIP 57028) is a straightforward run up I-29 North to SD-32 East, a route our crews know well from serving Moody County properties. We schedule prompt response and will give you a clear arrival window when you call, so you're not left guessing while water is sitting on your subfloor.
 
-If your property is near Royal River Casino or along the river-adjacent streets north of downtown, let us know when you call — access and staging can vary depending on which side of the river the damage is on, and we'll plan accordingly.
+If your property is near Royal River Casino or along the river-adjacent streets north of downtown, let us know when you call, access and staging can vary depending on which side of the river the damage is on, and we'll plan accordingly.
 
 ## Flandreau Insurance Coordination
 
@@ -56,6 +56,6 @@ If you're a property owner affiliated with the Flandreau Santee Sioux Tribe and 
 
 ## Local Note
 
-One thing that catches out-of-area contractors in Flandreau: the older homes near the downtown core frequently have original balloon-frame construction rather than the platform framing used in post-1960s builds. In balloon framing, wall cavities run continuously from foundation to roof — which means water that enters at the attic level can wick downward inside the wall for the full height of the structure without any visible interior sign until it reaches the base plate. When we're working a storm-damaged roof on one of these older properties, we always check the lower wall cavities and rim joist areas for moisture, even when the homeowner reports damage only at the ceiling. Missing that step means leaving hidden moisture that turns into a mold problem three weeks later.
+One thing that catches out-of-area contractors in Flandreau: the older homes near the downtown core frequently have original balloon-frame construction rather than the platform framing used in post-1960s builds. In balloon framing, wall cavities run continuously from foundation to roof, which means water that enters at the attic level can wick downward inside the wall for the full height of the structure without any visible interior sign until it reaches the base plate. When we're working a storm-damaged roof on one of these older properties, we always check the lower wall cavities and rim joist areas for moisture, even when the homeowner reports damage only at the ceiling. Missing that step means leaving hidden moisture that turns into a mold problem three weeks later.
 
 If your home in the 57028 area took storm damage and you're not sure how extensive the interior impact is, a thorough moisture assessment is always the right first call. Reach Crew Restoration & Construction at (605) 965-2727.

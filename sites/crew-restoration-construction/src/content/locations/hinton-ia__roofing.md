@@ -20,35 +20,35 @@ state: "IA"
 service_display: "Roofing Installation and Replacement"
 rendered: true
 ---
-The stretch of Highway 75 running through Hinton sees some of the most punishing weather in Plymouth County — hard-driving spring hailstorms roll up from the Missouri River valley, and winter ice dams form fast on homes that weren't built with today's ventilation standards in mind. If your roof is showing its age or took a hit this season, waiting through another freeze-thaw cycle isn't a neutral decision. Crew Restoration & Construction handles roofing installation and replacement for Hinton homeowners and property owners, bringing the same equipment and crew discipline we use on larger Sioux City metro jobs to the 51024 zip code.
+The stretch of Highway 75 running through Hinton sees some of the most punishing weather in Plymouth County, hard-driving spring hailstorms roll up from the Missouri River valley, and winter ice dams form fast on homes that weren't built with today's ventilation standards in mind. If your roof is showing its age or took a hit this season, waiting through another freeze-thaw cycle isn't a neutral decision. Crew Restoration & Construction handles roofing installation and replacement for Hinton homeowners and property owners, bringing the same equipment and crew discipline we use on larger Sioux City metro jobs to the 51024 zip code.
 
 ## Why Hinton Properties See Roofing Problems
 
-Hinton sits in a weather corridor that funnels severe convective storms north from Sioux City along the Highway 75 corridor. Hail here isn't a once-a-decade event — Plymouth County averages multiple significant hail events per year, and the impact on asphalt shingles is cumulative. A roof that looks intact after one storm may have lost enough granule coverage that the next storm causes full penetration.
+Hinton sits in a weather corridor that funnels severe convective storms north from Sioux City along the Highway 75 corridor. Hail here isn't a once-a-decade event, Plymouth County averages multiple significant hail events per year, and the impact on asphalt shingles is cumulative. A roof that looks intact after one storm may have lost enough granule coverage that the next storm causes full penetration.
 
 Beyond storm damage, the housing stock near Downtown Hinton includes a number of homes built in the 1960s and 1970s when roof decking, underlayment, and ventilation standards were substantially different from current code. Older skip-sheathing under wood shakes, for example, requires a full deck-over or replacement before a modern shingle system can be installed correctly. We assess the deck condition before any material quote so there are no surprises once we're tearing off the old roof.
 
-The West Fork area, closer to the West Fork Little Sioux River, also presents a specific challenge: homes in low-lying positions near the river corridor tend to accumulate moisture in attic spaces faster than properties on higher ground. That moisture accelerates sheathing rot and shortens shingle life — sometimes by years. Proper ridge and soffit ventilation isn't optional on these properties; it's the difference between a 25-year roof and a 15-year one.
+The West Fork area, closer to the West Fork Little Sioux River, also presents a specific challenge: homes in low-lying positions near the river corridor tend to accumulate moisture in attic spaces faster than properties on higher ground. That moisture accelerates sheathing rot and shortens shingle life, sometimes by years. Proper ridge and soffit ventilation isn't optional on these properties; it's the difference between a 25-year roof and a 15-year one.
 
 ## Our Roofing Installation and Replacement Process in Hinton
 
-Every project starts with a full roof inspection — not a drive-by estimate, but a physical examination of the decking, flashing, ridge, valleys, and penetrations. We photograph existing damage and document it in writing before a single shingle comes off. That documentation matters both for your records and for any insurance claim you may be filing.
+Every project starts with a full roof inspection, not a drive-by estimate, but a physical examination of the decking, flashing, ridge, valleys, and penetrations. We photograph existing damage and document it in writing before a single shingle comes off. That documentation matters both for your records and for any insurance claim you may be filing.
 
 Once we've agreed on scope, the process moves in a defined sequence:
 
-1. **Tear-off and deck inspection** — existing roofing material is removed and the decking is checked for soft spots, rot, and fastener pull-through. Any compromised sections are replaced before new material goes down.
-2. **Underlayment and ice-and-water barrier** — in a climate like Hinton's, ice-and-water shield at eaves and valleys isn't optional. We run it a minimum of 24 inches past the interior wall line to account for the ice dam conditions that form here in January and February.
-3. **Shingle installation** — we work with architectural asphalt shingles rated for high-wind and impact resistance, which matters when you're filing a claim or shopping for homeowner's insurance in a hail-prone county.
-4. **Flashing, ridge cap, and cleanup** — all penetrations are reflashed, ridge cap is hand-nailed for wind resistance, and the site is magnetically swept for fasteners before we leave.
+1. **Tear-off and deck inspection**, existing roofing material is removed and the decking is checked for soft spots, rot, and fastener pull-through. Any compromised sections are replaced before new material goes down.
+2. **Underlayment and ice-and-water barrier**, in a climate like Hinton's, ice-and-water shield at eaves and valleys isn't optional. We run it a minimum of 24 inches past the interior wall line to account for the ice dam conditions that form here in January and February.
+3. **Shingle installation**, we work with architectural asphalt shingles rated for high-wind and impact resistance, which matters when you're filing a claim or shopping for homeowner's insurance in a hail-prone county.
+4. **Flashing, ridge cap, and cleanup**, all penetrations are reflashed, ridge cap is hand-nailed for wind resistance, and the site is magnetically swept for fasteners before we leave.
 
 Timeline for a standard residential replacement in Hinton is typically one to two days depending on roof size and deck condition.
 
 ## Reaching Hinton from Sioux Falls
 
-Crew Restoration & Construction is headquartered in Sioux Falls, SD, and Hinton is a straightforward run south on I-29 and then west on Highway 75 — a route our crews travel regularly for Plymouth County work. We schedule Hinton jobs with the same priority as our South Dakota projects, and we coordinate arrival windows directly with homeowners so you're not waiting around all day. If you're near Hinton Community School or anywhere else in the 51024 area, call (605) 965-2727 to get on the schedule.
+Crew Restoration & Construction is headquartered in Sioux Falls, SD, and Hinton is a straightforward run south on I-29 and then west on Highway 75, a route our crews travel regularly for Plymouth County work. We schedule Hinton jobs with the same priority as our South Dakota projects, and we coordinate arrival windows directly with homeowners so you're not waiting around all day. If you're near Hinton Community School or anywhere else in the 51024 area, call (605) 965-2727 to get on the schedule.
 
 ## Local Note
 
-One thing we've noticed working in the Highway 75 corridor north of Sioux City: homes built in the 1970s and early 1980s in this part of Plymouth County frequently have T-lock shingles that were never replaced after manufacturers discontinued the product. T-lock systems are no longer manufactured, which means a partial repair after storm damage isn't possible — the entire roof has to come off. If your home is from that era and you haven't had a recent inspection, it's worth confirming what's up there before storm season. We find this situation often enough in the Hinton area that we flag it in every pre-quote walkthrough.
+One thing we've noticed working in the Highway 75 corridor north of Sioux City: homes built in the 1970s and early 1980s in this part of Plymouth County frequently have T-lock shingles that were never replaced after manufacturers discontinued the product. T-lock systems are no longer manufactured, which means a partial repair after storm damage isn't possible, the entire roof has to come off. If your home is from that era and you haven't had a recent inspection, it's worth confirming what's up there before storm season. We find this situation often enough in the Hinton area that we flag it in every pre-quote walkthrough.
 
 When your roof needs more than a patch, Crew Restoration & Construction is ready to assess, quote, and complete the work for Hinton properties. Call (605) 965-2727 to schedule your inspection.

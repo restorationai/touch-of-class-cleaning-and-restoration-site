@@ -17,27 +17,27 @@ service_slug: "sewage-cleanup"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
-Raw sewage backup is one of the few home emergencies where the clock starts the moment you notice it. Within 24 hours, Category 3 contamination — the classification for water carrying human waste, bacteria, and pathogens — can soak into drywall, subfloor sheathing, and wall cavities that look completely dry from the outside. The smell tells you something is wrong. The hidden moisture tells you how wrong. Whether the source is a sewer line backup after a heavy rain, a failed septic system, or a floor drain that reversed under pressure, the cleanup process is fundamentally different from a clean-water flood — and treating it like one is how properties end up with long-term contamination problems.
+Raw sewage backup is one of the few home emergencies where the clock starts the moment you notice it. Within 24 hours, Category 3 contamination, the classification for water carrying human waste, bacteria, and pathogens, can soak into drywall, subfloor sheathing, and wall cavities that look completely dry from the outside. The smell tells you something is wrong. The hidden moisture tells you how wrong. Whether the source is a sewer line backup after a heavy rain, a failed septic system, or a floor drain that reversed under pressure, the cleanup process is fundamentally different from a clean-water flood, and treating it like one is how properties end up with long-term contamination problems.
 
 ## What sewage cleanup and sanitization actually involves
 
-Sewage cleanup is a contamination-control job as much as a water-removal job. The work begins with establishing the extent of the affected zone — not just where standing water is visible, but where contaminated water wicked into porous materials. Sewage travels fast through unsealed concrete, wood framing, and fiberglass insulation. Thermal imaging and moisture meters map the actual boundary of the loss, which is almost always larger than it looks.
+Sewage cleanup is a contamination-control job as much as a water-removal job. The work begins with establishing the extent of the affected zone, not just where standing water is visible, but where contaminated water wicked into porous materials. Sewage travels fast through unsealed concrete, wood framing, and fiberglass insulation. Thermal imaging and moisture meters map the actual boundary of the loss, which is almost always larger than it looks.
 
-Once the scope is established, the physical removal of sewage and contaminated materials begins. That means extracting standing water with truck-mounted or portable extraction units, then removing any porous materials — drywall, insulation, carpet, pad — that absorbed Category 3 water. Structural materials that can be dried and disinfected in place are treated with EPA-registered antimicrobial solutions. Hard surfaces are cleaned, disinfected, and cleaned again. Air scrubbers with HEPA filtration run continuously to capture aerosolized contaminants during the work.
+Once the scope is established, the physical removal of sewage and contaminated materials begins. That means extracting standing water with truck-mounted or portable extraction units, then removing any porous materials, drywall, insulation, carpet, pad, that absorbed Category 3 water. Structural materials that can be dried and disinfected in place are treated with EPA-registered antimicrobial solutions. Hard surfaces are cleaned, disinfected, and cleaned again. Air scrubbers with HEPA filtration run continuously to capture aerosolized contaminants during the work.
 
-Drying equipment — commercial dehumidifiers and high-velocity air movers — runs for a minimum of 72 hours in most residential losses, with moisture readings logged daily to confirm the structure is returning to baseline. The sanitization phase follows drying: a second application of antimicrobial treatment to all affected structural surfaces before any reconstruction begins.
+Drying equipment, commercial dehumidifiers and high-velocity air movers, runs for a minimum of 72 hours in most residential losses, with moisture readings logged daily to confirm the structure is returning to baseline. The sanitization phase follows drying: a second application of antimicrobial treatment to all affected structural surfaces before any reconstruction begins.
 
 ## Our process
 
-1. **Containment and safety staging.** Before any equipment enters the affected area, the space is assessed for electrical hazards, structural compromise, and the source of the backup. Technicians work in full PPE — respirators, gloves, Tyvek suits — and the affected area is isolated from the rest of the home to prevent cross-contamination.
+1. **Containment and safety staging.** Before any equipment enters the affected area, the space is assessed for electrical hazards, structural compromise, and the source of the backup. Technicians work in full PPE, respirators, gloves, Tyvek suits, and the affected area is isolated from the rest of the home to prevent cross-contamination.
 
-2. **Extraction and Category 3 material removal.** Sewage water is extracted and disposed of per regulatory requirements. All porous materials that contacted Category 3 water — drywall to the flood line (plus a minimum 12-inch cut above visible saturation), carpet, pad, and insulation — are removed, bagged, and hauled off. This is not optional: porous materials cannot be reliably disinfected once sewage has penetrated them.
+2. **Extraction and Category 3 material removal.** Sewage water is extracted and disposed of per regulatory requirements. All porous materials that contacted Category 3 water, drywall to the flood line (plus a minimum 12-inch cut above visible saturation), carpet, pad, and insulation, are removed, bagged, and hauled off. This is not optional: porous materials cannot be reliably disinfected once sewage has penetrated them.
 
 3. **Structural disinfection.** Exposed framing, subfloor, and concrete are treated with EPA-registered antimicrobial agents. This step is documented photographically for insurance and for the clearance record. Any areas with visible biofilm or residue receive mechanical scrubbing before chemical treatment.
 
-4. **Drying and daily moisture monitoring.** Commercial drying equipment is positioned based on the moisture map from step one. Readings are logged at each visit — typically daily — and equipment is adjusted or repositioned as the structure dries. Drying is not complete until moisture readings return to normal range for the material type, not just until surfaces feel dry to the touch.
+4. **Drying and daily moisture monitoring.** Commercial drying equipment is positioned based on the moisture map from step one. Readings are logged at each visit, typically daily, and equipment is adjusted or repositioned as the structure dries. Drying is not complete until moisture readings return to normal range for the material type, not just until surfaces feel dry to the touch.
 
-5. **Final sanitization and clearance documentation.** Once the structure reaches drying goals, a final antimicrobial application is made to all affected surfaces. The loss documentation — moisture logs, photo records, material removal scope — is compiled for the insurance claim and for the reconstruction contractor.
+5. **Final sanitization and clearance documentation.** Once the structure reaches drying goals, a final antimicrobial application is made to all affected surfaces. The loss documentation, moisture logs, photo records, material removal scope, is compiled for the insurance claim and for the reconstruction contractor.
 
 ## What separates a good sewage cleanup response from a bad one
 
@@ -45,18 +45,18 @@ The most common mistake in sewage cleanup is treating it like a Category 1 (clea
 
 A second failure point is incomplete scope documentation. Insurance adjusters handling sewage losses look for a clear contamination boundary, photographic evidence of material removal, and a moisture log that shows the structure reached drying goals before reconstruction. Gaps in that record create claim disputes and delays.
 
-The third issue is sanitization sequencing. Antimicrobial treatment applied before extraction and material removal is largely wasted — you are treating a wet, contaminated surface that still has active organic load on it. Proper sequencing is: remove, clean, dry, then disinfect. Skipping steps to move faster is how odors and microbial growth return after reconstruction.
+The third issue is sanitization sequencing. Antimicrobial treatment applied before extraction and material removal is largely wasted, you are treating a wet, contaminated surface that still has active organic load on it. Proper sequencing is: remove, clean, dry, then disinfect. Skipping steps to move faster is how odors and microbial growth return after reconstruction.
 
 FireDEX Butler holds Pennsylvania contractor license #PA001913 and responds to sewage backup calls around the clock.
 
 ## Seasonal and regional considerations
 
-Cranberry Township and the surrounding Butler County area sit in a region where spring snowmelt and heavy rain events — particularly in March through May — routinely overwhelm municipal sewer capacity. Combined sewer systems in older neighborhoods can push sewage back through floor drains and basement toilets during peak runoff. Homes on private septic systems face a different but related risk: saturated soil in wet seasons reduces the drain field's ability to absorb effluent, and systems that are marginal in dry weather fail outright after prolonged rain.
+Cranberry Township and the surrounding Butler County area sit in a region where spring snowmelt and heavy rain events, particularly in March through May, routinely overwhelm municipal sewer capacity. Combined sewer systems in older neighborhoods can push sewage back through floor drains and basement toilets during peak runoff. Homes on private septic systems face a different but related risk: saturated soil in wet seasons reduces the drain field's ability to absorb effluent, and systems that are marginal in dry weather fail outright after prolonged rain.
 
-Basements in this part of western Pennsylvania are common, and finished basement spaces are the most frequent location for sewage backup losses. The combination of concrete slab, wood framing, drywall, and carpet in a single space creates multiple material types with different drying rates — which is why moisture mapping at the start of the job matters.
+Basements in this part of western Pennsylvania are common, and finished basement spaces are the most frequent location for sewage backup losses. The combination of concrete slab, wood framing, drywall, and carpet in a single space creates multiple material types with different drying rates, which is why moisture mapping at the start of the job matters.
 
 ## Service area
 
 FireDEX Butler serves Cranberry Township and the surrounding communities including Mars, Zelienople, Wexford, Adams Township, Valencia, and Butler Borough. Sewage backup cleanup and sanitization services are available throughout Butler County and into northern Allegheny County.
 
-If sewage has backed up into your home, call (724) 452-7400 to begin sewage backup cleanup — the sooner contaminated materials are removed and the structure is dried, the smaller the reconstruction scope.
+If sewage has backed up into your home, call (724) 452-7400 to begin sewage backup cleanup, the sooner contaminated materials are removed and the structure is dried, the smaller the reconstruction scope.

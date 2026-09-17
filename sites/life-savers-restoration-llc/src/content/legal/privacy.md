@@ -22,9 +22,9 @@ This privacy policy explains how Life Savers Restoration LLC collects, uses, and
 
 ## Information We Collect
 
-When you fill out a contact or estimate request form, we collect the details you provide — your name, phone number, email address, property address, and a description of the damage or service you need. If you call us directly at (702) 845-1325 or email info@lifesaversrestoration.com, we retain that correspondence as well.
+When you fill out a contact or estimate request form, we collect the details you provide, your name, phone number, email address, property address, and a description of the damage or service you need. If you call us directly at (702) 845-1325 or email info@lifesaversrestoration.com, we retain that correspondence as well.
 
-The website also collects basic, anonymized analytics data — page visits, general geographic region, browser type, and how visitors navigate the site. This data is aggregated and not linked to any individual. We do not use tracking pixels, behavioral advertising networks, or third-party data brokers.
+The website also collects basic, anonymized analytics data, page visits, general geographic region, browser type, and how visitors navigate the site. This data is aggregated and not linked to any individual. We do not use tracking pixels, behavioral advertising networks, or third-party data brokers.
 
 ## How We Use Your Information
 
@@ -34,17 +34,17 @@ We do not use your contact information for unsolicited marketing campaigns. If w
 
 ## How We Share Your Information
 
-We do not sell, rent, or trade your personal information. The only circumstance in which your information is shared with a third party — such as your insurance carrier or a subcontractor — is when you have authorized us to coordinate on your behalf. That authorization is documented as part of the work-authorization process.
+We do not sell, rent, or trade your personal information. The only circumstance in which your information is shared with a third party, such as your insurance carrier or a subcontractor, is when you have authorized us to coordinate on your behalf. That authorization is documented as part of the work-authorization process.
 
 If we are ever required to disclose information by law or valid legal process, we will comply with that obligation.
 
 ## Data Retention
 
-We retain contact and project records for as long as is reasonably necessary for business and legal purposes — typically aligned with Nevada's applicable statute of limitations for contractor work. When records are no longer needed, they are securely deleted or destroyed.
+We retain contact and project records for as long as is reasonably necessary for business and legal purposes, typically aligned with Nevada's applicable statute of limitations for contractor work. When records are no longer needed, they are securely deleted or destroyed.
 
 ## Your Rights
 
-If you are a California resident, the California Consumer Privacy Act (CCPA) gives you the right to know what personal information we hold about you, request its deletion, and opt out of any sale of that information. Because we do not sell personal data, the opt-out right is already satisfied — but you may still request access to or deletion of your records at any time.
+If you are a California resident, the California Consumer Privacy Act (CCPA) gives you the right to know what personal information we hold about you, request its deletion, and opt out of any sale of that information. Because we do not sell personal data, the opt-out right is already satisfied, but you may still request access to or deletion of your records at any time.
 
 Visitors from outside the United States are welcome to contact us with privacy questions, though our services and operations are based in Nevada and governed by U.S. law.
 

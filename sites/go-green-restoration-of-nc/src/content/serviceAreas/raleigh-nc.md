@@ -19,13 +19,13 @@ state: "NC"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall in Five Points or a storm pushes water under the slab of a Brier Creek townhome, Go Green Restoration of NC responds around the clock — extracting standing water, drying structural cavities, remediating mold, and handling fire and smoke damage from first call through final repairs. We work directly with insurance carriers, so Raleigh property owners aren't left managing the paperwork while their floors are still wet.
+When a pipe bursts behind a wall in Five Points or a storm pushes water under the slab of a Brier Creek townhome, Go Green Restoration of NC responds around the clock, extracting standing water, drying structural cavities, remediating mold, and handling fire and smoke damage from first call through final repairs. We work directly with insurance carriers, so Raleigh property owners aren't left managing the paperwork while their floors are still wet.
 
 ## Restoration emergencies common in Raleigh
 
-Raleigh sits in the Piedmont, where humid subtropical summers and the occasional ice storm create a near-perfect environment for moisture intrusion. The city's rapid growth means neighborhoods like North Hills and Historic Oakwood carry two very different risk profiles sitting just miles apart. In Historic Oakwood, homes built before 1950 often have original cast-iron drain lines, plaster walls, and pier-and-beam foundations — all of which absorb and hide water longer before the damage becomes visible. Newer construction in Brier Creek and along the US-64 corridor tends to feature engineered wood subfloors and spray-foam insulation that trap moisture differently, sometimes allowing mold colonies to establish within 48 to 72 hours of a slow leak.
+Raleigh sits in the Piedmont, where humid subtropical summers and the occasional ice storm create a near-perfect environment for moisture intrusion. The city's rapid growth means neighborhoods like North Hills and Historic Oakwood carry two very different risk profiles sitting just miles apart. In Historic Oakwood, homes built before 1950 often have original cast-iron drain lines, plaster walls, and pier-and-beam foundations, all of which absorb and hide water longer before the damage becomes visible. Newer construction in Brier Creek and along the US-64 corridor tends to feature engineered wood subfloors and spray-foam insulation that trap moisture differently, sometimes allowing mold colonies to establish within 48 to 72 hours of a slow leak.
 
-Raleigh also sits downstream of significant storm-drain infrastructure tied to Crabtree Creek. Heavy rain events — increasingly common in Wake County — can overwhelm residential drainage systems and push water into finished basements and crawl spaces in lower-lying ZIP codes like 27604 and 27610. The city's clay-heavy soil doesn't absorb water quickly, which means saturated ground can wick moisture through foundation walls long after the rain stops.
+Raleigh also sits downstream of significant storm-drain infrastructure tied to Crabtree Creek. Heavy rain events, increasingly common in Wake County, can overwhelm residential drainage systems and push water into finished basements and crawl spaces in lower-lying ZIP codes like 27604 and 27610. The city's clay-heavy soil doesn't absorb water quickly, which means saturated ground can wick moisture through foundation walls long after the rain stops.
 
 Fire risk has its own local character here. The density of student housing near NC State University means older wood-frame structures with deferred maintenance, and kitchen fires in those buildings can spread smoke damage through shared HVAC systems faster than in single-family homes.
 
@@ -33,7 +33,7 @@ Fire risk has its own local character here. The density of student housing near 
 
 ### Water damage restoration
 
-Water damage in Raleigh often starts small — a slow supply-line leak under a vanity, condensation around HVAC equipment in a crawl space — and becomes a structural problem before anyone notices. We use thermal imaging and moisture meters to map the full extent of saturation, not just the visible wet area, then extract standing water and deploy commercial drying equipment calibrated to Wake County's ambient humidity levels.
+Water damage in Raleigh often starts small, a slow supply-line leak under a vanity, condensation around HVAC equipment in a crawl space, and becomes a structural problem before anyone notices. We use thermal imaging and moisture meters to map the full extent of saturation, not just the visible wet area, then extract standing water and deploy commercial drying equipment calibrated to Wake County's ambient humidity levels.
 
 ### Mold remediation
 
@@ -41,7 +41,7 @@ Raleigh's humidity makes mold remediation a year-round service, not just a post-
 
 ### Fire and smoke damage restoration
 
-Smoke residue from even a contained kitchen fire can penetrate drywall, ductwork, and cabinetry throughout a home. We assess the full migration path of smoke, not just the room of origin, and use professional-grade deodorization and cleaning methods suited to the specific type of residue — protein-based smoke from cooking fires behaves very differently than the soot from an electrical fire.
+Smoke residue from even a contained kitchen fire can penetrate drywall, ductwork, and cabinetry throughout a home. We assess the full migration path of smoke, not just the room of origin, and use professional-grade deodorization and cleaning methods suited to the specific type of residue, protein-based smoke from cooking fires behaves very differently than the soot from an electrical fire.
 
 ### Reconstruction and build-back
 
@@ -53,8 +53,8 @@ Go Green Restoration of NC is headquartered in Middlesex, roughly 35 miles north
 
 ## Building stock, site conditions, and permits in Raleigh
 
-Much of Raleigh inside the Beltline and out toward Crabtree filled in during the postwar decades, so the dominant house is a brick-veneer or masonite-sided ranch over a vented crawlspace, with hardwood over board subfloor. That assembly dries from below only if the vapor barrier and foundation vents are intact, which is often where a scope starts. Supply lines from that era run galvanized steel or copper, and Sun Belt growth years left plenty of polybutylene behind fixture walls — it tends to fail at the crimped fittings, not the tubing. Anything built before 1978 gets treated as possible lead paint, and mid-century floor tile and mastic as possible asbestos, before demolition begins.
+Much of Raleigh inside the Beltline and out toward Crabtree filled in during the postwar decades, so the dominant house is a brick-veneer or masonite-sided ranch over a vented crawlspace, with hardwood over board subfloor. That assembly dries from below only if the vapor barrier and foundation vents are intact, which is often where a scope starts. Supply lines from that era run galvanized steel or copper, and Sun Belt growth years left plenty of polybutylene behind fixture walls, it tends to fail at the crimped fittings, not the tubing. Anything built before 1978 gets treated as possible lead paint, and mid-century floor tile and mastic as possible asbestos, before demolition begins.
 
 Structural repair and build-back inside city limits is permitted through City of Raleigh development services under the North Carolina residential code; Wake County handles addresses outside the city.
 
-If you're dealing with water, fire, smoke, or mold damage anywhere in Raleigh — from Brier Creek to ZIP code 27601 — call Go Green Restoration of NC at (919) 906-5473. We answer every hour of the day.
+If you're dealing with water, fire, smoke, or mold damage anywhere in Raleigh, from Brier Creek to ZIP code 27601, call Go Green Restoration of NC at (919) 906-5473. We answer every hour of the day.

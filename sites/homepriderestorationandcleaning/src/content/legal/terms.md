@@ -26,15 +26,15 @@ Home Pride Restoration and Cleaning operates primarily throughout Utah County an
 
 ## Estimates and Work Authorization
 
-Any estimate we provide — whether over the phone, by email, or in person — is an assessment based on visible conditions at the time of inspection. Estimates are not binding contracts. Hidden damage (water migration behind walls, subfloor deterioration, concealed mold growth) is common in restoration work and may not be apparent until mitigation begins. The actual scope and cost of work is governed solely by the signed Work Authorization Form you receive before any service begins. Do not authorize work to proceed until you have reviewed and signed that document.
+Any estimate we provide, whether over the phone, by email, or in person, is an assessment based on visible conditions at the time of inspection. Estimates are not binding contracts. Hidden damage (water migration behind walls, subfloor deterioration, concealed mold growth) is common in restoration work and may not be apparent until mitigation begins. The actual scope and cost of work is governed solely by the signed Work Authorization Form you receive before any service begins. Do not authorize work to proceed until you have reviewed and signed that document.
 
 ## Payment Terms and Accepted Methods
 
-Payment is due according to the schedule outlined in your Work Authorization Form. We accept major credit cards, check, and ACH bank transfer. For insurance-covered losses, we work directly with your adjuster to document scope and submit documentation — but the policyholder remains responsible for any balance not covered by the carrier, including deductibles and any work outside the approved claim scope. We do not waive deductibles.
+Payment is due according to the schedule outlined in your Work Authorization Form. We accept major credit cards, check, and ACH bank transfer. For insurance-covered losses, we work directly with your adjuster to document scope and submit documentation, but the policyholder remains responsible for any balance not covered by the carrier, including deductibles and any work outside the approved claim scope. We do not waive deductibles.
 
 ## Insurance Coordination
 
-We are experienced working alongside most major property insurance carriers and can communicate directly with your adjuster on your behalf — but only with your explicit written or verbal authorization. We do not make coverage determinations; those decisions rest with your insurer. Our documentation (moisture readings, photo logs, drying records) is prepared to meet carrier standards, but we cannot guarantee claim approval.
+We are experienced working alongside most major property insurance carriers and can communicate directly with your adjuster on your behalf, but only with your explicit written or verbal authorization. We do not make coverage determinations; those decisions rest with your insurer. Our documentation (moisture readings, photo logs, drying records) is prepared to meet carrier standards, but we cannot guarantee claim approval.
 
 ## Scope of Work and Liability
 

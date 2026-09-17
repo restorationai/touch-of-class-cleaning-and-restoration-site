@@ -20,31 +20,31 @@ state: "NJ"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
-The Passaic River has flooded this city twice in living memory — Irene in 2011 and Ida in 2021 — and both times the damage moved fast: riverfront blocks near the Third Ward inundated within hours, basements filling before residents could pull a single box off the floor. When flood water enters a home in Passaic, the clock starts immediately. Saturated subfloors, compromised cast-iron drains, and decades-old framing don't give you a grace period. The Restoration Group responds 24/7 and can be on-site to begin documented water extraction and structural drying before secondary damage compounds the loss.
+The Passaic River has flooded this city twice in living memory, Irene in 2011 and Ida in 2021, and both times the damage moved fast: riverfront blocks near the Third Ward inundated within hours, basements filling before residents could pull a single box off the floor. When flood water enters a home in Passaic, the clock starts immediately. Saturated subfloors, compromised cast-iron drains, and decades-old framing don't give you a grace period. The Restoration Group responds 24/7 and can be on-site to begin documented water extraction and structural drying before secondary damage compounds the loss.
 
 ## Why Passaic Properties Are Especially Vulnerable to Flood Damage
 
-Passaic is one of New Jersey's densest small cities, and its housing stock reflects that history. The bulk of residential buildings in ZIP code 07055 — the two- and three-family frame houses, the early 20th-century brick walkups, the rowhouses running off Main Avenue toward Pulaski Park — were built before modern waterproofing standards existed. Foundation walls in these structures are often unreinforced block or brick with no drainage membrane. When the Passaic River rises or a heavy rain event overwhelms the city's aging combined sewer system, water doesn't just pool at the curb. It finds every crack in a block foundation, every corroded cast-iron cleanout, every low window well.
+Passaic is one of New Jersey's densest small cities, and its housing stock reflects that history. The bulk of residential buildings in ZIP code 07055, the two- and three-family frame houses, the early 20th-century brick walkups, the rowhouses running off Main Avenue toward Pulaski Park, were built before modern waterproofing standards existed. Foundation walls in these structures are often unreinforced block or brick with no drainage membrane. When the Passaic River rises or a heavy rain event overwhelms the city's aging combined sewer system, water doesn't just pool at the curb. It finds every crack in a block foundation, every corroded cast-iron cleanout, every low window well.
 
-The rental density compounds the problem. Unventilated basement apartments — common throughout the Fourth Ward and in the dense blocks around Downtown Passaic — trap moisture long after standing water is removed. Relative humidity climbs, and mold can begin colonizing porous materials within 24 to 48 hours of initial saturation. In buildings where knob-and-tube wiring remnants still exist behind plaster walls, a flood event also introduces electrical risk that has to be assessed before any restoration crew works safely in the space.
+The rental density compounds the problem. Unventilated basement apartments, common throughout the Fourth Ward and in the dense blocks around Downtown Passaic, trap moisture long after standing water is removed. Relative humidity climbs, and mold can begin colonizing porous materials within 24 to 48 hours of initial saturation. In buildings where knob-and-tube wiring remnants still exist behind plaster walls, a flood event also introduces electrical risk that has to be assessed before any restoration crew works safely in the space.
 
 ## Our Flood Damage Restoration Process in Passaic
 
-Every job starts with a scope assessment before a single piece of equipment is placed. In Passaic's older multi-family buildings, that means checking structural load on water-saturated subfloors, identifying whether the source is riverine flooding, sewer backup, or a failed interior drain — because the remediation approach differs for each. Sewer-contaminated water is Category 3 and requires full PPE, antimicrobial treatment, and disposal protocols that go beyond standard water extraction.
+Every job starts with a scope assessment before a single piece of equipment is placed. In Passaic's older multi-family buildings, that means checking structural load on water-saturated subfloors, identifying whether the source is riverine flooding, sewer backup, or a failed interior drain, because the remediation approach differs for each. Sewer-contaminated water is Category 3 and requires full PPE, antimicrobial treatment, and disposal protocols that go beyond standard water extraction.
 
 Once the source is controlled and safety confirmed, the process follows the IICRC S500 standard for water damage restoration:
 
-1. **Extraction** — truck-mounted and portable extractors remove standing water from floors, wall cavities, and subfloor assemblies.
-2. **Demolition of non-salvageable material** — saturated drywall, insulation, and flooring that cannot be dried in place are removed and documented for your insurance claim.
-3. **Structural drying** — commercial-grade desiccant dehumidifiers and high-velocity air movers are positioned using psychrometric calculations, not guesswork. Drying logs are recorded daily.
-4. **Antimicrobial application** — EPA-registered products are applied to all affected cavities before closure.
-5. **Clearance documentation** — moisture readings are taken at multiple depths before any reconstruction begins.
+1. **Extraction**, truck-mounted and portable extractors remove standing water from floors, wall cavities, and subfloor assemblies.
+2. **Demolition of non-salvageable material**, saturated drywall, insulation, and flooring that cannot be dried in place are removed and documented for your insurance claim.
+3. **Structural drying**, commercial-grade desiccant dehumidifiers and high-velocity air movers are positioned using psychrometric calculations, not guesswork. Drying logs are recorded daily.
+4. **Antimicrobial application**, EPA-registered products are applied to all affected cavities before closure.
+5. **Clearance documentation**, moisture readings are taken at multiple depths before any reconstruction begins.
 
-In Passaic's older plaster-and-lath construction — common in the blocks near Third Ward Park — drying timelines run longer than in modern drywall homes. Plaster releases absorbed moisture slowly, and rushing to close walls before readings confirm dryness is one of the most common causes of hidden mold growth in post-flood repairs.
+In Passaic's older plaster-and-lath construction, common in the blocks near Third Ward Park, drying timelines run longer than in modern drywall homes. Plaster releases absorbed moisture slowly, and rushing to close walls before readings confirm dryness is one of the most common causes of hidden mold growth in post-flood repairs.
 
 ## Reaching Passaic from Kenilworth
 
-The Restoration Group is headquartered in Kenilworth, NJ, roughly 15 miles from central Passaic via Route 22 East and the Garden State Parkway North. Because the team operates 24/7, a call placed at 2 a.m. after a basement flood near St. Mary's General Hospital or along the Main Avenue business district reaches a live dispatcher, not a voicemail. Equipment is staged and loaded before the crew departs, so arrival means work begins — not a second assessment trip.
+The Restoration Group is headquartered in Kenilworth, NJ, roughly 15 miles from central Passaic via Route 22 East and the Garden State Parkway North. Because the team operates 24/7, a call placed at 2 a.m. after a basement flood near St. Mary's General Hospital or along the Main Avenue business district reaches a live dispatcher, not a voicemail. Equipment is staged and loaded before the crew departs, so arrival means work begins, not a second assessment trip.
 
 ## Passaic Insurance Coordination
 
@@ -52,6 +52,6 @@ Flood losses in Passaic frequently involve both standard homeowner's policies an
 
 ## Local Note
 
-In Passaic's densest multi-family blocks — particularly the three-family walkups common between Downtown Passaic and the Rutherford Heights border — flood water from a ground-floor unit almost always migrates into shared wall cavities and reaches the unit above through pipe chases before anyone notices. We've seen second-floor tenants discover wet drywall two days after a first-floor flood was "already handled" by a shop vac. When we scope a flood job in one of these buildings, we always inspect the adjacent units and the shared mechanical spaces, not just the unit that called. It adds an hour to the initial assessment and has prevented mold claims on multiple Passaic jobs.
+In Passaic's densest multi-family blocks, particularly the three-family walkups common between Downtown Passaic and the Rutherford Heights border, flood water from a ground-floor unit almost always migrates into shared wall cavities and reaches the unit above through pipe chases before anyone notices. We've seen second-floor tenants discover wet drywall two days after a first-floor flood was "already handled" by a shop vac. When we scope a flood job in one of these buildings, we always inspect the adjacent units and the shared mechanical spaces, not just the unit that called. It adds an hour to the initial assessment and has prevented mold claims on multiple Passaic jobs.
 
-If your property in Passaic has taken on flood water — whether from the river, a backed-up drain, or an overnight storm event — call The Restoration Group at **(855) 650-7422**. We'll document the damage, coordinate with your insurer, and dry the structure to standard before mold has a chance to take hold.
+If your property in Passaic has taken on flood water, whether from the river, a backed-up drain, or an overnight storm event, call The Restoration Group at **(855) 650-7422**. We'll document the damage, coordinate with your insurer, and dry the structure to standard before mold has a chance to take hold.

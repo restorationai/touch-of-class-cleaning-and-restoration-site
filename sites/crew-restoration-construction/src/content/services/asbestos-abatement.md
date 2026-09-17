@@ -17,55 +17,55 @@ service_slug: "asbestos-abatement"
 service_display: "Asbestos Abatement"
 rendered: true
 ---
-If your Sioux Falls home was built before 1980, there's a reasonable chance asbestos is somewhere inside it — wrapped around pipes in the basement, mixed into the texture on your ceilings, pressed into the floor tiles beneath your carpet, or tucked behind the drywall you're about to renovate. You can't see it, smell it, or feel it. The only way to know for certain is to test, and the only safe way to remove it is through a controlled abatement process that keeps the fibers out of your air, your walls, and your family's lungs.
+If your Sioux Falls home was built before 1980, there's a reasonable chance asbestos is somewhere inside it, wrapped around pipes in the basement, mixed into the texture on your ceilings, pressed into the floor tiles beneath your carpet, or tucked behind the drywall you're about to renovate. You can't see it, smell it, or feel it. The only way to know for certain is to test, and the only safe way to remove it is through a controlled abatement process that keeps the fibers out of your air, your walls, and your family's lungs.
 
 ## What asbestos abatement actually involves
 
-Asbestos abatement is not a demolition job with extra tape. It is a regulated, multi-phase process governed by EPA and OSHA standards that dictates how suspect materials are identified, contained, removed, packaged, transported, and disposed of — every step documented.
+Asbestos abatement is not a demolition job with extra tape. It is a regulated, multi-phase process governed by EPA and OSHA standards that dictates how suspect materials are identified, contained, removed, packaged, transported, and disposed of, every step documented.
 
 The materials most commonly found in pre-1980 South Dakota homes include:
 
-- **Popcorn (acoustic) ceilings** — a frequent source of chrysotile asbestos, especially in homes built between 1950 and 1978
-- **Vinyl floor tiles and the adhesive beneath them** — 9×9 inch tiles are a near-certain indicator
-- **Pipe and duct insulation** — friable, meaning it crumbles easily and releases fibers quickly
-- **Textured drywall joint compound** — often overlooked during remodels
-- **Roof shingles and siding** — particularly transite panels and older asphalt shingles
-- **Attic insulation (vermiculite)** — associated with Libby, Montana ore and a separate but serious asbestos risk
+- **Popcorn (acoustic) ceilings**, a frequent source of chrysotile asbestos, especially in homes built between 1950 and 1978
+- **Vinyl floor tiles and the adhesive beneath them**, 9×9 inch tiles are a near-certain indicator
+- **Pipe and duct insulation**, friable, meaning it crumbles easily and releases fibers quickly
+- **Textured drywall joint compound**, often overlooked during remodels
+- **Roof shingles and siding**, particularly transite panels and older asphalt shingles
+- **Attic insulation (vermiculite)**, associated with Libby, Montana ore and a separate but serious asbestos risk
 
-Friable materials — those that can be crumbled by hand pressure — require the most rigorous containment because disturbing them releases airborne fibers immediately. Non-friable materials (intact floor tiles, for example) carry lower immediate risk but still require proper handling during removal.
+Friable materials, those that can be crumbled by hand pressure, require the most rigorous containment because disturbing them releases airborne fibers immediately. Non-friable materials (intact floor tiles, for example) carry lower immediate risk but still require proper handling during removal.
 
 Timeline for a typical residential abatement runs two to five days depending on scope: one day for inspection and sampling, one to two days for setup and removal, and a final clearance air test before the containment comes down.
 
 ## Our process
 
 **1. Asbestos inspection and bulk sampling**
-Before any material is touched, suspect areas are inspected and bulk samples are collected from each distinct material type. Samples go to an accredited laboratory. Results typically return within 24–72 hours. This step is not optional — it determines the scope of work and the regulatory requirements that apply.
+Before any material is touched, suspect areas are inspected and bulk samples are collected from each distinct material type. Samples go to an accredited laboratory. Results typically return within 24–72 hours. This step is not optional, it determines the scope of work and the regulatory requirements that apply.
 
 **2. Containment setup**
-Once asbestos-containing materials (ACMs) are confirmed, the work area is isolated with polyethylene sheeting, negative air pressure is established using HEPA-filtered air scrubbers, and all HVAC registers in the zone are sealed. Workers suit up in disposable Tyvek coveralls and respirators rated for asbestos — at minimum a half-face respirator with P100 filters, full-face for friable materials.
+Once asbestos-containing materials (ACMs) are confirmed, the work area is isolated with polyethylene sheeting, negative air pressure is established using HEPA-filtered air scrubbers, and all HVAC registers in the zone are sealed. Workers suit up in disposable Tyvek coveralls and respirators rated for asbestos, at minimum a half-face respirator with P100 filters, full-face for friable materials.
 
 **3. Wet removal and HEPA vacuuming**
-ACMs are wetted with amended water (a surfactant solution) to suppress fiber release before and during removal. Materials are carefully detached — not broken, not blasted — and immediately double-bagged in 6-mil poly bags, labeled per EPA and DOT requirements. HEPA vacuums handle residual debris. No standard shop vac. No leaf blower. No dry sweeping.
+ACMs are wetted with amended water (a surfactant solution) to suppress fiber release before and during removal. Materials are carefully detached, not broken, not blasted, and immediately double-bagged in 6-mil poly bags, labeled per EPA and DOT requirements. HEPA vacuums handle residual debris. No standard shop vac. No leaf blower. No dry sweeping.
 
 **4. Waste packaging and licensed disposal**
-All bagged ACM waste is sealed, labeled with the required asbestos warning language, and transported to a licensed disposal facility. In South Dakota, asbestos waste must go to an approved landfill cell — not general construction debris. A waste manifest documents the chain of custody from your property to the disposal site.
+All bagged ACM waste is sealed, labeled with the required asbestos warning language, and transported to a licensed disposal facility. In South Dakota, asbestos waste must go to an approved landfill cell, not general construction debris. A waste manifest documents the chain of custody from your property to the disposal site.
 
 **5. Clearance air testing**
 After cleanup and before containment is removed, air samples are collected inside the work area and analyzed. The area is not released for reoccupancy until fiber counts fall below the clearance threshold. This is the step that separates a compliant abatement from one that just looks finished.
 
 ## What separates a good asbestos abatement response from a bad one
 
-The most common failure point is skipping or rushing the inspection phase. Contractors who pull popcorn ceiling or rip out old floor tile without sampling first are gambling with your health and your liability — and if asbestos is found afterward during a sale inspection or renovation, the remediation cost and legal exposure multiply.
+The most common failure point is skipping or rushing the inspection phase. Contractors who pull popcorn ceiling or rip out old floor tile without sampling first are gambling with your health and your liability, and if asbestos is found afterward during a sale inspection or renovation, the remediation cost and legal exposure multiply.
 
 A second frequent problem is inadequate containment. A single layer of plastic sheeting taped to baseboards is not a proper negative-pressure enclosure. Without an air scrubber pulling air out of the work zone and exhausting it through HEPA filtration, fibers migrate into adjacent rooms through gaps, doorways, and HVAC returns.
 
-Insurance adjusters and industrial hygienists look for three things in a completed abatement file: the laboratory chain-of-custody for bulk samples, the waste manifest showing licensed disposal, and the clearance air test results. If any of those documents are missing, the abatement is not defensible — and your insurer may not accept it.
+Insurance adjusters and industrial hygienists look for three things in a completed abatement file: the laboratory chain-of-custody for bulk samples, the waste manifest showing licensed disposal, and the clearance air test results. If any of those documents are missing, the abatement is not defensible, and your insurer may not accept it.
 
 Finally, watch for contractors who skip the clearance test to save time. Clearance air sampling is not a formality. It is the only objective confirmation that the work area is safe.
 
 ## What does asbestos abatement cost?
 
-Typical costs for asbestos abatement vary significantly based on the material type, its condition (friable vs. non-friable), the square footage involved, and whether encapsulation is an option or full removal is required. Most homeowners pay somewhere in the ranges below — these are industry-typical figures, not quotes.
+Typical costs for asbestos abatement vary significantly based on the material type, its condition (friable vs. non-friable), the square footage involved, and whether encapsulation is an option or full removal is required. Most homeowners pay somewhere in the ranges below, these are industry-typical figures, not quotes.
 
 | Scenario | Typical range |
 |---|---|
@@ -77,11 +77,11 @@ Typical costs for asbestos abatement vary significantly based on the material ty
 | Vermiculite attic insulation removal | $5,000 – $15,000+ |
 | Encapsulation (where applicable, instead of removal) | 30–50% less than removal |
 
-Every loss and every property is different — Crew Restoration & Construction provides a written scope of work before any abatement begins so you know exactly what is included. Homeowners insurance typically covers asbestos abatement when the ACMs were disturbed by a covered peril (fire, water damage, storm), but policies vary; abatement tied to a planned renovation is generally not covered.
+Every loss and every property is different, Crew Restoration & Construction provides a written scope of work before any abatement begins so you know exactly what is included. Homeowners insurance typically covers asbestos abatement when the ACMs were disturbed by a covered peril (fire, water damage, storm), but policies vary; abatement tied to a planned renovation is generally not covered.
 
 ## Seasonal and regional considerations
 
-Sioux Falls sits in a region where freeze-thaw cycles drive significant renovation and repair activity each spring — which is also when the most asbestos disturbances happen. Homeowners tackling basement finishing, bathroom remodels, or roof replacements after a hard winter are often working with pre-1980 materials without realizing it. The Sioux Falls metro also has substantial housing stock from the 1950s through 1970s in neighborhoods like McKennan Park, Morningside, and the Cathedral District — areas where popcorn ceilings, original floor tile, and pipe insulation are still common.
+Sioux Falls sits in a region where freeze-thaw cycles drive significant renovation and repair activity each spring, which is also when the most asbestos disturbances happen. Homeowners tackling basement finishing, bathroom remodels, or roof replacements after a hard winter are often working with pre-1980 materials without realizing it. The Sioux Falls metro also has substantial housing stock from the 1950s through 1970s in neighborhoods like McKennan Park, Morningside, and the Cathedral District, areas where popcorn ceilings, original floor tile, and pipe insulation are still common.
 
 If you're planning a renovation this spring or summer, schedule the inspection before demolition begins, not after.
 

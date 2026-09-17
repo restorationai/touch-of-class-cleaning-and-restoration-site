@@ -17,23 +17,23 @@ service_slug: "sewage-cleanup"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
-When a sewer line backs up or a septic system overflows, the problem announces itself immediately — the smell alone is enough to clear a room. But the real damage is happening where you can't see it: raw sewage wicks into drywall, saturates subfloor materials, and begins seeding bacterial colonies within hours. This is Category 3 water, the most hazardous classification in water damage restoration, and it requires a response that goes well beyond mopping and airing out the space.
+When a sewer line backs up or a septic system overflows, the problem announces itself immediately, the smell alone is enough to clear a room. But the real damage is happening where you can't see it: raw sewage wicks into drywall, saturates subfloor materials, and begins seeding bacterial colonies within hours. This is Category 3 water, the most hazardous classification in water damage restoration, and it requires a response that goes well beyond mopping and airing out the space.
 
 ## What sewage cleanup and sanitization actually involves
 
-Sewage backup cleanup is not a job for a shop vac and a bottle of bleach. Raw sewage — whether from a sewer line backup, a septic overflow, or a failed ejector pump — contains fecal coliform bacteria, hepatitis A, norovirus, and other pathogens that survive on porous surfaces long after the visible mess is gone.
+Sewage backup cleanup is not a job for a shop vac and a bottle of bleach. Raw sewage, whether from a sewer line backup, a septic overflow, or a failed ejector pump, contains fecal coliform bacteria, hepatitis A, norovirus, and other pathogens that survive on porous surfaces long after the visible mess is gone.
 
 The work involves full personal protective equipment from entry, mechanical extraction of standing waste, controlled demolition of contaminated porous materials (drywall, insulation, carpet, pad), and multi-stage sanitization using EPA-registered hospital-grade disinfectants. Affected cavities are treated, not just surfaces. Air scrubbers run continuously to manage airborne particulates during the process.
 
-Timeline depends on the scope. A single bathroom with a contained toilet overflow can be extracted, treated, and dried within two to three days. A basement or crawlspace that held several inches of sewage for more than 24 hours — common when a homeowner returns from a trip to find the problem — often runs five to seven days of active remediation before structural drying is complete.
+Timeline depends on the scope. A single bathroom with a contained toilet overflow can be extracted, treated, and dried within two to three days. A basement or crawlspace that held several inches of sewage for more than 24 hours, common when a homeowner returns from a trip to find the problem, often runs five to seven days of active remediation before structural drying is complete.
 
 ## Our process
 
-1. **Containment and safety staging.** Before any extraction begins, the affected area is isolated with physical barriers and negative air pressure where needed. This prevents cross-contamination into clean areas of the home. The source of the backup is confirmed shut off or isolated — active sewage input stops before cleanup starts.
+1. **Containment and safety staging.** Before any extraction begins, the affected area is isolated with physical barriers and negative air pressure where needed. This prevents cross-contamination into clean areas of the home. The source of the backup is confirmed shut off or isolated, active sewage input stops before cleanup starts.
 
-2. **Extraction and gross waste removal.** Industrial wet-extraction equipment removes standing sewage. Solid waste is bagged and disposed of as regulated waste. This step cannot be rushed — residual sewage left in low spots or under appliances becomes the source of persistent odor and bacterial growth.
+2. **Extraction and gross waste removal.** Industrial wet-extraction equipment removes standing sewage. Solid waste is bagged and disposed of as regulated waste. This step cannot be rushed, residual sewage left in low spots or under appliances becomes the source of persistent odor and bacterial growth.
 
-3. **Controlled demolition of contaminated materials.** Porous materials that absorbed Category 3 water — drywall to the flood line plus a margin, saturated insulation, carpet and pad, affected cabinetry — are removed and bagged. Salvageability is assessed per IICRC S500 Category 3 guidelines. Structural lumber that can be dried and treated is documented; material that cannot be decontaminated is removed.
+3. **Controlled demolition of contaminated materials.** Porous materials that absorbed Category 3 water, drywall to the flood line plus a margin, saturated insulation, carpet and pad, affected cabinetry, are removed and bagged. Salvageability is assessed per IICRC S500 Category 3 guidelines. Structural lumber that can be dried and treated is documented; material that cannot be decontaminated is removed.
 
 4. **Multi-stage disinfection and deodorization.** Remaining hard surfaces, framing, and concrete are treated with EPA-registered antimicrobial agents in multiple passes. Fogging or hydroxyl treatment addresses airborne odor compounds. The goal is verified pathogen reduction, not odor masking.
 
@@ -41,11 +41,11 @@ Timeline depends on the scope. A single bathroom with a contained toilet overflo
 
 ## What separates a good sewage response from a bad one
 
-The most common failure in sewage backup cleanup is under-demolition. Technicians who try to save drywall or subfloor materials by surface-treating instead of removing them leave contaminated material inside wall cavities. Months later, the homeowner notices a persistent odor or discovers mold colonizing the hidden organic material. Insurance adjusters reviewing a re-contamination claim will look specifically at whether the original scope followed Category 3 protocols — and a surface-only treatment rarely holds up.
+The most common failure in sewage backup cleanup is under-demolition. Technicians who try to save drywall or subfloor materials by surface-treating instead of removing them leave contaminated material inside wall cavities. Months later, the homeowner notices a persistent odor or discovers mold colonizing the hidden organic material. Insurance adjusters reviewing a re-contamination claim will look specifically at whether the original scope followed Category 3 protocols, and a surface-only treatment rarely holds up.
 
-The second common failure is inadequate source confirmation. A sewer line backup can have multiple contributing causes — root intrusion, a collapsed lateral, a municipal main issue. Cleaning up the interior without a camera inspection of the drain line means the same backup is likely to recur. A thorough response includes coordinating with a licensed plumber to scope the line before the home is closed back up.
+The second common failure is inadequate source confirmation. A sewer line backup can have multiple contributing causes, root intrusion, a collapsed lateral, a municipal main issue. Cleaning up the interior without a camera inspection of the drain line means the same backup is likely to recur. A thorough response includes coordinating with a licensed plumber to scope the line before the home is closed back up.
 
-Insurance adjusters also look for moisture logs. Daily psychrometric readings that show drying progress — not just a final "dry" notation — are what support a complete claim and protect against disputes over whether structural drying was actually achieved.
+Insurance adjusters also look for moisture logs. Daily psychrometric readings that show drying progress, not just a final "dry" notation, are what support a complete claim and protect against disputes over whether structural drying was actually achieved.
 
 ## What does sewage cleanup and sanitization cost?
 
@@ -59,14 +59,14 @@ Typical costs for raw sewage removal and sanitization vary significantly based o
 | Crawlspace septic overflow, moderate saturation | $4,000 – $10,000 |
 | Whole-floor backup, extended exposure (24+ hours) | $8,000 – $20,000+ |
 
-These are typical industry figures — every loss is different, and Coastal Restoration Services Inc provides a written scope of work before any work begins. Homeowners insurance commonly covers sudden and accidental sewer line backups, though coverage depends on whether the policy includes a sewer backup rider — a separate endorsement many standard policies require.
+These are typical industry figures, every loss is different, and Coastal Restoration Services Inc provides a written scope of work before any work begins. Homeowners insurance commonly covers sudden and accidental sewer line backups, though coverage depends on whether the policy includes a sewer backup rider, a separate endorsement many standard policies require.
 
 ## Seasonal and regional considerations
 
-Along the Central Coast, aging clay and cast-iron sewer laterals are common in neighborhoods built before the 1980s, and root intrusion accelerates during and after the wet season as tree roots follow moisture into cracked pipe joints. The stretch from November through March brings the highest volume of sewer backup calls regionally — heavy rain saturates soil, raises groundwater, and overwhelms both municipal systems and older septic fields. Vandenberg Village and surrounding communities on the Lompoc plain also see septic system stress during extended wet periods when drain fields cannot percolate adequately.
+Along the Central Coast, aging clay and cast-iron sewer laterals are common in neighborhoods built before the 1980s, and root intrusion accelerates during and after the wet season as tree roots follow moisture into cracked pipe joints. The stretch from November through March brings the highest volume of sewer backup calls regionally, heavy rain saturates soil, raises groundwater, and overwhelms both municipal systems and older septic fields. Vandenberg Village and surrounding communities on the Lompoc plain also see septic system stress during extended wet periods when drain fields cannot percolate adequately.
 
 ## Service area
 
 Coastal Restoration Services Inc is based in Vandenberg Village and handles sewage backup cleanup throughout the surrounding area, including Lompoc, Santa Maria, Orcutt, Buellton, Solvang, and communities along the Highway 1 corridor. Individual service-area pages cover each city in more detail.
 
-If you are standing in a home that smells like sewage right now, the clock matters — call (805) 345-7440 to begin raw sewage removal and get a written scope before contamination spreads further.
+If you are standing in a home that smells like sewage right now, the clock matters, call (805) 345-7440 to begin raw sewage removal and get a written scope before contamination spreads further.

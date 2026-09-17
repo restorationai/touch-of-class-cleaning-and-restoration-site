@@ -19,21 +19,21 @@ rendered: true
 ---
 ## What fire leaves behind that you can't see
 
-The flames are out, but the damage isn't done. In the hours after a house fire, soot particles — some finer than a human hair — migrate through HVAC systems, settle into wall cavities, and chemically bond to cool surfaces in rooms that never burned. Smoke odor embeds in drywall, insulation, and soft contents within 24 to 48 hours. What looks like surface discoloration on a ceiling is often a signal of deeper contamination that, if cleaned incorrectly, gets smeared rather than removed. Fire damage restoration is a different discipline than general cleaning, and the difference shows up months later when the smell comes back.
+The flames are out, but the damage isn't done. In the hours after a house fire, soot particles, some finer than a human hair, migrate through HVAC systems, settle into wall cavities, and chemically bond to cool surfaces in rooms that never burned. Smoke odor embeds in drywall, insulation, and soft contents within 24 to 48 hours. What looks like surface discoloration on a ceiling is often a signal of deeper contamination that, if cleaned incorrectly, gets smeared rather than removed. Fire damage restoration is a different discipline than general cleaning, and the difference shows up months later when the smell comes back.
 
 ## What fire damage restoration actually involves
 
-Fire restoration work begins with understanding what burned. A kitchen grease fire produces protein soot — nearly invisible, extraordinarily pungent, and notoriously resistant to standard cleaning agents. A living room fire fed by synthetic furniture foam leaves heavy, oily black soot that smears on contact. Structural fires involving drywall and lumber generate alkaline dry soot that can be vacuumed with HEPA equipment before chemical treatment. Each type requires a different chemistry and technique; treating them the same way is one of the most common mistakes in the industry.
+Fire restoration work begins with understanding what burned. A kitchen grease fire produces protein soot, nearly invisible, extraordinarily pungent, and notoriously resistant to standard cleaning agents. A living room fire fed by synthetic furniture foam leaves heavy, oily black soot that smears on contact. Structural fires involving drywall and lumber generate alkaline dry soot that can be vacuumed with HEPA equipment before chemical treatment. Each type requires a different chemistry and technique; treating them the same way is one of the most common mistakes in the industry.
 
 Beyond soot, fire damage restoration addresses:
 
-- **Smoke penetration into structural cavities** — walls, subfloors, and attic spaces that absorbed smoke even if they didn't ignite
-- **Corrosion from acidic soot** — within hours, soot begins etching metal fixtures, appliances, and HVAC components
-- **Water damage from suppression** — firefighting water introduces a secondary moisture problem that must be dried concurrently
-- **Structural integrity assessment** — load-bearing members exposed to prolonged heat may be compromised without visible charring
-- **Contents pack-out and salvage** — furniture, documents, and personal items that can be restored off-site while the structure is treated
+- **Smoke penetration into structural cavities**, walls, subfloors, and attic spaces that absorbed smoke even if they didn't ignite
+- **Corrosion from acidic soot**, within hours, soot begins etching metal fixtures, appliances, and HVAC components
+- **Water damage from suppression**, firefighting water introduces a secondary moisture problem that must be dried concurrently
+- **Structural integrity assessment**, load-bearing members exposed to prolonged heat may be compromised without visible charring
+- **Contents pack-out and salvage**, furniture, documents, and personal items that can be restored off-site while the structure is treated
 
-A thorough restoration takes days to weeks depending on fire size and structural involvement — not hours.
+A thorough restoration takes days to weeks depending on fire size and structural involvement, not hours.
 
 ## Our process
 
@@ -41,20 +41,20 @@ A thorough restoration takes days to weeks depending on fire size and structural
 Before restoration begins, the structure is secured. Broken windows, compromised doors, and open roof sections are boarded or tarped to prevent weather intrusion and unauthorized entry. This step also stops fresh air from accelerating soot migration and oxidation damage.
 
 **2. Soot characterization and damage mapping**
-A trained technician walks the structure room by room, identifying soot type (protein, synthetic, dry, or wet), mapping smoke migration paths, and documenting every affected surface for the insurance scope. This documentation — photographs, moisture readings, material samples — becomes the backbone of your claim.
+A trained technician walks the structure room by room, identifying soot type (protein, synthetic, dry, or wet), mapping smoke migration paths, and documenting every affected surface for the insurance scope. This documentation, photographs, moisture readings, material samples, becomes the backbone of your claim.
 
 **3. Dry soot removal and HEPA vacuuming**
 Loose soot is removed before any wet cleaning begins. Applying liquid cleaners to dry soot without this step drives particles deeper into porous surfaces. HEPA-filtered vacuums capture fine particulates that standard shop vacs recirculate into the air.
 
 **4. Chemical cleaning, thermal fogging, and ozone treatment**
-Surfaces are cleaned with chemistry matched to the soot type — alkaline cleaners for protein residue, solvent-based products for synthetic soot. Once surfaces are clean, thermal fogging or hydroxyl generation penetrates wall cavities, ductwork, and structural voids to neutralize embedded odor molecules. Ozone treatment may follow for severe cases, requiring the structure to be vacated during application.
+Surfaces are cleaned with chemistry matched to the soot type, alkaline cleaners for protein residue, solvent-based products for synthetic soot. Once surfaces are clean, thermal fogging or hydroxyl generation penetrates wall cavities, ductwork, and structural voids to neutralize embedded odor molecules. Ozone treatment may follow for severe cases, requiring the structure to be vacated during application.
 
 **5. Structural drying and reconstruction coordination**
-Firefighting water is extracted and dried using commercial dehumidifiers and air movers. Once the structure is dry and deodorized, reconstruction begins — framing, drywall, insulation, paint, and finish work — returning the property to pre-loss condition.
+Firefighting water is extracted and dried using commercial dehumidifiers and air movers. Once the structure is dry and deodorized, reconstruction begins, framing, drywall, insulation, paint, and finish work, returning the property to pre-loss condition.
 
 ## What separates a good fire response from a bad one
 
-The most common failure point is speed without accuracy. Crews that pressure-wash soot off walls before characterizing it, or paint over smoke-stained surfaces without sealing, are creating a cosmetic fix that fails within months. Odor returns because the source — soot trapped in wall cavities or HVAC insulation — was never addressed.
+The most common failure point is speed without accuracy. Crews that pressure-wash soot off walls before characterizing it, or paint over smoke-stained surfaces without sealing, are creating a cosmetic fix that fails within months. Odor returns because the source, soot trapped in wall cavities or HVAC insulation, was never addressed.
 
 Insurance adjusters look for itemized documentation: which surfaces were affected, what cleaning method was used, what equipment was deployed, and what was replaced versus restored. A restoration company that can't produce that documentation creates delays and disputes in your claim. Thorough photo documentation and moisture logs from day one protect the homeowner as much as the contractor.
 
@@ -62,12 +62,12 @@ Another missed step: HVAC systems. Smoke travels through return air ducts and de
 
 ## Seasonal and regional considerations
 
-In South Florida, fire damage restoration carries a complication that colder climates don't face: humidity. Davie and the surrounding Broward County area average relative humidity above 70% for most of the year. That ambient moisture accelerates corrosion from acidic soot and creates ideal conditions for secondary mold growth in fire-suppression water within 24 to 48 hours. Restoration work here requires aggressive concurrent drying — not sequential. Waiting to address moisture until soot cleanup is complete is a timeline that works in Arizona; it doesn't work in South Florida.
+In South Florida, fire damage restoration carries a complication that colder climates don't face: humidity. Davie and the surrounding Broward County area average relative humidity above 70% for most of the year. That ambient moisture accelerates corrosion from acidic soot and creates ideal conditions for secondary mold growth in fire-suppression water within 24 to 48 hours. Restoration work here requires aggressive concurrent drying, not sequential. Waiting to address moisture until soot cleanup is complete is a timeline that works in Arizona; it doesn't work in South Florida.
 
 Dry-season fires (roughly November through April) often involve lower ambient humidity, which slows secondary mold risk but doesn't eliminate it. Rainy-season fires introduce additional exterior moisture intrusion if the structure is open.
 
 ## Service area
 
-RestorationXpress is based in Davie, FL and serves fire damage restoration clients throughout Broward County and the surrounding region — including Fort Lauderdale, Hollywood, Pembroke Pines, Miramar, Weston, Cooper City, Plantation, and Sunrise. The city-specific pages linked from this site go deeper on local housing stock and neighborhood considerations for each area.
+RestorationXpress is based in Davie, FL and serves fire damage restoration clients throughout Broward County and the surrounding region, including Fort Lauderdale, Hollywood, Pembroke Pines, Miramar, Weston, Cooper City, Plantation, and Sunrise. The city-specific pages linked from this site go deeper on local housing stock and neighborhood considerations for each area.
 
-If you're standing in a smoke-damaged home and trying to figure out what to do next, call (954) 932-5420. The sooner soot is characterized and contained, the more of your home — and your contents — can be saved. **Call now to begin smoke and soot removal.**
+If you're standing in a smoke-damaged home and trying to figure out what to do next, call (954) 932-5420. The sooner soot is characterized and contained, the more of your home, and your contents, can be saved. **Call now to begin smoke and soot removal.**

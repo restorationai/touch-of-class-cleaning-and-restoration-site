@@ -20,11 +20,11 @@ state: "MA"
 service_display: "Crawl Space Encapsulation"
 rendered: true
 ---
-Wellesley sits on a landscape shaped by glacial till, shallow bedrock, and a network of ponds and wetlands that keep soil moisture levels elevated for much of the year. That combination means crawl spaces beneath Wellesley homes rarely get a chance to fully dry out on their own — and once humidity takes hold under a house, wood rot, pest activity, and air quality problems tend to follow quickly. Crawl space encapsulation addresses that cycle directly, sealing the space from ground moisture before it migrates into the living areas above.
+Wellesley sits on a landscape shaped by glacial till, shallow bedrock, and a network of ponds and wetlands that keep soil moisture levels elevated for much of the year. That combination means crawl spaces beneath Wellesley homes rarely get a chance to fully dry out on their own, and once humidity takes hold under a house, wood rot, pest activity, and air quality problems tend to follow quickly. Crawl space encapsulation addresses that cycle directly, sealing the space from ground moisture before it migrates into the living areas above.
 
 ## Why Wellesley Properties Are Prone to Crawl Space Moisture
 
-Much of Wellesley's housing stock dates to the early and mid-twentieth century, when vented crawl spaces were the standard approach to foundation construction. The logic at the time was that outside air would carry moisture away. In a dry climate that might work. In eastern Massachusetts, where relative humidity regularly climbs above 70 percent through spring and summer, vented crawl spaces often do the opposite — they pull warm, humid outdoor air into a cool underground space, where it condenses on joists, insulation, and the subfloor above.
+Much of Wellesley's housing stock dates to the early and mid-twentieth century, when vented crawl spaces were the standard approach to foundation construction. The logic at the time was that outside air would carry moisture away. In a dry climate that might work. In eastern Massachusetts, where relative humidity regularly climbs above 70 percent through spring and summer, vented crawl spaces often do the opposite, they pull warm, humid outdoor air into a cool underground space, where it condenses on joists, insulation, and the subfloor above.
 
 The town's glacially deposited soils hold water well, and properties near the Charles River corridor or any of Wellesley's several kettle ponds can experience elevated groundwater pressure after a heavy rain. Even homes on higher ground are not immune: clay-heavy subsoils slow drainage and keep moisture sitting near the foundation longer than it would in sandier terrain. A crawl space that looks dry in October can be dripping in April.
 
@@ -32,24 +32,24 @@ The town's glacially deposited soils hold water well, and properties near the Ch
 
 Encapsulation is not simply laying plastic sheeting on the dirt floor. A properly executed job in a Wellesley home typically involves several coordinated steps:
 
-**Inspection and prep.** Before any barrier goes down, the crawl space is inspected for standing water, existing mold or rot, pest evidence, and damaged insulation. Any of those conditions need to be addressed first — encapsulating over an active moisture problem traps it rather than solving it.
+**Inspection and prep.** Before any barrier goes down, the crawl space is inspected for standing water, existing mold or rot, pest evidence, and damaged insulation. Any of those conditions need to be addressed first, encapsulating over an active moisture problem traps it rather than solving it.
 
 **Debris and old insulation removal.** Fiberglass batt insulation stapled between floor joists is common in pre-1980 construction. Once it has absorbed moisture, it loses its thermal value and can harbor mold. Removing it before sealing is standard practice.
 
-**Ground barrier installation.** A heavy-duty polyethylene liner — typically 12 to 20 mil — is laid across the crawl space floor and run up the foundation walls, sealed at the seams and at wall penetrations. This is the core of encapsulation: cutting off the primary moisture pathway from the soil.
+**Ground barrier installation.** A heavy-duty polyethylene liner, typically 12 to 20 mil, is laid across the crawl space floor and run up the foundation walls, sealed at the seams and at wall penetrations. This is the core of encapsulation: cutting off the primary moisture pathway from the soil.
 
 **Rim joist sealing.** The rim joist area where the floor framing meets the foundation wall is a significant air and moisture infiltration point in older New England construction. Spray foam or rigid foam board is used to seal and insulate this zone.
 
-**Ventilation or dehumidification.** Depending on the crawl space configuration, the space may be conditioned with a dedicated dehumidifier or brought into the home's conditioned envelope by sealing foundation vents. Which approach is correct depends on the specific space — there is no one-size answer.
+**Ventilation or dehumidification.** Depending on the crawl space configuration, the space may be conditioned with a dedicated dehumidifier or brought into the home's conditioned envelope by sealing foundation vents. Which approach is correct depends on the specific space, there is no one-size answer.
 
 ## Doing This Work in Wellesley's Older Homes
 
-Homes built before World War II — and there are many in Wellesley — often have crawl spaces with low clearance, rubble stone foundations, and irregular geometry that makes installation more involved than in a newer home with a poured concrete perimeter. Stone foundations are porous and require careful detailing where the liner meets the wall. Low clearance means more hand work and longer labor time. These are not reasons to skip encapsulation; they are reasons to use a contractor who has worked in this type of construction before.
+Homes built before World War II, and there are many in Wellesley, often have crawl spaces with low clearance, rubble stone foundations, and irregular geometry that makes installation more involved than in a newer home with a poured concrete perimeter. Stone foundations are porous and require careful detailing where the liner meets the wall. Low clearance means more hand work and longer labor time. These are not reasons to skip encapsulation; they are reasons to use a contractor who has worked in this type of construction before.
 
 Wellesley also has a significant number of homes in established residential areas where landscaping, mature trees, and tight lot lines can affect crawl space access. Exterior access hatches are sometimes the only practical entry point, and the condition of those hatches matters for long-term performance of the encapsulation system.
 
 ## Local Note
 
-Homes near Wellesley's pond-adjacent neighborhoods — particularly those on lower-lying lots close to the Charles River watershed — often show a specific pattern: the crawl space reads relatively dry through the summer, then moisture readings spike sharply in March and April as snowmelt and spring rain raise the local water table. Homeowners who inspect in August and conclude they don't have a problem sometimes discover significant mold growth the following spring. If your home sits on a low lot or near any of Wellesley's water features, a late-winter inspection before encapsulation is worth scheduling specifically to catch that seasonal peak.
+Homes near Wellesley's pond-adjacent neighborhoods, particularly those on lower-lying lots close to the Charles River watershed, often show a specific pattern: the crawl space reads relatively dry through the summer, then moisture readings spike sharply in March and April as snowmelt and spring rain raise the local water table. Homeowners who inspect in August and conclude they don't have a problem sometimes discover significant mold growth the following spring. If your home sits on a low lot or near any of Wellesley's water features, a late-winter inspection before encapsulation is worth scheduling specifically to catch that seasonal peak.
 
-If you're ready to stop guessing what's happening under your house, call Quality Contracting, Inc. at (508) 756-8800. The team works out of Auburn and serves Wellesley regularly — a straightforward drive west on Route 9 — and can assess your crawl space, explain what the conditions actually are, and give you a clear picture of what encapsulation would involve for your specific home.
+If you're ready to stop guessing what's happening under your house, call Quality Contracting, Inc. at (508) 756-8800. The team works out of Auburn and serves Wellesley regularly, a straightforward drive west on Route 9, and can assess your crawl space, explain what the conditions actually are, and give you a clear picture of what encapsulation would involve for your specific home.

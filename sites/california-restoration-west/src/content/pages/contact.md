@@ -19,12 +19,12 @@ If water is spreading, smoke damage is setting in, or you're facing something yo
 
 ## For urgent situations
 
-When a pipe bursts at midnight or a fire leaves your home uninhabitable, you should not be leaving a voicemail and hoping. The line at **(805) 290-7292** is answered 24 hours a day, seven days a week — including weekends and holidays. When you call, you'll speak with someone who can ask the right questions, tell you what to do while help is on the way, and get a crew moving toward Ventura.
+When a pipe bursts at midnight or a fire leaves your home uninhabitable, you should not be leaving a voicemail and hoping. The line at **(805) 290-7292** is answered 24 hours a day, seven days a week, including weekends and holidays. When you call, you'll speak with someone who can ask the right questions, tell you what to do while help is on the way, and get a crew moving toward Ventura.
 
 ## For estimates and non-urgent inquiries
 
-Not every situation is a middle-of-the-night emergency. If you're dealing with a slow leak you just noticed, a mold concern you want assessed before it gets worse, or you need documentation for an insurance claim that's already in progress, email works well: **Californiarestorationwest@gmail.com**. Give us a brief description of what you're seeing — location in the home, how long it's been present, any photos you can attach — and we'll respond promptly to schedule an on-site evaluation at a time that works for you.
+Not every situation is a middle-of-the-night emergency. If you're dealing with a slow leak you just noticed, a mold concern you want assessed before it gets worse, or you need documentation for an insurance claim that's already in progress, email works well: **Californiarestorationwest@gmail.com**. Give us a brief description of what you're seeing, location in the home, how long it's been present, any photos you can attach, and we'll respond promptly to schedule an on-site evaluation at a time that works for you.
 
 ## Where we're located
 
-The office is at **363 Mackay Ave, Ventura, CA 93004**, in the heart of a coastal community where marine air, aging stucco construction, and the occasional atmospheric river create conditions that keep restoration crews busy year-round. From Ventura, the team serves properties throughout the surrounding region — including Oxnard, Camarillo, Thousand Oaks, Ojai, and Santa Paula. If you're unsure whether your address falls within the service area, just call or email and ask.
+The office is at **363 Mackay Ave, Ventura, CA 93004**, in the heart of a coastal community where marine air, aging stucco construction, and the occasional atmospheric river create conditions that keep restoration crews busy year-round. From Ventura, the team serves properties throughout the surrounding region, including Oxnard, Camarillo, Thousand Oaks, Ojai, and Santa Paula. If you're unsure whether your address falls within the service area, just call or email and ask.

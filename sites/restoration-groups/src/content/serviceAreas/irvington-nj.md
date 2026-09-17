@@ -19,13 +19,13 @@ state: "NJ"
 primary: false
 rendered: true
 ---
-When water is rising in a Grove Park basement or smoke has settled into the walls of a Springfield Avenue storefront, Irvington property owners need a crew that knows the neighborhood — not a dispatcher reading from a map. The Restoration Group handles water damage, fire and smoke damage, mold remediation, and full reconstruction for homeowners, landlords, and property managers throughout Irvington's 07111 ZIP code, around the clock.
+When water is rising in a Grove Park basement or smoke has settled into the walls of a Springfield Avenue storefront, Irvington property owners need a crew that knows the neighborhood, not a dispatcher reading from a map. The Restoration Group handles water damage, fire and smoke damage, mold remediation, and full reconstruction for homeowners, landlords, and property managers throughout Irvington's 07111 ZIP code, around the clock.
 
 ## Restoration emergencies common in Irvington
 
-Irvington was built fast and built dense. The housing stock along Chancellor Avenue, Union Avenue, and the blocks radiating out from Irvington Center is dominated by early-1900s two- and three-family rowhouses and prewar frame homes — structures that were plumbed with galvanized steel supply lines and cast-iron drains that are now well past their design life. Galvanized pipe corrodes from the inside out; by the time a pinhole leak shows up as a water stain on a ceiling, the line has often been failing for months. Cast-iron drain stacks crack at the joints and allow sewer gas and slow seepage into finished basement spaces that are common in this tight housing stock.
+Irvington was built fast and built dense. The housing stock along Chancellor Avenue, Union Avenue, and the blocks radiating out from Irvington Center is dominated by early-1900s two- and three-family rowhouses and prewar frame homes, structures that were plumbed with galvanized steel supply lines and cast-iron drains that are now well past their design life. Galvanized pipe corrodes from the inside out; by the time a pinhole leak shows up as a water stain on a ceiling, the line has often been failing for months. Cast-iron drain stacks crack at the joints and allow sewer gas and slow seepage into finished basement spaces that are common in this tight housing stock.
 
-The Elizabeth River watershed drains much of the township, and low-lying blocks flood in hard rain events. Tropical Storm Ida in 2021 drove widespread basement flooding across Essex County — Irvington was among the hardest-hit municipalities, with finished lower levels taking on two to four feet of water in a matter of hours. That kind of loss saturates framing, insulation, and drywall simultaneously and creates the conditions for mold colonization within 24 to 48 hours if drying doesn't begin quickly.
+The Elizabeth River watershed drains much of the township, and low-lying blocks flood in hard rain events. Tropical Storm Ida in 2021 drove widespread basement flooding across Essex County, Irvington was among the hardest-hit municipalities, with finished lower levels taking on two to four feet of water in a matter of hours. That kind of loss saturates framing, insulation, and drywall simultaneously and creates the conditions for mold colonization within 24 to 48 hours if drying doesn't begin quickly.
 
 The Springfield Avenue commercial corridor adds a different category of loss: flat and low-slope roofs on mixed-use buildings that leak overnight, pipe bursts in unheated upper floors during cold snaps, and the occasional kitchen or electrical fire in a ground-floor tenant space that sends smoke into the residential units above.
 
@@ -33,27 +33,27 @@ The Springfield Avenue commercial corridor adds a different category of loss: fl
 
 ### Water damage and emergency drying
 
-Water damage in Irvington often starts below grade. Finished and semi-finished basements in the Upsala and Grove Park sections absorb losses from both internal pipe failures and storm-driven groundwater intrusion. We extract standing water, map moisture with thermal imaging and pin meters, and set drying equipment calibrated to the actual conditions — not a generic formula. Structural drying follows the IICRC S500 standard, and we document every reading for your insurance carrier.
+Water damage in Irvington often starts below grade. Finished and semi-finished basements in the Upsala and Grove Park sections absorb losses from both internal pipe failures and storm-driven groundwater intrusion. We extract standing water, map moisture with thermal imaging and pin meters, and set drying equipment calibrated to the actual conditions, not a generic formula. Structural drying follows the IICRC S500 standard, and we document every reading for your insurance carrier.
 
 ### Mold remediation
 
-A slow leak behind a bathroom wall in a Chancellor Avenue three-family or a damp crawl space under a Union Avenue rowhouse can support mold growth long before it's visible. We contain the affected area, remove compromised materials, and treat structural surfaces — then clear the space with post-remediation verification so you have documentation before re-occupancy.
+A slow leak behind a bathroom wall in a Chancellor Avenue three-family or a damp crawl space under a Union Avenue rowhouse can support mold growth long before it's visible. We contain the affected area, remove compromised materials, and treat structural surfaces, then clear the space with post-remediation verification so you have documentation before re-occupancy.
 
 ### Fire and smoke damage restoration
 
-Smoke residue from even a contained kitchen fire travels farther than most people expect — into HVAC ducts, closets, and wall cavities. For Irvington properties, where units share walls and mechanical systems, that matters. We assess the full migration path, clean or replace affected materials, and address odor at the source rather than masking it.
+Smoke residue from even a contained kitchen fire travels farther than most people expect, into HVAC ducts, closets, and wall cavities. For Irvington properties, where units share walls and mechanical systems, that matters. We assess the full migration path, clean or replace affected materials, and address odor at the source rather than masking it.
 
 ### Reconstruction
 
-After the drying or remediation scope is complete, many Irvington properties — particularly older multifamily buildings near Civic Square and the Camptown Historic District — need finish work that matches original materials and satisfies local code. We carry the project from mitigation through rebuild so property owners aren't managing two separate contractors.
+After the drying or remediation scope is complete, many Irvington properties, particularly older multifamily buildings near Civic Square and the Camptown Historic District, need finish work that matches original materials and satisfies local code. We carry the project from mitigation through rebuild so property owners aren't managing two separate contractors.
 
 ## Coverage and how fast we can get there
 
-The Restoration Group operates out of Kenilworth, roughly 6 to 8 miles from Irvington Center depending on the route. The most direct path runs via Route 22 East to the Garden State Parkway South, exiting near Union Avenue — a drive that typically takes under 20 minutes outside of peak traffic hours. Irvington Park, Civic Square, and the Springfield Avenue corridor are all well within our standard service radius, and because we operate 24/7, a call at 2 a.m. during a nor'easter gets the same crew dispatch as a weekday afternoon job.
+The Restoration Group operates out of Kenilworth, roughly 6 to 8 miles from Irvington Center depending on the route. The most direct path runs via Route 22 East to the Garden State Parkway South, exiting near Union Avenue, a drive that typically takes under 20 minutes outside of peak traffic hours. Irvington Park, Civic Square, and the Springfield Avenue corridor are all well within our standard service radius, and because we operate 24/7, a call at 2 a.m. during a nor'easter gets the same crew dispatch as a weekday afternoon job.
 
 ## Building stock, site conditions, and permits in Irvington
 
-Most of the housing here predates World War II: balloon- or platform-framed walls with plaster over wood lath, wood plank sheathing, and full basements under stone, brick, or early poured-concrete foundations. Plaster and lath holds water differently than drywall — it wicks upward and hides moisture in the cavity — so drying a prewar wall usually means controlled cavity access rather than gutting. Anything from that era can also carry knob-and-tube wiring, lead paint, and asbestos in pipe wrap or basement floor tile, all of which shape the demolition scope before drying starts.
+Most of the housing here predates World War II: balloon- or platform-framed walls with plaster over wood lath, wood plank sheathing, and full basements under stone, brick, or early poured-concrete foundations. Plaster and lath holds water differently than drywall, it wicks upward and hides moisture in the cavity, so drying a prewar wall usually means controlled cavity access rather than gutting. Anything from that era can also carry knob-and-tube wiring, lead paint, and asbestos in pipe wrap or basement floor tile, all of which shape the demolition scope before drying starts.
 
 Footings in this part of North Jersey are set below a roughly three-foot frost line, and the underlying Piedmont shale and till drains slowly, so groundwater sits against basement walls after long rain.
 

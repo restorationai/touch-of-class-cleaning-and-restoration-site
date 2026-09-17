@@ -19,29 +19,29 @@ state: "PA"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind the drywall of a finished basement in Treesdale or a chimney fire chars the framing of an older Bakerstown colonial, FireDEX Butler dispatches from Cranberry Township around the clock — arriving with the drying equipment, odor-control technology, and structural knowledge to stop the damage before it compounds. We've been doing this work since 1981, and the 15044 ZIP code is well within our regular coverage area.
+When a pipe bursts behind the drywall of a finished basement in Treesdale or a chimney fire chars the framing of an older Bakerstown colonial, FireDEX Butler dispatches from Cranberry Township around the clock, arriving with the drying equipment, odor-control technology, and structural knowledge to stop the damage before it compounds. We've been doing this work since 1981, and the 15044 ZIP code is well within our regular coverage area.
 
 ## Restoration emergencies common in Gibsonia
 
-Gibsonia sits in a postal area that spans Richland Township, the Treesdale planned community, the Deer Creek area, and the older Bakerstown corridor — and each zone brings its own failure patterns.
+Gibsonia sits in a postal area that spans Richland Township, the Treesdale planned community, the Deer Creek area, and the older Bakerstown corridor, and each zone brings its own failure patterns.
 
-The newer subdivisions built from the 1990s through the 2020s — many along the Pine-Richland corridor — feature finished bonus rooms over garages and fully built-out basements. Those spaces are the first to flood when a sump pump fails during a March thaw or a supply line behind a laundry cabinet lets go on a Tuesday afternoon. January is the season for frozen pipes in bonus rooms and over-garage spaces, where insulation often stops short of the exterior wall cavity.
+The newer subdivisions built from the 1990s through the 2020s, many along the Pine-Richland corridor, feature finished bonus rooms over garages and fully built-out basements. Those spaces are the first to flood when a sump pump fails during a March thaw or a supply line behind a laundry cabinet lets go on a Tuesday afternoon. January is the season for frozen pipes in bonus rooms and over-garage spaces, where insulation often stops short of the exterior wall cavity.
 
-Wooded lots off the Route 8 corridor that rely on well and septic systems introduce a different failure set: well-line breaks, ejector-pump backups, and the kind of slow seepage that soaks a crawl space for days before anyone notices. Long private drives on those properties also mean we plan winter access before we roll — a detail that matters when a crew is hauling extraction equipment.
+Wooded lots off the Route 8 corridor that rely on well and septic systems introduce a different failure set: well-line breaks, ejector-pump backups, and the kind of slow seepage that soaks a crawl space for days before anyone notices. Long private drives on those properties also mean we plan winter access before we roll, a detail that matters when a crew is hauling extraction equipment.
 
 Bakerstown's older housing stock carries aging galvanized and cast-iron plumbing that corrodes from the inside out, and wood-burning fireplaces that haven't been serviced in years are a real chimney-fire risk when temperatures drop and homeowners light the first fire of the season.
 
-Pittsburgh's climate does the rest: freeze-thaw cycles that stress masonry, heavy spring rain that overwhelms gutters and window wells, and summer humidity that accelerates mold colonization — mold can begin colonizing wet building materials within 24 to 48 hours of a moisture event.
+Pittsburgh's climate does the rest: freeze-thaw cycles that stress masonry, heavy spring rain that overwhelms gutters and window wells, and summer humidity that accelerates mold colonization, mold can begin colonizing wet building materials within 24 to 48 hours of a moisture event.
 
 ## Services we provide in Gibsonia
 
 ### Water damage restoration
 
-Water damage in Gibsonia most often starts in finished lower levels — sump failures, water-heater floods, and supply-line breaks are the calls we take most frequently in the 15044 area. We extract standing water, map moisture with thermal imaging and meters, then dry the structure to IICRC S500 standards. We document everything for your insurance carrier and can bill most major carriers directly.
+Water damage in Gibsonia most often starts in finished lower levels, sump failures, water-heater floods, and supply-line breaks are the calls we take most frequently in the 15044 area. We extract standing water, map moisture with thermal imaging and meters, then dry the structure to IICRC S500 standards. We document everything for your insurance carrier and can bill most major carriers directly.
 
 ### Fire and smoke damage restoration
 
-Chimney fires in Bakerstown and kitchen fires in newer Richland Township homes share one problem: smoke residue travels far beyond the visible char, embedding in HVAC ductwork, insulation, and soft furnishings. We contain the affected area, remove unsalvageable material, and use thermal fogging and hydroxyl treatment to neutralize odor at the molecular level — not just mask it.
+Chimney fires in Bakerstown and kitchen fires in newer Richland Township homes share one problem: smoke residue travels far beyond the visible char, embedding in HVAC ductwork, insulation, and soft furnishings. We contain the affected area, remove unsalvageable material, and use thermal fogging and hydroxyl treatment to neutralize odor at the molecular level, not just mask it.
 
 ### Mold remediation
 
@@ -49,18 +49,18 @@ A finished basement that stayed wet for even a few days after a sump failure can
 
 ### Reconstruction and build-back
 
-Once mitigation is complete, the same crew that dried your basement or boarded your fire-damaged windows can manage the rebuild — flooring, drywall, trim, and finish work. One point of contact from first call to final walkthrough reduces the coordination burden on homeowners and property managers alike.
+Once mitigation is complete, the same crew that dried your basement or boarded your fire-damaged windows can manage the rebuild, flooring, drywall, trim, and finish work. One point of contact from first call to final walkthrough reduces the coordination burden on homeowners and property managers alike.
 
 ## Coverage and how fast we can get there
 
-FireDEX Butler's Cranberry Township headquarters is roughly 10 to 12 miles from central Gibsonia via Route 228 east to Route 8 south — a straightforward run under normal conditions. Treesdale, the Pine-Richland High School area, Richland Community Park, and the Deer Creek neighborhoods are all well within our regular service radius. For properties on private drives off Route 8, we note road conditions and equipment access on the first call so there are no surprises when the crew arrives. We operate 24 hours a day, seven days a week, so a sump alarm at 2 a.m. or a pipe burst on a holiday weekend gets the same response as a weekday morning call.
+FireDEX Butler's Cranberry Township headquarters is roughly 10 to 12 miles from central Gibsonia via Route 228 east to Route 8 south, a straightforward run under normal conditions. Treesdale, the Pine-Richland High School area, Richland Community Park, and the Deer Creek neighborhoods are all well within our regular service radius. For properties on private drives off Route 8, we note road conditions and equipment access on the first call so there are no surprises when the crew arrives. We operate 24 hours a day, seven days a week, so a sump alarm at 2 a.m. or a pipe burst on a holiday weekend gets the same response as a weekday morning call.
 
 ## Building stock, site conditions, and permits in Gibsonia
 
-Most of the newer housing here sits on poured concrete basement walls with footings set below the regional frost line, framed with OSB sheathing and engineered lumber — I-joists and LVL beams. That matters after a lower-level flood, because a wet I-joist web and soaked subfloor adhesive behave nothing like solid dimensional lumber; they need targeted drying, not a fan pointed at the room. Supply lines in those homes are usually CPVC or PEX.
+Most of the newer housing here sits on poured concrete basement walls with footings set below the regional frost line, framed with OSB sheathing and engineered lumber, I-joists and LVL beams. That matters after a lower-level flood, because a wet I-joist web and soaked subfloor adhesive behave nothing like solid dimensional lumber; they need targeted drying, not a fan pointed at the room. Supply lines in those homes are usually CPVC or PEX.
 
 Bakerstown's older houses bring block or stone foundations, plaster and lath, and pre-1978 paint layers, so demolition planning has to account for lead and possible asbestos in old floor tile or pipe wrap.
 
-Permits come from the township, not a city hall — Richland, Pine, Hampton, or West Deer, depending on your side of the line — under Pennsylvania's Uniform Construction Code. Structural framing repair and rewiring generally trigger one.
+Permits come from the township, not a city hall, Richland, Pine, Hampton, or West Deer, depending on your side of the line, under Pennsylvania's Uniform Construction Code. Structural framing repair and rewiring generally trigger one.
 
 If you're dealing with water, fire, smoke, or mold damage anywhere in the Gibsonia area, call FireDEX Butler at **(724) 452-7400**. We're available around the clock, and we'll tell you exactly what to expect before we arrive.

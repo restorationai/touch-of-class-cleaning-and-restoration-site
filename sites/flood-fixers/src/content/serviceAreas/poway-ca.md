@@ -19,17 +19,17 @@ state: "CA"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall in the middle of the night or a washing machine hose fails while you're at work, Flood Fixers sends a trained crew to your Poway address — not a call center, not a subcontractor. We handle water damage extraction, structural drying, mold remediation, fire and smoke cleanup, and full reconstruction for homeowners and property managers throughout Poway, and we coordinate directly with your insurance carrier so you're not managing two conversations at once.
+When a pipe bursts behind a wall in the middle of the night or a washing machine hose fails while you're at work, Flood Fixers sends a trained crew to your Poway address, not a call center, not a subcontractor. We handle water damage extraction, structural drying, mold remediation, fire and smoke cleanup, and full reconstruction for homeowners and property managers throughout Poway, and we coordinate directly with your insurance carrier so you're not managing two conversations at once.
 
 ## Restoration emergencies common in Poway
 
-Poway sits at roughly 1,000 feet of elevation in a semi-arid inland valley, which creates a specific set of conditions that drive restoration calls year after year. The dry Santa Ana wind cycles that sweep through in fall and winter drop indoor humidity fast — then the rainy season arrives and moisture has nowhere to go in homes that weren't built with aggressive vapor management in mind. Much of Poway's housing stock dates from the 1970s through the early 1990s, when tract construction used galvanized steel supply lines and ABS drain piping that are now at or past their expected service life. When those lines fail — and they do, often inside slab foundations or behind tile — water can travel under flooring for days before a homeowner notices the soft spot underfoot or the faint sulfur smell rising from a wet subfloor. Poway also sits in a high-fire-risk zone; the Cedar Fire of 2003 left a lasting mark on the community's awareness of smoke and ash damage, and every dry season brings the same risk back. HOA-governed communities in the area add a layer of coordination: remediation work often requires written approval before exterior drywall or roofing is touched, which is something the Flood Fixers team navigates routinely.
+Poway sits at roughly 1,000 feet of elevation in a semi-arid inland valley, which creates a specific set of conditions that drive restoration calls year after year. The dry Santa Ana wind cycles that sweep through in fall and winter drop indoor humidity fast, then the rainy season arrives and moisture has nowhere to go in homes that weren't built with aggressive vapor management in mind. Much of Poway's housing stock dates from the 1970s through the early 1990s, when tract construction used galvanized steel supply lines and ABS drain piping that are now at or past their expected service life. When those lines fail, and they do, often inside slab foundations or behind tile, water can travel under flooring for days before a homeowner notices the soft spot underfoot or the faint sulfur smell rising from a wet subfloor. Poway also sits in a high-fire-risk zone; the Cedar Fire of 2003 left a lasting mark on the community's awareness of smoke and ash damage, and every dry season brings the same risk back. HOA-governed communities in the area add a layer of coordination: remediation work often requires written approval before exterior drywall or roofing is touched, which is something the Flood Fixers team navigates routinely.
 
 ## Services we provide in Poway
 
 ### Water damage restoration
 
-Water damage in Poway frequently starts below the surface — slab leaks under older ranch-style homes, failed irrigation lines that saturate crawl spaces, or roof flashing that lets the first hard rain of the season into an attic. Our IICRC-certified technicians use thermal imaging cameras and moisture meters to map the full extent of saturation before a single fan is placed, so drying targets are based on data rather than guesswork.
+Water damage in Poway frequently starts below the surface, slab leaks under older ranch-style homes, failed irrigation lines that saturate crawl spaces, or roof flashing that lets the first hard rain of the season into an attic. Our IICRC-certified technicians use thermal imaging cameras and moisture meters to map the full extent of saturation before a single fan is placed, so drying targets are based on data rather than guesswork.
 
 ### Mold remediation
 
@@ -37,7 +37,7 @@ Mold can begin colonizing a wet surface within 24 to 48 hours. In Poway's inland
 
 ### Fire and smoke damage restoration
 
-Smoke residue from a kitchen fire or a wildfire ember event doesn't stay in the room where the damage happened — it migrates through HVAC systems and settles into insulation, drywall, and soft furnishings throughout the structure. Our fire restoration process includes odor neutralization, content cleaning, and structural assessment, with reconstruction handled in-house so you're not managing a separate contractor.
+Smoke residue from a kitchen fire or a wildfire ember event doesn't stay in the room where the damage happened, it migrates through HVAC systems and settles into insulation, drywall, and soft furnishings throughout the structure. Our fire restoration process includes odor neutralization, content cleaning, and structural assessment, with reconstruction handled in-house so you're not managing a separate contractor.
 
 ### Biohazard and specialty cleanup
 
@@ -45,7 +45,7 @@ Sewage backups, trauma scenes, and hoarding situations require licensed handling
 
 ## Response time and coverage
 
-Flood Fixers operates out of San Diego, and Poway sits approximately 25 miles northeast via I-15. Under normal traffic conditions, that's a 30-to-35-minute drive — meaning most Poway calls see a technician on-site within 45 to 60 minutes of the initial call. We serve the full city, including properties near Old Poway Park, neighborhoods along Poway Road, and homes in the hillside areas closer to Blue Sky Ecological Reserve. If you're calling from a more rural parcel on the eastern edge of the 92064 ZIP code, add roughly 10 minutes. We're available 24 hours a day, every day of the year — because water damage at 2 a.m. on a holiday weekend is exactly when a fast response matters most.
+Flood Fixers operates out of San Diego, and Poway sits approximately 25 miles northeast via I-15. Under normal traffic conditions, that's a 30-to-35-minute drive, meaning most Poway calls see a technician on-site within 45 to 60 minutes of the initial call. We serve the full city, including properties near Old Poway Park, neighborhoods along Poway Road, and homes in the hillside areas closer to Blue Sky Ecological Reserve. If you're calling from a more rural parcel on the eastern edge of the 92064 ZIP code, add roughly 10 minutes. We're available 24 hours a day, every day of the year, because water damage at 2 a.m. on a holiday weekend is exactly when a fast response matters most.
 
 ## Building stock, site conditions, and permits in Poway
 

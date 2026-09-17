@@ -20,23 +20,23 @@ state: "MS"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
-Hurley sits in the piney woods of Jackson County where the soil shifts between sandy loam and dense clay — and when a water line bursts or a storm pushes water under a crawl space door, that clay holds moisture against your foundation like a sponge. Homes here see standing water linger longer than coastal properties do, and the humid Gulf air that rolls inland through the county keeps relative humidity elevated even on dry days, slowing evaporation and giving mold a shorter window to take hold than most homeowners expect. HomeLyft Restoration MS responds to water damage calls across Hurley and the surrounding Jackson County communities, bringing IICRC-certified water damage and structural drying technicians to your door.
+Hurley sits in the piney woods of Jackson County where the soil shifts between sandy loam and dense clay, and when a water line bursts or a storm pushes water under a crawl space door, that clay holds moisture against your foundation like a sponge. Homes here see standing water linger longer than coastal properties do, and the humid Gulf air that rolls inland through the county keeps relative humidity elevated even on dry days, slowing evaporation and giving mold a shorter window to take hold than most homeowners expect. HomeLyft Restoration MS responds to water damage calls across Hurley and the surrounding Jackson County communities, bringing IICRC-certified water damage and structural drying technicians to your door.
 
 ## Why Hurley Properties Are Vulnerable to Water Damage
 
-Jackson County's mix of rainfall patterns and soil composition creates conditions that amplify water intrusion events. Hurley's inland position means the area absorbs prolonged rain events differently than beachfront communities — water doesn't sheet off quickly. Instead, it saturates the ground, backs up against pier-and-beam foundations, and seeps through crawl space vents that were never designed for sustained saturation.
+Jackson County's mix of rainfall patterns and soil composition creates conditions that amplify water intrusion events. Hurley's inland position means the area absorbs prolonged rain events differently than beachfront communities, water doesn't sheet off quickly. Instead, it saturates the ground, backs up against pier-and-beam foundations, and seeps through crawl space vents that were never designed for sustained saturation.
 
-A large share of the housing stock in this part of Jackson County was built in the 1960s through 1980s, when vapor barriers under crawl spaces were thin or absent entirely. That means a single plumbing failure — a corroded galvanized supply line, a failed washing machine hose — can push moisture into subfloor sheathing and floor joists within hours. Once the wood is wet, the clock starts. Mold colonization in this climate can begin in as little as 24 to 48 hours if drying doesn't start promptly.
+A large share of the housing stock in this part of Jackson County was built in the 1960s through 1980s, when vapor barriers under crawl spaces were thin or absent entirely. That means a single plumbing failure, a corroded galvanized supply line, a failed washing machine hose, can push moisture into subfloor sheathing and floor joists within hours. Once the wood is wet, the clock starts. Mold colonization in this climate can begin in as little as 24 to 48 hours if drying doesn't start promptly.
 
 Heavy thunderstorm seasons also push water through older HVAC ductwork that runs through unconditioned crawl spaces, spreading contaminated moisture to rooms that show no visible flooding at all.
 
 ## Our Water Damage Restoration Process in Hurley
 
-Every job starts with a thorough moisture assessment — not just the room that looks wet, but the adjacent walls, subfloor cavities, and crawl space beneath. We use thermal imaging cameras and calibrated moisture meters to map hidden saturation before a single piece of equipment is placed.
+Every job starts with a thorough moisture assessment, not just the room that looks wet, but the adjacent walls, subfloor cavities, and crawl space beneath. We use thermal imaging cameras and calibrated moisture meters to map hidden saturation before a single piece of equipment is placed.
 
 **Extraction first.** Truck-mounted and portable extraction units pull standing water from hard floors, carpet, and subfloor gaps. In Hurley's older homes with tongue-and-groove hardwood or vinyl over plywood, we work carefully to remove water before it wicks further into the wood grain.
 
-**Structural drying, calibrated to local conditions.** Because ambient humidity in Jackson County rarely drops low enough for passive drying to work, we deploy commercial-grade desiccant or refrigerant dehumidifiers alongside high-velocity air movers. Drying targets are set per the IICRC S500 standard, and we re-read moisture levels on every visit — typically daily — until the structure reaches documented dry standard.
+**Structural drying, calibrated to local conditions.** Because ambient humidity in Jackson County rarely drops low enough for passive drying to work, we deploy commercial-grade desiccant or refrigerant dehumidifiers alongside high-velocity air movers. Drying targets are set per the IICRC S500 standard, and we re-read moisture levels on every visit, typically daily, until the structure reaches documented dry standard.
 
 **Antimicrobial treatment.** Given the short mold window in this climate, affected surfaces receive EPA-registered antimicrobial application after extraction and before enclosure.
 
@@ -44,18 +44,18 @@ Every job starts with a thorough moisture assessment — not just the room that 
 
 ## Reaching Hurley from Our Gulfport Base
 
-HomeLyft Restoration MS operates out of Gulfport, and Hurley is reachable via US-49 North through the heart of Jackson County. Call us at **+1 (228) 284-5200** to schedule service. Our team will confirm an arrival window and walk you through the steps to take before we arrive — including shutting off the water supply if the source is an active leak and avoiding the use of household fans, which can spread airborne contaminants in a sewage backup situation.
+HomeLyft Restoration MS operates out of Gulfport, and Hurley is reachable via US-49 North through the heart of Jackson County. Call us at **+1 (228) 284-5200** to schedule service. Our team will confirm an arrival window and walk you through the steps to take before we arrive, including shutting off the water supply if the source is an active leak and avoiding the use of household fans, which can spread airborne contaminants in a sewage backup situation.
 
 We coordinate directly with your insurance adjuster once on-site, providing the moisture mapping data and scope documentation that carriers require to process structural drying claims.
 
 ## Hurley Insurance Coordination
 
-Most standard homeowner policies in Mississippi cover sudden and accidental water discharge — a burst pipe, an appliance failure, an overflow — but exclude long-term seepage or flood events (which require separate NFIP flood coverage). The distinction matters in Hurley, where a single heavy rain can produce both a sump failure *and* surface flooding, and the two causes of loss are handled differently by adjusters.
+Most standard homeowner policies in Mississippi cover sudden and accidental water discharge, a burst pipe, an appliance failure, an overflow, but exclude long-term seepage or flood events (which require separate NFIP flood coverage). The distinction matters in Hurley, where a single heavy rain can produce both a sump failure *and* surface flooding, and the two causes of loss are handled differently by adjusters.
 
 We photograph and document the source of loss, the affected materials, and the moisture readings at intake. That documentation package is what moves a claim forward efficiently. We bill most major carriers directly and can communicate with your adjuster throughout the drying process so you're not playing telephone between your insurer and your contractor.
 
 ## Local Note
 
-In the older pier-and-beam homes common to the Hurley area, crawl space access hatches are sometimes located inside closets or utility rooms — not on the exterior. When we arrive for a water damage call, we ask about access points before we unload equipment, because discovering a blocked interior hatch after setup wastes time you don't have when subfloor joists are sitting in water. If your home has a crawl space and you're not sure where the access is, check your original home inspection report or look along interior hallway walls near the center of the house — that's where builders in this region most commonly placed them.
+In the older pier-and-beam homes common to the Hurley area, crawl space access hatches are sometimes located inside closets or utility rooms, not on the exterior. When we arrive for a water damage call, we ask about access points before we unload equipment, because discovering a blocked interior hatch after setup wastes time you don't have when subfloor joists are sitting in water. If your home has a crawl space and you're not sure where the access is, check your original home inspection report or look along interior hallway walls near the center of the house, that's where builders in this region most commonly placed them.
 
-If you're dealing with water in your home in Hurley or anywhere in Jackson County, call HomeLyft Restoration MS at **+1 (228) 284-5200**. The faster extraction and drying begin, the smaller the scope of repairs — and the stronger your insurance documentation will be from day one.
+If you're dealing with water in your home in Hurley or anywhere in Jackson County, call HomeLyft Restoration MS at **+1 (228) 284-5200**. The faster extraction and drying begin, the smaller the scope of repairs, and the stronger your insurance documentation will be from day one.

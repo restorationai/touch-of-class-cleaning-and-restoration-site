@@ -20,25 +20,25 @@ state: "UT"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
-Lehi's rapid growth along the Silicon Slopes corridor has brought tens of thousands of new residents into neighborhoods where kitchen fires, garage fires, and—increasingly—smoke intrusion from Utah County wildfires are a real and recurring threat. When smoke moves through a home, it doesn't stop at the room where the fire started: it migrates into HVAC ductwork, settles into insulation, and bonds with drywall in ways that leave an acrid odor for months if the cleanup isn't done right. Home Pride Restoration and Cleaning has been handling smoke damage restoration in this part of Utah since 1997, and the team knows exactly what Lehi's housing stock and climate demand.
+Lehi's rapid growth along the Silicon Slopes corridor has brought tens of thousands of new residents into neighborhoods where kitchen fires, garage fires, and, increasingly, smoke intrusion from Utah County wildfires are a real and recurring threat. When smoke moves through a home, it doesn't stop at the room where the fire started: it migrates into HVAC ductwork, settles into insulation, and bonds with drywall in ways that leave an acrid odor for months if the cleanup isn't done right. Home Pride Restoration and Cleaning has been handling smoke damage restoration in this part of Utah since 1997, and the team knows exactly what Lehi's housing stock and climate demand.
 
 ## Why Lehi Properties Face Distinct Smoke Damage Challenges
 
-Lehi sits at roughly 4,500 feet elevation on the east bench of Utah Lake, and that altitude matters more than most homeowners realize. The dry, high-desert air—average relative humidity often dips below 20% in summer—means smoke particles and soot dry and bond to surfaces faster than they would in a more humid climate. What might wipe clean in 48 hours in a coastal city can become chemically fixed to painted drywall or cabinetite in Lehi within 24 hours if left untreated.
+Lehi sits at roughly 4,500 feet elevation on the east bench of Utah Lake, and that altitude matters more than most homeowners realize. The dry, high-desert air, average relative humidity often dips below 20% in summer, means smoke particles and soot dry and bond to surfaces faster than they would in a more humid climate. What might wipe clean in 48 hours in a coastal city can become chemically fixed to painted drywall or cabinetite in Lehi within 24 hours if left untreated.
 
-The city's newer master-planned developments—think the large subdivisions that have gone up along Traverse Ridge Road and near Thanksgiving Point—are built with open floor plans and shared HVAC systems that pull smoke through the entire structure quickly. A small stovetop fire in the kitchen can deposit a measurable layer of smoke residue in bedrooms on the opposite end of the house within minutes. Older ranch-style homes closer to Main Street tend to have compartmentalized layouts that contain smoke somewhat better, but their original ductwork and attic insulation absorb odor compounds deeply.
+The city's newer master-planned developments, think the large subdivisions that have gone up along Traverse Ridge Road and near Thanksgiving Point, are built with open floor plans and shared HVAC systems that pull smoke through the entire structure quickly. A small stovetop fire in the kitchen can deposit a measurable layer of smoke residue in bedrooms on the opposite end of the house within minutes. Older ranch-style homes closer to Main Street tend to have compartmentalized layouts that contain smoke somewhat better, but their original ductwork and attic insulation absorb odor compounds deeply.
 
-Wildfire smoke is also a growing concern. During the dry months of July through September, smoke from fires burning in the Wasatch Range or across the broader Intermountain West can infiltrate homes through gaps in window seals and HVAC fresh-air intakes—leaving a subtle but persistent smell that many homeowners mistake for a structural problem.
+Wildfire smoke is also a growing concern. During the dry months of July through September, smoke from fires burning in the Wasatch Range or across the broader Intermountain West can infiltrate homes through gaps in window seals and HVAC fresh-air intakes, leaving a subtle but persistent smell that many homeowners mistake for a structural problem.
 
 ## Our Smoke Damage Restoration Process in Lehi
 
-Every job starts with a structured assessment—not a quick walk-through. Technicians use thermal imaging and air sampling to map exactly where smoke particles have traveled, including inside wall cavities and ductwork. That data drives the scope of work rather than guesswork.
+Every job starts with a structured assessment, not a quick walk-through. Technicians use thermal imaging and air sampling to map exactly where smoke particles have traveled, including inside wall cavities and ductwork. That data drives the scope of work rather than guesswork.
 
 From there, the process moves through four concrete phases:
 
 **1. Containment and ventilation.** Industrial air scrubbers with HEPA filtration are staged to create negative pressure, pulling contaminated air out of the structure while preventing cross-contamination to unaffected rooms.
 
-**2. Dry soot removal.** Before any wet cleaning begins, dry chemical sponges and HEPA-vacuum equipment lift loose soot from walls, ceilings, and contents. Skipping this step—or doing it in the wrong order—smears soot deeper into porous surfaces.
+**2. Dry soot removal.** Before any wet cleaning begins, dry chemical sponges and HEPA-vacuum equipment lift loose soot from walls, ceilings, and contents. Skipping this step, or doing it in the wrong order, smears soot deeper into porous surfaces.
 
 **3. Chemical cleaning and deodorization.** Affected surfaces are treated with hydroxyl generators and thermal fogging equipment that neutralize odor molecules at the molecular level rather than masking them. In Lehi's low-humidity environment, fogging agents penetrate and dissipate more quickly, which actually speeds this phase compared to humid-climate jobs.
 
@@ -54,7 +54,7 @@ For smoke damage, speed matters: the longer soot sits on painted walls and fabri
 
 ## Local Note: Lehi's Stucco Exteriors and Hidden Smoke Infiltration
 
-A large share of Lehi's homes built between 2005 and 2018 use synthetic stucco (EIFS) or traditional three-coat stucco exteriors. During a structure fire or a neighboring-property fire, smoke can infiltrate the small gaps where stucco meets window frames and soffit vents, depositing residue inside exterior wall assemblies that standard interior cleaning won't reach. Technicians working in these neighborhoods probe exterior wall cavities with borescope cameras before closing out a job—a step that's easy to skip but that prevents odor callbacks weeks later when a homeowner turns on the heat for the first time after restoration.
+A large share of Lehi's homes built between 2005 and 2018 use synthetic stucco (EIFS) or traditional three-coat stucco exteriors. During a structure fire or a neighboring-property fire, smoke can infiltrate the small gaps where stucco meets window frames and soffit vents, depositing residue inside exterior wall assemblies that standard interior cleaning won't reach. Technicians working in these neighborhoods probe exterior wall cavities with borescope cameras before closing out a job, a step that's easy to skip but that prevents odor callbacks weeks later when a homeowner turns on the heat for the first time after restoration.
 
 If you've had a fire in or near your Lehi home and you're still catching a faint smoke smell after another company said the job was done, that exterior wall cavity is often the culprit.
 

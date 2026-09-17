@@ -20,17 +20,17 @@ rendered: true
 ---
 ## The clock starts the moment flames are out
 
-Smoke doesn't stop moving when the fire does. Within hours of extinguishment, acidic soot begins etching chrome fixtures, yellowing painted walls, and embedding itself into porous materials — drywall, wood framing, upholstery, clothing. Within 72 hours, what was cleanable becomes permanently stained. The fire is over; the damage is still happening. That's the problem fire and smoke restoration exists to solve, and it's why the speed and sequence of the response matters as much as the equipment brought to the job.
+Smoke doesn't stop moving when the fire does. Within hours of extinguishment, acidic soot begins etching chrome fixtures, yellowing painted walls, and embedding itself into porous materials, drywall, wood framing, upholstery, clothing. Within 72 hours, what was cleanable becomes permanently stained. The fire is over; the damage is still happening. That's the problem fire and smoke restoration exists to solve, and it's why the speed and sequence of the response matters as much as the equipment brought to the job.
 
 ## What fire damage restoration actually involves
 
-Fire cleanup is not a matter of wiping soot off surfaces and airing out a house. The work divides into three overlapping disciplines: structural assessment, smoke and soot remediation, and odor elimination — each requiring different chemistry, different equipment, and a different eye.
+Fire cleanup is not a matter of wiping soot off surfaces and airing out a house. The work divides into three overlapping disciplines: structural assessment, smoke and soot remediation, and odor elimination, each requiring different chemistry, different equipment, and a different eye.
 
-**Structural fire damage** ranges from charred framing that needs replacement to heat-compromised materials that look intact but have lost structural integrity. Before any cleaning begins, the building has to be safe to work in — utilities confirmed off or isolated, load-bearing elements evaluated, and any collapse risk documented.
+**Structural fire damage** ranges from charred framing that needs replacement to heat-compromised materials that look intact but have lost structural integrity. Before any cleaning begins, the building has to be safe to work in, utilities confirmed off or isolated, load-bearing elements evaluated, and any collapse risk documented.
 
-**Soot remediation** depends entirely on what burned. A kitchen grease fire produces a wet, protein-based smoke that films onto surfaces and smells nothing like the acrid, dry soot from burning synthetic materials — plastics, insulation, upholstery foam. Protein soot is nearly invisible and extraordinarily difficult to remove; synthetic soot is thick, oily, and spreads aggressively through HVAC systems. Matching the cleaning chemistry to the soot type is one of the most consequential decisions in post-fire restoration.
+**Soot remediation** depends entirely on what burned. A kitchen grease fire produces a wet, protein-based smoke that films onto surfaces and smells nothing like the acrid, dry soot from burning synthetic materials, plastics, insulation, upholstery foam. Protein soot is nearly invisible and extraordinarily difficult to remove; synthetic soot is thick, oily, and spreads aggressively through HVAC systems. Matching the cleaning chemistry to the soot type is one of the most consequential decisions in post-fire restoration.
 
-**Odor elimination** is the final and often most underestimated phase. Thermal fogging and ozone treatment penetrate the same microscopic spaces that smoke reached — inside wall cavities, subflooring, ductwork — neutralizing odor molecules rather than masking them. Hydroxyl generators are used in occupied or sensitive environments where ozone isn't safe to deploy.
+**Odor elimination** is the final and often most underestimated phase. Thermal fogging and ozone treatment penetrate the same microscopic spaces that smoke reached, inside wall cavities, subflooring, ductwork, neutralizing odor molecules rather than masking them. Hydroxyl generators are used in occupied or sensitive environments where ozone isn't safe to deploy.
 
 A full residential fire damage repair engagement typically runs 5–14 days for cleaning and odor work alone, before any reconstruction begins.
 
@@ -40,29 +40,29 @@ A full residential fire damage repair engagement typically runs 5–14 days for 
 Before a single sponge touches a wall, the structure is evaluated for safety. We document pre-existing conditions, identify which materials are salvageable, and establish containment zones to prevent cross-contamination of unaffected areas. Board-up and tarping happen here if the structure is open to weather.
 
 **2. Soot characterization**
-Not all soot is the same. We identify whether residues are dry/powdery (wood or paper combustion), wet/oily (synthetic materials), or protein-based (cooking fires) — because each type requires a different cleaning agent and technique. Dry soot responds to dry chemical sponges and HEPA vacuuming before any wet cleaning; wet synthetic soot requires solvent-based degreasers. Using the wrong chemistry drives soot deeper into the substrate.
+Not all soot is the same. We identify whether residues are dry/powdery (wood or paper combustion), wet/oily (synthetic materials), or protein-based (cooking fires), because each type requires a different cleaning agent and technique. Dry soot responds to dry chemical sponges and HEPA vacuuming before any wet cleaning; wet synthetic soot requires solvent-based degreasers. Using the wrong chemistry drives soot deeper into the substrate.
 
 **3. Contents pack-out and inventory**
-Salvageable contents — furniture, clothing, electronics, documents — are inventoried, packed, and transported to our cleaning facility. This protects them during structural work and allows ultrasonic cleaning, ozone treatment, and deodorization in a controlled environment. Every item is photographed and logged for your insurance claim.
+Salvageable contents, furniture, clothing, electronics, documents, are inventoried, packed, and transported to our cleaning facility. This protects them during structural work and allows ultrasonic cleaning, ozone treatment, and deodorization in a controlled environment. Every item is photographed and logged for your insurance claim.
 
 **4. Structural cleaning and HVAC decontamination**
 Walls, ceilings, and floors are cleaned in a top-down sequence using appropriate chemistry for the soot type present. HVAC systems receive special attention: smoke travels through ductwork and deposits throughout the system, meaning a house can re-contaminate itself every time the air handler runs. Duct cleaning and filter replacement are not optional steps.
 
 **5. Thermal fogging and ozone treatment**
-Once surfaces are clean, odor neutralization begins. Thermal fogging disperses a deodorizing agent as a fine mist that follows the same pathways smoke used — into wall voids, subflooring gaps, and porous materials. Ozone treatment follows in unoccupied spaces, breaking down odor molecules at the molecular level. The combination addresses odor at the source rather than covering it.
+Once surfaces are clean, odor neutralization begins. Thermal fogging disperses a deodorizing agent as a fine mist that follows the same pathways smoke used, into wall voids, subflooring gaps, and porous materials. Ozone treatment follows in unoccupied spaces, breaking down odor molecules at the molecular level. The combination addresses odor at the source rather than covering it.
 
 ## What separates a good fire response from a bad one
 
-The most common failure in fire damage repair is treating all soot the same. Crews that apply wet cleaning to dry soot, or use alkaline cleaners on protein residue, permanently set the stain they're trying to remove. A second common failure is skipping or rushing the HVAC decontamination — homeowners who move back in report the smell returning within weeks because the air handler is redistributing residue every time it cycles.
+The most common failure in fire damage repair is treating all soot the same. Crews that apply wet cleaning to dry soot, or use alkaline cleaners on protein residue, permanently set the stain they're trying to remove. A second common failure is skipping or rushing the HVAC decontamination, homeowners who move back in report the smell returning within weeks because the air handler is redistributing residue every time it cycles.
 
 Insurance adjusters look for a few specific things: a documented scope that distinguishes between salvageable and non-salvageable materials, photographic evidence of pre-cleaning conditions, a contents inventory with replacement values, and a clear line between cleaning costs and reconstruction costs. Adjusters are experienced at identifying scopes that lump everything together to obscure what was actually done. A detailed, itemized restoration report protects your claim.
 
-IICRC-certified technicians are trained in the S700 Standard for Professional Fire and Smoke Damage Restoration — the industry benchmark that defines proper soot characterization, cleaning sequences, and documentation requirements. Home Pride Restoration and Cleaning holds IICRC certification and operates under Utah contractor license #RC-25-0737.
+IICRC-certified technicians are trained in the S700 Standard for Professional Fire and Smoke Damage Restoration, the industry benchmark that defines proper soot characterization, cleaning sequences, and documentation requirements. Home Pride Restoration and Cleaning holds IICRC certification and operates under Utah contractor license #RC-25-0737.
 
 ## Seasonal and regional considerations
 
-Utah's dry climate and high-altitude winters create specific fire risk patterns. Wildfire smoke events — increasingly common along the Wasatch Front — deposit fine particulate matter throughout homes even when no interior fire occurs, requiring the same soot and odor protocols as a structural fire. During winter months, heating equipment fires (furnaces, wood stoves, space heaters) spike, and cold temperatures slow the off-gassing process, meaning odors that seem manageable in December can intensify when the house warms in spring. Fire damage that sits through a Utah winter without proper treatment is harder and more expensive to remediate in the thaw.
+Utah's dry climate and high-altitude winters create specific fire risk patterns. Wildfire smoke events, increasingly common along the Wasatch Front, deposit fine particulate matter throughout homes even when no interior fire occurs, requiring the same soot and odor protocols as a structural fire. During winter months, heating equipment fires (furnaces, wood stoves, space heaters) spike, and cold temperatures slow the off-gassing process, meaning odors that seem manageable in December can intensify when the house warms in spring. Fire damage that sits through a Utah winter without proper treatment is harder and more expensive to remediate in the thaw.
 
 ## Service area
 
-Home Pride Restoration and Cleaning is based in Saratoga Springs and serves communities throughout Utah County and the greater Wasatch Front — including Eagle Mountain, Lehi, American Fork, Pleasant Grove, Orem, and surrounding areas. City-specific fire damage restoration pages link back here for full process detail.
+Home Pride Restoration and Cleaning is based in Saratoga Springs and serves communities throughout Utah County and the greater Wasatch Front, including Eagle Mountain, Lehi, American Fork, Pleasant Grove, Orem, and surrounding areas. City-specific fire damage restoration pages link back here for full process detail.

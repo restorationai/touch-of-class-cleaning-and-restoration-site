@@ -20,13 +20,13 @@ state: "PA"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
-When a sump pump fails during a February cold snap or a supply line lets go behind the wet bar in a finished walk-out basement, the clock starts immediately. In Wexford's 15090 ZIP code — where the typical home is a 1990s-to-2010s two-story built for a family that invested heavily in lower-level finishes — that clock is expensive. FireDEX Butler has been responding to residential flood losses across the North Hills since 1981, and we're available around the clock to stop the damage before it compounds.
+When a sump pump fails during a February cold snap or a supply line lets go behind the wet bar in a finished walk-out basement, the clock starts immediately. In Wexford's 15090 ZIP code, where the typical home is a 1990s-to-2010s two-story built for a family that invested heavily in lower-level finishes, that clock is expensive. FireDEX Butler has been responding to residential flood losses across the North Hills since 1981, and we're available around the clock to stop the damage before it compounds.
 
 ## Why Wexford Properties See Flood Damage Differently
 
 The housing stock here isn't the same as older Pittsburgh neighborhoods closer to the rivers. Homes in Pine Township and along the Franklin Park borders were built during a decades-long construction boom that produced large footprints, complex plumbing runs, and finished lower levels that rival the main floor in material value. A single water-heater failure can saturate engineered hardwood, custom cabinetry, home-theater drywall, and insulation in a matter of hours.
 
-Wooded lots on well water add another failure point: pressure tanks and well lines can rupture under hard freeze conditions, pushing water into crawl spaces and utility rooms with no municipal shutoff nearby. Bonus rooms built over garages — common throughout English Farms and the Village of Pine — are particularly vulnerable to frozen pipes because those spaces sit above unheated air and are often the last rooms a homeowner thinks to monitor during a cold stretch. The combination of high-value finishes, complex plumbing, and cold-weather exposure means flood losses here tend to be larger and more documentation-intensive than average.
+Wooded lots on well water add another failure point: pressure tanks and well lines can rupture under hard freeze conditions, pushing water into crawl spaces and utility rooms with no municipal shutoff nearby. Bonus rooms built over garages, common throughout English Farms and the Village of Pine, are particularly vulnerable to frozen pipes because those spaces sit above unheated air and are often the last rooms a homeowner thinks to monitor during a cold stretch. The combination of high-value finishes, complex plumbing, and cold-weather exposure means flood losses here tend to be larger and more documentation-intensive than average.
 
 ## Our Flood Damage Restoration Process in Wexford
 
@@ -34,24 +34,24 @@ When you call (724) 452-7400, the first priority is stopping the source and prot
 
 **Extraction and containment.** Truck-mounted extractors pull standing water from hard floors, carpet, and subfloor assemblies. In finished basements, we work carefully around built-in cabinetry and entertainment systems, documenting condition before moving anything.
 
-**Structural drying.** Commercial-grade desiccant dehumidifiers and high-velocity air movers are positioned to dry wall cavities, subfloors, and framing. In homes with spray-foam insulation — increasingly common in newer Wexford construction — drying timelines can run longer because foam traps moisture against framing rather than allowing it to evaporate freely. We monitor moisture readings daily and adjust equipment placement accordingly.
+**Structural drying.** Commercial-grade desiccant dehumidifiers and high-velocity air movers are positioned to dry wall cavities, subfloors, and framing. In homes with spray-foam insulation, increasingly common in newer Wexford construction, drying timelines can run longer because foam traps moisture against framing rather than allowing it to evaporate freely. We monitor moisture readings daily and adjust equipment placement accordingly.
 
-**Material assessment and documentation.** Every affected surface is photographed, measured, and logged. For insurance-carrying homeowners in this market, that documentation package is what drives a fair settlement — we build it from day one, not as an afterthought.
+**Material assessment and documentation.** Every affected surface is photographed, measured, and logged. For insurance-carrying homeowners in this market, that documentation package is what drives a fair settlement, we build it from day one, not as an afterthought.
 
 **Controlled demolition and rebuild coordination.** When drywall, flooring, or cabinetry must come out, we remove only what's necessary and document the original finishes so your contractor or our rebuild team can match them. Wexford homeowners consistently expect finish-matching, not just functional replacement.
 
 ## Reaching Wexford from Cranberry Township
 
-FireDEX Butler is based in Cranberry Township, which puts us a short drive up I-79 from the Route 910 interchange — the same exit most Wexford residents use daily. Whether the loss is in a neighborhood closer to Pine Community Park or further out toward the Treesdale fringe, we can mobilize equipment and a crew at any hour. Because we operate 24/7, a 2 a.m. sump failure gets the same response as a midday call.
+FireDEX Butler is based in Cranberry Township, which puts us a short drive up I-79 from the Route 910 interchange, the same exit most Wexford residents use daily. Whether the loss is in a neighborhood closer to Pine Community Park or further out toward the Treesdale fringe, we can mobilize equipment and a crew at any hour. Because we operate 24/7, a 2 a.m. sump failure gets the same response as a midday call.
 
 ## Wexford Insurance Coordination
 
 Homeowners in this market typically carry strong policies, and they expect the claim process to move as efficiently as the mitigation does. We photograph and measure every affected area before extraction begins, produce a scope of loss that aligns with industry estimating standards, and communicate directly with adjusters to reduce back-and-forth delays. If your carrier requires a second inspection or a supplemental estimate, we're accustomed to that process and can provide the supporting documentation quickly.
 
-We're registered as a Home Improvement Contractor in Pennsylvania (license #PA001913), which matters when the scope of work crosses from mitigation into structural repair — some carriers require that documentation before approving rebuild costs.
+We're registered as a Home Improvement Contractor in Pennsylvania (license #PA001913), which matters when the scope of work crosses from mitigation into structural repair, some carriers require that documentation before approving rebuild costs.
 
 ## Local Note
 
-In Wexford's newer construction, finished basements are frequently built with LVP (luxury vinyl plank) flooring glued directly to a concrete slab. When water gets under that flooring, it has nowhere to go — the vinyl acts as a vapor barrier trapping moisture against the concrete and the bottom plate of any framed walls. Homeowners sometimes assume the floor looks fine because the surface dried quickly, but the framing behind the drywall can stay wet for weeks without intervention. We see this pattern regularly in homes near Soergel Orchards Road and throughout English Farms, and we always check behind the baseboard before calling a lower level dry.
+In Wexford's newer construction, finished basements are frequently built with LVP (luxury vinyl plank) flooring glued directly to a concrete slab. When water gets under that flooring, it has nowhere to go, the vinyl acts as a vapor barrier trapping moisture against the concrete and the bottom plate of any framed walls. Homeowners sometimes assume the floor looks fine because the surface dried quickly, but the framing behind the drywall can stay wet for weeks without intervention. We see this pattern regularly in homes near Soergel Orchards Road and throughout English Farms, and we always check behind the baseboard before calling a lower level dry.
 
-If your Wexford home has taken on water — whether from a burst pipe, a failed sump, a well-line rupture, or storm intrusion — call FireDEX Butler at (724) 452-7400. We'll be there, we'll document everything, and we'll dry it right the first time.
+If your Wexford home has taken on water, whether from a burst pipe, a failed sump, a well-line rupture, or storm intrusion, call FireDEX Butler at (724) 452-7400. We'll be there, we'll document everything, and we'll dry it right the first time.

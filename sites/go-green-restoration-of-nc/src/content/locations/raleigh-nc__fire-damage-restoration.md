@@ -20,42 +20,42 @@ state: "NC"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-When a kitchen fire spreads into the walls of a 1940s bungalow in Five Points, or a garage fire chars the framing of a newer build near Brier Creek, the hours immediately after the flames are out often determine how much of the structure can be saved. Smoke and soot don't stop moving when the fire department leaves — they migrate into HVAC systems, settle into porous materials, and begin permanently bonding to surfaces within the first 24 to 72 hours. Calling for professional restoration before that window closes is the single most consequential decision a Raleigh property owner can make.
+When a kitchen fire spreads into the walls of a 1940s bungalow in Five Points, or a garage fire chars the framing of a newer build near Brier Creek, the hours immediately after the flames are out often determine how much of the structure can be saved. Smoke and soot don't stop moving when the fire department leaves, they migrate into HVAC systems, settle into porous materials, and begin permanently bonding to surfaces within the first 24 to 72 hours. Calling for professional restoration before that window closes is the single most consequential decision a Raleigh property owner can make.
 
 ## Why Raleigh Properties Face Distinct Fire Damage Challenges
 
-Raleigh's building stock spans nearly a century of construction styles, and that variety shapes how fire damage behaves. Older homes in Historic Oakwood and Five Points were built with balloon-frame construction — a technique where wall cavities run continuously from the basement to the attic with no fire blocking between floors. When fire enters those cavities, it travels vertically and laterally far faster than in modern platform-framed homes. Smoke follows the same path, which means soot contamination often reaches rooms that appear completely untouched.
+Raleigh's building stock spans nearly a century of construction styles, and that variety shapes how fire damage behaves. Older homes in Historic Oakwood and Five Points were built with balloon-frame construction, a technique where wall cavities run continuously from the basement to the attic with no fire blocking between floors. When fire enters those cavities, it travels vertically and laterally far faster than in modern platform-framed homes. Smoke follows the same path, which means soot contamination often reaches rooms that appear completely untouched.
 
 The Triangle's climate adds another layer. Raleigh summers bring sustained heat and humidity that accelerate the oxidation of smoke residue on metal fixtures, appliances, and structural fasteners. Rust and corrosion that might take weeks to appear in a drier climate can show up within days here. Conversely, the region's mild winters mean homes are often less tightly sealed, which allows odor-carrying particles to disperse through attic spaces and crawl spaces before restoration crews arrive.
 
-Newer construction in areas like Brier Creek — much of it built after 2000 with engineered lumber, OSB sheathing, and synthetic materials — burns and off-gasses differently than older solid-wood framing. Synthetic materials produce a denser, stickier soot that requires chemical sponges and specific cleaning agents rather than simple dry-cleaning methods.
+Newer construction in areas like Brier Creek, much of it built after 2000 with engineered lumber, OSB sheathing, and synthetic materials, burns and off-gasses differently than older solid-wood framing. Synthetic materials produce a denser, stickier soot that requires chemical sponges and specific cleaning agents rather than simple dry-cleaning methods.
 
 ## Our Fire Damage Restoration Process in Raleigh
 
 Every fire loss is different, but the sequence of work follows a disciplined order that prevents secondary damage from compounding the original loss.
 
-The first step is stabilization: boarding windows, tarping the roof if the structure is open to weather, and isolating the HVAC system so contaminated air isn't circulated further. Emergency stabilization also includes a structural safety assessment — crews do not enter areas where ceiling or floor integrity is in question.
+The first step is stabilization: boarding windows, tarping the roof if the structure is open to weather, and isolating the HVAC system so contaminated air isn't circulated further. Emergency stabilization also includes a structural safety assessment, crews do not enter areas where ceiling or floor integrity is in question.
 
 Once the structure is secured, the documentation phase begins. Every affected surface is photographed and catalogued before anything is moved or cleaned. This documentation supports the insurance claim and establishes a clear baseline for the scope of work.
 
-Content pack-out follows for salvageable belongings — furniture, clothing, documents, and electronics that can be cleaned off-site. Soot-affected items left in a fire-damaged space continue absorbing odor even after the structural cleaning is complete.
+Content pack-out follows for salvageable belongings, furniture, clothing, documents, and electronics that can be cleaned off-site. Soot-affected items left in a fire-damaged space continue absorbing odor even after the structural cleaning is complete.
 
-Structural cleaning uses a combination of dry chemical sponges (for loose soot), alkaline cleaners (for protein-based residue from kitchen fires), and HEPA-filtered negative air machines that draw contaminated air out of the work area. Deodorization — thermal fogging or hydroxyl generation — addresses odor molecules embedded in framing and insulation that surface cleaning alone cannot reach.
+Structural cleaning uses a combination of dry chemical sponges (for loose soot), alkaline cleaners (for protein-based residue from kitchen fires), and HEPA-filtered negative air machines that draw contaminated air out of the work area. Deodorization, thermal fogging or hydroxyl generation, addresses odor molecules embedded in framing and insulation that surface cleaning alone cannot reach.
 
 Final reconstruction is scoped after cleaning is complete, so the repair estimate reflects actual confirmed damage rather than an early visual guess.
 
 ## Reaching Raleigh from Middlesex
 
-Go Green Restoration stages response to the Raleigh metro from Middlesex via US-64, which feeds directly into the eastern side of the city. That route provides reliable access to ZIP codes 27601, 27604, and 27610 — the eastern and downtown corridors — without navigating the congestion that builds around the I-440 beltline during peak hours. For properties on the western side of the city, near NC State University or Crabtree Valley Mall, crews route through US-64 to I-440 west. Response is available around the clock, every day.
+Go Green Restoration stages response to the Raleigh metro from Middlesex via US-64, which feeds directly into the eastern side of the city. That route provides reliable access to ZIP codes 27601, 27604, and 27610, the eastern and downtown corridors, without navigating the congestion that builds around the I-440 beltline during peak hours. For properties on the western side of the city, near NC State University or Crabtree Valley Mall, crews route through US-64 to I-440 west. Response is available around the clock, every day.
 
 ## Raleigh Insurance Coordination
 
-Most homeowner policies in North Carolina cover sudden and accidental fire losses, but the documentation requirements vary by carrier. Go Green Restoration photographs and inventories damage in a format that aligns with standard adjuster workflows — itemized by room, by material type, and by cleaning or replacement category. This reduces the back-and-forth that delays claim settlement and gets the repair scope agreed upon faster.
+Most homeowner policies in North Carolina cover sudden and accidental fire losses, but the documentation requirements vary by carrier. Go Green Restoration photographs and inventories damage in a format that aligns with standard adjuster workflows, itemized by room, by material type, and by cleaning or replacement category. This reduces the back-and-forth that delays claim settlement and gets the repair scope agreed upon faster.
 
 If your policy includes Additional Living Expenses (ALE) coverage, the documentation we provide also supports displacement claims for hotel and meal costs while the home is uninhabitable.
 
 ## Local Note
 
-Homes in Historic Oakwood and other pre-war Raleigh neighborhoods frequently have original plaster walls over wood lath. After a fire, plaster absorbs smoke odor differently than drywall — the lime-based composition is more alkaline, which can actually slow odor bonding, but the lath behind it is highly porous and will hold smoke smell long after the plaster surface tests clean. Restoration crews working in these homes need to assess lath condition independently before closing out the deodorization phase, rather than relying solely on surface readings.
+Homes in Historic Oakwood and other pre-war Raleigh neighborhoods frequently have original plaster walls over wood lath. After a fire, plaster absorbs smoke odor differently than drywall, the lime-based composition is more alkaline, which can actually slow odor bonding, but the lath behind it is highly porous and will hold smoke smell long after the plaster surface tests clean. Restoration crews working in these homes need to assess lath condition independently before closing out the deodorization phase, rather than relying solely on surface readings.
 
-If you've had a fire in a Raleigh home — whether it's a total loss or a contained kitchen incident — call (919) 906-5473 to have a crew assess the damage before secondary soot and odor damage extends the scope of work. The sooner the stabilization begins, the more of your home and belongings can be brought back.
+If you've had a fire in a Raleigh home, whether it's a total loss or a contained kitchen incident, call (919) 906-5473 to have a crew assess the damage before secondary soot and odor damage extends the scope of work. The sooner the stabilization begins, the more of your home and belongings can be brought back.

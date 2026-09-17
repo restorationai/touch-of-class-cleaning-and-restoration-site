@@ -20,36 +20,36 @@ state: "CA"
 service_display: "Slab Leak Repair"
 rendered: true
 ---
-Shafter's clay-heavy soils expand and contract with every irrigation cycle from the surrounding ag fields — and that constant ground movement is hard on the copper supply lines buried beneath slab-on-grade foundations. Whether you're in a mid-century block near Downtown Shafter or a newer build in the fast-growing Gossamer Grove master-planned community, a slab leak can start as a barely noticeable warm patch on your tile floor and quietly rot the subbase for months before a water bill spike finally gives it away. All Pro Plumbing Heating and Air dispatches around the clock from Bakersfield, roughly 18 miles southeast on Highway 99, to locate and repair under-slab leaks across the 93263 ZIP code.
+Shafter's clay-heavy soils expand and contract with every irrigation cycle from the surrounding ag fields, and that constant ground movement is hard on the copper supply lines buried beneath slab-on-grade foundations. Whether you're in a mid-century block near Downtown Shafter or a newer build in the fast-growing Gossamer Grove master-planned community, a slab leak can start as a barely noticeable warm patch on your tile floor and quietly rot the subbase for months before a water bill spike finally gives it away. All Pro Plumbing Heating and Air dispatches around the clock from Bakersfield, roughly 18 miles southeast on Highway 99, to locate and repair under-slab leaks across the 93263 ZIP code.
 
 ## Why Shafter Properties See Slab Leak Issues
 
 Two factors collide here more than in most Kern County towns. First, the soil. Shafter sits on expansive clay that swells when the fields around the Wonderful Industrial Park corridor get irrigated and shrinks back during dry stretches. That repeated flex puts lateral stress on copper or galvanized lines embedded in the concrete, eventually cracking or pinholing the pipe wall.
 
-Second, the water chemistry. Shafter's municipal supply — like much of the northern San Joaquin Valley — runs hard, often above 300 mg/L of dissolved minerals. High mineral content accelerates pitting corrosion on copper from the inside, while the soil movement works on the outside. The combination means a pipe that looks fine during a visual inspection can fail at a joint or a thin spot you'd never see without electronic detection equipment.
+Second, the water chemistry. Shafter's municipal supply, like much of the northern San Joaquin Valley, runs hard, often above 300 mg/L of dissolved minerals. High mineral content accelerates pitting corrosion on copper from the inside, while the soil movement works on the outside. The combination means a pipe that looks fine during a visual inspection can fail at a joint or a thin spot you'd never see without electronic detection equipment.
 
 Older homes near the Shafter Depot Museum area, built on post-war slabs in the 1950s and 1960s, are especially vulnerable: original copper lines are now 60-plus years old, and many were installed without the protective sleeve wrap that modern code requires where pipe passes through concrete.
 
 ## Our Slab Leak Detection and Repair Process
 
-We don't break concrete until we know exactly where the break is. The process starts with electronic leak detection — a combination of acoustic listening equipment and pressure isolation testing that lets us pinpoint the leak location to within a few inches before a jackhammer touches your floor.
+We don't break concrete until we know exactly where the break is. The process starts with electronic leak detection, a combination of acoustic listening equipment and pressure isolation testing that lets us pinpoint the leak location to within a few inches before a jackhammer touches your floor.
 
 Once we've confirmed the location, you'll get a clear explanation of the repair options:
 
 - **Spot repair**: If the leak is isolated and the surrounding pipe is in good condition, we open only the affected section, replace the damaged segment, pressure-test the repair, and patch the concrete.
-- **Pipe reroute**: When the pipe is corroded along a longer run — common in Shafter's older housing stock — rerouting through the attic or interior walls eliminates the slab entirely for that line. No future digging, no future slab patches.
+- **Pipe reroute**: When the pipe is corroded along a longer run, common in Shafter's older housing stock, rerouting through the attic or interior walls eliminates the slab entirely for that line. No future digging, no future slab patches.
 - **Epoxy pipe lining**: For certain configurations, an in-place lining can seal pinhole corrosion without demolition, though it's not appropriate for every leak type or pipe diameter.
 
-We'll walk you through which option makes sense for your home's age, pipe material, and the extent of the damage — not just the one that's fastest for us.
+We'll walk you through which option makes sense for your home's age, pipe material, and the extent of the damage, not just the one that's fastest for us.
 
 ## Responding to Shafter from Bakersfield
 
-All Pro Plumbing Heating and Air operates 24/7, so a slab leak discovered at 2 a.m. doesn't have to wait until morning. From our Bakersfield base, the drive to Shafter via Highway 99 North is typically straightforward — we can reach most Shafter addresses, including newer streets in Gossamer Grove, without the traffic delays that slow response in denser parts of Kern County. We do not publish a guaranteed minute window because actual drive time varies, but our dispatch team will give you a realistic arrival estimate when you call.
+All Pro Plumbing Heating and Air operates 24/7, so a slab leak discovered at 2 a.m. doesn't have to wait until morning. From our Bakersfield base, the drive to Shafter via Highway 99 North is typically straightforward, we can reach most Shafter addresses, including newer streets in Gossamer Grove, without the traffic delays that slow response in denser parts of Kern County. We do not publish a guaranteed minute window because actual drive time varies, but our dispatch team will give you a realistic arrival estimate when you call.
 
-If water has already spread beyond the pipe — soaking into the subbase or wicking up drywall — document the damage with photos before any cleanup begins. Your homeowner's insurance carrier will want that documentation, and a qualified water damage restoration professional can assess structural drying needs once the leak is stopped.
+If water has already spread beyond the pipe, soaking into the subbase or wicking up drywall, document the damage with photos before any cleanup begins. Your homeowner's insurance carrier will want that documentation, and a qualified water damage restoration professional can assess structural drying needs once the leak is stopped.
 
 ## Local Note: Gossamer Grove Slab Construction
 
-Gossamer Grove homes built in the last decade were poured on post-tension slabs — a construction method common in Kern County's newer master-planned communities that uses tensioned steel cables running through the concrete to resist soil movement. Post-tension slabs require extra care during any slab penetration: cutting a cable is a structural event, not just a repair complication. Before we mark a cut location in any Gossamer Grove home, we verify the slab type and obtain the post-tension cable layout from the builder's records or use a cable-detection scan. It adds a step, but it protects the structural integrity of your foundation.
+Gossamer Grove homes built in the last decade were poured on post-tension slabs, a construction method common in Kern County's newer master-planned communities that uses tensioned steel cables running through the concrete to resist soil movement. Post-tension slabs require extra care during any slab penetration: cutting a cable is a structural event, not just a repair complication. Before we mark a cut location in any Gossamer Grove home, we verify the slab type and obtain the post-tension cable layout from the builder's records or use a cable-detection scan. It adds a step, but it protects the structural integrity of your foundation.
 
 If you're noticing a warm or damp spot on your floor, a sudden jump in your water bill, or the sound of running water when everything is shut off, call (661) 863-9242. We'll get a technician to your Shafter address, find the leak, and lay out your repair options before any work begins.

@@ -22,11 +22,11 @@ This privacy policy explains how Dry County Restoration collects, uses, and prot
 
 ### What We Collect
 
-When you fill out a contact or estimate request form, we collect the information you provide — typically your name, phone number, email address, property address, and a description of the damage. We also collect standard anonymous analytics data (pages visited, browser type, general location) through website analytics tools. We do not use tracking cookies for advertising purposes.
+When you fill out a contact or estimate request form, we collect the information you provide, typically your name, phone number, email address, property address, and a description of the damage. We also collect standard anonymous analytics data (pages visited, browser type, general location) through website analytics tools. We do not use tracking cookies for advertising purposes.
 
 ### How We Use It
 
-Information you submit is used to respond to your inquiry, schedule an on-site assessment, and — if you authorize us to work with your insurance carrier — to document and coordinate your claim. We do not use your contact information for marketing campaigns or share it with third parties for any purpose unrelated to your restoration project.
+Information you submit is used to respond to your inquiry, schedule an on-site assessment, and, if you authorize us to work with your insurance carrier, to document and coordinate your claim. We do not use your contact information for marketing campaigns or share it with third parties for any purpose unrelated to your restoration project.
 
 ### How We Share It
 
@@ -38,7 +38,7 @@ Contact and project records are retained for as long as reasonably necessary to 
 
 ### Your Rights (California Residents)
 
-If you are a California resident, the California Consumer Privacy Act (CCPA) gives you the right to know what personal information we hold about you, request its deletion, and opt out of any sale of that information — though we do not sell personal data. To exercise any of these rights, reach out to us at the contact information below.
+If you are a California resident, the California Consumer Privacy Act (CCPA) gives you the right to know what personal information we hold about you, request its deletion, and opt out of any sale of that information, though we do not sell personal data. To exercise any of these rights, reach out to us at the contact information below.
 
 ### Privacy Questions
 
@@ -48,7 +48,7 @@ For any privacy-related questions or requests, contact us at stephen@drycountyre
 
 ## Terms of Service
 
-These terms describe the general conditions under which Dry County Restoration provides services. The actual service relationship is governed by the signed work-authorization form you receive before any work begins — that document controls scope, pricing, and authorization, not this page.
+These terms describe the general conditions under which Dry County Restoration provides services. The actual service relationship is governed by the signed work-authorization form you receive before any work begins, that document controls scope, pricing, and authorization, not this page.
 
 ### Service Area
 
@@ -56,7 +56,7 @@ Dry County Restoration operates within the state of California. Services outside
 
 ### Estimates
 
-Any estimate provided — whether by phone, email, or during an initial site visit — is an assessment based on visible conditions at the time. It is not a binding contract. Work does not begin and pricing is not finalized until both parties have signed a written work-authorization agreement.
+Any estimate provided, whether by phone, email, or during an initial site visit, is an assessment based on visible conditions at the time. It is not a binding contract. Work does not begin and pricing is not finalized until both parties have signed a written work-authorization agreement.
 
 ### Payment Terms
 
@@ -64,7 +64,7 @@ Accepted payment methods and due dates are specified in your signed work-authori
 
 ### Insurance Coordination
 
-We are experienced in working alongside insurance carriers and can document losses, photograph affected materials, and communicate with adjusters on your behalf — but only with your written authorization. We do not guarantee specific claim outcomes, as coverage determinations are made solely by your carrier.
+We are experienced in working alongside insurance carriers and can document losses, photograph affected materials, and communicate with adjusters on your behalf, but only with your written authorization. We do not guarantee specific claim outcomes, as coverage determinations are made solely by your carrier.
 
 ### Scope of Work
 
@@ -94,4 +94,4 @@ We aim to meet the Web Content Accessibility Guidelines (WCAG) 2.1 at the AA con
 
 ### Reporting an Issue
 
-If you encounter a barrier on this site — a form that's difficult to complete, an image without a description, or any other accessibility problem — please let us know. You can reach us at stephen@drycountyrestoration.com or by calling (951) 667-9910. We will make reasonable efforts to address reported issues in a timely manner and provide information in an accessible format upon request.
+If you encounter a barrier on this site, a form that's difficult to complete, an image without a description, or any other accessibility problem, please let us know. You can reach us at stephen@drycountyrestoration.com or by calling (951) 667-9910. We will make reasonable efforts to address reported issues in a timely manner and provide information in an accessible format upon request.

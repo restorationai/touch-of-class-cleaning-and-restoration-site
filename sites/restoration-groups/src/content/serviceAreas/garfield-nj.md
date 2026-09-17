@@ -19,21 +19,21 @@ state: "NJ"
 primary: false
 rendered: true
 ---
-When a pipe bursts in a Plauderville two-family at 2 a.m. or a Passaic River surge pushes water into a Belmont basement, The Restoration Group dispatches from Kenilworth around the clock to extract, dry, and restore. We handle water damage, fire and smoke damage, mold remediation, and full reconstruction for homeowners, landlords, and commercial tenants throughout Garfield's 07026 ZIP code — and we bill insurance carriers directly so you are not managing that paperwork alone.
+When a pipe bursts in a Plauderville two-family at 2 a.m. or a Passaic River surge pushes water into a Belmont basement, The Restoration Group dispatches from Kenilworth around the clock to extract, dry, and restore. We handle water damage, fire and smoke damage, mold remediation, and full reconstruction for homeowners, landlords, and commercial tenants throughout Garfield's 07026 ZIP code, and we bill insurance carriers directly so you are not managing that paperwork alone.
 
 ## Restoration emergencies common in Garfield
 
 Garfield's housing stock is the first thing to understand. The city is dense with early-1900s two- and three-family frame homes and postwar capes, most sitting on small lots with finished basements that were never designed to hold back a serious storm surge. Cast-iron drain lines in these older buildings corrode from the inside out, and a single failed lateral can back sewage into two or three units sharing the same stack.
 
-The geography compounds the risk. River Drive traces the western edge of the city along the Passaic River, and that corridor has a documented flood history that Ida in 2021 made impossible to ignore — riverfront blocks and below-grade spaces took on feet of water in hours. Saddle River tributaries add a secondary flood threat in low-lying pockets after hard rain. The Dahnert's Lake area and neighborhoods near Outwater sit in terrain that collects runoff from surrounding streets, making basement flooding a near-annual event for some addresses rather than a once-in-a-decade emergency.
+The geography compounds the risk. River Drive traces the western edge of the city along the Passaic River, and that corridor has a documented flood history that Ida in 2021 made impossible to ignore, riverfront blocks and below-grade spaces took on feet of water in hours. Saddle River tributaries add a secondary flood threat in low-lying pockets after hard rain. The Dahnert's Lake area and neighborhoods near Outwater sit in terrain that collects runoff from surrounding streets, making basement flooding a near-annual event for some addresses rather than a once-in-a-decade emergency.
 
 The Passaic Street corridor and Belmont Avenue corridor carry dense retail and small commercial tenants whose overnight pipe and roof-leak losses can soak shared walls and spread into adjacent residential units before anyone notices. In packed multifamily housing, a water event on the third floor is rarely just a third-floor problem.
 
 ## Services we provide in Garfield
 
-**Water damage restoration** in Garfield often starts in the basement. Whether the source is a failed sump pump during a Saddle River tributary surge, a corroded cast-iron drain backup, or a supply line that let go overnight, we arrive with truck-mounted extraction equipment, industrial air movers, and desiccant dehumidifiers sized for finished below-grade spaces. Moisture mapping with thermal imaging tells us what the walls and subfloor are holding before we set drying equipment — critical in older frame construction where water travels far from the visible wet spot.
+**Water damage restoration** in Garfield often starts in the basement. Whether the source is a failed sump pump during a Saddle River tributary surge, a corroded cast-iron drain backup, or a supply line that let go overnight, we arrive with truck-mounted extraction equipment, industrial air movers, and desiccant dehumidifiers sized for finished below-grade spaces. Moisture mapping with thermal imaging tells us what the walls and subfloor are holding before we set drying equipment, critical in older frame construction where water travels far from the visible wet spot.
 
-**Mold remediation** follows water damage that sat too long — and in Garfield's humid summers, mold can colonize damp framing within 48 to 72 hours of a leak. We contain affected areas, remove compromised materials, treat structural surfaces, and clear the space before reconstruction begins. We do not cut corners on containment in multifamily buildings, where spores can migrate through shared cavities.
+**Mold remediation** follows water damage that sat too long, and in Garfield's humid summers, mold can colonize damp framing within 48 to 72 hours of a leak. We contain affected areas, remove compromised materials, treat structural surfaces, and clear the space before reconstruction begins. We do not cut corners on containment in multifamily buildings, where spores can migrate through shared cavities.
 
 **Fire and smoke damage restoration** is a different kind of urgency. Smoke residue from even a contained kitchen fire in a Harrison Avenue district row home can penetrate HVAC systems and adjacent units within hours. We assess char, soot, and odor penetration, board and secure the structure, and begin cleaning and deodorization before secondary damage sets in.
 
@@ -41,11 +41,11 @@ The Passaic Street corridor and Belmont Avenue corridor carry dense retail and s
 
 ## Coverage and how fast we can get there
 
-Kenilworth is roughly 12 miles from central Garfield via Route 21 north — a direct shot that keeps drive time predictable even during off-peak hours. The Garfield train station area, the Belmont neighborhood, and Plauderville are all reachable on that same corridor. Because we operate 24/7, a call at any hour reaches a live dispatcher who can route a crew immediately rather than queue you for a morning callback. We serve all of 07026, including addresses along River Drive that other contractors sometimes decline after major flood events.
+Kenilworth is roughly 12 miles from central Garfield via Route 21 north, a direct shot that keeps drive time predictable even during off-peak hours. The Garfield train station area, the Belmont neighborhood, and Plauderville are all reachable on that same corridor. Because we operate 24/7, a call at any hour reaches a live dispatcher who can route a crew immediately rather than queue you for a morning callback. We serve all of 07026, including addresses along River Drive that other contractors sometimes decline after major flood events.
 
 ## Building stock, site conditions, and permits in Garfield
 
-Most of the older two- and three-families here were built with balloon-framed walls, plaster over wood lath, and multiple layers of roofing added over time. Wet plaster holds water long after drywall would read dry, and open stud bays let moisture climb from a basement toward the first floor. Expect asbestos-containing materials and lead paint in anything pre-1978 — siding shingles, pipe wrap, floor tile — which changes how a demolition scope is written. Galvanized supply lines of the same vintage pinhole and weep behind finishes.
+Most of the older two- and three-families here were built with balloon-framed walls, plaster over wood lath, and multiple layers of roofing added over time. Wet plaster holds water long after drywall would read dry, and open stud bays let moisture climb from a basement toward the first floor. Expect asbestos-containing materials and lead paint in anything pre-1978, siding shingles, pipe wrap, floor tile, which changes how a demolition scope is written. Galvanized supply lines of the same vintage pinhole and weep behind finishes.
 
 The west side sits on Passaic valley silt and clay with a high water table, so below-grade spaces stay damp between events. Frost depth in northern New Jersey means footings and exterior lines sit well down.
 

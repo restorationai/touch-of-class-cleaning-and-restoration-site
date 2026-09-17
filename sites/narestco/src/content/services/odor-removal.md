@@ -17,27 +17,27 @@ service_slug: "odor-removal"
 service_display: "Odor Removal and Deodorization"
 rendered: true
 ---
-Some odors don't leave on their own. Smoke from a house fire, mold hidden behind drywall, a sewage backup, or years of pet contamination can embed odor molecules deep into porous materials — insulation, subfloor, drywall, upholstery, HVAC ductwork. Masking sprays and candles don't touch that. Professional odor removal and deodorization in Federal Way and the surrounding Puget Sound region means identifying the source, neutralizing the compounds at a molecular level, and verifying the result before the job is closed.
+Some odors don't leave on their own. Smoke from a house fire, mold hidden behind drywall, a sewage backup, or years of pet contamination can embed odor molecules deep into porous materials, insulation, subfloor, drywall, upholstery, HVAC ductwork. Masking sprays and candles don't touch that. Professional odor removal and deodorization in Federal Way and the surrounding Puget Sound region means identifying the source, neutralizing the compounds at a molecular level, and verifying the result before the job is closed.
 
 ## How We Handle Odor Removal
 
-Every job starts with an inspection — not a quick walkthrough, but a systematic assessment of which materials have absorbed odor and how deeply. Smoke residue from a kitchen fire behaves differently than the byproducts of a slow sewage leak. The source determines the method.
+Every job starts with an inspection, not a quick walkthrough, but a systematic assessment of which materials have absorbed odor and how deeply. Smoke residue from a kitchen fire behaves differently than the byproducts of a slow sewage leak. The source determines the method.
 
 ### Ozone Treatment
 
-For heavy smoke odor removal, we use commercial-grade ozone generators that produce O₃ at concentrations high enough to oxidize smoke particles, volatile organic compounds, and biological odors embedded in walls, flooring, and structural cavities. Ozone treatment requires the space to be unoccupied — people, pets, and plants out — for a controlled treatment window, typically 4–8 hours depending on square footage and saturation level. After treatment, the space is ventilated and safe to re-enter within a few hours.
+For heavy smoke odor removal, we use commercial-grade ozone generators that produce O₃ at concentrations high enough to oxidize smoke particles, volatile organic compounds, and biological odors embedded in walls, flooring, and structural cavities. Ozone treatment requires the space to be unoccupied, people, pets, and plants out, for a controlled treatment window, typically 4–8 hours depending on square footage and saturation level. After treatment, the space is ventilated and safe to re-enter within a few hours.
 
 ### Hydroxyl Deodorization
 
-When a property can't be vacated — occupied rental units, commercial spaces that need to stay partially operational — hydroxyl deodorization is the alternative. Hydroxyl generators produce the same reactive molecules the atmosphere creates naturally, breaking down odor compounds without requiring evacuation. Treatment runs continuously over 24–72 hours and is safe around people and electronics.
+When a property can't be vacated, occupied rental units, commercial spaces that need to stay partially operational, hydroxyl deodorization is the alternative. Hydroxyl generators produce the same reactive molecules the atmosphere creates naturally, breaking down odor compounds without requiring evacuation. Treatment runs continuously over 24–72 hours and is safe around people and electronics.
 
 ### Thermal Fogging
 
-Thermal fogging is particularly effective after fire and smoke damage because it mimics how smoke traveled through the structure. A heated deodorizing solution is converted into a fine fog that penetrates wall cavities, ductwork, and subflooring — the same pathways the smoke used. It's often used in combination with ozone treatment for severe smoke odor cases.
+Thermal fogging is particularly effective after fire and smoke damage because it mimics how smoke traveled through the structure. A heated deodorizing solution is converted into a fine fog that penetrates wall cavities, ductwork, and subflooring, the same pathways the smoke used. It's often used in combination with ozone treatment for severe smoke odor cases.
 
 ### Source Removal and Surface Treatment
 
-No deodorization equipment eliminates an odor if the source material is still present. Saturated insulation, charred framing, contaminated carpet padding — those get removed first. Surfaces that can be saved are treated with professional-grade antimicrobial and deodorizing agents before any equipment is deployed. Skipping this step is why DIY attempts and discount services fail.
+No deodorization equipment eliminates an odor if the source material is still present. Saturated insulation, charred framing, contaminated carpet padding, those get removed first. Surfaces that can be saved are treated with professional-grade antimicrobial and deodorizing agents before any equipment is deployed. Skipping this step is why DIY attempts and discount services fail.
 
 ## When to Call Us
 
@@ -45,28 +45,28 @@ The clearest trigger is an odor that persists more than 48 hours after the visib
 
 Specific situations that warrant a call:
 
-- **After a fire or smoke event** — even a contained kitchen fire can push smoke residue into HVAC returns and adjacent rooms within minutes.
-- **After water damage or flooding** — mold can begin colonizing porous materials in as little as 24–48 hours, and the musty smell often arrives before visible growth does.
-- **After a sewage backup** — hydrogen sulfide and biological waste compounds require professional neutralization, not just cleaning.
-- **Pet or biohazard contamination** — urine salts reactivate with humidity; the smell that disappears in winter can return every summer until the source material is treated or removed.
-- **Before selling or renting a property** — odor is one of the first things a buyer or tenant notices, and it's one of the hardest things to explain away.
+- **After a fire or smoke event**, even a contained kitchen fire can push smoke residue into HVAC returns and adjacent rooms within minutes.
+- **After water damage or flooding**, mold can begin colonizing porous materials in as little as 24–48 hours, and the musty smell often arrives before visible growth does.
+- **After a sewage backup**, hydrogen sulfide and biological waste compounds require professional neutralization, not just cleaning.
+- **Pet or biohazard contamination**, urine salts reactivate with humidity; the smell that disappears in winter can return every summer until the source material is treated or removed.
+- **Before selling or renting a property**, odor is one of the first things a buyer or tenant notices, and it's one of the hardest things to explain away.
 
-**What not to do first:** Don't run your HVAC system continuously trying to air the space out — that circulates contaminated air through ductwork and can spread residue further. Don't apply bleach to mold-related odors on porous surfaces; it doesn't penetrate, and it can create a ventilation hazard. Call us before you start experimenting.
+**What not to do first:** Don't run your HVAC system continuously trying to air the space out, that circulates contaminated air through ductwork and can spread residue further. Don't apply bleach to mold-related odors on porous surfaces; it doesn't penetrate, and it can create a ventilation hazard. Call us before you start experimenting.
 
 ## What Sets Our Odor Removal Team Apart
 
-National Restoration Construction is IICRC Certified, which means our technicians are trained to the industry standard for deodorization — not just in equipment operation, but in the chemistry of odor compounds and the protocols for different contamination types. We're also an EPA Certified and Lead-Safe Certified Firm, which matters on older Federal Way homes and commercial properties built before 1978 where lead paint may be disturbed during source-removal work.
+National Restoration Construction is IICRC Certified, which means our technicians are trained to the industry standard for deodorization, not just in equipment operation, but in the chemistry of odor compounds and the protocols for different contamination types. We're also an EPA Certified and Lead-Safe Certified Firm, which matters on older Federal Way homes and commercial properties built before 1978 where lead paint may be disturbed during source-removal work.
 
-We've been handling restoration work in the greater Federal Way area long enough to know the region's housing stock — the 1970s and 1980s ranch-style homes with fiberglass batt insulation that holds smoke for months, the crawl-space construction that traps moisture and mold odors under living areas, the older commercial buildings with ductwork that hasn't been cleaned in decades. That familiarity shapes how we scope a job.
+We've been handling restoration work in the greater Federal Way area long enough to know the region's housing stock, the 1970s and 1980s ranch-style homes with fiberglass batt insulation that holds smoke for months, the crawl-space construction that traps moisture and mold odors under living areas, the older commercial buildings with ductwork that hasn't been cleaned in decades. That familiarity shapes how we scope a job.
 
 Response time matters on odor jobs. The longer a contaminated material sits, the deeper the penetration. Most calls in our service area reach a technician within 60–90 minutes.
 
 ## Insurance, Billing, and the Claims Process
 
-Many odor removal jobs are covered under homeowner's or commercial property insurance when they result from a covered peril — fire, smoke, water intrusion, or sewage backup. We work directly with insurance carriers and can document the scope of work, equipment used, and treatment hours in the format adjusters require. If you're filing a claim, we can coordinate with your adjuster from the initial inspection through final sign-off so you're not managing the paperwork alone.
+Many odor removal jobs are covered under homeowner's or commercial property insurance when they result from a covered peril, fire, smoke, water intrusion, or sewage backup. We work directly with insurance carriers and can document the scope of work, equipment used, and treatment hours in the format adjusters require. If you're filing a claim, we can coordinate with your adjuster from the initial inspection through final sign-off so you're not managing the paperwork alone.
 
-For jobs that fall outside coverage — pet contamination, pre-sale deodorization, or gradual odor buildup — we provide itemized estimates before any work begins.
+For jobs that fall outside coverage, pet contamination, pre-sale deodorization, or gradual odor buildup, we provide itemized estimates before any work begins.
 
 ---
 
-If the smell is still there, the problem is still there. Call National Restoration Construction at **(206) 883-0333** any time — we answer around the clock, and we can have a technician on-site in Federal Way and the surrounding area the same day. The assessment is the first step toward a space that actually smells clean again.
+If the smell is still there, the problem is still there. Call National Restoration Construction at **(206) 883-0333** any time, we answer around the clock, and we can have a technician on-site in Federal Way and the surrounding area the same day. The assessment is the first step toward a space that actually smells clean again.

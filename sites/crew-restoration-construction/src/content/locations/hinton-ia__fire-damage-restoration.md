@@ -20,31 +20,31 @@ state: "IA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-The acrid smell of smoke settles into everything — insulation, framing, the drywall behind cabinets you'd never think to check. For homeowners along Highway 75 in Hinton, a structure fire doesn't just mean charred walls; it means soot-laden air circulating through a house while you're still figuring out who to call. Crew Restoration & Construction works in Plymouth County regularly, and we understand that a fire in a tight-knit community like Hinton carries weight beyond the property damage itself.
+The acrid smell of smoke settles into everything, insulation, framing, the drywall behind cabinets you'd never think to check. For homeowners along Highway 75 in Hinton, a structure fire doesn't just mean charred walls; it means soot-laden air circulating through a house while you're still figuring out who to call. Crew Restoration & Construction works in Plymouth County regularly, and we understand that a fire in a tight-knit community like Hinton carries weight beyond the property damage itself.
 
 ## Why Hinton Properties Face Specific Fire Damage Challenges
 
-Hinton sits in a stretch of Plymouth County where a meaningful portion of the housing stock dates to mid-century construction or earlier — the kind of homes with balloon-frame walls, older knob-and-tube-era wiring upgrades, and cellulose insulation that absorbs smoke odor deeply. That framing style matters during fire damage restoration because smoke and heat travel vertically through open wall cavities faster than in platform-framed modern homes, meaning fire damage can reach the attic even when the fire itself stayed in a first-floor room.
+Hinton sits in a stretch of Plymouth County where a meaningful portion of the housing stock dates to mid-century construction or earlier, the kind of homes with balloon-frame walls, older knob-and-tube-era wiring upgrades, and cellulose insulation that absorbs smoke odor deeply. That framing style matters during fire damage restoration because smoke and heat travel vertically through open wall cavities faster than in platform-framed modern homes, meaning fire damage can reach the attic even when the fire itself stayed in a first-floor room.
 
 The region's climate adds another layer. Northwest Iowa winters push homeowners to run forced-air heat hard, and older ductwork in Hinton homes can distribute smoke residue throughout the entire living space within minutes of ignition. By the time the fire department clears the scene, soot particles have already coated duct interiors, HVAC components, and the contents of rooms that never saw a flame. Restoration that skips duct cleaning after a structural fire will leave odor problems that resurface every heating season.
 
 ## Our Fire Damage Restoration Process in Hinton
 
-Every fire loss is different, but the sequence matters. When we arrive at a Hinton address, the first priority is a room-by-room damage assessment — separating areas with direct char and heat damage from areas with smoke and soot migration. We document everything photographically before any material is moved, which protects your insurance claim and gives the adjuster a clear picture of the full scope.
+Every fire loss is different, but the sequence matters. When we arrive at a Hinton address, the first priority is a room-by-room damage assessment, separating areas with direct char and heat damage from areas with smoke and soot migration. We document everything photographically before any material is moved, which protects your insurance claim and gives the adjuster a clear picture of the full scope.
 
 From there, the process moves through several defined stages:
 
-- **Board-up and structural stabilization** — open walls, compromised rooflines, and broken windows are secured to prevent weather intrusion and unauthorized entry while the property is uninhabitable.
-- **Soot and smoke residue removal** — dry chemical sponging on walls and ceilings before any wet cleaning, because scrubbing soot before dry-removing it drives particles deeper into porous surfaces.
-- **Odor neutralization** — thermal fogging and hydroxyl generation for persistent smoke odor in soft materials, cabinetry, and structural wood.
-- **Content pack-out** — salvageable belongings are inventoried, packed, and transported for off-site cleaning and storage during reconstruction.
-- **Reconstruction** — framing, drywall, insulation, and finish work to bring the structure back to pre-loss condition, coordinated with your insurance scope.
+- **Board-up and structural stabilization**, open walls, compromised rooflines, and broken windows are secured to prevent weather intrusion and unauthorized entry while the property is uninhabitable.
+- **Soot and smoke residue removal**, dry chemical sponging on walls and ceilings before any wet cleaning, because scrubbing soot before dry-removing it drives particles deeper into porous surfaces.
+- **Odor neutralization**, thermal fogging and hydroxyl generation for persistent smoke odor in soft materials, cabinetry, and structural wood.
+- **Content pack-out**, salvageable belongings are inventoried, packed, and transported for off-site cleaning and storage during reconstruction.
+- **Reconstruction**, framing, drywall, insulation, and finish work to bring the structure back to pre-loss condition, coordinated with your insurance scope.
 
 For homes near Hinton Community School or in the West Fork area, where lots tend to be tighter and neighboring properties are close, we pay particular attention to containing odor and debris during the demolition phase so the work doesn't affect adjacent homes.
 
 ## Reaching Hinton from Sioux Falls
 
-Crew Restoration & Construction is based in Sioux Falls and serves the broader region including Plymouth County. Hinton sits roughly 90 miles south via I-29 and Highway 75, a straightforward corridor that our crews travel regularly for jobs throughout northwest Iowa. When you call (605) 965-2727, the team will confirm scheduling and give you an honest arrival estimate based on current crew availability — we won't quote a response window we can't keep.
+Crew Restoration & Construction is based in Sioux Falls and serves the broader region including Plymouth County. Hinton sits roughly 90 miles south via I-29 and Highway 75, a straightforward corridor that our crews travel regularly for jobs throughout northwest Iowa. When you call (605) 965-2727, the team will confirm scheduling and give you an honest arrival estimate based on current crew availability, we won't quote a response window we can't keep.
 
 For properties in the 51024 ZIP code, we're familiar with the access points into town and the typical lot configurations in both the Downtown Hinton core and the residential streets extending toward the West Fork Little Sioux River. Knowing the area means less time orienting on arrival and more time working.
 
@@ -54,6 +54,6 @@ Most homeowner policies cover sudden and accidental fire damage, but the documen
 
 ## Local Note
 
-One thing worth knowing about older Hinton homes with wood-paneled interior walls — a finish that's common in mid-century ranch-style construction throughout Plymouth County — is that smoke odor binds to wood grain in a way that standard soot sponging alone won't resolve. We've found that these surfaces often require light sanding followed by a shellac-based primer before repainting, rather than just a paint-over. Skipping that step means the odor reactivates in warm weather or when the heat kicks on. It's a small detail that makes a significant difference in whether the home smells like itself again or carries a permanent reminder of the fire.
+One thing worth knowing about older Hinton homes with wood-paneled interior walls, a finish that's common in mid-century ranch-style construction throughout Plymouth County, is that smoke odor binds to wood grain in a way that standard soot sponging alone won't resolve. We've found that these surfaces often require light sanding followed by a shellac-based primer before repainting, rather than just a paint-over. Skipping that step means the odor reactivates in warm weather or when the heat kicks on. It's a small detail that makes a significant difference in whether the home smells like itself again or carries a permanent reminder of the fire.
 
 If a fire has damaged your Hinton property, call Crew Restoration & Construction at (605) 965-2727. We'll walk through what you're looking at, explain the process honestly, and get a crew scheduled to begin the work of bringing your home back.

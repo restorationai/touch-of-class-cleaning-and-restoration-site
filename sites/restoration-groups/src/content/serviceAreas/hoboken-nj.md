@@ -19,27 +19,27 @@ state: "NJ"
 primary: false
 rendered: true
 ---
-Hoboken property owners deal with a specific and recurring set of problems — flooded garden units after heavy rain, pipe bursts traveling through shared brownstone walls, smoke damage in tightly packed rowhomes, and the slow mold bloom that follows any water event in a below-grade space. The Restoration Group responds to those calls around the clock, dispatching from Kenilworth to handle water extraction, structural drying, mold remediation, fire and smoke cleanup, and full reconstruction for residential and commercial properties across 07030.
+Hoboken property owners deal with a specific and recurring set of problems, flooded garden units after heavy rain, pipe bursts traveling through shared brownstone walls, smoke damage in tightly packed rowhomes, and the slow mold bloom that follows any water event in a below-grade space. The Restoration Group responds to those calls around the clock, dispatching from Kenilworth to handle water extraction, structural drying, mold remediation, fire and smoke cleanup, and full reconstruction for residential and commercial properties across 07030.
 
 ## Restoration emergencies common in Hoboken
 
-Hoboken sits on what was once a tidal marsh, and the ground beneath the city has never forgotten it. The water table is high, the combined sewer system reaches capacity quickly during heavy rain, and the result — documented dramatically during Superstorm Sandy in 2012 and again when the remnants of Ida swept through in 2021 — is that basement and garden-level units flood from below as much as from above. Storm drains back up. Sump pumps fail. Water seeps through foundation walls that were built in the 1880s with materials never meant to stay dry indefinitely.
+Hoboken sits on what was once a tidal marsh, and the ground beneath the city has never forgotten it. The water table is high, the combined sewer system reaches capacity quickly during heavy rain, and the result, documented dramatically during Superstorm Sandy in 2012 and again when the remnants of Ida swept through in 2021, is that basement and garden-level units flood from below as much as from above. Storm drains back up. Sump pumps fail. Water seeps through foundation walls that were built in the 1880s with materials never meant to stay dry indefinitely.
 
-The housing stock compounds the risk. Hoboken's dense grid of 19th-century brownstones and brick rowhomes share party walls and plumbing stacks, which means a single pipe burst in one unit can migrate laterally into two or three neighboring apartments before anyone notices. Older cast-iron supply and drain lines corrode from the inside out; a pinhole leak inside a wall cavity can saturate framing and insulation for weeks before it surfaces. Along The Waterfront, newer high-rise construction brings a different set of problems — sprinkler activations, rooftop mechanical failures, and large-floor-plate water events that require industrial-scale drying equipment. The Washington Street business district and the Stevens Institute of Technology campus add commercial sprinkler discharges, roof-leak events, and student-housing water losses to the call volume. Southwest Hoboken and Castle Point, with their mix of converted industrial buildings and older residential stock, see their share of mold discoveries during renovation work — often triggered by moisture that has been trapped behind walls for years.
+The housing stock compounds the risk. Hoboken's dense grid of 19th-century brownstones and brick rowhomes share party walls and plumbing stacks, which means a single pipe burst in one unit can migrate laterally into two or three neighboring apartments before anyone notices. Older cast-iron supply and drain lines corrode from the inside out; a pinhole leak inside a wall cavity can saturate framing and insulation for weeks before it surfaces. Along The Waterfront, newer high-rise construction brings a different set of problems, sprinkler activations, rooftop mechanical failures, and large-floor-plate water events that require industrial-scale drying equipment. The Washington Street business district and the Stevens Institute of Technology campus add commercial sprinkler discharges, roof-leak events, and student-housing water losses to the call volume. Southwest Hoboken and Castle Point, with their mix of converted industrial buildings and older residential stock, see their share of mold discoveries during renovation work, often triggered by moisture that has been trapped behind walls for years.
 
 ## Services we provide in Hoboken
 
 ### Water damage restoration
 
-Water damage in Hoboken often starts in the lowest unit and works its way up through the building envelope or through shared structural cavities. We extract standing water, map moisture with thermal imaging and pin meters, and dry to IICRC S500 standards — which matters here because Hoboken's building department and most insurance carriers require documentation of drying scope and completion before repairs can be permitted or claims can close.
+Water damage in Hoboken often starts in the lowest unit and works its way up through the building envelope or through shared structural cavities. We extract standing water, map moisture with thermal imaging and pin meters, and dry to IICRC S500 standards, which matters here because Hoboken's building department and most insurance carriers require documentation of drying scope and completion before repairs can be permitted or claims can close.
 
 ### Mold remediation
 
-A basement that took on two inches of water during a storm and was "dried out" with box fans is a mold colony waiting to be found. In Hoboken's below-grade units, mold can colonize porous materials within 48 to 72 hours of a moisture event. We contain, remediate, and clear affected areas — and we document the process in a format that satisfies both property managers and insurance adjusters.
+A basement that took on two inches of water during a storm and was "dried out" with box fans is a mold colony waiting to be found. In Hoboken's below-grade units, mold can colonize porous materials within 48 to 72 hours of a moisture event. We contain, remediate, and clear affected areas, and we document the process in a format that satisfies both property managers and insurance adjusters.
 
 ### Fire and smoke damage restoration
 
-Fire in a dense rowhome block travels fast and leaves smoke residue in every connected space. Soot settles into HVAC systems, inside closets, and behind trim. We handle structural stabilization, content pack-out, odor neutralization, and reconstruction — coordinating with Hoboken's fire marshal documentation requirements when applicable.
+Fire in a dense rowhome block travels fast and leaves smoke residue in every connected space. Soot settles into HVAC systems, inside closets, and behind trim. We handle structural stabilization, content pack-out, odor neutralization, and reconstruction, coordinating with Hoboken's fire marshal documentation requirements when applicable.
 
 ### Reconstruction
 
@@ -47,7 +47,7 @@ Once the damage is mitigated, the rebuild starts. We handle drywall, flooring, c
 
 ## Coverage and how fast we can get there
 
-From our Kenilworth headquarters, Hoboken is roughly 12 to 14 miles northeast — typically a 25-to-35-minute drive depending on traffic on the NJ Turnpike or Routes 1 and 9 through Jersey City. Because we operate 24/7, we can dispatch at 2 a.m. after a pipe burst in a Waterfront high-rise just as readily as during business hours for a mold assessment in a Castle Point brownstone. We serve all Hoboken neighborhoods — Downtown Hoboken, Uptown, Midtown, The Waterfront, Southwest Hoboken, and Castle Point — and we're familiar with the parking and building-access realities that come with working in a dense urban grid. Elysian Park-area rowhomes, the blocks near Hoboken Terminal, and the Pier A Park waterfront corridor are all within our regular service footprint.
+From our Kenilworth headquarters, Hoboken is roughly 12 to 14 miles northeast, typically a 25-to-35-minute drive depending on traffic on the NJ Turnpike or Routes 1 and 9 through Jersey City. Because we operate 24/7, we can dispatch at 2 a.m. after a pipe burst in a Waterfront high-rise just as readily as during business hours for a mold assessment in a Castle Point brownstone. We serve all Hoboken neighborhoods, Downtown Hoboken, Uptown, Midtown, The Waterfront, Southwest Hoboken, and Castle Point, and we're familiar with the parking and building-access realities that come with working in a dense urban grid. Elysian Park-area rowhomes, the blocks near Hoboken Terminal, and the Pier A Park waterfront corridor are all within our regular service footprint.
 
 ## Building stock, site conditions, and permits in Hoboken
 
@@ -57,4 +57,4 @@ Expect era-linked hazards in unrenovated units: lead paint under later coats, as
 
 Structural repair and rebuild permits go through Hoboken's construction office under the New Jersey Uniform Construction Code, with separate building, plumbing, electrical and fire subcode approvals. In mapped flood zones, substantial improvements trigger stricter elevation review, and condo or co-op boards usually control access.
 
-If you're dealing with water, fire, mold, or storm damage anywhere in Hoboken, call The Restoration Group at **(855) 650-7422** — we answer every hour of every day and can have a crew moving toward you while you're still on the phone.
+If you're dealing with water, fire, mold, or storm damage anywhere in Hoboken, call The Restoration Group at **(855) 650-7422**, we answer every hour of every day and can have a crew moving toward you while you're still on the phone.

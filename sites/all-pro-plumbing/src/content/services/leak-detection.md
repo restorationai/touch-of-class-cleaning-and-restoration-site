@@ -17,11 +17,11 @@ service_slug: "leak-detection"
 service_display: "Leak Detection"
 rendered: true
 ---
-Your water bill jumped $80 last month, but nothing in the house runs longer than usual. Or maybe a section of tile floor feels faintly warm underfoot, and a patch of drywall near the baseboard has started to bubble. Hidden leaks — inside slabs, behind walls, under concrete driveways — don't announce themselves the way a burst pipe does. They drain money quietly for months before the damage becomes visible. Leak detection is the diagnostic work that finds exactly where water is escaping before you're cutting open half a wall on a guess.
+Your water bill jumped $80 last month, but nothing in the house runs longer than usual. Or maybe a section of tile floor feels faintly warm underfoot, and a patch of drywall near the baseboard has started to bubble. Hidden leaks, inside slabs, behind walls, under concrete driveways, don't announce themselves the way a burst pipe does. They drain money quietly for months before the damage becomes visible. Leak detection is the diagnostic work that finds exactly where water is escaping before you're cutting open half a wall on a guess.
 
 ## What leak detection actually involves
 
-Modern leak detection is not a plumber pressing an ear against the floor. It combines electronic amplification, thermal imaging, and pressure testing to pinpoint a leak within inches — without demolition. The core tools are an electronic ground microphone (which picks up the hiss and vibration of pressurized water escaping a pipe), a correlating leak-noise correlator (which cross-references signal timing from two sensors to triangulate the exact break point), and in some cases an infrared camera that reveals temperature differentials caused by water migrating through a slab or wall cavity.
+Modern leak detection is not a plumber pressing an ear against the floor. It combines electronic amplification, thermal imaging, and pressure testing to pinpoint a leak within inches, without demolition. The core tools are an electronic ground microphone (which picks up the hiss and vibration of pressurized water escaping a pipe), a correlating leak-noise correlator (which cross-references signal timing from two sensors to triangulate the exact break point), and in some cases an infrared camera that reveals temperature differentials caused by water migrating through a slab or wall cavity.
 
 Bakersfield's housing stock adds specific wrinkles. The valley is predominantly slab-on-grade construction, which means supply lines run through or under a concrete foundation rather than through an accessible crawl space. When copper corrodes or a fitting fails beneath that slab, the only way to find it without tearing up flooring across an entire room is acoustic or thermal detection. Hard water from the Kern River watershed accelerates scale buildup and pinhole corrosion in copper lines, making slab leaks more common here than in softer-water regions. A thorough detection visit typically takes one to three hours depending on the pipe layout and how many zones need to be isolated.
 
@@ -29,13 +29,13 @@ Bakersfield's housing stock adds specific wrinkles. The valley is predominantly 
 
 1. **Pressure isolation and meter test.** Before any equipment comes out, the technician shuts off all fixtures and checks whether the water meter dial is still moving. A moving dial with everything off confirms active water loss. Isolating the meter from the house supply then helps distinguish between a leak in the service line (between the meter and the house) and one inside the structure.
 
-2. **Zone-by-zone pressure testing.** Individual branch lines — hot, cold, irrigation — are pressurized and isolated with shutoffs or test plugs. Watching pressure hold or drop on a gauge over several minutes tells you which zone is losing water and roughly how fast, narrowing the search area before acoustic equipment is deployed.
+2. **Zone-by-zone pressure testing.** Individual branch lines, hot, cold, irrigation, are pressurized and isolated with shutoffs or test plugs. Watching pressure hold or drop on a gauge over several minutes tells you which zone is losing water and roughly how fast, narrowing the search area before acoustic equipment is deployed.
 
 3. **Acoustic ground microphone survey.** The technician walks the suspect zone with an electronic listening device, marking signal peaks on the floor or ground surface. In slab construction this typically means a grid pattern across the affected room or along the pipe route. The correlator refines the strongest signal to a specific point, often within six to twelve inches.
 
-4. **Thermal imaging (where applicable).** For wall leaks or supply lines running through a slab near the surface, an infrared camera can reveal the cold or warm anomaly caused by escaping water. This is especially useful when acoustic signals are ambiguous — concrete density and rebar can scatter sound — or when the leak is a slow seep rather than an active pressurized spray.
+4. **Thermal imaging (where applicable).** For wall leaks or supply lines running through a slab near the surface, an infrared camera can reveal the cold or warm anomaly caused by escaping water. This is especially useful when acoustic signals are ambiguous, concrete density and rebar can scatter sound, or when the leak is a slow seep rather than an active pressurized spray.
 
-5. **Findings report and repair recommendation.** Once the leak point is confirmed, the technician marks the location and documents it — measurements from fixed reference points, photos, pressure-test readings. That documentation matters for insurance claims and for the repair crew that follows. You get a clear answer: here is where the pipe is failing, here is what fixing it requires.
+5. **Findings report and repair recommendation.** Once the leak point is confirmed, the technician marks the location and documents it, measurements from fixed reference points, photos, pressure-test readings. That documentation matters for insurance claims and for the repair crew that follows. You get a clear answer: here is where the pipe is failing, here is what fixing it requires.
 
 ## What separates a good leak detection response from a bad one
 
@@ -43,16 +43,16 @@ The most common mistake is skipping zone isolation and going straight to acousti
 
 A second failure point is relying on a single detection method. Acoustic correlators are less reliable when pipes run through heavily reinforced concrete or when the leak is a slow weep rather than a pressurized spray. Combining acoustic data with thermal imaging catches leaks that either method alone would miss.
 
-For insurance purposes, adjusters want to see documented proof that the leak was sudden and accidental rather than the result of long-term neglect. A written findings report with pressure-drop readings, GPS or measured coordinates of the leak point, and timestamped photos gives your adjuster something concrete to work with — and protects you from a claim denial based on insufficient documentation.
+For insurance purposes, adjusters want to see documented proof that the leak was sudden and accidental rather than the result of long-term neglect. A written findings report with pressure-drop readings, GPS or measured coordinates of the leak point, and timestamped photos gives your adjuster something concrete to work with, and protects you from a claim denial based on insufficient documentation.
 
 Finally, a good detection visit ends with a repair plan, not just a marked floor. Knowing the leak is under the kitchen slab is only useful if you also know whether the fix is a spot repair through the slab, a reroute through the attic, or a full repipe.
 
 ## Seasonal and regional considerations
 
-Bakersfield summers regularly push past 100°F. Soil in the San Joaquin Valley expands and contracts significantly between the wet winters and dry summers, and that ground movement stresses underground supply lines and irrigation laterals year after year. Many slab leaks here aren't the result of a single event — they're the cumulative effect of seasonal soil shift working a fitting loose over several years. If your water bill climbs every spring and normalizes in winter, that pattern is worth investigating before the leak grows large enough to heave the slab or saturate the subfloor.
+Bakersfield summers regularly push past 100°F. Soil in the San Joaquin Valley expands and contracts significantly between the wet winters and dry summers, and that ground movement stresses underground supply lines and irrigation laterals year after year. Many slab leaks here aren't the result of a single event, they're the cumulative effect of seasonal soil shift working a fitting loose over several years. If your water bill climbs every spring and normalizes in winter, that pattern is worth investigating before the leak grows large enough to heave the slab or saturate the subfloor.
 
 ## Service area
 
-All Pro Plumbing Heating and Air runs leak detection calls throughout Bakersfield and the surrounding communities — Oildale, Rosedale, Lamont, Tehachapi, Delano, Shafter, Wasco, and the broader Kern County area. City-specific pages cover local pipe-age and construction details for each community.
+All Pro Plumbing Heating and Air runs leak detection calls throughout Bakersfield and the surrounding communities, Oildale, Rosedale, Lamont, Tehachapi, Delano, Shafter, Wasco, and the broader Kern County area. City-specific pages cover local pipe-age and construction details for each community.
 
-If your water meter is spinning with every fixture off, or your bill has spiked without explanation, call (661) 863-9242 to schedule a leak detection appointment. We're available around the clock — because a hidden leak doesn't stop running at 5 p.m.
+If your water meter is spinning with every fixture off, or your bill has spiked without explanation, call (661) 863-9242 to schedule a leak detection appointment. We're available around the clock, because a hidden leak doesn't stop running at 5 p.m.

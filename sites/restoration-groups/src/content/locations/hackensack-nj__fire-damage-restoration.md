@@ -20,11 +20,11 @@ state: "NJ"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-A kitchen fire in a prewar two-family on Fairmount's tree-lined blocks leaves more than char on the ceiling — it leaves smoke proteins baked into original plaster, charred balloon-frame cavities that can hide embers for hours, and a family displaced while the structure is still legally uninhabitable. That combination of older building materials and dense residential density is exactly the pattern The Restoration Group responds to across Hackensack's 07601 zip code, around the clock.
+A kitchen fire in a prewar two-family on Fairmount's tree-lined blocks leaves more than char on the ceiling, it leaves smoke proteins baked into original plaster, charred balloon-frame cavities that can hide embers for hours, and a family displaced while the structure is still legally uninhabitable. That combination of older building materials and dense residential density is exactly the pattern The Restoration Group responds to across Hackensack's 07601 zip code, around the clock.
 
 ## Why Hackensack's Building Stock Complicates Fire Damage
 
-Hackensack's housing tells its age. The Southside and Fairmount neighborhoods are thick with prewar two- and three-family homes built on balloon-frame construction — a method where wall cavities run floor-to-ceiling without fire blocking. When a fire starts on the first floor, those open channels pull heat and smoke straight into the attic before a single sprinkler activates. Post-fire, that same cavity system traps smoke odor and soot in places a surface wipe-down will never reach.
+Hackensack's housing tells its age. The Southside and Fairmount neighborhoods are thick with prewar two- and three-family homes built on balloon-frame construction, a method where wall cavities run floor-to-ceiling without fire blocking. When a fire starts on the first floor, those open channels pull heat and smoke straight into the attic before a single sprinkler activates. Post-fire, that same cavity system traps smoke odor and soot in places a surface wipe-down will never reach.
 
 The Prospect Avenue high-rise corridor adds a different wrinkle. Stacked units mean a fire on the fourth floor sends smoke into shared HVAC returns, elevator lobbies, and adjacent units that never saw a flame. Restoration in those buildings requires coordinating with building management, documenting affected common areas, and often working alongside the fire marshal's office before re-entry is permitted.
 
@@ -32,28 +32,28 @@ Mid-century capes scattered through the Heights carry their own risk: original k
 
 ## Our Fire Damage Restoration Process in Hackensack
 
-When the call comes in, the first priority is stabilization — board-up, roof tarping if the structure is breached, and a site safety walk to confirm the building is re-enterable. From there, the work moves in a deliberate sequence:
+When the call comes in, the first priority is stabilization, board-up, roof tarping if the structure is breached, and a site safety walk to confirm the building is re-enterable. From there, the work moves in a deliberate sequence:
 
 **Structural assessment and documentation.** Every affected surface is photographed and catalogued before anything is removed. Insurance adjusters and Bergen County building inspectors both require this paper trail, and skipping it creates delays that cost homeowners money.
 
-**Controlled demolition of unsalvageable materials.** In Hackensack's older homes, this often means removing original plaster rather than drywall. Plaster is dense and holds smoke compounds differently — it can off-gas odor for months if left in place after significant heat exposure.
+**Controlled demolition of unsalvageable materials.** In Hackensack's older homes, this often means removing original plaster rather than drywall. Plaster is dense and holds smoke compounds differently, it can off-gas odor for months if left in place after significant heat exposure.
 
 **Dry ice blasting and HEPA vacuuming of structural cavities.** Soot in balloon-frame wall bays can't be wiped; it has to be blasted out and captured. This step is slower in older construction but skipping it is why some post-fire homes still smell like smoke two years later.
 
 **Thermal fogging and hydroxyl treatment for odor.** Smoke odor molecules bond to surfaces at a molecular level. Thermal fogging penetrates the same pathways the smoke used; hydroxyl generators run continuously to break down residual compounds without the off-gassing risks of ozone treatment in occupied adjacent units.
 
-**Rebuild and finish.** As an NJ Licensed Home Improvement Contractor, the work doesn't stop at remediation — framing, drywall, insulation, and finish work are handled under the same project so homeowners aren't managing two separate contractors through an already stressful process.
+**Rebuild and finish.** As an NJ Licensed Home Improvement Contractor, the work doesn't stop at remediation, framing, drywall, insulation, and finish work are handled under the same project so homeowners aren't managing two separate contractors through an already stressful process.
 
 ## Reaching Hackensack from Kenilworth
 
-The Restoration Group's base in Kenilworth puts Hackensack within a direct run up Route 9W or the Garden State Parkway to I-80, typically a straightforward drive into Bergen County. Because the team operates 24/7, a fire loss reported at 2 a.m. near the Bergen County Courthouse district or along Main Street gets the same mobilization as a midday call. Commercial losses in the Main Street business district — restaurants, retail, office — carry additional urgency because every hour of delay is revenue lost and lease obligations running.
+The Restoration Group's base in Kenilworth puts Hackensack within a direct run up Route 9W or the Garden State Parkway to I-80, typically a straightforward drive into Bergen County. Because the team operates 24/7, a fire loss reported at 2 a.m. near the Bergen County Courthouse district or along Main Street gets the same mobilization as a midday call. Commercial losses in the Main Street business district, restaurants, retail, office, carry additional urgency because every hour of delay is revenue lost and lease obligations running.
 
 ## Hackensack Insurance Coordination
 
-Most residential fire losses in New Jersey trigger a homeowner's claim, and Bergen County adjusters are generally familiar with the documentation standards required for older housing stock. The Restoration Group photographs and itemizes damage before any material is removed, produces a written scope of work that maps to Xactimate line items, and communicates directly with your adjuster throughout the project. Homeowners are not asked to front the full project cost while a claim is pending — the documentation process is designed to support a clean, fast claim settlement.
+Most residential fire losses in New Jersey trigger a homeowner's claim, and Bergen County adjusters are generally familiar with the documentation standards required for older housing stock. The Restoration Group photographs and itemizes damage before any material is removed, produces a written scope of work that maps to Xactimate line items, and communicates directly with your adjuster throughout the project. Homeowners are not asked to front the full project cost while a claim is pending, the documentation process is designed to support a clean, fast claim settlement.
 
 ## Local Note
 
-In Hackensack's prewar multifamily homes, original horsehair plaster — common in Southside and Fairmount two-families built before 1940 — behaves differently than modern drywall during fire restoration. Plaster is alkaline, which initially resists smoke penetration, but once heat fractures the surface, soot embeds deeply and the material becomes nearly impossible to deodorize in place. Experienced crews working in this housing stock budget for full plaster removal on fire-affected walls rather than attempting to encapsulate, which saves homeowners from recurring odor complaints six months after the job closes.
+In Hackensack's prewar multifamily homes, original horsehair plaster, common in Southside and Fairmount two-families built before 1940, behaves differently than modern drywall during fire restoration. Plaster is alkaline, which initially resists smoke penetration, but once heat fractures the surface, soot embeds deeply and the material becomes nearly impossible to deodorize in place. Experienced crews working in this housing stock budget for full plaster removal on fire-affected walls rather than attempting to encapsulate, which saves homeowners from recurring odor complaints six months after the job closes.
 
-If you're dealing with fire or smoke damage anywhere in Hackensack — from a kitchen fire in a Heights cape to a sprinkler discharge in a Prospect Avenue high-rise — call The Restoration Group at **(855) 650-7422**. The team is available around the clock, and the assessment starts the moment we arrive on site.
+If you're dealing with fire or smoke damage anywhere in Hackensack, from a kitchen fire in a Heights cape to a sprinkler discharge in a Prospect Avenue high-rise, call The Restoration Group at **(855) 650-7422**. The team is available around the clock, and the assessment starts the moment we arrive on site.

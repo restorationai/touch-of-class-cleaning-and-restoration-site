@@ -19,27 +19,27 @@ state: "SD"
 primary: false
 rendered: true
 ---
-When a pipe bursts in a quartzite-stone bungalow near the Big Sioux or a basement floods after a spring storm rolls across Minnehaha County, Crew Restoration & Construction dispatches from Sioux Falls to handle the full scope — water extraction, structural drying, mold containment, fire and smoke cleanup, and reconstruction — so Dell Rapids property owners have one crew to call instead of three.
+When a pipe bursts in a quartzite-stone bungalow near the Big Sioux or a basement floods after a spring storm rolls across Minnehaha County, Crew Restoration & Construction dispatches from Sioux Falls to handle the full scope, water extraction, structural drying, mold containment, fire and smoke cleanup, and reconstruction, so Dell Rapids property owners have one crew to call instead of three.
 
 ## Restoration emergencies common in Dell Rapids
 
-Dell Rapids sits in a stretch of the Big Sioux River valley where the geology and the weather conspire against older buildings. The quartzite formations that give The Dells of the Big Sioux their dramatic character also shape the drainage patterns across town: runoff moves fast over hard rock and funnels toward low-lying lots along the river corridor. Homes in the Big Sioux River area routinely see basement intrusion within hours of a heavy rain event — not because of poor construction, but because the water table rises quickly when the river swells.
+Dell Rapids sits in a stretch of the Big Sioux River valley where the geology and the weather conspire against older buildings. The quartzite formations that give The Dells of the Big Sioux their dramatic character also shape the drainage patterns across town: runoff moves fast over hard rock and funnels toward low-lying lots along the river corridor. Homes in the Big Sioux River area routinely see basement intrusion within hours of a heavy rain event, not because of poor construction, but because the water table rises quickly when the river swells.
 
-The housing stock compounds the risk. Much of Dell Rapids was built in the late 19th and early 20th centuries, including the blocks that make up the Downtown Dell Rapids Historic District. Those structures often have unreinforced stone or brick foundations, aging clay sewer laterals prone to root intrusion, and original plaster walls that absorb moisture long before a homeowner notices a stain. South Dakota's freeze-thaw cycle — temperatures that swing 50 degrees in a single week during March and April — drives frost into foundation cracks and splits supply lines in uninsulated crawl spaces. By the time ice dams release their meltwater in late winter, interior damage is already underway.
+The housing stock compounds the risk. Much of Dell Rapids was built in the late 19th and early 20th centuries, including the blocks that make up the Downtown Dell Rapids Historic District. Those structures often have unreinforced stone or brick foundations, aging clay sewer laterals prone to root intrusion, and original plaster walls that absorb moisture long before a homeowner notices a stain. South Dakota's freeze-thaw cycle, temperatures that swing 50 degrees in a single week during March and April, drives frost into foundation cracks and splits supply lines in uninsulated crawl spaces. By the time ice dams release their meltwater in late winter, interior damage is already underway.
 
 ## Services we provide in Dell Rapids
 
 ### Water damage restoration
 
-Water damage in Dell Rapids often starts underground — a sump pump overwhelmed during a Big Sioux flood event, a cracked lateral under a century-old foundation, or snowmelt pushing through a stone basement wall. Crew Restoration & Construction extracts standing water, maps moisture with thermal imaging, and runs commercial drying equipment calibrated to the actual conditions inside your structure. Drying timelines and documentation are tracked to IICRC S500 standards, which matters when you're filing a claim with your carrier.
+Water damage in Dell Rapids often starts underground, a sump pump overwhelmed during a Big Sioux flood event, a cracked lateral under a century-old foundation, or snowmelt pushing through a stone basement wall. Crew Restoration & Construction extracts standing water, maps moisture with thermal imaging, and runs commercial drying equipment calibrated to the actual conditions inside your structure. Drying timelines and documentation are tracked to IICRC S500 standards, which matters when you're filing a claim with your carrier.
 
 ### Mold remediation
 
-Mold can begin colonizing wet materials within 24 to 48 hours of a moisture event. In older homes near Rocky Run or along the river corridor — where ventilation is limited and wall cavities hold humidity — mold often spreads behind plaster or inside floor systems before it's visible. Our containment and remediation process isolates affected areas, removes compromised materials, and treats surfaces to reduce recurrence. We do not make medical claims about air quality outcomes, but we do follow established remediation protocols and provide documentation for your records.
+Mold can begin colonizing wet materials within 24 to 48 hours of a moisture event. In older homes near Rocky Run or along the river corridor, where ventilation is limited and wall cavities hold humidity, mold often spreads behind plaster or inside floor systems before it's visible. Our containment and remediation process isolates affected areas, removes compromised materials, and treats surfaces to reduce recurrence. We do not make medical claims about air quality outcomes, but we do follow established remediation protocols and provide documentation for your records.
 
 ### Fire and smoke damage restoration
 
-House fires in Dell Rapids frequently involve older wood-frame construction with balloon framing — a style common in homes built before 1940 that allows smoke and heat to travel vertically through wall cavities faster than in modern platform-framed buildings. Crew handles soot removal, odor neutralization, structural assessment, and board-up or tarping to secure the property while reconstruction is planned.
+House fires in Dell Rapids frequently involve older wood-frame construction with balloon framing, a style common in homes built before 1940 that allows smoke and heat to travel vertically through wall cavities faster than in modern platform-framed buildings. Crew handles soot removal, odor neutralization, structural assessment, and board-up or tarping to secure the property while reconstruction is planned.
 
 ### Reconstruction
 
@@ -47,7 +47,7 @@ Because we carry both restoration and general contracting capabilities, we can t
 
 ## Coverage and how fast we can get there
 
-Dell Rapids is roughly 25 miles northeast of our Sioux Falls headquarters — a straightforward run up SD-115 or I-90 east to SD-115 north, depending on conditions. In normal traffic and weather, that's a manageable drive. We serve every part of Dell Rapids, including properties in the Downtown Dell Rapids Historic District, lots along the Big Sioux River area, and addresses in the 57022 ZIP code. Winter road conditions on SD-115 can add time during ice events, and we'll always give you an honest arrival estimate when you call rather than a number we can't stand behind.
+Dell Rapids is roughly 25 miles northeast of our Sioux Falls headquarters, a straightforward run up SD-115 or I-90 east to SD-115 north, depending on conditions. In normal traffic and weather, that's a manageable drive. We serve every part of Dell Rapids, including properties in the Downtown Dell Rapids Historic District, lots along the Big Sioux River area, and addresses in the 57022 ZIP code. Winter road conditions on SD-115 can add time during ice events, and we'll always give you an honest arrival estimate when you call rather than a number we can't stand behind.
 
 ## Building stock, site conditions, and permits in Dell Rapids
 

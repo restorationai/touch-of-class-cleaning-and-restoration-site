@@ -19,23 +19,23 @@ state: "WA"
 primary: false
 rendered: true
 ---
-When a supply line fails behind a wall in Beckonridge or a bluff-top home above Chambers Creek takes on water through a saturated crawl space, University Place property owners need a crew that already knows the neighborhood — not one that's figuring out the housing stock on the way over. National Restoration Construction has been responding to water, fire, mold, and structural losses across West Pierce County since 2004, and our Federal Way headquarters puts us roughly 15 minutes from most University Place addresses without traffic.
+When a supply line fails behind a wall in Beckonridge or a bluff-top home above Chambers Creek takes on water through a saturated crawl space, University Place property owners need a crew that already knows the neighborhood, not one that's figuring out the housing stock on the way over. National Restoration Construction has been responding to water, fire, mold, and structural losses across West Pierce County since 2004, and our Federal Way headquarters puts us roughly 15 minutes from most University Place addresses without traffic.
 
 ## Restoration emergencies common in University Place
 
-University Place sits in a narrow band between Tacoma's city limits and the Narrows, and the combination of climate, topography, and housing age creates a predictable set of losses. The dominant housing stock — 1960s and 1970s ramblers and split-levels across ZIP codes 98466 and 98467 — was built with galvanized supply lines and cast-iron drains that are now well past their design life. Slow pinhole leaks inside wall cavities and under slab can run for weeks before a homeowner notices a soft spot in the subfloor or a musty smell in a back bedroom. Crawl spaces in this era of construction typically have little or no vapor barrier, so ground moisture migrates upward year-round.
+University Place sits in a narrow band between Tacoma's city limits and the Narrows, and the combination of climate, topography, and housing age creates a predictable set of losses. The dominant housing stock, 1960s and 1970s ramblers and split-levels across ZIP codes 98466 and 98467, was built with galvanized supply lines and cast-iron drains that are now well past their design life. Slow pinhole leaks inside wall cavities and under slab can run for weeks before a homeowner notices a soft spot in the subfloor or a musty smell in a back bedroom. Crawl spaces in this era of construction typically have little or no vapor barrier, so ground moisture migrates upward year-round.
 
-The topography adds another layer. Bluff-top properties along the Chambers Creek canyon deal with winter slope drainage that has nowhere to go except toward the foundation; daylight basements in those homes see seasonal seepage that can saturate framing and insulation before it ever shows up as standing water. On the other end of the elevation spectrum, Day Island's low-lying waterfront homes face tidal influence and saltwater exposure — corrosion accelerates there faster than anywhere else in the service area, and a storm surge event can push brackish water under doors and through crawl-space vents in a single tide cycle.
+The topography adds another layer. Bluff-top properties along the Chambers Creek canyon deal with winter slope drainage that has nowhere to go except toward the foundation; daylight basements in those homes see seasonal seepage that can saturate framing and insulation before it ever shows up as standing water. On the other end of the elevation spectrum, Day Island's low-lying waterfront homes face tidal influence and saltwater exposure, corrosion accelerates there faster than anywhere else in the service area, and a storm surge event can push brackish water under doors and through crawl-space vents in a single tide cycle.
 
 ## Services we provide in University Place
 
 ### Water damage restoration
 
-Water damage in University Place most often starts small and stays hidden. A slow appliance leak under a kitchen island or a failed supply line inside a bathroom wall can saturate the subfloor, wall cavity, and adjacent insulation over days before detection. We use thermal imaging and moisture mapping to find the full extent of saturation — not just the visible wet area — then extract standing water, place drying equipment, and monitor daily until structural readings return to baseline. For Day Island waterfront properties, we account for saltwater contamination in our cleaning and antimicrobial protocols.
+Water damage in University Place most often starts small and stays hidden. A slow appliance leak under a kitchen island or a failed supply line inside a bathroom wall can saturate the subfloor, wall cavity, and adjacent insulation over days before detection. We use thermal imaging and moisture mapping to find the full extent of saturation, not just the visible wet area, then extract standing water, place drying equipment, and monitor daily until structural readings return to baseline. For Day Island waterfront properties, we account for saltwater contamination in our cleaning and antimicrobial protocols.
 
 ### Mold remediation
 
-In University Place's damp winters, mold can begin colonizing wet framing within 24 to 48 hours of a water intrusion. Crawl spaces in older Sunset Terrace and Narrows View homes are among the most common sites we're called to — inadequate vapor barriers and limited airflow create the conditions mold needs to spread across floor joists and rim boards. Our remediation process follows IICRC S520 protocols, and we work with your insurance adjuster from the initial scope through final clearance testing.
+In University Place's damp winters, mold can begin colonizing wet framing within 24 to 48 hours of a water intrusion. Crawl spaces in older Sunset Terrace and Narrows View homes are among the most common sites we're called to, inadequate vapor barriers and limited airflow create the conditions mold needs to spread across floor joists and rim boards. Our remediation process follows IICRC S520 protocols, and we work with your insurance adjuster from the initial scope through final clearance testing.
 
 ### Fire and smoke damage restoration
 
@@ -43,15 +43,15 @@ Kitchen fires and electrical fires in 1960s-era wiring are the calls we field mo
 
 ### Reconstruction and structural repairs
 
-Once mitigation is complete, we handle the rebuild under the same roof — framing, drywall, flooring, cabinetry, and finish work. For properties near Chambers Bay Golf Course or along the Chambers Creek Regional Park corridor, we're familiar with the Pierce County permit process and can coordinate inspections without adding weeks to your timeline.
+Once mitigation is complete, we handle the rebuild under the same roof, framing, drywall, flooring, cabinetry, and finish work. For properties near Chambers Bay Golf Course or along the Chambers Creek Regional Park corridor, we're familiar with the Pierce County permit process and can coordinate inspections without adding weeks to your timeline.
 
 ## Response time and coverage
 
-From our Federal Way headquarters, we can reach most University Place addresses in 15 to 20 minutes under normal conditions — typically under 30 minutes even during peak commute hours via I-5 south to SR-16. Neighborhoods closer to the Fircrest border or along the Narrows View corridor are generally 20 to 25 minutes out. We answer calls 24 hours a day, and a crew with extraction equipment can be on-site within 60 minutes of your call for emergency water losses. We serve all of University Place including Day Island, Chambers Creek, Beckonridge, and Sunset Terrace.
+From our Federal Way headquarters, we can reach most University Place addresses in 15 to 20 minutes under normal conditions, typically under 30 minutes even during peak commute hours via I-5 south to SR-16. Neighborhoods closer to the Fircrest border or along the Narrows View corridor are generally 20 to 25 minutes out. We answer calls 24 hours a day, and a crew with extraction equipment can be on-site within 60 minutes of your call for emergency water losses. We serve all of University Place including Day Island, Chambers Creek, Beckonridge, and Sunset Terrace.
 
 ## Building stock, site conditions, and permits in University Place
 
-Under most of University Place is glacial till — dense hardpan the last ice sheet left behind. Water moves down through the looser soil above it, hits that layer, and spreads sideways, which is why footing drains and crawl-space grade matter more here than the annual rainfall total suggests. Framing from this era is 2x4 with thin or absent insulation, so a wet cavity dries slowly and unevenly.
+Under most of University Place is glacial till, dense hardpan the last ice sheet left behind. Water moves down through the looser soil above it, hits that layer, and spreads sideways, which is why footing drains and crawl-space grade matter more here than the annual rainfall total suggests. Framing from this era is 2x4 with thin or absent insulation, so a wet cavity dries slowly and unevenly.
 
 On homes built before 1980, textured ceilings, sheet vinyl and its adhesive, and joint compound may all contain asbestos, and painted trim may be lead. In this airshed the Puget Sound Clean Air Agency requires an asbestos survey before renovation or demolition work disturbs those materials, so testing comes before demolition, not after.
 

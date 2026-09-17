@@ -19,23 +19,23 @@ state: "FL"
 primary: false
 rendered: true
 ---
-When water backs up through a floor drain in Silver Lakes or smoke settles into the drywall of an older bungalow near Historic Miramar, RestorationXpress responds with the equipment and documentation process that Broward County property owners actually need — not a call center handoff. We handle water damage mitigation, fire and smoke cleanup, mold remediation, and structural drying for homes and commercial properties across Miramar's ZIP codes, and we coordinate directly with insurance carriers so the claims process doesn't fall on you.
+When water backs up through a floor drain in Silver Lakes or smoke settles into the drywall of an older bungalow near Historic Miramar, RestorationXpress responds with the equipment and documentation process that Broward County property owners actually need, not a call center handoff. We handle water damage mitigation, fire and smoke cleanup, mold remediation, and structural drying for homes and commercial properties across Miramar's ZIP codes, and we coordinate directly with insurance carriers so the claims process doesn't fall on you.
 
 ## Restoration emergencies common in Miramar
 
-Miramar sits at the edge of the Everglades drainage basin, and that geography shapes nearly every water loss the city sees. The water table in western Miramar — the master-planned communities around ZIP codes 33027 and 33029 — can sit just a few feet below grade, which means that even a modest roof leak or appliance failure can saturate a slab before the visible damage becomes obvious. During South Florida's June-through-November storm season, wind-driven rain finds its way through sliding glass doors, aging roof penetrations, and the stucco cracks that subtropical heat cycles open year after year.
+Miramar sits at the edge of the Everglades drainage basin, and that geography shapes nearly every water loss the city sees. The water table in western Miramar, the master-planned communities around ZIP codes 33027 and 33029, can sit just a few feet below grade, which means that even a modest roof leak or appliance failure can saturate a slab before the visible damage becomes obvious. During South Florida's June-through-November storm season, wind-driven rain finds its way through sliding glass doors, aging roof penetrations, and the stucco cracks that subtropical heat cycles open year after year.
 
-The eastern neighborhoods tell a different story. Homes in the 33023 corridor and around Historic Miramar were built decades before current Florida Building Code moisture requirements, and many still carry original cast-iron drain lines, older HVAC condensate systems, and roofing materials that have seen multiple hurricane seasons. Mold colonization can begin within 24 to 48 hours of a water intrusion — and in Miramar's year-round humidity, that window is unforgiving. The city's rapid westward growth has also produced a mix of HOA-governed communities and individually owned properties, each with its own documentation requirements for restoration work.
+The eastern neighborhoods tell a different story. Homes in the 33023 corridor and around Historic Miramar were built decades before current Florida Building Code moisture requirements, and many still carry original cast-iron drain lines, older HVAC condensate systems, and roofing materials that have seen multiple hurricane seasons. Mold colonization can begin within 24 to 48 hours of a water intrusion, and in Miramar's year-round humidity, that window is unforgiving. The city's rapid westward growth has also produced a mix of HOA-governed communities and individually owned properties, each with its own documentation requirements for restoration work.
 
 ## Services we provide in Miramar
 
 ### Water damage mitigation
 
-Water damage in Miramar often involves more than the visible wet area. In slab-on-grade construction common throughout Riviera Isles and Sunset Lakes, moisture migrates laterally under flooring for several feet before it shows on the surface. We use thermal imaging and moisture meters to map the actual extent of the loss, extract standing water, and set drying equipment calibrated to Florida's ambient humidity — not a generic drying profile designed for a drier climate.
+Water damage in Miramar often involves more than the visible wet area. In slab-on-grade construction common throughout Riviera Isles and Sunset Lakes, moisture migrates laterally under flooring for several feet before it shows on the surface. We use thermal imaging and moisture meters to map the actual extent of the loss, extract standing water, and set drying equipment calibrated to Florida's ambient humidity, not a generic drying profile designed for a drier climate.
 
 ### Fire and smoke damage restoration
 
-Kitchen fires and electrical fires are the most common calls we receive from Miramar homeowners. Smoke residue in South Florida's warm, humid air bonds to surfaces faster than in cooler climates, and the odor compounds if it isn't addressed quickly. We perform structural cleaning, content pack-out when needed, and odor neutralization — not just masking — using equipment appropriate to the affected materials.
+Kitchen fires and electrical fires are the most common calls we receive from Miramar homeowners. Smoke residue in South Florida's warm, humid air bonds to surfaces faster than in cooler climates, and the odor compounds if it isn't addressed quickly. We perform structural cleaning, content pack-out when needed, and odor neutralization, not just masking, using equipment appropriate to the affected materials.
 
 ### Mold remediation
 
@@ -43,11 +43,11 @@ Miramar's combination of high humidity, aging housing stock in the east, and the
 
 ### Reconstruction and build-back
 
-Once mitigation is complete, many property owners need more than a referral to a separate contractor. We handle the build-back phase — drywall, flooring, cabinetry, and finish work — so the project moves under a single point of contact and a single insurance file.
+Once mitigation is complete, many property owners need more than a referral to a separate contractor. We handle the build-back phase, drywall, flooring, cabinetry, and finish work, so the project moves under a single point of contact and a single insurance file.
 
 ## Coverage and how fast we can get there
 
-RestorationXpress operates out of Davie, which puts Miramar directly in our primary service corridor. From our Davie location, Miramar is a straightforward run — typically west on Griffin Road or south on University Drive, depending on which part of the city needs us. The western communities near Vizcaya Lakes and the Ansin Sports Complex area are roughly 10 to 15 miles from our shop; the eastern neighborhoods near Miramar Regional Park and Historic Miramar are closer. We schedule promptly and keep you informed of arrival timing when you call.
+RestorationXpress operates out of Davie, which puts Miramar directly in our primary service corridor. From our Davie location, Miramar is a straightforward run, typically west on Griffin Road or south on University Drive, depending on which part of the city needs us. The western communities near Vizcaya Lakes and the Ansin Sports Complex area are roughly 10 to 15 miles from our shop; the eastern neighborhoods near Miramar Regional Park and Historic Miramar are closer. We schedule promptly and keep you informed of arrival timing when you call.
 
 Both the rapidly growing western developments along 33029 and the established eastern neighborhoods in 33023 are within our regular coverage area. If you manage a multi-family property or a commercial building near the Miramar Cultural Center, we're familiar with the documentation and scope requirements those losses typically involve.
 
@@ -55,6 +55,6 @@ Both the rapidly growing western developments along 33029 and the established ea
 
 East of Palm Avenue, much of the housing is 1950s–1960s concrete block with stucco, terrazzo or thin tile over a slab, and shallow gable or low-slope roofs. Those blocks hold moisture inside the wall cavity long after the surface feels dry, and galvanized supply lines from that era fail at the threads rather than in one clean break. Western Miramar is largely 1990s-and-later block with wood truss roofs and concrete tile, sitting on engineered fill pads over the sand and limestone typical of this edge of Broward.
 
-Broward is a High-Velocity Hurricane Zone under the Florida Building Code, and the county's Board of Rules and Appeals oversees how it is administered. Permits come from the City of Miramar's building division. Drying and cleaning generally do not need one; roofing, structural framing, electrical, and drywall replacement usually do — and HOA approval is separate.
+Broward is a High-Velocity Hurricane Zone under the Florida Building Code, and the county's Board of Rules and Appeals oversees how it is administered. Permits come from the City of Miramar's building division. Drying and cleaning generally do not need one; roofing, structural framing, electrical, and drywall replacement usually do, and HOA approval is separate.
 
 If you're dealing with a water loss, fire damage, or a mold concern anywhere in Miramar, call RestorationXpress at **(954) 932-5420**. We'll walk you through what to expect before we ever arrive on site.

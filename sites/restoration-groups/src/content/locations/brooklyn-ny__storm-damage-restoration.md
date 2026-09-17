@@ -20,31 +20,31 @@ state: "NY"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
-When a nor'easter stalls over the harbor or a late-season tropical system pushes a surge up Gravesend Bay, Brooklyn takes the hit differently than almost anywhere else in the metro area. The borough's mix of 1880s–1920s masonry rowhouses, garden-level apartments, and low-lying coastal blocks from Canarsie to Coney Island means storm damage here isn't just about broken windows — it's about water finding its way into century-old cellar apartments, wind-lifted slate roofing on brownstone cornices, and saturated party walls that belong, legally, to two neighbors at once. The Restoration Group responds 24/7 to storm damage calls across Brooklyn, with an IICRC Certified Firm (#210213) crew that understands what these buildings are and what they're worth.
+When a nor'easter stalls over the harbor or a late-season tropical system pushes a surge up Gravesend Bay, Brooklyn takes the hit differently than almost anywhere else in the metro area. The borough's mix of 1880s–1920s masonry rowhouses, garden-level apartments, and low-lying coastal blocks from Canarsie to Coney Island means storm damage here isn't just about broken windows, it's about water finding its way into century-old cellar apartments, wind-lifted slate roofing on brownstone cornices, and saturated party walls that belong, legally, to two neighbors at once. The Restoration Group responds 24/7 to storm damage calls across Brooklyn, with an IICRC Certified Firm (#210213) crew that understands what these buildings are and what they're worth.
 
 ## Why Brooklyn Properties Take Storm Damage Hard
 
-Brooklyn's housing stock was built before modern waterproofing standards existed, and that history shows up fast after a major weather event. The brownstone belt running through Park Slope and Brooklyn Heights is dense with rowhouses whose below-grade garden apartments sit two to four feet below street grade. When Ida dropped more than three inches of rain in a single hour in 2021, those cellar units flooded in minutes — not because of failed sump pumps, but because the city's combined sewer system simply couldn't absorb the volume. The water came up through floor drains.
+Brooklyn's housing stock was built before modern waterproofing standards existed, and that history shows up fast after a major weather event. The brownstone belt running through Park Slope and Brooklyn Heights is dense with rowhouses whose below-grade garden apartments sit two to four feet below street grade. When Ida dropped more than three inches of rain in a single hour in 2021, those cellar units flooded in minutes, not because of failed sump pumps, but because the city's combined sewer system simply couldn't absorb the volume. The water came up through floor drains.
 
-Coastal neighborhoods carry a different kind of exposure. Sandy's storm surge left a physical memory in Canarsie and Red Hook that residents haven't forgotten, and the same geography — flat, low, close to tidal water — means any significant coastal storm can push water inland faster than emergency services can respond. Co-op and condo boards in these areas increasingly require documented mitigation reports before they'll authorize repairs, which means the paperwork side of storm restoration is as important as the drying equipment.
+Coastal neighborhoods carry a different kind of exposure. Sandy's storm surge left a physical memory in Canarsie and Red Hook that residents haven't forgotten, and the same geography, flat, low, close to tidal water, means any significant coastal storm can push water inland faster than emergency services can respond. Co-op and condo boards in these areas increasingly require documented mitigation reports before they'll authorize repairs, which means the paperwork side of storm restoration is as important as the drying equipment.
 
 On the structural side, Brooklyn's party-wall construction means that water infiltrating one rowhouse can wick laterally into the adjacent unit through shared masonry. Owners in ZIP code 11215 and 11201 have discovered storm damage in their homes that originated two doors down.
 
 ## Our Storm Damage Restoration Process in Brooklyn
 
-Every storm job starts with a scope assessment that accounts for what the building actually is. In a Flatbush two-family or a Williamsburg converted warehouse loft, the materials, the drainage patterns, and the structural risks are completely different — and the restoration approach has to match.
+Every storm job starts with a scope assessment that accounts for what the building actually is. In a Flatbush two-family or a Williamsburg converted warehouse loft, the materials, the drainage patterns, and the structural risks are completely different, and the restoration approach has to match.
 
-**Step 1 — Emergency stabilization.** Wind-driven openings get tarped and boarded. Active water intrusion points are identified and stopped before drying equipment goes in. In masonry buildings, this often means inspecting the parapet and cornice line, not just the windows.
+**Step 1, Emergency stabilization.** Wind-driven openings get tarped and boarded. Active water intrusion points are identified and stopped before drying equipment goes in. In masonry buildings, this often means inspecting the parapet and cornice line, not just the windows.
 
-**Step 2 — Water extraction and moisture mapping.** We use thermal imaging and calibrated moisture meters to trace water migration through plaster, brick, and subfloor assemblies. In pre-war construction, water travels further and hides longer than it does in modern stud-frame walls.
+**Step 2, Water extraction and moisture mapping.** We use thermal imaging and calibrated moisture meters to trace water migration through plaster, brick, and subfloor assemblies. In pre-war construction, water travels further and hides longer than it does in modern stud-frame walls.
 
-**Step 3 — Controlled structural drying.** Industrial air movers and desiccant dehumidifiers are staged to dry materials in place wherever possible. Removing original plaster or period woodwork is a last resort, not a first move — both for preservation reasons and because replacement costs in Brooklyn's renovation market are significant.
+**Step 3, Controlled structural drying.** Industrial air movers and desiccant dehumidifiers are staged to dry materials in place wherever possible. Removing original plaster or period woodwork is a last resort, not a first move, both for preservation reasons and because replacement costs in Brooklyn's renovation market are significant.
 
-**Step 4 — Documentation and damage reporting.** Every affected surface is photographed, measured, and logged in a format that insurance adjusters and co-op management companies can work with directly. We bill most major carriers and can coordinate with your building's managing agent.
+**Step 4, Documentation and damage reporting.** Every affected surface is photographed, measured, and logged in a format that insurance adjusters and co-op management companies can work with directly. We bill most major carriers and can coordinate with your building's managing agent.
 
 ## Reaching Brooklyn from Kenilworth
 
-The Restoration Group's operations hub is in Kenilworth, NJ, which puts Brooklyn within reach via the Goethals Bridge to the Staten Island Expressway and the Verrazzano-Narrows Bridge, or through the Holland Tunnel and across lower Manhattan. For neighborhoods in the northern part of the borough — Williamsburg, Bushwick, Brooklyn Heights — the tunnel route is typically faster. For Bay Ridge, Canarsie, and the southern coastal neighborhoods, the Verrazzano corridor is the direct approach.
+The Restoration Group's operations hub is in Kenilworth, NJ, which puts Brooklyn within reach via the Goethals Bridge to the Staten Island Expressway and the Verrazzano-Narrows Bridge, or through the Holland Tunnel and across lower Manhattan. For neighborhoods in the northern part of the borough, Williamsburg, Bushwick, Brooklyn Heights, the tunnel route is typically faster. For Bay Ridge, Canarsie, and the southern coastal neighborhoods, the Verrazzano corridor is the direct approach.
 
 Because we operate 24/7, dispatch is available at any hour after a storm event. Call (908) 970-8533 and a live coordinator will route the nearest available crew.
 
@@ -52,10 +52,10 @@ Because we operate 24/7, dispatch is available at any hour after a storm event. 
 
 Storm claims in Brooklyn carry some specific friction points that don't exist in suburban markets. Co-op boards often require board approval before any contractor begins non-emergency structural work, which means your mitigation documentation needs to be detailed enough to satisfy both your insurer and your building's managing agent simultaneously. Condo associations in newer Williamsburg and Bushwick developments typically have their own master policies that interact with unit-owner policies in ways that require careful coordination.
 
-We prepare loss documentation — moisture logs, photo sets, scope-of-loss narratives — that satisfies both audiences. If your insurer sends an independent adjuster, we'll walk the site with them.
+We prepare loss documentation, moisture logs, photo sets, scope-of-loss narratives, that satisfies both audiences. If your insurer sends an independent adjuster, we'll walk the site with them.
 
 ## Local Note
 
 One thing that surprises homeowners in Park Slope and Brooklyn Heights after a major wind event: the slate and clay tile roofs on many brownstones are original, which means individual tiles that lift or crack during a storm can't simply be replaced with whatever's at the supply house. Matching historical slate requires sourcing from salvage yards or specialty suppliers, and some buildings in landmarked districts require Landmarks Preservation Commission review before exterior repairs are finalized. We flag this early in the assessment so owners aren't caught off guard when the roofing contractor shows up and can't match the material.
 
-If your property sustained storm damage anywhere in Brooklyn, call (908) 970-8533 now. The Restoration Group's 24/7 team is ready to assess the damage, stop further loss, and walk you through every step of the restoration — from the first moisture reading to the final sign-off with your insurer.
+If your property sustained storm damage anywhere in Brooklyn, call (908) 970-8533 now. The Restoration Group's 24/7 team is ready to assess the damage, stop further loss, and walk you through every step of the restoration, from the first moisture reading to the final sign-off with your insurer.

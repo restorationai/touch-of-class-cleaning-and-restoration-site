@@ -20,29 +20,29 @@ state: "WA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
-A branch through your roof. A flooded garage from overnight runoff. Siding peeled back by 60 mph gusts. If you're searching for storm damage help in Kirkland right now, you don't need a sales pitch — you need someone on-site fast, with the equipment and experience to stop the damage from spreading. National Restoration Construction has handled storm recovery across the greater Seattle area since 2004, and we respond to Kirkland calls within 60–90 minutes from our Federal Way headquarters. Dial **(206) 883-0333** and a real person picks up, day or night.
+A branch through your roof. A flooded garage from overnight runoff. Siding peeled back by 60 mph gusts. If you're searching for storm damage help in Kirkland right now, you don't need a sales pitch, you need someone on-site fast, with the equipment and experience to stop the damage from spreading. National Restoration Construction has handled storm recovery across the greater Seattle area since 2004, and we respond to Kirkland calls within 60–90 minutes from our Federal Way headquarters. Dial **(206) 883-0333** and a real person picks up, day or night.
 
 ## Why Kirkland Properties Take a Hard Hit in Severe Weather
 
 Kirkland's position along the eastern shore of Lake Washington creates a particular exposure problem. Moisture-laden systems rolling in off Puget Sound accelerate as they funnel through the I-90 and SR-520 corridors, and by the time they reach the Eastside, they're carrying enough wind and rain to overwhelm gutters, lift shingles, and push water into crawl spaces that weren't designed for that kind of saturation.
 
-The housing stock adds to the risk. Neighborhoods like Juanita, Bridle Trails, and Totem Lake are full of mature Douglas fir and big-leaf maple — beautiful trees that become projectiles when root systems saturated by weeks of rain finally give way. Tree damage cleanup is one of the most common calls we receive from Kirkland homeowners after any significant storm event. Older homes near the waterfront, many built in the 1960s and 70s, often have wood-framed roofs and original windows that simply weren't built to current wind-load standards.
+The housing stock adds to the risk. Neighborhoods like Juanita, Bridle Trails, and Totem Lake are full of mature Douglas fir and big-leaf maple, beautiful trees that become projectiles when root systems saturated by weeks of rain finally give way. Tree damage cleanup is one of the most common calls we receive from Kirkland homeowners after any significant storm event. Older homes near the waterfront, many built in the 1960s and 70s, often have wood-framed roofs and original windows that simply weren't built to current wind-load standards.
 
-Winter atmospheric rivers — the same systems that occasionally bring hurricane-force wind warnings to Western Washington — can drop three to four inches of rain in 24 hours. When that happens, the question isn't whether storm damage will occur in Kirkland. It's how quickly you can get ahead of it.
+Winter atmospheric rivers, the same systems that occasionally bring hurricane-force wind warnings to Western Washington, can drop three to four inches of rain in 24 hours. When that happens, the question isn't whether storm damage will occur in Kirkland. It's how quickly you can get ahead of it.
 
 ## Our Storm Damage Restoration Process in Kirkland
 
-When we arrive, the first priority is stopping active damage — not paperwork, not a lengthy sales consultation. Here's what that looks like in practice:
+When we arrive, the first priority is stopping active damage, not paperwork, not a lengthy sales consultation. Here's what that looks like in practice:
 
-**Emergency stabilization.** If there's a breach in the building envelope — a missing section of roof, a shattered window, a garage door that's been pushed in — we tarp, board, and seal before anything else. Water that keeps entering a structure compounds every repair that follows.
+**Emergency stabilization.** If there's a breach in the building envelope, a missing section of roof, a shattered window, a garage door that's been pushed in, we tarp, board, and seal before anything else. Water that keeps entering a structure compounds every repair that follows.
 
 **Damage assessment and documentation.** We photograph and document everything systematically: structural damage, water intrusion points, affected materials. This documentation is built with your insurance adjuster in mind from the start.
 
-**Water extraction and drying.** Storm events almost always involve water intrusion. We deploy truck-mounted extraction units and commercial-grade desiccant or refrigerant dehumidifiers, then use thermal imaging and moisture meters to map saturation behind walls and under flooring — places that look dry but aren't.
+**Water extraction and drying.** Storm events almost always involve water intrusion. We deploy truck-mounted extraction units and commercial-grade desiccant or refrigerant dehumidifiers, then use thermal imaging and moisture meters to map saturation behind walls and under flooring, places that look dry but aren't.
 
 **Debris and tree damage cleanup.** Fallen limbs and debris are removed safely. If a tree has compromised a structural element, we assess load-bearing impact before any debris is moved.
 
-**Reconstruction.** As a licensed general contractor (WA State L&I #NATIORC792M6), we handle the rebuild — roofing, siding, framing, drywall, windows — so you're not coordinating between a restoration company and a separate contractor. One point of contact from emergency response through finished repair.
+**Reconstruction.** As a licensed general contractor (WA State L&I #NATIORC792M6), we handle the rebuild, roofing, siding, framing, drywall, windows, so you're not coordinating between a restoration company and a separate contractor. One point of contact from emergency response through finished repair.
 
 ## Navigating Insurance Claims After Storm Damage
 
@@ -52,14 +52,14 @@ What we handle: detailed scope-of-loss documentation, photo and moisture-reading
 
 What you'll need to do: report the claim to your insurer promptly, review your policy's deductible and any exclusions, and be present or available when the adjuster schedules their inspection. We can walk you through what to expect from that conversation.
 
-One practical note — Washington's severe weather damage repair claims often hinge on proving the damage was sudden and storm-caused rather than the result of deferred maintenance. Our documentation is built to make that distinction clear.
+One practical note, Washington's severe weather damage repair claims often hinge on proving the damage was sudden and storm-caused rather than the result of deferred maintenance. Our documentation is built to make that distinction clear.
 
 ## Response Times to Kirkland and Surrounding Areas
 
-From our Federal Way base, Kirkland is typically 30–45 minutes via I-405 under normal traffic conditions. During a regional storm event, when roads may be affected and call volume is high, we're honest: plan for 60–90 minutes. We prioritize calls with active water intrusion or structural exposure — situations where every additional hour matters.
+From our Federal Way base, Kirkland is typically 30–45 minutes via I-405 under normal traffic conditions. During a regional storm event, when roads may be affected and call volume is high, we're honest: plan for 60–90 minutes. We prioritize calls with active water intrusion or structural exposure, situations where every additional hour matters.
 
 If you're in the Totem Lake or Kingsgate area near the 405/522 interchange, response times trend toward the faster end of that range. Juanita and the lakefront neighborhoods are a few minutes further but still well within our standard window.
 
-For severe weather damage repair situations that are genuinely life-safety emergencies — gas smell, structural collapse risk, live electrical near water — call 911 first, then call us.
+For severe weather damage repair situations that are genuinely life-safety emergencies, gas smell, structural collapse risk, live electrical near water, call 911 first, then call us.
 
 When you're ready to get a crew moving, **(206) 883-0333** is answered around the clock. You can also reach us online if the situation allows, but for active emergencies, the phone is faster.

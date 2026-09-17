@@ -17,17 +17,17 @@ service_slug: "contents-restoration"
 service_display: "Contents Restoration and Storage"
 rendered: true
 ---
-When a pipe bursts or a kitchen fire tears through your home, the structure gets most of the attention — but your furniture, clothing, artwork, documents, and keepsakes are absorbing the same smoke, soot, and moisture the whole time. Every hour those items sit in a contaminated environment, the damage compounds: smoke odor bonds deeper into fabric fibers, soot oxidizes and etches hard surfaces, and moisture begins breaking down wood joints and paper. Contents restoration and storage is the discipline of getting those belongings out, cleaned, treated, and safely stored before the damage becomes permanent.
+When a pipe bursts or a kitchen fire tears through your home, the structure gets most of the attention, but your furniture, clothing, artwork, documents, and keepsakes are absorbing the same smoke, soot, and moisture the whole time. Every hour those items sit in a contaminated environment, the damage compounds: smoke odor bonds deeper into fabric fibers, soot oxidizes and etches hard surfaces, and moisture begins breaking down wood joints and paper. Contents restoration and storage is the discipline of getting those belongings out, cleaned, treated, and safely stored before the damage becomes permanent.
 
 ## What contents restoration and storage actually involves
 
-Contents work is a different discipline from structural restoration. Where structural drying focuses on walls, subfloors, and framing, contents restoration is item-by-item triage — evaluating each piece for restorability, choosing the right cleaning method for that specific material, and tracking every item through the process so nothing is lost or misidentified.
+Contents work is a different discipline from structural restoration. Where structural drying focuses on walls, subfloors, and framing, contents restoration is item-by-item triage, evaluating each piece for restorability, choosing the right cleaning method for that specific material, and tracking every item through the process so nothing is lost or misidentified.
 
 A typical contents loss involves three overlapping categories of work:
 
-**Pack-out and inventory.** Every item is photographed, barcoded or tagged, and logged before it leaves the property. This inventory is the backbone of your insurance claim — adjusters need a documented chain of custody to approve replacement or restoration values. Items that cannot be restored are separated and documented for total-loss claims.
+**Pack-out and inventory.** Every item is photographed, barcoded or tagged, and logged before it leaves the property. This inventory is the backbone of your insurance claim, adjusters need a documented chain of custody to approve replacement or restoration values. Items that cannot be restored are separated and documented for total-loss claims.
 
-**Cleaning and treatment.** Depending on the loss type, technicians use ultrasonic cleaning tanks (effective on hard goods, tools, and non-porous items), dry-soot sponges and HEPA-vacuuming for fire-affected soft goods, ozone or hydroxyl treatment for odor penetration in fabrics and upholstered furniture, and controlled freeze-drying for water-saturated documents and photographs. The cleaning method is matched to the item — the wrong chemistry on a painted canvas or a lacquered antique can cause more damage than the original loss.
+**Cleaning and treatment.** Depending on the loss type, technicians use ultrasonic cleaning tanks (effective on hard goods, tools, and non-porous items), dry-soot sponges and HEPA-vacuuming for fire-affected soft goods, ozone or hydroxyl treatment for odor penetration in fabrics and upholstered furniture, and controlled freeze-drying for water-saturated documents and photographs. The cleaning method is matched to the item, the wrong chemistry on a painted canvas or a lacquered antique can cause more damage than the original loss.
 
 **Climate-controlled storage.** While your home is being dried, deodorized, or rebuilt, your belongings need a stable environment. Contents are stored in a facility with controlled temperature and humidity to prevent secondary mold growth or warping. Items remain in storage until the structure is ready to receive them, then are returned, unpacked, and placed.
 
@@ -35,7 +35,7 @@ Timelines vary significantly. A straightforward pack-out and cleaning after a si
 
 ## Our process
 
-1. **On-site assessment and room-by-room triage.** Before anything is moved, technicians walk the property and categorize items by loss type (smoke, soot, water, mold exposure), material, and restorability. High-value or fragile items — artwork, electronics, instruments — are flagged for specialized handling.
+1. **On-site assessment and room-by-room triage.** Before anything is moved, technicians walk the property and categorize items by loss type (smoke, soot, water, mold exposure), material, and restorability. High-value or fragile items, artwork, electronics, instruments, are flagged for specialized handling.
 
 2. **Documented pack-out with photographic inventory.** Every item is photographed in place, then again as it is packed. A digital inventory is created with item descriptions, condition notes, and assigned storage codes. This documentation is submitted directly to your insurance carrier as part of the claim package.
 
@@ -47,17 +47,17 @@ Timelines vary significantly. A straightforward pack-out and cleaning after a si
 
 ## What separates a good contents response from a bad one
 
-The most common failure in contents restoration is speed without documentation. A crew that packs out a house quickly but without a room-by-room photographic inventory creates an insurance nightmare — adjusters cannot approve values for items that have no documented pre-loss condition or location. Reign Restoration's IICRC FSRT (Fire & Smoke) and IICRC WRT (Water) certifications reflect training in exactly this kind of evidence-based documentation.
+The most common failure in contents restoration is speed without documentation. A crew that packs out a house quickly but without a room-by-room photographic inventory creates an insurance nightmare, adjusters cannot approve values for items that have no documented pre-loss condition or location. Reign Restoration's IICRC FSRT (Fire & Smoke) and IICRC WRT (Water) certifications reflect training in exactly this kind of evidence-based documentation.
 
 A second common failure is applying the wrong cleaning chemistry. Protein-based soot from kitchen fires and synthetic soot from burning plastics or wiring require different cleaning agents and dwell times. Applying a general-purpose cleaner to protein soot can smear and set the residue permanently. Ultrasonic cleaning, while highly effective on metal and glass, can destroy certain finishes, adhesives, and electronics if the operator does not pre-screen items correctly.
 
-Insurance adjusters also look closely at the restorability determination. A reputable contents firm documents why each item was classified as restorable or non-restorable — material condition, contamination type, cost-to-restore versus replacement value. Vague or undocumented restorability calls are a common reason supplements and claims get disputed.
+Insurance adjusters also look closely at the restorability determination. A reputable contents firm documents why each item was classified as restorable or non-restorable, material condition, contamination type, cost-to-restore versus replacement value. Vague or undocumented restorability calls are a common reason supplements and claims get disputed.
 
-Finally, storage conditions matter. Contents stored in an uncontrolled warehouse during a Texas summer — where ambient humidity regularly climbs above 60% — can develop secondary mold growth within 48 to 72 hours, turning a restorable loss into a total loss.
+Finally, storage conditions matter. Contents stored in an uncontrolled warehouse during a Texas summer, where ambient humidity regularly climbs above 60%, can develop secondary mold growth within 48 to 72 hours, turning a restorable loss into a total loss.
 
 ## What does contents restoration and storage cost?
 
-Typical costs depend heavily on the size of the home, the type of loss, and the volume of items requiring treatment. Most homeowners pay somewhere in the ranges below — these are industry-typical figures, not Reign Restoration quotes, and every loss is different.
+Typical costs depend heavily on the size of the home, the type of loss, and the volume of items requiring treatment. Most homeowners pay somewhere in the ranges below, these are industry-typical figures, not Reign Restoration quotes, and every loss is different.
 
 | Scenario | Typical range |
 |---|---|
@@ -68,16 +68,16 @@ Typical costs depend heavily on the size of the home, the type of loss, and the 
 | Ultrasonic cleaning for hard goods and collectibles | $300 – $1,500 |
 | Ozone or hydroxyl odor treatment for textiles | $400 – $1,200 |
 
-Reign Restoration provides a written scope of work before any contents work begins — you will know what is being done and why before a single item is moved. Homeowners insurance typically covers contents restoration and storage when the loss is caused by a covered peril (fire, burst pipe, storm); your policy's personal property coverage and any scheduled items riders determine the ceiling.
+Reign Restoration provides a written scope of work before any contents work begins, you will know what is being done and why before a single item is moved. Homeowners insurance typically covers contents restoration and storage when the loss is caused by a covered peril (fire, burst pipe, storm); your policy's personal property coverage and any scheduled items riders determine the ceiling.
 
 ## Seasonal and regional considerations
 
-North Texas humidity is a significant factor in contents restoration. Royse City and the surrounding Rockwall County area regularly see summer dew points above 70°F, which means that contents removed from an air-conditioned home and placed in an uncontrolled environment can begin absorbing ambient moisture within hours. This is especially relevant for wood furniture, paper goods, and musical instruments. Proper climate-controlled storage is not a convenience — in a Texas summer, it is a requirement for preventing secondary damage.
+North Texas humidity is a significant factor in contents restoration. Royse City and the surrounding Rockwall County area regularly see summer dew points above 70°F, which means that contents removed from an air-conditioned home and placed in an uncontrolled environment can begin absorbing ambient moisture within hours. This is especially relevant for wood furniture, paper goods, and musical instruments. Proper climate-controlled storage is not a convenience, in a Texas summer, it is a requirement for preventing secondary damage.
 
-Winter ice storms, which have become more disruptive across the DFW metro in recent years, often produce sudden and widespread pipe failures. When multiple homes in a neighborhood lose pipes simultaneously, the window to get contents out before mold colonization begins — typically 24 to 48 hours in warm, humid conditions — becomes very tight. Early pack-out, even before full drying is underway, is often the right call.
+Winter ice storms, which have become more disruptive across the DFW metro in recent years, often produce sudden and widespread pipe failures. When multiple homes in a neighborhood lose pipes simultaneously, the window to get contents out before mold colonization begins, typically 24 to 48 hours in warm, humid conditions, becomes very tight. Early pack-out, even before full drying is underway, is often the right call.
 
 ## Service area
 
-Reign Restoration is based in Royse City, TX and handles contents restoration and storage throughout the surrounding area, including Rockwall, Fate, Heath, Forney, Terrell, Caddo Mills, and the broader DFW metro. Each city-specific page links back here for the full process detail — but the work is the same regardless of zip code.
+Reign Restoration is based in Royse City, TX and handles contents restoration and storage throughout the surrounding area, including Rockwall, Fate, Heath, Forney, Terrell, Caddo Mills, and the broader DFW metro. Each city-specific page links back here for the full process detail, but the work is the same regardless of zip code.
 
-If your belongings are sitting in a smoke- or water-damaged room right now, the clock is already running. Call Reign Restoration at (214) 304-0621 to schedule a contents assessment and pack-out — the sooner items are out of the contaminated environment, the more of them can be saved.
+If your belongings are sitting in a smoke- or water-damaged room right now, the clock is already running. Call Reign Restoration at (214) 304-0621 to schedule a contents assessment and pack-out, the sooner items are out of the contaminated environment, the more of them can be saved.

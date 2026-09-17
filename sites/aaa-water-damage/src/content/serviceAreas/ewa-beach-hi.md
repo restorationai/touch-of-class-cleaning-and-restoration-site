@@ -19,29 +19,29 @@ state: "HI"
 primary: false
 rendered: true
 ---
-When a washing-machine hose lets go at midnight in Ocean Pointe or a Kona storm pushes water under the garage door in Ewa Gentry, the clock starts immediately. AAA Water Damage Restoration & Carpet Care responds to water damage, mold, fire damage, and carpet care emergencies across Ewa Beach — ZIP code 96706 — around the clock, dispatching from Honolulu with extraction and drying equipment ready to work the moment we arrive.
+When a washing-machine hose lets go at midnight in Ocean Pointe or a Kona storm pushes water under the garage door in Ewa Gentry, the clock starts immediately. AAA Water Damage Restoration & Carpet Care responds to water damage, mold, fire damage, and carpet care emergencies across Ewa Beach, ZIP code 96706, around the clock, dispatching from Honolulu with extraction and drying equipment ready to work the moment we arrive.
 
 ## Restoration emergencies common in Ewa Beach
 
-Ewa Beach is one of Oahu's fastest-growing corridors, and its housing stock tells the story of that growth. From the mid-1990s through today, Ocean Pointe, Ewa Gentry, and Hoakalei filled in with slab-on-grade tract homes — tightly built, finished to the walls, and often two stories. That construction style concentrates risk: a water heater tucked in a second-floor utility closet or an upstairs bathroom with a slow supply-line drip can saturate drywall, insulation, and engineered flooring before anyone smells the problem.
+Ewa Beach is one of Oahu's fastest-growing corridors, and its housing stock tells the story of that growth. From the mid-1990s through today, Ocean Pointe, Ewa Gentry, and Hoakalei filled in with slab-on-grade tract homes, tightly built, finished to the walls, and often two stories. That construction style concentrates risk: a water heater tucked in a second-floor utility closet or an upstairs bathroom with a slow supply-line drip can saturate drywall, insulation, and engineered flooring before anyone smells the problem.
 
-The land itself compounds the issue. The Ewa plain is remarkably flat, and it drains slowly. When a Kona storm stalls over the leeward coast, water ponds against slabs and seeps through garage thresholds — sometimes entering finished living spaces that homeowners assumed were safe from flooding. Coastal trade-wind humidity is already high, and the newer, energy-efficient homes in Hoakalei and Ewa Gentry are sealed tightly enough that moisture has nowhere to go after a loss event. Fans and open windows rarely dry a soaked wall cavity in that environment; professional structural drying with calibrated dehumidifiers and air movers is what actually stops secondary mold from taking hold within 24 to 48 hours.
+The land itself compounds the issue. The Ewa plain is remarkably flat, and it drains slowly. When a Kona storm stalls over the leeward coast, water ponds against slabs and seeps through garage thresholds, sometimes entering finished living spaces that homeowners assumed were safe from flooding. Coastal trade-wind humidity is already high, and the newer, energy-efficient homes in Hoakalei and Ewa Gentry are sealed tightly enough that moisture has nowhere to go after a loss event. Fans and open windows rarely dry a soaked wall cavity in that environment; professional structural drying with calibrated dehumidifiers and air movers is what actually stops secondary mold from taking hold within 24 to 48 hours.
 
-Plantation-era Ewa Villages is a different story — older plumbing, galvanized supply lines, and homes that have been modified over decades. Pinhole leaks and corroded fittings are common calls from that neighborhood, often discovered only after staining appears on ceilings or floors.
+Plantation-era Ewa Villages is a different story, older plumbing, galvanized supply lines, and homes that have been modified over decades. Pinhole leaks and corroded fittings are common calls from that neighborhood, often discovered only after staining appears on ceilings or floors.
 
 ## Services we provide in Ewa Beach
 
 ### Water damage restoration
 
-Water damage in Ewa Beach most often involves appliance failures, supply-line breaks, or storm intrusion through garages and sliding-glass-door thresholds. We extract standing water, remove saturated materials where necessary, and run a structured drying plan — monitoring moisture readings daily until the structure reaches its dry standard. Photograph the damage thoroughly before we arrive; that documentation supports your insurance claim.
+Water damage in Ewa Beach most often involves appliance failures, supply-line breaks, or storm intrusion through garages and sliding-glass-door thresholds. We extract standing water, remove saturated materials where necessary, and run a structured drying plan, monitoring moisture readings daily until the structure reaches its dry standard. Photograph the damage thoroughly before we arrive; that documentation supports your insurance claim.
 
 ### Mold remediation
 
-The combination of coastal humidity and tightly sealed newer homes means mold can colonize hidden cavities faster here than in older, leakier construction. If you're seeing discoloration on drywall near Wai Kai Lagoon or noticing a musty odor in a closet that backs up to an exterior wall, don't wait. We contain affected areas, remove compromised materials, and treat surfaces to industry standards — then verify clearance before closing walls.
+The combination of coastal humidity and tightly sealed newer homes means mold can colonize hidden cavities faster here than in older, leakier construction. If you're seeing discoloration on drywall near Wai Kai Lagoon or noticing a musty odor in a closet that backs up to an exterior wall, don't wait. We contain affected areas, remove compromised materials, and treat surfaces to industry standards, then verify clearance before closing walls.
 
 ### Fire and smoke damage restoration
 
-Kitchen fires are the most common fire call we receive from Ewa Beach homes. Smoke residue travels further than the flame ever does, embedding in HVAC systems, soft furnishings, and wall cavities. We assess the full extent of smoke migration, clean affected surfaces, and coordinate structural repairs so the home is livable again — not just visually clean.
+Kitchen fires are the most common fire call we receive from Ewa Beach homes. Smoke residue travels further than the flame ever does, embedding in HVAC systems, soft furnishings, and wall cavities. We assess the full extent of smoke migration, clean affected surfaces, and coordinate structural repairs so the home is livable again, not just visually clean.
 
 ### Carpet cleaning and care
 
@@ -49,13 +49,13 @@ For Ewa Beach homeowners dealing with post-flood carpet or simply the salt-air g
 
 ## Coverage and how fast we can get there
 
-From our Honolulu base, Ewa Beach is a direct run west on H-1 — roughly 20 to 25 miles depending on the specific neighborhood. Ocean Pointe and Hoakalei Country Club sit near the Fort Weaver Road interchange; Ewa Villages and Iroquois Point are a few minutes further along the same corridor. Because we operate 24/7, we can dispatch at any hour — there's no waiting until business hours to get equipment moving toward your address. We cover all of 96706, including the newer phases of Ewa Gentry that continue to build out toward the second city.
+From our Honolulu base, Ewa Beach is a direct run west on H-1, roughly 20 to 25 miles depending on the specific neighborhood. Ocean Pointe and Hoakalei Country Club sit near the Fort Weaver Road interchange; Ewa Villages and Iroquois Point are a few minutes further along the same corridor. Because we operate 24/7, we can dispatch at any hour, there's no waiting until business hours to get equipment moving toward your address. We cover all of 96706, including the newer phases of Ewa Gentry that continue to build out toward the second city.
 
 ## Building stock, site conditions, and permits in Ewa Beach
 
 Plantation-era houses in the older parts of Ewa were often built single-wall: vertical tongue-and-groove boards that serve as structure and finish at once, sitting on post-and-pier framing with a crawlspace and a corrugated metal roof. Those boards wick water along the grain and cup instead of crumbling, so drying them takes patience rather than demolition. Anything from before the late 1970s also means planning around lead paint and asbestos in floor tile, mastic, or pipe wrap before cutting.
 
-The Ewa plain sits on coralline limestone and calcareous former cane soil — porous, alkaline, and hard on buried galvanized and cast-iron lines. Termite pressure across leeward Oahu is relentless, and chronic moisture invites it.
+The Ewa plain sits on coralline limestone and calcareous former cane soil, porous, alkaline, and hard on buried galvanized and cast-iron lines. Termite pressure across leeward Oahu is relentless, and chronic moisture invites it.
 
 Permits for structural repair or rebuild come from the City and County of Honolulu Department of Planning and Permitting, and master-planned tracts usually add association design approval.
 

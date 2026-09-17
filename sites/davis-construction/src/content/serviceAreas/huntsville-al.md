@@ -19,27 +19,27 @@ state: "AL"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind the walls of a 1940s Twickenham bungalow or a severe spring storm peels flashing off a Hampton Cove roof, Davis Construction Contractors dispatches from Madison, AL to put things right — fast. Since 2008, we've handled water damage, fire and smoke damage, mold remediation, and full reconstruction for homeowners and property managers across Huntsville's ZIP codes 35801, 35802, 35805, 35811, and 35816. One call to (256) 771-0326 starts the process.
+When a pipe bursts behind the walls of a 1940s Twickenham bungalow or a severe spring storm peels flashing off a Hampton Cove roof, Davis Construction Contractors dispatches from Madison, AL to put things right, fast. Since 2008, we've handled water damage, fire and smoke damage, mold remediation, and full reconstruction for homeowners and property managers across Huntsville's ZIP codes 35801, 35802, 35805, 35811, and 35816. One call to (256) 771-0326 starts the process.
 
 ## Restoration emergencies common in Huntsville
 
-Huntsville sits in a climate band that delivers the worst of several worlds: humid summers that push moisture into crawl spaces and attics, and an April–May severe weather window that brings tornadoes and baseball-sized hail to the Tennessee Valley with little warning. The city's housing stock spans a century of construction — pre-war masonry in the Twickenham Historic District and Five Points, mid-century ranch homes in South Huntsville, and tightly packed vinyl-clad subdivisions in Hampton Cove built in the last two decades. Each era comes with its own failure points.
+Huntsville sits in a climate band that delivers the worst of several worlds: humid summers that push moisture into crawl spaces and attics, and an April–May severe weather window that brings tornadoes and baseball-sized hail to the Tennessee Valley with little warning. The city's housing stock spans a century of construction, pre-war masonry in the Twickenham Historic District and Five Points, mid-century ranch homes in South Huntsville, and tightly packed vinyl-clad subdivisions in Hampton Cove built in the last two decades. Each era comes with its own failure points.
 
-Older masonry in neighborhoods like Twickenham and Five Points absorbs and holds moisture in ways that modern construction doesn't. A single slow leak behind a plaster wall can feed mold colonies for weeks before a homeowner notices the smell. Newer Hampton Cove developments tend to be better sealed, but when they do flood — from a failed sump pump or a washing machine supply line — the water spreads fast across large open floor plans. HOA architectural review requirements in Hampton Cove also mean exterior reconstruction work (roof replacement, siding, exterior paint) must be submitted for approval before work begins; Davis Construction Contractors handles that documentation as part of the project.
+Older masonry in neighborhoods like Twickenham and Five Points absorbs and holds moisture in ways that modern construction doesn't. A single slow leak behind a plaster wall can feed mold colonies for weeks before a homeowner notices the smell. Newer Hampton Cove developments tend to be better sealed, but when they do flood, from a failed sump pump or a washing machine supply line, the water spreads fast across large open floor plans. HOA architectural review requirements in Hampton Cove also mean exterior reconstruction work (roof replacement, siding, exterior paint) must be submitted for approval before work begins; Davis Construction Contractors handles that documentation as part of the project.
 
 ## Services we provide in Huntsville
 
 ### Water damage restoration
 
-Water damage in Huntsville often starts small and escalates quietly. A slow roof leak near the Monte Sano foothills, a backed-up floor drain in a Downtown Huntsville commercial space, a burst supply line in a South Huntsville ranch house — the water finds the path of least resistance and saturates subfloor, insulation, and drywall before the damage is visible. We extract standing water, deploy industrial drying equipment, and monitor moisture readings daily until the structure is dry to the industry S500 drying standard.
+Water damage in Huntsville often starts small and escalates quietly. A slow roof leak near the Monte Sano foothills, a backed-up floor drain in a Downtown Huntsville commercial space, a burst supply line in a South Huntsville ranch house, the water finds the path of least resistance and saturates subfloor, insulation, and drywall before the damage is visible. We extract standing water, deploy industrial drying equipment, and monitor moisture readings daily until the structure is dry to the industry S500 drying standard.
 
 ### Fire and smoke damage restoration
 
-After a fire, the visible char is rarely the biggest problem — smoke residue and soot migrate through HVAC systems and settle into every porous surface in the home. Huntsville's older homes, particularly those near Big Spring Park and the Twickenham Historic District, often have original hardwood floors, plaster walls, and period millwork worth saving. We assess what can be cleaned and restored versus what needs replacement, and we document everything for your insurance carrier.
+After a fire, the visible char is rarely the biggest problem, smoke residue and soot migrate through HVAC systems and settle into every porous surface in the home. Huntsville's older homes, particularly those near Big Spring Park and the Twickenham Historic District, often have original hardwood floors, plaster walls, and period millwork worth saving. We assess what can be cleaned and restored versus what needs replacement, and we document everything for your insurance carrier.
 
 ### Mold remediation
 
-Huntsville's humidity and the moisture-trapping characteristics of older masonry make mold a recurring issue in neighborhoods like Five Points and Monte Sano. We locate the moisture source, contain the affected area, and remediate to EPA guidelines. We don't just treat the surface — we find and fix the condition that allowed mold to grow in the first place.
+Huntsville's humidity and the moisture-trapping characteristics of older masonry make mold a recurring issue in neighborhoods like Five Points and Monte Sano. We locate the moisture source, contain the affected area, and remediate to EPA guidelines. We don't just treat the surface, we find and fix the condition that allowed mold to grow in the first place.
 
 ### Storm damage and reconstruction
 
@@ -47,13 +47,13 @@ Hail and wind events near the Redstone Arsenal gate area and across South Huntsv
 
 ## Response time and coverage
 
-Our shop is in Madison, AL — roughly 10 to 15 minutes from most Huntsville neighborhoods under normal traffic. A technician can be on-site in Downtown Huntsville or Five Points in under 20 minutes from dispatch. Hampton Cove and Monte Sano run 25 to 35 minutes depending on the time of day. For the majority of Huntsville service calls, expect a crew on your property within 60 minutes of your call. Severe weather events that generate multiple simultaneous calls may extend that window, but we triage by active water intrusion and structural risk first.
+Our shop is in Madison, AL, roughly 10 to 15 minutes from most Huntsville neighborhoods under normal traffic. A technician can be on-site in Downtown Huntsville or Five Points in under 20 minutes from dispatch. Hampton Cove and Monte Sano run 25 to 35 minutes depending on the time of day. For the majority of Huntsville service calls, expect a crew on your property within 60 minutes of your call. Severe weather events that generate multiple simultaneous calls may extend that window, but we triage by active water intrusion and structural risk first.
 
 ## Building stock, site conditions, and permits in Huntsville
 
 Under most of Huntsville is limestone, and that matters. Water moving through fractured rock and the cherty clay above it means crawlspaces in Five Points and South Huntsville stay damp long after the rain stops, and a wet crawlspace pushes moisture up into floor joists and subfloor. Pre-war homes here tend to sit on brick pier foundations with vented crawlspaces; mid-century ranches split between crawlspace and slab; newer Hampton Cove houses are mostly slab-on-grade, where wet flooring has nowhere to drain.
 
-Plumbing vintage tracks the same eras — galvanized supply and cast iron drains in the oldest houses, copper mid-century, PEX in the newest. Anything built before the late 1970s should be assumed to have lead paint and possible asbestos in floor tile or duct wrap until tested.
+Plumbing vintage tracks the same eras, galvanized supply and cast iron drains in the oldest houses, copper mid-century, PEX in the newest. Anything built before the late 1970s should be assumed to have lead paint and possible asbestos in floor tile or duct wrap until tested.
 
 Structural repair and rebuild permits come from the City of Huntsville, and exterior work in Twickenham also goes through historic district review.
 

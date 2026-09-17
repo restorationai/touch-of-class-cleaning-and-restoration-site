@@ -19,19 +19,19 @@ state: "CA"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a plaster wall in a Danish-style cottage or a slow roof leak saturates the attic of a wine-country inn, Solvang property owners need a restoration crew that understands the area's older building stock and can move quickly from the Santa Ynez Valley. Coastal Restoration Services Inc handles water damage mitigation, mold remediation, fire and smoke cleanup, and structural drying for homes and commercial properties throughout Solvang — coordinating directly with insurance carriers so owners can focus on getting back to normal.
+When a pipe bursts behind a plaster wall in a Danish-style cottage or a slow roof leak saturates the attic of a wine-country inn, Solvang property owners need a restoration crew that understands the area's older building stock and can move quickly from the Santa Ynez Valley. Coastal Restoration Services Inc handles water damage mitigation, mold remediation, fire and smoke cleanup, and structural drying for homes and commercial properties throughout Solvang, coordinating directly with insurance carriers so owners can focus on getting back to normal.
 
 ## Restoration emergencies common in Solvang
 
-Solvang sits in the Santa Ynez Valley at roughly 500 feet elevation, where weather patterns differ noticeably from the coast. Winter storm systems push moisture through the valley floor, and the region's clay-heavy soils drain slowly — meaning a heavy rain event can push groundwater against foundation walls or overwhelm aging French drains in a matter of hours. Summer heat spikes accelerate mold colonization: after a hidden leak, mold can begin establishing colonies within 24 to 48 hours in an enclosed wall cavity when temperatures climb into the 80s and 90s.
+Solvang sits in the Santa Ynez Valley at roughly 500 feet elevation, where weather patterns differ noticeably from the coast. Winter storm systems push moisture through the valley floor, and the region's clay-heavy soils drain slowly, meaning a heavy rain event can push groundwater against foundation walls or overwhelm aging French drains in a matter of hours. Summer heat spikes accelerate mold colonization: after a hidden leak, mold can begin establishing colonies within 24 to 48 hours in an enclosed wall cavity when temperatures climb into the 80s and 90s.
 
-The housing stock adds another layer of complexity. Much of Solvang's residential and commercial building was constructed in the mid-20th century in the Danish village architectural style — stucco exteriors, wood-framed walls, and in some cases original single-pane windows that allow condensation to collect on interior surfaces through winter nights. Older plumbing in these properties often includes galvanized steel supply lines that corrode from the inside out, producing slow leaks that go unnoticed until drywall or subfloor damage is already extensive. Commercial properties along Mission Drive and the historic village core face similar challenges, with flat or low-slope roofs that pond water after storms.
+The housing stock adds another layer of complexity. Much of Solvang's residential and commercial building was constructed in the mid-20th century in the Danish village architectural style, stucco exteriors, wood-framed walls, and in some cases original single-pane windows that allow condensation to collect on interior surfaces through winter nights. Older plumbing in these properties often includes galvanized steel supply lines that corrode from the inside out, producing slow leaks that go unnoticed until drywall or subfloor damage is already extensive. Commercial properties along Mission Drive and the historic village core face similar challenges, with flat or low-slope roofs that pond water after storms.
 
 ## Services we provide in Solvang
 
 ### Water damage mitigation and structural drying
 
-Water damage in Solvang frequently involves saturated stucco assemblies and wood-frame walls that hold moisture longer than modern construction. The drying process requires calibrated dehumidification and airflow management — not just surface fans — to pull moisture out of wall cavities without warping finish materials. Coastal Restoration Services uses moisture mapping and thermal imaging to locate hidden saturation before setting equipment, and drying documentation is provided throughout the job for insurance purposes.
+Water damage in Solvang frequently involves saturated stucco assemblies and wood-frame walls that hold moisture longer than modern construction. The drying process requires calibrated dehumidification and airflow management, not just surface fans, to pull moisture out of wall cavities without warping finish materials. Coastal Restoration Services uses moisture mapping and thermal imaging to locate hidden saturation before setting equipment, and drying documentation is provided throughout the job for insurance purposes.
 
 ### Mold remediation
 
@@ -39,11 +39,11 @@ The Santa Ynez Valley's warm summers and periodically damp winters create condit
 
 ### Fire and smoke damage restoration
 
-Wildfire smoke from the broader Santa Barbara County region can infiltrate Solvang properties even when structures are not directly threatened — depositing fine particulate and odor-causing compounds into HVAC systems, soft goods, and wall cavities. For structure fires, the combination of older wood framing and stucco can complicate structural assessment. Coastal Restoration handles debris removal, odor neutralization, content pack-out, and coordination with contractors for reconstruction.
+Wildfire smoke from the broader Santa Barbara County region can infiltrate Solvang properties even when structures are not directly threatened, depositing fine particulate and odor-causing compounds into HVAC systems, soft goods, and wall cavities. For structure fires, the combination of older wood framing and stucco can complicate structural assessment. Coastal Restoration handles debris removal, odor neutralization, content pack-out, and coordination with contractors for reconstruction.
 
 ### Sewage and water intrusion cleanup
 
-Aging municipal and private sewer laterals in older Solvang neighborhoods can back up during heavy rain events when ground saturation overwhelms the system. Sewage intrusion is a Category 3 water loss — the affected area requires proper containment, removal of porous materials, and antimicrobial treatment before any reconstruction begins.
+Aging municipal and private sewer laterals in older Solvang neighborhoods can back up during heavy rain events when ground saturation overwhelms the system. Sewage intrusion is a Category 3 water loss, the affected area requires proper containment, removal of porous materials, and antimicrobial treatment before any reconstruction begins.
 
 ## Coverage and how fast we can get there
 

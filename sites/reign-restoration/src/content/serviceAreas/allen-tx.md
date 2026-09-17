@@ -19,13 +19,13 @@ state: "TX"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall in Twin Creeks or a kitchen fire leaves smoke residue baked into the drywall of a Watters Crossing home, Reign Restoration responds around the clock — handling water extraction, fire and smoke cleanup, mold remediation, and reconstruction for Allen homeowners and property managers. We work directly with insurance carriers, document every affected surface, and stay on the job until the property is back to pre-loss condition.
+When a pipe bursts behind a wall in Twin Creeks or a kitchen fire leaves smoke residue baked into the drywall of a Watters Crossing home, Reign Restoration responds around the clock, handling water extraction, fire and smoke cleanup, mold remediation, and reconstruction for Allen homeowners and property managers. We work directly with insurance carriers, document every affected surface, and stay on the job until the property is back to pre-loss condition.
 
 ## Restoration emergencies common in Allen
 
-Allen's rapid growth from the 1990s through the early 2000s left the city with a housing stock that's mostly slab-on-grade brick veneer — construction that performs well in normal conditions but has some predictable failure points. Slab foundations don't have crawl spaces to ventilate moisture, so when a supply line leaks slowly under a kitchen or bathroom, the water migrates laterally under flooring for days before anyone notices the soft spot or the smell. The pocket of older frame housing near the original town center off Main Street carries its own set of concerns: aged plumbing, less insulated wall cavities, and wood framing that absorbs moisture faster than modern OSB sheathing.
+Allen's rapid growth from the 1990s through the early 2000s left the city with a housing stock that's mostly slab-on-grade brick veneer, construction that performs well in normal conditions but has some predictable failure points. Slab foundations don't have crawl spaces to ventilate moisture, so when a supply line leaks slowly under a kitchen or bathroom, the water migrates laterally under flooring for days before anyone notices the soft spot or the smell. The pocket of older frame housing near the original town center off Main Street carries its own set of concerns: aged plumbing, less insulated wall cavities, and wood framing that absorbs moisture faster than modern OSB sheathing.
 
-The Rowlett Creek and Cottonwood Creek corridors that run through Twin Creeks and Bethany Lakes add a seasonal dimension. The wide drainage easements behind the 1990s subdivisions in those areas handle most storm runoff, but during the intense, short-duration thunderstorms that roll through Collin County from spring through early fall, those easements can back up. When they do, the water has nowhere to go but toward the lowest point on a slab — which is often a finished garage, a back patio door threshold, or a below-grade media room. North Texas clay soil compounds the problem: it expands when saturated and can force water against foundation walls that were never designed to be waterproof barriers.
+The Rowlett Creek and Cottonwood Creek corridors that run through Twin Creeks and Bethany Lakes add a seasonal dimension. The wide drainage easements behind the 1990s subdivisions in those areas handle most storm runoff, but during the intense, short-duration thunderstorms that roll through Collin County from spring through early fall, those easements can back up. When they do, the water has nowhere to go but toward the lowest point on a slab, which is often a finished garage, a back patio door threshold, or a below-grade media room. North Texas clay soil compounds the problem: it expands when saturated and can force water against foundation walls that were never designed to be waterproof barriers.
 
 Mold follows moisture here quickly. In Allen's humid summers, colonization can begin within 24 to 48 hours on wet drywall or carpet backing, which is why the window between a water event and professional drying matters.
 
@@ -33,23 +33,23 @@ Mold follows moisture here quickly. In Allen's humid summers, colonization can b
 
 ### Water damage restoration
 
-Water damage in Allen most often starts with a slow slab leak, a failed water heater, or storm-driven intrusion through a back door or window well. Reign Restoration extracts standing water, maps moisture with thermal imaging and moisture meters, and dries structural materials to documented levels — work performed to the IICRC S500 standard. We handle direct insurance billing so property owners in 75002 and 75013 aren't fronting the cost of equipment and labor out of pocket.
+Water damage in Allen most often starts with a slow slab leak, a failed water heater, or storm-driven intrusion through a back door or window well. Reign Restoration extracts standing water, maps moisture with thermal imaging and moisture meters, and dries structural materials to documented levels, work performed to the IICRC S500 standard. We handle direct insurance billing so property owners in 75002 and 75013 aren't fronting the cost of equipment and labor out of pocket.
 
 ### Fire and smoke damage restoration
 
-After a fire, the visible char is often the smaller problem. Smoke residue travels through HVAC systems and settles into wall cavities, closets, and attic insulation — and in Allen's brick-veneer homes, that residue can be trapped against the structure for years if not properly cleaned. We assess the full smoke path, not just the room of origin, and use odor-neutralizing treatments that address the source rather than masking it.
+After a fire, the visible char is often the smaller problem. Smoke residue travels through HVAC systems and settles into wall cavities, closets, and attic insulation, and in Allen's brick-veneer homes, that residue can be trapped against the structure for years if not properly cleaned. We assess the full smoke path, not just the room of origin, and use odor-neutralizing treatments that address the source rather than masking it.
 
 ### Mold remediation
 
-Mold calls in Allen frequently trace back to an undetected slab leak, a slow roof penetration around a chimney chase, or an HVAC condensate line that backed up inside a wall. Reign Restoration locates the moisture source, contains the affected area, removes compromised materials, and treats surfaces — then verifies the work is done before closing walls back up. We do not offer medical advice about health effects, but we do follow established remediation protocols designed to return the space to a normal fungal ecology.
+Mold calls in Allen frequently trace back to an undetected slab leak, a slow roof penetration around a chimney chase, or an HVAC condensate line that backed up inside a wall. Reign Restoration locates the moisture source, contains the affected area, removes compromised materials, and treats surfaces, then verifies the work is done before closing walls back up. We do not offer medical advice about health effects, but we do follow established remediation protocols designed to return the space to a normal fungal ecology.
 
 ### Reconstruction
 
-Once mitigation is complete, most Allen homeowners don't want to manage a separate general contractor. Reign Restoration handles the rebuild — drywall, flooring, cabinetry, painting — coordinating directly with the adjuster so the scope of repairs matches the approved claim.
+Once mitigation is complete, most Allen homeowners don't want to manage a separate general contractor. Reign Restoration handles the rebuild, drywall, flooring, cabinetry, painting, coordinating directly with the adjuster so the scope of repairs matches the approved claim.
 
 ## Coverage and how fast we can get there
 
-Reign Restoration's home base is Royse City, roughly 25 miles southeast of Allen via US-75 North. That route puts us into the Star Creek and Cottonwood Bend areas near the 75013 ZIP code in well under an hour under normal traffic conditions, and into the Bethany Lakes and Suncreek neighborhoods in the 75002 corridor shortly after. Because we operate 24/7, we're dispatching at 2 a.m. the same as 2 p.m. — there's no after-hours surcharge or delayed morning response. Property managers overseeing multiple units near Watters Creek at Montgomery Farm or the Allen Premium Outlets corridor can reach us directly at (214) 304-0621 any time a tenant reports a loss.
+Reign Restoration's home base is Royse City, roughly 25 miles southeast of Allen via US-75 North. That route puts us into the Star Creek and Cottonwood Bend areas near the 75013 ZIP code in well under an hour under normal traffic conditions, and into the Bethany Lakes and Suncreek neighborhoods in the 75002 corridor shortly after. Because we operate 24/7, we're dispatching at 2 a.m. the same as 2 p.m., there's no after-hours surcharge or delayed morning response. Property managers overseeing multiple units near Watters Creek at Montgomery Farm or the Allen Premium Outlets corridor can reach us directly at (214) 304-0621 any time a tenant reports a loss.
 
 ## Building stock, site conditions, and permits in Allen
 
@@ -59,4 +59,4 @@ Hard freezes are the seasonal driver worth planning for. Water lines routed thro
 
 Structural repair and rebuild permits in Allen come from the city's building inspections office, and most master-planned subdivisions here add HOA approval for anything visible from the street.
 
-If you're dealing with water, fire, smoke, or mold damage anywhere in Allen — from Rivercrest Park to Montgomery Farm — call Reign Restoration at **(214) 304-0621**. We're available around the clock, we work with your insurance carrier, and we don't consider the job done until the numbers confirm the structure is dry and the space is safe to occupy again.
+If you're dealing with water, fire, smoke, or mold damage anywhere in Allen, from Rivercrest Park to Montgomery Farm, call Reign Restoration at **(214) 304-0621**. We're available around the clock, we work with your insurance carrier, and we don't consider the job done until the numbers confirm the structure is dry and the space is safe to occupy again.

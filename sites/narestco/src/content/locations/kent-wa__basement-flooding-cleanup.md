@@ -20,13 +20,13 @@ state: "WA"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
-Standing water in a Kent basement doesn't wait for business hours. If you're reading this with wet socks on and a sump pump that gave up, you need someone on-site fast — not a callback in three hours. National Restoration Construction runs crews out of Federal Way, roughly 10 minutes from most of Kent, and we've been responding to basement flooding emergencies across the South Sound since 2004. Here's what happens when you reach us at **(206) 883-0333**.
+Standing water in a Kent basement doesn't wait for business hours. If you're reading this with wet socks on and a sump pump that gave up, you need someone on-site fast, not a callback in three hours. National Restoration Construction runs crews out of Federal Way, roughly 10 minutes from most of Kent, and we've been responding to basement flooding emergencies across the South Sound since 2004. Here's what happens when you reach us at **(206) 883-0333**.
 
-## Why Kent Basements Flood — and Why It Happens Fast
+## Why Kent Basements Flood, and Why It Happens Fast
 
-Kent sits in the Green River Valley, a low-lying floodplain that the Army Corps of Engineers has managed with levees for decades. When the Puget Sound region gets an atmospheric river event — the kind that drops 2–3 inches of rain in 24 hours between October and March — the valley floor saturates quickly. Clay-heavy soils in older Kent neighborhoods don't drain; they hold water against foundation walls until hydrostatic pressure finds a crack, a cold joint, or a window well that wasn't sealed last fall.
+Kent sits in the Green River Valley, a low-lying floodplain that the Army Corps of Engineers has managed with levees for decades. When the Puget Sound region gets an atmospheric river event, the kind that drops 2–3 inches of rain in 24 hours between October and March, the valley floor saturates quickly. Clay-heavy soils in older Kent neighborhoods don't drain; they hold water against foundation walls until hydrostatic pressure finds a crack, a cold joint, or a window well that wasn't sealed last fall.
 
-The housing stock matters too. A significant portion of Kent's single-family homes were built in the 1960s through 1980s, when basement waterproofing standards were minimal and drain tile systems are now 40–50 years old. Sump pumps fail during the same storms that overwhelm them. Window wells fill in an hour. What starts as a trickle at 10 p.m. is 4 inches of standing water by 2 a.m. — and mold can begin colonizing wet drywall, insulation, and wood framing within 24 to 48 hours of a moisture event.
+The housing stock matters too. A significant portion of Kent's single-family homes were built in the 1960s through 1980s, when basement waterproofing standards were minimal and drain tile systems are now 40–50 years old. Sump pumps fail during the same storms that overwhelm them. Window wells fill in an hour. What starts as a trickle at 10 p.m. is 4 inches of standing water by 2 a.m., and mold can begin colonizing wet drywall, insulation, and wood framing within 24 to 48 hours of a moisture event.
 
 ## Our Basement Flooding Cleanup Process in Kent
 
@@ -38,7 +38,7 @@ Every job follows the same sequence because cutting corners on any step creates 
 
 **3. Structural drying.** Industrial-grade LGR dehumidifiers and high-velocity air movers are positioned to create a drying chamber. Depending on materials affected, this phase typically runs 3–5 days, with daily moisture readings to confirm progress and document drying for your insurance claim.
 
-**4. Antimicrobial treatment.** Flood water — especially if it backed up through a floor drain — carries bacteria and organic material. EPA-registered antimicrobial agents are applied to affected surfaces before any reconstruction begins.
+**4. Antimicrobial treatment.** Flood water, especially if it backed up through a floor drain, carries bacteria and organic material. EPA-registered antimicrobial agents are applied to affected surfaces before any reconstruction begins.
 
 **5. Rebuild.** As an IICRC Certified firm and licensed Washington State General Contractor (WA L&I #NATIORC792M6), we handle the full scope: framing, drywall, flooring, and finish work. One contractor from water removal through final paint means fewer handoffs and a faster return to normal.
 
@@ -46,7 +46,7 @@ Every job follows the same sequence because cutting corners on any step creates 
 
 Our Federal Way headquarters puts us closer to Kent than most restoration companies operating out of Seattle or Tacoma. From our shop to downtown Kent, the drive is typically under 15 minutes. Neighborhoods like East Hill, Meridian, and Panther Lake run 20–30 minutes depending on traffic and time of day.
 
-For most calls in the Kent service area, expect a technician on-site within **60–90 minutes** of your call. We answer 24 hours a day, 7 days a week — including holidays, because basements don't flood on a schedule.
+For most calls in the Kent service area, expect a technician on-site within **60–90 minutes** of your call. We answer 24 hours a day, 7 days a week, including holidays, because basements don't flood on a schedule.
 
 ## Navigating the Insurance Claim
 
@@ -54,8 +54,8 @@ Insurance paperwork is the last thing you want to deal with when there's water i
 
 We document everything: photos, moisture readings, equipment logs, and a detailed scope of loss formatted the way adjusters expect to receive it. That documentation is what gets your claim processed at full value rather than a lowball estimate. We work directly with most major carriers and can communicate with your adjuster on your behalf throughout the project.
 
-What you'll need to do: report the claim to your carrier as soon as possible, keep receipts for any emergency purchases (a shop vac, a dehumidifier from Home Depot at midnight), and avoid discarding damaged materials until an adjuster or our team has documented them. One important note — standard homeowner's policies typically cover sudden and accidental water damage but exclude gradual seepage or flooding from outside the home. We'll help you understand what the documentation shows so you're not caught off guard.
+What you'll need to do: report the claim to your carrier as soon as possible, keep receipts for any emergency purchases (a shop vac, a dehumidifier from Home Depot at midnight), and avoid discarding damaged materials until an adjuster or our team has documented them. One important note, standard homeowner's policies typically cover sudden and accidental water damage but exclude gradual seepage or flooding from outside the home. We'll help you understand what the documentation shows so you're not caught off guard.
 
 ---
 
-If your basement is wet right now, every hour counts. Reach us directly at **(206) 883-0333)** — a live person answers, not a voicemail box — and we'll have a crew heading your direction while you're still on the phone.
+If your basement is wet right now, every hour counts. Reach us directly at **(206) 883-0333)**, a live person answers, not a voicemail box, and we'll have a crew heading your direction while you're still on the phone.

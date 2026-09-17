@@ -20,13 +20,13 @@ state: "CA"
 service_display: "Vandalism Cleanup"
 rendered: true
 ---
-Paso Robles wine country draws visitors year-round, and with that foot traffic comes an uncomfortable reality: storefronts along the downtown corridor, tasting room facades, and residential fences occasionally wake up to spray paint, shattered glass, or deliberate property damage. The dry Central Coast climate means aerosol paint bakes into porous surfaces faster than it would in a coastal fog zone — what looks like a fresh tag at dawn can be chemically bonded to stucco or brick by mid-afternoon if cleanup waits.
+Paso Robles wine country draws visitors year-round, and with that foot traffic comes an uncomfortable reality: storefronts along the downtown corridor, tasting room facades, and residential fences occasionally wake up to spray paint, shattered glass, or deliberate property damage. The dry Central Coast climate means aerosol paint bakes into porous surfaces faster than it would in a coastal fog zone, what looks like a fresh tag at dawn can be chemically bonded to stucco or brick by mid-afternoon if cleanup waits.
 
 ## Why El Paso de Robles Properties See Vandalism Damage Differently
 
-Paso Robles sits in San Luis Obispo County's inland valley, where summer temperatures regularly push past 100°F. That heat accelerates the curing of spray paint into masonry, concrete, and the region's abundant adobe-style stucco exteriors. Many of the commercial buildings along 12th Street and the Spring Street corridor were constructed with a textured stucco finish that looks beautiful against the valley landscape but acts like a sponge for solvent-based paints — the pigment wicks below the surface layer, making simple pressure washing ineffective and sometimes counterproductive.
+Paso Robles sits in San Luis Obispo County's inland valley, where summer temperatures regularly push past 100°F. That heat accelerates the curing of spray paint into masonry, concrete, and the region's abundant adobe-style stucco exteriors. Many of the commercial buildings along 12th Street and the Spring Street corridor were constructed with a textured stucco finish that looks beautiful against the valley landscape but acts like a sponge for solvent-based paints, the pigment wicks below the surface layer, making simple pressure washing ineffective and sometimes counterproductive.
 
-The agricultural character of the area also means rural properties — ranch fencing, barn siding, corrugated metal outbuildings — are targets that don't always get the same rapid attention as a downtown storefront. By the time a property owner discovers damage on an outlying parcel, the paint has had hours or days to cure in the inland heat.
+The agricultural character of the area also means rural properties, ranch fencing, barn siding, corrugated metal outbuildings, are targets that don't always get the same rapid attention as a downtown storefront. By the time a property owner discovers damage on an outlying parcel, the paint has had hours or days to cure in the inland heat.
 
 ## Our Vandalism Cleanup Process in El Paso de Robles
 
@@ -34,10 +34,10 @@ Every job starts with a surface assessment before any chemical or mechanical met
 
 From there, the process typically follows these steps:
 
-- **Graffiti removal**: We match the removal chemistry to the surface — alkaline strippers for porous masonry, solvent gels for painted wood, and citrus-based solutions where the substrate is sensitive. Pressure washing follows at calibrated PSI to avoid surface damage.
-- **Broken glass cleanup**: Shattered storefront or window glass is removed in full — visible panes, embedded shards in frames, and glass fragments that have migrated into flooring or landscaping. We document all broken openings before boarding or temporary glazing.
+- **Graffiti removal**: We match the removal chemistry to the surface, alkaline strippers for porous masonry, solvent gels for painted wood, and citrus-based solutions where the substrate is sensitive. Pressure washing follows at calibrated PSI to avoid surface damage.
+- **Broken glass cleanup**: Shattered storefront or window glass is removed in full, visible panes, embedded shards in frames, and glass fragments that have migrated into flooring or landscaping. We document all broken openings before boarding or temporary glazing.
 - **Boarding and securing**: Damaged entry points are boarded to code with plywood or polycarbonate sheeting, preventing secondary intrusion while permanent repairs are arranged.
-- **Surface restoration and repainting**: Where paint or finish has been compromised, we match existing color and texture so the repaired area doesn't read as a patch from the street — important in a downtown district where visual consistency matters to neighboring businesses and the city.
+- **Surface restoration and repainting**: Where paint or finish has been compromised, we match existing color and texture so the repaired area doesn't read as a patch from the street, important in a downtown district where visual consistency matters to neighboring businesses and the city.
 - **Documentation for insurance**: Every affected surface is photographed, measured, and itemized before work begins and after completion.
 
 ## Reaching El Paso de Robles from Santa Maria
@@ -46,10 +46,10 @@ Coastal Restoration Services operates out of Santa Maria and serves the Highway 
 
 ## Insurance and Documentation for Vandalism Claims in Paso Robles
 
-Most homeowners and commercial property policies cover vandalism as a named peril, but the claim process requires itemized documentation — not just a photo on your phone. We produce a written scope of damage, material quantities, and before/after photography formatted for adjuster review. We work directly with insurance carriers and can communicate with your adjuster on your behalf to keep the claim moving. If your property is subject to a downtown improvement district or HOA aesthetic standards, we note those requirements in the scope so repairs meet approval without a second trip.
+Most homeowners and commercial property policies cover vandalism as a named peril, but the claim process requires itemized documentation, not just a photo on your phone. We produce a written scope of damage, material quantities, and before/after photography formatted for adjuster review. We work directly with insurance carriers and can communicate with your adjuster on your behalf to keep the claim moving. If your property is subject to a downtown improvement district or HOA aesthetic standards, we note those requirements in the scope so repairs meet approval without a second trip.
 
 ## Local Note
 
-Paso Robles's historic downtown buildings — particularly those on and near the City Park square — often feature original lime-based stucco applied over wood lath rather than modern cement board. Lime stucco is more alkaline and more fragile than Portland cement stucco, which means aggressive chemical strippers can cause the surface to pit or discolor permanently. When we work on buildings in the older downtown blocks, we default to a test patch with a milder poultice method before committing to any solvent-based product. It takes a little longer, but it avoids turning a graffiti problem into a historic facade restoration project.
+Paso Robles's historic downtown buildings, particularly those on and near the City Park square, often feature original lime-based stucco applied over wood lath rather than modern cement board. Lime stucco is more alkaline and more fragile than Portland cement stucco, which means aggressive chemical strippers can cause the surface to pit or discolor permanently. When we work on buildings in the older downtown blocks, we default to a test patch with a milder poultice method before committing to any solvent-based product. It takes a little longer, but it avoids turning a graffiti problem into a historic facade restoration project.
 
-If your Paso Robles property has been vandalized — whether it's a tagged tasting room wall, a smashed storefront window, or damage to a residential fence — contact Coastal Restoration Services at (805) 345-7440. We'll assess the surfaces, walk you through the cleanup scope, and get the property back to its pre-incident condition without shortcuts that create bigger problems down the road.
+If your Paso Robles property has been vandalized, whether it's a tagged tasting room wall, a smashed storefront window, or damage to a residential fence, contact Coastal Restoration Services at (805) 345-7440. We'll assess the surfaces, walk you through the cleanup scope, and get the property back to its pre-incident condition without shortcuts that create bigger problems down the road.

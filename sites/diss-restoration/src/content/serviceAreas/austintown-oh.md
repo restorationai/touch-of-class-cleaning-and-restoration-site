@@ -25,7 +25,7 @@ When a pipe bursts at 2 a.m. or a basement fills during a spring storm, Austinto
 
 Austintown sits in the Mahoning Valley, where the climate runs to extremes that aging residential housing stock handles poorly. Winters bring freeze-thaw cycles that stress supply lines, especially in homes built in the 1950s through 1970s where galvanized or early copper plumbing is still in service. A single overnight hard freeze can split a pipe inside an exterior wall, and by morning you're looking at soaked insulation, saturated drywall, and flooring that sounds hollow underfoot.
 
-Spring is the other pressure point. Snowmelt and heavy rain arrive fast, and Mahoning County's clay-heavy soils don't absorb water quickly. That slow percolation pushes hydrostatic pressure against basement walls and floor slabs — common in the ranch-style and split-level homes that dominate Austintown's residential neighborhoods. Sump pump failures during a storm are one of the most frequent calls we receive from this area.
+Spring is the other pressure point. Snowmelt and heavy rain arrive fast, and Mahoning County's clay-heavy soils don't absorb water quickly. That slow percolation pushes hydrostatic pressure against basement walls and floor slabs, common in the ranch-style and split-level homes that dominate Austintown's residential neighborhoods. Sump pump failures during a storm are one of the most frequent calls we receive from this area.
 
 Summer thunderstorms bring their own risks: lightning-caused fires, wind-driven rain through damaged soffits, and humidity levels that can push mold colonization to begin within 24 to 48 hours of an unaddressed water intrusion. Austintown's housing density means a neighbor's tree can become your roof problem in a single storm.
 
@@ -33,11 +33,11 @@ Summer thunderstorms bring their own risks: lightning-caused fires, wind-driven 
 
 ### Water damage restoration
 
-Water damage in Austintown frequently starts below grade. Finished basements in the township's postwar housing stock can absorb thousands of dollars of damage before the moisture even registers on a surface reading. We use thermal imaging and calibrated moisture meters to find water behind plaster and under subfloors — not just where it's visibly wet — then dry to the IICRC S500 standard before any rebuild begins.
+Water damage in Austintown frequently starts below grade. Finished basements in the township's postwar housing stock can absorb thousands of dollars of damage before the moisture even registers on a surface reading. We use thermal imaging and calibrated moisture meters to find water behind plaster and under subfloors, not just where it's visibly wet, then dry to the IICRC S500 standard before any rebuild begins.
 
 ### Fire and smoke damage restoration
 
-Smoke residue is deceptive. After a kitchen fire or a furnace puff-back, the visible char is the easy part — it's the odor-bearing soot that has migrated into ductwork, wall cavities, and soft goods that drives the real scope of work. We assess the full travel path of smoke before scoping repairs, which keeps the project from coming back to you months later with a persistent odor.
+Smoke residue is deceptive. After a kitchen fire or a furnace puff-back, the visible char is the easy part, it's the odor-bearing soot that has migrated into ductwork, wall cavities, and soft goods that drives the real scope of work. We assess the full travel path of smoke before scoping repairs, which keeps the project from coming back to you months later with a persistent odor.
 
 ### Mold remediation
 
@@ -49,15 +49,15 @@ Unattended deaths, sewage backups, and trauma scenes require handling that goes 
 
 ### Reconstruction
 
-Once drying and remediation are complete, the structure still needs to be put back together. We carry reconstruction through to finished condition — drywall, flooring, trim, painting — so you're not coordinating a separate contractor after the mitigation crew leaves.
+Once drying and remediation are complete, the structure still needs to be put back together. We carry reconstruction through to finished condition, drywall, flooring, trim, painting, so you're not coordinating a separate contractor after the mitigation crew leaves.
 
 ## Coverage and how fast we can get there
 
-DISS Restoration's Youngstown headquarters puts Austintown within a short drive via Mahoning Avenue or US-224, two of the main corridors connecting the city to the township. The distance is minimal — Austintown borders Youngstown's west side — and we dispatch around the clock, every day of the year. Whether the call comes from the western stretches of the township near Canfield Road or from neighborhoods closer to the Boardman line, we're not crossing a county or navigating a long rural stretch to reach you.
+DISS Restoration's Youngstown headquarters puts Austintown within a short drive via Mahoning Avenue or US-224, two of the main corridors connecting the city to the township. The distance is minimal, Austintown borders Youngstown's west side, and we dispatch around the clock, every day of the year. Whether the call comes from the western stretches of the township near Canfield Road or from neighborhoods closer to the Boardman line, we're not crossing a county or navigating a long rural stretch to reach you.
 
 ## Building stock, site conditions, and permits in Austintown
 
-The bulk of Austintown's housing was built between the late 1940s and the mid-1970s, when the Mahoning Valley's steel economy was driving suburban growth. That era produced ranch homes, cape cods, and split-levels — most with full or partial basements, wood-frame construction, and plumbing that may include galvanized steel supply lines or early copper with lead solder joints. Homes of this vintage frequently contain asbestos-containing materials in floor tile, pipe insulation, and drywall joint compound, and lead paint is common in anything built before 1978. Any restoration scope touching these materials needs to account for proper testing and handling before work begins.
+The bulk of Austintown's housing was built between the late 1940s and the mid-1970s, when the Mahoning Valley's steel economy was driving suburban growth. That era produced ranch homes, cape cods, and split-levels, most with full or partial basements, wood-frame construction, and plumbing that may include galvanized steel supply lines or early copper with lead solder joints. Homes of this vintage frequently contain asbestos-containing materials in floor tile, pipe insulation, and drywall joint compound, and lead paint is common in anything built before 1978. Any restoration scope touching these materials needs to account for proper testing and handling before work begins.
 
 Austintown is an unincorporated township, so building permits and inspections fall under Mahoning County rather than a municipal building department. Structural repairs, electrical work, and plumbing replacements that arise from a restoration project typically require county permits. The clay-dominant soils common throughout this part of Ohio drain slowly and expand when saturated, which contributes to the foundation movement and basement water intrusion patterns that show up repeatedly in the township's older housing stock.
 

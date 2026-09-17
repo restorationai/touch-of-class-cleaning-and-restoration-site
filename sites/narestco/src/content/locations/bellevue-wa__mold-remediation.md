@@ -20,36 +20,36 @@ state: "WA"
 service_display: "Mold Remediation"
 rendered: true
 ---
-If you've found dark spots spreading behind a bathroom wall, noticed a musty smell that won't leave after a pipe leak, or had a home inspector flag mold in your crawl space, you're probably looking for answers fast — and maybe feeling a little overwhelmed. Mold doesn't wait, and in Bellevue's wet climate, it doesn't have to wait long. National Restoration Construction has been responding to mold emergencies across the greater Seattle area since 2004, and our crews reach most Bellevue addresses within 60–90 minutes of your call.
+If you've found dark spots spreading behind a bathroom wall, noticed a musty smell that won't leave after a pipe leak, or had a home inspector flag mold in your crawl space, you're probably looking for answers fast, and maybe feeling a little overwhelmed. Mold doesn't wait, and in Bellevue's wet climate, it doesn't have to wait long. National Restoration Construction has been responding to mold emergencies across the greater Seattle area since 2004, and our crews reach most Bellevue addresses within 60–90 minutes of your call.
 
 ## Why Bellevue Properties Are Especially Vulnerable to Mold
 
-Bellevue sits in one of the wettest corridors in the continental U.S. The city averages roughly 37 inches of rain per year, and the marine air keeps humidity elevated even during dry stretches. That matters because mold can begin colonizing a damp surface in as little as 24–48 hours after moisture intrusion — whether that moisture came from a burst supply line, a slow roof leak around a skylight, or condensation building up inside poorly ventilated crawl spaces beneath older homes in neighborhoods like Factoria or Crossroads.
+Bellevue sits in one of the wettest corridors in the continental U.S. The city averages roughly 37 inches of rain per year, and the marine air keeps humidity elevated even during dry stretches. That matters because mold can begin colonizing a damp surface in as little as 24–48 hours after moisture intrusion, whether that moisture came from a burst supply line, a slow roof leak around a skylight, or condensation building up inside poorly ventilated crawl spaces beneath older homes in neighborhoods like Factoria or Crossroads.
 
 The housing stock adds another layer of risk. Many Bellevue homes built in the 1970s and 1980s use paper-faced drywall and wood framing that absorbs moisture readily. Newer construction in Eastgate and West Bellevue can trap humidity inside tight building envelopes if ventilation isn't balanced correctly. Both scenarios create conditions where mold cleanup becomes necessary before the problem reaches structural materials.
 
 ## Our Mold Remediation Process in Bellevue
 
-Every job starts with a thorough inspection — not a quick visual scan, but a systematic assessment using moisture meters and thermal imaging to find water hiding behind walls, under flooring, and inside cavities that look dry from the surface. Once we know the full scope, we build a remediation plan before we touch anything.
+Every job starts with a thorough inspection, not a quick visual scan, but a systematic assessment using moisture meters and thermal imaging to find water hiding behind walls, under flooring, and inside cavities that look dry from the surface. Once we know the full scope, we build a remediation plan before we touch anything.
 
-**Containment comes first.** We seal affected areas with polyethylene sheeting and establish negative air pressure using HEPA-filtered air scrubbers. This prevents spores from migrating to clean parts of your home during the removal process — a step that separates proper mold abatement from a crew that just wipes down surfaces and leaves.
+**Containment comes first.** We seal affected areas with polyethylene sheeting and establish negative air pressure using HEPA-filtered air scrubbers. This prevents spores from migrating to clean parts of your home during the removal process, a step that separates proper mold abatement from a crew that just wipes down surfaces and leaves.
 
-**Removal is methodical.** Porous materials that can't be cleaned — drywall, insulation, certain flooring substrates — are bagged and removed per EPA guidelines. Non-porous surfaces are treated with EPA-registered antimicrobial agents. Our technicians are IICRC certified in applied microbial remediation, which means the process follows a documented standard, not guesswork.
+**Removal is methodical.** Porous materials that can't be cleaned, drywall, insulation, certain flooring substrates, are bagged and removed per EPA guidelines. Non-porous surfaces are treated with EPA-registered antimicrobial agents. Our technicians are IICRC certified in applied microbial remediation, which means the process follows a documented standard, not guesswork.
 
 **Drying and clearance.** After mold removal, we run commercial-grade desiccant dehumidifiers and air movers until moisture readings confirm the structure is dry. We don't consider the job done until conditions that allowed mold to grow in the first place have been corrected.
 
-**Reconstruction.** Because we hold a General Contractor Certificate of Registration through the WA State Department of Labor & Industries (#NATIORC792M6), we can handle the rebuild — new drywall, insulation, flooring, paint — under the same project. You don't have to coordinate a separate contractor after remediation is finished.
+**Reconstruction.** Because we hold a General Contractor Certificate of Registration through the WA State Department of Labor & Industries (#NATIORC792M6), we can handle the rebuild, new drywall, insulation, flooring, paint, under the same project. You don't have to coordinate a separate contractor after remediation is finished.
 
 ## Navigating Insurance for Mold Damage in Bellevue
 
-Insurance coverage for mold removal depends heavily on the cause. If mold resulted from a sudden, covered water event — a burst pipe, an appliance failure, storm-driven roof damage — your homeowner's policy will often cover remediation and reconstruction. If the mold developed slowly from a long-ignored leak or chronic condensation, coverage is less certain.
+Insurance coverage for mold removal depends heavily on the cause. If mold resulted from a sudden, covered water event, a burst pipe, an appliance failure, storm-driven roof damage, your homeowner's policy will often cover remediation and reconstruction. If the mold developed slowly from a long-ignored leak or chronic condensation, coverage is less certain.
 
-We work directly with all major insurance carriers and can document the damage, prepare the scope of work, and communicate with your adjuster throughout the claim. We'll be honest with you about what your policy is likely to cover before work begins, so there are no surprises on the back end. Bring your policy number when you call — it helps us move faster on your behalf.
+We work directly with all major insurance carriers and can document the damage, prepare the scope of work, and communicate with your adjuster throughout the claim. We'll be honest with you about what your policy is likely to cover before work begins, so there are no surprises on the back end. Bring your policy number when you call, it helps us move faster on your behalf.
 
 ## Response Times Across Bellevue
 
-Our Federal Way headquarters puts us roughly 20–25 minutes from central Bellevue under normal traffic conditions. Realistically, most Bellevue addresses — from Bellevue Square to Somerset to Newport Hills — see a technician on-site within 60–90 minutes of an initial call. During peak commute hours on I-405 and I-90, we route crews from the nearest available location to keep that window tight.
+Our Federal Way headquarters puts us roughly 20–25 minutes from central Bellevue under normal traffic conditions. Realistically, most Bellevue addresses, from Bellevue Square to Somerset to Newport Hills, see a technician on-site within 60–90 minutes of an initial call. During peak commute hours on I-405 and I-90, we route crews from the nearest available location to keep that window tight.
 
 If you're in the Newport Hills or Factoria areas near the I-405 corridor, response can often be faster. If you're further east toward Eastgate or Cougar Mountain, we'll give you an honest ETA when you call so you know exactly what to expect.
 
-Mold emergencies don't improve with time. If you're seeing visible growth, smelling something that wasn't there before a recent water event, or dealing with a property that's been closed up and damp, reaching out today — even for a quick assessment — is the right move. You can also reach us directly at **(206) 883-0333** any time, day or night.
+Mold emergencies don't improve with time. If you're seeing visible growth, smelling something that wasn't there before a recent water event, or dealing with a property that's been closed up and damp, reaching out today, even for a quick assessment, is the right move. You can also reach us directly at **(206) 883-0333** any time, day or night.

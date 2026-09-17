@@ -19,31 +19,31 @@ state: "NC"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall in Heritage Wake Forest or a crawl space floods under an older ranch home near the downtown district, Go Agree Restoration of NC responds with the equipment and documentation to stop the damage from compounding. We handle water damage mitigation, mold remediation, fire and smoke cleanup, and reconstruction for homeowners and property managers across Wake Forest — and we coordinate directly with insurance carriers so the claims process doesn't fall entirely on your shoulders.
+When a pipe bursts behind a wall in Heritage Wake Forest or a crawl space floods under an older ranch home near the downtown district, Go Agree Restoration of NC responds with the equipment and documentation to stop the damage from compounding. We handle water damage mitigation, mold remediation, fire and smoke cleanup, and reconstruction for homeowners and property managers across Wake Forest, and we coordinate directly with insurance carriers so the claims process doesn't fall entirely on your shoulders.
 
 ## Restoration emergencies common in Wake Forest
 
-Wake Forest sits at the northern edge of the Triangle, where the Piedmont's clay-heavy soils drain slowly and back up against foundations after the region's frequent late-summer thunderstorms. That soil profile — combined with the area's rapid residential buildout over the past two decades — means newer construction in ZIP codes **27587** and **27588** often has crawl spaces and slab foundations that weren't fully seasoned before the first heavy rain season. Older homes near South White Street and the historic core, many built before modern vapor barrier standards, are particularly vulnerable to chronic moisture intrusion that quietly feeds mold colonies behind drywall. North Carolina's humid subtropical climate also means that after a fire, smoke and soot residue reactivates with humidity, embedding deeper into porous materials if cleanup is delayed even a few days.
+Wake Forest sits at the northern edge of the Triangle, where the Piedmont's clay-heavy soils drain slowly and back up against foundations after the region's frequent late-summer thunderstorms. That soil profile, combined with the area's rapid residential buildout over the past two decades, means newer construction in ZIP codes **27587** and **27588** often has crawl spaces and slab foundations that weren't fully seasoned before the first heavy rain season. Older homes near South White Street and the historic core, many built before modern vapor barrier standards, are particularly vulnerable to chronic moisture intrusion that quietly feeds mold colonies behind drywall. North Carolina's humid subtropical climate also means that after a fire, smoke and soot residue reactivates with humidity, embedding deeper into porous materials if cleanup is delayed even a few days.
 
-HOA-governed communities — and Wake Forest has several — sometimes add a layer of coordination: exterior work, dumpster placement, and reconstruction timelines may require board approval. We've navigated that process before and can help you understand what documentation your HOA will likely need.
+HOA-governed communities, and Wake Forest has several, sometimes add a layer of coordination: exterior work, dumpster placement, and reconstruction timelines may require board approval. We've navigated that process before and can help you understand what documentation your HOA will likely need.
 
 ## Services we provide in Wake Forest
 
 ### Water damage mitigation
 
-Water damage in Wake Forest frequently starts in one of two places: supply line failures inside the home, or groundwater intrusion through crawl space vents and foundation walls after heavy rainfall. In newer subdivisions, slab leaks from PEX supply lines are an emerging pattern as those systems age. We extract standing water, deploy industrial drying equipment, and monitor moisture readings until structural materials reach safe levels — documented throughout so your adjuster has a complete record.
+Water damage in Wake Forest frequently starts in one of two places: supply line failures inside the home, or groundwater intrusion through crawl space vents and foundation walls after heavy rainfall. In newer subdivisions, slab leaks from PEX supply lines are an emerging pattern as those systems age. We extract standing water, deploy industrial drying equipment, and monitor moisture readings until structural materials reach safe levels, documented throughout so your adjuster has a complete record.
 
 ### Mold remediation
 
-Mold can begin colonizing wet materials within 24 to 48 hours of a moisture event. In Wake Forest's older housing stock near the historic downtown corridor, we regularly find mold established inside wall cavities long before a homeowner notices discoloration or odor. Our remediation process contains the affected area, removes compromised materials, and treats surfaces — followed by clearance testing to confirm the work is complete. We do not make medical claims about air quality outcomes, but we follow established remediation protocols designed to bring visible and hidden mold growth under control.
+Mold can begin colonizing wet materials within 24 to 48 hours of a moisture event. In Wake Forest's older housing stock near the historic downtown corridor, we regularly find mold established inside wall cavities long before a homeowner notices discoloration or odor. Our remediation process contains the affected area, removes compromised materials, and treats surfaces, followed by clearance testing to confirm the work is complete. We do not make medical claims about air quality outcomes, but we follow established remediation protocols designed to bring visible and hidden mold growth under control.
 
 ### Fire and smoke damage cleanup
 
-After a kitchen fire or an electrical event, the visible char is rarely the full story. Smoke travels through HVAC systems and settles into insulation, subflooring, and cabinet interiors. In Wake Forest's tightly built newer homes, that migration happens fast. We assess the full smoke path, not just the room of origin, and use appropriate cleaning methods for each surface type — dry sponge for certain residues, wet chemical cleaning for others — before any reconstruction begins.
+After a kitchen fire or an electrical event, the visible char is rarely the full story. Smoke travels through HVAC systems and settles into insulation, subflooring, and cabinet interiors. In Wake Forest's tightly built newer homes, that migration happens fast. We assess the full smoke path, not just the room of origin, and use appropriate cleaning methods for each surface type, dry sponge for certain residues, wet chemical cleaning for others, before any reconstruction begins.
 
 ### Reconstruction
 
-Once mitigation is complete, many homeowners don't want to manage a separate general contractor. We carry reconstruction work through to finished condition — drywall, flooring, cabinetry, and painting — so you're dealing with one company and one invoice, which simplifies the insurance settlement process considerably.
+Once mitigation is complete, many homeowners don't want to manage a separate general contractor. We carry reconstruction work through to finished condition, drywall, flooring, cabinetry, and painting, so you're dealing with one company and one invoice, which simplifies the insurance settlement process considerably.
 
 ## Coverage and how fast we can get there
 

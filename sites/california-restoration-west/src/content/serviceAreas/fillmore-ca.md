@@ -19,15 +19,15 @@ state: "CA"
 primary: false
 rendered: true
 ---
-California Restoration West responds to water damage, fire damage, mold, and biohazard emergencies for homeowners and property managers throughout Fillmore, CA. Operating around the clock from our Ventura headquarters, we handle the full scope — from initial extraction and drying through structural repairs and reconstruction — so you are dealing with one team from the first call to the final walkthrough. Reach us any time at (805) 290-7292.
+California Restoration West responds to water damage, fire damage, mold, and biohazard emergencies for homeowners and property managers throughout Fillmore, CA. Operating around the clock from our Ventura headquarters, we handle the full scope, from initial extraction and drying through structural repairs and reconstruction, so you are dealing with one team from the first call to the final walkthrough. Reach us any time at (805) 290-7292.
 
 ## Restoration emergencies common in Fillmore
 
-Fillmore sits in the Santa Clara River valley, hemmed in by the Topatopa Mountains to the north and the coastal ranges to the south. That geography shapes the risks here in specific ways. The Santa Clara River corridor means flood risk is real — not just during major storm years but whenever the Ventura County watershed delivers sustained rainfall upstream. The valley floor can sheet-flood quickly, and older drainage infrastructure in the city core does not always keep pace with heavy runoff.
+Fillmore sits in the Santa Clara River valley, hemmed in by the Topatopa Mountains to the north and the coastal ranges to the south. That geography shapes the risks here in specific ways. The Santa Clara River corridor means flood risk is real, not just during major storm years but whenever the Ventura County watershed delivers sustained rainfall upstream. The valley floor can sheet-flood quickly, and older drainage infrastructure in the city core does not always keep pace with heavy runoff.
 
-Fillmore also sits in a seismically active zone. The San Cayetano fault runs close to the city's northern edge, and even moderate shaking can crack stucco, shift foundations, and rupture supply lines — creating water intrusion problems that do not announce themselves until mold is already growing behind the drywall. The region's hot, dry summers and the proximity to wildland areas make structure fires and smoke damage a recurring concern, particularly during Santa Ana wind events when embers travel.
+Fillmore also sits in a seismically active zone. The San Cayetano fault runs close to the city's northern edge, and even moderate shaking can crack stucco, shift foundations, and rupture supply lines, creating water intrusion problems that do not announce themselves until mold is already growing behind the drywall. The region's hot, dry summers and the proximity to wildland areas make structure fires and smoke damage a recurring concern, particularly during Santa Ana wind events when embers travel.
 
-The housing stock itself is a factor. Much of Fillmore was built in the mid-twentieth century, and those homes carry the material and mechanical signatures of that era — details that matter when scoping any restoration project.
+The housing stock itself is a factor. Much of Fillmore was built in the mid-twentieth century, and those homes carry the material and mechanical signatures of that era, details that matter when scoping any restoration project.
 
 ## Services we provide in Fillmore
 
@@ -41,7 +41,7 @@ Smoke residue behaves differently depending on what burned and how hot. In Fillm
 
 ### Mold remediation
 
-The Santa Clara valley's warm summers and periodic flooding create conditions where mold can begin colonizing porous materials within 24 to 48 hours of a water event. Mold remediation in Fillmore often follows undetected slow leaks — a dripping supply line behind a cabinet, a failing roof flashing — where the damage is well established before the smell or visible growth appears.
+The Santa Clara valley's warm summers and periodic flooding create conditions where mold can begin colonizing porous materials within 24 to 48 hours of a water event. Mold remediation in Fillmore often follows undetected slow leaks, a dripping supply line behind a cabinet, a failing roof flashing, where the damage is well established before the smell or visible growth appears.
 
 ### Biohazard and specialty cleanup
 
@@ -49,18 +49,18 @@ We handle sewage backup cleanup, which is a realistic risk in Fillmore given the
 
 ### Reconstruction
 
-Once mitigation is complete, we carry the project through structural repairs, drywall, flooring, and finish work — coordinating directly with your insurance adjuster so the documentation supports the full scope of the claim.
+Once mitigation is complete, we carry the project through structural repairs, drywall, flooring, and finish work, coordinating directly with your insurance adjuster so the documentation supports the full scope of the claim.
 
 ## Coverage and how fast we can get there
 
-From our Ventura headquarters, Fillmore is roughly 30 miles east via Highway 126 — a direct, mostly two-lane corridor through the Santa Clara valley. Because we operate 24/7, we can dispatch at any hour. Highway 126 is the primary route; there is no practical alternate that saves meaningful time. Property owners throughout Fillmore — whether you are in the older blocks near downtown or in the newer residential areas on the city's eastern and northern edges — are within the same service corridor. Call (805) 290-7292 and we will confirm dispatch immediately.
+From our Ventura headquarters, Fillmore is roughly 30 miles east via Highway 126, a direct, mostly two-lane corridor through the Santa Clara valley. Because we operate 24/7, we can dispatch at any hour. Highway 126 is the primary route; there is no practical alternate that saves meaningful time. Property owners throughout Fillmore, whether you are in the older blocks near downtown or in the newer residential areas on the city's eastern and northern edges, are within the same service corridor. Call (805) 290-7292 and we will confirm dispatch immediately.
 
 ## Building stock, site conditions, and permits in Fillmore
 
-Fillmore's residential core is largely mid-twentieth century construction — wood-frame homes with stucco exteriors, built on slab-on-grade foundations or, in some of the older downtown-adjacent blocks, raised wood-frame floors over shallow crawlspaces. Homes of that era commonly used galvanized steel supply lines, which corrode from the inside out and can fail without visible exterior warning. Lead-based paint and asbestos-containing materials — in popcorn ceilings, floor tile mastic, and pipe insulation — are plausible in homes built before the late 1970s and must be assessed before any demolition work begins.
+Fillmore's residential core is largely mid-twentieth century construction, wood-frame homes with stucco exteriors, built on slab-on-grade foundations or, in some of the older downtown-adjacent blocks, raised wood-frame floors over shallow crawlspaces. Homes of that era commonly used galvanized steel supply lines, which corrode from the inside out and can fail without visible exterior warning. Lead-based paint and asbestos-containing materials, in popcorn ceilings, floor tile mastic, and pipe insulation, are plausible in homes built before the late 1970s and must be assessed before any demolition work begins.
 
 The valley floor soils include expansive clays that swell with moisture and shrink in drought, putting lateral stress on slab edges and foundation stems. That movement can open cracks that become water intrusion points.
 
 Permits for structural repair and reconstruction in Fillmore are issued through the City of Fillmore's Building and Safety division. Work that touches structural framing, electrical, or plumbing typically requires a permit and inspection. Fillmore falls within California's seismic design requirements, and any scope that includes foundation or shear-wall work will be reviewed against current state code.
 
-If you are dealing with active damage right now, call (805) 290-7292. California Restoration West is available around the clock, and the sooner mitigation begins, the more of your structure — and your claim — can be preserved.
+If you are dealing with active damage right now, call (805) 290-7292. California Restoration West is available around the clock, and the sooner mitigation begins, the more of your structure, and your claim, can be preserved.

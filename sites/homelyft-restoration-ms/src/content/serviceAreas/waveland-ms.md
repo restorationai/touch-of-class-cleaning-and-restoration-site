@@ -19,23 +19,23 @@ state: "MS"
 primary: false
 rendered: true
 ---
-When a pipe bursts under a raised pier-and-beam floor or a Gulf storm pushes a foot of water through a crawl space, Waveland property owners need someone who already knows this stretch of the Mississippi Gulf Coast — not a crew reading a map on the way in. HomeLyft Restoration MS handles water damage mitigation, mold remediation, fire and smoke cleanup, and structural drying for homes and commercial properties throughout Waveland, working directly with insurance carriers to document losses and move the recovery forward without unnecessary delays.
+When a pipe bursts under a raised pier-and-beam floor or a Gulf storm pushes a foot of water through a crawl space, Waveland property owners need someone who already knows this stretch of the Mississippi Gulf Coast, not a crew reading a map on the way in. HomeLyft Restoration MS handles water damage mitigation, mold remediation, fire and smoke cleanup, and structural drying for homes and commercial properties throughout Waveland, working directly with insurance carriers to document losses and move the recovery forward without unnecessary delays.
 
 ## Restoration emergencies common in Waveland
 
 Waveland sits at one of the lowest elevations along the entire Mississippi Gulf Coast, and that geography shapes nearly every restoration call we receive here. The city's proximity to the Gulf and to Bay St. Louis means storm surge can arrive faster and run deeper than residents in higher-elevation communities to the north ever experience. Even a moderate tropical system can push brackish water into garages, under slabs, and through door thresholds before a homeowner has finished moving valuables to a second floor.
 
-Beyond storm events, the region's humidity — routinely above 80 percent from late spring through early fall — means that a slow plumbing leak inside a wall cavity can produce visible mold colonization in as little as 48 to 72 hours. Older wood-frame construction, common in the neighborhoods closest to the waterfront, absorbs moisture quickly and releases it slowly, which extends drying timelines compared to newer concrete-block builds. Post-Katrina rebuilds introduced a mix of construction standards across the city, so the structural materials and moisture barriers we encounter vary significantly from block to block. That variability matters when we're calculating how long equipment needs to run and which drying method is appropriate.
+Beyond storm events, the region's humidity, routinely above 80 percent from late spring through early fall, means that a slow plumbing leak inside a wall cavity can produce visible mold colonization in as little as 48 to 72 hours. Older wood-frame construction, common in the neighborhoods closest to the waterfront, absorbs moisture quickly and releases it slowly, which extends drying timelines compared to newer concrete-block builds. Post-Katrina rebuilds introduced a mix of construction standards across the city, so the structural materials and moisture barriers we encounter vary significantly from block to block. That variability matters when we're calculating how long equipment needs to run and which drying method is appropriate.
 
 ## Services we provide in Waveland
 
 ### Water damage mitigation and structural drying
 
-Water damage in Waveland frequently involves Category 2 or Category 3 water — storm runoff, sewage backups, or bay water — rather than clean supply-line breaks. That distinction changes everything about how materials are handled and what can be safely dried in place versus what must be removed. We extract standing water, place industrial air movers and dehumidifiers calibrated for coastal humidity levels, and monitor moisture readings in walls and subfloors until the structure reaches target dryness. Documentation goes to your adjuster as the job progresses.
+Water damage in Waveland frequently involves Category 2 or Category 3 water, storm runoff, sewage backups, or bay water, rather than clean supply-line breaks. That distinction changes everything about how materials are handled and what can be safely dried in place versus what must be removed. We extract standing water, place industrial air movers and dehumidifiers calibrated for coastal humidity levels, and monitor moisture readings in walls and subfloors until the structure reaches target dryness. Documentation goes to your adjuster as the job progresses.
 
 ### Mold remediation
 
-The combination of heat, humidity, and older housing stock makes Waveland one of the more active mold markets on the Coast. We contain affected areas, remove compromised materials following established remediation protocols, treat surfaces, and clear the workspace before reconstruction begins. We do not offer air-quality guarantees or medical advice — our role is physical remediation of visible and moisture-mapped mold growth.
+The combination of heat, humidity, and older housing stock makes Waveland one of the more active mold markets on the Coast. We contain affected areas, remove compromised materials following established remediation protocols, treat surfaces, and clear the workspace before reconstruction begins. We do not offer air-quality guarantees or medical advice, our role is physical remediation of visible and moisture-mapped mold growth.
 
 ### Fire and smoke damage cleanup
 
@@ -43,15 +43,15 @@ House fires in Waveland's tighter residential blocks can push smoke residue into
 
 ### Reconstruction and repairs
 
-Once mitigation is complete, the same team coordinates repairs — replacing drywall, flooring, cabinetry, and trim — so you're not managing a handoff between a restoration company and a separate general contractor. Scope is documented and shared with your insurance carrier before work begins.
+Once mitigation is complete, the same team coordinates repairs, replacing drywall, flooring, cabinetry, and trim, so you're not managing a handoff between a restoration company and a separate general contractor. Scope is documented and shared with your insurance carrier before work begins.
 
 ## Coverage and how fast we can get there
 
-HomeLyft Restoration MS is based in Gulfport, roughly 30 miles east of Waveland along U.S. Highway 90. That coastal highway is our primary route in, running through Pass Christian and Bay St. Louis before reaching Waveland. Depending on traffic and time of day, the drive typically falls in the 40-to-55-minute range — call us at (228) 284-5200 to get a realistic arrival estimate for your specific situation. We serve all areas of Waveland accessible from Highway 90 and the surface streets running north toward Interstate 10. For properties closer to the Waveland beachfront or along the lower sections of Coleman Avenue, we account for any post-storm road conditions or access restrictions when scheduling.
+HomeLyft Restoration MS is based in Gulfport, roughly 30 miles east of Waveland along U.S. Highway 90. That coastal highway is our primary route in, running through Pass Christian and Bay St. Louis before reaching Waveland. Depending on traffic and time of day, the drive typically falls in the 40-to-55-minute range, call us at (228) 284-5200 to get a realistic arrival estimate for your specific situation. We serve all areas of Waveland accessible from Highway 90 and the surface streets running north toward Interstate 10. For properties closer to the Waveland beachfront or along the lower sections of Coleman Avenue, we account for any post-storm road conditions or access restrictions when scheduling.
 
 ## Building stock, site conditions, and permits in Waveland
 
-Most of what stands in Waveland today went up after 2005, and it shows in the assemblies: homes elevated on treated pilings or block piers, breakaway or lattice enclosures below the flood elevation, hurricane strapping tying roof to wall, and PEX or CPVC supply with PVC drains. Surviving older cottages are the opposite problem — wood frame, sawn lumber, and whatever plumbing vintage was left in place through the rebuild.
+Most of what stands in Waveland today went up after 2005, and it shows in the assemblies: homes elevated on treated pilings or block piers, breakaway or lattice enclosures below the flood elevation, hurricane strapping tying roof to wall, and PEX or CPVC supply with PVC drains. Surviving older cottages are the opposite problem, wood frame, sawn lumber, and whatever plumbing vintage was left in place through the rebuild.
 
 The ground here is sandy and the water table sits close to the surface, so water under an elevated floor lingers instead of draining away, and insulation and ductwork in that open underfloor space are usually the first things lost.
 

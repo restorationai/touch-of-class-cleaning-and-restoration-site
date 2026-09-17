@@ -20,40 +20,40 @@ state: "NC"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-The smell hits before the smoke clears — that sharp mix of charred wood, melted plastic, and something harder to name that settles into every surface a fire touches. In Wilson, where Historic Downtown Wilson's older commercial blocks sit alongside mid-century bungalows and newer subdivisions spreading toward the 27893 zip code, fire damage carries an extra layer of complexity. Older construction absorbs smoke differently than modern materials, and the humid summers that define eastern North Carolina mean soot and moisture interact fast — sometimes within hours of the fire being extinguished.
+The smell hits before the smoke clears, that sharp mix of charred wood, melted plastic, and something harder to name that settles into every surface a fire touches. In Wilson, where Historic Downtown Wilson's older commercial blocks sit alongside mid-century bungalows and newer subdivisions spreading toward the 27893 zip code, fire damage carries an extra layer of complexity. Older construction absorbs smoke differently than modern materials, and the humid summers that define eastern North Carolina mean soot and moisture interact fast, sometimes within hours of the fire being extinguished.
 
 ## Why Wilson Properties See Fire Damage Differently
 
-Wilson's housing stock is genuinely mixed. The blocks near West Nash Street include homes built in the postwar era with plaster-and-lath interiors, older wiring configurations, and wood framing that has dried and tightened over decades — all of which burn and char in patterns that differ from newer OSB and drywall construction. Plaster walls, in particular, absorb smoke residue deeply into their porous surface, which means surface cleaning alone won't eliminate odor. The residue migrates.
+Wilson's housing stock is genuinely mixed. The blocks near West Nash Street include homes built in the postwar era with plaster-and-lath interiors, older wiring configurations, and wood framing that has dried and tightened over decades, all of which burn and char in patterns that differ from newer OSB and drywall construction. Plaster walls, in particular, absorb smoke residue deeply into their porous surface, which means surface cleaning alone won't eliminate odor. The residue migrates.
 
-Eastern North Carolina's humidity compounds the problem. After a fire is knocked down, the water used to suppress it doesn't evaporate quickly in Wilson's climate — especially in summer. That trapped moisture accelerates secondary damage: rust on metal fasteners, swelling of structural lumber, and mold colonization that can begin within 24 to 48 hours in saturated wall cavities. Fire damage restoration here isn't just about soot and char; it's about managing a moisture problem that starts the moment the hoses stop.
+Eastern North Carolina's humidity compounds the problem. After a fire is knocked down, the water used to suppress it doesn't evaporate quickly in Wilson's climate, especially in summer. That trapped moisture accelerates secondary damage: rust on metal fasteners, swelling of structural lumber, and mold colonization that can begin within 24 to 48 hours in saturated wall cavities. Fire damage restoration here isn't just about soot and char; it's about managing a moisture problem that starts the moment the hoses stop.
 
 ## Our Fire Damage Restoration Process in Wilson
 
-The first priority on any fire loss is stabilization. Before restoration crews can work safely, the structure needs to be assessed for load-bearing integrity, and any openings left by the fire — collapsed rooflines, broken windows, compromised walls — need to be boarded and tarped to prevent further weather intrusion. Wilson's afternoon thunderstorms in late spring and summer are not forgiving to an exposed structure.
+The first priority on any fire loss is stabilization. Before restoration crews can work safely, the structure needs to be assessed for load-bearing integrity, and any openings left by the fire, collapsed rooflines, broken windows, compromised walls, need to be boarded and tarped to prevent further weather intrusion. Wilson's afternoon thunderstorms in late spring and summer are not forgiving to an exposed structure.
 
 Once the building is secured, the process moves through several distinct phases:
 
-- **Soot and smoke mapping** — different fire types (electrical, grease, synthetic materials) leave different residue profiles. Each type requires a different cleaning chemistry.
-- **Controlled demolition of unsalvageable materials** — charred framing, compromised insulation, and smoke-saturated drywall are removed to clean substrate before any restoration begins.
-- **Odor neutralization** — thermal fogging and hydroxyl treatment penetrate surfaces that surface wiping cannot reach, which matters especially in homes with plaster walls or original hardwood floors.
-- **Structural drying** — water from suppression efforts is extracted and monitored with moisture meters until readings return to acceptable baselines.
-- **Reconstruction scoping** — a detailed scope is documented for insurance purposes before any rebuild work begins.
+- **Soot and smoke mapping**, different fire types (electrical, grease, synthetic materials) leave different residue profiles. Each type requires a different cleaning chemistry.
+- **Controlled demolition of unsalvageable materials**, charred framing, compromised insulation, and smoke-saturated drywall are removed to clean substrate before any restoration begins.
+- **Odor neutralization**, thermal fogging and hydroxyl treatment penetrate surfaces that surface wiping cannot reach, which matters especially in homes with plaster walls or original hardwood floors.
+- **Structural drying**, water from suppression efforts is extracted and monitored with moisture meters until readings return to acceptable baselines.
+- **Reconstruction scoping**, a detailed scope is documented for insurance purposes before any rebuild work begins.
 
 ## Reaching Wilson from Middlesex
 
-Go Green Restoration of NC is based in Middlesex, which puts Wilson well within reach via US-264 East — a straightforward run that avoids the congestion patterns that slow response in larger metro areas. The team is available 24/7, which matters when a fire loss happens at 2 a.m. and every hour of delay allows smoke residue to bond more permanently to surfaces and moisture to migrate further into the structure.
+Go Green Restoration of NC is based in Middlesex, which puts Wilson well within reach via US-264 East, a straightforward run that avoids the congestion patterns that slow response in larger metro areas. The team is available 24/7, which matters when a fire loss happens at 2 a.m. and every hour of delay allows smoke residue to bond more permanently to surfaces and moisture to migrate further into the structure.
 
-For properties near Vollis Simpson Whirligig Park or along the older corridors of Historic Downtown Wilson, access and parking for a full restoration crew can require some coordination — narrow lots and on-street parking are common in those blocks — but it's a familiar logistical consideration for work in Wilson's core.
+For properties near Vollis Simpson Whirligig Park or along the older corridors of Historic Downtown Wilson, access and parking for a full restoration crew can require some coordination, narrow lots and on-street parking are common in those blocks, but it's a familiar logistical consideration for work in Wilson's core.
 
 ## Wilson Insurance Coordination
 
-Fire losses are among the most documentation-intensive insurance claims a homeowner or property manager will file. Carriers want itemized scope, photo documentation of every affected area, and moisture readings that establish the secondary water damage as part of the same loss event — not a separate claim. Go Green Restoration of NC documents the loss thoroughly from the first day on-site and works directly with adjusters to make sure the scope reflects the full extent of damage, including hidden smoke penetration and suppression water.
+Fire losses are among the most documentation-intensive insurance claims a homeowner or property manager will file. Carriers want itemized scope, photo documentation of every affected area, and moisture readings that establish the secondary water damage as part of the same loss event, not a separate claim. Go Green Restoration of NC documents the loss thoroughly from the first day on-site and works directly with adjusters to make sure the scope reflects the full extent of damage, including hidden smoke penetration and suppression water.
 
 For properties in the 27896 zip code or anywhere in Wilson County, the same documentation process applies regardless of carrier.
 
 ## Local Note
 
-Homes near Barton College and the older residential streets feeding into West Nash were built in an era when interior wall cavities were often filled with newspaper, sawdust, or early-generation fiberglass batting — materials that hold smoke odor tenaciously and are sometimes discovered only during demolition. If a post-fire odor persists after initial cleaning, the source is frequently inside the wall assembly rather than on the surface. It's worth asking your restoration contractor specifically how they're addressing cavity odor, not just surface residue.
+Homes near Barton College and the older residential streets feeding into West Nash were built in an era when interior wall cavities were often filled with newspaper, sawdust, or early-generation fiberglass batting, materials that hold smoke odor tenaciously and are sometimes discovered only during demolition. If a post-fire odor persists after initial cleaning, the source is frequently inside the wall assembly rather than on the surface. It's worth asking your restoration contractor specifically how they're addressing cavity odor, not just surface residue.
 
-If you're dealing with fire or smoke damage anywhere in Wilson, call Go Green Restoration of NC at (919) 906-5473. The crew is available around the clock, and the sooner the assessment begins, the more of the structure — and its contents — can be saved.
+If you're dealing with fire or smoke damage anywhere in Wilson, call Go Green Restoration of NC at (919) 906-5473. The crew is available around the clock, and the sooner the assessment begins, the more of the structure, and its contents, can be saved.

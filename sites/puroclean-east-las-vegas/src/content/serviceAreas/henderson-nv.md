@@ -19,31 +19,31 @@ state: "NV"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall in Green Valley Ranch or smoke works its way into the ductwork of an Anthem home, PuroClean of East Las Vegas responds with the equipment, documentation, and trained technicians to stop the damage and start the recovery. We handle water extraction, structural drying, fire and smoke cleanup, mold remediation, and reconstruction for Henderson homeowners and property managers — and we coordinate directly with insurance carriers so the claims process doesn't fall on you.
+When a pipe bursts behind a wall in Green Valley Ranch or smoke works its way into the ductwork of an Anthem home, PuroClean of East Las Vegas responds with the equipment, documentation, and trained technicians to stop the damage and start the recovery. We handle water extraction, structural drying, fire and smoke cleanup, mold remediation, and reconstruction for Henderson homeowners and property managers, and we coordinate directly with insurance carriers so the claims process doesn't fall on you.
 
 ## Restoration emergencies common in Henderson
 
-Henderson sits in one of the driest climates in the country, but that desert environment creates its own set of damage patterns. The Mojave heat pushes attic temperatures well past 150°F in summer, accelerating the breakdown of supply lines, wax rings, and washing machine hoses. When those fail — and they do — water moves fast through the open floor plans common in master-planned communities like Inspirada and MacDonald Ranch. Slab construction, standard in most homes built here since the 1990s, means a pinhole slab leak can saturate concrete and migrate under flooring for weeks before a homeowner notices warped hardwood or a spike on their NV Energy bill.
+Henderson sits in one of the driest climates in the country, but that desert environment creates its own set of damage patterns. The Mojave heat pushes attic temperatures well past 150°F in summer, accelerating the breakdown of supply lines, wax rings, and washing machine hoses. When those fail, and they do, water moves fast through the open floor plans common in master-planned communities like Inspirada and MacDonald Ranch. Slab construction, standard in most homes built here since the 1990s, means a pinhole slab leak can saturate concrete and migrate under flooring for weeks before a homeowner notices warped hardwood or a spike on their NV Energy bill.
 
-The rapid growth that defines Henderson's newer ZIP codes — 89044 and 89052 in particular — also means a high concentration of homes built within the last fifteen years, all with similar appliance generations reaching the end of their manufacturer warranties at roughly the same time. Dishwasher supply lines, refrigerator ice makers, and tankless water heaters are among the most common sources of calls we receive from this part of the valley. Meanwhile, older stock in ZIP codes like 89015 and 89002 presents different challenges: aging galvanized plumbing, original HVAC systems, and in some cases materials that require lead-safe work practices during reconstruction.
+The rapid growth that defines Henderson's newer ZIP codes, 89044 and 89052 in particular, also means a high concentration of homes built within the last fifteen years, all with similar appliance generations reaching the end of their manufacturer warranties at roughly the same time. Dishwasher supply lines, refrigerator ice makers, and tankless water heaters are among the most common sources of calls we receive from this part of the valley. Meanwhile, older stock in ZIP codes like 89015 and 89002 presents different challenges: aging galvanized plumbing, original HVAC systems, and in some cases materials that require lead-safe work practices during reconstruction.
 
 ## Services we provide in Henderson
 
 ### Water damage restoration
 
-Water damage in Henderson often involves slab leaks or appliance failures in newer master-planned homes, where open floor plans allow moisture to travel quickly across large square footage. We use thermal imaging cameras and moisture meters to map the full extent of saturation — including inside walls and under flooring — before placing drying equipment. Structural drying follows the IICRC S500 standard, and we document every reading for your insurance adjuster.
+Water damage in Henderson often involves slab leaks or appliance failures in newer master-planned homes, where open floor plans allow moisture to travel quickly across large square footage. We use thermal imaging cameras and moisture meters to map the full extent of saturation, including inside walls and under flooring, before placing drying equipment. Structural drying follows the IICRC S500 standard, and we document every reading for your insurance adjuster.
 
 ### Fire and smoke damage restoration
 
-Dry desert air and the combustible landscaping common in communities like Seven Hills and Anthem mean house fires can move quickly. Smoke residue behaves differently depending on what burned and how hot — protein smoke from a kitchen fire, for example, leaves a nearly invisible film that carries a persistent odor. We assess the residue type before choosing cleaning chemistry, and we address HVAC systems and ductwork where smoke contamination is often overlooked.
+Dry desert air and the combustible landscaping common in communities like Seven Hills and Anthem mean house fires can move quickly. Smoke residue behaves differently depending on what burned and how hot, protein smoke from a kitchen fire, for example, leaves a nearly invisible film that carries a persistent odor. We assess the residue type before choosing cleaning chemistry, and we address HVAC systems and ductwork where smoke contamination is often overlooked.
 
 ### Mold remediation
 
-Mold doesn't need a flood to take hold. In Henderson's climate, a slow leak behind a vanity or a poorly sealed shower pan can produce visible mold growth within 48 to 72 hours in a warm interior space. We contain the affected area, remove compromised materials, and treat surfaces according to established remediation protocols. We do not offer air quality testing — that's best handled by an independent industrial hygienist — but we work alongside testing professionals when clients require clearance documentation.
+Mold doesn't need a flood to take hold. In Henderson's climate, a slow leak behind a vanity or a poorly sealed shower pan can produce visible mold growth within 48 to 72 hours in a warm interior space. We contain the affected area, remove compromised materials, and treat surfaces according to established remediation protocols. We do not offer air quality testing, that's best handled by an independent industrial hygienist, but we work alongside testing professionals when clients require clearance documentation.
 
 ### Reconstruction
 
-Once the damage is dry and remediated, the work isn't finished. We handle the rebuild — drywall, flooring, cabinetry, painting — so you're not coordinating a separate contractor. For HOA communities like Green Valley and Green Valley Ranch, we're familiar with the approval processes that govern exterior repairs and can help you gather the documentation your association requires.
+Once the damage is dry and remediated, the work isn't finished. We handle the rebuild, drywall, flooring, cabinetry, painting, so you're not coordinating a separate contractor. For HOA communities like Green Valley and Green Valley Ranch, we're familiar with the approval processes that govern exterior repairs and can help you gather the documentation your association requires.
 
 ## Coverage and how fast we can get there
 
@@ -51,7 +51,7 @@ Our Las Vegas headquarters puts us roughly 12 to 18 miles from most Henderson ne
 
 ## Building stock, site conditions, and permits in Henderson
 
-Henderson's oldest housing sits in the Townsite and Pittman areas near Water Street, built in the 1940s around the wartime magnesium plant — small wood-framed houses on shallow slabs, remodeled so many times that what's behind the drywall varies wall to wall. Everything built south and west of there is newer: stucco over wood frame, tile or asphalt roofs on trusses, and slab-on-grade floors. Basements are essentially nonexistent, so water that gets loose ends up in the slab, the baseplate, and the insulation rather than below grade.
+Henderson's oldest housing sits in the Townsite and Pittman areas near Water Street, built in the 1940s around the wartime magnesium plant, small wood-framed houses on shallow slabs, remodeled so many times that what's behind the drywall varies wall to wall. Everything built south and west of there is newer: stucco over wood frame, tile or asphalt roofs on trusses, and slab-on-grade floors. Basements are essentially nonexistent, so water that gets loose ends up in the slab, the baseplate, and the insulation rather than below grade.
 
 The ground here is desert alluvium with caliche, a cemented layer that sheds water sideways instead of absorbing it, so monsoon runoff tends to pool against foundations. Permits for structural repair and rebuild come from the City of Henderson's building department, not Clark County.
 

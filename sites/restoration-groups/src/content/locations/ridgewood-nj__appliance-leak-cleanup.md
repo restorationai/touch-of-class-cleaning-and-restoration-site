@@ -20,25 +20,25 @@ state: "NJ"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
-Ridgewood's stately Victorians and Tudors in neighborhoods like the Heights and Old Country Club were built for a different era of appliances — and the original supply lines, subfloor systems, and finished basement layouts that come with those homes weren't designed to contain a modern dishwasher overflow or a failed washing machine hose. When a refrigerator ice maker line splits behind a built-in cabinet or a water heater lets go in a finished lower level, water moves fast through old-growth hardwood floors, plaster walls, and into the kind of deep, well-appointed basements that define so much of 07450. The Restoration Group responds 24/7 to appliance leak emergencies throughout Ridgewood — call (855) 650-7422 the moment you find standing water.
+Ridgewood's stately Victorians and Tudors in neighborhoods like the Heights and Old Country Club were built for a different era of appliances, and the original supply lines, subfloor systems, and finished basement layouts that come with those homes weren't designed to contain a modern dishwasher overflow or a failed washing machine hose. When a refrigerator ice maker line splits behind a built-in cabinet or a water heater lets go in a finished lower level, water moves fast through old-growth hardwood floors, plaster walls, and into the kind of deep, well-appointed basements that define so much of 07450. The Restoration Group responds 24/7 to appliance leak emergencies throughout Ridgewood, call (855) 650-7422 the moment you find standing water.
 
 ## Why Ridgewood Homes See More Appliance Leak Damage
 
-The housing stock tells most of the story. A significant share of Ridgewood's single-family homes date to the 1910s through 1940s — the Willard and Somerville sections in particular are dense with colonials and Tudors that have been updated inside but still carry aging galvanized or early copper supply lines feeding dishwashers and refrigerators. Those connections corrode at fittings, and the first sign of a slow ice maker line leak is often a buckled hardwood floor or a musty smell in the finished basement below — not a visible puddle.
+The housing stock tells most of the story. A significant share of Ridgewood's single-family homes date to the 1910s through 1940s, the Willard and Somerville sections in particular are dense with colonials and Tudors that have been updated inside but still carry aging galvanized or early copper supply lines feeding dishwashers and refrigerators. Those connections corrode at fittings, and the first sign of a slow ice maker line leak is often a buckled hardwood floor or a musty smell in the finished basement below, not a visible puddle.
 
-Finished basements compound the problem. Ridgewood homeowners invest heavily in lower levels, and when a water heater fails or a washing machine hose blows, water wicks into carpet padding, framing, and drywall before it's ever noticed. Mold colonization can begin within 24 to 48 hours in an enclosed, humid space — a timeline that makes same-day extraction critical, not optional.
+Finished basements compound the problem. Ridgewood homeowners invest heavily in lower levels, and when a water heater fails or a washing machine hose blows, water wicks into carpet padding, framing, and drywall before it's ever noticed. Mold colonization can begin within 24 to 48 hours in an enclosed, humid space, a timeline that makes same-day extraction critical, not optional.
 
 The regional climate adds pressure too. Bergen County's humid summers mean ambient moisture levels are already elevated from June through September, slowing evaporative drying and giving any residual moisture a head start on microbial growth.
 
 ## Our Appliance Leak Cleanup Process in Ridgewood
 
-Every job begins with a moisture mapping survey — thermal imaging and calibrated meters to trace exactly where water has traveled behind walls, under flooring, and into subfloor assemblies. In Ridgewood's older homes, water from a dishwasher overflow at the kitchen level can track laterally through a plaster ceiling and appear in a basement utility room twenty feet away. We follow the moisture, not just the obvious wet spot.
+Every job begins with a moisture mapping survey, thermal imaging and calibrated meters to trace exactly where water has traveled behind walls, under flooring, and into subfloor assemblies. In Ridgewood's older homes, water from a dishwasher overflow at the kitchen level can track laterally through a plaster ceiling and appear in a basement utility room twenty feet away. We follow the moisture, not just the obvious wet spot.
 
 From there, the process follows the IICRC S500 standard for water damage restoration:
 
 - **Extraction**: truck-mounted and portable extractors remove standing water and saturated material from carpet, padding, and subfloor.
 - **Controlled demolition** (when necessary): wet drywall, baseboards, and flooring that cannot be dried in place are removed to the flood cut line to prevent trapped moisture.
-- **Drying**: commercial-grade desiccant and refrigerant dehumidifiers, combined with high-velocity air movers, are positioned based on the moisture map — not placed generically.
+- **Drying**: commercial-grade desiccant and refrigerant dehumidifiers, combined with high-velocity air movers, are positioned based on the moisture map, not placed generically.
 - **Monitoring**: we return daily to read moisture levels and adjust equipment until structural materials reach target drying goals.
 - **Documentation**: every moisture reading, equipment placement, and photo is logged for your insurance carrier.
 
@@ -46,16 +46,16 @@ As an IICRC Certified Firm (#210213) and NJ Licensed Home Improvement Contractor
 
 ## Reaching Ridgewood from Our Kenilworth Base
 
-Our Kenilworth headquarters puts Ridgewood well within our Bergen County service area. We dispatch 24 hours a day, seven days a week — if a washing machine floods at 2 a.m. in the Heights or a water heater fails on a Sunday near the Ridgewood train station, you reach a live dispatcher, not a voicemail. Route 17 and Route 4 are our primary corridors into the village, and our crews are familiar with Ridgewood's residential streets, including the narrower approaches in the older sections near Van Neste Square where parking and staging require a bit more coordination.
+Our Kenilworth headquarters puts Ridgewood well within our Bergen County service area. We dispatch 24 hours a day, seven days a week, if a washing machine floods at 2 a.m. in the Heights or a water heater fails on a Sunday near the Ridgewood train station, you reach a live dispatcher, not a voicemail. Route 17 and Route 4 are our primary corridors into the village, and our crews are familiar with Ridgewood's residential streets, including the narrower approaches in the older sections near Van Neste Square where parking and staging require a bit more coordination.
 
 ## Ridgewood Insurance Coordination
 
-Appliance leak losses in Ridgewood are among the more straightforward homeowner insurance claims — sudden and accidental discharge from a dishwasher, washing machine, or refrigerator line is covered under most standard HO-3 policies. Slow leaks that went undetected are a different story; carriers will often dispute coverage if they can argue the damage was gradual and visible.
+Appliance leak losses in Ridgewood are among the more straightforward homeowner insurance claims, sudden and accidental discharge from a dishwasher, washing machine, or refrigerator line is covered under most standard HO-3 policies. Slow leaks that went undetected are a different story; carriers will often dispute coverage if they can argue the damage was gradual and visible.
 
 We document the loss from the moment we arrive: photos of the source appliance, moisture readings at the point of origin, and a written scope of damage that maps to the insurance adjuster's line items. We work directly with all major carriers and can communicate with your adjuster on your behalf to keep the claim moving.
 
 ## Local Note
 
-In Ridgewood's finished-basement homes — especially the deeper walk-out configurations common in the Heights and along the hillier streets west of the Ridgewood Country Club — sump pump discharge lines occasionally run beneath finished flooring before exiting the foundation wall. When a washing machine overflow or water heater failure saturates the floor, that buried discharge line can act as an unintended channel, spreading water under the slab or into adjacent finished rooms. It's a detail that's easy to miss on a standard walkthrough but shows up clearly on thermal imaging. We flag it on every job in these neighborhoods so the drying plan accounts for the full moisture pathway — not just the visible damage.
+In Ridgewood's finished-basement homes, especially the deeper walk-out configurations common in the Heights and along the hillier streets west of the Ridgewood Country Club, sump pump discharge lines occasionally run beneath finished flooring before exiting the foundation wall. When a washing machine overflow or water heater failure saturates the floor, that buried discharge line can act as an unintended channel, spreading water under the slab or into adjacent finished rooms. It's a detail that's easy to miss on a standard walkthrough but shows up clearly on thermal imaging. We flag it on every job in these neighborhoods so the drying plan accounts for the full moisture pathway, not just the visible damage.
 
 If an appliance leak has left you with wet floors, a damaged basement, or the unmistakable smell of standing water in Ridgewood, call The Restoration Group now at (855) 650-7422. We're available around the clock, and early extraction is the single biggest factor in limiting the total cost of the loss.

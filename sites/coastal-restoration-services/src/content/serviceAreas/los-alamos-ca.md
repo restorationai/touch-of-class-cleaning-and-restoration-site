@@ -19,19 +19,19 @@ state: "CA"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall or a kitchen fire leaves smoke residue in every cabinet, Los Alamos property owners need someone who knows the area and can move quickly. Coastal Restoration Services Inc handles water damage, fire and smoke cleanup, mold remediation, and reconstruction for homes and commercial properties throughout Los Alamos and the surrounding Santa Barbara County corridor. One call to (805) 345-7440 connects you with a team that treats your property like it matters — because it does.
+When a pipe bursts behind a wall or a kitchen fire leaves smoke residue in every cabinet, Los Alamos property owners need someone who knows the area and can move quickly. Coastal Restoration Services Inc handles water damage, fire and smoke cleanup, mold remediation, and reconstruction for homes and commercial properties throughout Los Alamos and the surrounding Santa Barbara County corridor. One call to (805) 345-7440 connects you with a team that treats your property like it matters, because it does.
 
 ## Restoration emergencies common in Los Alamos
 
 Los Alamos sits in the Santa Ynez Valley at roughly 800 feet elevation, where the climate swings harder than coastal towns expect. Winter storm systems that push through the Transverse Ranges can drop two to three inches of rain in a single event, overwhelming older roof flashings and undersized gutters on the area's mid-century ranch homes and agricultural-era buildings. The valley floor's clay-heavy soils shed water rather than absorbing it, so surface runoff finds its way into crawl spaces and low-lying foundations faster than homeowners realize.
 
-Summer heat and low humidity create a different problem: wood framing and drywall dry out and crack, opening small gaps that let moisture in the moment conditions change. The town's older building stock — many structures date to the 1920s through 1950s — often lacks modern vapor barriers and uses materials like horsehair plaster and knob-and-tube wiring that complicate both remediation and reconstruction. Fire risk is also real; dry grass along the hills east of town and the occasional Santa Ana-adjacent wind event mean wildfire smoke and ember damage are not theoretical concerns for residents here.
+Summer heat and low humidity create a different problem: wood framing and drywall dry out and crack, opening small gaps that let moisture in the moment conditions change. The town's older building stock, many structures date to the 1920s through 1950s, often lacks modern vapor barriers and uses materials like horsehair plaster and knob-and-tube wiring that complicate both remediation and reconstruction. Fire risk is also real; dry grass along the hills east of town and the occasional Santa Ana-adjacent wind event mean wildfire smoke and ember damage are not theoretical concerns for residents here.
 
 ## Services we provide in Los Alamos
 
 ### Water damage restoration
 
-Water damage in Los Alamos frequently starts small and gets expensive fast. A slow supply-line leak under a farmhouse sink, a failed water heater in a converted bungalow, or stormwater backing up through a crawl-space vent can saturate subfloor sheathing and wall cavities before the smell even registers. We extract standing water, deploy industrial drying equipment, and monitor moisture readings daily until structural materials reach safe levels — following IICRC S500 drying protocols so documentation holds up with your insurance adjuster.
+Water damage in Los Alamos frequently starts small and gets expensive fast. A slow supply-line leak under a farmhouse sink, a failed water heater in a converted bungalow, or stormwater backing up through a crawl-space vent can saturate subfloor sheathing and wall cavities before the smell even registers. We extract standing water, deploy industrial drying equipment, and monitor moisture readings daily until structural materials reach safe levels, following IICRC S500 drying protocols so documentation holds up with your insurance adjuster.
 
 ### Fire and smoke damage cleanup
 
@@ -39,7 +39,7 @@ Smoke from a kitchen fire or a nearby wildfire doesn't stay in one room. Protein
 
 ### Mold remediation
 
-The combination of aging construction and periodic moisture intrusion makes mold a recurring issue in Los Alamos. Crawl spaces under older homes are especially vulnerable — limited airflow and ground moisture create conditions where mold can colonize wood framing within 24 to 48 hours of a water event. We identify the moisture source, contain the affected area, and remove compromised materials following established remediation practices. Addressing the source is part of the job; treating the symptom alone doesn't hold.
+The combination of aging construction and periodic moisture intrusion makes mold a recurring issue in Los Alamos. Crawl spaces under older homes are especially vulnerable, limited airflow and ground moisture create conditions where mold can colonize wood framing within 24 to 48 hours of a water event. We identify the moisture source, contain the affected area, and remove compromised materials following established remediation practices. Addressing the source is part of the job; treating the symptom alone doesn't hold.
 
 ### Reconstruction and repairs
 
@@ -47,11 +47,11 @@ Once drying and remediation are complete, many properties need carpentry, drywal
 
 ## Coverage and how fast we can get there
 
-Coastal Restoration Services Inc is based in Vandenberg Village, roughly 35 miles southwest of Los Alamos via U.S. Highway 101 north to State Route 135. The drive through the Santa Ynez Valley corridor is straightforward outside of peak commute windows, and our crews are familiar with the route. We schedule prompt response for Los Alamos calls and can typically have a crew on-site the same day for active water intrusion or post-fire assessments — call (805) 345-7440 to confirm current availability and scheduling.
+Coastal Restoration Services Inc is based in Vandenberg Village, roughly 35 miles southwest of Los Alamos via U.S. Highway 101 north to State Route 135. The drive through the Santa Ynez Valley corridor is straightforward outside of peak commute windows, and our crews are familiar with the route. We schedule prompt response for Los Alamos calls and can typically have a crew on-site the same day for active water intrusion or post-fire assessments, call (805) 345-7440 to confirm current availability and scheduling.
 
 ## Building stock, site conditions, and permits in Los Alamos
 
-Los Alamos is unincorporated, so permits for structural repair, re-roofing, rewiring, or a rebuild come from Santa Barbara County Building and Safety rather than a city office. Anything past cosmetic patching — replacing framing members, moving a wall, reworking electrical or plumbing — generally pulls a permit, and the work is inspected under the California building codes the county enforces, including seismic bracing and anchorage requirements for older raised foundations.
+Los Alamos is unincorporated, so permits for structural repair, re-roofing, rewiring, or a rebuild come from Santa Barbara County Building and Safety rather than a city office. Anything past cosmetic patching, replacing framing members, moving a wall, reworking electrical or plumbing, generally pulls a permit, and the work is inspected under the California building codes the county enforces, including seismic bracing and anchorage requirements for older raised foundations.
 
 Much of the older housing sits on shallow perimeter footings or post-and-pier supports with wood floors above a low crawl space, which means saturated joists and subfloor rather than a flooded slab. Supply lines of that vintage are often galvanized steel or early copper, with cast iron drains that scale and crack. Anything built before the late 1970s also gets tested for asbestos in flooring, mastic, and joint compound and for lead paint before demolition begins.
 

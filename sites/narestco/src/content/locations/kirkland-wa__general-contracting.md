@@ -20,29 +20,29 @@ state: "WA"
 service_display: "Renovations, Remodels and General Contracting"
 rendered: true
 ---
-Whether you're rebuilding after a burst pipe gutted your kitchen, finally addressing the dated layout that's been bothering you since you bought your Bridle Trails colonial, or managing a commercial property on Central Way that needs a full interior overhaul — the path from damaged or outdated to finished runs through a licensed general contractor who knows how to coordinate every trade, pull every permit, and keep the project moving. National Restoration Construction has been doing exactly that since 2004, and Kirkland is firmly in our regular service area.
+Whether you're rebuilding after a burst pipe gutted your kitchen, finally addressing the dated layout that's been bothering you since you bought your Bridle Trails colonial, or managing a commercial property on Central Way that needs a full interior overhaul, the path from damaged or outdated to finished runs through a licensed general contractor who knows how to coordinate every trade, pull every permit, and keep the project moving. National Restoration Construction has been doing exactly that since 2004, and Kirkland is firmly in our regular service area.
 
 ## Our Renovation and Remodeling Process in Kirkland
 
-Every project starts with a walk-through — not a sales pitch. We want to see the space, document existing conditions, and understand what's driving the project before we quote anything. For post-damage rebuilds, that means reviewing the adjuster's scope line by line so nothing gets missed. For elective remodels, it means understanding how you actually use the kitchen or bathroom before we start moving walls.
+Every project starts with a walk-through, not a sales pitch. We want to see the space, document existing conditions, and understand what's driving the project before we quote anything. For post-damage rebuilds, that means reviewing the adjuster's scope line by line so nothing gets missed. For elective remodels, it means understanding how you actually use the kitchen or bathroom before we start moving walls.
 
-From there, we handle permitting through the City of Kirkland's Community Development department, coordinate subcontractors (electrical, plumbing, HVAC, tile, cabinetry), and schedule inspections. You get a single point of contact — not a rotating cast of subs who don't know what the last crew left behind. Framing, drywall, finish carpentry, painting: it all runs under our Washington State Department of Labor & Industries General Contractor registration (#NATIORC792M6), so every phase is covered.
+From there, we handle permitting through the City of Kirkland's Community Development department, coordinate subcontractors (electrical, plumbing, HVAC, tile, cabinetry), and schedule inspections. You get a single point of contact, not a rotating cast of subs who don't know what the last crew left behind. Framing, drywall, finish carpentry, painting: it all runs under our Washington State Department of Labor & Industries General Contractor registration (#NATIORC792M6), so every phase is covered.
 
-For kitchen remodels and bathroom remodels specifically, we sequence the work so demolition, rough-in inspections, and finish installation happen in the right order — which sounds obvious, but it's the thing most DIY-managed projects get wrong, costing weeks of delay.
+For kitchen remodels and bathroom remodels specifically, we sequence the work so demolition, rough-in inspections, and finish installation happen in the right order, which sounds obvious, but it's the thing most DIY-managed projects get wrong, costing weeks of delay.
 
 ## Why Kirkland Homes Often Need More Than a Simple Refresh
 
 Kirkland's housing stock is a mix of mid-century ramblers near Juanita Beach, 1980s and '90s builds in the Totem Lake corridor, and newer construction closer to the Google and PACCAR campuses. Each era brings its own renovation considerations.
 
-Homes built before 1978 — and there are plenty of them in older Kirkland neighborhoods — can contain lead-based paint in walls and trim. Disturbing those surfaces without proper protocols is a health and liability issue. National Restoration Construction is a Lead-Safe Certified Firm and EPA Certified, so we follow the RRP (Renovation, Repair, and Painting) rule on every applicable project without you having to ask.
+Homes built before 1978, and there are plenty of them in older Kirkland neighborhoods, can contain lead-based paint in walls and trim. Disturbing those surfaces without proper protocols is a health and liability issue. National Restoration Construction is a Lead-Safe Certified Firm and EPA Certified, so we follow the RRP (Renovation, Repair, and Painting) rule on every applicable project without you having to ask.
 
-Kirkland also sits in the wetter half of the Puget Sound basin. The combination of heavy fall and winter rainfall, crawl spaces that collect moisture, and older window and roof flashing details means water intrusion is a common trigger for home renovation services calls — not just aesthetic ones. What looks like a kitchen remodel often starts with a subfloor that's been slowly wicking moisture for two seasons.
+Kirkland also sits in the wetter half of the Puget Sound basin. The combination of heavy fall and winter rainfall, crawl spaces that collect moisture, and older window and roof flashing details means water intrusion is a common trigger for home renovation services calls, not just aesthetic ones. What looks like a kitchen remodel often starts with a subfloor that's been slowly wicking moisture for two seasons.
 
 ## Response Times to Kirkland from Our Federal Way Headquarters
 
 Our main operations hub is in Federal Way, roughly 30 miles south of Kirkland via I-5 and I-405. Under normal traffic conditions, that puts a crew on your property in 60 to 90 minutes from the time you reach us. If you're calling from the Totem Lake or Kingsgate area near the 405/NE 116th interchange, the drive is straightforward. Juanita and the lakefront neighborhoods add a few minutes depending on time of day.
 
-For post-damage situations — a contractor who didn't show, a water loss that's now exposed framing, a fire-damaged room that needs boarding and emergency stabilization before the rebuild can begin — faster response matters. Reach us at (206) 883-0333 and we'll tell you honestly how quickly we can be there.
+For post-damage situations, a contractor who didn't show, a water loss that's now exposed framing, a fire-damaged room that needs boarding and emergency stabilization before the rebuild can begin, faster response matters. Reach us at (206) 883-0333 and we'll tell you honestly how quickly we can be there.
 
 ## What We Handle on Insurance-Involved Rebuilds
 
@@ -50,4 +50,4 @@ Post-damage rebuild is one of the more complicated general contracting scenarios
 
 We communicate directly with adjusters, provide photo documentation at every phase, and submit supplemental claims when the original scope is genuinely inadequate. What you handle: your deductible, decisions about upgrades beyond the insurance scope, and staying in contact with your carrier. What we handle: everything on the construction side.
 
-If you're in the middle of a claim and feeling like the project is stalled or underfunded, that's a good moment to get a second set of eyes on the scope. Reach out online or dial (206) 883-0333 — a conversation costs nothing.
+If you're in the middle of a claim and feeling like the project is stalled or underfunded, that's a good moment to get a second set of eyes on the scope. Reach out online or dial (206) 883-0333, a conversation costs nothing.

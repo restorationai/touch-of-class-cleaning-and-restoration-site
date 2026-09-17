@@ -19,21 +19,21 @@ state: "MS"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall or a summer storm drives water under your doors, HomeLyft Restoration MS responds to Rawls Springs property owners with the equipment and process knowledge to stop the damage before it compounds. We handle water extraction, structural drying, mold assessment, fire and smoke cleanup, and full reconstruction — working directly with your insurance carrier so the paperwork doesn't fall entirely on you.
+When a pipe bursts behind a wall or a summer storm drives water under your doors, HomeLyft Restoration MS responds to Rawls Springs property owners with the equipment and process knowledge to stop the damage before it compounds. We handle water extraction, structural drying, mold assessment, fire and smoke cleanup, and full reconstruction, working directly with your insurance carrier so the paperwork doesn't fall entirely on you.
 
 ## Restoration emergencies common in Rawls Springs
 
-Rawls Springs sits in Forrest County, where the Gulf Coast's humid subtropical climate reaches inland with enough force to make moisture management a year-round concern. Summers here are long, wet, and hot — the kind of heat that keeps indoor humidity elevated even when there's no active leak, which means a slow plumbing drip or a poorly sealed crawl space can feed mold growth within 24 to 48 hours of the initial intrusion. The area's housing stock includes a significant number of older pier-and-beam homes where crawl spaces collect ground moisture and where wood subflooring is particularly vulnerable to prolonged saturation. Forrest County also sits in a region that sees regular severe thunderstorm activity, and the clay-heavy soils common to this part of Mississippi don't drain quickly — water that pools against a foundation during a heavy rain event can find its way inside through block walls, window wells, or inadequate grading. Wildfire smoke events, though less frequent, do affect air quality and can leave odor-laden residue on surfaces that requires professional treatment rather than surface cleaning.
+Rawls Springs sits in Forrest County, where the Gulf Coast's humid subtropical climate reaches inland with enough force to make moisture management a year-round concern. Summers here are long, wet, and hot, the kind of heat that keeps indoor humidity elevated even when there's no active leak, which means a slow plumbing drip or a poorly sealed crawl space can feed mold growth within 24 to 48 hours of the initial intrusion. The area's housing stock includes a significant number of older pier-and-beam homes where crawl spaces collect ground moisture and where wood subflooring is particularly vulnerable to prolonged saturation. Forrest County also sits in a region that sees regular severe thunderstorm activity, and the clay-heavy soils common to this part of Mississippi don't drain quickly, water that pools against a foundation during a heavy rain event can find its way inside through block walls, window wells, or inadequate grading. Wildfire smoke events, though less frequent, do affect air quality and can leave odor-laden residue on surfaces that requires professional treatment rather than surface cleaning.
 
 ## Services we provide in Rawls Springs
 
 ### Water damage restoration
 
-Water damage in Rawls Springs frequently starts in crawl spaces or at roof penetrations during storm season. We deploy truck-mounted extractors and industrial air movers to pull standing water and begin structural drying, then use thermal imaging to locate moisture that's migrated into wall cavities or under flooring — places that look dry to the eye but aren't. Drying is documented to the IICRC S500 standard so your adjuster has the data they need.
+Water damage in Rawls Springs frequently starts in crawl spaces or at roof penetrations during storm season. We deploy truck-mounted extractors and industrial air movers to pull standing water and begin structural drying, then use thermal imaging to locate moisture that's migrated into wall cavities or under flooring, places that look dry to the eye but aren't. Drying is documented to the IICRC S500 standard so your adjuster has the data they need.
 
 ### Mold remediation
 
-The combination of Rawls Springs' summer humidity and older housing construction creates conditions where mold can colonize wall cavities, attic sheathing, and crawl space joists without being visible from living areas. We contain affected zones, remove compromised materials, and treat surfaces before clearance testing confirms the work is complete. We do not make medical claims about air quality — we remove the source and document the process.
+The combination of Rawls Springs' summer humidity and older housing construction creates conditions where mold can colonize wall cavities, attic sheathing, and crawl space joists without being visible from living areas. We contain affected zones, remove compromised materials, and treat surfaces before clearance testing confirms the work is complete. We do not make medical claims about air quality, we remove the source and document the process.
 
 ### Fire and smoke damage cleanup
 
@@ -41,15 +41,15 @@ Smoke residue from even a contained kitchen fire can penetrate HVAC ductwork and
 
 ### Reconstruction and repairs
 
-Once mitigation is complete, HomeLyft Restoration MS can carry the project through to finished repairs — replacing drywall, subflooring, insulation, and trim so you're dealing with one company from the emergency call through the final walkthrough.
+Once mitigation is complete, HomeLyft Restoration MS can carry the project through to finished repairs, replacing drywall, subflooring, insulation, and trim so you're dealing with one company from the emergency call through the final walkthrough.
 
 ## Coverage and how fast we can get there
 
-HomeLyft Restoration MS is headquartered in Gulfport, and Rawls Springs is roughly 65 miles north via US-49 — a straightforward route that our crews travel regularly to serve Forrest County. US-49 is the primary corridor, and depending on traffic through Hattiesburg, drive time from our Gulfport location runs approximately 60 to 75 minutes under normal conditions. We schedule Rawls Springs calls during our business hours and dispatch the appropriate equipment load based on what you describe on the phone, so crews arrive ready to work rather than assess and return. For the most accurate scheduling window, call us directly at (228) 284-5200.
+HomeLyft Restoration MS is headquartered in Gulfport, and Rawls Springs is roughly 65 miles north via US-49, a straightforward route that our crews travel regularly to serve Forrest County. US-49 is the primary corridor, and depending on traffic through Hattiesburg, drive time from our Gulfport location runs approximately 60 to 75 minutes under normal conditions. We schedule Rawls Springs calls during our business hours and dispatch the appropriate equipment load based on what you describe on the phone, so crews arrive ready to work rather than assess and return. For the most accurate scheduling window, call us directly at (228) 284-5200.
 
 ## Building stock, site conditions, and permits in Rawls Springs
 
-Housing here runs mostly to one-story wood frame — later slab-on-grade construction mixed in among the older raised homes — with asphalt shingle roofs and, in anything built before the mid-1980s, plank or board sheathing rather than modern OSB. That matters because a saturated slab edge wicks moisture into bottom plates and baseboards long after the visible water is gone.
+Housing here runs mostly to one-story wood frame, later slab-on-grade construction mixed in among the older raised homes, with asphalt shingle roofs and, in anything built before the mid-1980s, plank or board sheathing rather than modern OSB. That matters because a saturated slab edge wicks moisture into bottom plates and baseboards long after the visible water is gone.
 
 Plumbing vintage drives a lot of the losses: galvanized supply and cast iron drains in the oldest houses, copper mid-century, polybutylene in late-1970s through 1990s builds, PEX after. Pre-1978 homes need lead-safe work practices, and pre-1980s flooring, mastic, and textured ceilings get treated as presumed asbestos until tested.
 

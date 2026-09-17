@@ -20,19 +20,19 @@ state: "UT"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
-Lehi's rapid growth has pushed new subdivisions into areas where aging municipal sewer infrastructure wasn't built to handle the load — and when a line backs up, raw sewage doesn't wait for business hours. Whether you're dealing with a backed-up floor drain in a newer home near Traverse Mountain or a septic overflow on a property along the older sections of State Street, the clock starts the moment contaminated water touches your flooring, drywall, or HVAC returns. Home Pride Restoration and Cleaning has been responding to exactly these situations since 1997, and our IICRC-certified crews are dispatched from Saratoga Springs — typically reaching Lehi addresses within 45 to 60 minutes.
+Lehi's rapid growth has pushed new subdivisions into areas where aging municipal sewer infrastructure wasn't built to handle the load, and when a line backs up, raw sewage doesn't wait for business hours. Whether you're dealing with a backed-up floor drain in a newer home near Traverse Mountain or a septic overflow on a property along the older sections of State Street, the clock starts the moment contaminated water touches your flooring, drywall, or HVAC returns. Home Pride Restoration and Cleaning has been responding to exactly these situations since 1997, and our IICRC-certified crews are dispatched from Saratoga Springs, typically reaching Lehi addresses within 45 to 60 minutes.
 
 ## Why Lehi Properties See More Sewage Backup Problems
 
-Lehi sits at a unique intersection of old and new Utah infrastructure. The city's older core — properties along 500 West and the historic downtown corridor — was built on clay-heavy soils that shift seasonally with Utah's freeze-thaw cycles. That soil movement puts lateral sewer lines under stress year after year, leading to root intrusion, pipe offsets, and eventually full blockages that push sewage back through the lowest drain in the house.
+Lehi sits at a unique intersection of old and new Utah infrastructure. The city's older core, properties along 500 West and the historic downtown corridor, was built on clay-heavy soils that shift seasonally with Utah's freeze-thaw cycles. That soil movement puts lateral sewer lines under stress year after year, leading to root intrusion, pipe offsets, and eventually full blockages that push sewage back through the lowest drain in the house.
 
-At the same time, Lehi's explosive growth over the past 15 years has added thousands of homes in developments like Traverse Mountain, where the sheer volume of new connections can overwhelm shared sewer mains during heavy rain events or rapid snowmelt off the Wasatch foothills. When that happens, multiple homes in the same cul-de-sac can back up simultaneously — and the Category 3 (blackwater) contamination they're dealing with is among the most hazardous cleanup scenarios a homeowner can face.
+At the same time, Lehi's explosive growth over the past 15 years has added thousands of homes in developments like Traverse Mountain, where the sheer volume of new connections can overwhelm shared sewer mains during heavy rain events or rapid snowmelt off the Wasatch foothills. When that happens, multiple homes in the same cul-de-sac can back up simultaneously, and the Category 3 (blackwater) contamination they're dealing with is among the most hazardous cleanup scenarios a homeowner can face.
 
-Septic systems are also still common on larger lots in the 84043 ZIP code, particularly on parcels that predate Lehi's annexation of surrounding areas. A failing septic tank or a saturated drain field after a wet spring creates a different — and often more extensive — contamination footprint than a simple sewer line backup.
+Septic systems are also still common on larger lots in the 84043 ZIP code, particularly on parcels that predate Lehi's annexation of surrounding areas. A failing septic tank or a saturated drain field after a wet spring creates a different, and often more extensive, contamination footprint than a simple sewer line backup.
 
 ## Our Sewage Cleanup and Sanitization Process in Lehi
 
-Sewage cleanup isn't just extraction — it's a structured decontamination sequence, and skipping steps creates health risks that show up weeks later as mold or lingering bacterial contamination.
+Sewage cleanup isn't just extraction, it's a structured decontamination sequence, and skipping steps creates health risks that show up weeks later as mold or lingering bacterial contamination.
 
 Here's how we work through it on a Lehi job:
 
@@ -40,7 +40,7 @@ Here's how we work through it on a Lehi job:
 
 **2. Extraction of standing sewage.** Truck-mounted extraction equipment pulls liquid waste and saturated debris from flooring, subfloor cavities, and crawl spaces. In Lehi's newer slab-on-grade construction, we pay close attention to the perimeter where sewage can wick under baseboards and into wall cavities before it's visible.
 
-**3. Removal of unsalvageable materials.** Porous materials — carpet, pad, drywall below the flood line, insulation — that have contacted raw sewage are removed and bagged for proper disposal. There's no safe way to sanitize them in place.
+**3. Removal of unsalvageable materials.** Porous materials, carpet, pad, drywall below the flood line, insulation, that have contacted raw sewage are removed and bagged for proper disposal. There's no safe way to sanitize them in place.
 
 **4. EPA-registered disinfection.** We apply hospital-grade antimicrobial agents to all affected surfaces, including subfloor sheathing, concrete, and framing. This step is documented for your insurance file.
 
@@ -48,18 +48,18 @@ Here's how we work through it on a Lehi job:
 
 ## Response Time to Lehi from Our Saratoga Springs Location
 
-Our headquarters sits in Saratoga Springs, which puts us roughly 10 to 15 minutes from most Lehi addresses via Redwood Road or Bangerter Highway — closer than most Salt Lake County competitors who are dispatching from the valley. For properties in the Traverse Mountain area, the approach up Traverse Ridge Road adds a few minutes, but we're still typically on-site faster than a plumber can diagnose the source.
+Our headquarters sits in Saratoga Springs, which puts us roughly 10 to 15 minutes from most Lehi addresses via Redwood Road or Bangerter Highway, closer than most Salt Lake County competitors who are dispatching from the valley. For properties in the Traverse Mountain area, the approach up Traverse Ridge Road adds a few minutes, but we're still typically on-site faster than a plumber can diagnose the source.
 
 We answer calls 24 hours a day, every day of the year. Sewage backups that happen on a Sunday night or a holiday weekend get the same crew and the same equipment as a Tuesday afternoon call.
 
 ## Insurance Coordination for Lehi Homeowners
 
-Most standard homeowners policies in Utah cover sudden and accidental sewer backups only if the homeowner added a sewer backup rider — a detail many Lehi residents discover for the first time when they're standing in contaminated water. We've worked with every major carrier that writes policies in Utah County, and we can tell you quickly what documentation your adjuster will need.
+Most standard homeowners policies in Utah cover sudden and accidental sewer backups only if the homeowner added a sewer backup rider, a detail many Lehi residents discover for the first time when they're standing in contaminated water. We've worked with every major carrier that writes policies in Utah County, and we can tell you quickly what documentation your adjuster will need.
 
 We provide itemized moisture logs, photo documentation, and scope-of-loss reports in the format most carriers accept. If your policy does cover the loss, we bill the insurer directly and work to minimize your out-of-pocket exposure.
 
 ## Local Note: Lehi's Clay Soils and Seasonal Timing
 
-One pattern we see consistently in Lehi that's less common in neighboring cities: sewage backups spike in March and April, when ground temperatures rise enough to accelerate root growth into older clay pipe joints, right as snowmelt is saturating the soil. Homes in the older neighborhoods near downtown Lehi — particularly those with mature trees planted close to the house — are most vulnerable during this window. If you've had even a slow-draining floor drain this winter, it's worth having your lateral line scoped before spring arrives. That said, when a backup does happen, call us first — we'll get the contamination contained while you coordinate with a plumber on the root cause.
+One pattern we see consistently in Lehi that's less common in neighboring cities: sewage backups spike in March and April, when ground temperatures rise enough to accelerate root growth into older clay pipe joints, right as snowmelt is saturating the soil. Homes in the older neighborhoods near downtown Lehi, particularly those with mature trees planted close to the house, are most vulnerable during this window. If you've had even a slow-draining floor drain this winter, it's worth having your lateral line scoped before spring arrives. That said, when a backup does happen, call us first, we'll get the contamination contained while you coordinate with a plumber on the root cause.
 
-If you're dealing with sewage backup in your Lehi home right now, call Home Pride Restoration and Cleaning at **(801) 995-2437**. We'll have an IICRC-certified technician at your door with full extraction and sanitization equipment — not a sales visit, not an estimate appointment, but a crew ready to work.
+If you're dealing with sewage backup in your Lehi home right now, call Home Pride Restoration and Cleaning at **(801) 995-2437**. We'll have an IICRC-certified technician at your door with full extraction and sanitization equipment, not a sales visit, not an estimate appointment, but a crew ready to work.

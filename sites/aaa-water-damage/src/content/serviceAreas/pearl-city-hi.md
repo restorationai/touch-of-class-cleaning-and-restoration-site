@@ -19,15 +19,15 @@ state: "HI"
 primary: false
 rendered: true
 ---
-When a pipe fails behind a wall in Momilani or storm runoff pushes into a lower-level bedroom in Pacific Palisades, the clock starts immediately — mold can begin colonizing damp framing within 24 to 48 hours. AAA Water Damage Restoration & Carpet Care responds to Pearl City property owners around the clock, dispatching extraction equipment, drying systems, and trained technicians directly from Honolulu to address water damage, fire and smoke damage, mold, and carpet care before small problems become structural ones.
+When a pipe fails behind a wall in Momilani or storm runoff pushes into a lower-level bedroom in Pacific Palisades, the clock starts immediately, mold can begin colonizing damp framing within 24 to 48 hours. AAA Water Damage Restoration & Carpet Care responds to Pearl City property owners around the clock, dispatching extraction equipment, drying systems, and trained technicians directly from Honolulu to address water damage, fire and smoke damage, mold, and carpet care before small problems become structural ones.
 
 ## Restoration emergencies common in Pearl City
 
-Pearl City's housing stock tells the story of its restoration challenges. Most of the neighborhoods in ZIP code 96782 were built out during the 1960s and 1970s — tract homes terraced up the hillside above Pearl Harbor, many of them still running on original galvanized or early copper supply lines that are now reaching the end of their service life. Those aging lines fail quietly inside walls and under slabs, sometimes going unnoticed for days in busy multigenerational households.
+Pearl City's housing stock tells the story of its restoration challenges. Most of the neighborhoods in ZIP code 96782 were built out during the 1960s and 1970s, tract homes terraced up the hillside above Pearl Harbor, many of them still running on original galvanized or early copper supply lines that are now reaching the end of their service life. Those aging lines fail quietly inside walls and under slabs, sometimes going unnoticed for days in busy multigenerational households.
 
-The terrain makes things worse. Pacific Palisades and Momilani sit on hillside terraces where heavy rain — and Oahu's trade-wind storms can deliver several inches in a matter of hours — channels runoff directly through yards and into lower-level living spaces. Down near the harbor, the flat lots around Pearl City Peninsula and Waiau drain slowly, and standing water lingers longer than it does in elevated neighborhoods. Manana and the areas near Pearl City Shopping Center see a mix of both patterns depending on lot grade.
+The terrain makes things worse. Pacific Palisades and Momilani sit on hillside terraces where heavy rain, and Oahu's trade-wind storms can deliver several inches in a matter of hours, channels runoff directly through yards and into lower-level living spaces. Down near the harbor, the flat lots around Pearl City Peninsula and Waiau drain slowly, and standing water lingers longer than it does in elevated neighborhoods. Manana and the areas near Pearl City Shopping Center see a mix of both patterns depending on lot grade.
 
-Ohana units and multigenerational living arrangements are common throughout Pearl City. A single water loss can displace two or three generations at once, which is why fast dry-in-place drying — containing and resolving the damage without unnecessary demolition — matters here more than almost anywhere else on the island.
+Ohana units and multigenerational living arrangements are common throughout Pearl City. A single water loss can displace two or three generations at once, which is why fast dry-in-place drying, containing and resolving the damage without unnecessary demolition, matters here more than almost anywhere else on the island.
 
 ## Services we provide in Pearl City
 
@@ -37,11 +37,11 @@ Water damage in Pearl City often starts with a failed galvanized line, an overfl
 
 ### Mold remediation
 
-Pearl City's warm temperatures and the moisture that comes with living close to Pearl Harbor create conditions where mold establishes quickly after a water event. We identify affected areas, contain the work zone to protect the rest of the home, remove compromised materials, and treat surfaces to industry standards — important in homes where children and elderly family members share the space.
+Pearl City's warm temperatures and the moisture that comes with living close to Pearl Harbor create conditions where mold establishes quickly after a water event. We identify affected areas, contain the work zone to protect the rest of the home, remove compromised materials, and treat surfaces to industry standards, important in homes where children and elderly family members share the space.
 
 ### Fire and smoke damage restoration
 
-Smoke residue from even a contained kitchen fire can penetrate drywall, cabinetry, and HVAC ducting throughout a home. In the tightly built 1960s-era homes near Leeward Community College and Neal S. Blaisdell Park, odor and soot travel fast. We clean structural surfaces, treat soft contents, and deodorize the space so it's genuinely livable again — not just masked.
+Smoke residue from even a contained kitchen fire can penetrate drywall, cabinetry, and HVAC ducting throughout a home. In the tightly built 1960s-era homes near Leeward Community College and Neal S. Blaisdell Park, odor and soot travel fast. We clean structural surfaces, treat soft contents, and deodorize the space so it's genuinely livable again, not just masked.
 
 ### Carpet cleaning and care
 
@@ -49,12 +49,12 @@ For Pearl City homeowners dealing with post-water-event carpet or simply years o
 
 ## Coverage and how fast we can get there
 
-From our Honolulu base, Pearl City is a straightforward run up H-1 West — roughly 12 to 15 miles depending on the specific neighborhood. We reach Pearl City Peninsula and Waiau near the harbor quickly via the lower interchange, while Pacific Palisades and Momilani higher on the hillside add a few minutes up Moanalua Road or Kaahumanu Street. Because we answer the phone 24 hours a day, seven days a week, we can dispatch the same hour you call — day or night. We serve all of 96782 and the surrounding Pearl City corridors.
+From our Honolulu base, Pearl City is a straightforward run up H-1 West, roughly 12 to 15 miles depending on the specific neighborhood. We reach Pearl City Peninsula and Waiau near the harbor quickly via the lower interchange, while Pacific Palisades and Momilani higher on the hillside add a few minutes up Moanalua Road or Kaahumanu Street. Because we answer the phone 24 hours a day, seven days a week, we can dispatch the same hour you call, day or night. We serve all of 96782 and the surrounding Pearl City corridors.
 
 ## Building stock, site conditions, and permits in Pearl City
 
-Much of the 1960s and 70s tract housing here was framed as single-wall construction — vertical 1x boards that serve as sheathing, structure, and interior finish all at once — or as double-wall over a concrete lower level on the terraced lots. Single-wall walls have no cavity to open up, so drying means treating the boards themselves and watching the base plate where water pools. Homes from that era also commonly hide asbestos-containing vinyl floor tile and mastic, and pre-1978 lead paint, so demolition gets planned before it starts. Original cast-iron drain lines rust from the inside and weep at joints.
+Much of the 1960s and 70s tract housing here was framed as single-wall construction, vertical 1x boards that serve as sheathing, structure, and interior finish all at once, or as double-wall over a concrete lower level on the terraced lots. Single-wall walls have no cavity to open up, so drying means treating the boards themselves and watching the base plate where water pools. Homes from that era also commonly hide asbestos-containing vinyl floor tile and mastic, and pre-1978 lead paint, so demolition gets planned before it starts. Original cast-iron drain lines rust from the inside and weep at joints.
 
 On Oahu there is no separate city building department. Permits for structural repair or rebuild in Pearl City come from the City and County of Honolulu's Department of Planning and Permitting, and work near the harbor can fall under FEMA flood-zone requirements.
 
-If you're dealing with water, fire, mold, or a carpet emergency anywhere in Pearl City, call AAA Water Damage Restoration & Carpet Care at **(808) 349-3407**. We're available around the clock and we know these neighborhoods — the hillside drainage patterns, the aging plumbing, the ohana units — so we can move fast and work smart from the moment we arrive.
+If you're dealing with water, fire, mold, or a carpet emergency anywhere in Pearl City, call AAA Water Damage Restoration & Carpet Care at **(808) 349-3407**. We're available around the clock and we know these neighborhoods, the hillside drainage patterns, the aging plumbing, the ohana units, so we can move fast and work smart from the moment we arrive.

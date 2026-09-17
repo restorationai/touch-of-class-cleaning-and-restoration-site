@@ -17,29 +17,29 @@ service_slug: "contents-restoration"
 service_display: "Contents Restoration and Storage"
 rendered: true
 ---
-After a fire, flood, or sewage backup, the structure gets most of the attention — but your furniture, clothing, documents, electronics, and keepsakes are often the hardest losses to replace. Smoke odor embeds itself in fabric fibers within hours. Soot continues to etch and corrode surfaces long after the fire is out. Wet upholstery can begin to support mold growth in as little as 24 to 48 hours. Contents restoration is the discipline of intercepting that damage before it becomes permanent — and doing it in a controlled environment, away from an active job site, so the cleaning is actually thorough.
+After a fire, flood, or sewage backup, the structure gets most of the attention, but your furniture, clothing, documents, electronics, and keepsakes are often the hardest losses to replace. Smoke odor embeds itself in fabric fibers within hours. Soot continues to etch and corrode surfaces long after the fire is out. Wet upholstery can begin to support mold growth in as little as 24 to 48 hours. Contents restoration is the discipline of intercepting that damage before it becomes permanent, and doing it in a controlled environment, away from an active job site, so the cleaning is actually thorough.
 
 ## What contents restoration and storage actually involves
 
 Contents restoration is not wiping down furniture with a damp cloth. It is a structured process of inventorying, transporting, cleaning, deodorizing, and storing your belongings in a climate-controlled facility while your home or business is being repaired.
 
-The work varies by loss type. After a fire, technicians deal with two chemically distinct types of residue: dry, ashy soot from burning wood and paper, and oily, sticky soot from burning synthetics — plastics, foam, carpet backing, painted surfaces. These require different cleaning agents and techniques. Protein residue from kitchen fires is a third category: nearly invisible but intensely odorous, and it bonds to painted walls, cabinet interiors, and upholstery in ways that standard cleaning misses entirely.
+The work varies by loss type. After a fire, technicians deal with two chemically distinct types of residue: dry, ashy soot from burning wood and paper, and oily, sticky soot from burning synthetics, plastics, foam, carpet backing, painted surfaces. These require different cleaning agents and techniques. Protein residue from kitchen fires is a third category: nearly invisible but intensely odorous, and it bonds to painted walls, cabinet interiors, and upholstery in ways that standard cleaning misses entirely.
 
 After water damage, the concern shifts to microbial growth and structural moisture trapped inside upholstered pieces, mattresses, and wood furniture. Porous materials that stayed wet for more than 48 hours often cannot be fully restored and need to be documented for replacement rather than cleaned.
 
-Electronics, documents, photographs, and artwork each require specialized handling — ultrasonic cleaning for hard components, freeze-drying for wet documents, ozone or hydroxyl treatment for odor-bearing soft goods.
+Electronics, documents, photographs, and artwork each require specialized handling, ultrasonic cleaning for hard components, freeze-drying for wet documents, ozone or hydroxyl treatment for odor-bearing soft goods.
 
 Storage, when needed, happens in a secure, climate-controlled warehouse. Every item is photographed, barcoded, and logged before it leaves your property, and you receive a complete inventory.
 
 ## Our process
 
-1. **Pre-move inventory and condition documentation.** Before a single item is moved, technicians photograph and log every piece — condition notes, visible damage, serial numbers on electronics. This inventory becomes part of your insurance claim file and protects you if a dispute arises about pre-loss condition.
+1. **Pre-move inventory and condition documentation.** Before a single item is moved, technicians photograph and log every piece, condition notes, visible damage, serial numbers on electronics. This inventory becomes part of your insurance claim file and protects you if a dispute arises about pre-loss condition.
 
-2. **Pack-out and transport.** Items are packed by category using materials appropriate to the object — acid-free tissue for artwork, anti-static wrap for electronics, sealed bins for textiles. Fragile and high-value pieces are packed separately and flagged. Transport to the cleaning facility is logged.
+2. **Pack-out and transport.** Items are packed by category using materials appropriate to the object, acid-free tissue for artwork, anti-static wrap for electronics, sealed bins for textiles. Fragile and high-value pieces are packed separately and flagged. Transport to the cleaning facility is logged.
 
-3. **Category-appropriate cleaning.** Hard surfaces (furniture frames, appliances, decorative objects) are cleaned using the method matched to the residue type — dry sponge for dry soot, degreaser for oily residue, ultrasonic tanks for small components and hardware. Soft goods go through specialized laundering or dry-cleaning processes. Odor treatment — thermal fogging, ozone, or hydroxyl generation — is applied based on what the material can tolerate and what the odor source is.
+3. **Category-appropriate cleaning.** Hard surfaces (furniture frames, appliances, decorative objects) are cleaned using the method matched to the residue type, dry sponge for dry soot, degreaser for oily residue, ultrasonic tanks for small components and hardware. Soft goods go through specialized laundering or dry-cleaning processes. Odor treatment, thermal fogging, ozone, or hydroxyl generation, is applied based on what the material can tolerate and what the odor source is.
 
-4. **Climate-controlled storage.** Cleaned and dried items are stored in a secure facility while structural repairs are completed. The same barcoded inventory system tracks every item in and out. You are not waiting on a verbal assurance — you have a written log.
+4. **Climate-controlled storage.** Cleaned and dried items are stored in a secure facility while structural repairs are completed. The same barcoded inventory system tracks every item in and out. You are not waiting on a verbal assurance, you have a written log.
 
 5. **Pack-back and placement.** When your home is ready, items are returned and placed per your direction. A final condition check is completed at delivery, and any discrepancies are documented immediately.
 
@@ -47,15 +47,15 @@ Storage, when needed, happens in a secure, climate-controlled warehouse. Every i
 
 The most common failure in contents work is treating all residue the same way. Applying a wet cleaning method to dry smoke soot drives the residue deeper into porous surfaces instead of lifting it. Using the wrong solvent on a finished wood surface strips the finish and creates a new damage claim. Rushing soft goods through a standard wash cycle without pre-treating odor-bearing fibers means the smell comes back within days of returning home.
 
-A second failure point is documentation. Insurance adjusters reviewing a contents claim need item-level photographs, condition notes, and a clear line between what was restored and what was determined to be a total loss. A vague inventory or missing photos can result in a reduced settlement — not because the damage wasn't real, but because it wasn't documented in a way the carrier can process.
+A second failure point is documentation. Insurance adjusters reviewing a contents claim need item-level photographs, condition notes, and a clear line between what was restored and what was determined to be a total loss. A vague inventory or missing photos can result in a reduced settlement, not because the damage wasn't real, but because it wasn't documented in a way the carrier can process.
 
-Experienced contents technicians also know when *not* to restore. Mattresses, heavily contaminated upholstery, and certain electronics that were submerged in Category 3 (sewage-contaminated) water are typically not candidates for restoration regardless of how they look on the surface. Calling those items as non-restorable early — with documentation — protects the homeowner and moves the claim forward.
+Experienced contents technicians also know when *not* to restore. Mattresses, heavily contaminated upholstery, and certain electronics that were submerged in Category 3 (sewage-contaminated) water are typically not candidates for restoration regardless of how they look on the surface. Calling those items as non-restorable early, with documentation, protects the homeowner and moves the claim forward.
 
-Air Care Restoration's team holds IICRC FSRT (Fire and Smoke Restoration) and IICRC WRT (Water Restoration) certifications, which means the technicians handling your belongings are trained specifically in residue chemistry and material response — not just general cleaning.
+Air Care Restoration's team holds IICRC FSRT (Fire and Smoke Restoration) and IICRC WRT (Water Restoration) certifications, which means the technicians handling your belongings are trained specifically in residue chemistry and material response, not just general cleaning.
 
 ## What does contents restoration and storage cost?
 
-Typical costs for contents restoration and storage depend heavily on the volume of items, the type of loss, and how long materials were exposed before pack-out began. Most homeowners pay somewhere in the ranges below — these are industry-typical figures, not quotes.
+Typical costs for contents restoration and storage depend heavily on the volume of items, the type of loss, and how long materials were exposed before pack-out began. Most homeowners pay somewhere in the ranges below, these are industry-typical figures, not quotes.
 
 | Scenario | Typical industry range |
 |---|---|
@@ -68,11 +68,11 @@ Typical costs for contents restoration and storage depend heavily on the volume 
 
 *Industry reference ranges for budgeting context only, not an Air Care quote or guaranteed price. Every project is scoped and documented individually.*
 
-Every loss is different, and Air Care Restoration provides a written scope of work before any cleaning or transport begins. Homeowners insurance typically covers contents restoration and storage when the loss is caused by a covered peril — fire, smoke, sudden water discharge, storm — and most policies include a separate contents coverage limit. Air Care provides detailed documentation and communicates technical scope information directly with your adjuster; coverage and settlement decisions remain between you and your carrier.
+Every loss is different, and Air Care Restoration provides a written scope of work before any cleaning or transport begins. Homeowners insurance typically covers contents restoration and storage when the loss is caused by a covered peril, fire, smoke, sudden water discharge, storm, and most policies include a separate contents coverage limit. Air Care provides detailed documentation and communicates technical scope information directly with your adjuster; coverage and settlement decisions remain between you and your carrier.
 
 ## Seasonal and regional considerations
 
-Abilene's climate creates a specific rhythm of contents losses. Prolonged heat and low humidity in summer accelerate soot bonding to surfaces after a fire — the window for effective dry-soot removal narrows faster than it does in more temperate climates. Winter brings a different risk: the freeze-thaw cycles that stress older plumbing in Abilene's mid-century housing stock can produce sudden pipe failures, leaving furniture and flooring wet for hours before the water is discovered. The longer contents sit wet in any season, the narrower the restoration window becomes.
+Abilene's climate creates a specific rhythm of contents losses. Prolonged heat and low humidity in summer accelerate soot bonding to surfaces after a fire, the window for effective dry-soot removal narrows faster than it does in more temperate climates. Winter brings a different risk: the freeze-thaw cycles that stress older plumbing in Abilene's mid-century housing stock can produce sudden pipe failures, leaving furniture and flooring wet for hours before the water is discovered. The longer contents sit wet in any season, the narrower the restoration window becomes.
 
 ## Service area
 

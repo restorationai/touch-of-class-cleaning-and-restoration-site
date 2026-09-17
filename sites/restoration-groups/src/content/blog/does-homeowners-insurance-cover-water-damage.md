@@ -17,7 +17,7 @@ published_at: "2026-06-23"
 services: ["water-damage-restoration"]
 rendered: true
 ---
-The short answer: it depends on *how* the water got in. Homeowners insurance typically covers sudden, accidental water damage — a pipe that bursts overnight, a washing machine hose that fails, a roof torn open by a storm. It almost never covers gradual damage — a slow drip under the sink you didn't notice for six months, a foundation that seeps every spring, or a flooded basement caused by rising groundwater. The line between "covered" and "not covered" can feel arbitrary, but there is a logic to it. This guide walks through the main scenarios so you know where you stand before you call your adjuster.
+The short answer: it depends on *how* the water got in. Homeowners insurance typically covers sudden, accidental water damage, a pipe that bursts overnight, a washing machine hose that fails, a roof torn open by a storm. It almost never covers gradual damage, a slow drip under the sink you didn't notice for six months, a foundation that seeps every spring, or a flooded basement caused by rising groundwater. The line between "covered" and "not covered" can feel arbitrary, but there is a logic to it. This guide walks through the main scenarios so you know where you stand before you call your adjuster.
 
 ## The Core Rule Insurers Use
 
@@ -34,23 +34,23 @@ Here is how that plays out in practice:
 
 **Generally not covered:**
 - A slow drip from a corroded fitting that has been staining the cabinet floor for months
-- Groundwater seeping through your foundation after heavy rain — this is considered flooding, and flood damage requires a separate NFIP or private flood policy
+- Groundwater seeping through your foundation after heavy rain, this is considered flooding, and flood damage requires a separate NFIP or private flood policy
 - Sewer or drain backup (often excluded by default, though many carriers sell an endorsement for it)
 - Water damage caused by neglected maintenance, such as a roof with missing shingles you knew about
 
-If you are in Kenilworth or the broader Union County area, note that the region sits in a flood zone tier that makes separate flood coverage worth discussing with your agent — especially for finished basements.
+If you are in Kenilworth or the broader Union County area, note that the region sits in a flood zone tier that makes separate flood coverage worth discussing with your agent, especially for finished basements.
 
 ## What Your Policy Actually Pays For
 
 Assuming the loss is covered, a standard HO-3 policy typically pays for:
 
-1. **Drying and remediation** — extracting standing water, running commercial dehumidifiers and air movers, and drying structural materials to IICRC S500 standards.
-2. **Tear-out** — removing wet drywall, flooring, insulation, or cabinetry that cannot be dried in place.
-3. **Repair and reconstruction** — replacing what was torn out, repainting, reinstalling flooring.
-4. **Personal property** — furniture, electronics, clothing, and other belongings damaged by the water, up to your contents coverage limit.
-5. **Additional living expenses (ALE)** — hotel and meal costs if the damage makes your home uninhabitable while repairs are underway.
+1. **Drying and remediation**, extracting standing water, running commercial dehumidifiers and air movers, and drying structural materials to IICRC S500 standards.
+2. **Tear-out**, removing wet drywall, flooring, insulation, or cabinetry that cannot be dried in place.
+3. **Repair and reconstruction**, replacing what was torn out, repainting, reinstalling flooring.
+4. **Personal property**, furniture, electronics, clothing, and other belongings damaged by the water, up to your contents coverage limit.
+5. **Additional living expenses (ALE)**, hotel and meal costs if the damage makes your home uninhabitable while repairs are underway.
 
-What it does *not* pay for is the source of the damage itself. If a supply line fails, insurance covers the resulting water damage — but the cost to replace the supply line comes out of your pocket.
+What it does *not* pay for is the source of the damage itself. If a supply line fails, insurance covers the resulting water damage, but the cost to replace the supply line comes out of your pocket.
 
 ## How to File a Claim Without Undermining It
 
@@ -58,18 +58,18 @@ The actions you take in the first few hours matter both for limiting damage and 
 
 1. **Stop the water source.** Turn off the main shutoff valve (usually near the water meter or where the main line enters the house). If the leak is appliance-specific, shut off the valve behind or beneath that appliance.
 2. **Document everything before you touch it.** Walk through with your phone and shoot video. Open cabinet doors, pull back rugs, film the ceiling stain from multiple angles. Timestamps on photos and video are evidence.
-3. **Call your insurance company.** Most carriers have 24-hour claims lines. Report the loss the same day — delayed reporting can give an adjuster grounds to question the timeline.
-4. **Begin emergency mitigation.** You are allowed — and often required by your policy — to take reasonable steps to prevent further damage. Move furniture off wet carpet. Put towels down. Open windows if humidity outside is lower than inside. Do not, however, start ripping out drywall on your own before an adjuster or restoration professional has documented the scope.
-5. **Keep every receipt.** Emergency hotel stays, fans you rent, a plumber's emergency call — all potentially reimbursable under ALE or mitigation provisions.
+3. **Call your insurance company.** Most carriers have 24-hour claims lines. Report the loss the same day, delayed reporting can give an adjuster grounds to question the timeline.
+4. **Begin emergency mitigation.** You are allowed, and often required by your policy, to take reasonable steps to prevent further damage. Move furniture off wet carpet. Put towels down. Open windows if humidity outside is lower than inside. Do not, however, start ripping out drywall on your own before an adjuster or restoration professional has documented the scope.
+5. **Keep every receipt.** Emergency hotel stays, fans you rent, a plumber's emergency call, all potentially reimbursable under ALE or mitigation provisions.
 
 ## What NOT to Do After a Water Loss
 
 A few common mistakes can complicate your claim or make the damage worse:
 
-- **Do not use a standard household fan and call it done.** A box fan moves surface air but does not pull moisture out of wall cavities or subfloors. Mold can begin colonizing wet organic material — drywall paper, wood framing — within 24 to 48 hours. What looks dry on the surface may be saturated an inch in.
+- **Do not use a standard household fan and call it done.** A box fan moves surface air but does not pull moisture out of wall cavities or subfloors. Mold can begin colonizing wet organic material, drywall paper, wood framing, within 24 to 48 hours. What looks dry on the surface may be saturated an inch in.
 - **Do not throw away damaged items before the adjuster sees them.** If you must move or discard something for safety reasons, photograph it thoroughly first.
 - **Do not sign a broad assignment-of-benefits agreement** without understanding what you are signing. Some contractors ask homeowners to sign over their insurance rights entirely; in New Jersey, this practice has been subject to regulatory scrutiny. Read anything before you sign.
-- **Do not assume the damage is minor because the water is gone.** Water follows the path of least resistance — behind baseboards, under hardwood, into insulation. A moisture meter reading, not a visual inspection, tells you what is actually wet.
+- **Do not assume the damage is minor because the water is gone.** Water follows the path of least resistance, behind baseboards, under hardwood, into insulation. A moisture meter reading, not a visual inspection, tells you what is actually wet.
 
 ## When to Call a Water Damage Restoration Professional
 
@@ -78,18 +78,18 @@ You can mop up a small, contained spill yourself. But call a professional restor
 - The affected area is larger than roughly 10 square feet
 - The water touched drywall, insulation, hardwood floors, or a finished ceiling
 - The water source was a toilet, dishwasher drain, or anything that may have carried bacteria (Category 2 or 3 water)
-- You can smell a musty or earthy odor — that is microbial activity already starting
+- You can smell a musty or earthy odor, that is microbial activity already starting
 - The leak was behind a wall and you are not certain how far it spread
 
-A qualified restoration team will use thermal imaging cameras and moisture meters to map the true extent of the damage — not just what is visible. They will set up industrial drying equipment sized to the affected volume, monitor readings daily, and produce documentation (moisture logs, photos, drying reports) that your insurance adjuster will use to process the claim.
+A qualified restoration team will use thermal imaging cameras and moisture meters to map the true extent of the damage, not just what is visible. They will set up industrial drying equipment sized to the affected volume, monitor readings daily, and produce documentation (moisture logs, photos, drying reports) that your insurance adjuster will use to process the claim.
 
 The Restoration Group serves Kenilworth and surrounding communities in Union County. If you have standing water or suspect hidden moisture damage, you can reach the team at **(908) 970-8533**.
 
 ## The Longer Recovery: What Comes After Drying
 
-Drying is the beginning, not the end. Once a certified moisture reading confirms the structure is dry, reconstruction begins — replacing drywall, refinishing floors, repainting, reinstalling trim. Depending on the scope, this phase can take days or several weeks.
+Drying is the beginning, not the end. Once a certified moisture reading confirms the structure is dry, reconstruction begins, replacing drywall, refinishing floors, repainting, reinstalling trim. Depending on the scope, this phase can take days or several weeks.
 
-During this period, stay in close contact with your adjuster. Supplements — additional claim amounts for damage discovered during tear-out that was not visible in the initial estimate — are common and legitimate. A restoration contractor experienced in insurance work will communicate directly with your adjuster to make sure the final scope reflects the actual damage.
+During this period, stay in close contact with your adjuster. Supplements, additional claim amounts for damage discovered during tear-out that was not visible in the initial estimate, are common and legitimate. A restoration contractor experienced in insurance work will communicate directly with your adjuster to make sure the final scope reflects the actual damage.
 
 If mold is discovered during tear-out, that typically triggers a separate remediation protocol and may require an addendum to your claim. Not every policy covers mold remediation, so check your declarations page now, before you need it.
 

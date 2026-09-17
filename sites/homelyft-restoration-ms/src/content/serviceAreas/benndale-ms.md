@@ -23,15 +23,15 @@ When a pipe bursts under a pier-and-beam floor or a summer storm pushes water th
 
 ## Restoration emergencies common in Benndale
 
-Benndale sits in the humid subtropical belt of south Mississippi, where summer humidity rarely drops below 70 percent and afternoon thunderstorms can drop two inches of rain in under an hour. That combination creates conditions where moisture intrudes fast and dries slowly. Much of the local housing stock consists of wood-frame construction — many homes built before 1980 — with crawl spaces that collect groundwater during heavy rain events and hold it long after the storm passes. When standing water lingers under a floor for more than 24 to 48 hours, mold colonization can begin in the subfloor joists and insulation, often without any visible sign inside the living space.
+Benndale sits in the humid subtropical belt of south Mississippi, where summer humidity rarely drops below 70 percent and afternoon thunderstorms can drop two inches of rain in under an hour. That combination creates conditions where moisture intrudes fast and dries slowly. Much of the local housing stock consists of wood-frame construction, many homes built before 1980, with crawl spaces that collect groundwater during heavy rain events and hold it long after the storm passes. When standing water lingers under a floor for more than 24 to 48 hours, mold colonization can begin in the subfloor joists and insulation, often without any visible sign inside the living space.
 
-George County's rural character also means that municipal stormwater infrastructure is limited in many areas. Properties on private wells and septic systems face a secondary risk: sewage backups during saturated soil conditions, which introduce Category 3 contaminated water into crawl spaces and lower levels. Fire risk is elevated by the density of pine timber surrounding residential areas — a brush fire that reaches a structure moves quickly, and smoke infiltration into attics and HVAC systems can linger for months if not treated properly.
+George County's rural character also means that municipal stormwater infrastructure is limited in many areas. Properties on private wells and septic systems face a secondary risk: sewage backups during saturated soil conditions, which introduce Category 3 contaminated water into crawl spaces and lower levels. Fire risk is elevated by the density of pine timber surrounding residential areas, a brush fire that reaches a structure moves quickly, and smoke infiltration into attics and HVAC systems can linger for months if not treated properly.
 
 ## Services we provide in Benndale
 
 ### Water damage mitigation
 
-Water damage in the Benndale area frequently starts in crawl spaces and works upward — saturating insulation, warping subfloor sheathing, and eventually buckling hardwood or laminate flooring above. HomeLyft technicians use thermal imaging to locate moisture pockets that aren't visible to the eye, then deploy commercial-grade dehumidifiers and air movers calibrated to the ambient humidity levels typical of south Mississippi summers. Drying documentation is tracked throughout so your insurance adjuster has a complete record.
+Water damage in the Benndale area frequently starts in crawl spaces and works upward, saturating insulation, warping subfloor sheathing, and eventually buckling hardwood or laminate flooring above. HomeLyft technicians use thermal imaging to locate moisture pockets that aren't visible to the eye, then deploy commercial-grade dehumidifiers and air movers calibrated to the ambient humidity levels typical of south Mississippi summers. Drying documentation is tracked throughout so your insurance adjuster has a complete record.
 
 ### Mold remediation
 
@@ -39,23 +39,23 @@ The same warm, wet conditions that make George County comfortable for pine fores
 
 ### Fire and smoke damage restoration
 
-A kitchen fire or a lightning strike to a detached outbuilding leaves more than charred framing — smoke residue penetrates drywall, insulation, and ductwork, and the odor returns every time the HVAC runs if the source isn't fully addressed. HomeLyft's fire restoration process includes structural assessment, debris removal, odor neutralization with thermal fogging and hydroxyl treatment, and coordination with your insurance carrier on scope and pricing.
+A kitchen fire or a lightning strike to a detached outbuilding leaves more than charred framing, smoke residue penetrates drywall, insulation, and ductwork, and the odor returns every time the HVAC runs if the source isn't fully addressed. HomeLyft's fire restoration process includes structural assessment, debris removal, odor neutralization with thermal fogging and hydroxyl treatment, and coordination with your insurance carrier on scope and pricing.
 
 ### Sewage and biohazard cleanup
 
-Septic backups are a recurring problem in rural George County, particularly after extended rain events when drain fields become saturated. Sewage-contaminated water requires full Category 3 protocols — protective equipment, antimicrobial treatment, and proper disposal of porous materials that cannot be safely restored. HomeLyft handles the cleanup and documents the affected scope for insurance purposes.
+Septic backups are a recurring problem in rural George County, particularly after extended rain events when drain fields become saturated. Sewage-contaminated water requires full Category 3 protocols, protective equipment, antimicrobial treatment, and proper disposal of porous materials that cannot be safely restored. HomeLyft handles the cleanup and documents the affected scope for insurance purposes.
 
 ### Reconstruction
 
-Once mitigation is complete, HomeLyft can carry the project through to finished reconstruction — replacing subfloor sheathing, drywall, insulation, flooring, and trim — so you're working with one point of contact from the day of the loss to move-back-in day.
+Once mitigation is complete, HomeLyft can carry the project through to finished reconstruction, replacing subfloor sheathing, drywall, insulation, flooring, and trim, so you're working with one point of contact from the day of the loss to move-back-in day.
 
 ## Coverage and how fast we can get there
 
-Benndale is located in George County, roughly 70 miles northeast of HomeLyft's Gulfport headquarters. The primary route runs US-49 North through Hattiesburg and connects to MS-63 into George County, with the final leg on local roads into Benndale. Depending on traffic and time of day, that drive typically runs between 90 minutes and two hours. HomeLyft schedules Benndale calls with that drive time factored in and communicates realistic arrival windows when you call — we don't promise what we can't deliver. For active water intrusion, the priority is always getting extraction equipment on-site as quickly as scheduling allows.
+Benndale is located in George County, roughly 70 miles northeast of HomeLyft's Gulfport headquarters. The primary route runs US-49 North through Hattiesburg and connects to MS-63 into George County, with the final leg on local roads into Benndale. Depending on traffic and time of day, that drive typically runs between 90 minutes and two hours. HomeLyft schedules Benndale calls with that drive time factored in and communicates realistic arrival windows when you call, we don't promise what we can't deliver. For active water intrusion, the priority is always getting extraction equipment on-site as quickly as scheduling allows.
 
 ## Building stock, site conditions, and permits in Benndale
 
-Benndale is unincorporated, so there is no city hall to pull a permit from — building and electrical permitting for work here runs through George County, and it is usually the structural side that triggers it: replacing floor framing or joists, re-roofing, rebuilding walls, or reworking service and panel locations after a fire. Straight like-for-like drying and cleanup normally does not.
+Benndale is unincorporated, so there is no city hall to pull a permit from, building and electrical permitting for work here runs through George County, and it is usually the structural side that triggers it: replacing floor framing or joists, re-roofing, rebuilding walls, or reworking service and panel locations after a fire. Straight like-for-like drying and cleanup normally does not.
 
 Older wood-frame houses in this part of the pine belt were plumbed with galvanized supply and cast iron drains that rust from the inside and weep slowly under floors; polybutylene shows up in later-1970s-through-1990s work and fails at the fittings. Anything predating 1978 gets treated as lead-painted until tested, and pre-1980 floor tile, sheet-vinyl backing, and joint compound get handled as possible asbestos before demolition.
 

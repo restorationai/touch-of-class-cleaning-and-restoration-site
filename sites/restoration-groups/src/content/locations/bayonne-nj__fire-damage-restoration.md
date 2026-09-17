@@ -20,13 +20,13 @@ state: "NJ"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-When a fire tears through one of Bayonne's dense blocks of early 20th-century two- and three-family frame homes, the damage compounds fast. Wood-framed walls, original horsehair plaster, and decades of layered paint absorb smoke and soot in ways that modern construction simply doesn't — and on a narrow peninsula where houses share party walls and sit close to the street, a kitchen fire in one unit can push smoke residue into adjacent units within minutes. The Restoration Group responds 24/7 to fire losses throughout Bayonne (07002), bringing IICRC Certified Firm #210213 standards and direct insurance coordination to every job.
+When a fire tears through one of Bayonne's dense blocks of early 20th-century two- and three-family frame homes, the damage compounds fast. Wood-framed walls, original horsehair plaster, and decades of layered paint absorb smoke and soot in ways that modern construction simply doesn't, and on a narrow peninsula where houses share party walls and sit close to the street, a kitchen fire in one unit can push smoke residue into adjacent units within minutes. The Restoration Group responds 24/7 to fire losses throughout Bayonne (07002), bringing IICRC Certified Firm #210213 standards and direct insurance coordination to every job.
 
 ## Why Bayonne's Housing Stock Complicates Fire and Smoke Restoration
 
-Bayonne's residential fabric was built largely between 1900 and 1950, and that age shows in ways that matter after a fire. Horsehair plaster walls are porous and hold smoke odor compounds deep in the substrate — surface cleaning alone won't eliminate the smell. Cast-iron drain stacks and original supply plumbing, common throughout the Bergen Point and Constable Hook neighborhoods, are often routed through interior wall cavities that become conduits for smoke migration when heat warps gaps around pipe penetrations.
+Bayonne's residential fabric was built largely between 1900 and 1950, and that age shows in ways that matter after a fire. Horsehair plaster walls are porous and hold smoke odor compounds deep in the substrate, surface cleaning alone won't eliminate the smell. Cast-iron drain stacks and original supply plumbing, common throughout the Bergen Point and Constable Hook neighborhoods, are often routed through interior wall cavities that become conduits for smoke migration when heat warps gaps around pipe penetrations.
 
-The peninsula's tight lot lines mean that even a contained fire produces soot that travels into neighboring units through shared attic spaces and balloon-frame wall cavities — a structural pattern common in Bayonne's rowhomes and two-families that allows smoke to travel vertically from basement to attic without hitting a fire stop. Identifying that migration path early is the difference between a single-unit restoration and a multi-unit loss.
+The peninsula's tight lot lines mean that even a contained fire produces soot that travels into neighboring units through shared attic spaces and balloon-frame wall cavities, a structural pattern common in Bayonne's rowhomes and two-families that allows smoke to travel vertically from basement to attic without hitting a fire stop. Identifying that migration path early is the difference between a single-unit restoration and a multi-unit loss.
 
 ## Our Fire Damage Restoration Process in Bayonne
 
@@ -34,7 +34,7 @@ Every fire loss is different, but the sequence we follow is consistent and calib
 
 **1. Emergency board-up and stabilization.** Broken windows, compromised doors, and fire-weakened structural members get secured before any cleaning begins. In Bayonne's densely parked streets, we coordinate staging with the property owner to keep access clear.
 
-**2. Smoke and soot mapping.** We trace smoke migration through wall cavities, HVAC ducts, and shared attic spaces — critical in Bayonne's balloon-frame homes where soot can travel two floors from the fire origin.
+**2. Smoke and soot mapping.** We trace smoke migration through wall cavities, HVAC ducts, and shared attic spaces, critical in Bayonne's balloon-frame homes where soot can travel two floors from the fire origin.
 
 **3. Controlled demolition of unsalvageable materials.** Charred framing, saturated insulation, and fire-damaged plaster are removed to verified clean substrate. We document every material removed for your insurance adjuster.
 
@@ -42,20 +42,20 @@ Every fire loss is different, but the sequence we follow is consistent and calib
 
 **5. Deodorization and air scrubbing.** Thermal fogging and hydroxyl generators neutralize odor compounds embedded in plaster, wood framing, and soft contents. HEPA air scrubbers run continuously to capture fine soot particulate.
 
-**6. Reconstruction.** As an NJ Licensed Home Improvement Contractor, we carry the work through finish — framing, drywall, painting, and trim — so you're dealing with one crew, one schedule, and one point of contact with your insurer.
+**6. Reconstruction.** As an NJ Licensed Home Improvement Contractor, we carry the work through finish, framing, drywall, painting, and trim, so you're dealing with one crew, one schedule, and one point of contact with your insurer.
 
 ## Reaching Bayonne from Kenilworth
 
-From our Kenilworth headquarters, crews reach Bayonne via the NJ Turnpike to Route 440 North, a route that keeps us off local surface streets and delivers us to the Route 440 corridor — the spine that runs past Bayonne Crossing down into Downtown Bayonne and toward Bergen Point — without navigating the congestion that builds on Broadway and Avenue C during peak hours. For losses near Constable Hook or the Newark Bay waterfront, we approach from the northern end of the peninsula to avoid the bottleneck at the Bayonne Bridge interchange. Because we operate 24/7, we can dispatch at hours when that corridor moves freely.
+From our Kenilworth headquarters, crews reach Bayonne via the NJ Turnpike to Route 440 North, a route that keeps us off local surface streets and delivers us to the Route 440 corridor, the spine that runs past Bayonne Crossing down into Downtown Bayonne and toward Bergen Point, without navigating the congestion that builds on Broadway and Avenue C during peak hours. For losses near Constable Hook or the Newark Bay waterfront, we approach from the northern end of the peninsula to avoid the bottleneck at the Bayonne Bridge interchange. Because we operate 24/7, we can dispatch at hours when that corridor moves freely.
 
 ## Bayonne Insurance Coordination
 
-Most Bayonne fire losses involve a homeowner's or landlord's policy, and the documentation requirements are significant. We photograph and inventory affected materials before anything is removed, generate moisture and soot mapping reports formatted for adjuster review, and communicate directly with your carrier throughout the job. Bayonne's rental-heavy housing stock means we frequently work alongside landlords managing tenant displacement at the same time as the physical restoration — we're used to coordinating both timelines.
+Most Bayonne fire losses involve a homeowner's or landlord's policy, and the documentation requirements are significant. We photograph and inventory affected materials before anything is removed, generate moisture and soot mapping reports formatted for adjuster review, and communicate directly with your carrier throughout the job. Bayonne's rental-heavy housing stock means we frequently work alongside landlords managing tenant displacement at the same time as the physical restoration, we're used to coordinating both timelines.
 
 For commercial losses along the Route 440 corridor, including retail and restaurant properties, we understand that business-interruption coverage timelines create pressure to move fast without cutting corners on documentation. We build the paper trail while the work is happening, not after.
 
 ## Local Note
 
-Bayonne's balloon-frame two- and three-families — common from Bergen Point up through the Uptown neighborhood — were built before modern fire-blocking requirements. That means smoke and hot gases from a first-floor fire can travel inside wall cavities all the way to the attic in seconds, depositing soot on framing and sheathing that's invisible until you open the walls. Crews unfamiliar with this construction type sometimes miss upper-floor contamination entirely. We open cavity walls systematically on any Bayonne job where the fire origin is at or below the second floor, because the cost of missing hidden soot is a callback months later when the smell returns.
+Bayonne's balloon-frame two- and three-families, common from Bergen Point up through the Uptown neighborhood, were built before modern fire-blocking requirements. That means smoke and hot gases from a first-floor fire can travel inside wall cavities all the way to the attic in seconds, depositing soot on framing and sheathing that's invisible until you open the walls. Crews unfamiliar with this construction type sometimes miss upper-floor contamination entirely. We open cavity walls systematically on any Bayonne job where the fire origin is at or below the second floor, because the cost of missing hidden soot is a callback months later when the smell returns.
 
-If your property has been affected by fire in Bayonne, call The Restoration Group at **(855) 650-7422** — we're available around the clock, and we'll have a crew assessing your property and starting the documentation your insurance company needs before the smoke smell has a chance to set permanently into your walls.
+If your property has been affected by fire in Bayonne, call The Restoration Group at **(855) 650-7422**, we're available around the clock, and we'll have a crew assessing your property and starting the documentation your insurance company needs before the smoke smell has a chance to set permanently into your walls.

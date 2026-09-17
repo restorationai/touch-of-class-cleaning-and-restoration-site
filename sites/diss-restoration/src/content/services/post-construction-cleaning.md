@@ -17,35 +17,35 @@ service_slug: "post-construction-cleaning"
 service_display: "Post-Construction and Specialty Cleaning"
 rendered: true
 ---
-Construction dust doesn't settle the way most people expect. Fine drywall particulate and silica from cutting work infiltrate HVAC returns, coat the inside of cabinets, and film over windows long after the last contractor has left. A new addition, a gut renovation, or even a single-room remodel leaves behind a layer of debris — adhesive overspray, grout haze, paint splatter, sawdust packed into floor gaps — that ordinary janitorial cleaning won't touch. Post-construction and specialty cleaning is the work that makes a finished space actually livable.
+Construction dust doesn't settle the way most people expect. Fine drywall particulate and silica from cutting work infiltrate HVAC returns, coat the inside of cabinets, and film over windows long after the last contractor has left. A new addition, a gut renovation, or even a single-room remodel leaves behind a layer of debris, adhesive overspray, grout haze, paint splatter, sawdust packed into floor gaps, that ordinary janitorial cleaning won't touch. Post-construction and specialty cleaning is the work that makes a finished space actually livable.
 
 ## What post-construction and specialty cleaning actually involves
 
 This isn't a mop-and-bucket service. After construction wraps, surfaces carry multiple types of contamination at once: abrasive particulate that scratches glass and finished floors if wiped incorrectly, alkaline residue from concrete and mortar that etches fixtures, and adhesive films that bond to tile and trim. The equipment and chemistry required to address each type without damaging the finish work underneath is what separates a professional final clean from a crew with shop vacs.
 
-A thorough post-construction clean typically moves through three phases: rough clean (bulk debris removal, sweep-out, dumpster coordination), detail clean (surface-by-surface work on every horizontal and vertical plane), and final clean (glass polishing, floor finishing, HVAC filter replacement, and a walk-through against the punch list). On larger projects — commercial tenant improvements, full gut-renovations in older Youngstown-area homes — specialty tasks like concrete densifier application, grout sealing, or construction film removal from windows add a fourth phase.
+A thorough post-construction clean typically moves through three phases: rough clean (bulk debris removal, sweep-out, dumpster coordination), detail clean (surface-by-surface work on every horizontal and vertical plane), and final clean (glass polishing, floor finishing, HVAC filter replacement, and a walk-through against the punch list). On larger projects, commercial tenant improvements, full gut-renovations in older Youngstown-area homes, specialty tasks like concrete densifier application, grout sealing, or construction film removal from windows add a fourth phase.
 
 Timeline depends on scope. A single-room renovation detail clean typically runs four to eight hours. A whole-home new construction or full-floor commercial buildout can take two to five days with a staged crew.
 
 ## Our process
 
-1. **Pre-clean assessment and surface inventory.** Before any product touches a surface, we identify every finish material present — type of flooring, window glass coating, countertop material, fixture finish — and flag anything that requires a specific chemistry or technique. Alkaline cleaners that cut construction film will etch natural stone; abrasive pads that work on ceramic tile will scratch luxury vinyl. This step prevents the damage that happens when a crew treats every surface the same way.
+1. **Pre-clean assessment and surface inventory.** Before any product touches a surface, we identify every finish material present, type of flooring, window glass coating, countertop material, fixture finish, and flag anything that requires a specific chemistry or technique. Alkaline cleaners that cut construction film will etch natural stone; abrasive pads that work on ceramic tile will scratch luxury vinyl. This step prevents the damage that happens when a crew treats every surface the same way.
 
-2. **Rough clean and bulk debris removal.** Loose debris, leftover materials, packaging, and bulk dust are removed first. HEPA-filtered vacuums pull fine particulate from surfaces before any wet cleaning begins — dragging a wet mop through drywall dust creates a paste that embeds in grout lines and floor texture. Air scrubbers run during this phase to capture airborne particulate before it resettles.
+2. **Rough clean and bulk debris removal.** Loose debris, leftover materials, packaging, and bulk dust are removed first. HEPA-filtered vacuums pull fine particulate from surfaces before any wet cleaning begins, dragging a wet mop through drywall dust creates a paste that embeds in grout lines and floor texture. Air scrubbers run during this phase to capture airborne particulate before it resettles.
 
 3. **Detail clean by trade zone.** We work systematically through each trade's footprint: framing dust in window frames and door jambs, caulk smears on tile, paint overspray on hardware, grout haze on floor tile, adhesive residue on baseboards. Each zone gets the appropriate product and tool for its surface type. Light fixtures, outlets, and switch plates are removed where necessary to clean behind them.
 
-4. **Glass and fixture polish.** Construction film on glass — a combination of silicone, dust, and handling oils — requires a non-abrasive razor technique followed by a streak-free polish. Plumbing fixtures and hardware are cleaned of mineral deposits from wet trades and polished to the finish spec. This phase is where most DIY final cleans fall short: the film looks like a haze until direct light hits it.
+4. **Glass and fixture polish.** Construction film on glass, a combination of silicone, dust, and handling oils, requires a non-abrasive razor technique followed by a streak-free polish. Plumbing fixtures and hardware are cleaned of mineral deposits from wet trades and polished to the finish spec. This phase is where most DIY final cleans fall short: the film looks like a haze until direct light hits it.
 
 5. **Final walk-through and punch-list verification.** We walk the space against the contractor's punch list or the owner's move-in checklist, document any pre-existing damage to finishes found during cleaning, and replace HVAC filters that have loaded with construction dust. The space is ready for occupancy, photography, or final inspection.
 
 ## What separates a good post-construction clean from a bad one
 
-The most common failure is sequence. Crews that wet-mop before HEPA vacuuming grind fine silica and drywall dust into grout lines and plank seams — damage that requires refinishing or regrouting to correct. The second most common failure is chemistry mismatch: acidic grout haze removers left on polished concrete or natural stone cause permanent etching that no amount of buffing reverses.
+The most common failure is sequence. Crews that wet-mop before HEPA vacuuming grind fine silica and drywall dust into grout lines and plank seams, damage that requires refinishing or regrouting to correct. The second most common failure is chemistry mismatch: acidic grout haze removers left on polished concrete or natural stone cause permanent etching that no amount of buffing reverses.
 
 On commercial projects, a missed HVAC clean is the most expensive oversight. Construction particulate that bypasses or loads a filter system distributes through ductwork and coats mechanical components. Tenants and building managers notice it within the first weeks of occupancy as increased dust accumulation and, in some cases, air quality complaints.
 
-For renovation projects in older Mahoning Valley housing stock — pre-1978 construction common throughout Youngstown, Boardman, and the surrounding townships — disturbed paint during demo creates lead dust that requires EPA Lead-Safe protocols, not standard cleaning procedures. DISS Restoration holds EPA Lead-Safe certification, which matters when a renovation has touched original painted surfaces.
+For renovation projects in older Mahoning Valley housing stock, pre-1978 construction common throughout Youngstown, Boardman, and the surrounding townships, disturbed paint during demo creates lead dust that requires EPA Lead-Safe protocols, not standard cleaning procedures. DISS Restoration holds EPA Lead-Safe certification, which matters when a renovation has touched original painted surfaces.
 
 ## What does post-construction and specialty cleaning cost?
 
@@ -59,16 +59,16 @@ Typical costs for post-construction cleaning are driven by square footage, numbe
 | Commercial tenant improvement (per 1,000 sq ft) | $800 – $2,500 |
 | Specialty scope (lead-safe, concrete sealing, HVAC clean) | $500 – $2,000 added |
 
-These are typical industry figures — every project is different, and DISS Restoration provides a written scope and line-item estimate before any work begins. Homeowners insurance does not typically cover routine post-construction cleaning, but it may cover cleaning costs when construction was triggered by a covered loss (fire, water, storm damage); in those cases, documentation of the cleaning scope is part of the claim file.
+These are typical industry figures, every project is different, and DISS Restoration provides a written scope and line-item estimate before any work begins. Homeowners insurance does not typically cover routine post-construction cleaning, but it may cover cleaning costs when construction was triggered by a covered loss (fire, water, storm damage); in those cases, documentation of the cleaning scope is part of the claim file.
 
 ## Seasonal and regional considerations
 
-In the Youngstown area, construction seasons compress around the freeze-thaw window. Projects that wrap in late fall often sit partially finished through winter, meaning surfaces have had months to accumulate dust and humidity fluctuation before the final clean begins. Seasonal humidity swings in northeast Ohio also affect wood floors and drywall — floors installed in summer's humidity may gap slightly by the time a winter final clean happens, which is worth noting in the walk-through documentation.
+In the Youngstown area, construction seasons compress around the freeze-thaw window. Projects that wrap in late fall often sit partially finished through winter, meaning surfaces have had months to accumulate dust and humidity fluctuation before the final clean begins. Seasonal humidity swings in northeast Ohio also affect wood floors and drywall, floors installed in summer's humidity may gap slightly by the time a winter final clean happens, which is worth noting in the walk-through documentation.
 
 For commercial projects, permit closeout timelines in Mahoning County can affect when a final clean needs to be completed relative to the certificate of occupancy inspection. Coordinating the cleaning schedule with the contractor's inspection date avoids a second mobilization.
 
 ## Service area
 
-DISS Restoration is based in Youngstown and provides post-construction and specialty cleaning throughout the surrounding region — including Boardman, Austintown, Canfield, Poland, Struthers, Campbell, and communities across Mahoning and Trumbull counties. City-specific pages detail local considerations for each area.
+DISS Restoration is based in Youngstown and provides post-construction and specialty cleaning throughout the surrounding region, including Boardman, Austintown, Canfield, Poland, Struthers, Campbell, and communities across Mahoning and Trumbull counties. City-specific pages detail local considerations for each area.
 
-When your project is done and the contractors are gone, call (724) 981-1441 to schedule your final clean walk-through — and hand over a space that's actually ready to use.
+When your project is done and the contractors are gone, call (724) 981-1441 to schedule your final clean walk-through, and hand over a space that's actually ready to use.

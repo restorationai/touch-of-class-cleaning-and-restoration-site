@@ -17,26 +17,26 @@ service_slug: "fire-damage-restoration"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-## The fire is out — now the real damage begins
+## The fire is out, now the real damage begins
 
-The flames may have lasted minutes, but what they leave behind works for weeks. Soot particles embed into drywall, insulation, and wood grain within hours of a fire. Smoke odor migrates through HVAC systems and settles into soft contents rooms away from the burn origin. Acidic residue from synthetic materials starts corroding metal fixtures and etching glass within 72 hours. Fire damage restoration is a race against secondary destruction — and the window to save structural materials and personal belongings closes faster than most homeowners realize.
+The flames may have lasted minutes, but what they leave behind works for weeks. Soot particles embed into drywall, insulation, and wood grain within hours of a fire. Smoke odor migrates through HVAC systems and settles into soft contents rooms away from the burn origin. Acidic residue from synthetic materials starts corroding metal fixtures and etching glass within 72 hours. Fire damage restoration is a race against secondary destruction, and the window to save structural materials and personal belongings closes faster than most homeowners realize.
 
 ## What fire damage restoration actually involves
 
-Fire cleanup is not vacuuming ash and repainting. The work begins with a systematic survey of the burn origin, smoke migration path, and heat exposure zones — because soot behaves differently depending on what burned. A kitchen grease fire leaves a thick, oily protein residue that is nearly invisible but produces an intense odor. A living room fire fed by synthetic upholstery and plastics generates a dry, powdery soot that spreads aggressively and carries carcinogenic compounds. Each type requires different chemistry and technique to remove without grinding it deeper into porous surfaces.
+Fire cleanup is not vacuuming ash and repainting. The work begins with a systematic survey of the burn origin, smoke migration path, and heat exposure zones, because soot behaves differently depending on what burned. A kitchen grease fire leaves a thick, oily protein residue that is nearly invisible but produces an intense odor. A living room fire fed by synthetic upholstery and plastics generates a dry, powdery soot that spreads aggressively and carries carcinogenic compounds. Each type requires different chemistry and technique to remove without grinding it deeper into porous surfaces.
 
-Beyond surface cleaning, structural fire damage often involves compromised framing, subfloor charring, melted wiring, and heat-warped rooflines. Contents — furniture, clothing, documents, electronics — require professional pack-out and off-site restoration or disposal. HVAC systems need to be inspected and cleaned before the system is ever run again, or smoke residue recirculates through every room in the house. The full scope of post-fire restoration typically spans emergency stabilization, soot and odor removal, structural repair, and final reconstruction — all documented in detail for the insurance carrier.
+Beyond surface cleaning, structural fire damage often involves compromised framing, subfloor charring, melted wiring, and heat-warped rooflines. Contents, furniture, clothing, documents, electronics, require professional pack-out and off-site restoration or disposal. HVAC systems need to be inspected and cleaned before the system is ever run again, or smoke residue recirculates through every room in the house. The full scope of post-fire restoration typically spans emergency stabilization, soot and odor removal, structural repair, and final reconstruction, all documented in detail for the insurance carrier.
 
 ## Our process
 
 **1. Emergency stabilization and loss documentation**
-Before any cleaning begins, the structure is assessed for safety — compromised load-bearing elements, exposed electrical, and open roof or wall sections that allow weather intrusion. Temporary board-up and tarping protect the property from additional damage while the full scope is documented with photographs, moisture readings, and written inventory. This documentation forms the foundation of the insurance claim.
+Before any cleaning begins, the structure is assessed for safety, compromised load-bearing elements, exposed electrical, and open roof or wall sections that allow weather intrusion. Temporary board-up and tarping protect the property from additional damage while the full scope is documented with photographs, moisture readings, and written inventory. This documentation forms the foundation of the insurance claim.
 
 **2. Soot characterization and surface testing**
-Not all soot responds to the same cleaning agent. We identify the soot type — wet/oily protein residue, dry synthetic soot, or wood-based carbon — before selecting cleaning chemistry. Applying the wrong product can permanently set staining into drywall or strip finish from cabinetry. Affected surfaces are tested and categorized before any product touches them.
+Not all soot responds to the same cleaning agent. We identify the soot type, wet/oily protein residue, dry synthetic soot, or wood-based carbon, before selecting cleaning chemistry. Applying the wrong product can permanently set staining into drywall or strip finish from cabinetry. Affected surfaces are tested and categorized before any product touches them.
 
 **3. Contents pack-out and structural cleaning**
-Salvageable contents are inventoried, packed, and transported to a controlled environment for cleaning and deodorization. On-site, structural surfaces — walls, ceilings, framing, concrete — are cleaned using dry chemical sponges, wet cleaning agents, and HEPA-vacuuming in the correct sequence for each soot type. Heavily saturated materials that cannot be restored are removed and documented for replacement.
+Salvageable contents are inventoried, packed, and transported to a controlled environment for cleaning and deodorization. On-site, structural surfaces, walls, ceilings, framing, concrete, are cleaned using dry chemical sponges, wet cleaning agents, and HEPA-vacuuming in the correct sequence for each soot type. Heavily saturated materials that cannot be restored are removed and documented for replacement.
 
 **4. Thermal fogging and odor neutralization**
 Surface cleaning removes visible residue, but smoke odor molecules penetrate into wall cavities, subfloor gaps, and insulation. Thermal fogging disperses a deodorizing agent as a fine mist that follows the same pathways smoke traveled, neutralizing odor at the molecular level rather than masking it. In some cases, ozone treatment is used in unoccupied spaces to oxidize residual odor compounds embedded in porous materials.
@@ -46,7 +46,7 @@ Once the structure is clean and deodorized, damaged framing, drywall, flooring, 
 
 ## What separates a good fire damage response from a bad one
 
-The most common mistake in fire cleanup is starting too fast with the wrong tools. Running a shop vac over dry synthetic soot drives particles deeper into drywall texture and carpet fiber — the surface looks cleaner but the contamination is now harder to extract. Experienced operators use dry chemical sponges in a single-pass technique before any wet cleaning begins.
+The most common mistake in fire cleanup is starting too fast with the wrong tools. Running a shop vac over dry synthetic soot drives particles deeper into drywall texture and carpet fiber, the surface looks cleaner but the contamination is now harder to extract. Experienced operators use dry chemical sponges in a single-pass technique before any wet cleaning begins.
 
 A second failure point is the HVAC system. Crews that clean visible surfaces and skip the ductwork leave behind a distribution network for smoke odor. The first time the homeowner runs the heat, the smell returns to every room. Insurance adjusters increasingly flag HVAC cleaning as a required line item, and carriers may dispute claims where it was omitted.
 
@@ -54,7 +54,7 @@ Documentation quality also separates strong claims from disputed ones. Adjusters
 
 ## Seasonal and regional considerations
 
-In North Texas, fire risk spikes during two distinct windows: the dry, windy stretch from late February through April when grass and brush fires can spread to structures quickly, and the winter holiday season when electrical fires and heating equipment failures increase. Duncanville and the surrounding Dallas–Fort Worth suburbs also carry a high proportion of 1970s–1990s construction — homes with original aluminum wiring, older HVAC systems, and attic insulation that accelerates fire spread. Post-fire, the region's humidity swings create a secondary mold risk when a structure sits open or improperly dried after firefighting water is introduced.
+In North Texas, fire risk spikes during two distinct windows: the dry, windy stretch from late February through April when grass and brush fires can spread to structures quickly, and the winter holiday season when electrical fires and heating equipment failures increase. Duncanville and the surrounding Dallas–Fort Worth suburbs also carry a high proportion of 1970s–1990s construction, homes with original aluminum wiring, older HVAC systems, and attic insulation that accelerates fire spread. Post-fire, the region's humidity swings create a secondary mold risk when a structure sits open or improperly dried after firefighting water is introduced.
 
 ## Service area
 

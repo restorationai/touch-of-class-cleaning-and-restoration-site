@@ -20,31 +20,31 @@ state: "NJ"
 service_display: "Mold Remediation"
 rendered: true
 ---
-Jersey City's mold problem isn't just about humidity — it's about what happens when a city built on tidal wetlands, reshaped by two catastrophic storms, and packed with century-old rowhouses gets wet and stays wet. Whether it's a basement in Bergen-Lafayette that backed up during Ida, a stacked condo unit at Newport where a riser leak crept silently behind drywall for weeks, or a Heights brownstone with a stone foundation that never fully dries after a hard rain, mold colonizes fast — within 24 to 72 hours of moisture intrusion — and the older the building, the more places it hides.
+Jersey City's mold problem isn't just about humidity, it's about what happens when a city built on tidal wetlands, reshaped by two catastrophic storms, and packed with century-old rowhouses gets wet and stays wet. Whether it's a basement in Bergen-Lafayette that backed up during Ida, a stacked condo unit at Newport where a riser leak crept silently behind drywall for weeks, or a Heights brownstone with a stone foundation that never fully dries after a hard rain, mold colonizes fast, within 24 to 72 hours of moisture intrusion, and the older the building, the more places it hides.
 
 ## Why Jersey City Properties See Mold Issues
 
-The geography matters. Much of Jersey City sits at or near sea level, and the combined sewer system serving older neighborhoods like Greenville and Bergen-Lafayette can back up during heavy rainfall events, pushing contaminated water into finished basements. That water carries organic debris — exactly what mold spores need to take hold in subflooring, wall cavities, and framing.
+The geography matters. Much of Jersey City sits at or near sea level, and the combined sewer system serving older neighborhoods like Greenville and Bergen-Lafayette can back up during heavy rainfall events, pushing contaminated water into finished basements. That water carries organic debris, exactly what mold spores need to take hold in subflooring, wall cavities, and framing.
 
 On the waterfront, the problem looks different but is equally persistent. High-rise buildings near Exchange Place and Newport are plumbed vertically, meaning a single supply-line failure on the 14th floor can saturate units on multiple floors below before anyone notices. By the time building management identifies the source, drywall cavities have been wet long enough for mold to begin growing behind finishes that look completely dry on the surface.
 
-The housing stock in The Heights and surrounding neighborhoods adds another layer of complexity. Brownstones and frame rowhouses built between the 1890s and 1920s typically have rubble-stone or brick foundations with no waterproofing membrane — moisture wicks through constantly during wet seasons. Cellar spaces in these homes often have dirt or original concrete floors, uninsulated rim joists, and minimal ventilation, creating the cool, damp, dark conditions where mold thrives year-round.
+The housing stock in The Heights and surrounding neighborhoods adds another layer of complexity. Brownstones and frame rowhouses built between the 1890s and 1920s typically have rubble-stone or brick foundations with no waterproofing membrane, moisture wicks through constantly during wet seasons. Cellar spaces in these homes often have dirt or original concrete floors, uninsulated rim joists, and minimal ventilation, creating the cool, damp, dark conditions where mold thrives year-round.
 
 ## Our Mold Remediation Process in Jersey City
 
-Every job starts with a thorough inspection — not just a visual scan, but thermal imaging and moisture mapping to find elevated readings behind walls, under flooring, and inside ceiling assemblies. In older Jersey City buildings, this step is especially important because mold often grows inside structural cavities that show no visible discoloration from the room side.
+Every job starts with a thorough inspection, not just a visual scan, but thermal imaging and moisture mapping to find elevated readings behind walls, under flooring, and inside ceiling assemblies. In older Jersey City buildings, this step is especially important because mold often grows inside structural cavities that show no visible discoloration from the room side.
 
-Once the scope is clear, we establish containment using negative air pressure and physical barriers to prevent spores from spreading to unaffected areas of the home or building. This is critical in multifamily settings — a mold job in one unit of a Journal Square apartment building needs to be handled so that remediation activity doesn't cross-contaminate adjacent units through shared HVAC chases or corridor air.
+Once the scope is clear, we establish containment using negative air pressure and physical barriers to prevent spores from spreading to unaffected areas of the home or building. This is critical in multifamily settings, a mold job in one unit of a Journal Square apartment building needs to be handled so that remediation activity doesn't cross-contaminate adjacent units through shared HVAC chases or corridor air.
 
-After containment, affected materials are removed following IICRC S520 standard protocols. Porous materials — drywall, insulation, wood framing with active growth — are bagged and removed. Structural wood that can be retained is HEPA-vacuumed, treated with an EPA-registered antimicrobial, and dried to target moisture content before any encapsulation or rebuild begins. Air scrubbers run throughout and for a defined period after physical work is complete.
+After containment, affected materials are removed following IICRC S520 standard protocols. Porous materials, drywall, insulation, wood framing with active growth, are bagged and removed. Structural wood that can be retained is HEPA-vacuumed, treated with an EPA-registered antimicrobial, and dried to target moisture content before any encapsulation or rebuild begins. Air scrubbers run throughout and for a defined period after physical work is complete.
 
-We document every phase with photos, moisture readings, and written scope notes — the kind of organized paperwork that condo associations, property managers, and insurance adjusters need to close a claim cleanly.
+We document every phase with photos, moisture readings, and written scope notes, the kind of organized paperwork that condo associations, property managers, and insurance adjusters need to close a claim cleanly.
 
 ## Jersey City Insurance and HOA Coordination
 
 In Jersey City's multifamily market, mold claims rarely involve just one party. A waterfront condo association may require unit-by-unit moisture documentation before its master policy will respond. A landlord in the 07304 ZIP code managing several rowhouse rentals may be dealing with a tenant's renter's insurance claim alongside their own property coverage. Getting the documentation right from day one prevents the back-and-forth that delays both remediation and payment.
 
-The Restoration Group works directly with adjusters and can provide the moisture logs, scope of work, and photo documentation most carriers require. We don't make coverage decisions — that's between you and your insurer — but we make sure the paperwork doesn't become the bottleneck.
+The Restoration Group works directly with adjusters and can provide the moisture logs, scope of work, and photo documentation most carriers require. We don't make coverage decisions, that's between you and your insurer, but we make sure the paperwork doesn't become the bottleneck.
 
 ## Reaching Jersey City from Kenilworth
 
@@ -52,6 +52,6 @@ The Restoration Group operates 24/7 and dispatches from Kenilworth, reaching Jer
 
 ## Local Note
 
-One thing that catches people off guard in older Jersey City buildings: the original horsehair plaster walls common in Heights and Bergen-Lafayette brownstones behave very differently from modern drywall when they get wet. Plaster itself is relatively resistant to mold, but the wood lath strips behind it are not — and because plaster is dense and slow to release moisture, a lath cavity can stay wet for weeks after the surface feels dry to the touch. We've found active mold growth on lath in buildings where the homeowner was certain the wall had dried out months earlier. In these structures, we extend drying monitoring periods and use cavity probes rather than relying on surface readings alone.
+One thing that catches people off guard in older Jersey City buildings: the original horsehair plaster walls common in Heights and Bergen-Lafayette brownstones behave very differently from modern drywall when they get wet. Plaster itself is relatively resistant to mold, but the wood lath strips behind it are not, and because plaster is dense and slow to release moisture, a lath cavity can stay wet for weeks after the surface feels dry to the touch. We've found active mold growth on lath in buildings where the homeowner was certain the wall had dried out months earlier. In these structures, we extend drying monitoring periods and use cavity probes rather than relying on surface readings alone.
 
 If you're dealing with visible mold growth, a musty smell that won't clear, or a recent water event in a Jersey City property, call (908) 970-8533. We'll assess the situation, explain what we find, and give you a clear scope before any work begins.

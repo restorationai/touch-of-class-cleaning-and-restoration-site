@@ -18,13 +18,13 @@ rendered: true
 ---
 ## What Information We Collect
 
-When you fill out a contact or estimate-request form on rtolsonplumbing.com, we collect the information you type in — typically your name, phone number, email address, service address, and a description of the problem you're dealing with. If you call or email us directly, we keep a record of that communication as well.
+When you fill out a contact or estimate-request form on rtolsonplumbing.com, we collect the information you type in, typically your name, phone number, email address, service address, and a description of the problem you're dealing with. If you call or email us directly, we keep a record of that communication as well.
 
 The site also collects basic, anonymized analytics data (pages visited, general geographic region, device type) through standard web tools. This data contains no personally identifying information and exists only to help us understand how the site is being used.
 
 ## How We Use Your Information
 
-The information you share with us is used for one purpose: helping you. That means responding to your inquiry, scheduling an estimate or service appointment, and — where applicable — coordinating with your insurance carrier on your behalf and with your explicit authorization. We do not use your contact details for marketing campaigns, and we do not sell, rent, or trade your personal information to any third party.
+The information you share with us is used for one purpose: helping you. That means responding to your inquiry, scheduling an estimate or service appointment, and, where applicable, coordinating with your insurance carrier on your behalf and with your explicit authorization. We do not use your contact details for marketing campaigns, and we do not sell, rent, or trade your personal information to any third party.
 
 If your service involves an insurance claim, we may share job documentation (photos, scope notes, billing records) with your carrier or their adjuster. We do this only after you have authorized us to do so, either verbally or through a signed work-authorization form.
 
@@ -34,7 +34,7 @@ We retain service records, communications, and related documentation for as long
 
 ## Your Rights as a California Resident
 
-If you are a California resident, the California Consumer Privacy Act (CCPA) gives you the right to know what personal information we have collected about you, request that we delete it, and opt out of any sale of that information. Because we do not sell personal data, the opt-out right is largely academic here — but the others are real. To exercise any of these rights, contact us using the information below and we will respond within the timeframe required by law.
+If you are a California resident, the California Consumer Privacy Act (CCPA) gives you the right to know what personal information we have collected about you, request that we delete it, and opt out of any sale of that information. Because we do not sell personal data, the opt-out right is largely academic here, but the others are real. To exercise any of these rights, contact us using the information below and we will respond within the timeframe required by law.
 
 Visitors from outside the United States are welcome to reach out with privacy questions. Because RT Olson Plumbing serves a local California market, we do not anticipate regular interaction with residents of the European Economic Area, and we do not currently maintain GDPR compliance infrastructure. If that changes, this policy will be updated accordingly.
 

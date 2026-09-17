@@ -19,19 +19,19 @@ state: "TX"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a kitchen wall in Volk Estates or a slow roof leak finally soaks through the attic of a 1940s cottage near Hillcrest Avenue, Reign Restoration responds around the clock to stop the damage, dry the structure, and put University Park homes and commercial properties back together — from emergency mitigation through full reconstruction. We handle water damage, fire and smoke cleanup, mold remediation, and storm recovery for property owners across ZIP codes 75205 and 75225.
+When a pipe bursts behind a kitchen wall in Volk Estates or a slow roof leak finally soaks through the attic of a 1940s cottage near Hillcrest Avenue, Reign Restoration responds around the clock to stop the damage, dry the structure, and put University Park homes and commercial properties back together, from emergency mitigation through full reconstruction. We handle water damage, fire and smoke cleanup, mold remediation, and storm recovery for property owners across ZIP codes 75205 and 75225.
 
 ## Restoration emergencies common in University Park
 
-University Park was incorporated in 1924 and largely built out by the 1940s, and that history shows up in the kinds of calls we take. The storm-drain network — some of it dating to the 1920s and 1950s, routed partly over a buried creek — can't always keep pace with the intense, fast-moving thunderstorms that roll through North Texas in spring and fall. Low-lying ground near Caruth Park and along the Preston Road corridor ponds quickly, and water finds its way into garages, finished basements, and crawl spaces before a homeowner realizes what's happening.
+University Park was incorporated in 1924 and largely built out by the 1940s, and that history shows up in the kinds of calls we take. The storm-drain network, some of it dating to the 1920s and 1950s, routed partly over a buried creek, can't always keep pace with the intense, fast-moving thunderstorms that roll through North Texas in spring and fall. Low-lying ground near Caruth Park and along the Preston Road corridor ponds quickly, and water finds its way into garages, finished basements, and crawl spaces before a homeowner realizes what's happening.
 
-The housing stock adds another layer of complexity. One block in the Caruth Hills area might mix a 1930s pier-and-beam bungalow with a two-story slab-foundation rebuild from the 2000s. Those original pier-and-beam homes have subfloor cavities that hold moisture for days — long enough for mold to begin colonizing within 24 to 48 hours of a water intrusion. Newer slabs have their own vulnerabilities: slab leaks from pressurized supply lines can saturate concrete and migrate under hardwood floors before a single visible stain appears. University Park's position as a separate municipality also means its building department has its own permitting and inspection process, separate from the City of Dallas, which affects reconstruction timelines.
+The housing stock adds another layer of complexity. One block in the Caruth Hills area might mix a 1930s pier-and-beam bungalow with a two-story slab-foundation rebuild from the 2000s. Those original pier-and-beam homes have subfloor cavities that hold moisture for days, long enough for mold to begin colonizing within 24 to 48 hours of a water intrusion. Newer slabs have their own vulnerabilities: slab leaks from pressurized supply lines can saturate concrete and migrate under hardwood floors before a single visible stain appears. University Park's position as a separate municipality also means its building department has its own permitting and inspection process, separate from the City of Dallas, which affects reconstruction timelines.
 
 ## Services we provide in University Park
 
 ### Water damage restoration
 
-Water damage in University Park often starts quietly — a slow supply-line leak under a kitchen island, a failed wax ring beneath an upstairs bathroom, or storm runoff pushing through a foundation vent on a pier-and-beam home near The Fairway. We extract standing water, deploy commercial drying equipment, and monitor moisture levels in walls, subfloors, and cavities until readings confirm the structure is dry. Documentation goes straight to your insurance carrier.
+Water damage in University Park often starts quietly, a slow supply-line leak under a kitchen island, a failed wax ring beneath an upstairs bathroom, or storm runoff pushing through a foundation vent on a pier-and-beam home near The Fairway. We extract standing water, deploy commercial drying equipment, and monitor moisture levels in walls, subfloors, and cavities until readings confirm the structure is dry. Documentation goes straight to your insurance carrier.
 
 ### Fire and smoke damage restoration
 
@@ -39,22 +39,22 @@ Smoke residue from even a contained kitchen fire travels fast through HVAC syste
 
 ### Mold remediation
 
-The combination of aging pier-and-beam construction, high humidity in Dallas-area summers, and the slow leaks that go undetected in older homes makes mold a consistent issue in University Park. Near the SMU campus area, we frequently see mold in rental properties where a slow bathroom leak went unreported for weeks. We contain affected areas, remove compromised materials, treat surfaces, and dry the assembly — and we're straightforward about what remediation can and cannot guarantee about future air quality.
+The combination of aging pier-and-beam construction, high humidity in Dallas-area summers, and the slow leaks that go undetected in older homes makes mold a consistent issue in University Park. Near the SMU campus area, we frequently see mold in rental properties where a slow bathroom leak went unreported for weeks. We contain affected areas, remove compromised materials, treat surfaces, and dry the assembly, and we're straightforward about what remediation can and cannot guarantee about future air quality.
 
 ### Storm damage and reconstruction
 
-Hail and straight-line wind events hit the Park Cities hard several times a decade. After a storm, we tarp and board damaged roofs and windows to stop secondary water intrusion, then work through the full repair scope — roofing, siding, windows, interior finishes — coordinating with your adjuster from the initial estimate through the final walk-through.
+Hail and straight-line wind events hit the Park Cities hard several times a decade. After a storm, we tarp and board damaged roofs and windows to stop secondary water intrusion, then work through the full repair scope, roofing, siding, windows, interior finishes, coordinating with your adjuster from the initial estimate through the final walk-through.
 
 ## Coverage and how fast we can get there
 
-Reign Restoration is based in Royse City, TX, roughly 30 miles east of University Park via I-30 West and the Central Expressway (US-75) corridor. We dispatch around the clock, every day of the year. Depending on traffic conditions on 75 through downtown Dallas, our crews typically reach neighborhoods like Snider Plaza, Caruth Hills, and the Preston Road corridor in under an hour — though we won't quote you a specific minute window until we know what's happening on the road that day. When you call (214) 304-0621, the person who answers will give you a realistic arrival estimate based on current conditions.
+Reign Restoration is based in Royse City, TX, roughly 30 miles east of University Park via I-30 West and the Central Expressway (US-75) corridor. We dispatch around the clock, every day of the year. Depending on traffic conditions on 75 through downtown Dallas, our crews typically reach neighborhoods like Snider Plaza, Caruth Hills, and the Preston Road corridor in under an hour, though we won't quote you a specific minute window until we know what's happening on the road that day. When you call (214) 304-0621, the person who answers will give you a realistic arrival estimate based on current conditions.
 
 ## Building stock, site conditions, and permits in University Park
 
-Homes from the pre-war build-out were framed in old-growth lumber with plaster and wood lath, not drywall — plaster holds water differently and often has to be dried from the cavity side rather than torn out. Expect cast iron drain lines and galvanized supply piping in anything untouched since the 1950s, plus asbestos-bearing floor tile, mastic, and pipe insulation in pre-1980 work and lead paint in pre-1978 finishes. Those all change how a demolition scope is written.
+Homes from the pre-war build-out were framed in old-growth lumber with plaster and wood lath, not drywall, plaster holds water differently and often has to be dried from the cavity side rather than torn out. Expect cast iron drain lines and galvanized supply piping in anything untouched since the 1950s, plus asbestos-bearing floor tile, mastic, and pipe insulation in pre-1980 work and lead paint in pre-1978 finishes. Those all change how a demolition scope is written.
 
 The ground here is Blackland Prairie clay that swells and shrinks with the seasons. That movement stresses slabs, shifts pier-and-beam supports, and cracks buried drain lines, which is why a plumbing leak and a foundation problem so often show up together.
 
 Permits for structural repair, reroofing, and mechanical or plumbing replacement come from the city itself.
 
-If you're dealing with water, fire, mold, or storm damage at a University Park property, call Reign Restoration at **(214) 304-0621** — we answer every hour of every day and can have a crew moving toward you while you're still on the phone.
+If you're dealing with water, fire, mold, or storm damage at a University Park property, call Reign Restoration at **(214) 304-0621**, we answer every hour of every day and can have a crew moving toward you while you're still on the phone.

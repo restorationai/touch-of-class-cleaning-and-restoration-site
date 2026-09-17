@@ -19,17 +19,17 @@ state: "SD"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind the walls of a McCook Lake cottage or smoke works its way into the ductwork of a Dakota Dunes townhome, Crew Restoration & Construction is the team North Sioux City property owners call to stop the damage, document it, and put the structure back together. We handle water extraction, structural drying, fire and smoke cleanup, mold remediation, and full reconstruction — coordinating directly with insurance carriers so you can focus on getting your home or business back to normal.
+When a pipe bursts behind the walls of a McCook Lake cottage or smoke works its way into the ductwork of a Dakota Dunes townhome, Crew Restoration & Construction is the team North Sioux City property owners call to stop the damage, document it, and put the structure back together. We handle water extraction, structural drying, fire and smoke cleanup, mold remediation, and full reconstruction, coordinating directly with insurance carriers so you can focus on getting your home or business back to normal.
 
 ## Restoration emergencies common in North Sioux City
 
-North Sioux City sits at the confluence of the Big Sioux and Missouri rivers, and that geography shapes the restoration calls we receive here more than almost anywhere else in the region. Spring snowmelt in the Dakota hills pushes both rivers high, and the area's shallow water table means groundwater can migrate into crawl spaces and slab foundations well before a flood advisory is even issued. The housing stock around ZIP code 57049 ranges from mid-century ranch homes with original cast-iron plumbing to newer construction in the Dakota Dunes corridor — two very different risk profiles. Older homes tend to see supply-line failures and slow leaks that go undetected behind lathe-and-plaster walls; newer builds are tighter but can trap moisture in spray-foam cavities when a vapor barrier is compromised. Add in the region's wide temperature swings — hard freezes in January, humid summers that push dew points above 70°F — and you have conditions that accelerate mold colonization. After a water intrusion event, mold can begin establishing colonies within 24 to 48 hours in warm, humid conditions, which is why response speed matters as much as technical skill.
+North Sioux City sits at the confluence of the Big Sioux and Missouri rivers, and that geography shapes the restoration calls we receive here more than almost anywhere else in the region. Spring snowmelt in the Dakota hills pushes both rivers high, and the area's shallow water table means groundwater can migrate into crawl spaces and slab foundations well before a flood advisory is even issued. The housing stock around ZIP code 57049 ranges from mid-century ranch homes with original cast-iron plumbing to newer construction in the Dakota Dunes corridor, two very different risk profiles. Older homes tend to see supply-line failures and slow leaks that go undetected behind lathe-and-plaster walls; newer builds are tighter but can trap moisture in spray-foam cavities when a vapor barrier is compromised. Add in the region's wide temperature swings, hard freezes in January, humid summers that push dew points above 70°F, and you have conditions that accelerate mold colonization. After a water intrusion event, mold can begin establishing colonies within 24 to 48 hours in warm, humid conditions, which is why response speed matters as much as technical skill.
 
 ## Services we provide in North Sioux City
 
 ### Water damage restoration
 
-Water damage in North Sioux City often starts with the Missouri River floodplain. McCook Lake homes have faced significant flood damage in recent years, with lake levels backing up storm drains and pushing water through foundation walls and window wells. We arrive with truck-mounted extractors, industrial air movers, and desiccant dehumidifiers, then dry the structure to IICRC S500 standards — monitoring moisture readings daily until the building materials reach target levels. We photograph and document every affected material for your insurance claim.
+Water damage in North Sioux City often starts with the Missouri River floodplain. McCook Lake homes have faced significant flood damage in recent years, with lake levels backing up storm drains and pushing water through foundation walls and window wells. We arrive with truck-mounted extractors, industrial air movers, and desiccant dehumidifiers, then dry the structure to IICRC S500 standards, monitoring moisture readings daily until the building materials reach target levels. We photograph and document every affected material for your insurance claim.
 
 ### Fire and smoke damage restoration
 
@@ -37,15 +37,15 @@ Fire calls in this part of South Dakota frequently involve older wood-frame cons
 
 ### Mold remediation
 
-The combination of river humidity and older building envelopes makes mold a recurring issue in North Sioux City, particularly in crawl spaces and basement rim joists. We follow established remediation protocols — containment, HEPA vacuuming, antimicrobial treatment, and controlled demolition of unsalvageable materials — and can handle post-remediation reconstruction so you work with one contractor from start to finish.
+The combination of river humidity and older building envelopes makes mold a recurring issue in North Sioux City, particularly in crawl spaces and basement rim joists. We follow established remediation protocols, containment, HEPA vacuuming, antimicrobial treatment, and controlled demolition of unsalvageable materials, and can handle post-remediation reconstruction so you work with one contractor from start to finish.
 
 ### Reconstruction and build-back
 
-Many restoration companies stop at the remediation phase and hand you a list of contractors to call. Crew Restoration & Construction carries the project through rebuild — framing, drywall, flooring, painting, and finish work — so there is no gap between the remediation crew leaving and the repairs beginning.
+Many restoration companies stop at the remediation phase and hand you a list of contractors to call. Crew Restoration & Construction carries the project through rebuild, framing, drywall, flooring, painting, and finish work, so there is no gap between the remediation crew leaving and the repairs beginning.
 
 ## Coverage and how fast we can get there
 
-Our crews travel from our Sioux Falls headquarters south on I-29 to reach North Sioux City — roughly 90 miles, a straightforward interstate run that keeps drive time predictable in most weather conditions. From the highway, we can reach the McCook Lake area and Downtown North Sioux City directly, and the Dakota Dunes corridor is just minutes off the same route. We schedule promptly and will give you an honest arrival window when you call — (605) 965-2727. For neighborhoods closer to the Adams Homestead and Nature Preserve on the north end of the service area, we factor in any seasonal road conditions along the river corridor.
+Our crews travel from our Sioux Falls headquarters south on I-29 to reach North Sioux City, roughly 90 miles, a straightforward interstate run that keeps drive time predictable in most weather conditions. From the highway, we can reach the McCook Lake area and Downtown North Sioux City directly, and the Dakota Dunes corridor is just minutes off the same route. We schedule promptly and will give you an honest arrival window when you call, (605) 965-2727. For neighborhoods closer to the Adams Homestead and Nature Preserve on the north end of the service area, we factor in any seasonal road conditions along the river corridor.
 
 ## Building stock, site conditions, and permits in North Sioux City
 

@@ -19,23 +19,23 @@ rendered: true
 ---
 ## What happens in the first 48 hours matters more than anything else
 
-Water doesn't stay where it lands. Within minutes of a pipe burst or appliance failure, water migrates under baseboards, wicks up drywall, and saturates subfloor materials you can't see from the surface. Within 24 to 48 hours, that trapped moisture creates the temperature and humidity conditions mold needs to colonize. Water damage restoration is a race against that clock — and the goal isn't just removing visible water, it's eliminating the hidden moisture that causes the real long-term damage.
+Water doesn't stay where it lands. Within minutes of a pipe burst or appliance failure, water migrates under baseboards, wicks up drywall, and saturates subfloor materials you can't see from the surface. Within 24 to 48 hours, that trapped moisture creates the temperature and humidity conditions mold needs to colonize. Water damage restoration is a race against that clock, and the goal isn't just removing visible water, it's eliminating the hidden moisture that causes the real long-term damage.
 
 ## What water damage restoration actually involves
 
-Most people picture a shop vac and some fans. The actual work is more involved. Restoration technicians use truck-mounted or portable extraction units that pull hundreds of gallons out of flooring and cavities that a wet-vac can't reach. After extraction, industrial air movers and low-grain refrigerant (LGR) dehumidifiers create a controlled drying environment — moving air across wet surfaces while pulling moisture out of the air before it can reabsorb into building materials.
+Most people picture a shop vac and some fans. The actual work is more involved. Restoration technicians use truck-mounted or portable extraction units that pull hundreds of gallons out of flooring and cavities that a wet-vac can't reach. After extraction, industrial air movers and low-grain refrigerant (LGR) dehumidifiers create a controlled drying environment, moving air across wet surfaces while pulling moisture out of the air before it can reabsorb into building materials.
 
-Throughout the drying period, technicians return daily to take moisture readings with penetrating and non-penetrating meters and thermo-hygrometers. These readings aren't optional — they're the only way to know whether materials are actually drying or just feeling dry on the surface. Drying typically runs three to five days for Category 1 clean water losses, longer when materials are dense (hardwood, concrete, plaster) or when the water source was contaminated.
+Throughout the drying period, technicians return daily to take moisture readings with penetrating and non-penetrating meters and thermo-hygrometers. These readings aren't optional, they're the only way to know whether materials are actually drying or just feeling dry on the surface. Drying typically runs three to five days for Category 1 clean water losses, longer when materials are dense (hardwood, concrete, plaster) or when the water source was contaminated.
 
-Category matters here. A clean supply-line break is handled differently than a dishwasher overflow with food residue, and both are handled differently than a sewage backup. Category 2 and Category 3 losses require containment protocols and antimicrobial treatment because the water itself carries contaminants — not just the moisture.
+Category matters here. A clean supply-line break is handled differently than a dishwasher overflow with food residue, and both are handled differently than a sewage backup. Category 2 and Category 3 losses require containment protocols and antimicrobial treatment because the water itself carries contaminants, not just the moisture.
 
 ## Our process
 
-1. **Emergency assessment and water source control.** The first step is stopping the loss from growing. That means confirming the water source is shut off, identifying all affected rooms and materials, and classifying the water category. We use thermal imaging cameras alongside moisture meters to map the full extent of saturation — including areas that look dry but aren't.
+1. **Emergency assessment and water source control.** The first step is stopping the loss from growing. That means confirming the water source is shut off, identifying all affected rooms and materials, and classifying the water category. We use thermal imaging cameras alongside moisture meters to map the full extent of saturation, including areas that look dry but aren't.
 
 2. **Standing water extraction.** Truck-mounted extraction removes bulk water from hard surfaces and carpet. For hardwood floors and subfloor assemblies, we use specialty extraction tools designed to pull water from the material itself rather than just the surface. The faster extraction happens, the better the odds of saving structural materials.
 
-3. **Structural drying with monitored equipment placement.** Air movers are positioned to create a vortex effect across wet surfaces. LGR dehumidifiers are sized to the cubic footage of the affected space — undersizing equipment is one of the most common mistakes in residential water mitigation. We log equipment placement, settings, and daily moisture readings in a drying log that becomes part of your claim documentation.
+3. **Structural drying with monitored equipment placement.** Air movers are positioned to create a vortex effect across wet surfaces. LGR dehumidifiers are sized to the cubic footage of the affected space, undersizing equipment is one of the most common mistakes in residential water mitigation. We log equipment placement, settings, and daily moisture readings in a drying log that becomes part of your claim documentation.
 
 4. **Daily moisture monitoring and equipment adjustment.** Drying isn't static. As materials release moisture, equipment placement and dehumidifier settings may need to change. Technicians check readings each day and adjust the drying system accordingly. Materials are cleared for drying only when they reach established drying goals, not on a fixed calendar schedule.
 
@@ -43,17 +43,17 @@ Category matters here. A clean supply-line break is handled differently than a d
 
 ## What separates a good water damage response from a bad one
 
-The most common failure in residential water mitigation is under-drying — pulling equipment too early because the surface feels dry or because a homeowner wants the disruption to end. Flooring and wall cavities hold moisture long after the surface reads dry to the touch. Pulling equipment before drying goals are met leaves residual moisture that feeds mold growth inside walls, under floors, and in subfloor assemblies where it won't be visible for weeks.
+The most common failure in residential water mitigation is under-drying, pulling equipment too early because the surface feels dry or because a homeowner wants the disruption to end. Flooring and wall cavities hold moisture long after the surface reads dry to the touch. Pulling equipment before drying goals are met leaves residual moisture that feeds mold growth inside walls, under floors, and in subfloor assemblies where it won't be visible for weeks.
 
 A second common failure is misclassifying the water category. Gray water (Category 2) from appliance overflows or toilet tank leaks is often treated like clean water, which means contaminated materials get dried in place rather than removed. Insurance adjusters and industrial hygienists know what to look for, and a claim that was handled with the wrong protocol creates problems at settlement.
 
-Good operators document everything — moisture readings, equipment logs, photographs of affected materials before and after extraction, and written scope of work. That documentation protects the homeowner during the claims process and creates a clear record if questions arise later.
+Good operators document everything, moisture readings, equipment logs, photographs of affected materials before and after extraction, and written scope of work. That documentation protects the homeowner during the claims process and creates a clear record if questions arise later.
 
 ## Seasonal and regional considerations for Las Vegas
 
-Las Vegas sits in a desert, but that doesn't make water damage rare — it makes it less expected, which means it often goes longer before someone notices. The valley's hard water accelerates corrosion in supply lines and water heater connections, and older homes in Henderson, North Las Vegas, and the central valley neighborhoods frequently have aging galvanized or copper plumbing that fails without warning.
+Las Vegas sits in a desert, but that doesn't make water damage rare, it makes it less expected, which means it often goes longer before someone notices. The valley's hard water accelerates corrosion in supply lines and water heater connections, and older homes in Henderson, North Las Vegas, and the central valley neighborhoods frequently have aging galvanized or copper plumbing that fails without warning.
 
-Summer monsoon season brings a different risk: rapid, high-volume rainfall on hardscape-heavy lots that have minimal soil absorption. Water intrudes through foundation cracks, window wells, and garage door thresholds faster than most homeowners anticipate. The dry climate also creates a false sense of security — low ambient humidity means surface materials dry quickly, which can mask moisture that's still trapped in wall cavities and subfloor assemblies.
+Summer monsoon season brings a different risk: rapid, high-volume rainfall on hardscape-heavy lots that have minimal soil absorption. Water intrudes through foundation cracks, window wells, and garage door thresholds faster than most homeowners anticipate. The dry climate also creates a false sense of security, low ambient humidity means surface materials dry quickly, which can mask moisture that's still trapped in wall cavities and subfloor assemblies.
 
 ## Service area
 
@@ -61,4 +61,4 @@ PuroClean of East Las Vegas handles water damage restoration throughout the Las 
 
 ---
 
-If you're seeing water on the floor, discoloration on walls or ceilings, or you've just shut off a broken supply line, the next step is a moisture assessment — not a wait-and-see. Call PuroClean of East Las Vegas at (702) 551-3040 to schedule your moisture assessment and get a clear picture of what's wet, what's at risk, and what it takes to dry it correctly.
+If you're seeing water on the floor, discoloration on walls or ceilings, or you've just shut off a broken supply line, the next step is a moisture assessment, not a wait-and-see. Call PuroClean of East Las Vegas at (702) 551-3040 to schedule your moisture assessment and get a clear picture of what's wet, what's at risk, and what it takes to dry it correctly.

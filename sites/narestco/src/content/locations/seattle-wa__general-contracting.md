@@ -20,21 +20,21 @@ state: "WA"
 service_display: "Renovations, Remodels and General Contracting"
 rendered: true
 ---
-Whether you're rebuilding after a burst pipe flooded your finished basement in Beacon Hill, finally tackling the kitchen that's been half-demo'd since last winter, or managing a commercial property that needs a full interior overhaul, the gap between "damaged" and "done" is where most Seattle property owners lose sleep. National Restoration Construction has been closing that gap since 2004 — handling everything from post-damage rebuilds and structural repairs to full kitchen remodels, bathroom remodels, and ground-up general contracting work across the Seattle metro.
+Whether you're rebuilding after a burst pipe flooded your finished basement in Beacon Hill, finally tackling the kitchen that's been half-demo'd since last winter, or managing a commercial property that needs a full interior overhaul, the gap between "damaged" and "done" is where most Seattle property owners lose sleep. National Restoration Construction has been closing that gap since 2004, handling everything from post-damage rebuilds and structural repairs to full kitchen remodels, bathroom remodels, and ground-up general contracting work across the Seattle metro.
 
 ## Why Seattle Homes and Buildings Need a General Contractor Who Understands This Region
 
-Seattle's housing stock tells a specific story. Craftsman bungalows in Columbia City, mid-century ramblers in Wedgwood, 1970s condos in Belltown, newer mixed-use buildings in South Lake Union — each era of construction carries its own quirks. Older homes frequently have knob-and-tube wiring tucked inside walls you're opening for a remodel, or original cast-iron drain lines that fail the moment you start adding bathroom fixtures. The Pacific Northwest's persistent moisture means that a renovation exposing a wall cavity often reveals years of slow water intrusion that nobody knew was there.
+Seattle's housing stock tells a specific story. Craftsman bungalows in Columbia City, mid-century ramblers in Wedgwood, 1970s condos in Belltown, newer mixed-use buildings in South Lake Union, each era of construction carries its own quirks. Older homes frequently have knob-and-tube wiring tucked inside walls you're opening for a remodel, or original cast-iron drain lines that fail the moment you start adding bathroom fixtures. The Pacific Northwest's persistent moisture means that a renovation exposing a wall cavity often reveals years of slow water intrusion that nobody knew was there.
 
-Then there's the rain. Seattle averages around 38 inches of precipitation annually, and a significant share of it falls between October and March — exactly when contractors are working inside homes where exterior walls may be temporarily open. A general contractor here needs a realistic plan for sequencing work around weather windows, not just a schedule built for Phoenix. We've been doing this work in Western Washington long enough to know how to protect an open structure during a wet spell and keep a project moving without gambling your home's envelope on a clear-weather forecast.
+Then there's the rain. Seattle averages around 38 inches of precipitation annually, and a significant share of it falls between October and March, exactly when contractors are working inside homes where exterior walls may be temporarily open. A general contractor here needs a realistic plan for sequencing work around weather windows, not just a schedule built for Phoenix. We've been doing this work in Western Washington long enough to know how to protect an open structure during a wet spell and keep a project moving without gambling your home's envelope on a clear-weather forecast.
 
 ## What Our Renovation and General Contracting Process Looks Like in Seattle
 
-Every project starts with a thorough walkthrough — not a quick visual scan, but a systematic assessment that looks at what's visible and what the walls, floors, and ceilings are hiding. If you've had water damage, fire damage, or mold remediation completed, we review the remediation documentation before we frame a single wall. Rebuilding over an incomplete remediation is one of the most expensive mistakes a homeowner can make.
+Every project starts with a thorough walkthrough, not a quick visual scan, but a systematic assessment that looks at what's visible and what the walls, floors, and ceilings are hiding. If you've had water damage, fire damage, or mold remediation completed, we review the remediation documentation before we frame a single wall. Rebuilding over an incomplete remediation is one of the most expensive mistakes a homeowner can make.
 
 From there, the process moves in a clear sequence:
 
-**Scope and permitting.** We pull all required permits through the Seattle Department of Construction and Inspections. Permit timelines in Seattle can run longer than in surrounding jurisdictions — we build that into the project schedule from day one so it doesn't surprise you later.
+**Scope and permitting.** We pull all required permits through the Seattle Department of Construction and Inspections. Permit timelines in Seattle can run longer than in surrounding jurisdictions, we build that into the project schedule from day one so it doesn't surprise you later.
 
 **Structural and rough work.** Framing, rough plumbing, electrical, and HVAC are coordinated so trades aren't waiting on each other. For post-damage rebuilds, this phase often includes replacing structural members, subfloor, and sheathing that were damaged or removed during remediation.
 
@@ -42,20 +42,20 @@ From there, the process moves in a clear sequence:
 
 **Final inspection and walkthrough.** We don't hand over a project until it passes all required inspections and you've walked every room with us.
 
-We're licensed through the Washington State Department of Labor & Industries (General Contractor Certificate of Registration #NATIORC792M6), which means every project carries the accountability that comes with a state-registered contractor — not a handshake and a hope.
+We're licensed through the Washington State Department of Labor & Industries (General Contractor Certificate of Registration #NATIORC792M6), which means every project carries the accountability that comes with a state-registered contractor, not a handshake and a hope.
 
 ## Insurance Claims and Post-Damage Rebuilds
 
-A large share of the renovation work we do in Seattle starts with an insurance claim — a pipe that failed during a cold snap, a kitchen fire, storm damage that let water into a roof assembly. Insurance-related rebuilds have a different rhythm than elective remodels. There are adjuster timelines, scope-of-loss documents, and supplement negotiations that can stall a project if you're working with a contractor who doesn't know the process.
+A large share of the renovation work we do in Seattle starts with an insurance claim, a pipe that failed during a cold snap, a kitchen fire, storm damage that let water into a roof assembly. Insurance-related rebuilds have a different rhythm than elective remodels. There are adjuster timelines, scope-of-loss documents, and supplement negotiations that can stall a project if you're working with a contractor who doesn't know the process.
 
-We work directly with insurance carriers and adjusters on your behalf. We document scope, provide line-item estimates in the format adjusters expect, and handle supplement requests when the initial payout doesn't cover the full rebuild. You're still the policyholder — the decisions are yours — but you don't have to translate between your contractor and your insurance company. That's a role we've filled on hundreds of claims across King and Pierce counties.
+We work directly with insurance carriers and adjusters on your behalf. We document scope, provide line-item estimates in the format adjusters expect, and handle supplement requests when the initial payout doesn't cover the full rebuild. You're still the policyholder, the decisions are yours, but you don't have to translate between your contractor and your insurance company. That's a role we've filled on hundreds of claims across King and Pierce counties.
 
 ## Response Times Across Seattle
 
-Our headquarters is in Federal Way, roughly 25 miles south of downtown Seattle. Under normal traffic conditions, that puts a project manager or estimator at most Seattle addresses within 60 to 90 minutes of your call. For neighborhoods closer to the Federal Way corridor — Burien, White Center, Tukwila, Rainier Valley — response is often faster. For projects in North Seattle, Shoreline, or Edmonds, we account for I-5 traffic realistically and can often dispatch from a crew already working in the area.
+Our headquarters is in Federal Way, roughly 25 miles south of downtown Seattle. Under normal traffic conditions, that puts a project manager or estimator at most Seattle addresses within 60 to 90 minutes of your call. For neighborhoods closer to the Federal Way corridor, Burien, White Center, Tukwila, Rainier Valley, response is often faster. For projects in North Seattle, Shoreline, or Edmonds, we account for I-5 traffic realistically and can often dispatch from a crew already working in the area.
 
-For active damage situations where every hour matters — a home still wet after a flood, a structure exposed after a fire — speed of assessment directly affects the scope of the rebuild. The faster we can document conditions and begin coordinating trades, the less secondary damage accumulates.
+For active damage situations where every hour matters, a home still wet after a flood, a structure exposed after a fire, speed of assessment directly affects the scope of the rebuild. The faster we can document conditions and begin coordinating trades, the less secondary damage accumulates.
 
 ---
 
-If you're staring at a damaged room, a half-finished project, or a renovation that's been on the list for too long, the next step is a straightforward conversation. Reach the National Restoration Construction team at **(206) 883-0333** — we'll tell you honestly what the project involves, what it's likely to cost, and how long it will take.
+If you're staring at a damaged room, a half-finished project, or a renovation that's been on the list for too long, the next step is a straightforward conversation. Reach the National Restoration Construction team at **(206) 883-0333**, we'll tell you honestly what the project involves, what it's likely to cost, and how long it will take.

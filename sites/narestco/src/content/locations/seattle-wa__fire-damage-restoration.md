@@ -20,23 +20,23 @@ state: "WA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-The smoke smell hits you before you even open the front door. If you're standing in front of a fire-damaged Seattle home right now — or you just got the call from a tenant — the next few hours matter more than most people realize. Soot and smoke residue begin bonding to walls, ceilings, and HVAC surfaces within minutes of a fire. Water from suppression efforts creates a secondary damage clock running at the same time. National Restoration Construction dispatches from Federal Way and can have a crew on-site across most of Seattle in 60–90 minutes, day or night.
+The smoke smell hits you before you even open the front door. If you're standing in front of a fire-damaged Seattle home right now, or you just got the call from a tenant, the next few hours matter more than most people realize. Soot and smoke residue begin bonding to walls, ceilings, and HVAC surfaces within minutes of a fire. Water from suppression efforts creates a secondary damage clock running at the same time. National Restoration Construction dispatches from Federal Way and can have a crew on-site across most of Seattle in 60–90 minutes, day or night.
 
 ## What Fire and Smoke Restoration Looks Like, Step by Step
 
-Every post-fire restoration job starts with a walk-through to separate what's salvageable from what isn't — and to document everything for your insurance adjuster before a single item moves. That documentation step alone has saved Seattle homeowners thousands of dollars in disputed claims.
+Every post-fire restoration job starts with a walk-through to separate what's salvageable from what isn't, and to document everything for your insurance adjuster before a single item moves. That documentation step alone has saved Seattle homeowners thousands of dollars in disputed claims.
 
 From there, the process follows a sequence that can't be safely shortcut:
 
-1. **Board-up and tarping** — Broken windows, compromised roof sections, and open walls get secured immediately. Seattle's marine climate means rain can follow a fire within hours, turning a smoke problem into a mold problem.
-2. **Water extraction and drying** — Firefighting water soaks into subfloors and wall cavities. We use truck-mounted extraction and industrial air movers to pull moisture before it colonizes.
-3. **Soot and smoke residue removal** — Dry soot, wet soot, and protein residue (common in kitchen fires) each require different cleaning chemistry. HEPA-filtered air scrubbers run continuously to capture airborne particulates.
-4. **Deodorization** — Thermal fogging and hydroxyl generators neutralize odor molecules embedded in porous materials — drywall, insulation, wood framing — rather than masking them.
-5. **Structural assessment and repair** — Charred framing, compromised load-bearing elements, and heat-damaged electrical systems get evaluated before any cosmetic work begins. Our General Contractor license (WA L&I #NATIORC792M6) means we handle structural fire damage repair and reconstruction under one roof, so you're not coordinating between three separate contractors.
+1. **Board-up and tarping**, Broken windows, compromised roof sections, and open walls get secured immediately. Seattle's marine climate means rain can follow a fire within hours, turning a smoke problem into a mold problem.
+2. **Water extraction and drying**, Firefighting water soaks into subfloors and wall cavities. We use truck-mounted extraction and industrial air movers to pull moisture before it colonizes.
+3. **Soot and smoke residue removal**, Dry soot, wet soot, and protein residue (common in kitchen fires) each require different cleaning chemistry. HEPA-filtered air scrubbers run continuously to capture airborne particulates.
+4. **Deodorization**, Thermal fogging and hydroxyl generators neutralize odor molecules embedded in porous materials, drywall, insulation, wood framing, rather than masking them.
+5. **Structural assessment and repair**, Charred framing, compromised load-bearing elements, and heat-damaged electrical systems get evaluated before any cosmetic work begins. Our General Contractor license (WA L&I #NATIORC792M6) means we handle structural fire damage repair and reconstruction under one roof, so you're not coordinating between three separate contractors.
 
 ## Why Seattle Homes Face Specific Fire Damage Risks
 
-Seattle's housing stock skews older — a significant portion of single-family homes in neighborhoods like Ballard, Columbia City, and Beacon Hill were built before 1960, when electrical systems weren't designed for modern load demands. Knob-and-tube wiring, inadequate panel capacity, and older gas appliance connections are recurring factors in residential fires across King County.
+Seattle's housing stock skews older, a significant portion of single-family homes in neighborhoods like Ballard, Columbia City, and Beacon Hill were built before 1960, when electrical systems weren't designed for modern load demands. Knob-and-tube wiring, inadequate panel capacity, and older gas appliance connections are recurring factors in residential fires across King County.
 
 The region's climate adds a layer of complexity that out-of-state restoration companies often underestimate. Western Washington's wet winters mean that fire-damaged structures with any roof or wall penetration can absorb moisture rapidly. A job that might air-dry in Phoenix needs active drying equipment here. We've worked in Seattle and the surrounding Puget Sound area since 2004, and that regional experience shapes how we scope and sequence every job.
 
@@ -56,10 +56,10 @@ We work with all major carriers and have experience with the specific documentat
 
 ## Response Times Across Seattle
 
-Our Federal Way headquarters puts us roughly 25–35 minutes from most Seattle neighborhoods under normal traffic conditions. For South Seattle — Rainier Valley, Georgetown, South Park — response times are often faster. For North Seattle neighborhoods like Northgate, Lake City, or Crown Hill, expect 45–60 minutes depending on I-5 conditions.
+Our Federal Way headquarters puts us roughly 25–35 minutes from most Seattle neighborhoods under normal traffic conditions. For South Seattle, Rainier Valley, Georgetown, South Park, response times are often faster. For North Seattle neighborhoods like Northgate, Lake City, or Crown Hill, expect 45–60 minutes depending on I-5 conditions.
 
-We answer the phone 24 hours a day. When you reach us, you're talking to someone who can dispatch a crew — not a call center routing your message to a queue. If you're in an active emergency, (206) 883-0333 connects you directly.
+We answer the phone 24 hours a day. When you reach us, you're talking to someone who can dispatch a crew, not a call center routing your message to a queue. If you're in an active emergency, (206) 883-0333 connects you directly.
 
 ---
 
-Fire damage doesn't pause while you figure out the next step. The sooner the structure is secured, the smoke residue is neutralized, and the moisture is extracted, the more of your home — and your claim — can be saved. Reach National Restoration Construction at **(206) 883-0333** any time, and we'll have eyes on your property as fast as Seattle traffic allows.
+Fire damage doesn't pause while you figure out the next step. The sooner the structure is secured, the smoke residue is neutralized, and the moisture is extracted, the more of your home, and your claim, can be saved. Reach National Restoration Construction at **(206) 883-0333** any time, and we'll have eyes on your property as fast as Seattle traffic allows.

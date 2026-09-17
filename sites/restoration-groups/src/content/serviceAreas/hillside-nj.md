@@ -19,23 +19,23 @@ state: "NJ"
 primary: false
 rendered: true
 ---
-When a pipe bursts in a Saybrook two-family at 2 a.m. or the Elizabeth River backs into a Coe's Corner basement during a summer downpour, The Restoration Group responds — water extraction, structural drying, mold containment, fire and smoke cleanup, and full reconstruction, all handled by one crew from first call through the final walk-through. We cover every block of Hillside's 07205 ZIP code and bill most major insurance carriers directly so you are not left managing paperwork while your floors are still wet.
+When a pipe bursts in a Saybrook two-family at 2 a.m. or the Elizabeth River backs into a Coe's Corner basement during a summer downpour, The Restoration Group responds, water extraction, structural drying, mold containment, fire and smoke cleanup, and full reconstruction, all handled by one crew from first call through the final walk-through. We cover every block of Hillside's 07205 ZIP code and bill most major insurance carriers directly so you are not left managing paperwork while your floors are still wet.
 
 ## Restoration emergencies common in Hillside
 
-Hillside's housing stock tells the story before you even open the door. The township is dense with 1920s–1950s colonials, postwar capes, and side-by-side two-families — most of them carrying original galvanized supply lines that have been narrowing with mineral scale for decades and cast-iron drains that crack quietly until they don't. Finished and semi-finished basements are nearly universal, which means when those pipes fail, the water lands on living space, not bare concrete.
+Hillside's housing stock tells the story before you even open the door. The township is dense with 1920s–1950s colonials, postwar capes, and side-by-side two-families, most of them carrying original galvanized supply lines that have been narrowing with mineral scale for decades and cast-iron drains that crack quietly until they don't. Finished and semi-finished basements are nearly universal, which means when those pipes fail, the water lands on living space, not bare concrete.
 
-The Elizabeth River crosses the eastern side of town, and the low ground around it floods during hard rain. Tropical Storm Ida in 2021 drove river overflow and sewer backups into basements across Hillside Center and Winans, leaving homeowners dealing with contaminated water that required full Category 3 protocols — not just a shop-vac and a fan. Sump-pump failures during summer thunderstorms are a steady pattern. The Route 22 retail corridor and the Conant Street industrial area add a separate layer of commercial calls: sprinkler discharges, roof leaks after nor'easters, and overnight losses in warehouses and strip-mall units that need a crew on-site before the next business day.
+The Elizabeth River crosses the eastern side of town, and the low ground around it floods during hard rain. Tropical Storm Ida in 2021 drove river overflow and sewer backups into basements across Hillside Center and Winans, leaving homeowners dealing with contaminated water that required full Category 3 protocols, not just a shop-vac and a fan. Sump-pump failures during summer thunderstorms are a steady pattern. The Route 22 retail corridor and the Conant Street industrial area add a separate layer of commercial calls: sprinkler discharges, roof leaks after nor'easters, and overnight losses in warehouses and strip-mall units that need a crew on-site before the next business day.
 
 ## Services we provide in Hillside
 
 ### Water damage restoration
 
-Water damage in Hillside most often starts below grade. A failed sump pump in a Conant neighborhood cape or a cracked galvanized supply in a Saybrook two-family can saturate wall cavities and subfloor assemblies within hours. We extract standing water, place drying equipment calibrated to the actual moisture readings in your walls and framing, and document everything for your insurance adjuster — including photos of affected materials and moisture logs.
+Water damage in Hillside most often starts below grade. A failed sump pump in a Conant neighborhood cape or a cracked galvanized supply in a Saybrook two-family can saturate wall cavities and subfloor assemblies within hours. We extract standing water, place drying equipment calibrated to the actual moisture readings in your walls and framing, and document everything for your insurance adjuster, including photos of affected materials and moisture logs.
 
 ### Mold remediation
 
-Hillside's older building envelopes — brick veneer, plaster walls, minimal vapor barriers — hold moisture longer than newer construction. After any water event, mold can begin colonizing porous materials within 24 to 48 hours. We contain affected areas, remove compromised materials following established industry protocols, and treat structural surfaces before rebuilding. We do not cut corners on containment in occupied two-families or multi-unit buildings.
+Hillside's older building envelopes, brick veneer, plaster walls, minimal vapor barriers, hold moisture longer than newer construction. After any water event, mold can begin colonizing porous materials within 24 to 48 hours. We contain affected areas, remove compromised materials following established industry protocols, and treat structural surfaces before rebuilding. We do not cut corners on containment in occupied two-families or multi-unit buildings.
 
 ### Fire and smoke damage restoration
 
@@ -43,19 +43,19 @@ Smoke residue from a kitchen fire in a Hillside colonial does not stay in the ki
 
 ### Commercial and industrial losses
 
-The Route 22 corridor and Conant Street industrial zone generate a different category of loss — large square footage, tenant obligations, and tight timelines. Sprinkler discharges can dump thousands of gallons across warehouse flooring overnight. We deploy commercial-scale drying equipment and coordinate directly with property managers and carriers to minimize business interruption.
+The Route 22 corridor and Conant Street industrial zone generate a different category of loss, large square footage, tenant obligations, and tight timelines. Sprinkler discharges can dump thousands of gallons across warehouse flooring overnight. We deploy commercial-scale drying equipment and coordinate directly with property managers and carriers to minimize business interruption.
 
 ### Reconstruction
 
-Once the damage is dry and documented, we handle the rebuild — framing, drywall, flooring, painting — so you are not managing a separate general contractor while your insurance claim is still open.
+Once the damage is dry and documented, we handle the rebuild, framing, drywall, flooring, painting, so you are not managing a separate general contractor while your insurance claim is still open.
 
 ## Coverage and how fast we can get there
 
-The Restoration Group is headquartered in Kenilworth, which sits directly adjacent to Hillside's western boundary. The drive from our facility to Hillside Center or the Winans neighborhood runs under three miles by way of North Michigan Avenue or Boulevard. Reaching Coe's Corner or the Conant Street area adds only a few minutes. Because we operate 24/7, a call at any hour connects you with a live dispatcher who can route a crew — not a voicemail box that gets checked in the morning. We serve the full 07205 ZIP code, including properties near Evergreen Cemetery and along the Route 22 corridor.
+The Restoration Group is headquartered in Kenilworth, which sits directly adjacent to Hillside's western boundary. The drive from our facility to Hillside Center or the Winans neighborhood runs under three miles by way of North Michigan Avenue or Boulevard. Reaching Coe's Corner or the Conant Street area adds only a few minutes. Because we operate 24/7, a call at any hour connects you with a live dispatcher who can route a crew, not a voicemail box that gets checked in the morning. We serve the full 07205 ZIP code, including properties near Evergreen Cemetery and along the Route 22 corridor.
 
 ## Building stock, site conditions, and permits in Hillside
 
-Behind the plaster in these houses you usually find wood lath, balloon or early platform framing, and cavities with little or no vapor barrier — assemblies that hold water long after the surface feels dry, so drying means opening and metering rather than guessing. Anything built before 1978 gets treated as lead-paint suspect, and pre-1980 boiler and pipe insulation, floor tile, and tile mastic are assumed asbestos-containing until tested. Older homes here also carry knob-and-tube remnants and legacy oil-tank history from coal and oil heat conversions.
+Behind the plaster in these houses you usually find wood lath, balloon or early platform framing, and cavities with little or no vapor barrier, assemblies that hold water long after the surface feels dry, so drying means opening and metering rather than guessing. Anything built before 1978 gets treated as lead-paint suspect, and pre-1980 boiler and pipe insulation, floor tile, and tile mastic are assumed asbestos-containing until tested. Older homes here also carry knob-and-tube remnants and legacy oil-tank history from coal and oil heat conversions.
 
 The ground is Piedmont clay and urban fill over shale, which drains slowly and pushes water toward foundation walls. Frost depth in this part of New Jersey means footings sit well below grade.
 

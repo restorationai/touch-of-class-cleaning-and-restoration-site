@@ -17,29 +17,29 @@ published_at: "2026-07-20"
 services: ["water-damage-restoration", "fire-damage-restoration", "mold-remediation"]
 rendered: true
 ---
-Choosing the wrong restoration company after a flood, fire, or mold discovery can cost you more than the original damage. Contractors who cut corners on drying, skip proper containment, or disappear mid-job leave homeowners with recurring mold, failed insurance claims, and repair bills that dwarf what a reputable crew would have charged. The short answer: vet credentials before you sign anything, get the scope of work in writing, and never let urgency — yours or theirs — rush you past basic due diligence. Here's how to do that without getting taken.
+Choosing the wrong restoration company after a flood, fire, or mold discovery can cost you more than the original damage. Contractors who cut corners on drying, skip proper containment, or disappear mid-job leave homeowners with recurring mold, failed insurance claims, and repair bills that dwarf what a reputable crew would have charged. The short answer: vet credentials before you sign anything, get the scope of work in writing, and never let urgency, yours or theirs, rush you past basic due diligence. Here's how to do that without getting taken.
 
 ## Why the Restoration Industry Attracts Bad Actors
 
 Restoration work sits at an uncomfortable intersection: property owners are stressed, the damage is often invisible (water behind walls, smoke residue in ductwork, mold inside a crawl space), and insurance money is flowing. That combination draws contractors who know you won't be inspecting their work closely.
 
-After a major weather event in central North Carolina — a heavy rain that backs up a crawl space, a summer storm that drives water through a roof — you'll see out-of-state trucks circling neighborhoods within 48 hours. Some are legitimate companies expanding capacity. Others are storm chasers with no local license, no insurance, and no intention of being reachable in six months when the mold comes back.
+After a major weather event in central North Carolina, a heavy rain that backs up a crawl space, a summer storm that drives water through a roof, you'll see out-of-state trucks circling neighborhoods within 48 hours. Some are legitimate companies expanding capacity. Others are storm chasers with no local license, no insurance, and no intention of being reachable in six months when the mold comes back.
 
 This doesn't mean every unfamiliar name is a scam. It means you need a short checklist you can run through even when you're standing in two inches of water.
 
 ## The Five-Question Checklist Before You Sign Anything
 
-Run through these before you authorize any work — even emergency work:
+Run through these before you authorize any work, even emergency work:
 
 1. **Are they licensed and insured in North Carolina?** Ask for their general contractor license number and verify it at the NC Licensing Board for General Contractors (nclbgc.org). Ask for a certificate of insurance naming you as an additional insured. A legitimate company hands this over without hesitation.
 
-2. **Do they hold IICRC certification?** The Institute of Inspection, Cleaning and Restoration Certification sets the technical standards the industry runs on — the S500 for water damage, the S520 for mold remediation. Technicians who've completed this training understand psychrometrics, containment protocols, and documentation in a way that matters when your adjuster reviews the claim.
+2. **Do they hold IICRC certification?** The Institute of Inspection, Cleaning and Restoration Certification sets the technical standards the industry runs on, the S500 for water damage, the S520 for mold remediation. Technicians who've completed this training understand psychrometrics, containment protocols, and documentation in a way that matters when your adjuster reviews the claim.
 
-3. **Can they show you a written scope of work before they start?** "We'll dry it out" is not a scope. A real scope names the affected materials, the equipment being deployed, the target moisture readings, and the estimated timeline. Water damage restoration, for example, typically runs three to five days of active drying — if someone promises one-day turnaround on a soaked subfloor, ask exactly how.
+3. **Can they show you a written scope of work before they start?** "We'll dry it out" is not a scope. A real scope names the affected materials, the equipment being deployed, the target moisture readings, and the estimated timeline. Water damage restoration, for example, typically runs three to five days of active drying, if someone promises one-day turnaround on a soaked subfloor, ask exactly how.
 
-4. **Do they bill insurance directly, or do they require you to pay upfront and seek reimbursement?** Most established restoration companies work directly with carriers and can document losses in the format adjusters expect — moisture logs, photo documentation, line-item estimates. If a contractor wants full payment in cash before they'll touch anything, that's a flag.
+4. **Do they bill insurance directly, or do they require you to pay upfront and seek reimbursement?** Most established restoration companies work directly with carriers and can document losses in the format adjusters expect, moisture logs, photo documentation, line-item estimates. If a contractor wants full payment in cash before they'll touch anything, that's a flag.
 
-5. **Do they have verifiable local reviews?** Google, the Better Business Bureau, and Angi all let you filter by location. Look for reviews that describe specific jobs — "they found moisture behind our kitchen cabinets that the first company missed" — not just star ratings. A pattern of complaints about billing disputes or work that had to be redone tells you more than an average score.
+5. **Do they have verifiable local reviews?** Google, the Better Business Bureau, and Angi all let you filter by location. Look for reviews that describe specific jobs, "they found moisture behind our kitchen cabinets that the first company missed", not just star ratings. A pattern of complaints about billing disputes or work that had to be redone tells you more than an average score.
 
 ## Red Flags During the Job Itself
 
@@ -48,17 +48,17 @@ Even after you've hired someone, stay engaged. Here's what to watch for once wor
 - **Equipment placed and then ignored.** Industrial air movers and dehumidifiers need to be monitored and repositioned as drying progresses. If the crew drops equipment on day one and you don't see them again until day five, ask for daily moisture readings in writing.
 - **No containment during mold remediation.** Disturbing mold colonies without negative air pressure and physical barriers spreads spores to unaffected areas. If a crew starts pulling out moldy drywall without plastic sheeting and an air scrubber running, stop the job.
 - **Pressure to skip the adjuster.** Some contractors will offer to waive your deductible if you don't involve your insurance company. This is insurance fraud, and it leaves you personally liable if the repair is later found to be deficient.
-- **Vague answers about what's being demolished.** For fire damage restoration, the question of what can be cleaned versus what must be removed is technical and consequential. Smoke residue penetrates porous materials differently than it does hard surfaces. A contractor who can't explain their decision-making process — why they're keeping that drywall but removing that insulation — probably isn't making decisions based on science.
+- **Vague answers about what's being demolished.** For fire damage restoration, the question of what can be cleaned versus what must be removed is technical and consequential. Smoke residue penetrates porous materials differently than it does hard surfaces. A contractor who can't explain their decision-making process, why they're keeping that drywall but removing that insulation, probably isn't making decisions based on science.
 
 ## What the Restoration Process Actually Looks Like
 
 Understanding the legitimate process helps you spot shortcuts.
 
-**Water damage** follows a defined arc: extract standing water, document moisture readings throughout the structure, deploy drying equipment calibrated to the volume and material types involved, monitor daily until readings return to baseline, then assess what materials need replacement. The IICRC S500 standard governs this process. Skipping the monitoring phase — pulling equipment early because the surface *feels* dry — is how you end up with mold colonies inside walls three weeks later.
+**Water damage** follows a defined arc: extract standing water, document moisture readings throughout the structure, deploy drying equipment calibrated to the volume and material types involved, monitor daily until readings return to baseline, then assess what materials need replacement. The IICRC S500 standard governs this process. Skipping the monitoring phase, pulling equipment early because the surface *feels* dry, is how you end up with mold colonies inside walls three weeks later.
 
-**Fire damage** is more complex because it combines structural damage, smoke residue, and water damage from suppression efforts. Smoke behaves like a gas — it travels through wall cavities, settles into HVAC systems, and bonds to cool surfaces. Effective fire restoration involves air quality testing, content cleaning or disposal decisions, and odor neutralization that goes beyond surface wiping. The smell of smoke residue months after a "cleaned" fire is a sign the job wasn't finished.
+**Fire damage** is more complex because it combines structural damage, smoke residue, and water damage from suppression efforts. Smoke behaves like a gas, it travels through wall cavities, settles into HVAC systems, and bonds to cool surfaces. Effective fire restoration involves air quality testing, content cleaning or disposal decisions, and odor neutralization that goes beyond surface wiping. The smell of smoke residue months after a "cleaned" fire is a sign the job wasn't finished.
 
-**Mold remediation** begins with identifying the moisture source, because mold without a fixed moisture source will return regardless of how thoroughly the existing growth is removed. A reputable remediation company will recommend — and often require — that the source be corrected before or during remediation. If someone offers to remove the mold without discussing the underlying moisture problem, they're selling you a temporary fix.
+**Mold remediation** begins with identifying the moisture source, because mold without a fixed moisture source will return regardless of how thoroughly the existing growth is removed. A reputable remediation company will recommend, and often require, that the source be corrected before or during remediation. If someone offers to remove the mold without discussing the underlying moisture problem, they're selling you a temporary fix.
 
 ## When to Call a Professional Immediately
 
@@ -70,10 +70,10 @@ Some situations don't allow for extended research:
 - Smoke or soot damage to HVAC systems, which can distribute contamination throughout the structure
 - Any sewage backup, which involves Category 3 water and requires specific handling protocols
 
-In these cases, call a professional and ask your five questions while they're en route — not after they've started work.
+In these cases, call a professional and ask your five questions while they're en route, not after they've started work.
 
 ## Making a Decision You Won't Regret
 
-The homeowners who end up with the worst outcomes aren't the ones who faced the worst damage — they're the ones who hired the first truck that showed up, signed without reading, or assumed insurance would sort out any problems later. A few hours of vetting, even in a stressful situation, is almost always worth it.
+The homeowners who end up with the worst outcomes aren't the ones who faced the worst damage, they're the ones who hired the first truck that showed up, signed without reading, or assumed insurance would sort out any problems later. A few hours of vetting, even in a stressful situation, is almost always worth it.
 
 If you're dealing with water intrusion, fire damage, or a mold discovery in the Middlesex area and want to talk through your situation before committing to anything, Go Green Restoration of NC is reachable at (919) 906-5473. Sometimes the most useful call is just a conversation about what you're seeing and what your options are.

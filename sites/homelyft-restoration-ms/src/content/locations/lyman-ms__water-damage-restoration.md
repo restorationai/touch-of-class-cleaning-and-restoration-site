@@ -20,31 +20,31 @@ state: "MS"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
-Lyman sits in Harrison County where the Gulf Coast's humidity rarely lets up — even a slow pipe drip behind a cabinet can turn into a mold-ready environment within 48 to 72 hours when summer dew points hover in the low 70s. That combination of subtropical heat, older slab-on-grade construction common throughout this part of the county, and soil that drains poorly after heavy rain events means water damage here tends to spread faster and deeper than homeowners expect. HomeLyft Restoration MS responds out of Gulfport and handles the full scope: water extraction, structural drying, moisture mapping, and controlled demolition of unsalvageable materials — all documented for your insurance carrier.
+Lyman sits in Harrison County where the Gulf Coast's humidity rarely lets up, even a slow pipe drip behind a cabinet can turn into a mold-ready environment within 48 to 72 hours when summer dew points hover in the low 70s. That combination of subtropical heat, older slab-on-grade construction common throughout this part of the county, and soil that drains poorly after heavy rain events means water damage here tends to spread faster and deeper than homeowners expect. HomeLyft Restoration MS responds out of Gulfport and handles the full scope: water extraction, structural drying, moisture mapping, and controlled demolition of unsalvageable materials, all documented for your insurance carrier.
 
 ## Why Lyman Properties See Water Damage Issues
 
-Harrison County's rainfall averages push past 65 inches a year, and Lyman's position inland from the coast doesn't offer much shelter from the slow-moving storm systems that stall over South Mississippi in spring and fall. Saturated ground raises the water table quickly, and homes built on slabs — a dominant construction style in this area — have no crawl space buffer. When the soil around a foundation becomes fully saturated, water finds its way through expansion joints, utility penetrations, and hairline cracks in the slab itself.
+Harrison County's rainfall averages push past 65 inches a year, and Lyman's position inland from the coast doesn't offer much shelter from the slow-moving storm systems that stall over South Mississippi in spring and fall. Saturated ground raises the water table quickly, and homes built on slabs, a dominant construction style in this area, have no crawl space buffer. When the soil around a foundation becomes fully saturated, water finds its way through expansion joints, utility penetrations, and hairline cracks in the slab itself.
 
-Older homes in the Lyman area also tend to have galvanized supply lines that corrode from the inside out. The failure mode is slow at first — a pinhole leak inside a wall — and by the time a stain appears on drywall, the framing and insulation behind it may have been wet for weeks. Gulf Coast humidity accelerates that timeline considerably compared to drier climates.
+Older homes in the Lyman area also tend to have galvanized supply lines that corrode from the inside out. The failure mode is slow at first, a pinhole leak inside a wall, and by the time a stain appears on drywall, the framing and insulation behind it may have been wet for weeks. Gulf Coast humidity accelerates that timeline considerably compared to drier climates.
 
 ## Our Water Damage Restoration Process in Lyman
 
-Every job starts with a thorough moisture assessment using thermal imaging cameras and calibrated moisture meters. In slab-on-grade homes, we pay particular attention to flooring assemblies — tile, vinyl plank, and engineered hardwood all trap water differently, and the adhesive layers underneath can hold moisture long after the surface feels dry to the touch.
+Every job starts with a thorough moisture assessment using thermal imaging cameras and calibrated moisture meters. In slab-on-grade homes, we pay particular attention to flooring assemblies, tile, vinyl plank, and engineered hardwood all trap water differently, and the adhesive layers underneath can hold moisture long after the surface feels dry to the touch.
 
-Once we have a complete picture of the affected area, we deploy truck-mounted extraction equipment to pull standing water, followed by industrial air movers and low-grain refrigerant dehumidifiers sized for the actual cubic footage of the space. Drying is monitored daily with documented moisture readings so you and your adjuster can see the progression. We dry to IICRC S500 standard — not until the floor "feels dry," but until readings confirm the materials have returned to acceptable moisture content for this climate.
+Once we have a complete picture of the affected area, we deploy truck-mounted extraction equipment to pull standing water, followed by industrial air movers and low-grain refrigerant dehumidifiers sized for the actual cubic footage of the space. Drying is monitored daily with documented moisture readings so you and your adjuster can see the progression. We dry to IICRC S500 standard, not until the floor "feels dry," but until readings confirm the materials have returned to acceptable moisture content for this climate.
 
-If structural materials — framing, subfloor, drywall — have absorbed water beyond the drying threshold, we perform controlled demolition to remove only what cannot be saved. Selective demo, rather than wholesale tear-out, keeps reconstruction costs lower and speeds up the overall timeline.
+If structural materials, framing, subfloor, drywall, have absorbed water beyond the drying threshold, we perform controlled demolition to remove only what cannot be saved. Selective demo, rather than wholesale tear-out, keeps reconstruction costs lower and speeds up the overall timeline.
 
 ## Reaching Lyman from Gulfport
 
-HomeLyft's Gulfport base puts Lyman within a short drive via US-49 North, one of the primary corridors connecting the coast to inland Harrison County communities. Scheduling is handled during business hours — call +12282845200 to get a crew dispatched and to confirm the fastest routing to your address based on current conditions on 49 or the alternate surface streets through the county.
+HomeLyft's Gulfport base puts Lyman within a short drive via US-49 North, one of the primary corridors connecting the coast to inland Harrison County communities. Scheduling is handled during business hours, call +12282845200 to get a crew dispatched and to confirm the fastest routing to your address based on current conditions on 49 or the alternate surface streets through the county.
 
 ## Lyman Insurance Coordination
 
 Water damage claims in Mississippi follow a documentation-heavy process, and carriers have become increasingly specific about what they require before approving drying and demolition scopes. HomeLyft prepares moisture logs, photo documentation of all affected materials, and a written scope of loss formatted to align with what most major carriers expect. We bill insurance directly where the policy allows, which means you are not fronting the full restoration cost while waiting for reimbursement.
 
-If your policy includes an anti-concurrent causation clause — common in Gulf Coast homeowner policies after years of storm litigation — we can help identify which portions of the loss are clearly covered and flag anything that may need adjuster review before work begins.
+If your policy includes an anti-concurrent causation clause, common in Gulf Coast homeowner policies after years of storm litigation, we can help identify which portions of the loss are clearly covered and flag anything that may need adjuster review before work begins.
 
 ## Local Note
 

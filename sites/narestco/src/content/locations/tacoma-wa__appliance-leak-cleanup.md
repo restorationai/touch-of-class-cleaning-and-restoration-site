@@ -20,11 +20,11 @@ state: "WA"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
-Water spreading across your kitchen floor from a burst dishwasher line or a refrigerator ice maker that's been silently dripping for days — either way, the clock is already running. Within 24 to 48 hours, moisture trapped under Tacoma's older hardwood floors or behind vinyl-backed cabinetry can begin supporting mold growth. National Restoration Construction has been responding to appliance leak emergencies in the South Sound since 2004, and our Federal Way headquarters puts us roughly 20 minutes from most Tacoma neighborhoods. If you're reading this while water is still moving, pick up the phone now: **(206) 883-0333**.
+Water spreading across your kitchen floor from a burst dishwasher line or a refrigerator ice maker that's been silently dripping for days, either way, the clock is already running. Within 24 to 48 hours, moisture trapped under Tacoma's older hardwood floors or behind vinyl-backed cabinetry can begin supporting mold growth. National Restoration Construction has been responding to appliance leak emergencies in the South Sound since 2004, and our Federal Way headquarters puts us roughly 20 minutes from most Tacoma neighborhoods. If you're reading this while water is still moving, pick up the phone now: **(206) 883-0333**.
 
 ## What Tacoma Appliance Leak Emergencies Actually Look Like
 
-Tacoma's housing stock tells a particular story. A large share of the city's homes — especially in neighborhoods like Proctor, North End, and the Hilltop — were built between the 1920s and 1960s. That means original hardwood subfloors, plaster walls with minimal vapor barriers, and plumbing that's been patched and re-patched over decades. When a washing machine flood soaks into those materials, water doesn't just sit on the surface. It wicks upward into baseboards, travels along subfloor seams, and pools in crawl spaces beneath first-floor laundry rooms.
+Tacoma's housing stock tells a particular story. A large share of the city's homes, especially in neighborhoods like Proctor, North End, and the Hilltop, were built between the 1920s and 1960s. That means original hardwood subfloors, plaster walls with minimal vapor barriers, and plumbing that's been patched and re-patched over decades. When a washing machine flood soaks into those materials, water doesn't just sit on the surface. It wicks upward into baseboards, travels along subfloor seams, and pools in crawl spaces beneath first-floor laundry rooms.
 
 Newer construction in the Eastside and South Tacoma corridors presents its own challenges: laminate flooring that traps water underneath, and engineered wood that swells and delaminates faster than solid wood. A refrigerator leak cleanup in a newer build can look deceptively minor on the surface while significant moisture is already migrating under the flooring toward an adjacent room.
 
@@ -32,7 +32,7 @@ Tacoma's wet winters compound the problem. When outdoor humidity is already at 8
 
 ## Our Appliance Leak Cleanup Process in Tacoma
 
-When our crew arrives — typically within 60 to 90 minutes of your call from our Federal Way location — the first priority is stopping any active water source and getting eyes on the full extent of the damage. We use thermal imaging cameras and non-invasive moisture meters to map exactly where water has traveled, including areas you can't see. That matters because an ice maker line leak behind a refrigerator can saturate the wall cavity all the way to the adjacent bathroom without leaving a visible stain for days.
+When our crew arrives, typically within 60 to 90 minutes of your call from our Federal Way location, the first priority is stopping any active water source and getting eyes on the full extent of the damage. We use thermal imaging cameras and non-invasive moisture meters to map exactly where water has traveled, including areas you can't see. That matters because an ice maker line leak behind a refrigerator can saturate the wall cavity all the way to the adjacent bathroom without leaving a visible stain for days.
 
 From there, the process moves through four stages:
 
@@ -40,25 +40,25 @@ From there, the process moves through four stages:
 
 **2. Structural drying.** Industrial-grade desiccant dehumidifiers and high-velocity air movers are positioned based on the moisture map, not just placed in the middle of the room. We monitor readings daily and adjust equipment placement as materials dry.
 
-**3. Antimicrobial treatment.** Any surface that was in contact with standing water gets treated to inhibit microbial growth — particularly important in Tacoma's climate where ambient humidity slows the drying window.
+**3. Antimicrobial treatment.** Any surface that was in contact with standing water gets treated to inhibit microbial growth, particularly important in Tacoma's climate where ambient humidity slows the drying window.
 
 **4. Documentation and clearance.** Before equipment comes out, we confirm with moisture meters that readings have returned to baseline for the material type. That documentation matters for your insurance claim and for any future buyer's inspection.
 
 ## Insurance Claims for Appliance Leak Damage
 
-Most standard homeowner's policies in Washington cover sudden and accidental appliance leaks — a dishwasher supply line that failed, a water heater that burst — but not slow leaks that went unaddressed for weeks. The distinction matters, and adjusters will ask about it.
+Most standard homeowner's policies in Washington cover sudden and accidental appliance leaks, a dishwasher supply line that failed, a water heater that burst, but not slow leaks that went unaddressed for weeks. The distinction matters, and adjusters will ask about it.
 
-We work directly with all major carriers and can provide the moisture maps, photo documentation, and drying logs your adjuster needs to process the claim. We'll also give you an honest read on what's likely covered before work begins, so there are no surprises. What we can't do is make coverage decisions on your insurer's behalf — that's between you and your adjuster — but we can make sure the documentation supports your claim as strongly as possible.
+We work directly with all major carriers and can provide the moisture maps, photo documentation, and drying logs your adjuster needs to process the claim. We'll also give you an honest read on what's likely covered before work begins, so there are no surprises. What we can't do is make coverage decisions on your insurer's behalf, that's between you and your adjuster, but we can make sure the documentation supports your claim as strongly as possible.
 
 If you're a property manager handling a tenant's unit, we're experienced with the added layer of landlord-tenant documentation those claims require.
 
 ## Response Times Across Tacoma
 
-From our Federal Way base, we can typically reach central Tacoma — Downtown, Stadium District, North End — in 20 to 30 minutes under normal traffic. South Tacoma, Fircrest, and University Place run about the same. Lakewood and Parkland are similarly close. Farther reaches like Ruston or the Port area may add a few minutes depending on time of day.
+From our Federal Way base, we can typically reach central Tacoma, Downtown, Stadium District, North End, in 20 to 30 minutes under normal traffic. South Tacoma, Fircrest, and University Place run about the same. Lakewood and Parkland are similarly close. Farther reaches like Ruston or the Port area may add a few minutes depending on time of day.
 
 We're available 24 hours a day, seven days a week. A dishwasher leak cleanup at 2 a.m. on a Sunday gets the same response as a weekday afternoon call. Water damage doesn't hold business hours, and neither do we.
 
-If you're unsure whether your situation warrants an emergency response or can wait until morning, call **(206) 883-0333)** anyway — we'll give you an honest answer about the risk of waiting, at no charge.
+If you're unsure whether your situation warrants an emergency response or can wait until morning, call **(206) 883-0333)** anyway, we'll give you an honest answer about the risk of waiting, at no charge.
 
 ---
 

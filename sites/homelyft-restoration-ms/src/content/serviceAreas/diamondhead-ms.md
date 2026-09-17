@@ -19,27 +19,27 @@ state: "MS"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall or a storm pushes water under your front door, HomeLyft Restoration MS responds to Diamondhead property owners with the equipment, documentation, and hands-on work needed to stop the damage from compounding. From water extraction and structural drying to mold remediation, fire cleanup, and full reconstruction, we handle the jobs that Diamondhead's coastal climate and housing stock make inevitable — and we coordinate directly with your insurance carrier so the process doesn't fall entirely on your shoulders.
+When a pipe bursts behind a wall or a storm pushes water under your front door, HomeLyft Restoration MS responds to Diamondhead property owners with the equipment, documentation, and hands-on work needed to stop the damage from compounding. From water extraction and structural drying to mold remediation, fire cleanup, and full reconstruction, we handle the jobs that Diamondhead's coastal climate and housing stock make inevitable, and we coordinate directly with your insurance carrier so the process doesn't fall entirely on your shoulders.
 
 ## Restoration emergencies common in Diamondhead
 
-Diamondhead sits in Hancock County on the western edge of the Mississippi Gulf Coast, and that geography shapes the kinds of damage its homes and properties absorb. The area's high humidity — routinely above 80 percent through the summer months — means that even a minor plumbing leak or a slow roof intrusion can seed mold growth within 24 to 48 hours if materials stay wet. The housing stock here skews toward ranch-style and split-level homes built in the 1970s through the 1990s, many of which have crawl spaces and older HVAC ductwork that trap moisture and spread contamination quickly once water gets in.
+Diamondhead sits in Hancock County on the western edge of the Mississippi Gulf Coast, and that geography shapes the kinds of damage its homes and properties absorb. The area's high humidity, routinely above 80 percent through the summer months, means that even a minor plumbing leak or a slow roof intrusion can seed mold growth within 24 to 48 hours if materials stay wet. The housing stock here skews toward ranch-style and split-level homes built in the 1970s through the 1990s, many of which have crawl spaces and older HVAC ductwork that trap moisture and spread contamination quickly once water gets in.
 
-The region also sits in a hurricane corridor. Even storms that make landfall well to the east or west can push surge and wind-driven rain into Diamondhead's low-lying streets and lakefront properties. Post-storm, the combination of saturated insulation, wet drywall, and warm temperatures creates ideal conditions for mold colonization. Seasonal thunderstorms compound the problem — heavy rainfall overwhelms older drainage systems and sends water through foundation cracks and garage slabs that homeowners may not notice until the smell arrives.
+The region also sits in a hurricane corridor. Even storms that make landfall well to the east or west can push surge and wind-driven rain into Diamondhead's low-lying streets and lakefront properties. Post-storm, the combination of saturated insulation, wet drywall, and warm temperatures creates ideal conditions for mold colonization. Seasonal thunderstorms compound the problem, heavy rainfall overwhelms older drainage systems and sends water through foundation cracks and garage slabs that homeowners may not notice until the smell arrives.
 
 ## Services we provide in Diamondhead
 
 ### Water damage restoration
 
-Water damage in Diamondhead frequently involves more than the visible wet surface. Moisture wicks into wall cavities, subfloor sheathing, and crawl space framing before a homeowner realizes the scope. We use thermal imaging and calibrated moisture meters to map the full extent of saturation, then deploy industrial air movers and dehumidifiers to dry the structure to measurable targets — not just until it looks dry. Documentation is created throughout for your insurance claim.
+Water damage in Diamondhead frequently involves more than the visible wet surface. Moisture wicks into wall cavities, subfloor sheathing, and crawl space framing before a homeowner realizes the scope. We use thermal imaging and calibrated moisture meters to map the full extent of saturation, then deploy industrial air movers and dehumidifiers to dry the structure to measurable targets, not just until it looks dry. Documentation is created throughout for your insurance claim.
 
 ### Mold remediation
 
-Given Hancock County's humidity levels, mold remediation calls are common year-round — not just after named storms. We contain the affected area, remove compromised materials, treat surfaces, and verify clearance before reconstruction begins. We do not make medical claims about air quality outcomes, but we follow established industry protocols to address visible growth and the conditions that caused it.
+Given Hancock County's humidity levels, mold remediation calls are common year-round, not just after named storms. We contain the affected area, remove compromised materials, treat surfaces, and verify clearance before reconstruction begins. We do not make medical claims about air quality outcomes, but we follow established industry protocols to address visible growth and the conditions that caused it.
 
 ### Fire and smoke damage restoration
 
-Smoke residue is deceptive. After a kitchen fire or an electrical event, the visible char is often the smaller problem — smoke particles penetrate HVAC systems, settle into attic insulation, and leave an odor that resurfaces for months if not properly treated. We assess the full path of smoke migration, clean or remove affected materials, and use professional deodorization equipment rather than masking agents.
+Smoke residue is deceptive. After a kitchen fire or an electrical event, the visible char is often the smaller problem, smoke particles penetrate HVAC systems, settle into attic insulation, and leave an odor that resurfaces for months if not properly treated. We assess the full path of smoke migration, clean or remove affected materials, and use professional deodorization equipment rather than masking agents.
 
 ### Storm and wind damage
 
@@ -51,11 +51,11 @@ Sewage backups, which are not uncommon when storm surge overwhelms municipal sys
 
 ## Coverage and how fast we can get there
 
-HomeLyft Restoration MS is based in Gulfport, roughly 25 miles east of Diamondhead via US-90 or I-10. Both routes are well-traveled corridors our crews run regularly, and Diamondhead falls well within our active service area. Call us during business hours and we will schedule a prompt response — the sooner we can assess the damage, the more material and cost we can typically save. For scheduling and questions, reach us at (228) 284-5200.
+HomeLyft Restoration MS is based in Gulfport, roughly 25 miles east of Diamondhead via US-90 or I-10. Both routes are well-traveled corridors our crews run regularly, and Diamondhead falls well within our active service area. Call us during business hours and we will schedule a prompt response, the sooner we can assess the damage, the more material and cost we can typically save. For scheduling and questions, reach us at (228) 284-5200.
 
 ## Building stock, site conditions, and permits in Diamondhead
 
-Diamondhead began as a master-planned community, so much of the housing went up in a compressed stretch of decades rather than accumulating slowly. That shows up in the plumbing: copper or CPVC supply lines, cast iron drains in the earliest houses, and polybutylene in homes built or repiped during its peak years — a material that tends to fail at the fittings with little warning. Slab-on-grade is as common here as raised construction, and a slab leak can travel under flooring for weeks before it surfaces.
+Diamondhead began as a master-planned community, so much of the housing went up in a compressed stretch of decades rather than accumulating slowly. That shows up in the plumbing: copper or CPVC supply lines, cast iron drains in the earliest houses, and polybutylene in homes built or repiped during its peak years, a material that tends to fail at the fittings with little warning. Slab-on-grade is as common here as raised construction, and a slab leak can travel under flooring for weeks before it surfaces.
 
 The sandy coastal-plain soils drain fast but sit over a high water table, which keeps crawl spaces and slab edges damp.
 

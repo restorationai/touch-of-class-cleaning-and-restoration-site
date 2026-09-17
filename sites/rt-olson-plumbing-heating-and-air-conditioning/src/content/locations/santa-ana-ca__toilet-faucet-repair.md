@@ -20,35 +20,35 @@ state: "CA"
 service_display: "Toilet, Faucet and Fixture Services"
 rendered: true
 ---
-Santa Ana's hard water — some of the most mineral-dense in Orange County — leaves its mark on every faucet aerator, toilet fill valve, and shower cartridge in the city. That slow drip under your bathroom vanity or the toilet that keeps running after a flush isn't just an annoyance; in a city where water rates have climbed steadily, it's money leaving your home every hour. RT Olson Plumbing, Heating and Air Conditioning responds around the clock, dispatching from Corona to handle toilet repairs, faucet replacements, and shower valve work throughout Santa Ana.
+Santa Ana's hard water, some of the most mineral-dense in Orange County, leaves its mark on every faucet aerator, toilet fill valve, and shower cartridge in the city. That slow drip under your bathroom vanity or the toilet that keeps running after a flush isn't just an annoyance; in a city where water rates have climbed steadily, it's money leaving your home every hour. RT Olson Plumbing, Heating and Air Conditioning responds around the clock, dispatching from Corona to handle toilet repairs, faucet replacements, and shower valve work throughout Santa Ana.
 
 ## Why Santa Ana Fixtures Wear Out Faster Than You'd Expect
 
-The water delivered through Santa Ana's municipal system carries a high concentration of calcium and magnesium. Over time, that mineral load builds inside cartridges and fill valves, causing faucets to drip even when turned off completely and toilets to run continuously because the flapper seat can't seal against scale deposits. Homes built in the mid-century boom — a significant portion of Santa Ana's residential stock — often still have original supply lines and angle stops that were never designed to handle decades of hard-water cycling. When those valves finally fail, they tend to fail fast and fully.
+The water delivered through Santa Ana's municipal system carries a high concentration of calcium and magnesium. Over time, that mineral load builds inside cartridges and fill valves, causing faucets to drip even when turned off completely and toilets to run continuously because the flapper seat can't seal against scale deposits. Homes built in the mid-century boom, a significant portion of Santa Ana's residential stock, often still have original supply lines and angle stops that were never designed to handle decades of hard-water cycling. When those valves finally fail, they tend to fail fast and fully.
 
 Older construction also means galvanized supply lines in some properties, which corrode from the inside out. The exterior of the pipe looks intact while the interior diameter has narrowed to a fraction of its original size, starving fixtures of pressure and accelerating wear on cartridges that have to work harder to compensate.
 
 ## Our Fixture Service Process in Santa Ana
 
-Every call starts with a thorough diagnosis rather than a parts swap. A running toilet, for example, can stem from a worn flapper, a failing fill valve, a cracked overflow tube, or a combination of all three — and replacing only the flapper when the fill valve is also compromised means a callback in three months. The process typically runs:
+Every call starts with a thorough diagnosis rather than a parts swap. A running toilet, for example, can stem from a worn flapper, a failing fill valve, a cracked overflow tube, or a combination of all three, and replacing only the flapper when the fill valve is also compromised means a callback in three months. The process typically runs:
 
-1. **Shut off and inspect** — isolate the fixture at the angle stop, check the stop valve itself for corrosion or failure, and assess supply line condition.
-2. **Diagnose the root cause** — test flush mechanics, measure faucet flow rate, check shower valve cartridge movement and seat condition.
-3. **Present options** — repair the existing fixture if it's sound, or recommend replacement when repair cost approaches replacement cost.
-4. **Install and test** — torque connections to spec, verify no drips at supply connections, confirm full flush cycle or faucet shut-off before leaving.
+1. **Shut off and inspect**, isolate the fixture at the angle stop, check the stop valve itself for corrosion or failure, and assess supply line condition.
+2. **Diagnose the root cause**, test flush mechanics, measure faucet flow rate, check shower valve cartridge movement and seat condition.
+3. **Present options**, repair the existing fixture if it's sound, or recommend replacement when repair cost approaches replacement cost.
+4. **Install and test**, torque connections to spec, verify no drips at supply connections, confirm full flush cycle or faucet shut-off before leaving.
 
 For shower valve work in particular, we carry a broad range of OEM and compatible cartridges so that a single-visit fix is the norm rather than the exception.
 
 ## Reaching Santa Ana from Corona
 
-RT Olson's Corona headquarters puts us on the 91 freeway corridor, which connects directly into Santa Ana via the 55 or through surface routes on Lincoln Avenue and 17th Street. Because we operate 24/7, calls that come in during off-peak hours typically see faster on-site arrival than the same call placed at rush hour — the freeway interchange at the 91/55 split can add significant time during commute windows. When you call, the dispatcher will give you a realistic arrival estimate based on current conditions rather than a generic promise.
+RT Olson's Corona headquarters puts us on the 91 freeway corridor, which connects directly into Santa Ana via the 55 or through surface routes on Lincoln Avenue and 17th Street. Because we operate 24/7, calls that come in during off-peak hours typically see faster on-site arrival than the same call placed at rush hour, the freeway interchange at the 91/55 split can add significant time during commute windows. When you call, the dispatcher will give you a realistic arrival estimate based on current conditions rather than a generic promise.
 
 ## Equipment and Methods for Hard-Water Fixture Repairs
 
-Mineral buildup requires more than a wrench. Cartridge removal in a heavily scaled valve often means a dedicated cartridge puller — forcing a corroded cartridge out without one risks cracking the valve body and turning a repair into a full valve replacement. We stock descaling solutions for aerator cleaning, cartridge pullers sized for the most common Moen, Delta, and Kohler platforms, and a range of fill valve and flapper assemblies that are rated for high-mineral-content water rather than standard units that will scale up again within a year.
+Mineral buildup requires more than a wrench. Cartridge removal in a heavily scaled valve often means a dedicated cartridge puller, forcing a corroded cartridge out without one risks cracking the valve body and turning a repair into a full valve replacement. We stock descaling solutions for aerator cleaning, cartridge pullers sized for the most common Moen, Delta, and Kohler platforms, and a range of fill valve and flapper assemblies that are rated for high-mineral-content water rather than standard units that will scale up again within a year.
 
 ## Local Note
 
-Santa Ana has a dense mix of single-family homes and multi-unit properties, and in older apartment buildings — particularly those built before the 1980s — the toilet shutoff valves are sometimes recessed into the wall cavity with non-standard access panels. If a fill valve fails in one of these units and the angle stop won't fully close due to age, the repair scope expands quickly. Knowing this pattern ahead of time means we arrive with the tools to handle the angle stop replacement in the same visit, rather than leaving a tenant without a working toilet while parts are sourced.
+Santa Ana has a dense mix of single-family homes and multi-unit properties, and in older apartment buildings, particularly those built before the 1980s, the toilet shutoff valves are sometimes recessed into the wall cavity with non-standard access panels. If a fill valve fails in one of these units and the angle stop won't fully close due to age, the repair scope expands quickly. Knowing this pattern ahead of time means we arrive with the tools to handle the angle stop replacement in the same visit, rather than leaving a tenant without a working toilet while parts are sourced.
 
-If a fixture issue is affecting your Santa Ana home or rental property, call RT Olson at (951) 344-5596 — any hour, any day. A running toilet or dripping faucet that seems minor can add up to hundreds of gallons wasted each month, and the repair is almost always simpler and less expensive than the water bill it prevents.
+If a fixture issue is affecting your Santa Ana home or rental property, call RT Olson at (951) 344-5596, any hour, any day. A running toilet or dripping faucet that seems minor can add up to hundreds of gallons wasted each month, and the repair is almost always simpler and less expensive than the water bill it prevents.

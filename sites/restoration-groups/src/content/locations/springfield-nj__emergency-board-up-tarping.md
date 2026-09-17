@@ -20,25 +20,25 @@ state: "NJ"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
-When a storm tears shingles off a 1940s colonial on Mountain Avenue or a fire blows out the windows of a Route 22 storefront, every hour the structure sits open accelerates the damage — rain soaks into old-growth framing, looters test unlocked openings, and insurers start asking questions about mitigation gaps. The Restoration Group responds 24/7 out of our Kenilworth base to board up and tarp Springfield properties before secondary losses compound the original one.
+When a storm tears shingles off a 1940s colonial on Mountain Avenue or a fire blows out the windows of a Route 22 storefront, every hour the structure sits open accelerates the damage, rain soaks into old-growth framing, looters test unlocked openings, and insurers start asking questions about mitigation gaps. The Restoration Group responds 24/7 out of our Kenilworth base to board up and tarp Springfield properties before secondary losses compound the original one.
 
 ## Why Springfield Properties See Board-Up and Tarping Emergencies
 
-Springfield's housing stock tells the story of two or three different eras stacked on top of each other. The colonials and capes built between the 1920s and 1950s — concentrated along the Mountain Avenue corridor and through Springfield Center — have steeper roof pitches, older slate or three-tab asphalt shingles, and wood-framed windows that are already near the end of their useful life. When a nor'easter or a fast-moving summer thunderstorm hits, those roofs lose sections rather than individual shingles, and the openings they leave behind are large and irregular — harder to tarp cleanly than a modern dimensional-shingle roof.
+Springfield's housing stock tells the story of two or three different eras stacked on top of each other. The colonials and capes built between the 1920s and 1950s, concentrated along the Mountain Avenue corridor and through Springfield Center, have steeper roof pitches, older slate or three-tab asphalt shingles, and wood-framed windows that are already near the end of their useful life. When a nor'easter or a fast-moving summer thunderstorm hits, those roofs lose sections rather than individual shingles, and the openings they leave behind are large and irregular, harder to tarp cleanly than a modern dimensional-shingle roof.
 
-Then there's the Rahway River's west branch, which drains off the Watchung ridges right through the township's low spots. Tropical Storm Ida demonstrated exactly what that means: Route 22 became a channel, and finished basements across Springfield took on water fast. Flood events don't always trigger board-up calls, but they frequently cause structural shifts that crack foundation walls or jam doors and windows out of square — and a compromised exterior opening needs to be secured the same day it's discovered.
+Then there's the Rahway River's west branch, which drains off the Watchung ridges right through the township's low spots. Tropical Storm Ida demonstrated exactly what that means: Route 22 became a channel, and finished basements across Springfield took on water fast. Flood events don't always trigger board-up calls, but they frequently cause structural shifts that crack foundation walls or jam doors and windows out of square, and a compromised exterior opening needs to be secured the same day it's discovered.
 
-The Route 22 commercial strip adds a different category of loss: restaurant grease fires, retail break-ins, and vehicle impacts that shatter storefront glass. Commercial board-up on that corridor has to meet township code requirements for temporary closures and can't obstruct fire egress — details that matter when the building inspector shows up the next morning.
+The Route 22 commercial strip adds a different category of loss: restaurant grease fires, retail break-ins, and vehicle impacts that shatter storefront glass. Commercial board-up on that corridor has to meet township code requirements for temporary closures and can't obstruct fire egress, details that matter when the building inspector shows up the next morning.
 
 ## Our Emergency Board-Up and Tarping Process in Springfield
 
-When you call (908) 970-8533, the first thing we do is triage the opening — size, shape, floor level, and what's immediately at risk inside. That determines whether we're arriving with plywood and a crew of two or with heavy polyethylene sheeting, lumber battens, and additional hands for a large roof section.
+When you call (908) 970-8533, the first thing we do is triage the opening, size, shape, floor level, and what's immediately at risk inside. That determines whether we're arriving with plywood and a crew of two or with heavy polyethylene sheeting, lumber battens, and additional hands for a large roof section.
 
 On-site, we work in a defined sequence:
 
-1. **Secure the perimeter** — identify all compromised openings, not just the obvious one. A fire that blows a front window often warps a side door frame too.
-2. **Photograph everything** before we touch it — date-stamped images that document pre-board conditions for your insurance adjuster.
-3. **Install board-up panels** using structural-grade plywood cut to fit, fastened in a way that doesn't cause additional damage to the existing frame — critical on the older casement and double-hung windows common in Springfield Center homes.
+1. **Secure the perimeter**, identify all compromised openings, not just the obvious one. A fire that blows a front window often warps a side door frame too.
+2. **Photograph everything** before we touch it, date-stamped images that document pre-board conditions for your insurance adjuster.
+3. **Install board-up panels** using structural-grade plywood cut to fit, fastened in a way that doesn't cause additional damage to the existing frame, critical on the older casement and double-hung windows common in Springfield Center homes.
 4. **Apply roof tarps** with weighted perimeter battens and ridge-anchored tie-downs rated for the wind loads this area sees. A tarp stapled at the edges won't survive a second storm.
 5. **Provide a written scope** of what was secured, what remains at risk, and recommended next steps for permanent repair.
 
@@ -46,16 +46,16 @@ For properties in the 07081 ZIP code that are mid-insurance-claim, we can coordi
 
 ## Reaching Springfield from Kenilworth
 
-Our Kenilworth location puts us on Route 22 eastbound within minutes, which means Springfield is a straightforward run — no highway transfers, no toll plazas to slow the crew down. The Baltusrol area and the streets behind Jonathan Dayton High School are accessible from both the Route 22 approach and from the Garden State Parkway via Exit 140, which matters when Route 22 itself is backed up after a major storm event that's generating calls across Union County simultaneously. We dispatch 24/7, so a call at 2 a.m. after a wind event gets the same crew response as a midday fire.
+Our Kenilworth location puts us on Route 22 eastbound within minutes, which means Springfield is a straightforward run, no highway transfers, no toll plazas to slow the crew down. The Baltusrol area and the streets behind Jonathan Dayton High School are accessible from both the Route 22 approach and from the Garden State Parkway via Exit 140, which matters when Route 22 itself is backed up after a major storm event that's generating calls across Union County simultaneously. We dispatch 24/7, so a call at 2 a.m. after a wind event gets the same crew response as a midday fire.
 
 ## Springfield Insurance and HOA Coordination
 
 Springfield has a growing number of townhome complexes toward the Millburn line, and those communities typically have HOA agreements that specify who is responsible for exterior repairs on shared-wall or attached units. Before we board up a unit in one of those developments, we ask one question: does the HOA master policy cover the exterior, or is this the unit owner's responsibility? The answer changes who we document the loss for and who authorizes the scope. We've navigated enough of these situations to ask upfront rather than create a billing problem after the work is done.
 
-For single-family losses, we carry the documentation insurers want — IICRC Certified Firm #210213, NJ Licensed Home Improvement Contractor status through the NJ Division of Consumer Affairs, and itemized photo logs that match the format most major carriers use for emergency services claims.
+For single-family losses, we carry the documentation insurers want, IICRC Certified Firm #210213, NJ Licensed Home Improvement Contractor status through the NJ Division of Consumer Affairs, and itemized photo logs that match the format most major carriers use for emergency services claims.
 
 ## Local Note
 
-Springfield's older colonials along the Mountain Avenue corridor frequently have original wood window frames with exterior storm windows added in the 1970s or 80s. When a fire or impact breaks the inner window, the storm window frame is often still intact but bent — and boarding over a bent aluminum storm frame without removing it first creates a gap that looks sealed but isn't. We pull the damaged storm frame before installing plywood so the board-up actually keeps weather and intruders out, not just looks like it does from the street.
+Springfield's older colonials along the Mountain Avenue corridor frequently have original wood window frames with exterior storm windows added in the 1970s or 80s. When a fire or impact breaks the inner window, the storm window frame is often still intact but bent, and boarding over a bent aluminum storm frame without removing it first creates a gap that looks sealed but isn't. We pull the damaged storm frame before installing plywood so the board-up actually keeps weather and intruders out, not just looks like it does from the street.
 
 If your Springfield property has been opened by storm damage, fire, a break-in, or a vehicle impact, call (908) 970-8533 now. We'll have a crew en route and a documented scope ready for your adjuster before the next weather system moves through.

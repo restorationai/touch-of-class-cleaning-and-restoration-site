@@ -20,42 +20,42 @@ state: "MS"
 service_display: "Crawl Space Encapsulation"
 rendered: true
 ---
-Ovett sits in the piney woods of Jones County, where warm, humid summers and clay-heavy soils create conditions that crawl spaces genuinely struggle against. Moisture migrates upward through the ground, condenses against floor joists, and — left alone — quietly rots the structural wood that holds your home up. Crawl space encapsulation stops that cycle before it becomes a mold remediation job or a foundation repair bill, and in this part of Mississippi, the window between "damp" and "damaged" is shorter than most homeowners expect.
+Ovett sits in the piney woods of Jones County, where warm, humid summers and clay-heavy soils create conditions that crawl spaces genuinely struggle against. Moisture migrates upward through the ground, condenses against floor joists, and, left alone, quietly rots the structural wood that holds your home up. Crawl space encapsulation stops that cycle before it becomes a mold remediation job or a foundation repair bill, and in this part of Mississippi, the window between "damp" and "damaged" is shorter than most homeowners expect.
 
 ## Why Ovett Properties See Crawl Space Moisture Problems
 
-Jones County's red clay and sandy loam soils don't drain the way sandy coastal soils do. After a heavy rain — and this region gets well over 55 inches annually — groundwater has nowhere fast to go. It pools against foundation walls and wicks through bare-dirt crawl spaces, raising relative humidity inside the cavity to levels where wood-decay fungi and mold can establish in as little as 48 to 72 hours.
+Jones County's red clay and sandy loam soils don't drain the way sandy coastal soils do. After a heavy rain, and this region gets well over 55 inches annually, groundwater has nowhere fast to go. It pools against foundation walls and wicks through bare-dirt crawl spaces, raising relative humidity inside the cavity to levels where wood-decay fungi and mold can establish in as little as 48 to 72 hours.
 
-Many homes in and around Ovett were built during the mid-twentieth-century construction boom that followed the timber industry's expansion through Jones County. That era's building practices left crawl spaces with little more than a thin layer of plastic sheeting — or nothing at all — between the ground and the floor framing above. Modern encapsulation replaces that patchwork with a continuous, sealed system that actually addresses the vapor load this climate generates.
+Many homes in and around Ovett were built during the mid-twentieth-century construction boom that followed the timber industry's expansion through Jones County. That era's building practices left crawl spaces with little more than a thin layer of plastic sheeting, or nothing at all, between the ground and the floor framing above. Modern encapsulation replaces that patchwork with a continuous, sealed system that actually addresses the vapor load this climate generates.
 
 The tree canopy common to rural Jones County properties also limits airflow and sun exposure around foundations, which keeps the soil adjacent to the home wetter for longer after rain events. That shade is pleasant in July; it's a liability for an unprotected crawl space.
 
 ## Our Crawl Space Encapsulation Process in Ovett
 
-Every encapsulation project starts with a thorough inspection of the crawl space — not a five-minute flashlight walk, but a systematic assessment of moisture readings at the subfloor, joist condition, existing vapor barrier (if any), drainage patterns, and ventilation. We use calibrated moisture meters and thermal imaging to find wet zones that aren't visible to the naked eye.
+Every encapsulation project starts with a thorough inspection of the crawl space, not a five-minute flashlight walk, but a systematic assessment of moisture readings at the subfloor, joist condition, existing vapor barrier (if any), drainage patterns, and ventilation. We use calibrated moisture meters and thermal imaging to find wet zones that aren't visible to the naked eye.
 
 If standing water or saturated soil is present, that's addressed before any barrier goes down. Encapsulation over wet ground is a waste of materials and money.
 
-Once the space is dry and clear, we install a heavy-duty polyethylene barrier — typically 20-mil reinforced liner — across the entire ground surface and up the foundation walls, sealed at all seams and penetrations with manufacturer-rated tape. In Jones County's climate, we treat every pipe penetration and support-column base as a potential moisture entry point, because they are.
+Once the space is dry and clear, we install a heavy-duty polyethylene barrier, typically 20-mil reinforced liner, across the entire ground surface and up the foundation walls, sealed at all seams and penetrations with manufacturer-rated tape. In Jones County's climate, we treat every pipe penetration and support-column base as a potential moisture entry point, because they are.
 
 Depending on the home's configuration, we may also seal or condition the crawl space vents. Conventional wisdom once held that venting crawl spaces was the right approach; building science has largely moved away from that in humid-climate zones like this one. A sealed, conditioned crawl space typically maintains lower relative humidity year-round than a vented one in Mississippi's climate.
 
-The project closes with a final moisture reading and documentation — useful if you ever need to demonstrate the condition of the space for a home sale or an insurance claim.
+The project closes with a final moisture reading and documentation, useful if you ever need to demonstrate the condition of the space for a home sale or an insurance claim.
 
 ## Equipment and Methods We Use
 
 The liner material matters more than most homeowners realize. Thin 6-mil poly tears during installation and punctures easily over time. We use reinforced liners rated for long-term ground contact, which hold up against the occasional pest intrusion and the routine access a crawl space gets for plumbing or HVAC work.
 
-For spaces with persistent humidity problems, we pair the liner with a crawl space dehumidifier sized to the cubic footage — not a residential basement unit repurposed for the job. In Jones County's climate, undersized dehumidification is one of the most common reasons encapsulation projects underperform. Our team holds IICRC AMRT (mold) and IICRC ASD (structural drying) certifications, which means the drying science behind the equipment selection is the same science we apply to active water damage jobs.
+For spaces with persistent humidity problems, we pair the liner with a crawl space dehumidifier sized to the cubic footage, not a residential basement unit repurposed for the job. In Jones County's climate, undersized dehumidification is one of the most common reasons encapsulation projects underperform. Our team holds IICRC AMRT (mold) and IICRC ASD (structural drying) certifications, which means the drying science behind the equipment selection is the same science we apply to active water damage jobs.
 
-Where standing water drainage is an issue, a perimeter drain channel and sump system can be integrated into the encapsulation scope — particularly relevant for properties on lower-lying lots in rural Jones County where the water table rises seasonally.
+Where standing water drainage is an issue, a perimeter drain channel and sump system can be integrated into the encapsulation scope, particularly relevant for properties on lower-lying lots in rural Jones County where the water table rises seasonally.
 
 ## Local Note
 
-One pattern we see specifically in older Jones County homes — including properties in the Ovett area — is that original builders sometimes used pine heartwood for floor joists, which is naturally more rot-resistant than modern lumber. That's good news for structural integrity, but it can mask how far moisture infiltration has progressed: the wood holds together longer, so homeowners don't notice softness underfoot until the decay has moved into the rim joists and sill plates, which are typically newer and less resistant. During inspections here, we pay particular attention to those transition points, not just the center spans.
+One pattern we see specifically in older Jones County homes, including properties in the Ovett area, is that original builders sometimes used pine heartwood for floor joists, which is naturally more rot-resistant than modern lumber. That's good news for structural integrity, but it can mask how far moisture infiltration has progressed: the wood holds together longer, so homeowners don't notice softness underfoot until the decay has moved into the rim joists and sill plates, which are typically newer and less resistant. During inspections here, we pay particular attention to those transition points, not just the center spans.
 
 ## Reaching Ovett from Our Team
 
-HomeLyft Restoration MS is based in Gulfport and serves Jones County including the Ovett area. Scheduling is handled directly by phone at +12282845200. Because Ovett is a rural community, we coordinate arrival windows in advance so you're not waiting on an undefined timeframe — call us to discuss current availability and we'll give you a straight answer on timing.
+HomeLyft Restoration MS is based in Gulfport and serves Jones County including the Ovett area. Scheduling is handled directly by phone at +12282845200. Because Ovett is a rural community, we coordinate arrival windows in advance so you're not waiting on an undefined timeframe, call us to discuss current availability and we'll give you a straight answer on timing.
 
 Crawl space encapsulation in Ovett is the kind of project that pays for itself in avoided repairs. If you're noticing musty odors from the floor, increased allergy symptoms indoors, or soft spots in hardwood or laminate flooring, the crawl space is worth a look before the problem moves upward into the living space. Call HomeLyft Restoration MS and we'll schedule an inspection.

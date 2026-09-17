@@ -19,41 +19,41 @@ state: "SD"
 primary: false
 rendered: true
 ---
-Crew Restoration & Construction handles water damage, fire and smoke damage, mold remediation, and full reconstruction for homeowners and property managers in Garretson, SD (57030). When a burst pipe soaks your basement or a kitchen fire leaves smoke embedded in every surface, the crew that shows up matters — and we bring the equipment, documentation, and direct insurance coordination to get your property back to livable, not just dry.
+Crew Restoration & Construction handles water damage, fire and smoke damage, mold remediation, and full reconstruction for homeowners and property managers in Garretson, SD (57030). When a burst pipe soaks your basement or a kitchen fire leaves smoke embedded in every surface, the crew that shows up matters, and we bring the equipment, documentation, and direct insurance coordination to get your property back to livable, not just dry.
 
 ## Restoration emergencies common in Garretson
 
-Garretson sits in a stretch of eastern South Dakota where the seasons don't ease into each other — they collide. Winters push hard freeze-thaw cycles through older foundation walls, and the Split Rock Creek valley can funnel snowmelt and spring runoff in ways that catch homeowners off guard, especially in lower-lying lots near the creek corridor. Summers bring severe thunderstorms with hail that strips shingles and drives water into attics before anyone realizes the roof is compromised.
+Garretson sits in a stretch of eastern South Dakota where the seasons don't ease into each other, they collide. Winters push hard freeze-thaw cycles through older foundation walls, and the Split Rock Creek valley can funnel snowmelt and spring runoff in ways that catch homeowners off guard, especially in lower-lying lots near the creek corridor. Summers bring severe thunderstorms with hail that strips shingles and drives water into attics before anyone realizes the roof is compromised.
 
-The housing stock here skews older — many homes in and around Downtown Garretson were built decades before modern moisture barriers and vapor retarders were standard. That means water intrusion doesn't just wet a wall; it finds its way into wall cavities, subfloors, and crawl spaces that were never designed to drain quickly. Mold can begin colonizing porous materials within 24 to 48 hours of a moisture event, so the gap between a leak and a remediation call is one of the most consequential decisions a property owner makes.
+The housing stock here skews older, many homes in and around Downtown Garretson were built decades before modern moisture barriers and vapor retarders were standard. That means water intrusion doesn't just wet a wall; it finds its way into wall cavities, subfloors, and crawl spaces that were never designed to drain quickly. Mold can begin colonizing porous materials within 24 to 48 hours of a moisture event, so the gap between a leak and a remediation call is one of the most consequential decisions a property owner makes.
 
 ## Services we provide in Garretson
 
 ### Water damage restoration
 
-Water damage in Garretson often starts small — a slow supply-line leak under a bathroom vanity, ice damming along a roofline, or groundwater seeping through a foundation crack after a heavy rain. By the time it's visible, the damage behind the drywall is usually further along. We extract standing water, set drying equipment calibrated to the actual moisture readings in your structure, and document every affected material for your insurance claim.
+Water damage in Garretson often starts small, a slow supply-line leak under a bathroom vanity, ice damming along a roofline, or groundwater seeping through a foundation crack after a heavy rain. By the time it's visible, the damage behind the drywall is usually further along. We extract standing water, set drying equipment calibrated to the actual moisture readings in your structure, and document every affected material for your insurance claim.
 
 ### Fire and smoke damage restoration
 
-Even a contained kitchen fire leaves smoke residue in places you wouldn't expect — inside HVAC ducts, on the back sides of cabinet interiors, in closets two rooms away. Smoke odor in an older Garretson home with original plaster walls and hardwood floors requires a different approach than a newer build. We assess what can be cleaned and what needs to come out, then rebuild to match.
+Even a contained kitchen fire leaves smoke residue in places you wouldn't expect, inside HVAC ducts, on the back sides of cabinet interiors, in closets two rooms away. Smoke odor in an older Garretson home with original plaster walls and hardwood floors requires a different approach than a newer build. We assess what can be cleaned and what needs to come out, then rebuild to match.
 
 ### Mold remediation
 
-The Palisades area and neighborhoods near Devil's Gulch see homes with stone foundations and older construction that hold moisture differently than modern builds. If your crawl space smells musty after a wet spring or you've found discoloration on basement framing, that warrants a proper assessment. We follow established remediation protocols to contain, remove, and treat affected materials — and we'll tell you honestly what we find.
+The Palisades area and neighborhoods near Devil's Gulch see homes with stone foundations and older construction that hold moisture differently than modern builds. If your crawl space smells musty after a wet spring or you've found discoloration on basement framing, that warrants a proper assessment. We follow established remediation protocols to contain, remove, and treat affected materials, and we'll tell you honestly what we find.
 
 ### Reconstruction
 
-Restoration work often ends with a gut-renovated room that needs to be rebuilt — new drywall, flooring, trim, and paint that match the rest of the house. We handle both the mitigation and the rebuild under one contract, which simplifies scheduling and keeps your insurance documentation clean.
+Restoration work often ends with a gut-renovated room that needs to be rebuilt, new drywall, flooring, trim, and paint that match the rest of the house. We handle both the mitigation and the rebuild under one contract, which simplifies scheduling and keeps your insurance documentation clean.
 
 ## Coverage and how fast we can get there
 
-Garretson is approximately 25 miles east of our Sioux Falls headquarters, a straightforward run east on I-90 to Exit 406. From there, we're into Downtown Garretson in minutes. The Palisades area — closer to Palisades State Park on the north end of town — adds a short distance on SD-11, but it's a route we know well. For property managers overseeing rental units near Split Rock Creek, we can coordinate scheduling around tenant access and keep you updated throughout the job. Call us at (605) 965-2727 to discuss timing and get a crew scheduled.
+Garretson is approximately 25 miles east of our Sioux Falls headquarters, a straightforward run east on I-90 to Exit 406. From there, we're into Downtown Garretson in minutes. The Palisades area, closer to Palisades State Park on the north end of town, adds a short distance on SD-11, but it's a route we know well. For property managers overseeing rental units near Split Rock Creek, we can coordinate scheduling around tenant access and keep you updated throughout the job. Call us at (605) 965-2727 to discuss timing and get a crew scheduled.
 
 ## Building stock, site conditions, and permits in Garretson
 
-Much of Garretson's housing predates modern construction: dimensional-lumber framing, plaster or early gypsum board over lath, and full basements with poured or stone-and-mortar walls. Sioux quartzite sits close to the surface through this part of the Split Rock valley, and the glacial till above it drains unevenly — so basement water often arrives at the cove joint or through a wall crack rather than up through the floor. Frost drives deep here, which keeps working those same joints season after season.
+Much of Garretson's housing predates modern construction: dimensional-lumber framing, plaster or early gypsum board over lath, and full basements with poured or stone-and-mortar walls. Sioux quartzite sits close to the surface through this part of the Split Rock valley, and the glacial till above it drains unevenly, so basement water often arrives at the cove joint or through a wall crack rather than up through the floor. Frost drives deep here, which keeps working those same joints season after season.
 
-On the systems side, expect galvanized supply lines and cast iron drains in the oldest houses, plus lead paint and possible asbestos in flooring, mastic, and pipe wrap on anything pre-1978 — all of which shapes how demolition is scoped.
+On the systems side, expect galvanized supply lines and cast iron drains in the oldest houses, plus lead paint and possible asbestos in flooring, mastic, and pipe wrap on anything pre-1978, all of which shapes how demolition is scoped.
 
 South Dakota leaves building code adoption to local government, so structural repair or rebuild inside town is permitted through the City of Garretson; properties outside the limits go through Minnehaha County.
 

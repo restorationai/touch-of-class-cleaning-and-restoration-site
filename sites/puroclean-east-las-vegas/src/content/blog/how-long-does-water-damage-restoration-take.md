@@ -21,7 +21,7 @@ Most water damage restoration jobs take **3 to 5 days** from the moment a crew a
 
 ## Why the Timeline Varies So Much
 
-Water doesn't behave the same way in every home. In Las Vegas, the desert climate means outdoor humidity rarely accelerates drying — that part actually works in your favor. But the valley's housing stock leans heavily on drywall, engineered wood subfloors, and cabinets with particleboard cores, all of which absorb moisture faster than solid wood and can begin to swell within hours.
+Water doesn't behave the same way in every home. In Las Vegas, the desert climate means outdoor humidity rarely accelerates drying, that part actually works in your favor. But the valley's housing stock leans heavily on drywall, engineered wood subfloors, and cabinets with particleboard cores, all of which absorb moisture faster than solid wood and can begin to swell within hours.
 
 Restoration professionals use three categories to classify water damage:
 
@@ -37,8 +37,8 @@ The first day is the most consequential. Here is what a structured response look
 
 1. **Stop the source.** If a pipe is actively running, find the shutoff for that fixture or cut the main supply at the meter. In Las Vegas, the main shutoff is typically at the front of the property near the curb.
 2. **Extract standing water.** Mops and towels do almost nothing for anything beyond a very small spill. Truck-mounted or portable extractors pull hundreds of gallons out of carpet and subfloor in a fraction of the time.
-3. **Remove saturated materials that can't be dried in place.** Wet carpet padding almost never dries successfully — it holds moisture against the subfloor and becomes a mold substrate within 24 to 48 hours. Baseboards and lower sections of drywall are often cut out (a technique called a "flood cut") to allow airflow behind the wall cavity.
-4. **Set drying equipment.** Industrial dehumidifiers and air movers are positioned to create a specific airflow pattern. This is not the same as opening windows and running a box fan — professional equipment pulls moisture out of materials at a rate that consumer gear cannot match.
+3. **Remove saturated materials that can't be dried in place.** Wet carpet padding almost never dries successfully, it holds moisture against the subfloor and becomes a mold substrate within 24 to 48 hours. Baseboards and lower sections of drywall are often cut out (a technique called a "flood cut") to allow airflow behind the wall cavity.
+4. **Set drying equipment.** Industrial dehumidifiers and air movers are positioned to create a specific airflow pattern. This is not the same as opening windows and running a box fan, professional equipment pulls moisture out of materials at a rate that consumer gear cannot match.
 5. **Take moisture readings.** A technician uses a moisture meter and sometimes a thermal imaging camera to map where water has traveled. Water follows gravity and wicks through materials in ways that aren't always visible on the surface.
 
 By the end of day two, a good crew knows whether the job is tracking toward three days or seven.
@@ -49,7 +49,7 @@ Several factors can push a job well past the five-day mark:
 
 **Hidden moisture.** If the leak was behind a wall, under a slab, or inside a ceiling cavity, the water may have been traveling for days before the damage became visible. A wet spot on a ceiling often means the actual source is several feet away. The drying clock doesn't start until all the moisture is mapped and equipment is in place.
 
-**Structural materials.** Concrete slabs, hardwood floors, and plaster walls hold moisture longer than drywall. Drying a hardwood floor in place — if it's even salvageable — can take 7 to 10 days with specialized drying mats. In many cases, the math on saving hardwood versus replacing it comes down to how long it sat wet.
+**Structural materials.** Concrete slabs, hardwood floors, and plaster walls hold moisture longer than drywall. Drying a hardwood floor in place, if it's even salvageable, can take 7 to 10 days with specialized drying mats. In many cases, the math on saving hardwood versus replacing it comes down to how long it sat wet.
 
 **Secondary damage.** If mold has already begun to colonize (it can start in as little as 24 to 48 hours in the right conditions), the project now involves remediation on top of drying. That adds time, equipment, and cost.
 
@@ -66,7 +66,7 @@ A few common mistakes extend timelines and create new problems:
 
 ## When the Drying Is Done: What Comes Next
 
-Reaching the drying goal — typically defined by moisture readings that match the normal dry standard for each material type — is not the end of the project. It's the end of the restoration phase. What follows is reconstruction.
+Reaching the drying goal, typically defined by moisture readings that match the normal dry standard for each material type, is not the end of the project. It's the end of the restoration phase. What follows is reconstruction.
 
 Depending on what was removed during drying, reconstruction can involve:
 
@@ -75,7 +75,7 @@ Depending on what was removed during drying, reconstruction can involve:
 - Rebuilding cabinets or vanities
 - Repairing or replacing insulation
 
-For a Category 1 loss caught quickly with minimal material removal, reconstruction might take a day or two. For a loss involving significant demo — a flooded bathroom that required removing tile, subfloor, and lower wall sections — reconstruction can run several weeks, especially if materials are on back order or if permits are required for structural work.
+For a Category 1 loss caught quickly with minimal material removal, reconstruction might take a day or two. For a loss involving significant demo, a flooded bathroom that required removing tile, subfloor, and lower wall sections, reconstruction can run several weeks, especially if materials are on back order or if permits are required for structural work.
 
 The total time from water event to finished repairs: anywhere from **one week on the short end to four to six weeks** for a larger, more complex loss.
 
@@ -83,4 +83,4 @@ The total time from water event to finished repairs: anywhere from **one week on
 
 If you're reading this because you're standing in a wet room right now, the most useful thing to know is that the timeline is largely determined by decisions made in the first few hours. The longer water sits in contact with porous materials, the deeper it goes and the harder it is to reverse.
 
-PuroClean of East Las Vegas handles water damage restoration throughout the valley. If you want a professional assessment of what you're dealing with — including a realistic timeline and what your insurance claim process might look like — call **(702) 551-3040**. Even if you're not ready to hire anyone yet, knowing what you're working with helps you make a better decision.
+PuroClean of East Las Vegas handles water damage restoration throughout the valley. If you want a professional assessment of what you're dealing with, including a realistic timeline and what your insurance claim process might look like, call **(702) 551-3040**. Even if you're not ready to hire anyone yet, knowing what you're working with helps you make a better decision.

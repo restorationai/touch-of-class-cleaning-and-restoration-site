@@ -21,40 +21,40 @@ service_display: "Unattended Death Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
-Everett's older housing stock — particularly the pre-1960s craftsman and bungalow-style homes concentrated in Bayside and along the Riverside corridor — creates a specific challenge when an unattended death goes undiscovered for days or weeks. Tight crawl spaces, original hardwood subfloors, and plaster-over-lath wall construction absorb biological material in ways that modern homes simply don't. By the time a neighbor notices something is wrong, or a property manager in the 98201 zip code receives a welfare call, the remediation scope is often deeper than it first appears. National Restoration Construction handles these situations with the discretion, credentials, and technical capability the circumstances demand.
+Everett's older housing stock, particularly the pre-1960s craftsman and bungalow-style homes concentrated in Bayside and along the Riverside corridor, creates a specific challenge when an unattended death goes undiscovered for days or weeks. Tight crawl spaces, original hardwood subfloors, and plaster-over-lath wall construction absorb biological material in ways that modern homes simply don't. By the time a neighbor notices something is wrong, or a property manager in the 98201 zip code receives a welfare call, the remediation scope is often deeper than it first appears. National Restoration Construction handles these situations with the discretion, credentials, and technical capability the circumstances demand.
 
 ## Why Everett's Building Stock Shapes This Work
 
 Homes in Bayside and Northwest Everett that were built before World War II often have no vapor barrier beneath the subfloor, meaning biological contamination can migrate downward into the crawl space before it's visible at the surface. Silver Lake's newer subdivisions present a different problem: engineered hardwood and laminate flooring installed over concrete slabs can trap odor-causing compounds underneath with almost no visible indication above. Neither situation resolves with surface cleaning alone.
 
-Snohomish County's damp maritime climate — the same moisture pattern that drives Snohomish River flooding in low-lying areas — accelerates decomposition and odor development in ways that are measurably faster than in drier inland climates. Relative humidity in Everett regularly runs 75–85% during fall and winter months, which means that even a short discovery delay can result in significant secondary contamination of porous materials like insulation, carpet padding, and wood framing.
+Snohomish County's damp maritime climate, the same moisture pattern that drives Snohomish River flooding in low-lying areas, accelerates decomposition and odor development in ways that are measurably faster than in drier inland climates. Relative humidity in Everett regularly runs 75–85% during fall and winter months, which means that even a short discovery delay can result in significant secondary contamination of porous materials like insulation, carpet padding, and wood framing.
 
 ## Our Cleanup Process in Everett
 
-Every call begins with a discreet arrival — unmarked vehicles, no signage, no unnecessary personnel on the property. We coordinate directly with the family, estate attorney, or property manager, whoever is the appropriate point of contact, before we set foot inside.
+Every call begins with a discreet arrival, unmarked vehicles, no signage, no unnecessary personnel on the property. We coordinate directly with the family, estate attorney, or property manager, whoever is the appropriate point of contact, before we set foot inside.
 
 The technical process follows IICRC and ANSI standards for biohazard remediation:
 
-- **Containment** — affected areas are isolated using negative air pressure to prevent cross-contamination to the rest of the structure.
-- **Material removal** — porous materials that cannot be decontaminated to a safe standard are carefully removed and disposed of through licensed biohazard waste carriers operating in Snohomish County.
-- **Surface treatment** — EPA-registered disinfectants are applied to all affected hard surfaces, followed by verification testing.
-- **Odor neutralization** — hydroxyl generators and thermal fogging address odor compounds that have migrated into wall cavities, HVAC systems, and subfloor spaces. In Everett's older homes, this step often takes longer than in newer construction because the odor has had more pathways to travel.
-- **Final clearance** — we document the remediation and can coordinate third-party verification testing if required by an insurer or estate proceeding.
+- **Containment**, affected areas are isolated using negative air pressure to prevent cross-contamination to the rest of the structure.
+- **Material removal**, porous materials that cannot be decontaminated to a safe standard are carefully removed and disposed of through licensed biohazard waste carriers operating in Snohomish County.
+- **Surface treatment**, EPA-registered disinfectants are applied to all affected hard surfaces, followed by verification testing.
+- **Odor neutralization**, hydroxyl generators and thermal fogging address odor compounds that have migrated into wall cavities, HVAC systems, and subfloor spaces. In Everett's older homes, this step often takes longer than in newer construction because the odor has had more pathways to travel.
+- **Final clearance**, we document the remediation and can coordinate third-party verification testing if required by an insurer or estate proceeding.
 
-National Restoration Construction holds a Washington State General Contractor Certificate of Registration and is IICRC Certified, EPA Certified, and Lead-Safe Certified — the last of which matters specifically in Everett's pre-1978 housing stock, where disturbing building materials during remediation requires lead-safe work practices.
+National Restoration Construction holds a Washington State General Contractor Certificate of Registration and is IICRC Certified, EPA Certified, and Lead-Safe Certified, the last of which matters specifically in Everett's pre-1978 housing stock, where disturbing building materials during remediation requires lead-safe work practices.
 
 ## Response Time from Federal Way to Everett
 
-Our headquarters is in Federal Way, roughly 35–45 miles south of Everett via I-5. Under normal traffic conditions, we can have a crew on-site in Everett within 90 minutes of your call. For properties near Naval Station Everett or Forest Park — areas we reach via SR-99 or I-5 to SR-526 — the route is straightforward. We stage out of the vehicle, not a storefront, so there's no secondary dispatch delay.
+Our headquarters is in Federal Way, roughly 35–45 miles south of Everett via I-5. Under normal traffic conditions, we can have a crew on-site in Everett within 90 minutes of your call. For properties near Naval Station Everett or Forest Park, areas we reach via SR-99 or I-5 to SR-526, the route is straightforward. We stage out of the vehicle, not a storefront, so there's no secondary dispatch delay.
 
-For situations where the property is occupied by other residents or tenants, we can schedule arrival outside of peak hours to minimize visibility. Call (206) 883-0333 any time — this line is answered around the clock.
+For situations where the property is occupied by other residents or tenants, we can schedule arrival outside of peak hours to minimize visibility. Call (206) 883-0333 any time, this line is answered around the clock.
 
 ## Insurance and Estate Coordination in Snohomish County
 
-Homeowner's insurance policies in Washington State vary considerably in how they handle unattended death cleanup. Some policies cover it under the dwelling's additional coverage provisions; others require a specific rider. We work directly with adjusters and can provide the documentation — scope of work, material removal logs, photo evidence suitable for a claim file — that Snohomish County insurers typically require. If the property is part of an estate in probate, we can coordinate with the estate attorney or personal representative to ensure the work is authorized and documented correctly before we begin.
+Homeowner's insurance policies in Washington State vary considerably in how they handle unattended death cleanup. Some policies cover it under the dwelling's additional coverage provisions; others require a specific rider. We work directly with adjusters and can provide the documentation, scope of work, material removal logs, photo evidence suitable for a claim file, that Snohomish County insurers typically require. If the property is part of an estate in probate, we can coordinate with the estate attorney or personal representative to ensure the work is authorized and documented correctly before we begin.
 
 ## Local Note
 
-In Everett's Bayside neighborhood specifically, we've encountered a recurring situation worth knowing about: many of the older single-story homes there have original cast-iron drain lines beneath the slab or crawl space that are partially corroded. During remediation, when we introduce water-based cleaning agents, those lines can back up unexpectedly. We inspect drain access points before beginning any wet phase of the cleanup — a step that isn't standard protocol everywhere but has saved several Everett jobs from a secondary water damage event on top of an already difficult situation.
+In Everett's Bayside neighborhood specifically, we've encountered a recurring situation worth knowing about: many of the older single-story homes there have original cast-iron drain lines beneath the slab or crawl space that are partially corroded. During remediation, when we introduce water-based cleaning agents, those lines can back up unexpectedly. We inspect drain access points before beginning any wet phase of the cleanup, a step that isn't standard protocol everywhere but has saved several Everett jobs from a secondary water damage event on top of an already difficult situation.
 
-If you're managing a property in Everett and facing this situation, you don't have to figure out the logistics alone. National Restoration Construction has handled unattended death cleanup throughout Snohomish County since 2004. Call (206) 883-0333 — we'll walk you through what happens next, at whatever pace you need.
+If you're managing a property in Everett and facing this situation, you don't have to figure out the logistics alone. National Restoration Construction has handled unattended death cleanup throughout Snohomish County since 2004. Call (206) 883-0333, we'll walk you through what happens next, at whatever pace you need.

@@ -20,13 +20,13 @@ state: "SD"
 service_display: "Renovations, Remodels and General Contracting"
 rendered: true
 ---
-Worthing has been quietly transforming over the past decade. What started as a small farming community along I-29 has grown into one of Lincoln County's most active bedroom communities, drawing families who want a quieter address without losing easy access to Sioux Falls. That growth means a lot of homes in the 57077 ZIP code are either being stretched to fit new needs — extra bedrooms, updated kitchens, finished basements — or being rebuilt after storm or water damage that went further than the original contractor anticipated. Crew Restoration & Construction works across Worthing and the surrounding corridor, handling everything from targeted bathroom remodels to full post-damage rebuilds under one general contracting roof.
+Worthing has been quietly transforming over the past decade. What started as a small farming community along I-29 has grown into one of Lincoln County's most active bedroom communities, drawing families who want a quieter address without losing easy access to Sioux Falls. That growth means a lot of homes in the 57077 ZIP code are either being stretched to fit new needs, extra bedrooms, updated kitchens, finished basements, or being rebuilt after storm or water damage that went further than the original contractor anticipated. Crew Restoration & Construction works across Worthing and the surrounding corridor, handling everything from targeted bathroom remodels to full post-damage rebuilds under one general contracting roof.
 
 ## Why Worthing's Growth Creates Unique Renovation Demands
 
-Building a bedroom community fast comes with trade-offs. Many of the homes that went up in and around Worthing during the early 2000s construction boom were built quickly to meet demand, and some of that speed shows up now in the form of builder-grade finishes, undersized HVAC systems, and layouts that made sense for a starter home but feel cramped once a family grows into them. Homeowners near Downtown Worthing often find themselves weighing whether to move or invest — and increasingly, they're choosing to invest.
+Building a bedroom community fast comes with trade-offs. Many of the homes that went up in and around Worthing during the early 2000s construction boom were built quickly to meet demand, and some of that speed shows up now in the form of builder-grade finishes, undersized HVAC systems, and layouts that made sense for a starter home but feel cramped once a family grows into them. Homeowners near Downtown Worthing often find themselves weighing whether to move or invest, and increasingly, they're choosing to invest.
 
-The South Dakota climate adds its own pressure. Freeze-thaw cycles hit Lincoln County hard through late winter and early spring, and the expansive clay soils common in this part of the state shift enough to crack foundations, misalign door frames, and stress plumbing chases. A kitchen remodel that looks straightforward on the surface can reveal subfloor damage or out-of-plumb walls once the old cabinets come down. Having a general contractor who expects those surprises — rather than one who bills them as costly change orders — makes a real difference in how a project finishes.
+The South Dakota climate adds its own pressure. Freeze-thaw cycles hit Lincoln County hard through late winter and early spring, and the expansive clay soils common in this part of the state shift enough to crack foundations, misalign door frames, and stress plumbing chases. A kitchen remodel that looks straightforward on the surface can reveal subfloor damage or out-of-plumb walls once the old cabinets come down. Having a general contractor who expects those surprises, rather than one who bills them as costly change orders, makes a real difference in how a project finishes.
 
 ## Our General Contracting Process in Worthing
 
@@ -36,11 +36,11 @@ From there, the process breaks into clear phases:
 
 - **Scope and permitting**: Lincoln County building permits are handled through the county's planning and zoning office. We manage that paperwork so you're not chasing signatures while trying to coordinate subcontractors.
 - **Demolition and discovery**: This is where hidden conditions surface. We document everything and walk you through any changes before work continues.
-- **Rough-in trades**: Framing, electrical, plumbing, and HVAC rough-ins are sequenced to pass inspection in a single visit when possible — fewer delays, tighter timelines.
+- **Rough-in trades**: Framing, electrical, plumbing, and HVAC rough-ins are sequenced to pass inspection in a single visit when possible, fewer delays, tighter timelines.
 - **Finish work**: Drywall, flooring, cabinetry, tile, and paint are coordinated so trades aren't waiting on each other.
 - **Final walkthrough**: We go room by room with you before we consider the job closed.
 
-For post-damage rebuilds — situations where a burst pipe, fire, or severe weather event has already torn into the structure — we integrate the rebuild scope with whatever documentation your insurance adjuster needs, keeping the project moving rather than stalling while paperwork catches up.
+For post-damage rebuilds, situations where a burst pipe, fire, or severe weather event has already torn into the structure, we integrate the rebuild scope with whatever documentation your insurance adjuster needs, keeping the project moving rather than stalling while paperwork catches up.
 
 ## Reaching Worthing from Our Sioux Falls Base
 
@@ -48,6 +48,6 @@ Crew Restoration & Construction operates out of Sioux Falls, and Worthing sits a
 
 ## Local Note: Watch the Basement Moisture in Newer Builds
 
-Here's something that comes up repeatedly in Worthing's newer subdivisions: homes built in the 2000s and early 2010s often have poured concrete basements with drain tile systems that were correctly installed at the time but weren't sized for the way the lots have settled and graded over 15–20 years. When homeowners in East Worthing decide to finish their basements — adding a bedroom, a rec room, or a home office — we almost always recommend a moisture assessment before framing begins. Finishing over a basement that has even minor seasonal seepage traps that moisture inside the wall cavity, and what looked like a cosmetic upgrade becomes a mold remediation project within a few years. A simple drainage inspection at the start saves a much harder conversation later.
+Here's something that comes up repeatedly in Worthing's newer subdivisions: homes built in the 2000s and early 2010s often have poured concrete basements with drain tile systems that were correctly installed at the time but weren't sized for the way the lots have settled and graded over 15–20 years. When homeowners in East Worthing decide to finish their basements, adding a bedroom, a rec room, or a home office, we almost always recommend a moisture assessment before framing begins. Finishing over a basement that has even minor seasonal seepage traps that moisture inside the wall cavity, and what looked like a cosmetic upgrade becomes a mold remediation project within a few years. A simple drainage inspection at the start saves a much harder conversation later.
 
-If you're ready to talk through a renovation, remodel, or rebuild project in Worthing, call Crew Restoration & Construction at (605) 965-2727. We'll schedule a walkthrough, give you a straight assessment of what the project actually involves, and put together a scope that accounts for what's behind your walls — not just what's visible on day one.
+If you're ready to talk through a renovation, remodel, or rebuild project in Worthing, call Crew Restoration & Construction at (605) 965-2727. We'll schedule a walkthrough, give you a straight assessment of what the project actually involves, and put together a scope that accounts for what's behind your walls, not just what's visible on day one.

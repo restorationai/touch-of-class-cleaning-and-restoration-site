@@ -19,42 +19,42 @@ state: "IA"
 primary: false
 rendered: true
 ---
-When a pipe bursts in a century-old farmhouse near Downtown Sibley or a basement floods after a hard northwest Iowa storm, Crew Restoration & Construction dispatches a crew from our Sioux Falls base to handle the full scope — water extraction, structural drying, mold containment, fire and smoke cleanup, and reconstruction — so Sibley property owners are dealing with one team from the first call to the final walkthrough. Reach us at **(605) 965-2727**.
+When a pipe bursts in a century-old farmhouse near Downtown Sibley or a basement floods after a hard northwest Iowa storm, Crew Restoration & Construction dispatches a crew from our Sioux Falls base to handle the full scope, water extraction, structural drying, mold containment, fire and smoke cleanup, and reconstruction, so Sibley property owners are dealing with one team from the first call to the final walkthrough. Reach us at **(605) 965-2727**.
 
 ## Restoration emergencies common in Sibley
 
-Sibley sits in Osceola County's flat, open terrain where weather systems roll in fast and hit hard. Winter brings freeze-thaw cycles that stress older plumbing — particularly in the brick and wood-frame homes that line the streets around the Osceola County Courthouse and throughout the compact historic downtown. When temperatures swing 40 degrees in 24 hours, supply lines and hose bibs that have been serviceable for decades can split overnight.
+Sibley sits in Osceola County's flat, open terrain where weather systems roll in fast and hit hard. Winter brings freeze-thaw cycles that stress older plumbing, particularly in the brick and wood-frame homes that line the streets around the Osceola County Courthouse and throughout the compact historic downtown. When temperatures swing 40 degrees in 24 hours, supply lines and hose bibs that have been serviceable for decades can split overnight.
 
-Spring snowmelt and summer convective storms are the other major drivers. The relatively shallow water table across northwest Iowa means that even a few inches of rain can overwhelm sump systems and push groundwater into crawl spaces and lower levels. Homes near the Osceola County Fairgrounds area — many of them older wood-frame construction — are particularly susceptible to moisture intrusion that goes unnoticed until mold has had 48 to 72 hours to begin colonizing wall cavities and subfloor assemblies. Wind-driven hail and occasional tornado activity also produce roof breaches that let water migrate into attic insulation and ceiling joists before anyone sees a water stain.
+Spring snowmelt and summer convective storms are the other major drivers. The relatively shallow water table across northwest Iowa means that even a few inches of rain can overwhelm sump systems and push groundwater into crawl spaces and lower levels. Homes near the Osceola County Fairgrounds area, many of them older wood-frame construction, are particularly susceptible to moisture intrusion that goes unnoticed until mold has had 48 to 72 hours to begin colonizing wall cavities and subfloor assemblies. Wind-driven hail and occasional tornado activity also produce roof breaches that let water migrate into attic insulation and ceiling joists before anyone sees a water stain.
 
 ## Services we provide in Sibley
 
 ### Water damage restoration
 
-Water damage in Sibley often starts small — a slow roof leak, a failed sump pump, a cracked supply line — and grows quickly in the tight wall cavities common to older construction in the 51249 ZIP code. We extract standing water, deploy industrial drying equipment calibrated to the IICRC S500 standard, and use moisture mapping to confirm walls and floors are dry before any reconstruction begins. Skipping that step is how mold problems develop after a water loss.
+Water damage in Sibley often starts small, a slow roof leak, a failed sump pump, a cracked supply line, and grows quickly in the tight wall cavities common to older construction in the 51249 ZIP code. We extract standing water, deploy industrial drying equipment calibrated to the IICRC S500 standard, and use moisture mapping to confirm walls and floors are dry before any reconstruction begins. Skipping that step is how mold problems develop after a water loss.
 
 ### Mold remediation
 
-Northwest Iowa's humid summers and the moisture-retentive soils around Sibley create conditions where mold can establish in a crawl space or basement within days of a water event. We contain affected areas, remove compromised materials, treat structural surfaces, and clear the space before reconstruction — without making guarantees about air quality that only post-remediation testing can confirm.
+Northwest Iowa's humid summers and the moisture-retentive soils around Sibley create conditions where mold can establish in a crawl space or basement within days of a water event. We contain affected areas, remove compromised materials, treat structural surfaces, and clear the space before reconstruction, without making guarantees about air quality that only post-remediation testing can confirm.
 
 ### Fire and smoke damage restoration
 
-House fires in Sibley's older housing stock — many homes date to the early and mid-twentieth century — often involve wood lath, plaster, and original millwork that absorb smoke odor deeply. We address both the visible char and the invisible smoke residue that migrates into HVAC systems, attic spaces, and wall cavities, because incomplete cleanup is what causes odor to return months later.
+House fires in Sibley's older housing stock, many homes date to the early and mid-twentieth century, often involve wood lath, plaster, and original millwork that absorb smoke odor deeply. We address both the visible char and the invisible smoke residue that migrates into HVAC systems, attic spaces, and wall cavities, because incomplete cleanup is what causes odor to return months later.
 
 ### Reconstruction
 
-Because we handle both restoration and construction, Sibley property owners don't need to find a separate contractor once the damaged materials are out. We rebuild framing, drywall, flooring, and exterior elements — and we coordinate directly with insurance adjusters throughout the process.
+Because we handle both restoration and construction, Sibley property owners don't need to find a separate contractor once the damaged materials are out. We rebuild framing, drywall, flooring, and exterior elements, and we coordinate directly with insurance adjusters throughout the process.
 
 ## Coverage and how fast we can get there
 
-Sibley is approximately 90 miles northeast of our Sioux Falls headquarters, a straight shot east on I-90 and then north on US-75. That route is generally reliable year-round, though northwest Iowa winters can slow travel on US-75 north of Sheldon during active storm events. We serve all of Sibley, including Downtown Sibley, the Osceola County Fairgrounds area, and surrounding rural Osceola County addresses in the 51249 ZIP code. When you call **(605) 965-2727)**, we can give you a realistic arrival window based on current conditions and crew availability — we won't quote a time we can't keep.
+Sibley is approximately 90 miles northeast of our Sioux Falls headquarters, a straight shot east on I-90 and then north on US-75. That route is generally reliable year-round, though northwest Iowa winters can slow travel on US-75 north of Sheldon during active storm events. We serve all of Sibley, including Downtown Sibley, the Osceola County Fairgrounds area, and surrounding rural Osceola County addresses in the 51249 ZIP code. When you call **(605) 965-2727)**, we can give you a realistic arrival window based on current conditions and crew availability, we won't quote a time we can't keep.
 
 ## Building stock, site conditions, and permits in Sibley
 
-Most in-town housing here predates the 1960s, and Iowa's frost depth means those homes sit on full basements rather than slabs — usually poured concrete, with brick, block, or stone under the oldest ones. Water that gets in soaks the rim joist and sill first, and stone or mortared block walls hold that moisture long after the floor looks dry.
+Most in-town housing here predates the 1960s, and Iowa's frost depth means those homes sit on full basements rather than slabs, usually poured concrete, with brick, block, or stone under the oldest ones. Water that gets in soaks the rim joist and sill first, and stone or mortared block walls hold that moisture long after the floor looks dry.
 
 Era-typical plumbing is galvanized steel supply and cast iron drains, later patched with copper. Galvanized fails from the inside as scale closes it off, then it weeps at threaded joints. Anything built before 1978 should be assumed to have lead paint, and pre-war homes may have knob-and-tube wiring or asbestos duct and pipe wrap that changes how demolition is staged.
 
 Structural repair or rebuild inside city limits is permitted through the City of Sibley; rural Osceola County addresses go through the county.
 
-If you're dealing with water, fire, mold, or storm damage at a Sibley property, call Crew Restoration & Construction at **(605) 965-2727**. We'll tell you honestly what we're seeing, what it takes to fix it, and how the insurance process works — no pressure, no guesswork.
+If you're dealing with water, fire, mold, or storm damage at a Sibley property, call Crew Restoration & Construction at **(605) 965-2727**. We'll tell you honestly what we're seeing, what it takes to fix it, and how the insurance process works, no pressure, no guesswork.

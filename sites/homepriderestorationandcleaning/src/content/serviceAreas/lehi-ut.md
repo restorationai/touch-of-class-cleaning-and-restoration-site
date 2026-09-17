@@ -19,17 +19,17 @@ state: "UT"
 primary: false
 rendered: true
 ---
-When water is pooling under your hardwood floors at 2 a.m., or smoke smell has soaked into every wall of your home, you need someone who knows Lehi — not a dispatcher routing calls from three states away. Home Pride Restoration and Cleaning has been handling water damage, fire and smoke cleanup, mold remediation, and full reconstruction for Lehi property owners since 1997. Our crew runs out of Saratoga Springs, which puts us minutes from most of the city, and we carry the IICRC certifications and insurance-billing experience to move fast without cutting corners.
+When water is pooling under your hardwood floors at 2 a.m., or smoke smell has soaked into every wall of your home, you need someone who knows Lehi, not a dispatcher routing calls from three states away. Home Pride Restoration and Cleaning has been handling water damage, fire and smoke cleanup, mold remediation, and full reconstruction for Lehi property owners since 1997. Our crew runs out of Saratoga Springs, which puts us minutes from most of the city, and we carry the IICRC certifications and insurance-billing experience to move fast without cutting corners.
 
 ## Restoration emergencies common in Lehi
 
-Lehi sits at roughly 4,550 feet elevation on the bench above Utah Lake, and the combination of hard freeze-thaw cycles, rapid new construction, and a water table that rises every spring creates a predictable calendar of damage events. Pipe bursts cluster in January and February when overnight lows drop into the single digits and builders' supply lines in newer subdivisions freeze before homeowners realize the heat tape has failed. Spring snowmelt pushes groundwater up through slab foundations and window wells in lower-lying pockets of the city, particularly in areas closer to the lake. Summer monsoon cells drop an inch of rain in twenty minutes, overwhelming gutters and sending water into finished basements that were bone-dry all winter. On top of climate, Lehi's housing stock spans everything from 1970s ranch homes with aging galvanized supply lines to brand-new construction where caulking and waterproofing details are still curing — each era brings its own failure modes.
+Lehi sits at roughly 4,550 feet elevation on the bench above Utah Lake, and the combination of hard freeze-thaw cycles, rapid new construction, and a water table that rises every spring creates a predictable calendar of damage events. Pipe bursts cluster in January and February when overnight lows drop into the single digits and builders' supply lines in newer subdivisions freeze before homeowners realize the heat tape has failed. Spring snowmelt pushes groundwater up through slab foundations and window wells in lower-lying pockets of the city, particularly in areas closer to the lake. Summer monsoon cells drop an inch of rain in twenty minutes, overwhelming gutters and sending water into finished basements that were bone-dry all winter. On top of climate, Lehi's housing stock spans everything from 1970s ranch homes with aging galvanized supply lines to brand-new construction where caulking and waterproofing details are still curing, each era brings its own failure modes.
 
 ## Services we provide in Lehi
 
 ### Water damage restoration
 
-Water damage in Lehi often involves finished basements — the city's newer developments are built with full lower levels that families use as primary living space. When a supply line fails or a water heater lets go, that finished square footage is at risk within minutes. We extract standing water, map moisture with thermal imaging, and set drying equipment calibrated for Utah's low-humidity air, which pulls moisture faster than coastal climates but can also mask hidden pockets of saturation if you stop too soon.
+Water damage in Lehi often involves finished basements, the city's newer developments are built with full lower levels that families use as primary living space. When a supply line fails or a water heater lets go, that finished square footage is at risk within minutes. We extract standing water, map moisture with thermal imaging, and set drying equipment calibrated for Utah's low-humidity air, which pulls moisture faster than coastal climates but can also mask hidden pockets of saturation if you stop too soon.
 
 ### Fire and smoke damage restoration
 
@@ -41,19 +41,19 @@ Mold can begin colonizing wet drywall in as little as 24 to 48 hours. Lehi's new
 
 ### Biohazard and specialty cleanup
 
-We handle sewage backups, trauma scenes, and hoarding cleanouts with full PPE and proper waste disposal — work that most general contractors won't touch. Sewage intrusions are more common than homeowners expect in Lehi's older neighborhoods where municipal laterals have aged alongside the housing stock.
+We handle sewage backups, trauma scenes, and hoarding cleanouts with full PPE and proper waste disposal, work that most general contractors won't touch. Sewage intrusions are more common than homeowners expect in Lehi's older neighborhoods where municipal laterals have aged alongside the housing stock.
 
 ### Reconstruction
 
-Once mitigation is complete, we rebuild — drywall, flooring, cabinetry, painting. Keeping mitigation and reconstruction under one contractor means your insurance adjuster works with one point of contact and your project doesn't stall waiting for a separate GC to schedule.
+Once mitigation is complete, we rebuild, drywall, flooring, cabinetry, painting. Keeping mitigation and reconstruction under one contractor means your insurance adjuster works with one point of contact and your project doesn't stall waiting for a separate GC to schedule.
 
 ## Response time and coverage
 
-Our Saratoga Springs headquarters is roughly 10 to 15 minutes from most of Lehi via Redwood Road or SR-68, depending on traffic. For the majority of calls in the 84043 and 84045 ZIP codes, we can have a technician on-site within 45 to 60 minutes of your call — often faster during off-peak hours. We cover all of Lehi's residential and commercial corridors, including the high-growth areas along the Silicon Slopes tech corridor near Thanksgiving Point, as well as established neighborhoods closer to Main Street and the older sections of the city near the Lehi Round-Up Rodeo Grounds.
+Our Saratoga Springs headquarters is roughly 10 to 15 minutes from most of Lehi via Redwood Road or SR-68, depending on traffic. For the majority of calls in the 84043 and 84045 ZIP codes, we can have a technician on-site within 45 to 60 minutes of your call, often faster during off-peak hours. We cover all of Lehi's residential and commercial corridors, including the high-growth areas along the Silicon Slopes tech corridor near Thanksgiving Point, as well as established neighborhoods closer to Main Street and the older sections of the city near the Lehi Round-Up Rodeo Grounds.
 
 ## Building stock, site conditions, and permits in Lehi
 
-Lehi was settled in the 1850s, and the older blocks near the town center still hold brick houses from that era — unreinforced masonry, plaster over wood lath, and shallow crawlspaces or hand-dug basements. Plaster holds water far longer than drywall and has to be dried in place or cut out deliberately. Anything built before about 1980 gets checked for asbestos in joint compound, floor tile, and pipe wrap, and pre-1978 paint is treated as lead-bearing until testing says otherwise. Mid-century homes often still drain through cast iron, which rusts thin along the bottom of the pipe and weeps behind a wall for months before it gives.
+Lehi was settled in the 1850s, and the older blocks near the town center still hold brick houses from that era, unreinforced masonry, plaster over wood lath, and shallow crawlspaces or hand-dug basements. Plaster holds water far longer than drywall and has to be dried in place or cut out deliberately. Anything built before about 1980 gets checked for asbestos in joint compound, floor tile, and pipe wrap, and pre-1978 paint is treated as lead-bearing until testing says otherwise. Mid-century homes often still drain through cast iron, which rusts thin along the bottom of the pipe and weeps behind a wall for months before it gives.
 
 Structural repair and rebuilds are permitted through Lehi City's building division under Utah's statewide construction code. Utah County sits along the Wasatch Front, so replacing shear walls or bearing framing brings seismic detailing into the scope.
 

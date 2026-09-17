@@ -19,27 +19,27 @@ state: "TX"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall or a storm pushes water under a door, Rockwall property owners need someone who knows the area and can move quickly. Reign Restoration handles water damage mitigation, fire and smoke cleanup, mold remediation, and reconstruction for homes and commercial properties throughout Rockwall County — working directly with insurance carriers and staying on the job from first call to final walkthrough.
+When a pipe bursts behind a wall or a storm pushes water under a door, Rockwall property owners need someone who knows the area and can move quickly. Reign Restoration handles water damage mitigation, fire and smoke cleanup, mold remediation, and reconstruction for homes and commercial properties throughout Rockwall County, working directly with insurance carriers and staying on the job from first call to final walkthrough.
 
 ## Restoration emergencies common in Rockwall
 
-Rockwall sits on the eastern shore of Lake Ray Hubbard, and that geography shapes the kind of damage local properties absorb. The lake moderates temperatures slightly but also keeps humidity elevated through spring and fall — conditions that let mold colonize wet drywall in as little as 48 to 72 hours after a leak. North Texas storm seasons bring hail that punches through roofing and attic insulation, leaving water intrusion paths that homeowners sometimes don't discover until a ceiling stain appears weeks later.
+Rockwall sits on the eastern shore of Lake Ray Hubbard, and that geography shapes the kind of damage local properties absorb. The lake moderates temperatures slightly but also keeps humidity elevated through spring and fall, conditions that let mold colonize wet drywall in as little as 48 to 72 hours after a leak. North Texas storm seasons bring hail that punches through roofing and attic insulation, leaving water intrusion paths that homeowners sometimes don't discover until a ceiling stain appears weeks later.
 
-The housing stock adds another layer. Rockwall has grown fast over the past two decades, and that means a wide mix of construction vintages sitting side by side — older slab foundations in established neighborhoods that can shift and crack supply lines, alongside newer builds where builder-grade materials sometimes show stress earlier than expected. Crawl spaces are less common here than in older Texas cities, but finished basements and lower-level media rooms in lakeside properties do flood. When they do, standing water under engineered hardwood or laminate flooring can destroy a subfloor before the surface shows visible damage.
+The housing stock adds another layer. Rockwall has grown fast over the past two decades, and that means a wide mix of construction vintages sitting side by side, older slab foundations in established neighborhoods that can shift and crack supply lines, alongside newer builds where builder-grade materials sometimes show stress earlier than expected. Crawl spaces are less common here than in older Texas cities, but finished basements and lower-level media rooms in lakeside properties do flood. When they do, standing water under engineered hardwood or laminate flooring can destroy a subfloor before the surface shows visible damage.
 
 ## Services we provide in Rockwall
 
 ### Water damage mitigation
 
-Water damage in Rockwall often starts with a slow leak — a supply line behind a refrigerator, a failing wax ring under a toilet, or an HVAC condensate line that backs up during a humid July. By the time the damage is visible, moisture has usually traveled further than it looks. Reign Restoration uses thermal imaging and moisture meters to map the full extent before any drying equipment is placed, then follows IICRC S500 drying protocols to document the process for your insurance adjuster.
+Water damage in Rockwall often starts with a slow leak, a supply line behind a refrigerator, a failing wax ring under a toilet, or an HVAC condensate line that backs up during a humid July. By the time the damage is visible, moisture has usually traveled further than it looks. Reign Restoration uses thermal imaging and moisture meters to map the full extent before any drying equipment is placed, then follows IICRC S500 drying protocols to document the process for your insurance adjuster.
 
 ### Fire and smoke damage restoration
 
-After a kitchen fire or an electrical event, the visible char is rarely the whole problem. Smoke residue migrates through HVAC systems and settles into porous materials — insulation, cabinetry, soft furnishings — leaving an odor that resurfaces months later if it isn't properly neutralized. Reign Restoration performs full structural cleaning, content pack-out when needed, and odor neutralization rather than masking.
+After a kitchen fire or an electrical event, the visible char is rarely the whole problem. Smoke residue migrates through HVAC systems and settles into porous materials, insulation, cabinetry, soft furnishings, leaving an odor that resurfaces months later if it isn't properly neutralized. Reign Restoration performs full structural cleaning, content pack-out when needed, and odor neutralization rather than masking.
 
 ### Mold remediation
 
-Rockwall's humidity levels mean that any water intrusion left unaddressed for more than a few days carries real mold risk. Reign Restoration contains affected areas, removes compromised materials, and treats surfaces before reconstruction — then documents the remediation scope so your insurer and any future buyer have a clear record.
+Rockwall's humidity levels mean that any water intrusion left unaddressed for more than a few days carries real mold risk. Reign Restoration contains affected areas, removes compromised materials, and treats surfaces before reconstruction, then documents the remediation scope so your insurer and any future buyer have a clear record.
 
 ### Reconstruction
 
@@ -53,7 +53,7 @@ Reign Restoration is headquartered in Royse City, which sits roughly 10 to 12 mi
 
 Most of Rockwall sits on Blackland Prairie clay, which swells when it rains and shrinks hard in a dry August. That movement is why slab-on-grade homes here crack tile, stick doors, and occasionally shear a supply line under the concrete. Drying a slab leak means dealing with wet perimeter framing and baseboard cavities, not just the surface.
 
-The supply and drain vintage matters too. Homes built through the 1990s often ran copper with cast iron drains; anything built in the last twenty years is usually PEX or CPVC, much of it routed through the attic — which is exactly what fails during a North Texas hard freeze.
+The supply and drain vintage matters too. Homes built through the 1990s often ran copper with cast iron drains; anything built in the last twenty years is usually PEX or CPVC, much of it routed through the attic, which is exactly what fails during a North Texas hard freeze.
 
 For structural repair or rebuild, permits come through the City of Rockwall's building inspections office, and newer subdivisions frequently add HOA approval for anything visible from the street.
 

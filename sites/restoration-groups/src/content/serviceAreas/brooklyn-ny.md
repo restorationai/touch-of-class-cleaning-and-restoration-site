@@ -19,23 +19,23 @@ state: "NY"
 primary: false
 rendered: true
 ---
-Brooklyn properties take a beating — from nor'easters that push water through century-old brownstone foundations to burst pipes in co-op buildings that soak three floors before anyone notices. The Restoration Group dispatches crews around the clock from our Kenilworth, NJ base to handle water damage, fire and smoke damage, mold remediation, and full reconstruction for homeowners, landlords, and property managers across the borough. We carry the documentation your insurer and your co-op board will actually accept.
+Brooklyn properties take a beating, from nor'easters that push water through century-old brownstone foundations to burst pipes in co-op buildings that soak three floors before anyone notices. The Restoration Group dispatches crews around the clock from our Kenilworth, NJ base to handle water damage, fire and smoke damage, mold remediation, and full reconstruction for homeowners, landlords, and property managers across the borough. We carry the documentation your insurer and your co-op board will actually accept.
 
 ## Restoration emergencies common in Brooklyn
 
-Brooklyn's housing stock is the core of the problem. The brownstone belt running through Park Slope, Brooklyn Heights, and the Bed-Stuy fringe is largely 1880s–1920s masonry construction — beautiful, but built before modern waterproofing standards existed. Garden-level and cellar apartments sit below grade, which means they flood first and drain last. When Tropical Storm Ida dropped record rainfall on the city, basement flooding became a borough-wide emergency overnight, and units in ZIP codes like 11215 and 11201 were among the hardest hit.
+Brooklyn's housing stock is the core of the problem. The brownstone belt running through Park Slope, Brooklyn Heights, and the Bed-Stuy fringe is largely 1880s–1920s masonry construction, beautiful, but built before modern waterproofing standards existed. Garden-level and cellar apartments sit below grade, which means they flood first and drain last. When Tropical Storm Ida dropped record rainfall on the city, basement flooding became a borough-wide emergency overnight, and units in ZIP codes like 11215 and 11201 were among the hardest hit.
 
-Coastal exposure adds a second layer of risk. Neighborhoods from Canarsie to the Coney Island boardwalk carry genuine storm-surge memory from Sandy, and that vulnerability hasn't gone away. Bay Ridge (11209) sits on higher ground but still sees sewer backups during heavy rain events. Williamsburg and Bushwick (11211) have dense mixed-use buildings — a single commercial kitchen fire on the ground floor can push smoke residue into a dozen residential units above it. Original plaster walls, old-growth wood floors, and shared party walls require crews that know how to mitigate damage without creating new problems for neighbors.
+Coastal exposure adds a second layer of risk. Neighborhoods from Canarsie to the Coney Island boardwalk carry genuine storm-surge memory from Sandy, and that vulnerability hasn't gone away. Bay Ridge (11209) sits on higher ground but still sees sewer backups during heavy rain events. Williamsburg and Bushwick (11211) have dense mixed-use buildings, a single commercial kitchen fire on the ground floor can push smoke residue into a dozen residential units above it. Original plaster walls, old-growth wood floors, and shared party walls require crews that know how to mitigate damage without creating new problems for neighbors.
 
 ## Services we provide in Brooklyn
 
 ### Water damage restoration
 
-Water damage in Brooklyn often involves more than a broken supply line. Brownstone garden apartments flood from the street side; co-op buildings flood from failed roof drains or aging standpipes. We extract standing water, map moisture with thermal imaging, and dry structural assemblies — including the thick plaster and brick that hold water longer than modern drywall. Every job is documented with moisture readings and photographs your insurance adjuster can use directly.
+Water damage in Brooklyn often involves more than a broken supply line. Brownstone garden apartments flood from the street side; co-op buildings flood from failed roof drains or aging standpipes. We extract standing water, map moisture with thermal imaging, and dry structural assemblies, including the thick plaster and brick that hold water longer than modern drywall. Every job is documented with moisture readings and photographs your insurance adjuster can use directly.
 
 ### Fire and smoke damage restoration
 
-Smoke from a kitchen fire travels fast through the shared ductwork and open stairwells common in Brooklyn's older multifamily buildings. Soot settles into plaster, woodwork, and HVAC returns within hours, and the odor compounds if remediation is delayed. We contain the affected area, clean or replace smoke-damaged materials, and neutralize odor at the source — not just at the surface.
+Smoke from a kitchen fire travels fast through the shared ductwork and open stairwells common in Brooklyn's older multifamily buildings. Soot settles into plaster, woodwork, and HVAC returns within hours, and the odor compounds if remediation is delayed. We contain the affected area, clean or replace smoke-damaged materials, and neutralize odor at the source, not just at the surface.
 
 ### Mold remediation
 
@@ -43,15 +43,15 @@ Mold can begin colonizing damp materials within 24 to 48 hours of a water event.
 
 ### Reconstruction
 
-After mitigation, many properties need structural repairs — subfloor replacement, plaster restoration, or full room rebuilds. We handle reconstruction in-house so property managers and homeowners aren't coordinating between two separate contractors. That matters in a borough where scheduling a second crew can add weeks to a tenant's displacement.
+After mitigation, many properties need structural repairs, subfloor replacement, plaster restoration, or full room rebuilds. We handle reconstruction in-house so property managers and homeowners aren't coordinating between two separate contractors. That matters in a borough where scheduling a second crew can add weeks to a tenant's displacement.
 
 ## Coverage and how fast we can get there
 
-From our Kenilworth, NJ headquarters, Brooklyn is a direct shot through the Staten Island Expressway and across the Verrazzano-Narrows Bridge — or through the Holland Tunnel and across Lower Manhattan depending on traffic conditions. We serve the full borough: Park Slope and Brooklyn Heights in the northwest, Bay Ridge along the waterfront, Flatbush and Canarsie in the south, and Williamsburg and Bushwick to the north. Because we operate 24/7, a call at 2 a.m. after a pipe bursts in a Prospect Park–area brownstone gets the same response as a call during business hours. We do not promise a specific arrival window in minutes — travel time depends on conditions — but we dispatch immediately and keep you updated en route.
+From our Kenilworth, NJ headquarters, Brooklyn is a direct shot through the Staten Island Expressway and across the Verrazzano-Narrows Bridge, or through the Holland Tunnel and across Lower Manhattan depending on traffic conditions. We serve the full borough: Park Slope and Brooklyn Heights in the northwest, Bay Ridge along the waterfront, Flatbush and Canarsie in the south, and Williamsburg and Bushwick to the north. Because we operate 24/7, a call at 2 a.m. after a pipe bursts in a Prospect Park–area brownstone gets the same response as a call during business hours. We do not promise a specific arrival window in minutes, travel time depends on conditions, but we dispatch immediately and keep you updated en route.
 
 ## Building stock, site conditions, and permits in Brooklyn
 
-Rowhouses here are typically brick or brownstone-faced load-bearing masonry with wood joists pocketed into the party walls, plaster on lath inside, and a flat roof — built-up or modified bitumen over a low slope that drains to interior leaders. When water gets in, it tracks down the inside face of the brick and sits at the joist ends, which is where rot shows up long after the ceiling dries.
+Rowhouses here are typically brick or brownstone-faced load-bearing masonry with wood joists pocketed into the party walls, plaster on lath inside, and a flat roof, built-up or modified bitumen over a low slope that drains to interior leaders. When water gets in, it tracks down the inside face of the brick and sits at the joist ends, which is where rot shows up long after the ceiling dries.
 
 Prewar buildings still hold cast iron drain stacks, galvanized supply lines, knob-and-tube remnants, and lead paint under later coats, plus asbestos pipe insulation in cellars. Any of that changes the demolition scope. Southern Brooklyn sits largely on sandy glacial outwash with a shallow water table near the shore, so cellars take on groundwater as well as street runoff.
 

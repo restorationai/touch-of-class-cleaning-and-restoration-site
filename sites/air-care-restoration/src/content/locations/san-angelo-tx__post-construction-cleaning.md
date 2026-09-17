@@ -20,36 +20,36 @@ state: "TX"
 service_display: "Post-Construction and Specialty Cleaning"
 rendered: true
 ---
-San Angelo's construction season runs hard from late spring through fall, and when crews wrap up a new build or gut-renovation in Tom Green County, they leave behind a particular kind of mess: fine caliche dust that settles into every horizontal surface, drywall compound haze on windows, caulk smears on tile, and the faint chemical bite of fresh paint that lingers in closed rooms. Air Care Restoration handles the full post-construction and specialty cleaning process for residential and commercial properties across San Angelo — the kind of thorough, detail-oriented work that gets a space ready for occupancy, not just ready for a walkthrough.
+San Angelo's construction season runs hard from late spring through fall, and when crews wrap up a new build or gut-renovation in Tom Green County, they leave behind a particular kind of mess: fine caliche dust that settles into every horizontal surface, drywall compound haze on windows, caulk smears on tile, and the faint chemical bite of fresh paint that lingers in closed rooms. Air Care Restoration handles the full post-construction and specialty cleaning process for residential and commercial properties across San Angelo, the kind of thorough, detail-oriented work that gets a space ready for occupancy, not just ready for a walkthrough.
 
 ## Why San Angelo Properties Need a Specialized Post-Construction Clean
 
 The West Texas environment shapes what post-construction cleanup actually involves here. San Angelo sits in a semi-arid climate where wind-driven caliche and red clay dust are a constant, and an open job site can accumulate particulate that standard janitorial equipment simply cannot address. During active construction, that dust works its way into HVAC returns, under cabinet toe-kicks, and behind freshly installed baseboards. If it is not removed before a homeowner or tenant moves in, it circulates through the air system for months.
 
-Older homes throughout San Angelo — particularly those built in the mid-twentieth century that are now seeing full kitchen or bathroom renovations — often have original plaster or early drywall that generates a finer, denser dust than modern materials. That dust behaves differently: it packs into grout lines, coats light fixtures, and creates a film on windows that streaks if cleaned with the wrong technique. Knowing the difference between caliche-heavy exterior dust and interior drywall particulate changes how the cleaning crew sequences the work.
+Older homes throughout San Angelo, particularly those built in the mid-twentieth century that are now seeing full kitchen or bathroom renovations, often have original plaster or early drywall that generates a finer, denser dust than modern materials. That dust behaves differently: it packs into grout lines, coats light fixtures, and creates a film on windows that streaks if cleaned with the wrong technique. Knowing the difference between caliche-heavy exterior dust and interior drywall particulate changes how the cleaning crew sequences the work.
 
 ## Our Post-Construction and Specialty Cleaning Process in San Angelo
 
-Every post-construction clean begins with a structured walk of the property before a single cloth is lifted. The crew notes construction-specific hazards — exposed fasteners, unprotected edges, residual adhesive on flooring — and identifies areas where dust has migrated beyond the immediate work zone. That walk determines the cleaning sequence, which always moves from high surfaces to low and from dry methods to wet.
+Every post-construction clean begins with a structured walk of the property before a single cloth is lifted. The crew notes construction-specific hazards, exposed fasteners, unprotected edges, residual adhesive on flooring, and identifies areas where dust has migrated beyond the immediate work zone. That walk determines the cleaning sequence, which always moves from high surfaces to low and from dry methods to wet.
 
 The process typically includes:
 
 - **HEPA vacuuming** of all surfaces, including ceiling fans, light cans, window tracks, and HVAC registers, before any wet wiping begins
 - **Detail cleaning of windows and glass** using a two-stage method that removes construction film without streaking
-- **Hard-floor care** calibrated to the material — polished concrete, tile, luxury vinyl, and hardwood each require different chemistry and technique
+- **Hard-floor care** calibrated to the material, polished concrete, tile, luxury vinyl, and hardwood each require different chemistry and technique
 - **Cabinet and millwork wipe-down**, including interior shelving, drawer boxes, and hardware
 - **Final air quality pass** to address airborne particulate before the space is closed up
 
-For commercial projects — medical offices, retail buildouts, or food-service spaces — the clean is documented to support occupancy inspections and meets the standards expected by general contractors managing the project closeout.
+For commercial projects, medical offices, retail buildouts, or food-service spaces, the clean is documented to support occupancy inspections and meets the standards expected by general contractors managing the project closeout.
 
 ## Reaching San Angelo from Abilene
 
-Air Care Restoration is based in Abilene and serves San Angelo via US-277 South, a direct route that keeps drive time predictable. Because post-construction cleaning is typically scheduled in advance rather than dispatched as an emergency, the team coordinates arrival windows directly with the general contractor or property owner to fit the project timeline. The crew arrives with all equipment and supplies loaded — no supply runs, no delays waiting on a local vendor.
+Air Care Restoration is based in Abilene and serves San Angelo via US-277 South, a direct route that keeps drive time predictable. Because post-construction cleaning is typically scheduled in advance rather than dispatched as an emergency, the team coordinates arrival windows directly with the general contractor or property owner to fit the project timeline. The crew arrives with all equipment and supplies loaded, no supply runs, no delays waiting on a local vendor.
 
 For larger commercial projects or multi-phase residential renovations, Air Care can stage multiple visits aligned with construction milestones, so the rough clean, pre-drywall clean, and final clean each happen at the right point in the schedule rather than all at once at the end.
 
 ## Local Note
 
-One thing that catches out-of-area cleaning crews in San Angelo: the caliche soil that dominates Tom Green County is calcium carbonate-rich, and when it gets tracked into a new build on boot soles and equipment wheels, it dries into a light-colored, chalky residue that looks like drywall dust but does not respond the same way. Water-based cleaning agents can actually set caliche into grout and unfinished concrete if applied before dry extraction. The right sequence is dry HEPA removal first, then pH-neutral wet cleaning — skipping the first step is the most common reason a final clean has to be redone before a certificate of occupancy inspection.
+One thing that catches out-of-area cleaning crews in San Angelo: the caliche soil that dominates Tom Green County is calcium carbonate-rich, and when it gets tracked into a new build on boot soles and equipment wheels, it dries into a light-colored, chalky residue that looks like drywall dust but does not respond the same way. Water-based cleaning agents can actually set caliche into grout and unfinished concrete if applied before dry extraction. The right sequence is dry HEPA removal first, then pH-neutral wet cleaning, skipping the first step is the most common reason a final clean has to be redone before a certificate of occupancy inspection.
 
 Call Air Care Restoration at (325) 339-8723 to schedule a post-construction or specialty cleaning in San Angelo. Whether the project is a single-family renovation near the Concho River corridor or a commercial buildout on the north side of the city, the team will assess the scope, give you a clear timeline, and deliver a space that is genuinely ready for use.

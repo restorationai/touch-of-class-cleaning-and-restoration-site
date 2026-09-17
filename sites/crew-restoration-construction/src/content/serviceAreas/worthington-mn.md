@@ -19,19 +19,19 @@ state: "MN"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall in a Lake Okabena-area bungalow or a kitchen fire leaves smoke embedded in the joists of a Downtown Worthington storefront, Crew Restoration & Construction is the crew that shows up with the right equipment and a clear plan. We handle water damage mitigation, fire and smoke cleanup, mold remediation, and structural reconstruction for homeowners and property managers across Worthington and the surrounding Nobles County area — and we coordinate directly with insurance carriers so you're not managing the paperwork alone.
+When a pipe bursts behind a wall in a Lake Okabena-area bungalow or a kitchen fire leaves smoke embedded in the joists of a Downtown Worthington storefront, Crew Restoration & Construction is the crew that shows up with the right equipment and a clear plan. We handle water damage mitigation, fire and smoke cleanup, mold remediation, and structural reconstruction for homeowners and property managers across Worthington and the surrounding Nobles County area, and we coordinate directly with insurance carriers so you're not managing the paperwork alone.
 
 ## Restoration emergencies common in Worthington
 
-Worthington sits on the southwestern Minnesota prairie, where the climate swings hard. Winters bring freeze-thaw cycles that work against older foundations and pipe runs in uninsulated crawl spaces. Spring snowmelt raises the water table quickly across the flat terrain, and the region's clay-heavy soils don't drain fast — water that pools against a foundation in March can be wicking through a basement wall by April. Summer thunderstorms roll through with little warning, and hail damage that compromises a roof can let moisture into attic insulation for weeks before a homeowner notices the stain on the ceiling.
+Worthington sits on the southwestern Minnesota prairie, where the climate swings hard. Winters bring freeze-thaw cycles that work against older foundations and pipe runs in uninsulated crawl spaces. Spring snowmelt raises the water table quickly across the flat terrain, and the region's clay-heavy soils don't drain fast, water that pools against a foundation in March can be wicking through a basement wall by April. Summer thunderstorms roll through with little warning, and hail damage that compromises a roof can let moisture into attic insulation for weeks before a homeowner notices the stain on the ceiling.
 
-The housing stock compounds these patterns. Much of Worthington's residential inventory was built between the 1940s and 1970s — solid construction, but aging plumbing, galvanized supply lines, and original drainage systems that weren't designed for today's appliance loads. Older homes also tend to have less vapor barrier protection and more air gaps where conditioned space meets unconditioned space, which creates the humidity gradients that mold needs to colonize. Under the right conditions, mold can begin establishing colonies within 24 to 48 hours of a moisture event — which is why the speed of extraction and drying matters as much as the equipment used.
+The housing stock compounds these patterns. Much of Worthington's residential inventory was built between the 1940s and 1970s, solid construction, but aging plumbing, galvanized supply lines, and original drainage systems that weren't designed for today's appliance loads. Older homes also tend to have less vapor barrier protection and more air gaps where conditioned space meets unconditioned space, which creates the humidity gradients that mold needs to colonize. Under the right conditions, mold can begin establishing colonies within 24 to 48 hours of a moisture event, which is why the speed of extraction and drying matters as much as the equipment used.
 
 ## Services we provide in Worthington
 
 ### Water damage mitigation
 
-Water damage in Worthington often starts small and spreads fast — a slow leak under a kitchen sink, a sump pump that fails during a heavy rain, or ice-dam meltwater that finds the gap between a roof deck and an exterior wall. We extract standing water, set industrial drying equipment, and monitor moisture readings until the structure reaches safe levels. For homes near Lake Okabena, seasonal water intrusion is a recurring pattern: the proximity to the lake and the low-lying lots in that neighborhood mean that even moderate rainfall events can push groundwater toward foundations. We've worked in those crawl spaces and know what to look for.
+Water damage in Worthington often starts small and spreads fast, a slow leak under a kitchen sink, a sump pump that fails during a heavy rain, or ice-dam meltwater that finds the gap between a roof deck and an exterior wall. We extract standing water, set industrial drying equipment, and monitor moisture readings until the structure reaches safe levels. For homes near Lake Okabena, seasonal water intrusion is a recurring pattern: the proximity to the lake and the low-lying lots in that neighborhood mean that even moderate rainfall events can push groundwater toward foundations. We've worked in those crawl spaces and know what to look for.
 
 ### Fire and smoke damage restoration
 
@@ -39,11 +39,11 @@ Smoke residue doesn't stay where the fire was. It follows air currents through H
 
 ### Mold remediation
 
-Mold in Worthington basements and crawl spaces is a predictable consequence of the region's moisture patterns. We contain affected areas, remove contaminated materials, treat surfaces, and address the moisture source — because remediation without fixing the underlying problem is temporary at best. We follow established industry protocols throughout the process.
+Mold in Worthington basements and crawl spaces is a predictable consequence of the region's moisture patterns. We contain affected areas, remove contaminated materials, treat surfaces, and address the moisture source, because remediation without fixing the underlying problem is temporary at best. We follow established industry protocols throughout the process.
 
 ### Reconstruction
 
-Once mitigation is complete, the structure still needs to be put back together. Crew Restoration & Construction handles reconstruction in-house — drywall, flooring, cabinetry, roofing, and more — so you're working with one company from the emergency call through the finished repair, not handing off to a second contractor mid-project.
+Once mitigation is complete, the structure still needs to be put back together. Crew Restoration & Construction handles reconstruction in-house, drywall, flooring, cabinetry, roofing, and more, so you're working with one company from the emergency call through the finished repair, not handing off to a second contractor mid-project.
 
 ## Coverage and how fast we can get there
 
@@ -51,7 +51,7 @@ Crew Restoration & Construction is based in Sioux Falls, SD, roughly 90 miles no
 
 ## Building stock, site conditions, and permits in Worthington
 
-Worthington's older core, closer to downtown, includes homes from the early 1900s through the 1930s — balloon framing, plaster over wood lath, and full basements. Wet plaster holds moisture long after painted drywall feels dry, so those walls usually need cavity drying rather than a fan pointed at the surface. In homes of that vintage we plan around cast iron drain stacks, possible knob-and-tube remnants, lead paint on trim in anything pre-1978, and asbestos in floor tile, mastic, or duct wrap. Mid-century houses often still have clay or Orangeburg sewer laterals that collapse and back up.
+Worthington's older core, closer to downtown, includes homes from the early 1900s through the 1930s, balloon framing, plaster over wood lath, and full basements. Wet plaster holds moisture long after painted drywall feels dry, so those walls usually need cavity drying rather than a fan pointed at the surface. In homes of that vintage we plan around cast iron drain stacks, possible knob-and-tube remnants, lead paint on trim in anything pre-1978, and asbestos in floor tile, mastic, or duct wrap. Mid-century houses often still have clay or Orangeburg sewer laterals that collapse and back up.
 
 The ground here is prairie glacial till, dense enough that footing drains and grading do most of the work. Building permits come from the City of Worthington, and structural repair, framing replacement, or reroofing generally requires one under the Minnesota State Building Code.
 

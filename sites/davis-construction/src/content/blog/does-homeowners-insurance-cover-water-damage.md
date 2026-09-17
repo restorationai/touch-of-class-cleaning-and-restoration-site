@@ -17,7 +17,7 @@ published_at: "2026-05-21"
 services: ["water-damage-restoration"]
 rendered: true
 ---
-Homeowners insurance **usually covers water damage — but only under specific conditions**. The short answer: sudden, accidental water damage (a burst pipe, an appliance that fails overnight, a roof leak from a storm) is typically covered. Gradual damage (a slow drip under the sink that's been going on for months, a seeping foundation, general flooding from outside your home) almost never is. The distinction that matters most to your adjuster isn't *how much* water there is — it's *where it came from* and *how fast it arrived*.
+Homeowners insurance **usually covers water damage, but only under specific conditions**. The short answer: sudden, accidental water damage (a burst pipe, an appliance that fails overnight, a roof leak from a storm) is typically covered. Gradual damage (a slow drip under the sink that's been going on for months, a seeping foundation, general flooding from outside your home) almost never is. The distinction that matters most to your adjuster isn't *how much* water there is, it's *where it came from* and *how fast it arrived*.
 
 ## What Your Policy Actually Covers (and What It Doesn't)
 
@@ -25,7 +25,7 @@ Most standard homeowners policies (HO-3 is the most common form) treat water dam
 
 **Typically covered:**
 - A supply line to your washing machine bursts while you're at work
-- A pipe freezes and splits during a cold snap — not unusual in North Alabama when temperatures drop into the teens overnight
+- A pipe freezes and splits during a cold snap, not unusual in North Alabama when temperatures drop into the teens overnight
 - Your water heater fails and floods the utility room
 - A storm damages your roof and rain gets in before you can tarp it
 - An upstairs toilet overflows and soaks through the subfloor
@@ -33,40 +33,40 @@ Most standard homeowners policies (HO-3 is the most common form) treat water dam
 **Typically NOT covered:**
 - A slow leak under the kitchen sink that warped the cabinet floor over six months
 - Seepage through your foundation or basement walls
-- Flooding from a river, creek, or storm surge — that requires a separate NFIP or private flood policy
-- Sewer or drain backup — unless you've added a specific endorsement (many policies offer this as an add-on for $50–$100/year, and it's worth having)
+- Flooding from a river, creek, or storm surge, that requires a separate NFIP or private flood policy
+- Sewer or drain backup, unless you've added a specific endorsement (many policies offer this as an add-on for $50–$100/year, and it's worth having)
 - Damage from deferred maintenance, like a roof that was already failing before the storm
 
-The word "gradual" is the one that kills claims. If an adjuster can look at the stain pattern, the mold growth, or the rot and conclude that water had been present for weeks or months, the claim is likely to be denied — even if you genuinely didn't know about it.
+The word "gradual" is the one that kills claims. If an adjuster can look at the stain pattern, the mold growth, or the rot and conclude that water had been present for weeks or months, the claim is likely to be denied, even if you genuinely didn't know about it.
 
 ## How to Read Your Policy Before You File
 
 Before you call your insurance company, pull out your declarations page and look for three things:
 
-1. **Your deductible.** If the damage estimate is $2,400 and your deductible is $2,500, filing a claim may not make financial sense — and a filed claim can affect your premium even if you receive nothing.
+1. **Your deductible.** If the damage estimate is $2,400 and your deductible is $2,500, filing a claim may not make financial sense, and a filed claim can affect your premium even if you receive nothing.
 2. **Water damage exclusions.** Look for language around "seepage," "leakage," "continuous or repeated," and "flood." These are the phrases adjusters use to deny claims.
 3. **Endorsements you may have forgotten about.** Service line coverage, equipment breakdown, and water backup endorsements are often added at renewal and forgotten. Check the full endorsements list, not just the summary page.
 
-If the policy language is unclear — and it often is — your state's Department of Insurance website (Alabama's is at aldoi.gov) has consumer guides, and you're entitled to ask your insurer for a plain-language explanation of any exclusion.
+If the policy language is unclear, and it often is, your state's Department of Insurance website (Alabama's is at aldoi.gov) has consumer guides, and you're entitled to ask your insurer for a plain-language explanation of any exclusion.
 
 ## What to Do the Moment You Discover Water Damage
 
-How you handle the first hour matters both for your home and your claim. Insurance policies include a "duty to mitigate" clause — meaning you're expected to take reasonable steps to prevent additional damage. Failing to do so can reduce or void your payout.
+How you handle the first hour matters both for your home and your claim. Insurance policies include a "duty to mitigate" clause, meaning you're expected to take reasonable steps to prevent additional damage. Failing to do so can reduce or void your payout.
 
-1. **Stop the water source.** If it's a broken supply line or burst pipe, turn off the main shutoff valve. In most Madison-area homes, that's near the water meter at the street or where the main line enters the house. If you can't find it, call your utility (Limestone County Water or Madison Water Works, depending on your address) — they can shut it at the meter.
+1. **Stop the water source.** If it's a broken supply line or burst pipe, turn off the main shutoff valve. In most Madison-area homes, that's near the water meter at the street or where the main line enters the house. If you can't find it, call your utility (Limestone County Water or Madison Water Works, depending on your address), they can shut it at the meter.
 2. **Document everything before you touch it.** Take photos and video of standing water, damaged materials, and the source of the leak. Capture timestamps. This is your evidence.
 3. **Remove standing water if it's safe to do so.** A wet/dry vac or mop works for small amounts. Don't use a standard household vacuum.
 4. **Move valuables and furniture out of wet areas.** Put aluminum foil or wood blocks under furniture legs to prevent staining on wet carpet.
 5. **Call your insurance company to open a claim.** Most carriers have 24-hour claim lines. Get a claim number and the adjuster's contact information.
-6. **Contact a water damage restoration company.** Structural drying needs to start within 24–48 hours. After 48 hours, mold can begin colonizing wet materials — and a mold problem is a separate, more expensive battle.
+6. **Contact a water damage restoration company.** Structural drying needs to start within 24–48 hours. After 48 hours, mold can begin colonizing wet materials, and a mold problem is a separate, more expensive battle.
 
-**Do not:** rip out drywall, pull up flooring, or throw away damaged materials before the adjuster has seen them or given you the go-ahead. Destroying evidence — even unintentionally — complicates claims.
+**Do not:** rip out drywall, pull up flooring, or throw away damaged materials before the adjuster has seen them or given you the go-ahead. Destroying evidence, even unintentionally, complicates claims.
 
 ## The Claims Process: What Actually Happens
 
 Once you've filed, here's the typical sequence:
 
-- **An adjuster is assigned** — either a staff adjuster from your insurer or an independent adjuster they contract with. Response times vary; in a widespread weather event, it can take days.
+- **An adjuster is assigned**, either a staff adjuster from your insurer or an independent adjuster they contract with. Response times vary; in a widespread weather event, it can take days.
 - **The adjuster inspects and scopes the damage.** They're looking for covered cause, scope of loss, and depreciation. They may use software like Xactimate to generate a repair estimate.
 - **You receive an Actual Cash Value (ACV) payment** if your policy pays ACV, or a Replacement Cost Value (RCV) payment if you have RCV coverage. ACV deducts depreciation; RCV pays what it actually costs to repair or replace. This difference can be thousands of dollars on a significant water loss.
 - **You hire a contractor and complete repairs.** If you have RCV coverage, you typically receive the depreciation holdback once you submit receipts showing the work is done.
@@ -76,10 +76,10 @@ One practical note: you're allowed to hire your own public adjuster (a licensed 
 
 ## When the Damage Is Bigger Than It Looks
 
-Water is deceptive. A half-inch of standing water in a finished basement can mean saturated insulation inside the walls, wet framing behind the drywall, and moisture readings in the subfloor that won't show up on a visual inspection. If the leak was behind a wall — you'll often notice it first as a soft spot, a bubble in the paint, or a musty smell before you ever see discoloration — the actual wet zone is almost always larger than the visible stain.
+Water is deceptive. A half-inch of standing water in a finished basement can mean saturated insulation inside the walls, wet framing behind the drywall, and moisture readings in the subfloor that won't show up on a visual inspection. If the leak was behind a wall, you'll often notice it first as a soft spot, a bubble in the paint, or a musty smell before you ever see discoloration, the actual wet zone is almost always larger than the visible stain.
 
-Professional restoration technicians use moisture meters and thermal imaging cameras to map the true boundary of the damage. That scope determines what gets dried in place versus what needs to be removed, and it's the foundation of an accurate insurance estimate. Guessing at it — or drying only what's visible — is how homes end up with mold problems six weeks after a "minor" leak.
+Professional restoration technicians use moisture meters and thermal imaging cameras to map the true boundary of the damage. That scope determines what gets dried in place versus what needs to be removed, and it's the foundation of an accurate insurance estimate. Guessing at it, or drying only what's visible, is how homes end up with mold problems six weeks after a "minor" leak.
 
 ---
 
-If you're working through a water damage situation in the Madison area and aren't sure what your policy covers or what the damage actually involves, Davis Construction Contractors can help you understand the scope before you commit to anything. A quick call to **(256) 771-0326** gets you a real conversation — not a sales pitch — about what you're dealing with and what the realistic next steps look like.
+If you're working through a water damage situation in the Madison area and aren't sure what your policy covers or what the damage actually involves, Davis Construction Contractors can help you understand the scope before you commit to anything. A quick call to **(256) 771-0326** gets you a real conversation, not a sales pitch, about what you're dealing with and what the realistic next steps look like.

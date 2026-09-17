@@ -17,42 +17,42 @@ service_slug: "storm-damage-restoration"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
-A storm doesn't have to be a named hurricane to leave your home structurally compromised. A single fast-moving squall can drive three inches of rain under a lifted roof shingle, drop a 40-foot oak through your garage, and leave standing water in your attic before the thunder stops. The damage is rarely contained to the obvious breach — water migrates through wall cavities, wind-forced debris punctures vapor barriers, and within 24 to 48 hours, secondary mold colonization can begin in any material that stays wet. Storm damage restoration is the work of stopping that cascade before it compounds.
+A storm doesn't have to be a named hurricane to leave your home structurally compromised. A single fast-moving squall can drive three inches of rain under a lifted roof shingle, drop a 40-foot oak through your garage, and leave standing water in your attic before the thunder stops. The damage is rarely contained to the obvious breach, water migrates through wall cavities, wind-forced debris punctures vapor barriers, and within 24 to 48 hours, secondary mold colonization can begin in any material that stays wet. Storm damage restoration is the work of stopping that cascade before it compounds.
 
 ## What Storm Damage Restoration actually involves
 
 Storm restoration is a multi-trade discipline, not a single cleanup task. The work spans emergency tarping and board-up to prevent ongoing weather intrusion, structural drying of water that entered through the breach, debris removal (including hazardous material like broken glass, roofing nails, and pressure-treated lumber), and ultimately the reconstruction of damaged framing, roofing, siding, drywall, and flooring.
 
-South Florida's climate adds a layer of urgency that homeowners in drier regions don't face. Davie sits in Broward County, where ambient humidity routinely runs above 70% even between storm events. Wet building materials in that environment don't dry on their own — they absorb more moisture from the air. Industrial desiccant or refrigerant dehumidifiers, high-velocity air movers, and thermal imaging cameras to locate hidden saturation are standard equipment on a properly staffed storm response, not optional upgrades.
+South Florida's climate adds a layer of urgency that homeowners in drier regions don't face. Davie sits in Broward County, where ambient humidity routinely runs above 70% even between storm events. Wet building materials in that environment don't dry on their own, they absorb more moisture from the air. Industrial desiccant or refrigerant dehumidifiers, high-velocity air movers, and thermal imaging cameras to locate hidden saturation are standard equipment on a properly staffed storm response, not optional upgrades.
 
-Timeline varies with severity. Emergency stabilization — tarping, board-up, initial water extraction — happens in the first hours. Structural drying typically runs 3 to 5 days for moderate intrusion, longer when roof assemblies or dense insulation are involved. Reconstruction follows once moisture readings confirm the structure is dry enough to close up.
+Timeline varies with severity. Emergency stabilization, tarping, board-up, initial water extraction, happens in the first hours. Structural drying typically runs 3 to 5 days for moderate intrusion, longer when roof assemblies or dense insulation are involved. Reconstruction follows once moisture readings confirm the structure is dry enough to close up.
 
 ## Our process
 
-1. **Damage assessment and emergency stabilization.** The first priority after a storm is stopping additional weather from entering the structure. That means inspecting the roof, walls, and openings, then installing heavy-gauge tarps, plywood board-up, or temporary fencing as conditions require. A written damage inventory starts here — photographs, measurements, and material notes that form the foundation of your insurance claim.
+1. **Damage assessment and emergency stabilization.** The first priority after a storm is stopping additional weather from entering the structure. That means inspecting the roof, walls, and openings, then installing heavy-gauge tarps, plywood board-up, or temporary fencing as conditions require. A written damage inventory starts here, photographs, measurements, and material notes that form the foundation of your insurance claim.
 
 2. **Water intrusion mapping.** Wind-driven rain doesn't follow gravity the way a burst pipe does. Moisture can travel horizontally through wall assemblies and collect in unexpected cavities. Thermal imaging and calibrated moisture meters map the full extent of saturation before any drying equipment is placed, so nothing is missed and the drying plan targets the right areas.
 
-3. **Debris removal and hazardous material handling.** Tree limbs, roofing materials, shattered glass, and displaced insulation are cleared and sorted. Older Davie homes — many built in the 1970s and 1980s — may contain asbestos-containing roofing or siding materials that require careful handling before any demolition begins. Affected materials that cannot be dried in place are removed and documented for the adjuster.
+3. **Debris removal and hazardous material handling.** Tree limbs, roofing materials, shattered glass, and displaced insulation are cleared and sorted. Older Davie homes, many built in the 1970s and 1980s, may contain asbestos-containing roofing or siding materials that require careful handling before any demolition begins. Affected materials that cannot be dried in place are removed and documented for the adjuster.
 
-4. **Structural drying and monitoring.** Commercial dehumidifiers and air movers run continuously until daily moisture readings confirm that affected assemblies have returned to acceptable levels. Drying logs — daily readings at each monitoring point — are kept throughout and provided to your insurer as proof of proper mitigation.
+4. **Structural drying and monitoring.** Commercial dehumidifiers and air movers run continuously until daily moisture readings confirm that affected assemblies have returned to acceptable levels. Drying logs, daily readings at each monitoring point, are kept throughout and provided to your insurer as proof of proper mitigation.
 
 5. **Reconstruction and final inspection.** Once the structure is confirmed dry, reconstruction begins: framing repairs, roofing, insulation, drywall, flooring, and exterior finishes. Work is scoped in writing before it starts, and a final walkthrough confirms everything is restored to pre-loss condition.
 
 ## What separates a good storm damage response from a bad one
 
-The most common failure in storm restoration is treating it as a roofing job that happens to have wet floors. Contractors who specialize in one trade — roofers, general contractors, water mitigation crews working alone — often miss the interaction between the breach and the water damage that followed it.
+The most common failure in storm restoration is treating it as a roofing job that happens to have wet floors. Contractors who specialize in one trade, roofers, general contractors, water mitigation crews working alone, often miss the interaction between the breach and the water damage that followed it.
 
 Specifically, what gets missed:
 
 - **Concealed moisture in roof assemblies.** Spray foam insulation and dense-pack cellulose trap water invisibly. A crew without thermal imaging or penetrating moisture meters will close up a wall or re-deck a roof over wet material, guaranteeing a mold problem within weeks.
-- **Wind uplift damage to structural sheathing.** Shingles can look intact from the ground while the sheathing beneath has been partially separated. Insurance adjusters look for this specifically — and so do building inspectors on permit-required repairs.
+- **Wind uplift damage to structural sheathing.** Shingles can look intact from the ground while the sheathing beneath has been partially separated. Insurance adjusters look for this specifically, and so do building inspectors on permit-required repairs.
 - **Secondary damage documentation gaps.** Adjusters need a clear chain of evidence connecting the storm event to every item on the claim. Missing photos, undated logs, or vague scope descriptions are the most common reasons supplements get denied.
 - **Failure to identify pre-existing versus storm-caused damage.** An experienced restoration contractor documents the distinction clearly, which protects the homeowner from having legitimate storm damage attributed to deferred maintenance.
 
 ## What does Storm Damage Restoration cost?
 
-Typical costs for storm damage restoration depend heavily on the type of storm event, the size of the affected area, and whether the damage is limited to the exterior or has driven water into the structure. Most homeowners pay somewhere between $2,500 and $25,000 for moderate storm losses; major hurricane damage or full roof failures with significant interior water intrusion can run considerably higher. The ranges below reflect typical industry figures — every loss is different, and RestorationXpress provides a written scope of work before any work begins.
+Typical costs for storm damage restoration depend heavily on the type of storm event, the size of the affected area, and whether the damage is limited to the exterior or has driven water into the structure. Most homeowners pay somewhere between $2,500 and $25,000 for moderate storm losses; major hurricane damage or full roof failures with significant interior water intrusion can run considerably higher. The ranges below reflect typical industry figures, every loss is different, and RestorationXpress provides a written scope of work before any work begins.
 
 | Scenario | Typical industry range |
 |---|---|
@@ -63,18 +63,18 @@ Typical costs for storm damage restoration depend heavily on the type of storm e
 | Emergency tarping and board-up only | $500 – $2,500 |
 | Debris removal (tree, roofing material, contents) | $800 – $4,000 |
 
-Homeowners insurance typically covers sudden and accidental storm damage — wind, hail, falling trees, and hurricane-driven rain intrusion — subject to your deductible and any named-storm provisions in your policy. Flood damage from storm surge requires a separate NFIP or private flood policy.
+Homeowners insurance typically covers sudden and accidental storm damage, wind, hail, falling trees, and hurricane-driven rain intrusion, subject to your deductible and any named-storm provisions in your policy. Flood damage from storm surge requires a separate NFIP or private flood policy.
 
 ## Seasonal and regional considerations
 
-Florida's Atlantic hurricane season runs June 1 through November 30, but Broward County's severe weather window is effectively year-round. Winter cold fronts push fast-moving squall lines through the area from November through March. Spring convective storms — the kind that drop golf-ball hail and spin up brief tornadoes — peak between March and May before the official season begins.
+Florida's Atlantic hurricane season runs June 1 through November 30, but Broward County's severe weather window is effectively year-round. Winter cold fronts push fast-moving squall lines through the area from November through March. Spring convective storms, the kind that drop golf-ball hail and spin up brief tornadoes, peak between March and May before the official season begins.
 
-The practical implication: storm damage in South Florida rarely happens in isolation. A neighborhood hit by a tropical system in August may see dozens of claims filed simultaneously, which strains roofing and general contracting capacity. Having a restoration contractor who handles both the mitigation and the reconstruction under one scope — rather than coordinating two separate contractors — typically shortens the total project timeline.
+The practical implication: storm damage in South Florida rarely happens in isolation. A neighborhood hit by a tropical system in August may see dozens of claims filed simultaneously, which strains roofing and general contracting capacity. Having a restoration contractor who handles both the mitigation and the reconstruction under one scope, rather than coordinating two separate contractors, typically shortens the total project timeline.
 
 Davie's housing stock also matters. The area has a high concentration of single-family homes with barrel tile roofs, which perform well in wind but can allow significant water intrusion when even one tile is displaced. Flat-roof commercial properties along University Drive and SR-84 are particularly vulnerable to ponding after heavy rain events.
 
 ## Service area
 
-RestorationXpress is based in Davie and serves homeowners and property managers throughout Broward County, including Fort Lauderdale, Hollywood, Pembroke Pines, Miramar, Cooper City, Weston, Plantation, and Sunrise. Individual service-area pages cover hurricane damage cleanup, tornado damage cleanup, and storm cleanup services for each city — all backed by the same process described here.
+RestorationXpress is based in Davie and serves homeowners and property managers throughout Broward County, including Fort Lauderdale, Hollywood, Pembroke Pines, Miramar, Cooper City, Weston, Plantation, and Sunrise. Individual service-area pages cover hurricane damage cleanup, tornado damage cleanup, and storm cleanup services for each city, all backed by the same process described here.
 
 If your property took storm damage, call RestorationXpress at **(954) 932-5420** to schedule your storm damage assessment and get a written scope before any work begins.

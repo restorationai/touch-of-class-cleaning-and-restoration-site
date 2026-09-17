@@ -20,21 +20,21 @@ state: "CA"
 service_display: "Odor Removal and Deodorization"
 rendered: true
 ---
-Shafter's agricultural roots and rapid growth tell two very different odor stories. Out near the Wonderful Industrial Park distribution corridors, diesel exhaust and packing-house residue can drift into nearby commercial and light-industrial spaces. Meanwhile, in Gossamer Grove — one of Kern County's fastest-growing new-home communities — brand-new builds are already seeing appliance failures and builder-defect water losses that, if left even 48 hours, can produce the musty, earthy smell of early mold colonization. Whether the source is smoke, moisture, sewage, or something harder to name, ProRestoration Services responds around the clock to eliminate odors at their source — not just mask them.
+Shafter's agricultural roots and rapid growth tell two very different odor stories. Out near the Wonderful Industrial Park distribution corridors, diesel exhaust and packing-house residue can drift into nearby commercial and light-industrial spaces. Meanwhile, in Gossamer Grove, one of Kern County's fastest-growing new-home communities, brand-new builds are already seeing appliance failures and builder-defect water losses that, if left even 48 hours, can produce the musty, earthy smell of early mold colonization. Whether the source is smoke, moisture, sewage, or something harder to name, ProRestoration Services responds around the clock to eliminate odors at their source, not just mask them.
 
 ## Why Shafter Properties Experience Persistent Odor Problems
 
 Shafter sits in the southern San Joaquin Valley, where summer temperatures routinely push past 100°F and relative humidity stays low for months at a time. That combination accelerates the off-gassing of smoke residue baked into drywall, insulation, and wood framing. A house fire that might produce surface-level soot in a cooler, moister climate can drive char compounds deep into wall cavities here, where the heat essentially cooks the odor molecules into porous materials.
 
-The city's housing stock adds another layer of complexity. Downtown Shafter and the older residential blocks near the Shafter Depot Museum include homes built in the mid-twentieth century, many with original plaster walls, hardwood subfloors, and minimal vapor barriers. Those materials absorb odor-causing compounds — whether from a kitchen fire, a sewage backup, or years of cigarette smoke — far more deeply than modern construction. New construction in Gossamer Grove presents the opposite challenge: tight building envelopes trap odors efficiently, meaning a single source event (a flooded dishwasher, a dead animal in a crawl space) can saturate the entire interior air volume quickly.
+The city's housing stock adds another layer of complexity. Downtown Shafter and the older residential blocks near the Shafter Depot Museum include homes built in the mid-twentieth century, many with original plaster walls, hardwood subfloors, and minimal vapor barriers. Those materials absorb odor-causing compounds, whether from a kitchen fire, a sewage backup, or years of cigarette smoke, far more deeply than modern construction. New construction in Gossamer Grove presents the opposite challenge: tight building envelopes trap odors efficiently, meaning a single source event (a flooded dishwasher, a dead animal in a crawl space) can saturate the entire interior air volume quickly.
 
 ## Our Odor Removal and Deodorization Process in Shafter
 
-Effective deodorization is a sequence, not a single treatment. Spraying a fragrance or running a single ozone machine overnight rarely works on a real loss — it temporarily overwhelms your sense of smell while the underlying compounds remain.
+Effective deodorization is a sequence, not a single treatment. Spraying a fragrance or running a single ozone machine overnight rarely works on a real loss, it temporarily overwhelms your sense of smell while the underlying compounds remain.
 
 Here is how the process actually works on a Shafter job:
 
-1. **Source identification and removal.** No deodorization method works until the physical source — charred framing, saturated insulation, contaminated flooring — is removed or cleaned. We document and photograph affected materials, which also supports any insurance claim you are filing.
+1. **Source identification and removal.** No deodorization method works until the physical source, charred framing, saturated insulation, contaminated flooring, is removed or cleaned. We document and photograph affected materials, which also supports any insurance claim you are filing.
 2. **Mechanical cleaning.** HEPA vacuuming and chemical sponge wiping remove loose soot, smoke residue, and biological matter from surfaces before any odor-neutralizing agent is applied.
 3. **Thermal fogging.** A petroleum-based or water-based deodorizing fog is heated and dispersed to penetrate the same cavities and porous materials that smoke or moisture reached. This is particularly effective in the older plaster-wall homes common near Downtown Shafter, where odors have migrated behind finish surfaces.
 4. **Hydroxyl or ozone treatment.** Depending on occupancy status and the nature of the odor, we deploy hydroxyl generators (safe for occupied spaces) or ozone machines (requires evacuation) to oxidize residual odor molecules in the air and on surfaces. The choice of method is calibrated to your specific structure and timeline.
@@ -42,7 +42,7 @@ Here is how the process actually works on a Shafter job:
 
 ## Reaching Shafter from Bakersfield
 
-ProRestoration Services operates 24/7 out of Bakersfield, and Shafter is a straightforward run up Highway 99 — typically a short drive under normal traffic conditions. For properties in the 93263 ZIP code, including addresses near Mannel Park or along the older downtown grid, our crews can be on-site quickly after your call. If you are in Gossamer Grove on the north side of town, routing is equally direct. Call (661) 393-9306 any time — day or night — and we will dispatch immediately.
+ProRestoration Services operates 24/7 out of Bakersfield, and Shafter is a straightforward run up Highway 99, typically a short drive under normal traffic conditions. For properties in the 93263 ZIP code, including addresses near Mannel Park or along the older downtown grid, our crews can be on-site quickly after your call. If you are in Gossamer Grove on the north side of town, routing is equally direct. Call (661) 393-9306 any time, day or night, and we will dispatch immediately.
 
 ## Shafter Insurance Coordination
 
@@ -50,6 +50,6 @@ Smoke odor and water-related odor claims are among the most disputed in resident
 
 ## Local Note
 
-One thing crews working in Shafter learn quickly: the valley's low humidity is a double-edged factor in odor work. Dry air means smoke and chemical odors do not dissipate naturally the way they might in a coastal climate — the compounds just sit in materials indefinitely without moisture to help break them down. But that same dry air means ozone and hydroxyl treatments work faster here than in humid markets, because there is less competing moisture vapor to slow the oxidation reaction. We factor that into dwell times and equipment settings on every Shafter job, rather than running a one-size-fits-all protocol.
+One thing crews working in Shafter learn quickly: the valley's low humidity is a double-edged factor in odor work. Dry air means smoke and chemical odors do not dissipate naturally the way they might in a coastal climate, the compounds just sit in materials indefinitely without moisture to help break them down. But that same dry air means ozone and hydroxyl treatments work faster here than in humid markets, because there is less competing moisture vapor to slow the oxidation reaction. We factor that into dwell times and equipment settings on every Shafter job, rather than running a one-size-fits-all protocol.
 
-If your Shafter property has a smell that has not gone away on its own — or one that returned after a store-bought remedy — call ProRestoration Services at (661) 393-9306. Our IICRC certified team will identify the source, apply the right combination of treatments for your specific structure, and leave you with documentation your insurance company can actually use.
+If your Shafter property has a smell that has not gone away on its own, or one that returned after a store-bought remedy, call ProRestoration Services at (661) 393-9306. Our IICRC certified team will identify the source, apply the right combination of treatments for your specific structure, and leave you with documentation your insurance company can actually use.

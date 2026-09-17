@@ -20,38 +20,38 @@ state: "WA"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
-If there's standing water in your basement right now, every hour matters. Water migrates into wall cavities, soaks into concrete block, and begins saturating wood framing faster than most people expect — and in Seattle's wet climate, the window between a flooded basement and a mold problem is shorter than it is almost anywhere else in the country. National Restoration Construction dispatches from Federal Way, putting a crew on-site at most Seattle addresses within 60–90 minutes of your call.
+If there's standing water in your basement right now, every hour matters. Water migrates into wall cavities, soaks into concrete block, and begins saturating wood framing faster than most people expect, and in Seattle's wet climate, the window between a flooded basement and a mold problem is shorter than it is almost anywhere else in the country. National Restoration Construction dispatches from Federal Way, putting a crew on-site at most Seattle addresses within 60–90 minutes of your call.
 
-## Why Seattle Basements Flood — and Why It's Worse Here Than You Think
+## Why Seattle Basements Flood, and Why It's Worse Here Than You Think
 
-Seattle averages around 38 inches of rain per year, but the bigger issue isn't the annual total — it's the pattern. Long stretches of steady, saturating rain from October through April push groundwater tables up against foundation walls that were often built decades ago. Much of Seattle's housing stock in neighborhoods like Beacon Hill, Rainier Valley, Columbia City, and West Seattle was constructed between the 1920s and 1960s, when waterproofing standards were minimal. Drain tile systems in those homes are frequently clogged or collapsed. Sump pumps — where they exist at all — fail during the power outages that often accompany the same storms causing the flooding.
+Seattle averages around 38 inches of rain per year, but the bigger issue isn't the annual total, it's the pattern. Long stretches of steady, saturating rain from October through April push groundwater tables up against foundation walls that were often built decades ago. Much of Seattle's housing stock in neighborhoods like Beacon Hill, Rainier Valley, Columbia City, and West Seattle was constructed between the 1920s and 1960s, when waterproofing standards were minimal. Drain tile systems in those homes are frequently clogged or collapsed. Sump pumps, where they exist at all, fail during the power outages that often accompany the same storms causing the flooding.
 
 Basements also flood from interior sources: burst supply lines, failed water heaters, sewage backups through floor drains, and washing machine hose failures. The source matters for cleanup, for health risk, and for how your insurance claim gets categorized. We identify the source as part of our initial assessment so nothing gets missed.
 
 ## Our Basement Flooding Cleanup Process in Seattle
 
-When we arrive, the first priority is safety — checking for electrical hazards and, if sewage is involved, establishing appropriate protective protocols before anyone enters the space. From there, the process moves in a deliberate sequence:
+When we arrive, the first priority is safety, checking for electrical hazards and, if sewage is involved, establishing appropriate protective protocols before anyone enters the space. From there, the process moves in a deliberate sequence:
 
 **Extraction** comes first. Truck-mounted extraction equipment removes standing water far faster than portable wet-vacs, pulling hundreds of gallons in the time it would take a homeowner to make a dent. For water that has migrated under flooring or into wall cavities, we use specialty extraction tools designed to reach those spaces without unnecessary demolition.
 
-**Moisture mapping** follows. Thermal imaging cameras and calibrated moisture meters let us document exactly how far water has traveled — including into areas that look dry to the eye. This step protects you: it creates a defensible record for your insurance adjuster and ensures we're not leaving hidden moisture behind to feed mold growth.
+**Moisture mapping** follows. Thermal imaging cameras and calibrated moisture meters let us document exactly how far water has traveled, including into areas that look dry to the eye. This step protects you: it creates a defensible record for your insurance adjuster and ensures we're not leaving hidden moisture behind to feed mold growth.
 
-**Structural drying** uses industrial air movers and commercial-grade dehumidifiers positioned according to a drying plan, not just placed randomly around the room. We monitor readings daily and adjust equipment until the structure reaches target moisture levels — typically over three to five days depending on materials and saturation depth.
+**Structural drying** uses industrial air movers and commercial-grade dehumidifiers positioned according to a drying plan, not just placed randomly around the room. We monitor readings daily and adjust equipment until the structure reaches target moisture levels, typically over three to five days depending on materials and saturation depth.
 
 **Antimicrobial treatment** is applied to affected surfaces where warranted. In a Seattle basement that's been wet for more than 24–48 hours, the conditions for mold colonization are already present. Treatment at this stage is far less costly than remediation later.
 
-If flooring, drywall, or insulation needs to come out, we handle that too — and because we hold a General Contractor Certificate of Registration through WA State Labor & Industries, we can carry the project through reconstruction without handing you off to a second company.
+If flooring, drywall, or insulation needs to come out, we handle that too, and because we hold a General Contractor Certificate of Registration through WA State Labor & Industries, we can carry the project through reconstruction without handing you off to a second company.
 
 ## Insurance Claims for Basement Water Damage
 
-Insurance coverage for basement flooding depends heavily on the source. Sudden and accidental discharge — a burst pipe, a failed appliance — is typically covered under a standard homeowner's policy. Groundwater intrusion and surface flooding are usually excluded unless you carry a separate flood policy through the NFIP or a private carrier.
+Insurance coverage for basement flooding depends heavily on the source. Sudden and accidental discharge, a burst pipe, a failed appliance, is typically covered under a standard homeowner's policy. Groundwater intrusion and surface flooding are usually excluded unless you carry a separate flood policy through the NFIP or a private carrier.
 
-We work directly with all major insurance carriers and can communicate with your adjuster on your behalf. Our moisture mapping documentation and photo records are formatted to support the claims process, not just internal use. We'll be straightforward with you about what's likely covered and what isn't before work begins — there are no surprises on our end.
+We work directly with all major insurance carriers and can communicate with your adjuster on your behalf. Our moisture mapping documentation and photo records are formatted to support the claims process, not just internal use. We'll be straightforward with you about what's likely covered and what isn't before work begins, there are no surprises on our end.
 
 ## Response Times Across Seattle
 
-Our Federal Way headquarters puts us roughly 25–35 minutes from most South Seattle and SODO locations under normal traffic conditions, and 40–60 minutes from Capitol Hill, Fremont, Ballard, and North Seattle. We aim for a technician on-site within 60–90 minutes for the majority of Seattle addresses — faster for emergencies in the southern part of the city. We respond 24 hours a day, seven days a week, including holidays, because basement flooding doesn't schedule itself around business hours.
+Our Federal Way headquarters puts us roughly 25–35 minutes from most South Seattle and SODO locations under normal traffic conditions, and 40–60 minutes from Capitol Hill, Fremont, Ballard, and North Seattle. We aim for a technician on-site within 60–90 minutes for the majority of Seattle addresses, faster for emergencies in the southern part of the city. We respond 24 hours a day, seven days a week, including holidays, because basement flooding doesn't schedule itself around business hours.
 
 ---
 
-If water is still moving or you're not sure how bad it is, don't wait to find out. The longer saturated materials sit, the more expensive and complicated the restoration becomes. Reach National Restoration Construction at **(206) 883-0333** — someone answers every call, day or night, and we'll tell you honestly what the situation requires.
+If water is still moving or you're not sure how bad it is, don't wait to find out. The longer saturated materials sit, the more expensive and complicated the restoration becomes. Reach National Restoration Construction at **(206) 883-0333**, someone answers every call, day or night, and we'll tell you honestly what the situation requires.

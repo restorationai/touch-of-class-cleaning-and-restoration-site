@@ -20,43 +20,43 @@ state: "MS"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
-Stone County summers don't ease up on structures. When a severe thunderstorm rolls through Wiggins and peels back a section of roof, or a house fire leaves exterior walls exposed to the humid Mississippi air, every hour without protection accelerates the damage. Moisture intrusion, wind-driven rain, and opportunistic insects move fast in this climate — and a compromised structure can go from a manageable loss to a gut-renovation in days. Getting plywood over openings and heavy-duty tarps secured over damaged roofing is the first line of defense, and it has to happen before the next storm band arrives.
+Stone County summers don't ease up on structures. When a severe thunderstorm rolls through Wiggins and peels back a section of roof, or a house fire leaves exterior walls exposed to the humid Mississippi air, every hour without protection accelerates the damage. Moisture intrusion, wind-driven rain, and opportunistic insects move fast in this climate, and a compromised structure can go from a manageable loss to a gut-renovation in days. Getting plywood over openings and heavy-duty tarps secured over damaged roofing is the first line of defense, and it has to happen before the next storm band arrives.
 
 ## Why Wiggins Properties Face Elevated Board-Up and Tarping Risks
 
-Wiggins sits in a part of Mississippi that sees a long, active severe-weather season. Gulf moisture funnels inland from the coast and collides with frontal systems over Stone County with regularity, producing hail, straight-line winds, and the occasional tornado. That combination means roof damage — blown shingles, lifted ridge caps, punctured decking — is a recurring reality for homeowners here, not a once-in-a-generation event.
+Wiggins sits in a part of Mississippi that sees a long, active severe-weather season. Gulf moisture funnels inland from the coast and collides with frontal systems over Stone County with regularity, producing hail, straight-line winds, and the occasional tornado. That combination means roof damage, blown shingles, lifted ridge caps, punctured decking, is a recurring reality for homeowners here, not a once-in-a-generation event.
 
-The local housing stock adds another layer of complexity. A significant portion of homes in the Wiggins area were built in the 1960s through 1980s, when roof sheathing was often thinner or fastened to standards that predate today's wind-load requirements. Older wood-framed structures can experience more dramatic failure when a storm hits — partial roof loss rather than isolated shingle damage — which means tarping coverage needs to be larger and anchored more carefully to avoid secondary wind uplift on the tarp itself.
+The local housing stock adds another layer of complexity. A significant portion of homes in the Wiggins area were built in the 1960s through 1980s, when roof sheathing was often thinner or fastened to standards that predate today's wind-load requirements. Older wood-framed structures can experience more dramatic failure when a storm hits, partial roof loss rather than isolated shingle damage, which means tarping coverage needs to be larger and anchored more carefully to avoid secondary wind uplift on the tarp itself.
 
 Fire damage board-up is equally common in this part of Stone County. Rural and semi-rural properties here sometimes have longer fire department response windows, which can mean more extensive structural burn-through before suppression. That leaves larger wall and window openings that need solid plywood boarding, not just plastic sheeting, to deter entry and hold the structure stable while the insurance process begins.
 
 ## Our Emergency Board-Up and Tarping Process in Wiggins
 
-When a call comes in from the Wiggins area, the first step is a rapid phone assessment — we ask about the type of damage (fire, storm, impact), the number and size of openings, and whether the structure is occupied. That information lets us load the right materials before we leave Gulfport: the correct plywood thickness for the opening sizes, ballasted tarp anchor systems for larger roof spans, and hurricane-rated strapping where the roof decking is intact enough to accept mechanical fasteners.
+When a call comes in from the Wiggins area, the first step is a rapid phone assessment, we ask about the type of damage (fire, storm, impact), the number and size of openings, and whether the structure is occupied. That information lets us load the right materials before we leave Gulfport: the correct plywood thickness for the opening sizes, ballasted tarp anchor systems for larger roof spans, and hurricane-rated strapping where the roof decking is intact enough to accept mechanical fasteners.
 
 On-site, the process follows a consistent sequence:
 
-1. **Structural safety walk** — before any crew member goes onto a damaged roof or into a fire-affected structure, we assess load-bearing integrity and identify fall hazards.
-2. **Roof tarping** — we use 6-mil or heavier polyethylene tarps with cap sheet underlayment on exposed decking to prevent tarp abrasion and additional moisture intrusion. Tarps are secured with 2×4 anchor boards screwed into solid decking, not just draped and weighted.
-3. **Window and door board-up** — openings are measured and cut to fit; plywood is fastened directly to the framing, not just the siding, for a weather-tight seal.
-4. **Photo documentation** — every opening, every tarp run, and every fastening point is photographed before we leave. That documentation goes directly to your insurance adjuster.
+1. **Structural safety walk**, before any crew member goes onto a damaged roof or into a fire-affected structure, we assess load-bearing integrity and identify fall hazards.
+2. **Roof tarping**, we use 6-mil or heavier polyethylene tarps with cap sheet underlayment on exposed decking to prevent tarp abrasion and additional moisture intrusion. Tarps are secured with 2×4 anchor boards screwed into solid decking, not just draped and weighted.
+3. **Window and door board-up**, openings are measured and cut to fit; plywood is fastened directly to the framing, not just the siding, for a weather-tight seal.
+4. **Photo documentation**, every opening, every tarp run, and every fastening point is photographed before we leave. That documentation goes directly to your insurance adjuster.
 
-In Wiggins's climate, we pay particular attention to soffit and fascia damage that often accompanies roof loss — these areas channel water into wall cavities if left open, even when the main roof tarp looks secure.
+In Wiggins's climate, we pay particular attention to soffit and fascia damage that often accompanies roof loss, these areas channel water into wall cavities if left open, even when the main roof tarp looks secure.
 
 ## Reaching Wiggins from Gulfport
 
-HomeLyft Restoration MS is based in Gulfport, and the primary route to Wiggins runs north on US-49 through the Pine Belt. The drive covers roughly 55 miles, and our team is familiar with the corridor — including the stretch through Wiggins where US-49 intersects with local county roads that serve properties set back from the main highway. For addresses on rural routes west or east of town, we confirm the access point before departure to avoid delays on unpaved or gated drives.
+HomeLyft Restoration MS is based in Gulfport, and the primary route to Wiggins runs north on US-49 through the Pine Belt. The drive covers roughly 55 miles, and our team is familiar with the corridor, including the stretch through Wiggins where US-49 intersects with local county roads that serve properties set back from the main highway. For addresses on rural routes west or east of town, we confirm the access point before departure to avoid delays on unpaved or gated drives.
 
 We coordinate directly with homeowners on scheduling and arrival windows so there are no surprises. If a property is vacant or the owner cannot be present, we can work with a designated contact or a property manager on-site.
 
 ## Insurance Documentation for Wiggins Claims
 
-Storm and fire claims in Stone County typically move through standard Mississippi Department of Insurance-regulated carriers, and most require documented proof of emergency mitigation before they'll approve subsequent repair costs. The photo log and written scope we produce during board-up and tarping is formatted to meet that standard — adjuster-ready, with timestamps and GPS-tagged images.
+Storm and fire claims in Stone County typically move through standard Mississippi Department of Insurance-regulated carriers, and most require documented proof of emergency mitigation before they'll approve subsequent repair costs. The photo log and written scope we produce during board-up and tarping is formatted to meet that standard, adjuster-ready, with timestamps and GPS-tagged images.
 
 We bill mitigation work directly to most major carriers and can communicate with your adjuster on scope questions. Homeowners are not expected to front the full cost and wait for reimbursement in most cases; we work through the claim process alongside you.
 
 ## Local Note
 
-One thing that catches out-of-area crews working in the Wiggins area: the red clay and sandy loam soil mix common in Stone County drains poorly after heavy rain, and properties with crawl-space foundations — common in older Wiggins homes — can accumulate standing water under the structure within hours of a roof breach. A tarp that looks adequate from the outside may still be allowing enough moisture migration to wet the subfloor from below. When we tarp a crawl-space home in this area, we also check the crawl-space vents and, where accessible, confirm no water has pooled under the floor system before closing out the emergency phase.
+One thing that catches out-of-area crews working in the Wiggins area: the red clay and sandy loam soil mix common in Stone County drains poorly after heavy rain, and properties with crawl-space foundations, common in older Wiggins homes, can accumulate standing water under the structure within hours of a roof breach. A tarp that looks adequate from the outside may still be allowing enough moisture migration to wet the subfloor from below. When we tarp a crawl-space home in this area, we also check the crawl-space vents and, where accessible, confirm no water has pooled under the floor system before closing out the emergency phase.
 
 If you're dealing with storm damage, fire damage, or a broken window or door that's left your Wiggins home exposed, call HomeLyft Restoration MS at +12282845200. We'll assess the situation, give you a clear scope of what needs to be secured, and get materials on-site before conditions deteriorate further.

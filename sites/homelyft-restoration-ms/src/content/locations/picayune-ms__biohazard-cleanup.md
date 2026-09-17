@@ -21,13 +21,13 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
-Picayune sits in Pearl River County at the edge of the Piney Woods, where the humidity rarely relents and older residential neighborhoods carry decades of history in their walls and floors. When a biohazard situation occurs in a home or property here — whether it involves blood, bodily fluids, infectious materials, or discarded sharps — the combination of that persistent Gulf Coast moisture and aging building stock can complicate cleanup in ways that demand more than a surface wipe-down. HomeLyft Restoration MS responds to those calls with IICRC-certified technicians and a process built around discretion, thoroughness, and your timeline.
+Picayune sits in Pearl River County at the edge of the Piney Woods, where the humidity rarely relents and older residential neighborhoods carry decades of history in their walls and floors. When a biohazard situation occurs in a home or property here, whether it involves blood, bodily fluids, infectious materials, or discarded sharps, the combination of that persistent Gulf Coast moisture and aging building stock can complicate cleanup in ways that demand more than a surface wipe-down. HomeLyft Restoration MS responds to those calls with IICRC-certified technicians and a process built around discretion, thoroughness, and your timeline.
 
 ## Why Picayune Properties Present Unique Biohazard Challenges
 
-Pearl River County's climate is among the most humid in Mississippi. Summer dew points routinely push past 75°F, and that ambient moisture means porous materials — subflooring, drywall, upholstered surfaces — absorb biological contaminants more readily than they would in a drier region. In Picayune's older residential areas, many homes were built with tongue-and-groove hardwood subflooring and plaster-over-lathe wall construction. Those materials are not sealed the way modern OSB or greenboard are, which means contaminants can wick deeper and faster than a visual inspection would suggest.
+Pearl River County's climate is among the most humid in Mississippi. Summer dew points routinely push past 75°F, and that ambient moisture means porous materials, subflooring, drywall, upholstered surfaces, absorb biological contaminants more readily than they would in a drier region. In Picayune's older residential areas, many homes were built with tongue-and-groove hardwood subflooring and plaster-over-lathe wall construction. Those materials are not sealed the way modern OSB or greenboard are, which means contaminants can wick deeper and faster than a visual inspection would suggest.
 
-Sharps and needle cleanup carries its own dimension here. Pearl River County has seen the same pressures around substance use that affect much of rural Mississippi, and property managers and landlords in Picayune occasionally face cleanup situations involving discarded needles in vacated units or outbuildings. Proper sharps disposal requires puncture-resistant containment and transport to a licensed medical waste facility — not a standard trash bag and a call to the city.
+Sharps and needle cleanup carries its own dimension here. Pearl River County has seen the same pressures around substance use that affect much of rural Mississippi, and property managers and landlords in Picayune occasionally face cleanup situations involving discarded needles in vacated units or outbuildings. Proper sharps disposal requires puncture-resistant containment and transport to a licensed medical waste facility, not a standard trash bag and a call to the city.
 
 ## Our Biohazard Remediation Process in Picayune
 
@@ -35,28 +35,28 @@ Every job begins with a contained assessment. Technicians arrive in unmarked veh
 
 Remediation follows a structured sequence:
 
-- **Containment** — isolating the affected space to prevent cross-contamination to adjacent rooms or HVAC pathways
-- **Removal of porous materials** — in Picayune's older homes, this often means subflooring sections, baseboards, or plaster that cannot be decontaminated to a safe standard
-- **Hospital-grade disinfection** — EPA-registered disinfectants applied to all hard surfaces, with dwell times calibrated to the specific pathogen risk
-- **Odor neutralization** — not masking with fragrance, but treating residual odor at the molecular level using hydroxyl or ozone technology where appropriate
-- **Verification** — ATP testing or visual clearance depending on the situation, documented before we leave
+- **Containment**, isolating the affected space to prevent cross-contamination to adjacent rooms or HVAC pathways
+- **Removal of porous materials**, in Picayune's older homes, this often means subflooring sections, baseboards, or plaster that cannot be decontaminated to a safe standard
+- **Hospital-grade disinfection**, EPA-registered disinfectants applied to all hard surfaces, with dwell times calibrated to the specific pathogen risk
+- **Odor neutralization**, not masking with fragrance, but treating residual odor at the molecular level using hydroxyl or ozone technology where appropriate
+- **Verification**, ATP testing or visual clearance depending on the situation, documented before we leave
 
 All biological waste is packaged, labeled, and transported to a licensed medical waste disposal facility in compliance with Mississippi State Department of Health regulations and OSHA standards.
 
 ## Reaching Picayune from Gulfport
 
-Our team operates out of Gulfport and reaches Picayune via US-49 North through Wiggins — a route our crews know well from serving Pearl River County properties. Scheduling is handled by phone at +12282845200, and we coordinate arrival windows that work around your situation, whether that means early morning before neighbors are active or mid-week when a property is unoccupied.
+Our team operates out of Gulfport and reaches Picayune via US-49 North through Wiggins, a route our crews know well from serving Pearl River County properties. Scheduling is handled by phone at +12282845200, and we coordinate arrival windows that work around your situation, whether that means early morning before neighbors are active or mid-week when a property is unoccupied.
 
 For properties in the areas closer to the Louisiana state line, access logistics sometimes require coordination with property managers or family members who hold keys. We handle that communication directly so you are not managing multiple parties during an already difficult time.
 
 ## Insurance Coordination for Picayune Homeowners and Property Managers
 
-Many homeowners' insurance policies cover biohazard remediation when it results from a covered event. We document the loss thoroughly — photographs, written scope, itemized materials — and submit directly to most major carriers. If your policy does not cover the situation, we walk through the itemized costs before any work begins so there are no surprises.
+Many homeowners' insurance policies cover biohazard remediation when it results from a covered event. We document the loss thoroughly, photographs, written scope, itemized materials, and submit directly to most major carriers. If your policy does not cover the situation, we walk through the itemized costs before any work begins so there are no surprises.
 
 Landlords managing rental properties in Picayune should also be aware that Mississippi landlord-tenant law places certain habitability obligations on property owners. Prompt, documented remediation protects both the property and your legal standing.
 
 ## Local Note
 
-One thing that comes up specifically in Picayune's older residential areas: pier-and-beam construction is common, and crawl spaces beneath these homes are often unventilated or minimally ventilated. When a biohazard event affects a first-floor room, gravity and subfloor gaps can allow biological material to migrate into the crawl space without any visible sign from above. We inspect beneath the structure when the layout suggests this is possible — it is a step that gets skipped in a surface-only cleanup and one that matters in Pearl River County's climate, where a contaminated crawl space will not dry out on its own.
+One thing that comes up specifically in Picayune's older residential areas: pier-and-beam construction is common, and crawl spaces beneath these homes are often unventilated or minimally ventilated. When a biohazard event affects a first-floor room, gravity and subfloor gaps can allow biological material to migrate into the crawl space without any visible sign from above. We inspect beneath the structure when the layout suggests this is possible, it is a step that gets skipped in a surface-only cleanup and one that matters in Pearl River County's climate, where a contaminated crawl space will not dry out on its own.
 
 If you are dealing with a situation at a property in Picayune and need a team that will handle it carefully, completely, and without unnecessary attention, call HomeLyft Restoration MS at +12282845200. We will talk through what you are facing and schedule a response that fits your circumstances.

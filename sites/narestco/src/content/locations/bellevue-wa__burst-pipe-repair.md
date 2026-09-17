@@ -20,29 +20,29 @@ state: "WA"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
-A burst pipe doesn't wait for a convenient moment. Water is already moving through your walls, soaking into subfloor joists, and pooling behind cabinets by the time you find the shutoff valve. If you're in Bellevue right now dealing with a pipe break, the next hour matters more than the next day — and that's exactly the window where National Restoration Construction works.
+A burst pipe doesn't wait for a convenient moment. Water is already moving through your walls, soaking into subfloor joists, and pooling behind cabinets by the time you find the shutoff valve. If you're in Bellevue right now dealing with a pipe break, the next hour matters more than the next day, and that's exactly the window where National Restoration Construction works.
 
 ## Why Bellevue Properties See Burst Pipe Emergencies
 
-Bellevue sits in a climate that looks mild on paper but punishes plumbing in ways homeowners don't always anticipate. The Puget Sound region cycles through freeze-thaw patterns every winter — temperatures drop overnight, pipes in exterior walls or uninsulated crawl spaces contract, and then a warming trend sends pressure through a line that's already stressed. Neighborhoods like Bridle Trails and Somerset, with their mix of 1970s and 1980s construction, often have original galvanized or copper supply lines that have been slowly corroding for decades. One hard freeze is enough to finish the job.
+Bellevue sits in a climate that looks mild on paper but punishes plumbing in ways homeowners don't always anticipate. The Puget Sound region cycles through freeze-thaw patterns every winter, temperatures drop overnight, pipes in exterior walls or uninsulated crawl spaces contract, and then a warming trend sends pressure through a line that's already stressed. Neighborhoods like Bridle Trails and Somerset, with their mix of 1970s and 1980s construction, often have original galvanized or copper supply lines that have been slowly corroding for decades. One hard freeze is enough to finish the job.
 
-Bellevue's newer construction isn't immune either. High-rise condos and mixed-use buildings downtown can experience water line breaks tied to pressure fluctuations, aging sprinkler infrastructure, or a single failed fitting behind a finished wall. When water escapes on an upper floor, it travels fast — through concrete, into elevator shafts, and down to units below.
+Bellevue's newer construction isn't immune either. High-rise condos and mixed-use buildings downtown can experience water line breaks tied to pressure fluctuations, aging sprinkler infrastructure, or a single failed fitting behind a finished wall. When water escapes on an upper floor, it travels fast, through concrete, into elevator shafts, and down to units below.
 
 ## Our Burst Pipe Cleanup and Repair Process in Bellevue
 
-When we arrive — typically within 60 to 90 minutes from our Federal Way headquarters, and often faster for properties near I-90 or the 405 corridor — the first priority is stopping the spread, not paperwork.
+When we arrive, typically within 60 to 90 minutes from our Federal Way headquarters, and often faster for properties near I-90 or the 405 corridor, the first priority is stopping the spread, not paperwork.
 
-**Step 1 — Containment and moisture mapping.** Technicians use thermal imaging cameras and calibrated moisture meters to trace exactly where water has traveled. What looks like a wet patch on drywall is often the surface of a much larger saturation zone inside the wall cavity.
+**Step 1, Containment and moisture mapping.** Technicians use thermal imaging cameras and calibrated moisture meters to trace exactly where water has traveled. What looks like a wet patch on drywall is often the surface of a much larger saturation zone inside the wall cavity.
 
-**Step 2 — Extraction.** Truck-mounted extraction units pull standing water from flooring, carpet, and subfloor material at a rate that shop vacs and towels simply can't match. The faster free water is removed, the narrower the window for secondary damage.
+**Step 2, Extraction.** Truck-mounted extraction units pull standing water from flooring, carpet, and subfloor material at a rate that shop vacs and towels simply can't match. The faster free water is removed, the narrower the window for secondary damage.
 
-**Step 3 — Structural drying.** Industrial air movers and LGR (low-grain refrigerant) dehumidifiers are positioned based on the moisture map, not guesswork. Drying typically runs 3 to 5 days depending on material density and ambient conditions; we monitor readings daily.
+**Step 3, Structural drying.** Industrial air movers and LGR (low-grain refrigerant) dehumidifiers are positioned based on the moisture map, not guesswork. Drying typically runs 3 to 5 days depending on material density and ambient conditions; we monitor readings daily.
 
-**Step 4 — Pipe repair and reconstruction.** Once the structure is dry and documented, our licensed general contractors handle the repair side — replacing the failed section of pipe, patching drywall, reinstalling flooring, and restoring the space to pre-loss condition. One company handles the full scope, which matters when your insurance adjuster needs a single point of contact.
+**Step 4, Pipe repair and reconstruction.** Once the structure is dry and documented, our licensed general contractors handle the repair side, replacing the failed section of pipe, patching drywall, reinstalling flooring, and restoring the space to pre-loss condition. One company handles the full scope, which matters when your insurance adjuster needs a single point of contact.
 
 ## Handling Insurance for a Burst Pipe Claim
 
-Sudden and accidental pipe burst damage is typically covered under standard homeowners and commercial property policies — but the documentation has to be right from the first hour. We photograph and log moisture readings before any material is moved, produce scope-of-loss reports in formats adjusters recognize, and communicate directly with your carrier throughout the process.
+Sudden and accidental pipe burst damage is typically covered under standard homeowners and commercial property policies, but the documentation has to be right from the first hour. We photograph and log moisture readings before any material is moved, produce scope-of-loss reports in formats adjusters recognize, and communicate directly with your carrier throughout the process.
 
 What you'll need to do: notify your insurance company as soon as possible and keep a record of any emergency steps you took before we arrived (shutting off the water main, moving valuables). We handle the technical documentation and scope; you handle the policy-level communication with your agent. If you haven't filed a claim before, we can walk you through what to expect on that first call.
 
@@ -56,8 +56,8 @@ The difference between a contained water loss and a mold remediation project six
 - **Air movers** positioned in calculated patterns to drive evaporation through wall cavities and under flooring
 - **Moisture data loggers** that record readings automatically so drying progress is documented for your insurance file
 
-As an IICRC Certified firm, our drying protocols follow the S500 Standard for Professional Water Damage Restoration — the benchmark the insurance industry uses to evaluate claims.
+As an IICRC Certified firm, our drying protocols follow the S500 Standard for Professional Water Damage Restoration, the benchmark the insurance industry uses to evaluate claims.
 
 ## Don't Let the First Hour Become a Bigger Problem
 
-Mold can begin colonizing wet building materials within 24 to 48 hours in the Pacific Northwest's ambient humidity. The longer saturated drywall and subfloor sit untreated, the more the scope — and the cost — of restoration expands. If you're in Bellevue and dealing with a water line break right now, reach out to National Restoration Construction at **(206) 883-0333**. We're available around the clock, and getting someone on-site fast is the single most effective thing you can do in the next few minutes.
+Mold can begin colonizing wet building materials within 24 to 48 hours in the Pacific Northwest's ambient humidity. The longer saturated drywall and subfloor sit untreated, the more the scope, and the cost, of restoration expands. If you're in Bellevue and dealing with a water line break right now, reach out to National Restoration Construction at **(206) 883-0333**. We're available around the clock, and getting someone on-site fast is the single most effective thing you can do in the next few minutes.

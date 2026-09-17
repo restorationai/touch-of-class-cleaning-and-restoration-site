@@ -20,17 +20,17 @@ state: "NJ"
 service_display: "Basement Flood Cleanup"
 rendered: true
 ---
-When the Elizabeth River backs up during a hard summer storm, basements across Hillside's eastern neighborhoods don't just get wet — they fill fast. The township's dense grid of 1920s-era two-families and postwar capes was built before modern waterproofing standards existed, and many of those homes carry the original galvanized supply lines and cast-iron drains that fail quietly until they don't. If you're standing in a flooded basement in ZIP code 07205 right now, call (855) 650-7422. The Restoration Group dispatches around the clock from Kenilworth and can reach Hillside for emergency extraction any time of day or night.
+When the Elizabeth River backs up during a hard summer storm, basements across Hillside's eastern neighborhoods don't just get wet, they fill fast. The township's dense grid of 1920s-era two-families and postwar capes was built before modern waterproofing standards existed, and many of those homes carry the original galvanized supply lines and cast-iron drains that fail quietly until they don't. If you're standing in a flooded basement in ZIP code 07205 right now, call (855) 650-7422. The Restoration Group dispatches around the clock from Kenilworth and can reach Hillside for emergency extraction any time of day or night.
 
 ## Why Hillside Basements Flood the Way They Do
 
-Hillside is a township where the infrastructure and the housing stock are doing a lot of heavy lifting. Most of the residential blocks — from the colonials near Hillside Center to the side-by-sides in Saybrook and Winans — were constructed between the 1920s and 1950s. That means original cast-iron drain laterals that have had decades to corrode, offset, or root-intrude, and galvanized supply lines that can pinhole without warning.
+Hillside is a township where the infrastructure and the housing stock are doing a lot of heavy lifting. Most of the residential blocks, from the colonials near Hillside Center to the side-by-sides in Saybrook and Winans, were constructed between the 1920s and 1950s. That means original cast-iron drain laterals that have had decades to corrode, offset, or root-intrude, and galvanized supply lines that can pinhole without warning.
 
-The Elizabeth River cuts across the town's eastern edge, and the low-lying ground on that side of the township drains slowly. During Tropical Storm Ida in 2021, that combination of river overflow and overwhelmed municipal sewer capacity pushed water directly into basements through floor drains and sewer cleanouts — not just through foundation walls. That pattern repeats on a smaller scale every time a fast-moving storm drops more rain than the system can handle.
+The Elizabeth River cuts across the town's eastern edge, and the low-lying ground on that side of the township drains slowly. During Tropical Storm Ida in 2021, that combination of river overflow and overwhelmed municipal sewer capacity pushed water directly into basements through floor drains and sewer cleanouts, not just through foundation walls. That pattern repeats on a smaller scale every time a fast-moving storm drops more rain than the system can handle.
 
 Sump-pump failures are a consistent driver of basement losses here. Many Hillside homes have pumps that were installed years ago and haven't been serviced since. When a summer squall hits and the power flickers, a pump without a battery backup becomes useless at exactly the wrong moment.
 
-The Conant Street industrial corridor and the Route 22 commercial strip add a different category of loss: sprinkler-discharge events, roof failures, and overnight pipe breaks in warehouse and retail spaces that need the same extraction and drying discipline as a residential basement — just at larger scale.
+The Conant Street industrial corridor and the Route 22 commercial strip add a different category of loss: sprinkler-discharge events, roof failures, and overnight pipe breaks in warehouse and retail spaces that need the same extraction and drying discipline as a residential basement, just at larger scale.
 
 ## Our Basement Flood Cleanup Process in Hillside
 
@@ -38,26 +38,26 @@ Every flooded basement is a moisture problem that extends well beyond what's vis
 
 **Extraction first.** Truck-mounted and portable extraction units remove standing water from the floor, including water trapped in carpet padding, under floating floors, and in the low points of uneven slabs common in older Hillside construction.
 
-**Moisture mapping.** Thermal imaging and calibrated moisture meters locate water that has migrated behind walls, under subfloor, and into the base of framing — the places that cause mold colonization within 24 to 72 hours if left untreated.
+**Moisture mapping.** Thermal imaging and calibrated moisture meters locate water that has migrated behind walls, under subfloor, and into the base of framing, the places that cause mold colonization within 24 to 72 hours if left untreated.
 
 **Structural drying.** High-capacity LGR dehumidifiers and directed airflow equipment dry the space to IICRC S500 standards. In homes with the original plaster-and-lath construction found throughout older Hillside blocks, drying timelines run longer than in modern drywall construction because plaster holds and releases moisture more slowly.
 
-**Antimicrobial treatment.** Sewer-backup events — common here when the municipal system surcharges — introduce Category 3 contamination. Affected materials are treated or removed according to the contamination category, not just dried in place.
+**Antimicrobial treatment.** Sewer-backup events, common here when the municipal system surcharges, introduce Category 3 contamination. Affected materials are treated or removed according to the contamination category, not just dried in place.
 
 **Documentation.** Moisture readings, photos, and equipment logs are compiled throughout the job to support your insurance claim.
 
 ## Reaching Hillside from Kenilworth
 
-The Restoration Group's base in Kenilworth puts Hillside within a short drive via Route 22 or Springfield Avenue depending on traffic. Because we operate 24/7, a call at 2 a.m. during a storm gets the same response as a call on a Tuesday afternoon. Crews familiar with the Coe's Corner and Conant Street areas know that parking and access on the denser residential blocks can require some coordination — we account for that on dispatch rather than figuring it out on arrival.
+The Restoration Group's base in Kenilworth puts Hillside within a short drive via Route 22 or Springfield Avenue depending on traffic. Because we operate 24/7, a call at 2 a.m. during a storm gets the same response as a call on a Tuesday afternoon. Crews familiar with the Coe's Corner and Conant Street areas know that parking and access on the denser residential blocks can require some coordination, we account for that on dispatch rather than figuring it out on arrival.
 
 ## Hillside Insurance Coordination
 
-Most standard homeowners policies cover sudden and accidental water losses — a burst pipe, an appliance failure, a sump pump overflow if you carry the rider. Sewer backup coverage is a separate endorsement, and given how often municipal surcharging affects Hillside basements during heavy rain, it's worth confirming whether your policy includes it before you need it.
+Most standard homeowners policies cover sudden and accidental water losses, a burst pipe, an appliance failure, a sump pump overflow if you carry the rider. Sewer backup coverage is a separate endorsement, and given how often municipal surcharging affects Hillside basements during heavy rain, it's worth confirming whether your policy includes it before you need it.
 
-We document the loss thoroughly — moisture readings, photos of affected materials, equipment placement records — and work directly with your adjuster. As a licensed NJ Home Improvement Contractor and IICRC Certified Firm (#210213), our documentation meets the standards carriers expect.
+We document the loss thoroughly, moisture readings, photos of affected materials, equipment placement records, and work directly with your adjuster. As a licensed NJ Home Improvement Contractor and IICRC Certified Firm (#210213), our documentation meets the standards carriers expect.
 
 ## Local Note
 
-In Hillside's older two-family homes, the basement is often shared between units or serves as utility space for both floors. When a sewer backup or pipe failure floods that shared space, the moisture load on the floor assembly above — the first floor of the occupied unit — is substantial. We pay particular attention to the subfloor and joist bays directly above a flooded basement in these structures, because that framing can stay wet long after the basement itself reads dry on the surface. It's a detail that matters in a township where two-family construction is the norm rather than the exception.
+In Hillside's older two-family homes, the basement is often shared between units or serves as utility space for both floors. When a sewer backup or pipe failure floods that shared space, the moisture load on the floor assembly above, the first floor of the occupied unit, is substantial. We pay particular attention to the subfloor and joist bays directly above a flooded basement in these structures, because that framing can stay wet long after the basement itself reads dry on the surface. It's a detail that matters in a township where two-family construction is the norm rather than the exception.
 
-If water has reached your Hillside basement, don't wait to see whether it dries on its own. Call (855) 650-7422 — we're available any hour, and getting extraction started quickly is the single biggest factor in limiting what comes next.
+If water has reached your Hillside basement, don't wait to see whether it dries on its own. Call (855) 650-7422, we're available any hour, and getting extraction started quickly is the single biggest factor in limiting what comes next.

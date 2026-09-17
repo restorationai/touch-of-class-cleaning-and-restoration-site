@@ -20,19 +20,19 @@ state: "NJ"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
-A storm tears through Scotch Plains on a Tuesday night, and by Wednesday morning a split-level off Willow Grove has a broken attic window, a section of ridge shingles peeled back, and rain moving freely into the ceiling cavity. That gap — even a modest one — can let enough water in overnight to saturate insulation, buckle OSB sheathing, and set the clock on mold colonization within 24 to 48 hours. The Restoration Group dispatches board-up and tarping crews around the clock from our Kenilworth headquarters, reaching 07076 addresses quickly so that a bad night does not become a months-long reconstruction project.
+A storm tears through Scotch Plains on a Tuesday night, and by Wednesday morning a split-level off Willow Grove has a broken attic window, a section of ridge shingles peeled back, and rain moving freely into the ceiling cavity. That gap, even a modest one, can let enough water in overnight to saturate insulation, buckle OSB sheathing, and set the clock on mold colonization within 24 to 48 hours. The Restoration Group dispatches board-up and tarping crews around the clock from our Kenilworth headquarters, reaching 07076 addresses quickly so that a bad night does not become a months-long reconstruction project.
 
 ## Why Scotch Plains Properties Are Particularly Vulnerable After Storms and Fires
 
-The housing stock in Scotch Plains skews heavily toward mid-century construction — 1950s and 1960s split-levels, ranches, and colonials that were built before modern weather-resistant barriers and synthetic roof underlayments became standard. Original wood-framed windows, aging mortar around chimney caps, and decades-old roof decking are all points of failure when a nor'easter or a fast-moving summer thunderstorm rolls through Union County. Near the Fanwood border and along the lower elevations where Cedar Brook drains, wind-driven rain finds every gap.
+The housing stock in Scotch Plains skews heavily toward mid-century construction, 1950s and 1960s split-levels, ranches, and colonials that were built before modern weather-resistant barriers and synthetic roof underlayments became standard. Original wood-framed windows, aging mortar around chimney caps, and decades-old roof decking are all points of failure when a nor'easter or a fast-moving summer thunderstorm rolls through Union County. Near the Fanwood border and along the lower elevations where Cedar Brook drains, wind-driven rain finds every gap.
 
 Fire losses add a different dimension. Smoke and combustion gases weaken window glazing, and the water from suppression hoses leaves structural openings that need immediate closure. Homes along the Park Avenue business district corridor include older mixed-use buildings where a single fire event can leave multiple ground-floor openings exposed to both weather and unauthorized entry. Without a board-up in place, a fire loss becomes a weather loss and a security loss simultaneously.
 
 ## Our Emergency Board-Up and Tarping Process in Scotch Plains
 
-When a call comes in from a Scotch Plains address, we confirm the nature of the opening — window, door, roof breach, or structural wall — and dispatch the right crew with the right material load. Roof tarping on a mid-century colonial is not the same job as boarding a commercial storefront on Route 22; we size the response accordingly.
+When a call comes in from a Scotch Plains address, we confirm the nature of the opening, window, door, roof breach, or structural wall, and dispatch the right crew with the right material load. Roof tarping on a mid-century colonial is not the same job as boarding a commercial storefront on Route 22; we size the response accordingly.
 
-On arrival, the crew assesses structural safety before anyone goes up on a roof or enters a fire-damaged structure. For roof tarping, we use reinforced polyethylene tarps weighted and mechanically fastened at the ridge and eaves — not just draped and held down with sandbags, which fail in the next wind event. For window and door board-ups, we cut plywood to fit the rough opening, fasten through the exterior casing into framing, and seal the perimeter to limit air and moisture infiltration. Every opening is photographed before and after for your insurance documentation.
+On arrival, the crew assesses structural safety before anyone goes up on a roof or enters a fire-damaged structure. For roof tarping, we use reinforced polyethylene tarps weighted and mechanically fastened at the ridge and eaves, not just draped and held down with sandbags, which fail in the next wind event. For window and door board-ups, we cut plywood to fit the rough opening, fasten through the exterior casing into framing, and seal the perimeter to limit air and moisture infiltration. Every opening is photographed before and after for your insurance documentation.
 
 If interior water has already entered through the breach, we flag that for the water mitigation team so extraction and drying can begin in the same mobilization rather than waiting for a second dispatch.
 
@@ -42,7 +42,7 @@ Kenilworth sits roughly five miles from central Scotch Plains, and our crews run
 
 ## Insurance Coordination for Scotch Plains Homeowners
 
-Most homeowner policies in New Jersey cover emergency protective measures — board-up and tarping are typically classified as "reasonable steps to prevent further damage," which is language that appears in standard HO-3 policy forms. We document the loss with timestamped photos, note the pre-existing conditions of the opening, and produce a written scope that your adjuster can attach directly to the claim file. We work with the major carriers active in Union County and can communicate directly with your adjuster if you want us to.
+Most homeowner policies in New Jersey cover emergency protective measures, board-up and tarping are typically classified as "reasonable steps to prevent further damage," which is language that appears in standard HO-3 policy forms. We document the loss with timestamped photos, note the pre-existing conditions of the opening, and produce a written scope that your adjuster can attach directly to the claim file. We work with the major carriers active in Union County and can communicate directly with your adjuster if you want us to.
 
 If your home falls under an HOA in one of Scotch Plains' planned sections, we can provide the board-up documentation the association typically requires before issuing a temporary repair approval.
 

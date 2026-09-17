@@ -20,7 +20,7 @@ rendered: true
 
 DISS Restoration is committed to making this website usable by everyone, including people who rely on assistive technologies such as screen readers, keyboard navigation, or display magnification. We believe access to information about emergency restoration services should not depend on a visitor's physical or cognitive abilities.
 
-This site is built with the goal of conforming to the **Web Content Accessibility Guidelines (WCAG) 2.1 at Level AA** — the current widely recognized benchmark for web accessibility. That means we aim for:
+This site is built with the goal of conforming to the **Web Content Accessibility Guidelines (WCAG) 2.1 at Level AA**, the current widely recognized benchmark for web accessibility. That means we aim for:
 
 - Sufficient color contrast between text and backgrounds
 - Descriptive alternative text on meaningful images
@@ -30,7 +30,7 @@ This site is built with the goal of conforming to the **Web Content Accessibilit
 
 ## Known Limitations and Ongoing Work
 
-Accessibility is not a one-time checkbox — it requires ongoing attention as content is added and the site evolves. We conduct periodic reviews and address issues as they are identified. If you encounter a barrier that prevents you from accessing information or completing a contact form, we want to know.
+Accessibility is not a one-time checkbox, it requires ongoing attention as content is added and the site evolves. We conduct periodic reviews and address issues as they are identified. If you encounter a barrier that prevents you from accessing information or completing a contact form, we want to know.
 
 Third-party content embedded on this site (such as mapping tools or review widgets) may not fully meet WCAG 2.1 AA. We have limited control over those components but will flag accessibility concerns to those providers.
 
@@ -46,7 +46,7 @@ When you contact us, please describe the page you were visiting, the assistive t
 
 ## Our Response Commitment
 
-We will acknowledge accessibility-related contacts promptly and work to address confirmed barriers within a reasonable timeframe. Where an immediate technical fix is not possible, we will offer an accessible alternative — such as providing requested information by phone or email — so that the barrier does not prevent you from getting the help you need.
+We will acknowledge accessibility-related contacts promptly and work to address confirmed barriers within a reasonable timeframe. Where an immediate technical fix is not possible, we will offer an accessible alternative, such as providing requested information by phone or email, so that the barrier does not prevent you from getting the help you need.
 
 ## Feedback and Continuous Improvement
 

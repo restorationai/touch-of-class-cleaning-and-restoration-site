@@ -26,11 +26,11 @@ These terms apply to your use of this website and any service relationship you e
 
 Services are provided within North Carolina. If your property falls outside the current service area, we will let you know before scheduling. Nothing on this website constitutes an offer to perform work in jurisdictions where the company is not licensed to operate.
 
-Every job is different. The information on this site — including service descriptions, process overviews, and general timelines — is educational. It is not a guarantee that any specific outcome will be achieved on your property. Actual scope, timeline, and cost depend on conditions found during the on-site assessment.
+Every job is different. The information on this site, including service descriptions, process overviews, and general timelines, is educational. It is not a guarantee that any specific outcome will be achieved on your property. Actual scope, timeline, and cost depend on conditions found during the on-site assessment.
 
 ### Estimates and Work Authorization
 
-An estimate is a good-faith projection based on visible conditions at the time of inspection. It is **not a binding contract**. Work does not begin until you have reviewed and signed a written work-authorization form. That signed document — not this website, not a verbal conversation, not an email exchange — governs the actual service relationship, including scope of work, pricing, and payment terms.
+An estimate is a good-faith projection based on visible conditions at the time of inspection. It is **not a binding contract**. Work does not begin until you have reviewed and signed a written work-authorization form. That signed document, not this website, not a verbal conversation, not an email exchange, governs the actual service relationship, including scope of work, pricing, and payment terms.
 
 If hidden damage is discovered once work is underway (as often happens with water intrusion or fire-affected structural cavities), a supplemental authorization will be presented before that additional scope proceeds.
 
@@ -40,7 +40,7 @@ Payment terms, accepted methods, and any deposit requirements are stated on your
 
 ### Insurance Coordination
 
-We work alongside many major insurance carriers and can document losses, photograph affected materials, and communicate directly with your adjuster — but only with your explicit written authorization. We do not guarantee coverage decisions; those are made solely by your carrier. You remain responsible for any portion of the invoice not covered by your policy, including deductibles.
+We work alongside many major insurance carriers and can document losses, photograph affected materials, and communicate directly with your adjuster, but only with your explicit written authorization. We do not guarantee coverage decisions; those are made solely by your carrier. You remain responsible for any portion of the invoice not covered by your policy, including deductibles.
 
 ### Liability
 
@@ -48,7 +48,7 @@ The company operates as a licensed contractor under North Carolina state regulat
 
 ### Dispute Resolution
 
-If a dispute arises, the preferred first step is a direct conversation — call (919) 906-5473 or put your concern in writing to gogreenrestorationofnc@gmail.com. If the matter cannot be resolved informally, disputes will be governed by the laws of the State of North Carolina, with venue in Johnston or Wake County as appropriate.
+If a dispute arises, the preferred first step is a direct conversation, call (919) 906-5473 or put your concern in writing to gogreenrestorationofnc@gmail.com. If the matter cannot be resolved informally, disputes will be governed by the laws of the State of North Carolina, with venue in Johnston or Wake County as appropriate.
 
 ### Changes to These Terms
 
@@ -64,7 +64,7 @@ This policy explains what information is collected when you visit this site or c
 
 ### What We Collect
 
-When you submit a contact form, request an estimate, or call the number on this site, you voluntarily provide information such as your name, phone number, email address, and property address. Basic analytics data — page views, general geographic region, device type, and referral source — may be collected through standard website analytics tools. This data is aggregated and not tied to your identity.
+When you submit a contact form, request an estimate, or call the number on this site, you voluntarily provide information such as your name, phone number, email address, and property address. Basic analytics data, page views, general geographic region, device type, and referral source, may be collected through standard website analytics tools. This data is aggregated and not tied to your identity.
 
 ### How We Use It
 
@@ -76,7 +76,7 @@ Your information is not sold, rented, or traded to third parties. It is shared w
 
 ### Retention
 
-Contact and job records are retained for as long as reasonably necessary for business, legal, and insurance documentation purposes — typically a minimum of five years following project completion.
+Contact and job records are retained for as long as reasonably necessary for business, legal, and insurance documentation purposes, typically a minimum of five years following project completion.
 
 ### Your Rights
 
@@ -94,4 +94,4 @@ For any privacy-related question or request, reach out directly: **gogreenrestor
 
 This website is built with the goal of meeting the Web Content Accessibility Guidelines (WCAG) 2.1 Level AA. That means the site is designed to be navigable by keyboard, compatible with common screen readers, and structured with sufficient color contrast and descriptive link text.
 
-We recognize that accessibility is an ongoing effort, not a one-time checkbox. If you encounter a barrier — a form that won't submit, an image without a description, a video without captions — please let us know. Contact us at **gogreenrestorationofnc@gmail.com** or call **(919) 906-5473**, and we will work to address the issue within a reasonable timeframe. Your feedback directly shapes how the site improves.
+We recognize that accessibility is an ongoing effort, not a one-time checkbox. If you encounter a barrier, a form that won't submit, an image without a description, a video without captions, please let us know. Contact us at **gogreenrestorationofnc@gmail.com** or call **(919) 906-5473**, and we will work to address the issue within a reasonable timeframe. Your feedback directly shapes how the site improves.

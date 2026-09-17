@@ -19,21 +19,21 @@ state: "NJ"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind the walls of a 1920s colonial in Watsessing or a sewer backs up into a finished basement in Brookdale after a summer downpour, The Restoration Group dispatches a crew from Kenilworth around the clock — handling water extraction, structural drying, mold containment, fire and smoke cleanup, and reconstruction for homeowners and property managers across Bloomfield's ZIP codes 07003 and beyond. One call reaches a team that understands what these houses are made of and what they're up against.
+When a pipe bursts behind the walls of a 1920s colonial in Watsessing or a sewer backs up into a finished basement in Brookdale after a summer downpour, The Restoration Group dispatches a crew from Kenilworth around the clock, handling water extraction, structural drying, mold containment, fire and smoke cleanup, and reconstruction for homeowners and property managers across Bloomfield's ZIP codes 07003 and beyond. One call reaches a team that understands what these houses are made of and what they're up against.
 
 ## Restoration emergencies common in Bloomfield
 
-Bloomfield's housing stock is the first thing any experienced restoration tech notices on arrival. The town is dense with 1900s–1930s colonials, two-families, and Tudor-style homes, most of them sitting on finished basements that were never designed to handle a modern sump failure. Original galvanized supply lines and cast-iron waste stacks are aging out on schedule — a slow pinhole leak inside a plaster wall can saturate floor joists for weeks before anyone smells it.
+Bloomfield's housing stock is the first thing any experienced restoration tech notices on arrival. The town is dense with 1900s–1930s colonials, two-families, and Tudor-style homes, most of them sitting on finished basements that were never designed to handle a modern sump failure. Original galvanized supply lines and cast-iron waste stacks are aging out on schedule, a slow pinhole leak inside a plaster wall can saturate floor joists for weeks before anyone smells it.
 
-The geography compounds the problem. The Third River (Yantacaw) and Second River thread through the Watsessing and Brookdale neighborhoods, and both corridors flooded badly during Hurricane Ida in 2021, pushing sewage backward through floor drains and into finished living spaces. That kind of Category 3 contamination — blackwater in a carpeted basement — requires a different response than a clean-water supply-line break: full PPE, antimicrobial treatment, and careful disposal of porous materials that can't be saved.
+The geography compounds the problem. The Third River (Yantacaw) and Second River thread through the Watsessing and Brookdale neighborhoods, and both corridors flooded badly during Hurricane Ida in 2021, pushing sewage backward through floor drains and into finished living spaces. That kind of Category 3 contamination, blackwater in a carpeted basement, requires a different response than a clean-water supply-line break: full PPE, antimicrobial treatment, and careful disposal of porous materials that can't be saved.
 
-Along the Broad Street business district and Bloomfield Avenue, the calls shift toward commercial losses: restaurant kitchen floods, retail roof leaks after nor'easters, and overnight water events at the Bloomfield College campus that need to be contained before morning classes. Postwar cape cods in North Center and Brookside add their own pattern — undersized gutters, ice dams in January, and attic condensation that feeds mold colonies behind knee-wall insulation before a homeowner ever opens that door.
+Along the Broad Street business district and Bloomfield Avenue, the calls shift toward commercial losses: restaurant kitchen floods, retail roof leaks after nor'easters, and overnight water events at the Bloomfield College campus that need to be contained before morning classes. Postwar cape cods in North Center and Brookside add their own pattern, undersized gutters, ice dams in January, and attic condensation that feeds mold colonies behind knee-wall insulation before a homeowner ever opens that door.
 
 ## Services we provide in Bloomfield
 
 ### Water damage restoration
 
-Water damage in Bloomfield often starts below grade. Sump-pump failures during summer storms are the most routine call, but the finished basements in Watsessing and Brookdale mean standing water reaches drywall, framing, and stored contents fast. The Restoration Group uses truck-mounted extraction, industrial dehumidifiers, and moisture mapping to dry the structure — not just the surface — before mold has a 24–48 hour window to colonize.
+Water damage in Bloomfield often starts below grade. Sump-pump failures during summer storms are the most routine call, but the finished basements in Watsessing and Brookdale mean standing water reaches drywall, framing, and stored contents fast. The Restoration Group uses truck-mounted extraction, industrial dehumidifiers, and moisture mapping to dry the structure, not just the surface, before mold has a 24–48 hour window to colonize.
 
 ### Mold remediation
 
@@ -41,7 +41,7 @@ Bloomfield's older homes trap moisture in ways newer construction doesn't: plast
 
 ### Fire and smoke damage restoration
 
-House fires in Bloomfield's tightly spaced neighborhoods spread smoke odor into adjacent units quickly. Smoke residue from a kitchen fire in a Bloomfield Center two-family can penetrate HVAC ductwork and settle into the unit upstairs within hours. We handle odor neutralization, content cleaning, and structural repairs — and we document everything for your insurance carrier.
+House fires in Bloomfield's tightly spaced neighborhoods spread smoke odor into adjacent units quickly. Smoke residue from a kitchen fire in a Bloomfield Center two-family can penetrate HVAC ductwork and settle into the unit upstairs within hours. We handle odor neutralization, content cleaning, and structural repairs, and we document everything for your insurance carrier.
 
 ### Commercial restoration
 
@@ -49,7 +49,7 @@ The Broad Street corridor and the college campus generate commercial losses that
 
 ## Coverage and how fast we can get there
 
-The Restoration Group is headquartered in Kenilworth, roughly 8 miles southwest of Bloomfield Center. The most direct route runs north on the Garden State Parkway to Route 21, then east on Bloomfield Avenue — a corridor our crews travel regularly. Watsessing and Brookdale, sitting near the western edge of town, are typically the first Bloomfield neighborhoods we reach. North Center and Brookside, toward the eastern side near Brookdale Park and Watsessing Park, add a few minutes of local surface travel. Because we operate 24/7, a call at 2 a.m. after a sump failure gets the same dispatch as a call at noon.
+The Restoration Group is headquartered in Kenilworth, roughly 8 miles southwest of Bloomfield Center. The most direct route runs north on the Garden State Parkway to Route 21, then east on Bloomfield Avenue, a corridor our crews travel regularly. Watsessing and Brookdale, sitting near the western edge of town, are typically the first Bloomfield neighborhoods we reach. North Center and Brookside, toward the eastern side near Brookdale Park and Watsessing Park, add a few minutes of local surface travel. Because we operate 24/7, a call at 2 a.m. after a sump failure gets the same dispatch as a call at noon.
 
 ## Building stock, site conditions, and permits in Bloomfield
 
@@ -57,6 +57,6 @@ Behind the plaster and lath in these pre-1930 houses you often find balloon fram
 
 Essex County sits on glacial soils over red shale, and basements near the Third and Second River corridors work against a high water table year-round, not just after storms. Footings here are set below a roughly three-foot frost line.
 
-Structural repair and rebuild permits in New Jersey run through the municipal construction official under the state Uniform Construction Code — in Bloomfield, the township's construction office.
+Structural repair and rebuild permits in New Jersey run through the municipal construction official under the state Uniform Construction Code, in Bloomfield, the township's construction office.
 
-If you're dealing with water, fire, mold, or storm damage anywhere in Bloomfield — from a finished basement in Brookdale to a commercial space on Broad Street — call The Restoration Group at **(855) 650-7422**. We're available around the clock and ready to send a crew.
+If you're dealing with water, fire, mold, or storm damage anywhere in Bloomfield, from a finished basement in Brookdale to a commercial space on Broad Street, call The Restoration Group at **(855) 650-7422**. We're available around the clock and ready to send a crew.

@@ -21,19 +21,19 @@ service_display: "Unattended Death Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
-Kirkland's mild but persistently damp climate — the kind that settles in off Lake Washington and lingers through the long gray stretch from October to April — means that when a home goes unattended for days or weeks, biological decomposition accelerates faster than in drier inland climates. That's a hard reality families and property managers face here, and it shapes everything about how this work needs to be done. National Restoration Construction has handled unattended death cleanup across the Eastside since 2004, and we approach each call with the discretion and technical precision the situation demands.
+Kirkland's mild but persistently damp climate, the kind that settles in off Lake Washington and lingers through the long gray stretch from October to April, means that when a home goes unattended for days or weeks, biological decomposition accelerates faster than in drier inland climates. That's a hard reality families and property managers face here, and it shapes everything about how this work needs to be done. National Restoration Construction has handled unattended death cleanup across the Eastside since 2004, and we approach each call with the discretion and technical precision the situation demands.
 
 ## Why Kirkland Homes Present Unique Challenges After an Unattended Death
 
-The housing stock along Kirkland's east Lake Washington shoreline varies widely — from mid-century ramblers in Houghton with original hardwood subfloors and minimal vapor barriers, to newer HOA-governed townhomes in Totem Lake with engineered flooring and shared-wall construction. Both present complications that a generalist cleaning company isn't equipped to handle.
+The housing stock along Kirkland's east Lake Washington shoreline varies widely, from mid-century ramblers in Houghton with original hardwood subfloors and minimal vapor barriers, to newer HOA-governed townhomes in Totem Lake with engineered flooring and shared-wall construction. Both present complications that a generalist cleaning company isn't equipped to handle.
 
-Older homes near the waterline often have subfloor assemblies that sit close to grade, and the combination of seasonal moisture intrusion and biological contamination can mean that affected materials extend deeper than they appear on the surface. In newer condo and townhome developments — common throughout the 98034 corridor — shared walls and HVAC systems raise the question of whether odor or airborne particulates have migrated to adjacent units. That's not a hypothetical; it's a real coordination issue we address before work begins, not after.
+Older homes near the waterline often have subfloor assemblies that sit close to grade, and the combination of seasonal moisture intrusion and biological contamination can mean that affected materials extend deeper than they appear on the surface. In newer condo and townhome developments, common throughout the 98034 corridor, shared walls and HVAC systems raise the question of whether odor or airborne particulates have migrated to adjacent units. That's not a hypothetical; it's a real coordination issue we address before work begins, not after.
 
 Kirkland's HOA culture also means there are often property management contacts, board notification requirements, or common-area access protocols that need to be respected. We handle that communication on your behalf when you need us to.
 
 ## Our Unattended Death Cleanup Process in Kirkland
 
-Every job begins with a contained, thorough assessment — no assumptions about scope based on what's visible. Our IICRC-certified technicians identify all affected surfaces, materials, and airspace before any remediation begins. We work under Washington State Department of Labor & Industries licensure (General Contractor Certificate of Registration #NATIORC792M6) and follow OSHA bloodborne pathogen protocols and EPA guidelines throughout.
+Every job begins with a contained, thorough assessment, no assumptions about scope based on what's visible. Our IICRC-certified technicians identify all affected surfaces, materials, and airspace before any remediation begins. We work under Washington State Department of Labor & Industries licensure (General Contractor Certificate of Registration #NATIORC792M6) and follow OSHA bloodborne pathogen protocols and EPA guidelines throughout.
 
 The process moves in stages:
 
@@ -43,24 +43,24 @@ We arrive in unmarked vehicles when requested. In neighborhoods like Juanita, wh
 
 ### Remediation and Material Removal
 
-Affected porous materials — flooring, subfloor, drywall, insulation — are removed, bagged, and transported in compliance with Washington State biohazardous waste regulations. We don't leave that responsibility to the family or the estate.
+Affected porous materials, flooring, subfloor, drywall, insulation, are removed, bagged, and transported in compliance with Washington State biohazardous waste regulations. We don't leave that responsibility to the family or the estate.
 
 ### Decontamination and Odor Neutralization
 
-Odor after an unattended death is not a surface problem. It penetrates structural cavities, HVAC ducting, and soft goods. We use hydroxyl generators and thermal fogging calibrated to the specific square footage and construction type, not a one-size approach. In homes with original plaster walls — still present in some older Houghton properties — we account for the fact that porous plaster holds odor compounds differently than modern drywall and requires extended treatment cycles.
+Odor after an unattended death is not a surface problem. It penetrates structural cavities, HVAC ducting, and soft goods. We use hydroxyl generators and thermal fogging calibrated to the specific square footage and construction type, not a one-size approach. In homes with original plaster walls, still present in some older Houghton properties, we account for the fact that porous plaster holds odor compounds differently than modern drywall and requires extended treatment cycles.
 
 ### Clearance and Documentation
 
-We provide written documentation of all work completed, materials removed, and disposal manifests. This matters for estate settlement, insurance claims, and — in HOA-governed properties — demonstrating to a board or property manager that remediation met a professional standard.
+We provide written documentation of all work completed, materials removed, and disposal manifests. This matters for estate settlement, insurance claims, and, in HOA-governed properties, demonstrating to a board or property manager that remediation met a professional standard.
 
 ## Kirkland Insurance and HOA Coordination
 
-Homeowners insurance policies in Washington State vary significantly in how they handle unattended death cleanup. Some policies cover biohazard remediation under the dwelling coverage; others require a separate rider. We work directly with adjusters and can provide the itemized documentation insurers require. If you're managing an estate in the 98033 zip code and aren't certain what coverage applies, we can walk through the documentation process with you before work begins — it doesn't cost anything to ask.
+Homeowners insurance policies in Washington State vary significantly in how they handle unattended death cleanup. Some policies cover biohazard remediation under the dwelling coverage; others require a separate rider. We work directly with adjusters and can provide the itemized documentation insurers require. If you're managing an estate in the 98033 zip code and aren't certain what coverage applies, we can walk through the documentation process with you before work begins, it doesn't cost anything to ask.
 
 For properties governed by an HOA, we're familiar with the notification and access requirements common to Kirkland's newer developments. We can communicate directly with a property manager or board representative so the family doesn't have to manage that layer during an already difficult time.
 
 ## Local Note
 
-In Kirkland's Totem Lake and Bridle Trails townhome communities — many built between 2005 and 2015 — forced-air HVAC systems are shared across floors and sometimes across units in attached configurations. When an unattended death occurs in one of these properties, odor migration through ductwork into adjacent or upper-level spaces is a documented pattern we've encountered more than once. Before closing out any job in this type of construction, we conduct a duct inspection and, when indicated, coordinate with an independent industrial hygienist for air quality verification. It's an extra step that HOA boards and neighboring residents consistently appreciate.
+In Kirkland's Totem Lake and Bridle Trails townhome communities, many built between 2005 and 2015, forced-air HVAC systems are shared across floors and sometimes across units in attached configurations. When an unattended death occurs in one of these properties, odor migration through ductwork into adjacent or upper-level spaces is a documented pattern we've encountered more than once. Before closing out any job in this type of construction, we conduct a duct inspection and, when indicated, coordinate with an independent industrial hygienist for air quality verification. It's an extra step that HOA boards and neighboring residents consistently appreciate.
 
-If you're dealing with this situation in Kirkland — whether in a lakefront home near Juanita Bay Park or a newer development off Totem Lake Boulevard — call National Restoration Construction at (206) 883-0333. We answer around the clock, we'll tell you exactly what to expect, and we'll handle the rest.
+If you're dealing with this situation in Kirkland, whether in a lakefront home near Juanita Bay Park or a newer development off Totem Lake Boulevard, call National Restoration Construction at (206) 883-0333. We answer around the clock, we'll tell you exactly what to expect, and we'll handle the rest.

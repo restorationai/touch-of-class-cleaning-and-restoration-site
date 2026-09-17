@@ -20,41 +20,41 @@ state: "CA"
 service_display: "Water Softeners and Filtration Systems"
 rendered: true
 ---
-Riverside's tap water is some of the hardest in Southern California — a fact that shows up as chalky scale on shower doors, shortened appliance lifespans, and that faint mineral taste in a glass of water from the kitchen sink. The Colorado River and groundwater sources that feed Riverside's distribution system carry elevated levels of calcium and magnesium, and the dry Inland Empire climate means those minerals concentrate quickly. Whether you're in a newer build near the Orangecrest area or an older craftsman closer to the historic core of the city, the water chemistry here makes a softener or whole-house filtration system less of a luxury and more of a practical investment.
+Riverside's tap water is some of the hardest in Southern California, a fact that shows up as chalky scale on shower doors, shortened appliance lifespans, and that faint mineral taste in a glass of water from the kitchen sink. The Colorado River and groundwater sources that feed Riverside's distribution system carry elevated levels of calcium and magnesium, and the dry Inland Empire climate means those minerals concentrate quickly. Whether you're in a newer build near the Orangecrest area or an older craftsman closer to the historic core of the city, the water chemistry here makes a softener or whole-house filtration system less of a luxury and more of a practical investment.
 
 ## Why Riverside Properties See Hard Water and Filtration Issues
 
-Riverside sits in a region where water hardness regularly runs between 15 and 25 grains per gallon depending on the blend of surface and groundwater your neighborhood receives in a given season. That range is well above the threshold where scale starts to build inside tankless water heaters, clog aerators, and leave residue on fixtures. Homes in the Wood Streets neighborhood — known for their Craftsman and Spanish Revival architecture — often have older copper or galvanized supply lines that are especially vulnerable to mineral buildup over time, since the interior walls of aging pipe have already accumulated decades of scale.
+Riverside sits in a region where water hardness regularly runs between 15 and 25 grains per gallon depending on the blend of surface and groundwater your neighborhood receives in a given season. That range is well above the threshold where scale starts to build inside tankless water heaters, clog aerators, and leave residue on fixtures. Homes in the Wood Streets neighborhood, known for their Craftsman and Spanish Revival architecture, often have older copper or galvanized supply lines that are especially vulnerable to mineral buildup over time, since the interior walls of aging pipe have already accumulated decades of scale.
 
 Beyond hardness, Riverside's water can carry detectable levels of chloramines (used by the water utility for disinfection), sediment during high-demand periods, and trace agricultural byproducts that reach groundwater sources in the broader county. A whole-house carbon filtration system addresses taste and odor issues at every tap; a reverse osmosis system at the kitchen sink takes that further for drinking and cooking water.
 
 ## Our Water Treatment Process in Riverside
 
-Every installation starts with an on-site water test — not a guess based on regional averages. Hardness, pH, total dissolved solids, and chloramine levels all factor into which system is the right fit. A grain capacity that works for a two-person household in a ZIP code drawing from one source blend may be undersized for a larger family in a different part of the city drawing from another.
+Every installation starts with an on-site water test, not a guess based on regional averages. Hardness, pH, total dissolved solids, and chloramine levels all factor into which system is the right fit. A grain capacity that works for a two-person household in a ZIP code drawing from one source blend may be undersized for a larger family in a different part of the city drawing from another.
 
 Once the right equipment is selected, the process typically involves:
 
-- **Site assessment** — locating the best point-of-entry position (usually near the main shutoff) and confirming drain access for the brine discharge line
-- **Bypass valve installation** — so the system can be serviced without interrupting water to the home
-- **System startup and programming** — setting regeneration cycles to match actual household water use, not factory defaults
-- **Post-installation water check** — confirming output hardness is at target before we leave the site
+- **Site assessment**, locating the best point-of-entry position (usually near the main shutoff) and confirming drain access for the brine discharge line
+- **Bypass valve installation**, so the system can be serviced without interrupting water to the home
+- **System startup and programming**, setting regeneration cycles to match actual household water use, not factory defaults
+- **Post-installation water check**, confirming output hardness is at target before we leave the site
 
-For reverse osmosis systems, we also test feed-water pressure and install a booster pump if needed, since RO membranes require adequate pressure to function efficiently — something that can be an issue in areas of Riverside where static pressure runs on the lower end.
+For reverse osmosis systems, we also test feed-water pressure and install a booster pump if needed, since RO membranes require adequate pressure to function efficiently, something that can be an issue in areas of Riverside where static pressure runs on the lower end.
 
 ## Reaching Riverside from Corona
 
-RT Olson's shop is in Corona, which puts Riverside within easy reach along the 91 freeway or Highway 60. The team is available around the clock, so scheduling isn't limited to business hours. For neighborhoods in the western and central parts of Riverside — including the Wood Streets and areas near the University of California campus — the drive is straightforward. Eastern Riverside addresses along the 60 corridor are equally accessible. Call (951) 344-5596 and the dispatcher will give you a realistic arrival window based on current conditions.
+RT Olson's shop is in Corona, which puts Riverside within easy reach along the 91 freeway or Highway 60. The team is available around the clock, so scheduling isn't limited to business hours. For neighborhoods in the western and central parts of Riverside, including the Wood Streets and areas near the University of California campus, the drive is straightforward. Eastern Riverside addresses along the 60 corridor are equally accessible. Call (951) 344-5596 and the dispatcher will give you a realistic arrival window based on current conditions.
 
 ## Equipment and Methods We Use for Water Treatment
 
-Softener selection depends on grain capacity, tank configuration (single versus twin-tank for uninterrupted soft water during regeneration), and salt type compatibility. For Riverside homes with very high hardness readings, a twin-tank system ensures you're never drawing hard water during the regeneration cycle — relevant for households that run dishwashers and laundry daily.
+Softener selection depends on grain capacity, tank configuration (single versus twin-tank for uninterrupted soft water during regeneration), and salt type compatibility. For Riverside homes with very high hardness readings, a twin-tank system ensures you're never drawing hard water during the regeneration cycle, relevant for households that run dishwashers and laundry daily.
 
-Filtration options include whole-house sediment pre-filters, activated carbon systems for chloramine and taste issues, and point-of-use reverse osmosis units with remineralization stages for drinking water. We carry and install systems from established manufacturers and size them to the actual flow rate your home requires — not the maximum the manufacturer lists on the box.
+Filtration options include whole-house sediment pre-filters, activated carbon systems for chloramine and taste issues, and point-of-use reverse osmosis units with remineralization stages for drinking water. We carry and install systems from established manufacturers and size them to the actual flow rate your home requires, not the maximum the manufacturer lists on the box.
 
 ## Local Note
 
-One thing worth knowing about Riverside specifically: the city's water utility occasionally shifts its source blend between Colorado River water and State Water Project water depending on allocation and storage levels. That seasonal shift can change your water's hardness and chemistry noticeably — sometimes by several grains per gallon. A softener programmed for one blend may regenerate too frequently or not frequently enough when the blend changes. We set regeneration cycles conservatively and recommend homeowners in Riverside retest their output water once a year, especially after a dry winter when source blends tend to shift more dramatically.
+One thing worth knowing about Riverside specifically: the city's water utility occasionally shifts its source blend between Colorado River water and State Water Project water depending on allocation and storage levels. That seasonal shift can change your water's hardness and chemistry noticeably, sometimes by several grains per gallon. A softener programmed for one blend may regenerate too frequently or not frequently enough when the blend changes. We set regeneration cycles conservatively and recommend homeowners in Riverside retest their output water once a year, especially after a dry winter when source blends tend to shift more dramatically.
 
-If you've noticed your water suddenly tasting or feeling different than it did six months ago, that's often why — and it's a straightforward adjustment, not a system failure.
+If you've noticed your water suddenly tasting or feeling different than it did six months ago, that's often why, and it's a straightforward adjustment, not a system failure.
 
-Ready to stop scrubbing mineral deposits off your fixtures and start protecting your water heater and appliances? Call RT Olson Plumbing, Heating and Air Conditioning at **(951) 344-5596** — we'll test your Riverside water on-site and recommend a system sized for what's actually coming out of your tap.
+Ready to stop scrubbing mineral deposits off your fixtures and start protecting your water heater and appliances? Call RT Olson Plumbing, Heating and Air Conditioning at **(951) 344-5596**, we'll test your Riverside water on-site and recommend a system sized for what's actually coming out of your tap.

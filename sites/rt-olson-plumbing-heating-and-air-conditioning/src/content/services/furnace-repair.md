@@ -17,11 +17,11 @@ service_slug: "furnace-repair"
 service_display: "Furnace Repair"
 rendered: true
 ---
-Your furnace ran fine last winter. Now it's a cold January morning in Corona, the thermostat is set to 70°, and the system is either blowing cold air, cycling on and off every few minutes, or simply sitting silent. That gap between "it worked before" and "it's not working now" is exactly where RT Olson Plumbing, Heating and Air Conditioning operates — diagnosing what actually failed, not just resetting the system and hoping it holds.
+Your furnace ran fine last winter. Now it's a cold January morning in Corona, the thermostat is set to 70°, and the system is either blowing cold air, cycling on and off every few minutes, or simply sitting silent. That gap between "it worked before" and "it's not working now" is exactly where RT Olson Plumbing, Heating and Air Conditioning operates, diagnosing what actually failed, not just resetting the system and hoping it holds.
 
 ## What furnace repair actually involves
 
-Furnace repair is not a single task. A furnace that won't ignite has a different root cause than one that runs but blows cold air, and both differ from a unit that short-cycles, overheats, or trips a limit switch repeatedly. Proper diagnosis means working through the entire system — thermostat signal, control board, igniter, flame sensor, heat exchanger, blower motor, and flue — before touching a single component.
+Furnace repair is not a single task. A furnace that won't ignite has a different root cause than one that runs but blows cold air, and both differ from a unit that short-cycles, overheats, or trips a limit switch repeatedly. Proper diagnosis means working through the entire system, thermostat signal, control board, igniter, flame sensor, heat exchanger, blower motor, and flue, before touching a single component.
 
 Common failures we see in the Inland Empire's climate include cracked heat exchangers from years of thermal cycling in wide-temperature swings, dirty flame sensors coated with oxidation from low-use summer months, and capacitors on blower motors that degrade faster in the region's summer heat even when the furnace itself isn't running. A furnace that sat idle through a long, hot Corona summer can develop problems that only surface the first time it fires in November.
 
@@ -31,11 +31,11 @@ Repair timelines depend on parts availability. Many igniter, sensor, and control
 
 1. **System-wide diagnostic, not symptom-chasing.** Before any component is condemned, we verify thermostat output, check for error codes on the control board, measure gas pressure at the manifold, test igniter resistance, and inspect the heat exchanger for cracks or separation. Replacing a flame sensor on a furnace with a cracked heat exchanger solves one symptom and leaves a more serious problem running.
 
-2. **Safety lockout verification.** Limit switches, pressure switches, and rollout switches trip for reasons — they are not reset-and-move-on items. We identify why the switch opened before resetting it. A limit switch tripping repeatedly usually means restricted airflow, an oversized fire, or a failing heat exchanger, not a faulty switch.
+2. **Safety lockout verification.** Limit switches, pressure switches, and rollout switches trip for reasons, they are not reset-and-move-on items. We identify why the switch opened before resetting it. A limit switch tripping repeatedly usually means restricted airflow, an oversized fire, or a failing heat exchanger, not a faulty switch.
 
 3. **Combustion analysis.** Once the furnace fires, we verify the flame is stable, correctly colored, and properly seated on the burners. An uneven or lifting flame indicates gas pressure, burner orifice, or heat exchanger issues that won't show up on an error code readout.
 
-4. **Airflow and duct-side check.** A furnace that overheats and shuts down is often starved for return air, not mechanically broken. We check filter condition, return air static pressure, and supply temperatures to confirm the repaired unit is operating within manufacturer specifications — not just firing and leaving.
+4. **Airflow and duct-side check.** A furnace that overheats and shuts down is often starved for return air, not mechanically broken. We check filter condition, return air static pressure, and supply temperatures to confirm the repaired unit is operating within manufacturer specifications, not just firing and leaving.
 
 5. **Written summary before we leave.** You get a clear explanation of what failed, what was done, and whether any secondary issues (aging heat exchanger, marginal capacitor, corroded flue connector) were noted during the visit so you can make an informed decision about next steps.
 
@@ -43,18 +43,18 @@ Repair timelines depend on parts availability. Many igniter, sensor, and control
 
 The most common mistake in furnace repair is treating symptoms as the diagnosis. A furnace blowing cold air gets a new igniter; the technician leaves; the furnace blows cold air again two weeks later because the flame sensor was the actual culprit. Or a no-heat call gets a thermostat replacement when the real problem is a failed control board that's intermittently dropping the call-for-heat signal.
 
-Heat exchanger inspection is the other area where shortcuts create real risk. A cracked heat exchanger can allow combustion gases — including carbon monoxide — to enter the living space through the supply air stream. Visual inspection alone misses hairline cracks. A proper check includes operating the furnace under load and using a combustion gas analyzer or smoke test at the supply registers, not just a flashlight look through the burner compartment.
+Heat exchanger inspection is the other area where shortcuts create real risk. A cracked heat exchanger can allow combustion gases, including carbon monoxide, to enter the living space through the supply air stream. Visual inspection alone misses hairline cracks. A proper check includes operating the furnace under load and using a combustion gas analyzer or smoke test at the supply registers, not just a flashlight look through the burner compartment.
 
 Finally, good furnace repair accounts for the whole system. A repaired furnace running against a clogged filter, undersized return, or disconnected duct will fail again faster than it should.
 
 ## Seasonal and regional considerations
 
-Corona and the surrounding Inland Empire communities see sharp overnight temperature drops in late October and November — often the first time a furnace runs all season. That first cold snap is when deferred maintenance shows itself: igniters that were marginal last spring crack under thermal shock, flame sensors that oxidized over the summer fail to read a flame, and blower capacitors that weakened in the summer heat finally give out under load.
+Corona and the surrounding Inland Empire communities see sharp overnight temperature drops in late October and November, often the first time a furnace runs all season. That first cold snap is when deferred maintenance shows itself: igniters that were marginal last spring crack under thermal shock, flame sensors that oxidized over the summer fail to read a flame, and blower capacitors that weakened in the summer heat finally give out under load.
 
-If your furnace hasn't been inspected since last heating season, the best time to find a problem is before the temperature drops — not at 11pm when it already has.
+If your furnace hasn't been inspected since last heating season, the best time to find a problem is before the temperature drops, not at 11pm when it already has.
 
 ## Service area
 
 RT Olson Plumbing, Heating and Air Conditioning is based in Corona and serves communities throughout the Inland Empire and surrounding areas, including Riverside, Norco, Eastvale, Chino Hills, Ontario, Rancho Cucamonga, and Anaheim Hills. The city-specific furnace repair pages for each community link back here for the full technical detail on what the repair process involves.
 
-If your furnace isn't working — no heat, cold air, short-cycling, or a unit that won't fire at all — call (951) 344-5596. RT Olson's team is available around the clock, and a diagnostic visit starts the process of getting your heat back on the same day.
+If your furnace isn't working, no heat, cold air, short-cycling, or a unit that won't fire at all, call (951) 344-5596. RT Olson's team is available around the clock, and a diagnostic visit starts the process of getting your heat back on the same day.

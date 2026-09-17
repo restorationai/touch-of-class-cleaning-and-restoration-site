@@ -20,15 +20,15 @@ state: "CA"
 service_display: "Leak Detection"
 rendered: true
 ---
-Delano's hard groundwater — some of the most mineral-laden in Kern County — quietly wages war on supply lines, water heater connections, and copper fittings year after year. When that mineral buildup finally causes a pinhole leak inside a wall or beneath a slab, homeowners often notice the damage on their water bill long before they see a wet spot. All Pro Plumbing Heating and Air provides leak detection in Delano, using electronic and acoustic equipment to find hidden water loss without tearing apart floors or drywall unnecessarily.
+Delano's hard groundwater, some of the most mineral-laden in Kern County, quietly wages war on supply lines, water heater connections, and copper fittings year after year. When that mineral buildup finally causes a pinhole leak inside a wall or beneath a slab, homeowners often notice the damage on their water bill long before they see a wet spot. All Pro Plumbing Heating and Air provides leak detection in Delano, using electronic and acoustic equipment to find hidden water loss without tearing apart floors or drywall unnecessarily.
 
 ## Why Delano Properties Develop Hidden Leaks
 
-Two distinct housing eras define most of Delano's residential stock. The pre-1960 bungalows concentrated near Downtown Delano and the Cecil Avenue corridor were built on slab-on-grade foundations with copper or galvanized supply lines that are now 60-plus years old. Galvanized pipe corrodes from the inside out, narrowing over decades until a section finally fails — often under the slab, where you can't see it. Copper holds up better but isn't immune to the pitting that Kern County's hard water accelerates, especially where a water softener was never installed.
+Two distinct housing eras define most of Delano's residential stock. The pre-1960 bungalows concentrated near Downtown Delano and the Cecil Avenue corridor were built on slab-on-grade foundations with copper or galvanized supply lines that are now 60-plus years old. Galvanized pipe corrodes from the inside out, narrowing over decades until a section finally fails, often under the slab, where you can't see it. Copper holds up better but isn't immune to the pitting that Kern County's hard water accelerates, especially where a water softener was never installed.
 
 The newer subdivisions on the west side of town, built during the 2000s growth wave, face a different problem: polybutylene-era fittings and early PEX connections that weren't always installed to today's standards. Irrigation lines serving the large lots in West Delano also develop slow seeps at valve manifolds, which can run undetected through an entire harvest season.
 
-Commercially, the ag-processing facilities and cold-storage operations along the Highway 99 commercial strip run high-pressure process water lines that experience stress cycling — repeated pressurization and depressurization — that residential plumbing never sees. That cycling fatigues joints faster than age alone.
+Commercially, the ag-processing facilities and cold-storage operations along the Highway 99 commercial strip run high-pressure process water lines that experience stress cycling, repeated pressurization and depressurization, that residential plumbing never sees. That cycling fatigues joints faster than age alone.
 
 ## Our Leak Detection Process in Delano
 
@@ -37,7 +37,7 @@ Every call starts with a water-meter check. We shut off all fixtures and watch t
 From there, the method depends on what the building tells us:
 
 - **Acoustic listening equipment** picks up the hiss and vibration of pressurized water escaping through a pinhole, even through 4 inches of concrete slab. We walk a grid pattern across the floor, listening for the frequency signature that distinguishes a leak from ambient noise.
-- **Electronic amplification** lets us isolate the sound in older homes where walls and subfloors have been layered over decades of remodeling — common in the bungalow stock near Cesar Chavez Park.
+- **Electronic amplification** lets us isolate the sound in older homes where walls and subfloors have been layered over decades of remodeling, common in the bungalow stock near Cesar Chavez Park.
 - **Thermal imaging** identifies temperature differentials at slab edges and behind drywall where evaporative cooling from a slow drip creates a cold zone invisible to the eye.
 - **Pressure isolation testing** divides the supply system into zones so we can confirm exactly which branch is losing pressure, saving time and reducing the area we need to investigate.
 
@@ -45,12 +45,12 @@ Once the leak is pinpointed, we mark the location precisely before any cutting o
 
 ## Reaching Delano from Bakersfield
 
-All Pro operates around the clock, and Delano sits roughly 30 miles north of our Bakersfield base via Highway 99 — a straightforward run under normal conditions. For calls near Delano Regional Medical Center or the Randolph Street corridor, we can typically route directly off the 99 without navigating surface-street congestion. We dispatch 24/7, so a spike in your water bill discovered on a Sunday evening or a wet floor found at midnight gets the same response as a weekday morning call.
+All Pro operates around the clock, and Delano sits roughly 30 miles north of our Bakersfield base via Highway 99, a straightforward run under normal conditions. For calls near Delano Regional Medical Center or the Randolph Street corridor, we can typically route directly off the 99 without navigating surface-street congestion. We dispatch 24/7, so a spike in your water bill discovered on a Sunday evening or a wet floor found at midnight gets the same response as a weekday morning call.
 
 ## Local Note: Scale, Softeners, and Slab Leaks
 
-Something technicians notice repeatedly in Delano: homes that added a water softener in the last decade sometimes develop new leak activity within a year or two of installation. The reason is counterintuitive — softened water is slightly more aggressive toward older copper because it no longer carries the thin mineral coating that was actually protecting corroded pipe walls. In a 1950s bungalow near Downtown Delano where the copper has been slowly mineralizing for 70 years, switching to softened water can accelerate pinhole formation. If you've recently installed a softener and your water bill has crept up, that correlation is worth mentioning when you call.
+Something technicians notice repeatedly in Delano: homes that added a water softener in the last decade sometimes develop new leak activity within a year or two of installation. The reason is counterintuitive, softened water is slightly more aggressive toward older copper because it no longer carries the thin mineral coating that was actually protecting corroded pipe walls. In a 1950s bungalow near Downtown Delano where the copper has been slowly mineralizing for 70 years, switching to softened water can accelerate pinhole formation. If you've recently installed a softener and your water bill has crept up, that correlation is worth mentioning when you call.
 
-If water has already spread beyond the pipe into subfloor framing or drywall, the plumbing repair is only the first step — contact your homeowner's insurer promptly and ask about engaging a licensed water-damage restoration professional to assess drying needs.
+If water has already spread beyond the pipe into subfloor framing or drywall, the plumbing repair is only the first step, contact your homeowner's insurer promptly and ask about engaging a licensed water-damage restoration professional to assess drying needs.
 
-Suspect a hidden leak at your Delano property? Call All Pro Plumbing Heating and Air at (661) 863-9242 any time — day or night — and we'll schedule an electronic leak detection visit, pinpoint the source, and give you a clear repair plan before any work begins.
+Suspect a hidden leak at your Delano property? Call All Pro Plumbing Heating and Air at (661) 863-9242 any time, day or night, and we'll schedule an electronic leak detection visit, pinpoint the source, and give you a clear repair plan before any work begins.

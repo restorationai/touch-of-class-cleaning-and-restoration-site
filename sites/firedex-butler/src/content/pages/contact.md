@@ -19,12 +19,12 @@ If you're dealing with water, fire, or a biohazard situation right now, stop rea
 
 ## For urgent situations
 
-Call **(724) 452-7400** the moment you recognize a loss — a burst pipe soaking through subfloor, smoke residue settling into walls, or anything that can't wait until Monday morning. FireDEX Butler operates 24 hours a day, 7 days a week, including holidays, so you will reach a real person who can dispatch a crew and start walking you through immediate steps before we arrive. License #PA001913.
+Call **(724) 452-7400** the moment you recognize a loss, a burst pipe soaking through subfloor, smoke residue settling into walls, or anything that can't wait until Monday morning. FireDEX Butler operates 24 hours a day, 7 days a week, including holidays, so you will reach a real person who can dispatch a crew and start walking you through immediate steps before we arrive. License #PA001913.
 
 ## For estimates and non-urgent inquiries
 
-If you're not in crisis mode — you need a mold assessment scheduled, want a scope of work reviewed, or have questions about a prior claim — email us at **mail@firedex.net** or use the contact form on this page. We typically respond to non-emergency inquiries within one business day. For anything time-sensitive that doesn't require an immediate dispatch, a quick call is still the fastest path to an answer.
+If you're not in crisis mode, you need a mold assessment scheduled, want a scope of work reviewed, or have questions about a prior claim, email us at **mail@firedex.net** or use the contact form on this page. We typically respond to non-emergency inquiries within one business day. For anything time-sensitive that doesn't require an immediate dispatch, a quick call is still the fastest path to an answer.
 
 ## Where we're located
 
-Our office sits at **9133 Marshall Rd, Cranberry Township, PA 16066**, in the heart of Butler County. From here we serve communities across the Pittsburgh North suburbs and surrounding region — including Butler, Zelienople, Mars, Wexford, Allison Park, and into Allegheny and Lawrence Counties. Western Pennsylvania's freeze-thaw winters and humid summers create conditions that push pipe failures and moisture intrusion year-round, so our crews stay ready regardless of season. If you're unsure whether your address falls within our service area, call or email and we'll confirm quickly.
+Our office sits at **9133 Marshall Rd, Cranberry Township, PA 16066**, in the heart of Butler County. From here we serve communities across the Pittsburgh North suburbs and surrounding region, including Butler, Zelienople, Mars, Wexford, Allison Park, and into Allegheny and Lawrence Counties. Western Pennsylvania's freeze-thaw winters and humid summers create conditions that push pipe failures and moisture intrusion year-round, so our crews stay ready regardless of season. If you're unsure whether your address falls within our service area, call or email and we'll confirm quickly.

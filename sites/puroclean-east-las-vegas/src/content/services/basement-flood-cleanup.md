@@ -17,11 +17,11 @@ service_slug: "basement-flood-cleanup"
 service_display: "Basement Flood Cleanup"
 rendered: true
 ---
-Standing water in a basement does not behave the way a leak in a finished living room does. It pools against foundation walls, seeps under slab edges, and saturates concrete block cores that never fully dry on their own. Within 24 to 48 hours, drywall wicking begins, wood framing swells, and the conditions that allow mold to colonize are already in place — often before the floor even looks wet to the naked eye. Basement flood cleanup is a distinct discipline from general water damage restoration, and the difference between a complete recovery and a recurring mold problem usually comes down to what happens in the first few hours.
+Standing water in a basement does not behave the way a leak in a finished living room does. It pools against foundation walls, seeps under slab edges, and saturates concrete block cores that never fully dry on their own. Within 24 to 48 hours, drywall wicking begins, wood framing swells, and the conditions that allow mold to colonize are already in place, often before the floor even looks wet to the naked eye. Basement flood cleanup is a distinct discipline from general water damage restoration, and the difference between a complete recovery and a recurring mold problem usually comes down to what happens in the first few hours.
 
 ## What basement flood cleanup actually involves
 
-A flooded basement presents layers of complexity that above-grade rooms rarely do. Concrete and masonry absorb water slowly but hold it for a long time — moisture readings at the surface can look acceptable while the interior of a block wall remains saturated. Vapor barriers, if present, can trap water behind them. French drains and sump pits may be overwhelmed or clogged. Floor drains can backflow. And because basements sit below grade, evaporation — the natural drying mechanism that helps above-grade rooms recover — is nearly absent without mechanical intervention.
+A flooded basement presents layers of complexity that above-grade rooms rarely do. Concrete and masonry absorb water slowly but hold it for a long time, moisture readings at the surface can look acceptable while the interior of a block wall remains saturated. Vapor barriers, if present, can trap water behind them. French drains and sump pits may be overwhelmed or clogged. Floor drains can backflow. And because basements sit below grade, evaporation, the natural drying mechanism that helps above-grade rooms recover, is nearly absent without mechanical intervention.
 
 Equipment deployed in a basement flood response typically includes truck-mounted or portable extraction units to pull standing water, industrial-grade dehumidifiers rated for the volume of the space, and axial or centrifugal air movers positioned to drive airflow across wet concrete and framing. Thermal imaging cameras help locate water that has migrated behind walls or under slab sections. Moisture meters with both pin and pinless modes track drying progress in concrete, wood, and drywall over successive days.
 
@@ -29,29 +29,29 @@ Timeline depends on water category and material saturation. Clean water losses i
 
 ## Our process
 
-1. **Safety assessment and water source control.** Before extraction begins, the source of the intrusion is identified — sump failure, foundation crack, drain backup, or exterior flooding — and confirmed stopped or controlled. Electrical panels and outlets in the affected area are evaluated before any crew or equipment enters standing water.
+1. **Safety assessment and water source control.** Before extraction begins, the source of the intrusion is identified, sump failure, foundation crack, drain backup, or exterior flooding, and confirmed stopped or controlled. Electrical panels and outlets in the affected area are evaluated before any crew or equipment enters standing water.
 
 2. **Standing water extraction.** High-capacity extractors remove bulk water from the floor. In slab-on-grade basements, this step also includes pulling water from expansion joints and floor drain surrounds. The goal is to remove every gallon that can be mechanically extracted before drying equipment is placed.
 
-3. **Affected material removal and containment.** Saturated drywall, insulation, carpet, and pad are removed to the flood cut line — typically 12 to 24 inches above the visible water line to account for wicking. If the water source was a sewage backup or exterior flood (Category 3), containment protocols are applied and porous materials are treated as contaminated regardless of appearance.
+3. **Affected material removal and containment.** Saturated drywall, insulation, carpet, and pad are removed to the flood cut line, typically 12 to 24 inches above the visible water line to account for wicking. If the water source was a sewage backup or exterior flood (Category 3), containment protocols are applied and porous materials are treated as contaminated regardless of appearance.
 
-4. **Structural drying with continuous monitoring.** Dehumidifiers and air movers are positioned according to the drying plan. Moisture readings are logged at each visit — typically daily — against the drying standard for each material type. Equipment is not removed until readings reach documented dry standard, not simply when the space feels dry.
+4. **Structural drying with continuous monitoring.** Dehumidifiers and air movers are positioned according to the drying plan. Moisture readings are logged at each visit, typically daily, against the drying standard for each material type. Equipment is not removed until readings reach documented dry standard, not simply when the space feels dry.
 
 5. **Post-drying verification and documentation.** A final moisture survey confirms all structural materials have reached acceptable levels. Readings, photos, and drying logs are compiled into a file that supports your insurance claim and provides a baseline if any future moisture concern arises.
 
 ## What separates a good basement flood response from a bad one
 
-The most common failure in basement flood cleanup is premature equipment removal. A basement that smells dry and feels cool is not necessarily dry — concrete releases moisture slowly, and a dehumidifier that is pulled two days early can leave residual moisture that feeds mold growth inside wall cavities over the following weeks.
+The most common failure in basement flood cleanup is premature equipment removal. A basement that smells dry and feels cool is not necessarily dry, concrete releases moisture slowly, and a dehumidifier that is pulled two days early can leave residual moisture that feeds mold growth inside wall cavities over the following weeks.
 
 A second frequent mistake is ignoring the flood cut line. Drywall wicks water upward through capillary action, and the visible waterline is almost never the actual saturation line. Operators who cut only to the waterline leave wet material in the wall, which will mold from the inside out.
 
 Insurance adjusters reviewing a basement flood claim look for moisture logs with dated readings, photographs of the flood cut before and after, documentation of the water category, and a written drying standard the contractor was working toward. A claim supported by that documentation moves faster and is less likely to be disputed.
 
-For Category 3 losses — sewage backups, exterior flooding, or any source where the water has contacted soil or waste — the cleanup protocol changes significantly. Antimicrobial treatment, additional PPE, and proper disposal of contaminated materials are required, and the documentation burden is higher.
+For Category 3 losses, sewage backups, exterior flooding, or any source where the water has contacted soil or waste, the cleanup protocol changes significantly. Antimicrobial treatment, additional PPE, and proper disposal of contaminated materials are required, and the documentation burden is higher.
 
 ## What does basement flood cleanup cost?
 
-Typical costs for basement flood cleanup vary widely based on the size of the space, the category of water, and how much finished material needs to be removed. Most homeowners pay somewhere in the ranges below — these are industry-typical figures, not quotes from PuroClean of East Las Vegas.
+Typical costs for basement flood cleanup vary widely based on the size of the space, the category of water, and how much finished material needs to be removed. Most homeowners pay somewhere in the ranges below, these are industry-typical figures, not quotes from PuroClean of East Las Vegas.
 
 | Scenario | Typical range |
 |---|---|
@@ -62,13 +62,13 @@ Typical costs for basement flood cleanup vary widely based on the size of the sp
 | Slab-on-grade with trapped moisture, specialty drying | $3,500 – $8,000 |
 | Full contents pack-out and storage during drying | $1,500 – $4,000 additional |
 
-Every loss is different, and PuroClean of East Las Vegas provides a written scope of work before any work begins so you know exactly what is being done and why. Homeowners insurance typically covers sudden and accidental water losses — a burst pipe or appliance failure — but excludes gradual leaks and, in most standard policies, surface water flooding from outside the home. A separate flood insurance policy through the National Flood Insurance Program is what covers the latter.
+Every loss is different, and PuroClean of East Las Vegas provides a written scope of work before any work begins so you know exactly what is being done and why. Homeowners insurance typically covers sudden and accidental water losses, a burst pipe or appliance failure, but excludes gradual leaks and, in most standard policies, surface water flooding from outside the home. A separate flood insurance policy through the National Flood Insurance Program is what covers the latter.
 
 ## Seasonal and regional considerations
 
-Las Vegas sits in the Mojave Desert, and most basements here are slab-on-grade construction rather than the full below-grade basements common in the Midwest or Northeast — but true basements do exist in older neighborhoods and custom-built homes throughout the valley, and they flood in ways that catch homeowners off guard.
+Las Vegas sits in the Mojave Desert, and most basements here are slab-on-grade construction rather than the full below-grade basements common in the Midwest or Northeast, but true basements do exist in older neighborhoods and custom-built homes throughout the valley, and they flood in ways that catch homeowners off guard.
 
-The primary flood risk in the Las Vegas area is not groundwater but flash flooding. The caliche soil layer that underlies much of the valley is nearly impermeable, meaning heavy monsoon rain — which can drop a month's worth of precipitation in a single afternoon between July and September — runs off almost immediately. Window wells fill, foundation cracks admit water, and window-well drains that have not been cleared of debris back up fast. Sump systems that sit idle for years may fail at the first real demand.
+The primary flood risk in the Las Vegas area is not groundwater but flash flooding. The caliche soil layer that underlies much of the valley is nearly impermeable, meaning heavy monsoon rain, which can drop a month's worth of precipitation in a single afternoon between July and September, runs off almost immediately. Window wells fill, foundation cracks admit water, and window-well drains that have not been cleared of debris back up fast. Sump systems that sit idle for years may fail at the first real demand.
 
 Because Las Vegas basements are rarely exposed to the freeze-thaw cycles that crack foundations in colder climates, foundation water intrusion here is more often tied to drainage grading, aging waterproofing, or the sudden hydraulic pressure of a flash flood event than to slow seasonal deterioration.
 

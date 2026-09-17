@@ -20,27 +20,27 @@ state: "CA"
 service_display: "Post-Construction and Specialty Cleaning"
 rendered: true
 ---
-Lompoc's building activity runs the full spectrum — from modest residential remodels in older neighborhoods near H Street to larger commercial builds serving the area's agricultural and aerospace-adjacent economy. When that construction wraps up, what's left behind isn't just sawdust. It's drywall compound mist settled into every horizontal surface, caulk smears on windows, concrete splatter on floors, and the fine silica-laden dust that Lompoc's persistent valley winds push into every gap a freshly framed structure offers. Getting a property truly move-in or open-for-business ready takes more than a broom — it takes a systematic, phase-by-phase cleaning approach calibrated to what was actually built and how this region's environment complicated the process.
+Lompoc's building activity runs the full spectrum, from modest residential remodels in older neighborhoods near H Street to larger commercial builds serving the area's agricultural and aerospace-adjacent economy. When that construction wraps up, what's left behind isn't just sawdust. It's drywall compound mist settled into every horizontal surface, caulk smears on windows, concrete splatter on floors, and the fine silica-laden dust that Lompoc's persistent valley winds push into every gap a freshly framed structure offers. Getting a property truly move-in or open-for-business ready takes more than a broom, it takes a systematic, phase-by-phase cleaning approach calibrated to what was actually built and how this region's environment complicated the process.
 
 ## Why Lompoc Construction Projects Leave a Distinctive Mess
 
-The Santa Ynez Valley's climate gives Lompoc a dry, windy character that most coastal California cities don't share. During active construction, that wind carries fine particulate — including silica dust from concrete cutting and drywall sanding — deep into HVAC rough-ins, window tracks, and cabinet interiors. By the time the last subcontractor leaves, that dust has often migrated two or three rooms away from where the work actually happened.
+The Santa Ynez Valley's climate gives Lompoc a dry, windy character that most coastal California cities don't share. During active construction, that wind carries fine particulate, including silica dust from concrete cutting and drywall sanding, deep into HVAC rough-ins, window tracks, and cabinet interiors. By the time the last subcontractor leaves, that dust has often migrated two or three rooms away from where the work actually happened.
 
 Lompoc's housing stock adds another layer of complexity. A significant portion of the city's residential inventory dates to the post-WWII era, when Vandenberg Air Force Base drove rapid tract development. Those homes frequently have original hardwood floors, plaster-over-lath ceilings, and older window systems that react poorly to the alkaline residue left by modern construction adhesives and grout. A cleaning crew that treats every surface the same way risks etching original hardwood or streaking older single-pane glass. Knowing the difference matters before the first mop hits the floor.
 
-Commercial projects near the downtown corridor and along Ocean Avenue often involve occupied-adjacent spaces — neighboring retail or office tenants who haven't paused operations during your build-out. That means dust containment and odor control during the cleaning phase, not just during construction.
+Commercial projects near the downtown corridor and along Ocean Avenue often involve occupied-adjacent spaces, neighboring retail or office tenants who haven't paused operations during your build-out. That means dust containment and odor control during the cleaning phase, not just during construction.
 
 ## Our Post-Construction Cleaning Process in Lompoc
 
 Every post-construction clean we perform moves through three defined phases, and skipping any one of them is how projects end up with a callback.
 
-**Rough clean** happens while trades may still be on-site. We remove bulk debris — cardboard, cut lumber, packaging, mortar droppings — and vacuum construction dust from surfaces before it gets walked into finished flooring. This phase protects the work that's already been done.
+**Rough clean** happens while trades may still be on-site. We remove bulk debris, cardboard, cut lumber, packaging, mortar droppings, and vacuum construction dust from surfaces before it gets walked into finished flooring. This phase protects the work that's already been done.
 
-**Detail clean** is where the real work lives. Window frames get scraped of paint overspray and wiped with appropriate glass cleaner for the glazing type — important in Lompoc's older residential stock where original single-pane windows scratch more easily than modern tempered glass. Cabinet interiors, light fixture housings, plumbing fixtures, and outlet covers all get individual attention. HVAC registers are vacuumed and wiped before the system runs for the first time, keeping construction dust out of ductwork.
+**Detail clean** is where the real work lives. Window frames get scraped of paint overspray and wiped with appropriate glass cleaner for the glazing type, important in Lompoc's older residential stock where original single-pane windows scratch more easily than modern tempered glass. Cabinet interiors, light fixture housings, plumbing fixtures, and outlet covers all get individual attention. HVAC registers are vacuumed and wiped before the system runs for the first time, keeping construction dust out of ductwork.
 
-**Final clean** is the white-glove pass that happens 24–48 hours before turnover. Floors are cleaned according to material — sealed concrete, hardwood, tile, and LVP each require different chemistry and technique. Touch-up spots missed in the detail phase get addressed. The property leaves looking like it was built clean.
+**Final clean** is the white-glove pass that happens 24–48 hours before turnover. Floors are cleaned according to material, sealed concrete, hardwood, tile, and LVP each require different chemistry and technique. Touch-up spots missed in the detail phase get addressed. The property leaves looking like it was built clean.
 
-For specialty cleaning needs — post-renovation deep cleans, move-out cleans for rental turnovers, or pressure washing of flatwork and exterior surfaces after a remodel — the same phased discipline applies.
+For specialty cleaning needs, post-renovation deep cleans, move-out cleans for rental turnovers, or pressure washing of flatwork and exterior surfaces after a remodel, the same phased discipline applies.
 
 ## Reaching Lompoc from Vandenberg Village
 
@@ -50,6 +50,6 @@ For general contractors and property managers coordinating multiple trades, we'r
 
 ## Local Note
 
-One thing that catches out-of-area cleaning crews working in Lompoc: the valley's diurnal temperature swing — warm afternoons dropping to cool evenings — causes newly installed materials to expand and contract noticeably during the first weeks after construction. On hardwood and LVP floors, this means acclimation gaps can open up slightly overnight, and dust that seemed cleaned out of seams reappears by morning. On final-clean day, we do a second pass on flooring seams specifically because of this pattern. It's a small detail, but it's the kind of thing that separates a clean that holds through final inspection from one that generates a callback.
+One thing that catches out-of-area cleaning crews working in Lompoc: the valley's diurnal temperature swing, warm afternoons dropping to cool evenings, causes newly installed materials to expand and contract noticeably during the first weeks after construction. On hardwood and LVP floors, this means acclimation gaps can open up slightly overnight, and dust that seemed cleaned out of seams reappears by morning. On final-clean day, we do a second pass on flooring seams specifically because of this pattern. It's a small detail, but it's the kind of thing that separates a clean that holds through final inspection from one that generates a callback.
 
-When your Lompoc project is ready for its final clean — or if you need a specialty deep clean after a renovation — call Coastal Restoration Services Inc at **(805) 345-7440** to schedule a walkthrough and get a scope-specific quote.
+When your Lompoc project is ready for its final clean, or if you need a specialty deep clean after a renovation, call Coastal Restoration Services Inc at **(805) 345-7440** to schedule a walkthrough and get a scope-specific quote.

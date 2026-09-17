@@ -28,15 +28,15 @@ Services are provided within our established coverage territory in Clark County 
 
 ## Estimates and Work Authorization
 
-Any estimate, quote, or scope of work provided — whether verbal, written, or delivered via email — is not a binding contract. Work does not begin, and no contractual obligation exists on either side, until both parties have signed a written work-authorization form. That signed document governs the actual service relationship, including the agreed scope, pricing, and any special conditions. If conditions discovered during work differ materially from those present at the time of the estimate (for example, hidden moisture damage behind walls or secondary contamination not visible during initial inspection), we will communicate those changes and obtain written approval before proceeding.
+Any estimate, quote, or scope of work provided, whether verbal, written, or delivered via email, is not a binding contract. Work does not begin, and no contractual obligation exists on either side, until both parties have signed a written work-authorization form. That signed document governs the actual service relationship, including the agreed scope, pricing, and any special conditions. If conditions discovered during work differ materially from those present at the time of the estimate (for example, hidden moisture damage behind walls or secondary contamination not visible during initial inspection), we will communicate those changes and obtain written approval before proceeding.
 
 ## Payment Terms and Accepted Methods
 
-Payment is due according to the schedule outlined in your signed work-authorization agreement. We accept major credit cards, checks, and electronic bank transfers. For insurance-related losses, we work directly with your carrier to document the damage, submit required photographs and moisture readings, and coordinate billing where your policy allows — but the property owner remains ultimately responsible for any balance not covered by insurance, including deductibles or disputed line items.
+Payment is due according to the schedule outlined in your signed work-authorization agreement. We accept major credit cards, checks, and electronic bank transfers. For insurance-related losses, we work directly with your carrier to document the damage, submit required photographs and moisture readings, and coordinate billing where your policy allows, but the property owner remains ultimately responsible for any balance not covered by insurance, including deductibles or disputed line items.
 
 ## Insurance Coordination
 
-We are experienced in working alongside homeowners' and commercial property insurance claims. We document losses thoroughly and communicate with adjusters on your behalf when you authorize us to do so. However, we make no guarantees about coverage determinations, claim approval, or reimbursement amounts — those decisions rest entirely with your insurance carrier.
+We are experienced in working alongside homeowners' and commercial property insurance claims. We document losses thoroughly and communicate with adjusters on your behalf when you authorize us to do so. However, we make no guarantees about coverage determinations, claim approval, or reimbursement amounts, those decisions rest entirely with your insurance carrier.
 
 ## Scope of Work and Liability
 

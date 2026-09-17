@@ -20,38 +20,38 @@ state: "TX"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
-Coleman sits in the heart of West Texas, where spring thunderstorms roll off the Callahan Divide and hail the size of quarters can punch through a roof in minutes — and where summer heat means an unprotected opening in your home can turn a bad situation into a catastrophic one before the next morning. When a storm tears away shingles, a fire blows out windows, or a tree limb punches through a wall, the gap between the damage event and a proper board-up or tarp matters enormously. Air Care Restoration responds 24/7 from Abilene to secure Coleman properties before secondary damage compounds the loss.
+Coleman sits in the heart of West Texas, where spring thunderstorms roll off the Callahan Divide and hail the size of quarters can punch through a roof in minutes, and where summer heat means an unprotected opening in your home can turn a bad situation into a catastrophic one before the next morning. When a storm tears away shingles, a fire blows out windows, or a tree limb punches through a wall, the gap between the damage event and a proper board-up or tarp matters enormously. Air Care Restoration responds 24/7 from Abilene to secure Coleman properties before secondary damage compounds the loss.
 
 ## Why Coleman Properties Are Vulnerable After Sudden Damage
 
-Coleman County sits in a transitional weather zone where the Edwards Plateau meets the Rolling Plains. That geography means severe convective storms — the kind that produce large hail, straight-line winds, and occasional tornadoes — can arrive with limited warning. A single storm cell can leave behind a field of broken windows, lifted roofing sections, and compromised siding across multiple blocks.
+Coleman County sits in a transitional weather zone where the Edwards Plateau meets the Rolling Plains. That geography means severe convective storms, the kind that produce large hail, straight-line winds, and occasional tornadoes, can arrive with limited warning. A single storm cell can leave behind a field of broken windows, lifted roofing sections, and compromised siding across multiple blocks.
 
-The housing stock in Coleman reflects the town's history: many homes were built in the mid-20th century and feature wood-framed construction with older roofing substrates that don't always hold up to modern hail loads the way newer materials do. Aging asphalt shingles, original wood fascia, and single-pane windows are common. When those materials fail, the structure underneath is exposed quickly. Without a tarp or board-up in place, a West Texas afternoon — with temperatures regularly exceeding 100°F in summer — accelerates moisture intrusion, UV degradation, and pest entry in ways that dramatically increase the total restoration cost.
+The housing stock in Coleman reflects the town's history: many homes were built in the mid-20th century and feature wood-framed construction with older roofing substrates that don't always hold up to modern hail loads the way newer materials do. Aging asphalt shingles, original wood fascia, and single-pane windows are common. When those materials fail, the structure underneath is exposed quickly. Without a tarp or board-up in place, a West Texas afternoon, with temperatures regularly exceeding 100°F in summer, accelerates moisture intrusion, UV degradation, and pest entry in ways that dramatically increase the total restoration cost.
 
 ## Our Emergency Board-Up and Tarping Process in Coleman
 
-When you call, we gather the basics — address, type of opening, approximate size, and whether there's an active safety hazard on-site. That information lets our crew arrive with the right materials rather than making a second trip.
+When you call, we gather the basics, address, type of opening, approximate size, and whether there's an active safety hazard on-site. That information lets our crew arrive with the right materials rather than making a second trip.
 
-On arrival, we assess every breach in the structure, not just the obvious ones. A hailstorm that breaks a skylight often damages ridge venting and soffit panels in the same event. We photograph and document each opening before we touch anything — that documentation is the foundation of your insurance claim.
+On arrival, we assess every breach in the structure, not just the obvious ones. A hailstorm that breaks a skylight often damages ridge venting and soffit panels in the same event. We photograph and document each opening before we touch anything, that documentation is the foundation of your insurance claim.
 
 For roof damage, we use heavy-duty polyethylene tarps secured with wood battens and fastened to undamaged decking, not just draped over the peak. In Coleman's wind environment, a tarp that isn't mechanically anchored will be gone by the next afternoon gust. For window and door openings, we cut and fasten OSB panels sized to the rough opening, secured with structural screws rather than staples, which hold through wind events that would pop a staple-fastened panel loose.
 
-We work to leave the structure weather-tight and secure before we leave the site — not "good enough until tomorrow."
+We work to leave the structure weather-tight and secure before we leave the site, not "good enough until tomorrow."
 
 ## Reaching Coleman from Abilene
 
-Air Care Restoration is based in Abilene, and Coleman is a direct run southeast on US-84 — a route our crews know well. The drive is straightforward with no significant urban congestion, which means our response time is consistent regardless of time of day or night. Because our hours are 24/7, a call at 2 a.m. after a storm moves through Coleman County gets the same dispatch priority as a midday call.
+Air Care Restoration is based in Abilene, and Coleman is a direct run southeast on US-84, a route our crews know well. The drive is straightforward with no significant urban congestion, which means our response time is consistent regardless of time of day or night. Because our hours are 24/7, a call at 2 a.m. after a storm moves through Coleman County gets the same dispatch priority as a midday call.
 
 For properties on the east side of Coleman near the city limits, or out toward the rural county roads, we ask callers to confirm the address and any gate codes at the time of the call so we're not delayed on arrival.
 
 ## Coleman Insurance Coordination
 
-Most homeowner policies in Texas cover sudden and accidental damage from storms, fire, and vandalism — and the cost of emergency board-up and tarping is typically a covered mitigation expense, not a separate out-of-pocket line item. The key is documentation: carriers want to see photographs of the original damage, the condition before board-up, and the secured condition after.
+Most homeowner policies in Texas cover sudden and accidental damage from storms, fire, and vandalism, and the cost of emergency board-up and tarping is typically a covered mitigation expense, not a separate out-of-pocket line item. The key is documentation: carriers want to see photographs of the original damage, the condition before board-up, and the secured condition after.
 
 We provide a complete photo record and a written scope of the board-up work that your adjuster can attach directly to the claim file. If your carrier requires a signed authorization or a specific form before mitigation work begins, we can walk through that process with you on-site. We bill most major carriers directly, which means you're not fronting the full cost while you wait for a claim decision.
 
 ## Local Note
 
-One thing that catches homeowners off guard in Coleman is how quickly an unsecured roof opening becomes a moisture problem even without rain. West Texas nights carry more humidity than the daytime heat suggests — dew point swings between evening and morning can deposit meaningful condensation inside an attic space that's suddenly open to the sky. A tarp installed the evening of a storm isn't just keeping rain out; it's also limiting the overnight humidity intrusion that can begin the conditions for mold growth on OSB decking and roof sheathing within 24 to 48 hours. That's a detail that matters when deciding whether to wait until morning to call.
+One thing that catches homeowners off guard in Coleman is how quickly an unsecured roof opening becomes a moisture problem even without rain. West Texas nights carry more humidity than the daytime heat suggests, dew point swings between evening and morning can deposit meaningful condensation inside an attic space that's suddenly open to the sky. A tarp installed the evening of a storm isn't just keeping rain out; it's also limiting the overnight humidity intrusion that can begin the conditions for mold growth on OSB decking and roof sheathing within 24 to 48 hours. That's a detail that matters when deciding whether to wait until morning to call.
 
-If your Coleman home has been damaged by a storm, fire, or any event that has left an opening in the structure, call Air Care Restoration at (325) 339-8723. We're available around the clock, and we'll have your property secured before the next weather event or the next sunrise — whichever comes first.
+If your Coleman home has been damaged by a storm, fire, or any event that has left an opening in the structure, call Air Care Restoration at (325) 339-8723. We're available around the clock, and we'll have your property secured before the next weather event or the next sunrise, whichever comes first.

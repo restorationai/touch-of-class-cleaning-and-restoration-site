@@ -25,21 +25,21 @@ When something traumatic happens at a Renton property, the last thing you should
 
 ## What Our Biohazard and Trauma Cleanup Response in Renton Looks Like
 
-From our Federal Way headquarters, our crews typically reach Renton addresses within 60 to 90 minutes of your call — and often faster for properties near South Renton or along the I-405 corridor. We arrive in unmarked vehicles to protect your privacy and your neighbors' curiosity.
+From our Federal Way headquarters, our crews typically reach Renton addresses within 60 to 90 minutes of your call, and often faster for properties near South Renton or along the I-405 corridor. We arrive in unmarked vehicles to protect your privacy and your neighbors' curiosity.
 
-Once on-site, our IICRC-certified technicians assess the full scope of the affected area before any work begins. Biohazard remediation isn't just surface cleaning — blood and bodily fluid cleanup requires containment of the affected zone, removal of porous materials that cannot be safely decontaminated, and treatment of structural surfaces with EPA-registered disinfectants. We use HEPA-filtered negative air machines to prevent cross-contamination to unaffected areas of the home or building. All biohazardous waste is packaged and transported in compliance with Washington State Department of Ecology regulations — nothing is left for you to manage.
+Once on-site, our IICRC-certified technicians assess the full scope of the affected area before any work begins. Biohazard remediation isn't just surface cleaning, blood and bodily fluid cleanup requires containment of the affected zone, removal of porous materials that cannot be safely decontaminated, and treatment of structural surfaces with EPA-registered disinfectants. We use HEPA-filtered negative air machines to prevent cross-contamination to unaffected areas of the home or building. All biohazardous waste is packaged and transported in compliance with Washington State Department of Ecology regulations, nothing is left for you to manage.
 
 Before we leave, we conduct a post-remediation verification so you can have confidence the space is safe to re-enter. We document every step, which matters when you're filing an insurance claim.
 
 ## Renton Properties and Biohazard Risk Factors
 
-Renton's housing stock spans a wide range — from mid-century single-family homes in the Kennydale neighborhood to older multi-unit buildings near downtown and newer construction in the Talbot Hill area. Older homes with porous subfloors, crawl spaces, and unsealed concrete are particularly vulnerable to contamination spreading beyond the visible area of an incident. The Pacific Northwest's damp climate also means that any biological material left unaddressed — even briefly — can accelerate microbial growth in ways that aren't visible to the eye.
+Renton's housing stock spans a wide range, from mid-century single-family homes in the Kennydale neighborhood to older multi-unit buildings near downtown and newer construction in the Talbot Hill area. Older homes with porous subfloors, crawl spaces, and unsealed concrete are particularly vulnerable to contamination spreading beyond the visible area of an incident. The Pacific Northwest's damp climate also means that any biological material left unaddressed, even briefly, can accelerate microbial growth in ways that aren't visible to the eye.
 
 Trauma scene cleanup and unattended death cleanup situations carry their own urgency: the longer remediation is delayed, the more deeply contaminants can penetrate flooring, wall cavities, and HVAC systems. Calling sooner rather than later limits both the health risk and the eventual restoration cost.
 
 ## How Insurance Works for Biohazard Cleanup
 
-Many homeowners and property managers don't realize that standard homeowner's or landlord's insurance policies often cover biohazard remediation — including trauma scene cleanup and unattended death cleanup — under their property damage provisions. Coverage depends on your specific policy, but we've worked with virtually every major carrier that operates in Washington State.
+Many homeowners and property managers don't realize that standard homeowner's or landlord's insurance policies often cover biohazard remediation, including trauma scene cleanup and unattended death cleanup, under their property damage provisions. Coverage depends on your specific policy, but we've worked with virtually every major carrier that operates in Washington State.
 
 Here's what we handle on your behalf: detailed photo documentation, itemized scope of work, moisture and contamination readings, and direct communication with your adjuster if needed. We can also provide a written estimate before work begins so there are no billing surprises. What you handle: filing the initial claim and providing us with your claim number. We take it from there.
 
@@ -47,8 +47,8 @@ If you're uncertain whether your policy applies, we're happy to walk through the
 
 ## Discretion, Credentials, and What to Expect from Our Team
 
-We know that for many families and property owners, privacy is as important as speed. Our technicians are trained to work quietly, efficiently, and without drawing attention. We don't place signage on the property. We coordinate directly with you — or with a designated family member or attorney, if that's more appropriate — and we keep communication clear and straightforward throughout.
+We know that for many families and property owners, privacy is as important as speed. Our technicians are trained to work quietly, efficiently, and without drawing attention. We don't place signage on the property. We coordinate directly with you, or with a designated family member or attorney, if that's more appropriate, and we keep communication clear and straightforward throughout.
 
 National Restoration Construction holds IICRC certification, EPA certification, and ANSI certification for biohazard remediation work. We are a Lead-Safe Certified Firm, which matters in Renton's older housing stock where lead-based paint may be present in affected structural materials. We are licensed through the Washington State Department of Labor & Industries (General Contractor Certificate of Registration #NATIORC792M6) and accredited by the Better Business Bureau.
 
-If you're facing a biohazard situation at a Renton property right now, reach out to us at **(206) 883-0333**. You don't need to have all the answers before you call — that's what we're here for.
+If you're facing a biohazard situation at a Renton property right now, reach out to us at **(206) 883-0333**. You don't need to have all the answers before you call, that's what we're here for.

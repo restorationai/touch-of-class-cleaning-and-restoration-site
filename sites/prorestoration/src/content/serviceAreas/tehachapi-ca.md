@@ -19,23 +19,23 @@ state: "CA"
 primary: false
 rendered: true
 ---
-When a pipe bursts in a Bear Valley Springs cabin at 2 a.m. or wildfire smoke settles into a Golden Hills home, Tehachapi property owners need a crew that understands mountain conditions — not a call center reading from a script. ProRestoration Services dispatches from Bakersfield around the clock, bringing water extraction, structural drying, fire and smoke remediation, mold control, and full reconstruction to every corner of the 93561 ZIP code. If you're dealing with an active loss right now, call **(661) 393-9306**.
+When a pipe bursts in a Bear Valley Springs cabin at 2 a.m. or wildfire smoke settles into a Golden Hills home, Tehachapi property owners need a crew that understands mountain conditions, not a call center reading from a script. ProRestoration Services dispatches from Bakersfield around the clock, bringing water extraction, structural drying, fire and smoke remediation, mold control, and full reconstruction to every corner of the 93561 ZIP code. If you're dealing with an active loss right now, call **(661) 393-9306**.
 
 ## Restoration emergencies common in Tehachapi
 
-Sitting at roughly 4,000 feet in the Tehachapi Mountains, this city experiences weather that most of Kern County never sees. Hard freezes arrive fast and linger, and the housing stock here — a mix of older craftsman homes near Downtown Tehachapi, sprawling ranch parcels in Stallion Springs, and vacation cabins throughout Bear Valley Springs — is not always built or maintained with those freeze cycles in mind. Pipes in uninsulated crawl spaces and vacation properties that sit empty for weeks are the single most common source of emergency water damage calls we receive from this area.
+Sitting at roughly 4,000 feet in the Tehachapi Mountains, this city experiences weather that most of Kern County never sees. Hard freezes arrive fast and linger, and the housing stock here, a mix of older craftsman homes near Downtown Tehachapi, sprawling ranch parcels in Stallion Springs, and vacation cabins throughout Bear Valley Springs, is not always built or maintained with those freeze cycles in mind. Pipes in uninsulated crawl spaces and vacation properties that sit empty for weeks are the single most common source of emergency water damage calls we receive from this area.
 
-Beyond frozen pipes, winter wind storms regularly lift shingles and damage rooflines across the ridge communities, creating pathways for rain and snowmelt to enter attics and wall cavities. Wood-stove and chimney fires are a genuine loss category here in a way they simply aren't in the valley below — older flues, creosote buildup, and weekend-warrior fire-starting habits combine in predictable ways. And when wildfire smoke rolls in from the surrounding ranges during fire season, the fine particulate settles into HVAC systems, soft goods, and wall cavities, leaving an odor and air-quality problem that outlasts the smoke plume by weeks.
+Beyond frozen pipes, winter wind storms regularly lift shingles and damage rooflines across the ridge communities, creating pathways for rain and snowmelt to enter attics and wall cavities. Wood-stove and chimney fires are a genuine loss category here in a way they simply aren't in the valley below, older flues, creosote buildup, and weekend-warrior fire-starting habits combine in predictable ways. And when wildfire smoke rolls in from the surrounding ranges during fire season, the fine particulate settles into HVAC systems, soft goods, and wall cavities, leaving an odor and air-quality problem that outlasts the smoke plume by weeks.
 
 ## Services we provide in Tehachapi
 
 ### Water damage and frozen-pipe response
 
-Water damage in Tehachapi most often starts with a frozen supply line — copper or PEX that expanded overnight and split at a fitting. By the time an owner discovers it, standing water may have been wicking into subfloor and framing for days. We extract standing water, map moisture with thermal imaging and pin meters, and dry the structure to IICRC S500 standards. For vacation-property owners in Bear Valley Springs and Stallion Springs, we can coordinate access with property managers so the job moves forward even when you're not on-site.
+Water damage in Tehachapi most often starts with a frozen supply line, copper or PEX that expanded overnight and split at a fitting. By the time an owner discovers it, standing water may have been wicking into subfloor and framing for days. We extract standing water, map moisture with thermal imaging and pin meters, and dry the structure to IICRC S500 standards. For vacation-property owners in Bear Valley Springs and Stallion Springs, we can coordinate access with property managers so the job moves forward even when you're not on-site.
 
 ### Fire, smoke, and chimney-fire cleanup
 
-A chimney fire in Alpine Forest or a wood-stove flare-up in a Stallion Springs home leaves more than char — it leaves soot in every air pathway and a persistent smoke odor that standard cleaning won't touch. We use thermal fogging, hydroxyl treatment, and HEPA filtration to address smoke penetration, and we document the full scope for your insurance carrier before any material is removed.
+A chimney fire in Alpine Forest or a wood-stove flare-up in a Stallion Springs home leaves more than char, it leaves soot in every air pathway and a persistent smoke odor that standard cleaning won't touch. We use thermal fogging, hydroxyl treatment, and HEPA filtration to address smoke penetration, and we document the full scope for your insurance carrier before any material is removed.
 
 ### Mold remediation
 
@@ -47,11 +47,11 @@ Once the damage is dry and clean, the rebuild begins. We handle drywall, insulat
 
 ## Coverage and how fast we can get there
 
-ProRestoration Services operates out of Bakersfield, and Tehachapi sits roughly 40 miles east on CA-58 — a direct highway run with no urban traffic to fight. We reach Downtown Tehachapi and the neighborhoods along Tucker Road and Tehachapi Boulevard quickly. Bear Valley Springs and Stallion Springs add driving time on winding mountain roads, but both communities are well within our regular service area. We dispatch 24/7, so a call made at midnight near the Tehachapi Depot Railroad Museum or on the far side of Brite Lake reaches a live crew, not a voicemail.
+ProRestoration Services operates out of Bakersfield, and Tehachapi sits roughly 40 miles east on CA-58, a direct highway run with no urban traffic to fight. We reach Downtown Tehachapi and the neighborhoods along Tucker Road and Tehachapi Boulevard quickly. Bear Valley Springs and Stallion Springs add driving time on winding mountain roads, but both communities are well within our regular service area. We dispatch 24/7, so a call made at midnight near the Tehachapi Depot Railroad Museum or on the far side of Brite Lake reaches a live crew, not a voicemail.
 
 ## Building stock, site conditions, and permits in Tehachapi
 
-Downtown Tehachapi holds the oldest housing — pre-war and mid-century homes with raised crawlspaces, plaster or early drywall, and paint that should be treated as lead-bearing until tested. The ridge communities came later: most of Bear Valley Springs and Stallion Springs was platted and built from the late 1960s onward, so you're mostly looking at wood-frame walls, composition-shingle roofs, and a mix of slab and vented crawlspace. Many of those parcels run on septic and well rather than city utilities, which changes how a sewage or supply loss is scoped.
+Downtown Tehachapi holds the oldest housing, pre-war and mid-century homes with raised crawlspaces, plaster or early drywall, and paint that should be treated as lead-bearing until tested. The ridge communities came later: most of Bear Valley Springs and Stallion Springs was platted and built from the late 1960s onward, so you're mostly looking at wood-frame walls, composition-shingle roofs, and a mix of slab and vented crawlspace. Many of those parcels run on septic and well rather than city utilities, which changes how a sewage or supply loss is scoped.
 
 Permits matter here because jurisdiction splits. Inside city limits the City of Tehachapi handles building permits; Golden Hills, Bear Valley Springs, and Stallion Springs are unincorporated, so Kern County reviews structural repairs. Bear Valley Springs also has HOA architectural review on exterior work.
 

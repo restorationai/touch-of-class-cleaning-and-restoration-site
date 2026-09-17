@@ -19,18 +19,18 @@ state: "WA"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind your kitchen wall at 2 a.m. or smoke has worked its way into every closet after a kitchen fire, you need someone on-site fast — not a call center reading from a script. National Restoration Construction has been responding to water, fire, mold, and biohazard emergencies across the greater Seattle area since 2004. We handle the damage, coordinate directly with your insurance adjuster, and rebuild what was lost so you're dealing with one company from the first wet-vac to the final coat of paint.
+When a pipe bursts behind your kitchen wall at 2 a.m. or smoke has worked its way into every closet after a kitchen fire, you need someone on-site fast, not a call center reading from a script. National Restoration Construction has been responding to water, fire, mold, and biohazard emergencies across the greater Seattle area since 2004. We handle the damage, coordinate directly with your insurance adjuster, and rebuild what was lost so you're dealing with one company from the first wet-vac to the final coat of paint.
 
 ## Restoration services we provide in Seattle
 
 ### Water damage restoration
-Seattle's rain is relentless, but most water damage calls we get aren't from the sky — they're from aging supply lines, failed sump pumps, and slow leaks behind tile that went unnoticed for months. We extract standing water, dry structural cavities with desiccant dehumidifiers and air movers, and document moisture readings throughout so your insurance claim holds up. Mold can begin colonizing wet framing in as little as 24–48 hours, which is why we treat every water loss as urgent.
+Seattle's rain is relentless, but most water damage calls we get aren't from the sky, they're from aging supply lines, failed sump pumps, and slow leaks behind tile that went unnoticed for months. We extract standing water, dry structural cavities with desiccant dehumidifiers and air movers, and document moisture readings throughout so your insurance claim holds up. Mold can begin colonizing wet framing in as little as 24–48 hours, which is why we treat every water loss as urgent.
 
 ### Fire and smoke damage restoration
-Smoke residue is deceptive. The visible char is obvious, but acidic soot travels through HVAC systems and embeds in drywall, insulation, and wood framing well beyond the burn zone. Our crews assess the full spread of smoke damage before any demolition begins, then use thermal fogging and hydroxyl treatment to neutralize odor at the molecular level — not just mask it. We handle structural repairs and finishing so the home is returned to pre-loss condition.
+Smoke residue is deceptive. The visible char is obvious, but acidic soot travels through HVAC systems and embeds in drywall, insulation, and wood framing well beyond the burn zone. Our crews assess the full spread of smoke damage before any demolition begins, then use thermal fogging and hydroxyl treatment to neutralize odor at the molecular level, not just mask it. We handle structural repairs and finishing so the home is returned to pre-loss condition.
 
 ### Mold remediation
-Seattle's damp winters and older housing stock — a lot of it built before modern vapor barriers were standard — create ideal conditions for mold growth inside wall cavities and crawl spaces. Our remediation process follows IICRC S520 protocols: containment, HEPA filtration, removal of affected materials, and clearance testing. We don't cut corners by painting over the problem.
+Seattle's damp winters and older housing stock, a lot of it built before modern vapor barriers were standard, create ideal conditions for mold growth inside wall cavities and crawl spaces. Our remediation process follows IICRC S520 protocols: containment, HEPA filtration, removal of affected materials, and clearance testing. We don't cut corners by painting over the problem.
 
 ### Biohazard and trauma cleanup
 Unattended deaths, sewage backups, and hoarding situations require specialized training and equipment that go well beyond standard cleaning. Our technicians are OSHA-trained and follow EPA guidelines for the safe removal and disposal of biohazardous materials. We work discreetly and can often begin same-day.
@@ -40,16 +40,16 @@ Demolition without rebuild is only half the job. Once mitigation is complete, ou
 
 ## Why Seattle property owners face restoration emergencies
 
-Seattle averages around 37 inches of rain a year, but the real problem is the consistency — light, persistent moisture rather than dramatic downpours. That kind of weather finds every gap in a roof, every failing caulk joint, every cracked foundation wall. Older neighborhoods like Capitol Hill, Wallingford, and Beacon Hill have significant housing stock from the early-to-mid 1900s, where cast-iron drain lines corrode, galvanized supply pipes scale shut, and crawl spaces flood silently for weeks before anyone notices the soft spot in the floor. Hillside lots common throughout West Seattle and the north end also face elevated hydrostatic pressure during wet seasons, pushing water through basement walls that look perfectly dry in August.
+Seattle averages around 37 inches of rain a year, but the real problem is the consistency, light, persistent moisture rather than dramatic downpours. That kind of weather finds every gap in a roof, every failing caulk joint, every cracked foundation wall. Older neighborhoods like Capitol Hill, Wallingford, and Beacon Hill have significant housing stock from the early-to-mid 1900s, where cast-iron drain lines corrode, galvanized supply pipes scale shut, and crawl spaces flood silently for weeks before anyone notices the soft spot in the floor. Hillside lots common throughout West Seattle and the north end also face elevated hydrostatic pressure during wet seasons, pushing water through basement walls that look perfectly dry in August.
 
-Winter windstorms — a regular feature of Puget Sound weather — knock trees into roofs and siding, leaving structures exposed to rain within hours. When that happens, emergency tarping and board-up are the first call, not the last.
+Winter windstorms, a regular feature of Puget Sound weather, knock trees into roofs and siding, leaving structures exposed to rain within hours. When that happens, emergency tarping and board-up are the first call, not the last.
 
 ## Response time and coverage in Seattle
 
-Our headquarters is in Federal Way, roughly 25 miles south of downtown Seattle via I-5. Under normal traffic conditions, that puts a crew in most Seattle neighborhoods within 60–90 minutes of your call. For neighborhoods closer to the south end — Rainier Beach, Georgetown, South Park, Beacon Hill — response is typically faster. We cover all Seattle ZIP codes as well as surrounding communities including Bellevue, Renton, Burien, and Tukwila.
+Our headquarters is in Federal Way, roughly 25 miles south of downtown Seattle via I-5. Under normal traffic conditions, that puts a crew in most Seattle neighborhoods within 60–90 minutes of your call. For neighborhoods closer to the south end, Rainier Beach, Georgetown, South Park, Beacon Hill, response is typically faster. We cover all Seattle ZIP codes as well as surrounding communities including Bellevue, Renton, Burien, and Tukwila.
 
 We answer calls 24 hours a day, every day of the year. Emergencies don't schedule themselves.
 
 ---
 
-If you're dealing with active damage right now, call **(206) 883-0333**. If you're assessing damage after the fact and trying to figure out next steps, we're still the right call — we'll walk you through what needs to happen and help you understand what your insurance policy is likely to cover before any work begins.
+If you're dealing with active damage right now, call **(206) 883-0333**. If you're assessing damage after the fact and trying to figure out next steps, we're still the right call, we'll walk you through what needs to happen and help you understand what your insurance policy is likely to cover before any work begins.

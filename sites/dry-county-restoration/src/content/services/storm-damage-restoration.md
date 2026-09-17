@@ -17,37 +17,37 @@ service_slug: "storm-damage-restoration"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
-A storm doesn't announce when it's done damaging your home. The wind stops, the rain clears, and then the real problems begin — water wicking into wall cavities behind the fascia that blew off, insulation soaked under a displaced roof section, a tree root ball that cracked your foundation stem wall on the way down. Storm damage restoration isn't a single trade; it's a coordinated sequence of emergency stabilization, moisture control, structural assessment, and repair that has to happen in the right order before secondary damage compounds the original loss.
+A storm doesn't announce when it's done damaging your home. The wind stops, the rain clears, and then the real problems begin, water wicking into wall cavities behind the fascia that blew off, insulation soaked under a displaced roof section, a tree root ball that cracked your foundation stem wall on the way down. Storm damage restoration isn't a single trade; it's a coordinated sequence of emergency stabilization, moisture control, structural assessment, and repair that has to happen in the right order before secondary damage compounds the original loss.
 
 ## What Storm Damage Restoration actually involves
 
-Storm losses in the Inland Empire tend to arrive in clusters — a Santa Ana wind event that strips roofing and sends debris through windows, or a rare but real atmospheric river that overwhelms gutters and drives water into attics and crawlspaces. The work that follows is more layered than most homeowners expect.
+Storm losses in the Inland Empire tend to arrive in clusters, a Santa Ana wind event that strips roofing and sends debris through windows, or a rare but real atmospheric river that overwhelms gutters and drives water into attics and crawlspaces. The work that follows is more layered than most homeowners expect.
 
-Emergency stabilization comes first: tarping exposed roof decking, boarding shattered windows and doors, and shoring any structural member that has shifted. This isn't cosmetic — every hour a roof opening stays uncovered is another hour of moisture intrusion that turns a roofing claim into a roofing-plus-mold claim.
+Emergency stabilization comes first: tarping exposed roof decking, boarding shattered windows and doors, and shoring any structural member that has shifted. This isn't cosmetic, every hour a roof opening stays uncovered is another hour of moisture intrusion that turns a roofing claim into a roofing-plus-mold claim.
 
-Once the envelope is secured, the moisture investigation begins. Water that entered through wind-driven rain or a failed roof doesn't stay where it landed. It follows framing channels, saturates insulation batts, and pools in low spots behind drywall. Thermal imaging and calibrated moisture meters map the full extent of saturation — because what looks dry at the surface often isn't.
+Once the envelope is secured, the moisture investigation begins. Water that entered through wind-driven rain or a failed roof doesn't stay where it landed. It follows framing channels, saturates insulation batts, and pools in low spots behind drywall. Thermal imaging and calibrated moisture meters map the full extent of saturation, because what looks dry at the surface often isn't.
 
 Tree and debris removal requires its own assessment before any chainsaw touches a fallen limb. A tree resting against a structure is transferring load; cut it wrong and you shift that load suddenly. Structural integrity has to be confirmed before debris work proceeds.
 
-Finally, storm restoration converges with reconstruction: replacing sheathing, re-roofing, reframing damaged sections, and restoring interior finishes — all documented in a scope of work that your insurance adjuster can review line by line.
+Finally, storm restoration converges with reconstruction: replacing sheathing, re-roofing, reframing damaged sections, and restoring interior finishes, all documented in a scope of work that your insurance adjuster can review line by line.
 
 ## Our process
 
-1. **Emergency stabilization and site safety** — Roof tarping, window and door boarding, and a rapid structural walk to identify any immediate hazards. This step stops the loss from growing while the full assessment is organized.
+1. **Emergency stabilization and site safety**, Roof tarping, window and door boarding, and a rapid structural walk to identify any immediate hazards. This step stops the loss from growing while the full assessment is organized.
 
-2. **Damage documentation and moisture mapping** — Every affected surface is photographed, measured, and logged. Moisture readings are taken at multiple depths using pin and pinless meters, and thermal imaging identifies hidden saturation behind walls and ceilings. This documentation is the foundation of your insurance claim.
+2. **Damage documentation and moisture mapping**, Every affected surface is photographed, measured, and logged. Moisture readings are taken at multiple depths using pin and pinless meters, and thermal imaging identifies hidden saturation behind walls and ceilings. This documentation is the foundation of your insurance claim.
 
-3. **Debris removal and structural assessment** — Storm debris — fallen trees, displaced roofing, shattered glass, scattered insulation — is removed in a sequence that accounts for load transfer and structural stability. Any compromised framing, rafters, or load-bearing elements are flagged before interior work begins.
+3. **Debris removal and structural assessment**, Storm debris, fallen trees, displaced roofing, shattered glass, scattered insulation, is removed in a sequence that accounts for load transfer and structural stability. Any compromised framing, rafters, or load-bearing elements are flagged before interior work begins.
 
-4. **Drying and dehumidification** — Where water has entered, commercial-grade desiccant or refrigerant dehumidifiers and high-velocity air movers are deployed. Drying progress is logged daily against the IICRC S500 standard until materials reach documented dry standard — not just until they feel dry to the touch.
+4. **Drying and dehumidification**, Where water has entered, commercial-grade desiccant or refrigerant dehumidifiers and high-velocity air movers are deployed. Drying progress is logged daily against the IICRC S500 standard until materials reach documented dry standard, not just until they feel dry to the touch.
 
-5. **Reconstruction and final scope** — Damaged materials are removed, replaced, and finished to pre-loss condition. A written scope of work is produced before reconstruction begins so there are no surprises on scope or cost.
+5. **Reconstruction and final scope**, Damaged materials are removed, replaced, and finished to pre-loss condition. A written scope of work is produced before reconstruction begins so there are no surprises on scope or cost.
 
 ## What separates a good storm damage response from a bad one
 
-The most common failure in storm restoration isn't the emergency response — it's what gets missed in the first 48 hours.
+The most common failure in storm restoration isn't the emergency response, it's what gets missed in the first 48 hours.
 
-**Hidden moisture is the silent multiplier.** Adjusters and less-experienced contractors sometimes scope only visible damage: the missing shingles, the broken window, the soaked ceiling tile. Water that entered through those openings has often traveled six to ten feet from the point of entry by the time anyone looks. Mold colonization can begin within 24 to 72 hours in saturated wall cavities, turning a wind claim into a mold remediation project that many policies cover differently — or dispute entirely.
+**Hidden moisture is the silent multiplier.** Adjusters and less-experienced contractors sometimes scope only visible damage: the missing shingles, the broken window, the soaked ceiling tile. Water that entered through those openings has often traveled six to ten feet from the point of entry by the time anyone looks. Mold colonization can begin within 24 to 72 hours in saturated wall cavities, turning a wind claim into a mold remediation project that many policies cover differently, or dispute entirely.
 
 **Debris removal sequencing matters structurally.** A tree limb bearing against a rafter is acting as a temporary prop. Removing it without understanding the load path can cause secondary collapse. Experienced operators assess before they cut.
 
@@ -57,7 +57,7 @@ The most common failure in storm restoration isn't the emergency response — it
 
 ## What does Storm Damage Restoration cost?
 
-Typical costs for storm damage restoration depend heavily on the type of storm event, the size of the affected area, and how much secondary damage — water intrusion, structural movement, debris impact — occurred before the home was stabilized. Most homeowners pay somewhere in the ranges below, based on industry-typical figures; every loss is different, and Dry County Restoration provides a written scope before any work begins so you know exactly what is being done and why. Homeowners insurance typically covers sudden storm-related damage including wind, hail, falling trees, and wind-driven rain intrusion — though flood damage from rising water requires a separate flood policy.
+Typical costs for storm damage restoration depend heavily on the type of storm event, the size of the affected area, and how much secondary damage, water intrusion, structural movement, debris impact, occurred before the home was stabilized. Most homeowners pay somewhere in the ranges below, based on industry-typical figures; every loss is different, and Dry County Restoration provides a written scope before any work begins so you know exactly what is being done and why. Homeowners insurance typically covers sudden storm-related damage including wind, hail, falling trees, and wind-driven rain intrusion, though flood damage from rising water requires a separate flood policy.
 
 | Scenario | Typical industry range |
 |---|---|
@@ -72,14 +72,14 @@ Typical costs for storm damage restoration depend heavily on the type of storm e
 
 Corona and the broader Inland Empire sit at the intersection of two distinct storm patterns that most coastal California markets don't share.
 
-Santa Ana wind events — most frequent from October through March — generate the kind of sustained, high-velocity gusts that peel roofing, topple fencing, and send debris airborne across entire neighborhoods in a single night. Homes built in the 1970s and 1980s, which make up a significant portion of Corona's housing stock, often have roofing systems that have exceeded their designed service life and are more vulnerable to wind uplift than newer construction.
+Santa Ana wind events, most frequent from October through March, generate the kind of sustained, high-velocity gusts that peel roofing, topple fencing, and send debris airborne across entire neighborhoods in a single night. Homes built in the 1970s and 1980s, which make up a significant portion of Corona's housing stock, often have roofing systems that have exceeded their designed service life and are more vulnerable to wind uplift than newer construction.
 
-Atmospheric river events, increasingly common in winter months, deliver rainfall totals that the region's drainage infrastructure wasn't designed to handle in short windows. Flat or low-slope roofing — common on commercial properties and some ranch-style homes throughout the area — is particularly vulnerable to ponding when drains and scuppers are overwhelmed.
+Atmospheric river events, increasingly common in winter months, deliver rainfall totals that the region's drainage infrastructure wasn't designed to handle in short windows. Flat or low-slope roofing, common on commercial properties and some ranch-style homes throughout the area, is particularly vulnerable to ponding when drains and scuppers are overwhelmed.
 
 The combination means storm season here isn't a single window on the calendar. Preparation and a fast response plan matter year-round.
 
 ## Service area
 
-Dry County Restoration is based in Corona and serves communities throughout the Inland Empire and surrounding areas, including Riverside, Norco, Eastvale, Chino Hills, Ontario, Rancho Cucamonga, and Yorba Linda. Each city has its own housing stock, drainage characteristics, and permitting requirements — details that matter when a storm loss moves into the reconstruction phase. City-specific service pages cover those local considerations in depth.
+Dry County Restoration is based in Corona and serves communities throughout the Inland Empire and surrounding areas, including Riverside, Norco, Eastvale, Chino Hills, Ontario, Rancho Cucamonga, and Yorba Linda. Each city has its own housing stock, drainage characteristics, and permitting requirements, details that matter when a storm loss moves into the reconstruction phase. City-specific service pages cover those local considerations in depth.
 
-If a storm has left your roof open, your interior wet, or a tree against your structure, call Dry County Restoration at **(951) 667-9910** — available 24/7 — to begin your storm damage assessment and get a written scope before any work starts.
+If a storm has left your roof open, your interior wet, or a tree against your structure, call Dry County Restoration at **(951) 667-9910**, available 24/7, to begin your storm damage assessment and get a written scope before any work starts.

@@ -19,13 +19,13 @@ state: "CA"
 primary: false
 rendered: true
 ---
-When a pipe bursts under a slab, a washing machine line fails overnight, or smoke from a kitchen fire soaks into drywall, National City property owners need someone who can move fast and knows what they're walking into. Flood Fixers handles water damage mitigation, fire and smoke cleanup, mold remediation, and full reconstruction for homes and commercial properties across National City — from the older bungalows near Highland Avenue to the multi-unit buildings closer to the waterfront. One call to (855) 204-1124 gets a crew in motion.
+When a pipe bursts under a slab, a washing machine line fails overnight, or smoke from a kitchen fire soaks into drywall, National City property owners need someone who can move fast and knows what they're walking into. Flood Fixers handles water damage mitigation, fire and smoke cleanup, mold remediation, and full reconstruction for homes and commercial properties across National City, from the older bungalows near Highland Avenue to the multi-unit buildings closer to the waterfront. One call to (855) 204-1124 gets a crew in motion.
 
 ## Restoration emergencies common in National City
 
-National City sits in a coastal basin where marine layer moisture, aging infrastructure, and dense housing stock create a predictable set of problems. The city's older neighborhoods — many built in the 1940s through 1960s — carry galvanized steel supply lines that corrode from the inside out, often failing without warning. Slab foundations are common, which means a slow leak under a kitchen or bathroom can go undetected for weeks, saturating concrete and wicking up into wall framing before anyone notices a soft spot in the flooring or a musty smell in a back bedroom.
+National City sits in a coastal basin where marine layer moisture, aging infrastructure, and dense housing stock create a predictable set of problems. The city's older neighborhoods, many built in the 1940s through 1960s, carry galvanized steel supply lines that corrode from the inside out, often failing without warning. Slab foundations are common, which means a slow leak under a kitchen or bathroom can go undetected for weeks, saturating concrete and wicking up into wall framing before anyone notices a soft spot in the flooring or a musty smell in a back bedroom.
 
-The regional climate adds pressure. San Diego County's periodic atmospheric river events push heavy rain through drainage systems that weren't designed for modern runoff volumes. Low-lying streets in National City flood faster than many homeowners expect, and water finds its way into crawl spaces, garages, and ground-floor units within minutes. In summer, the combination of high humidity and poor attic ventilation in older homes creates conditions where mold can begin colonizing a wet surface in as little as 24 to 48 hours — which is why response time isn't just a convenience, it's a damage-control variable.
+The regional climate adds pressure. San Diego County's periodic atmospheric river events push heavy rain through drainage systems that weren't designed for modern runoff volumes. Low-lying streets in National City flood faster than many homeowners expect, and water finds its way into crawl spaces, garages, and ground-floor units within minutes. In summer, the combination of high humidity and poor attic ventilation in older homes creates conditions where mold can begin colonizing a wet surface in as little as 24 to 48 hours, which is why response time isn't just a convenience, it's a damage-control variable.
 
 ## Services we provide in National City
 
@@ -35,7 +35,7 @@ Water damage in National City frequently involves slab leaks, failed water heate
 
 ### Mold remediation
 
-The combination of National City's marine air and older construction means mold calls here often involve more square footage than the visible patch suggests. Flood Fixers follows IICRC S520 protocols and works within California's contractor licensing requirements for mold remediation. We contain the affected area, remove compromised materials, treat structural surfaces, and verify clearance — we don't just paint over it.
+The combination of National City's marine air and older construction means mold calls here often involve more square footage than the visible patch suggests. Flood Fixers follows IICRC S520 protocols and works within California's contractor licensing requirements for mold remediation. We contain the affected area, remove compromised materials, treat structural surfaces, and verify clearance, we don't just paint over it.
 
 ### Fire and smoke damage restoration
 
@@ -43,16 +43,16 @@ Kitchen fires are the most common fire call we receive in National City's reside
 
 ### Reconstruction
 
-When mitigation uncovers structural damage — rotted subfloor from a long-running slab leak, fire-damaged framing, or mold-compromised wall cavities — Flood Fixers carries the general contractor licensing to take the project through rebuild. That means one point of contact from emergency response through finished drywall, rather than handing off to a separate contractor mid-project.
+When mitigation uncovers structural damage, rotted subfloor from a long-running slab leak, fire-damaged framing, or mold-compromised wall cavities, Flood Fixers carries the general contractor licensing to take the project through rebuild. That means one point of contact from emergency response through finished drywall, rather than handing off to a separate contractor mid-project.
 
 ## Response time and coverage
 
-Flood Fixers is headquartered in San Diego, and National City sits roughly 8 miles south via I-5 or SR-54. Under normal traffic conditions, a crew can be on-site in National City within 45 to 60 minutes of your call. For properties in the ZIP codes 91950 and 91951 — including areas near Sweetwater Road, the Mile of Cars corridor, and neighborhoods adjacent to Kimball Park — that window holds consistently outside of peak commute hours. We run 24-hour dispatch, so a 2 a.m. call gets the same response as a weekday afternoon.
+Flood Fixers is headquartered in San Diego, and National City sits roughly 8 miles south via I-5 or SR-54. Under normal traffic conditions, a crew can be on-site in National City within 45 to 60 minutes of your call. For properties in the ZIP codes 91950 and 91951, including areas near Sweetwater Road, the Mile of Cars corridor, and neighborhoods adjacent to Kimball Park, that window holds consistently outside of peak commute hours. We run 24-hour dispatch, so a 2 a.m. call gets the same response as a weekday afternoon.
 
 ## Building stock, site conditions, and permits in National City
 
-National City is one of the county's oldest incorporated cities, so the housing runs older than much of San Diego: wood-frame bungalows with stucco or horizontal siding over board sheathing, some on raised perimeter foundations with shallow crawlspaces rather than slab. In those homes, cast iron drain lines scale shut and crack at the hub, and pre-1980 flooring, ceiling texture, and pipe wrap can contain asbestos while painted trim can carry lead — both change how a wall gets opened.
+National City is one of the county's oldest incorporated cities, so the housing runs older than much of San Diego: wood-frame bungalows with stucco or horizontal siding over board sheathing, some on raised perimeter foundations with shallow crawlspaces rather than slab. In those homes, cast iron drain lines scale shut and crack at the hub, and pre-1980 flooring, ceiling texture, and pipe wrap can contain asbestos while painted trim can carry lead, both change how a wall gets opened.
 
 Ground near the bay flats is low and soft, so crawlspaces there stay damp long after the surface dries. Structural repair, reframing, re-roofing, and rewiring are permitted through the City of National City's building division, under the California Building Standards Code and its seismic bracing requirements for this region.
 
-If you're dealing with water, fire, or mold damage in National City right now, call Flood Fixers at **(855) 204-1124**. We answer every call directly — no answering service, no callback queue — and we can have a licensed technician at your door the same day.
+If you're dealing with water, fire, or mold damage in National City right now, call Flood Fixers at **(855) 204-1124**. We answer every call directly, no answering service, no callback queue, and we can have a licensed technician at your door the same day.

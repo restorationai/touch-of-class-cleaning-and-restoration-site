@@ -20,18 +20,18 @@ state: "NJ"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-A house fire in Maplewood hits differently than in newer construction towns. The Tudors and colonials that line streets in the Hilton and Jefferson neighborhoods were built between the 1910s and 1930s, and their original plaster walls, knob-and-tube-era wiring, and old-growth wood framing don't just burn — they absorb smoke and char in ways that synthetic modern materials don't. Soot migrates deep into plaster, odor embeds in exposed beam cavities, and what looks like surface damage on the outside of a wall often signals structural compromise inside. If you've just had a fire at a property in the 07040 ZIP code, the clock on secondary damage — acidic soot etching fixtures, smoke odor permanently bonding to porous surfaces — starts the moment flames are out.
+A house fire in Maplewood hits differently than in newer construction towns. The Tudors and colonials that line streets in the Hilton and Jefferson neighborhoods were built between the 1910s and 1930s, and their original plaster walls, knob-and-tube-era wiring, and old-growth wood framing don't just burn, they absorb smoke and char in ways that synthetic modern materials don't. Soot migrates deep into plaster, odor embeds in exposed beam cavities, and what looks like surface damage on the outside of a wall often signals structural compromise inside. If you've just had a fire at a property in the 07040 ZIP code, the clock on secondary damage, acidic soot etching fixtures, smoke odor permanently bonding to porous surfaces, starts the moment flames are out.
 
 ## Why Maplewood's Housing Stock Complicates Fire Damage
 
 Maplewood's charm is inseparable from its age. The craftsman bungalows near Maplewood Village and the stone-foundation colonials closer to the South Mountain Reservation were built when fire codes, insulation standards, and electrical systems looked nothing like today's. That history creates specific challenges after a fire:
 
-- **Knob-and-tube wiring** is still present in a meaningful share of pre-1940 homes. After a fire, this wiring can't simply be inspected visually — it often needs to be traced and assessed by a licensed electrician before restoration work begins, since heat damage may not be visible at the panel.
+- **Knob-and-tube wiring** is still present in a meaningful share of pre-1940 homes. After a fire, this wiring can't simply be inspected visually, it often needs to be traced and assessed by a licensed electrician before restoration work begins, since heat damage may not be visible at the panel.
 - **Original plaster over wood lath** holds smoke particulates differently than drywall. Soot penetrates the plaster face but also seeps into the lath cavity behind it. Cleaning the surface isn't enough; in many cases, affected sections need to be removed to address odor at its source.
-- **Finished basements with stone or block foundations** are common in this housing stock. Fire suppression water — from sprinklers or hose lines — drains fast and pools in these lower levels, adding a water damage component to nearly every structural fire loss in Maplewood.
+- **Finished basements with stone or block foundations** are common in this housing stock. Fire suppression water, from sprinklers or hose lines, drains fast and pools in these lower levels, adding a water damage component to nearly every structural fire loss in Maplewood.
 - **Older cast-iron drain lines** can crack under thermal stress during a fire event, meaning post-fire plumbing inspection is often warranted before restoration crews seal up walls.
 
-None of these are reasons to panic — they're reasons to work with a team that knows what to look for in this specific housing stock.
+None of these are reasons to panic, they're reasons to work with a team that knows what to look for in this specific housing stock.
 
 ## Our Fire Damage Restoration Process in Maplewood
 
@@ -39,17 +39,17 @@ Every fire loss is different, but the sequence of work follows a disciplined ord
 
 **Emergency stabilization** comes first. We board up compromised windows and doors, tarp any roof penetrations, and assess whether the structure is safe to enter. In Maplewood's older homes, this sometimes means checking floor joists that were exposed to prolonged heat before calling in a structural engineer if there's any doubt.
 
-**Scope and documentation** follows immediately. We photograph and catalog every affected surface, item, and system — this documentation is the backbone of your insurance claim and prevents disputes later. We note pre-existing conditions (original plaster, historic millwork, period hardware) that need special handling rather than replacement.
+**Scope and documentation** follows immediately. We photograph and catalog every affected surface, item, and system, this documentation is the backbone of your insurance claim and prevents disputes later. We note pre-existing conditions (original plaster, historic millwork, period hardware) that need special handling rather than replacement.
 
-**Soot and smoke removal** is where the real technical work begins. Dry soot from fast-burning fires and wet soot from slow, smoldering fires require different cleaning chemistry. Protein residue from kitchen fires — common in Maplewood's older galley-style kitchens — requires enzymatic treatment and is notoriously difficult to detect by smell alone until it's too late. We use HEPA-filtered air scrubbers and thermal fogging to address airborne particulates and embedded odor simultaneously.
+**Soot and smoke removal** is where the real technical work begins. Dry soot from fast-burning fires and wet soot from slow, smoldering fires require different cleaning chemistry. Protein residue from kitchen fires, common in Maplewood's older galley-style kitchens, requires enzymatic treatment and is notoriously difficult to detect by smell alone until it's too late. We use HEPA-filtered air scrubbers and thermal fogging to address airborne particulates and embedded odor simultaneously.
 
 **Structural drying and dehumidification** runs in parallel, addressing the water introduced during suppression. IICRC S500 drying protocols guide our equipment placement and daily moisture readings.
 
-**Reconstruction** closes the loop — from replacing lath-and-plaster sections to restoring period trim details that matter in a historic neighborhood.
+**Reconstruction** closes the loop, from replacing lath-and-plaster sections to restoring period trim details that matter in a historic neighborhood.
 
 ## Reaching Maplewood from Kenilworth
 
-Our base in Kenilworth puts us roughly 20 minutes from most Maplewood addresses under normal conditions — a straight shot down Route 22 East to Springfield Avenue, or via the Garden State Parkway to Exit 142. We operate 24/7, so whether a fire is reported at 2 a.m. or mid-afternoon on a weekday, a crew can be dispatched immediately. Properties near the Maplewood Train Station area or along Maplewood Village's commercial corridor tend to have the most complex access during business hours due to parking and foot traffic — we account for that when staging equipment.
+Our base in Kenilworth puts us roughly 20 minutes from most Maplewood addresses under normal conditions, a straight shot down Route 22 East to Springfield Avenue, or via the Garden State Parkway to Exit 142. We operate 24/7, so whether a fire is reported at 2 a.m. or mid-afternoon on a weekday, a crew can be dispatched immediately. Properties near the Maplewood Train Station area or along Maplewood Village's commercial corridor tend to have the most complex access during business hours due to parking and foot traffic, we account for that when staging equipment.
 
 ## Maplewood Insurance Coordination
 
@@ -57,6 +57,6 @@ Most homeowners in Maplewood carry standard HO-3 policies, and fire is a covered
 
 ## Local Note
 
-One pattern we've seen repeatedly in Maplewood's pre-war homes: the original plaster ceilings in living and dining rooms are often applied over wood lath with a horsehair-reinforced base coat. After a fire — even one contained to the kitchen — smoke travels through the open stud bays and deposits on the back side of this lath. Homeowners and even some contractors clean the visible plaster face, declare it done, and then spend months wondering why the odor won't leave. The source is behind the wall. In these homes, thermal imaging after initial cleaning helps us identify cavities that are still off-gassing before we close anything up.
+One pattern we've seen repeatedly in Maplewood's pre-war homes: the original plaster ceilings in living and dining rooms are often applied over wood lath with a horsehair-reinforced base coat. After a fire, even one contained to the kitchen, smoke travels through the open stud bays and deposits on the back side of this lath. Homeowners and even some contractors clean the visible plaster face, declare it done, and then spend months wondering why the odor won't leave. The source is behind the wall. In these homes, thermal imaging after initial cleaning helps us identify cavities that are still off-gassing before we close anything up.
 
-If you're dealing with fire or smoke damage at a home or commercial property in Maplewood, call The Restoration Group at (855) 650-7422. We're available around the clock, and the sooner the assessment begins, the more of the structure — and the history inside it — can be saved.
+If you're dealing with fire or smoke damage at a home or commercial property in Maplewood, call The Restoration Group at (855) 650-7422. We're available around the clock, and the sooner the assessment begins, the more of the structure, and the history inside it, can be saved.

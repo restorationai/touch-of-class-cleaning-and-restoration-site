@@ -20,29 +20,29 @@ state: "MS"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
-Biloxi sits at sea level on a narrow peninsula between the Back Bay and the Gulf of Mexico, and that geography shapes everything about how sewage problems behave here. When a sewer line backs up or a septic system overflows in this environment, the contaminated water has nowhere to drain — it pools under slabs, saturates the sandy coastal soil, and wicks into wall cavities faster than in inland Mississippi cities. HomeLyft Restoration MS responds to sewage backup cleanup calls throughout Biloxi, bringing the extraction equipment, EPA-registered disinfectants, and IICRC-certified process needed to make a Category 3 loss safe again.
+Biloxi sits at sea level on a narrow peninsula between the Back Bay and the Gulf of Mexico, and that geography shapes everything about how sewage problems behave here. When a sewer line backs up or a septic system overflows in this environment, the contaminated water has nowhere to drain, it pools under slabs, saturates the sandy coastal soil, and wicks into wall cavities faster than in inland Mississippi cities. HomeLyft Restoration MS responds to sewage backup cleanup calls throughout Biloxi, bringing the extraction equipment, EPA-registered disinfectants, and IICRC-certified process needed to make a Category 3 loss safe again.
 
 ## Why Biloxi Properties Experience Sewage Backups More Than You'd Expect
 
-Biloxi's drainage infrastructure carries a heavy load. The city's low elevation means that even moderate rainfall — common during Gulf hurricane season from June through November — can overwhelm municipal storm and sanitary sewer lines simultaneously. When those systems surcharge, sewage reverses course and enters homes through floor drains, toilets, and washing machine standpipes. Properties closer to the Back Bay waterfront are especially vulnerable because the water table can sit within inches of the surface after a storm, leaving almost no buffer between groundwater and finished living space.
+Biloxi's drainage infrastructure carries a heavy load. The city's low elevation means that even moderate rainfall, common during Gulf hurricane season from June through November, can overwhelm municipal storm and sanitary sewer lines simultaneously. When those systems surcharge, sewage reverses course and enters homes through floor drains, toilets, and washing machine standpipes. Properties closer to the Back Bay waterfront are especially vulnerable because the water table can sit within inches of the surface after a storm, leaving almost no buffer between groundwater and finished living space.
 
 Older homes in Biloxi's established residential corridors often have cast-iron or clay tile sewer laterals that have been in the ground for 50 or 60 years. Root intrusion and joint separation are common failure points in these pipes, and a single heavy rain event can push a slow leak into a full backup overnight. Post-Katrina reconstruction added a large inventory of slab-on-grade homes built in the mid-2000s; those slabs can trap sewage moisture underneath for weeks if extraction and drying are not started quickly.
 
 ## Our Sewage Cleanup and Sanitization Process in Biloxi
 
-Raw sewage is classified as Category 3 — "black water" — under the IICRC S500 standard, meaning it carries pathogens that require full personal protective equipment, controlled containment, and EPA-registered hospital-grade disinfectants. The process is more involved than a simple water loss, and cutting corners creates health risks that can surface weeks later.
+Raw sewage is classified as Category 3, "black water", under the IICRC S500 standard, meaning it carries pathogens that require full personal protective equipment, controlled containment, and EPA-registered hospital-grade disinfectants. The process is more involved than a simple water loss, and cutting corners creates health risks that can surface weeks later.
 
 Here is how a typical job unfolds:
 
-**1. Containment and assessment.** Technicians establish a work zone to prevent cross-contamination to unaffected rooms. Moisture meters and thermal imaging identify how far the sewage has migrated — often farther than the visible stain line.
+**1. Containment and assessment.** Technicians establish a work zone to prevent cross-contamination to unaffected rooms. Moisture meters and thermal imaging identify how far the sewage has migrated, often farther than the visible stain line.
 
 **2. Extraction.** Truck-mounted or portable extraction units remove standing sewage and saturated material. In slab-on-grade construction common in post-Katrina Biloxi rebuilds, we pay close attention to the gap between the slab and any floating floor systems where liquid hides.
 
-**3. Controlled demolition.** Porous materials — drywall, insulation, carpet, padding — that contacted Category 3 water are removed and bagged per Mississippi Department of Environmental Quality disposal guidelines. These materials cannot be dried in place; they must go.
+**3. Controlled demolition.** Porous materials, drywall, insulation, carpet, padding, that contacted Category 3 water are removed and bagged per Mississippi Department of Environmental Quality disposal guidelines. These materials cannot be dried in place; they must go.
 
 **4. Disinfection.** All affected structural surfaces are treated with EPA List N disinfectants rated for sewage pathogens. This step is applied twice: once before drying begins and once after, when surfaces are dry enough to allow full contact time.
 
-**5. Structural drying.** Commercial desiccant or refrigerant dehumidifiers and high-velocity air movers run until moisture readings return to regional baseline — which in Biloxi's humid subtropical climate takes longer than the IICRC S500 charts suggest for drier inland regions. We monitor daily and document readings for your insurance file.
+**5. Structural drying.** Commercial desiccant or refrigerant dehumidifiers and high-velocity air movers run until moisture readings return to regional baseline, which in Biloxi's humid subtropical climate takes longer than the IICRC S500 charts suggest for drier inland regions. We monitor daily and document readings for your insurance file.
 
 **6. Clearance documentation.** Before we close out the job, we provide a written moisture log and photo record showing pre- and post-remediation conditions.
 
@@ -52,10 +52,10 @@ HomeLyft Restoration MS is based in Gulfport, directly west of Biloxi on US-90. 
 
 ## Insurance Coordination for Biloxi Sewage Claims
 
-Sewage backup coverage is one of the most misunderstood parts of a homeowner's policy in Mississippi. Standard HO-3 policies typically exclude sewer backup unless a separate endorsement was purchased — and many Biloxi homeowners who rebuilt after Katrina were focused on wind and flood riders, not sewer backup endorsements. Before assuming your claim will be denied, let us document the loss thoroughly. We photograph affected materials before removal, generate moisture logs, and provide itemized scope-of-work reports in the format most major carriers and independent adjusters use. That documentation gives your adjuster what they need to evaluate coverage accurately, whatever the policy language turns out to say.
+Sewage backup coverage is one of the most misunderstood parts of a homeowner's policy in Mississippi. Standard HO-3 policies typically exclude sewer backup unless a separate endorsement was purchased, and many Biloxi homeowners who rebuilt after Katrina were focused on wind and flood riders, not sewer backup endorsements. Before assuming your claim will be denied, let us document the loss thoroughly. We photograph affected materials before removal, generate moisture logs, and provide itemized scope-of-work reports in the format most major carriers and independent adjusters use. That documentation gives your adjuster what they need to evaluate coverage accurately, whatever the policy language turns out to say.
 
 ## Local Note: Biloxi's Humidity Changes the Drying Timeline
 
-Contractors who primarily work inland Mississippi sometimes underestimate how much Biloxi's coastal humidity extends drying time after a sewage cleanup. Average relative humidity along the Gulf Coast runs 10 to 15 percentage points higher than in central Mississippi, even in winter. That means the structural drying phase on a Biloxi sewage job routinely runs a day or two longer than the same square footage would require in, say, Jackson or Hattiesburg. We set equipment to account for the ambient conditions on-site rather than using a fixed-day estimate, and we do not pull dehumidifiers until the readings confirm the structure is actually dry — not just dry enough.
+Contractors who primarily work inland Mississippi sometimes underestimate how much Biloxi's coastal humidity extends drying time after a sewage cleanup. Average relative humidity along the Gulf Coast runs 10 to 15 percentage points higher than in central Mississippi, even in winter. That means the structural drying phase on a Biloxi sewage job routinely runs a day or two longer than the same square footage would require in, say, Jackson or Hattiesburg. We set equipment to account for the ambient conditions on-site rather than using a fixed-day estimate, and we do not pull dehumidifiers until the readings confirm the structure is actually dry, not just dry enough.
 
 If you are dealing with a sewage backup or septic overflow anywhere in Biloxi, call HomeLyft Restoration MS at +12282845200. We will walk you through the immediate safety steps, schedule an assessment, and get a certified crew on-site to start making the space safe again.

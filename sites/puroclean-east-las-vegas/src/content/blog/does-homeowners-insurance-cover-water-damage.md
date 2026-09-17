@@ -17,7 +17,7 @@ published_at: "2026-07-06"
 services: ["water-damage-restoration"]
 rendered: true
 ---
-Homeowners insurance *sometimes* covers water damage — but the answer depends almost entirely on how the water got in, not how bad the damage is. The short version: sudden, accidental water events (a pipe that bursts overnight, a washing machine hose that fails) are typically covered. Gradual leaks, flooding from outside your home, and damage caused by neglected maintenance usually are not. Understanding that single distinction before you file a claim can save you thousands of dollars and a lot of frustration.
+Homeowners insurance *sometimes* covers water damage, but the answer depends almost entirely on how the water got in, not how bad the damage is. The short version: sudden, accidental water events (a pipe that bursts overnight, a washing machine hose that fails) are typically covered. Gradual leaks, flooding from outside your home, and damage caused by neglected maintenance usually are not. Understanding that single distinction before you file a claim can save you thousands of dollars and a lot of frustration.
 
 ---
 
@@ -28,7 +28,7 @@ Insurance companies draw a hard line between water damage that happened all at o
 **What's usually covered:**
 - A supply line behind your refrigerator that bursts while you're at work
 - A pipe that freezes and cracks during an unusual Las Vegas cold snap
-- An accidental overflow — you left the tub running and it flooded the bathroom
+- An accidental overflow, you left the tub running and it flooded the bathroom
 - A washing machine that suddenly leaks a full drum of water onto the laundry room floor
 - Rain that enters through a roof opening caused by a covered peril (say, wind damage)
 
@@ -37,7 +37,7 @@ Insurance companies draw a hard line between water damage that happened all at o
 - A roof that's been leaking around the flashing for years
 - Groundwater seeping through a foundation wall during heavy rain
 - A sewer or drain that backs up into your home (this often requires a separate endorsement)
-- Any flooding from an outside water source — rivers, storm surge, overland runoff — which requires a separate NFIP or private flood policy
+- Any flooding from an outside water source, rivers, storm surge, overland runoff, which requires a separate NFIP or private flood policy
 
 The practical test your adjuster will apply: *would a reasonable homeowner have noticed and fixed this before it became a major loss?* If the answer is yes, the claim is likely to be denied or reduced.
 
@@ -47,15 +47,15 @@ The practical test your adjuster will apply: *would a reasonable homeowner have 
 
 Most standard homeowners policies are HO-3 forms. Inside that document, water damage lives in two places:
 
-1. **Section I — Perils Insured Against** (or "Coverage A — Dwelling"): This is where sudden-and-accidental discharge is listed as a covered peril.
-2. **Section I — Exclusions**: This is where you'll find the language excluding flood, groundwater, seepage, and continuous or repeated leakage.
+1. **Section I, Perils Insured Against** (or "Coverage A, Dwelling"): This is where sudden-and-accidental discharge is listed as a covered peril.
+2. **Section I, Exclusions**: This is where you'll find the language excluding flood, groundwater, seepage, and continuous or repeated leakage.
 
 Look specifically for phrases like *"discharge or overflow of water or steam from a plumbing system"* (covered) versus *"continuous or repeated seepage or leakage"* (excluded). Those two clauses sitting next to each other in the same document are the source of most coverage disputes.
 
 Two endorsements worth asking your agent about if you don't already have them:
 
 - **Water backup / sewer backup rider**: Adds coverage for drain and sewer backups, which are excluded from most base policies. In Las Vegas, where aging infrastructure in older neighborhoods like Boulder Highway or East Sahara can mean slow-draining city lines, this endorsement is relatively inexpensive and worth having.
-- **Service line coverage**: Covers the water or sewer line running from the street to your home — a repair that can easily run $5,000–$15,000 and is almost never covered under a base policy.
+- **Service line coverage**: Covers the water or sewer line running from the street to your home, a repair that can easily run $5,000–$15,000 and is almost never covered under a base policy.
 
 ---
 
@@ -63,13 +63,13 @@ Two endorsements worth asking your agent about if you don't already have them:
 
 If you've just discovered water damage, the sequence matters. Doing these steps in order protects both your home and your claim.
 
-1. **Stop the water source.** If a pipe broke, turn off the main shutoff valve — in most Las Vegas homes it's near the water meter at the front of the property, often in a small box set into the ground near the curb. If you can't find it, call the Southern Nevada Water Authority emergency line.
+1. **Stop the water source.** If a pipe broke, turn off the main shutoff valve, in most Las Vegas homes it's near the water meter at the front of the property, often in a small box set into the ground near the curb. If you can't find it, call the Southern Nevada Water Authority emergency line.
 2. **Document everything before you touch it.** Walk the affected area and take video on your phone. Open cabinets, pull back rugs, photograph water lines on walls. Adjusters and restoration contractors both rely on this documentation.
-3. **Remove standing water if you safely can.** Towels, a wet/dry vac, or a mop — getting surface water up quickly reduces how far it migrates into flooring and subfloor. Water can travel several feet horizontally under hardwood or laminate before you see it.
+3. **Remove standing water if you safely can.** Towels, a wet/dry vac, or a mop, getting surface water up quickly reduces how far it migrates into flooring and subfloor. Water can travel several feet horizontally under hardwood or laminate before you see it.
 4. **Call your insurance company to open a claim.** Most carriers have 24-hour claim lines. Opening the claim early creates a timestamp that matters if the damage worsens.
 5. **Do not throw anything away yet.** Damaged flooring, drywall, or cabinetry is physical evidence. Your adjuster or an independent adjuster may need to inspect it.
 
-One important note: your policy requires you to take *reasonable steps* to prevent further damage after a loss. That means you *should* extract water and set up fans — but it does not mean you should gut the walls yourself before an adjuster has seen the damage.
+One important note: your policy requires you to take *reasonable steps* to prevent further damage after a loss. That means you *should* extract water and set up fans, but it does not mean you should gut the walls yourself before an adjuster has seen the damage.
 
 ---
 
@@ -79,7 +79,7 @@ Las Vegas is dry, but that doesn't mean mold isn't a risk after water damage. In
 
 Most HO-3 policies cover mold remediation *only if* it results directly from a covered water loss and *only if* you acted promptly to mitigate. If an adjuster determines that mold grew because you waited two weeks to address a burst pipe, the mold remediation may be excluded even if the original pipe break was covered.
 
-This is the practical reason why professional water extraction and drying matters beyond just getting floors dry. Proper drying — using industrial air movers and dehumidifiers, with moisture readings taken daily — creates a documented record that you mitigated aggressively. That documentation protects your claim if mold shows up later.
+This is the practical reason why professional water extraction and drying matters beyond just getting floors dry. Proper drying, using industrial air movers and dehumidifiers, with moisture readings taken daily, creates a documented record that you mitigated aggressively. That documentation protects your claim if mold shows up later.
 
 ---
 
@@ -96,6 +96,6 @@ Denials and low estimates are common in water damage claims. A few options if th
 
 ## Closing: If the Water Is Already In, Don't Wait on the Coverage Question
 
-Insurance questions are important, but they shouldn't delay mitigation. The longer water sits in walls, under floors, or in a crawl space, the more damage spreads — and the harder your claim becomes. If you've had a significant water event in your East Las Vegas home and you're not sure what's wet or how far it's traveled, a professional assessment can give you the documentation you need for your insurer while stopping the damage from getting worse.
+Insurance questions are important, but they shouldn't delay mitigation. The longer water sits in walls, under floors, or in a crawl space, the more damage spreads, and the harder your claim becomes. If you've had a significant water event in your East Las Vegas home and you're not sure what's wet or how far it's traveled, a professional assessment can give you the documentation you need for your insurer while stopping the damage from getting worse.
 
 PuroClean of East Las Vegas handles water damage restoration throughout the Las Vegas Valley. If you need an assessment or want to talk through what you're seeing, call **(702) 551-3040**.

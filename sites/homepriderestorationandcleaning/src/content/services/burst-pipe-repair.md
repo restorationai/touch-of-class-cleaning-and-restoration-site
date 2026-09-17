@@ -18,15 +18,15 @@ service_slug: "burst-pipe-repair"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
-A pipe doesn't burst gradually — it lets go all at once, and in the time it takes to find the shutoff valve, water is already moving through wall cavities, soaking subfloor, and wicking into insulation you can't see. The damage clock starts the moment pressure releases, not the moment you call for help. That gap between the break and the first extraction truck on your driveway is where most of the long-term structural and mold risk is created.
+A pipe doesn't burst gradually, it lets go all at once, and in the time it takes to find the shutoff valve, water is already moving through wall cavities, soaking subfloor, and wicking into insulation you can't see. The damage clock starts the moment pressure releases, not the moment you call for help. That gap between the break and the first extraction truck on your driveway is where most of the long-term structural and mold risk is created.
 
 ## What Burst Pipe Cleanup and Repair actually involves
 
-Burst pipe response is a two-track job: stopping the water source and reversing the damage it left behind. The plumbing side — locating the break, isolating the line, and making the repair — has to happen before any meaningful drying can begin. Once the source is controlled, the real work starts.
+Burst pipe response is a two-track job: stopping the water source and reversing the damage it left behind. The plumbing side, locating the break, isolating the line, and making the repair, has to happen before any meaningful drying can begin. Once the source is controlled, the real work starts.
 
-Technicians use thermal imaging cameras and calibrated moisture meters to map exactly where water traveled. In a single-story home with a burst supply line under a bathroom vanity, water commonly moves laterally through the toe-kick, into adjacent cabinetry, under vinyl plank or tile, and down into the subfloor — all within 30 minutes of the break. In a two-story home, a burst pipe on the upper floor can saturate ceiling drywall below before anyone notices standing water.
+Technicians use thermal imaging cameras and calibrated moisture meters to map exactly where water traveled. In a single-story home with a burst supply line under a bathroom vanity, water commonly moves laterally through the toe-kick, into adjacent cabinetry, under vinyl plank or tile, and down into the subfloor, all within 30 minutes of the break. In a two-story home, a burst pipe on the upper floor can saturate ceiling drywall below before anyone notices standing water.
 
-Extraction equipment — truck-mounted or portable high-CFM units — pulls standing water first. Then industrial air movers and low-grain refrigerant (LGR) dehumidifiers are positioned based on the moisture map, not just placed in the middle of the room. Drying typically runs 3–5 days for Category 1 clean water in a standard residential space, with daily moisture readings to confirm progress and document the drying curve for your insurance file.
+Extraction equipment, truck-mounted or portable high-CFM units, pulls standing water first. Then industrial air movers and low-grain refrigerant (LGR) dehumidifiers are positioned based on the moisture map, not just placed in the middle of the room. Drying typically runs 3–5 days for Category 1 clean water in a standard residential space, with daily moisture readings to confirm progress and document the drying curve for your insurance file.
 
 ## Our process
 
@@ -34,28 +34,28 @@ Extraction equipment — truck-mounted or portable high-CFM units — pulls stan
 
 2. **Categorization and safety check.** Not all burst pipes carry clean water. A supply line break is Category 1. A burst that involves a drain line, toilet supply, or any line downstream of a fixture trap may be Category 2 or 3, which changes the PPE requirements, the extraction protocol, and what materials can be dried in place versus removed. We make this call on-site, not over the phone.
 
-3. **Extraction and controlled demolition.** Standing water is extracted first. Saturated drywall below the flood line, wet insulation, and compromised flooring materials that cannot be effectively dried in place are removed — not because it's easier, but because leaving them guarantees mold colonization within 24–72 hours. Cuts are made cleanly to preserve as much salvageable material as possible and to give adjusters clear documentation of what was affected.
+3. **Extraction and controlled demolition.** Standing water is extracted first. Saturated drywall below the flood line, wet insulation, and compromised flooring materials that cannot be effectively dried in place are removed, not because it's easier, but because leaving them guarantees mold colonization within 24–72 hours. Cuts are made cleanly to preserve as much salvageable material as possible and to give adjusters clear documentation of what was affected.
 
-4. **Structural drying with daily monitoring.** Air movers and LGR dehumidifiers run in a calculated configuration based on the cubic footage and material types in the affected space. We return daily to log temperature, relative humidity, and material moisture content. Drying is not complete until readings reach industry-standard dry goals — not until the equipment has run for a set number of days.
+4. **Structural drying with daily monitoring.** Air movers and LGR dehumidifiers run in a calculated configuration based on the cubic footage and material types in the affected space. We return daily to log temperature, relative humidity, and material moisture content. Drying is not complete until readings reach industry-standard dry goals, not until the equipment has run for a set number of days.
 
-5. **Pipe repair and documentation handoff.** Once structural drying is confirmed, the burst line is repaired or coordinated with a licensed plumber. We compile the full moisture log, photo documentation, and drying report — the paperwork your insurance adjuster needs to process the claim without a fight.
+5. **Pipe repair and documentation handoff.** Once structural drying is confirmed, the burst line is repaired or coordinated with a licensed plumber. We compile the full moisture log, photo documentation, and drying report, the paperwork your insurance adjuster needs to process the claim without a fight.
 
 ## What separates a good burst pipe response from a bad one
 
 The most common mistake in burst pipe cleanup is treating it like a mop-and-fan job. Water that gets pushed around rather than extracted, or spaces that get a single dehumidifier dropped in without a moisture map, look dry on the surface within a day or two. The problem shows up six weeks later as buckled hardwood, soft subfloor, or black mold behind a baseboard.
 
-Insurance adjusters look for a documented drying log with daily psychrometric readings. Without that record, claims get disputed or underpaid. IICRC-certified technicians are trained to produce that documentation as a standard part of the job — it's not an add-on.
+Insurance adjusters look for a documented drying log with daily psychrometric readings. Without that record, claims get disputed or underpaid. IICRC-certified technicians are trained to produce that documentation as a standard part of the job, it's not an add-on.
 
 A second common failure point is misidentifying the water category. A burst washing machine supply hose that sat overnight before discovery is no longer Category 1. Treating it as clean water and drying in place without appropriate antimicrobial treatment creates liability for the contractor and a health risk for the occupant.
 
 ## Seasonal and regional considerations
 
-Saratoga Springs and the broader Utah County area see hard freezes from November through March, and the region's newer housing stock — much of it built with PEX supply lines routed through exterior walls or uninsulated garage spaces — is particularly vulnerable during rapid temperature drops. A night that hits single digits after a mild week is the most common trigger for burst pipe calls in this area.
+Saratoga Springs and the broader Utah County area see hard freezes from November through March, and the region's newer housing stock, much of it built with PEX supply lines routed through exterior walls or uninsulated garage spaces, is particularly vulnerable during rapid temperature drops. A night that hits single digits after a mild week is the most common trigger for burst pipe calls in this area.
 
-The freeze-thaw pattern here also means pipes sometimes crack without fully releasing until pressure is restored — meaning a homeowner turns the water back on after a cold snap and the break happens then, not during the freeze itself. If you had a frozen pipe that thawed without obvious incident, it's worth having the line inspected before assuming it's fine.
+The freeze-thaw pattern here also means pipes sometimes crack without fully releasing until pressure is restored, meaning a homeowner turns the water back on after a cold snap and the break happens then, not during the freeze itself. If you had a frozen pipe that thawed without obvious incident, it's worth having the line inspected before assuming it's fine.
 
 ## Service area
 
 Home Pride Restoration and Cleaning is based in Saratoga Springs and responds to burst pipe emergencies throughout Utah County and the surrounding region, including Eagle Mountain, Lehi, American Fork, Cedar Hills, Pleasant Grove, and Orem. City-specific pages for each area link back here for the full service details.
 
-If you're standing in a wet room right now, call (801) 995-2437 to get a technician moving toward your address — then turn off the water if you haven't already and move electronics and valuables out of the affected area while you wait.
+If you're standing in a wet room right now, call (801) 995-2437 to get a technician moving toward your address, then turn off the water if you haven't already and move electronics and valuables out of the affected area while you wait.

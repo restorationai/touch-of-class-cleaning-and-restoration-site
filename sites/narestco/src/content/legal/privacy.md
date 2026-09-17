@@ -18,11 +18,11 @@ rendered: true
 ---
 ## What Information We Collect
 
-When you fill out a contact form, request an estimate, or call us, we collect the information you provide — your name, phone number, email address, property address, and a description of the damage or service you need. If you reach out through our website, basic analytics data (pages visited, browser type, approximate location derived from IP address) may be collected automatically through standard tools like Google Analytics. We do not use tracking pixels, sell advertising, or build behavioral profiles.
+When you fill out a contact form, request an estimate, or call us, we collect the information you provide, your name, phone number, email address, property address, and a description of the damage or service you need. If you reach out through our website, basic analytics data (pages visited, browser type, approximate location derived from IP address) may be collected automatically through standard tools like Google Analytics. We do not use tracking pixels, sell advertising, or build behavioral profiles.
 
 ## How We Use Your Information
 
-The information you share is used for one purpose: helping you. That means calling or emailing you back to discuss your situation, scheduling an on-site estimate, coordinating the scope of work, and — when you authorize it — communicating with your insurance carrier on your behalf. If your claim involves documentation, photos, or moisture readings we've recorded at your property, that information may be included in reports submitted to your insurer only with your explicit sign-off.
+The information you share is used for one purpose: helping you. That means calling or emailing you back to discuss your situation, scheduling an on-site estimate, coordinating the scope of work, and, when you authorize it, communicating with your insurance carrier on your behalf. If your claim involves documentation, photos, or moisture readings we've recorded at your property, that information may be included in reports submitted to your insurer only with your explicit sign-off.
 
 We do not use your contact details for marketing campaigns, and we do not sell, rent, or trade your personal information to third parties.
 
@@ -30,7 +30,7 @@ We do not use your contact details for marketing campaigns, and we do not sell, 
 
 National Restoration Construction LLC shares your information only when necessary to complete the service you've requested. That typically means your insurance adjuster (with your authorization), subcontractors working under our direct supervision on your project, or vendors fulfilling equipment or material orders tied to your job. Any party who receives your information in this context is bound to use it only for that purpose.
 
-We may also disclose information if required by law — for example, in response to a valid court order or regulatory request.
+We may also disclose information if required by law, for example, in response to a valid court order or regulatory request.
 
 ## Data Retention
 
@@ -38,7 +38,7 @@ We retain project records, including contact information and job documentation, 
 
 ## Your Rights
 
-If you are a California resident, the California Consumer Privacy Act (CCPA) gives you the right to know what personal information we hold about you, request deletion, and opt out of any sale of that information — though, to be clear, we do not sell personal data. Residents of other states with similar privacy laws may have comparable rights. To make any request, email us at info@narestco.com or call (206) 883-0333, and we will respond within 30 days.
+If you are a California resident, the California Consumer Privacy Act (CCPA) gives you the right to know what personal information we hold about you, request deletion, and opt out of any sale of that information, though, to be clear, we do not sell personal data. Residents of other states with similar privacy laws may have comparable rights. To make any request, email us at info@narestco.com or call (206) 883-0333, and we will respond within 30 days.
 
 GDPR (the European Union's General Data Protection Regulation) is unlikely to apply to most visitors of this site, as our services are limited to the greater Seattle and Western Washington area. If you believe GDPR applies to your situation, contact us and we will work with you in good faith.
 

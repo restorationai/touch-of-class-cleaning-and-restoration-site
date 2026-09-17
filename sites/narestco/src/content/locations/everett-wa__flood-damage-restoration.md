@@ -20,42 +20,42 @@ state: "WA"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
-Standing water doesn't wait, and neither should you. Whether a burst pipe flooded your basement overnight, a storm pushed water through your crawl space, or the Snohomish River's floodplain finally caught up with your property, the clock starts the moment water contacts your flooring, drywall, and framing. National Restoration Construction has been handling flood cleanup across the greater Puget Sound region since 2004, and we're dispatching to Everett addresses every week — not as an afterthought, but as a regular part of our service area.
+Standing water doesn't wait, and neither should you. Whether a burst pipe flooded your basement overnight, a storm pushed water through your crawl space, or the Snohomish River's floodplain finally caught up with your property, the clock starts the moment water contacts your flooring, drywall, and framing. National Restoration Construction has been handling flood cleanup across the greater Puget Sound region since 2004, and we're dispatching to Everett addresses every week, not as an afterthought, but as a regular part of our service area.
 
 ## Why Everett Properties Are Especially Vulnerable to Flood Damage
 
-Everett sits at the convergence of several flood risk factors that other parts of Washington don't share in quite the same combination. The city's proximity to Port Gardner Bay and the Snohomish River delta means that heavy atmospheric river events — the kind that stack up from October through March — can overwhelm both natural drainage and aging municipal storm systems simultaneously. Neighborhoods closer to the waterfront and low-lying areas near Highway 2 see storm surge and sheet flooding that can push water under doors and through foundation walls in a matter of hours.
+Everett sits at the convergence of several flood risk factors that other parts of Washington don't share in quite the same combination. The city's proximity to Port Gardner Bay and the Snohomish River delta means that heavy atmospheric river events, the kind that stack up from October through March, can overwhelm both natural drainage and aging municipal storm systems simultaneously. Neighborhoods closer to the waterfront and low-lying areas near Highway 2 see storm surge and sheet flooding that can push water under doors and through foundation walls in a matter of hours.
 
-The housing stock adds another layer of risk. Much of Everett's residential inventory was built between the 1940s and 1980s, which means crawl spaces with minimal vapor barriers, older sewer laterals prone to backflow during heavy rain, and basements that weren't engineered with modern waterproofing standards. When those systems get overwhelmed, water finds every gap — and it moves fast. Mold can begin colonizing wet drywall and insulation within 24 to 48 hours under typical Pacific Northwest conditions, which is why post-flood restoration isn't something to schedule for next week.
+The housing stock adds another layer of risk. Much of Everett's residential inventory was built between the 1940s and 1980s, which means crawl spaces with minimal vapor barriers, older sewer laterals prone to backflow during heavy rain, and basements that weren't engineered with modern waterproofing standards. When those systems get overwhelmed, water finds every gap, and it moves fast. Mold can begin colonizing wet drywall and insulation within 24 to 48 hours under typical Pacific Northwest conditions, which is why post-flood restoration isn't something to schedule for next week.
 
 ## Our Flood Damage Restoration Process in Everett
 
-When you reach us, a technician is typically on-site within 60 to 90 minutes from our Federal Way headquarters — often faster for addresses in south Everett near I-5. The first priority is stopping active water intrusion if it hasn't already stopped, then getting extraction equipment running before water migrates further into subfloor assemblies and wall cavities.
+When you reach us, a technician is typically on-site within 60 to 90 minutes from our Federal Way headquarters, often faster for addresses in south Everett near I-5. The first priority is stopping active water intrusion if it hasn't already stopped, then getting extraction equipment running before water migrates further into subfloor assemblies and wall cavities.
 
 Here's what that looks like in practice:
 
 - **Emergency extraction** using truck-mounted and portable units capable of pulling hundreds of gallons from carpet, pad, hardwood, and concrete.
-- **Moisture mapping** with thermal imaging cameras and calibrated moisture meters to find water that's already wicked into walls and ceilings — the damage you can't see is often worse than what's visible.
+- **Moisture mapping** with thermal imaging cameras and calibrated moisture meters to find water that's already wicked into walls and ceilings, the damage you can't see is often worse than what's visible.
 - **Structural drying** with industrial-grade air movers and low-grain refrigerant dehumidifiers positioned to create directed airflow through the affected assembly, not just the room.
 - **Antimicrobial treatment** applied to surfaces at risk of microbial growth, following IICRC S500 standards for water damage remediation.
-- **Documentation at every stage** — photos, moisture readings, equipment logs — because your insurance adjuster will ask for all of it.
+- **Documentation at every stage**, photos, moisture readings, equipment logs, because your insurance adjuster will ask for all of it.
 
 Once the structure reads dry on our meters, we assess what needs to be removed versus what can be saved, and we can handle the rebuild phase ourselves as a licensed general contractor (WA L&I #NATIORC792M6), so you're not coordinating between a remediation company and a separate contractor.
 
 ## Navigating Insurance for Flood Damage Repair
 
-Insurance is almost always the first thing homeowners ask about, and understandably so — residential flood damage repair bills can range from a few thousand dollars for a contained appliance leak to well into five figures for a full-basement event with structural involvement. We work directly with all major insurance carriers and can communicate with your adjuster on your behalf throughout the process.
+Insurance is almost always the first thing homeowners ask about, and understandably so, residential flood damage repair bills can range from a few thousand dollars for a contained appliance leak to well into five figures for a full-basement event with structural involvement. We work directly with all major insurance carriers and can communicate with your adjuster on your behalf throughout the process.
 
-What we handle: scope documentation, moisture logs, equipment records, photo evidence packages, and direct billing to your carrier where your policy allows it. What you'll need to manage: filing the initial claim, providing your policy number, and making decisions about contents that may need to be inventoried for a personal property claim. We'll walk you through what to photograph and document before we arrive if you have a few minutes — it strengthens your claim.
+What we handle: scope documentation, moisture logs, equipment records, photo evidence packages, and direct billing to your carrier where your policy allows it. What you'll need to manage: filing the initial claim, providing your policy number, and making decisions about contents that may need to be inventoried for a personal property claim. We'll walk you through what to photograph and document before we arrive if you have a few minutes, it strengthens your claim.
 
 One honest note: standard homeowner's policies often distinguish between sudden water damage (usually covered) and rising groundwater or storm surge flooding (typically requires a separate NFIP or private flood policy). We can help you understand which category your damage likely falls into, but your adjuster makes the final determination.
 
 ## Response Times Across Everett
 
-From our Federal Way location, we're roughly 30 to 40 minutes from most of Everett under normal traffic conditions, and we run 24 hours a day, seven days a week — including holidays. Addresses in south Everett near the 128th Street SW corridor tend to see faster arrival than north Everett neighborhoods near Mukilteo or the casino district, where I-5 congestion can add time during peak hours. If you're in a particularly urgent situation, tell us when you call — we'll give you an honest ETA and advise you on what to do in the meantime to limit spread.
+From our Federal Way location, we're roughly 30 to 40 minutes from most of Everett under normal traffic conditions, and we run 24 hours a day, seven days a week, including holidays. Addresses in south Everett near the 128th Street SW corridor tend to see faster arrival than north Everett neighborhoods near Mukilteo or the casino district, where I-5 congestion can add time during peak hours. If you're in a particularly urgent situation, tell us when you call, we'll give you an honest ETA and advise you on what to do in the meantime to limit spread.
 
 The faster extraction begins, the more of your flooring, cabinetry, and structural framing we can typically save. Every hour of delay is measurable in moisture meter readings and in the scope of what ultimately has to be torn out.
 
 ---
 
-If water is in your home right now — or if you're assessing damage from an event that happened in the last day or two — reach out to National Restoration Construction at **(206) 883-0333**. We'll tell you exactly what we're seeing, what needs to happen first, and how quickly we can be there.
+If water is in your home right now, or if you're assessing damage from an event that happened in the last day or two, reach out to National Restoration Construction at **(206) 883-0333**. We'll tell you exactly what we're seeing, what needs to happen first, and how quickly we can be there.

@@ -17,23 +17,23 @@ service_slug: "air-duct-cleaning"
 service_display: "Air Duct Cleaning"
 rendered: true
 ---
-When the same air cycles through your home dozens of times a day, whatever is living inside your ductwork comes with it. Dust mite debris, rodent droppings, construction-era drywall dust, mold spores from a long-forgotten slow leak — none of it is visible from a vent cover, but all of it is airborne every time your HVAC system kicks on. If your filters are clogging faster than they used to, if certain rooms smell musty the moment the heat runs, or if someone in the house is waking up congested despite clean bedding, the duct system is often where the investigation should start.
+When the same air cycles through your home dozens of times a day, whatever is living inside your ductwork comes with it. Dust mite debris, rodent droppings, construction-era drywall dust, mold spores from a long-forgotten slow leak, none of it is visible from a vent cover, but all of it is airborne every time your HVAC system kicks on. If your filters are clogging faster than they used to, if certain rooms smell musty the moment the heat runs, or if someone in the house is waking up congested despite clean bedding, the duct system is often where the investigation should start.
 
 ## What air duct cleaning actually involves
 
-Air duct cleaning is not a shop-vac run through the nearest register. A proper cleaning requires access to the full duct network — supply lines, return lines, the air handler cabinet, and the blower compartment — using negative-pressure equipment that prevents loosened debris from redistributing into living spaces.
+Air duct cleaning is not a shop-vac run through the nearest register. A proper cleaning requires access to the full duct network, supply lines, return lines, the air handler cabinet, and the blower compartment, using negative-pressure equipment that prevents loosened debris from redistributing into living spaces.
 
-The industry standard tool is a truck-mounted or high-powered portable vacuum system connected directly to the main trunk line, creating continuous negative pressure throughout the duct system while technicians use rotary brush agitation tools to break contamination loose from duct walls. Flex duct, sheet metal, and fiberboard duct board each require different brush speeds and contact pressure to avoid damage. On older systems — and Corona's housing stock includes a meaningful share of homes built in the 1970s and 1980s with original fiberboard ductwork — aggressive brushing can delaminate the interior lining and introduce a new contamination problem.
+The industry standard tool is a truck-mounted or high-powered portable vacuum system connected directly to the main trunk line, creating continuous negative pressure throughout the duct system while technicians use rotary brush agitation tools to break contamination loose from duct walls. Flex duct, sheet metal, and fiberboard duct board each require different brush speeds and contact pressure to avoid damage. On older systems, and Corona's housing stock includes a meaningful share of homes built in the 1970s and 1980s with original fiberboard ductwork, aggressive brushing can delaminate the interior lining and introduce a new contamination problem.
 
-A full residential cleaning typically runs two to four hours for a standard single-story home. Multi-story homes, homes with extensive flex duct runs, or systems that haven't been cleaned in a decade or more will take longer. Dryer vent cleaning is a separate scope and should be done at the same visit when accessible — lint accumulation in dryer exhaust lines is a documented fire cause, and the cleaning method differs from HVAC duct work.
+A full residential cleaning typically runs two to four hours for a standard single-story home. Multi-story homes, homes with extensive flex duct runs, or systems that haven't been cleaned in a decade or more will take longer. Dryer vent cleaning is a separate scope and should be done at the same visit when accessible, lint accumulation in dryer exhaust lines is a documented fire cause, and the cleaning method differs from HVAC duct work.
 
-If microbial growth is confirmed or suspected — visible mold inside a supply plenum, a persistent musty odor after mechanical cleaning — air duct sanitization with an EPA-registered antimicrobial agent applied by ULV fogger is the appropriate follow-on step.
+If microbial growth is confirmed or suspected, visible mold inside a supply plenum, a persistent musty odor after mechanical cleaning, air duct sanitization with an EPA-registered antimicrobial agent applied by ULV fogger is the appropriate follow-on step.
 
 ## Our process
 
-1. **System inspection and photo documentation.** Before any equipment is connected, a technician walks the system — locating every supply and return register, checking the air handler and blower wheel condition, and photographing the interior of accessible duct sections. This establishes baseline contamination and identifies any damaged flex duct, disconnected joints, or signs of moisture intrusion that would change the scope of work.
+1. **System inspection and photo documentation.** Before any equipment is connected, a technician walks the system, locating every supply and return register, checking the air handler and blower wheel condition, and photographing the interior of accessible duct sections. This establishes baseline contamination and identifies any damaged flex duct, disconnected joints, or signs of moisture intrusion that would change the scope of work.
 
-2. **Negative-pressure setup.** The main collection unit connects to the largest accessible trunk line or plenum. All registers are sealed with temporary covers to maintain system-wide negative pressure. This step is what separates a professional cleaning from a blow-and-go — without continuous negative pressure, agitation simply moves debris from one section of duct to another.
+2. **Negative-pressure setup.** The main collection unit connects to the largest accessible trunk line or plenum. All registers are sealed with temporary covers to maintain system-wide negative pressure. This step is what separates a professional cleaning from a blow-and-go, without continuous negative pressure, agitation simply moves debris from one section of duct to another.
 
 3. **Mechanical agitation, section by section.** Technicians work register by register, opening one cover at a time and running rotary brush tools through each branch run back toward the trunk. Supply and return sides are worked separately. The blower compartment and air handler cabinet are hand-cleaned with HEPA-filtered vacuums.
 
@@ -43,13 +43,13 @@ If microbial growth is confirmed or suspected — visible mold inside a supply p
 
 ## What separates a good duct cleaning from a bad one
 
-The most common shortcut in residential duct cleaning is skipping negative pressure entirely — a technician with a portable vacuum and a brush who works register to register without sealing the system is essentially redistributing debris rather than removing it. You may smell a temporary improvement as the surface layer clears, but settled contamination deeper in the trunk lines stays in place.
+The most common shortcut in residential duct cleaning is skipping negative pressure entirely, a technician with a portable vacuum and a brush who works register to register without sealing the system is essentially redistributing debris rather than removing it. You may smell a temporary improvement as the surface layer clears, but settled contamination deeper in the trunk lines stays in place.
 
 A second frequent gap is ignoring the air handler cabinet and blower wheel. The blower wheel accumulates the same debris as the duct walls, and a contaminated blower wheel reintroduces particulates into the airstream immediately after cleaning. Any scope of work that doesn't include the air handler interior is incomplete.
 
-For insurance-related duct cleaning — most often triggered by fire or smoke damage where soot has entered the HVAC system, or by water damage where a flooded air handler has allowed mold to colonize supply lines — adjusters will look for photo documentation of pre- and post-cleaning conditions, the cleaning method used (negative pressure vs. contact vacuum), and whether sanitization was applied and with what registered product. Verbal assurances don't satisfy a supplement request; a written scope with before-and-after photos does.
+For insurance-related duct cleaning, most often triggered by fire or smoke damage where soot has entered the HVAC system, or by water damage where a flooded air handler has allowed mold to colonize supply lines, adjusters will look for photo documentation of pre- and post-cleaning conditions, the cleaning method used (negative pressure vs. contact vacuum), and whether sanitization was applied and with what registered product. Verbal assurances don't satisfy a supplement request; a written scope with before-and-after photos does.
 
-Fiberboard duct board interiors that show active mold growth typically cannot be cleaned to an acceptable standard and require replacement — a scope determination that should be made before cleaning begins, not after a brush run has further damaged the liner.
+Fiberboard duct board interiors that show active mold growth typically cannot be cleaned to an acceptable standard and require replacement, a scope determination that should be made before cleaning begins, not after a brush run has further damaged the liner.
 
 ## What does air duct cleaning cost?
 
@@ -64,21 +64,21 @@ Typical costs for residential HVAC duct cleaning vary based on system size, duct
 | Duct cleaning following smoke or fire damage | $800 – $2,500+ |
 | Fiberboard duct board replacement (per linear foot) | $15 – $35 |
 
-Every system is different, and Dry County Restoration provides a written scope of work before any cleaning begins so you know exactly what is included. Homeowners insurance typically does not cover routine maintenance cleaning, but does cover duct cleaning when it is a documented result of a covered loss — fire, smoke, or water damage that entered the HVAC system.
+Every system is different, and Dry County Restoration provides a written scope of work before any cleaning begins so you know exactly what is included. Homeowners insurance typically does not cover routine maintenance cleaning, but does cover duct cleaning when it is a documented result of a covered loss, fire, smoke, or water damage that entered the HVAC system.
 
 ## Seasonal and regional considerations
 
 In the Inland Empire, HVAC systems run hard. Summers in Corona regularly push past 100°F, meaning air handlers cycle almost continuously from June through September. That sustained runtime accelerates debris accumulation on blower wheels and filter media, and it means any microbial contamination in the duct system has months of warm, circulated air to spread through.
 
-The Santa Ana wind season — typically late fall through early spring — pushes fine particulate matter through every gap in a building envelope. Homes with older duct systems and leaky connections at registers or flex duct joints pull that outdoor particulate directly into return air. After a significant wind event, it's worth checking return-side filters; heavy loading in a short period is a reasonable indicator that the duct interior has taken on debris as well.
+The Santa Ana wind season, typically late fall through early spring, pushes fine particulate matter through every gap in a building envelope. Homes with older duct systems and leaky connections at registers or flex duct joints pull that outdoor particulate directly into return air. After a significant wind event, it's worth checking return-side filters; heavy loading in a short period is a reasonable indicator that the duct interior has taken on debris as well.
 
-Homes built during Corona's major growth periods in the 1980s and 1990s often have original flex duct that has become brittle or partially collapsed over time. Collapsed sections restrict airflow and create pockets where debris settles and moisture can accumulate — a condition worth identifying during the inspection phase before cleaning begins.
+Homes built during Corona's major growth periods in the 1980s and 1990s often have original flex duct that has become brittle or partially collapsed over time. Collapsed sections restrict airflow and create pockets where debris settles and moisture can accumulate, a condition worth identifying during the inspection phase before cleaning begins.
 
 ## Service area
 
 Dry County Restoration is based in Corona and serves communities throughout the Inland Empire and surrounding areas, including Riverside, Norco, Eastvale, Chino Hills, Ontario, Rancho Cucamonga, and the foothill communities to the north and west. Each city-specific service page covers local considerations in more detail.
 
-If your home or property is outside these areas, call (951) 667-9910 — coverage questions are answered directly.
+If your home or property is outside these areas, call (951) 667-9910, coverage questions are answered directly.
 
 ---
 

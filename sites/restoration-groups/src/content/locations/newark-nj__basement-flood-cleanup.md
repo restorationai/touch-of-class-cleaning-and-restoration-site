@@ -20,15 +20,15 @@ state: "NJ"
 service_display: "Basement Flood Cleanup"
 rendered: true
 ---
-When Ida's remnants pushed the Passaic River over its banks in 2021, basements across the Ironbound filled faster than sump pumps could cycle. That kind of flooding — part river surge, part overwhelmed combined sewer — is not a freak event in Newark; it is a recurring pattern written into the city's topography and its aging infrastructure. If your basement is underwater right now, The Restoration Group responds 24/7 and can be on-site from our Kenilworth shop within a short drive up McCarter Highway.
+When Ida's remnants pushed the Passaic River over its banks in 2021, basements across the Ironbound filled faster than sump pumps could cycle. That kind of flooding, part river surge, part overwhelmed combined sewer, is not a freak event in Newark; it is a recurring pattern written into the city's topography and its aging infrastructure. If your basement is underwater right now, The Restoration Group responds 24/7 and can be on-site from our Kenilworth shop within a short drive up McCarter Highway.
 
 ## Why Newark Basements Flood the Way They Do
 
-Newark's combined sewer system — where stormwater and sanitary waste share the same pipes — was engineered for a different era. During heavy rain, those pipes hit capacity quickly, and the pressure relief valve is often your basement floor drain. What comes back up is not clean water. It carries sewage contamination that changes the cleanup classification entirely, requiring disinfection and pathogen control on top of standard water extraction.
+Newark's combined sewer system, where stormwater and sanitary waste share the same pipes, was engineered for a different era. During heavy rain, those pipes hit capacity quickly, and the pressure relief valve is often your basement floor drain. What comes back up is not clean water. It carries sewage contamination that changes the cleanup classification entirely, requiring disinfection and pathogen control on top of standard water extraction.
 
 The city's low-lying neighborhoods compound the problem. The Ironbound district, bounded by the Passaic and the rail yards, sits at an elevation where even moderate storms can produce standing water in below-grade spaces. Weequahic, built largely on former wetland fill, has similar drainage challenges. And across Forest Hill's grand pre-war colonials, original clay-tile drain lines and stone-and-mortar foundation walls absorb groundwater laterally in ways that poured concrete foundations simply do not.
 
-Dense construction adds another layer. In Newark's brick multifamily and two- and three-family frame buildings, a single failed water heater or burst supply riser in a shared utility space can migrate to multiple units before anyone notices. By the time the call comes in, the damage footprint is already vertical — not just the basement slab but the subfloor above it.
+Dense construction adds another layer. In Newark's brick multifamily and two- and three-family frame buildings, a single failed water heater or burst supply riser in a shared utility space can migrate to multiple units before anyone notices. By the time the call comes in, the damage footprint is already vertical, not just the basement slab but the subfloor above it.
 
 ## Our Basement Flood Cleanup Process in Newark
 
@@ -36,26 +36,26 @@ Every job starts with category classification. Sewage-contaminated water (Catego
 
 Once the source is controlled and the space is safe:
 
-- **Extraction** — truck-mounted and portable units pull standing water from the slab, from carpet or flooring assemblies, and from wall cavities where water has wicked upward.
-- **Controlled demolition** — wet drywall, insulation, and baseboards are removed to the flood cut line. In Newark's older buildings, that often means encountering horsehair plaster, asbestos-containing floor tile, or lead paint — materials that require proper handling and, where applicable, notification under NJ Department of Environmental Protection guidelines before disturbance.
-- **Structural drying** — commercial desiccant and refrigerant dehumidifiers, axial air movers, and thermal imaging run continuously. Drying logs are recorded daily and kept in the file for your insurance adjuster.
-- **Disinfection** — EPA-registered antimicrobials applied to all affected surfaces, with particular attention to concrete block foundation walls, which are porous and hold contamination longer than poured walls.
-- **Documentation** — moisture readings, photos, and a scope of work formatted for direct carrier submission.
+- **Extraction**, truck-mounted and portable units pull standing water from the slab, from carpet or flooring assemblies, and from wall cavities where water has wicked upward.
+- **Controlled demolition**, wet drywall, insulation, and baseboards are removed to the flood cut line. In Newark's older buildings, that often means encountering horsehair plaster, asbestos-containing floor tile, or lead paint, materials that require proper handling and, where applicable, notification under NJ Department of Environmental Protection guidelines before disturbance.
+- **Structural drying**, commercial desiccant and refrigerant dehumidifiers, axial air movers, and thermal imaging run continuously. Drying logs are recorded daily and kept in the file for your insurance adjuster.
+- **Disinfection**, EPA-registered antimicrobials applied to all affected surfaces, with particular attention to concrete block foundation walls, which are porous and hold contamination longer than poured walls.
+- **Documentation**, moisture readings, photos, and a scope of work formatted for direct carrier submission.
 
 ## Reaching Newark from Kenilworth
 
-Kenilworth sits just off Route 22, and the fastest path to most Newark ZIP codes runs through the Garden State Parkway or Route 1/9 to McCarter Highway. We cover the full city — from ZIP 07105 in the Ironbound to University Heights and beyond — around the clock. Because we operate 24/7, a call at 2 a.m. after a sewer backup reaches a live dispatcher, not a voicemail.
+Kenilworth sits just off Route 22, and the fastest path to most Newark ZIP codes runs through the Garden State Parkway or Route 1/9 to McCarter Highway. We cover the full city, from ZIP 07105 in the Ironbound to University Heights and beyond, around the clock. Because we operate 24/7, a call at 2 a.m. after a sewer backup reaches a live dispatcher, not a voicemail.
 
 For landlords managing properties near Newark Penn Station or in the arena district, we understand that documentation speed matters as much as drying speed. Insurance-ready reports and board-up services are part of the same response, not a separate scheduling call.
 
 ## Insurance Coordination for Newark Property Owners
 
-Basement flood claims in Newark frequently involve a coverage question that catches owners off guard: standard homeowner's policies often exclude sewer backup unless a specific endorsement was purchased. We photograph and document the point of entry and the contamination category so your adjuster has what they need to evaluate the claim accurately — whether the answer is covered or not, you deserve a clear picture fast.
+Basement flood claims in Newark frequently involve a coverage question that catches owners off guard: standard homeowner's policies often exclude sewer backup unless a specific endorsement was purchased. We photograph and document the point of entry and the contamination category so your adjuster has what they need to evaluate the claim accurately, whether the answer is covered or not, you deserve a clear picture fast.
 
 For landlords and property managers handling multiple units, we can produce per-unit scopes so costs are allocated correctly across policies or across tenant and owner responsibility lines.
 
 ## Local Note
 
-In Newark's older multifamily stock — particularly the brick three-families common through Vailsburg and parts of Weequahic — basement utility rooms often share a wall with the building's original coal-to-gas conversion boiler chase. That chase creates a hidden void that channels water horizontally between units and vertically into wall cavities on the first floor. Thermal imaging catches it; a moisture meter alone will not. It is one of the first places we check in these buildings, and it is consistently where the hidden saturation lives.
+In Newark's older multifamily stock, particularly the brick three-families common through Vailsburg and parts of Weequahic, basement utility rooms often share a wall with the building's original coal-to-gas conversion boiler chase. That chase creates a hidden void that channels water horizontally between units and vertically into wall cavities on the first floor. Thermal imaging catches it; a moisture meter alone will not. It is one of the first places we check in these buildings, and it is consistently where the hidden saturation lives.
 
-If your Newark basement has taken on water — whether from the Passaic pushing back through the drains, a ruptured supply line, or a sump that lost power in a storm — call The Restoration Group at (855) 650-7422. We document, extract, dry, and disinfect to IICRC standards, and we handle the insurance paperwork so you can focus on getting your property back.
+If your Newark basement has taken on water, whether from the Passaic pushing back through the drains, a ruptured supply line, or a sump that lost power in a storm, call The Restoration Group at (855) 650-7422. We document, extract, dry, and disinfect to IICRC standards, and we handle the insurance paperwork so you can focus on getting your property back.

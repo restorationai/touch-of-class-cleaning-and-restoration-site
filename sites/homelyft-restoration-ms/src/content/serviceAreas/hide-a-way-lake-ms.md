@@ -19,13 +19,13 @@ state: "MS"
 primary: false
 rendered: true
 ---
-When water backs up into a Hide-A-Way Lake cabin, smoke settles into the tongue-and-groove paneling of a lakefront cottage, or mold quietly spreads behind a bathroom wall after a slow pipe leak, HomeLyft Restoration MS responds. We handle water damage mitigation, fire and smoke cleanup, mold remediation, and reconstruction for homeowners and property managers throughout Hide-A-Way Lake — working directly with insurance carriers to document losses and move the process forward so you can focus on getting back to normal.
+When water backs up into a Hide-A-Way Lake cabin, smoke settles into the tongue-and-groove paneling of a lakefront cottage, or mold quietly spreads behind a bathroom wall after a slow pipe leak, HomeLyft Restoration MS responds. We handle water damage mitigation, fire and smoke cleanup, mold remediation, and reconstruction for homeowners and property managers throughout Hide-A-Way Lake, working directly with insurance carriers to document losses and move the process forward so you can focus on getting back to normal.
 
 ## Restoration emergencies common in Hide-A-Way Lake
 
-Hide-A-Way Lake sits in the piney hills of Scott County, a private lake community where the combination of Mississippi's humid subtropical climate and the area's heavily wooded lots creates a specific set of conditions that restoration contractors see repeatedly. Summer humidity regularly pushes into the 90-percent range, which means any moisture intrusion — a slow roof leak, a failed water heater, a cracked supply line — can produce visible mold colonization within 24 to 48 hours if the structure isn't dried aggressively and quickly.
+Hide-A-Way Lake sits in the piney hills of Scott County, a private lake community where the combination of Mississippi's humid subtropical climate and the area's heavily wooded lots creates a specific set of conditions that restoration contractors see repeatedly. Summer humidity regularly pushes into the 90-percent range, which means any moisture intrusion, a slow roof leak, a failed water heater, a cracked supply line, can produce visible mold colonization within 24 to 48 hours if the structure isn't dried aggressively and quickly.
 
-The housing stock here skews toward vacation cottages and weekend retreats built in the 1970s through 1990s, many with crawl spaces, older plumbing fittings, and wood-framed construction that absorbs moisture readily. Pier-and-beam foundations common in the area allow ground moisture to wick upward, and after heavy rain events — which Scott County sees regularly from spring squall lines through late-summer tropical moisture — crawl spaces can hold standing water for days if sump systems fail or weren't installed to begin with. Mature pine and hardwood canopy means storm debris and roof damage are also recurring issues, and the resulting water intrusion into attic spaces can go unnoticed until the ceiling shows staining.
+The housing stock here skews toward vacation cottages and weekend retreats built in the 1970s through 1990s, many with crawl spaces, older plumbing fittings, and wood-framed construction that absorbs moisture readily. Pier-and-beam foundations common in the area allow ground moisture to wick upward, and after heavy rain events, which Scott County sees regularly from spring squall lines through late-summer tropical moisture, crawl spaces can hold standing water for days if sump systems fail or weren't installed to begin with. Mature pine and hardwood canopy means storm debris and roof damage are also recurring issues, and the resulting water intrusion into attic spaces can go unnoticed until the ceiling shows staining.
 
 ## Services we provide in Hide-A-Way Lake
 
@@ -35,15 +35,15 @@ Water damage in Hide-A-Way Lake often starts in the crawl space or at the roof l
 
 ### Mold remediation
 
-The combination of older construction, high humidity, and crawl-space moisture makes mold a realistic outcome after almost any water event in Hide-A-Way Lake. We contain affected areas, remove compromised materials, treat structural surfaces, and clear the work area before reconstruction begins. We do not make health claims — what we do is follow established remediation protocols to remove visible mold growth and address the moisture source that allowed it to develop.
+The combination of older construction, high humidity, and crawl-space moisture makes mold a realistic outcome after almost any water event in Hide-A-Way Lake. We contain affected areas, remove compromised materials, treat structural surfaces, and clear the work area before reconstruction begins. We do not make health claims, what we do is follow established remediation protocols to remove visible mold growth and address the moisture source that allowed it to develop.
 
 ### Fire and smoke damage cleanup
 
-Wood-framed lake cottages with decorative paneling, exposed beams, and porous surfaces hold smoke odor deeply. After a fire, the smell of char and smoke residue can penetrate into every cavity if cleanup is delayed. We remove soot from surfaces, treat affected materials with appropriate cleaning agents, and use thermal fogging or hydroxyl treatment for odor — then assess what can be restored versus what needs to be replaced before reconstruction begins.
+Wood-framed lake cottages with decorative paneling, exposed beams, and porous surfaces hold smoke odor deeply. After a fire, the smell of char and smoke residue can penetrate into every cavity if cleanup is delayed. We remove soot from surfaces, treat affected materials with appropriate cleaning agents, and use thermal fogging or hydroxyl treatment for odor, then assess what can be restored versus what needs to be replaced before reconstruction begins.
 
 ### Reconstruction
 
-Once mitigation is complete, HomeLyft Restoration MS can carry the project through to finished reconstruction — replacing drywall, subfloor, trim, cabinetry, or roofing materials as the scope requires. Keeping mitigation and rebuild under one contractor simplifies the insurance claim and reduces the gap time between demo and move-back.
+Once mitigation is complete, HomeLyft Restoration MS can carry the project through to finished reconstruction, replacing drywall, subfloor, trim, cabinetry, or roofing materials as the scope requires. Keeping mitigation and rebuild under one contractor simplifies the insurance claim and reduces the gap time between demo and move-back.
 
 ## Coverage and how fast we can get there
 

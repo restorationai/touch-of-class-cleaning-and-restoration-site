@@ -22,13 +22,13 @@ This privacy policy explains how Dry County Restoration collects, uses, and prot
 
 ## Information We Collect
 
-When you fill out a contact or estimate request form, we collect the details you provide — typically your name, phone number, email address, property address, and a description of the damage you're dealing with. We may also collect basic, non-identifying analytics data (pages visited, browser type, general location at the city or region level) through standard website analytics tools. We do not use tracking pixels, fingerprinting, or behavioral advertising tools.
+When you fill out a contact or estimate request form, we collect the details you provide, typically your name, phone number, email address, property address, and a description of the damage you're dealing with. We may also collect basic, non-identifying analytics data (pages visited, browser type, general location at the city or region level) through standard website analytics tools. We do not use tracking pixels, fingerprinting, or behavioral advertising tools.
 
 ## How We Use Your Information
 
 The information you submit is used for one purpose: helping you. That means responding to your inquiry, scheduling an on-site estimate, documenting loss details for insurance coordination, and following up on open service requests. We do not use your contact information for marketing lists, and we do not sell, rent, or trade your data to third parties.
 
-If you authorize us to work with your insurance carrier — which is common in water, fire, and mold claims — we will share relevant documentation (photos, moisture readings, scope of work) with that carrier on your behalf. That sharing happens only with your explicit authorization, typically captured in your signed work-authorization form.
+If you authorize us to work with your insurance carrier, which is common in water, fire, and mold claims, we will share relevant documentation (photos, moisture readings, scope of work) with that carrier on your behalf. That sharing happens only with your explicit authorization, typically captured in your signed work-authorization form.
 
 ## How Long We Keep Your Information
 
@@ -38,7 +38,7 @@ We retain job-related records for as long as reasonably necessary to fulfill the
 
 If you are a California resident, the California Consumer Privacy Act (CCPA) gives you the right to know what personal information we hold about you, request deletion of that information, and opt out of any sale of your data. Because we do not sell personal data, the opt-out right is already satisfied by our practices. To exercise your right to know or request deletion, contact us at stephen@drycountyrestoration.com. We will acknowledge your request within a reasonable timeframe and respond fully within the period required by law.
 
-Visitors from outside California or outside the United States are welcome to contact us with privacy questions. While GDPR obligations apply primarily to businesses with a meaningful presence in the European Economic Area — which we do not have — we are happy to address any data concerns directly.
+Visitors from outside California or outside the United States are welcome to contact us with privacy questions. While GDPR obligations apply primarily to businesses with a meaningful presence in the European Economic Area, which we do not have, we are happy to address any data concerns directly.
 
 ## Contact for Privacy Questions
 

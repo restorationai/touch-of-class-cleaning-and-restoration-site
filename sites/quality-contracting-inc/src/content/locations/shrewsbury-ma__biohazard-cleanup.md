@@ -21,15 +21,15 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
-When something traumatic or hazardous happens inside a Shrewsbury home — whether in a lakefront property along Lake Quinsigamond or a postwar cape off the Route 9 corridor — the last thing a family should have to manage is the cleanup. Biohazard situations demand trained technicians, proper containment, and legally compliant disposal. Quality Contracting, Inc. handles that work quietly and thoroughly, so residents in the 01545 ZIP code and surrounding areas can focus on what actually matters.
+When something traumatic or hazardous happens inside a Shrewsbury home, whether in a lakefront property along Lake Quinsigamond or a postwar cape off the Route 9 corridor, the last thing a family should have to manage is the cleanup. Biohazard situations demand trained technicians, proper containment, and legally compliant disposal. Quality Contracting, Inc. handles that work quietly and thoroughly, so residents in the 01545 ZIP code and surrounding areas can focus on what actually matters.
 
 ## Why Shrewsbury Properties Present Unique Biohazard Challenges
 
 Shrewsbury's housing stock is a mix of postwar capes and ranches, newer subdivisions, and lakefront homes built close to the water table along Lake Quinsigamond. That variety matters for biohazard remediation in ways that aren't obvious at first glance.
 
-Older homes — particularly those built in the 1950s and 1960s in neighborhoods like Edgemere — often have unfinished or partially finished basements with concrete block walls and unsealed slab floors. Porous concrete absorbs biological material more readily than modern sealed surfaces, which means standard surface cleaning isn't enough. Remediation in these spaces requires deeper treatment and careful verification testing before the area can be cleared.
+Older homes, particularly those built in the 1950s and 1960s in neighborhoods like Edgemere, often have unfinished or partially finished basements with concrete block walls and unsealed slab floors. Porous concrete absorbs biological material more readily than modern sealed surfaces, which means standard surface cleaning isn't enough. Remediation in these spaces requires deeper treatment and careful verification testing before the area can be cleared.
 
-Lakefront properties near the White City area add another layer of complexity. High water tables mean basement humidity is already elevated year-round, which accelerates the breakdown of organic material and increases the risk of secondary contamination spreading into adjacent building materials. Prompt response and proper containment aren't just best practices here — they're essential.
+Lakefront properties near the White City area add another layer of complexity. High water tables mean basement humidity is already elevated year-round, which accelerates the breakdown of organic material and increases the risk of secondary contamination spreading into adjacent building materials. Prompt response and proper containment aren't just best practices here, they're essential.
 
 ## Our Biohazard Cleanup Process in Shrewsbury
 
@@ -37,26 +37,26 @@ Every biohazard situation is different, and we approach each one with a site-spe
 
 **Assessment and containment** come first. Technicians evaluate the affected area, establish containment barriers, and put on appropriate personal protective equipment before any work begins. This protects both the occupants and the crew.
 
-**Removal of affected materials** follows. Depending on the surfaces involved — drywall, flooring, subfloor, concrete — some materials can be cleaned and treated in place; others need to be carefully bagged and removed as regulated waste. Sharps and needle cleanup follows strict handling protocols, with puncture-resistant containers and chain-of-custody documentation for disposal.
+**Removal of affected materials** follows. Depending on the surfaces involved, drywall, flooring, subfloor, concrete, some materials can be cleaned and treated in place; others need to be carefully bagged and removed as regulated waste. Sharps and needle cleanup follows strict handling protocols, with puncture-resistant containers and chain-of-custody documentation for disposal.
 
-**Cleaning, disinfection, and deodorization** address both visible contamination and microbial presence. Hospital-grade disinfectants are applied to all affected surfaces, and where odor is a concern, we use equipment calibrated to neutralize — not just mask — the source.
+**Cleaning, disinfection, and deodorization** address both visible contamination and microbial presence. Hospital-grade disinfectants are applied to all affected surfaces, and where odor is a concern, we use equipment calibrated to neutralize, not just mask, the source.
 
 **Verification** closes the job. We don't consider a space clean because it looks clean. Post-remediation testing or visual inspection confirms the area meets safe re-occupancy standards before we leave the site.
 
 ## Reaching Shrewsbury from Our Auburn Location
 
-Quality Contracting, Inc. is based in Auburn, which puts Shrewsbury well within our regular service area. The most direct route follows Route 20 east to Route 9 east across the Kenneth F. Burns Memorial Bridge — the same bridge that connects Worcester to Shrewsbury over Lake Quinsigamond. From there, we can reach properties near Town Center, the Route 9 commercial corridor, and residential streets throughout the town without navigating significant traffic delays outside of peak commute hours.
+Quality Contracting, Inc. is based in Auburn, which puts Shrewsbury well within our regular service area. The most direct route follows Route 20 east to Route 9 east across the Kenneth F. Burns Memorial Bridge, the same bridge that connects Worcester to Shrewsbury over Lake Quinsigamond. From there, we can reach properties near Town Center, the Route 9 commercial corridor, and residential streets throughout the town without navigating significant traffic delays outside of peak commute hours.
 
 When you call (508) 756-8800, we'll confirm scheduling and give you a realistic arrival window based on current conditions.
 
 ## Insurance Coordination for Shrewsbury Homeowners
 
-Many biohazard cleanup situations are covered — at least partially — under standard homeowners insurance policies, depending on the cause and the carrier. We work directly with insurance adjusters, providing detailed documentation of affected areas, materials removed, and methods used. That paper trail matters when a claim is being reviewed, and we've found that thorough documentation leads to smoother reimbursement for property owners.
+Many biohazard cleanup situations are covered, at least partially, under standard homeowners insurance policies, depending on the cause and the carrier. We work directly with insurance adjusters, providing detailed documentation of affected areas, materials removed, and methods used. That paper trail matters when a claim is being reviewed, and we've found that thorough documentation leads to smoother reimbursement for property owners.
 
 If you're unsure whether your policy covers the situation, we can walk you through what documentation to request from your carrier before work begins. We bill most major carriers directly, reducing the out-of-pocket burden during an already difficult time.
 
 ## Local Note
 
-Shrewsbury runs its own municipal electric utility — SELCO — rather than relying on Eversource or National Grid. That's worth mentioning because biohazard cleanup in basement spaces sometimes requires temporary power isolation before technicians can safely work near electrical panels or outlets in wet or contaminated areas. When a utility shutoff is needed, coordinating with SELCO rather than a regional provider means a different call, a different dispatch process, and sometimes a different timeline. We account for that in our site planning so there are no surprises on the day of service.
+Shrewsbury runs its own municipal electric utility, SELCO, rather than relying on Eversource or National Grid. That's worth mentioning because biohazard cleanup in basement spaces sometimes requires temporary power isolation before technicians can safely work near electrical panels or outlets in wet or contaminated areas. When a utility shutoff is needed, coordinating with SELCO rather than a regional provider means a different call, a different dispatch process, and sometimes a different timeline. We account for that in our site planning so there are no surprises on the day of service.
 
-If you're dealing with a biohazard situation anywhere in Shrewsbury — from a lakefront property along Lake Quinsigamond to a home near Dean Park — call Quality Contracting, Inc. at (508) 756-8800. We handle the logistics with discretion, document everything your insurance company needs, and restore the space so you can move forward.
+If you're dealing with a biohazard situation anywhere in Shrewsbury, from a lakefront property along Lake Quinsigamond to a home near Dean Park, call Quality Contracting, Inc. at (508) 756-8800. We handle the logistics with discretion, document everything your insurance company needs, and restore the space so you can move forward.

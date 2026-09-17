@@ -19,42 +19,42 @@ state: "MS"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall or a storm pushes water under a crawl space door in Eastabuchie, HomeLyft Restoration MS responds with the equipment and trained crew to stop the damage from compounding. We handle water extraction, structural drying, mold assessment, fire and smoke cleanup, and full reconstruction for homeowners and property managers throughout this part of Jones County — treating each job as the emergency it is, not as a work order to schedule around.
+When a pipe bursts behind a wall or a storm pushes water under a crawl space door in Eastabuchie, HomeLyft Restoration MS responds with the equipment and trained crew to stop the damage from compounding. We handle water extraction, structural drying, mold assessment, fire and smoke cleanup, and full reconstruction for homeowners and property managers throughout this part of Jones County, treating each job as the emergency it is, not as a work order to schedule around.
 
 ## Restoration emergencies common in Eastabuchie
 
 Eastabuchie sits in the humid subtropical belt of south-central Mississippi, where summer humidity rarely drops low enough for building materials to dry on their own after a water event. That climate detail matters: a slow roof leak or an appliance overflow that might dry out in a drier region will feed active mold colonization here within 24 to 48 hours if the structure isn't mechanically dried. The area's housing stock skews toward pier-and-beam construction and older wood-frame homes, both of which absorb moisture quickly and hide it in subfloor assemblies and wall cavities long after the visible water is gone.
 
-Jones County also sits over a shallow water table in many low-lying sections, which means groundwater intrusion is a genuine risk after heavy rainfall events — not just surface flooding from overflowing drainage. Severe thunderstorms and the outer bands of Gulf Coast hurricanes push through this corridor regularly, leaving behind roof damage, wind-driven rain infiltration, and occasionally the kind of structural fire that starts when a generator is misused after a power outage. These aren't hypothetical risks; they're the calls we actually receive from this area.
+Jones County also sits over a shallow water table in many low-lying sections, which means groundwater intrusion is a genuine risk after heavy rainfall events, not just surface flooding from overflowing drainage. Severe thunderstorms and the outer bands of Gulf Coast hurricanes push through this corridor regularly, leaving behind roof damage, wind-driven rain infiltration, and occasionally the kind of structural fire that starts when a generator is misused after a power outage. These aren't hypothetical risks; they're the calls we actually receive from this area.
 
 ## Services we provide in Eastabuchie
 
 ### Water damage restoration
 
-Water damage in Eastabuchie frequently involves subfloor saturation — the kind that doesn't announce itself until flooring starts to buckle or a musty odor builds up in a closed room. We use thermal imaging and moisture meters to map the full extent of the intrusion before any drying equipment is placed, then run industrial dehumidifiers and air movers calibrated to the actual humidity conditions on-site. Drying logs are documented throughout the process so your insurance adjuster has a clear record.
+Water damage in Eastabuchie frequently involves subfloor saturation, the kind that doesn't announce itself until flooring starts to buckle or a musty odor builds up in a closed room. We use thermal imaging and moisture meters to map the full extent of the intrusion before any drying equipment is placed, then run industrial dehumidifiers and air movers calibrated to the actual humidity conditions on-site. Drying logs are documented throughout the process so your insurance adjuster has a clear record.
 
 ### Mold remediation
 
-The combination of Eastabuchie's climate and older housing stock creates favorable conditions for mold growth inside wall cavities, under subflooring, and in crawl spaces. Our team follows established remediation protocols to contain affected areas, remove compromised materials, and treat surfaces — then verify clearance before reconstruction begins. We don't offer medical advice about exposure, but we do work carefully to return the structure to a condition that meets industry remediation standards.
+The combination of Eastabuchie's climate and older housing stock creates favorable conditions for mold growth inside wall cavities, under subflooring, and in crawl spaces. Our team follows established remediation protocols to contain affected areas, remove compromised materials, and treat surfaces, then verify clearance before reconstruction begins. We don't offer medical advice about exposure, but we do work carefully to return the structure to a condition that meets industry remediation standards.
 
 ### Fire and smoke damage cleanup
 
-Smoke residue from a kitchen fire or an electrical fault travels farther than the char marks suggest — into HVAC ductwork, inside cabinet interiors, and deep into porous wall finishes. In Eastabuchie homes with older construction and less airtight envelopes, that migration can be significant. We assess the full smoke path, not just the room of origin, before cleaning and deodorizing.
+Smoke residue from a kitchen fire or an electrical fault travels farther than the char marks suggest, into HVAC ductwork, inside cabinet interiors, and deep into porous wall finishes. In Eastabuchie homes with older construction and less airtight envelopes, that migration can be significant. We assess the full smoke path, not just the room of origin, before cleaning and deodorizing.
 
 ### Reconstruction
 
-Once mitigation is complete, the same team that dried or cleaned the structure can carry the project through to finished reconstruction — replacing drywall, subflooring, insulation, and trim so the property is livable again without a gap between the remediation contractor and a separate general contractor.
+Once mitigation is complete, the same team that dried or cleaned the structure can carry the project through to finished reconstruction, replacing drywall, subflooring, insulation, and trim so the property is livable again without a gap between the remediation contractor and a separate general contractor.
 
 ## Coverage and how fast we can get there
 
-HomeLyft Restoration MS operates out of Gulfport on the Gulf Coast. Eastabuchie is roughly 80 miles north via US-49, a route our crews travel regularly for Jones County calls. Depending on traffic and time of day, that's a meaningful drive — we won't pretend otherwise. What we can tell you is that we dispatch promptly when a call comes in, and we arrive with a fully loaded service vehicle rather than sending someone ahead to assess before equipment follows. For scheduling and availability, call us directly at (228) 284-5200 so we can give you an honest arrival window based on current crew location.
+HomeLyft Restoration MS operates out of Gulfport on the Gulf Coast. Eastabuchie is roughly 80 miles north via US-49, a route our crews travel regularly for Jones County calls. Depending on traffic and time of day, that's a meaningful drive, we won't pretend otherwise. What we can tell you is that we dispatch promptly when a call comes in, and we arrive with a fully loaded service vehicle rather than sending someone ahead to assess before equipment follows. For scheduling and availability, call us directly at (228) 284-5200 so we can give you an honest arrival window based on current crew location.
 
 ## Building stock, site conditions, and permits in Eastabuchie
 
-Eastabuchie is unincorporated, so building permits and inspections for structural repair or rebuild come through Jones County rather than a city hall — worth knowing before anyone opens a wall. In practice, replacing framing, roof structure, or electrical after a loss triggers permitting, while like-for-like drywall and flooring generally does not.
+Eastabuchie is unincorporated, so building permits and inspections for structural repair or rebuild come through Jones County rather than a city hall, worth knowing before anyone opens a wall. In practice, replacing framing, roof structure, or electrical after a loss triggers permitting, while like-for-like drywall and flooring generally does not.
 
 Mid-century homes here often pair galvanized supply lines with cast iron drains; both fail from the inside out, so the first sign is usually a stain, not a spray. Houses built before 1980 can hold asbestos in vinyl floor tile and joint compound, and pre-1978 paint gets treated as lead-bearing until testing says otherwise.
 
 Across the Pine Belt, sandy surface soils sit over denser clay, which lets rainwater perch under a house instead of draining. Hard freezes are brief but do split exposed pipes in vented crawl spaces.
 
-If you're dealing with water, fire, mold, or storm damage at a property in Eastabuchie, call HomeLyft Restoration MS at **(228) 284-5200**. We'll tell you exactly what we can do, what the timeline looks like, and what your insurance options are — before any work begins.
+If you're dealing with water, fire, mold, or storm damage at a property in Eastabuchie, call HomeLyft Restoration MS at **(228) 284-5200**. We'll tell you exactly what we can do, what the timeline looks like, and what your insurance options are, before any work begins.

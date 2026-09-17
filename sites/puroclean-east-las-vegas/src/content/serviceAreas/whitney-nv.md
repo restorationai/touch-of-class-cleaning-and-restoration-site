@@ -19,27 +19,27 @@ state: "NV"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall in Whitney Ranch or a slow roof leak finally saturates the drywall above a Winterwood living room, PuroClean of East Las Vegas handles the extraction, drying, and structural work from start to finish — coordinating directly with your insurance carrier so you're not managing the paperwork while your home is still wet.
+When a pipe bursts behind a wall in Whitney Ranch or a slow roof leak finally saturates the drywall above a Winterwood living room, PuroClean of East Las Vegas handles the extraction, drying, and structural work from start to finish, coordinating directly with your insurance carrier so you're not managing the paperwork while your home is still wet.
 
 ## Restoration emergencies common in Whitney
 
 Whitney sits in the 89122 and 89142 ZIP codes, a stretch of the Las Vegas Valley where the housing stock skews toward late-1970s through early-1990s slab-on-grade construction. That era of building means original copper supply lines that have now been in service for 30 to 45 years, water heaters tucked into interior closets with no drain pan, and HVAC systems that pull unconditioned air through attic spaces that routinely hit 150°F in July. The combination creates predictable failure points: pinhole leaks inside walls, condensation-driven moisture in ductwork, and sudden water heater failures that flood adjacent rooms before anyone notices.
 
-The Mojave climate adds its own pressure. Summer monsoon moisture — rare but intense — can overwhelm flat or low-slope roofs that were never designed for standing water. When that moisture sits for even 24 to 48 hours, mold colonization begins. Along the East Tropicana corridor, older strip-commercial and mixed-use buildings face the same timeline. Boulder Highway properties, many of them converted from mid-century motel stock, carry decades of deferred maintenance that makes a single water event cascade quickly through multiple units.
+The Mojave climate adds its own pressure. Summer monsoon moisture, rare but intense, can overwhelm flat or low-slope roofs that were never designed for standing water. When that moisture sits for even 24 to 48 hours, mold colonization begins. Along the East Tropicana corridor, older strip-commercial and mixed-use buildings face the same timeline. Boulder Highway properties, many of them converted from mid-century motel stock, carry decades of deferred maintenance that makes a single water event cascade quickly through multiple units.
 
 ## Services we provide in Whitney
 
 ### Water damage restoration
 
-Water damage in Whitney most often starts small — a slow supply-line drip, a failed ice-maker connection, a clogged condensate drain — and goes undetected until flooring buckles or a ceiling stain appears. We use thermal imaging and moisture meters to map exactly how far water has migrated through the slab or framing before we set drying equipment. That matters in Whitney Ranch, where open floor plans mean a single event can affect three or four rooms before it surfaces visually.
+Water damage in Whitney most often starts small, a slow supply-line drip, a failed ice-maker connection, a clogged condensate drain, and goes undetected until flooring buckles or a ceiling stain appears. We use thermal imaging and moisture meters to map exactly how far water has migrated through the slab or framing before we set drying equipment. That matters in Whitney Ranch, where open floor plans mean a single event can affect three or four rooms before it surfaces visually.
 
 ### Mold remediation
 
-With summer humidity spikes and homes that are often sealed tight against the heat, mold can establish in wall cavities within days of a water event. We contain the affected area, remove compromised materials, and treat surfaces following established remediation protocols. We do not make health claims about air quality outcomes — but we do document conditions before and after work so you have a clear record for your insurer or HOA.
+With summer humidity spikes and homes that are often sealed tight against the heat, mold can establish in wall cavities within days of a water event. We contain the affected area, remove compromised materials, and treat surfaces following established remediation protocols. We do not make health claims about air quality outcomes, but we do document conditions before and after work so you have a clear record for your insurer or HOA.
 
 ### Fire and smoke damage restoration
 
-Kitchen fires are the most common call we get after water damage in this part of the valley. Smoke residue in Whitney homes travels fast through shared HVAC systems, embedding in insulation and cabinetry well beyond the room of origin. We clean and deodorize structural surfaces, contents, and ductwork — not just the visible char.
+Kitchen fires are the most common call we get after water damage in this part of the valley. Smoke residue in Whitney homes travels fast through shared HVAC systems, embedding in insulation and cabinetry well beyond the room of origin. We clean and deodorize structural surfaces, contents, and ductwork, not just the visible char.
 
 ### Biohazard and specialty cleanup
 
@@ -47,11 +47,11 @@ For unattended situations, sewage backups, or other biohazard events in Whitney'
 
 ## Coverage and how fast we can get there
 
-Our East Las Vegas base puts Whitney directly in our primary service zone. Whitney Ranch, in the southeastern portion of the 89122 ZIP code, is a straightforward run south on Pecos Road or east via Flamingo — typically a short drive under normal traffic. Winterwood and the East Tropicana corridor are similarly close via Tropicana Avenue heading east from our location. We do not publish a minute guarantee, but Whitney is not a distant suburb — it is adjacent territory, and we prioritize it accordingly. Call us at (702) 551-3040 to confirm current scheduling and availability.
+Our East Las Vegas base puts Whitney directly in our primary service zone. Whitney Ranch, in the southeastern portion of the 89122 ZIP code, is a straightforward run south on Pecos Road or east via Flamingo, typically a short drive under normal traffic. Winterwood and the East Tropicana corridor are similarly close via Tropicana Avenue heading east from our location. We do not publish a minute guarantee, but Whitney is not a distant suburb, it is adjacent territory, and we prioritize it accordingly. Call us at (702) 551-3040 to confirm current scheduling and availability.
 
 ## Building stock, site conditions, and permits in Whitney
 
-Whitney is unincorporated Clark County, so structural repairs and rebuilds are permitted through Clark County Building and Fire Prevention rather than the City of Las Vegas or Henderson — worth knowing before anyone starts opening walls. Reframing, re-roofing, and electrical or gas work generally trigger a permit; cosmetic drywall replacement usually does not.
+Whitney is unincorporated Clark County, so structural repairs and rebuilds are permitted through Clark County Building and Fire Prevention rather than the City of Las Vegas or Henderson, worth knowing before anyone starts opening walls. Reframing, re-roofing, and electrical or gas work generally trigger a permit; cosmetic drywall replacement usually does not.
 
 The typical assembly here is wood frame with stucco over paper and wire lath, sitting on a slab poured over compacted desert soil with caliche often close beneath. Stucco holds water against sheathing long after the surface looks dry, so exterior walls need meter readings, not visual checks. Because there are no basements or crawlspaces, water spreads flat and wicks up into baseboards and bottom plates.
 

@@ -19,27 +19,27 @@ state: "CA"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall or a kitchen fire leaves smoke embedded in every surface, Templeton property owners need a restoration crew that knows the area — not a dispatch center routing a stranger from hours away. Coastal Restoration Services Inc handles water damage mitigation, fire and smoke cleanup, mold remediation, and structural drying for homes and commercial properties throughout Templeton and the surrounding Paso Robles Wine Country corridor. Call us at **(805) 345-7440** to talk through what you're dealing with.
+When a pipe bursts behind a wall or a kitchen fire leaves smoke embedded in every surface, Templeton property owners need a restoration crew that knows the area, not a dispatch center routing a stranger from hours away. Coastal Restoration Services Inc handles water damage mitigation, fire and smoke cleanup, mold remediation, and structural drying for homes and commercial properties throughout Templeton and the surrounding Paso Robles Wine Country corridor. Call us at **(805) 345-7440** to talk through what you're dealing with.
 
 ## Restoration emergencies common in Templeton
 
 Templeton sits in a transitional climate zone where hot, dry summers give way to wet winters that can drop several inches of rain in a single storm event. That seasonal swing creates a predictable cycle of restoration work: summer wildfire smoke infiltrates older ranch-style homes and the area's wood-frame agricultural structures, while winter storms expose aging rooflines, clay-soil drainage problems, and crawl spaces that were never designed for standing water.
 
-The housing stock here skews toward single-story ranch homes and custom builds on larger parcels — many constructed in the 1970s and 1980s with materials that complicate restoration. Galvanized supply lines in older homes corrode quietly for years before a pinhole leak saturates a subfloor over a weekend. Homes with pier-and-beam or raised foundations are especially vulnerable: once moisture gets under the house, mold can begin colonizing wood framing within 24 to 48 hours of a leak event. Templeton's agricultural character also means some properties include detached structures — barns, equipment buildings, converted ADUs — that carry their own restoration challenges and may fall under different county permit requirements than the primary residence.
+The housing stock here skews toward single-story ranch homes and custom builds on larger parcels, many constructed in the 1970s and 1980s with materials that complicate restoration. Galvanized supply lines in older homes corrode quietly for years before a pinhole leak saturates a subfloor over a weekend. Homes with pier-and-beam or raised foundations are especially vulnerable: once moisture gets under the house, mold can begin colonizing wood framing within 24 to 48 hours of a leak event. Templeton's agricultural character also means some properties include detached structures, barns, equipment buildings, converted ADUs, that carry their own restoration challenges and may fall under different county permit requirements than the primary residence.
 
 ## Services we provide in Templeton
 
 ### Water damage mitigation and structural drying
 
-Water damage in Templeton often starts small and spreads fast. A slow roof leak during a January atmospheric river, a failed water heater in a laundry closet, an irrigation line that backs up into a crawl space — by the time the damage is visible, moisture has usually traveled further than it looks. We extract standing water, map moisture with thermal imaging and calibrated meters, and dry structural assemblies to documented standards so you're not left with hidden wet framing behind new drywall.
+Water damage in Templeton often starts small and spreads fast. A slow roof leak during a January atmospheric river, a failed water heater in a laundry closet, an irrigation line that backs up into a crawl space, by the time the damage is visible, moisture has usually traveled further than it looks. We extract standing water, map moisture with thermal imaging and calibrated meters, and dry structural assemblies to documented standards so you're not left with hidden wet framing behind new drywall.
 
 ### Fire and smoke damage restoration
 
-Wildfire smoke from the hills east and west of Templeton can infiltrate a home even when the structure itself is untouched. Smoke residue bonds to porous surfaces — insulation, drywall, wood cabinetry — and the odor returns for months if it isn't chemically neutralized, not just masked. For homes with actual fire damage, we assess structural integrity, remove charred materials, and coordinate the documentation your insurance adjuster needs to move the claim forward.
+Wildfire smoke from the hills east and west of Templeton can infiltrate a home even when the structure itself is untouched. Smoke residue bonds to porous surfaces, insulation, drywall, wood cabinetry, and the odor returns for months if it isn't chemically neutralized, not just masked. For homes with actual fire damage, we assess structural integrity, remove charred materials, and coordinate the documentation your insurance adjuster needs to move the claim forward.
 
 ### Mold remediation
 
-Templeton's combination of older construction and wet winters creates real mold risk, particularly in crawl spaces, bathrooms with inadequate ventilation, and around window frames on north-facing walls. We locate the moisture source, contain the affected area, remove compromised materials, and treat surfaces — because mold remediation without fixing the underlying water intrusion is a short-term answer to a recurring problem.
+Templeton's combination of older construction and wet winters creates real mold risk, particularly in crawl spaces, bathrooms with inadequate ventilation, and around window frames on north-facing walls. We locate the moisture source, contain the affected area, remove compromised materials, and treat surfaces, because mold remediation without fixing the underlying water intrusion is a short-term answer to a recurring problem.
 
 ### Contents and structure pack-out
 
@@ -47,7 +47,7 @@ For significant losses, we can pack out and inventory salvageable contents, stor
 
 ## Coverage and how fast we can get there
 
-Coastal Restoration Services Inc is headquartered in Vandenberg Village, roughly 45 miles southwest of Templeton via US-101 North. The drive runs through Santa Maria and San Luis Obispo before reaching the Templeton exit — a straightforward freeway route with no mountain passes or seasonal closures to contend with. For properties farther north toward the Templeton town center or east toward the rural parcels off Vineyard Drive, travel time from our HQ is typically under an hour under normal traffic conditions. We serve all of Templeton's ZIP codes, **93465** included, and cover the broader North County SLO corridor regularly. Call **(805) 345-7440** to confirm scheduling and get a crew moving toward your property.
+Coastal Restoration Services Inc is headquartered in Vandenberg Village, roughly 45 miles southwest of Templeton via US-101 North. The drive runs through Santa Maria and San Luis Obispo before reaching the Templeton exit, a straightforward freeway route with no mountain passes or seasonal closures to contend with. For properties farther north toward the Templeton town center or east toward the rural parcels off Vineyard Drive, travel time from our HQ is typically under an hour under normal traffic conditions. We serve all of Templeton's ZIP codes, **93465** included, and cover the broader North County SLO corridor regularly. Call **(805) 345-7440** to confirm scheduling and get a crew moving toward your property.
 
 ## Building stock, site conditions, and permits in Templeton
 
@@ -57,4 +57,4 @@ Assembly matters once things get wet. Stucco over wood frame holds moisture agai
 
 Many rural parcels here run on private septic, which limits where extracted water can go.
 
-If you're dealing with water, fire, smoke, or mold damage at a Templeton property, the next step is a phone call. Reach Coastal Restoration Services Inc at **(805) 345-7440** and describe what you're seeing — we'll tell you honestly what it sounds like and what the response looks like from here.
+If you're dealing with water, fire, smoke, or mold damage at a Templeton property, the next step is a phone call. Reach Coastal Restoration Services Inc at **(805) 345-7440** and describe what you're seeing, we'll tell you honestly what it sounds like and what the response looks like from here.

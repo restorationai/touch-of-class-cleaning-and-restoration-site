@@ -24,22 +24,22 @@ Merkel sits in the heart of Taylor County where the West Texas wind doesn't ask 
 
 ## Why Merkel Homes Have Their Own Renovation Challenges
 
-Taylor County's climate is hard on structures in ways that show up the moment you open a wall. The region cycles between extended dry spells and sudden, intense rainfall — a combination that causes expansive clay soils to shrink and swell beneath foundations. In Merkel's older housing stock, that movement has often worked its way into door frames that no longer square, floor systems that have settled unevenly, and exterior masonry with hairline cracks that let moisture migrate inward. A remodel that doesn't account for these underlying conditions is just cosmetic work on a moving target.
+Taylor County's climate is hard on structures in ways that show up the moment you open a wall. The region cycles between extended dry spells and sudden, intense rainfall, a combination that causes expansive clay soils to shrink and swell beneath foundations. In Merkel's older housing stock, that movement has often worked its way into door frames that no longer square, floor systems that have settled unevenly, and exterior masonry with hairline cracks that let moisture migrate inward. A remodel that doesn't account for these underlying conditions is just cosmetic work on a moving target.
 
-Wind exposure is the other constant. Merkel's position on the open plains means rooflines, fascia boards, and exterior trim take sustained punishment. When a renovation touches an exterior wall — adding a window, re-siding, updating an entryway — the framing and weatherproofing details matter more here than they would in a sheltered urban neighborhood. We frame and seal with West Texas wind loads in mind, not generic regional averages.
+Wind exposure is the other constant. Merkel's position on the open plains means rooflines, fascia boards, and exterior trim take sustained punishment. When a renovation touches an exterior wall, adding a window, re-siding, updating an entryway, the framing and weatherproofing details matter more here than they would in a sheltered urban neighborhood. We frame and seal with West Texas wind loads in mind, not generic regional averages.
 
 ## Our Renovation and General Contracting Process in Merkel
 
-Every project starts with a thorough walkthrough — not just of the rooms being updated, but of the systems and structure behind them. In a home that's been through storm damage or a water loss, that pre-construction assessment often surfaces conditions that need to be addressed before finish work begins: subfloor saturation that dried at the surface but left the joists compromised, smoke residue inside wall cavities, or insulation that was never replaced after a prior repair.
+Every project starts with a thorough walkthrough, not just of the rooms being updated, but of the systems and structure behind them. In a home that's been through storm damage or a water loss, that pre-construction assessment often surfaces conditions that need to be addressed before finish work begins: subfloor saturation that dried at the surface but left the joists compromised, smoke residue inside wall cavities, or insulation that was never replaced after a prior repair.
 
 From there, the process follows a clear sequence:
 
-- **Scope and permitting** — We identify what Taylor County and the City of Merkel require for the work involved and handle the permit coordination so the project moves without regulatory delays.
-- **Structural and mechanical rough-in** — Framing corrections, plumbing rough-in, and electrical work are completed and inspected before any finish surfaces go in.
-- **Finish and fixture installation** — Cabinetry, tile, flooring, fixtures, and trim are installed to the agreed specification. We source materials with the local climate in mind — finishes that hold up to low humidity in winter and high heat in summer.
-- **Final walkthrough and punch list** — Nothing is closed out until every item on the punch list is resolved and you've walked the space yourself.
+- **Scope and permitting**, We identify what Taylor County and the City of Merkel require for the work involved and handle the permit coordination so the project moves without regulatory delays.
+- **Structural and mechanical rough-in**, Framing corrections, plumbing rough-in, and electrical work are completed and inspected before any finish surfaces go in.
+- **Finish and fixture installation**, Cabinetry, tile, flooring, fixtures, and trim are installed to the agreed specification. We source materials with the local climate in mind, finishes that hold up to low humidity in winter and high heat in summer.
+- **Final walkthrough and punch list**, Nothing is closed out until every item on the punch list is resolved and you've walked the space yourself.
 
-For post-damage rebuilds, our background in IICRC-certified restoration means we understand what a structure has been through before the first nail goes in — which changes how we approach the rebuild from the ground up.
+For post-damage rebuilds, our background in IICRC-certified restoration means we understand what a structure has been through before the first nail goes in, which changes how we approach the rebuild from the ground up.
 
 ## Reaching Merkel from Abilene
 
@@ -47,6 +47,6 @@ Our base in Abilene puts Merkel well within our regular service area. The drive 
 
 ## Local Note
 
-One thing that catches out-of-area contractors working in Merkel: the older ranch-style homes common to this part of Taylor County were frequently built on pier-and-beam foundations with crawl spaces that have never been properly sealed or ventilated. When a bathroom or laundry remodel involves new plumbing, what's underneath the floor matters. We always inspect the crawl space condition before roughing in new lines — because a plumbing run installed over a deteriorated pier-and-beam system is a callback waiting to happen, especially after the soil movement that follows a dry summer.
+One thing that catches out-of-area contractors working in Merkel: the older ranch-style homes common to this part of Taylor County were frequently built on pier-and-beam foundations with crawl spaces that have never been properly sealed or ventilated. When a bathroom or laundry remodel involves new plumbing, what's underneath the floor matters. We always inspect the crawl space condition before roughing in new lines, because a plumbing run installed over a deteriorated pier-and-beam system is a callback waiting to happen, especially after the soil movement that follows a dry summer.
 
-If you're ready to move forward on a renovation, remodel, or post-damage rebuild in Merkel, call Air Care Restoration at (325) 339-8723 and let's talk through what your project actually needs — not a templated estimate, but a real conversation about your home and what it's been through.
+If you're ready to move forward on a renovation, remodel, or post-damage rebuild in Merkel, call Air Care Restoration at (325) 339-8723 and let's talk through what your project actually needs, not a templated estimate, but a real conversation about your home and what it's been through.

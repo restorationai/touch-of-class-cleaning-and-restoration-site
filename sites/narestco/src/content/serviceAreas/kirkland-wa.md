@@ -19,13 +19,13 @@ state: "WA"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall or smoke settles into the framing of your home, the last thing you need is a contractor who has to look up where Kirkland is. National Restoration Construction has been responding to water, fire, mold, and biohazard emergencies across the greater Seattle area since 2004. We dispatch from Federal Way and reach Kirkland addresses quickly — day or night — with licensed technicians, IICRC-certified crews, and the equipment to stop damage from compounding while you figure out what comes next.
+When a pipe bursts behind a wall or smoke settles into the framing of your home, the last thing you need is a contractor who has to look up where Kirkland is. National Restoration Construction has been responding to water, fire, mold, and biohazard emergencies across the greater Seattle area since 2004. We dispatch from Federal Way and reach Kirkland addresses quickly, day or night, with licensed technicians, IICRC-certified crews, and the equipment to stop damage from compounding while you figure out what comes next.
 
 ## Restoration services we provide in Kirkland
 
 ### Water damage restoration
 
-Kirkland's wet winters and aging housing stock — a lot of it built during the 1960s–80s boom around the eastern Lake Washington shoreline — mean burst pipes, failed supply lines, and roof leaks are a recurring reality. We extract standing water, place industrial drying equipment, and monitor moisture levels in walls and subfloors until the structure reaches dry standard. The goal is to prevent the secondary problem that follows every water event: mold.
+Kirkland's wet winters and aging housing stock, a lot of it built during the 1960s–80s boom around the eastern Lake Washington shoreline, mean burst pipes, failed supply lines, and roof leaks are a recurring reality. We extract standing water, place industrial drying equipment, and monitor moisture levels in walls and subfloors until the structure reaches dry standard. The goal is to prevent the secondary problem that follows every water event: mold.
 
 ### Fire and smoke damage restoration
 
@@ -41,20 +41,20 @@ Some cleanup situations require more than a mop and a strong stomach. Unattended
 
 ### Reconstruction and rebuild
 
-Most restoration companies stop at mitigation and hand you off to a general contractor. We carry the project through to finished reconstruction — drywall, flooring, cabinetry, painting — which means one point of contact and a faster path back to normal.
+Most restoration companies stop at mitigation and hand you off to a general contractor. We carry the project through to finished reconstruction, drywall, flooring, cabinetry, painting, which means one point of contact and a faster path back to normal.
 
 ## Why Kirkland property owners face restoration emergencies
 
 Kirkland averages around 37 inches of rain per year, most of it falling between October and April in long, steady stretches rather than dramatic downpours. That kind of persistent moisture is hard on roofing, window seals, and crawl spaces. Homes in neighborhoods like Juanita, Bridle Trails, and Totem Lake often have crawl spaces that collect ground moisture all winter, and older homes near the waterfront can have drainage systems that were undersized even when they were new.
 
-The city also sits in a seismic zone, and earthquake activity — even minor events — can crack water supply lines inside walls without any visible exterior damage. A slow leak behind drywall in February can become a mold colony by April. Kirkland's mix of 1970s ramblers, newer townhomes, and lakefront properties with complex rooflines means no two restoration jobs look exactly alike.
+The city also sits in a seismic zone, and earthquake activity, even minor events, can crack water supply lines inside walls without any visible exterior damage. A slow leak behind drywall in February can become a mold colony by April. Kirkland's mix of 1970s ramblers, newer townhomes, and lakefront properties with complex rooflines means no two restoration jobs look exactly alike.
 
 ## Response time and coverage in Kirkland
 
-We answer emergency calls around the clock. From our Federal Way headquarters, we can typically have a technician on-site in Kirkland within 60 to 90 minutes of your call. Kirkland is fully within our primary service area, which means we don't treat it as an outlying job — we staff and route for it. Whether you're in the Rose Hill corridor, near Kirkland Urban, or out toward the Redmond border, expect the same response window.
+We answer emergency calls around the clock. From our Federal Way headquarters, we can typically have a technician on-site in Kirkland within 60 to 90 minutes of your call. Kirkland is fully within our primary service area, which means we don't treat it as an outlying job, we staff and route for it. Whether you're in the Rose Hill corridor, near Kirkland Urban, or out toward the Redmond border, expect the same response window.
 
 Call **(206) 883-0333** any time. We'll ask a few quick questions to understand what you're dealing with, give you immediate guidance on what to do (and what not to touch) before we arrive, and dispatch a crew.
 
 ---
 
-If you're standing in a wet room right now, don't wait to see if it dries on its own — it won't, and the damage cost grows with every hour. Call **(206) 883-0333** and let's get someone to your Kirkland property today.
+If you're standing in a wet room right now, don't wait to see if it dries on its own, it won't, and the damage cost grows with every hour. Call **(206) 883-0333** and let's get someone to your Kirkland property today.

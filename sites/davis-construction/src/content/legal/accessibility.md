@@ -18,7 +18,7 @@ rendered: true
 ---
 ## Our Commitment to Accessibility
 
-Davis Construction Inc. is committed to making davisconstructioncontractors.com usable by everyone, including people who rely on assistive technologies such as screen readers, keyboard navigation, or display magnification. We believe that access to information about our services — whether you're dealing with water damage at 2 a.m. or trying to schedule a mold inspection — should not depend on a visitor's physical or cognitive abilities.
+Davis Construction Inc. is committed to making davisconstructioncontractors.com usable by everyone, including people who rely on assistive technologies such as screen readers, keyboard navigation, or display magnification. We believe that access to information about our services, whether you're dealing with water damage at 2 a.m. or trying to schedule a mold inspection, should not depend on a visitor's physical or cognitive abilities.
 
 ## What We're Working Toward
 
@@ -29,14 +29,14 @@ In practical terms, that means we work to ensure:
 - Pages can be navigated using a keyboard alone, without a mouse.
 - Images include descriptive alternative text so screen readers can convey their meaning.
 - Color contrast between text and backgrounds meets minimum ratio thresholds.
-- Form fields — including our contact and estimate-request forms — are labeled clearly so assistive software can identify them.
+- Form fields, including our contact and estimate-request forms, are labeled clearly so assistive software can identify them.
 - The site structure uses proper heading hierarchy so users can move through content predictably.
 
 ## Known Limitations
 
-We are a small, locally operated contractor, and our website is maintained with that in mind. While we make every reasonable effort to keep the site accessible, some third-party content — embedded maps, scheduling tools, or documents in PDF format — may not fully meet WCAG 2.1 AA standards. We are actively working to identify and address these gaps over time.
+We are a small, locally operated contractor, and our website is maintained with that in mind. While we make every reasonable effort to keep the site accessible, some third-party content, embedded maps, scheduling tools, or documents in PDF format, may not fully meet WCAG 2.1 AA standards. We are actively working to identify and address these gaps over time.
 
-If you encounter a barrier that prevents you from accessing any part of our site or completing a service request, please don't wait — reach out directly and we'll help you get the information you need through another channel.
+If you encounter a barrier that prevents you from accessing any part of our site or completing a service request, please don't wait, reach out directly and we'll help you get the information you need through another channel.
 
 ## How to Report an Issue
 
@@ -49,4 +49,4 @@ When you reach out, please describe the page or feature you were trying to use a
 
 ## Ongoing Effort
 
-Accessibility is not a one-time checklist — it requires continued attention as the site is updated and as standards evolve. Davis Construction Inc. reviews site content periodically with accessibility in mind and welcomes feedback from visitors at any time. Our goal is straightforward: if you need to reach us or understand what we do, nothing about this website should stand in your way.
+Accessibility is not a one-time checklist, it requires continued attention as the site is updated and as standards evolve. Davis Construction Inc. reviews site content periodically with accessibility in mind and welcomes feedback from visitors at any time. Our goal is straightforward: if you need to reach us or understand what we do, nothing about this website should stand in your way.

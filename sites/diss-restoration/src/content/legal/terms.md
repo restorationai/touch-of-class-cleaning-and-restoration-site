@@ -24,11 +24,11 @@ This policy describes how DISS Restoration collects, uses, and protects informat
 
 ### What We Collect
 
-When you fill out a contact or estimate request form, we receive the information you provide — typically your name, phone number, email address, property address, and a description of the damage. We also collect basic, anonymized analytics data (pages visited, browser type, general location) through standard web analytics tools. We do not use tracking pixels, behavioral ad networks, or session-recording software.
+When you fill out a contact or estimate request form, we receive the information you provide, typically your name, phone number, email address, property address, and a description of the damage. We also collect basic, anonymized analytics data (pages visited, browser type, general location) through standard web analytics tools. We do not use tracking pixels, behavioral ad networks, or session-recording software.
 
 ### How We Use It
 
-Your contact information is used to respond to your inquiry, schedule an on-site estimate, and — with your explicit authorization — coordinate documentation and billing with your insurance carrier. We do not use your information for marketing campaigns, and we do not sell, rent, or trade your personal data to any third party for their own commercial purposes.
+Your contact information is used to respond to your inquiry, schedule an on-site estimate, and, with your explicit authorization, coordinate documentation and billing with your insurance carrier. We do not use your information for marketing campaigns, and we do not sell, rent, or trade your personal data to any third party for their own commercial purposes.
 
 ### Insurance Coordination
 
@@ -36,7 +36,7 @@ If you ask us to work directly with your insurance company, we will share releva
 
 ### Retention
 
-Contact and project records are retained as long as reasonably necessary for business and legal purposes — typically aligned with Ohio's standard contractor record-keeping expectations. You may request deletion of your personal data at any time by emailing info@dissrestoration.com.
+Contact and project records are retained as long as reasonably necessary for business and legal purposes, typically aligned with Ohio's standard contractor record-keeping expectations. You may request deletion of your personal data at any time by emailing info@dissrestoration.com.
 
 ### Your Rights
 
@@ -50,7 +50,7 @@ California residents have the right under the CCPA to request disclosure of what
 
 *Last updated: 2025*
 
-Using this website or requesting services from DISS Restoration means you agree to the terms below. The actual service relationship — what work will be performed, at what price, and under what conditions — is governed by the signed work-authorization form you receive before any project begins, not by these website terms.
+Using this website or requesting services from DISS Restoration means you agree to the terms below. The actual service relationship, what work will be performed, at what price, and under what conditions, is governed by the signed work-authorization form you receive before any project begins, not by these website terms.
 
 ### Service Area
 
@@ -58,7 +58,7 @@ DISS Restoration operates in and around the Youngstown, Ohio area. Availability 
 
 ### Estimates
 
-Any estimate, quote, or scope of work communicated verbally or in writing before a work-authorization form is signed is preliminary and non-binding. Conditions discovered during work — hidden moisture, concealed structural damage, materials requiring special handling — may require a revised scope. We will communicate any material changes before proceeding.
+Any estimate, quote, or scope of work communicated verbally or in writing before a work-authorization form is signed is preliminary and non-binding. Conditions discovered during work, hidden moisture, concealed structural damage, materials requiring special handling, may require a revised scope. We will communicate any material changes before proceeding.
 
 ### Payment
 
@@ -82,4 +82,4 @@ If a concern arises about work performed, please contact us directly at info@dis
 
 DISS Restoration is committed to making dissrestoration.com usable by everyone, including people who rely on assistive technologies. We aim to meet the Web Content Accessibility Guidelines (WCAG) 2.1 at the AA level. The site is built to be compatible with screen readers and keyboard navigation, and we work to ensure that images carry descriptive alt text, color contrast meets minimum thresholds, and forms are properly labeled.
 
-If you encounter a barrier — a page that is difficult to navigate, a form that doesn't work with your assistive technology, or content that isn't accessible in the format you need — please let us know. You can reach us by email at info@dissrestoration.com or by phone at (724) 981-1441. We will make a good-faith effort to address reported issues within a reasonable timeframe and provide the information you need through an alternative means while any fix is in progress.
+If you encounter a barrier, a page that is difficult to navigate, a form that doesn't work with your assistive technology, or content that isn't accessible in the format you need, please let us know. You can reach us by email at info@dissrestoration.com or by phone at (724) 981-1441. We will make a good-faith effort to address reported issues within a reasonable timeframe and provide the information you need through an alternative means while any fix is in progress.

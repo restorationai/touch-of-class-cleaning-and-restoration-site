@@ -20,26 +20,26 @@ state: "NJ"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-A house fire in Teaneck doesn't just leave char and ash — it leaves behind decades of accumulated history baked into the walls. Many of the brick Tudors and center-hall colonials that line the streets near the Grange and West Teaneck were built in the 1920s and 1930s, and when they burn, the smoke doesn't behave the way it does in newer construction. It penetrates horsehair plaster, migrates through knob-and-tube cavities, and settles into finished basement ceilings that were never designed to be opened. The Restoration Group responds 24/7 to fire losses across Teaneck (07666) and begins stabilizing the structure the same night.
+A house fire in Teaneck doesn't just leave char and ash, it leaves behind decades of accumulated history baked into the walls. Many of the brick Tudors and center-hall colonials that line the streets near the Grange and West Teaneck were built in the 1920s and 1930s, and when they burn, the smoke doesn't behave the way it does in newer construction. It penetrates horsehair plaster, migrates through knob-and-tube cavities, and settles into finished basement ceilings that were never designed to be opened. The Restoration Group responds 24/7 to fire losses across Teaneck (07666) and begins stabilizing the structure the same night.
 
 ## Why Teaneck's Housing Stock Complicates Fire Damage Restoration
 
-Older homes absorb fire damage differently than post-1980 construction, and Teaneck has a high concentration of pre-war housing. The brick exteriors that give Tudor and colonial homes their character also trap heat longer, which means structural members behind masonry walls can smolder after visible flames are out. Finished basements — common throughout West Teaneck and the Bryant School area — create a secondary smoke pathway: hot gases travel down stairwells and through HVAC returns, depositing a thin, oily soot layer on everything from water heaters to stored furniture.
+Older homes absorb fire damage differently than post-1980 construction, and Teaneck has a high concentration of pre-war housing. The brick exteriors that give Tudor and colonial homes their character also trap heat longer, which means structural members behind masonry walls can smolder after visible flames are out. Finished basements, common throughout West Teaneck and the Bryant School area, create a secondary smoke pathway: hot gases travel down stairwells and through HVAC returns, depositing a thin, oily soot layer on everything from water heaters to stored furniture.
 
-Natural gas service is standard across most of the township, and post-fire protocol requires coordination with PSE&G to confirm meter shutoff before any interior work begins. In homes with older cast-iron drain systems, the heat differential from firefighting water can crack joints that were already marginal — something to check during the initial structural assessment rather than discover during reconstruction.
+Natural gas service is standard across most of the township, and post-fire protocol requires coordination with PSE&G to confirm meter shutoff before any interior work begins. In homes with older cast-iron drain systems, the heat differential from firefighting water can crack joints that were already marginal, something to check during the initial structural assessment rather than discover during reconstruction.
 
 The Cedar Lane commercial district adds a different dimension: restaurant and retail fires often involve suppression systems, cooking-oil smoke residue, and overnight loss scenarios where water from sprinkler activation has been sitting for hours before anyone calls. That combination of wet smoke, grease smoke, and standing water requires a different sequencing than a residential kitchen fire.
 
 ## Our Fire Damage Restoration Process in Teaneck
 
-Every job starts with a documented walk-through that separates salvageable materials from unsalvageable ones — a distinction that matters enormously for insurance claims and for preserving original millwork that can't be replicated cheaply. In Teaneck's older homes, that often means saving original hardwood floors under soot rather than replacing them, or cleaning rather than discarding plaster walls that are structurally intact.
+Every job starts with a documented walk-through that separates salvageable materials from unsalvageable ones, a distinction that matters enormously for insurance claims and for preserving original millwork that can't be replicated cheaply. In Teaneck's older homes, that often means saving original hardwood floors under soot rather than replacing them, or cleaning rather than discarding plaster walls that are structurally intact.
 
 The process moves in a defined sequence:
 
 1. **Emergency board-up and tarping** to secure the structure against weather and unauthorized entry.
-2. **Smoke and soot mapping** — identifying where combustion byproducts traveled, including HVAC ducts, crawl spaces, and wall cavities.
+2. **Smoke and soot mapping**, identifying where combustion byproducts traveled, including HVAC ducts, crawl spaces, and wall cavities.
 3. **Controlled demolition** of unsalvageable materials, documented photographically for the insurance adjuster.
-4. **Dry-ice or soda blasting** on exposed framing where applicable — effective on the old-growth lumber common in pre-war Teaneck homes without abrading sound wood.
+4. **Dry-ice or soda blasting** on exposed framing where applicable, effective on the old-growth lumber common in pre-war Teaneck homes without abrading sound wood.
 5. **Thermal fogging and hydroxyl treatment** to neutralize odor molecules embedded in porous surfaces.
 6. **Reconstruction** scoped to match existing materials, including period-appropriate trim profiles where the home's character warrants it.
 
@@ -51,12 +51,12 @@ The Restoration Group is based in Kenilworth, NJ, and reaches Teaneck via Route 
 
 ## Teaneck Insurance Coordination
 
-Most residential fire losses in Teaneck are covered under standard homeowners policies, but the documentation burden is significant. Carriers want itemized scope, photographs of every affected room, moisture readings, and a clear line between fire damage and any pre-existing conditions. The Restoration Group prepares that package as part of the job — not as an add-on — so the adjuster has what they need without multiple site visits causing delays.
+Most residential fire losses in Teaneck are covered under standard homeowners policies, but the documentation burden is significant. Carriers want itemized scope, photographs of every affected room, moisture readings, and a clear line between fire damage and any pre-existing conditions. The Restoration Group prepares that package as part of the job, not as an add-on, so the adjuster has what they need without multiple site visits causing delays.
 
 For commercial losses along the Cedar Lane corridor, business interruption coverage is often in play alongside property damage. We work directly with commercial adjusters and can provide a preliminary scope estimate within 24 hours of the initial assessment.
 
 ## Local Note
 
-In Teaneck's pre-war homes, the finished attic spaces above third-floor dormers are a detail that catches crews off guard if they haven't worked in this housing stock before. Smoke rises and collects in those low-headroom spaces, and the original blown-in insulation — often cellulose or early mineral wool — holds odor compounds tenaciously. Standard thermal fogging doesn't fully penetrate it. The practical fix is to pull the insulation, treat the sheathing directly, and re-insulate, which adds a step but prevents the smoke smell from returning six months later when the homeowner turns the heat on for the first time. It's a small detail that makes a real difference in whether a restoration holds.
+In Teaneck's pre-war homes, the finished attic spaces above third-floor dormers are a detail that catches crews off guard if they haven't worked in this housing stock before. Smoke rises and collects in those low-headroom spaces, and the original blown-in insulation, often cellulose or early mineral wool, holds odor compounds tenaciously. Standard thermal fogging doesn't fully penetrate it. The practical fix is to pull the insulation, treat the sheathing directly, and re-insulate, which adds a step but prevents the smoke smell from returning six months later when the homeowner turns the heat on for the first time. It's a small detail that makes a real difference in whether a restoration holds.
 
-If you're dealing with fire or smoke damage anywhere in Teaneck — from a kitchen fire in a West Teaneck colonial to a commercial suppression event on Cedar Lane — call The Restoration Group at (855) 650-7422. The team is available around the clock and can begin the assessment the same day.
+If you're dealing with fire or smoke damage anywhere in Teaneck, from a kitchen fire in a West Teaneck colonial to a commercial suppression event on Cedar Lane, call The Restoration Group at (855) 650-7422. The team is available around the clock and can begin the assessment the same day.

@@ -26,11 +26,11 @@ These Terms of Service apply to anyone who visits rtolsonplumbing.com or contact
 
 ### Information We Collect
 
-When you submit a contact form, request an estimate, or call our office, we collect the information you provide — typically your name, phone number, email address, property address, and a description of the issue. Our website also collects basic, anonymized analytics data (pages visited, general location, device type) through standard web tools. We do not use tracking cookies for advertising purposes.
+When you submit a contact form, request an estimate, or call our office, we collect the information you provide, typically your name, phone number, email address, property address, and a description of the issue. Our website also collects basic, anonymized analytics data (pages visited, general location, device type) through standard web tools. We do not use tracking cookies for advertising purposes.
 
 ### How We Use Your Information
 
-We use the information you share to respond to your inquiry, schedule estimates or service appointments, and — where you have authorized us to work with your insurance carrier — to document and coordinate your claim. We do not use your contact information for marketing campaigns, and we do not sell, rent, or trade your personal information to third parties.
+We use the information you share to respond to your inquiry, schedule estimates or service appointments, and, where you have authorized us to work with your insurance carrier, to document and coordinate your claim. We do not use your contact information for marketing campaigns, and we do not sell, rent, or trade your personal information to third parties.
 
 ### Insurance Coordination
 
@@ -38,7 +38,7 @@ If your project involves an insurance claim, we may share job documentation (pho
 
 ### Retention and Your Rights
 
-We retain customer records for as long as reasonably necessary for business, tax, and licensing purposes. California residents have rights under the California Consumer Privacy Act (CCPA), including the right to know what personal information we hold, to request deletion, and to opt out of any sale of data — though we do not sell data. To exercise any of these rights, contact us at office@rtoplumbing.com or (951) 344-5596. GDPR is unlikely to apply to our services, which are limited to California, but we are happy to address any data concerns from visitors regardless of location.
+We retain customer records for as long as reasonably necessary for business, tax, and licensing purposes. California residents have rights under the California Consumer Privacy Act (CCPA), including the right to know what personal information we hold, to request deletion, and to opt out of any sale of data, though we do not sell data. To exercise any of these rights, contact us at office@rtoplumbing.com or (951) 344-5596. GDPR is unlikely to apply to our services, which are limited to California, but we are happy to address any data concerns from visitors regardless of location.
 
 ---
 
@@ -46,7 +46,7 @@ We retain customer records for as long as reasonably necessary for business, tax
 
 ### Service Area and Estimates
 
-RT Olson Plumbing, Heating and Air Conditioning serves the greater Corona, CA area and surrounding communities in Riverside County. We reserve the right to decline service requests outside our current service area. Verbal quotes and online estimates are provided as good-faith approximations only — they are not binding contracts. A signed work-authorization form, reviewed and agreed to by both parties before work begins, governs the actual scope, pricing, and conditions of every job.
+RT Olson Plumbing, Heating and Air Conditioning serves the greater Corona, CA area and surrounding communities in Riverside County. We reserve the right to decline service requests outside our current service area. Verbal quotes and online estimates are provided as good-faith approximations only, they are not binding contracts. A signed work-authorization form, reviewed and agreed to by both parties before work begins, governs the actual scope, pricing, and conditions of every job.
 
 ### Payment Terms
 
@@ -62,7 +62,7 @@ Our liability is limited to the direct scope of services we perform. We are not 
 
 ### Disputes
 
-If a concern arises about work performed, please contact our office first — most issues can be resolved directly and promptly. If a dispute cannot be resolved informally, the parties agree to pursue resolution in accordance with California law, with venue in Riverside County.
+If a concern arises about work performed, please contact our office first, most issues can be resolved directly and promptly. If a dispute cannot be resolved informally, the parties agree to pursue resolution in accordance with California law, with venue in Riverside County.
 
 ---
 
@@ -70,7 +70,7 @@ If a concern arises about work performed, please contact our office first — mo
 
 RT Olson Plumbing, Heating and Air Conditioning is committed to making rtolsonplumbing.com accessible to all visitors, including those using assistive technologies. We aim to meet the Web Content Accessibility Guidelines (WCAG) 2.1 Level AA, and the site is built to be compatible with screen readers and keyboard navigation.
 
-If you encounter a barrier — a page that is difficult to read, a form that does not work with your assistive technology, or any other accessibility issue — please let us know. Contact us at office@rtoplumbing.com or call (951) 344-5596, and we will work to address the issue within a reasonable timeframe. You may also request information or assistance in an alternative format.
+If you encounter a barrier, a page that is difficult to read, a form that does not work with your assistive technology, or any other accessibility issue, please let us know. Contact us at office@rtoplumbing.com or call (951) 344-5596, and we will work to address the issue within a reasonable timeframe. You may also request information or assistance in an alternative format.
 
 ---
 

@@ -19,13 +19,13 @@ state: "NJ"
 primary: false
 rendered: true
 ---
-When a pipe bursts in a Budapest two-family at 2 a.m. or a nor'easter pushes water under the door of a Waterfront restaurant, Perth Amboy property owners need someone who can be on-site fast, document the loss correctly, and dry the structure before mold takes hold. The Restoration Group handles water damage, fire and smoke cleanup, mold remediation, and full reconstruction for residential and commercial properties across Perth Amboy — ZIP codes 08861 and 08862 — and we answer calls around the clock, every day of the year.
+When a pipe bursts in a Budapest two-family at 2 a.m. or a nor'easter pushes water under the door of a Waterfront restaurant, Perth Amboy property owners need someone who can be on-site fast, document the loss correctly, and dry the structure before mold takes hold. The Restoration Group handles water damage, fire and smoke cleanup, mold remediation, and full reconstruction for residential and commercial properties across Perth Amboy, ZIP codes 08861 and 08862, and we answer calls around the clock, every day of the year.
 
 ## Restoration emergencies common in Perth Amboy
 
 Perth Amboy's geography sets it up for water damage in ways that most inland towns don't face. The city sits at the confluence of the Raritan River and Raritan Bay, which means the low-lying blocks near the Raritan Bay Waterfront and the Perth Amboy Ferry Slip area are exposed to tidal surge and coastal-storm flooding. Sandy in 2012 left a visible mark on those waterfront blocks, and every significant nor'easter since has tested basements and crawl spaces that were already saturated.
 
-The housing stock compounds the risk. Much of Downtown, Dunham Heights, and Kearny Heights is built on late-1800s and early-1900s frame construction — two- and three-family homes, brick rowhomes, and multifamily conversions that have been subdivided and re-plumbed over generations. Galvanized supply lines corrode from the inside out; cast-iron drains crack and back up. When one unit floods, the water rarely stays there — it travels through shared floor assemblies and wall cavities into the unit below, turning a single-tenant claim into a multi-unit loss. The Smith Street commercial corridor and the restaurants along the waterfront add a different category: roof-leak and storefront losses that need rapid board-up and drying to protect inventory and prevent business interruption from stretching past a few days.
+The housing stock compounds the risk. Much of Downtown, Dunham Heights, and Kearny Heights is built on late-1800s and early-1900s frame construction, two- and three-family homes, brick rowhomes, and multifamily conversions that have been subdivided and re-plumbed over generations. Galvanized supply lines corrode from the inside out; cast-iron drains crack and back up. When one unit floods, the water rarely stays there, it travels through shared floor assemblies and wall cavities into the unit below, turning a single-tenant claim into a multi-unit loss. The Smith Street commercial corridor and the restaurants along the waterfront add a different category: roof-leak and storefront losses that need rapid board-up and drying to protect inventory and prevent business interruption from stretching past a few days.
 
 ## Services we provide in Perth Amboy
 
@@ -35,19 +35,19 @@ Water damage in Perth Amboy often starts in one of three ways: a failed supply l
 
 ### Mold remediation
 
-In a city where basements flood regularly and humidity off the bay stays high through late summer, mold can colonize damp framing within 24 to 48 hours of a water event. We assess the affected area, contain it to prevent cross-contamination to unaffected units, remove compromised materials, and treat structural surfaces. We do not make medical claims about air quality outcomes — but we follow established remediation protocols and can coordinate with a third-party industrial hygienist for post-clearance testing if your insurer or property manager requires it.
+In a city where basements flood regularly and humidity off the bay stays high through late summer, mold can colonize damp framing within 24 to 48 hours of a water event. We assess the affected area, contain it to prevent cross-contamination to unaffected units, remove compromised materials, and treat structural surfaces. We do not make medical claims about air quality outcomes, but we follow established remediation protocols and can coordinate with a third-party industrial hygienist for post-clearance testing if your insurer or property manager requires it.
 
 ### Fire and smoke damage restoration
 
-Older wood-frame construction in Dunham Heights and Kearny Heights burns and smokes differently than newer builds — dense old-growth framing chars slowly but holds smoke odor deep in the wood grain. We handle emergency board-up and tarping, soot removal from surfaces and HVAC systems, odor neutralization, and structural repairs through full reconstruction. Smoke residue from a kitchen fire in one unit of a three-family can migrate through shared ductwork into adjacent units; we scope the full building, not just the room of origin.
+Older wood-frame construction in Dunham Heights and Kearny Heights burns and smokes differently than newer builds, dense old-growth framing chars slowly but holds smoke odor deep in the wood grain. We handle emergency board-up and tarping, soot removal from surfaces and HVAC systems, odor neutralization, and structural repairs through full reconstruction. Smoke residue from a kitchen fire in one unit of a three-family can migrate through shared ductwork into adjacent units; we scope the full building, not just the room of origin.
 
 ### Reconstruction
 
-Once mitigation is complete, the same crew that dried or cleaned the structure can carry the project through reconstruction — framing, drywall, flooring, painting, and finish work. For commercial properties near City Hall or along the Smith Street corridor, minimizing the gap between mitigation and rebuild keeps storefronts from sitting vacant longer than necessary.
+Once mitigation is complete, the same crew that dried or cleaned the structure can carry the project through reconstruction, framing, drywall, flooring, painting, and finish work. For commercial properties near City Hall or along the Smith Street corridor, minimizing the gap between mitigation and rebuild keeps storefronts from sitting vacant longer than necessary.
 
 ## Coverage and how fast we can get there
 
-The Restoration Group is based in Kenilworth, NJ. Perth Amboy is roughly 18 miles southeast via the Garden State Parkway to Exit 127 or through Woodbridge on Route 9 — a straightforward drive in most conditions. We dispatch around the clock, so a call at midnight reaches a live person who can have a crew moving toward Downtown, the Waterfront, or Bayview Park within the hour. Traffic on the Parkway during peak hours can add time, but our dispatch team routes around it when possible and will give you an honest arrival estimate when you call.
+The Restoration Group is based in Kenilworth, NJ. Perth Amboy is roughly 18 miles southeast via the Garden State Parkway to Exit 127 or through Woodbridge on Route 9, a straightforward drive in most conditions. We dispatch around the clock, so a call at midnight reaches a live person who can have a crew moving toward Downtown, the Waterfront, or Bayview Park within the hour. Traffic on the Parkway during peak hours can add time, but our dispatch team routes around it when possible and will give you an honest arrival estimate when you call.
 
 ## Building stock, site conditions, and permits in Perth Amboy
 
@@ -55,4 +55,4 @@ Homes from this era are typically balloon-framed with plaster and wood lath over
 
 Repairs beyond cosmetic work need permits from the city construction office under the New Jersey Uniform Construction Code, with separate building, plumbing, electrical, and fire subcodes. On waterfront blocks in a mapped flood zone, substantial-improvement rules can drive elevation requirements into the rebuild.
 
-If you're dealing with water, fire, smoke, or mold damage at a Perth Amboy property right now, call The Restoration Group at **(855) 650-7422**. We're available 24 hours a day, and the first step is a conversation — not a commitment.
+If you're dealing with water, fire, smoke, or mold damage at a Perth Amboy property right now, call The Restoration Group at **(855) 650-7422**. We're available 24 hours a day, and the first step is a conversation, not a commitment.

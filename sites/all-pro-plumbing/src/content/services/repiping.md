@@ -17,36 +17,36 @@ service_slug: "repiping"
 service_display: "Whole-House Repiping"
 rendered: true
 ---
-When the water pressure in your Bakersfield home has been quietly dropping for years — a trickle at the showerhead while the dishwasher runs, rust-colored water on Monday mornings, pinhole leaks that keep appearing in different walls — the problem usually isn't a single bad fitting. It's the pipe material itself. Whole-house repiping replaces every supply line from the meter to the fixtures in one coordinated project, so you're not patching the same failing system indefinitely.
+When the water pressure in your Bakersfield home has been quietly dropping for years, a trickle at the showerhead while the dishwasher runs, rust-colored water on Monday mornings, pinhole leaks that keep appearing in different walls, the problem usually isn't a single bad fitting. It's the pipe material itself. Whole-house repiping replaces every supply line from the meter to the fixtures in one coordinated project, so you're not patching the same failing system indefinitely.
 
 ## What whole-house repiping actually involves
 
-A full repipe replaces all the pressurized supply lines inside your home — the hot and cold branches that feed every sink, toilet, shower, tub, hose bib, and appliance. It does not typically include drain, waste, and vent lines (those are a separate scope if needed).
+A full repipe replaces all the pressurized supply lines inside your home, the hot and cold branches that feed every sink, toilet, shower, tub, hose bib, and appliance. It does not typically include drain, waste, and vent lines (those are a separate scope if needed).
 
 The two most common materials used today are copper and PEX:
 
 - **Copper repiping** uses rigid Type L or Type M copper with soldered or press-fit connections. It's the long-proven standard, compatible with Bakersfield's hard water when properly sized, and adds resale value that buyers and appraisers recognize.
 - **PEX repiping** uses flexible cross-linked polyethylene tubing with crimp, clamp, or expansion fittings. PEX runs through walls and ceilings with fewer penetrations, handles the thermal swings between a 105°F attic and a cold-water supply line without stressing joints, and resists the scale buildup that shortens copper's lifespan in areas with high mineral content.
 
-For a typical 3-bedroom, 2-bath Bakersfield home, a repipe crew works one to two days. Walls are opened at access points — usually small, targeted cuts rather than full drywall removal — and patched as part of the project scope. Water is off during active work but restored each evening if the job spans two days.
+For a typical 3-bedroom, 2-bath Bakersfield home, a repipe crew works one to two days. Walls are opened at access points, usually small, targeted cuts rather than full drywall removal, and patched as part of the project scope. Water is off during active work but restored each evening if the job spans two days.
 
-Galvanized steel pipe replacement and polybutylene pipe replacement follow the same general scope. Galvanized lines common in pre-1970s Kern County housing stock corrode from the inside out, slowly strangling flow. Polybutylene — installed widely through the 1980s and early 1990s — degrades with chlorinated municipal water and fails without warning.
+Galvanized steel pipe replacement and polybutylene pipe replacement follow the same general scope. Galvanized lines common in pre-1970s Kern County housing stock corrode from the inside out, slowly strangling flow. Polybutylene, installed widely through the 1980s and early 1990s, degrades with chlorinated municipal water and fails without warning.
 
 ## Our process
 
 1. **Whole-home assessment and material recommendation.** A plumber walks every fixture location, identifies the existing pipe material, checks water pressure at multiple points, and inspects accessible lines in the attic, crawlspace, or garage. The assessment determines linear footage, access complexity, and whether copper or PEX is the better fit for your home's layout and water chemistry.
 
-2. **Permit application and scheduling.** In Bakersfield, a repipe requires a City of Bakersfield plumbing permit. We pull the permit before work begins. This protects you — an unpermitted repipe can complicate a home sale or insurance claim years later.
+2. **Permit application and scheduling.** In Bakersfield, a repipe requires a City of Bakersfield plumbing permit. We pull the permit before work begins. This protects you, an unpermitted repipe can complicate a home sale or insurance claim years later.
 
 3. **Systematic pipe replacement, room by room.** The crew works from the main shutoff outward, replacing trunk lines first, then branch lines to each fixture group. Access cuts are kept as small as structurally possible. All new lines are pressure-tested before walls are closed.
 
-4. **City inspection and sign-off.** A Bakersfield building inspector verifies the installation before drywall patches go in. This is the step that confirms the work meets California Plumbing Code — not just our word, but a third-party sign-off.
+4. **City inspection and sign-off.** A Bakersfield building inspector verifies the installation before drywall patches go in. This is the step that confirms the work meets California Plumbing Code, not just our word, but a third-party sign-off.
 
 5. **Drywall patching and site cleanup.** Access openings are patched, textured to blend, and left ready for paint. We remove all old pipe material and construction debris. You get a clean house and documentation of the passed inspection.
 
 ## What separates a good repipe from a bad one
 
-The most common shortcut in repiping is inadequate pipe sizing. Replacing old galvanized with the same nominal diameter sounds logical, but corroded galvanized often ran undersized to begin with. A proper repipe recalculates flow demand for the fixture count and upsizes trunk lines where needed — the difference between pressure that actually satisfies and a new system that still disappoints.
+The most common shortcut in repiping is inadequate pipe sizing. Replacing old galvanized with the same nominal diameter sounds logical, but corroded galvanized often ran undersized to begin with. A proper repipe recalculates flow demand for the fixture count and upsizes trunk lines where needed, the difference between pressure that actually satisfies and a new system that still disappoints.
 
 A second failure point is improper PEX installation in hot attic spaces. Bakersfield attics routinely exceed 140°F in summer. PEX must be rated and installed with adequate support spacing and UV protection where it's briefly exposed; undersupported runs in extreme heat sag and stress fittings over time.
 

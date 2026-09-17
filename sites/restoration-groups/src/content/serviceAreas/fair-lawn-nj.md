@@ -19,23 +19,23 @@ state: "NJ"
 primary: false
 rendered: true
 ---
-When a pipe bursts in a Radburn colonial or storm surge backs up through a River Road basement, The Restoration Group dispatches crews from our Kenilworth office around the clock — water extraction, structural drying, mold containment, fire and smoke cleanup, and full reconstruction, all handled under one roof for Fair Lawn property owners in ZIP code 07410.
+When a pipe bursts in a Radburn colonial or storm surge backs up through a River Road basement, The Restoration Group dispatches crews from our Kenilworth office around the clock, water extraction, structural drying, mold containment, fire and smoke cleanup, and full reconstruction, all handled under one roof for Fair Lawn property owners in ZIP code 07410.
 
 ## Restoration emergencies common in Fair Lawn
 
 Fair Lawn sits between two rivers, and that geography drives a disproportionate share of the borough's property losses. The Passaic River defines the southern boundary while the Saddle River threads the eastern edge; both overflowed badly during Hurricane Ida in 2021, and the low-lying corridors along River Road and Saddle River Road continue to flood in any storm that drops two or more inches quickly. The water table in those areas is shallow enough that sump pumps run constantly through wet seasons, and when power fails or a float switch sticks, finished basements fill fast.
 
-The housing stock adds its own layer of risk. The Radburn Historic District — one of the first planned communities in the United States, developed in the late 1920s — is full of homes with original cast-iron drain stacks and galvanized supply lines that are now a century old. Postwar capes and colonials in Warren Point and Columbia Heights share similar plumbing vintage. When those lines fail, they typically fail inside finished walls or under concrete slab, turning what looks like a small leak into a Category 2 or 3 water loss. The Broadway and Fair Lawn Avenue commercial corridors bring a different pattern: older retail buildings with flat roofs, aging HVAC systems, and shared pipe chases where a single break can affect multiple tenants.
+The housing stock adds its own layer of risk. The Radburn Historic District, one of the first planned communities in the United States, developed in the late 1920s, is full of homes with original cast-iron drain stacks and galvanized supply lines that are now a century old. Postwar capes and colonials in Warren Point and Columbia Heights share similar plumbing vintage. When those lines fail, they typically fail inside finished walls or under concrete slab, turning what looks like a small leak into a Category 2 or 3 water loss. The Broadway and Fair Lawn Avenue commercial corridors bring a different pattern: older retail buildings with flat roofs, aging HVAC systems, and shared pipe chases where a single break can affect multiple tenants.
 
 ## Services we provide in Fair Lawn
 
 ### Water damage restoration
 
-Water damage in Fair Lawn most often involves flooded basements along the Saddle River corridor, supply-line failures in older Radburn and Warren Point homes, and roof-drain backups in the Broadway commercial district. We extract standing water, map moisture with thermal imaging, and dry structural assemblies to IICRC S500 standards — documenting everything for your insurance carrier as we go.
+Water damage in Fair Lawn most often involves flooded basements along the Saddle River corridor, supply-line failures in older Radburn and Warren Point homes, and roof-drain backups in the Broadway commercial district. We extract standing water, map moisture with thermal imaging, and dry structural assemblies to IICRC S500 standards, documenting everything for your insurance carrier as we go.
 
 ### Mold remediation
 
-The combination of high humidity, older building envelopes, and repeated basement flooding means mold can begin colonizing porous materials within 24 to 48 hours of a water event. We contain affected areas, remove compromised materials, and treat surfaces — following established remediation protocols and keeping your family out of the work zone until clearance testing confirms the space is safe.
+The combination of high humidity, older building envelopes, and repeated basement flooding means mold can begin colonizing porous materials within 24 to 48 hours of a water event. We contain affected areas, remove compromised materials, and treat surfaces, following established remediation protocols and keeping your family out of the work zone until clearance testing confirms the space is safe.
 
 ### Fire and smoke damage restoration
 
@@ -43,18 +43,18 @@ Smoke residue penetrates wall cavities, HVAC ductwork, and soft goods long after
 
 ### Reconstruction
 
-Because we handle both mitigation and rebuild, there is no handoff gap — the same team that dried your basement or cleaned your fire loss can frame, drywall, and restore the space to pre-loss condition. That continuity matters in Fair Lawn's older homes, where opening a wall sometimes surfaces surprises like knob-and-tube wiring or asbestos-containing materials that need to be addressed before reconstruction begins.
+Because we handle both mitigation and rebuild, there is no handoff gap, the same team that dried your basement or cleaned your fire loss can frame, drywall, and restore the space to pre-loss condition. That continuity matters in Fair Lawn's older homes, where opening a wall sometimes surfaces surprises like knob-and-tube wiring or asbestos-containing materials that need to be addressed before reconstruction begins.
 
 ## Coverage and how fast we can get there
 
-The Restoration Group operates 24/7, and our Kenilworth office sits roughly 12 to 14 miles from Fair Lawn via Route 17 North or the Garden State Parkway to Route 208 — a straightforward run that keeps drive time short even in Bergen County traffic. We cover the entire borough: the historic blocks of the Radburn Historic District, the residential streets around Saddle River County Park, the commercial strip along the Broadway commercial district, and the flood-prone stretches of River Road. When you call (855) 650-7422, a live dispatcher answers and gets a crew moving — no voicemail queue, no next-business-day callback.
+The Restoration Group operates 24/7, and our Kenilworth office sits roughly 12 to 14 miles from Fair Lawn via Route 17 North or the Garden State Parkway to Route 208, a straightforward run that keeps drive time short even in Bergen County traffic. We cover the entire borough: the historic blocks of the Radburn Historic District, the residential streets around Saddle River County Park, the commercial strip along the Broadway commercial district, and the flood-prone stretches of River Road. When you call (855) 650-7422, a live dispatcher answers and gets a crew moving, no voicemail queue, no next-business-day callback.
 
 ## Building stock, site conditions, and permits in Fair Lawn
 
-Most of the borough's homes were built between the late 1920s and the mid-1950s, which means wood framing, plaster over wood lath rather than drywall, and full basements rather than slabs or crawlspaces. Plaster holds water differently than gypsum board — it can look dry at the surface while the lath and the stud cavity behind it stay wet for days, so drying here usually means controlled cavity access instead of gutting a whole wall.
+Most of the borough's homes were built between the late 1920s and the mid-1950s, which means wood framing, plaster over wood lath rather than drywall, and full basements rather than slabs or crawlspaces. Plaster holds water differently than gypsum board, it can look dry at the surface while the lath and the stud cavity behind it stay wet for days, so drying here usually means controlled cavity access instead of gutting a whole wall.
 
 The ground near the Passaic and Saddle rivers is river-deposited sand and silt over glacial material, which drains unevenly and pushes groundwater against old block and stone foundations. Footings in this part of New Jersey are set below a frost line near three feet.
 
 Structural repair and rebuild permits go through Fair Lawn's construction office under the New Jersey Uniform Construction Code, with separate building, electrical, and plumbing subcode approvals. Work in a mapped flood zone brings elevation rules into the scope.
 
-If you are dealing with water, fire, mold, or storm damage anywhere in Fair Lawn — from a flooded River Road basement to smoke damage near Memorial Park — call The Restoration Group at **(855) 650-7422**. We answer every call, every hour, and we can have a crew on the road to you today.
+If you are dealing with water, fire, mold, or storm damage anywhere in Fair Lawn, from a flooded River Road basement to smoke damage near Memorial Park, call The Restoration Group at **(855) 650-7422**. We answer every call, every hour, and we can have a crew on the road to you today.

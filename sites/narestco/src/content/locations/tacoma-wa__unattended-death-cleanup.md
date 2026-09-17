@@ -21,40 +21,40 @@ service_display: "Unattended Death Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
-Tacoma's older housing stock and marine climate create conditions that complicate unattended death cleanup in ways that rarely come up in newer, drier cities. When a death goes undiscovered for days or weeks inside a home built in the Stadium District or Proctor neighborhood — many of which date to the 1910s and 1920s — the combination of original fir subfloors, plaster-and-lath walls, and Puget Sound humidity means biological material migrates into structural cavities faster than it would in modern construction. National Restoration Construction responds to these situations with the discretion, technical preparation, and regulatory compliance the circumstances require.
+Tacoma's older housing stock and marine climate create conditions that complicate unattended death cleanup in ways that rarely come up in newer, drier cities. When a death goes undiscovered for days or weeks inside a home built in the Stadium District or Proctor neighborhood, many of which date to the 1910s and 1920s, the combination of original fir subfloors, plaster-and-lath walls, and Puget Sound humidity means biological material migrates into structural cavities faster than it would in modern construction. National Restoration Construction responds to these situations with the discretion, technical preparation, and regulatory compliance the circumstances require.
 
 ## Why Tacoma's Building Stock and Climate Shape This Work
 
-The same qualities that make North Tacoma and the Proctor District architecturally distinctive — deep crawl spaces, original hardwood over board sheathing, interior plaster walls — also make biohazard remediation more involved. Moisture that has been present in a structure for decades creates pathways that allow contaminants to travel further and faster than they would through modern OSB and drywall. Tacoma's average relative humidity, pushed higher by proximity to Commencement Bay and the salt-laden air off the waterfront, keeps those pathways active year-round.
+The same qualities that make North Tacoma and the Proctor District architecturally distinctive, deep crawl spaces, original hardwood over board sheathing, interior plaster walls, also make biohazard remediation more involved. Moisture that has been present in a structure for decades creates pathways that allow contaminants to travel further and faster than they would through modern OSB and drywall. Tacoma's average relative humidity, pushed higher by proximity to Commencement Bay and the salt-laden air off the waterfront, keeps those pathways active year-round.
 
-Tacoma also enforces a municipal HEPA filtration requirement for restoration work that generates airborne particulate — a standard we already meet and exceed. Every technician arrives with negative-air containment equipment calibrated to that ordinance, so there's no delay waiting for compliance approvals before work begins.
+Tacoma also enforces a municipal HEPA filtration requirement for restoration work that generates airborne particulate, a standard we already meet and exceed. Every technician arrives with negative-air containment equipment calibrated to that ordinance, so there's no delay waiting for compliance approvals before work begins.
 
 ## Our Unattended Death Cleanup Process in Tacoma
 
-Every job begins with a discreet arrival — unmarked vehicles, no signage, no unnecessary foot traffic. We coordinate directly with the property owner, estate representative, or property manager before anyone enters, and we work around whatever schedule minimizes visibility to neighbors.
+Every job begins with a discreet arrival, unmarked vehicles, no signage, no unnecessary foot traffic. We coordinate directly with the property owner, estate representative, or property manager before anyone enters, and we work around whatever schedule minimizes visibility to neighbors.
 
 Once on-site, the process moves in a defined sequence:
 
 - **Assessment and containment**: We identify the full affected area, including subfloor, wall cavities, and HVAC pathways, before any removal begins. In older Tacoma homes, this step often reveals secondary contamination that wouldn't be present in post-1980 construction.
 - **Regulated material removal**: All biohazardous waste is packaged, labeled, and transported in compliance with Washington State DOH and Pierce County requirements. Nothing is left curbside or in shared waste containers.
-- **Surface and structural cleaning**: We use EPA-registered hospital-grade disinfectants on all affected surfaces. Where structural materials cannot be decontaminated to clearance standards, we remove and replace them — our General Contractor license (#NATIORC792M6) covers that reconstruction work under the same contract.
+- **Surface and structural cleaning**: We use EPA-registered hospital-grade disinfectants on all affected surfaces. Where structural materials cannot be decontaminated to clearance standards, we remove and replace them, our General Contractor license (#NATIORC792M6) covers that reconstruction work under the same contract.
 - **Odor neutralization**: Odor after an unattended death is persistent and penetrates porous materials deeply. We use thermal fogging and hydroxyl generation rather than masking agents, which addresses the source rather than covering it. In homes with original plaster walls, we allow additional dwell time because plaster holds odor compounds longer than modern drywall.
 - **Clearance verification**: Before we close out, we conduct ATP surface testing and, where indicated, air quality sampling to confirm the space is safe for re-occupancy.
 
 ## Response Time from Federal Way to Tacoma
 
-Our headquarters in Federal Way sits roughly 20 miles north of central Tacoma via I-5. Under normal traffic conditions, a crew can be on-site in Tacoma's 98402, 98403, or 98407 ZIP codes within 45 to 60 minutes of your call. South Tacoma and South Hill addresses are typically 50 to 70 minutes depending on time of day. We do not stage crews regionally, so response time is consistent — we don't promise faster service than we can actually deliver.
+Our headquarters in Federal Way sits roughly 20 miles north of central Tacoma via I-5. Under normal traffic conditions, a crew can be on-site in Tacoma's 98402, 98403, or 98407 ZIP codes within 45 to 60 minutes of your call. South Tacoma and South Hill addresses are typically 50 to 70 minutes depending on time of day. We do not stage crews regionally, so response time is consistent, we don't promise faster service than we can actually deliver.
 
 We are available 24 hours a day. Calls after midnight receive the same response priority as daytime calls.
 
 ## Insurance and Estate Coordination
 
-Homeowner's insurance policies frequently cover unattended death cleanup under the same provisions that apply to other sudden and accidental losses. We document the scope of work thoroughly — photographs, moisture readings, materials removed, square footage affected — and submit directly to your carrier. We've worked with most major insurers active in Pierce County and can tell you quickly whether your policy language is likely to apply.
+Homeowner's insurance policies frequently cover unattended death cleanup under the same provisions that apply to other sudden and accidental losses. We document the scope of work thoroughly, photographs, moisture readings, materials removed, square footage affected, and submit directly to your carrier. We've worked with most major insurers active in Pierce County and can tell you quickly whether your policy language is likely to apply.
 
 For deceased estate situations, we're accustomed to coordinating with estate attorneys, personal representatives, and out-of-area family members who cannot be present. We can provide written scope and photo documentation for probate purposes and work on a timeline that fits the estate process rather than our own scheduling preference.
 
 ## Local Note
 
-In the older bungalows and Craftsman-era homes concentrated around Wright Park and the blocks north toward the Stadium District, crawl spaces are often unvented or minimally vented by today's standards. When a loss event occurs on the ground floor, contaminants can settle into that crawl space through gaps in the subfloor — gaps that are common in homes that have settled over a century. We inspect the crawl space as a standard part of every assessment in pre-1950 Tacoma homes, not as an add-on. Skipping that step in this housing stock is how odor problems recur months after a job is considered finished.
+In the older bungalows and Craftsman-era homes concentrated around Wright Park and the blocks north toward the Stadium District, crawl spaces are often unvented or minimally vented by today's standards. When a loss event occurs on the ground floor, contaminants can settle into that crawl space through gaps in the subfloor, gaps that are common in homes that have settled over a century. We inspect the crawl space as a standard part of every assessment in pre-1950 Tacoma homes, not as an add-on. Skipping that step in this housing stock is how odor problems recur months after a job is considered finished.
 
 If you're managing a property in Tacoma and need help now, call National Restoration Construction at (206) 883-0333. We'll answer directly, ask only what we need to know to prepare, and have a crew moving toward you within the hour.

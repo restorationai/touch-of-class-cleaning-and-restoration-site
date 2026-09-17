@@ -1153,6 +1153,19 @@ ANTHROPIC_API = "https://api.anthropic.com/v1/messages"
 ANTHROPIC_DEFAULT_MODEL = "claude-sonnet-4-6"
 
 
+def scrub_em_dashes(text: str) -> str:
+    """NO EM DASHES law (Santino 2026-08-05; extended to site copy, enforced
+    in the render pipeline 2026-09-17 after a fleet scan found thousands of
+    rendered pages carrying them). Mid-sentence em dashes become commas;
+    leading/list dashes become plain sentence starts."""
+    # line-leading dash (a list-style aside) just drops
+    text = re.sub(r"(?m)^([ \t]*)\u2014[ \t]*", r"\1", text)
+    # mid-line dash joins the clauses with a comma; never crosses lines
+    text = re.sub(r"[ \t]*\u2014[ \t]*", ", ", text)
+    text = text.replace(" ,", ",").replace(",,", ",")
+    return text
+
+
 def anthropic_call(system: str, user: str, *, model: str = ANTHROPIC_DEFAULT_MODEL,
                    max_tokens: int = 4096, temperature: float = 0.6,
                    max_retries: int = 3) -> tuple[str, dict]:
@@ -1577,6 +1590,7 @@ def cmd_render(args) -> int:
                                         model=args.model,
                                         max_tokens=prompt_fm.get("max_tokens", 4096),
                                         temperature=prompt_fm.get("temperature", 0.6))
+            raw = scrub_em_dashes(raw)
         except RuntimeError as e:
             return ("api_error", str(e)[:200])
         try:

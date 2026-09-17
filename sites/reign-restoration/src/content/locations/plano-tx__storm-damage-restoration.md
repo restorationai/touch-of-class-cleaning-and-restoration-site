@@ -20,25 +20,25 @@ state: "TX"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
-North Texas storms don't announce themselves politely. A supercell that spins up over the Blackland Prairie can drop baseball-sized hail on Willow Bend's brick two-stories, snap mature post oaks onto rooflines in Deerfield, and push six inches of standing water into a slab foundation before the National Weather Service alert finishes loading on your phone. When that happens, Reign Restoration is available around the clock — call (214) 304-0621 and a crew will be en route.
+North Texas storms don't announce themselves politely. A supercell that spins up over the Blackland Prairie can drop baseball-sized hail on Willow Bend's brick two-stories, snap mature post oaks onto rooflines in Deerfield, and push six inches of standing water into a slab foundation before the National Weather Service alert finishes loading on your phone. When that happens, Reign Restoration is available around the clock, call (214) 304-0621 and a crew will be en route.
 
 ## Why Plano Properties See Distinctive Storm Damage Patterns
 
-Plano's housing stock tells the story in layers. The 1970s and '80s tract homes east of US 75 — neighborhoods like Hunters Glen and Whiffletree — were built when code requirements for roof sheathing and attic bracing were lighter than today's standards. Those roofs have had fifty-plus years of thermal cycling on the expansive Blackland Prairie clay, and the decking can be brittle enough that a single large hailstone punches through rather than denting. Farther west, the 1990s brick two-stories in Willow Bend and Deerfield hold up better to wind, but their wider footprints mean more linear feet of soffit, fascia, and ridge cap exposed to a straight-line wind event.
+Plano's housing stock tells the story in layers. The 1970s and '80s tract homes east of US 75, neighborhoods like Hunters Glen and Whiffletree, were built when code requirements for roof sheathing and attic bracing were lighter than today's standards. Those roofs have had fifty-plus years of thermal cycling on the expansive Blackland Prairie clay, and the decking can be brittle enough that a single large hailstone punches through rather than denting. Farther west, the 1990s brick two-stories in Willow Bend and Deerfield hold up better to wind, but their wider footprints mean more linear feet of soffit, fascia, and ridge cap exposed to a straight-line wind event.
 
-The drainage picture adds another layer of risk. Rowlett, Spring, and Pittman creeks cut through the eastern portions of the city, and the Spring Creek corridor is channelized enough that rainfall moves fast — water that falls in ZIP code 75025 can be running hard through a backyard in 75074 within the hour. That speed matters: a homeowner who sees a dry garage at 7 p.m. can be dealing with two inches of intrusion by 9 p.m. if a storm stalls over the basin.
+The drainage picture adds another layer of risk. Rowlett, Spring, and Pittman creeks cut through the eastern portions of the city, and the Spring Creek corridor is channelized enough that rainfall moves fast, water that falls in ZIP code 75025 can be running hard through a backyard in 75074 within the hour. That speed matters: a homeowner who sees a dry garage at 7 p.m. can be dealing with two inches of intrusion by 9 p.m. if a storm stalls over the basin.
 
 ## Our Storm Damage Restoration Process in Plano
 
-Every job starts with a full exterior and interior assessment before a single piece of debris is moved. We document the roof, fascia, siding, windows, and any structural members with photo and video evidence — the kind of documentation that Texas Department of Insurance guidelines expect to see in a hail or wind claim. From there, the process follows a defined sequence:
+Every job starts with a full exterior and interior assessment before a single piece of debris is moved. We document the roof, fascia, siding, windows, and any structural members with photo and video evidence, the kind of documentation that Texas Department of Insurance guidelines expect to see in a hail or wind claim. From there, the process follows a defined sequence:
 
 **Emergency stabilization** comes first: tarping compromised roof sections, boarding shattered windows, and extracting any standing water from interior spaces. In older Hunters Glen slab homes, we check under flooring and inside wall cavities with moisture meters immediately, because water that migrates under a slab can begin wicking into drywall within hours.
 
-**Debris removal and structural assessment** follows. A tree through a roof is a structural event, not just a cosmetic one — we evaluate rafter and truss integrity before scheduling any rebuild work.
+**Debris removal and structural assessment** follows. A tree through a roof is a structural event, not just a cosmetic one, we evaluate rafter and truss integrity before scheduling any rebuild work.
 
 **Drying and dehumidification** runs concurrently with the structural work where possible. Our IICRC-certified firm uses commercial-grade desiccant and refrigerant dehumidifiers calibrated to the specific materials affected, following the IICRC S500 and S520 standards for drying documentation.
 
-**Reconstruction** closes the loop — from roof decking and shingles to interior drywall, insulation, and paint. One point of contact, one contractor.
+**Reconstruction** closes the loop, from roof decking and shingles to interior drywall, insulation, and paint. One point of contact, one contractor.
 
 ## Reaching Plano from Royse City
 
@@ -46,12 +46,12 @@ Royse City sits roughly 25 miles east of Plano on US 80 and I-30, with direct ac
 
 ## Plano Insurance & HOA Coordination
 
-Plano's higher-value subdivisions — particularly those in the 75093 ZIP code around The Shops at Willow Bend — often carry HOA architectural review requirements for any exterior repair that changes roofing material color, siding profile, or fence materials. We've worked through those approval processes before and can provide the documentation packages HOA boards typically request, so a legitimate insurance-covered repair doesn't stall waiting on an architectural committee.
+Plano's higher-value subdivisions, particularly those in the 75093 ZIP code around The Shops at Willow Bend, often carry HOA architectural review requirements for any exterior repair that changes roofing material color, siding profile, or fence materials. We've worked through those approval processes before and can provide the documentation packages HOA boards typically request, so a legitimate insurance-covered repair doesn't stall waiting on an architectural committee.
 
 On the insurance side, we photograph and scope the loss before any work begins, provide line-item Xactimate estimates that align with how adjusters document storm claims in Texas, and communicate directly with your carrier's field adjuster when a re-inspection is needed.
 
 ## Local Note
 
-One pattern we see repeatedly on Plano's older east-side slab homes: the original cast-iron drain lines running under the slab are at or past their service life, and a heavy storm event that saturates the yard can expose a pre-existing crack or joint failure that was dormant when conditions were dry. When we open a wall or lift flooring after a storm intrusion in Whiffletree or Hunters Glen, we flag any signs of drain-line seepage for the homeowner — not because it's our scope, but because a plumbing failure discovered during storm remediation is far cheaper to address before the walls close back up.
+One pattern we see repeatedly on Plano's older east-side slab homes: the original cast-iron drain lines running under the slab are at or past their service life, and a heavy storm event that saturates the yard can expose a pre-existing crack or joint failure that was dormant when conditions were dry. When we open a wall or lift flooring after a storm intrusion in Whiffletree or Hunters Glen, we flag any signs of drain-line seepage for the homeowner, not because it's our scope, but because a plumbing failure discovered during storm remediation is far cheaper to address before the walls close back up.
 
-If your property took a hit in the last storm system to move through Collin County, don't wait to see whether the damage dries out on its own — it rarely does. Call Reign Restoration at **(214) 304-0621** any time, day or night, and we'll get eyes on the damage in Plano before a manageable repair becomes a structural problem.
+If your property took a hit in the last storm system to move through Collin County, don't wait to see whether the damage dries out on its own, it rarely does. Call Reign Restoration at **(214) 304-0621** any time, day or night, and we'll get eyes on the damage in Plano before a manageable repair becomes a structural problem.

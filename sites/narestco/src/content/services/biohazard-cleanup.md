@@ -19,38 +19,38 @@ isSensitive: true
 rendered: true
 hero: '/images/services/biohazard-cleanup.webp'
 ---
-Discovering a scene that requires biohazard or trauma cleanup is one of the most disorienting moments a homeowner or property manager can face. The logistics that follow — who to call, what to touch, how quickly it needs to happen — shouldn't fall on you to figure out alone. National Restoration Construction responds to these situations throughout Federal Way and the surrounding region with trained technicians, proper containment equipment, and a process designed to protect everyone on the property while you focus on what matters most.
+Discovering a scene that requires biohazard or trauma cleanup is one of the most disorienting moments a homeowner or property manager can face. The logistics that follow, who to call, what to touch, how quickly it needs to happen, shouldn't fall on you to figure out alone. National Restoration Construction responds to these situations throughout Federal Way and the surrounding region with trained technicians, proper containment equipment, and a process designed to protect everyone on the property while you focus on what matters most.
 
 ## How we handle biohazard and trauma cleanup
 
-Every job begins with a site assessment to establish the scope of contamination and identify the appropriate personal protective equipment, containment strategy, and disposal method before any work begins. Our technicians follow OSHA Bloodborne Pathogen Standards and EPA guidelines throughout — not as a checkbox, but because the protocols exist to prevent cross-contamination from spreading to unaffected areas of the structure.
+Every job begins with a site assessment to establish the scope of contamination and identify the appropriate personal protective equipment, containment strategy, and disposal method before any work begins. Our technicians follow OSHA Bloodborne Pathogen Standards and EPA guidelines throughout, not as a checkbox, but because the protocols exist to prevent cross-contamination from spreading to unaffected areas of the structure.
 
-Containment comes first. Affected zones are isolated using negative air pressure and physical barriers so that particulates and pathogens do not migrate through HVAC systems or adjoining rooms. From there, technicians remove and bag all porous materials that cannot be safely restored — this may include flooring, drywall, insulation, or soft furnishings — and transport them in sealed, labeled containers to a licensed disposal facility.
+Containment comes first. Affected zones are isolated using negative air pressure and physical barriers so that particulates and pathogens do not migrate through HVAC systems or adjoining rooms. From there, technicians remove and bag all porous materials that cannot be safely restored, this may include flooring, drywall, insulation, or soft furnishings, and transport them in sealed, labeled containers to a licensed disposal facility.
 
-Surface-level cleaning is followed by an EPA-registered disinfectant application calibrated to the specific biological agents present. After disinfection, we conduct ATP testing — a bioluminescence method that detects organic residue invisible to the eye — to verify that affected surfaces meet clearance standards before the space is released. Nothing is signed off on the basis of appearance alone.
+Surface-level cleaning is followed by an EPA-registered disinfectant application calibrated to the specific biological agents present. After disinfection, we conduct ATP testing, a bioluminescence method that detects organic residue invisible to the eye, to verify that affected surfaces meet clearance standards before the space is released. Nothing is signed off on the basis of appearance alone.
 
-Timeline depends on scope. A contained single-room situation can often be remediated within a day. Larger or more complex scenes — or those involving structural penetration — may require two to three days of work before reconstruction can begin. We'll give you a realistic estimate after the initial walkthrough, not after the invoice.
+Timeline depends on scope. A contained single-room situation can often be remediated within a day. Larger or more complex scenes, or those involving structural penetration, may require two to three days of work before reconstruction can begin. We'll give you a realistic estimate after the initial walkthrough, not after the invoice.
 
 ## When to call us
 
-Biohazard remediation is needed any time biological material — blood, bodily fluids, or related substances — has contacted a surface in a way that poses a health risk. Common trigger events include:
+Biohazard remediation is needed any time biological material, blood, bodily fluids, or related substances, has contacted a surface in a way that poses a health risk. Common trigger events include:
 
-- **Unattended death** — when a person has passed away and time has elapsed before discovery, decomposition can affect structural materials well beyond what is visible
-- **Trauma scenes** — accidents, injuries, or violent incidents inside a residence or commercial property
+- **Unattended death**, when a person has passed away and time has elapsed before discovery, decomposition can affect structural materials well beyond what is visible
+- **Trauma scenes**, accidents, injuries, or violent incidents inside a residence or commercial property
 - **Blood cleanup** after a medical emergency, even one where the individual survived
-- **Sewage backups involving bodily waste** — a distinct but related category that also requires biohazard protocols
+- **Sewage backups involving bodily waste**, a distinct but related category that also requires biohazard protocols
 
-The most important thing to know before we arrive: do not attempt to clean the area yourself, and limit who enters the space. Standard household cleaners are not formulated for bloodborne pathogens, and disturbing the scene before a professional assessment can spread contamination and complicate the remediation process. If law enforcement has been involved, confirm with them that the scene has been released before calling us in — we can help coordinate that conversation if needed.
+The most important thing to know before we arrive: do not attempt to clean the area yourself, and limit who enters the space. Standard household cleaners are not formulated for bloodborne pathogens, and disturbing the scene before a professional assessment can spread contamination and complicate the remediation process. If law enforcement has been involved, confirm with them that the scene has been released before calling us in, we can help coordinate that conversation if needed.
 
 Call (206) 883-0333 as soon as the scene is accessible. We respond 24 hours a day.
 
 ## What sets our biohazard team apart
 
-National Restoration Construction holds IICRC certification, EPA certification, and ANSI certification — the industry's primary credentialing bodies for restoration and biohazard work. Our technicians are trained in OSHA-compliant bloodborne pathogen handling and recertify on a regular schedule, not just at onboarding.
+National Restoration Construction holds IICRC certification, EPA certification, and ANSI certification, the industry's primary credentialing bodies for restoration and biohazard work. Our technicians are trained in OSHA-compliant bloodborne pathogen handling and recertify on a regular schedule, not just at onboarding.
 
-We operate from Federal Way, which means response times across King and Pierce counties are measured in hours, not days. For most calls within our primary service area, a technician is on-site within two to four hours of your call — often faster.
+We operate from Federal Way, which means response times across King and Pierce counties are measured in hours, not days. For most calls within our primary service area, a technician is on-site within two to four hours of your call, often faster.
 
-Discretion is built into how we work. Our vehicles are unmarked. We coordinate directly with whoever you designate — a family member, an estate attorney, a property manager — and we do not discuss job details with anyone outside that circle. If you need us to work during off-hours to avoid attention from neighbors or tenants, we can accommodate that.
+Discretion is built into how we work. Our vehicles are unmarked. We coordinate directly with whoever you designate, a family member, an estate attorney, a property manager, and we do not discuss job details with anyone outside that circle. If you need us to work during off-hours to avoid attention from neighbors or tenants, we can accommodate that.
 
 We are also a licensed general contractor (Certificate of Registration #NATIORC792M6), which means that when biohazard remediation uncovers structural damage requiring repair, we can carry the project through to reconstruction under the same roof. You won't be handed off to a second company mid-project.
 
@@ -58,10 +58,10 @@ We are also a licensed general contractor (Certificate of Registration #NATIORC7
 
 Biohazard and trauma scene cleanup is frequently covered under homeowner's or renter's insurance policies, depending on the circumstances and the specific policy language. Property managers may have coverage through commercial general liability or property policies.
 
-We work directly with insurance carriers and can submit documentation — scope of work, photo evidence, disposal manifests — in the format adjusters require. If you're uncertain whether your policy applies, we can help you understand what questions to ask your carrier before you file. You are never required to navigate the claims process alone.
+We work directly with insurance carriers and can submit documentation, scope of work, photo evidence, disposal manifests, in the format adjusters require. If you're uncertain whether your policy applies, we can help you understand what questions to ask your carrier before you file. You are never required to navigate the claims process alone.
 
 For situations where insurance does not apply or coverage is disputed, we provide itemized estimates upfront and offer straightforward billing with no surprise line items after the fact.
 
 ---
 
-If you're dealing with a situation that requires biohazard remediation in Federal Way or anywhere in the surrounding region, the next step is a single phone call. Our team answers around the clock, asks only what we need to know to respond appropriately, and arrives ready to work. Call **(206) 883-0333** — day or night.
+If you're dealing with a situation that requires biohazard remediation in Federal Way or anywhere in the surrounding region, the next step is a single phone call. Our team answers around the clock, asks only what we need to know to respond appropriately, and arrives ready to work. Call **(206) 883-0333**, day or night.

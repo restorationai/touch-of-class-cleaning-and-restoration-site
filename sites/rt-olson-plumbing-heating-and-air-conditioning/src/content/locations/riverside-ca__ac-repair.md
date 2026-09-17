@@ -20,23 +20,23 @@ state: "CA"
 service_display: "Air Conditioning Repair"
 rendered: true
 ---
-Riverside summers are not gentle. When the Inland Empire heat settles in and afternoon temperatures push past 105°F in July and August, a central air system that's struggling to keep up stops being an inconvenience and starts being a health concern. RT Olson Plumbing, Heating and Air Conditioning responds to air conditioning repair calls in Riverside around the clock — because a compressor that quits at 9 p.m. on a Wednesday in August is every bit as urgent as one that fails at noon.
+Riverside summers are not gentle. When the Inland Empire heat settles in and afternoon temperatures push past 105°F in July and August, a central air system that's struggling to keep up stops being an inconvenience and starts being a health concern. RT Olson Plumbing, Heating and Air Conditioning responds to air conditioning repair calls in Riverside around the clock, because a compressor that quits at 9 p.m. on a Wednesday in August is every bit as urgent as one that fails at noon.
 
 ## Why Riverside Properties See AC Repair Issues
 
 Riverside sits in a basin that traps heat, and that geography puts air conditioning equipment under sustained stress that coastal California homeowners rarely experience. Systems here run longer daily cycles, accumulate more operating hours per season, and work against outdoor ambient temperatures that can exceed the design limits of older equipment.
 
-The city's housing stock adds another layer of complexity. Neighborhoods developed in the 1950s through the 1970s — common across much of central and west Riverside — were often built with duct systems sized for smaller, less efficient equipment. When those ducts are paired with a modern high-SEER unit, airflow imbalances can cause the evaporator coil to ice over, a symptom that looks like the system is broken when the real problem is a mismatch between the equipment and the duct layout. Homes built before widespread energy codes also tend to have attic insulation values that force the AC to work harder than the manufacturer ever intended.
+The city's housing stock adds another layer of complexity. Neighborhoods developed in the 1950s through the 1970s, common across much of central and west Riverside, were often built with duct systems sized for smaller, less efficient equipment. When those ducts are paired with a modern high-SEER unit, airflow imbalances can cause the evaporator coil to ice over, a symptom that looks like the system is broken when the real problem is a mismatch between the equipment and the duct layout. Homes built before widespread energy codes also tend to have attic insulation values that force the AC to work harder than the manufacturer ever intended.
 
-Refrigerant leaks are another pattern we see regularly in Riverside. The temperature swings between winter nights and summer afternoons — a 50°F or greater daily range is not unusual in the Inland Empire — cause refrigerant lines to expand and contract repeatedly over years. That cycling eventually fatigues the fittings and brazed joints where leaks tend to develop first.
+Refrigerant leaks are another pattern we see regularly in Riverside. The temperature swings between winter nights and summer afternoons, a 50°F or greater daily range is not unusual in the Inland Empire, cause refrigerant lines to expand and contract repeatedly over years. That cycling eventually fatigues the fittings and brazed joints where leaks tend to develop first.
 
 ## Our Air Conditioning Repair Process in Riverside
 
-Every repair call starts with a diagnostic, not a parts swap. Before anything is quoted or ordered, a technician checks system pressures, measures supply and return temperatures, inspects the electrical components, and confirms refrigerant charge against the manufacturer's specifications for the outdoor conditions at the time of the call — which matters in Riverside because a system's operating pressures at 100°F ambient look very different from what the spec sheet shows at a standard 95°F test condition.
+Every repair call starts with a diagnostic, not a parts swap. Before anything is quoted or ordered, a technician checks system pressures, measures supply and return temperatures, inspects the electrical components, and confirms refrigerant charge against the manufacturer's specifications for the outdoor conditions at the time of the call, which matters in Riverside because a system's operating pressures at 100°F ambient look very different from what the spec sheet shows at a standard 95°F test condition.
 
 If a refrigerant leak is present, we locate it before recharging. Adding refrigerant to a leaking system is a short-term fix that leaves the underlying problem in place and, under EPA Section 608 rules, is not a compliant repair for systems using regulated refrigerants. We pressure-test, identify the leak point, repair or replace the affected component, and then recharge to the correct weight.
 
-For compressor or capacitor failures — two of the most common causes of a system that runs but won't cool — we carry a range of replacement components on the service vehicle so that many repairs are completed in a single visit rather than requiring a return trip after parts are ordered.
+For compressor or capacitor failures, two of the most common causes of a system that runs but won't cool, we carry a range of replacement components on the service vehicle so that many repairs are completed in a single visit rather than requiring a return trip after parts are ordered.
 
 ## Reaching Riverside from Corona
 
@@ -48,4 +48,4 @@ Something worth knowing if you're in one of Riverside's older residential areas:
 
 ## Closing
 
-If your air conditioner isn't cooling, is cycling on and off without reaching temperature, or has simply stopped running, call RT Olson Plumbing, Heating and Air Conditioning at (951) 344-5596. We're available around the clock and serve Riverside and the surrounding Inland Empire communities — so when the heat is on, you're not waiting until the next business day to get an answer.
+If your air conditioner isn't cooling, is cycling on and off without reaching temperature, or has simply stopped running, call RT Olson Plumbing, Heating and Air Conditioning at (951) 344-5596. We're available around the clock and serve Riverside and the surrounding Inland Empire communities, so when the heat is on, you're not waiting until the next business day to get an answer.

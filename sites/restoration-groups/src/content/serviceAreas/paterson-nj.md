@@ -19,23 +19,23 @@ state: "NJ"
 primary: false
 rendered: true
 ---
-When a pipe bursts in a Sandy Hill walkup at 2 a.m. or floodwater backs into a South Paterson basement after a heavy rain, The Restoration Group dispatches from Kenilworth around the clock to handle water extraction, structural drying, mold remediation, fire and smoke cleanup, and full reconstruction — for homeowners, landlords, and property managers across Paterson's ZIP codes 07501 through 07524.
+When a pipe bursts in a Sandy Hill walkup at 2 a.m. or floodwater backs into a South Paterson basement after a heavy rain, The Restoration Group dispatches from Kenilworth around the clock to handle water extraction, structural drying, mold remediation, fire and smoke cleanup, and full reconstruction, for homeowners, landlords, and property managers across Paterson's ZIP codes 07501 through 07524.
 
 ## Restoration emergencies common in Paterson
 
-Paterson's geography and housing stock create a near-perfect environment for repeat property damage. The city sits on the Passaic River, and the low-lying blocks below the Great Falls flood with sobering regularity — the river crested during Hurricane Irene in 2011 and again during Ida in 2021, pushing water into basements and ground-floor units in the Riverside corridor and throughout downtown. Even between named storms, Paterson's older combined sewer infrastructure backs up during moderate rainfall events, sending sewage-contaminated water into basement apartments and crawlspaces.
+Paterson's geography and housing stock create a near-perfect environment for repeat property damage. The city sits on the Passaic River, and the low-lying blocks below the Great Falls flood with sobering regularity, the river crested during Hurricane Irene in 2011 and again during Ida in 2021, pushing water into basements and ground-floor units in the Riverside corridor and throughout downtown. Even between named storms, Paterson's older combined sewer infrastructure backs up during moderate rainfall events, sending sewage-contaminated water into basement apartments and crawlspaces.
 
-The housing stock compounds the risk. Much of Paterson was built during the silk-mill era — dense 19th-century rowhomes, brick multi-family walkups, and aging two- and three-family frame houses that still contain knob-and-tube wiring remnants and cast-iron drain lines prone to root intrusion and corrosion. Silk-era industrial buildings converted to residential apartments carry commercial-grade sprinkler and standpipe systems; a single faulty head or a frozen line can discharge hundreds of gallons before the water is shut off. High occupancy rates in rental stock mean moisture from tenant activity — cooking steam, bathroom condensation, unreported slow leaks — accumulates in unventilated basements and interior bathrooms until mold is already well-established by the time anyone calls.
+The housing stock compounds the risk. Much of Paterson was built during the silk-mill era, dense 19th-century rowhomes, brick multi-family walkups, and aging two- and three-family frame houses that still contain knob-and-tube wiring remnants and cast-iron drain lines prone to root intrusion and corrosion. Silk-era industrial buildings converted to residential apartments carry commercial-grade sprinkler and standpipe systems; a single faulty head or a frozen line can discharge hundreds of gallons before the water is shut off. High occupancy rates in rental stock mean moisture from tenant activity, cooking steam, bathroom condensation, unreported slow leaks, accumulates in unventilated basements and interior bathrooms until mold is already well-established by the time anyone calls.
 
 ## Services we provide in Paterson
 
 ### Water damage restoration
 
-Water damage in Paterson often starts below grade. Basement flooding from sewer backup or river-adjacent groundwater intrusion is a different category of loss than a burst supply line — the water is frequently contaminated, the concrete block walls wick moisture for days, and the cast-iron floor drains that were supposed to drain the water are sometimes the source of it. We extract standing water, classify the contamination level, and dry structural assemblies to measured moisture targets before any rebuild begins.
+Water damage in Paterson often starts below grade. Basement flooding from sewer backup or river-adjacent groundwater intrusion is a different category of loss than a burst supply line, the water is frequently contaminated, the concrete block walls wick moisture for days, and the cast-iron floor drains that were supposed to drain the water are sometimes the source of it. We extract standing water, classify the contamination level, and dry structural assemblies to measured moisture targets before any rebuild begins.
 
 ### Mold remediation
 
-In Paterson's older multi-family buildings — particularly the dense rowhouse blocks in the Eastside and Hillcrest neighborhoods — mold in unventilated bathrooms and basement storage areas is one of the most common calls we receive. Mold can begin colonizing a wet surface within 24 to 48 hours of a moisture event. We contain the affected area, remove compromised materials, and treat surfaces following established remediation protocols, then verify clearance before reconstruction.
+In Paterson's older multi-family buildings, particularly the dense rowhouse blocks in the Eastside and Hillcrest neighborhoods, mold in unventilated bathrooms and basement storage areas is one of the most common calls we receive. Mold can begin colonizing a wet surface within 24 to 48 hours of a moisture event. We contain the affected area, remove compromised materials, and treat surfaces following established remediation protocols, then verify clearance before reconstruction.
 
 ### Fire and smoke damage restoration
 
@@ -43,11 +43,11 @@ Fire losses in Paterson's attached rowhomes and multi-family buildings carry add
 
 ### Reconstruction
 
-Once mitigation is complete, we handle the rebuild — framing, drywall, flooring, and finish work — so property owners are not coordinating a separate contractor while living out of a damaged home or managing displaced tenants.
+Once mitigation is complete, we handle the rebuild, framing, drywall, flooring, and finish work, so property owners are not coordinating a separate contractor while living out of a damaged home or managing displaced tenants.
 
 ## Coverage and how fast we can get there
 
-Kenilworth sits roughly 15 miles southeast of Paterson via Route 21 North or the Garden State Parkway to I-80 West. Both routes feed directly into Paterson's main corridors, giving us straightforward access to neighborhoods across the city — from the Totowa Section in the northwest to Lakeview near the Passaic County Community College campus, and south through the 07503 and 07504 ZIP codes toward South Paterson. Because The Restoration Group operates 24/7, a call at any hour reaches a live dispatcher who can route a crew toward the city immediately. Traffic on Route 21 through Clifton can add time during peak hours, and we account for that in our scheduling.
+Kenilworth sits roughly 15 miles southeast of Paterson via Route 21 North or the Garden State Parkway to I-80 West. Both routes feed directly into Paterson's main corridors, giving us straightforward access to neighborhoods across the city, from the Totowa Section in the northwest to Lakeview near the Passaic County Community College campus, and south through the 07503 and 07504 ZIP codes toward South Paterson. Because The Restoration Group operates 24/7, a call at any hour reaches a live dispatcher who can route a crew toward the city immediately. Traffic on Route 21 through Clifton can add time during peak hours, and we account for that in our scheduling.
 
 ## Building stock, site conditions, and permits in Paterson
 
@@ -55,4 +55,4 @@ Behind the brick and clapboard, most of these houses are balloon-framed with pla
 
 Permits for structural repair or rebuild come from Paterson's construction office under the New Jersey Uniform Construction Code, with separate building, electrical, plumbing, and fire subcode reviews. Work in mapped flood areas brings added elevation and substantial-improvement requirements.
 
-If you're dealing with water, fire, mold, or storm damage at a Paterson property — whether it's a single-family home in Sandy Hill or a multi-unit building in the 07522 ZIP code — call The Restoration Group at **(855) 650-7422**. We answer around the clock and can begin the assessment process the same day you call.
+If you're dealing with water, fire, mold, or storm damage at a Paterson property, whether it's a single-family home in Sandy Hill or a multi-unit building in the 07522 ZIP code, call The Restoration Group at **(855) 650-7422**. We answer around the clock and can begin the assessment process the same day you call.

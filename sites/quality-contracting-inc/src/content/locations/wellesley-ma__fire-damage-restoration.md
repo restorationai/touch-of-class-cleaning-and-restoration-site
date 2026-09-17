@@ -20,13 +20,13 @@ state: "MA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-Wellesley's housing stock tells a story in wood and plaster — Colonial Revivals, Tudors, and Craftsman bungalows built across several decades, many with balloon-frame construction that lets fire travel vertically through wall cavities faster than a modern platform frame ever would. When a kitchen fire or electrical fault ignites in one of these homes, the damage rarely stays where it started. Quality Contracting, Inc. responds to fire and smoke restoration calls throughout Wellesley, bringing the equipment and process knowledge that older New England construction actually demands.
+Wellesley's housing stock tells a story in wood and plaster, Colonial Revivals, Tudors, and Craftsman bungalows built across several decades, many with balloon-frame construction that lets fire travel vertically through wall cavities faster than a modern platform frame ever would. When a kitchen fire or electrical fault ignites in one of these homes, the damage rarely stays where it started. Quality Contracting, Inc. responds to fire and smoke restoration calls throughout Wellesley, bringing the equipment and process knowledge that older New England construction actually demands.
 
 ## Why Wellesley's Older Homes Complicate Fire Damage
 
-Balloon framing — common in homes built before roughly the mid-20th century — lacks the horizontal fire blocking that newer construction requires. A fire that appears contained to one room can push smoke and heat into attic spaces, wall cavities, and floor assemblies well beyond the visible char line. That matters for restoration because the scope of cleaning and structural assessment has to follow the smoke, not just the flames.
+Balloon framing, common in homes built before roughly the mid-20th century, lacks the horizontal fire blocking that newer construction requires. A fire that appears contained to one room can push smoke and heat into attic spaces, wall cavities, and floor assemblies well beyond the visible char line. That matters for restoration because the scope of cleaning and structural assessment has to follow the smoke, not just the flames.
 
-Wellesley also has a significant number of homes with original horsehair plaster walls and ceilings. Plaster is dense and absorbs smoke odor compounds differently than modern drywall — the particles penetrate deeper, and surface cleaning alone won't eliminate the smell. Effective odor control in these homes typically requires thermal fogging or hydroxyl treatment that reaches into the substrate, not just the air.
+Wellesley also has a significant number of homes with original horsehair plaster walls and ceilings. Plaster is dense and absorbs smoke odor compounds differently than modern drywall, the particles penetrate deeper, and surface cleaning alone won't eliminate the smell. Effective odor control in these homes typically requires thermal fogging or hydroxyl treatment that reaches into the substrate, not just the air.
 
 Winter conditions add another layer. Massachusetts cold snaps mean that after a fire, a home with broken windows or a compromised roof can drop to outdoor temperatures within hours. Frozen pipes, secondary water intrusion from firefighting efforts, and rapid temperature cycling all compound the original fire loss if the building isn't secured and stabilized quickly.
 
@@ -34,15 +34,15 @@ Winter conditions add another layer. Massachusetts cold snaps mean that after a 
 
 Every fire loss is different, but the sequence of work follows a consistent logic: stop further damage first, then assess the full scope, then restore.
 
-**Board-up and tarping** come first — open windows, doors, and roof penetrations left by the fire department get secured to prevent weather intrusion and unauthorized entry. In Wellesley's colder months, this step is time-sensitive.
+**Board-up and tarping** come first, open windows, doors, and roof penetrations left by the fire department get secured to prevent weather intrusion and unauthorized entry. In Wellesley's colder months, this step is time-sensitive.
 
 **Damage mapping** follows. We don't limit the inspection to rooms with visible char. Smoke migrates under pressure, and in balloon-frame construction it can travel two full stories through an unblocked wall cavity. We use moisture meters and thermal imaging to trace where heat and water from suppression efforts have traveled.
 
-**Structural cleaning and content pack-out** address soot, which is chemically active and continues to etch and corrode surfaces — metals, finishes, and fabrics — the longer it sits. Smoke residue from different fuel types (synthetic materials versus wood, for example) requires different cleaning chemistry, and we match the method to what actually burned.
+**Structural cleaning and content pack-out** address soot, which is chemically active and continues to etch and corrode surfaces, metals, finishes, and fabrics, the longer it sits. Smoke residue from different fuel types (synthetic materials versus wood, for example) requires different cleaning chemistry, and we match the method to what actually burned.
 
 **Odor elimination** in a plaster-walled Wellesley home is a multi-step process: HEPA vacuuming of loose soot, chemical sponge cleaning of surfaces, and penetrating odor counteractant treatment for walls and cavities that absorbed smoke deeply.
 
-**Reconstruction** closes out the project — framing, insulation, drywall or plaster patching, painting, and finish carpentry to return the space to its pre-loss condition.
+**Reconstruction** closes out the project, framing, insulation, drywall or plaster patching, painting, and finish carpentry to return the space to its pre-loss condition.
 
 ## Reaching Wellesley from Auburn
 
@@ -50,12 +50,12 @@ Quality Contracting, Inc. is based in Auburn, MA. Wellesley is accessible via Ro
 
 ## Working with Wellesley's Permitting and HOA Landscape
 
-Structural fire repairs in Wellesley require building permits through the town's Inspectional Services department. Depending on the scope — framing repairs, electrical work, roof replacement — multiple trade permits may be needed, and inspections are required before walls are closed. We document the damage thoroughly before demolition begins, which gives the permit application and your insurance carrier the photo and written record they need.
+Structural fire repairs in Wellesley require building permits through the town's Inspectional Services department. Depending on the scope, framing repairs, electrical work, roof replacement, multiple trade permits may be needed, and inspections are required before walls are closed. We document the damage thoroughly before demolition begins, which gives the permit application and your insurance carrier the photo and written record they need.
 
 Wellesley has a number of condominium associations and historic district considerations that can affect exterior restoration work. If your property falls under an HOA or is in an area with design review, material and color choices for siding, roofing, or windows may need approval before installation. We flag these requirements early so they don't delay the close-out phase.
 
 ## Local Note
 
-Wellesley's older homes frequently have knob-and-tube wiring that was never fully replaced — sometimes running alongside updated circuits added in later decades. After a fire, this mixed electrical history matters: a fire that appears to have started from a modern appliance circuit may have involved legacy wiring in the wall cavity as a contributing factor. Before reconstruction closes up any walls, it's worth having a licensed electrician walk the affected areas, because restoring the structure over a wiring hazard just recreates the risk. We coordinate with electrical trades as part of the reconstruction sequence rather than treating it as someone else's problem.
+Wellesley's older homes frequently have knob-and-tube wiring that was never fully replaced, sometimes running alongside updated circuits added in later decades. After a fire, this mixed electrical history matters: a fire that appears to have started from a modern appliance circuit may have involved legacy wiring in the wall cavity as a contributing factor. Before reconstruction closes up any walls, it's worth having a licensed electrician walk the affected areas, because restoring the structure over a wiring hazard just recreates the risk. We coordinate with electrical trades as part of the reconstruction sequence rather than treating it as someone else's problem.
 
 If your Wellesley home has sustained fire or smoke damage, the sooner the building is stabilized and the restoration process begins, the narrower the final scope of work tends to be. Call Quality Contracting, Inc. at (508) 756-8800 to talk through what you're dealing with and get the process started.

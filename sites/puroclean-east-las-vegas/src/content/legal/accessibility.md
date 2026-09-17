@@ -18,7 +18,7 @@ rendered: true
 ---
 ## Our Commitment to Accessibility
 
-PuroClean of East Las Vegas is committed to ensuring that our website — purocleaneastlasvegas.com — is accessible to everyone, including people who rely on assistive technologies such as screen readers, keyboard navigation, or voice control software. We believe that every visitor, regardless of ability, deserves a clear and usable experience when they need help with a water, fire, or mold emergency.
+PuroClean of East Las Vegas is committed to ensuring that our website, purocleaneastlasvegas.com, is accessible to everyone, including people who rely on assistive technologies such as screen readers, keyboard navigation, or voice control software. We believe that every visitor, regardless of ability, deserves a clear and usable experience when they need help with a water, fire, or mold emergency.
 
 ## What Standard We Aim to Meet
 
@@ -34,11 +34,11 @@ We recognize that accessibility is an ongoing effort, not a one-time checklist. 
 
 ## Known Limitations
 
-Despite our efforts, some content or functionality may not yet fully meet WCAG 2.1 AA standards. Third-party tools or embeds — such as scheduling widgets or map integrations — may have limitations outside our direct control. We are actively working to identify and address gaps as they are discovered.
+Despite our efforts, some content or functionality may not yet fully meet WCAG 2.1 AA standards. Third-party tools or embeds, such as scheduling widgets or map integrations, may have limitations outside our direct control. We are actively working to identify and address gaps as they are discovered.
 
 ## How to Report an Issue
 
-If you encounter a barrier on our site — a page that does not work with your screen reader, a form field that is difficult to navigate, an image missing a description, or anything else that makes it harder to get the information you need — please let us know. We take these reports seriously and will work to address confirmed issues within a reasonable timeframe.
+If you encounter a barrier on our site, a page that does not work with your screen reader, a form field that is difficult to navigate, an image missing a description, or anything else that makes it harder to get the information you need, please let us know. We take these reports seriously and will work to address confirmed issues within a reasonable timeframe.
 
 You can reach us through any of the following:
 

@@ -21,13 +21,13 @@ service_display: "Biohazard and Trauma Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
-When something traumatic happens at a Kent property, the last thing you should have to manage is figuring out who handles the cleanup. National Restoration Construction responds to biohazard and trauma situations across Kent and the surrounding South King County area — discreetly, thoroughly, and with the certifications that insurance carriers and property managers require. If you're reading this in the middle of an emergency, you can reach us at **(206) 883-0333** any time of day or night.
+When something traumatic happens at a Kent property, the last thing you should have to manage is figuring out who handles the cleanup. National Restoration Construction responds to biohazard and trauma situations across Kent and the surrounding South King County area, discreetly, thoroughly, and with the certifications that insurance carriers and property managers require. If you're reading this in the middle of an emergency, you can reach us at **(206) 883-0333** any time of day or night.
 
 ## What to Expect When You Contact Us
 
-The first few minutes after a biohazard incident are disorienting. You may be dealing with law enforcement, family members, or a property manager — and you may have no idea what the cleanup process even involves. When you call, you'll speak with someone who handles these situations regularly. We'll ask a few brief questions to understand the scope, confirm we can be on-site within the right timeframe, and walk you through what happens next before anyone arrives.
+The first few minutes after a biohazard incident are disorienting. You may be dealing with law enforcement, family members, or a property manager, and you may have no idea what the cleanup process even involves. When you call, you'll speak with someone who handles these situations regularly. We'll ask a few brief questions to understand the scope, confirm we can be on-site within the right timeframe, and walk you through what happens next before anyone arrives.
 
-We keep our arrival discreet. Unmarked vehicles, plain-clothed technicians when appropriate, and no unnecessary foot traffic. Many of our Kent clients — both residential and commercial — specifically mention that discretion matters as much as the technical work itself.
+We keep our arrival discreet. Unmarked vehicles, plain-clothed technicians when appropriate, and no unnecessary foot traffic. Many of our Kent clients, both residential and commercial, specifically mention that discretion matters as much as the technical work itself.
 
 ## Our Biohazard and Trauma Cleanup Process in Kent
 
@@ -35,9 +35,9 @@ Every job begins with a thorough assessment of the affected area. Our IICRC-cert
 
 **Containment and PPE setup.** We establish a controlled work zone to prevent cross-contamination with unaffected areas of the property. This matters especially in older Kent homes and multi-unit buildings where HVAC systems can distribute airborne particles.
 
-**Removal of contaminated materials.** Biohazardous waste — including any porous materials that cannot be safely restored — is packaged and transported in compliance with Washington State Department of Ecology regulations for medical and biohazardous waste disposal.
+**Removal of contaminated materials.** Biohazardous waste, including any porous materials that cannot be safely restored, is packaged and transported in compliance with Washington State Department of Ecology regulations for medical and biohazardous waste disposal.
 
-**Surface treatment and disinfection.** We use EPA-registered hospital-grade disinfectants on all affected surfaces. Odor control is addressed at the same time, not as an afterthought — trauma scene cleanup that leaves behind odor is incomplete work.
+**Surface treatment and disinfection.** We use EPA-registered hospital-grade disinfectants on all affected surfaces. Odor control is addressed at the same time, not as an afterthought, trauma scene cleanup that leaves behind odor is incomplete work.
 
 **Clearance documentation.** Before we leave, we provide written documentation of the work completed. This is what your insurance carrier and, in some cases, future occupants will need.
 
@@ -45,7 +45,7 @@ Every job begins with a thorough assessment of the affected area. Our IICRC-cert
 
 Our headquarters is in Federal Way, roughly 10 to 15 minutes from most Kent neighborhoods under normal traffic conditions. For properties near downtown Kent, the East Hill area, or along the 167 corridor, a technician can typically be on-site within 60 minutes of your call. Areas farther east toward Covington or north toward Renton may see arrival times closer to 90 minutes.
 
-We operate 24 hours a day, seven days a week. There is no after-hours surcharge for emergency response — the same crew and the same process, regardless of when you call.
+We operate 24 hours a day, seven days a week. There is no after-hours surcharge for emergency response, the same crew and the same process, regardless of when you call.
 
 ## Insurance Claims for Biohazard Cleanup
 
@@ -57,8 +57,8 @@ What you don't need to do: negotiate scope with an adjuster before calling us. W
 
 ## Serving Kent Properties Since 2004
 
-Kent's housing stock is a mix — mid-century single-family homes in the valley, newer construction on the East Hill plateau, commercial and industrial properties along the Green River corridor. We've worked in all of them. Older construction in particular can present hidden challenges during biohazard remediation: subfloor materials, wall cavities, and crawl spaces that require additional assessment beyond the visible affected area.
+Kent's housing stock is a mix, mid-century single-family homes in the valley, newer construction on the East Hill plateau, commercial and industrial properties along the Green River corridor. We've worked in all of them. Older construction in particular can present hidden challenges during biohazard remediation: subfloor materials, wall cavities, and crawl spaces that require additional assessment beyond the visible affected area.
 
 Washington State licenses our work under General Contractor Certificate of Registration #NATIORC792M6 (WA Dept. of Labor & Industries). We carry full liability and workers' compensation insurance, and we're accredited through the BBB.
 
-If you're facing a situation that needs professional attention today, the number to reach us is **(206) 883-0333**. You don't need to have all the answers before you call — that's what the first conversation is for.
+If you're facing a situation that needs professional attention today, the number to reach us is **(206) 883-0333**. You don't need to have all the answers before you call, that's what the first conversation is for.

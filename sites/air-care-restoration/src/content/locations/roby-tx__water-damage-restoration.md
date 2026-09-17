@@ -20,40 +20,40 @@ state: "TX"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
-Roby sits in the heart of Fisher County on the rolling West Texas plains, where the climate swings hard — long dry stretches punctuated by intense thunderstorms that can dump inches of rain in hours on soil that has baked too hard to absorb it quickly. When that water finds its way into a home or commercial building, it moves fast: under baseboards, behind cabinetry, into subfloor cavities. Air Care Restoration responds to water damage calls in Roby around the clock, dispatching from Abilene with an IICRC-certified crew equipped to start extraction and structural drying the same day you call.
+Roby sits in the heart of Fisher County on the rolling West Texas plains, where the climate swings hard, long dry stretches punctuated by intense thunderstorms that can dump inches of rain in hours on soil that has baked too hard to absorb it quickly. When that water finds its way into a home or commercial building, it moves fast: under baseboards, behind cabinetry, into subfloor cavities. Air Care Restoration responds to water damage calls in Roby around the clock, dispatching from Abilene with an IICRC-certified crew equipped to start extraction and structural drying the same day you call.
 
 ## Why Roby Properties See Water Damage Issues
 
-Fisher County's clay-heavy soils are a double-edged problem. During drought, that clay shrinks and pulls away from foundations, leaving gaps that invite water intrusion the moment heavy rain arrives. During wet cycles, the same soil swells and holds moisture against slab edges and pier-and-beam foundations for days after the storm passes. Many homes in Roby were built in the mid-twentieth century, when vapor barriers and waterproofing membranes were minimal by today's standards — meaning moisture migration into crawl spaces and wall cavities is a recurring issue rather than a one-time event.
+Fisher County's clay-heavy soils are a double-edged problem. During drought, that clay shrinks and pulls away from foundations, leaving gaps that invite water intrusion the moment heavy rain arrives. During wet cycles, the same soil swells and holds moisture against slab edges and pier-and-beam foundations for days after the storm passes. Many homes in Roby were built in the mid-twentieth century, when vapor barriers and waterproofing membranes were minimal by today's standards, meaning moisture migration into crawl spaces and wall cavities is a recurring issue rather than a one-time event.
 
 Roby's position on the open plains also means hail and high-wind events regularly compromise roofing materials, creating sudden roof-leak pathways that can saturate attic insulation and ceiling assemblies before a homeowner notices a stain. A ceiling that looks like a small water spot can conceal insulation holding several gallons of moisture directly above drywall that is already beginning to soften.
 
 ## Our Water Damage Restoration Process in Roby
 
-Every job starts with a thorough moisture mapping inspection. We use thermal imaging cameras and calibrated moisture meters to locate water that has migrated beyond the visible wet area — because in West Texas construction, water behind plaster or inside a pier-and-beam subfloor can read dry at the surface while the structural members underneath remain saturated.
+Every job starts with a thorough moisture mapping inspection. We use thermal imaging cameras and calibrated moisture meters to locate water that has migrated beyond the visible wet area, because in West Texas construction, water behind plaster or inside a pier-and-beam subfloor can read dry at the surface while the structural members underneath remain saturated.
 
 Once the scope is confirmed, the process moves in this order:
 
-1. **Water extraction** — truck-mounted and portable extractors remove standing water and pull moisture from carpet, pad, and hard flooring before it migrates further.
-2. **Controlled demolition** — saturated drywall, insulation, and flooring that cannot be dried in place are removed to expose structural materials for drying. We document everything photographically for your insurance claim.
-3. **Structural drying** — industrial desiccant and refrigerant dehumidifiers, combined with high-velocity air movers, are positioned to dry framing, subfloor, and wall cavities to IICRC S500 standard moisture levels.
-4. **Monitoring** — we return daily to record moisture readings and adjust equipment placement until all materials reach their target moisture content.
-5. **Clearance and rebuild coordination** — once drying is confirmed, we document final readings and coordinate the repair phase.
+1. **Water extraction**, truck-mounted and portable extractors remove standing water and pull moisture from carpet, pad, and hard flooring before it migrates further.
+2. **Controlled demolition**, saturated drywall, insulation, and flooring that cannot be dried in place are removed to expose structural materials for drying. We document everything photographically for your insurance claim.
+3. **Structural drying**, industrial desiccant and refrigerant dehumidifiers, combined with high-velocity air movers, are positioned to dry framing, subfloor, and wall cavities to IICRC S500 standard moisture levels.
+4. **Monitoring**, we return daily to record moisture readings and adjust equipment placement until all materials reach their target moisture content.
+5. **Clearance and rebuild coordination**, once drying is confirmed, we document final readings and coordinate the repair phase.
 
 ## Reaching Roby from Abilene
 
-Air Care Restoration is based in Abilene, roughly 70 miles southwest of Roby via US-180 East through Merkel and Trent. Because we operate 24/7, a call placed at any hour initiates dispatch — there is no waiting until morning for a crew to be available. US-180 is a straightforward two-lane highway through open ranch country, and our vehicles carry a full equipment load so no second trip is needed for gear.
+Air Care Restoration is based in Abilene, roughly 70 miles southwest of Roby via US-180 East through Merkel and Trent. Because we operate 24/7, a call placed at any hour initiates dispatch, there is no waiting until morning for a crew to be available. US-180 is a straightforward two-lane highway through open ranch country, and our vehicles carry a full equipment load so no second trip is needed for gear.
 
 For properties on the eastern side of Fisher County, the route through Sweetwater on I-20 and then north on US-70 is sometimes faster depending on conditions. We confirm the best approach when you call so we can give you an honest arrival estimate rather than a marketing promise.
 
 ## Roby Insurance Coordination
 
-Most standard homeowners policies cover sudden and accidental water damage — a burst pipe, an appliance failure, a storm-driven roof leak. What they typically do not cover is long-term seepage or gradual leaks that a homeowner could have discovered earlier. The distinction matters, and the documentation we produce during moisture mapping and demolition is what supports your adjuster's assessment.
+Most standard homeowners policies cover sudden and accidental water damage, a burst pipe, an appliance failure, a storm-driven roof leak. What they typically do not cover is long-term seepage or gradual leaks that a homeowner could have discovered earlier. The distinction matters, and the documentation we produce during moisture mapping and demolition is what supports your adjuster's assessment.
 
 We photograph affected materials before removal, log moisture readings by date and location, and prepare a scope of work that aligns with the line-item format most carriers use. We communicate technical scope information directly with your adjuster and bill carriers directly where coverage applies. Coverage and settlement decisions remain between you and your carrier.
 
 ## Local Note
 
-One thing that catches homeowners in Roby off guard: the region's low relative humidity is an asset for drying — West Texas air is naturally dry — but it can also mask how much moisture is still trapped in structural materials. A room may feel and smell dry within 24 hours of extraction while subfloor sheathing or wall framing is still reading 20 percent or higher on a moisture meter. Stopping equipment early because the air feels fine is one of the most common reasons secondary mold growth appears two to three weeks after a water loss in this climate. Daily meter readings, not sensory checks, are what determine when drying is actually complete.
+One thing that catches homeowners in Roby off guard: the region's low relative humidity is an asset for drying, West Texas air is naturally dry, but it can also mask how much moisture is still trapped in structural materials. A room may feel and smell dry within 24 hours of extraction while subfloor sheathing or wall framing is still reading 20 percent or higher on a moisture meter. Stopping equipment early because the air feels fine is one of the most common reasons secondary mold growth appears two to three weeks after a water loss in this climate. Daily meter readings, not sensory checks, are what determine when drying is actually complete.
 
-If your home or business in Roby has taken on water — whether from a storm, a plumbing failure, or an appliance leak — call Air Care Restoration at (325) 339-8723. We are available day or night, and every hour water sits in a structure is an hour it is working deeper into materials that are harder and more expensive to dry.
+If your home or business in Roby has taken on water, whether from a storm, a plumbing failure, or an appliance leak, call Air Care Restoration at (325) 339-8723. We are available day or night, and every hour water sits in a structure is an hour it is working deeper into materials that are harder and more expensive to dry.

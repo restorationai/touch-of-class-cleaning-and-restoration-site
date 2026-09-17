@@ -19,7 +19,7 @@ Whether a pipe just let go or you're ready to schedule a new furnace install, th
 
 ## For urgent situations
 
-If water is spraying, your sewer is backing up, or the AC quit on a 105° Bakersfield afternoon, call **(661) 863-9242** right now. We answer 24/7 — no answering service, no "leave a message and we'll get back to you in the morning." A real person picks up, gets the details, and dispatches a technician. One exception: if you smell gas, leave the building immediately and call 911 or SoCalGas at 1-800-427-2200 from outside. Once the utility has cleared the scene, we're the call for pressure testing and repair.
+If water is spraying, your sewer is backing up, or the AC quit on a 105° Bakersfield afternoon, call **(661) 863-9242** right now. We answer 24/7, no answering service, no "leave a message and we'll get back to you in the morning." A real person picks up, gets the details, and dispatches a technician. One exception: if you smell gas, leave the building immediately and call 911 or SoCalGas at 1-800-427-2200 from outside. Once the utility has cleared the scene, we're the call for pressure testing and repair.
 
 ## For estimates and non-urgent work
 
@@ -27,4 +27,4 @@ Planning a water heater replacement, a new HVAC system, or a whole-home repipe? 
 
 ## Where we're located
 
-Our shop is based in Bakersfield, CA, and we serve the greater Kern County area — including Tehachapi, Delano, Shafter, Wasco, Taft, and surrounding communities. Bakersfield's hard water and long stretches of triple-digit heat put real wear on plumbing and HVAC systems, and we work in this climate every day. If you're not sure whether you're in our service area, just call or drop us a line and we'll let you know straight away.
+Our shop is based in Bakersfield, CA, and we serve the greater Kern County area, including Tehachapi, Delano, Shafter, Wasco, Taft, and surrounding communities. Bakersfield's hard water and long stretches of triple-digit heat put real wear on plumbing and HVAC systems, and we work in this climate every day. If you're not sure whether you're in our service area, just call or drop us a line and we'll let you know straight away.

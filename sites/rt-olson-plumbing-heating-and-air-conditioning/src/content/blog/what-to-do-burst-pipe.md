@@ -17,7 +17,7 @@ published_at: "2026-08-17"
 services: ["burst-pipe-repair", "emergency-plumbing"]
 rendered: true
 ---
-If a pipe has just burst in your home, do these four things right now: **shut off the main water supply, cut power to affected rooms, open a cold tap to drain pressure, and call a licensed plumber.** Everything else — the cleanup, the insurance call, the drywall repair — comes after those four steps. The next ten minutes will determine how much water soaks into your framing, insulation, and flooring, so move fast but move in order.
+If a pipe has just burst in your home, do these four things right now: **shut off the main water supply, cut power to affected rooms, open a cold tap to drain pressure, and call a licensed plumber.** Everything else, the cleanup, the insurance call, the drywall repair, comes after those four steps. The next ten minutes will determine how much water soaks into your framing, insulation, and flooring, so move fast but move in order.
 
 ## Step-by-Step: The First 10 Minutes
 
@@ -25,17 +25,17 @@ Think of this as a countdown. Every minute of active flow adds gallons to the da
 
 **1. Find and close the main shutoff valve (minutes 1–2)**
 
-In most Southern California homes, the main shutoff is one of two places: at the water meter near the street (usually under a rectangular concrete lid in the parkway), or on the exterior wall of the house near the front hose bib. Turn it clockwise until it stops. If you have a ball valve — a lever handle rather than a round wheel — rotate it 90 degrees so it sits perpendicular to the pipe. Water should stop flowing within seconds.
+In most Southern California homes, the main shutoff is one of two places: at the water meter near the street (usually under a rectangular concrete lid in the parkway), or on the exterior wall of the house near the front hose bib. Turn it clockwise until it stops. If you have a ball valve, a lever handle rather than a round wheel, rotate it 90 degrees so it sits perpendicular to the pipe. Water should stop flowing within seconds.
 
 If you have never located this valve, do it today, before anything goes wrong. Tape a note to your water heater with the location.
 
 **2. Switch off electricity to wet areas (minute 2–3)**
 
-Water and live circuits are a serious hazard. Go to your breaker panel and cut power to any room where water is actively flowing or pooling. If the panel itself is in a wet area, do not touch it — call 911 and stay out of the space.
+Water and live circuits are a serious hazard. Go to your breaker panel and cut power to any room where water is actively flowing or pooling. If the panel itself is in a wet area, do not touch it, call 911 and stay out of the space.
 
 **3. Open a cold faucet on the lowest floor (minute 3–4)**
 
-With the main valve closed, there is still pressurized water sitting in the pipes. Opening a faucet — a bathtub tap or a utility sink works well — lets that remaining water drain down and out rather than continuing to seep through the break.
+With the main valve closed, there is still pressurized water sitting in the pipes. Opening a faucet, a bathtub tap or a utility sink works well, lets that remaining water drain down and out rather than continuing to seep through the break.
 
 **4. Document everything before you touch it (minutes 4–6)**
 
@@ -43,14 +43,14 @@ Walk the affected area with your phone and shoot video. Pan slowly across the ce
 
 **5. Move what you can, fast (minutes 6–10)**
 
-Rugs, upholstered furniture, electronics, and wood furniture absorb water quickly and can be total losses if left sitting. Lift rugs off wet floors entirely — a wet rug traps moisture against hardwood or subfloor and accelerates mold growth. Stack furniture on aluminum foil squares or plastic bags if you cannot move it out of the room.
+Rugs, upholstered furniture, electronics, and wood furniture absorb water quickly and can be total losses if left sitting. Lift rugs off wet floors entirely, a wet rug traps moisture against hardwood or subfloor and accelerates mold growth. Stack furniture on aluminum foil squares or plastic bags if you cannot move it out of the room.
 
 ## What NOT to Do
 
 In a burst-pipe emergency, a few instincts will make things worse:
 
 - **Don't use a shop vac or household vacuum on standing water if the power is still on in that room.** Cut the breaker first.
-- **Don't assume the wet area is the only wet area.** Water follows framing cavities and can travel six feet horizontally inside a wall before it shows up as a stain. Press your palm along the drywall above and around the visible damage — if it feels cool and slightly soft, water is behind it.
+- **Don't assume the wet area is the only wet area.** Water follows framing cavities and can travel six feet horizontally inside a wall before it shows up as a stain. Press your palm along the drywall above and around the visible damage, if it feels cool and slightly soft, water is behind it.
 - **Don't use a hair dryer or space heater to dry things out yourself.** Surface drying without addressing moisture inside the wall cavity creates the exact conditions mold needs: warmth and trapped humidity.
 - **Don't pour bleach on wet drywall.** It does not prevent mold growth inside a water-saturated wall cavity, and it can mask odors that would otherwise alert you to a hidden moisture problem.
 - **Don't wait to call your insurance company.** Most homeowner policies have a reporting window, and delayed notification can complicate your claim.
@@ -60,13 +60,13 @@ In a burst-pipe emergency, a few instincts will make things worse:
 Not every burst pipe announces itself with a waterfall. A pinhole failure in a supply line inside a wall may run for hours before you notice anything. Here is what to look for:
 
 - **Ceiling bubbling or sagging:** Paint that blisters or drywall that looks pregnant with water means there is standing water above it. Do not stand under it.
-- **Warm or soft spots on the floor:** In a slab-foundation home — common in Corona and the Inland Empire — a warm patch on a tile floor with no other explanation can indicate a hot-water line break beneath the concrete. That is a slab leak, and it requires specialized detection equipment.
+- **Warm or soft spots on the floor:** In a slab-foundation home, common in Corona and the Inland Empire, a warm patch on a tile floor with no other explanation can indicate a hot-water line break beneath the concrete. That is a slab leak, and it requires specialized detection equipment.
 - **A sudden spike in your water meter:** If you suspect a hidden leak, turn off every fixture in the house and watch the meter dial for two minutes. If it moves, water is going somewhere it should not.
 - **Musty smell without visible mold:** Mold can colonize drywall paper within 24 to 48 hours of saturation. A smell without a stain usually means the damage is inside the wall.
 
 ## When to Call a Plumber (and What to Tell Them)
 
-Call a licensed plumber as soon as the immediate hazards are controlled — meaning the water is off, the power is safe, and you have documented the scene. Do not wait until morning if water is still moving or if you cannot locate the shutoff.
+Call a licensed plumber as soon as the immediate hazards are controlled, meaning the water is off, the power is safe, and you have documented the scene. Do not wait until morning if water is still moving or if you cannot locate the shutoff.
 
 When you call, tell them:
 
@@ -75,13 +75,13 @@ When you call, tell them:
 - Whether the water was hot or cold (this helps identify which line failed)
 - How long the leak was active before you noticed it
 
-That information lets a plumber arrive with the right materials and equipment rather than diagnosing blind. Burst-pipe repair in a finished wall is different work than a failed hose bib on an exterior wall — the repair scope, the access method, and the drying timeline all differ.
+That information lets a plumber arrive with the right materials and equipment rather than diagnosing blind. Burst-pipe repair in a finished wall is different work than a failed hose bib on an exterior wall, the repair scope, the access method, and the drying timeline all differ.
 
 ## The Recovery Process After the Repair
 
 Fixing the pipe is the beginning, not the end. Here is what follows:
 
-1. **Moisture mapping.** A plumber or water damage professional uses a moisture meter to find the full boundary of saturation — not just what looks wet, but what reads wet. In older stucco construction common across the Inland Empire, moisture can wick into the lath layer and stay there long after the surface feels dry.
+1. **Moisture mapping.** A plumber or water damage professional uses a moisture meter to find the full boundary of saturation, not just what looks wet, but what reads wet. In older stucco construction common across the Inland Empire, moisture can wick into the lath layer and stay there long after the surface feels dry.
 2. **Drying.** Industrial air movers and dehumidifiers pull moisture out of structural materials. This typically takes several days, not hours, and the equipment needs to stay in place until readings confirm drywall and framing are back to acceptable moisture levels.
 3. **Mold assessment.** If water was present for more than 24–48 hours before drying began, a mold assessment is worth the cost before you close the wall back up.
 4. **Reconstruction.** Once materials are confirmed dry, drywall, insulation, flooring, and paint can be restored. This is usually coordinated with your insurance adjuster.

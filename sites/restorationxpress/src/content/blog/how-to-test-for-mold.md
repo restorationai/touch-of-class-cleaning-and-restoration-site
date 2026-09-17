@@ -17,11 +17,11 @@ published_at: "2026-07-10"
 services: ["mold-remediation", "mold-inspection-testing"]
 rendered: true
 ---
-Testing for mold starts with your nose and eyes, not a kit. If you smell something musty — like wet cardboard or a damp basement — and you've had a recent leak, condensation problem, or flooding, there's a good chance mold is already growing somewhere nearby. DIY test kits can confirm that mold spores exist in your air (they almost always do), but they can't tell you *where* the colony is, how large it is, or whether the species present is a health concern. A professional inspection does all three. Here's how to think through both options before spending money on either.
+Testing for mold starts with your nose and eyes, not a kit. If you smell something musty, like wet cardboard or a damp basement, and you've had a recent leak, condensation problem, or flooding, there's a good chance mold is already growing somewhere nearby. DIY test kits can confirm that mold spores exist in your air (they almost always do), but they can't tell you *where* the colony is, how large it is, or whether the species present is a health concern. A professional inspection does all three. Here's how to think through both options before spending money on either.
 
 ## What DIY Mold Test Kits Actually Measure
 
-The most common DIY kits sold at hardware stores — Petri dish settle-plate tests — work by leaving an open dish of nutrient gel on a surface for 48 hours, then mailing it to a lab. If mold spores land in the dish and grow, the test is "positive."
+The most common DIY kits sold at hardware stores, Petri dish settle-plate tests, work by leaving an open dish of nutrient gel on a surface for 48 hours, then mailing it to a lab. If mold spores land in the dish and grow, the test is "positive."
 
 The problem: mold spores are everywhere. Outdoor air in South Florida carries a baseline load of spores year-round because of the heat and humidity. A settle-plate test in a perfectly dry, problem-free room in Davie will almost certainly come back positive. The test doesn't tell you:
 
@@ -30,29 +30,29 @@ The problem: mold spores are everywhere. Outdoor air in South Florida carries a 
 - Whether the species present (Cladosporium, Aspergillus, Stachybotrys, etc.) is the type associated with water-damaged buildings
 - Whether there is active mold growth hidden inside a wall cavity, under flooring, or above ceiling tiles
 
-Air-sampling cassette kits are a step up — they use a small pump to pull a measured volume of air through a collection cassette, which is then analyzed under a microscope. These are more accurate than settle-plate tests, but interpreting the results still requires a comparison sample taken outdoors at the same time, which most DIY instructions underemphasize.
+Air-sampling cassette kits are a step up, they use a small pump to pull a measured volume of air through a collection cassette, which is then analyzed under a microscope. These are more accurate than settle-plate tests, but interpreting the results still requires a comparison sample taken outdoors at the same time, which most DIY instructions underemphasize.
 
-**Bottom line on DIY kits:** They're useful for satisfying curiosity or documenting that *some* mold exists — for example, if a landlord is disputing a complaint. They are not reliable for ruling out a mold problem, locating its source, or guiding remediation.
+**Bottom line on DIY kits:** They're useful for satisfying curiosity or documenting that *some* mold exists, for example, if a landlord is disputing a complaint. They are not reliable for ruling out a mold problem, locating its source, or guiding remediation.
 
 ## What a Professional Mold Inspection Includes
 
 A certified mold inspector does several things a kit can't replicate.
 
-**Visual survey first.** An experienced inspector walks the structure looking for moisture intrusion points — roof penetrations, plumbing chases, HVAC condensate lines, window frames, and bathroom exhaust paths. In Davie and the broader Broward County area, flat or low-slope roofs and high indoor humidity from AC cycling are common contributors. The inspector is looking for visible staining, efflorescence on concrete block, soft drywall, or discoloration on framing.
+**Visual survey first.** An experienced inspector walks the structure looking for moisture intrusion points, roof penetrations, plumbing chases, HVAC condensate lines, window frames, and bathroom exhaust paths. In Davie and the broader Broward County area, flat or low-slope roofs and high indoor humidity from AC cycling are common contributors. The inspector is looking for visible staining, efflorescence on concrete block, soft drywall, or discoloration on framing.
 
 **Moisture mapping.** Handheld moisture meters and thermal imaging cameras reveal elevated moisture in building materials even when the surface looks dry. A reading above 16–18% moisture content in wood framing, for example, is a flag for potential mold growth even if nothing is visible yet.
 
-**Air and surface sampling.** The inspector collects air samples from suspect areas *and* an outdoor control sample. Surface samples (tape lifts or swabs) are taken from visible growth to identify the species. All samples go to an accredited third-party laboratory — not an in-house lab run by the same company doing the remediation, which is an important separation to ask about.
+**Air and surface sampling.** The inspector collects air samples from suspect areas *and* an outdoor control sample. Surface samples (tape lifts or swabs) are taken from visible growth to identify the species. All samples go to an accredited third-party laboratory, not an in-house lab run by the same company doing the remediation, which is an important separation to ask about.
 
-**Written report.** You receive a lab report plus the inspector's interpretation: spore counts by species, comparison to outdoor baseline, moisture readings by room, and a map of affected areas. This report is what a remediation contractor uses to write a proper scope of work — and what your insurance adjuster may require before approving a claim.
+**Written report.** You receive a lab report plus the inspector's interpretation: spore counts by species, comparison to outdoor baseline, moisture readings by room, and a map of affected areas. This report is what a remediation contractor uses to write a proper scope of work, and what your insurance adjuster may require before approving a claim.
 
 ## Signs You Should Skip the DIY Kit and Call an Inspector Directly
 
 Some situations don't need a $30 test to confirm there's a problem. Go straight to a professional inspection if:
 
-1. **You can see visible mold growth larger than about 10 square feet.** At that scale, the question isn't whether mold is present — it's how far it has spread behind surfaces.
-2. **You've had standing water or a slow leak that went unnoticed for more than 24–48 hours.** Mold can begin colonizing wet drywall, insulation, and wood within 24 to 72 hours under warm, humid conditions — which describes most of the year in South Florida.
-3. **Someone in the household has unexplained respiratory symptoms, recurring sinus issues, or worsening asthma** that correlate with time spent at home. This isn't a medical diagnosis — but it's a reason to get environmental data.
+1. **You can see visible mold growth larger than about 10 square feet.** At that scale, the question isn't whether mold is present, it's how far it has spread behind surfaces.
+2. **You've had standing water or a slow leak that went unnoticed for more than 24–48 hours.** Mold can begin colonizing wet drywall, insulation, and wood within 24 to 72 hours under warm, humid conditions, which describes most of the year in South Florida.
+3. **Someone in the household has unexplained respiratory symptoms, recurring sinus issues, or worsening asthma** that correlate with time spent at home. This isn't a medical diagnosis, but it's a reason to get environmental data.
 4. **You're buying or selling a home** and a prior water loss is disclosed. An independent inspection protects both parties.
 5. **Your insurance company requires documentation** before approving a mold remediation claim. A DIY kit result will not satisfy that requirement.
 
@@ -67,15 +67,15 @@ If you've scheduled an inspection, a few things will affect the accuracy of the 
 
 **Don't:**
 - Paint over or bleach visible mold growth before the inspection. Bleach kills surface cells but doesn't penetrate porous materials, and painting over growth hides it from visual survey without eliminating it. You'll also contaminate any surface samples taken nearby.
-- Run extra fans or air purifiers in the days before the inspection — this can artificially lower airborne spore counts and produce a false-negative air sample
+- Run extra fans or air purifiers in the days before the inspection, this can artificially lower airborne spore counts and produce a false-negative air sample
 - Assume a negative DIY kit result means the inspection isn't necessary. If your gut says something is wrong, the kit's limitations mean it may simply have missed the problem
 
 ## What Happens After a Positive Inspection Result
 
-If the inspection confirms elevated mold or identifies an active growth area, the next step is professional remediation — not a DIY cleanup with bleach and a box fan.
+If the inspection confirms elevated mold or identifies an active growth area, the next step is professional remediation, not a DIY cleanup with bleach and a box fan.
 
 Proper mold remediation involves containing the affected area to prevent cross-contamination, removing and disposing of porous materials that cannot be cleaned (drywall, insulation, carpet), treating structural materials that can be salvaged, and verifying through post-remediation clearance testing that spore counts have returned to normal baseline levels.
 
-The remediation contractor and the inspector should ideally be separate companies — this is sometimes called the "separation of testing and remediation" and it protects you from a conflict of interest where the company finding the problem is also the one billing to fix it.
+The remediation contractor and the inspector should ideally be separate companies, this is sometimes called the "separation of testing and remediation" and it protects you from a conflict of interest where the company finding the problem is also the one billing to fix it.
 
-RestorationXpress handles mold remediation and can coordinate with independent testing professionals in the Davie area. If you've already received an inspection report and need a remediation scope reviewed, or if you're not sure where to start, call (954) 932-5420 and describe what you've found — the team can help you understand your next step without any pressure to commit to a project on the spot.
+RestorationXpress handles mold remediation and can coordinate with independent testing professionals in the Davie area. If you've already received an inspection report and need a remediation scope reviewed, or if you're not sure where to start, call (954) 932-5420 and describe what you've found, the team can help you understand your next step without any pressure to commit to a project on the spot.

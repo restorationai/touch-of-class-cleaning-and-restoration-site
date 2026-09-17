@@ -22,35 +22,35 @@ If you just discovered water pouring from a burst pipe or came home to a ceiling
 
 ## What a Standard HO-3 Policy Actually Covers
 
-Most homeowners in the U.S. carry an HO-3 open-perils policy. That means the structure of your home (dwelling coverage, Coverage A) is covered against all causes of loss except those explicitly excluded. Personal property (Coverage C) works the other way — it only covers named perils. Here's what's typically included:
+Most homeowners in the U.S. carry an HO-3 open-perils policy. That means the structure of your home (dwelling coverage, Coverage A) is covered against all causes of loss except those explicitly excluded. Personal property (Coverage C) works the other way, it only covers named perils. Here's what's typically included:
 
-**Water damage from internal sources.** A washing machine supply hose that fails, a dishwasher line that blows, a water heater that ruptures, a pipe that freezes and bursts — these are covered because the cause is sudden and accidental. The key phrase in most policies is "sudden and accidental discharge or overflow of water." If a pipe burst at 2 a.m. and you woke up to six inches of standing water, that's a covered claim under most HO-3 policies.
+**Water damage from internal sources.** A washing machine supply hose that fails, a dishwasher line that blows, a water heater that ruptures, a pipe that freezes and bursts, these are covered because the cause is sudden and accidental. The key phrase in most policies is "sudden and accidental discharge or overflow of water." If a pipe burst at 2 a.m. and you woke up to six inches of standing water, that's a covered claim under most HO-3 policies.
 
-**Fire and smoke damage.** Structural fire damage, smoke infiltration into walls and HVAC systems, and soot residue on contents are covered perils. Smoke damage claims often require professional soot removal and odor remediation — the insurer's scope should include both the structural cleaning and the air quality component.
+**Fire and smoke damage.** Structural fire damage, smoke infiltration into walls and HVAC systems, and soot residue on contents are covered perils. Smoke damage claims often require professional soot removal and odor remediation, the insurer's scope should include both the structural cleaning and the air quality component.
 
-**Wind, hail, and storm damage.** Roof damage from hail, siding torn off in a windstorm, broken windows from a fallen branch — all covered. The coverage extends to interior damage caused by the storm opening up the structure (rain entering through a storm-broken window, for example), but NOT rain that enters through a pre-existing opening or poor maintenance.
+**Wind, hail, and storm damage.** Roof damage from hail, siding torn off in a windstorm, broken windows from a fallen branch, all covered. The coverage extends to interior damage caused by the storm opening up the structure (rain entering through a storm-broken window, for example), but NOT rain that enters through a pre-existing opening or poor maintenance.
 
 **Theft and vandalism.** Personal property stolen from the home and structural damage from a break-in (kicked-in door, broken window) are covered.
 
 **Liability.** If a guest is injured on your property, Coverage E (personal liability) covers legal defense and damages up to your policy limit. This isn't property damage coverage, but it's a significant part of what you're paying for.
 
-**Additional living expenses (ALE).** If your home is uninhabitable during a covered restoration, Coverage D pays for hotel, meals, and temporary housing. This is often underutilized — document every receipt.
+**Additional living expenses (ALE).** If your home is uninhabitable during a covered restoration, Coverage D pays for hotel, meals, and temporary housing. This is often underutilized, document every receipt.
 
 ## What Homeowners Insurance Does NOT Cover
 
 This is where most disputes happen. The exclusions are specific and consequential.
 
-**Flooding from external sources.** This is the most misunderstood exclusion. If a river overflows, a storm surge reaches your foundation, or heavy rainfall causes surface water to enter your basement, that is flood damage — and it is excluded from every standard HO-3 policy. Flood coverage requires a separate NFIP (National Flood Insurance Program) policy or a private flood endorsement. Many homeowners discover this after the fact.
+**Flooding from external sources.** This is the most misunderstood exclusion. If a river overflows, a storm surge reaches your foundation, or heavy rainfall causes surface water to enter your basement, that is flood damage, and it is excluded from every standard HO-3 policy. Flood coverage requires a separate NFIP (National Flood Insurance Program) policy or a private flood endorsement. Many homeowners discover this after the fact.
 
-**Gradual water damage and neglect.** A slow leak under a sink that's been dripping for months, a roof that's been missing shingles for a year, a crawlspace that's been damp since the previous owners — these are maintenance failures, not sudden losses. Adjusters are trained to look for evidence of long-term deterioration: staining patterns, rust, mold growth that predates the reported event. If the damage looks gradual, expect a denial or a reduced payout.
+**Gradual water damage and neglect.** A slow leak under a sink that's been dripping for months, a roof that's been missing shingles for a year, a crawlspace that's been damp since the previous owners, these are maintenance failures, not sudden losses. Adjusters are trained to look for evidence of long-term deterioration: staining patterns, rust, mold growth that predates the reported event. If the damage looks gradual, expect a denial or a reduced payout.
 
 **Mold, unless tied to a covered peril.** Mold is one of the most contested areas in residential claims. If mold developed because of a covered burst pipe that was mitigated promptly, most policies will include mold remediation in the claim scope. If mold developed from chronic humidity, a slow leak, or deferred maintenance, it's typically excluded. Some policies have a specific mold sublimit (often $5,000 to $10,000) even when the mold is tied to a covered event.
 
 **Foundation and earth movement.** Settling, cracking, and foundation movement caused by soil shifting, hydrostatic pressure, or earthquake are excluded from standard policies. Earthquake coverage requires a separate endorsement or standalone policy. Foundation repairs related to water intrusion from outside are almost universally denied.
 
-**Sewer backup, unless endorsed.** Sewage backing up through floor drains or toilets is excluded from most base policies. A sewer backup endorsement (typically $50 to $100 per year) adds this coverage. Without it, a Category 3 sewage cleanup — which requires full PPE, antimicrobial treatment, and often drywall removal — comes out of pocket.
+**Sewer backup, unless endorsed.** Sewage backing up through floor drains or toilets is excluded from most base policies. A sewer backup endorsement (typically $50 to $100 per year) adds this coverage. Without it, a Category 3 sewage cleanup, which requires full PPE, antimicrobial treatment, and often drywall removal, comes out of pocket.
 
-**Mechanical breakdown and wear.** Your HVAC failing, your water heater corroding from the inside out, your plumbing degrading from age — these are maintenance and equipment issues, not insured perils.
+**Mechanical breakdown and wear.** Your HVAC failing, your water heater corroding from the inside out, your plumbing degrading from age, these are maintenance and equipment issues, not insured perils.
 
 ## How Adjusters Evaluate Water Damage Claims
 
@@ -60,21 +60,21 @@ Adjusters are looking for three things: the cause of loss, the timeline, and the
 
 For water damage specifically, the IICRC S500 Standard for Professional Water Damage Restoration defines three water categories that adjusters and restoration contractors both use:
 
-- **Category 1 (clean water)**: Originates from a sanitary source — supply line, water heater, toilet tank. Lowest health risk.
-- **Category 2 (gray water)**: Contains contaminants — washing machine discharge, dishwasher overflow, aquarium. Moderate health risk.
+- **Category 1 (clean water)**: Originates from a sanitary source, supply line, water heater, toilet tank. Lowest health risk.
+- **Category 2 (gray water)**: Contains contaminants, washing machine discharge, dishwasher overflow, aquarium. Moderate health risk.
 - **Category 3 (black water)**: Sewage, rising floodwater, or water that has been sitting long enough to become grossly contaminated. Highest health risk; requires full decontamination protocol.
 
-The category affects the scope and cost of remediation. A Category 3 loss in a finished basement is a substantially different claim than a Category 1 pipe burst in a utility room. Make sure your restoration contractor documents the water category in their written scope — this matters for claim approval.
+The category affects the scope and cost of remediation. A Category 3 loss in a finished basement is a substantially different claim than a Category 1 pipe burst in a utility room. Make sure your restoration contractor documents the water category in their written scope, this matters for claim approval.
 
-Adjusters also assess drying classes (IICRC S500 Classes 1-4) to determine how much equipment and time the drying will require. Class 4 drying — where water has penetrated dense materials like hardwood subfloor or concrete — is significantly more expensive and time-consuming than Class 1.
+Adjusters also assess drying classes (IICRC S500 Classes 1-4) to determine how much equipment and time the drying will require. Class 4 drying, where water has penetrated dense materials like hardwood subfloor or concrete, is significantly more expensive and time-consuming than Class 1.
 
 ## Should You File a Claim? The Practical Calculation
 
 Not every covered loss is worth filing. Filing a claim can raise your premium at renewal or, in some states, result in non-renewal after two claims in a short window. The general rule:
 
 - **File if the damage exceeds your deductible by a meaningful margin.** If your deductible is $2,500 and the damage estimate is $3,000, the $500 net payout probably isn't worth the premium impact.
-- **File if the damage is structural or involves contamination.** Water damage that reaches wall cavities, subfloor, or insulation requires professional extraction, drying, and validation — the cost adds up fast. A Category 2 or 3 loss in any finished space almost always clears the deductible threshold.
-- **Document before you mitigate.** Take photos and video of the source, the water extent, and all affected materials before extraction begins. Adjusters cannot verify what they didn't see. If you have a restoration contractor on site, ask them to document moisture readings (in RH% and material moisture content %) before drying starts — this creates the technical record the adjuster needs.
+- **File if the damage is structural or involves contamination.** Water damage that reaches wall cavities, subfloor, or insulation requires professional extraction, drying, and validation, the cost adds up fast. A Category 2 or 3 loss in any finished space almost always clears the deductible threshold.
+- **Document before you mitigate.** Take photos and video of the source, the water extent, and all affected materials before extraction begins. Adjusters cannot verify what they didn't see. If you have a restoration contractor on site, ask them to document moisture readings (in RH% and material moisture content %) before drying starts, this creates the technical record the adjuster needs.
 - **Get a written scope from your restoration contractor before accepting the adjuster's estimate.** Adjusters work from Xactimate pricing software, which prices line items at regional averages. A detailed scope from an IICRC-certified contractor gives you a basis to negotiate if the adjuster's estimate is low.
 
 Average insurance payouts for water damage claims vary significantly by scope: a simple supply-line burst in a single room might settle for $3,000 to $8,000. A Category 2 loss affecting multiple rooms with subfloor involvement can run $15,000 to $40,000 or more once drying, demolition, and reconstruction are included.
@@ -87,6 +87,6 @@ The actions you take immediately after discovering damage affect both the physic
 2. **Call your insurer to open a claim.** Get a claim number. Ask about your ALE coverage if the home is uninhabitable.
 3. **Document everything before cleanup.** Photos, video, moisture readings if you have a meter.
 4. **Call a licensed, IICRC-certified restoration contractor.** Water damage that isn't dried to IICRC S500 standards within 24 to 48 hours begins supporting mold growth. The window matters.
-5. **Keep all receipts.** Emergency services, hotel stays, meals — all potentially reimbursable under ALE.
+5. **Keep all receipts.** Emergency services, hotel stays, meals, all potentially reimbursable under ALE.
 
-National Restoration Construction handles the documentation, extraction, drying, and scope-writing that makes a water damage claim defensible. If you're dealing with an active loss or trying to understand what your damage actually requires, request a water damage assessment — (206) 883-0333.
+National Restoration Construction handles the documentation, extraction, drying, and scope-writing that makes a water damage claim defensible. If you're dealing with an active loss or trying to understand what your damage actually requires, request a water damage assessment, (206) 883-0333.

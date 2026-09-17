@@ -20,21 +20,21 @@ state: "CA"
 service_display: "Post-Construction and Specialty Cleaning"
 rendered: true
 ---
-Los Olivos sits in the Santa Ynez Valley wine country, where construction and renovation work is constant — boutique tasting rooms are being built out along Grand Avenue, historic ranch properties are being updated, and residential additions are going up on parcels that have been in families for generations. When that work wraps, the mess left behind is substantial: drywall dust settled into wide-plank oak floors, silica grit tracked across newly poured concrete patios, and adhesive residue on custom tile that took months to source. Coastal Restoration Services Inc handles the final clean so that reveal moment actually looks like the finished product you paid for.
+Los Olivos sits in the Santa Ynez Valley wine country, where construction and renovation work is constant, boutique tasting rooms are being built out along Grand Avenue, historic ranch properties are being updated, and residential additions are going up on parcels that have been in families for generations. When that work wraps, the mess left behind is substantial: drywall dust settled into wide-plank oak floors, silica grit tracked across newly poured concrete patios, and adhesive residue on custom tile that took months to source. Coastal Restoration Services Inc handles the final clean so that reveal moment actually looks like the finished product you paid for.
 
 ## Why Los Olivos Construction Projects Create Distinctive Cleanup Challenges
 
-The Santa Ynez Valley's dry, warm summers and cooler, wetter winters create a specific construction rhythm. Most exterior work — roofing, stucco, outdoor kitchen builds — gets pushed into the dry season, which means a concentrated burst of project completions in late summer and fall. That timing matters because the valley's fine, chalky soil becomes airborne during dry months and infiltrates job sites relentlessly. By the time framing, insulation, and finish work are done, that pale dust has settled into every horizontal surface, inside every cabinet box, and along every window track.
+The Santa Ynez Valley's dry, warm summers and cooler, wetter winters create a specific construction rhythm. Most exterior work, roofing, stucco, outdoor kitchen builds, gets pushed into the dry season, which means a concentrated burst of project completions in late summer and fall. That timing matters because the valley's fine, chalky soil becomes airborne during dry months and infiltrates job sites relentlessly. By the time framing, insulation, and finish work are done, that pale dust has settled into every horizontal surface, inside every cabinet box, and along every window track.
 
-Los Olivos also has a significant stock of older ranch-style and Spanish Colonial Revival structures — many built in the mid-20th century — that are being renovated rather than replaced. These homes often have original hardwood floors, plaster walls, and built-in cabinetry that require a different hand than a new-construction tract home. Aggressive scrubbing or the wrong cleaning chemistry can strip a wax finish or cloud original hardware. The post-construction clean on a 1960s ranch renovation in this area demands patience and material awareness that a standard janitorial crew won't bring.
+Los Olivos also has a significant stock of older ranch-style and Spanish Colonial Revival structures, many built in the mid-20th century, that are being renovated rather than replaced. These homes often have original hardwood floors, plaster walls, and built-in cabinetry that require a different hand than a new-construction tract home. Aggressive scrubbing or the wrong cleaning chemistry can strip a wax finish or cloud original hardware. The post-construction clean on a 1960s ranch renovation in this area demands patience and material awareness that a standard janitorial crew won't bring.
 
 ## Our Post-Construction and Specialty Cleaning Process in Los Olivos
 
-Every post-construction clean begins with a walkthrough to document what trades left behind and what surfaces are sensitive. We photograph the space before we touch anything — this protects both you and your contractor if a dispute arises about pre-existing damage.
+Every post-construction clean begins with a walkthrough to document what trades left behind and what surfaces are sensitive. We photograph the space before we touch anything, this protects both you and your contractor if a dispute arises about pre-existing damage.
 
 From there, the work moves in a defined sequence:
 
-**Rough clean first.** Debris, scrap material, and bulk dust are removed before any detail work begins. This is not a step to skip — cleaning fine surfaces while coarse debris is still present just redistributes the problem.
+**Rough clean first.** Debris, scrap material, and bulk dust are removed before any detail work begins. This is not a step to skip, cleaning fine surfaces while coarse debris is still present just redistributes the problem.
 
 **HVAC and duct protection.** Construction dust loads HVAC systems fast. We clean or mask return vents and replace filters at the end of the job so the system isn't immediately cycling fine particulate back through a freshly cleaned space.
 
@@ -52,10 +52,10 @@ Beyond standard post-construction debris, Coastal Restoration Services Inc handl
 
 ## Reaching Los Olivos from Vandenberg Village
 
-Coastal Restoration Services Inc is based in Vandenberg Village, and Los Olivos is a straightforward drive north on U.S. 101 to CA-154 through the San Marcos Pass — a route the crew knows well. Scheduling is handled by phone at (805) 345-7440. Call to discuss your project timeline and we will confirm availability and a start window that works around your contractor's punch-list schedule.
+Coastal Restoration Services Inc is based in Vandenberg Village, and Los Olivos is a straightforward drive north on U.S. 101 to CA-154 through the San Marcos Pass, a route the crew knows well. Scheduling is handled by phone at (805) 345-7440. Call to discuss your project timeline and we will confirm availability and a start window that works around your contractor's punch-list schedule.
 
 ## Local Note
 
-One thing that catches out-of-area cleaning crews in Los Olivos: the valley's low humidity during summer and fall means drywall dust and silica particulate become electrostatically charged and cling to painted walls and glass surfaces with unusual persistence. Standard damp-wipe passes that work fine in coastal Santa Barbara leave streaks here. The fix is a two-pass approach — a dry microfiber first to lift the static charge, followed by a damp pass — which adds time but is the only way to get a streak-free result on the custom paint finishes common in this market. It's a small detail that makes a visible difference on move-in day.
+One thing that catches out-of-area cleaning crews in Los Olivos: the valley's low humidity during summer and fall means drywall dust and silica particulate become electrostatically charged and cling to painted walls and glass surfaces with unusual persistence. Standard damp-wipe passes that work fine in coastal Santa Barbara leave streaks here. The fix is a two-pass approach, a dry microfiber first to lift the static charge, followed by a damp pass, which adds time but is the only way to get a streak-free result on the custom paint finishes common in this market. It's a small detail that makes a visible difference on move-in day.
 
-When your Los Olivos renovation or new build is ready for its final clean, call Coastal Restoration Services Inc at **(805) 345-7440**. We work around your project schedule, coordinate directly with your general contractor, and leave the space genuinely ready for photography, staging, or move-in — not just swept and wiped down.
+When your Los Olivos renovation or new build is ready for its final clean, call Coastal Restoration Services Inc at **(805) 345-7440**. We work around your project schedule, coordinate directly with your general contractor, and leave the space genuinely ready for photography, staging, or move-in, not just swept and wiped down.

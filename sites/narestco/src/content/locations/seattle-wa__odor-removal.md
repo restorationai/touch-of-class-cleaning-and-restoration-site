@@ -20,42 +20,42 @@ state: "WA"
 service_display: "Odor Removal and Deodorization"
 rendered: true
 ---
-That smell isn't going away on its own. Whether it's smoke baked into drywall after a kitchen fire, a sewer backup that soaked into your subfloor, or a pet or biohazard situation that's had days to set — odor molecules bond to porous surfaces in ways that no candle, spray, or open window can reverse. If you're in Seattle and you're reading this, you probably already know that. What you need now is a crew with the right equipment and a clear plan.
+That smell isn't going away on its own. Whether it's smoke baked into drywall after a kitchen fire, a sewer backup that soaked into your subfloor, or a pet or biohazard situation that's had days to set, odor molecules bond to porous surfaces in ways that no candle, spray, or open window can reverse. If you're in Seattle and you're reading this, you probably already know that. What you need now is a crew with the right equipment and a clear plan.
 
-National Restoration Construction has been handling odor emergencies across the greater Seattle area since 2004. Our Federal Way headquarters puts us roughly 30–40 minutes from most Seattle neighborhoods under normal traffic — and we move fast when you call (206) 883-0333.
+National Restoration Construction has been handling odor emergencies across the greater Seattle area since 2004. Our Federal Way headquarters puts us roughly 30–40 minutes from most Seattle neighborhoods under normal traffic, and we move fast when you call (206) 883-0333.
 
 ## Why Seattle Properties Are Especially Vulnerable to Persistent Odors
 
-Seattle's climate creates conditions that make odors harder to clear than in drier parts of the country. Average annual humidity runs high, and the city sees measurable rainfall more than 150 days a year. That moisture doesn't just cause water damage — it keeps organic compounds active longer. Smoke residue in a damp attic, mold off-gassing in a crawl space that never fully dries, or sewage odor trapped in a basement with poor ventilation: all of these linger and intensify in Seattle's wet environment.
+Seattle's climate creates conditions that make odors harder to clear than in drier parts of the country. Average annual humidity runs high, and the city sees measurable rainfall more than 150 days a year. That moisture doesn't just cause water damage, it keeps organic compounds active longer. Smoke residue in a damp attic, mold off-gassing in a crawl space that never fully dries, or sewage odor trapped in a basement with poor ventilation: all of these linger and intensify in Seattle's wet environment.
 
-The region's housing stock adds another layer of complexity. A significant portion of Seattle homes — particularly in neighborhoods like Capitol Hill, Wallingford, and Beacon Hill — were built before 1960. Older construction means more porous, uncoated wood framing, plaster walls, and crawl spaces that absorb odors deeply. Newer construction in South Lake Union or Eastlake tends to be tighter, which can actually trap odor-laden air inside and accelerate saturation of HVAC ductwork.
+The region's housing stock adds another layer of complexity. A significant portion of Seattle homes, particularly in neighborhoods like Capitol Hill, Wallingford, and Beacon Hill, were built before 1960. Older construction means more porous, uncoated wood framing, plaster walls, and crawl spaces that absorb odors deeply. Newer construction in South Lake Union or Eastlake tends to be tighter, which can actually trap odor-laden air inside and accelerate saturation of HVAC ductwork.
 
 ## Our Odor Removal and Deodorization Process in Seattle
 
-There's no single tool that eliminates every type of odor. Professional odor elimination requires matching the method to the source, the surface, and the severity — and sometimes layering multiple techniques.
+There's no single tool that eliminates every type of odor. Professional odor elimination requires matching the method to the source, the surface, and the severity, and sometimes layering multiple techniques.
 
-**Assessment and source identification** comes first. Masking an odor without finding its origin just delays the problem. Our technicians trace odors to their source — charred structural materials, contaminated insulation, saturated flooring — before any treatment begins.
+**Assessment and source identification** comes first. Masking an odor without finding its origin just delays the problem. Our technicians trace odors to their source, charred structural materials, contaminated insulation, saturated flooring, before any treatment begins.
 
-**Thermal fogging** is one of the most effective tools for smoke odor removal. A fogging machine vaporizes a deodorizing solution into particles small enough to penetrate the same porous surfaces that smoke reached. It follows the path smoke took — into wall cavities, behind cabinets, through ductwork.
+**Thermal fogging** is one of the most effective tools for smoke odor removal. A fogging machine vaporizes a deodorizing solution into particles small enough to penetrate the same porous surfaces that smoke reached. It follows the path smoke took, into wall cavities, behind cabinets, through ductwork.
 
 **Hydroxyl deodorization** uses UV-generated hydroxyl radicals to break down odor-causing compounds at the molecular level. Unlike ozone treatment, hydroxyl generators are safe to run in occupied or semi-occupied spaces, which matters when you're trying to get a family back into their home or a tenant back into a rental unit.
 
-**Ozone treatment** is reserved for unoccupied spaces where a high-concentration approach is warranted — severe smoke damage, long-term pet odor, or post-biohazard situations. The space must remain vacated during treatment and ventilated thoroughly afterward.
+**Ozone treatment** is reserved for unoccupied spaces where a high-concentration approach is warranted, severe smoke damage, long-term pet odor, or post-biohazard situations. The space must remain vacated during treatment and ventilated thoroughly afterward.
 
 **HEPA air scrubbing** runs throughout the process, pulling particulates and odor compounds out of the air continuously while other treatments work on surfaces.
 
-For situations involving contaminated materials — subfloor sections, drywall, insulation — we coordinate removal and reconstruction so you're not left with a remediated shell and no path to a finished space.
+For situations involving contaminated materials, subfloor sections, drywall, insulation, we coordinate removal and reconstruction so you're not left with a remediated shell and no path to a finished space.
 
 ## Response Times Across Seattle
 
-Our Federal Way headquarters sits just off I-5, which puts most of Seattle within a 30–45 minute drive outside of peak commute hours. For neighborhoods in South Seattle — Rainier Valley, Georgetown, South Park, Beacon Hill — response is often faster. For Ballard, Fremont, or Queen Anne, expect 45–60 minutes depending on traffic. We aim to have a technician on-site within 60–90 minutes of your call across our full service area.
+Our Federal Way headquarters sits just off I-5, which puts most of Seattle within a 30–45 minute drive outside of peak commute hours. For neighborhoods in South Seattle, Rainier Valley, Georgetown, South Park, Beacon Hill, response is often faster. For Ballard, Fremont, or Queen Anne, expect 45–60 minutes depending on traffic. We aim to have a technician on-site within 60–90 minutes of your call across our full service area.
 
 We don't hand off Seattle jobs to subcontractors. The crew that responds is our crew, trained to our standards, carrying our equipment.
 
 ## Insurance Claims for Odor Damage
 
-Many odor situations — smoke damage from a fire, sewage backup, vandalism — are covered events under standard homeowner's or commercial property policies. We work directly with insurance adjusters and can document the damage, scope the work, and submit the paperwork on your behalf. You handle the deductible; we handle the back-and-forth with the carrier.
+Many odor situations, smoke damage from a fire, sewage backup, vandalism, are covered events under standard homeowner's or commercial property policies. We work directly with insurance adjusters and can document the damage, scope the work, and submit the paperwork on your behalf. You handle the deductible; we handle the back-and-forth with the carrier.
 
-If your situation isn't covered — a long-standing pet odor issue, for example, or a smell a previous owner left behind — we'll give you a straight estimate without pressure. IICRC-certified work with honest pricing.
+If your situation isn't covered, a long-standing pet odor issue, for example, or a smell a previous owner left behind, we'll give you a straight estimate without pressure. IICRC-certified work with honest pricing.
 
 If the smell in your Seattle property is making it unlivable, unrentable, or unsellable, the fastest way to get a real answer is to reach us directly at (206) 883-0333. We can often give you a same-day assessment.

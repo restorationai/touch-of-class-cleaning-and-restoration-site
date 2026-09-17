@@ -20,41 +20,41 @@ state: "TX"
 service_display: "Mold Remediation"
 rendered: true
 ---
-Coleman sits in the heart of West Texas, where the air feels dry enough to fool you. But that same semi-arid climate swings hard in the other direction — heavy spring thunderstorms, flash flooding across Coleman County's clay-heavy soils, and older housing stock that was never designed with modern vapor barriers in mind. When moisture finds its way into a Coleman home, it doesn't announce itself. It hides behind baseboards, under subfloors, and inside wall cavities until the smell gives it away or a dark stain appears on the ceiling. That's when mold remediation stops being optional.
+Coleman sits in the heart of West Texas, where the air feels dry enough to fool you. But that same semi-arid climate swings hard in the other direction, heavy spring thunderstorms, flash flooding across Coleman County's clay-heavy soils, and older housing stock that was never designed with modern vapor barriers in mind. When moisture finds its way into a Coleman home, it doesn't announce itself. It hides behind baseboards, under subfloors, and inside wall cavities until the smell gives it away or a dark stain appears on the ceiling. That's when mold remediation stops being optional.
 
 ## Why Coleman Properties See Mold Issues
 
-The soil profile across Coleman County runs toward expansive clay, which means water doesn't drain away quickly after a hard rain — it pools, it presses against foundations, and it seeps. Homes built in the mid-20th century, which make up a significant portion of Coleman's residential stock, often have pier-and-beam foundations that leave a crawl space between the ground and the living area. That gap is dark, poorly ventilated, and — after a wet spring — damp enough to support mold colonies within 24 to 48 hours of a moisture event.
+The soil profile across Coleman County runs toward expansive clay, which means water doesn't drain away quickly after a hard rain, it pools, it presses against foundations, and it seeps. Homes built in the mid-20th century, which make up a significant portion of Coleman's residential stock, often have pier-and-beam foundations that leave a crawl space between the ground and the living area. That gap is dark, poorly ventilated, and, after a wet spring, damp enough to support mold colonies within 24 to 48 hours of a moisture event.
 
-Central air conditioning is another factor that doesn't get enough attention. In Coleman's long, hot summers, HVAC systems run almost continuously. Condensate lines clog, drain pans overflow, and the resulting moisture drips into wall cavities or attic insulation without anyone noticing until the mold is already established. A surface that reads dry to the touch can still harbor elevated moisture levels two inches in — which is why moisture mapping with calibrated meters matters more than a visual inspection alone.
+Central air conditioning is another factor that doesn't get enough attention. In Coleman's long, hot summers, HVAC systems run almost continuously. Condensate lines clog, drain pans overflow, and the resulting moisture drips into wall cavities or attic insulation without anyone noticing until the mold is already established. A surface that reads dry to the touch can still harbor elevated moisture levels two inches in, which is why moisture mapping with calibrated meters matters more than a visual inspection alone.
 
 ## Our Mold Remediation Process in Coleman
 
-Every remediation job starts with containment — physical barriers and negative air pressure that keep mold spores from migrating to unaffected rooms while work is underway. This step is especially important in older Coleman homes where open floor plans or original ductwork can distribute spores quickly once disturbed.
+Every remediation job starts with containment, physical barriers and negative air pressure that keep mold spores from migrating to unaffected rooms while work is underway. This step is especially important in older Coleman homes where open floor plans or original ductwork can distribute spores quickly once disturbed.
 
 From there, the process follows a structured sequence:
 
-- **Moisture source identification** — finding and stopping the water intrusion before any mold removal begins. Treating mold without addressing the source is a temporary fix.
-- **Affected material removal** — compromised drywall, insulation, and wood framing are removed to clean structural material. In pier-and-beam homes, this sometimes means working in a tight crawl space.
-- **HEPA vacuuming and antimicrobial treatment** — surfaces are cleaned and treated to inhibit regrowth.
-- **Drying and documentation** — moisture readings are logged at multiple points to confirm the structure has returned to acceptable levels before any rebuild begins.
+- **Moisture source identification**, finding and stopping the water intrusion before any mold removal begins. Treating mold without addressing the source is a temporary fix.
+- **Affected material removal**, compromised drywall, insulation, and wood framing are removed to clean structural material. In pier-and-beam homes, this sometimes means working in a tight crawl space.
+- **HEPA vacuuming and antimicrobial treatment**, surfaces are cleaned and treated to inhibit regrowth.
+- **Drying and documentation**, moisture readings are logged at multiple points to confirm the structure has returned to acceptable levels before any rebuild begins.
 
-All remediation work is performed in accordance with the Mold Remediation Protocol written by the independent licensed Mold Assessment Consultant assigned to the project, and follows the IICRC S520 standard — the same benchmark used by assessment consultants and insurance adjusters when they evaluate a completed job. Post-remediation verification is conducted by that independent consultant to confirm the work meets the criteria established in the protocol.
+All remediation work is performed in accordance with the Mold Remediation Protocol written by the independent licensed Mold Assessment Consultant assigned to the project, and follows the IICRC S520 standard, the same benchmark used by assessment consultants and insurance adjusters when they evaluate a completed job. Post-remediation verification is conducted by that independent consultant to confirm the work meets the criteria established in the protocol.
 
 ## Reaching Coleman from Abilene
 
-Air Care Restoration is based in Abilene and serves Coleman around the clock. Coleman is roughly 60 miles southeast of Abilene via US-84, a straightforward route that keeps response times predictable even in off-hours. When a call comes in, the dispatch process starts immediately — equipment is staged and a crew is en route without waiting for a morning shift change.
+Air Care Restoration is based in Abilene and serves Coleman around the clock. Coleman is roughly 60 miles southeast of Abilene via US-84, a straightforward route that keeps response times predictable even in off-hours. When a call comes in, the dispatch process starts immediately, equipment is staged and a crew is en route without waiting for a morning shift change.
 
 For properties on the eastern side of Coleman County, the approach via US-283 is sometimes faster depending on crew location. Either way, the goal is to get containment in place before mold disturbance spreads the problem further.
 
 ## Coleman Insurance Coordination
 
-Mold claims in Texas can be complicated. Homeowners' policies vary significantly in how they define covered mold damage — some cover remediation only when it results directly from a covered water loss (a burst pipe, for example), while others exclude mold entirely or cap the payout. Air Care Restoration provides detailed damage documentation, moisture logs, photo evidence, and a clear scope of work structured to support the claims process, and can communicate technical scope information directly with your adjuster. Coverage and settlement decisions remain between you and your carrier.
+Mold claims in Texas can be complicated. Homeowners' policies vary significantly in how they define covered mold damage, some cover remediation only when it results directly from a covered water loss (a burst pipe, for example), while others exclude mold entirely or cap the payout. Air Care Restoration provides detailed damage documentation, moisture logs, photo evidence, and a clear scope of work structured to support the claims process, and can communicate technical scope information directly with your adjuster. Coverage and settlement decisions remain between you and your carrier.
 
 If the independent licensed Mold Assessment Consultant who wrote the remediation protocol performs post-remediation verification confirming the work meets the criteria established in the protocol, that third-party clearance documentation is worth having in the file when a carrier is scrutinizing the claim.
 
 ## Local Note
 
-Pier-and-beam construction is common enough in Coleman that it's worth knowing how it behaves differently from slab-on-grade. In a crawl space, mold often grows on the underside of the subfloor decking and on the lower sections of floor joists — areas that are invisible from inside the house and unreachable without crawling the full perimeter. Homeowners sometimes treat only the visible interior surface and miss the structural framing entirely. A thorough remediation in a Coleman pier-and-beam home requires inspecting and treating the crawl space as its own zone, with separate containment and its own moisture readings.
+Pier-and-beam construction is common enough in Coleman that it's worth knowing how it behaves differently from slab-on-grade. In a crawl space, mold often grows on the underside of the subfloor decking and on the lower sections of floor joists, areas that are invisible from inside the house and unreachable without crawling the full perimeter. Homeowners sometimes treat only the visible interior surface and miss the structural framing entirely. A thorough remediation in a Coleman pier-and-beam home requires inspecting and treating the crawl space as its own zone, with separate containment and its own moisture readings.
 
-If you're seeing soft spots in your floor, a musty odor that's stronger near the floor level, or discoloration along your baseboards, the source may be below you rather than in the walls. Call Air Care Restoration at (325) 339-8723 — getting the right professionals involved quickly is the first step toward an effective remediation.
+If you're seeing soft spots in your floor, a musty odor that's stronger near the floor level, or discoloration along your baseboards, the source may be below you rather than in the walls. Call Air Care Restoration at (325) 339-8723, getting the right professionals involved quickly is the first step toward an effective remediation.

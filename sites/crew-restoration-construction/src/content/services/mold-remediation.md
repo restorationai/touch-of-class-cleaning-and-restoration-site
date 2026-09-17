@@ -17,52 +17,52 @@ service_slug: "mold-remediation"
 service_display: "Mold Remediation"
 rendered: true
 ---
-You noticed the smell first — that damp, earthy odor behind the drywall or under the bathroom vanity. Then came the discoloration: a gray-green bloom spreading along the baseboard, or dark streaking across ceiling tiles you'd been meaning to look at for weeks. Mold doesn't announce itself loudly, but once a colony establishes, it can double in coverage every 24 to 48 hours under the right humidity conditions. What starts as a small patch after a slow pipe leak or a flooded basement can become a structural and air-quality problem that affects every room connected to your HVAC system.
+You noticed the smell first, that damp, earthy odor behind the drywall or under the bathroom vanity. Then came the discoloration: a gray-green bloom spreading along the baseboard, or dark streaking across ceiling tiles you'd been meaning to look at for weeks. Mold doesn't announce itself loudly, but once a colony establishes, it can double in coverage every 24 to 48 hours under the right humidity conditions. What starts as a small patch after a slow pipe leak or a flooded basement can become a structural and air-quality problem that affects every room connected to your HVAC system.
 
 ## What mold remediation actually involves
 
-Mold removal isn't scrubbing visible growth with bleach and calling it done. Surface cleaning leaves the mycelium — the root structure — intact inside porous materials like drywall, insulation, and wood framing. Effective mold abatement means physically removing contaminated material, controlling airborne spore counts during the work, and verifying through post-remediation testing that the environment has returned to normal fungal ecology.
+Mold removal isn't scrubbing visible growth with bleach and calling it done. Surface cleaning leaves the mycelium, the root structure, intact inside porous materials like drywall, insulation, and wood framing. Effective mold abatement means physically removing contaminated material, controlling airborne spore counts during the work, and verifying through post-remediation testing that the environment has returned to normal fungal ecology.
 
 The work typically involves:
 
-- **Containment barriers** — 6-mil poly sheeting sealed with tape to isolate the work zone and prevent cross-contamination to clean areas
-- **Negative air pressure** — HEPA-filtered air scrubbers that exhaust contaminated air outside the structure, keeping spore counts in adjacent rooms from spiking
-- **Controlled demolition** — removing drywall, insulation, or subfloor material that has been colonized beyond surface cleaning thresholds
-- **HEPA vacuuming and antimicrobial treatment** — cleaning structural cavities and framing before encapsulation or reconstruction begins
-- **Clearance air sampling** — post-remediation testing to confirm spore counts have returned to acceptable baseline levels before containment comes down
+- **Containment barriers**, 6-mil poly sheeting sealed with tape to isolate the work zone and prevent cross-contamination to clean areas
+- **Negative air pressure**, HEPA-filtered air scrubbers that exhaust contaminated air outside the structure, keeping spore counts in adjacent rooms from spiking
+- **Controlled demolition**, removing drywall, insulation, or subfloor material that has been colonized beyond surface cleaning thresholds
+- **HEPA vacuuming and antimicrobial treatment**, cleaning structural cavities and framing before encapsulation or reconstruction begins
+- **Clearance air sampling**, post-remediation testing to confirm spore counts have returned to acceptable baseline levels before containment comes down
 
-Timeline varies with the size of the affected area and how deeply moisture has penetrated building materials. A single bathroom with contained growth may be resolved in one to two days. Whole-basement or multi-room mold cleanup — common after prolonged water intrusion in Sioux Falls homes with finished lower levels — can run four to seven days including drying time.
+Timeline varies with the size of the affected area and how deeply moisture has penetrated building materials. A single bathroom with contained growth may be resolved in one to two days. Whole-basement or multi-room mold cleanup, common after prolonged water intrusion in Sioux Falls homes with finished lower levels, can run four to seven days including drying time.
 
 ## Our process
 
 **1. Moisture source identification and assessment**
-Mold is a symptom. Before any mold cleanup begins, the moisture source driving growth has to be identified and stopped — whether that's a slow roof leak, a condensation problem on cold-water pipes, or residual saturation from a previous water loss. We map affected areas using thermal imaging and moisture meters to understand the full scope before writing a scope of work.
+Mold is a symptom. Before any mold cleanup begins, the moisture source driving growth has to be identified and stopped, whether that's a slow roof leak, a condensation problem on cold-water pipes, or residual saturation from a previous water loss. We map affected areas using thermal imaging and moisture meters to understand the full scope before writing a scope of work.
 
 **2. Containment setup**
 We establish a full containment zone around affected areas using poly barriers and zipper-door entry points. HEPA air scrubbers are positioned to create negative pressure inside the containment, so disturbed spores exhaust out rather than migrate to clean living spaces. Workers enter and exit through a decontamination chamber.
 
 **3. Controlled demolition and mold abatement**
-Contaminated drywall, insulation, and other porous materials are removed in sealed bags and disposed of per South Dakota solid waste guidelines. Structural framing and concrete surfaces are HEPA-vacuumed, then treated with an EPA-registered antimicrobial agent. We do not encapsulate over active mold — material that cannot be cleaned to a visually clean standard is removed.
+Contaminated drywall, insulation, and other porous materials are removed in sealed bags and disposed of per South Dakota solid waste guidelines. Structural framing and concrete surfaces are HEPA-vacuumed, then treated with an EPA-registered antimicrobial agent. We do not encapsulate over active mold, material that cannot be cleaned to a visually clean standard is removed.
 
 **4. Structural drying (if needed)**
 If underlying framing or concrete still carries elevated moisture readings after demolition, we place desiccant or refrigerant dehumidifiers and air movers inside the contained area and monitor daily until materials reach dry standard. Rebuilding over wet framing is one of the most common mistakes that leads to mold recurrence.
 
 **5. Post-remediation clearance testing**
-Before containment comes down, air samples are collected inside the work zone and compared against an outdoor control sample. Spore counts and species composition need to reflect normal outdoor fungal ecology — not elevated Stachybotrys, Chaetomium, or Aspergillus/Penicillium counts that indicate active growth. Clearance testing is the only objective way to confirm the remediation worked.
+Before containment comes down, air samples are collected inside the work zone and compared against an outdoor control sample. Spore counts and species composition need to reflect normal outdoor fungal ecology, not elevated Stachybotrys, Chaetomium, or Aspergillus/Penicillium counts that indicate active growth. Clearance testing is the only objective way to confirm the remediation worked.
 
 ## What separates a good mold remediation response from a bad one
 
 The most common failure point is inadequate containment. Disturbing mold growth without negative air pressure and proper barriers can spread spores through an HVAC system and seed new colonies in rooms that were previously unaffected. A job that looks finished on day one can produce a worse problem by day thirty.
 
-The second failure is treating the surface without addressing moisture. Antimicrobial sprays applied to visibly moldy drywall while the wall cavity is still wet will not prevent regrowth. Insurance adjusters and industrial hygienists reviewing a claim look for moisture documentation — pre- and post-remediation moisture readings — to confirm the underlying cause was resolved, not just painted over.
+The second failure is treating the surface without addressing moisture. Antimicrobial sprays applied to visibly moldy drywall while the wall cavity is still wet will not prevent regrowth. Insurance adjusters and industrial hygienists reviewing a claim look for moisture documentation, pre- and post-remediation moisture readings, to confirm the underlying cause was resolved, not just painted over.
 
-Skipping clearance testing is the third common shortcut. Without post-remediation air sampling, there's no objective confirmation the work was effective. Some contractors skip it to cut cost; others skip it because they're not set up to coordinate with a third-party industrial hygienist. Clearance documentation also matters significantly for resale — buyers and their inspectors will ask for it.
+Skipping clearance testing is the third common shortcut. Without post-remediation air sampling, there's no objective confirmation the work was effective. Some contractors skip it to cut cost; others skip it because they're not set up to coordinate with a third-party industrial hygienist. Clearance documentation also matters significantly for resale, buyers and their inspectors will ask for it.
 
-Black mold remediation (Stachybotrys chartarum) gets particular attention because it requires water-saturated material to grow and is often a sign of a long-standing, hidden leak. Its remediation follows the same physical process as other mold species — containment, removal, drying, clearance — but the presence of Stachybotrys often signals more extensive hidden damage than the visible surface suggests.
+Black mold remediation (Stachybotrys chartarum) gets particular attention because it requires water-saturated material to grow and is often a sign of a long-standing, hidden leak. Its remediation follows the same physical process as other mold species, containment, removal, drying, clearance, but the presence of Stachybotrys often signals more extensive hidden damage than the visible surface suggests.
 
 ## What does mold remediation cost?
 
-Typical costs run across a wide range depending on the size of the affected area, the material types involved, and whether reconstruction is needed after demolition. Most homeowners pay somewhere between $1,500 and $6,000 for a contained single-area remediation; larger losses involving multiple rooms, finished basements, or HVAC contamination can run significantly higher. The table below reflects typical industry ranges — not quotes from Crew Restoration & Construction.
+Typical costs run across a wide range depending on the size of the affected area, the material types involved, and whether reconstruction is needed after demolition. Most homeowners pay somewhere between $1,500 and $6,000 for a contained single-area remediation; larger losses involving multiple rooms, finished basements, or HVAC contamination can run significantly higher. The table below reflects typical industry ranges, not quotes from Crew Restoration & Construction.
 
 | Scenario | Typical industry range |
 |---|---|
@@ -73,18 +73,18 @@ Typical costs run across a wide range depending on the size of the affected area
 | HVAC system mold contamination | $3,000 – $10,000 |
 | Whole-house remediation after prolonged water intrusion | $10,000 – $30,000+ |
 
-Every loss is different, and Crew Restoration & Construction provides a written scope of work before any remediation begins so you know exactly what's included. Homeowners insurance typically covers mold remediation when it results directly from a covered water loss — a burst pipe, appliance failure, or storm-driven water intrusion — but policies vary significantly on standalone mold coverage, and documentation of the originating cause is critical to a successful claim.
+Every loss is different, and Crew Restoration & Construction provides a written scope of work before any remediation begins so you know exactly what's included. Homeowners insurance typically covers mold remediation when it results directly from a covered water loss, a burst pipe, appliance failure, or storm-driven water intrusion, but policies vary significantly on standalone mold coverage, and documentation of the originating cause is critical to a successful claim.
 
 ## Seasonal and regional considerations
 
-Sioux Falls sits in a climate that creates two distinct mold-risk windows. Summer brings high dewpoints — July humidity regularly pushes into the 70–80% relative humidity range — which means finished basements and crawl spaces without adequate dehumidification are under constant pressure. Condensation on cold concrete walls and cold-water pipes is common and often goes unnoticed until mold has been growing for weeks.
+Sioux Falls sits in a climate that creates two distinct mold-risk windows. Summer brings high dewpoints, July humidity regularly pushes into the 70–80% relative humidity range, which means finished basements and crawl spaces without adequate dehumidification are under constant pressure. Condensation on cold concrete walls and cold-water pipes is common and often goes unnoticed until mold has been growing for weeks.
 
-The second window is late winter and early spring, when freeze-thaw cycles stress roofing, flashing, and foundation seals. Ice damming on older Sioux Falls homes — particularly the craftsman and mid-century ranch stock common in McKennan Park and the Cathedral District — can push meltwater into wall cavities and attic spaces where it sits undetected. By the time interior staining appears, mold has often been colonizing for 30 to 60 days.
+The second window is late winter and early spring, when freeze-thaw cycles stress roofing, flashing, and foundation seals. Ice damming on older Sioux Falls homes, particularly the craftsman and mid-century ranch stock common in McKennan Park and the Cathedral District, can push meltwater into wall cavities and attic spaces where it sits undetected. By the time interior staining appears, mold has often been colonizing for 30 to 60 days.
 
 ## Service area
 
-Crew Restoration & Construction handles mold remediation throughout Sioux Falls and the surrounding region, including Brandon, Tea, Harrisburg, Dell Rapids, and Baltic. If you're outside these areas, call us — we'll let you know if we can help or point you in the right direction.
+Crew Restoration & Construction handles mold remediation throughout Sioux Falls and the surrounding region, including Brandon, Tea, Harrisburg, Dell Rapids, and Baltic. If you're outside these areas, call us, we'll let you know if we can help or point you in the right direction.
 
 ---
 
-If you've spotted visible growth, noticed a persistent musty odor, or recently had a water loss that wasn't fully dried, don't wait to see if it resolves on its own — it won't. Call Crew Restoration & Construction at **(605) 965-2727** to schedule an air quality assessment and find out exactly what you're dealing with before it spreads further.
+If you've spotted visible growth, noticed a persistent musty odor, or recently had a water loss that wasn't fully dried, don't wait to see if it resolves on its own, it won't. Call Crew Restoration & Construction at **(605) 965-2727** to schedule an air quality assessment and find out exactly what you're dealing with before it spreads further.

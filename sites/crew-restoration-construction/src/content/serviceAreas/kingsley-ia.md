@@ -19,25 +19,25 @@ state: "IA"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall in South Kingsley or a basement floods after a spring storm rolls across Plymouth County, Crew Restoration & Construction is the team property owners in the 51028 ZIP code call to stop the damage from spreading and put the building back together. We handle water extraction, structural drying, mold remediation, fire and smoke cleanup, and reconstruction — all under one contractor, so you are not managing three separate companies while your floors are still wet.
+When a pipe bursts behind a wall in South Kingsley or a basement floods after a spring storm rolls across Plymouth County, Crew Restoration & Construction is the team property owners in the 51028 ZIP code call to stop the damage from spreading and put the building back together. We handle water extraction, structural drying, mold remediation, fire and smoke cleanup, and reconstruction, all under one contractor, so you are not managing three separate companies while your floors are still wet.
 
 ## Restoration emergencies common in Kingsley
 
-Kingsley sits in the rolling Loess Hills of western Iowa, and that geography shapes the kind of damage local homes and businesses see. The silty loess soil drains poorly after heavy rain, which means crawl spaces and basements in older Downtown Kingsley properties can take on water faster than homeowners expect. Plymouth County winters bring freeze-thaw cycles that stress aging supply lines and exterior masonry — a slow drip behind an interior wall in January can go unnoticed until the drywall is saturated. Summer severe weather, including the straight-line winds that move through the Missouri River corridor, has torn roofs off outbuildings and pushed wind-driven rain through compromised siding. The farm-town housing stock in Kingsley also skews older; many homes were built before modern vapor barriers and drainage codes were standard, which means moisture problems can be more entrenched than they look on the surface.
+Kingsley sits in the rolling Loess Hills of western Iowa, and that geography shapes the kind of damage local homes and businesses see. The silty loess soil drains poorly after heavy rain, which means crawl spaces and basements in older Downtown Kingsley properties can take on water faster than homeowners expect. Plymouth County winters bring freeze-thaw cycles that stress aging supply lines and exterior masonry, a slow drip behind an interior wall in January can go unnoticed until the drywall is saturated. Summer severe weather, including the straight-line winds that move through the Missouri River corridor, has torn roofs off outbuildings and pushed wind-driven rain through compromised siding. The farm-town housing stock in Kingsley also skews older; many homes were built before modern vapor barriers and drainage codes were standard, which means moisture problems can be more entrenched than they look on the surface.
 
 ## Services we provide in Kingsley
 
 ### Water damage restoration
 
-Water damage in Kingsley often begins underground — a sump pump that fails during an overnight storm, a foundation crack that lets loess-saturated groundwater seep in, or a supply line that freezes and splits during a February cold snap. We extract standing water, set commercial drying equipment, and monitor moisture levels in walls and subfloors until readings confirm the structure is dry. Documentation goes to your insurance carrier in the format adjusters expect.
+Water damage in Kingsley often begins underground, a sump pump that fails during an overnight storm, a foundation crack that lets loess-saturated groundwater seep in, or a supply line that freezes and splits during a February cold snap. We extract standing water, set commercial drying equipment, and monitor moisture levels in walls and subfloors until readings confirm the structure is dry. Documentation goes to your insurance carrier in the format adjusters expect.
 
 ### Mold remediation
 
-Mold can begin colonizing wet building materials within 24 to 48 hours of a moisture event. In older homes near Kingsley City Park, where basements sometimes have limited ventilation, that window closes fast. We contain affected areas, remove compromised materials, and treat surfaces to IICRC-referenced standards — then verify clearance before reconstruction begins.
+Mold can begin colonizing wet building materials within 24 to 48 hours of a moisture event. In older homes near Kingsley City Park, where basements sometimes have limited ventilation, that window closes fast. We contain affected areas, remove compromised materials, and treat surfaces to IICRC-referenced standards, then verify clearance before reconstruction begins.
 
 ### Fire and smoke damage restoration
 
-A kitchen fire in a South Kingsley home leaves more than char marks — smoke residue penetrates HVAC ducts, insulation, and wood framing, and the odor returns months later if the source materials are not properly cleaned or removed. We assess the full extent of smoke migration, not just the visible burn area, and work through reconstruction so the home is livable again.
+A kitchen fire in a South Kingsley home leaves more than char marks, smoke residue penetrates HVAC ducts, insulation, and wood framing, and the odor returns months later if the source materials are not properly cleaned or removed. We assess the full extent of smoke migration, not just the visible burn area, and work through reconstruction so the home is livable again.
 
 ### Biohazard and specialty cleanup
 
@@ -49,7 +49,7 @@ Because we carry both restoration and construction capabilities, we can take a K
 
 ## Coverage and how fast we can get there
 
-Crew Restoration & Construction is headquartered in Sioux Falls, SD. Kingsley is roughly 60 miles southeast via I-29 South to US-20 East — a straightforward route that our crews run regularly for jobs in Plymouth County and the surrounding western Iowa region. Downtown Kingsley and the neighborhoods around Kingsley-Pierson School are all within the same service radius; there is no part of the 51028 ZIP code that requires a separate dispatch. Scheduling is handled by phone at (605) 965-2727. Because our hours are not listed as around-the-clock, we encourage property owners to call during business hours to confirm availability and get a crew on the calendar as quickly as the situation allows.
+Crew Restoration & Construction is headquartered in Sioux Falls, SD. Kingsley is roughly 60 miles southeast via I-29 South to US-20 East, a straightforward route that our crews run regularly for jobs in Plymouth County and the surrounding western Iowa region. Downtown Kingsley and the neighborhoods around Kingsley-Pierson School are all within the same service radius; there is no part of the 51028 ZIP code that requires a separate dispatch. Scheduling is handled by phone at (605) 965-2727. Because our hours are not listed as around-the-clock, we encourage property owners to call during business hours to confirm availability and get a crew on the calendar as quickly as the situation allows.
 
 ## Building stock, site conditions, and permits in Kingsley
 

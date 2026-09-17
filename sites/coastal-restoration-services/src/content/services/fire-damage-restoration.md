@@ -17,13 +17,13 @@ service_slug: "fire-damage-restoration"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-The fire is out — but the damage is still spreading. Within hours of extinguishment, acidic soot begins etching metal fixtures, yellowing painted surfaces, and embedding itself into porous materials like drywall and wood framing. The sharp, oily smell that clings to every room isn't just unpleasant; it's a sign that combustion byproducts are actively degrading surfaces and air quality. Fast, methodical fire and smoke restoration isn't optional — it's the difference between salvaging a home and replacing it.
+The fire is out, but the damage is still spreading. Within hours of extinguishment, acidic soot begins etching metal fixtures, yellowing painted surfaces, and embedding itself into porous materials like drywall and wood framing. The sharp, oily smell that clings to every room isn't just unpleasant; it's a sign that combustion byproducts are actively degrading surfaces and air quality. Fast, methodical fire and smoke restoration isn't optional, it's the difference between salvaging a home and replacing it.
 
 ## What fire damage restoration actually involves
 
-Fire damage is rarely just char and ash. A structural fire produces at least three distinct types of damage that require different treatments: thermal damage to framing and finishes, soot and smoke residue on every surface the air touched, and water damage from suppression efforts. In a typical Santa Barbara County home — many built in the 1960s through 1980s with wood-frame construction and stucco exteriors — all three are usually present simultaneously.
+Fire damage is rarely just char and ash. A structural fire produces at least three distinct types of damage that require different treatments: thermal damage to framing and finishes, soot and smoke residue on every surface the air touched, and water damage from suppression efforts. In a typical Santa Barbara County home, many built in the 1960s through 1980s with wood-frame construction and stucco exteriors, all three are usually present simultaneously.
 
-Soot itself varies by what burned. Protein-based soot from kitchen fires is nearly invisible but produces an intense odor and a greasy, varnish-like film that smears if wiped incorrectly. Synthetic soot from burning plastics, foam insulation, or electrical components is dense, black, and highly alkaline — it can permanently stain porous surfaces within 72 hours if untreated. Wet smoke residue, common when a fire smolders rather than burns hot, leaves a sticky, pungent layer that penetrates deeper into materials than dry smoke.
+Soot itself varies by what burned. Protein-based soot from kitchen fires is nearly invisible but produces an intense odor and a greasy, varnish-like film that smears if wiped incorrectly. Synthetic soot from burning plastics, foam insulation, or electrical components is dense, black, and highly alkaline, it can permanently stain porous surfaces within 72 hours if untreated. Wet smoke residue, common when a fire smolders rather than burns hot, leaves a sticky, pungent layer that penetrates deeper into materials than dry smoke.
 
 Equipment used in fire cleanup includes HEPA air scrubbers to capture airborne particulates, thermal foggers that push deodorizing agents into the same cavities smoke traveled through, ozone generators for odor neutralization in unoccupied spaces, and ultrasonic cleaning tanks for salvageable contents. Structural drying equipment runs concurrently when suppression water is involved.
 
@@ -31,25 +31,25 @@ Equipment used in fire cleanup includes HEPA air scrubbers to capture airborne p
 
 1. **Emergency board-up and site stabilization.** Before any cleaning begins, compromised windows, doors, and roof sections are secured to prevent weather intrusion and unauthorized entry. This step also protects the loss scene for insurance documentation.
 
-2. **Soot characterization and scope development.** Not all soot responds to the same chemistry. Technicians identify the type of residue present — dry, wet, protein, or synthetic — and map the smoke migration path through the structure. HVAC systems are inspected and typically shut down to prevent further distribution of particulates. This assessment drives the written scope of work.
+2. **Soot characterization and scope development.** Not all soot responds to the same chemistry. Technicians identify the type of residue present, dry, wet, protein, or synthetic, and map the smoke migration path through the structure. HVAC systems are inspected and typically shut down to prevent further distribution of particulates. This assessment drives the written scope of work.
 
 3. **Contents pack-out and inventory.** Salvageable furnishings, clothing, documents, and personal items are catalogued, packed, and transported to a controlled cleaning facility. Items are cleaned using ultrasonic equipment, ozone chambers, or dry-cleaning methods depending on material type. A detailed inventory is maintained for insurance purposes.
 
-4. **Structural cleaning and deodorization.** Affected surfaces are cleaned using chemistry matched to the soot type — alkaline cleaners for protein residues, dry sponges for loose dry soot before any wet cleaning begins. Thermal fogging and hydroxyl or ozone treatment follow to neutralize odor compounds embedded in framing, insulation, and subfloor materials that surface cleaning cannot reach.
+4. **Structural cleaning and deodorization.** Affected surfaces are cleaned using chemistry matched to the soot type, alkaline cleaners for protein residues, dry sponges for loose dry soot before any wet cleaning begins. Thermal fogging and hydroxyl or ozone treatment follow to neutralize odor compounds embedded in framing, insulation, and subfloor materials that surface cleaning cannot reach.
 
-5. **Clearance and reconstruction handoff.** Once cleaning and deodorization are complete, the structure is assessed for remaining odor and residue. Any materials that cannot be restored to pre-loss condition — heavily charred framing, smoke-saturated insulation, damaged drywall — are documented for removal and reconstruction. A written clearance report is provided before rebuilding begins.
+5. **Clearance and reconstruction handoff.** Once cleaning and deodorization are complete, the structure is assessed for remaining odor and residue. Any materials that cannot be restored to pre-loss condition, heavily charred framing, smoke-saturated insulation, damaged drywall, are documented for removal and reconstruction. A written clearance report is provided before rebuilding begins.
 
 ## What separates a good fire damage response from a bad one
 
-The most common mistake in post-fire restoration is treating all soot the same way. Using wet cleaning methods on dry smoke residue before dry-sponging drives the soot deeper into drywall paper and wood grain, creating permanent staining that requires replacement of materials that could have been cleaned. Protein soot from kitchen fires is routinely underestimated — technicians unfamiliar with it may clear a room visually while leaving behind the enzymatic residue that causes persistent odor for months.
+The most common mistake in post-fire restoration is treating all soot the same way. Using wet cleaning methods on dry smoke residue before dry-sponging drives the soot deeper into drywall paper and wood grain, creating permanent staining that requires replacement of materials that could have been cleaned. Protein soot from kitchen fires is routinely underestimated, technicians unfamiliar with it may clear a room visually while leaving behind the enzymatic residue that causes persistent odor for months.
 
-Smoke migration is also frequently underscoped. Smoke follows air pressure differentials and travels through wall cavities, attic spaces, and HVAC ductwork far beyond the rooms with visible char. A thorough scope includes inspection of adjacent spaces, the attic, and the duct system — not just the origin room. Insurance adjusters and independent appraisers specifically look for documentation of smoke migration when evaluating whether a claim was handled correctly.
+Smoke migration is also frequently underscoped. Smoke follows air pressure differentials and travels through wall cavities, attic spaces, and HVAC ductwork far beyond the rooms with visible char. A thorough scope includes inspection of adjacent spaces, the attic, and the duct system, not just the origin room. Insurance adjusters and independent appraisers specifically look for documentation of smoke migration when evaluating whether a claim was handled correctly.
 
-Final odor clearance is the other common failure point. Masking agents and surface deodorizers suppress odor temporarily; thermal fogging and ozone treatment neutralize it at the molecular level. A home that smells clean on the day of completion but develops odor again within weeks is a sign that deodorization was incomplete — a callback that costs far more than doing it right the first time.
+Final odor clearance is the other common failure point. Masking agents and surface deodorizers suppress odor temporarily; thermal fogging and ozone treatment neutralize it at the molecular level. A home that smells clean on the day of completion but develops odor again within weeks is a sign that deodorization was incomplete, a callback that costs far more than doing it right the first time.
 
 ## What does fire damage restoration cost?
 
-Typical costs for fire damage restoration vary significantly based on the size of the affected area, the type of soot involved, and whether contents pack-out and reconstruction are required. Most homeowners pay somewhere between $3,000 and $30,000 for restoration work alone, before any structural rebuilding. The table below reflects typical industry ranges — not quotes from Coastal Restoration Services Inc.
+Typical costs for fire damage restoration vary significantly based on the size of the affected area, the type of soot involved, and whether contents pack-out and reconstruction are required. Most homeowners pay somewhere between $3,000 and $30,000 for restoration work alone, before any structural rebuilding. The table below reflects typical industry ranges, not quotes from Coastal Restoration Services Inc.
 
 | Scenario | Typical industry range |
 |---|---|
@@ -60,16 +60,16 @@ Typical costs for fire damage restoration vary significantly based on the size o
 | Odor remediation only (post-cleanup callback) | $1,500 – $5,000 |
 | HVAC duct cleaning following smoke event | $800 – $2,500 |
 
-Every fire loss is different, and Coastal Restoration Services Inc provides a written scope of work before any work begins so there are no surprises. Homeowners insurance typically covers fire damage restoration — including cleaning, deodorization, and contents pack-out — subject to your deductible and policy limits; Coastal Restoration Services Inc works with all major carriers and handles claim documentation on your behalf.
+Every fire loss is different, and Coastal Restoration Services Inc provides a written scope of work before any work begins so there are no surprises. Homeowners insurance typically covers fire damage restoration, including cleaning, deodorization, and contents pack-out, subject to your deductible and policy limits; Coastal Restoration Services Inc works with all major carriers and handles claim documentation on your behalf.
 
 ## Seasonal and regional considerations
 
-Vandenberg Village and the broader Santa Barbara County area sit in a fire-prone coastal-inland transition zone. The region's seasonal offshore winds — particularly in fall and early winter — drive rapid fire spread and push smoke deep into structures even in homes not directly in a fire's path. Wildfire smoke events, even from fires miles away, can deposit fine particulate matter inside homes through HVAC systems and gaps in the building envelope, creating odor and air quality issues that require the same soot-removal protocols used after a structural fire.
+Vandenberg Village and the broader Santa Barbara County area sit in a fire-prone coastal-inland transition zone. The region's seasonal offshore winds, particularly in fall and early winter, drive rapid fire spread and push smoke deep into structures even in homes not directly in a fire's path. Wildfire smoke events, even from fires miles away, can deposit fine particulate matter inside homes through HVAC systems and gaps in the building envelope, creating odor and air quality issues that require the same soot-removal protocols used after a structural fire.
 
 The area's mild, low-humidity climate is an advantage during restoration: structural materials dry faster than in humid regions, and odor-neutralizing treatments like ozone are more effective in dry conditions. However, older wood-frame homes common in Lompoc, Orcutt, and Santa Maria can have less airtight construction, which means smoke migration into wall cavities and attic spaces is more extensive than in newer builds.
 
 ## Service area
 
-Coastal Restoration Services Inc is based in Vandenberg Village and provides fire damage restoration throughout the surrounding communities, including Lompoc, Orcutt, Santa Maria, Buellton, Solvang, and Goleta. Individual city-specific pages detail local response logistics — all of them connect back to the full process described here.
+Coastal Restoration Services Inc is based in Vandenberg Village and provides fire damage restoration throughout the surrounding communities, including Lompoc, Orcutt, Santa Maria, Buellton, Solvang, and Goleta. Individual city-specific pages detail local response logistics, all of them connect back to the full process described here.
 
-If your home or property has fire or smoke damage, call **(805) 345-7440** to begin smoke and soot removal — the sooner soot characterization starts, the more material can be saved.
+If your home or property has fire or smoke damage, call **(805) 345-7440** to begin smoke and soot removal, the sooner soot characterization starts, the more material can be saved.

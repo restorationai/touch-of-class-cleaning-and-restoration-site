@@ -20,33 +20,33 @@ state: "OH"
 service_display: "Renovations, Remodels and General Contracting"
 rendered: true
 ---
-Struthers sits in a part of the Mahoning Valley where the housing stock tells the story of the steel era — compact lots, brick and frame construction dating back to the mid-twentieth century, and homes that have absorbed decades of Ohio winters. When a renovation here goes beyond cosmetic updates, it usually means working around original plaster, aging mechanical systems, and floor plans that weren't designed with modern living in mind. DISS Restoration brings general contracting experience that accounts for what's actually inside these walls, not just what's on the surface.
+Struthers sits in a part of the Mahoning Valley where the housing stock tells the story of the steel era, compact lots, brick and frame construction dating back to the mid-twentieth century, and homes that have absorbed decades of Ohio winters. When a renovation here goes beyond cosmetic updates, it usually means working around original plaster, aging mechanical systems, and floor plans that weren't designed with modern living in mind. DISS Restoration brings general contracting experience that accounts for what's actually inside these walls, not just what's on the surface.
 
 ## Why Struthers Properties Present Unique Renovation Challenges
 
 Much of Struthers was built during the postwar manufacturing boom, which means a significant portion of the housing stock predates modern building codes for insulation, electrical capacity, and moisture management. Opening a wall for a kitchen remodel or bathroom renovation in a home from this era often surfaces knob-and-tube wiring, cast-iron drain lines, or plaster-over-lath construction that requires a different approach than standard drywall work.
 
-Ohio's freeze-thaw cycle is hard on older foundations and exterior masonry. In Struthers, where many homes sit on relatively shallow footings and have crawl spaces or partial basements, that seasonal movement can create gaps at rim joists and sill plates that show up as drafts, moisture intrusion, or uneven floors — all of which affect the scope of a remodel before the first tile is set. A general contractor who hasn't worked in this part of Mahoning County may not budget for these discoveries. We do.
+Ohio's freeze-thaw cycle is hard on older foundations and exterior masonry. In Struthers, where many homes sit on relatively shallow footings and have crawl spaces or partial basements, that seasonal movement can create gaps at rim joists and sill plates that show up as drafts, moisture intrusion, or uneven floors, all of which affect the scope of a remodel before the first tile is set. A general contractor who hasn't worked in this part of Mahoning County may not budget for these discoveries. We do.
 
-The region also falls under Ohio's EPA Lead-Safe requirements for pre-1978 renovation work. DISS Restoration is EPA Lead-Safe Certified, which matters on most Struthers remodels given the age of the housing stock — it's not a footnote, it's a practical necessity.
+The region also falls under Ohio's EPA Lead-Safe requirements for pre-1978 renovation work. DISS Restoration is EPA Lead-Safe Certified, which matters on most Struthers remodels given the age of the housing stock, it's not a footnote, it's a practical necessity.
 
 ## Our Renovation and General Contracting Process in Struthers
 
-Every project starts with a thorough walkthrough — not just of the rooms you want changed, but of the systems behind them. We look at what the electrical panel can support for a kitchen upgrade, whether the subfloor is solid enough for tile, and whether the existing plumbing stack is positioned to accommodate a bathroom layout change without a costly reroute.
+Every project starts with a thorough walkthrough, not just of the rooms you want changed, but of the systems behind them. We look at what the electrical panel can support for a kitchen upgrade, whether the subfloor is solid enough for tile, and whether the existing plumbing stack is positioned to accommodate a bathroom layout change without a costly reroute.
 
-From there, we coordinate permits through the appropriate Mahoning County and municipal channels. Struthers has its own inspection requirements, and we handle the scheduling so the project doesn't stall waiting on approvals. Scope is documented in writing before work begins — materials, sequencing, and what happens if we open a wall and find something unexpected.
+From there, we coordinate permits through the appropriate Mahoning County and municipal channels. Struthers has its own inspection requirements, and we handle the scheduling so the project doesn't stall waiting on approvals. Scope is documented in writing before work begins, materials, sequencing, and what happens if we open a wall and find something unexpected.
 
-For post-damage rebuilds — homes that have come through a water loss, fire, or mold remediation — we coordinate directly with the restoration side of the project. Because DISS Restoration handles both mitigation and reconstruction, there's no handoff gap where documentation gets lost or scope gets disputed between two separate contractors.
+For post-damage rebuilds, homes that have come through a water loss, fire, or mold remediation, we coordinate directly with the restoration side of the project. Because DISS Restoration handles both mitigation and reconstruction, there's no handoff gap where documentation gets lost or scope gets disputed between two separate contractors.
 
 ## Reaching Struthers from Youngstown
 
-Our team is based in Youngstown, and Struthers is a short drive south — close enough that we can be on-site quickly for initial consultations or to address questions that come up mid-project. We're available around the clock, so if a project reveals an urgent issue — a compromised structural member, an unexpected pipe, a hidden mold pocket — you're not waiting until the next business day for a decision.
+Our team is based in Youngstown, and Struthers is a short drive south, close enough that we can be on-site quickly for initial consultations or to address questions that come up mid-project. We're available around the clock, so if a project reveals an urgent issue, a compromised structural member, an unexpected pipe, a hidden mold pocket, you're not waiting until the next business day for a decision.
 
 For ongoing remodel projects, we schedule work in phases that minimize disruption to the household. We know the routes, we know the neighborhood patterns, and we're not treating Struthers as a distant service area.
 
 ## Local Note
 
-Struthers homes built in the 1940s and 1950s frequently have interior walls finished with three-coat plaster over wood lath rather than drywall. This matters during a renovation because plaster is significantly heavier than drywall, and removing it generates a much larger debris volume than most homeowners anticipate. It also means the framing behind it was built to different tolerances — stud spacing isn't always 16 inches on center, and headers above doorways may be undersized by today's load standards. We account for this in the initial scope rather than presenting it as a change order surprise halfway through demo.
+Struthers homes built in the 1940s and 1950s frequently have interior walls finished with three-coat plaster over wood lath rather than drywall. This matters during a renovation because plaster is significantly heavier than drywall, and removing it generates a much larger debris volume than most homeowners anticipate. It also means the framing behind it was built to different tolerances, stud spacing isn't always 16 inches on center, and headers above doorways may be undersized by today's load standards. We account for this in the initial scope rather than presenting it as a change order surprise halfway through demo.
 
 ## Bringing the Project Together
 

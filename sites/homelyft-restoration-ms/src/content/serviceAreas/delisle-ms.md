@@ -19,19 +19,19 @@ state: "MS"
 primary: false
 rendered: true
 ---
-When a pipe bursts under a pier-and-beam floor or a Gulf storm pushes water through a crawl space in DeLisle, HomeLyft Restoration MS responds with the equipment and process knowledge to stop the damage from compounding. We handle water extraction, structural drying, mold remediation, fire and smoke cleanup, and reconstruction for homes and commercial properties throughout DeLisle and the surrounding Stone and Harrison County areas — managing the work from the first call through the final inspection so property owners are not left coordinating multiple contractors.
+When a pipe bursts under a pier-and-beam floor or a Gulf storm pushes water through a crawl space in DeLisle, HomeLyft Restoration MS responds with the equipment and process knowledge to stop the damage from compounding. We handle water extraction, structural drying, mold remediation, fire and smoke cleanup, and reconstruction for homes and commercial properties throughout DeLisle and the surrounding Stone and Harrison County areas, managing the work from the first call through the final inspection so property owners are not left coordinating multiple contractors.
 
 ## Restoration emergencies common in DeLisle
 
-DeLisle sits in a low-lying coastal corridor where the water table is rarely far below grade. That geography, combined with the Gulf Coast's long humid season and the periodic tropical systems that push inland from the Mississippi Sound, creates conditions that accelerate moisture damage faster than most homeowners expect. A slow roof leak that might stay contained for weeks in a drier climate can produce visible mold colonization here within 24 to 48 hours of the first wet event — sometimes less during the summer months when indoor humidity is already elevated.
+DeLisle sits in a low-lying coastal corridor where the water table is rarely far below grade. That geography, combined with the Gulf Coast's long humid season and the periodic tropical systems that push inland from the Mississippi Sound, creates conditions that accelerate moisture damage faster than most homeowners expect. A slow roof leak that might stay contained for weeks in a drier climate can produce visible mold colonization here within 24 to 48 hours of the first wet event, sometimes less during the summer months when indoor humidity is already elevated.
 
-The housing stock adds another layer of complexity. Much of DeLisle's residential inventory includes older wood-frame construction on pier-and-beam foundations — homes where moisture migrates through subfloor cavities before it surfaces as a stain on the ceiling or a soft spot underfoot. Post-Katrina rebuilds introduced a mix of elevated slab construction and modular builds, each with its own failure points during heavy rain events. Knowing which materials are underneath the visible surface matters when estimating drying time and deciding whether structural components need to be removed or can be dried in place.
+The housing stock adds another layer of complexity. Much of DeLisle's residential inventory includes older wood-frame construction on pier-and-beam foundations, homes where moisture migrates through subfloor cavities before it surfaces as a stain on the ceiling or a soft spot underfoot. Post-Katrina rebuilds introduced a mix of elevated slab construction and modular builds, each with its own failure points during heavy rain events. Knowing which materials are underneath the visible surface matters when estimating drying time and deciding whether structural components need to be removed or can be dried in place.
 
 ## Services we provide in DeLisle
 
 ### Water damage restoration
 
-Water damage in DeLisle frequently starts below the visible floor line — in crawl spaces, under slabs, or inside wall cavities that absorb moisture from a slow roof breach or a failed supply line. We use thermal imaging and moisture meters to map the full extent of saturation before any drying equipment is placed, which prevents the common outcome of drying the surface while hidden moisture continues to feed mold growth. Structural drying follows IICRC S500 standards, with daily monitoring logs that document drying progress — documentation your insurance adjuster will ask for.
+Water damage in DeLisle frequently starts below the visible floor line, in crawl spaces, under slabs, or inside wall cavities that absorb moisture from a slow roof breach or a failed supply line. We use thermal imaging and moisture meters to map the full extent of saturation before any drying equipment is placed, which prevents the common outcome of drying the surface while hidden moisture continues to feed mold growth. Structural drying follows IICRC S500 standards, with daily monitoring logs that document drying progress, documentation your insurance adjuster will ask for.
 
 ### Mold remediation
 
@@ -39,20 +39,20 @@ The combination of heat, humidity, and older construction materials in the DeLis
 
 ### Fire and smoke damage restoration
 
-House fires in wood-frame homes produce smoke residue that penetrates wall cavities, HVAC ductwork, and attic insulation — materials that continue off-gassing long after the fire is out. We assess the full scope of smoke migration, not just the rooms with visible char, and use appropriate cleaning methods for each affected material type. Odor neutralization is part of the scope, not an afterthought.
+House fires in wood-frame homes produce smoke residue that penetrates wall cavities, HVAC ductwork, and attic insulation, materials that continue off-gassing long after the fire is out. We assess the full scope of smoke migration, not just the rooms with visible char, and use appropriate cleaning methods for each affected material type. Odor neutralization is part of the scope, not an afterthought.
 
 ### Reconstruction
 
-Once mitigation is complete, we handle the rebuild — drywall, flooring, cabinetry, roofing repairs — so the property returns to pre-loss condition without the handoff gap between a mitigation crew and a separate general contractor.
+Once mitigation is complete, we handle the rebuild, drywall, flooring, cabinetry, roofing repairs, so the property returns to pre-loss condition without the handoff gap between a mitigation crew and a separate general contractor.
 
 ## Coverage and how fast we can get there
 
-HomeLyft Restoration MS is headquartered in Gulfport, roughly 15 to 18 miles from central DeLisle via US-49 North or the US-90 corridor connecting into the Pass Christian and DeLisle area. That puts DeLisle well within our primary service zone — not a distant coverage stretch. When you call during business hours, we work to schedule a same-day assessment so the drying clock does not run longer than necessary. Call us at (228) 284-5200 to confirm current scheduling availability.
+HomeLyft Restoration MS is headquartered in Gulfport, roughly 15 to 18 miles from central DeLisle via US-49 North or the US-90 corridor connecting into the Pass Christian and DeLisle area. That puts DeLisle well within our primary service zone, not a distant coverage stretch. When you call during business hours, we work to schedule a same-day assessment so the drying clock does not run longer than necessary. Call us at (228) 284-5200 to confirm current scheduling availability.
 
 ## Building stock, site conditions, and permits in DeLisle
 
-DeLisle is unincorporated, so permits for structural repair, reroofing, or rebuild come from Harrison County rather than a city hall. Anything beyond cosmetic finish work — framing, roof deck replacement, electrical, or mechanical changes — generally triggers one, and in a mapped flood zone the 50 percent substantial-improvement rule can pull an otherwise simple repair into elevation and compliance territory. Mississippi's coastal counties also carry high-wind and wind-borne-debris requirements that shape how a roof or wall goes back together.
+DeLisle is unincorporated, so permits for structural repair, reroofing, or rebuild come from Harrison County rather than a city hall. Anything beyond cosmetic finish work, framing, roof deck replacement, electrical, or mechanical changes, generally triggers one, and in a mapped flood zone the 50 percent substantial-improvement rule can pull an otherwise simple repair into elevation and compliance territory. Mississippi's coastal counties also carry high-wind and wind-borne-debris requirements that shape how a roof or wall goes back together.
 
 Material vintage matters as much as the paperwork. Mid-century homes here often still have galvanized supply and cast-iron drains that fail from the inside out, while pre-1978 layers mean lead paint and asbestos in floor tile or joint compound. Post-Katrina rebuilds run PEX and engineered lumber, which absorbs and holds water differently.
 
-If you are dealing with water, mold, fire, or storm damage at a DeLisle property, the longer the affected materials stay wet or smoke-exposed, the more the scope — and the cost — tends to grow. Call HomeLyft Restoration MS at (228) 284-5200 during business hours to schedule an assessment and get a clear picture of what the damage actually involves.
+If you are dealing with water, mold, fire, or storm damage at a DeLisle property, the longer the affected materials stay wet or smoke-exposed, the more the scope, and the cost, tends to grow. Call HomeLyft Restoration MS at (228) 284-5200 during business hours to schedule an assessment and get a clear picture of what the damage actually involves.

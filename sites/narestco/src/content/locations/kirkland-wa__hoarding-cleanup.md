@@ -25,30 +25,30 @@ Kirkland's older lakefront neighborhoods along the east shore of Lake Washington
 
 ## Why Kirkland Properties Present Unique Hoarding Cleanup Challenges
 
-Kirkland's housing stock is genuinely varied — and that variation matters for cleanup logistics. The older single-family homes near Juanita Bay Park, some built in the 1950s and 1960s, often have crawl spaces and basements with limited ventilation. When a home has been heavily accumulated over many years, moisture becomes a compounding factor: the lake-adjacent microclimate means humidity stays elevated for much of the year, and organic material stored in low-lying areas can develop secondary issues that require remediation beyond simple removal.
+Kirkland's housing stock is genuinely varied, and that variation matters for cleanup logistics. The older single-family homes near Juanita Bay Park, some built in the 1950s and 1960s, often have crawl spaces and basements with limited ventilation. When a home has been heavily accumulated over many years, moisture becomes a compounding factor: the lake-adjacent microclimate means humidity stays elevated for much of the year, and organic material stored in low-lying areas can develop secondary issues that require remediation beyond simple removal.
 
-Newer townhome and condominium developments in Totem Lake and along the 98034 corridor introduce a different set of constraints. Shared walls, HOA oversight, and limited staging areas mean that cleanup work must be coordinated carefully — both to protect neighboring units and to satisfy community association requirements before a property can be relisted or transferred.
+Newer townhome and condominium developments in Totem Lake and along the 98034 corridor introduce a different set of constraints. Shared walls, HOA oversight, and limited staging areas mean that cleanup work must be coordinated carefully, both to protect neighboring units and to satisfy community association requirements before a property can be relisted or transferred.
 
 ## Our Hoarding Cleanup Process in Kirkland
 
-Every project begins with a confidential walkthrough. No photographs are shared without consent, and our crew arrives in unmarked vehicles when requested — a detail that matters in close-knit neighborhoods where privacy is a real concern.
+Every project begins with a confidential walkthrough. No photographs are shared without consent, and our crew arrives in unmarked vehicles when requested, a detail that matters in close-knit neighborhoods where privacy is a real concern.
 
 From there, the process moves in structured phases:
 
-- **Assessment and sorting** — Working alongside the client or designated family member, we categorize items methodically: salvageable belongings, donation candidates, and material requiring disposal or remediation.
-- **Removal and transport** — We handle all hauling, coordinating with local waste facilities in compliance with King County disposal regulations. Hazardous materials are segregated and routed appropriately.
-- **Surface and structural evaluation** — Once the space is cleared, we assess floors, walls, and subfloor areas for moisture intrusion, pest activity, or contamination that requires remediation. Our IICRC-certified technicians document findings for insurance or legal purposes when needed.
-- **Cleaning and deodorization** — We use commercial-grade equipment and EPA-registered products to address odors and sanitize surfaces, leaving the space in a condition suitable for inspection, repair, or occupancy.
-- **Final documentation** — We provide a written summary of work completed, which HOAs and property managers in Kirkland frequently require before approving re-entry or sale.
+- **Assessment and sorting**, Working alongside the client or designated family member, we categorize items methodically: salvageable belongings, donation candidates, and material requiring disposal or remediation.
+- **Removal and transport**, We handle all hauling, coordinating with local waste facilities in compliance with King County disposal regulations. Hazardous materials are segregated and routed appropriately.
+- **Surface and structural evaluation**, Once the space is cleared, we assess floors, walls, and subfloor areas for moisture intrusion, pest activity, or contamination that requires remediation. Our IICRC-certified technicians document findings for insurance or legal purposes when needed.
+- **Cleaning and deodorization**, We use commercial-grade equipment and EPA-registered products to address odors and sanitize surfaces, leaving the space in a condition suitable for inspection, repair, or occupancy.
+- **Final documentation**, We provide a written summary of work completed, which HOAs and property managers in Kirkland frequently require before approving re-entry or sale.
 
 ## Kirkland HOA and Family Coordination
 
-HOA-governed properties in Kirkland — particularly the newer developments near Totem Lake and Bridle Trails — often require proof of licensed, insured contractors before work can begin. National Restoration Construction holds a General Contractor Certificate of Registration (#NATIORC792M6) through the WA State Department of Labor & Industries, and we carry full liability coverage. We're accustomed to submitting documentation directly to property managers or HOA boards so families don't have to navigate that paperwork during an already difficult time.
+HOA-governed properties in Kirkland, particularly the newer developments near Totem Lake and Bridle Trails, often require proof of licensed, insured contractors before work can begin. National Restoration Construction holds a General Contractor Certificate of Registration (#NATIORC792M6) through the WA State Department of Labor & Industries, and we carry full liability coverage. We're accustomed to submitting documentation directly to property managers or HOA boards so families don't have to navigate that paperwork during an already difficult time.
 
 When adult children or trustees are coordinating on behalf of a resident who may be resistant or emotionally overwhelmed, we work at the pace the situation requires. We've found that a measured, non-confrontational approach on the first visit often makes the difference between a project that moves forward and one that stalls.
 
 ## Local Note
 
-One pattern we've encountered specifically in Kirkland's older waterfront-adjacent properties — particularly in the Juanita area — is that crawl space encapsulation was not standard practice in homes built before the 1980s. When a home has had significant accumulation over many years, the crawl space is often the last area inspected and the first place secondary moisture and biological growth take hold. We always include a crawl space check in our initial assessment for any Kirkland property near the lake waterline, because what's visible on the main floor rarely tells the full story.
+One pattern we've encountered specifically in Kirkland's older waterfront-adjacent properties, particularly in the Juanita area, is that crawl space encapsulation was not standard practice in homes built before the 1980s. When a home has had significant accumulation over many years, the crawl space is often the last area inspected and the first place secondary moisture and biological growth take hold. We always include a crawl space check in our initial assessment for any Kirkland property near the lake waterline, because what's visible on the main floor rarely tells the full story.
 
-If you're dealing with a property in Kirkland that needs careful, confidential attention, call National Restoration Construction at (206) 883-0333. We'll walk you through the process, answer your questions without judgment, and give you a clear picture of what cleanup will involve — before any work begins.
+If you're dealing with a property in Kirkland that needs careful, confidential attention, call National Restoration Construction at (206) 883-0333. We'll walk you through the process, answer your questions without judgment, and give you a clear picture of what cleanup will involve, before any work begins.

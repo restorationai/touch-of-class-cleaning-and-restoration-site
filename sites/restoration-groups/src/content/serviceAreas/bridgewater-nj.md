@@ -19,21 +19,21 @@ state: "NJ"
 primary: false
 rendered: true
 ---
-When a pipe bursts in a Finderne split-level at 2 a.m. or a sprinkler head discharges overnight at an office park off Route 22, Bridgewater property owners need a crew that knows the township — its flood-prone river flats, its aging postwar housing stock, and its mix of residential neighborhoods and busy commercial corridors. The Restoration Group dispatches from Kenilworth around the clock to handle water damage, fire and smoke damage, mold remediation, and full reconstruction across Bridgewater's 08807 and 08805 ZIP codes.
+When a pipe bursts in a Finderne split-level at 2 a.m. or a sprinkler head discharges overnight at an office park off Route 22, Bridgewater property owners need a crew that knows the township, its flood-prone river flats, its aging postwar housing stock, and its mix of residential neighborhoods and busy commercial corridors. The Restoration Group dispatches from Kenilworth around the clock to handle water damage, fire and smoke damage, mold remediation, and full reconstruction across Bridgewater's 08807 and 08805 ZIP codes.
 
 ## Restoration emergencies common in Bridgewater
 
-Bridgewater's geography sets up a predictable cycle of water and storm losses. The Raritan River and Middle Brook cut through the township's lower elevations, and the Finderne and Bound Brook-adjacent flats have flooded catastrophically more than once — most recently during Tropical Storm Ida in 2021, when basements and crawl spaces filled before sump pumps could keep pace. Chimney Rock Park sits at the edge of terrain that channels runoff toward lower neighborhoods during heavy rain events.
+Bridgewater's geography sets up a predictable cycle of water and storm losses. The Raritan River and Middle Brook cut through the township's lower elevations, and the Finderne and Bound Brook-adjacent flats have flooded catastrophically more than once, most recently during Tropical Storm Ida in 2021, when basements and crawl spaces filled before sump pumps could keep pace. Chimney Rock Park sits at the edge of terrain that channels runoff toward lower neighborhoods during heavy rain events.
 
-The housing stock adds its own complications. The postwar ranches and split-levels spread across Green Knoll, Bradley Gardens, and Martinsville were built in the 1950s through 1970s. Many still have original galvanized or early copper supply lines that have been slowly corroding for decades, and cast-iron drain stacks in finished basements that crack rather than flex. When those lines fail — and they do — water moves fast through finished ceilings and walls before anyone notices. Newer colonial and townhome developments in Chimney Rock and Milltown bring a different set of risks: EIFS cladding that traps moisture, and multi-unit configurations where one unit's leak becomes three neighbors' problem.
+The housing stock adds its own complications. The postwar ranches and split-levels spread across Green Knoll, Bradley Gardens, and Martinsville were built in the 1950s through 1970s. Many still have original galvanized or early copper supply lines that have been slowly corroding for decades, and cast-iron drain stacks in finished basements that crack rather than flex. When those lines fail, and they do, water moves fast through finished ceilings and walls before anyone notices. Newer colonial and townhome developments in Chimney Rock and Milltown bring a different set of risks: EIFS cladding that traps moisture, and multi-unit configurations where one unit's leak becomes three neighbors' problem.
 
-On the commercial side, the Route 22/287 interchange corridor, Bridgewater Commons, TD Bank Ballpark, and the township's office parks generate their own steady stream of losses — sprinkler-discharge floods, roof membrane failures, and HVAC condensate overflows that can saturate thousands of square feet of commercial flooring before the building manager arrives in the morning.
+On the commercial side, the Route 22/287 interchange corridor, Bridgewater Commons, TD Bank Ballpark, and the township's office parks generate their own steady stream of losses, sprinkler-discharge floods, roof membrane failures, and HVAC condensate overflows that can saturate thousands of square feet of commercial flooring before the building manager arrives in the morning.
 
 ## Services we provide in Bridgewater
 
 ### Water damage restoration
 
-Water damage in Bridgewater often involves saturated subfloors and wall cavities in older finished basements — the kind of loss where the visible water is already gone but the moisture reading under the hardwood is still off the charts. We extract standing water, deploy commercial drying equipment, and monitor moisture levels daily until structural materials reach safe thresholds. For Finderne and Bradley Gardens homes near the flood plain, we're familiar with the layered damage that riverine flooding leaves behind: silt-laden water that contaminates insulation and framing long after the surface dries.
+Water damage in Bridgewater often involves saturated subfloors and wall cavities in older finished basements, the kind of loss where the visible water is already gone but the moisture reading under the hardwood is still off the charts. We extract standing water, deploy commercial drying equipment, and monitor moisture levels daily until structural materials reach safe thresholds. For Finderne and Bradley Gardens homes near the flood plain, we're familiar with the layered damage that riverine flooding leaves behind: silt-laden water that contaminates insulation and framing long after the surface dries.
 
 ### Mold remediation
 
@@ -41,7 +41,7 @@ Mold can begin colonizing wet drywall and wood framing within 48 to 72 hours of 
 
 ### Fire and smoke damage restoration
 
-Smoke residue travels far beyond the room where a fire starts — it migrates through HVAC systems, settles into soft goods, and leaves an odor that standard cleaning won't touch. We handle structural cleaning, content pack-out, odor neutralization, and the rebuild, so you're working with one point of contact from the day of the loss through move-back.
+Smoke residue travels far beyond the room where a fire starts, it migrates through HVAC systems, settles into soft goods, and leaves an odor that standard cleaning won't touch. We handle structural cleaning, content pack-out, odor neutralization, and the rebuild, so you're working with one point of contact from the day of the loss through move-back.
 
 ### Commercial restoration
 
@@ -49,14 +49,14 @@ For property managers and building owners along the Route 22 corridor or at Brid
 
 ## Coverage and how fast we can get there
 
-From our Kenilworth headquarters, the most direct route to Bridgewater runs west on I-78 to Route 287 north — a straightforward highway run of roughly 25 miles. We can reach Green Knoll and the central township quickly via that corridor. Martinsville and the Chimney Rock area sit a few miles further west and south; Finderne is just north of the Route 22/287 interchange and is typically one of our first stops in the township. Because we operate 24/7, dispatch is available day or night — call (855) 650-7422 and a coordinator will confirm an ETA based on current crew location.
+From our Kenilworth headquarters, the most direct route to Bridgewater runs west on I-78 to Route 287 north, a straightforward highway run of roughly 25 miles. We can reach Green Knoll and the central township quickly via that corridor. Martinsville and the Chimney Rock area sit a few miles further west and south; Finderne is just north of the Route 22/287 interchange and is typically one of our first stops in the township. Because we operate 24/7, dispatch is available day or night, call (855) 650-7422 and a coordinator will confirm an ETA based on current crew location.
 
 ## Building stock, site conditions, and permits in Bridgewater
 
 Behind the finishes, homes from the 1950s through the 1970s carry era hazards a scope has to plan around: asbestos in 9-inch floor tile and its black mastic, asbestos wrap on old boiler and duct runs, and lead paint in anything built before 1978. Pre-war houses in the older sections can still hide knob-and-tube in the joist bays a demo crew opens up.
 
-The ground here is Piedmont — red shale and sandstone close to the surface, basalt up toward the Watchung ridge, and sandy river deposits on the Raritan flats where the water table sits high against basement walls. Footings in this part of New Jersey go below a roughly 36-inch frost line.
+The ground here is Piedmont, red shale and sandstone close to the surface, basalt up toward the Watchung ridge, and sandy river deposits on the Raritan flats where the water table sits high against basement walls. Footings in this part of New Jersey go below a roughly 36-inch frost line.
 
 Structural repairs and rebuilds are permitted through Bridgewater Township's construction office under the New Jersey Uniform Construction Code, with separate review for work in mapped flood hazard areas.
 
-If you're dealing with a water, fire, mold, or storm loss anywhere in Bridgewater — from a flooded Finderne basement to a commercial roof leak near TD Bank Ballpark — call The Restoration Group at **(855) 650-7422**. We're available around the clock and ready to dispatch.
+If you're dealing with a water, fire, mold, or storm loss anywhere in Bridgewater, from a flooded Finderne basement to a commercial roof leak near TD Bank Ballpark, call The Restoration Group at **(855) 650-7422**. We're available around the clock and ready to dispatch.

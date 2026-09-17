@@ -20,29 +20,29 @@ state: "NJ"
 service_display: "Mold Inspection and Testing"
 rendered: true
 ---
-Fort Lee's dense stack of high-rise condominiums along the Palisades creates a mold risk pattern unlike almost anywhere else in Bergen County. When a supply line fails on the 14th floor of a tower near the Hudson Lights complex, water doesn't stop at one unit — it migrates through concrete decks, travels inside hollow-core doors, and saturates drywall three or four floors below before anyone notices a stain on the ceiling. By the time a resident calls, mold can already be colonizing behind baseboards. A professional mold inspection and testing assessment is the only way to know where the growth is, how far it has spread, and whether the air your family is breathing is safe.
+Fort Lee's dense stack of high-rise condominiums along the Palisades creates a mold risk pattern unlike almost anywhere else in Bergen County. When a supply line fails on the 14th floor of a tower near the Hudson Lights complex, water doesn't stop at one unit, it migrates through concrete decks, travels inside hollow-core doors, and saturates drywall three or four floors below before anyone notices a stain on the ceiling. By the time a resident calls, mold can already be colonizing behind baseboards. A professional mold inspection and testing assessment is the only way to know where the growth is, how far it has spread, and whether the air your family is breathing is safe.
 
 ## Why Fort Lee Properties Are Especially Vulnerable to Mold
 
-Fort Lee sits atop the Palisades cliffs, and that geography matters more than most residents realize. Steep-grade drainage means storm runoff moves fast and hard, and when it overwhelms foundation waterproofing — common in the older prewar multifamily buildings in Coytesville and The Hill — groundwater intrusion follows. Hurricane Ida in 2021 pushed water into basements and crawl spaces across Bergen County, and many of those spaces were never fully dried. Mold can begin colonizing porous materials within 24 to 48 hours of a moisture event, so a basement that "dried out on its own" after Ida may still harbor active growth today.
+Fort Lee sits atop the Palisades cliffs, and that geography matters more than most residents realize. Steep-grade drainage means storm runoff moves fast and hard, and when it overwhelms foundation waterproofing, common in the older prewar multifamily buildings in Coytesville and The Hill, groundwater intrusion follows. Hurricane Ida in 2021 pushed water into basements and crawl spaces across Bergen County, and many of those spaces were never fully dried. Mold can begin colonizing porous materials within 24 to 48 hours of a moisture event, so a basement that "dried out on its own" after Ida may still harbor active growth today.
 
 The high-rise corridor along the Palisades adds a second layer of complexity. Condensation on cold exterior walls, chronic slow leaks from aging plumbing chases, and HVAC systems shared across units all create the sustained humidity mold needs. In older garden-style apartments and row homes near the Main Street business district, inadequate bathroom ventilation and single-pane windows compound the problem through the humid New Jersey summers.
 
 ## Our Mold Inspection and Testing Process in Fort Lee
 
-A thorough mold assessment in a Fort Lee property follows a structured sequence — not a quick visual scan and a single air sample.
+A thorough mold assessment in a Fort Lee property follows a structured sequence, not a quick visual scan and a single air sample.
 
 **Visual inspection first.** A certified inspector walks the property systematically, checking every moisture-prone area: under sinks, behind refrigerators, inside HVAC air handlers, along exterior walls, and inside any closets that share a wall with a bathroom or kitchen. In high-rise units, we pay particular attention to the walls adjacent to plumbing chases, which are a chronic source of slow leaks in towers throughout the 07024 ZIP code.
 
-**Moisture mapping.** Using non-invasive moisture meters and thermal imaging, we map elevated readings across floors, walls, and ceilings. This step often reveals hidden moisture pockets that have no visible discoloration yet — exactly the conditions where mold establishes itself before it becomes visible.
+**Moisture mapping.** Using non-invasive moisture meters and thermal imaging, we map elevated readings across floors, walls, and ceilings. This step often reveals hidden moisture pockets that have no visible discoloration yet, exactly the conditions where mold establishes itself before it becomes visible.
 
-**Air and surface sampling.** We collect indoor air quality samples using calibrated spore-trap cassettes and compare them to an outdoor control sample taken the same day. If surface growth is visible, we collect tape-lift or swab samples directly. All samples are sent to an accredited third-party laboratory — results typically return within 24 to 48 hours.
+**Air and surface sampling.** We collect indoor air quality samples using calibrated spore-trap cassettes and compare them to an outdoor control sample taken the same day. If surface growth is visible, we collect tape-lift or swab samples directly. All samples are sent to an accredited third-party laboratory, results typically return within 24 to 48 hours.
 
-**Written report.** You receive a detailed written assessment documenting every finding, the lab results, and a clear explanation of what the data means for your health and your property. If remediation is warranted, the report gives any contractor — including our own IICRC Certified Firm (#210213) remediation team — the scope they need to work from.
+**Written report.** You receive a detailed written assessment documenting every finding, the lab results, and a clear explanation of what the data means for your health and your property. If remediation is warranted, the report gives any contractor, including our own IICRC Certified Firm (#210213) remediation team, the scope they need to work from.
 
 ## Reaching Fort Lee from Kenilworth
 
-From our Kenilworth headquarters, Fort Lee is accessible via the Garden State Parkway to Route 4 East, or via I-95 North across the upper deck of the George Washington Bridge depending on traffic. We schedule inspections across all of Fort Lee's neighborhoods — from the high-rises along the Palisades to the quieter residential streets in Coytesville — and because we operate 24/7, an urgent inspection request doesn't have to wait until Monday morning.
+From our Kenilworth headquarters, Fort Lee is accessible via the Garden State Parkway to Route 4 East, or via I-95 North across the upper deck of the George Washington Bridge depending on traffic. We schedule inspections across all of Fort Lee's neighborhoods, from the high-rises along the Palisades to the quieter residential streets in Coytesville, and because we operate 24/7, an urgent inspection request doesn't have to wait until Monday morning.
 
 ## Fort Lee Insurance and HOA Coordination
 
@@ -50,6 +50,6 @@ In Fort Lee's condominium towers, mold inspections frequently involve more than 
 
 ## Local Note
 
-In Fort Lee's prewar multifamily buildings — particularly those on the residential streets climbing toward The Hill — original plaster walls are still common. Plaster is denser than modern drywall and absorbs moisture more slowly, which means a leak that happened months ago may show no surface staining at all while harboring significant mold growth inside the wall cavity. Moisture meters calibrated for drywall will underread in plaster, producing false negatives. Our inspectors adjust baseline calibration for plaster assemblies specifically, which is a step that gets skipped when a general contractor does a quick visual check and calls it clean.
+In Fort Lee's prewar multifamily buildings, particularly those on the residential streets climbing toward The Hill, original plaster walls are still common. Plaster is denser than modern drywall and absorbs moisture more slowly, which means a leak that happened months ago may show no surface staining at all while harboring significant mold growth inside the wall cavity. Moisture meters calibrated for drywall will underread in plaster, producing false negatives. Our inspectors adjust baseline calibration for plaster assemblies specifically, which is a step that gets skipped when a general contractor does a quick visual check and calls it clean.
 
-If you've had any water intrusion in a Fort Lee property — whether a high-rise plumbing failure, storm flooding, or a slow leak you discovered late — call The Restoration Group at (855) 650-7422. We'll tell you exactly what you're dealing with, in writing, so you can make informed decisions about what comes next.
+If you've had any water intrusion in a Fort Lee property, whether a high-rise plumbing failure, storm flooding, or a slow leak you discovered late, call The Restoration Group at (855) 650-7422. We'll tell you exactly what you're dealing with, in writing, so you can make informed decisions about what comes next.

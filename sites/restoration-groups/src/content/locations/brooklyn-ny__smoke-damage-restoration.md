@@ -20,19 +20,19 @@ state: "NY"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
-Smoke from a kitchen fire in a Park Slope brownstone doesn't behave the way it does in a ranch house. It travels up through original plaster walls, settles into pressed-tin ceilings, seeps behind wainscoting, and finds every gap in century-old woodwork before you've even called for help. Brooklyn's dense rowhouse stock — much of it built between 1880 and 1920 — holds smoke residue in ways that demand a different approach than a cookie-cutter cleanup. The Restoration Group responds 24/7 to smoke damage calls across Brooklyn, from Williamsburg lofts to Canarsie two-families, with the documentation your insurer and co-op board will actually accept.
+Smoke from a kitchen fire in a Park Slope brownstone doesn't behave the way it does in a ranch house. It travels up through original plaster walls, settles into pressed-tin ceilings, seeps behind wainscoting, and finds every gap in century-old woodwork before you've even called for help. Brooklyn's dense rowhouse stock, much of it built between 1880 and 1920, holds smoke residue in ways that demand a different approach than a cookie-cutter cleanup. The Restoration Group responds 24/7 to smoke damage calls across Brooklyn, from Williamsburg lofts to Canarsie two-families, with the documentation your insurer and co-op board will actually accept.
 
 ## Why Brooklyn's Building Stock Makes Smoke Damage Harder to Clear
 
-The brownstone belt running through Brooklyn Heights, Park Slope, and the Bed-Stuy fringe is architecturally beautiful and restoration-challenging in equal measure. Plaster-and-lath walls are porous in a way that modern drywall isn't — smoke particles and odor-causing volatile organic compounds penetrate the substrate itself, not just the surface. Strip the paint and you still have contaminated plaster beneath. Original horsehair plaster is especially absorbent.
+The brownstone belt running through Brooklyn Heights, Park Slope, and the Bed-Stuy fringe is architecturally beautiful and restoration-challenging in equal measure. Plaster-and-lath walls are porous in a way that modern drywall isn't, smoke particles and odor-causing volatile organic compounds penetrate the substrate itself, not just the surface. Strip the paint and you still have contaminated plaster beneath. Original horsehair plaster is especially absorbent.
 
-Party walls complicate the picture further. In a rowhouse, smoke that originates in one unit can migrate through shared masonry into an adjacent property. Garden-level and cellar apartments — common throughout the borough — pull smoke downward through stairwells and HVAC chases. That means a fire on the parlor floor can leave detectable odor and residue two stories below, in a space a neighbor occupies. Thorough testing before and after remediation isn't optional here; it's what protects everyone on both sides of the wall.
+Party walls complicate the picture further. In a rowhouse, smoke that originates in one unit can migrate through shared masonry into an adjacent property. Garden-level and cellar apartments, common throughout the borough, pull smoke downward through stairwells and HVAC chases. That means a fire on the parlor floor can leave detectable odor and residue two stories below, in a space a neighbor occupies. Thorough testing before and after remediation isn't optional here; it's what protects everyone on both sides of the wall.
 
 Commercial corridors near the Brooklyn Navy Yard and mixed-use buildings in Bushwick add another layer: landlords and property managers need job documentation that satisfies both their carrier and the NYC Department of Buildings if any structural work is triggered by the loss.
 
 ## Our Smoke Damage Restoration Process in Brooklyn
 
-Every job starts with a structured assessment — not a visual scan, but air quality sampling and surface testing to map where smoke residue has traveled. In older Brooklyn buildings, that map almost always extends further than the visible char line.
+Every job starts with a structured assessment, not a visual scan, but air quality sampling and surface testing to map where smoke residue has traveled. In older Brooklyn buildings, that map almost always extends further than the visible char line.
 
 From there, the process moves in a deliberate sequence:
 
@@ -40,11 +40,11 @@ From there, the process moves in a deliberate sequence:
 
 **Dry and wet chemical sponge cleaning.** Smoke residue chemistry varies by what burned. Protein smoke from a kitchen fire requires different cleaning agents than the heavy soot from a structural fire. We match the chemistry to the residue type rather than applying a single product across all surfaces.
 
-**Odor neutralization.** Thermal fogging and hydroxyl generation reach into cavities that surface cleaning can't touch — behind baseboards, inside ductwork, within wall voids. In plaster-walled buildings, this step often requires more time and more passes than in newer construction.
+**Odor neutralization.** Thermal fogging and hydroxyl generation reach into cavities that surface cleaning can't touch, behind baseboards, inside ductwork, within wall voids. In plaster-walled buildings, this step often requires more time and more passes than in newer construction.
 
 **Structural material assessment.** Original woodwork, built-in cabinetry, and decorative plaster medallions are evaluated individually. Replacement is a last resort; restoration is the goal wherever material integrity allows. We document every decision for the insurance file.
 
-**Clearance verification.** The job isn't done when it looks clean — it's done when post-remediation testing confirms residue and odor are within acceptable limits.
+**Clearance verification.** The job isn't done when it looks clean, it's done when post-remediation testing confirms residue and odor are within acceptable limits.
 
 The Restoration Group holds IICRC Firm Certification (#210213), and our technicians follow IICRC S700 standards for smoke and soot restoration throughout.
 
@@ -52,16 +52,16 @@ The Restoration Group holds IICRC Firm Certification (#210213), and our technici
 
 Our operations hub is in Kenilworth, NJ, and Brooklyn is a regular part of our NY-metro service area. The most direct routing crosses into Brooklyn via the Goethals Bridge to the Staten Island Expressway and the Verrazzano-Narrows, or through the Holland Tunnel and across the Brooklyn-Battery Tunnel depending on traffic conditions. We dispatch 24/7, including nights and weekends, so we're not waiting for business hours to mobilize.
 
-For neighborhoods in northern Brooklyn — Williamsburg (ZIP 11211), Brooklyn Heights (ZIP 11201) — we can also route through the Lincoln Tunnel and across the Manhattan Bridge. We communicate estimated arrival when we take the call so you're not left guessing.
+For neighborhoods in northern Brooklyn, Williamsburg (ZIP 11211), Brooklyn Heights (ZIP 11201), we can also route through the Lincoln Tunnel and across the Manhattan Bridge. We communicate estimated arrival when we take the call so you're not left guessing.
 
 ## Brooklyn Insurance and Co-op Board Coordination
 
-Brooklyn's mix of co-ops, condos, and multi-family rentals means the insurance picture is rarely simple. A smoke loss in a co-op unit typically involves both the unit owner's HO-6 policy and the building's master policy — and the two carriers may disagree on scope. We produce itemized photo documentation, moisture and air quality readings, and written scope narratives formatted for adjuster review, which reduces the back-and-forth that delays authorization.
+Brooklyn's mix of co-ops, condos, and multi-family rentals means the insurance picture is rarely simple. A smoke loss in a co-op unit typically involves both the unit owner's HO-6 policy and the building's master policy, and the two carriers may disagree on scope. We produce itemized photo documentation, moisture and air quality readings, and written scope narratives formatted for adjuster review, which reduces the back-and-forth that delays authorization.
 
 Co-op and condo boards in buildings near Barclays Center and throughout the Heights often require advance notice before remediation equipment enters common areas. We coordinate directly with building management to schedule access, protect common-area finishes, and meet any board-specific requirements for contractor documentation.
 
 ## Local Note: Plaster Walls and the Odor That Lingers
 
-One thing that surprises homeowners in older Brooklyn rowhouses: smoke odor can return weeks after a surface cleaning that seemed thorough. Horsehair plaster, which is standard in pre-1930 construction throughout Park Slope and Brooklyn Heights, acts almost like a sponge for volatile compounds. Heat from the fire drives those compounds deep into the substrate, and they off-gas slowly as temperatures fluctuate with the seasons. This is why we don't close out a smoke job in these buildings based on visual inspection alone — we schedule a follow-up air quality check after the first significant temperature swing to confirm the odor hasn't re-emerged from the walls themselves.
+One thing that surprises homeowners in older Brooklyn rowhouses: smoke odor can return weeks after a surface cleaning that seemed thorough. Horsehair plaster, which is standard in pre-1930 construction throughout Park Slope and Brooklyn Heights, acts almost like a sponge for volatile compounds. Heat from the fire drives those compounds deep into the substrate, and they off-gas slowly as temperatures fluctuate with the seasons. This is why we don't close out a smoke job in these buildings based on visual inspection alone, we schedule a follow-up air quality check after the first significant temperature swing to confirm the odor hasn't re-emerged from the walls themselves.
 
-If you're dealing with smoke damage in a Brooklyn home or building, call The Restoration Group at (908) 970-8533. We'll assess the full scope of the loss — including the residue you can't see yet — and build a remediation plan that holds up to insurer scrutiny and protects the original character of the building.
+If you're dealing with smoke damage in a Brooklyn home or building, call The Restoration Group at (908) 970-8533. We'll assess the full scope of the loss, including the residue you can't see yet, and build a remediation plan that holds up to insurer scrutiny and protects the original character of the building.

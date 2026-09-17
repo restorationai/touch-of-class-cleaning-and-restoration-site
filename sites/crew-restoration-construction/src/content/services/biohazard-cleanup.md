@@ -17,33 +17,33 @@ service_slug: "biohazard-cleanup"
 service_display: "Biohazard Cleanup"
 rendered: true
 ---
-When something traumatic happens inside a home or property — an unattended death, a medical emergency, a break-in involving injury — the visible aftermath is only part of what needs to be addressed. Bloodborne pathogens, bodily fluids, and other infectious materials can penetrate porous surfaces like subfloor, drywall, and carpet padding well beyond what the eye can see. Standard cleaning products and general contractors are not equipped for this. Biohazard remediation requires regulated personal protective equipment, EPA-registered disinfectants, enzymatic treatments, and licensed waste transport — and it needs to happen before the property is safe for anyone to re-enter.
+When something traumatic happens inside a home or property, an unattended death, a medical emergency, a break-in involving injury, the visible aftermath is only part of what needs to be addressed. Bloodborne pathogens, bodily fluids, and other infectious materials can penetrate porous surfaces like subfloor, drywall, and carpet padding well beyond what the eye can see. Standard cleaning products and general contractors are not equipped for this. Biohazard remediation requires regulated personal protective equipment, EPA-registered disinfectants, enzymatic treatments, and licensed waste transport, and it needs to happen before the property is safe for anyone to re-enter.
 
 ## What biohazard cleanup actually involves
 
-Biohazard cleanup is a regulated, multi-stage process that goes far deeper than surface cleaning. The visible material is only the starting point. Infectious matter migrates — into grout lines, beneath baseboards, into the structural layers of a floor. Technicians use ATP (adenosine triphosphate) meters and UV light to locate contamination that isn't visible to the naked eye, then remove and bag all affected porous materials — carpet, padding, drywall, insulation — as regulated medical waste.
+Biohazard cleanup is a regulated, multi-stage process that goes far deeper than surface cleaning. The visible material is only the starting point. Infectious matter migrates, into grout lines, beneath baseboards, into the structural layers of a floor. Technicians use ATP (adenosine triphosphate) meters and UV light to locate contamination that isn't visible to the naked eye, then remove and bag all affected porous materials, carpet, padding, drywall, insulation, as regulated medical waste.
 
-Once the gross contamination is removed, surfaces are treated with EPA-registered hospital-grade disinfectants and enzymatic cleaners that break down organic material at a molecular level. The final step is verification: a post-remediation ATP reading confirms that pathogen levels have been reduced to safe thresholds. All waste collected during the process is transported and disposed of under a biohazard waste manifest — a chain-of-custody document required by South Dakota law.
+Once the gross contamination is removed, surfaces are treated with EPA-registered hospital-grade disinfectants and enzymatic cleaners that break down organic material at a molecular level. The final step is verification: a post-remediation ATP reading confirms that pathogen levels have been reduced to safe thresholds. All waste collected during the process is transported and disposed of under a biohazard waste manifest, a chain-of-custody document required by South Dakota law.
 
 From the first call to completion, most single-room scenes are resolved within one to two days. Larger or more complex situations may take longer, and Crew Restoration & Construction will give you a realistic timeline in writing before work begins.
 
 ## Our process
 
-1. **PPE staging and scene assessment.** Technicians arrive in full personal protective equipment — Tyvek suits, respirators, gloves, and boot covers — and assess the full extent of contamination before any cleaning begins. This includes checking adjacent rooms, HVAC returns, and sub-surface materials that may have absorbed biological material.
+1. **PPE staging and scene assessment.** Technicians arrive in full personal protective equipment, Tyvek suits, respirators, gloves, and boot covers, and assess the full extent of contamination before any cleaning begins. This includes checking adjacent rooms, HVAC returns, and sub-surface materials that may have absorbed biological material.
 
 2. **Containment and access control.** Affected areas are sealed off with poly sheeting and negative air pressure where needed to prevent cross-contamination to unaffected parts of the property. This step protects both the technicians and anyone else in the building.
 
 3. **Gross removal and material disposal.** All visibly contaminated porous materials are removed, double-bagged in red biohazard bags, and staged for transport. Non-porous surfaces are cleaned of gross contamination before disinfection begins. All removed material is logged on a waste manifest.
 
-4. **Enzymatic treatment and hospital-grade disinfection.** Enzymatic cleaners are applied to break down organic matter in seams, cracks, and sub-surface areas. EPA-registered disinfectants rated for bloodborne pathogens are then applied and allowed to dwell for the manufacturer-specified contact time — a step that less-experienced operators frequently cut short.
+4. **Enzymatic treatment and hospital-grade disinfection.** Enzymatic cleaners are applied to break down organic matter in seams, cracks, and sub-surface areas. EPA-registered disinfectants rated for bloodborne pathogens are then applied and allowed to dwell for the manufacturer-specified contact time, a step that less-experienced operators frequently cut short.
 
-5. **Post-remediation verification and documentation.** ATP meters confirm that surface contamination has been reduced to safe levels. Crew Restoration & Construction provides written documentation of the completed scope, the products used, and the waste manifest — records that your insurance carrier will require.
+5. **Post-remediation verification and documentation.** ATP meters confirm that surface contamination has been reduced to safe levels. Crew Restoration & Construction provides written documentation of the completed scope, the products used, and the waste manifest, records that your insurance carrier will require.
 
 ## What separates a good biohazard response from a bad one
 
-The most common failure in biohazard cleanup is incomplete removal of sub-surface contamination. A crew that cleans only what's visible will leave behind biological material in subfloor, wall cavities, or concrete cracks — material that will produce odor, attract pests, and remain a health hazard. Weeks later, the property owner is back to square one, often with a larger remediation bill.
+The most common failure in biohazard cleanup is incomplete removal of sub-surface contamination. A crew that cleans only what's visible will leave behind biological material in subfloor, wall cavities, or concrete cracks, material that will produce odor, attract pests, and remain a health hazard. Weeks later, the property owner is back to square one, often with a larger remediation bill.
 
-A second frequent problem is insufficient dwell time during disinfection. EPA-registered disinfectants only work when left in contact with a surface for the time specified on the label — often five to ten minutes. Rushing this step renders the disinfectant largely ineffective.
+A second frequent problem is insufficient dwell time during disinfection. EPA-registered disinfectants only work when left in contact with a surface for the time specified on the label, often five to ten minutes. Rushing this step renders the disinfectant largely ineffective.
 
 Insurance adjusters reviewing a biohazard claim will look for a written scope of work, itemized documentation of materials removed, a waste manifest, and post-remediation verification readings. A claim submitted without this paperwork is likely to be disputed or underpaid. Crew Restoration & Construction produces all of this documentation as a standard part of every job, not as an add-on.
 
@@ -51,7 +51,7 @@ Discretion also matters. Vehicles are unmarked, and the crew works efficiently t
 
 ## What does biohazard cleanup cost?
 
-Typical costs for biohazard remediation vary significantly based on the size of the affected area, the surfaces involved, and the extent of sub-surface penetration. The figures below reflect industry-typical ranges — every loss is different, and Crew Restoration & Construction provides a written scope before any work begins so you know exactly what you're authorizing.
+Typical costs for biohazard remediation vary significantly based on the size of the affected area, the surfaces involved, and the extent of sub-surface penetration. The figures below reflect industry-typical ranges, every loss is different, and Crew Restoration & Construction provides a written scope before any work begins so you know exactly what you're authorizing.
 
 | Scenario | Typical industry range |
 |---|---|
@@ -62,10 +62,10 @@ Typical costs for biohazard remediation vary significantly based on the size of 
 | Hoarding scene with biological hazards | $5,000 – $25,000+ |
 | Vehicle biohazard remediation | $500 – $3,000 |
 
-Homeowners insurance — including standard HO-3 policies — frequently covers biohazard cleanup when the event is sudden and accidental. Coverage for unattended death scenes varies by carrier and policy language. Crew Restoration & Construction works with all major insurance carriers and handles claim documentation directly.
+Homeowners insurance, including standard HO-3 policies, frequently covers biohazard cleanup when the event is sudden and accidental. Coverage for unattended death scenes varies by carrier and policy language. Crew Restoration & Construction works with all major insurance carriers and handles claim documentation directly.
 
 ## Service area
 
 Crew Restoration & Construction is based in Sioux Falls and provides biohazard cleanup throughout the surrounding region, including Brandon, Tea, Harrisburg, Dell Rapids, Baltic, and the broader southeast South Dakota area. City and county combo pages for specific communities link back to this page for full service details.
 
-When you're ready to move forward — or simply need to understand your options — call Crew Restoration & Construction at **(605) 965-2727** to begin discreet biohazard cleanup. The call is confidential, and there is no obligation before you have a written scope in hand.
+When you're ready to move forward, or simply need to understand your options, call Crew Restoration & Construction at **(605) 965-2727** to begin discreet biohazard cleanup. The call is confidential, and there is no obligation before you have a written scope in hand.

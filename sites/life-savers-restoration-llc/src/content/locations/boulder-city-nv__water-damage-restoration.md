@@ -20,40 +20,40 @@ state: "NV"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
-Boulder City sits in one of the driest corners of Nevada, but that aridity creates a false sense of security when water damage actually strikes. Without the natural drainage relief that rain-softened soil provides elsewhere, a burst supply line or failed water heater here can pool fast, seep under slab foundations, and wick into drywall long before the surface feels wet. Life Savers Restoration LLC responds 24/7 from Henderson — handling water removal, structural drying, and full mitigation for Boulder City homeowners and property managers who need the problem stopped, not scheduled.
+Boulder City sits in one of the driest corners of Nevada, but that aridity creates a false sense of security when water damage actually strikes. Without the natural drainage relief that rain-softened soil provides elsewhere, a burst supply line or failed water heater here can pool fast, seep under slab foundations, and wick into drywall long before the surface feels wet. Life Savers Restoration LLC responds 24/7 from Henderson, handling water removal, structural drying, and full mitigation for Boulder City homeowners and property managers who need the problem stopped, not scheduled.
 
 ## Why Boulder City Properties See Water Damage Differently
 
-The Mojave Desert climate means Boulder City homes spend most of the year in low humidity — which sounds helpful until you realize that building materials here cycle through extreme heat and dry air for months at a time. Wooden framing, subflooring, and cabinet bases shrink and develop micro-gaps that act like wicking channels the moment water appears. A slow drip behind a vanity that would be caught early in a humid climate can travel several feet along a dried-out subfloor before anyone notices the discoloration.
+The Mojave Desert climate means Boulder City homes spend most of the year in low humidity, which sounds helpful until you realize that building materials here cycle through extreme heat and dry air for months at a time. Wooden framing, subflooring, and cabinet bases shrink and develop micro-gaps that act like wicking channels the moment water appears. A slow drip behind a vanity that would be caught early in a humid climate can travel several feet along a dried-out subfloor before anyone notices the discoloration.
 
-Boulder City's housing stock also skews older than much of Clark County. Homes built in the mid-20th century — many of them constructed to house workers and their families during and after the Hoover Dam era — often have galvanized steel supply lines that corrode from the inside out. That corrosion doesn't announce itself; it produces pinhole leaks that run silently inside walls for weeks. Slab-on-grade construction, common throughout the city, means there is no crawl space to catch early moisture signals, so the first visible sign is often a buckled tile or a soft spot in laminate flooring.
+Boulder City's housing stock also skews older than much of Clark County. Homes built in the mid-20th century, many of them constructed to house workers and their families during and after the Hoover Dam era, often have galvanized steel supply lines that corrode from the inside out. That corrosion doesn't announce itself; it produces pinhole leaks that run silently inside walls for weeks. Slab-on-grade construction, common throughout the city, means there is no crawl space to catch early moisture signals, so the first visible sign is often a buckled tile or a soft spot in laminate flooring.
 
 ## Our Water Damage Restoration Process in Boulder City
 
-When a call comes in, the crew loads moisture meters, thermal imaging cameras, industrial extractors, and desiccant or refrigerant dehumidifiers before leaving Henderson. The drive down US-93 / Boulder Highway puts our team on-site quickly, and the equipment comes ready to work — not staged in a warehouse waiting for a separate delivery.
+When a call comes in, the crew loads moisture meters, thermal imaging cameras, industrial extractors, and desiccant or refrigerant dehumidifiers before leaving Henderson. The drive down US-93 / Boulder Highway puts our team on-site quickly, and the equipment comes ready to work, not staged in a warehouse waiting for a separate delivery.
 
 The first priority on arrival is stopping active water intrusion if it hasn't been stopped already. From there, the process follows the IICRC S500 standard for water damage response:
 
-- **Moisture mapping** — thermal imaging and pin/pinless meters identify the full wet boundary, including areas that feel dry at the surface but are saturated behind the finish layer.
-- **Water extraction** — truck-mounted or portable extractors pull standing water and surface moisture before drying equipment is placed.
-- **Drying system placement** — air movers and dehumidifiers are positioned based on the moisture map, not a generic formula. In slab-foundation homes, this often means directing airflow low and running equipment longer than in homes with raised foundations.
-- **Daily monitoring** — readings are logged each visit so drying progress is documented and the system can be adjusted if a cavity is drying slower than expected.
-- **Controlled demolition if needed** — if drywall, baseboard, or flooring is holding moisture that equipment alone cannot reach, we remove only what is necessary and document everything for the insurance claim.
+- **Moisture mapping**, thermal imaging and pin/pinless meters identify the full wet boundary, including areas that feel dry at the surface but are saturated behind the finish layer.
+- **Water extraction**, truck-mounted or portable extractors pull standing water and surface moisture before drying equipment is placed.
+- **Drying system placement**, air movers and dehumidifiers are positioned based on the moisture map, not a generic formula. In slab-foundation homes, this often means directing airflow low and running equipment longer than in homes with raised foundations.
+- **Daily monitoring**, readings are logged each visit so drying progress is documented and the system can be adjusted if a cavity is drying slower than expected.
+- **Controlled demolition if needed**, if drywall, baseboard, or flooring is holding moisture that equipment alone cannot reach, we remove only what is necessary and document everything for the insurance claim.
 
-As an IICRC Certified Firm with technicians holding WRT and ASD credentials, the drying protocol is calibrated to actual readings — not a fixed number of days.
+As an IICRC Certified Firm with technicians holding WRT and ASD credentials, the drying protocol is calibrated to actual readings, not a fixed number of days.
 
 ## Reaching Boulder City from Henderson
 
-Life Savers Restoration LLC is based in Henderson, and Boulder City is a direct run south on US-93 / Boulder Highway — a route the crew travels regularly. Because Boulder City operates as an incorporated municipality with its own building and utility departments separate from Clark County, any permitted reconstruction work after mitigation goes through the city's own permitting office. We account for that when scoping jobs that involve structural repairs, so there are no surprises about which jurisdiction is issuing the permit.
+Life Savers Restoration LLC is based in Henderson, and Boulder City is a direct run south on US-93 / Boulder Highway, a route the crew travels regularly. Because Boulder City operates as an incorporated municipality with its own building and utility departments separate from Clark County, any permitted reconstruction work after mitigation goes through the city's own permitting office. We account for that when scoping jobs that involve structural repairs, so there are no surprises about which jurisdiction is issuing the permit.
 
 ## Boulder City Insurance Coordination
 
-Water damage claims in Nevada are straightforward in principle but can stall when documentation is thin. Carriers want moisture logs, photos of affected materials before and after removal, and a clear scope of work. Every job we run produces that paper trail as a matter of process — not as an add-on. We bill most major carriers directly and communicate with adjusters throughout the job, which keeps the homeowner out of the middle of a back-and-forth that can delay drying decisions.
+Water damage claims in Nevada are straightforward in principle but can stall when documentation is thin. Carriers want moisture logs, photos of affected materials before and after removal, and a clear scope of work. Every job we run produces that paper trail as a matter of process, not as an add-on. We bill most major carriers directly and communicate with adjusters throughout the job, which keeps the homeowner out of the middle of a back-and-forth that can delay drying decisions.
 
-If your policy includes an HOA master policy layer — common in some of Boulder City's planned communities — we can work with both the unit-level carrier and the HOA's insurer simultaneously to avoid coverage gaps.
+If your policy includes an HOA master policy layer, common in some of Boulder City's planned communities, we can work with both the unit-level carrier and the HOA's insurer simultaneously to avoid coverage gaps.
 
 ## Local Note
 
-Boulder City's low ambient humidity is a genuine drying advantage — once equipment is running, evaporation rates are faster here than in coastal or high-humidity markets. But that same dry air means that materials with any residual moisture can appear to be dry on a surface reading while still holding moisture in the core. In older homes with thicker plaster or original wood-lath walls, we extend monitoring cycles and use penetrating probes rather than relying on surface meters alone. Calling the job dry too early in this climate is a real risk — it's how mold gets started in a desert home that "shouldn't" have a mold problem.
+Boulder City's low ambient humidity is a genuine drying advantage, once equipment is running, evaporation rates are faster here than in coastal or high-humidity markets. But that same dry air means that materials with any residual moisture can appear to be dry on a surface reading while still holding moisture in the core. In older homes with thicker plaster or original wood-lath walls, we extend monitoring cycles and use penetrating probes rather than relying on surface meters alone. Calling the job dry too early in this climate is a real risk, it's how mold gets started in a desert home that "shouldn't" have a mold problem.
 
-If you're dealing with water damage in Boulder City right now, call Life Savers Restoration LLC at **(702) 845-1325**. We're available around the clock, and the crew that answers the phone is the crew that shows up — ready to extract, dry, and document from the first hour on-site.
+If you're dealing with water damage in Boulder City right now, call Life Savers Restoration LLC at **(702) 845-1325**. We're available around the clock, and the crew that answers the phone is the crew that shows up, ready to extract, dry, and document from the first hour on-site.

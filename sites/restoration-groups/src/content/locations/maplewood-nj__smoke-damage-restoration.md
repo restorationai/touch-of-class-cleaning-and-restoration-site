@@ -20,13 +20,13 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
-Smoke doesn't stop at the room where the fire started. In Maplewood's older Tudor and craftsman homes — many of them built between 1910 and 1940 with original plaster walls, wood-lathe ceilings, and interconnected attic spaces — smoke travels fast and settles deep. The same porous plaster that gives these houses their character also absorbs soot and odor molecules in ways that modern drywall simply doesn't, and a kitchen fire in a Hilton neighborhood colonial can leave residue in second-floor bedrooms before the fire department has even cleared the scene. Getting the right team on-site quickly matters enormously here.
+Smoke doesn't stop at the room where the fire started. In Maplewood's older Tudor and craftsman homes, many of them built between 1910 and 1940 with original plaster walls, wood-lathe ceilings, and interconnected attic spaces, smoke travels fast and settles deep. The same porous plaster that gives these houses their character also absorbs soot and odor molecules in ways that modern drywall simply doesn't, and a kitchen fire in a Hilton neighborhood colonial can leave residue in second-floor bedrooms before the fire department has even cleared the scene. Getting the right team on-site quickly matters enormously here.
 
 ## Why Maplewood Properties See Smoke Damage Differently
 
-The housing stock in the 07040 ZIP code is part of what makes smoke restoration more involved than in newer suburban communities. Original horsehair plaster, knob-and-tube-era framing cavities, and uninsulated attic bypasses all create pathways for smoke to migrate far from the fire's origin. Finished basements — common in the Tudors and colonials throughout Maplewood Village and the Tuscan neighborhood — trap smoke odors in carpet padding, drop ceilings, and wood paneling that can look undamaged but smell heavily of combustion weeks later.
+The housing stock in the 07040 ZIP code is part of what makes smoke restoration more involved than in newer suburban communities. Original horsehair plaster, knob-and-tube-era framing cavities, and uninsulated attic bypasses all create pathways for smoke to migrate far from the fire's origin. Finished basements, common in the Tudors and colonials throughout Maplewood Village and the Tuscan neighborhood, trap smoke odors in carpet padding, drop ceilings, and wood paneling that can look undamaged but smell heavily of combustion weeks later.
 
-Cast-iron drain stacks and older HVAC systems without modern filtration also recirculate smoke particles through the home during and after a fire event. In houses where the original gravity-fed heating has been converted to forced air, the ductwork becomes a distribution system for fine soot. Smoke particles in the sub-micron range — the ones responsible for persistent odor — settle into duct lining, insulation batts, and the gaps around original window frames that were never fully sealed.
+Cast-iron drain stacks and older HVAC systems without modern filtration also recirculate smoke particles through the home during and after a fire event. In houses where the original gravity-fed heating has been converted to forced air, the ductwork becomes a distribution system for fine soot. Smoke particles in the sub-micron range, the ones responsible for persistent odor, settle into duct lining, insulation batts, and the gaps around original window frames that were never fully sealed.
 
 ## Our Smoke Damage Restoration Process in Maplewood
 
@@ -34,26 +34,26 @@ Every job starts with a room-by-room inspection that maps smoke migration, not j
 
 From there, the process moves through several concrete phases:
 
-- **Dry soot removal** using HEPA-filtered vacuums and dry chemical sponges before any wet cleaning begins — wet-wiping soot before dry removal drives it deeper into porous surfaces.
+- **Dry soot removal** using HEPA-filtered vacuums and dry chemical sponges before any wet cleaning begins, wet-wiping soot before dry removal drives it deeper into porous surfaces.
 - **Surface decontamination** of walls, ceilings, trim, and contents using pH-appropriate cleaners matched to the substrate (alkaline smoke from wood fires vs. protein smoke from kitchen fires require different chemistry).
 - **Duct cleaning and HVAC decontamination**, critical in older Maplewood homes where forced-air systems have likely spread fine particulates.
 - **Hydroxyl or ozone treatment** for odor neutralization at the molecular level, run after the structure is physically clean so the treatment reaches residual odor sources rather than masking surface smells.
 - **Final air quality verification** before the job is closed out.
 
-All drying and decontamination work follows IICRC standards — The Restoration Group is an IICRC Certified Firm (#210213), and that framework governs how we document scope, sequence the work, and verify completion.
+All drying and decontamination work follows IICRC standards, The Restoration Group is an IICRC Certified Firm (#210213), and that framework governs how we document scope, sequence the work, and verify completion.
 
 ## Reaching Maplewood from Kenilworth
 
-The Restoration Group is based in Kenilworth, roughly 8 miles from central Maplewood. The most direct route runs via Route 22 East to Springfield Avenue, putting crews into the Maplewood Village area and the neighborhoods near the Maplewood Train Station without navigating the congestion that builds on I-78 during peak hours. Because we operate around the clock, a call at 2 a.m. after a kitchen fire in the Jefferson neighborhood reaches a live dispatcher who can mobilize a crew — not a voicemail box.
+The Restoration Group is based in Kenilworth, roughly 8 miles from central Maplewood. The most direct route runs via Route 22 East to Springfield Avenue, putting crews into the Maplewood Village area and the neighborhoods near the Maplewood Train Station without navigating the congestion that builds on I-78 during peak hours. Because we operate around the clock, a call at 2 a.m. after a kitchen fire in the Jefferson neighborhood reaches a live dispatcher who can mobilize a crew, not a voicemail box.
 
 For properties near South Mountain Reservation or along the western residential streets, we typically approach via Millburn Avenue, which keeps response efficient regardless of time of day.
 
 ## Maplewood Insurance Coordination
 
-Smoke damage claims in older homes often generate scope disputes with carriers because the migration is invisible until testing. We photograph and document every affected surface before cleaning begins, produce a written scope of loss with line-item detail, and communicate directly with your adjuster throughout the process. Homeowners in Maplewood frequently discover during the claims process that their policy covers smoke damage from a neighbor's fire or from a chimney event — not just a structural fire on their own property. We're a licensed NJ Home Improvement Contractor (NJ Division of Consumer Affairs), which carriers require for restoration work billed under a homeowner's policy in this state.
+Smoke damage claims in older homes often generate scope disputes with carriers because the migration is invisible until testing. We photograph and document every affected surface before cleaning begins, produce a written scope of loss with line-item detail, and communicate directly with your adjuster throughout the process. Homeowners in Maplewood frequently discover during the claims process that their policy covers smoke damage from a neighbor's fire or from a chimney event, not just a structural fire on their own property. We're a licensed NJ Home Improvement Contractor (NJ Division of Consumer Affairs), which carriers require for restoration work billed under a homeowner's policy in this state.
 
 ## Local Note
 
-One pattern we see repeatedly in Maplewood's pre-war housing stock: smoke odor that appears to clear after initial cleaning returns within two to four weeks, particularly in homes with original plaster over brick chimneys. The brick and mortar in older chimney chases absorbs combustion byproducts over decades, and a fire event — even a modest one — can reactivate those embedded odors as temperatures fluctuate with the seasons. If your home has an interior chimney stack running through multiple floors, that assembly needs to be part of any thorough smoke remediation scope, not just the rooms with visible soot.
+One pattern we see repeatedly in Maplewood's pre-war housing stock: smoke odor that appears to clear after initial cleaning returns within two to four weeks, particularly in homes with original plaster over brick chimneys. The brick and mortar in older chimney chases absorbs combustion byproducts over decades, and a fire event, even a modest one, can reactivate those embedded odors as temperatures fluctuate with the seasons. If your home has an interior chimney stack running through multiple floors, that assembly needs to be part of any thorough smoke remediation scope, not just the rooms with visible soot.
 
-If your Maplewood home has smoke damage — whether from a kitchen fire, a chimney event, or a neighboring structure — call The Restoration Group at **(855) 650-7422**. We'll assess the full scope of migration, not just the visible damage, and get the restoration documented properly from day one.
+If your Maplewood home has smoke damage, whether from a kitchen fire, a chimney event, or a neighboring structure, call The Restoration Group at **(855) 650-7422**. We'll assess the full scope of migration, not just the visible damage, and get the restoration documented properly from day one.

@@ -20,21 +20,21 @@ state: "WA"
 service_display: "Reconstruction Services"
 rendered: true
 ---
-When a fire guts a kitchen, a burst pipe collapses a ceiling, or a windstorm tears through a roof, the structure you're left with isn't just damaged — it's a liability. If you're a property owner or manager in Redmond dealing with that right now, the question isn't whether reconstruction needs to happen. It's who does it, how fast, and whether your insurance will cover it. National Restoration Construction has been handling post-damage reconstruction across the greater Seattle metro since 2004, and our crews reach most Redmond addresses within 60–90 minutes of your call.
+When a fire guts a kitchen, a burst pipe collapses a ceiling, or a windstorm tears through a roof, the structure you're left with isn't just damaged, it's a liability. If you're a property owner or manager in Redmond dealing with that right now, the question isn't whether reconstruction needs to happen. It's who does it, how fast, and whether your insurance will cover it. National Restoration Construction has been handling post-damage reconstruction across the greater Seattle metro since 2004, and our crews reach most Redmond addresses within 60–90 minutes of your call.
 
 ## What Reconstruction in Redmond Actually Looks Like
 
-Reconstruction isn't a single service — it's a sequence that starts the moment emergency mitigation ends. After water extraction, smoke cleanup, or debris removal, what remains is often a structure with compromised framing, missing drywall, exposed subfloor, or load-bearing elements that need professional assessment before anyone sets foot inside.
+Reconstruction isn't a single service, it's a sequence that starts the moment emergency mitigation ends. After water extraction, smoke cleanup, or debris removal, what remains is often a structure with compromised framing, missing drywall, exposed subfloor, or load-bearing elements that need professional assessment before anyone sets foot inside.
 
-Our process begins with a thorough structural walkthrough. We document every affected area with photos and written scope — not because it's paperwork, but because that documentation is what your insurance adjuster needs to approve a rebuild estimate. From there, we move into framing repair or replacement, sheathing, insulation, drywall, finish carpentry, and final inspections. We hold a Washington State Department of Labor & Industries General Contractor Certificate of Registration (#NATIORC792M6), which means every phase of the rebuild is permitted and inspected the way it should be.
+Our process begins with a thorough structural walkthrough. We document every affected area with photos and written scope, not because it's paperwork, but because that documentation is what your insurance adjuster needs to approve a rebuild estimate. From there, we move into framing repair or replacement, sheathing, insulation, drywall, finish carpentry, and final inspections. We hold a Washington State Department of Labor & Industries General Contractor Certificate of Registration (#NATIORC792M6), which means every phase of the rebuild is permitted and inspected the way it should be.
 
-For commercial properties along Redmond's Overlake corridor or the mixed-use developments near Old Town, we also coordinate with property managers and tenants to sequence work in a way that limits downtime — because a closed storefront or an uninhabitable unit has a real dollar cost beyond the damage itself.
+For commercial properties along Redmond's Overlake corridor or the mixed-use developments near Old Town, we also coordinate with property managers and tenants to sequence work in a way that limits downtime, because a closed storefront or an uninhabitable unit has a real dollar cost beyond the damage itself.
 
 ## Why Redmond Properties Face Reconstruction Needs Year-Round
 
 Redmond sits in a climate that doesn't give structures much of a break. Western Washington's wet season runs roughly October through April, and the combination of persistent moisture, freeze-thaw cycles on older rooflines, and wind events off the Cascades creates conditions where small failures become large ones quickly.
 
-The housing stock matters too. Redmond's neighborhoods range from 1960s ranch homes in Education Hill to newer construction near Microsoft's campus. Older homes often have original plumbing that fails under pressure spikes, and wood-framed structures from that era can absorb water damage into wall cavities before a homeowner realizes anything is wrong. Mold colonization can begin within 24 to 48 hours of a moisture event — which is why the window between mitigation and structural reconstruction is narrow.
+The housing stock matters too. Redmond's neighborhoods range from 1960s ranch homes in Education Hill to newer construction near Microsoft's campus. Older homes often have original plumbing that fails under pressure spikes, and wood-framed structures from that era can absorb water damage into wall cavities before a homeowner realizes anything is wrong. Mold colonization can begin within 24 to 48 hours of a moisture event, which is why the window between mitigation and structural reconstruction is narrow.
 
 Fire risk follows a different pattern. Cooking fires, electrical faults in older panel boxes, and wildfire smoke events (increasingly common east of the Cascades but affecting air quality valley-wide) all create scenarios where post-fire rebuilding is needed even when the structure itself wasn't fully consumed.
 
@@ -42,17 +42,17 @@ Fire risk follows a different pattern. Cooking fires, electrical faults in older
 
 Insurance claims for structural reconstruction are among the most contested in the property damage world. Adjusters work from their own estimates; contractors work from what they actually find inside the walls. Those two numbers rarely match on the first pass.
 
-We work directly with your insurance carrier from the initial scope meeting through final sign-off. That means submitting Xactimate-formatted estimates, responding to adjuster supplement requests, and flagging hidden damage — like wet insulation behind intact drywall, or charred framing behind a surface that looks clean — that only becomes visible once demolition begins. You're responsible for your deductible and for communicating with your adjuster about your policy limits. Everything else on the contractor side, we handle.
+We work directly with your insurance carrier from the initial scope meeting through final sign-off. That means submitting Xactimate-formatted estimates, responding to adjuster supplement requests, and flagging hidden damage, like wet insulation behind intact drywall, or charred framing behind a surface that looks clean, that only becomes visible once demolition begins. You're responsible for your deductible and for communicating with your adjuster about your policy limits. Everything else on the contractor side, we handle.
 
 If you haven't filed a claim yet, we can walk you through what to document before the adjuster visits. Getting that right on the front end prevents delays on the back end.
 
 ## Response Times to Redmond from Our Federal Way Base
 
-Our headquarters in Federal Way puts us roughly 25–30 miles south of Redmond via I-5 and SR-520 or I-405. Under normal traffic conditions, that's a 35–50 minute drive. We plan for real-world conditions — peak commute hours on 405 are what they are — and our honest estimate for most Redmond addresses is a technician on-site within 60–90 minutes of your initial contact.
+Our headquarters in Federal Way puts us roughly 25–30 miles south of Redmond via I-5 and SR-520 or I-405. Under normal traffic conditions, that's a 35–50 minute drive. We plan for real-world conditions, peak commute hours on 405 are what they are, and our honest estimate for most Redmond addresses is a technician on-site within 60–90 minutes of your initial contact.
 
-For properties closer to Bellevue or the 520 interchange, response times trend toward the shorter end of that window. For addresses further east toward Novelty Hill or Union Hill, plan for the longer end. Either way, we're not dispatching from out of state or routing through a national call center — you're reaching a crew that knows this stretch of the eastside.
+For properties closer to Bellevue or the 520 interchange, response times trend toward the shorter end of that window. For addresses further east toward Novelty Hill or Union Hill, plan for the longer end. Either way, we're not dispatching from out of state or routing through a national call center, you're reaching a crew that knows this stretch of the eastside.
 
-If the structure is actively unsafe — partial roof collapse, standing water near electrical panels, post-fire instability — tell us that when you reach out at (206) 883-0333 and we'll prioritize accordingly.
+If the structure is actively unsafe, partial roof collapse, standing water near electrical panels, post-fire instability, tell us that when you reach out at (206) 883-0333 and we'll prioritize accordingly.
 
 ## Getting the Rebuild Started
 

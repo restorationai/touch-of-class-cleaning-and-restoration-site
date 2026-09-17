@@ -19,11 +19,11 @@ state: "UT"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall in your Herriman home or smoke from a kitchen fire works its way into your HVAC system, you need a crew that knows the area, carries the right equipment, and can be at your door before the damage compounds. Home Pride Restoration and Cleaning has been responding to water, fire, mold, and biohazard emergencies across the Salt Lake Valley since 1997 — and Herriman property owners are among the neighbors we serve most frequently. One call to (801) 995-2437 gets a certified technician moving toward your address.
+When a pipe bursts behind a wall in your Herriman home or smoke from a kitchen fire works its way into your HVAC system, you need a crew that knows the area, carries the right equipment, and can be at your door before the damage compounds. Home Pride Restoration and Cleaning has been responding to water, fire, mold, and biohazard emergencies across the Salt Lake Valley since 1997, and Herriman property owners are among the neighbors we serve most frequently. One call to (801) 995-2437 gets a certified technician moving toward your address.
 
 ## Restoration emergencies common in Herriman
 
-Herriman sits at roughly 5,000 feet on the west bench of the Wasatch Front, and that elevation shapes the kinds of damage local homeowners deal with. Winters here run colder and longer than in the valley floor, and freeze-thaw cycles are aggressive — supply lines in garages and exterior walls are especially vulnerable to bursting between January and March. The city has grown explosively since the early 2000s, which means a large portion of the housing stock is tract construction from the mid-2000s through the 2010s: open floor plans with long plumbing runs, engineered wood subfloors that swell and delaminate quickly when wet, and HVAC systems that can carry smoke or mold spores through an entire home in hours.
+Herriman sits at roughly 5,000 feet on the west bench of the Wasatch Front, and that elevation shapes the kinds of damage local homeowners deal with. Winters here run colder and longer than in the valley floor, and freeze-thaw cycles are aggressive, supply lines in garages and exterior walls are especially vulnerable to bursting between January and March. The city has grown explosively since the early 2000s, which means a large portion of the housing stock is tract construction from the mid-2000s through the 2010s: open floor plans with long plumbing runs, engineered wood subfloors that swell and delaminate quickly when wet, and HVAC systems that can carry smoke or mold spores through an entire home in hours.
 
 Herriman also sits on clay-heavy soils that expand when saturated, pushing moisture against foundation walls and through basement slab joints during heavy snowmelt or the summer monsoon season Utah sees in July and August. Newer subdivisions built on previously undeveloped bench land sometimes lack the mature drainage infrastructure of older Salt Lake County neighborhoods, so surface water finds its way into crawlspaces and window wells faster than homeowners expect.
 
@@ -31,11 +31,11 @@ Herriman also sits on clay-heavy soils that expand when saturated, pushing moist
 
 ### Water damage restoration
 
-Water damage in Herriman most often starts with a failed supply line, a water heater that lets go overnight, or snowmelt that backs up through a foundation crack. Engineered hardwood and LVP flooring — common in homes built after 2010 — trap moisture underneath and begin to buckle within 24 to 48 hours. Our technicians extract standing water, deploy commercial-grade desiccant dehumidifiers, and use thermal imaging to find moisture hidden inside walls before it has a chance to feed mold growth.
+Water damage in Herriman most often starts with a failed supply line, a water heater that lets go overnight, or snowmelt that backs up through a foundation crack. Engineered hardwood and LVP flooring, common in homes built after 2010, trap moisture underneath and begin to buckle within 24 to 48 hours. Our technicians extract standing water, deploy commercial-grade desiccant dehumidifiers, and use thermal imaging to find moisture hidden inside walls before it has a chance to feed mold growth.
 
 ### Fire and smoke damage restoration
 
-A kitchen fire that looks contained to one room can leave smoke residue and odor throughout a home's ductwork within minutes. We perform structural cleaning, content pack-out, and odor neutralization using hydroxyl and thermal fogging — not just surface wipe-downs. We also coordinate directly with most major insurance carriers so the documentation burden doesn't fall entirely on you during an already stressful week.
+A kitchen fire that looks contained to one room can leave smoke residue and odor throughout a home's ductwork within minutes. We perform structural cleaning, content pack-out, and odor neutralization using hydroxyl and thermal fogging, not just surface wipe-downs. We also coordinate directly with most major insurance carriers so the documentation burden doesn't fall entirely on you during an already stressful week.
 
 ### Mold remediation
 
@@ -47,11 +47,11 @@ Biohazard situations require licensed handling, proper PPE, and disposal that co
 
 ### Reconstruction
 
-Once mitigation is complete, we can handle the rebuild — drywall, flooring, cabinetry, and finish work — so you're not coordinating a separate general contractor while your home is still partially torn apart.
+Once mitigation is complete, we can handle the rebuild, drywall, flooring, cabinetry, and finish work, so you're not coordinating a separate general contractor while your home is still partially torn apart.
 
 ## Response time and coverage
 
-Home Pride Restoration and Cleaning is headquartered in Saratoga Springs, roughly 15 minutes from most Herriman addresses under normal traffic conditions. For most calls, a technician is on-site within 60 to 90 minutes of your call — often faster for addresses in the northern Herriman corridor near Bangerter Highway. We maintain 24/7 dispatch, so a 2 a.m. pipe burst gets the same response as a weekday afternoon call. Our crews are familiar with the road grid throughout Herriman and can reach addresses across the city without the navigation delays that affect contractors coming from Salt Lake City proper.
+Home Pride Restoration and Cleaning is headquartered in Saratoga Springs, roughly 15 minutes from most Herriman addresses under normal traffic conditions. For most calls, a technician is on-site within 60 to 90 minutes of your call, often faster for addresses in the northern Herriman corridor near Bangerter Highway. We maintain 24/7 dispatch, so a 2 a.m. pipe burst gets the same response as a weekday afternoon call. Our crews are familiar with the road grid throughout Herriman and can reach addresses across the city without the navigation delays that affect contractors coming from Salt Lake City proper.
 
 ## Building stock, site conditions, and permits in Herriman
 
@@ -59,4 +59,4 @@ Because nearly all of Herriman's housing went up after 2000, the assemblies are 
 
 Structural repairs and rebuilds are permitted through Herriman City, not Salt Lake County, and finishing or refinishing a basement after a loss usually triggers one. Utah enforces a statewide construction code, and the Wasatch Front's seismic requirements apply to framing repairs. Many subdivisions also carry HOA exterior-approval rules.
 
-If you're dealing with damage right now — or want to talk through what you're seeing before committing to anything — call (801) 995-2437. Home Pride Restoration and Cleaning has been doing this work since 1997, and we'll give you a straight answer about what needs to happen next.
+If you're dealing with damage right now, or want to talk through what you're seeing before committing to anything, call (801) 995-2437. Home Pride Restoration and Cleaning has been doing this work since 1997, and we'll give you a straight answer about what needs to happen next.

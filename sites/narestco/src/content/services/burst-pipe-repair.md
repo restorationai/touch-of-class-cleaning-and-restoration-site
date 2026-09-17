@@ -17,15 +17,15 @@ service_slug: "burst-pipe-repair"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
-A pipe burst doesn't wait for business hours. Within minutes, pressurized water can saturate drywall, soak subfloor framing, and begin migrating into wall cavities you can't see. National Restoration Construction responds to pipe burst emergencies across Federal Way and the surrounding region — arriving with industrial extraction equipment, moisture mapping tools, and the licensed construction crew needed to close the job from wet demo through finished repair. One call covers the water damage and the rebuild.
+A pipe burst doesn't wait for business hours. Within minutes, pressurized water can saturate drywall, soak subfloor framing, and begin migrating into wall cavities you can't see. National Restoration Construction responds to pipe burst emergencies across Federal Way and the surrounding region, arriving with industrial extraction equipment, moisture mapping tools, and the licensed construction crew needed to close the job from wet demo through finished repair. One call covers the water damage and the rebuild.
 
 ## How We Handle Burst Pipe Cleanup and Repair
 
 The first priority on any pipe break water damage call is stopping the spread. If the water supply hasn't already been shut off, our technicians locate the main and isolate the affected line immediately. From there, the work breaks into three overlapping phases.
 
-**Extraction and emergency drying.** Truck-mounted and portable extractors pull standing water from hard floors, carpet, and subfloor assemblies. Thermal imaging cameras map moisture that has already wicked into walls, insulation, and ceiling cavities — water you can't see is often the water that causes the most structural damage. High-capacity axial air movers and low-grain refrigerant dehumidifiers run continuously, typically for three to five days, until moisture readings return to baseline for your specific building materials.
+**Extraction and emergency drying.** Truck-mounted and portable extractors pull standing water from hard floors, carpet, and subfloor assemblies. Thermal imaging cameras map moisture that has already wicked into walls, insulation, and ceiling cavities, water you can't see is often the water that causes the most structural damage. High-capacity axial air movers and low-grain refrigerant dehumidifiers run continuously, typically for three to five days, until moisture readings return to baseline for your specific building materials.
 
-**Controlled demolition and drying verification.** Saturated drywall, insulation, and finish materials that won't dry in place are removed in controlled cuts — no more than necessary. We document everything photographically before any material leaves the site, which matters for your insurance claim. Moisture logs are recorded daily and kept on file.
+**Controlled demolition and drying verification.** Saturated drywall, insulation, and finish materials that won't dry in place are removed in controlled cuts, no more than necessary. We document everything photographically before any material leaves the site, which matters for your insurance claim. Moisture logs are recorded daily and kept on file.
 
 **Pipe repair and reconstruction.** Once the structure is dry and the affected line is repaired or replaced, our general contractor crew handles the rebuild: framing, drywall, insulation, paint, and finish work. You don't need a separate plumber and a separate contractor managing separate schedules. License number NATIORC792M6 covers the full scope.
 
@@ -34,30 +34,30 @@ The first priority on any pipe break water damage call is stopping the spread. I
 The obvious trigger is water actively flowing from a broken line. But a water line break isn't always dramatic. Call us if you notice any of the following:
 
 - A water meter that keeps spinning after all fixtures are off
-- Unexplained wet spots on ceilings, walls, or flooring — especially after a cold snap
+- Unexplained wet spots on ceilings, walls, or flooring, especially after a cold snap
 - A musty or earthy smell in a room that wasn't there last week
 - Buckling hardwood or soft spots underfoot near plumbing walls
 - A sudden spike in your Lakehaven or Tacoma Public Utilities water bill
 
-Federal Way's mix of mid-century and 1980s–1990s housing stock means a lot of galvanized and early CPVC supply lines that are reaching the end of their service life. Winter freeze events — even brief ones in the Puget Sound lowlands — can split pipes that were already stressed by corrosion or pressure fluctuations.
+Federal Way's mix of mid-century and 1980s–1990s housing stock means a lot of galvanized and early CPVC supply lines that are reaching the end of their service life. Winter freeze events, even brief ones in the Puget Sound lowlands, can split pipes that were already stressed by corrosion or pressure fluctuations.
 
 **What not to do while you wait:** Don't run fans or a shop vac over saturated carpet and assume the problem is handled. Airflow without dehumidification pushes moisture deeper into structural cavities and can accelerate mold colonization, which IICRC research puts at 24–48 hours after initial saturation in warm conditions. Leave wet materials in place and let the extraction crew assess before anything is disturbed.
 
 ## What Sets Our Burst Pipe Team Apart
 
-The difference between a crew that extracts water and a crew that actually restores a structure comes down to equipment, methodology, and accountability. Our technicians are IICRC Certified in water damage restoration, which means drying decisions are based on psychrometric readings and material moisture content — not guesswork or a visual check. We're also an EPA Certified and Lead-Safe Certified Firm, which matters in pre-1978 housing where a pipe break can disturb lead paint during demo.
+The difference between a crew that extracts water and a crew that actually restores a structure comes down to equipment, methodology, and accountability. Our technicians are IICRC Certified in water damage restoration, which means drying decisions are based on psychrometric readings and material moisture content, not guesswork or a visual check. We're also an EPA Certified and Lead-Safe Certified Firm, which matters in pre-1978 housing where a pipe break can disturb lead paint during demo.
 
 Response time is honest: we target on-site arrival within 60–90 minutes of your call for addresses in and around Federal Way. We're not dispatching from a regional hub three counties away.
 
-We're BBB Accredited and ANSI Certified, and we carry the general contractor registration required by Washington State to perform the structural repairs that follow water extraction — so there's one point of contact and one chain of documentation from the emergency call through the final walkthrough.
+We're BBB Accredited and ANSI Certified, and we carry the general contractor registration required by Washington State to perform the structural repairs that follow water extraction, so there's one point of contact and one chain of documentation from the emergency call through the final walkthrough.
 
 ## Insurance, Billing, and the Claims Process
 
-Sudden and accidental pipe burst damage is covered under most standard homeowners and commercial property policies. The documentation we generate — moisture logs, daily readings, photo inventories, and itemized scopes of work — is formatted to align with what adjusters need to process a claim efficiently.
+Sudden and accidental pipe burst damage is covered under most standard homeowners and commercial property policies. The documentation we generate, moisture logs, daily readings, photo inventories, and itemized scopes of work, is formatted to align with what adjusters need to process a claim efficiently.
 
 We work directly with your insurance carrier and can communicate with your adjuster on your behalf throughout the process. We do not require full payment upfront; billing is structured around the claims workflow. If your policy has a deductible, we'll walk you through what to expect before any work begins.
 
-If you're a property manager or landlord dealing with a water line break in a tenant-occupied unit, we can coordinate access, documentation, and billing across multiple parties — including producing the third-party reports some carriers require for commercial claims.
+If you're a property manager or landlord dealing with a water line break in a tenant-occupied unit, we can coordinate access, documentation, and billing across multiple parties, including producing the third-party reports some carriers require for commercial claims.
 
 ---
 

@@ -17,47 +17,47 @@ published_at: "2026-05-21"
 services: ["water-damage-restoration", "fire-damage-restoration", "mold-remediation"]
 rendered: true
 ---
-Most homeowners don't think about restoration companies until water is soaking through the ceiling or smoke smell won't leave the walls. Then suddenly you're making a high-stakes hiring decision while you're stressed, possibly displaced, and fielding calls from an insurance adjuster. Here's the short answer: vet the company before you sign anything, confirm their certifications are current, and never let a contractor pressure you into a same-day contract. The sections below walk you through exactly how to do that — and what red flags to watch for at every step.
+Most homeowners don't think about restoration companies until water is soaking through the ceiling or smoke smell won't leave the walls. Then suddenly you're making a high-stakes hiring decision while you're stressed, possibly displaced, and fielding calls from an insurance adjuster. Here's the short answer: vet the company before you sign anything, confirm their certifications are current, and never let a contractor pressure you into a same-day contract. The sections below walk you through exactly how to do that, and what red flags to watch for at every step.
 
 ## Why Choosing Wrong Costs You Twice
 
 A bad restoration hire doesn't just waste money. It can leave moisture trapped behind drywall, mold colonies that weren't there before, or fire residue that off-gasses for months. In some cases, shoddy work voids your insurance claim or triggers a dispute with your carrier because the scope of work wasn't documented properly.
 
-In North Alabama, the combination of humid summers and older housing stock — a lot of Madison and the surrounding area has slab foundations and HVAC systems that run hard — means water intrusion and mold can move faster than you'd expect. A pipe that sweats unnoticed for two weeks in July can colonize drywall with mold within 24 to 48 hours of an active leak. That's not a scare tactic; it's why the timeline of who you call matters as much as who you call.
+In North Alabama, the combination of humid summers and older housing stock, a lot of Madison and the surrounding area has slab foundations and HVAC systems that run hard, means water intrusion and mold can move faster than you'd expect. A pipe that sweats unnoticed for two weeks in July can colonize drywall with mold within 24 to 48 hours of an active leak. That's not a scare tactic; it's why the timeline of who you call matters as much as who you call.
 
 ## The Five Things to Check Before You Hire Anyone
 
 Think of this as your pre-hire checklist. Run through it even if a company was recommended by a neighbor or your insurance agent.
 
-1. **Proper licensing and insurance.** In Alabama, contractors performing structural repairs must be licensed through the Alabama Licensing Board for General Contractors. Ask for the company's license number and a current certificate of insurance — you can verify the license through the state board's public lookup in about 30 seconds. A company can claim credentials; a verifiable license and active insurance policy are what actually protect you on your job.
+1. **Proper licensing and insurance.** In Alabama, contractors performing structural repairs must be licensed through the Alabama Licensing Board for General Contractors. Ask for the company's license number and a current certificate of insurance, you can verify the license through the state board's public lookup in about 30 seconds. A company can claim credentials; a verifiable license and active insurance policy are what actually protect you on your job.
 
 2. **State contractor's license and liability insurance.** In Alabama, restoration work that involves structural repairs requires a licensed contractor. Ask for the license number and verify it through the Alabama Licensing Board for General Contractors. Liability coverage protects you if a technician damages something during mitigation.
 
 3. **Direct insurance billing experience.** A company that works with insurance carriers regularly will know how to document moisture readings, write a proper scope of loss, and communicate with your adjuster. Ask: "Do you work directly with insurance companies, and can you provide documentation in Xactimate format?" If they hesitate or don't know what Xactimate is, that's a signal.
 
-4. **Written scope of work before any equipment goes in.** Legitimate companies can give you a preliminary scope — what they plan to do, what equipment they'll use, and an estimated timeline — before you sign. Verbal promises about cost or coverage don't hold up when the invoice arrives.
+4. **Written scope of work before any equipment goes in.** Legitimate companies can give you a preliminary scope, what they plan to do, what equipment they'll use, and an estimated timeline, before you sign. Verbal promises about cost or coverage don't hold up when the invoice arrives.
 
-5. **References from jobs in the last 12 months.** Restoration is a different skill set from remodeling. Ask specifically for references from water damage, fire damage, or mold jobs — not general construction. A company that's great at kitchen renovations may not know how to read a moisture map or handle Category 3 water (sewage-contaminated water requires different PPE and disposal protocols).
+5. **References from jobs in the last 12 months.** Restoration is a different skill set from remodeling. Ask specifically for references from water damage, fire damage, or mold jobs, not general construction. A company that's great at kitchen renovations may not know how to read a moisture map or handle Category 3 water (sewage-contaminated water requires different PPE and disposal protocols).
 
 ## Red Flags That Should Stop You Cold
 
-Storm chasers and disaster opportunists are real. After a severe weather event or a neighborhood-wide pipe failure, contractors who aren't local — and sometimes aren't licensed — show up canvassing. Here's what to watch for:
+Storm chasers and disaster opportunists are real. After a severe weather event or a neighborhood-wide pipe failure, contractors who aren't local, and sometimes aren't licensed, show up canvassing. Here's what to watch for:
 
 - **Pressure to sign immediately.** A legitimate company will give you time to read a contract. "We can only hold this price for the next hour" is a sales tactic, not a policy.
-- **Asking you to sign over your insurance benefits (AOB).** An Assignment of Benefits agreement transfers your claim rights to the contractor. Some states have restricted these for good reason — they remove you from your own claim. Read anything you sign carefully.
+- **Asking you to sign over your insurance benefits (AOB).** An Assignment of Benefits agreement transfers your claim rights to the contractor. Some states have restricted these for good reason, they remove you from your own claim. Read anything you sign carefully.
 - **No physical local address.** Search the company name plus the city. If their "local office" is a P.O. box or a virtual address, they may not have local crews.
-- **Equipment dropped off but no one monitoring it.** Industrial air movers and dehumidifiers need to be checked and adjusted as drying progresses. A company that drops equipment and disappears for a week isn't drying your home — they're billing for equipment hours.
-- **Mold remediation quotes given over the phone without a visual inspection.** Mold scopes require physical assessment. Any company quoting a firm price without seeing the affected area is guessing — or worse, lowballing to get in the door.
+- **Equipment dropped off but no one monitoring it.** Industrial air movers and dehumidifiers need to be checked and adjusted as drying progresses. A company that drops equipment and disappears for a week isn't drying your home, they're billing for equipment hours.
+- **Mold remediation quotes given over the phone without a visual inspection.** Mold scopes require physical assessment. Any company quoting a firm price without seeing the affected area is guessing, or worse, lowballing to get in the door.
 
 ## What the Restoration Process Actually Looks Like
 
 Understanding the process helps you evaluate whether a company is cutting corners.
 
-**Water damage restoration** follows a documented drying protocol. Technicians take moisture readings at multiple points — walls, floors, subfloor — and log them daily. The goal is to reach "dry standard," which means moisture levels match unaffected areas of the same material. This typically takes three to five days for a contained loss, longer for Category 2 or 3 water or if materials like hardwood flooring are involved. If a company tells you everything will be dry in 24 hours without taking readings, that's not a protocol — that's a guess.
+**Water damage restoration** follows a documented drying protocol. Technicians take moisture readings at multiple points, walls, floors, subfloor, and log them daily. The goal is to reach "dry standard," which means moisture levels match unaffected areas of the same material. This typically takes three to five days for a contained loss, longer for Category 2 or 3 water or if materials like hardwood flooring are involved. If a company tells you everything will be dry in 24 hours without taking readings, that's not a protocol, that's a guess.
 
-**Fire and smoke damage** is more complex than it looks. Smoke travels through HVAC systems, settles into insulation, and embeds in porous materials like drywall and wood framing. Odor that comes back weeks after a fire usually means residue wasn't fully removed — it was masked. Proper fire restoration involves controlled demolition of unsalvageable materials, HEPA vacuuming, chemical sponge cleaning of surfaces, and thermal fogging or ozone treatment for odor. The visible char is often the least of the problem.
+**Fire and smoke damage** is more complex than it looks. Smoke travels through HVAC systems, settles into insulation, and embeds in porous materials like drywall and wood framing. Odor that comes back weeks after a fire usually means residue wasn't fully removed, it was masked. Proper fire restoration involves controlled demolition of unsalvageable materials, HEPA vacuuming, chemical sponge cleaning of surfaces, and thermal fogging or ozone treatment for odor. The visible char is often the least of the problem.
 
-**Mold remediation** should follow EPA guidelines and, for larger jobs, may require a third-party industrial hygienist to write the remediation protocol and conduct post-clearance testing. Remediation and testing should be done by separate parties — a conflict of interest exists when the same company both remediates and clears the job. Ask who will conduct post-remediation testing before work begins.
+**Mold remediation** should follow EPA guidelines and, for larger jobs, may require a third-party industrial hygienist to write the remediation protocol and conduct post-clearance testing. Remediation and testing should be done by separate parties, a conflict of interest exists when the same company both remediates and clears the job. Ask who will conduct post-remediation testing before work begins.
 
 ## How to Handle the Insurance Side
 
@@ -67,9 +67,9 @@ A few practical points:
 
 - You have the right to choose your own contractor. Your insurer can recommend, but they cannot require you to use their preferred vendor.
 - Document everything yourself before any work begins. Photos and video of the damage, timestamped, are your baseline.
-- Get the adjuster's estimate in writing before agreeing to a scope of work. If the contractor's scope is larger, there's a supplement process — a good restoration company knows how to navigate this.
+- Get the adjuster's estimate in writing before agreeing to a scope of work. If the contractor's scope is larger, there's a supplement process, a good restoration company knows how to navigate this.
 - Keep copies of all moisture logs, photos, and invoices. If there's a dispute or a future buyer asks about prior water damage, documentation protects you.
 
 ## Making the Call
 
-If you're in Madison or the surrounding area and you're trying to sort through a water intrusion, smoke damage, or a mold concern that's been nagging at you, the checklist above will help you evaluate any company you talk to — including this one. Davis Construction Contractors handles water damage restoration, fire damage restoration, and mold remediation in the Madison area and can be reached at (256) 771-0326. Ask the questions above. A company worth hiring will answer them without hesitation.
+If you're in Madison or the surrounding area and you're trying to sort through a water intrusion, smoke damage, or a mold concern that's been nagging at you, the checklist above will help you evaluate any company you talk to, including this one. Davis Construction Contractors handles water damage restoration, fire damage restoration, and mold remediation in the Madison area and can be reached at (256) 771-0326. Ask the questions above. A company worth hiring will answer them without hesitation.

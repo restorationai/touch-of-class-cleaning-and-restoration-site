@@ -20,37 +20,37 @@ state: "SD"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
-The stretch of open prairie along Highway 138 between Sioux Falls and Crooks offers almost nothing to slow a storm down. When a severe weather system rolls across Minnehaha County, the 57020 zip code takes the full force — hail the size of quarters stripping shingles, straight-line winds snapping mature trees onto rooflines, and flash runoff pooling against foundations before the thunder has even stopped. Crew Restoration & Construction responds to storm damage calls throughout Crooks, moving quickly from our Sioux Falls base to assess and stabilize properties before secondary damage compounds the loss.
+The stretch of open prairie along Highway 138 between Sioux Falls and Crooks offers almost nothing to slow a storm down. When a severe weather system rolls across Minnehaha County, the 57020 zip code takes the full force, hail the size of quarters stripping shingles, straight-line winds snapping mature trees onto rooflines, and flash runoff pooling against foundations before the thunder has even stopped. Crew Restoration & Construction responds to storm damage calls throughout Crooks, moving quickly from our Sioux Falls base to assess and stabilize properties before secondary damage compounds the loss.
 
 ## Why Crooks Properties See Elevated Storm Damage Risk
 
 Crooks sits in a geographic pocket that channels severe weather with surprising regularity. The flat, unobstructed terrain west of Sioux Falls accelerates wind speeds that would be broken up by urban structures a few miles east. Homes near Renner Corner, where traffic patterns and open fields converge, see some of the most direct wind exposure in the area. That exposure matters structurally: many Crooks residences were built during eras when roof decking was nailed rather than screwed, and ridge venting systems weren't standard. A storm that would cause cosmetic damage in a newer subdivision can partially lift a roof deck here.
 
-Soil composition adds another layer of risk. The clay-heavy ground common to this part of Minnehaha County drains slowly. After a heavy storm, water that can't percolate fast enough finds the path of least resistance — window wells, foundation cracks, and crawl space vents. Homeowners near Crooks City Park have reported basement intrusion within hours of a significant rain event, even without visible roof or siding damage, simply because the saturated ground has nowhere to send the water.
+Soil composition adds another layer of risk. The clay-heavy ground common to this part of Minnehaha County drains slowly. After a heavy storm, water that can't percolate fast enough finds the path of least resistance, window wells, foundation cracks, and crawl space vents. Homeowners near Crooks City Park have reported basement intrusion within hours of a significant rain event, even without visible roof or siding damage, simply because the saturated ground has nowhere to send the water.
 
 ## Our Storm Damage Restoration Process in Crooks
 
-Every storm job starts with a thorough exterior and interior inspection before a single piece of damaged material is removed. We photograph and document everything — torn soffit, displaced flashing, broken window seals, water intrusion points — because that documentation is what your insurance adjuster needs to process the claim accurately. Skipping this step costs homeowners money.
+Every storm job starts with a thorough exterior and interior inspection before a single piece of damaged material is removed. We photograph and document everything, torn soffit, displaced flashing, broken window seals, water intrusion points, because that documentation is what your insurance adjuster needs to process the claim accurately. Skipping this step costs homeowners money.
 
 Once the scope is confirmed, we tarp and board any open penetrations to stop active weather exposure. From there, the process branches depending on what the storm left behind:
 
 - **Wind and tree damage**: Structural assessment first, then debris removal and temporary bracing if roof rafters or wall framing were compromised. Tree damage cleanup in Crooks often involves coordinating with utility contacts when limbs have landed on service lines.
 - **Hail damage**: Full roof inspection including underlayment and decking, not just surface shingles. Hail that dents metal flashing but doesn't visibly crack a shingle can still allow water infiltration over the following months.
-- **Water intrusion**: Industrial extraction, moisture mapping with thermal imaging, and drying equipment calibrated to the actual moisture load — not a generic setup. We monitor readings daily until structural materials reach acceptable levels.
+- **Water intrusion**: Industrial extraction, moisture mapping with thermal imaging, and drying equipment calibrated to the actual moisture load, not a generic setup. We monitor readings daily until structural materials reach acceptable levels.
 
 Reconstruction follows once the structure is dry and stable. We handle both the mitigation and the rebuild under one contract, which simplifies scheduling and eliminates the gap where a property can sit unprotected between two separate contractors.
 
 ## Reaching Crooks from Our Sioux Falls Base
 
-Crews working out of Sioux Falls reach Crooks by heading west on Highway 42 or cutting directly out via Tea-Ellis Road to connect with Highway 138. The drive is short — Crooks is a quick northwest run from the city — which means we're not asking you to wait for a crew traveling from a distant metro. For properties in West Crooks or along the Highway 138 corridor, that proximity is meaningful when you're looking at an open roof and a forecast that shows more rain in 24 hours.
+Crews working out of Sioux Falls reach Crooks by heading west on Highway 42 or cutting directly out via Tea-Ellis Road to connect with Highway 138. The drive is short, Crooks is a quick northwest run from the city, which means we're not asking you to wait for a crew traveling from a distant metro. For properties in West Crooks or along the Highway 138 corridor, that proximity is meaningful when you're looking at an open roof and a forecast that shows more rain in 24 hours.
 
 Scheduling is handled by calling (605) 965-2727. Our team will confirm availability and get an estimator to your property as quickly as scheduling allows.
 
 ## Crooks Insurance Coordination
 
-Storm damage claims in South Dakota follow state-regulated timelines, but the quality of the documentation submitted at the start determines how smoothly the process moves. We prepare a detailed scope of loss — line-itemed materials, labor, and equipment — formatted to align with how adjusters evaluate claims. If a supplement is needed after hidden damage is uncovered during the work, we handle that communication directly.
+Storm damage claims in South Dakota follow state-regulated timelines, but the quality of the documentation submitted at the start determines how smoothly the process moves. We prepare a detailed scope of loss, line-itemed materials, labor, and equipment, formatted to align with how adjusters evaluate claims. If a supplement is needed after hidden damage is uncovered during the work, we handle that communication directly.
 
-Homeowners in the Crooks area are sometimes surprised to learn that wind and hail damage to detached structures — garages, sheds, fencing — is typically covered under the same dwelling policy as the main house, but requires a separate line item in the claim. We make sure those items aren't left off the table.
+Homeowners in the Crooks area are sometimes surprised to learn that wind and hail damage to detached structures, garages, sheds, fencing, is typically covered under the same dwelling policy as the main house, but requires a separate line item in the claim. We make sure those items aren't left off the table.
 
 ## Local Note
 

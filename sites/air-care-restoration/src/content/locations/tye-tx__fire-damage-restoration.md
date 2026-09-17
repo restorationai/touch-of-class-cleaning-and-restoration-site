@@ -20,21 +20,21 @@ state: "TX"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-Tye sits in Taylor County where the West Texas wind rarely stops and summer temperatures regularly push past 100°F — conditions that dry out wood framing, parch vegetation around foundations, and make a kitchen fire spread faster than it would in a more humid climate. When smoke and char reach the walls and attic of a Tye home, the damage compounds quickly, and the window for limiting long-term structural harm is short. Air Care Restoration responds 24/7 from Abilene to help Tye property owners move from crisis to recovery.
+Tye sits in Taylor County where the West Texas wind rarely stops and summer temperatures regularly push past 100°F, conditions that dry out wood framing, parch vegetation around foundations, and make a kitchen fire spread faster than it would in a more humid climate. When smoke and char reach the walls and attic of a Tye home, the damage compounds quickly, and the window for limiting long-term structural harm is short. Air Care Restoration responds 24/7 from Abilene to help Tye property owners move from crisis to recovery.
 
 ## Why Tye Properties Are Vulnerable to Fire Damage
 
-Taylor County's low relative humidity — common through spring, summer, and fall — means wood-framed homes in Tye lose moisture content faster than the national average. Dry framing ignites more readily and sustains combustion longer. Older ranch-style homes in the area, many built with open attic cavities and minimal fire blocking between wall bays, allow smoke to migrate through the structure well beyond the room where the fire started. By the time flames are out, soot may have traveled through HVAC returns to every room in the house.
+Taylor County's low relative humidity, common through spring, summer, and fall, means wood-framed homes in Tye lose moisture content faster than the national average. Dry framing ignites more readily and sustains combustion longer. Older ranch-style homes in the area, many built with open attic cavities and minimal fire blocking between wall bays, allow smoke to migrate through the structure well beyond the room where the fire started. By the time flames are out, soot may have traveled through HVAC returns to every room in the house.
 
-The region's caliche-heavy soil also affects how fire debris and runoff behave after suppression. Firefighting water doesn't absorb quickly into the ground, which means it pools around pier-and-beam foundations — a common foundation type in older Tye residences — and can introduce a secondary moisture problem beneath the structure even as fire damage is being assessed above.
+The region's caliche-heavy soil also affects how fire debris and runoff behave after suppression. Firefighting water doesn't absorb quickly into the ground, which means it pools around pier-and-beam foundations, a common foundation type in older Tye residences, and can introduce a secondary moisture problem beneath the structure even as fire damage is being assessed above.
 
 ## Our Fire Damage Restoration Process in Tye
 
 Every fire loss is different, but the sequence of work follows a logic that protects the property at each stage.
 
-**Stabilization first.** Before any cleaning begins, the structure is assessed for safety — compromised load-bearing members, broken windows, and roof openings are addressed so the building is secure and weather-tight. In West Texas, an open roof after a fire can mean wind-driven dust and rain intrusion within hours.
+**Stabilization first.** Before any cleaning begins, the structure is assessed for safety, compromised load-bearing members, broken windows, and roof openings are addressed so the building is secure and weather-tight. In West Texas, an open roof after a fire can mean wind-driven dust and rain intrusion within hours.
 
-**Soot and smoke mapping.** Our IICRC FSRT-certified technicians trace smoke migration through the HVAC system, wall cavities, and attic space. In Tye's older homes, that often means finding soot in rooms that appear visually clean — odor follows the same path.
+**Soot and smoke mapping.** Our IICRC FSRT-certified technicians trace smoke migration through the HVAC system, wall cavities, and attic space. In Tye's older homes, that often means finding soot in rooms that appear visually clean, odor follows the same path.
 
 **Controlled demolition and content handling.** Charred materials are removed and documented for insurance. Salvageable contents are inventoried, packed, and cleaned off-site using ultrasonic and ozone methods when appropriate.
 
@@ -44,7 +44,7 @@ Every fire loss is different, but the sequence of work follows a logic that prot
 
 ## Reaching Tye from Abilene
 
-Air Care Restoration is based in Abilene, and Tye is a short drive east along I-20. Because we operate 24/7, a call at 2 a.m. after a structure fire gets the same response as a midday call — crews can be on the road quickly regardless of when the emergency occurs. If access to a property requires coordination with Taylor County emergency services or a utility shutoff through the local provider, we handle that communication so the homeowner doesn't have to manage it while dealing with the loss.
+Air Care Restoration is based in Abilene, and Tye is a short drive east along I-20. Because we operate 24/7, a call at 2 a.m. after a structure fire gets the same response as a midday call, crews can be on the road quickly regardless of when the emergency occurs. If access to a property requires coordination with Taylor County emergency services or a utility shutoff through the local provider, we handle that communication so the homeowner doesn't have to manage it while dealing with the loss.
 
 ## Tye Insurance Coordination
 
@@ -52,6 +52,6 @@ Most homeowner policies cover sudden and accidental fire damage, but the documen
 
 ## Local Note
 
-In Tye and the surrounding Taylor County area, many homes were built with metal-framed or wood-framed carport additions that were permitted under older county standards — structures that sometimes lack the fire separation required by current code. When a fire starts in or near one of these carport additions, the path of damage into the main dwelling can be faster than the homeowner expects. During our initial assessment, we specifically evaluate these transition points between original structure and later additions, because that junction is frequently where hidden char and smoke penetration are most severe and most underestimated.
+In Tye and the surrounding Taylor County area, many homes were built with metal-framed or wood-framed carport additions that were permitted under older county standards, structures that sometimes lack the fire separation required by current code. When a fire starts in or near one of these carport additions, the path of damage into the main dwelling can be faster than the homeowner expects. During our initial assessment, we specifically evaluate these transition points between original structure and later additions, because that junction is frequently where hidden char and smoke penetration are most severe and most underestimated.
 
 If fire has touched your Tye property, call Air Care Restoration at (325) 339-8723. We'll assess the damage, walk you through next steps, and begin work as soon as you're ready to move forward.

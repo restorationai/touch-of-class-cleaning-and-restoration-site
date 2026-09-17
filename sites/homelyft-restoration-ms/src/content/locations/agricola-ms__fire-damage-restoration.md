@@ -20,13 +20,13 @@ state: "MS"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-When fire tears through a home in Agricola, the damage rarely stops at the charred walls. South Mississippi's humid Gulf Coast climate — the same air that makes Stone County summers so heavy — drives smoke odor deeper into porous materials and accelerates secondary damage within hours of the flames going out. HomeLyft Restoration MS responds to fire losses throughout the Agricola area, bringing IICRC FSRT-certified fire and smoke restoration technicians and a documented process designed for the specific building stock and conditions found in this part of the state.
+When fire tears through a home in Agricola, the damage rarely stops at the charred walls. South Mississippi's humid Gulf Coast climate, the same air that makes Stone County summers so heavy, drives smoke odor deeper into porous materials and accelerates secondary damage within hours of the flames going out. HomeLyft Restoration MS responds to fire losses throughout the Agricola area, bringing IICRC FSRT-certified fire and smoke restoration technicians and a documented process designed for the specific building stock and conditions found in this part of the state.
 
 ## Why Agricola Properties Face Distinct Fire Damage Challenges
 
 Agricola sits in Stone County, a largely rural stretch of south Mississippi where residential construction ranges from older wood-frame farmhouses to newer stick-built homes on larger lots. Older wood-frame structures common to this region absorb smoke particulates and soot into unfinished attic cavities, crawl spaces, and rough-sawn framing in ways that modern OSB-sheathed construction does not. That means a fire that looks contained to one room can leave odor-causing residue throughout the entire structure.
 
-The regional climate compounds the problem. High ambient humidity — routinely above 70% during summer months — causes smoke residue to bond with moisture and become tacky, making dry-sponge cleaning methods less effective and requiring wet chemical sponging and hydroxyl or thermal fogging to neutralize odor at the molecular level. Homes with pier-and-beam foundations, still common in Stone County's older neighborhoods, also allow smoke and soot to migrate beneath the floor deck, a pathway that gets missed in a surface-only cleanup.
+The regional climate compounds the problem. High ambient humidity, routinely above 70% during summer months, causes smoke residue to bond with moisture and become tacky, making dry-sponge cleaning methods less effective and requiring wet chemical sponging and hydroxyl or thermal fogging to neutralize odor at the molecular level. Homes with pier-and-beam foundations, still common in Stone County's older neighborhoods, also allow smoke and soot to migrate beneath the floor deck, a pathway that gets missed in a surface-only cleanup.
 
 ## Our Fire Damage Restoration Process in Agricola
 
@@ -34,24 +34,24 @@ Every fire loss is different, but the sequence we follow is deliberate and calib
 
 **1. Emergency stabilization.** Before any cleaning begins, we assess structural integrity, board up or tarp openings, and establish a controlled drying environment. In Agricola's climate, leaving a fire-damaged structure open to outdoor air in summer can push interior humidity above 80% within a day, feeding secondary mold growth on top of fire damage.
 
-**2. Soot and smoke mapping.** Using wet and dry chemical sponges, we identify the type of residue — wet protein smoke from kitchen fires behaves very differently from the dry, powdery soot left by fast-burning structural fires. This step determines which cleaning agents and methods apply to each surface.
+**2. Soot and smoke mapping.** Using wet and dry chemical sponges, we identify the type of residue, wet protein smoke from kitchen fires behaves very differently from the dry, powdery soot left by fast-burning structural fires. This step determines which cleaning agents and methods apply to each surface.
 
-**3. Content pack-out and cleaning.** Salvageable contents — furniture, clothing, documents, electronics — are inventoried, packed, and transported to a controlled facility for ultrasonic cleaning, ozone treatment, or dry cleaning as appropriate. This protects your belongings while we work on the structure.
+**3. Content pack-out and cleaning.** Salvageable contents, furniture, clothing, documents, electronics, are inventoried, packed, and transported to a controlled facility for ultrasonic cleaning, ozone treatment, or dry cleaning as appropriate. This protects your belongings while we work on the structure.
 
 **4. Structural cleaning and deodorization.** We clean from ceiling to floor, treating framing, subfloor, and HVAC cavities. Thermal fogging and hydroxyl generation are used for odor neutralization, not just masking. Air scrubbers with HEPA filtration run continuously to capture airborne particulates.
 
-**5. Reconstruction coordination.** Once the structure is cleaned and cleared, our team coordinates any needed repairs — drywall, insulation, flooring, cabinetry — so you work with one point of contact rather than managing separate contractors.
+**5. Reconstruction coordination.** Once the structure is cleaned and cleared, our team coordinates any needed repairs, drywall, insulation, flooring, cabinetry, so you work with one point of contact rather than managing separate contractors.
 
 ## Reaching Agricola from Gulfport
 
-HomeLyft Restoration MS is headquartered in Gulfport and serves Stone County including the Agricola area. The drive up US-49 North puts our crews in the Agricola corridor without the traffic delays that affect coastal routes during peak season or storm evacuations. When you call +12282845200, our team will confirm scheduling and give you an honest arrival window based on current crew availability — we won't quote a minute figure we can't stand behind.
+HomeLyft Restoration MS is headquartered in Gulfport and serves Stone County including the Agricola area. The drive up US-49 North puts our crews in the Agricola corridor without the traffic delays that affect coastal routes during peak season or storm evacuations. When you call +12282845200, our team will confirm scheduling and give you an honest arrival window based on current crew availability, we won't quote a minute figure we can't stand behind.
 
 ## Insurance Documentation for Agricola Fire Claims
 
-Fire losses typically trigger homeowner's insurance claims, and the documentation phase is where many property owners lose money. We photograph and catalog every affected surface, material, and content item before anything is moved or cleaned. Our project files include moisture readings, air quality baselines, cleaning logs, and material specifications — the kind of paper trail that supports a complete claim rather than a partial one. We work directly with most major carriers and can communicate with your adjuster on your behalf, but we represent your property, not the insurer.
+Fire losses typically trigger homeowner's insurance claims, and the documentation phase is where many property owners lose money. We photograph and catalog every affected surface, material, and content item before anything is moved or cleaned. Our project files include moisture readings, air quality baselines, cleaning logs, and material specifications, the kind of paper trail that supports a complete claim rather than a partial one. We work directly with most major carriers and can communicate with your adjuster on your behalf, but we represent your property, not the insurer.
 
 ## Local Note
 
-In the rural stretches of Stone County around Agricola, well water and septic systems are the norm rather than municipal hookups. After a structural fire, the heat can stress PVC supply lines running through crawl spaces, and the pressure surge when the fire department connects to a dry hydrant or tanker can sometimes cause those lines to fail days after the fire event. We check supply line integrity as part of our post-fire assessment — it's a step that matters here in ways it simply doesn't in areas served by pressurized municipal mains.
+In the rural stretches of Stone County around Agricola, well water and septic systems are the norm rather than municipal hookups. After a structural fire, the heat can stress PVC supply lines running through crawl spaces, and the pressure surge when the fire department connects to a dry hydrant or tanker can sometimes cause those lines to fail days after the fire event. We check supply line integrity as part of our post-fire assessment, it's a step that matters here in ways it simply doesn't in areas served by pressurized municipal mains.
 
-If your home or property in Agricola has been damaged by fire, call HomeLyft Restoration MS at +12282845200. We'll walk you through the immediate steps to take before we arrive, help you understand what your insurance policy covers, and put a certified restoration plan in place so the damage you can see — and the damage you can't — gets addressed completely.
+If your home or property in Agricola has been damaged by fire, call HomeLyft Restoration MS at +12282845200. We'll walk you through the immediate steps to take before we arrive, help you understand what your insurance policy covers, and put a certified restoration plan in place so the damage you can see, and the damage you can't, gets addressed completely.

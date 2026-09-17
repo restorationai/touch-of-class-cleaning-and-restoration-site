@@ -17,11 +17,11 @@ service_slug: "water-damage-restoration"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
-Standing water feels urgent in a way that most home emergencies don't. Within the first hour, it's soaking into subfloor, wicking up drywall, and saturating insulation you can't see. Within 24 to 48 hours, conditions are right for mold to begin colonizing wet materials. The clock on a water loss isn't measured in days — it's measured in hours, and what happens in those first hours determines how much of your home's structure can be saved versus replaced.
+Standing water feels urgent in a way that most home emergencies don't. Within the first hour, it's soaking into subfloor, wicking up drywall, and saturating insulation you can't see. Within 24 to 48 hours, conditions are right for mold to begin colonizing wet materials. The clock on a water loss isn't measured in days, it's measured in hours, and what happens in those first hours determines how much of your home's structure can be saved versus replaced.
 
 ## What Water Damage Restoration actually involves
 
-Water damage restoration is not mopping up and running a fan. It's a technical process of removing standing water, identifying where moisture has migrated beyond the visible wet zone, and then systematically drying structural materials — framing, subfloor, wall cavities, concrete — to measured standards before any reconstruction begins.
+Water damage restoration is not mopping up and running a fan. It's a technical process of removing standing water, identifying where moisture has migrated beyond the visible wet zone, and then systematically drying structural materials, framing, subfloor, wall cavities, concrete, to measured standards before any reconstruction begins.
 
 The equipment matters: truck-mounted or portable extraction units pull water from carpet and subfloor before evaporation equipment is placed. High-capacity low-grain refrigerant (LGR) dehumidifiers pull moisture vapor from the air as it evaporates off wet materials. Axial and centrifugal air movers accelerate that evaporation at the surface. Thermal imaging cameras and penetrating moisture meters map the actual boundary of the wet zone, which is almost always larger than what's visible to the eye.
 
@@ -31,9 +31,9 @@ Timeline depends on water category and material type. Clean water losses in a si
 
 1. **Emergency extraction.** The moment the crew arrives, standing water comes out first. Submersible pumps handle significant accumulation; truck-mounted extractors follow for carpet, pad, and subfloor saturation. Removing water quickly limits how far it migrates into adjacent materials.
 
-2. **Moisture mapping and category assessment.** Using thermal imaging and calibrated moisture meters, the affected zone is documented in full — not just where the floor is wet, but where moisture has traveled into walls, under cabinets, and into structural cavities. Water category (1, 2, or 3) is confirmed here, which determines containment requirements and whether porous materials need to come out.
+2. **Moisture mapping and category assessment.** Using thermal imaging and calibrated moisture meters, the affected zone is documented in full, not just where the floor is wet, but where moisture has traveled into walls, under cabinets, and into structural cavities. Water category (1, 2, or 3) is confirmed here, which determines containment requirements and whether porous materials need to come out.
 
-3. **Structural drying with monitored equipment placement.** Dehumidifiers and air movers are placed according to the drying plan, not just set in the room. Equipment positions, airflow patterns, and grain depression targets follow IICRC S500 standard guidelines. Daily moisture readings track drying progress and allow equipment adjustments — a drying system that isn't monitored is guesswork.
+3. **Structural drying with monitored equipment placement.** Dehumidifiers and air movers are placed according to the drying plan, not just set in the room. Equipment positions, airflow patterns, and grain depression targets follow IICRC S500 standard guidelines. Daily moisture readings track drying progress and allow equipment adjustments, a drying system that isn't monitored is guesswork.
 
 4. **Containment and antimicrobial treatment (Category 2/3).** Gray water and sewage losses require physical containment to prevent cross-contamination of unaffected areas. Affected porous materials are removed, bagged, and disposed of properly. Structural surfaces receive EPA-registered antimicrobial treatment before drying equipment is placed.
 
@@ -41,15 +41,15 @@ Timeline depends on water category and material type. Clean water losses in a si
 
 ## What separates a good water damage response from a bad one
 
-The most common failure in water damage work is stopping at what's visible. A floor that feels dry underfoot can still read 18–25% moisture content in the subfloor beneath it. Wall cavities adjacent to a leak source are routinely missed when crews rely on surface observation rather than metering. Mold doesn't care that the surface looked okay — it colonizes the materials behind it.
+The most common failure in water damage work is stopping at what's visible. A floor that feels dry underfoot can still read 18–25% moisture content in the subfloor beneath it. Wall cavities adjacent to a leak source are routinely missed when crews rely on surface observation rather than metering. Mold doesn't care that the surface looked okay, it colonizes the materials behind it.
 
-A second common problem is under-equipping a job to reduce cost. Drying is a function of airflow, dehumidification capacity, and time. Placing two air movers in a room that needs six doesn't save the homeowner money — it extends the drying window, increases the risk of secondary damage, and produces a drying log that won't hold up to adjuster review.
+A second common problem is under-equipping a job to reduce cost. Drying is a function of airflow, dehumidification capacity, and time. Placing two air movers in a room that needs six doesn't save the homeowner money, it extends the drying window, increases the risk of secondary damage, and produces a drying log that won't hold up to adjuster review.
 
-Insurance adjusters reviewing water damage claims look specifically at daily moisture logs, equipment placement documentation, and whether the drying scope matched the mapped wet zone. Gaps in that documentation create disputes at settlement. The IICRC WRT and ASD certifications held by Dry County Restoration's crew reflect training in exactly this documentation and drying science — not just equipment operation.
+Insurance adjusters reviewing water damage claims look specifically at daily moisture logs, equipment placement documentation, and whether the drying scope matched the mapped wet zone. Gaps in that documentation create disputes at settlement. The IICRC WRT and ASD certifications held by Dry County Restoration's crew reflect training in exactly this documentation and drying science, not just equipment operation.
 
 ## What does Water Damage Restoration cost?
 
-Typical costs for water damage restoration vary significantly based on the size of the affected area, the category of water involved, and whether structural materials need to be removed. Most homeowners pay somewhere in the ranges below — these are industry-typical figures, not quotes, and every loss is different; Dry County Restoration provides a written scope before work begins.
+Typical costs for water damage restoration vary significantly based on the size of the affected area, the category of water involved, and whether structural materials need to be removed. Most homeowners pay somewhere in the ranges below, these are industry-typical figures, not quotes, and every loss is different; Dry County Restoration provides a written scope before work begins.
 
 | Scenario | Typical industry range |
 |---|---|
@@ -60,14 +60,14 @@ Typical costs for water damage restoration vary significantly based on the size 
 | Crawl space or subfloor saturation | $2,000 – $6,000 |
 | Full-floor loss with structural drying and demo | $7,000 – $20,000+ |
 
-Homeowners insurance typically covers sudden and accidental water losses — a burst pipe, appliance failure, or roof leak that enters the structure — but generally excludes gradual leaks and ground-level flooding, which requires a separate flood policy.
+Homeowners insurance typically covers sudden and accidental water losses, a burst pipe, appliance failure, or roof leak that enters the structure, but generally excludes gradual leaks and ground-level flooding, which requires a separate flood policy.
 
 ## Seasonal and regional considerations
 
-Corona and the surrounding Inland Empire sit in a semi-arid climate, but that doesn't make water damage rare — it changes where it comes from. The region's older housing stock, much of it built in the postwar and 1970s–1990s boom periods, carries aging galvanized and copper supply lines that fail without warning. Hot, dry summers push AC systems hard, and condensate drain failures are a consistent source of Category 1 losses inside walls and ceilings. When winter storms do arrive — particularly atmospheric river events that hit the foothills — they arrive fast and overwhelm drainage systems that aren't built for sustained rainfall. Hillside and canyon-adjacent properties in areas like Temescal Valley face soil saturation and intrusion risk during those events that flat-lot homes don't.
+Corona and the surrounding Inland Empire sit in a semi-arid climate, but that doesn't make water damage rare, it changes where it comes from. The region's older housing stock, much of it built in the postwar and 1970s–1990s boom periods, carries aging galvanized and copper supply lines that fail without warning. Hot, dry summers push AC systems hard, and condensate drain failures are a consistent source of Category 1 losses inside walls and ceilings. When winter storms do arrive, particularly atmospheric river events that hit the foothills, they arrive fast and overwhelm drainage systems that aren't built for sustained rainfall. Hillside and canyon-adjacent properties in areas like Temescal Valley face soil saturation and intrusion risk during those events that flat-lot homes don't.
 
 ## Service area
 
 Dry County Restoration is based in Corona and responds to water damage calls throughout the Inland Empire and surrounding communities, including Riverside, Norco, Eastvale, Chino Hills, Ontario, Rancho Cucamonga, and the Temescal Valley corridor. City-specific pages detail local considerations for each area.
 
-If water is still moving in your home, call (951) 667-9910 now — Dry County Restoration operates 24/7 and can begin extraction the same day. If the water has stopped but you're not sure how far it traveled, schedule a moisture assessment before walls are closed up or flooring is replaced.
+If water is still moving in your home, call (951) 667-9910 now, Dry County Restoration operates 24/7 and can begin extraction the same day. If the water has stopped but you're not sure how far it traveled, schedule a moisture assessment before walls are closed up or flooring is replaced.

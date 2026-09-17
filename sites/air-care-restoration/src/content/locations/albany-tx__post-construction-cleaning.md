@@ -20,27 +20,27 @@ state: "TX"
 service_display: "Post-Construction and Specialty Cleaning"
 rendered: true
 ---
-Albany sits in Shackelford County where the wind carries fine caliche dust and red clay particulate into every open structure — and once a renovation wraps, that grit settles into ductwork, window tracks, and freshly painted trim in ways a standard broom pass won't touch. Post-construction cleanup here isn't just about sweeping sawdust; it's about pulling construction film off surfaces before West Texas UV bakes it on, and getting the air quality right before a family or tenant moves in.
+Albany sits in Shackelford County where the wind carries fine caliche dust and red clay particulate into every open structure, and once a renovation wraps, that grit settles into ductwork, window tracks, and freshly painted trim in ways a standard broom pass won't touch. Post-construction cleanup here isn't just about sweeping sawdust; it's about pulling construction film off surfaces before West Texas UV bakes it on, and getting the air quality right before a family or tenant moves in.
 
 ## Why Albany Properties See Distinct Post-Construction Cleaning Challenges
 
-Shackelford County's climate runs hot and dry for most of the year, which sounds forgiving — but it creates specific problems for newly finished spaces. Low humidity causes drywall compound dust to become airborne again days after crews leave, resettling on cabinet interiors, light fixtures, and HVAC grilles. Caliche-heavy soil tracked in from job sites bonds to concrete floors and grout lines with surprising tenacity once it dries. Albany's older housing stock — much of it built during the mid-20th century oil-field boom — often features original hardwood floors and plaster-over-lath walls that require gentler chemical protocols than modern construction. Aggressive alkaline cleaners that work fine on new drywall can etch aged plaster or lift finish from refinished hardwood, turning a final clean into a repair bill.
+Shackelford County's climate runs hot and dry for most of the year, which sounds forgiving, but it creates specific problems for newly finished spaces. Low humidity causes drywall compound dust to become airborne again days after crews leave, resettling on cabinet interiors, light fixtures, and HVAC grilles. Caliche-heavy soil tracked in from job sites bonds to concrete floors and grout lines with surprising tenacity once it dries. Albany's older housing stock, much of it built during the mid-20th century oil-field boom, often features original hardwood floors and plaster-over-lath walls that require gentler chemical protocols than modern construction. Aggressive alkaline cleaners that work fine on new drywall can etch aged plaster or lift finish from refinished hardwood, turning a final clean into a repair bill.
 
-Local contractors also tend to stage materials in and around structures longer than in urban markets, simply because supply runs to Abilene or beyond add lead time. That extended exposure means construction adhesives, caulk residue, and overspray have more time to cure onto surfaces before the cleaning crew arrives — which changes both the chemistry and the labor hours needed for a true final clean.
+Local contractors also tend to stage materials in and around structures longer than in urban markets, simply because supply runs to Abilene or beyond add lead time. That extended exposure means construction adhesives, caulk residue, and overspray have more time to cure onto surfaces before the cleaning crew arrives, which changes both the chemistry and the labor hours needed for a true final clean.
 
 ## Our Post-Construction and Specialty Cleaning Process in Albany
 
-Every job starts with a walk-through to categorize surface types and contamination levels — plaster versus drywall, sealed versus unsealed concrete, original woodwork versus new millwork. That assessment drives the product and equipment selection before a single cloth hits a surface.
+Every job starts with a walk-through to categorize surface types and contamination levels, plaster versus drywall, sealed versus unsealed concrete, original woodwork versus new millwork. That assessment drives the product and equipment selection before a single cloth hits a surface.
 
 The sequence matters as much as the chemistry:
 
-1. **Rough debris removal** — construction waste, packaging, and loose material is cleared before any wet process begins, so grit isn't smeared into surfaces.
-2. **HVAC and duct wipe-down** — registers, grilles, and accessible duct runs are vacuumed and wiped to prevent fine dust from recirculating the moment the system runs.
-3. **Surface-specific detail cleaning** — windows (frames, tracks, and glass), cabinetry (interior shelves, door faces, and hardware), countertops, plumbing fixtures, and light fixtures are cleaned in sequence from ceiling to floor.
-4. **Floor finishing pass** — hard floors are cleaned based on material: sealed hardwood gets a pH-neutral cleaner, tile gets grout-line scrubbing, and concrete gets a degreasing pass where adhesive or form-release compound is present.
-5. **Final air quality pass** — HEPA-filtered vacuuming of all horizontal surfaces and a final wipe of high-touch points before the space is handed back.
+1. **Rough debris removal**, construction waste, packaging, and loose material is cleared before any wet process begins, so grit isn't smeared into surfaces.
+2. **HVAC and duct wipe-down**, registers, grilles, and accessible duct runs are vacuumed and wiped to prevent fine dust from recirculating the moment the system runs.
+3. **Surface-specific detail cleaning**, windows (frames, tracks, and glass), cabinetry (interior shelves, door faces, and hardware), countertops, plumbing fixtures, and light fixtures are cleaned in sequence from ceiling to floor.
+4. **Floor finishing pass**, hard floors are cleaned based on material: sealed hardwood gets a pH-neutral cleaner, tile gets grout-line scrubbing, and concrete gets a degreasing pass where adhesive or form-release compound is present.
+5. **Final air quality pass**, HEPA-filtered vacuuming of all horizontal surfaces and a final wipe of high-touch points before the space is handed back.
 
-For specialty cleaning requests — post-fire odor treatment, deep cleaning after a long-term tenant vacancy, or sanitization before medical or food-service occupancy — the scope is scoped separately and uses the appropriate IICRC-certified protocols for that contamination type.
+For specialty cleaning requests, post-fire odor treatment, deep cleaning after a long-term tenant vacancy, or sanitization before medical or food-service occupancy, the scope is scoped separately and uses the appropriate IICRC-certified protocols for that contamination type.
 
 ## Reaching Albany from Abilene
 
@@ -48,6 +48,6 @@ Albany is roughly 35 miles northeast of Abilene via US-180, a straightforward ru
 
 ## Local Note
 
-Albany's older homes — particularly those built during the mid-century period when Shackelford County's oil economy was active — frequently have original cast-iron or galvanized plumbing that was left in place during renovations rather than replaced. When those lines are disturbed during a remodel, rust scale and sediment can end up on surfaces far from the plumbing work itself. A thorough post-construction clean in these homes includes checking for rust staining on tubs, sinks, and surrounding tile that arrived during the project, not before it — and treating it with the appropriate acid-based remover before it's mistaken for pre-existing damage during a final walkthrough.
+Albany's older homes, particularly those built during the mid-century period when Shackelford County's oil economy was active, frequently have original cast-iron or galvanized plumbing that was left in place during renovations rather than replaced. When those lines are disturbed during a remodel, rust scale and sediment can end up on surfaces far from the plumbing work itself. A thorough post-construction clean in these homes includes checking for rust staining on tubs, sinks, and surrounding tile that arrived during the project, not before it, and treating it with the appropriate acid-based remover before it's mistaken for pre-existing damage during a final walkthrough.
 
 If your Albany renovation just wrapped and you need the space clean before keys change hands, call Air Care Restoration at (325) 339-8723. The team handles everything from a single-room final clean to a full-structure post-construction detail, and can coordinate directly with your contractor or real estate agent to hit your closing or move-in date.

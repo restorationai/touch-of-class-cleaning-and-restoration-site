@@ -20,23 +20,23 @@ state: "MS"
 service_display: "Mold Remediation"
 rendered: true
 ---
-Greene County's humid subtropical climate means that moisture doesn't just visit Leakesville — it lingers. After a slow-draining crawl space flood, a roof leak following a Gulf storm, or even a window-unit air conditioner that sweats all summer, mold can establish visible colonies on wood framing and drywall in as little as 48 to 72 hours. HomeLyft Restoration MS brings IICRC AMRT-certified mold remediation to Leakesville and the surrounding Greene County area, working through the full process — containment, removal, treatment, and clearance — so the problem doesn't come back the next rainy season.
+Greene County's humid subtropical climate means that moisture doesn't just visit Leakesville, it lingers. After a slow-draining crawl space flood, a roof leak following a Gulf storm, or even a window-unit air conditioner that sweats all summer, mold can establish visible colonies on wood framing and drywall in as little as 48 to 72 hours. HomeLyft Restoration MS brings IICRC AMRT-certified mold remediation to Leakesville and the surrounding Greene County area, working through the full process, containment, removal, treatment, and clearance, so the problem doesn't come back the next rainy season.
 
 ## Why Leakesville Properties See Mold Issues
 
 Leakesville sits in one of the wettest corners of Mississippi. Greene County averages more than 60 inches of rainfall annually, and the Chickasawhay River basin that runs near town keeps ambient humidity elevated even between rain events. That persistent moisture load puts homes here under constant pressure.
 
-Older housing stock compounds the challenge. Many homes in and around Leakesville were built before modern vapor barrier standards were common practice, leaving crawl spaces and wall cavities with little defense against ground moisture wicking upward. Pier-and-beam foundations — still prevalent throughout Greene County — allow humid air to circulate freely beneath the subfloor, and when that air meets cooler interior surfaces in summer, condensation feeds mold growth in floor joists and insulation long before a homeowner notices a smell.
+Older housing stock compounds the challenge. Many homes in and around Leakesville were built before modern vapor barrier standards were common practice, leaving crawl spaces and wall cavities with little defense against ground moisture wicking upward. Pier-and-beam foundations, still prevalent throughout Greene County, allow humid air to circulate freely beneath the subfloor, and when that air meets cooler interior surfaces in summer, condensation feeds mold growth in floor joists and insulation long before a homeowner notices a smell.
 
 HVAC systems that run hard through a Mississippi summer also generate condensation around ductwork and air handlers. When insulation around those ducts deteriorates or a drain pan overflows, the resulting moisture pocket inside a wall or ceiling cavity is exactly the kind of hidden environment where black mold colonizes without any visible water event at all.
 
 ## Our Mold Remediation Process in Leakesville
 
-Every job starts with a thorough visual inspection and moisture mapping. We use thermal imaging cameras and calibrated moisture meters to locate wet building materials that aren't visible to the eye — critical in older homes where plumbing runs inside wall cavities with no cleanout access.
+Every job starts with a thorough visual inspection and moisture mapping. We use thermal imaging cameras and calibrated moisture meters to locate wet building materials that aren't visible to the eye, critical in older homes where plumbing runs inside wall cavities with no cleanout access.
 
 Once the affected area is identified, we establish negative-air containment using 6-mil poly barriers and HEPA-filtered air scrubbers. This keeps mold spores from migrating to unaffected rooms during the removal phase, which matters especially in smaller ranch-style homes common to rural Greene County where living spaces sit close together.
 
-Physical remediation follows IICRC S520 protocols: affected porous materials — drywall, insulation, deteriorated wood sheathing — are removed and bagged for disposal. Non-porous and semi-porous structural members are HEPA-vacuumed, wire-brushed where needed, and treated with an EPA-registered antimicrobial agent. We then dry the structural cavity to target moisture content before any reconstruction begins, because sealing wet wood behind new drywall is how mold problems recur within a year.
+Physical remediation follows IICRC S520 protocols: affected porous materials, drywall, insulation, deteriorated wood sheathing, are removed and bagged for disposal. Non-porous and semi-porous structural members are HEPA-vacuumed, wire-brushed where needed, and treated with an EPA-registered antimicrobial agent. We then dry the structural cavity to target moisture content before any reconstruction begins, because sealing wet wood behind new drywall is how mold problems recur within a year.
 
 Final air quality verification, whether through our post-remediation visual inspection or a third-party industrial hygienist clearance test if your insurance or lender requires one, confirms the space is ready for rebuild.
 
@@ -46,12 +46,12 @@ HomeLyft Restoration MS is headquartered in Gulfport, and our crews reach Leakes
 
 ## Leakesville Insurance Coordination
 
-Mold claims can be contentious with carriers, particularly when the underlying water source — a slow roof leak, a long-running crawl space seep — wasn't reported promptly. We document every affected area with photographs, moisture readings, and written scope notes formatted to meet adjuster requirements. That documentation record is yours regardless of how the claim resolves. We work with most major homeowners insurance carriers and can communicate directly with your adjuster to reduce the back-and-forth that slows remediation starts.
+Mold claims can be contentious with carriers, particularly when the underlying water source, a slow roof leak, a long-running crawl space seep, wasn't reported promptly. We document every affected area with photographs, moisture readings, and written scope notes formatted to meet adjuster requirements. That documentation record is yours regardless of how the claim resolves. We work with most major homeowners insurance carriers and can communicate directly with your adjuster to reduce the back-and-forth that slows remediation starts.
 
 If your policy excludes mold or caps coverage, we'll walk through the scope and give you a clear cost breakdown before any work begins.
 
 ## Local Note
 
-One pattern that comes up repeatedly on Greene County jobs: homes with metal roofing — popular in rural Leakesville for durability and cost — sometimes develop slow condensation drip points at the ridge cap or around penetrations that go unnoticed for months because the exterior shows no obvious damage. That interior drip lands on attic insulation, saturates it, and creates a mold column that works downward into ceiling framing before anyone smells anything unusual. If your home has a metal roof and you're seeing any ceiling staining or musty odor in upper rooms, that's worth investigating before assuming it's a plumbing issue.
+One pattern that comes up repeatedly on Greene County jobs: homes with metal roofing, popular in rural Leakesville for durability and cost, sometimes develop slow condensation drip points at the ridge cap or around penetrations that go unnoticed for months because the exterior shows no obvious damage. That interior drip lands on attic insulation, saturates it, and creates a mold column that works downward into ceiling framing before anyone smells anything unusual. If your home has a metal roof and you're seeing any ceiling staining or musty odor in upper rooms, that's worth investigating before assuming it's a plumbing issue.
 
-If you're dealing with a musty smell, visible dark spotting on walls or ceilings, or you've had any water intrusion in your Leakesville home in the past several months, don't wait for the next rainy stretch to make it worse. Call HomeLyft Restoration MS at +12282845200 to schedule an assessment — the sooner mold is contained, the less of your home's structure it has time to work through.
+If you're dealing with a musty smell, visible dark spotting on walls or ceilings, or you've had any water intrusion in your Leakesville home in the past several months, don't wait for the next rainy stretch to make it worse. Call HomeLyft Restoration MS at +12282845200 to schedule an assessment, the sooner mold is contained, the less of your home's structure it has time to work through.

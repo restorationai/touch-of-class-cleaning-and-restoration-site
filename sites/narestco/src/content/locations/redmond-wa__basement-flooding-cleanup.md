@@ -20,7 +20,7 @@ state: "WA"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
-Standing water in a Redmond basement moves fast — soaking into framing, wicking up drywall, and reaching the conditions mold needs to colonize in as little as 24 to 48 hours. If you're reading this with wet socks on or a sump pump alarm still ringing in your ears, the most useful thing on this page is the number at the top. National Restoration Construction dispatches from Federal Way and typically has a crew on-site in Redmond within 60 to 90 minutes of your call — any time of day, any day of the year.
+Standing water in a Redmond basement moves fast, soaking into framing, wicking up drywall, and reaching the conditions mold needs to colonize in as little as 24 to 48 hours. If you're reading this with wet socks on or a sump pump alarm still ringing in your ears, the most useful thing on this page is the number at the top. National Restoration Construction dispatches from Federal Way and typically has a crew on-site in Redmond within 60 to 90 minutes of your call, any time of day, any day of the year.
 
 ## Why Redmond Basements Flood
 
@@ -28,31 +28,31 @@ Redmond sits in the Lake Sammamish watershed, where the combination of clay-heav
 
 Beyond groundwater intrusion, the most common causes we see in Redmond basements are:
 
-- **Sump pump failure** during a power outage — not uncommon when a Pacific storm knocks out Puget Sound Energy service
+- **Sump pump failure** during a power outage, not uncommon when a Pacific storm knocks out Puget Sound Energy service
 - **Lateral sewer backups** after heavy rain overwhelms the municipal system
 - **Water heater and appliance failures** in finished lower levels
 - **Window well overflow** on below-grade egress windows without adequate drains
 
-Knowing the source matters because it determines whether the water is clean, gray, or sewage-contaminated — and that classification drives every decision about how we handle extraction, what materials can be dried in place, and what has to come out.
+Knowing the source matters because it determines whether the water is clean, gray, or sewage-contaminated, and that classification drives every decision about how we handle extraction, what materials can be dried in place, and what has to come out.
 
 ## Our Basement Flooding Cleanup Process in Redmond
 
-When a technician arrives, the first ten minutes are spent identifying the water source and classifying contamination — not just starting equipment. That triage prevents the mistake of drying contaminated materials in place and creating a bigger problem later.
+When a technician arrives, the first ten minutes are spent identifying the water source and classifying contamination, not just starting equipment. That triage prevents the mistake of drying contaminated materials in place and creating a bigger problem later.
 
 **1. Extraction** 
-We use truck-mounted extraction units capable of pulling hundreds of gallons per hour, supplemented by portable submersible pumps for standing water. Carpet, pad, and saturated insulation are typically removed during this phase — materials that hold moisture and can't be effectively dried in place.
+We use truck-mounted extraction units capable of pulling hundreds of gallons per hour, supplemented by portable submersible pumps for standing water. Carpet, pad, and saturated insulation are typically removed during this phase, materials that hold moisture and can't be effectively dried in place.
 
 **2. Structural moisture mapping** 
 Moisture meters and thermal imaging cameras reveal water that has migrated behind walls, under slab, or into subfloor assemblies. In Redmond's older split-level and daylight-basement homes, water routinely travels farther than it appears on the surface.
 
 **3. Drying and dehumidification** 
-High-velocity air movers and commercial-grade desiccant or refrigerant dehumidifiers are placed based on the moisture map, not guesswork. We monitor readings daily and adjust equipment until structural materials reach target dryness — typically three to five days depending on the extent of saturation and ambient conditions.
+High-velocity air movers and commercial-grade desiccant or refrigerant dehumidifiers are placed based on the moisture map, not guesswork. We monitor readings daily and adjust equipment until structural materials reach target dryness, typically three to five days depending on the extent of saturation and ambient conditions.
 
 **4. Antimicrobial treatment** 
 Once surfaces are dry, affected areas receive EPA-registered antimicrobial application to address any microbial growth that began during the wet period.
 
 **5. Documentation for your insurance claim** 
-Every step is photographed and logged — moisture readings, equipment placement, daily drying logs. That documentation is what your adjuster needs, and we provide it as a standard part of the job.
+Every step is photographed and logged, moisture readings, equipment placement, daily drying logs. That documentation is what your adjuster needs, and we provide it as a standard part of the job.
 
 National Restoration Construction has been performing this work since 2004 and holds IICRC certification, meaning the drying protocols we follow are the same science-based standards insurance carriers expect to see.
 
@@ -60,7 +60,7 @@ National Restoration Construction has been performing this work since 2004 and h
 
 Most homeowners in Redmond have never filed a water damage claim before, and the process is less intuitive than it looks. Here's the practical split:
 
-**What we handle:** Scope documentation, moisture logs, photo evidence, direct communication with your adjuster, and line-item estimates written in the format carriers use. We work with all major insurers and can often begin mitigation before the adjuster's inspection — which matters when every hour counts.
+**What we handle:** Scope documentation, moisture logs, photo evidence, direct communication with your adjuster, and line-item estimates written in the format carriers use. We work with all major insurers and can often begin mitigation before the adjuster's inspection, which matters when every hour counts.
 
 **What you handle:** Contacting your insurer to open the claim and providing your policy number. That's typically the extent of your paperwork burden when you work with us.
 
@@ -68,10 +68,10 @@ One important note: whether flooding is covered depends on your specific policy.
 
 ## Response Times Across Redmond
 
-From our Federal Way headquarters, Redmond is roughly 30 to 40 minutes via SR-520 under normal traffic conditions. We route around peak congestion and maintain equipment staged for rapid deployment, so the 60-to-90-minute window holds for most of the city — including Overlake, Grass Lawn, Education Hill, and the Redmond Town Center area. If you're in the Bear Creek or Novelty Hill corridor, add 10 to 15 minutes.
+From our Federal Way headquarters, Redmond is roughly 30 to 40 minutes via SR-520 under normal traffic conditions. We route around peak congestion and maintain equipment staged for rapid deployment, so the 60-to-90-minute window holds for most of the city, including Overlake, Grass Lawn, Education Hill, and the Redmond Town Center area. If you're in the Bear Creek or Novelty Hill corridor, add 10 to 15 minutes.
 
 We don't quote response times we can't keep. If conditions on a given night will push us past that window, we tell you upfront.
 
 ---
 
-A flooded basement is the kind of problem that compounds every hour you wait — but it's also one that a properly equipped crew can stop cold when they get there fast. Reach National Restoration Construction at **(206) 883-0333** and describe what you're seeing. We'll tell you exactly when someone will be at your door.
+A flooded basement is the kind of problem that compounds every hour you wait, but it's also one that a properly equipped crew can stop cold when they get there fast. Reach National Restoration Construction at **(206) 883-0333** and describe what you're seeing. We'll tell you exactly when someone will be at your door.

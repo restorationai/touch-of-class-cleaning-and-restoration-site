@@ -20,49 +20,49 @@ rendered: true
 ---
 ## What happens after the damage is mitigated
 
-Once the water is extracted, the smoke cleared, or the mold contained, you're left with something mitigation crews don't fix: missing drywall, charred framing, buckled subfloor, or a bathroom gutted down to the studs. That gap between "the emergency is over" and "the house is livable again" is exactly where reconstruction services begin. For San Diego homeowners, that phase can stretch weeks or months if it's handed off to a general contractor who has never navigated a post-damage insurance scope — and every delay costs money and livability.
+Once the water is extracted, the smoke cleared, or the mold contained, you're left with something mitigation crews don't fix: missing drywall, charred framing, buckled subfloor, or a bathroom gutted down to the studs. That gap between "the emergency is over" and "the house is livable again" is exactly where reconstruction services begin. For San Diego homeowners, that phase can stretch weeks or months if it's handed off to a general contractor who has never navigated a post-damage insurance scope, and every delay costs money and livability.
 
 ## What reconstruction services actually involve
 
 Post-damage reconstruction is not a remodel. The work order is driven by a documented loss, not a design preference, which means every line item has to be defensible to an insurance adjuster, tied to a cause of loss, and sequenced around inspections and permits.
 
-At the structural level, that means replacing load-bearing members damaged by water saturation or fire, sistering compromised joists, re-sheathing exterior walls, and restoring roof decking before any interior work begins. At the finish level, it means matching existing texture, paint sheen, cabinet profiles, and flooring species — because insurance scopes require like-kind-and-quality replacement, not an upgrade or a downgrade.
+At the structural level, that means replacing load-bearing members damaged by water saturation or fire, sistering compromised joists, re-sheathing exterior walls, and restoring roof decking before any interior work begins. At the finish level, it means matching existing texture, paint sheen, cabinet profiles, and flooring species, because insurance scopes require like-kind-and-quality replacement, not an upgrade or a downgrade.
 
-Timelines vary by scope. A single-room rebuild after a contained pipe burst might take 10–14 working days. A multi-room fire damage reconstruction involving structural framing, HVAC rough-in, and full interior finishes can run 6–10 weeks. San Diego's permit office turnaround adds real time to any job requiring a building permit, and that timeline needs to be built into the project schedule from day one — not discovered after demo is complete.
+Timelines vary by scope. A single-room rebuild after a contained pipe burst might take 10–14 working days. A multi-room fire damage reconstruction involving structural framing, HVAC rough-in, and full interior finishes can run 6–10 weeks. San Diego's permit office turnaround adds real time to any job requiring a building permit, and that timeline needs to be built into the project schedule from day one, not discovered after demo is complete.
 
 ## Our process
 
 ### 1. Scope of work development
-Before a single nail is pulled, a detailed written scope is produced — room by room, line by line — using Xactimate pricing that matches what insurance carriers use. This document becomes the contract, the permit application, and the adjuster's reference. Vague scopes are the single biggest source of disputes and change orders.
+Before a single nail is pulled, a detailed written scope is produced, room by room, line by line, using Xactimate pricing that matches what insurance carriers use. This document becomes the contract, the permit application, and the adjuster's reference. Vague scopes are the single biggest source of disputes and change orders.
 
 ### 2. Permits and inspections
 Any structural reconstruction, electrical work, plumbing replacement, or HVAC modification in San Diego requires a permit from the City's Development Services Department (or the applicable county office for unincorporated areas). We pull permits before work begins, schedule inspections at each required phase, and keep the permit card on-site. Skipping this step to move faster is how homeowners end up with unpermitted work that fails a future home sale.
 
 ### 3. Structural framing and rough-in trades
-Framing is first — walls, floors, roof structure — followed by rough-in electrical, plumbing, and mechanical. Each trade must be inspected and signed off before insulation and drywall close the walls. Sequencing errors here (drywall before rough-in inspection, for example) require destructive re-opening and add weeks to the schedule.
+Framing is first, walls, floors, roof structure, followed by rough-in electrical, plumbing, and mechanical. Each trade must be inspected and signed off before insulation and drywall close the walls. Sequencing errors here (drywall before rough-in inspection, for example) require destructive re-opening and add weeks to the schedule.
 
 ### 4. Insulation, drywall, and waterproofing
 In post-water-damage reconstruction, vapor barriers and waterproofing membranes in wet areas are not optional. San Diego's coastal humidity means that improperly sealed bathroom or laundry room walls can re-introduce moisture problems within a single rainy season. Insulation R-values must meet current Title 24 energy code, which is enforced on permitted reconstruction even when the original structure predates the code.
 
 ### 5. Finishes, punch list, and final inspection
-Texture matching, paint, flooring, cabinetry, trim, and fixture installation close out the visible work. A formal punch list walk-through — with the homeowner present — catches anything that needs correction before the final inspection is scheduled and the file is closed with the insurance carrier.
+Texture matching, paint, flooring, cabinetry, trim, and fixture installation close out the visible work. A formal punch list walk-through, with the homeowner present, catches anything that needs correction before the final inspection is scheduled and the file is closed with the insurance carrier.
 
 ## What separates a good reconstruction response from a bad one
 
-The most common failure point is a scope written too thin. Adjusters write initial estimates based on visible damage; experienced reconstruction contractors identify concealed damage — wet insulation behind intact drywall, fire-damaged blocking inside a wall cavity, corroded supply lines hidden under a cabinet — and document it with photos and moisture readings before closing anything up. Supplementing the insurance claim for that concealed damage is standard practice; failing to document it means the homeowner absorbs the cost.
+The most common failure point is a scope written too thin. Adjusters write initial estimates based on visible damage; experienced reconstruction contractors identify concealed damage, wet insulation behind intact drywall, fire-damaged blocking inside a wall cavity, corroded supply lines hidden under a cabinet, and document it with photos and moisture readings before closing anything up. Supplementing the insurance claim for that concealed damage is standard practice; failing to document it means the homeowner absorbs the cost.
 
-Code upgrades are the second common gap. When reconstruction triggers a permit, the work must meet current code — not the code that was in effect when the house was built. That can mean arc-fault breakers, tempered glass in hazardous locations, or updated egress window sizes. A contractor who doesn't flag these items upfront will either skip them (creating a failed inspection) or present a surprise change order mid-project.
+Code upgrades are the second common gap. When reconstruction triggers a permit, the work must meet current code, not the code that was in effect when the house was built. That can mean arc-fault breakers, tempered glass in hazardous locations, or updated egress window sizes. A contractor who doesn't flag these items upfront will either skip them (creating a failed inspection) or present a surprise change order mid-project.
 
 Finally, material matching matters more than most homeowners expect. Insurance policies require like-kind-and-quality replacement. If an adjuster's scope calls for a standard knock-down texture and the contractor applies orange peel, or specifies 3.25" oak flooring and the crew installs a different species, the carrier can dispute payment. Experienced reconstruction crews photograph existing materials before demo and match them precisely.
 
 ## Seasonal and regional considerations
 
-San Diego's mild climate means freeze-thaw pipe damage is rare, but the region's fire seasons — historically peaking August through November — generate significant reconstruction volume after wildland-urban interface fires in communities like Lakeside, Alpine, Ramona, and Rancho Bernardo. Post-fire reconstruction in these areas often involves not just the structure but defensible space compliance, which can affect what materials are permitted on rebuilt exteriors.
+San Diego's mild climate means freeze-thaw pipe damage is rare, but the region's fire seasons, historically peaking August through November, generate significant reconstruction volume after wildland-urban interface fires in communities like Lakeside, Alpine, Ramona, and Rancho Bernardo. Post-fire reconstruction in these areas often involves not just the structure but defensible space compliance, which can affect what materials are permitted on rebuilt exteriors.
 
-Winter rain events, while infrequent, can saturate older homes quickly when gutters fail or hillside drainage backs up. Reconstruction following storm intrusion in San Diego's canyon-adjacent neighborhoods often reveals decades of deferred waterproofing issues that must be addressed — and documented — as part of the rebuild.
+Winter rain events, while infrequent, can saturate older homes quickly when gutters fail or hillside drainage backs up. Reconstruction following storm intrusion in San Diego's canyon-adjacent neighborhoods often reveals decades of deferred waterproofing issues that must be addressed, and documented, as part of the rebuild.
 
 ## Service area
 
 Flood Fixers handles post-damage reconstruction throughout San Diego County, including Chula Vista, El Cajon, Escondido, La Mesa, National City, Oceanside, Santee, and the coastal communities from Coronado to Encinitas. City-specific service pages detail local permit contacts and typical housing stock considerations for each area.
 
-If your home or property is past the mitigation phase and you're staring at exposed framing or a gutted interior, call (855) 204-1124 to get a written reconstruction scope of work — the document that drives every decision from permit to punch list.
+If your home or property is past the mitigation phase and you're staring at exposed framing or a gutted interior, call (855) 204-1124 to get a written reconstruction scope of work, the document that drives every decision from permit to punch list.

@@ -25,17 +25,17 @@ When a pipe bursts in a century-old quartzite building on Pipestone's main corri
 
 Pipestone sits in a part of Minnesota where the weather swings hard. Winters bring freeze-thaw cycles that stress aging pipe systems and push water through foundation walls that have been absorbing prairie moisture for decades. Spring snowmelt across the Coteau des Prairies can overwhelm sump pumps and storm drains faster than homeowners expect, and the relatively flat topography means water has nowhere to go but in. Summer storms roll through with little warning, and hail damage to roofing is a recurring driver of interior water intrusion.
 
-The housing stock adds another layer of complexity. Pipestone's Downtown Historic District is anchored by structures built from the region's distinctive Sioux quartzite — a dense, beautiful stone that requires careful handling during any restoration or reconstruction work. These aren't standard drywall-and-stud buildings. Mortar joints, historic lath-and-plaster interiors, and original woodwork demand a measured approach that preserves character while meeting current building codes. Newer residential neighborhoods closer to the Hiawatha Pageant grounds tend to be wood-frame construction from the mid-twentieth century, where moisture intrusion can move quickly through wall cavities and subfloors.
+The housing stock adds another layer of complexity. Pipestone's Downtown Historic District is anchored by structures built from the region's distinctive Sioux quartzite, a dense, beautiful stone that requires careful handling during any restoration or reconstruction work. These aren't standard drywall-and-stud buildings. Mortar joints, historic lath-and-plaster interiors, and original woodwork demand a measured approach that preserves character while meeting current building codes. Newer residential neighborhoods closer to the Hiawatha Pageant grounds tend to be wood-frame construction from the mid-twentieth century, where moisture intrusion can move quickly through wall cavities and subfloors.
 
 ## Services we provide in Pipestone
 
 ### Water damage mitigation
 
-Water damage in Pipestone often starts small — a slow leak behind a kitchen wall, condensation around an aging window frame — and becomes a significant problem by the time it's visible. We extract standing water, deploy commercial drying equipment, and monitor moisture levels in walls and subfloors until readings confirm the structure is dry. For properties near the 56164 ZIP code's older housing corridors, we pay particular attention to crawl spaces and basement walls where groundwater intrusion is common after heavy rain.
+Water damage in Pipestone often starts small, a slow leak behind a kitchen wall, condensation around an aging window frame, and becomes a significant problem by the time it's visible. We extract standing water, deploy commercial drying equipment, and monitor moisture levels in walls and subfloors until readings confirm the structure is dry. For properties near the 56164 ZIP code's older housing corridors, we pay particular attention to crawl spaces and basement walls where groundwater intrusion is common after heavy rain.
 
 ### Fire and smoke damage restoration
 
-Smoke residue behaves differently depending on what burned and how hot the fire ran. In Pipestone's older downtown buildings — including properties in the Downtown Pipestone Historic District — smoke can penetrate quartzite mortar, original plaster, and aged timber framing in ways that standard cleaning protocols miss. We assess the full scope of smoke migration before beginning any surface work, and we coordinate with your insurance adjuster throughout the process.
+Smoke residue behaves differently depending on what burned and how hot the fire ran. In Pipestone's older downtown buildings, including properties in the Downtown Pipestone Historic District, smoke can penetrate quartzite mortar, original plaster, and aged timber framing in ways that standard cleaning protocols miss. We assess the full scope of smoke migration before beginning any surface work, and we coordinate with your insurance adjuster throughout the process.
 
 ### Mold remediation
 
@@ -43,17 +43,17 @@ Mold can begin colonizing wet materials within 24 to 48 hours of a moisture even
 
 ### Reconstruction
 
-Mitigation is only half the job. Once the structure is dry and clean, Crew Restoration & Construction handles the rebuild — framing, drywall, flooring, cabinetry, and finish work. For properties in the Historic Calumet Inn corridor and surrounding Downtown Pipestone Historic District, we take care to source materials and finishes that are appropriate for the building's age and character, and we coordinate with local authorities when historic preservation considerations apply.
+Mitigation is only half the job. Once the structure is dry and clean, Crew Restoration & Construction handles the rebuild, framing, drywall, flooring, cabinetry, and finish work. For properties in the Historic Calumet Inn corridor and surrounding Downtown Pipestone Historic District, we take care to source materials and finishes that are appropriate for the building's age and character, and we coordinate with local authorities when historic preservation considerations apply.
 
 ## Coverage and how fast we can get there
 
-Crew Restoration & Construction is headquartered in Sioux Falls, SD. Pipestone is approximately 75 miles northeast of Sioux Falls via US-18 East — a straightforward drive across the state line into southwest Minnesota. We serve the full 56164 ZIP code, including the Hiawatha area, the Downtown Pipestone Historic District, and surrounding rural properties. Scheduling is handled by phone at (605) 965-2727. Because our hours were not listed at the time this page was published, we recommend calling during business hours to confirm availability and get a crew dispatched promptly.
+Crew Restoration & Construction is headquartered in Sioux Falls, SD. Pipestone is approximately 75 miles northeast of Sioux Falls via US-18 East, a straightforward drive across the state line into southwest Minnesota. We serve the full 56164 ZIP code, including the Hiawatha area, the Downtown Pipestone Historic District, and surrounding rural properties. Scheduling is handled by phone at (605) 965-2727. Because our hours were not listed at the time this page was published, we recommend calling during business hours to confirm availability and get a crew dispatched promptly.
 
 ## Building stock, site conditions, and permits in Pipestone
 
 Most of Pipestone's houses date from the late 1800s through the mid-twentieth century, which means full basements under wood-frame walls, lath-and-plaster or early gypsum board inside, and little to no vapor barrier in the wall cavity. When water enters that assembly, the plaster holds moisture long after the surface feels dry, so drying is measured from inside the cavity rather than at the paint.
 
-Plumbing of that vintage is usually galvanized steel supply and cast iron drain, and both fail from the inside out — pinholes and scale rather than a clean break. Anything built before the 1980s should be treated as potentially containing asbestos or lead paint until tested. Glacial till over shallow Sioux quartzite keeps snowmelt near the surface, pressing against basement walls each spring.
+Plumbing of that vintage is usually galvanized steel supply and cast iron drain, and both fail from the inside out, pinholes and scale rather than a clean break. Anything built before the 1980s should be treated as potentially containing asbestos or lead paint until tested. Glacial till over shallow Sioux quartzite keeps snowmelt near the surface, pressing against basement walls each spring.
 
 Structural repair and rebuild work inside city limits is permitted through the City of Pipestone under the Minnesota State Building Code; rural properties go through the county.
 

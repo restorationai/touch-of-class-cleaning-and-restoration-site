@@ -19,42 +19,42 @@ state: "UT"
 primary: false
 rendered: true
 ---
-When a pipe bursts at 2 a.m. or smoke from a kitchen fire settles into every corner of your home, you need someone who knows Eagle Mountain — not just a dispatcher reading from a map. Home Pride Restoration and Cleaning has been responding to water, fire, mold, and biohazard emergencies across Utah County since 1997, and our Saratoga Springs headquarters puts us minutes from Eagle Mountain's fastest-growing neighborhoods. We handle the extraction, the drying, the rebuild, and the insurance paperwork so you can focus on getting your family back to normal.
+When a pipe bursts at 2 a.m. or smoke from a kitchen fire settles into every corner of your home, you need someone who knows Eagle Mountain, not just a dispatcher reading from a map. Home Pride Restoration and Cleaning has been responding to water, fire, mold, and biohazard emergencies across Utah County since 1997, and our Saratoga Springs headquarters puts us minutes from Eagle Mountain's fastest-growing neighborhoods. We handle the extraction, the drying, the rebuild, and the insurance paperwork so you can focus on getting your family back to normal.
 
 ## Restoration emergencies common in Eagle Mountain
 
-Eagle Mountain sits on the western bench of Utah County at roughly 4,900 feet, where the high desert climate swings hard between seasons. Winters bring freeze-thaw cycles that crack supply lines and hose bibs — especially in the newer construction that dominates ZIP codes 84005 and 84043, where PEX plumbing runs through uninsulated exterior walls and garages that drop well below freezing overnight. Spring snowmelt off the Oquirrh Mountains pushes groundwater up through slab foundations, and the clay-heavy soils common across the city drain slowly, meaning a single heavy storm can saturate crawl spaces and window wells before a homeowner even notices.
+Eagle Mountain sits on the western bench of Utah County at roughly 4,900 feet, where the high desert climate swings hard between seasons. Winters bring freeze-thaw cycles that crack supply lines and hose bibs, especially in the newer construction that dominates ZIP codes 84005 and 84043, where PEX plumbing runs through uninsulated exterior walls and garages that drop well below freezing overnight. Spring snowmelt off the Oquirrh Mountains pushes groundwater up through slab foundations, and the clay-heavy soils common across the city drain slowly, meaning a single heavy storm can saturate crawl spaces and window wells before a homeowner even notices.
 
-The housing stock matters too. The bulk of Eagle Mountain's homes were built between 2000 and today — tract construction that moves fast and sometimes leaves gaps around penetrations, undersized sump pits, or vapor barriers that weren't sealed correctly. Mold can colonize drywall cavities within 24 to 48 hours of a slow leak behind a washing machine or dishwasher, and in a tightly built home with low air exchange, spore counts climb quickly. Fire risk is real year-round: dry summers, proximity to open scrubland, and the wood-frame construction typical in newer subdivisions all factor in.
+The housing stock matters too. The bulk of Eagle Mountain's homes were built between 2000 and today, tract construction that moves fast and sometimes leaves gaps around penetrations, undersized sump pits, or vapor barriers that weren't sealed correctly. Mold can colonize drywall cavities within 24 to 48 hours of a slow leak behind a washing machine or dishwasher, and in a tightly built home with low air exchange, spore counts climb quickly. Fire risk is real year-round: dry summers, proximity to open scrubland, and the wood-frame construction typical in newer subdivisions all factor in.
 
 ## Services we provide in Eagle Mountain
 
 ### Water damage restoration
 
-Water damage in Eagle Mountain often starts small — a slow drip under a kitchen sink, a failed water heater in a finished basement — and becomes a structural problem before it's visible. We deploy truck-mounted extraction, industrial air movers, and desiccant dehumidifiers to pull moisture out of framing and flooring before secondary damage sets in. Every job is documented with thermal imaging and moisture readings so your insurance carrier has the data they need.
+Water damage in Eagle Mountain often starts small, a slow drip under a kitchen sink, a failed water heater in a finished basement, and becomes a structural problem before it's visible. We deploy truck-mounted extraction, industrial air movers, and desiccant dehumidifiers to pull moisture out of framing and flooring before secondary damage sets in. Every job is documented with thermal imaging and moisture readings so your insurance carrier has the data they need.
 
 ### Fire and smoke damage restoration
 
-Smoke from even a contained kitchen fire can deposit odor-causing residue on every surface in an open-concept floor plan — the kind of layout common in Eagle Mountain's newer builds. We use dry-ice blasting, hydroxyl generators, and thermal fogging to neutralize odor at the molecular level, not just mask it. Structural repairs and content cleaning are handled under one roof so you're not managing multiple contractors.
+Smoke from even a contained kitchen fire can deposit odor-causing residue on every surface in an open-concept floor plan, the kind of layout common in Eagle Mountain's newer builds. We use dry-ice blasting, hydroxyl generators, and thermal fogging to neutralize odor at the molecular level, not just mask it. Structural repairs and content cleaning are handled under one roof so you're not managing multiple contractors.
 
 ### Mold remediation
 
-Mold remediation in Eagle Mountain frequently involves the space between a home's OSB sheathing and its interior drywall — a gap that stays damp after a slow roof leak or a failed window seal. Our IICRC-certified technicians follow EPA containment and removal protocols, and we coordinate post-remediation air testing through a third-party industrial hygienist so you have independent documentation of clearance.
+Mold remediation in Eagle Mountain frequently involves the space between a home's OSB sheathing and its interior drywall, a gap that stays damp after a slow roof leak or a failed window seal. Our IICRC-certified technicians follow EPA containment and removal protocols, and we coordinate post-remediation air testing through a third-party industrial hygienist so you have independent documentation of clearance.
 
 ### Biohazard and specialty cleanup
 
-From sewage backups — common when Eagle Mountain's municipal lines see heavy inflow during spring runoff — to trauma and unattended-death scenes, we respond discreetly and safely. Technicians are OSHA-trained and equipped with full PPE. We handle disposal in compliance with Utah Department of Environmental Quality requirements.
+From sewage backups, common when Eagle Mountain's municipal lines see heavy inflow during spring runoff, to trauma and unattended-death scenes, we respond discreetly and safely. Technicians are OSHA-trained and equipped with full PPE. We handle disposal in compliance with Utah Department of Environmental Quality requirements.
 
 ## Response time and coverage
 
-From our Saratoga Springs headquarters, a Home Pride crew can reach most Eagle Mountain addresses in 20 to 35 minutes under normal traffic conditions. The drive west on Redwood Road and north on Eagle Mountain Boulevard puts us at the city's core quickly; neighborhoods farther out on the city's western edge typically see us within 45 minutes. We run 24-hour dispatch at (801) 995-2437 — nights, weekends, and holidays included — because a Category 2 water loss doesn't wait for Monday morning.
+From our Saratoga Springs headquarters, a Home Pride crew can reach most Eagle Mountain addresses in 20 to 35 minutes under normal traffic conditions. The drive west on Redwood Road and north on Eagle Mountain Boulevard puts us at the city's core quickly; neighborhoods farther out on the city's western edge typically see us within 45 minutes. We run 24-hour dispatch at (801) 995-2437, nights, weekends, and holidays included, because a Category 2 water loss doesn't wait for Monday morning.
 
 ## Building stock, site conditions, and permits in Eagle Mountain
 
-Because almost nothing here predates 2000, the era hazards that complicate older Utah County work — asbestos floor tile and mastic, lead paint, knob-and-tube — are rarely part of the scope. What we plan around instead is depth. Most homes are built over poured concrete full basements or partial daylight basements, and many were sold unfinished and finished later. That matters: a loss on the main floor drains into a basement whose framing, insulation, and wiring may not match the original permitted plans, and undocumented finish work slows the rebuild.
+Because almost nothing here predates 2000, the era hazards that complicate older Utah County work, asbestos floor tile and mastic, lead paint, knob-and-tube, are rarely part of the scope. What we plan around instead is depth. Most homes are built over poured concrete full basements or partial daylight basements, and many were sold unfinished and finished later. That matters: a loss on the main floor drains into a basement whose framing, insulation, and wiring may not match the original permitted plans, and undocumented finish work slows the rebuild.
 
 Roofs are typically asphalt shingle over OSB on engineered trusses, with blown-in attic insulation that mats down and holds water after a leak.
 
 Utah enforces a statewide building code, and Eagle Mountain's own building division issues permits. Structural framing, wall relocation, and electrical or mechanical changes trigger one; like-for-like drywall and flooring usually does not.
 
-If something has gone wrong in your Eagle Mountain home or property, call Home Pride Restoration and Cleaning at **(801) 995-2437**. We'll tell you exactly what we're seeing, what needs to happen, and how long it will take — before any work begins.
+If something has gone wrong in your Eagle Mountain home or property, call Home Pride Restoration and Cleaning at **(801) 995-2437**. We'll tell you exactly what we're seeing, what needs to happen, and how long it will take, before any work begins.

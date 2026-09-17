@@ -20,42 +20,42 @@ state: "WA"
 service_display: "Frozen Pipe Restoration"
 rendered: true
 ---
-A pipe that freezes overnight in Kirkland can push 2,000 pounds of pressure per square inch before it lets go — and when it does, you may have seconds before water is soaking into walls, subfloor, and insulation. If you're reading this with wet carpet underfoot or a ceiling that's starting to sag, the most useful thing to do right now is reach National Restoration Construction at **(206) 883-0333**. We've been responding to cold-weather pipe emergencies across the greater Seattle area since 2004, and our crews can typically reach Kirkland properties within 60–90 minutes.
+A pipe that freezes overnight in Kirkland can push 2,000 pounds of pressure per square inch before it lets go, and when it does, you may have seconds before water is soaking into walls, subfloor, and insulation. If you're reading this with wet carpet underfoot or a ceiling that's starting to sag, the most useful thing to do right now is reach National Restoration Construction at **(206) 883-0333**. We've been responding to cold-weather pipe emergencies across the greater Seattle area since 2004, and our crews can typically reach Kirkland properties within 60–90 minutes.
 
 ## Why Kirkland Properties See Frozen Pipe Emergencies
 
-Kirkland sits in a climate that's deceptively mild most of the year — and that's part of the problem. Western Washington doesn't get the sustained deep freezes that harden the Midwest, so homes here weren't always built with the same pipe insulation standards. Crawl spaces under older craftsman and split-level homes near Juanita, Totem Lake, and the South Rose Hill neighborhoods are especially vulnerable: pipes run through unheated spaces that see little attention until a multi-day cold snap drops temperatures into the low 20s.
+Kirkland sits in a climate that's deceptively mild most of the year, and that's part of the problem. Western Washington doesn't get the sustained deep freezes that harden the Midwest, so homes here weren't always built with the same pipe insulation standards. Crawl spaces under older craftsman and split-level homes near Juanita, Totem Lake, and the South Rose Hill neighborhoods are especially vulnerable: pipes run through unheated spaces that see little attention until a multi-day cold snap drops temperatures into the low 20s.
 
-When an Arctic air mass pushes through the Cascades and stalls over the Eastside — the kind of event that hit the region hard in recent winters — pipes that have never frozen before suddenly do. Outdoor hose bibs, supply lines running along exterior walls, and any plumbing in an uninsulated garage or attic are the first to go. The freeze itself is silent. The damage announces itself loudly once the pipe thaws.
+When an Arctic air mass pushes through the Cascades and stalls over the Eastside, the kind of event that hit the region hard in recent winters, pipes that have never frozen before suddenly do. Outdoor hose bibs, supply lines running along exterior walls, and any plumbing in an uninsulated garage or attic are the first to go. The freeze itself is silent. The damage announces itself loudly once the pipe thaws.
 
 ## Our Frozen Pipe Restoration Process in Kirkland
 
-The first thing our technicians do on arrival isn't pull out equipment — it's locate the source and stop the water. We'll help you identify your main shutoff if it isn't already closed, then do a full walkthrough to find every affected area, including places water has traveled that aren't immediately visible.
+The first thing our technicians do on arrival isn't pull out equipment, it's locate the source and stop the water. We'll help you identify your main shutoff if it isn't already closed, then do a full walkthrough to find every affected area, including places water has traveled that aren't immediately visible.
 
 From there, the process moves through defined stages:
 
-**Extraction and drying.** Truck-mounted extraction removes standing water from flooring and carpet faster than portable units. We then deploy industrial air movers and low-grain refrigerant dehumidifiers calibrated to the moisture load in your specific space. Kirkland's ambient humidity — especially in late fall and winter — means we run equipment longer than a drier climate would require.
+**Extraction and drying.** Truck-mounted extraction removes standing water from flooring and carpet faster than portable units. We then deploy industrial air movers and low-grain refrigerant dehumidifiers calibrated to the moisture load in your specific space. Kirkland's ambient humidity, especially in late fall and winter, means we run equipment longer than a drier climate would require.
 
 **Moisture mapping.** Thermal imaging cameras and penetrating moisture meters let us trace water migration behind drywall and under hardwood without tearing into every surface blindly. We document readings at every stage, which matters when you're filing an insurance claim.
 
-**Structural assessment and repairs.** Thawed pipe water damage often means more than wet floors. We assess framing, subfloor sheathing, and wall cavities for saturation and early mold risk. If drywall, insulation, or flooring needs to come out, we handle that under our Washington State General Contractor license (#NATIORC792M6) — you don't have to coordinate a separate contractor.
+**Structural assessment and repairs.** Thawed pipe water damage often means more than wet floors. We assess framing, subfloor sheathing, and wall cavities for saturation and early mold risk. If drywall, insulation, or flooring needs to come out, we handle that under our Washington State General Contractor license (#NATIORC792M6), you don't have to coordinate a separate contractor.
 
 **Clearance testing.** We don't call a job done because the air movers are off. Final moisture readings confirm materials are back within acceptable ranges before we close anything up.
 
 ## Insurance Claims for Frozen Pipe Damage
 
-Sudden and accidental water damage from a burst frozen pipe is typically a covered peril under standard homeowner's policies — but the documentation you provide in the first 24–48 hours shapes how smoothly that claim goes. Our IICRC-certified technicians photograph damage, record moisture readings, and produce a written scope of loss that adjusts contractors and insurance carriers expect to see.
+Sudden and accidental water damage from a burst frozen pipe is typically a covered peril under standard homeowner's policies, but the documentation you provide in the first 24–48 hours shapes how smoothly that claim goes. Our IICRC-certified technicians photograph damage, record moisture readings, and produce a written scope of loss that adjusts contractors and insurance carriers expect to see.
 
 We work directly with most major carriers and can communicate with your adjuster on the technical side of the claim. What you'll want to do on your end: notify your insurer as soon as possible, avoid throwing away damaged materials before they're documented, and keep receipts for any emergency expenses (hotel stays, temporary repairs) that your policy may reimburse.
 
-We don't bill you to inflate a claim — we document what's actually damaged. That straightforward approach tends to move claims faster than inflated scopes that adjusters push back on.
+We don't bill you to inflate a claim, we document what's actually damaged. That straightforward approach tends to move claims faster than inflated scopes that adjusters push back on.
 
 ## Response Times Across Kirkland
 
 Our operations are based in Federal Way, which puts us roughly 25–35 minutes from most Kirkland addresses under normal I-405 and SR-520 conditions. During a regional freeze event, when call volume is high and roads may be icy, we're honest: response times can stretch. We prioritize active flooding over dry consultations, and we'll give you a realistic ETA when you call.
 
-For properties near Totem Lake or the Kingsgate corridor — closer to the 405/522 interchange — we can often beat the 60-minute mark. For Houghton or downtown Kirkland waterfront properties, plan on the 60–90 minute window.
+For properties near Totem Lake or the Kingsgate corridor, closer to the 405/522 interchange, we can often beat the 60-minute mark. For Houghton or downtown Kirkland waterfront properties, plan on the 60–90 minute window.
 
 While you wait, the single most impactful thing you can do is confirm your main water shutoff is closed. If you're not sure where it is, our dispatcher can walk you through common locations for your home type while a crew is en route.
 
-If water is moving through your Kirkland home right now, don't wait to see how bad it gets. Mold colonization can begin within 24–48 hours of a moisture event, and materials that are salvageable today may not be tomorrow. Reach us at **(206) 883-0333** — our line is answered around the clock.
+If water is moving through your Kirkland home right now, don't wait to see how bad it gets. Mold colonization can begin within 24–48 hours of a moisture event, and materials that are salvageable today may not be tomorrow. Reach us at **(206) 883-0333**, our line is answered around the clock.

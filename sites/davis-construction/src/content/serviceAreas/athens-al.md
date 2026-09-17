@@ -19,35 +19,35 @@ state: "AL"
 primary: false
 rendered: true
 ---
-When a pipe bursts in a Westover Hills ranch house at 2 a.m. or smoke works its way into the walls of a Downtown Athens bungalow, Davis Construction Contractors sends a crew — not a call center. Since 2008, we've handled water extraction, fire and smoke cleanup, mold remediation, and full reconstruction for homeowners and property managers across Athens and Limestone County. If you're in ZIP code 35611 or 35613, you can reach us at (256) 771-0326, Monday through Friday, 8 a.m. to 5 p.m.
+When a pipe bursts in a Westover Hills ranch house at 2 a.m. or smoke works its way into the walls of a Downtown Athens bungalow, Davis Construction Contractors sends a crew, not a call center. Since 2008, we've handled water extraction, fire and smoke cleanup, mold remediation, and full reconstruction for homeowners and property managers across Athens and Limestone County. If you're in ZIP code 35611 or 35613, you can reach us at (256) 771-0326, Monday through Friday, 8 a.m. to 5 p.m.
 
 ## Restoration emergencies common in Athens
 
 Athens sits at the intersection of two factors that keep restoration contractors busy: aging housing stock and a climate that doesn't forgive slow responses. The 1950s–1970s brick ranch homes that fill established neighborhoods like Sanderfer Heights and Westover Hills were built before modern moisture barriers and vapor retarders were standard. Their crawl spaces hold humidity through Alabama's long, wet springs, and a single slow plumbing leak can saturate floor joists for weeks before anyone notices the soft spot underfoot.
 
-The East Limestone Road corridor and the Highway 72 commercial corridor tell a different story — newer construction, faster builds, and occasionally the kind of flashing or HVAC condensate issues that come with high-volume development. Swan Creek and the low-lying areas near it add localized flash-flood risk when Limestone County gets the heavy spring and summer storms that roll in off the Tennessee Valley. Older downtown properties near the Limestone County Courthouse often carry lead paint and asbestos-containing materials in original plaster and floor tile, which changes the remediation protocol and the permits required.
+The East Limestone Road corridor and the Highway 72 commercial corridor tell a different story, newer construction, faster builds, and occasionally the kind of flashing or HVAC condensate issues that come with high-volume development. Swan Creek and the low-lying areas near it add localized flash-flood risk when Limestone County gets the heavy spring and summer storms that roll in off the Tennessee Valley. Older downtown properties near the Limestone County Courthouse often carry lead paint and asbestos-containing materials in original plaster and floor tile, which changes the remediation protocol and the permits required.
 
 ## Services we provide in Athens
 
 ### Water damage restoration
 
-Water damage in Athens frequently starts in places that don't get looked at until the damage is already significant — under slab foundations in newer East Limestone Road builds, inside the block walls of older Downtown Athens homes, or in crawl spaces that collect groundwater after a Swan Creek overflow. We extract standing water, map moisture with thermal imaging, and set drying equipment calibrated to the actual conditions in your home, not a generic drying chart. We also work directly with your insurance adjuster and can document everything the carrier needs.
+Water damage in Athens frequently starts in places that don't get looked at until the damage is already significant, under slab foundations in newer East Limestone Road builds, inside the block walls of older Downtown Athens homes, or in crawl spaces that collect groundwater after a Swan Creek overflow. We extract standing water, map moisture with thermal imaging, and set drying equipment calibrated to the actual conditions in your home, not a generic drying chart. We also work directly with your insurance adjuster and can document everything the carrier needs.
 
 ### Fire and smoke damage restoration
 
-After a kitchen fire, the visible char is rarely the biggest problem. Smoke residue — the oily, protein-based kind that comes from cooking fires — penetrates drywall, HVAC ductwork, and cabinet interiors and produces an odor that resurfaces for months if it isn't chemically neutralized. In the older wood-framed homes near Athens State University and Downtown Athens, smoke travels farther through wall cavities than in newer builds. Our experienced technicians identify the smoke type, treat surfaces with the right chemistry, and clear ductwork before we sign off.
+After a kitchen fire, the visible char is rarely the biggest problem. Smoke residue, the oily, protein-based kind that comes from cooking fires, penetrates drywall, HVAC ductwork, and cabinet interiors and produces an odor that resurfaces for months if it isn't chemically neutralized. In the older wood-framed homes near Athens State University and Downtown Athens, smoke travels farther through wall cavities than in newer builds. Our experienced technicians identify the smoke type, treat surfaces with the right chemistry, and clear ductwork before we sign off.
 
 ### Mold remediation
 
-Mold can colonize wet drywall in as little as 48–72 hours in Alabama's humidity. Crawl-space mold is especially common in the brick ranch homes of Sanderfer Heights and Westover Hills, where ground moisture wicks up through unconditioned spaces year-round. We follow EPA remediation guidelines, contain the work area, remove affected materials, and treat structural members. We don't offer air-quality testing — that's an independent industrial hygienist's role — but we can refer you to qualified testers in the area.
+Mold can colonize wet drywall in as little as 48–72 hours in Alabama's humidity. Crawl-space mold is especially common in the brick ranch homes of Sanderfer Heights and Westover Hills, where ground moisture wicks up through unconditioned spaces year-round. We follow EPA remediation guidelines, contain the work area, remove affected materials, and treat structural members. We don't offer air-quality testing, that's an independent industrial hygienist's role, but we can refer you to qualified testers in the area.
 
 ### Reconstruction and build-back
 
-Once mitigation is complete, most homeowners need more than drywall patches. Davis Construction Contractors holds a general contractor's license, which means we handle the full rebuild — framing, insulation, drywall, flooring, cabinetry, painting — under one contract and one point of contact. For Athens properties with historic character near the courthouse square, we source materials that match original profiles when that matters to the homeowner or to local code.
+Once mitigation is complete, most homeowners need more than drywall patches. Davis Construction Contractors holds a general contractor's license, which means we handle the full rebuild, framing, insulation, drywall, flooring, cabinetry, painting, under one contract and one point of contact. For Athens properties with historic character near the courthouse square, we source materials that match original profiles when that matters to the homeowner or to local code.
 
 ## Response time and coverage
 
-Our headquarters in Madison is roughly 15 miles from central Athens via US-72. Under normal traffic, that puts a crew at a Downtown Athens address in 20–25 minutes and at properties along the East Limestone Road corridor in 30–35 minutes. We target a two-hour maximum from first call to technician on-site anywhere in the 35611 and 35613 ZIP codes — including Westover Hills and Sanderfer Heights. After-hours calls go to the same dispatch line: (256) 771-0326.
+Our headquarters in Madison is roughly 15 miles from central Athens via US-72. Under normal traffic, that puts a crew at a Downtown Athens address in 20–25 minutes and at properties along the East Limestone Road corridor in 30–35 minutes. We target a two-hour maximum from first call to technician on-site anywhere in the 35611 and 35613 ZIP codes, including Westover Hills and Sanderfer Heights. After-hours calls go to the same dispatch line: (256) 771-0326.
 
 ## Building stock, site conditions, and permits in Athens
 
@@ -57,4 +57,4 @@ This is limestone country. Soils sit over fractured carbonate rock, so surface w
 
 Structural repair or rebuild inside the city limits is permitted through the City of Athens; addresses past the city line fall to Limestone County. Alabama enforces a statewide residential code locally, and anything touching framing, roof structure, or electrical service generally triggers a permit and inspection.
 
-If you're dealing with water, fire, smoke, or mold damage anywhere in Athens, call Davis Construction Contractors at **(256) 771-0326**. We'll tell you honestly what you're dealing with, what it will take to fix it, and how your insurance coverage applies — before any work begins.
+If you're dealing with water, fire, smoke, or mold damage anywhere in Athens, call Davis Construction Contractors at **(256) 771-0326**. We'll tell you honestly what you're dealing with, what it will take to fix it, and how your insurance coverage applies, before any work begins.

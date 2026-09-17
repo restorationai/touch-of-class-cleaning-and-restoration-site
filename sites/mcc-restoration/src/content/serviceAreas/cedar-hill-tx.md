@@ -19,29 +19,29 @@ state: "TX"
 primary: false
 rendered: true
 ---
-When a pipe bursts under a slab in Lake Ridge or a weekend storm peels flashing off a roof near Cedar Hill historic downtown, MCC Restoration and Contracting Services handles the extraction, drying, structural repairs, and rebuild — start to finish. Operating out of Duncanville, we work across Cedar Hill's ZIP codes 75104 and 75106, coordinating directly with insurance carriers so property owners can focus on getting their homes and businesses back to normal.
+When a pipe bursts under a slab in Lake Ridge or a weekend storm peels flashing off a roof near Cedar Hill historic downtown, MCC Restoration and Contracting Services handles the extraction, drying, structural repairs, and rebuild, start to finish. Operating out of Duncanville, we work across Cedar Hill's ZIP codes 75104 and 75106, coordinating directly with insurance carriers so property owners can focus on getting their homes and businesses back to normal.
 
 ## Restoration emergencies common in Cedar Hill
 
-Cedar Hill sits atop the White Rock Escarpment, one of the highest points in North Texas, and that geography shapes the damage patterns we see here more than almost anywhere else in the Dallas metro. Hilltop exposure means roofs in the High Pointe and Bear Creek area neighborhoods absorb the full force of North Texas hail and straight-line wind — storms that lose energy before they reach lower-lying suburbs hit Cedar Hill at full strength. After a significant storm, granule loss, cracked decking, and wind-lifted shingles are routine findings, not edge cases.
+Cedar Hill sits atop the White Rock Escarpment, one of the highest points in North Texas, and that geography shapes the damage patterns we see here more than almost anywhere else in the Dallas metro. Hilltop exposure means roofs in the High Pointe and Bear Creek area neighborhoods absorb the full force of North Texas hail and straight-line wind, storms that lose energy before they reach lower-lying suburbs hit Cedar Hill at full strength. After a significant storm, granule loss, cracked decking, and wind-lifted shingles are routine findings, not edge cases.
 
-Water intrusion tells a different story on the slopes. Lake Ridge's custom homes — many built in the 2000s on graded hillside lots — sit on expansive clay soils that shift with every wet-dry cycle. That movement stresses foundation penetrations and the plumbing running through them, and when heavy rain saturates the escarpment, drainage that should sheet away from a foundation instead finds every crack. We've responded to finished basements and lower-level living spaces in Lake Ridge that had standing water within hours of a storm that barely registered a few miles east.
+Water intrusion tells a different story on the slopes. Lake Ridge's custom homes, many built in the 2000s on graded hillside lots, sit on expansive clay soils that shift with every wet-dry cycle. That movement stresses foundation penetrations and the plumbing running through them, and when heavy rain saturates the escarpment, drainage that should sheet away from a foundation instead finds every crack. We've responded to finished basements and lower-level living spaces in Lake Ridge that had standing water within hours of a storm that barely registered a few miles east.
 
-Cedar Hill historic downtown adds another layer. Older structures carry original cast-iron drain lines, galvanized supply pipes, and sometimes knob-and-tube wiring that complicates any remediation job. A water loss in a 1940s commercial building on the square isn't just a drying project — it's a careful assessment of what's behind the walls before anything gets opened up.
+Cedar Hill historic downtown adds another layer. Older structures carry original cast-iron drain lines, galvanized supply pipes, and sometimes knob-and-tube wiring that complicates any remediation job. A water loss in a 1940s commercial building on the square isn't just a drying project, it's a careful assessment of what's behind the walls before anything gets opened up.
 
 ## Services we provide in Cedar Hill
 
 ### Water damage restoration
 
-Water damage in Cedar Hill often originates at two extremes: sudden appliance failures in newer master-planned homes and slow slab leaks in older properties where escarpment clay has shifted the plumbing over decades. We extract standing water, map moisture with thermal imaging, and dry structural assemblies to IICRC S500 standards — including the dense, slow-drying wall cavities common in the area's brick veneer construction.
+Water damage in Cedar Hill often originates at two extremes: sudden appliance failures in newer master-planned homes and slow slab leaks in older properties where escarpment clay has shifted the plumbing over decades. We extract standing water, map moisture with thermal imaging, and dry structural assemblies to IICRC S500 standards, including the dense, slow-drying wall cavities common in the area's brick veneer construction.
 
 ### Fire and smoke damage restoration
 
-House fires in Cedar Hill's wooded corridors near Cedar Hill State Park and the Dogwood Canyon Audubon Center carry an added risk: smoke and embers can travel before suppression arrives. After the fire is out, smoke residue embeds in HVAC systems, attic insulation, and porous masonry. We scope the full affected area — not just the room of origin — clean or remove contaminated materials, and deodorize before any rebuild begins.
+House fires in Cedar Hill's wooded corridors near Cedar Hill State Park and the Dogwood Canyon Audubon Center carry an added risk: smoke and embers can travel before suppression arrives. After the fire is out, smoke residue embeds in HVAC systems, attic insulation, and porous masonry. We scope the full affected area, not just the room of origin, clean or remove contaminated materials, and deodorize before any rebuild begins.
 
 ### Mold remediation
 
-The humidity that rolls in off Joe Pool Lake, combined with the slow-drying wall assemblies common in Cedar Hill's hillside homes, creates conditions where mold can colonize within 48 to 72 hours of an undetected leak. We contain affected areas, remove compromised materials, and treat structural surfaces — then address the moisture source so the problem doesn't return behind new drywall.
+The humidity that rolls in off Joe Pool Lake, combined with the slow-drying wall assemblies common in Cedar Hill's hillside homes, creates conditions where mold can colonize within 48 to 72 hours of an undetected leak. We contain affected areas, remove compromised materials, and treat structural surfaces, then address the moisture source so the problem doesn't return behind new drywall.
 
 ### Storm and hail damage repair
 
@@ -53,11 +53,11 @@ Once mitigation is complete, the rebuild begins. From replacing water-damaged ha
 
 ## Coverage and how fast we can get there
 
-MCC Restoration and Contracting Services is headquartered in Duncanville, which sits directly adjacent to Cedar Hill along the US-67 corridor. The drive to most Cedar Hill neighborhoods — Lake Ridge, High Pointe, Bear Creek area — runs roughly 10 to 15 miles depending on the exact address, with no significant traffic barriers between the two cities. We schedule promptly and will give you a realistic arrival window when you call. For non-emergency scoping and estimates, we can typically reach any Cedar Hill address the same day or next business day.
+MCC Restoration and Contracting Services is headquartered in Duncanville, which sits directly adjacent to Cedar Hill along the US-67 corridor. The drive to most Cedar Hill neighborhoods, Lake Ridge, High Pointe, Bear Creek area, runs roughly 10 to 15 miles depending on the exact address, with no significant traffic barriers between the two cities. We schedule promptly and will give you a realistic arrival window when you call. For non-emergency scoping and estimates, we can typically reach any Cedar Hill address the same day or next business day.
 
 ## Building stock, site conditions, and permits in Cedar Hill
 
-Most of Cedar Hill's housing went up during the 1990s and 2000s boom: wood frame with masonry veneer over slab-on-grade, many of them post-tensioned slabs, which changes how a suspected under-slab leak gets located and opened. Homes from the late 1970s through the early 1990s can still have polybutylene supply lines, and nearly everything built since sits with the air handler and its condensate line in the attic — a failed pan or clogged drain there wets ceilings, insulation, and two floors of wall cavity before anyone notices.
+Most of Cedar Hill's housing went up during the 1990s and 2000s boom: wood frame with masonry veneer over slab-on-grade, many of them post-tensioned slabs, which changes how a suspected under-slab leak gets located and opened. Homes from the late 1970s through the early 1990s can still have polybutylene supply lines, and nearly everything built since sits with the air handler and its condensate line in the attic, a failed pan or clogged drain there wets ceilings, insulation, and two floors of wall cavity before anyone notices.
 
 Structural repair, reroofing, and plumbing or electrical replacement are permitted through the City of Cedar Hill's building inspections staff; cosmetic drywall and paint generally are not. In the master-planned sections, an HOA architectural review often runs alongside the city's process for anything visible from the street.
 

@@ -19,9 +19,9 @@ published_at: "2026-06-15"
 services: ["water-damage-restoration", "appliance-leak-cleanup"]
 rendered: true
 youtube_id: "zUwQumxt1-I"
-video_transcript: "A burst pipe can flood your home in under an hour. Here is exactly what to do — step by step — before the damage gets worse. First: find your main water shutoff and turn it fully clockwise. Do not stop to move furniture. Stopping the water is the only priority right now. Next, cut power to any room with standing water. Go to your breaker box and switch off those circuits. Water near live electricity is a life-safety risk. Open a cold-water faucet on your lowest floor. This relieves pressure in the lines and slows any remaining drip from the damaged section. Before you touch anything, walk through with your phone and record every wet surface, stain, and puddle. Your insurance adjuster will need this footage. Remove standing water with towels or a wet-dry shop vac — never a regular vacuum. Every gallon you pull up now means less soaking into your subfloor. Open windows and run fans to increase airflow. This slows the damage clock while you wait for professional drying equipment to arrive. Do not assume it is dry because the surface feels dry. Moisture hides in subfloors and wall cavities and can grow mold within 24 to 48 hours. If water has been sitting over an hour or reached your walls, call a professional. Call Home Pride Restoration and Cleaning LLC at (801) 995-2437 for a free estimate."
+video_transcript: "A burst pipe can flood your home in under an hour. Here is exactly what to do, step by step, before the damage gets worse. First: find your main water shutoff and turn it fully clockwise. Do not stop to move furniture. Stopping the water is the only priority right now. Next, cut power to any room with standing water. Go to your breaker box and switch off those circuits. Water near live electricity is a life-safety risk. Open a cold-water faucet on your lowest floor. This relieves pressure in the lines and slows any remaining drip from the damaged section. Before you touch anything, walk through with your phone and record every wet surface, stain, and puddle. Your insurance adjuster will need this footage. Remove standing water with towels or a wet-dry shop vac, never a regular vacuum. Every gallon you pull up now means less soaking into your subfloor. Open windows and run fans to increase airflow. This slows the damage clock while you wait for professional drying equipment to arrive. Do not assume it is dry because the surface feels dry. Moisture hides in subfloors and wall cavities and can grow mold within 24 to 48 hours. If water has been sitting over an hour or reached your walls, call a professional. Call Home Pride Restoration and Cleaning LLC at (801) 995-2437 for a free estimate."
 ---
-A burst pipe can dump hundreds of gallons into your home in under an hour. The moment you suspect one, go straight to your main water shutoff valve and turn it off — clockwise until it stops. Don't wait to confirm the source. Don't move furniture first. Shutting off the water is step one, and everything else on this checklist follows from there. Once the flow stops, you have time to think. Here's exactly what to do next, in order.
+A burst pipe can dump hundreds of gallons into your home in under an hour. The moment you suspect one, go straight to your main water shutoff valve and turn it off, clockwise until it stops. Don't wait to confirm the source. Don't move furniture first. Shutting off the water is step one, and everything else on this checklist follows from there. Once the flow stops, you have time to think. Here's exactly what to do next, in order.
 
 ---
 
@@ -33,7 +33,7 @@ Work through these in sequence. Skipping steps or doing them out of order is how
 In most Saratoga Springs homes, the main shutoff is either in the utility room near the water heater, in the garage, or outside near the foundation on the street-facing side. Turn it fully clockwise. If it's a gate valve (an older wheel-style handle), it may take several full rotations. Ball valves (lever-style) just need a quarter turn.
 
 **2. Cut power to affected areas.**
-If water is near an outlet, light fixture, or your electrical panel, go to your breaker box and shut off the circuits for those rooms. Water and live electricity together are a life-safety issue — don't mop up standing water in a room that still has power.
+If water is near an outlet, light fixture, or your electrical panel, go to your breaker box and shut off the circuits for those rooms. Water and live electricity together are a life-safety issue, don't mop up standing water in a room that still has power.
 
 **3. Open a faucet to relieve pressure.**
 After shutting off the supply, open a cold-water faucet on the lowest floor of the house. This drains residual pressure from the lines and slows any remaining drip from the burst section.
@@ -42,13 +42,13 @@ After shutting off the supply, open a cold-water faucet on the lowest floor of t
 Walk through with your phone and record video of every wet surface, every stain, every puddle. Open cabinets under sinks. Pull back rugs. Your insurance adjuster will ask for this, and photos taken after cleanup are worth almost nothing compared to photos taken before.
 
 **5. Remove standing water you can safely reach.**
-If the water is on a hard floor and the power is off, use towels, a wet/dry shop vac, or a mop to pull up as much surface water as possible. Every gallon you remove now is one less gallon soaking into your subfloor. Do not use a standard household vacuum — it's not rated for water and you risk electrocution.
+If the water is on a hard floor and the power is off, use towels, a wet/dry shop vac, or a mop to pull up as much surface water as possible. Every gallon you remove now is one less gallon soaking into your subfloor. Do not use a standard household vacuum, it's not rated for water and you risk electrocution.
 
 **6. Increase airflow.**
 Open windows if the outdoor humidity is lower than indoor (in Utah's dry climate, this is usually a safe bet except during summer monsoon weeks). Run ceiling fans on low. If you have box fans, point them across wet surfaces. This won't replace professional drying equipment, but it slows the clock.
 
 **7. Call your insurance company.**
-Most homeowner policies cover sudden and accidental water damage from burst pipes. Call your insurer's claims line — not your agent's office — to open a claim. They'll assign an adjuster and may ask you to work with a preferred vendor, but you generally have the right to choose your own restoration contractor.
+Most homeowner policies cover sudden and accidental water damage from burst pipes. Call your insurer's claims line, not your agent's office, to open a claim. They'll assign an adjuster and may ask you to work with a preferred vendor, but you generally have the right to choose your own restoration contractor.
 
 ---
 
@@ -57,7 +57,7 @@ Most homeowner policies cover sudden and accidental water damage from burst pipe
 Some instincts make the situation worse. Avoid these:
 
 - **Don't use a hair dryer or space heater on wet drywall.** Forcing heat into saturated material traps moisture inside the wall cavity and accelerates mold growth behind the surface you can't see.
-- **Don't assume it's dry because the surface feels dry.** Hardwood floors can feel dry on top while the subfloor beneath holds enough moisture to grow mold within 24–48 hours. In Utah's low ambient humidity, surface evaporation is fast — but that doesn't mean the structure is dry.
+- **Don't assume it's dry because the surface feels dry.** Hardwood floors can feel dry on top while the subfloor beneath holds enough moisture to grow mold within 24–48 hours. In Utah's low ambient humidity, surface evaporation is fast, but that doesn't mean the structure is dry.
 - **Don't pull up flooring or open walls without documenting first.** Once you start demolition, the evidence of how far the water traveled is gone. That documentation matters for your insurance claim and for the restoration crew's moisture mapping.
 - **Don't ignore a slow drip or stain near the original site.** A pipe that burst once under pressure may be weakened along a longer run. Have the plumbing inspected before you restore the water supply.
 - **Don't skip calling a professional just because the visible water is gone.** The visible water is rarely the whole story.
@@ -68,10 +68,10 @@ Some instincts make the situation worse. Avoid these:
 
 Sometimes you hear water running but can't see where it's coming from. Here's how to narrow it down:
 
-- **Ceiling stain or bubbling paint:** The leak is above that spot — either a pipe in the floor above or a pipe running through the ceiling joist cavity. The stain may be several feet from the actual break because water travels along framing before it drops.
-- **Wet drywall at the base of a wall:** Look for a pipe chase — a vertical space where supply lines run between floors. Press the drywall gently; if it flexes or feels soft, moisture has been there long enough to compromise the board.
-- **Water pooling near an appliance:** Dishwashers, refrigerators with ice makers, and washing machines all have supply lines that can fail. If the burst is near one of these, the appliance line itself may be the culprit rather than a structural pipe — a scenario that falls under [appliance leak cleanup](/appliance-leak-cleanup) rather than a main plumbing failure, though the water damage response is the same.
-- **No visible water anywhere but your meter is spinning:** Shut off every fixture in the house and watch the meter dial for 10 minutes. If it moves, you have an active leak somewhere — possibly under the slab.
+- **Ceiling stain or bubbling paint:** The leak is above that spot, either a pipe in the floor above or a pipe running through the ceiling joist cavity. The stain may be several feet from the actual break because water travels along framing before it drops.
+- **Wet drywall at the base of a wall:** Look for a pipe chase, a vertical space where supply lines run between floors. Press the drywall gently; if it flexes or feels soft, moisture has been there long enough to compromise the board.
+- **Water pooling near an appliance:** Dishwashers, refrigerators with ice makers, and washing machines all have supply lines that can fail. If the burst is near one of these, the appliance line itself may be the culprit rather than a structural pipe, a scenario that falls under [appliance leak cleanup](/appliance-leak-cleanup) rather than a main plumbing failure, though the water damage response is the same.
+- **No visible water anywhere but your meter is spinning:** Shut off every fixture in the house and watch the meter dial for 10 minutes. If it moves, you have an active leak somewhere, possibly under the slab.
 
 ---
 
@@ -88,7 +88,7 @@ Call a restoration company if any of the following are true:
 - You can smell anything musty within 24 hours of the event
 - Your insurance company is involved and you need documentation for the claim
 
-Professional water damage restoration uses calibrated moisture meters and thermal imaging to find water that's migrated into structural cavities, then places industrial air movers and dehumidifiers sized to the actual volume of wet material — not just the room. Consumer-grade fans and dehumidifiers from a hardware store can help at the margins, but they're not a substitute for equipment that can move 300+ CFM and pull gallons of water per day from the air.
+Professional water damage restoration uses calibrated moisture meters and thermal imaging to find water that's migrated into structural cavities, then places industrial air movers and dehumidifiers sized to the actual volume of wet material, not just the room. Consumer-grade fans and dehumidifiers from a hardware store can help at the margins, but they're not a substitute for equipment that can move 300+ CFM and pull gallons of water per day from the air.
 
 ---
 
@@ -97,14 +97,14 @@ Professional water damage restoration uses calibrated moisture meters and therma
 Once the immediate crisis is handled, here's a realistic picture of what comes next:
 
 - **Days 1–3:** Professional drying equipment runs continuously. Moisture readings are taken daily. Most residential losses with prompt response dry within 3–5 days.
-- **Days 3–5:** If drywall or flooring needs to come out, demo typically happens after the structure is confirmed dry — or in tandem if the material is too saturated to save.
+- **Days 3–5:** If drywall or flooring needs to come out, demo typically happens after the structure is confirmed dry, or in tandem if the material is too saturated to save.
 - **Week 2 onward:** Reconstruction begins once the insurance scope is approved. This includes drywall, paint, flooring, and any cabinetry or trim affected.
 - **Ongoing:** If the burst was caused by a frozen pipe, a plumber should assess insulation and heat tape in that section of the home before the next winter.
 
 ---
 
-If you're in the middle of this right now and the damage is beyond what a shop vac and fans can handle, Home Pride Restoration and Cleaning serves Saratoga Springs and the surrounding Utah County area with 24-hour response. Call **(801) 995-2437** — a technician can be on-site to assess the damage, start moisture mapping, and walk you through the insurance process. The sooner drying equipment is running, the smaller the repair bill tends to be.
+If you're in the middle of this right now and the damage is beyond what a shop vac and fans can handle, Home Pride Restoration and Cleaning serves Saratoga Springs and the surrounding Utah County area with 24-hour response. Call **(801) 995-2437**, a technician can be on-site to assess the damage, start moisture mapping, and walk you through the insurance process. The sooner drying equipment is running, the smaller the repair bill tends to be.
 
 ## Video Transcript
 
-A burst pipe can flood your home in under an hour. Here is exactly what to do — step by step — before the damage gets worse. First: find your main water shutoff and turn it fully clockwise. Do not stop to move furniture. Stopping the water is the only priority right now. Next, cut power to any room with standing water. Go to your breaker box and switch off those circuits. Water near live electricity is a life-safety risk. Open a cold-water faucet on your lowest floor. This relieves pressure in the lines and slows any remaining drip from the damaged section. Before you touch anything, walk through with your phone and record every wet surface, stain, and puddle. Your insurance adjuster will need this footage. Remove standing water with towels or a wet-dry shop vac — never a regular vacuum. Every gallon you pull up now means less soaking into your subfloor. Open windows and run fans to increase airflow. This slows the damage clock while you wait for professional drying equipment to arrive. Do not assume it is dry because the surface feels dry. Moisture hides in subfloors and wall cavities and can grow mold within 24 to 48 hours. If water has been sitting over an hour or reached your walls, call a professional. Call Home Pride Restoration and Cleaning LLC at (801) 995-2437 for a free estimate.
+A burst pipe can flood your home in under an hour. Here is exactly what to do, step by step, before the damage gets worse. First: find your main water shutoff and turn it fully clockwise. Do not stop to move furniture. Stopping the water is the only priority right now. Next, cut power to any room with standing water. Go to your breaker box and switch off those circuits. Water near live electricity is a life-safety risk. Open a cold-water faucet on your lowest floor. This relieves pressure in the lines and slows any remaining drip from the damaged section. Before you touch anything, walk through with your phone and record every wet surface, stain, and puddle. Your insurance adjuster will need this footage. Remove standing water with towels or a wet-dry shop vac, never a regular vacuum. Every gallon you pull up now means less soaking into your subfloor. Open windows and run fans to increase airflow. This slows the damage clock while you wait for professional drying equipment to arrive. Do not assume it is dry because the surface feels dry. Moisture hides in subfloors and wall cavities and can grow mold within 24 to 48 hours. If water has been sitting over an hour or reached your walls, call a professional. Call Home Pride Restoration and Cleaning LLC at (801) 995-2437 for a free estimate.

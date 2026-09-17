@@ -20,29 +20,29 @@ state: "CA"
 service_display: "Carpet Cleaning"
 rendered: true
 ---
-Chino sits in the western Inland Empire where the Santa Ana winds can drop indoor humidity to single digits for days at a stretch — and then the region's periodic heavy rains push fine clay-rich soil from the surrounding hills straight onto entryways and hallways. That combination means carpets in Chino homes cycle between bone-dry static buildup that locks dust deep into pile and sudden tracked-in mud that bonds to fibers before most homeowners have a chance to blot it. Dry County Restoration's professional carpet cleaning is calibrated for exactly that pattern.
+Chino sits in the western Inland Empire where the Santa Ana winds can drop indoor humidity to single digits for days at a stretch, and then the region's periodic heavy rains push fine clay-rich soil from the surrounding hills straight onto entryways and hallways. That combination means carpets in Chino homes cycle between bone-dry static buildup that locks dust deep into pile and sudden tracked-in mud that bonds to fibers before most homeowners have a chance to blot it. Dry County Restoration's professional carpet cleaning is calibrated for exactly that pattern.
 
 ## Why Chino Carpets Take a Harder Hit
 
-The soil profile around Chino is part of the story. Much of the area sits on former dairy and agricultural land with a fine, silty clay composition. When that soil dries out and turns to dust, it becomes airborne and settles into carpet fibers throughout the house — not just near doors. When it's wet, it behaves like a paste that standard vacuuming can't fully lift. Combine that with the Santa Ana wind events that push particulate matter indoors through window gaps, and even a relatively new carpet can look and feel years older than it is.
+The soil profile around Chino is part of the story. Much of the area sits on former dairy and agricultural land with a fine, silty clay composition. When that soil dries out and turns to dust, it becomes airborne and settles into carpet fibers throughout the house, not just near doors. When it's wet, it behaves like a paste that standard vacuuming can't fully lift. Combine that with the Santa Ana wind events that push particulate matter indoors through window gaps, and even a relatively new carpet can look and feel years older than it is.
 
-Chino's housing stock adds another layer. The city has seen significant residential development across multiple eras — from older ranch-style homes built in the 1970s and 1980s with thicker, denser carpet pads to newer planned communities with tighter construction and lower-pile commercial-grade carpet over concrete slabs. Each substrate holds moisture and soil differently, which affects how we set dwell times, water pressure, and extraction speed.
+Chino's housing stock adds another layer. The city has seen significant residential development across multiple eras, from older ranch-style homes built in the 1970s and 1980s with thicker, denser carpet pads to newer planned communities with tighter construction and lower-pile commercial-grade carpet over concrete slabs. Each substrate holds moisture and soil differently, which affects how we set dwell times, water pressure, and extraction speed.
 
 ## Our Carpet Cleaning Process in Chino
 
-Every job starts with a dry inspection — we look at fiber type, pile density, and any existing staining before a drop of solution touches the carpet. This matters in Chino's climate because aggressive pre-treatment on already-dry, brittle fibers can cause fraying, especially in older wool or wool-blend carpets common in homes built before the 1990s.
+Every job starts with a dry inspection, we look at fiber type, pile density, and any existing staining before a drop of solution touches the carpet. This matters in Chino's climate because aggressive pre-treatment on already-dry, brittle fibers can cause fraying, especially in older wool or wool-blend carpets common in homes built before the 1990s.
 
 From there, the process moves through:
 
-- **Pre-treatment and agitation** — a pH-balanced solution worked into the pile to break down the clay-based soil and organic matter common in this area
-- **Hot water extraction** — truck-mounted equipment generating consistent heat and suction, pulling suspended soil and cleaning solution out of the fiber and pad
-- **Targeted stain treatment** — pet stains, cooking oils, and red clay tracked in from unpaved lots each require a different enzyme or oxidizing agent; we identify the stain type before choosing the chemistry
-- **Carpet sanitization** — a final pass with an EPA-registered sanitizing rinse, particularly useful in homes with pets or allergy concerns
-- **Controlled drying** — in Chino's lower-humidity months, carpets can dry quickly on their own; during wetter periods or in slab-on-grade homes where airflow is limited, we use air movers to keep drying time predictable
+- **Pre-treatment and agitation**, a pH-balanced solution worked into the pile to break down the clay-based soil and organic matter common in this area
+- **Hot water extraction**, truck-mounted equipment generating consistent heat and suction, pulling suspended soil and cleaning solution out of the fiber and pad
+- **Targeted stain treatment**, pet stains, cooking oils, and red clay tracked in from unpaved lots each require a different enzyme or oxidizing agent; we identify the stain type before choosing the chemistry
+- **Carpet sanitization**, a final pass with an EPA-registered sanitizing rinse, particularly useful in homes with pets or allergy concerns
+- **Controlled drying**, in Chino's lower-humidity months, carpets can dry quickly on their own; during wetter periods or in slab-on-grade homes where airflow is limited, we use air movers to keep drying time predictable
 
 ## Reaching Chino from Corona
 
-Dry County Restoration is based in Corona, and Chino is a straightforward run east on the 91 to the 71 north — typically a short drive under normal traffic conditions. Because we operate 24/7, scheduling isn't limited to business hours, which matters when a spill or water-related carpet emergency happens on a weekend or late evening. We serve the full city, including areas along the 60 corridor and neighborhoods closer to Chino Hills State Park where homes tend to have more foot traffic from outdoor recreation.
+Dry County Restoration is based in Corona, and Chino is a straightforward run east on the 91 to the 71 north, typically a short drive under normal traffic conditions. Because we operate 24/7, scheduling isn't limited to business hours, which matters when a spill or water-related carpet emergency happens on a weekend or late evening. We serve the full city, including areas along the 60 corridor and neighborhoods closer to Chino Hills State Park where homes tend to have more foot traffic from outdoor recreation.
 
 ## Commercial Carpet Cleaning in Chino
 
@@ -50,6 +50,6 @@ Chino has a substantial commercial and industrial base, and office and retail ca
 
 ## Local Note
 
-Homes built on the former dairy land in and around Chino sometimes have a persistent odor challenge that goes beyond standard pet or food stains. Decades of agricultural use can leave trace organic compounds in the soil beneath slab foundations, and in homes with older or damaged vapor barriers, those compounds can migrate upward and embed in carpet padding. Standard hot water extraction addresses the carpet fibers, but if an odor returns within a few weeks of cleaning, the source is likely the pad or sub-floor — not the carpet itself. We flag this during inspection so homeowners aren't surprised by a second service call.
+Homes built on the former dairy land in and around Chino sometimes have a persistent odor challenge that goes beyond standard pet or food stains. Decades of agricultural use can leave trace organic compounds in the soil beneath slab foundations, and in homes with older or damaged vapor barriers, those compounds can migrate upward and embed in carpet padding. Standard hot water extraction addresses the carpet fibers, but if an odor returns within a few weeks of cleaning, the source is likely the pad or sub-floor, not the carpet itself. We flag this during inspection so homeowners aren't surprised by a second service call.
 
-If your carpets have been holding onto smells or staining that routine cleaning hasn't resolved, call Dry County Restoration at **(951) 667-9910**. We'll assess the fiber, the pad, and the conditions specific to your Chino home before we start — so the work we do actually lasts.
+If your carpets have been holding onto smells or staining that routine cleaning hasn't resolved, call Dry County Restoration at **(951) 667-9910**. We'll assess the fiber, the pad, and the conditions specific to your Chino home before we start, so the work we do actually lasts.

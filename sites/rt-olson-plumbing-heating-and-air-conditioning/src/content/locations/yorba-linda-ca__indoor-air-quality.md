@@ -20,41 +20,41 @@ state: "CA"
 service_display: "Indoor Air Quality Services"
 rendered: true
 ---
-Yorba Linda's inland location puts it squarely in Southern California's Santa Ana wind corridor, and when those offshore winds kick up in fall and winter, they push fine particulate matter, pollen, and dust deep into homes across the city. Add the region's characteristically low humidity during dry season and the sealed, well-insulated construction common in Yorba Linda's newer tract developments, and the air inside your home can end up measurably worse than the air outside. RT Olson Plumbing, Heating and Air Conditioning works with Yorba Linda homeowners to identify what's actually circulating through their ductwork — and to fix it with equipment that fits their home and their HVAC system.
+Yorba Linda's inland location puts it squarely in Southern California's Santa Ana wind corridor, and when those offshore winds kick up in fall and winter, they push fine particulate matter, pollen, and dust deep into homes across the city. Add the region's characteristically low humidity during dry season and the sealed, well-insulated construction common in Yorba Linda's newer tract developments, and the air inside your home can end up measurably worse than the air outside. RT Olson Plumbing, Heating and Air Conditioning works with Yorba Linda homeowners to identify what's actually circulating through their ductwork, and to fix it with equipment that fits their home and their HVAC system.
 
 ## Why Yorba Linda Properties See Air Quality Issues
 
-Yorba Linda sits at the eastern edge of the LA Basin, where the hills funnel wind and trap pollutants on still days. During Santa Ana conditions, airborne particulates spike dramatically — and those particles don't stay outside. They infiltrate through gaps around windows, doors, and attic bypasses, then get recirculated by your HVAC system every time it cycles on.
+Yorba Linda sits at the eastern edge of the LA Basin, where the hills funnel wind and trap pollutants on still days. During Santa Ana conditions, airborne particulates spike dramatically, and those particles don't stay outside. They infiltrate through gaps around windows, doors, and attic bypasses, then get recirculated by your HVAC system every time it cycles on.
 
-The city's housing stock adds another layer of complexity. Yorba Linda developed heavily through the 1970s, 1980s, and into the 2000s, meaning you'll find a wide range of duct system ages and conditions across the city. Older flex duct installations can accumulate years of dust, dander, and mold spores in ways that a standard filter change won't address. Newer, tighter construction — common in the planned communities that expanded along the city's hillside corridors — actually traps pollutants more effectively because there's less natural air exchange. The result is that both older and newer homes here have real, measurable indoor air quality problems, just for different reasons.
+The city's housing stock adds another layer of complexity. Yorba Linda developed heavily through the 1970s, 1980s, and into the 2000s, meaning you'll find a wide range of duct system ages and conditions across the city. Older flex duct installations can accumulate years of dust, dander, and mold spores in ways that a standard filter change won't address. Newer, tighter construction, common in the planned communities that expanded along the city's hillside corridors, actually traps pollutants more effectively because there's less natural air exchange. The result is that both older and newer homes here have real, measurable indoor air quality problems, just for different reasons.
 
 Yorba Linda also sits in an area with elevated ozone days during summer months, which matters when you're choosing filtration and purification technology. A system sized and specified for this climate performs very differently than a one-size-fits-all product.
 
 ## Our Indoor Air Quality Services Process in Yorba Linda
 
-Every engagement starts with an honest assessment of what's actually happening in your home — not a sales pitch for the most expensive equipment on the shelf. We evaluate your existing HVAC system, duct condition, current filtration level, and the specific air quality concerns you're experiencing (allergies, dust accumulation, musty odors, dry air, or a combination).
+Every engagement starts with an honest assessment of what's actually happening in your home, not a sales pitch for the most expensive equipment on the shelf. We evaluate your existing HVAC system, duct condition, current filtration level, and the specific air quality concerns you're experiencing (allergies, dust accumulation, musty odors, dry air, or a combination).
 
 From there, we match solutions to your system and your home:
 
-- **HVAC filtration upgrades** — moving from a standard 1-inch filter to a properly fitted high-MERV media filter or electronic air cleaner that your system can actually handle without restricting airflow
-- **Whole house air purifiers** — including UV air purifiers installed directly in your air handler to neutralize biological contaminants like mold spores and bacteria before they recirculate
-- **Whole home humidifier installation** — particularly relevant in Yorba Linda's dry-season months when indoor relative humidity can drop low enough to cause respiratory irritation, static buildup, and wood shrinkage in cabinetry and flooring
-- **Indoor air quality testing** — baseline measurements for particulates, VOCs, carbon dioxide, and humidity so you know what you're dealing with before spending money on equipment
+- **HVAC filtration upgrades**, moving from a standard 1-inch filter to a properly fitted high-MERV media filter or electronic air cleaner that your system can actually handle without restricting airflow
+- **Whole house air purifiers**, including UV air purifiers installed directly in your air handler to neutralize biological contaminants like mold spores and bacteria before they recirculate
+- **Whole home humidifier installation**, particularly relevant in Yorba Linda's dry-season months when indoor relative humidity can drop low enough to cause respiratory irritation, static buildup, and wood shrinkage in cabinetry and flooring
+- **Indoor air quality testing**, baseline measurements for particulates, VOCs, carbon dioxide, and humidity so you know what you're dealing with before spending money on equipment
 
 Installation is coordinated around your existing HVAC equipment. We don't recommend products that require your system to work harder than it was designed to.
 
 ## Reaching Yorba Linda from Corona
 
-RT Olson's team is based in Corona and reaches Yorba Linda regularly via the 91 Freeway to Imperial Highway, or through La Palma Avenue depending on traffic and the specific part of the city. Yorba Linda is a spread-out city — the eastern hillside areas feel distinctly different from the flatlands near the Placentia border — and we factor travel routing into scheduling so we're not adding unnecessary wait time to your appointment. Because we operate 24/7, scheduling works around your availability, not just business hours.
+RT Olson's team is based in Corona and reaches Yorba Linda regularly via the 91 Freeway to Imperial Highway, or through La Palma Avenue depending on traffic and the specific part of the city. Yorba Linda is a spread-out city, the eastern hillside areas feel distinctly different from the flatlands near the Placentia border, and we factor travel routing into scheduling so we're not adding unnecessary wait time to your appointment. Because we operate 24/7, scheduling works around your availability, not just business hours.
 
 ## Equipment & Methods We Use for Air Quality
 
-The products we install are selected for compatibility with residential HVAC systems common in this region — not just whatever ships fastest. UV air purifiers for HVAC applications are positioned at the coil or in the supply plenum depending on the system configuration. Whole home humidifiers are typically bypass or fan-powered units tied into the supply duct and connected to your home's water supply, with a humidistat that modulates output based on actual indoor conditions.
+The products we install are selected for compatibility with residential HVAC systems common in this region, not just whatever ships fastest. UV air purifiers for HVAC applications are positioned at the coil or in the supply plenum depending on the system configuration. Whole home humidifiers are typically bypass or fan-powered units tied into the supply duct and connected to your home's water supply, with a humidistat that modulates output based on actual indoor conditions.
 
-For filtration upgrades, we assess static pressure before and after installation to confirm your blower motor isn't being overworked by a filter that's too restrictive for the system. This step gets skipped by a lot of installers — it matters here because Yorba Linda's climate means your system runs hard for a significant portion of the year.
+For filtration upgrades, we assess static pressure before and after installation to confirm your blower motor isn't being overworked by a filter that's too restrictive for the system. This step gets skipped by a lot of installers, it matters here because Yorba Linda's climate means your system runs hard for a significant portion of the year.
 
 ## Local Note
 
-Yorba Linda's hillside neighborhoods tend to have homes with multi-zone HVAC systems — a setup that's great for comfort but creates uneven air quality conditions from zone to zone if filtration isn't addressed at each air handler. Homes with two or more air handlers need purification and filtration solutions at each unit, not just the main system. It's a detail that comes up frequently in this city and one worth asking about before any equipment is specified.
+Yorba Linda's hillside neighborhoods tend to have homes with multi-zone HVAC systems, a setup that's great for comfort but creates uneven air quality conditions from zone to zone if filtration isn't addressed at each air handler. Homes with two or more air handlers need purification and filtration solutions at each unit, not just the main system. It's a detail that comes up frequently in this city and one worth asking about before any equipment is specified.
 
-If your home's air feels stale, dusty, or dry — or if you're noticing more allergy symptoms indoors than out — call RT Olson at (951) 344-5596. We serve Yorba Linda homeowners with straightforward assessments and equipment that's matched to how homes in this part of Orange County actually perform.
+If your home's air feels stale, dusty, or dry, or if you're noticing more allergy symptoms indoors than out, call RT Olson at (951) 344-5596. We serve Yorba Linda homeowners with straightforward assessments and equipment that's matched to how homes in this part of Orange County actually perform.

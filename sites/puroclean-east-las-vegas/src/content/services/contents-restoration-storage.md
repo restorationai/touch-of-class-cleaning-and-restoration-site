@@ -17,33 +17,33 @@ service_slug: "contents-restoration-storage"
 service_display: "Contents Restoration & Storage"
 rendered: true
 ---
-After a flood, fire, or smoke event, the structure gets most of the attention — but the belongings inside are often where the real loss is felt. Furniture soaked with Category 2 water, clothing that has absorbed smoke odor down to the fiber, electronics coated in fine soot particulate: these items can't wait for the building to dry out first. Contents restoration is the discipline of inventorying, removing, cleaning, deodorizing, and storing personal property so it survives the restoration process — and so your insurance claim reflects every recoverable item accurately.
+After a flood, fire, or smoke event, the structure gets most of the attention, but the belongings inside are often where the real loss is felt. Furniture soaked with Category 2 water, clothing that has absorbed smoke odor down to the fiber, electronics coated in fine soot particulate: these items can't wait for the building to dry out first. Contents restoration is the discipline of inventorying, removing, cleaning, deodorizing, and storing personal property so it survives the restoration process, and so your insurance claim reflects every recoverable item accurately.
 
 ## What Contents Restoration & Storage actually involves
 
-Contents work begins before the first dehumidifier runs. A trained technician moves through the affected space with a systematic room-by-room inventory, photographing and logging each item — furniture, electronics, clothing, documents, artwork, collectibles — and noting its pre-loss condition. Items that can be restored on-site stay. Items that need deeper cleaning, deodorization, or climate-controlled storage are packed out in labeled boxes and moved to a secure facility.
+Contents work begins before the first dehumidifier runs. A trained technician moves through the affected space with a systematic room-by-room inventory, photographing and logging each item, furniture, electronics, clothing, documents, artwork, collectibles, and noting its pre-loss condition. Items that can be restored on-site stay. Items that need deeper cleaning, deodorization, or climate-controlled storage are packed out in labeled boxes and moved to a secure facility.
 
-At the cleaning stage, the method depends on the item and the type of loss. Smoke-damaged hard goods typically require ultrasonic cleaning — a tank of water and specialized solution agitated at high frequency strips soot from intricate surfaces, including electronics components and decorative objects, without abrasion. Soft contents (upholstered furniture, textiles, area rugs) go through ozone or hydroxyl treatment to neutralize odor molecules rather than masking them. Documents and photographs with water damage may be freeze-dried to halt further deterioration before restoration begins.
+At the cleaning stage, the method depends on the item and the type of loss. Smoke-damaged hard goods typically require ultrasonic cleaning, a tank of water and specialized solution agitated at high frequency strips soot from intricate surfaces, including electronics components and decorative objects, without abrasion. Soft contents (upholstered furniture, textiles, area rugs) go through ozone or hydroxyl treatment to neutralize odor molecules rather than masking them. Documents and photographs with water damage may be freeze-dried to halt further deterioration before restoration begins.
 
 Storage is climate-controlled and secured, and every item remains traceable to its inventory log. When the structure is cleared and rebuilt, contents are returned, placed, and reconciled against the original inventory.
 
 ## Our process
 
-1. **Room-by-room inventory and condition assessment.** Every item is photographed, logged, and assigned a condition code before anything is moved. This inventory becomes the backbone of your insurance claim — it documents what was present, what was affected, and what was salvageable versus a total loss.
+1. **Room-by-room inventory and condition assessment.** Every item is photographed, logged, and assigned a condition code before anything is moved. This inventory becomes the backbone of your insurance claim, it documents what was present, what was affected, and what was salvageable versus a total loss.
 
 2. **Pack-out and secure transport.** Affected contents are wrapped, boxed, and labeled by room and category. Fragile or high-value items are packed separately with additional protection. Chain of custody is maintained from the moment an item leaves your home to the moment it returns.
 
-3. **Cleaning matched to loss type and material.** Hard goods go through ultrasonic or hand-cleaning depending on sensitivity. Soft contents are laundered or treated with hydroxyl or ozone technology. Electronics are assessed by a qualified technician before any cleaning attempt — not every smoke-exposed device is restorable, and documenting that determination matters for your claim.
+3. **Cleaning matched to loss type and material.** Hard goods go through ultrasonic or hand-cleaning depending on sensitivity. Soft contents are laundered or treated with hydroxyl or ozone technology. Electronics are assessed by a qualified technician before any cleaning attempt, not every smoke-exposed device is restorable, and documenting that determination matters for your claim.
 
-4. **Deodorization at the source.** Odor in contents is a molecular problem, not a surface problem. Ozone chambers and hydroxyl generators work on the chemical compounds — aldehydes, phenols, and other combustion or microbial byproducts — rather than covering them. Items that still carry odor after treatment are documented as non-restorable.
+4. **Deodorization at the source.** Odor in contents is a molecular problem, not a surface problem. Ozone chambers and hydroxyl generators work on the chemical compounds, aldehydes, phenols, and other combustion or microbial byproducts, rather than covering them. Items that still carry odor after treatment are documented as non-restorable.
 
-5. **Return, placement, and final inventory reconciliation.** When the structure is ready, contents are returned and placed. The final inventory is reconciled against the pack-out log, and any discrepancies — items damaged during the loss that weren't initially flagged, or items that didn't survive the restoration process — are documented for the adjuster.
+5. **Return, placement, and final inventory reconciliation.** When the structure is ready, contents are returned and placed. The final inventory is reconciled against the pack-out log, and any discrepancies, items damaged during the loss that weren't initially flagged, or items that didn't survive the restoration process, are documented for the adjuster.
 
 ## What separates a good contents response from a bad one
 
-The most common failure in contents restoration is treating it as an afterthought. When crews focus on structural drying and leave contents in place, soft goods continue absorbing moisture and odor, and the window for successful restoration narrows fast. Smoke odor in particular bonds to fabric and porous surfaces within hours — items left in a smoke-affected space while structural work proceeds are often unrestorable by the time anyone addresses them.
+The most common failure in contents restoration is treating it as an afterthought. When crews focus on structural drying and leave contents in place, soft goods continue absorbing moisture and odor, and the window for successful restoration narrows fast. Smoke odor in particular bonds to fabric and porous surfaces within hours, items left in a smoke-affected space while structural work proceeds are often unrestorable by the time anyone addresses them.
 
-A second common gap is inventory quality. Vague or incomplete item logs — "box of miscellaneous," no photographs, no condition notes — create disputes with adjusters and leave homeowners undercompensated. A thorough contents inventory is a claims document as much as it is a logistics document.
+A second common gap is inventory quality. Vague or incomplete item logs, "box of miscellaneous," no photographs, no condition notes, create disputes with adjusters and leave homeowners undercompensated. A thorough contents inventory is a claims document as much as it is a logistics document.
 
 Insurance adjusters look for three things: a complete pre-loss inventory with condition documentation, a clear record of what was attempted for restoration and why, and a defensible determination of restore-versus-replace for each item. Adjusters are experienced at spotting inflated total-loss claims and equally experienced at spotting underdocumented ones that shortchange the homeowner. Good documentation protects both sides.
 
@@ -51,7 +51,7 @@ Ultrasonic cleaning is another differentiator. General cleaning with rags and sp
 
 ## What does Contents Restoration & Storage cost?
 
-Typical costs for contents restoration vary significantly depending on the volume of items, the type of loss (smoke, water, Category 1 vs. Category 3), and how much of the contents can be cleaned on-site versus requiring pack-out and storage. Most homeowners pay somewhere in the ranges below — these are industry-typical figures, not quotes.
+Typical costs for contents restoration vary significantly depending on the volume of items, the type of loss (smoke, water, Category 1 vs. Category 3), and how much of the contents can be cleaned on-site versus requiring pack-out and storage. Most homeowners pay somewhere in the ranges below, these are industry-typical figures, not quotes.
 
 | Scenario | Typical range |
 |---|---|
@@ -62,14 +62,14 @@ Typical costs for contents restoration vary significantly depending on the volum
 | Document and photo recovery (freeze-drying) | $500 – $3,000 |
 | Extended climate-controlled storage (per month) | $200 – $600 |
 
-Every loss is different — the item count, the loss category, and the extent of contamination all affect the final scope. PuroClean of East Las Vegas provides a written scope of work before any restoration begins. Homeowners insurance typically covers contents restoration as part of a covered peril claim, subject to your policy's deductible and any scheduled item limits for high-value property.
+Every loss is different, the item count, the loss category, and the extent of contamination all affect the final scope. PuroClean of East Las Vegas provides a written scope of work before any restoration begins. Homeowners insurance typically covers contents restoration as part of a covered peril claim, subject to your policy's deductible and any scheduled item limits for high-value property.
 
 ## Seasonal and regional considerations
 
-Las Vegas's climate creates specific contents risks worth knowing. The valley's low humidity is generally protective — items that might mold within 48 hours in a humid climate can have a slightly longer window here — but that margin disappears quickly in interior spaces where a water loss has raised ambient humidity significantly. Summer monsoon season brings fast, heavy water intrusion events that can affect multiple rooms simultaneously, compressing the timeline for contents decisions. The dry heat also means that smoke from wildfires in the surrounding region periodically affects indoor air quality, depositing fine particulate on surfaces even without a structure fire — a scenario where contents cleaning is warranted even when the building itself is undamaged.
+Las Vegas's climate creates specific contents risks worth knowing. The valley's low humidity is generally protective, items that might mold within 48 hours in a humid climate can have a slightly longer window here, but that margin disappears quickly in interior spaces where a water loss has raised ambient humidity significantly. Summer monsoon season brings fast, heavy water intrusion events that can affect multiple rooms simultaneously, compressing the timeline for contents decisions. The dry heat also means that smoke from wildfires in the surrounding region periodically affects indoor air quality, depositing fine particulate on surfaces even without a structure fire, a scenario where contents cleaning is warranted even when the building itself is undamaged.
 
 ## Service area
 
 PuroClean of East Las Vegas provides contents restoration and storage services throughout the Las Vegas valley, including Henderson, North Las Vegas, Summerlin, Boulder City, and surrounding communities. City-specific service pages link back here for the full process detail.
 
-If your home or business has experienced a loss and you're watching crews work on the structure while your belongings sit in an affected space, call **(702) 551-3040** to schedule a contents assessment — the sooner items are inventoried and moved to a controlled environment, the more of them come back.
+If your home or business has experienced a loss and you're watching crews work on the structure while your belongings sit in an affected space, call **(702) 551-3040** to schedule a contents assessment, the sooner items are inventoried and moved to a controlled environment, the more of them come back.

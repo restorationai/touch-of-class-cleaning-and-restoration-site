@@ -17,13 +17,13 @@ service_slug: "fire-damage-restoration"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-The fire is out — but the damage isn't done. In the hours after a house fire, soot particles are still migrating through your ductwork, smoke acids are etching glass and metal surfaces, and protein residue from burned food or upholstery is bonding to every porous surface in the home. What you can see — the charred drywall, the scorched cabinets — is often less destructive than what you can't. Effective fire damage restoration means stopping that secondary damage clock before it runs out.
+The fire is out, but the damage isn't done. In the hours after a house fire, soot particles are still migrating through your ductwork, smoke acids are etching glass and metal surfaces, and protein residue from burned food or upholstery is bonding to every porous surface in the home. What you can see, the charred drywall, the scorched cabinets, is often less destructive than what you can't. Effective fire damage restoration means stopping that secondary damage clock before it runs out.
 
 ## What fire damage restoration actually involves
 
 Fire restoration is not cleaning. It is a sequenced technical process that addresses four distinct damage types simultaneously: structural char, soot and smoke residue, odor penetration, and water damage left behind by suppression efforts. A kitchen fire that looks contained to one room will have pushed smoke into adjacent wall cavities, deposited wet soot on cold surfaces two rooms away, and left standing water under the flooring from fire hose runoff.
 
-The equipment involved reflects that complexity. Thermal foggers push deodorizing agents into the same microscopic spaces smoke traveled. Hydroxyl generators or ozone units break down odor-causing compounds at the molecular level. HEPA air scrubbers run continuously to capture airborne soot particulate during cleanup. Ultrasonic cleaning tanks restore contents — jewelry, collectibles, electronics housings — that would otherwise be written off as total losses.
+The equipment involved reflects that complexity. Thermal foggers push deodorizing agents into the same microscopic spaces smoke traveled. Hydroxyl generators or ozone units break down odor-causing compounds at the molecular level. HEPA air scrubbers run continuously to capture airborne soot particulate during cleanup. Ultrasonic cleaning tanks restore contents, jewelry, collectibles, electronics housings, that would otherwise be written off as total losses.
 
 Timeline varies by severity. A single-room fire with limited smoke spread can be stabilized in two to three days and restored in one to two weeks. A whole-structure fire with roof involvement may require months of phased reconstruction. Reign Restoration holds the IICRC FSRT (Fire and Smoke Restoration Technician) certification, which means the process follows the same industry standard your insurance adjuster will reference when reviewing the scope.
 
@@ -31,17 +31,17 @@ Timeline varies by severity. A single-room fire with limited smoke spread can be
 
 1. **Emergency stabilization and board-up.** Before restoration begins, the structure needs to be secured. Open walls, missing windows, and compromised rooflines invite weather, vandalism, and additional moisture intrusion. Reign Restoration coordinates emergency tarping and board-up as part of the initial response so the damage footprint stops growing.
 
-2. **Soot characterization and scope development.** Not all soot behaves the same way. Dry, powdery soot from fast-burning wood fires brushes off surfaces relatively easily. Wet, smeared soot from slow-burning synthetic materials — foam insulation, plastics, upholstery — requires chemical sponges and specific cleaning agents. Protein soot, the near-invisible residue from kitchen fires, has almost no visible signature but produces an intense odor and bonds aggressively to painted surfaces. Identifying the soot type before touching anything determines which cleaning methods will work and which will spread the damage further.
+2. **Soot characterization and scope development.** Not all soot behaves the same way. Dry, powdery soot from fast-burning wood fires brushes off surfaces relatively easily. Wet, smeared soot from slow-burning synthetic materials, foam insulation, plastics, upholstery, requires chemical sponges and specific cleaning agents. Protein soot, the near-invisible residue from kitchen fires, has almost no visible signature but produces an intense odor and bonds aggressively to painted surfaces. Identifying the soot type before touching anything determines which cleaning methods will work and which will spread the damage further.
 
 3. **Contents pack-out and inventory.** Salvageable belongings are documented, packed, and transported to a controlled environment for cleaning. This protects them from further smoke exposure during structural work and creates a detailed inventory that supports your insurance claim. Items are cleaned using ultrasonic equipment, ozone chambers, or dry-cleaning methods depending on material type.
 
-4. **Structural cleaning, deodorization, and encapsulation.** Affected surfaces are cleaned in sequence — ceilings before walls, walls before floors — using dry chemical sponges, alkaline cleaners, or solvent-based agents matched to the soot type. Thermal fogging and hydroxyl or ozone treatment follow to address odor in wall cavities and subfloor spaces. Remaining surfaces that cannot be fully cleaned are encapsulated with shellac-based primer before any repainting or reconstruction begins.
+4. **Structural cleaning, deodorization, and encapsulation.** Affected surfaces are cleaned in sequence, ceilings before walls, walls before floors, using dry chemical sponges, alkaline cleaners, or solvent-based agents matched to the soot type. Thermal fogging and hydroxyl or ozone treatment follow to address odor in wall cavities and subfloor spaces. Remaining surfaces that cannot be fully cleaned are encapsulated with shellac-based primer before any repainting or reconstruction begins.
 
-5. **Reconstruction and clearance.** Charred framing, drywall, insulation, and flooring are removed and replaced to code. Reign Restoration handles reconstruction under license #MRC2276, which means the same crew managing your restoration can carry the project through to finished condition — no handoff gap where damage gets missed or scope gets lost.
+5. **Reconstruction and clearance.** Charred framing, drywall, insulation, and flooring are removed and replaced to code. Reign Restoration handles reconstruction under license #MRC2276, which means the same crew managing your restoration can carry the project through to finished condition, no handoff gap where damage gets missed or scope gets lost.
 
 ## What separates a good fire response from a bad one
 
-The most common failure in fire restoration is treating all smoke damage as a surface problem. Crews that wipe down walls and repaint without addressing odor in wall cavities will leave a home that smells fine in winter and unbearable in summer heat. Insurance adjusters reviewing a re-opened claim for persistent odor will look for documentation of thermal fogging, ozone or hydroxyl treatment, and cavity cleaning — if those line items aren't in the original scope, the supplemental claim becomes a fight.
+The most common failure in fire restoration is treating all smoke damage as a surface problem. Crews that wipe down walls and repaint without addressing odor in wall cavities will leave a home that smells fine in winter and unbearable in summer heat. Insurance adjusters reviewing a re-opened claim for persistent odor will look for documentation of thermal fogging, ozone or hydroxyl treatment, and cavity cleaning, if those line items aren't in the original scope, the supplemental claim becomes a fight.
 
 The second common failure is misidentifying soot type. Using a wet sponge on dry soot smears it into the substrate permanently. Using a dry chemical sponge on wet synthetic soot misses the chemical bond entirely. A technician who doesn't characterize the residue before cleaning will create more damage than they resolve.
 
@@ -49,7 +49,7 @@ Insurance adjusters also look for a complete contents inventory with pre-loss va
 
 ## What does fire damage restoration cost?
 
-Typical costs depend heavily on the fire's origin point, how far smoke traveled, whether suppression water is involved, and how much of the structure requires reconstruction. Most homeowners pay somewhere in the ranges below — these are industry-typical figures, not quotes.
+Typical costs depend heavily on the fire's origin point, how far smoke traveled, whether suppression water is involved, and how much of the structure requires reconstruction. Most homeowners pay somewhere in the ranges below, these are industry-typical figures, not quotes.
 
 | Scenario | Typical range |
 |---|---|
@@ -59,14 +59,14 @@ Typical costs depend heavily on the fire's origin point, how far smoke traveled,
 | Partial structure fire with roof or framing damage | $40,000 – $100,000+ |
 | Whole-structure fire, reconstruction required | $100,000 – $300,000+ |
 
-Every loss is different, and Reign Restoration provides a written scope of work before any work begins. Homeowners insurance typically covers fire damage restoration — including structural repairs, contents cleaning, and temporary housing — when the fire was accidental; your policy's deductible and coverage limits are the primary variables.
+Every loss is different, and Reign Restoration provides a written scope of work before any work begins. Homeowners insurance typically covers fire damage restoration, including structural repairs, contents cleaning, and temporary housing, when the fire was accidental; your policy's deductible and coverage limits are the primary variables.
 
 ## Seasonal and regional considerations
 
-North Texas heating seasons bring a predictable spike in chimney fires, space heater incidents, and electrical fires in older homes. Royse City and the surrounding Rockwall County area include a significant number of homes built in the 1980s and 1990s with aluminum wiring or older panel configurations that create elevated fire risk during peak demand months. Smoke also behaves differently in Texas humidity — high moisture in the air causes soot to re-deposit on surfaces long after the initial fire, which is why dehumidification runs alongside smoke cleaning in most North Texas fire jobs.
+North Texas heating seasons bring a predictable spike in chimney fires, space heater incidents, and electrical fires in older homes. Royse City and the surrounding Rockwall County area include a significant number of homes built in the 1980s and 1990s with aluminum wiring or older panel configurations that create elevated fire risk during peak demand months. Smoke also behaves differently in Texas humidity, high moisture in the air causes soot to re-deposit on surfaces long after the initial fire, which is why dehumidification runs alongside smoke cleaning in most North Texas fire jobs.
 
 ## Service area
 
-Reign Restoration is based in Royse City and serves the broader Dallas metro — including Rockwall, Fate, Heath, Forney, Terrell, Caddo Mills, and Greenville. Individual service-area pages cover fire damage restoration for each city in detail; this page covers the full process regardless of location.
+Reign Restoration is based in Royse City and serves the broader Dallas metro, including Rockwall, Fate, Heath, Forney, Terrell, Caddo Mills, and Greenville. Individual service-area pages cover fire damage restoration for each city in detail; this page covers the full process regardless of location.
 
 If you are standing in a fire-damaged home right now, the decisions made in the next 24 to 48 hours will determine how much of it can be saved. Call Reign Restoration at (214) 304-0621 to begin smoke and soot removal before secondary damage makes a recoverable loss into a total one.

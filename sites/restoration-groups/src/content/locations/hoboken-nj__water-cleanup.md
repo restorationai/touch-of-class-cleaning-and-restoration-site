@@ -20,13 +20,13 @@ state: "NJ"
 service_display: "Water Cleanup"
 rendered: true
 ---
-Hoboken sits on land that was once tidal marsh, and the city has never fully outrun that geography. When heavy rain overwhelms the combined sewer system — as it did catastrophically during Superstorm Sandy and again during Ida in 2021 — water doesn't just pool in streets. It backs up through floor drains, seeps under basement doors, and fills garden-level units across the city's dense grid of 19th-century brownstones. If you're dealing with standing water or soaked floors right now, call The Restoration Group at (855) 650-7422. We're available around the clock.
+Hoboken sits on land that was once tidal marsh, and the city has never fully outrun that geography. When heavy rain overwhelms the combined sewer system, as it did catastrophically during Superstorm Sandy and again during Ida in 2021, water doesn't just pool in streets. It backs up through floor drains, seeps under basement doors, and fills garden-level units across the city's dense grid of 19th-century brownstones. If you're dealing with standing water or soaked floors right now, call The Restoration Group at (855) 650-7422. We're available around the clock.
 
 ## Why Hoboken Properties See Water Damage So Often
 
-The geology and infrastructure here create a perfect storm for water losses. Much of 07030 sits only a few feet above sea level, and the soil beneath the city — soft, saturated fill over original marsh — doesn't drain the way suburban ground does. When the combined sewer system backs up, water has nowhere to go except into the lowest available space, which in Hoboken means below-grade apartments, storage rooms, and mechanical areas in the city's characteristic brick rowhomes.
+The geology and infrastructure here create a perfect storm for water losses. Much of 07030 sits only a few feet above sea level, and the soil beneath the city, soft, saturated fill over original marsh, doesn't drain the way suburban ground does. When the combined sewer system backs up, water has nowhere to go except into the lowest available space, which in Hoboken means below-grade apartments, storage rooms, and mechanical areas in the city's characteristic brick rowhomes.
 
-The housing stock compounds the problem. Most of Hoboken's residential buildings were constructed between the 1880s and the 1930s, and they share party-wall plumbing stacks that run vertically through multiple units. A single corroded fitting or failed supply line on an upper floor can send water cascading through three or four apartments before anyone notices. In the denser blocks of Downtown Hoboken and the Southwest Hoboken corridor, that kind of multi-unit loss is not unusual — it's a routine claim pattern.
+The housing stock compounds the problem. Most of Hoboken's residential buildings were constructed between the 1880s and the 1930s, and they share party-wall plumbing stacks that run vertically through multiple units. A single corroded fitting or failed supply line on an upper floor can send water cascading through three or four apartments before anyone notices. In the denser blocks of Downtown Hoboken and the Southwest Hoboken corridor, that kind of multi-unit loss is not unusual, it's a routine claim pattern.
 
 The Waterfront's newer high-rises bring a different set of risks: large commercial sprinkler systems, complex mechanical rooms, and roof assemblies that can fail quietly for weeks before a ceiling gives way. Near Stevens Institute of Technology, student-housing buildings and older academic structures add roof leaks and deferred maintenance to the mix.
 
@@ -34,17 +34,17 @@ The Waterfront's newer high-rises bring a different set of risks: large commerci
 
 Water cleanup in Hoboken requires accounting for conditions you won't find in a newer suburb. Here's what the process typically looks like on a Hoboken loss:
 
-**Inspection and moisture mapping.** Before any equipment goes in, we use thermal imaging cameras and calibrated moisture meters to trace where water has actually traveled. In Hoboken's older brownstones, water moves through plaster, brick, and original hardwood in ways that don't show up at the surface — a floor can feel dry while the subfloor beneath it holds significant moisture.
+**Inspection and moisture mapping.** Before any equipment goes in, we use thermal imaging cameras and calibrated moisture meters to trace where water has actually traveled. In Hoboken's older brownstones, water moves through plaster, brick, and original hardwood in ways that don't show up at the surface, a floor can feel dry while the subfloor beneath it holds significant moisture.
 
-**Standing water extraction.** Truck-mounted and portable extraction units pull standing water from floors, carpets, and below-grade spaces. In garden units and basement apartments, we pay close attention to floor drains — if the sewer is still surcharging, we isolate the drain to prevent re-entry.
+**Standing water extraction.** Truck-mounted and portable extraction units pull standing water from floors, carpets, and below-grade spaces. In garden units and basement apartments, we pay close attention to floor drains, if the sewer is still surcharging, we isolate the drain to prevent re-entry.
 
 **Structural drying.** Industrial air movers and low-grain refrigerant dehumidifiers run in a calculated configuration based on the square footage, materials, and ambient humidity. Drying timelines are documented per the IICRC S500 standard and shared with your insurance adjuster.
 
-**Antimicrobial treatment.** Sewer-related flooding — which is common in Hoboken during heavy rain events — introduces contaminated water into living spaces. Affected materials are treated accordingly, and anything that cannot be adequately dried and sanitized is documented for removal.
+**Antimicrobial treatment.** Sewer-related flooding, which is common in Hoboken during heavy rain events, introduces contaminated water into living spaces. Affected materials are treated accordingly, and anything that cannot be adequately dried and sanitized is documented for removal.
 
 ## Reaching Hoboken from Kenilworth
 
-The Restoration Group is based in Kenilworth, NJ. The most direct route to Hoboken runs through the NJ Turnpike and Routes 1 and 9 into the Lincoln Tunnel approach, or via the Pulaski Skyway into Jersey City and north on Routes 1/9 through the Holland Tunnel corridor. We're available 24/7, so dispatch happens at any hour — not just during business hours.
+The Restoration Group is based in Kenilworth, NJ. The most direct route to Hoboken runs through the NJ Turnpike and Routes 1 and 9 into the Lincoln Tunnel approach, or via the Pulaski Skyway into Jersey City and north on Routes 1/9 through the Holland Tunnel corridor. We're available 24/7, so dispatch happens at any hour, not just during business hours.
 
 Once in Hoboken, crew staging can be tight. Street parking near Hoboken Terminal and along the Washington Street business district is limited, especially during weekday hours. We carry the permits and equipment configurations to work in narrow rowhouse hallways and below-grade units where larger equipment can't fit.
 
@@ -52,10 +52,10 @@ Once in Hoboken, crew staging can be tight. Street parking near Hoboken Terminal
 
 Most water losses in Hoboken involve at least one coverage question: is this a sewer backup claim, a standard water damage claim, or a flood claim under a separate NFIP policy? The answer affects your deductible, your coverage limit, and how the adjuster categorizes the loss. We document the source of water, the affected materials, and the drying records in a format that supports your claim regardless of which policy applies. We bill carriers directly and work with your adjuster throughout the process.
 
-For multi-unit buildings — common across Uptown and Downtown Hoboken — losses that cross unit lines often involve both individual tenant policies and a building master policy. We can provide separate documentation scopes for each affected unit to simplify the claims process.
+For multi-unit buildings, common across Uptown and Downtown Hoboken, losses that cross unit lines often involve both individual tenant policies and a building master policy. We can provide separate documentation scopes for each affected unit to simplify the claims process.
 
 ## Local Note
 
-Hoboken's brownstones were built with plaster-on-lath walls, not modern drywall, and that distinction matters during drying. Plaster absorbs water more slowly than drywall but releases it slowly too — surface readings can look acceptable within a day or two while the lath and the brick behind it remain saturated. We've seen cases where a wall tests dry at the face but the moisture content inside the assembly is still well above acceptable levels. We extend monitoring in these buildings and don't close out a job based on surface readings alone. It takes longer, but it's the only way to confirm the structure is actually dry.
+Hoboken's brownstones were built with plaster-on-lath walls, not modern drywall, and that distinction matters during drying. Plaster absorbs water more slowly than drywall but releases it slowly too, surface readings can look acceptable within a day or two while the lath and the brick behind it remain saturated. We've seen cases where a wall tests dry at the face but the moisture content inside the assembly is still well above acceptable levels. We extend monitoring in these buildings and don't close out a job based on surface readings alone. It takes longer, but it's the only way to confirm the structure is actually dry.
 
-If you're dealing with water damage anywhere in Hoboken — a flooded garden unit in Southwest Hoboken, a burst pipe near Castle Point, or a roof leak above a Washington Street commercial space — call (855) 650-7422. We're IICRC Certified (Firm #210213), licensed by the NJ Division of Consumer Affairs as a Home Improvement Contractor, and available any time of day or night.
+If you're dealing with water damage anywhere in Hoboken, a flooded garden unit in Southwest Hoboken, a burst pipe near Castle Point, or a roof leak above a Washington Street commercial space, call (855) 650-7422. We're IICRC Certified (Firm #210213), licensed by the NJ Division of Consumer Affairs as a Home Improvement Contractor, and available any time of day or night.

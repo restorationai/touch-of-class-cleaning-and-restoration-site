@@ -22,7 +22,7 @@ This privacy policy explains how RestorationXpress collects, uses, and protects 
 
 ## Information We Collect
 
-When you fill out a contact or estimate-request form, we collect the details you provide — typically your name, phone number, email address, property address, and a description of the damage or service you need. We may also collect basic, anonymized analytics data (pages visited, browser type, approximate geographic region) through standard website analytics tools. We do not use tracking pixels, sell advertising, or build behavioral profiles.
+When you fill out a contact or estimate-request form, we collect the details you provide, typically your name, phone number, email address, property address, and a description of the damage or service you need. We may also collect basic, anonymized analytics data (pages visited, browser type, approximate geographic region) through standard website analytics tools. We do not use tracking pixels, sell advertising, or build behavioral profiles.
 
 ## How We Use Your Information
 
@@ -30,7 +30,7 @@ The information you submit is used for one purpose: to help you. That means resp
 
 ## How We Share Your Information
 
-We do not sell, rent, or trade your personal information. The only circumstance in which we share your details with a third party — such as your insurance carrier, an adjuster, or a subcontractor — is when you have explicitly authorized us to do so as part of coordinating your claim or repair work. Any such sharing is limited to what is necessary to complete the service you requested.
+We do not sell, rent, or trade your personal information. The only circumstance in which we share your details with a third party, such as your insurance carrier, an adjuster, or a subcontractor, is when you have explicitly authorized us to do so as part of coordinating your claim or repair work. Any such sharing is limited to what is necessary to complete the service you requested.
 
 ## Data Retention
 
@@ -38,7 +38,7 @@ We retain project records, including contact and insurance documentation, for as
 
 ## Your Rights
 
-If you are a California resident, the California Consumer Privacy Act (CCPA) gives you the right to request access to the personal information we hold about you, ask that it be deleted, and opt out of any sale of that information — though we do not sell data. Residents of other states with applicable privacy laws have similar rights under those frameworks. To exercise any of these rights, contact us at issac@restorationxpress.com. We will respond within 45 days. Because RestorationXpress operates as a Florida-based residential and commercial contractor primarily serving South Florida, the GDPR is unlikely to apply to most visitors; however, if you are accessing this site from the European Economic Area, you may contact us with any data requests and we will address them in good faith.
+If you are a California resident, the California Consumer Privacy Act (CCPA) gives you the right to request access to the personal information we hold about you, ask that it be deleted, and opt out of any sale of that information, though we do not sell data. Residents of other states with applicable privacy laws have similar rights under those frameworks. To exercise any of these rights, contact us at issac@restorationxpress.com. We will respond within 45 days. Because RestorationXpress operates as a Florida-based residential and commercial contractor primarily serving South Florida, the GDPR is unlikely to apply to most visitors; however, if you are accessing this site from the European Economic Area, you may contact us with any data requests and we will address them in good faith.
 
 ## Contact for Privacy Questions
 

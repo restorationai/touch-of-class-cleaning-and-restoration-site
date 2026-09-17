@@ -20,32 +20,32 @@ state: "NC"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-Smithfield sits where Johnston County's older residential streets meet the Neuse River corridor, and when fire strikes here — whether it's a kitchen fire in a century-old bungalow near Downtown Smithfield or a garage blaze in a newer build off US-70 — the damage compounds quickly. Smoke travels through every gap in aging balloon-frame construction, soot settles into heart-pine floors and plaster walls that have absorbed decades of humidity, and the residual odor locks in fast. Go Green Restoration of NC responds around the clock to fire and smoke damage calls across Smithfield and the surrounding 27577 ZIP code area.
+Smithfield sits where Johnston County's older residential streets meet the Neuse River corridor, and when fire strikes here, whether it's a kitchen fire in a century-old bungalow near Downtown Smithfield or a garage blaze in a newer build off US-70, the damage compounds quickly. Smoke travels through every gap in aging balloon-frame construction, soot settles into heart-pine floors and plaster walls that have absorbed decades of humidity, and the residual odor locks in fast. Go Green Restoration of NC responds around the clock to fire and smoke damage calls across Smithfield and the surrounding 27577 ZIP code area.
 
 ## Why Smithfield Properties See Distinct Fire Damage Challenges
 
-Johnston County's building stock spans a wide range of eras, and that matters enormously after a fire. Homes in and around Downtown Smithfield frequently date to the early-to-mid twentieth century — construction periods that relied on balloon framing, real-wood lath, and oil-based paints that produce a heavier, stickier soot when they burn. That soot behaves differently from the dry, powdery residue left by modern synthetic materials: it penetrates deeper into porous surfaces, bonds to plaster, and is significantly harder to neutralize with standard alkaline cleaners alone.
+Johnston County's building stock spans a wide range of eras, and that matters enormously after a fire. Homes in and around Downtown Smithfield frequently date to the early-to-mid twentieth century, construction periods that relied on balloon framing, real-wood lath, and oil-based paints that produce a heavier, stickier soot when they burn. That soot behaves differently from the dry, powdery residue left by modern synthetic materials: it penetrates deeper into porous surfaces, bonds to plaster, and is significantly harder to neutralize with standard alkaline cleaners alone.
 
-The Neuse River proximity adds another layer. Low-lying streets near the Smithfield Neuse Riverwalk area can experience elevated ambient humidity year-round, and that moisture accelerates the way smoke odor compounds bind to structural materials after a fire. What might air out in a drier climate lingers here, making professional odor neutralization — not just masking — a non-negotiable step in the restoration process.
+The Neuse River proximity adds another layer. Low-lying streets near the Smithfield Neuse Riverwalk area can experience elevated ambient humidity year-round, and that moisture accelerates the way smoke odor compounds bind to structural materials after a fire. What might air out in a drier climate lingers here, making professional odor neutralization, not just masking, a non-negotiable step in the restoration process.
 
 ## Our Fire Damage Restoration Process in Smithfield
 
-Every fire loss is different, but the sequence of decisions matters. The first priority on arrival is a thorough structural assessment — identifying load-bearing elements compromised by heat, flooring systems weakened by firefighting water, and hidden char inside wall cavities that thermal imaging can reveal. Visible damage is rarely the full picture.
+Every fire loss is different, but the sequence of decisions matters. The first priority on arrival is a thorough structural assessment, identifying load-bearing elements compromised by heat, flooring systems weakened by firefighting water, and hidden char inside wall cavities that thermal imaging can reveal. Visible damage is rarely the full picture.
 
 Once the scope is documented, the work moves through several overlapping phases:
 
 - **Emergency board-up and tarping** to secure the structure against weather and unauthorized entry
 - **Controlled demolition** of unsalvageable materials, with careful separation of what can be cleaned versus what must be replaced
-- **HEPA vacuuming and dry-sponge wiping** of soot from ceilings, walls, and structural framing before any wet cleaning begins — reversing this order drives soot deeper
+- **HEPA vacuuming and dry-sponge wiping** of soot from ceilings, walls, and structural framing before any wet cleaning begins, reversing this order drives soot deeper
 - **Thermal fogging and hydroxyl or ozone treatment** for odor neutralization in the structural cavities where surface cleaning cannot reach
 - **Content pack-out** for salvageable belongings, with itemized documentation for your insurance claim
-- **Reconstruction** coordinated to match existing materials where possible — important in older Smithfield homes where original millwork and flooring are both a historic asset and difficult to source
+- **Reconstruction** coordinated to match existing materials where possible, important in older Smithfield homes where original millwork and flooring are both a historic asset and difficult to source
 
 Photographic documentation runs throughout every phase, generating the paper trail your adjuster will need.
 
 ## Reaching Smithfield from Middlesex
 
-Go Green Restoration of NC is based in Middlesex, and Smithfield is a straightforward run south on US-264 or NC-581 depending on the specific address. Because we operate 24/7, a call at 2 a.m. from a property near Carolina Premium Outlets or anywhere else in the 27577 area gets the same response as a midday call — a crew dispatched, not a voicemail.
+Go Green Restoration of NC is based in Middlesex, and Smithfield is a straightforward run south on US-264 or NC-581 depending on the specific address. Because we operate 24/7, a call at 2 a.m. from a property near Carolina Premium Outlets or anywhere else in the 27577 area gets the same response as a midday call, a crew dispatched, not a voicemail.
 
 For addresses in West Smithfield, routing typically comes in via US-70 Business, which keeps travel time predictable even during peak commute hours on the US-70 bypass.
 
@@ -57,6 +57,6 @@ If your policy includes additional living expense (ALE) coverage, we can communi
 
 ## Local Note
 
-One thing that catches homeowners off guard in older Downtown Smithfield properties: balloon-frame walls — common in homes built before the 1940s — have open stud cavities that run from the foundation sill all the way to the roof rafters with no fire blocking in between. When fire or even heavy smoke travels through those cavities, it distributes soot and odor into areas that look completely untouched from the outside. A room two floors above the origin point can have soot-coated framing inside the walls. Scoping a fire loss in this housing stock requires opening wall cavities in areas that appear clean — it is not optional, and skipping that step is how odor problems resurface months after a restoration is supposedly finished.
+One thing that catches homeowners off guard in older Downtown Smithfield properties: balloon-frame walls, common in homes built before the 1940s, have open stud cavities that run from the foundation sill all the way to the roof rafters with no fire blocking in between. When fire or even heavy smoke travels through those cavities, it distributes soot and odor into areas that look completely untouched from the outside. A room two floors above the origin point can have soot-coated framing inside the walls. Scoping a fire loss in this housing stock requires opening wall cavities in areas that appear clean, it is not optional, and skipping that step is how odor problems resurface months after a restoration is supposedly finished.
 
-If your home or investment property in Smithfield has been affected by fire or smoke, call Go Green Restoration of NC at (919) 906-5473. We are available around the clock, we document everything for your insurer, and we do not consider the job done until the structure is genuinely clean — not just surface-clean.
+If your home or investment property in Smithfield has been affected by fire or smoke, call Go Green Restoration of NC at (919) 906-5473. We are available around the clock, we document everything for your insurer, and we do not consider the job done until the structure is genuinely clean, not just surface-clean.

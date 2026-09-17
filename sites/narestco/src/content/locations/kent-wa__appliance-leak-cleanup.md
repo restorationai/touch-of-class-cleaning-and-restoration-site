@@ -20,35 +20,35 @@ state: "WA"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
-Your dishwasher door seal failed. Your washing machine hose let go. Your refrigerator's ice maker line dripped silently for weeks behind the fridge until the laminate buckled and the subfloor turned soft. Whatever just happened in your Kent home, the clock started the moment water hit the floor — and the longer it sits, the deeper it goes.
+Your dishwasher door seal failed. Your washing machine hose let go. Your refrigerator's ice maker line dripped silently for weeks behind the fridge until the laminate buckled and the subfloor turned soft. Whatever just happened in your Kent home, the clock started the moment water hit the floor, and the longer it sits, the deeper it goes.
 
-National Restoration Construction has been responding to appliance leak emergencies across the South King County area since 2004. When you reach us at **(206) 883-0333**, you're getting a crew dispatched from Federal Way — typically on your doorstep within 60 to 90 minutes — not a call center routing your job to whoever's available.
+National Restoration Construction has been responding to appliance leak emergencies across the South King County area since 2004. When you reach us at **(206) 883-0333**, you're getting a crew dispatched from Federal Way, typically on your doorstep within 60 to 90 minutes, not a call center routing your job to whoever's available.
 
 ## Our Appliance Leak Cleanup Process in Kent
 
-We don't show up, glance around, and hand you a pamphlet. The first thing we do is **stop the source** — confirming the water supply is shut off if you haven't already done it — and then we assess the full spread of moisture with thermal imaging cameras and calibrated moisture meters. Water from a refrigerator leak cleanup or a water heater leak cleanup rarely stays where you see it. It travels under vinyl plank, wicks into drywall, and pools in subfloor cavities that look dry on the surface.
+We don't show up, glance around, and hand you a pamphlet. The first thing we do is **stop the source**, confirming the water supply is shut off if you haven't already done it, and then we assess the full spread of moisture with thermal imaging cameras and calibrated moisture meters. Water from a refrigerator leak cleanup or a water heater leak cleanup rarely stays where you see it. It travels under vinyl plank, wicks into drywall, and pools in subfloor cavities that look dry on the surface.
 
-Once we know the true extent, we set up truck-mounted extraction equipment to pull standing water fast, then deploy industrial-grade air movers and low-grain refrigerant dehumidifiers in a calculated drying pattern. We monitor moisture readings daily — sometimes twice daily in the first 48 hours — and adjust equipment placement based on data, not guesswork. Every reading is logged, which matters when your insurance adjuster asks for documentation.
+Once we know the true extent, we set up truck-mounted extraction equipment to pull standing water fast, then deploy industrial-grade air movers and low-grain refrigerant dehumidifiers in a calculated drying pattern. We monitor moisture readings daily, sometimes twice daily in the first 48 hours, and adjust equipment placement based on data, not guesswork. Every reading is logged, which matters when your insurance adjuster asks for documentation.
 
 If the leak reached drywall, insulation, or cabinetry that can't be dried in place, we handle the controlled demolition and reconstruction as a licensed general contractor (WA L&I #NATIORC792M6), so you're not coordinating two separate companies.
 
 ## Why Kent Properties See Appliance Leak Emergencies
 
-Kent's housing stock spans a wide range — from 1960s ranch-style homes in the East Hill neighborhoods to newer construction in the Panther Lake corridor and older multi-family buildings near the valley floor. Older homes often have original supply lines and braided hoses that were never designed to last 30 or 40 years. A washing machine flood in a house built in 1972 frequently means water running into a crawl space rather than a concrete slab, which dramatically increases the drying complexity.
+Kent's housing stock spans a wide range, from 1960s ranch-style homes in the East Hill neighborhoods to newer construction in the Panther Lake corridor and older multi-family buildings near the valley floor. Older homes often have original supply lines and braided hoses that were never designed to last 30 or 40 years. A washing machine flood in a house built in 1972 frequently means water running into a crawl space rather than a concrete slab, which dramatically increases the drying complexity.
 
-The Pacific Northwest's wet winters don't cause appliance leaks directly, but they do keep ambient humidity elevated — sometimes above 60% indoors — which slows structural drying and creates favorable conditions for mold colonization. IICRC guidelines put the window for mold growth at 24 to 72 hours after a moisture event under the right conditions. In a Kent winter, those conditions are often already halfway met before the leak starts.
+The Pacific Northwest's wet winters don't cause appliance leaks directly, but they do keep ambient humidity elevated, sometimes above 60% indoors, which slows structural drying and creates favorable conditions for mold colonization. IICRC guidelines put the window for mold growth at 24 to 72 hours after a moisture event under the right conditions. In a Kent winter, those conditions are often already halfway met before the leak starts.
 
 ## Insurance Claims for Appliance Leak Damage
 
-Sudden and accidental appliance leaks — a burst washing machine hose, a failed ice maker line, a water heater that let go overnight — are typically covered under standard homeowners insurance. Slow leaks that a carrier argues were "long-term" or "gradual" can be disputed, which is one reason early documentation matters.
+Sudden and accidental appliance leaks, a burst washing machine hose, a failed ice maker line, a water heater that let go overnight, are typically covered under standard homeowners insurance. Slow leaks that a carrier argues were "long-term" or "gradual" can be disputed, which is one reason early documentation matters.
 
-We work directly with all major carriers and can communicate with your adjuster on your behalf. We'll provide the moisture logs, equipment records, and photo documentation that adjusters need to process a claim efficiently. What we can't do is make coverage decisions for your policy — that conversation is between you and your insurer — but we can make sure the technical side of your claim is airtight.
+We work directly with all major carriers and can communicate with your adjuster on your behalf. We'll provide the moisture logs, equipment records, and photo documentation that adjusters need to process a claim efficiently. What we can't do is make coverage decisions for your policy, that conversation is between you and your insurer, but we can make sure the technical side of your claim is airtight.
 
 If you're unsure whether your situation is covered, call us anyway. We can walk you through what we're seeing on-site and what documentation to gather before your adjuster visits.
 
 ## Response Times Across Kent
 
-Our Federal Way headquarters puts us roughly 10 to 15 minutes from most of Kent under normal traffic conditions. That means a technician is typically on-site within **60 to 90 minutes** of your call — often faster for addresses near the Kent-Des Moines corridor or the 167/516 interchange. East Hill and Meridian addresses may add a few minutes depending on time of day.
+Our Federal Way headquarters puts us roughly 10 to 15 minutes from most of Kent under normal traffic conditions. That means a technician is typically on-site within **60 to 90 minutes** of your call, often faster for addresses near the Kent-Des Moines corridor or the 167/516 interchange. East Hill and Meridian addresses may add a few minutes depending on time of day.
 
 We respond 24 hours a day, seven days a week. A water heater leak cleanup at 2 a.m. on a Sunday gets the same crew and the same equipment as a Monday afternoon job. Appliance leaks don't wait for business hours, and neither do we.
 

@@ -19,19 +19,19 @@ state: "NY"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall in Port Richmond or floodwater backs into a South Beach basement at 2 a.m., The Restoration Group dispatches crews from our borough-accessible base to handle water extraction, structural drying, mold remediation, fire and smoke cleanup, and full reconstruction — all under one call to (855) 650-7422. We operate around the clock, every day of the year, because restoration losses don't wait for business hours.
+When a pipe bursts behind a wall in Port Richmond or floodwater backs into a South Beach basement at 2 a.m., The Restoration Group dispatches crews from our borough-accessible base to handle water extraction, structural drying, mold remediation, fire and smoke cleanup, and full reconstruction, all under one call to (855) 650-7422. We operate around the clock, every day of the year, because restoration losses don't wait for business hours.
 
 ## Restoration emergencies common in Staten Island
 
-Staten Island's geography and housing stock create a specific pattern of losses that crews here see repeatedly. The East Shore — South Beach, Midland Beach, Oakwood Beach — was reshaped by Hurricane Sandy in 2012, and the low-lying streets that flooded then flooded again when Ida swept through in 2021. Storm-surge and flash-flood risk is not historical; it is seasonal. Inland, the South Shore's newer townhome developments in ZIP codes 10312 and 10314 sit over high water tables, meaning even moderate rainfall can push groundwater into crawlspaces and slab edges.
+Staten Island's geography and housing stock create a specific pattern of losses that crews here see repeatedly. The East Shore, South Beach, Midland Beach, Oakwood Beach, was reshaped by Hurricane Sandy in 2012, and the low-lying streets that flooded then flooded again when Ida swept through in 2021. Storm-surge and flash-flood risk is not historical; it is seasonal. Inland, the South Shore's newer townhome developments in ZIP codes 10312 and 10314 sit over high water tables, meaning even moderate rainfall can push groundwater into crawlspaces and slab edges.
 
-The borough's housing stock amplifies the problem. Early-1900s frame homes in St. George and Port Richmond carry aging cast-iron drain stacks and galvanized supply lines that fail without warning — often inside finished walls where the leak runs for days before anyone notices the stain on the ceiling below. The dense postwar Cape Cods and split-levels that fill neighborhoods like New Dorp and Great Kills were built with minimal vapor barriers, so moisture intrusion from a single event can colonize wall cavities with mold within 48 to 72 hours if drying doesn't start fast. Along the Hylan Boulevard and Forest Avenue commercial corridors, retail and mixed-use buildings add sprinkler-discharge and roof-leak claims to the mix, particularly after the freeze-thaw cycles that hit the borough every February.
+The borough's housing stock amplifies the problem. Early-1900s frame homes in St. George and Port Richmond carry aging cast-iron drain stacks and galvanized supply lines that fail without warning, often inside finished walls where the leak runs for days before anyone notices the stain on the ceiling below. The dense postwar Cape Cods and split-levels that fill neighborhoods like New Dorp and Great Kills were built with minimal vapor barriers, so moisture intrusion from a single event can colonize wall cavities with mold within 48 to 72 hours if drying doesn't start fast. Along the Hylan Boulevard and Forest Avenue commercial corridors, retail and mixed-use buildings add sprinkler-discharge and roof-leak claims to the mix, particularly after the freeze-thaw cycles that hit the borough every February.
 
 ## Services we provide in Staten Island
 
 ### Water damage restoration
 
-Water damage in Staten Island often involves more than the visible puddle. A burst supply line in a Great Kills split-level can saturate the subfloor, wick into wall framing, and reach the finished basement ceiling before the homeowner realizes the source. We use thermal imaging and moisture meters to map the full extent of saturation, then deploy industrial air movers and desiccant dehumidifiers to dry the structure — not just the surface — before any rebuild begins.
+Water damage in Staten Island often involves more than the visible puddle. A burst supply line in a Great Kills split-level can saturate the subfloor, wick into wall framing, and reach the finished basement ceiling before the homeowner realizes the source. We use thermal imaging and moisture meters to map the full extent of saturation, then deploy industrial air movers and desiccant dehumidifiers to dry the structure, not just the surface, before any rebuild begins.
 
 ### Flood and storm damage
 
@@ -39,7 +39,7 @@ For East Shore properties in ZIP codes 10304 and 10306 that have experienced rep
 
 ### Mold remediation
 
-The combination of older construction, basement living space, and a humid coastal climate makes mold a persistent issue across the borough. We contain affected areas, remove compromised materials, treat structural surfaces, and clear the air — following established industry drying and remediation standards throughout. We do not cut corners on containment because cross-contamination in an occupied home is its own problem.
+The combination of older construction, basement living space, and a humid coastal climate makes mold a persistent issue across the borough. We contain affected areas, remove compromised materials, treat structural surfaces, and clear the air, following established industry drying and remediation standards throughout. We do not cut corners on containment because cross-contamination in an occupied home is its own problem.
 
 ### Fire and smoke damage restoration
 
@@ -55,9 +55,9 @@ Our crews stage from a location with direct borough access, which means we are n
 
 ## Building stock, site conditions, and permits in Staten Island
 
-Staten Island's older frame houses on the North Shore were built with plaster over wood lath and balloon or early platform framing, which holds water far longer than drywall and has to be probed rather than guessed at. Anything predating the late 1970s should be treated as potentially containing asbestos in pipe wrap, joint compound, or resilient flooring, and lead paint on trim — that changes how material gets cut out, not just how it dries.
+Staten Island's older frame houses on the North Shore were built with plaster over wood lath and balloon or early platform framing, which holds water far longer than drywall and has to be probed rather than guessed at. Anything predating the late 1970s should be treated as potentially containing asbestos in pipe wrap, joint compound, or resilient flooring, and lead paint on trim, that changes how material gets cut out, not just how it dries.
 
-The ground varies sharply. The Todt Hill spine and its ridges are glacial moraine — dense till and boulders — while the East Shore and marsh margins are sand and fill, which drains fast but sits close to the water table.
+The ground varies sharply. The Todt Hill spine and its ridges are glacial moraine, dense till and boulders, while the East Shore and marsh margins are sand and fill, which drains fast but sits close to the water table.
 
 Permits come from the NYC Department of Buildings. Structural alteration filings need a registered architect or engineer, plumbing work a licensed master plumber, and flood-zone repairs bring elevation rules into play.
 

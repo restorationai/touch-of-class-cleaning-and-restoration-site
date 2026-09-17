@@ -20,33 +20,33 @@ state: "TX"
 service_display: "Renovations, Remodels and General Contracting"
 rendered: true
 ---
-Mesquite's housing stock tells a story in layers — postwar ranch homes built on expansive clay soils, 1970s and 1980s subdivisions that have aged into their second or third owner, and a wave of newer construction pushing toward the eastern edge of the city. Whether you're updating a dated kitchen in an older neighborhood or rebuilding rooms after storm or water damage, the work here demands a contractor who understands what's underneath the drywall, not just what goes on top of it. Reign Restoration holds a Texas contractor license (#MRC2276) and brings the same structured approach to renovation and remodeling that drives our restoration work.
+Mesquite's housing stock tells a story in layers, postwar ranch homes built on expansive clay soils, 1970s and 1980s subdivisions that have aged into their second or third owner, and a wave of newer construction pushing toward the eastern edge of the city. Whether you're updating a dated kitchen in an older neighborhood or rebuilding rooms after storm or water damage, the work here demands a contractor who understands what's underneath the drywall, not just what goes on top of it. Reign Restoration holds a Texas contractor license (#MRC2276) and brings the same structured approach to renovation and remodeling that drives our restoration work.
 
 ## Why Mesquite Homes Present Unique Renovation Challenges
 
-The black expansive clay soil that runs through much of Dallas County — and straight through Mesquite — shifts seasonally in ways that quietly stress foundations, door frames, and load-bearing walls over decades. In homes built before 1990, that movement often shows up as diagonal cracks above window openings, doors that no longer latch cleanly, and tile floors that have lifted at the grout lines. Before any cosmetic renovation begins, those structural signals deserve a hard look.
+The black expansive clay soil that runs through much of Dallas County, and straight through Mesquite, shifts seasonally in ways that quietly stress foundations, door frames, and load-bearing walls over decades. In homes built before 1990, that movement often shows up as diagonal cracks above window openings, doors that no longer latch cleanly, and tile floors that have lifted at the grout lines. Before any cosmetic renovation begins, those structural signals deserve a hard look.
 
-Mesquite also sees the full range of North Texas weather: summer heat that pushes attic temperatures past 140°F, hail seasons that damage roofing and exterior cladding, and the occasional hard freeze that bursts supply lines in homes where insulation in crawl spaces or exterior walls was never quite adequate. Many renovation projects here start as one thing — a bathroom update, a kitchen refresh — and reveal a secondary problem once walls are opened: outdated galvanized supply lines, undersized electrical panels, or insulation that hasn't performed since the Reagan administration.
+Mesquite also sees the full range of North Texas weather: summer heat that pushes attic temperatures past 140°F, hail seasons that damage roofing and exterior cladding, and the occasional hard freeze that bursts supply lines in homes where insulation in crawl spaces or exterior walls was never quite adequate. Many renovation projects here start as one thing, a bathroom update, a kitchen refresh, and reveal a secondary problem once walls are opened: outdated galvanized supply lines, undersized electrical panels, or insulation that hasn't performed since the Reagan administration.
 
 For post-damage rebuilds specifically, Mesquite falls under the City of Mesquite Building Inspection Division's permitting requirements. Pulling the right permits isn't optional, and skipping them creates title problems when the home eventually sells. We handle permit coordination as part of the project scope.
 
 ## Our Renovation and General Contracting Process in Mesquite
 
-Every project starts with a scoped walkthrough — not a sales visit. We document existing conditions, note anything that will affect the build (foundation movement, older wiring, asbestos-containing materials in pre-1980 homes), and produce a written scope before a single number is discussed.
+Every project starts with a scoped walkthrough, not a sales visit. We document existing conditions, note anything that will affect the build (foundation movement, older wiring, asbestos-containing materials in pre-1980 homes), and produce a written scope before a single number is discussed.
 
 From there, the process moves in a predictable sequence:
 
-- **Permitting and HOA coordination** — we file with the City of Mesquite and, where applicable, communicate with any applicable homeowners association before demolition begins.
-- **Selective demolition** — walls, flooring, and fixtures are removed in a controlled sequence that protects adjacent finished spaces.
-- **Rough-in trades** — framing, plumbing, electrical, and HVAC rough-in are inspected and signed off before we close walls.
-- **Finish work** — drywall, tile, cabinetry, paint, and trim are installed to the agreed specification.
-- **Final inspection and punch list** — we walk the project with you before we consider it closed.
+- **Permitting and HOA coordination**, we file with the City of Mesquite and, where applicable, communicate with any applicable homeowners association before demolition begins.
+- **Selective demolition**, walls, flooring, and fixtures are removed in a controlled sequence that protects adjacent finished spaces.
+- **Rough-in trades**, framing, plumbing, electrical, and HVAC rough-in are inspected and signed off before we close walls.
+- **Finish work**, drywall, tile, cabinetry, paint, and trim are installed to the agreed specification.
+- **Final inspection and punch list**, we walk the project with you before we consider it closed.
 
 For post-damage rebuilds, our IICRC certifications in water, mold, and fire/smoke mean the remediation and reconstruction phases are handled under one roof, which eliminates the handoff delays that typically add weeks to a project.
 
 ## Reaching Mesquite from Royse City
 
-Reign Restoration is headquartered in Royse City, roughly 25 miles east of Mesquite via US-80. That corridor is a straight shot, and Mesquite is one of our regularly served markets — not a stretch territory. For renovation and remodeling projects, scheduling is coordinated during business hours; call (214) 304-0621 to discuss your project timeline and get a walkthrough on the calendar.
+Reign Restoration is headquartered in Royse City, roughly 25 miles east of Mesquite via US-80. That corridor is a straight shot, and Mesquite is one of our regularly served markets, not a stretch territory. For renovation and remodeling projects, scheduling is coordinated during business hours; call (214) 304-0621 to discuss your project timeline and get a walkthrough on the calendar.
 
 ## Mesquite Permitting and HOA Coordination
 
@@ -56,4 +56,4 @@ Some established subdivisions in Mesquite carry deed restrictions or HOA covenan
 
 ## Local Note
 
-Homes built in Mesquite during the 1970s and early 1980s frequently used aluminum wiring for branch circuits — a cost-saving measure common in that era across North Texas. It's not automatically a code violation, but it does require specific handling during any renovation that opens walls: either COPALUM crimping by a licensed electrician or replacement of affected runs. We flag this during the scoped walkthrough because discovering it mid-project affects both budget and timeline, and homeowners deserve to know before demolition starts rather than after.
+Homes built in Mesquite during the 1970s and early 1980s frequently used aluminum wiring for branch circuits, a cost-saving measure common in that era across North Texas. It's not automatically a code violation, but it does require specific handling during any renovation that opens walls: either COPALUM crimping by a licensed electrician or replacement of affected runs. We flag this during the scoped walkthrough because discovering it mid-project affects both budget and timeline, and homeowners deserve to know before demolition starts rather than after.

@@ -20,28 +20,28 @@ state: "NJ"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
-When a nor'easter or fast-moving thunderstorm rolls off the Watchung ridge and stalls over Essex County, Montclair takes the hit hard. The town's dense tree canopy — beautiful in October, dangerous in a 60-mph gust — sends limbs through slate roofs on Estate Section Tudors and century-old Victorians alike, and the Third River (Yantacaw) backs up fast enough to push water into finished basements before homeowners realize the sump is overwhelmed. The Restoration Group responds to storm damage calls across Montclair 24/7, bringing IICRC Certified Firm (#210213) protocols to a housing stock that demands more than a generic drywall-and-dehumidifier approach.
+When a nor'easter or fast-moving thunderstorm rolls off the Watchung ridge and stalls over Essex County, Montclair takes the hit hard. The town's dense tree canopy, beautiful in October, dangerous in a 60-mph gust, sends limbs through slate roofs on Estate Section Tudors and century-old Victorians alike, and the Third River (Yantacaw) backs up fast enough to push water into finished basements before homeowners realize the sump is overwhelmed. The Restoration Group responds to storm damage calls across Montclair 24/7, bringing IICRC Certified Firm (#210213) protocols to a housing stock that demands more than a generic drywall-and-dehumidifier approach.
 
 ## Why Montclair Properties Are Especially Vulnerable After Severe Weather
 
-Montclair's topography is the first factor most out-of-town contractors miss. The town slopes sharply from the Watchung ridge down toward the low-lying corridors near Frog Hollow and the South End, and that grade means stormwater concentrates quickly. During Tropical Storm Ida in 2021, that dynamic produced flash flooding and sewer surcharges that sent raw backflow into basements across the lower wards — damage that looks like a simple wet floor but carries contamination that requires Category 3 water protocols, not a shop vac.
+Montclair's topography is the first factor most out-of-town contractors miss. The town slopes sharply from the Watchung ridge down toward the low-lying corridors near Frog Hollow and the South End, and that grade means stormwater concentrates quickly. During Tropical Storm Ida in 2021, that dynamic produced flash flooding and sewer surcharges that sent raw backflow into basements across the lower wards, damage that looks like a simple wet floor but carries contamination that requires Category 3 water protocols, not a shop vac.
 
-The housing stock compounds the challenge. A large share of homes in the 07042 and 07043 ZIP codes were built before 1950 — center-hall colonials, Tudors with original slate roofs, and grand Estate Section properties with plaster-over-lath walls and cast-iron drain systems. Slate can shed individual tiles in a windstorm without showing obvious damage from the ground, leaving an open penetration that soaks roof decking and attic insulation for days before a ceiling stain appears. Plaster walls, meanwhile, absorb moisture more slowly than modern drywall but release it even more slowly — drying timelines that assume standard gypsum board are simply wrong here.
+The housing stock compounds the challenge. A large share of homes in the 07042 and 07043 ZIP codes were built before 1950, center-hall colonials, Tudors with original slate roofs, and grand Estate Section properties with plaster-over-lath walls and cast-iron drain systems. Slate can shed individual tiles in a windstorm without showing obvious damage from the ground, leaving an open penetration that soaks roof decking and attic insulation for days before a ceiling stain appears. Plaster walls, meanwhile, absorb moisture more slowly than modern drywall but release it even more slowly, drying timelines that assume standard gypsum board are simply wrong here.
 
 Commercial properties along Bloomfield Avenue and Walnut Street face their own pattern: flat or low-slope roofs on older retail and restaurant buildings where storm debris blocks interior drains, and standing water migrates into tenant spaces within hours.
 
 ## Our Storm Damage Restoration Process in Montclair
 
-Every storm job starts with a full exterior and interior assessment before any debris is moved. For residential properties, that means walking the roof (or using aerial imaging when a slate roof makes foot traffic unsafe), checking attic insulation for hidden saturation, and probing walls with moisture meters along every exterior face that took wind-driven rain. We document everything with time-stamped photos and moisture readings — a record that matters when your insurer asks for proof of scope.
+Every storm job starts with a full exterior and interior assessment before any debris is moved. For residential properties, that means walking the roof (or using aerial imaging when a slate roof makes foot traffic unsafe), checking attic insulation for hidden saturation, and probing walls with moisture meters along every exterior face that took wind-driven rain. We document everything with time-stamped photos and moisture readings, a record that matters when your insurer asks for proof of scope.
 
 Once the assessment is complete, the work follows a deliberate sequence:
 
 1. **Emergency tarping and board-up** to stop active water intrusion at roof penetrations, broken windows, or compromised siding.
-2. **Water extraction and drying** using truck-mounted extractors and desiccant or refrigerant dehumidifiers sized to the actual cubic footage of the affected space — not a one-size number.
-3. **Debris removal and structural triage** — identifying which materials (insulation, plaster, sheathing) can dry in place versus what needs to come out to prevent mold colonization, which can begin in as little as 48–72 hours in a warm, humid space.
+2. **Water extraction and drying** using truck-mounted extractors and desiccant or refrigerant dehumidifiers sized to the actual cubic footage of the affected space, not a one-size number.
+3. **Debris removal and structural triage**, identifying which materials (insulation, plaster, sheathing) can dry in place versus what needs to come out to prevent mold colonization, which can begin in as little as 48–72 hours in a warm, humid space.
 4. **Reconstruction scoping** coordinated with your insurance adjuster, covering everything from slate tile replacement to plaster repair to finished-basement rebuilds.
 
-For properties near Anderson Park or along the lower streets feeding toward Frog Hollow, we also assess whether sewer backflow is part of the loss — a distinction that affects both the remediation method and the insurance coverage line.
+For properties near Anderson Park or along the lower streets feeding toward Frog Hollow, we also assess whether sewer backflow is part of the loss, a distinction that affects both the remediation method and the insurance coverage line.
 
 ## Reaching Montclair from Kenilworth
 
@@ -49,12 +49,12 @@ The Restoration Group is headquartered in Kenilworth, roughly 8 miles southwest 
 
 ## Montclair Insurance Coordination
 
-Most standard homeowners policies in New Jersey cover wind and falling-tree damage but treat sewer backup and flood as separate endorsements — a distinction that becomes very real after an Ida-type event. We prepare itemized loss documentation that separates wind-driven water intrusion from ground-level flooding so your adjuster can apply the correct coverage lines. For Estate Section properties with high replacement-cost values, we also note material-specific line items (slate, plaster, original millwork) rather than substituting modern equivalents in the estimate, which protects your right to like-kind restoration under most policy language.
+Most standard homeowners policies in New Jersey cover wind and falling-tree damage but treat sewer backup and flood as separate endorsements, a distinction that becomes very real after an Ida-type event. We prepare itemized loss documentation that separates wind-driven water intrusion from ground-level flooding so your adjuster can apply the correct coverage lines. For Estate Section properties with high replacement-cost values, we also note material-specific line items (slate, plaster, original millwork) rather than substituting modern equivalents in the estimate, which protects your right to like-kind restoration under most policy language.
 
 We bill carriers directly and work with most major insurers active in Essex County. You should not need to front the full remediation cost while waiting for a claim to settle.
 
 ## Local Note
 
-One pattern we see repeatedly on Montclair's older streets: a large oak or Norway maple comes down on a roof, the visible damage is addressed, but the impact also cracked the parging on a chimney or shifted flashing around a dormer — small openings that don't show up until the next rain. On pre-1950 homes with original masonry chimneys, it's worth asking your contractor to probe the chimney crown and flashing after any significant tree strike, not just the obvious breach. We include that check as a standard part of our Montclair storm assessments because we've traced more than a few "mystery leaks" back to exactly that.
+One pattern we see repeatedly on Montclair's older streets: a large oak or Norway maple comes down on a roof, the visible damage is addressed, but the impact also cracked the parging on a chimney or shifted flashing around a dormer, small openings that don't show up until the next rain. On pre-1950 homes with original masonry chimneys, it's worth asking your contractor to probe the chimney crown and flashing after any significant tree strike, not just the obvious breach. We include that check as a standard part of our Montclair storm assessments because we've traced more than a few "mystery leaks" back to exactly that.
 
 If a storm has left your home or building open to the elements, call (855) 650-7422. Whether you're in Upper Montclair or the South End, we'll assess the damage, secure the structure, and walk you through every step from emergency tarping to the final coat of paint.

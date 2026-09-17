@@ -19,23 +19,23 @@ state: "NJ"
 primary: false
 rendered: true
 ---
-When a pipe bursts in a Lake Hiawatha split-level at 2 a.m. or a sprinkler head discharges in a Waterview office suite on a Sunday, The Restoration Group dispatches from Kenilworth around the clock — extracting water, drying structural cavities, remediating mold, and managing fire and smoke damage for homeowners, landlords, and commercial property managers across Parsippany-Troy Hills. One call to (855) 650-7422 starts the process.
+When a pipe bursts in a Lake Hiawatha split-level at 2 a.m. or a sprinkler head discharges in a Waterview office suite on a Sunday, The Restoration Group dispatches from Kenilworth around the clock, extracting water, drying structural cavities, remediating mold, and managing fire and smoke damage for homeowners, landlords, and commercial property managers across Parsippany-Troy Hills. One call to (855) 650-7422 starts the process.
 
 ## Restoration emergencies common in Parsippany
 
-Parsippany-Troy Hills is a township built largely in the postwar decades — capes, ranches, and split-levels clustered around lake communities in ZIP codes 07054 and 07005, plus the tightly packed Victorian cottages of the Mount Tabor Historic District in 07950. That housing stock carries real vulnerabilities: galvanized supply lines and cast-iron drains that have been quietly corroding for fifty or sixty years, finished basements that sit at or near the water table, and crawl spaces that collect moisture every spring.
+Parsippany-Troy Hills is a township built largely in the postwar decades, capes, ranches, and split-levels clustered around lake communities in ZIP codes 07054 and 07005, plus the tightly packed Victorian cottages of the Mount Tabor Historic District in 07950. That housing stock carries real vulnerabilities: galvanized supply lines and cast-iron drains that have been quietly corroding for fifty or sixty years, finished basements that sit at or near the water table, and crawl spaces that collect moisture every spring.
 
-The Whippany River and Troy Brook run through low-lying sections of the township, and Lake Hiawatha has flooded severely more than once — most recently during Tropical Storm Ida in 2021, which inundated first floors and finished basements across the neighborhood within hours. Homeowners near Rainbow Lakes and Lake Parsippany carry the same flood risk. On the commercial side, the dense office parks and hotels along Route 46 and the Waterview commercial district generate their own category of losses: overnight roof leaks, HVAC condensate failures, and sprinkler-system discharges that can saturate thousands of square feet of carpet and drywall before the building manager arrives in the morning.
+The Whippany River and Troy Brook run through low-lying sections of the township, and Lake Hiawatha has flooded severely more than once, most recently during Tropical Storm Ida in 2021, which inundated first floors and finished basements across the neighborhood within hours. Homeowners near Rainbow Lakes and Lake Parsippany carry the same flood risk. On the commercial side, the dense office parks and hotels along Route 46 and the Waterview commercial district generate their own category of losses: overnight roof leaks, HVAC condensate failures, and sprinkler-system discharges that can saturate thousands of square feet of carpet and drywall before the building manager arrives in the morning.
 
 ## Services we provide in Parsippany
 
 ### Water damage restoration
 
-Water damage in Parsippany often starts below grade. Aging supply plumbing fails inside finished basement walls, and storm-driven groundwater infiltrates through block foundations in the older lake tracts around Lake Hiawatha and Lake Parsippany. Our crews extract standing water, use thermal imaging to locate moisture trapped inside wall cavities and under flooring, and dry to the IICRC S500 standard — which matters when a Morris County building inspector or an insurance adjuster is reviewing the scope.
+Water damage in Parsippany often starts below grade. Aging supply plumbing fails inside finished basement walls, and storm-driven groundwater infiltrates through block foundations in the older lake tracts around Lake Hiawatha and Lake Parsippany. Our crews extract standing water, use thermal imaging to locate moisture trapped inside wall cavities and under flooring, and dry to the IICRC S500 standard, which matters when a Morris County building inspector or an insurance adjuster is reviewing the scope.
 
 ### Mold remediation
 
-Mold can begin colonizing wet drywall and wood framing within 24 to 48 hours of a water event. In Parsippany's older homes — particularly the cottages in Mount Tabor and the lake-community ranches — inadequate vapor barriers and limited subfloor ventilation accelerate that timeline. We contain affected areas, remove compromised materials, and treat surfaces to industry protocols. We do not make medical claims about air quality outcomes, but we do follow documented remediation procedures and can coordinate with third-party industrial hygienists for post-clearance testing.
+Mold can begin colonizing wet drywall and wood framing within 24 to 48 hours of a water event. In Parsippany's older homes, particularly the cottages in Mount Tabor and the lake-community ranches, inadequate vapor barriers and limited subfloor ventilation accelerate that timeline. We contain affected areas, remove compromised materials, and treat surfaces to industry protocols. We do not make medical claims about air quality outcomes, but we do follow documented remediation procedures and can coordinate with third-party industrial hygienists for post-clearance testing.
 
 ### Fire and smoke damage restoration
 
@@ -47,16 +47,16 @@ A sprinkler discharge or roof leak in a Waterview corridor office building is a 
 
 ### Reconstruction
 
-Once drying and remediation are complete, we handle the rebuild — framing, drywall, flooring, painting — so property owners are not coordinating a separate general contractor. This matters especially on complex losses in Parsippany's split-levels, where structural drying often requires opening multiple floor assemblies.
+Once drying and remediation are complete, we handle the rebuild, framing, drywall, flooring, painting, so property owners are not coordinating a separate general contractor. This matters especially on complex losses in Parsippany's split-levels, where structural drying often requires opening multiple floor assemblies.
 
 ## Coverage and how fast we can get there
 
-The Restoration Group's headquarters in Kenilworth sits roughly 25 miles from Parsippany via I-78 West to I-287 North — a straightforward run that keeps us well within our service radius. We operate 24/7, so a call at any hour reaches a live dispatcher, not a voicemail. Crews can reach Lake Hiawatha, Mount Tabor, and the Waterview commercial corridor without navigating surface-road bottlenecks, and the I-80/287 interchange gives us direct access to the eastern and western ends of the township.
+The Restoration Group's headquarters in Kenilworth sits roughly 25 miles from Parsippany via I-78 West to I-287 North, a straightforward run that keeps us well within our service radius. We operate 24/7, so a call at any hour reaches a live dispatcher, not a voicemail. Crews can reach Lake Hiawatha, Mount Tabor, and the Waterview commercial corridor without navigating surface-road bottlenecks, and the I-80/287 interchange gives us direct access to the eastern and western ends of the township.
 
 ## Building stock, site conditions, and permits in Parsippany
 
-Postwar capes and split-levels here typically sit on block foundations with a basement or partial crawl space, and their interiors are drywall over wood framing — but the Mount Tabor cottages are older, with plaster and lath that holds water far longer than drywall and has to be dried or removed differently. Anything built before the late 1970s can carry lead paint, asbestos floor tile, or asbestos pipe wrap in the basement, and the oldest houses may still have knob-and-tube in reach of a wet ceiling. The valley soils along the Whippany and Troy Brook are glacial and alluvial, so groundwater sits high and pushes back against block walls.
+Postwar capes and split-levels here typically sit on block foundations with a basement or partial crawl space, and their interiors are drywall over wood framing, but the Mount Tabor cottages are older, with plaster and lath that holds water far longer than drywall and has to be dried or removed differently. Anything built before the late 1970s can carry lead paint, asbestos floor tile, or asbestos pipe wrap in the basement, and the oldest houses may still have knob-and-tube in reach of a wet ceiling. The valley soils along the Whippany and Troy Brook are glacial and alluvial, so groundwater sits high and pushes back against block walls.
 
 Permits in the township are issued under the New Jersey Uniform Construction Code by the local construction office. Cosmetic replacement usually is not a permit item; framing, electrical, plumbing, and any rebuild in a mapped flood zone are.
 
-If you're dealing with water, fire, mold, or structural damage anywhere in Parsippany-Troy Hills — from a flooded basement in Lake Hiawatha to a smoke-damaged Victorian in Mount Tabor — call The Restoration Group at **(855) 650-7422**. We're available around the clock and will walk you through next steps before a crew ever arrives on site.
+If you're dealing with water, fire, mold, or structural damage anywhere in Parsippany-Troy Hills, from a flooded basement in Lake Hiawatha to a smoke-damaged Victorian in Mount Tabor, call The Restoration Group at **(855) 650-7422**. We're available around the clock and will walk you through next steps before a crew ever arrives on site.

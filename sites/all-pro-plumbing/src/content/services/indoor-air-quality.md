@@ -17,27 +17,27 @@ service_slug: "indoor-air-quality"
 service_display: "Indoor Air Quality Services"
 rendered: true
 ---
-You've changed the filters, dusted the vents, and still someone in the house wakes up congested every morning. The dog sneezes. The baby's eczema won't clear. The air just feels heavy — stale in a way that cracking a window doesn't fix. That's the signature of an air quality problem that lives inside the HVAC system itself: biological growth on the evaporator coil, particulates too fine for a standard 1-inch filter, humidity swings that feed dust mites, or volatile organic compounds cycling through the ductwork every time the fan runs. Indoor air quality services address the source, not the symptom.
+You've changed the filters, dusted the vents, and still someone in the house wakes up congested every morning. The dog sneezes. The baby's eczema won't clear. The air just feels heavy, stale in a way that cracking a window doesn't fix. That's the signature of an air quality problem that lives inside the HVAC system itself: biological growth on the evaporator coil, particulates too fine for a standard 1-inch filter, humidity swings that feed dust mites, or volatile organic compounds cycling through the ductwork every time the fan runs. Indoor air quality services address the source, not the symptom.
 
 ## What indoor air quality services actually involve
 
 The work spans four overlapping categories: filtration, purification, humidity control, and testing. Each one targets a different class of contaminant.
 
-**Filtration upgrades** replace or retrofit the air handler's filter rack with a higher-efficiency media filter — typically MERV 11–16 — capable of capturing fine particulates, pollen, pet dander, and mold spores that pass straight through the 1-inch fiberglass filters most homes shipped with. The upgrade sometimes requires a new filter cabinet to maintain adequate airflow; forcing a thick media filter into an undersized rack starves the blower and drives up energy bills.
+**Filtration upgrades** replace or retrofit the air handler's filter rack with a higher-efficiency media filter, typically MERV 11–16, capable of capturing fine particulates, pollen, pet dander, and mold spores that pass straight through the 1-inch fiberglass filters most homes shipped with. The upgrade sometimes requires a new filter cabinet to maintain adequate airflow; forcing a thick media filter into an undersized rack starves the blower and drives up energy bills.
 
 **UV air purifiers for HVAC** mount inside the air handler, typically aimed at the evaporator coil. The coil's cool, damp surface is a reliable growth environment for mold and bacteria; a properly positioned UV-C lamp disrupts the DNA of those organisms before conditioned air carries them into living spaces. Some systems add a second lamp in the return-air stream for broader coverage.
 
 **Whole home humidifier installation** matters more in Bakersfield winters than most residents expect. When the furnace runs, it strips moisture from already-dry high-desert air. Relative humidity below 30% dries out nasal passages (the body's first line of defense against airborne pathogens), causes hardwood floors and cabinetry to crack, and increases static electricity. A bypass or fan-powered humidifier plumbed to the supply line and controlled by a humidistat keeps the home in the 35–50% RH range where occupants are most comfortable and respiratory linings stay intact.
 
-**Indoor air quality testing** establishes a baseline before any equipment goes in — and confirms results after. Testing typically covers particulate counts (PM2.5 and PM10), carbon dioxide as a proxy for ventilation adequacy, volatile organic compounds, and relative humidity. The data tells us which intervention will actually move the needle rather than guessing at equipment.
+**Indoor air quality testing** establishes a baseline before any equipment goes in, and confirms results after. Testing typically covers particulate counts (PM2.5 and PM10), carbon dioxide as a proxy for ventilation adequacy, volatile organic compounds, and relative humidity. The data tells us which intervention will actually move the needle rather than guessing at equipment.
 
 ## Our process
 
-1. **Whole-home assessment and air quality testing.** We start with a walkthrough and instrument readings — particulate counts, CO₂ levels, humidity, and a visual inspection of the air handler, coil, and accessible ductwork. This step identifies whether the problem is filtration, biological growth, humidity, ventilation, or a combination.
+1. **Whole-home assessment and air quality testing.** We start with a walkthrough and instrument readings, particulate counts, CO₂ levels, humidity, and a visual inspection of the air handler, coil, and accessible ductwork. This step identifies whether the problem is filtration, biological growth, humidity, ventilation, or a combination.
 
 2. **System audit and airflow measurement.** Before recommending any equipment, we verify that the existing air handler can support it. A high-MERV filter on an undersized blower motor creates negative pressure that pulls unconditioned air through every gap in the building envelope. We measure static pressure and CFM so any upgrade is matched to what the system can actually move.
 
-3. **Equipment selection and installation.** Based on the assessment, we install the appropriate combination: media filter cabinet, UV-C purifier, whole house humidifier, or an integrated air purifier that combines ionization and filtration. Every installation is tied into the existing thermostat or control board so the equipment runs in coordination with the HVAC system — not independently on its own timer.
+3. **Equipment selection and installation.** Based on the assessment, we install the appropriate combination: media filter cabinet, UV-C purifier, whole house humidifier, or an integrated air purifier that combines ionization and filtration. Every installation is tied into the existing thermostat or control board so the equipment runs in coordination with the HVAC system, not independently on its own timer.
 
 4. **Post-installation verification.** We run the system through a full cycle and retest the key metrics from step one. Particulate counts should drop measurably within the first hour of operation. Humidity readings confirm the humidistat is calibrated. UV lamp output is verified with a UV meter, not assumed from the indicator light.
 
@@ -47,16 +47,16 @@ The work spans four overlapping categories: filtration, purification, humidity c
 
 The most common mistake is installing equipment without testing first. A UV lamp does nothing for a particulate problem; a thicker filter does nothing for biological growth on a coil that's already colonized. Selling equipment by symptom rather than measurement wastes money and leaves the underlying issue untouched.
 
-The second mistake is ignoring airflow. Upgrading to a MERV 13 filter in a system designed for MERV 8 can increase static pressure enough to crack a heat exchanger over time or cause the evaporator coil to ice over in summer. Bakersfield's long cooling season — condensers running from April through October on 100°F-plus afternoons — means a compromised system doesn't get a rest period to recover.
+The second mistake is ignoring airflow. Upgrading to a MERV 13 filter in a system designed for MERV 8 can increase static pressure enough to crack a heat exchanger over time or cause the evaporator coil to ice over in summer. Bakersfield's long cooling season, condensers running from April through October on 100°F-plus afternoons, means a compromised system doesn't get a rest period to recover.
 
 A third oversight is skipping humidity control entirely. Dust mite populations peak above 50% RH; respiratory irritation climbs below 30%. In the Central Valley, where summer outdoor humidity can drop into the single digits and winter heating runs long, the indoor humidity range swings dramatically without active control. An air purifier in a 25% RH environment is fighting uphill.
 
 ## Seasonal and regional considerations
 
-Bakersfield's geography creates specific IAQ pressures. The San Joaquin Valley's agricultural activity means spring pollen counts and harvest-season particulates are among the highest in California. Valley fever (*Coccidioides* spores) is a real airborne concern in disturbed soil conditions. Summer inversion layers trap vehicle and industrial emissions at ground level, pushing outdoor PM2.5 indoors through every air handler that pulls a return. Fall and winter bring tule fog and wood-smoke from residential burning. A filtration and purification system sized for a mild-climate city will underperform here — equipment selection needs to account for the actual particle load the Valley produces.
+Bakersfield's geography creates specific IAQ pressures. The San Joaquin Valley's agricultural activity means spring pollen counts and harvest-season particulates are among the highest in California. Valley fever (*Coccidioides* spores) is a real airborne concern in disturbed soil conditions. Summer inversion layers trap vehicle and industrial emissions at ground level, pushing outdoor PM2.5 indoors through every air handler that pulls a return. Fall and winter bring tule fog and wood-smoke from residential burning. A filtration and purification system sized for a mild-climate city will underperform here, equipment selection needs to account for the actual particle load the Valley produces.
 
 ## Service area
 
 All Pro Plumbing Heating and Air installs and services indoor air quality equipment throughout Bakersfield and the surrounding communities, including Oildale, Rosedale, Shafter, Wasco, Delano, Tehachapi, and Lamont. Dedicated service pages for each city link back here for full technical detail on equipment and process.
 
-If the air in your home feels wrong — or if someone in the household has symptoms that improve when they leave and return when they come back — call **(661) 863-9242** to schedule a whole-home air quality assessment. We'll test first, then recommend exactly what the data supports.
+If the air in your home feels wrong, or if someone in the household has symptoms that improve when they leave and return when they come back, call **(661) 863-9242** to schedule a whole-home air quality assessment. We'll test first, then recommend exactly what the data supports.

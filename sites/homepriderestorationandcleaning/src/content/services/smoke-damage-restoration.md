@@ -20,36 +20,36 @@ rendered: true
 ---
 ## The smell that won't leave
 
-Smoke doesn't behave like water — it doesn't pool in one place and wait to be extracted. Within hours of a fire, smoke particles migrate through wall cavities, settle into HVAC ductwork, and bond chemically to porous surfaces like drywall, wood framing, and upholstery. Three days later, the visible char may be gone but the odor is still radiating from inside your walls. That's the problem smoke damage restoration exists to solve: not just cleaning what you can see, but neutralizing what you can't.
+Smoke doesn't behave like water, it doesn't pool in one place and wait to be extracted. Within hours of a fire, smoke particles migrate through wall cavities, settle into HVAC ductwork, and bond chemically to porous surfaces like drywall, wood framing, and upholstery. Three days later, the visible char may be gone but the odor is still radiating from inside your walls. That's the problem smoke damage restoration exists to solve: not just cleaning what you can see, but neutralizing what you can't.
 
 ## What smoke damage restoration actually involves
 
-Smoke damage work is fundamentally different from general cleaning. The residue left behind varies by what burned — synthetic materials like carpet and plastics produce a wet, smearing soot that smudges on contact and requires chemical dry-cleaning sponges before any wet product touches it. Protein-based fires (kitchen fires, especially) leave an almost invisible film that carries an intense, penetrating odor and bonds tightly to painted surfaces. Wood and paper fires produce a dry, powdery soot that's easier to capture but travels farther through a structure.
+Smoke damage work is fundamentally different from general cleaning. The residue left behind varies by what burned, synthetic materials like carpet and plastics produce a wet, smearing soot that smudges on contact and requires chemical dry-cleaning sponges before any wet product touches it. Protein-based fires (kitchen fires, especially) leave an almost invisible film that carries an intense, penetrating odor and bonds tightly to painted surfaces. Wood and paper fires produce a dry, powdery soot that's easier to capture but travels farther through a structure.
 
-Equipment matters here. Thermal foggers push a deodorizing agent in the same particle-size range as smoke itself, allowing it to penetrate the same cavities smoke reached. Ozone generators oxidize odor-causing compounds at the molecular level — but require the structure to be vacated during treatment. Hydroxyl generators offer a slower alternative that's safe to run while occupants are present. Air scrubbers with HEPA filtration run continuously to capture airborne particulates throughout the process.
+Equipment matters here. Thermal foggers push a deodorizing agent in the same particle-size range as smoke itself, allowing it to penetrate the same cavities smoke reached. Ozone generators oxidize odor-causing compounds at the molecular level, but require the structure to be vacated during treatment. Hydroxyl generators offer a slower alternative that's safe to run while occupants are present. Air scrubbers with HEPA filtration run continuously to capture airborne particulates throughout the process.
 
 Timeline on a residential job typically runs 3–7 days depending on the size of the affected area, the soot type, and how deeply smoke migrated into the structure. Ductwork cleaning, contents pack-out, and reconstruction of fire-damaged materials add time.
 
 ## Our process
 
 **1. Soot characterization and scope assessment**
-Before any cleaning starts, a technician identifies the soot type present — dry, wet, or protein — because the wrong cleaning method can permanently set residue into surfaces. We document every affected room, surface, and content item with photos and moisture readings. This documentation also becomes your insurance file.
+Before any cleaning starts, a technician identifies the soot type present, dry, wet, or protein, because the wrong cleaning method can permanently set residue into surfaces. We document every affected room, surface, and content item with photos and moisture readings. This documentation also becomes your insurance file.
 
 **2. Dry soot removal and pre-cleaning**
-Dry residues are vacuumed using HEPA-filtered equipment and lifted with dry-cleaning sponges before any liquid cleaner is introduced. Applying water or wet products to dry soot first is one of the most common errors in smoke cleanup — it turns removable powder into a permanent stain.
+Dry residues are vacuumed using HEPA-filtered equipment and lifted with dry-cleaning sponges before any liquid cleaner is introduced. Applying water or wet products to dry soot first is one of the most common errors in smoke cleanup, it turns removable powder into a permanent stain.
 
 **3. Surface cleaning and deodorizing**
-Wet and protein residues are treated with appropriate chemical agents matched to the surface type — alkaline cleaners for acidic smoke residue on walls and ceilings, enzymatic products for protein films, solvent-based products for synthetic soot on hard surfaces. Thermal fogging follows once surfaces are clean, pushing deodorizer into wall cavities, subflooring gaps, and attic spaces where smoke traveled.
+Wet and protein residues are treated with appropriate chemical agents matched to the surface type, alkaline cleaners for acidic smoke residue on walls and ceilings, enzymatic products for protein films, solvent-based products for synthetic soot on hard surfaces. Thermal fogging follows once surfaces are clean, pushing deodorizer into wall cavities, subflooring gaps, and attic spaces where smoke traveled.
 
 **4. HVAC and ductwork inspection**
-Smoke almost always enters the duct system. We inspect supply and return registers, air handlers, and accessible ductwork for residue. Contaminated ductwork that's left untreated will re-distribute odor and particulates every time the system runs — often months after the original fire.
+Smoke almost always enters the duct system. We inspect supply and return registers, air handlers, and accessible ductwork for residue. Contaminated ductwork that's left untreated will re-distribute odor and particulates every time the system runs, often months after the original fire.
 
 **5. Clearance check and documentation**
 Once cleaning and deodorization are complete, we do a final walkthrough with the homeowner to confirm odor elimination and surface cleanliness before closing out the job. All work is documented for your insurance claim, including before-and-after photos and a written scope of work.
 
 ## What separates a good smoke damage response from a bad one
 
-The most common failure in smoke cleanup is treating it as a surface problem. A crew that wipes down walls, sprays an odor-masking product, and calls it done will leave a house that smells fine for two weeks — then the odor returns as residue inside wall cavities continues to off-gas. Insurance adjusters reviewing a claim months later look specifically for evidence that ductwork was addressed, that thermal fogging or ozone treatment was performed, and that soot type was documented before cleaning began.
+The most common failure in smoke cleanup is treating it as a surface problem. A crew that wipes down walls, sprays an odor-masking product, and calls it done will leave a house that smells fine for two weeks, then the odor returns as residue inside wall cavities continues to off-gas. Insurance adjusters reviewing a claim months later look specifically for evidence that ductwork was addressed, that thermal fogging or ozone treatment was performed, and that soot type was documented before cleaning began.
 
 A second common error is skipping contents evaluation. Smoke-damaged furniture, clothing, and personal items that stay inside a structure during cleanup re-contaminate cleaned surfaces. Proper smoke damage restoration services include a contents inventory and, where warranted, pack-out to an off-site cleaning facility.
 
@@ -57,14 +57,14 @@ IICRC-certified technicians are trained on the S700 Standard for Professional Sm
 
 ## Seasonal and regional considerations
 
-Saratoga Springs and the broader Utah County corridor sit at the edge of a wildfire-prone landscape. Summers regularly bring smoke events from fires in the Uinta National Forest, Traverse Mountains, and across the state line — and wildfire smoke behaves differently from structural fire smoke. It's finer particulate, travels farther, and infiltrates homes through gaps and HVAC systems even when no fire touches the structure. Post-fire smoke cleanup after a wildfire event often focuses on interior air quality, duct cleaning, and surface deodorization rather than soot removal.
+Saratoga Springs and the broader Utah County corridor sit at the edge of a wildfire-prone landscape. Summers regularly bring smoke events from fires in the Uinta National Forest, Traverse Mountains, and across the state line, and wildfire smoke behaves differently from structural fire smoke. It's finer particulate, travels farther, and infiltrates homes through gaps and HVAC systems even when no fire touches the structure. Post-fire smoke cleanup after a wildfire event often focuses on interior air quality, duct cleaning, and surface deodorization rather than soot removal.
 
-The region's low humidity also means smoke residue dries and bonds to surfaces faster than in coastal climates, narrowing the window for effective dry-soot removal. Acting quickly — ideally within 24–48 hours — significantly improves outcomes and reduces the scope of work.
+The region's low humidity also means smoke residue dries and bonds to surfaces faster than in coastal climates, narrowing the window for effective dry-soot removal. Acting quickly, ideally within 24–48 hours, significantly improves outcomes and reduces the scope of work.
 
 ## Service area
 
-Home Pride Restoration and Cleaning is based in Saratoga Springs and provides smoke damage restoration services throughout Utah County and the surrounding region, including Eagle Mountain, Lehi, American Fork, Cedar Hills, Highland, and Pleasant Grove. City-specific pages cover local considerations in more detail — this page covers the full scope of what the service involves regardless of location.
+Home Pride Restoration and Cleaning is based in Saratoga Springs and provides smoke damage restoration services throughout Utah County and the surrounding region, including Eagle Mountain, Lehi, American Fork, Cedar Hills, Highland, and Pleasant Grove. City-specific pages cover local considerations in more detail, this page covers the full scope of what the service involves regardless of location.
 
 ---
 
-If your home or property smells like smoke — whether from a kitchen fire last night or a wildfire event two weeks ago — call **(801) 995-2437** to begin smoke and soot removal. The sooner residue is addressed, the more of your surfaces, contents, and structure can be saved.
+If your home or property smells like smoke, whether from a kitchen fire last night or a wildfire event two weeks ago, call **(801) 995-2437** to begin smoke and soot removal. The sooner residue is addressed, the more of your surfaces, contents, and structure can be saved.

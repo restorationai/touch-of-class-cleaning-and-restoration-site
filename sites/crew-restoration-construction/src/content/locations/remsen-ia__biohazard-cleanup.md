@@ -21,21 +21,21 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
-Remsen is a close-knit Plymouth County community where neighbors know each other by name and word travels fast — which makes an unexpected biohazard situation at a residence or commercial property especially difficult to navigate. Whether the circumstances involve an unattended death, a medical emergency, blood or bodily fluids, sharps disposal, or infectious material, Crew Restoration & Construction responds with the discretion and technical care that a situation like this demands. We handle the logistics so families and property owners in the 51050 area can step back from an already painful moment.
+Remsen is a close-knit Plymouth County community where neighbors know each other by name and word travels fast, which makes an unexpected biohazard situation at a residence or commercial property especially difficult to navigate. Whether the circumstances involve an unattended death, a medical emergency, blood or bodily fluids, sharps disposal, or infectious material, Crew Restoration & Construction responds with the discretion and technical care that a situation like this demands. We handle the logistics so families and property owners in the 51050 area can step back from an already painful moment.
 
 ## Why Remsen Properties Present Unique Biohazard Cleanup Challenges
 
-Remsen's housing stock reflects its history. Many homes near the St. Mary's district and throughout Downtown Remsen were built in the mid-20th century or earlier, featuring original hardwood subfloors, plaster-and-lath wall construction, and unfinished basement areas with poured-concrete or dirt floors. These materials behave very differently from modern construction when biological contamination is present. Hardwood and plaster are porous — they absorb fluids quickly and can harbor pathogens well below the visible surface. Standard surface cleaning is not sufficient. Proper remediation requires material testing, controlled removal of affected layers, and treatment of the underlying substrate before any reconstruction begins.
+Remsen's housing stock reflects its history. Many homes near the St. Mary's district and throughout Downtown Remsen were built in the mid-20th century or earlier, featuring original hardwood subfloors, plaster-and-lath wall construction, and unfinished basement areas with poured-concrete or dirt floors. These materials behave very differently from modern construction when biological contamination is present. Hardwood and plaster are porous, they absorb fluids quickly and can harbor pathogens well below the visible surface. Standard surface cleaning is not sufficient. Proper remediation requires material testing, controlled removal of affected layers, and treatment of the underlying substrate before any reconstruction begins.
 
 Northwest Iowa's climate adds another layer of complexity. Remsen experiences significant temperature swings between seasons, and older homes without consistent HVAC often sit at temperatures and humidity levels that accelerate microbial activity after a contamination event. The longer a scene goes unaddressed, the deeper the remediation work typically needs to go.
 
 ## Our Biohazard Remediation Process in Remsen
 
-Every job begins with a contained assessment — we do not walk through an affected space without proper personal protective equipment, and we establish a work perimeter before any materials are touched. From there, the process follows a structured sequence:
+Every job begins with a contained assessment, we do not walk through an affected space without proper personal protective equipment, and we establish a work perimeter before any materials are touched. From there, the process follows a structured sequence:
 
 **Containment and access control.** We limit foot traffic to the affected area immediately, protecting adjacent rooms and any occupants still on the property.
 
-**Removal of contaminated materials.** Porous materials that cannot be decontaminated to a safe standard — carpet, padding, sections of subfloor, drywall — are bagged, sealed, and transported for regulated disposal in compliance with Iowa Department of Natural Resources requirements for infectious waste.
+**Removal of contaminated materials.** Porous materials that cannot be decontaminated to a safe standard, carpet, padding, sections of subfloor, drywall, are bagged, sealed, and transported for regulated disposal in compliance with Iowa Department of Natural Resources requirements for infectious waste.
 
 **Surface treatment and disinfection.** We apply EPA-registered hospital-grade disinfectants to all affected hard surfaces, including concrete, framing lumber, and HVAC components if exposure is confirmed.
 
@@ -47,14 +47,14 @@ Every job begins with a contained assessment — we do not walk through an affec
 
 Crew Restoration & Construction dispatches crews from the Sioux Falls, SD region and serves communities throughout northwest Iowa and the surrounding tri-state area. Remsen sits along Highway 140 in Plymouth County, and our crews are familiar with the route. When you call (605) 965-2727, we work to get a team scheduled as promptly as the situation allows. We understand that biohazard situations rarely happen at a convenient time, and we treat every call with the urgency and privacy it deserves.
 
-For properties near Remsen City Park or along the residential streets feeding into Downtown Remsen, we coordinate arrival discreetly — unmarked or low-profile vehicles are available on request when privacy at the address is a priority.
+For properties near Remsen City Park or along the residential streets feeding into Downtown Remsen, we coordinate arrival discreetly, unmarked or low-profile vehicles are available on request when privacy at the address is a priority.
 
 ## Insurance Coordination for Biohazard Cleanup in Remsen
 
-Many homeowner and commercial property policies in Iowa cover biohazard remediation under their sudden-and-accidental loss provisions, though coverage varies by carrier and policy language. We document the scope of work thoroughly — photographs, written scope, itemized invoices — in a format that aligns with standard insurance claim requirements. We work alongside adjusters and can communicate directly with your carrier to reduce the administrative burden on you during an already difficult time. If coverage is limited or denied, we discuss options transparently before work begins.
+Many homeowner and commercial property policies in Iowa cover biohazard remediation under their sudden-and-accidental loss provisions, though coverage varies by carrier and policy language. We document the scope of work thoroughly, photographs, written scope, itemized invoices, in a format that aligns with standard insurance claim requirements. We work alongside adjusters and can communicate directly with your carrier to reduce the administrative burden on you during an already difficult time. If coverage is limited or denied, we discuss options transparently before work begins.
 
 ## Local Note
 
-One thing that comes up in older Remsen homes, particularly those built in the German Catholic settlement era near St. Mary's Catholic Church, is the presence of full or partial root cellars and unfinished utility spaces beneath the main floor. These areas are often overlooked during an initial walkthrough but can trap biological contamination, odors, and moisture in ways that affect the living space above. We make a point of inspecting below-grade spaces as part of every assessment in homes of this vintage — it's a step that prevents callbacks and ensures the remediation is actually complete.
+One thing that comes up in older Remsen homes, particularly those built in the German Catholic settlement era near St. Mary's Catholic Church, is the presence of full or partial root cellars and unfinished utility spaces beneath the main floor. These areas are often overlooked during an initial walkthrough but can trap biological contamination, odors, and moisture in ways that affect the living space above. We make a point of inspecting below-grade spaces as part of every assessment in homes of this vintage, it's a step that prevents callbacks and ensures the remediation is actually complete.
 
-If you're managing a property in Remsen and facing a situation that requires biohazard cleanup, call Crew Restoration & Construction at (605) 965-2727. We handle the process with professionalism, protect your privacy, and work to restore the property — and your peace of mind — as efficiently as the work safely allows.
+If you're managing a property in Remsen and facing a situation that requires biohazard cleanup, call Crew Restoration & Construction at (605) 965-2727. We handle the process with professionalism, protect your privacy, and work to restore the property, and your peace of mind, as efficiently as the work safely allows.

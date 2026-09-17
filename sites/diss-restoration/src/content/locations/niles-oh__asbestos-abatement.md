@@ -20,46 +20,46 @@ state: "OH"
 service_display: "Asbestos Abatement"
 rendered: true
 ---
-Niles sits in the Mahoning Valley, a region where the industrial boom of the early-to-mid twentieth century left a deep imprint on the housing stock. Homes built during that era — from modest worker bungalows to larger two-stories near the old mill corridors — routinely incorporated asbestos-containing materials in floor tiles, pipe insulation, roofing felt, and textured ceiling finishes. If you're planning a renovation, dealing with deteriorating materials, or preparing a property for sale, asbestos abatement in Niles isn't a precaution you can skip.
+Niles sits in the Mahoning Valley, a region where the industrial boom of the early-to-mid twentieth century left a deep imprint on the housing stock. Homes built during that era, from modest worker bungalows to larger two-stories near the old mill corridors, routinely incorporated asbestos-containing materials in floor tiles, pipe insulation, roofing felt, and textured ceiling finishes. If you're planning a renovation, dealing with deteriorating materials, or preparing a property for sale, asbestos abatement in Niles isn't a precaution you can skip.
 
 ## Why Niles Properties See Asbestos Issues
 
-Trumbull County's industrial history shaped Niles the same way it shaped neighboring Youngstown and Warren — waves of construction from the 1920s through the 1960s produced housing that was built to last, but built with materials we now know carry serious health risks when disturbed.
+Trumbull County's industrial history shaped Niles the same way it shaped neighboring Youngstown and Warren, waves of construction from the 1920s through the 1960s produced housing that was built to last, but built with materials we now know carry serious health risks when disturbed.
 
 The most common sources in Niles-area homes include:
 
 - **Popcorn and textured ceilings** applied before 1980, which frequently tested positive for chrysotile asbestos
-- **9×9 and 12×12 vinyl floor tiles** and the black mastic adhesive beneath them — a near-universal marker of mid-century construction
+- **9×9 and 12×12 vinyl floor tiles** and the black mastic adhesive beneath them, a near-universal marker of mid-century construction
 - **Pipe and boiler insulation** in basements, especially in homes that ran steam or hot-water heat through cast-iron radiators
 - **Exterior transite siding and roofing shingles** on homes built before federal restrictions tightened
 - **Joint compound and drywall tape** in homes renovated between the 1950s and early 1970s
 
-The freeze-thaw cycles that define northeast Ohio winters accelerate the deterioration of older building materials. When pipe insulation cracks from temperature stress or a basement floods and floor tiles begin to lift, previously stable asbestos-containing material can become friable — meaning it crumbles and releases fibers into the air. That's the threshold where professional abatement becomes urgent, not optional.
+The freeze-thaw cycles that define northeast Ohio winters accelerate the deterioration of older building materials. When pipe insulation cracks from temperature stress or a basement floods and floor tiles begin to lift, previously stable asbestos-containing material can become friable, meaning it crumbles and releases fibers into the air. That's the threshold where professional abatement becomes urgent, not optional.
 
 ## Our Asbestos Abatement Process in Niles
 
 Abatement isn't simply pulling out old material. Ohio EPA regulations govern how asbestos work must be conducted, including notification requirements for certain project types, containment standards, and proper disposal at licensed facilities. Every project moves through the same disciplined sequence:
 
-**1. Inspection and bulk sampling** — A certified inspector collects samples of suspect materials and sends them to an accredited laboratory. No abatement plan is built on assumption.
+**1. Inspection and bulk sampling**, A certified inspector collects samples of suspect materials and sends them to an accredited laboratory. No abatement plan is built on assumption.
 
-**2. Regulatory notification** — For projects that meet Ohio EPA threshold quantities, the appropriate notifications are filed before work begins. Skipping this step can expose a property owner to significant liability.
+**2. Regulatory notification**, For projects that meet Ohio EPA threshold quantities, the appropriate notifications are filed before work begins. Skipping this step can expose a property owner to significant liability.
 
-**3. Containment setup** — The work area is isolated with poly sheeting and negative air pressure units equipped with HEPA filtration. Adjacent living spaces are protected from cross-contamination.
+**3. Containment setup**, The work area is isolated with poly sheeting and negative air pressure units equipped with HEPA filtration. Adjacent living spaces are protected from cross-contamination.
 
-**4. Controlled removal** — Asbestos-containing material is wetted to suppress fiber release, then carefully removed by trained workers in full PPE. Popcorn ceiling removal, floor tile extraction, and pipe insulation stripping each require specific technique.
+**4. Controlled removal**, Asbestos-containing material is wetted to suppress fiber release, then carefully removed by trained workers in full PPE. Popcorn ceiling removal, floor tile extraction, and pipe insulation stripping each require specific technique.
 
-**5. Waste packaging and disposal** — All material is double-bagged in labeled, sealed containers and transported to a licensed disposal facility. Chain-of-custody documentation travels with every load.
+**5. Waste packaging and disposal**, All material is double-bagged in labeled, sealed containers and transported to a licensed disposal facility. Chain-of-custody documentation travels with every load.
 
-**6. Air clearance testing** — Post-abatement air sampling by an independent party confirms fiber levels are below clearance thresholds before containment is removed and the space is released.
+**6. Air clearance testing**, Post-abatement air sampling by an independent party confirms fiber levels are below clearance thresholds before containment is removed and the space is released.
 
-DISS Restoration is EPA Lead-Safe Certified and OSHA trained, which matters in Niles because many homes old enough to contain asbestos also contain lead-based paint — both hazards often appear together in the same renovation scope.
+DISS Restoration is EPA Lead-Safe Certified and OSHA trained, which matters in Niles because many homes old enough to contain asbestos also contain lead-based paint, both hazards often appear together in the same renovation scope.
 
 ## Reaching Niles from Youngstown
 
-DISS Restoration is based in Youngstown, and Niles is a straightforward run west on Route 422 — typically a short drive under normal traffic conditions. Because the team operates 24/7, a call at any hour connects you with someone who can schedule an inspection or dispatch for an emergency situation involving disturbed asbestos material. If you've accidentally cut into a popcorn ceiling or broken up old floor tiles without knowing what they contained, stopping work immediately and calling for guidance is the right first step — we can advise you on safe interim measures before a crew arrives.
+DISS Restoration is based in Youngstown, and Niles is a straightforward run west on Route 422, typically a short drive under normal traffic conditions. Because the team operates 24/7, a call at any hour connects you with someone who can schedule an inspection or dispatch for an emergency situation involving disturbed asbestos material. If you've accidentally cut into a popcorn ceiling or broken up old floor tiles without knowing what they contained, stopping work immediately and calling for guidance is the right first step, we can advise you on safe interim measures before a crew arrives.
 
 ## Local Note
 
-Homes in Niles that were built or substantially renovated during the post-war manufacturing boom often have layered flooring — original hardwood covered by one or two generations of vinyl tile, sometimes with a layer of luan underlayment in between. Each layer can contain its own hazardous material: asbestos in the tile, lead in old paint on the subfloor edges, and occasionally both in the adhesive. When a project involves floor replacement in a home of this era, sampling every distinct layer before demolition begins is the only way to avoid an unplanned abatement mid-renovation. It's a detail that catches contractors off guard in this part of Trumbull County more often than homeowners expect.
+Homes in Niles that were built or substantially renovated during the post-war manufacturing boom often have layered flooring, original hardwood covered by one or two generations of vinyl tile, sometimes with a layer of luan underlayment in between. Each layer can contain its own hazardous material: asbestos in the tile, lead in old paint on the subfloor edges, and occasionally both in the adhesive. When a project involves floor replacement in a home of this era, sampling every distinct layer before demolition begins is the only way to avoid an unplanned abatement mid-renovation. It's a detail that catches contractors off guard in this part of Trumbull County more often than homeowners expect.
 
-If you're dealing with suspect materials in a Niles property — whether it's a popcorn ceiling you've been meaning to remove, pipe insulation in a basement that's starting to crumble, or floor tiles lifting after a water event — call DISS Restoration at (724) 981-1441. The conversation starts with an inspection, not a commitment.
+If you're dealing with suspect materials in a Niles property, whether it's a popcorn ceiling you've been meaning to remove, pipe insulation in a basement that's starting to crumble, or floor tiles lifting after a water event, call DISS Restoration at (724) 981-1441. The conversation starts with an inspection, not a commitment.

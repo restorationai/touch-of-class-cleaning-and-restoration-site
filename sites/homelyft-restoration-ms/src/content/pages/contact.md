@@ -19,12 +19,12 @@ Whether you're dealing with standing water in your living room or need a quote o
 
 ## For urgent situations
 
-Water damage spreads fast — soaked drywall, saturated subfloor, and the first signs of mold can all develop within 24 to 48 hours of a leak. If you have active water intrusion, fire or smoke damage, or a biohazard situation, call us directly at **(228) 284-5200**. Our team is available during business hours and will work to get you scheduled as quickly as possible. Don't wait on an email form when the clock is running.
+Water damage spreads fast, soaked drywall, saturated subfloor, and the first signs of mold can all develop within 24 to 48 hours of a leak. If you have active water intrusion, fire or smoke damage, or a biohazard situation, call us directly at **(228) 284-5200**. Our team is available during business hours and will work to get you scheduled as quickly as possible. Don't wait on an email form when the clock is running.
 
 ## For estimates and non-urgent inquiries
 
-If your situation is stable — you need a written estimate, have questions about a previous job, or want to understand how the insurance process works before committing — email us at **info@homelyft.net** or use the contact form on this page. We typically respond to non-urgent inquiries within one business day. Having photos of the affected area ready when you reach out helps us give you a more accurate preliminary assessment before we ever set foot on site.
+If your situation is stable, you need a written estimate, have questions about a previous job, or want to understand how the insurance process works before committing, email us at **info@homelyft.net** or use the contact form on this page. We typically respond to non-urgent inquiries within one business day. Having photos of the affected area ready when you reach out helps us give you a more accurate preliminary assessment before we ever set foot on site.
 
 ## Where we're located
 
-Our office is at **1311 Spring Street, Gulfport, MS 39507**, in the heart of the Mississippi Gulf Coast. We serve residential and commercial properties across the region, including Biloxi, Long Beach, Pass Christian, D'Iberville, Ocean Springs, and surrounding Harrison and Hancock County communities. The Gulf Coast's humidity and storm exposure mean water and mold issues here move faster than in drier climates — local knowledge matters when you're trying to stop the damage before it compounds. If you're unsure whether you're in our service area, just call and ask.
+Our office is at **1311 Spring Street, Gulfport, MS 39507**, in the heart of the Mississippi Gulf Coast. We serve residential and commercial properties across the region, including Biloxi, Long Beach, Pass Christian, D'Iberville, Ocean Springs, and surrounding Harrison and Hancock County communities. The Gulf Coast's humidity and storm exposure mean water and mold issues here move faster than in drier climates, local knowledge matters when you're trying to stop the damage before it compounds. If you're unsure whether you're in our service area, just call and ask.

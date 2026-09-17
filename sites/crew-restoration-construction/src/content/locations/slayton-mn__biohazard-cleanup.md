@@ -21,23 +21,23 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
-Murray County's wide-open prairie winters and the freeze-thaw cycles around Lake Sarah create conditions that push Slayton properties hard — and when a biohazard situation arises inside one of those homes or commercial buildings, the stress compounds quickly. Whether the incident involves blood, bodily fluids, sharps, or other infectious material, the priority is the same: contain the risk, restore the space with discretion, and let the people involved focus on what matters most. Crew Restoration & Construction handles that work calmly and thoroughly, serving the 56172 ZIP code with the same care we bring to every job.
+Murray County's wide-open prairie winters and the freeze-thaw cycles around Lake Sarah create conditions that push Slayton properties hard, and when a biohazard situation arises inside one of those homes or commercial buildings, the stress compounds quickly. Whether the incident involves blood, bodily fluids, sharps, or other infectious material, the priority is the same: contain the risk, restore the space with discretion, and let the people involved focus on what matters most. Crew Restoration & Construction handles that work calmly and thoroughly, serving the 56172 ZIP code with the same care we bring to every job.
 
 ## Why Slayton Properties Present Unique Biohazard Challenges
 
-Slayton's housing stock skews older — many homes near Downtown Slayton were built in the mid-20th century, with construction methods that complicate remediation work. Porous subfloor materials, original hardwood over concrete slabs, and older HVAC ductwork can all absorb biological contaminants in ways that aren't visible on the surface. A thorough cleanup isn't just about what you can see; it's about what the structure has absorbed.
+Slayton's housing stock skews older, many homes near Downtown Slayton were built in the mid-20th century, with construction methods that complicate remediation work. Porous subfloor materials, original hardwood over concrete slabs, and older HVAC ductwork can all absorb biological contaminants in ways that aren't visible on the surface. A thorough cleanup isn't just about what you can see; it's about what the structure has absorbed.
 
-Murray County also sits in a region where seasonal moisture swings are significant. Spring thaw and the occasional flooding near the Lake Sarah area mean that crawl spaces and basements in this part of southwestern Minnesota often carry elevated baseline humidity. That ambient moisture doesn't cause a biohazard event on its own, but it does affect how biological material behaves once it's present — and it affects how long affected materials remain a risk if remediation is delayed.
+Murray County also sits in a region where seasonal moisture swings are significant. Spring thaw and the occasional flooding near the Lake Sarah area mean that crawl spaces and basements in this part of southwestern Minnesota often carry elevated baseline humidity. That ambient moisture doesn't cause a biohazard event on its own, but it does affect how biological material behaves once it's present, and it affects how long affected materials remain a risk if remediation is delayed.
 
-Finally, Slayton's relatively small population means that privacy is a genuine concern. Neighbors notice vehicles. Word travels. Our crews arrive in unmarked vehicles when requested, and we coordinate scheduling to minimize visibility — something that matters more in a tight-knit county seat than it might in a metro area.
+Finally, Slayton's relatively small population means that privacy is a genuine concern. Neighbors notice vehicles. Word travels. Our crews arrive in unmarked vehicles when requested, and we coordinate scheduling to minimize visibility, something that matters more in a tight-knit county seat than it might in a metro area.
 
 ## Our Biohazard Cleanup Process in Slayton
 
-Every job begins with a careful assessment of the affected area before any materials are touched. We identify the full extent of contamination — including areas that may not be immediately obvious — and develop a containment and removal plan before work begins.
+Every job begins with a careful assessment of the affected area before any materials are touched. We identify the full extent of contamination, including areas that may not be immediately obvious, and develop a containment and removal plan before work begins.
 
 Containment comes first. We isolate the affected space to prevent cross-contamination to unaffected rooms or HVAC systems. From there, all biological material and contaminated porous items are removed, bagged, and transported according to Minnesota Department of Health and applicable federal OSHA regulations for infectious waste. This isn't a step we shortcut.
 
-After physical removal, we apply EPA-registered hospital-grade disinfectants to all affected surfaces. Hard surfaces are treated and verified. Porous materials — carpet, padding, drywall, subfloor — are evaluated individually; those that cannot be adequately disinfected are removed rather than treated in place. The final step is deodorization and a post-remediation verification before we close out the job.
+After physical removal, we apply EPA-registered hospital-grade disinfectants to all affected surfaces. Hard surfaces are treated and verified. Porous materials, carpet, padding, drywall, subfloor, are evaluated individually; those that cannot be adequately disinfected are removed rather than treated in place. The final step is deodorization and a post-remediation verification before we close out the job.
 
 ## Reaching Slayton from Sioux Falls
 
@@ -53,6 +53,6 @@ For Slayton property owners, we can help identify what documentation your carrie
 
 ## Local Note
 
-One thing we've learned working in older Murray County homes: the original linoleum and adhesive used on mid-century kitchen and bathroom floors — common in homes built around Slayton in the 1950s and 1960s — can trap biological material beneath the surface layer without any visible indication at the seam. Standard surface disinfection isn't enough in those cases. We probe and test beneath floor coverings before signing off on any job in a home with that era of construction, because the risk doesn't always present itself at eye level.
+One thing we've learned working in older Murray County homes: the original linoleum and adhesive used on mid-century kitchen and bathroom floors, common in homes built around Slayton in the 1950s and 1960s, can trap biological material beneath the surface layer without any visible indication at the seam. Standard surface disinfection isn't enough in those cases. We probe and test beneath floor coverings before signing off on any job in a home with that era of construction, because the risk doesn't always present itself at eye level.
 
 When something difficult has happened at your property in Slayton, the last thing you need is uncertainty about whether the space is truly safe. Call Crew Restoration & Construction at (605) 965-2727 and we'll walk you through exactly what the process looks like, what to expect, and how we'll handle it with the discretion this kind of work requires.

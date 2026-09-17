@@ -20,21 +20,21 @@ state: "MA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
-Framingham's mix of mid-century colonials, older triple-deckers, and commercial corridors along Route 9 means that when a fire tears through a roof or a storm pushes a tree through a second-story window, the structure left behind is often more vulnerable than it looks. Exposed framing, open soffits, and aging rooflines can let weather in within hours — and in a Massachusetts spring or fall, "a few hours" can mean soaked insulation and the start of a mold clock. Quality Contracting, Inc. provides emergency board-up and tarping to secure those openings before the next weather system arrives.
+Framingham's mix of mid-century colonials, older triple-deckers, and commercial corridors along Route 9 means that when a fire tears through a roof or a storm pushes a tree through a second-story window, the structure left behind is often more vulnerable than it looks. Exposed framing, open soffits, and aging rooflines can let weather in within hours, and in a Massachusetts spring or fall, "a few hours" can mean soaked insulation and the start of a mold clock. Quality Contracting, Inc. provides emergency board-up and tarping to secure those openings before the next weather system arrives.
 
 ## Why Framingham Properties Are Particularly Exposed After a Loss
 
-Framingham's housing stock spans a wide range of construction eras. Neighborhoods closer to downtown feature homes built in the early-to-mid 1900s with balloon-frame construction — a style where wall cavities run continuously from the basement to the rafters. When fire or impact damage opens that framing to the outside, wind and rain can travel through the entire wall column, not just the damaged section. A board-up that only covers the obvious opening may leave hidden pathways to moisture infiltration.
+Framingham's housing stock spans a wide range of construction eras. Neighborhoods closer to downtown feature homes built in the early-to-mid 1900s with balloon-frame construction, a style where wall cavities run continuously from the basement to the rafters. When fire or impact damage opens that framing to the outside, wind and rain can travel through the entire wall column, not just the damaged section. A board-up that only covers the obvious opening may leave hidden pathways to moisture infiltration.
 
-The region's weather compounds the problem. Nor'easters can arrive with little warning and bring sustained winds and heavy rain. Even a partial roof opening left unprotected overnight can allow enough water intrusion to ruin structural sheathing, ceiling assemblies, and floor systems below — damage that far exceeds the cost of a proper tarp installation done promptly.
+The region's weather compounds the problem. Nor'easters can arrive with little warning and bring sustained winds and heavy rain. Even a partial roof opening left unprotected overnight can allow enough water intrusion to ruin structural sheathing, ceiling assemblies, and floor systems below, damage that far exceeds the cost of a proper tarp installation done promptly.
 
 Route 9 and the Route 30 corridor also bring commercial and mixed-use properties into the picture. Storefront glass failures, whether from fire suppression activity, vandalism, or storm debris, need immediate board-up to deter unauthorized entry and satisfy the property's insurance carrier.
 
 ## Our Board-Up and Tarping Process in Framingham
 
-Every job starts with a visual assessment of all compromised openings — not just the one that's obvious. On older Framingham homes, that often means checking the attic access and soffit lines after a roof event, because displaced shingles and lifted flashing can leave gaps that aren't visible from the ground.
+Every job starts with a visual assessment of all compromised openings, not just the one that's obvious. On older Framingham homes, that often means checking the attic access and soffit lines after a roof event, because displaced shingles and lifted flashing can leave gaps that aren't visible from the ground.
 
-For roof tarping, we use reinforced polyethylene tarps secured with furring strips and screws driven into sound decking — not bungee cords or sandbags that shift in wind. The goal is a tarp that stays put through a New England storm, not one that needs to be reset the next morning.
+For roof tarping, we use reinforced polyethylene tarps secured with furring strips and screws driven into sound decking, not bungee cords or sandbags that shift in wind. The goal is a tarp that stays put through a New England storm, not one that needs to be reset the next morning.
 
 For window and door board-up, we cut plywood to fit each opening and fasten it in a way that resists both wind load and opportunistic entry. On fire-damaged structures where the framing around an opening may be weakened, we assess whether the board-up anchor points are structurally sound before relying on them.
 
@@ -42,16 +42,16 @@ We photograph every opening before and after securing it. That documentation goe
 
 ## Reaching Framingham from Auburn
 
-Quality Contracting, Inc. is based in Auburn, which puts Framingham roughly along the Route 20 or Mass Pike corridor — a straightforward run east under most conditions. Traffic on the Pike between Auburn and the Framingham exits can slow during peak commute hours, but the routing options via Route 20 or I-290 to I-495 give flexibility when one corridor is congested.
+Quality Contracting, Inc. is based in Auburn, which puts Framingham roughly along the Route 20 or Mass Pike corridor, a straightforward run east under most conditions. Traffic on the Pike between Auburn and the Framingham exits can slow during peak commute hours, but the routing options via Route 20 or I-290 to I-495 give flexibility when one corridor is congested.
 
 For properties in Framingham's denser residential areas or near the downtown core, street access and parking for a work truck and material load should be considered. On narrow streets with on-street parking, we may need to coordinate briefly with neighbors or the property owner to stage materials safely. A quick call ahead when you contact us helps us plan the approach and arrive ready to work.
 
 ## Working with Insurance Carriers After a Framingham Loss
 
-Most homeowner and commercial property policies cover emergency board-up and tarping as part of the mitigation obligation — the idea being that you are required to take reasonable steps to prevent further damage after a covered loss. Failing to secure an opening promptly can complicate a claim if additional water or vandalism damage occurs afterward.
+Most homeowner and commercial property policies cover emergency board-up and tarping as part of the mitigation obligation, the idea being that you are required to take reasonable steps to prevent further damage after a covered loss. Failing to secure an opening promptly can complicate a claim if additional water or vandalism damage occurs afterward.
 
 We provide itemized documentation of materials used, labor, and the condition of each opening at the time of service. This format is familiar to adjusters handling Massachusetts residential claims and reduces back-and-forth on line items. If your carrier requires a specific form or scope format, let us know when you call.
 
 ## Local Note
 
-Framingham has a notable number of homes with attached garages and finished bonus rooms built over them — a construction pattern common in the suburban expansion of the 1970s and 1980s throughout Middlesex County. When fire or storm damage affects the garage roof or the wall shared with the living space above, the opening between conditioned and unconditioned space can be surprisingly large and irregular. Standard sheet dimensions don't always cover it cleanly. On these structures, we cut and layer panels to ensure the thermal boundary is fully closed, not just the exterior skin — because an unsealed gap between a cold garage and a finished room above will pull in cold air and moisture even if the outer wall looks covered.
+Framingham has a notable number of homes with attached garages and finished bonus rooms built over them, a construction pattern common in the suburban expansion of the 1970s and 1980s throughout Middlesex County. When fire or storm damage affects the garage roof or the wall shared with the living space above, the opening between conditioned and unconditioned space can be surprisingly large and irregular. Standard sheet dimensions don't always cover it cleanly. On these structures, we cut and layer panels to ensure the thermal boundary is fully closed, not just the exterior skin, because an unsealed gap between a cold garage and a finished room above will pull in cold air and moisture even if the outer wall looks covered.

@@ -19,51 +19,51 @@ rendered: true
 ---
 ## The first 48 hours after a fire define what can be saved
 
-Soot doesn't wait. Within hours of a fire being extinguished, acidic smoke residue begins etching chrome fixtures, yellowing painted surfaces, and embedding itself into porous materials — drywall, wood framing, upholstery, clothing. The smell that seems to fade by morning has actually migrated deeper into wall cavities and HVAC ductwork. Fire and smoke restoration isn't just cleaning what you can see; it's stopping an ongoing chemical process that continues long after the flames are out.
+Soot doesn't wait. Within hours of a fire being extinguished, acidic smoke residue begins etching chrome fixtures, yellowing painted surfaces, and embedding itself into porous materials, drywall, wood framing, upholstery, clothing. The smell that seems to fade by morning has actually migrated deeper into wall cavities and HVAC ductwork. Fire and smoke restoration isn't just cleaning what you can see; it's stopping an ongoing chemical process that continues long after the flames are out.
 
 ## What fire damage restoration actually involves
 
-Fire damage is rarely one problem — it's four happening simultaneously: structural damage from heat and flames, smoke and soot contamination across surfaces the fire never touched, water damage from suppression efforts, and odor that has penetrated building materials at a molecular level.
+Fire damage is rarely one problem, it's four happening simultaneously: structural damage from heat and flames, smoke and soot contamination across surfaces the fire never touched, water damage from suppression efforts, and odor that has penetrated building materials at a molecular level.
 
-The soot type matters enormously. A kitchen grease fire produces a wet, sticky protein soot that smears if wiped incorrectly and requires enzymatic cleaning agents. A house fire that burns synthetic materials — carpet, foam insulation, plastic — generates a dry, fine-particle soot that travels farther and penetrates deeper. Misidentifying soot type is one of the most common errors in fire cleanup, and it leads to re-contamination weeks later when residue that wasn't properly neutralized begins off-gassing again.
+The soot type matters enormously. A kitchen grease fire produces a wet, sticky protein soot that smears if wiped incorrectly and requires enzymatic cleaning agents. A house fire that burns synthetic materials, carpet, foam insulation, plastic, generates a dry, fine-particle soot that travels farther and penetrates deeper. Misidentifying soot type is one of the most common errors in fire cleanup, and it leads to re-contamination weeks later when residue that wasn't properly neutralized begins off-gassing again.
 
-Equipment on a professional fire damage job includes hydroxyl generators or ozone machines for odor neutralization, thermal foggers that push deodorizing agents into the same cavities smoke traveled through, HEPA air scrubbers running continuously during restoration, and industrial-grade chemical sponges and dry-cleaning compounds matched to the specific soot type. In Bakersfield's dry, hot climate, smoke residue can bake onto surfaces faster than in coastal markets — summer jobs especially require rapid mobilization before heat accelerates the bonding of soot to finish materials.
+Equipment on a professional fire damage job includes hydroxyl generators or ozone machines for odor neutralization, thermal foggers that push deodorizing agents into the same cavities smoke traveled through, HEPA air scrubbers running continuously during restoration, and industrial-grade chemical sponges and dry-cleaning compounds matched to the specific soot type. In Bakersfield's dry, hot climate, smoke residue can bake onto surfaces faster than in coastal markets, summer jobs especially require rapid mobilization before heat accelerates the bonding of soot to finish materials.
 
 Timeline for a typical residential fire: initial emergency stabilization and board-up within the first day, soot removal and structural assessment through days two and three, deodorization treatments running in parallel, contents pack-out and inventory for salvageable items, and reconstruction beginning once the structure is cleared. A contained kitchen fire may resolve in one to two weeks; a whole-floor structural fire can run six to ten weeks through full reconstruction.
 
 ## Our process
 
 **1. Emergency stabilization and safety assessment**
-Before any cleaning begins, the structure is evaluated for safety — compromised load-bearing elements, live electrical hazards, and areas where suppression water has pooled. Windows and doors are boarded, roof penetrations are tarped, and utilities are confirmed off. This step protects the crew and prevents secondary damage from weather or vandalism.
+Before any cleaning begins, the structure is evaluated for safety, compromised load-bearing elements, live electrical hazards, and areas where suppression water has pooled. Windows and doors are boarded, roof penetrations are tarped, and utilities are confirmed off. This step protects the crew and prevents secondary damage from weather or vandalism.
 
 **2. Soot characterization and scope documentation**
-Every affected surface is catalogued and the soot type identified — wet protein residue, dry synthetic residue, or mixed. Photos and moisture readings are taken throughout. This documentation drives the cleaning protocol and forms the foundation of the insurance claim. Adjusters look for this scope document; without it, supplements are harder to justify.
+Every affected surface is catalogued and the soot type identified, wet protein residue, dry synthetic residue, or mixed. Photos and moisture readings are taken throughout. This documentation drives the cleaning protocol and forms the foundation of the insurance claim. Adjusters look for this scope document; without it, supplements are harder to justify.
 
 **3. Contents pack-out and inventory**
-Salvageable contents — furniture, clothing, electronics, documents — are inventoried, photographed, and transported to a climate-controlled facility for cleaning. Items left in a smoke-saturated structure continue absorbing odor. Separating contents from the structure also gives crews unobstructed access to walls, floors, and ceilings.
+Salvageable contents, furniture, clothing, electronics, documents, are inventoried, photographed, and transported to a climate-controlled facility for cleaning. Items left in a smoke-saturated structure continue absorbing odor. Separating contents from the structure also gives crews unobstructed access to walls, floors, and ceilings.
 
 **4. Surface cleaning, HEPA filtration, and thermal fogging**
-Ceilings are cleaned before walls, walls before floors — always top to bottom, working clean to dirty. Chemical sponges, wet-cleaning agents, and pressure washing (where structurally appropriate) are matched to the soot type identified in step two. HEPA air scrubbers run continuously. Thermal fogging follows surface cleaning: the fog penetrates wall voids, subfloor cavities, and ductwork, reaching smoke deposits that surface cleaning can't touch.
+Ceilings are cleaned before walls, walls before floors, always top to bottom, working clean to dirty. Chemical sponges, wet-cleaning agents, and pressure washing (where structurally appropriate) are matched to the soot type identified in step two. HEPA air scrubbers run continuously. Thermal fogging follows surface cleaning: the fog penetrates wall voids, subfloor cavities, and ductwork, reaching smoke deposits that surface cleaning can't touch.
 
 **5. Clearance verification and reconstruction handoff**
-Odor testing and visual inspection confirm the structure is ready for reconstruction. If the scope includes structural fire damage repair — replacing charred framing, drywall, flooring, or cabinetry — the rebuild phase begins with a documented scope of work. ProRestoration Services carries license #960566 and handles both the mitigation and reconstruction sides, which eliminates the coordination gap that delays many post-fire projects.
+Odor testing and visual inspection confirm the structure is ready for reconstruction. If the scope includes structural fire damage repair, replacing charred framing, drywall, flooring, or cabinetry, the rebuild phase begins with a documented scope of work. ProRestoration Services carries license #960566 and handles both the mitigation and reconstruction sides, which eliminates the coordination gap that delays many post-fire projects.
 
 ## What separates a good fire response from a bad one
 
 The most common failure point is treating every fire job the same. A crew that applies the same dry-sponge technique to protein soot from a cooking fire will smear the residue and seal it into the surface. A crew that skips thermal fogging because the visible soot is cleaned will leave a structure that smells fine for two weeks and then reactivates when temperatures rise.
 
-Insurance adjusters look for itemized scope documentation, photo evidence at each phase, and moisture readings that confirm suppression water was properly dried before reconstruction. Adjusters also look for IICRC-certified technicians on the job — it signals that the work followed a defensible industry standard, which matters when a carrier reviews a supplement or a claim is disputed.
+Insurance adjusters look for itemized scope documentation, photo evidence at each phase, and moisture readings that confirm suppression water was properly dried before reconstruction. Adjusters also look for IICRC-certified technicians on the job, it signals that the work followed a defensible industry standard, which matters when a carrier reviews a supplement or a claim is disputed.
 
 HVAC systems are frequently under-scoped. Smoke travels through return air ducts during a fire and deposits residue throughout the duct network. A home that's been surface-cleaned but has contaminated ductwork will cycle smoke odor every time the system runs.
 
 ## Seasonal and regional considerations
 
-Bakersfield's San Joaquin Valley location creates specific fire-season dynamics. The dry summers and Santa Ana wind events that push through Kern County from late summer into fall mean wildfire smoke intrusion is a separate but related concern — homes that weren't directly involved in a structure fire can still accumulate exterior soot and interior smoke infiltration through HVAC systems and gaps in the building envelope. Post-wildfire smoke remediation follows a similar protocol to structure fire cleanup, though the soot profile differs.
+Bakersfield's San Joaquin Valley location creates specific fire-season dynamics. The dry summers and Santa Ana wind events that push through Kern County from late summer into fall mean wildfire smoke intrusion is a separate but related concern, homes that weren't directly involved in a structure fire can still accumulate exterior soot and interior smoke infiltration through HVAC systems and gaps in the building envelope. Post-wildfire smoke remediation follows a similar protocol to structure fire cleanup, though the soot profile differs.
 
-Heat also accelerates odor bonding. A fire that occurs in July in Bakersfield gives crews less time before smoke residue cures onto surfaces than the same fire in January — which is one reason 24/7 availability matters here.
+Heat also accelerates odor bonding. A fire that occurs in July in Bakersfield gives crews less time before smoke residue cures onto surfaces than the same fire in January, which is one reason 24/7 availability matters here.
 
 ## Service area
 
 ProRestoration Services responds to fire damage throughout Bakersfield and the surrounding Kern County region, including Shafter, Wasco, Delano, Tehachapi, Ridgecrest, and the Rosamond and Lancaster corridors. City-specific pages cover local details; this page covers the full scope of what fire and smoke restoration involves regardless of address.
 
-If you're standing in a smoke-damaged home trying to figure out where to start — call (661) 393-9306. The assessment is the first step, and the sooner soot characterization begins, the more material can be saved.
+If you're standing in a smoke-damaged home trying to figure out where to start, call (661) 393-9306. The assessment is the first step, and the sooner soot characterization begins, the more material can be saved.

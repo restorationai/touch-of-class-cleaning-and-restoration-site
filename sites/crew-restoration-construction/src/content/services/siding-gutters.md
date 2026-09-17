@@ -17,11 +17,11 @@ service_slug: "siding-gutters"
 service_display: "Siding and Gutters"
 rendered: true
 ---
-A single cracked panel or a sagging gutter section might look cosmetic, but in South Dakota's climate those small failures compound fast. Water that can't drain away from the fascia finds its way behind the siding, soaks the sheathing, and by the time you notice a soft spot on the interior wall the damage has been spreading for months. Siding and gutter work done right stops that cycle before it starts — and when storm damage is involved, it creates the documentation trail your insurance carrier needs to process the claim.
+A single cracked panel or a sagging gutter section might look cosmetic, but in South Dakota's climate those small failures compound fast. Water that can't drain away from the fascia finds its way behind the siding, soaks the sheathing, and by the time you notice a soft spot on the interior wall the damage has been spreading for months. Siding and gutter work done right stops that cycle before it starts, and when storm damage is involved, it creates the documentation trail your insurance carrier needs to process the claim.
 
 ## What siding and gutters actually involves
 
-Siding replacement is a full exterior envelope project, not just a cosmetic swap. Installers remove the damaged or deteriorated panels, inspect the housewrap and sheathing underneath for moisture intrusion or rot, make any necessary substrate repairs, and then install new material — most commonly vinyl, fiber cement (James Hardie and similar), or engineered wood — with properly lapped seams, flashed penetrations, and sealed trim. On older Sioux Falls homes with original wood siding, there's often a layer of compromised felt paper or no housewrap at all, which has to be addressed before the new product goes on.
+Siding replacement is a full exterior envelope project, not just a cosmetic swap. Installers remove the damaged or deteriorated panels, inspect the housewrap and sheathing underneath for moisture intrusion or rot, make any necessary substrate repairs, and then install new material, most commonly vinyl, fiber cement (James Hardie and similar), or engineered wood, with properly lapped seams, flashed penetrations, and sealed trim. On older Sioux Falls homes with original wood siding, there's often a layer of compromised felt paper or no housewrap at all, which has to be addressed before the new product goes on.
 
 Gutter work ranges from cleaning and resealing existing sections to full gutter replacement with new downspout routing. In this region, 5-inch K-style aluminum gutters are standard on most residential builds, but many homes benefit from an upgrade to 6-inch gutters or the addition of leaf-guard systems to handle the volume from heavy spring and fall rain events. Downspout extensions and underground drainage connections are often part of the scope when grading or foundation concerns are present.
 
@@ -31,9 +31,9 @@ A complete siding and gutter project on a typical two-story Sioux Falls home gen
 
 1. **Exterior inspection and damage documentation.** Before any material is ordered, the crew walks the full perimeter, photographs all damaged areas, probes suspect sections for soft sheathing, and checks the fascia and soffits for rot. If the loss is storm-related, this documentation goes directly to your adjuster.
 
-2. **Substrate assessment and repair.** Tear-off reveals what's actually behind the siding. Rotted OSB or plank sheathing, failed housewrap, and compromised flashing at windows and doors are addressed at this stage — not patched over. New moisture barrier is installed before any new cladding goes on.
+2. **Substrate assessment and repair.** Tear-off reveals what's actually behind the siding. Rotted OSB or plank sheathing, failed housewrap, and compromised flashing at windows and doors are addressed at this stage, not patched over. New moisture barrier is installed before any new cladding goes on.
 
-3. **Material selection and scope confirmation.** Product choice affects both price and long-term performance. The crew walks through options — panel profile, color, warranty terms — and provides a written scope of work before installation begins. No surprises on material once the job starts.
+3. **Material selection and scope confirmation.** Product choice affects both price and long-term performance. The crew walks through options, panel profile, color, warranty terms, and provides a written scope of work before installation begins. No surprises on material once the job starts.
 
 4. **Installation and flashing.** Siding is installed per manufacturer specifications, with particular attention to starter strip alignment, corner trim, and all penetration flashings (hose bibs, electrical boxes, dryer vents). Gutters are hung with correct pitch toward downspouts, secured with hidden hanger systems rather than spike-and-ferrule, and sealed at all miters and end caps.
 
@@ -41,15 +41,15 @@ A complete siding and gutter project on a typical two-story Sioux Falls home gen
 
 ## What separates a good siding and gutter job from a bad one
 
-The most common failure point in siding work is skipping or rushing the substrate inspection. Contractors under price pressure will install new siding directly over rotted or wet sheathing, which guarantees the same moisture problem returns within a few years. A thorough tear-off and probe of the wall assembly — especially around windows, at the base of walls near grade, and anywhere previous caulking has failed — is what separates a lasting repair from one that looks good in photos and fails in three winters.
+The most common failure point in siding work is skipping or rushing the substrate inspection. Contractors under price pressure will install new siding directly over rotted or wet sheathing, which guarantees the same moisture problem returns within a few years. A thorough tear-off and probe of the wall assembly, especially around windows, at the base of walls near grade, and anywhere previous caulking has failed, is what separates a lasting repair from one that looks good in photos and fails in three winters.
 
-On the gutter side, spike-and-ferrule hangers are still common on older homes and they pull away from the fascia over time, especially under the weight of ice and snow. Replacing them with hidden hanger systems screwed directly into the rafter tails makes a measurable difference in how long the gutters stay properly pitched. Downspout placement and extension length also matter more than most homeowners realize — water deposited too close to the foundation is one of the leading contributors to basement moisture problems in Sioux Falls's clay-heavy soils.
+On the gutter side, spike-and-ferrule hangers are still common on older homes and they pull away from the fascia over time, especially under the weight of ice and snow. Replacing them with hidden hanger systems screwed directly into the rafter tails makes a measurable difference in how long the gutters stay properly pitched. Downspout placement and extension length also matter more than most homeowners realize, water deposited too close to the foundation is one of the leading contributors to basement moisture problems in Sioux Falls's clay-heavy soils.
 
 Insurance adjusters reviewing storm-damage claims look for consistent documentation: photos taken before tear-off, a clear scope distinguishing storm-caused damage from pre-existing wear, and material specs that match what was removed. Gaps in that documentation are the most common reason supplement requests get delayed.
 
 ## What does siding and gutters cost?
 
-Typical costs vary significantly based on home size, material choice, and the extent of any substrate damage found during tear-off. Most homeowners pay somewhere in the ranges below, based on industry averages — these are not quotes from Crew Restoration & Construction, and every loss is different. Crew Restoration & Construction provides a written scope of work before any project begins so there are no surprises mid-job. Homeowners insurance typically covers siding and gutter replacement when damage is caused by a covered peril such as hail, wind, or falling debris — wear and pre-existing deterioration are generally excluded.
+Typical costs vary significantly based on home size, material choice, and the extent of any substrate damage found during tear-off. Most homeowners pay somewhere in the ranges below, based on industry averages, these are not quotes from Crew Restoration & Construction, and every loss is different. Crew Restoration & Construction provides a written scope of work before any project begins so there are no surprises mid-job. Homeowners insurance typically covers siding and gutter replacement when damage is caused by a covered peril such as hail, wind, or falling debris, wear and pre-existing deterioration are generally excluded.
 
 | Scenario | Typical industry range |
 |---|---|
@@ -62,9 +62,9 @@ Typical costs vary significantly based on home size, material choice, and the ex
 
 ## Seasonal and regional considerations
 
-Sioux Falls sits in a hail corridor — late spring through early fall brings repeated storm events that can damage siding and gutters that looked fine the season before. Fiber cement and thicker vinyl profiles (0.046" and above) hold up noticeably better to hail impact than standard builder-grade vinyl, which is worth considering when replacing after a storm rather than matching original material.
+Sioux Falls sits in a hail corridor, late spring through early fall brings repeated storm events that can damage siding and gutters that looked fine the season before. Fiber cement and thicker vinyl profiles (0.046" and above) hold up noticeably better to hail impact than standard builder-grade vinyl, which is worth considering when replacing after a storm rather than matching original material.
 
-Winter creates its own set of issues. Ice dams forming at the eave line put enormous lateral stress on gutters, and freeze-thaw cycling works at any unsealed seam or penetration in the siding. Scheduling siding work before the first hard freeze — ideally wrapping up by late October — gives sealants and caulking time to cure properly before temperatures drop.
+Winter creates its own set of issues. Ice dams forming at the eave line put enormous lateral stress on gutters, and freeze-thaw cycling works at any unsealed seam or penetration in the siding. Scheduling siding work before the first hard freeze, ideally wrapping up by late October, gives sealants and caulking time to cure properly before temperatures drop.
 
 ## Service area
 

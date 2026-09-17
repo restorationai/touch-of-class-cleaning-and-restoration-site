@@ -17,20 +17,20 @@ published_at: "2026-06-18"
 services: ["water-heater-repair", "water-heater-installation"]
 rendered: true
 ---
-Most tank water heaters last **8 to 12 years**. Tankless units typically reach **15 to 20 years** with proper maintenance. If your water heater is inside that window and showing problems, repair is often worth it. If it's past it — or if the repair cost approaches half the price of a new unit — replacement usually makes more financial sense. The sections below walk through the real signals, the math, and the decision points so you can go into any conversation with a plumber knowing exactly what questions to ask.
+Most tank water heaters last **8 to 12 years**. Tankless units typically reach **15 to 20 years** with proper maintenance. If your water heater is inside that window and showing problems, repair is often worth it. If it's past it, or if the repair cost approaches half the price of a new unit, replacement usually makes more financial sense. The sections below walk through the real signals, the math, and the decision points so you can go into any conversation with a plumber knowing exactly what questions to ask.
 
 ## How Long Water Heaters Actually Last (And Why Bakersfield's Water Shortens That)
 
-The 8-to-12-year figure for tank heaters assumes average water quality. Bakersfield sits in the southern San Joaquin Valley, where municipal water hardness regularly runs above 200 mg/L — well into "very hard" territory. That mineral load accelerates scale buildup inside the tank and on the heating elements, which means local heaters often show their age closer to the 8-year mark rather than the 12.
+The 8-to-12-year figure for tank heaters assumes average water quality. Bakersfield sits in the southern San Joaquin Valley, where municipal water hardness regularly runs above 200 mg/L, well into "very hard" territory. That mineral load accelerates scale buildup inside the tank and on the heating elements, which means local heaters often show their age closer to the 8-year mark rather than the 12.
 
 Here's a quick breakdown by type:
 
 - **Standard tank (gas or electric):** 8–12 years in hard-water areas; up to 15 in soft-water regions
-- **Tankless (on-demand):** 15–20 years, but requires annual descaling — skip that in Bakersfield and you'll shorten the lifespan noticeably
+- **Tankless (on-demand):** 15–20 years, but requires annual descaling, skip that in Bakersfield and you'll shorten the lifespan noticeably
 - **Heat pump water heaters:** 10–15 years; efficiency gains are real, but the compressor adds a component that can fail
 - **Solar with backup tank:** 15–20 years for the collector; the backup tank follows standard tank lifespan
 
-The single best indicator of where your unit stands: the serial number. Most manufacturers encode the manufacture date in the first four characters. Bradford White uses a letter for the month (A = January) followed by a two-digit year. A.O. Smith encodes the year and week. Look it up on the manufacturer's website — the sticker is usually on the upper third of the tank.
+The single best indicator of where your unit stands: the serial number. Most manufacturers encode the manufacture date in the first four characters. Bradford White uses a letter for the month (A = January) followed by a two-digit year. A.O. Smith encodes the year and week. Look it up on the manufacturer's website, the sticker is usually on the upper third of the tank.
 
 ## Warning Signs That Something Is Wrong
 
@@ -40,14 +40,14 @@ Some symptoms point clearly toward repair. Others point toward replacement. A fe
 
 - Pilot light keeps going out on a gas heater (likely a thermocouple)
 - No hot water but the tank is intact (heating element on electric, gas valve or igniter on gas)
-- Pressure-relief valve dripping (often a straightforward valve swap — but have it diagnosed, not just replaced blindly)
+- Pressure-relief valve dripping (often a straightforward valve swap, but have it diagnosed, not just replaced blindly)
 - Lukewarm water that used to be hot (sediment buildup, element wear, or thermostat drift)
 
 **Signs that lean toward replacement:**
 
-- Rust-colored water at the hot tap — if it clears after running the cold tap too, the problem is the tank lining, not the pipes
+- Rust-colored water at the hot tap, if it clears after running the cold tap too, the problem is the tank lining, not the pipes
 - A low rumbling or popping sound when the burner fires: that's sediment that has hardened into a layer at the bottom of the tank, forcing the burner to work through it. Flushing sometimes helps early on; once it sounds like gravel in a dryer, the tank is near the end.
-- Active leak from the tank body or bottom seam — tanks do not get repaired once they're leaking from the vessel itself
+- Active leak from the tank body or bottom seam, tanks do not get repaired once they're leaking from the vessel itself
 - The unit is 10+ years old and has already had one repair
 
 **The smell test:** A rotten-egg odor in hot water usually means sulfur-reducing bacteria reacting with a magnesium anode rod. Swapping to an aluminum/zinc anode often fixes it and is worth doing on a heater that's otherwise healthy. On an older unit, it's one more data point toward replacement.
@@ -59,7 +59,7 @@ Plumbers sometimes use a version of the "50 percent rule" borrowed from applianc
 Work through it this way:
 
 1. **Find the age** using the serial number method above.
-2. **Get a repair estimate** — not a guess, an actual diagnosis with a quoted price.
+2. **Get a repair estimate**, not a guess, an actual diagnosis with a quoted price.
 3. **Get a replacement quote** for a comparable unit (same fuel type, similar capacity).
 4. **Apply the matrix:**
 
@@ -79,9 +79,9 @@ If you're reading this because something is happening today, here's the immediat
 
 **If the tank is leaking:**
 1. Turn the cold-water supply valve to the heater to the off position (it's on the pipe going into the top of the tank).
-2. For a gas unit, turn the thermostat dial to "Pilot" — don't shut off the gas at the meter unless the leak is severe or you smell gas.
+2. For a gas unit, turn the thermostat dial to "Pilot", don't shut off the gas at the meter unless the leak is severe or you smell gas.
 3. For an electric unit, switch off the breaker for the water heater.
-4. Attach a garden hose to the drain valve at the base of the tank and run it to a floor drain or outside — this relieves pressure and slows the spread of water.
+4. Attach a garden hose to the drain valve at the base of the tank and run it to a floor drain or outside, this relieves pressure and slows the spread of water.
 5. Call a plumber. A leaking tank is not a DIY repair.
 
 **If you smell gas near the water heater:** Leave the house immediately without operating any switches or appliances. Call 911 or SoCalGas's emergency line (1-800-427-2200) from outside. Only after the utility clears the scene should you call a plumber to inspect the connections and relight the unit.
@@ -92,14 +92,14 @@ If you're reading this because something is happening today, here's the immediat
 
 If the math points toward replacement, a few decisions come before you pick a unit:
 
-**Fuel type:** Switching from gas to electric (or vice versa) adds cost — new lines, new venting, possibly a panel upgrade for a heat pump model. Most homeowners stick with the same fuel type unless there's a strong efficiency or rebate reason to switch.
+**Fuel type:** Switching from gas to electric (or vice versa) adds cost, new lines, new venting, possibly a panel upgrade for a heat pump model. Most homeowners stick with the same fuel type unless there's a strong efficiency or rebate reason to switch.
 
-**Capacity:** The old rule of 20 gallons per person per day is conservative. A 40-gallon gas tank handles two to three people comfortably; 50 gallons covers three to four. Tankless sizing is based on flow rate (gallons per minute) and incoming water temperature — a plumber should calculate this, not guess.
+**Capacity:** The old rule of 20 gallons per person per day is conservative. A 40-gallon gas tank handles two to three people comfortably; 50 gallons covers three to four. Tankless sizing is based on flow rate (gallons per minute) and incoming water temperature, a plumber should calculate this, not guess.
 
-**Permits:** In Bakersfield, water heater replacements require a permit and inspection through the City of Bakersfield Building Division. Any professional installation should include pulling that permit — it protects you at resale and confirms the installation meets current code, including seismic strapping requirements.
+**Permits:** In Bakersfield, water heater replacements require a permit and inspection through the City of Bakersfield Building Division. Any professional installation should include pulling that permit, it protects you at resale and confirms the installation meets current code, including seismic strapping requirements.
 
 **Timeline:** A straightforward tank swap typically takes two to four hours from arrival to hot water. Tankless conversions that require new gas line sizing or venting can take a full day.
 
 ---
 
-If you've worked through the framework above and you're leaning toward a service call or a replacement quote, All Pro Plumbing Heating and Air handles both [water heater repair](tel:6618639242) and [water heater installation](tel:6618639242) in Bakersfield and the surrounding area. Give them a call at **(661) 863-9242** — describe what you're seeing and they can tell you whether it warrants a diagnostic visit or a replacement conversation.
+If you've worked through the framework above and you're leaning toward a service call or a replacement quote, All Pro Plumbing Heating and Air handles both [water heater repair](tel:6618639242) and [water heater installation](tel:6618639242) in Bakersfield and the surrounding area. Give them a call at **(661) 863-9242**, describe what you're seeing and they can tell you whether it warrants a diagnostic visit or a replacement conversation.

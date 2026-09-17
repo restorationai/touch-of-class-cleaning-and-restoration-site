@@ -20,25 +20,25 @@ state: "NJ"
 service_display: "Mold Remediation"
 rendered: true
 ---
-Perth Amboy's position at the mouth of the Raritan River has always meant water — and after Hurricane Sandy pushed tidal surge through the Waterfront district and into the basements of century-old two- and three-family homes along the low blocks, mold became a slow-moving second disaster for many property owners. That combination of coastal storm exposure, aging building stock, and chronically damp foundations creates conditions where mold can colonize hidden cavities within 24 to 72 hours of a moisture event. When that happens, calling a certified remediation team — not a general contractor with a bottle of bleach — is what determines whether the problem is solved or simply painted over.
+Perth Amboy's position at the mouth of the Raritan River has always meant water, and after Hurricane Sandy pushed tidal surge through the Waterfront district and into the basements of century-old two- and three-family homes along the low blocks, mold became a slow-moving second disaster for many property owners. That combination of coastal storm exposure, aging building stock, and chronically damp foundations creates conditions where mold can colonize hidden cavities within 24 to 72 hours of a moisture event. When that happens, calling a certified remediation team, not a general contractor with a bottle of bleach, is what determines whether the problem is solved or simply painted over.
 
 ## Why Perth Amboy Properties See Elevated Mold Risk
 
-The housing stock here is genuinely old. Much of the Budapest neighborhood and the dense rowhouse blocks near Downtown were built between the 1880s and the 1930s, when balloon-frame construction was standard. That framing style runs wall cavities from the basement sill plate straight up to the roof rafter — one failed galvanized supply line or a slow cast-iron drain leak can wick moisture through multiple floors before anyone notices a stain. Older homes also lack the vapor barriers and modern insulation that slow moisture migration, so a nor'easter that pushes water against a foundation doesn't just wet the floor; it saturates the subfloor, the wall base, and the bottom plates of every partition wall nearby.
+The housing stock here is genuinely old. Much of the Budapest neighborhood and the dense rowhouse blocks near Downtown were built between the 1880s and the 1930s, when balloon-frame construction was standard. That framing style runs wall cavities from the basement sill plate straight up to the roof rafter, one failed galvanized supply line or a slow cast-iron drain leak can wick moisture through multiple floors before anyone notices a stain. Older homes also lack the vapor barriers and modern insulation that slow moisture migration, so a nor'easter that pushes water against a foundation doesn't just wet the floor; it saturates the subfloor, the wall base, and the bottom plates of every partition wall nearby.
 
 The Smith Street commercial corridor and the waterfront restaurant row add another layer: flat or low-slope roofs with aging membrane systems that develop pinhole leaks, and ground-floor tenant spaces where a slow roof leak drips into a drop ceiling for weeks before it's discovered. By the time visible mold appears, the hidden growth behind the ceiling tiles is often extensive.
 
 ## Our Mold Remediation Process in Perth Amboy
 
-Every job starts with a moisture investigation, not a visual scan. We use thermal imaging cameras and calibrated moisture meters to map the full extent of saturation — because in Perth Amboy's older plaster-and-lath construction, the wet zone almost always extends further than the visible staining suggests. From there, the process follows the IICRC S520 Standard for Professional Mold Remediation:
+Every job starts with a moisture investigation, not a visual scan. We use thermal imaging cameras and calibrated moisture meters to map the full extent of saturation, because in Perth Amboy's older plaster-and-lath construction, the wet zone almost always extends further than the visible staining suggests. From there, the process follows the IICRC S520 Standard for Professional Mold Remediation:
 
-1. **Containment** — critical barriers with negative air pressure isolate the work area. In multifamily buildings, this step protects neighboring units from cross-contamination during demo.
-2. **HEPA air scrubbing** — commercial-grade air scrubbers run continuously to capture airborne spores before they migrate.
-3. **Controlled demolition** — affected drywall, insulation, or subfloor material is removed, bagged, and disposed of per NJ Department of Environmental Protection guidelines.
-4. **Antimicrobial treatment** — structural framing and concrete surfaces are treated after mechanical removal. Treatment without removal is not remediation.
-5. **Drying and clearance** — industrial desiccant or refrigerant dehumidifiers bring structural moisture down to acceptable levels before any rebuild begins.
+1. **Containment**, critical barriers with negative air pressure isolate the work area. In multifamily buildings, this step protects neighboring units from cross-contamination during demo.
+2. **HEPA air scrubbing**, commercial-grade air scrubbers run continuously to capture airborne spores before they migrate.
+3. **Controlled demolition**, affected drywall, insulation, or subfloor material is removed, bagged, and disposed of per NJ Department of Environmental Protection guidelines.
+4. **Antimicrobial treatment**, structural framing and concrete surfaces are treated after mechanical removal. Treatment without removal is not remediation.
+5. **Drying and clearance**, industrial desiccant or refrigerant dehumidifiers bring structural moisture down to acceptable levels before any rebuild begins.
 
-For larger multifamily losses in ZIP code 08861 — common in Dunham Heights and along the Kearny Heights corridor — we coordinate work schedules with building owners to minimize tenant displacement.
+For larger multifamily losses in ZIP code 08861, common in Dunham Heights and along the Kearny Heights corridor, we coordinate work schedules with building owners to minimize tenant displacement.
 
 ## Reaching Perth Amboy from Kenilworth
 
@@ -48,4 +48,4 @@ Our crews are based in Kenilworth, NJ, and Perth Amboy is a straightforward run 
 
 One thing that surprises property owners in the older blocks near the Proprietary House and Bayview Park: the original horsehair plaster walls in pre-1920 homes absorb water slowly but release it even more slowly. A moisture meter reading that looks borderline on day one can climb on day three as the plaster continues wicking from the framing behind it. We've learned to take baseline readings, return for a 48-hour recheck before finalizing the drying protocol, and never assume a plaster wall is dry just because the surface feels dry to the touch. Skipping that step is how mold comes back six months after a "completed" job.
 
-If you're dealing with visible mold growth, a musty odor that won't clear, or a recent water event in a Perth Amboy property, call The Restoration Group at **(855) 650-7422**. We'll assess the full scope — not just what's visible — and give you a clear remediation plan before any work begins.
+If you're dealing with visible mold growth, a musty odor that won't clear, or a recent water event in a Perth Amboy property, call The Restoration Group at **(855) 650-7422**. We'll assess the full scope, not just what's visible, and give you a clear remediation plan before any work begins.

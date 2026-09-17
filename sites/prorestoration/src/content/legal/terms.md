@@ -26,11 +26,11 @@ ProRestoration Services Inc. operates within California. While we serve the grea
 
 ## Estimates Are Not Contracts
 
-Any estimate, quote, or scope of work we provide — whether delivered by phone, email, or in person — is an assessment based on visible conditions at the time of inspection. It is not a binding agreement. Work does not begin and no contractual obligation exists on either side until a written work-authorization form has been signed by both parties. That signed document governs the scope, cost, and timeline of your project. If site conditions change after work begins (for example, hidden moisture damage discovered behind a wall), we will communicate any scope adjustments before proceeding.
+Any estimate, quote, or scope of work we provide, whether delivered by phone, email, or in person, is an assessment based on visible conditions at the time of inspection. It is not a binding agreement. Work does not begin and no contractual obligation exists on either side until a written work-authorization form has been signed by both parties. That signed document governs the scope, cost, and timeline of your project. If site conditions change after work begins (for example, hidden moisture damage discovered behind a wall), we will communicate any scope adjustments before proceeding.
 
 ## Payment Terms
 
-Payment terms, accepted methods, and any deposit requirements are outlined in your signed work-authorization agreement. We work with most major insurance carriers and can coordinate billing directly when you provide written authorization to do so. Any portion not covered by insurance — your deductible, for instance, or items outside your policy's coverage — remains the responsibility of the property owner. We do not accept responsibility for coverage decisions made by your insurer.
+Payment terms, accepted methods, and any deposit requirements are outlined in your signed work-authorization agreement. We work with most major insurance carriers and can coordinate billing directly when you provide written authorization to do so. Any portion not covered by insurance, your deductible, for instance, or items outside your policy's coverage, remains the responsibility of the property owner. We do not accept responsibility for coverage decisions made by your insurer.
 
 ## Liability and Licensing
 
@@ -38,7 +38,7 @@ ProRestoration Services Inc. operates as a licensed contractor under California 
 
 ## Insurance Coordination
 
-When you authorize us to communicate with your insurance carrier, we act as a facilitating party — documenting the loss, providing photo evidence, and submitting required paperwork. We do not act as your public adjuster or legal representative, and we make no guarantees about claim outcomes. Final coverage determinations rest with your insurer.
+When you authorize us to communicate with your insurance carrier, we act as a facilitating party, documenting the loss, providing photo evidence, and submitting required paperwork. We do not act as your public adjuster or legal representative, and we make no guarantees about claim outcomes. Final coverage determinations rest with your insurer.
 
 ## Dispute Resolution
 

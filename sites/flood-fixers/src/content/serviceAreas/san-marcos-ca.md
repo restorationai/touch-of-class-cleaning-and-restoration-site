@@ -19,41 +19,41 @@ state: "CA"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall in San Marcos or a storm drain backs up into a garage in Twin Oaks Valley, the clock starts immediately. Flood Fixers dispatches water damage, fire damage, mold remediation, and biohazard cleanup crews directly to San Marcos addresses — handling the extraction, drying, documentation, and reconstruction so property owners can focus on getting back to normal rather than managing a dozen subcontractors.
+When a pipe bursts behind a wall in San Marcos or a storm drain backs up into a garage in Twin Oaks Valley, the clock starts immediately. Flood Fixers dispatches water damage, fire damage, mold remediation, and biohazard cleanup crews directly to San Marcos addresses, handling the extraction, drying, documentation, and reconstruction so property owners can focus on getting back to normal rather than managing a dozen subcontractors.
 
 ## Restoration emergencies common in San Marcos
 
-San Marcos sits in a transitional climate zone where dry Santa Ana wind seasons alternate with concentrated winter rain events. That combination creates a specific pattern of property damage. During dry months, older homes in areas like San Elijo Hills experience wood framing and drywall that contracts and opens small gaps around plumbing fittings — gaps that become active leaks the moment pressure spikes. Then, when the rains arrive, hillside lots and properties near Walnut Grove Park see surface water intrusion through foundation stem walls and under-slab drainage that wasn't designed for back-to-back storm events.
+San Marcos sits in a transitional climate zone where dry Santa Ana wind seasons alternate with concentrated winter rain events. That combination creates a specific pattern of property damage. During dry months, older homes in areas like San Elijo Hills experience wood framing and drywall that contracts and opens small gaps around plumbing fittings, gaps that become active leaks the moment pressure spikes. Then, when the rains arrive, hillside lots and properties near Walnut Grove Park see surface water intrusion through foundation stem walls and under-slab drainage that wasn't designed for back-to-back storm events.
 
 The housing stock adds another layer of complexity. A significant portion of San Marcos homes were built between the late 1980s and early 2000s, a period when polybutylene and early CPVC supply lines were common. Those materials are now aging into failure. Condominium communities and townhome HOAs throughout the 92078 and 92069 ZIP codes frequently deal with shared-wall water losses where one unit's leak becomes three units' problem before anyone notices standing water.
 
-Mold is a downstream consequence that follows almost every undetected slow leak in this climate. At typical San Marcos indoor humidity levels, mold colonies can establish on wet drywall paper within 48 to 72 hours — which is why fast extraction and structural drying matter more than they might in a drier inland climate.
+Mold is a downstream consequence that follows almost every undetected slow leak in this climate. At typical San Marcos indoor humidity levels, mold colonies can establish on wet drywall paper within 48 to 72 hours, which is why fast extraction and structural drying matter more than they might in a drier inland climate.
 
 ## Services we provide in San Marcos
 
 ### Water damage restoration
 
-Water damage in San Marcos most often starts in one of three places: supply line failures behind appliances, roof penetrations after a heavy rain event, or slab leaks in homes on the older grid streets near California State University San Marcos. Flood Fixers uses thermal imaging cameras and moisture meters to map the full extent of saturation before any drying equipment is placed — because in a stucco-clad home, water travels further than it looks.
+Water damage in San Marcos most often starts in one of three places: supply line failures behind appliances, roof penetrations after a heavy rain event, or slab leaks in homes on the older grid streets near California State University San Marcos. Flood Fixers uses thermal imaging cameras and moisture meters to map the full extent of saturation before any drying equipment is placed, because in a stucco-clad home, water travels further than it looks.
 
 ### Mold remediation
 
-Mold remediation calls in San Marcos frequently follow water losses that were dried with box fans and a dehumidifier from a hardware store — not equipment calibrated to the actual moisture load. Our IICRC-certified technicians contain the affected area, remove compromised materials, treat structural surfaces, and verify clearance with post-remediation testing before reconstruction begins.
+Mold remediation calls in San Marcos frequently follow water losses that were dried with box fans and a dehumidifier from a hardware store, not equipment calibrated to the actual moisture load. Our IICRC-certified technicians contain the affected area, remove compromised materials, treat structural surfaces, and verify clearance with post-remediation testing before reconstruction begins.
 
 ### Fire and smoke damage restoration
 
-Even a contained kitchen fire leaves smoke residue in HVAC ductwork, inside cabinet interiors, and on surfaces in rooms that never saw a flame. In San Marcos homes with open floor plans — common in newer construction near Twin Oaks Valley Road — smoke migrates quickly. We document every affected surface for insurance purposes and use hydroxyl or ozone treatment where appropriate to address odor at the molecular level.
+Even a contained kitchen fire leaves smoke residue in HVAC ductwork, inside cabinet interiors, and on surfaces in rooms that never saw a flame. In San Marcos homes with open floor plans, common in newer construction near Twin Oaks Valley Road, smoke migrates quickly. We document every affected surface for insurance purposes and use hydroxyl or ozone treatment where appropriate to address odor at the molecular level.
 
 ### Biohazard and trauma cleanup
 
-This work requires more than cleaning supplies — it requires proper containment, PPE, and disposal in compliance with California Department of Public Health guidelines. Flood Fixers handles these calls discreetly and coordinates directly with property managers and family contacts when needed.
+This work requires more than cleaning supplies, it requires proper containment, PPE, and disposal in compliance with California Department of Public Health guidelines. Flood Fixers handles these calls discreetly and coordinates directly with property managers and family contacts when needed.
 
 ### Reconstruction
 
-Once mitigation is complete, we can carry the project through rebuild — drywall, flooring, cabinetry, painting — so the property doesn't sit open and exposed while a homeowner searches for a separate contractor.
+Once mitigation is complete, we can carry the project through rebuild, drywall, flooring, cabinetry, painting, so the property doesn't sit open and exposed while a homeowner searches for a separate contractor.
 
 ## Response time and coverage
 
-Flood Fixers is headquartered in San Diego. Under normal traffic conditions, our crews reach San Marcos in approximately 45 to 60 minutes. Neighborhoods closer to the Interstate 78 corridor — including communities near Rancho Santaluz and the commercial corridors along Twin Oaks Valley Road — are typically on the faster end of that range. We answer calls 24 hours a day, every day, and aim to have a technician on-site within the hour for active water losses.
+Flood Fixers is headquartered in San Diego. Under normal traffic conditions, our crews reach San Marcos in approximately 45 to 60 minutes. Neighborhoods closer to the Interstate 78 corridor, including communities near Rancho Santaluz and the commercial corridors along Twin Oaks Valley Road, are typically on the faster end of that range. We answer calls 24 hours a day, every day, and aim to have a technician on-site within the hour for active water losses.
 
 ## Building stock, site conditions, and permits in San Marcos
 

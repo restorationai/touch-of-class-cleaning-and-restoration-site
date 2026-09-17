@@ -19,39 +19,39 @@ state: "CA"
 primary: false
 rendered: true
 ---
-When a pipe bursts in a Downtown Delano bungalow at 2 a.m. or a grease fire chars a commercial kitchen along the Highway 99 commercial strip, ProRestoration Services dispatches from Bakersfield around the clock. We handle water damage, fire and smoke cleanup, mold remediation, and full reconstruction for homeowners, landlords, and property managers across Delano's 93215 and 93216 ZIP codes — and we answer the phone every hour of every day.
+When a pipe bursts in a Downtown Delano bungalow at 2 a.m. or a grease fire chars a commercial kitchen along the Highway 99 commercial strip, ProRestoration Services dispatches from Bakersfield around the clock. We handle water damage, fire and smoke cleanup, mold remediation, and full reconstruction for homeowners, landlords, and property managers across Delano's 93215 and 93216 ZIP codes, and we answer the phone every hour of every day.
 
 ## Restoration emergencies common in Delano
 
 Delano sits in the southern San Joaquin Valley, where summer temperatures routinely push past 105°F and winter nights drop cold enough to stress aging plumbing. That temperature swing, combined with the area's agricultural water infrastructure and an older downtown housing stock, creates a predictable set of problems.
 
-The pre-1960 bungalows concentrated along the Randolph Street corridor and Cecil Avenue corridor were built when galvanized steel pipe was standard. Fifty-plus years of mineral-rich valley water have left those lines corroded and prone to sudden failure — often inside walls, where the damage spreads quietly until a ceiling sags or a floor buckles. Kitchen fires are a second recurring issue in these older homes, where original wiring and vintage gas appliances share tight spaces.
+The pre-1960 bungalows concentrated along the Randolph Street corridor and Cecil Avenue corridor were built when galvanized steel pipe was standard. Fifty-plus years of mineral-rich valley water have left those lines corroded and prone to sudden failure, often inside walls, where the damage spreads quietly until a ceiling sags or a floor buckles. Kitchen fires are a second recurring issue in these older homes, where original wiring and vintage gas appliances share tight spaces.
 
-On the west side of town, the 2000s subdivisions that grew up near Cesar Chavez Park tell a different story: slab leaks from post-tension foundations, dishwasher supply-line failures, and refrigerator ice-maker lines that drip for weeks before anyone notices. Ag processing and cold-storage facilities along the Highway 99 commercial strip generate their own category of loss — large-volume water releases from refrigeration systems, ammonia-adjacent odor remediation, and fire jobs in facilities where combustible dust is an occupational hazard.
+On the west side of town, the 2000s subdivisions that grew up near Cesar Chavez Park tell a different story: slab leaks from post-tension foundations, dishwasher supply-line failures, and refrigerator ice-maker lines that drip for weeks before anyone notices. Ag processing and cold-storage facilities along the Highway 99 commercial strip generate their own category of loss, large-volume water releases from refrigeration systems, ammonia-adjacent odor remediation, and fire jobs in facilities where combustible dust is an occupational hazard.
 
-Delano is Kern County's second-largest city, but it remains underserved by local restoration contractors. When something goes wrong, property owners here often wait longer than they should — and in water damage situations, the difference between a 4-hour response and a 24-hour response can mean the difference between drying in place and tearing out subfloor.
+Delano is Kern County's second-largest city, but it remains underserved by local restoration contractors. When something goes wrong, property owners here often wait longer than they should, and in water damage situations, the difference between a 4-hour response and a 24-hour response can mean the difference between drying in place and tearing out subfloor.
 
 ## Services we provide in Delano
 
-**Water damage restoration** — Water damage in Delano often involves hidden migration: valley soil doesn't drain quickly, and slab construction means moisture has nowhere to go but up into framing and drywall. We use thermal imaging and moisture meters to map the full extent of the loss before any drying equipment is placed, so nothing is missed behind cabinets or under flooring.
+**Water damage restoration**, Water damage in Delano often involves hidden migration: valley soil doesn't drain quickly, and slab construction means moisture has nowhere to go but up into framing and drywall. We use thermal imaging and moisture meters to map the full extent of the loss before any drying equipment is placed, so nothing is missed behind cabinets or under flooring.
 
-**Fire and smoke damage restoration** — Smoke from a kitchen fire in an older Cecil Avenue corridor home behaves differently than smoke in a newer build — it penetrates plaster walls and settles into attic insulation in ways that linger for months if not treated properly. We address both the visible char and the invisible odor compounds that keep coming back.
+**Fire and smoke damage restoration**, Smoke from a kitchen fire in an older Cecil Avenue corridor home behaves differently than smoke in a newer build, it penetrates plaster walls and settles into attic insulation in ways that linger for months if not treated properly. We address both the visible char and the invisible odor compounds that keep coming back.
 
-**Mold remediation** — Mold can begin colonizing wet materials within 24 to 48 hours of a water event. In Delano's warm climate, that window is unforgiving. We contain affected areas, remove compromised materials, and treat surfaces to industry standards — then verify clearance before reconstruction begins.
+**Mold remediation**, Mold can begin colonizing wet materials within 24 to 48 hours of a water event. In Delano's warm climate, that window is unforgiving. We contain affected areas, remove compromised materials, and treat surfaces to industry standards, then verify clearance before reconstruction begins.
 
-**Commercial restoration** — For property managers overseeing multi-family units near Delano High School or operators running facilities along Highway 99, we document losses thoroughly for insurance carriers and work to minimize business interruption. Large-loss commercial work is something we handle regularly out of our Bakersfield operation.
+**Commercial restoration**, For property managers overseeing multi-family units near Delano High School or operators running facilities along Highway 99, we document losses thoroughly for insurance carriers and work to minimize business interruption. Large-loss commercial work is something we handle regularly out of our Bakersfield operation.
 
-**Reconstruction** — After mitigation is complete, we rebuild. That means drywall, flooring, cabinetry, painting — whatever it takes to return the property to pre-loss condition without handing the owner off to a second contractor.
+**Reconstruction**, After mitigation is complete, we rebuild. That means drywall, flooring, cabinetry, painting, whatever it takes to return the property to pre-loss condition without handing the owner off to a second contractor.
 
 ## Coverage and how fast we can get there
 
-ProRestoration Services operates out of Bakersfield, roughly 35 miles north of Delano via Highway 99. That corridor is a straight shot, and our crews travel it regularly for both residential calls in West Delano and commercial jobs along the 99 strip. Because we run 24/7, a call at midnight gets the same dispatch priority as a call at noon. Downtown Delano, the Randolph Street corridor, and the Cecil Avenue corridor are all within our standard coverage zone — no referral to a subcontractor, no hand-off.
+ProRestoration Services operates out of Bakersfield, roughly 35 miles north of Delano via Highway 99. That corridor is a straight shot, and our crews travel it regularly for both residential calls in West Delano and commercial jobs along the 99 strip. Because we run 24/7, a call at midnight gets the same dispatch priority as a call at noon. Downtown Delano, the Randolph Street corridor, and the Cecil Avenue corridor are all within our standard coverage zone, no referral to a subcontractor, no hand-off.
 
 ## Building stock, site conditions, and permits in Delano
 
 Delano's older core is mostly single-story wood-frame with stucco or lap siding, plaster-and-lath or early drywall inside, and raised perimeter foundations over shallow crawlspaces. Basements are essentially nonexistent here. That crawlspace matters: a supply leak under an old bungalow soaks subfloor and joists from below, and the sill area stays damp long after the visible floor looks dry. Anything built before 1978 gets treated as lead-painted until testing says otherwise, and pre-1980 popcorn ceilings, sheet flooring, and joint compound are sampled before demolition.
 
-The ground is deep valley alluvium — fine sand and silt, quick to soften and slow to shed water once saturated. Winter tule fog keeps outdoor air humid for weeks, so drying leans on dehumidification rather than open windows.
+The ground is deep valley alluvium, fine sand and silt, quick to soften and slow to shed water once saturated. Winter tule fog keeps outdoor air humid for weeks, so drying leans on dehumidification rather than open windows.
 
 Structural repairs and rebuilds are permitted through the City of Delano's building division under the California Building Code.
 

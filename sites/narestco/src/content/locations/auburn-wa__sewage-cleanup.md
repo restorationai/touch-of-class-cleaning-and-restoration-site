@@ -20,15 +20,15 @@ state: "WA"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
-Raw sewage in your home or business is one of the fastest-moving emergencies you can face. Within hours, Category 3 "black water" saturates subfloors, wicks into drywall, and creates conditions where harmful bacteria and pathogens spread beyond the visible mess. If you're dealing with a sewage backup, a sewer line backup, or a septic overflow in Auburn right now, National Restoration Construction is dispatched from Federal Way — typically on-site within 60 to 90 minutes of your call at (206) 883-0333.
+Raw sewage in your home or business is one of the fastest-moving emergencies you can face. Within hours, Category 3 "black water" saturates subfloors, wicks into drywall, and creates conditions where harmful bacteria and pathogens spread beyond the visible mess. If you're dealing with a sewage backup, a sewer line backup, or a septic overflow in Auburn right now, National Restoration Construction is dispatched from Federal Way, typically on-site within 60 to 90 minutes of your call at (206) 883-0333.
 
 ## Why Auburn Properties See Sewage Emergencies
 
-Auburn sits in the Green River Valley, where the combination of older residential neighborhoods, active clay soils, and the region's heavy fall and winter rainfall creates predictable stress on both municipal sewer lines and private septic systems. The valley's high water table — particularly in areas near the Green River itself and lower-lying neighborhoods off Auburn Way — means groundwater intrusion can pressurize lateral sewer lines and force sewage backward into floor drains, toilets, and utility sinks.
+Auburn sits in the Green River Valley, where the combination of older residential neighborhoods, active clay soils, and the region's heavy fall and winter rainfall creates predictable stress on both municipal sewer lines and private septic systems. The valley's high water table, particularly in areas near the Green River itself and lower-lying neighborhoods off Auburn Way, means groundwater intrusion can pressurize lateral sewer lines and force sewage backward into floor drains, toilets, and utility sinks.
 
 Auburn also has a significant share of housing stock built in the 1960s through 1980s, when cast-iron and Orangeburg sewer pipes were standard. Those materials degrade over decades, and root intrusion from the mature trees common in neighborhoods like Lea Hill and West Hill accelerates the failure. Septic overflow cleanup calls in Auburn's more rural eastern parcels tend to spike after sustained rainfall saturates drain fields that were already near capacity.
 
-None of this is a reason to panic — it's a reason to move quickly.
+None of this is a reason to panic, it's a reason to move quickly.
 
 ## Our Sewage Cleanup and Sanitization Process in Auburn
 
@@ -36,9 +36,9 @@ Every job follows a structured sequence, because cutting corners on raw sewage r
 
 **1. Containment and assessment.** The moment our crew arrives, we identify the source, stop active flow if possible, and establish containment barriers to prevent cross-contamination to unaffected areas of the structure.
 
-**2. Extraction.** We use truck-mounted extraction units capable of pulling standing sewage and saturated material at high volume. For sewage that has migrated under hardwood floors or into wall cavities — which happens faster than most homeowners expect — we use targeted probes and moisture mapping to find it.
+**2. Extraction.** We use truck-mounted extraction units capable of pulling standing sewage and saturated material at high volume. For sewage that has migrated under hardwood floors or into wall cavities, which happens faster than most homeowners expect, we use targeted probes and moisture mapping to find it.
 
-**3. Controlled demolition.** Porous materials that have contacted Category 3 water — drywall, insulation, carpet, pad — cannot be dried in place. We remove what needs to go and document everything for your insurance claim.
+**3. Controlled demolition.** Porous materials that have contacted Category 3 water, drywall, insulation, carpet, pad, cannot be dried in place. We remove what needs to go and document everything for your insurance claim.
 
 **4. Sanitization.** This is where sewage cleanup diverges from standard water damage work. We apply EPA-registered antimicrobial agents to all affected structural surfaces, allow proper dwell time, and follow with a second application where contamination levels warrant it. As an IICRC Certified firm, our sanitization protocols meet the S500 and S520 standards.
 
@@ -46,13 +46,13 @@ Every job follows a structured sequence, because cutting corners on raw sewage r
 
 ## Response Times Across Auburn
 
-Our Federal Way headquarters puts us roughly 10 to 15 minutes from most of Auburn under normal traffic conditions — closer to downtown Auburn, the Auburn Way corridor, and the industrial district near 15th Street NW. Neighborhoods farther east, like Lea Hill or the Auburn-Black Diamond Road area, typically add 10 to 20 minutes.
+Our Federal Way headquarters puts us roughly 10 to 15 minutes from most of Auburn under normal traffic conditions, closer to downtown Auburn, the Auburn Way corridor, and the industrial district near 15th Street NW. Neighborhoods farther east, like Lea Hill or the Auburn-Black Diamond Road area, typically add 10 to 20 minutes.
 
 For most Auburn addresses, expect a technician on-site within 60 to 90 minutes of your call, any time of day or night. We operate 24 hours a day, 365 days a year, because sewer line backups don't wait for business hours.
 
 ## Insurance Claims for Sewage Damage
 
-Whether your homeowner's policy covers sewage backup cleanup depends on your specific coverage — standard policies often exclude it unless you've added a sewer backup rider, while many commercial policies treat it differently. That uncertainty shouldn't stop you from starting cleanup immediately; delay always increases the total damage and the cost to remediate.
+Whether your homeowner's policy covers sewage backup cleanup depends on your specific coverage, standard policies often exclude it unless you've added a sewer backup rider, while many commercial policies treat it differently. That uncertainty shouldn't stop you from starting cleanup immediately; delay always increases the total damage and the cost to remediate.
 
 What we handle on your behalf: detailed photo and moisture documentation from the moment we arrive, itemized scope of work formatted for adjuster review, and direct communication with your insurance carrier if you want us involved in that process. What you'll need to do: notify your insurer as soon as possible and keep any receipts for emergency expenses (hotel, meals) if you're displaced.
 
@@ -60,4 +60,4 @@ We've worked with every major carrier that insures Auburn properties and underst
 
 ---
 
-Sewage emergencies don't improve with time — every hour matters for both your health and the structural integrity of your home. National Restoration Construction has been handling raw sewage removal and sanitization services across the South King County area since 2004. Reach us any time at **(206) 883-0333** — a live person answers, not a recording.
+Sewage emergencies don't improve with time, every hour matters for both your health and the structural integrity of your home. National Restoration Construction has been handling raw sewage removal and sanitization services across the South King County area since 2004. Reach us any time at **(206) 883-0333**, a live person answers, not a recording.

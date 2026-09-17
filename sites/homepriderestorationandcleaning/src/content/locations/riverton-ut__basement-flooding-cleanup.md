@@ -20,25 +20,25 @@ state: "UT"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
-Riverton sits in a bowl-shaped section of the Salt Lake Valley where the water table can rise faster than homeowners expect — especially during the spring snowmelt that drains off the Oquirrh Mountains to the west. When that groundwater pressure combines with a cracked foundation wall or an overwhelmed sump pump, a finished basement can go from damp to ankle-deep in hours. Home Pride Restoration and Cleaning has been responding to exactly these emergencies since 1997, and our crews know what Riverton's soil and seasonal patterns do to lower levels of a home.
+Riverton sits in a bowl-shaped section of the Salt Lake Valley where the water table can rise faster than homeowners expect, especially during the spring snowmelt that drains off the Oquirrh Mountains to the west. When that groundwater pressure combines with a cracked foundation wall or an overwhelmed sump pump, a finished basement can go from damp to ankle-deep in hours. Home Pride Restoration and Cleaning has been responding to exactly these emergencies since 1997, and our crews know what Riverton's soil and seasonal patterns do to lower levels of a home.
 
 ## Why Riverton Basements Flood
 
-The geology here matters. Much of Riverton sits on clay-heavy soils left behind by ancient Lake Bonneville — the same prehistoric lake that formed the Bonneville Salt Flats to the northwest. Clay soil doesn't drain well. When spring snowmelt or a heavy summer thunderstorm saturates the ground, hydrostatic pressure builds against foundation walls and floor slabs faster than it would in sandier soil. Homes built in the 1980s and 1990s housing boom — which accounts for a large share of Riverton's residential stock — often have block or poured-concrete foundations that were adequate for the time but weren't engineered for the groundwater levels some neighborhoods now see after decades of irrigation and landscaping changes.
+The geology here matters. Much of Riverton sits on clay-heavy soils left behind by ancient Lake Bonneville, the same prehistoric lake that formed the Bonneville Salt Flats to the northwest. Clay soil doesn't drain well. When spring snowmelt or a heavy summer thunderstorm saturates the ground, hydrostatic pressure builds against foundation walls and floor slabs faster than it would in sandier soil. Homes built in the 1980s and 1990s housing boom, which accounts for a large share of Riverton's residential stock, often have block or poured-concrete foundations that were adequate for the time but weren't engineered for the groundwater levels some neighborhoods now see after decades of irrigation and landscaping changes.
 
 Beyond groundwater, the culprits we see most often include sump pump failures during power outages (common during winter storms along the Wasatch Front), aging water heaters in utility closets, and washing machine supply lines that give out without warning. Any of these can dump hundreds of gallons into a finished space before anyone notices.
 
 ## Our Basement Flooding Cleanup Process in Riverton
 
-When you call (801) 995-2437, the first question we ask is whether the water source is controlled — because extraction before the inflow stops is a losing race. Once the source is addressed, here's what happens on-site:
+When you call (801) 995-2437, the first question we ask is whether the water source is controlled, because extraction before the inflow stops is a losing race. Once the source is addressed, here's what happens on-site:
 
-**1. Standing water extraction.** Truck-mounted and portable extractors pull water from carpet, pad, and hard flooring. In a typical Riverton basement — roughly 800–1,200 square feet of finished space — we can remove standing water within the first 30–60 minutes.
+**1. Standing water extraction.** Truck-mounted and portable extractors pull water from carpet, pad, and hard flooring. In a typical Riverton basement, roughly 800–1,200 square feet of finished space, we can remove standing water within the first 30–60 minutes.
 
 **2. Moisture mapping.** Thermal imaging cameras and calibrated moisture meters map exactly where water has migrated behind drywall, under LVP flooring, and into framing cavities. Clay soil slows exterior drainage, which means water often wicks laterally further than it appears on the surface.
 
 **3. Controlled demolition if needed.** Wet drywall below the flood line, saturated insulation, and soaked carpet pad almost always need to come out. We photograph and document everything for your insurance claim before any material is removed.
 
-**4. Drying with industrial equipment.** High-capacity LGR dehumidifiers and axial air movers run continuously — typically 3–5 days depending on materials and ambient humidity. We check readings daily and adjust equipment placement as the structure dries.
+**4. Drying with industrial equipment.** High-capacity LGR dehumidifiers and axial air movers run continuously, typically 3–5 days depending on materials and ambient humidity. We check readings daily and adjust equipment placement as the structure dries.
 
 **5. Antimicrobial treatment.** Mold can begin colonizing wet organic material in as little as 24–48 hours. We apply EPA-registered antimicrobial agents to framing and concrete surfaces as a precautionary measure before closing out the drying phase.
 
@@ -46,14 +46,14 @@ All work is performed by IICRC Certified technicians under license #RC-25-0737.
 
 ## Response Time to Riverton
 
-Our headquarters is in Saratoga Springs, roughly 10–15 minutes from most Riverton addresses via Redwood Road or Bangerter Highway depending on traffic. In practice, that means a technician is typically on your doorstep within 45–75 minutes of your call, day or night. Neighborhoods in the southern end of Riverton near 13400 South are slightly farther, but still well within a one-hour window for most emergency calls. We do not subcontract emergency response — the crew that answers the call is the crew that shows up.
+Our headquarters is in Saratoga Springs, roughly 10–15 minutes from most Riverton addresses via Redwood Road or Bangerter Highway depending on traffic. In practice, that means a technician is typically on your doorstep within 45–75 minutes of your call, day or night. Neighborhoods in the southern end of Riverton near 13400 South are slightly farther, but still well within a one-hour window for most emergency calls. We do not subcontract emergency response, the crew that answers the call is the crew that shows up.
 
 ## Riverton Insurance & HOA Coordination
 
-Most standard homeowner policies in Utah cover sudden and accidental water damage — a burst pipe or failed sump pump — but exclude gradual seepage. We document the loss thoroughly from the moment we arrive: photos, moisture readings, equipment logs, and a detailed scope of work. That file is formatted to meet the standards most Salt Lake Valley adjusters expect, which tends to speed up the approval process. If your Riverton neighborhood has an HOA with specific requirements around exterior work or dumpster placement during restoration, let us know when you call — we've coordinated with several community associations in the area and can work within those guidelines.
+Most standard homeowner policies in Utah cover sudden and accidental water damage, a burst pipe or failed sump pump, but exclude gradual seepage. We document the loss thoroughly from the moment we arrive: photos, moisture readings, equipment logs, and a detailed scope of work. That file is formatted to meet the standards most Salt Lake Valley adjusters expect, which tends to speed up the approval process. If your Riverton neighborhood has an HOA with specific requirements around exterior work or dumpster placement during restoration, let us know when you call, we've coordinated with several community associations in the area and can work within those guidelines.
 
 ## Local Note
 
-One pattern we've noticed in Riverton homes built during the late 1980s and early 1990s: many were constructed with a vapor barrier stapled to the interior side of the foundation framing rather than the exterior. When water intrudes, that barrier traps moisture against the wood framing and concrete instead of allowing it to evaporate inward. Standard drying timelines don't apply — we have to open the wall cavity and redirect airflow to dry the framing from the inside out, which typically adds a day or two to the drying schedule. If your home was built in that era, mention it when you call so we can bring the right equipment configuration from the start.
+One pattern we've noticed in Riverton homes built during the late 1980s and early 1990s: many were constructed with a vapor barrier stapled to the interior side of the foundation framing rather than the exterior. When water intrudes, that barrier traps moisture against the wood framing and concrete instead of allowing it to evaporate inward. Standard drying timelines don't apply, we have to open the wall cavity and redirect airflow to dry the framing from the inside out, which typically adds a day or two to the drying schedule. If your home was built in that era, mention it when you call so we can bring the right equipment configuration from the start.
 
-If your Riverton basement is wet right now, every hour of delay increases the likelihood of mold growth and structural saturation. Call (801) 995-2437 — we'll have a crew moving toward your address within the hour.
+If your Riverton basement is wet right now, every hour of delay increases the likelihood of mold growth and structural saturation. Call (801) 995-2437, we'll have a crew moving toward your address within the hour.

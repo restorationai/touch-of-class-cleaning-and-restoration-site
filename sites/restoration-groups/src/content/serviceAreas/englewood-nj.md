@@ -19,13 +19,13 @@ state: "NJ"
 primary: false
 rendered: true
 ---
-When a pipe bursts in a finished East Hill basement or a sprinkler discharge floods a Palisade Avenue restaurant at 2 a.m., The Restoration Group responds around the clock — extracting water, drying structural assemblies, remediating mold, and managing reconstruction from start to finish. We handle residential and commercial losses across Englewood's 07631 ZIP code, and we work directly with insurance carriers so property owners aren't left navigating the paperwork alone.
+When a pipe bursts in a finished East Hill basement or a sprinkler discharge floods a Palisade Avenue restaurant at 2 a.m., The Restoration Group responds around the clock, extracting water, drying structural assemblies, remediating mold, and managing reconstruction from start to finish. We handle residential and commercial losses across Englewood's 07631 ZIP code, and we work directly with insurance carriers so property owners aren't left navigating the paperwork alone.
 
 ## Restoration emergencies common in Englewood
 
-Englewood's housing stock spans more than a century of construction, and that range drives a wide variety of losses. The grand older estates on The East Hill often carry original or early-replacement plumbing — galvanized steel supply lines, cast-iron drain stacks, and finished lower levels that can hold thousands of gallons before anyone notices a problem. On the west side, dense early-1900s multifamily buildings and postwar construction in West Englewood and the Fourth Ward tend toward aging infrastructure, shared drain lines, and slab or crawlspace foundations that trap moisture.
+Englewood's housing stock spans more than a century of construction, and that range drives a wide variety of losses. The grand older estates on The East Hill often carry original or early-replacement plumbing, galvanized steel supply lines, cast-iron drain stacks, and finished lower levels that can hold thousands of gallons before anyone notices a problem. On the west side, dense early-1900s multifamily buildings and postwar construction in West Englewood and the Fourth Ward tend toward aging infrastructure, shared drain lines, and slab or crawlspace foundations that trap moisture.
 
-Geography adds another layer. Tributaries of Flat Rock Brook and Overpeck Creek run through low-lying sections of the city, and those corridors proved their risk during Hurricane Ida in 2021, when several neighborhoods experienced significant groundwater intrusion and surface flooding. Bergen County's humid summers accelerate mold colonization — under the right conditions, spore colonies can establish within 24 to 48 hours of a moisture event — making fast extraction and structural drying critical, not optional.
+Geography adds another layer. Tributaries of Flat Rock Brook and Overpeck Creek run through low-lying sections of the city, and those corridors proved their risk during Hurricane Ida in 2021, when several neighborhoods experienced significant groundwater intrusion and surface flooding. Bergen County's humid summers accelerate mold colonization, under the right conditions, spore colonies can establish within 24 to 48 hours of a moisture event, making fast extraction and structural drying critical, not optional.
 
 The Palisade Avenue business district concentrates commercial exposure: restaurants, retail, and offices where a single overnight sprinkler discharge or sewer backup can shut down operations for days. Englewood Hospital and the surrounding institutional corridor generate their own category of water and fire events, while the Bergen Performing Arts Center and the apartment stock near Downtown add multi-unit scenarios that require coordinated, phased responses.
 
@@ -33,11 +33,11 @@ The Palisade Avenue business district concentrates commercial exposure: restaura
 
 ### Water damage restoration
 
-Water damage in Englewood often involves finished basements — home theaters, in-law suites, and home offices built below grade in East Hill homes — where water migrates under luxury vinyl plank or tile before it's visible. We deploy truck-mounted extraction, desiccant and refrigerant dehumidifiers, and air movers calibrated to the specific materials involved, drying to IICRC S500 standards. We also handle the multi-unit scenarios common in Highwood and the Fourth Ward, where a leak on an upper floor affects two or three units simultaneously.
+Water damage in Englewood often involves finished basements, home theaters, in-law suites, and home offices built below grade in East Hill homes, where water migrates under luxury vinyl plank or tile before it's visible. We deploy truck-mounted extraction, desiccant and refrigerant dehumidifiers, and air movers calibrated to the specific materials involved, drying to IICRC S500 standards. We also handle the multi-unit scenarios common in Highwood and the Fourth Ward, where a leak on an upper floor affects two or three units simultaneously.
 
 ### Mold remediation
 
-The combination of older construction, periodic flooding near Overpeck Creek tributaries, and humid summers makes mold a recurring issue across Englewood. We contain affected areas, remove compromised materials, and treat structural surfaces — then document the work for insurance and, where required, coordinate post-remediation testing. We don't cut corners on containment in occupied multifamily buildings, where cross-contamination to adjacent units is a real risk.
+The combination of older construction, periodic flooding near Overpeck Creek tributaries, and humid summers makes mold a recurring issue across Englewood. We contain affected areas, remove compromised materials, and treat structural surfaces, then document the work for insurance and, where required, coordinate post-remediation testing. We don't cut corners on containment in occupied multifamily buildings, where cross-contamination to adjacent units is a real risk.
 
 ### Fire and smoke damage restoration
 
@@ -45,7 +45,7 @@ Smoke residue from even a contained kitchen fire can penetrate HVAC systems and 
 
 ### Commercial restoration
 
-For property managers and business owners along the Palisade Avenue corridor or near Englewood Hospital, downtime is a direct financial loss. We scope commercial losses quickly, establish drying timelines, and work around operating schedules where safe to do so. Large-loss commercial work — multi-story buildings, institutional facilities — is part of our regular workload.
+For property managers and business owners along the Palisade Avenue corridor or near Englewood Hospital, downtime is a direct financial loss. We scope commercial losses quickly, establish drying timelines, and work around operating schedules where safe to do so. Large-loss commercial work, multi-story buildings, institutional facilities, is part of our regular workload.
 
 ### Reconstruction
 
@@ -53,7 +53,7 @@ Once the structure is dry and the hazards are cleared, we handle the rebuild: fr
 
 ## Coverage and how fast we can get there
 
-From our Kenilworth headquarters, Englewood is roughly 25 miles northeast — typically via the Garden State Parkway north to Route 4, or I-95 to the Palisades Parkway depending on traffic. Because we operate 24/7, we dispatch on your call regardless of the hour. Dense neighborhoods like Downtown and the Fourth Ward are straightforward to reach; East Hill's residential streets and the Englewood Cliffs border area are equally accessible. We'll confirm an estimated arrival window when you call (855) 650-7422.
+From our Kenilworth headquarters, Englewood is roughly 25 miles northeast, typically via the Garden State Parkway north to Route 4, or I-95 to the Palisades Parkway depending on traffic. Because we operate 24/7, we dispatch on your call regardless of the hour. Dense neighborhoods like Downtown and the Fourth Ward are straightforward to reach; East Hill's residential streets and the Englewood Cliffs border area are equally accessible. We'll confirm an estimated arrival window when you call (855) 650-7422.
 
 ## Building stock, site conditions, and permits in Englewood
 
@@ -61,4 +61,4 @@ Much of Englewood's older housing predates 1930, which means balloon or early pl
 
 Structural repair and rebuild work follows the New Jersey Uniform Construction Code, with permits and subcode inspections handled through Englewood's own construction office. Work in mapped flood areas near the Overpeck corridor carries added requirements.
 
-If you're dealing with water, fire, mold, or structural damage anywhere in Englewood — from a finished basement on The East Hill to a storefront on Palisade Avenue — call The Restoration Group at **(855) 650-7422**. We're available around the clock, and we'll walk you through next steps before we even arrive on site.
+If you're dealing with water, fire, mold, or structural damage anywhere in Englewood, from a finished basement on The East Hill to a storefront on Palisade Avenue, call The Restoration Group at **(855) 650-7422**. We're available around the clock, and we'll walk you through next steps before we even arrive on site.

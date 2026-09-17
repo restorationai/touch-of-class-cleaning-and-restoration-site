@@ -17,18 +17,18 @@ published_at: "2026-06-23"
 services: ["water-damage-restoration", "appliance-leak-cleanup"]
 rendered: true
 ---
-When a pipe bursts, you have roughly the first 15 minutes to limit the damage. Shut off the water, cut the electricity to affected areas, and start documenting — in that order. The steps below walk you through exactly what to do from the moment you hear that rush of water or spot a soaked ceiling, through the cleanup decisions you'll face over the next 24 to 72 hours. Keep this page open on your phone.
+When a pipe bursts, you have roughly the first 15 minutes to limit the damage. Shut off the water, cut the electricity to affected areas, and start documenting, in that order. The steps below walk you through exactly what to do from the moment you hear that rush of water or spot a soaked ceiling, through the cleanup decisions you'll face over the next 24 to 72 hours. Keep this page open on your phone.
 
 ## Step 1: Stop the Water Immediately
 
-Every second a burst pipe runs, water is migrating — under flooring, into wall cavities, behind cabinets. Your first move is the main shutoff valve, not a bucket.
+Every second a burst pipe runs, water is migrating, under flooring, into wall cavities, behind cabinets. Your first move is the main shutoff valve, not a bucket.
 
 **Find your main shutoff valve before you need it.** In Bakersfield homes, it's usually one of three places:
 - Near the front of the house, at the base of the exterior wall facing the street
 - In a garage utility closet
 - In a crawl space access panel
 
-Turn it clockwise until it stops. If the valve is old and won't budge, call your water provider — Golden State Water or California Water Service serves most of Bakersfield and can shut off service at the meter within minutes for an emergency.
+Turn it clockwise until it stops. If the valve is old and won't budge, call your water provider, Golden State Water or California Water Service serves most of Bakersfield and can shut off service at the meter within minutes for an emergency.
 
 Once the water is off, open the lowest faucet in the house (a hose bib outside works well) to drain pressure from the lines. This reduces the trickle continuing to seep from the broken section.
 
@@ -41,7 +41,7 @@ Insurance adjusters work from evidence. The 10 minutes you spend photographing a
 What to capture:
 - The burst pipe itself, including the break point and any visible corrosion
 - Standing water depth (hold a ruler next to it)
-- Every room, closet, and cabinet that shows moisture — even if it looks minor
+- Every room, closet, and cabinet that shows moisture, even if it looks minor
 - Wet flooring, baseboards, drywall, and any personal property sitting in water
 - Your water meter reading right now (this establishes volume for the claim)
 
@@ -49,15 +49,15 @@ Timestamp every photo. Most smartphone cameras embed this automatically, but dou
 
 ## Step 3: Contain and Extract What You Can
 
-You're not trying to dry the house — that requires commercial desiccant dehumidifiers and moisture meters. You're trying to slow the spread while you wait for help.
+You're not trying to dry the house, that requires commercial desiccant dehumidifiers and moisture meters. You're trying to slow the spread while you wait for help.
 
 **Move portable items out of wet areas.** Rugs, furniture, boxes, and electronics sitting in water absorb moisture and become secondary damage claims. Get them onto dry surfaces or outside.
 
-**Mop or wet-vac standing water if you have the equipment.** A shop vac can pull several gallons from hard flooring in minutes. Don't use a household vacuum — water will destroy the motor.
+**Mop or wet-vac standing water if you have the equipment.** A shop vac can pull several gallons from hard flooring in minutes. Don't use a household vacuum, water will destroy the motor.
 
 **Place aluminum foil or plastic wrap under furniture legs** that are sitting on wet carpet. Wood and metal feet will stain or rust into the carpet fibers within hours.
 
-**Open windows if outdoor humidity is lower than indoor humidity.** In Bakersfield's dry climate, this is often a safe call — but if it's a humid summer evening or you're running AC, keep windows closed and run every fan you have to circulate air.
+**Open windows if outdoor humidity is lower than indoor humidity.** In Bakersfield's dry climate, this is often a safe call, but if it's a humid summer evening or you're running AC, keep windows closed and run every fan you have to circulate air.
 
 Do not use a hair dryer, space heater, or heat gun on wet drywall or flooring. Heat drives moisture deeper into materials rather than evaporating it out.
 
@@ -68,8 +68,8 @@ Some common instincts will make the situation worse or complicate your insurance
 - **Don't rip out wet drywall yourself** unless there is visible sewage contamination or the ceiling is actively sagging and poses a collapse risk. Drywall that looks destroyed can sometimes be dried in place with the right equipment. Premature demolition voids the option.
 - **Don't run central heat to "dry things out."** Your HVAC system will pull humid air through ducts and redistribute moisture to every room in the house.
 - **Don't throw away damaged materials** before the adjuster or a restoration contractor has documented them. Discarded materials are undocumentable losses.
-- **Don't assume the wet area is the only wet area.** Water follows the path of least resistance — it will travel horizontally under a slab, vertically down a wall cavity, and pool in the lowest point of a floor system. A wet spot in the living room can mean wet insulation in the crawl space 15 feet away.
-- **Don't wait more than 24 to 48 hours to address moisture.** Mold can begin colonizing wet drywall and wood framing within 24 to 48 hours in warm conditions. Bakersfield's summer temperatures — regularly above 100°F — accelerate that timeline significantly.
+- **Don't assume the wet area is the only wet area.** Water follows the path of least resistance, it will travel horizontally under a slab, vertically down a wall cavity, and pool in the lowest point of a floor system. A wet spot in the living room can mean wet insulation in the crawl space 15 feet away.
+- **Don't wait more than 24 to 48 hours to address moisture.** Mold can begin colonizing wet drywall and wood framing within 24 to 48 hours in warm conditions. Bakersfield's summer temperatures, regularly above 100°F, accelerate that timeline significantly.
 
 ## When to Call a Water Damage Professional
 
@@ -80,10 +80,10 @@ You can handle surface mopping and moving furniture. The situations below requir
 - The affected area is larger than roughly 10 square feet
 - Water has reached flooring with a subfloor (tile, hardwood, laminate over plywood)
 - Any wall cavity, ceiling, or insulation is wet
-- You smell anything musty, earthy, or chemical — that can indicate mold is already present or that the water source is contaminated
+- You smell anything musty, earthy, or chemical, that can indicate mold is already present or that the water source is contaminated
 - The pipe that burst was connected to a dishwasher, washing machine, or refrigerator ice maker line (appliance supply lines often carry slightly different contamination risk profiles than clean supply pipes)
 
-Professional water damage restoration involves thermal imaging cameras to find hidden moisture, calibrated drying equipment sized to the actual wet volume, and moisture logs that satisfy insurance documentation requirements. The drying process typically takes three to five days of continuous equipment operation — not a few hours with fans.
+Professional water damage restoration involves thermal imaging cameras to find hidden moisture, calibrated drying equipment sized to the actual wet volume, and moisture logs that satisfy insurance documentation requirements. The drying process typically takes three to five days of continuous equipment operation, not a few hours with fans.
 
 For leaks that originated from an appliance rather than a supply line, the cleanup process is similar but the source investigation differs. A washing machine overflow or refrigerator line failure often means water has spread under cabinetry and into toe kicks that aren't visible from the surface.
 
@@ -95,10 +95,10 @@ Once the water is extracted and drying equipment is running, the work isn't done
 
 **Days 3–5:** Final moisture clearance readings. Once materials test dry, equipment is removed.
 
-**Days 5–14:** Reconstruction begins — replacing drywall, flooring, insulation, and any cabinetry that couldn't be dried in place. This phase is often handled by the same contractor or a partner they coordinate with.
+**Days 5–14:** Reconstruction begins, replacing drywall, flooring, insulation, and any cabinetry that couldn't be dried in place. This phase is often handled by the same contractor or a partner they coordinate with.
 
 **Ongoing:** Watch for musty odors or visible discoloration in the weeks after the repair. A faint smell of mildew three weeks after a "dried" water loss is a sign the drying wasn't complete.
 
 ---
 
-If you're in Bakersfield and you're looking at standing water right now, the checklist above covers what you can do in the next 30 minutes. For the drying, documentation, and reconstruction that follows, ProRestoration Services handles water damage restoration and appliance leak cleanup throughout the Bakersfield area — reach them at **(661) 393-9306**.
+If you're in Bakersfield and you're looking at standing water right now, the checklist above covers what you can do in the next 30 minutes. For the drying, documentation, and reconstruction that follows, ProRestoration Services handles water damage restoration and appliance leak cleanup throughout the Bakersfield area, reach them at **(661) 393-9306**.

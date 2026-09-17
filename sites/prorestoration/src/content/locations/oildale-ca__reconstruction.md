@@ -20,37 +20,37 @@ state: "CA"
 service_display: "Reconstruction Services"
 rendered: true
 ---
-When a burst galvanized water line floods the subfloor of a 1950s Oildale cottage, or a kitchen fire chars the load-bearing wall studs of a home on the North Chester Avenue business strip, mitigation is only half the story. The rebuild that follows is where a property either comes back stronger or gets patched together with shortcuts that fail the next inspection. ProRestoration Services handles post-damage reconstruction from structural framing through final finishes — and because we work in Oildale's specific housing stock every week, we know what those older homes actually need to come back to code.
+When a burst galvanized water line floods the subfloor of a 1950s Oildale cottage, or a kitchen fire chars the load-bearing wall studs of a home on the North Chester Avenue business strip, mitigation is only half the story. The rebuild that follows is where a property either comes back stronger or gets patched together with shortcuts that fail the next inspection. ProRestoration Services handles post-damage reconstruction from structural framing through final finishes, and because we work in Oildale's specific housing stock every week, we know what those older homes actually need to come back to code.
 
 ## Why Oildale Properties See Reconstruction Challenges
 
-Oildale's identity as an unincorporated community means its building stock largely predates modern Kern County code cycles. The 1940s–1960s cottages clustered near Standard Park and the Kern River bluffs were built fast, built cheap, and built to era standards that no longer apply. Galvanized supply lines that have reached the end of their service life, Orangeburg sewer laterals that collapse under root pressure, and swamp-cooler penetrations that have been leaking slowly into roof sheathing for decades — these are the conditions we walk into on a routine basis.
+Oildale's identity as an unincorporated community means its building stock largely predates modern Kern County code cycles. The 1940s–1960s cottages clustered near Standard Park and the Kern River bluffs were built fast, built cheap, and built to era standards that no longer apply. Galvanized supply lines that have reached the end of their service life, Orangeburg sewer laterals that collapse under root pressure, and swamp-cooler penetrations that have been leaking slowly into roof sheathing for decades, these are the conditions we walk into on a routine basis.
 
-Older electrical panels in the Highland and Riverview neighborhoods drive a higher-than-average rate of house fires for a community this size. When fire damages a structure with knob-and-tube or early aluminum branch wiring, reconstruction isn't just about replacing drywall. It means coordinating with a licensed electrician before framing closes, documenting the scope for the insurance adjuster, and ensuring the rebuilt sections meet current California Residential Code — not the code that was in effect when the house was originally permitted.
+Older electrical panels in the Highland and Riverview neighborhoods drive a higher-than-average rate of house fires for a community this size. When fire damages a structure with knob-and-tube or early aluminum branch wiring, reconstruction isn't just about replacing drywall. It means coordinating with a licensed electrician before framing closes, documenting the scope for the insurance adjuster, and ensuring the rebuilt sections meet current California Residential Code, not the code that was in effect when the house was originally permitted.
 
 ## Our Reconstruction Process in Oildale
 
-Every reconstruction project starts with a documented scope of loss. We photograph and measure all affected structural elements — floor joists, wall framing, roof decking, sheathing — before a single piece of material is removed. That documentation matters enormously for insurance-guided projects, which represent the majority of work we do in the 93308 ZIP code.
+Every reconstruction project starts with a documented scope of loss. We photograph and measure all affected structural elements, floor joists, wall framing, roof decking, sheathing, before a single piece of material is removed. That documentation matters enormously for insurance-guided projects, which represent the majority of work we do in the 93308 ZIP code.
 
 From there, the process moves in a defined sequence:
 
-- **Structural assessment and shoring** — if load-bearing elements are compromised, temporary support goes in before demolition begins
-- **Selective demolition** — removing only what is damaged, preserving what can be saved to control costs and timeline
-- **Rough trades coordination** — framing, electrical, plumbing, and HVAC rough-ins scheduled so inspections don't stack up and delay drywall
-- **Insulation and air sealing** — Kern County's desert climate means proper insulation isn't optional; we bring rebuilt cavities up to current Title 24 requirements
-- **Drywall, texture, and finishes** — matched to the existing home where possible, so repaired sections don't read as patches
-- **Final inspection and punch-list** — we don't close a job until the work passes county inspection and the homeowner or property manager has signed off
+- **Structural assessment and shoring**, if load-bearing elements are compromised, temporary support goes in before demolition begins
+- **Selective demolition**, removing only what is damaged, preserving what can be saved to control costs and timeline
+- **Rough trades coordination**, framing, electrical, plumbing, and HVAC rough-ins scheduled so inspections don't stack up and delay drywall
+- **Insulation and air sealing**, Kern County's desert climate means proper insulation isn't optional; we bring rebuilt cavities up to current Title 24 requirements
+- **Drywall, texture, and finishes**, matched to the existing home where possible, so repaired sections don't read as patches
+- **Final inspection and punch-list**, we don't close a job until the work passes county inspection and the homeowner or property manager has signed off
 
-Because we hold CSLB License #960566 and carry the certifications required for lead-safe work on pre-1978 structures — which covers most of Oildale's housing stock — we can handle the full scope without subcontracting the regulated portions to an outside firm.
+Because we hold CSLB License #960566 and carry the certifications required for lead-safe work on pre-1978 structures, which covers most of Oildale's housing stock, we can handle the full scope without subcontracting the regulated portions to an outside firm.
 
 ## Insurance Coordination for Oildale Reconstruction Projects
 
 Most Oildale property owners we work with are navigating an insurance claim at the same time they're trying to get their home or rental unit livable again. We build our documentation process around what adjusters actually need: line-item estimates in Xactimate format, photo logs organized by room and system, and clear separation between mitigation costs and reconstruction costs so the claim doesn't get tangled.
 
-Oildale's older housing stock occasionally surfaces surprises mid-project — asbestos-containing floor tile under vinyl, lead paint in window trim, or a crawl space that reveals more subfloor damage than the initial inspection showed. When that happens, we write a supplemental scope, photograph the discovery, and communicate directly with the carrier before proceeding. Surprises handled that way rarely derail a claim; surprises discovered at final inspection almost always do.
+Oildale's older housing stock occasionally surfaces surprises mid-project, asbestos-containing floor tile under vinyl, lead paint in window trim, or a crawl space that reveals more subfloor damage than the initial inspection showed. When that happens, we write a supplemental scope, photograph the discovery, and communicate directly with the carrier before proceeding. Surprises handled that way rarely derail a claim; surprises discovered at final inspection almost always do.
 
 ## Local Note
 
-One thing that catches out-of-area contractors working near the Kern River bluffs and the Airport Drive corridor: the sandy, alluvial soil common to this part of Oildale doesn't drain the way clay-heavy soils do. After a significant water loss, moisture can wick laterally through a slab or crawl space for a greater horizontal distance than the visible damage suggests. We extend our moisture mapping further than standard practice in these areas and verify readings at the perimeter before framing begins — otherwise rebuilt walls can trap residual moisture and develop mold within a season.
+One thing that catches out-of-area contractors working near the Kern River bluffs and the Airport Drive corridor: the sandy, alluvial soil common to this part of Oildale doesn't drain the way clay-heavy soils do. After a significant water loss, moisture can wick laterally through a slab or crawl space for a greater horizontal distance than the visible damage suggests. We extend our moisture mapping further than standard practice in these areas and verify readings at the perimeter before framing begins, otherwise rebuilt walls can trap residual moisture and develop mold within a season.
 
 If your property has been damaged by fire, water, or any other event and you're ready to move from cleanup into rebuilding, call ProRestoration Services at (661) 393-9306. We're available around the clock, and we can have a project manager on-site in Oildale to begin scoping your reconstruction the same day you call.

@@ -19,17 +19,17 @@ state: "IA"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind the walls of a Rock Rapids farmhouse or the Rock River creeps into a riverside basement, Crew Restoration & Construction mobilizes from Sioux Falls to assess the damage, contain the loss, and start drying, cleaning, or rebuilding — so Lyon County property owners are not left managing a crisis alone. We handle water damage, fire and smoke cleanup, mold remediation, and reconstruction for homes and commercial properties throughout the 51246 ZIP code and the surrounding area.
+When a pipe bursts behind the walls of a Rock Rapids farmhouse or the Rock River creeps into a riverside basement, Crew Restoration & Construction mobilizes from Sioux Falls to assess the damage, contain the loss, and start drying, cleaning, or rebuilding, so Lyon County property owners are not left managing a crisis alone. We handle water damage, fire and smoke cleanup, mold remediation, and reconstruction for homes and commercial properties throughout the 51246 ZIP code and the surrounding area.
 
 ## Restoration emergencies common in Rock Rapids
 
-Rock Rapids sits in the northwest corner of Iowa where the climate swings hard: subzero wind chills in January, heavy convective storms in spring, and the kind of humidity in summer that keeps building materials from drying on their own. That combination drives a predictable set of restoration calls. Older homes in Downtown Rock Rapids — many built before modern vapor barriers and insulation standards — are prone to frozen supply lines and ice-damming that forces meltwater under roofing and into attics. Spring snowmelt and storm runoff push the Rock River above its banks with enough regularity that properties in the Rock River area treat basement flooding as a near-annual event rather than a freak occurrence. Lyon County's housing stock also skews toward older construction, meaning galvanized steel plumbing, knob-and-tube wiring in some cases, and building materials that absorb and hold moisture longer than modern alternatives. All of that shapes the kind of restoration work Rock Rapids properties actually need.
+Rock Rapids sits in the northwest corner of Iowa where the climate swings hard: subzero wind chills in January, heavy convective storms in spring, and the kind of humidity in summer that keeps building materials from drying on their own. That combination drives a predictable set of restoration calls. Older homes in Downtown Rock Rapids, many built before modern vapor barriers and insulation standards, are prone to frozen supply lines and ice-damming that forces meltwater under roofing and into attics. Spring snowmelt and storm runoff push the Rock River above its banks with enough regularity that properties in the Rock River area treat basement flooding as a near-annual event rather than a freak occurrence. Lyon County's housing stock also skews toward older construction, meaning galvanized steel plumbing, knob-and-tube wiring in some cases, and building materials that absorb and hold moisture longer than modern alternatives. All of that shapes the kind of restoration work Rock Rapids properties actually need.
 
 ## Services we provide in Rock Rapids
 
 ### Water damage restoration
 
-Water damage in Rock Rapids most often traces back to one of three sources: sump pump failures during heavy spring rain, supply line breaks in homes that go unheated over a weekend, or direct intrusion from the Rock River during flood events. We extract standing water, map moisture with thermal imaging and meters, and dry structural materials to IICRC S500 standards — because a floor that feels dry underfoot can still be holding enough moisture to grow mold within 48 to 72 hours.
+Water damage in Rock Rapids most often traces back to one of three sources: sump pump failures during heavy spring rain, supply line breaks in homes that go unheated over a weekend, or direct intrusion from the Rock River during flood events. We extract standing water, map moisture with thermal imaging and meters, and dry structural materials to IICRC S500 standards, because a floor that feels dry underfoot can still be holding enough moisture to grow mold within 48 to 72 hours.
 
 ### Mold remediation
 
@@ -37,7 +37,7 @@ Mold follows water, and in Rock Rapids that means riverside properties and older
 
 ### Fire and smoke damage restoration
 
-House fires in rural Lyon County often mean longer response times from local fire departments, which can mean deeper smoke penetration into wall cavities, ductwork, and personal belongings. Smoke residue is acidic and continues to etch and stain surfaces for days after the flames are out. We assess the full scope — including hidden smoke damage behind cabinets and in HVAC systems — before beginning cleaning and deodorization.
+House fires in rural Lyon County often mean longer response times from local fire departments, which can mean deeper smoke penetration into wall cavities, ductwork, and personal belongings. Smoke residue is acidic and continues to etch and stain surfaces for days after the flames are out. We assess the full scope, including hidden smoke damage behind cabinets and in HVAC systems, before beginning cleaning and deodorization.
 
 ### Reconstruction
 
@@ -45,12 +45,12 @@ Some losses go beyond cleanup. When water damage has rotted subflooring near Emm
 
 ## Coverage and how fast we can get there
 
-Rock Rapids is roughly 90 miles northeast of our Sioux Falls headquarters, a drive that runs north on I-29 and then east on US-18 through Larchwood before reaching Lyon County. We serve all of Rock Rapids — Downtown Rock Rapids, the Rock River area, and surrounding rural addresses in the 51246 ZIP code. Scheduling is handled during business hours; call (605) 965-2727 to describe the situation and we will coordinate the fastest available dispatch. We do not promise a specific on-site window in minutes, but we treat water and fire losses as priority scheduling because every hour matters when materials are wet or smoke residue is settling.
+Rock Rapids is roughly 90 miles northeast of our Sioux Falls headquarters, a drive that runs north on I-29 and then east on US-18 through Larchwood before reaching Lyon County. We serve all of Rock Rapids, Downtown Rock Rapids, the Rock River area, and surrounding rural addresses in the 51246 ZIP code. Scheduling is handled during business hours; call (605) 965-2727 to describe the situation and we will coordinate the fastest available dispatch. We do not promise a specific on-site window in minutes, but we treat water and fire losses as priority scheduling because every hour matters when materials are wet or smoke residue is settling.
 
 ## Building stock, site conditions, and permits in Rock Rapids
 
-Most of what stands here is wood-framed with a full basement — the deep frost line in northwest Iowa pushes footings well below grade, so basements are the norm rather than slabs or crawlspaces. That is where the loss usually lands: plaster and lath or early gypsum on the main floors, and a finished basement with studwall furring tight against masonry that holds water long after the floor looks dry. Older homes commonly still have cast iron drain stacks and clay or fiber sewer laterals, and pre-1978 paint and asbestos-bearing floor tile or pipe wrap have to be planned for before demolition starts, not after.
+Most of what stands here is wood-framed with a full basement, the deep frost line in northwest Iowa pushes footings well below grade, so basements are the norm rather than slabs or crawlspaces. That is where the loss usually lands: plaster and lath or early gypsum on the main floors, and a finished basement with studwall furring tight against masonry that holds water long after the floor looks dry. Older homes commonly still have cast iron drain stacks and clay or fiber sewer laterals, and pre-1978 paint and asbestos-bearing floor tile or pipe wrap have to be planned for before demolition starts, not after.
 
 Structural repair and rebuild permits come from the City of Rock Rapids for in-town addresses and Lyon County for rural ones. Work in the mapped floodplain near the river can trigger additional floodplain review through the state.
 
-If you are dealing with water, fire, mold, or structural damage anywhere in Rock Rapids or Lyon County, call Crew Restoration & Construction at **(605) 965-2727** during business hours. Describe what you are seeing and we will walk you through next steps — including what to document for your insurance carrier before we arrive.
+If you are dealing with water, fire, mold, or structural damage anywhere in Rock Rapids or Lyon County, call Crew Restoration & Construction at **(605) 965-2727** during business hours. Describe what you are seeing and we will walk you through next steps, including what to document for your insurance carrier before we arrive.

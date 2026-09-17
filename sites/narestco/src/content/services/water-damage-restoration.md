@@ -18,17 +18,17 @@ service_display: "Water Damage Restoration"
 rendered: true
 hero: '/images/services/water-damage-restoration.webp'
 ---
-Standing water doesn't wait. Within hours of a burst pipe, an overflowing appliance, or a roof breach, moisture is already wicking into drywall, saturating subfloor panels, and creating the warm, damp conditions mold needs to take hold. National Restoration Construction responds fast — typically on-site within 60–90 minutes — to stop the spread, extract the water, and dry your structure down to safe moisture levels before secondary damage compounds the cost.
+Standing water doesn't wait. Within hours of a burst pipe, an overflowing appliance, or a roof breach, moisture is already wicking into drywall, saturating subfloor panels, and creating the warm, damp conditions mold needs to take hold. National Restoration Construction responds fast, typically on-site within 60–90 minutes, to stop the spread, extract the water, and dry your structure down to safe moisture levels before secondary damage compounds the cost.
 
 ## How we handle water damage
 
 Water damage restoration isn't just shop-vacuuming a wet floor. It's a sequenced process that has to be done in the right order, with the right equipment, or moisture hides inside walls and under flooring until it surfaces weeks later as mold or buckled hardwood.
 
-Our technicians begin with a full moisture mapping inspection using thermal imaging cameras and calibrated moisture meters. That tells us exactly where water has traveled — not just where it's visible. From there we move into **water extraction**, deploying truck-mounted and portable extraction units capable of pulling hundreds of gallons from carpet, pad, and concrete slab in a single session.
+Our technicians begin with a full moisture mapping inspection using thermal imaging cameras and calibrated moisture meters. That tells us exactly where water has traveled, not just where it's visible. From there we move into **water extraction**, deploying truck-mounted and portable extraction units capable of pulling hundreds of gallons from carpet, pad, and concrete slab in a single session.
 
-Once standing water and saturated materials are removed, **structural drying** begins. We set industrial-grade desiccant and refrigerant dehumidifiers alongside high-velocity air movers, positioning them according to a drying plan calculated from the room's cubic footage, material types, and ambient conditions. Western Washington's marine climate — Federal Way averages over 37 inches of rain annually and holds humidity well into the 60–70% range even indoors — means we often run equipment longer than national averages suggest. We monitor moisture readings daily and adjust equipment placement until every reading hits the IICRC S500 standard for dry.
+Once standing water and saturated materials are removed, **structural drying** begins. We set industrial-grade desiccant and refrigerant dehumidifiers alongside high-velocity air movers, positioning them according to a drying plan calculated from the room's cubic footage, material types, and ambient conditions. Western Washington's marine climate, Federal Way averages over 37 inches of rain annually and holds humidity well into the 60–70% range even indoors, means we often run equipment longer than national averages suggest. We monitor moisture readings daily and adjust equipment placement until every reading hits the IICRC S500 standard for dry.
 
-Materials that can't be dried in place — heavily saturated insulation, certain flooring types, compromised drywall — are removed, documented, and disposed of properly. We photograph and log everything for your insurance file.
+Materials that can't be dried in place, heavily saturated insulation, certain flooring types, compromised drywall, are removed, documented, and disposed of properly. We photograph and log everything for your insurance file.
 
 ## When to call us
 
@@ -38,20 +38,20 @@ Some water events are obvious: a pipe bursts at 2 a.m. and you're standing in an
 
 - Standing or pooling water anywhere inside the structure
 - Soft, spongy, or discolored drywall or ceiling panels
-- A musty odor that wasn't there before — that smell often means microbial growth is already underway
+- A musty odor that wasn't there before, that smell often means microbial growth is already underway
 - Warping, cupping, or separation in hardwood or laminate flooring
 - Visible staining along baseboards or at wall-floor transitions
 - A water bill that jumped without explanation (slow slab leaks often show up here first)
 
 **What not to do while you wait for us:**
 
-Don't run a standard household fan over standing water — it can spread contaminated droplets and doesn't move enough air to actually dry structural materials. Don't walk through water that may have contacted your electrical panel or outlets. And don't assume the damage is contained to what you can see; water follows framing cavities and gravity, and it routinely travels 10–15 feet from the source before stopping.
+Don't run a standard household fan over standing water, it can spread contaminated droplets and doesn't move enough air to actually dry structural materials. Don't walk through water that may have contacted your electrical panel or outlets. And don't assume the damage is contained to what you can see; water follows framing cavities and gravity, and it routinely travels 10–15 feet from the source before stopping.
 
 Time matters more than most homeowners realize. Mold can begin colonizing porous materials within 24–48 hours of saturation. The difference between a **water mitigation** job that stays contained and one that expands into full mold remediation is often a matter of how quickly extraction and drying begin.
 
 ## What sets our water damage team apart
 
-National Restoration Construction is IICRC Certified in water damage restoration — the industry's primary technical standard — and holds EPA, ANSI, and Lead-Safe Certified Firm credentials. That last one matters in Federal Way and the broader South Puget Sound corridor, where a significant portion of the housing stock was built before 1978 and may contain lead-based paint. Disturbing those surfaces during demo without proper protocols creates a separate hazard. Our crews are trained and certified to handle it.
+National Restoration Construction is IICRC Certified in water damage restoration, the industry's primary technical standard, and holds EPA, ANSI, and Lead-Safe Certified Firm credentials. That last one matters in Federal Way and the broader South Puget Sound corridor, where a significant portion of the housing stock was built before 1978 and may contain lead-based paint. Disturbing those surfaces during demo without proper protocols creates a separate hazard. Our crews are trained and certified to handle it.
 
 We're also a licensed General Contractor (Certificate of Registration #NATIORC792M6), which means we don't stop at mitigation. If water damage requires structural repairs, framing replacement, or a full reconstruction phase, the same company that dried your home can rebuild it. That continuity cuts weeks off the typical timeline and eliminates the coordination gap between a mitigation-only company and a separate GC.
 
@@ -59,12 +59,12 @@ Our technicians are on call around the clock. Water damage doesn't schedule itse
 
 ## Insurance, billing, and the claims process
 
-Most homeowner and commercial property policies cover sudden and accidental water damage — burst pipes, appliance failures, storm-driven intrusion — though coverage varies by carrier and policy language. We work directly with insurance adjusters and can provide the documentation they require: moisture logs, photo evidence, scope of work, and itemized estimates formatted to industry billing standards.
+Most homeowner and commercial property policies cover sudden and accidental water damage, burst pipes, appliance failures, storm-driven intrusion, though coverage varies by carrier and policy language. We work directly with insurance adjusters and can provide the documentation they require: moisture logs, photo evidence, scope of work, and itemized estimates formatted to industry billing standards.
 
 We'll walk you through what to expect before we start, give you a written scope, and communicate directly with your adjuster if you want us to. You won't be handed off to a call center. The project manager you meet on day one is the person you can reach throughout the job.
 
-If you have questions about whether your specific situation is covered, call us at **(206) 883-0333** before you call your insurer — we can help you understand what to document before that first conversation.
+If you have questions about whether your specific situation is covered, call us at **(206) 883-0333** before you call your insurer, we can help you understand what to document before that first conversation.
 
 ---
 
-If your home or property has water damage right now, every hour of delay increases the scope of work and the cost. Call **(206) 883-0333** any time — day or night — and we'll have a certified technician on-site in Federal Way and the surrounding Washington service area as fast as we can get there.
+If your home or property has water damage right now, every hour of delay increases the scope of work and the cost. Call **(206) 883-0333** any time, day or night, and we'll have a certified technician on-site in Federal Way and the surrounding Washington service area as fast as we can get there.

@@ -17,43 +17,43 @@ service_slug: "biohazard-cleanup"
 service_display: "Biohazard and Trauma Cleanup"
 rendered: true
 ---
-When something traumatic happens inside a home or property, the people closest to it shouldn't have to think about cleanup. Whether it's an unattended death discovered days later, a traumatic injury, or another biohazard event, biological contamination doesn't wait — and improper handling can spread pathogens, compromise structural materials, and create liability for property owners. This is work that requires specialized training, regulated disposal, and a team that understands the weight of what they're walking into.
+When something traumatic happens inside a home or property, the people closest to it shouldn't have to think about cleanup. Whether it's an unattended death discovered days later, a traumatic injury, or another biohazard event, biological contamination doesn't wait, and improper handling can spread pathogens, compromise structural materials, and create liability for property owners. This is work that requires specialized training, regulated disposal, and a team that understands the weight of what they're walking into.
 
 ## What biohazard and trauma cleanup actually involves
 
-Biohazard remediation is not cleaning in the conventional sense. Blood, bodily fluids, and decomposition byproducts are classified as potentially infectious materials under OSHA's Bloodborne Pathogen Standard (29 CFR 1910.1030). That means every surface contact, every tool used, and every material removed must be handled under strict protocols — not just for the property, but for the safety of the technicians on-site.
+Biohazard remediation is not cleaning in the conventional sense. Blood, bodily fluids, and decomposition byproducts are classified as potentially infectious materials under OSHA's Bloodborne Pathogen Standard (29 CFR 1910.1030). That means every surface contact, every tool used, and every material removed must be handled under strict protocols, not just for the property, but for the safety of the technicians on-site.
 
-The work typically involves personal protective equipment staged before entry, physical removal of contaminated porous materials (flooring, subfloor, drywall, insulation), enzymatic and EPA-registered disinfectant treatment of affected surfaces, and the proper packaging and transport of regulated medical waste under a documented waste manifest. Odor from biological contamination — particularly in unattended death situations — penetrates deeply into building materials and requires targeted treatment beyond surface-level cleaning.
+The work typically involves personal protective equipment staged before entry, physical removal of contaminated porous materials (flooring, subfloor, drywall, insulation), enzymatic and EPA-registered disinfectant treatment of affected surfaces, and the proper packaging and transport of regulated medical waste under a documented waste manifest. Odor from biological contamination, particularly in unattended death situations, penetrates deeply into building materials and requires targeted treatment beyond surface-level cleaning.
 
 Timeline depends on the scope. A contained trauma scene may be remediated in a single day. A decomposition event that has affected subfloor or wall cavities can take two to three days once affected materials are removed and the structure is properly treated and dried. FireDEX Butler responds 24/7 and can typically begin work the same day you call.
 
 ## Our process
 
-1. **Arrival and scene assessment** — Before any work begins, a technician evaluates the full extent of contamination, including secondary areas that may not be immediately visible (HVAC pathways, adjacent wall cavities, under-floor spaces). We establish a containment perimeter and confirm that the site is cleared for remediation by the appropriate authorities if applicable.
+1. **Arrival and scene assessment**, Before any work begins, a technician evaluates the full extent of contamination, including secondary areas that may not be immediately visible (HVAC pathways, adjacent wall cavities, under-floor spaces). We establish a containment perimeter and confirm that the site is cleared for remediation by the appropriate authorities if applicable.
 
-2. **PPE staging and containment setup** — Technicians suit up in full PPE — Tyvek suits, respirators, gloves, and eye protection — before entering the affected area. Containment barriers prevent cross-contamination to unaffected areas of the property during the removal process.
+2. **PPE staging and containment setup**, Technicians suit up in full PPE, Tyvek suits, respirators, gloves, and eye protection, before entering the affected area. Containment barriers prevent cross-contamination to unaffected areas of the property during the removal process.
 
-3. **Biohazard removal and material disposal** — Contaminated materials are removed, double-bagged in regulated biohazard containers, and labeled per DOT and state transport requirements. In Pennsylvania, biohazard waste transport requires proper manifesting; FireDEX Butler holds license #PA001913 and manages this documentation so the property owner is not left holding unresolved regulatory paperwork.
+3. **Biohazard removal and material disposal**, Contaminated materials are removed, double-bagged in regulated biohazard containers, and labeled per DOT and state transport requirements. In Pennsylvania, biohazard waste transport requires proper manifesting; FireDEX Butler holds license #PA001913 and manages this documentation so the property owner is not left holding unresolved regulatory paperwork.
 
-4. **Enzymatic treatment and EPA-registered disinfection** — After physical removal, affected surfaces are treated with enzymatic cleaners that break down biological proteins at a molecular level, followed by EPA-registered hospital-grade disinfectants. This step addresses both pathogen risk and the odor compounds that surface cleaning alone cannot eliminate.
+4. **Enzymatic treatment and EPA-registered disinfection**, After physical removal, affected surfaces are treated with enzymatic cleaners that break down biological proteins at a molecular level, followed by EPA-registered hospital-grade disinfectants. This step addresses both pathogen risk and the odor compounds that surface cleaning alone cannot eliminate.
 
-5. **Post-remediation verification and documentation** — We conduct a final walkthrough, photograph treated areas, and provide written documentation of the remediation scope. This documentation matters for insurance claims and for any future property transactions.
+5. **Post-remediation verification and documentation**, We conduct a final walkthrough, photograph treated areas, and provide written documentation of the remediation scope. This documentation matters for insurance claims and for any future property transactions.
 
 ## What separates a good biohazard response from a bad one
 
-The most common failure in trauma scene cleanup is incomplete removal of porous materials. Blood and biological fluids wick quickly into hardwood, concrete, drywall, and subfloor — materials that look unaffected on the surface can harbor contamination inches deep. Technicians who stop at visible staining leave behind both a pathogen risk and an odor source that will resurface, particularly in warm weather.
+The most common failure in trauma scene cleanup is incomplete removal of porous materials. Blood and biological fluids wick quickly into hardwood, concrete, drywall, and subfloor, materials that look unaffected on the surface can harbor contamination inches deep. Technicians who stop at visible staining leave behind both a pathogen risk and an odor source that will resurface, particularly in warm weather.
 
 A second common gap is odor treatment. Masking agents and standard deodorizers don't address the volatile organic compounds produced by biological decomposition. Proper remediation uses enzymatic digestion and, in severe cases, hydroxyl or ozone treatment to neutralize odor at the molecular level rather than covering it.
 
-From an insurance documentation standpoint, adjusters handling biohazard claims look for a clear scope of work, photographic evidence of affected areas before and after remediation, a waste manifest confirming proper disposal, and itemized line items for materials removed. Undocumented or incomplete remediation can create disputes at claim time — or worse, leave a property owner with a liability issue if contamination is discovered later.
+From an insurance documentation standpoint, adjusters handling biohazard claims look for a clear scope of work, photographic evidence of affected areas before and after remediation, a waste manifest confirming proper disposal, and itemized line items for materials removed. Undocumented or incomplete remediation can create disputes at claim time, or worse, leave a property owner with a liability issue if contamination is discovered later.
 
 Discreet arrival matters too. FireDEX Butler uses unmarked vehicles on request, understanding that neighbors and passersby don't need to know what happened inside a home.
 
 ## Seasonal and regional considerations
 
-In western Pennsylvania, temperature plays a real role in biohazard response urgency. During summer months, decomposition accelerates significantly in unventilated spaces — what might be a contained remediation in cooler weather can become a more extensive structural issue if response is delayed even 24–48 hours. Conversely, cold winters can slow decomposition but also mask odor until a property is heated, at which point the full extent of contamination becomes apparent.
+In western Pennsylvania, temperature plays a real role in biohazard response urgency. During summer months, decomposition accelerates significantly in unventilated spaces, what might be a contained remediation in cooler weather can become a more extensive structural issue if response is delayed even 24–48 hours. Conversely, cold winters can slow decomposition but also mask odor until a property is heated, at which point the full extent of contamination becomes apparent.
 
-Older housing stock in Butler County and the surrounding townships — much of it built before 1980 — can complicate remediation when lead paint or asbestos-containing materials are disturbed during the removal of contaminated structural components. This is a factor worth discussing during the initial assessment.
+Older housing stock in Butler County and the surrounding townships, much of it built before 1980, can complicate remediation when lead paint or asbestos-containing materials are disturbed during the removal of contaminated structural components. This is a factor worth discussing during the initial assessment.
 
 ## Service area
 
@@ -61,4 +61,4 @@ FireDEX Butler is based in Cranberry Township and provides biohazard and trauma 
 
 ---
 
-If you're dealing with a situation that requires biohazard or trauma scene cleanup, the next step is a confidential conversation — not a commitment. Call FireDEX Butler at (724) 452-7400 to speak with someone who can walk you through what to expect, answer questions about insurance coordination, and dispatch a team when you're ready to begin discreet biohazard cleanup.
+If you're dealing with a situation that requires biohazard or trauma scene cleanup, the next step is a confidential conversation, not a commitment. Call FireDEX Butler at (724) 452-7400 to speak with someone who can walk you through what to expect, answer questions about insurance coordination, and dispatch a team when you're ready to begin discreet biohazard cleanup.

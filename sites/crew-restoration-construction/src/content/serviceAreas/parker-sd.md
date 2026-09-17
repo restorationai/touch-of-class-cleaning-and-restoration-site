@@ -19,17 +19,17 @@ state: "SD"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall in Parker or a basement fills after a spring storm, Crew Restoration & Construction handles the full scope — water extraction, structural drying, mold containment, fire and smoke cleanup, and reconstruction — so property owners in Turner County have one number to call instead of coordinating three separate contractors. We work directly with insurance carriers, document every affected material, and stay on the job through the rebuild.
+When a pipe bursts behind a wall in Parker or a basement fills after a spring storm, Crew Restoration & Construction handles the full scope, water extraction, structural drying, mold containment, fire and smoke cleanup, and reconstruction, so property owners in Turner County have one number to call instead of coordinating three separate contractors. We work directly with insurance carriers, document every affected material, and stay on the job through the rebuild.
 
 ## Restoration emergencies common in Parker
 
-Parker sits in the heart of Turner County, where the climate swings hard between seasons. Spring snowmelt pushes the water table up quickly across the flat agricultural terrain, and basements in older homes — many built decades before modern waterproofing standards — take on water faster than sump pumps can keep up. Summer thunderstorms roll through with little warning, driving rain under aging roof flashing and around window seals. Winter brings freeze-thaw cycles that crack foundation walls and split supply lines in unheated crawl spaces. The housing stock near Downtown Parker skews older, with galvanized or early copper plumbing that's reached the end of its service life. Near the Turner County Fairgrounds area, a mix of residential and light commercial properties means storm damage can affect structures with different construction standards on the same block. All of that adds up to a community that sees water, mold, and storm damage regularly — not as rare events.
+Parker sits in the heart of Turner County, where the climate swings hard between seasons. Spring snowmelt pushes the water table up quickly across the flat agricultural terrain, and basements in older homes, many built decades before modern waterproofing standards, take on water faster than sump pumps can keep up. Summer thunderstorms roll through with little warning, driving rain under aging roof flashing and around window seals. Winter brings freeze-thaw cycles that crack foundation walls and split supply lines in unheated crawl spaces. The housing stock near Downtown Parker skews older, with galvanized or early copper plumbing that's reached the end of its service life. Near the Turner County Fairgrounds area, a mix of residential and light commercial properties means storm damage can affect structures with different construction standards on the same block. All of that adds up to a community that sees water, mold, and storm damage regularly, not as rare events.
 
 ## Services we provide in Parker
 
 ### Water damage restoration
 
-Water damage in Parker often starts small — a slow drip under a kitchen sink, a failed water heater, a sump that couldn't keep pace with a hard rain — and becomes a structural problem within 24 to 48 hours as moisture migrates into subfloor assemblies and wall cavities. We extract standing water, set commercial drying equipment, and monitor moisture readings daily until the structure meets dry standard, reducing the window for mold to take hold.
+Water damage in Parker often starts small, a slow drip under a kitchen sink, a failed water heater, a sump that couldn't keep pace with a hard rain, and becomes a structural problem within 24 to 48 hours as moisture migrates into subfloor assemblies and wall cavities. We extract standing water, set commercial drying equipment, and monitor moisture readings daily until the structure meets dry standard, reducing the window for mold to take hold.
 
 ### Mold remediation
 
@@ -37,7 +37,7 @@ The combination of older construction and periodic flooding makes mold a realist
 
 ### Fire and smoke damage restoration
 
-Smoke residue from even a contained kitchen fire travels farther than most homeowners expect — into HVAC ductwork, inside cabinet boxes, and behind electrical plates. The acrid smell that lingers days after the flames are out is protein smoke and soot bonding to porous surfaces. We assess the full spread of residue, not just the charred area, and clean or replace materials based on what's actually affected.
+Smoke residue from even a contained kitchen fire travels farther than most homeowners expect, into HVAC ductwork, inside cabinet boxes, and behind electrical plates. The acrid smell that lingers days after the flames are out is protein smoke and soot bonding to porous surfaces. We assess the full spread of residue, not just the charred area, and clean or replace materials based on what's actually affected.
 
 ### Storm and wind damage
 
@@ -45,18 +45,18 @@ Severe weather near the Turner County Fairgrounds area and across Parker's resid
 
 ### Reconstruction
 
-Because we handle both restoration and construction, there's no handoff gap between the remediation crew and the rebuild crew. Drywall, flooring, cabinetry, and structural framing — we carry the project through to a finished, inspectable result.
+Because we handle both restoration and construction, there's no handoff gap between the remediation crew and the rebuild crew. Drywall, flooring, cabinetry, and structural framing, we carry the project through to a finished, inspectable result.
 
 ## Coverage and how fast we can get there
 
-Parker is roughly 35 miles southwest of our Sioux Falls headquarters, a straightforward drive south on I-29 to the Parker exit. Under normal road conditions, our crew can be loaded and moving toward Turner County Courthouse-area properties or neighborhoods near Downtown Parker promptly after a call is received. We schedule service calls during our business hours — call (605) 965-2727 to reach us directly. For properties near the Turner County Fairgrounds area on the south end of town, routing is equally direct with no significant detours. We serve the 57053 ZIP code and surrounding Turner County addresses.
+Parker is roughly 35 miles southwest of our Sioux Falls headquarters, a straightforward drive south on I-29 to the Parker exit. Under normal road conditions, our crew can be loaded and moving toward Turner County Courthouse-area properties or neighborhoods near Downtown Parker promptly after a call is received. We schedule service calls during our business hours, call (605) 965-2727 to reach us directly. For properties near the Turner County Fairgrounds area on the south end of town, routing is equally direct with no significant detours. We serve the 57053 ZIP code and surrounding Turner County addresses.
 
 ## Building stock, site conditions, and permits in Parker
 
-Much of Parker's older core is wood-frame houses on full basements with stone or early poured concrete foundation walls, plaster-and-lath interiors, and dimensional-lumber floor framing. Plaster holds water differently than drywall — it can look dry at the surface while the lath and the cavity behind stay wet — so drying those walls takes longer and needs meter readings, not a visual call. Pre-1978 homes also mean lead paint, and mid-century remodels often left asbestos-containing floor tile, mastic, or pipe wrap that has to be identified before demolition rather than after.
+Much of Parker's older core is wood-frame houses on full basements with stone or early poured concrete foundation walls, plaster-and-lath interiors, and dimensional-lumber floor framing. Plaster holds water differently than drywall, it can look dry at the surface while the lath and the cavity behind stay wet, so drying those walls takes longer and needs meter readings, not a visual call. Pre-1978 homes also mean lead paint, and mid-century remodels often left asbestos-containing floor tile, mastic, or pipe wrap that has to be identified before demolition rather than after.
 
 Drain stacks in these houses are commonly cast iron, which rusts from the inside and weeps at the hub before it ever fails outright. Footings sit deep here because of eastern South Dakota frost depth, and the glacial soils around Turner County drain slowly, so groundwater pressure against basement walls is a year-round condition, not just a spring one.
 
 For structural repair or rebuild inside city limits, permitting goes through the City of Parker; rural Turner County addresses are handled at the county level.
 
-If you're dealing with water, fire, mold, or storm damage at a Parker property, call Crew Restoration & Construction at **(605) 965-2727**. We'll walk you through what we're seeing, what needs to happen first, and how the insurance process works — before any work begins.
+If you're dealing with water, fire, mold, or storm damage at a Parker property, call Crew Restoration & Construction at **(605) 965-2727**. We'll walk you through what we're seeing, what needs to happen first, and how the insurance process works, before any work begins.

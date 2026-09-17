@@ -20,13 +20,13 @@ state: "TX"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-When a fire tears through a home in Ballinger, the damage doesn't stop when the flames do. West Texas wind — common across Runnels County — pulls smoke deeper into wall cavities and attic spaces than most homeowners expect, and the dry heat that follows accelerates the bonding of soot to surfaces. Air Care Restoration responds 24/7 to fire damage calls in Ballinger, bringing IICRC FSRT- and OCT-certified technicians and the equipment needed to stop secondary damage before it compounds the loss.
+When a fire tears through a home in Ballinger, the damage doesn't stop when the flames do. West Texas wind, common across Runnels County, pulls smoke deeper into wall cavities and attic spaces than most homeowners expect, and the dry heat that follows accelerates the bonding of soot to surfaces. Air Care Restoration responds 24/7 to fire damage calls in Ballinger, bringing IICRC FSRT- and OCT-certified technicians and the equipment needed to stop secondary damage before it compounds the loss.
 
 ## Why Ballinger Properties Are Particularly Vulnerable After a Fire
 
-Ballinger's housing stock leans older, with a significant share of homes built before the 1970s when wood-framing techniques, insulation types, and HVAC configurations were fundamentally different from modern construction. In those homes, smoke travels through uninsulated wall bays and open attic runs with almost no resistance, depositing oily residue on framing members that a surface cleaning alone won't reach. Older galvanized or cast-iron plumbing can corrode faster when exposed to the acidic byproducts of smoke, and original hardwood flooring — common in mid-century Ballinger homes — absorbs odor compounds at a depth that requires professional thermal fogging or hydroxyl treatment rather than surface deodorizers.
+Ballinger's housing stock leans older, with a significant share of homes built before the 1970s when wood-framing techniques, insulation types, and HVAC configurations were fundamentally different from modern construction. In those homes, smoke travels through uninsulated wall bays and open attic runs with almost no resistance, depositing oily residue on framing members that a surface cleaning alone won't reach. Older galvanized or cast-iron plumbing can corrode faster when exposed to the acidic byproducts of smoke, and original hardwood flooring, common in mid-century Ballinger homes, absorbs odor compounds at a depth that requires professional thermal fogging or hydroxyl treatment rather than surface deodorizers.
 
-Runnels County's climate adds another layer. The wide temperature swings between day and night in this part of West Texas cause building materials to expand and contract, which can open small gaps in fire-damaged structures and allow smoke odor to migrate into areas that initially appeared unaffected. That's why a thorough scope of damage — not just a visual walkthrough — is the right starting point.
+Runnels County's climate adds another layer. The wide temperature swings between day and night in this part of West Texas cause building materials to expand and contract, which can open small gaps in fire-damaged structures and allow smoke odor to migrate into areas that initially appeared unaffected. That's why a thorough scope of damage, not just a visual walkthrough, is the right starting point.
 
 ## Our Fire Damage Restoration Process in Ballinger
 
@@ -34,26 +34,26 @@ Every fire loss is different, but the sequence of work follows a disciplined fra
 
 **Emergency stabilization** comes first: boarding windows and doors, tarping compromised roof sections, and shutting off utilities if that hasn't already happened. In Ballinger's wind-prone environment, an unsecured opening can pull smoke residue from a contained area into clean rooms within hours.
 
-**Damage documentation** follows immediately. We photograph and catalog every affected material — ceilings, walls, flooring, cabinetry, HVAC components — before anything is moved or cleaned. This documentation is what your insurance adjuster needs to process the claim accurately.
+**Damage documentation** follows immediately. We photograph and catalog every affected material, ceilings, walls, flooring, cabinetry, HVAC components, before anything is moved or cleaned. This documentation is what your insurance adjuster needs to process the claim accurately.
 
 **Structural drying and debris removal** happen in parallel. Fire suppression water is often as damaging as the fire itself; we extract standing water, deploy drying equipment, and monitor moisture readings in framing and subfloor until readings stabilize.
 
-**Soot and smoke cleaning** is where IICRC FSRT training matters most. Different residues — wet smoke from slow-burning fires, dry smoke from fast-burning fires, protein residue from kitchen fires — require different chemical agents and application methods. Using the wrong product on the wrong residue can permanently set staining into surfaces.
+**Soot and smoke cleaning** is where IICRC FSRT training matters most. Different residues, wet smoke from slow-burning fires, dry smoke from fast-burning fires, protein residue from kitchen fires, require different chemical agents and application methods. Using the wrong product on the wrong residue can permanently set staining into surfaces.
 
 **Odor elimination** closes the loop. Drawing on IICRC OCT training, we use thermal fogging and hydroxyl generation to neutralize odor molecules in the air and inside porous materials, not just mask them.
 
 ## Reaching Ballinger from Abilene
 
-Air Care Restoration is based in Abilene, and Ballinger sits roughly 60 miles to the southeast via US-83 — a straightforward route with no major interchange complications. Because our team operates 24/7, a call at 2 a.m. gets the same dispatch response as a call at noon. We do not subcontract emergency response; the crew that arrives is our crew, equipped and credentialed.
+Air Care Restoration is based in Abilene, and Ballinger sits roughly 60 miles to the southeast via US-83, a straightforward route with no major interchange complications. Because our team operates 24/7, a call at 2 a.m. gets the same dispatch response as a call at noon. We do not subcontract emergency response; the crew that arrives is our crew, equipped and credentialed.
 
 ## Insurance Coordination for Ballinger Fire Claims
 
-Fire damage claims are among the most document-intensive in residential insurance. Carriers want itemized loss inventories, moisture readings, photo logs, and scope-of-work estimates before they authorize repairs. We prepare that documentation as a standard part of the job — not as an add-on — and communicate technical scope information directly with your adjuster to reduce back-and-forth delays. We work with most major carriers and can bill them directly in most cases, which means you are not fronting the full cost of restoration while the claim works through the system. Coverage and settlement decisions remain between you and your carrier.
+Fire damage claims are among the most document-intensive in residential insurance. Carriers want itemized loss inventories, moisture readings, photo logs, and scope-of-work estimates before they authorize repairs. We prepare that documentation as a standard part of the job, not as an add-on, and communicate technical scope information directly with your adjuster to reduce back-and-forth delays. We work with most major carriers and can bill them directly in most cases, which means you are not fronting the full cost of restoration while the claim works through the system. Coverage and settlement decisions remain between you and your carrier.
 
 If your home is in an older Ballinger neighborhood where replacement materials (original-profile trim, period-appropriate flooring) may need to be sourced specially, we flag that early in the estimate so it doesn't become a dispute point with the carrier later.
 
 ## Local Note
 
-Older homes in Ballinger — particularly those built with the pier-and-beam foundations common in this part of Runnels County — have crawl spaces that collect smoke residue and fire-suppression water in ways that slab-on-grade construction simply doesn't. After a fire, that crawl space needs to be inspected and dried independently of the living area above it; if it's skipped, mold can establish in the subfloor framing within days, turning a fire claim into a combined fire-and-mold remediation. It's a step that gets missed on quick turnarounds, and it's one we build into every Ballinger fire scope as a matter of course.
+Older homes in Ballinger, particularly those built with the pier-and-beam foundations common in this part of Runnels County, have crawl spaces that collect smoke residue and fire-suppression water in ways that slab-on-grade construction simply doesn't. After a fire, that crawl space needs to be inspected and dried independently of the living area above it; if it's skipped, mold can establish in the subfloor framing within days, turning a fire claim into a combined fire-and-mold remediation. It's a step that gets missed on quick turnarounds, and it's one we build into every Ballinger fire scope as a matter of course.
 
-If your home in Ballinger has been damaged by fire, call Air Care Restoration at (325) 339-8723. Our team is available around the clock, and we'll walk you through next steps from the first call — before we ever set foot on the property.
+If your home in Ballinger has been damaged by fire, call Air Care Restoration at (325) 339-8723. Our team is available around the clock, and we'll walk you through next steps from the first call, before we ever set foot on the property.

@@ -20,27 +20,27 @@ state: "WA"
 service_display: "Soot Removal"
 rendered: true
 ---
-Soot doesn't wait. Within hours of a fire — even a small one from a kitchen flare-up or a malfunctioning furnace — fine black particles work their way into porous surfaces, behind outlet covers, and deep into HVAC ductwork. By the time the smoke clears and the fire department leaves, the secondary damage has already begun. If you're searching for soot removal in Everett right now, the clock is already running.
+Soot doesn't wait. Within hours of a fire, even a small one from a kitchen flare-up or a malfunctioning furnace, fine black particles work their way into porous surfaces, behind outlet covers, and deep into HVAC ductwork. By the time the smoke clears and the fire department leaves, the secondary damage has already begun. If you're searching for soot removal in Everett right now, the clock is already running.
 
-National Restoration Construction has been responding to fire and smoke damage across the Puget Sound region since 2004. Our crews are IICRC Certified and carry Washington State General Contractor licensure (#NATIORC792M6), which matters when soot cleanup crosses into structural repair — and it often does.
+National Restoration Construction has been responding to fire and smoke damage across the Puget Sound region since 2004. Our crews are IICRC Certified and carry Washington State General Contractor licensure (#NATIORC792M6), which matters when soot cleanup crosses into structural repair, and it often does.
 
 ## Our Soot Removal Process in Everett
 
 Every job starts with a room-by-room assessment before a single sponge touches a wall. Soot behaves differently depending on what burned: protein fires from cooking leave a nearly invisible, pungent film that smears if you wipe it wrong; synthetic materials produce oily, heavy residue that bonds to paint and drywall within 24–48 hours. Misidentifying the residue type is one of the most common reasons DIY cleanup makes the damage worse.
 
-Once we've documented the affected areas — which feeds directly into your insurance claim — the process moves in a specific order:
+Once we've documented the affected areas, which feeds directly into your insurance claim, the process moves in a specific order:
 
 1. **Dry sponge and HEPA vacuum passes** to lift loose carbon particles before any wet cleaning begins. Wetting soot prematurely drives it deeper into drywall texture and grout lines.
-2. **Chemical sponge and alkaline cleaning agents** matched to the residue type for soot wall cleaning and ceiling work. On Everett's older housing stock — a lot of which dates to the mid-century boom and carries original plaster or textured drywall — we adjust pressure and product concentration carefully to avoid surface damage.
+2. **Chemical sponge and alkaline cleaning agents** matched to the residue type for soot wall cleaning and ceiling work. On Everett's older housing stock, a lot of which dates to the mid-century boom and carries original plaster or textured drywall, we adjust pressure and product concentration carefully to avoid surface damage.
 3. **Thermal fogging or hydroxyl treatment** to neutralize odor molecules embedded in soft goods, insulation, and subflooring that surface cleaning can't reach.
 4. **Air scrubbing with HEPA filtration** running continuously throughout the job to capture airborne particulates and bring indoor air quality back to a measurable baseline.
-5. **Post-cleaning documentation** with photos and moisture readings — both for your peace of mind and for the insurance adjuster.
+5. **Post-cleaning documentation** with photos and moisture readings, both for your peace of mind and for the insurance adjuster.
 
 If soot residue removal uncovers damaged drywall, charred framing, or compromised insulation, we handle reconstruction in-house. You don't need to hire a second contractor.
 
 ## Why Everett Properties See Soot Damage Emergencies
 
-Everett's mix of housing stock creates some specific vulnerabilities. The city has a substantial number of homes built between the 1940s and 1980s — many in neighborhoods like Pinehurst, Lowell, and the areas near Rucker Hill — that still rely on older oil or gas furnaces, wood-burning fireplaces, and ductwork that hasn't been replaced in decades. A cracked heat exchanger or a blocked flue doesn't produce a dramatic fire; it produces slow, oily soot accumulation that coats every surface in a room before anyone notices the smell.
+Everett's mix of housing stock creates some specific vulnerabilities. The city has a substantial number of homes built between the 1940s and 1980s, many in neighborhoods like Pinehurst, Lowell, and the areas near Rucker Hill, that still rely on older oil or gas furnaces, wood-burning fireplaces, and ductwork that hasn't been replaced in decades. A cracked heat exchanger or a blocked flue doesn't produce a dramatic fire; it produces slow, oily soot accumulation that coats every surface in a room before anyone notices the smell.
 
 Pacific Northwest winters compound the problem. Homes stay buttoned up tight from October through March, limiting the ventilation that would otherwise dilute smoke and soot particles. When a heating system malfunctions or a fireplace backdrafts during one of Everett's wet, low-pressure storm systems, the residue has nowhere to go but into your walls, furniture, and air supply.
 
@@ -48,12 +48,12 @@ Pacific Northwest winters compound the problem. Homes stay buttoned up tight fro
 
 Our headquarters is in Federal Way, roughly 40–50 minutes from central Everett under normal I-5 conditions. For most Everett addresses, that puts a technician on-site within 60–90 minutes of your call. If you're in south Everett near Hwy 99 or the Casino Road corridor, we're often closer to that 60-minute mark. North Everett and Mukilteo-adjacent areas may run toward 90 minutes depending on traffic.
 
-We don't dispatch an estimator first and schedule a crew later. The person who arrives is equipped to begin containment and assessment immediately — because every hour of delay is another hour soot residue is bonding to your surfaces and your insurance timeline is compressing.
+We don't dispatch an estimator first and schedule a crew later. The person who arrives is equipped to begin containment and assessment immediately, because every hour of delay is another hour soot residue is bonding to your surfaces and your insurance timeline is compressing.
 
 ## Insurance Claims for Soot Damage Cleanup
 
-Fire and smoke damage — including standalone soot damage from a contained incident — is typically covered under standard homeowners and commercial property policies. What most policyholders don't realize is that the documentation you submit in the first 72 hours heavily influences how smoothly the claim moves.
+Fire and smoke damage, including standalone soot damage from a contained incident, is typically covered under standard homeowners and commercial property policies. What most policyholders don't realize is that the documentation you submit in the first 72 hours heavily influences how smoothly the claim moves.
 
-We work directly with adjusters and provide itemized scope-of-work reports, before-and-after photo documentation, and equipment logs that satisfy most major carriers. We don't tell you what your policy covers — that's between you and your insurer — but we make sure the technical side of the claim is airtight. Bring us in before you sign anything or attempt any cleanup yourself; disturbed soot is harder to document accurately.
+We work directly with adjusters and provide itemized scope-of-work reports, before-and-after photo documentation, and equipment logs that satisfy most major carriers. We don't tell you what your policy covers, that's between you and your insurer, but we make sure the technical side of the claim is airtight. Bring us in before you sign anything or attempt any cleanup yourself; disturbed soot is harder to document accurately.
 
-If you need to reach us today, (206) 883-0333 connects you directly to our dispatch team — not a call center. Describe what happened, where you are in Everett, and we'll tell you exactly when someone can be there.
+If you need to reach us today, (206) 883-0333 connects you directly to our dispatch team, not a call center. Describe what happened, where you are in Everett, and we'll tell you exactly when someone can be there.

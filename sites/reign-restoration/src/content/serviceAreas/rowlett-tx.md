@@ -19,31 +19,31 @@ state: "TX"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall or a storm pushes water under your back door, the last thing you want is a restoration crew that treats Rowlett like a pin on a map. Reign Restoration works specifically with Rowlett homeowners and property managers — handling water damage, fire and smoke damage, mold remediation, and reconstruction from the first call through the final walk-through. We know the housing stock here, the way the clay soil holds moisture, and what it takes to get a Rockwall County property back to pre-loss condition.
+When a pipe bursts behind a wall or a storm pushes water under your back door, the last thing you want is a restoration crew that treats Rowlett like a pin on a map. Reign Restoration works specifically with Rowlett homeowners and property managers, handling water damage, fire and smoke damage, mold remediation, and reconstruction from the first call through the final walk-through. We know the housing stock here, the way the clay soil holds moisture, and what it takes to get a Rockwall County property back to pre-loss condition.
 
 ## Restoration emergencies common in Rowlett
 
 Rowlett sits along the eastern shore of Lake Ray Hubbard, and that geography shapes the kind of damage local properties take. The expansive black clay soil that runs through much of this part of North Texas shifts dramatically with rainfall and drought cycles, stressing slab foundations and the plumbing lines embedded in them. A slow slab leak can saturate the subfloor for weeks before a homeowner notices the soft spot underfoot or the faint sulfur-like smell of wet concrete and drywall. When it surfaces, the damage is rarely limited to one room.
 
-The area also sits in the heart of North Texas severe-weather country. Spring and early-summer storms bring hail that cracks roof decking and leaves attic insulation soaked, while high-humidity summers give mold a narrow window — sometimes as little as 24 to 48 hours after a water intrusion — to begin colonizing drywall paper and wood framing. Older neighborhoods closer to the lake tend to have homes built in the 1980s and early 1990s, when building codes and moisture barriers were less stringent than today's standards. That combination of age, clay soil, and Gulf-fed humidity makes Rowlett one of the more active service areas we cover east of Dallas.
+The area also sits in the heart of North Texas severe-weather country. Spring and early-summer storms bring hail that cracks roof decking and leaves attic insulation soaked, while high-humidity summers give mold a narrow window, sometimes as little as 24 to 48 hours after a water intrusion, to begin colonizing drywall paper and wood framing. Older neighborhoods closer to the lake tend to have homes built in the 1980s and early 1990s, when building codes and moisture barriers were less stringent than today's standards. That combination of age, clay soil, and Gulf-fed humidity makes Rowlett one of the more active service areas we cover east of Dallas.
 
 ## Services we provide in Rowlett
 
 ### Water damage restoration
 
-Water damage in Rowlett often starts underground or inside walls — slab leaks, supply-line failures behind cabinets, and HVAC condensate overflows are among the most common calls we receive. We use thermal imaging and moisture mapping to find water that has migrated beyond the obvious wet area, then extract standing water, set drying equipment, and monitor moisture readings daily until structural materials reach acceptable levels. Documentation is thorough enough to support an insurance claim from the first day on-site.
+Water damage in Rowlett often starts underground or inside walls, slab leaks, supply-line failures behind cabinets, and HVAC condensate overflows are among the most common calls we receive. We use thermal imaging and moisture mapping to find water that has migrated beyond the obvious wet area, then extract standing water, set drying equipment, and monitor moisture readings daily until structural materials reach acceptable levels. Documentation is thorough enough to support an insurance claim from the first day on-site.
 
 ### Fire and smoke damage restoration
 
-After a kitchen fire or an electrical fault in a garage, the visible char is only part of the problem. Smoke residue travels through ductwork and settles into porous surfaces — insulation, drywall, wood trim — leaving behind an odor that resurfaces months later if it isn't properly neutralized. We assess the full smoke migration path, remove unsalvageable materials, and use proven odor-elimination methods rather than masking agents.
+After a kitchen fire or an electrical fault in a garage, the visible char is only part of the problem. Smoke residue travels through ductwork and settles into porous surfaces, insulation, drywall, wood trim, leaving behind an odor that resurfaces months later if it isn't properly neutralized. We assess the full smoke migration path, remove unsalvageable materials, and use proven odor-elimination methods rather than masking agents.
 
 ### Mold remediation
 
-Given Rowlett's humidity levels and the prevalence of older slab-on-grade construction, mold calls are a consistent part of our work here. We contain affected areas, remove compromised materials, and treat surfaces according to established remediation protocols. We do not perform the air-quality testing ourselves — that stays with an independent industrial hygienist so there is no conflict of interest in the clearance process.
+Given Rowlett's humidity levels and the prevalence of older slab-on-grade construction, mold calls are a consistent part of our work here. We contain affected areas, remove compromised materials, and treat surfaces according to established remediation protocols. We do not perform the air-quality testing ourselves, that stays with an independent industrial hygienist so there is no conflict of interest in the clearance process.
 
 ### Reconstruction
 
-Once mitigation is complete, many homeowners don't want to manage a separate general contractor. We carry the project through rebuild — framing, drywall, flooring, painting — so the property returns to a finished, livable condition without the handoff gaps that slow most jobs down.
+Once mitigation is complete, many homeowners don't want to manage a separate general contractor. We carry the project through rebuild, framing, drywall, flooring, painting, so the property returns to a finished, livable condition without the handoff gaps that slow most jobs down.
 
 ## Coverage and how fast we can get there
 
@@ -51,7 +51,7 @@ Reign Restoration is headquartered in Royse City, roughly 15 to 18 miles east of
 
 ## Building stock, site conditions, and permits in Rowlett
 
-Most of Rowlett is post-1980 tract housing: wood frame with brick veneer, composition shingle roofs, and slab-on-grade foundations. Basements are essentially nonexistent here, so water has nowhere to drain to — it wicks sideways into bottom plates, tack strip, and the paper face of drywall, and it travels under baseboard into rooms that look dry.
+Most of Rowlett is post-1980 tract housing: wood frame with brick veneer, composition shingle roofs, and slab-on-grade foundations. Basements are essentially nonexistent here, so water has nowhere to drain to, it wicks sideways into bottom plates, tack strip, and the paper face of drywall, and it travels under baseboard into rooms that look dry.
 
 Supply plumbing from that era runs the gamut: copper, some polybutylene in late-1980s and early-1990s builds, PEX in newer homes, and cast iron drain lines in the oldest stock. In North Texas, water lines are often routed through the attic, which makes hard freezes an interior-flood risk rather than just a foundation one.
 

@@ -19,43 +19,43 @@ rendered: true
 ---
 ## What happens in the first 48 hours matters more than anything else
 
-Floodwater doesn't just soak into carpet — it wicks up drywall, saturates wall cavities, and soaks into subfloor sheathing faster than most people expect. Within 24 to 48 hours, that moisture creates the conditions mold needs to colonize. What looks like a cleanup job on the surface is almost always a structural drying problem underneath, and the window to address it correctly is short. That's the problem flood damage restoration is built to solve.
+Floodwater doesn't just soak into carpet, it wicks up drywall, saturates wall cavities, and soaks into subfloor sheathing faster than most people expect. Within 24 to 48 hours, that moisture creates the conditions mold needs to colonize. What looks like a cleanup job on the surface is almost always a structural drying problem underneath, and the window to address it correctly is short. That's the problem flood damage restoration is built to solve.
 
 ## What flood damage restoration actually involves
 
-Flood cleanup is not the same as mopping up standing water. The visible water is only the first layer of the problem. Once extraction is complete, the real work is locating and removing moisture that has migrated into materials you can't see — the bottom six to twelve inches of drywall, the wood framing behind it, the OSB subfloor under your flooring, and the insulation in crawl spaces or wall bays.
+Flood cleanup is not the same as mopping up standing water. The visible water is only the first layer of the problem. Once extraction is complete, the real work is locating and removing moisture that has migrated into materials you can't see, the bottom six to twelve inches of drywall, the wood framing behind it, the OSB subfloor under your flooring, and the insulation in crawl spaces or wall bays.
 
-The equipment used matters here. High-capacity truck-mounted or portable extractors pull bulk water from carpet and hard floors. Structural drying then requires a calculated placement of commercial-grade air movers and refrigerant or desiccant dehumidifiers — not the box fans and consumer dehumidifiers that homeowners often try first. Thermal imaging cameras help locate moisture pockets that aren't visible to the eye. Moisture meters and hygrometers track drying progress in the structure itself, not just the air.
+The equipment used matters here. High-capacity truck-mounted or portable extractors pull bulk water from carpet and hard floors. Structural drying then requires a calculated placement of commercial-grade air movers and refrigerant or desiccant dehumidifiers, not the box fans and consumer dehumidifiers that homeowners often try first. Thermal imaging cameras help locate moisture pockets that aren't visible to the eye. Moisture meters and hygrometers track drying progress in the structure itself, not just the air.
 
-Timeline for a typical residential flood: extraction on day one, active structural drying over three to five days, daily monitoring to confirm materials are reaching dry standard, and controlled demolition of unsalvageable materials (wet drywall, soaked insulation, buckled flooring) as needed. Larger losses or Category 3 contaminated water — sewage backups, groundwater intrusion — require additional containment and antimicrobial treatment before drying begins.
+Timeline for a typical residential flood: extraction on day one, active structural drying over three to five days, daily monitoring to confirm materials are reaching dry standard, and controlled demolition of unsalvageable materials (wet drywall, soaked insulation, buckled flooring) as needed. Larger losses or Category 3 contaminated water, sewage backups, groundwater intrusion, require additional containment and antimicrobial treatment before drying begins.
 
 ## Our process
 
-1. **Rapid assessment and water classification** — Before any equipment goes in, the source and category of water is identified. Clean water from a supply line is handled differently than groundwater or sewage-contaminated water. Category and class of loss determine what protective measures, containment, and disposal protocols apply.
+1. **Rapid assessment and water classification**, Before any equipment goes in, the source and category of water is identified. Clean water from a supply line is handled differently than groundwater or sewage-contaminated water. Category and class of loss determine what protective measures, containment, and disposal protocols apply.
 
-2. **Bulk water extraction** — Standing water is removed using high-flow extractors. Carpet and pad are evaluated: pad is almost always non-salvageable and removed immediately. Carpet may be saved depending on water category and saturation time.
+2. **Bulk water extraction**, Standing water is removed using high-flow extractors. Carpet and pad are evaluated: pad is almost always non-salvageable and removed immediately. Carpet may be saved depending on water category and saturation time.
 
-3. **Controlled demolition of non-salvageable materials** — Wet drywall below the flood line, saturated insulation, and buckled or delaminated flooring are removed to expose the structural framing for drying. This step is where less-experienced crews cut corners — leaving wet material in place extends drying time dramatically and creates hidden mold conditions.
+3. **Controlled demolition of non-salvageable materials**, Wet drywall below the flood line, saturated insulation, and buckled or delaminated flooring are removed to expose the structural framing for drying. This step is where less-experienced crews cut corners, leaving wet material in place extends drying time dramatically and creates hidden mold conditions.
 
-4. **Structural drying with daily monitoring** — Air movers and dehumidifiers are placed using a calculated drying plan. Moisture readings are logged daily at consistent measurement points in walls, floors, and subfloor. Drying is not complete until materials reach acceptable moisture content — not when the air feels dry.
+4. **Structural drying with daily monitoring**, Air movers and dehumidifiers are placed using a calculated drying plan. Moisture readings are logged daily at consistent measurement points in walls, floors, and subfloor. Drying is not complete until materials reach acceptable moisture content, not when the air feels dry.
 
-5. **Post-drying documentation and scope for reconstruction** — Once the structure reaches dry standard, a full photographic and written record of affected materials is compiled. This documentation supports the insurance claim and feeds directly into the reconstruction scope of work.
+5. **Post-drying documentation and scope for reconstruction**, Once the structure reaches dry standard, a full photographic and written record of affected materials is compiled. This documentation supports the insurance claim and feeds directly into the reconstruction scope of work.
 
 ## What separates a good flood response from a bad one
 
-The most common failure in residential flood damage repair is stopping at extraction. A crew that pulls the water and leaves without setting drying equipment — or sets too few air movers for the square footage — will leave moisture in the wall cavities. That moisture won't show up as a problem for two to three weeks, by which point mold has already started and the insurance documentation window has closed.
+The most common failure in residential flood damage repair is stopping at extraction. A crew that pulls the water and leaves without setting drying equipment, or sets too few air movers for the square footage, will leave moisture in the wall cavities. That moisture won't show up as a problem for two to three weeks, by which point mold has already started and the insurance documentation window has closed.
 
-A second common mistake is skipping moisture mapping. Without baseline readings taken at multiple points across the affected area, there's no way to confirm the structure is actually dry. Insurance adjusters increasingly ask for daily moisture logs as proof of due diligence — a restoration company that can't produce them creates problems for your claim.
+A second common mistake is skipping moisture mapping. Without baseline readings taken at multiple points across the affected area, there's no way to confirm the structure is actually dry. Insurance adjusters increasingly ask for daily moisture logs as proof of due diligence, a restoration company that can't produce them creates problems for your claim.
 
 For Category 2 or Category 3 losses (gray water or black water), containment and antimicrobial application are not optional steps. Groundwater and sewage carry pathogens that can remain in porous materials even after they appear dry. Proper post-flood restoration in these cases requires treating affected surfaces before and after drying, not as an afterthought.
 
-Finally, documentation quality directly affects claim outcomes. Photographs of water lines, moisture readings, removed materials, and equipment placement give adjusters what they need to approve the full scope — not just the visible damage.
+Finally, documentation quality directly affects claim outcomes. Photographs of water lines, moisture readings, removed materials, and equipment placement give adjusters what they need to approve the full scope, not just the visible damage.
 
 ## Seasonal and regional considerations for North Texas
 
 Duncanville and the broader Dallas-Fort Worth area see flood damage from two distinct patterns: severe spring and early-summer thunderstorms that overwhelm drainage systems, and the occasional winter freeze event where burst pipes push water through walls before the homeowner realizes anything has happened. The clay-heavy soils common across southern Dallas County don't absorb groundwater quickly, which means water pools against foundations and finds its way into slabs and crawl spaces faster than it would in sandier soil regions.
 
-Humidity in North Texas summers also extends structural drying timelines. When outdoor relative humidity is running at 70 to 80 percent, dehumidifiers are working against the ambient air, not just the moisture in the structure. That's a reason to use properly sized commercial equipment — not consumer units — and to keep affected areas closed off from unconditioned air during the drying phase.
+Humidity in North Texas summers also extends structural drying timelines. When outdoor relative humidity is running at 70 to 80 percent, dehumidifiers are working against the ambient air, not just the moisture in the structure. That's a reason to use properly sized commercial equipment, not consumer units, and to keep affected areas closed off from unconditioned air during the drying phase.
 
 ## Service area
 

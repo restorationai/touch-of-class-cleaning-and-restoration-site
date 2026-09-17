@@ -24,11 +24,11 @@ These Terms of Service describe how HomeLyft Restoration MS provides residential
 
 ## Service Area
 
-HomeLyft Restoration MS operates out of Gulfport, Mississippi and serves properties within our defined service area along the Mississippi Gulf Coast. We reserve the right to decline service requests outside that area or where site conditions make safe operations impractical. Contacting us does not guarantee service availability at your specific location — we'll confirm coverage when you call or submit an inquiry.
+HomeLyft Restoration MS operates out of Gulfport, Mississippi and serves properties within our defined service area along the Mississippi Gulf Coast. We reserve the right to decline service requests outside that area or where site conditions make safe operations impractical. Contacting us does not guarantee service availability at your specific location, we'll confirm coverage when you call or submit an inquiry.
 
 ## Estimates and Work Authorization
 
-Any estimate, quote, or scope of work we provide — whether delivered verbally, by email, or in a written document — is an assessment only. It does not constitute a binding contract. The legal agreement governing your project begins when you sign a written work-authorization form. That signed form defines the approved scope, agreed pricing, and project timeline. Work will not begin until authorization is in place. Scope changes discovered during remediation (hidden moisture, concealed structural damage, additional mold colonies behind walls) will be documented and require a signed change order before additional work proceeds.
+Any estimate, quote, or scope of work we provide, whether delivered verbally, by email, or in a written document, is an assessment only. It does not constitute a binding contract. The legal agreement governing your project begins when you sign a written work-authorization form. That signed form defines the approved scope, agreed pricing, and project timeline. Work will not begin until authorization is in place. Scope changes discovered during remediation (hidden moisture, concealed structural damage, additional mold colonies behind walls) will be documented and require a signed change order before additional work proceeds.
 
 ## Payment Terms
 
@@ -36,7 +36,7 @@ Payment terms are stated on your work-authorization form and invoice. We accept 
 
 ## Insurance Coordination
 
-We work alongside most major property insurance carriers and can document losses, photograph affected materials, and communicate directly with adjusters — but only with your explicit written authorization. We do not guarantee any specific claim outcome, coverage determination, or reimbursement amount. Insurance coordination is a service we provide as a convenience; the contractual relationship for payment remains between you and your carrier.
+We work alongside most major property insurance carriers and can document losses, photograph affected materials, and communicate directly with adjusters, but only with your explicit written authorization. We do not guarantee any specific claim outcome, coverage determination, or reimbursement amount. Insurance coordination is a service we provide as a convenience; the contractual relationship for payment remains between you and your carrier.
 
 ## Liability and Licensing
 

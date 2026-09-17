@@ -20,24 +20,24 @@ state: "OH"
 service_display: "Renovations, Remodels and General Contracting"
 rendered: true
 ---
-Warren's housing stock tells a story in layers — Victorian-era frames on the east side, mid-century ranches closer to the Mahoning River corridor, and postwar brick colonials scattered throughout Trumbull County. Renovating or remodeling in that kind of mix means no two jobs follow the same blueprint. DISS Restoration brings general contracting experience calibrated to what Warren homes actually are, not what a generic remodeling template assumes them to be — and because the company handles restoration work alongside construction, post-damage rebuilds flow into full remodels without the handoff gaps that slow most projects down.
+Warren's housing stock tells a story in layers, Victorian-era frames on the east side, mid-century ranches closer to the Mahoning River corridor, and postwar brick colonials scattered throughout Trumbull County. Renovating or remodeling in that kind of mix means no two jobs follow the same blueprint. DISS Restoration brings general contracting experience calibrated to what Warren homes actually are, not what a generic remodeling template assumes them to be, and because the company handles restoration work alongside construction, post-damage rebuilds flow into full remodels without the handoff gaps that slow most projects down.
 
 ## Why Warren's Building Stock Shapes Every Remodel
 
-Trumbull County's freeze-thaw cycle is relentless. From late November through March, ground movement stresses foundations, shifts door frames, and opens gaps in exterior sheathing that let moisture migrate into wall cavities. In homes built before 1960 — and Warren has a lot of them — that moisture often finds plaster-and-lath walls, balloon-frame construction, and knob-and-tube wiring that hasn't been fully replaced. A kitchen remodel in a house like that isn't just a cosmetic project. It's a discovery process: open a wall to relocate a drain line and you may find original cast-iron pipe, asbestos-wrapped ductwork, or lead-based paint on the studs behind the cabinets.
+Trumbull County's freeze-thaw cycle is relentless. From late November through March, ground movement stresses foundations, shifts door frames, and opens gaps in exterior sheathing that let moisture migrate into wall cavities. In homes built before 1960, and Warren has a lot of them, that moisture often finds plaster-and-lath walls, balloon-frame construction, and knob-and-tube wiring that hasn't been fully replaced. A kitchen remodel in a house like that isn't just a cosmetic project. It's a discovery process: open a wall to relocate a drain line and you may find original cast-iron pipe, asbestos-wrapped ductwork, or lead-based paint on the studs behind the cabinets.
 
-EPA Lead-Safe certification matters here in a real, practical way. Homes constructed before 1978 require lead-safe work practices during any renovation that disturbs painted surfaces — and in Warren's older neighborhoods, that threshold applies to a significant portion of the residential housing stock. The crew follows those protocols as a standard operating procedure, not an upsell.
+EPA Lead-Safe certification matters here in a real, practical way. Homes constructed before 1978 require lead-safe work practices during any renovation that disturbs painted surfaces, and in Warren's older neighborhoods, that threshold applies to a significant portion of the residential housing stock. The crew follows those protocols as a standard operating procedure, not an upsell.
 
 ## Our Renovation and General Contracting Process in Warren
 
-Every project starts with a scope walkthrough that accounts for what's behind the walls, not just what's visible. For post-damage rebuilds — fire, water, or mold remediation that transitions into reconstruction — the documentation from the remediation phase carries forward directly into the rebuild plan, which simplifies the insurance coordination step considerably.
+Every project starts with a scope walkthrough that accounts for what's behind the walls, not just what's visible. For post-damage rebuilds, fire, water, or mold remediation that transitions into reconstruction, the documentation from the remediation phase carries forward directly into the rebuild plan, which simplifies the insurance coordination step considerably.
 
 For pure remodels and renovations, the process runs:
 
-1. **Pre-construction assessment** — structural review, utility identification, permit requirements confirmed with the City of Warren's building department before a single wall opens.
-2. **Scope and material selection** — kitchen layouts, bathroom configurations, and structural changes are drawn against the actual footprint of the home, not a stock floor plan.
-3. **Permitted work and inspections** — all work requiring a permit is pulled and inspected through the appropriate municipal channels. In Trumbull County, that process has its own rhythm and timeline; we build that into the schedule rather than treating it as a surprise.
-4. **Finish and punch-list** — trim, fixtures, flooring, and final details are completed before the job is closed out, not handed off to a homeowner with a list of "to-dos."
+1. **Pre-construction assessment**, structural review, utility identification, permit requirements confirmed with the City of Warren's building department before a single wall opens.
+2. **Scope and material selection**, kitchen layouts, bathroom configurations, and structural changes are drawn against the actual footprint of the home, not a stock floor plan.
+3. **Permitted work and inspections**, all work requiring a permit is pulled and inspected through the appropriate municipal channels. In Trumbull County, that process has its own rhythm and timeline; we build that into the schedule rather than treating it as a surprise.
+4. **Finish and punch-list**, trim, fixtures, flooring, and final details are completed before the job is closed out, not handed off to a homeowner with a list of "to-dos."
 
 ## Reaching Warren from Youngstown
 
@@ -47,10 +47,10 @@ DISS Restoration is headquartered in Youngstown, roughly 15 miles southwest of W
 
 Insurance-driven rebuilds after fire or water damage require documentation that most general contractors aren't set up to produce. Because DISS Restoration handles both the remediation and the reconstruction side, the photo logs, moisture readings, and scope-of-loss reports that adjusters need are already part of the project file. That continuity tends to reduce back-and-forth with carriers and keeps the rebuild timeline from stalling while paperwork catches up.
 
-For homeowners carrying out a straight renovation — no insurance claim involved — the same documentation discipline applies to change orders and material selections, so the final invoice reflects what was agreed, not what was assumed.
+For homeowners carrying out a straight renovation, no insurance claim involved, the same documentation discipline applies to change orders and material selections, so the final invoice reflects what was agreed, not what was assumed.
 
 ## Local Note
 
-Warren's older homes frequently have full basements with poured-concrete or block walls that were finished at some point in the postwar decades — drop ceilings, wood paneling, and carpet over concrete slab. When those spaces are remodeled today, contractors sometimes discover that the original finishing was done directly against the foundation wall without a thermal break or vapor barrier. In a climate with Warren's humidity swings, that construction detail creates persistent condensation problems that show up as efflorescence, mold, or buckled flooring within a few seasons of the new finish going in. Addressing the moisture pathway before the new finish goes up adds time to the schedule but prevents the remodel from cycling back through remediation two years later.
+Warren's older homes frequently have full basements with poured-concrete or block walls that were finished at some point in the postwar decades, drop ceilings, wood paneling, and carpet over concrete slab. When those spaces are remodeled today, contractors sometimes discover that the original finishing was done directly against the foundation wall without a thermal break or vapor barrier. In a climate with Warren's humidity swings, that construction detail creates persistent condensation problems that show up as efflorescence, mold, or buckled flooring within a few seasons of the new finish going in. Addressing the moisture pathway before the new finish goes up adds time to the schedule but prevents the remodel from cycling back through remediation two years later.
 
-If you're ready to move forward on a renovation, remodel, or post-damage rebuild in Warren, call DISS Restoration at (724) 981-1441. The conversation starts with what your home actually needs — not a package that was designed for someone else's house.
+If you're ready to move forward on a renovation, remodel, or post-damage rebuild in Warren, call DISS Restoration at (724) 981-1441. The conversation starts with what your home actually needs, not a package that was designed for someone else's house.

@@ -17,42 +17,42 @@ service_slug: "water-heater-repair"
 service_display: "Water Heater Repair"
 rendered: true
 ---
-A cold shower at 6 a.m. is one thing. But when you turn on the tap and nothing warm comes out — and the water heater is making a sound it wasn't making yesterday, or there's a puddle spreading across the utility room floor — that's a different kind of morning. Water heater problems rarely announce themselves with much warning, and they tend to get worse the longer they sit. Whether the unit won't fire, is leaking from the base, or is producing water that smells like sulfur or comes out rust-colored, the repair process starts with understanding exactly what failed and why.
+A cold shower at 6 a.m. is one thing. But when you turn on the tap and nothing warm comes out, and the water heater is making a sound it wasn't making yesterday, or there's a puddle spreading across the utility room floor, that's a different kind of morning. Water heater problems rarely announce themselves with much warning, and they tend to get worse the longer they sit. Whether the unit won't fire, is leaking from the base, or is producing water that smells like sulfur or comes out rust-colored, the repair process starts with understanding exactly what failed and why.
 
 ## What water heater repair actually involves
 
-Not every "no hot water" call ends in a replacement. Many of the most common failures — a burned-out heating element, a tripped thermal cutoff, a faulty thermostat, a corroded anode rod, a failing pressure relief valve — are repairable on the same visit. The diagnostic step is the most important part: a technician who skips straight to a parts swap without checking gas pressure, flue draft, electrical supply, or sediment load is likely to miss the actual cause.
+Not every "no hot water" call ends in a replacement. Many of the most common failures, a burned-out heating element, a tripped thermal cutoff, a faulty thermostat, a corroded anode rod, a failing pressure relief valve, are repairable on the same visit. The diagnostic step is the most important part: a technician who skips straight to a parts swap without checking gas pressure, flue draft, electrical supply, or sediment load is likely to miss the actual cause.
 
-On a tank-style water heater, sediment buildup is one of the most underdiagnosed problems in Southern California. Corona's water supply, like much of the Inland Empire, runs hard — high in dissolved calcium and magnesium. That mineral content precipitates out inside the tank over time, settling at the bottom and insulating the burner from the water above it. The result is a unit that runs longer, uses more energy, and eventually overheats the tank bottom. The rumbling or popping sound many homeowners describe hearing before a failure is often sediment being disturbed by the burner.
+On a tank-style water heater, sediment buildup is one of the most underdiagnosed problems in Southern California. Corona's water supply, like much of the Inland Empire, runs hard, high in dissolved calcium and magnesium. That mineral content precipitates out inside the tank over time, settling at the bottom and insulating the burner from the water above it. The result is a unit that runs longer, uses more energy, and eventually overheats the tank bottom. The rumbling or popping sound many homeowners describe hearing before a failure is often sediment being disturbed by the burner.
 
 Tankless water heaters introduce a different set of failure modes: flow sensor errors, ignition lockouts, scale buildup on the heat exchanger, and venting issues that trigger safety shutoffs. These units are more sensitive to water quality and require a technician familiar with the specific error codes each manufacturer uses.
 
 ## Our process
 
-1. **Symptom intake and safety check.** Before touching the unit, we confirm the gas supply is on (or the circuit breaker is set correctly for electric units), check for active leaks, and assess whether the temperature and pressure relief valve has discharged — a sign of dangerous overpressure that changes the repair scope entirely.
+1. **Symptom intake and safety check.** Before touching the unit, we confirm the gas supply is on (or the circuit breaker is set correctly for electric units), check for active leaks, and assess whether the temperature and pressure relief valve has discharged, a sign of dangerous overpressure that changes the repair scope entirely.
 
 2. **Full diagnostic, not just the obvious part.** We test heating elements or burner operation, measure thermostat calibration, inspect the anode rod condition, check the dip tube for deterioration, and look at the flue or venting path. On tankless units, we read the error code history and test the flow sensor and igniter.
 
-3. **Clear scope before any work begins.** Once we know what failed and what's worn, we walk you through what needs repair now versus what's approaching end of life. You get a written scope before we order parts or start work — no surprises on the invoice.
+3. **Clear scope before any work begins.** Once we know what failed and what's worn, we walk you through what needs repair now versus what's approaching end of life. You get a written scope before we order parts or start work, no surprises on the invoice.
 
-4. **Repair or targeted replacement.** We carry common repair parts on the truck — heating elements, thermostats, anode rods, T&P valves, gas control valves — so most single-component failures can be resolved the same day. If the tank itself is compromised (internal corrosion, cracked glass lining, or a unit past its service life), we'll tell you plainly and give you replacement options.
+4. **Repair or targeted replacement.** We carry common repair parts on the truck, heating elements, thermostats, anode rods, T&P valves, gas control valves, so most single-component failures can be resolved the same day. If the tank itself is compromised (internal corrosion, cracked glass lining, or a unit past its service life), we'll tell you plainly and give you replacement options.
 
 5. **Post-repair verification.** After the repair, we run the unit through a full heat cycle, verify the T&P valve reseats correctly, check for any remaining leaks at connections, and confirm the water temperature at the tap reaches a safe and consistent level before we leave.
 
 ## What separates a good water heater repair from a bad one
 
-The most common mistake in water heater repair is treating the symptom instead of the system. Replacing a thermostat without checking why it failed — often because sediment forced the unit to overheat repeatedly — means the new thermostat fails on the same timeline. Similarly, patching a leak at the drain valve without inspecting the anode rod or tank interior can leave a corroding tank in service well past the point where it should have been replaced.
+The most common mistake in water heater repair is treating the symptom instead of the system. Replacing a thermostat without checking why it failed, often because sediment forced the unit to overheat repeatedly, means the new thermostat fails on the same timeline. Similarly, patching a leak at the drain valve without inspecting the anode rod or tank interior can leave a corroding tank in service well past the point where it should have been replaced.
 
-On gas units, venting is frequently overlooked. A partially blocked flue or a backdrafting condition can cause the burner to short-cycle or produce carbon monoxide — neither of which shows up as an obvious water heater symptom until the problem is serious. A thorough repair includes a visual inspection of the flue collar, draft hood, and vent pipe connections.
+On gas units, venting is frequently overlooked. A partially blocked flue or a backdrafting condition can cause the burner to short-cycle or produce carbon monoxide, neither of which shows up as an obvious water heater symptom until the problem is serious. A thorough repair includes a visual inspection of the flue collar, draft hood, and vent pipe connections.
 
 For tankless units, scale on the heat exchanger is the most commonly missed issue. A technician who clears an error code without descaling the unit will see the same lockout error within months, especially in a hard-water area like Corona.
 
 ## Seasonal and regional considerations
 
-Corona and the surrounding Inland Empire cities sit in a climate that doesn't produce the hard freezes that burst pipes in colder regions, but the area's water hardness is a year-round factor. Units that aren't flushed periodically accumulate sediment faster here than in areas with softer municipal water. During winter months, incoming cold water temperatures drop enough that a struggling water heater — one with a weakened element or heavy sediment load — that was keeping up in summer may fall short in December and January. That seasonal shift is often what prompts the first call.
+Corona and the surrounding Inland Empire cities sit in a climate that doesn't produce the hard freezes that burst pipes in colder regions, but the area's water hardness is a year-round factor. Units that aren't flushed periodically accumulate sediment faster here than in areas with softer municipal water. During winter months, incoming cold water temperatures drop enough that a struggling water heater, one with a weakened element or heavy sediment load, that was keeping up in summer may fall short in December and January. That seasonal shift is often what prompts the first call.
 
 ## Service area
 
 RT Olson Plumbing is based in Corona and serves communities throughout the Inland Empire and surrounding areas, including Riverside, Norco, Eastvale, Chino Hills, Ontario, Rancho Cucamonga, and Yorba Linda. The city-specific pages linked from this one cover local permit and inspection notes where relevant.
 
-If your water heater stopped working, is leaking, or is producing water that's discolored or foul-smelling, call (951) 344-5596 to schedule a same-day water heater service visit. We're available around the clock — describe what you're seeing when you call and we'll let you know what to do while we're on the way.
+If your water heater stopped working, is leaking, or is producing water that's discolored or foul-smelling, call (951) 344-5596 to schedule a same-day water heater service visit. We're available around the clock, describe what you're seeing when you call and we'll let you know what to do while we're on the way.

@@ -20,31 +20,31 @@ state: "SD"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
-The stretch of Lincoln County along I-29 south of Sioux Falls sits squarely in South Dakota's severe weather corridor, and Worthing takes the full force of it. Spring and early summer bring supercell thunderstorms that can drop baseball-sized hail, spin up brief but violent tornadoes, and deposit six inches of rain in under an hour — all before the afternoon commute ends. When a storm tears through the 57077 ZIP code, the window between the last thunderclap and the start of secondary damage (mold, structural warping, compromised insulation) is measured in hours, not days.
+The stretch of Lincoln County along I-29 south of Sioux Falls sits squarely in South Dakota's severe weather corridor, and Worthing takes the full force of it. Spring and early summer bring supercell thunderstorms that can drop baseball-sized hail, spin up brief but violent tornadoes, and deposit six inches of rain in under an hour, all before the afternoon commute ends. When a storm tears through the 57077 ZIP code, the window between the last thunderclap and the start of secondary damage (mold, structural warping, compromised insulation) is measured in hours, not days.
 
 ## Why Worthing Properties See Elevated Storm Damage Risk
 
-Worthing's identity as a fast-growing bedroom community along the I-29 corridor means its housing stock spans two very different eras. Older farmstead-era homes on the east side of town were built before modern wind-load codes; their roof decking and soffit systems weren't engineered for the 90-plus mph straight-line winds that South Dakota's derecho events routinely produce. Newer subdivisions closer to Downtown Worthing are better framed, but their shallow-pitched roofs and large garage door faces create significant wind uplift exposure. Either way, the flat, open terrain around Worthing City Park offers almost no natural windbreak — storm energy arrives largely unimpeded.
+Worthing's identity as a fast-growing bedroom community along the I-29 corridor means its housing stock spans two very different eras. Older farmstead-era homes on the east side of town were built before modern wind-load codes; their roof decking and soffit systems weren't engineered for the 90-plus mph straight-line winds that South Dakota's derecho events routinely produce. Newer subdivisions closer to Downtown Worthing are better framed, but their shallow-pitched roofs and large garage door faces create significant wind uplift exposure. Either way, the flat, open terrain around Worthing City Park offers almost no natural windbreak, storm energy arrives largely unimpeded.
 
 Soil is another factor that doesn't show up on a weather map. The clay-heavy soils common throughout Lincoln County shed water rather than absorbing it, which means a heavy storm event saturates the ground quickly and pushes water toward foundations and crawl spaces. Homes in East Worthing that sit on slightly lower grades are particularly vulnerable to that kind of lateral water intrusion after a major rain event.
 
 ## Our Storm Damage Restoration Process in Worthing
 
-Every job starts with a full exterior and interior assessment before a single piece of debris is moved. Roof decking, fascia, gutters, window seals, and siding are photographed and documented systematically — that documentation is what your insurance adjuster needs to process a claim accurately. We don't skip steps to get to the visible work faster.
+Every job starts with a full exterior and interior assessment before a single piece of debris is moved. Roof decking, fascia, gutters, window seals, and siding are photographed and documented systematically, that documentation is what your insurance adjuster needs to process a claim accurately. We don't skip steps to get to the visible work faster.
 
 Once the scope is clear, the process moves in a deliberate sequence:
 
 - **Emergency tarping and board-up** to stop active water intrusion through breached roofing or broken windows
-- **Water extraction and structural drying** for any interior moisture that entered during the event — we use industrial desiccant dehumidifiers and air movers calibrated to the affected square footage
+- **Water extraction and structural drying** for any interior moisture that entered during the event, we use industrial desiccant dehumidifiers and air movers calibrated to the affected square footage
 - **Debris removal**, including downed tree limbs and damaged roofing materials
 - **Structural repair and reconstruction**, from roof decking and shingles through interior drywall and insulation replacement
 - **Final inspection and documentation** for insurance close-out
 
-For tree damage specifically — a common call after Worthing's spring storms — we coordinate safe limb and trunk removal before any structural repair begins, because working around an unstable tree on a compromised roof creates additional risk.
+For tree damage specifically, a common call after Worthing's spring storms, we coordinate safe limb and trunk removal before any structural repair begins, because working around an unstable tree on a compromised roof creates additional risk.
 
 ## Reaching Worthing from Sioux Falls
 
-Crew Restoration & Construction operates out of Sioux Falls, and Worthing sits roughly 15 miles south via I-29 to Exit 68 — a straightforward run that keeps our crews close when Lincoln County weather turns severe. When a storm system moves through the area, we're fielding calls from multiple communities simultaneously, so the best step is to call (605) 965-2727 as soon as you've confirmed the damage and it's safe to do so. Early contact means earlier scheduling and a faster path to getting your home secured.
+Crew Restoration & Construction operates out of Sioux Falls, and Worthing sits roughly 15 miles south via I-29 to Exit 68, a straightforward run that keeps our crews close when Lincoln County weather turns severe. When a storm system moves through the area, we're fielding calls from multiple communities simultaneously, so the best step is to call (605) 965-2727 as soon as you've confirmed the damage and it's safe to do so. Early contact means earlier scheduling and a faster path to getting your home secured.
 
 ## Worthing Insurance Coordination
 
@@ -52,6 +52,6 @@ Storm damage claims in South Dakota tend to move faster when the documentation p
 
 ## Local Note
 
-One pattern we've noticed in Worthing's newer subdivisions: the LP SmartSide and engineered wood siding common on homes built in the last 10–15 years can absorb hail impact without showing obvious surface cracking — but the substrate underneath is often compromised in ways that only show up during a close inspection with a moisture meter. Homeowners sometimes receive a partial insurance settlement based on visible damage alone, then discover hidden moisture intrusion months later when interior wall finishes start to bubble. A thorough post-storm inspection that goes beyond the surface is worth the time, especially on homes built in the 2010s and early 2020s along Worthing's newer streets.
+One pattern we've noticed in Worthing's newer subdivisions: the LP SmartSide and engineered wood siding common on homes built in the last 10–15 years can absorb hail impact without showing obvious surface cracking, but the substrate underneath is often compromised in ways that only show up during a close inspection with a moisture meter. Homeowners sometimes receive a partial insurance settlement based on visible damage alone, then discover hidden moisture intrusion months later when interior wall finishes start to bubble. A thorough post-storm inspection that goes beyond the surface is worth the time, especially on homes built in the 2010s and early 2020s along Worthing's newer streets.
 
 If a recent storm has left your Worthing property with a breached roof, water in the basement, or a tree through a wall, call Crew Restoration & Construction at (605) 965-2727. We'll assess the damage, get the site secured, and walk you through every step from emergency stabilization to finished reconstruction.

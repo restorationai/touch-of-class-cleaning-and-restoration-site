@@ -24,11 +24,11 @@ When a Pacific storm rolls through Sinclair Inlet and stalls over South Kitsap, 
 
 ## Why Port Orchard Properties See Distinctive Storm Damage Patterns
 
-The geography here creates layered risk. The older waterfront and mid-century housing stock near Annapolis and Retsil — many homes built before modern wind-load codes — tends to have aging roof decking, single-pane windows, and crawl spaces with minimal vapor barriers. A storm that a newer build shrugs off can strip flashing, crack aging mortar, and drive wind-driven rain through gaps that weren't a problem in dry weather.
+The geography here creates layered risk. The older waterfront and mid-century housing stock near Annapolis and Retsil, many homes built before modern wind-load codes, tends to have aging roof decking, single-pane windows, and crawl spaces with minimal vapor barriers. A storm that a newer build shrugs off can strip flashing, crack aging mortar, and drive wind-driven rain through gaps that weren't a problem in dry weather.
 
-Outside the core, much of South Kitsap sits on rural acreage served by private wells and septic systems. That matters for storm response: when a tree falls and severs a pressure line, or when saturated ground causes a septic system to back up during a heavy rain event, the recovery path is different from a city-utility situation. There's no call to Puget Sound Energy to restore water service — the well pump and pressure tank need their own assessment, and that affects how we sequence the drying and cleanup work.
+Outside the core, much of South Kitsap sits on rural acreage served by private wells and septic systems. That matters for storm response: when a tree falls and severs a pressure line, or when saturated ground causes a septic system to back up during a heavy rain event, the recovery path is different from a city-utility situation. There's no call to Puget Sound Energy to restore water service, the well pump and pressure tank need their own assessment, and that affects how we sequence the drying and cleanup work.
 
-In newer developments like McCormick Woods, the construction is more resilient but the tree canopy is a real hazard. Douglas fir and big-leaf maple on saturated slopes shed limbs — and sometimes whole trunks — onto roofs, fences, and vehicles. Structural punctures from tree impact require immediate tarping and shoring before any interior drying can begin.
+In newer developments like McCormick Woods, the construction is more resilient but the tree canopy is a real hazard. Douglas fir and big-leaf maple on saturated slopes shed limbs, and sometimes whole trunks, onto roofs, fences, and vehicles. Structural punctures from tree impact require immediate tarping and shoring before any interior drying can begin.
 
 ## Our Storm Damage Restoration Process in Port Orchard
 
@@ -38,28 +38,28 @@ Every job starts with a full exterior and interior assessment before a single pi
 
 **Moisture mapping.** We use thermal imaging and calibrated moisture meters to trace water migration through wall cavities, subfloors, and crawl spaces. In older homes near the waterfront, water can travel surprising distances through plaster and board-sheathed walls before showing visible damage.
 
-**Debris and tree removal coordination.** We work with licensed tree services for large-scale removal and handle the structural repair side — roof decking, framing, sheathing — under our General Contractor Certificate of Registration (#NATIORC792M6) with Washington State L&I.
+**Debris and tree removal coordination.** We work with licensed tree services for large-scale removal and handle the structural repair side, roof decking, framing, sheathing, under our General Contractor Certificate of Registration (#NATIORC792M6) with Washington State L&I.
 
 **Drying and dehumidification.** Commercial-grade desiccant dehumidifiers and high-velocity air movers run until moisture readings return to baseline for the material type. In crawl spaces, we encapsulate after drying to prevent recurrence.
 
 **Reconstruction.** From replacing a single sheet of roof decking to rebuilding a storm-damaged room, we carry the job through to finished condition so you're not managing two separate contractors.
 
-Our IICRC-certified technicians document every step with photos and moisture logs — the same documentation your insurance adjuster will need.
+Our IICRC-certified technicians document every step with photos and moisture logs, the same documentation your insurance adjuster will need.
 
 ## Response Time to Port Orchard from Our Federal Way HQ
 
-From our Federal Way headquarters, Port Orchard is typically 45–60 minutes via SR-16 West across the Tacoma Narrows Bridge, depending on traffic and whether the call comes during a commute window. For addresses in the 98366 ZIP code — Downtown Bay Street, the marina area, Retsil — we can often have a crew staged within the hour. McCormick Woods and the 98367 corridor add roughly 10–15 minutes.
+From our Federal Way headquarters, Port Orchard is typically 45–60 minutes via SR-16 West across the Tacoma Narrows Bridge, depending on traffic and whether the call comes during a commute window. For addresses in the 98366 ZIP code, Downtown Bay Street, the marina area, Retsil, we can often have a crew staged within the hour. McCormick Woods and the 98367 corridor add roughly 10–15 minutes.
 
 We answer storm calls around the clock. When a line of storms is forecast to move through the South Sound, we pre-position crews to reduce drive time during the peak call window.
 
 ## Port Orchard Insurance Coordination
 
-Most homeowner policies cover sudden and accidental storm damage — wind, hail, falling trees — but the documentation requirements vary by carrier. We provide line-item estimates in Xactimate format, the industry standard most adjusters use, and we communicate directly with your adjuster so you're not playing phone tag between two parties who speak different languages.
+Most homeowner policies cover sudden and accidental storm damage, wind, hail, falling trees, but the documentation requirements vary by carrier. We provide line-item estimates in Xactimate format, the industry standard most adjusters use, and we communicate directly with your adjuster so you're not playing phone tag between two parties who speak different languages.
 
 For commercial properties near the Bay Street waterfront or properties in Kitsap County with flood-zone designations, coverage questions get more complicated. We'll help you identify what's covered under your wind policy versus what may require a separate flood claim, and we'll flag any code-upgrade requirements that could affect your rebuild cost.
 
 ## Local Note
 
-One thing that surprises homeowners who haven't been through a South Kitsap storm claim before: the foot ferry between Port Orchard and Bremerton shuts down in high-wind events, which can delay county inspectors and insurance adjusters who commute across the inlet. If you're waiting on a structural inspection or adjuster visit after a major storm, that crossing delay is real — it's not the inspector being slow. We factor this into our scheduling and can provide preliminary documentation to keep your claim moving while you wait for the official visit.
+One thing that surprises homeowners who haven't been through a South Kitsap storm claim before: the foot ferry between Port Orchard and Bremerton shuts down in high-wind events, which can delay county inspectors and insurance adjusters who commute across the inlet. If you're waiting on a structural inspection or adjuster visit after a major storm, that crossing delay is real, it's not the inspector being slow. We factor this into our scheduling and can provide preliminary documentation to keep your claim moving while you wait for the official visit.
 
-If your property took storm damage in Port Orchard or anywhere in South Kitsap, call National Restoration Construction at (206) 883-0333. We'll assess the damage, protect the structure, and walk you through every step from emergency response to finished repairs — one contractor, one point of contact, no handoffs.
+If your property took storm damage in Port Orchard or anywhere in South Kitsap, call National Restoration Construction at (206) 883-0333. We'll assess the damage, protect the structure, and walk you through every step from emergency response to finished repairs, one contractor, one point of contact, no handoffs.

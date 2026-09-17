@@ -20,11 +20,11 @@ state: "CA"
 service_display: "Post-Construction and Specialty Cleaning"
 rendered: true
 ---
-Chino Hills sits at the edge of the Chino Hills State Park, where the inland heat bakes construction dust into every surface before a crew even finishes packing up their tools. When a remodel or new build wraps in this part of San Bernardino County, the cleanup left behind is rarely a simple sweep-and-mop job — fine silica dust from drywall cuts settles into HVAC registers, grout haze clouds tile that cost a fortune, and the region's low humidity lets airborne particulates stay suspended longer than contractors often expect. Dry County Restoration handles post-construction and specialty cleaning for Chino Hills properties, from single-family homes to commercial tenant improvements, with the same methodical approach we bring to every restoration project.
+Chino Hills sits at the edge of the Chino Hills State Park, where the inland heat bakes construction dust into every surface before a crew even finishes packing up their tools. When a remodel or new build wraps in this part of San Bernardino County, the cleanup left behind is rarely a simple sweep-and-mop job, fine silica dust from drywall cuts settles into HVAC registers, grout haze clouds tile that cost a fortune, and the region's low humidity lets airborne particulates stay suspended longer than contractors often expect. Dry County Restoration handles post-construction and specialty cleaning for Chino Hills properties, from single-family homes to commercial tenant improvements, with the same methodical approach we bring to every restoration project.
 
 ## Why Chino Hills Construction Projects Leave a Harder Cleanup
 
-Chino Hills developed rapidly through the 1990s and 2000s, which means a large share of the housing stock sits in master-planned communities governed by active HOAs. That matters for post-construction cleanup in ways that aren't obvious until you're on site. Many HOAs here require that common areas, driveways, and curb-adjacent landscaping be restored to a documented baseline before a certificate of completion is issued — meaning the cleanup scope extends beyond the interior of the home.
+Chino Hills developed rapidly through the 1990s and 2000s, which means a large share of the housing stock sits in master-planned communities governed by active HOAs. That matters for post-construction cleanup in ways that aren't obvious until you're on site. Many HOAs here require that common areas, driveways, and curb-adjacent landscaping be restored to a documented baseline before a certificate of completion is issued, meaning the cleanup scope extends beyond the interior of the home.
 
 The climate adds another layer. Inland Southern California's dry, warm air pulls moisture out of freshly poured concrete and joint compound quickly, which sounds helpful but actually means dust becomes airborne again every time a door opens or an HVAC system cycles on. A surface that looks clean can re-contaminate a room within hours if the fine particulate layer in the ductwork hasn't been addressed. Any thorough final clean here has to account for the air handling system, not just the floors and countertops.
 
@@ -32,22 +32,22 @@ Chino Hills also sits in a region with active grading and hillside development, 
 
 ## Our Post-Construction Cleaning Process in Chino Hills
 
-Every project starts with a walk-through to document what trades were on site and what materials were used — because the cleaning approach for a kitchen tile installation is different from a whole-home drywall renovation. We work in phases:
+Every project starts with a walk-through to document what trades were on site and what materials were used, because the cleaning approach for a kitchen tile installation is different from a whole-home drywall renovation. We work in phases:
 
-**Rough clean** — removal of construction debris, leftover materials, and bulk dust before any detail work begins. Dumpster coordination, if needed, is handled before this phase so debris doesn't sit on driveways or HOA-visible areas longer than necessary.
+**Rough clean**, removal of construction debris, leftover materials, and bulk dust before any detail work begins. Dumpster coordination, if needed, is handled before this phase so debris doesn't sit on driveways or HOA-visible areas longer than necessary.
 
-**Detail clean** — HEPA-filtered vacuuming of all surfaces including window tracks, cabinet interiors, light fixtures, and HVAC registers. Grout haze removal, paint overspray treatment, and adhesive residue cleaning fall here. This is where most of the labor hours go, and where shortcuts show up immediately during a final walkthrough.
+**Detail clean**, HEPA-filtered vacuuming of all surfaces including window tracks, cabinet interiors, light fixtures, and HVAC registers. Grout haze removal, paint overspray treatment, and adhesive residue cleaning fall here. This is where most of the labor hours go, and where shortcuts show up immediately during a final walkthrough.
 
-**Final clean** — the inspection-ready pass. Glass polishing, fixture buffing, floor finishing appropriate to the surface type, and a documented photo record of the completed space. For HOA communities in Chino Hills, we can provide that photo documentation in a format suitable for submitting to the association.
+**Final clean**, the inspection-ready pass. Glass polishing, fixture buffing, floor finishing appropriate to the surface type, and a documented photo record of the completed space. For HOA communities in Chino Hills, we can provide that photo documentation in a format suitable for submitting to the association.
 
-For specialty cleaning scopes — post-fire odor cleaning, biohazard situations, or deep cleaning after long-term vacancy — the process is calibrated to the specific contamination type rather than a generic checklist.
+For specialty cleaning scopes, post-fire odor cleaning, biohazard situations, or deep cleaning after long-term vacancy, the process is calibrated to the specific contamination type rather than a generic checklist.
 
 ## Reaching Chino Hills from Corona
 
-Dry County Restoration is based in Corona, which puts Chino Hills well within our regular service area. The SR-71 corridor connects the two cities directly, and we're available around the clock — so whether a general contractor needs a crew on site at 6 a.m. before a client walkthrough or a homeowner is scheduling a post-renovation deep clean on a weekend, scheduling isn't a barrier. Call (951) 667-9910 to confirm availability and get a same-day assessment on most projects.
+Dry County Restoration is based in Corona, which puts Chino Hills well within our regular service area. The SR-71 corridor connects the two cities directly, and we're available around the clock, so whether a general contractor needs a crew on site at 6 a.m. before a client walkthrough or a homeowner is scheduling a post-renovation deep clean on a weekend, scheduling isn't a barrier. Call (951) 667-9910 to confirm availability and get a same-day assessment on most projects.
 
 ## Local Note
 
-Chino Hills is one of the few cities in the Inland Empire where a significant number of homes back directly to open space or hillside terrain. During and after construction, that proximity means wind-driven dust from undeveloped slopes can re-deposit on freshly cleaned exterior surfaces within a day or two — particularly in the eastern portions of the city where graded lots meet natural grade. For exterior final cleans, we time the work to avoid the afternoon wind window common to this area and sequence the exterior detail pass last, after interior work is fully complete and doors are closed.
+Chino Hills is one of the few cities in the Inland Empire where a significant number of homes back directly to open space or hillside terrain. During and after construction, that proximity means wind-driven dust from undeveloped slopes can re-deposit on freshly cleaned exterior surfaces within a day or two, particularly in the eastern portions of the city where graded lots meet natural grade. For exterior final cleans, we time the work to avoid the afternoon wind window common to this area and sequence the exterior detail pass last, after interior work is fully complete and doors are closed.
 
-If your project is winding down and you need a cleaning crew that understands what Chino Hills actually looks like — the HOA expectations, the dust behavior, the soil composition — call Dry County Restoration at (951) 667-9910. We'll walk the site, scope the work honestly, and get the space ready for its final inspection.
+If your project is winding down and you need a cleaning crew that understands what Chino Hills actually looks like, the HOA expectations, the dust behavior, the soil composition, call Dry County Restoration at (951) 667-9910. We'll walk the site, scope the work honestly, and get the space ready for its final inspection.

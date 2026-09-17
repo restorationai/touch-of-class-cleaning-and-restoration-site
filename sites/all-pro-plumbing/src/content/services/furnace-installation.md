@@ -17,39 +17,39 @@ service_slug: "furnace-installation"
 service_display: "Furnace Installation and Replacement"
 rendered: true
 ---
-When a furnace quits in January — or limps through another Bakersfield winter cycling on and off every few minutes, never quite warming the back bedrooms — the decision to replace it stops being theoretical. A cracked heat exchanger, a blower motor on its last legs, or a 20-year-old unit burning through gas to deliver lukewarm air are all signs that a repair is borrowing time, not buying it. Furnace replacement is a one-day job that changes how your home feels for the next 15 to 20 years, and getting the equipment selection and installation right matters as much as the unit itself.
+When a furnace quits in January, or limps through another Bakersfield winter cycling on and off every few minutes, never quite warming the back bedrooms, the decision to replace it stops being theoretical. A cracked heat exchanger, a blower motor on its last legs, or a 20-year-old unit burning through gas to deliver lukewarm air are all signs that a repair is borrowing time, not buying it. Furnace replacement is a one-day job that changes how your home feels for the next 15 to 20 years, and getting the equipment selection and installation right matters as much as the unit itself.
 
 ## What furnace installation and replacement actually involves
 
-A furnace replacement is more than swapping one box for another. The existing unit comes out, the flue, gas line, and electrical connections get inspected, and the new equipment gets sized to the actual heat load of your home — not just matched to whatever was there before. Undersized units run constantly and never catch up on a cold night; oversized units short-cycle, wear out faster, and leave humidity uncontrolled.
+A furnace replacement is more than swapping one box for another. The existing unit comes out, the flue, gas line, and electrical connections get inspected, and the new equipment gets sized to the actual heat load of your home, not just matched to whatever was there before. Undersized units run constantly and never catch up on a cold night; oversized units short-cycle, wear out faster, and leave humidity uncontrolled.
 
-For most Bakersfield homes, the conversation centers on gas furnaces in the 80,000–100,000 BTU range, though single-story slab homes with good insulation often need less. Efficiency ratings matter here: an 80% AFUE unit exhausts 20 cents of every dollar of gas through the flue, while a 96–98% AFUE two-stage or modulating unit captures nearly all of that heat. The higher-efficiency models use PVC flue pipes instead of metal — a meaningful installation difference that affects where and how the unit vents.
+For most Bakersfield homes, the conversation centers on gas furnaces in the 80,000–100,000 BTU range, though single-story slab homes with good insulation often need less. Efficiency ratings matter here: an 80% AFUE unit exhausts 20 cents of every dollar of gas through the flue, while a 96–98% AFUE two-stage or modulating unit captures nearly all of that heat. The higher-efficiency models use PVC flue pipes instead of metal, a meaningful installation difference that affects where and how the unit vents.
 
 Timeline for a standard replacement is typically four to six hours. New construction or a first-time install in a home that previously used another heat source takes longer and may require a gas line extension, new return-air ducting, or a dedicated electrical circuit.
 
 ## Our process
 
-1. **Load calculation and equipment selection.** Before recommending a unit, we assess your home's square footage, ceiling height, insulation, window area, and existing duct configuration. A Manual J-style heat load calculation tells us what BTU output the home actually needs — not what the old furnace happened to be.
+1. **Load calculation and equipment selection.** Before recommending a unit, we assess your home's square footage, ceiling height, insulation, window area, and existing duct configuration. A Manual J-style heat load calculation tells us what BTU output the home actually needs, not what the old furnace happened to be.
 
 2. **Permit and utility coordination.** Gas appliance installations in Bakersfield require a mechanical permit through the City or Kern County, depending on your address. We pull the permit, schedule the inspection, and coordinate with SoCalGas when a new or modified gas line is involved. You don't chase paperwork.
 
 3. **Removal and rough-in.** The old unit is disconnected from gas, electrical, and the flue, then removed. We inspect the existing supply and return plenum, flue connector, and gas shutoff. If the flue is oversized for the new unit (common when stepping up to a high-efficiency model), it gets lined or replaced. Gas connections are made with approved fittings and pressure-tested before the unit is fired.
 
-4. **Installation, commissioning, and airflow balancing.** The new furnace is set in place, connected, and started up. We measure supply and return static pressure, verify the heat exchanger is sealed, confirm ignition sequence and flame sensor response, and check temperature rise across the heat exchanger against the manufacturer's rated range. If static pressure is high — a common finding in older Bakersfield homes with undersized returns — we flag it and discuss solutions before it shortens the new equipment's life.
+4. **Installation, commissioning, and airflow balancing.** The new furnace is set in place, connected, and started up. We measure supply and return static pressure, verify the heat exchanger is sealed, confirm ignition sequence and flame sensor response, and check temperature rise across the heat exchanger against the manufacturer's rated range. If static pressure is high, a common finding in older Bakersfield homes with undersized returns, we flag it and discuss solutions before it shortens the new equipment's life.
 
 5. **Inspection and handoff.** The city or county inspector signs off on the permit. We walk you through the new thermostat settings, filter schedule, and what the first few cycles should sound and feel like so you're not guessing whether something's wrong.
 
 ## What separates a good furnace installation from a poor one
 
-The most common mistake in furnace replacement is skipping the load calculation and simply installing the same size unit that came out. If the original equipment was oversized — which it frequently is in homes built before the 1990s — the new unit inherits the same short-cycling problem and the homeowner wonders why the expensive new furnace doesn't feel any better.
+The most common mistake in furnace replacement is skipping the load calculation and simply installing the same size unit that came out. If the original equipment was oversized, which it frequently is in homes built before the 1990s, the new unit inherits the same short-cycling problem and the homeowner wonders why the expensive new furnace doesn't feel any better.
 
-A close second is improper flue sizing on high-efficiency installs. A 96% AFUE furnace produces a cool, wet exhaust that must vent through PVC to the outside — typically through a side wall. Running it through the old metal flue causes condensation, corrosion, and eventually a failed heat exchanger. It also won't pass inspection.
+A close second is improper flue sizing on high-efficiency installs. A 96% AFUE furnace produces a cool, wet exhaust that must vent through PVC to the outside, typically through a side wall. Running it through the old metal flue causes condensation, corrosion, and eventually a failed heat exchanger. It also won't pass inspection.
 
-Airflow is the third place installations go wrong. High static pressure from undersized return ducts or a clogged filter base forces the blower to work harder, raises operating temperatures, and trips the high-limit switch — the same symptom homeowners often mistake for a bad control board. A thorough commissioning check catches this on day one rather than after three service calls.
+Airflow is the third place installations go wrong. High static pressure from undersized return ducts or a clogged filter base forces the blower to work harder, raises operating temperatures, and trips the high-limit switch, the same symptom homeowners often mistake for a bad control board. A thorough commissioning check catches this on day one rather than after three service calls.
 
 ## Seasonal and regional considerations
 
-Bakersfield's climate is mild enough that many homeowners defer furnace replacement until the unit fails outright — often the first cold week of November or December when HVAC contractors are at peak demand. Scheduling a replacement in September or October, when the unit is still running but showing signs of age (rising gas bills, uneven heat, frequent ignition failures), typically means faster scheduling and more time to evaluate equipment options without pressure.
+Bakersfield's climate is mild enough that many homeowners defer furnace replacement until the unit fails outright, often the first cold week of November or December when HVAC contractors are at peak demand. Scheduling a replacement in September or October, when the unit is still running but showing signs of age (rising gas bills, uneven heat, frequent ignition failures), typically means faster scheduling and more time to evaluate equipment options without pressure.
 
 The region's hard water doesn't affect furnaces directly, but the fine particulate common in the San Joaquin Valley means filters load faster than in coastal climates. A new high-efficiency furnace with a clean filter baseline will perform noticeably better than the same unit running on a neglected one.
 
@@ -57,4 +57,4 @@ The region's hard water doesn't affect furnaces directly, but the fine particula
 
 All Pro Plumbing Heating and Air installs and replaces furnaces throughout Bakersfield and the surrounding communities, including Oildale, Rosedale, Shafter, Wasco, Delano, Tehachapi, and Ridgecrest. Dedicated service-area pages cover each city with local detail.
 
-If your furnace is struggling to keep up, running constantly, or simply old enough that repair costs are stacking up, call (661) 863-9242 to schedule a furnace sizing and replacement assessment — and get a quoted price before any work begins.
+If your furnace is struggling to keep up, running constantly, or simply old enough that repair costs are stacking up, call (661) 863-9242 to schedule a furnace sizing and replacement assessment, and get a quoted price before any work begins.

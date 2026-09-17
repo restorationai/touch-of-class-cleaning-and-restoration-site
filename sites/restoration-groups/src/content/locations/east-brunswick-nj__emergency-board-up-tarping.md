@@ -20,15 +20,15 @@ state: "NJ"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
-When a nor'easter peels back a section of roof on a 1960s colonial off Old Bridge Turnpike, or a kitchen fire blows out windows on a split-level near Frost Woods, the clock starts immediately — not on the damage you can see, but on the damage that follows. Rain, wind, and opportunistic intruders don't wait for business hours, and in East Brunswick's dense mix of aging postwar ranches and newer townhome clusters, an unprotected opening can turn a contained incident into a weeks-long restoration. The Restoration Group responds 24/7 to board-up and tarping calls across East Brunswick, securing your property fast so the scope of loss stays as narrow as possible.
+When a nor'easter peels back a section of roof on a 1960s colonial off Old Bridge Turnpike, or a kitchen fire blows out windows on a split-level near Frost Woods, the clock starts immediately, not on the damage you can see, but on the damage that follows. Rain, wind, and opportunistic intruders don't wait for business hours, and in East Brunswick's dense mix of aging postwar ranches and newer townhome clusters, an unprotected opening can turn a contained incident into a weeks-long restoration. The Restoration Group responds 24/7 to board-up and tarping calls across East Brunswick, securing your property fast so the scope of loss stays as narrow as possible.
 
 ## Why East Brunswick Properties Are Vulnerable After Sudden Damage
 
 East Brunswick's housing stock tells the story plainly. The ranches, split-levels, and colonials built across the Tanglewood and Farrington sections between roughly 1955 and 1975 were constructed with dimensional lumber roof framing that, after five or six decades, has dried and become brittle. A single large branch impact or a localized fire can compromise a rafter bay in a way that modern engineered trusses handle differently. Those same homes almost universally have finished basements, which means any roof breach or broken window that lets in water has a direct path to living space below.
 
-The Route 18 corridor adds a commercial dimension. Sprinkler discharges at big-box stores near Brunswick Square Mall, overnight roof failures at strip-center restaurants, and multi-unit losses in the dense condo developments along the corridor all require rapid commercial board-up — plywood panels or polycarbonate security boards over storefront glass, temporary fencing to meet liability requirements, and heavy-duty tarping on flat or low-slope roofs that drain poorly after storm events.
+The Route 18 corridor adds a commercial dimension. Sprinkler discharges at big-box stores near Brunswick Square Mall, overnight roof failures at strip-center restaurants, and multi-unit losses in the dense condo developments along the corridor all require rapid commercial board-up, plywood panels or polycarbonate security boards over storefront glass, temporary fencing to meet liability requirements, and heavy-duty tarping on flat or low-slope roofs that drain poorly after storm events.
 
-The Lawrence Brook watershed threads through lower-lying sections of town, and residents in those areas learned during Ida's remnants in 2021 that flood-driven structural damage — undermined foundation walls, warped door frames, compromised sill plates — can leave gaps in a home's envelope that need temporary sealing just as urgently as a fire-damaged wall.
+The Lawrence Brook watershed threads through lower-lying sections of town, and residents in those areas learned during Ida's remnants in 2021 that flood-driven structural damage, undermined foundation walls, warped door frames, compromised sill plates, can leave gaps in a home's envelope that need temporary sealing just as urgently as a fire-damaged wall.
 
 ## Our Emergency Board-Up and Tarping Process in East Brunswick
 
@@ -36,11 +36,11 @@ When you call (855) 650-7422, dispatch begins immediately. A crew arrives with p
 
 The process follows a consistent sequence:
 
-1. **Rapid site assessment** — We walk the perimeter and roof (where safe) to identify every breach: broken windows, kicked-in doors, fire-damaged wall sections, missing or lifted shingles, and any structural compromise that affects safe access.
-2. **Debris clearing** — Loose material around openings is cleared before boarding so panels seat flush and hold under wind load.
-3. **Window and door boarding** — Openings are measured and panels cut on-site or pulled from pre-cut stock. Panels are secured to the structural framing around the opening, not just the trim, which matters on the older casement and double-hung window frames common in East Brunswick's postwar homes.
-4. **Roof tarping** — Tarps are run from ridge to eave and weighted or fastened at the edges. On steeper colonial rooflines, we use cap-and-batten attachment rather than nails driven through the tarp, which preserves the underlying sheathing for the roofer.
-5. **Photo documentation** — Every opening, every panel, every tarp run is photographed before and after for your insurance claim file.
+1. **Rapid site assessment**, We walk the perimeter and roof (where safe) to identify every breach: broken windows, kicked-in doors, fire-damaged wall sections, missing or lifted shingles, and any structural compromise that affects safe access.
+2. **Debris clearing**, Loose material around openings is cleared before boarding so panels seat flush and hold under wind load.
+3. **Window and door boarding**, Openings are measured and panels cut on-site or pulled from pre-cut stock. Panels are secured to the structural framing around the opening, not just the trim, which matters on the older casement and double-hung window frames common in East Brunswick's postwar homes.
+4. **Roof tarping**, Tarps are run from ridge to eave and weighted or fastened at the edges. On steeper colonial rooflines, we use cap-and-batten attachment rather than nails driven through the tarp, which preserves the underlying sheathing for the roofer.
+5. **Photo documentation**, Every opening, every panel, every tarp run is photographed before and after for your insurance claim file.
 
 ## Reaching East Brunswick from Kenilworth
 
@@ -48,12 +48,12 @@ The Restoration Group is based in Kenilworth, and East Brunswick sits roughly 25
 
 ## Insurance and HOA Coordination in East Brunswick
 
-Board-up and tarping are almost always covered under the dwelling protection portion of a standard homeowners policy as a necessary mitigation expense — meaning your insurer expects you to take this step, and failing to do so can complicate a later claim for interior damage. We photograph every action taken, itemize materials used, and provide a written scope that matches the line-item format most NJ carriers request.
+Board-up and tarping are almost always covered under the dwelling protection portion of a standard homeowners policy as a necessary mitigation expense, meaning your insurer expects you to take this step, and failing to do so can complicate a later claim for interior damage. We photograph every action taken, itemize materials used, and provide a written scope that matches the line-item format most NJ carriers request.
 
-For the townhome and condo associations concentrated along the Route 18 corridor and in newer East Brunswick developments, the question of who authorizes board-up work — the unit owner or the HOA — comes up regularly. We're accustomed to working through that coordination quickly, and we can hold on a non-structural exterior repair until the right party signs off without leaving the opening unprotected in the meantime.
+For the townhome and condo associations concentrated along the Route 18 corridor and in newer East Brunswick developments, the question of who authorizes board-up work, the unit owner or the HOA, comes up regularly. We're accustomed to working through that coordination quickly, and we can hold on a non-structural exterior repair until the right party signs off without leaving the opening unprotected in the meantime.
 
 ## Local Note
 
-One thing that catches crews off guard on East Brunswick's older split-levels: the half-story above the garage is often framed with a shallow roof pitch and a very short rafter run, and the sheathing in that section is sometimes original 1×6 skip sheathing rather than plywood. Skip sheathing doesn't give a tarp cap-and-batten much to grip, and it can fracture if you drive fasteners without backing. On those rooflines, we use a weighted-edge tarp system with sandbag ballast along the eave rather than mechanical attachment — it holds through a typical NJ coastal storm without adding damage to sheathing that's already stressed.
+One thing that catches crews off guard on East Brunswick's older split-levels: the half-story above the garage is often framed with a shallow roof pitch and a very short rafter run, and the sheathing in that section is sometimes original 1×6 skip sheathing rather than plywood. Skip sheathing doesn't give a tarp cap-and-batten much to grip, and it can fracture if you drive fasteners without backing. On those rooflines, we use a weighted-edge tarp system with sandbag ballast along the eave rather than mechanical attachment, it holds through a typical NJ coastal storm without adding damage to sheathing that's already stressed.
 
-If your home or commercial property in East Brunswick has been damaged by fire, storm, or impact and you need openings secured today, call (855) 650-7422. The Restoration Group is an IICRC Certified Firm and NJ Licensed Home Improvement Contractor — and the crew that boards up your property is the same team that can carry the restoration through to completion.
+If your home or commercial property in East Brunswick has been damaged by fire, storm, or impact and you need openings secured today, call (855) 650-7422. The Restoration Group is an IICRC Certified Firm and NJ Licensed Home Improvement Contractor, and the crew that boards up your property is the same team that can carry the restoration through to completion.

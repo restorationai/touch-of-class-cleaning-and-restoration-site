@@ -17,15 +17,15 @@ service_slug: "emergency-board-up-tarping"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
-A broken window at 2 a.m. A roof torn open by a falling tree. A door frame blown out by a fire department forced entry. The structure is already damaged — what happens in the next few hours determines whether that damage stays contained or compounds into something far worse. Rain, wind, and opportunistic theft don't wait for business hours, and neither does secondary damage. Emergency board-up and tarping is the work that stops the clock on a loss that is actively getting larger.
+A broken window at 2 a.m. A roof torn open by a falling tree. A door frame blown out by a fire department forced entry. The structure is already damaged, what happens in the next few hours determines whether that damage stays contained or compounds into something far worse. Rain, wind, and opportunistic theft don't wait for business hours, and neither does secondary damage. Emergency board-up and tarping is the work that stops the clock on a loss that is actively getting larger.
 
 ## What emergency board-up and tarping actually involves
 
 Board-up and tarping is not nailing a piece of plywood over a hole. Done correctly, it is a systematic weatherproofing and security operation that has to account for the structural condition of what remains, the type of opening being sealed, the weather forecast, and the documentation requirements of your insurance carrier.
 
-For window and door openings, crews cut plywood to fit each opening precisely, fasten it through the frame rather than the surrounding siding or brick, and seal the perimeter to prevent wind-driven rain from tracking in behind the board. For larger structural breaches — a collapsed wall section, a garage door blown inward — the approach shifts to framing temporary supports before any covering goes on.
+For window and door openings, crews cut plywood to fit each opening precisely, fasten it through the frame rather than the surrounding siding or brick, and seal the perimeter to prevent wind-driven rain from tracking in behind the board. For larger structural breaches, a collapsed wall section, a garage door blown inward, the approach shifts to framing temporary supports before any covering goes on.
 
-Roof tarping involves more than throwing a blue tarp and weighing the corners with sandbags. A proper emergency tarp installation uses reinforced polyethylene sheeting (typically 6-mil or heavier), runs the tarp over the ridge so water sheds away from the breach rather than pooling at its edge, and secures it with wooden battens screwed into undamaged decking — not just rope or bungee cords that will fail in the next wind event. On fire-damaged roofs, crews first confirm the decking can support foot traffic before any tarping begins.
+Roof tarping involves more than throwing a blue tarp and weighing the corners with sandbags. A proper emergency tarp installation uses reinforced polyethylene sheeting (typically 6-mil or heavier), runs the tarp over the ridge so water sheds away from the breach rather than pooling at its edge, and secures it with wooden battens screwed into undamaged decking, not just rope or bungee cords that will fail in the next wind event. On fire-damaged roofs, crews first confirm the decking can support foot traffic before any tarping begins.
 
 Timeline matters here. A compromised roof open to a single overnight rainstorm can soak insulation and ceiling drywall to the point where what was a fire loss becomes a simultaneous water loss. Most board-up and tarping work on a residential property can be completed in two to four hours once a crew is on site.
 
@@ -33,7 +33,7 @@ Timeline matters here. A compromised roof open to a single overnight rainstorm c
 
 1. **Site safety assessment before any work begins.** After a fire or structural event, not every part of a building is safe to work on or near. The crew walks the perimeter, identifies unstable walls, compromised roof sections, and any active utility hazards before staging equipment or climbing.
 
-2. **Photographic documentation of all openings.** Every breach is photographed before it is covered — the size, the cause, the condition of surrounding materials. This documentation goes directly to your insurance adjuster and establishes the pre-board-up condition of the structure. Skipping this step is one of the most common mistakes that creates claim disputes later.
+2. **Photographic documentation of all openings.** Every breach is photographed before it is covered, the size, the cause, the condition of surrounding materials. This documentation goes directly to your insurance adjuster and establishes the pre-board-up condition of the structure. Skipping this step is one of the most common mistakes that creates claim disputes later.
 
 3. **Measurement and material staging.** Plywood is cut on-site to fit actual opening dimensions. Tarps are sized to extend at least three feet beyond the breach on all sides, with enough material to run over the ridge on roof applications. Using undersized materials is a shortcut that fails at the worst possible moment.
 
@@ -53,10 +53,10 @@ Insurance adjusters look for two things when reviewing emergency board-up line i
 
 In northern New Jersey, the window between a storm event and the next precipitation is often measured in hours rather than days. Nor'easters move quickly, and a roof breach left open overnight during a nor'easter can take on hundreds of gallons of water before morning. The freeze-thaw cycle from November through March adds a second layer of urgency: water that enters through an unsealed opening and then freezes inside wall cavities expands and forces framing apart, turning a manageable breach into a structural repair.
 
-Summer storm season — particularly the period from late June through September when convective storms track through the region — is peak demand for emergency tarping. Scheduling response within the same day as a storm event is critical to preventing what would otherwise be a roof claim from becoming a combined roof-and-interior loss.
+Summer storm season, particularly the period from late June through September when convective storms track through the region, is peak demand for emergency tarping. Scheduling response within the same day as a storm event is critical to preventing what would otherwise be a roof claim from becoming a combined roof-and-interior loss.
 
 ## Service area
 
-The Restoration Group is based in Kenilworth, NJ and responds to emergency board-up and tarping calls throughout Union County, Essex County, and the surrounding region — including Cranford, Westfield, Summit, Mountainside, Springfield, Maplewood, and neighboring communities. Each service-area page links back here for the full technical detail on how this work is done.
+The Restoration Group is based in Kenilworth, NJ and responds to emergency board-up and tarping calls throughout Union County, Essex County, and the surrounding region, including Cranford, Westfield, Summit, Mountainside, Springfield, Maplewood, and neighboring communities. Each service-area page links back here for the full technical detail on how this work is done.
 
-If a storm, fire, or structural failure has left your property open to the elements, call (908) 970-8533 now. Crews are available around the clock — the sooner the opening is sealed, the smaller the total loss stays.
+If a storm, fire, or structural failure has left your property open to the elements, call (908) 970-8533 now. Crews are available around the clock, the sooner the opening is sealed, the smaller the total loss stays.

@@ -20,13 +20,13 @@ rendered: true
 ---
 ## The leak you almost missed
 
-Most appliance leaks don't announce themselves with a flood. They start as a slow drip from a refrigerator ice maker line pooling under the toe kick, a dishwasher door seal that's been weeping onto the subfloor for weeks, or a washing machine supply hose that finally gave out while you were at work. By the time you find the water, the damage is already layered — soaked cabinets, swollen subfloor, and in some cases, the early musty signal that mold has started colonizing the cavity beneath your flooring. Appliance leak cleanup is its own category of water damage work, and it requires a different approach than a burst pipe or storm flood.
+Most appliance leaks don't announce themselves with a flood. They start as a slow drip from a refrigerator ice maker line pooling under the toe kick, a dishwasher door seal that's been weeping onto the subfloor for weeks, or a washing machine supply hose that finally gave out while you were at work. By the time you find the water, the damage is already layered, soaked cabinets, swollen subfloor, and in some cases, the early musty signal that mold has started colonizing the cavity beneath your flooring. Appliance leak cleanup is its own category of water damage work, and it requires a different approach than a burst pipe or storm flood.
 
 ## What appliance leak cleanup actually involves
 
-Appliance leaks are almost always Category 1 water at the source — clean supply-line water — but that classification can change fast. Water that has sat under a dishwasher or refrigerator for more than 24–48 hours, or that has wicked into particleboard cabinetry or OSB subfloor, is no longer clean. The materials themselves introduce contaminants, and the confined, dark space under appliances is exactly the environment mold needs.
+Appliance leaks are almost always Category 1 water at the source, clean supply-line water, but that classification can change fast. Water that has sat under a dishwasher or refrigerator for more than 24–48 hours, or that has wicked into particleboard cabinetry or OSB subfloor, is no longer clean. The materials themselves introduce contaminants, and the confined, dark space under appliances is exactly the environment mold needs.
 
-The work involves more than pulling the appliance and running a fan. Technicians use thermal imaging cameras and non-invasive moisture meters to map exactly how far water has traveled — under adjacent cabinets, into wall cavities, beneath flooring that looks dry on the surface. In Saratoga Springs homes, where builders commonly used engineered wood subfloor over a crawl space, moisture can wick laterally several feet from the appliance before it shows any visible sign. Extraction equipment removes standing water, and then desiccant or refrigerant dehumidifiers combined with air movers are positioned to dry the structure from the inside out. The goal is to bring affected materials to their pre-loss moisture content — verified with readings, not by feel.
+The work involves more than pulling the appliance and running a fan. Technicians use thermal imaging cameras and non-invasive moisture meters to map exactly how far water has traveled, under adjacent cabinets, into wall cavities, beneath flooring that looks dry on the surface. In Saratoga Springs homes, where builders commonly used engineered wood subfloor over a crawl space, moisture can wick laterally several feet from the appliance before it shows any visible sign. Extraction equipment removes standing water, and then desiccant or refrigerant dehumidifiers combined with air movers are positioned to dry the structure from the inside out. The goal is to bring affected materials to their pre-loss moisture content, verified with readings, not by feel.
 
 Timeline depends on saturation depth. A refrigerator ice maker line caught within a day typically dries in 2–3 days. A washing machine flood that soaked through to the subfloor can run 4–5 days of active drying with daily moisture monitoring.
 
@@ -34,17 +34,17 @@ Timeline depends on saturation depth. A refrigerator ice maker line caught withi
 
 1. **Source confirmation and water shutoff.** Before anything else, the supply line or appliance connection causing the leak is identified and isolated. This sounds obvious, but slow leaks from ice maker lines or dishwasher drain connections are sometimes still active when a crew arrives. Stopping the source is step one.
 
-2. **Moisture mapping with thermal imaging and meters.** A thermal camera identifies temperature differentials that reveal hidden moisture migration — under cabinets, behind kickplates, inside wall cavities adjacent to the appliance. Moisture readings are logged at every affected material as the baseline for drying documentation.
+2. **Moisture mapping with thermal imaging and meters.** A thermal camera identifies temperature differentials that reveal hidden moisture migration, under cabinets, behind kickplates, inside wall cavities adjacent to the appliance. Moisture readings are logged at every affected material as the baseline for drying documentation.
 
 3. **Extraction and material assessment.** Standing water is extracted. Affected cabinetry, flooring, and subfloor are assessed for salvageability. Particleboard cabinet bases that have swollen and delaminated typically cannot be dried back to structural integrity and are documented for replacement. Solid wood and plywood have better recovery odds when caught early.
 
-4. **Structural drying with daily monitoring.** Commercial-grade dehumidifiers and air movers are placed according to the moisture map. Readings are taken and logged each day — not just to track progress, but to create the documentation record your insurance adjuster will want. Drying is considered complete when affected materials reach equilibrium with unaffected reference materials in the same room, not when surfaces feel dry to the touch.
+4. **Structural drying with daily monitoring.** Commercial-grade dehumidifiers and air movers are placed according to the moisture map. Readings are taken and logged each day, not just to track progress, but to create the documentation record your insurance adjuster will want. Drying is considered complete when affected materials reach equilibrium with unaffected reference materials in the same room, not when surfaces feel dry to the touch.
 
 5. **Final inspection and clearance.** A final moisture scan confirms the structure has returned to acceptable levels. If any mold growth was identified during the process, that finding is documented separately and a remediation scope is written before any reconstruction begins.
 
 ## What separates a good appliance leak response from a bad one
 
-The most common mistake in appliance leak cleanup is treating it like a surface problem. A technician who pulls the refrigerator, wipes up visible water, and leaves a single fan running has not done the job — they've created the conditions for a mold claim three weeks later.
+The most common mistake in appliance leak cleanup is treating it like a surface problem. A technician who pulls the refrigerator, wipes up visible water, and leaves a single fan running has not done the job, they've created the conditions for a mold claim three weeks later.
 
 Experienced operators know to check the subfloor cavity, not just the surface. In homes with hardwood or luxury vinyl plank over a wood subfloor, moisture migrates under the flooring and doesn't evaporate because the floor covering acts as a vapor barrier. Thermal imaging catches this; a visual inspection won't.
 
@@ -54,10 +54,10 @@ Another common gap: failing to check the wall cavity behind a dishwasher or wash
 
 ## Seasonal and regional considerations
 
-Saratoga Springs sits at roughly 4,500 feet elevation, and the high-desert climate creates a specific wrinkle for appliance leak cleanup. Ambient humidity here runs low — often 20–30% indoors in winter — which sounds like it should help drying. In practice, very low humidity causes wood materials to dry unevenly, which can cause cupping and cracking in hardwood floors if drying equipment isn't balanced carefully. Rushing the process in dry conditions can cause as much secondary damage as the leak itself. Winter also means crawl spaces and garage utility areas where water heaters often sit can drop below 50°F, slowing evaporation and requiring adjusted equipment placement.
+Saratoga Springs sits at roughly 4,500 feet elevation, and the high-desert climate creates a specific wrinkle for appliance leak cleanup. Ambient humidity here runs low, often 20–30% indoors in winter, which sounds like it should help drying. In practice, very low humidity causes wood materials to dry unevenly, which can cause cupping and cracking in hardwood floors if drying equipment isn't balanced carefully. Rushing the process in dry conditions can cause as much secondary damage as the leak itself. Winter also means crawl spaces and garage utility areas where water heaters often sit can drop below 50°F, slowing evaporation and requiring adjusted equipment placement.
 
 ## Service area
 
 Home Pride Restoration and Cleaning is based in Saratoga Springs and responds to appliance leak calls throughout Utah County and the surrounding area, including Eagle Mountain, Lehi, American Fork, Highland, Cedar Hills, and Herriman. Appliance leak cleanup in Saratoga Springs and neighboring communities is typically on-site within 60–90 minutes of your call.
 
-If you've found water under an appliance — or you're not sure where it came from — call **(801) 995-2437** to have a technician map the moisture and stop the damage before it goes further.
+If you've found water under an appliance, or you're not sure where it came from, call **(801) 995-2437** to have a technician map the moisture and stop the damage before it goes further.

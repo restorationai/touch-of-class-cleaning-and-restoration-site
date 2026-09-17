@@ -20,17 +20,17 @@ state: "WA"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
-Water moves fast. It seeps under baseboards, saturates subfloor, and begins feeding mold colonies within 24 to 48 hours of standing contact. If you're dealing with a flooded basement, a burst pipe, or storm-driven water intrusion in Auburn right now, the clock matters more than anything else on this page. National Restoration Construction dispatches from Federal Way — roughly 10 miles north — and typically has a certified technician at your door within 60 to 90 minutes of your call.
+Water moves fast. It seeps under baseboards, saturates subfloor, and begins feeding mold colonies within 24 to 48 hours of standing contact. If you're dealing with a flooded basement, a burst pipe, or storm-driven water intrusion in Auburn right now, the clock matters more than anything else on this page. National Restoration Construction dispatches from Federal Way, roughly 10 miles north, and typically has a certified technician at your door within 60 to 90 minutes of your call.
 
 ## Why Auburn Properties See Flood Damage Emergencies
 
-Auburn sits in the Green River Valley, a low-lying corridor that collects runoff from the Cascade foothills every time the Pacific Northwest gets a sustained rain event — and around here, that's most of October through April. The Green River itself has a long history of flooding, and while the Howard Hanson Dam upstream provides meaningful protection, heavy snowmelt years still push valley properties to their limits. Older neighborhoods near downtown Auburn and along the West Valley Highway corridor often have aging drainage infrastructure that can back up quickly during high-volume storms.
+Auburn sits in the Green River Valley, a low-lying corridor that collects runoff from the Cascade foothills every time the Pacific Northwest gets a sustained rain event, and around here, that's most of October through April. The Green River itself has a long history of flooding, and while the Howard Hanson Dam upstream provides meaningful protection, heavy snowmelt years still push valley properties to their limits. Older neighborhoods near downtown Auburn and along the West Valley Highway corridor often have aging drainage infrastructure that can back up quickly during high-volume storms.
 
-The housing stock adds another layer of risk. Many Auburn homes built in the 1960s through 1980s have crawl spaces rather than slab foundations, and those spaces are notorious for holding water invisibly for days before a homeowner notices the musty smell or the soft spot in a hardwood floor above. Newer construction in developments like Lea Hill or along Auburn Way South can face grading issues that direct roof runoff toward foundations rather than away from them. None of that is unusual — it's just the reality of living in a river valley in western Washington.
+The housing stock adds another layer of risk. Many Auburn homes built in the 1960s through 1980s have crawl spaces rather than slab foundations, and those spaces are notorious for holding water invisibly for days before a homeowner notices the musty smell or the soft spot in a hardwood floor above. Newer construction in developments like Lea Hill or along Auburn Way South can face grading issues that direct roof runoff toward foundations rather than away from them. None of that is unusual, it's just the reality of living in a river valley in western Washington.
 
 ## Our Flood Damage Restoration Process in Auburn
 
-When we arrive, the first priority is stopping secondary damage — not paperwork, not a sales pitch. Here's what the first 24 hours typically look like:
+When we arrive, the first priority is stopping secondary damage, not paperwork, not a sales pitch. Here's what the first 24 hours typically look like:
 
 **Emergency extraction.** Truck-mounted water extractors pull standing water from carpet, hardwood, tile, and crawl spaces faster than portable units. We don't leave until the bulk water is gone.
 
@@ -40,7 +40,7 @@ When we arrive, the first priority is stopping secondary damage — not paperwor
 
 **Antimicrobial treatment.** Any surface that held standing water gets treated. In Auburn's climate, skipping this step is how a flood damage repair turns into a mold remediation job three weeks later.
 
-**Structural assessment and reconstruction.** Once the structure is dry, our general contractor license (WA L&I #NATIORC792M6) means we can handle drywall replacement, flooring, cabinetry, and framing repairs under one roof — no handoff to a separate contractor.
+**Structural assessment and reconstruction.** Once the structure is dry, our general contractor license (WA L&I #NATIORC792M6) means we can handle drywall replacement, flooring, cabinetry, and framing repairs under one roof, no handoff to a separate contractor.
 
 ## Response Times Across Auburn
 
@@ -50,12 +50,12 @@ We operate 24 hours a day, seven days a week, including holidays. Flood damage d
 
 ## Insurance Claims for Flood Damage
 
-Dealing with your insurance company while water is still on the floor is genuinely stressful. We've worked with virtually every major carrier that writes homeowner policies in Washington — Farmers, PEMCO, State Farm, Allstate, USAA, and others — and we know what documentation adjusters need to process a residential flood damage claim efficiently.
+Dealing with your insurance company while water is still on the floor is genuinely stressful. We've worked with virtually every major carrier that writes homeowner policies in Washington, Farmers, PEMCO, State Farm, Allstate, USAA, and others, and we know what documentation adjusters need to process a residential flood damage claim efficiently.
 
-Here's how the work typically divides: we handle the scope of loss documentation, moisture logs, photo evidence, and direct communication with your adjuster. You handle your deductible and any policy decisions. We don't inflate scopes to pad claims, and we don't ask you to sign anything that transfers your rights to us. Some restoration companies do — we don't.
+Here's how the work typically divides: we handle the scope of loss documentation, moisture logs, photo evidence, and direct communication with your adjuster. You handle your deductible and any policy decisions. We don't inflate scopes to pad claims, and we don't ask you to sign anything that transfers your rights to us. Some restoration companies do, we don't.
 
 If you haven't filed yet, don't wait. Most policies have reporting windows, and delayed reporting can complicate coverage. Document what you can with your phone before touching anything, then reach out to us.
 
 ---
 
-If you're standing in a wet room right now trying to figure out your next move, the answer is straightforward: get a professional on-site before the drying window closes. Reach National Restoration Construction at **(206) 883-0333** — we'll tell you exactly how long until we're there and what to do in the meantime.
+If you're standing in a wet room right now trying to figure out your next move, the answer is straightforward: get a professional on-site before the drying window closes. Reach National Restoration Construction at **(206) 883-0333**, we'll tell you exactly how long until we're there and what to do in the meantime.

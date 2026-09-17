@@ -20,38 +20,38 @@ state: "TX"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
-Buffalo Gap sits in the heart of West Texas, where the open plains offer little resistance to the violent thunderstorms, straight-line winds, and the occasional tornado that sweep through Taylor County each spring and summer. A storm that spins up over the Callahan Divide can move fast and hit hard — stripping shingles, driving rain through compromised rooflines, and dropping tree limbs onto structures before most residents have time to react. When that happens, Air Care Restoration responds around the clock to assess the damage and start protecting your property from what comes next.
+Buffalo Gap sits in the heart of West Texas, where the open plains offer little resistance to the violent thunderstorms, straight-line winds, and the occasional tornado that sweep through Taylor County each spring and summer. A storm that spins up over the Callahan Divide can move fast and hit hard, stripping shingles, driving rain through compromised rooflines, and dropping tree limbs onto structures before most residents have time to react. When that happens, Air Care Restoration responds around the clock to assess the damage and start protecting your property from what comes next.
 
 ## Why Buffalo Gap Properties See Storm Damage Differently
 
-West Texas storms have a particular character that shapes how damage unfolds here. The region's notorious haboobs and dust storms arrive ahead of thunderstorm outflows, coating interior surfaces with fine particulate that works its way into HVAC systems and wall cavities. Then the rain hits — often in intense, short bursts that overwhelm gutters and window seals in a matter of minutes.
+West Texas storms have a particular character that shapes how damage unfolds here. The region's notorious haboobs and dust storms arrive ahead of thunderstorm outflows, coating interior surfaces with fine particulate that works its way into HVAC systems and wall cavities. Then the rain hits, often in intense, short bursts that overwhelm gutters and window seals in a matter of minutes.
 
 Buffalo Gap's housing stock skews toward older ranch-style and limestone construction, building types that carry their own vulnerabilities. Limestone exterior walls can mask water intrusion for days; the stone face stays dry while moisture wicks into the mortar joints and framing behind it. Metal roofing, common on agricultural outbuildings and some residential properties in the area, can sustain hail dents that aren't immediately visible but create long-term leak points. Identifying these failure modes early is what separates a contained repair from a months-long mold and structural problem.
 
 ## Our Storm Damage Restoration Process in Buffalo Gap
 
-Every storm job starts with a systematic damage assessment — not a quick walk-around, but a methodical inspection that covers the roofline, exterior envelope, attic space, and interior wall cavities. Our IICRC-certified team uses moisture meters and thermal imaging to locate water that has already moved behind surfaces, because in West Texas construction, the visible damage is rarely the whole story.
+Every storm job starts with a systematic damage assessment, not a quick walk-around, but a methodical inspection that covers the roofline, exterior envelope, attic space, and interior wall cavities. Our IICRC-certified team uses moisture meters and thermal imaging to locate water that has already moved behind surfaces, because in West Texas construction, the visible damage is rarely the whole story.
 
 Once we've mapped the loss, the process moves in a clear sequence:
 
-- **Emergency stabilization** — tarping compromised rooflines, boarding breached windows and doors, and stopping active water intrusion before it spreads further into the structure.
-- **Water extraction and drying** — standing water is removed first; then industrial air movers and dehumidifiers are positioned according to the IICRC S500 drying standard, with daily moisture readings to track progress.
-- **Debris and material removal** — storm-damaged insulation, drywall, and roofing materials are removed and disposed of properly, including any lead-containing materials handled under owner Sarha Boyd's EPA Certified Renovator (Lead RRP) credential.
-- **Structural drying and documentation** — every reading, photo, and drying log is compiled into a complete file for your insurance carrier.
-- **Repair and reconstruction** — once the structure is dry and stable, we move into repairs: framing, sheathing, roofing, drywall, and finish work.
+- **Emergency stabilization**, tarping compromised rooflines, boarding breached windows and doors, and stopping active water intrusion before it spreads further into the structure.
+- **Water extraction and drying**, standing water is removed first; then industrial air movers and dehumidifiers are positioned according to the IICRC S500 drying standard, with daily moisture readings to track progress.
+- **Debris and material removal**, storm-damaged insulation, drywall, and roofing materials are removed and disposed of properly, including any lead-containing materials handled under owner Sarha Boyd's EPA Certified Renovator (Lead RRP) credential.
+- **Structural drying and documentation**, every reading, photo, and drying log is compiled into a complete file for your insurance carrier.
+- **Repair and reconstruction**, once the structure is dry and stable, we move into repairs: framing, sheathing, roofing, drywall, and finish work.
 
 ## Reaching Buffalo Gap from Abilene
 
-Our base in Abilene puts Buffalo Gap well within our primary service area. The drive south on FM 89 is straightforward, and our crews are dispatched 24/7 — meaning a storm that rolls through at 2 a.m. gets the same response as one that hits on a Tuesday afternoon. When multiple properties in the area are affected by the same storm system, we coordinate crew routing to reach the most urgent losses first.
+Our base in Abilene puts Buffalo Gap well within our primary service area. The drive south on FM 89 is straightforward, and our crews are dispatched 24/7, meaning a storm that rolls through at 2 a.m. gets the same response as one that hits on a Tuesday afternoon. When multiple properties in the area are affected by the same storm system, we coordinate crew routing to reach the most urgent losses first.
 
 ## Buffalo Gap Insurance Coordination
 
-Storm damage claims in Taylor County follow Texas Department of Insurance guidelines, and most major carriers have specific documentation requirements for wind and hail losses. We photograph every affected surface before any material is touched, generate a detailed scope of work, and communicate technical scope information directly with your adjuster throughout the process. If your carrier requests a re-inspection or supplemental documentation, we handle that too — you shouldn't have to manage the paperwork while your home is still drying out. Coverage and settlement decisions remain between you and your carrier.
+Storm damage claims in Taylor County follow Texas Department of Insurance guidelines, and most major carriers have specific documentation requirements for wind and hail losses. We photograph every affected surface before any material is touched, generate a detailed scope of work, and communicate technical scope information directly with your adjuster throughout the process. If your carrier requests a re-inspection or supplemental documentation, we handle that too, you shouldn't have to manage the paperwork while your home is still drying out. Coverage and settlement decisions remain between you and your carrier.
 
 If your property falls under an HOA with exterior repair approval requirements, let us know at the first call. We can provide the scope and material specifications an HOA board typically needs to approve emergency and permanent repairs.
 
 ## Local Note
 
-One thing that catches homeowners off guard after a West Texas hailstorm: the damage to a metal or composition roof often isn't visible from the ground, and insurance adjusters sometimes schedule inspections days after a storm event. In the meantime, a roofline that looks intact from the street can be admitting water through impact-fractured shingles or dented metal seams every time it rains. Calling for a professional assessment — not just an insurance inspection — before the next weather system arrives is the step that most often prevents a manageable claim from becoming a much larger one.
+One thing that catches homeowners off guard after a West Texas hailstorm: the damage to a metal or composition roof often isn't visible from the ground, and insurance adjusters sometimes schedule inspections days after a storm event. In the meantime, a roofline that looks intact from the street can be admitting water through impact-fractured shingles or dented metal seams every time it rains. Calling for a professional assessment, not just an insurance inspection, before the next weather system arrives is the step that most often prevents a manageable claim from becoming a much larger one.
 
-If you're in Buffalo Gap and a storm has left you unsure what's damaged and what's not, call Air Care Restoration at **(325) 339-8723**. Our team will give you an honest assessment of what the storm actually did to your property — and a clear plan for putting it right.
+If you're in Buffalo Gap and a storm has left you unsure what's damaged and what's not, call Air Care Restoration at **(325) 339-8723**. Our team will give you an honest assessment of what the storm actually did to your property, and a clear plan for putting it right.

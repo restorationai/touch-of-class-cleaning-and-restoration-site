@@ -17,33 +17,33 @@ service_slug: "home-remodeling"
 service_display: "Home Remodeling"
 rendered: true
 ---
-Your kitchen still has the original 1987 oak cabinets. The master bath has a single vanity and a tub nobody uses. The living room and dining room feel like separate apartments because a wall that made sense in 1970 makes no sense for how your family actually lives. A home remodel isn't about chasing trends — it's about making a house that was built for someone else finally work for you. The difference between a project that delivers that and one that drags on for eight months with three different subcontractors is almost always who you hire at the start.
+Your kitchen still has the original 1987 oak cabinets. The master bath has a single vanity and a tub nobody uses. The living room and dining room feel like separate apartments because a wall that made sense in 1970 makes no sense for how your family actually lives. A home remodel isn't about chasing trends, it's about making a house that was built for someone else finally work for you. The difference between a project that delivers that and one that drags on for eight months with three different subcontractors is almost always who you hire at the start.
 
 ## What home remodeling actually involves
 
-A home renovation is not a single trade — it's a sequenced series of decisions and physical work that have to happen in the right order or the later steps undo the earlier ones. Electrical rough-in has to happen before drywall. Tile backer has to be waterproofed before tile. Cabinet boxes have to be set and leveled before countertop templating. When those sequences get scrambled — usually because a contractor is juggling too many jobs or subbing out work without coordinating — the result is callbacks, delays, and finishes that don't quite line up.
+A home renovation is not a single trade, it's a sequenced series of decisions and physical work that have to happen in the right order or the later steps undo the earlier ones. Electrical rough-in has to happen before drywall. Tile backer has to be waterproofed before tile. Cabinet boxes have to be set and leveled before countertop templating. When those sequences get scrambled, usually because a contractor is juggling too many jobs or subbing out work without coordinating, the result is callbacks, delays, and finishes that don't quite line up.
 
-A kitchen remodel typically involves demo, rough plumbing and electrical updates, drywall repair or replacement, cabinet installation, countertop templating and installation, backsplash tile, fixture and appliance hookups, and paint. A bathroom remodel adds waterproofing, shower pan or liner work, and ventilation. A whole home remodel layers all of that across multiple rooms with a single unified scope — which is actually more efficient when managed correctly because trades can move through the house in sequence rather than being called back room by room.
+A kitchen remodel typically involves demo, rough plumbing and electrical updates, drywall repair or replacement, cabinet installation, countertop templating and installation, backsplash tile, fixture and appliance hookups, and paint. A bathroom remodel adds waterproofing, shower pan or liner work, and ventilation. A whole home remodel layers all of that across multiple rooms with a single unified scope, which is actually more efficient when managed correctly because trades can move through the house in sequence rather than being called back room by room.
 
-Timelines vary by scope. A single bathroom remodel typically runs three to five weeks from demo to final trim-out. A kitchen runs four to eight weeks depending on cabinet lead times. A whole home remodel is scoped individually — there is no honest one-size answer — but a realistic expectation is set at the beginning, in writing, before a single cabinet is ordered.
+Timelines vary by scope. A single bathroom remodel typically runs three to five weeks from demo to final trim-out. A kitchen runs four to eight weeks depending on cabinet lead times. A whole home remodel is scoped individually, there is no honest one-size answer, but a realistic expectation is set at the beginning, in writing, before a single cabinet is ordered.
 
 ## Our process
 
-1. **Scope and design consultation.** Before any numbers are discussed, we walk the space with you. We ask what isn't working, what the non-negotiables are, and what the budget ceiling looks like. This conversation shapes the scope document — a written description of exactly what work is included, what materials are specified, and what is explicitly excluded so there are no surprises mid-project.
+1. **Scope and design consultation.** Before any numbers are discussed, we walk the space with you. We ask what isn't working, what the non-negotiables are, and what the budget ceiling looks like. This conversation shapes the scope document, a written description of exactly what work is included, what materials are specified, and what is explicitly excluded so there are no surprises mid-project.
 
 2. **Material selection and lead-time coordination.** Cabinet orders, countertop slabs, tile, and fixtures all have lead times that can range from two weeks to twelve. We lock in selections and place orders before demo begins so the project isn't sitting idle waiting on a backordered faucet. This is one of the most common places projects stall under less-organized contractors.
 
-3. **Permitted demo and rough work.** Where permits are required — structural changes, electrical panel upgrades, plumbing relocations — we pull them. Demo is done with protection in place for adjacent finished areas. Rough plumbing, electrical, and HVAC modifications are inspected before walls close.
+3. **Permitted demo and rough work.** Where permits are required, structural changes, electrical panel upgrades, plumbing relocations, we pull them. Demo is done with protection in place for adjacent finished areas. Rough plumbing, electrical, and HVAC modifications are inspected before walls close.
 
 4. **Finish installation in sequence.** Flooring, tile, cabinets, countertops, and fixtures are installed in the order that protects each finished surface from the trade that follows. Paint is the last step, not a mid-project patch job.
 
-5. **Punch list and final walkthrough.** Before we consider a project closed, we walk every room with you, document anything that needs adjustment, and complete it before final payment. A punch list isn't a sign of a problem — it's a sign that the contractor is paying attention.
+5. **Punch list and final walkthrough.** Before we consider a project closed, we walk every room with you, document anything that needs adjustment, and complete it before final payment. A punch list isn't a sign of a problem, it's a sign that the contractor is paying attention.
 
 ## What separates a good remodel from a bad one
 
-The most common failure point in home renovation isn't the physical work — it's the scope document, or the absence of one. Vague contracts with line items like "kitchen remodel — labor and materials" invite disagreement about what was included. A detailed scope with brand, model, and finish specified for every fixture protects both the homeowner and the contractor.
+The most common failure point in home renovation isn't the physical work, it's the scope document, or the absence of one. Vague contracts with line items like "kitchen remodel, labor and materials" invite disagreement about what was included. A detailed scope with brand, model, and finish specified for every fixture protects both the homeowner and the contractor.
 
-The second most common failure is sequencing tile and waterproofing incorrectly in wet areas. Shower walls that aren't properly waterproofed behind the tile will eventually fail — sometimes within two years — and the repair cost exceeds the original installation. Cement board alone is not a waterproofing system. A membrane or liquid-applied barrier behind the tile is the correct approach in a shower or tub surround.
+The second most common failure is sequencing tile and waterproofing incorrectly in wet areas. Shower walls that aren't properly waterproofed behind the tile will eventually fail, sometimes within two years, and the repair cost exceeds the original installation. Cement board alone is not a waterproofing system. A membrane or liquid-applied barrier behind the tile is the correct approach in a shower or tub surround.
 
 The third is cabinet installation without checking for level and plumb across the full run before setting anything permanently. A kitchen that's slightly out of level at one end will have gaps, misaligned doors, and countertop issues that are expensive to correct after the fact.
 
@@ -51,10 +51,10 @@ For homeowners using a home equity loan or renovation financing, lenders sometim
 
 ## Seasonal and regional considerations
 
-In the Dallas–Fort Worth area, summer heat affects project timelines in a practical way — working in an un-air-conditioned space during demo and rough framing in July is a different job than the same work in October. We schedule accordingly and communicate realistic timelines based on the season. North Texas also has expansive clay soils that cause foundation movement, which means older homes in Duncanville and surrounding cities sometimes have out-of-level floors that need to be addressed before new flooring or cabinetry is installed. We assess for this during the initial walkthrough rather than discovering it mid-project.
+In the Dallas–Fort Worth area, summer heat affects project timelines in a practical way, working in an un-air-conditioned space during demo and rough framing in July is a different job than the same work in October. We schedule accordingly and communicate realistic timelines based on the season. North Texas also has expansive clay soils that cause foundation movement, which means older homes in Duncanville and surrounding cities sometimes have out-of-level floors that need to be addressed before new flooring or cabinetry is installed. We assess for this during the initial walkthrough rather than discovering it mid-project.
 
 ## Service area
 
-MCC Restoration and Contracting Services is based in Duncanville and works throughout the surrounding communities — DeSoto, Cedar Hill, Mansfield, Grand Prairie, Midlothian, and the broader southwest DFW area. Interior remodeling contractor services for both residential and light commercial properties.
+MCC Restoration and Contracting Services is based in Duncanville and works throughout the surrounding communities, DeSoto, Cedar Hill, Mansfield, Grand Prairie, Midlothian, and the broader southwest DFW area. Interior remodeling contractor services for both residential and light commercial properties.
 
 If you're ready to move from planning to an actual scope of work, call **(682) 772-9123** to schedule a consultation. We'll walk the space, talk through what you're trying to accomplish, and put it in writing so the project starts with a clear plan rather than a handshake and a guess.

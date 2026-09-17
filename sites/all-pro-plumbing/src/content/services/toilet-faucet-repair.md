@@ -17,29 +17,29 @@ service_slug: "toilet-faucet-repair"
 service_display: "Toilet, Faucet and Fixture Services"
 rendered: true
 ---
-## The drip that costs you sleep — and money
+## The drip that costs you sleep, and money
 
-A faucet dripping once per second wastes roughly 3,000 gallons a year. A running toilet can silently push that number past 26,000 gallons before you notice it on a Bakersfield water bill. These aren't dramatic emergencies — no water spraying across the bathroom — but the slow, steady waste adds up fast, and the fix is almost always simpler than homeowners expect once someone who actually knows the hardware gets eyes on it.
+A faucet dripping once per second wastes roughly 3,000 gallons a year. A running toilet can silently push that number past 26,000 gallons before you notice it on a Bakersfield water bill. These aren't dramatic emergencies, no water spraying across the bathroom, but the slow, steady waste adds up fast, and the fix is almost always simpler than homeowners expect once someone who actually knows the hardware gets eyes on it.
 
 ## What toilet, faucet and fixture services actually involves
 
-This category covers the fixtures your household uses dozens of times a day: toilets, bathroom and kitchen faucets, shower valves, tub spouts, supply lines, shutoff valves, and the drain hardware connected to all of them. The work ranges from a ten-minute flapper swap to a full shower valve replacement that requires opening the wall, soldering or pressing new copper, and refinishing the trim. Most calls fall somewhere in between — a cartridge-style faucet that's worn out its ceramic disc, a toilet fill valve that hunts and hisses all night, a pressure-balance shower valve that stopped holding temperature after years of Bakersfield's hard water scaling up the cartridge seat.
+This category covers the fixtures your household uses dozens of times a day: toilets, bathroom and kitchen faucets, shower valves, tub spouts, supply lines, shutoff valves, and the drain hardware connected to all of them. The work ranges from a ten-minute flapper swap to a full shower valve replacement that requires opening the wall, soldering or pressing new copper, and refinishing the trim. Most calls fall somewhere in between, a cartridge-style faucet that's worn out its ceramic disc, a toilet fill valve that hunts and hisses all night, a pressure-balance shower valve that stopped holding temperature after years of Bakersfield's hard water scaling up the cartridge seat.
 
-Bakersfield's water supply runs hard — calcium and magnesium deposits build up inside valve bodies, aerator screens, and showerheads faster here than in softer-water markets. That scale is often the root cause of what looks like a worn-out faucet: the cartridge isn't broken, it's just caked. Knowing the difference saves homeowners from buying a new fixture they don't need.
+Bakersfield's water supply runs hard, calcium and magnesium deposits build up inside valve bodies, aerator screens, and showerheads faster here than in softer-water markets. That scale is often the root cause of what looks like a worn-out faucet: the cartridge isn't broken, it's just caked. Knowing the difference saves homeowners from buying a new fixture they don't need.
 
-Timeline varies by job. A running toilet diagnosis and repair typically wraps in under an hour. A shower valve replacement with tile access runs two to four hours. A full bathroom fixture package — toilet, vanity faucet, tub spout, and shower trim — is usually a half-day job.
+Timeline varies by job. A running toilet diagnosis and repair typically wraps in under an hour. A shower valve replacement with tile access runs two to four hours. A full bathroom fixture package, toilet, vanity faucet, tub spout, and shower trim, is usually a half-day job.
 
 ## Our process
 
-1. **Diagnose before quoting.** We identify the specific component that's failing — not just the symptom. A running toilet could be a worn flapper, a waterlogged float ball, a corroded flush valve seat, or a fill valve that's out of adjustment. Each has a different fix and a different cost. We tell you which one before any work starts.
+1. **Diagnose before quoting.** We identify the specific component that's failing, not just the symptom. A running toilet could be a worn flapper, a waterlogged float ball, a corroded flush valve seat, or a fill valve that's out of adjustment. Each has a different fix and a different cost. We tell you which one before any work starts.
 
-2. **Shut off and protect.** The supply valve closest to the fixture gets closed first. If it's a corroded angle stop that won't seat properly — common in older Bakersfield homes with galvanized-era plumbing — we address that before touching the fixture above it. A leaking shutoff discovered mid-repair isn't a surprise you want.
+2. **Shut off and protect.** The supply valve closest to the fixture gets closed first. If it's a corroded angle stop that won't seat properly, common in older Bakersfield homes with galvanized-era plumbing, we address that before touching the fixture above it. A leaking shutoff discovered mid-repair isn't a surprise you want.
 
-3. **Remove and inspect the valve body or flush mechanism.** Cartridges, ceramic discs, ball assemblies, and flush valves come out for inspection. We check the seat surface for scoring and the supply lines for age-related brittleness. Braided stainless supply lines that are more than eight to ten years old often get replaced as a matter of course — they're inexpensive insurance against a future failure.
+3. **Remove and inspect the valve body or flush mechanism.** Cartridges, ceramic discs, ball assemblies, and flush valves come out for inspection. We check the seat surface for scoring and the supply lines for age-related brittleness. Braided stainless supply lines that are more than eight to ten years old often get replaced as a matter of course, they're inexpensive insurance against a future failure.
 
 4. **Install and test under pressure.** New components go in, the supply valve opens slowly, and we watch the fixture under full operating pressure for several minutes. For toilets, that means a full flush cycle and a dye test to confirm the flapper is seating. For faucets, it means checking both hot and cold at the aerator and confirming no drip at the handle in the off position.
 
-5. **Walk you through what changed and why.** Before we leave, we explain what failed, what we replaced, and whether anything else in the fixture chain is showing early wear — so you're not surprised by a follow-up call in six months.
+5. **Walk you through what changed and why.** Before we leave, we explain what failed, what we replaced, and whether anything else in the fixture chain is showing early wear, so you're not surprised by a follow-up call in six months.
 
 ## What separates a good fixture repair from a cutting-corner one
 
@@ -47,16 +47,16 @@ The most common mistake is replacing only the most visible failed part without i
 
 Supply lines are the other thing that gets skipped. Plastic-sleeved or older braided lines that are already stiff and discolored should come out with the failed component, not stay in place because they're technically not leaking yet. The cost difference is a few dollars in parts; the downside of leaving them is a supply line failure that soaks the cabinet below.
 
-For shower valve work specifically, the cartridge brand and model number matter. Moen, Delta, Kohler, and Price Pfister all use proprietary cartridges that are not interchangeable. Using an off-brand substitute in a pressure-balance valve can cause the valve to fail its anti-scald function — a code and safety issue, not just a comfort one.
+For shower valve work specifically, the cartridge brand and model number matter. Moen, Delta, Kohler, and Price Pfister all use proprietary cartridges that are not interchangeable. Using an off-brand substitute in a pressure-balance valve can cause the valve to fail its anti-scald function, a code and safety issue, not just a comfort one.
 
 ## Seasonal and regional considerations
 
-Bakersfield summers are hard on fixtures in one specific way: thermal expansion. When supply lines heat up in unconditioned spaces — under sinks on exterior walls, in crawl spaces — the repeated expansion and contraction accelerates wear on compression fittings and older supply line connections. Late summer is a common time for supply line failures that look random but are actually the end of a long fatigue cycle. If your under-sink cabinet gets warm in July and August, it's worth a quick look at what's down there.
+Bakersfield summers are hard on fixtures in one specific way: thermal expansion. When supply lines heat up in unconditioned spaces, under sinks on exterior walls, in crawl spaces, the repeated expansion and contraction accelerates wear on compression fittings and older supply line connections. Late summer is a common time for supply line failures that look random but are actually the end of a long fatigue cycle. If your under-sink cabinet gets warm in July and August, it's worth a quick look at what's down there.
 
 Hard water scale is a year-round issue here. Aerators and showerheads that are partially blocked by mineral buildup reduce flow and put extra back-pressure on valve cartridges. Cleaning or replacing them every couple of years is straightforward maintenance that extends the life of the valve behind them.
 
 ## Service area
 
-All Pro Plumbing Heating and Air handles toilet, faucet, and fixture work throughout Bakersfield and the surrounding communities — including Oildale, Rosedale, Lamont, Shafter, Wasco, Delano, and Tehachapi. City-specific service pages cover each area in more detail and link back here for the full scope of what this service includes.
+All Pro Plumbing Heating and Air handles toilet, faucet, and fixture work throughout Bakersfield and the surrounding communities, including Oildale, Rosedale, Lamont, Shafter, Wasco, Delano, and Tehachapi. City-specific service pages cover each area in more detail and link back here for the full scope of what this service includes.
 
-If a toilet is running, a faucet won't stop dripping, or a shower valve has stopped behaving, call (661) 863-9242 — available 24/7 — and we'll diagnose it, quote it, and fix it right the first time.
+If a toilet is running, a faucet won't stop dripping, or a shower valve has stopped behaving, call (661) 863-9242, available 24/7, and we'll diagnose it, quote it, and fix it right the first time.

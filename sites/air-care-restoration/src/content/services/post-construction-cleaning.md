@@ -17,41 +17,41 @@ service_slug: "post-construction-cleaning"
 service_display: "Post-Construction and Specialty Cleaning"
 rendered: true
 ---
-The contractor has packed up, the dumpster is gone, and the space looks almost finished — but a fine layer of drywall dust has settled into every horizontal surface, construction adhesive is smeared across the new tile, and the HVAC return is pulling particulate through ductwork that hasn't been cleaned since framing. Post-construction cleaning isn't housekeeping with extra steps. It's a systematic process of removing the byproducts of building — silica dust, joint compound residue, caulk overspray, paint mist, and construction debris — before occupants move in or a certificate of occupancy inspection takes place.
+The contractor has packed up, the dumpster is gone, and the space looks almost finished, but a fine layer of drywall dust has settled into every horizontal surface, construction adhesive is smeared across the new tile, and the HVAC return is pulling particulate through ductwork that hasn't been cleaned since framing. Post-construction cleaning isn't housekeeping with extra steps. It's a systematic process of removing the byproducts of building, silica dust, joint compound residue, caulk overspray, paint mist, and construction debris, before occupants move in or a certificate of occupancy inspection takes place.
 
 ## What post-construction and specialty cleaning actually involves
 
-Construction debris cleaning goes far beyond sweeping and mopping. Drywall compound dust is hydrophilic — it reactivates with moisture and smears if wiped before it's properly vacuumed with HEPA-filtered equipment. Paint overspray on glass requires razor scraping at the correct angle to avoid scratching tempered surfaces. Grout haze on tile has a short window before it cures permanently. Window tracks, door hardware, light fixtures, and cabinet interiors collect material that standard cleaning crews miss entirely.
+Construction debris cleaning goes far beyond sweeping and mopping. Drywall compound dust is hydrophilic, it reactivates with moisture and smears if wiped before it's properly vacuumed with HEPA-filtered equipment. Paint overspray on glass requires razor scraping at the correct angle to avoid scratching tempered surfaces. Grout haze on tile has a short window before it cures permanently. Window tracks, door hardware, light fixtures, and cabinet interiors collect material that standard cleaning crews miss entirely.
 
-Specialty cleaning extends the same discipline to situations outside new construction: deep cleaning after renovation in an occupied home, post-flood or post-fire cleaning of salvageable contents and surfaces, biohazard decontamination of HVAC systems, and move-in/move-out cleaning for commercial properties. The equipment used — HEPA vacuums rated for fine particulate, microfiber systems that capture rather than redistribute dust, professional-grade degreasers matched to the substrate — is not what a general cleaning service carries.
+Specialty cleaning extends the same discipline to situations outside new construction: deep cleaning after renovation in an occupied home, post-flood or post-fire cleaning of salvageable contents and surfaces, biohazard decontamination of HVAC systems, and move-in/move-out cleaning for commercial properties. The equipment used, HEPA vacuums rated for fine particulate, microfiber systems that capture rather than redistribute dust, professional-grade degreasers matched to the substrate, is not what a general cleaning service carries.
 
 Timeline depends on scope. A single-room renovation final clean can be completed in a few hours. A full new-construction home or a multi-room commercial renovation typically requires a structured two-phase approach: a rough clean during the final days of construction and a final clean after all trades have cleared. Skipping the rough clean and attempting one pass at the end almost always produces substandard results.
 
 ## Our process
 
-1. **Site assessment and scope documentation** — Before any equipment enters the space, the area is walked to identify substrate types, trade-specific residues (silica dust vs. paint mist vs. adhesive), and any surfaces requiring special handling (low-e glass coatings, engineered hardwood, polished concrete). This determines which cleaning agents and tools are appropriate and prevents damage to finished surfaces.
+1. **Site assessment and scope documentation**, Before any equipment enters the space, the area is walked to identify substrate types, trade-specific residues (silica dust vs. paint mist vs. adhesive), and any surfaces requiring special handling (low-e glass coatings, engineered hardwood, polished concrete). This determines which cleaning agents and tools are appropriate and prevents damage to finished surfaces.
 
-2. **HEPA vacuuming of all surfaces — high to low** — Ceiling fixtures, sills, ledges, cabinet tops, and rough-framed areas are vacuumed with HEPA-filtered equipment before any wet cleaning begins. Disturbing drywall dust with a damp cloth before vacuuming drives particulate into porous surfaces and can permanently dull finishes. Every horizontal plane is addressed before the floor.
+2. **HEPA vacuuming of all surfaces, high to low**, Ceiling fixtures, sills, ledges, cabinet tops, and rough-framed areas are vacuumed with HEPA-filtered equipment before any wet cleaning begins. Disturbing drywall dust with a damp cloth before vacuuming drives particulate into porous surfaces and can permanently dull finishes. Every horizontal plane is addressed before the floor.
 
-3. **Substrate-matched wet cleaning and residue removal** — Joint compound residue, paint overspray, grout haze, adhesive, and caulk smears each require a specific approach. Glass is razor-scraped and cleaned with a non-abrasive solution. Tile receives grout haze remover appropriate to the tile type (acid-sensitive stone gets a different treatment than porcelain). Cabinetry interiors are wiped with a residue-free solution that won't off-gas into stored items.
+3. **Substrate-matched wet cleaning and residue removal**, Joint compound residue, paint overspray, grout haze, adhesive, and caulk smears each require a specific approach. Glass is razor-scraped and cleaned with a non-abrasive solution. Tile receives grout haze remover appropriate to the tile type (acid-sensitive stone gets a different treatment than porcelain). Cabinetry interiors are wiped with a residue-free solution that won't off-gas into stored items.
 
-4. **Detail and hardware cleaning** — Door hardware, switch plates, outlet covers, plumbing fixtures, and window tracks are cleaned individually. These are the areas that fail a walkthrough inspection and the areas a general cleaning crew is most likely to skip. Stickers and protective film are removed from appliances, fixtures, and glass.
+4. **Detail and hardware cleaning**, Door hardware, switch plates, outlet covers, plumbing fixtures, and window tracks are cleaned individually. These are the areas that fail a walkthrough inspection and the areas a general cleaning crew is most likely to skip. Stickers and protective film are removed from appliances, fixtures, and glass.
 
-5. **Final inspection and punch-list documentation** — The completed space is inspected against the original scope. Any areas requiring a second pass are addressed before sign-off. For commercial projects or insurance-related cleaning, photographic documentation of pre-clean and post-clean conditions is provided.
+5. **Final inspection and punch-list documentation**, The completed space is inspected against the original scope. Any areas requiring a second pass are addressed before sign-off. For commercial projects or insurance-related cleaning, photographic documentation of pre-clean and post-clean conditions is provided.
 
 ## What separates a good final clean from a bad one
 
-The most common failure in post-construction cleanup is sequence error — wet mopping before HEPA vacuuming, or cleaning glass before razor-scraping. Both mistakes redistribute rather than remove construction residue, and both can cause permanent damage to finished surfaces.
+The most common failure in post-construction cleanup is sequence error, wet mopping before HEPA vacuuming, or cleaning glass before razor-scraping. Both mistakes redistribute rather than remove construction residue, and both can cause permanent damage to finished surfaces.
 
-A second common failure is using the wrong cleaning chemistry. Acidic grout haze removers applied to marble or travertine etch the surface. Solvent-based degreasers on luxury vinyl plank can soften the wear layer. Experienced operators identify the substrate first and match the chemistry to it — not the other way around.
+A second common failure is using the wrong cleaning chemistry. Acidic grout haze removers applied to marble or travertine etch the surface. Solvent-based degreasers on luxury vinyl plank can soften the wear layer. Experienced operators identify the substrate first and match the chemistry to it, not the other way around.
 
 For insurance-related specialty cleaning (post-fire soot removal from contents, post-water-event cleaning of salvageable materials), adjusters look for documentation: what was cleaned, what method was used, and what was determined non-restorable. Air Care Restoration's IICRC-certified crew provides written scope documentation that supports the claim file, which matters when a carrier reviews line items.
 
-On renovation projects in older Abilene homes — particularly those built before 1978 — disturbing painted surfaces during demolition creates lead dust exposure risk. Air Care Restoration's owner holds EPA Certified Renovator credentials, which governs how lead-containing dust is contained, cleaned, and disposed of during and after renovation work.
+On renovation projects in older Abilene homes, particularly those built before 1978, disturbing painted surfaces during demolition creates lead dust exposure risk. Air Care Restoration's owner holds EPA Certified Renovator credentials, which governs how lead-containing dust is contained, cleaned, and disposed of during and after renovation work.
 
 ## What does post-construction and specialty cleaning cost?
 
-Typical costs for post-construction and final cleaning vary by project size, scope, and the number of specialty surfaces involved. Most homeowners and contractors pay within the ranges below — these are industry-typical figures, not quotes.
+Typical costs for post-construction and final cleaning vary by project size, scope, and the number of specialty surfaces involved. Most homeowners and contractors pay within the ranges below, these are industry-typical figures, not quotes.
 
 | Scenario | Typical range |
 |---|---|
@@ -64,11 +64,11 @@ Typical costs for post-construction and final cleaning vary by project size, sco
 
 *Industry reference ranges for budgeting context only, not an Air Care quote or guaranteed price. Every project is scoped and documented individually.*
 
-Every project is different — scope, surface types, and existing conditions all affect the final number. Air Care Restoration provides a written scope of work before any cleaning begins so there are no surprises. Homeowners insurance may cover specialty cleaning costs when the work is tied to a covered loss (fire, water, or storm damage); post-construction cleaning for new builds or elective renovations is typically not a covered expense, though it may be a reimbursable line item in a contractor's project budget.
+Every project is different, scope, surface types, and existing conditions all affect the final number. Air Care Restoration provides a written scope of work before any cleaning begins so there are no surprises. Homeowners insurance may cover specialty cleaning costs when the work is tied to a covered loss (fire, water, or storm damage); post-construction cleaning for new builds or elective renovations is typically not a covered expense, though it may be a reimbursable line item in a contractor's project budget.
 
 ## Seasonal and regional considerations
 
-In Abilene and the broader West Texas region, construction schedules are often compressed into the drier months — which means final cleans frequently stack up in late spring and fall when contractors are closing out multiple projects simultaneously. Scheduling a final clean well in advance of a CO inspection or move-in date is worth doing early.
+In Abilene and the broader West Texas region, construction schedules are often compressed into the drier months, which means final cleans frequently stack up in late spring and fall when contractors are closing out multiple projects simultaneously. Scheduling a final clean well in advance of a CO inspection or move-in date is worth doing early.
 
 The region's persistent wind and dust also mean that post-construction particulate doesn't stay contained to the work area. Fine silica and drywall dust migrate through HVAC systems quickly in the low-humidity West Texas climate, making duct inspection and cleaning a practical consideration after any significant interior renovation.
 

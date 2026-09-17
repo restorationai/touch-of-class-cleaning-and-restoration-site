@@ -17,11 +17,11 @@ service_slug: "garbage-disposal"
 service_display: "Garbage Disposal Repair and Installation"
 rendered: true
 ---
-That grinding hum — or sudden silence — when you flip the disposal switch is one of those kitchen problems that turns a normal evening into a standstill. Food waste backs up into the sink basin, the smell follows within hours, and a reset button that used to fix everything now does nothing. Whether the unit is jammed on a bone fragment, leaking from the flange seal, or simply worn out after years of daily use, the fix almost always comes down to a handful of specific mechanical causes that a trained plumber can diagnose and resolve in a single visit.
+That grinding hum, or sudden silence, when you flip the disposal switch is one of those kitchen problems that turns a normal evening into a standstill. Food waste backs up into the sink basin, the smell follows within hours, and a reset button that used to fix everything now does nothing. Whether the unit is jammed on a bone fragment, leaking from the flange seal, or simply worn out after years of daily use, the fix almost always comes down to a handful of specific mechanical causes that a trained plumber can diagnose and resolve in a single visit.
 
 ## What garbage disposal repair and installation actually involves
 
-A garbage disposal is a relatively compact appliance — motor, grinding plate, impellers, discharge elbow, and a mounting assembly that connects to the sink drain — but each of those components fails in its own way. A disposal that hums but won't spin typically has a seized grinding plate, often from a hard object lodged between the impeller and the shredder ring. A disposal that leaks usually fails at one of three points: the sink flange at the top, the dishwasher inlet on the side, or the discharge elbow at the bottom — and each location points to a different repair. A unit that trips its reset button repeatedly may have a failing motor that's drawing too much current, which means repair isn't cost-effective and replacement is the right call.
+A garbage disposal is a relatively compact appliance, motor, grinding plate, impellers, discharge elbow, and a mounting assembly that connects to the sink drain, but each of those components fails in its own way. A disposal that hums but won't spin typically has a seized grinding plate, often from a hard object lodged between the impeller and the shredder ring. A disposal that leaks usually fails at one of three points: the sink flange at the top, the dishwasher inlet on the side, or the discharge elbow at the bottom, and each location points to a different repair. A unit that trips its reset button repeatedly may have a failing motor that's drawing too much current, which means repair isn't cost-effective and replacement is the right call.
 
 Installation involves removing the old unit, inspecting the sink flange and drain collar for corrosion or improper seating, setting the new mounting ring, wiring the unit (or connecting to an existing switch loop), and verifying the dishwasher drain connection if applicable. A proper installation also confirms the discharge elbow is angled correctly to prevent backflow and checks the P-trap alignment so the new unit doesn't create a slow-drain problem downstream.
 
@@ -29,11 +29,11 @@ Most repair visits take 30 to 60 minutes. Replacement installations typically ru
 
 ## Our process
 
-1. **Symptom diagnosis before any disassembly.** The sound and behavior of the disposal — humming, no sound at all, intermittent tripping, or visible water under the cabinet — each point to different root causes. Identifying the correct one first prevents unnecessary parts replacement.
+1. **Symptom diagnosis before any disassembly.** The sound and behavior of the disposal, humming, no sound at all, intermittent tripping, or visible water under the cabinet, each point to different root causes. Identifying the correct one first prevents unnecessary parts replacement.
 
 2. **Manual plate inspection and jam clearing.** If the grinding plate is seized, the hex key port on the bottom of the unit allows manual rotation to free the obstruction without disassembling the motor housing. The reset button is then tested under load to confirm the thermal overload has cleared.
 
-3. **Leak source isolation.** Water under the cabinet can travel from the flange down the outside of the unit before dripping at the bottom, making the source look lower than it is. Each potential leak point — flange putty, mounting gasket, dishwasher nipple, discharge gasket — is checked individually rather than assuming the lowest visible drip is the origin.
+3. **Leak source isolation.** Water under the cabinet can travel from the flange down the outside of the unit before dripping at the bottom, making the source look lower than it is. Each potential leak point, flange putty, mounting gasket, dishwasher nipple, discharge gasket, is checked individually rather than assuming the lowest visible drip is the origin.
 
 4. **Mounting and drain alignment on new installations.** The mounting assembly is seated and torqued evenly to prevent the flange from rocking, which is the most common cause of a new disposal developing a sink-flange leak within the first few months. The discharge elbow angle and P-trap alignment are confirmed before the unit is powered on.
 
@@ -41,18 +41,18 @@ Most repair visits take 30 to 60 minutes. Replacement installations typically ru
 
 ## What separates a good disposal repair from a bad one
 
-The most common mistake on a disposal job is replacing the unit when the actual problem is the mounting assembly or the drain connection. A new disposal installed on a corroded or improperly seated flange will leak from the top within weeks — the same failure the homeowner just paid to fix. Conversely, spending time trying to unjam a motor that has already failed its thermal overload multiple times wastes the visit; a motor in that condition won't hold up.
+The most common mistake on a disposal job is replacing the unit when the actual problem is the mounting assembly or the drain connection. A new disposal installed on a corroded or improperly seated flange will leak from the top within weeks, the same failure the homeowner just paid to fix. Conversely, spending time trying to unjam a motor that has already failed its thermal overload multiple times wastes the visit; a motor in that condition won't hold up.
 
-On leak calls specifically, the dishwasher drain connection is frequently overlooked. If the knockout plug inside the dishwasher inlet nipple was never removed at original installation — a common oversight — the dishwasher won't drain properly into the disposal, and the resulting backpressure can force water out at the connection point. It's a small detail that causes a recurring problem.
+On leak calls specifically, the dishwasher drain connection is frequently overlooked. If the knockout plug inside the dishwasher inlet nipple was never removed at original installation, a common oversight, the dishwasher won't drain properly into the disposal, and the resulting backpressure can force water out at the connection point. It's a small detail that causes a recurring problem.
 
 For replacement jobs, matching the horsepower rating to actual kitchen use matters. A ½ HP unit is adequate for light use in a smaller household; households that cook frequently or process fibrous foods regularly are better served by a ¾ HP or 1 HP motor, which runs cooler under load and lasts longer between resets.
 
 ## Seasonal and regional considerations
 
-In the Inland Empire, disposal strain tends to spike around the holidays when kitchens are processing heavier loads — citrus rinds, fibrous vegetables, cooking grease — more frequently than the unit was sized for. Corona's hard water also accelerates mineral buildup inside the grinding chamber and on the impellers, which reduces efficiency over time and can make a marginal motor fail sooner than it would in a softer-water area. If your disposal has been running sluggishly or resetting more often heading into a busy cooking season, that's worth addressing before the problem becomes a full stoppage.
+In the Inland Empire, disposal strain tends to spike around the holidays when kitchens are processing heavier loads, citrus rinds, fibrous vegetables, cooking grease, more frequently than the unit was sized for. Corona's hard water also accelerates mineral buildup inside the grinding chamber and on the impellers, which reduces efficiency over time and can make a marginal motor fail sooner than it would in a softer-water area. If your disposal has been running sluggishly or resetting more often heading into a busy cooking season, that's worth addressing before the problem becomes a full stoppage.
 
 ## Service area
 
-RT Olson Plumbing serves Corona and the surrounding Inland Empire communities including Norco, Eastvale, Riverside, Chino Hills, Ontario, and Rancho Cucamonga. Individual service-area pages cover disposal repair and installation for each city — this page covers the work itself in full detail.
+RT Olson Plumbing serves Corona and the surrounding Inland Empire communities including Norco, Eastvale, Riverside, Chino Hills, Ontario, and Rancho Cucamonga. Individual service-area pages cover disposal repair and installation for each city, this page covers the work itself in full detail.
 
 If your disposal is humming, leaking, or completely unresponsive, call (951) 344-5596 to schedule a same-day diagnosis. RT Olson Plumbing is available around the clock, so you're not stuck waiting until Monday morning with a backed-up sink.

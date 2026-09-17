@@ -20,44 +20,44 @@ state: "WA"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
-Water spreading across your kitchen floor from a dishwasher that gave out mid-cycle, or a washing machine flood soaking into the subfloor while you were at work — these situations don't wait for business hours. If you're dealing with an appliance leak in Bellevue right now, the clock matters. Mold can begin colonizing wet building materials within 24 to 48 hours, and water that reaches hardwood floors or migrates under tile can cause structural damage that costs far more to fix than the original leak. National Restoration Construction has been responding to water emergencies across the greater Seattle area since 2004, and our crews reach most Bellevue addresses within 60 to 90 minutes of your call.
+Water spreading across your kitchen floor from a dishwasher that gave out mid-cycle, or a washing machine flood soaking into the subfloor while you were at work, these situations don't wait for business hours. If you're dealing with an appliance leak in Bellevue right now, the clock matters. Mold can begin colonizing wet building materials within 24 to 48 hours, and water that reaches hardwood floors or migrates under tile can cause structural damage that costs far more to fix than the original leak. National Restoration Construction has been responding to water emergencies across the greater Seattle area since 2004, and our crews reach most Bellevue addresses within 60 to 90 minutes of your call.
 
 ## Why Bellevue Properties Are Especially Vulnerable to Appliance Leaks
 
-Bellevue's housing stock tells a specific story. The city saw enormous residential construction booms in the 1980s and again in the 2000s, meaning a large share of homes now have appliances — dishwashers, refrigerators with ice maker lines, washing machines, and water heaters — that are either aging out of their service life or were installed in homes with original supply lines that have never been replaced. Braided stainless steel supply lines on washing machines typically last 5 to 8 years; the rubber lines many older Bellevue homes still have can fail without warning.
+Bellevue's housing stock tells a specific story. The city saw enormous residential construction booms in the 1980s and again in the 2000s, meaning a large share of homes now have appliances, dishwashers, refrigerators with ice maker lines, washing machines, and water heaters, that are either aging out of their service life or were installed in homes with original supply lines that have never been replaced. Braided stainless steel supply lines on washing machines typically last 5 to 8 years; the rubber lines many older Bellevue homes still have can fail without warning.
 
-The Pacific Northwest's wet winters also matter here. When outdoor humidity is already high and interior spaces stay cool, moisture from even a slow refrigerator leak cleanup situation can linger far longer than it would in a drier climate. Water that looks like it dried on its own often hasn't — it's sitting in the underlayment, behind the toe kick, or inside wall cavities where you can't see it. That hidden moisture is exactly where mold establishes itself first.
+The Pacific Northwest's wet winters also matter here. When outdoor humidity is already high and interior spaces stay cool, moisture from even a slow refrigerator leak cleanup situation can linger far longer than it would in a drier climate. Water that looks like it dried on its own often hasn't, it's sitting in the underlayment, behind the toe kick, or inside wall cavities where you can't see it. That hidden moisture is exactly where mold establishes itself first.
 
 ## Our Appliance Leak Cleanup Process in Bellevue
 
-When we arrive, the first priority is stopping the damage from spreading, not paperwork. A technician will locate and confirm the source — whether that's a failed ice maker line leak behind the refrigerator, a cracked drain hose on the dishwasher, or a water heater that's been seeping into the mechanical room — and document everything with photos before extraction begins.
+When we arrive, the first priority is stopping the damage from spreading, not paperwork. A technician will locate and confirm the source, whether that's a failed ice maker line leak behind the refrigerator, a cracked drain hose on the dishwasher, or a water heater that's been seeping into the mechanical room, and document everything with photos before extraction begins.
 
 From there, the process moves in a deliberate sequence:
 
-**1. Extraction.** Truck-mounted extraction equipment pulls standing water out of flooring, grout lines, and carpet padding faster and more completely than any shop vac. For washing machine floods that have saturated carpet over a wood subfloor, this step is critical — the pad holds water like a sponge and won't release it on its own.
+**1. Extraction.** Truck-mounted extraction equipment pulls standing water out of flooring, grout lines, and carpet padding faster and more completely than any shop vac. For washing machine floods that have saturated carpet over a wood subfloor, this step is critical, the pad holds water like a sponge and won't release it on its own.
 
 **2. Moisture mapping.** Thermal imaging cameras and calibrated moisture meters let us trace exactly how far water traveled, including into walls and under cabinetry. This documentation also becomes part of your insurance claim file.
 
-**3. Structural drying.** Industrial air movers and dehumidifiers are positioned based on the moisture map, not guesswork. We typically monitor drying progress across multiple visits until readings return to baseline for your material type — wood, concrete, and drywall all have different acceptable thresholds.
+**3. Structural drying.** Industrial air movers and dehumidifiers are positioned based on the moisture map, not guesswork. We typically monitor drying progress across multiple visits until readings return to baseline for your material type, wood, concrete, and drywall all have different acceptable thresholds.
 
 **4. Antimicrobial treatment.** Any surface that was wet long enough to be at risk receives an EPA-registered antimicrobial application. This is a precautionary measure, not a guarantee, but it significantly reduces the conditions mold needs to grow.
 
-**5. Reconstruction.** As an IICRC Certified firm and licensed General Contractor (WA L&I #NATIORC792M6), we handle the rebuild — flooring, drywall, cabinetry — so you're not coordinating a separate contractor after the mitigation crew leaves.
+**5. Reconstruction.** As an IICRC Certified firm and licensed General Contractor (WA L&I #NATIORC792M6), we handle the rebuild, flooring, drywall, cabinetry, so you're not coordinating a separate contractor after the mitigation crew leaves.
 
 ## Response Times Across Bellevue
 
-Our headquarters is in Federal Way, roughly 20 miles south of Bellevue via I-405. Under normal traffic conditions, that puts a crew at most Bellevue addresses — Crossroads, Somerset, West Bellevue, the Bel-Red corridor — within 60 to 90 minutes. During peak commute hours on 405, we route crews proactively to stay as close to that window as possible. If you're in Eastgate or closer to the I-90 interchange, response can be faster.
+Our headquarters is in Federal Way, roughly 20 miles south of Bellevue via I-405. Under normal traffic conditions, that puts a crew at most Bellevue addresses, Crossroads, Somerset, West Bellevue, the Bel-Red corridor, within 60 to 90 minutes. During peak commute hours on 405, we route crews proactively to stay as close to that window as possible. If you're in Eastgate or closer to the I-90 interchange, response can be faster.
 
 For active flooding situations, don't wait to see if it slows down on its own. Every additional hour of contact time between water and a wood subfloor increases the likelihood that the subfloor itself will need to be replaced rather than dried in place.
 
 ## Navigating Insurance for Appliance Leak Damage
 
-Most standard homeowners insurance policies in Washington cover sudden and accidental water damage from appliance failures — a dishwasher supply line that burst, a water heater that let go, a refrigerator ice maker line that failed. What they typically don't cover is gradual leakage that went unaddressed over time, which is why documenting the timeline matters.
+Most standard homeowners insurance policies in Washington cover sudden and accidental water damage from appliance failures, a dishwasher supply line that burst, a water heater that let go, a refrigerator ice maker line that failed. What they typically don't cover is gradual leakage that went unaddressed over time, which is why documenting the timeline matters.
 
 We work directly with all major carriers and provide the moisture readings, photo documentation, and scope of work your adjuster needs. We can also communicate directly with your adjuster on your behalf if that's helpful. What you'll need to handle on your side: filing the initial claim, paying your deductible, and responding to any requests your insurer sends directly to you. We'll handle the technical documentation.
 
-If you're not sure whether your situation is covered, call us anyway — we can help you understand what the damage looks like before you decide whether to file.
+If you're not sure whether your situation is covered, call us anyway, we can help you understand what the damage looks like before you decide whether to file.
 
 ---
 
-Appliance leaks don't announce themselves at convenient times, and the damage compounds quickly. If you're in Bellevue and need someone on-site today, reach National Restoration Construction at **(206) 883-0333** — we're available around the clock, and we'll tell you honestly what we're looking at when we get there.
+Appliance leaks don't announce themselves at convenient times, and the damage compounds quickly. If you're in Bellevue and need someone on-site today, reach National Restoration Construction at **(206) 883-0333**, we're available around the clock, and we'll tell you honestly what we're looking at when we get there.

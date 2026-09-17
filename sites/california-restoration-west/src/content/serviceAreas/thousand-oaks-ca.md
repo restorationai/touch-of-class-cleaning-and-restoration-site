@@ -19,23 +19,23 @@ state: "CA"
 primary: false
 rendered: true
 ---
-When water soaks through drywall at 2 a.m., smoke settles into every surface after a kitchen fire, or mold quietly spreads behind a bathroom wall, California Restoration West responds around the clock to Thousand Oaks properties. From the hillside homes above the 101 to the tract neighborhoods closer to the Ventura County line, the team handles water damage mitigation, fire and smoke cleanup, mold remediation, and the reconstruction that follows — coordinating directly with insurance carriers so property owners can focus on getting back to normal.
+When water soaks through drywall at 2 a.m., smoke settles into every surface after a kitchen fire, or mold quietly spreads behind a bathroom wall, California Restoration West responds around the clock to Thousand Oaks properties. From the hillside homes above the 101 to the tract neighborhoods closer to the Ventura County line, the team handles water damage mitigation, fire and smoke cleanup, mold remediation, and the reconstruction that follows, coordinating directly with insurance carriers so property owners can focus on getting back to normal.
 
 ## Restoration emergencies common in Thousand Oaks
 
-Thousand Oaks sits in a semi-arid inland valley where the weather swings hard between extremes. The Santa Ana winds that push through the Conejo Valley each fall and winter carry low humidity and high fire risk — and after a wildfire or structure fire, smoke residue penetrates HVAC systems, insulation, and wall cavities in ways that aren't visible from the surface. The Woolsey Fire of 2018 left a lasting reminder of how quickly that risk can materialize across this part of Ventura County.
+Thousand Oaks sits in a semi-arid inland valley where the weather swings hard between extremes. The Santa Ana winds that push through the Conejo Valley each fall and winter carry low humidity and high fire risk, and after a wildfire or structure fire, smoke residue penetrates HVAC systems, insulation, and wall cavities in ways that aren't visible from the surface. The Woolsey Fire of 2018 left a lasting reminder of how quickly that risk can materialize across this part of Ventura County.
 
-When the rains do arrive, they tend to come fast and in volume after long dry stretches. Compacted soils that haven't absorbed moisture in months shed water quickly, sending it toward foundations, garages, and crawlspaces. Aging roof membranes and clogged gutters — common on homes built in the 1970s and 1980s — are often the first failure point. Interior plumbing failures, particularly on older supply lines, account for a significant share of water losses year-round.
+When the rains do arrive, they tend to come fast and in volume after long dry stretches. Compacted soils that haven't absorbed moisture in months shed water quickly, sending it toward foundations, garages, and crawlspaces. Aging roof membranes and clogged gutters, common on homes built in the 1970s and 1980s, are often the first failure point. Interior plumbing failures, particularly on older supply lines, account for a significant share of water losses year-round.
 
 ## Services we provide in Thousand Oaks
 
 ### Water damage mitigation
 
-Water damage in Thousand Oaks frequently involves stucco exteriors and wood-frame walls that hold moisture longer than they appear to from the outside. Thermal imaging and moisture meters reveal saturation behind surfaces that feel dry to the touch. Extraction, structural drying, and monitoring continue until readings confirm the assembly has returned to acceptable moisture levels — not just when the visible water is gone.
+Water damage in Thousand Oaks frequently involves stucco exteriors and wood-frame walls that hold moisture longer than they appear to from the outside. Thermal imaging and moisture meters reveal saturation behind surfaces that feel dry to the touch. Extraction, structural drying, and monitoring continue until readings confirm the assembly has returned to acceptable moisture levels, not just when the visible water is gone.
 
 ### Fire and smoke damage restoration
 
-After a fire, the odor of smoke in a Thousand Oaks home isn't just unpleasant — it's a sign that soot particles have bonded to surfaces throughout the structure. Restoration involves controlled demolition of char, HEPA-filtered air scrubbing, chemical sponging of affected surfaces, and sealing or replacing materials that can't be cleaned to an acceptable standard. HVAC ductwork almost always needs inspection and cleaning after a structure fire.
+After a fire, the odor of smoke in a Thousand Oaks home isn't just unpleasant, it's a sign that soot particles have bonded to surfaces throughout the structure. Restoration involves controlled demolition of char, HEPA-filtered air scrubbing, chemical sponging of affected surfaces, and sealing or replacing materials that can't be cleaned to an acceptable standard. HVAC ductwork almost always needs inspection and cleaning after a structure fire.
 
 ### Mold remediation
 
@@ -43,7 +43,7 @@ Mold can establish a foothold within 24 to 48 hours of a moisture event. In Thou
 
 ### Reconstruction
 
-Once mitigation is finished, the damaged structure needs to be rebuilt. California Restoration West handles the reconstruction phase — drywall, framing, flooring, cabinetry, and finishes — so property owners aren't left coordinating between a mitigation company and a separate general contractor. Permitted work is submitted through the City of Thousand Oaks Building and Safety Division.
+Once mitigation is finished, the damaged structure needs to be rebuilt. California Restoration West handles the reconstruction phase, drywall, framing, flooring, cabinetry, and finishes, so property owners aren't left coordinating between a mitigation company and a separate general contractor. Permitted work is submitted through the City of Thousand Oaks Building and Safety Division.
 
 ## Coverage and how fast we can get there
 
@@ -51,7 +51,7 @@ California Restoration West is headquartered in Ventura, roughly 15 to 18 miles 
 
 ## Building stock, site conditions, and permits in Thousand Oaks
 
-Most of Thousand Oaks's residential housing was built between the late 1960s and the early 1990s, when the Conejo Valley saw rapid tract development. Wood-frame construction on slab-on-grade foundations is the dominant assembly, though some hillside properties sit on raised foundations with crawlspaces. Homes from the 1970s may contain asbestos-containing materials in textured ceilings, floor tile, and duct insulation — a scope consideration before any demolition work begins. Copper supply lines are common in this era, though some properties have seen partial replumbing with PEX.
+Most of Thousand Oaks's residential housing was built between the late 1960s and the early 1990s, when the Conejo Valley saw rapid tract development. Wood-frame construction on slab-on-grade foundations is the dominant assembly, though some hillside properties sit on raised foundations with crawlspaces. Homes from the 1970s may contain asbestos-containing materials in textured ceilings, floor tile, and duct insulation, a scope consideration before any demolition work begins. Copper supply lines are common in this era, though some properties have seen partial replumbing with PEX.
 
 The soils across the Conejo Valley include expansive clays that swell when saturated and shrink during dry periods, which can stress slab foundations and underground drain lines over time. Drainage toward foundations is a recurring issue on lots graded before current standards.
 

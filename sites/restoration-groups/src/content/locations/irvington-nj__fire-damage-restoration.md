@@ -20,43 +20,43 @@ state: "NJ"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-When a fire tears through one of Irvington's densely packed two- and three-family rowhouses, the damage rarely stays contained to a single unit. The early-1900s frame construction that defines so much of the 07111 housing stock — wood-lath walls, balloon framing, shared attic cavities — lets smoke, soot, and heat travel fast and far. The Restoration Group responds around the clock to fire losses across Irvington, bringing IICRC-certified technicians and industrial-grade equipment to properties that need more than a surface cleaning.
+When a fire tears through one of Irvington's densely packed two- and three-family rowhouses, the damage rarely stays contained to a single unit. The early-1900s frame construction that defines so much of the 07111 housing stock, wood-lath walls, balloon framing, shared attic cavities, lets smoke, soot, and heat travel fast and far. The Restoration Group responds around the clock to fire losses across Irvington, bringing IICRC-certified technicians and industrial-grade equipment to properties that need more than a surface cleaning.
 
 ## Why Irvington's Housing Stock Complicates Fire Damage
 
-Fire restoration in Irvington is not the same job it is in a suburb full of 1990s stick-frame colonials. The prewar multifamily homes clustered around Irvington Center and the Springfield Avenue corridor were built when balloon framing was standard — a construction method where wall cavities run uninterrupted from the sill plate to the roof line. In a fire, that open channel acts like a flue, pulling smoke and combustion gases into wall voids, floor assemblies, and attic spaces that look untouched from the outside.
+Fire restoration in Irvington is not the same job it is in a suburb full of 1990s stick-frame colonials. The prewar multifamily homes clustered around Irvington Center and the Springfield Avenue corridor were built when balloon framing was standard, a construction method where wall cavities run uninterrupted from the sill plate to the roof line. In a fire, that open channel acts like a flue, pulling smoke and combustion gases into wall voids, floor assemblies, and attic spaces that look untouched from the outside.
 
 Older plaster-and-lath walls, common in Upsala-area homes and throughout the Grove Park neighborhood, absorb smoke odor compounds differently than modern drywall. The plaster itself is dense and slow to off-gas, which means odor can resurface weeks after a cleanup that only addressed visible surfaces. Thorough restoration here requires thermal fogging or hydroxyl treatment of enclosed cavities, not just wiping down walls.
 
-Aging galvanized supply lines — already a known issue in Irvington's housing stock — are frequently damaged or compromised during firefighting operations, adding a secondary water loss on top of the fire damage. Our crews assess both hazards on arrival so nothing gets missed in the initial scope.
+Aging galvanized supply lines, already a known issue in Irvington's housing stock, are frequently damaged or compromised during firefighting operations, adding a secondary water loss on top of the fire damage. Our crews assess both hazards on arrival so nothing gets missed in the initial scope.
 
 ## Our Fire Damage Restoration Process in Irvington
 
-Every job starts with a documented walk-through: photographs, moisture readings, and a room-by-room assessment of soot type (dry, wet, or protein-based) and structural integrity. That documentation serves two purposes — it drives the restoration plan and it becomes the foundation of your insurance claim.
+Every job starts with a documented walk-through: photographs, moisture readings, and a room-by-room assessment of soot type (dry, wet, or protein-based) and structural integrity. That documentation serves two purposes, it drives the restoration plan and it becomes the foundation of your insurance claim.
 
 From there, the process moves in a deliberate sequence:
 
 - **Board-up and tarping** to secure the structure and prevent weather intrusion, critical in Irvington's older rooflines where fire damage can leave large openings exposed to rain.
-- **Controlled demolition** of unsalvageable materials — charred framing, compromised drywall, damaged flooring — with debris removed and disposed of properly.
+- **Controlled demolition** of unsalvageable materials, charred framing, compromised drywall, damaged flooring, with debris removed and disposed of properly.
 - **Soot and smoke residue cleaning** using dry-chemical sponges, HEPA vacuuming, and alkaline cleaners matched to the residue type. Protein smoke from kitchen fires, common in multifamily buildings, requires enzyme-based treatments that standard cleaning misses.
 - **Odor neutralization** through thermal fogging and hydroxyl generation, reaching into wall cavities and HVAC ductwork where odor compounds settle.
 - **Structural drying** if firefighting water is present, following IICRC S500 protocols before any reconstruction begins.
-- **Reconstruction** — framing, drywall, insulation, finish work — handled by our licensed team under The Restoration Group's NJ Home Improvement Contractor license.
+- **Reconstruction**, framing, drywall, insulation, finish work, handled by our licensed team under The Restoration Group's NJ Home Improvement Contractor license.
 
 ## Reaching Irvington from Kenilworth
 
 Our operations hub in Kenilworth puts us a direct shot up Route 22 and the Garden State Parkway from Irvington. We respond 24/7, which matters in a community where fires in attached rowhouses can spread to neighboring units within minutes. Whether the loss is in a Chancellor Avenue multifamily, near Civic Square, or along the commercial stretch of Springfield Avenue, our dispatch coordinates routing to reach you as quickly as road conditions allow.
 
-For multi-unit buildings, we contact the property owner or building manager during transit to confirm access points and whether adjacent units need to be assessed — a step that saves time on arrival and helps contain the scope of the claim.
+For multi-unit buildings, we contact the property owner or building manager during transit to confirm access points and whether adjacent units need to be assessed, a step that saves time on arrival and helps contain the scope of the claim.
 
 ## Irvington Insurance Coordination
 
-Fire claims in Irvington's multifamily stock tend to be more complex than single-family losses. When a fire in one unit causes smoke damage to a neighboring unit, questions about policy responsibility, shared-wall damage, and landlord versus tenant coverage come up immediately. Our project managers have worked through these scenarios with major carriers and can document the loss in a format adjusters recognize — line-item estimates, photo logs, moisture and soot readings — so the claim moves forward without unnecessary delays.
+Fire claims in Irvington's multifamily stock tend to be more complex than single-family losses. When a fire in one unit causes smoke damage to a neighboring unit, questions about policy responsibility, shared-wall damage, and landlord versus tenant coverage come up immediately. Our project managers have worked through these scenarios with major carriers and can document the loss in a format adjusters recognize, line-item estimates, photo logs, moisture and soot readings, so the claim moves forward without unnecessary delays.
 
 We bill carriers directly and work with your adjuster throughout the process. If a scope dispute arises, our documentation supports your position.
 
 ## Local Note
 
-In Irvington's older balloon-frame rowhouses — particularly those built before 1940 in neighborhoods like Grove Park and along the Union Avenue corridor — fire investigators and restoration crews sometimes find that a fire that appeared limited to one floor has actually traveled vertically inside the wall cavity and scorched framing two stories up. We probe wall cavities with borescope cameras before finalizing any scope of work, because missing that hidden char means the structure is never fully restored and odor problems return within months. It's a step that adds an hour to the initial assessment and can save a homeowner from a reopened claim six months later.
+In Irvington's older balloon-frame rowhouses, particularly those built before 1940 in neighborhoods like Grove Park and along the Union Avenue corridor, fire investigators and restoration crews sometimes find that a fire that appeared limited to one floor has actually traveled vertically inside the wall cavity and scorched framing two stories up. We probe wall cavities with borescope cameras before finalizing any scope of work, because missing that hidden char means the structure is never fully restored and odor problems return within months. It's a step that adds an hour to the initial assessment and can save a homeowner from a reopened claim six months later.
 
-If your property in Irvington has been affected by fire, call The Restoration Group at (855) 650-7422. We'll assess the full extent of the damage — visible and hidden — and walk you through every step from emergency securing to final reconstruction.
+If your property in Irvington has been affected by fire, call The Restoration Group at (855) 650-7422. We'll assess the full extent of the damage, visible and hidden, and walk you through every step from emergency securing to final reconstruction.

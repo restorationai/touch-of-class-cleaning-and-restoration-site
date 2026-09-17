@@ -20,38 +20,38 @@ state: "WA"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
-Water in your basement moves fast — soaking into drywall, wicking up wood framing, and starting the clock on mold growth within 24 to 48 hours. If you're standing in a wet basement in Auburn right now, the most important thing you can do is get extraction equipment on-site before that damage compounds. National Restoration Construction dispatches from Federal Way, which puts us roughly 15–20 minutes from most Auburn addresses. We pick up 24 hours a day, every day of the year.
+Water in your basement moves fast, soaking into drywall, wicking up wood framing, and starting the clock on mold growth within 24 to 48 hours. If you're standing in a wet basement in Auburn right now, the most important thing you can do is get extraction equipment on-site before that damage compounds. National Restoration Construction dispatches from Federal Way, which puts us roughly 15–20 minutes from most Auburn addresses. We pick up 24 hours a day, every day of the year.
 
 ## Why Auburn Basements Flood
 
-Auburn sits in the Green River Valley, a low-lying corridor that collects rainfall draining off the Cascade foothills to the east and the Auburn plateau to the west. The valley's clay-heavy soils don't absorb water quickly, which means heavy rain events — and the Puget Sound region averages around 38 inches of rain annually, much of it falling in concentrated winter storms — can overwhelm both municipal storm systems and residential drainage in a matter of hours.
+Auburn sits in the Green River Valley, a low-lying corridor that collects rainfall draining off the Cascade foothills to the east and the Auburn plateau to the west. The valley's clay-heavy soils don't absorb water quickly, which means heavy rain events, and the Puget Sound region averages around 38 inches of rain annually, much of it falling in concentrated winter storms, can overwhelm both municipal storm systems and residential drainage in a matter of hours.
 
-The housing stock matters too. A significant portion of Auburn's single-family homes were built between the 1950s and 1980s, when basement waterproofing standards were minimal. Aging sump pumps, cracked poured-concrete foundations, and deteriorated window-well drains are common culprits. Add the region's freeze-thaw cycles in late fall and early spring, and you have conditions that stress foundation walls and drain lines every year. Finished basements — increasingly common in Auburn's newer subdivisions near Lea Hill and the West Hill neighborhoods — raise the stakes considerably when water gets in.
+The housing stock matters too. A significant portion of Auburn's single-family homes were built between the 1950s and 1980s, when basement waterproofing standards were minimal. Aging sump pumps, cracked poured-concrete foundations, and deteriorated window-well drains are common culprits. Add the region's freeze-thaw cycles in late fall and early spring, and you have conditions that stress foundation walls and drain lines every year. Finished basements, increasingly common in Auburn's newer subdivisions near Lea Hill and the West Hill neighborhoods, raise the stakes considerably when water gets in.
 
 ## Our Basement Flooding Cleanup Process in Auburn
 
 When we arrive, the first priority is safety: we check for electrical hazards before anyone steps into standing water. From there, the process follows a structured sequence.
 
-**Water extraction** comes first. We use truck-mounted and portable extraction units capable of removing hundreds of gallons quickly — far faster than a shop vac or consumer-grade pump. If water has migrated under flooring or behind baseboards (which it almost always has), we use moisture meters and thermal imaging cameras to map exactly where it went.
+**Water extraction** comes first. We use truck-mounted and portable extraction units capable of removing hundreds of gallons quickly, far faster than a shop vac or consumer-grade pump. If water has migrated under flooring or behind baseboards (which it almost always has), we use moisture meters and thermal imaging cameras to map exactly where it went.
 
-**Structural drying** is the phase most homeowners underestimate. Pulling visible water out is only step one. Industrial air movers and commercial-grade dehumidifiers run continuously — sometimes for three to five days — to draw moisture out of concrete, framing lumber, and subfloor materials. We monitor moisture readings daily and document them, which matters for your insurance claim.
+**Structural drying** is the phase most homeowners underestimate. Pulling visible water out is only step one. Industrial air movers and commercial-grade dehumidifiers run continuously, sometimes for three to five days, to draw moisture out of concrete, framing lumber, and subfloor materials. We monitor moisture readings daily and document them, which matters for your insurance claim.
 
-**Mold prevention** is built into the process, not tacked on. Antimicrobial treatments are applied to affected surfaces during drying. If we find existing mold growth — common in basements that had a slow leak before the obvious flooding event — we'll walk you through what remediation looks like before any reconstruction begins.
+**Mold prevention** is built into the process, not tacked on. Antimicrobial treatments are applied to affected surfaces during drying. If we find existing mold growth, common in basements that had a slow leak before the obvious flooding event, we'll walk you through what remediation looks like before any reconstruction begins.
 
 Finally, if flooring, drywall, or insulation needs to come out, we handle the demolition and reconstruction under our Washington State General Contractor license (#NATIORC792M6), so you're not coordinating two separate companies.
 
 ## Insurance Claims for Basement Water Damage
 
-Most homeowners don't know whether their flooding is covered until they're already stressed and standing in wet carpet. Here's the short version: sudden and accidental water damage (a burst pipe, a failed sump pump during a storm) is typically covered by standard homeowners insurance. Gradual seepage or ground flooding from rising water tables usually is not — that falls under separate flood insurance through the National Flood Insurance Program.
+Most homeowners don't know whether their flooding is covered until they're already stressed and standing in wet carpet. Here's the short version: sudden and accidental water damage (a burst pipe, a failed sump pump during a storm) is typically covered by standard homeowners insurance. Gradual seepage or ground flooding from rising water tables usually is not, that falls under separate flood insurance through the National Flood Insurance Program.
 
-We work directly with all major insurance carriers and can provide the moisture readings, photo documentation, and scope-of-loss reports your adjuster needs. We don't file on your behalf — that's your adjuster's job — but we make sure the documentation we hand you is complete and formatted the way carriers expect it. Gaps in documentation are one of the most common reasons claims get reduced or disputed.
+We work directly with all major insurance carriers and can provide the moisture readings, photo documentation, and scope-of-loss reports your adjuster needs. We don't file on your behalf, that's your adjuster's job, but we make sure the documentation we hand you is complete and formatted the way carriers expect it. Gaps in documentation are one of the most common reasons claims get reduced or disputed.
 
 ## Response Times Across Auburn
 
-Our Federal Way headquarters puts us close. Under normal traffic conditions, expect a technician on-site within 30 to 45 minutes for most Auburn locations — including downtown Auburn, Auburn Way corridors, Lea Hill, West Hill, and the Lakeland Hills area. During major storm events when call volume spikes across the South King County area, that window may extend to 60–90 minutes, but we'll give you an honest ETA when you reach us.
+Our Federal Way headquarters puts us close. Under normal traffic conditions, expect a technician on-site within 30 to 45 minutes for most Auburn locations, including downtown Auburn, Auburn Way corridors, Lea Hill, West Hill, and the Lakeland Hills area. During major storm events when call volume spikes across the South King County area, that window may extend to 60–90 minutes, but we'll give you an honest ETA when you reach us.
 
 We've been doing this since 2004, and we know that every hour of standing water is another hour of damage. We don't put Auburn calls in a queue behind Seattle jobs.
 
 ---
 
-If water is in your basement right now — or you came home to a wet floor and aren't sure how bad it is — reach out to us directly at **(206) 883-0333**. A live person answers around the clock, and we'll tell you within minutes whether we can have someone at your door tonight.
+If water is in your basement right now, or you came home to a wet floor and aren't sure how bad it is, reach out to us directly at **(206) 883-0333**. A live person answers around the clock, and we'll tell you within minutes whether we can have someone at your door tonight.

@@ -20,11 +20,11 @@ state: "WA"
 service_display: "Soot Removal"
 rendered: true
 ---
-Soot doesn't wait. Within hours of a fire — even a contained kitchen fire or a chimney flare-up — fine black particles embed themselves into drywall, settle into HVAC ducts, and begin chemically bonding to every porous surface they touch. If you're in Redmond right now looking at blackened walls and smelling that acrid, oily residue, the clock is already running. National Restoration Construction dispatches from Federal Way and can have a certified technician at your door — whether you're in Overlake, Education Hill, or downtown Redmond — typically within 60 to 90 minutes of your call.
+Soot doesn't wait. Within hours of a fire, even a contained kitchen fire or a chimney flare-up, fine black particles embed themselves into drywall, settle into HVAC ducts, and begin chemically bonding to every porous surface they touch. If you're in Redmond right now looking at blackened walls and smelling that acrid, oily residue, the clock is already running. National Restoration Construction dispatches from Federal Way and can have a certified technician at your door, whether you're in Overlake, Education Hill, or downtown Redmond, typically within 60 to 90 minutes of your call.
 
 ## Our Soot Removal Process in Redmond
 
-Soot residue removal isn't a matter of wiping surfaces down with a household cleaner. The chemistry of smoke means that scrubbing without the right agents drives particles deeper into substrate — permanently staining drywall, wood trim, and cabinetry. Here's what a typical response looks like:
+Soot residue removal isn't a matter of wiping surfaces down with a household cleaner. The chemistry of smoke means that scrubbing without the right agents drives particles deeper into substrate, permanently staining drywall, wood trim, and cabinetry. Here's what a typical response looks like:
 
 **Containment and air quality control.** We seal affected zones with poly barriers and set up negative air pressure using HEPA-filtered air scrubbers. This stops dry soot particles from migrating to clean rooms while we work.
 
@@ -32,15 +32,15 @@ Soot residue removal isn't a matter of wiping surfaces down with a household cle
 
 **Dry soot removal first.** We use chemical dry sponges and HEPA-vacuum extraction to lift loose particles before introducing any liquid. Wetting dry soot prematurely sets stains.
 
-**Chemical cleaning of walls, ceilings, and structural surfaces.** Alkaline cleaners neutralize the acidic compounds in smoke residue. We work methodically — ceiling to floor, room by room — so runoff doesn't re-contaminate cleaned surfaces. Soot wall cleaning on textured or painted drywall requires careful pressure calibration to avoid surface damage.
+**Chemical cleaning of walls, ceilings, and structural surfaces.** Alkaline cleaners neutralize the acidic compounds in smoke residue. We work methodically, ceiling to floor, room by room, so runoff doesn't re-contaminate cleaned surfaces. Soot wall cleaning on textured or painted drywall requires careful pressure calibration to avoid surface damage.
 
 **Odor neutralization.** Soot damage cleanup isn't complete until the odor source is gone, not masked. We use thermal fogging and hydroxyl generators to break down odor-causing compounds at the molecular level.
 
 ## Why Redmond Properties See Soot Damage Emergencies
 
-Redmond's housing stock is a mix of 1970s–1990s wood-frame ramblers in neighborhoods like Grass Lawn and newer construction closer to the Microsoft campus corridor. Older homes often have aging fireplace inserts, original wood-burning fireplaces, and HVAC systems that haven't been serviced in years — all common ignition points for the kind of contained fires that produce heavy post-fire soot cleanup situations without triggering a full structural loss.
+Redmond's housing stock is a mix of 1970s–1990s wood-frame ramblers in neighborhoods like Grass Lawn and newer construction closer to the Microsoft campus corridor. Older homes often have aging fireplace inserts, original wood-burning fireplaces, and HVAC systems that haven't been serviced in years, all common ignition points for the kind of contained fires that produce heavy post-fire soot cleanup situations without triggering a full structural loss.
 
-The Pacific Northwest's wet winters also matter here. Redmond averages roughly 37 inches of rain annually, and that moisture interacts with soot residue on exterior walls, soffits, and attic sheathing in ways that accelerate staining and can introduce secondary mold risk within 48 to 72 hours if surfaces aren't dried and treated properly. A chimney fire in January that pushes soot into an attic space — combined with Redmond's ambient humidity — is a situation that compounds quickly.
+The Pacific Northwest's wet winters also matter here. Redmond averages roughly 37 inches of rain annually, and that moisture interacts with soot residue on exterior walls, soffits, and attic sheathing in ways that accelerate staining and can introduce secondary mold risk within 48 to 72 hours if surfaces aren't dried and treated properly. A chimney fire in January that pushes soot into an attic space, combined with Redmond's ambient humidity, is a situation that compounds quickly.
 
 ## Insurance Claims for Soot Removal Damage
 
@@ -52,10 +52,10 @@ What you handle: filing the initial claim and paying your deductible. What we ha
 
 ## Response Times Across Redmond
 
-Our Federal Way headquarters puts us roughly 20 to 25 miles from central Redmond — typically a 30 to 45 minute drive outside of peak commute hours on I-5 and SR-520. For most Redmond addresses, expect a technician on-site within 60 to 90 minutes of your first contact. If you're in the Bear Creek or Sammamish River corridor areas, timing is similar. We run crews across the Eastside seven days a week, including holidays, because soot damage doesn't schedule itself around business hours.
+Our Federal Way headquarters puts us roughly 20 to 25 miles from central Redmond, typically a 30 to 45 minute drive outside of peak commute hours on I-5 and SR-520. For most Redmond addresses, expect a technician on-site within 60 to 90 minutes of your first contact. If you're in the Bear Creek or Sammamish River corridor areas, timing is similar. We run crews across the Eastside seven days a week, including holidays, because soot damage doesn't schedule itself around business hours.
 
 The faster you reach us, the more surface area we can save. Soot's acidic compounds begin etching glass within 24 hours and permanently discolor grout and stone within 48. Speed is the difference between restoration and replacement.
 
 ---
 
-If you're standing in a smoke-damaged room right now, the best thing you can do is open windows to ventilate, avoid touching walls or upholstery (oils from your hands accelerate staining), and get a professional assessment started. Reach National Restoration Construction at **(206) 883-0333** — we're available around the clock and can walk you through what to do in the next 30 minutes while a crew is already on the way.
+If you're standing in a smoke-damaged room right now, the best thing you can do is open windows to ventilate, avoid touching walls or upholstery (oils from your hands accelerate staining), and get a professional assessment started. Reach National Restoration Construction at **(206) 883-0333**, we're available around the clock and can walk you through what to do in the next 30 minutes while a crew is already on the way.

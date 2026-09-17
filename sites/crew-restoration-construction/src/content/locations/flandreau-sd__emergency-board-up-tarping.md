@@ -20,38 +20,38 @@ state: "SD"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
-When a spring storm rolls up the Big Sioux River valley and peels back a section of roof, or a fire tears through one of Flandreau's older wood-frame homes near Downtown, the window between damage and disaster is measured in hours — not days. Rain, wind, and opportunistic theft can turn a manageable loss into a gut renovation if the structure isn't secured fast. Crew Restoration & Construction responds to those calls across the 57028 ZIP code, boarding windows, sheathing compromised rooflines, and wrapping exposed framing before the next weather system arrives.
+When a spring storm rolls up the Big Sioux River valley and peels back a section of roof, or a fire tears through one of Flandreau's older wood-frame homes near Downtown, the window between damage and disaster is measured in hours, not days. Rain, wind, and opportunistic theft can turn a manageable loss into a gut renovation if the structure isn't secured fast. Crew Restoration & Construction responds to those calls across the 57028 ZIP code, boarding windows, sheathing compromised rooflines, and wrapping exposed framing before the next weather system arrives.
 
 ## Why Flandreau Properties Are Particularly Vulnerable After a Loss
 
-Flandreau sits in a climate corridor that delivers some of the harshest swing-season weather in eastern South Dakota — late-spring hail and straight-line winds from the northwest, followed by freeze-thaw cycles that start as early as October. Older homes throughout Downtown Flandreau, many built between the 1910s and 1950s, tend to have steeper roof pitches and original wood sheathing underneath modern shingles. When that sheathing gets exposed — whether from fire, storm impact, or a falling tree — it absorbs water quickly and can begin to delaminate within a single wet week.
+Flandreau sits in a climate corridor that delivers some of the harshest swing-season weather in eastern South Dakota, late-spring hail and straight-line winds from the northwest, followed by freeze-thaw cycles that start as early as October. Older homes throughout Downtown Flandreau, many built between the 1910s and 1950s, tend to have steeper roof pitches and original wood sheathing underneath modern shingles. When that sheathing gets exposed, whether from fire, storm impact, or a falling tree, it absorbs water quickly and can begin to delaminate within a single wet week.
 
-The Big Sioux River area compounds the problem. Properties close to the river already deal with elevated humidity and occasional flood-adjacent moisture intrusion. A compromised roof or broken window in that zone isn't just a structural issue; it's an invitation for accelerated mold colonization. Securing the envelope quickly isn't optional — it's the difference between a repair job and a full rebuild.
+The Big Sioux River area compounds the problem. Properties close to the river already deal with elevated humidity and occasional flood-adjacent moisture intrusion. A compromised roof or broken window in that zone isn't just a structural issue; it's an invitation for accelerated mold colonization. Securing the envelope quickly isn't optional, it's the difference between a repair job and a full rebuild.
 
 ## Our Board-Up and Tarping Process, Calibrated for Flandreau Conditions
 
 Every job starts with a fast visual assessment of the structure's load-bearing condition before any crew member goes on the roof. In Flandreau's older housing stock, fire or impact damage can compromise rafters that look intact from the outside. Once the structure is confirmed safe to access, the process moves in a specific order:
 
-**Window and door openings** are measured and cut from 3/4-inch OSB, secured with structural screws into the framing — not just the siding — so the panels hold through wind gusts common to open prairie exposure on Flandreau's north and west sides.
+**Window and door openings** are measured and cut from 3/4-inch OSB, secured with structural screws into the framing, not just the siding, so the panels hold through wind gusts common to open prairie exposure on Flandreau's north and west sides.
 
 **Roof tarping** uses reinforced polyethylene tarps rated for high-wind conditions, weighted and fastened at the ridge and eaves with batten boards rather than simple sandbags, which shift in wind. The tarp is lapped past the damaged area by at least three feet on all sides to account for driving rain that can travel horizontally during plains thunderstorms.
 
-**Debris documentation** happens throughout — photographs, measurements, and written notes that go directly into the insurance claim file. Nothing gets removed or covered without being recorded first.
+**Debris documentation** happens throughout, photographs, measurements, and written notes that go directly into the insurance claim file. Nothing gets removed or covered without being recorded first.
 
 ## Reaching Flandreau from Our Sioux Falls Base
 
-Crew Restoration & Construction operates out of Sioux Falls, roughly 40 miles southwest of Flandreau via SD-34 East. That route is generally reliable year-round, though late-winter ice events on the stretch between Colman and Flandreau can slow travel. When you call (605) 965-2727, our dispatch will give you an honest estimated arrival window based on current road and crew conditions — we won't quote a number we can't stand behind.
+Crew Restoration & Construction operates out of Sioux Falls, roughly 40 miles southwest of Flandreau via SD-34 East. That route is generally reliable year-round, though late-winter ice events on the stretch between Colman and Flandreau can slow travel. When you call (605) 965-2727, our dispatch will give you an honest estimated arrival window based on current road and crew conditions, we won't quote a number we can't stand behind.
 
 For properties near the Flandreau Santee Sioux Reservation or along the river corridor east of Royal River Casino, access routing can vary depending on seasonal road conditions or active events at the casino complex. Mentioning your cross streets when you call helps us route correctly and stage equipment without delay.
 
 ## Insurance Documentation for Flandreau Claims
 
-South Dakota homeowners' policies generally cover sudden and accidental damage — storm, fire, vehicle impact — and board-up and tarping costs are typically included as part of the covered loss under the "reasonable repairs" provision. The key word is documentation. Insurers want to see that protective measures were necessary, prompt, and proportionate to the damage.
+South Dakota homeowners' policies generally cover sudden and accidental damage, storm, fire, vehicle impact, and board-up and tarping costs are typically included as part of the covered loss under the "reasonable repairs" provision. The key word is documentation. Insurers want to see that protective measures were necessary, prompt, and proportionate to the damage.
 
 Our written scope, photographs, and material receipts are formatted to align with standard adjuster review, whether you're working with a regional carrier or a national insurer. We can communicate directly with your adjuster to walk through what was done and why, which tends to shorten the review cycle.
 
 ## Local Note
 
-One thing that catches out-of-area contractors working in Flandreau: the older homes near First American Baptist Church and along some of the residential blocks in Downtown Flandreau were built with full-dimension lumber — true 2×4s and 2×6s that are actually 2 inches by 4 inches, not the nominal modern equivalents. When we're cutting OSB panels to fit window openings in these homes, the rough openings are often slightly larger than what modern framing tables predict. We account for this during measurement so panels fit flush and actually hold, rather than rattling loose in the first strong wind.
+One thing that catches out-of-area contractors working in Flandreau: the older homes near First American Baptist Church and along some of the residential blocks in Downtown Flandreau were built with full-dimension lumber, true 2×4s and 2×6s that are actually 2 inches by 4 inches, not the nominal modern equivalents. When we're cutting OSB panels to fit window openings in these homes, the rough openings are often slightly larger than what modern framing tables predict. We account for this during measurement so panels fit flush and actually hold, rather than rattling loose in the first strong wind.
 
 If your Flandreau property has been damaged by storm, fire, or any sudden event, call Crew Restoration & Construction at (605) 965-2727. We'll secure the structure, document the loss, and make sure the work we do today doesn't create problems for your restoration tomorrow.

@@ -17,15 +17,15 @@ published_at: "2026-07-28"
 services: ["fire-damage-restoration", "smoke-damage-restoration"]
 rendered: true
 ---
-Fire damage rarely stops when the flames do. The restoration process typically unfolds in six stages — emergency securing, smoke and soot removal, water extraction (from firefighting efforts), structural drying, odor elimination, and reconstruction — and can take anywhere from a few days for a contained kitchen fire to several months for a whole-house loss. Understanding each stage helps you ask the right questions, push back on shortcuts, and know when the job is actually finished.
+Fire damage rarely stops when the flames do. The restoration process typically unfolds in six stages, emergency securing, smoke and soot removal, water extraction (from firefighting efforts), structural drying, odor elimination, and reconstruction, and can take anywhere from a few days for a contained kitchen fire to several months for a whole-house loss. Understanding each stage helps you ask the right questions, push back on shortcuts, and know when the job is actually finished.
 
 ## What Happens in the First 24 Hours
 
-The hours immediately after a fire are more consequential than most homeowners realize. Once the fire department clears the structure as safe to enter, a restoration crew's first job is **board-up and tarping** — covering broken windows, open roof sections, and compromised doors. In North Texas, where summer storms can roll in fast and temperatures swing hard, an unsecured structure can absorb a second wave of water damage before the smoke smell has even settled.
+The hours immediately after a fire are more consequential than most homeowners realize. Once the fire department clears the structure as safe to enter, a restoration crew's first job is **board-up and tarping**, covering broken windows, open roof sections, and compromised doors. In North Texas, where summer storms can roll in fast and temperatures swing hard, an unsecured structure can absorb a second wave of water damage before the smoke smell has even settled.
 
-At the same time, the crew performs an initial assessment: mapping which materials are salvageable, which need cleaning, and which need to come out entirely. Porous materials — drywall, insulation, carpet — absorb smoke particles and off-gas odors for months if left in place. Structural lumber that's charred on the surface but intact underneath is often a different story; a trained eye can tell the difference.
+At the same time, the crew performs an initial assessment: mapping which materials are salvageable, which need cleaning, and which need to come out entirely. Porous materials, drywall, insulation, carpet, absorb smoke particles and off-gas odors for months if left in place. Structural lumber that's charred on the surface but intact underneath is often a different story; a trained eye can tell the difference.
 
-If sprinklers activated or firefighters used hose lines inside, standing water may be present even in rooms that never caught fire. That water starts the mold clock immediately — colonization can begin within 24 to 48 hours in warm, humid conditions. Extraction and drying equipment typically goes in the same day as the initial assessment.
+If sprinklers activated or firefighters used hose lines inside, standing water may be present even in rooms that never caught fire. That water starts the mold clock immediately, colonization can begin within 24 to 48 hours in warm, humid conditions. Extraction and drying equipment typically goes in the same day as the initial assessment.
 
 ## Smoke and Soot: The Part Most People Underestimate
 
@@ -36,9 +36,9 @@ Smoke is not uniform. The type of material that burned determines the chemistry 
 - **Dry smoke** (fast, high-heat fires) leaves a powdery residue that's easier to clean but travels farther through HVAC systems and into wall cavities.
 - **Chemical smoke** (from synthetics, plastics, or building materials) can carry hazardous compounds that require specific handling protocols.
 
-This is why the instruction "just wipe it down" almost never works. Soot that gets smeared into drywall paper or upholstery fibers becomes significantly harder to remove — and in some cases, impossible without replacement. Professional crews use dry chemical sponges, alkaline cleaners matched to the smoke type, and HEPA-filtered vacuums before any wet cleaning begins.
+This is why the instruction "just wipe it down" almost never works. Soot that gets smeared into drywall paper or upholstery fibers becomes significantly harder to remove, and in some cases, impossible without replacement. Professional crews use dry chemical sponges, alkaline cleaners matched to the smoke type, and HEPA-filtered vacuums before any wet cleaning begins.
 
-HVAC systems deserve special attention. A forced-air system running during or after a fire distributes smoke particles into every room with a vent. Ducts, air handlers, and filters typically need to be cleaned or replaced as part of any thorough fire restoration — skipping this step is one of the most common reasons odor returns months later.
+HVAC systems deserve special attention. A forced-air system running during or after a fire distributes smoke particles into every room with a vent. Ducts, air handlers, and filters typically need to be cleaned or replaced as part of any thorough fire restoration, skipping this step is one of the most common reasons odor returns months later.
 
 ## What Not to Do After a House Fire
 
@@ -52,12 +52,12 @@ Well-meaning actions in the first hours can make restoration harder and more exp
 
 ## The Structural Drying and Deodorization Phase
 
-Once soot has been removed from surfaces, the structure needs to reach normal moisture levels before any reconstruction begins. Industrial air movers, dehumidifiers, and sometimes desiccant systems run continuously — often for several days — while moisture readings are logged at regular intervals. Rebuilding over wet framing or subfloor leads to mold growth inside finished walls, which creates a second remediation project down the road.
+Once soot has been removed from surfaces, the structure needs to reach normal moisture levels before any reconstruction begins. Industrial air movers, dehumidifiers, and sometimes desiccant systems run continuously, often for several days, while moisture readings are logged at regular intervals. Rebuilding over wet framing or subfloor leads to mold growth inside finished walls, which creates a second remediation project down the road.
 
 Deodorization runs parallel to drying. The most effective methods go beyond surface cleaning:
 
 - **Thermal fogging** uses a heated solvent that penetrates the same pathways smoke traveled, neutralizing odor molecules at the source.
-- **Hydroxyl generators** produce hydroxyl radicals that break down odor compounds in the air and on surfaces — and unlike ozone machines, they're safe to run in occupied spaces.
+- **Hydroxyl generators** produce hydroxyl radicals that break down odor compounds in the air and on surfaces, and unlike ozone machines, they're safe to run in occupied spaces.
 - **Ozone treatment** is highly effective for severe odor but requires the structure to be fully vacated for the duration and aired out completely before re-entry.
 
 A structure is not ready for reconstruction until moisture readings are within normal range *and* independent odor testing confirms the deodorization is complete. Rushing this phase is the most common cause of odor rebound.
@@ -66,12 +66,12 @@ A structure is not ready for reconstruction until moisture readings are within n
 
 Reconstruction scope depends entirely on how far the fire and smoke traveled and what materials were affected. A contained stovetop fire might mean replacing a range hood, repainting a wall, and cleaning the adjacent cabinets. A fire that reached the attic can mean new roof decking, rafters, insulation, drywall throughout the upper floor, and full interior finishes.
 
-The reconstruction phase is where having a contractor who handled the mitigation matters. They already know which walls were opened, where moisture readings were elevated, and what was documented for the insurance claim. Handoffs between a mitigation company and a separate general contractor can create gaps — disputes over scope, missing documentation, or work that doesn't match what the adjuster approved.
+The reconstruction phase is where having a contractor who handled the mitigation matters. They already know which walls were opened, where moisture readings were elevated, and what was documented for the insurance claim. Handoffs between a mitigation company and a separate general contractor can create gaps, disputes over scope, missing documentation, or work that doesn't match what the adjuster approved.
 
 Throughout reconstruction, the insurance adjuster will typically want progress photos and updated documentation. Keep a file of every work order, moisture log, and air quality reading. If a dispute arises over scope or payment, that paper trail is your leverage.
 
 ## When to Call a Restoration Professional
 
-For any fire that affected more than a single small object — a toaster, a trash can — professional assessment is worth the call. That's not a sales pitch; it's a function of how smoke behaves. The visible damage is almost never the full picture, and the decisions made in the first 24 to 48 hours determine how complicated (and expensive) the recovery becomes.
+For any fire that affected more than a single small object, a toaster, a trash can, professional assessment is worth the call. That's not a sales pitch; it's a function of how smoke behaves. The visible damage is almost never the full picture, and the decisions made in the first 24 to 48 hours determine how complicated (and expensive) the recovery becomes.
 
-If you're in the Royse City area and working through the aftermath of a fire, Reign Restoration handles both the [fire damage mitigation](/) and the [smoke damage restoration](/) sides of the process — from initial board-up through reconstruction. Reach them at **(214) 304-0621**. Even if you're not ready to hire, a walkthrough can clarify what you're actually dealing with before you commit to any scope of work.
+If you're in the Royse City area and working through the aftermath of a fire, Reign Restoration handles both the [fire damage mitigation](/) and the [smoke damage restoration](/) sides of the process, from initial board-up through reconstruction. Reach them at **(214) 304-0621**. Even if you're not ready to hire, a walkthrough can clarify what you're actually dealing with before you commit to any scope of work.

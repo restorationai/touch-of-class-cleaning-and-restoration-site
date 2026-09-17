@@ -2,7 +2,7 @@
 archetype: "blog-post"
 title: "The Fire Damage Restoration Process: Step by Step"
 h1: "The Fire Damage Restoration Process: Step by Step"
-meta_description: "From emergency board-up to final reconstruction, here's exactly what happens during professional fire damage restoration — and what to expect at each stage."
+meta_description: "From emergency board-up to final reconstruction, here's exactly what happens during professional fire damage restoration, and what to expect at each stage."
 primary_keyword: "fire damage restoration process"
 secondary_keywords: ["residential fire damage restoration process", "fire restoration process step by step", "fire restoration cleaning process", "what does a fire restoration company do", "fire restoration checklist"]
 search_intent: "informational"
@@ -22,7 +22,7 @@ Your house fire is out. The fire department has cleared the scene. Now you're st
 
 ## Why the sequence matters
 
-Fire restoration isn't just cleaning up char. Smoke and soot are chemically active — they keep etching surfaces, corroding metals, and penetrating porous materials for days after the fire is out. The longer the wait, the deeper the damage. A professional crew works the process in a specific order because each step creates the conditions the next step requires. Skipping or reordering stages creates problems downstream.
+Fire restoration isn't just cleaning up char. Smoke and soot are chemically active, they keep etching surfaces, corroding metals, and penetrating porous materials for days after the fire is out. The longer the wait, the deeper the damage. A professional crew works the process in a specific order because each step creates the conditions the next step requires. Skipping or reordering stages creates problems downstream.
 
 The IICRC S700 standard governs fire and smoke damage restoration. It classifies smoke residues by type (wet, dry, protein, fuel oil) because each type requires a different cleaning chemistry. A crew that treats all soot the same way will either spread residue further or etch finishes they were trying to save.
 
@@ -30,7 +30,7 @@ The IICRC S700 standard governs fire and smoke damage restoration. It classifies
 
 Before any cleaning or assessment happens, the structure needs to be secured. Broken windows, compromised doors, and roof openings from fire or suppression activity create two problems: weather intrusion (especially relevant in the Pacific Northwest, where rain arrives fast) and unauthorized entry.
 
-A board-up crew installs plywood over window and door openings, applies roof tarps to any breached areas, and places visible security notices. This step is typically billable to your insurance claim as an emergency service. Keep the invoice — adjusters expect it.
+A board-up crew installs plywood over window and door openings, applies roof tarps to any breached areas, and places visible security notices. This step is typically billable to your insurance claim as an emergency service. Keep the invoice, adjusters expect it.
 
 If the fire involved structural collapse or the building is tagged as unsafe by the fire marshal, no interior work begins until a structural engineer clears the site.
 
@@ -40,13 +40,13 @@ Once the structure is secured, a project manager walks the property with a moist
 
 - **Classifies the fire and smoke type.** Kitchen grease fires produce wet, sticky smoke residue that behaves differently from a dry-fuel fire in a living room. Protein smoke from a stovetop fire is nearly invisible but creates a powerful odor and bonds tightly to surfaces.
 - **Documents suppression water damage.** Fire hoses deliver high volumes of water. If firefighters worked the scene, expect Category 1 water intrusion (clean water from municipal supply) that needs the same drying protocol as a burst pipe.
-- **Establishes the scope for insurance.** The written scope — itemizing what gets cleaned, what gets replaced, and what gets reconstructed — is the document your adjuster works from. A vague scope creates disputes. A detailed, line-item scope with photos reduces them.
+- **Establishes the scope for insurance.** The written scope, itemizing what gets cleaned, what gets replaced, and what gets reconstructed, is the document your adjuster works from. A vague scope creates disputes. A detailed, line-item scope with photos reduces them.
 
 This is also when the crew identifies contents that can be restored versus contents that need to be discarded. Electronics, upholstered furniture, and documents all have different restoration thresholds.
 
 ## Step 3: Debris removal and controlled demolition (Days 2-4)
 
-Charred structural materials — drywall, insulation, framing — can't be cleaned. They're removed. This is sometimes called "controlled demo" because the crew is selectively taking out only what's unsalvageable, not gutting the entire structure.
+Charred structural materials, drywall, insulation, framing, can't be cleaned. They're removed. This is sometimes called "controlled demo" because the crew is selectively taking out only what's unsalvageable, not gutting the entire structure.
 
 Debris removal also exposes hidden fire spread. Fire travels through wall cavities and attic spaces in ways that aren't visible from the surface. Pulling drywall in the affected area often reveals char lines that extend further than the visible burn zone. Better to find that now than after reconstruction.
 
@@ -54,7 +54,7 @@ During debris removal, the crew also removes contents that are being packed out 
 
 ## Step 4: Soot and smoke cleaning (Days 3-7)
 
-This is the most labor-intensive phase and the one most homeowners underestimate. Smoke travels through an entire structure during a fire — not just the rooms that burned. Soot deposits on every surface that air reached: inside HVAC ducts, inside closets, on top of ceiling fan blades, behind outlet covers.
+This is the most labor-intensive phase and the one most homeowners underestimate. Smoke travels through an entire structure during a fire, not just the rooms that burned. Soot deposits on every surface that air reached: inside HVAC ducts, inside closets, on top of ceiling fan blades, behind outlet covers.
 
 The cleaning method depends on residue type:
 
@@ -62,9 +62,9 @@ The cleaning method depends on residue type:
 - **Wet soot** (from slow-burning, high-moisture fuels like rubber or synthetic materials) is smeared by dry methods and requires specific alkaline cleaners.
 - **Protein residue** (stovetop fires) requires enzymatic cleaners and often repainting because the residue bonds to the paint layer itself.
 
-Hard surfaces — walls, ceilings, cabinets — are cleaned with appropriate chemistry and then sealed with a stain-blocking primer before any finish coat. The primer step is not optional. Smoke odor compounds in unsealed drywall will off-gas through new paint indefinitely.
+Hard surfaces, walls, ceilings, cabinets, are cleaned with appropriate chemistry and then sealed with a stain-blocking primer before any finish coat. The primer step is not optional. Smoke odor compounds in unsealed drywall will off-gas through new paint indefinitely.
 
-In Tacoma and other jurisdictions with municipal HEPA filtration ordinances, restoration work that produces airborne particulate — including soot cleaning — requires HEPA-filtered negative air machines running continuously during the cleaning phase. This keeps fine particulate from migrating to unaffected areas of the structure and complies with local air quality requirements.
+In Tacoma and other jurisdictions with municipal HEPA filtration ordinances, restoration work that produces airborne particulate, including soot cleaning, requires HEPA-filtered negative air machines running continuously during the cleaning phase. This keeps fine particulate from migrating to unaffected areas of the structure and complies with local air quality requirements.
 
 National Restoration Construction's [soot removal](/services/soot-removal/) and [smoke damage restoration](/services/smoke-damage-restoration/) work follows IICRC S700 protocols, with residue-type identification before any cleaning chemistry is applied.
 
@@ -72,27 +72,27 @@ National Restoration Construction's [soot removal](/services/soot-removal/) and 
 
 If suppression water is present, drying runs concurrently with cleaning. The drying protocol is essentially the same as a water damage job: LGR (low-grain refrigerant) dehumidifiers pull moisture from the air, axial air movers accelerate evaporation from wet structural materials, and moisture meters track daily readings until the materials reach their dry standard.
 
-Fire-damaged structures have a complication water-only jobs don't: wet materials that also have soot contamination can't be dried in place if the drying airflow would spread soot further. The sequence matters — HEPA vacuum and clean before directing high-velocity air across a soot-covered surface.
+Fire-damaged structures have a complication water-only jobs don't: wet materials that also have soot contamination can't be dried in place if the drying airflow would spread soot further. The sequence matters, HEPA vacuum and clean before directing high-velocity air across a soot-covered surface.
 
 Drying typically takes 3-5 days for standard residential water intrusion from suppression, longer if the structure has dense framing or concrete elements.
 
 ## Step 6: Odor elimination (Days 5-10)
 
-Once surfaces are clean and dry, odor treatment begins. Smoke odor is not a surface problem — the compounds (aldehydes, phenols, and other combustion byproducts) have penetrated into porous materials: drywall, wood framing, concrete, and subfloor. Masking sprays don't work. The odor has to be neutralized at the molecular level.
+Once surfaces are clean and dry, odor treatment begins. Smoke odor is not a surface problem, the compounds (aldehydes, phenols, and other combustion byproducts) have penetrated into porous materials: drywall, wood framing, concrete, and subfloor. Masking sprays don't work. The odor has to be neutralized at the molecular level.
 
 Two primary methods are used, often in combination:
 
 - **Thermal fogging**: A petroleum-based or water-based deodorizer is vaporized into a fog that penetrates the same porous pathways the smoke followed. The fog particles bond to odor compounds and neutralize them. The structure must be vacated during treatment.
-- **Ozone treatment**: An ozone generator produces O3, which oxidizes odor compounds on contact. Effective in enclosed spaces. The structure must be vacated and ventilated thoroughly before re-entry — ozone at treatment concentrations is harmful to breathe.
+- **Ozone treatment**: An ozone generator produces O3, which oxidizes odor compounds on contact. Effective in enclosed spaces. The structure must be vacated and ventilated thoroughly before re-entry, ozone at treatment concentrations is harmful to breathe.
 - **Hydroxyl generators**: A slower but occupant-safe alternative to ozone. Uses UV light to generate hydroxyl radicals that break down odor compounds. Can run while occupants are present in some configurations.
 
-For severe fires, thermal fogging and ozone are often used in sequence. [Odor removal](/services/odor-removal/) after fire damage is one of the more technically demanding parts of the job — a structure that passes visual inspection but still smells like smoke will fail a re-occupancy inspection and, more practically, will be unlivable.
+For severe fires, thermal fogging and ozone are often used in sequence. [Odor removal](/services/odor-removal/) after fire damage is one of the more technically demanding parts of the job, a structure that passes visual inspection but still smells like smoke will fail a re-occupancy inspection and, more practically, will be unlivable.
 
 ## Step 7: Reconstruction (Weeks 2-6+)
 
 With the structure clean, dry, and deodorized, reconstruction begins. Scope varies enormously based on fire severity: a contained kitchen fire might require only drywall replacement, cabinet reinstallation, and repainting. A whole-floor fire may require full framing repair, new mechanical and electrical rough-in, insulation, drywall, flooring, and finish work.
 
-Because National Restoration Construction holds a General Contractor Certificate of Registration with WA State Department of Labor & Industries (license NATIORC792M6), the same company that handled mitigation can carry the project through to finished reconstruction — which simplifies insurance billing, eliminates handoff gaps, and keeps one point of accountability for the entire scope.
+Because National Restoration Construction holds a General Contractor Certificate of Registration with WA State Department of Labor & Industries (license NATIORC792M6), the same company that handled mitigation can carry the project through to finished reconstruction, which simplifies insurance billing, eliminates handoff gaps, and keeps one point of accountability for the entire scope.
 
 Reconstruction timelines depend on permit requirements, material lead times, and the insurance claim cycle. A well-documented scope from Step 2 accelerates the claim approval, which is the most common bottleneck.
 
@@ -100,4 +100,4 @@ Reconstruction timelines depend on permit requirements, material lead times, and
 
 If you're in the immediate aftermath of a fire, three things matter before anything else: get a board-up scheduled (weather and security), call your insurance carrier to open a claim, and request a written damage assessment from a restoration contractor before any cleanup work begins. Work that starts before documentation is created is work that may not get reimbursed.
 
-For a detailed assessment of your property's scope, contact National Restoration Construction at (206) 883-0333 — available 24/7 for emergency response and next-day assessments across the greater Seattle-Tacoma area.
+For a detailed assessment of your property's scope, contact National Restoration Construction at (206) 883-0333, available 24/7 for emergency response and next-day assessments across the greater Seattle-Tacoma area.

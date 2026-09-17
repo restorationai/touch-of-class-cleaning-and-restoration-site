@@ -20,36 +20,36 @@ state: "PA"
 service_display: "Renovations, Remodels and General Contracting"
 rendered: true
 ---
-When a burst supply line soaks a finished basement in Richland Township or a kitchen fire leaves char and smoke damage throughout a Treesdale home, the restoration work is only half the story — the rebuild that follows is where a property truly comes back to life. FireDEX Butler has been handling that second half since 1981, pairing damage recovery with full general contracting so homeowners in the 15044 ZIP code don't have to coordinate two separate companies through one of the worst experiences they'll face as a property owner.
+When a burst supply line soaks a finished basement in Richland Township or a kitchen fire leaves char and smoke damage throughout a Treesdale home, the restoration work is only half the story, the rebuild that follows is where a property truly comes back to life. FireDEX Butler has been handling that second half since 1981, pairing damage recovery with full general contracting so homeowners in the 15044 ZIP code don't have to coordinate two separate companies through one of the worst experiences they'll face as a property owner.
 
 ## Why Gibsonia's Housing Stock Creates Distinct Renovation Challenges
 
-The homes along the Route 8 corridor and tucked into the wooded lots off Deer Creek Road represent two very different generations of construction, and each brings its own renovation complexity. The newer planned communities — Treesdale and the broader Pine-Richland corridor — are largely 1990s through 2020s builds with finished bonus rooms, multi-zone HVAC, and high-end finishes that need to be matched precisely when a section of ceiling or flooring is replaced. Get the LVP flooring species wrong by one shade and it shows.
+The homes along the Route 8 corridor and tucked into the wooded lots off Deer Creek Road represent two very different generations of construction, and each brings its own renovation complexity. The newer planned communities, Treesdale and the broader Pine-Richland corridor, are largely 1990s through 2020s builds with finished bonus rooms, multi-zone HVAC, and high-end finishes that need to be matched precisely when a section of ceiling or flooring is replaced. Get the LVP flooring species wrong by one shade and it shows.
 
 Older Bakerstown homes present a different set of conditions entirely. Aging galvanized plumbing, original chimney liners, and load-bearing walls that don't always appear on any surviving plan mean that a kitchen remodel or bathroom update requires careful investigation before a single cabinet comes off the wall. We pull permits through Richland Township's building department, account for the township's inspection schedule, and don't shortcut the rough-in inspection just because a homeowner wants to move quickly.
 
-Properties on well and septic — common on the larger wooded lots west of Route 8 — add another layer. A remodel that touches the utility room or laundry area has to account for pressure-tank clearances and ejector-pump access that a municipal-water home simply doesn't have. Ignoring those details creates expensive problems after the drywall is already closed.
+Properties on well and septic, common on the larger wooded lots west of Route 8, add another layer. A remodel that touches the utility room or laundry area has to account for pressure-tank clearances and ejector-pump access that a municipal-water home simply doesn't have. Ignoring those details creates expensive problems after the drywall is already closed.
 
 ## Our Renovation and General Contracting Process in Gibsonia
 
-Every project starts with a scoped assessment, not a ballpark estimate delivered from a truck window. For post-damage rebuilds — the sump-failure basement, the frozen bonus-room pipe that let go in January, the water-heater flood in a finished lower level — we document existing conditions before demolition begins so the rebuild scope is tied to actual loss, not guesswork.
+Every project starts with a scoped assessment, not a ballpark estimate delivered from a truck window. For post-damage rebuilds, the sump-failure basement, the frozen bonus-room pipe that let go in January, the water-heater flood in a finished lower level, we document existing conditions before demolition begins so the rebuild scope is tied to actual loss, not guesswork.
 
 From there, the process runs in a defined sequence:
 
-1. **Permit application and HOA pre-approval** — Richland Township requires permits for structural, electrical, plumbing, and HVAC work. For properties inside planned communities near Treesdale Golf & Country Club, we confirm any architectural review requirements before ordering materials.
-2. **Subcontractor coordination** — We carry Pennsylvania Home Improvement Contractor Registration (#PA001913) and work with licensed trade subs for electrical and plumbing rough-ins, scheduling inspections so they don't stack and delay the finish phase.
-3. **Material selection and matching** — For partial rebuilds, matching existing finishes matters. We source samples before committing so a replaced section of hardwood or tile blends rather than announces itself.
-4. **Staged construction with occupancy in mind** — Many Gibsonia families stay in the home during a remodel. We sequence work to keep at least one functional bathroom and kitchen access at all times when possible.
-5. **Final inspection and punch-list walkthrough** — Nothing is closed out until the township inspector signs off and the homeowner has walked every finished surface.
+1. **Permit application and HOA pre-approval**, Richland Township requires permits for structural, electrical, plumbing, and HVAC work. For properties inside planned communities near Treesdale Golf & Country Club, we confirm any architectural review requirements before ordering materials.
+2. **Subcontractor coordination**, We carry Pennsylvania Home Improvement Contractor Registration (#PA001913) and work with licensed trade subs for electrical and plumbing rough-ins, scheduling inspections so they don't stack and delay the finish phase.
+3. **Material selection and matching**, For partial rebuilds, matching existing finishes matters. We source samples before committing so a replaced section of hardwood or tile blends rather than announces itself.
+4. **Staged construction with occupancy in mind**, Many Gibsonia families stay in the home during a remodel. We sequence work to keep at least one functional bathroom and kitchen access at all times when possible.
+5. **Final inspection and punch-list walkthrough**, Nothing is closed out until the township inspector signs off and the homeowner has walked every finished surface.
 
 ## Reaching Gibsonia from Cranberry Township
 
-Our base in Cranberry Township puts us on the same Route 8 corridor that runs through the heart of Gibsonia. That means project managers and crews aren't driving across the county to get to a job site — they're neighbors on the same road. For 24/7 emergency calls that transition into rebuild work, that proximity matters when a homeowner needs someone on-site fast and a project manager on-site consistently throughout a weeks-long renovation.
+Our base in Cranberry Township puts us on the same Route 8 corridor that runs through the heart of Gibsonia. That means project managers and crews aren't driving across the county to get to a job site, they're neighbors on the same road. For 24/7 emergency calls that transition into rebuild work, that proximity matters when a homeowner needs someone on-site fast and a project manager on-site consistently throughout a weeks-long renovation.
 
 For larger Treesdale properties with gated entry or long private drives, we confirm site access logistics before the first material delivery. Winter work on wooded lots off Deer Creek requires coordinating delivery windows around road conditions that a GPS routing app won't flag.
 
 ## Local Note
 
-One pattern we've seen repeatedly in Richland Township's newer subdivisions: finished basements built in the early 2000s often used moisture-sensitive engineered flooring products that were standard at the time but are now discontinued. When a sump failure damages that floor, a like-for-like replacement isn't possible. We document the original product for insurance purposes, then work with the homeowner to select a current equivalent that matches the existing stair nosing and transition strips — details that matter in a high-finish home near Richland Community Park where resale value is a real consideration.
+One pattern we've seen repeatedly in Richland Township's newer subdivisions: finished basements built in the early 2000s often used moisture-sensitive engineered flooring products that were standard at the time but are now discontinued. When a sump failure damages that floor, a like-for-like replacement isn't possible. We document the original product for insurance purposes, then work with the homeowner to select a current equivalent that matches the existing stair nosing and transition strips, details that matter in a high-finish home near Richland Community Park where resale value is a real consideration.
 
-If you're managing a rebuild, a long-deferred remodel, or a kitchen or bathroom update in Gibsonia, call FireDEX Butler at (724) 452-7400. We handle the permits, the subs, the inspections, and the finish work — so you're dealing with one point of contact from demo to done.
+If you're managing a rebuild, a long-deferred remodel, or a kitchen or bathroom update in Gibsonia, call FireDEX Butler at (724) 452-7400. We handle the permits, the subs, the inspections, and the finish work, so you're dealing with one point of contact from demo to done.

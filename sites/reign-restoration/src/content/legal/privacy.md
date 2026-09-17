@@ -22,15 +22,15 @@ This privacy policy explains how Reign Restoration collects, uses, and protects 
 
 ## Information We Collect
 
-When you fill out a contact or estimate request form, we receive the details you enter — typically your name, phone number, email address, and a description of the damage or service you need. If you call or email us directly, we retain that correspondence.
+When you fill out a contact or estimate request form, we receive the details you enter, typically your name, phone number, email address, and a description of the damage or service you need. If you call or email us directly, we retain that correspondence.
 
-The site also collects basic, anonymized analytics data — pages visited, approximate geographic region, device type, and referral source. This data is aggregated and does not identify you personally. We use it only to understand how visitors find us and whether the site is functioning properly.
+The site also collects basic, anonymized analytics data, pages visited, approximate geographic region, device type, and referral source. This data is aggregated and does not identify you personally. We use it only to understand how visitors find us and whether the site is functioning properly.
 
 We do not use tracking pixels, behavioral ad networks, or third-party cookies that follow you across other websites.
 
 ## How We Use Your Information
 
-Information you submit is used for one purpose: to help you. That means responding to your inquiry, scheduling an on-site estimate, coordinating the scope of work, and — when you authorize it — communicating with your insurance carrier to document the loss and process your claim. We do not use your contact details to send marketing emails, add you to mailing lists, or share your information with any third party without your explicit authorization.
+Information you submit is used for one purpose: to help you. That means responding to your inquiry, scheduling an on-site estimate, coordinating the scope of work, and, when you authorize it, communicating with your insurance carrier to document the loss and process your claim. We do not use your contact details to send marketing emails, add you to mailing lists, or share your information with any third party without your explicit authorization.
 
 Insurance coordination is handled only when you have signed a work-authorization or assignment-of-benefits form. At that point, we may share documentation (photos, moisture readings, scope reports) directly with your adjuster to move your claim forward.
 
@@ -40,7 +40,7 @@ We do not sell, rent, or trade your personal information. The only circumstances
 
 ## Data Retention
 
-We retain job records — including contact information, scope documents, and insurance correspondence — for a minimum of five years to satisfy Texas contractor recordkeeping requirements and to support any warranty or follow-up service needs. Analytics data is retained in aggregated form and does not contain personally identifiable information.
+We retain job records, including contact information, scope documents, and insurance correspondence, for a minimum of five years to satisfy Texas contractor recordkeeping requirements and to support any warranty or follow-up service needs. Analytics data is retained in aggregated form and does not contain personally identifiable information.
 
 ## Your Rights
 

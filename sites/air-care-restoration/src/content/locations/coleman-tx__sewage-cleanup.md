@@ -20,15 +20,15 @@ state: "TX"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
-Coleman sits in the heart of West Texas, where the combination of aging rural infrastructure, expansive clay soils, and periodic drought-to-flood swings puts residential and commercial plumbing under stress that homeowners in wetter climates rarely experience. When a sewer line backs up or a septic system overflows here, the contamination doesn't wait — raw sewage carries Category 3 water hazards that begin affecting porous materials within hours. Air Care Restoration responds 24/7 to sewage cleanup and sanitization calls in Coleman and throughout Coleman County.
+Coleman sits in the heart of West Texas, where the combination of aging rural infrastructure, expansive clay soils, and periodic drought-to-flood swings puts residential and commercial plumbing under stress that homeowners in wetter climates rarely experience. When a sewer line backs up or a septic system overflows here, the contamination doesn't wait, raw sewage carries Category 3 water hazards that begin affecting porous materials within hours. Air Care Restoration responds 24/7 to sewage cleanup and sanitization calls in Coleman and throughout Coleman County.
 
 ## Why Coleman Properties See Sewage Backup Issues
 
-The geology under Coleman is dominated by shrink-swell clay — the same Permian-era soil that stretches across much of the Callahan Divide region. During extended dry spells, that clay contracts and shifts, putting lateral stress on underground sewer laterals and septic drain lines. When the rains return — especially the fast, heavy storms that roll through in spring and early fall — the ground swells back, and pipes that have already been stressed can crack, offset, or collapse entirely.
+The geology under Coleman is dominated by shrink-swell clay, the same Permian-era soil that stretches across much of the Callahan Divide region. During extended dry spells, that clay contracts and shifts, putting lateral stress on underground sewer laterals and septic drain lines. When the rains return, especially the fast, heavy storms that roll through in spring and early fall, the ground swells back, and pipes that have already been stressed can crack, offset, or collapse entirely.
 
-Many homes in Coleman were built in the mid-twentieth century, when cast iron and clay tile were the standard materials for drain lines. Those materials have a finite service life, and a pipe installed in the 1950s or 1960s is well past the point where root intrusion, joint separation, or simple corrosion becomes a serious risk. A slow drain that turns into a full backup — sewage pooling on a bathroom floor or seeping up through a floor drain — is often the first visible sign of a failure that has been building underground for years.
+Many homes in Coleman were built in the mid-twentieth century, when cast iron and clay tile were the standard materials for drain lines. Those materials have a finite service life, and a pipe installed in the 1950s or 1960s is well past the point where root intrusion, joint separation, or simple corrosion becomes a serious risk. A slow drain that turns into a full backup, sewage pooling on a bathroom floor or seeping up through a floor drain, is often the first visible sign of a failure that has been building underground for years.
 
-Properties served by private septic systems face an additional layer of complexity. When a drain field becomes saturated after heavy rainfall, or when a tank hasn't been pumped on schedule, the system can push effluent back into the structure. That's not a plumbing repair alone — it's a biohazard cleanup event.
+Properties served by private septic systems face an additional layer of complexity. When a drain field becomes saturated after heavy rainfall, or when a tank hasn't been pumped on schedule, the system can push effluent back into the structure. That's not a plumbing repair alone, it's a biohazard cleanup event.
 
 ## Our Sewage Cleanup and Sanitization Process in Coleman
 
@@ -36,24 +36,24 @@ Raw sewage is classified as Category 3 contaminated water under the IICRC S500 s
 
 **Containment and safety setup** comes first. Affected areas are isolated to prevent cross-contamination to unaffected rooms, and the crew establishes proper PPE protocols before any material handling begins.
 
-**Extraction and removal** follows. Standing sewage is extracted, and any porous materials — carpet, pad, drywall, insulation, subfloor — that have absorbed Category 3 contamination are removed. Restoration of saturated porous materials is not a safe option under IICRC guidelines; removal is the standard.
+**Extraction and removal** follows. Standing sewage is extracted, and any porous materials, carpet, pad, drywall, insulation, subfloor, that have absorbed Category 3 contamination are removed. Restoration of saturated porous materials is not a safe option under IICRC guidelines; removal is the standard.
 
-**Cleaning and disinfection** of all hard surfaces, framing, and concrete uses EPA-registered antimicrobial agents applied at appropriate dwell times. This is not a one-pass wipe-down — surfaces are treated, allowed to dwell, and then cleaned again.
+**Cleaning and disinfection** of all hard surfaces, framing, and concrete uses EPA-registered antimicrobial agents applied at appropriate dwell times. This is not a one-pass wipe-down, surfaces are treated, allowed to dwell, and then cleaned again.
 
 **Drying and documentation** closes the process. Moisture readings are logged throughout drying to confirm that structural materials have returned to acceptable levels before any reconstruction begins. Full photographic documentation supports your insurance claim.
 
 ## Reaching Coleman from Abilene
 
-Air Care Restoration is based in Abilene, and Coleman is a direct run east on US-84 — a route the crew knows well. Because the team operates 24/7, a call at 2 a.m. after a septic overflow or a sewer line backup gets the same response as a call during business hours. Coleman County's rural character means some properties sit off paved county roads, so callers should be ready to describe their address or nearest cross street clearly when they call (325) 339-8723.
+Air Care Restoration is based in Abilene, and Coleman is a direct run east on US-84, a route the crew knows well. Because the team operates 24/7, a call at 2 a.m. after a septic overflow or a sewer line backup gets the same response as a call during business hours. Coleman County's rural character means some properties sit off paved county roads, so callers should be ready to describe their address or nearest cross street clearly when they call (325) 339-8723.
 
 ## Coleman Insurance Coordination
 
-Sewage backup coverage is not automatic on most homeowner policies — it typically requires a separate endorsement. That said, many Coleman homeowners do carry it, and when coverage exists, Air Care Restoration documents the loss thoroughly: photographs of affected materials before removal, moisture readings, a written scope of work, and itemized records that align with how carriers evaluate Category 3 losses. The documentation package is designed to support your adjuster's review, not complicate it.
+Sewage backup coverage is not automatic on most homeowner policies, it typically requires a separate endorsement. That said, many Coleman homeowners do carry it, and when coverage exists, Air Care Restoration documents the loss thoroughly: photographs of affected materials before removal, moisture readings, a written scope of work, and itemized records that align with how carriers evaluate Category 3 losses. The documentation package is designed to support your adjuster's review, not complicate it.
 
-If you're unsure whether your policy includes sewage backup coverage, your insurer or agent can confirm that before or during the cleanup — it doesn't delay the work.
+If you're unsure whether your policy includes sewage backup coverage, your insurer or agent can confirm that before or during the cleanup, it doesn't delay the work.
 
 ## Local Note
 
-One thing that comes up specifically in Coleman and the surrounding county: homes on private septic systems sometimes have the cleanout access point located under a porch addition or a detached outbuilding that was added after the original construction. When a backup occurs, locating that cleanout quickly matters — if you know where yours is, note it before you need it. If you don't, the Air Care crew can help locate it on arrival, but having that information ready speeds up the initial assessment and gets extraction started sooner.
+One thing that comes up specifically in Coleman and the surrounding county: homes on private septic systems sometimes have the cleanout access point located under a porch addition or a detached outbuilding that was added after the original construction. When a backup occurs, locating that cleanout quickly matters, if you know where yours is, note it before you need it. If you don't, the Air Care crew can help locate it on arrival, but having that information ready speeds up the initial assessment and gets extraction started sooner.
 
-If you're dealing with raw sewage in your home or on your property in Coleman, call Air Care Restoration at (325) 339-8723. The crew is available around the clock, carries IICRC certification, and handles the full process from extraction through sanitization — so you're not managing multiple contractors during an already stressful situation.
+If you're dealing with raw sewage in your home or on your property in Coleman, call Air Care Restoration at (325) 339-8723. The crew is available around the clock, carries IICRC certification, and handles the full process from extraction through sanitization, so you're not managing multiple contractors during an already stressful situation.

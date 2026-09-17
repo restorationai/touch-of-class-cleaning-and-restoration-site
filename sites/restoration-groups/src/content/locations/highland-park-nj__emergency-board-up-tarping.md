@@ -20,13 +20,13 @@ state: "NJ"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
-When a storm punches through a roof on River Road or a kitchen fire blows out windows in a Livingston Manor two-family, the first hour is the one that determines how much of the structure you save. Highland Park's dense corridor of 1910s–1940s colonials and bungalows sits directly alongside the Raritan River's flood plain — the same low-lying geography that left Donaldson Park and surrounding streets underwater during Hurricane Ida in 2021. Exposed openings in homes like these don't just invite rain; they invite the kind of secondary damage that turns a manageable loss into a gut renovation. Emergency board-up and tarping stops that clock.
+When a storm punches through a roof on River Road or a kitchen fire blows out windows in a Livingston Manor two-family, the first hour is the one that determines how much of the structure you save. Highland Park's dense corridor of 1910s–1940s colonials and bungalows sits directly alongside the Raritan River's flood plain, the same low-lying geography that left Donaldson Park and surrounding streets underwater during Hurricane Ida in 2021. Exposed openings in homes like these don't just invite rain; they invite the kind of secondary damage that turns a manageable loss into a gut renovation. Emergency board-up and tarping stops that clock.
 
 ## Why Highland Park Properties Need Board-Up and Tarping More Than Most
 
 The borough's pre-war and early-postwar housing stock creates a specific vulnerability profile. Original single-pane windows, aging wood-frame construction, and slate or asphalt roofs that have been patched over decades all fail faster under storm stress than modern assemblies. When a branch from a mature oak in the Triangle neighborhood punches through a dormer, or a burst cast-iron supply line in a finished basement causes a ceiling collapse, the opening is rarely clean or small.
 
-The Raritan River corridor adds a compounding factor. After Ida, many homeowners along the southern end of the borough learned that even a brief window of exposure — a few hours of open roof decking or a broken basement window — was enough for moisture to migrate into wall cavities and floor systems. In a 1930s bungalow with original plaster and lathe, that moisture doesn't announce itself the way it does in drywall; it travels silently for days before anyone smells it. Getting a tarp over a compromised roof or plywood over a shattered window the same night isn't optional — it's the difference between a repair and a rebuild.
+The Raritan River corridor adds a compounding factor. After Ida, many homeowners along the southern end of the borough learned that even a brief window of exposure, a few hours of open roof decking or a broken basement window, was enough for moisture to migrate into wall cavities and floor systems. In a 1930s bungalow with original plaster and lathe, that moisture doesn't announce itself the way it does in drywall; it travels silently for days before anyone smells it. Getting a tarp over a compromised roof or plywood over a shattered window the same night isn't optional, it's the difference between a repair and a rebuild.
 
 The Raritan Avenue business district adds a commercial dimension. Restaurants and retail spaces along that corridor run fire suppression systems, and a sprinkler activation or a grease fire can blow out storefront glazing or compromise a flat roof membrane in minutes. Commercial board-up for those properties requires larger panel stock and faster crew deployment than a single-family job.
 
@@ -34,13 +34,13 @@ The Raritan Avenue business district adds a commercial dimension. Restaurants an
 
 When a call comes in from the 08904 ZIP code, the response sequence is straightforward and starts immediately.
 
-**Assessment on arrival.** The crew walks the full perimeter before touching anything — roof, foundation openings, windows, doors, and any compromised structural members. On older Highland Park homes, this matters because what looks like a contained opening at the front elevation sometimes connects to a failed soffit or a rotted rafter bay that won't hold a fastener.
+**Assessment on arrival.** The crew walks the full perimeter before touching anything, roof, foundation openings, windows, doors, and any compromised structural members. On older Highland Park homes, this matters because what looks like a contained opening at the front elevation sometimes connects to a failed soffit or a rotted rafter bay that won't hold a fastener.
 
-**Tarping.** For roof losses, we use 6-mil reinforced poly tarps secured with batten boards and roofing screws driven into solid decking — not just draped over the peak. On steeply pitched colonials common in North Highland Park, crew members work with fall protection. The goal is a tarp that holds through the next nor'easter, not just the next 24 hours.
+**Tarping.** For roof losses, we use 6-mil reinforced poly tarps secured with batten boards and roofing screws driven into solid decking, not just draped over the peak. On steeply pitched colonials common in North Highland Park, crew members work with fall protection. The goal is a tarp that holds through the next nor'easter, not just the next 24 hours.
 
 **Board-up.** Windows and door openings get 3/4-inch OSB panels cut to fit and secured with structural screws into the framing, not just the trim. On historic or architecturally detailed facades near the Raritan Avenue corridor, we photograph existing conditions before any fastener goes in, which protects both the homeowner and the insurance documentation.
 
-**Documentation package.** Every job leaves with timestamped photos of pre-board conditions, panel placement, and tarp coverage — formatted for direct submission to your insurance carrier.
+**Documentation package.** Every job leaves with timestamped photos of pre-board conditions, panel placement, and tarp coverage, formatted for direct submission to your insurance carrier.
 
 ## Reaching Highland Park from Our Kenilworth Base
 
@@ -48,10 +48,10 @@ The Restoration Group operates 24/7, and Highland Park is one of our established
 
 ## Insurance Coordination for Highland Park Homeowners
 
-Most standard homeowner policies cover emergency board-up and tarping as part of the initial loss mitigation — the logic being that an open structure creates additional covered damage. We document the loss in the format most major carriers accept, photograph all affected materials before and after, and can communicate directly with your adjuster to keep the claim moving. For landlords managing student rentals near Rutgers or multi-unit properties in the Triangle area, we're familiar with the additional documentation layers those policies often require.
+Most standard homeowner policies cover emergency board-up and tarping as part of the initial loss mitigation, the logic being that an open structure creates additional covered damage. We document the loss in the format most major carriers accept, photograph all affected materials before and after, and can communicate directly with your adjuster to keep the claim moving. For landlords managing student rentals near Rutgers or multi-unit properties in the Triangle area, we're familiar with the additional documentation layers those policies often require.
 
 ## Local Note
 
-One thing that catches homeowners off guard on Highland Park's older two-families: the party wall between units is often original balloon-frame construction with no fire blocking between floors. When one unit has a fire or a window breach, the opening in the exterior wall can create a draft path that pulls smoke, moisture, or outside air into the adjacent unit through the shared wall cavity — even if that unit looks untouched. On jobs in attached or semi-attached homes in Livingston Manor and the Triangle, we assess both sides of the structure before signing off on the board-up scope, because sealing only the affected unit sometimes isn't enough.
+One thing that catches homeowners off guard on Highland Park's older two-families: the party wall between units is often original balloon-frame construction with no fire blocking between floors. When one unit has a fire or a window breach, the opening in the exterior wall can create a draft path that pulls smoke, moisture, or outside air into the adjacent unit through the shared wall cavity, even if that unit looks untouched. On jobs in attached or semi-attached homes in Livingston Manor and the Triangle, we assess both sides of the structure before signing off on the board-up scope, because sealing only the affected unit sometimes isn't enough.
 
 If you're dealing with a damaged roof, broken windows, or a fire-compromised opening anywhere in Highland Park, call (855) 650-7422. We're available around the clock, and we carry our NJ Licensed Home Improvement Contractor credentials and IICRC Firm certification (#210213) to every job.

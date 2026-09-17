@@ -20,20 +20,20 @@ state: "WA"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
-If smoke is still hanging in the air of your Kent home or building, every hour matters. Smoke residue doesn't sit still — it migrates into HVAC ducts, soaks into drywall, and chemically bonds to surfaces within 72 hours of a fire. National Restoration Construction has handled post-fire smoke cleanup across the South Sound since 2004, and our Federal Way headquarters puts us roughly 15 minutes from most of Kent. When you reach us at **(206) 883-0333**, a live person picks up — not a voicemail.
+If smoke is still hanging in the air of your Kent home or building, every hour matters. Smoke residue doesn't sit still, it migrates into HVAC ducts, soaks into drywall, and chemically bonds to surfaces within 72 hours of a fire. National Restoration Construction has handled post-fire smoke cleanup across the South Sound since 2004, and our Federal Way headquarters puts us roughly 15 minutes from most of Kent. When you reach us at **(206) 883-0333**, a live person picks up, not a voicemail.
 
 ## What Smoke Actually Does to a Kent Property
 
-Most people expect the visible char. What surprises them is everything else. Smoke is acidic, and in the wet Pacific Northwest climate, that acidity accelerates fast. Porous surfaces — the cedar siding common on Kent's older Craftsman and ranch-style homes, the textured drywall in 1980s and '90s split-levels — absorb smoke particles deeply. Left untreated, that soot etches metal fixtures, yellows paint permanently, and produces the sharp, oily odor that lingers for months.
+Most people expect the visible char. What surprises them is everything else. Smoke is acidic, and in the wet Pacific Northwest climate, that acidity accelerates fast. Porous surfaces, the cedar siding common on Kent's older Craftsman and ranch-style homes, the textured drywall in 1980s and '90s split-levels, absorb smoke particles deeply. Left untreated, that soot etches metal fixtures, yellows paint permanently, and produces the sharp, oily odor that lingers for months.
 
-Wildfire smoke from eastern Washington and Oregon has also become a recurring issue in the Kent Valley. Even without a structure fire, heavy smoke infiltration through HVAC systems and gaps in older weatherstripping can deposit fine particulate throughout a home — the kind of smoke residue cleanup that requires more than opening windows.
+Wildfire smoke from eastern Washington and Oregon has also become a recurring issue in the Kent Valley. Even without a structure fire, heavy smoke infiltration through HVAC systems and gaps in older weatherstripping can deposit fine particulate throughout a home, the kind of smoke residue cleanup that requires more than opening windows.
 
 ## Our Smoke Damage Restoration Process in Kent
 
 We follow a structured sequence because skipping steps creates problems later:
 
 **1. Emergency Stabilization**
-We arrive, assess structural safety, and document everything — photos, moisture readings, air quality measurements — before touching a surface. This documentation is what your insurance adjuster will need.
+We arrive, assess structural safety, and document everything, photos, moisture readings, air quality measurements, before touching a surface. This documentation is what your insurance adjuster will need.
 
 **2. Containment and Ventilation**
 Negative air pressure barriers keep smoke residue from spreading to unaffected rooms during the cleanup process. Industrial air scrubbers with HEPA filtration run continuously.
@@ -42,14 +42,14 @@ Negative air pressure barriers keep smoke residue from spreading to unaffected r
 Different soot types require different methods. Protein smoke from kitchen fires needs enzymatic cleaners. Heavy carbon soot from structural fires calls for dry chemical sponges first, then wet cleaning agents. Using the wrong method grinds residue deeper into surfaces.
 
 **4. Odor Neutralization**
-Thermal fogging and hydroxyl generators reach into wall cavities, subflooring, and ductwork — places a spray bottle never will. We don't mask the odor; we break down the molecules causing it.
+Thermal fogging and hydroxyl generators reach into wall cavities, subflooring, and ductwork, places a spray bottle never will. We don't mask the odor; we break down the molecules causing it.
 
 **5. Structural Repair and Reconstruction**
-As a licensed general contractor (WA L&I #NATIORC792M6), we handle smoke damage repair through full reconstruction — replacing drywall, repainting, refinishing floors — so you're not coordinating a separate contractor after remediation.
+As a licensed general contractor (WA L&I #NATIORC792M6), we handle smoke damage repair through full reconstruction, replacing drywall, repainting, refinishing floors, so you're not coordinating a separate contractor after remediation.
 
 ## Response Times Across Kent
 
-Our Federal Way headquarters sits about 8 miles from central Kent. Under normal traffic conditions, that's a 15–20 minute drive. For most addresses in Kent — whether you're near the Green River, off 104th Avenue SE, or out toward Covington — you can expect a technician on-site within **60 to 90 minutes** of your call. For properties closer to our office along the 99 corridor or near the Kent-Des Moines border, response is often faster.
+Our Federal Way headquarters sits about 8 miles from central Kent. Under normal traffic conditions, that's a 15–20 minute drive. For most addresses in Kent, whether you're near the Green River, off 104th Avenue SE, or out toward Covington, you can expect a technician on-site within **60 to 90 minutes** of your call. For properties closer to our office along the 99 corridor or near the Kent-Des Moines border, response is often faster.
 
 We don't subcontract emergency response to a third party. The crew that answers your call is the crew that shows up.
 
@@ -57,12 +57,12 @@ We don't subcontract emergency response to a third party. The crew that answers 
 
 Smoke damage restoration services are covered under most standard homeowners and commercial property policies as a direct result of fire or a covered peril. What trips people up is documentation and timing.
 
-Here's how we divide the work: **We handle** — the full scope-of-loss documentation, itemized repair estimates formatted for insurance software (Xactimate), direct communication with your adjuster, and supplement requests if hidden damage surfaces mid-project. **You handle** — filing the initial claim with your carrier and providing us your claim number and adjuster contact.
+Here's how we divide the work: **We handle**, the full scope-of-loss documentation, itemized repair estimates formatted for insurance software (Xactimate), direct communication with your adjuster, and supplement requests if hidden damage surfaces mid-project. **You handle**, filing the initial claim with your carrier and providing us your claim number and adjuster contact.
 
-We've worked with every major carrier active in King County, including State Farm, Farmers, PEMCO, and USAA. Being IICRC Certified matters here — adjusters recognize the standard and are less likely to dispute line items when the remediation follows a documented protocol.
+We've worked with every major carrier active in King County, including State Farm, Farmers, PEMCO, and USAA. Being IICRC Certified matters here, adjusters recognize the standard and are less likely to dispute line items when the remediation follows a documented protocol.
 
 If you haven't filed yet, that's fine. Call us first. We can walk you through what to photograph and what not to disturb before the adjuster visits.
 
 ---
 
-Smoke damage doesn't improve with time — it compounds. If you're standing in a Kent home that smells like a fire happened yesterday, or you're managing a commercial property that took smoke infiltration during a neighboring structure fire, the fastest way to stop the clock on secondary damage is to get a certified crew on-site. Reach National Restoration Construction at **(206) 883-0333** — 24 hours a day, every day of the year.
+Smoke damage doesn't improve with time, it compounds. If you're standing in a Kent home that smells like a fire happened yesterday, or you're managing a commercial property that took smoke infiltration during a neighboring structure fire, the fastest way to stop the clock on secondary damage is to get a certified crew on-site. Reach National Restoration Construction at **(206) 883-0333**, 24 hours a day, every day of the year.

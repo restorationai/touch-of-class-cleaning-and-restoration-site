@@ -17,43 +17,43 @@ service_slug: "general-contracting"
 service_display: "Renovations, Remodels and General Contracting"
 rendered: true
 ---
-After a fire, flood, or storm tears through a home, the restoration crews stabilize and dry and clean — and then leave. What remains is a house that's structurally sound but gutted: missing drywall, no flooring, exposed framing where a kitchen used to be. That gap between "dried out" and "livable again" is where most homeowners feel stuck, juggling subcontractors, permit offices, and insurance adjusters on their own. Air Care Restoration's general contracting division exists specifically to close that gap — handling the rebuild from permitted scope to final walkthrough under one roof.
+After a fire, flood, or storm tears through a home, the restoration crews stabilize and dry and clean, and then leave. What remains is a house that's structurally sound but gutted: missing drywall, no flooring, exposed framing where a kitchen used to be. That gap between "dried out" and "livable again" is where most homeowners feel stuck, juggling subcontractors, permit offices, and insurance adjusters on their own. Air Care Restoration's general contracting division exists specifically to close that gap, handling the rebuild from permitted scope to final walkthrough under one roof.
 
 ## What Renovations, Remodels and General Contracting actually involves
 
-General contracting after a loss — or for a planned remodel — is fundamentally a coordination problem. Framing, insulation, drywall, electrical rough-in, plumbing, tile, cabinetry, paint, and trim all have to happen in the right sequence, with the right inspections in between. Skip the sequence and you end up opening finished walls to fix what's behind them.
+General contracting after a loss, or for a planned remodel, is fundamentally a coordination problem. Framing, insulation, drywall, electrical rough-in, plumbing, tile, cabinetry, paint, and trim all have to happen in the right sequence, with the right inspections in between. Skip the sequence and you end up opening finished walls to fix what's behind them.
 
-For post-damage rebuilds, the scope is driven by the adjuster's estimate and the actual field conditions, which rarely match perfectly. Hidden damage — rot behind a shower wall, subfloor delamination under vinyl that looked intact, smoke-saturated insulation inside a ceiling cavity — gets documented during demolition and added to the claim through a supplement process. For planned kitchen remodels, bathroom remodels, or whole-home renovations, the scope is driven by the homeowner's priorities and a fixed budget.
+For post-damage rebuilds, the scope is driven by the adjuster's estimate and the actual field conditions, which rarely match perfectly. Hidden damage, rot behind a shower wall, subfloor delamination under vinyl that looked intact, smoke-saturated insulation inside a ceiling cavity, gets documented during demolition and added to the claim through a supplement process. For planned kitchen remodels, bathroom remodels, or whole-home renovations, the scope is driven by the homeowner's priorities and a fixed budget.
 
 Either way, the work involves licensed trade partners for electrical and plumbing, city permits where required, and a project manager who tracks the schedule so a delayed cabinet delivery doesn't idle a tile crew for a week.
 
-In Abilene, the housing stock runs heavily toward mid-century construction — pier-and-beam foundations, original cast-iron drain lines, plaster-over-lath walls in older neighborhoods near downtown. Remodeling in that era of home means planning for what you'll find once the walls open: galvanized supply lines, knob-and-tube remnants, insulation that predates modern standards. A general contractor who works this market regularly knows to budget for those discoveries rather than be surprised by them.
+In Abilene, the housing stock runs heavily toward mid-century construction, pier-and-beam foundations, original cast-iron drain lines, plaster-over-lath walls in older neighborhoods near downtown. Remodeling in that era of home means planning for what you'll find once the walls open: galvanized supply lines, knob-and-tube remnants, insulation that predates modern standards. A general contractor who works this market regularly knows to budget for those discoveries rather than be surprised by them.
 
 ## Our process
 
 1. **Scope of work and written estimate.** Before any work begins, we walk the space with you, document existing conditions with photos and measurements, and produce a written scope. For insurance jobs, this scope is formatted to align with the adjuster's line items. For remodels, it's a fixed-scope proposal you can approve line by line.
 
-2. **Permitting and scheduling.** We pull the required permits with the City of Abilene and schedule inspections at the correct milestones — rough-in before drywall, framing before insulation. Skipping permits to save time creates title problems and can void homeowners insurance coverage on the finished work.
+2. **Permitting and scheduling.** We pull the required permits with the City of Abilene and schedule inspections at the correct milestones, rough-in before drywall, framing before insulation. Skipping permits to save time creates title problems and can void homeowners insurance coverage on the finished work.
 
 3. **Demolition and hidden-damage documentation.** Once walls open, we photograph and document everything that wasn't visible during the initial walk. For insurance jobs, this is the supplement package. For remodels, it's the basis for any change orders. Nothing proceeds on assumptions.
 
 4. **Phased construction and inspections.** Trades work in sequence: structural first, then mechanical rough-ins, then insulation, then drywall, then finishes. Each phase is inspected before the next begins. This is slower than running trades in parallel, but it's the only way to avoid rework.
 
-5. **Final walkthrough and punch list.** Before we close out the job, we walk every room with you against the original scope. Anything that doesn't match — a grout line that doesn't align, a door that binds, a paint edge that isn't clean — goes on the punch list and gets corrected before final payment.
+5. **Final walkthrough and punch list.** Before we close out the job, we walk every room with you against the original scope. Anything that doesn't match, a grout line that doesn't align, a door that binds, a paint edge that isn't clean, goes on the punch list and gets corrected before final payment.
 
 ## What separates a good renovation response from a bad one
 
-The most common failure in post-damage reconstruction is starting finish work before the structure is genuinely dry. Drywall installed over framing that reads 12% moisture content will bubble, mold, and fail within a season. A contractor who isn't also certified in moisture assessment may not catch it. Because Air Care Restoration handles both the drying phase and the rebuild, the handoff between mitigation and construction is documented — not assumed.
+The most common failure in post-damage reconstruction is starting finish work before the structure is genuinely dry. Drywall installed over framing that reads 12% moisture content will bubble, mold, and fail within a season. A contractor who isn't also certified in moisture assessment may not catch it. Because Air Care Restoration handles both the drying phase and the rebuild, the handoff between mitigation and construction is documented, not assumed.
 
 For planned remodels, the most common failure is an incomplete scope. A kitchen remodel quoted on cabinet and countertop costs alone doesn't account for the electrical upgrade a modern appliance load requires, the plumbing relocation a layout change demands, or the permit fees and inspection timeline. Homeowners who receive a low initial bid often pay more in change orders than they would have with an honest upfront scope.
 
-Insurance adjusters look for two things: documentation and code compliance. Supplements need photos, measurements, and material specs — not narrative descriptions. And finished work has to meet current code, not the code in effect when the house was built. In a 1960s Abilene home, that can mean bringing electrical panels, GFCI placement, and egress windows up to current standards as part of the rebuild.
+Insurance adjusters look for two things: documentation and code compliance. Supplements need photos, measurements, and material specs, not narrative descriptions. And finished work has to meet current code, not the code in effect when the house was built. In a 1960s Abilene home, that can mean bringing electrical panels, GFCI placement, and egress windows up to current standards as part of the rebuild.
 
 In any home built before 1978, renovation work that disturbs lead-based paint requires proper containment and disposal procedures. Our owner holds EPA Certified Renovator credentials, and we follow those requirements on every applicable project to protect both occupants and the work itself.
 
 ## What does Renovations, Remodels and General Contracting cost?
 
-Typical costs vary widely depending on scope, materials, and what's found once demolition begins. Most homeowners pay somewhere in the ranges below for common project types — these are industry-typical figures, not quotes.
+Typical costs vary widely depending on scope, materials, and what's found once demolition begins. Most homeowners pay somewhere in the ranges below for common project types, these are industry-typical figures, not quotes.
 
 | Scenario | Typical range |
 |---|---|
@@ -66,14 +66,14 @@ Typical costs vary widely depending on scope, materials, and what's found once d
 
 *Industry reference ranges for budgeting context only, not an Air Care quote or guaranteed price. Every project is scoped and documented individually.*
 
-Every loss and every remodel is different. Air Care Restoration provides a written scope of work before any work begins — no surprises after demolition. Homeowners insurance typically covers post-damage reconstruction when the loss is a covered peril (fire, water, storm); planned cosmetic remodels are not covered, but the rebuild portion of a combined project often is. Coverage and settlement decisions remain between you and your carrier.
+Every loss and every remodel is different. Air Care Restoration provides a written scope of work before any work begins, no surprises after demolition. Homeowners insurance typically covers post-damage reconstruction when the loss is a covered peril (fire, water, storm); planned cosmetic remodels are not covered, but the rebuild portion of a combined project often is. Coverage and settlement decisions remain between you and your carrier.
 
 ## Seasonal and regional considerations
 
-Abilene's climate creates specific timing pressures for exterior work. Summer heat pushes concrete pours and roofing into early morning windows. The region's periodic drought cycles cause expansive clay soils to shrink and shift, which can open foundation cracks that weren't visible at the time of a loss assessment — worth re-checking before closing out a rebuild. Spring storm season, with hail and straight-line wind events common across the Big Country, often creates a surge in insurance-driven reconstruction work; scheduling trades early in the season avoids the backlog that builds by June.
+Abilene's climate creates specific timing pressures for exterior work. Summer heat pushes concrete pours and roofing into early morning windows. The region's periodic drought cycles cause expansive clay soils to shrink and shift, which can open foundation cracks that weren't visible at the time of a loss assessment, worth re-checking before closing out a rebuild. Spring storm season, with hail and straight-line wind events common across the Big Country, often creates a surge in insurance-driven reconstruction work; scheduling trades early in the season avoids the backlog that builds by June.
 
 ## Service area
 
-Air Care Restoration is based in Abilene and serves the surrounding communities throughout the Big Country — including Sweetwater, Snyder, Brownwood, Cisco, and Eastland. Each city-specific service page links back here for the full detail on how the renovation and general contracting process works. If you're outside Abilene proper, call to confirm coverage for your location.
+Air Care Restoration is based in Abilene and serves the surrounding communities throughout the Big Country, including Sweetwater, Snyder, Brownwood, Cisco, and Eastland. Each city-specific service page links back here for the full detail on how the renovation and general contracting process works. If you're outside Abilene proper, call to confirm coverage for your location.
 
 Ready to move from gutted to finished? Call (325) 339-8723 to request a written scope of work and get your project on the schedule.

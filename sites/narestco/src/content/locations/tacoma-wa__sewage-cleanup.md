@@ -20,42 +20,42 @@ state: "WA"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
-If you're standing in a basement or bathroom right now with sewage backing up around your feet, the next few hours matter more than you might realize. Raw sewage carries bacteria, viruses, and pathogens that begin colonizing porous surfaces — drywall, subfloor, insulation — within hours of contact. National Restoration Construction dispatches from Federal Way, putting most Tacoma addresses within 60–90 minutes of a crew. The sooner extraction starts, the less you're tearing out later.
+If you're standing in a basement or bathroom right now with sewage backing up around your feet, the next few hours matter more than you might realize. Raw sewage carries bacteria, viruses, and pathogens that begin colonizing porous surfaces, drywall, subfloor, insulation, within hours of contact. National Restoration Construction dispatches from Federal Way, putting most Tacoma addresses within 60–90 minutes of a crew. The sooner extraction starts, the less you're tearing out later.
 
 ## Why Tacoma Properties See Sewage Emergencies More Than You'd Expect
 
-Tacoma's combination of aging infrastructure and the Pacific Northwest's heavy fall and winter rainfall creates conditions that stress sewer systems hard. Many neighborhoods — particularly in the Hilltop, South End, and older sections near the Tideflats — sit on sewer laterals that were installed decades ago and weren't designed for the volume of stormwater that now infiltrates them during a hard rain event. When the municipal line surcharges, the pressure has to go somewhere, and that somewhere is often your floor drain or lowest toilet.
+Tacoma's combination of aging infrastructure and the Pacific Northwest's heavy fall and winter rainfall creates conditions that stress sewer systems hard. Many neighborhoods, particularly in the Hilltop, South End, and older sections near the Tideflats, sit on sewer laterals that were installed decades ago and weren't designed for the volume of stormwater that now infiltrates them during a hard rain event. When the municipal line surcharges, the pressure has to go somewhere, and that somewhere is often your floor drain or lowest toilet.
 
-Septic systems in the more rural edges of Pierce County face a different problem: saturated soil during wet months reduces the drain field's ability to absorb effluent, which can push waste back toward the tank and into the home. Whether your situation involves a city sewer line backup or a septic overflow, the contamination category is the same — and so is the urgency.
+Septic systems in the more rural edges of Pierce County face a different problem: saturated soil during wet months reduces the drain field's ability to absorb effluent, which can push waste back toward the tank and into the home. Whether your situation involves a city sewer line backup or a septic overflow, the contamination category is the same, and so is the urgency.
 
 ## Our Sewage Cleanup and Sanitization Process in Tacoma
 
 We treat every sewage backup as a Category 3 water loss from the moment we arrive, which means full personal protective equipment, contained work zones, and no shortcuts on sanitization. Here's what the response actually looks like:
 
-**Extraction and solid waste removal** comes first. Truck-mounted extraction units pull standing sewage water fast — far faster than portable units — while technicians manually remove solid waste before it dries into surfaces.
+**Extraction and solid waste removal** comes first. Truck-mounted extraction units pull standing sewage water fast, far faster than portable units, while technicians manually remove solid waste before it dries into surfaces.
 
 **Controlled demolition, when necessary.** Drywall, baseboards, and flooring that absorbed sewage can't be dried in place and reused. We cut to clean lines, document everything photographically for your insurance adjuster, and bag all contaminated material for proper disposal.
 
-**Antimicrobial treatment and sanitization.** After the structure is clean and dry, EPA-registered disinfectants are applied to all affected framing, concrete, and subflooring. This step isn't optional — it's what separates a remediated space from one that will smell like a sewer again in six months.
+**Antimicrobial treatment and sanitization.** After the structure is clean and dry, EPA-registered disinfectants are applied to all affected framing, concrete, and subflooring. This step isn't optional, it's what separates a remediated space from one that will smell like a sewer again in six months.
 
 **Drying and moisture verification.** Industrial air movers and dehumidifiers run until moisture readings in the structural materials return to acceptable baselines. We don't leave until the numbers confirm it.
 
-**Reconstruction.** As a licensed general contractor (WA L&I #NATIORC792M6), we handle the rebuild — drywall, flooring, trim — so you're not coordinating a second contractor after the remediation crew leaves.
+**Reconstruction.** As a licensed general contractor (WA L&I #NATIORC792M6), we handle the rebuild, drywall, flooring, trim, so you're not coordinating a second contractor after the remediation crew leaves.
 
 ## Response Times Across Tacoma
 
-Our Federal Way headquarters puts us roughly 15–20 minutes from the North End and Stadium District under normal traffic conditions, and 25–35 minutes from South Tacoma, Lakewood-adjacent neighborhoods, and the Parkland area. For most Tacoma addresses, expect a technician on-site within 60–90 minutes of your call — often sooner during off-peak hours.
+Our Federal Way headquarters puts us roughly 15–20 minutes from the North End and Stadium District under normal traffic conditions, and 25–35 minutes from South Tacoma, Lakewood-adjacent neighborhoods, and the Parkland area. For most Tacoma addresses, expect a technician on-site within 60–90 minutes of your call, often sooner during off-peak hours.
 
 We operate 24 hours a day, seven days a week. Sewage backups don't wait for business hours, and neither do we.
 
 ## Insurance Claims for Sewage Backup Damage
 
-This is where a lot of homeowners get blindsided. Standard homeowner's policies often exclude sewer backup damage unless you purchased a specific rider — it's worth pulling your declarations page right now and looking for "water backup" or "sewer and drain" coverage language. If you have it, the claim process is manageable. If you don't, we'll give you an honest scope and work with you on the path forward.
+This is where a lot of homeowners get blindsided. Standard homeowner's policies often exclude sewer backup damage unless you purchased a specific rider, it's worth pulling your declarations page right now and looking for "water backup" or "sewer and drain" coverage language. If you have it, the claim process is manageable. If you don't, we'll give you an honest scope and work with you on the path forward.
 
-What we handle on the insurance side: detailed photo documentation from the moment we arrive, itemized scope of work formatted for adjuster review, moisture logs and drying records, and direct communication with your carrier if needed. IICRC-certified documentation carries weight with adjusters because it follows a recognized industry standard — it's not just our word against theirs.
+What we handle on the insurance side: detailed photo documentation from the moment we arrive, itemized scope of work formatted for adjuster review, moisture logs and drying records, and direct communication with your carrier if needed. IICRC-certified documentation carries weight with adjusters because it follows a recognized industry standard, it's not just our word against theirs.
 
 What you handle: filing the initial claim and providing your policy number. We take it from there.
 
 ---
 
-Sewage in a living space is one of the more stressful things a property owner faces — the smell alone makes it feel unlivable, and the uncertainty about what's contaminated and what isn't makes it worse. If you're in Tacoma and need a crew moving now, reach National Restoration Construction at **(206) 883-0333**. We'll tell you exactly what we're seeing when we get there and give you a clear picture of what comes next.
+Sewage in a living space is one of the more stressful things a property owner faces, the smell alone makes it feel unlivable, and the uncertainty about what's contaminated and what isn't makes it worse. If you're in Tacoma and need a crew moving now, reach National Restoration Construction at **(206) 883-0333**. We'll tell you exactly what we're seeing when we get there and give you a clear picture of what comes next.

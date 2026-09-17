@@ -17,17 +17,17 @@ published_at: "2026-05-21"
 services: ["water-damage-restoration"]
 rendered: true
 ---
-If water just flooded part of your home, here's the short version: shut off the water source, cut power to affected areas, get the water out as fast as possible, and start documenting everything for your insurance claim. Every hour you wait, water is moving deeper into subfloor, wall cavities, and insulation — and mold can begin colonizing porous materials in as little as 24 to 48 hours. The steps below walk you through exactly what to do, in order, from the moment you discover the damage.
+If water just flooded part of your home, here's the short version: shut off the water source, cut power to affected areas, get the water out as fast as possible, and start documenting everything for your insurance claim. Every hour you wait, water is moving deeper into subfloor, wall cavities, and insulation, and mold can begin colonizing porous materials in as little as 24 to 48 hours. The steps below walk you through exactly what to do, in order, from the moment you discover the damage.
 
-## Step 1 — Stop the Water and Make the Area Safe
+## Step 1, Stop the Water and Make the Area Safe
 
-Before anything else, stop the source. If a pipe burst or a supply line failed, find your main water shutoff valve. In most Madison-area homes, it's either in the garage, near the water meter at the street, or in a utility closet. Turn it clockwise until it stops. If the source is a roof leak or a window seal failure during a storm, you can't stop the rain — but you can move furniture, electronics, and valuables out of the path of the water.
+Before anything else, stop the source. If a pipe burst or a supply line failed, find your main water shutoff valve. In most Madison-area homes, it's either in the garage, near the water meter at the street, or in a utility closet. Turn it clockwise until it stops. If the source is a roof leak or a window seal failure during a storm, you can't stop the rain, but you can move furniture, electronics, and valuables out of the path of the water.
 
-Next, deal with electricity. Water and live circuits are a deadly combination. If water is pooling near outlets, appliances, or your electrical panel, don't wade in. Go to your breaker box and cut power to the affected rooms. If you can't safely reach the panel, call your utility provider — Huntsville Utilities serves most of the Madison area and has an emergency line. Once you're certain the area is de-energized, you can move safely.
+Next, deal with electricity. Water and live circuits are a deadly combination. If water is pooling near outlets, appliances, or your electrical panel, don't wade in. Go to your breaker box and cut power to the affected rooms. If you can't safely reach the panel, call your utility provider, Huntsville Utilities serves most of the Madison area and has an emergency line. Once you're certain the area is de-energized, you can move safely.
 
-Finally, think about what the water touched. A burst supply line carries clean water. A backed-up toilet or a sewer line failure carries contaminated water — what restoration professionals classify as Category 3, or "black water." If you're not sure what category your water is, treat it as contaminated: wear rubber gloves and boots, and don't let children or pets into the space.
+Finally, think about what the water touched. A burst supply line carries clean water. A backed-up toilet or a sewer line failure carries contaminated water, what restoration professionals classify as Category 3, or "black water." If you're not sure what category your water is, treat it as contaminated: wear rubber gloves and boots, and don't let children or pets into the space.
 
-## Step 2 — Remove Standing Water and Start Drying
+## Step 2, Remove Standing Water and Start Drying
 
 Time is the enemy here. The longer water sits, the deeper it penetrates. Hardwood floors can begin to cup and buckle within hours. Drywall acts like a sponge, wicking moisture up the wall well past the visible waterline.
 
@@ -35,15 +35,15 @@ If you have a wet/dry shop vac, use it. For larger volumes, a submersible pump (
 
 Once the bulk of the water is out:
 
-1. Open windows and interior doors to increase airflow — on a dry Alabama summer day, this helps significantly. On a humid day, keep windows closed and run the AC instead.
+1. Open windows and interior doors to increase airflow, on a dry Alabama summer day, this helps significantly. On a humid day, keep windows closed and run the AC instead.
 2. Pull up saturated area rugs and move them outside to dry or dispose of them.
 3. Place box fans at floor level blowing across wet surfaces, not just circulating room air.
 4. Run a dehumidifier continuously if you own one. Empty the reservoir every few hours.
-5. Lift the edges of carpet if you can — the padding underneath holds water long after the surface feels dry.
+5. Lift the edges of carpet if you can, the padding underneath holds water long after the surface feels dry.
 
-Be realistic: household fans and a single dehumidifier can help with minor surface moisture, but they won't dry out a soaked subfloor, wall cavity, or ceiling. Professional drying equipment — industrial air movers and commercial-grade dehumidifiers — moves orders of magnitude more air. A restoration crew will also use moisture meters to find water you can't see.
+Be realistic: household fans and a single dehumidifier can help with minor surface moisture, but they won't dry out a soaked subfloor, wall cavity, or ceiling. Professional drying equipment, industrial air movers and commercial-grade dehumidifiers, moves orders of magnitude more air. A restoration crew will also use moisture meters to find water you can't see.
 
-## Step 3 — Document Everything Before You Clean Up
+## Step 3, Document Everything Before You Clean Up
 
 This step costs you nothing and protects you significantly when you file an insurance claim. Before you move a single piece of furniture or pull up a single piece of flooring, take photos and video of every affected surface. Capture:
 
@@ -52,7 +52,7 @@ This step costs you nothing and protects you significantly when you file an insu
 - Damage to flooring, baseboards, drywall, and personal property
 - Any visible staining, warping, or discoloration
 
-Save these files somewhere other than just your phone — email them to yourself or upload them to cloud storage. Then call your homeowner's insurance company and open a claim before you do any significant cleanup. Most policies require you to mitigate further damage (meaning you should still remove standing water and start drying), but they also require documentation of the original loss. Cleaning up first and calling second is one of the most common mistakes that leads to disputed claims.
+Save these files somewhere other than just your phone, email them to yourself or upload them to cloud storage. Then call your homeowner's insurance company and open a claim before you do any significant cleanup. Most policies require you to mitigate further damage (meaning you should still remove standing water and start drying), but they also require documentation of the original loss. Cleaning up first and calling second is one of the most common mistakes that leads to disputed claims.
 
 Keep a written log too: date and time you discovered the damage, what you did and when, and who you spoke with at your insurance company, including their name and claim number.
 
@@ -60,8 +60,8 @@ Keep a written log too: date and time you discovered the damage, what you did an
 
 Some instincts that feel helpful can actually make things worse or create liability issues:
 
-- **Don't use a standard household vacuum** to pick up water — it isn't designed for it and can damage the motor or create an electrocution hazard.
-- **Don't run ceiling fans** in a room where the ceiling may be saturated — the weight of trapped water can cause drywall to collapse, and a running fan won't help if the ceiling is the problem.
+- **Don't use a standard household vacuum** to pick up water, it isn't designed for it and can damage the motor or create an electrocution hazard.
+- **Don't run ceiling fans** in a room where the ceiling may be saturated, the weight of trapped water can cause drywall to collapse, and a running fan won't help if the ceiling is the problem.
 - **Don't turn up the heat** thinking it will speed drying. Higher temperatures without airflow and dehumidification just raise the humidity level in the room, which accelerates mold growth.
 - **Don't throw away damaged materials** before your insurance adjuster or a restoration contractor has seen them. Flooring, drywall, and even furniture may be part of your claim.
 - **Don't assume it's dry because it looks dry.** Moisture meters regularly find water content two to three times above safe levels in materials that feel dry to the touch.
@@ -79,13 +79,13 @@ Call a restoration contractor when:
 - You see or smell anything that suggests mold is already present
 - Your insurance company is involved and you need documented drying logs
 
-Professional water damage restoration includes thermal imaging to find hidden moisture, industrial drying equipment placed strategically based on readings — not guesswork — and the documentation your insurance adjuster will ask for. Trained technicians follow an industry standard of care (the S500) that's recognized by most major insurers.
+Professional water damage restoration includes thermal imaging to find hidden moisture, industrial drying equipment placed strategically based on readings, not guesswork, and the documentation your insurance adjuster will ask for. Trained technicians follow an industry standard of care (the S500) that's recognized by most major insurers.
 
 ## The Longer Recovery: What Comes After the First Day
 
 If drying is done correctly, most residential water damage drying takes three to five days with professional equipment. After that comes assessment: what materials can be dried in place, what needs to be removed, and what can be restored versus replaced.
 
-Flooring is often the biggest question. Hardwood can sometimes be dried and refinished if moisture content returns to normal range. Engineered hardwood is less forgiving. Carpet padding almost always needs to go. Drywall below the waterline is typically removed to a few inches above the highest moisture reading — a cut called a "flood cut" — to allow wall cavities to dry and be inspected.
+Flooring is often the biggest question. Hardwood can sometimes be dried and refinished if moisture content returns to normal range. Engineered hardwood is less forgiving. Carpet padding almost always needs to go. Drywall below the waterline is typically removed to a few inches above the highest moisture reading, a cut called a "flood cut", to allow wall cavities to dry and be inspected.
 
 Once everything is dry and any mold remediation is complete, reconstruction begins: new drywall, new flooring, paint, trim. That's where a contractor with both restoration and reconstruction capabilities can simplify the process significantly, handling the project from wet floors to finished room without handing off between multiple companies.
 

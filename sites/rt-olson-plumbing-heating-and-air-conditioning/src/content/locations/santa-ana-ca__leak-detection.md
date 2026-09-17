@@ -20,13 +20,13 @@ state: "CA"
 service_display: "Leak Detection"
 rendered: true
 ---
-Santa Ana's older residential neighborhoods sit atop soil that shifts with Southern California's wet-dry seasonal cycle — and that movement puts steady stress on supply lines and slab penetrations that were installed decades before modern flexible piping became standard. A water bill that climbs $40 or $60 in a single month, a soft patch in the yard that never quite dries out, or a faint hiss behind a stucco wall are the kinds of signals that send Santa Ana homeowners searching for answers. RT Olson Plumbing, Heating and Air Conditioning responds 24/7, dispatching from Corona to locate the source before the damage compounds.
+Santa Ana's older residential neighborhoods sit atop soil that shifts with Southern California's wet-dry seasonal cycle, and that movement puts steady stress on supply lines and slab penetrations that were installed decades before modern flexible piping became standard. A water bill that climbs $40 or $60 in a single month, a soft patch in the yard that never quite dries out, or a faint hiss behind a stucco wall are the kinds of signals that send Santa Ana homeowners searching for answers. RT Olson Plumbing, Heating and Air Conditioning responds 24/7, dispatching from Corona to locate the source before the damage compounds.
 
 ## Why Santa Ana Properties See More Hidden Leaks
 
-Much of Santa Ana's housing stock dates to the postwar boom of the late 1940s through the 1960s, when galvanized steel and early copper supply lines were the norm. Galvanized pipe corrodes from the inside out — the exterior can look intact while the interior is nearly closed off with rust scale, and pinhole failures follow. Copper from that era is thinner-walled than modern Type L or Type M, and decades of hard Orange County water leave calcium deposits that accelerate pitting.
+Much of Santa Ana's housing stock dates to the postwar boom of the late 1940s through the 1960s, when galvanized steel and early copper supply lines were the norm. Galvanized pipe corrodes from the inside out, the exterior can look intact while the interior is nearly closed off with rust scale, and pinhole failures follow. Copper from that era is thinner-walled than modern Type L or Type M, and decades of hard Orange County water leave calcium deposits that accelerate pitting.
 
-The clay-heavy soils common across much of central Santa Ana expand when the winter rains arrive and contract again through the dry summer months. That annual movement creates micro-shifts along underground supply lines and slab-embedded pipes, widening hairline cracks over time. A leak that starts as a trickle in January can be a measurable slab leak by the time summer water bills arrive. Because the concrete slab itself masks the moisture, homeowners often attribute the first signs — warm spots on the floor, a faint musty smell near a baseboard — to something other than plumbing.
+The clay-heavy soils common across much of central Santa Ana expand when the winter rains arrive and contract again through the dry summer months. That annual movement creates micro-shifts along underground supply lines and slab-embedded pipes, widening hairline cracks over time. A leak that starts as a trickle in January can be a measurable slab leak by the time summer water bills arrive. Because the concrete slab itself masks the moisture, homeowners often attribute the first signs, warm spots on the floor, a faint musty smell near a baseboard, to something other than plumbing.
 
 ## Our Leak Detection Process in Santa Ana
 
@@ -34,13 +34,13 @@ Locating a hidden leak without tearing out walls or jackhammering a slab require
 
 **Pressure testing** isolates which branch of the system is losing water. By capping fixtures and pressurizing individual lines, we can confirm whether the loss is on the hot side, cold side, or in an underground supply run before a single wall is opened.
 
-**Electronic acoustic detection** uses ground microphones and listening rods to amplify the sound signature of water escaping under pressure. Even through a concrete slab or a packed-soil yard, a pressurized leak produces a distinct acoustic profile that differs from ambient vibration — traffic noise, HVAC equipment, or a running irrigation system.
+**Electronic acoustic detection** uses ground microphones and listening rods to amplify the sound signature of water escaping under pressure. Even through a concrete slab or a packed-soil yard, a pressurized leak produces a distinct acoustic profile that differs from ambient vibration, traffic noise, HVAC equipment, or a running irrigation system.
 
 **Thermal imaging** adds a second data layer. A slab leak warms the concrete above it; a supply line leaking inside a wall cools the surrounding framing. A thermal camera makes those temperature gradients visible without any demolition.
 
 **Tracer gas detection** is reserved for leaks that are too small or too deep to register clearly on acoustic or thermal scans. A non-toxic helium-hydrogen blend is introduced into the line; a surface probe follows the gas as it migrates upward through soil or concrete, pinpointing the exit point within inches.
 
-By combining these methods, we give the repair crew an exact location — reducing the size of any access opening and protecting finished surfaces wherever possible.
+By combining these methods, we give the repair crew an exact location, reducing the size of any access opening and protecting finished surfaces wherever possible.
 
 ## Reaching Santa Ana from Corona
 
@@ -48,8 +48,8 @@ RT Olson operates 24/7, and the Corona-to-Santa Ana run follows the 91 Freeway w
 
 ## Local Note: What Santa Ana's Water Chemistry Adds to the Picture
 
-Orange County's water supply blends imported Metropolitan Water District water with local groundwater, and the resulting hardness level is consistently high — often in the range that accelerates mineral buildup inside copper fittings and at solder joints. In practice, this means that a pinhole leak in a Santa Ana home is rarely an isolated failure. When we find one, we flag adjacent fittings and elbows in the same line run for the homeowner's awareness, because the same water chemistry that attacked the first joint has been working on the others for just as long. Knowing the local water profile changes how we interpret what we find and what we recommend.
+Orange County's water supply blends imported Metropolitan Water District water with local groundwater, and the resulting hardness level is consistently high, often in the range that accelerates mineral buildup inside copper fittings and at solder joints. In practice, this means that a pinhole leak in a Santa Ana home is rarely an isolated failure. When we find one, we flag adjacent fittings and elbows in the same line run for the homeowner's awareness, because the same water chemistry that attacked the first joint has been working on the others for just as long. Knowing the local water profile changes how we interpret what we find and what we recommend.
 
 ## Closing the Loop After Detection
 
-Finding the leak is only useful if the repair follows quickly. Once the location is confirmed and marked, RT Olson can coordinate the repair work directly — whether that means a targeted slab access, a pipe reroute through the attic or wall cavity, or a trenchless repair on an underground supply line. If your homeowner's insurance covers sudden and accidental water damage, the detection report and photographs we provide are the documentation your adjuster will ask for first. Call (951) 344-5596 any time — day or night — to schedule leak detection in Santa Ana.
+Finding the leak is only useful if the repair follows quickly. Once the location is confirmed and marked, RT Olson can coordinate the repair work directly, whether that means a targeted slab access, a pipe reroute through the attic or wall cavity, or a trenchless repair on an underground supply line. If your homeowner's insurance covers sudden and accidental water damage, the detection report and photographs we provide are the documentation your adjuster will ask for first. Call (951) 344-5596 any time, day or night, to schedule leak detection in Santa Ana.

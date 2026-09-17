@@ -20,33 +20,33 @@ state: "WA"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
-Smoke leaves fast and stays longer than anyone expects. If you're standing in a Kirkland home right now smelling that acrid, oily residue — on the walls, in the HVAC vents, soaked into the drywall — the window to prevent permanent staining and odor absorption is closing by the hour. National Restoration Construction dispatches from Federal Way and reaches most Kirkland addresses within 60–90 minutes of your call, ready to start the process that actually stops smoke damage from compounding.
+Smoke leaves fast and stays longer than anyone expects. If you're standing in a Kirkland home right now smelling that acrid, oily residue, on the walls, in the HVAC vents, soaked into the drywall, the window to prevent permanent staining and odor absorption is closing by the hour. National Restoration Construction dispatches from Federal Way and reaches most Kirkland addresses within 60–90 minutes of your call, ready to start the process that actually stops smoke damage from compounding.
 
 ## Our Smoke Damage Restoration Process in Kirkland
 
-Smoke residue isn't uniform. A kitchen fire produces wet, sticky soot that smears if you wipe it wrong. A wildfire smoke event — something Kirkland residents have experienced more frequently as Eastern Washington fires push smoke west through the Cascades — leaves a drier, fine-particle residue that penetrates porous surfaces like wood trim, fabric, and insulation. We assess the residue type before we touch anything, because the wrong cleaning method can drive contamination deeper.
+Smoke residue isn't uniform. A kitchen fire produces wet, sticky soot that smears if you wipe it wrong. A wildfire smoke event, something Kirkland residents have experienced more frequently as Eastern Washington fires push smoke west through the Cascades, leaves a drier, fine-particle residue that penetrates porous surfaces like wood trim, fabric, and insulation. We assess the residue type before we touch anything, because the wrong cleaning method can drive contamination deeper.
 
 Once we've documented the affected areas (photos and written scope your insurance adjuster can use directly), the process moves in a deliberate sequence:
 
-1. **Containment** — isolating the smoke-affected zones so HVAC circulation doesn't redistribute particles to unaffected rooms.
-2. **Dry soot removal** — HEPA-filtered vacuuming of loose particulate from surfaces, ductwork registers, and structural cavities before any wet cleaning begins.
-3. **Surface cleaning** — chemical sponges and pH-adjusted solutions matched to the residue type and the substrate (painted drywall, cedar siding, exposed brick, cabinetry).
-4. **Deodorization** — thermal fogging or hydroxyl generation to neutralize odor molecules embedded in porous materials, not just mask them.
-5. **Structural assessment** — identifying materials that need replacement versus restoration, which matters both for your health and your insurance payout.
+1. **Containment**, isolating the smoke-affected zones so HVAC circulation doesn't redistribute particles to unaffected rooms.
+2. **Dry soot removal**, HEPA-filtered vacuuming of loose particulate from surfaces, ductwork registers, and structural cavities before any wet cleaning begins.
+3. **Surface cleaning**, chemical sponges and pH-adjusted solutions matched to the residue type and the substrate (painted drywall, cedar siding, exposed brick, cabinetry).
+4. **Deodorization**, thermal fogging or hydroxyl generation to neutralize odor molecules embedded in porous materials, not just mask them.
+5. **Structural assessment**, identifying materials that need replacement versus restoration, which matters both for your health and your insurance payout.
 
 If the fire caused structural damage alongside the smoke, our general contractor license (WA L&I #NATIORC792M6) means we can carry the project through reconstruction without you coordinating a second contractor.
 
 ## Why Kirkland Properties Face Smoke Damage Challenges
 
-Kirkland's housing stock skews older in neighborhoods like Juanita, Finn Hill, and Rose Hill — craftsman-era and mid-century homes with original wood framing, plaster walls, and older ductwork that absorbs smoke odor more readily than modern construction. Smoke doesn't just coat surfaces in these homes; it migrates into wall cavities and sub-floor spaces where it can linger for months if not addressed at the source.
+Kirkland's housing stock skews older in neighborhoods like Juanita, Finn Hill, and Rose Hill, craftsman-era and mid-century homes with original wood framing, plaster walls, and older ductwork that absorbs smoke odor more readily than modern construction. Smoke doesn't just coat surfaces in these homes; it migrates into wall cavities and sub-floor spaces where it can linger for months if not addressed at the source.
 
-The regional wildfire pattern adds a layer most Western Washington homeowners didn't used to think about. When smoke from Okanogan or Chelan County fires settles over the Eastside for days at a stretch, it infiltrates homes through gaps around windows, attic vents, and HVAC fresh-air intakes. That's a different problem than a contained interior fire — the contamination is diffuse and easy to underestimate until the smell won't leave.
+The regional wildfire pattern adds a layer most Western Washington homeowners didn't used to think about. When smoke from Okanogan or Chelan County fires settles over the Eastside for days at a stretch, it infiltrates homes through gaps around windows, attic vents, and HVAC fresh-air intakes. That's a different problem than a contained interior fire, the contamination is diffuse and easy to underestimate until the smell won't leave.
 
 Kirkland's proximity to Lake Washington also means higher baseline humidity, which causes smoke residue to bond more aggressively to painted and unpainted wood surfaces. The faster post-fire smoke cleanup begins, the less secondary damage you're dealing with.
 
 ## Insurance Claims for Smoke Damage
 
-Most homeowner policies in Washington cover smoke damage restoration, including smoke residue cleanup and odor remediation, whether the source was a fire inside the home or a declared wildfire event affecting air quality. The friction usually comes from documentation — adjusters need itemized scopes, moisture and air quality readings, and before/after photo records to approve full replacement versus cleaning costs.
+Most homeowner policies in Washington cover smoke damage restoration, including smoke residue cleanup and odor remediation, whether the source was a fire inside the home or a declared wildfire event affecting air quality. The friction usually comes from documentation, adjusters need itemized scopes, moisture and air quality readings, and before/after photo records to approve full replacement versus cleaning costs.
 
 We handle that documentation from the first hour on-site. Our crews work directly with all major carriers and most regional insurers active in the Kirkland market. We'll communicate with your adjuster, provide the technical reports they require, and flag any supplemental damage discovered during the restoration that should be added to your claim. What you handle: filing the initial claim and providing your policy number. We handle the rest of the back-and-forth.
 
@@ -54,8 +54,8 @@ If you're uninsured or dealing with a coverage dispute, we'll give you a written
 
 ## Response Times Across Kirkland
 
-From our Federal Way headquarters, Kirkland is typically a 30–45 minute drive under normal I-405 conditions — which puts a crew at your door within 60–90 minutes of your first contact in most cases. If you're in the southern end of Kirkland near Bellevue or Redmond, that window can be shorter. Totem Lake and North Kirkland add a few minutes but remain well within our standard response range.
+From our Federal Way headquarters, Kirkland is typically a 30–45 minute drive under normal I-405 conditions, which puts a crew at your door within 60–90 minutes of your first contact in most cases. If you're in the southern end of Kirkland near Bellevue or Redmond, that window can be shorter. Totem Lake and North Kirkland add a few minutes but remain well within our standard response range.
 
-We run 24 hours a day, seven days a week, including holidays. Smoke damage doesn't pause for weekends, and neither do we. The sooner an IICRC-certified technician assesses the scene, the more material we can save — and the lower your total restoration cost tends to be.
+We run 24 hours a day, seven days a week, including holidays. Smoke damage doesn't pause for weekends, and neither do we. The sooner an IICRC-certified technician assesses the scene, the more material we can save, and the lower your total restoration cost tends to be.
 
 If you're not sure whether what you're seeing qualifies as an emergency, reach out anyway. A five-minute conversation is enough to tell you whether you need us on-site today or whether a scheduled assessment makes more sense.

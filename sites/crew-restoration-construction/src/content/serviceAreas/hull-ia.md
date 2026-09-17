@@ -19,25 +19,25 @@ state: "IA"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall in Hull or a spring storm pushes water into a basement off Sioux County Road, Crew Restoration & Construction handles the mitigation, drying, and rebuild — start to finish. We take calls from homeowners and property managers across the 51239 ZIP code, coordinate directly with insurance carriers, and send a crew that knows the housing patterns and soil conditions specific to this corner of northwest Iowa.
+When a pipe bursts behind a wall in Hull or a spring storm pushes water into a basement off Sioux County Road, Crew Restoration & Construction handles the mitigation, drying, and rebuild, start to finish. We take calls from homeowners and property managers across the 51239 ZIP code, coordinate directly with insurance carriers, and send a crew that knows the housing patterns and soil conditions specific to this corner of northwest Iowa.
 
 ## Restoration emergencies common in Hull
 
-Hull sits in the flat, wind-exposed terrain of Sioux County, where the same agricultural landscape that defines the community's Dutch-American heritage also shapes its restoration risks. Clay-heavy soils here drain slowly, meaning a heavy spring rain or a rapid snowmelt can saturate the ground faster than it can absorb — and that hydrostatic pressure finds its way into basements and crawl spaces, especially in the older homes near Downtown Hull that were built before modern waterproofing standards. Many of those homes feature full masonry foundations that wick moisture readily. Winters are long and cold, with freeze-thaw cycles that stress supply lines, exterior faucets, and attic insulation. When temperatures drop hard in January and a pipe lets go overnight, the water has hours to travel before anyone notices. Summer thunderstorms roll across the open fields with little warning and can drive wind-driven rain into soffits, attic vents, and around window frames. The combination of older housing stock, flat drainage, and extreme seasonal swings makes water intrusion the most common call we get from Hull.
+Hull sits in the flat, wind-exposed terrain of Sioux County, where the same agricultural landscape that defines the community's Dutch-American heritage also shapes its restoration risks. Clay-heavy soils here drain slowly, meaning a heavy spring rain or a rapid snowmelt can saturate the ground faster than it can absorb, and that hydrostatic pressure finds its way into basements and crawl spaces, especially in the older homes near Downtown Hull that were built before modern waterproofing standards. Many of those homes feature full masonry foundations that wick moisture readily. Winters are long and cold, with freeze-thaw cycles that stress supply lines, exterior faucets, and attic insulation. When temperatures drop hard in January and a pipe lets go overnight, the water has hours to travel before anyone notices. Summer thunderstorms roll across the open fields with little warning and can drive wind-driven rain into soffits, attic vents, and around window frames. The combination of older housing stock, flat drainage, and extreme seasonal swings makes water intrusion the most common call we get from Hull.
 
 ## Services we provide in Hull
 
 ### Water damage restoration
 
-Water damage in Hull often starts small — a slow drip behind a washing machine, a failed sump pump during a heavy rain event near Hull City Park — and becomes a structural problem within 24 to 48 hours as moisture migrates into subfloor assemblies and wall cavities. We extract standing water, deploy commercial drying equipment, and monitor moisture readings until the structure reaches target levels per the IICRC S500 drying standard. We document everything for your insurance claim.
+Water damage in Hull often starts small, a slow drip behind a washing machine, a failed sump pump during a heavy rain event near Hull City Park, and becomes a structural problem within 24 to 48 hours as moisture migrates into subfloor assemblies and wall cavities. We extract standing water, deploy commercial drying equipment, and monitor moisture readings until the structure reaches target levels per the IICRC S500 drying standard. We document everything for your insurance claim.
 
 ### Mold remediation
 
-The same moisture conditions that drive water damage in Sioux County create favorable conditions for mold growth, particularly in below-grade spaces. Homes in West Hull and the older residential blocks near Boyden-Hull High School sometimes show mold in crawl spaces or rim joist areas that went undetected for a full season. Our remediation process involves containment, removal of affected materials, and treatment of underlying surfaces — followed by clearance testing to confirm the work is complete.
+The same moisture conditions that drive water damage in Sioux County create favorable conditions for mold growth, particularly in below-grade spaces. Homes in West Hull and the older residential blocks near Boyden-Hull High School sometimes show mold in crawl spaces or rim joist areas that went undetected for a full season. Our remediation process involves containment, removal of affected materials, and treatment of underlying surfaces, followed by clearance testing to confirm the work is complete.
 
 ### Fire and smoke damage restoration
 
-Farm-adjacent properties and older homes in Hull can face fire risk from equipment, grain dryers, and aging electrical systems. Smoke residue is acidic and penetrating — it gets into HVAC ductwork, insulation, and wood framing quickly. We assess the full extent of smoke migration, not just the visible char, and work through odor neutralization and structural cleaning before any reconstruction begins.
+Farm-adjacent properties and older homes in Hull can face fire risk from equipment, grain dryers, and aging electrical systems. Smoke residue is acidic and penetrating, it gets into HVAC ductwork, insulation, and wood framing quickly. We assess the full extent of smoke migration, not just the visible char, and work through odor neutralization and structural cleaning before any reconstruction begins.
 
 ### Reconstruction and build-back
 
@@ -45,13 +45,13 @@ Once mitigation is complete, the rebuild is often the part homeowners feel most 
 
 ## Coverage and how fast we can get there
 
-Crew Restoration & Construction is headquartered in Sioux Falls, SD, approximately 75 miles northwest of Hull via I-90 East and US-75 South — a drive that typically runs just over an hour depending on conditions. We schedule crews into the 51239 ZIP code regularly and can reach neighborhoods across Hull, including West Hull and the blocks surrounding Downtown Hull, during normal scheduling windows. We do not make minute-based response promises, but we prioritize water and fire losses for same-day or next-morning dispatch whenever possible. When you call (605) 965-2727, we'll give you a straight answer on timing based on current crew availability.
+Crew Restoration & Construction is headquartered in Sioux Falls, SD, approximately 75 miles northwest of Hull via I-90 East and US-75 South, a drive that typically runs just over an hour depending on conditions. We schedule crews into the 51239 ZIP code regularly and can reach neighborhoods across Hull, including West Hull and the blocks surrounding Downtown Hull, during normal scheduling windows. We do not make minute-based response promises, but we prioritize water and fire losses for same-day or next-morning dispatch whenever possible. When you call (605) 965-2727, we'll give you a straight answer on timing based on current crew availability.
 
 ## Building stock, site conditions, and permits in Hull
 
-Hull's older core is largely pre-war farmhouse and cottage construction — dimensional lumber framing, plaster and wood lath over board sheathing, and full basements with poured or block walls. Plaster holds water differently than drywall: it stays wet behind the surface long after the room feels dry, so it gets metered and often opened rather than guessed at. Newer blocks on the edges of town are ranch and split-level with drywall and truss roofs.
+Hull's older core is largely pre-war farmhouse and cottage construction, dimensional lumber framing, plaster and wood lath over board sheathing, and full basements with poured or block walls. Plaster holds water differently than drywall: it stays wet behind the surface long after the room feels dry, so it gets metered and often opened rather than guessed at. Newer blocks on the edges of town are ranch and split-level with drywall and truss roofs.
 
-In homes of that older vintage expect galvanized supply lines that rust closed and pinhole, cast iron drains that scale and crack at the hub, and pre-1980 materials — asbestos pipe wrap, floor tile, lead paint — that change how a rebuild is scoped.
+In homes of that older vintage expect galvanized supply lines that rust closed and pinhole, cast iron drains that scale and crack at the hub, and pre-1980 materials, asbestos pipe wrap, floor tile, lead paint, that change how a rebuild is scoped.
 
 Structural repair inside city limits is permitted through the City of Hull; work outside the corporate limits goes through Sioux County.
 

@@ -20,25 +20,25 @@ state: "WA"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
-The smell hits you first — that sharp, acrid combination of charred wood, melted plastic, and soot that clings to walls, furniture, and clothing long after the flames are out. If you're dealing with smoke damage at a Bellevue home or commercial property right now, you already know the fire department leaving doesn't mean the emergency is over. Smoke residue is acidic. Within hours it begins etching glass, corroding metal fixtures, and permanently staining porous surfaces like drywall and grout. National Restoration Construction has been responding to smoke damage emergencies across the greater Seattle area since 2004, and our crews reach most Bellevue addresses within 60–90 minutes of your call.
+The smell hits you first, that sharp, acrid combination of charred wood, melted plastic, and soot that clings to walls, furniture, and clothing long after the flames are out. If you're dealing with smoke damage at a Bellevue home or commercial property right now, you already know the fire department leaving doesn't mean the emergency is over. Smoke residue is acidic. Within hours it begins etching glass, corroding metal fixtures, and permanently staining porous surfaces like drywall and grout. National Restoration Construction has been responding to smoke damage emergencies across the greater Seattle area since 2004, and our crews reach most Bellevue addresses within 60–90 minutes of your call.
 
 ## Our Smoke Damage Restoration Process in Bellevue
 
-The first thing our technicians do when they arrive isn't pull out equipment — it's walk the structure with you. We need to understand the fire's origin point, how smoke traveled through the HVAC system, and which materials absorbed the heaviest residue. Smoke doesn't follow a straight line; it pressurizes into wall cavities, crawl spaces, and attic insulation, which means visible soot on a ceiling is often the least of the problem.
+The first thing our technicians do when they arrive isn't pull out equipment, it's walk the structure with you. We need to understand the fire's origin point, how smoke traveled through the HVAC system, and which materials absorbed the heaviest residue. Smoke doesn't follow a straight line; it pressurizes into wall cavities, crawl spaces, and attic insulation, which means visible soot on a ceiling is often the least of the problem.
 
 Once we've scoped the damage, the process moves through several distinct phases:
 
 - **Emergency ventilation and air scrubbing.** Industrial HEPA air scrubbers and negative air machines begin pulling particulates out of the breathing space immediately. This also helps protect unaffected areas of the structure from secondary contamination.
-- **Dry and wet chemical sponge cleaning.** Different residues require different chemistry. Protein smoke from a kitchen fire — the kind that leaves a nearly invisible, varnish-like film — responds differently than the heavy black soot from a structural fire. We match the cleaning agent to the residue type.
+- **Dry and wet chemical sponge cleaning.** Different residues require different chemistry. Protein smoke from a kitchen fire, the kind that leaves a nearly invisible, varnish-like film, responds differently than the heavy black soot from a structural fire. We match the cleaning agent to the residue type.
 - **Thermal fogging and hydroxyl treatment.** Odor molecules embed deep into porous materials. Thermal fogging disperses a deodorizing agent that penetrates the same pathways smoke traveled, neutralizing odor at the source rather than masking it.
 - **Content pack-out and cleaning.** Furniture, clothing, documents, and personal belongings can often be restored rather than replaced. We inventory, pack, and clean salvageable contents off-site when on-site conditions don't allow for it.
 - **Structural repair and reconstruction.** As a licensed general contractor (WA State L&I #NATIORC792M6), we don't hand you off to a separate contractor for drywall, painting, or cabinetry. We carry the job through to a finished, livable space.
 
 ## Why Bellevue Properties Face Particular Smoke Damage Risks
 
-Bellevue's housing stock skews heavily toward mid-century ramblers and 1980s–2000s construction in neighborhoods like Somerset, Factoria, and Crossroads — homes with open floor plans and forced-air HVAC systems that distribute smoke through ductwork quickly. Newer construction in the Bel-Red corridor and downtown high-rises present their own challenges: tighter building envelopes trap smoke more effectively, and shared HVAC systems in multi-unit buildings can carry odor to units nowhere near the origin.
+Bellevue's housing stock skews heavily toward mid-century ramblers and 1980s–2000s construction in neighborhoods like Somerset, Factoria, and Crossroads, homes with open floor plans and forced-air HVAC systems that distribute smoke through ductwork quickly. Newer construction in the Bel-Red corridor and downtown high-rises present their own challenges: tighter building envelopes trap smoke more effectively, and shared HVAC systems in multi-unit buildings can carry odor to units nowhere near the origin.
 
-Eastern Washington wildfire seasons have also changed the equation for Western Washington homeowners. Bellevue has seen multiple summers where smoke from wildfires east of the Cascades blankets the I-90 corridor for days. That kind of prolonged wildfire smoke exposure can infiltrate older windows and HVAC systems, leaving a fine particulate residue that accumulates gradually rather than arriving all at once — and still requires professional post-fire smoke cleanup to address properly.
+Eastern Washington wildfire seasons have also changed the equation for Western Washington homeowners. Bellevue has seen multiple summers where smoke from wildfires east of the Cascades blankets the I-90 corridor for days. That kind of prolonged wildfire smoke exposure can infiltrate older windows and HVAC systems, leaving a fine particulate residue that accumulates gradually rather than arriving all at once, and still requires professional post-fire smoke cleanup to address properly.
 
 ## Navigating Insurance Claims for Smoke Damage
 
@@ -46,14 +46,14 @@ Most standard homeowner and commercial property policies cover smoke damage rest
 
 Here's the practical split: we handle the damage assessment, the written scope, and the communication with your adjuster throughout the remediation and repair process. You handle filing the initial claim and authorizing work. We'll walk you through what to expect at each stage so there are no surprises on your end of the conversation.
 
-If your insurer requires an independent estimate before approving work, we can provide that documentation quickly — delays in smoke damage repair compound the damage, and we'd rather get you moving than lose a week to paperwork.
+If your insurer requires an independent estimate before approving work, we can provide that documentation quickly, delays in smoke damage repair compound the damage, and we'd rather get you moving than lose a week to paperwork.
 
 ## Response Times Across Bellevue
 
-Our operations are based in Federal Way, roughly 20 miles south of Bellevue via I-405 or SR-167. Under normal traffic conditions, that puts our crews on-site in 60–90 minutes. Bellevue neighborhoods closer to the I-90 interchange — Eastgate, Factoria, Newport Hills — tend to be on the faster end of that window. Downtown Bellevue and the West Bellevue neighborhoods near Medina can vary depending on time of day and bridge traffic.
+Our operations are based in Federal Way, roughly 20 miles south of Bellevue via I-405 or SR-167. Under normal traffic conditions, that puts our crews on-site in 60–90 minutes. Bellevue neighborhoods closer to the I-90 interchange, Eastgate, Factoria, Newport Hills, tend to be on the faster end of that window. Downtown Bellevue and the West Bellevue neighborhoods near Medina can vary depending on time of day and bridge traffic.
 
 We answer the phone around the clock. Smoke damage doesn't wait for business hours, and neither do we.
 
 ---
 
-If you're standing in a smoke-damaged room right now trying to figure out your next move, the most important thing you can do is limit foot traffic through the space and avoid running your HVAC system — both actions spread soot further. Then reach out to us at **(206) 883-0333**. An IICRC-certified technician will talk you through what to do before we arrive and get a crew dispatched to your Bellevue address as quickly as possible.
+If you're standing in a smoke-damaged room right now trying to figure out your next move, the most important thing you can do is limit foot traffic through the space and avoid running your HVAC system, both actions spread soot further. Then reach out to us at **(206) 883-0333**. An IICRC-certified technician will talk you through what to do before we arrive and get a crew dispatched to your Bellevue address as quickly as possible.

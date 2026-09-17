@@ -20,15 +20,15 @@ rendered: true
 ---
 ## When a frozen pipe thaws, the real damage begins
 
-Most homeowners don't notice a frozen pipe until the temperature climbs back above freezing — and then water starts appearing somewhere it shouldn't. A pipe can freeze solid overnight, hold pressure silently for hours, and release gallons in minutes once it thaws. By the time you see a wet ceiling, a bubbling floor, or water running down an interior wall, the pipe has already done its work. Frozen pipe restoration isn't just about stopping the leak; it's about finding every place that water traveled before you did.
+Most homeowners don't notice a frozen pipe until the temperature climbs back above freezing, and then water starts appearing somewhere it shouldn't. A pipe can freeze solid overnight, hold pressure silently for hours, and release gallons in minutes once it thaws. By the time you see a wet ceiling, a bubbling floor, or water running down an interior wall, the pipe has already done its work. Frozen pipe restoration isn't just about stopping the leak; it's about finding every place that water traveled before you did.
 
 ## What frozen pipe restoration actually involves
 
-Frozen pipe damage is deceptive. The rupture point is rarely where the water shows up. Water follows framing cavities, insulation batts, and subfloor channels — sometimes traveling six to ten feet from the split before it surfaces. Restoration work starts with thermal imaging and moisture mapping to trace the full path of intrusion, not just the visible wet spot.
+Frozen pipe damage is deceptive. The rupture point is rarely where the water shows up. Water follows framing cavities, insulation batts, and subfloor channels, sometimes traveling six to ten feet from the split before it surfaces. Restoration work starts with thermal imaging and moisture mapping to trace the full path of intrusion, not just the visible wet spot.
 
-Once the affected area is mapped, standing water is extracted using truck-mounted or portable extraction units. Wet insulation — which holds moisture like a sponge and accelerates mold colonization within 24 to 48 hours — is removed and bagged. Structural drying then begins with industrial air movers and low-grain refrigerant dehumidifiers calibrated to the specific material assemblies involved: drywall dries differently than engineered hardwood, and both dry differently than a concrete slab with a floating floor on top.
+Once the affected area is mapped, standing water is extracted using truck-mounted or portable extraction units. Wet insulation, which holds moisture like a sponge and accelerates mold colonization within 24 to 48 hours, is removed and bagged. Structural drying then begins with industrial air movers and low-grain refrigerant dehumidifiers calibrated to the specific material assemblies involved: drywall dries differently than engineered hardwood, and both dry differently than a concrete slab with a floating floor on top.
 
-Moisture readings are logged daily using pin and pinless meters and, where needed, wall cavity probes. Drying is not complete when surfaces feel dry to the touch — it's complete when readings return to regionally appropriate baselines, typically 6–9% for wood framing in Utah's high-desert climate.
+Moisture readings are logged daily using pin and pinless meters and, where needed, wall cavity probes. Drying is not complete when surfaces feel dry to the touch, it's complete when readings return to regionally appropriate baselines, typically 6–9% for wood framing in Utah's high-desert climate.
 
 Timeline depends on the extent of saturation, but most residential frozen pipe jobs reach drying goals in 3–5 days. Larger losses involving multiple rooms or a finished basement can run 5–7 days.
 
@@ -38,15 +38,15 @@ Timeline depends on the extent of saturation, but most residential frozen pipe j
 
 2. **Thermal imaging and moisture mapping.** We use infrared cameras to identify cold, wet building materials that aren't visible to the naked eye. Every affected wall cavity, floor assembly, and ceiling plane is mapped and logged. This step is what separates a thorough response from one that leaves hidden moisture behind.
 
-3. **Water extraction and wet material removal.** Standing water is extracted. Saturated insulation is removed — fiberglass batts and blown-in cellulose cannot be dried in place and must come out. Drywall that has wicked water above the cut line is removed to the next stud bay to allow airflow into the cavity.
+3. **Water extraction and wet material removal.** Standing water is extracted. Saturated insulation is removed, fiberglass batts and blown-in cellulose cannot be dried in place and must come out. Drywall that has wicked water above the cut line is removed to the next stud bay to allow airflow into the cavity.
 
-4. **Structural drying with daily monitoring.** Air movers are placed to create directed airflow across wet assemblies. Dehumidifiers pull moisture from the air as it evaporates out of materials. We return daily, log moisture readings, and adjust equipment placement as drying progresses. You receive a drying log — a document your insurance adjuster will ask for.
+4. **Structural drying with daily monitoring.** Air movers are placed to create directed airflow across wet assemblies. Dehumidifiers pull moisture from the air as it evaporates out of materials. We return daily, log moisture readings, and adjust equipment placement as drying progresses. You receive a drying log, a document your insurance adjuster will ask for.
 
-5. **Clearance and documentation.** When all readings hit target, equipment is removed and a final moisture report is generated. This report documents the starting conditions, daily progression, and final clearance values — the paper trail that supports your claim and confirms the structure is ready for reconstruction.
+5. **Clearance and documentation.** When all readings hit target, equipment is removed and a final moisture report is generated. This report documents the starting conditions, daily progression, and final clearance values, the paper trail that supports your claim and confirms the structure is ready for reconstruction.
 
 ## What separates a good frozen pipe response from a bad one
 
-The most common mistake in frozen pipe cleanup is treating it like a simple mop-up job. A shop vac and a few box fans will dry the surface — and leave the wall cavity saturated for weeks. Mold can begin colonizing wet framing in as little as 24–48 hours under the right temperature conditions, and Utah homes in January are often warm enough inside for that biology to move fast.
+The most common mistake in frozen pipe cleanup is treating it like a simple mop-up job. A shop vac and a few box fans will dry the surface, and leave the wall cavity saturated for weeks. Mold can begin colonizing wet framing in as little as 24–48 hours under the right temperature conditions, and Utah homes in January are often warm enough inside for that biology to move fast.
 
 A second common failure is under-cutting drywall. Cutting only to the visible waterline leaves wet material above the cut. Experienced technicians cut to the next stud bay above the highest moisture reading, not the highest visible stain.
 
@@ -56,9 +56,9 @@ IICRC-certified technicians follow the S500 Standard for Professional Water Dama
 
 ## Seasonal and regional considerations
 
-Saratoga Springs and the broader Utah County corridor sit at elevations where overnight lows regularly drop into the single digits from December through February. Homes built in the 1990s and early 2000s — common in Saratoga Springs, Eagle Mountain, and Lehi — often have supply lines routed through garage walls or exterior-facing cabinet toe-kicks that weren't designed for sustained sub-zero exposure.
+Saratoga Springs and the broader Utah County corridor sit at elevations where overnight lows regularly drop into the single digits from December through February. Homes built in the 1990s and early 2000s, common in Saratoga Springs, Eagle Mountain, and Lehi, often have supply lines routed through garage walls or exterior-facing cabinet toe-kicks that weren't designed for sustained sub-zero exposure.
 
-Freeze-thaw cycles are particularly damaging because pipes may partially thaw and re-freeze multiple times before a homeowner notices. Each cycle stresses the pipe further and can create multiple small splits rather than one clean rupture — meaning multiple leak points, multiple moisture intrusion paths, and a more complex drying job.
+Freeze-thaw cycles are particularly damaging because pipes may partially thaw and re-freeze multiple times before a homeowner notices. Each cycle stresses the pipe further and can create multiple small splits rather than one clean rupture, meaning multiple leak points, multiple moisture intrusion paths, and a more complex drying job.
 
 Spring snowmelt months (March–April) also bring elevated risk as attic temperatures fluctuate and pipes in unconditioned spaces cycle through freeze and thaw repeatedly.
 
@@ -66,4 +66,4 @@ Spring snowmelt months (March–April) also bring elevated risk as attic tempera
 
 Home Pride Restoration and Cleaning is based in Saratoga Springs and responds to frozen pipe damage throughout Utah County and the surrounding region, including Eagle Mountain, Lehi, American Fork, Pleasant Grove, Orem, and Provo. City-specific service pages are linked throughout this site for homeowners searching by location.
 
-If you've found water where it shouldn't be after a cold snap, call **(801) 995-2437** to start your frozen pipe damage assessment — before the moisture has time to move further into your structure.
+If you've found water where it shouldn't be after a cold snap, call **(801) 995-2437** to start your frozen pipe damage assessment, before the moisture has time to move further into your structure.

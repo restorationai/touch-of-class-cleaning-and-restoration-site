@@ -17,39 +17,39 @@ service_slug: "crawl-space-encapsulation"
 service_display: "Crawl Space Encapsulation"
 rendered: true
 ---
-The first sign is usually something you smell before you see it — a damp, earthy mustiness that creeps up through floorboards and settles into the living space above. By the time that odor is noticeable, moisture has likely been working on your crawl space for weeks or months: softening wood framing, feeding mold colonies on joists, and driving up humidity levels that make your HVAC system work harder than it should. Crawl space encapsulation stops that cycle by sealing the space from the ground up, turning an open, humid void into a controlled, dry environment.
+The first sign is usually something you smell before you see it, a damp, earthy mustiness that creeps up through floorboards and settles into the living space above. By the time that odor is noticeable, moisture has likely been working on your crawl space for weeks or months: softening wood framing, feeding mold colonies on joists, and driving up humidity levels that make your HVAC system work harder than it should. Crawl space encapsulation stops that cycle by sealing the space from the ground up, turning an open, humid void into a controlled, dry environment.
 
 ## What crawl space encapsulation actually involves
 
-Encapsulation is not simply laying plastic sheeting on a dirt floor. A properly encapsulated crawl space is sealed on every surface — floor, walls, and often the rim joists — with a continuous heavy-mil vapor barrier (typically 12–20 mil reinforced polyethylene), mechanically fastened and seam-taped so moisture from the soil cannot migrate upward. Vents that once allowed outside air in are sealed; a dedicated dehumidifier sized for the cubic footage of the space is installed and drained to a condensate pump or gravity drain.
+Encapsulation is not simply laying plastic sheeting on a dirt floor. A properly encapsulated crawl space is sealed on every surface, floor, walls, and often the rim joists, with a continuous heavy-mil vapor barrier (typically 12–20 mil reinforced polyethylene), mechanically fastened and seam-taped so moisture from the soil cannot migrate upward. Vents that once allowed outside air in are sealed; a dedicated dehumidifier sized for the cubic footage of the space is installed and drained to a condensate pump or gravity drain.
 
-The work involves confined-space entry, debris removal, existing insulation assessment, and in many cases treatment of any active mold growth on wood framing before the barrier goes down. Equipment on a typical job includes a commercial-grade dehumidifier, a moisture meter for structural wood readings, and a hygrometer to establish baseline and post-encapsulation relative humidity. Most residential crawl spaces in the Vandenberg Village area — many of which sit over sandy or clay-heavy soils that retain moisture from coastal fog and seasonal rains — can be fully encapsulated in one to two days depending on access, square footage, and the condition of existing materials.
+The work involves confined-space entry, debris removal, existing insulation assessment, and in many cases treatment of any active mold growth on wood framing before the barrier goes down. Equipment on a typical job includes a commercial-grade dehumidifier, a moisture meter for structural wood readings, and a hygrometer to establish baseline and post-encapsulation relative humidity. Most residential crawl spaces in the Vandenberg Village area, many of which sit over sandy or clay-heavy soils that retain moisture from coastal fog and seasonal rains, can be fully encapsulated in one to two days depending on access, square footage, and the condition of existing materials.
 
 ## Our process
 
 1. **Crawl space inspection and moisture mapping.** Before any material goes in, the space is measured, photographed, and tested. Wood moisture content is read at multiple joist and beam locations. Relative humidity is logged. Any standing water, pest evidence, or active mold is documented. This baseline determines what prep work is needed before encapsulation begins.
 
-2. **Debris removal and prep work.** Old, deteriorated fiberglass batt insulation — which holds moisture and loses all R-value when wet — is removed and disposed of. Debris, rodent nesting material, and any compromised vapor barrier remnants come out. If mold is present on structural wood, it is treated prior to sealing the space.
+2. **Debris removal and prep work.** Old, deteriorated fiberglass batt insulation, which holds moisture and loses all R-value when wet, is removed and disposed of. Debris, rodent nesting material, and any compromised vapor barrier remnants come out. If mold is present on structural wood, it is treated prior to sealing the space.
 
 3. **Liner installation.** A continuous heavy-mil vapor barrier is laid across the floor and run up the foundation walls, overlapping seams by a minimum of 12 inches and sealing them with manufacturer-rated tape. The liner is mechanically fastened to the foundation wall and, where applicable, wrapped around piers. Rim joists are insulated and air-sealed with closed-cell spray foam or rigid foam board.
 
 4. **Vent sealing and air sealing.** Existing foundation vents are closed and sealed from the interior. This converts the crawl space from a vented to a conditioned or semi-conditioned space, which is the configuration that actually maintains stable humidity levels year-round.
 
-5. **Dehumidifier installation and calibration.** A crawl space-rated dehumidifier is installed, plumbed to a drain, and set to maintain relative humidity below 55% — the threshold above which mold growth accelerates on wood. A final moisture reading of structural members is taken and documented.
+5. **Dehumidifier installation and calibration.** A crawl space-rated dehumidifier is installed, plumbed to a drain, and set to maintain relative humidity below 55%, the threshold above which mold growth accelerates on wood. A final moisture reading of structural members is taken and documented.
 
 ## What separates a good encapsulation from a bad one
 
-The most common shortcut is liner thickness. Consumer-grade 6-mil poly tears easily, punctures on gravel or debris, and fails at seams within a few seasons. A properly installed encapsulation uses reinforced 12–20 mil material with taped and fastened seams — not just overlapped edges held down by weight.
+The most common shortcut is liner thickness. Consumer-grade 6-mil poly tears easily, punctures on gravel or debris, and fails at seams within a few seasons. A properly installed encapsulation uses reinforced 12–20 mil material with taped and fastened seams, not just overlapped edges held down by weight.
 
 The second failure point is ignoring the rim joist. Warm interior air meets the cold foundation wall at the rim joist, and without air sealing, that junction is a continuous source of condensation and infiltration. Many budget encapsulations skip this step entirely.
 
 Third: installing a dehumidifier that is undersized for the actual cubic footage. A unit rated for a 1,000 sq ft basement will be overwhelmed in a 1,500 sq ft crawl space with high soil moisture. Proper sizing requires calculating both square footage and ceiling height, then selecting a unit with a built-in humidistat and auto-drain capability.
 
-Finally, skipping mold treatment before sealing is a significant mistake. Encapsulating over active mold growth traps the problem rather than resolving it — and the sealed, dark environment can actually accelerate colonization if any moisture source remains.
+Finally, skipping mold treatment before sealing is a significant mistake. Encapsulating over active mold growth traps the problem rather than resolving it, and the sealed, dark environment can actually accelerate colonization if any moisture source remains.
 
 ## What does crawl space encapsulation cost?
 
-Typical costs run from under $2,000 for a small, clean, accessible crawl space to well over $10,000 for larger footprints with significant prep work. Most homeowners pay somewhere in the middle of that range. The table below reflects typical industry figures — not a quote from Coastal Restoration Services Inc — and actual costs vary based on access, square footage, liner spec, and site conditions.
+Typical costs run from under $2,000 for a small, clean, accessible crawl space to well over $10,000 for larger footprints with significant prep work. Most homeowners pay somewhere in the middle of that range. The table below reflects typical industry figures, not a quote from Coastal Restoration Services Inc, and actual costs vary based on access, square footage, liner spec, and site conditions.
 
 | Scenario | Typical range |
 |---|---|
@@ -60,16 +60,16 @@ Typical costs run from under $2,000 for a small, clean, accessible crawl space t
 | Old insulation removal and disposal | Add $500 – $1,500 |
 | Rim joist insulation and air sealing | Add $400 – $1,200 |
 
-Every loss and every crawl space is different — Coastal Restoration Services Inc provides a written scope of work before any work begins so you know exactly what is included. Homeowners insurance typically does not cover encapsulation as a preventive upgrade, but when moisture intrusion or mold damage is tied to a covered peril such as a plumbing leak or storm-related water entry, remediation and encapsulation costs may be partially covered — documentation of the cause is key.
+Every loss and every crawl space is different, Coastal Restoration Services Inc provides a written scope of work before any work begins so you know exactly what is included. Homeowners insurance typically does not cover encapsulation as a preventive upgrade, but when moisture intrusion or mold damage is tied to a covered peril such as a plumbing leak or storm-related water entry, remediation and encapsulation costs may be partially covered, documentation of the cause is key.
 
 ## Seasonal and regional considerations
 
-Vandenberg Village and the surrounding Santa Barbara County coastal corridor experience a climate that is deceptively hard on crawl spaces. Mild temperatures year-round mean homeowners rarely think of their crawl space as a problem — but persistent coastal fog, marine layer humidity, and clay soils that stay saturated well into spring create conditions where crawl space relative humidity can remain above 70% for months at a time without any rain event at all. That sustained humidity is enough to drive wood moisture content above the 19% threshold where decay fungi become active.
+Vandenberg Village and the surrounding Santa Barbara County coastal corridor experience a climate that is deceptively hard on crawl spaces. Mild temperatures year-round mean homeowners rarely think of their crawl space as a problem, but persistent coastal fog, marine layer humidity, and clay soils that stay saturated well into spring create conditions where crawl space relative humidity can remain above 70% for months at a time without any rain event at all. That sustained humidity is enough to drive wood moisture content above the 19% threshold where decay fungi become active.
 
-The window between late fall and early spring — when soils are at peak saturation — is when moisture problems in crawl spaces tend to surface or worsen. Scheduling an inspection before the rainy season sets in gives the most accurate picture of what the space needs.
+The window between late fall and early spring, when soils are at peak saturation, is when moisture problems in crawl spaces tend to surface or worsen. Scheduling an inspection before the rainy season sets in gives the most accurate picture of what the space needs.
 
 ## Service area
 
 Coastal Restoration Services Inc is based in Vandenberg Village and serves homeowners and property managers throughout the surrounding region, including Lompoc, Santa Maria, Orcutt, Buellton, Solvang, and communities along the Santa Barbara County coast. The city-specific pages linked from this service cover local details, but the work and standards described here apply across the entire service area.
 
-If your floors feel soft, your home smells musty, or you simply have not had your crawl space looked at in years, call (805) 345-7440 to schedule a crawl space moisture assessment — the inspection will tell you exactly what you are dealing with before any commitment is made.
+If your floors feel soft, your home smells musty, or you simply have not had your crawl space looked at in years, call (805) 345-7440 to schedule a crawl space moisture assessment, the inspection will tell you exactly what you are dealing with before any commitment is made.

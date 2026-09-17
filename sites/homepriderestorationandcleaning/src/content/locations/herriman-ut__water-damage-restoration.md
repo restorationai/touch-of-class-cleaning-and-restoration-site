@@ -20,31 +20,31 @@ state: "UT"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
-Herriman sits at roughly 4,900 feet elevation on the western bench of the Wasatch Front, where freeze-thaw cycles hit hard between November and March. When a supply line bursts behind a wall or a sump pump fails during a spring snowmelt surge, water can travel fast through the newer-construction slab foundations that dominate Herriman's master-planned communities — soaking subfloor assemblies and wall cavities before a homeowner even notices the smell. Home Pride Restoration and Cleaning has been responding to exactly these calls since 1997, and our IICRC Certified technicians carry the equipment to stop the damage before it compounds.
+Herriman sits at roughly 4,900 feet elevation on the western bench of the Wasatch Front, where freeze-thaw cycles hit hard between November and March. When a supply line bursts behind a wall or a sump pump fails during a spring snowmelt surge, water can travel fast through the newer-construction slab foundations that dominate Herriman's master-planned communities, soaking subfloor assemblies and wall cavities before a homeowner even notices the smell. Home Pride Restoration and Cleaning has been responding to exactly these calls since 1997, and our IICRC Certified technicians carry the equipment to stop the damage before it compounds.
 
 ## Why Herriman Properties Are Vulnerable to Water Damage
 
-Most of Herriman's residential stock was built after 2000, which sounds like good news — newer materials, tighter construction. But that tight construction is part of the problem. Modern vapor barriers and insulated wall assemblies trap moisture once water gets inside. A slow leak behind a kitchen cabinet or a washing machine supply line that weeps for two weeks can saturate the OSB sheathing and bottom plates without showing a single stain on the drywall face.
+Most of Herriman's residential stock was built after 2000, which sounds like good news, newer materials, tighter construction. But that tight construction is part of the problem. Modern vapor barriers and insulated wall assemblies trap moisture once water gets inside. A slow leak behind a kitchen cabinet or a washing machine supply line that weeps for two weeks can saturate the OSB sheathing and bottom plates without showing a single stain on the drywall face.
 
-The clay-heavy soils common across the Herriman benchland also create hydrostatic pressure against foundation walls during heavy rain or rapid snowmelt. Finished basements in neighborhoods like Rosecrest and Daybreak-adjacent developments along the 84096 corridor see this pattern regularly — water wicks through hairline cracks in the foundation and pools under luxury vinyl plank or carpet before it's detected. Elevation also means cold winters: when temperatures drop into the single digits, pipes running through exterior walls or uninsulated garage spaces are genuinely at risk of freezing and bursting.
+The clay-heavy soils common across the Herriman benchland also create hydrostatic pressure against foundation walls during heavy rain or rapid snowmelt. Finished basements in neighborhoods like Rosecrest and Daybreak-adjacent developments along the 84096 corridor see this pattern regularly, water wicks through hairline cracks in the foundation and pools under luxury vinyl plank or carpet before it's detected. Elevation also means cold winters: when temperatures drop into the single digits, pipes running through exterior walls or uninsulated garage spaces are genuinely at risk of freezing and bursting.
 
 ## Our Water Damage Restoration Process in Herriman
 
-When you call (801) 995-2437, the first question we ask is where the water is sitting right now — because the answer changes what we load on the truck. Here's how a typical Herriman job unfolds:
+When you call (801) 995-2437, the first question we ask is where the water is sitting right now, because the answer changes what we load on the truck. Here's how a typical Herriman job unfolds:
 
 **1. Emergency water extraction.** We deploy truck-mounted and portable extractors to pull standing water from hard surfaces and carpet. In slab-on-grade homes, we pay close attention to expansion joints and seams where water migrates laterally under flooring.
 
-**2. Moisture mapping.** Thermal imaging cameras and calibrated moisture meters map the full extent of saturation — including inside wall cavities, under cabinets, and beneath flooring — before we remove a single baseboard. This step protects you and your insurance adjuster from surprises later.
+**2. Moisture mapping.** Thermal imaging cameras and calibrated moisture meters map the full extent of saturation, including inside wall cavities, under cabinets, and beneath flooring, before we remove a single baseboard. This step protects you and your insurance adjuster from surprises later.
 
-**3. Structural drying.** We place industrial desiccant dehumidifiers and high-velocity air movers in a calculated pattern based on the room's cubic footage and the measured grain depression needed to dry the structure. In Herriman's dry climate, ambient humidity works in our favor — but interior assemblies still need directed airflow to dry completely.
+**3. Structural drying.** We place industrial desiccant dehumidifiers and high-velocity air movers in a calculated pattern based on the room's cubic footage and the measured grain depression needed to dry the structure. In Herriman's dry climate, ambient humidity works in our favor, but interior assemblies still need directed airflow to dry completely.
 
-**4. Daily monitoring.** A technician returns each day to log moisture readings and adjust equipment placement. We don't pull equipment until the readings confirm the structure has returned to pre-loss moisture levels — not just surface-dry.
+**4. Daily monitoring.** A technician returns each day to log moisture readings and adjust equipment placement. We don't pull equipment until the readings confirm the structure has returned to pre-loss moisture levels, not just surface-dry.
 
 **5. Documentation for your claim.** Every reading, every photo, every equipment log goes into a report formatted for insurance carriers. We've worked with most major carriers and can coordinate directly with your adjuster.
 
 ## Response Time to Herriman from Our Saratoga Springs HQ
 
-Our headquarters in Saratoga Springs sits roughly 10–15 minutes from Herriman via Bangerter Highway or Mountain View Corridor, depending on traffic. For most addresses in the 84096 ZIP code — including homes near Herriman City Center and the Rosecrest area — a technician is typically on-site within 45 to 60 minutes of your call. We run 24/7 emergency response, including weekends and holidays, because water doesn't wait for Monday morning.
+Our headquarters in Saratoga Springs sits roughly 10–15 minutes from Herriman via Bangerter Highway or Mountain View Corridor, depending on traffic. For most addresses in the 84096 ZIP code, including homes near Herriman City Center and the Rosecrest area, a technician is typically on-site within 45 to 60 minutes of your call. We run 24/7 emergency response, including weekends and holidays, because water doesn't wait for Monday morning.
 
 ## Herriman Insurance & HOA Coordination
 
@@ -54,6 +54,6 @@ On the insurance side, water damage claims in Utah are straightforward when the 
 
 ## A Local Note on Herriman's Newer-Construction Slab Homes
 
-One thing that surprises homeowners in communities like Rosecrest is how far water travels under a slab-on-grade floor before it surfaces. Because Herriman's newer homes often use open-concept layouts with continuous LVP or tile across large square footages, a single point-source leak — say, a dishwasher supply line — can migrate 20 to 30 feet under the flooring before it becomes visible at a grout joint or seam. We always scan the full floor plan with moisture meters, not just the area around the obvious source. Skipping that step is how secondary mold problems start 30 days after a "finished" restoration job.
+One thing that surprises homeowners in communities like Rosecrest is how far water travels under a slab-on-grade floor before it surfaces. Because Herriman's newer homes often use open-concept layouts with continuous LVP or tile across large square footages, a single point-source leak, say, a dishwasher supply line, can migrate 20 to 30 feet under the flooring before it becomes visible at a grout joint or seam. We always scan the full floor plan with moisture meters, not just the area around the obvious source. Skipping that step is how secondary mold problems start 30 days after a "finished" restoration job.
 
-If you're dealing with standing water, wet walls, or flooring that sounds hollow when you walk on it, call (801) 995-2437 now. Every hour of delay in Herriman's sealed-construction homes is another hour moisture has to work deeper into the structure — and mold can begin colonizing wet materials in as little as 24 to 48 hours.
+If you're dealing with standing water, wet walls, or flooring that sounds hollow when you walk on it, call (801) 995-2437 now. Every hour of delay in Herriman's sealed-construction homes is another hour moisture has to work deeper into the structure, and mold can begin colonizing wet materials in as little as 24 to 48 hours.

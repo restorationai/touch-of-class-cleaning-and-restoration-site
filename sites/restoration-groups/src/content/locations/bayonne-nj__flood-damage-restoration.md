@@ -20,13 +20,13 @@ state: "NJ"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
-Bayonne sits on a narrow peninsula wedged between Newark Bay and the Kill Van Kull, and that geography has consequences every time a nor'easter stalls over the harbor or a storm surge pushes inland the way Sandy did in 2012. When floodwater reaches the finished basements and ground-floor units of the borough's dense early 20th-century two- and three-family homes, it moves fast — and the clock on mold colonization starts within 24 to 48 hours of saturation. The Restoration Group responds around the clock, dispatching IICRC Certified Firm (#210213) crews to Bayonne addresses in ZIP code 07002 whenever the call comes in.
+Bayonne sits on a narrow peninsula wedged between Newark Bay and the Kill Van Kull, and that geography has consequences every time a nor'easter stalls over the harbor or a storm surge pushes inland the way Sandy did in 2012. When floodwater reaches the finished basements and ground-floor units of the borough's dense early 20th-century two- and three-family homes, it moves fast, and the clock on mold colonization starts within 24 to 48 hours of saturation. The Restoration Group responds around the clock, dispatching IICRC Certified Firm (#210213) crews to Bayonne addresses in ZIP code 07002 whenever the call comes in.
 
 ## Why Bayonne Properties See Flood Damage Differently
 
 The same peninsula shape that gives Bayonne its waterfront character also concentrates flood risk in ways that don't apply to inland New Jersey towns. The low-lying blocks near Constable Hook and the Newark Bay waterfront sit at or barely above sea level, making them the first to receive storm surge and the last to drain. But flooding here isn't only a coastal story.
 
-The borough's housing stock is overwhelmingly pre-1950 construction — brick rowhomes, frame two-families, and postwar capes, most of them built over finished basements with cast-iron floor drains and original galvanized or lead supply lines that are quietly failing on schedule. A single supply-line rupture overnight can dump hundreds of gallons into a finished basement before a tenant notices. Dense rental occupancy means losses often go unreported for hours, and shared walls between attached homes mean water migrates laterally into neighboring units before anyone calls.
+The borough's housing stock is overwhelmingly pre-1950 construction, brick rowhomes, frame two-families, and postwar capes, most of them built over finished basements with cast-iron floor drains and original galvanized or lead supply lines that are quietly failing on schedule. A single supply-line rupture overnight can dump hundreds of gallons into a finished basement before a tenant notices. Dense rental occupancy means losses often go unreported for hours, and shared walls between attached homes mean water migrates laterally into neighboring units before anyone calls.
 
 The Route 440 corridor and Bayonne Crossing retail center add a commercial dimension: sprinkler activations, overnight roof leaks, and HVAC condensate failures in large-footprint retail spaces require high-volume extraction equipment that residential-only contractors don't carry.
 
@@ -38,15 +38,15 @@ Every flood loss is different, but the sequence that produces a dry, documented,
 
 **Moisture mapping** follows immediately. Thermal imaging and calibrated moisture meters trace water migration through original plaster walls, tongue-and-groove subfloors, and the brick-and-mortar assemblies common in Bergen Point and Downtown Bayonne rowhouses. Water hides in cavities that look dry on the surface.
 
-**Structural drying** uses industrial desiccant and refrigerant dehumidifiers alongside high-velocity air movers, positioned according to psychrometric calculations rather than guesswork. Drying logs are recorded daily — documentation your adjuster will need.
+**Structural drying** uses industrial desiccant and refrigerant dehumidifiers alongside high-velocity air movers, positioned according to psychrometric calculations rather than guesswork. Drying logs are recorded daily, documentation your adjuster will need.
 
 **Antimicrobial treatment** addresses any microbial growth that established itself during the saturation window. We do not make health claims about air quality, but we apply EPA-registered products to affected surfaces as a standard step.
 
-**Controlled demolition**, when necessary, removes saturated materials — wet insulation, buckled flooring, compromised drywall — that cannot be dried in place. Scope is documented photographically before anything is removed.
+**Controlled demolition**, when necessary, removes saturated materials, wet insulation, buckled flooring, compromised drywall, that cannot be dried in place. Scope is documented photographically before anything is removed.
 
 ## Reaching Bayonne from Kenilworth
 
-The Restoration Group's operations hub is in Kenilworth, NJ. Crews travel to Bayonne via the New Jersey Turnpike and Route 440, a route that stays navigable even during weather events that close secondary roads. Because Bayonne's street grid is tight — particularly around Stephen R. Gregg Park and the Uptown residential blocks — lead crews confirm parking and equipment staging before arrival on large jobs. For multi-unit buildings or commercial properties near the Bayonne Bridge approach, we coordinate with building management on access points in advance. Our hours are 24/7, so a call at 2 a.m. after a basement floods during a tidal surge gets the same response as a weekday morning pipe break.
+The Restoration Group's operations hub is in Kenilworth, NJ. Crews travel to Bayonne via the New Jersey Turnpike and Route 440, a route that stays navigable even during weather events that close secondary roads. Because Bayonne's street grid is tight, particularly around Stephen R. Gregg Park and the Uptown residential blocks, lead crews confirm parking and equipment staging before arrival on large jobs. For multi-unit buildings or commercial properties near the Bayonne Bridge approach, we coordinate with building management on access points in advance. Our hours are 24/7, so a call at 2 a.m. after a basement floods during a tidal surge gets the same response as a weekday morning pipe break.
 
 ## Bayonne Insurance Coordination
 
@@ -54,6 +54,6 @@ Most flood losses in Bayonne involve at least two coverage questions: the homeow
 
 ## Local Note
 
-One pattern that catches Bayonne homeowners off guard: the original plaster-on-wood-lath walls in pre-war two- and three-families absorb water more slowly than modern drywall, but they release it more slowly too. A wall that reads wet on a moisture meter after extraction may still be releasing vapor three or four days into the drying cycle. Crews who aren't tracking psychrometrics daily will pull equipment too early, leave residual moisture in the assembly, and set up conditions for mold behind intact plaster. We extend drying cycles in these homes and verify with final moisture readings before closing out — a step that matters especially in the dense attached housing around Bergen Point, where a wall is often shared with a neighbor who has no idea a loss occurred next door.
+One pattern that catches Bayonne homeowners off guard: the original plaster-on-wood-lath walls in pre-war two- and three-families absorb water more slowly than modern drywall, but they release it more slowly too. A wall that reads wet on a moisture meter after extraction may still be releasing vapor three or four days into the drying cycle. Crews who aren't tracking psychrometrics daily will pull equipment too early, leave residual moisture in the assembly, and set up conditions for mold behind intact plaster. We extend drying cycles in these homes and verify with final moisture readings before closing out, a step that matters especially in the dense attached housing around Bergen Point, where a wall is often shared with a neighbor who has no idea a loss occurred next door.
 
-If your home or property in Bayonne has taken on water — whether from a storm surge, a failed supply line, or a backed-up drain — call The Restoration Group at (855) 650-7422. We'll assess the damage, start extraction, and walk you through every step from wet floors to a documented, dry close-out.
+If your home or property in Bayonne has taken on water, whether from a storm surge, a failed supply line, or a backed-up drain, call The Restoration Group at (855) 650-7422. We'll assess the damage, start extraction, and walk you through every step from wet floors to a documented, dry close-out.

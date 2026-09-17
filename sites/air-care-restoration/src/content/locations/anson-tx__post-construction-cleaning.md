@@ -20,19 +20,19 @@ state: "TX"
 service_display: "Post-Construction and Specialty Cleaning"
 rendered: true
 ---
-Construction work in Anson moves at a pace set by West Texas itself — fast when the weather cooperates, complicated when the wind picks up and coats every freshly installed surface in fine Permian Basin caliche dust. Whether you've just wrapped a kitchen gut-out, a commercial build-out, or a full addition on a Jones County property, the debris, drywall powder, and construction residue left behind are a different animal than everyday dirt. Air Care Restoration handles post-construction and specialty cleaning for residential and commercial properties in Anson, bringing industrial equipment and IICRC-certified processes to a job that standard janitorial crews aren't equipped to finish.
+Construction work in Anson moves at a pace set by West Texas itself, fast when the weather cooperates, complicated when the wind picks up and coats every freshly installed surface in fine Permian Basin caliche dust. Whether you've just wrapped a kitchen gut-out, a commercial build-out, or a full addition on a Jones County property, the debris, drywall powder, and construction residue left behind are a different animal than everyday dirt. Air Care Restoration handles post-construction and specialty cleaning for residential and commercial properties in Anson, bringing industrial equipment and IICRC-certified processes to a job that standard janitorial crews aren't equipped to finish.
 
 ## Why Anson Properties Face Unique Post-Construction Cleanup Challenges
 
-Jones County sits in a stretch of West Texas where the soil is alkaline, fine-grained, and airborne on almost any given afternoon. During construction, that dust infiltrates wall cavities, HVAC ducts, and freshly cut framing before the building is even enclosed. By the time the last subcontractor leaves, a layer of silica-laden particulate has settled on every horizontal surface — window sills, light fixture housings, cabinet interiors — and worked into the texture of new flooring.
+Jones County sits in a stretch of West Texas where the soil is alkaline, fine-grained, and airborne on almost any given afternoon. During construction, that dust infiltrates wall cavities, HVAC ducts, and freshly cut framing before the building is even enclosed. By the time the last subcontractor leaves, a layer of silica-laden particulate has settled on every horizontal surface, window sills, light fixture housings, cabinet interiors, and worked into the texture of new flooring.
 
-Anson's older housing stock adds another layer of complexity. Many homes in town were built in eras when construction standards allowed materials — lead-based paint, older insulation types — that require careful handling during renovation. Sarha Boyd, Air Care Restoration's owner, holds EPA Certified Renovator (Lead RRP) credentials, which matters when a remodel disturbs pre-existing surfaces and the post-construction clean needs to account for what was uncovered, not just what was installed.
+Anson's older housing stock adds another layer of complexity. Many homes in town were built in eras when construction standards allowed materials, lead-based paint, older insulation types, that require careful handling during renovation. Sarha Boyd, Air Care Restoration's owner, holds EPA Certified Renovator (Lead RRP) credentials, which matters when a remodel disturbs pre-existing surfaces and the post-construction clean needs to account for what was uncovered, not just what was installed.
 
 Summer heat in this part of Texas also accelerates the cure time on adhesives, caulks, and grout, which means residue that might wipe off easily in a cooler climate has often baked onto tile and countertop edges by the time cleanup begins. Getting ahead of that window matters.
 
 ## Our Post-Construction Cleaning Process in Anson
 
-A final clean after construction isn't a single pass with a mop — it's a sequenced process that works from the top of the structure down and from the roughest debris to the finest particulate.
+A final clean after construction isn't a single pass with a mop, it's a sequenced process that works from the top of the structure down and from the roughest debris to the finest particulate.
 
 **Rough clean first.** Scrap lumber, drywall offcuts, packaging, and bulk debris come out before any surface cleaning begins. Leaving bulk material on-site while attempting detail work just redistributes dust.
 
@@ -40,16 +40,16 @@ A final clean after construction isn't a single pass with a mop — it's a seque
 
 **Surface and detail clean.** Windows (frames, tracks, and glass), cabinetry interiors, light fixtures, outlets, switch plates, baseboards, and door hardware all get individual attention. This is where the difference between a construction clean and a standard clean is most visible to the homeowner or property manager doing the final walkthrough.
 
-**Floor finish.** Hard surface floors — tile, LVP, hardwood — get cleaned in a way that removes construction adhesive haze and grout film without damaging the finish. Carpet, if installed, is vacuumed with HEPA-filtered equipment.
+**Floor finish.** Hard surface floors, tile, LVP, hardwood, get cleaned in a way that removes construction adhesive haze and grout film without damaging the finish. Carpet, if installed, is vacuumed with HEPA-filtered equipment.
 
 **Final inspection pass.** Before we close out, we walk the space with the same critical eye a buyer's agent or building inspector would use.
 
 ## Reaching Anson from Abilene
 
-Air Care Restoration is based in Abilene, roughly 25 miles west of Anson on US-83. That route is a straight shot across open country — no significant traffic bottlenecks, no mountain passes, no urban grid to navigate. We're available around the clock, so scheduling around a contractor's punch-list timeline or a property manager's handoff window isn't a problem. Call (325) 339-8723 to coordinate timing directly.
+Air Care Restoration is based in Abilene, roughly 25 miles west of Anson on US-83. That route is a straight shot across open country, no significant traffic bottlenecks, no mountain passes, no urban grid to navigate. We're available around the clock, so scheduling around a contractor's punch-list timeline or a property manager's handoff window isn't a problem. Call (325) 339-8723 to coordinate timing directly.
 
 ## Local Note
 
-One thing that catches out-of-area cleaning crews working in Anson is the combination of hard water and caliche-heavy construction dust on glass surfaces. The local water supply in Jones County is notably high in dissolved minerals, and when it contacts the alkaline dust residue left on windows and shower enclosures after construction, it creates a calcium carbonate film that standard glass cleaner won't cut. We treat those surfaces with appropriate mineral deposit removers before any final polish — skipping that step leaves a haze that's visible in direct afternoon light and frustrating to explain to a client who's already paid for a final clean.
+One thing that catches out-of-area cleaning crews working in Anson is the combination of hard water and caliche-heavy construction dust on glass surfaces. The local water supply in Jones County is notably high in dissolved minerals, and when it contacts the alkaline dust residue left on windows and shower enclosures after construction, it creates a calcium carbonate film that standard glass cleaner won't cut. We treat those surfaces with appropriate mineral deposit removers before any final polish, skipping that step leaves a haze that's visible in direct afternoon light and frustrating to explain to a client who's already paid for a final clean.
 
-For post-construction and specialty cleaning in Anson, the finish line isn't when the last contractor leaves — it's when the space is genuinely ready for occupancy. Call Air Care Restoration at (325) 339-8723 to schedule your final clean and walk away from the project with confidence in what you're handing over.
+For post-construction and specialty cleaning in Anson, the finish line isn't when the last contractor leaves, it's when the space is genuinely ready for occupancy. Call Air Care Restoration at (325) 339-8723 to schedule your final clean and walk away from the project with confidence in what you're handing over.

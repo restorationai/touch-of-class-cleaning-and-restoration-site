@@ -20,13 +20,13 @@ state: "IA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
-When a severe storm rolls across Osceola County, Sibley absorbs the full force of northwest Iowa's open-sky weather — hail the size of quarters, straight-line winds that can top 80 mph, and tornado touchdowns that have historically tracked along the flat terrain surrounding the county seat. Homes near Downtown Sibley and out toward the Osceola County Fairgrounds area sit exposed with little natural windbreak, and when a storm tears off shingles, drops a tree onto a roof, or drives water through a compromised wall, the damage compounds fast. Crew Restoration & Construction responds to storm-damaged properties throughout the 51249 ZIP code, helping homeowners and property managers stop the bleeding and get their buildings back to pre-loss condition.
+When a severe storm rolls across Osceola County, Sibley absorbs the full force of northwest Iowa's open-sky weather, hail the size of quarters, straight-line winds that can top 80 mph, and tornado touchdowns that have historically tracked along the flat terrain surrounding the county seat. Homes near Downtown Sibley and out toward the Osceola County Fairgrounds area sit exposed with little natural windbreak, and when a storm tears off shingles, drops a tree onto a roof, or drives water through a compromised wall, the damage compounds fast. Crew Restoration & Construction responds to storm-damaged properties throughout the 51249 ZIP code, helping homeowners and property managers stop the bleeding and get their buildings back to pre-loss condition.
 
 ## Why Sibley Properties See Disproportionate Storm Damage
 
 Northwest Iowa sits squarely in a corridor where late-spring and summer supercells develop with little warning. The flat, treeless landscape around Sibley gives storms almost no friction to slow them down before they reach town. That translates into a few specific vulnerabilities local property owners deal with repeatedly:
 
-**Aging rooflines on historic structures.** The blocks surrounding the Osceola County Courthouse include homes and commercial buildings constructed in the early 1900s. Many still have original wood decking under newer shingle layers, and that decking — dried out over decades — splinters rather than flexes when hail impacts it, creating hidden voids that don't show up until interior water staining appears days later.
+**Aging rooflines on historic structures.** The blocks surrounding the Osceola County Courthouse include homes and commercial buildings constructed in the early 1900s. Many still have original wood decking under newer shingle layers, and that decking, dried out over decades, splinters rather than flexes when hail impacts it, creating hidden voids that don't show up until interior water staining appears days later.
 
 **Shallow-rooted shelterbelts.** Sibley's older residential lots often feature mature cottonwoods and elms planted as windbreaks. These trees provide some protection in moderate storms but become projectiles in severe events. A single large cottonwood can punch through a roof deck, crack a load-bearing rafter, and deposit 500 gallons of standing water inside a structure within hours of impact.
 
@@ -34,26 +34,26 @@ Northwest Iowa sits squarely in a corridor where late-spring and summer supercel
 
 ## Our Storm Damage Restoration Process in Sibley
 
-Every storm job starts with a thorough damage assessment — not a quick walk-around, but a methodical inspection of the roof, attic cavity, exterior walls, and foundation perimeter. We document everything photographically before touching a single material, because that documentation is what drives a successful insurance claim.
+Every storm job starts with a thorough damage assessment, not a quick walk-around, but a methodical inspection of the roof, attic cavity, exterior walls, and foundation perimeter. We document everything photographically before touching a single material, because that documentation is what drives a successful insurance claim.
 
 From there, the work moves in a deliberate sequence:
 
-1. **Emergency stabilization** — tarping compromised roof sections, boarding broken windows, and extracting any standing water before it migrates into wall cavities or subfloor assemblies.
-2. **Structural assessment** — identifying damaged rafters, wall framing, or load-bearing elements that need repair or sister-framing before finish work begins.
-3. **Controlled drying** — deploying commercial-grade dehumidifiers and air movers to bring moisture readings in wood and drywall down to acceptable levels. In Sibley's humid summer climate, this phase typically runs longer than in drier regions, and we monitor readings daily rather than pulling equipment on a fixed schedule.
-4. **Debris and tree removal coordination** — for properties where a fallen tree is still in contact with the structure, we coordinate safe removal before reconstruction begins.
-5. **Reconstruction** — roofing, siding, drywall, insulation, and interior finishes restored to match pre-storm condition.
+1. **Emergency stabilization**, tarping compromised roof sections, boarding broken windows, and extracting any standing water before it migrates into wall cavities or subfloor assemblies.
+2. **Structural assessment**, identifying damaged rafters, wall framing, or load-bearing elements that need repair or sister-framing before finish work begins.
+3. **Controlled drying**, deploying commercial-grade dehumidifiers and air movers to bring moisture readings in wood and drywall down to acceptable levels. In Sibley's humid summer climate, this phase typically runs longer than in drier regions, and we monitor readings daily rather than pulling equipment on a fixed schedule.
+4. **Debris and tree removal coordination**, for properties where a fallen tree is still in contact with the structure, we coordinate safe removal before reconstruction begins.
+5. **Reconstruction**, roofing, siding, drywall, insulation, and interior finishes restored to match pre-storm condition.
 
 ## Reaching Sibley from Sioux Falls
 
-Crew Restoration & Construction is headquartered in Sioux Falls, SD, and serves Sibley via US-18 west through Worthington and then north on IA-60 — a route that keeps us connected to northwest Iowa's storm corridor throughout the season. When a widespread weather event affects multiple communities simultaneously, we prioritize dispatch based on severity and structural safety risk. Property owners in Sibley should call (605) 965-2727 to get on the schedule; our team will give you an honest arrival estimate based on current crew availability rather than a number we can't back up.
+Crew Restoration & Construction is headquartered in Sioux Falls, SD, and serves Sibley via US-18 west through Worthington and then north on IA-60, a route that keeps us connected to northwest Iowa's storm corridor throughout the season. When a widespread weather event affects multiple communities simultaneously, we prioritize dispatch based on severity and structural safety risk. Property owners in Sibley should call (605) 965-2727 to get on the schedule; our team will give you an honest arrival estimate based on current crew availability rather than a number we can't back up.
 
 ## Sibley Insurance Coordination
 
-Most storm damage claims in Osceola County run through standard homeowners policies, but the documentation requirements vary by carrier. We work directly with adjusters, providing moisture readings, photo logs, and scope-of-work estimates in the formats most carriers prefer. For older properties near Downtown Sibley — where replacement materials sometimes need to match historic character — we flag those details early so the adjuster can account for them in the settlement rather than discovering a discrepancy at the end of the job.
+Most storm damage claims in Osceola County run through standard homeowners policies, but the documentation requirements vary by carrier. We work directly with adjusters, providing moisture readings, photo logs, and scope-of-work estimates in the formats most carriers prefer. For older properties near Downtown Sibley, where replacement materials sometimes need to match historic character, we flag those details early so the adjuster can account for them in the settlement rather than discovering a discrepancy at the end of the job.
 
 ## Local Note
 
-One pattern we've noticed on Sibley jobs that doesn't show up as often elsewhere: homes built in the 1940s and 1950s on the residential streets west of Sibley City Park frequently have double-layer roofing — a newer shingle layer installed directly over the original. After a hail event, the outer layer may look intact on a surface inspection while the underlayment between the two layers has trapped moisture and begun to degrade. If your home falls in that era and you've had any recent hail, it's worth having the attic cavity checked for moisture intrusion even if your shingles appear undamaged from the street.
+One pattern we've noticed on Sibley jobs that doesn't show up as often elsewhere: homes built in the 1940s and 1950s on the residential streets west of Sibley City Park frequently have double-layer roofing, a newer shingle layer installed directly over the original. After a hail event, the outer layer may look intact on a surface inspection while the underlayment between the two layers has trapped moisture and begun to degrade. If your home falls in that era and you've had any recent hail, it's worth having the attic cavity checked for moisture intrusion even if your shingles appear undamaged from the street.
 
-Storm damage doesn't wait for a convenient moment, and in Sibley's climate, a single severe weather event can set off a chain of secondary problems — mold growth within 48 to 72 hours of water intrusion, structural weakening from saturated wood, and insulation that loses its R-value when wet. If your property in the 51249 area has taken a hit, call Crew Restoration & Construction at (605) 965-2727 and let's get eyes on it before the damage gets ahead of you.
+Storm damage doesn't wait for a convenient moment, and in Sibley's climate, a single severe weather event can set off a chain of secondary problems, mold growth within 48 to 72 hours of water intrusion, structural weakening from saturated wood, and insulation that loses its R-value when wet. If your property in the 51249 area has taken a hit, call Crew Restoration & Construction at (605) 965-2727 and let's get eyes on it before the damage gets ahead of you.

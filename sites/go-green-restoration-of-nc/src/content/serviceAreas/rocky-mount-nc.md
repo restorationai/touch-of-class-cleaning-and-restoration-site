@@ -19,11 +19,11 @@ state: "NC"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall in Rocky Mount or a crawl space fills with standing water after a storm, Go Agree Restoration of NC responds with the equipment, documentation, and trained crew to stop the damage from spreading — and to get your home or building back to a livable condition. From mold remediation to fire and smoke cleanup, we handle the full scope of property restoration for Rocky Mount homeowners, landlords, and commercial property managers.
+When a pipe bursts behind a wall in Rocky Mount or a crawl space fills with standing water after a storm, Go Agree Restoration of NC responds with the equipment, documentation, and trained crew to stop the damage from spreading, and to get your home or building back to a livable condition. From mold remediation to fire and smoke cleanup, we handle the full scope of property restoration for Rocky Mount homeowners, landlords, and commercial property managers.
 
 ## Restoration emergencies common in Rocky Mount
 
-Rocky Mount sits in the Tar River basin, and that geography shapes the kind of damage local properties see. The city straddles Nash and Edgecombe counties, and much of its residential housing stock — particularly in older sections near downtown and the historic mill neighborhoods — was built before modern moisture barriers and vapor retarders were standard practice. Crawl spaces are common, and they collect humidity. When Nash County summers push relative humidity into the high 80s for weeks at a stretch, those crawl spaces become incubators: mold can begin colonizing damp wood framing within 24 to 48 hours of a moisture event.
+Rocky Mount sits in the Tar River basin, and that geography shapes the kind of damage local properties see. The city straddles Nash and Edgecombe counties, and much of its residential housing stock, particularly in older sections near downtown and the historic mill neighborhoods, was built before modern moisture barriers and vapor retarders were standard practice. Crawl spaces are common, and they collect humidity. When Nash County summers push relative humidity into the high 80s for weeks at a stretch, those crawl spaces become incubators: mold can begin colonizing damp wood framing within 24 to 48 hours of a moisture event.
 
 The Tar River itself is a recurring factor. Flooding from the river affected large parts of the city after both Hurricane Floyd in 1999 and Hurricane Matthew in 2016, leaving a generation of property owners who understand firsthand how quickly water damage escalates. Even in non-hurricane years, heavy convective storms roll through Nash and Edgecombe counties between May and September, overwhelming gutters and pushing water into basements, crawl spaces, and garage slabs. Older commercial buildings near the railroad corridor downtown face their own challenges: aging flat roofs, cast-iron drain stacks, and decades of deferred maintenance that turn a small leak into a large remediation project.
 
@@ -31,11 +31,11 @@ The Tar River itself is a recurring factor. Flooding from the river affected lar
 
 ### Water damage restoration
 
-Water damage in Rocky Mount often starts in places you can't see — under a slab, inside a crawl space, or behind the tile in a bathroom that hasn't been updated since the 1970s. We extract standing water, use moisture mapping to trace how far saturation has traveled through subfloor and wall cavities, and dry structural materials to documented targets before any rebuild begins. We photograph and document the loss for insurance purposes throughout the process.
+Water damage in Rocky Mount often starts in places you can't see, under a slab, inside a crawl space, or behind the tile in a bathroom that hasn't been updated since the 1970s. We extract standing water, use moisture mapping to trace how far saturation has traveled through subfloor and wall cavities, and dry structural materials to documented targets before any rebuild begins. We photograph and document the loss for insurance purposes throughout the process.
 
 ### Mold remediation
 
-The combination of Rocky Mount's humidity, older housing stock, and frequent crawl space construction means mold calls are among the most common work we do in this area. We contain affected areas to prevent cross-contamination, remove compromised materials, treat surfaces per established remediation protocols, and address the underlying moisture source. We do not offer medical advice on health effects — if you have health concerns, consult a physician — but we can tell you what the visible and hidden mold situation looks like in your property and what it will take to correct it.
+The combination of Rocky Mount's humidity, older housing stock, and frequent crawl space construction means mold calls are among the most common work we do in this area. We contain affected areas to prevent cross-contamination, remove compromised materials, treat surfaces per established remediation protocols, and address the underlying moisture source. We do not offer medical advice on health effects, if you have health concerns, consult a physician, but we can tell you what the visible and hidden mold situation looks like in your property and what it will take to correct it.
 
 ### Fire and smoke damage restoration
 
@@ -43,7 +43,7 @@ After a fire, the visible char is often less damaging than the smoke residue tha
 
 ### Biohazard and specialty cleanup
 
-We handle situations that require discretion and proper disposal protocols — sewage backups, unattended incidents, and similar events. Work is performed following applicable safety standards, and waste is disposed of through licensed channels.
+We handle situations that require discretion and proper disposal protocols, sewage backups, unattended incidents, and similar events. Work is performed following applicable safety standards, and waste is disposed of through licensed channels.
 
 ### Reconstruction
 
@@ -51,7 +51,7 @@ Once mitigation is complete, we can carry the project through structural repairs
 
 ## Coverage and how fast we can get there
 
-Go Agree Restoration of NC is headquartered in Middlesex, NC, which puts Rocky Mount roughly 25 to 30 miles northeast via US-264 East — a straightforward drive on a four-lane highway with no significant bottlenecks under normal conditions. We serve all of Rocky Mount, including properties in the 27801 and 27804 ZIP codes. Whether the call comes from a property near Nash Community College, a commercial building along the Sunset Avenue corridor, or a residence closer to the Edgecombe County line, we route from Middlesex and can provide scheduling based on your situation and our current dispatch. We do not make specific minute promises here — call us at (919) 906-5473 and we will give you a realistic arrival window based on current conditions.
+Go Agree Restoration of NC is headquartered in Middlesex, NC, which puts Rocky Mount roughly 25 to 30 miles northeast via US-264 East, a straightforward drive on a four-lane highway with no significant bottlenecks under normal conditions. We serve all of Rocky Mount, including properties in the 27801 and 27804 ZIP codes. Whether the call comes from a property near Nash Community College, a commercial building along the Sunset Avenue corridor, or a residence closer to the Edgecombe County line, we route from Middlesex and can provide scheduling based on your situation and our current dispatch. We do not make specific minute promises here, call us at (919) 906-5473 and we will give you a realistic arrival window based on current conditions.
 
 ## Building stock, site conditions, and permits in Rocky Mount
 

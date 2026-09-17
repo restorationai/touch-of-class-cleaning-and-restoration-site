@@ -19,19 +19,19 @@ state: "NJ"
 primary: false
 rendered: true
 ---
-When a pipe bursts in a Speedwell Avenue storefront at 2 a.m. or a finished basement in the Historic District fills with water after a heavy storm, Morristown property owners need someone who can move fast and knows what they're walking into. The Restoration Group handles water damage, fire and smoke damage, mold remediation, and full reconstruction for homes and commercial properties across Morristown — reaching 07960 and 07963 around the clock, every day of the year.
+When a pipe bursts in a Speedwell Avenue storefront at 2 a.m. or a finished basement in the Historic District fills with water after a heavy storm, Morristown property owners need someone who can move fast and knows what they're walking into. The Restoration Group handles water damage, fire and smoke damage, mold remediation, and full reconstruction for homes and commercial properties across Morristown, reaching 07960 and 07963 around the clock, every day of the year.
 
 ## Restoration emergencies common in Morristown
 
-Morristown's restoration profile is shaped by two things that don't change: old infrastructure and geography. The dense historic core near The Green and the Cauldwell neighborhood is lined with Victorians and colonials built between the 1880s and 1920s. Many still run on galvanized steel supply lines and cast-iron drains — materials that corrode quietly for decades before they fail catastrophically inside a finished basement or behind a plaster wall. When they go, the water doesn't just sit on a concrete slab; it soaks into original hardwood, old-growth framing, and horsehair plaster that absorbs moisture far differently than modern drywall.
+Morristown's restoration profile is shaped by two things that don't change: old infrastructure and geography. The dense historic core near The Green and the Cauldwell neighborhood is lined with Victorians and colonials built between the 1880s and 1920s. Many still run on galvanized steel supply lines and cast-iron drains, materials that corrode quietly for decades before they fail catastrophically inside a finished basement or behind a plaster wall. When they go, the water doesn't just sit on a concrete slab; it soaks into original hardwood, old-growth framing, and horsehair plaster that absorbs moisture far differently than modern drywall.
 
-Geography adds another layer. The Whippany River traces the town's edge, and low-lying streets flood during heavy rainfall events — Ida's remnants in 2021 pushed water into dozens of basements and ground-floor units across town. The newer luxury apartment towers downtown introduce a different failure mode: high-floor supply-line breaks that travel through multiple units before anyone notices. Morristown Medical Center and the commercial corridors along South Street generate their own pattern of overnight roof leaks and mechanical-room losses that can't wait for a Monday morning callback.
+Geography adds another layer. The Whippany River traces the town's edge, and low-lying streets flood during heavy rainfall events, Ida's remnants in 2021 pushed water into dozens of basements and ground-floor units across town. The newer luxury apartment towers downtown introduce a different failure mode: high-floor supply-line breaks that travel through multiple units before anyone notices. Morristown Medical Center and the commercial corridors along South Street generate their own pattern of overnight roof leaks and mechanical-room losses that can't wait for a Monday morning callback.
 
 ## Services we provide in Morristown
 
 ### Water damage restoration
 
-Water damage in Morristown frequently involves structures that were never designed for modern moisture loads. A slow leak behind a cast-iron drain in a Franklin Corner colonial can saturate floor joists for weeks before it surfaces. Our crews extract standing water, deploy drying equipment calibrated to the material density of older construction, and document moisture readings throughout the process — dried to the IICRC S500 standard. We also work directly with insurance carriers so property owners aren't managing the billing while their home is still wet.
+Water damage in Morristown frequently involves structures that were never designed for modern moisture loads. A slow leak behind a cast-iron drain in a Franklin Corner colonial can saturate floor joists for weeks before it surfaces. Our crews extract standing water, deploy drying equipment calibrated to the material density of older construction, and document moisture readings throughout the process, dried to the IICRC S500 standard. We also work directly with insurance carriers so property owners aren't managing the billing while their home is still wet.
 
 ### Mold remediation
 
@@ -39,15 +39,15 @@ Morristown's humid summers and the frequency of basement flooding create conditi
 
 ### Fire and smoke damage restoration
 
-Smoke residue from a kitchen fire in a Little Italy row house or an electrical fire in a Historic District Victorian doesn't stay in the room where the fire started — it migrates through HVAC systems, settles into soft materials, and leaves an odor that resurfaces for months if the source isn't fully addressed. We handle soot removal, odor neutralization, and structural drying from suppression water, then coordinate reconstruction so owners deal with one contractor instead of three.
+Smoke residue from a kitchen fire in a Little Italy row house or an electrical fire in a Historic District Victorian doesn't stay in the room where the fire started, it migrates through HVAC systems, settles into soft materials, and leaves an odor that resurfaces for months if the source isn't fully addressed. We handle soot removal, odor neutralization, and structural drying from suppression water, then coordinate reconstruction so owners deal with one contractor instead of three.
 
 ### Commercial restoration
 
-Restaurants and retail around Morristown Green, medical office suites near Morristown Medical Center, and multi-unit residential buildings all face losses that carry a business-interruption cost on top of the physical damage. We prioritize rapid stabilization — boarding, tarping, emergency extraction — to limit the window between the loss and the point where a property can reopen.
+Restaurants and retail around Morristown Green, medical office suites near Morristown Medical Center, and multi-unit residential buildings all face losses that carry a business-interruption cost on top of the physical damage. We prioritize rapid stabilization, boarding, tarping, emergency extraction, to limit the window between the loss and the point where a property can reopen.
 
 ## Coverage and how fast we can get there
 
-The Restoration Group is based in Kenilworth, NJ, roughly 18 miles east of Morristown via I-78 West or Route 24 West. Both routes feed directly into the 07960 ZIP code, putting our crews close to the Historic District, The Green, and the Speedwell corridor without navigating through downtown congestion. The Vail Mansion and Ford Mansion neighborhoods in the 07963 ZIP are accessible via Route 202 South from the same approach. Because we operate 24 hours a day, 7 days a week, a call at any hour connects to a live dispatcher who can have a crew en route — not a voicemail.
+The Restoration Group is based in Kenilworth, NJ, roughly 18 miles east of Morristown via I-78 West or Route 24 West. Both routes feed directly into the 07960 ZIP code, putting our crews close to the Historic District, The Green, and the Speedwell corridor without navigating through downtown congestion. The Vail Mansion and Ford Mansion neighborhoods in the 07963 ZIP are accessible via Route 202 South from the same approach. Because we operate 24 hours a day, 7 days a week, a call at any hour connects to a live dispatcher who can have a crew en route, not a voicemail.
 
 ## Building stock, site conditions, and permits in Morristown
 
@@ -57,4 +57,4 @@ Pre-1978 paint, asbestos in old pipe and boiler insulation, and surviving knob-a
 
 Permits for structural repair or rebuild run through the town construction office under New Jersey's Uniform Construction Code, and exterior work in the Historic District can also draw preservation review.
 
-If you're dealing with an active loss or trying to get ahead of damage you've already found, call The Restoration Group at **(855) 650-7422**. We're available around the clock and can dispatch to any Morristown neighborhood — 07960 or 07963 — day or night.
+If you're dealing with an active loss or trying to get ahead of damage you've already found, call The Restoration Group at **(855) 650-7422**. We're available around the clock and can dispatch to any Morristown neighborhood, 07960 or 07963, day or night.

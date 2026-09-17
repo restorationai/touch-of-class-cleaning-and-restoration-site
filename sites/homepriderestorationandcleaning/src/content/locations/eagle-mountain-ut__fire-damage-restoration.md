@@ -20,31 +20,31 @@ state: "UT"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-Eagle Mountain sits at roughly 4,900 feet on the west bench of Utah Lake Valley, where dry canyon winds funnel down from the Traverse Mountains and can push a structure fire through a home faster than almost anywhere else along the Wasatch Front. When smoke has already soaked into your drywall and the acrid smell is still hanging in every room, the clock matters — soot becomes chemically bonded to surfaces within 72 hours, and secondary damage from firefighting water can rival the fire itself. Home Pride Restoration and Cleaning has handled post-fire work across the valley since 1997, and our crews understand what that high-desert air does to a fire scene.
+Eagle Mountain sits at roughly 4,900 feet on the west bench of Utah Lake Valley, where dry canyon winds funnel down from the Traverse Mountains and can push a structure fire through a home faster than almost anywhere else along the Wasatch Front. When smoke has already soaked into your drywall and the acrid smell is still hanging in every room, the clock matters, soot becomes chemically bonded to surfaces within 72 hours, and secondary damage from firefighting water can rival the fire itself. Home Pride Restoration and Cleaning has handled post-fire work across the valley since 1997, and our crews understand what that high-desert air does to a fire scene.
 
 ## Why Eagle Mountain Homes Face Particular Fire Risks
 
-Most of Eagle Mountain's housing stock was built after 2000, concentrated in large planned subdivisions where homes sit close together on similar lot sizes. That density matters after a fire: ember cast from a roof or attic vent can reach a neighbor's eave in seconds under the right wind conditions, and the open-truss roof designs common in homes built during the 2003–2015 construction boom here are engineered for load efficiency — not fire resistance. Once a truss system is compromised, it can fail silently, which is why our structural assessment phase never skips attic access even when visible damage looks minor.
+Most of Eagle Mountain's housing stock was built after 2000, concentrated in large planned subdivisions where homes sit close together on similar lot sizes. That density matters after a fire: ember cast from a roof or attic vent can reach a neighbor's eave in seconds under the right wind conditions, and the open-truss roof designs common in homes built during the 2003–2015 construction boom here are engineered for load efficiency, not fire resistance. Once a truss system is compromised, it can fail silently, which is why our structural assessment phase never skips attic access even when visible damage looks minor.
 
-The area also relies heavily on natural gas for heating, and many homes in Eagle Mountain's newer developments have tankless water heaters and high-efficiency furnaces tucked into utility closets adjacent to living spaces. A gas-related ignition in one of those tight mechanical rooms produces a concentrated, superheated smoke that drives deep into HVAC ductwork within minutes. That duct contamination is one of the most under-addressed problems in post-fire restoration — and one of the most common callbacks we see when another contractor skips it.
+The area also relies heavily on natural gas for heating, and many homes in Eagle Mountain's newer developments have tankless water heaters and high-efficiency furnaces tucked into utility closets adjacent to living spaces. A gas-related ignition in one of those tight mechanical rooms produces a concentrated, superheated smoke that drives deep into HVAC ductwork within minutes. That duct contamination is one of the most under-addressed problems in post-fire restoration, and one of the most common callbacks we see when another contractor skips it.
 
 ## Our Fire Damage Restoration Process in Eagle Mountain
 
-Every job starts with a documented scope walk before a single tool comes off the truck. We photograph and catalog damage room by room, note structural concerns, and test surfaces with a pH strip — alkaline soot from synthetic materials (very common in newer Eagle Mountain homes with engineered wood cabinetry and LVP flooring) requires a different cleaning chemistry than the acidic residue left by natural wood fires.
+Every job starts with a documented scope walk before a single tool comes off the truck. We photograph and catalog damage room by room, note structural concerns, and test surfaces with a pH strip, alkaline soot from synthetic materials (very common in newer Eagle Mountain homes with engineered wood cabinetry and LVP flooring) requires a different cleaning chemistry than the acidic residue left by natural wood fires.
 
 From there, the process moves in a deliberate sequence:
 
-- **Emergency board-up and tarping** to secure the structure and prevent weather intrusion — critical given how quickly afternoon thunderstorms roll through the area in summer.
+- **Emergency board-up and tarping** to secure the structure and prevent weather intrusion, critical given how quickly afternoon thunderstorms roll through the area in summer.
 - **Water extraction and drying** from firefighting efforts, using desiccant dehumidifiers calibrated for low-humidity, high-altitude conditions. Standard refrigerant dehumidifiers underperform above 4,500 feet; we bring the right equipment for Eagle Mountain's elevation.
 - **Soot and smoke removal** from all surfaces, including inside HVAC ducts, attic insulation, and wall cavities where smoke migrates under pressure.
-- **Odor neutralization** using thermal fogging and hydroxyl generation — not masking agents — so the smell doesn't return when temperatures rise.
+- **Odor neutralization** using thermal fogging and hydroxyl generation, not masking agents, so the smell doesn't return when temperatures rise.
 - **Structural drying and rebuild coordination**, working with your insurance adjuster and, where applicable, Eagle Mountain City's building department for permit-required reconstruction.
 
 We're IICRC Certified and licensed in Utah (RC-25-0737), which matters when your insurance carrier asks for documentation.
 
 ## Response Time to Eagle Mountain
 
-Our headquarters is in Saratoga Springs, roughly 10–15 minutes from most Eagle Mountain addresses via Pony Express Parkway. On a clear run, we can have a crew on-site within 45–60 minutes of your call to (801) 995-2437. Homes in the Ranches area near Eagle Mountain Boulevard typically see us in under 45 minutes; properties further west toward the newer phases off Pony Express can add 10 minutes depending on construction traffic. We run 24/7 — fire doesn't wait for business hours.
+Our headquarters is in Saratoga Springs, roughly 10–15 minutes from most Eagle Mountain addresses via Pony Express Parkway. On a clear run, we can have a crew on-site within 45–60 minutes of your call to (801) 995-2437. Homes in the Ranches area near Eagle Mountain Boulevard typically see us in under 45 minutes; properties further west toward the newer phases off Pony Express can add 10 minutes depending on construction traffic. We run 24/7, fire doesn't wait for business hours.
 
 ## Eagle Mountain Insurance Coordination
 
@@ -52,6 +52,6 @@ Fire claims in Eagle Mountain are generally handled through standard homeowner's
 
 ## Local Note
 
-One thing that catches homeowners off guard in Eagle Mountain's Ranches subdivisions: many of these homes were built with OSB (oriented strand board) sheathing rather than plywood, and OSB absorbs smoke odor compounds differently than solid wood. It also swells and delaminates faster when hit with firefighting water. During our structural assessment, we probe OSB panels in the attic and exterior walls with a moisture meter before making any keep-or-replace recommendation — a step that saves money when the board is salvageable, and prevents a future odor callback when it isn't.
+One thing that catches homeowners off guard in Eagle Mountain's Ranches subdivisions: many of these homes were built with OSB (oriented strand board) sheathing rather than plywood, and OSB absorbs smoke odor compounds differently than solid wood. It also swells and delaminates faster when hit with firefighting water. During our structural assessment, we probe OSB panels in the attic and exterior walls with a moisture meter before making any keep-or-replace recommendation, a step that saves money when the board is salvageable, and prevents a future odor callback when it isn't.
 
-If your Eagle Mountain home has been through a fire — whether it's visible char or just heavy smoke damage — call (801) 995-2437 now. The sooner soot is neutralized and moisture is controlled, the more of your home we can save and the shorter your displacement will be.
+If your Eagle Mountain home has been through a fire, whether it's visible char or just heavy smoke damage, call (801) 995-2437 now. The sooner soot is neutralized and moisture is controlled, the more of your home we can save and the shorter your displacement will be.

@@ -20,40 +20,40 @@ state: "CA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
-When a Pacific storm rolls through the Central Coast and stalls over Ballard, the damage it leaves behind rarely fits a neat category. Wind-driven rain finds its way under aging roof flashing, debris from eucalyptus and coastal oak punches through screens and siding, and saturated soil shifts beneath foundations that were poured decades before current seismic and drainage codes. Coastal Restoration Services Inc responds to that specific kind of storm aftermath — not a generic checklist, but work calibrated to what Ballard's housing stock and coastal climate actually do to a property.
+When a Pacific storm rolls through the Central Coast and stalls over Ballard, the damage it leaves behind rarely fits a neat category. Wind-driven rain finds its way under aging roof flashing, debris from eucalyptus and coastal oak punches through screens and siding, and saturated soil shifts beneath foundations that were poured decades before current seismic and drainage codes. Coastal Restoration Services Inc responds to that specific kind of storm aftermath, not a generic checklist, but work calibrated to what Ballard's housing stock and coastal climate actually do to a property.
 
 ## Why Ballard Properties Are Vulnerable to Storm Damage
 
-Ballard sits in a corridor where Pacific moisture systems can accelerate as they compress against the coastal ranges. That geography means wind gusts here routinely outlast the storm itself, and rainfall totals can spike in a matter of hours rather than days. The result is a pattern that shows up repeatedly on local roofs and foundations: water intrusion doesn't arrive through one obvious breach — it arrives through several small ones simultaneously.
+Ballard sits in a corridor where Pacific moisture systems can accelerate as they compress against the coastal ranges. That geography means wind gusts here routinely outlast the storm itself, and rainfall totals can spike in a matter of hours rather than days. The result is a pattern that shows up repeatedly on local roofs and foundations: water intrusion doesn't arrive through one obvious breach, it arrives through several small ones simultaneously.
 
-Older homes in the area, many built in the mid-twentieth century, were framed with wood species and construction methods that predate modern moisture-resistant standards. Stucco exteriors common to that era look intact after a storm but can harbor water migration behind the surface for days before a homeowner notices a stain on the interior drywall. Meanwhile, clay-heavy soils common to this part of Santa Barbara County swell when saturated, then crack as they dry — a cycle that stresses stem walls and crawl spaces even after the storm has passed.
+Older homes in the area, many built in the mid-twentieth century, were framed with wood species and construction methods that predate modern moisture-resistant standards. Stucco exteriors common to that era look intact after a storm but can harbor water migration behind the surface for days before a homeowner notices a stain on the interior drywall. Meanwhile, clay-heavy soils common to this part of Santa Barbara County swell when saturated, then crack as they dry, a cycle that stresses stem walls and crawl spaces even after the storm has passed.
 
 ## Our Storm Damage Restoration Process in Ballard
 
-The first step on any storm job is a systematic exterior-to-interior assessment before any drying or debris removal begins. We photograph and document every affected surface — not just for your records, but because insurance adjusters require a clear chain of evidence linking the storm event to each line item in the claim. Skipping that step costs homeowners money at the adjuster stage.
+The first step on any storm job is a systematic exterior-to-interior assessment before any drying or debris removal begins. We photograph and document every affected surface, not just for your records, but because insurance adjusters require a clear chain of evidence linking the storm event to each line item in the claim. Skipping that step costs homeowners money at the adjuster stage.
 
 Once the scope is mapped, work typically moves in this sequence:
 
 - **Emergency tarping and board-up** to stop active water intrusion at roof penetrations, broken windows, or compromised siding
-- **Debris removal** — downed limbs, displaced roofing material, and anything creating a secondary hazard or blocking drainage
+- **Debris removal**, downed limbs, displaced roofing material, and anything creating a secondary hazard or blocking drainage
 - **Moisture mapping** using thermal imaging and calibrated meters to locate water that has migrated behind walls or under flooring
 - **Structural drying** with commercial-grade desiccant dehumidifiers and air movers, monitored daily against drying logs
-- **Reconstruction and finish work** — from replacing damaged sheathing and insulation to repainting and restoring trim to pre-loss condition
+- **Reconstruction and finish work**, from replacing damaged sheathing and insulation to repainting and restoring trim to pre-loss condition
 
 Timelines vary. A roof penetration caught within 24 hours typically dries in three to five days. Water that has been sitting in a wall cavity for a week before discovery can extend that to ten days or more, and may require mold assessment before the cavity is closed.
 
 ## Reaching Ballard from Vandenberg Village
 
-Coastal Restoration Services Inc is based in Vandenberg Village, which puts Ballard within a practical service radius along the Central Coast corridor. Scheduling a same-day assessment after a storm event is realistic — call (805) 345-7440 to confirm current availability and get a crew on the calendar before secondary damage compounds the original loss. The faster moisture is contained, the narrower the scope of reconstruction.
+Coastal Restoration Services Inc is based in Vandenberg Village, which puts Ballard within a practical service radius along the Central Coast corridor. Scheduling a same-day assessment after a storm event is realistic, call (805) 345-7440 to confirm current availability and get a crew on the calendar before secondary damage compounds the original loss. The faster moisture is contained, the narrower the scope of reconstruction.
 
 ## Ballard Insurance Coordination
 
 Storm damage claims in California have specific documentation requirements, and carriers have tightened scrutiny on wind-versus-water causation in recent years. We prepare a detailed loss inventory with date-stamped photos, moisture readings, and material specifications that align with how adjusters evaluate claims in this region. We communicate directly with your adjuster throughout the process so you are not translating between a contractor and an insurance professional on your own.
 
-If your property is subject to HOA oversight, we can provide the scope-of-work documentation most associations require before exterior repairs begin — preventing the delay that comes from starting work and then waiting for board approval.
+If your property is subject to HOA oversight, we can provide the scope-of-work documentation most associations require before exterior repairs begin, preventing the delay that comes from starting work and then waiting for board approval.
 
 ## Local Note
 
-One pattern that comes up specifically in Ballard's older ranch-style and single-story homes: the low-slope roof sections over additions and garages are often finished with built-up or modified bitumen roofing that was never designed for the kind of ponding that occurs when storm debris clogs the scuppers. After a heavy event, that ponded water doesn't announce itself — it seeps slowly through seams and shows up weeks later as a ceiling stain that looks minor but has already saturated the insulation below. When we assess storm damage on these properties, we always check those low-slope sections specifically, even if the homeowner's concern is elsewhere on the roof.
+One pattern that comes up specifically in Ballard's older ranch-style and single-story homes: the low-slope roof sections over additions and garages are often finished with built-up or modified bitumen roofing that was never designed for the kind of ponding that occurs when storm debris clogs the scuppers. After a heavy event, that ponded water doesn't announce itself, it seeps slowly through seams and shows up weeks later as a ceiling stain that looks minor but has already saturated the insulation below. When we assess storm damage on these properties, we always check those low-slope sections specifically, even if the homeowner's concern is elsewhere on the roof.
 
-If your Ballard property took a hit in a recent storm, the window for limiting secondary damage — mold colonization typically begins within 24 to 72 hours of sustained moisture — is short. Call Coastal Restoration Services Inc at (805) 345-7440 to schedule an assessment and get a clear picture of what the storm actually did to your home.
+If your Ballard property took a hit in a recent storm, the window for limiting secondary damage, mold colonization typically begins within 24 to 72 hours of sustained moisture, is short. Call Coastal Restoration Services Inc at (805) 345-7440 to schedule an assessment and get a clear picture of what the storm actually did to your home.

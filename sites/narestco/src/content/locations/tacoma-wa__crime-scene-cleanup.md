@@ -21,41 +21,41 @@ service_display: "Crime Scene Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
-When something unthinkable happens inside a Tacoma home or commercial property, the physical aftermath doesn't wait for grief to pass. In older neighborhoods like Hilltop and the Stadium District — where early-1900s construction means porous plaster walls, unfinished subfloors, and aging hardwood that absorbs biological material quickly — the window for safe, thorough remediation is narrow. National Restoration Construction responds to those calls with trained technicians, proper containment, and the discretion that families and property managers need most in those first hours.
+When something unthinkable happens inside a Tacoma home or commercial property, the physical aftermath doesn't wait for grief to pass. In older neighborhoods like Hilltop and the Stadium District, where early-1900s construction means porous plaster walls, unfinished subfloors, and aging hardwood that absorbs biological material quickly, the window for safe, thorough remediation is narrow. National Restoration Construction responds to those calls with trained technicians, proper containment, and the discretion that families and property managers need most in those first hours.
 
 ## Why Tacoma's Building Stock Shapes This Work
 
-Tacoma's housing history matters here in ways that aren't obvious until a crew is on-site. Properties in the Stadium District and Proctor District commonly date to the 1910s through 1940s. Subfloor assemblies in those homes are often tongue-and-groove fir over open joist bays — a construction style that allows biological contamination to migrate downward faster than it would in a modern home with plywood decking and a vapor barrier. That means remediation in these neighborhoods frequently involves more than surface cleaning; it requires careful assessment of what has reached the structural layer beneath.
+Tacoma's housing history matters here in ways that aren't obvious until a crew is on-site. Properties in the Stadium District and Proctor District commonly date to the 1910s through 1940s. Subfloor assemblies in those homes are often tongue-and-groove fir over open joist bays, a construction style that allows biological contamination to migrate downward faster than it would in a modern home with plywood decking and a vapor barrier. That means remediation in these neighborhoods frequently involves more than surface cleaning; it requires careful assessment of what has reached the structural layer beneath.
 
-Tacoma also has a municipal HEPA filtration ordinance that applies to restoration work generating airborne particulate. Every job our team performs in the city — including ZIP codes like 98405 and 98406 — uses HEPA-rated air scrubbers and negative-pressure containment that meets or exceeds that standard. This isn't optional compliance; it's how we protect neighboring units, adjacent rooms, and the technicians working the scene.
+Tacoma also has a municipal HEPA filtration ordinance that applies to restoration work generating airborne particulate. Every job our team performs in the city, including ZIP codes like 98405 and 98406, uses HEPA-rated air scrubbers and negative-pressure containment that meets or exceeds that standard. This isn't optional compliance; it's how we protect neighboring units, adjacent rooms, and the technicians working the scene.
 
 ## Our Crime Scene Cleanup Process in Tacoma
 
-When we arrive, the first priority is containment — sealing the affected area from the rest of the structure before any work begins. From there, the process follows a documented protocol:
+When we arrive, the first priority is containment, sealing the affected area from the rest of the structure before any work begins. From there, the process follows a documented protocol:
 
 - **Assessment and documentation** for insurance and legal purposes, handled with full confidentiality
-- **Removal of affected materials** — porous surfaces, soft goods, and structural elements that cannot be safely decontaminated in place
+- **Removal of affected materials**, porous surfaces, soft goods, and structural elements that cannot be safely decontaminated in place
 - **EPA-registered disinfection** applied to all confirmed contact surfaces
 - **HEPA air filtration** running continuously throughout the work period, per Tacoma's municipal requirements
 - **Third-party clearance testing** coordinated when required by the property owner, insurer, or local authority
 - **Odor neutralization** using thermal fogging or hydroxyl generation, depending on the structure's ventilation
 
-The entire process is documented with photographs and written logs — records that insurers, property managers, and legal representatives may need later.
+The entire process is documented with photographs and written logs, records that insurers, property managers, and legal representatives may need later.
 
 ## Response Time from Federal Way to Tacoma
 
-National Restoration Construction is headquartered in Federal Way, roughly 15 miles north of central Tacoma via I-5. Under normal traffic conditions, a technician can reach most of Tacoma's core neighborhoods — including Old Town, the Ruston Way waterfront corridor, and North Tacoma — within 45 to 60 minutes of your call. South Hill and more outlying addresses typically fall in the 60–75 minute range. We operate around the clock, every day of the year, and we do not charge a premium for after-hours response.
+National Restoration Construction is headquartered in Federal Way, roughly 15 miles north of central Tacoma via I-5. Under normal traffic conditions, a technician can reach most of Tacoma's core neighborhoods, including Old Town, the Ruston Way waterfront corridor, and North Tacoma, within 45 to 60 minutes of your call. South Hill and more outlying addresses typically fall in the 60–75 minute range. We operate around the clock, every day of the year, and we do not charge a premium for after-hours response.
 
-When you call (206) 883-0333, you reach a person — not a voicemail system — who can confirm an ETA and walk you through what to avoid touching or disturbing before the crew arrives.
+When you call (206) 883-0333, you reach a person, not a voicemail system, who can confirm an ETA and walk you through what to avoid touching or disturbing before the crew arrives.
 
 ## Insurance and Coordination for Tacoma Property Owners
 
-Most homeowner and commercial property policies include coverage for crime scene remediation under the same provisions that cover sudden and accidental loss. We work directly with adjusters and can provide the itemized documentation — scope of work, materials removed, disposal manifests — that Washington State insurers typically require to process these claims. If you're managing a rental property or a multi-unit building, we can coordinate communication with tenants and building management to keep the process as private as possible.
+Most homeowner and commercial property policies include coverage for crime scene remediation under the same provisions that cover sudden and accidental loss. We work directly with adjusters and can provide the itemized documentation, scope of work, materials removed, disposal manifests, that Washington State insurers typically require to process these claims. If you're managing a rental property or a multi-unit building, we can coordinate communication with tenants and building management to keep the process as private as possible.
 
 For landlords and property managers in Tacoma, we're familiar with the city's requirements around uninhabitable unit disclosure and can help you understand what documentation you'll need before a space is re-occupied.
 
 ## Local Note
 
-In Tacoma's older waterfront-adjacent commercial buildings — particularly near the Ruston Way area — salt-spray corrosion has often compromised metal fasteners and floor decking over decades of exposure. During crime scene remediation in these structures, we've found that what looks like intact flooring sometimes has hidden deterioration underneath. We probe subfloor assemblies before assuming surface removal is sufficient, because a compromised deck can trap biological material in ways that a standard scope of work won't catch. It's a detail that only comes from working in port-city buildings, and it's the kind of thing that prevents a callback six months later.
+In Tacoma's older waterfront-adjacent commercial buildings, particularly near the Ruston Way area, salt-spray corrosion has often compromised metal fasteners and floor decking over decades of exposure. During crime scene remediation in these structures, we've found that what looks like intact flooring sometimes has hidden deterioration underneath. We probe subfloor assemblies before assuming surface removal is sufficient, because a compromised deck can trap biological material in ways that a standard scope of work won't catch. It's a detail that only comes from working in port-city buildings, and it's the kind of thing that prevents a callback six months later.
 
-If you're dealing with an unthinkable situation at a Tacoma property right now, the most important thing you can do is make one call and let trained professionals take the next steps. National Restoration Construction has handled these situations across Pierce and King counties since 2004, and we carry the IICRC certification, EPA certification, and Washington State contractor licensure (#NATIORC792M6) that this work demands. Call (206) 883-0333 any time — day or night.
+If you're dealing with an unthinkable situation at a Tacoma property right now, the most important thing you can do is make one call and let trained professionals take the next steps. National Restoration Construction has handled these situations across Pierce and King counties since 2004, and we carry the IICRC certification, EPA certification, and Washington State contractor licensure (#NATIORC792M6) that this work demands. Call (206) 883-0333 any time, day or night.

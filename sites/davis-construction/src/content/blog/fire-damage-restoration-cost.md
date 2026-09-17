@@ -18,11 +18,11 @@ published_at: "2026-06-15"
 services: ["fire-damage-restoration", "storm-damage-restoration"]
 rendered: true
 ---
-If you're standing in a smoke-damaged home trying to figure out whether to file an insurance claim or pay out of pocket, you need real numbers — not a range so wide it's useless. The honest answer: residential fire damage restoration in Alabama typically runs between $3,000 and $75,000, with most single-room incidents landing in the $8,000 to $25,000 range. What pushes your job toward either end of that range comes down to five specific factors, and understanding them before you talk to a contractor will help you evaluate every estimate you receive.
+If you're standing in a smoke-damaged home trying to figure out whether to file an insurance claim or pay out of pocket, you need real numbers, not a range so wide it's useless. The honest answer: residential fire damage restoration in Alabama typically runs between $3,000 and $75,000, with most single-room incidents landing in the $8,000 to $25,000 range. What pushes your job toward either end of that range comes down to five specific factors, and understanding them before you talk to a contractor will help you evaluate every estimate you receive.
 
 ## What Actually Drives the Cost
 
-Fire restoration isn't a single service — it's a sequence of overlapping trades: emergency stabilization, water extraction (firefighting hoses deliver hundreds of gallons), structural assessment, soot and smoke remediation, odor neutralization, and reconstruction. Each phase has its own labor and materials cost, and each one depends heavily on what your home is made of and how far the damage traveled.
+Fire restoration isn't a single service, it's a sequence of overlapping trades: emergency stabilization, water extraction (firefighting hoses deliver hundreds of gallons), structural assessment, soot and smoke remediation, odor neutralization, and reconstruction. Each phase has its own labor and materials cost, and each one depends heavily on what your home is made of and how far the damage traveled.
 
 **1. Scope of damage (square footage affected)**
 
@@ -30,27 +30,27 @@ Contractors price fire restoration partly by affected area, but "affected" inclu
 
 **2. Building materials**
 
-This is where Alabama's housing stock creates real cost variation. Older homes in Huntsville's Twickenham Historic District — many built in the 1920s through 1950s — commonly have plaster walls over wood lath. Plaster is porous and absorbs smoke compounds deeply; you can't simply wipe it down. Restoration often requires skim-coating or full replastering, which runs $8 to $15 per square foot versus $3 to $6 per square foot for standard drywall replacement. Newer Madison subdivision homes built in the 2000s and 2010s use standard 5/8" drywall, which is cheaper to replace but also easier to cut out and reinstall cleanly.
+This is where Alabama's housing stock creates real cost variation. Older homes in Huntsville's Twickenham Historic District, many built in the 1920s through 1950s, commonly have plaster walls over wood lath. Plaster is porous and absorbs smoke compounds deeply; you can't simply wipe it down. Restoration often requires skim-coating or full replastering, which runs $8 to $15 per square foot versus $3 to $6 per square foot for standard drywall replacement. Newer Madison subdivision homes built in the 2000s and 2010s use standard 5/8" drywall, which is cheaper to replace but also easier to cut out and reinstall cleanly.
 
-Hardwood floors, solid wood cabinetry, brick fireplaces, and exposed timber framing all absorb smoke differently — and all require different cleaning chemistry and labor time.
+Hardwood floors, solid wood cabinetry, brick fireplaces, and exposed timber framing all absorb smoke differently, and all require different cleaning chemistry and labor time.
 
 **3. Smoke penetration depth**
 
-This is the variable most homeowners underestimate. Smoke is not just a surface stain. Protein smoke from kitchen fires (grease, food) leaves an almost invisible film that smells intensely and requires enzymatic cleaning. Synthetic smoke from burning plastics, foam furniture, or electrical insulation contains volatile organic compounds that penetrate drywall paper and wood grain. Restoration contractors use ATP (adenosine triphosphate) testing and air quality meters to measure penetration depth — and the deeper the penetration, the more material has to come out rather than be cleaned in place.
+This is the variable most homeowners underestimate. Smoke is not just a surface stain. Protein smoke from kitchen fires (grease, food) leaves an almost invisible film that smells intensely and requires enzymatic cleaning. Synthetic smoke from burning plastics, foam furniture, or electrical insulation contains volatile organic compounds that penetrate drywall paper and wood grain. Restoration contractors use ATP (adenosine triphosphate) testing and air quality meters to measure penetration depth, and the deeper the penetration, the more material has to come out rather than be cleaned in place.
 
 A surface-level soot cleaning with dry chemical sponges and HEPA vacuuming might run $500 to $2,000 for a single room. If smoke has penetrated wall cavities, the same room can cost $8,000 to $15,000 once you factor in drywall removal, cavity cleaning, sealing, and reinstallation.
 
 **4. Water damage from firefighting**
 
-Every structure fire involves water — either from sprinklers or fire department hoses. A single 1.75" fire hose flowing at 150 gallons per minute can deliver 3,000 gallons in 20 minutes. That water saturates subfloors, wall cavities, and insulation, and it has to be extracted and dried before reconstruction can begin. Water extraction and structural drying typically adds $2,500 to $12,000 to a fire restoration job, depending on how much water was used and how long it sat before mitigation started. If you're researching this alongside water damage costs, the [water damage restoration cost guide](/blog/water-damage-restoration-cost-guide/) covers the drying phase in more detail.
+Every structure fire involves water, either from sprinklers or fire department hoses. A single 1.75" fire hose flowing at 150 gallons per minute can deliver 3,000 gallons in 20 minutes. That water saturates subfloors, wall cavities, and insulation, and it has to be extracted and dried before reconstruction can begin. Water extraction and structural drying typically adds $2,500 to $12,000 to a fire restoration job, depending on how much water was used and how long it sat before mitigation started. If you're researching this alongside water damage costs, the [water damage restoration cost guide](/blog/water-damage-restoration-cost-guide/) covers the drying phase in more detail.
 
 **5. Odor neutralization**
 
-Smoke odor is not cosmetic — it's a chemical contamination issue. Thermal fogging, ozone treatment, and hydroxyl generator treatment are the three primary methods. Ozone is effective but requires the structure to be unoccupied during treatment and for several hours after. Hydroxyl generators are slower but safe for occupied spaces. Thermal fogging penetrates wall cavities and HVAC ducting. Most full-house odor treatments run $500 to $3,000 depending on square footage and the number of treatment cycles required.
+Smoke odor is not cosmetic, it's a chemical contamination issue. Thermal fogging, ozone treatment, and hydroxyl generator treatment are the three primary methods. Ozone is effective but requires the structure to be unoccupied during treatment and for several hours after. Hydroxyl generators are slower but safe for occupied spaces. Thermal fogging penetrates wall cavities and HVAC ducting. Most full-house odor treatments run $500 to $3,000 depending on square footage and the number of treatment cycles required.
 
 ## Room-by-Room Cost Estimates
 
-These ranges assume moderate damage — not a total loss, but more than surface soot. They include cleaning, drywall repair or replacement, odor treatment, and repainting. They do not include structural reconstruction, which adds significantly.
+These ranges assume moderate damage, not a total loss, but more than surface soot. They include cleaning, drywall repair or replacement, odor treatment, and repainting. They do not include structural reconstruction, which adds significantly.
 
 | Room | Typical Restoration Cost | Notes |
 |------|--------------------------|-------|
@@ -74,11 +74,11 @@ If you own an older home in Huntsville's Twickenham Historic District or Five Po
 - **Preservation requirements**: Homes in Huntsville's historic overlay districts may require specific repair methods and materials to maintain historic designation. That limits the "just replace it" option.
 - **Knob-and-tube or early wiring**: Older electrical systems often need full replacement after fire exposure, adding $8,000 to $20,000 for a whole-house rewire.
 
-Newer homes in Madison subdivisions — Liberty Park, Blue Springs, Bradford Creek — have a different cost profile. Standard drywall, modern electrical, and engineered lumber make reconstruction more straightforward. The tradeoff: open-cell spray foam insulation used in some newer builds absorbs smoke and odor aggressively and often has to be completely removed.
+Newer homes in Madison subdivisions, Liberty Park, Blue Springs, Bradford Creek, have a different cost profile. Standard drywall, modern electrical, and engineered lumber make reconstruction more straightforward. The tradeoff: open-cell spray foam insulation used in some newer builds absorbs smoke and odor aggressively and often has to be completely removed.
 
 ## What Insurance Typically Covers
 
-Most standard HO-3 homeowners insurance policies cover fire damage caused by sudden, accidental events — including the water damage from firefighting efforts. What they cover specifically:
+Most standard HO-3 homeowners insurance policies cover fire damage caused by sudden, accidental events, including the water damage from firefighting efforts. What they cover specifically:
 
 - Structural repairs and reconstruction (dwelling coverage, Coverage A)
 - Personal property replacement (Coverage C, usually at actual cash value unless you have replacement cost endorsement)
@@ -98,7 +98,7 @@ Fire damage estimates vary widely because the scope isn't fully visible until de
 
 1. Conduct a full walkthrough with a moisture meter and air quality monitor before quoting
 2. Provide a line-item written scope (not a lump-sum number) that separates mitigation from reconstruction
-3. Identify what can be cleaned versus what must be replaced — this is where estimates diverge most
+3. Identify what can be cleaned versus what must be replaced, this is where estimates diverge most
 4. Coordinate with your insurance adjuster directly if you're filing a claim
 
 Be cautious of any estimate that doesn't include a demolition and assessment phase. Until damaged drywall is opened and wall cavities are inspected, no one can give you a reliable final number.

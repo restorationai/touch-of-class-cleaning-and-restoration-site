@@ -19,19 +19,19 @@ state: "NV"
 primary: false
 rendered: true
 ---
-When water backs up through a slab, smoke settles into stucco, or mold takes hold behind drywall, Life Savers Restoration LLC responds to Spring Valley property owners around the clock — handling water damage, fire and smoke damage, mold remediation, and biohazard cleanup from our Henderson base. We coordinate directly with insurance carriers, document every affected material, and work through the repair until the property is back to pre-loss condition.
+When water backs up through a slab, smoke settles into stucco, or mold takes hold behind drywall, Life Savers Restoration LLC responds to Spring Valley property owners around the clock, handling water damage, fire and smoke damage, mold remediation, and biohazard cleanup from our Henderson base. We coordinate directly with insurance carriers, document every affected material, and work through the repair until the property is back to pre-loss condition.
 
 ## Restoration emergencies common in Spring Valley
 
-Spring Valley sits in the heart of the Las Vegas Valley, and the climate here creates a specific set of risks that show up repeatedly in residential and commercial properties. Summer monsoon moisture — brief but intense — overwhelms flat and low-slope roofs common on 1980s and 1990s tract homes, pushing water into attic assemblies and down interior walls before a homeowner realizes anything is wrong. The valley's extreme heat accelerates the damage cycle: materials that stay damp in a cooler climate dry unevenly here, leaving moisture trapped behind stucco or under tile while the surface reads dry to the touch.
+Spring Valley sits in the heart of the Las Vegas Valley, and the climate here creates a specific set of risks that show up repeatedly in residential and commercial properties. Summer monsoon moisture, brief but intense, overwhelms flat and low-slope roofs common on 1980s and 1990s tract homes, pushing water into attic assemblies and down interior walls before a homeowner realizes anything is wrong. The valley's extreme heat accelerates the damage cycle: materials that stay damp in a cooler climate dry unevenly here, leaving moisture trapped behind stucco or under tile while the surface reads dry to the touch.
 
-Winter temperature swings are moderate by most standards, but the occasional hard freeze is enough to split supply lines in uninsulated garage walls or exterior hose bibs — a failure pattern common in homes built before insulation standards tightened. And because so much of Spring Valley's housing stock sits on concrete slab foundations with no crawlspace buffer, a pinhole leak in a copper supply line under the slab can saturate flooring and wall bases for days before the water bill or a wet baseboard gives it away.
+Winter temperature swings are moderate by most standards, but the occasional hard freeze is enough to split supply lines in uninsulated garage walls or exterior hose bibs, a failure pattern common in homes built before insulation standards tightened. And because so much of Spring Valley's housing stock sits on concrete slab foundations with no crawlspace buffer, a pinhole leak in a copper supply line under the slab can saturate flooring and wall bases for days before the water bill or a wet baseboard gives it away.
 
 ## Services we provide in Spring Valley
 
 ### Water damage restoration
 
-Slab leaks, roof intrusions, appliance failures, and storm-driven moisture are the most common calls in this part of the valley. Water behind stucco or under tile can read dry at the surface while the substrate stays saturated — thermal imaging and moisture mapping are the only reliable way to find the full extent. We extract standing water, establish drying chambers, and monitor to the IICRC S500 standard until structural materials reach target moisture levels.
+Slab leaks, roof intrusions, appliance failures, and storm-driven moisture are the most common calls in this part of the valley. Water behind stucco or under tile can read dry at the surface while the substrate stays saturated, thermal imaging and moisture mapping are the only reliable way to find the full extent. We extract standing water, establish drying chambers, and monitor to the IICRC S500 standard until structural materials reach target moisture levels.
 
 ### Fire and smoke damage restoration
 
@@ -39,7 +39,7 @@ Dry desert air and the density of attached and semi-attached housing in Spring V
 
 ### Mold remediation
 
-Mold can begin colonizing wet materials within 24 to 48 hours of a moisture event — a timeline that matters in a climate where a slow slab leak or a poorly sealed window can go unnoticed for weeks. We contain affected areas, remove compromised materials, and treat surfaces according to EPA guidelines, with clearance testing available through a third-party industrial hygienist.
+Mold can begin colonizing wet materials within 24 to 48 hours of a moisture event, a timeline that matters in a climate where a slow slab leak or a poorly sealed window can go unnoticed for weeks. We contain affected areas, remove compromised materials, and treat surfaces according to EPA guidelines, with clearance testing available through a third-party industrial hygienist.
 
 ### Biohazard and specialty cleanup
 
@@ -47,14 +47,14 @@ Unattended situations, sewage backups, and trauma scenes require licensed handli
 
 ## Coverage and how fast we can get there
 
-From our Henderson headquarters, Spring Valley is a straightforward run — typically west on the 215 Beltway or north on Decatur Boulevard, depending on traffic and the exact address. The western sections of Spring Valley near the 215 and Warm Springs Road are roughly 15 to 20 minutes from our base under normal conditions; properties closer to the I-15 corridor or Tropicana Avenue are similarly accessible. Because we operate 24 hours a day, seven days a week, we are dispatching at 2 a.m. on the same basis as 2 p.m. — no after-hours surcharge gate to clear before a crew rolls.
+From our Henderson headquarters, Spring Valley is a straightforward run, typically west on the 215 Beltway or north on Decatur Boulevard, depending on traffic and the exact address. The western sections of Spring Valley near the 215 and Warm Springs Road are roughly 15 to 20 minutes from our base under normal conditions; properties closer to the I-15 corridor or Tropicana Avenue are similarly accessible. Because we operate 24 hours a day, seven days a week, we are dispatching at 2 a.m. on the same basis as 2 p.m., no after-hours surcharge gate to clear before a crew rolls.
 
 ## Building stock, site conditions, and permits in Spring Valley
 
-Most of Spring Valley's residential construction dates from the 1970s through the early 2000s, with the heaviest build-out in the 1980s and 1990s. The dominant assembly is wood-frame on concrete slab — no basement, no crawlspace — with stucco exteriors and tile or composition roofing. Homes from the 1970s and early 1980s may contain asbestos-containing materials in textured ceilings, floor tile mastic, or duct insulation, and lead-based paint is a documented risk in pre-1978 construction. Copper supply lines are standard in this era but are vulnerable to pinhole corrosion in the valley's hard, mineral-rich water.
+Most of Spring Valley's residential construction dates from the 1970s through the early 2000s, with the heaviest build-out in the 1980s and 1990s. The dominant assembly is wood-frame on concrete slab, no basement, no crawlspace, with stucco exteriors and tile or composition roofing. Homes from the 1970s and early 1980s may contain asbestos-containing materials in textured ceilings, floor tile mastic, or duct insulation, and lead-based paint is a documented risk in pre-1978 construction. Copper supply lines are standard in this era but are vulnerable to pinhole corrosion in the valley's hard, mineral-rich water.
 
-The soil beneath much of the Las Vegas Valley includes caliche — a dense, calcium carbonate-hardened layer that resists drainage and can direct groundwater laterally toward foundations rather than downward. Flat lots with minimal grade compound this during heavy rain events.
+The soil beneath much of the Las Vegas Valley includes caliche, a dense, calcium carbonate-hardened layer that resists drainage and can direct groundwater laterally toward foundations rather than downward. Flat lots with minimal grade compound this during heavy rain events.
 
 Structural repairs and rebuilds in Spring Valley fall under Clark County's building department jurisdiction. Work that touches structural framing, electrical, or plumbing typically requires a permit, and restoration scopes that include wall or ceiling removal should be planned with that permitting timeline in mind.
 
-When water, fire, or mold has damaged your Spring Valley property, the next step is a documented assessment — not a guess. Call Life Savers Restoration LLC at (702) 845-1325 any time, day or night, and we will dispatch a crew to evaluate the loss, photograph the damage, and walk you through what comes next.
+When water, fire, or mold has damaged your Spring Valley property, the next step is a documented assessment, not a guess. Call Life Savers Restoration LLC at (702) 845-1325 any time, day or night, and we will dispatch a crew to evaluate the loss, photograph the damage, and walk you through what comes next.

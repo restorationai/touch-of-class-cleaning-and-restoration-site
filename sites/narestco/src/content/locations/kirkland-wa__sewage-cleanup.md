@@ -20,31 +20,31 @@ state: "WA"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
-Sewage backing up into your Kirkland home is one of the worst things to walk into — the smell hits you first, then the realization that everything it touched needs to be treated as a biohazard. Whether it's a sewer line backup flooding your basement, a septic overflow soaking into the subfloor, or raw sewage pushing up through a floor drain, the clock starts the moment it happens. National Restoration Construction has been responding to exactly these situations across the Puget Sound region since 2004, and our crews reach most Kirkland addresses within 60–90 minutes of your call.
+Sewage backing up into your Kirkland home is one of the worst things to walk into, the smell hits you first, then the realization that everything it touched needs to be treated as a biohazard. Whether it's a sewer line backup flooding your basement, a septic overflow soaking into the subfloor, or raw sewage pushing up through a floor drain, the clock starts the moment it happens. National Restoration Construction has been responding to exactly these situations across the Puget Sound region since 2004, and our crews reach most Kirkland addresses within 60–90 minutes of your call.
 
 ## Why Kirkland Properties Are Vulnerable to Sewage Emergencies
 
-Kirkland's older neighborhoods — Juanita, Houghton, Rose Hill — carry a mix of aging municipal sewer infrastructure and private septic systems that were installed decades before the city's growth accelerated. When the Pacific Northwest's wet season arrives and the ground becomes saturated from October through March, hydrostatic pressure builds against sewer laterals and septic drain fields alike. That pressure, combined with root intrusion from the mature trees common throughout Kirkland's established neighborhoods, is a recipe for sewer line backups and septic overflow events.
+Kirkland's older neighborhoods, Juanita, Houghton, Rose Hill, carry a mix of aging municipal sewer infrastructure and private septic systems that were installed decades before the city's growth accelerated. When the Pacific Northwest's wet season arrives and the ground becomes saturated from October through March, hydrostatic pressure builds against sewer laterals and septic drain fields alike. That pressure, combined with root intrusion from the mature trees common throughout Kirkland's established neighborhoods, is a recipe for sewer line backups and septic overflow events.
 
-Lakefront and low-lying properties near Juanita Bay or the Lake Washington shoreline face an added complication: high water tables during heavy rain events can overwhelm drain fields and push sewage backward through plumbing fixtures. If your home was built before the 1980s, there's also a reasonable chance the sewer lateral connecting your house to the city main hasn't been replaced — older clay or cast-iron pipe is far more susceptible to cracking and root infiltration than modern PVC.
+Lakefront and low-lying properties near Juanita Bay or the Lake Washington shoreline face an added complication: high water tables during heavy rain events can overwhelm drain fields and push sewage backward through plumbing fixtures. If your home was built before the 1980s, there's also a reasonable chance the sewer lateral connecting your house to the city main hasn't been replaced, older clay or cast-iron pipe is far more susceptible to cracking and root infiltration than modern PVC.
 
 ## Our Sewage Cleanup and Sanitization Process
 
-Raw sewage is classified as Category 3 — the most contaminated water type in the IICRC's restoration standards — which means the response has to be methodical, not just fast.
+Raw sewage is classified as Category 3, the most contaminated water type in the IICRC's restoration standards, which means the response has to be methodical, not just fast.
 
-**Containment and safety assessment first.** Before any extraction begins, the affected area is isolated to prevent cross-contamination from spreading to unaffected rooms. We identify the source of the backup and confirm it's been stopped at the source — there's no point cleaning up if sewage is still flowing.
+**Containment and safety assessment first.** Before any extraction begins, the affected area is isolated to prevent cross-contamination from spreading to unaffected rooms. We identify the source of the backup and confirm it's been stopped at the source, there's no point cleaning up if sewage is still flowing.
 
 **Extraction and solid waste removal.** Truck-mounted extraction units pull standing sewage water, and solid waste is bagged and disposed of in compliance with Washington State Department of Ecology requirements. This isn't a shop-vac job.
 
-**Structural material evaluation.** Drywall, insulation, hardwood flooring, and cabinetry that absorbed Category 3 water typically cannot be dried in place — they have to come out. We document everything removed with photos before disposal, which matters for your insurance claim.
+**Structural material evaluation.** Drywall, insulation, hardwood flooring, and cabinetry that absorbed Category 3 water typically cannot be dried in place, they have to come out. We document everything removed with photos before disposal, which matters for your insurance claim.
 
-**Antimicrobial treatment and sanitization.** Once the space is cleared, all affected surfaces — concrete, framing, subfloor — are treated with EPA-registered antimicrobial agents. This step targets bacteria, pathogens, and the conditions that would otherwise allow mold to colonize within 24–48 hours of moisture exposure.
+**Antimicrobial treatment and sanitization.** Once the space is cleared, all affected surfaces, concrete, framing, subfloor, are treated with EPA-registered antimicrobial agents. This step targets bacteria, pathogens, and the conditions that would otherwise allow mold to colonize within 24–48 hours of moisture exposure.
 
-**Drying and air quality monitoring.** Industrial dehumidifiers and air movers run until moisture readings in structural materials return to baseline. We monitor daily and document readings — again, for your insurance file.
+**Drying and air quality monitoring.** Industrial dehumidifiers and air movers run until moisture readings in structural materials return to baseline. We monitor daily and document readings, again, for your insurance file.
 
 ## How We Handle Insurance Claims for Sewage Damage
 
-Insurance coverage for sewage backups varies more than most homeowners expect. Standard homeowner's policies in Washington often exclude sewer backup damage unless you've added a specific rider — but that doesn't mean you're automatically out of pocket. We work directly with your adjuster, provide itemized documentation of all removed materials and sanitization work, and can help you understand what's covered before you commit to any scope of work.
+Insurance coverage for sewage backups varies more than most homeowners expect. Standard homeowner's policies in Washington often exclude sewer backup damage unless you've added a specific rider, but that doesn't mean you're automatically out of pocket. We work directly with your adjuster, provide itemized documentation of all removed materials and sanitization work, and can help you understand what's covered before you commit to any scope of work.
 
 What we handle: scope documentation, photo evidence, moisture logs, and direct communication with your adjuster throughout the project. What you handle: filing the initial claim and communicating your policy details to us so we can align our documentation to what your carrier needs.
 
@@ -54,8 +54,8 @@ If you're a property manager dealing with a sewage backup in a Kirkland rental u
 
 Our primary operations hub is in Federal Way, roughly 25–30 miles south of Kirkland via I-405. Under normal traffic conditions, that puts a crew at most Kirkland addresses within 60–90 minutes of your call. If you're in the Totem Lake or Kingsgate area near the 405/522 interchange, response can be faster depending on crew positioning.
 
-Sewage cleanup is time-sensitive in a way that water damage from a burst pipe isn't — bacterial contamination begins immediately, and materials that might otherwise be salvageable become unsalvageable the longer they stay wet with Category 3 water. Reaching us sooner rather than later genuinely changes the outcome and the cost.
+Sewage cleanup is time-sensitive in a way that water damage from a burst pipe isn't, bacterial contamination begins immediately, and materials that might otherwise be salvageable become unsalvageable the longer they stay wet with Category 3 water. Reaching us sooner rather than later genuinely changes the outcome and the cost.
 
 If you're looking at sewage in your home right now, the most useful thing you can do before we arrive is keep people and pets out of the affected area, turn off the HVAC system if it pulls air from that space, and leave the cleanup itself alone. Disturbing sewage-contaminated material without proper PPE and containment spreads the problem.
 
-National Restoration Construction is IICRC Certified, EPA Certified, and licensed with the Washington State Department of Labor & Industries (#NATIORC792M6). Reach us at **(206) 883-0333** — someone answers around the clock.
+National Restoration Construction is IICRC Certified, EPA Certified, and licensed with the Washington State Department of Labor & Industries (#NATIORC792M6). Reach us at **(206) 883-0333**, someone answers around the clock.

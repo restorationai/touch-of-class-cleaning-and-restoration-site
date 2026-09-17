@@ -19,25 +19,25 @@ state: "IA"
 primary: false
 rendered: true
 ---
-When a pipe bursts in a George farmhouse or a basement floods after a spring storm rolls in off the Lyon County plains, Crew Restoration & Construction handles the full scope — water extraction, structural drying, mold containment, fire and smoke cleanup, and reconstruction — so property owners in this corner of northwest Iowa have one number to call instead of coordinating three separate contractors.
+When a pipe bursts in a George farmhouse or a basement floods after a spring storm rolls in off the Lyon County plains, Crew Restoration & Construction handles the full scope, water extraction, structural drying, mold containment, fire and smoke cleanup, and reconstruction, so property owners in this corner of northwest Iowa have one number to call instead of coordinating three separate contractors.
 
 ## Restoration emergencies common in George
 
-George sits just inside the Lyon County line in one of Iowa's coldest, windiest corridors. Winter temperatures regularly drop well below zero, and the freeze-thaw cycling that starts in late February is the leading cause of burst supply lines and ice-damming on older rooflines. The housing stock here skews older — many homes in Downtown George and North George were built in the mid-twentieth century, with galvanized plumbing, minimal wall insulation, and crawl spaces that weren't designed for today's moisture loads. That combination means a single hard freeze can send water into wall cavities before a homeowner even notices a pressure drop. Summers bring their own risks: severe thunderstorms tracking northeast across Lyon County can dump two inches of rain in under an hour, overwhelming older clay tile drainage systems and pushing groundwater into basements that sit on the area's relatively shallow water table. Fire risk is elevated in the fall harvest season, when grain dust, dry vegetation, and overloaded electrical panels on outbuildings create conditions that can escalate fast.
+George sits just inside the Lyon County line in one of Iowa's coldest, windiest corridors. Winter temperatures regularly drop well below zero, and the freeze-thaw cycling that starts in late February is the leading cause of burst supply lines and ice-damming on older rooflines. The housing stock here skews older, many homes in Downtown George and North George were built in the mid-twentieth century, with galvanized plumbing, minimal wall insulation, and crawl spaces that weren't designed for today's moisture loads. That combination means a single hard freeze can send water into wall cavities before a homeowner even notices a pressure drop. Summers bring their own risks: severe thunderstorms tracking northeast across Lyon County can dump two inches of rain in under an hour, overwhelming older clay tile drainage systems and pushing groundwater into basements that sit on the area's relatively shallow water table. Fire risk is elevated in the fall harvest season, when grain dust, dry vegetation, and overloaded electrical panels on outbuildings create conditions that can escalate fast.
 
 ## Services we provide in George
 
 ### Water damage restoration
 
-Water damage in George often starts small and spreads quietly. A slow leak behind a kitchen wall in a North George ranch home can saturate framing for weeks before the paint bubbles. We locate hidden moisture with thermal imaging and moisture meters, extract standing water, and run commercial drying equipment calibrated to the specific materials in your home — whether that's the original hardwood floors common in Downtown George bungalows or the OSB subfloor in a newer build near George City Park. Drying timelines depend on the extent of saturation, but we document every reading so your insurance adjuster has a clear record.
+Water damage in George often starts small and spreads quietly. A slow leak behind a kitchen wall in a North George ranch home can saturate framing for weeks before the paint bubbles. We locate hidden moisture with thermal imaging and moisture meters, extract standing water, and run commercial drying equipment calibrated to the specific materials in your home, whether that's the original hardwood floors common in Downtown George bungalows or the OSB subfloor in a newer build near George City Park. Drying timelines depend on the extent of saturation, but we document every reading so your insurance adjuster has a clear record.
 
 ### Mold remediation
 
-Mold can begin colonizing damp materials within 24 to 48 hours of a water event — a timeline that matters in a town where a leak might go undetected over a long weekend. We contain affected areas, remove compromised materials, and treat surfaces to industry standards. Because older homes in Downtown George sometimes have limited attic ventilation, we also assess whether airflow corrections are needed to prevent recurrence.
+Mold can begin colonizing damp materials within 24 to 48 hours of a water event, a timeline that matters in a town where a leak might go undetected over a long weekend. We contain affected areas, remove compromised materials, and treat surfaces to industry standards. Because older homes in Downtown George sometimes have limited attic ventilation, we also assess whether airflow corrections are needed to prevent recurrence.
 
 ### Fire and smoke damage restoration
 
-After a fire, the visible char is rarely the full story. Smoke residue penetrates porous materials — drywall, insulation, wood framing — and the odor can persist for months if the source isn't properly addressed. We assess the full extent of smoke migration, clean or remove affected materials, and handle reconstruction so the structure is returned to a livable condition.
+After a fire, the visible char is rarely the full story. Smoke residue penetrates porous materials, drywall, insulation, wood framing, and the odor can persist for months if the source isn't properly addressed. We assess the full extent of smoke migration, clean or remove affected materials, and handle reconstruction so the structure is returned to a livable condition.
 
 ### Reconstruction
 
@@ -45,13 +45,13 @@ Because we handle both mitigation and rebuild under one roof, George property ow
 
 ## Coverage and how fast we can get there
 
-Crew Restoration & Construction is headquartered in Sioux Falls, SD. George is roughly 90 miles southeast via I-90 East to Highway 75 South — a straightforward route that puts our crew into Lyon County without navigating complicated interchanges. From the highway, it's a short drive into Downtown George or out to North George. We schedule service calls during our business hours and will confirm your appointment window when you call. If you're a property manager overseeing multiple addresses near George City Park or along the county roads approaching the Lyon County line, we can coordinate staging and sequencing to minimize disruption across sites.
+Crew Restoration & Construction is headquartered in Sioux Falls, SD. George is roughly 90 miles southeast via I-90 East to Highway 75 South, a straightforward route that puts our crew into Lyon County without navigating complicated interchanges. From the highway, it's a short drive into Downtown George or out to North George. We schedule service calls during our business hours and will confirm your appointment window when you call. If you're a property manager overseeing multiple addresses near George City Park or along the county roads approaching the Lyon County line, we can coordinate staging and sequencing to minimize disruption across sites.
 
 ## Building stock, site conditions, and permits in George
 
-A lot of what stands in George predates the mid-century houses on the north and east edges of town — farmhouses and older bungalows with balloon framing, plaster over wood lath, and fieldstone or unreinforced block basement walls. Plaster holds water differently than drywall: it can look dry on the surface while the lath and framing behind it stay wet, so those walls get metered from the inside rather than guessed at. Pre-1978 finishes mean lead paint is assumed until tested, and older basements often still have cast iron drains and asbestos-bearing pipe wrap or floor tile that change how demolition is sequenced.
+A lot of what stands in George predates the mid-century houses on the north and east edges of town, farmhouses and older bungalows with balloon framing, plaster over wood lath, and fieldstone or unreinforced block basement walls. Plaster holds water differently than drywall: it can look dry on the surface while the lath and framing behind it stay wet, so those walls get metered from the inside rather than guessed at. Pre-1978 finishes mean lead paint is assumed until tested, and older basements often still have cast iron drains and asbestos-bearing pipe wrap or floor tile that change how demolition is sequenced.
 
-The ground here is glacial till and loess — heavy, slow-draining soil that holds meltwater against foundation walls. Footings in this part of Iowa sit deep to clear the frost line.
+The ground here is glacial till and loess, heavy, slow-draining soil that holds meltwater against foundation walls. Footings in this part of Iowa sit deep to clear the frost line.
 
 Permits for structural repair or rebuild inside the corporate limits go through the City of George; work on acreages outside town is handled at the Lyon County level.
 

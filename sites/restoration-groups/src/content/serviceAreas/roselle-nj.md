@@ -19,25 +19,25 @@ state: "NJ"
 primary: false
 rendered: true
 ---
-When water is rising in your finished basement off Fifth Avenue, or smoke has worked its way into the walls of a century-old Victorian near the Roselle Park border, the last thing you need is a contractor who has to look up where Roselle is. The Restoration Group dispatches from Kenilworth — one town over — and handles water damage, fire and smoke damage, mold remediation, and full structural reconstruction for homeowners and property managers across ZIP code 07203, around the clock.
+When water is rising in your finished basement off Fifth Avenue, or smoke has worked its way into the walls of a century-old Victorian near the Roselle Park border, the last thing you need is a contractor who has to look up where Roselle is. The Restoration Group dispatches from Kenilworth, one town over, and handles water damage, fire and smoke damage, mold remediation, and full structural reconstruction for homeowners and property managers across ZIP code 07203, around the clock.
 
 ## Restoration emergencies common in Roselle
 
-Roselle's housing stock sets the stage for the calls we receive most often. The borough is dense with homes built between roughly 1905 and 1955 — Victorians, center-hall colonials, and postwar capes on narrow lots, many with finished basements that were never designed to hold back a serious storm. Original galvanized supply lines and cast-iron waste stacks are aging out on schedule in these houses, and when they fail, they tend to fail quietly — inside a wall, under a slab, or behind a finished ceiling — until the damage is already significant.
+Roselle's housing stock sets the stage for the calls we receive most often. The borough is dense with homes built between roughly 1905 and 1955, Victorians, center-hall colonials, and postwar capes on narrow lots, many with finished basements that were never designed to hold back a serious storm. Original galvanized supply lines and cast-iron waste stacks are aging out on schedule in these houses, and when they fail, they tend to fail quietly, inside a wall, under a slab, or behind a finished ceiling, until the damage is already significant.
 
-The Elizabeth River runs along the eastern edge of town near Warinanco Park, and low-lying blocks in East Roselle flood during heavy rain events. Tropical Storm Ida in 2021 pushed storm water and sewer backups into basements across town, and it wasn't the first time. Sump pumps that keep up with a normal summer storm get overwhelmed when two inches fall in an hour. Along the Chestnut Street business district and the St. Georges Avenue corridor, flat-roof commercial buildings and retail spaces see overnight water events from roof leaks and HVAC condensate failures — losses that sit undetected until an employee opens up in the morning.
+The Elizabeth River runs along the eastern edge of town near Warinanco Park, and low-lying blocks in East Roselle flood during heavy rain events. Tropical Storm Ida in 2021 pushed storm water and sewer backups into basements across town, and it wasn't the first time. Sump pumps that keep up with a normal summer storm get overwhelmed when two inches fall in an hour. Along the Chestnut Street business district and the St. Georges Avenue corridor, flat-roof commercial buildings and retail spaces see overnight water events from roof leaks and HVAC condensate failures, losses that sit undetected until an employee opens up in the morning.
 
-The result: water damage calls dominate our Roselle volume, with mold remediation close behind — because a wet basement in July, left even partially dry, can show visible mold colonization within 48 to 72 hours.
+The result: water damage calls dominate our Roselle volume, with mold remediation close behind, because a wet basement in July, left even partially dry, can show visible mold colonization within 48 to 72 hours.
 
 ## Services we provide in Roselle
 
 ### Water damage and flood cleanup
 
-Water damage in Roselle often involves more than a wet floor. Finished basements with drywall, insulation, and stored belongings absorb moisture fast. Our crews extract standing water, remove saturated materials, and dry the structural cavity — wall cavities, subfloor, and framing — using commercial desiccant dehumidifiers and air movers. For sewer-backup losses, which are common in older neighborhoods like Warinanco and East Roselle, we follow contamination protocols that treat the water as Category 3 from the start.
+Water damage in Roselle often involves more than a wet floor. Finished basements with drywall, insulation, and stored belongings absorb moisture fast. Our crews extract standing water, remove saturated materials, and dry the structural cavity, wall cavities, subfloor, and framing, using commercial desiccant dehumidifiers and air movers. For sewer-backup losses, which are common in older neighborhoods like Warinanco and East Roselle, we follow contamination protocols that treat the water as Category 3 from the start.
 
 ### Mold remediation
 
-A slow pipe leak behind a kitchen wall near the Abraham Clark House Historic District, or a sump failure in a Chestnut Street-area colonial, can produce hidden mold growth before the homeowner knows anything is wrong. We contain affected areas, remove colonized materials, treat surfaces, and clear the space through post-remediation verification — without making guarantees about air quality that no contractor can honestly make.
+A slow pipe leak behind a kitchen wall near the Abraham Clark House Historic District, or a sump failure in a Chestnut Street-area colonial, can produce hidden mold growth before the homeowner knows anything is wrong. We contain affected areas, remove colonized materials, treat surfaces, and clear the space through post-remediation verification, without making guarantees about air quality that no contractor can honestly make.
 
 ### Fire and smoke damage restoration
 
@@ -45,11 +45,11 @@ Smoke residue in a Roselle home doesn't stay in the room where the fire started.
 
 ### Reconstruction and build-back
 
-Once mitigation is complete, many Roselle homeowners need a contractor who can handle the rebuild — drywall, flooring, trim, and finish work — rather than starting over with a second company. We carry that work through to a finished, inspectable result.
+Once mitigation is complete, many Roselle homeowners need a contractor who can handle the rebuild, drywall, flooring, trim, and finish work, rather than starting over with a second company. We carry that work through to a finished, inspectable result.
 
 ## Coverage and how fast we can get there
 
-Kenilworth and Roselle share a border, and our crews travel the route regularly. From our HQ, we reach the Roselle Park border neighborhoods and the Fifth Avenue corridor quickly via North Michigan Avenue or Chestnut Street directly. East Roselle and the blocks near Warinanco Park are accessible via St. Georges Avenue. Because we operate 24/7, a call at 2 a.m. after a sump failure gets the same dispatch as a call on a Tuesday afternoon. We don't subcontract local jobs to unfamiliar crews — the team that answers your call is the team that shows up.
+Kenilworth and Roselle share a border, and our crews travel the route regularly. From our HQ, we reach the Roselle Park border neighborhoods and the Fifth Avenue corridor quickly via North Michigan Avenue or Chestnut Street directly. East Roselle and the blocks near Warinanco Park are accessible via St. Georges Avenue. Because we operate 24/7, a call at 2 a.m. after a sump failure gets the same dispatch as a call on a Tuesday afternoon. We don't subcontract local jobs to unfamiliar crews, the team that answers your call is the team that shows up.
 
 ## Building stock, site conditions, and permits in Roselle
 
@@ -59,4 +59,4 @@ Footings in this part of New Jersey sit below a frost depth of roughly three fee
 
 Structural repair, framing replacement, and rewiring are permitted through the Borough of Roselle construction office under the New Jersey Uniform Construction Code.
 
-If you're dealing with water, fire, mold, or storm damage anywhere in Roselle — 07203 — call The Restoration Group at **(855) 650-7422**. We're available around the clock, and we know the neighborhood.
+If you're dealing with water, fire, mold, or storm damage anywhere in Roselle, 07203, call The Restoration Group at **(855) 650-7422**. We're available around the clock, and we know the neighborhood.

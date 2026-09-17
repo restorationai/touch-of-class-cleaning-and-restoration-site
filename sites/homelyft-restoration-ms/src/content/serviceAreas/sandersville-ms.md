@@ -19,19 +19,19 @@ state: "MS"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall or a storm pushes water under your doors, the hours that follow matter more than almost anything else. HomeLyft Restoration MS works directly with Sandersville property owners — homeowners, landlords, and commercial tenants alike — to stop active damage, dry out affected structures, and carry the project through to finished reconstruction. From the first call to the final walkthrough, one local team handles the work so nothing falls through the cracks.
+When a pipe bursts behind a wall or a storm pushes water under your doors, the hours that follow matter more than almost anything else. HomeLyft Restoration MS works directly with Sandersville property owners, homeowners, landlords, and commercial tenants alike, to stop active damage, dry out affected structures, and carry the project through to finished reconstruction. From the first call to the final walkthrough, one local team handles the work so nothing falls through the cracks.
 
 ## Restoration emergencies common in Sandersville
 
-Sandersville sits in Jones County, deep in a part of Mississippi where the climate does real work on buildings. Summers bring extended heat and humidity that keep indoor moisture levels elevated even when no leak is present — conditions that allow mold to colonize wet drywall or subfloor within 24 to 48 hours of a water event. Winters are mild by northern standards but punctuated by hard freezes that catch older supply lines off guard, particularly in pier-and-beam homes where pipes run through uninsulated crawl spaces.
+Sandersville sits in Jones County, deep in a part of Mississippi where the climate does real work on buildings. Summers bring extended heat and humidity that keep indoor moisture levels elevated even when no leak is present, conditions that allow mold to colonize wet drywall or subfloor within 24 to 48 hours of a water event. Winters are mild by northern standards but punctuated by hard freezes that catch older supply lines off guard, particularly in pier-and-beam homes where pipes run through uninsulated crawl spaces.
 
-The region's housing stock skews toward wood-frame construction built across several decades, which means varying levels of insulation, vapor barrier quality, and drainage grading. Flat or gently sloping lots common in this part of Jones County can allow surface water to pool against foundations after heavy rain rather than sheeting away cleanly. Combine that with clay-heavy soils that slow percolation, and a single significant storm can push water into crawl spaces and lower-level rooms that seemed perfectly dry the season before. Fire damage is also a factor — older homes with original wiring and aging HVAC equipment carry elevated ignition risk, and rural road distances can mean longer response windows for suppression crews, leaving smoke and soot deeper in the structure by the time restoration begins.
+The region's housing stock skews toward wood-frame construction built across several decades, which means varying levels of insulation, vapor barrier quality, and drainage grading. Flat or gently sloping lots common in this part of Jones County can allow surface water to pool against foundations after heavy rain rather than sheeting away cleanly. Combine that with clay-heavy soils that slow percolation, and a single significant storm can push water into crawl spaces and lower-level rooms that seemed perfectly dry the season before. Fire damage is also a factor, older homes with original wiring and aging HVAC equipment carry elevated ignition risk, and rural road distances can mean longer response windows for suppression crews, leaving smoke and soot deeper in the structure by the time restoration begins.
 
 ## Services we provide in Sandersville
 
 ### Water damage restoration
 
-Water damage in Sandersville frequently starts small — a slow supply-line drip, a failed wax ring, a gutter that's been backing up for one season too many — and stays hidden until flooring buckles or a musty odor becomes impossible to ignore. HomeLyft technicians use moisture mapping and thermal imaging to find water that has migrated behind walls or into subfloor assemblies before it shows on the surface. Structural drying follows the IICRC S500 standard, with equipment placed to pull moisture from the assembly rather than just the air.
+Water damage in Sandersville frequently starts small, a slow supply-line drip, a failed wax ring, a gutter that's been backing up for one season too many, and stays hidden until flooring buckles or a musty odor becomes impossible to ignore. HomeLyft technicians use moisture mapping and thermal imaging to find water that has migrated behind walls or into subfloor assemblies before it shows on the surface. Structural drying follows the IICRC S500 standard, with equipment placed to pull moisture from the assembly rather than just the air.
 
 ### Mold remediation
 
@@ -39,21 +39,21 @@ The humidity patterns in Jones County mean mold remediation is one of the more c
 
 ### Fire and smoke damage restoration
 
-After a fire, the visible char is usually the smaller part of the problem. Smoke residue travels through HVAC systems, settles into porous materials, and leaves an odor that standard cleaning cannot reach. HomeLyft's fire restoration process in Sandersville includes content evaluation, structural cleaning, odor neutralization, and coordination with your insurance adjuster on scope — so the estimate reflects what the building actually needs rather than a surface-level cleanup.
+After a fire, the visible char is usually the smaller part of the problem. Smoke residue travels through HVAC systems, settles into porous materials, and leaves an odor that standard cleaning cannot reach. HomeLyft's fire restoration process in Sandersville includes content evaluation, structural cleaning, odor neutralization, and coordination with your insurance adjuster on scope, so the estimate reflects what the building actually needs rather than a surface-level cleanup.
 
 ### Reconstruction
 
-Once drying or remediation is complete, many Sandersville properties need framing, drywall, flooring, or finish work to return to livable condition. Carrying reconstruction in-house means the transition from mitigation to rebuild happens without a handoff gap — no waiting for a separate contractor to pick up where the restoration crew left off.
+Once drying or remediation is complete, many Sandersville properties need framing, drywall, flooring, or finish work to return to livable condition. Carrying reconstruction in-house means the transition from mitigation to rebuild happens without a handoff gap, no waiting for a separate contractor to pick up where the restoration crew left off.
 
 ## Coverage and how fast we can get there
 
-HomeLyft Restoration MS is headquartered in Gulfport and serves Sandersville as part of our broader Jones County coverage area. The most direct route runs north on US-49 through Hattiesburg and into Laurel before continuing toward Sandersville — roughly 90 miles depending on the specific address. Scheduling is handled promptly; call +12282845200 during business hours to reach a team member who can confirm availability and get a crew dispatched. For properties on the eastern side of Jones County, travel time is similar. We do not promise a specific on-site window in minutes, but we prioritize active-damage calls and communicate arrival estimates clearly when you call.
+HomeLyft Restoration MS is headquartered in Gulfport and serves Sandersville as part of our broader Jones County coverage area. The most direct route runs north on US-49 through Hattiesburg and into Laurel before continuing toward Sandersville, roughly 90 miles depending on the specific address. Scheduling is handled promptly; call +12282845200 during business hours to reach a team member who can confirm availability and get a crew dispatched. For properties on the eastern side of Jones County, travel time is similar. We do not promise a specific on-site window in minutes, but we prioritize active-damage calls and communicate arrival estimates clearly when you call.
 
 ## Building stock, site conditions, and permits in Sandersville
 
 Sandersville's houses are mostly modest wood-frame, and the older ones sit on pier-and-beam foundations with open or partly skirted crawl spaces; newer builds around town went to slab-on-grade. That split matters after a leak. Water in a crawl space can be dried and the framing saved, but water under a slab tends to travel through the flooring adhesive and the bottom plates before anyone notices.
 
-Plumbing follows the same vintage pattern — galvanized supply and cast iron drains in the oldest stock, copper in the middle decades, PEX in recent work. Homes finished before the late 1970s can also carry lead paint and asbestos in floor tile, mastic, or siding, so demolition scope gets confirmed first.
+Plumbing follows the same vintage pattern, galvanized supply and cast iron drains in the oldest stock, copper in the middle decades, PEX in recent work. Homes finished before the late 1970s can also carry lead paint and asbestos in floor tile, mastic, or siding, so demolition scope gets confirmed first.
 
 For structural repair or rebuild, confirm permitting with the town and with Jones County before framing starts.
 

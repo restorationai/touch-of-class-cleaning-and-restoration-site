@@ -17,43 +17,43 @@ service_slug: "mold-remediation"
 service_display: "Mold Remediation"
 rendered: true
 ---
-You notice it first as a smell — something musty behind the drywall, or a faint earthy odor that gets stronger when the HVAC kicks on. Then you spot the discoloration: dark patches along a baseboard, a bloom of grey-green on ceiling tile, or a fuzzy ring spreading outward from an old water stain. Mold can begin colonizing a damp surface within 24 to 48 hours of a moisture event, and by the time it's visible, the colony is already established. Mold remediation is the structured, containment-first process of removing that growth safely — without spreading spores to unaffected areas of the home.
+You notice it first as a smell, something musty behind the drywall, or a faint earthy odor that gets stronger when the HVAC kicks on. Then you spot the discoloration: dark patches along a baseboard, a bloom of grey-green on ceiling tile, or a fuzzy ring spreading outward from an old water stain. Mold can begin colonizing a damp surface within 24 to 48 hours of a moisture event, and by the time it's visible, the colony is already established. Mold remediation is the structured, containment-first process of removing that growth safely, without spreading spores to unaffected areas of the home.
 
 ## What mold remediation actually involves
 
-Mold remediation is not bleach and a paper mask. Effective mold abatement requires physical containment of the affected area, negative air pressure to prevent cross-contamination, HEPA-filtered air scrubbing running continuously during work, and the controlled removal of colonized materials — drywall, insulation, subfloor, or framing — down to clean, unaffected substrate.
+Mold remediation is not bleach and a paper mask. Effective mold abatement requires physical containment of the affected area, negative air pressure to prevent cross-contamination, HEPA-filtered air scrubbing running continuously during work, and the controlled removal of colonized materials, drywall, insulation, subfloor, or framing, down to clean, unaffected substrate.
 
-The scope depends on the size of the affected area and the material it's growing on. Mold on a painted concrete block wall is a different problem than mold inside a closed wall cavity with contaminated fiberglass insulation. Porous materials like drywall and carpet almost always require removal; semi-porous materials like wood framing can sometimes be remediated in place using wire brushing and an EPA-registered antimicrobial treatment. Non-porous surfaces — tile, metal, glass — are typically cleanable without removal.
+The scope depends on the size of the affected area and the material it's growing on. Mold on a painted concrete block wall is a different problem than mold inside a closed wall cavity with contaminated fiberglass insulation. Porous materials like drywall and carpet almost always require removal; semi-porous materials like wood framing can sometimes be remediated in place using wire brushing and an EPA-registered antimicrobial treatment. Non-porous surfaces, tile, metal, glass, are typically cleanable without removal.
 
 Timeline varies. A single bathroom with contained surface mold might be cleared in one to two days. A crawl space with widespread growth or a multi-room loss following a slow plumbing leak can run five to seven days or longer, depending on the extent of affected materials and the drying time required before clearance testing.
 
-Reign Restoration holds the IICRC AMRT (Applied Microbial Remediation Technician) certification, which means the work is scoped and executed against the IICRC S520 Standard for Professional Mold Remediation — the same benchmark insurance adjusters and industrial hygienists reference when reviewing a claim.
+Reign Restoration holds the IICRC AMRT (Applied Microbial Remediation Technician) certification, which means the work is scoped and executed against the IICRC S520 Standard for Professional Mold Remediation, the same benchmark insurance adjusters and industrial hygienists reference when reviewing a claim.
 
 ## Our process
 
-1. **Inspection and moisture mapping.** Before any material comes out, we identify the moisture source and map the full extent of affected areas using thermal imaging and moisture meters. Mold follows water — and water travels further than the stain suggests. Skipping this step means missing colonies behind walls or under flooring that will regrow within weeks.
+1. **Inspection and moisture mapping.** Before any material comes out, we identify the moisture source and map the full extent of affected areas using thermal imaging and moisture meters. Mold follows water, and water travels further than the stain suggests. Skipping this step means missing colonies behind walls or under flooring that will regrow within weeks.
 
 2. **Containment setup.** We seal the work area with 6-mil poly sheeting and establish negative air pressure using HEPA-filtered negative air machines exhausted to the exterior. This prevents disturbed spores from migrating to clean areas of the home during demolition and cleaning.
 
 3. **Removal of colonized materials.** Affected drywall, insulation, flooring, and other porous materials are carefully bagged and removed from the containment zone. Salvageable structural wood is wire-brushed and treated with an EPA-registered antimicrobial agent. HEPA vacuuming of all surfaces inside the containment follows.
 
-4. **Air scrubbing and drying.** HEPA air scrubbers run continuously throughout remediation and remain in place after material removal to capture airborne spores. If elevated moisture remains in structural materials, drying equipment is deployed before the area is closed up — sealing wet framing behind new drywall is one of the most common mistakes in rushed mold cleanup jobs.
+4. **Air scrubbing and drying.** HEPA air scrubbers run continuously throughout remediation and remain in place after material removal to capture airborne spores. If elevated moisture remains in structural materials, drying equipment is deployed before the area is closed up, sealing wet framing behind new drywall is one of the most common mistakes in rushed mold cleanup jobs.
 
 5. **Clearance testing.** We recommend post-remediation air sampling by an independent industrial hygienist or environmental consultant before containment is removed. Clearance testing compares indoor spore counts to outdoor baseline levels and confirms the remediation was successful. We can coordinate this step or work with your chosen consultant.
 
 ## What separates a good mold remediation response from a bad one
 
-The most common failure in mold cleanup is inadequate containment — painting or encapsulating over visible mold without addressing the moisture source, or removing surface growth without establishing negative air pressure first. Both approaches scatter spores into HVAC systems and adjacent rooms, turning a localized problem into a whole-house issue.
+The most common failure in mold cleanup is inadequate containment, painting or encapsulating over visible mold without addressing the moisture source, or removing surface growth without establishing negative air pressure first. Both approaches scatter spores into HVAC systems and adjacent rooms, turning a localized problem into a whole-house issue.
 
 A second frequent mistake is closing walls before structural materials have reached acceptable moisture content. Wood framing that reads above 19% moisture content on a pin meter will support new mold growth behind finished walls within weeks, regardless of what antimicrobial was applied to the surface.
 
 Insurance adjusters reviewing mold claims look for a written scope of work tied to the IICRC S520 standard, photo documentation of pre- and post-remediation conditions, moisture readings logged before and after drying, and a clearance test report from a qualified third party. Without that documentation, supplement disputes and claim denials are common.
 
-Reign Restoration provides full photo documentation and moisture logs as a standard part of every job — not as an add-on.
+Reign Restoration provides full photo documentation and moisture logs as a standard part of every job, not as an add-on.
 
 ## What does mold remediation cost?
 
-Typical mold remediation costs depend heavily on the size of the affected area, the materials involved, and whether the moisture source has already been corrected. Most homeowners pay somewhere between $1,500 and $6,000 for a contained single-area loss; larger or multi-room losses can run significantly higher. The table below reflects typical industry ranges — not a quote from Reign Restoration.
+Typical mold remediation costs depend heavily on the size of the affected area, the materials involved, and whether the moisture source has already been corrected. Most homeowners pay somewhere between $1,500 and $6,000 for a contained single-area loss; larger or multi-room losses can run significantly higher. The table below reflects typical industry ranges, not a quote from Reign Restoration.
 
 | Scenario | Typical industry range |
 |---|---|
@@ -64,16 +64,16 @@ Typical mold remediation costs depend heavily on the size of the affected area, 
 | Whole-house or attic mold (widespread) | $8,000 – $30,000+ |
 | HVAC system mold cleaning (duct contamination) | $700 – $3,000 |
 
-Every loss is different, and Reign Restoration provides a written scope of work before any remediation begins. Homeowners insurance typically covers mold remediation when the mold results from a sudden, covered water loss — a burst pipe or appliance failure — but policies vary widely, and mold from long-term neglect or gradual leaks is often excluded. We work with all major carriers and can help document the loss for your adjuster.
+Every loss is different, and Reign Restoration provides a written scope of work before any remediation begins. Homeowners insurance typically covers mold remediation when the mold results from a sudden, covered water loss, a burst pipe or appliance failure, but policies vary widely, and mold from long-term neglect or gradual leaks is often excluded. We work with all major carriers and can help document the loss for your adjuster.
 
 ## Seasonal and regional considerations
 
-Royse City and the broader Rockwall County area sit in a climate zone where summer humidity regularly pushes above 70% — conditions that make any unresolved moisture intrusion a fast path to mold growth. Crawl spaces under pier-and-beam homes in the area are especially vulnerable during the stretch from May through September, when ground moisture and warm air combine inside unventilated or poorly ventilated crawl spaces. Attic mold is also common following the region's periodic hail events, when damaged or displaced roof decking allows warm, humid air to condense against cooler sheathing before the leak is noticed.
+Royse City and the broader Rockwall County area sit in a climate zone where summer humidity regularly pushes above 70%, conditions that make any unresolved moisture intrusion a fast path to mold growth. Crawl spaces under pier-and-beam homes in the area are especially vulnerable during the stretch from May through September, when ground moisture and warm air combine inside unventilated or poorly ventilated crawl spaces. Attic mold is also common following the region's periodic hail events, when damaged or displaced roof decking allows warm, humid air to condense against cooler sheathing before the leak is noticed.
 
-Winter is not risk-free either. Condensation on poorly insulated exterior walls — a common issue in older homes in Fate, Caddo Mills, and parts of Greenville — can feed slow mold growth that goes undetected until a renovation uncovers it.
+Winter is not risk-free either. Condensation on poorly insulated exterior walls, a common issue in older homes in Fate, Caddo Mills, and parts of Greenville, can feed slow mold growth that goes undetected until a renovation uncovers it.
 
 ## Service area
 
-Reign Restoration is based in Royse City and provides mold remediation throughout the surrounding area, including Rockwall, Fate, Heath, Caddo Mills, Greenville, Forney, and Terrell. Each of those communities has its own combination of housing stock, soil conditions, and moisture patterns — and we work in all of them regularly. City-specific pages are linked from the main service area section of the site.
+Reign Restoration is based in Royse City and provides mold remediation throughout the surrounding area, including Rockwall, Fate, Heath, Caddo Mills, Greenville, Forney, and Terrell. Each of those communities has its own combination of housing stock, soil conditions, and moisture patterns, and we work in all of them regularly. City-specific pages are linked from the main service area section of the site.
 
-If you're seeing signs of mold growth — visible discoloration, a persistent musty odor, or a history of water intrusion — call (214) 304-0621 to request an air quality assessment. The sooner the moisture source and affected materials are identified, the smaller the remediation scope tends to be.
+If you're seeing signs of mold growth, visible discoloration, a persistent musty odor, or a history of water intrusion, call (214) 304-0621 to request an air quality assessment. The sooner the moisture source and affected materials are identified, the smaller the remediation scope tends to be.

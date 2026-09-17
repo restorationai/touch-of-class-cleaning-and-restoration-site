@@ -17,44 +17,44 @@ service_slug: "odor-removal"
 service_display: "Odor Removal and Deodorization"
 rendered: true
 ---
-A house fire gets put out. The smoke clears. But three weeks later, every time the heat kicks on, the smell comes back — faint at first, then unmistakable. That's because smoke odor isn't just in the air; it's in the drywall, the ductwork, the fibers of upholstered furniture, and the microscopic pores of wood framing. The same principle applies to pet urine that has wicked into a subfloor, or a decomposition event that has saturated wall cavities. Surface cleaning alone doesn't reach those reservoirs. Professional odor removal and deodorization does.
+A house fire gets put out. The smoke clears. But three weeks later, every time the heat kicks on, the smell comes back, faint at first, then unmistakable. That's because smoke odor isn't just in the air; it's in the drywall, the ductwork, the fibers of upholstered furniture, and the microscopic pores of wood framing. The same principle applies to pet urine that has wicked into a subfloor, or a decomposition event that has saturated wall cavities. Surface cleaning alone doesn't reach those reservoirs. Professional odor removal and deodorization does.
 
 ## What odor removal and deodorization actually involves
 
-Odor molecules bond to porous materials — insulation, drywall paper, wood, fabric, concrete. Masking agents (sprays, plug-ins, candles) coat the surface temporarily but do nothing to the embedded source. True deodorization works by either chemically altering the odor-causing compounds or physically destroying them at the molecular level.
+Odor molecules bond to porous materials, insulation, drywall paper, wood, fabric, concrete. Masking agents (sprays, plug-ins, candles) coat the surface temporarily but do nothing to the embedded source. True deodorization works by either chemically altering the odor-causing compounds or physically destroying them at the molecular level.
 
-The equipment matters as much as the chemistry. Ozone generators flood a sealed space with O₃, which reacts with and neutralizes odor molecules on contact — including inside wall cavities and HVAC systems that a technician's hands can't reach. Hydroxyl deodorization uses UV-generated hydroxyl radicals that are safe to operate in occupied spaces, making it the right tool when contents can't be fully removed. Thermal fogging vaporizes a deodorizing solvent into a fine mist that penetrates the same pathways smoke traveled during a fire — into wall voids, carpet backing, and ceiling plenum spaces — neutralizing residue where it actually lives.
+The equipment matters as much as the chemistry. Ozone generators flood a sealed space with O₃, which reacts with and neutralizes odor molecules on contact, including inside wall cavities and HVAC systems that a technician's hands can't reach. Hydroxyl deodorization uses UV-generated hydroxyl radicals that are safe to operate in occupied spaces, making it the right tool when contents can't be fully removed. Thermal fogging vaporizes a deodorizing solvent into a fine mist that penetrates the same pathways smoke traveled during a fire, into wall voids, carpet backing, and ceiling plenum spaces, neutralizing residue where it actually lives.
 
 Timeline depends on the odor source and severity. A single-room smoke event might be resolved in one to two days. A whole-house fire with smoke penetration into structural cavities, or a pet urine situation with subfloor saturation, can require multiple treatment cycles over several days, with air quality checks between sessions to confirm the odor compounds are declining rather than just temporarily suppressed.
 
 ## Our process
 
-1. **Source identification and scope assessment.** Before any equipment is deployed, a technician walks the structure to locate every odor reservoir — not just the obvious ones. This includes checking HVAC returns, attic spaces, crawlspaces, and wall cavities adjacent to the loss area. Skipping this step is the single most common reason odors return after treatment.
+1. **Source identification and scope assessment.** Before any equipment is deployed, a technician walks the structure to locate every odor reservoir, not just the obvious ones. This includes checking HVAC returns, attic spaces, crawlspaces, and wall cavities adjacent to the loss area. Skipping this step is the single most common reason odors return after treatment.
 
-2. **Source removal where possible.** If saturated materials — charred framing, urine-soaked subfloor, contaminated insulation — can be safely removed, they are. No deodorization method fully neutralizes an active, embedded source that remains in the structure. Mechanical removal is always the first line of defense.
+2. **Source removal where possible.** If saturated materials, charred framing, urine-soaked subfloor, contaminated insulation, can be safely removed, they are. No deodorization method fully neutralizes an active, embedded source that remains in the structure. Mechanical removal is always the first line of defense.
 
 3. **Primary deodorization treatment.** Based on the odor type and affected materials, the appropriate method is selected: ozone treatment for deep structural penetration in unoccupied spaces, hydroxyl deodorization for occupied or content-heavy environments, or thermal fogging to mirror the pathways smoke originally traveled. In complex losses, more than one method is used in sequence.
 
-4. **HVAC and duct deodorization.** Ductwork is a direct distribution system for odors. If the HVAC ran during or after the odor event, the interior of the duct system is treated separately — otherwise, the first time the system cycles, it reintroduces odor to every room in the house.
+4. **HVAC and duct deodorization.** Ductwork is a direct distribution system for odors. If the HVAC ran during or after the odor event, the interior of the duct system is treated separately, otherwise, the first time the system cycles, it reintroduces odor to every room in the house.
 
-5. **Verification and clearance.** Post-treatment air sampling and odor panel evaluation confirm that compounds have been neutralized, not masked. Documentation from this step is useful for insurance claims and gives homeowners a clear record that the work was completed — not just attempted.
+5. **Verification and clearance.** Post-treatment air sampling and odor panel evaluation confirm that compounds have been neutralized, not masked. Documentation from this step is useful for insurance claims and gives homeowners a clear record that the work was completed, not just attempted.
 
 ## What separates a good deodorization response from a bad one
 
-The most common failure in odor removal is treating the symptom rather than the source. A contractor who runs an ozone machine for four hours and calls the job done hasn't addressed saturated subfloor, contaminated insulation, or smoke residue inside wall cavities. The odor returns within days — sometimes hours — once the ozone dissipates.
+The most common failure in odor removal is treating the symptom rather than the source. A contractor who runs an ozone machine for four hours and calls the job done hasn't addressed saturated subfloor, contaminated insulation, or smoke residue inside wall cavities. The odor returns within days, sometimes hours, once the ozone dissipates.
 
 A second common mistake is mismatching the technology to the odor type. Protein-based odors from cooking fires or decomposition events require enzymatic pre-treatment before thermal fogging; ozone alone won't break down the heavy organic compounds efficiently. Synthetic smoke from burning plastics leaves a different chemical residue than wood smoke, and the treatment chemistry needs to account for that difference.
 
-Insurance adjusters reviewing a deodorization claim look for itemized documentation: which areas were treated, which methods were used, what equipment ran for how long, and what post-treatment verification was performed. A job documented only as "deodorization — flat rate" is frequently disputed. Detailed logs protect the homeowner and the contractor alike.
+Insurance adjusters reviewing a deodorization claim look for itemized documentation: which areas were treated, which methods were used, what equipment ran for how long, and what post-treatment verification was performed. A job documented only as "deodorization, flat rate" is frequently disputed. Detailed logs protect the homeowner and the contractor alike.
 
-Finally, ozone treatment requires the space to be fully vacated — people, pets, and plants. Contractors who skip that safety step, or who run ozone in occupied spaces to save time, create a liability problem and an ineffective treatment simultaneously.
+Finally, ozone treatment requires the space to be fully vacated, people, pets, and plants. Contractors who skip that safety step, or who run ozone in occupied spaces to save time, create a liability problem and an ineffective treatment simultaneously.
 
 ## Seasonal and regional considerations
 
-New Jersey's humid summers create compounding odor problems. High ambient humidity slows the evaporation of odor-causing compounds and can reactivate dormant pet urine crystals in flooring — a phenomenon that catches homeowners off guard when a smell they thought was gone returns in July. Conversely, winter forces homes to run heating systems continuously, which circulates smoke residue and cooking odors through ductwork more aggressively than in milder months. Kenilworth's older housing stock — much of it built before 1970 — often has unlined duct systems and plaster walls that are more porous than modern construction, meaning odor penetration tends to go deeper and require longer treatment cycles.
+New Jersey's humid summers create compounding odor problems. High ambient humidity slows the evaporation of odor-causing compounds and can reactivate dormant pet urine crystals in flooring, a phenomenon that catches homeowners off guard when a smell they thought was gone returns in July. Conversely, winter forces homes to run heating systems continuously, which circulates smoke residue and cooking odors through ductwork more aggressively than in milder months. Kenilworth's older housing stock, much of it built before 1970, often has unlined duct systems and plaster walls that are more porous than modern construction, meaning odor penetration tends to go deeper and require longer treatment cycles.
 
 ## Service area
 
 The Restoration Group is based in Kenilworth, NJ and provides odor removal and deodorization throughout Union County and surrounding areas, including Cranford, Westfield, Springfield, Summit, Roselle, and Clark. Dedicated service-area pages cover each city in detail.
 
-If a smell has come back after a previous treatment — or if you're dealing with smoke, pet, or decomposition odor for the first time — call (908) 970-8533 any time, day or night, to schedule a source assessment and get a clear picture of what it will actually take to eliminate it.
+If a smell has come back after a previous treatment, or if you're dealing with smoke, pet, or decomposition odor for the first time, call (908) 970-8533 any time, day or night, to schedule a source assessment and get a clear picture of what it will actually take to eliminate it.

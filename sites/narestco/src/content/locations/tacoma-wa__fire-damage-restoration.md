@@ -20,32 +20,32 @@ state: "WA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-A house fire leaves behind more than char and ash. Within hours of the flames going out, smoke residue is already bonding to walls, ceilings, and HVAC surfaces — and the water used to extinguish the fire is soaking into framing and subfloor. If you're in Tacoma and you're reading this right now, the clock is already running. National Restoration Construction has been responding to structural fire damage across the South Puget Sound since 2004, and our crews can be on-site in Tacoma in 60–90 minutes from our Federal Way headquarters — often faster for properties near I-5 or SR-16.
+A house fire leaves behind more than char and ash. Within hours of the flames going out, smoke residue is already bonding to walls, ceilings, and HVAC surfaces, and the water used to extinguish the fire is soaking into framing and subfloor. If you're in Tacoma and you're reading this right now, the clock is already running. National Restoration Construction has been responding to structural fire damage across the South Puget Sound since 2004, and our crews can be on-site in Tacoma in 60–90 minutes from our Federal Way headquarters, often faster for properties near I-5 or SR-16.
 
 ## What Our Fire Damage Restoration Process Looks Like in Tacoma
 
-The first thing we do when we arrive isn't paperwork — it's a rapid site assessment to identify what's structurally unsafe and what needs to be secured immediately. That usually means boarding windows and doors, tarping any roof breaches, and isolating the affected areas before smoke odor migrates further into livable space.
+The first thing we do when we arrive isn't paperwork, it's a rapid site assessment to identify what's structurally unsafe and what needs to be secured immediately. That usually means boarding windows and doors, tarping any roof breaches, and isolating the affected areas before smoke odor migrates further into livable space.
 
 From there, the work moves in a deliberate sequence:
 
-- **Debris and soot removal.** Dry smoke residue is acidic. Left on metal fixtures, appliances, or wood trim, it causes permanent etching and corrosion within days. We use dry-chemical sponges and HEPA-filtered vacuums before any wet cleaning begins — wetting soot prematurely drives it deeper into porous surfaces.
-- **Smoke and odor neutralization.** We use thermal fogging and hydroxyl generators to break down odor molecules in the air and inside materials — not just mask the smell. Tacoma's damp marine climate means smoke compounds absorb into wood framing faster than in drier climates, so this step gets extra attention here.
+- **Debris and soot removal.** Dry smoke residue is acidic. Left on metal fixtures, appliances, or wood trim, it causes permanent etching and corrosion within days. We use dry-chemical sponges and HEPA-filtered vacuums before any wet cleaning begins, wetting soot prematurely drives it deeper into porous surfaces.
+- **Smoke and odor neutralization.** We use thermal fogging and hydroxyl generators to break down odor molecules in the air and inside materials, not just mask the smell. Tacoma's damp marine climate means smoke compounds absorb into wood framing faster than in drier climates, so this step gets extra attention here.
 - **Water and moisture extraction.** Firefighting water is often the second wave of damage. We run truck-mounted extraction and commercial-grade desiccant dehumidifiers to bring structural moisture levels down before any rebuild begins, which also reduces the 24–48 hour window in which mold colonization can start.
-- **Structural assessment and fire damage repair.** Once the environment is stabilized, our licensed general contractors (WA L&I #NATIORC792M6) document damaged framing, drywall, insulation, and finishes and begin the rebuild phase — keeping the entire project under one roof rather than handing you off to a separate contractor.
+- **Structural assessment and fire damage repair.** Once the environment is stabilized, our licensed general contractors (WA L&I #NATIORC792M6) document damaged framing, drywall, insulation, and finishes and begin the rebuild phase, keeping the entire project under one roof rather than handing you off to a separate contractor.
 
 ## Why Tacoma Homes Are Particularly Vulnerable After a Fire
 
-Tacoma's housing stock skews older. Large sections of neighborhoods like Hilltop, the North End, and South Tacoma are built on Craftsman-era and mid-century construction — balloon-frame and platform-frame structures where fire travels vertically through wall cavities faster than in newer builds. That means smoke can penetrate floors and attic spaces that look unaffected from the outside.
+Tacoma's housing stock skews older. Large sections of neighborhoods like Hilltop, the North End, and South Tacoma are built on Craftsman-era and mid-century construction, balloon-frame and platform-frame structures where fire travels vertically through wall cavities faster than in newer builds. That means smoke can penetrate floors and attic spaces that look unaffected from the outside.
 
-The region's persistent moisture — average annual rainfall around 38 inches, with humidity that rarely drops low even in summer — means that post-fire restoration here can't rush the drying phase. Rebuilt surfaces sealed over damp framing will blister, warp, and grow mold within months. We account for that in every project timeline.
+The region's persistent moisture, average annual rainfall around 38 inches, with humidity that rarely drops low even in summer, means that post-fire restoration here can't rush the drying phase. Rebuilt surfaces sealed over damp framing will blister, warp, and grow mold within months. We account for that in every project timeline.
 
-Tacoma's proximity to the Port and industrial corridors also means some residential fires involve materials that require Lead-Safe handling protocols — relevant in pre-1978 homes where disturbing fire-damaged painted surfaces triggers EPA and OSHA requirements. As a Lead-Safe Certified Firm and EPA Certified contractor, we handle that documentation and process so it doesn't fall on you.
+Tacoma's proximity to the Port and industrial corridors also means some residential fires involve materials that require Lead-Safe handling protocols, relevant in pre-1978 homes where disturbing fire-damaged painted surfaces triggers EPA and OSHA requirements. As a Lead-Safe Certified Firm and EPA Certified contractor, we handle that documentation and process so it doesn't fall on you.
 
 ## Navigating Insurance After a Tacoma House Fire
 
-Most homeowners' policies cover fire and smoke restoration, but the claims process has real friction — especially when the scope of damage isn't fully visible in the first 24 hours. We work directly with your insurance adjuster, providing line-item documentation of damage, photo evidence, moisture readings, and repair estimates in the format carriers expect.
+Most homeowners' policies cover fire and smoke restoration, but the claims process has real friction, especially when the scope of damage isn't fully visible in the first 24 hours. We work directly with your insurance adjuster, providing line-item documentation of damage, photo evidence, moisture readings, and repair estimates in the format carriers expect.
 
-What that means practically: you don't have to be the translator between us and your insurer. We've handled claims with most major carriers operating in Washington State, and our documentation is built from the first site visit with the adjuster's review in mind. We can't guarantee any specific claim outcome — that's between you and your carrier — but we can make sure the scope of damage is fully and accurately represented.
+What that means practically: you don't have to be the translator between us and your insurer. We've handled claims with most major carriers operating in Washington State, and our documentation is built from the first site visit with the adjuster's review in mind. We can't guarantee any specific claim outcome, that's between you and your carrier, but we can make sure the scope of damage is fully and accurately represented.
 
 If you're unsure whether to file a claim or pay out of pocket, we can walk you through the damage scope before you make that decision.
 
@@ -53,6 +53,6 @@ If you're unsure whether to file a claim or pay out of pocket, we can walk you t
 
 From our Federal Way base, we can reach most of Tacoma in under an hour under normal traffic conditions. The Stadium District, Downtown Tacoma, and the Hilltop neighborhood are typically 20–35 minutes. South Tacoma and Parkland run 25–40 minutes. The North End and Ruston area can be 35–55 minutes depending on the SR-16 interchange.
 
-We operate 24 hours a day, seven days a week — including holidays. Fire damage doesn't wait for business hours, and neither do we.
+We operate 24 hours a day, seven days a week, including holidays. Fire damage doesn't wait for business hours, and neither do we.
 
-If you're standing in front of a fire-damaged property right now, the fastest way to get answers and a crew moving is to reach us directly at **(206) 883-0333**. We'll confirm your address, give you an honest ETA, and tell you exactly what to do — and what not to do — before we arrive.
+If you're standing in front of a fire-damaged property right now, the fastest way to get answers and a crew moving is to reach us directly at **(206) 883-0333**. We'll confirm your address, give you an honest ETA, and tell you exactly what to do, and what not to do, before we arrive.

@@ -18,19 +18,19 @@ rendered: true
 ---
 ## Our Commitment to Accessibility
 
-Air Care Restoration is committed to making its website usable by everyone, including people who rely on assistive technologies such as screen readers, keyboard navigation, or display magnification. We believe that access to information about emergency restoration services should not depend on a visitor's physical or cognitive abilities — especially when someone is dealing with a stressful situation like water damage or a house fire.
+Air Care Restoration is committed to making its website usable by everyone, including people who rely on assistive technologies such as screen readers, keyboard navigation, or display magnification. We believe that access to information about emergency restoration services should not depend on a visitor's physical or cognitive abilities, especially when someone is dealing with a stressful situation like water damage or a house fire.
 
 This site is built with the goal of conforming to the **Web Content Accessibility Guidelines (WCAG) 2.1, Level AA**, the widely recognized benchmark for accessible web design.
 
 ## What We've Done to Support Accessibility
 
-Our site is structured to work with common assistive technologies. This includes the use of semantic HTML so that screen readers can interpret page structure accurately, descriptive text alternatives for meaningful images, sufficient color contrast between text and background elements, and navigation that can be operated without a mouse. Form fields — including our contact form — are labeled so that assistive technology users can complete them without confusion.
+Our site is structured to work with common assistive technologies. This includes the use of semantic HTML so that screen readers can interpret page structure accurately, descriptive text alternatives for meaningful images, sufficient color contrast between text and background elements, and navigation that can be operated without a mouse. Form fields, including our contact form, are labeled so that assistive technology users can complete them without confusion.
 
 We also aim to keep the language on this site plain and direct. Restoration emergencies are already overwhelming; the last thing a visitor needs is a website that's hard to parse.
 
 ## Known Limitations
 
-We are a small, locally operated business and our website is an ongoing effort. Some content — such as third-party embeds or older documents — may not yet meet every WCAG 2.1 AA criterion. We are actively working to identify and resolve gaps as they are found.
+We are a small, locally operated business and our website is an ongoing effort. Some content, such as third-party embeds or older documents, may not yet meet every WCAG 2.1 AA criterion. We are actively working to identify and resolve gaps as they are found.
 
 If you encounter a barrier on any page of this site, we want to know about it.
 

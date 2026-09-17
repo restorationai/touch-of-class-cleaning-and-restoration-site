@@ -20,14 +20,14 @@ state: "WA"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
-The 1960s and 70s ramblers that line the streets of Chambers Creek and Sunset Terrace weren't built with today's appliances in mind. Original braided-steel supply lines behind refrigerators, aging rubber washing machine hoses, and first-generation dishwasher drain connections have had sixty years to fatigue — and when one finally lets go on a Saturday morning, water moves fast across vinyl-over-plywood subfloors that were never designed to shed it. National Restoration Construction responds to appliance leak emergencies throughout University Place, reaching most 98466 and 98467 addresses within 60–90 minutes of your call to (206) 883-0333.
+The 1960s and 70s ramblers that line the streets of Chambers Creek and Sunset Terrace weren't built with today's appliances in mind. Original braided-steel supply lines behind refrigerators, aging rubber washing machine hoses, and first-generation dishwasher drain connections have had sixty years to fatigue, and when one finally lets go on a Saturday morning, water moves fast across vinyl-over-plywood subfloors that were never designed to shed it. National Restoration Construction responds to appliance leak emergencies throughout University Place, reaching most 98466 and 98467 addresses within 60–90 minutes of your call to (206) 883-0333.
 
 ## Why University Place Homes Are Especially Vulnerable to Appliance Leaks
 
 The housing stock here is the core issue. Split-levels and ramblers built between 1960 and 1980 dominate neighborhoods from Beckonridge to the Narrows View corridor. Those homes share a few traits that make a slow refrigerator ice-maker drip or a washing machine overflow far more damaging than it would be in a newer build:
 
 - **Aging supply lines.** Braided steel and early PVC connections weren't rated for decades of water pressure cycling. A refrigerator line that looks fine can fail at the compression fitting with no warning.
-- **Minimal crawl-space vapor barriers.** Many University Place ramblers have partial or degraded crawl-space plastic — water that migrates through the subfloor finds damp soil and stays there, feeding mold within 48–72 hours.
+- **Minimal crawl-space vapor barriers.** Many University Place ramblers have partial or degraded crawl-space plastic, water that migrates through the subfloor finds damp soil and stays there, feeding mold within 48–72 hours.
 - **Cast-iron drain stacks.** Older cast iron corrodes from the inside out. A washing machine that drains faster than the stack can handle backs up quietly, pooling under the appliance before anyone notices the smell.
 - **Slab-on-grade additions.** Owners who added family rooms or laundry alcoves in the 1980s often poured concrete pads directly on grade. Water heater leaks on those slabs wick laterally under adjacent framing with no visible surface sign.
 
@@ -35,25 +35,25 @@ The Pacific Northwest's wet winters compound all of this. University Place avera
 
 ## Our Appliance Leak Cleanup Process in University Place
 
-Every job starts with containment and assessment, not assumptions. When a technician arrives, the first step is shutting off the water source — whether that's the saddle valve behind a refrigerator or the hot-and-cold supply valves for a washing machine — then using a thermal imaging camera and calibrated moisture meters to map exactly where water has traveled. In older University Place homes, that map often surprises owners: water under a dishwasher can wick six to eight feet into adjacent cabinetry before it surfaces.
+Every job starts with containment and assessment, not assumptions. When a technician arrives, the first step is shutting off the water source, whether that's the saddle valve behind a refrigerator or the hot-and-cold supply valves for a washing machine, then using a thermal imaging camera and calibrated moisture meters to map exactly where water has traveled. In older University Place homes, that map often surprises owners: water under a dishwasher can wick six to eight feet into adjacent cabinetry before it surfaces.
 
 From there, the process moves through extraction, structural drying, and documentation:
 
-1. **Extraction** — Truck-mounted or portable extractors pull standing water from hard surfaces and saturated carpet. In split-level homes, we stage equipment on the level where the leak originated and work downward.
-2. **Drying system placement** — Industrial air movers and low-grain refrigerant dehumidifiers are positioned based on the moisture map, not a generic grid. Crawl-space drying often requires separate equipment runs with sealed access points.
-3. **Daily monitoring** — A technician checks moisture readings each day and adjusts equipment until readings return to regional baseline. In University Place's climate, structural drying typically runs three to five days for a contained appliance leak.
-4. **Documentation for insurance** — Every moisture reading, photo, and equipment placement is logged in a format compatible with most major carriers, including State Farm, Farmers, and PEMCO, which are common in Pierce County.
+1. **Extraction**, Truck-mounted or portable extractors pull standing water from hard surfaces and saturated carpet. In split-level homes, we stage equipment on the level where the leak originated and work downward.
+2. **Drying system placement**, Industrial air movers and low-grain refrigerant dehumidifiers are positioned based on the moisture map, not a generic grid. Crawl-space drying often requires separate equipment runs with sealed access points.
+3. **Daily monitoring**, A technician checks moisture readings each day and adjusts equipment until readings return to regional baseline. In University Place's climate, structural drying typically runs three to five days for a contained appliance leak.
+4. **Documentation for insurance**, Every moisture reading, photo, and equipment placement is logged in a format compatible with most major carriers, including State Farm, Farmers, and PEMCO, which are common in Pierce County.
 
-All work is performed under our IICRC certification and Washington State General Contractor license (#NATIORC792M6), and we carry the Lead-Safe Certified Firm designation — relevant in pre-1978 homes, which make up a significant portion of University Place's housing stock.
+All work is performed under our IICRC certification and Washington State General Contractor license (#NATIORC792M6), and we carry the Lead-Safe Certified Firm designation, relevant in pre-1978 homes, which make up a significant portion of University Place's housing stock.
 
 ## Response Time to University Place
 
-National Restoration Construction is headquartered in Federal Way, roughly 12–15 miles north of University Place via I-5 and Highway 16. Under normal traffic, that's a 20–25 minute drive to the Chambers Bay area or the Day Island waterfront. Rush-hour congestion on the Tacoma Narrows approach can add time, which is why we dispatch from whichever crew is closest — not always from Federal Way.
+National Restoration Construction is headquartered in Federal Way, roughly 12–15 miles north of University Place via I-5 and Highway 16. Under normal traffic, that's a 20–25 minute drive to the Chambers Bay area or the Day Island waterfront. Rush-hour congestion on the Tacoma Narrows approach can add time, which is why we dispatch from whichever crew is closest, not always from Federal Way.
 
 For neighborhoods near the Fircrest border or along the Narrows View bluff, expect a technician on-site within 60 minutes of your call in most cases. We answer 24 hours a day, seven days a week, including holidays.
 
 ## Local Note: What We've Learned Working University Place's Older Ramblers
 
-In University Place's single-story ramblers, the laundry room is almost always on an exterior wall — which means a slow washing machine hose leak doesn't just wet the floor, it migrates into the wall cavity facing the outside. That exterior framing dries from the inside much more slowly than interior walls because outdoor temperatures in a West Pierce County winter keep the sheathing cold and condensation-prone. We account for this by placing directional air movers to push warm, dry air through the wall cavity from the interior side, and we extend drying cycles by one to two days compared to what we'd schedule for the same leak in a newer construction home. Owners who've had a previous contractor call a job "dry" in two days on one of these homes sometimes call us back months later with a mold complaint — the exterior framing never fully dried.
+In University Place's single-story ramblers, the laundry room is almost always on an exterior wall, which means a slow washing machine hose leak doesn't just wet the floor, it migrates into the wall cavity facing the outside. That exterior framing dries from the inside much more slowly than interior walls because outdoor temperatures in a West Pierce County winter keep the sheathing cold and condensation-prone. We account for this by placing directional air movers to push warm, dry air through the wall cavity from the interior side, and we extend drying cycles by one to two days compared to what we'd schedule for the same leak in a newer construction home. Owners who've had a previous contractor call a job "dry" in two days on one of these homes sometimes call us back months later with a mold complaint, the exterior framing never fully dried.
 
-If you're dealing with an appliance leak anywhere in University Place — a refrigerator line behind the French doors, a water heater pan that overflowed in the garage, a dishwasher that soaked the kitchen subfloor — call (206) 883-0333 now. The sooner extraction starts, the narrower the damage footprint stays, and the less likely you are to be scheduling a mold remediation job six weeks from today.
+If you're dealing with an appliance leak anywhere in University Place, a refrigerator line behind the French doors, a water heater pan that overflowed in the garage, a dishwasher that soaked the kitchen subfloor, call (206) 883-0333 now. The sooner extraction starts, the narrower the damage footprint stays, and the less likely you are to be scheduling a mold remediation job six weeks from today.

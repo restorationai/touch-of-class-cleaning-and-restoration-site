@@ -19,13 +19,13 @@ state: "MS"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall or a storm pushes water under your doors, HomeLyft Restoration MS works with Lumberton property owners to stop the damage, document the loss, and put the structure back together — from initial extraction through finished repairs. We handle water damage, fire and smoke cleanup, mold remediation, and reconstruction for homes and commercial properties throughout Lamar County, coordinating directly with insurance carriers so you are not navigating the claims process alone.
+When a pipe bursts behind a wall or a storm pushes water under your doors, HomeLyft Restoration MS works with Lumberton property owners to stop the damage, document the loss, and put the structure back together, from initial extraction through finished repairs. We handle water damage, fire and smoke cleanup, mold remediation, and reconstruction for homes and commercial properties throughout Lamar County, coordinating directly with insurance carriers so you are not navigating the claims process alone.
 
 ## Restoration emergencies common in Lumberton
 
-Lumberton sits in the humid subtropical belt of south Mississippi, where summer humidity rarely drops below uncomfortable and afternoon thunderstorms can drop two inches of rain in under an hour. That combination punishes older housing stock hard. Many homes in the area were built in the 1960s through 1980s with pier-and-beam foundations that leave crawl spaces vulnerable to groundwater intrusion — especially after prolonged rain saturates the clay-heavy soils common to Lamar County. Once moisture gets into a crawl space, mold can begin colonizing wood framing within 24 to 48 hours under those humidity conditions.
+Lumberton sits in the humid subtropical belt of south Mississippi, where summer humidity rarely drops below uncomfortable and afternoon thunderstorms can drop two inches of rain in under an hour. That combination punishes older housing stock hard. Many homes in the area were built in the 1960s through 1980s with pier-and-beam foundations that leave crawl spaces vulnerable to groundwater intrusion, especially after prolonged rain saturates the clay-heavy soils common to Lamar County. Once moisture gets into a crawl space, mold can begin colonizing wood framing within 24 to 48 hours under those humidity conditions.
 
-Fire risk follows a different seasonal pattern. Dry winters and early spring bring brush fires that occasionally threaten structures on the rural edges of town, and older homes with outdated wiring or wood-burning stoves see a higher rate of interior fires than newer construction. Smoke residue from a contained kitchen fire can penetrate drywall and insulation faster than most homeowners expect, leaving odors that persist for months if not treated with proper thermal fogging and hydroxyl equipment — not just surface cleaning.
+Fire risk follows a different seasonal pattern. Dry winters and early spring bring brush fires that occasionally threaten structures on the rural edges of town, and older homes with outdated wiring or wood-burning stoves see a higher rate of interior fires than newer construction. Smoke residue from a contained kitchen fire can penetrate drywall and insulation faster than most homeowners expect, leaving odors that persist for months if not treated with proper thermal fogging and hydroxyl equipment, not just surface cleaning.
 
 Lumberton also lies within the path of Gulf-origin tropical systems that track north along the Pearl River corridor. When those storms stall, flash flooding can push water into structures that have never flooded before, and the combination of wind-driven rain and compromised roof decking creates interior water events that affect multiple rooms simultaneously.
 
@@ -33,15 +33,15 @@ Lumberton also lies within the path of Gulf-origin tropical systems that track n
 
 ### Water damage restoration
 
-Water damage in Lumberton frequently involves saturated crawl spaces, subfloor swelling, and moisture that has wicked up into wall cavities before anyone notices the problem. We use thermal imaging cameras and moisture meters to map the full extent of the intrusion — not just the visible wet areas — then deploy commercial drying equipment calibrated to the IICRC S500 standard. Extraction, drying, and monitoring are documented throughout so your insurance adjuster has a complete record.
+Water damage in Lumberton frequently involves saturated crawl spaces, subfloor swelling, and moisture that has wicked up into wall cavities before anyone notices the problem. We use thermal imaging cameras and moisture meters to map the full extent of the intrusion, not just the visible wet areas, then deploy commercial drying equipment calibrated to the IICRC S500 standard. Extraction, drying, and monitoring are documented throughout so your insurance adjuster has a complete record.
 
 ### Fire and smoke damage cleanup
 
-After a fire, the smoke damage often extends well beyond the burn zone. Soot travels through HVAC systems and settles into closets, cabinets, and wall cavities in rooms that look untouched. Our process includes structural cleaning, content evaluation, odor neutralization, and — where reconstruction is needed — coordination with our repair crews so you are working with one company through the entire job.
+After a fire, the smoke damage often extends well beyond the burn zone. Soot travels through HVAC systems and settles into closets, cabinets, and wall cavities in rooms that look untouched. Our process includes structural cleaning, content evaluation, odor neutralization, and, where reconstruction is needed, coordination with our repair crews so you are working with one company through the entire job.
 
 ### Mold remediation
 
-Given Lumberton's humidity levels, mold remediation calls often come from homeowners who discover growth behind baseboards, under bathroom tile, or in crawl spaces during a home sale inspection. We contain the affected area, remove compromised materials, treat structural surfaces, and verify clearance — without making medical claims about air quality outcomes, which is the domain of your physician or an independent industrial hygienist.
+Given Lumberton's humidity levels, mold remediation calls often come from homeowners who discover growth behind baseboards, under bathroom tile, or in crawl spaces during a home sale inspection. We contain the affected area, remove compromised materials, treat structural surfaces, and verify clearance, without making medical claims about air quality outcomes, which is the domain of your physician or an independent industrial hygienist.
 
 ### Reconstruction
 
@@ -49,14 +49,14 @@ Once mitigation is complete, many property owners need more than drywall patches
 
 ## Coverage and how fast we can get there
 
-HomeLyft Restoration MS is headquartered in Gulfport, roughly 70 miles south of Lumberton via US-49 North. That route runs directly through Hattiesburg before continuing into Lamar County, making Lumberton one of the more straightforward inland service calls from the Gulf Coast. Scheduling is handled by phone at (228) 284-5200 — call during business hours to reach a team member who can confirm availability and get a crew dispatched. For properties along the US-98 corridor or the northern edges of Lamar County, travel time is similar; we route based on current crew location and job priority.
+HomeLyft Restoration MS is headquartered in Gulfport, roughly 70 miles south of Lumberton via US-49 North. That route runs directly through Hattiesburg before continuing into Lamar County, making Lumberton one of the more straightforward inland service calls from the Gulf Coast. Scheduling is handled by phone at (228) 284-5200, call during business hours to reach a team member who can confirm availability and get a crew dispatched. For properties along the US-98 corridor or the northern edges of Lamar County, travel time is similar; we route based on current crew location and job priority.
 
 ## Building stock, site conditions, and permits in Lumberton
 
-Lumberton grew up as a timber town, so a good share of the older houses inside the city are wood-frame with heart-pine framing and floors, sitting on brick or block piers. That framing dries well if you get to it early, but tongue-and-groove flooring cups and lifts once it swells. Pre-1978 homes should be treated as lead-painted until testing says otherwise, and mid-century floor tile, mastic, and duct wrap can contain asbestos — both change how demolition is scoped.
+Lumberton grew up as a timber town, so a good share of the older houses inside the city are wood-frame with heart-pine framing and floors, sitting on brick or block piers. That framing dries well if you get to it early, but tongue-and-groove flooring cups and lifts once it swells. Pre-1978 homes should be treated as lead-painted until testing says otherwise, and mid-century floor tile, mastic, and duct wrap can contain asbestos, both change how demolition is scoped.
 
 Plumbing vintage matters more than age alone: galvanized supply and cast-iron drains in the oldest homes, copper mid-century, polybutylene in 1980s work. South Mississippi still gets several hard freezes a winter, and uninsulated lines in open crawl spaces are where they split.
 
 Structural repairs inside the city limits are permitted by the city; outside them, Lamar County. In mapped flood zones, federal substantial-improvement rules can pull a rebuild up to current elevation standards.
 
-If you are dealing with water, fire, smoke, or mold damage at a Lumberton property, call HomeLyft Restoration MS at **(228) 284-5200**. A team member will walk through what you are seeing, explain the process, and get the right crew scheduled — so the damage stops spreading and the recovery starts.
+If you are dealing with water, fire, smoke, or mold damage at a Lumberton property, call HomeLyft Restoration MS at **(228) 284-5200**. A team member will walk through what you are seeing, explain the process, and get the right crew scheduled, so the damage stops spreading and the recovery starts.

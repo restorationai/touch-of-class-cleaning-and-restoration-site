@@ -18,17 +18,17 @@ rendered: true
 ---
 ## What This Policy Covers
 
-This Privacy Policy explains how MCC Restoration and Contracting Services collects, uses, and protects information you share when you visit mccrestoration.com or contact us about a restoration or contracting project. We've written it in plain language on purpose — if you have questions, call us at (682) 772-9123.
+This Privacy Policy explains how MCC Restoration and Contracting Services collects, uses, and protects information you share when you visit mccrestoration.com or contact us about a restoration or contracting project. We've written it in plain language on purpose, if you have questions, call us at (682) 772-9123.
 
 ## Information We Collect
 
-When you fill out a contact or estimate-request form on this site, we receive the details you type in: your name, phone number, email address, property address, and a description of the damage or project. We also collect basic, anonymized analytics data through standard website tools — things like which pages were visited, how long a session lasted, and what type of device was used. This analytics data contains no personally identifying information and is used only to understand how the site is performing.
+When you fill out a contact or estimate-request form on this site, we receive the details you type in: your name, phone number, email address, property address, and a description of the damage or project. We also collect basic, anonymized analytics data through standard website tools, things like which pages were visited, how long a session lasted, and what type of device was used. This analytics data contains no personally identifying information and is used only to understand how the site is performing.
 
 We do not use tracking pixels, behavioral ad networks, or third-party data brokers.
 
 ## How We Use Your Information
 
-The contact information you submit is used for one purpose: to help you. That means responding to your inquiry, scheduling an on-site estimate, preparing damage documentation, or coordinating the scope of a restoration or reconstruction project. If your loss involves an insurance claim, we may use the property and damage details you've provided to prepare documentation — but we will only share that documentation with your insurance carrier or adjuster with your explicit authorization.
+The contact information you submit is used for one purpose: to help you. That means responding to your inquiry, scheduling an on-site estimate, preparing damage documentation, or coordinating the scope of a restoration or reconstruction project. If your loss involves an insurance claim, we may use the property and damage details you've provided to prepare documentation, but we will only share that documentation with your insurance carrier or adjuster with your explicit authorization.
 
 We do not sell, rent, or trade your personal information to any third party, ever.
 
@@ -40,7 +40,7 @@ We may be required to disclose information if compelled by a valid legal process
 
 ## Data Retention
 
-We retain project records — including contact information and damage documentation — for as long as is reasonably necessary for business, warranty, and legal purposes, typically no longer than seven years following project completion. Inquiry records that did not result in a project are generally deleted within twelve months.
+We retain project records, including contact information and damage documentation, for as long as is reasonably necessary for business, warranty, and legal purposes, typically no longer than seven years following project completion. Inquiry records that did not result in a project are generally deleted within twelve months.
 
 ## Your Rights
 

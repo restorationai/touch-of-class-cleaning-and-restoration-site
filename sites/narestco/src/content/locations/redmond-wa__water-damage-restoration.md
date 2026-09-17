@@ -20,42 +20,42 @@ state: "WA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
-If you're standing in a wet room right now — watching water spread across hardwood, soaking into drywall, or pooling under appliances — the next hour matters more than the next week. National Restoration Construction dispatches water damage crews to Redmond around the clock. One call to **(206) 883-0333** gets a technician moving toward your address.
+If you're standing in a wet room right now, watching water spread across hardwood, soaking into drywall, or pooling under appliances, the next hour matters more than the next week. National Restoration Construction dispatches water damage crews to Redmond around the clock. One call to **(206) 883-0333** gets a technician moving toward your address.
 
 ## Why Redmond Properties See Water Damage Emergencies
 
-Redmond sits in one of the wettest corners of King County, averaging around 37 inches of rain a year — and that's before accounting for the concentrated deluges that hit between October and March. The Sammamish River corridor and the low-lying neighborhoods near Marymoor Park are especially prone to surface flooding when storm drains back up. Older craftsman homes in the Overlake and Education Hill areas often have aging supply lines and galvanized plumbing that can fail without warning. Newer construction in the Redmond Ridge and Willows Road corridors isn't immune either — slab leaks, faulty irrigation systems, and improperly flashed rooflines all show up in our dispatch logs year after year.
+Redmond sits in one of the wettest corners of King County, averaging around 37 inches of rain a year, and that's before accounting for the concentrated deluges that hit between October and March. The Sammamish River corridor and the low-lying neighborhoods near Marymoor Park are especially prone to surface flooding when storm drains back up. Older craftsman homes in the Overlake and Education Hill areas often have aging supply lines and galvanized plumbing that can fail without warning. Newer construction in the Redmond Ridge and Willows Road corridors isn't immune either, slab leaks, faulty irrigation systems, and improperly flashed rooflines all show up in our dispatch logs year after year.
 
-Mold can begin colonizing wet building materials in as little as 24 to 48 hours after a water intrusion event. In Redmond's persistently humid winters, that window can feel even shorter. The sooner extraction and structural drying begin, the smaller the remediation footprint — and the smaller the repair bill.
+Mold can begin colonizing wet building materials in as little as 24 to 48 hours after a water intrusion event. In Redmond's persistently humid winters, that window can feel even shorter. The sooner extraction and structural drying begin, the smaller the remediation footprint, and the smaller the repair bill.
 
 ## Our Water Damage Restoration Process in Redmond
 
 Every job follows the same disciplined sequence, even when the situation feels chaotic.
 
-**1. Emergency assessment.** A technician arrives, locates the moisture source, and uses thermal imaging and moisture meters to map how far water has traveled — often farther than it looks. Water migrates under flooring, inside wall cavities, and into subfloor assemblies before it becomes visible.
+**1. Emergency assessment.** A technician arrives, locates the moisture source, and uses thermal imaging and moisture meters to map how far water has traveled, often farther than it looks. Water migrates under flooring, inside wall cavities, and into subfloor assemblies before it becomes visible.
 
 **2. Water removal and extraction.** We use truck-mounted extraction units capable of pulling hundreds of gallons from carpet, pad, and hard flooring quickly. For standing water in basements or crawlspaces, we deploy submersible pumps alongside portable extraction equipment.
 
-**3. Structural drying.** Once bulk water is out, the real drying work begins. Industrial-grade desiccant and refrigerant dehumidifiers, paired with high-velocity air movers, are positioned to create a controlled drying environment. We monitor moisture readings daily and adjust equipment placement until materials reach documented dry standards — not just until things *feel* dry.
+**3. Structural drying.** Once bulk water is out, the real drying work begins. Industrial-grade desiccant and refrigerant dehumidifiers, paired with high-velocity air movers, are positioned to create a controlled drying environment. We monitor moisture readings daily and adjust equipment placement until materials reach documented dry standards, not just until things *feel* dry.
 
 **4. Antimicrobial treatment.** Affected surfaces are treated to inhibit microbial growth during the drying period.
 
 **5. Documentation and scope.** Throughout the process, we photograph conditions, log moisture readings, and compile the paperwork your insurance adjuster will need. IICRC-certified technicians follow S500 Standard protocols, which most carriers recognize.
 
-**6. Reconstruction.** Once the structure is verified dry, our general contractor license (WA L&I #NATIORC792M6) lets us handle everything from drywall replacement to flooring reinstallation under one roof — no hand-off to a separate contractor.
+**6. Reconstruction.** Once the structure is verified dry, our general contractor license (WA L&I #NATIORC792M6) lets us handle everything from drywall replacement to flooring reinstallation under one roof, no hand-off to a separate contractor.
 
 ## Response Times Across Redmond
 
-National Restoration Construction is headquartered in Federal Way, roughly 25 miles south of Redmond via I-405. Under normal traffic conditions, that translates to a 45-to-60-minute drive. During peak commute hours on 405 — which Redmond residents know well — we route crews through surface streets or dispatch the nearest available technician, keeping most response times inside a 90-minute window.
+National Restoration Construction is headquartered in Federal Way, roughly 25 miles south of Redmond via I-405. Under normal traffic conditions, that translates to a 45-to-60-minute drive. During peak commute hours on 405, which Redmond residents know well, we route crews through surface streets or dispatch the nearest available technician, keeping most response times inside a 90-minute window.
 
 If you're in the Overlake, Tech Campus, or Bear Creek neighborhoods, you may see us faster. If you're farther out near Novelty Hill or Union Hill, plan for the upper end of that range. Either way, we're en route while you're still on the phone with your insurance company.
 
 ## Navigating Your Insurance Claim
 
-Most sudden and accidental water damage — a burst pipe, an appliance failure, an overflow — is covered under standard homeowner's policies. Flood damage from rising surface water is a separate policy, and most Redmond homeowners don't carry it unless they're in a mapped flood zone.
+Most sudden and accidental water damage, a burst pipe, an appliance failure, an overflow, is covered under standard homeowner's policies. Flood damage from rising surface water is a separate policy, and most Redmond homeowners don't carry it unless they're in a mapped flood zone.
 
 Here's how the process typically works with us: we document the loss thoroughly from the first hour on-site, provide a detailed scope of work formatted for adjuster review, and communicate directly with your carrier throughout the mitigation phase. You're responsible for filing the claim and paying your deductible. We handle the technical documentation that supports it. We work with most major carriers and can walk you through the process if this is your first claim.
 
 ---
 
-If water is in your home right now, the fastest thing you can do is shut off the source if it's safe to reach, move valuables off wet floors, and get a crew on the way. Reach National Restoration Construction at **(206) 883-0333** — we answer 24 hours a day, every day of the year.
+If water is in your home right now, the fastest thing you can do is shut off the source if it's safe to reach, move valuables off wet floors, and get a crew on the way. Reach National Restoration Construction at **(206) 883-0333**, we answer 24 hours a day, every day of the year.

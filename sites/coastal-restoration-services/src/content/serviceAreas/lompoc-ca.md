@@ -19,11 +19,11 @@ state: "CA"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall or a kitchen fire leaves smoke residue soaked into every surface, Lompoc property owners need a restoration crew that already knows the area — the older housing stock near downtown, the marine layer that keeps moisture levels elevated year-round, and the specific challenges that come with Santa Barbara County permitting. Coastal Restoration Services Inc handles water damage mitigation, fire and smoke cleanup, mold remediation, and structural drying for homes and commercial properties throughout Lompoc, dispatching from our base in neighboring Vandenberg Village.
+When a pipe bursts behind a wall or a kitchen fire leaves smoke residue soaked into every surface, Lompoc property owners need a restoration crew that already knows the area, the older housing stock near downtown, the marine layer that keeps moisture levels elevated year-round, and the specific challenges that come with Santa Barbara County permitting. Coastal Restoration Services Inc handles water damage mitigation, fire and smoke cleanup, mold remediation, and structural drying for homes and commercial properties throughout Lompoc, dispatching from our base in neighboring Vandenberg Village.
 
 ## Restoration emergencies common in Lompoc
 
-Lompoc sits in a coastal valley where cool, humid air rolls in off the Pacific most mornings. That persistent marine layer keeps relative humidity elevated even on sunny days, which means wet building materials — soaked drywall, saturated subfloor, damp insulation — stay wet far longer here than they would in a drier inland climate. Mold can begin colonizing porous surfaces within 24 to 48 hours of a water intrusion event, and in Lompoc's climate that window closes fast.
+Lompoc sits in a coastal valley where cool, humid air rolls in off the Pacific most mornings. That persistent marine layer keeps relative humidity elevated even on sunny days, which means wet building materials, soaked drywall, saturated subfloor, damp insulation, stay wet far longer here than they would in a drier inland climate. Mold can begin colonizing porous surfaces within 24 to 48 hours of a water intrusion event, and in Lompoc's climate that window closes fast.
 
 The city's housing stock adds another layer of complexity. A significant share of Lompoc's residential neighborhoods feature homes built in the 1950s through 1970s, when construction standards around vapor barriers, crawlspace ventilation, and drain line materials were very different from today's code. Cast-iron and galvanized steel supply lines in older homes corrode from the inside out, often failing with little warning. Slab foundations common in mid-century tract homes can mask slow leaks for months before a homeowner notices buckling hardwood or a spike in their water bill. When those leaks finally surface, the damage is rarely limited to one room.
 
@@ -33,7 +33,7 @@ Lompoc also sits near Vandenberg Space Force Base, and the surrounding area sees
 
 ### Water damage mitigation and structural drying
 
-Water damage in Lompoc frequently starts in places you can't see — under slab foundations, inside crawlspaces, or behind tile in bathrooms that haven't been touched since the 1960s. We use thermal imaging and moisture meters to map the full extent of saturation before a single piece of drywall comes down, then deploy commercial desiccant and refrigerant dehumidifiers calibrated for coastal humidity conditions. Drying documentation follows the IICRC S500 standard so your insurance adjuster has a defensible record from day one.
+Water damage in Lompoc frequently starts in places you can't see, under slab foundations, inside crawlspaces, or behind tile in bathrooms that haven't been touched since the 1960s. We use thermal imaging and moisture meters to map the full extent of saturation before a single piece of drywall comes down, then deploy commercial desiccant and refrigerant dehumidifiers calibrated for coastal humidity conditions. Drying documentation follows the IICRC S500 standard so your insurance adjuster has a defensible record from day one.
 
 ### Fire and smoke damage restoration
 
@@ -41,7 +41,7 @@ Smoke residue from a kitchen or garage fire doesn't stay in the room where the f
 
 ### Mold remediation
 
-Given Lompoc's humidity profile, mold remediation calls here tend to involve larger affected areas than clients initially expect. We assess, contain, and remediate following EPA guidelines, and we're straightforward about what the process involves and what it doesn't — remediation removes the existing colony and addresses the moisture source; it does not guarantee a permanently mold-free environment if the underlying conditions return.
+Given Lompoc's humidity profile, mold remediation calls here tend to involve larger affected areas than clients initially expect. We assess, contain, and remediate following EPA guidelines, and we're straightforward about what the process involves and what it doesn't, remediation removes the existing colony and addresses the moisture source; it does not guarantee a permanently mold-free environment if the underlying conditions return.
 
 ### Reconstruction and build-back
 
@@ -49,13 +49,13 @@ Once mitigation is complete, many property owners don't want to manage a separat
 
 ## Coverage and how fast we can get there
 
-Our Vandenberg Village headquarters sits just a few miles east of Lompoc along Highway 1 and Purisima Road — a straightforward drive with no significant traffic corridors between us and the city. Whether a call comes from the older neighborhoods near downtown Lompoc or from properties closer to the Highway 246 corridor, our crew is not crossing a mountain range or navigating a congested freeway to reach you. Call us at **(805) 345-7440** and we'll give you a realistic arrival estimate based on current crew availability.
+Our Vandenberg Village headquarters sits just a few miles east of Lompoc along Highway 1 and Purisima Road, a straightforward drive with no significant traffic corridors between us and the city. Whether a call comes from the older neighborhoods near downtown Lompoc or from properties closer to the Highway 246 corridor, our crew is not crossing a mountain range or navigating a congested freeway to reach you. Call us at **(805) 345-7440** and we'll give you a realistic arrival estimate based on current crew availability.
 
 ## Building stock, site conditions, and permits in Lompoc
 
 Lompoc sits on the flat alluvial floor of the Santa Ynez River valley, so the ground under most homes is sandy river deposit rather than the expansive clay found further inland. It drains reasonably well, but the valley floor also means shallow groundwater in places, which is why full basements are essentially absent here and crawlspaces stay damp long after the winter rains end.
 
-Stucco over wood framing with composition shingle or low-slope roofing dominates. Anything built before 1980 may carry asbestos in popcorn ceilings, floor tile, or duct wrap, and pre-1978 paint should be treated as lead-bearing until tested — both change the demolition scope.
+Stucco over wood framing with composition shingle or low-slope roofing dominates. Anything built before 1980 may carry asbestos in popcorn ceilings, floor tile, or duct wrap, and pre-1978 paint should be treated as lead-bearing until tested, both change the demolition scope.
 
 For properties inside the city limits, building permits come from the City of Lompoc, not the county. Structural repair, rewiring, and reroofing typically trigger one under the California Building Code.
 

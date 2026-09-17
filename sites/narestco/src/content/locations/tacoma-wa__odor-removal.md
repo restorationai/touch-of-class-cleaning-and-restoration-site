@@ -20,42 +20,42 @@ state: "WA"
 service_display: "Odor Removal and Deodorization"
 rendered: true
 ---
-That smell isn't going away on its own. Whether it's smoke baked into the drywall after a kitchen fire, pet urine that's soaked through subfloor, or the sour, musty odor that follows a burst pipe in a Tacoma basement, masking it with candles or ventilation fans just delays the problem. Odor molecules bind to porous surfaces — insulation, carpet backing, wood framing, HVAC ductwork — and the only way to eliminate them is to treat the source at a molecular level. National Restoration Construction has been doing exactly that in the South Sound since 2004, and our Federal Way headquarters puts us within a short drive of Tacoma neighborhoods when you need someone on-site fast.
+That smell isn't going away on its own. Whether it's smoke baked into the drywall after a kitchen fire, pet urine that's soaked through subfloor, or the sour, musty odor that follows a burst pipe in a Tacoma basement, masking it with candles or ventilation fans just delays the problem. Odor molecules bind to porous surfaces, insulation, carpet backing, wood framing, HVAC ductwork, and the only way to eliminate them is to treat the source at a molecular level. National Restoration Construction has been doing exactly that in the South Sound since 2004, and our Federal Way headquarters puts us within a short drive of Tacoma neighborhoods when you need someone on-site fast.
 
 ## Why Tacoma Properties Deal With Persistent Odors
 
-Tacoma's climate does a lot of the work for odor problems. The city averages around 38 inches of rain a year, and the marine air keeps humidity elevated even when it isn't actively raining. That moisture creates ideal conditions for mold and mildew to colonize after a leak — IICRC guidelines note that mold can begin to establish within 24 to 48 hours of a water intrusion. Older housing stock in neighborhoods like Hilltop, North End, and the Proctor District often features original wood framing, plaster walls, and minimal vapor barriers — materials that absorb odors deeply and hold them long after the source event is gone.
+Tacoma's climate does a lot of the work for odor problems. The city averages around 38 inches of rain a year, and the marine air keeps humidity elevated even when it isn't actively raining. That moisture creates ideal conditions for mold and mildew to colonize after a leak, IICRC guidelines note that mold can begin to establish within 24 to 48 hours of a water intrusion. Older housing stock in neighborhoods like Hilltop, North End, and the Proctor District often features original wood framing, plaster walls, and minimal vapor barriers, materials that absorb odors deeply and hold them long after the source event is gone.
 
-Smoke odors are a particular challenge here. When a wood-framed craftsman bungalow experiences even a contained fire, the combustion byproducts — soot, acrolein, and other volatile organic compounds — penetrate every air-permeable surface in the structure. The same goes for cigarette smoke in a rental unit or wildfire smoke that infiltrates through gaps around older windows. Without professional odor elimination, those compounds off-gas for months.
+Smoke odors are a particular challenge here. When a wood-framed craftsman bungalow experiences even a contained fire, the combustion byproducts, soot, acrolein, and other volatile organic compounds, penetrate every air-permeable surface in the structure. The same goes for cigarette smoke in a rental unit or wildfire smoke that infiltrates through gaps around older windows. Without professional odor elimination, those compounds off-gas for months.
 
 ## Our Odor Removal and Deodorization Process in Tacoma
 
-We don't show up with a fogger and call it done. Our process starts with a thorough source assessment — identifying every material that has absorbed the odor, not just the obvious ones. From there, the treatment plan is matched to the chemistry of the problem.
+We don't show up with a fogger and call it done. Our process starts with a thorough source assessment, identifying every material that has absorbed the odor, not just the obvious ones. From there, the treatment plan is matched to the chemistry of the problem.
 
 **Thermal fogging** uses a heated solvent that disperses as a fine aerosol, penetrating the same microscopic spaces that smoke and odor particles reached. It's particularly effective after fire and smoke events because it mimics how the odor traveled through the structure.
 
-**Hydroxyl deodorization** generates hydroxyl radicals — the same molecules the atmosphere uses to break down pollutants — using UV light technology. Unlike ozone treatment, hydroxyl generators are safe to run in occupied or partially occupied spaces, which matters when you're trying to minimize displacement time.
+**Hydroxyl deodorization** generates hydroxyl radicals, the same molecules the atmosphere uses to break down pollutants, using UV light technology. Unlike ozone treatment, hydroxyl generators are safe to run in occupied or partially occupied spaces, which matters when you're trying to minimize displacement time.
 
 **Ozone treatment** delivers a higher-concentration oxidizing environment for severe, set-in odors. Because ozone at treatment levels requires the space to be vacated, we coordinate timing carefully and clear the area before reoccupying.
 
-For odors tied to water damage or mold, deodorization is paired with structural drying and antimicrobial treatment — because eliminating the smell without eliminating the source just means the odor returns.
+For odors tied to water damage or mold, deodorization is paired with structural drying and antimicrobial treatment, because eliminating the smell without eliminating the source just means the odor returns.
 
 ## Equipment and Methods We Use
 
-Professional odor elimination isn't a single tool — it's a combination of technologies applied in the right sequence. Our technicians arrive with commercial-grade hydroxyl and ozone generators, thermal fogging equipment, HEPA air scrubbers to capture airborne particulates, and moisture meters to confirm that any underlying dampness contributing to the odor has been addressed. For smoke odor removal specifically, we also use dry-chemical sponges and specialized cleaning agents on hard surfaces before any fogging treatment — because fogging over a surface that still carries soot residue locks the problem in rather than solving it.
+Professional odor elimination isn't a single tool, it's a combination of technologies applied in the right sequence. Our technicians arrive with commercial-grade hydroxyl and ozone generators, thermal fogging equipment, HEPA air scrubbers to capture airborne particulates, and moisture meters to confirm that any underlying dampness contributing to the odor has been addressed. For smoke odor removal specifically, we also use dry-chemical sponges and specialized cleaning agents on hard surfaces before any fogging treatment, because fogging over a surface that still carries soot residue locks the problem in rather than solving it.
 
-Where odors have penetrated HVAC systems — a common issue in Tacoma homes with forced-air heating — we treat ductwork directly rather than assuming the air handler will flush the problem out on its own.
+Where odors have penetrated HVAC systems, a common issue in Tacoma homes with forced-air heating, we treat ductwork directly rather than assuming the air handler will flush the problem out on its own.
 
 ## Response Times Across Tacoma
 
-Our Federal Way headquarters sits roughly 15 miles north of downtown Tacoma, which typically puts a technician at your door within 60 to 90 minutes of your call. If you're in the North End, Ruston, or Stadium District, expect the shorter end of that range. South Tacoma, Fircrest, and University Place are similarly close. We're available around the clock — odor emergencies don't wait for business hours, and the faster treatment begins, the less secondary absorption occurs.
+Our Federal Way headquarters sits roughly 15 miles north of downtown Tacoma, which typically puts a technician at your door within 60 to 90 minutes of your call. If you're in the North End, Ruston, or Stadium District, expect the shorter end of that range. South Tacoma, Fircrest, and University Place are similarly close. We're available around the clock, odor emergencies don't wait for business hours, and the faster treatment begins, the less secondary absorption occurs.
 
 ## Insurance Claims for Odor Damage
 
-Smoke and fire odor remediation is frequently covered under standard homeowner's policies, and odor damage tied to a covered water loss often qualifies as well. We work directly with insurance carriers and can provide the documentation — moisture readings, scope of work, before-and-after records — that adjusters need to process a claim. You handle the call to your insurer; we handle the technical side of the claim file. Our team is licensed through the WA State Department of Labor & Industries and IICRC Certified, which most carriers require before approving a remediation contractor.
+Smoke and fire odor remediation is frequently covered under standard homeowner's policies, and odor damage tied to a covered water loss often qualifies as well. We work directly with insurance carriers and can provide the documentation, moisture readings, scope of work, before-and-after records, that adjusters need to process a claim. You handle the call to your insurer; we handle the technical side of the claim file. Our team is licensed through the WA State Department of Labor & Industries and IICRC Certified, which most carriers require before approving a remediation contractor.
 
 If you're a property manager dealing with a tenant situation, we can also provide documentation formatted for lease-related disputes or habitability records.
 
 ---
 
-If your Tacoma home or property is holding an odor that won't quit, the sooner treatment starts, the less it costs — and the less of your structure needs to be replaced rather than restored. Reach National Restoration Construction at **(206) 883-0333** any time, day or night.
+If your Tacoma home or property is holding an odor that won't quit, the sooner treatment starts, the less it costs, and the less of your structure needs to be replaced rather than restored. Reach National Restoration Construction at **(206) 883-0333** any time, day or night.

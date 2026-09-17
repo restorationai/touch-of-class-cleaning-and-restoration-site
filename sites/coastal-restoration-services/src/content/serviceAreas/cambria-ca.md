@@ -19,27 +19,27 @@ state: "CA"
 primary: false
 rendered: true
 ---
-Coastal Restoration Services Inc responds to water damage, mold, fire and smoke damage, and related emergencies for homeowners and property managers throughout Cambria. From the fog-drenched bluffs above Moonstone Beach to the older cottages tucked into the pines along the East Village, properties here face a specific set of conditions that routine contractors rarely understand. When something goes wrong, the goal is to stop the damage from spreading, document everything your insurance carrier needs, and return your property to a livable condition — without unnecessary delays or guesswork.
+Coastal Restoration Services Inc responds to water damage, mold, fire and smoke damage, and related emergencies for homeowners and property managers throughout Cambria. From the fog-drenched bluffs above Moonstone Beach to the older cottages tucked into the pines along the East Village, properties here face a specific set of conditions that routine contractors rarely understand. When something goes wrong, the goal is to stop the damage from spreading, document everything your insurance carrier needs, and return your property to a livable condition, without unnecessary delays or guesswork.
 
 ## Restoration emergencies common in Cambria
 
-Cambria sits on the Central Coast where marine air rolls in off the Pacific nearly every morning of the year. That persistent humidity — often 80–90% by dawn — means building materials that absorb moisture rarely fully dry between weather events. Wood-framed homes built in the 1950s through 1980s, many of them clad in redwood or cedar siding, are especially vulnerable: when a supply line fails under a sink or a roof flashing lets in water during a winter storm, moisture migrates into wall cavities and subfloor assemblies faster than most homeowners expect. Mold can begin colonizing wet cellulose materials within 24 to 48 hours under those humidity conditions.
+Cambria sits on the Central Coast where marine air rolls in off the Pacific nearly every morning of the year. That persistent humidity, often 80–90% by dawn, means building materials that absorb moisture rarely fully dry between weather events. Wood-framed homes built in the 1950s through 1980s, many of them clad in redwood or cedar siding, are especially vulnerable: when a supply line fails under a sink or a roof flashing lets in water during a winter storm, moisture migrates into wall cavities and subfloor assemblies faster than most homeowners expect. Mold can begin colonizing wet cellulose materials within 24 to 48 hours under those humidity conditions.
 
-The town's position within a wildland-urban interface also creates fire and smoke risk. Seasonal offshore winds can push embers from the Santa Lucia Range toward residential areas, and even a neighbor's structure fire can leave smoke odor and soot residue embedded in insulation and HVAC systems well beyond the visible burn zone. Cambria's limited road access — essentially Highway 1 as the single arterial — also means that when a major weather event hits, getting equipment in quickly requires planning and local familiarity.
+The town's position within a wildland-urban interface also creates fire and smoke risk. Seasonal offshore winds can push embers from the Santa Lucia Range toward residential areas, and even a neighbor's structure fire can leave smoke odor and soot residue embedded in insulation and HVAC systems well beyond the visible burn zone. Cambria's limited road access, essentially Highway 1 as the single arterial, also means that when a major weather event hits, getting equipment in quickly requires planning and local familiarity.
 
 ## Services we provide in Cambria
 
 ### Water damage restoration
 
-Water damage in Cambria frequently starts as a slow intrusion — a failing roof membrane, a cracked crawl space foundation vent, or a supply line that weeps for weeks before anyone notices the buckled hardwood floor. Coastal Restoration Services Inc uses thermal imaging and moisture meters to map the full extent of saturation before any drying equipment is placed, so hidden pockets in wall cavities or beneath tile don't get missed. Structural drying follows the IICRC S500 standard, and we document moisture readings throughout the process for your insurance file.
+Water damage in Cambria frequently starts as a slow intrusion, a failing roof membrane, a cracked crawl space foundation vent, or a supply line that weeps for weeks before anyone notices the buckled hardwood floor. Coastal Restoration Services Inc uses thermal imaging and moisture meters to map the full extent of saturation before any drying equipment is placed, so hidden pockets in wall cavities or beneath tile don't get missed. Structural drying follows the IICRC S500 standard, and we document moisture readings throughout the process for your insurance file.
 
 ### Mold remediation
 
-Given Cambria's climate, mold is less a question of *if* and more a question of *when* after any water intrusion goes unaddressed. Remediation here involves more than surface cleaning — containment, HEPA air filtration, and careful removal of affected materials are standard steps. We follow EPA guidelines throughout and can coordinate post-remediation testing with a third-party industrial hygienist if your insurer or a real estate transaction requires clearance documentation.
+Given Cambria's climate, mold is less a question of *if* and more a question of *when* after any water intrusion goes unaddressed. Remediation here involves more than surface cleaning, containment, HEPA air filtration, and careful removal of affected materials are standard steps. We follow EPA guidelines throughout and can coordinate post-remediation testing with a third-party industrial hygienist if your insurer or a real estate transaction requires clearance documentation.
 
 ### Fire and smoke damage restoration
 
-Smoke behaves differently depending on what burned and how hot the fire ran. In Cambria's older wood-frame homes, a kitchen fire can drive smoke proteins into unfinished attic framing and wall cavities that aren't immediately visible. Our process includes odor mapping, thermal fogging or hydroxyl treatment where appropriate, and cleaning or replacement of affected structural surfaces — not just cosmetic repainting over residue.
+Smoke behaves differently depending on what burned and how hot the fire ran. In Cambria's older wood-frame homes, a kitchen fire can drive smoke proteins into unfinished attic framing and wall cavities that aren't immediately visible. Our process includes odor mapping, thermal fogging or hydroxyl treatment where appropriate, and cleaning or replacement of affected structural surfaces, not just cosmetic repainting over residue.
 
 ### Reconstruction and build-back
 
@@ -47,7 +47,7 @@ Once mitigation is complete, many properties need carpentry, drywall, flooring, 
 
 ## Coverage and how fast we can get there
 
-Coastal Restoration Services Inc is headquartered in Vandenberg Village, roughly 55 miles south of Cambria via Highway 1 and US-101. The most direct route north runs up the 101 to San Luis Obispo, then connects to Highway 1 through Morro Bay and Cayucos before reaching Cambria — typically a 60–75 minute drive under normal Central Coast traffic conditions. Properties along the Highway 1 corridor through the West Village and the residential streets climbing toward the East Village are all within our standard service area. Call (805) 345-7440 to confirm scheduling and get a crew dispatched as promptly as conditions allow.
+Coastal Restoration Services Inc is headquartered in Vandenberg Village, roughly 55 miles south of Cambria via Highway 1 and US-101. The most direct route north runs up the 101 to San Luis Obispo, then connects to Highway 1 through Morro Bay and Cayucos before reaching Cambria, typically a 60–75 minute drive under normal Central Coast traffic conditions. Properties along the Highway 1 corridor through the West Village and the residential streets climbing toward the East Village are all within our standard service area. Call (805) 345-7440 to confirm scheduling and get a crew dispatched as promptly as conditions allow.
 
 ## Building stock, site conditions, and permits in Cambria
 

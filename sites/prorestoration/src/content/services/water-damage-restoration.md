@@ -19,33 +19,33 @@ rendered: true
 ---
 ## The clock starts the moment water enters your home
 
-Standing water under your flooring. A waterlogged drywall seam that's already starting to bubble. The faint, earthy smell that tells you moisture has been sitting longer than you realized. Water damage moves fast — mold can begin colonizing wet building materials within 24 to 48 hours, and what looks like a contained leak at the surface is often hiding inside wall cavities, beneath subfloor sheathing, and inside insulation batt. Water damage restoration is the process of stopping that progression before it becomes a much larger problem.
+Standing water under your flooring. A waterlogged drywall seam that's already starting to bubble. The faint, earthy smell that tells you moisture has been sitting longer than you realized. Water damage moves fast, mold can begin colonizing wet building materials within 24 to 48 hours, and what looks like a contained leak at the surface is often hiding inside wall cavities, beneath subfloor sheathing, and inside insulation batt. Water damage restoration is the process of stopping that progression before it becomes a much larger problem.
 
 ## What water damage restoration actually involves
 
-Restoration isn't just pumping out water and pointing a fan at the floor. The work begins with identifying where moisture has migrated — which is rarely limited to the visible wet area. Technicians use thermal imaging cameras and calibrated moisture meters to map the true boundary of the damage, including hidden pockets inside walls and under flooring.
+Restoration isn't just pumping out water and pointing a fan at the floor. The work begins with identifying where moisture has migrated, which is rarely limited to the visible wet area. Technicians use thermal imaging cameras and calibrated moisture meters to map the true boundary of the damage, including hidden pockets inside walls and under flooring.
 
-Once the scope is mapped, water extraction removes the bulk of standing water using truck-mounted or portable extraction units capable of pulling hundreds of gallons quickly. After extraction, the drying phase begins: commercial-grade desiccant or refrigerant dehumidifiers and high-velocity air movers are positioned to create a controlled drying environment. This is not the same as running a box fan from a hardware store — the equipment is sized to the cubic footage of the affected space and adjusted daily based on psychrometric readings.
+Once the scope is mapped, water extraction removes the bulk of standing water using truck-mounted or portable extraction units capable of pulling hundreds of gallons quickly. After extraction, the drying phase begins: commercial-grade desiccant or refrigerant dehumidifiers and high-velocity air movers are positioned to create a controlled drying environment. This is not the same as running a box fan from a hardware store, the equipment is sized to the cubic footage of the affected space and adjusted daily based on psychrometric readings.
 
 For Category 2 (gray water from appliances or overflow) or Category 3 (sewage, floodwater) losses, containment, antimicrobial treatment, and material removal protocols are added to the process. Porous materials like drywall and carpet that have absorbed contaminated water typically cannot be dried in place and must be removed.
 
-A full residential drying job — a burst pipe in a single bathroom, for example — typically takes three to five days of active drying before moisture readings return to baseline. Larger losses, slab leaks, or Category 3 events can run longer.
+A full residential drying job, a burst pipe in a single bathroom, for example, typically takes three to five days of active drying before moisture readings return to baseline. Larger losses, slab leaks, or Category 3 events can run longer.
 
 ## Our process
 
-1. **Emergency response and water extraction** — Technicians arrive, assess the loss category and affected area, and begin extracting standing water immediately using truck-mounted extraction equipment. Every hour of standing water increases saturation depth and the likelihood of secondary damage.
+1. **Emergency response and water extraction**, Technicians arrive, assess the loss category and affected area, and begin extracting standing water immediately using truck-mounted extraction equipment. Every hour of standing water increases saturation depth and the likelihood of secondary damage.
 
-2. **Moisture mapping** — Using thermal cameras and penetrating moisture meters, we document the full extent of moisture migration — not just the wet spot you can see. This mapping becomes part of your insurance claim documentation and drives every drying decision.
+2. **Moisture mapping**, Using thermal cameras and penetrating moisture meters, we document the full extent of moisture migration, not just the wet spot you can see. This mapping becomes part of your insurance claim documentation and drives every drying decision.
 
-3. **Structural drying setup** — Commercial dehumidifiers and air movers are placed based on the room's square footage, ceiling height, and current humidity readings. Equipment is monitored and repositioned daily as materials dry at different rates. Drying logs are kept throughout.
+3. **Structural drying setup**, Commercial dehumidifiers and air movers are placed based on the room's square footage, ceiling height, and current humidity readings. Equipment is monitored and repositioned daily as materials dry at different rates. Drying logs are kept throughout.
 
-4. **Material evaluation and removal** — Wet drywall, insulation, baseboards, and flooring that cannot be dried to pre-loss moisture levels are removed. For Category 2 or 3 losses, affected materials are bagged and disposed of per applicable guidelines. Antimicrobial treatments are applied to framing and subfloor surfaces.
+4. **Material evaluation and removal**, Wet drywall, insulation, baseboards, and flooring that cannot be dried to pre-loss moisture levels are removed. For Category 2 or 3 losses, affected materials are bagged and disposed of per applicable guidelines. Antimicrobial treatments are applied to framing and subfloor surfaces.
 
-5. **Final moisture verification and documentation** — Before equipment is removed, every affected surface is re-tested with moisture meters. Readings are logged and provided to you and your adjuster. Nothing is closed up until the structure reads dry — because trapping residual moisture behind new drywall is how mold problems start.
+5. **Final moisture verification and documentation**, Before equipment is removed, every affected surface is re-tested with moisture meters. Readings are logged and provided to you and your adjuster. Nothing is closed up until the structure reads dry, because trapping residual moisture behind new drywall is how mold problems start.
 
 ## What separates a good water damage response from a bad one
 
-The most common failure in water damage work is under-drying — pulling equipment too early because the surface feels dry to the touch, while moisture remains elevated inside wall assemblies or beneath flooring. Surface readings can be misleading. A thorough technician uses penetrating probes, not just surface meters, and documents daily psychrometric data so there is a defensible record that the structure was dried to IICRC S500 standard.
+The most common failure in water damage work is under-drying, pulling equipment too early because the surface feels dry to the touch, while moisture remains elevated inside wall assemblies or beneath flooring. Surface readings can be misleading. A thorough technician uses penetrating probes, not just surface meters, and documents daily psychrometric data so there is a defensible record that the structure was dried to IICRC S500 standard.
 
 A second common mistake is misclassifying the water source. A washing machine overflow that wicked into a crawl space may have mixed with standing groundwater, changing the loss from Category 2 to Category 3. That distinction changes the required PPE, the disposal protocol for removed materials, and what your insurance adjuster will expect to see documented.
 
@@ -53,10 +53,10 @@ Insurance adjusters reviewing water damage claims look for a complete moisture m
 
 ## Seasonal and regional considerations in Bakersfield
 
-Bakersfield's dry, hot summers can mask a water loss — materials dry faster on the surface, which can give the false impression that a structure is drying adequately when moisture is still trapped in the building envelope. The San Joaquin Valley's older housing stock, including the ranch-style homes common in established neighborhoods like Oleander and Westchester, often has slab foundations where a slab leak can saturate flooring and lower wall sections before the homeowner notices any visible sign. Winter rain events, while infrequent, tend to arrive quickly and can overwhelm older drainage systems, pushing water into garages, crawl spaces, and finished basements.
+Bakersfield's dry, hot summers can mask a water loss, materials dry faster on the surface, which can give the false impression that a structure is drying adequately when moisture is still trapped in the building envelope. The San Joaquin Valley's older housing stock, including the ranch-style homes common in established neighborhoods like Oleander and Westchester, often has slab foundations where a slab leak can saturate flooring and lower wall sections before the homeowner notices any visible sign. Winter rain events, while infrequent, tend to arrive quickly and can overwhelm older drainage systems, pushing water into garages, crawl spaces, and finished basements.
 
 ## Service area
 
 ProRestoration Services is based in Bakersfield and responds to water damage calls across Kern County, including Bakersfield, Delano, Tehachapi, Shafter, Wasco, and surrounding communities. The city-specific pages for each area link back here for full service details.
 
-If you're seeing water where it shouldn't be — or smelling what might be the start of something worse — call (661) 393-9306 to schedule your moisture assessment. Available 24/7, licensed (#960566), IICRC Certified, and EPA Lead-Safe Certified.
+If you're seeing water where it shouldn't be, or smelling what might be the start of something worse, call (661) 393-9306 to schedule your moisture assessment. Available 24/7, licensed (#960566), IICRC Certified, and EPA Lead-Safe Certified.

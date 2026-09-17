@@ -19,23 +19,23 @@ state: "MS"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind the walls of a Jones County farmhouse or a slow roof leak finally makes itself known after a stretch of Gulf Coast storms, HomeLyft Restoration MS is the team Ovett property owners call to stop the damage, dry the structure, and put things back together. We handle water damage, fire and smoke cleanup, mold remediation, and full reconstruction — coordinating directly with insurance carriers so you can focus on getting your home or business back to normal.
+When a pipe bursts behind the walls of a Jones County farmhouse or a slow roof leak finally makes itself known after a stretch of Gulf Coast storms, HomeLyft Restoration MS is the team Ovett property owners call to stop the damage, dry the structure, and put things back together. We handle water damage, fire and smoke cleanup, mold remediation, and full reconstruction, coordinating directly with insurance carriers so you can focus on getting your home or business back to normal.
 
 ## Restoration emergencies common in Ovett
 
-Ovett sits in the piney-woods heart of Jones County, and the region's climate drives a predictable cycle of property damage. Summers bring heavy convective thunderstorms that can dump several inches of rain in an afternoon, overwhelming gutters, crawlspace drainage, and older rooflines in a matter of hours. Winters are mild but punctuated by hard freezes — the kind that catch homeowners off guard and split supply lines inside walls that were never insulated for sustained cold.
+Ovett sits in the piney-woods heart of Jones County, and the region's climate drives a predictable cycle of property damage. Summers bring heavy convective thunderstorms that can dump several inches of rain in an afternoon, overwhelming gutters, crawlspace drainage, and older rooflines in a matter of hours. Winters are mild but punctuated by hard freezes, the kind that catch homeowners off guard and split supply lines inside walls that were never insulated for sustained cold.
 
-The housing stock tells its own story. A significant share of Ovett's homes were built in the 1960s through the 1980s, when vapor barriers were inconsistently installed and crawlspace ventilation standards were loose. That combination — high ambient humidity, clay-heavy soils that hold moisture, and older construction details — means mold can begin colonizing wet framing within 24 to 48 hours of a leak going undetected. Rural well-and-septic systems also create a category of water loss that municipal properties rarely see: sewage backups and septic intrusions that require both extraction and careful disinfection before any rebuild work begins.
+The housing stock tells its own story. A significant share of Ovett's homes were built in the 1960s through the 1980s, when vapor barriers were inconsistently installed and crawlspace ventilation standards were loose. That combination, high ambient humidity, clay-heavy soils that hold moisture, and older construction details, means mold can begin colonizing wet framing within 24 to 48 hours of a leak going undetected. Rural well-and-septic systems also create a category of water loss that municipal properties rarely see: sewage backups and septic intrusions that require both extraction and careful disinfection before any rebuild work begins.
 
 ## Services we provide in Ovett
 
 ### Water damage restoration
 
-Water damage in Ovett frequently starts quietly — a pinhole in a galvanized supply line, condensation collecting above a crawlspace vapor barrier that has shifted, or stormwater finding a low point in a slab. By the time a homeowner notices discoloration on drywall or a soft spot in hardwood flooring, moisture has often been present for days. Our crews use thermal imaging and calibrated moisture meters to map the full extent of saturation before a single board is pulled, then dry to the IICRC S500 standard using industrial dehumidifiers and air movers sized for the actual cubic footage of the affected space.
+Water damage in Ovett frequently starts quietly, a pinhole in a galvanized supply line, condensation collecting above a crawlspace vapor barrier that has shifted, or stormwater finding a low point in a slab. By the time a homeowner notices discoloration on drywall or a soft spot in hardwood flooring, moisture has often been present for days. Our crews use thermal imaging and calibrated moisture meters to map the full extent of saturation before a single board is pulled, then dry to the IICRC S500 standard using industrial dehumidifiers and air movers sized for the actual cubic footage of the affected space.
 
 ### Mold remediation
 
-Jones County's humidity makes mold a realistic follow-on to almost any water event. We assess affected areas, contain the work zone to prevent cross-contamination, remove compromised materials, and treat structural surfaces — then document everything for your insurance file. We do not make health claims about air quality outcomes, but we do follow established remediation protocols designed to address visible growth and the conditions that allowed it.
+Jones County's humidity makes mold a realistic follow-on to almost any water event. We assess affected areas, contain the work zone to prevent cross-contamination, remove compromised materials, and treat structural surfaces, then document everything for your insurance file. We do not make health claims about air quality outcomes, but we do follow established remediation protocols designed to address visible growth and the conditions that allowed it.
 
 ### Fire and smoke damage cleanup
 
@@ -43,16 +43,16 @@ Even a small kitchen fire leaves smoke residue in wall cavities, HVAC ductwork, 
 
 ### Reconstruction and build-back
 
-Once the damage is mitigated, we can carry the project through to finished reconstruction — replacing drywall, flooring, cabinetry, and roofing rather than handing you off to a separate contractor mid-project. One point of contact from the first call to the final walkthrough simplifies insurance documentation and shortens the overall timeline.
+Once the damage is mitigated, we can carry the project through to finished reconstruction, replacing drywall, flooring, cabinetry, and roofing rather than handing you off to a separate contractor mid-project. One point of contact from the first call to the final walkthrough simplifies insurance documentation and shortens the overall timeline.
 
 ## Coverage and how fast we can get there
 
-Ovett is roughly 90 miles northeast of our Gulfport headquarters, a drive that typically runs along US-49 North through Hattiesburg before connecting to county roads into Jones County. It is a meaningful distance, and we will be straightforward about it: we schedule Ovett calls as promptly as our current workload allows and will give you an honest arrival window when you call. For situations where immediate stabilization matters — active water intrusion, fire-exposed structure — we will tell you exactly when a crew can be on-site so you can make informed decisions. Reach us at (228) 284-5200.
+Ovett is roughly 90 miles northeast of our Gulfport headquarters, a drive that typically runs along US-49 North through Hattiesburg before connecting to county roads into Jones County. It is a meaningful distance, and we will be straightforward about it: we schedule Ovett calls as promptly as our current workload allows and will give you an honest arrival window when you call. For situations where immediate stabilization matters, active water intrusion, fire-exposed structure, we will tell you exactly when a crew can be on-site so you can make informed decisions. Reach us at (228) 284-5200.
 
 ## Building stock, site conditions, and permits in Ovett
 
-Ovett is an unincorporated community, so there is no city hall to visit — structural repair and rebuild permitting is handled at the county level in Jones County, and septic system repairs or replacements run through the Mississippi State Department of Health rather than a building office. Reroofing, framing repair, and electrical or plumbing replacement are the usual triggers; if the property sits in a mapped FEMA flood zone, the county floodplain rules shape how the rebuild is done.
+Ovett is an unincorporated community, so there is no city hall to visit, structural repair and rebuild permitting is handled at the county level in Jones County, and septic system repairs or replacements run through the Mississippi State Department of Health rather than a building office. Reroofing, framing repair, and electrical or plumbing replacement are the usual triggers; if the property sits in a mapped FEMA flood zone, the county floodplain rules shape how the rebuild is done.
 
-Homes out here typically sit on brick or block piers, with slab-on-grade more common in later builds. Basements are essentially nonexistent. Anything built before 1978 gets treated as lead-presumed until testing says otherwise, and pre-1990 houses often hide asbestos in floor tile, mastic, and siding — that changes demolition sequencing before drying even starts.
+Homes out here typically sit on brick or block piers, with slab-on-grade more common in later builds. Basements are essentially nonexistent. Anything built before 1978 gets treated as lead-presumed until testing says otherwise, and pre-1990 houses often hide asbestos in floor tile, mastic, and siding, that changes demolition sequencing before drying even starts.
 
-If you are dealing with water, fire, smoke, or mold damage anywhere in Ovett or the surrounding Jones County area, call HomeLyft Restoration MS at **(228) 284-5200**. We will walk you through what we are seeing, what needs to happen next, and what your insurance policy is likely to cover — no pressure, no guesswork.
+If you are dealing with water, fire, smoke, or mold damage anywhere in Ovett or the surrounding Jones County area, call HomeLyft Restoration MS at **(228) 284-5200**. We will walk you through what we are seeing, what needs to happen next, and what your insurance policy is likely to cover, no pressure, no guesswork.

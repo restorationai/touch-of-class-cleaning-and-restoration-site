@@ -19,21 +19,21 @@ state: "MS"
 primary: false
 rendered: true
 ---
-When a pipe bursts under a pier-and-beam floor or a slow roof leak finally soaks through the ceiling drywall, Wiggins property owners need someone who can assess the damage quickly and start drying before mold takes hold. HomeLyft Restoration MS handles water damage mitigation, fire and smoke cleanup, mold remediation, and reconstruction for homes and commercial properties throughout Stone County — working directly with insurance carriers so you are not left managing the paperwork alone.
+When a pipe bursts under a pier-and-beam floor or a slow roof leak finally soaks through the ceiling drywall, Wiggins property owners need someone who can assess the damage quickly and start drying before mold takes hold. HomeLyft Restoration MS handles water damage mitigation, fire and smoke cleanup, mold remediation, and reconstruction for homes and commercial properties throughout Stone County, working directly with insurance carriers so you are not left managing the paperwork alone.
 
 ## Restoration emergencies common in Wiggins
 
-Wiggins sits in the humid subtropical belt of South Mississippi, where summer humidity rarely drops below 70 percent and afternoon thunderstorms can drop two inches of rain in under an hour. That combination creates conditions where a minor roof penetration or a backed-up floor drain becomes a mold problem within 24 to 48 hours if it is not dried properly. The housing stock in the Wiggins area skews toward older wood-frame construction — many homes built in the 1960s through 1980s — which means crawl spaces, pier-and-beam foundations, and original cast-iron or galvanized plumbing that is overdue for replacement. When those older supply lines fail, water migrates under subfloors and into wall cavities before a homeowner notices anything on the surface. Stone County also sits in a region that sees periodic tropical weather influence; even storms that weaken before landfall can push enough wind-driven rain through aging window seals and roof edges to cause significant interior damage. Wildfire risk is lower here than in drier climates, but kitchen fires and electrical fires in older wiring are a consistent source of smoke and soot damage calls throughout the county.
+Wiggins sits in the humid subtropical belt of South Mississippi, where summer humidity rarely drops below 70 percent and afternoon thunderstorms can drop two inches of rain in under an hour. That combination creates conditions where a minor roof penetration or a backed-up floor drain becomes a mold problem within 24 to 48 hours if it is not dried properly. The housing stock in the Wiggins area skews toward older wood-frame construction, many homes built in the 1960s through 1980s, which means crawl spaces, pier-and-beam foundations, and original cast-iron or galvanized plumbing that is overdue for replacement. When those older supply lines fail, water migrates under subfloors and into wall cavities before a homeowner notices anything on the surface. Stone County also sits in a region that sees periodic tropical weather influence; even storms that weaken before landfall can push enough wind-driven rain through aging window seals and roof edges to cause significant interior damage. Wildfire risk is lower here than in drier climates, but kitchen fires and electrical fires in older wiring are a consistent source of smoke and soot damage calls throughout the county.
 
 ## Services we provide in Wiggins
 
 ### Water damage mitigation
 
-Water damage in the Wiggins area frequently starts in crawl spaces — a slow plumbing drip or ground-water intrusion after heavy rain saturates the soil beneath a pier-and-beam home and wicks moisture up into floor joists and subfloor sheathing. HomeLyft technicians use moisture meters and thermal imaging to map exactly how far water has traveled before setting industrial air movers and dehumidifiers. Drying is documented to meet the IICRC S500 standard, which matters when your insurance adjuster asks for a drying log.
+Water damage in the Wiggins area frequently starts in crawl spaces, a slow plumbing drip or ground-water intrusion after heavy rain saturates the soil beneath a pier-and-beam home and wicks moisture up into floor joists and subfloor sheathing. HomeLyft technicians use moisture meters and thermal imaging to map exactly how far water has traveled before setting industrial air movers and dehumidifiers. Drying is documented to meet the IICRC S500 standard, which matters when your insurance adjuster asks for a drying log.
 
 ### Mold remediation
 
-The warm, wet climate around Wiggins means mold can colonize damp building materials faster than most homeowners expect. A bathroom exhaust fan that vents into an attic instead of outside — common in older Stone County homes — can create a mold colony in weeks. Remediation involves containing the affected area, removing compromised materials, treating surfaces, and verifying clearance before reconstruction begins. We do not offer air-quality testing (that is a third-party industrial hygienist function), but we can refer you to qualified testers in the region.
+The warm, wet climate around Wiggins means mold can colonize damp building materials faster than most homeowners expect. A bathroom exhaust fan that vents into an attic instead of outside, common in older Stone County homes, can create a mold colony in weeks. Remediation involves containing the affected area, removing compromised materials, treating surfaces, and verifying clearance before reconstruction begins. We do not offer air-quality testing (that is a third-party industrial hygienist function), but we can refer you to qualified testers in the region.
 
 ### Fire and smoke damage restoration
 
@@ -45,13 +45,13 @@ Once mitigation is complete, damaged drywall, flooring, cabinetry, and framing n
 
 ## Coverage and how fast we can get there
 
-HomeLyft Restoration MS is headquartered in Gulfport, roughly 50 miles south of Wiggins via US-49 North. That route runs straight through the heart of Stone County and is the primary corridor our crews travel when responding to calls in the Wiggins area. Scheduling is handled by phone at (228) 284-5200 — call to discuss your situation and we will confirm availability and an estimated arrival window based on current crew deployment. We serve the full Wiggins area including properties along the US-49 corridor, rural routes throughout Stone County, and surrounding communities.
+HomeLyft Restoration MS is headquartered in Gulfport, roughly 50 miles south of Wiggins via US-49 North. That route runs straight through the heart of Stone County and is the primary corridor our crews travel when responding to calls in the Wiggins area. Scheduling is handled by phone at (228) 284-5200, call to discuss your situation and we will confirm availability and an estimated arrival window based on current crew deployment. We serve the full Wiggins area including properties along the US-49 corridor, rural routes throughout Stone County, and surrounding communities.
 
 ## Building stock, site conditions, and permits in Wiggins
 
 Newer construction around town leans slab-on-grade with vented attics and asphalt shingles, so a supply failure spreads sideways under flooring instead of dropping into a crawlspace. Homes from the late 1970s through the early 1990s can also hide polybutylene supply lines, which fail at the fittings without warning. On anything built before 1980, we plan for asbestos-containing sheet flooring, mastic, and textured ceilings, and for lead paint on pre-1978 trim, because demolition sequence changes when those are present.
 
-Soils here are the sandy Coastal Plain type — water drains fast but re-saturates just as fast in a hard rain, and low ground near creeks stays wet. Winter cold snaps still burst uninsulated exterior lines.
+Soils here are the sandy Coastal Plain type, water drains fast but re-saturates just as fast in a hard rain, and low ground near creeks stays wet. Winter cold snaps still burst uninsulated exterior lines.
 
 Structural repair permits come from the City of Wiggins inside city limits and Stone County outside them. Mississippi enforces a statewide residential code, and flood-zone parcels add elevation requirements.
 

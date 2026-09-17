@@ -18,17 +18,17 @@ service_display: "Fire Damage Restoration"
 rendered: true
 hero: '/images/services/fire-damage-restoration.webp'
 ---
-A house fire leaves more than charred walls. Within hours, soot begins etching surfaces, smoke odor penetrates insulation and framing, and acidic residue starts corroding metal fixtures, appliances, and HVAC components. The damage compounds every day you wait. Our IICRC-certified technicians respond fast, stop the secondary damage, and carry the work all the way through to finished reconstruction — so you're dealing with one company, not a patchwork of contractors.
+A house fire leaves more than charred walls. Within hours, soot begins etching surfaces, smoke odor penetrates insulation and framing, and acidic residue starts corroding metal fixtures, appliances, and HVAC components. The damage compounds every day you wait. Our IICRC-certified technicians respond fast, stop the secondary damage, and carry the work all the way through to finished reconstruction, so you're dealing with one company, not a patchwork of contractors.
 
 ## How we handle fire damage
 
-The first thing we do on-site isn't cleanup — it's assessment. A technician walks every affected area, including spaces that didn't burn, because smoke travels through wall cavities, ductwork, and attic spaces far beyond the fire's origin. We document everything with photos and moisture readings before a single item is moved, which matters both for your insurance claim and for building a complete scope of work.
+The first thing we do on-site isn't cleanup, it's assessment. A technician walks every affected area, including spaces that didn't burn, because smoke travels through wall cavities, ductwork, and attic spaces far beyond the fire's origin. We document everything with photos and moisture readings before a single item is moved, which matters both for your insurance claim and for building a complete scope of work.
 
-Once the assessment is done, we move into containment and stabilization. If the structure has compromised walls, ceilings, or a roof, we board up and tarp as needed to protect against weather intrusion — a real concern in the Pacific Northwest, where a damaged roof can let in rain within the same day. Utilities are confirmed safe or isolated before any crew works in the space.
+Once the assessment is done, we move into containment and stabilization. If the structure has compromised walls, ceilings, or a roof, we board up and tarp as needed to protect against weather intrusion, a real concern in the Pacific Northwest, where a damaged roof can let in rain within the same day. Utilities are confirmed safe or isolated before any crew works in the space.
 
 Smoke and soot removal is the most labor-intensive phase of fire and smoke restoration. Different residues require different chemistry: dry sponging for light, powdery soot; alkaline cleaners for protein-based smoke from kitchen fires; thermal fogging or hydroxyl generators for deep odor penetration in porous materials like drywall, wood framing, and carpet padding. We use commercial-grade air scrubbers with HEPA filtration to capture airborne particulates throughout the process.
 
-Structural fire damage — burned joists, compromised load-bearing walls, melted wiring — gets addressed in the rebuild phase. As a licensed general contractor (Registration #NATIORC792M6), we handle demolition, framing, drywall, electrical coordination, painting, and finish work in-house. You don't hand off to a second company mid-project.
+Structural fire damage, burned joists, compromised load-bearing walls, melted wiring, gets addressed in the rebuild phase. As a licensed general contractor (Registration #NATIORC792M6), we handle demolition, framing, drywall, electrical coordination, painting, and finish work in-house. You don't hand off to a second company mid-project.
 
 ## When to call us
 
@@ -38,17 +38,17 @@ Specific signs that post-fire restoration is needed:
 
 - A persistent smoke or burning smell that doesn't clear after ventilating the home
 - Visible black or gray soot on walls, ceilings, window frames, or inside cabinets
-- Discoloration on metal surfaces — door handles, faucets, appliances — which signals acid etching already underway
+- Discoloration on metal surfaces, door handles, faucets, appliances, which signals acid etching already underway
 - Soft, warped, or water-damaged materials from firefighting efforts
 - Any visible char on structural members, even if the area looks otherwise intact
 
-**What not to do before we arrive:** Don't run your HVAC system — it will push soot deeper into ductwork and distribute it to unaffected rooms. Don't wipe soot with a wet cloth; that smears it into porous surfaces and makes it harder to remove. Don't discard any damaged items before they're documented for your insurance claim.
+**What not to do before we arrive:** Don't run your HVAC system, it will push soot deeper into ductwork and distribute it to unaffected rooms. Don't wipe soot with a wet cloth; that smears it into porous surfaces and makes it harder to remove. Don't discard any damaged items before they're documented for your insurance claim.
 
 If you smell smoke but can't identify a source, or if your home was near a structure fire that affected air quality, call us. We'll assess whether remediation is needed.
 
 ## What sets our fire damage team apart
 
-Certifications aren't just wall decorations — they define what methods and equipment a crew is trained to use. Our team holds IICRC certification in fire and smoke restoration, which means technicians understand the chemistry of combustion residues and the specific protocols for each type. We're also an EPA Certified and Lead-Safe Certified Firm, which matters in Federal Way and the surrounding region, where a significant portion of housing stock was built before 1978 and may contain lead paint that fire damage can disturb.
+Certifications aren't just wall decorations, they define what methods and equipment a crew is trained to use. Our team holds IICRC certification in fire and smoke restoration, which means technicians understand the chemistry of combustion residues and the specific protocols for each type. We're also an EPA Certified and Lead-Safe Certified Firm, which matters in Federal Way and the surrounding region, where a significant portion of housing stock was built before 1978 and may contain lead paint that fire damage can disturb.
 
 Response time is a practical differentiator. We're based in Federal Way and cover the surrounding Washington region, which means most calls reach a technician on-site within 60–90 minutes. Soot begins permanently etching glass and metal within hours; faster response directly limits the scope of damage.
 
@@ -56,14 +56,14 @@ We're BBB Accredited and ANSI Certified, and we carry the general contractor lic
 
 ## Insurance, billing, and the claims process
 
-Fire damage claims are among the most complex residential insurance claims — they involve structure, contents, temporary housing, and sometimes code-upgrade requirements, all under one policy. We work directly with your insurance adjuster from the initial documentation through the final invoice.
+Fire damage claims are among the most complex residential insurance claims, they involve structure, contents, temporary housing, and sometimes code-upgrade requirements, all under one policy. We work directly with your insurance adjuster from the initial documentation through the final invoice.
 
 Our scope-of-work documentation is built to match the format adjusters expect: line-item estimates, photo documentation by room and surface, and clear separation between emergency services, remediation, and reconstruction costs. This reduces back-and-forth and speeds up approval.
 
-We bill your insurance carrier directly for covered work. Your out-of-pocket exposure is typically your deductible. If any portion of the work falls outside coverage — upgrades, code compliance items, or owner-elected improvements — we'll identify that clearly before work begins, not after.
+We bill your insurance carrier directly for covered work. Your out-of-pocket exposure is typically your deductible. If any portion of the work falls outside coverage, upgrades, code compliance items, or owner-elected improvements, we'll identify that clearly before work begins, not after.
 
 If you haven't filed a claim yet, we can help you understand what's typically covered under a standard homeowners policy before you make that call.
 
 ---
 
-If your home or property has fire or smoke damage, the sooner you act, the less it costs to restore. Call National Restoration Construction at **(206) 883-0333** — we answer around the clock, and we can have a crew on-site in Federal Way and the surrounding area the same day you call.
+If your home or property has fire or smoke damage, the sooner you act, the less it costs to restore. Call National Restoration Construction at **(206) 883-0333**, we answer around the clock, and we can have a crew on-site in Federal Way and the surrounding area the same day you call.

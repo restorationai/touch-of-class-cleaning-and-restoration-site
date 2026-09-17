@@ -19,27 +19,27 @@ state: "NJ"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a finished wall in a Willard-area Tudor or the Ho-Ho-Kus Brook backs into a Heights basement overnight, Ridgewood homeowners need a restoration crew that already understands the house — not one learning it on the job. The Restoration Group responds around the clock to water damage, fire and smoke damage, mold remediation, and reconstruction throughout Ridgewood's 07450 ZIP code, dispatching from our Kenilworth base to get hands on the problem fast.
+When a pipe bursts behind a finished wall in a Willard-area Tudor or the Ho-Ho-Kus Brook backs into a Heights basement overnight, Ridgewood homeowners need a restoration crew that already understands the house, not one learning it on the job. The Restoration Group responds around the clock to water damage, fire and smoke damage, mold remediation, and reconstruction throughout Ridgewood's 07450 ZIP code, dispatching from our Kenilworth base to get hands on the problem fast.
 
 ## Restoration emergencies common in Ridgewood
 
-Ridgewood's housing stock is part of what makes it beautiful and part of what makes it vulnerable. The grand Victorians, Tudors, and stately colonials that line the streets near Van Neste Square and through the Old Country Club neighborhood were built in the early 1900s, and many still carry original or early-replacement supply lines — galvanized steel that corrodes from the inside out, cast-iron drain stacks that crack under root pressure, and copper fittings that fail quietly behind plaster walls for weeks before a ceiling gives way.
+Ridgewood's housing stock is part of what makes it beautiful and part of what makes it vulnerable. The grand Victorians, Tudors, and stately colonials that line the streets near Van Neste Square and through the Old Country Club neighborhood were built in the early 1900s, and many still carry original or early-replacement supply lines, galvanized steel that corrodes from the inside out, cast-iron drain stacks that crack under root pressure, and copper fittings that fail quietly behind plaster walls for weeks before a ceiling gives way.
 
-The Ho-Ho-Kus Brook and Saddle River aren't abstract flood risks — they have a documented history of overtopping during heavy rain events. Hurricane Ida in 2021 flooded downtown streets and drove water into basements across the village, particularly near the brook corridor. Deep finished basements, common throughout Ridgewood's older neighborhoods, turn those events into significant structural and contents losses quickly. Flat and slate roofs on historic homes create ice-dam vulnerabilities every January and February, and the dense canopy of mature oaks and maples that shades the Somerville and West Side neighborhoods also means limb-fall and debris-driven storm intrusion every spring and fall. The compact East Ridgewood Avenue commercial corridor — a short walk from the Ridgewood train station — sees its own pattern of losses: sprinkler activations, roof-leak infiltration into tenant spaces, and commercial pipe failures that can't wait for a morning callback.
+The Ho-Ho-Kus Brook and Saddle River aren't abstract flood risks, they have a documented history of overtopping during heavy rain events. Hurricane Ida in 2021 flooded downtown streets and drove water into basements across the village, particularly near the brook corridor. Deep finished basements, common throughout Ridgewood's older neighborhoods, turn those events into significant structural and contents losses quickly. Flat and slate roofs on historic homes create ice-dam vulnerabilities every January and February, and the dense canopy of mature oaks and maples that shades the Somerville and West Side neighborhoods also means limb-fall and debris-driven storm intrusion every spring and fall. The compact East Ridgewood Avenue commercial corridor, a short walk from the Ridgewood train station, sees its own pattern of losses: sprinkler activations, roof-leak infiltration into tenant spaces, and commercial pipe failures that can't wait for a morning callback.
 
 ## Services we provide in Ridgewood
 
 ### Water damage restoration
 
-Water damage in Ridgewood often starts invisibly — a slow supply-line leak inside a plaster wall, a sump pump that lost power during a nor'easter, or brook-driven groundwater that found a crack in a 1920s foundation. We extract standing water, use thermal imaging to trace moisture behind finished surfaces, and dry structural assemblies to IICRC S500 standards before any rebuilding begins. Getting the drying phase right matters especially in deep basements where humidity lingers.
+Water damage in Ridgewood often starts invisibly, a slow supply-line leak inside a plaster wall, a sump pump that lost power during a nor'easter, or brook-driven groundwater that found a crack in a 1920s foundation. We extract standing water, use thermal imaging to trace moisture behind finished surfaces, and dry structural assemblies to IICRC S500 standards before any rebuilding begins. Getting the drying phase right matters especially in deep basements where humidity lingers.
 
 ### Mold remediation
 
-After a flood event or a slow leak that went unnoticed, mold can establish itself within 48 to 72 hours in the warm, damp cavities common in Ridgewood's older homes. We contain affected areas, remove compromised materials, and treat structural surfaces — following EPA guidelines throughout. We don't issue health guarantees, but we do follow documented protocols designed to bring airborne spore counts back to ambient levels before clearance testing.
+After a flood event or a slow leak that went unnoticed, mold can establish itself within 48 to 72 hours in the warm, damp cavities common in Ridgewood's older homes. We contain affected areas, remove compromised materials, and treat structural surfaces, following EPA guidelines throughout. We don't issue health guarantees, but we do follow documented protocols designed to bring airborne spore counts back to ambient levels before clearance testing.
 
 ### Fire and smoke damage restoration
 
-Smoke residue from a kitchen fire travels farther than the flames do — it settles into HVAC ductwork, penetrates plaster, and leaves an odor that resurfaces for months if not addressed properly. We handle soot removal, odor neutralization, and structural drying from suppression water, then coordinate reconstruction so homeowners aren't managing two separate contractors.
+Smoke residue from a kitchen fire travels farther than the flames do, it settles into HVAC ductwork, penetrates plaster, and leaves an odor that resurfaces for months if not addressed properly. We handle soot removal, odor neutralization, and structural drying from suppression water, then coordinate reconstruction so homeowners aren't managing two separate contractors.
 
 ### Storm damage and reconstruction
 
@@ -51,14 +51,14 @@ Business owners and property managers along East Ridgewood Avenue and near The S
 
 ## Coverage and how fast we can get there
 
-From our Kenilworth headquarters, Ridgewood is roughly 25 miles north via the Garden State Parkway to Route 17, or through Paramus on Route 4. We run 24/7, so a call at 2 a.m. from a Somerville-area homeowner watching water rise in a finished basement gets the same dispatch priority as a midday call. We serve all of 07450 — from the Village center near Van Neste Square out through the West Side and into the Old Country Club neighborhood — and we're familiar with the access constraints that come with Ridgewood's narrow residential streets and mature tree canopy.
+From our Kenilworth headquarters, Ridgewood is roughly 25 miles north via the Garden State Parkway to Route 17, or through Paramus on Route 4. We run 24/7, so a call at 2 a.m. from a Somerville-area homeowner watching water rise in a finished basement gets the same dispatch priority as a midday call. We serve all of 07450, from the Village center near Van Neste Square out through the West Side and into the Old Country Club neighborhood, and we're familiar with the access constraints that come with Ridgewood's narrow residential streets and mature tree canopy.
 
 ## Building stock, site conditions, and permits in Ridgewood
 
-Behind the finish, these houses are mostly plaster and wood lath over dimensional framing, sitting on stone or brick-and-mortar foundation walls that wick moisture rather than shed it. Drying that assembly is slower than drywall — the lath holds water and the plaster keys hide it. Pre-1978 paint layers, asbestos-bearing pipe and boiler insulation on old steam systems, and knob-and-tube runs in attics all shape how a demolition scope gets written.
+Behind the finish, these houses are mostly plaster and wood lath over dimensional framing, sitting on stone or brick-and-mortar foundation walls that wick moisture rather than shed it. Drying that assembly is slower than drywall, the lath holds water and the plaster keys hide it. Pre-1978 paint layers, asbestos-bearing pipe and boiler insulation on old steam systems, and knob-and-tube runs in attics all shape how a demolition scope gets written.
 
 The ground here is glacial soil over red sandstone and shale bedrock, with alluvial deposits and a shallow water table along the brook and river corridors. Footings sit below a roughly three-foot frost line, so basements are deep and stay damp.
 
 Structural repair and rebuild permits come from the Village's construction office under New Jersey's Uniform Construction Code; work in mapped flood areas carries added elevation requirements.
 
-If you're dealing with a loss in Ridgewood right now — or want to talk through what a restoration project involves before committing — call The Restoration Group at **(855) 650-7422**. We're available around the clock and we know the village well.
+If you're dealing with a loss in Ridgewood right now, or want to talk through what a restoration project involves before committing, call The Restoration Group at **(855) 650-7422**. We're available around the clock and we know the village well.

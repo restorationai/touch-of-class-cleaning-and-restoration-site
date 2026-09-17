@@ -20,40 +20,40 @@ state: "MS"
 service_display: "Post-Construction and Specialty Cleaning"
 rendered: true
 ---
-Renovation work in Latimer leaves behind more than sawdust. Mississippi's Gulf Coast humidity — even this far inland in Harrison County — means construction dust absorbs ambient moisture quickly, turning fine drywall particles into a film that clings to surfaces and works its way into HVAC returns before a contractor's truck is off the property. HomeLyft Restoration MS handles the full post-construction cleanup sequence, from initial debris removal through the final white-glove pass, so your newly built or renovated space is actually move-in ready — not just visually tidy.
+Renovation work in Latimer leaves behind more than sawdust. Mississippi's Gulf Coast humidity, even this far inland in Harrison County, means construction dust absorbs ambient moisture quickly, turning fine drywall particles into a film that clings to surfaces and works its way into HVAC returns before a contractor's truck is off the property. HomeLyft Restoration MS handles the full post-construction cleanup sequence, from initial debris removal through the final white-glove pass, so your newly built or renovated space is actually move-in ready, not just visually tidy.
 
 ## Why Latimer Properties Present Specific Post-Construction Cleaning Challenges
 
-Latimer sits in a climate band where summer humidity regularly pushes past 80 percent, and that matters the moment construction wraps. Concrete dust, joint compound residue, and wood shavings don't just settle — they bond to surfaces when moisture is present. Homes in this part of Harrison County also tend to mix construction eras: a slab-on-grade addition attached to an older pier-and-beam structure means different floor substrates, different dust migration patterns, and different cleaning protocols under the same roof.
+Latimer sits in a climate band where summer humidity regularly pushes past 80 percent, and that matters the moment construction wraps. Concrete dust, joint compound residue, and wood shavings don't just settle, they bond to surfaces when moisture is present. Homes in this part of Harrison County also tend to mix construction eras: a slab-on-grade addition attached to an older pier-and-beam structure means different floor substrates, different dust migration patterns, and different cleaning protocols under the same roof.
 
-Local contractors here also work through warm months that compress drying windows. When a bathroom remodel finishes in July, grout haze and silicone overspray set faster than they would in a cooler climate. Getting a cleaning crew on-site within 24 to 48 hours of punch-list completion — before materials cure into permanent stains — is the difference between a standard final clean and a remediation project.
+Local contractors here also work through warm months that compress drying windows. When a bathroom remodel finishes in July, grout haze and silicone overspray set faster than they would in a cooler climate. Getting a cleaning crew on-site within 24 to 48 hours of punch-list completion, before materials cure into permanent stains, is the difference between a standard final clean and a remediation project.
 
 ## Our Post-Construction and Specialty Cleaning Process in Latimer
 
 Every post-construction clean follows a sequenced approach rather than a single pass with mops and vacuums. The work moves from ceiling to floor, rough to fine:
 
-**Phase 1 — Rough Clean:** Construction debris, scrap material, and packaging are removed. HEPA-filtered vacuums pull drywall dust from surfaces, window tracks, and register openings before it migrates deeper into the HVAC system.
+**Phase 1, Rough Clean:** Construction debris, scrap material, and packaging are removed. HEPA-filtered vacuums pull drywall dust from surfaces, window tracks, and register openings before it migrates deeper into the HVAC system.
 
-**Phase 2 — Detail Clean:** Paint overspray is removed from glass and hardware. Grout haze is treated with appropriate acidic or alkaline solutions depending on tile type. Cabinet interiors, drawer channels, and light fixture housings are wiped down — areas a standard cleaning service skips.
+**Phase 2, Detail Clean:** Paint overspray is removed from glass and hardware. Grout haze is treated with appropriate acidic or alkaline solutions depending on tile type. Cabinet interiors, drawer channels, and light fixture housings are wiped down, areas a standard cleaning service skips.
 
-**Phase 3 — Final Clean:** This is the white-glove pass. Streak-free glass, polished fixtures, vacuumed and mopped floors, and a full walkthrough against the contractor's punch list. We document completed work with photos, which matters if a general contractor or property manager needs sign-off.
+**Phase 3, Final Clean:** This is the white-glove pass. Streak-free glass, polished fixtures, vacuumed and mopped floors, and a full walkthrough against the contractor's punch list. We document completed work with photos, which matters if a general contractor or property manager needs sign-off.
 
-For specialty cleaning needs — post-fire odor neutralization in a renovated kitchen, deep sanitization after a flip, or cleaning following lead abatement work — the process is scoped separately. As an EPA Lead-Safe Certified firm, HomeLyft can coordinate cleaning that follows lead paint disturbance without creating a secondary exposure risk.
+For specialty cleaning needs, post-fire odor neutralization in a renovated kitchen, deep sanitization after a flip, or cleaning following lead abatement work, the process is scoped separately. As an EPA Lead-Safe Certified firm, HomeLyft can coordinate cleaning that follows lead paint disturbance without creating a secondary exposure risk.
 
 ## Reaching Latimer from Gulfport
 
-HomeLyft Restoration MS operates out of Gulfport, and Latimer is a straightforward run up US-49 North into Harrison County. Scheduling is handled during business hours — call +12282845200 to get a site visit on the calendar. For larger projects, we can stage equipment at the property the day before the clean begins to avoid any morning delay.
+HomeLyft Restoration MS operates out of Gulfport, and Latimer is a straightforward run up US-49 North into Harrison County. Scheduling is handled during business hours, call +12282845200 to get a site visit on the calendar. For larger projects, we can stage equipment at the property the day before the clean begins to avoid any morning delay.
 
 For general contractors managing multiple Latimer sites, we're set up to coordinate directly with your project manager so the cleaning schedule slots in cleanly after final inspections without holding up your certificate of occupancy timeline.
 
 ## Equipment and Methods We Use for Post-Construction Cleaning
 
-Standard janitorial equipment isn't built for construction environments. We use commercial HEPA vacuums rated for fine particulate capture, microfiber systems that trap rather than redistribute dust, and professional-grade degreasers and surface-specific cleaners that won't damage new finishes. For projects where indoor air quality documentation matters — commercial builds, rental property turnovers, or homes where occupants have respiratory sensitivities — we can discuss air scrubbing as part of the scope.
+Standard janitorial equipment isn't built for construction environments. We use commercial HEPA vacuums rated for fine particulate capture, microfiber systems that trap rather than redistribute dust, and professional-grade degreasers and surface-specific cleaners that won't damage new finishes. For projects where indoor air quality documentation matters, commercial builds, rental property turnovers, or homes where occupants have respiratory sensitivities, we can discuss air scrubbing as part of the scope.
 
 Our IICRC-certified team brings the same structured methodology to post-construction cleaning that we apply to water and fire restoration: assess, plan, execute, document.
 
 ## Local Note
 
-One pattern we've noticed on Harrison County renovation projects: homes that were built with pier-and-beam foundations and later had slab additions poured often have a gap or transition zone at the junction where construction debris accumulates and is invisible until flooring goes down. If your renovation involved that kind of addition, ask us to include a subfloor inspection pass before the final clean closes out — it's a small step that prevents discovering a problem after new flooring is installed.
+One pattern we've noticed on Harrison County renovation projects: homes that were built with pier-and-beam foundations and later had slab additions poured often have a gap or transition zone at the junction where construction debris accumulates and is invisible until flooring goes down. If your renovation involved that kind of addition, ask us to include a subfloor inspection pass before the final clean closes out, it's a small step that prevents discovering a problem after new flooring is installed.
 
-Call HomeLyft Restoration MS at +12282845200 to schedule your post-construction or specialty clean in Latimer. Whether you're a homeowner crossing the finish line on a long renovation or a contractor who needs a reliable cleaning crew to hand off to at punch-list, we'll make sure the space is genuinely ready — not just swept.
+Call HomeLyft Restoration MS at +12282845200 to schedule your post-construction or specialty clean in Latimer. Whether you're a homeowner crossing the finish line on a long renovation or a contractor who needs a reliable cleaning crew to hand off to at punch-list, we'll make sure the space is genuinely ready, not just swept.

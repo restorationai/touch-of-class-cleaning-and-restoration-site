@@ -19,19 +19,19 @@ state: "UT"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall or smoke settles into the drywall of a Pleasant Grove home, the clock starts immediately. Home Pride Restoration and Cleaning has been responding to those calls since 1997 — extracting standing water, clearing smoke and soot, remediating mold, and rebuilding damaged structures for homeowners and property managers across Pleasant Grove. Our IICRC-certified crews work directly with insurance carriers and arrive ready to document, mitigate, and restore from the first hour on-site.
+When a pipe bursts behind a wall or smoke settles into the drywall of a Pleasant Grove home, the clock starts immediately. Home Pride Restoration and Cleaning has been responding to those calls since 1997, extracting standing water, clearing smoke and soot, remediating mold, and rebuilding damaged structures for homeowners and property managers across Pleasant Grove. Our IICRC-certified crews work directly with insurance carriers and arrive ready to document, mitigate, and restore from the first hour on-site.
 
 ## Restoration emergencies common in Pleasant Grove
 
-Pleasant Grove sits at the base of the Wasatch Front, and that geography shapes the kind of damage local properties take. Spring snowmelt off Mount Timpanogos pushes groundwater levels up sharply — often high enough to seep through basement walls and window wells in older ranch-style homes built before modern waterproofing standards. The city's housing stock skews heavily toward homes built in the 1970s through the 1990s, many of which have galvanized supply lines that are well past their service life and fail without warning.
+Pleasant Grove sits at the base of the Wasatch Front, and that geography shapes the kind of damage local properties take. Spring snowmelt off Mount Timpanogos pushes groundwater levels up sharply, often high enough to seep through basement walls and window wells in older ranch-style homes built before modern waterproofing standards. The city's housing stock skews heavily toward homes built in the 1970s through the 1990s, many of which have galvanized supply lines that are well past their service life and fail without warning.
 
-Summer monsoon moisture combined with Utah County's rapid temperature swings also creates ideal conditions for mold to establish within 24 to 48 hours of a slow leak going unnoticed — particularly in finished basements and crawl spaces where ventilation is poor. Winters bring their own risks: ice dams along rooflines and frozen supply lines in uninsulated garage walls are among the most common calls we receive between December and February.
+Summer monsoon moisture combined with Utah County's rapid temperature swings also creates ideal conditions for mold to establish within 24 to 48 hours of a slow leak going unnoticed, particularly in finished basements and crawl spaces where ventilation is poor. Winters bring their own risks: ice dams along rooflines and frozen supply lines in uninsulated garage walls are among the most common calls we receive between December and February.
 
 ## Services we provide in Pleasant Grove
 
 ### Water damage restoration
 
-Water damage in Pleasant Grove frequently starts in the basement. Whether it's a failed sump pump during a heavy spring rain, a water heater that let go overnight, or a supply line that split inside a finished wall, the damage spreads fast into flooring, insulation, and framing. We use truck-mounted extraction, industrial air movers, and desiccant dehumidifiers to dry the structure — not just the surface — and we document moisture readings throughout the process for your insurance claim.
+Water damage in Pleasant Grove frequently starts in the basement. Whether it's a failed sump pump during a heavy spring rain, a water heater that let go overnight, or a supply line that split inside a finished wall, the damage spreads fast into flooring, insulation, and framing. We use truck-mounted extraction, industrial air movers, and desiccant dehumidifiers to dry the structure, not just the surface, and we document moisture readings throughout the process for your insurance claim.
 
 ### Mold remediation
 
@@ -39,7 +39,7 @@ Because Pleasant Grove homes often have finished basements used as living space,
 
 ### Fire and smoke damage restoration
 
-Smoke from even a contained kitchen fire can penetrate drywall, insulation, and HVAC ductwork throughout a home. The acrid, oily residue that settles on surfaces in Pleasant Grove's dry climate can become harder to neutralize the longer it sits. We use thermal fogging, hydroxyl generators, and media blasting where needed — and we work with your adjuster from the first walkthrough so the scope of work is documented before anything is touched.
+Smoke from even a contained kitchen fire can penetrate drywall, insulation, and HVAC ductwork throughout a home. The acrid, oily residue that settles on surfaces in Pleasant Grove's dry climate can become harder to neutralize the longer it sits. We use thermal fogging, hydroxyl generators, and media blasting where needed, and we work with your adjuster from the first walkthrough so the scope of work is documented before anything is touched.
 
 ### Biohazard and specialty cleanup
 
@@ -47,17 +47,17 @@ Unattended situations, sewage backups, and trauma scenes require handling that g
 
 ### Reconstruction
 
-Once mitigation is complete, many homeowners don't want to manage a separate general contractor. Our reconstruction team handles drywall, flooring, cabinetry, and finish work — keeping the project under one roof and one insurance file.
+Once mitigation is complete, many homeowners don't want to manage a separate general contractor. Our reconstruction team handles drywall, flooring, cabinetry, and finish work, keeping the project under one roof and one insurance file.
 
 ## Response time and coverage
 
-Home Pride Restoration and Cleaning's headquarters is in Saratoga Springs, roughly 10 to 15 minutes from Pleasant Grove via US-89 and State Street depending on traffic. Most Pleasant Grove addresses see a technician on-site within 45 to 60 minutes of a confirmed call. Neighborhoods closer to the US-89 corridor — including areas near Pleasant Grove High School and the business district along State Street — are typically at the shorter end of that window. More residential areas farther east toward the foothills may run closer to 60 minutes. We answer calls 24 hours a day, every day of the year.
+Home Pride Restoration and Cleaning's headquarters is in Saratoga Springs, roughly 10 to 15 minutes from Pleasant Grove via US-89 and State Street depending on traffic. Most Pleasant Grove addresses see a technician on-site within 45 to 60 minutes of a confirmed call. Neighborhoods closer to the US-89 corridor, including areas near Pleasant Grove High School and the business district along State Street, are typically at the shorter end of that window. More residential areas farther east toward the foothills may run closer to 60 minutes. We answer calls 24 hours a day, every day of the year.
 
 ## Building stock, site conditions, and permits in Pleasant Grove
 
-Pleasant Grove has two very different housing layers. The older blocks near the original town center include early-twentieth-century brick homes — often unreinforced masonry with plaster-and-lath interiors, which hold water far longer than drywall and have to be dried rather than simply cut out. Around those, subdivisions from the 1970s onward sit on full basements, which is the Utah norm; deep frost requirements along the Wasatch Front put footings well below grade, so almost every home has conditioned or semi-finished space below the ground line for water to find.
+Pleasant Grove has two very different housing layers. The older blocks near the original town center include early-twentieth-century brick homes, often unreinforced masonry with plaster-and-lath interiors, which hold water far longer than drywall and have to be dried rather than simply cut out. Around those, subdivisions from the 1970s onward sit on full basements, which is the Utah norm; deep frost requirements along the Wasatch Front put footings well below grade, so almost every home has conditioned or semi-finished space below the ground line for water to find.
 
-The ground here is old Lake Bonneville bench material and alluvial fan deposits washed out of the canyons — sands, silts and gravel that move water sideways through backfill toward foundation walls.
+The ground here is old Lake Bonneville bench material and alluvial fan deposits washed out of the canyons, sands, silts and gravel that move water sideways through backfill toward foundation walls.
 
 Structural repair and rebuild permits come from Pleasant Grove City's building division, working under Utah's statewide adopted code. Pre-1980 homes also need asbestos screening before demolition, which Utah regulates at the state level.
 

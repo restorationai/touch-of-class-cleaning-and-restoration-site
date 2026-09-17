@@ -17,13 +17,13 @@ published_at: "2026-07-31"
 services: ["water-damage-restoration"]
 rendered: true
 ---
-If water is actively flooding your home right now, stop the source first: find your main water shutoff valve (usually near the front foundation wall, in a utility closet, or at the street meter) and turn it off. Then cut power to any rooms with standing water at the breaker panel before you step inside. Those two steps — stop the water, kill the electricity — are the most important things you can do in the first five minutes. Everything after that is about limiting how much damage spreads in the hours that follow.
+If water is actively flooding your home right now, stop the source first: find your main water shutoff valve (usually near the front foundation wall, in a utility closet, or at the street meter) and turn it off. Then cut power to any rooms with standing water at the breaker panel before you step inside. Those two steps, stop the water, kill the electricity, are the most important things you can do in the first five minutes. Everything after that is about limiting how much damage spreads in the hours that follow.
 
 ## Understand What You're Actually Racing Against
 
-Water damage is a time-sensitive problem in a way that most home emergencies are not. The material destruction you see — warped floors, soaked drywall, ruined furniture — is only part of the story. The clock that matters most is the mold clock.
+Water damage is a time-sensitive problem in a way that most home emergencies are not. The material destruction you see, warped floors, soaked drywall, ruined furniture, is only part of the story. The clock that matters most is the mold clock.
 
-Mold spores are already present in every home. They're dormant until they have three things: a surface, warmth, and moisture. In North Texas, where summer humidity sits in the 60–70% range even before a leak adds to it, those spores can begin colonizing wet drywall, insulation, and wood framing in as little as 24 to 48 hours. That's not a scare tactic — it's why restoration professionals talk about drying time in hours, not days.
+Mold spores are already present in every home. They're dormant until they have three things: a surface, warmth, and moisture. In North Texas, where summer humidity sits in the 60–70% range even before a leak adds to it, those spores can begin colonizing wet drywall, insulation, and wood framing in as little as 24 to 48 hours. That's not a scare tactic, it's why restoration professionals talk about drying time in hours, not days.
 
 Beyond mold, standing water degrades materials fast. Hardwood floors begin to cup and buckle within hours. Drywall paper delaminates. Subfloor OSB swells and loses structural integrity. The longer water sits, the more of the structure becomes a tear-out rather than a dry-out.
 
@@ -31,13 +31,13 @@ Beyond mold, standing water degrades materials fast. Hardwood floors begin to cu
 
 Once the water source is stopped and the power is off in affected areas, work through these steps in order:
 
-1. **Document everything before you touch it.** Walk through with your phone and take video of every affected room — walls, floors, ceilings, personal property. Shoot from multiple angles. This footage is the foundation of your insurance claim, and it's much harder to reconstruct after cleanup begins.
+1. **Document everything before you touch it.** Walk through with your phone and take video of every affected room, walls, floors, ceilings, personal property. Shoot from multiple angles. This footage is the foundation of your insurance claim, and it's much harder to reconstruct after cleanup begins.
 
 2. **Remove standing water you can safely reach.** Wet-dry vacuums, mops, and towels all work for small volumes. If there's more than an inch or two across a large area, you're past DIY territory and into pump-out equipment.
 
 3. **Move soft goods and valuables out of wet areas.** Rugs, upholstered furniture, clothing, and paper documents absorb water and become secondary damage sources. Get them out of the wet zone and into a dry space. Place aluminum foil under furniture legs that must stay in place to prevent tannin staining on wet carpet.
 
-4. **Open windows and interior doors if outdoor humidity allows.** In Texas, check the weather app before you do this — if it's 85°F and 80% humidity outside, you're not drying anything by opening windows, you're adding moisture. On a dry day, airflow helps. On a humid day, it hurts.
+4. **Open windows and interior doors if outdoor humidity allows.** In Texas, check the weather app before you do this, if it's 85°F and 80% humidity outside, you're not drying anything by opening windows, you're adding moisture. On a dry day, airflow helps. On a humid day, it hurts.
 
 5. **Call your insurance company.** Most homeowner policies require you to report a loss promptly. Get a claim number started even if you're not sure of the full extent yet. Ask specifically whether they require you to use a preferred vendor or whether you can choose your own restoration contractor.
 
@@ -51,7 +51,7 @@ Some common instincts make water damage significantly worse:
 
 - **Don't pull up wet carpet yourself to "let it dry."** The carpet pad underneath is a sponge that holds many times its weight in water. Pulling carpet without proper extraction equipment usually tears the carpet backing and doesn't meaningfully dry the subfloor beneath.
 
-- **Don't assume the damage stops where you can see it.** If the leak is behind drywall, you'll see a stain or bubbling paint — but the wet zone inside the wall cavity is almost always larger than the visible mark. Water travels along framing and insulation, pooling in low spots you can't see without a moisture meter.
+- **Don't assume the damage stops where you can see it.** If the leak is behind drywall, you'll see a stain or bubbling paint, but the wet zone inside the wall cavity is almost always larger than the visible mark. Water travels along framing and insulation, pooling in low spots you can't see without a moisture meter.
 
 - **Don't throw away damaged materials before your adjuster or a restoration contractor documents them.** Discarding materials before they're inventoried can complicate or reduce your insurance payout.
 
@@ -66,7 +66,7 @@ If any of the following are true, the situation is beyond what DIY drying can re
 - The water reached insulation inside walls or a ceiling
 - Anyone in the household has respiratory sensitivities or a compromised immune system
 
-A professional water damage restoration crew brings equipment that changes the physics of drying: truck-mounted or portable extractors that pull water out of carpet and subfloor, industrial air movers that create high-velocity airflow across wet surfaces, and refrigerant or desiccant dehumidifiers that pull extracted moisture out of the air before it reabsorbs into building materials. They'll also use a thermal hygrometer and pin-type moisture meters to map the actual wet zone — not just what's visible — and set drying goals based on the IICRC S500 standard for water damage response.
+A professional water damage restoration crew brings equipment that changes the physics of drying: truck-mounted or portable extractors that pull water out of carpet and subfloor, industrial air movers that create high-velocity airflow across wet surfaces, and refrigerant or desiccant dehumidifiers that pull extracted moisture out of the air before it reabsorbs into building materials. They'll also use a thermal hygrometer and pin-type moisture meters to map the actual wet zone, not just what's visible, and set drying goals based on the IICRC S500 standard for water damage response.
 
 The monitoring continues over several days. A reputable contractor won't pull equipment after one day and call it done; they'll return to take readings, adjust equipment placement, and confirm that materials have reached acceptable moisture levels before closing up walls.
 
@@ -84,6 +84,6 @@ Once materials are confirmed dry, the restoration phase begins. This is where th
 
 The documentation you created in the first two hours feeds directly into this phase. Your insurance adjuster will use it, your contractor will use it for scoping, and you'll use it to verify that everything that was damaged gets addressed.
 
-Water damage rarely resolves in a single day, but the decisions you make in the first 24 hours determine whether you're looking at a straightforward dry-out or a months-long mold remediation and rebuild. Acting fast — and acting correctly — is the difference between those two outcomes.
+Water damage rarely resolves in a single day, but the decisions you make in the first 24 hours determine whether you're looking at a straightforward dry-out or a months-long mold remediation and rebuild. Acting fast, and acting correctly, is the difference between those two outcomes.
 
 If you're dealing with water damage in the Royse City area and need guidance on next steps, Reign Restoration is reachable at **(214) 304-0621**. Even a short call to describe what you're seeing can help you understand what you're dealing with before committing to anything.

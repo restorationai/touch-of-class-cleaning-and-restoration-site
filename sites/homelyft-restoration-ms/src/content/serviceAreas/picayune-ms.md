@@ -19,23 +19,23 @@ state: "MS"
 primary: false
 rendered: true
 ---
-When a pipe bursts under a pier-and-beam floor or a slow roof leak finally saturates the insulation in a Picayune home, the clock starts immediately. HomeLyft Restoration MS handles water damage mitigation, mold remediation, fire and smoke cleanup, and full reconstruction for homeowners and property managers throughout Picayune and Pearl River County — coordinating directly with insurance carriers so you're not managing the paperwork alone while your house is still wet.
+When a pipe bursts under a pier-and-beam floor or a slow roof leak finally saturates the insulation in a Picayune home, the clock starts immediately. HomeLyft Restoration MS handles water damage mitigation, mold remediation, fire and smoke cleanup, and full reconstruction for homeowners and property managers throughout Picayune and Pearl River County, coordinating directly with insurance carriers so you're not managing the paperwork alone while your house is still wet.
 
 ## Restoration emergencies common in Picayune
 
 Picayune sits in one of the wettest corners of Mississippi. Annual rainfall regularly exceeds 65 inches, and the city's position near the Pearl River basin means the water table is high enough that even a moderate storm can push groundwater into crawl spaces and slab edges before a drop of rain enters through the roof. The housing stock is a mix: older craftsman-style homes on the north side of town carry original wood framing that absorbs moisture quickly, while the newer subdivisions along the southern corridors often have tighter construction that traps humidity once it gets inside.
 
-Hurricane-season tropical systems — and the slow-moving bands of rain that follow them — are the most common trigger for large-loss water events here. But the everyday culprits are subtler: HVAC condensate lines that back up during long humid summers, supply-line failures under kitchen cabinets, and aging cast-iron drain stacks in homes built before 1980. Mold can begin colonizing wet drywall within 24 to 48 hours in Picayune's climate, which is why the response window matters as much as the repair itself.
+Hurricane-season tropical systems, and the slow-moving bands of rain that follow them, are the most common trigger for large-loss water events here. But the everyday culprits are subtler: HVAC condensate lines that back up during long humid summers, supply-line failures under kitchen cabinets, and aging cast-iron drain stacks in homes built before 1980. Mold can begin colonizing wet drywall within 24 to 48 hours in Picayune's climate, which is why the response window matters as much as the repair itself.
 
 ## Services we provide in Picayune
 
 ### Water damage mitigation
 
-Water damage in Picayune frequently involves more than the visible wet area. High ambient humidity slows evaporation and allows moisture to migrate laterally through wall cavities and subflooring before it's detected. Our crews use thermal imaging and moisture mapping to find the full extent of saturation, then deploy industrial air movers and dehumidifiers calibrated to the conditions inside your specific structure — not a generic drying plan.
+Water damage in Picayune frequently involves more than the visible wet area. High ambient humidity slows evaporation and allows moisture to migrate laterally through wall cavities and subflooring before it's detected. Our crews use thermal imaging and moisture mapping to find the full extent of saturation, then deploy industrial air movers and dehumidifiers calibrated to the conditions inside your specific structure, not a generic drying plan.
 
 ### Mold remediation
 
-The combination of heat, humidity, and older housing stock makes Pearl River County one of the more mold-active regions in the state. Whether the growth is isolated to a bathroom ceiling or has spread behind walls following an undetected slow leak, we contain, remove, and treat affected materials following established remediation protocols. We also identify the moisture source — because remediation without fixing the cause is a temporary fix at best.
+The combination of heat, humidity, and older housing stock makes Pearl River County one of the more mold-active regions in the state. Whether the growth is isolated to a bathroom ceiling or has spread behind walls following an undetected slow leak, we contain, remove, and treat affected materials following established remediation protocols. We also identify the moisture source, because remediation without fixing the cause is a temporary fix at best.
 
 ### Fire and smoke damage restoration
 
@@ -43,15 +43,15 @@ Smoke residue from a kitchen fire or an electrical fault doesn't stay in the roo
 
 ### Reconstruction
 
-Once mitigation is complete, many homeowners face a gap: the damage is documented and dried, but the rebuild hasn't started. HomeLyft handles reconstruction in-house — drywall, flooring, cabinetry, roofing — so you're working with one point of contact from the emergency call through the final walkthrough.
+Once mitigation is complete, many homeowners face a gap: the damage is documented and dried, but the rebuild hasn't started. HomeLyft handles reconstruction in-house, drywall, flooring, cabinetry, roofing, so you're working with one point of contact from the emergency call through the final walkthrough.
 
 ## Coverage and how fast we can get there
 
-Our Gulfport headquarters sits roughly 55 miles southeast of Picayune via I-10 West to US-11 North — a straightforward drive that keeps us in regular rotation across Pearl River County. Crews travel this corridor frequently enough that Picayune is not a distant outlier for us; it's a regular part of our service footprint. Scheduling is handled during our business hours, and we work to get an assessment on-site as promptly as the situation and drive time allow. For active water intrusion, earlier contact means a shorter drying cycle and lower overall costs — so calling as soon as you find the problem is always the right move.
+Our Gulfport headquarters sits roughly 55 miles southeast of Picayune via I-10 West to US-11 North, a straightforward drive that keeps us in regular rotation across Pearl River County. Crews travel this corridor frequently enough that Picayune is not a distant outlier for us; it's a regular part of our service footprint. Scheduling is handled during our business hours, and we work to get an assessment on-site as promptly as the situation and drive time allow. For active water intrusion, earlier contact means a shorter drying cycle and lower overall costs, so calling as soon as you find the problem is always the right move.
 
 ## Building stock, site conditions, and permits in Picayune
 
-Older Picayune homes tend to sit on pier-and-beam foundations with brick or block piers, wood floor framing, and vented crawl spaces — assemblies that hold moisture in the joists and subfloor long after the surface looks dry. Subdivision homes built from the 1970s onward are mostly slab-on-grade with brick veneer, where water wicks up through plate lines and into gypsum instead of draining away. Soils across this part of the coastal plain run sandy to sandy loam, so surface water moves fast but crawl-space grade stays damp.
+Older Picayune homes tend to sit on pier-and-beam foundations with brick or block piers, wood floor framing, and vented crawl spaces, assemblies that hold moisture in the joists and subfloor long after the surface looks dry. Subdivision homes built from the 1970s onward are mostly slab-on-grade with brick veneer, where water wicks up through plate lines and into gypsum instead of draining away. Soils across this part of the coastal plain run sandy to sandy loam, so surface water moves fast but crawl-space grade stays damp.
 
 Plan on galvanized supply and cast-iron drains in the oldest houses, polybutylene in some mid-1980s builds, plus asbestos-containing floor tile and lead paint in anything pre-1980. Structural repair or rebuild inside the city limits is permitted through the City of Picayune; outside them, Pearl River County. Work near the Pearl River may also carry flood-elevation requirements.
 

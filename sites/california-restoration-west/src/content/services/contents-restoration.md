@@ -17,17 +17,17 @@ service_slug: "contents-restoration"
 service_display: "Contents Restoration and Storage"
 rendered: true
 ---
-After a fire, flood, or sewage backup, the structure gets most of the attention — but the items inside your home are often what hurt the most to lose. Smoke odor embeds itself in upholstery within hours. Soot migrates from room to room on air currents, coating surfaces that were never near the source. Water-saturated books, electronics, and clothing begin to mold in as little as 24 to 48 hours. Contents restoration is the discipline that pulls salvageable belongings back from that edge — cleaning, deodorizing, and storing them safely while your home is being repaired.
+After a fire, flood, or sewage backup, the structure gets most of the attention, but the items inside your home are often what hurt the most to lose. Smoke odor embeds itself in upholstery within hours. Soot migrates from room to room on air currents, coating surfaces that were never near the source. Water-saturated books, electronics, and clothing begin to mold in as little as 24 to 48 hours. Contents restoration is the discipline that pulls salvageable belongings back from that edge, cleaning, deodorizing, and storing them safely while your home is being repaired.
 
 ## What contents restoration and storage actually involves
 
-Contents restoration is not wiping down shelves. It is a structured process of inventorying, transporting, cleaning, and climate-controlled storage for the personal property inside a damaged structure — furniture, clothing, artwork, electronics, documents, kitchenware, and everything in between.
+Contents restoration is not wiping down shelves. It is a structured process of inventorying, transporting, cleaning, and climate-controlled storage for the personal property inside a damaged structure, furniture, clothing, artwork, electronics, documents, kitchenware, and everything in between.
 
 The work begins at your door with a detailed pack-out: every item is photographed, catalogued, and assigned a condition code before it leaves the property. That documentation matters for your insurance claim and for tracking what goes where. Items are then transported to a controlled facility where technicians can work on them without the interference of ongoing demolition, dust, or moisture from the structure.
 
-Cleaning methods vary by material and contaminant. Ultrasonic tanks use high-frequency sound waves to lift soot and residue from hard surfaces — tools, hardware, collectibles — without abrasion. Ozone chambers and hydroxyl generators neutralize odor molecules embedded in soft goods. Dry-cleaning and wet-cleaning protocols handle textiles depending on fiber type and soil level. Electronics require their own evaluation track: corrosion from smoke acids or water intrusion can compromise a device that looks intact on the outside.
+Cleaning methods vary by material and contaminant. Ultrasonic tanks use high-frequency sound waves to lift soot and residue from hard surfaces, tools, hardware, collectibles, without abrasion. Ozone chambers and hydroxyl generators neutralize odor molecules embedded in soft goods. Dry-cleaning and wet-cleaning protocols handle textiles depending on fiber type and soil level. Electronics require their own evaluation track: corrosion from smoke acids or water intrusion can compromise a device that looks intact on the outside.
 
-Once cleaned and documented, items move into climate-controlled storage — typically a secure, temperature- and humidity-regulated warehouse — where they remain until your home is ready to receive them. The final step is pack-back: returning items to their original rooms based on the inventory record.
+Once cleaned and documented, items move into climate-controlled storage, typically a secure, temperature- and humidity-regulated warehouse, where they remain until your home is ready to receive them. The final step is pack-back: returning items to their original rooms based on the inventory record.
 
 ## Our process
 
@@ -35,7 +35,7 @@ Once cleaned and documented, items move into climate-controlled storage — typi
 
 2. **Selective pack-out.** Not everything needs to leave. Items in unaffected rooms, large furniture that can be cleaned in place, and items with no salvage value are flagged separately. Moving only what needs to move keeps costs down and reduces handling risk.
 
-3. **Specialized cleaning by material category.** Hard goods go through ultrasonic or hand-cleaning processes. Soft goods — upholstered furniture, rugs, clothing, bedding — are evaluated for fiber content and contamination level before a cleaning method is selected. Documents and photographs receive freeze-drying or air-drying treatment if water-damaged. Electronics are triaged for corrosion and sent to qualified technicians.
+3. **Specialized cleaning by material category.** Hard goods go through ultrasonic or hand-cleaning processes. Soft goods, upholstered furniture, rugs, clothing, bedding, are evaluated for fiber content and contamination level before a cleaning method is selected. Documents and photographs receive freeze-drying or air-drying treatment if water-damaged. Electronics are triaged for corrosion and sent to qualified technicians.
 
 4. **Deodorization.** Smoke odor is not a surface problem. Odor molecules penetrate porous materials and off-gas over time. Ozone treatment, hydroxyl generation, and thermal fogging are used in sequence or individually depending on the material and the severity of odor penetration.
 
@@ -43,9 +43,9 @@ Once cleaned and documented, items move into climate-controlled storage — typi
 
 ## What separates a good contents response from a bad one
 
-The most common failure in contents restoration is skipping the inventory. When items are packed without documentation, the insurance claim becomes a dispute rather than a settlement — and homeowners often discover months later that they cannot account for what was removed. A proper pack-out log, with photographs and condition codes, is not optional; it is the evidentiary record that supports every line of your personal property claim.
+The most common failure in contents restoration is skipping the inventory. When items are packed without documentation, the insurance claim becomes a dispute rather than a settlement, and homeowners often discover months later that they cannot account for what was removed. A proper pack-out log, with photographs and condition codes, is not optional; it is the evidentiary record that supports every line of your personal property claim.
 
-The second failure is treating all soot the same. Protein soot — from kitchen fires or burned organic material — is nearly invisible, oily, and extremely pungent. It does not wipe off; it smears and penetrates. Synthetic soot from burning plastics or synthetics is dry, powdery, and spreads easily through HVAC systems. Each type requires a different cleaning chemistry and sequence. Using the wrong approach can set the stain or odor permanently.
+The second failure is treating all soot the same. Protein soot, from kitchen fires or burned organic material, is nearly invisible, oily, and extremely pungent. It does not wipe off; it smears and penetrates. Synthetic soot from burning plastics or synthetics is dry, powdery, and spreads easily through HVAC systems. Each type requires a different cleaning chemistry and sequence. Using the wrong approach can set the stain or odor permanently.
 
 A third gap is electronics triage. Water and smoke both cause corrosion, but the damage is not always visible immediately. Devices that power on after a loss can fail weeks later as corrosion progresses internally. Qualified contents restorers document electronics separately and flag them for evaluation rather than simply cleaning the exterior and returning them.
 
@@ -53,7 +53,7 @@ Insurance adjusters reviewing a contents claim look for itemized inventories wit
 
 ## What does contents restoration and storage cost?
 
-Typical costs for contents restoration and storage vary significantly based on the size of the loss, the type of contaminant, and the volume of items requiring off-site cleaning and storage. Most homeowners pay somewhere in the ranges below — these are industry-typical figures, not a quote from California Restoration West.
+Typical costs for contents restoration and storage vary significantly based on the size of the loss, the type of contaminant, and the volume of items requiring off-site cleaning and storage. Most homeowners pay somewhere in the ranges below, these are industry-typical figures, not a quote from California Restoration West.
 
 | Scenario | Typical range |
 |---|---|
@@ -64,16 +64,16 @@ Typical costs for contents restoration and storage vary significantly based on t
 | Extended climate-controlled storage (per month) | $300 – $900 |
 | Document and photo recovery, small collection | $400 – $1,800 |
 
-Every loss is different, and California Restoration West provides a written scope of work before any work begins so there are no surprises. Homeowners insurance typically covers contents restoration and storage when the loss is caused by a covered peril — fire, smoke, and sudden water damage are the most common — and the inventory documentation generated during pack-out is what supports that portion of your claim.
+Every loss is different, and California Restoration West provides a written scope of work before any work begins so there are no surprises. Homeowners insurance typically covers contents restoration and storage when the loss is caused by a covered peril, fire, smoke, and sudden water damage are the most common, and the inventory documentation generated during pack-out is what supports that portion of your claim.
 
 ## Seasonal and regional considerations
 
-Ventura County's dry summers and Santa Ana wind events create conditions where fire losses spike — and fire-related contents damage is among the most complex to restore because smoke travels far beyond the room of origin. During wind-driven fire events, ash and fine particulate can infiltrate homes through HVAC systems and window gaps even in structures that were not directly burned, leaving a layer of soot on contents that requires professional cleaning rather than household wiping.
+Ventura County's dry summers and Santa Ana wind events create conditions where fire losses spike, and fire-related contents damage is among the most complex to restore because smoke travels far beyond the room of origin. During wind-driven fire events, ash and fine particulate can infiltrate homes through HVAC systems and window gaps even in structures that were not directly burned, leaving a layer of soot on contents that requires professional cleaning rather than household wiping.
 
 The county's mild but occasionally wet winters bring a different risk: roof leaks and plumbing failures during cold snaps can saturate contents in attics, closets, and lower floors. Items stored in garages or below-grade spaces are particularly vulnerable, and the relatively moderate temperatures mean mold colonization on saturated soft goods can begin quickly without aggressive drying and removal.
 
 ## Service area
 
-California Restoration West is based in Ventura and serves property owners throughout Ventura County and the surrounding region, including Oxnard, Camarillo, Thousand Oaks, Simi Valley, Santa Paula, Fillmore, Moorpark, and Ojai. Contents pack-out, cleaning, and storage services are available across the service area — call **(805) 290-7292** to confirm coverage for your address.
+California Restoration West is based in Ventura and serves property owners throughout Ventura County and the surrounding region, including Oxnard, Camarillo, Thousand Oaks, Simi Valley, Santa Paula, Fillmore, Moorpark, and Ojai. Contents pack-out, cleaning, and storage services are available across the service area, call **(805) 290-7292** to confirm coverage for your address.
 
-If your belongings have been exposed to fire, smoke, water, or sewage, the window for successful restoration narrows quickly. Call California Restoration West at **(805) 290-7292** to schedule your contents assessment and pack-out — available 24/7.
+If your belongings have been exposed to fire, smoke, water, or sewage, the window for successful restoration narrows quickly. Call California Restoration West at **(805) 290-7292** to schedule your contents assessment and pack-out, available 24/7.

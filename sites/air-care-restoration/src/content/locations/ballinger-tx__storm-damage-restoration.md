@@ -20,28 +20,28 @@ state: "TX"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
-West Texas storms don't announce themselves politely. In Ballinger and across Runnels County, the same wide-open geography that makes for stunning sunsets also gives severe weather an unobstructed runway — hail the size of golf balls, straight-line winds that peel back metal roofing, and fast-moving supercells that can drop a pecan tree onto a carport before the sirens finish cycling. When that happens, Air Care Restoration is available around the clock to assess the damage, secure the structure, and start the work of putting it back together.
+West Texas storms don't announce themselves politely. In Ballinger and across Runnels County, the same wide-open geography that makes for stunning sunsets also gives severe weather an unobstructed runway, hail the size of golf balls, straight-line winds that peel back metal roofing, and fast-moving supercells that can drop a pecan tree onto a carport before the sirens finish cycling. When that happens, Air Care Restoration is available around the clock to assess the damage, secure the structure, and start the work of putting it back together.
 
 ## Why Ballinger Properties See Severe Storm Damage
 
-Runnels County sits squarely in the southern edge of Tornado Alley, where Gulf moisture collides with drier air pushing down from the Panhandle. The result is a spring and early-summer storm season that produces hail, damaging winds, and occasional tornadoes with regularity. What makes Ballinger's housing stock particularly vulnerable is its age: a significant portion of homes in town were built in the mid-20th century, when roof decking was often 1×6 skip sheathing rather than continuous plywood panels. That construction style holds up fine under ordinary conditions, but when hail punches through aged three-tab shingles or wind gets under a lifted ridge cap, water finds its way into the attic cavity fast — and the open framing gives it plenty of places to spread before a single stain appears on the ceiling below.
+Runnels County sits squarely in the southern edge of Tornado Alley, where Gulf moisture collides with drier air pushing down from the Panhandle. The result is a spring and early-summer storm season that produces hail, damaging winds, and occasional tornadoes with regularity. What makes Ballinger's housing stock particularly vulnerable is its age: a significant portion of homes in town were built in the mid-20th century, when roof decking was often 1×6 skip sheathing rather than continuous plywood panels. That construction style holds up fine under ordinary conditions, but when hail punches through aged three-tab shingles or wind gets under a lifted ridge cap, water finds its way into the attic cavity fast, and the open framing gives it plenty of places to spread before a single stain appears on the ceiling below.
 
 Masonry construction is common here too. Older brick-veneer homes can look untouched after a storm while concealing cracked mortar joints that now channel water into the wall cavity. A surface inspection alone won't catch that. Moisture mapping with thermal imaging and calibrated meters is the only reliable way to know what's actually wet.
 
 ## Our Storm Damage Restoration Process in Ballinger
 
-Every job starts with a systematic damage assessment — roof, exterior envelope, attic, and interior — before any work begins. We photograph and document everything in a format that insurance adjusters can work from directly, which matters because incomplete documentation is the most common reason storm claims get delayed or underpaid in Texas.
+Every job starts with a systematic damage assessment, roof, exterior envelope, attic, and interior, before any work begins. We photograph and document everything in a format that insurance adjusters can work from directly, which matters because incomplete documentation is the most common reason storm claims get delayed or underpaid in Texas.
 
 From there, the process follows the scope of damage:
 
-- **Emergency stabilization** — tarping compromised roof sections, boarding broken windows or doors, and removing any immediate hazards like hanging tree limbs or downed fascia.
-- **Water intrusion control** — if rain entered the structure, we extract standing water, deploy drying equipment, and monitor moisture levels daily until the affected materials reach their dry standard. Our team is IICRC certified, and drying is managed to the IICRC S500 standard.
-- **Structural and finish repairs** — once the structure is dry and stable, we move into the rebuild phase: roof decking, sheathing, drywall, insulation, and interior finishes as needed.
-- **Final documentation** — a close-out report with before-and-after moisture readings and photo documentation for your insurance file.
+- **Emergency stabilization**, tarping compromised roof sections, boarding broken windows or doors, and removing any immediate hazards like hanging tree limbs or downed fascia.
+- **Water intrusion control**, if rain entered the structure, we extract standing water, deploy drying equipment, and monitor moisture levels daily until the affected materials reach their dry standard. Our team is IICRC certified, and drying is managed to the IICRC S500 standard.
+- **Structural and finish repairs**, once the structure is dry and stable, we move into the rebuild phase: roof decking, sheathing, drywall, insulation, and interior finishes as needed.
+- **Final documentation**, a close-out report with before-and-after moisture readings and photo documentation for your insurance file.
 
 ## Reaching Ballinger from Abilene
 
-Air Care Restoration is based in Abilene, and Ballinger sits roughly 60 miles to the southeast via US-83 — a straightforward drive on a clear day, and one our crews make regularly for jobs across Runnels County. Because we operate 24/7, a call at 2 a.m. after a storm rolls through gets the same response as a call at noon. We don't subcontract emergency response to a third party; the crew that answers the call does the work.
+Air Care Restoration is based in Abilene, and Ballinger sits roughly 60 miles to the southeast via US-83, a straightforward drive on a clear day, and one our crews make regularly for jobs across Runnels County. Because we operate 24/7, a call at 2 a.m. after a storm rolls through gets the same response as a call at noon. We don't subcontract emergency response to a third party; the crew that answers the call does the work.
 
 ## Ballinger Insurance Coordination
 
@@ -51,6 +51,6 @@ If your carrier requires a licensed public adjuster or a specific inspection pro
 
 ## Local Note
 
-One thing worth knowing about storm response in Ballinger specifically: the area's heavy clay soils — the same Vertisols that dominate much of central Runnels County — expand significantly when saturated and shrink back when dry. After a major rain event, it's common to see homes experience minor foundation movement within days of the storm, which can cause doors to stick, small cracks to open at window corners, or existing hairline cracks in brick veneer to widen. These signs are often mistaken for storm damage when they're actually soil-driven movement, or vice versa. We note both in our assessment so your adjuster has an accurate picture and you're not left arguing over what the storm caused versus what the ground did.
+One thing worth knowing about storm response in Ballinger specifically: the area's heavy clay soils, the same Vertisols that dominate much of central Runnels County, expand significantly when saturated and shrink back when dry. After a major rain event, it's common to see homes experience minor foundation movement within days of the storm, which can cause doors to stick, small cracks to open at window corners, or existing hairline cracks in brick veneer to widen. These signs are often mistaken for storm damage when they're actually soil-driven movement, or vice versa. We note both in our assessment so your adjuster has an accurate picture and you're not left arguing over what the storm caused versus what the ground did.
 
 If your home or property in Ballinger took a hit from severe weather, call Air Care Restoration at (325) 339-8723. We'll get eyes on the damage, secure what needs securing, and walk you through every step from emergency response to final repair.

@@ -17,13 +17,13 @@ published_at: "2026-07-15"
 services: ["water-damage-restoration", "fire-damage-restoration", "mold-remediation"]
 rendered: true
 ---
-The fastest way to get burned after a disaster isn't the fire itself — it's hiring the wrong restoration company while you're still in shock. When a pipe bursts at 2 a.m. or smoke has settled into every surface of your home, the pressure to hire *someone* fast is real. But a few deliberate checks — most of which take less than ten minutes — can be the difference between a clean recovery and a months-long dispute with a contractor who disappeared after cashing your insurance check.
+The fastest way to get burned after a disaster isn't the fire itself, it's hiring the wrong restoration company while you're still in shock. When a pipe bursts at 2 a.m. or smoke has settled into every surface of your home, the pressure to hire *someone* fast is real. But a few deliberate checks, most of which take less than ten minutes, can be the difference between a clean recovery and a months-long dispute with a contractor who disappeared after cashing your insurance check.
 
 ## What Makes Restoration Different From Regular Contracting
 
-Restoration work isn't remodeling. A general contractor rebuilds what's already dry and stable. A restoration company is hired to stop active damage, document losses for your insurer, and return a structure to a safe, pre-loss condition — often while moisture, soot, or microbial growth is still spreading.
+Restoration work isn't remodeling. A general contractor rebuilds what's already dry and stable. A restoration company is hired to stop active damage, document losses for your insurer, and return a structure to a safe, pre-loss condition, often while moisture, soot, or microbial growth is still spreading.
 
-That distinction matters when you're vetting someone. A licensed general contractor with a good Yelp rating is not automatically qualified to dry out a flooded crawlspace, map smoke migration through an HVAC system, or contain a mold colony without cross-contaminating the rest of your house. Each of those jobs follows specific industry protocols — the IICRC S500 for water damage, the S520 for mold, the S700 for fire and smoke — and requires equipment most remodelers don't own: industrial desiccant dehumidifiers, thermal imaging cameras, hydroxyl generators, negative air machines.
+That distinction matters when you're vetting someone. A licensed general contractor with a good Yelp rating is not automatically qualified to dry out a flooded crawlspace, map smoke migration through an HVAC system, or contain a mold colony without cross-contaminating the rest of your house. Each of those jobs follows specific industry protocols, the IICRC S500 for water damage, the S520 for mold, the S700 for fire and smoke, and requires equipment most remodelers don't own: industrial desiccant dehumidifiers, thermal imaging cameras, hydroxyl generators, negative air machines.
 
 When you're interviewing a company, ask directly: *Which IICRC standards will you follow on this job?* A qualified technician will answer without hesitation. Vague answers like "industry best practices" are a flag worth noting.
 
@@ -35,39 +35,39 @@ These apply whether you're dealing with water damage from a burst supply line, s
 
 2. **Confirm they carry general liability and workers' comp.** Ask for a certificate of insurance naming you as an additional insured for the duration of the project. If a technician is injured in your home and the company has no workers' comp, you could be liable.
 
-3. **Ask how they document the loss.** Reputable restoration companies photograph and measure everything before demolition begins — moisture readings, affected square footage, material types. That documentation is what your insurance adjuster uses to approve the claim. If a company wants to start tearing out drywall before they've documented anything, slow down.
+3. **Ask how they document the loss.** Reputable restoration companies photograph and measure everything before demolition begins, moisture readings, affected square footage, material types. That documentation is what your insurance adjuster uses to approve the claim. If a company wants to start tearing out drywall before they've documented anything, slow down.
 
 4. **Understand who does the actual work.** Some restoration franchises dispatch certified project managers but subcontract the physical labor to crews that vary in training and equipment. Ask whether the technicians arriving at your door are employees of the company or third-party subs, and whether those subs carry their own insurance.
 
-5. **Read the authorization form before you sign it.** The document you sign at intake — sometimes called a Work Authorization or Direction to Pay — can include clauses that assign your insurance benefits directly to the contractor, limit your ability to dispute charges, or authorize scope expansions without additional approval. Read it. If a company pressures you to sign before you've read it, that pressure itself is information.
+5. **Read the authorization form before you sign it.** The document you sign at intake, sometimes called a Work Authorization or Direction to Pay, can include clauses that assign your insurance benefits directly to the contractor, limit your ability to dispute charges, or authorize scope expansions without additional approval. Read it. If a company pressures you to sign before you've read it, that pressure itself is information.
 
 ## Red Flags That Show Up in the First Phone Call
 
 You can learn a lot before anyone sets foot on your property.
 
 - **They quote a price before seeing the damage.** Legitimate restoration scopes are written after a physical inspection and moisture mapping, not over the phone. A flat-rate quote for water damage or mold remediation before any assessment is almost always a low-ball number that expands dramatically once work begins.
-- **They discourage you from calling your insurance company.** Some contractors prefer to work outside insurance because it lets them set their own pricing. That may or may not be in your interest — but the decision should be yours, not theirs.
+- **They discourage you from calling your insurance company.** Some contractors prefer to work outside insurance because it lets them set their own pricing. That may or may not be in your interest, but the decision should be yours, not theirs.
 - **They can't name the drying standard or remediation protocol they'll follow.** This is the single clearest signal of technical competence. Ask it.
-- **They push you to sign immediately because "the damage is getting worse."** Active water damage does get worse over time — mold can begin colonizing porous materials within 24 to 48 hours in Las Vegas's dry heat if moisture is trapped in wall cavities. That's a real fact. But it's also a sales tactic. A legitimate company will explain the urgency clearly without manufacturing panic.
+- **They push you to sign immediately because "the damage is getting worse."** Active water damage does get worse over time, mold can begin colonizing porous materials within 24 to 48 hours in Las Vegas's dry heat if moisture is trapped in wall cavities. That's a real fact. But it's also a sales tactic. A legitimate company will explain the urgency clearly without manufacturing panic.
 
 ## How to Handle the Insurance Side Without Getting Caught in the Middle
 
 Your insurance company and your restoration contractor will have different interests, and you are the one who has to manage the relationship between them.
 
-Call your insurer first — before work begins if possible, or immediately after emergency stabilization if the situation required immediate action. Get a claim number. From that point forward, document every conversation: who you spoke with, when, and what was said.
+Call your insurer first, before work begins if possible, or immediately after emergency stabilization if the situation required immediate action. Get a claim number. From that point forward, document every conversation: who you spoke with, when, and what was said.
 
-A good restoration company will communicate directly with your adjuster and provide the documentation the adjuster needs — moisture logs, photos, scope of work, drying reports. They should not, however, be the only channel of communication between you and your insurance company. Stay involved. Review the scope of work your insurer approves and compare it to what the contractor is proposing. Gaps between those two documents are where disputes start.
+A good restoration company will communicate directly with your adjuster and provide the documentation the adjuster needs, moisture logs, photos, scope of work, drying reports. They should not, however, be the only channel of communication between you and your insurance company. Stay involved. Review the scope of work your insurer approves and compare it to what the contractor is proposing. Gaps between those two documents are where disputes start.
 
-If your insurer disputes a line item in the contractor's estimate, ask the contractor to provide the technical justification — the moisture readings, the industry drying-protocol reference, the equipment log. A contractor who can't or won't provide that documentation is a contractor whose estimate may not hold up.
+If your insurer disputes a line item in the contractor's estimate, ask the contractor to provide the technical justification, the moisture readings, the industry drying-protocol reference, the equipment log. A contractor who can't or won't provide that documentation is a contractor whose estimate may not hold up.
 
 ## What the Recovery Timeline Actually Looks Like
 
 Expectations matter. Restoration is not fast, and anyone who tells you otherwise is either describing a very minor loss or setting you up for disappointment.
 
-- **Water damage:** Structural drying typically takes 3 to 5 days for a contained loss, longer if materials like hardwood subfloor or dense insulation are involved. Reconstruction — replacing drywall, flooring, cabinetry — begins only after drying is verified with final moisture readings. Total timeline from loss to move-back can range from two weeks for a minor bathroom leak to several months for a significant flood.
+- **Water damage:** Structural drying typically takes 3 to 5 days for a contained loss, longer if materials like hardwood subfloor or dense insulation are involved. Reconstruction, replacing drywall, flooring, cabinetry, begins only after drying is verified with final moisture readings. Total timeline from loss to move-back can range from two weeks for a minor bathroom leak to several months for a significant flood.
 - **Fire and smoke damage:** Smoke migrates. It follows air pathways into walls, ductwork, and closets far from the visible burn area. Effective smoke remediation requires identifying that migration path, not just cleaning the surfaces you can see. Odor that returns weeks after cleaning is almost always a sign that smoke residue in a hidden cavity was missed.
-- **Mold remediation:** A proper remediation includes containment, HEPA filtration, removal of affected materials, and post-remediation verification — typically a clearance test performed by a third party, not the same company that did the work. If a contractor offers to skip the clearance test to save you money, decline.
+- **Mold remediation:** A proper remediation includes containment, HEPA filtration, removal of affected materials, and post-remediation verification, typically a clearance test performed by a third party, not the same company that did the work. If a contractor offers to skip the clearance test to save you money, decline.
 
 ## When You're Ready to Make a Call
 
-If you're dealing with active water damage, smoke damage, or a mold discovery in the Las Vegas area, PuroClean of East Las Vegas handles all three. You can reach them at (702) 551-3040. When you call, ask the questions above — any company worth hiring will welcome them.
+If you're dealing with active water damage, smoke damage, or a mold discovery in the Las Vegas area, PuroClean of East Las Vegas handles all three. You can reach them at (702) 551-3040. When you call, ask the questions above, any company worth hiring will welcome them.

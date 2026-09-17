@@ -20,31 +20,31 @@ state: "WA"
 service_display: "Soot Removal"
 rendered: true
 ---
-The acrid smell of smoke hanging in your living room. Gray-black smears on the walls, ceiling trim, and every surface you touch. If a fire — even a small one — has moved through part of your Renton home or commercial property, soot residue is already working against you. It's acidic, it etches surfaces within hours, and it travels through HVAC systems into rooms that never saw a flame. The faster soot cleaning begins, the more of your property survives intact.
+The acrid smell of smoke hanging in your living room. Gray-black smears on the walls, ceiling trim, and every surface you touch. If a fire, even a small one, has moved through part of your Renton home or commercial property, soot residue is already working against you. It's acidic, it etches surfaces within hours, and it travels through HVAC systems into rooms that never saw a flame. The faster soot cleaning begins, the more of your property survives intact.
 
-National Restoration Construction has handled post-fire soot cleanup across the greater Seattle area since 2004. Our crews are IICRC Certified and operate under WA State Department of Labor & Industries General Contractor license #NATIORC792M6. When you reach us at (206) 883-0333, you're not waiting on a call center — you're getting a dispatch decision within minutes.
+National Restoration Construction has handled post-fire soot cleanup across the greater Seattle area since 2004. Our crews are IICRC Certified and operate under WA State Department of Labor & Industries General Contractor license #NATIORC792M6. When you reach us at (206) 883-0333, you're not waiting on a call center, you're getting a dispatch decision within minutes.
 
 ## How Fast We Reach Renton
 
-Our Federal Way headquarters puts us roughly 15 miles south of Renton via I-405 or SR-167. Under normal traffic conditions, most Renton addresses see a technician on-site within 60 to 90 minutes of your call. Properties closer to the southern end of the city — near the Valley Medical Center corridor or along Rainier Avenue South — can be even quicker. Neighborhoods in the Highlands or near Newcastle tend to add a few minutes depending on time of day, but we're still talking the same hour window in most cases.
+Our Federal Way headquarters puts us roughly 15 miles south of Renton via I-405 or SR-167. Under normal traffic conditions, most Renton addresses see a technician on-site within 60 to 90 minutes of your call. Properties closer to the southern end of the city, near the Valley Medical Center corridor or along Rainier Avenue South, can be even quicker. Neighborhoods in the Highlands or near Newcastle tend to add a few minutes depending on time of day, but we're still talking the same hour window in most cases.
 
-We don't treat soot damage cleanup as a next-day appointment. Soot residue is chemically active: the oily, protein-based residue from a kitchen grease fire behaves differently than the dry, powdery residue from burning wood or synthetic materials, but both begin permanently staining porous surfaces — drywall, grout, unfinished wood — within 24 to 72 hours. Speed is not a selling point; it's the difference between restoration and replacement.
+We don't treat soot damage cleanup as a next-day appointment. Soot residue is chemically active: the oily, protein-based residue from a kitchen grease fire behaves differently than the dry, powdery residue from burning wood or synthetic materials, but both begin permanently staining porous surfaces, drywall, grout, unfinished wood, within 24 to 72 hours. Speed is not a selling point; it's the difference between restoration and replacement.
 
 ## Why Renton Homes Are Particularly Vulnerable
 
-Renton's housing stock skews older in many neighborhoods — Kennydale, Earlington, and the downtown core all have a significant share of mid-century construction with original wood framing, plaster walls, and older HVAC systems. These materials are more porous than modern drywall and absorb soot residue more aggressively, which means soot wall cleaning requires more careful chemical selection to avoid driving residue deeper into the substrate.
+Renton's housing stock skews older in many neighborhoods, Kennydale, Earlington, and the downtown core all have a significant share of mid-century construction with original wood framing, plaster walls, and older HVAC systems. These materials are more porous than modern drywall and absorb soot residue more aggressively, which means soot wall cleaning requires more careful chemical selection to avoid driving residue deeper into the substrate.
 
-The Pacific Northwest's damp climate adds a layer of complexity. When wet weather follows a fire event — not uncommon in Renton from October through April — moisture combines with soot particles to form a sticky, corrosive film that is significantly harder to remove than dry soot alone. Homes with crawl spaces, which are common in this region, can also draw soot-laden air downward through gaps in flooring, contaminating areas well outside the fire's origin point.
+The Pacific Northwest's damp climate adds a layer of complexity. When wet weather follows a fire event, not uncommon in Renton from October through April, moisture combines with soot particles to form a sticky, corrosive film that is significantly harder to remove than dry soot alone. Homes with crawl spaces, which are common in this region, can also draw soot-laden air downward through gaps in flooring, contaminating areas well outside the fire's origin point.
 
 ## Our Soot Removal Process in Renton
 
-Every job starts with a room-by-room scope assessment before a single cleaning product is applied. Soot residue removal is not a one-product job — using the wrong agent on the wrong surface type can permanently set staining rather than lift it.
+Every job starts with a room-by-room scope assessment before a single cleaning product is applied. Soot residue removal is not a one-product job, using the wrong agent on the wrong surface type can permanently set staining rather than lift it.
 
 From there, the process typically follows this sequence:
 
 **1. Containment and air scrubbing.** We establish negative air pressure in affected zones using HEPA-filtered air scrubbers to prevent soot particles from migrating to unaffected areas while we work.
 
-**2. Dry soot removal first.** Loose soot is vacuumed with HEPA-rated equipment before any wet cleaning begins. Wiping dry soot with a wet cloth is one of the most common mistakes homeowners make — it smears residue into the surface and multiplies the damage.
+**2. Dry soot removal first.** Loose soot is vacuumed with HEPA-rated equipment before any wet cleaning begins. Wiping dry soot with a wet cloth is one of the most common mistakes homeowners make, it smears residue into the surface and multiplies the damage.
 
 **3. Surface-specific wet cleaning.** Painted walls, ceilings, cabinetry, and hard surfaces each get the appropriate chemical solvents and agitation methods. Porous materials like unsealed brick or unfinished wood may require additional treatments or, in severe cases, controlled removal.
 
@@ -54,12 +54,12 @@ From there, the process typically follows this sequence:
 
 ## Navigating the Insurance Claim
 
-Fire and smoke damage — including soot damage cleanup — is covered under most standard homeowners and commercial property policies. What we handle on our end: detailed line-item documentation of affected areas and materials, photo evidence packages formatted to meet adjuster requirements, and direct communication with your insurance carrier throughout the process.
+Fire and smoke damage, including soot damage cleanup, is covered under most standard homeowners and commercial property policies. What we handle on our end: detailed line-item documentation of affected areas and materials, photo evidence packages formatted to meet adjuster requirements, and direct communication with your insurance carrier throughout the process.
 
-What you'll need to do: contact your insurer to open a claim and get a claim number before or shortly after we arrive. You do not need to wait for an adjuster to visit before mitigation begins — in fact, most policies require that you take reasonable steps to prevent further damage promptly. We can walk you through that conversation if it's your first time filing a claim.
+What you'll need to do: contact your insurer to open a claim and get a claim number before or shortly after we arrive. You do not need to wait for an adjuster to visit before mitigation begins, in fact, most policies require that you take reasonable steps to prevent further damage promptly. We can walk you through that conversation if it's your first time filing a claim.
 
 National Restoration Construction works with all major carriers and has since our founding. We're also a BBB Accredited business and an EPA Certified and Lead-Safe Certified Firm, which matters on older Renton properties where lead paint may be present in the affected areas.
 
 ---
 
-If you're standing in a smoke-damaged room right now, the most important thing you can do is stop touching the walls and reach us at **(206) 883-0333**. The sooner the assessment starts, the more options you have — and the lower your out-of-pocket exposure tends to be. We're available around the clock.
+If you're standing in a smoke-damaged room right now, the most important thing you can do is stop touching the walls and reach us at **(206) 883-0333**. The sooner the assessment starts, the more options you have, and the lower your out-of-pocket exposure tends to be. We're available around the clock.

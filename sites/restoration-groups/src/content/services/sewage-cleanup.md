@@ -17,53 +17,53 @@ service_slug: "sewage-cleanup"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
-When a sewer line backs up or a septic system overflows, what comes up with the water is classified as Category 3 — the most contaminated water class in restoration. It carries bacteria, viruses, and parasites that can colonize porous building materials within hours. The smell hits first, usually a sharp sulfur-and-ammonia combination that seeps into drywall and subfloor long after the visible waste is gone. Standard wet-vac extraction and a bottle of bleach won't reach what's already migrating into the structure. That's the job this service exists to do.
+When a sewer line backs up or a septic system overflows, what comes up with the water is classified as Category 3, the most contaminated water class in restoration. It carries bacteria, viruses, and parasites that can colonize porous building materials within hours. The smell hits first, usually a sharp sulfur-and-ammonia combination that seeps into drywall and subfloor long after the visible waste is gone. Standard wet-vac extraction and a bottle of bleach won't reach what's already migrating into the structure. That's the job this service exists to do.
 
 ## What sewage cleanup and sanitization actually involves
 
-Sewage events are not water damage events with extra steps — they require a fundamentally different response from the first minute on-site. The contamination is biological, not just physical, which means every surface the waste contacted (and several it didn't visibly reach) must be treated as a biohazard until testing or protocol confirms otherwise.
+Sewage events are not water damage events with extra steps, they require a fundamentally different response from the first minute on-site. The contamination is biological, not just physical, which means every surface the waste contacted (and several it didn't visibly reach) must be treated as a biohazard until testing or protocol confirms otherwise.
 
-The work involves removing all standing sewage and saturated material, then addressing what's absorbed into structural components. Drywall that wicked Category 3 water even a few inches up from the floor is typically cut and removed — not dried in place. Subfloor panels, insulation batts, and carpet padding are almost always non-salvageable. Once the compromised material is out, the remaining structure is treated with EPA-registered antimicrobial agents applied by sprayer and fogger to reach cavities and voids that hands can't.
+The work involves removing all standing sewage and saturated material, then addressing what's absorbed into structural components. Drywall that wicked Category 3 water even a few inches up from the floor is typically cut and removed, not dried in place. Subfloor panels, insulation batts, and carpet padding are almost always non-salvageable. Once the compromised material is out, the remaining structure is treated with EPA-registered antimicrobial agents applied by sprayer and fogger to reach cavities and voids that hands can't.
 
-Timeline matters here more than in most restoration scenarios. Fecal coliform bacteria can begin colonizing porous surfaces in as little as 24 hours under normal indoor conditions. In a New Jersey basement in July — where ambient humidity often runs above 70% — that window is shorter. A response that starts the following business day is not a fast response for this category of loss.
+Timeline matters here more than in most restoration scenarios. Fecal coliform bacteria can begin colonizing porous surfaces in as little as 24 hours under normal indoor conditions. In a New Jersey basement in July, where ambient humidity often runs above 70%, that window is shorter. A response that starts the following business day is not a fast response for this category of loss.
 
 The Restoration Group operates 24/7 and holds IICRC Certified Firm status (#210213), which means the technicians arriving at 2 a.m. are following the same S500 and BSR/IICRC S540 protocols as a daytime crew.
 
 ## Our process
 
 **1. Containment and PPE staging**
-Before any equipment enters the affected area, technicians establish a contamination perimeter. This protects unaffected rooms from cross-contamination on boots and equipment. Full PPE — Tyvek suits, N95 or P100 respirators, nitrile gloves — is staged and donned before entering the loss area.
+Before any equipment enters the affected area, technicians establish a contamination perimeter. This protects unaffected rooms from cross-contamination on boots and equipment. Full PPE, Tyvek suits, N95 or P100 respirators, nitrile gloves, is staged and donned before entering the loss area.
 
 **2. Sewage extraction and gross waste removal**
-Truck-mounted or portable extractors remove standing sewage. Solid waste is bagged and staged for disposal per EPA guidelines. This step is not complete when the floor looks dry — Category 3 water moves laterally under flooring and into wall cavities faster than it evaporates.
+Truck-mounted or portable extractors remove standing sewage. Solid waste is bagged and staged for disposal per EPA guidelines. This step is not complete when the floor looks dry, Category 3 water moves laterally under flooring and into wall cavities faster than it evaporates.
 
 **3. Contaminated material demolition**
 Any porous material that absorbed sewage-contaminated water is removed: drywall to a minimum of 12 inches above the visible water line (often higher), carpet and pad, insulation, and compromised subfloor panels. Material is double-bagged and removed from the structure before sanitization begins.
 
 **4. EPA-registered antimicrobial application**
-With the structure open, surfaces are treated with hospital-grade antimicrobial agents — typically a quaternary ammonium compound or chlorine dioxide solution depending on substrate — applied by electrostatic sprayer or fogger to ensure penetration into seams, fastener holes, and framing voids. Dwell time is observed per the product label before any drying equipment is placed.
+With the structure open, surfaces are treated with hospital-grade antimicrobial agents, typically a quaternary ammonium compound or chlorine dioxide solution depending on substrate, applied by electrostatic sprayer or fogger to ensure penetration into seams, fastener holes, and framing voids. Dwell time is observed per the product label before any drying equipment is placed.
 
 **5. Structural drying and clearance**
 Once sanitization is complete, commercial air movers and dehumidifiers are deployed to bring structural moisture readings into the dry standard. Moisture readings are logged daily. The area is not released for reconstruction until readings confirm the structure is within normal range and no biological indicators remain.
 
 ## What separates a good sewage response from a bad one
 
-The most common failure in sewage cleanup is treating it like a water damage job. Technicians who skip demolition and attempt to dry Category 3-saturated drywall in place are leaving active biological contamination inside the wall cavity. It won't smell immediately — but within weeks, the odor returns, and so does the remediation cost.
+The most common failure in sewage cleanup is treating it like a water damage job. Technicians who skip demolition and attempt to dry Category 3-saturated drywall in place are leaving active biological contamination inside the wall cavity. It won't smell immediately, but within weeks, the odor returns, and so does the remediation cost.
 
 A second common gap is incomplete extraction under flooring. Sewage migrates under vinyl plank, hardwood, and tile faster than it's visible at the surface. Moisture meters and thermal imaging cameras should be used at every job to map the actual contamination boundary, not just the visible wet area.
 
 Insurance adjusters reviewing sewage claims look specifically for documentation of the Category 3 designation, the water line height on affected walls, photo evidence of material removal, and the antimicrobial product name and application method. A well-documented sewage claim moves faster and with fewer disputes than one where the scope of demolition isn't clearly justified in the file.
 
-As a NJ Licensed Home Improvement Contractor, The Restoration Group can carry the project from emergency response through reconstruction under a single scope — which matters when adjusters are comparing line items.
+As a NJ Licensed Home Improvement Contractor, The Restoration Group can carry the project from emergency response through reconstruction under a single scope, which matters when adjusters are comparing line items.
 
 ## Seasonal and regional considerations
 
-North and central New Jersey's sewer infrastructure is aging in ways that create predictable risk windows. Heavy spring rainfall — particularly the sustained events that come through the region in March and April — overwhelms combined sewer systems and drives backups into basement floor drains and laundry tubs. Frozen ground in January and February prevents absorption and accelerates surface runoff into the same systems. Homes in older Kenilworth neighborhoods, Union County, and parts of Essex County with clay-pipe laterals are especially vulnerable to root intrusion that compounds during wet seasons.
+North and central New Jersey's sewer infrastructure is aging in ways that create predictable risk windows. Heavy spring rainfall, particularly the sustained events that come through the region in March and April, overwhelms combined sewer systems and drives backups into basement floor drains and laundry tubs. Frozen ground in January and February prevents absorption and accelerates surface runoff into the same systems. Homes in older Kenilworth neighborhoods, Union County, and parts of Essex County with clay-pipe laterals are especially vulnerable to root intrusion that compounds during wet seasons.
 
-Septic systems in the more suburban and semi-rural areas west of Kenilworth — parts of Morris and Somerset counties — face overflow risk during prolonged saturation events when drain fields can't accept effluent.
+Septic systems in the more suburban and semi-rural areas west of Kenilworth, parts of Morris and Somerset counties, face overflow risk during prolonged saturation events when drain fields can't accept effluent.
 
 ## Service area
 
 The Restoration Group is based in Kenilworth, NJ and responds to sewage backup and septic overflow calls throughout Union County, Essex County, Middlesex County, and surrounding areas. City-specific pages for Kenilworth, Elizabeth, Linden, Summit, Westfield, and neighboring communities link back to this page for full service detail.
 
-If you're standing in a basement that smells like a sewer line failed, call (908) 970-8533 now. Technicians are available around the clock — the sooner extraction begins, the less structural material has to come out.
+If you're standing in a basement that smells like a sewer line failed, call (908) 970-8533 now. Technicians are available around the clock, the sooner extraction begins, the less structural material has to come out.

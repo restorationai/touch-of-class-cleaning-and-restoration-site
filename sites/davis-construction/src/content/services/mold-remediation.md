@@ -17,43 +17,43 @@ service_slug: "mold-remediation"
 service_display: "Mold Remediation"
 rendered: true
 ---
-You noticed the smell first — that damp, earthy mustiness that doesn't go away after you open the windows. Then came the dark staining along the baseboard, or the fuzzy growth behind the bathroom vanity you only spotted because a pipe started dripping. Mold doesn't wait for a convenient time to appear, and in Madison's humid summers it can colonize drywall, insulation, and wood framing within 24 to 48 hours of a moisture event. The goal of mold remediation isn't just scrubbing visible growth — it's eliminating the conditions that let it come back.
+You noticed the smell first, that damp, earthy mustiness that doesn't go away after you open the windows. Then came the dark staining along the baseboard, or the fuzzy growth behind the bathroom vanity you only spotted because a pipe started dripping. Mold doesn't wait for a convenient time to appear, and in Madison's humid summers it can colonize drywall, insulation, and wood framing within 24 to 48 hours of a moisture event. The goal of mold remediation isn't just scrubbing visible growth, it's eliminating the conditions that let it come back.
 
 ## What mold remediation actually involves
 
-Mold remediation is a controlled demolition and decontamination process, not a surface cleaning. A technician who wipes down visible mold without addressing the moisture source or the spore load in the air is leaving the problem intact. Real remediation means physically removing contaminated materials — drywall, insulation, subflooring, framing when necessary — under negative air pressure so disturbed spores don't migrate to clean areas of the structure.
+Mold remediation is a controlled demolition and decontamination process, not a surface cleaning. A technician who wipes down visible mold without addressing the moisture source or the spore load in the air is leaving the problem intact. Real remediation means physically removing contaminated materials, drywall, insulation, subflooring, framing when necessary, under negative air pressure so disturbed spores don't migrate to clean areas of the structure.
 
 Equipment on a legitimate mold job includes HEPA-filtered air scrubbers running continuously inside containment zones, industrial dehumidifiers pulling moisture out of the building envelope, and personal protective equipment appropriate to the contamination level. Depending on the extent of growth, a job can run from a single day for a contained bathroom intrusion to two weeks or more for a crawl space or basement that's been wet through multiple seasons.
 
-Post-remediation clearance testing — air sampling and surface sampling performed after the work is done and before reconstruction begins — is the only objective way to confirm the space is ready for rebuild. Any contractor who skips that step is guessing.
+Post-remediation clearance testing, air sampling and surface sampling performed after the work is done and before reconstruction begins, is the only objective way to confirm the space is ready for rebuild. Any contractor who skips that step is guessing.
 
 ## Our process
 
 1. **Initial assessment and moisture mapping.** Before containment goes up, we identify every moisture source feeding the growth. This includes thermal imaging and moisture meters on walls, ceilings, and floors. Mold you can see is rarely the full picture; the colony behind the wall is usually larger than the stain on the surface.
 
-2. **Containment and negative air pressure.** We seal affected areas with poly sheeting and establish negative air pressure using HEPA air scrubbers exhausted to the exterior. This prevents cross-contamination — spores disturbed during removal stay inside the work zone, not in your HVAC system or adjacent rooms.
+2. **Containment and negative air pressure.** We seal affected areas with poly sheeting and establish negative air pressure using HEPA air scrubbers exhausted to the exterior. This prevents cross-contamination, spores disturbed during removal stay inside the work zone, not in your HVAC system or adjacent rooms.
 
-3. **Controlled removal of contaminated materials.** Porous materials with active mold growth — drywall, insulation, carpet, wood with surface penetration — are bagged inside containment and removed. Non-porous surfaces are cleaned with EPA-registered antimicrobial agents and HEPA-vacuumed. We document everything removed with photos for your insurance file.
+3. **Controlled removal of contaminated materials.** Porous materials with active mold growth, drywall, insulation, carpet, wood with surface penetration, are bagged inside containment and removed. Non-porous surfaces are cleaned with EPA-registered antimicrobial agents and HEPA-vacuumed. We document everything removed with photos for your insurance file.
 
 4. **Structural drying and treatment.** After removal, exposed framing and cavities are dried to target moisture levels and treated with an encapsulant or antimicrobial coating where appropriate. We don't rebuild over wet wood.
 
-5. **Clearance testing and documentation.** Independent air sampling confirms spore counts have returned to normal background levels before we close the walls. You receive a written clearance report — something your insurance adjuster, future buyer, or property manager can actually rely on.
+5. **Clearance testing and documentation.** Independent air sampling confirms spore counts have returned to normal background levels before we close the walls. You receive a written clearance report, something your insurance adjuster, future buyer, or property manager can actually rely on.
 
 ## What separates a good mold response from a bad one
 
-The most common failure point is incomplete moisture source correction. A crew can remove every visible colony in a crawl space, but if the vapor barrier is still compromised or the gutters are still directing water toward the foundation, mold returns within a season. Good remediation identifies and corrects the source — or at minimum documents it clearly so the homeowner knows what repair needs to follow.
+The most common failure point is incomplete moisture source correction. A crew can remove every visible colony in a crawl space, but if the vapor barrier is still compromised or the gutters are still directing water toward the foundation, mold returns within a season. Good remediation identifies and corrects the source, or at minimum documents it clearly so the homeowner knows what repair needs to follow.
 
-The second failure is inadequate containment. Mold spores are microscopic. A plastic sheet taped loosely over a doorway is not containment. Without negative air pressure and properly sealed barriers, remediation work can spread spores to previously clean areas of the home, including ductwork — which creates a secondary remediation problem that's expensive to address.
+The second failure is inadequate containment. Mold spores are microscopic. A plastic sheet taped loosely over a doorway is not containment. Without negative air pressure and properly sealed barriers, remediation work can spread spores to previously clean areas of the home, including ductwork, which creates a secondary remediation problem that's expensive to address.
 
 Insurance adjusters increasingly look for S520-compliant documentation: a written scope of work, pre- and post-remediation air sampling results, moisture readings at the start and close of the job, and a materials removal log. Jobs that lack this paper trail are harder to close and more likely to be disputed.
 
-Finally, watch for contractors who recommend fogging or chemical treatment as a standalone solution. Biocides applied to active mold growth without physical removal of contaminated materials are not remediation — they're cosmetic. The EPA's own guidance is explicit on this point.
+Finally, watch for contractors who recommend fogging or chemical treatment as a standalone solution. Biocides applied to active mold growth without physical removal of contaminated materials are not remediation, they're cosmetic. The EPA's own guidance is explicit on this point.
 
 ## Seasonal and regional considerations
 
-North Alabama's climate creates a long mold season. Relative humidity in the Madison area regularly exceeds 70% from April through October, and the combination of warm summers and older housing stock — slab foundations, pier-and-beam crawl spaces, and brick veneer construction common in established neighborhoods — creates conditions where minor moisture intrusions become significant mold events faster than they would in drier climates.
+North Alabama's climate creates a long mold season. Relative humidity in the Madison area regularly exceeds 70% from April through October, and the combination of warm summers and older housing stock, slab foundations, pier-and-beam crawl spaces, and brick veneer construction common in established neighborhoods, creates conditions where minor moisture intrusions become significant mold events faster than they would in drier climates.
 
-Crawl spaces are the most common problem site in this region. Vapor drive pushes ground moisture upward through unsealed crawl spaces, and without adequate ventilation or encapsulation, wood floor joists and subfloor sheathing can sustain mold growth for years before a homeowner notices it. Fall is also a common discovery season — when HVAC systems switch from cooling to heating, the change in airflow patterns sometimes carries a musty smell into living areas for the first time.
+Crawl spaces are the most common problem site in this region. Vapor drive pushes ground moisture upward through unsealed crawl spaces, and without adequate ventilation or encapsulation, wood floor joists and subfloor sheathing can sustain mold growth for years before a homeowner notices it. Fall is also a common discovery season, when HVAC systems switch from cooling to heating, the change in airflow patterns sometimes carries a musty smell into living areas for the first time.
 
 ## Service area
 

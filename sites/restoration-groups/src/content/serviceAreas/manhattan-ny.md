@@ -19,25 +19,25 @@ state: "NY"
 primary: false
 rendered: true
 ---
-Managing property damage in Manhattan is nothing like handling it in the suburbs. The Restoration Group responds to water, fire, mold, and biohazard losses across the borough — from pre-war co-ops on the Upper East Side to glass-tower condos in Midtown — working inside the building protocols, board requirements, and tight logistics that Manhattan properties demand. Call us any time at (908) 970-8533.
+Managing property damage in Manhattan is nothing like handling it in the suburbs. The Restoration Group responds to water, fire, mold, and biohazard losses across the borough, from pre-war co-ops on the Upper East Side to glass-tower condos in Midtown, working inside the building protocols, board requirements, and tight logistics that Manhattan properties demand. Call us any time at (908) 970-8533.
 
 ## Restoration emergencies common in Manhattan
 
-Manhattan losses are almost always vertical. When a radiator valve fails on the 14th floor of a pre-war building in the Upper West Side, the water doesn't spread outward — it travels down through plaster ceilings, elevator shafts, and electrical chases, soaking a dozen units before anyone finds the source. Washing-machine hoses in converted loft buildings, aging cast-iron risers in ZIP codes like 10021 and 10025, and corroded supply lines behind kitchen walls are among the most common culprits.
+Manhattan losses are almost always vertical. When a radiator valve fails on the 14th floor of a pre-war building in the Upper West Side, the water doesn't spread outward, it travels down through plaster ceilings, elevator shafts, and electrical chases, soaking a dozen units before anyone finds the source. Washing-machine hoses in converted loft buildings, aging cast-iron risers in ZIP codes like 10021 and 10025, and corroded supply lines behind kitchen walls are among the most common culprits.
 
-Climate compounds the problem. Manhattan sits on an island with a high water table, aging combined sewer infrastructure, and a coastline that proved catastrophically vulnerable when Hurricane Sandy pushed surge water through the Financial District and the Lower East Side. More recently, the remnants of Hurricane Ida overwhelmed street drains from Harlem to Chelsea, sending water into basements, retail spaces, and ground-floor apartments faster than sump systems could handle it. Summers bring humidity that accelerates mold colonization — in a closed unit, visible growth can appear within 48 to 72 hours of a water event.
+Climate compounds the problem. Manhattan sits on an island with a high water table, aging combined sewer infrastructure, and a coastline that proved catastrophically vulnerable when Hurricane Sandy pushed surge water through the Financial District and the Lower East Side. More recently, the remnants of Hurricane Ida overwhelmed street drains from Harlem to Chelsea, sending water into basements, retail spaces, and ground-floor apartments faster than sump systems could handle it. Summers bring humidity that accelerates mold colonization, in a closed unit, visible growth can appear within 48 to 72 hours of a water event.
 
-Buildings here also run on process. Resident managers, co-op boards, and managing agents expect certificates of insurance before work begins, unit-by-unit moisture logs for board review, and after-hours freight-elevator coordination so remediation crews aren't disrupting residents during peak hours. That's not red tape — it's how responsible building management works, and we operate inside those rules.
+Buildings here also run on process. Resident managers, co-op boards, and managing agents expect certificates of insurance before work begins, unit-by-unit moisture logs for board review, and after-hours freight-elevator coordination so remediation crews aren't disrupting residents during peak hours. That's not red tape, it's how responsible building management works, and we operate inside those rules.
 
 ## Services we provide in Manhattan
 
 ### Water damage mitigation
 
-Water damage in Manhattan most often originates above the affected unit — a failed appliance hose, an overflowing tub, or a burst riser two floors up. We trace the moisture path with thermal imaging and calibrated meters, extract standing water, and set drying equipment sized for the square footage and material density of the affected space. Every job produces a moisture log documenting daily readings by unit, which building managers can submit to their board or insurance adjuster.
+Water damage in Manhattan most often originates above the affected unit, a failed appliance hose, an overflowing tub, or a burst riser two floors up. We trace the moisture path with thermal imaging and calibrated meters, extract standing water, and set drying equipment sized for the square footage and material density of the affected space. Every job produces a moisture log documenting daily readings by unit, which building managers can submit to their board or insurance adjuster.
 
 ### Fire and smoke damage restoration
 
-A kitchen fire in a Midtown high-rise creates smoke and soot conditions that travel through HVAC systems and shared corridors well beyond the unit of origin. We assess the full spread of smoke residue, clean affected surfaces using methods appropriate to the material — painted plaster, exposed brick, stainless steel — and address odor at the source rather than masking it. For commercial spaces near Grand Central Terminal or the Empire State Building corridor, we schedule heavy work overnight to minimize business interruption.
+A kitchen fire in a Midtown high-rise creates smoke and soot conditions that travel through HVAC systems and shared corridors well beyond the unit of origin. We assess the full spread of smoke residue, clean affected surfaces using methods appropriate to the material, painted plaster, exposed brick, stainless steel, and address odor at the source rather than masking it. For commercial spaces near Grand Central Terminal or the Empire State Building corridor, we schedule heavy work overnight to minimize business interruption.
 
 ### Mold remediation
 
@@ -49,18 +49,18 @@ Restaurants, offices, and retail spaces from Chelsea to the Financial District (
 
 ### Reconstruction
 
-Once mitigation is complete, we handle the rebuild — drywall, flooring, millwork, and finish work — so property owners aren't managing two separate contractors. For co-op units, we document scope before work begins and can provide board-required work authorization packages.
+Once mitigation is complete, we handle the rebuild, drywall, flooring, millwork, and finish work, so property owners aren't managing two separate contractors. For co-op units, we document scope before work begins and can provide board-required work authorization packages.
 
 ## Coverage and how fast we can get there
 
-Our Kenilworth, NJ headquarters puts us roughly 12 to 15 miles from Midtown Manhattan via the Lincoln Tunnel or George Washington Bridge, depending on the destination. The Financial District and Lower East Side are accessible via the Holland Tunnel. We serve the full borough — Upper East Side, Upper West Side, Harlem, Chelsea, Midtown, Lower East Side, and the Financial District — and because we operate 24/7, we can dispatch at any hour. Traffic and tunnel conditions affect arrival times, and we don't quote specific minute windows, but we stay in contact from the moment you call so you know exactly where the crew is.
+Our Kenilworth, NJ headquarters puts us roughly 12 to 15 miles from Midtown Manhattan via the Lincoln Tunnel or George Washington Bridge, depending on the destination. The Financial District and Lower East Side are accessible via the Holland Tunnel. We serve the full borough, Upper East Side, Upper West Side, Harlem, Chelsea, Midtown, Lower East Side, and the Financial District, and because we operate 24/7, we can dispatch at any hour. Traffic and tunnel conditions affect arrival times, and we don't quote specific minute windows, but we stay in contact from the moment you call so you know exactly where the crew is.
 
 ## Building stock, site conditions, and permits in Manhattan
 
-Much of Manhattan's residential stock predates 1940, and that vintage dictates the scope. Pre-war walls are plaster over wood or metal lath, often with terra cotta block partitions, and both hold water long after the surface feels dry — drilling and cavity drying usually beats demolition in a co-op. Steam heat means cast-iron radiators and risers, and the pipe insulation wrapped around old steam lines is a common asbestos concern, just as paint under 1978 layers is a lead concern. Cast-iron drain stacks and galvanized supply lines fail from the inside out.
+Much of Manhattan's residential stock predates 1940, and that vintage dictates the scope. Pre-war walls are plaster over wood or metal lath, often with terra cotta block partitions, and both hold water long after the surface feels dry, drilling and cavity drying usually beats demolition in a co-op. Steam heat means cast-iron radiators and risers, and the pipe insulation wrapped around old steam lines is a common asbestos concern, just as paint under 1978 layers is a lead concern. Cast-iron drain stacks and galvanized supply lines fail from the inside out.
 
-There are no crawlspaces or slabs here — buildings sit in cellars cut into schist bedrock, so groundwater and sewer backup collect at the lowest level.
+There are no crawlspaces or slabs here, buildings sit in cellars cut into schist bedrock, so groundwater and sewer backup collect at the lowest level.
 
 Structural repair and reconstruction permits come from the NYC Department of Buildings, plumbing work requires a licensed master plumber, and buildings in historic districts add Landmarks review on top of the board's alteration agreement.
 
-If you're dealing with a loss anywhere in Manhattan — whether it's a soaked ceiling in a Chelsea loft or smoke damage in a Financial District office — call The Restoration Group at (908) 970-8533. We're available around the clock and ready to work within your building's rules from the first hour on-site.
+If you're dealing with a loss anywhere in Manhattan, whether it's a soaked ceiling in a Chelsea loft or smoke damage in a Financial District office, call The Restoration Group at (908) 970-8533. We're available around the clock and ready to work within your building's rules from the first hour on-site.

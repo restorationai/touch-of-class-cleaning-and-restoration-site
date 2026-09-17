@@ -17,32 +17,32 @@ published_at: "2026-07-13"
 services: ["water-damage-restoration", "appliance-leak-cleanup"]
 rendered: true
 ---
-When a pipe bursts, the first two minutes matter more than the next two hours. Shut off your home's main water supply valve immediately — it's usually near the water meter, in a basement, crawlspace, or utility closet. Then cut power to any rooms where water is pooling near outlets or panels. Those two steps stop the damage from compounding while you work through everything else on this checklist.
+When a pipe bursts, the first two minutes matter more than the next two hours. Shut off your home's main water supply valve immediately, it's usually near the water meter, in a basement, crawlspace, or utility closet. Then cut power to any rooms where water is pooling near outlets or panels. Those two steps stop the damage from compounding while you work through everything else on this checklist.
 
-## Step 1 — Stop the Water and the Electricity
+## Step 1, Stop the Water and the Electricity
 
-Find your main shutoff valve and turn it clockwise until it stops. If you've never located it, now is a bad time to search — take five minutes this week to find it before any emergency happens. In most Auburn-area homes, it's in the basement near the front foundation wall, sometimes in a metal box recessed into drywall.
+Find your main shutoff valve and turn it clockwise until it stops. If you've never located it, now is a bad time to search, take five minutes this week to find it before any emergency happens. In most Auburn-area homes, it's in the basement near the front foundation wall, sometimes in a metal box recessed into drywall.
 
 Once water is off:
 
 1. Turn off electricity to affected rooms at the breaker panel. Water and live circuits are a life-safety issue, not a property issue.
 2. Open the lowest faucet in the house (a basement utility sink or outdoor hose bib) to drain residual pressure from the lines.
-3. If the burst pipe is on a supply line to an appliance — a washing machine, dishwasher, or refrigerator ice maker — also close the appliance's individual shutoff valve if one exists. Appliance supply lines fail more often than most homeowners expect, and the cleanup process for an appliance leak shares a lot of steps with a burst pipe.
+3. If the burst pipe is on a supply line to an appliance, a washing machine, dishwasher, or refrigerator ice maker, also close the appliance's individual shutoff valve if one exists. Appliance supply lines fail more often than most homeowners expect, and the cleanup process for an appliance leak shares a lot of steps with a burst pipe.
 
-## Step 2 — Document Everything Before You Touch It
+## Step 2, Document Everything Before You Touch It
 
 Insurance adjusters work from evidence. Before you move furniture, pull up rugs, or start mopping, do a full walkthrough with your phone camera.
 
 - Film a continuous video of every affected room, narrating what you see.
-- Photograph the source of the burst — the split seam, the corroded joint, the frozen section of pipe.
+- Photograph the source of the burst, the split seam, the corroded joint, the frozen section of pipe.
 - Capture standing water depth if you can (a ruler or yardstick in frame helps).
 - Get close-up shots of damaged belongings, flooring, baseboards, and drywall.
 
 Date and time stamps are automatic on most phones, but double-check your camera settings. This footage is your claim file. Adjusters can't dispute what's on video.
 
-Call your homeowner's insurance company next — not after cleanup, not tomorrow. Most policies require prompt notification, and some have language that can reduce your payout if you delay reporting. Get a claim number before any professional comes on-site.
+Call your homeowner's insurance company next, not after cleanup, not tomorrow. Most policies require prompt notification, and some have language that can reduce your payout if you delay reporting. Get a claim number before any professional comes on-site.
 
-## Step 3 — What NOT to Do
+## Step 3, What NOT to Do
 
 Panic-driven decisions in the first hour often create more damage than the burst pipe itself.
 
@@ -50,15 +50,15 @@ Panic-driven decisions in the first hour often create more damage than the burst
 
 **Don't run your HVAC system.** Forced air circulates mold spores and can push moisture into ductwork. Turn the system off and open windows if outdoor temperatures allow.
 
-**Don't assume the damage stops at what you can see.** Water travels. If the pipe burst on the second floor, check the ceiling below it. If it's behind drywall, press on the wall — a soft, spongy feel means water has already saturated the cavity. Mold can begin colonizing wet organic material in as little as 24 to 48 hours under warm conditions, so hidden moisture is not a wait-and-see problem.
+**Don't assume the damage stops at what you can see.** Water travels. If the pipe burst on the second floor, check the ceiling below it. If it's behind drywall, press on the wall, a soft, spongy feel means water has already saturated the cavity. Mold can begin colonizing wet organic material in as little as 24 to 48 hours under warm conditions, so hidden moisture is not a wait-and-see problem.
 
 **Don't discard damaged materials yet.** Soaked carpet, buckled flooring, and warped cabinets are all documentation. Your adjuster or a restoration contractor may need to inspect them before removal.
 
 **Don't use fans or space heaters to dry things out yourself** until a professional has checked for hidden moisture. Drying the surface while moisture stays trapped in wall cavities or under flooring creates ideal conditions for mold growth.
 
-## Step 4 — When to Call a Water Damage Professional
+## Step 4, When to Call a Water Damage Professional
 
-Some burst pipe situations are manageable with a plumber and a few days of careful drying. Most are not. Call a water damage restoration contractor — not just a plumber — if any of the following apply:
+Some burst pipe situations are manageable with a plumber and a few days of careful drying. Most are not. Call a water damage restoration contractor, not just a plumber, if any of the following apply:
 
 - Standing water covered more than a few square feet of floor.
 - Water reached finished drywall, insulation, hardwood, or engineered flooring.
@@ -66,21 +66,21 @@ Some burst pipe situations are manageable with a plumber and a few days of caref
 - The affected area includes a bathroom, laundry room, or kitchen where moisture can wick into cabinetry and subfloor layers.
 - You can smell anything musty within 24–48 hours of the event.
 
-A restoration contractor brings truck-mounted extraction equipment, industrial air movers, and desiccant or refrigerant dehumidifiers — tools that pull moisture from structural materials, not just surfaces. They also use thermal imaging cameras and moisture meters to map where water actually traveled, which is rarely where it looks like it went.
+A restoration contractor brings truck-mounted extraction equipment, industrial air movers, and desiccant or refrigerant dehumidifiers, tools that pull moisture from structural materials, not just surfaces. They also use thermal imaging cameras and moisture meters to map where water actually traveled, which is rarely where it looks like it went.
 
-Professional drying typically follows the IICRC S500 standard, a technical framework that specifies drying goals based on material type and ambient conditions. Reaching those targets — not just "feeling dry" — is what separates a properly restored structure from one that develops mold problems six months later.
+Professional drying typically follows the IICRC S500 standard, a technical framework that specifies drying goals based on material type and ambient conditions. Reaching those targets, not just "feeling dry", is what separates a properly restored structure from one that develops mold problems six months later.
 
 If you're in the Auburn area and the damage is significant, Quality Contracting, Inc. handles both water damage restoration and appliance leak cleanup. Reach them at (508) 756-8800.
 
-## Step 5 — The Longer Recovery: What Happens After the Water Is Gone
+## Step 5, The Longer Recovery: What Happens After the Water Is Gone
 
 Extraction and drying are the beginning, not the end. Here's what the recovery timeline typically looks like:
 
 **Days 1–3: Extraction and drying setup.** Professionals extract standing water, remove unsalvageable materials (saturated drywall, carpet padding), and set drying equipment. Expect loud fans and dehumidifiers running continuously.
 
-**Days 3–5: Monitoring.** Moisture readings are taken daily. Equipment is adjusted or repositioned. A good contractor will share these readings with you — they're also useful documentation for your insurance claim.
+**Days 3–5: Monitoring.** Moisture readings are taken daily. Equipment is adjusted or repositioned. A good contractor will share these readings with you, they're also useful documentation for your insurance claim.
 
-**Days 5–7+: Clearance.** Once materials reach target moisture levels, equipment is removed and the space is cleared for reconstruction. In Massachusetts, if your home was built before 1978, any drywall or plaster removal in affected areas may trigger lead paint protocols — your contractor should be aware of this.
+**Days 5–7+: Clearance.** Once materials reach target moisture levels, equipment is removed and the space is cleared for reconstruction. In Massachusetts, if your home was built before 1978, any drywall or plaster removal in affected areas may trigger lead paint protocols, your contractor should be aware of this.
 
 **Reconstruction:** Drywall, insulation, flooring, and paint are replaced. This phase can take days to weeks depending on scope. Some restoration contractors handle reconstruction in-house; others hand off to a separate GC. Clarify this before work begins so you don't end up coordinating two separate contractors mid-project.
 
@@ -88,4 +88,4 @@ Throughout all of this, keep a written log: dates, who was on-site, what was don
 
 ---
 
-A burst pipe is one of those events that feels chaotic for the first hour and then becomes a project — one with a clear process and a predictable end. The homeowners who come through it with the least stress are the ones who stopped the water fast, documented thoroughly, and called for professional help before trying to dry things out themselves. If you're in the middle of it right now, work the checklist above and get a restoration professional on the phone. The sooner moisture is properly extracted, the more of your home — and your claim — you protect.
+A burst pipe is one of those events that feels chaotic for the first hour and then becomes a project, one with a clear process and a predictable end. The homeowners who come through it with the least stress are the ones who stopped the water fast, documented thoroughly, and called for professional help before trying to dry things out themselves. If you're in the middle of it right now, work the checklist above and get a restoration professional on the phone. The sooner moisture is properly extracted, the more of your home, and your claim, you protect.

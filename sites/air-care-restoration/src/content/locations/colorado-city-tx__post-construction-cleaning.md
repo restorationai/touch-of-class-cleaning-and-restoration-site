@@ -20,41 +20,41 @@ state: "TX"
 service_display: "Post-Construction and Specialty Cleaning"
 rendered: true
 ---
-Colorado City sits in the heart of West Texas, where construction dust doesn't just settle — it migrates. The region's persistent winds push fine particulate matter into every gap left by a renovation or new build, coating surfaces that weren't even part of the project. Whether you're finishing out a home near Lake Colorado City or wrapping up a commercial remodel on the east side of Mitchell County, the cleanup phase deserves the same attention as the build itself. Air Care Restoration brings structured post-construction cleaning to Colorado City properties, handling everything from initial debris removal to the final white-glove pass.
+Colorado City sits in the heart of West Texas, where construction dust doesn't just settle, it migrates. The region's persistent winds push fine particulate matter into every gap left by a renovation or new build, coating surfaces that weren't even part of the project. Whether you're finishing out a home near Lake Colorado City or wrapping up a commercial remodel on the east side of Mitchell County, the cleanup phase deserves the same attention as the build itself. Air Care Restoration brings structured post-construction cleaning to Colorado City properties, handling everything from initial debris removal to the final white-glove pass.
 
 ## Why Colorado City Properties See Unique Post-Construction Cleaning Challenges
 
-Mitchell County's climate creates conditions that complicate construction cleanup in ways that aren't obvious until you're standing inside a freshly framed structure. Summer temperatures regularly push past 100°F, which causes adhesives, caulks, and sealants to off-gas more aggressively — leaving a film on glass, tile, and cabinetry that standard wiping won't cut. In the cooler months, temperature swings between day and night can cause construction dust to settle into HVAC systems and then circulate the moment heat kicks on.
+Mitchell County's climate creates conditions that complicate construction cleanup in ways that aren't obvious until you're standing inside a freshly framed structure. Summer temperatures regularly push past 100°F, which causes adhesives, caulks, and sealants to off-gas more aggressively, leaving a film on glass, tile, and cabinetry that standard wiping won't cut. In the cooler months, temperature swings between day and night can cause construction dust to settle into HVAC systems and then circulate the moment heat kicks on.
 
-The region's soil composition — a mix of caliche and red clay common across this part of the Rolling Plains — means tracked-in material is particularly abrasive and staining. On hard flooring, caliche dust acts like fine sandpaper if it isn't removed properly before the first foot traffic. Older structures in Colorado City, many of which were built with pier-and-beam foundations common to mid-century West Texas construction, can also trap debris in crawl spaces and sub-floor cavities that a standard broom-and-vacuum crew will miss entirely.
+The region's soil composition, a mix of caliche and red clay common across this part of the Rolling Plains, means tracked-in material is particularly abrasive and staining. On hard flooring, caliche dust acts like fine sandpaper if it isn't removed properly before the first foot traffic. Older structures in Colorado City, many of which were built with pier-and-beam foundations common to mid-century West Texas construction, can also trap debris in crawl spaces and sub-floor cavities that a standard broom-and-vacuum crew will miss entirely.
 
 ## Our Post-Construction and Specialty Cleaning Process in Colorado City
 
-Every post-construction clean starts with a walk-through to assess what trades have been through the space and what they've left behind. Drywall dust, grout haze, paint overspray, adhesive residue, and construction debris each require a different approach — lumping them into one pass produces a result that looks clean under work lights but fails inspection in daylight.
+Every post-construction clean starts with a walk-through to assess what trades have been through the space and what they've left behind. Drywall dust, grout haze, paint overspray, adhesive residue, and construction debris each require a different approach, lumping them into one pass produces a result that looks clean under work lights but fails inspection in daylight.
 
 The sequence matters:
 
-1. **Rough clean** — bulk debris removal, sweeping, and HEPA vacuuming of all surfaces including window sills, door frames, and cabinet interiors.
-2. **Detail clean** — grout haze removal from tile, adhesive lift from hard floors, streak-free glass cleaning, and wipe-down of all fixtures and hardware.
-3. **Final clean** — a second HEPA pass of all horizontal surfaces, interior window cleaning, and a check of every vent and return-air grille for construction dust accumulation.
-4. **Specialty services** — pressure washing of exterior concrete, floor scrubbing, and post-renovation odor treatment when off-gassing materials have left the space with a chemical smell.
+1. **Rough clean**, bulk debris removal, sweeping, and HEPA vacuuming of all surfaces including window sills, door frames, and cabinet interiors.
+2. **Detail clean**, grout haze removal from tile, adhesive lift from hard floors, streak-free glass cleaning, and wipe-down of all fixtures and hardware.
+3. **Final clean**, a second HEPA pass of all horizontal surfaces, interior window cleaning, and a check of every vent and return-air grille for construction dust accumulation.
+4. **Specialty services**, pressure washing of exterior concrete, floor scrubbing, and post-renovation odor treatment when off-gassing materials have left the space with a chemical smell.
 
-For projects where EPA Renovation, Repair, and Painting rule protocols apply — a real consideration in Colorado City homes built before 1978 — the cleaning process follows containment and disposal requirements consistent with our owner's EPA Certified Renovator credentials.
+For projects where EPA Renovation, Repair, and Painting rule protocols apply, a real consideration in Colorado City homes built before 1978, the cleaning process follows containment and disposal requirements consistent with our owner's EPA Certified Renovator credentials.
 
 ## Reaching Colorado City from Abilene
 
-Air Care Restoration is based in Abilene, and Colorado City is a straightforward run west on I-20 — roughly 90 miles with no complicated routing. Because we operate 24/7, scheduling around your contractor's punch-list timeline is workable regardless of when the final trades clear the site. We coordinate directly with general contractors and project managers so the cleaning crew arrives when the space is actually ready, not before the last subcontractor has packed up.
+Air Care Restoration is based in Abilene, and Colorado City is a straightforward run west on I-20, roughly 90 miles with no complicated routing. Because we operate 24/7, scheduling around your contractor's punch-list timeline is workable regardless of when the final trades clear the site. We coordinate directly with general contractors and project managers so the cleaning crew arrives when the space is actually ready, not before the last subcontractor has packed up.
 
 For larger commercial projects in Mitchell County, we can stage equipment at the site to avoid repeated round trips, which keeps the project on schedule without adding mobilization delays.
 
 ## Equipment and Methods We Use for Post-Construction Cleaning
 
-Construction environments demand more than janitorial-grade tools. We use HEPA-filtered vacuums rated for fine particulate capture, which matters when drywall compound dust is involved — standard shop vacs recirculate the finest particles back into the air. For floor surfaces, we use low-moisture scrubbing equipment calibrated to the floor type, whether that's polished concrete, luxury vinyl plank, or ceramic tile.
+Construction environments demand more than janitorial-grade tools. We use HEPA-filtered vacuums rated for fine particulate capture, which matters when drywall compound dust is involved, standard shop vacs recirculate the finest particles back into the air. For floor surfaces, we use low-moisture scrubbing equipment calibrated to the floor type, whether that's polished concrete, luxury vinyl plank, or ceramic tile.
 
 For post-renovation odor treatment, we deploy hydroxyl generators or thermal fogging depending on the source. Newly installed cabinets and flooring in a sealed West Texas home can hold VOC odors for weeks without intervention; addressing it at the final clean stage prevents callbacks after the client moves in.
 
 ## Local Note
 
-One thing that catches out-of-area crews working in Colorado City: the caliche dust that accumulates on exterior concrete flatwork during a build will harden into a near-cement bond if it gets wet and dries in place — which happens fast in the West Texas sun. Pressure washing after the fact requires significantly more dwell time with the right chemistry than a crew accustomed to Houston or DFW conditions would expect. Knowing this ahead of time means we arrive with the right equipment and realistic time estimates, rather than discovering the problem mid-job.
+One thing that catches out-of-area crews working in Colorado City: the caliche dust that accumulates on exterior concrete flatwork during a build will harden into a near-cement bond if it gets wet and dries in place, which happens fast in the West Texas sun. Pressure washing after the fact requires significantly more dwell time with the right chemistry than a crew accustomed to Houston or DFW conditions would expect. Knowing this ahead of time means we arrive with the right equipment and realistic time estimates, rather than discovering the problem mid-job.
 
-Call Air Care Restoration at (325) 339-8723 to schedule your post-construction or specialty clean in Colorado City. Whether it's a single-family renovation or a multi-phase commercial buildout in Mitchell County, we'll leave the space ready for occupancy — not just ready for a second look.
+Call Air Care Restoration at (325) 339-8723 to schedule your post-construction or specialty clean in Colorado City. Whether it's a single-family renovation or a multi-phase commercial buildout in Mitchell County, we'll leave the space ready for occupancy, not just ready for a second look.

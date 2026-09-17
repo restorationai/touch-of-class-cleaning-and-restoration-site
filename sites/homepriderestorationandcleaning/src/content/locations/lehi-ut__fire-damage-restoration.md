@@ -20,15 +20,15 @@ state: "UT"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-When a fire tears through a Lehi home — whether it starts in a garage workshop off Traverse Ridge Road or in a kitchen in one of the newer subdivisions along 2100 North — the damage doesn't stop when the flames do. Smoke migrates through HVAC systems within hours, soot embeds itself in drywall and insulation, and the water left behind by fire suppression begins its own cycle of destruction. Home Pride Restoration and Cleaning has been working through exactly these scenarios since 1997, and our crews reach most Lehi addresses within 60–90 minutes of your call.
+When a fire tears through a Lehi home, whether it starts in a garage workshop off Traverse Ridge Road or in a kitchen in one of the newer subdivisions along 2100 North, the damage doesn't stop when the flames do. Smoke migrates through HVAC systems within hours, soot embeds itself in drywall and insulation, and the water left behind by fire suppression begins its own cycle of destruction. Home Pride Restoration and Cleaning has been working through exactly these scenarios since 1997, and our crews reach most Lehi addresses within 60–90 minutes of your call.
 
 ## Why Lehi Properties Face Distinct Fire Damage Challenges
 
-Lehi's growth over the past two decades has produced an unusually mixed housing stock. Established neighborhoods near Main Street include homes built in the 1960s and 1970s with original wood-framed walls, older electrical panels, and in some cases knob-and-tube wiring that hasn't been fully replaced — all of which influence how fire spreads and how smoke moves through a structure. Meanwhile, the large planned communities that have gone up since 2005 along the Silicon Slopes corridor are built tight: high-efficiency building envelopes trap smoke odor more stubbornly than older, leakier construction.
+Lehi's growth over the past two decades has produced an unusually mixed housing stock. Established neighborhoods near Main Street include homes built in the 1960s and 1970s with original wood-framed walls, older electrical panels, and in some cases knob-and-tube wiring that hasn't been fully replaced, all of which influence how fire spreads and how smoke moves through a structure. Meanwhile, the large planned communities that have gone up since 2005 along the Silicon Slopes corridor are built tight: high-efficiency building envelopes trap smoke odor more stubbornly than older, leakier construction.
 
-Lehi's semi-arid climate adds another layer. The low relative humidity — often below 20% in summer — means char and soot dry and bond to surfaces faster than in wetter climates. That sounds like it would help, but it actually makes odor-locking compounds harder to lift and increases the risk of fine particulate migration deeper into porous materials before a crew arrives.
+Lehi's semi-arid climate adds another layer. The low relative humidity, often below 20% in summer, means char and soot dry and bond to surfaces faster than in wetter climates. That sounds like it would help, but it actually makes odor-locking compounds harder to lift and increases the risk of fine particulate migration deeper into porous materials before a crew arrives.
 
-Utah County also enforces the International Building Code with local amendments. Any structural fire damage that affects load-bearing elements, roof sheathing, or the building envelope typically requires a permit and inspection through Lehi City before reconstruction can close out. We pull those permits and coordinate inspections as part of the job — it's not an add-on.
+Utah County also enforces the International Building Code with local amendments. Any structural fire damage that affects load-bearing elements, roof sheathing, or the building envelope typically requires a permit and inspection through Lehi City before reconstruction can close out. We pull those permits and coordinate inspections as part of the job, it's not an add-on.
 
 ## Our Fire Damage Restoration Process in Lehi
 
@@ -36,26 +36,26 @@ The first hour on-site is documentation and containment. Technicians photograph 
 
 **Board-up and structural stabilization.** If the fire compromised windows, doors, or roof sections, we secure the structure before any cleaning begins. Lehi winters can drop below 10°F, and an unsecured opening after a November fire compounds damage fast.
 
-**Dry-out of fire-suppression water.** Firefighting water soaks subfloors and wall cavities. We deploy commercial desiccant dehumidifiers and air movers calibrated to Utah's low ambient humidity — the drying math is different here than in a coastal market.
+**Dry-out of fire-suppression water.** Firefighting water soaks subfloors and wall cavities. We deploy commercial desiccant dehumidifiers and air movers calibrated to Utah's low ambient humidity, the drying math is different here than in a coastal market.
 
 **Soot and char removal.** We use dry chemical sponges on flat surfaces first, then HEPA vacuuming, then wet cleaning with pH-adjusted solutions matched to the surface type. Older homes near the historic downtown core sometimes have plaster ceilings that require gentler chemistry than modern drywall.
 
 **Odor neutralization.** Thermal fogging and hydroxyl generation run simultaneously in most Lehi jobs. Smoke odor in a tight, energy-efficient home can take 48–72 hours of active treatment to reach acceptable levels.
 
-**Reconstruction.** As an IICRC Certified contractor licensed in Utah (#RC-25-0737), we carry the work through to finished surfaces — drywall, paint, cabinetry, flooring — so you're dealing with one company, one point of contact, and one insurance file.
+**Reconstruction.** As an IICRC Certified contractor licensed in Utah (#RC-25-0737), we carry the work through to finished surfaces, drywall, paint, cabinetry, flooring, so you're dealing with one company, one point of contact, and one insurance file.
 
 ## Response Time from Our Saratoga Springs Location
 
-Home Pride's headquarters sits in Saratoga Springs, roughly 10–15 minutes from most Lehi addresses via Redwood Road or Triumph Boulevard depending on traffic. For properties in the zip code 84043 — which covers a large portion of central and eastern Lehi — our average drive time is under 20 minutes. Homes further east toward the Traverse Mountain area add a few minutes on SR-92, but we still target wheels-on-site within 60 minutes of your call at any hour.
+Home Pride's headquarters sits in Saratoga Springs, roughly 10–15 minutes from most Lehi addresses via Redwood Road or Triumph Boulevard depending on traffic. For properties in the zip code 84043, which covers a large portion of central and eastern Lehi, our average drive time is under 20 minutes. Homes further east toward the Traverse Mountain area add a few minutes on SR-92, but we still target wheels-on-site within 60 minutes of your call at any hour.
 
 We run 24/7 dispatch. Fires don't wait for business hours, and neither do we.
 
 ## Working with Insurance on Lehi Fire Claims
 
-Most homeowner policies in Utah County cover fire and smoke damage, but the documentation requirements vary by carrier. We work directly with adjusters — photographing damage to carrier specifications, preparing line-item Xactimate estimates, and supplementing when hidden damage surfaces during demolition. Lehi's newer HOA communities sometimes have master policies that overlap with individual unit coverage; we've navigated that coordination on jobs in several of the planned developments along the Point of the Mountain corridor and can help you identify which policy responds first.
+Most homeowner policies in Utah County cover fire and smoke damage, but the documentation requirements vary by carrier. We work directly with adjusters, photographing damage to carrier specifications, preparing line-item Xactimate estimates, and supplementing when hidden damage surfaces during demolition. Lehi's newer HOA communities sometimes have master policies that overlap with individual unit coverage; we've navigated that coordination on jobs in several of the planned developments along the Point of the Mountain corridor and can help you identify which policy responds first.
 
 ## Local Note
 
-One pattern we've noticed specifically in Lehi's newer high-density neighborhoods: the shared return-air plenums in some attached townhome and twin-home developments allow smoke to travel between units through a common HVAC chase. If your neighbor's unit had the fire, your unit may still carry significant smoke odor and soot contamination — and your insurance carrier may be involved even if your walls are intact. We've documented this exact scenario in Lehi and know how to scope it correctly so neither homeowner is left holding damage the other's policy should cover.
+One pattern we've noticed specifically in Lehi's newer high-density neighborhoods: the shared return-air plenums in some attached townhome and twin-home developments allow smoke to travel between units through a common HVAC chase. If your neighbor's unit had the fire, your unit may still carry significant smoke odor and soot contamination, and your insurance carrier may be involved even if your walls are intact. We've documented this exact scenario in Lehi and know how to scope it correctly so neither homeowner is left holding damage the other's policy should cover.
 
 If your home or a property you manage in Lehi has been through a fire, call Home Pride at (801) 995-2437. We'll have someone on-site fast, and we'll walk you through every step from that first hour of stabilization to the day you move back in.

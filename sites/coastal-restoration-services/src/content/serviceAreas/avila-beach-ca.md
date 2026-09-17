@@ -19,13 +19,13 @@ state: "CA"
 primary: false
 rendered: true
 ---
-Coastal Restoration Services Inc responds to water damage, mold, fire, and smoke emergencies for homeowners and property managers throughout Avila Beach. Whether it's a vacation rental on the bluff that woke up to a burst pipe, a commercial property near the pier dealing with storm intrusion, or a condo showing signs of long-running moisture damage behind the walls, we handle the assessment, mitigation, and reconstruction — and we work directly with insurance carriers to keep the process from falling on your shoulders.
+Coastal Restoration Services Inc responds to water damage, mold, fire, and smoke emergencies for homeowners and property managers throughout Avila Beach. Whether it's a vacation rental on the bluff that woke up to a burst pipe, a commercial property near the pier dealing with storm intrusion, or a condo showing signs of long-running moisture damage behind the walls, we handle the assessment, mitigation, and reconstruction, and we work directly with insurance carriers to keep the process from falling on your shoulders.
 
 ## Restoration emergencies common in Avila Beach
 
-Avila Beach sits at the edge of San Luis Obispo Bay, and that geography drives the damage patterns we see here. Marine air carries persistent moisture that works into wood framing, stucco cladding, and window seals over time — especially in older structures that predate modern vapor barrier standards. The town's history adds another layer: much of the current beachfront was rebuilt after the 1990s petroleum cleanup, meaning a significant portion of the housing stock is relatively recent but built on fill, which can shift and stress plumbing over the years.
+Avila Beach sits at the edge of San Luis Obispo Bay, and that geography drives the damage patterns we see here. Marine air carries persistent moisture that works into wood framing, stucco cladding, and window seals over time, especially in older structures that predate modern vapor barrier standards. The town's history adds another layer: much of the current beachfront was rebuilt after the 1990s petroleum cleanup, meaning a significant portion of the housing stock is relatively recent but built on fill, which can shift and stress plumbing over the years.
 
-Fog and onshore wind push humidity levels well above what inland San Luis Obispo County properties experience. Attics and crawl spaces that go uninspected for a single wet season can develop mold colonies before any visible staining appears on ceilings. Meanwhile, the vacation-rental concentration in Avila Beach means properties sometimes sit unoccupied during the rainy months — the worst possible scenario when a slow leak starts behind a dishwasher or under a slab.
+Fog and onshore wind push humidity levels well above what inland San Luis Obispo County properties experience. Attics and crawl spaces that go uninspected for a single wet season can develop mold colonies before any visible staining appears on ceilings. Meanwhile, the vacation-rental concentration in Avila Beach means properties sometimes sit unoccupied during the rainy months, the worst possible scenario when a slow leak starts behind a dishwasher or under a slab.
 
 Wildfire smoke from inland fires in the Los Padres foothills also reaches the coast more often than residents expect. Smoke odor embeds in soft furnishings and HVAC systems, and the fine particulates that settle on hard surfaces require more than a wipe-down to fully remove.
 
@@ -33,11 +33,11 @@ Wildfire smoke from inland fires in the Los Padres foothills also reaches the co
 
 ### Water damage mitigation
 
-Water damage in Avila Beach frequently involves the combination of an initial event — a pipe failure, appliance leak, or storm-driven intrusion — and secondary moisture that has already migrated further than the visible wet area. We use thermal imaging and moisture meters to map the full extent before any drying equipment is placed, then dry to the IICRC S500 standard. For properties on the bluff or near the waterfront, we account for the ambient humidity when calculating drying targets so equipment isn't pulled too soon.
+Water damage in Avila Beach frequently involves the combination of an initial event, a pipe failure, appliance leak, or storm-driven intrusion, and secondary moisture that has already migrated further than the visible wet area. We use thermal imaging and moisture meters to map the full extent before any drying equipment is placed, then dry to the IICRC S500 standard. For properties on the bluff or near the waterfront, we account for the ambient humidity when calculating drying targets so equipment isn't pulled too soon.
 
 ### Mold remediation
 
-The coastal climate makes Avila Beach properties genuinely higher-risk for mold than inland homes at similar price points. We contain affected areas, remove compromised materials, and treat surfaces according to EPA guidelines. We do not make health claims about what mold exposure means for any individual — that is a conversation for a physician — but we do remove the source and restore the affected structure.
+The coastal climate makes Avila Beach properties genuinely higher-risk for mold than inland homes at similar price points. We contain affected areas, remove compromised materials, and treat surfaces according to EPA guidelines. We do not make health claims about what mold exposure means for any individual, that is a conversation for a physician, but we do remove the source and restore the affected structure.
 
 ### Fire and smoke damage restoration
 
@@ -45,17 +45,17 @@ Smoke from a kitchen fire or a wildfire event doesn't stay in one room. It follo
 
 ### Reconstruction
 
-Once mitigation is complete, many properties need structural repairs — framing, drywall, flooring, cabinetry. We handle reconstruction in-house so property owners are not left coordinating a separate contractor after the mitigation crew leaves.
+Once mitigation is complete, many properties need structural repairs, framing, drywall, flooring, cabinetry. We handle reconstruction in-house so property owners are not left coordinating a separate contractor after the mitigation crew leaves.
 
 ## Coverage and how fast we can get there
 
-Our headquarters is in Vandenberg Village, roughly 35 miles north of Avila Beach via US-101 South. The drive runs through Santa Maria and San Luis Obispo before dropping down to the coast — typically under an hour in normal traffic conditions. We serve all of Avila Beach and the surrounding San Luis Obispo County coastal corridor, including properties accessed via Cave Landing Road and the Avila Beach Drive corridor.
+Our headquarters is in Vandenberg Village, roughly 35 miles north of Avila Beach via US-101 South. The drive runs through Santa Maria and San Luis Obispo before dropping down to the coast, typically under an hour in normal traffic conditions. We serve all of Avila Beach and the surrounding San Luis Obispo County coastal corridor, including properties accessed via Cave Landing Road and the Avila Beach Drive corridor.
 
-Call us at **(805) 345-7440** to confirm scheduling and current availability. We will give you an honest arrival window based on current crew location and job load — not a number pulled from a marketing page.
+Call us at **(805) 345-7440** to confirm scheduling and current availability. We will give you an honest arrival window based on current crew location and job load, not a number pulled from a marketing page.
 
 ## Building stock, site conditions, and permits in Avila Beach
 
-Avila Beach is unincorporated, so permits for structural repair, re-roofing, or rebuild come from San Luis Obispo County's building division rather than a city hall — and because the town sits inside California's coastal zone, exterior work that changes footprint or height can pull in a coastal development review on top of the building permit. Anything structural, or drywall and framing replacement past a minor patch, generally triggers a permit.
+Avila Beach is unincorporated, so permits for structural repair, re-roofing, or rebuild come from San Luis Obispo County's building division rather than a city hall, and because the town sits inside California's coastal zone, exterior work that changes footprint or height can pull in a coastal development review on top of the building permit. Anything structural, or drywall and framing replacement past a minor patch, generally triggers a permit.
 
 The older cottages here are wood-frame with stucco or wood siding over raised floors, and those crawlspaces hold marine moisture long after the leak is fixed. Expect galvanized supply and cast-iron drains in that vintage, copper in mid-century work, and PEX in newer construction. Newer slab-on-grade homes hide leaks under flooring instead, so we locate before we open anything.
 

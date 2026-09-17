@@ -17,39 +17,39 @@ service_slug: "soot-removal"
 service_display: "Soot Removal"
 rendered: true
 ---
-The smell hits before you see the damage. After a fire — even a contained one in a single room — soot migrates through HVAC systems, settles into porous surfaces, and begins chemically bonding to walls, ceilings, and contents within hours. Wiping it with a household cleaner doesn't remove it; it smears the residue deeper into drywall and grout, sets staining permanently, and spreads acidic particles that continue corroding metal fixtures and electronics long after the flames are out. Soot removal is a precision cleaning process, not a scrub-down.
+The smell hits before you see the damage. After a fire, even a contained one in a single room, soot migrates through HVAC systems, settles into porous surfaces, and begins chemically bonding to walls, ceilings, and contents within hours. Wiping it with a household cleaner doesn't remove it; it smears the residue deeper into drywall and grout, sets staining permanently, and spreads acidic particles that continue corroding metal fixtures and electronics long after the flames are out. Soot removal is a precision cleaning process, not a scrub-down.
 
 ## What soot removal actually involves
 
-Soot is not a single substance. The type of fire — wood, synthetic materials, protein (cooking), or electrical — determines the residue left behind, and each type responds differently to cleaning agents and methods. Dry soot from fast-burning wood fires brushes off with HEPA vacuuming and dry chemical sponges. Wet, oily soot from slow-smoldering synthetic materials (foam, plastics, rubber) requires alkaline degreasers and aggressive agitation. Protein residue from kitchen fires is nearly invisible but produces an overwhelming odor and bonds tightly to painted surfaces — it demands enzymatic cleaners and often a full repaint.
+Soot is not a single substance. The type of fire, wood, synthetic materials, protein (cooking), or electrical, determines the residue left behind, and each type responds differently to cleaning agents and methods. Dry soot from fast-burning wood fires brushes off with HEPA vacuuming and dry chemical sponges. Wet, oily soot from slow-smoldering synthetic materials (foam, plastics, rubber) requires alkaline degreasers and aggressive agitation. Protein residue from kitchen fires is nearly invisible but produces an overwhelming odor and bonds tightly to painted surfaces, it demands enzymatic cleaners and often a full repaint.
 
 A thorough soot cleaning job involves HEPA vacuuming all affected surfaces before any wet cleaning begins, chemical sponge wiping for dry residues, solvent or alkaline-based cleaning for oily deposits, and deodorization treatments to address the volatile organic compounds locked in the residue. Depending on the size of the affected area and soot type, a residential post-fire soot cleanup can take one to three days on-site. Larger losses with HVAC contamination take longer.
 
 ## Our process
 
-1. **Soot characterization and scope assessment** — Before any cleaning starts, the crew identifies the fire's fuel source and maps the migration pattern. Soot travels with air movement, so rooms that never saw flames can carry heavy residue near return vents. This step determines which cleaning chemistry and tools apply to each surface.
+1. **Soot characterization and scope assessment**, Before any cleaning starts, the crew identifies the fire's fuel source and maps the migration pattern. Soot travels with air movement, so rooms that never saw flames can carry heavy residue near return vents. This step determines which cleaning chemistry and tools apply to each surface.
 
-2. **HEPA vacuuming and dry residue removal** — Loose soot is removed first with commercial-grade HEPA vacuums and dry chemical sponges. Skipping this step and going straight to wet cleaning is one of the most common mistakes in soot residue removal — it turns dry particles into a permanent smear. Ceilings and wall tops are addressed before floors.
+2. **HEPA vacuuming and dry residue removal**, Loose soot is removed first with commercial-grade HEPA vacuums and dry chemical sponges. Skipping this step and going straight to wet cleaning is one of the most common mistakes in soot residue removal, it turns dry particles into a permanent smear. Ceilings and wall tops are addressed before floors.
 
-3. **Surface-specific wet cleaning** — Walls, ceilings, cabinets, and hard surfaces are cleaned with chemistry matched to the residue type. Porous materials like unsealed brick, grout, and unfinished wood may require multiple passes. Soot wall cleaning on painted drywall uses controlled moisture to avoid raising the paper face.
+3. **Surface-specific wet cleaning**, Walls, ceilings, cabinets, and hard surfaces are cleaned with chemistry matched to the residue type. Porous materials like unsealed brick, grout, and unfinished wood may require multiple passes. Soot wall cleaning on painted drywall uses controlled moisture to avoid raising the paper face.
 
-4. **Contents and structural cavity inspection** — Soot migrates into wall cavities through outlets and switch plates, into ductwork, and onto contents stored in adjacent rooms. Affected contents are documented, cleaned in place or packed out, and tracked through the process. HVAC registers and duct surfaces are inspected and cleaned if contaminated.
+4. **Contents and structural cavity inspection**, Soot migrates into wall cavities through outlets and switch plates, into ductwork, and onto contents stored in adjacent rooms. Affected contents are documented, cleaned in place or packed out, and tracked through the process. HVAC registers and duct surfaces are inspected and cleaned if contaminated.
 
-5. **Deodorization and clearance verification** — Odor-causing compounds are treated with thermal fogging or hydroxyl generation, depending on the structure. Final inspection confirms residue levels are within acceptable limits before the space is cleared for reoccupancy or reconstruction.
+5. **Deodorization and clearance verification**, Odor-causing compounds are treated with thermal fogging or hydroxyl generation, depending on the structure. Final inspection confirms residue levels are within acceptable limits before the space is cleared for reoccupancy or reconstruction.
 
 ## What separates a good soot removal response from a bad one
 
 The most common failure in post-fire soot cleanup is misidentifying the soot type and applying the wrong chemistry. Using a dry chemical sponge on wet oily soot from synthetic materials spreads the residue rather than lifting it. Applying alkaline cleaners to protein soot without enzymatic pre-treatment leaves the odor source intact even after surfaces look clean.
 
-A second frequent error is incomplete scope — cleaning visible rooms while leaving ductwork and wall cavities unaddressed. Insurance adjusters and industrial hygienists who perform post-remediation verification look specifically at duct registers, electrical boxes, and return air plenums. Residue found in those locations after a "completed" cleanup is a red flag that drives reinspection costs and delays settlement.
+A second frequent error is incomplete scope, cleaning visible rooms while leaving ductwork and wall cavities unaddressed. Insurance adjusters and industrial hygienists who perform post-remediation verification look specifically at duct registers, electrical boxes, and return air plenums. Residue found in those locations after a "completed" cleanup is a red flag that drives reinspection costs and delays settlement.
 
 Documentation matters as much as the cleaning itself. Adjusters need pre-cleaning photographs, surface readings, a cleaning log by room and material type, and post-cleaning photos. A crew that cleans without documenting leaves the homeowner without evidence to support their claim.
 
-FireDEX Butler holds license #PA001913 and operates around the clock — a soot damage cleanup that begins within hours of a fire contains the migration and limits the total affected area before acidic residue has time to etch metal hardware, discolor grout, or penetrate deeper into porous finishes.
+FireDEX Butler holds license #PA001913 and operates around the clock, a soot damage cleanup that begins within hours of a fire contains the migration and limits the total affected area before acidic residue has time to etch metal hardware, discolor grout, or penetrate deeper into porous finishes.
 
 ## Seasonal and regional considerations
 
-Western Pennsylvania winters drive a specific soot scenario: heating system failures, chimney fires, and furnace puff-backs spike between November and March. A puff-back — when an oil burner misfires and blows a cloud of oily soot through the heat exchanger and into the duct system — can coat every room in a house with a fine, greasy film in seconds. The residue is low-visibility but high-odor, and it deposits on every surface the forced-air system reaches. Cranberry Township and the surrounding Butler County communities see these calls regularly during cold snaps. Homes in older neighborhoods with cast-iron radiators are less susceptible, but the post-WWII ranch and split-level housing stock common throughout the area runs forced-air almost universally.
+Western Pennsylvania winters drive a specific soot scenario: heating system failures, chimney fires, and furnace puff-backs spike between November and March. A puff-back, when an oil burner misfires and blows a cloud of oily soot through the heat exchanger and into the duct system, can coat every room in a house with a fine, greasy film in seconds. The residue is low-visibility but high-odor, and it deposits on every surface the forced-air system reaches. Cranberry Township and the surrounding Butler County communities see these calls regularly during cold snaps. Homes in older neighborhoods with cast-iron radiators are less susceptible, but the post-WWII ranch and split-level housing stock common throughout the area runs forced-air almost universally.
 
 ## Service area
 
@@ -57,4 +57,4 @@ FireDEX Butler serves Cranberry Township and the broader region including Mars, 
 
 ---
 
-If your home or building has visible soot residue, an unexplained smoke odor, or a recent fire of any size, call **(724) 452-7400** to begin soot removal before the residue bonds further. The sooner the process starts, the smaller the scope — and the lower the final cost.
+If your home or building has visible soot residue, an unexplained smoke odor, or a recent fire of any size, call **(724) 452-7400** to begin soot removal before the residue bonds further. The sooner the process starts, the smaller the scope, and the lower the final cost.

@@ -17,15 +17,15 @@ service_slug: "sewage-cleanup"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
-When a sewer line backs up into your basement or a septic system overflows into a crawl space, the clock starts immediately — not just on cleanup, but on your health exposure. Raw sewage carries bacteria like E. coli and Salmonella, hepatitis A virus, and parasites that can survive on porous surfaces for days. The odor hits first, then the discoloration on drywall, then the realization that everything the water touched is now contaminated. This is Category 3 water — the most hazardous classification in the restoration industry — and it requires a response that goes well beyond a shop vac and bleach.
+When a sewer line backs up into your basement or a septic system overflows into a crawl space, the clock starts immediately, not just on cleanup, but on your health exposure. Raw sewage carries bacteria like E. coli and Salmonella, hepatitis A virus, and parasites that can survive on porous surfaces for days. The odor hits first, then the discoloration on drywall, then the realization that everything the water touched is now contaminated. This is Category 3 water, the most hazardous classification in the restoration industry, and it requires a response that goes well beyond a shop vac and bleach.
 
 ## What sewage cleanup and sanitization actually involves
 
-Sewage backup cleanup is fundamentally different from a burst pipe or appliance leak. The contamination is biological, not just structural. That distinction changes every decision — what can be dried versus what must be removed, how long containment stays in place, what documentation your insurance adjuster needs to approve the claim.
+Sewage backup cleanup is fundamentally different from a burst pipe or appliance leak. The contamination is biological, not just structural. That distinction changes every decision, what can be dried versus what must be removed, how long containment stays in place, what documentation your insurance adjuster needs to approve the claim.
 
 The work involves removing standing sewage and contaminated water, extracting saturated materials that cannot be decontaminated (carpet, pad, drywall below the flood line, insulation), and then treating every affected surface with EPA-registered antimicrobial agents. Equipment on a typical sewage job includes truck-mounted or portable extractors capable of handling solids, commercial air movers, dehumidifiers, and HEPA air scrubbers to capture airborne particulates stirred up during removal.
 
-Timeline depends on the extent of spread and the materials involved. A contained basement drain backup with hard flooring might be fully remediated in two to three days. A septic overflow that saturated a finished basement — drywall, framing, subfloor, and personal contents — can run five to seven days of active drying and sanitization before reconstruction can begin.
+Timeline depends on the extent of spread and the materials involved. A contained basement drain backup with hard flooring might be fully remediated in two to three days. A septic overflow that saturated a finished basement, drywall, framing, subfloor, and personal contents, can run five to seven days of active drying and sanitization before reconstruction can begin.
 
 ## Our process
 
@@ -36,25 +36,25 @@ Before any equipment enters the loss area, the space is assessed for electrical 
 Standing sewage and solid waste are extracted first using equipment rated for contaminated water. This is not a step that can be skipped or approximated with consumer-grade wet vacs. The goal is to remove the bulk contamination before any further disturbance of affected materials.
 
 **3. Controlled demolition of unsalvageable materials**
-Porous materials that absorbed sewage — drywall, insulation, carpet, pad, and in some cases subfloor — are removed and bagged for disposal. The cut line on drywall is typically set above the visible water line to account for wicking. This step is where inexperienced operators most often cut corners, leaving contaminated material behind walls that will grow mold and continue off-gassing for months.
+Porous materials that absorbed sewage, drywall, insulation, carpet, pad, and in some cases subfloor, are removed and bagged for disposal. The cut line on drywall is typically set above the visible water line to account for wicking. This step is where inexperienced operators most often cut corners, leaving contaminated material behind walls that will grow mold and continue off-gassing for months.
 
 **4. Antimicrobial treatment and surface sanitization**
-All remaining hard surfaces — concrete, framing lumber, subfloor sheathing, floor drains — are treated with EPA-registered antimicrobial products. Application is not a single spray-and-wipe; it involves dwell time, mechanical agitation on porous surfaces, and a second application after initial drying. Drain lines and the affected fixture are also addressed to prevent recontamination during the drying phase.
+All remaining hard surfaces, concrete, framing lumber, subfloor sheathing, floor drains, are treated with EPA-registered antimicrobial products. Application is not a single spray-and-wipe; it involves dwell time, mechanical agitation on porous surfaces, and a second application after initial drying. Drain lines and the affected fixture are also addressed to prevent recontamination during the drying phase.
 
 **5. Structural drying and clearance**
 Commercial drying equipment runs continuously until moisture readings in framing and subfloor materials return to pre-loss baselines. Readings are logged daily. Once drying goals are met and surfaces pass visual and odor inspection, the space is cleared for reconstruction.
 
 ## What separates a good sewage response from a bad one
 
-The most common failure in sewage backup cleanup is incomplete material removal. Contaminated drywall left in place — even if it looks dry — harbors bacteria and becomes a mold substrate within days. Insurance adjusters reviewing a claim months later, after a mold problem develops, will look for documentation of cut lines, moisture readings, and antimicrobial application logs. Without that paperwork, a supplemental claim becomes very difficult.
+The most common failure in sewage backup cleanup is incomplete material removal. Contaminated drywall left in place, even if it looks dry, harbors bacteria and becomes a mold substrate within days. Insurance adjusters reviewing a claim months later, after a mold problem develops, will look for documentation of cut lines, moisture readings, and antimicrobial application logs. Without that paperwork, a supplemental claim becomes very difficult.
 
-A second common failure is treating sewage backup like clean water damage. Category 3 contamination requires disposal protocols that Category 1 water does not. Materials removed from a sewage loss must be handled and disposed of appropriately — they cannot simply be set at the curb.
+A second common failure is treating sewage backup like clean water damage. Category 3 contamination requires disposal protocols that Category 1 water does not. Materials removed from a sewage loss must be handled and disposed of appropriately, they cannot simply be set at the curb.
 
 Finally, odor is a diagnostic tool, not just a nuisance. If a space smells like sewage after drying is complete, something was missed. Persistent odor after sanitization is a signal to re-inspect drain lines, wall cavities, and subfloor voids before closing the space up for reconstruction.
 
 ## What does sewage cleanup and sanitization cost?
 
-Typical costs vary significantly based on the source of the backup, the size of the affected area, and the materials involved. Most homeowners pay somewhere between $2,000 and $10,000 for a residential sewage cleanup, though losses involving finished basements or septic overflows into multiple rooms can run higher. The table below reflects typical industry ranges — these are not quotes from Crew Restoration & Construction.
+Typical costs vary significantly based on the source of the backup, the size of the affected area, and the materials involved. Most homeowners pay somewhere between $2,000 and $10,000 for a residential sewage cleanup, though losses involving finished basements or septic overflows into multiple rooms can run higher. The table below reflects typical industry ranges, these are not quotes from Crew Restoration & Construction.
 
 | Scenario | Typical industry range |
 |---|---|
@@ -64,11 +64,11 @@ Typical costs vary significantly based on the source of the backup, the size of 
 | Septic overflow, crawl space or subfloor affected | $4,500 – $9,000 |
 | Sewer line backup, multiple rooms, significant demolition | $8,000 – $18,000 |
 
-Every loss is different, and Crew Restoration & Construction provides a written scope of work before any work begins. Homeowners insurance typically covers sudden and accidental sewage backups, though coverage depends on your specific policy — many standard policies require a sewer backup rider, so it's worth confirming with your carrier before assuming coverage.
+Every loss is different, and Crew Restoration & Construction provides a written scope of work before any work begins. Homeowners insurance typically covers sudden and accidental sewage backups, though coverage depends on your specific policy, many standard policies require a sewer backup rider, so it's worth confirming with your carrier before assuming coverage.
 
 ## Seasonal and regional considerations
 
-In Sioux Falls and across southeastern South Dakota, two conditions drive the majority of sewage backup calls. Spring snowmelt and heavy rain events in April and May overwhelm municipal sewer systems, pushing water back through floor drains and basement fixtures — a phenomenon called sewer surcharging. Homes in older Sioux Falls neighborhoods with clay tile lateral lines are especially vulnerable because those lines crack and root-infiltrate over decades, narrowing the effective diameter and making surcharging worse.
+In Sioux Falls and across southeastern South Dakota, two conditions drive the majority of sewage backup calls. Spring snowmelt and heavy rain events in April and May overwhelm municipal sewer systems, pushing water back through floor drains and basement fixtures, a phenomenon called sewer surcharging. Homes in older Sioux Falls neighborhoods with clay tile lateral lines are especially vulnerable because those lines crack and root-infiltrate over decades, narrowing the effective diameter and making surcharging worse.
 
 Winter brings a different problem: frozen ground prevents soil absorption, and septic systems in rural properties outside the city can back up when drain fields lose permeability. If your property is on a septic system and you notice slow drains in January or February, that's an early warning sign worth taking seriously before a full overflow occurs.
 

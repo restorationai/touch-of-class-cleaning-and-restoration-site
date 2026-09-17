@@ -20,45 +20,45 @@ state: "WA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-The smell hits first — acrid, chemical, nothing like a campfire. Then the visible damage: char on the framing, soot coating every surface two rooms away from the flames, water from the suppression effort pooling under the subfloor. If you're reading this from Everett right now, you don't need a sales pitch. You need someone on-site fast, with the right equipment and the experience to stop secondary damage before it compounds what the fire already did. That's exactly what National Restoration Construction does.
+The smell hits first, acrid, chemical, nothing like a campfire. Then the visible damage: char on the framing, soot coating every surface two rooms away from the flames, water from the suppression effort pooling under the subfloor. If you're reading this from Everett right now, you don't need a sales pitch. You need someone on-site fast, with the right equipment and the experience to stop secondary damage before it compounds what the fire already did. That's exactly what National Restoration Construction does.
 
 ## Our Fire Damage Restoration Process in Everett
 
-Fire cleanup isn't a single task — it's a sequence, and the order matters. When a crew from National Restoration Construction arrives at your Everett property, the first priority is structural safety and securing the building envelope. Broken windows, compromised roof sections, and open walls invite weather — and Everett's marine climate means rain can follow a fire within hours, turning a smoke problem into a mold problem inside 48 to 72 hours.
+Fire cleanup isn't a single task, it's a sequence, and the order matters. When a crew from National Restoration Construction arrives at your Everett property, the first priority is structural safety and securing the building envelope. Broken windows, compromised roof sections, and open walls invite weather, and Everett's marine climate means rain can follow a fire within hours, turning a smoke problem into a mold problem inside 48 to 72 hours.
 
 Once the structure is stabilized, the work moves through several overlapping phases:
 
 - **Smoke and soot removal.** Smoke residue is chemically active. Protein smoke from kitchen fires behaves differently than synthetic smoke from burning plastics or insulation. Our technicians identify residue types before selecting cleaning agents, which is the difference between removing soot and grinding it deeper into drywall and wood grain.
-- **Odor neutralization.** Thermal fogging, hydroxyl generators, and ozone treatment are matched to the specific residue profile. A house that smells clean after fire and smoke restoration actually is clean — not masked.
-- **Structural assessment and fire damage repair.** Char depth in framing, heat damage to load-bearing members, and compromised electrical pathways all get documented. As a licensed General Contractor (WA L&I #NATIORC792M6), we handle structural fire damage repair in-house — no handoff to a separate rebuild contractor.
+- **Odor neutralization.** Thermal fogging, hydroxyl generators, and ozone treatment are matched to the specific residue profile. A house that smells clean after fire and smoke restoration actually is clean, not masked.
+- **Structural assessment and fire damage repair.** Char depth in framing, heat damage to load-bearing members, and compromised electrical pathways all get documented. As a licensed General Contractor (WA L&I #NATIORC792M6), we handle structural fire damage repair in-house, no handoff to a separate rebuild contractor.
 - **Content and document recovery.** Salvageable belongings are inventoried, packed, and moved to a controlled environment for cleaning. Items that look destroyed sometimes aren't.
 
-Every step is documented with photos and written logs — not for our records, but for your insurance claim.
+Every step is documented with photos and written logs, not for our records, but for your insurance claim.
 
 ## Why Everett Properties Face Specific Fire Risks
 
-Everett's housing stock skews older. Large sections of the city — particularly around Colby Avenue, the Riverside neighborhood, and the older blocks near downtown — contain homes built between the 1920s and 1960s. Knob-and-tube or early aluminum wiring, aging panel boxes, and wood-framed construction without modern fire-blocking all contribute to faster fire spread and more extensive structural fire damage once ignition occurs.
+Everett's housing stock skews older. Large sections of the city, particularly around Colby Avenue, the Riverside neighborhood, and the older blocks near downtown, contain homes built between the 1920s and 1960s. Knob-and-tube or early aluminum wiring, aging panel boxes, and wood-framed construction without modern fire-blocking all contribute to faster fire spread and more extensive structural fire damage once ignition occurs.
 
-The region's wet winters also mean that post-fire restoration timelines can be compressed. A structure open to the elements in November in Snohomish County absorbs moisture fast. Getting the building dried and enclosed isn't optional — it's urgent.
+The region's wet winters also mean that post-fire restoration timelines can be compressed. A structure open to the elements in November in Snohomish County absorbs moisture fast. Getting the building dried and enclosed isn't optional, it's urgent.
 
 ## Navigating Insurance After a Fire in Everett
 
 Most homeowners' policies cover fire damage restoration, but the claims process can stall a recovery if it's not managed carefully. Here's how the division of labor typically works:
 
-**What we handle:** Scope of loss documentation, line-item estimates formatted for adjuster review, direct communication with your insurance carrier, and supplemental claims when hidden damage is found during demolition — which happens more often than adjusters initially anticipate.
+**What we handle:** Scope of loss documentation, line-item estimates formatted for adjuster review, direct communication with your insurance carrier, and supplemental claims when hidden damage is found during demolition, which happens more often than adjusters initially anticipate.
 
-**What you handle:** Filing the initial claim and maintaining contact with your assigned adjuster. If you haven't filed yet, do it before work begins — most policies require prompt notification.
+**What you handle:** Filing the initial claim and maintaining contact with your assigned adjuster. If you haven't filed yet, do it before work begins, most policies require prompt notification.
 
 National Restoration Construction has worked with every major carrier active in the Puget Sound region. We know what adjusters look for and how to present documentation that moves claims forward rather than triggering back-and-forth delays. Being IICRC Certified means our scopes follow industry-standard methodology that adjusters recognize and accept.
 
 ## Response Times to Everett from Our Federal Way Base
 
-Our headquarters sits in Federal Way, roughly 35 to 40 miles south of Everett via I-5. Under normal traffic conditions, that's a 45-to-60-minute drive. During peak commute hours on I-5 — which Snohomish County residents know can stretch that corridor considerably — we route crews via SR-99 or coordinate with resources already north of Seattle to keep on-site arrival under 90 minutes.
+Our headquarters sits in Federal Way, roughly 35 to 40 miles south of Everett via I-5. Under normal traffic conditions, that's a 45-to-60-minute drive. During peak commute hours on I-5, which Snohomish County residents know can stretch that corridor considerably, we route crews via SR-99 or coordinate with resources already north of Seattle to keep on-site arrival under 90 minutes.
 
-For properties in south Everett near the 128th Street corridor, response is typically faster than for north Everett or Mukilteo-adjacent areas. If you're calling from a specific neighborhood and timing matters, tell the dispatcher — we'll give you an honest ETA, not an optimistic one.
+For properties in south Everett near the 128th Street corridor, response is typically faster than for north Everett or Mukilteo-adjacent areas. If you're calling from a specific neighborhood and timing matters, tell the dispatcher, we'll give you an honest ETA, not an optimistic one.
 
-If the fire is still being extinguished or the structure hasn't been cleared by the fire department, we can stage nearby and be ready to enter the moment it's safe. Don't wait for the smoke to fully clear before reaching out — the sooner we're in contact, the faster the recovery starts.
+If the fire is still being extinguished or the structure hasn't been cleared by the fire department, we can stage nearby and be ready to enter the moment it's safe. Don't wait for the smoke to fully clear before reaching out, the sooner we're in contact, the faster the recovery starts.
 
 ---
 
-Fire damage doesn't pause while you figure out next steps. Reach National Restoration Construction at **(206) 883-0333** — lines are answered around the clock, and a technician can walk you through what to do right now while a crew is dispatched to your Everett property.
+Fire damage doesn't pause while you figure out next steps. Reach National Restoration Construction at **(206) 883-0333**, lines are answered around the clock, and a technician can walk you through what to do right now while a crew is dispatched to your Everett property.

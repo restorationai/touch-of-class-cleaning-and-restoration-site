@@ -19,25 +19,25 @@ state: "CA"
 primary: false
 rendered: true
 ---
-When a pipe bursts in a seasonal cabin near Bodfish or smoke damage from a wildfire threatens a Mountain Mesa home, ProRestoration Services responds from Bakersfield around the clock — handling water extraction, structural drying, fire and smoke cleanup, mold remediation, and full reconstruction for property owners across ZIP codes 93240 and 93283. We know the valley's housing stock, its road conditions, and the specific ways damage compounds when a property sits empty for weeks before anyone notices.
+When a pipe bursts in a seasonal cabin near Bodfish or smoke damage from a wildfire threatens a Mountain Mesa home, ProRestoration Services responds from Bakersfield around the clock, handling water extraction, structural drying, fire and smoke cleanup, mold remediation, and full reconstruction for property owners across ZIP codes 93240 and 93283. We know the valley's housing stock, its road conditions, and the specific ways damage compounds when a property sits empty for weeks before anyone notices.
 
 ## Restoration emergencies common in Lake Isabella
 
-The Kern River Valley sits roughly an hour up the Highway 178 canyon from Bakersfield, and that geography shapes nearly every restoration call we receive. Winters here are colder than most Kern County residents expect — overnight freezes are common from November through March, and older cabins and manufactured homes throughout Lake Isabella proper and Mountain Mesa often lack adequate pipe insulation. When a seasonal property freezes and the owner is back in the valley floor, water can run for days inside walls and under subfloors before anyone discovers it. By that point, mold colonization is already underway; under the right temperature and moisture conditions, mold can begin establishing within 24 to 48 hours of a water intrusion.
+The Kern River Valley sits roughly an hour up the Highway 178 canyon from Bakersfield, and that geography shapes nearly every restoration call we receive. Winters here are colder than most Kern County residents expect, overnight freezes are common from November through March, and older cabins and manufactured homes throughout Lake Isabella proper and Mountain Mesa often lack adequate pipe insulation. When a seasonal property freezes and the owner is back in the valley floor, water can run for days inside walls and under subfloors before anyone discovers it. By that point, mold colonization is already underway; under the right temperature and moisture conditions, mold can begin establishing within 24 to 48 hours of a water intrusion.
 
-Wildfire is the valley's defining risk. The 2016 Erskine Fire destroyed approximately 280 homes in this area, and the surrounding terrain means fire seasons bring real exposure to smoke infiltration, ash deposition, and — in worst cases — total-loss rebuilds. Even homes that survive a fire perimeter often carry embedded smoke odor and corrosive soot residue in HVAC systems, insulation, and wall cavities.
+Wildfire is the valley's defining risk. The 2016 Erskine Fire destroyed approximately 280 homes in this area, and the surrounding terrain means fire seasons bring real exposure to smoke infiltration, ash deposition, and, in worst cases, total-loss rebuilds. Even homes that survive a fire perimeter often carry embedded smoke odor and corrosive soot residue in HVAC systems, insulation, and wall cavities.
 
-Storm runoff is a separate concern. Although completed safety modifications to Isabella Dam have reduced downstream flood anxiety, low-lying parcels in Bodfish and South Lake still experience sheet flooding and storm-drain backup during heavy rain events. Erskine Creek, which drains a large watershed above the valley, can rise quickly after winter storms. Because few if any restoration contractors are based in the Kern River Valley itself, response from outside the area is the reality — which makes choosing a contractor with genuine valley experience matter more, not less.
+Storm runoff is a separate concern. Although completed safety modifications to Isabella Dam have reduced downstream flood anxiety, low-lying parcels in Bodfish and South Lake still experience sheet flooding and storm-drain backup during heavy rain events. Erskine Creek, which drains a large watershed above the valley, can rise quickly after winter storms. Because few if any restoration contractors are based in the Kern River Valley itself, response from outside the area is the reality, which makes choosing a contractor with genuine valley experience matter more, not less.
 
 ## Services we provide in Lake Isabella
 
 ### Water damage restoration
 
-Water damage in Lake Isabella frequently involves long-duration leaks in unoccupied properties — burst pipes that ran over a weekend, a failed water heater in a rental cabin, or a roof breach that soaked insulation through an entire winter. We extract standing water, remove saturated materials, and dry structural assemblies using industrial dehumidifiers and air movers calibrated to the valley's elevation and humidity. Documentation for insurance carriers is part of every job.
+Water damage in Lake Isabella frequently involves long-duration leaks in unoccupied properties, burst pipes that ran over a weekend, a failed water heater in a rental cabin, or a roof breach that soaked insulation through an entire winter. We extract standing water, remove saturated materials, and dry structural assemblies using industrial dehumidifiers and air movers calibrated to the valley's elevation and humidity. Documentation for insurance carriers is part of every job.
 
 ### Fire and smoke damage restoration
 
-Post-fire cleanup in this region goes beyond visible char. Smoke from wildland fires carries oils and acids that penetrate porous surfaces and continue off-gassing long after the fire is out. We assess structural integrity, remove unsalvageable materials, neutralize odor at the source, and coordinate reconstruction — whether that means a single room or a complete rebuild on a Mountain Mesa lot.
+Post-fire cleanup in this region goes beyond visible char. Smoke from wildland fires carries oils and acids that penetrate porous surfaces and continue off-gassing long after the fire is out. We assess structural integrity, remove unsalvageable materials, neutralize odor at the source, and coordinate reconstruction, whether that means a single room or a complete rebuild on a Mountain Mesa lot.
 
 ### Mold remediation
 
@@ -45,11 +45,11 @@ The combination of freeze-thaw cycles, seasonal vacancy, and older construction 
 
 ### Reconstruction
 
-After water, fire, or mold damage, many valley properties need more than cleanup — they need a contractor who can rebuild. ProRestoration Services handles framing, drywall, flooring, and finish work, keeping the job with one point of contact rather than handing a damaged property off to a separate GC.
+After water, fire, or mold damage, many valley properties need more than cleanup, they need a contractor who can rebuild. ProRestoration Services handles framing, drywall, flooring, and finish work, keeping the job with one point of contact rather than handing a damaged property off to a separate GC.
 
 ## Coverage and how fast we can get there
 
-Our Bakersfield headquarters puts us approximately 45 to 50 road miles from Lake Isabella via Highway 178 — a scenic drive that takes roughly an hour under normal conditions. The canyon road can slow in winter weather or during high-traffic summer weekends, so we factor route conditions into every dispatch. Because we operate 24/7, a call at 2 a.m. from a property manager in Bodfish or a homeowner in South Lake reaches a live dispatcher, not a voicemail. We serve all named communities in the valley, including Lake Isabella proper, Mountain Mesa, Bodfish, and South Lake, and we are familiar with the access roads and property types in each.
+Our Bakersfield headquarters puts us approximately 45 to 50 road miles from Lake Isabella via Highway 178, a scenic drive that takes roughly an hour under normal conditions. The canyon road can slow in winter weather or during high-traffic summer weekends, so we factor route conditions into every dispatch. Because we operate 24/7, a call at 2 a.m. from a property manager in Bodfish or a homeowner in South Lake reaches a live dispatcher, not a voicemail. We serve all named communities in the valley, including Lake Isabella proper, Mountain Mesa, Bodfish, and South Lake, and we are familiar with the access roads and property types in each.
 
 ## Building stock, site conditions, and permits in Lake Isabella
 
@@ -57,4 +57,4 @@ Much of the valley's housing is mid-century and later: small wood-framed cabins,
 
 Lake Isabella is unincorporated, so building permits for structural repair or rebuild come through Kern County, under the California Building Code. Rebuilds in state-responsibility wildfire areas generally trigger ignition-resistant exterior requirements.
 
-If you are dealing with water, fire, smoke, or mold damage anywhere in the Kern River Valley, call ProRestoration Services at **(661) 393-9306** — we answer every hour of the day and can begin coordinating your response immediately.
+If you are dealing with water, fire, smoke, or mold damage anywhere in the Kern River Valley, call ProRestoration Services at **(661) 393-9306**, we answer every hour of the day and can begin coordinating your response immediately.

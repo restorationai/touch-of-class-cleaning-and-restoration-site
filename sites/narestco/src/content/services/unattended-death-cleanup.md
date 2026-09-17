@@ -17,25 +17,25 @@ service_slug: "unattended-death-cleanup"
 service_display: "Unattended Death Cleanup"
 rendered: true
 ---
-When a death goes undiscovered for days or weeks, the biological material left behind creates hazards that standard cleaning cannot address. Decomposition accelerates in warm or humid conditions — and in Western Washington's mild, damp climate, that process can begin within hours. By the time a family member, landlord, or property manager finds the scene, the affected area typically requires full biohazard remediation: not just surface cleaning, but the removal of contaminated materials, enzymatic treatment of porous substrates, and professional odor neutralization that reaches behind walls and under flooring.
+When a death goes undiscovered for days or weeks, the biological material left behind creates hazards that standard cleaning cannot address. Decomposition accelerates in warm or humid conditions, and in Western Washington's mild, damp climate, that process can begin within hours. By the time a family member, landlord, or property manager finds the scene, the affected area typically requires full biohazard remediation: not just surface cleaning, but the removal of contaminated materials, enzymatic treatment of porous substrates, and professional odor neutralization that reaches behind walls and under flooring.
 
 ## What unattended death cleanup actually involves
 
 This is not a job for a cleaning crew or a contractor who handles it occasionally. The work requires IICRC-certified technicians trained in bloodborne pathogen protocols, EPA-registered disinfectants, and proper biohazardous waste handling under Washington State Department of Ecology and DOT regulations.
 
-The scope depends on how long the scene went undiscovered, the size of the affected area, and the materials involved. Hardwood, concrete, drywall, subfloor, and HVAC systems can all retain biological contamination and odor compounds — particularly the volatile fatty acids and sulfur compounds produced during decomposition. Those molecules are small enough to penetrate porous materials and travel through air handling systems, which is why odor removal after death often requires treatment well beyond the immediate room.
+The scope depends on how long the scene went undiscovered, the size of the affected area, and the materials involved. Hardwood, concrete, drywall, subfloor, and HVAC systems can all retain biological contamination and odor compounds, particularly the volatile fatty acids and sulfur compounds produced during decomposition. Those molecules are small enough to penetrate porous materials and travel through air handling systems, which is why odor removal after death often requires treatment well beyond the immediate room.
 
-Timeline from first call to clearance typically runs 1–3 days for a contained scene, longer if structural materials require removal and reconstruction. Our team arrives in unmarked vehicles and works discreetly — a detail that matters in residential neighborhoods and multi-unit buildings alike.
+Timeline from first call to clearance typically runs 1–3 days for a contained scene, longer if structural materials require removal and reconstruction. Our team arrives in unmarked vehicles and works discreetly, a detail that matters in residential neighborhoods and multi-unit buildings alike.
 
 ## Our process
 
 1. **Scene assessment and containment staging.** Before any work begins, technicians in full PPE assess the extent of contamination, identify affected surfaces and materials, and establish negative-pressure containment where needed to prevent cross-contamination to adjacent spaces. This step also documents conditions for insurance and legal purposes.
 
-2. **Biohazardous material removal.** All contaminated porous materials — flooring, padding, drywall, insulation, personal property — are removed, double-bagged in certified biohazard containers, and transported under a regulated waste manifest. Non-porous surfaces are cleaned and treated with EPA-registered hospital-grade disinfectants.
+2. **Biohazardous material removal.** All contaminated porous materials, flooring, padding, drywall, insulation, personal property, are removed, double-bagged in certified biohazard containers, and transported under a regulated waste manifest. Non-porous surfaces are cleaned and treated with EPA-registered hospital-grade disinfectants.
 
-3. **Enzymatic and chemical treatment of residual contamination.** After bulk removal, technicians apply enzymatic cleaners that break down organic compounds at a molecular level. This step is critical for subfloor, wall cavities, and concrete slab — materials that hold odor long after visible contamination is gone. Multiple applications are often required.
+3. **Enzymatic and chemical treatment of residual contamination.** After bulk removal, technicians apply enzymatic cleaners that break down organic compounds at a molecular level. This step is critical for subfloor, wall cavities, and concrete slab, materials that hold odor long after visible contamination is gone. Multiple applications are often required.
 
-4. **Odor neutralization and air treatment.** Hydroxyl generators or ozone treatment (in unoccupied spaces) address airborne odor compounds that surface cleaning cannot reach. HVAC registers and ductwork are inspected and treated if contamination has migrated. This is the step most often skipped by less experienced operators — and the reason odor returns weeks later.
+4. **Odor neutralization and air treatment.** Hydroxyl generators or ozone treatment (in unoccupied spaces) address airborne odor compounds that surface cleaning cannot reach. HVAC registers and ductwork are inspected and treated if contamination has migrated. This is the step most often skipped by less experienced operators, and the reason odor returns weeks later.
 
 5. **Post-remediation verification and documentation.** Before we leave, the area is tested and photographed to confirm contamination levels meet clearance standards. We provide written documentation suitable for insurance claims, estate proceedings, or property re-occupancy.
 
@@ -43,15 +43,15 @@ Timeline from first call to clearance typically runs 1–3 days for a contained 
 
 The most common failure in deceased estate cleanup is treating the visible surface and leaving the substrate. Decomposition fluids wick into subfloor, migrate along wall framing, and pool in low spots that aren't immediately obvious. An operator who stops at the carpet misses the OSB underneath. One who stops at the OSB misses the concrete or the crawl space below.
 
-A second common failure is inadequate odor treatment. Masking agents — sprays, foggers, deodorizing bombs — suppress odor temporarily. The volatile compounds that cause the smell are still present and will off-gas for months. Proper discreet death cleanup uses hydroxyl or ozone treatment in combination with enzymatic breakdown of the source material, not over it.
+A second common failure is inadequate odor treatment. Masking agents, sprays, foggers, deodorizing bombs, suppress odor temporarily. The volatile compounds that cause the smell are still present and will off-gas for months. Proper discreet death cleanup uses hydroxyl or ozone treatment in combination with enzymatic breakdown of the source material, not over it.
 
 Insurance adjusters and estate attorneys increasingly request documentation of the remediation scope, the waste manifest, and clearance verification. Operators who don't provide a written record create problems downstream for families and property owners trying to close estates or re-list property.
 
-National Restoration Construction holds IICRC certification, EPA certification, and operates under General Contractor Certificate of Registration #NATIORC792M6 — which matters when structural materials need to be removed and replaced as part of the remediation.
+National Restoration Construction holds IICRC certification, EPA certification, and operates under General Contractor Certificate of Registration #NATIORC792M6, which matters when structural materials need to be removed and replaced as part of the remediation.
 
 ## Seasonal and regional considerations
 
-In Federal Way and the broader South Sound region, mild summers and poor ventilation in older housing stock accelerate decomposition timelines compared to drier climates. Crawl spaces under older Craftsman and mid-century homes in neighborhoods like Dash Point, Lakeland, and Steel Lake are particularly prone to retaining odor and moisture after a contamination event. If the affected property has a crawl space or basement, that area should be inspected as part of any after death cleaning scope — not assumed to be unaffected.
+In Federal Way and the broader South Sound region, mild summers and poor ventilation in older housing stock accelerate decomposition timelines compared to drier climates. Crawl spaces under older Craftsman and mid-century homes in neighborhoods like Dash Point, Lakeland, and Steel Lake are particularly prone to retaining odor and moisture after a contamination event. If the affected property has a crawl space or basement, that area should be inspected as part of any after death cleaning scope, not assumed to be unaffected.
 
 ## Service area
 
@@ -59,4 +59,4 @@ Our team is based in Federal Way and responds throughout King and Pierce Countie
 
 ---
 
-If you're managing a property or coordinating on behalf of a family, the next step is a confidential call — not a commitment. Reach National Restoration Construction at **(206) 883-0333** any time. We'll walk you through what the scope likely involves, how insurance documentation works, and what to expect from the process before anyone sets foot on the property.
+If you're managing a property or coordinating on behalf of a family, the next step is a confidential call, not a commitment. Reach National Restoration Construction at **(206) 883-0333** any time. We'll walk you through what the scope likely involves, how insurance documentation works, and what to expect from the process before anyone sets foot on the property.

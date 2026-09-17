@@ -19,23 +19,23 @@ state: "MS"
 primary: false
 rendered: true
 ---
-When a pipe bursts under a slab or a slow roof leak finally soaks through the ceiling drywall, Wade property owners need a restoration crew that knows the area — not a dispatcher routing calls from three states away. HomeLyft Restoration MS, based out of Gulfport, handles water damage mitigation, mold remediation, fire and smoke cleanup, and full reconstruction for homes and commercial properties throughout Wade and the surrounding parts of Harrison County. One call to (228) 284-5200 connects you directly with the team doing the work.
+When a pipe bursts under a slab or a slow roof leak finally soaks through the ceiling drywall, Wade property owners need a restoration crew that knows the area, not a dispatcher routing calls from three states away. HomeLyft Restoration MS, based out of Gulfport, handles water damage mitigation, mold remediation, fire and smoke cleanup, and full reconstruction for homes and commercial properties throughout Wade and the surrounding parts of Harrison County. One call to (228) 284-5200 connects you directly with the team doing the work.
 
 ## Restoration emergencies common in Wade
 
 Wade sits in the humid subtropical belt that defines coastal Mississippi, and that climate is hard on structures. Summers regularly push heat-index readings above 105°F, driving moisture into attics and wall cavities; winters bring freeze-thaw cycles that crack supply lines in homes that were never built for sustained cold snaps. The area's proximity to the Pearl River drainage basin means the water table can sit surprisingly high after a heavy rain event, which pushes groundwater into crawl spaces and slab edges faster than most homeowners expect.
 
-Housing stock here skews toward post-war pier-and-beam construction and 1970s–1990s ranch-style slabs — both building types have known vulnerabilities. Pier-and-beam homes trap moisture under the floor system, creating exactly the warm, damp, dark environment where mold colonies can establish within 24 to 48 hours of a water intrusion. Older slab homes often have galvanized or early-copper plumbing that corrodes from the inside out, producing pinhole leaks that go undetected for months. Add in the severe-weather corridor that funnels Gulf storms north along I-49 and US-49, and it becomes clear why Wade sees a consistent pattern of storm-related roof damage, wind-driven rain intrusion, and post-hurricane flooding every few years.
+Housing stock here skews toward post-war pier-and-beam construction and 1970s–1990s ranch-style slabs, both building types have known vulnerabilities. Pier-and-beam homes trap moisture under the floor system, creating exactly the warm, damp, dark environment where mold colonies can establish within 24 to 48 hours of a water intrusion. Older slab homes often have galvanized or early-copper plumbing that corrodes from the inside out, producing pinhole leaks that go undetected for months. Add in the severe-weather corridor that funnels Gulf storms north along I-49 and US-49, and it becomes clear why Wade sees a consistent pattern of storm-related roof damage, wind-driven rain intrusion, and post-hurricane flooding every few years.
 
 ## Services we provide in Wade
 
 ### Water damage mitigation and drying
 
-Water damage in Wade frequently starts in places you can not see — under vinyl plank flooring laid over a slab, inside wall cavities where a supply line runs, or beneath a pier-and-beam subfloor after a heavy rain event. The HomeLyft team uses thermal imaging and moisture meters to map the full extent of saturation before a single piece of equipment is placed. Industrial air movers and desiccant dehumidifiers then drive the structure to documented drying goals, with daily moisture readings logged so you have a paper trail for your insurance claim.
+Water damage in Wade frequently starts in places you can not see, under vinyl plank flooring laid over a slab, inside wall cavities where a supply line runs, or beneath a pier-and-beam subfloor after a heavy rain event. The HomeLyft team uses thermal imaging and moisture meters to map the full extent of saturation before a single piece of equipment is placed. Industrial air movers and desiccant dehumidifiers then drive the structure to documented drying goals, with daily moisture readings logged so you have a paper trail for your insurance claim.
 
 ### Mold remediation
 
-In Harrison County's climate, a water intrusion that goes unaddressed for even two or three days can seed mold growth behind baseboards and inside wall cavities. HomeLyft follows containment and remediation protocols designed to protect the rest of the home during the removal process. Affected materials are removed, the area is treated, and clearance testing can be coordinated with a third-party industrial hygienist — we do not self-certify air quality, because that is not how responsible remediation works.
+In Harrison County's climate, a water intrusion that goes unaddressed for even two or three days can seed mold growth behind baseboards and inside wall cavities. HomeLyft follows containment and remediation protocols designed to protect the rest of the home during the removal process. Affected materials are removed, the area is treated, and clearance testing can be coordinated with a third-party industrial hygienist, we do not self-certify air quality, because that is not how responsible remediation works.
 
 ### Fire and smoke damage restoration
 
@@ -47,11 +47,11 @@ When a Gulf storm tracks north and strips shingles or pushes water through a sof
 
 ## Coverage and how fast we can get there
 
-HomeLyft Restoration MS operates out of Gulfport, roughly 25 to 30 miles south of Wade via US-49 North — a straightforward highway run that keeps drive time predictable outside of peak commute windows. The team covers Wade and the broader Harrison County corridor without subcontracting the field work. When you call (228) 284-5200, you will get scheduling information and a realistic arrival window based on current crew availability and your location within the service area.
+HomeLyft Restoration MS operates out of Gulfport, roughly 25 to 30 miles south of Wade via US-49 North, a straightforward highway run that keeps drive time predictable outside of peak commute windows. The team covers Wade and the broader Harrison County corridor without subcontracting the field work. When you call (228) 284-5200, you will get scheduling information and a realistic arrival window based on current crew availability and your location within the service area.
 
 ## Building stock, site conditions, and permits in Wade
 
-Wade is an unincorporated community, so there is no city hall counter for permits — structural repair, re-roofing, and rebuild work is permitted through the county, and elevation or flood-zone requirements can attach to the job depending on where the parcel sits. Mississippi's coastal counties also carry wind-resistance provisions that shape how a roof deck, sheathing, and fastening schedule get put back after storm damage, which matters more on a reconstruction scope than most homeowners expect.
+Wade is an unincorporated community, so there is no city hall counter for permits, structural repair, re-roofing, and rebuild work is permitted through the county, and elevation or flood-zone requirements can attach to the job depending on where the parcel sits. Mississippi's coastal counties also carry wind-resistance provisions that shape how a roof deck, sheathing, and fastening schedule get put back after storm damage, which matters more on a reconstruction scope than most homeowners expect.
 
 Outside the municipal utility footprint, many properties here run on private wells and septic. That changes a sewage backup or a saturated yard from a plumbing problem into a site problem. Manufactured and modular homes are common on these rural lots too, and their floor systems and belly wrap hold water very differently from stick-built framing.
 

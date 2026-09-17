@@ -20,23 +20,23 @@ state: "HI"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
-Kaneohe sits on the windward side of the Koolau Range, where rainfall totals dwarf anything on the leeward coast — and that relentless moisture doesn't just fall from the sky. It works its way into crawl spaces, accelerates corrosion on aging supply lines, and raises the stakes when a pipe finally lets go. A burst pipe here isn't just a puddle problem; within hours, water is wicking into the kind of chronically damp subfloor cavities that mold colonizes fast. If a line has broken in your home or rental property in the 96744 area, the window to act is short.
+Kaneohe sits on the windward side of the Koolau Range, where rainfall totals dwarf anything on the leeward coast, and that relentless moisture doesn't just fall from the sky. It works its way into crawl spaces, accelerates corrosion on aging supply lines, and raises the stakes when a pipe finally lets go. A burst pipe here isn't just a puddle problem; within hours, water is wicking into the kind of chronically damp subfloor cavities that mold colonizes fast. If a line has broken in your home or rental property in the 96744 area, the window to act is short.
 
 ## Why Kaneohe Properties See Burst Pipe Problems More Often
 
-The subdivisions that spread through Ahuimanu and Kahaluu in the 1960s and 1970s were built with galvanized steel and early copper supply lines that are now well past their design life. Galvanized pipe corrodes from the inside out — you may not see any exterior rust until the line is already pinhole-thin or has split at a fitting. The Koolau's windward rainfall keeps soil moisture levels high year-round, which accelerates exterior corrosion on any pipe that runs through a crawl space or along an exterior wall. Add in the flash-flood events that push water up against foundations along the stream corridors in Kahaluu, and you have conditions that stress plumbing systems in ways that drier communities simply don't see.
+The subdivisions that spread through Ahuimanu and Kahaluu in the 1960s and 1970s were built with galvanized steel and early copper supply lines that are now well past their design life. Galvanized pipe corrodes from the inside out, you may not see any exterior rust until the line is already pinhole-thin or has split at a fitting. The Koolau's windward rainfall keeps soil moisture levels high year-round, which accelerates exterior corrosion on any pipe that runs through a crawl space or along an exterior wall. Add in the flash-flood events that push water up against foundations along the stream corridors in Kahaluu, and you have conditions that stress plumbing systems in ways that drier communities simply don't see.
 
-Military families rotating through housing near Marine Corps Base Hawaii often inherit rental units where deferred maintenance has quietly accumulated. A pipe that was already weakened when the last tenant moved out can fail during the next occupancy — sometimes during a heavy rain event when water pressure fluctuates.
+Military families rotating through housing near Marine Corps Base Hawaii often inherit rental units where deferred maintenance has quietly accumulated. A pipe that was already weakened when the last tenant moved out can fail during the next occupancy, sometimes during a heavy rain event when water pressure fluctuates.
 
 ## Our Burst Pipe Cleanup and Repair Process in Kaneohe
 
-The first priority when we arrive is stopping the source. If the break is on a supply line, we locate and shut off the closest isolation valve — or the main, if needed — before any extraction begins. From there, the process moves in a deliberate sequence:
+The first priority when we arrive is stopping the source. If the break is on a supply line, we locate and shut off the closest isolation valve, or the main, if needed, before any extraction begins. From there, the process moves in a deliberate sequence:
 
-1. **Standing water extraction** — truck-mounted and portable extractors pull bulk water from hard floors, carpet, and subfloor cavities. In Kaneohe's older homes, subfloor voids can hold surprising volumes that aren't visible from above.
-2. **Moisture mapping** — thermal imaging and calibrated moisture meters trace exactly how far water has traveled through walls, under baseboards, and into adjacent rooms. This step matters especially in homes with plaster or older drywall, which absorbs water laterally in ways that aren't obvious.
-3. **Structural drying** — industrial air movers and dehumidifiers are positioned based on the moisture map, not guesswork. Given Kaneohe's ambient humidity, we run equipment longer than we would in a drier climate and monitor readings daily until materials reach target moisture content.
-4. **Pipe repair coordination** — we work alongside licensed plumbers to get the broken line repaired so drying equipment isn't fighting an ongoing water source.
-5. **Documentation** — moisture readings, photos, and drying logs are compiled throughout, which is useful when you're reporting the loss to your insurer.
+1. **Standing water extraction**, truck-mounted and portable extractors pull bulk water from hard floors, carpet, and subfloor cavities. In Kaneohe's older homes, subfloor voids can hold surprising volumes that aren't visible from above.
+2. **Moisture mapping**, thermal imaging and calibrated moisture meters trace exactly how far water has traveled through walls, under baseboards, and into adjacent rooms. This step matters especially in homes with plaster or older drywall, which absorbs water laterally in ways that aren't obvious.
+3. **Structural drying**, industrial air movers and dehumidifiers are positioned based on the moisture map, not guesswork. Given Kaneohe's ambient humidity, we run equipment longer than we would in a drier climate and monitor readings daily until materials reach target moisture content.
+4. **Pipe repair coordination**, we work alongside licensed plumbers to get the broken line repaired so drying equipment isn't fighting an ongoing water source.
+5. **Documentation**, moisture readings, photos, and drying logs are compiled throughout, which is useful when you're reporting the loss to your insurer.
 
 ## Reaching Kaneohe from Honolulu
 
@@ -44,10 +44,10 @@ Our team dispatches from Honolulu and is available around the clock. The H-3 fre
 
 ## Local Note: What Kaneohe's Humidity Does to Drying Timelines
 
-Restoration contractors who work primarily on the leeward side sometimes underestimate how much Kaneohe's baseline humidity extends drying times. The windward air regularly sits at 75–85% relative humidity, which means dehumidifiers are working against ambient conditions rather than with them. In practice, a structural drying job that might take three days in a drier part of Oahu can take four to five days in a Kaneohe valley home — particularly in homes with limited cross-ventilation or crawl spaces that stay damp between rain events. We account for this when we set up equipment and when we give homeowners a realistic timeline, so there are no surprises when the first check-in reading is still elevated on day two.
+Restoration contractors who work primarily on the leeward side sometimes underestimate how much Kaneohe's baseline humidity extends drying times. The windward air regularly sits at 75–85% relative humidity, which means dehumidifiers are working against ambient conditions rather than with them. In practice, a structural drying job that might take three days in a drier part of Oahu can take four to five days in a Kaneohe valley home, particularly in homes with limited cross-ventilation or crawl spaces that stay damp between rain events. We account for this when we set up equipment and when we give homeowners a realistic timeline, so there are no surprises when the first check-in reading is still elevated on day two.
 
-If your home is in Pikoiloa or along the Ahuimanu hillside, mention that when you call — the access and ventilation conditions in those areas factor into how we stage equipment from the start.
+If your home is in Pikoiloa or along the Ahuimanu hillside, mention that when you call, the access and ventilation conditions in those areas factor into how we stage equipment from the start.
 
 ---
 
-A burst pipe in Kaneohe moves fast, and so does mold in this climate. Call (808) 349-3407 any time — day or night — and we'll get extraction and drying equipment moving toward your address in the 96744 zip code as quickly as possible.
+A burst pipe in Kaneohe moves fast, and so does mold in this climate. Call (808) 349-3407 any time, day or night, and we'll get extraction and drying equipment moving toward your address in the 96744 zip code as quickly as possible.

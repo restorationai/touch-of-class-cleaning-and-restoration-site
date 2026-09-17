@@ -20,26 +20,26 @@ state: "CA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-When a kitchen fire tears through a pre-1960 bungalow in Downtown Delano, the damage rarely stops at the charred cabinets. Older balloon-frame construction — common along the Randolph Street corridor and Cecil Avenue corridor — lets smoke travel vertically through wall cavities with almost no resistance, coating attic insulation and interior framing long before the fire department clears the scene. If your home or business in Delano has been through a fire, the clock on secondary smoke and soot damage is already running.
+When a kitchen fire tears through a pre-1960 bungalow in Downtown Delano, the damage rarely stops at the charred cabinets. Older balloon-frame construction, common along the Randolph Street corridor and Cecil Avenue corridor, lets smoke travel vertically through wall cavities with almost no resistance, coating attic insulation and interior framing long before the fire department clears the scene. If your home or business in Delano has been through a fire, the clock on secondary smoke and soot damage is already running.
 
 ## Why Delano Properties Are Particularly Vulnerable to Fire Damage
 
-Delano's housing stock tells two different stories. The downtown core and older west-side blocks contain wood-frame bungalows and craftsman homes built before modern fire-blocking codes required horizontal barriers inside wall cavities. In those structures, smoke and heat migrate upward and outward far beyond the room of origin — meaning a stove fire in the kitchen can deposit oily soot residue in every bedroom before the flames are extinguished.
+Delano's housing stock tells two different stories. The downtown core and older west-side blocks contain wood-frame bungalows and craftsman homes built before modern fire-blocking codes required horizontal barriers inside wall cavities. In those structures, smoke and heat migrate upward and outward far beyond the room of origin, meaning a stove fire in the kitchen can deposit oily soot residue in every bedroom before the flames are extinguished.
 
-The newer subdivisions on the west side of town, built through the 1990s and 2000s, face a different risk profile. Tract homes with open floor plans and recessed lighting create pathways for smoke to penetrate HVAC systems quickly. A single room fire can push smoke particulates through ductwork into closets and crawl spaces throughout the entire house within minutes. Kern County's dry, hot summers also mean that building materials are often desiccated — wood framing, drywall paper, and insulation ignite faster and absorb smoke odor compounds more deeply than the same materials in a more humid climate.
+The newer subdivisions on the west side of town, built through the 1990s and 2000s, face a different risk profile. Tract homes with open floor plans and recessed lighting create pathways for smoke to penetrate HVAC systems quickly. A single room fire can push smoke particulates through ductwork into closets and crawl spaces throughout the entire house within minutes. Kern County's dry, hot summers also mean that building materials are often desiccated, wood framing, drywall paper, and insulation ignite faster and absorb smoke odor compounds more deeply than the same materials in a more humid climate.
 
 Along the Highway 99 commercial strip, ag-processing facilities and cold-storage warehouses present a different challenge: fires in those structures often involve ammonia refrigerants, chemical accelerants, or stored organic material, all of which complicate smoke composition and require specialized decontamination protocols beyond standard residential cleanup.
 
 ## Our Fire Damage Restoration Process in Delano
 
-Every fire job starts with a structured assessment before any cleaning begins. Soot is not uniform — protein-based soot from a kitchen fire behaves differently than the dry, powdery soot from a fast-moving structural fire, and using the wrong cleaning chemistry on the wrong residue type can permanently set stains into walls and ceilings. The assessment maps the smoke migration path, identifies affected materials, and determines which surfaces can be restored versus which need to be removed.
+Every fire job starts with a structured assessment before any cleaning begins. Soot is not uniform, protein-based soot from a kitchen fire behaves differently than the dry, powdery soot from a fast-moving structural fire, and using the wrong cleaning chemistry on the wrong residue type can permanently set stains into walls and ceilings. The assessment maps the smoke migration path, identifies affected materials, and determines which surfaces can be restored versus which need to be removed.
 
 From there, the process follows a defined sequence:
 
-- **Emergency board-up and tarping** to secure the structure and prevent weather intrusion — critical in Delano where summer temperatures can accelerate off-gassing from heat-damaged materials
+- **Emergency board-up and tarping** to secure the structure and prevent weather intrusion, critical in Delano where summer temperatures can accelerate off-gassing from heat-damaged materials
 - **Controlled demolition** of unsalvageable materials, with EPA Lead-Safe protocols applied on pre-1978 homes common in the older sections of Downtown Delano
 - **Dry-ice blasting or HEPA vacuuming** of framing and structural surfaces to remove embedded soot before any encapsulation
-- **Thermal fogging and hydroxyl generation** to neutralize smoke odor molecules in porous materials — walls, subfloor, cabinetry, and HVAC ductwork
+- **Thermal fogging and hydroxyl generation** to neutralize smoke odor molecules in porous materials, walls, subfloor, cabinetry, and HVAC ductwork
 - **Structural drying** if firefighting water is present, documented to IICRC S500 standards
 - **Reconstruction** under CSLB License #960566, coordinated to match existing finishes
 
@@ -47,16 +47,16 @@ Throughout the process, we photograph and document every affected area for your 
 
 ## Reaching Delano from Bakersfield
 
-ProRestoration Services operates out of Bakersfield and runs 24/7 emergency response. Delano sits roughly 35 miles north on Highway 99 — a straight shot that keeps drive time predictable at most hours. For properties near Delano Regional Medical Center or the Cesar Chavez Park neighborhood, the Highway 99 approach puts crews on-site without navigating surface streets. We call ahead on arrival to coordinate staging, particularly on narrower residential blocks in the older downtown grid where truck access can be tight.
+ProRestoration Services operates out of Bakersfield and runs 24/7 emergency response. Delano sits roughly 35 miles north on Highway 99, a straight shot that keeps drive time predictable at most hours. For properties near Delano Regional Medical Center or the Cesar Chavez Park neighborhood, the Highway 99 approach puts crews on-site without navigating surface streets. We call ahead on arrival to coordinate staging, particularly on narrower residential blocks in the older downtown grid where truck access can be tight.
 
-Because Delano is underserved by local restoration contractors, many property owners have historically waited for crews to arrive from Bakersfield or even Fresno. That gap in coverage is exactly why we prioritize Delano calls — a faster response in the first hours after a fire limits secondary smoke damage and reduces the total scope of restoration work.
+Because Delano is underserved by local restoration contractors, many property owners have historically waited for crews to arrive from Bakersfield or even Fresno. That gap in coverage is exactly why we prioritize Delano calls, a faster response in the first hours after a fire limits secondary smoke damage and reduces the total scope of restoration work.
 
 ## Delano Insurance Coordination
 
-Most homeowner policies in Kern County cover fire damage restoration, including smoke and soot cleanup, structural repairs, and temporary housing costs. We work directly with adjusters from the major carriers and provide a complete written scope of loss — itemized by material type, affected area, and restoration method — that aligns with Xactimate estimating standards most adjusters use. This documentation matters especially for older Downtown Delano homes where pre-existing conditions (aging wiring, older roofing) can complicate adjuster assessments if the fire damage isn't clearly separated from deferred maintenance in the claim file.
+Most homeowner policies in Kern County cover fire damage restoration, including smoke and soot cleanup, structural repairs, and temporary housing costs. We work directly with adjusters from the major carriers and provide a complete written scope of loss, itemized by material type, affected area, and restoration method, that aligns with Xactimate estimating standards most adjusters use. This documentation matters especially for older Downtown Delano homes where pre-existing conditions (aging wiring, older roofing) can complicate adjuster assessments if the fire damage isn't clearly separated from deferred maintenance in the claim file.
 
 ## Local Note
 
-One detail that catches out-of-area contractors in Delano: the older downtown bungalows along Randolph Street and Cecil Avenue were frequently retrofitted with swamp coolers rather than central HVAC. After a fire, those evaporative cooler ducts — often metal-lined but unsealed at the plenum — act as direct conduits for smoke into every room on the system. Standard duct cleaning equipment isn't always sized for the larger-diameter swamp cooler ducting. We carry the appropriate tooling and treat those ducts as a primary smoke migration pathway on every older Delano home, not an afterthought.
+One detail that catches out-of-area contractors in Delano: the older downtown bungalows along Randolph Street and Cecil Avenue were frequently retrofitted with swamp coolers rather than central HVAC. After a fire, those evaporative cooler ducts, often metal-lined but unsealed at the plenum, act as direct conduits for smoke into every room on the system. Standard duct cleaning equipment isn't always sized for the larger-diameter swamp cooler ducting. We carry the appropriate tooling and treat those ducts as a primary smoke migration pathway on every older Delano home, not an afterthought.
 
 If your property in the 93215 or 93216 ZIP codes has been damaged by fire, call ProRestoration Services at (661) 393-9306. We're available around the clock, and our crew can be moving north on Highway 99 toward Delano while you're still on the phone.

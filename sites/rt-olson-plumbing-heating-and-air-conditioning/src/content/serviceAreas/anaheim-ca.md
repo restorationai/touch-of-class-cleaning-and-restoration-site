@@ -23,37 +23,37 @@ RT Olson Plumbing, Heating and Air Conditioning dispatches around the clock from
 
 ## Restoration emergencies common in Anaheim
 
-Anaheim sits in the inland edge of the Los Angeles Basin, where the climate swings between long dry stretches and short, intense winter rain events. That pattern matters for plumbing and HVAC systems. Pipes that sit dormant through a hot, dry summer can crack or corrode at joints just as the first cold front arrives. When rain does come, it tends to come fast — overwhelming aging municipal storm drains and pushing water toward foundations and garage slabs before the ground can absorb it.
+Anaheim sits in the inland edge of the Los Angeles Basin, where the climate swings between long dry stretches and short, intense winter rain events. That pattern matters for plumbing and HVAC systems. Pipes that sit dormant through a hot, dry summer can crack or corrode at joints just as the first cold front arrives. When rain does come, it tends to come fast, overwhelming aging municipal storm drains and pushing water toward foundations and garage slabs before the ground can absorb it.
 
-The city's housing stock amplifies the risk. A large share of Anaheim's single-family homes were built between the late 1940s and the early 1970s, when galvanized steel supply lines and cast-iron drain stacks were standard. Galvanized pipe corrodes from the inside out; by the time reduced water pressure becomes obvious at the tap, the interior of the pipe may already be heavily scaled or pinholed. Slab-on-grade construction — common across Anaheim's postwar subdivisions — means a supply-line leak beneath the concrete can go undetected until a water bill spikes or a warm spot appears underfoot.
+The city's housing stock amplifies the risk. A large share of Anaheim's single-family homes were built between the late 1940s and the early 1970s, when galvanized steel supply lines and cast-iron drain stacks were standard. Galvanized pipe corrodes from the inside out; by the time reduced water pressure becomes obvious at the tap, the interior of the pipe may already be heavily scaled or pinholed. Slab-on-grade construction, common across Anaheim's postwar subdivisions, means a supply-line leak beneath the concrete can go undetected until a water bill spikes or a warm spot appears underfoot.
 
 ## Services we provide in Anaheim
 
 ### Emergency plumbing
-A burst pipe or slab leak doesn't wait for business hours, and Anaheim's older galvanized and copper systems are prone to failure at fittings and transitions. RT Olson dispatches 24/7, so a call at midnight gets the same response as a call at noon. We locate the break, isolate the affected line, and make the repair — whether that means an above-slab fix or a reroute around a compromised slab section.
+A burst pipe or slab leak doesn't wait for business hours, and Anaheim's older galvanized and copper systems are prone to failure at fittings and transitions. RT Olson dispatches 24/7, so a call at midnight gets the same response as a call at noon. We locate the break, isolate the affected line, and make the repair, whether that means an above-slab fix or a reroute around a compromised slab section.
 
 ### Drain cleaning and sewer service
 Root intrusion is a recurring problem in Anaheim neighborhoods where mature trees line older streets. Cast-iron and clay sewer laterals from the 1950s and 1960s are especially vulnerable. We clear blockages with hydro-jetting and can run a camera inspection to show you exactly what's happening inside the line before recommending a repair scope.
 
 ### Water heater repair and replacement
-Anaheim's hard water — fed by a blend of Colorado River and State Water Project supplies — accelerates sediment buildup inside tank water heaters. That rumbling or popping sound from the utility closet is usually sediment cracking under the burner. We service, flush, and replace both tank and tankless units, and we can advise on whether a recirculation system makes sense for larger homes.
+Anaheim's hard water, fed by a blend of Colorado River and State Water Project supplies, accelerates sediment buildup inside tank water heaters. That rumbling or popping sound from the utility closet is usually sediment cracking under the burner. We service, flush, and replace both tank and tankless units, and we can advise on whether a recirculation system makes sense for larger homes.
 
 ### Heating and air conditioning
 Anaheim summers regularly push into the high 90s. An air conditioner that's been limping through deferred maintenance tends to fail on the hottest day of the year. We service, repair, and replace residential and light-commercial HVAC systems, including tune-ups before the season starts and emergency repairs when the system stops mid-summer.
 
 ### Leak detection
-Slab leaks and concealed pipe leaks are among the most destructive — and most common — problems in Anaheim's postwar housing. We use electronic listening equipment and pressure testing to locate leaks without unnecessary demolition.
+Slab leaks and concealed pipe leaks are among the most destructive, and most common, problems in Anaheim's postwar housing. We use electronic listening equipment and pressure testing to locate leaks without unnecessary demolition.
 
 ## Coverage and how fast we can get there
 
-From RT Olson's Corona headquarters, Anaheim is a straightforward run west on the 91 Freeway — typically 20 to 30 miles depending on the exact destination in the city. The eastern side of Anaheim, near the 91 and 55 interchange, is closest. The resort district and western neighborhoods near the 5 Freeway add a few miles but remain well within our regular service area. Because we run 24/7, we're not working around rush-hour dispatch windows — a call at 3 a.m. goes to an on-call technician who can be rolling within minutes of your call.
+From RT Olson's Corona headquarters, Anaheim is a straightforward run west on the 91 Freeway, typically 20 to 30 miles depending on the exact destination in the city. The eastern side of Anaheim, near the 91 and 55 interchange, is closest. The resort district and western neighborhoods near the 5 Freeway add a few miles but remain well within our regular service area. Because we run 24/7, we're not working around rush-hour dispatch windows, a call at 3 a.m. goes to an on-call technician who can be rolling within minutes of your call.
 
 ## Building stock, site conditions, and permits in Anaheim
 
-Most of Anaheim's residential neighborhoods were developed on slab-on-grade foundations during the postwar suburban expansion of the 1950s through 1970s. That era's plumbing typically means galvanized steel supply lines and cast-iron or clay drain systems — materials that are now well past their design life in the oldest homes. Homes built before the late 1970s may also contain asbestos-containing pipe insulation or joint compound, which affects how any invasive repair scope is planned.
+Most of Anaheim's residential neighborhoods were developed on slab-on-grade foundations during the postwar suburban expansion of the 1950s through 1970s. That era's plumbing typically means galvanized steel supply lines and cast-iron or clay drain systems, materials that are now well past their design life in the oldest homes. Homes built before the late 1970s may also contain asbestos-containing pipe insulation or joint compound, which affects how any invasive repair scope is planned.
 
 Anaheim's soils include expansive clays in some areas, which shift seasonally as they wet and dry. That movement stresses slab penetrations and underground laterals over time. The city sits in a seismically active region, and the proximity of the Newport-Inglewood and Whittier fault systems is reflected in California's statewide seismic design requirements.
 
-Permits for plumbing, mechanical, and HVAC work in Anaheim are issued through the City of Anaheim's Planning and Building Department. Most water heater replacements, drain-line repairs beyond a certain scope, and HVAC changeouts require a permit and inspection. HOA-governed communities — common in newer attached-housing developments near the resort corridor — may add a layer of approval before exterior or common-area work begins.
+Permits for plumbing, mechanical, and HVAC work in Anaheim are issued through the City of Anaheim's Planning and Building Department. Most water heater replacements, drain-line repairs beyond a certain scope, and HVAC changeouts require a permit and inspection. HOA-governed communities, common in newer attached-housing developments near the resort corridor, may add a layer of approval before exterior or common-area work begins.
 
 If your home is showing signs of a slab leak, a failing water heater, or an HVAC system that can't keep up, call RT Olson Plumbing, Heating and Air Conditioning at (951) 344-5596. We're available around the clock and can schedule a same-day visit to Anaheim.

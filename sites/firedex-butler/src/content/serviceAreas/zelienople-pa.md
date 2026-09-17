@@ -19,15 +19,15 @@ state: "PA"
 primary: false
 rendered: true
 ---
-When a pipe bursts in a century-old Main Street storefront or the Connoquenessing Creek pushes water into a Jackson Township basement, FireDEX Butler is the crew Zelienople property owners call. Operating around the clock since 1981, we handle water damage, fire and smoke losses, mold remediation, and full reconstruction — and because our Cranberry Township headquarters sits roughly ten minutes south on Route 19, we reach 16063 addresses faster than most regional firms dispatching from Pittsburgh.
+When a pipe bursts in a century-old Main Street storefront or the Connoquenessing Creek pushes water into a Jackson Township basement, FireDEX Butler is the crew Zelienople property owners call. Operating around the clock since 1981, we handle water damage, fire and smoke losses, mold remediation, and full reconstruction, and because our Cranberry Township headquarters sits roughly ten minutes south on Route 19, we reach 16063 addresses faster than most regional firms dispatching from Pittsburgh.
 
 ## Restoration emergencies common in Zelienople
 
 Zelienople's restoration profile is shaped by two forces that rarely change: the Connoquenessing Creek's floodplain and the borough's pre-war building stock.
 
-The creek runs close enough to Zelienople Community Park and the surrounding low-lying streets that a heavy-rain event — the kind that rolls through Butler County several times a year — can push groundwater up through basement floors and send surface runoff into crawl spaces before homeowners realize what's happening. Mold colonization can begin within 24 to 48 hours of saturation, so the window between a flood event and a secondary remediation problem is short.
+The creek runs close enough to Zelienople Community Park and the surrounding low-lying streets that a heavy-rain event, the kind that rolls through Butler County several times a year, can push groundwater up through basement floors and send surface runoff into crawl spaces before homeowners realize what's happening. Mold colonization can begin within 24 to 48 hours of saturation, so the window between a flood event and a secondary remediation problem is short.
 
-The housing stock compounds the risk. Homes and commercial buildings along the Main Street district and near the Passavant House corridor frequently sit on stone foundations that were never designed to be waterproof in the modern sense. Original galvanized supply lines corrode from the inside out and fail without warning. Knob-and-tube wiring — still present in a surprising number of pre-1940 structures — creates fire exposure that modern electrical systems don't carry. The same aging-building profile extends into the Harmony borders, where the historic district shares Zelienople's era of construction. When a fire does occur in one of these older structures, smoke and soot penetrate plaster walls and original woodwork in ways that require different extraction methods than drywall construction.
+The housing stock compounds the risk. Homes and commercial buildings along the Main Street district and near the Passavant House corridor frequently sit on stone foundations that were never designed to be waterproof in the modern sense. Original galvanized supply lines corrode from the inside out and fail without warning. Knob-and-tube wiring, still present in a surprising number of pre-1940 structures, creates fire exposure that modern electrical systems don't carry. The same aging-building profile extends into the Harmony borders, where the historic district shares Zelienople's era of construction. When a fire does occur in one of these older structures, smoke and soot penetrate plaster walls and original woodwork in ways that require different extraction methods than drywall construction.
 
 The Four Corners area and Jackson Township bring their own patterns: newer residential subdivisions with finished basements that amplify the cost of any water intrusion, and slab-on-grade builds where a slow leak under a floor can go undetected for weeks.
 
@@ -35,7 +35,7 @@ The Four Corners area and Jackson Township bring their own patterns: newer resid
 
 ### Water damage restoration
 
-Water damage in Zelienople often involves the combination of a saturated stone foundation and finished living space above it. We extract standing water, use thermal imaging to locate moisture hidden behind plaster and lath, and dry structural assemblies to IICRC S500 standards — documenting every moisture reading for your insurance carrier along the way.
+Water damage in Zelienople often involves the combination of a saturated stone foundation and finished living space above it. We extract standing water, use thermal imaging to locate moisture hidden behind plaster and lath, and dry structural assemblies to IICRC S500 standards, documenting every moisture reading for your insurance carrier along the way.
 
 ### Fire and smoke damage restoration
 
@@ -43,7 +43,7 @@ Older homes near the Strand Theater and the Main Street district present particu
 
 ### Mold remediation
 
-Basements along the Connoquenessing Creek floodplain are among the most common mold referrals we receive from Zelienople. We contain affected areas, remove compromised materials, treat surfaces, and address the moisture source — because remediation without fixing the underlying water pathway is a temporary fix at best.
+Basements along the Connoquenessing Creek floodplain are among the most common mold referrals we receive from Zelienople. We contain affected areas, remove compromised materials, treat surfaces, and address the moisture source, because remediation without fixing the underlying water pathway is a temporary fix at best.
 
 ### Commercial and property-manager services
 
@@ -51,16 +51,16 @@ Multi-unit buildings and commercial storefronts in the Main Street district ofte
 
 ### Full reconstruction
 
-When damage goes beyond remediation — a collapsed section of a stone foundation wall, fire-damaged roof framing, or floors that cannot be dried in place — our reconstruction team carries the project from demo through finished surfaces under one contract.
+When damage goes beyond remediation, a collapsed section of a stone foundation wall, fire-damaged roof framing, or floors that cannot be dried in place, our reconstruction team carries the project from demo through finished surfaces under one contract.
 
 ## Coverage and how fast we can get there
 
-FireDEX Butler's Cranberry Township headquarters puts Zelienople within easy reach via Route 19 north, a direct corridor that connects the two communities without highway interchange delays. The Four Corners area and Jackson Township are accessible from the same route, while neighborhoods closer to the Zelienople Municipal Airport or the Harmony borders are a short additional drive east or west. Because we operate 24/7, a call at 2 a.m. after a basement flood gets the same dispatch priority as a midday call — crews are staged and available around the clock.
+FireDEX Butler's Cranberry Township headquarters puts Zelienople within easy reach via Route 19 north, a direct corridor that connects the two communities without highway interchange delays. The Four Corners area and Jackson Township are accessible from the same route, while neighborhoods closer to the Zelienople Municipal Airport or the Harmony borders are a short additional drive east or west. Because we operate 24/7, a call at 2 a.m. after a basement flood gets the same dispatch priority as a midday call, crews are staged and available around the clock.
 
 ## Building stock, site conditions, and permits in Zelienople
 
-Beyond the stone-foundation cellars downtown, most Zelienople houses put a full basement under the living space, so water almost always ends up in the lowest, most finished part of the building. Pre-1978 structures should be treated as having lead paint, and pre-war and mid-century buildings often hide asbestos in floor tile, mastic, and pipe wrap — that changes how demolition gets scoped. Cast iron drain stacks and clay tile laterals of the same vintage crack and back up long before the supply side gives out. Frost depth in this part of western Pennsylvania runs to roughly three feet, so shallow lines and hose bibs are a winter risk.
+Beyond the stone-foundation cellars downtown, most Zelienople houses put a full basement under the living space, so water almost always ends up in the lowest, most finished part of the building. Pre-1978 structures should be treated as having lead paint, and pre-war and mid-century buildings often hide asbestos in floor tile, mastic, and pipe wrap, that changes how demolition gets scoped. Cast iron drain stacks and clay tile laterals of the same vintage crack and back up long before the supply side gives out. Frost depth in this part of western Pennsylvania runs to roughly three feet, so shallow lines and hose bibs are a winter risk.
 
 Building permits come from the borough for Zelienople addresses and from Jackson Township for those outside it, both working under Pennsylvania's Uniform Construction Code. Structural repair, framing replacement, and electrical or plumbing rework generally trigger one.
 
-If you're dealing with water, fire, smoke, or mold damage anywhere in the 16063 ZIP code, call FireDEX Butler at **(724) 452-7400** — day or night. The sooner the assessment begins, the more of your structure and contents we can protect.
+If you're dealing with water, fire, smoke, or mold damage anywhere in the 16063 ZIP code, call FireDEX Butler at **(724) 452-7400**, day or night. The sooner the assessment begins, the more of your structure and contents we can protect.

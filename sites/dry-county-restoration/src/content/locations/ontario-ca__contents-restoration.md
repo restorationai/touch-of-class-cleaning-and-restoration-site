@@ -20,26 +20,26 @@ state: "CA"
 service_display: "Contents Restoration and Storage"
 rendered: true
 ---
-Ontario's inland location puts it squarely in one of Southern California's harshest thermal corridors — summer temperatures that routinely push past 100°F accelerate mold colonization on wet contents and cause smoke odor to bake deeper into upholstered furniture after a fire. When a loss event forces you out of your home or forces your belongings out of a damaged room, you need more than a warehouse — you need a structured pack-out, cleaning, and storage process that accounts for what the Inland Empire heat actually does to your things between the day they leave and the day they come back.
+Ontario's inland location puts it squarely in one of Southern California's harshest thermal corridors, summer temperatures that routinely push past 100°F accelerate mold colonization on wet contents and cause smoke odor to bake deeper into upholstered furniture after a fire. When a loss event forces you out of your home or forces your belongings out of a damaged room, you need more than a warehouse, you need a structured pack-out, cleaning, and storage process that accounts for what the Inland Empire heat actually does to your things between the day they leave and the day they come back.
 
 ## Why Ontario Properties Face Distinctive Contents Challenges
 
 Ontario sits in the western San Bernardino Valley, where the combination of hot, dry summers and periodic Santa Ana wind events creates a specific damage profile. Wildfire smoke carried on those offshore winds can infiltrate homes miles from any active fire, leaving a fine soot film on fabrics, electronics, and wood furniture even when there is no structural fire damage at all. That film is acidic. Left on metal hardware, it pits the finish within days. Left on upholstery, it bonds with the fiber as temperatures climb.
 
-The city also carries a significant stock of mid-century residential construction — ranch-style homes built through the 1950s, 1960s, and 1970s that often feature original hardwood floors, plaster walls, and cabinetry with oil-based finishes. Those materials respond differently to water and smoke than modern engineered wood or laminate. Plaster walls, for example, can hold moisture deep in the substrate long after the surface reads dry, and that trapped humidity continues to affect stored furniture and textiles in adjacent rooms. Identifying which contents are salvageable — and which have absorbed enough moisture or soot to require specialized treatment — requires a methodical inventory, not a quick visual scan.
+The city also carries a significant stock of mid-century residential construction, ranch-style homes built through the 1950s, 1960s, and 1970s that often feature original hardwood floors, plaster walls, and cabinetry with oil-based finishes. Those materials respond differently to water and smoke than modern engineered wood or laminate. Plaster walls, for example, can hold moisture deep in the substrate long after the surface reads dry, and that trapped humidity continues to affect stored furniture and textiles in adjacent rooms. Identifying which contents are salvageable, and which have absorbed enough moisture or soot to require specialized treatment, requires a methodical inventory, not a quick visual scan.
 
 ## Our Contents Pack-Out and Restoration Process
 
-Every contents job begins with a room-by-room inventory before anything is moved. Each item is photographed, logged by category and condition, and assigned a priority level — fragile, high-value, contaminated, or structurally compromised. That documentation matters for your insurance claim and gives you a clear record of what left your home and in what condition.
+Every contents job begins with a room-by-room inventory before anything is moved. Each item is photographed, logged by category and condition, and assigned a priority level, fragile, high-value, contaminated, or structurally compromised. That documentation matters for your insurance claim and gives you a clear record of what left your home and in what condition.
 
-From there, items are carefully packed using materials rated for the specific contents — electronics wrapped and sealed against humidity, textiles bagged to prevent cross-contamination, furniture padded and loaded to avoid transit damage. Once at our secure climate-controlled storage facility, contents are sorted by restoration pathway:
+From there, items are carefully packed using materials rated for the specific contents, electronics wrapped and sealed against humidity, textiles bagged to prevent cross-contamination, furniture padded and loaded to avoid transit damage. Once at our secure climate-controlled storage facility, contents are sorted by restoration pathway:
 
 - **Ultrasonic cleaning** for hard goods, collectibles, and detailed items where hand-cleaning would miss residue in seams or crevices
 - **Ozone and hydroxyl treatment** for soft goods and furniture with smoke or odor penetration
 - **Dry-cleaning and textile restoration** for clothing, drapes, and upholstery
 - **Electronics evaluation and cleaning** coordinated with qualified electronics restorers
 
-Items are held in climate-controlled storage until your property is ready to receive them — not until it's convenient for us to schedule a return trip.
+Items are held in climate-controlled storage until your property is ready to receive them, not until it's convenient for us to schedule a return trip.
 
 ## Reaching Ontario from Corona
 
@@ -47,10 +47,10 @@ Dry County Restoration is headquartered in Corona, which puts Ontario within a s
 
 ## Insurance Coordination for Ontario Contents Claims
 
-Contents losses are often the most contested part of a property insurance claim because adjusters and policyholders frequently disagree on what is salvageable versus what requires replacement. Our itemized inventory — with photographs, condition notes, and restoration cost estimates — gives your adjuster the documentation needed to process the contents portion of your claim accurately. We work directly with most major carriers and can communicate with your assigned adjuster throughout the pack-out, cleaning, and return process so you are not left translating between your restoration team and your insurance company.
+Contents losses are often the most contested part of a property insurance claim because adjusters and policyholders frequently disagree on what is salvageable versus what requires replacement. Our itemized inventory, with photographs, condition notes, and restoration cost estimates, gives your adjuster the documentation needed to process the contents portion of your claim accurately. We work directly with most major carriers and can communicate with your assigned adjuster throughout the pack-out, cleaning, and return process so you are not left translating between your restoration team and your insurance company.
 
 ## Local Note
 
-Ontario's position in the Inland Empire means that even homes without any direct fire or water damage can sustain contents losses during extended power outages following summer heat events — refrigerated and frozen goods aside, the bigger risk is humidity cycling inside a sealed home when HVAC systems go offline for more than 24 hours. In older homes with original wood furniture and antique textiles, that cycling can cause warping, cracking, and mildew growth on items that appeared fine when the power went out. If you're dealing with an outage-related loss or a loss adjacent to wildfire activity in the region, it's worth having your contents assessed even if the structure itself looks intact.
+Ontario's position in the Inland Empire means that even homes without any direct fire or water damage can sustain contents losses during extended power outages following summer heat events, refrigerated and frozen goods aside, the bigger risk is humidity cycling inside a sealed home when HVAC systems go offline for more than 24 hours. In older homes with original wood furniture and antique textiles, that cycling can cause warping, cracking, and mildew growth on items that appeared fine when the power went out. If you're dealing with an outage-related loss or a loss adjacent to wildfire activity in the region, it's worth having your contents assessed even if the structure itself looks intact.
 
-If your Ontario home or business has experienced a fire, water event, or smoke intrusion, call Dry County Restoration at (951) 667-9910. We'll inventory, pack out, clean, and store your belongings — and return them when your property is ready — so that recovering your home doesn't mean starting over on everything inside it.
+If your Ontario home or business has experienced a fire, water event, or smoke intrusion, call Dry County Restoration at (951) 667-9910. We'll inventory, pack out, clean, and store your belongings, and return them when your property is ready, so that recovering your home doesn't mean starting over on everything inside it.

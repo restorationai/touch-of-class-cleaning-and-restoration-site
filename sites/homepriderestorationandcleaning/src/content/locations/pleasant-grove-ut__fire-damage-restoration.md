@@ -24,37 +24,37 @@ A house fire in Pleasant Grove hits differently than in most Utah County cities.
 
 ## Why Pleasant Grove Homes Face Particular Fire Damage Challenges
 
-Pleasant Grove's housing stock tells two different stories. Neighborhoods closer to the historic downtown core — near the old Kiwanis Park area — include homes from the 1950s and 1960s with plaster-and-lath walls, original wood framing, and older HVAC ductwork. When fire moves through these structures, smoke and combustion byproducts travel through wall cavities and duct systems more aggressively than in newer construction. Odor molecules bind to porous plaster, horsehair insulation, and aged wood in ways that surface cleaning alone cannot address.
+Pleasant Grove's housing stock tells two different stories. Neighborhoods closer to the historic downtown core, near the old Kiwanis Park area, include homes from the 1950s and 1960s with plaster-and-lath walls, original wood framing, and older HVAC ductwork. When fire moves through these structures, smoke and combustion byproducts travel through wall cavities and duct systems more aggressively than in newer construction. Odor molecules bind to porous plaster, horsehair insulation, and aged wood in ways that surface cleaning alone cannot address.
 
-The newer subdivisions on the east bench, closer to the foothills, present a different challenge: open floor plans and vaulted ceilings in homes built after 2000 allow smoke to stratify across large volumes of space. Soot deposits on textured ceilings and in HVAC systems serving multiple zones require systematic room-by-room air scrubbing rather than spot treatment. Either way, Pleasant Grove's low winter humidity — often below 20% — accelerates the bonding of smoke residue to surfaces, which means the clock starts running the moment the fire is out.
+The newer subdivisions on the east bench, closer to the foothills, present a different challenge: open floor plans and vaulted ceilings in homes built after 2000 allow smoke to stratify across large volumes of space. Soot deposits on textured ceilings and in HVAC systems serving multiple zones require systematic room-by-room air scrubbing rather than spot treatment. Either way, Pleasant Grove's low winter humidity, often below 20%, accelerates the bonding of smoke residue to surfaces, which means the clock starts running the moment the fire is out.
 
 ## Our Fire and Smoke Restoration Process in Pleasant Grove
 
-When we arrive on-site, the first priority is a thorough structural assessment — not just what burned, but where smoke traveled. In Pleasant Grove's older ranch homes, that often means pulling back ductwork registers and checking attic spaces for soot migration before any surface work begins.
+When we arrive on-site, the first priority is a thorough structural assessment, not just what burned, but where smoke traveled. In Pleasant Grove's older ranch homes, that often means pulling back ductwork registers and checking attic spaces for soot migration before any surface work begins.
 
 From there, the process moves through these concrete phases:
 
 - **Emergency board-up and tarping** to secure the structure and prevent weather intrusion, which matters especially during Pleasant Grove's spring wind events that can push rain into compromised rooflines.
-- **Controlled demolition** of unsalvageable materials — charred framing, melted insulation, smoke-saturated drywall — with documentation for your insurance adjuster.
+- **Controlled demolition** of unsalvageable materials, charred framing, melted insulation, smoke-saturated drywall, with documentation for your insurance adjuster.
 - **HEPA air scrubbing and hydroxyl generation** to begin breaking down airborne smoke particles and odor compounds throughout the structure.
 - **Thermal fogging and dry-ice blasting** on surfaces where soot has penetrated porous materials, particularly on exposed wood framing and masonry.
-- **Structural drying** to address water damage from firefighting efforts — a step that's easy to underestimate, since a single hose line can deposit hundreds of gallons into a structure.
+- **Structural drying** to address water damage from firefighting efforts, a step that's easy to underestimate, since a single hose line can deposit hundreds of gallons into a structure.
 - **Reconstruction coordination**, from framing and insulation through drywall, paint, and finish work, so you're working with one company from emergency response through move-in.
 
 We are IICRC Certified and licensed in Utah (License #RC-25-0737), and we work directly with insurance carriers to document every phase.
 
 ## Response Time to Pleasant Grove from Our Saratoga Springs HQ
 
-Our headquarters in Saratoga Springs sits roughly 10–12 miles from central Pleasant Grove via Redwood Road and Utah Lake's west corridor, or via I-15 north to the Pleasant Grove Boulevard exit. Under normal traffic conditions, we can have a crew on-site in 84003 or 84062 within 45 to 60 minutes of your call — often faster during off-peak hours. For addresses on the east bench near the Murdock Canal Trail corridor, add 5–10 minutes for the climb into those neighborhoods. Call us at (801) 995-2437 the moment the fire department clears you to re-enter.
+Our headquarters in Saratoga Springs sits roughly 10–12 miles from central Pleasant Grove via Redwood Road and Utah Lake's west corridor, or via I-15 north to the Pleasant Grove Boulevard exit. Under normal traffic conditions, we can have a crew on-site in 84003 or 84062 within 45 to 60 minutes of your call, often faster during off-peak hours. For addresses on the east bench near the Murdock Canal Trail corridor, add 5–10 minutes for the climb into those neighborhoods. Call us at (801) 995-2437 the moment the fire department clears you to re-enter.
 
 ## Insurance and Permit Coordination in Pleasant Grove
 
-Pleasant Grove City requires building permits for structural repairs following fire damage, and the permit process through the city's Community Development department can affect your project timeline if it isn't initiated early. We pull the necessary permits and schedule required inspections as part of our project management — it's not something you should have to track while also dealing with a displacement claim.
+Pleasant Grove City requires building permits for structural repairs following fire damage, and the permit process through the city's Community Development department can affect your project timeline if it isn't initiated early. We pull the necessary permits and schedule required inspections as part of our project management, it's not something you should have to track while also dealing with a displacement claim.
 
 On the insurance side, Utah County adjusters handling fire claims typically want a line-item scope of loss before authorizing reconstruction. We prepare that documentation using Xactimate, the same estimating platform most carriers use, which reduces back-and-forth and speeds up your claim approval.
 
 ## Local Note
 
-One thing we've learned working in Pleasant Grove specifically: homes in the older blocks near the downtown grid often have original cast-iron or galvanized supply lines. When firefighters flood a structure, those aging pipes sometimes fail under the pressure surge — adding a plumbing emergency on top of the fire damage. We check water supply lines during our initial walkthrough on any pre-1980 Pleasant Grove home, so a secondary leak doesn't quietly saturate the subfloor while we're focused on smoke remediation above it.
+One thing we've learned working in Pleasant Grove specifically: homes in the older blocks near the downtown grid often have original cast-iron or galvanized supply lines. When firefighters flood a structure, those aging pipes sometimes fail under the pressure surge, adding a plumbing emergency on top of the fire damage. We check water supply lines during our initial walkthrough on any pre-1980 Pleasant Grove home, so a secondary leak doesn't quietly saturate the subfloor while we're focused on smoke remediation above it.
 
-Fire damage doesn't wait, and neither should you. If your home or property in Pleasant Grove has been through a fire — whether it's a kitchen fire that got into the walls or a structural fire that compromised multiple rooms — call Home Pride Restoration and Cleaning at (801) 995-2437. We'll be on-site fast, we'll work with your insurance carrier, and we'll restore your home to the way it was before the smoke settled.
+Fire damage doesn't wait, and neither should you. If your home or property in Pleasant Grove has been through a fire, whether it's a kitchen fire that got into the walls or a structural fire that compromised multiple rooms, call Home Pride Restoration and Cleaning at (801) 995-2437. We'll be on-site fast, we'll work with your insurance carrier, and we'll restore your home to the way it was before the smoke settled.

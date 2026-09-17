@@ -20,11 +20,11 @@ state: "TX"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
-Paint Rock sits in the heart of Concho County, where West Texas weather doesn't ease into a storm — it arrives hard and fast. Hail the size of quarters, straight-line winds that push past 70 mph, and the occasional tornado touchdown are seasonal realities for homeowners and ranchers here. When a storm tears through, the window between the last rumble of thunder and the start of secondary damage — mold, structural compromise, soaked insulation — is shorter than most people expect. Air Care Restoration responds 24/7, dispatching from Abilene to get eyes and equipment on your property as quickly as road conditions allow.
+Paint Rock sits in the heart of Concho County, where West Texas weather doesn't ease into a storm, it arrives hard and fast. Hail the size of quarters, straight-line winds that push past 70 mph, and the occasional tornado touchdown are seasonal realities for homeowners and ranchers here. When a storm tears through, the window between the last rumble of thunder and the start of secondary damage, mold, structural compromise, soaked insulation, is shorter than most people expect. Air Care Restoration responds 24/7, dispatching from Abilene to get eyes and equipment on your property as quickly as road conditions allow.
 
 ## Why Paint Rock Properties Face Particular Storm Risks
 
-Concho County's position on the southern edge of Tornado Alley means Paint Rock absorbs weather systems that have already built intensity tracking across open rangeland. There's little in the way of natural windbreak between here and the Rolling Plains to the north. That geography translates directly into roof damage patterns — lifted shingles, compromised ridge caps, and fascia that peels away before the storm even peaks.
+Concho County's position on the southern edge of Tornado Alley means Paint Rock absorbs weather systems that have already built intensity tracking across open rangeland. There's little in the way of natural windbreak between here and the Rolling Plains to the north. That geography translates directly into roof damage patterns, lifted shingles, compromised ridge caps, and fascia that peels away before the storm even peaks.
 
 The local housing stock adds another layer of complexity. Many homes in and around Paint Rock were built in an era when roof decking was thinner and framing ties weren't held to the hurricane-strap standards common in newer construction. When wind gets under a compromised shingle field, it can delaminate decking and expose the interior to rainfall within minutes. Older wood-framed structures also tend to have less vapor barrier between exterior sheathing and interior wall cavities, which means water intrusion travels farther and faster than it would in a home built in the last two decades.
 
@@ -32,31 +32,31 @@ Flash flooding is a secondary threat that follows hard rains across Concho Count
 
 ## Our Storm Damage Restoration Process in Paint Rock
 
-The first thing that happens on-site is a full exterior and interior assessment — not a sales walk, but a working inspection with moisture meters, thermal imaging, and a written scope. We document every point of water intrusion, every compromised structural element, and every material that has absorbed moisture. That documentation matters for your insurance claim and for building the correct drying plan.
+The first thing that happens on-site is a full exterior and interior assessment, not a sales walk, but a working inspection with moisture meters, thermal imaging, and a written scope. We document every point of water intrusion, every compromised structural element, and every material that has absorbed moisture. That documentation matters for your insurance claim and for building the correct drying plan.
 
 From there, the process moves in a deliberate sequence:
 
 - **Tarping and board-up** to stop active water intrusion before any interior work begins
 - **Extraction** of standing or pooled water using truck-mounted and portable units
 - **Structural drying** with industrial air movers and dehumidifiers, monitored daily against psychrometric targets until readings confirm materials have returned to acceptable moisture content
-- **Debris removal** — downed tree limbs, damaged roofing materials, destroyed insulation
+- **Debris removal**, downed tree limbs, damaged roofing materials, destroyed insulation
 - **Controlled demolition** of materials that cannot be dried in place (saturated OSB, drywall below the flood line, ruined insulation batts)
 - **Reconstruction coordination** once the structure is dry and the scope is agreed upon with your carrier
 
-As an IICRC Certified Firm, the drying phase follows the IICRC S500 standard for water damage and the S110 standard for storm response — not a rough estimate of "dry enough."
+As an IICRC Certified Firm, the drying phase follows the IICRC S500 standard for water damage and the S110 standard for storm response, not a rough estimate of "dry enough."
 
 ## Reaching Paint Rock from Abilene
 
-Air Care Restoration's base in Abilene puts Paint Rock within reach via US-83 South through Winters and into Concho County — a route that stays passable in most storm conditions short of active flooding on the Concho River crossings. Because we operate around the clock, a call at 2 a.m. after a storm cell moves through gets the same dispatch priority as a midday call. Travel time varies with conditions, but the crew leaves loaded — tarps, extraction equipment, and drying gear on the truck — so there's no second trip back to the shop for supplies.
+Air Care Restoration's base in Abilene puts Paint Rock within reach via US-83 South through Winters and into Concho County, a route that stays passable in most storm conditions short of active flooding on the Concho River crossings. Because we operate around the clock, a call at 2 a.m. after a storm cell moves through gets the same dispatch priority as a midday call. Travel time varies with conditions, but the crew leaves loaded, tarps, extraction equipment, and drying gear on the truck, so there's no second trip back to the shop for supplies.
 
 ## Paint Rock Insurance Coordination
 
-Most storm damage claims in this area run through carriers that are familiar with West Texas hail and wind events, which means adjusters have seen these loss patterns before. What slows claims down is incomplete documentation — photos taken after materials have dried out, moisture readings that weren't logged with timestamps, or a scope that doesn't account for hidden damage behind walls.
+Most storm damage claims in this area run through carriers that are familiar with West Texas hail and wind events, which means adjusters have seen these loss patterns before. What slows claims down is incomplete documentation, photos taken after materials have dried out, moisture readings that weren't logged with timestamps, or a scope that doesn't account for hidden damage behind walls.
 
 We photograph and document before anything is moved or removed, produce a detailed moisture log for the drying period, and can communicate directly with your adjuster to answer technical questions about the scope of work. Coverage and settlement decisions remain between you and your carrier, but we make sure the evidence supports what actually happened to your property.
 
 ## Local Note
 
-One thing that catches Paint Rock homeowners off guard: caliche soil around foundations doesn't drain the way clay or loam does. After a heavy storm, water that can't percolate into the ground tends to pond against foundation walls and find its way through any existing crack or gap in the stem wall. If your home sits on a pier-and-beam foundation — common in older Concho County construction — that standing water under the floor can saturate wood sills and joists without showing a single wet spot on the interior flooring above. Moisture readings from the crawl space tell a different story than what you'd see walking through the house, which is why we check both.
+One thing that catches Paint Rock homeowners off guard: caliche soil around foundations doesn't drain the way clay or loam does. After a heavy storm, water that can't percolate into the ground tends to pond against foundation walls and find its way through any existing crack or gap in the stem wall. If your home sits on a pier-and-beam foundation, common in older Concho County construction, that standing water under the floor can saturate wood sills and joists without showing a single wet spot on the interior flooring above. Moisture readings from the crawl space tell a different story than what you'd see walking through the house, which is why we check both.
 
 If your property took a hit from a recent storm, call Air Care Restoration at (325) 339-8723. We'll assess the damage, start protecting the structure, and walk you through every step from the first tarp to the final inspection.

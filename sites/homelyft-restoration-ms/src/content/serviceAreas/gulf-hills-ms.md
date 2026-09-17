@@ -19,11 +19,11 @@ state: "MS"
 primary: false
 rendered: true
 ---
-When water backs up under a slab, smoke works into the walls after a kitchen fire, or mold quietly spreads behind drywall during a humid Gulf Coast summer, Gulf Hills property owners need a restoration crew that knows this corner of Jackson County — not a call center routing you to whoever is available. HomeLyft Restoration MS dispatches from Gulfport and handles water damage mitigation, fire and smoke cleanup, mold remediation, and full reconstruction for homes and commercial properties throughout Gulf Hills and the surrounding Ocean Springs corridor.
+When water backs up under a slab, smoke works into the walls after a kitchen fire, or mold quietly spreads behind drywall during a humid Gulf Coast summer, Gulf Hills property owners need a restoration crew that knows this corner of Jackson County, not a call center routing you to whoever is available. HomeLyft Restoration MS dispatches from Gulfport and handles water damage mitigation, fire and smoke cleanup, mold remediation, and full reconstruction for homes and commercial properties throughout Gulf Hills and the surrounding Ocean Springs corridor.
 
 ## Restoration emergencies common in Gulf Hills
 
-Gulf Hills sits low along the back bays of Jackson County, and that geography shapes nearly every restoration call we receive here. The area's clay-heavy soils drain slowly, so even a moderate rainstorm can push groundwater against crawl space foundations and under slab flooring within hours. The Gulf of Mexico's humidity — routinely above 80 percent from May through October — means that any moisture intrusion left untreated for more than 24 to 48 hours creates conditions where mold can begin colonizing porous materials like drywall paper, OSB sheathing, and carpet padding.
+Gulf Hills sits low along the back bays of Jackson County, and that geography shapes nearly every restoration call we receive here. The area's clay-heavy soils drain slowly, so even a moderate rainstorm can push groundwater against crawl space foundations and under slab flooring within hours. The Gulf of Mexico's humidity, routinely above 80 percent from May through October, means that any moisture intrusion left untreated for more than 24 to 48 hours creates conditions where mold can begin colonizing porous materials like drywall paper, OSB sheathing, and carpet padding.
 
 The housing stock adds another layer of complexity. Many Gulf Hills homes were built in the 1960s through 1980s, a period when materials like asbestos-containing floor tile and lead-based paint were common. Older construction also tends to have pier-and-beam or shallow slab foundations that are more vulnerable to hydrostatic pressure. Post-Katrina rebuilds introduced a different set of issues: some insurance-driven repairs used materials or shortcuts that are showing their age now, particularly around window flashing and roof-to-wall connections that allow slow water intrusion during tropical weather events.
 
@@ -31,15 +31,15 @@ The housing stock adds another layer of complexity. Many Gulf Hills homes were b
 
 ### Water damage mitigation and drying
 
-Water damage in Gulf Hills often starts subtly — a slow roof leak during a Gulf squall, a supply line failure behind a vanity, or storm surge seeping under a door threshold. By the time it's visible, moisture has usually traveled further than the wet spot suggests. We extract standing water, use thermal imaging to map hidden saturation, and set drying equipment calibrated to Gulf Coast ambient conditions. Structural drying here takes longer than in drier climates; rushing it produces callbacks.
+Water damage in Gulf Hills often starts subtly, a slow roof leak during a Gulf squall, a supply line failure behind a vanity, or storm surge seeping under a door threshold. By the time it's visible, moisture has usually traveled further than the wet spot suggests. We extract standing water, use thermal imaging to map hidden saturation, and set drying equipment calibrated to Gulf Coast ambient conditions. Structural drying here takes longer than in drier climates; rushing it produces callbacks.
 
 ### Mold remediation
 
-The combination of heat, humidity, and older construction makes Gulf Hills one of the higher-risk zones in Jackson County for mold growth after any water event. We contain affected areas, remove compromised materials, treat structural surfaces, and document the process for insurance carriers and future buyers. We don't make health claims about mold exposure — that's your physician's territory — but we do follow established remediation protocols to reduce contamination and restore the space to a dry, cleanable condition.
+The combination of heat, humidity, and older construction makes Gulf Hills one of the higher-risk zones in Jackson County for mold growth after any water event. We contain affected areas, remove compromised materials, treat structural surfaces, and document the process for insurance carriers and future buyers. We don't make health claims about mold exposure, that's your physician's territory, but we do follow established remediation protocols to reduce contamination and restore the space to a dry, cleanable condition.
 
 ### Fire and smoke damage restoration
 
-Kitchen fires and electrical fires are the most common calls we receive after water damage. Smoke residue is acidic and continues etching surfaces — metal fixtures, glass, finished wood — for days after the flames are out. We assess the full smoke migration path, which in Gulf Hills homes with open floor plans and central HVAC can extend well beyond the room of origin, and we use dry-ice blasting and hydroxyl treatment where appropriate before any reconstruction begins.
+Kitchen fires and electrical fires are the most common calls we receive after water damage. Smoke residue is acidic and continues etching surfaces, metal fixtures, glass, finished wood, for days after the flames are out. We assess the full smoke migration path, which in Gulf Hills homes with open floor plans and central HVAC can extend well beyond the room of origin, and we use dry-ice blasting and hydroxyl treatment where appropriate before any reconstruction begins.
 
 ### Reconstruction and build-back
 
@@ -47,11 +47,11 @@ Once mitigation is complete, many property owners don't want to manage a separat
 
 ## Coverage and how fast we can get there
 
-Gulf Hills is roughly 8 to 10 miles east of our Gulfport headquarters via US-90 and MS-609. Under normal traffic conditions that's a straightforward run along the coast corridor — no significant bottlenecks outside of peak summer beach traffic on 90. We schedule service calls promptly and will give you a realistic arrival window when you call. Because our hours aren't listed as 24/7 here, we'll be direct with you: call us at (228) 284-5200 and we'll tell you exactly when we can be on-site.
+Gulf Hills is roughly 8 to 10 miles east of our Gulfport headquarters via US-90 and MS-609. Under normal traffic conditions that's a straightforward run along the coast corridor, no significant bottlenecks outside of peak summer beach traffic on 90. We schedule service calls promptly and will give you a realistic arrival window when you call. Because our hours aren't listed as 24/7 here, we'll be direct with you: call us at (228) 284-5200 and we'll tell you exactly when we can be on-site.
 
 ## Building stock, site conditions, and permits in Gulf Hills
 
-Gulf Hills is unincorporated, so building permits for structural repair or rebuild come from Jackson County rather than Ocean Springs city hall — a distinction worth knowing before demolition starts. Anything structural, plus roof and electrical work in most cases, triggers a permit, and lots near the back bays can also fall under flood-zone elevation rules that shape how far you can rebuild in place.
+Gulf Hills is unincorporated, so building permits for structural repair or rebuild come from Jackson County rather than Ocean Springs city hall, a distinction worth knowing before demolition starts. Anything structural, plus roof and electrical work in most cases, triggers a permit, and lots near the back bays can also fall under flood-zone elevation rules that shape how far you can rebuild in place.
 
 In homes of this vintage, expect copper supply lines and cast iron drains. Cast iron corrodes from the inside and fails at joints under slabs, which is why a slab leak here often shows up as warm flooring or a musty hallway rather than a visible drip. Where polybutylene was used in early-1980s work, fittings are the weak point.
 

@@ -20,38 +20,38 @@ state: "MN"
 service_display: "Post-Construction and Specialty Cleaning"
 rendered: true
 ---
-When a renovation wraps up near the Rock County Courthouse or a new build finishes out along the prairie edge of Luverne, what's left behind isn't just sawdust. Construction dust in southwest Minnesota carries a particular mix of silica from local quartzite stone work, drywall compound, and the fine grit that blows in off the open plains — especially after the spring and fall storm seasons that roll through Rock County with little warning. Crew Restoration & Construction provides post-construction and specialty cleaning that addresses what a standard janitorial crew simply isn't equipped to handle: embedded particulate, adhesive residue, paint overspray, and the kind of detail work that makes a finished space actually feel finished.
+When a renovation wraps up near the Rock County Courthouse or a new build finishes out along the prairie edge of Luverne, what's left behind isn't just sawdust. Construction dust in southwest Minnesota carries a particular mix of silica from local quartzite stone work, drywall compound, and the fine grit that blows in off the open plains, especially after the spring and fall storm seasons that roll through Rock County with little warning. Crew Restoration & Construction provides post-construction and specialty cleaning that addresses what a standard janitorial crew simply isn't equipped to handle: embedded particulate, adhesive residue, paint overspray, and the kind of detail work that makes a finished space actually feel finished.
 
 ## Why Luverne Properties See Distinctive Post-Construction Cleaning Challenges
 
-Luverne sits at the edge of Blue Mounds State Park, where Sioux quartzite outcroppings define the landscape. That same stone shows up in many local builds — as foundation material, decorative veneer, and in older commercial restorations around Downtown Luverne. Cutting and fitting quartzite generates a fine, abrasive dust that settles into HVAC returns, window tracks, and grout lines in ways that standard construction brooms and shop vacs miss entirely. Left unaddressed, it becomes a persistent air quality issue after occupancy.
+Luverne sits at the edge of Blue Mounds State Park, where Sioux quartzite outcroppings define the landscape. That same stone shows up in many local builds, as foundation material, decorative veneer, and in older commercial restorations around Downtown Luverne. Cutting and fitting quartzite generates a fine, abrasive dust that settles into HVAC returns, window tracks, and grout lines in ways that standard construction brooms and shop vacs miss entirely. Left unaddressed, it becomes a persistent air quality issue after occupancy.
 
-The region also experiences significant temperature swings between construction phases. A project started in late summer and completed in November may have had windows open for weeks during rough-in, allowing prairie dust and grain chaff from surrounding farmland to accumulate on every horizontal surface. By the time finish work is done, that layer has been painted over, walked over, and compressed — requiring systematic cleaning rather than a quick wipe-down.
+The region also experiences significant temperature swings between construction phases. A project started in late summer and completed in November may have had windows open for weeks during rough-in, allowing prairie dust and grain chaff from surrounding farmland to accumulate on every horizontal surface. By the time finish work is done, that layer has been painted over, walked over, and compressed, requiring systematic cleaning rather than a quick wipe-down.
 
-Older commercial buildings in the 56156 ZIP code — particularly those that have been renovated rather than built new — often have original plaster ceilings and woodwork that require gentler cleaning methods than modern drywall. Abrasive tools or high-pressure equipment can damage historic trim that took a contractor weeks to restore.
+Older commercial buildings in the 56156 ZIP code, particularly those that have been renovated rather than built new, often have original plaster ceilings and woodwork that require gentler cleaning methods than modern drywall. Abrasive tools or high-pressure equipment can damage historic trim that took a contractor weeks to restore.
 
 ## Our Post-Construction and Specialty Cleaning Process in Luverne
 
-Every post-construction clean starts with a walkthrough to assess what trades have been through the space and what they've left behind. We document the scope before touching anything — noting adhesive types, grout haze, paint splatter locations, and any sensitive surfaces like restored woodwork or polished concrete.
+Every post-construction clean starts with a walkthrough to assess what trades have been through the space and what they've left behind. We document the scope before touching anything, noting adhesive types, grout haze, paint splatter locations, and any sensitive surfaces like restored woodwork or polished concrete.
 
 From there, the process moves top to bottom and inside out:
 
 - **HVAC and duct registers** are vacuumed and wiped before any floor work begins, so dislodged dust doesn't resettle on cleaned surfaces.
-- **Windows and frames** get scraped for paint dots and construction labels, then cleaned with appropriate glass-safe solutions — quartzite dust is abrasive enough to scratch if wiped dry.
+- **Windows and frames** get scraped for paint dots and construction labels, then cleaned with appropriate glass-safe solutions, quartzite dust is abrasive enough to scratch if wiped dry.
 - **Hard floors** are swept with microfiber systems before any wet mopping, preventing the silica-heavy grit common in local builds from acting as sandpaper on finished surfaces.
-- **Specialty surfaces** — polished stone, stainless fixtures, tile grout — receive targeted treatments rather than a one-product approach.
+- **Specialty surfaces**, polished stone, stainless fixtures, tile grout, receive targeted treatments rather than a one-product approach.
 - **Final inspection pass** walks every room at low-angle light to catch streaks, residue, and missed spots before we sign off.
 
-For renovation projects in occupied buildings — a common scenario in Downtown Luverne's older commercial corridor — we sequence the clean to minimize disruption to any areas that remained in use during construction.
+For renovation projects in occupied buildings, a common scenario in Downtown Luverne's older commercial corridor, we sequence the clean to minimize disruption to any areas that remained in use during construction.
 
 ## Reaching Luverne from Sioux Falls
 
-Crew Restoration & Construction operates out of Sioux Falls, SD, roughly 90 miles northeast of Luverne via I-90. For scheduled post-construction cleans, we coordinate arrival times directly with the general contractor or property owner to align with project punch-list timelines. The Bluffs area on Luverne's west side and properties closer to Redbird Field on the east side of town are both straightforward to access — we confirm parking and equipment staging in advance, particularly for larger commercial jobs where we're bringing multiple crew members and equipment.
+Crew Restoration & Construction operates out of Sioux Falls, SD, roughly 90 miles northeast of Luverne via I-90. For scheduled post-construction cleans, we coordinate arrival times directly with the general contractor or property owner to align with project punch-list timelines. The Bluffs area on Luverne's west side and properties closer to Redbird Field on the east side of town are both straightforward to access, we confirm parking and equipment staging in advance, particularly for larger commercial jobs where we're bringing multiple crew members and equipment.
 
 Call (605) 965-2727 to schedule and we'll confirm logistics for your specific address.
 
 ## Local Note
 
-One thing that catches out-of-area cleaning crews in Luverne: the quartzite dust generated by local stone work behaves differently than standard drywall dust. It's denser, doesn't suspend in air as long, and settles into textured surfaces and grout lines where it bonds almost like a fine abrasive paste once humidity cycles through. Crews that vacuum once and mop once often leave a haze on tile floors and a gritty feel on window sills that clients notice immediately after move-in. The fix is a pre-treatment step on grout and textured surfaces before any wet cleaning — something we build into every Luverne job that involved masonry or stone work.
+One thing that catches out-of-area cleaning crews in Luverne: the quartzite dust generated by local stone work behaves differently than standard drywall dust. It's denser, doesn't suspend in air as long, and settles into textured surfaces and grout lines where it bonds almost like a fine abrasive paste once humidity cycles through. Crews that vacuum once and mop once often leave a haze on tile floors and a gritty feel on window sills that clients notice immediately after move-in. The fix is a pre-treatment step on grout and textured surfaces before any wet cleaning, something we build into every Luverne job that involved masonry or stone work.
 
 When your project in Luverne crosses the finish line, the last thing you want is a cleaning problem holding up occupancy or a final walkthrough. Call Crew Restoration & Construction at (605) 965-2727 to schedule your post-construction clean and get the space ready for what comes next.

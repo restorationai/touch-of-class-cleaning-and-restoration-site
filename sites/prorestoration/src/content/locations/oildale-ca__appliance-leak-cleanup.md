@@ -20,11 +20,11 @@ state: "CA"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
-When a dishwasher supply line fails or a water heater lets go in one of Oildale's 1950s-era cottages, the water doesn't just pool on the floor — it disappears into original hardwood subfloors, migrates under vinyl laid over concrete slabs, and wicks into wall cavities that were never designed with moisture barriers in mind. The older housing stock throughout the Riverview and Highland neighborhoods means a slow refrigerator ice-maker drip can do more structural damage here than the same leak in a newer Bakersfield tract home, and it can do it silently over days before anyone notices.
+When a dishwasher supply line fails or a water heater lets go in one of Oildale's 1950s-era cottages, the water doesn't just pool on the floor, it disappears into original hardwood subfloors, migrates under vinyl laid over concrete slabs, and wicks into wall cavities that were never designed with moisture barriers in mind. The older housing stock throughout the Riverview and Highland neighborhoods means a slow refrigerator ice-maker drip can do more structural damage here than the same leak in a newer Bakersfield tract home, and it can do it silently over days before anyone notices.
 
 ## Why Oildale Properties See More Appliance Leak Damage
 
-Oildale's roots as a Standard Oil company town mean most of the residential fabric in the 93308 ZIP code was built between the 1940s and 1960s. Supply lines to dishwashers and washing machines in these homes are often original braided-steel or rubber hose — materials that degrade on a 20-to-30-year clock, and many are now well past that. Refrigerators with ice makers were retrofitted into kitchens that were never plumbed for them, so the quarter-inch copper or plastic lines running to those units frequently run across subfloor cavities with no secondary containment underneath.
+Oildale's roots as a Standard Oil company town mean most of the residential fabric in the 93308 ZIP code was built between the 1940s and 1960s. Supply lines to dishwashers and washing machines in these homes are often original braided-steel or rubber hose, materials that degrade on a 20-to-30-year clock, and many are now well past that. Refrigerators with ice makers were retrofitted into kitchens that were never plumbed for them, so the quarter-inch copper or plastic lines running to those units frequently run across subfloor cavities with no secondary containment underneath.
 
 Kern County's climate adds another layer of stress. Summer temperatures in Oildale regularly push past 105°F, and that heat cycles through uninsulated crawl spaces and attic-adjacent utility closets where water heaters live. Expansion and contraction accelerate fitting failures on older connections. When a water heater pressure-relief valve weeps or a washing machine drain hose pops loose during a hot-cycle surge, the resulting water can travel a surprising distance before it surfaces as a visible stain.
 
@@ -32,30 +32,30 @@ Mobile home parks scattered along the Airport Drive corridor face their own vers
 
 ## Our Appliance Leak Cleanup Process in Oildale
 
-When you call (661) 393-9306, the process starts before a crew arrives. We ask you to locate the shutoff — under the sink for dishwashers, behind the unit for washing machines, at the saddle valve for ice makers — because stopping the source is the only thing that limits the loss in the minutes before we get there.
+When you call (661) 393-9306, the process starts before a crew arrives. We ask you to locate the shutoff, under the sink for dishwashers, behind the unit for washing machines, at the saddle valve for ice makers, because stopping the source is the only thing that limits the loss in the minutes before we get there.
 
 On arrival, the first priority is moisture mapping. We use thermal imaging cameras and calibrated moisture meters to trace exactly where water has traveled, including under flooring and inside wall cavities. In Oildale's older homes, water commonly migrates farther than it appears to on the surface because original subfloor boards have gaps that act as channels.
 
 From there, the process follows the IICRC S500 standard for water damage restoration:
 
-- **Extraction** — truck-mounted and portable extractors pull standing water and saturated material from flooring, subfloor, and carpet padding.
-- **Controlled demolition** — baseboards, sections of drywall, or damaged flooring are removed only where moisture readings confirm it's necessary. We document everything for your insurance claim.
-- **Drying** — industrial LGR dehumidifiers and high-velocity air movers are positioned based on the moisture map, not guesswork. Drying typically runs 3–5 days depending on material depth and ambient humidity.
-- **Monitoring** — we return daily to log readings and adjust equipment until all structural materials reach target moisture content.
-- **Rebuild coordination** — as a CSLB-licensed contractor (#960566), we can carry the job through repairs rather than handing you off to a separate contractor mid-process.
+- **Extraction**, truck-mounted and portable extractors pull standing water and saturated material from flooring, subfloor, and carpet padding.
+- **Controlled demolition**, baseboards, sections of drywall, or damaged flooring are removed only where moisture readings confirm it's necessary. We document everything for your insurance claim.
+- **Drying**, industrial LGR dehumidifiers and high-velocity air movers are positioned based on the moisture map, not guesswork. Drying typically runs 3–5 days depending on material depth and ambient humidity.
+- **Monitoring**, we return daily to log readings and adjust equipment until all structural materials reach target moisture content.
+- **Rebuild coordination**, as a CSLB-licensed contractor (#960566), we can carry the job through repairs rather than handing you off to a separate contractor mid-process.
 
 ## Reaching Oildale Around the Clock
 
 ProRestoration Services is based in Bakersfield and operates 24/7, which matters when a washing machine flood happens at 2 a.m. on a weeknight. Oildale sits just across the Kern River from our service area, and the North Chester Avenue corridor puts most of the community within a short drive of our dispatch. Whether the call comes from a house near Standard Park or a mobile home off the Airport Drive corridor, we can have a crew moving immediately.
 
-We work directly with most major insurance carriers and handle the documentation — photographs, moisture logs, scope of work — so you're not managing paperwork while your floors are still wet.
+We work directly with most major insurance carriers and handle the documentation, photographs, moisture logs, scope of work, so you're not managing paperwork while your floors are still wet.
 
 ## Oildale Insurance Coordination for Appliance Leaks
 
 Appliance leak claims in Oildale tend to follow a predictable pattern at the insurance level: adjusters want to see that the source was a sudden and accidental discharge, not long-term seepage that went unreported. That distinction matters for coverage, and it's why our moisture documentation starts at the appliance itself and traces the water path outward. We photograph the failed component, the affected materials, and the moisture readings at each monitoring point.
 
-Because many Oildale homes are older, adjusters sometimes flag pre-existing conditions — a soft subfloor that predates the leak, for example. Our scope-writing process separates storm-related damage from pre-existing deterioration clearly, which keeps the claim moving and reduces the chance of a partial denial.
+Because many Oildale homes are older, adjusters sometimes flag pre-existing conditions, a soft subfloor that predates the leak, for example. Our scope-writing process separates storm-related damage from pre-existing deterioration clearly, which keeps the claim moving and reduces the chance of a partial denial.
 
 ## Local Note
 
-In Oildale's Highland neighborhood and along streets near the Kern River bluffs, homes built on pier-and-beam foundations have open crawl spaces that can hold several inches of water before it ever shows up on the interior floor. A refrigerator ice-maker line that drips for two weeks in one of these houses can saturate the crawl space insulation and begin growing mold on the floor joists while the kitchen floor above still looks and feels dry. If you're in one of these older cottages and you've noticed a musty smell but no visible water, it's worth having the crawl space inspected — that's often where the damage is actually happening.
+In Oildale's Highland neighborhood and along streets near the Kern River bluffs, homes built on pier-and-beam foundations have open crawl spaces that can hold several inches of water before it ever shows up on the interior floor. A refrigerator ice-maker line that drips for two weeks in one of these houses can saturate the crawl space insulation and begin growing mold on the floor joists while the kitchen floor above still looks and feels dry. If you're in one of these older cottages and you've noticed a musty smell but no visible water, it's worth having the crawl space inspected, that's often where the damage is actually happening.

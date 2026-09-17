@@ -20,39 +20,39 @@ state: "MN"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-When fire tears through a home in Edgerton, the damage rarely stops at the char line. Smoke travels fast through the tight, well-insulated houses that define this small Pipestone County community, and in a town where many structures date back to the mid-1900s, older wood framing and plaster walls hold odor and residue in ways that newer construction simply doesn't. Crew Restoration & Construction works with property owners across the 56128 ZIP code to stabilize, clean, and rebuild after fire — moving quickly so that secondary damage from soot acids and water used in suppression doesn't compound the original loss.
+When fire tears through a home in Edgerton, the damage rarely stops at the char line. Smoke travels fast through the tight, well-insulated houses that define this small Pipestone County community, and in a town where many structures date back to the mid-1900s, older wood framing and plaster walls hold odor and residue in ways that newer construction simply doesn't. Crew Restoration & Construction works with property owners across the 56128 ZIP code to stabilize, clean, and rebuild after fire, moving quickly so that secondary damage from soot acids and water used in suppression doesn't compound the original loss.
 
 ## Why Edgerton Properties Face Distinct Fire Damage Challenges
 
-Edgerton's housing stock reflects its history. Many homes in and around Downtown Edgerton were built between the 1920s and 1960s, when balloon-frame construction was standard. In a fire, balloon framing allows flames and superheated gases to travel vertically inside wall cavities with almost no resistance — meaning a kitchen fire can deposit smoke residue in attic spaces two floors above the point of origin before the fire department arrives. That hidden contamination is one of the most common things homeowners underestimate after a structural fire.
+Edgerton's housing stock reflects its history. Many homes in and around Downtown Edgerton were built between the 1920s and 1960s, when balloon-frame construction was standard. In a fire, balloon framing allows flames and superheated gases to travel vertically inside wall cavities with almost no resistance, meaning a kitchen fire can deposit smoke residue in attic spaces two floors above the point of origin before the fire department arrives. That hidden contamination is one of the most common things homeowners underestimate after a structural fire.
 
 The region's continental climate adds another layer of complexity. Southwest Minnesota winters are cold and dry, and homes here are sealed tightly for energy efficiency. That same airtightness that keeps heating bills manageable also traps smoke particulates and volatile organic compounds after a fire. Without aggressive air exchange and negative-pressure containment, soot odor can migrate into closets, HVAC ductwork, and soft furnishings far from the fire's origin.
 
 ## Our Fire Damage Restoration Process in Edgerton
 
-Every job starts with a thorough scope assessment — not a quick walk-through, but a methodical inspection of structural members, wall cavities, ductwork, and contents. We use thermal imaging to locate heat-affected framing that isn't visible to the naked eye, and we test surface pH to gauge how aggressively soot acids are already degrading paint, metal fixtures, and textiles.
+Every job starts with a thorough scope assessment, not a quick walk-through, but a methodical inspection of structural members, wall cavities, ductwork, and contents. We use thermal imaging to locate heat-affected framing that isn't visible to the naked eye, and we test surface pH to gauge how aggressively soot acids are already degrading paint, metal fixtures, and textiles.
 
 From there, the work moves in a defined sequence:
 
 - **Board-up and tarping** to secure the structure against weather and unauthorized entry
-- **Water extraction and drying** if suppression water is present — standing water under flooring creates a mold window of roughly 24 to 48 hours
+- **Water extraction and drying** if suppression water is present, standing water under flooring creates a mold window of roughly 24 to 48 hours
 - **Dry and wet chemical sponge cleaning** of ceilings, walls, and structural surfaces before any reconstruction begins
 - **HEPA air scrubbing and thermal fogging** to neutralize airborne particulates and embedded odor
-- **Selective demolition** of materials that cannot be restored — charred framing, smoke-saturated insulation, compromised drywall
+- **Selective demolition** of materials that cannot be restored, charred framing, smoke-saturated insulation, compromised drywall
 - **Reconstruction** to pre-loss condition, coordinated with your insurance adjuster's scope
 
 The sequence matters. Painting or patching over smoke-damaged surfaces without proper chemical cleaning is one of the most common shortcuts that leads to odor returning months later.
 
 ## Reaching Edgerton from Sioux Falls
 
-Crew Restoration & Construction is headquartered in Sioux Falls, SD, roughly 90 miles northeast of Edgerton via I-90 West and US-75 South. We schedule prompt dispatch for fire damage calls in Pipestone County and can coordinate crew staging in the area. If you're in the West Edgerton area or closer to Chanarambie Creek, call (605) 965-2727 to confirm scheduling and get a crew en route as quickly as possible — the sooner stabilization begins, the less secondary damage accumulates.
+Crew Restoration & Construction is headquartered in Sioux Falls, SD, roughly 90 miles northeast of Edgerton via I-90 West and US-75 South. We schedule prompt dispatch for fire damage calls in Pipestone County and can coordinate crew staging in the area. If you're in the West Edgerton area or closer to Chanarambie Creek, call (605) 965-2727 to confirm scheduling and get a crew en route as quickly as possible, the sooner stabilization begins, the less secondary damage accumulates.
 
 ## Edgerton Insurance Coordination
 
-Fire claims in rural Pipestone County often involve farm-policy endorsements, older replacement-cost schedules, or coverage questions around detached structures and outbuildings — nuances that don't come up in suburban claims. We document the loss thoroughly: written scope, photographs, moisture and air-quality readings, and a detailed materials list. That documentation package is what adjusters need to process the claim accurately, and it protects you if there's a dispute over scope later. We work directly with most major carriers and can communicate with your adjuster throughout the project so you're not translating between contractor and insurance language.
+Fire claims in rural Pipestone County often involve farm-policy endorsements, older replacement-cost schedules, or coverage questions around detached structures and outbuildings, nuances that don't come up in suburban claims. We document the loss thoroughly: written scope, photographs, moisture and air-quality readings, and a detailed materials list. That documentation package is what adjusters need to process the claim accurately, and it protects you if there's a dispute over scope later. We work directly with most major carriers and can communicate with your adjuster throughout the project so you're not translating between contractor and insurance language.
 
 ## Local Note
 
-Older homes near Downtown Edgerton frequently have original plaster-and-lath wall systems rather than drywall. Plaster is dense and non-porous on the surface, which can make it look undamaged after a fire — but lath cavities behind the plaster trap smoke and char byproducts that off-gas for months if not addressed. We've learned to probe and test these assemblies rather than assume a clean surface means a clean wall. In some cases, selective plaster removal and replacement is more cost-effective long-term than repeated odor treatments on a wall that's contaminated at the substrate.
+Older homes near Downtown Edgerton frequently have original plaster-and-lath wall systems rather than drywall. Plaster is dense and non-porous on the surface, which can make it look undamaged after a fire, but lath cavities behind the plaster trap smoke and char byproducts that off-gas for months if not addressed. We've learned to probe and test these assemblies rather than assume a clean surface means a clean wall. In some cases, selective plaster removal and replacement is more cost-effective long-term than repeated odor treatments on a wall that's contaminated at the substrate.
 
-If your Edgerton home or business has been affected by fire, don't wait to see whether the smell fades on its own — soot acids begin degrading surfaces within hours, and the window for salvaging contents and finishes narrows quickly. Call Crew Restoration & Construction at (605) 965-2727 to schedule an assessment and start moving toward a full recovery.
+If your Edgerton home or business has been affected by fire, don't wait to see whether the smell fades on its own, soot acids begin degrading surfaces within hours, and the window for salvaging contents and finishes narrows quickly. Call Crew Restoration & Construction at (605) 965-2727 to schedule an assessment and start moving toward a full recovery.

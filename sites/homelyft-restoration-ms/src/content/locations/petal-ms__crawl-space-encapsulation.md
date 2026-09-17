@@ -20,25 +20,25 @@ state: "MS"
 service_display: "Crawl Space Encapsulation"
 rendered: true
 ---
-Petal sits in Forrest County where the humid subtropical climate delivers long, muggy summers and rainfall that soaks into the region's heavy clay-dominant soils — a combination that turns an unprotected crawl space into a moisture trap year-round. Ground vapor pushes upward through bare soil, condenses on floor joists, and creates the kind of persistent dampness that warps subfloors, feeds mold colonies, and quietly drives up energy bills before most homeowners notice anything is wrong. Crawl space encapsulation addresses that problem at the source, sealing the space against the specific conditions Petal properties face.
+Petal sits in Forrest County where the humid subtropical climate delivers long, muggy summers and rainfall that soaks into the region's heavy clay-dominant soils, a combination that turns an unprotected crawl space into a moisture trap year-round. Ground vapor pushes upward through bare soil, condenses on floor joists, and creates the kind of persistent dampness that warps subfloors, feeds mold colonies, and quietly drives up energy bills before most homeowners notice anything is wrong. Crawl space encapsulation addresses that problem at the source, sealing the space against the specific conditions Petal properties face.
 
 ## Why Petal Properties Are Prone to Crawl Space Moisture Problems
 
-Forrest County's clay-heavy soil doesn't drain the way sandy coastal soils do. After a heavy rain — and Petal gets well over 55 inches annually — water sits near the surface and migrates laterally under slab edges and through foundation vents. Homes built on pier-and-beam foundations, which are common throughout the Petal area given the region's older housing stock, are especially vulnerable because the crawl space is open to outside air on all sides.
+Forrest County's clay-heavy soil doesn't drain the way sandy coastal soils do. After a heavy rain, and Petal gets well over 55 inches annually, water sits near the surface and migrates laterally under slab edges and through foundation vents. Homes built on pier-and-beam foundations, which are common throughout the Petal area given the region's older housing stock, are especially vulnerable because the crawl space is open to outside air on all sides.
 
 Unvented or poorly vented crawl spaces create a stack effect: warm, humid outdoor air is drawn in during summer months, hits the cooler surfaces of the floor system, and deposits moisture directly on wood framing. Within 48 to 72 hours of sustained elevated humidity, mold can begin colonizing floor joists and insulation. Encapsulation interrupts that cycle by lining the crawl space floor and walls with a heavy-duty vapor barrier and conditioning the space so it stays dry regardless of what the weather outside is doing.
 
 ## Our Crawl Space Encapsulation Process in Petal
 
-Every encapsulation project starts with a thorough crawl space inspection — checking for standing water, existing mold growth, damaged insulation, deteriorated wood, and the condition of any existing vapor barrier. In Petal's older homes, it's common to find thin poly sheeting that has torn, shifted, or been disturbed by pests, providing little actual moisture protection.
+Every encapsulation project starts with a thorough crawl space inspection, checking for standing water, existing mold growth, damaged insulation, deteriorated wood, and the condition of any existing vapor barrier. In Petal's older homes, it's common to find thin poly sheeting that has torn, shifted, or been disturbed by pests, providing little actual moisture protection.
 
 Once the space is assessed, the process moves through these stages:
 
-- **Debris and contamination removal** — old insulation, deteriorated poly, and any organic debris are pulled out and disposed of properly. If mold is present on structural wood, our IICRC AMRT-certified team addresses remediation before encapsulation begins, so the problem is not sealed in.
-- **Drainage and grading correction** — where water is pooling, we address the drainage path before laying barrier material.
-- **Heavy-duty vapor barrier installation** — we install a reinforced polyethylene liner (typically 12–20 mil) across the crawl space floor and up the foundation walls, sealed at seams and penetrations with moisture-resistant tape.
-- **Vent sealing** — existing foundation vents are closed and sealed, shifting the crawl space from an unconditioned to a semi-conditioned environment.
-- **Dehumidification** — a properly sized crawl space dehumidifier is installed and set to maintain relative humidity below 55%, the threshold above which mold growth becomes likely in this climate.
+- **Debris and contamination removal**, old insulation, deteriorated poly, and any organic debris are pulled out and disposed of properly. If mold is present on structural wood, our IICRC AMRT-certified team addresses remediation before encapsulation begins, so the problem is not sealed in.
+- **Drainage and grading correction**, where water is pooling, we address the drainage path before laying barrier material.
+- **Heavy-duty vapor barrier installation**, we install a reinforced polyethylene liner (typically 12–20 mil) across the crawl space floor and up the foundation walls, sealed at seams and penetrations with moisture-resistant tape.
+- **Vent sealing**, existing foundation vents are closed and sealed, shifting the crawl space from an unconditioned to a semi-conditioned environment.
+- **Dehumidification**, a properly sized crawl space dehumidifier is installed and set to maintain relative humidity below 55%, the threshold above which mold growth becomes likely in this climate.
 
 The result is a dry, stable environment that protects the floor system, improves indoor air quality, and reduces the load on your HVAC system during Petal's long cooling season.
 
@@ -46,10 +46,10 @@ The result is a dry, stable environment that protects the floor system, improves
 
 Not every vapor barrier product performs the same way in high-humidity environments like Petal's. Thin, single-layer poly sheeting degrades quickly, tears under foot traffic during maintenance visits, and allows vapor transmission at rates that won't keep up with Forrest County's ground moisture levels. We use reinforced, multi-layer barriers rated for long-term performance in southern climates, with seam overlaps and taped penetrations that maintain integrity over years, not months.
 
-Dehumidifier sizing is equally critical. An undersized unit runs continuously without achieving target humidity; an oversized unit short-cycles and fails prematurely. We calculate the appropriate capacity based on the square footage of your crawl space, the number of vents being sealed, and the typical ground moisture load for the Petal area — not a one-size-fits-all spec.
+Dehumidifier sizing is equally critical. An undersized unit runs continuously without achieving target humidity; an oversized unit short-cycles and fails prematurely. We calculate the appropriate capacity based on the square footage of your crawl space, the number of vents being sealed, and the typical ground moisture load for the Petal area, not a one-size-fits-all spec.
 
 ## Local Note
 
-One pattern we see consistently in the Petal area: homes that back up to drainage ditches or low-lying areas near the Leaf River corridor tend to have crawl spaces that stay wet well after surface water recedes. The water table in these low spots remains elevated for weeks following significant rain events, which means ground vapor pressure stays high long after the yard looks dry. If your home sits in one of these lower-elevation pockets, a passive vapor barrier alone may not be sufficient — active dehumidification is almost always part of the right solution, and we factor that into the scope before the first barrier roll is cut.
+One pattern we see consistently in the Petal area: homes that back up to drainage ditches or low-lying areas near the Leaf River corridor tend to have crawl spaces that stay wet well after surface water recedes. The water table in these low spots remains elevated for weeks following significant rain events, which means ground vapor pressure stays high long after the yard looks dry. If your home sits in one of these lower-elevation pockets, a passive vapor barrier alone may not be sufficient, active dehumidification is almost always part of the right solution, and we factor that into the scope before the first barrier roll is cut.
 
-If you're seeing musty odors coming through your floors, soft spots in the subfloor, or higher-than-usual cooling bills during Petal's summer months, those are signals worth acting on before the damage compounds. Call HomeLyft Restoration MS at +12282845200 to schedule a crawl space evaluation — we'll give you a clear picture of what's happening under your home and what it will take to fix it.
+If you're seeing musty odors coming through your floors, soft spots in the subfloor, or higher-than-usual cooling bills during Petal's summer months, those are signals worth acting on before the damage compounds. Call HomeLyft Restoration MS at +12282845200 to schedule a crawl space evaluation, we'll give you a clear picture of what's happening under your home and what it will take to fix it.

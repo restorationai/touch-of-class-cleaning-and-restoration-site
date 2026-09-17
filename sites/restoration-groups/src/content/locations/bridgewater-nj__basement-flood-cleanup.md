@@ -20,31 +20,31 @@ state: "NJ"
 service_display: "Basement Flood Cleanup"
 rendered: true
 ---
-When the Raritan River backs up or a nor'easter stalls over Somerset County, Bridgewater basements take the hit fast. The township's low-lying sections near Finderne and the Bound Brook flats have flooded repeatedly — most recently and severely during Ida in 2021 — and even neighborhoods well away from the river can see groundwater intrusion when the water table rises through clay-heavy subsoil. If you're standing in a finished basement with an inch of standing water, the clock is already running: mold colonization can begin within 24 to 48 hours, and saturated framing behind drywall won't announce itself until the damage is deep.
+When the Raritan River backs up or a nor'easter stalls over Somerset County, Bridgewater basements take the hit fast. The township's low-lying sections near Finderne and the Bound Brook flats have flooded repeatedly, most recently and severely during Ida in 2021, and even neighborhoods well away from the river can see groundwater intrusion when the water table rises through clay-heavy subsoil. If you're standing in a finished basement with an inch of standing water, the clock is already running: mold colonization can begin within 24 to 48 hours, and saturated framing behind drywall won't announce itself until the damage is deep.
 
 ## Why Bridgewater Basements Flood More Than You'd Expect
 
-Bridgewater is a sprawling township, and its housing stock tells the story of three different construction eras — each with its own failure points. The postwar ranches and split-levels built through the 1950s and 1960s in areas like Bradley Gardens and Green Knoll often have cast-iron drain lines that have corroded or shifted over decades. When those drains back up during a heavy rain event, the water has nowhere to go but the basement floor.
+Bridgewater is a sprawling township, and its housing stock tells the story of three different construction eras, each with its own failure points. The postwar ranches and split-levels built through the 1950s and 1960s in areas like Bradley Gardens and Green Knoll often have cast-iron drain lines that have corroded or shifted over decades. When those drains back up during a heavy rain event, the water has nowhere to go but the basement floor.
 
-The newer colonials and townhome developments that filled in through the 1980s and 1990s brought PVC plumbing, but also more finished basement space — home theaters, laundry rooms, playrooms — that multiplies the replacement cost when a supply line fails overnight. Older supply plumbing in some of the mid-century tracts runs through uninsulated exterior walls, which creates a burst-pipe risk during hard freezes that Somerset County gets several times each winter.
+The newer colonials and townhome developments that filled in through the 1980s and 1990s brought PVC plumbing, but also more finished basement space, home theaters, laundry rooms, playrooms, that multiplies the replacement cost when a supply line fails overnight. Older supply plumbing in some of the mid-century tracts runs through uninsulated exterior walls, which creates a burst-pipe risk during hard freezes that Somerset County gets several times each winter.
 
 The Chimney Rock area and the terrain rising toward Martinsville drain differently than the flats near Finderne, but no part of the township is immune: even properties on higher ground can see sump pump failures during extended storms when the pump runs continuously for 12 or more hours and the float switch gives out.
 
 ## Our Basement Flood Cleanup Process in Bridgewater
 
-The first priority is stopping active water entry — whether that's isolating a burst supply line, clearing a drain backup, or confirming the sump is operational before extraction begins. From there, the process follows the IICRC S500 standard for water damage restoration:
+The first priority is stopping active water entry, whether that's isolating a burst supply line, clearing a drain backup, or confirming the sump is operational before extraction begins. From there, the process follows the IICRC S500 standard for water damage restoration:
 
 **Extraction** comes first. Truck-mounted and portable extractors pull standing water from carpet, concrete, and any porous flooring material. In finished basements, that means getting under baseboards and into wall cavities where water wicks upward.
 
-**Moisture mapping** follows. Thermal imaging cameras and calibrated moisture meters read what the eye can't see — wet insulation behind paneling, saturated subfloor under LVP, damp framing behind finished drywall. In Bridgewater's older split-levels, we frequently find that water has traveled farther laterally than the visible damage suggests.
+**Moisture mapping** follows. Thermal imaging cameras and calibrated moisture meters read what the eye can't see, wet insulation behind paneling, saturated subfloor under LVP, damp framing behind finished drywall. In Bridgewater's older split-levels, we frequently find that water has traveled farther laterally than the visible damage suggests.
 
-**Drying** uses industrial air movers and dehumidifiers placed according to the psychrometric conditions in the space. Basement drying in New Jersey's humid summers requires more dehumidification capacity than the same job in a drier climate — equipment is sized to the space and monitored daily until readings reach target.
+**Drying** uses industrial air movers and dehumidifiers placed according to the psychrometric conditions in the space. Basement drying in New Jersey's humid summers requires more dehumidification capacity than the same job in a drier climate, equipment is sized to the space and monitored daily until readings reach target.
 
 **Controlled demolition**, when needed, removes only the material that cannot be dried in place. Wet drywall below the flood line, saturated carpet padding, and compromised insulation come out; salvageable framing and subfloor stay if moisture readings support it.
 
 ## Reaching Bridgewater from Kenilworth
 
-The Restoration Group operates 24/7 out of Kenilworth, and Bridgewater is a regular service area. The most direct route runs west on Route 22, which puts crews into the 08807 and 08805 ZIP codes without navigating surface streets. For addresses in Martinsville or near Chimney Rock Park, the approach shifts to Route 202/206 depending on traffic at the Route 22/287 interchange — a corridor that can back up significantly during rush hour. When a call comes in, we route based on real-time conditions so equipment arrives ready to work, not sitting in interchange traffic.
+The Restoration Group operates 24/7 out of Kenilworth, and Bridgewater is a regular service area. The most direct route runs west on Route 22, which puts crews into the 08807 and 08805 ZIP codes without navigating surface streets. For addresses in Martinsville or near Chimney Rock Park, the approach shifts to Route 202/206 depending on traffic at the Route 22/287 interchange, a corridor that can back up significantly during rush hour. When a call comes in, we route based on real-time conditions so equipment arrives ready to work, not sitting in interchange traffic.
 
 ## Local Note
 
@@ -52,6 +52,6 @@ One pattern that shows up repeatedly in Bridgewater's finished basements: the mi
 
 ## Insurance Coordination for Bridgewater Homeowners
 
-Most standard homeowner policies in New Jersey distinguish sharply between sudden-and-accidental losses (a burst pipe, an appliance failure) and gradual water damage or flood events. Losses tied to the Raritan River rising or surface water entering the home typically fall under separate NFIP flood insurance — not your HO-3 policy — and the documentation requirements differ. We photograph and document affected materials, provide moisture logs, and communicate directly with adjusters to support your claim. If you're unsure which policy applies to your loss, your adjuster can clarify; we work with whatever carrier is handling the file.
+Most standard homeowner policies in New Jersey distinguish sharply between sudden-and-accidental losses (a burst pipe, an appliance failure) and gradual water damage or flood events. Losses tied to the Raritan River rising or surface water entering the home typically fall under separate NFIP flood insurance, not your HO-3 policy, and the documentation requirements differ. We photograph and document affected materials, provide moisture logs, and communicate directly with adjusters to support your claim. If you're unsure which policy applies to your loss, your adjuster can clarify; we work with whatever carrier is handling the file.
 
-Call The Restoration Group at (855) 650-7422 any time — day or night — and we'll dispatch to your Bridgewater address, assess the damage, and get drying equipment running the same visit.
+Call The Restoration Group at (855) 650-7422 any time, day or night, and we'll dispatch to your Bridgewater address, assess the damage, and get drying equipment running the same visit.

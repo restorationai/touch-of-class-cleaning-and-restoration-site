@@ -20,38 +20,38 @@ state: "WA"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
-A dishwasher that ran overnight. A washing machine hose that let go behind the dryer. A refrigerator ice maker line that dripped silently for weeks until the subfloor gave it away. Whatever appliance caused the water in your Redmond home right now, the clock matters more than you probably realize — mold can begin colonizing wet building materials in as little as 24 to 48 hours, and hardwood floors start cupping within the first day. National Restoration Construction dispatches from Federal Way and can have an IICRC-certified technician at most Redmond addresses within 60 to 90 minutes of your call at **(206) 883-0333**.
+A dishwasher that ran overnight. A washing machine hose that let go behind the dryer. A refrigerator ice maker line that dripped silently for weeks until the subfloor gave it away. Whatever appliance caused the water in your Redmond home right now, the clock matters more than you probably realize, mold can begin colonizing wet building materials in as little as 24 to 48 hours, and hardwood floors start cupping within the first day. National Restoration Construction dispatches from Federal Way and can have an IICRC-certified technician at most Redmond addresses within 60 to 90 minutes of your call at **(206) 883-0333**.
 
 ## Why Redmond Properties Are Particularly Vulnerable to Appliance Leak Damage
 
-Redmond's housing stock tells a specific story. The city grew fast during the tech boom, and a large share of its single-family homes and townhomes were built in the late 1980s through the 2000s — meaning a lot of original appliance supply lines, braided hoses, and water heater tanks are now 20-plus years old and well past their expected service life. The Pacific Northwest's mild, wet climate keeps indoor humidity elevated for much of the year, which means a slow refrigerator leak or a weeping water heater connection doesn't dry on its own the way it might in a drier climate. Moisture lingers under vinyl plank, inside cabinet toe-kicks, and behind drywall until you have a hidden mold problem on top of the original water damage.
+Redmond's housing stock tells a specific story. The city grew fast during the tech boom, and a large share of its single-family homes and townhomes were built in the late 1980s through the 2000s, meaning a lot of original appliance supply lines, braided hoses, and water heater tanks are now 20-plus years old and well past their expected service life. The Pacific Northwest's mild, wet climate keeps indoor humidity elevated for much of the year, which means a slow refrigerator leak or a weeping water heater connection doesn't dry on its own the way it might in a drier climate. Moisture lingers under vinyl plank, inside cabinet toe-kicks, and behind drywall until you have a hidden mold problem on top of the original water damage.
 
-Redmond's mix of slab-on-grade construction and homes with crawl spaces also changes how water migrates. A washing machine flood on the main level of a home with a crawl space can push water down through subfloor seams and pool out of sight — which is why a professional moisture assessment matters even when the visible puddle looks manageable.
+Redmond's mix of slab-on-grade construction and homes with crawl spaces also changes how water migrates. A washing machine flood on the main level of a home with a crawl space can push water down through subfloor seams and pool out of sight, which is why a professional moisture assessment matters even when the visible puddle looks manageable.
 
 ## Our Appliance Leak Cleanup Process in Redmond
 
-When we arrive, the first priority is stopping any ongoing source — shutting off the supply valve to the dishwasher, isolating the water heater, or tracing the ice maker line back to the refrigerator saddle valve. From there, the process follows a documented sequence:
+When we arrive, the first priority is stopping any ongoing source, shutting off the supply valve to the dishwasher, isolating the water heater, or tracing the ice maker line back to the refrigerator saddle valve. From there, the process follows a documented sequence:
 
-**Moisture mapping.** We use thermal imaging cameras and calibrated moisture meters to trace exactly where water traveled — under cabinets, into adjacent rooms, beneath flooring, and into wall cavities. What looks like a contained kitchen puddle often isn't.
+**Moisture mapping.** We use thermal imaging cameras and calibrated moisture meters to trace exactly where water traveled, under cabinets, into adjacent rooms, beneath flooring, and into wall cavities. What looks like a contained kitchen puddle often isn't.
 
 **Extraction.** Truck-mounted extraction equipment removes standing water faster and more completely than portable units. For water that has migrated under hardwood or LVP flooring, we use specialty floor mat systems that draw moisture up through the material without requiring immediate demolition.
 
-**Structural drying.** Industrial-grade air movers and refrigerant dehumidifiers run in a calculated configuration based on the cubic footage of the affected space. We monitor moisture readings daily and adjust equipment until materials reach target drying standards — typically three to five days for a contained appliance leak, longer if walls or subfloor are involved.
+**Structural drying.** Industrial-grade air movers and refrigerant dehumidifiers run in a calculated configuration based on the cubic footage of the affected space. We monitor moisture readings daily and adjust equipment until materials reach target drying standards, typically three to five days for a contained appliance leak, longer if walls or subfloor are involved.
 
 **Documentation.** Every moisture reading, equipment placement, and daily log entry is recorded and formatted for your insurance adjuster. This paperwork is one of the most practical things we provide.
 
-**Rebuild coordination.** If flooring, drywall, or cabinetry needs replacement after drying is complete, our general contractor license (WA State L&I #NATIORC792M6) means we can handle reconstruction under the same project — no hand-off to a separate contractor.
+**Rebuild coordination.** If flooring, drywall, or cabinetry needs replacement after drying is complete, our general contractor license (WA State L&I #NATIORC792M6) means we can handle reconstruction under the same project, no hand-off to a separate contractor.
 
 ## Handling Insurance Claims for Appliance Leak Damage
 
-Most standard homeowners' policies in Washington cover sudden and accidental appliance leaks — a burst washing machine hose or a failed ice maker line typically qualifies. Slow, long-term seepage (a refrigerator drip pan that's been overflowing for months) is more likely to be disputed as a maintenance issue, which is why the documentation we produce from day one matters.
+Most standard homeowners' policies in Washington cover sudden and accidental appliance leaks, a burst washing machine hose or a failed ice maker line typically qualifies. Slow, long-term seepage (a refrigerator drip pan that's been overflowing for months) is more likely to be disputed as a maintenance issue, which is why the documentation we produce from day one matters.
 
 We work directly with all major carriers and can communicate with your adjuster on the scope of damage, the drying timeline, and the rebuild estimate. You'll still need to file the initial claim and manage your deductible, but we handle the technical documentation and the back-and-forth on line items. If you haven't filed yet when you contact us, we can walk you through what to tell your carrier before we arrive.
 
 ## Response Times Across Redmond
 
-Our Federal Way headquarters puts us roughly 20 to 25 miles from central Redmond — typically 30 to 45 minutes in normal traffic, 60 to 90 minutes in heavier conditions. For neighborhoods closer to the SR-520 corridor, including Overlake and the Microsoft campus area, we're often on-site faster. We respond seven days a week, including holidays, because appliance failures don't follow business hours.
+Our Federal Way headquarters puts us roughly 20 to 25 miles from central Redmond, typically 30 to 45 minutes in normal traffic, 60 to 90 minutes in heavier conditions. For neighborhoods closer to the SR-520 corridor, including Overlake and the Microsoft campus area, we're often on-site faster. We respond seven days a week, including holidays, because appliance failures don't follow business hours.
 
-If you're in Redmond and water is actively spreading, the most useful thing you can do right now is cut the water supply to the affected appliance, move standing water away from electrical outlets if it's safe to do so, and get us on the phone. The sooner extraction starts, the shorter the drying timeline — and the lower the total cost.
+If you're in Redmond and water is actively spreading, the most useful thing you can do right now is cut the water supply to the affected appliance, move standing water away from electrical outlets if it's safe to do so, and get us on the phone. The sooner extraction starts, the shorter the drying timeline, and the lower the total cost.
 
 Reach us any time at **(206) 883-0333**. We've been handling water damage in the greater Seattle area since 2004, and we'll give you a straight answer about what you're dealing with before we ever ask you to sign anything.

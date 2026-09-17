@@ -19,13 +19,13 @@ state: "NJ"
 primary: false
 rendered: true
 ---
-When a pipe bursts in a Packanack Lake split-level or floodwater pushes through the basement door of a Mountain View colonial, The Restoration Group dispatches from Kenilworth around the clock — water extraction, structural drying, mold containment, fire and smoke cleanup, and full reconstruction, all coordinated under one call to (855) 650-7422. We handle both residential and commercial losses across Wayne's 07470 and 07474 ZIP codes, and we bill insurance carriers directly so you're not managing that paperwork alone during the worst week of the year.
+When a pipe bursts in a Packanack Lake split-level or floodwater pushes through the basement door of a Mountain View colonial, The Restoration Group dispatches from Kenilworth around the clock, water extraction, structural drying, mold containment, fire and smoke cleanup, and full reconstruction, all coordinated under one call to (855) 650-7422. We handle both residential and commercial losses across Wayne's 07470 and 07474 ZIP codes, and we bill insurance carriers directly so you're not managing that paperwork alone during the worst week of the year.
 
 ## Restoration emergencies common in Wayne
 
-Wayne sits at the confluence of the Passaic and Pompton Rivers, and that geography shapes nearly every water-damage call we get here. The Hoffman Grove and Mountain View sections flood chronically — residents there remember Irene in 2011 and Ida in 2021 not as distant news events but as the weeks they lost finished basements, furnaces, and irreplaceable belongings to river water that arrived faster than sandbags could hold it. Those same events triggered repeated evacuations along the river corridors.
+Wayne sits at the confluence of the Passaic and Pompton Rivers, and that geography shapes nearly every water-damage call we get here. The Hoffman Grove and Mountain View sections flood chronically, residents there remember Irene in 2011 and Ida in 2021 not as distant news events but as the weeks they lost finished basements, furnaces, and irreplaceable belongings to river water that arrived faster than sandbags could hold it. Those same events triggered repeated evacuations along the river corridors.
 
-Beyond the floodplain, the lake communities tell a different story. Packanack Lake, Pines Lake, and Lionshead Lake are lined with midcentury ranches and split-levels — charming homes with finished lower levels that sit close to the water table. Their sump pumps work hard, and when a pump fails during a nor'easter or a discharge line freezes, a finished basement can take on several inches of water before anyone notices. Aging cast-iron drains and galvanized supply lines in the 1950s–70s colonial and cape stock throughout Preakness and the broader township add steady pipe-burst and slow-leak losses to the mix.
+Beyond the floodplain, the lake communities tell a different story. Packanack Lake, Pines Lake, and Lionshead Lake are lined with midcentury ranches and split-levels, charming homes with finished lower levels that sit close to the water table. Their sump pumps work hard, and when a pump fails during a nor'easter or a discharge line freezes, a finished basement can take on several inches of water before anyone notices. Aging cast-iron drains and galvanized supply lines in the 1950s–70s colonial and cape stock throughout Preakness and the broader township add steady pipe-burst and slow-leak losses to the mix.
 
 On the commercial side, the Willowbrook Mall corridor and the dense Route 23/46 retail strip generate sprinkler activations, roof-leak losses, and pipe-burst events that need fast response to limit business interruption. William Paterson University adds student-housing and facilities calls, particularly during the shoulder seasons when buildings sit partially occupied.
 
@@ -33,15 +33,15 @@ On the commercial side, the Willowbrook Mall corridor and the dense Route 23/46 
 
 ### Water damage and flood cleanup
 
-Water damage in Wayne often involves river intrusion, sump failure, or storm-driven basement flooding — not just a broken appliance line. We extract standing water, remove saturated materials, and dry structural assemblies to the IICRC S500 standard using commercial-grade dehumidifiers and air movers. For lake-community homes in Pines Lake or Lionshead Lake with finished lower levels, we pay particular attention to wall cavities and subfloor systems where moisture hides long after the surface looks dry.
+Water damage in Wayne often involves river intrusion, sump failure, or storm-driven basement flooding, not just a broken appliance line. We extract standing water, remove saturated materials, and dry structural assemblies to the IICRC S500 standard using commercial-grade dehumidifiers and air movers. For lake-community homes in Pines Lake or Lionshead Lake with finished lower levels, we pay particular attention to wall cavities and subfloor systems where moisture hides long after the surface looks dry.
 
 ### Mold remediation
 
-Wayne's humidity, high water table, and history of repeated flood events create conditions where mold can begin colonizing porous materials within 24 to 48 hours of a moisture event. We contain affected areas, remove compromised materials, treat structural surfaces, and verify clearance — without overstating what remediation can guarantee about future air quality.
+Wayne's humidity, high water table, and history of repeated flood events create conditions where mold can begin colonizing porous materials within 24 to 48 hours of a moisture event. We contain affected areas, remove compromised materials, treat structural surfaces, and verify clearance, without overstating what remediation can guarantee about future air quality.
 
 ### Fire and smoke damage restoration
 
-Smoke residue from a kitchen fire in a Preakness colonial or an electrical event in a Mountain View home doesn't stay in the room where the fire started — it migrates through HVAC systems and settles into soft goods and wall cavities. We assess the full spread, clean or remove affected materials, and address odor at the source rather than masking it.
+Smoke residue from a kitchen fire in a Preakness colonial or an electrical event in a Mountain View home doesn't stay in the room where the fire started, it migrates through HVAC systems and settles into soft goods and wall cavities. We assess the full spread, clean or remove affected materials, and address odor at the source rather than masking it.
 
 ### Commercial property restoration
 
@@ -49,18 +49,18 @@ For property managers and business owners near Wayne Towne Center or along the R
 
 ### Reconstruction
 
-Once mitigation is complete, we handle the rebuild — drywall, flooring, cabinetry, structural framing — so you're not managing a separate contractor relationship after an already stressful event.
+Once mitigation is complete, we handle the rebuild, drywall, flooring, cabinetry, structural framing, so you're not managing a separate contractor relationship after an already stressful event.
 
 ## Coverage and how fast we can get there
 
-The Restoration Group operates out of Kenilworth, roughly 25 miles southeast of Wayne via I-287 North or Route 22 West to I-287. We're available 24/7, so a call at 2 a.m. during a Passaic River surge gets the same response as a midday pipe burst. From Kenilworth, we can reach neighborhoods like Hoffman Grove and Mountain View along the river corridor, the lake communities off Alps Road, and the commercial zones near Willowbrook Mall and the Dey Mansion historic district. We don't quote arrival times in minutes because traffic on 287 and Route 23 varies — what we can tell you is that a live dispatcher answers every call and a crew is staged and moving before you hang up.
+The Restoration Group operates out of Kenilworth, roughly 25 miles southeast of Wayne via I-287 North or Route 22 West to I-287. We're available 24/7, so a call at 2 a.m. during a Passaic River surge gets the same response as a midday pipe burst. From Kenilworth, we can reach neighborhoods like Hoffman Grove and Mountain View along the river corridor, the lake communities off Alps Road, and the commercial zones near Willowbrook Mall and the Dey Mansion historic district. We don't quote arrival times in minutes because traffic on 287 and Route 23 varies, what we can tell you is that a live dispatcher answers every call and a crew is staged and moving before you hang up.
 
 ## Building stock, site conditions, and permits in Wayne
 
-Much of Wayne's housing sits on glacial lakebed and till soils left behind in the Passaic Valley — silt and clay layers that drain slowly and keep groundwater high, which is why full basements here depend so heavily on perimeter drains and pumps. Footings in this part of North Jersey are set below a roughly three-foot frost line, so winter pipe breaks tend to show up in rim joists and unheated crawl spaces rather than at the foundation.
+Much of Wayne's housing sits on glacial lakebed and till soils left behind in the Passaic Valley, silt and clay layers that drain slowly and keep groundwater high, which is why full basements here depend so heavily on perimeter drains and pumps. Footings in this part of North Jersey are set below a roughly three-foot frost line, so winter pipe breaks tend to show up in rim joists and unheated crawl spaces rather than at the foundation.
 
 The lake neighborhoods started as seasonal cottages that were later winterized, so it's common to find plaster and lath, knob-and-tube remnants, pre-1978 lead paint, and asbestos boiler or duct wrap behind a modern finish. Those materials change the scope before demolition starts.
 
 In New Jersey, repair and rebuild permits are issued locally under the statewide Uniform Construction Code, and work in mapped flood hazard areas carries added elevation and substantial-improvement requirements.
 
-If you're dealing with a loss in Wayne right now — or want to talk through a situation before it becomes an emergency — call (855) 650-7422. We're available around the clock, and the first conversation costs nothing.
+If you're dealing with a loss in Wayne right now, or want to talk through a situation before it becomes an emergency, call (855) 650-7422. We're available around the clock, and the first conversation costs nothing.

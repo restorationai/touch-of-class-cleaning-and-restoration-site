@@ -20,38 +20,38 @@ state: "WA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-A fire in your Bellevue home doesn't wait for business hours, and the damage doesn't stop when the flames go out. Smoke and soot keep etching into surfaces, water from suppression soaks into subfloor and drywall, and the clock on secondary damage starts the moment firefighters leave. National Restoration Construction has been responding to fire and smoke restoration emergencies across the greater Seattle area since 2004 — and our crews can reach most Bellevue addresses within 60 to 90 minutes of your call.
+A fire in your Bellevue home doesn't wait for business hours, and the damage doesn't stop when the flames go out. Smoke and soot keep etching into surfaces, water from suppression soaks into subfloor and drywall, and the clock on secondary damage starts the moment firefighters leave. National Restoration Construction has been responding to fire and smoke restoration emergencies across the greater Seattle area since 2004, and our crews can reach most Bellevue addresses within 60 to 90 minutes of your call.
 
 ## What Happens When We Arrive at Your Bellevue Property
 
-The first thing our project manager does on-site isn't hand you a sales pitch — it's a room-by-room damage assessment to separate what can be saved from what needs to go. Smoke travels further than fire. It moves through HVAC systems, settles into closets two rooms away from the burn origin, and leaves an oily residue that bonds to painted drywall within hours. We document everything with photos and written notes formatted for your insurance adjuster, so nothing gets missed in the chaos.
+The first thing our project manager does on-site isn't hand you a sales pitch, it's a room-by-room damage assessment to separate what can be saved from what needs to go. Smoke travels further than fire. It moves through HVAC systems, settles into closets two rooms away from the burn origin, and leaves an oily residue that bonds to painted drywall within hours. We document everything with photos and written notes formatted for your insurance adjuster, so nothing gets missed in the chaos.
 
 From there, the fire cleanup sequence follows a deliberate order:
 
-1. **Board-up and roof tarping** — if the structure is breached, we secure it immediately to prevent weather intrusion. Bellevue's wet winters mean an open roof can double your damage overnight.
-2. **Water extraction and drying** — suppression water is removed with truck-mount extraction equipment; industrial air movers and dehumidifiers run until moisture readings hit safe levels.
-3. **Soot and smoke residue removal** — dry chemical sponges for light deposits, alkaline cleaners for protein-based residue from kitchen fires, thermal fogging or hydroxyl generators to neutralize odor at the molecular level.
-4. **Structural assessment** — we identify compromised framing, sheathing, or load-bearing elements before any reconstruction begins. As a licensed General Contractor (WA L&I #NATIORC792M6), we handle both the remediation and the rebuild under one contract.
-5. **Reconstruction** — drywall, flooring, cabinetry, painting — returned to pre-loss condition or better.
+1. **Board-up and roof tarping**, if the structure is breached, we secure it immediately to prevent weather intrusion. Bellevue's wet winters mean an open roof can double your damage overnight.
+2. **Water extraction and drying**, suppression water is removed with truck-mount extraction equipment; industrial air movers and dehumidifiers run until moisture readings hit safe levels.
+3. **Soot and smoke residue removal**, dry chemical sponges for light deposits, alkaline cleaners for protein-based residue from kitchen fires, thermal fogging or hydroxyl generators to neutralize odor at the molecular level.
+4. **Structural assessment**, we identify compromised framing, sheathing, or load-bearing elements before any reconstruction begins. As a licensed General Contractor (WA L&I #NATIORC792M6), we handle both the remediation and the rebuild under one contract.
+5. **Reconstruction**, drywall, flooring, cabinetry, painting, returned to pre-loss condition or better.
 
 ## Why Bellevue Homes Face Specific Fire Damage Risks
 
-Bellevue's housing stock spans everything from mid-century ramblers in Factoria and Newport Hills to newer construction in Eastgate and the high-rise condos downtown. Older homes — particularly those built before the 1980s — often have knob-and-tube or aluminum branch wiring that can be a fire risk and that complicates post-fire restoration because it may require full rewiring before the structure can be reoccupied. Newer construction uses engineered lumber and lightweight trusses that, while efficient, can lose structural integrity faster in a fire than dimensional lumber does.
+Bellevue's housing stock spans everything from mid-century ramblers in Factoria and Newport Hills to newer construction in Eastgate and the high-rise condos downtown. Older homes, particularly those built before the 1980s, often have knob-and-tube or aluminum branch wiring that can be a fire risk and that complicates post-fire restoration because it may require full rewiring before the structure can be reoccupied. Newer construction uses engineered lumber and lightweight trusses that, while efficient, can lose structural integrity faster in a fire than dimensional lumber does.
 
-The Puget Sound climate adds another layer: Bellevue averages around 37 inches of rain annually, and a fire that breaches the building envelope — even a small attic fire — can invite moisture intrusion within days. That moisture, combined with smoke residue, creates conditions where mold can begin colonizing porous materials in as little as 48 to 72 hours. Speed isn't just about comfort; it's about limiting what the damage becomes.
+The Puget Sound climate adds another layer: Bellevue averages around 37 inches of rain annually, and a fire that breaches the building envelope, even a small attic fire, can invite moisture intrusion within days. That moisture, combined with smoke residue, creates conditions where mold can begin colonizing porous materials in as little as 48 to 72 hours. Speed isn't just about comfort; it's about limiting what the damage becomes.
 
 ## How We Work With Your Insurance Company
 
-Dealing with your insurer after a structural fire damage event is genuinely stressful, and most homeowners have never done it before. We've worked with virtually every major carrier operating in Washington — State Farm, Farmers, PEMCO, Allstate, Safeco — and we know what adjusters need to process a claim efficiently.
+Dealing with your insurer after a structural fire damage event is genuinely stressful, and most homeowners have never done it before. We've worked with virtually every major carrier operating in Washington, State Farm, Farmers, PEMCO, Allstate, Safeco, and we know what adjusters need to process a claim efficiently.
 
-What we handle: detailed scope of loss documentation, line-item estimates in Xactimate (the industry-standard format adjusters use), direct communication with your adjuster, and supplement requests when hidden damage is uncovered during demolition — which happens more often than not.
+What we handle: detailed scope of loss documentation, line-item estimates in Xactimate (the industry-standard format adjusters use), direct communication with your adjuster, and supplement requests when hidden damage is uncovered during demolition, which happens more often than not.
 
-What you handle: filing the initial claim, paying your deductible, and making decisions about your coverage limits. We'll walk you through the process at every step, but we work for you — not your insurance company.
+What you handle: filing the initial claim, paying your deductible, and making decisions about your coverage limits. We'll walk you through the process at every step, but we work for you, not your insurance company.
 
 ## Response Times Across Bellevue
 
-Our headquarters is in Federal Way, roughly 20 miles south of Bellevue via I-405. Under normal traffic conditions, that puts a crew at your door in 60 to 90 minutes from the time you reach us. For neighborhoods closer to the I-90 corridor — Eastgate, Factoria, Somerset — response can be faster. For downtown Bellevue or Medina, plan on the 60–90 minute window during peak hours.
+Our headquarters is in Federal Way, roughly 20 miles south of Bellevue via I-405. Under normal traffic conditions, that puts a crew at your door in 60 to 90 minutes from the time you reach us. For neighborhoods closer to the I-90 corridor, Eastgate, Factoria, Somerset, response can be faster. For downtown Bellevue or Medina, plan on the 60–90 minute window during peak hours.
 
-We maintain 24/7 emergency dispatch. If you're reading this at 2 a.m. after a kitchen fire, the number to reach us is **(206) 883-0333** — a real person answers, not a voicemail.
+We maintain 24/7 emergency dispatch. If you're reading this at 2 a.m. after a kitchen fire, the number to reach us is **(206) 883-0333**, a real person answers, not a voicemail.
 
 If you've just had a fire, the most important thing you can do right now is limit foot traffic through the affected area, avoid running your HVAC system (it spreads soot), and get a restoration team on-site before secondary damage compounds the loss. We're ready to move the moment you reach us.

@@ -20,37 +20,37 @@ state: "WA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
-A storm just tore through your Redmond property — maybe a cedar came down on the roof, maybe the crawl space is filling with water, maybe you're staring at a wall of shingles on your lawn and a hole where your attic used to be. Whatever happened in the last few hours, the clock is already running. Moisture spreads, structural damage compounds, and the longer the opening in your envelope stays open, the worse the repair bill gets. National Restoration Construction has been responding to exactly these calls across the greater Seattle area since 2004, and we can have a crew to most Redmond addresses within 60–90 minutes of your call.
+A storm just tore through your Redmond property, maybe a cedar came down on the roof, maybe the crawl space is filling with water, maybe you're staring at a wall of shingles on your lawn and a hole where your attic used to be. Whatever happened in the last few hours, the clock is already running. Moisture spreads, structural damage compounds, and the longer the opening in your envelope stays open, the worse the repair bill gets. National Restoration Construction has been responding to exactly these calls across the greater Seattle area since 2004, and we can have a crew to most Redmond addresses within 60–90 minutes of your call.
 
 ## Why Redmond Properties See Storm Damage So Often
 
 Redmond sits in a corridor that funnels some of the Pacific Northwest's most aggressive weather. The Cascades push moisture-laden air west, and when a November or December bomb cyclone rolls through, sustained winds in the 50–70 mph range are common enough that local emergency managers treat them as routine. That's the kind of wind that turns a mature Douglas fir into a battering ram against a roofline.
 
-The housing stock adds to the risk. A significant portion of Redmond's single-family homes were built in the 1970s through early 1990s — decades when roof decking, flashing details, and window sealing standards were considerably looser than today's code. Older growth trees on established lots in neighborhoods like Education Hill and Grass Lawn Park are beautiful, but their root systems have been compromised by decades of utility trenching and irrigation. When the ground saturates after a heavy rain event and a 50 mph gust hits, the combination is what takes trees down onto structures. Newer developments near Overlake and the SR-520 corridor deal with different exposure — less tree canopy, but more flat or low-slope commercial roofing that pools water fast when drainage is overwhelmed.
+The housing stock adds to the risk. A significant portion of Redmond's single-family homes were built in the 1970s through early 1990s, decades when roof decking, flashing details, and window sealing standards were considerably looser than today's code. Older growth trees on established lots in neighborhoods like Education Hill and Grass Lawn Park are beautiful, but their root systems have been compromised by decades of utility trenching and irrigation. When the ground saturates after a heavy rain event and a 50 mph gust hits, the combination is what takes trees down onto structures. Newer developments near Overlake and the SR-520 corridor deal with different exposure, less tree canopy, but more flat or low-slope commercial roofing that pools water fast when drainage is overwhelmed.
 
 ## Our Storm Damage Restoration Process in Redmond
 
-The first thing we do when we arrive isn't paperwork — it's stopping the damage from getting worse. That means emergency tarping and board-up on any breached roof or wall section, extracting standing water before it migrates into subfloor assemblies, and doing a full structural walk to identify secondary hazards like compromised load-bearing members or live electrical near water intrusion.
+The first thing we do when we arrive isn't paperwork, it's stopping the damage from getting worse. That means emergency tarping and board-up on any breached roof or wall section, extracting standing water before it migrates into subfloor assemblies, and doing a full structural walk to identify secondary hazards like compromised load-bearing members or live electrical near water intrusion.
 
 From there, the process moves in a clear sequence:
 
-**1. Damage documentation.** We photograph and measure everything before we touch it — not just for your insurance claim, but so our reconstruction team has an accurate scope when it's time to rebuild. This step is what separates a clean insurance settlement from a disputed one.
+**1. Damage documentation.** We photograph and measure everything before we touch it, not just for your insurance claim, but so our reconstruction team has an accurate scope when it's time to rebuild. This step is what separates a clean insurance settlement from a disputed one.
 
-**2. Water extraction and drying.** If the storm brought water inside — through a failed roof, a broken window, or a flooded basement — we deploy truck-mount extraction units and commercial-grade desiccant or refrigerant dehumidifiers. Moisture meters and thermal imaging tell us where water traveled that you can't see with the naked eye. Mold can begin colonizing wet organic material in as little as 24–48 hours in Western Washington's climate; drying is not optional.
+**2. Water extraction and drying.** If the storm brought water inside, through a failed roof, a broken window, or a flooded basement, we deploy truck-mount extraction units and commercial-grade desiccant or refrigerant dehumidifiers. Moisture meters and thermal imaging tell us where water traveled that you can't see with the naked eye. Mold can begin colonizing wet organic material in as little as 24–48 hours in Western Washington's climate; drying is not optional.
 
 **3. Debris removal and structural stabilization.** Tree damage cleanup is more involved than cutting up logs. We assess how the impact loaded the structure, shore up anything that shifted, and remove debris in a sequence that doesn't destabilize what's still standing.
 
-**4. Full reconstruction.** As a licensed general contractor (WA L&I #NATIORC792M6), we don't hand you off to a separate rebuild crew. We carry the project from emergency response through finished repair — roofing, siding, framing, windows, interior finishes.
+**4. Full reconstruction.** As a licensed general contractor (WA L&I #NATIORC792M6), we don't hand you off to a separate rebuild crew. We carry the project from emergency response through finished repair, roofing, siding, framing, windows, interior finishes.
 
 ## Handling the Insurance Side
 
 Most homeowners dread the insurance process more than the damage itself. Here's what we handle and what stays with you.
 
-We prepare detailed written estimates in the format carriers expect, document all damage with photos and moisture readings, and communicate directly with your adjuster throughout the claim. We've worked with every major insurer active in the Redmond market — State Farm, PEMCO, Farmers, Allstate, USAA — and we know how their field adjusters scope storm claims locally.
+We prepare detailed written estimates in the format carriers expect, document all damage with photos and moisture readings, and communicate directly with your adjuster throughout the claim. We've worked with every major insurer active in the Redmond market, State Farm, PEMCO, Farmers, Allstate, USAA, and we know how their field adjusters scope storm claims locally.
 
 What stays with you: filing the initial claim, paying your deductible, and making decisions about any upgrades or code-required changes that go beyond the loss itself. We'll walk you through all of it before any work begins so there are no surprises on the back end.
 
-If your policy has a separate wind or hail deductible — increasingly common in Washington policies written after 2018 — we'll flag that early so you're not caught off guard.
+If your policy has a separate wind or hail deductible, increasingly common in Washington policies written after 2018, we'll flag that early so you're not caught off guard.
 
 ## Response Times Across Redmond
 
@@ -58,6 +58,6 @@ Our headquarters is in Federal Way, roughly 25 miles south of Redmond via I-5 an
 
 If you're in the Overlake or Marymoor area near the 520 interchange, we can often be closer to 45–50 minutes. Neighborhoods farther east toward Novelty Hill or Union Hill may run toward the longer end of that window depending on conditions.
 
-For any situation where the structure is actively unsafe — a tree through a roof with occupants inside, a flooded electrical panel, a wall that's visibly racked — tell us when you call at **(206) 883-0333** and we'll prioritize accordingly.
+For any situation where the structure is actively unsafe, a tree through a roof with occupants inside, a flooded electrical panel, a wall that's visibly racked, tell us when you call at **(206) 883-0333** and we'll prioritize accordingly.
 
 If the damage is visible and the weather has passed, the smartest move right now is to get us on-site before the next rain event. One documented inspection also gives you a clean starting point for your insurance claim, regardless of when repairs begin.

@@ -20,31 +20,31 @@ state: "TX"
 service_display: "Post-Construction and Specialty Cleaning"
 rendered: true
 ---
-Buffalo Gap sits in the rolling ranch country west of Abilene, where the West Texas wind carries fine caliche dust through every gap in a building envelope — and construction sites here are especially susceptible. After a renovation or new build in this small Taylor County community, that pale, powdery soil works its way into ductwork, settles on freshly painted trim, and coats window tracks before the last subcontractor has packed up. Air Care Restoration's post-construction and specialty cleaning service is built for exactly that kind of finish-line mess: the grit and debris that stands between a completed project and a space someone can actually live or work in.
+Buffalo Gap sits in the rolling ranch country west of Abilene, where the West Texas wind carries fine caliche dust through every gap in a building envelope, and construction sites here are especially susceptible. After a renovation or new build in this small Taylor County community, that pale, powdery soil works its way into ductwork, settles on freshly painted trim, and coats window tracks before the last subcontractor has packed up. Air Care Restoration's post-construction and specialty cleaning service is built for exactly that kind of finish-line mess: the grit and debris that stands between a completed project and a space someone can actually live or work in.
 
 ## Why Buffalo Gap Properties See Distinctive Post-Construction Cleanup Challenges
 
-The Taylor County landscape around Buffalo Gap is defined by caliche-heavy soil and open terrain with little natural windbreak. During any construction phase — framing, drywall, exterior work — that fine white dust infiltrates the structure continuously. By the time a project reaches punch-list stage, surfaces that look clean often have a thin, abrasive film that will scratch flooring and cloud glass if wiped down without the right technique.
+The Taylor County landscape around Buffalo Gap is defined by caliche-heavy soil and open terrain with little natural windbreak. During any construction phase, framing, drywall, exterior work, that fine white dust infiltrates the structure continuously. By the time a project reaches punch-list stage, surfaces that look clean often have a thin, abrasive film that will scratch flooring and cloud glass if wiped down without the right technique.
 
-The region's climate adds another layer. West Texas sees wide temperature swings between seasons, and construction adhesives, caulks, and grout used in summer heat cure differently than their label specs assume. That can leave residue that's harder to remove than standard construction film — particularly on tile and stone surfaces where grout haze bakes on quickly. Homes in and around Buffalo Gap also tend to use metal roofing and exposed aggregate concrete, both of which require specific cleaning chemistry to avoid surface damage during a final clean.
+The region's climate adds another layer. West Texas sees wide temperature swings between seasons, and construction adhesives, caulks, and grout used in summer heat cure differently than their label specs assume. That can leave residue that's harder to remove than standard construction film, particularly on tile and stone surfaces where grout haze bakes on quickly. Homes in and around Buffalo Gap also tend to use metal roofing and exposed aggregate concrete, both of which require specific cleaning chemistry to avoid surface damage during a final clean.
 
 ## Our Post-Construction and Specialty Cleaning Process in Buffalo Gap
 
-A thorough post-construction clean happens in a deliberate sequence — working top to bottom, rough to fine, so debris disturbed in one phase doesn't contaminate work already done in another.
+A thorough post-construction clean happens in a deliberate sequence, working top to bottom, rough to fine, so debris disturbed in one phase doesn't contaminate work already done in another.
 
-**Rough clean:** We remove all visible construction debris — scrap lumber, drywall offcuts, packaging, and bulk dust — before any detail work begins. In Buffalo Gap projects, this phase almost always includes clearing caliche dust from HVAC returns and registers, because that fine material migrates into the air handling system during framing and insulation.
+**Rough clean:** We remove all visible construction debris, scrap lumber, drywall offcuts, packaging, and bulk dust, before any detail work begins. In Buffalo Gap projects, this phase almost always includes clearing caliche dust from HVAC returns and registers, because that fine material migrates into the air handling system during framing and insulation.
 
 **Detail clean:** Window frames, sills, and tracks get hand-cleaned to remove silicone overspray and sticker adhesive. Cabinet interiors are wiped down, and all hardware is polished free of joint compound splatter. Tile and stone surfaces receive appropriate pH-balanced cleaners to lift grout haze without etching.
 
-**Final clean:** This is the white-glove pass — streak-free glass, baseboards wiped to the wall, floors cleaned and inspected under raking light. For specialty surfaces like polished concrete or engineered hardwood (increasingly common in Taylor County new builds), we use surface-specific products and microfiber systems that won't scratch or dull the finish.
+**Final clean:** This is the white-glove pass, streak-free glass, baseboards wiped to the wall, floors cleaned and inspected under raking light. For specialty surfaces like polished concrete or engineered hardwood (increasingly common in Taylor County new builds), we use surface-specific products and microfiber systems that won't scratch or dull the finish.
 
 **Air quality pass:** Because West Texas dust is so fine, we finish with a HEPA-filtered air scrubbing pass to pull airborne particulate before the space is handed over. This is especially important for projects where the HVAC system was running during construction.
 
 ## Reaching Buffalo Gap from Abilene
 
-Air Care Restoration is based in Abilene, and Buffalo Gap is a short drive south on FM 89 — a route the crew knows well. Because we operate 24/7, scheduling around a contractor's handoff timeline or a property owner's move-in date is straightforward. Whether a project wraps on a Friday afternoon or a Sunday morning, we can coordinate the cleaning window to keep your schedule on track without holding up occupancy.
+Air Care Restoration is based in Abilene, and Buffalo Gap is a short drive south on FM 89, a route the crew knows well. Because we operate 24/7, scheduling around a contractor's handoff timeline or a property owner's move-in date is straightforward. Whether a project wraps on a Friday afternoon or a Sunday morning, we can coordinate the cleaning window to keep your schedule on track without holding up occupancy.
 
-For larger projects — commercial builds, multi-unit residential, or full gut-and-renovate jobs — we recommend scheduling the rough clean before the final walkthrough so any punch-list items discovered during that pass don't get obscured by construction film.
+For larger projects, commercial builds, multi-unit residential, or full gut-and-renovate jobs, we recommend scheduling the rough clean before the final walkthrough so any punch-list items discovered during that pass don't get obscured by construction film.
 
 ## Equipment and Methods We Use for Post-Construction Cleaning
 
@@ -52,12 +52,12 @@ Post-construction cleaning in a dusty West Texas environment calls for more than
 
 - **HEPA-filtered vacuums** for fine caliche dust on all horizontal surfaces before any wet cleaning begins
 - **Air scrubbers** to capture airborne particulate during and after the cleaning process
-- **pH-controlled cleaning solutions** matched to the specific surface — alkaline for concrete and tile, neutral for hardwood, solvent-based where adhesive residue is present
+- **pH-controlled cleaning solutions** matched to the specific surface, alkaline for concrete and tile, neutral for hardwood, solvent-based where adhesive residue is present
 - **Soft-bristle detailing tools** for window tracks, door hardware, and cabinet hinge recesses where dust packs tightly
 - **Streak-free glass cleaning systems** for the large windows common in newer Taylor County builds
 
 ## Local Note
 
-One thing that surprises homeowners and contractors alike in the Buffalo Gap area: caliche dust is not just a nuisance — it's mildly alkaline, and when it mixes with moisture from a freshly mudded and painted wall, it can leave a faint white haze on adjacent flooring that looks like a cleaning failure but is actually a chemical reaction. Catching this during the detail-clean phase, before the final floor polish, is the difference between a clean handover and a callback. It's the kind of thing you only learn from working in this specific stretch of West Texas, and it shapes how we sequence every post-construction job in the area.
+One thing that surprises homeowners and contractors alike in the Buffalo Gap area: caliche dust is not just a nuisance, it's mildly alkaline, and when it mixes with moisture from a freshly mudded and painted wall, it can leave a faint white haze on adjacent flooring that looks like a cleaning failure but is actually a chemical reaction. Catching this during the detail-clean phase, before the final floor polish, is the difference between a clean handover and a callback. It's the kind of thing you only learn from working in this specific stretch of West Texas, and it shapes how we sequence every post-construction job in the area.
 
-If your Buffalo Gap build or renovation is approaching the finish line, call Air Care Restoration at (325) 339-8723. We'll coordinate directly with your general contractor, schedule around your timeline, and deliver a space that's genuinely move-in ready — not just swept.
+If your Buffalo Gap build or renovation is approaching the finish line, call Air Care Restoration at (325) 339-8723. We'll coordinate directly with your general contractor, schedule around your timeline, and deliver a space that's genuinely move-in ready, not just swept.

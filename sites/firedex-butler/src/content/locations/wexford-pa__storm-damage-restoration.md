@@ -20,25 +20,25 @@ state: "PA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
-The wooded lots and rolling terrain that make Wexford's Pine Township and English Farms neighborhoods so appealing become a liability the moment a severe storm rolls through the North Hills. Mature oaks and white pines drop limbs — or entire trunks — onto roofs, decks, and the finished walk-out basements that are a signature of the large two-story and estate homes built throughout the 15090 ZIP code from the 1990s onward. When that happens, FireDEX Butler responds around the clock from our Cranberry Township location to stop the damage from compounding.
+The wooded lots and rolling terrain that make Wexford's Pine Township and English Farms neighborhoods so appealing become a liability the moment a severe storm rolls through the North Hills. Mature oaks and white pines drop limbs, or entire trunks, onto roofs, decks, and the finished walk-out basements that are a signature of the large two-story and estate homes built throughout the 15090 ZIP code from the 1990s onward. When that happens, FireDEX Butler responds around the clock from our Cranberry Township location to stop the damage from compounding.
 
 ## Why Wexford Properties Are Especially Vulnerable to Storm Damage
 
 The same topography that gives homes near the Treesdale fringe their panoramic views also channels wind differently than flat suburban terrain. Storm cells that track along the I-79 corridor frequently accelerate as they funnel through the valley near the Route 910 interchange, and the dense tree canopy throughout Pine Township means falling debris is almost inevitable in any significant event.
 
-The housing stock here amplifies the stakes. Homes built in the 1990s and 2000s — the dominant era in Wexford — commonly feature bonus rooms cantilevered over three-car garages. Those spaces are notoriously difficult to insulate at the rim joist, and a storm that tears away soffit or fascia can expose those cavities to wind-driven rain within minutes. Once water enters a bonus room, it follows the framing downward into finished lower levels with home theaters, wet bars, and custom millwork — the kind of interior that requires careful documentation and matching-finish reconstruction, not a generic drywall patch.
+The housing stock here amplifies the stakes. Homes built in the 1990s and 2000s, the dominant era in Wexford, commonly feature bonus rooms cantilevered over three-car garages. Those spaces are notoriously difficult to insulate at the rim joist, and a storm that tears away soffit or fascia can expose those cavities to wind-driven rain within minutes. Once water enters a bonus room, it follows the framing downward into finished lower levels with home theaters, wet bars, and custom millwork, the kind of interior that requires careful documentation and matching-finish reconstruction, not a generic drywall patch.
 
-Many properties on wooded lots also rely on private wells. A storm severe enough to knock out power disables the well pump and pressure tank, and the pressure fluctuations that follow when power is restored can stress aging supply lines — turning a wind event into a simultaneous water-intrusion problem.
+Many properties on wooded lots also rely on private wells. A storm severe enough to knock out power disables the well pump and pressure tank, and the pressure fluctuations that follow when power is restored can stress aging supply lines, turning a wind event into a simultaneous water-intrusion problem.
 
 ## Our Storm Damage Restoration Process in Wexford
 
-The first priority on any storm call is making the structure safe and weather-tight before secondary damage accelerates. Our crews carry roof tarps, plywood, and temporary boarding materials on every truck, so the opening in your roof or wall is sealed the same visit — not scheduled for a follow-up.
+The first priority on any storm call is making the structure safe and weather-tight before secondary damage accelerates. Our crews carry roof tarps, plywood, and temporary boarding materials on every truck, so the opening in your roof or wall is sealed the same visit, not scheduled for a follow-up.
 
 From there, the process moves in a deliberate sequence:
 
-**Damage documentation.** We photograph and measure every affected surface before anything is moved or removed. For Wexford homeowners carrying strong replacement-cost policies, this documentation is the foundation of a full claim — not a courtesy.
+**Damage documentation.** We photograph and measure every affected surface before anything is moved or removed. For Wexford homeowners carrying strong replacement-cost policies, this documentation is the foundation of a full claim, not a courtesy.
 
-**Water extraction and drying.** Wind-driven rain soaks insulation batts and wall cavities without leaving obvious standing water. We use moisture meters and thermal imaging to map the full wet zone, then place drying equipment calibrated to the actual square footage affected — not a one-size number.
+**Water extraction and drying.** Wind-driven rain soaks insulation batts and wall cavities without leaving obvious standing water. We use moisture meters and thermal imaging to map the full wet zone, then place drying equipment calibrated to the actual square footage affected, not a one-size number.
 
 **Debris and tree removal coordination.** We work alongside licensed tree services to remove fallen trees from roofs and foundations safely. Structural assessment happens before any debris is pulled, because an improperly removed trunk can shift load-bearing members.
 
@@ -46,14 +46,14 @@ From there, the process moves in a deliberate sequence:
 
 ## Reaching Wexford from Cranberry Township
 
-Our base in Cranberry Township puts us a short drive up I-79 from Wexford on most calls. We serve the full 15090 service area — from the Village of Pine and Wexford Flats near Route 910 to the larger estate lots closer to the Franklin Park borders. Because we operate 24/7, a storm that hits at 2 a.m. on a Tuesday gets the same crew response as one that hits on a Saturday afternoon.
+Our base in Cranberry Township puts us a short drive up I-79 from Wexford on most calls. We serve the full 15090 service area, from the Village of Pine and Wexford Flats near Route 910 to the larger estate lots closer to the Franklin Park borders. Because we operate 24/7, a storm that hits at 2 a.m. on a Tuesday gets the same crew response as one that hits on a Saturday afternoon.
 
 ## Wexford Insurance Coordination
 
-North Hills homeowners in this area typically carry substantial replacement-cost policies, and insurance carriers expect detailed, organized documentation when large-loss claims come in. We prepare line-item scope reports, photograph every damaged material, and communicate directly with adjusters — including supplementing claims when hidden damage surfaces during demolition, which is common in storm work where water has traveled inside wall assemblies before anyone noticed.
+North Hills homeowners in this area typically carry substantial replacement-cost policies, and insurance carriers expect detailed, organized documentation when large-loss claims come in. We prepare line-item scope reports, photograph every damaged material, and communicate directly with adjusters, including supplementing claims when hidden damage surfaces during demolition, which is common in storm work where water has traveled inside wall assemblies before anyone noticed.
 
 We are a Pennsylvania-licensed Home Improvement Contractor (Registration #PA001913), which is a requirement adjusters and homeowners should verify on any contractor handling structural repair work in the state.
 
 ## Local Note
 
-One pattern we see repeatedly on wooded Wexford lots: after a storm drops a large tree onto a roof, homeowners focus entirely on the roof breach — understandably — and miss that the root ball displacement has also cracked the foundation drainage tile or shifted a downspout away from the foundation. Water then routes toward the house rather than away from it, and the finished basement takes on water days after the storm when the next rain event arrives. If a tree came down on your property, it's worth having the grading and drainage around the root zone checked before the next significant rainfall, not after.
+One pattern we see repeatedly on wooded Wexford lots: after a storm drops a large tree onto a roof, homeowners focus entirely on the roof breach, understandably, and miss that the root ball displacement has also cracked the foundation drainage tile or shifted a downspout away from the foundation. Water then routes toward the house rather than away from it, and the finished basement takes on water days after the storm when the next rain event arrives. If a tree came down on your property, it's worth having the grading and drainage around the root zone checked before the next significant rainfall, not after.

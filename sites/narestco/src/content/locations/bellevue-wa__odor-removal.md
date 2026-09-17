@@ -24,32 +24,32 @@ That smell isn't going away on its own. Whether it's smoke hanging in the walls 
 
 ## Why Bellevue Homes Hold Odors Longer Than You'd Expect
 
-Bellevue's climate works against you. The westside of the Cascades averages 150+ days of measurable precipitation annually, and that persistent dampness means odor molecules bind to porous materials — drywall, insulation, wood framing, carpet padding — and stay there. Older neighborhoods like Factoria and Crossroads have housing stock built in the 1970s and 80s with minimal vapor barriers, so moisture-driven odors from crawl spaces migrate upward into living areas. Newer construction in the Bel-Red corridor and Eastgate tends to be tighter, which actually traps smoke and cooking odors more effectively once they're inside.
+Bellevue's climate works against you. The westside of the Cascades averages 150+ days of measurable precipitation annually, and that persistent dampness means odor molecules bind to porous materials, drywall, insulation, wood framing, carpet padding, and stay there. Older neighborhoods like Factoria and Crossroads have housing stock built in the 1970s and 80s with minimal vapor barriers, so moisture-driven odors from crawl spaces migrate upward into living areas. Newer construction in the Bel-Red corridor and Eastgate tends to be tighter, which actually traps smoke and cooking odors more effectively once they're inside.
 
-Wildfires east of the Cascades have also become a seasonal reality. During smoke events, Bellevue's air quality can drop sharply, and fine particulate matter infiltrates HVAC systems and settles into soft furnishings. That's a different problem than a localized fire — it requires whole-house treatment, not just one room.
+Wildfires east of the Cascades have also become a seasonal reality. During smoke events, Bellevue's air quality can drop sharply, and fine particulate matter infiltrates HVAC systems and settles into soft furnishings. That's a different problem than a localized fire, it requires whole-house treatment, not just one room.
 
 ## Our Odor Removal and Deodorization Process in Bellevue
 
 We don't guess at the source. Every job starts with a structured assessment: we identify the odor category (smoke, biological, chemical, mold-related), locate the origin point, and map how far the contamination has traveled through the structure. That initial read determines which combination of methods we deploy.
 
-**Thermal fogging** is one of our primary tools for smoke odor removal. A fogging machine heats a deodorizing solvent into a dry vapor that penetrates the same pathways smoke used — inside wall cavities, behind baseboards, into ductwork. It bonds with odor-causing particles at the molecular level rather than masking them.
+**Thermal fogging** is one of our primary tools for smoke odor removal. A fogging machine heats a deodorizing solvent into a dry vapor that penetrates the same pathways smoke used, inside wall cavities, behind baseboards, into ductwork. It bonds with odor-causing particles at the molecular level rather than masking them.
 
 **Hydroxyl deodorization** uses UV-generated hydroxyl radicals to break down odor compounds in the air and on surfaces. Unlike ozone, hydroxyl generators are safe to operate in occupied spaces, which matters when you need to stay in your home or keep a commercial property partially open.
 
-**Ozone treatment** is reserved for unoccupied spaces with severe contamination — a vacant rental unit after a long-term tenant, or a garage after a vehicle fire. Ozone at treatment concentrations is highly effective but requires the space to be cleared and properly ventilated afterward. We handle that protocol carefully.
+**Ozone treatment** is reserved for unoccupied spaces with severe contamination, a vacant rental unit after a long-term tenant, or a garage after a vehicle fire. Ozone at treatment concentrations is highly effective but requires the space to be cleared and properly ventilated afterward. We handle that protocol carefully.
 
-For biological odors (pet waste, sewage backup, decomposition), we pair chemical treatment with physical removal — because no amount of fogging fixes an odor that still has a physical source underneath the flooring or inside a wall cavity.
+For biological odors (pet waste, sewage backup, decomposition), we pair chemical treatment with physical removal, because no amount of fogging fixes an odor that still has a physical source underneath the flooring or inside a wall cavity.
 
 ## Equipment We Bring On-Site
 
-Odor work is equipment-intensive. Our trucks arrive stocked with industrial air scrubbers with HEPA filtration, thermal foggers, commercial-grade hydroxyl generators, and ozone units sized for the square footage of the affected space. For jobs where smoke residue has coated hard surfaces, we also carry dry chemical sponges and appropriate cleaning agents for different surface types — because wiping down walls incorrectly can grind soot deeper into paint and drywall.
+Odor work is equipment-intensive. Our trucks arrive stocked with industrial air scrubbers with HEPA filtration, thermal foggers, commercial-grade hydroxyl generators, and ozone units sized for the square footage of the affected space. For jobs where smoke residue has coated hard surfaces, we also carry dry chemical sponges and appropriate cleaning agents for different surface types, because wiping down walls incorrectly can grind soot deeper into paint and drywall.
 
 When odors originate from water damage or mold, we bring moisture meters and thermal imaging cameras to confirm the source before treatment begins. Deodorizing over active mold growth doesn't solve the problem; it delays it.
 
 ## Navigating Insurance for Odor Damage in Bellevue
 
-Many odor-related losses are covered under standard homeowners policies, particularly when the source is a covered peril — fire, smoke, or sudden water damage. We work directly with all major carriers and can provide the documentation adjusters need: moisture readings, scope of work, before-and-after photos, and itemized estimates.
+Many odor-related losses are covered under standard homeowners policies, particularly when the source is a covered peril, fire, smoke, or sudden water damage. We work directly with all major carriers and can provide the documentation adjusters need: moisture readings, scope of work, before-and-after photos, and itemized estimates.
 
-What we can't do is make coverage decisions for your insurer. What we can do is make sure your claim file is complete and accurate from day one, which reduces back-and-forth and speeds up approval. If you're unsure whether your situation is covered, call us before you call your insurer — we can help you understand what you're looking at before you file.
+What we can't do is make coverage decisions for your insurer. What we can do is make sure your claim file is complete and accurate from day one, which reduces back-and-forth and speeds up approval. If you're unsure whether your situation is covered, call us before you call your insurer, we can help you understand what you're looking at before you file.
 
-If you're in Bellevue and something in your home smells wrong, the faster you get a professional assessment, the more options you have. Odors that seem manageable at day one can become structural problems by day seven. Reach National Restoration Construction at **(206) 883-0333** — we're in Federal Way, which puts us well within range of Bellevue neighborhoods, and we're available around the clock.
+If you're in Bellevue and something in your home smells wrong, the faster you get a professional assessment, the more options you have. Odors that seem manageable at day one can become structural problems by day seven. Reach National Restoration Construction at **(206) 883-0333**, we're in Federal Way, which puts us well within range of Bellevue neighborhoods, and we're available around the clock.

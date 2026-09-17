@@ -19,7 +19,7 @@ published_at: "2026-05-13"
 services: ["storm-damage-restoration"]
 rendered: true
 ---
-Before you dial your insurance company after a storm, spend 20–30 minutes doing this first. Adjusters move fast, initial estimates get locked in quickly, and anything you didn't document before that first call can become harder to add later. This checklist walks you through exactly what to photograph, record, and gather — so you walk into that conversation with evidence, not just a story.
+Before you dial your insurance company after a storm, spend 20–30 minutes doing this first. Adjusters move fast, initial estimates get locked in quickly, and anything you didn't document before that first call can become harder to add later. This checklist walks you through exactly what to photograph, record, and gather, so you walk into that conversation with evidence, not just a story.
 
 ## Step 1: Make Sure the Property Is Safe to Enter
 
@@ -38,12 +38,12 @@ This is the single most important thing you can do for your claim. Insurance adj
 
 **What to photograph and video:**
 
-- The exterior of the entire structure — all four sides, not just the damaged side
+- The exterior of the entire structure, all four sides, not just the damaged side
 - Close-ups of every impact point: dented gutters, cracked siding, lifted or missing shingles, broken windows, damaged fascia
 - Any debris that landed on or near the structure (tree limbs, neighbor's fence panels, roofing material from elsewhere)
-- Interior ceilings, walls, and floors where water has entered — look for water stains, bubbling paint, warped flooring, and wet insulation visible in attic hatches
+- Interior ceilings, walls, and floors where water has entered, look for water stains, bubbling paint, warped flooring, and wet insulation visible in attic hatches
 - Your HVAC unit, skylights, and any exterior equipment (AC condenser, satellite dish, solar panels)
-- The date and time stamp in your phone's metadata will automatically embed — don't crop these photos
+- The date and time stamp in your phone's metadata will automatically embed, don't crop these photos
 
 **What to write down:**
 
@@ -51,11 +51,11 @@ This is the single most important thing you can do for your claim. Insurance adj
 - A brief description of conditions ("sustained winds, hail the size of marbles, 45 minutes of heavy rain")
 - Any immediate effects you noticed (power flickering, a sudden ceiling drip, the sound of something hitting the roof)
 
-If you have pre-storm photos — from a real estate listing, a home inspection report, Google Street View, or your own camera roll — screenshot or save those now. They establish a baseline.
+If you have pre-storm photos, from a real estate listing, a home inspection report, Google Street View, or your own camera roll, screenshot or save those now. They establish a baseline.
 
 ## Step 3: Protect the Property From Further Damage (and Keep the Receipts)
 
-Your insurance policy almost certainly includes a clause requiring you to take "reasonable steps" to prevent additional damage after a covered loss. That means if a tree branch punched through your roof and it's going to rain again tonight, you're expected to cover the opening — and your insurer will likely reimburse you for that emergency work.
+Your insurance policy almost certainly includes a clause requiring you to take "reasonable steps" to prevent additional damage after a covered loss. That means if a tree branch punched through your roof and it's going to rain again tonight, you're expected to cover the opening, and your insurer will likely reimburse you for that emergency work.
 
 **Reasonable temporary measures:**
 
@@ -64,17 +64,17 @@ Your insurance policy almost certainly includes a clause requiring you to take "
 - Placing buckets and moving valuables away from active leaks
 - Extracting standing water with a wet/dry vac if it's safe to do so
 
-**Keep every receipt.** Emergency tarping, hotel stays if the home is uninhabitable, temporary storage for damaged belongings — these are often covered under "Additional Living Expenses" or "Loss of Use" provisions. A $180 tarp installation receipt is worth submitting.
+**Keep every receipt.** Emergency tarping, hotel stays if the home is uninhabitable, temporary storage for damaged belongings, these are often covered under "Additional Living Expenses" or "Loss of Use" provisions. A $180 tarp installation receipt is worth submitting.
 
 Do not make permanent repairs before the adjuster has inspected. Replacing shingles or patching drywall before documentation can give an insurer grounds to dispute the scope of damage.
 
 ## Step 4: Build Your Claim File Before the First Call
 
-When you call your insurer, they'll open a claim number and assign an adjuster. That adjuster may not visit for several days — or in a widespread storm event across the South King County area, possibly longer. Go into that first call with the following already in hand:
+When you call your insurer, they'll open a claim number and assign an adjuster. That adjuster may not visit for several days, or in a widespread storm event across the South King County area, possibly longer. Go into that first call with the following already in hand:
 
 1. **Your policy number and declarations page.** Know your dwelling coverage limit, your deductible, and whether you have a separate wind or hail deductible (common in Washington policies issued after 2010).
 2. **A written damage summary.** One page, bullet points: what was damaged, where it is in or on the structure, and when you first observed it.
-3. **Your photo and video files organized by location** (exterior north, exterior south, attic, living room ceiling, etc.) — this makes it easier to share via email or a claims portal.
+3. **Your photo and video files organized by location** (exterior north, exterior south, attic, living room ceiling, etc.), this makes it easier to share via email or a claims portal.
 4. **Any contractor estimates you've already received.** You're not required to have one before calling, but having an independent assessment in hand before the adjuster visits gives you a reference point if the insurer's estimate comes in low.
 5. **A list of damaged personal property**, if applicable. Model numbers, approximate purchase dates, and replacement costs for anything destroyed (furniture, electronics, appliances).
 
@@ -88,7 +88,7 @@ The adjuster's job is to assess the damage and produce an estimate using standar
 
 - The adjuster missed items (interior water damage isn't always visible without moisture meters)
 - Depreciation was applied to materials that your policy covers at replacement cost value (RCV), not actual cash value (ACV)
-- Code upgrade costs weren't included — if your roof has to be brought up to current building code during replacement, that's often a separate line item called "Ordinance or Law" coverage
+- Code upgrade costs weren't included, if your roof has to be brought up to current building code during replacement, that's often a separate line item called "Ordinance or Law" coverage
 
 If the estimate feels low, you can:
 
@@ -96,8 +96,8 @@ If the estimate feels low, you can:
 - Submit a supplemental claim with additional documentation
 - Invoke the appraisal clause in your policy (a formal dispute process that doesn't require an attorney)
 
-The window between the storm and the final settlement is also when hidden damage tends to surface. Water that entered through a compromised roof or cracked flashing doesn't stop moving once the rain stops — it migrates through insulation, into wall cavities, and under flooring. In the Pacific Northwest's climate, where ambient humidity is already high, mold can begin colonizing wet building materials within 24–48 hours. If your claim involves any interior water intrusion, professional moisture mapping before the adjuster closes the file is worth requesting.
+The window between the storm and the final settlement is also when hidden damage tends to surface. Water that entered through a compromised roof or cracked flashing doesn't stop moving once the rain stops, it migrates through insulation, into wall cavities, and under flooring. In the Pacific Northwest's climate, where ambient humidity is already high, mold can begin colonizing wet building materials within 24–48 hours. If your claim involves any interior water intrusion, professional moisture mapping before the adjuster closes the file is worth requesting.
 
 ---
 
-If your Federal Way home took storm damage and you're not sure what you're looking at — or you want an independent damage assessment before the adjuster arrives — National Restoration Construction's team can walk the property with you and document findings in a format that holds up through the claims process. Call (206) 883-0333 any time; storm response doesn't wait for business hours.
+If your Federal Way home took storm damage and you're not sure what you're looking at, or you want an independent damage assessment before the adjuster arrives, National Restoration Construction's team can walk the property with you and document findings in a format that holds up through the claims process. Call (206) 883-0333 any time; storm response doesn't wait for business hours.

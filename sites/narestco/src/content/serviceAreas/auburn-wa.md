@@ -19,17 +19,17 @@ state: "WA"
 primary: false
 rendered: true
 ---
-When a pipe bursts at 2 a.m., a kitchen fire leaves smoke embedded in every wall, or you notice that musty smell coming from the crawl space after a wet winter, you need someone who can be on-site fast and who knows what they're doing once they arrive. National Restoration Construction has been responding to property emergencies across the South King County corridor since 2004. From the Green River Valley neighborhoods near downtown Auburn to the newer subdivisions off Auburn Way North, we handle the full range of water, fire, mold, and reconstruction work — one crew, one point of contact, start to finish.
+When a pipe bursts at 2 a.m., a kitchen fire leaves smoke embedded in every wall, or you notice that musty smell coming from the crawl space after a wet winter, you need someone who can be on-site fast and who knows what they're doing once they arrive. National Restoration Construction has been responding to property emergencies across the South King County corridor since 2004. From the Green River Valley neighborhoods near downtown Auburn to the newer subdivisions off Auburn Way North, we handle the full range of water, fire, mold, and reconstruction work, one crew, one point of contact, start to finish.
 
 ## Restoration services we provide in Auburn
 
 ### Water damage restoration
 
-Auburn's combination of aging housing stock and the region's persistent rain season means water intrusion is one of the most common calls we receive. Whether it's a supply line failure, a backed-up sewer, or groundwater pushing through a foundation wall after a heavy storm, our technicians extract standing water, deploy industrial drying equipment, and monitor moisture levels in walls and subfloors until readings are back to baseline. The faster water is removed, the less structural damage accumulates — and the smaller the mold window stays.
+Auburn's combination of aging housing stock and the region's persistent rain season means water intrusion is one of the most common calls we receive. Whether it's a supply line failure, a backed-up sewer, or groundwater pushing through a foundation wall after a heavy storm, our technicians extract standing water, deploy industrial drying equipment, and monitor moisture levels in walls and subfloors until readings are back to baseline. The faster water is removed, the less structural damage accumulates, and the smaller the mold window stays.
 
 ### Fire and smoke damage restoration
 
-After a fire is extinguished, the damage keeps spreading. Smoke residue is acidic and continues etching surfaces for days; soot migrates through HVAC systems into rooms that never saw a flame. We assess the full scope — including hidden char behind drywall and odor trapped in insulation — and use thermal fogging, hydroxyl generators, and controlled demolition where necessary to get the structure back to livable condition.
+After a fire is extinguished, the damage keeps spreading. Smoke residue is acidic and continues etching surfaces for days; soot migrates through HVAC systems into rooms that never saw a flame. We assess the full scope, including hidden char behind drywall and odor trapped in insulation, and use thermal fogging, hydroxyl generators, and controlled demolition where necessary to get the structure back to livable condition.
 
 ### Mold remediation
 
@@ -37,7 +37,7 @@ Mold can begin colonizing a wet surface within 24 to 48 hours. Auburn's mild, da
 
 ### Biohazard and trauma cleanup
 
-Unattended deaths, sewage backflows, and hoarding situations require more than a mop and bleach. We're trained and equipped for Category 3 contamination and biohazard scenes, and we work discreetly — often arriving in unmarked vehicles when privacy matters.
+Unattended deaths, sewage backflows, and hoarding situations require more than a mop and bleach. We're trained and equipped for Category 3 contamination and biohazard scenes, and we work discreetly, often arriving in unmarked vehicles when privacy matters.
 
 ### Reconstruction and rebuild
 
@@ -45,11 +45,11 @@ Most restoration companies hand you off to a separate contractor once the drying
 
 ## Why Auburn property owners face restoration emergencies
 
-Auburn sits in the Green River Valley, a low-lying floodplain that has historically flooded during heavy rainfall events. The Army Corps of Engineers' Howard Hanson Dam provides significant flood control upstream, but localized stormwater drainage issues — particularly in older neighborhoods east of Auburn Avenue — still produce basement and crawl-space flooding during the November-through-March wet season. Many Auburn homes were built in the 1960s through 1980s, when vapor barriers and crawl-space ventilation standards were far less rigorous than they are today. That older construction, combined with the region's 38-plus inches of annual rainfall, creates persistent moisture problems that don't announce themselves until the damage is already significant.
+Auburn sits in the Green River Valley, a low-lying floodplain that has historically flooded during heavy rainfall events. The Army Corps of Engineers' Howard Hanson Dam provides significant flood control upstream, but localized stormwater drainage issues, particularly in older neighborhoods east of Auburn Avenue, still produce basement and crawl-space flooding during the November-through-March wet season. Many Auburn homes were built in the 1960s through 1980s, when vapor barriers and crawl-space ventilation standards were far less rigorous than they are today. That older construction, combined with the region's 38-plus inches of annual rainfall, creates persistent moisture problems that don't announce themselves until the damage is already significant.
 
 ## Response time and coverage in Auburn
 
-Our Federal Way headquarters puts us roughly 10 to 15 minutes from most Auburn addresses under normal traffic conditions. For emergency calls, we target a 60-minute on-site response across Auburn — including West Auburn, East Hill, Lea Hill, and the industrial corridors near the Port of Seattle rail yards. We operate 24 hours a day, 7 days a week, including holidays. When you call (206) 883-0333, you reach a live dispatcher, not a voicemail box.
+Our Federal Way headquarters puts us roughly 10 to 15 minutes from most Auburn addresses under normal traffic conditions. For emergency calls, we target a 60-minute on-site response across Auburn, including West Auburn, East Hill, Lea Hill, and the industrial corridors near the Port of Seattle rail yards. We operate 24 hours a day, 7 days a week, including holidays. When you call (206) 883-0333, you reach a live dispatcher, not a voicemail box.
 
 ---
 

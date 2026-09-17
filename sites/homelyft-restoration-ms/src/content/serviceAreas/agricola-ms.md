@@ -19,43 +19,43 @@ state: "MS"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall or a storm pushes water under your doors, HomeLyft Restoration MS responds to Agricola property owners with hands-on water damage mitigation, mold remediation, fire and smoke cleanup, and full structural reconstruction. We work directly with your insurance carrier, document every affected material, and get drying equipment running as fast as scheduling allows — so the damage stops spreading while you figure out next steps.
+When a pipe bursts behind a wall or a storm pushes water under your doors, HomeLyft Restoration MS responds to Agricola property owners with hands-on water damage mitigation, mold remediation, fire and smoke cleanup, and full structural reconstruction. We work directly with your insurance carrier, document every affected material, and get drying equipment running as fast as scheduling allows, so the damage stops spreading while you figure out next steps.
 
 ## Restoration emergencies common in Agricola
 
-Agricola sits in George County in the humid subtropical belt of South Mississippi, and that climate is hard on buildings. Summers push relative humidity well above 70 percent for weeks at a time, which means any moisture intrusion — a slow roof leak, a condensation problem around ductwork, a plumbing drip inside a cabinet — can seed active mold growth within 24 to 48 hours. Winters are mild but not dry, and the region's clay-heavy soils hold water close to the surface after heavy rain events, putting crawl spaces and slab edges under persistent hydrostatic pressure.
+Agricola sits in George County in the humid subtropical belt of South Mississippi, and that climate is hard on buildings. Summers push relative humidity well above 70 percent for weeks at a time, which means any moisture intrusion, a slow roof leak, a condensation problem around ductwork, a plumbing drip inside a cabinet, can seed active mold growth within 24 to 48 hours. Winters are mild but not dry, and the region's clay-heavy soils hold water close to the surface after heavy rain events, putting crawl spaces and slab edges under persistent hydrostatic pressure.
 
-The housing stock across the Agricola area skews toward older wood-frame construction and manufactured homes, both of which absorb moisture quickly and show structural softening faster than modern builds. Older homes may also carry legacy materials — certain insulation types, older caulking compounds — that complicate remediation scoping. George County's rural character means properties often rely on well water and septic systems, so a sewage backup or a well-pump failure carries different contamination risks than a municipal-water event in a city. Wildfires and debris burns near structures are also a seasonal concern, leaving smoke odor and soot residue in attics and HVAC systems long after the visible fire is out.
+The housing stock across the Agricola area skews toward older wood-frame construction and manufactured homes, both of which absorb moisture quickly and show structural softening faster than modern builds. Older homes may also carry legacy materials, certain insulation types, older caulking compounds, that complicate remediation scoping. George County's rural character means properties often rely on well water and septic systems, so a sewage backup or a well-pump failure carries different contamination risks than a municipal-water event in a city. Wildfires and debris burns near structures are also a seasonal concern, leaving smoke odor and soot residue in attics and HVAC systems long after the visible fire is out.
 
 ## Services we provide in Agricola
 
 ### Water damage mitigation
 
-Water damage in the Agricola area frequently starts in crawl spaces — ground moisture wicks into floor joists and subfloor sheathing before a homeowner notices soft spots underfoot or a musty smell drifting up through registers. HomeLyft crews extract standing water, deploy commercial desiccant and refrigerant dehumidifiers, and monitor moisture readings daily until structural materials reach target drying values. We document the process in detail for insurance claims.
+Water damage in the Agricola area frequently starts in crawl spaces, ground moisture wicks into floor joists and subfloor sheathing before a homeowner notices soft spots underfoot or a musty smell drifting up through registers. HomeLyft crews extract standing water, deploy commercial desiccant and refrigerant dehumidifiers, and monitor moisture readings daily until structural materials reach target drying values. We document the process in detail for insurance claims.
 
 ### Mold remediation
 
-George County's year-round humidity means mold isn't just a post-flood problem — it colonizes behind vapor barriers, inside wall cavities, and under flooring in homes that have never had a visible leak. Our remediation process includes containment, HEPA filtration, removal of affected materials to safe levels, and treatment of remaining surfaces. We do not make medical claims about air quality outcomes, but we follow established remediation protocols designed to reduce contamination.
+George County's year-round humidity means mold isn't just a post-flood problem, it colonizes behind vapor barriers, inside wall cavities, and under flooring in homes that have never had a visible leak. Our remediation process includes containment, HEPA filtration, removal of affected materials to safe levels, and treatment of remaining surfaces. We do not make medical claims about air quality outcomes, but we follow established remediation protocols designed to reduce contamination.
 
 ### Fire and smoke damage restoration
 
-After a kitchen fire or a structure fire that's been partially contained, smoke residue travels far beyond the burn zone — into closets, attic insulation, and ductwork. In Agricola's older wood-frame homes, that penetration can be deep. HomeLyft technicians use thermal fogging, ozone treatment, and HEPA vacuuming to address odor at the source, not just the surface, and we coordinate board-up and tarping to secure the structure while reconstruction is planned.
+After a kitchen fire or a structure fire that's been partially contained, smoke residue travels far beyond the burn zone, into closets, attic insulation, and ductwork. In Agricola's older wood-frame homes, that penetration can be deep. HomeLyft technicians use thermal fogging, ozone treatment, and HEPA vacuuming to address odor at the source, not just the surface, and we coordinate board-up and tarping to secure the structure while reconstruction is planned.
 
 ### Reconstruction and build-back
 
-Once mitigation is complete, many Agricola homeowners need more than cleanup — they need drywall replaced, flooring reinstalled, and cabinets rebuilt. HomeLyft handles the build-back phase in-house, which means one point of contact from the first call through the final walkthrough rather than handing you off to a separate contractor mid-claim.
+Once mitigation is complete, many Agricola homeowners need more than cleanup, they need drywall replaced, flooring reinstalled, and cabinets rebuilt. HomeLyft handles the build-back phase in-house, which means one point of contact from the first call through the final walkthrough rather than handing you off to a separate contractor mid-claim.
 
 ### Biohazard and sewage cleanup
 
-Septic failures and sewage backups are a real risk on rural George County properties. Category 3 water — sewage-contaminated — requires protective equipment, proper disposal of porous materials, and disinfection of affected surfaces. HomeLyft crews are equipped and trained to handle these events safely.
+Septic failures and sewage backups are a real risk on rural George County properties. Category 3 water, sewage-contaminated, requires protective equipment, proper disposal of porous materials, and disinfection of affected surfaces. HomeLyft crews are equipped and trained to handle these events safely.
 
 ## Coverage and how fast we can get there
 
-HomeLyft Restoration MS is headquartered in Gulfport, roughly 45 to 50 miles southwest of Agricola via US-49 North through Wiggins. The drive through Stone and George counties is straightforward on a clear day, though rural two-lane segments between Wiggins and Agricola can add time during heavy rain or when farm equipment is moving. We schedule Agricola calls promptly and will give you a realistic arrival window when you call — (228) 284-5200. Property managers overseeing multiple sites in the Agricola area can arrange standing service agreements so response coordination is already in place before an emergency happens.
+HomeLyft Restoration MS is headquartered in Gulfport, roughly 45 to 50 miles southwest of Agricola via US-49 North through Wiggins. The drive through Stone and George counties is straightforward on a clear day, though rural two-lane segments between Wiggins and Agricola can add time during heavy rain or when farm equipment is moving. We schedule Agricola calls promptly and will give you a realistic arrival window when you call, (228) 284-5200. Property managers overseeing multiple sites in the Agricola area can arrange standing service agreements so response coordination is already in place before an emergency happens.
 
 ## Building stock, site conditions, and permits in Agricola
 
-Agricola is unincorporated, so there is no city hall to visit — building permits for structural repair, reroofing, or a full rebuild go through George County, and the county also administers FEMA floodplain rules for properties near the Pascagoula and its tributaries. Substantial repairs in a mapped flood zone can trigger elevation requirements, so that question is worth answering before demolition, not after.
+Agricola is unincorporated, so there is no city hall to visit, building permits for structural repair, reroofing, or a full rebuild go through George County, and the county also administers FEMA floodplain rules for properties near the Pascagoula and its tributaries. Substantial repairs in a mapped flood zone can trigger elevation requirements, so that question is worth answering before demolition, not after.
 
 Older homes here typically sit on masonry piers over an open or partly skirted crawlspace, with slab-on-grade more common in newer builds. On a pier foundation, water follows the joists sideways and the damage shows up rooms away from the leak. Pre-1990 plumbing often means galvanized supply and cast iron drains; some late-80s work used polybutylene, which fails at the fittings without warning.
 

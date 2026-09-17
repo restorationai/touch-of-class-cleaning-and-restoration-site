@@ -19,7 +19,7 @@ published_at: "2026-06-15"
 services: ["storm-damage-restoration"]
 rendered: true
 ---
-Before you dial your insurance company after a storm, spend 30 minutes doing this first. Adjusters make decisions fast — sometimes on a single phone call — and the documentation you gather in the hours after the storm hits will directly affect how smoothly your claim moves and how much you recover. This checklist walks you through exactly what to capture, what to avoid, and what to hand off to a restoration contractor before you sign anything.
+Before you dial your insurance company after a storm, spend 30 minutes doing this first. Adjusters make decisions fast, sometimes on a single phone call, and the documentation you gather in the hours after the storm hits will directly affect how smoothly your claim moves and how much you recover. This checklist walks you through exactly what to capture, what to avoid, and what to hand off to a restoration contractor before you sign anything.
 
 ## Step 1: Make the Property Safe Before You Document Anything
 
@@ -27,20 +27,20 @@ Don't grab your phone and start filming the moment the storm passes. First, do a
 
 - **Check for downed power lines** near the structure. If any are touching the roof, siding, or standing water on the property, stay out and call Rocky Mountain Power before entering.
 - **Smell for gas.** Hail and wind can shift gas lines at the meter or at rooftop HVAC connections. If you detect rotten-egg odor, leave immediately and call Dominion Energy's emergency line.
-- **Look up before you walk in.** Saratoga Springs storms — especially the fast-moving fronts that roll off Utah Lake in late spring — can leave tree limbs partially embedded in rooflines. A limb that looks stable may not be.
+- **Look up before you walk in.** Saratoga Springs storms, especially the fast-moving fronts that roll off Utah Lake in late spring, can leave tree limbs partially embedded in rooflines. A limb that looks stable may not be.
 - **Turn off electricity to flooded areas** at the breaker panel if water has entered through the roof or windows and is pooling near outlets or appliances.
 
 Once you've confirmed the structure is safe to enter, then you document.
 
 ## Step 2: The Documentation Checklist (Do This Before You Touch Anything)
 
-Insurance adjusters are trained to look for evidence that damage existed before the storm or that a homeowner's actions worsened the loss. Your job is to create a clear, timestamped record of the storm's impact — not a cleaned-up version of it.
+Insurance adjusters are trained to look for evidence that damage existed before the storm or that a homeowner's actions worsened the loss. Your job is to create a clear, timestamped record of the storm's impact, not a cleaned-up version of it.
 
 **What to photograph and video:**
 
-1. The exterior of the home from all four corners — wide shots first, then close-ups of every visible impact point.
+1. The exterior of the home from all four corners, wide shots first, then close-ups of every visible impact point.
 2. Every room interior that shows water intrusion, debris, or structural damage. Open closet doors. Pull back rugs. If water came through the ceiling, photograph the ceiling, the floor directly below it, and any personal property that got wet.
-3. Damaged personal property in place — furniture, electronics, clothing — before you move it. Moving items first and photographing them later gives adjusters room to argue the damage happened during the move.
+3. Damaged personal property in place, furniture, electronics, clothing, before you move it. Moving items first and photographing them later gives adjusters room to argue the damage happened during the move.
 4. Your roof, if you can safely access it or use a drone. Hail strikes leave distinct circular bruising on shingles; wind damage often shows as lifted tabs or missing sections. Photograph the pattern, not just individual strikes.
 5. The gutters and downspouts. Hail dents on aluminum gutters are some of the clearest evidence of storm severity and are often used to calibrate the scope of a roof claim.
 6. Any standing water, water lines on walls, or wet insulation visible in attic or crawl space access points.
@@ -48,13 +48,13 @@ Insurance adjusters are trained to look for evidence that damage existed before 
 **Written notes to capture:**
 
 - Date and approximate time the storm hit your address
-- Description of what you heard or observed during the storm (hail size relative to common objects — marble, golf ball, quarter)
+- Description of what you heard or observed during the storm (hail size relative to common objects, marble, golf ball, quarter)
 - Names and contact info of neighbors who witnessed the same storm and may have filed their own claims
 - Any temporary repairs you make and their cost (receipts matter)
 
 **What to save:**
 
-- Screenshots of National Weather Service storm reports or local news coverage for that date — these establish that a qualifying weather event occurred
+- Screenshots of National Weather Service storm reports or local news coverage for that date, these establish that a qualifying weather event occurred
 - Your home inventory list or photos of pre-storm condition if you have them
 - Receipts for any emergency hotel stays, meals, or temporary housing if the home becomes uninhabitable
 
@@ -62,21 +62,21 @@ Insurance adjusters are trained to look for evidence that damage existed before 
 
 This is where homeowners accidentally hurt their own claims.
 
-**Don't make permanent repairs before the adjuster has seen the damage.** Replacing a shattered window is fine — that's mitigation. Re-roofing, repainting, or replacing flooring before documentation is photographed by an adjuster can give the insurance company grounds to dispute the scope.
+**Don't make permanent repairs before the adjuster has seen the damage.** Replacing a shattered window is fine, that's mitigation. Re-roofing, repainting, or replacing flooring before documentation is photographed by an adjuster can give the insurance company grounds to dispute the scope.
 
-**Don't throw away damaged materials.** That section of wet drywall, those hail-damaged shingles, the soaked carpet padding — keep samples or, at minimum, photograph them in detail before disposal. Adjusters sometimes request to inspect materials.
+**Don't throw away damaged materials.** That section of wet drywall, those hail-damaged shingles, the soaked carpet padding, keep samples or, at minimum, photograph them in detail before disposal. Adjusters sometimes request to inspect materials.
 
-**Don't sign anything a contractor hands you at the door.** After major storms in Utah County, storm chasers — out-of-state roofing crews — work neighborhoods door to door asking homeowners to sign assignment-of-benefits forms. These documents transfer your insurance claim rights to the contractor. Once signed, you lose control of the negotiation.
+**Don't sign anything a contractor hands you at the door.** After major storms in Utah County, storm chasers, out-of-state roofing crews, work neighborhoods door to door asking homeowners to sign assignment-of-benefits forms. These documents transfer your insurance claim rights to the contractor. Once signed, you lose control of the negotiation.
 
-**Don't wait too long to file.** Most homeowners' policies in Utah require you to report a claim within a "reasonable time" — often defined as 30 to 60 days. Waiting months can give the insurer grounds to deny the claim entirely.
+**Don't wait too long to file.** Most homeowners' policies in Utah require you to report a claim within a "reasonable time", often defined as 30 to 60 days. Waiting months can give the insurer grounds to deny the claim entirely.
 
-## Step 4: When to Call a Restoration Contractor — and What to Ask Them
+## Step 4: When to Call a Restoration Contractor, and What to Ask Them
 
 You don't have to wait for the adjuster's visit to bring in a restoration contractor. In fact, calling one early often works in your favor.
 
-A licensed restoration company can perform a professional damage assessment that documents scope in technical terms — moisture readings, affected square footage, structural compromise — that carry more weight with adjusters than homeowner photos alone. They can also begin emergency mitigation (tarping a breached roof, extracting standing water, setting drying equipment) which your policy likely requires you to do to prevent further loss.
+A licensed restoration company can perform a professional damage assessment that documents scope in technical terms, moisture readings, affected square footage, structural compromise, that carry more weight with adjusters than homeowner photos alone. They can also begin emergency mitigation (tarping a breached roof, extracting standing water, setting drying equipment) which your policy likely requires you to do to prevent further loss.
 
-If water entered the structure, time matters more than most homeowners realize. Mold colonization in Utah's climate can begin within 24 to 48 hours in wet building materials, especially in the warmer months. A restoration team with moisture meters and thermal imaging can find water that's already wicked into wall cavities or subfloor — damage that won't show up in your phone photos but will show up as a mold problem six weeks from now.
+If water entered the structure, time matters more than most homeowners realize. Mold colonization in Utah's climate can begin within 24 to 48 hours in wet building materials, especially in the warmer months. A restoration team with moisture meters and thermal imaging can find water that's already wicked into wall cavities or subfloor, damage that won't show up in your phone photos but will show up as a mold problem six weeks from now.
 
 When you call, ask:
 
@@ -84,15 +84,15 @@ When you call, ask:
 - Do you work directly with insurance adjusters and provide scope documentation?
 - Can you begin emergency mitigation today, and will that be covered under my claim?
 
-## Step 5: After the Adjuster Visit — Protecting Your Settlement
+## Step 5: After the Adjuster Visit, Protecting Your Settlement
 
 Once the adjuster has visited, you'll receive an estimate. Review it carefully before accepting.
 
-1. **Compare it line by line against your contractor's scope.** If the adjuster's estimate omits items your contractor identified — a damaged ridge cap, wet insulation, interior water staining — ask your contractor to write a supplement request with supporting documentation.
+1. **Compare it line by line against your contractor's scope.** If the adjuster's estimate omits items your contractor identified, a damaged ridge cap, wet insulation, interior water staining, ask your contractor to write a supplement request with supporting documentation.
 2. **Understand ACV vs. RCV.** Actual Cash Value settlements deduct depreciation; Replacement Cost Value pays what it actually costs to repair or replace. Know which your policy provides before you accept a check.
-3. **Keep every receipt.** Temporary repairs, storage unit rental for displaced belongings, hotel stays — all of it may be reimbursable under your Additional Living Expenses coverage.
+3. **Keep every receipt.** Temporary repairs, storage unit rental for displaced belongings, hotel stays, all of it may be reimbursable under your Additional Living Expenses coverage.
 4. **Request a re-inspection if the estimate feels low.** You have the right to dispute the adjuster's scope. A public adjuster or your contractor's supplementing process can open that conversation.
 
 ---
 
-If your home took storm damage and you're still sorting out what happened — or you want a professional damage assessment before your adjuster arrives — Home Pride Restoration and Cleaning handles storm damage restoration across Saratoga Springs and the surrounding Utah County area. Call **(801) 995-2437** and a technician can typically be on-site the same day to document the damage and start protecting your property.
+If your home took storm damage and you're still sorting out what happened, or you want a professional damage assessment before your adjuster arrives, Home Pride Restoration and Cleaning handles storm damage restoration across Saratoga Springs and the surrounding Utah County area. Call **(801) 995-2437** and a technician can typically be on-site the same day to document the damage and start protecting your property.

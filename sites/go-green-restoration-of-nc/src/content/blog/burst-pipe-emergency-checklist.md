@@ -17,7 +17,7 @@ published_at: "2026-07-13"
 services: ["water-damage-restoration", "appliance-leak-cleanup"]
 rendered: true
 ---
-A burst pipe can dump hundreds of gallons of water into your home in less than an hour. The single most important thing you can do in the first two minutes is **shut off your home's main water supply valve** — usually located near the water meter, in a crawl space, utility closet, or garage. Once water stops flowing, the clock on structural damage and mold growth starts ticking, but it slows dramatically. Everything else on this checklist builds from that one action.
+A burst pipe can dump hundreds of gallons of water into your home in less than an hour. The single most important thing you can do in the first two minutes is **shut off your home's main water supply valve**, usually located near the water meter, in a crawl space, utility closet, or garage. Once water stops flowing, the clock on structural damage and mold growth starts ticking, but it slows dramatically. Everything else on this checklist builds from that one action.
 
 ---
 
@@ -25,11 +25,11 @@ A burst pipe can dump hundreds of gallons of water into your home in less than a
 
 After you've closed the main shutoff, open a cold-water faucet on the lowest floor of your home. This relieves pressure still sitting in the pipes and lets you confirm the flow has actually stopped.
 
-If water is pooling near any electrical outlets, panel boxes, or appliances, **do not enter the room until you've flipped the breaker for that area at your main electrical panel**. Standing water and live current is a life-safety issue, not a property issue. When in doubt, call your utility provider — Duke Energy Progress serves most of the Middlesex and Johnston County area and has an emergency line for exactly this situation.
+If water is pooling near any electrical outlets, panel boxes, or appliances, **do not enter the room until you've flipped the breaker for that area at your main electrical panel**. Standing water and live current is a life-safety issue, not a property issue. When in doubt, call your utility provider, Duke Energy Progress serves most of the Middlesex and Johnston County area and has an emergency line for exactly this situation.
 
 Once the water is off and you've addressed the electrical risk:
 
-1. Take a photo of your main shutoff valve in the closed position — this documents when water stopped for your insurance claim.
+1. Take a photo of your main shutoff valve in the closed position, this documents when water stopped for your insurance claim.
 2. Locate the burst section if you can do so safely. Common failure points in central North Carolina homes include pipes in uninsulated crawl spaces (especially after a hard freeze), supply lines behind washing machines and refrigerators, and older galvanized pipes in homes built before 1970.
 3. Note the time, the visible damage, and the approximate location.
 
@@ -44,9 +44,9 @@ Then move quickly:
 - **Remove rugs, upholstered furniture, and anything fabric** from wet flooring. Wet carpet padding begins to harbor mold within 24–48 hours in North Carolina's humid climate, and saturated furniture can stain hardwood permanently.
 - **Lift wooden furniture off wet floors** using aluminum foil squares or plastic bags under the legs. Wood tannins will leach into wet flooring and leave stains that are nearly impossible to remove later.
 - **Move electronics, documents, and valuables** to a dry room.
-- Open interior doors and closets to improve air circulation, but keep exterior doors and windows closed if outdoor humidity is high — bringing in humid outside air into a wet structure slows evaporation.
+- Open interior doors and closets to improve air circulation, but keep exterior doors and windows closed if outdoor humidity is high, bringing in humid outside air into a wet structure slows evaporation.
 
-If the leak originated from an appliance — a washing machine supply hose, a refrigerator ice maker line, or a dishwasher connection — document the appliance itself. Appliance leak cleanup often involves different insurance coverage than a plumbing failure, and the distinction matters when you file.
+If the leak originated from an appliance, a washing machine supply hose, a refrigerator ice maker line, or a dishwasher connection, document the appliance itself. Appliance leak cleanup often involves different insurance coverage than a plumbing failure, and the distinction matters when you file.
 
 ---
 
@@ -54,13 +54,13 @@ If the leak originated from an appliance — a washing machine supply hose, a re
 
 A few well-intentioned responses can make a burst pipe situation significantly worse:
 
-**Don't use a shop vac or household vacuum on standing water.** A standard shop vac is not rated for the volume of water a burst pipe produces, and running it through saturated carpet doesn't address the moisture trapped in the subfloor below — which is where the real damage accumulates.
+**Don't use a shop vac or household vacuum on standing water.** A standard shop vac is not rated for the volume of water a burst pipe produces, and running it through saturated carpet doesn't address the moisture trapped in the subfloor below, which is where the real damage accumulates.
 
-**Don't run your HVAC system to dry things out.** Your HVAC pulls air through the structure and recirculates it. If mold spores are already present in wet materials — and in a 24-hour-plus wet environment in NC, they likely are — you'll spread them through every duct in the house.
+**Don't run your HVAC system to dry things out.** Your HVAC pulls air through the structure and recirculates it. If mold spores are already present in wet materials, and in a 24-hour-plus wet environment in NC, they likely are, you'll spread them through every duct in the house.
 
-**Don't assume the damage is only where you can see water.** Water follows gravity and the path of least resistance. A pipe that burst in a second-floor bathroom wall can travel down through the wall cavity, saturate the subfloor, pool on the ceiling below, and wick into the first-floor drywall — all before a visible drip appears. If the leak is behind drywall, you'll often see a soft, slightly discolored bulge before any actual water emerges.
+**Don't assume the damage is only where you can see water.** Water follows gravity and the path of least resistance. A pipe that burst in a second-floor bathroom wall can travel down through the wall cavity, saturate the subfloor, pool on the ceiling below, and wick into the first-floor drywall, all before a visible drip appears. If the leak is behind drywall, you'll often see a soft, slightly discolored bulge before any actual water emerges.
 
-**Don't wait more than 24 hours to start drying.** Mold can begin colonizing wet organic material (drywall paper, wood framing, carpet backing) in as little as 24–48 hours under the right temperature and humidity conditions. Central NC summers — and even mild winters with high indoor humidity — provide those conditions regularly.
+**Don't wait more than 24 hours to start drying.** Mold can begin colonizing wet organic material (drywall paper, wood framing, carpet backing) in as little as 24–48 hours under the right temperature and humidity conditions. Central NC summers, and even mild winters with high indoor humidity, provide those conditions regularly.
 
 ---
 
@@ -72,14 +72,14 @@ Some burst pipe situations are manageable with a mop and a few fans. Most are no
 
 - Water has been standing for more than a few hours
 - The affected area is larger than roughly 10 square feet of flooring
-- You can smell a musty or earthy odor — that's microbial growth, not just moisture
+- You can smell a musty or earthy odor, that's microbial growth, not just moisture
 - Water has reached drywall, insulation, or wood framing
 - The leak source was behind a wall, under a slab, or in a crawl space
 - You have a finished basement or any below-grade living space involved
 
-Professional water damage restoration involves more than extraction. Technicians use moisture meters and thermal imaging cameras to map exactly where water has migrated — including inside wall cavities and under flooring — then place industrial air movers and dehumidifiers calibrated to the specific volume of wet material. The drying process typically takes three to five days and requires daily moisture readings to confirm the structure is returning to acceptable levels.
+Professional water damage restoration involves more than extraction. Technicians use moisture meters and thermal imaging cameras to map exactly where water has migrated, including inside wall cavities and under flooring, then place industrial air movers and dehumidifiers calibrated to the specific volume of wet material. The drying process typically takes three to five days and requires daily moisture readings to confirm the structure is returning to acceptable levels.
 
-Go Green Restoration of NC handles water damage restoration and appliance leak cleanup throughout the Middlesex area. If you're unsure whether your situation warrants a call, reach out at **(919) 906-5473** — describing what you're seeing is usually enough to get a straight answer.
+Go Green Restoration of NC handles water damage restoration and appliance leak cleanup throughout the Middlesex area. If you're unsure whether your situation warrants a call, reach out at **(919) 906-5473**, describing what you're seeing is usually enough to get a straight answer.
 
 ---
 
@@ -87,13 +87,13 @@ Go Green Restoration of NC handles water damage restoration and appliance leak c
 
 Once the water is stopped and drying has begun, you're entering the longer phase of recovery. Here's what to expect:
 
-1. **Plumbing repair first.** A restoration crew can dry and repair the structure, but the broken pipe itself needs a licensed plumber. Schedule this as soon as possible — you can't restore water service to the home until the repair is complete.
+1. **Plumbing repair first.** A restoration crew can dry and repair the structure, but the broken pipe itself needs a licensed plumber. Schedule this as soon as possible, you can't restore water service to the home until the repair is complete.
 2. **Moisture mapping and drying.** Professional equipment runs continuously, typically for three to five days. Daily checks confirm progress.
 3. **Material assessment.** Some drywall, insulation, and flooring can be dried in place. Saturated drywall below the flood line, wet insulation, and buckled hardwood usually need to be removed and replaced.
 4. **Mold inspection.** If drying was delayed or if you notice any musty odor after materials are dried, a mold assessment is worth scheduling before reconstruction begins. Enclosing mold behind new drywall is a costly mistake.
-5. **Reconstruction.** Replacing drywall, flooring, and paint is the final phase — and often the longest in terms of scheduling contractors and waiting on materials.
+5. **Reconstruction.** Replacing drywall, flooring, and paint is the final phase, and often the longest in terms of scheduling contractors and waiting on materials.
 6. **Insurance close-out.** Keep every receipt, every contractor invoice, and every moisture reading log. Insurers may request documentation months after the initial claim.
 
 ---
 
-If you're working through a burst pipe right now and the damage is beyond a quick mop-up, the team at Go Green Restoration of NC is available to help assess the situation and walk you through next steps. Call **(919) 906-5473** or reach out online — the sooner drying equipment is in place, the smaller the repair bill tends to be.
+If you're working through a burst pipe right now and the damage is beyond a quick mop-up, the team at Go Green Restoration of NC is available to help assess the situation and walk you through next steps. Call **(919) 906-5473** or reach out online, the sooner drying equipment is in place, the smaller the repair bill tends to be.

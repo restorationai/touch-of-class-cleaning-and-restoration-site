@@ -17,19 +17,19 @@ service_slug: "smoke-damage-restoration"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
-Smoke doesn't stop damaging your home when the fire goes out. Within hours, acidic soot begins etching glass, pitting metal fixtures, and permanently yellowing painted surfaces. Within days, the odor — a complex mix of burned polymers, charred wood, and vaporized household chemicals — works its way into drywall cavities, HVAC ductwork, and the fibers of every soft surface in the building. National Restoration Construction responds to smoke damage calls across Federal Way and the surrounding Puget Sound region, stopping that clock before the damage becomes irreversible.
+Smoke doesn't stop damaging your home when the fire goes out. Within hours, acidic soot begins etching glass, pitting metal fixtures, and permanently yellowing painted surfaces. Within days, the odor, a complex mix of burned polymers, charred wood, and vaporized household chemicals, works its way into drywall cavities, HVAC ductwork, and the fibers of every soft surface in the building. National Restoration Construction responds to smoke damage calls across Federal Way and the surrounding Puget Sound region, stopping that clock before the damage becomes irreversible.
 
 ## How We Handle Smoke Damage
 
 Smoke damage restoration is not cleaning. It's a structured remediation process that addresses three distinct problems at once: visible residue, structural penetration, and airborne particulates.
 
-**Assessment and containment** come first. A technician walks the full structure — not just the room of origin — with a thermal camera and moisture meter to map how far heat and smoke traveled. Smoke follows air pressure, which means a kitchen fire can deposit a thin film of greasy residue on bedroom walls two floors away. We document everything with photos and written notes before touching a surface, both for accuracy and for your insurance file.
+**Assessment and containment** come first. A technician walks the full structure, not just the room of origin, with a thermal camera and moisture meter to map how far heat and smoke traveled. Smoke follows air pressure, which means a kitchen fire can deposit a thin film of greasy residue on bedroom walls two floors away. We document everything with photos and written notes before touching a surface, both for accuracy and for your insurance file.
 
-**Residue removal** depends on the type of smoke. Dry, powdery soot from fast-burning paper or wood responds to dry chemical sponges and HEPA vacuuming. Wet, oily smoke from plastics and synthetics — common in modern homes full of foam furniture and composite materials — requires alkaline cleaning agents and more aggressive agitation. Protein smoke from kitchen fires is nearly invisible but leaves a varnish-like film that traps odor; it needs enzymatic cleaners and often a full repaint. We identify which type or combination is present before selecting a method, because using the wrong chemistry can set a stain permanently.
+**Residue removal** depends on the type of smoke. Dry, powdery soot from fast-burning paper or wood responds to dry chemical sponges and HEPA vacuuming. Wet, oily smoke from plastics and synthetics, common in modern homes full of foam furniture and composite materials, requires alkaline cleaning agents and more aggressive agitation. Protein smoke from kitchen fires is nearly invisible but leaves a varnish-like film that traps odor; it needs enzymatic cleaners and often a full repaint. We identify which type or combination is present before selecting a method, because using the wrong chemistry can set a stain permanently.
 
-**Structural deodorization** follows surface cleaning. Thermal fogging — heating a deodorizing compound into a vapor that mimics the behavior of smoke — reaches the same cavities the original smoke penetrated. Hydroxyl generators run continuously during and after cleaning, breaking odor molecules apart at the molecular level without requiring occupants to vacate the way ozone treatments do. For severe penetration, we inject deodorizer directly into wall cavities through small access points that are patched afterward.
+**Structural deodorization** follows surface cleaning. Thermal fogging, heating a deodorizing compound into a vapor that mimics the behavior of smoke, reaches the same cavities the original smoke penetrated. Hydroxyl generators run continuously during and after cleaning, breaking odor molecules apart at the molecular level without requiring occupants to vacate the way ozone treatments do. For severe penetration, we inject deodorizer directly into wall cavities through small access points that are patched afterward.
 
-**Air scrubbing and HVAC cleaning** close out the process. HEPA air scrubbers run throughout the job, capturing particles down to 0.3 microns. If smoke entered the duct system — which it almost always does in a working house fire — we coordinate duct cleaning before the system is turned back on.
+**Air scrubbing and HVAC cleaning** close out the process. HEPA air scrubbers run throughout the job, capturing particles down to 0.3 microns. If smoke entered the duct system, which it almost always does in a working house fire, we coordinate duct cleaning before the system is turned back on.
 
 Timeline for a typical single-family home: 3–5 days for cleanup and deodorization, with reconstruction (repainting, replacing damaged drywall or flooring) scheduled immediately after.
 
@@ -37,22 +37,22 @@ Timeline for a typical single-family home: 3–5 days for cleanup and deodorizat
 
 The obvious trigger is a house fire, but smoke damage restoration services are needed in more situations than most homeowners realize.
 
-- A **contained kitchen fire** — even one the fire department cleared quickly — can leave protein smoke residue on every surface in an open-concept floor plan.
+- A **contained kitchen fire**, even one the fire department cleared quickly, can leave protein smoke residue on every surface in an open-concept floor plan.
 - A **wildfire smoke event** that lasted days can push fine particulate matter through window seals and HVAC filters, coating duct interiors and attic insulation.
 - A **neighboring unit fire** in a condo or apartment building often sends smoke through shared wall cavities and ceiling plenums into units that never saw a flame.
 - A **chimney or fireplace malfunction** deposits creosote and wood smoke throughout the living space over time.
 
-Call before you start cleaning. Wiping soot with a wet cloth or standard household cleaner is one of the most common mistakes we see — it smears oily residue deeper into porous surfaces and can make professional removal significantly harder. Ventilate the space, keep the HVAC off to avoid circulating particulates, and call (206) 883-0333.
+Call before you start cleaning. Wiping soot with a wet cloth or standard household cleaner is one of the most common mistakes we see, it smears oily residue deeper into porous surfaces and can make professional removal significantly harder. Ventilate the space, keep the HVAC off to avoid circulating particulates, and call (206) 883-0333.
 
 ## What Sets Our Smoke Damage Team Apart
 
-National Restoration Construction is IICRC Certified in fire and smoke restoration, EPA Certified, and holds Lead-Safe Certified Firm status — relevant because pre-1978 homes in Federal Way and older South King County neighborhoods frequently have lead paint that smoke damage disturbs. We're licensed as a General Contractor (Certificate of Registration #NATIORC792M6), which means we don't hand off reconstruction to a third party. The same company that cleans the damage repairs the structure.
+National Restoration Construction is IICRC Certified in fire and smoke restoration, EPA Certified, and holds Lead-Safe Certified Firm status, relevant because pre-1978 homes in Federal Way and older South King County neighborhoods frequently have lead paint that smoke damage disturbs. We're licensed as a General Contractor (Certificate of Registration #NATIORC792M6), which means we don't hand off reconstruction to a third party. The same company that cleans the damage repairs the structure.
 
 Response time matters in smoke damage because the damage curve is steep in the first 24–72 hours. We aim to have a crew on-site within hours of your call, not the next business day.
 
 ## Insurance, Billing, and the Claims Process
 
-Smoke damage from a fire is a covered peril under virtually every standard homeowners policy. The documentation we create during assessment — photos, moisture readings, room-by-room scope of damage — is formatted to meet adjuster requirements, which shortens the time between your claim and your approval.
+Smoke damage from a fire is a covered peril under virtually every standard homeowners policy. The documentation we create during assessment, photos, moisture readings, room-by-room scope of damage, is formatted to meet adjuster requirements, which shortens the time between your claim and your approval.
 
 We work directly with your insurance carrier and can communicate with your adjuster on your behalf. You should not need to manage that back-and-forth while also dealing with displacement and repairs. We'll provide a written estimate that aligns with Xactimate pricing, the industry-standard software most carriers use, so there are no surprises when the adjuster reviews it.
 
@@ -60,4 +60,4 @@ If you're a property manager handling a commercial or multi-unit claim, we can p
 
 ---
 
-If your home or property has smoke damage — from a fire last night or a wildfire event last week — call National Restoration Construction at **(206) 883-0333**. We'll assess the damage at no charge, walk you through what the work involves, and start the same day when the situation calls for it.
+If your home or property has smoke damage, from a fire last night or a wildfire event last week, call National Restoration Construction at **(206) 883-0333**. We'll assess the damage at no charge, walk you through what the work involves, and start the same day when the situation calls for it.

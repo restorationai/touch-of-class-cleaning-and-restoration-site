@@ -15,8 +15,8 @@ breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Blog"}]
 faq: []
 rendered: true
 ---
-Water damage doesn't wait for business hours, and most homeowners don't know what to do in the first thirty minutes after a pipe bursts or a basement floods. The posts here are written to close that gap — practical guides on stopping secondary damage, step-by-step walkthroughs of the insurance claim process, and plain-language explainers on what restoration crews are actually doing when they show up with drying equipment and moisture meters.
+Water damage doesn't wait for business hours, and most homeowners don't know what to do in the first thirty minutes after a pipe bursts or a basement floods. The posts here are written to close that gap, practical guides on stopping secondary damage, step-by-step walkthroughs of the insurance claim process, and plain-language explainers on what restoration crews are actually doing when they show up with drying equipment and moisture meters.
 
 You'll also find content specific to the Mahoning Valley: what freeze-thaw cycles do to older foundations in Youngstown's housing stock, how spring runoff behaves in low-lying neighborhoods, and what to watch for after a storm moves through the region. Some posts are evergreen how-tos; others are seasonal reminders timed to the weather patterns that drive most of the calls we get.
 
-Read whatever is useful. These articles are written to help you make better decisions about your property — whether that means calling a restoration company, calling your insurance adjuster, or just knowing what warning signs to look for before a small problem becomes a large one. If something you read here raises a question, the contact page is always there.
+Read whatever is useful. These articles are written to help you make better decisions about your property, whether that means calling a restoration company, calling your insurance adjuster, or just knowing what warning signs to look for before a small problem becomes a large one. If something you read here raises a question, the contact page is always there.

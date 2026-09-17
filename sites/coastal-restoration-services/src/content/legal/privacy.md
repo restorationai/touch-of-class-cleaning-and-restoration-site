@@ -24,11 +24,11 @@ This privacy policy explains how Coastal Restoration Services Inc collects, uses
 
 We collect only what we need to help you. When you submit a contact or estimate-request form, we receive your name, phone number, email address, property address, and whatever description of the damage you choose to share. We do not require you to submit sensitive personal information to get a response.
 
-The site also uses basic, anonymized analytics (page views, general traffic sources, device type) to understand how visitors find us. This data is aggregated — it is not tied to your name or contact details, and we do not use tracking pixels or behavioral advertising tools.
+The site also uses basic, anonymized analytics (page views, general traffic sources, device type) to understand how visitors find us. This data is aggregated, it is not tied to your name or contact details, and we do not use tracking pixels or behavioral advertising tools.
 
 ## How We Use Your Information
 
-The information you submit is used for three purposes: responding to your inquiry, scheduling an on-site estimate or emergency service, and — only with your explicit authorization — coordinating documentation with your insurance carrier. We will never contact your insurer, adjuster, or mortgage servicer on your behalf without your written or verbal consent.
+The information you submit is used for three purposes: responding to your inquiry, scheduling an on-site estimate or emergency service, and, only with your explicit authorization, coordinating documentation with your insurance carrier. We will never contact your insurer, adjuster, or mortgage servicer on your behalf without your written or verbal consent.
 
 We do not sell, rent, or trade your personal information to third parties. We do not share it with marketing platforms, lead-aggregation services, or data brokers.
 
@@ -38,7 +38,7 @@ Contact and project records are retained for as long as necessary to complete yo
 
 ## Your Rights as a California Resident
 
-Under the California Consumer Privacy Act (CCPA), California residents have the right to know what personal information we hold about them, request deletion of that information, and opt out of any sale of personal information — though we do not sell data in the first place. To exercise any of these rights, reach out by email or phone using the contact details below. We will respond within 45 days.
+Under the California Consumer Privacy Act (CCPA), California residents have the right to know what personal information we hold about them, request deletion of that information, and opt out of any sale of personal information, though we do not sell data in the first place. To exercise any of these rights, reach out by email or phone using the contact details below. We will respond within 45 days.
 
 Because Coastal Restoration Services Inc operates exclusively within California and does not target visitors in the European Union, the GDPR does not apply to our operations. If that changes, this policy will be updated accordingly.
 

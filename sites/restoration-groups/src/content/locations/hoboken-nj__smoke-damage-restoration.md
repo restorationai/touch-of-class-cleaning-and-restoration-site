@@ -20,7 +20,7 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
-Smoke from a kitchen fire or an electrical fault doesn't stop moving when the flames go out. In Hoboken's dense rows of 19th-century brownstones and brick rowhomes — buildings where interior walls share party-wall stacks and HVAC chases run between units — smoke residue migrates faster and farther than most homeowners expect. By the time the fire department clears the scene, soot has already settled into plaster ceilings, crept behind baseboards, and embedded itself in the porous brick that gives Downtown Hoboken its character. Acting within the first few hours matters more here than almost anywhere else.
+Smoke from a kitchen fire or an electrical fault doesn't stop moving when the flames go out. In Hoboken's dense rows of 19th-century brownstones and brick rowhomes, buildings where interior walls share party-wall stacks and HVAC chases run between units, smoke residue migrates faster and farther than most homeowners expect. By the time the fire department clears the scene, soot has already settled into plaster ceilings, crept behind baseboards, and embedded itself in the porous brick that gives Downtown Hoboken its character. Acting within the first few hours matters more here than almost anywhere else.
 
 ## Why Hoboken Properties Face Distinct Smoke Damage Challenges
 
@@ -30,19 +30,19 @@ The building density adds another layer of complexity. In a typical Hoboken rowh
 
 ## Our Smoke Damage Restoration Process in Hoboken
 
-Every smoke damage restoration job begins with a structured assessment — not a quick walk-through. We use thermal imaging to trace where heat and smoke traveled inside wall cavities, and air sampling to establish a baseline for soot particulate before any cleaning begins. In Hoboken's older buildings, that assessment often reveals that the visible damage is the smaller part of the problem.
+Every smoke damage restoration job begins with a structured assessment, not a quick walk-through. We use thermal imaging to trace where heat and smoke traveled inside wall cavities, and air sampling to establish a baseline for soot particulate before any cleaning begins. In Hoboken's older buildings, that assessment often reveals that the visible damage is the smaller part of the problem.
 
 From there, the process moves through several concrete phases:
 
-- **Containment and ventilation**: Negative air pressure units isolate affected areas and prevent cross-contamination into clean spaces — critical in multi-unit buildings where hallways and stairwells connect dozens of units.
+- **Containment and ventilation**: Negative air pressure units isolate affected areas and prevent cross-contamination into clean spaces, critical in multi-unit buildings where hallways and stairwells connect dozens of units.
 - **Dry and wet cleaning**: Dry chemical sponges lift loose soot from plaster, brick, and wood surfaces before any moisture is introduced. Wet cleaning with alkaline or acidic solutions follows, matched to the surface type.
-- **Odor neutralization**: Thermal fogging and hydroxyl generators reach into wall cavities and porous materials that surface cleaning can't address. In units with cast-iron radiators, we treat the radiator fins and the surrounding plaster — smoke odor baked into a hot radiator the following winter is a common callback we work to prevent upfront.
+- **Odor neutralization**: Thermal fogging and hydroxyl generators reach into wall cavities and porous materials that surface cleaning can't address. In units with cast-iron radiators, we treat the radiator fins and the surrounding plaster, smoke odor baked into a hot radiator the following winter is a common callback we work to prevent upfront.
 - **Content cleaning and pack-out**: Clothing, upholstered furniture, and personal items absorb smoke compounds readily. We can coordinate pack-out to a climate-controlled facility for ozone or ultrasonic cleaning when on-site treatment isn't sufficient.
 - **Final air quality verification**: Work is documented per IICRC Certified Firm #210213 standards, with before-and-after readings available for insurance carriers and building management.
 
 ## Reaching Hoboken from Kenilworth
 
-Our crews operate around the clock, and Hoboken is a regular part of our service area. From our Kenilworth headquarters, we route via I-78 East to the NJ Turnpike and into Hudson County, with access to Hoboken from the south via the Tonnelle Avenue corridor or from the west via Route 3. Depending on traffic — and the Lincoln Tunnel approach on Route 3 can be slow during peak hours — we typically stage equipment at or near the job site and coordinate parking with building management in advance, since street access in the blocks between Hoboken Terminal and the Waterfront can be tight for a work van or equipment trailer.
+Our crews operate around the clock, and Hoboken is a regular part of our service area. From our Kenilworth headquarters, we route via I-78 East to the NJ Turnpike and into Hudson County, with access to Hoboken from the south via the Tonnelle Avenue corridor or from the west via Route 3. Depending on traffic, and the Lincoln Tunnel approach on Route 3 can be slow during peak hours, we typically stage equipment at or near the job site and coordinate parking with building management in advance, since street access in the blocks between Hoboken Terminal and the Waterfront can be tight for a work van or equipment trailer.
 
 For calls that come in overnight or on weekends, we dispatch from the closest available crew, which can cut transit time meaningfully.
 
@@ -54,6 +54,6 @@ Condo boards along the Waterfront and in newer mid-rise buildings near Stevens I
 
 ## Local Note
 
-Hoboken's brownstones were built when coal was the primary heating fuel, and many still have residual soot deposits inside original chimney flues and behind fireplace surrounds — even in units that converted to gas heat decades ago. When a modern fire event adds fresh smoke to a building with that kind of history, the odor profile is layered and harder to fully neutralize. We probe chimney chases and original flue liners during our assessment on pre-1950 buildings because missing that reservoir of old soot is one of the most common reasons a smoke odor job gets called back. It's a detail that only shows up in buildings with Hoboken's specific age and construction history.
+Hoboken's brownstones were built when coal was the primary heating fuel, and many still have residual soot deposits inside original chimney flues and behind fireplace surrounds, even in units that converted to gas heat decades ago. When a modern fire event adds fresh smoke to a building with that kind of history, the odor profile is layered and harder to fully neutralize. We probe chimney chases and original flue liners during our assessment on pre-1950 buildings because missing that reservoir of old soot is one of the most common reasons a smoke odor job gets called back. It's a detail that only shows up in buildings with Hoboken's specific age and construction history.
 
 If your home or building in Hoboken has been affected by smoke or fire, call The Restoration Group at (855) 650-7422. We're available around the clock, and we'll walk you through exactly what to expect before a single piece of equipment comes through your door.

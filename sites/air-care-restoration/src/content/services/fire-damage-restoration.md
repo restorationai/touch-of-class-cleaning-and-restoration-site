@@ -17,13 +17,13 @@ service_slug: "fire-damage-restoration"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-Smoke doesn't stop moving when the flames go out. Within hours of a fire, soot migrates through HVAC ducts, settles into wall cavities, and bonds to cool surfaces — sometimes in rooms that never saw a flame. The smell that seems to fade by morning is actually off-gassing from char and residue baking into porous materials. Fire damage restoration is a race against that chemistry, and the window to prevent permanent staining and odor lock-in is measured in days, not weeks.
+Smoke doesn't stop moving when the flames go out. Within hours of a fire, soot migrates through HVAC ducts, settles into wall cavities, and bonds to cool surfaces, sometimes in rooms that never saw a flame. The smell that seems to fade by morning is actually off-gassing from char and residue baking into porous materials. Fire damage restoration is a race against that chemistry, and the window to prevent permanent staining and odor lock-in is measured in days, not weeks.
 
 ## What fire damage restoration actually involves
 
-Fire cleanup is not a cleaning job — it's a materials science problem. Different combustion sources leave fundamentally different residues. A kitchen grease fire produces a wet, sticky protein soot that smears if you wipe it and requires enzymatic or alkaline cleaners to break down. A structural fire burning synthetic materials — insulation, wiring, flooring — deposits a dry, porous soot that travels farther and penetrates more deeply into drywall and wood grain. Treating one type with the chemistry designed for the other makes the damage worse.
+Fire cleanup is not a cleaning job, it's a materials science problem. Different combustion sources leave fundamentally different residues. A kitchen grease fire produces a wet, sticky protein soot that smears if you wipe it and requires enzymatic or alkaline cleaners to break down. A structural fire burning synthetic materials, insulation, wiring, flooring, deposits a dry, porous soot that travels farther and penetrates more deeply into drywall and wood grain. Treating one type with the chemistry designed for the other makes the damage worse.
 
-Beyond surface soot, fire damage involves structural assessment of load-bearing members that may have been weakened by heat, moisture damage from suppression water, and the slow-release odor compounds that embed in insulation, subflooring, and HVAC components. An IICRC FSRT-certified technician reads the fire scene the way a physician reads a chart — the char pattern, the residue texture, and the suppression water migration all tell a story that determines the correct sequence of work.
+Beyond surface soot, fire damage involves structural assessment of load-bearing members that may have been weakened by heat, moisture damage from suppression water, and the slow-release odor compounds that embed in insulation, subflooring, and HVAC components. An IICRC FSRT-certified technician reads the fire scene the way a physician reads a chart, the char pattern, the residue texture, and the suppression water migration all tell a story that determines the correct sequence of work.
 
 Equipment on a fire loss typically includes hydroxyl generators or ozone chambers for molecular odor neutralization, thermal foggers that push deodorizing agents into the same porous pathways smoke traveled, HEPA-filtered air scrubbers to capture airborne particulate, and specialized sponges and chemical sponges matched to residue type before any wet cleaning begins.
 
@@ -31,27 +31,27 @@ Equipment on a fire loss typically includes hydroxyl generators or ozone chamber
 
 1. **Emergency stabilization and board-up.** Before restoration work begins, the structure needs to be secured. Broken windows, compromised doors, and open roof sections from fire or suppression activity are sealed to prevent weather intrusion and unauthorized entry. This step also protects the loss documentation that insurance adjusters and your carrier will need.
 
-2. **Soot characterization and scope development.** A technician walks every affected space — including rooms adjacent to the fire origin — and identifies residue type, migration pathways, and affected materials. This assessment drives the written scope of work and the cleaning chemistry selected for each surface category. Skipping this step is the single most common mistake on fire losses.
+2. **Soot characterization and scope development.** A technician walks every affected space, including rooms adjacent to the fire origin, and identifies residue type, migration pathways, and affected materials. This assessment drives the written scope of work and the cleaning chemistry selected for each surface category. Skipping this step is the single most common mistake on fire losses.
 
 3. **Contents pack-out and inventory.** Salvageable contents are documented, inventoried, and moved to a controlled environment for cleaning and deodorization off-site. This protects belongings from secondary soot migration during structural cleaning and gives adjusters a clear contents inventory for the claim.
 
-4. **Structural cleaning, HEPA filtration, and thermal fogging.** Surfaces are cleaned in sequence — ceilings before walls, walls before floors — using the correct chemistry for each residue type. HEPA air scrubbers run continuously to capture disturbed particulate. Thermal fogging follows surface cleaning, pushing a deodorizing agent into the same micro-pores that absorbed smoke, neutralizing odor at the source rather than masking it.
+4. **Structural cleaning, HEPA filtration, and thermal fogging.** Surfaces are cleaned in sequence, ceilings before walls, walls before floors, using the correct chemistry for each residue type. HEPA air scrubbers run continuously to capture disturbed particulate. Thermal fogging follows surface cleaning, pushing a deodorizing agent into the same micro-pores that absorbed smoke, neutralizing odor at the source rather than masking it.
 
 5. **Ozone treatment and clearance.** In unoccupied spaces, ozone generators provide a final molecular-level odor treatment that reaches areas thermal fogging cannot. Once the space clears and odor levels are acceptable, the structure is ready for reconstruction of any fire-damaged or suppression-damaged building materials.
 
 ## What separates a good fire damage response from a bad one
 
-The most common failure on fire losses is treating all soot the same way. Dry-sponging a protein soot residue or using alkaline cleaners on a wet smoke deposit can permanently set staining into drywall and wood — damage that then requires full replacement rather than cleaning. Experienced operators characterize residue before touching a surface.
+The most common failure on fire losses is treating all soot the same way. Dry-sponging a protein soot residue or using alkaline cleaners on a wet smoke deposit can permanently set staining into drywall and wood, damage that then requires full replacement rather than cleaning. Experienced operators characterize residue before touching a surface.
 
 The second failure is ignoring HVAC systems. Smoke travels through return air pathways and deposits residue on coil fins, duct lining, and filter housings. A restored living room connected to an unaddressed duct system will smell like smoke again within days of the HVAC cycling. Insurance adjusters increasingly flag HVAC scope as a line item precisely because carriers have seen this pattern on re-opened claims.
 
-A third gap is suppression water. Firefighting introduces significant moisture into wall cavities, subfloor assemblies, and ceiling systems. Fire restoration that doesn't include moisture mapping and structural drying leaves conditions that can produce mold growth within days — a secondary loss that complicates both the claim and the occupant's return timeline.
+A third gap is suppression water. Firefighting introduces significant moisture into wall cavities, subfloor assemblies, and ceiling systems. Fire restoration that doesn't include moisture mapping and structural drying leaves conditions that can produce mold growth within days, a secondary loss that complicates both the claim and the occupant's return timeline.
 
 Air Care Restoration's work on fire losses follows the ANSI/IICRC S700 standard for fire and smoke damage restoration. Owner Sarha Boyd holds IICRC FSRT (Fire and Smoke Restoration) and OCT (Odor Control) certifications, which means the response is trained specifically on residue chemistry, odor science, and the sequencing that prevents secondary damage.
 
 ## What does fire damage restoration cost?
 
-Typical costs for fire and smoke restoration vary significantly based on the size of the affected area, residue type, and whether reconstruction is required. Most homeowners pay somewhere in the ranges below — these are industry-typical figures, not quotes.
+Typical costs for fire and smoke restoration vary significantly based on the size of the affected area, residue type, and whether reconstruction is required. Most homeowners pay somewhere in the ranges below, these are industry-typical figures, not quotes.
 
 | Scenario | Typical industry range |
 |---|---|
@@ -63,16 +63,16 @@ Typical costs for fire and smoke restoration vary significantly based on the siz
 
 *Industry reference ranges for budgeting context only, not an Air Care quote or guaranteed price. Every project is scoped and documented individually.*
 
-Every fire loss is different — square footage, construction type, residue category, and suppression water extent all shift the number. Air Care Restoration provides a written scope of work before any work begins so you know exactly what is covered and why. Homeowners insurance typically covers fire damage restoration, including smoke and soot cleanup, contents pack-out, and suppression water drying, subject to your policy's deductible and coverage limits.
+Every fire loss is different, square footage, construction type, residue category, and suppression water extent all shift the number. Air Care Restoration provides a written scope of work before any work begins so you know exactly what is covered and why. Homeowners insurance typically covers fire damage restoration, including smoke and soot cleanup, contents pack-out, and suppression water drying, subject to your policy's deductible and coverage limits.
 
 ## Seasonal and regional considerations
 
-Abilene's climate adds a layer of complexity to fire losses that isn't always obvious. The region's low humidity — particularly in fall and winter — accelerates soot migration and odor penetration because dry air allows fine particulate to stay airborne longer and travel farther through a structure before settling. A fire loss in January in West Texas can show smoke residue in rooms two and three zones away from the origin faster than the same loss in a more humid climate would.
+Abilene's climate adds a layer of complexity to fire losses that isn't always obvious. The region's low humidity, particularly in fall and winter, accelerates soot migration and odor penetration because dry air allows fine particulate to stay airborne longer and travel farther through a structure before settling. A fire loss in January in West Texas can show smoke residue in rooms two and three zones away from the origin faster than the same loss in a more humid climate would.
 
-Suppression water in winter also carries freeze risk in unheated or partially compromised structures. If exterior walls or roof assemblies were breached, water trapped in wall cavities can freeze before drying equipment can address it — a detail that affects both the drying timeline and the reconstruction scope.
+Suppression water in winter also carries freeze risk in unheated or partially compromised structures. If exterior walls or roof assemblies were breached, water trapped in wall cavities can freeze before drying equipment can address it, a detail that affects both the drying timeline and the reconstruction scope.
 
 ## Service area
 
-Air Care Restoration is based in Abilene and serves the surrounding communities of the Big Country region. The fire and smoke restoration service area includes Abilene and nearby cities throughout the region — each with its own combination of housing stock, construction era, and local conditions that affect how a fire loss behaves. City-specific service pages link back here for the full process detail.
+Air Care Restoration is based in Abilene and serves the surrounding communities of the Big Country region. The fire and smoke restoration service area includes Abilene and nearby cities throughout the region, each with its own combination of housing stock, construction era, and local conditions that affect how a fire loss behaves. City-specific service pages link back here for the full process detail.
 
-If you're dealing with smoke, soot, or structural fire damage, call **(325) 339-8723** — Air Care Restoration responds 24/7. The sooner soot chemistry is addressed, the more of your home and contents can be saved. **Call now to begin smoke and soot removal.**
+If you're dealing with smoke, soot, or structural fire damage, call **(325) 339-8723**, Air Care Restoration responds 24/7. The sooner soot chemistry is addressed, the more of your home and contents can be saved. **Call now to begin smoke and soot removal.**

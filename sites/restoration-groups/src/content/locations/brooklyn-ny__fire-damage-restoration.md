@@ -20,25 +20,25 @@ state: "NY"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-A kitchen fire in a Park Slope brownstone behaves differently than one in a suburban ranch house. The same flames that char drywall in a newer build can penetrate 100-year-old plaster, travel up balloon-framed cavities, and deposit oily smoke residue inside original tin ceilings and ornate woodwork before a single hose is turned on. When that happens — whether you're a brownstone owner in Brooklyn Heights or a co-op board managing a Williamsburg building — the clock on secondary damage starts immediately. The Restoration Group responds 24/7, and our crews understand what Brooklyn's older housing stock demands.
+A kitchen fire in a Park Slope brownstone behaves differently than one in a suburban ranch house. The same flames that char drywall in a newer build can penetrate 100-year-old plaster, travel up balloon-framed cavities, and deposit oily smoke residue inside original tin ceilings and ornate woodwork before a single hose is turned on. When that happens, whether you're a brownstone owner in Brooklyn Heights or a co-op board managing a Williamsburg building, the clock on secondary damage starts immediately. The Restoration Group responds 24/7, and our crews understand what Brooklyn's older housing stock demands.
 
 ## Why Brooklyn's Building Stock Complicates Fire Damage
 
-Brooklyn's brownstone belt — the rowhouses running through Park Slope, Brooklyn Heights, and the Bed-Stuy fringe — was built largely between the 1880s and 1920s. That era of construction means balloon framing, horsehair plaster, and party walls shared with your neighbor. After a fire, smoke doesn't just sit in the room where it started. It migrates through the gaps in balloon-framed walls, up into attic spaces, and through shared masonry into adjacent units. A fire that looks contained to one floor can leave detectable odor and soot residue two or three floors away.
+Brooklyn's brownstone belt, the rowhouses running through Park Slope, Brooklyn Heights, and the Bed-Stuy fringe, was built largely between the 1880s and 1920s. That era of construction means balloon framing, horsehair plaster, and party walls shared with your neighbor. After a fire, smoke doesn't just sit in the room where it started. It migrates through the gaps in balloon-framed walls, up into attic spaces, and through shared masonry into adjacent units. A fire that looks contained to one floor can leave detectable odor and soot residue two or three floors away.
 
-Garden-level and cellar apartments — common throughout ZIP code 11215 and the surrounding brownstone neighborhoods — add another layer of complexity. Firefighting water and suppression foam pool in below-grade spaces quickly, meaning a fire call almost always becomes a combined fire-and-water loss. Structural drying has to run in parallel with smoke and soot remediation, not after it.
+Garden-level and cellar apartments, common throughout ZIP code 11215 and the surrounding brownstone neighborhoods, add another layer of complexity. Firefighting water and suppression foam pool in below-grade spaces quickly, meaning a fire call almost always becomes a combined fire-and-water loss. Structural drying has to run in parallel with smoke and soot remediation, not after it.
 
 Commercial and mixed-use buildings near the Brooklyn Navy Yard corridor and Bushwick's converted loft spaces carry their own challenges: exposed brick and timber absorb smoke deeply, and the square footage involved can be substantial.
 
 ## Our Fire Damage Restoration Process in Brooklyn
 
-Every job begins with a documented scope — photographs, moisture readings, and a written assessment that your insurer and, if applicable, your co-op or condo management company can act on. Brooklyn insurers and board managers have seen enough fire claims to know when documentation is thin; ours isn't.
+Every job begins with a documented scope, photographs, moisture readings, and a written assessment that your insurer and, if applicable, your co-op or condo management company can act on. Brooklyn insurers and board managers have seen enough fire claims to know when documentation is thin; ours isn't.
 
 From there, the process moves in a deliberate sequence:
 
 **Structural stabilization and board-up.** If the fire compromised windows, doors, or roofing, we secure the property before any cleaning begins. In rowhouse blocks, an unsecured opening is a liability for the whole building.
 
-**Soot and smoke removal.** We use HEPA-filtered negative air machines and dry-chemical sponges on surfaces before any wet cleaning — a critical sequence for plaster walls, which can absorb water and streak permanently if you wet-clean soot before dry-removing it. Thermal fogging and hydroxyl generation address odor in cavities that surface cleaning can't reach.
+**Soot and smoke removal.** We use HEPA-filtered negative air machines and dry-chemical sponges on surfaces before any wet cleaning, a critical sequence for plaster walls, which can absorb water and streak permanently if you wet-clean soot before dry-removing it. Thermal fogging and hydroxyl generation address odor in cavities that surface cleaning can't reach.
 
 **Content pack-out and cleaning.** Furniture, clothing, documents, and personal items are inventoried, packed, and transported to a controlled environment for cleaning and deodorization. For Brooklyn residents in smaller apartments, this step often preserves far more than people expect.
 
@@ -46,16 +46,16 @@ From there, the process moves in a deliberate sequence:
 
 ## Reaching Brooklyn from Kenilworth
 
-The Restoration Group is based in Kenilworth, NJ, and our crews reach Brooklyn via the Goethals or Bayonne Bridge to the Staten Island Expressway and across the Verrazzano-Narrows into Bay Ridge — or through the Holland Tunnel and across the Brooklyn-Battery Tunnel for northern neighborhoods. Because we operate 24/7, a call at 2 a.m. from Canarsie or Flatbush gets the same response as a call at noon. We don't publish a minutes-to-site guarantee because Brooklyn traffic is Brooklyn traffic, but we dispatch immediately and keep you updated on ETA in real time.
+The Restoration Group is based in Kenilworth, NJ, and our crews reach Brooklyn via the Goethals or Bayonne Bridge to the Staten Island Expressway and across the Verrazzano-Narrows into Bay Ridge, or through the Holland Tunnel and across the Brooklyn-Battery Tunnel for northern neighborhoods. Because we operate 24/7, a call at 2 a.m. from Canarsie or Flatbush gets the same response as a call at noon. We don't publish a minutes-to-site guarantee because Brooklyn traffic is Brooklyn traffic, but we dispatch immediately and keep you updated on ETA in real time.
 
 ## Brooklyn Insurance and Board Coordination
 
 Fire claims in Brooklyn frequently involve layers of stakeholders that don't exist in single-family suburban markets. Co-op boards in Brooklyn Heights require management company sign-off before restoration work can begin in common areas. Condo associations in Williamsburg may have their own preferred vendor lists or insurance riders. Brownstone owners with garden apartments often have separate policies for owner-occupied and rental units that need to be coordinated simultaneously.
 
-We've worked through these structures before. We provide the documentation — scope of loss, photo evidence, moisture logs, and itemized estimates — in the format adjusters and property managers actually use. We bill carriers directly where assignment of benefits is in place, which reduces the out-of-pocket burden during an already difficult time.
+We've worked through these structures before. We provide the documentation, scope of loss, photo evidence, moisture logs, and itemized estimates, in the format adjusters and property managers actually use. We bill carriers directly where assignment of benefits is in place, which reduces the out-of-pocket burden during an already difficult time.
 
 ## Local Note
 
-In Brooklyn's older rowhouses, smoke odor has a way of reappearing weeks after a fire appears to be resolved. The reason is usually horsehair plaster: the organic material in traditional plaster binds smoke compounds and releases them slowly as the wall cycles through humidity changes — and Brooklyn's summers are humid. Surface deodorization alone won't hold. Effective odor control in these buildings requires sealing the plaster substrate with an encapsulant after cleaning, then treating the air volume with hydroxyl or ozone equipment. Skipping that step is the most common reason Brooklyn homeowners call a second company after the first one closes out the job.
+In Brooklyn's older rowhouses, smoke odor has a way of reappearing weeks after a fire appears to be resolved. The reason is usually horsehair plaster: the organic material in traditional plaster binds smoke compounds and releases them slowly as the wall cycles through humidity changes, and Brooklyn's summers are humid. Surface deodorization alone won't hold. Effective odor control in these buildings requires sealing the plaster substrate with an encapsulant after cleaning, then treating the air volume with hydroxyl or ozone equipment. Skipping that step is the most common reason Brooklyn homeowners call a second company after the first one closes out the job.
 
-If you're dealing with fire damage in Brooklyn — a rowhouse in Flatbush, a loft near the Brooklyn Navy Yard, or a co-op anywhere in between — call The Restoration Group at (908) 970-8533. We're available around the clock, and we'll walk you through next steps before a crew ever sets foot on site.
+If you're dealing with fire damage in Brooklyn, a rowhouse in Flatbush, a loft near the Brooklyn Navy Yard, or a co-op anywhere in between, call The Restoration Group at (908) 970-8533. We're available around the clock, and we'll walk you through next steps before a crew ever sets foot on site.

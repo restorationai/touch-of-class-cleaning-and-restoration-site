@@ -19,21 +19,21 @@ state: "IA"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall in the St. Mary's district or a basement floods after a heavy spring rain near Remsen City Park, Crew Restoration & Construction dispatches from Sioux Falls to handle the water extraction, structural drying, mold containment, fire cleanup, or reconstruction — whatever the property needs, start to finish. We work directly with insurance carriers, document every affected material, and keep Remsen homeowners and property managers informed at every step so the recovery doesn't become a second job.
+When a pipe bursts behind a wall in the St. Mary's district or a basement floods after a heavy spring rain near Remsen City Park, Crew Restoration & Construction dispatches from Sioux Falls to handle the water extraction, structural drying, mold containment, fire cleanup, or reconstruction, whatever the property needs, start to finish. We work directly with insurance carriers, document every affected material, and keep Remsen homeowners and property managers informed at every step so the recovery doesn't become a second job.
 
 ## Restoration emergencies common in Remsen
 
-Remsen sits in Plymouth County where northwest Iowa's continental climate swings hard between seasons. Winter freeze-thaw cycles put real stress on the older masonry and plaster construction common throughout Downtown Remsen and the St. Mary's district — hairline cracks in foundation walls let snowmelt in, and a single hard freeze can split a supply line that's been quietly losing insulation for years. Spring brings a different threat: the region's clay-heavy soils drain slowly, and when snowmelt and April rain arrive together, sump pumps that haven't been tested since October get overwhelmed fast. Summer storms roll across the open farmland with little to slow them, and the combination of high winds and saturated ground means roof damage and wind-driven water intrusion are a recurring pattern here. The housing stock in Remsen also skews older — many homes near St. Mary's Catholic Church were built in the mid-twentieth century with materials that respond poorly to prolonged moisture: plaster ceilings that sag, wood subfloors that cup, and older HVAC systems that circulate humid air rather than dehumidify it.
+Remsen sits in Plymouth County where northwest Iowa's continental climate swings hard between seasons. Winter freeze-thaw cycles put real stress on the older masonry and plaster construction common throughout Downtown Remsen and the St. Mary's district, hairline cracks in foundation walls let snowmelt in, and a single hard freeze can split a supply line that's been quietly losing insulation for years. Spring brings a different threat: the region's clay-heavy soils drain slowly, and when snowmelt and April rain arrive together, sump pumps that haven't been tested since October get overwhelmed fast. Summer storms roll across the open farmland with little to slow them, and the combination of high winds and saturated ground means roof damage and wind-driven water intrusion are a recurring pattern here. The housing stock in Remsen also skews older, many homes near St. Mary's Catholic Church were built in the mid-twentieth century with materials that respond poorly to prolonged moisture: plaster ceilings that sag, wood subfloors that cup, and older HVAC systems that circulate humid air rather than dehumidify it.
 
 ## Services we provide in Remsen
 
 ### Water damage restoration
 
-Water damage in Remsen often starts small and hides well. A slow roof leak above a plaster ceiling in a 1950s bungalow near Downtown Remsen can saturate insulation and wall cavities for weeks before a stain appears. We use thermal imaging and moisture meters to find what isn't visible, extract standing water, and dry structural assemblies to IICRC S500 standards before any repairs begin — because drying to a number, not just to the touch, is what prevents mold from colonizing within 24 to 72 hours.
+Water damage in Remsen often starts small and hides well. A slow roof leak above a plaster ceiling in a 1950s bungalow near Downtown Remsen can saturate insulation and wall cavities for weeks before a stain appears. We use thermal imaging and moisture meters to find what isn't visible, extract standing water, and dry structural assemblies to IICRC S500 standards before any repairs begin, because drying to a number, not just to the touch, is what prevents mold from colonizing within 24 to 72 hours.
 
 ### Mold remediation
 
-Mold follows moisture, and in Remsen's older housing stock it often turns up in crawl spaces, behind plaster, and inside wall cavities where a slow leak went unnoticed. We contain the affected area, remove compromised materials, treat surfaces, and verify clearance — and we're straightforward about what we find rather than upselling remediation that isn't warranted.
+Mold follows moisture, and in Remsen's older housing stock it often turns up in crawl spaces, behind plaster, and inside wall cavities where a slow leak went unnoticed. We contain the affected area, remove compromised materials, treat surfaces, and verify clearance, and we're straightforward about what we find rather than upselling remediation that isn't warranted.
 
 ### Fire and smoke damage restoration
 
@@ -45,11 +45,11 @@ After a severe storm tracks across Plymouth County, the calls we receive from th
 
 ### Biohazard and specialty cleanup
 
-For situations that require more than standard cleaning — sewage backups, trauma scenes, or hazardous material exposure — we follow established safety protocols and handle disposal properly so property owners don't have to navigate those requirements alone.
+For situations that require more than standard cleaning, sewage backups, trauma scenes, or hazardous material exposure, we follow established safety protocols and handle disposal properly so property owners don't have to navigate those requirements alone.
 
 ## Coverage and how fast we can get there
 
-Crew Restoration & Construction operates out of Sioux Falls, SD. Remsen is roughly 90 miles southeast via I-90 East and US-75 South — a straightforward drive through Sioux Falls' southern suburbs and into northwest Iowa. We can reach Downtown Remsen and the St. Mary's district directly from that corridor. Because our hours aren't listed as around-the-clock, we encourage Remsen property owners to call (605) 965-2727 to schedule promptly — the sooner drying equipment is running, the less secondary damage accumulates. For active water intrusion, every hour before extraction begins matters.
+Crew Restoration & Construction operates out of Sioux Falls, SD. Remsen is roughly 90 miles southeast via I-90 East and US-75 South, a straightforward drive through Sioux Falls' southern suburbs and into northwest Iowa. We can reach Downtown Remsen and the St. Mary's district directly from that corridor. Because our hours aren't listed as around-the-clock, we encourage Remsen property owners to call (605) 965-2727 to schedule promptly, the sooner drying equipment is running, the less secondary damage accumulates. For active water intrusion, every hour before extraction begins matters.
 
 ## Building stock, site conditions, and permits in Remsen
 

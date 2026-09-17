@@ -20,19 +20,19 @@ state: "UT"
 service_display: "Mold Remediation"
 rendered: true
 ---
-Lehi's rapid growth along the Silicon Slopes corridor has brought thousands of new townhomes, garden-style condos, and fast-built single-family subdivisions — and with that construction pace comes a mold risk that many new residents don't expect. Utah's high desert climate feels dry, but Lehi sits in a basin that traps winter inversions and seasonal moisture, and slab-on-grade foundations common in newer developments give water vapor limited escape routes. When a slow leak behind drywall or a failed vapor barrier goes unnoticed for 48–72 hours, mold colonies can establish before a homeowner ever smells anything.
+Lehi's rapid growth along the Silicon Slopes corridor has brought thousands of new townhomes, garden-style condos, and fast-built single-family subdivisions, and with that construction pace comes a mold risk that many new residents don't expect. Utah's high desert climate feels dry, but Lehi sits in a basin that traps winter inversions and seasonal moisture, and slab-on-grade foundations common in newer developments give water vapor limited escape routes. When a slow leak behind drywall or a failed vapor barrier goes unnoticed for 48–72 hours, mold colonies can establish before a homeowner ever smells anything.
 
 ## Why Lehi Properties See Mold Issues
 
-Lehi's Utah County location puts it in a climate zone that swings hard between dry summers and cold, wet winters — and that swing is exactly what mold exploits. During late fall and early spring, temperature differentials between heated interior spaces and cold exterior walls create condensation inside wall cavities, particularly in homes with inadequate vapor barriers or insufficient insulation. The newer subdivisions near Traverse Mountain and the developments along Thanksgiving Point's eastern edge were built quickly during the 2015–2022 construction boom, and some of that housing stock has thinner framing cavities and tighter building envelopes that trap moisture rather than releasing it.
+Lehi's Utah County location puts it in a climate zone that swings hard between dry summers and cold, wet winters, and that swing is exactly what mold exploits. During late fall and early spring, temperature differentials between heated interior spaces and cold exterior walls create condensation inside wall cavities, particularly in homes with inadequate vapor barriers or insufficient insulation. The newer subdivisions near Traverse Mountain and the developments along Thanksgiving Point's eastern edge were built quickly during the 2015–2022 construction boom, and some of that housing stock has thinner framing cavities and tighter building envelopes that trap moisture rather than releasing it.
 
 Legacy homes closer to Lehi's historic Main Street corridor present a different problem: older plumbing, less-flexible supply lines, and crawl spaces that predate modern vapor barrier standards. A slow drip under a kitchen sink or a weeping water heater fitting in a crawl space can saturate wood subfloor for months before visible mold appears on the surface.
 
 ## Our Mold Remediation Process in Lehi
 
-Every job starts with a thorough inspection — moisture meters, thermal imaging, and air sampling where warranted — before a single square foot of material is disturbed. Disturbing mold without containment spreads spores through HVAC systems and adjacent rooms, which is how a localized bathroom problem becomes a whole-house issue.
+Every job starts with a thorough inspection, moisture meters, thermal imaging, and air sampling where warranted, before a single square foot of material is disturbed. Disturbing mold without containment spreads spores through HVAC systems and adjacent rooms, which is how a localized bathroom problem becomes a whole-house issue.
 
-Once the scope is confirmed, the affected area is isolated with negative-air containment barriers and HEPA-filtered air scrubbers running continuously. Contaminated porous materials — drywall, insulation, subfloor sections — are removed, bagged, and disposed of per Utah solid waste guidelines. Structural surfaces are treated with EPA-registered antimicrobial agents, and the area is dried to documented moisture levels before any reconstruction begins. In Lehi's newer construction, that drying phase often takes longer than homeowners expect because engineered lumber and OSB sheathing absorb and release moisture more slowly than dimensional lumber.
+Once the scope is confirmed, the affected area is isolated with negative-air containment barriers and HEPA-filtered air scrubbers running continuously. Contaminated porous materials, drywall, insulation, subfloor sections, are removed, bagged, and disposed of per Utah solid waste guidelines. Structural surfaces are treated with EPA-registered antimicrobial agents, and the area is dried to documented moisture levels before any reconstruction begins. In Lehi's newer construction, that drying phase often takes longer than homeowners expect because engineered lumber and OSB sheathing absorb and release moisture more slowly than dimensional lumber.
 
 Home Pride Restoration and Cleaning is IICRC Certified and licensed in Utah (RC-25-0737), which matters when your insurance adjuster asks for documentation of the remediation standard followed.
 
@@ -40,16 +40,16 @@ Home Pride Restoration and Cleaning is IICRC Certified and licensed in Utah (RC-
 
 Operating out of Saratoga Springs, the crew can reach most of Lehi in 20–35 minutes under normal traffic conditions. The 84043 ZIP code covers the bulk of Lehi's residential areas, and from the HQ it's a straightforward run up Redwood Road or Pony Express Parkway. The Traverse Mountain neighborhoods at the northern end of the city add roughly 10–15 minutes depending on time of day, but that's still well within the window where rapid response limits secondary damage and slows active mold growth.
 
-For calls that come in during peak Silicon Slopes commute hours — roughly 7–9 a.m. and 4–6 p.m. on weekdays — the dispatch team will route around I-15 congestion to keep arrival times honest.
+For calls that come in during peak Silicon Slopes commute hours, roughly 7–9 a.m. and 4–6 p.m. on weekdays, the dispatch team will route around I-15 congestion to keep arrival times honest.
 
 ## Lehi Insurance and HOA Coordination
 
 Many of Lehi's newer planned communities and townhome developments have HOA master policies that interact with individual homeowner policies in ways that aren't always obvious. When mold originates from a shared plumbing stack or a roof maintained by the HOA, the claim can involve two adjusters and two carriers. The team has worked through this scenario enough times in Utah County developments to know how to document scope, causation, and remediation methodology in a format that satisfies both sides.
 
-Detailed moisture logs, pre- and post-remediation photos, and written scope-of-work documentation are standard on every job — not an add-on.
+Detailed moisture logs, pre- and post-remediation photos, and written scope-of-work documentation are standard on every job, not an add-on.
 
 ## Local Note
 
 One pattern that comes up repeatedly in Lehi's Thanksgiving Point-area subdivisions: spray-foam insulation applied directly to rim joists in newer construction creates a near-perfect moisture trap when a basement or crawl-space humidity issue develops. The foam seals so well that there's no airflow to carry moisture away, and mold can colonize the wood behind the foam without any visible sign on the foam's surface. If you're in one of those homes and you're smelling something musty but can't find a source, the rim joist cavity is worth checking before assuming the problem is elsewhere.
 
-If you're dealing with a mold problem — or just a smell you can't explain — in Lehi's 84043 corridor, call Home Pride Restoration and Cleaning at (801) 995-2437. The inspection starts the clock on getting your home back to a safe, documented baseline.
+If you're dealing with a mold problem, or just a smell you can't explain, in Lehi's 84043 corridor, call Home Pride Restoration and Cleaning at (801) 995-2437. The inspection starts the clock on getting your home back to a safe, documented baseline.

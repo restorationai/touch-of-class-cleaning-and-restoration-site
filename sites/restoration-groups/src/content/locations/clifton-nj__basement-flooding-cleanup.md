@@ -20,24 +20,24 @@ state: "NJ"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
-When Weasel Brook backs up or the Passaic River crests its banks near Lakeview and Delawanna, water doesn't politely stop at the foundation wall. It finds every crack in a 1950s poured-concrete basement, every gap around an aging cast-iron cleanout, and every low point in a finished rec room floor — and it moves fast. The Restoration Group responds to basement flooding emergencies in Clifton around the clock, extracting standing water, drying structural materials, and documenting the loss for your insurance carrier before secondary damage sets in.
+When Weasel Brook backs up or the Passaic River crests its banks near Lakeview and Delawanna, water doesn't politely stop at the foundation wall. It finds every crack in a 1950s poured-concrete basement, every gap around an aging cast-iron cleanout, and every low point in a finished rec room floor, and it moves fast. The Restoration Group responds to basement flooding emergencies in Clifton around the clock, extracting standing water, drying structural materials, and documenting the loss for your insurance carrier before secondary damage sets in.
 
 ## Why Clifton Basements Flood the Way They Do
 
-Clifton's geography stacks the odds against its lowest floors. The city sits in a bowl shaped by the Passaic River to the east and Weasel Brook threading through the western neighborhoods, and both waterways have proven they can overwhelm storm infrastructure — Irene in 2011 and Ida in 2021 pushed floodwater into homes and commercial lots along Route 21 and into the low-lying streets off Clifton Avenue near Delawanna. But river events are only part of the story.
+Clifton's geography stacks the odds against its lowest floors. The city sits in a bowl shaped by the Passaic River to the east and Weasel Brook threading through the western neighborhoods, and both waterways have proven they can overwhelm storm infrastructure, Irene in 2011 and Ida in 2021 pushed floodwater into homes and commercial lots along Route 21 and into the low-lying streets off Clifton Avenue near Delawanna. But river events are only part of the story.
 
-The dominant housing stock — postwar capes, colonials, and split-levels built between 1945 and 1965 — was constructed with finished basements that were never designed for modern moisture loads. Original galvanized supply lines and cast-iron drain stacks in these homes are now 60 to 80 years old. A single corroded elbow or root-invaded lateral can dump hundreds of gallons before anyone notices. In Botany Village, older brick multi-family buildings add a different wrinkle: shared drain systems mean one tenant's backup becomes a building-wide event. ZIP codes 07011 and 07013 together contain some of the densest concentrations of this aging infrastructure in Passaic County.
+The dominant housing stock, postwar capes, colonials, and split-levels built between 1945 and 1965, was constructed with finished basements that were never designed for modern moisture loads. Original galvanized supply lines and cast-iron drain stacks in these homes are now 60 to 80 years old. A single corroded elbow or root-invaded lateral can dump hundreds of gallons before anyone notices. In Botany Village, older brick multi-family buildings add a different wrinkle: shared drain systems mean one tenant's backup becomes a building-wide event. ZIP codes 07011 and 07013 together contain some of the densest concentrations of this aging infrastructure in Passaic County.
 
 ## Our Basement Flooding Cleanup Process in Clifton
 
-Every flooded basement job starts with a moisture map, not a mop. Before any equipment rolls in, a technician walks the space with a thermal camera and pin-type moisture meters to identify where water has wicked into framing, subfloor, and wall cavities — areas that look dry to the eye but will grow mold within 24 to 48 hours if left untreated.
+Every flooded basement job starts with a moisture map, not a mop. Before any equipment rolls in, a technician walks the space with a thermal camera and pin-type moisture meters to identify where water has wicked into framing, subfloor, and wall cavities, areas that look dry to the eye but will grow mold within 24 to 48 hours if left untreated.
 
 From there the process moves in sequence:
 
-1. **Water extraction** — truck-mounted and portable extractors pull standing water from concrete floors, carpet, and subfloor assemblies. In finished Clifton basements with laminate or engineered wood over concrete, we assess whether flooring can be dried in place or needs to come up to prevent trapping moisture against the slab.
-2. **Structural drying** — commercial-grade desiccant and refrigerant dehumidifiers run in combination with high-velocity air movers. Drying targets follow the IICRC S500 standard for Category 1, 2, or 3 water, depending on the source.
-3. **Antimicrobial treatment** — applied to concrete, framing, and any porous material that contacted contaminated water (sewer backup, groundwater intrusion) before reconstruction begins.
-4. **Documentation** — daily moisture readings are logged and photographed to support your insurance claim and demonstrate that drying was completed to standard, not just to visual inspection.
+1. **Water extraction**, truck-mounted and portable extractors pull standing water from concrete floors, carpet, and subfloor assemblies. In finished Clifton basements with laminate or engineered wood over concrete, we assess whether flooring can be dried in place or needs to come up to prevent trapping moisture against the slab.
+2. **Structural drying**, commercial-grade desiccant and refrigerant dehumidifiers run in combination with high-velocity air movers. Drying targets follow the IICRC S500 standard for Category 1, 2, or 3 water, depending on the source.
+3. **Antimicrobial treatment**, applied to concrete, framing, and any porous material that contacted contaminated water (sewer backup, groundwater intrusion) before reconstruction begins.
+4. **Documentation**, daily moisture readings are logged and photographed to support your insurance claim and demonstrate that drying was completed to standard, not just to visual inspection.
 
 ## Reaching Clifton from Kenilworth
 
@@ -45,12 +45,12 @@ The Restoration Group's base in Kenilworth puts Clifton well within our primary 
 
 ## Clifton Insurance Coordination
 
-Most standard homeowner policies in New Jersey cover sudden and accidental water discharge — a burst pipe, a failed water heater, an appliance supply line — but exclude gradual seepage and, critically, rising groundwater from flood events. That distinction matters enormously in Clifton, where a single storm can cause both a sewer backup (often covered under a rider) and riverine flooding (covered only under a separate NFIP or private flood policy) in the same basement.
+Most standard homeowner policies in New Jersey cover sudden and accidental water discharge, a burst pipe, a failed water heater, an appliance supply line, but exclude gradual seepage and, critically, rising groundwater from flood events. That distinction matters enormously in Clifton, where a single storm can cause both a sewer backup (often covered under a rider) and riverine flooding (covered only under a separate NFIP or private flood policy) in the same basement.
 
 We photograph and document the loss origin before any materials are moved, which gives your adjuster the evidence needed to properly categorize the claim. We bill carriers directly and will walk you through the scope if your adjuster questions line items.
 
 ## Local Note
 
-In Clifton's postwar split-levels — common in the Richfield and Athenia sections — the basement slab often sits only a few inches above the water table during a wet spring. Homeowners sometimes assume the concrete dried out because the visible water is gone, but the slab itself can hold moisture for weeks and wick it upward into framing. We've found active moisture readings in wall studs 10 days after a flooding event in homes where a previous crew called the job done after extraction. If your basement flooded during a Passaic River event or a heavy rain cycle, a follow-up moisture check — even if the space looks fine — is worth the call.
+In Clifton's postwar split-levels, common in the Richfield and Athenia sections, the basement slab often sits only a few inches above the water table during a wet spring. Homeowners sometimes assume the concrete dried out because the visible water is gone, but the slab itself can hold moisture for weeks and wick it upward into framing. We've found active moisture readings in wall studs 10 days after a flooding event in homes where a previous crew called the job done after extraction. If your basement flooded during a Passaic River event or a heavy rain cycle, a follow-up moisture check, even if the space looks fine, is worth the call.
 
-If your basement is holding water right now, or you're dealing with the aftermath of a recent flood event anywhere in Clifton — from the two-families near Botany Village to the split-levels off Allwood Road — call The Restoration Group at (855) 650-7422. We're available around the clock, and we'll have a certified technician on-site to assess the damage and start the drying process before the situation compounds.
+If your basement is holding water right now, or you're dealing with the aftermath of a recent flood event anywhere in Clifton, from the two-families near Botany Village to the split-levels off Allwood Road, call The Restoration Group at (855) 650-7422. We're available around the clock, and we'll have a certified technician on-site to assess the damage and start the drying process before the situation compounds.

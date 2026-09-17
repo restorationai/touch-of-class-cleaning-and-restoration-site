@@ -19,15 +19,15 @@ state: "UT"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind the drywall of a Deer Valley ski chalet or a snowmelt leak works its way under the hardwood floors of a Old Town Victorian, the clock starts immediately. Home Pride Restoration and Cleaning has been responding to exactly those calls — water damage, fire and smoke damage, mold remediation, and biohazard cleanup — for Park City property owners since 1997. We carry full IICRC certification, coordinate directly with insurance adjusters, and dispatch from our Saratoga Springs headquarters around the clock.
+When a pipe bursts behind the drywall of a Deer Valley ski chalet or a snowmelt leak works its way under the hardwood floors of a Old Town Victorian, the clock starts immediately. Home Pride Restoration and Cleaning has been responding to exactly those calls, water damage, fire and smoke damage, mold remediation, and biohazard cleanup, for Park City property owners since 1997. We carry full IICRC certification, coordinate directly with insurance adjusters, and dispatch from our Saratoga Springs headquarters around the clock.
 
 ## Restoration emergencies common in Park City
 
 Park City sits above 6,900 feet, and the elevation shapes almost every restoration scenario here. The Wasatch snowpack that makes Deer Valley and Park City Mountain Resort world-class skiing also means roofs carry 40–60 inches of snow water equivalent in a heavy year. Ice dams form along the eaves of older homes in Old Town and along the pitched rooflines in Prospector, forcing meltwater under shingles and into wall cavities before a homeowner notices a stain on the ceiling. By the time that stain appears, mold can begin colonizing wet insulation within 24–48 hours.
 
-The housing stock adds complexity. Old Town's late-19th- and early-20th-century homes often have original balloon-frame construction — no fire blocking between floors — which means smoke and soot travel farther through wall cavities after even a contained kitchen fire. Summit County's mix of short-term rental condos, full-time residences, and vacant second homes means damage can go undetected for days or weeks, especially between rental turnovers.
+The housing stock adds complexity. Old Town's late-19th- and early-20th-century homes often have original balloon-frame construction, no fire blocking between floors, which means smoke and soot travel farther through wall cavities after even a contained kitchen fire. Summit County's mix of short-term rental condos, full-time residences, and vacant second homes means damage can go undetected for days or weeks, especially between rental turnovers.
 
-The altitude also affects drying. Lower atmospheric pressure at 7,000 feet accelerates evaporation in some conditions but can complicate HVAC-assisted drying in tightly sealed modern builds in areas like Jordanelle Ridge. Our technicians adjust drying calculations for elevation — something a Front Range crew dispatched from Salt Lake without local experience may not account for.
+The altitude also affects drying. Lower atmospheric pressure at 7,000 feet accelerates evaporation in some conditions but can complicate HVAC-assisted drying in tightly sealed modern builds in areas like Jordanelle Ridge. Our technicians adjust drying calculations for elevation, something a Front Range crew dispatched from Salt Lake without local experience may not account for.
 
 ## Services we provide in Park City
 
@@ -37,11 +37,11 @@ Water damage in Park City most often traces back to three sources: ice dam infil
 
 ### Fire and smoke damage restoration
 
-Wood-burning fireplaces and pellet stoves are common in Park City homes, and a creosote-clogged flue or an unattended fireplace can turn a cozy evening into a smoke-saturated interior fast. Smoke residue from pine and fir burns differently than from synthetic materials — it's oilier, penetrates porous surfaces more deeply, and carries a distinct odor that lingers in fabric, insulation, and HVAC ductwork. We use thermal fogging, hydroxyl generation, and HEPA air scrubbing to address odor at the source rather than masking it.
+Wood-burning fireplaces and pellet stoves are common in Park City homes, and a creosote-clogged flue or an unattended fireplace can turn a cozy evening into a smoke-saturated interior fast. Smoke residue from pine and fir burns differently than from synthetic materials, it's oilier, penetrates porous surfaces more deeply, and carries a distinct odor that lingers in fabric, insulation, and HVAC ductwork. We use thermal fogging, hydroxyl generation, and HEPA air scrubbing to address odor at the source rather than masking it.
 
 ### Mold remediation
 
-Park City's humidity swings — dry desert air most of the year, then concentrated moisture from snowmelt and summer monsoon patterns — create conditions where a slow roof leak or a condensation problem around a ski locker can produce visible mold growth within days. We follow EPA and IICRC S520 protocols, contain affected areas, and remove contaminated materials. We do not offer air quality guarantees or medical advice, but we do provide post-remediation clearance testing coordination.
+Park City's humidity swings, dry desert air most of the year, then concentrated moisture from snowmelt and summer monsoon patterns, create conditions where a slow roof leak or a condensation problem around a ski locker can produce visible mold growth within days. We follow EPA and IICRC S520 protocols, contain affected areas, and remove contaminated materials. We do not offer air quality guarantees or medical advice, but we do provide post-remediation clearance testing coordination.
 
 ### Biohazard and trauma cleanup
 

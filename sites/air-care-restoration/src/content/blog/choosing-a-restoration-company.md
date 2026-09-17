@@ -17,27 +17,27 @@ published_at: "2026-08-06"
 services: ["water-damage-restoration", "fire-damage-restoration", "mold-remediation"]
 rendered: true
 ---
-The single best thing you can do after a flood, fire, or mold discovery is slow down for 30 minutes before you hire anyone. Restoration work touches your home's structure, your insurance claim, and your family's health — and the wrong contractor can make all three worse. This guide walks you through exactly what to look for, what to ask, and what should make you walk away, so you can hire with confidence instead of panic.
+The single best thing you can do after a flood, fire, or mold discovery is slow down for 30 minutes before you hire anyone. Restoration work touches your home's structure, your insurance claim, and your family's health, and the wrong contractor can make all three worse. This guide walks you through exactly what to look for, what to ask, and what should make you walk away, so you can hire with confidence instead of panic.
 
 ## Why the Restoration Industry Attracts Bad Actors
 
-Restoration jobs appear fast and pay well. After a major storm rolls through West Texas or a pipe freezes and bursts during a cold snap, contractors flood into affected neighborhoods within hours — some of them legitimate, many of them not. The urgency is real: standing water that sits for 24 to 48 hours can begin supporting mold growth, and smoke residue starts bonding to surfaces within minutes of a fire being extinguished. That pressure is exactly what predatory contractors count on.
+Restoration jobs appear fast and pay well. After a major storm rolls through West Texas or a pipe freezes and bursts during a cold snap, contractors flood into affected neighborhoods within hours, some of them legitimate, many of them not. The urgency is real: standing water that sits for 24 to 48 hours can begin supporting mold growth, and smoke residue starts bonding to surfaces within minutes of a fire being extinguished. That pressure is exactly what predatory contractors count on.
 
-The pattern is common enough that it has a name: storm chasing. A crew knocks on your door, offers a free inspection, and pressures you to sign an Assignment of Benefits (AOB) form before you've even called your insurance adjuster. That form can transfer your claim rights to the contractor, leaving you with limited control over the scope of work, the billing, or the outcome. In Texas, read any document carefully before signing — especially if it mentions your insurance proceeds.
+The pattern is common enough that it has a name: storm chasing. A crew knocks on your door, offers a free inspection, and pressures you to sign an Assignment of Benefits (AOB) form before you've even called your insurance adjuster. That form can transfer your claim rights to the contractor, leaving you with limited control over the scope of work, the billing, or the outcome. In Texas, read any document carefully before signing, especially if it mentions your insurance proceeds.
 
 This doesn't mean every company that contacts you first is dishonest. It means you should take 30 minutes to verify anyone before you let them start work.
 
-## What Credentials Actually Mean — and How to Check Them
+## What Credentials Actually Mean, and How to Check Them
 
-The restoration industry has a credentialing body called the IICRC (Institute of Inspection, Cleaning and Restoration Certification). When a company says its technicians are IICRC-certified, that means they've completed coursework and testing in specific disciplines — water damage restoration, applied structural drying, fire and smoke restoration, or mold remediation, among others. It's not a guarantee of quality, but it's a baseline that separates trained technicians from people with a wet-vac and a truck.
+The restoration industry has a credentialing body called the IICRC (Institute of Inspection, Cleaning and Restoration Certification). When a company says its technicians are IICRC-certified, that means they've completed coursework and testing in specific disciplines, water damage restoration, applied structural drying, fire and smoke restoration, or mold remediation, among others. It's not a guarantee of quality, but it's a baseline that separates trained technicians from people with a wet-vac and a truck.
 
 How to verify:
 - Ask for the technician's certification number and look it up at iicrc.org.
 - Ask whether the company carries general liability insurance and workers' compensation. An uninsured crew member injured in your home can become your liability.
-- Check the Texas Department of Licensing and Regulation (TDLR) if the job involves mold remediation — Texas requires a separate mold remediation contractor license for jobs above a certain threshold.
+- Check the Texas Department of Licensing and Regulation (TDLR) if the job involves mold remediation, Texas requires a separate mold remediation contractor license for jobs above a certain threshold.
 - Look up the company on the Better Business Bureau and Google. A pattern of complaints about billing surprises or incomplete work matters more than a single bad review.
 
-For mold work specifically, ask whether the company follows the IICRC S520 standard. In Texas, mold assessment, protocol development, and post-remediation verification must be performed by an independent licensed Mold Assessment Consultant — not the remediation contractor. A company that performs both the remediation and its own clearance testing has an obvious conflict of interest and is not operating within Texas requirements.
+For mold work specifically, ask whether the company follows the IICRC S520 standard. In Texas, mold assessment, protocol development, and post-remediation verification must be performed by an independent licensed Mold Assessment Consultant, not the remediation contractor. A company that performs both the remediation and its own clearance testing has an obvious conflict of interest and is not operating within Texas requirements.
 
 ## The Right Questions to Ask Before You Sign Anything
 
@@ -47,14 +47,14 @@ A legitimate restoration company will answer these questions without hesitation.
 2. **Do you carry general liability and workers' comp insurance?** Ask for a certificate of insurance, not just a verbal yes.
 3. **Will you work directly with my insurance carrier?** Most established restoration companies provide detailed damage documentation, written estimates and invoices, and can communicate technical scope information directly with your adjuster. Coverage and settlement decisions remain between you and your carrier.
 4. **What does your written scope of work include, and what's excluded?** Get the scope in writing before demolition starts. Verbal promises about what's covered disappear fast once the walls are open.
-5. **Who performs the actual work — your employees or subcontractors?** Subcontracting isn't inherently bad, but you should know who's in your home and whether those subs are covered under the company's insurance.
+5. **Who performs the actual work, your employees or subcontractors?** Subcontracting isn't inherently bad, but you should know who's in your home and whether those subs are covered under the company's insurance.
 6. **What equipment will you use, and how will you monitor drying progress?** For water damage, the answer should involve moisture meters and thermal imaging, not just visual inspection. Drying goals should be documented daily.
 
 ## Red Flags That Should Make You Walk Away
 
 Some of these are obvious. Others are easy to miss when you're stressed and staring at a flooded living room.
 
-- **Pressure to sign before your adjuster has seen the damage.** Your insurer has a right to inspect before work begins in most cases. A contractor who insists on starting immediately — especially one who showed up uninvited — may be trying to lock in a scope before anyone else can evaluate it.
+- **Pressure to sign before your adjuster has seen the damage.** Your insurer has a right to inspect before work begins in most cases. A contractor who insists on starting immediately, especially one who showed up uninvited, may be trying to lock in a scope before anyone else can evaluate it.
 - **No written estimate or a vague one.** "We'll figure out the cost as we go" is not a scope of work.
 - **Unusually low bids.** Restoration done correctly requires commercial-grade drying equipment, containment, proper disposal of contaminated materials, and documentation. If a bid is dramatically lower than others, ask what's been left out.
 - **Requests for full payment upfront.** A deposit is normal. Full payment before the job is complete is not.
@@ -65,10 +65,10 @@ Some of these are obvious. Others are easy to miss when you're stressed and star
 
 Understanding the sequence helps you evaluate whether a contractor is cutting corners.
 
-For **water damage**, the process moves through inspection and moisture mapping, water extraction, structural drying (typically several days with commercial air movers and dehumidifiers), monitoring and documentation, and then reconstruction of any materials that couldn't be saved. Skipping the monitoring phase — pulling equipment early to save time — is one of the most common ways water damage jobs fail. Moisture left behind plaster or under flooring doesn't announce itself until mold appears weeks later.
+For **water damage**, the process moves through inspection and moisture mapping, water extraction, structural drying (typically several days with commercial air movers and dehumidifiers), monitoring and documentation, and then reconstruction of any materials that couldn't be saved. Skipping the monitoring phase, pulling equipment early to save time, is one of the most common ways water damage jobs fail. Moisture left behind plaster or under flooring doesn't announce itself until mold appears weeks later.
 
-For **fire and smoke damage**, the scope is broader than most homeowners expect. Smoke travels through HVAC systems, penetrates porous materials, and leaves acidic residue that continues to corrode surfaces after the fire is out. Effective restoration involves not just cleaning visible soot but addressing odor at the molecular level — often with thermal fogging or ozone treatment — and evaluating structural members for heat damage that isn't visible on the surface.
+For **fire and smoke damage**, the scope is broader than most homeowners expect. Smoke travels through HVAC systems, penetrates porous materials, and leaves acidic residue that continues to corrode surfaces after the fire is out. Effective restoration involves not just cleaning visible soot but addressing odor at the molecular level, often with thermal fogging or ozone treatment, and evaluating structural members for heat damage that isn't visible on the surface.
 
-For **mold remediation**, the goal isn't just removing visible mold. It's identifying and correcting the moisture source that allowed it to grow, containing the affected area to prevent cross-contamination, removing and properly disposing of affected materials, and confirming through post-remediation verification — conducted by an independent licensed Mold Assessment Consultant — that the result meets the post-remediation verification criteria established in the Mold Remediation Protocol. Any company that skips the moisture source correction is setting you up for a repeat.
+For **mold remediation**, the goal isn't just removing visible mold. It's identifying and correcting the moisture source that allowed it to grow, containing the affected area to prevent cross-contamination, removing and properly disposing of affected materials, and confirming through post-remediation verification, conducted by an independent licensed Mold Assessment Consultant, that the result meets the post-remediation verification criteria established in the Mold Remediation Protocol. Any company that skips the moisture source correction is setting you up for a repeat.
 
 Air Care Restoration handles water damage, fire damage, and mold remediation in Abilene and the surrounding area. If you're trying to evaluate your situation before making any calls, the guidance above applies regardless of who you hire. When you're ready to talk through what happened and what comes next, you can reach the team at (325) 339-8723.

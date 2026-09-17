@@ -19,29 +19,29 @@ state: "NJ"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind the plaster walls of a 1920s Tudor in Hilton, or the East Branch of the Rahway River backs up into a finished basement near Maplewood Village, the window for limiting damage is short. The Restoration Group responds to water damage, fire and smoke damage, mold remediation, and full reconstruction for homeowners and property managers throughout Maplewood, NJ — ZIP code 07040 — around the clock, every day of the year. Call **(855) 650-7422** and a live team member will answer.
+When a pipe bursts behind the plaster walls of a 1920s Tudor in Hilton, or the East Branch of the Rahway River backs up into a finished basement near Maplewood Village, the window for limiting damage is short. The Restoration Group responds to water damage, fire and smoke damage, mold remediation, and full reconstruction for homeowners and property managers throughout Maplewood, NJ, ZIP code 07040, around the clock, every day of the year. Call **(855) 650-7422** and a live team member will answer.
 
 ## Restoration emergencies common in Maplewood
 
 Maplewood's housing stock is a big part of why restoration calls here look different from calls in newer suburbs. The majority of homes in neighborhoods like Jefferson, Tuscan, and The Fields were built between roughly 1910 and 1940. That means original horsehair plaster over wood lath, stone rubble foundations that were never designed to be waterproof, cast-iron drain lines that corrode from the inside out, and finished basements that sit just a few feet above a seasonally high water table.
 
-The East Branch of the Rahway River runs directly through Memorial Park and the Maplewood Village shopping district. During significant rain events it doesn't stay in its banks — Tropical Storm Ida in September 2021 put several feet of water into village storefronts and flooded low-lying residential streets in ways that took weeks to fully dry. Essex County's clay-heavy soil doesn't absorb water quickly, so even a two-inch overnight rain can overwhelm sump pumps and push groundwater through foundation cracks before a homeowner realizes anything is wrong.
+The East Branch of the Rahway River runs directly through Memorial Park and the Maplewood Village shopping district. During significant rain events it doesn't stay in its banks, Tropical Storm Ida in September 2021 put several feet of water into village storefronts and flooded low-lying residential streets in ways that took weeks to fully dry. Essex County's clay-heavy soil doesn't absorb water quickly, so even a two-inch overnight rain can overwhelm sump pumps and push groundwater through foundation cracks before a homeowner realizes anything is wrong.
 
-The Maplewood Train Station corridor and the commercial blocks near Durand-Hedden House also generate a steady stream of flat-roof leaks and sump-failure losses, particularly in late winter when freeze-thaw cycles open seams that held all summer. Knob-and-tube-era plumbing failures — supply lines that have never been replaced — are a routine cause of sudden water losses in the older colonials and craftsmans throughout the area.
+The Maplewood Train Station corridor and the commercial blocks near Durand-Hedden House also generate a steady stream of flat-roof leaks and sump-failure losses, particularly in late winter when freeze-thaw cycles open seams that held all summer. Knob-and-tube-era plumbing failures, supply lines that have never been replaced, are a routine cause of sudden water losses in the older colonials and craftsmans throughout the area.
 
 ## Services we provide in Maplewood
 
 ### Water damage restoration
 
-Water damage in Maplewood often involves materials that absorb and hold moisture in ways modern construction doesn't: original plaster, old-growth wood subfloors, and stone foundation walls. We extract standing water, place drying equipment sized to the actual affected area, and monitor moisture readings in walls and floors until they reach dry standard — not just until surfaces feel dry to the touch. We document everything for your insurance carrier.
+Water damage in Maplewood often involves materials that absorb and hold moisture in ways modern construction doesn't: original plaster, old-growth wood subfloors, and stone foundation walls. We extract standing water, place drying equipment sized to the actual affected area, and monitor moisture readings in walls and floors until they reach dry standard, not just until surfaces feel dry to the touch. We document everything for your insurance carrier.
 
 ### Mold remediation
 
-A basement that flooded during Ida and was dried with box fans — or never fully dried at all — is exactly the kind of space where mold colonies establish within 24 to 72 hours and spread behind finished walls for months before anyone notices. We identify affected materials, contain the work area, remove compromised building materials, and treat surfaces to industry standards. We do not make medical claims about air quality outcomes, but we do leave the space in a condition that a clearance test can verify.
+A basement that flooded during Ida and was dried with box fans, or never fully dried at all, is exactly the kind of space where mold colonies establish within 24 to 72 hours and spread behind finished walls for months before anyone notices. We identify affected materials, contain the work area, remove compromised building materials, and treat surfaces to industry standards. We do not make medical claims about air quality outcomes, but we do leave the space in a condition that a clearance test can verify.
 
 ### Fire and smoke damage restoration
 
-Smoke residue from a kitchen fire in a 100-year-old Maplewood colonial travels farther and penetrates deeper than in a tight modern house — older construction is drafty by design. We assess the full path of smoke migration, clean or remove affected materials, and address the persistent odor that lingers in plaster and wood long after the visible soot is gone.
+Smoke residue from a kitchen fire in a 100-year-old Maplewood colonial travels farther and penetrates deeper than in a tight modern house, older construction is drafty by design. We assess the full path of smoke migration, clean or remove affected materials, and address the persistent odor that lingers in plaster and wood long after the visible soot is gone.
 
 ### Reconstruction
 
@@ -49,12 +49,12 @@ After mitigation is complete, many Maplewood properties need carpentry, drywall,
 
 ## Coverage and how fast we can get there
 
-Our headquarters is in Kenilworth, NJ, roughly six miles from Maplewood Village. The most direct route runs west on Route 22 to Springfield Avenue, which feeds directly into the heart of Maplewood. During normal traffic conditions that's a straightforward drive; we dispatch around the clock so middle-of-the-night calls avoid the Route 22 congestion that can slow daytime response. Crews can reach neighborhoods across the 07040 ZIP code — from the streets closest to South Mountain Reservation down to the lower-lying blocks near the Rahway River floodplain — without navigating through multiple townships.
+Our headquarters is in Kenilworth, NJ, roughly six miles from Maplewood Village. The most direct route runs west on Route 22 to Springfield Avenue, which feeds directly into the heart of Maplewood. During normal traffic conditions that's a straightforward drive; we dispatch around the clock so middle-of-the-night calls avoid the Route 22 congestion that can slow daytime response. Crews can reach neighborhoods across the 07040 ZIP code, from the streets closest to South Mountain Reservation down to the lower-lying blocks near the Rahway River floodplain, without navigating through multiple townships.
 
 ## Building stock, site conditions, and permits in Maplewood
 
-Houses of this vintage carry hazards that shape the scope before demolition starts. Steam and hot-water radiator heat is common, and the old boiler and pipe insulation, along with 9x9 floor tile and its black mastic, can contain asbestos — that gets tested, not guessed at. Paint in any pre-1978 house is treated as lead-bearing, so containment matters. Buried oil tanks from pre-conversion days and galvanized supply lines that have narrowed to a trickle also turn up. Footings in this part of northern New Jersey sit below a frost line around three feet, which is why so many basements are full-depth and finished.
+Houses of this vintage carry hazards that shape the scope before demolition starts. Steam and hot-water radiator heat is common, and the old boiler and pipe insulation, along with 9x9 floor tile and its black mastic, can contain asbestos, that gets tested, not guessed at. Paint in any pre-1978 house is treated as lead-bearing, so containment matters. Buried oil tanks from pre-conversion days and galvanized supply lines that have narrowed to a trickle also turn up. Footings in this part of northern New Jersey sit below a frost line around three feet, which is why so many basements are full-depth and finished.
 
 Permits come from the township construction official under the New Jersey Uniform Construction Code. Structural framing, electrical, plumbing, and mechanical work need one; genuine like-for-like finish replacement often falls under minor work.
 
-If you're dealing with water, fire, mold, or storm damage anywhere in Maplewood — whether it's a single-family home in Jefferson, a commercial property near the Maplewood Village shopping district, or anything in between — call The Restoration Group at **(855) 650-7422**. We answer every hour of every day and can walk you through next steps before a crew even arrives.
+If you're dealing with water, fire, mold, or storm damage anywhere in Maplewood, whether it's a single-family home in Jefferson, a commercial property near the Maplewood Village shopping district, or anything in between, call The Restoration Group at **(855) 650-7422**. We answer every hour of every day and can walk you through next steps before a crew even arrives.

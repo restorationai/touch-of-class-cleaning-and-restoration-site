@@ -20,28 +20,28 @@ state: "UT"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
-When a fire breaks out in a Provo home — whether it starts in a kitchen off University Avenue or spreads from a garage in a South Provo neighborhood — the visible char is rarely the worst of it. Smoke travels fast, seeping into drywall, HVAC ductwork, and the porous sandstone-block foundations common in older Provo construction. By the time the fire department clears the scene, odor compounds have already bonded to surfaces throughout the house. Home Pride Restoration and Cleaning has been responding to these situations since 1997, and our IICRC-certified technicians understand exactly what Provo's building stock and high-altitude climate do to a smoke damage job.
+When a fire breaks out in a Provo home, whether it starts in a kitchen off University Avenue or spreads from a garage in a South Provo neighborhood, the visible char is rarely the worst of it. Smoke travels fast, seeping into drywall, HVAC ductwork, and the porous sandstone-block foundations common in older Provo construction. By the time the fire department clears the scene, odor compounds have already bonded to surfaces throughout the house. Home Pride Restoration and Cleaning has been responding to these situations since 1997, and our IICRC-certified technicians understand exactly what Provo's building stock and high-altitude climate do to a smoke damage job.
 
 ## Why Provo Properties Face Distinct Smoke Damage Challenges
 
-Provo sits at roughly 4,500 feet elevation, and that altitude matters more than most homeowners realize. Lower air pressure means smoke particles — particularly the fine soot from synthetic materials — disperse more widely before settling. In a two-story home near the BYU campus, that can mean the second floor and attic space absorb heavy odor even when the fire itself was confined to a first-floor room. Provo also experiences strong canyon winds off Provo Canyon, which can push wildfire smoke from the Wasatch Front into homes through gaps around windows and HVAC intakes during red-flag conditions. That wildfire smoke cleanup scenario is different from a structural fire: the particles are finer, the penetration is deeper, and standard surface wiping alone won't eliminate the smell.
+Provo sits at roughly 4,500 feet elevation, and that altitude matters more than most homeowners realize. Lower air pressure means smoke particles, particularly the fine soot from synthetic materials, disperse more widely before settling. In a two-story home near the BYU campus, that can mean the second floor and attic space absorb heavy odor even when the fire itself was confined to a first-floor room. Provo also experiences strong canyon winds off Provo Canyon, which can push wildfire smoke from the Wasatch Front into homes through gaps around windows and HVAC intakes during red-flag conditions. That wildfire smoke cleanup scenario is different from a structural fire: the particles are finer, the penetration is deeper, and standard surface wiping alone won't eliminate the smell.
 
 Provo's housing stock adds another layer of complexity. The Joaquin and Maeser neighborhoods contain a significant number of homes built between the 1920s and 1950s, many with plaster-and-lath interior walls rather than modern drywall. Plaster is denser and less porous on the surface, but it holds smoke odor in the substrate for weeks if not treated correctly. Standard dry-sponge wiping works on the face of the plaster, but the real odor source is often behind the wall, in the lath cavity.
 
 ## Our Smoke Damage Restoration Process in Provo
 
-Every job starts with a structured assessment — not a visual walk-through, but a systematic check of air quality, surface contamination levels, and HVAC involvement. We use thermal imaging to locate smoke migration paths that aren't visible to the eye, which is especially important in Provo's older homes where wall cavities connect in unexpected ways.
+Every job starts with a structured assessment, not a visual walk-through, but a systematic check of air quality, surface contamination levels, and HVAC involvement. We use thermal imaging to locate smoke migration paths that aren't visible to the eye, which is especially important in Provo's older homes where wall cavities connect in unexpected ways.
 
 From there, the process moves through four concrete phases:
 
-1. **Containment and ventilation** — Negative air pressure machines isolate affected zones while HEPA-filtered air scrubbers begin pulling particulates out of the breathing space.
-2. **Dry and wet residue removal** — Dry chemical sponges lift loose soot first; wet cleaning agents calibrated to the surface type (plaster, painted drywall, wood trim, brick) follow. Using wet methods on dry soot without this sequence smears residue deeper into the substrate.
-3. **Thermal fogging and hydroxyl treatment** — For persistent odor, thermal fogging replicates how smoke traveled through the structure, neutralizing odor molecules in cavities, ductwork, and soft goods. Hydroxyl generators run continuously in occupied or semi-occupied spaces where chemical fogging isn't safe.
-4. **Post-treatment verification** — Air quality readings and a final odor check before we close out. We document results, which matters when you're filing a smoke damage repair claim with your insurer.
+1. **Containment and ventilation**, Negative air pressure machines isolate affected zones while HEPA-filtered air scrubbers begin pulling particulates out of the breathing space.
+2. **Dry and wet residue removal**, Dry chemical sponges lift loose soot first; wet cleaning agents calibrated to the surface type (plaster, painted drywall, wood trim, brick) follow. Using wet methods on dry soot without this sequence smears residue deeper into the substrate.
+3. **Thermal fogging and hydroxyl treatment**, For persistent odor, thermal fogging replicates how smoke traveled through the structure, neutralizing odor molecules in cavities, ductwork, and soft goods. Hydroxyl generators run continuously in occupied or semi-occupied spaces where chemical fogging isn't safe.
+4. **Post-treatment verification**, Air quality readings and a final odor check before we close out. We document results, which matters when you're filing a smoke damage repair claim with your insurer.
 
 ## Response Time from Saratoga Springs to Provo
 
-Our headquarters in Saratoga Springs puts us roughly 20–25 minutes from most Provo addresses under normal traffic conditions via US-89 south through Lehi and into Provo. For addresses in north Provo — near the Riverbottoms area or along 900 North — we're typically on-site in under 30 minutes. South Provo addresses near the Lakewood neighborhood may run closer to 30–35 minutes depending on time of day. We answer the phone 24 hours a day at (801) 995-2437, and we dispatch immediately — not after a scheduling queue.
+Our headquarters in Saratoga Springs puts us roughly 20–25 minutes from most Provo addresses under normal traffic conditions via US-89 south through Lehi and into Provo. For addresses in north Provo, near the Riverbottoms area or along 900 North, we're typically on-site in under 30 minutes. South Provo addresses near the Lakewood neighborhood may run closer to 30–35 minutes depending on time of day. We answer the phone 24 hours a day at (801) 995-2437, and we dispatch immediately, not after a scheduling queue.
 
 ## Provo Insurance Coordination for Smoke Damage Claims
 
@@ -49,6 +49,6 @@ Most homeowners' policies in Utah cover sudden and accidental smoke damage from 
 
 ## Local Note
 
-In Provo's Joaquin neighborhood, we've worked in homes where the original coal-burning fireplace was converted to gas decades ago but the old flue tile was never fully sealed. When a kitchen fire produces heavy smoke, it finds that old flue path and deposits soot inside walls two floors away from the fire room — sometimes all the way into the attic. If you have a pre-1960 home in Provo with a converted fireplace, tell our technician when we arrive. It changes where we look first and can cut hours off the assessment phase.
+In Provo's Joaquin neighborhood, we've worked in homes where the original coal-burning fireplace was converted to gas decades ago but the old flue tile was never fully sealed. When a kitchen fire produces heavy smoke, it finds that old flue path and deposits soot inside walls two floors away from the fire room, sometimes all the way into the attic. If you have a pre-1960 home in Provo with a converted fireplace, tell our technician when we arrive. It changes where we look first and can cut hours off the assessment phase.
 
-If your Provo home or rental property has smoke damage right now, call (801) 995-2437. We'll tell you exactly what we're seeing, what it will take to fix it, and how long the process should run — before any work begins.
+If your Provo home or rental property has smoke damage right now, call (801) 995-2437. We'll tell you exactly what we're seeing, what it will take to fix it, and how long the process should run, before any work begins.

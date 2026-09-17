@@ -19,25 +19,25 @@ state: "HI"
 primary: false
 rendered: true
 ---
-When water intrudes into a Hawaii Kai home — whether it's a slow slab leak beneath a Kaiser-era kitchen or storm runoff pushing through a marina-front townhome door — the clock starts immediately. AAA Water Damage Restoration & Carpet Care responds around the clock to water damage, mold, fire, and biohazard emergencies across Hawaii Kai's 96825 ZIP code, dispatching from our Honolulu base to extract standing water, dry structural materials, and begin the recovery process before secondary damage compounds the loss.
+When water intrudes into a Hawaii Kai home, whether it's a slow slab leak beneath a Kaiser-era kitchen or storm runoff pushing through a marina-front townhome door, the clock starts immediately. AAA Water Damage Restoration & Carpet Care responds around the clock to water damage, mold, fire, and biohazard emergencies across Hawaii Kai's 96825 ZIP code, dispatching from our Honolulu base to extract standing water, dry structural materials, and begin the recovery process before secondary damage compounds the loss.
 
 ## Restoration emergencies common in Hawaii Kai
 
-Hawaii Kai was largely developed between the 1960s and 1980s under Henry Kaiser's vision of a marina community, and that housing stock carries its age in the walls. Galvanized and early copper supply lines in homes throughout Koko Kai, Mariners Cove, and Portlock have had decades of exposure to the salt-laden air rolling off Maunalua Bay — an environment that accelerates corrosion on water heater connections, washing machine hoses, and shutoff valves faster than you'd see in an inland neighborhood. When those lines fail, they often fail inside slabs or wet walls, meaning the damage is already widespread by the time a homeowner notices a warm spot on the floor or a spike in the water bill.
+Hawaii Kai was largely developed between the 1960s and 1980s under Henry Kaiser's vision of a marina community, and that housing stock carries its age in the walls. Galvanized and early copper supply lines in homes throughout Koko Kai, Mariners Cove, and Portlock have had decades of exposure to the salt-laden air rolling off Maunalua Bay, an environment that accelerates corrosion on water heater connections, washing machine hoses, and shutoff valves faster than you'd see in an inland neighborhood. When those lines fail, they often fail inside slabs or wet walls, meaning the damage is already widespread by the time a homeowner notices a warm spot on the floor or a spike in the water bill.
 
 The marina-front and low-lying lots around Hawaii Kai Marina and Koko Marina Center face a different threat: Kona Low weather events push storm runoff into garages, ground-floor units, and crawl spaces that have nowhere to drain. And because Hawaii Kai's trade-wind humidity stays elevated year-round, any slow or hidden leak that goes unaddressed for 48 to 72 hours creates conditions where mold can begin colonizing drywall and wood framing. The combination of aging infrastructure, salt-air corrosion, and a persistently humid climate means restoration calls here tend to involve more hidden moisture than a comparable leak in a newer, drier-climate home.
 
-HOA-managed townhome complexes — common throughout West Marina and Queens Gate — add a coordination layer that single-family claims don't have. One unit's supply line failure can migrate through shared walls and ceilings into two or three neighboring units, each with its own owner, insurance policy, and expectations about access and scheduling.
+HOA-managed townhome complexes, common throughout West Marina and Queens Gate, add a coordination layer that single-family claims don't have. One unit's supply line failure can migrate through shared walls and ceilings into two or three neighboring units, each with its own owner, insurance policy, and expectations about access and scheduling.
 
 ## Services we provide in Hawaii Kai
 
 ### Water damage restoration
 
-Water damage in Hawaii Kai frequently involves slab-on-grade construction, which means moisture detection requires thermal imaging and pin-less moisture meters to map what's happening beneath tile and hardwood before any drying equipment is placed. We extract standing water, establish drying systems calibrated to Hawaii's ambient humidity, and document conditions throughout — information you'll need when you photograph the damage and contact your insurer to ask about coverage.
+Water damage in Hawaii Kai frequently involves slab-on-grade construction, which means moisture detection requires thermal imaging and pin-less moisture meters to map what's happening beneath tile and hardwood before any drying equipment is placed. We extract standing water, establish drying systems calibrated to Hawaii's ambient humidity, and document conditions throughout, information you'll need when you photograph the damage and contact your insurer to ask about coverage.
 
 ### Mold remediation
 
-In a climate where indoor relative humidity rarely drops below 60 percent, mold remediation in Hawaii Kai isn't just about removing visible growth — it's about correcting the moisture conditions that allowed colonization in the first place. We assess affected materials in areas like Kalama Valley and Koko Marina townhomes, contain the work area, remove compromised materials, and treat surfaces following established remediation protocols.
+In a climate where indoor relative humidity rarely drops below 60 percent, mold remediation in Hawaii Kai isn't just about removing visible growth, it's about correcting the moisture conditions that allowed colonization in the first place. We assess affected materials in areas like Kalama Valley and Koko Marina townhomes, contain the work area, remove compromised materials, and treat surfaces following established remediation protocols.
 
 ### Fire and smoke damage restoration
 
@@ -45,7 +45,7 @@ Smoke residue from even a contained kitchen fire penetrates porous surfaces quic
 
 ### Carpet cleaning and water-damaged flooring
 
-Salt air and high foot traffic from beach access near Sandy Beach and Hanauma Bay means carpets and hard-surface flooring in Hawaii Kai homes take real wear. After a water event, we assess whether carpet and pad can be salvaged through extraction and drying or need replacement — an honest evaluation that saves unnecessary cost when restoration is viable.
+Salt air and high foot traffic from beach access near Sandy Beach and Hanauma Bay means carpets and hard-surface flooring in Hawaii Kai homes take real wear. After a water event, we assess whether carpet and pad can be salvaged through extraction and drying or need replacement, an honest evaluation that saves unnecessary cost when restoration is viable.
 
 ### Biohazard and sewage cleanup
 
@@ -53,12 +53,12 @@ Sewage backups during heavy rain events require careful containment and disinfec
 
 ## Coverage and how fast we can get there
 
-From our Honolulu base, Hawaii Kai is a direct run east on the H-1 and Kalanianaole Highway — a route we know well. Neighborhoods like Portlock and Koko Kai at the far eastern end of the community are reachable without navigating surface-street congestion, and marina-area addresses near Hawaii Kai Marina are straightforward to access. Because we operate 24 hours a day, seven days a week, a call at 2 a.m. during a Kona Low flooding event gets the same dispatch response as a weekday afternoon call.
+From our Honolulu base, Hawaii Kai is a direct run east on the H-1 and Kalanianaole Highway, a route we know well. Neighborhoods like Portlock and Koko Kai at the far eastern end of the community are reachable without navigating surface-street congestion, and marina-area addresses near Hawaii Kai Marina are straightforward to access. Because we operate 24 hours a day, seven days a week, a call at 2 a.m. during a Kona Low flooding event gets the same dispatch response as a weekday afternoon call.
 
 ## Building stock, site conditions, and permits in Hawaii Kai
 
-Much of the low-lying part of the community sits on fill placed when Kuapa Fishpond was dredged into the marina, so groundwater there is shallow and tidally influenced. That matters once a slab is wet: subgrade under the concrete stays damp, and drying runs longer than the same loss on the higher lots above Kalanianaole Highway. Cast iron drain lines from the same building era corrode from the inside out, and homes built before the late 1970s may carry asbestos in vinyl floor tile, mastic, or ceiling texture along with lead paint — both change how wet material comes out. Damp framing also invites Formosan termites.
+Much of the low-lying part of the community sits on fill placed when Kuapa Fishpond was dredged into the marina, so groundwater there is shallow and tidally influenced. That matters once a slab is wet: subgrade under the concrete stays damp, and drying runs longer than the same loss on the higher lots above Kalanianaole Highway. Cast iron drain lines from the same building era corrode from the inside out, and homes built before the late 1970s may carry asbestos in vinyl floor tile, mastic, or ceiling texture along with lead paint, both change how wet material comes out. Damp framing also invites Formosan termites.
 
 Structural repair permits on Oahu come from the City and County of Honolulu's Department of Planning and Permitting. Framing, plumbing, and electrical changes trigger review; marina-front lots in a mapped flood hazard area get an added look.
 
-If you're dealing with water, mold, fire, or a biohazard situation anywhere in Hawaii Kai — from Kalama Valley to Koko Marina — call AAA Water Damage Restoration & Carpet Care at **(808) 349-3407**. We're available around the clock and ready to dispatch.
+If you're dealing with water, mold, fire, or a biohazard situation anywhere in Hawaii Kai, from Kalama Valley to Koko Marina, call AAA Water Damage Restoration & Carpet Care at **(808) 349-3407**. We're available around the clock and ready to dispatch.

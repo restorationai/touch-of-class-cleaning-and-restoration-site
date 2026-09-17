@@ -19,39 +19,39 @@ state: "MS"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall or smoke settles into the attic of a State Line home, HomeLyft Restoration MS handles the full scope — water extraction, structural drying, fire and smoke cleanup, mold remediation, and rebuild — so property owners in this corner of Greene County have one number to call instead of coordinating a half-dozen separate contractors. We work directly with insurance carriers and document every step of the loss from first arrival through final inspection.
+When a pipe bursts behind a wall or smoke settles into the attic of a State Line home, HomeLyft Restoration MS handles the full scope, water extraction, structural drying, fire and smoke cleanup, mold remediation, and rebuild, so property owners in this corner of Greene County have one number to call instead of coordinating a half-dozen separate contractors. We work directly with insurance carriers and document every step of the loss from first arrival through final inspection.
 
 ## Restoration emergencies common in State Line
 
-State Line sits on the Mississippi–Alabama border in Greene County, a region where the climate does real work on residential and commercial structures. Summers push heat and humidity deep into crawl spaces and wall cavities, creating the moisture conditions that allow mold to colonize within 24 to 48 hours of a water intrusion. The area's older housing stock — much of it built before modern vapor barrier and ventilation standards became routine — tends to hold moisture longer than newer construction, which means water damage that looks minor on the surface can involve saturated subfloor sheathing and floor joists by the time a homeowner notices a soft spot underfoot.
+State Line sits on the Mississippi–Alabama border in Greene County, a region where the climate does real work on residential and commercial structures. Summers push heat and humidity deep into crawl spaces and wall cavities, creating the moisture conditions that allow mold to colonize within 24 to 48 hours of a water intrusion. The area's older housing stock, much of it built before modern vapor barrier and ventilation standards became routine, tends to hold moisture longer than newer construction, which means water damage that looks minor on the surface can involve saturated subfloor sheathing and floor joists by the time a homeowner notices a soft spot underfoot.
 
-Winter freeze events, though less frequent this far south, catch property owners off guard precisely because they're rare. When temperatures drop hard overnight, pipes in uninsulated crawl spaces and exterior walls fail fast. The surrounding pine timber country also means that during storm season, falling trees and limbs are a consistent source of roof breaches — and once the roof deck is open, rain intrusion can affect multiple rooms within hours. Fire risk is elevated in older wood-frame homes, where electrical systems may not have been updated in decades.
+Winter freeze events, though less frequent this far south, catch property owners off guard precisely because they're rare. When temperatures drop hard overnight, pipes in uninsulated crawl spaces and exterior walls fail fast. The surrounding pine timber country also means that during storm season, falling trees and limbs are a consistent source of roof breaches, and once the roof deck is open, rain intrusion can affect multiple rooms within hours. Fire risk is elevated in older wood-frame homes, where electrical systems may not have been updated in decades.
 
 ## Services we provide in State Line
 
 ### Water damage restoration
 
-Water damage in State Line frequently starts in the crawl space — a slow plumbing leak or groundwater intrusion that goes unnoticed until flooring begins to buckle or a musty odor drifts into the living area. HomeLyft extracts standing water, deploys commercial-grade drying equipment, and monitors moisture levels in structural materials until readings confirm the assembly is dry. We follow the IICRC S500 standard for water damage restoration throughout the drying process.
+Water damage in State Line frequently starts in the crawl space, a slow plumbing leak or groundwater intrusion that goes unnoticed until flooring begins to buckle or a musty odor drifts into the living area. HomeLyft extracts standing water, deploys commercial-grade drying equipment, and monitors moisture levels in structural materials until readings confirm the assembly is dry. We follow the IICRC S500 standard for water damage restoration throughout the drying process.
 
 ### Mold remediation
 
-Greene County's humidity makes mold a realistic follow-on to almost any water event. We assess the extent of growth, contain the affected area to prevent cross-contamination, remove compromised materials, and treat structural surfaces before reconstruction begins. We do not make health claims about mold exposure — if you have medical concerns, consult a physician — but we can tell you what we found, what we removed, and what post-remediation testing showed.
+Greene County's humidity makes mold a realistic follow-on to almost any water event. We assess the extent of growth, contain the affected area to prevent cross-contamination, remove compromised materials, and treat structural surfaces before reconstruction begins. We do not make health claims about mold exposure, if you have medical concerns, consult a physician, but we can tell you what we found, what we removed, and what post-remediation testing showed.
 
 ### Fire and smoke damage cleanup
 
-Smoke residue from a kitchen fire or an electrical fault in an older home doesn't stay in the room where the fire started. It migrates through HVAC systems, settles into insulation, and bonds to painted surfaces within hours. Our fire restoration work includes odor neutralization, soot removal, content cleaning, and structural repair — not just the charred area, but every surface smoke touched.
+Smoke residue from a kitchen fire or an electrical fault in an older home doesn't stay in the room where the fire started. It migrates through HVAC systems, settles into insulation, and bonds to painted surfaces within hours. Our fire restoration work includes odor neutralization, soot removal, content cleaning, and structural repair, not just the charred area, but every surface smoke touched.
 
 ### Reconstruction
 
-Once mitigation is complete, HomeLyft can carry the project through rebuild — replacing drywall, flooring, cabinetry, and roofing rather than handing you off to a separate general contractor mid-claim. For State Line properties with older materials, we coordinate on matching finishes and sourcing where needed.
+Once mitigation is complete, HomeLyft can carry the project through rebuild, replacing drywall, flooring, cabinetry, and roofing rather than handing you off to a separate general contractor mid-claim. For State Line properties with older materials, we coordinate on matching finishes and sourcing where needed.
 
 ## Coverage and how fast we can get there
 
-HomeLyft Restoration MS is headquartered in Gulfport. Reaching State Line means traveling north through the Mississippi Pine Belt — roughly following US-49 toward Hattiesburg and then east on US-98 into Greene County, a route of approximately 100 miles depending on the specific address. We serve the broader State Line area including properties along the MS–AL state line corridor. Call us at (228) 284-5200 to confirm scheduling and discuss the fastest available dispatch for your situation. We do not publish minute-based arrival guarantees, but we will give you an honest estimated arrival window when you call.
+HomeLyft Restoration MS is headquartered in Gulfport. Reaching State Line means traveling north through the Mississippi Pine Belt, roughly following US-49 toward Hattiesburg and then east on US-98 into Greene County, a route of approximately 100 miles depending on the specific address. We serve the broader State Line area including properties along the MS–AL state line corridor. Call us at (228) 284-5200 to confirm scheduling and discuss the fastest available dispatch for your situation. We do not publish minute-based arrival guarantees, but we will give you an honest estimated arrival window when you call.
 
 ## Building stock, site conditions, and permits in State Line
 
-Much of State Line's housing is modest one-story wood frame — pier-and-beam on brick or block piers with vented crawl spaces, plus slab-on-grade on the newer end. Manufactured homes on piers are common across rural Greene County. Crawl space construction matters after a leak: water sits in the joists, subfloor sheathing, and batt insulation long after the finished floor looks dry, so drying has to happen from underneath.
+Much of State Line's housing is modest one-story wood frame, pier-and-beam on brick or block piers with vented crawl spaces, plus slab-on-grade on the newer end. Manufactured homes on piers are common across rural Greene County. Crawl space construction matters after a leak: water sits in the joists, subfloor sheathing, and batt insulation long after the finished floor looks dry, so drying has to happen from underneath.
 
 Plumbing vintage tracks the era. Older houses run galvanized supply and cast iron drains; mid-1980s through mid-1990s work often means polybutylene, which fails at the fittings with little warning. Pre-1978 homes also raise lead paint questions during demolition.
 

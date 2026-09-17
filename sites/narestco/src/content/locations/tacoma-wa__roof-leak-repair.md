@@ -20,42 +20,42 @@ state: "WA"
 service_display: "Roof Leak Cleanup and Repair"
 rendered: true
 ---
-Tacoma's rain doesn't wait for a convenient time to find the weak spot in your roof. If you're reading this with a bucket on the floor, wet insulation sagging in your attic, or a spreading stain across your ceiling drywall, you already know the next few hours matter. National Restoration Construction is based in Federal Way — less than 20 miles from most Tacoma neighborhoods — and our crews are equipped to stop the damage cycle the same day you call: (206) 883-0333.
+Tacoma's rain doesn't wait for a convenient time to find the weak spot in your roof. If you're reading this with a bucket on the floor, wet insulation sagging in your attic, or a spreading stain across your ceiling drywall, you already know the next few hours matter. National Restoration Construction is based in Federal Way, less than 20 miles from most Tacoma neighborhoods, and our crews are equipped to stop the damage cycle the same day you call: (206) 883-0333.
 
 ## Why Tacoma Properties Are Especially Vulnerable to Roof Leaks
 
-The South Sound gets roughly 38 inches of rain annually, but it's not the volume that causes most interior roof leak damage here — it's the pattern. Tacoma sees long stretches of low-grade, persistent rain from October through April, exactly the conditions that exploit aging flashing, cracked pipe boots, and compressed attic insulation. Older neighborhoods like Hilltop, North End, and the Stadium District have a lot of housing stock from the 1920s through 1960s, where original cedar shake or early composition shingles have been patched and re-patched over decades. Each repair layer adds weight and potential failure points.
+The South Sound gets roughly 38 inches of rain annually, but it's not the volume that causes most interior roof leak damage here, it's the pattern. Tacoma sees long stretches of low-grade, persistent rain from October through April, exactly the conditions that exploit aging flashing, cracked pipe boots, and compressed attic insulation. Older neighborhoods like Hilltop, North End, and the Stadium District have a lot of housing stock from the 1920s through 1960s, where original cedar shake or early composition shingles have been patched and re-patched over decades. Each repair layer adds weight and potential failure points.
 
-Flat and low-slope commercial roofs in the Dome District and along the Tideflats face ponding water problems that steeper residential roofs don't. And the freeze-thaw cycles Tacoma sees in January and February — not severe by eastern Washington standards, but enough — can open up small cracks that stayed sealed all summer. By the time water shows up on a ceiling, it's often been traveling through the roof assembly for days.
+Flat and low-slope commercial roofs in the Dome District and along the Tideflats face ponding water problems that steeper residential roofs don't. And the freeze-thaw cycles Tacoma sees in January and February, not severe by eastern Washington standards, but enough, can open up small cracks that stayed sealed all summer. By the time water shows up on a ceiling, it's often been traveling through the roof assembly for days.
 
 ## Our Roof Leak Cleanup and Repair Process in Tacoma
 
-When we arrive, the first priority is stopping active water intrusion before anything else happens. That typically means emergency tarping or temporary sealing of the breach point — we carry materials on every truck for exactly this. Once the entry point is controlled, we shift to assessing what the water has already done inside.
+When we arrive, the first priority is stopping active water intrusion before anything else happens. That typically means emergency tarping or temporary sealing of the breach point, we carry materials on every truck for exactly this. Once the entry point is controlled, we shift to assessing what the water has already done inside.
 
-Attic water damage is where most homeowners underestimate the scope. Water doesn't fall straight down; it follows rafters, runs along vapor barriers, and pools in insulation batts where it can sit for days. We use thermal imaging cameras and moisture meters to map the full wet zone — not just the visible stain on the ceiling below. What we find shapes the extraction and drying plan.
+Attic water damage is where most homeowners underestimate the scope. Water doesn't fall straight down; it follows rafters, runs along vapor barriers, and pools in insulation batts where it can sit for days. We use thermal imaging cameras and moisture meters to map the full wet zone, not just the visible stain on the ceiling below. What we find shapes the extraction and drying plan.
 
 From there, the process typically runs:
 
 - **Extraction and removal** of saturated insulation, wet drywall, or damaged sheathing that won't dry in place
 - **Structural drying** using commercial-grade desiccant dehumidifiers and high-velocity air movers, monitored with daily moisture readings until we hit target levels
-- **Antimicrobial treatment** of affected framing and cavities — mold can begin colonizing wet wood in as little as 24–48 hours in Tacoma's ambient humidity
+- **Antimicrobial treatment** of affected framing and cavities, mold can begin colonizing wet wood in as little as 24–48 hours in Tacoma's ambient humidity
 - **Roof repair or full replacement coordination**, handled under our General Contractor license (WA L&I #NATIORC792M6) so you're not managing two separate contractors
-- **Interior reconstruction** — drywall, insulation, paint, trim — returned to pre-loss condition
+- **Interior reconstruction**, drywall, insulation, paint, trim, returned to pre-loss condition
 
 Everything is documented with photos and moisture logs, which your insurance adjuster will need.
 
 ## Handling the Insurance Side
 
-Most homeowners' policies cover sudden and accidental water intrusion from a roof leak — the key phrase adjusters look for. What they typically don't cover is deferred maintenance (a roof that was already failing). That distinction matters, and it's one reason thorough documentation from the first hour on-site is so important.
+Most homeowners' policies cover sudden and accidental water intrusion from a roof leak, the key phrase adjusters look for. What they typically don't cover is deferred maintenance (a roof that was already failing). That distinction matters, and it's one reason thorough documentation from the first hour on-site is so important.
 
 National Restoration Construction works directly with all major carriers. We prepare the scope of loss, provide line-item estimates in Xactimate (the format most adjusters use), and communicate directly with your adjuster so you're not translating between two contractors and an insurance company simultaneously. We've been doing this since 2004, and our crews know what documentation gaps cause claim delays.
 
-You're responsible for your deductible and for notifying your carrier promptly — we'd encourage you to do that while we're still on-site the first day, so the adjuster can reach us directly if they have questions.
+You're responsible for your deductible and for notifying your carrier promptly, we'd encourage you to do that while we're still on-site the first day, so the adjuster can reach us directly if they have questions.
 
 ## Response Times Across Tacoma
 
-Our Federal Way headquarters puts us roughly 18–22 miles from most Tacoma zip codes, depending on traffic on I-5 or SR-509. Under normal conditions, expect a technician on-site within **60 to 90 minutes** of your call. If you're in South Tacoma, Fircrest, or University Place, you may see us closer to the 45-minute mark. Neighborhoods farther north — Ruston, North Tacoma near Point Defiance — typically fall in the 60–75 minute window.
+Our Federal Way headquarters puts us roughly 18–22 miles from most Tacoma zip codes, depending on traffic on I-5 or SR-509. Under normal conditions, expect a technician on-site within **60 to 90 minutes** of your call. If you're in South Tacoma, Fircrest, or University Place, you may see us closer to the 45-minute mark. Neighborhoods farther north, Ruston, North Tacoma near Point Defiance, typically fall in the 60–75 minute window.
 
 We respond 24 hours a day. A roof leak at 2 a.m. during a January storm is exactly when the call matters most, and it's when we answer.
 
-If you're looking at standing water, a ceiling that's visibly bowing, or any sign that the structure above is saturated, don't wait to see if it dries on its own. Reach out to us at (206) 883-0333 — our IICRC-certified team can walk you through what to do right now, before we even arrive.
+If you're looking at standing water, a ceiling that's visibly bowing, or any sign that the structure above is saturated, don't wait to see if it dries on its own. Reach out to us at (206) 883-0333, our IICRC-certified team can walk you through what to do right now, before we even arrive.

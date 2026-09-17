@@ -20,17 +20,17 @@ state: "MS"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
-St. Martin sits in a stretch of Jackson County where Gulf-driven storms don't just pass through — they linger, stall, and leave behind a particular kind of damage that coastal Mississippi homeowners know all too well: saturated roof decking, wind-driven rain forced under siding, and debris fields that can take out a fence line, a carport, or a century-old live oak in the same gust. When a storm rolls through this community, the damage often looks manageable from the street but runs much deeper once you pull back the wet insulation or lift a waterlogged subfloor panel.
+St. Martin sits in a stretch of Jackson County where Gulf-driven storms don't just pass through, they linger, stall, and leave behind a particular kind of damage that coastal Mississippi homeowners know all too well: saturated roof decking, wind-driven rain forced under siding, and debris fields that can take out a fence line, a carport, or a century-old live oak in the same gust. When a storm rolls through this community, the damage often looks manageable from the street but runs much deeper once you pull back the wet insulation or lift a waterlogged subfloor panel.
 
 ## Why St. Martin Properties Face Distinct Storm Damage Challenges
 
-Jackson County's proximity to the Gulf means St. Martin absorbs the outer bands of named storms and the unnamed squall lines that form fast over warm water in late summer and fall. The local housing stock adds another layer of complexity. Many homes here were built in the 1970s and 1980s using construction standards that predate Mississippi's post-Katrina building code reforms — roof-to-wall connections that weren't strapped, older architectural shingles with shorter wind ratings, and vinyl siding installed without the secondary water barriers now required under current code.
+Jackson County's proximity to the Gulf means St. Martin absorbs the outer bands of named storms and the unnamed squall lines that form fast over warm water in late summer and fall. The local housing stock adds another layer of complexity. Many homes here were built in the 1970s and 1980s using construction standards that predate Mississippi's post-Katrina building code reforms, roof-to-wall connections that weren't strapped, older architectural shingles with shorter wind ratings, and vinyl siding installed without the secondary water barriers now required under current code.
 
-That combination — aging construction meeting Gulf-intensity wind events — means storm damage in St. Martin frequently involves more than surface repairs. A roof that looks like it lost a few shingles may have also allowed hours of wind-driven rain into the attic cavity, wetting the insulation and beginning the 24-to-48-hour clock before mold colonization becomes a real concern. Catching that moisture early is the difference between a contained drying project and a full remediation.
+That combination, aging construction meeting Gulf-intensity wind events, means storm damage in St. Martin frequently involves more than surface repairs. A roof that looks like it lost a few shingles may have also allowed hours of wind-driven rain into the attic cavity, wetting the insulation and beginning the 24-to-48-hour clock before mold colonization becomes a real concern. Catching that moisture early is the difference between a contained drying project and a full remediation.
 
 ## Our Storm Damage Restoration Process in St. Martin
 
-The first step on any storm-damaged property is a systematic exterior and interior assessment — not a quick visual walk, but a moisture mapping exercise using thermal imaging and pin-type meters to find water that has migrated away from the obvious entry point. Wind-driven rain in particular travels horizontally through wall cavities and can appear two rooms away from where the roof was breached.
+The first step on any storm-damaged property is a systematic exterior and interior assessment, not a quick visual walk, but a moisture mapping exercise using thermal imaging and pin-type meters to find water that has migrated away from the obvious entry point. Wind-driven rain in particular travels horizontally through wall cavities and can appear two rooms away from where the roof was breached.
 
 Once the full scope is documented, the work moves in a deliberate sequence:
 
@@ -40,22 +40,22 @@ Once the full scope is documented, the work moves in a deliberate sequence:
 - **Moisture monitoring** with daily readings until affected assemblies reach documented dry standard
 - **Reconstruction scoping**, including any code-required upgrades triggered by the permitted repair
 
-Because HomeLyft holds FORTIFIED Building Roofing and MS Windstorm Certification, we can scope and document roof repairs to the FORTIFIED standard — which matters for Jackson County homeowners looking to qualify for windstorm insurance premium discounts after a claim repair.
+Because HomeLyft holds FORTIFIED Building Roofing and MS Windstorm Certification, we can scope and document roof repairs to the FORTIFIED standard, which matters for Jackson County homeowners looking to qualify for windstorm insurance premium discounts after a claim repair.
 
 ## Reaching St. Martin from Gulfport
 
-HomeLyft's base in Gulfport puts St. Martin within a short drive via US-90 east or I-10 to the Lamey Bridge Road corridor — routes our crews run regularly across the coastal communities of Jackson County. When a storm system affects the broader area, we triage calls geographically and dispatch to minimize drive time, so St. Martin properties aren't waiting behind a longer queue from further inland.
+HomeLyft's base in Gulfport puts St. Martin within a short drive via US-90 east or I-10 to the Lamey Bridge Road corridor, routes our crews run regularly across the coastal communities of Jackson County. When a storm system affects the broader area, we triage calls geographically and dispatch to minimize drive time, so St. Martin properties aren't waiting behind a longer queue from further inland.
 
 For scheduling, call **+1 (228) 284-5200** and our team will confirm the earliest available arrival window based on current dispatch.
 
 ## Insurance Coordination for St. Martin Storm Claims
 
-Storm damage claims in coastal Mississippi carry specific documentation requirements that differ from inland claims. Carriers writing wind and hail policies in this region — and the Mississippi Windstorm Underwriting Association (MWUA) policies common along the Gulf Coast — typically require itemized photo documentation of the damage state before any permanent repairs begin, as well as a clear separation of wind damage from pre-existing conditions.
+Storm damage claims in coastal Mississippi carry specific documentation requirements that differ from inland claims. Carriers writing wind and hail policies in this region, and the Mississippi Windstorm Underwriting Association (MWUA) policies common along the Gulf Coast, typically require itemized photo documentation of the damage state before any permanent repairs begin, as well as a clear separation of wind damage from pre-existing conditions.
 
 We photograph and document every affected surface before work begins, produce a line-item scope compatible with Xactimate (the estimating platform most adjusters use), and communicate directly with your adjuster throughout the claim. If your policy is through MWUA or a surplus lines carrier, we're familiar with those claim workflows and can flag documentation requirements early so nothing delays your settlement.
 
 ## Local Note
 
-One pattern that shows up repeatedly in St. Martin storm work: homes with attached carports or screen enclosures that were added after original construction often have roof tie-ins that weren't permitted or inspected. When a storm peels back that addition, the damage to the main roofline underneath is sometimes worse than the addition itself — and the repair triggers a permit that surfaces the unpermitted work. We flag this early in the assessment so homeowners aren't surprised mid-project when the Jackson County building department gets involved. It's not a problem we create; it's one we'd rather surface before demo than after.
+One pattern that shows up repeatedly in St. Martin storm work: homes with attached carports or screen enclosures that were added after original construction often have roof tie-ins that weren't permitted or inspected. When a storm peels back that addition, the damage to the main roofline underneath is sometimes worse than the addition itself, and the repair triggers a permit that surfaces the unpermitted work. We flag this early in the assessment so homeowners aren't surprised mid-project when the Jackson County building department gets involved. It's not a problem we create; it's one we'd rather surface before demo than after.
 
-If your St. Martin home took storm damage — whether it's a tree through the roof, wind-driven water in the walls, or a flooded garage from a backed-up drainage ditch — call HomeLyft Restoration MS at **+1 (228) 284-5200**. We'll assess the full scope, document it for your insurer, and get the drying and repairs moving before secondary damage compounds the loss.
+If your St. Martin home took storm damage, whether it's a tree through the roof, wind-driven water in the walls, or a flooded garage from a backed-up drainage ditch, call HomeLyft Restoration MS at **+1 (228) 284-5200**. We'll assess the full scope, document it for your insurer, and get the drying and repairs moving before secondary damage compounds the loss.

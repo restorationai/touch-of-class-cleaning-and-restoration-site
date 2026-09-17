@@ -21,7 +21,7 @@ service_display: "Biohazard and Trauma Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
-When something traumatic happens at a Kirkland property, the last thing you should have to manage is the cleanup. Whether you're a homeowner near Juanita Bay, a property manager in Totem Lake, or a family member handling an unattended death in a Kirkland rental, you need a licensed, discreet team on-site quickly — not a callback tomorrow. National Restoration Construction has handled biohazard remediation across the greater Seattle area since 2004, and we respond to Kirkland addresses typically within 60 to 90 minutes of your call.
+When something traumatic happens at a Kirkland property, the last thing you should have to manage is the cleanup. Whether you're a homeowner near Juanita Bay, a property manager in Totem Lake, or a family member handling an unattended death in a Kirkland rental, you need a licensed, discreet team on-site quickly, not a callback tomorrow. National Restoration Construction has handled biohazard remediation across the greater Seattle area since 2004, and we respond to Kirkland addresses typically within 60 to 90 minutes of your call.
 
 ## What to Expect From Our Biohazard and Trauma Cleanup Process
 
@@ -30,16 +30,16 @@ Biohazard and trauma scene cleanup is not a standard cleaning job. Blood, bodily
 Here is what the process looks like in practice:
 
 - **Assessment and containment.** We evaluate the affected area, establish containment boundaries, and put on appropriate personal protective equipment before any work begins. This protects both the occupants and the technicians.
-- **Removal and decontamination.** All biohazardous material is carefully removed using hospital-grade disinfectants and EPA-registered agents. Porous materials — flooring, drywall, subfloor — that cannot be fully decontaminated are removed and disposed of as regulated biohazardous waste.
+- **Removal and decontamination.** All biohazardous material is carefully removed using hospital-grade disinfectants and EPA-registered agents. Porous materials, flooring, drywall, subfloor, that cannot be fully decontaminated are removed and disposed of as regulated biohazardous waste.
 - **ATP and surface testing.** We use adenosine triphosphate (ATP) testing to verify surfaces are biologically clean before we close out the scene, not just visually clean.
 - **Odor neutralization.** Biological incidents leave behind compounds that standard cleaning cannot address. We use HEPA-filtered air scrubbers and professional-grade deodorization to restore the space to a livable condition.
 - **Disposal documentation.** All regulated waste is transported and disposed of through licensed waste carriers. We provide documentation, which matters for insurance claims and for your own records.
 
 ## Serving Kirkland: Response Times and Local Coverage
 
-Our headquarters in Federal Way puts us roughly 30 miles from central Kirkland via I-405 — a drive our on-call crews make regularly. Under normal traffic conditions, expect a technician on-site within 60 to 90 minutes of your initial contact. If you're in the South Kirkland or Bellevue border areas, response can be faster depending on crew positioning.
+Our headquarters in Federal Way puts us roughly 30 miles from central Kirkland via I-405, a drive our on-call crews make regularly. Under normal traffic conditions, expect a technician on-site within 60 to 90 minutes of your initial contact. If you're in the South Kirkland or Bellevue border areas, response can be faster depending on crew positioning.
 
-Kirkland's housing stock is a mix of mid-century single-family homes, newer waterfront construction, and a growing number of multi-unit apartment and condominium buildings near downtown and the Totem Lake corridor. We've worked in all of them. Older homes in particular may have finished basements or crawl spaces that complicate decontamination — our team accounts for that during the initial assessment rather than discovering it mid-job.
+Kirkland's housing stock is a mix of mid-century single-family homes, newer waterfront construction, and a growing number of multi-unit apartment and condominium buildings near downtown and the Totem Lake corridor. We've worked in all of them. Older homes in particular may have finished basements or crawl spaces that complicate decontamination, our team accounts for that during the initial assessment rather than discovering it mid-job.
 
 We work discreetly. Our vehicles are unmarked, and we coordinate arrival times with you to minimize visibility to neighbors or other tenants when that matters.
 

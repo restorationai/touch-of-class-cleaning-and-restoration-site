@@ -19,19 +19,19 @@ state: "MS"
 primary: false
 rendered: true
 ---
-When water soaks through a ceiling, smoke settles into drywall, or mold starts colonizing a crawl space, St. Martin property owners need a restoration crew that knows this corner of Jackson County — not a call center that dispatches from three counties away. HomeLyft Restoration MS handles water damage mitigation, fire and smoke cleanup, mold remediation, and structural drying for homes and commercial properties throughout St. Martin, working directly with insurance carriers to document losses and move the process forward.
+When water soaks through a ceiling, smoke settles into drywall, or mold starts colonizing a crawl space, St. Martin property owners need a restoration crew that knows this corner of Jackson County, not a call center that dispatches from three counties away. HomeLyft Restoration MS handles water damage mitigation, fire and smoke cleanup, mold remediation, and structural drying for homes and commercial properties throughout St. Martin, working directly with insurance carriers to document losses and move the process forward.
 
 ## Restoration emergencies common in St. Martin
 
-St. Martin sits low along the Back Bay of Biloxi corridor, where the water table can be just a few feet below grade in many residential areas. That geography matters when a pipe bursts or a storm pushes surge inland — water has nowhere to drain quickly, and it lingers under slabs, inside wall cavities, and beneath pier-and-beam foundations longer than homeowners expect. The Gulf Coast's humidity compounds the problem: mold can begin colonizing wet framing within 24 to 48 hours of a moisture event, which is not a scare tactic but a documented reality of the regional climate.
+St. Martin sits low along the Back Bay of Biloxi corridor, where the water table can be just a few feet below grade in many residential areas. That geography matters when a pipe bursts or a storm pushes surge inland, water has nowhere to drain quickly, and it lingers under slabs, inside wall cavities, and beneath pier-and-beam foundations longer than homeowners expect. The Gulf Coast's humidity compounds the problem: mold can begin colonizing wet framing within 24 to 48 hours of a moisture event, which is not a scare tactic but a documented reality of the regional climate.
 
-The housing stock in St. Martin skews toward single-family homes built between the 1970s and early 2000s, many with original ductwork, older vapor barriers, and crawl spaces that were never designed for the moisture loads a major storm or plumbing failure introduces. Hurricane season — June through November — is the obvious driver of large-loss events, but the quieter culprits are slow roof leaks after spring thunderstorms, HVAC condensate line failures during the long cooling season, and washing machine supply lines that fail without warning on a Tuesday afternoon.
+The housing stock in St. Martin skews toward single-family homes built between the 1970s and early 2000s, many with original ductwork, older vapor barriers, and crawl spaces that were never designed for the moisture loads a major storm or plumbing failure introduces. Hurricane season, June through November, is the obvious driver of large-loss events, but the quieter culprits are slow roof leaks after spring thunderstorms, HVAC condensate line failures during the long cooling season, and washing machine supply lines that fail without warning on a Tuesday afternoon.
 
 ## Services we provide in St. Martin
 
 ### Water damage mitigation and structural drying
 
-Water damage in St. Martin often involves more than what's visible on the surface. Standing water under vinyl plank flooring or inside wall cavities reads normal to the eye but registers clearly on a moisture meter. The team extracts standing water, places industrial air movers and dehumidifiers calibrated to Gulf Coast humidity levels, and monitors drying progress across multiple days — not a single visit and a handshake.
+Water damage in St. Martin often involves more than what's visible on the surface. Standing water under vinyl plank flooring or inside wall cavities reads normal to the eye but registers clearly on a moisture meter. The team extracts standing water, places industrial air movers and dehumidifiers calibrated to Gulf Coast humidity levels, and monitors drying progress across multiple days, not a single visit and a handshake.
 
 ### Mold remediation
 
@@ -43,16 +43,16 @@ Smoke residue from even a contained kitchen fire can travel through an entire HV
 
 ### Reconstruction and build-back
 
-Once mitigation is complete, many property owners need the damaged areas rebuilt — drywall, insulation, flooring, cabinetry. Handling both the mitigation and the reconstruction under one contractor reduces the gap between "dried out" and "livable again," which matters when a family is displaced or a rental unit is sitting vacant.
+Once mitigation is complete, many property owners need the damaged areas rebuilt, drywall, insulation, flooring, cabinetry. Handling both the mitigation and the reconstruction under one contractor reduces the gap between "dried out" and "livable again," which matters when a family is displaced or a rental unit is sitting vacant.
 
 ## Coverage and how fast we can get there
 
-HomeLyft Restoration MS operates out of Gulfport, roughly 10 to 15 miles west of St. Martin via US-90 or I-10. The drive to most St. Martin addresses is straightforward — US-90 east through Biloxi connects to the residential streets off Martin Bluff Road and the neighborhoods clustered around the Back Bay shoreline without significant routing complications. For property managers or homeowners ready to schedule, call **(228) 284-5200** to confirm current availability and get a crew dispatched. Response timing depends on current job load and time of day, so calling ahead rather than waiting is always the better move.
+HomeLyft Restoration MS operates out of Gulfport, roughly 10 to 15 miles west of St. Martin via US-90 or I-10. The drive to most St. Martin addresses is straightforward, US-90 east through Biloxi connects to the residential streets off Martin Bluff Road and the neighborhoods clustered around the Back Bay shoreline without significant routing complications. For property managers or homeowners ready to schedule, call **(228) 284-5200** to confirm current availability and get a crew dispatched. Response timing depends on current job load and time of day, so calling ahead rather than waiting is always the better move.
 
 ## Building stock, site conditions, and permits in St. Martin
 
-St. Martin is unincorporated, so building permits come from Jackson County rather than a city hall — the county planning and building department is the authority for structural repair, reroofing, and rebuild work here. Anything beyond like-for-like cosmetic replacement usually triggers a permit, and in mapped flood zones the substantial-improvement threshold can pull an older house into current elevation and wind requirements. Coastal Jackson County also sits in a high design-wind area, so roof and fastening details get scrutiny on rebuild.
+St. Martin is unincorporated, so building permits come from Jackson County rather than a city hall, the county planning and building department is the authority for structural repair, reroofing, and rebuild work here. Anything beyond like-for-like cosmetic replacement usually triggers a permit, and in mapped flood zones the substantial-improvement threshold can pull an older house into current elevation and wind requirements. Coastal Jackson County also sits in a high design-wind area, so roof and fastening details get scrutiny on rebuild.
 
 Material vintage shapes the scope. Homes from the late 1970s through the 1990s often mix copper, CPVC, and in some cases gray polybutylene supply lines, with cast iron drains under older slabs. Sandy surface soils over denser clay drain fast at grade and then hold water below.
 
-If you're dealing with water, fire, mold, or storm damage at a St. Martin property, the earlier you call, the more options you have. Waiting — even a day or two — narrows the remediation path and can turn a contained problem into a full gut job. Reach HomeLyft Restoration MS at **(228) 284-5200** to talk through what you're seeing and get the process started.
+If you're dealing with water, fire, mold, or storm damage at a St. Martin property, the earlier you call, the more options you have. Waiting, even a day or two, narrows the remediation path and can turn a contained problem into a full gut job. Reach HomeLyft Restoration MS at **(228) 284-5200** to talk through what you're seeing and get the process started.

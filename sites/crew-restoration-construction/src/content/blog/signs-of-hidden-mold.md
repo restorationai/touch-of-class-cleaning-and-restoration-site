@@ -17,27 +17,27 @@ published_at: "2026-07-13"
 services: ["mold-remediation"]
 rendered: true
 ---
-Hidden mold doesn't announce itself. By the time you see a black patch spreading across a wall, colonies have often been growing for weeks — sometimes months — in a spot you'd never think to look. The seven signs below don't require a lab test or a moisture meter to recognize. If two or more of them apply to your home, take them seriously: mold can colonize a wet surface within 24 to 48 hours, and South Dakota's temperature swings between humid summers and sealed-up winters create ideal conditions for it to spread quietly behind walls, under floors, and inside HVAC ducts.
+Hidden mold doesn't announce itself. By the time you see a black patch spreading across a wall, colonies have often been growing for weeks, sometimes months, in a spot you'd never think to look. The seven signs below don't require a lab test or a moisture meter to recognize. If two or more of them apply to your home, take them seriously: mold can colonize a wet surface within 24 to 48 hours, and South Dakota's temperature swings between humid summers and sealed-up winters create ideal conditions for it to spread quietly behind walls, under floors, and inside HVAC ducts.
 
 ## The 7 Signs
 
 ### 1. A musty smell that moves around
-Mold produces microbial volatile organic compounds (mVOCs) — that earthy, damp-basement odor most people recognize immediately. The tricky part: the smell often intensifies in one room, then seems to disappear when you walk in from outside. If you notice it most strongly near a specific wall, under a sink cabinet, or when the furnace kicks on, that's a location clue worth following.
+Mold produces microbial volatile organic compounds (mVOCs), that earthy, damp-basement odor most people recognize immediately. The tricky part: the smell often intensifies in one room, then seems to disappear when you walk in from outside. If you notice it most strongly near a specific wall, under a sink cabinet, or when the furnace kicks on, that's a location clue worth following.
 
 ### 2. Water stains you can't explain
-A yellow-brown ring on a ceiling or a soft, slightly discolored patch on drywall means water sat there long enough to leave a mark. Even if the stain feels dry today, the moisture that caused it may still be present inside the wall cavity or above the ceiling tile. In older Sioux Falls homes with plaster walls, these stains are easy to dismiss as "old house quirks" — don't.
+A yellow-brown ring on a ceiling or a soft, slightly discolored patch on drywall means water sat there long enough to leave a mark. Even if the stain feels dry today, the moisture that caused it may still be present inside the wall cavity or above the ceiling tile. In older Sioux Falls homes with plaster walls, these stains are easy to dismiss as "old house quirks", don't.
 
 ### 3. Warping, bubbling, or soft spots in walls and floors
-Wood and drywall absorb moisture before mold becomes visible. If a section of baseboard has bowed away from the wall, if laminate flooring has started to bubble near a bathroom, or if you press on drywall and it gives slightly — those are signs of sustained moisture. Mold is almost certainly present in the material or directly behind it.
+Wood and drywall absorb moisture before mold becomes visible. If a section of baseboard has bowed away from the wall, if laminate flooring has started to bubble near a bathroom, or if you press on drywall and it gives slightly, those are signs of sustained moisture. Mold is almost certainly present in the material or directly behind it.
 
 ### 4. Allergy or respiratory symptoms that improve when you leave
-This one is easy to dismiss because it feels like a personal health issue rather than a home problem. But if you wake up with a stuffy nose, scratchy throat, or watery eyes that clear up within an hour of leaving the house — and no one in the household has a diagnosed allergy — the pattern is worth noting. The same goes for persistent headaches that started around the same time as a recent leak or flooding event.
+This one is easy to dismiss because it feels like a personal health issue rather than a home problem. But if you wake up with a stuffy nose, scratchy throat, or watery eyes that clear up within an hour of leaving the house, and no one in the household has a diagnosed allergy, the pattern is worth noting. The same goes for persistent headaches that started around the same time as a recent leak or flooding event.
 
 ### 5. Visible mold in one area, even a small patch
 A pea-sized spot of black, green, or white fuzz in a corner of your shower grout is normal and easy to clean. A recurring patch that comes back within days of cleaning, or a spot appearing on a non-shower surface like a bedroom wall or inside a closet, suggests a moisture source that hasn't been fixed. Surface mold is often the visible tip of a larger colony growing behind the material.
 
 ### 6. Recent water damage that wasn't dried within 48 hours
-A burst pipe last January. A slow drip under the kitchen sink you didn't notice for a few weeks. A basement that took on an inch of water during spring snowmelt. If any wet materials — drywall, insulation, carpet padding, subfloor — weren't fully dried within 48 hours, assume mold is present until proven otherwise. This is the single biggest predictor of hidden mold in homes.
+A burst pipe last January. A slow drip under the kitchen sink you didn't notice for a few weeks. A basement that took on an inch of water during spring snowmelt. If any wet materials, drywall, insulation, carpet padding, subfloor, weren't fully dried within 48 hours, assume mold is present until proven otherwise. This is the single biggest predictor of hidden mold in homes.
 
 ### 7. HVAC or ductwork that smells musty when it runs
 Your heating and cooling system can spread mold spores throughout the entire house if colonies establish inside the air handler, on the evaporator coil, or in the ductwork itself. If the musty smell gets stronger when the heat or AC turns on, or if you see dark discoloration around supply registers, the problem may be systemic rather than isolated to one room.
@@ -48,7 +48,7 @@ If you recognize two or more of the signs above, here's how to respond before ca
 
 1. **Find and stop the moisture source first.** Mold remediation is pointless if the leak, condensation problem, or humidity issue isn't resolved. Check under sinks, around toilet bases, along exterior walls, and in the attic if you can access it safely.
 2. **Don't disturb visible mold.** Scrubbing, sanding, or blowing air across a mold colony releases spores into the air and can spread contamination to rooms that were previously clean.
-3. **Run exhaust fans and open windows** in the affected area if outdoor humidity is lower than indoor humidity — but don't use box fans to blow air from a moldy room into the rest of the house.
+3. **Run exhaust fans and open windows** in the affected area if outdoor humidity is lower than indoor humidity, but don't use box fans to blow air from a moldy room into the rest of the house.
 4. **Document everything with photos and dates.** If you have homeowner's insurance and the mold traces back to a sudden, accidental water event (a burst pipe, an appliance failure), that documentation is the foundation of your claim.
 5. **Avoid bleach on porous surfaces.** Bleach kills surface mold on tile and glass but doesn't penetrate drywall, wood, or grout. It can give a false sense that the problem is solved.
 
@@ -61,7 +61,7 @@ If you recognize two or more of the signs above, here's how to respond before ca
 
 ## When To Call a Professional
 
-DIY cleaning is reasonable for isolated surface mold on non-porous materials — a small patch of tile grout, a section of a glass shower door. Call a professional remediation company when:
+DIY cleaning is reasonable for isolated surface mold on non-porous materials, a small patch of tile grout, a section of a glass shower door. Call a professional remediation company when:
 
 - The affected area is larger than roughly 10 square feet (about the size of a standard ceiling tile)
 - The mold is on or inside drywall, insulation, carpet, or wood framing
@@ -70,14 +70,14 @@ DIY cleaning is reasonable for isolated surface mold on non-porous materials —
 - The mold followed a significant water loss event
 - You've cleaned it twice and it keeps coming back
 
-A qualified remediation team will use containment barriers and negative air pressure to prevent cross-contamination, remove and bag affected materials properly, apply antimicrobial treatments to structural surfaces, and — critically — verify with post-remediation testing that spore counts have returned to normal levels before reconstruction begins.
+A qualified remediation team will use containment barriers and negative air pressure to prevent cross-contamination, remove and bag affected materials properly, apply antimicrobial treatments to structural surfaces, and, critically, verify with post-remediation testing that spore counts have returned to normal levels before reconstruction begins.
 
 ## The Recovery Process: What Comes After Remediation
 
-Remediation removes the mold. It doesn't restore your home. After the affected materials are removed and the area is cleared, reconstruction typically involves replacing drywall, insulation, flooring, and trim — and addressing whatever moisture intrusion caused the problem in the first place. That might mean repairing a roof, resealing a foundation, replacing a failed vapor barrier in a crawl space, or installing a dehumidifier in a chronically damp basement.
+Remediation removes the mold. It doesn't restore your home. After the affected materials are removed and the area is cleared, reconstruction typically involves replacing drywall, insulation, flooring, and trim, and addressing whatever moisture intrusion caused the problem in the first place. That might mean repairing a roof, resealing a foundation, replacing a failed vapor barrier in a crawl space, or installing a dehumidifier in a chronically damp basement.
 
 In Sioux Falls, where winters push cold air against exterior walls and summers bring humidity that can condense inside wall cavities, fixing the root cause is as important as the remediation itself. A home that gets remediated but not properly moisture-proofed is likely to see mold return within a season or two.
 
 ---
 
-If you've worked through this list and the signs are pointing toward hidden mold in your home, the next step is a professional assessment — not a rushed cleanup. Crew Restoration & Construction handles mold remediation and the reconstruction that follows, so you're not coordinating two separate contractors. Call (605) 965-2727 to talk through what you're seeing before deciding on next steps.
+If you've worked through this list and the signs are pointing toward hidden mold in your home, the next step is a professional assessment, not a rushed cleanup. Crew Restoration & Construction handles mold remediation and the reconstruction that follows, so you're not coordinating two separate contractors. Call (605) 965-2727 to talk through what you're seeing before deciding on next steps.

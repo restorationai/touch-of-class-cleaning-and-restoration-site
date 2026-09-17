@@ -20,33 +20,33 @@ state: "CA"
 service_display: "Reconstruction Services"
 rendered: true
 ---
-Wasco's mid-century ranch homes weren't built to absorb the kind of losses that follow a burst galvanized pipe or a wind-driven roof failure during a San Joaquin Valley dust storm — and once the water or fire damage is mitigated, the harder question becomes: who actually rebuilds the structure? ProRestoration Services handles that full arc, from the day the drywall comes down through the day you walk back into a finished, permitted space. For property owners and managers in the 93280 ZIP code, having a licensed California contractor already on-site during mitigation means reconstruction starts without the gap that typically adds weeks to a recovery timeline.
+Wasco's mid-century ranch homes weren't built to absorb the kind of losses that follow a burst galvanized pipe or a wind-driven roof failure during a San Joaquin Valley dust storm, and once the water or fire damage is mitigated, the harder question becomes: who actually rebuilds the structure? ProRestoration Services handles that full arc, from the day the drywall comes down through the day you walk back into a finished, permitted space. For property owners and managers in the 93280 ZIP code, having a licensed California contractor already on-site during mitigation means reconstruction starts without the gap that typically adds weeks to a recovery timeline.
 
 ## Why Wasco Properties Face Distinctive Reconstruction Challenges
 
-The housing stock along the Palm Avenue corridor and throughout Westside Wasco skews heavily toward homes built between the 1940s and 1970s. That era of construction means original cast-iron or galvanized steel supply lines, single-pane aluminum windows, and roof sheathing that was never designed for the thermal cycling Wasco sees — 100°F-plus summers followed by hard valley fog winters that push moisture into attic cavities. When those systems fail, the damage often runs deeper than it looks on the surface.
+The housing stock along the Palm Avenue corridor and throughout Westside Wasco skews heavily toward homes built between the 1940s and 1970s. That era of construction means original cast-iron or galvanized steel supply lines, single-pane aluminum windows, and roof sheathing that was never designed for the thermal cycling Wasco sees, 100°F-plus summers followed by hard valley fog winters that push moisture into attic cavities. When those systems fail, the damage often runs deeper than it looks on the surface.
 
-Farm-labor housing and harvest-season rentals throughout the area compound the problem. Deferred maintenance is common, and by the time a slow roof leak or a sewage backup gets reported, the structural framing has already been compromised. Reconstruction in these cases isn't cosmetic — it involves sistering joists, replacing subfloor sheathing, and sometimes addressing load-bearing wall sections that absorbed years of moisture before anyone noticed.
+Farm-labor housing and harvest-season rentals throughout the area compound the problem. Deferred maintenance is common, and by the time a slow roof leak or a sewage backup gets reported, the structural framing has already been compromised. Reconstruction in these cases isn't cosmetic, it involves sistering joists, replacing subfloor sheathing, and sometimes addressing load-bearing wall sections that absorbed years of moisture before anyone noticed.
 
 The San Joaquin Valley's expansive clay soils add another layer. Seasonal soil movement can shift slab foundations incrementally, and a reconstruction project that ignores existing differential settlement risks repeating the same failure pattern. Our team accounts for that during the scoping phase, not after framing is already up.
 
 ## Our Reconstruction Process in Wasco
 
-Every reconstruction project starts with a detailed scope of work — not a ballpark estimate — because Wasco's older building stock regularly surfaces surprises once demolition begins. We document existing conditions with photos and measurements before a single nail is pulled, which protects both the property owner and the insurance claim.
+Every reconstruction project starts with a detailed scope of work, not a ballpark estimate, because Wasco's older building stock regularly surfaces surprises once demolition begins. We document existing conditions with photos and measurements before a single nail is pulled, which protects both the property owner and the insurance claim.
 
 From there, the process moves in a logical sequence:
 
-- **Structural assessment and permitting** — We pull the required permits through the City of Wasco's building department. For projects near Wasco High School or along the Highway 46 corridor where commercial properties are mixed with residential, zoning classifications can affect what's required, and we handle that coordination directly.
-- **Framing and sheathing** — Damaged structural members are replaced to current California Building Code standards, not to the original spec of a 1955 ranch home.
-- **Mechanical rough-in coordination** — We work alongside licensed plumbing and electrical subcontractors so trades don't stack on top of each other and delay inspections.
-- **Insulation, drywall, and finish work** — Completed to match existing finishes where possible, or upgraded where the original materials no longer meet code.
-- **Final inspection and walkthrough** — We don't close a job until the permit is signed off and the property owner has walked every room.
+- **Structural assessment and permitting**, We pull the required permits through the City of Wasco's building department. For projects near Wasco High School or along the Highway 46 corridor where commercial properties are mixed with residential, zoning classifications can affect what's required, and we handle that coordination directly.
+- **Framing and sheathing**, Damaged structural members are replaced to current California Building Code standards, not to the original spec of a 1955 ranch home.
+- **Mechanical rough-in coordination**, We work alongside licensed plumbing and electrical subcontractors so trades don't stack on top of each other and delay inspections.
+- **Insulation, drywall, and finish work**, Completed to match existing finishes where possible, or upgraded where the original materials no longer meet code.
+- **Final inspection and walkthrough**, We don't close a job until the permit is signed off and the property owner has walked every room.
 
 Because we're IICRC Certified and hold CSLB License #960566, the mitigation and reconstruction phases can be documented under a single contractor, which simplifies insurance billing significantly.
 
 ## Reaching Wasco from Our Bakersfield Base
 
-ProRestoration Services is based in Bakersfield and operates 24/7, which matters in Wasco because very few restoration contractors are headquartered here. The drive up Highway 99 to Wasco typically runs 25 to 30 minutes under normal conditions — less at off-peak hours. For properties in Downtown Wasco or near Barker Park, we can often have an initial assessment crew on-site faster than a locally-based handyman can return a call.
+ProRestoration Services is based in Bakersfield and operates 24/7, which matters in Wasco because very few restoration contractors are headquartered here. The drive up Highway 99 to Wasco typically runs 25 to 30 minutes under normal conditions, less at off-peak hours. For properties in Downtown Wasco or near Barker Park, we can often have an initial assessment crew on-site faster than a locally-based handyman can return a call.
 
 For larger reconstruction projects, we stage materials locally when a job runs multiple weeks, which reduces daily drive time and keeps the project on schedule during the agricultural busy season when Highway 46 traffic can slow things down.
 

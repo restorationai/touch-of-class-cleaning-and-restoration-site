@@ -19,50 +19,50 @@ published_at: "2026-06-15"
 services: ["mold-remediation"]
 rendered: true
 youtube_id: "3uN84_sLVSU"
-video_transcript: "Found dark mold in your home and wondering if it's the dangerous kind? Here's what you actually need to know. Black mold usually refers to one specific species — Stachybotrys chartarum. But dozens of other molds also look black or dark green. Color alone won't tell you which mold you have. Common molds like Cladosporium and Aspergillus also appear dark black. Only lab testing confirms the species. Location matters more than color. Stachybotrys needs wet drywall or wood soaked for at least a week. Bathroom tile mold is almost always something far more common. Also check the texture. True Stachybotrys looks slimy and wet. Dry or powdery black growth is almost certainly a less concerning species. Small patch under ten square feet? You may be able to handle it yourself using an N95 mask, gloves, and eye protection. Bag all removed material before walking through your home. Never paint or bleach over mold on drywall. Bleach can't penetrate porous surfaces and may actually feed regrowth. Always fix the moisture source first. Call a certified professional when the area exceeds ten square feet, mold is inside your HVAC, or anyone in your home has respiratory conditions. A professional can find hidden mold behind walls and under flooring — places you'd never see until the damage is already serious. Don't wait and hope it stops growing. Call Home Pride Restoration and Cleaning LLC at 801-995-2437 for a free estimate today."
+video_transcript: "Found dark mold in your home and wondering if it's the dangerous kind? Here's what you actually need to know. Black mold usually refers to one specific species, Stachybotrys chartarum. But dozens of other molds also look black or dark green. Color alone won't tell you which mold you have. Common molds like Cladosporium and Aspergillus also appear dark black. Only lab testing confirms the species. Location matters more than color. Stachybotrys needs wet drywall or wood soaked for at least a week. Bathroom tile mold is almost always something far more common. Also check the texture. True Stachybotrys looks slimy and wet. Dry or powdery black growth is almost certainly a less concerning species. Small patch under ten square feet? You may be able to handle it yourself using an N95 mask, gloves, and eye protection. Bag all removed material before walking through your home. Never paint or bleach over mold on drywall. Bleach can't penetrate porous surfaces and may actually feed regrowth. Always fix the moisture source first. Call a certified professional when the area exceeds ten square feet, mold is inside your HVAC, or anyone in your home has respiratory conditions. A professional can find hidden mold behind walls and under flooring, places you'd never see until the damage is already serious. Don't wait and hope it stops growing. Call Home Pride Restoration and Cleaning LLC at 801-995-2437 for a free estimate today."
 ---
-Here's the short answer: "black mold" almost always refers to *Stachybotrys chartarum*, a specific species that produces dark greenish-black colonies and, under the right conditions, mycotoxins. "Regular mold" is everything else — and there are tens of thousands of other species that can appear in a home. The frustrating truth is that color alone won't tell you which one you're dealing with. A patch of black-looking growth could be common *Cladosporium*, while a greenish smear could be the more concerning *Stachybotrys*. The only way to know for certain is laboratory testing. What follows will help you read the clues, understand the real risks, and decide what to do next.
+Here's the short answer: "black mold" almost always refers to *Stachybotrys chartarum*, a specific species that produces dark greenish-black colonies and, under the right conditions, mycotoxins. "Regular mold" is everything else, and there are tens of thousands of other species that can appear in a home. The frustrating truth is that color alone won't tell you which one you're dealing with. A patch of black-looking growth could be common *Cladosporium*, while a greenish smear could be the more concerning *Stachybotrys*. The only way to know for certain is laboratory testing. What follows will help you read the clues, understand the real risks, and decide what to do next.
 
 ## Why Color Is a Misleading Clue
 
-Mold gets its color from pigments in its spores and cell walls — not from toxicity. *Stachybotrys chartarum* is dark because of melanin in its spores, the same reason some mushrooms are dark. But dozens of other common household molds also produce dark pigments:
+Mold gets its color from pigments in its spores and cell walls, not from toxicity. *Stachybotrys chartarum* is dark because of melanin in its spores, the same reason some mushrooms are dark. But dozens of other common household molds also produce dark pigments:
 
-- **Cladosporium** — olive green to black, extremely common, found on window sills, HVAC vents, and bathroom grout
-- **Aspergillus niger** — deep black, often found on damp drywall and insulation
-- **Ulocladium** — dark brown to black, frequently mistaken for *Stachybotrys*, loves wet building materials
-- **Alternaria** — dark gray or black, common in showers and under sinks
+- **Cladosporium**, olive green to black, extremely common, found on window sills, HVAC vents, and bathroom grout
+- **Aspergillus niger**, deep black, often found on damp drywall and insulation
+- **Ulocladium**, dark brown to black, frequently mistaken for *Stachybotrys*, loves wet building materials
+- **Alternaria**, dark gray or black, common in showers and under sinks
 
 Meanwhile, *Stachybotrys* itself can look dark greenish, slimy, or almost charcoal-colored depending on moisture levels and what it's growing on.
 
-The takeaway: if you're trying to identify mold by color alone, you're guessing. What matters more is the context — where it's growing, how long moisture has been present, and how large the affected area is.
+The takeaway: if you're trying to identify mold by color alone, you're guessing. What matters more is the context, where it's growing, how long moisture has been present, and how large the affected area is.
 
 ## How to Read the Clues More Accurately
 
 While you can't make a definitive ID without testing, a few factors can help you assess the situation more clearly.
 
-**Location and substrate matter.** *Stachybotrys* is a slow grower that needs consistently wet, cellulose-rich material — think drywall paper, wood framing, ceiling tiles, and cardboard that has been wet for at least 72 hours. If you find dark mold on a bathroom tile or a window sill that dries out regularly, it's far more likely to be *Cladosporium* or *Alternaria* than *Stachybotrys*.
+**Location and substrate matter.** *Stachybotrys* is a slow grower that needs consistently wet, cellulose-rich material, think drywall paper, wood framing, ceiling tiles, and cardboard that has been wet for at least 72 hours. If you find dark mold on a bathroom tile or a window sill that dries out regularly, it's far more likely to be *Cladosporium* or *Alternaria* than *Stachybotrys*.
 
 **Texture and sheen.** True *Stachybotrys* often has a slimy or wet appearance when actively growing, because it requires sustained moisture to thrive. Dry, powdery black growth is almost certainly something else.
 
-**Smell.** All mold produces microbial volatile organic compounds (mVOCs) as metabolic byproducts, which create that distinctive musty odor. A strong, earthy, or musty smell in a room — even without visible mold — is a sign of hidden growth somewhere. *Stachybotrys* doesn't have a dramatically different smell from other molds; the odor intensity is more about the volume of growth than the species.
+**Smell.** All mold produces microbial volatile organic compounds (mVOCs) as metabolic byproducts, which create that distinctive musty odor. A strong, earthy, or musty smell in a room, even without visible mold, is a sign of hidden growth somewhere. *Stachybotrys* doesn't have a dramatically different smell from other molds; the odor intensity is more about the volume of growth than the species.
 
-**How long has there been moisture?** Utah's high desert climate means homes in Saratoga Springs don't deal with the chronic ambient humidity that drives mold in coastal states. But when a pipe bursts behind a wall, a water heater fails, or a basement floods, the clock starts immediately. Mold can begin colonizing wet drywall within 24–48 hours. *Stachybotrys* typically needs a longer, sustained wet period — often a week or more — to establish itself. If you caught a leak within a day or two, the more aggressive species is less likely, though not impossible.
+**How long has there been moisture?** Utah's high desert climate means homes in Saratoga Springs don't deal with the chronic ambient humidity that drives mold in coastal states. But when a pipe bursts behind a wall, a water heater fails, or a basement floods, the clock starts immediately. Mold can begin colonizing wet drywall within 24–48 hours. *Stachybotrys* typically needs a longer, sustained wet period, often a week or more, to establish itself. If you caught a leak within a day or two, the more aggressive species is less likely, though not impossible.
 
 ## What You Should (and Shouldn't) Do When You Find Mold
 
 **Do:**
 1. Document the area with photos before touching anything.
-2. Fix the moisture source first — mold will return within weeks if the underlying leak or condensation problem isn't resolved.
+2. Fix the moisture source first, mold will return within weeks if the underlying leak or condensation problem isn't resolved.
 3. Keep the area dry and ventilated if possible, but avoid pointing a fan directly at visible mold growth, which can spread spores through the air.
-4. If the affected area is smaller than about 10 square feet (roughly a 3×3 foot patch), the EPA considers it potentially manageable by a careful homeowner using proper PPE — N95 respirator, gloves, and eye protection.
+4. If the affected area is smaller than about 10 square feet (roughly a 3×3 foot patch), the EPA considers it potentially manageable by a careful homeowner using proper PPE, N95 respirator, gloves, and eye protection.
 5. Bag and seal any removed material before carrying it through the house.
 
 **Don't:**
-- Scrub or disturb a large mold colony without containment — you'll aerosolize spores and spread them to unaffected rooms.
+- Scrub or disturb a large mold colony without containment, you'll aerosolize spores and spread them to unaffected rooms.
 - Paint or caulk over mold. It will continue growing beneath the surface.
 - Use bleach on porous materials like drywall or wood. Bleach kills surface cells but doesn't penetrate, and the water content can actually feed regrowth.
 - Assume a negative smell means no mold. Hidden growth inside wall cavities, under flooring, or in HVAC ductwork often has no obvious odor at the room level.
-- Delay. In Utah's dry climate, a small mold problem can appear to stabilize, but if the moisture source is still active — even a slow drip — the colony is still expanding.
+- Delay. In Utah's dry climate, a small mold problem can appear to stabilize, but if the moisture source is still active, even a slow drip, the colony is still expanding.
 
 ## When to Call a Professional
 
@@ -72,30 +72,30 @@ Call a certified mold remediation professional when:
 
 - **The affected area exceeds 10 square feet.** This is the EPA's general threshold for recommending professional involvement.
 - **The mold is inside HVAC systems or ductwork.** Disturbing mold in a forced-air system can distribute spores to every room in the house within minutes.
-- **You've had a major water intrusion event** — a burst pipe, sewage backup, or flooding — and more than 24–48 hours passed before drying began. The likelihood of widespread growth behind walls and under flooring increases significantly.
+- **You've had a major water intrusion event**, a burst pipe, sewage backup, or flooding, and more than 24–48 hours passed before drying began. The likelihood of widespread growth behind walls and under flooring increases significantly.
 - **Anyone in the household has respiratory conditions**, immune compromise, or is very young or elderly. The precautionary standard is higher when vulnerable people are present.
 - **You've cleaned the same spot more than once and it keeps returning.** Recurring mold almost always means an unresolved moisture source, and finding that source often requires opening walls.
 - **You want a definitive species identification.** A professional can collect air and surface samples and send them to an accredited lab. This is the only reliable way to confirm whether *Stachybotrys* is present.
 
-IICRC-certified remediators follow a containment-and-negative-pressure protocol that keeps spores from migrating during removal — something that's genuinely difficult to replicate with consumer equipment.
+IICRC-certified remediators follow a containment-and-negative-pressure protocol that keeps spores from migrating during removal, something that's genuinely difficult to replicate with consumer equipment.
 
 ## What Professional Mold Remediation Actually Looks Like
 
 If you do bring in a remediation company, here's what the process typically involves so you know what to expect:
 
-1. **Inspection and moisture mapping** — using thermal imaging cameras and moisture meters to find all affected areas, including hidden ones behind walls.
-2. **Containment setup** — plastic sheeting and negative air pressure machines (air scrubbers with HEPA filtration) isolate the work area so spores don't travel.
-3. **Removal of unsalvageable materials** — drywall, insulation, and flooring that can't be cleaned are bagged and removed.
+1. **Inspection and moisture mapping**, using thermal imaging cameras and moisture meters to find all affected areas, including hidden ones behind walls.
+2. **Containment setup**, plastic sheeting and negative air pressure machines (air scrubbers with HEPA filtration) isolate the work area so spores don't travel.
+3. **Removal of unsalvageable materials**, drywall, insulation, and flooring that can't be cleaned are bagged and removed.
 4. **Antimicrobial treatment** of structural surfaces that remain.
-5. **Clearance testing** — a post-remediation air sample confirms spore counts have returned to normal levels before containment comes down.
-6. **Reconstruction** — replacing drywall, flooring, and finishes so the space is returned to pre-damage condition.
+5. **Clearance testing**, a post-remediation air sample confirms spore counts have returned to normal levels before containment comes down.
+6. **Reconstruction**, replacing drywall, flooring, and finishes so the space is returned to pre-damage condition.
 
 The timeline varies. A small bathroom wall cavity might be resolved in a day. A basement that flooded and sat for a week before discovery could take several days of drying and remediation work.
 
 ---
 
-If you've found mold in your home and you're not sure whether it's something you can handle yourself or a situation that needs professional eyes, the safest move is to get an assessment before disturbing anything. Home Pride Restoration and Cleaning serves Saratoga Springs and the surrounding Utah County area — give us a call at (801) 995-2437 and we can help you figure out exactly what you're dealing with.
+If you've found mold in your home and you're not sure whether it's something you can handle yourself or a situation that needs professional eyes, the safest move is to get an assessment before disturbing anything. Home Pride Restoration and Cleaning serves Saratoga Springs and the surrounding Utah County area, give us a call at (801) 995-2437 and we can help you figure out exactly what you're dealing with.
 
 ## Video Transcript
 
-Found dark mold in your home and wondering if it's the dangerous kind? Here's what you actually need to know. Black mold usually refers to one specific species — Stachybotrys chartarum. But dozens of other molds also look black or dark green. Color alone won't tell you which mold you have. Common molds like Cladosporium and Aspergillus also appear dark black. Only lab testing confirms the species. Location matters more than color. Stachybotrys needs wet drywall or wood soaked for at least a week. Bathroom tile mold is almost always something far more common. Also check the texture. True Stachybotrys looks slimy and wet. Dry or powdery black growth is almost certainly a less concerning species. Small patch under ten square feet? You may be able to handle it yourself using an N95 mask, gloves, and eye protection. Bag all removed material before walking through your home. Never paint or bleach over mold on drywall. Bleach can't penetrate porous surfaces and may actually feed regrowth. Always fix the moisture source first. Call a certified professional when the area exceeds ten square feet, mold is inside your HVAC, or anyone in your home has respiratory conditions. A professional can find hidden mold behind walls and under flooring — places you'd never see until the damage is already serious. Don't wait and hope it stops growing. Call Home Pride Restoration and Cleaning LLC at 801-995-2437 for a free estimate today.
+Found dark mold in your home and wondering if it's the dangerous kind? Here's what you actually need to know. Black mold usually refers to one specific species, Stachybotrys chartarum. But dozens of other molds also look black or dark green. Color alone won't tell you which mold you have. Common molds like Cladosporium and Aspergillus also appear dark black. Only lab testing confirms the species. Location matters more than color. Stachybotrys needs wet drywall or wood soaked for at least a week. Bathroom tile mold is almost always something far more common. Also check the texture. True Stachybotrys looks slimy and wet. Dry or powdery black growth is almost certainly a less concerning species. Small patch under ten square feet? You may be able to handle it yourself using an N95 mask, gloves, and eye protection. Bag all removed material before walking through your home. Never paint or bleach over mold on drywall. Bleach can't penetrate porous surfaces and may actually feed regrowth. Always fix the moisture source first. Call a certified professional when the area exceeds ten square feet, mold is inside your HVAC, or anyone in your home has respiratory conditions. A professional can find hidden mold behind walls and under flooring, places you'd never see until the damage is already serious. Don't wait and hope it stops growing. Call Home Pride Restoration and Cleaning LLC at 801-995-2437 for a free estimate today.

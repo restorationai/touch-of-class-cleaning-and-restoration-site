@@ -20,25 +20,25 @@ state: "TX"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-When a fire tears through a Greenville home, the damage rarely stops at the charred walls. East Texas humidity — the kind that settles heavy over Hunt County in spring and summer — moves fast into fire-weakened structures, letting smoke residue bond deeper into porous materials and giving mold a running start within 48 to 72 hours of the event. Reign Restoration responds to fire losses across Greenville, bringing IICRC FSRT-certified fire and smoke restoration technicians and the equipment to stop secondary damage before it compounds the original loss.
+When a fire tears through a Greenville home, the damage rarely stops at the charred walls. East Texas humidity, the kind that settles heavy over Hunt County in spring and summer, moves fast into fire-weakened structures, letting smoke residue bond deeper into porous materials and giving mold a running start within 48 to 72 hours of the event. Reign Restoration responds to fire losses across Greenville, bringing IICRC FSRT-certified fire and smoke restoration technicians and the equipment to stop secondary damage before it compounds the original loss.
 
 ## Why Greenville Properties Face Distinct Fire Damage Challenges
 
-Greenville's housing stock spans a wide range of eras, and that matters when a fire breaks out. The older neighborhoods near downtown and along the historic corridors carry homes built with balloon-frame construction — a style common through the mid-20th century where wall cavities run continuously from the foundation to the roofline. In a fire, those open cavities act like chimneys, pulling smoke and heat vertically through the structure and depositing soot in areas that look untouched from the outside. A visual inspection after the fire department leaves can dramatically underestimate how far smoke has traveled.
+Greenville's housing stock spans a wide range of eras, and that matters when a fire breaks out. The older neighborhoods near downtown and along the historic corridors carry homes built with balloon-frame construction, a style common through the mid-20th century where wall cavities run continuously from the foundation to the roofline. In a fire, those open cavities act like chimneys, pulling smoke and heat vertically through the structure and depositing soot in areas that look untouched from the outside. A visual inspection after the fire department leaves can dramatically underestimate how far smoke has traveled.
 
-Greenville also sits in a region where natural gas service is common, and post-fire coordination with Oncor and Atmos Energy for utility shutoff and re-inspection is a standard part of getting a property cleared for restoration work. That step adds time, but skipping it creates safety and liability exposure — something insurers flag immediately during the claims process.
+Greenville also sits in a region where natural gas service is common, and post-fire coordination with Oncor and Atmos Energy for utility shutoff and re-inspection is a standard part of getting a property cleared for restoration work. That step adds time, but skipping it creates safety and liability exposure, something insurers flag immediately during the claims process.
 
 ## Our Fire and Smoke Restoration Process in Greenville
 
-Every fire loss is different, but the sequence of decisions follows a disciplined order. The first priority on arrival is structural assessment — determining which areas are safe to enter and where load-bearing elements may have been compromised. From there, the process moves through these stages:
+Every fire loss is different, but the sequence of decisions follows a disciplined order. The first priority on arrival is structural assessment, determining which areas are safe to enter and where load-bearing elements may have been compromised. From there, the process moves through these stages:
 
 **Board-up and tarping** seals openings left by broken windows, burned-through walls, or roof damage. In Greenville's climate, an unsealed structure after a fire is an open invitation for rain intrusion and accelerated mold growth.
 
-**Smoke and soot mapping** identifies how far combustion byproducts have migrated. Protein-based smoke from kitchen fires behaves differently than the thick, oily residue from structural fires — each requires a different cleaning chemistry and technique. Our IICRC FSRT certification means technicians are trained to identify the fire type and match the response accordingly.
+**Smoke and soot mapping** identifies how far combustion byproducts have migrated. Protein-based smoke from kitchen fires behaves differently than the thick, oily residue from structural fires, each requires a different cleaning chemistry and technique. Our IICRC FSRT certification means technicians are trained to identify the fire type and match the response accordingly.
 
 **Contents pack-out** removes salvageable belongings to a controlled environment for cleaning and deodorization, protecting items from further damage during the structural work.
 
-**Structural drying and deodorization** runs concurrently with debris removal. Thermal fogging and hydroxyl treatment address odor molecules embedded in framing, insulation, and subfloor materials — not just surface smells.
+**Structural drying and deodorization** runs concurrently with debris removal. Thermal fogging and hydroxyl treatment address odor molecules embedded in framing, insulation, and subfloor materials, not just surface smells.
 
 **Reconstruction coordination** closes out the job. Reign Restoration holds Mold Remediation Contractor license #MRC2276, which means the team handling your fire damage can also manage any mold remediation triggered by water used in firefighting, without handing you off to a second contractor mid-project.
 
@@ -48,12 +48,12 @@ Reign Restoration is headquartered in Royse City, roughly 25 miles southwest of 
 
 ## Insurance Coordination for Greenville Fire Claims
 
-Fire claims are among the most complex residential insurance events — the adjuster's scope, the contractor's scope, and the actual damage rarely align on the first pass. Reign Restoration documents losses with photo evidence, moisture and air quality readings, and written scope narratives that give your adjuster the detail needed to process the claim accurately. The team works with most major carriers and can communicate directly with your adjuster to resolve line-item disputes without putting that burden on you during an already difficult time.
+Fire claims are among the most complex residential insurance events, the adjuster's scope, the contractor's scope, and the actual damage rarely align on the first pass. Reign Restoration documents losses with photo evidence, moisture and air quality readings, and written scope narratives that give your adjuster the detail needed to process the claim accurately. The team works with most major carriers and can communicate directly with your adjuster to resolve line-item disputes without putting that burden on you during an already difficult time.
 
-For Greenville homeowners carrying older policies on historic properties, it's worth confirming with your agent whether your policy covers code-upgrade costs — rebuilding a balloon-frame wall to current IRC standards costs more than replacing it in kind, and that gap isn't always covered without a specific endorsement.
+For Greenville homeowners carrying older policies on historic properties, it's worth confirming with your agent whether your policy covers code-upgrade costs, rebuilding a balloon-frame wall to current IRC standards costs more than replacing it in kind, and that gap isn't always covered without a specific endorsement.
 
 ## Local Note
 
-Greenville's position in Hunt County means fire investigations often involve the Hunt County Fire Marshal's office alongside the city fire department, particularly for losses that cross jurisdictional lines or involve rural-adjacent properties on the city's edges. Restoration work on a property under active investigation requires careful documentation and sometimes a hold on debris removal until the marshal clears the scene. Reign Restoration's team is familiar with that coordination process and can help homeowners understand what they can and cannot touch while an investigation is open — a detail that catches many property owners off guard in the first 24 hours after a loss.
+Greenville's position in Hunt County means fire investigations often involve the Hunt County Fire Marshal's office alongside the city fire department, particularly for losses that cross jurisdictional lines or involve rural-adjacent properties on the city's edges. Restoration work on a property under active investigation requires careful documentation and sometimes a hold on debris removal until the marshal clears the scene. Reign Restoration's team is familiar with that coordination process and can help homeowners understand what they can and cannot touch while an investigation is open, a detail that catches many property owners off guard in the first 24 hours after a loss.
 
 If a fire has damaged your Greenville property, the window to limit secondary damage is short. Call Reign Restoration at **(214) 304-0621** to schedule an assessment and get a clear picture of what restoration will involve.

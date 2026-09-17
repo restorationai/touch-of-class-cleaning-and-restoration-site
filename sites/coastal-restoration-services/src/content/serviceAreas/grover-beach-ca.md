@@ -19,33 +19,33 @@ state: "CA"
 primary: false
 rendered: true
 ---
-Coastal Restoration Services Inc handles water damage, mold remediation, fire and smoke cleanup, and structural drying for homeowners and property managers throughout Grover Beach. When a pipe bursts behind a bathroom wall or a kitchen fire leaves smoke embedded in every surface, the calls come to (805) 345-7440 — and a crew familiar with this stretch of the Central Coast is the one that shows up.
+Coastal Restoration Services Inc handles water damage, mold remediation, fire and smoke cleanup, and structural drying for homeowners and property managers throughout Grover Beach. When a pipe bursts behind a bathroom wall or a kitchen fire leaves smoke embedded in every surface, the calls come to (805) 345-7440, and a crew familiar with this stretch of the Central Coast is the one that shows up.
 
 ## Restoration emergencies common in Grover Beach
 
-Grover Beach sits close enough to the Pacific that marine air is a constant presence — and moisture is the engine behind most of the restoration work done here. The coastal fog that rolls in off the dunes most mornings keeps relative humidity elevated for hours after sunrise, which means any water intrusion event has a shorter window before mold begins to colonize. Under the right conditions, mold can establish itself on wet drywall in as little as 24 to 48 hours; in a Grover Beach home with poor attic ventilation or a crawl space that never fully dries out, that clock starts immediately.
+Grover Beach sits close enough to the Pacific that marine air is a constant presence, and moisture is the engine behind most of the restoration work done here. The coastal fog that rolls in off the dunes most mornings keeps relative humidity elevated for hours after sunrise, which means any water intrusion event has a shorter window before mold begins to colonize. Under the right conditions, mold can establish itself on wet drywall in as little as 24 to 48 hours; in a Grover Beach home with poor attic ventilation or a crawl space that never fully dries out, that clock starts immediately.
 
-The housing stock adds another layer of complexity. A significant share of Grover Beach's residential neighborhoods feature older wood-frame construction — many homes built in the 1960s through 1980s — where subfloor assemblies and wall cavities were not designed with today's understanding of vapor management. Slab-on-grade foundations common in lower-lying blocks can trap moisture and transfer it upward into flooring. The area's shallow water table means that heavy rainfall events, which the San Luis Obispo County coast does see in El Niño winters, can push groundwater into crawl spaces and garages faster than a sump pump can handle it.
+The housing stock adds another layer of complexity. A significant share of Grover Beach's residential neighborhoods feature older wood-frame construction, many homes built in the 1960s through 1980s, where subfloor assemblies and wall cavities were not designed with today's understanding of vapor management. Slab-on-grade foundations common in lower-lying blocks can trap moisture and transfer it upward into flooring. The area's shallow water table means that heavy rainfall events, which the San Luis Obispo County coast does see in El Niño winters, can push groundwater into crawl spaces and garages faster than a sump pump can handle it.
 
-Fire risk is real here too. The wildland-urban interface edges closer to eastern Grover Beach, and dry Santa Ana wind conditions in fall can carry embers. Even a contained kitchen fire leaves behind smoke residue that penetrates porous materials — insulation, drywall paper, cabinet interiors — and produces odor that persists for months if not properly neutralized.
+Fire risk is real here too. The wildland-urban interface edges closer to eastern Grover Beach, and dry Santa Ana wind conditions in fall can carry embers. Even a contained kitchen fire leaves behind smoke residue that penetrates porous materials, insulation, drywall paper, cabinet interiors, and produces odor that persists for months if not properly neutralized.
 
 ## Services we provide in Grover Beach
 
 ### Water damage restoration
 
-Water damage in Grover Beach often starts small — a slow supply line leak under a sink, a failed wax ring, a roof flashing gap that drips only when rain hits a specific angle — and stays hidden long enough to saturate wall cavities and subfloor sheathing. Coastal Restoration Services uses thermal imaging and moisture meters to map the full extent of saturation before any demolition decisions are made. Structural drying follows the IICRC S500 standard, with daily moisture readings to confirm drying progress rather than guessing.
+Water damage in Grover Beach often starts small, a slow supply line leak under a sink, a failed wax ring, a roof flashing gap that drips only when rain hits a specific angle, and stays hidden long enough to saturate wall cavities and subfloor sheathing. Coastal Restoration Services uses thermal imaging and moisture meters to map the full extent of saturation before any demolition decisions are made. Structural drying follows the IICRC S500 standard, with daily moisture readings to confirm drying progress rather than guessing.
 
 ### Mold remediation
 
-The combination of coastal humidity and older construction makes mold remediation one of the most common calls from Grover Beach property owners. Remediation work includes containment, HEPA filtration, removal of affected materials, and treatment of structural components — followed by post-remediation verification so you have documentation for insurance or a future sale.
+The combination of coastal humidity and older construction makes mold remediation one of the most common calls from Grover Beach property owners. Remediation work includes containment, HEPA filtration, removal of affected materials, and treatment of structural components, followed by post-remediation verification so you have documentation for insurance or a future sale.
 
 ### Fire and smoke damage restoration
 
-Smoke from a house fire doesn't stay in the room where the fire started. It migrates through wall penetrations, HVAC returns, and attic spaces, depositing a film of residue that traps odor. Restoration work here involves both visible surface cleaning and deodorization of concealed cavities — not just repainting over the damage.
+Smoke from a house fire doesn't stay in the room where the fire started. It migrates through wall penetrations, HVAC returns, and attic spaces, depositing a film of residue that traps odor. Restoration work here involves both visible surface cleaning and deodorization of concealed cavities, not just repainting over the damage.
 
 ### Biohazard and specialty cleanup
 
-For situations involving sewage backups, unattended deaths, or other biohazard conditions, Coastal Restoration Services follows established safety protocols and proper disposal procedures. These jobs require more than a mop — they require containment, personal protective equipment, and disposal through licensed channels.
+For situations involving sewage backups, unattended deaths, or other biohazard conditions, Coastal Restoration Services follows established safety protocols and proper disposal procedures. These jobs require more than a mop, they require containment, personal protective equipment, and disposal through licensed channels.
 
 ## Coverage and how fast we can get there
 

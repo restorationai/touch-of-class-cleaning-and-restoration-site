@@ -21,42 +21,42 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
-When something traumatic happens inside a home or property in Yankton, the last thing a family should have to manage is the cleanup. Yankton's older residential neighborhoods — particularly in the Riverside and Downtown areas — contain a significant share of pre-1960 housing stock, where porous subfloor materials, unfinished basements, and aging ventilation systems can make biohazard situations more complicated than they appear on the surface. Crew Restoration & Construction handles these situations with discretion, proper containment protocols, and direct coordination with your insurance carrier, so you can focus on what matters.
+When something traumatic happens inside a home or property in Yankton, the last thing a family should have to manage is the cleanup. Yankton's older residential neighborhoods, particularly in the Riverside and Downtown areas, contain a significant share of pre-1960 housing stock, where porous subfloor materials, unfinished basements, and aging ventilation systems can make biohazard situations more complicated than they appear on the surface. Crew Restoration & Construction handles these situations with discretion, proper containment protocols, and direct coordination with your insurance carrier, so you can focus on what matters.
 
 ## Why Yankton's Housing Stock and Climate Create Unique Biohazard Challenges
 
-Yankton's continental climate means wide temperature swings — hard freezes in winter, humid summers along the Missouri River corridor. That humidity matters. Biological materials left unaddressed even briefly in a warm, damp environment can accelerate the growth of secondary contaminants within 24 to 48 hours. Older homes in the Riverside neighborhood, many built close to the floodplain, tend to have crawl spaces and basement floors that absorb liquids quickly and are difficult to fully decontaminate without professional-grade extraction and treatment equipment.
+Yankton's continental climate means wide temperature swings, hard freezes in winter, humid summers along the Missouri River corridor. That humidity matters. Biological materials left unaddressed even briefly in a warm, damp environment can accelerate the growth of secondary contaminants within 24 to 48 hours. Older homes in the Riverside neighborhood, many built close to the floodplain, tend to have crawl spaces and basement floors that absorb liquids quickly and are difficult to fully decontaminate without professional-grade extraction and treatment equipment.
 
-Sharps and needle cleanup presents its own set of considerations in residential and transitional housing settings. Puncture-resistant containers, proper manifest documentation, and disposal through a licensed medical waste handler are all required steps — not optional ones. Cutting corners here creates liability for property owners and ongoing risk for occupants.
+Sharps and needle cleanup presents its own set of considerations in residential and transitional housing settings. Puncture-resistant containers, proper manifest documentation, and disposal through a licensed medical waste handler are all required steps, not optional ones. Cutting corners here creates liability for property owners and ongoing risk for occupants.
 
 ## Our Biohazard Cleanup Process in Yankton
 
-Every job begins with a contained assessment. Before any materials are moved, technicians identify the full scope of affected surfaces — visible and non-visible. In older Yankton homes, that often means checking beneath vinyl flooring, inside wall cavities near baseboards, and along any subfloor seams where liquids may have traveled.
+Every job begins with a contained assessment. Before any materials are moved, technicians identify the full scope of affected surfaces, visible and non-visible. In older Yankton homes, that often means checking beneath vinyl flooring, inside wall cavities near baseboards, and along any subfloor seams where liquids may have traveled.
 
 From there, the process follows a structured sequence:
 
-- **Containment and PPE setup** — the work area is isolated from the rest of the property to prevent cross-contamination.
-- **Removal of porous materials** — saturated drywall, flooring, insulation, or soft goods that cannot be decontaminated are bagged, documented, and transported for proper disposal.
-- **Surface treatment** — EPA-registered disinfectants rated for the specific biological hazard are applied to all affected hard surfaces, with appropriate dwell times.
-- **Air quality management** — HEPA filtration units run during and after remediation to capture airborne particulates.
-- **Post-remediation verification** — before the space is cleared for re-occupancy, surfaces are tested or visually confirmed clean per industry standards.
+- **Containment and PPE setup**, the work area is isolated from the rest of the property to prevent cross-contamination.
+- **Removal of porous materials**, saturated drywall, flooring, insulation, or soft goods that cannot be decontaminated are bagged, documented, and transported for proper disposal.
+- **Surface treatment**, EPA-registered disinfectants rated for the specific biological hazard are applied to all affected hard surfaces, with appropriate dwell times.
+- **Air quality management**, HEPA filtration units run during and after remediation to capture airborne particulates.
+- **Post-remediation verification**, before the space is cleared for re-occupancy, surfaces are tested or visually confirmed clean per industry standards.
 
 Documentation is provided throughout, which your insurance adjuster will need for the claim.
 
 ## Reaching Yankton from Sioux Falls
 
-Crew Restoration & Construction is headquartered in Sioux Falls and dispatches to Yankton (ZIP code 57078) and the surrounding region. Yankton is roughly 75 miles southwest of Sioux Falls via US-81 South — a route our crews travel regularly for jobs across Clay and Yankton counties. When you call (605) 965-2727, the team will give you a realistic arrival window based on current crew availability and job queue, so you can plan accordingly rather than wait without information.
+Crew Restoration & Construction is headquartered in Sioux Falls and dispatches to Yankton (ZIP code 57078) and the surrounding region. Yankton is roughly 75 miles southwest of Sioux Falls via US-81 South, a route our crews travel regularly for jobs across Clay and Yankton counties. When you call (605) 965-2727, the team will give you a realistic arrival window based on current crew availability and job queue, so you can plan accordingly rather than wait without information.
 
-For properties near Riverside Park or along the Missouri River corridor, access logistics are occasionally a factor — narrow streets, shared driveways on older lots, and proximity to the river bank can affect how equipment is staged. We ask about site access during the initial call so there are no surprises on arrival.
+For properties near Riverside Park or along the Missouri River corridor, access logistics are occasionally a factor, narrow streets, shared driveways on older lots, and proximity to the river bank can affect how equipment is staged. We ask about site access during the initial call so there are no surprises on arrival.
 
 ## Yankton Insurance Coordination
 
-Most homeowner policies cover biohazard remediation when the event qualifies as a sudden and accidental loss, though policy language varies. Crew Restoration & Construction documents the scene thoroughly — photographs, moisture readings, affected square footage, and a written scope of work — and submits that package directly to your carrier. This documentation record is what adjusters need to process the claim without unnecessary back-and-forth.
+Most homeowner policies cover biohazard remediation when the event qualifies as a sudden and accidental loss, though policy language varies. Crew Restoration & Construction documents the scene thoroughly, photographs, moisture readings, affected square footage, and a written scope of work, and submits that package directly to your carrier. This documentation record is what adjusters need to process the claim without unnecessary back-and-forth.
 
 If your property is in a rental or transitional housing context, or if you are managing the situation on behalf of an estate, we can coordinate with property managers, attorneys, or family representatives directly. Discretion is standard practice, not an add-on.
 
 ## Local Note
 
-One detail that comes up specifically in Yankton's older Downtown and Riverside neighborhoods: many homes built before 1960 used tongue-and-groove hardwood subfloors rather than plywood sheeting. These boards have tight seams that look intact but can wick and hold biological material in the gaps between planks — sometimes for a significant depth. Standard surface-level treatment alone is not sufficient in these cases. Our technicians probe subfloor seams during assessment specifically because of this pattern, which is common enough in Yankton's pre-war housing stock that it has become a routine checkpoint on every job here.
+One detail that comes up specifically in Yankton's older Downtown and Riverside neighborhoods: many homes built before 1960 used tongue-and-groove hardwood subfloors rather than plywood sheeting. These boards have tight seams that look intact but can wick and hold biological material in the gaps between planks, sometimes for a significant depth. Standard surface-level treatment alone is not sufficient in these cases. Our technicians probe subfloor seams during assessment specifically because of this pattern, which is common enough in Yankton's pre-war housing stock that it has become a routine checkpoint on every job here.
 
-If you are dealing with a difficult situation at a property in Yankton — whether in a private residence, a rental unit, or a commercial space — Crew Restoration & Construction is prepared to handle it with the professionalism and privacy the situation requires. Call (605) 965-2727 to speak with someone directly.
+If you are dealing with a difficult situation at a property in Yankton, whether in a private residence, a rental unit, or a commercial space, Crew Restoration & Construction is prepared to handle it with the professionalism and privacy the situation requires. Call (605) 965-2727 to speak with someone directly.

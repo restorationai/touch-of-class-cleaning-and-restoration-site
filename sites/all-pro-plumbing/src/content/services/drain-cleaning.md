@@ -19,17 +19,17 @@ rendered: true
 ---
 ## What's actually happening inside that slow drain
 
-The water pooling around your feet in the shower or backing up into the second sink every time you run the dishwasher isn't a mystery — it's grease, hair, soap scum, mineral scale, or roots narrowing the pipe until flow drops to a trickle. In Bakersfield's hard-water conditions, that scale builds faster than most homeowners expect, and what starts as a slow kitchen sink drain can turn into a full backup within weeks. Drain cleaning clears the blockage and, done right, leaves the pipe wall clean enough that the problem doesn't return in a month.
+The water pooling around your feet in the shower or backing up into the second sink every time you run the dishwasher isn't a mystery, it's grease, hair, soap scum, mineral scale, or roots narrowing the pipe until flow drops to a trickle. In Bakersfield's hard-water conditions, that scale builds faster than most homeowners expect, and what starts as a slow kitchen sink drain can turn into a full backup within weeks. Drain cleaning clears the blockage and, done right, leaves the pipe wall clean enough that the problem doesn't return in a month.
 
 ## What drain cleaning actually involves
 
 The term covers a spectrum of methods, and the right one depends on what's blocking the pipe and where.
 
-**Cable/rooter service** uses a rotating steel cable with a cutting head to bore through soft clogs — grease, hair, and soap buildup in branch lines like kitchen sinks, bathroom drains, and tub drains. It's fast and effective for organic blockages in 1.5" to 4" lines. What it doesn't do is scrub the pipe wall clean; it punches a hole through the clog rather than removing everything coating the interior.
+**Cable/rooter service** uses a rotating steel cable with a cutting head to bore through soft clogs, grease, hair, and soap buildup in branch lines like kitchen sinks, bathroom drains, and tub drains. It's fast and effective for organic blockages in 1.5" to 4" lines. What it doesn't do is scrub the pipe wall clean; it punches a hole through the clog rather than removing everything coating the interior.
 
-**Hydro jetting** sends pressurized water — typically 1,500 to 4,000 PSI depending on pipe size and material — through a forward- and rear-facing nozzle that simultaneously blasts the clog and scours the pipe wall. This is the method that actually restores flow capacity close to original, and it's the right call for grease-laden kitchen lines, recurring clogs, and main sewer lines where buildup has accumulated over years. Bakersfield's older housing stock, much of it built on slab-on-grade foundations in the 1960s through 1980s, often has cast-iron or ABS sewer lines that benefit significantly from periodic hydro jetting.
+**Hydro jetting** sends pressurized water, typically 1,500 to 4,000 PSI depending on pipe size and material, through a forward- and rear-facing nozzle that simultaneously blasts the clog and scours the pipe wall. This is the method that actually restores flow capacity close to original, and it's the right call for grease-laden kitchen lines, recurring clogs, and main sewer lines where buildup has accumulated over years. Bakersfield's older housing stock, much of it built on slab-on-grade foundations in the 1960s through 1980s, often has cast-iron or ABS sewer lines that benefit significantly from periodic hydro jetting.
 
-**Camera inspection** isn't always required for a simple shower drain clog removal, but for main line issues, recurring backups, or any time roots are suspected, a sewer camera run through the line before and after cleaning confirms the blockage is gone and shows the pipe's condition — whether there's offset joint, root intrusion, or a section that's starting to belly.
+**Camera inspection** isn't always required for a simple shower drain clog removal, but for main line issues, recurring backups, or any time roots are suspected, a sewer camera run through the line before and after cleaning confirms the blockage is gone and shows the pipe's condition, whether there's offset joint, root intrusion, or a section that's starting to belly.
 
 Service windows vary: a straightforward kitchen sink clog removal or shower drain clog typically takes 30 to 60 minutes. A main sewer line with heavy buildup and a camera inspection can run two to three hours.
 
@@ -37,15 +37,15 @@ Service windows vary: a straightforward kitchen sink clog removal or shower drai
 
 1. **Identify the affected fixture and trace the drain path.** A slow shower drain and a gurgling toilet point to very different locations in the system. Before any equipment goes in the line, we confirm whether the blockage is in a branch line (the pipe serving one fixture) or the main sewer line (the pipe everything drains into). That determination drives every decision that follows.
 
-2. **Select the right tool for the pipe and the clog.** Sending a high-pressure hydro jet into a deteriorating cast-iron line or a corroded galvanized branch line can cause more damage than the clog did. We match the method — cable, jetting pressure, nozzle type — to the pipe material, diameter, and condition.
+2. **Select the right tool for the pipe and the clog.** Sending a high-pressure hydro jet into a deteriorating cast-iron line or a corroded galvanized branch line can cause more damage than the clog did. We match the method, cable, jetting pressure, nozzle type, to the pipe material, diameter, and condition.
 
 3. **Clear the blockage and verify flow.** After the cable or jetting pass, we run water to confirm the drain is flowing freely, not just that the tool passed through. For main line work, a camera pass after clearing shows the pipe wall and confirms no debris was pushed to a low spot.
 
-4. **Document and advise.** If the camera reveals root intrusion, a cracked section, or a belly in the line, we show you the footage and explain what it means for the pipe's long-term performance — without pressuring you into a repair on the spot. You leave knowing the condition of your drain system, not just that today's clog is gone.
+4. **Document and advise.** If the camera reveals root intrusion, a cracked section, or a belly in the line, we show you the footage and explain what it means for the pipe's long-term performance, without pressuring you into a repair on the spot. You leave knowing the condition of your drain system, not just that today's clog is gone.
 
 ## What separates a good drain cleaning response from a bad one
 
-The most common shortcut is cabling a main line without a camera — clearing just enough of the blockage to restore flow, then leaving without knowing whether roots, offset joints, or heavy grease coating remain. The drain flows for three weeks and then backs up again, and the homeowner assumes drain cleaning just doesn't last.
+The most common shortcut is cabling a main line without a camera, clearing just enough of the blockage to restore flow, then leaving without knowing whether roots, offset joints, or heavy grease coating remain. The drain flows for three weeks and then backs up again, and the homeowner assumes drain cleaning just doesn't last.
 
 A second common miss is using hydro jetting on a line that hasn't been inspected first. High-pressure water against a cracked pipe or a joint that's already separating can turn a drain problem into a slab leak or a yard excavation.
 
@@ -53,10 +53,10 @@ On the other side: good operators run the camera before recommending jetting, se
 
 ## Seasonal and regional considerations
 
-Bakersfield's hard water — high in calcium and magnesium — accelerates mineral scale inside drain lines, particularly in water heater drain pans, dishwasher drain hoses, and any horizontal run with slow flow. That scale narrows the effective pipe diameter over time and gives grease and soap something to cling to. Homes that experience recurring kitchen sink clogs despite regular cleaning are often dealing with a scale-coated line that needs jetting rather than cabling. Tree roots are also a year-round issue here; the valley's clay soils and warm temperatures keep roots actively seeking moisture in sewer lines, and a line that's clear in January can have significant root intrusion by summer.
+Bakersfield's hard water, high in calcium and magnesium, accelerates mineral scale inside drain lines, particularly in water heater drain pans, dishwasher drain hoses, and any horizontal run with slow flow. That scale narrows the effective pipe diameter over time and gives grease and soap something to cling to. Homes that experience recurring kitchen sink clogs despite regular cleaning are often dealing with a scale-coated line that needs jetting rather than cabling. Tree roots are also a year-round issue here; the valley's clay soils and warm temperatures keep roots actively seeking moisture in sewer lines, and a line that's clear in January can have significant root intrusion by summer.
 
 ## Service area
 
 All Pro Plumbing Heating and Air serves Bakersfield and the surrounding communities, including Oildale, Rosamond, Tehachapi, Shafter, Wasco, Delano, and McFarland. The city-specific drain cleaning pages for each of these areas link back here for the full technical detail on how the work is done.
 
-If your drain is slow, backing up, or gurgling when it shouldn't be, call (661) 863-9242 — available 24/7 — and describe what you're seeing. We'll tell you what it likely means and get a technician to you to clear it properly.
+If your drain is slow, backing up, or gurgling when it shouldn't be, call (661) 863-9242, available 24/7, and describe what you're seeing. We'll tell you what it likely means and get a technician to you to clear it properly.

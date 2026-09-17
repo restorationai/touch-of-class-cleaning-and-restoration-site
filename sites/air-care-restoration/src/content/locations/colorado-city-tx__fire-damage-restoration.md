@@ -20,23 +20,23 @@ state: "TX"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-West Texas fires move fast. The same dry, wind-driven air that makes Mitchell County summers brutal also means a kitchen fire can push smoke through an entire house before the flames are fully out — and in Colorado City, where many homes were built decades ago with open attic chases and minimal fire blocking, that smoke travels farther and settles deeper than most homeowners expect. Air Care Restoration responds 24/7 from Abilene, and our IICRC FSRT- and OCT-certified technicians are trained specifically in fire and smoke restoration for exactly this kind of loss.
+West Texas fires move fast. The same dry, wind-driven air that makes Mitchell County summers brutal also means a kitchen fire can push smoke through an entire house before the flames are fully out, and in Colorado City, where many homes were built decades ago with open attic chases and minimal fire blocking, that smoke travels farther and settles deeper than most homeowners expect. Air Care Restoration responds 24/7 from Abilene, and our IICRC FSRT- and OCT-certified technicians are trained specifically in fire and smoke restoration for exactly this kind of loss.
 
 ## Why Colorado City Properties See Serious Fire Damage
 
-Colorado City sits in a region where relative humidity regularly drops into the teens during summer and fall — the same conditions that make wildfires a regional concern also accelerate the way smoke residue bonds to surfaces after a structural fire. Dry air allows soot particles to migrate deeper into porous materials like drywall, insulation, and wood framing before moisture from firefighting efforts can slow the process.
+Colorado City sits in a region where relative humidity regularly drops into the teens during summer and fall, the same conditions that make wildfires a regional concern also accelerate the way smoke residue bonds to surfaces after a structural fire. Dry air allows soot particles to migrate deeper into porous materials like drywall, insulation, and wood framing before moisture from firefighting efforts can slow the process.
 
-The housing stock here adds another layer of complexity. A significant portion of homes in Colorado City were constructed in the mid-twentieth century, when building practices included real wood lathe, plaster walls, and older HVAC ductwork with gaps that modern construction doesn't have. Smoke doesn't just coat surfaces in these homes — it infiltrates wall cavities, attic insulation, and duct systems in ways that require a systematic, room-by-room approach rather than a surface wipe-down.
+The housing stock here adds another layer of complexity. A significant portion of homes in Colorado City were constructed in the mid-twentieth century, when building practices included real wood lathe, plaster walls, and older HVAC ductwork with gaps that modern construction doesn't have. Smoke doesn't just coat surfaces in these homes, it infiltrates wall cavities, attic insulation, and duct systems in ways that require a systematic, room-by-room approach rather than a surface wipe-down.
 
-Natural gas service is common throughout the area, and post-fire inspections often need to account for whether heat or flame exposure has compromised gas line connections or meter components — something the local utility provider and a licensed contractor both need to sign off on before a home is reoccupied.
+Natural gas service is common throughout the area, and post-fire inspections often need to account for whether heat or flame exposure has compromised gas line connections or meter components, something the local utility provider and a licensed contractor both need to sign off on before a home is reoccupied.
 
 ## Our Fire Damage Restoration Process in Colorado City
 
-When we arrive, the first priority is a thorough assessment — not just of visible char and smoke staining, but of structural integrity, hidden smoke migration, and air quality. Fire damage restoration follows a defined sequence:
+When we arrive, the first priority is a thorough assessment, not just of visible char and smoke staining, but of structural integrity, hidden smoke migration, and air quality. Fire damage restoration follows a defined sequence:
 
 **Stabilization and board-up.** Open windows, compromised doors, and roof penetrations get secured to prevent weather intrusion and unauthorized entry. Colorado City's wind doesn't wait.
 
-**Soot and smoke removal.** Dry soot is vacuumed and hand-wiped before any wet cleaning begins. Applying moisture to dry soot without this step drives it further into surfaces. We use HEPA-filtered vacuums and chemical sponges calibrated to the type of fire — protein fires from kitchen incidents leave a different residue than synthetic fires from furniture or electrical sources.
+**Soot and smoke removal.** Dry soot is vacuumed and hand-wiped before any wet cleaning begins. Applying moisture to dry soot without this step drives it further into surfaces. We use HEPA-filtered vacuums and chemical sponges calibrated to the type of fire, protein fires from kitchen incidents leave a different residue than synthetic fires from furniture or electrical sources.
 
 **Odor neutralization.** Thermal fogging and hydroxyl generation are both used depending on the materials involved. In homes with older plaster walls, odor can persist long after surfaces look clean because the plaster has absorbed smoke at depth. We treat the structure, not just the air. Our odor-control approach is grounded in IICRC OCT methodology.
 
@@ -46,20 +46,20 @@ When we arrive, the first priority is a thorough assessment — not just of visi
 
 ## Reaching Colorado City from Abilene
 
-Our Abilene headquarters puts Colorado City well within our primary service area — I-20 West is a direct corridor with no major interchange complications, and our crews are familiar with the route in all weather conditions. Because we operate 24/7, a call at 2 a.m. after a late-night fire gets the same dispatch response as a call at noon. We do not quote specific on-site arrival times in minutes because road and weather conditions vary, but Colorado City is a priority response zone for us, not an outlier.
+Our Abilene headquarters puts Colorado City well within our primary service area, I-20 West is a direct corridor with no major interchange complications, and our crews are familiar with the route in all weather conditions. Because we operate 24/7, a call at 2 a.m. after a late-night fire gets the same dispatch response as a call at noon. We do not quote specific on-site arrival times in minutes because road and weather conditions vary, but Colorado City is a priority response zone for us, not an outlier.
 
 ## Colorado City Insurance Coordination
 
-Fire losses in Texas are typically covered under the dwelling and personal property sections of a standard homeowners policy, but the documentation requirements are significant. Carriers want a detailed scope of loss — room by room, material by material — before they authorize restoration work. We prepare that documentation as part of our initial assessment, photograph all affected areas before anything is moved or cleaned, and communicate technical scope information directly with your adjuster throughout the process. Coverage and settlement decisions remain between you and your carrier, but you should not have to serve as the translator between the restoration crew and the insurance company.
+Fire losses in Texas are typically covered under the dwelling and personal property sections of a standard homeowners policy, but the documentation requirements are significant. Carriers want a detailed scope of loss, room by room, material by material, before they authorize restoration work. We prepare that documentation as part of our initial assessment, photograph all affected areas before anything is moved or cleaned, and communicate technical scope information directly with your adjuster throughout the process. Coverage and settlement decisions remain between you and your carrier, but you should not have to serve as the translator between the restoration crew and the insurance company.
 
-If your policy includes additional living expense (ALE) coverage, we can help you understand what that means for temporary housing while work is underway — a relevant consideration when the scope involves HVAC decontamination or structural repairs that make the home temporarily uninhabitable.
+If your policy includes additional living expense (ALE) coverage, we can help you understand what that means for temporary housing while work is underway, a relevant consideration when the scope involves HVAC decontamination or structural repairs that make the home temporarily uninhabitable.
 
 ## Local Note
 
-In Colorado City and the surrounding Mitchell County area, older homes frequently have whole-house evaporative coolers rather than sealed central HVAC systems. After a fire, these units present a specific challenge: the pads and ducting in an evaporative cooler are highly porous and absorb smoke odor readily, but they're also open to outside air — meaning they can reintroduce odor into a "cleaned" home every time they run. We inspect and address evaporative cooling systems as part of every fire restoration scope in this area, not as an add-on.
+In Colorado City and the surrounding Mitchell County area, older homes frequently have whole-house evaporative coolers rather than sealed central HVAC systems. After a fire, these units present a specific challenge: the pads and ducting in an evaporative cooler are highly porous and absorb smoke odor readily, but they're also open to outside air, meaning they can reintroduce odor into a "cleaned" home every time they run. We inspect and address evaporative cooling systems as part of every fire restoration scope in this area, not as an add-on.
 
 If you've had a fire in Colorado City and the smoke smell keeps coming back after initial cleanup, the evaporative cooler is often the overlooked source.
 
 ---
 
-Fire damage doesn't stabilize on its own — soot continues to etch surfaces, smoke odor embeds more deeply, and secondary water damage from suppression efforts progresses with every passing hour. Call Air Care Restoration at (325) 339-8723 any time, day or night, to get a crew moving toward Colorado City.
+Fire damage doesn't stabilize on its own, soot continues to etch surfaces, smoke odor embeds more deeply, and secondary water damage from suppression efforts progresses with every passing hour. Call Air Care Restoration at (325) 339-8723 any time, day or night, to get a crew moving toward Colorado City.

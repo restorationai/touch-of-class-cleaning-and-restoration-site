@@ -17,7 +17,7 @@ published_at: "2026-06-25"
 services: ["water-damage-restoration", "appliance-leak-cleanup"]
 rendered: true
 ---
-A burst pipe can dump hundreds of gallons of water into your home in under an hour. The moment you hear rushing water behind a wall, spot a ceiling sagging with moisture, or find standing water spreading across your floor, the clock starts on structural damage, flooring loss, and — within 24 to 48 hours — mold colonization. Here is exactly what to do, in order, so you limit the damage and protect yourself before a professional team arrives.
+A burst pipe can dump hundreds of gallons of water into your home in under an hour. The moment you hear rushing water behind a wall, spot a ceiling sagging with moisture, or find standing water spreading across your floor, the clock starts on structural damage, flooring loss, and, within 24 to 48 hours, mold colonization. Here is exactly what to do, in order, so you limit the damage and protect yourself before a professional team arrives.
 
 ---
 
@@ -26,7 +26,7 @@ A burst pipe can dump hundreds of gallons of water into your home in under an ho
 Before anything else, cut off the water supply. Every second of flow adds more saturated drywall, more warped hardwood, more soaked insulation.
 
 1. **Find your main shutoff valve.** In most New Jersey homes, it is in the basement near the front foundation wall, in a utility closet, or just inside the crawl space. Turn it clockwise (righty-tighty) until it stops.
-2. **If you cannot reach the main valve**, look for the individual fixture shutoff — the oval handle under a sink or behind a toilet. These only stop flow to that fixture, but they buy time.
+2. **If you cannot reach the main valve**, look for the individual fixture shutoff, the oval handle under a sink or behind a toilet. These only stop flow to that fixture, but they buy time.
 3. **Call your utility if the valve is stuck or outside.** PSE&G and many municipal water authorities have emergency lines and can shut service at the street curb.
 4. **Open a cold-water faucet on the lowest floor** to drain pressure from the lines and slow residual flow.
 
@@ -39,11 +39,11 @@ Once the water is off, do not turn it back on until a licensed plumber has inspe
 Before you wade in, pause for 60 seconds and assess.
 
 - **Electricity first.** If water is near an outlet, a breaker panel, or any appliance, cut power to that area at your breaker box. Do not step into standing water that may be in contact with live current.
-- **Smell the air.** A sulfur or rotten-egg odor near a water heater could indicate a gas issue — get out and call 911 before anything else.
+- **Smell the air.** A sulfur or rotten-egg odor near a water heater could indicate a gas issue, get out and call 911 before anything else.
 - **Photograph everything before you touch it.** Walk the perimeter of the damage and take wide shots, then close-ups of the pipe failure, the waterline on walls, saturated materials, and any belongings affected. These images are the foundation of your insurance claim. Video is even better.
 - **Note the time.** Insurers and restoration contractors will ask when the loss started. Write it down.
 
-If the burst is from an appliance — a washing machine supply line, a dishwasher hose, a refrigerator ice-maker line — the documentation process is the same, but you will also want the appliance's make, model, and age for the claim.
+If the burst is from an appliance, a washing machine supply line, a dishwasher hose, a refrigerator ice-maker line, the documentation process is the same, but you will also want the appliance's make, model, and age for the claim.
 
 ---
 
@@ -57,7 +57,7 @@ There are things you can safely do in the first hour and things that look helpfu
 - Place aluminum foil or plastic bags under furniture legs if pieces are too heavy to move.
 - Use towels or a wet/dry shop vac to pull surface water off hard floors. Every gallon you remove is one less gallon soaking into the subfloor.
 - Open interior doors and closets to improve air circulation.
-- If it is warm and dry outside, open windows. If it is humid or raining, keep them closed — outside humidity will slow evaporation and feed mold.
+- If it is warm and dry outside, open windows. If it is humid or raining, keep them closed, outside humidity will slow evaporation and feed mold.
 
 **Do not do these:**
 
@@ -70,7 +70,7 @@ There are things you can safely do in the first hour and things that look helpfu
 
 ## Step 4: Call Your Insurance Company
 
-Most homeowner policies cover sudden and accidental water damage — a burst pipe qualifies. A slow, long-term leak that went unaddressed often does not. Call your insurer as soon as the immediate emergency is controlled.
+Most homeowner policies cover sudden and accidental water damage, a burst pipe qualifies. A slow, long-term leak that went unaddressed often does not. Call your insurer as soon as the immediate emergency is controlled.
 
 When you call:
 
@@ -79,7 +79,7 @@ When you call:
 3. Ask whether they require you to use a preferred vendor or whether you can choose your own restoration contractor.
 4. Ask about your deductible and whether a public adjuster is warranted for large losses.
 
-Your insurer will likely send an adjuster within a day or two, but do not wait for the adjuster to begin drying. Most policies require you to take reasonable steps to prevent further damage — and standing water that sits while you wait for paperwork becomes a mold claim on top of a water claim.
+Your insurer will likely send an adjuster within a day or two, but do not wait for the adjuster to begin drying. Most policies require you to take reasonable steps to prevent further damage, and standing water that sits while you wait for paperwork becomes a mold claim on top of a water claim.
 
 ---
 
@@ -93,12 +93,12 @@ A proper structural drying job involves:
 - **Industrial extraction** to remove water from carpet padding, subfloor assemblies, and wall bases before drying begins.
 - **Desiccant or refrigerant dehumidifiers** that pull moisture from the air and from building materials simultaneously. Residential dehumidifiers from a hardware store move a fraction of the air volume.
 - **Targeted airflow** with air movers positioned at specific angles to drive evaporation from wall surfaces and floor assemblies.
-- **Daily moisture readings** to confirm drying progress and adjust equipment placement. The IICRC S500 standard — the industry benchmark for water damage response — requires documentation at each visit.
+- **Daily moisture readings** to confirm drying progress and adjust equipment placement. The IICRC S500 standard, the industry benchmark for water damage response, requires documentation at each visit.
 - **Controlled demolition** only where necessary: cutting drywall to the flood cut line, removing wet insulation, or pulling up flooring that cannot be saved in place.
 
-For losses involving appliance supply lines — a washing machine hose that let go overnight, for instance — the affected area is often more contained, but the subfloor under the appliance and adjacent rooms should still be mapped before anyone declares the job done.
+For losses involving appliance supply lines, a washing machine hose that let go overnight, for instance, the affected area is often more contained, but the subfloor under the appliance and adjacent rooms should still be mapped before anyone declares the job done.
 
-The Restoration Group handles water damage restoration and appliance leak cleanup throughout the Kenilworth area and surrounding communities. If you are in the middle of this situation right now, call **(908) 970-8533** — the team can walk you through the next steps and get a crew scheduled.
+The Restoration Group handles water damage restoration and appliance leak cleanup throughout the Kenilworth area and surrounding communities. If you are in the middle of this situation right now, call **(908) 970-8533**, the team can walk you through the next steps and get a crew scheduled.
 
 ---
 
@@ -109,11 +109,11 @@ Understanding the timeline helps you plan and keeps you from being surprised.
 - **Hours 0–2:** Water stopped, electricity secured, documentation complete, insurance notified, restoration company contacted.
 - **Hours 2–24:** Professional extraction and equipment setup. Moisture baseline established.
 - **Days 2–5:** Active drying. Equipment runs continuously. Daily checks confirm moisture levels are dropping toward the dry standard for your material types.
-- **Days 5–7+:** Equipment removed once materials reach target moisture content. Scope of repairs determined — drywall, flooring, paint, cabinetry.
+- **Days 5–7+:** Equipment removed once materials reach target moisture content. Scope of repairs determined, drywall, flooring, paint, cabinetry.
 - **Weeks 1–4:** Reconstruction phase, which may involve subcontractors for flooring, drywall, or millwork depending on the extent of the loss.
 
 A small pipe burst caught within an hour can be dried in three to four days. A pipe that ran undetected for 12 hours in a finished basement can mean two to three weeks of drying and significant reconstruction. The difference is almost always how fast the water was stopped and how quickly professional drying equipment was deployed.
 
 ---
 
-If you are reading this in the middle of an emergency, start with the shutoff valve, then call your insurance company and a restoration contractor. If you are in Kenilworth or the surrounding Union County area, The Restoration Group is reachable at **(908) 970-8533**. The faster moisture is extracted and controlled drying begins, the smaller the repair bill — and the lower the chance of a mold problem compounding the original loss.
+If you are reading this in the middle of an emergency, start with the shutoff valve, then call your insurance company and a restoration contractor. If you are in Kenilworth or the surrounding Union County area, The Restoration Group is reachable at **(908) 970-8533**. The faster moisture is extracted and controlled drying begins, the smaller the repair bill, and the lower the chance of a mold problem compounding the original loss.

@@ -17,7 +17,7 @@ published_at: "2026-07-17"
 services: ["mold-remediation"]
 rendered: true
 ---
-Most mold you find in a home is not the toxic black mold you've read about in headlines. But telling them apart by color alone is unreliable — and that's the part most articles skip. The short answer: *Stachybotrys chartarum*, the species commonly called "black mold," is one of hundreds of mold types that can appear dark-colored, and several common household molds also grow in black or near-black shades. The only way to confirm a species is laboratory testing. What you *can* do at home is assess the growth pattern, location, smell, and surface texture to make a more informed call about urgency.
+Most mold you find in a home is not the toxic black mold you've read about in headlines. But telling them apart by color alone is unreliable, and that's the part most articles skip. The short answer: *Stachybotrys chartarum*, the species commonly called "black mold," is one of hundreds of mold types that can appear dark-colored, and several common household molds also grow in black or near-black shades. The only way to confirm a species is laboratory testing. What you *can* do at home is assess the growth pattern, location, smell, and surface texture to make a more informed call about urgency.
 
 ## Why Color Is a Poor Diagnostic Tool
 
@@ -26,7 +26,7 @@ The phrase "black mold" has become shorthand for *Stachybotrys chartarum*, but t
 - **Cladosporium** is one of the most common household molds. It ranges from olive-green to dark brown to nearly black and often appears on window sills, bathroom grout, and the backs of cabinets.
 - **Aspergillus** can grow in shades of black, green, yellow, or white depending on the strain and the surface it colonizes.
 - **Penicillium** is typically blue-green but can appear darker on certain materials.
-- **Stachybotrys chartarum** is genuinely dark greenish-black and has a distinctive slimy texture when wet — but it dries to a powdery, sooty appearance that looks similar to other dark molds.
+- **Stachybotrys chartarum** is genuinely dark greenish-black and has a distinctive slimy texture when wet, but it dries to a powdery, sooty appearance that looks similar to other dark molds.
 
 Conversely, "regular" mold is not always white or green. The color of any mold colony depends on the species, the substrate it's growing on, its age, and the moisture level. A white fuzzy patch on drywall is still mold. A green ring in a ceiling corner is still mold. Neither color tells you whether you need professional remediation.
 
@@ -36,7 +36,7 @@ Instead of fixating on color, look at these factors together:
 
 **Growth location and moisture history**
 
-*Stachybotrys* is a slow-growing mold that requires sustained, heavy moisture — think a roof leak that went unaddressed for weeks, a flooded crawl space, or drywall that stayed wet after a pipe burst. It colonizes cellulose-rich materials: drywall paper, ceiling tiles, wood framing, cardboard. If you're seeing dark mold on a surface that has been wet for an extended period and that surface contains paper or wood fiber, the risk of *Stachybotrys* is higher than if you're looking at mildew on a shower tile.
+*Stachybotrys* is a slow-growing mold that requires sustained, heavy moisture, think a roof leak that went unaddressed for weeks, a flooded crawl space, or drywall that stayed wet after a pipe burst. It colonizes cellulose-rich materials: drywall paper, ceiling tiles, wood framing, cardboard. If you're seeing dark mold on a surface that has been wet for an extended period and that surface contains paper or wood fiber, the risk of *Stachybotrys* is higher than if you're looking at mildew on a shower tile.
 
 **Texture**
 
@@ -44,7 +44,7 @@ Active *Stachybotrys* colonies feel slick or gelatinous when wet. As they dry, t
 
 **Smell**
 
-All mold produces microbial volatile organic compounds (mVOCs) that create that recognizable musty odor. *Stachybotrys* tends to produce a stronger, earthier, more pungent smell — sometimes described as rotting soil or decay — compared to the lighter musty scent of surface bathroom molds. If you open a wall cavity and the smell is overwhelming, that's a signal worth taking seriously.
+All mold produces microbial volatile organic compounds (mVOCs) that create that recognizable musty odor. *Stachybotrys* tends to produce a stronger, earthier, more pungent smell, sometimes described as rotting soil or decay, compared to the lighter musty scent of surface bathroom molds. If you open a wall cavity and the smell is overwhelming, that's a signal worth taking seriously.
 
 **Spread pattern**
 
@@ -65,11 +65,11 @@ Before you do anything else, stop and assess the size of the area.
 - **Don't use bleach on porous surfaces.** Bleach kills surface mold on tile or glass, but it doesn't penetrate into drywall or wood. The water component of bleach can actually increase moisture in porous materials, creating better conditions for regrowth.
 - **Don't paint over it.** Mold-resistant paint applied over active growth will fail within weeks. The mold continues growing underneath.
 - **Don't rely on smell alone to clear an area.** Mold can grow inside wall cavities, under flooring, or in attic insulation with minimal surface odor in the living space. A musty smell that you can't locate visually is often a sign of hidden growth.
-- **Don't assume a negative home test kit result is definitive.** Consumer mold test kits collect airborne spores over a set period. They can confirm mold is present, but they cannot identify the species reliably, and a negative result doesn't mean the air is clean — it may mean spores weren't actively releasing during the collection window.
+- **Don't assume a negative home test kit result is definitive.** Consumer mold test kits collect airborne spores over a set period. They can confirm mold is present, but they cannot identify the species reliably, and a negative result doesn't mean the air is clean, it may mean spores weren't actively releasing during the collection window.
 
 ## When to Call a Professional
 
-Call a mold remediation professional — not just a general contractor — when:
+Call a mold remediation professional, not just a general contractor, when:
 
 - The affected area is larger than 10 square feet
 - The mold is on or inside drywall, insulation, subfloor, or structural wood
@@ -84,6 +84,6 @@ Species identification matters here too. If you want to know whether you're deal
 
 ## The Longer Picture: Mold and Your Home's History
 
-Mold doesn't appear without a reason. Finding it — whatever the species — is a signal that moisture got somewhere it shouldn't have and stayed long enough for colonization to begin. In coastal Central California, that moisture often comes from marine layer humidity working into older construction, inadequate bathroom and kitchen ventilation, or slow leaks behind stucco exteriors that go unnoticed for months. Addressing the mold without tracing it back to its moisture source is a temporary fix.
+Mold doesn't appear without a reason. Finding it, whatever the species, is a signal that moisture got somewhere it shouldn't have and stayed long enough for colonization to begin. In coastal Central California, that moisture often comes from marine layer humidity working into older construction, inadequate bathroom and kitchen ventilation, or slow leaks behind stucco exteriors that go unnoticed for months. Addressing the mold without tracing it back to its moisture source is a temporary fix.
 
 If you've found growth that concerns you, or if you've had a recent water event and want to rule out hidden colonization before it becomes a larger problem, Coastal Restoration Services Inc handles mold assessments and full remediation for homes throughout the Vandenberg Village area. Reach them at **(805) 345-7440**.

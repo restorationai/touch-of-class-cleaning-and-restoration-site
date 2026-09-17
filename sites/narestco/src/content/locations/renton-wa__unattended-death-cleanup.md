@@ -25,34 +25,34 @@ When a death goes undiscovered for days or weeks in a Renton home, the region's 
 
 ## Why Renton's Housing Stock Complicates Unattended Death Cleanup
 
-Renton's building inventory spans nearly a century of construction styles, and that variety matters when it comes to remediation scope. The early-1900s craftsman homes on Renton Hill — many with original fir subfloors laid over unventilated crawl spaces — absorb and hold biological contamination in ways that newer construction simply does not. Porous wood framing from that era wicks moisture and odorous compounds deep into structural members, sometimes requiring partial subfloor removal rather than surface treatment alone.
+Renton's building inventory spans nearly a century of construction styles, and that variety matters when it comes to remediation scope. The early-1900s craftsman homes on Renton Hill, many with original fir subfloors laid over unventilated crawl spaces, absorb and hold biological contamination in ways that newer construction simply does not. Porous wood framing from that era wicks moisture and odorous compounds deep into structural members, sometimes requiring partial subfloor removal rather than surface treatment alone.
 
-In Kennydale and the Renton Highlands, mid-century ramblers and 1970s-era split-levels present a different challenge: forced-air heating systems with ductwork that runs beneath the floor. If a situation has gone undetected long enough, odor compounds can circulate through the duct system and deposit on interior surfaces throughout the home. Identifying and addressing that secondary contamination is part of every scope assessment we perform — not an upsell, just a necessary step in a complete remediation.
+In Kennydale and the Renton Highlands, mid-century ramblers and 1970s-era split-levels present a different challenge: forced-air heating systems with ductwork that runs beneath the floor. If a situation has gone undetected long enough, odor compounds can circulate through the duct system and deposit on interior surfaces throughout the home. Identifying and addressing that secondary contamination is part of every scope assessment we perform, not an upsell, just a necessary step in a complete remediation.
 
 ## Our Unattended Death Cleanup Process in Renton
 
-Every job begins with a contained assessment. Before any cleaning begins, a technician walks the affected space to identify the full contamination boundary — which is often larger than it appears. We establish negative air pressure using HEPA-filtered air scrubbers to prevent cross-contamination to unaffected areas of the home.
+Every job begins with a contained assessment. Before any cleaning begins, a technician walks the affected space to identify the full contamination boundary, which is often larger than it appears. We establish negative air pressure using HEPA-filtered air scrubbers to prevent cross-contamination to unaffected areas of the home.
 
 All biohazardous material is removed, packaged, and transported in compliance with Washington State Department of Ecology regulations and King County hazardous waste disposal requirements. Affected structural materials that cannot be adequately decontaminated are carefully removed and documented for insurance purposes. Surfaces are then treated with EPA-registered hospital-grade disinfectants, followed by odor neutralization using hydroxyl generators or thermal fogging depending on the extent of penetration into porous materials.
 
-Final clearance is based on odor testing and surface ATP testing — an objective measure of biological residue — not just a visual inspection. We do not consider a job complete until those readings confirm the space is safe for re-occupancy.
+Final clearance is based on odor testing and surface ATP testing, an objective measure of biological residue, not just a visual inspection. We do not consider a job complete until those readings confirm the space is safe for re-occupancy.
 
 ## Response Time to Renton from Our Federal Way Headquarters
 
 National Restoration Construction is based in Federal Way, roughly 12 miles south of central Renton via I-5 and SR-167. Under normal traffic conditions, that translates to a technician on-site within 45 to 60 minutes of your call. For addresses in Fairwood or along the 98058 corridor near the Maple Valley Highway, routing through SR-169 keeps response times in that same window even during peak commute hours.
 
-We operate around the clock. Families and property managers should not feel they need to wait for business hours — the sooner containment begins, the more structural material can typically be preserved.
+We operate around the clock. Families and property managers should not feel they need to wait for business hours, the sooner containment begins, the more structural material can typically be preserved.
 
 ## Insurance and Estate Coordination for Renton Families
 
-Most standard homeowner's policies in Washington cover biohazard remediation following an unattended death, though coverage limits and deductibles vary. We work directly with adjusters from the major carriers active in the Puget Sound market and provide itemized documentation — photo evidence, material removal logs, testing results — in the format adjusters need to process claims without delays.
+Most standard homeowner's policies in Washington cover biohazard remediation following an unattended death, though coverage limits and deductibles vary. We work directly with adjusters from the major carriers active in the Puget Sound market and provide itemized documentation, photo evidence, material removal logs, testing results, in the format adjusters need to process claims without delays.
 
 For situations involving an estate in probate, we can coordinate access and scope directly with the estate attorney or personal representative. We understand that the person calling us is often managing grief alongside logistics they never expected to handle, and we keep communication straightforward and private.
 
 ## Local Note: Crawl Space Access on Renton Hill
 
-Homes on Renton Hill built before 1940 frequently have crawl space access points that were designed for a different era of maintenance work — small hatches, low clearance, and no vapor barrier. When biological contamination has migrated into the crawl space through subfloor gaps, remediation requires specialized low-profile equipment and additional containment steps to prevent disturbing the existing soil conditions below. We've worked in enough of these properties to know that a standard equipment loadout isn't always sufficient, and we stage accordingly before arriving on-site rather than discovering the access problem after the job has started.
+Homes on Renton Hill built before 1940 frequently have crawl space access points that were designed for a different era of maintenance work, small hatches, low clearance, and no vapor barrier. When biological contamination has migrated into the crawl space through subfloor gaps, remediation requires specialized low-profile equipment and additional containment steps to prevent disturbing the existing soil conditions below. We've worked in enough of these properties to know that a standard equipment loadout isn't always sufficient, and we stage accordingly before arriving on-site rather than discovering the access problem after the job has started.
 
-If you're managing a property in the 98055 or 98056 ZIP codes and you're unsure whether the crawl space is involved, mention it when you call — it helps us bring the right crew configuration from the start.
+If you're managing a property in the 98055 or 98056 ZIP codes and you're unsure whether the crawl space is involved, mention it when you call, it helps us bring the right crew configuration from the start.
 
 When you're ready to talk through next steps, call National Restoration Construction at (206) 883-0333. We handle every Renton call with full confidentiality, and we can walk you through what the process looks like before anyone sets foot on the property.

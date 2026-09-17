@@ -20,7 +20,7 @@ state: "IA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
-When a spring storm rolls off the South Dakota plains and crosses into Sioux County, Rock Valley properties can take a beating before anyone has a chance to react. Hail punches through roof decking, straight-line winds shatter windows, and the same weather systems that push the Rock River toward its banks can leave homes in the 51247 ZIP code exposed to the elements for hours. Getting damaged openings sealed fast — with structural plywood, heavy-gauge tarps, and the right fasteners — is the difference between a manageable repair and a gut renovation.
+When a spring storm rolls off the South Dakota plains and crosses into Sioux County, Rock Valley properties can take a beating before anyone has a chance to react. Hail punches through roof decking, straight-line winds shatter windows, and the same weather systems that push the Rock River toward its banks can leave homes in the 51247 ZIP code exposed to the elements for hours. Getting damaged openings sealed fast, with structural plywood, heavy-gauge tarps, and the right fasteners, is the difference between a manageable repair and a gut renovation.
 
 ## Why Rock Valley Properties Are Vulnerable to Storm and Fire Damage
 
@@ -30,28 +30,28 @@ Fire damage adds another layer of urgency. A kitchen fire or electrical fire tha
 
 ## Our Board-Up and Tarping Process in Rock Valley
 
-The process starts with a damage assessment — every opening is catalogued before a single sheet of plywood is cut. That documentation matters for your insurance adjuster and for the crews who will follow up with permanent repairs.
+The process starts with a damage assessment, every opening is catalogued before a single sheet of plywood is cut. That documentation matters for your insurance adjuster and for the crews who will follow up with permanent repairs.
 
-For window and door openings, we use minimum ¾-inch CDX plywood secured with structural screws into the framing, not just the siding. That matters in Rock Valley's wind environment; a board fastened only to exterior cladding can fail in the next storm and create a secondary hazard. For roof damage, we use reinforced polyethylene tarps rated for the load, weighted and strapped to ridge boards or secured with battens screwed into intact decking — not just draped and tied off at the gutters.
+For window and door openings, we use minimum ¾-inch CDX plywood secured with structural screws into the framing, not just the siding. That matters in Rock Valley's wind environment; a board fastened only to exterior cladding can fail in the next storm and create a secondary hazard. For roof damage, we use reinforced polyethylene tarps rated for the load, weighted and strapped to ridge boards or secured with battens screwed into intact decking, not just draped and tied off at the gutters.
 
 Large commercial openings along Downtown Rock Valley's main corridor require oversized panels and sometimes scissor-lift access. We carry the equipment to handle those jobs without subcontracting the lift work, which keeps the timeline tight and the chain of custody for documentation clean.
 
 ## Reaching Rock Valley from Sioux Falls
 
-Crew Restoration & Construction is based in Sioux Falls, SD, roughly 70 miles north of Rock Valley via I-29 South and IA-60. When you call **(605) 965-2727**, the team can confirm scheduling and give you an honest arrival window based on current conditions and crew availability — we won't quote you a minute figure we can't stand behind.
+Crew Restoration & Construction is based in Sioux Falls, SD, roughly 70 miles north of Rock Valley via I-29 South and IA-60. When you call **(605) 965-2727**, the team can confirm scheduling and give you an honest arrival window based on current conditions and crew availability, we won't quote you a minute figure we can't stand behind.
 
 For properties near Hospers Park or in the Rock River area, street access after a significant storm can be complicated by downed branches or standing water on low-lying roads. We ask callers to note any access issues when they first reach us so the crew arrives with the right equipment staged and doesn't lose time repositioning.
 
 ## Insurance Coordination After Storm or Fire Damage
 
-Most homeowners' policies in Iowa cover emergency board-up and tarping as part of the loss mitigation provision — meaning the cost of protecting the structure from further damage is typically reimbursable. The key is documentation. We photograph every opening before and after boarding, note the materials used and the square footage covered, and provide a line-item invoice formatted the way Iowa adjusters expect to receive it.
+Most homeowners' policies in Iowa cover emergency board-up and tarping as part of the loss mitigation provision, meaning the cost of protecting the structure from further damage is typically reimbursable. The key is documentation. We photograph every opening before and after boarding, note the materials used and the square footage covered, and provide a line-item invoice formatted the way Iowa adjusters expect to receive it.
 
-If your carrier requires a mitigation authorization number before work begins, call them first and have us on a second line — we can walk through the scope with your adjuster in real time so nothing gets disputed later.
+If your carrier requires a mitigation authorization number before work begins, call them first and have us on a second line, we can walk through the scope with your adjuster in real time so nothing gets disputed later.
 
 ## Local Note
 
-Older homes in Rock Valley — particularly those built before the 1970s along the blocks closest to Downtown Rock Valley — were often framed with true-dimension lumber, meaning the actual stud spacing and header depths don't always match modern standard dimensions. When we're cutting plywood panels for those openings, we measure every rough opening individually rather than assuming a standard 32-inch or 36-inch width. It adds a few minutes per window, but a panel that doesn't fully cover the framing is a liability, not a repair.
+Older homes in Rock Valley, particularly those built before the 1970s along the blocks closest to Downtown Rock Valley, were often framed with true-dimension lumber, meaning the actual stud spacing and header depths don't always match modern standard dimensions. When we're cutting plywood panels for those openings, we measure every rough opening individually rather than assuming a standard 32-inch or 36-inch width. It adds a few minutes per window, but a panel that doesn't fully cover the framing is a liability, not a repair.
 
 If your property is in this older housing stock and you've had board-up work done before that felt loose or left gaps at the corners, that's likely why. We've seen it enough in this part of Sioux County to make individual measurement a standard step, not an exception.
 
-Call **(605) 965-2727)** to reach Crew Restoration & Construction and get your Rock Valley property secured. The longer an opening stays unprotected, the wider the damage footprint grows — and the more complex the eventual restoration becomes.
+Call **(605) 965-2727)** to reach Crew Restoration & Construction and get your Rock Valley property secured. The longer an opening stays unprotected, the wider the damage footprint grows, and the more complex the eventual restoration becomes.

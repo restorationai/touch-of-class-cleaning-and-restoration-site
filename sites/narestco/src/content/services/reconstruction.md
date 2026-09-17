@@ -17,13 +17,13 @@ service_slug: "reconstruction"
 service_display: "Reconstruction Services"
 rendered: true
 ---
-When a fire, flood, or structural failure leaves your home or building partially destroyed, mitigation is only half the story. The other half is putting it back together — framing, drywall, roofing, flooring, electrical rough-in coordination, and everything in between. National Restoration Construction handles that full rebuild phase in-house, so you're not left managing a patchwork of subcontractors after the emergency crews leave. One point of contact, one timeline, one job done right.
+When a fire, flood, or structural failure leaves your home or building partially destroyed, mitigation is only half the story. The other half is putting it back together, framing, drywall, roofing, flooring, electrical rough-in coordination, and everything in between. National Restoration Construction handles that full rebuild phase in-house, so you're not left managing a patchwork of subcontractors after the emergency crews leave. One point of contact, one timeline, one job done right.
 
 ## How we handle Reconstruction
 
-Post-damage reconstruction starts where emergency mitigation ends. Once water extraction, smoke cleaning, or debris removal is complete, a project manager walks the structure to document every affected system — load-bearing walls, roof decking, subfloor integrity, insulation values, window and door openings. That assessment drives a written scope of work before a single nail goes in.
+Post-damage reconstruction starts where emergency mitigation ends. Once water extraction, smoke cleaning, or debris removal is complete, a project manager walks the structure to document every affected system, load-bearing walls, roof decking, subfloor integrity, insulation values, window and door openings. That assessment drives a written scope of work before a single nail goes in.
 
-From there, the rebuild follows a logical sequence most homeowners don't see until they live through it: structural framing first, then sheathing and weatherproofing, then mechanical rough-ins (coordinated with licensed electricians and plumbers), then insulation, drywall, tape and texture, paint, and finish carpentry. Flooring and cabinetry come last. Skipping that order — or letting trades work out of sequence — is how reconstruction projects stall for months. We schedule trades in advance and keep the critical path moving.
+From there, the rebuild follows a logical sequence most homeowners don't see until they live through it: structural framing first, then sheathing and weatherproofing, then mechanical rough-ins (coordinated with licensed electricians and plumbers), then insulation, drywall, tape and texture, paint, and finish carpentry. Flooring and cabinetry come last. Skipping that order, or letting trades work out of sequence, is how reconstruction projects stall for months. We schedule trades in advance and keep the critical path moving.
 
 For fire damage reconstruction specifically, we also address hidden char and smoke penetration in wall cavities before closing them up. Smoke odor that returns six months after a "completed" rebuild almost always traces back to unsealed framing or contaminated insulation that got covered rather than replaced. We don't close walls until air quality checks confirm the cavity is clean.
 
@@ -31,31 +31,31 @@ Timeline varies with scope. A single-room rebuild after a contained water loss t
 
 ## When to call us
 
-The clearest signal is structural damage you can see: a sagging roofline, a wall that shifted off its foundation, floor joists that deflected under standing water, or framing members charred past their load-bearing capacity. If your insurance adjuster has written an estimate that includes line items for framing, drywall, roofing, or flooring replacement, you need a general contractor — not just a cleanup crew.
+The clearest signal is structural damage you can see: a sagging roofline, a wall that shifted off its foundation, floor joists that deflected under standing water, or framing members charred past their load-bearing capacity. If your insurance adjuster has written an estimate that includes line items for framing, drywall, roofing, or flooring replacement, you need a general contractor, not just a cleanup crew.
 
 Less obvious triggers include:
 
 - **Persistent odor after mitigation is complete.** Smoke smell or a musty, organic odor that returns within weeks usually means contaminated material is still in the structure.
 - **Soft or springy subfloor.** Even after drying, OSB and plywood subfloor that absorbed water long enough loses structural integrity. Walking on it tells you more than a moisture meter alone.
-- **Visible daylight through roof decking or exterior walls.** Any breach in the building envelope accelerates secondary damage — mold colonization can begin within 24 to 48 hours of a moisture intrusion in Western Washington's climate.
+- **Visible daylight through roof decking or exterior walls.** Any breach in the building envelope accelerates secondary damage, mold colonization can begin within 24 to 48 hours of a moisture intrusion in Western Washington's climate.
 - **An insurance estimate you can't reconcile with actual damage.** We review scopes regularly and find line items that were missed or undervalued. A second set of eyes before you sign off costs you nothing.
 
-What not to do: don't start cosmetic repairs — paint, flooring, trim — before the underlying structure is assessed and dried to IICRC S500 or S520 standards. Covering wet or smoke-damaged material traps the problem and voids most warranties.
+What not to do: don't start cosmetic repairs, paint, flooring, trim, before the underlying structure is assessed and dried to IICRC S500 or S520 standards. Covering wet or smoke-damaged material traps the problem and voids most warranties.
 
 ## What sets our reconstruction team apart
 
-National Restoration Construction holds a Washington State General Contractor Certificate of Registration (#NATIORC792M6), is IICRC Certified, EPA Certified, Lead-Safe Certified, ANSI Certified, and BBB Accredited. That combination matters on reconstruction projects because older Federal Way–area housing stock — particularly homes built before 1978 — frequently contains lead paint and occasionally asbestos-containing materials in floor tile, joint compound, or pipe insulation. Disturbing those materials without proper protocols creates liability and health risk. Our Lead-Safe certification means we follow EPA RRP rules on every applicable project without you having to ask.
+National Restoration Construction holds a Washington State General Contractor Certificate of Registration (#NATIORC792M6), is IICRC Certified, EPA Certified, Lead-Safe Certified, ANSI Certified, and BBB Accredited. That combination matters on reconstruction projects because older Federal Way–area housing stock, particularly homes built before 1978, frequently contains lead paint and occasionally asbestos-containing materials in floor tile, joint compound, or pipe insulation. Disturbing those materials without proper protocols creates liability and health risk. Our Lead-Safe certification means we follow EPA RRP rules on every applicable project without you having to ask.
 
-Being headquartered in Federal Way also means we know the regional building department's permitting process, typical inspection timelines, and the kind of weather-related secondary damage that's common here — roof damage from windstorms, crawl space flooding from the water table, and the accelerated mold risk that comes with Western Washington's wet winters. We pull permits when required and schedule inspections without delays that come from working in an unfamiliar jurisdiction.
+Being headquartered in Federal Way also means we know the regional building department's permitting process, typical inspection timelines, and the kind of weather-related secondary damage that's common here, roof damage from windstorms, crawl space flooding from the water table, and the accelerated mold risk that comes with Western Washington's wet winters. We pull permits when required and schedule inspections without delays that come from working in an unfamiliar jurisdiction.
 
 ## Insurance, billing, and the claims process
 
-Most reconstruction work following a covered loss goes through a homeowner's or commercial property insurance policy. We work directly with all major carriers and can communicate with your adjuster on scope, pricing, and supplements throughout the project. You should not have to translate between your contractor and your insurance company — that's our job.
+Most reconstruction work following a covered loss goes through a homeowner's or commercial property insurance policy. We work directly with all major carriers and can communicate with your adjuster on scope, pricing, and supplements throughout the project. You should not have to translate between your contractor and your insurance company, that's our job.
 
-We use Xactimate, the same estimating platform most adjusters use, which eliminates line-item disputes and speeds approval. If the adjuster's initial estimate misses structural items — a common occurrence on fire damage reconstruction claims — we document and submit supplements with photos, moisture readings, and field notes. Supplements are a normal part of the process, not a confrontation.
+We use Xactimate, the same estimating platform most adjusters use, which eliminates line-item disputes and speeds approval. If the adjuster's initial estimate misses structural items, a common occurrence on fire damage reconstruction claims, we document and submit supplements with photos, moisture readings, and field notes. Supplements are a normal part of the process, not a confrontation.
 
 Your out-of-pocket cost is typically limited to your deductible for covered losses. We'll walk you through what is and isn't covered before work begins so there are no surprises at final billing.
 
 ---
 
-If your property has been damaged and you're trying to figure out what comes next, call (206) 883-0333. A project manager can walk the site, review your adjuster's estimate, and give you a clear picture of scope and timeline — usually within 24 hours of your call. The rebuild process is long enough without starting it with the wrong information.
+If your property has been damaged and you're trying to figure out what comes next, call (206) 883-0333. A project manager can walk the site, review your adjuster's estimate, and give you a clear picture of scope and timeline, usually within 24 hours of your call. The rebuild process is long enough without starting it with the wrong information.

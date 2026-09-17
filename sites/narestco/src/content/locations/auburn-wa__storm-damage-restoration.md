@@ -20,45 +20,45 @@ state: "WA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
-When a storm tears through Auburn — whether it's a line of Pacific low-pressure systems dumping rain faster than gutters can drain, or a wind event snapping a fir tree onto your roof at 2 a.m. — the damage doesn't wait for business hours. Structural openings let water in within minutes. Saturated insulation and sheathing can begin supporting mold growth in as little as 24–48 hours. If you're standing in your home right now watching a ceiling stain spread or a tarp flapping loose over a hole in your roof, this is the page you needed to find. National Restoration Construction dispatches from Federal Way — less than 10 miles from most Auburn neighborhoods — and typically has a crew on-site within 60 to 90 minutes of your call.
+When a storm tears through Auburn, whether it's a line of Pacific low-pressure systems dumping rain faster than gutters can drain, or a wind event snapping a fir tree onto your roof at 2 a.m., the damage doesn't wait for business hours. Structural openings let water in within minutes. Saturated insulation and sheathing can begin supporting mold growth in as little as 24–48 hours. If you're standing in your home right now watching a ceiling stain spread or a tarp flapping loose over a hole in your roof, this is the page you needed to find. National Restoration Construction dispatches from Federal Way, less than 10 miles from most Auburn neighborhoods, and typically has a crew on-site within 60 to 90 minutes of your call.
 
 ## Why Auburn Properties Face Elevated Storm Damage Risk
 
-Auburn sits in the Green River Valley, which funnels moisture-laden air off Puget Sound and concentrates rainfall in ways that catch homeowners off guard. The region averages around 40 inches of rain annually, but it's the intensity events — atmospheric rivers, November wind storms, and the occasional severe convective cell — that do the real damage. Older housing stock along Auburn Way and in the Lea Hill neighborhoods often has aging roofing materials, original wood-framed windows, and mature Douglas fir or cedar trees that have grown close to structures over decades. When those trees come down, they don't just punch holes in roofs; they compromise load-bearing walls, sever electrical service entrances, and create water intrusion pathways that are easy to miss in the chaos of the first few hours.
+Auburn sits in the Green River Valley, which funnels moisture-laden air off Puget Sound and concentrates rainfall in ways that catch homeowners off guard. The region averages around 40 inches of rain annually, but it's the intensity events, atmospheric rivers, November wind storms, and the occasional severe convective cell, that do the real damage. Older housing stock along Auburn Way and in the Lea Hill neighborhoods often has aging roofing materials, original wood-framed windows, and mature Douglas fir or cedar trees that have grown close to structures over decades. When those trees come down, they don't just punch holes in roofs; they compromise load-bearing walls, sever electrical service entrances, and create water intrusion pathways that are easy to miss in the chaos of the first few hours.
 
-The valley's clay-heavy soils also saturate quickly, which means that once surface drainage is overwhelmed, water finds the path of least resistance — often a foundation crack, a window well, or a below-grade garage. Storm cleanup services here require thinking about both the visible damage above and the water that's already moving below.
+The valley's clay-heavy soils also saturate quickly, which means that once surface drainage is overwhelmed, water finds the path of least resistance, often a foundation crack, a window well, or a below-grade garage. Storm cleanup services here require thinking about both the visible damage above and the water that's already moving below.
 
 ## What Our Storm Damage Restoration Process Looks Like
 
-The first priority when we arrive is stopping active damage. That means emergency tarping and board-up before any assessment conversation — because every hour a roof opening stays exposed, more interior material becomes unsalvageable. From there, the process moves in a defined sequence:
+The first priority when we arrive is stopping active damage. That means emergency tarping and board-up before any assessment conversation, because every hour a roof opening stays exposed, more interior material becomes unsalvageable. From there, the process moves in a defined sequence:
 
 **Damage documentation.** We photograph and document every affected area systematically, producing the kind of organized record that makes insurance adjuster reviews faster and less contentious. You'll have a copy of everything.
 
-**Water extraction and drying.** Storm events almost always involve water intrusion, even when the primary damage looks structural. We use truck-mounted extraction units and commercial-grade desiccant or refrigerant dehumidifiers to pull moisture out of wall cavities, subfloor assemblies, and insulation before secondary damage sets in. Moisture meters and thermal imaging guide the work — we're not guessing at what's wet.
+**Water extraction and drying.** Storm events almost always involve water intrusion, even when the primary damage looks structural. We use truck-mounted extraction units and commercial-grade desiccant or refrigerant dehumidifiers to pull moisture out of wall cavities, subfloor assemblies, and insulation before secondary damage sets in. Moisture meters and thermal imaging guide the work, we're not guessing at what's wet.
 
 **Structural assessment and debris removal.** Tree damage cleanup requires careful sequencing: we coordinate removal of fallen material in a way that doesn't cause additional structural movement. Once the debris is cleared, our IICRC-certified technicians assess framing, sheathing, and any compromised structural members.
 
-**Repair and reconstruction.** As a licensed general contractor (WA State L&I #NATIORC792M6), we handle the full scope — from replacing damaged rafters and roof decking to re-siding, window replacement, and interior drywall. One contractor, one point of contact, from emergency response through final inspection.
+**Repair and reconstruction.** As a licensed general contractor (WA State L&I #NATIORC792M6), we handle the full scope, from replacing damaged rafters and roof decking to re-siding, window replacement, and interior drywall. One contractor, one point of contact, from emergency response through final inspection.
 
 ## Navigating Insurance for Storm Damage in Auburn
 
-Most homeowners' policies cover sudden and accidental storm damage — wind, hail, falling trees — but the claims process is where things get complicated. Insurers want documentation that connects the damage directly to the weather event, and they'll look for evidence of pre-existing deferred maintenance to reduce payouts.
+Most homeowners' policies cover sudden and accidental storm damage, wind, hail, falling trees, but the claims process is where things get complicated. Insurers want documentation that connects the damage directly to the weather event, and they'll look for evidence of pre-existing deferred maintenance to reduce payouts.
 
 We've worked with virtually every major carrier serving the Auburn and greater King County area since 2004, and we understand how adjusters evaluate severe weather damage repair claims. Here's how the responsibility typically divides:
 
 - **We handle:** Scope-of-loss documentation, photo evidence packages, moisture readings and drying logs, repair estimates formatted to Xactimate standards, and direct communication with your adjuster if you want us to.
 - **You handle:** Filing the initial claim, paying your deductible, and making final decisions about what gets repaired.
 
-We don't promise outcomes on any specific claim — every policy is different — but organized, professional documentation consistently produces faster approvals and fewer supplemental disputes.
+We don't promise outcomes on any specific claim, every policy is different, but organized, professional documentation consistently produces faster approvals and fewer supplemental disputes.
 
 ## Response Times Across Auburn
 
-Our Federal Way headquarters puts us roughly 8–12 miles from most Auburn addresses depending on traffic and the specific neighborhood. Under normal conditions, expect a crew on-site within 60 to 90 minutes of your call. During widespread storm events — when multiple properties in South King County are affected simultaneously — we're transparent about current dispatch times and can tell you exactly where your call sits in the queue.
+Our Federal Way headquarters puts us roughly 8–12 miles from most Auburn addresses depending on traffic and the specific neighborhood. Under normal conditions, expect a crew on-site within 60 to 90 minutes of your call. During widespread storm events, when multiple properties in South King County are affected simultaneously, we're transparent about current dispatch times and can tell you exactly where your call sits in the queue.
 
 If you're in the West Hill, Lakeland Hills, or Lea Hill areas, response times are typically on the shorter end of that range. Downtown Auburn and properties near the valley floor along the Green River are generally within that same window.
 
-For life-safety situations — a tree through a roof with occupants inside, an active gas leak following structural impact, or electrical hazards — call 911 first. Once the scene is safe, we're the next call to make. Reach us any time at **(206) 883-0333**.
+For life-safety situations, a tree through a roof with occupants inside, an active gas leak following structural impact, or electrical hazards, call 911 first. Once the scene is safe, we're the next call to make. Reach us any time at **(206) 883-0333**.
 
 ---
 
-Storm damage doesn't follow a schedule, and neither do we. Whether it's a weekend wind event that dropped a cedar onto your garage or a week of sustained rain that finally found its way through a compromised valley flashing, the sooner mitigation starts, the smaller the final repair bill. Reach out to National Restoration Construction at **(206) 883-0333** — we'll tell you honestly what we're seeing and what it's going to take to make it right.
+Storm damage doesn't follow a schedule, and neither do we. Whether it's a weekend wind event that dropped a cedar onto your garage or a week of sustained rain that finally found its way through a compromised valley flashing, the sooner mitigation starts, the smaller the final repair bill. Reach out to National Restoration Construction at **(206) 883-0333**, we'll tell you honestly what we're seeing and what it's going to take to make it right.

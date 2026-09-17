@@ -20,13 +20,13 @@ state: "WA"
 service_display: "Odor Removal and Deodorization"
 rendered: true
 ---
-The marine air rolling off Sinclair Inlet doesn't just bring fog — it carries moisture deep into wall cavities, subflooring, and the porous cedar siding common on older Bay Street waterfront homes. When a fire, a sewage backup, or a long-ignored mold bloom leaves behind a persistent smell in a Port Orchard property, that ambient humidity makes odors cling harder and longer than they would in drier inland climates. National Restoration Construction deploys IICRC-certified technicians with industrial-grade deodorization equipment to Port Orchard addresses in ZIP codes 98366 and 98367 — eliminating odors at the molecular level, not masking them.
+The marine air rolling off Sinclair Inlet doesn't just bring fog, it carries moisture deep into wall cavities, subflooring, and the porous cedar siding common on older Bay Street waterfront homes. When a fire, a sewage backup, or a long-ignored mold bloom leaves behind a persistent smell in a Port Orchard property, that ambient humidity makes odors cling harder and longer than they would in drier inland climates. National Restoration Construction deploys IICRC-certified technicians with industrial-grade deodorization equipment to Port Orchard addresses in ZIP codes 98366 and 98367, eliminating odors at the molecular level, not masking them.
 
 ## Why Port Orchard Properties Hold Odors Longer
 
-South Kitsap's housing stock is unusually varied, and that variation matters for odor work. Along the Annapolis shoreline and near the Bay Street waterfront, you'll find mid-century and even pre-1950 construction — wood-framed homes with original plaster walls, minimal vapor barriers, and crawl spaces that have been breathing salt air for decades. Those materials are highly absorptive. Smoke particulates, sewage gases, and mold VOCs (volatile organic compounds) penetrate plaster and old-growth fir framing far more deeply than they would in modern drywall construction.
+South Kitsap's housing stock is unusually varied, and that variation matters for odor work. Along the Annapolis shoreline and near the Bay Street waterfront, you'll find mid-century and even pre-1950 construction, wood-framed homes with original plaster walls, minimal vapor barriers, and crawl spaces that have been breathing salt air for decades. Those materials are highly absorptive. Smoke particulates, sewage gases, and mold VOCs (volatile organic compounds) penetrate plaster and old-growth fir framing far more deeply than they would in modern drywall construction.
 
-Out in the rural stretches of South Kitsap, a different problem drives odor calls: septic system failures. Homes on private septic and well systems don't have city sewer as a backup, so when a drain field saturates during a heavy winter rain event — the kind that also pushes king tides up over the low-lying Bay Street commercial strip — the sewage odor that results is severe and can permeate subfloor assemblies quickly. Hydrogen sulfide and methane from a backed-up septic system require a different deodorization protocol than smoke or mold, and our technicians arrive prepared for that distinction.
+Out in the rural stretches of South Kitsap, a different problem drives odor calls: septic system failures. Homes on private septic and well systems don't have city sewer as a backup, so when a drain field saturates during a heavy winter rain event, the kind that also pushes king tides up over the low-lying Bay Street commercial strip, the sewage odor that results is severe and can permeate subfloor assemblies quickly. Hydrogen sulfide and methane from a backed-up septic system require a different deodorization protocol than smoke or mold, and our technicians arrive prepared for that distinction.
 
 Newer construction in McCormick Woods presents its own challenge: tighter building envelopes trap odors more efficiently than older, leakier homes. A single smoke event in a well-insulated McCormick Woods home can saturate HVAC ductwork and recirculate odor-laden air for weeks without professional intervention.
 
@@ -36,13 +36,13 @@ Effective odor removal is sequential, not a single treatment. We follow a struct
 
 **1. Source identification and removal.** No deodorization technology works if the odor source is still present. We locate and remove charred material, contaminated insulation, or saturated subfloor before any equipment is deployed.
 
-**2. HEPA air scrubbing.** Continuous negative air pressure removes airborne particulates — soot, mold spores, sewage aerosols — that carry odor molecules.
+**2. HEPA air scrubbing.** Continuous negative air pressure removes airborne particulates, soot, mold spores, sewage aerosols, that carry odor molecules.
 
 **3. Thermal fogging.** A solvent-based fog is heated to a vapor that penetrates the same porous surfaces smoke or odor originally entered. This is particularly effective in the plaster-wall homes near Annapolis, where surface-only treatments fail.
 
 **4. Hydroxyl generation or ozone treatment.** Hydroxyl generators are safe to run in occupied or semi-occupied structures; ozone treatment requires the space to be vacated but is faster-acting in heavily contaminated crawl spaces and attics. We select the method based on the structure and severity.
 
-**5. Encapsulant application.** On porous surfaces that can't be replaced — original fir framing, concrete block foundations — an odor-blocking encapsulant seals residual compounds.
+**5. Encapsulant application.** On porous surfaces that can't be replaced, original fir framing, concrete block foundations, an odor-blocking encapsulant seals residual compounds.
 
 **6. Post-treatment verification.** We don't close out a job on our word alone. Air quality readings before and after give you a documented baseline.
 
@@ -50,10 +50,10 @@ Effective odor removal is sequential, not a single treatment. We follow a struct
 
 National Restoration Construction is headquartered in Federal Way. Under normal traffic conditions on SR-16 through Gig Harbor and across the Tacoma Narrows Bridge, our technicians reach Port Orchard in approximately 45–65 minutes. For addresses in the Downtown Bay Street corridor or near the Port Orchard Marina, the route via SR-16 to SR-160 is typically the most direct. We've been making this run since 2004 and know the Kitsap Peninsula well enough to route around the Sedgwick Road backups that slow things during peak hours.
 
-For true emergencies — a house fire, a sewage overflow soaking into finished flooring — call (206) 883-0333 any hour. Odor compounds bond more aggressively with every hour they sit in porous materials, so faster response directly shortens the overall remediation timeline.
+For true emergencies, a house fire, a sewage overflow soaking into finished flooring, call (206) 883-0333 any hour. Odor compounds bond more aggressively with every hour they sit in porous materials, so faster response directly shortens the overall remediation timeline.
 
 ## Local Note: Crawl Spaces on the Sinclair Inlet Side
 
-Homes within a few blocks of the waterfront between Downtown Bay Street and Annapolis sit on ground that stays saturated much of the year. Crawl spaces in these properties often have standing water or chronic high humidity even when there's no active leak — and that moisture creates a secondary odor problem that outlasts any surface treatment. When we deodorize a waterfront Port Orchard home, we routinely inspect the crawl space for vapor barrier condition and standing water before finalizing the scope. Skipping that step means treating the symptom while the source keeps generating odor from below the floor. It's a detail that matters specifically here, where the water table and tidal influence are factors that simply don't apply to most of our inland service areas.
+Homes within a few blocks of the waterfront between Downtown Bay Street and Annapolis sit on ground that stays saturated much of the year. Crawl spaces in these properties often have standing water or chronic high humidity even when there's no active leak, and that moisture creates a secondary odor problem that outlasts any surface treatment. When we deodorize a waterfront Port Orchard home, we routinely inspect the crawl space for vapor barrier condition and standing water before finalizing the scope. Skipping that step means treating the symptom while the source keeps generating odor from below the floor. It's a detail that matters specifically here, where the water table and tidal influence are factors that simply don't apply to most of our inland service areas.
 
-If you're dealing with a smell that keeps coming back after a previous treatment, that crawl space is often where the answer is hiding. Reach out to National Restoration Construction at (206) 883-0333 — our Port Orchard-area team will assess the full picture, not just the room where the odor is strongest.
+If you're dealing with a smell that keeps coming back after a previous treatment, that crawl space is often where the answer is hiding. Reach out to National Restoration Construction at (206) 883-0333, our Port Orchard-area team will assess the full picture, not just the room where the odor is strongest.

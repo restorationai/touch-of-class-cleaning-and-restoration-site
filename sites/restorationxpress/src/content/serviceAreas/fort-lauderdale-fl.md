@@ -19,25 +19,25 @@ state: "FL"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a kitchen wall in Victoria Park or a storm surge pushes water under the doors of a Las Olas Isles waterfront home, RestorationXpress responds with the equipment and trained crew to stop the damage from spreading. We handle water extraction, structural drying, mold remediation, fire and smoke cleanup, and full reconstruction for homeowners and property managers throughout Fort Lauderdale — from the barrier-island condos near Fort Lauderdale Beach to the historic bungalows tucked into Colee Hammock.
+When a pipe bursts behind a kitchen wall in Victoria Park or a storm surge pushes water under the doors of a Las Olas Isles waterfront home, RestorationXpress responds with the equipment and trained crew to stop the damage from spreading. We handle water extraction, structural drying, mold remediation, fire and smoke cleanup, and full reconstruction for homeowners and property managers throughout Fort Lauderdale, from the barrier-island condos near Fort Lauderdale Beach to the historic bungalows tucked into Colee Hammock.
 
 ## Restoration emergencies common in Fort Lauderdale
 
 Fort Lauderdale sits at an average elevation of just six feet above sea level, and much of the city is built on a porous limestone shelf that keeps the water table within a few feet of finished floors. That geology, combined with an Atlantic hurricane season that runs June through November, means the city sees a pattern of water intrusion that other South Florida markets don't always share. A heavy afternoon thunderstorm can overwhelm aging catch basins in neighborhoods like Rio Vista or Coral Ridge, pushing groundwater up through slab cracks before the rain has even stopped.
 
-The housing stock adds another layer of complexity. Fort Lauderdale's ZIP codes 33301 and 33304 are dense with mid-century concrete block construction — homes that were built before modern moisture barriers and vapor retarders were code. When water gets into those walls, it wicks into the block itself, and standard drying timelines don't apply. Newer construction near Port Everglades and along the 33315 and 33316 corridors tends to involve engineered wood framing that responds differently to saturation. Knowing which materials you're working with changes the drying protocol.
+The housing stock adds another layer of complexity. Fort Lauderdale's ZIP codes 33301 and 33304 are dense with mid-century concrete block construction, homes that were built before modern moisture barriers and vapor retarders were code. When water gets into those walls, it wicks into the block itself, and standard drying timelines don't apply. Newer construction near Port Everglades and along the 33315 and 33316 corridors tends to involve engineered wood framing that responds differently to saturation. Knowing which materials you're working with changes the drying protocol.
 
-Mold is the downstream consequence that Fort Lauderdale homeowners dread most. In a climate where indoor humidity routinely climbs above 60 percent, mold can begin colonizing wet drywall within 24 to 48 hours of a water event. That window is not a scare tactic — it's the reason fast extraction and documentation matter as much as the remediation itself.
+Mold is the downstream consequence that Fort Lauderdale homeowners dread most. In a climate where indoor humidity routinely climbs above 60 percent, mold can begin colonizing wet drywall within 24 to 48 hours of a water event. That window is not a scare tactic, it's the reason fast extraction and documentation matter as much as the remediation itself.
 
 ## Services we provide in Fort Lauderdale
 
 ### Water damage restoration
 
-Water damage in Fort Lauderdale often starts subtly — a slow roof leak after a squall line passes over Hugh Taylor Birch State Park, a failed supply line behind a washing machine in a high-rise unit near Las Olas Boulevard, or a backed-up floor drain in a commercial kitchen in the 33312 corridor. We use thermal imaging and moisture meters to map the full extent of saturation before any drying equipment is placed, so nothing gets missed behind tile or inside wall cavities.
+Water damage in Fort Lauderdale often starts subtly, a slow roof leak after a squall line passes over Hugh Taylor Birch State Park, a failed supply line behind a washing machine in a high-rise unit near Las Olas Boulevard, or a backed-up floor drain in a commercial kitchen in the 33312 corridor. We use thermal imaging and moisture meters to map the full extent of saturation before any drying equipment is placed, so nothing gets missed behind tile or inside wall cavities.
 
 ### Mold remediation
 
-The combination of South Florida humidity and older building envelopes makes mold a recurring problem in Fort Lauderdale, particularly in homes that sit unoccupied during summer months. We contain affected areas, remove compromised materials, treat structural surfaces, and verify clearance — following established industry protocols throughout the process. We do not offer medical advice on health effects, but we do provide thorough documentation that insurers and HOA boards typically require before repairs can proceed.
+The combination of South Florida humidity and older building envelopes makes mold a recurring problem in Fort Lauderdale, particularly in homes that sit unoccupied during summer months. We contain affected areas, remove compromised materials, treat structural surfaces, and verify clearance, following established industry protocols throughout the process. We do not offer medical advice on health effects, but we do provide thorough documentation that insurers and HOA boards typically require before repairs can proceed.
 
 ### Fire and smoke damage restoration
 
@@ -45,7 +45,7 @@ Smoke residue behaves differently in humid coastal air than it does in drier cli
 
 ### Storm and hurricane damage
 
-Waterfront homes in Las Olas Isles and along the canals of Coral Ridge see frequent flood and storm damage during hurricane season. Storm surge, wind-driven rain through compromised windows, and roof damage that allows water to enter the attic assembly are all patterns we respond to regularly. We document losses thoroughly from the first visit — photographs, moisture readings, affected square footage — because that documentation is what drives a fair insurance settlement.
+Waterfront homes in Las Olas Isles and along the canals of Coral Ridge see frequent flood and storm damage during hurricane season. Storm surge, wind-driven rain through compromised windows, and roof damage that allows water to enter the attic assembly are all patterns we respond to regularly. We document losses thoroughly from the first visit, photographs, moisture readings, affected square footage, because that documentation is what drives a fair insurance settlement.
 
 ### Reconstruction
 

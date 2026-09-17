@@ -20,13 +20,13 @@ state: "AL"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
-When a severe storm rolls through Limestone County, Athens takes the hit from multiple angles at once — high winds peeling back roofing on the 1950s and 1960s brick ranch homes along Sanderfer Heights, hail punching through vinyl siding on newer subdivisions near Highway 72, and heavy rainfall pushing Swan Creek toward its banks fast enough to send water into crawl spaces before homeowners realize what's happening. Davis Construction Contractors has been responding to those calls since 2008, and we know the difference between a storm that passes and one that leaves a week of hidden damage behind.
+When a severe storm rolls through Limestone County, Athens takes the hit from multiple angles at once, high winds peeling back roofing on the 1950s and 1960s brick ranch homes along Sanderfer Heights, hail punching through vinyl siding on newer subdivisions near Highway 72, and heavy rainfall pushing Swan Creek toward its banks fast enough to send water into crawl spaces before homeowners realize what's happening. Davis Construction Contractors has been responding to those calls since 2008, and we know the difference between a storm that passes and one that leaves a week of hidden damage behind.
 
 ## Why Athens Properties See Elevated Storm Damage Risk
 
 Athens sits in a corridor that funnels severe weather systems moving northeast out of Mississippi and into northern Alabama with surprising regularity. The National Weather Service Birmingham office tracks this region as one of the more active tornado and severe thunderstorm zones in the state, and Limestone County has seen multiple significant tornado events in the past decade alone.
 
-The local housing stock amplifies the risk. The established neighborhoods — the brick ranches built between roughly 1950 and 1975 that dominate areas like Sanderfer Heights and the streets radiating out from the Limestone County Courthouse — were constructed under older codes that didn't require the hurricane strapping and roof-to-wall connectors standard in post-2000 construction. When a straight-line wind event hits 70 or 80 mph, those older roof assemblies can lift at the ridge before a single shingle comes loose. The damage looks minor from the street and turns catastrophic once rain gets in.
+The local housing stock amplifies the risk. The established neighborhoods, the brick ranches built between roughly 1950 and 1975 that dominate areas like Sanderfer Heights and the streets radiating out from the Limestone County Courthouse, were constructed under older codes that didn't require the hurricane strapping and roof-to-wall connectors standard in post-2000 construction. When a straight-line wind event hits 70 or 80 mph, those older roof assemblies can lift at the ridge before a single shingle comes loose. The damage looks minor from the street and turns catastrophic once rain gets in.
 
 On the other end of the spectrum, the newer construction spreading east along the Highway 72 commercial corridor and into the residential developments beyond it faces its own vulnerabilities: larger roof spans, more complex valley intersections, and landscaping that hasn't matured enough to buffer wind. Tree damage cleanup calls from that part of the city often involve root balls that were never deep enough to hold in saturated soil.
 
@@ -36,25 +36,25 @@ The first thing we do on any storm damage call in Athens is a full exterior and 
 
 From there, the work breaks into a clear sequence:
 
-- **Emergency stabilization** — tarping compromised roof sections, boarding openings, removing hanging tree limbs or structural debris that poses an immediate hazard.
-- **Water extraction and drying** — if rain or flooding entered the structure, we deploy industrial extractors and desiccant or refrigerant dehumidifiers calibrated to the square footage. We don't pull equipment until moisture readings confirm the structure is dry, not just surface-dry.
-- **Structural assessment and repair** — damaged rafters, sheathing, wall framing, and fascia are documented with photos before repair begins, which matters significantly for insurance documentation.
-- **Finish restoration** — roofing, siding, windows, interior drywall, and paint matched to the existing structure so the repair doesn't announce itself.
+- **Emergency stabilization**, tarping compromised roof sections, boarding openings, removing hanging tree limbs or structural debris that poses an immediate hazard.
+- **Water extraction and drying**, if rain or flooding entered the structure, we deploy industrial extractors and desiccant or refrigerant dehumidifiers calibrated to the square footage. We don't pull equipment until moisture readings confirm the structure is dry, not just surface-dry.
+- **Structural assessment and repair**, damaged rafters, sheathing, wall framing, and fascia are documented with photos before repair begins, which matters significantly for insurance documentation.
+- **Finish restoration**, roofing, siding, windows, interior drywall, and paint matched to the existing structure so the repair doesn't announce itself.
 
 We handle the full scope in-house. You're not managing three separate subcontractors while your living room ceiling sags.
 
 ## Response Time from Madison to Athens
 
-Our headquarters is in Madison, AL, which puts us roughly 20 to 25 minutes from most of Athens under normal conditions via US-72 West. After a major storm event, when that corridor can back up, our crews know the alternate routes through Limestone County well enough to avoid the worst of it. For addresses in the 35611 ZIP code — Downtown Athens, the areas near Athens State University, and the established residential neighborhoods to the north and west — expect prompt dispatch during business hours, with active water intrusion prioritized ahead of scheduled work. We answer live, not through an answering service.
+Our headquarters is in Madison, AL, which puts us roughly 20 to 25 minutes from most of Athens under normal conditions via US-72 West. After a major storm event, when that corridor can back up, our crews know the alternate routes through Limestone County well enough to avoid the worst of it. For addresses in the 35611 ZIP code, Downtown Athens, the areas near Athens State University, and the established residential neighborhoods to the north and west, expect prompt dispatch during business hours, with active water intrusion prioritized ahead of scheduled work. We answer live, not through an answering service.
 
 ## Insurance Coordination for Athens Storm Claims
 
 Most storm damage in Athens goes through homeowners insurance, and the documentation phase is where claims get delayed or underpaid. We photograph and catalog damage systematically before anything is moved or covered, and we provide a written scope of work formatted the way adjusters expect to receive it. We've worked with the major carriers active in northern Alabama long enough to know which line items get challenged and how to support them.
 
-If your adjuster's initial estimate doesn't match what we're seeing in the field — and on older homes in Athens this happens regularly, because depreciation schedules don't always account for the actual cost of matching materials on 1960s construction — we'll communicate that directly with the carrier on your behalf.
+If your adjuster's initial estimate doesn't match what we're seeing in the field, and on older homes in Athens this happens regularly, because depreciation schedules don't always account for the actual cost of matching materials on 1960s construction, we'll communicate that directly with the carrier on your behalf.
 
 ## Local Note: What Athens Contractors Know About Post-Storm Soil
 
-Here's something that doesn't come up until it matters: the clay-heavy soil common across much of Limestone County absorbs water slowly and releases it even more slowly. After a significant rain event, the ground around a home's foundation stays saturated for days longer than it would in sandier soils to the south. That means a crawl space that looks dry 48 hours after a storm may still be wicking moisture upward into floor joists and subfloor. We've seen mold colonization begin in Athens crawl spaces within five to seven days of a storm event that homeowners assumed had caused no structural damage. If you had standing water anywhere near or under your home, get it checked — not in a week, now.
+Here's something that doesn't come up until it matters: the clay-heavy soil common across much of Limestone County absorbs water slowly and releases it even more slowly. After a significant rain event, the ground around a home's foundation stays saturated for days longer than it would in sandier soils to the south. That means a crawl space that looks dry 48 hours after a storm may still be wicking moisture upward into floor joists and subfloor. We've seen mold colonization begin in Athens crawl spaces within five to seven days of a storm event that homeowners assumed had caused no structural damage. If you had standing water anywhere near or under your home, get it checked, not in a week, now.
 
 If your home in Athens took a hit from the last storm system through Limestone County, call Davis Construction Contractors at (256) 771-0326. We'll give you a straight assessment of what you're dealing with and a clear path to getting the property back to where it was.

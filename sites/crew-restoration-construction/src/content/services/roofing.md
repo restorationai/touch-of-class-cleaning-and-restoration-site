@@ -17,25 +17,25 @@ service_slug: "roofing"
 service_display: "Roofing Installation and Replacement"
 rendered: true
 ---
-A shingle that curls at the corner after a South Dakota hailstorm looks minor from the ground. Inside the attic, it can mean daylight through the decking, saturated insulation, and the beginning of a rot cycle that spreads faster than most homeowners expect. Roofing installation and replacement is not just about putting new materials on top of old ones — it is about diagnosing what failed, removing it completely, and building a system that handles the freeze-thaw swings and severe-weather seasons that Sioux Falls delivers every year.
+A shingle that curls at the corner after a South Dakota hailstorm looks minor from the ground. Inside the attic, it can mean daylight through the decking, saturated insulation, and the beginning of a rot cycle that spreads faster than most homeowners expect. Roofing installation and replacement is not just about putting new materials on top of old ones, it is about diagnosing what failed, removing it completely, and building a system that handles the freeze-thaw swings and severe-weather seasons that Sioux Falls delivers every year.
 
 ## What roofing installation and replacement actually involves
 
-A full roof replacement is a layered trade job, not a single-day swap. The work begins at the decking — the structural sheathing that everything else depends on. Damaged or soft sections get cut out and replaced before any new material goes down. From there, a proper installation sequences underlayment (typically a synthetic felt or self-adhering ice-and-water shield in vulnerable zones like valleys and eaves), then starter strips, field shingles, ridge cap, and all associated flashing at penetrations, chimneys, skylights, and walls.
+A full roof replacement is a layered trade job, not a single-day swap. The work begins at the decking, the structural sheathing that everything else depends on. Damaged or soft sections get cut out and replaced before any new material goes down. From there, a proper installation sequences underlayment (typically a synthetic felt or self-adhering ice-and-water shield in vulnerable zones like valleys and eaves), then starter strips, field shingles, ridge cap, and all associated flashing at penetrations, chimneys, skylights, and walls.
 
-Timeline for a standard residential roof in the 1,500–2,500 square foot range runs one to two days for the tear-off and installation, with a half-day follow-up for cleanup and final inspection. Larger homes, complex roof geometries, or decking replacement can extend that to three or four days. Material lead times vary by season — late summer and fall are peak demand periods in the region, so scheduling a few weeks ahead when possible avoids delays.
+Timeline for a standard residential roof in the 1,500–2,500 square foot range runs one to two days for the tear-off and installation, with a half-day follow-up for cleanup and final inspection. Larger homes, complex roof geometries, or decking replacement can extend that to three or four days. Material lead times vary by season, late summer and fall are peak demand periods in the region, so scheduling a few weeks ahead when possible avoids delays.
 
 ## Our process
 
-1. **Roof inspection and damage documentation** — Before any material is ordered, the roof is walked and documented: shingle condition, granule loss, flashing integrity, soffit and fascia, and attic ventilation. If the loss is storm-related, photos and measurements are formatted for insurance submission at this stage.
+1. **Roof inspection and damage documentation**, Before any material is ordered, the roof is walked and documented: shingle condition, granule loss, flashing integrity, soffit and fascia, and attic ventilation. If the loss is storm-related, photos and measurements are formatted for insurance submission at this stage.
 
-2. **Decking assessment and substrate repair** — After tear-off, every square foot of decking is checked for soft spots, delamination, and rot. Compromised sections are replaced with matching-thickness OSB or plywood before underlayment goes down. Skipping this step is the most common shortcut taken on rushed jobs — and the one that leads to callbacks.
+2. **Decking assessment and substrate repair**, After tear-off, every square foot of decking is checked for soft spots, delamination, and rot. Compromised sections are replaced with matching-thickness OSB or plywood before underlayment goes down. Skipping this step is the most common shortcut taken on rushed jobs, and the one that leads to callbacks.
 
-3. **Underlayment and ice-and-water shield installation** — In Sioux Falls, ice damming is a real seasonal risk. Ice-and-water shield is applied at the eaves (minimum 24 inches past the interior wall line), in all valleys, and around penetrations. Synthetic underlayment covers the field. This layer is the last line of defense if a shingle is ever displaced.
+3. **Underlayment and ice-and-water shield installation**, In Sioux Falls, ice damming is a real seasonal risk. Ice-and-water shield is applied at the eaves (minimum 24 inches past the interior wall line), in all valleys, and around penetrations. Synthetic underlayment covers the field. This layer is the last line of defense if a shingle is ever displaced.
 
-4. **Shingle installation and flashing integration** — Field shingles are installed per manufacturer specifications for nailing pattern and exposure — deviations void most warranties. Flashing is integrated, not just caulked over: step flashing at walls, counter-flashing at chimneys, and new pipe boots at all penetrations. Existing flashing is replaced, not reused, on a full replacement.
+4. **Shingle installation and flashing integration**, Field shingles are installed per manufacturer specifications for nailing pattern and exposure, deviations void most warranties. Flashing is integrated, not just caulked over: step flashing at walls, counter-flashing at chimneys, and new pipe boots at all penetrations. Existing flashing is replaced, not reused, on a full replacement.
 
-5. **Final inspection and site cleanup** — A magnetic roller passes the yard and driveway for nails. Gutters are cleared of debris. The finished roof is photographed for the project file, and the homeowner receives the manufacturer warranty documentation and any applicable workmanship warranty information.
+5. **Final inspection and site cleanup**, A magnetic roller passes the yard and driveway for nails. Gutters are cleared of debris. The finished roof is photographed for the project file, and the homeowner receives the manufacturer warranty documentation and any applicable workmanship warranty information.
 
 ## What separates a good roof replacement from a bad one
 
@@ -43,15 +43,15 @@ The most common failures on residential roofing jobs in this region come down to
 
 **Ventilation** is frequently undersized or left unchanged during a replacement. A roof system needs balanced intake at the soffits and exhaust at the ridge. Without it, heat and moisture build up in the attic, shortening shingle life and creating conditions for ice dams in winter. A good contractor calculates net free area before specifying ridge vent.
 
-**Flashing** is where most leaks originate — not in the field of the roof, but at transitions. Reusing old step flashing, caulking over chimney counterflashing instead of replacing it, or using the wrong flashing gauge are all practices that pass a quick visual inspection but fail within a few seasons.
+**Flashing** is where most leaks originate, not in the field of the roof, but at transitions. Reusing old step flashing, caulking over chimney counterflashing instead of replacing it, or using the wrong flashing gauge are all practices that pass a quick visual inspection but fail within a few seasons.
 
-**Decking shortcuts** — installing new shingles over visibly soft or delaminated decking — are the hardest for a homeowner to catch and the most expensive to fix later. Insurance adjusters reviewing a storm claim will sometimes flag prior installation deficiencies as a reason to reduce a payout. Documentation of proper decking repair protects both the homeowner and the claim.
+**Decking shortcuts**, installing new shingles over visibly soft or delaminated decking, are the hardest for a homeowner to catch and the most expensive to fix later. Insurance adjusters reviewing a storm claim will sometimes flag prior installation deficiencies as a reason to reduce a payout. Documentation of proper decking repair protects both the homeowner and the claim.
 
 Manufacturer warranties (typically 30-year or lifetime on architectural shingles) require installation to spec. A warranty that is voided by improper nailing or missing underlayment is not worth the paper it is printed on.
 
 ## What does roofing installation and replacement cost?
 
-Typical costs for residential roof replacement vary based on roof size, pitch, material grade, and the extent of decking or flashing work needed. Most homeowners pay somewhere in the following ranges for industry-standard architectural shingle replacements — these are typical market figures, not quotes.
+Typical costs for residential roof replacement vary based on roof size, pitch, material grade, and the extent of decking or flashing work needed. Most homeowners pay somewhere in the following ranges for industry-standard architectural shingle replacements, these are typical market figures, not quotes.
 
 | Scenario | Typical range |
 |---|---|
@@ -62,18 +62,18 @@ Typical costs for residential roof replacement vary based on roof size, pitch, m
 | Decking replacement added to full tear-off | $1,500 – $4,500 additional |
 | Premium material upgrade (metal, designer shingle) | 20–50% above standard shingle cost |
 
-Every roof loss is different, and Crew Restoration & Construction provides a written scope of work before any project begins. Homeowners insurance typically covers full roof replacement when the damage is caused by a covered peril — hail, wind, falling debris — and the policy is current; it generally does not cover replacement due to age or wear alone.
+Every roof loss is different, and Crew Restoration & Construction provides a written scope of work before any project begins. Homeowners insurance typically covers full roof replacement when the damage is caused by a covered peril, hail, wind, falling debris, and the policy is current; it generally does not cover replacement due to age or wear alone.
 
 ## Seasonal and regional considerations
 
 Sioux Falls sits in a climate zone where roofs face genuine stress from multiple directions: hailstorms concentrated in late spring through early summer, wind events that can lift improperly fastened shingles year-round, and freeze-thaw cycles through late fall and early spring that exploit any existing vulnerability at the eaves.
 
-Ice damming — where heat escaping through a poorly ventilated attic melts snow that then refreezes at the cold eave overhang — is a recurring problem in older Sioux Falls neighborhoods with inadequate attic insulation. A roof replacement is the right moment to address soffit ventilation and attic insulation simultaneously, before the next heating season.
+Ice damming, where heat escaping through a poorly ventilated attic melts snow that then refreezes at the cold eave overhang, is a recurring problem in older Sioux Falls neighborhoods with inadequate attic insulation. A roof replacement is the right moment to address soffit ventilation and attic insulation simultaneously, before the next heating season.
 
 Hail season typically peaks May through August in southeastern South Dakota. If your roof took a hit this season and has not been inspected, granule loss and bruised shingles may not be visible from the ground but will show clearly in a close inspection.
 
 ## Service area
 
-Crew Restoration & Construction serves Sioux Falls and the surrounding communities throughout southeastern South Dakota, including Brandon, Tea, Harrisburg, Dell Rapids, and Baltic. Specific service-area pages cover roofing installation and replacement in each of those communities — this page covers the process and standards that apply across all of them.
+Crew Restoration & Construction serves Sioux Falls and the surrounding communities throughout southeastern South Dakota, including Brandon, Tea, Harrisburg, Dell Rapids, and Baltic. Specific service-area pages cover roofing installation and replacement in each of those communities, this page covers the process and standards that apply across all of them.
 
 If your roof has taken storm damage or you are planning a replacement before winter, call (605) 965-2727 to schedule a roof inspection and get a written scope before any work begins.

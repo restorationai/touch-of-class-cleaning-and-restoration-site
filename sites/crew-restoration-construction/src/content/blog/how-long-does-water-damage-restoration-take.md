@@ -17,36 +17,36 @@ published_at: "2026-07-05"
 services: ["water-damage-restoration"]
 rendered: true
 ---
-Most water damage restoration projects take **3 to 5 days** from the moment a crew arrives to the moment the structure is dry enough for repairs. But that number can stretch to 2 to 4 weeks — or longer — depending on how much water got in, where it went, and how quickly the drying process started. The single biggest variable isn't the size of the leak. It's how long the water sat before anyone called.
+Most water damage restoration projects take **3 to 5 days** from the moment a crew arrives to the moment the structure is dry enough for repairs. But that number can stretch to 2 to 4 weeks, or longer, depending on how much water got in, where it went, and how quickly the drying process started. The single biggest variable isn't the size of the leak. It's how long the water sat before anyone called.
 
 ## Why "It Depends" Is Actually a Useful Answer
 
-Restoration timelines aren't vague on purpose — they genuinely hinge on a handful of factors that vary from house to house and flood to flood.
+Restoration timelines aren't vague on purpose, they genuinely hinge on a handful of factors that vary from house to house and flood to flood.
 
 **Category of water loss** matters first. The IICRC S500 standard (the industry benchmark for water damage response) classifies water into three categories:
 
-- **Category 1** — clean water from a supply line or appliance. Fastest to dry, lowest contamination risk.
-- **Category 2** — gray water from a washing machine overflow or dishwasher leak. Contains some contaminants; affected materials need more aggressive treatment.
-- **Category 3** — black water from sewage backups, flooding from outside, or water that's sat long enough to grow bacteria. Porous materials (drywall, carpet, insulation) almost always have to come out rather than be dried in place.
+- **Category 1**, clean water from a supply line or appliance. Fastest to dry, lowest contamination risk.
+- **Category 2**, gray water from a washing machine overflow or dishwasher leak. Contains some contaminants; affected materials need more aggressive treatment.
+- **Category 3**, black water from sewage backups, flooding from outside, or water that's sat long enough to grow bacteria. Porous materials (drywall, carpet, insulation) almost always have to come out rather than be dried in place.
 
 **Class of water intrusion** describes how much of the structure absorbed moisture:
 
 - Class 1 (minimal absorption, hard surfaces mostly) dries in 2 to 3 days.
 - Class 2 (water wicked into walls, subfloor) takes 3 to 5 days of active drying.
 - Class 3 (saturation through walls, ceilings, insulation) can run 5 to 7 days or more.
-- Class 4 (specialty drying — hardwood, concrete, plaster) may require 7 to 14 days of sustained low-humidity drying.
+- Class 4 (specialty drying, hardwood, concrete, plaster) may require 7 to 14 days of sustained low-humidity drying.
 
-A burst pipe in a finished basement that soaked the carpet, pad, and lower 12 inches of drywall is typically a Class 2 loss. A slow roof leak that saturated the insulation and ceiling joists for weeks before anyone noticed it? That's often a Class 3 or Class 4 situation — and the timeline reflects it.
+A burst pipe in a finished basement that soaked the carpet, pad, and lower 12 inches of drywall is typically a Class 2 loss. A slow roof leak that saturated the insulation and ceiling joists for weeks before anyone noticed it? That's often a Class 3 or Class 4 situation, and the timeline reflects it.
 
 ## The First 24 to 48 Hours: What Actually Happens
 
-This window is where the timeline is won or lost. Mold can begin colonizing wet organic material — drywall paper, wood framing, carpet backing — within 24 to 72 hours under the right conditions. In South Dakota, where summer humidity can spike and basements stay cool, that window can close faster than people expect.
+This window is where the timeline is won or lost. Mold can begin colonizing wet organic material, drywall paper, wood framing, carpet backing, within 24 to 72 hours under the right conditions. In South Dakota, where summer humidity can spike and basements stay cool, that window can close faster than people expect.
 
 Here's what a professional crew does in the first day or two:
 
-1. **Assess and document.** Moisture meters and thermal imaging cameras map where water traveled — including behind walls and under flooring where you can't see it. This documentation also feeds directly into your insurance claim.
+1. **Assess and document.** Moisture meters and thermal imaging cameras map where water traveled, including behind walls and under flooring where you can't see it. This documentation also feeds directly into your insurance claim.
 2. **Extract standing water.** Truck-mounted or portable extractors pull out hundreds of gallons in the first few hours. Every gallon removed mechanically is water that doesn't have to evaporate.
-3. **Remove unsalvageable materials.** Wet carpet and pad, saturated insulation, and drywall below the flood line often come out the same day. Leaving them in place traps moisture and extends drying time — sometimes by days.
+3. **Remove unsalvageable materials.** Wet carpet and pad, saturated insulation, and drywall below the flood line often come out the same day. Leaving them in place traps moisture and extends drying time, sometimes by days.
 4. **Set drying equipment.** Industrial air movers and dehumidifiers are placed based on the moisture map. A typical residential loss might use 6 to 12 air movers running continuously.
 5. **Monitor daily.** Technicians return each day to read moisture levels and adjust equipment placement. Drying isn't a "set it and forget it" process.
 
@@ -56,14 +56,14 @@ If you're dealing with a supply line break or appliance leak and you catch it wi
 
 A few things consistently push timelines past the average:
 
-- **Hidden moisture paths.** Water follows gravity and finds gaps in framing, vapor barriers, and subfloor seams. A leak that looks contained to one room can show up in a wall two rooms away. If a crew doesn't map moisture thoroughly on day one, they'll find it later — after mold has already started.
+- **Hidden moisture paths.** Water follows gravity and finds gaps in framing, vapor barriers, and subfloor seams. A leak that looks contained to one room can show up in a wall two rooms away. If a crew doesn't map moisture thoroughly on day one, they'll find it later, after mold has already started.
 - **Older construction.** Many Sioux Falls homes built before the 1980s have plaster walls, true-dimension lumber, and subfloor assemblies that hold moisture differently than modern OSB and drywall. Drying times for plaster can be double what drywall requires.
 - **Delayed start.** Every 24 hours of additional saturation adds roughly a day to the drying phase. A loss that would have dried in 3 days if addressed immediately might take 6 days after a weekend of sitting.
-- **Insurance approval delays.** The physical drying isn't waiting on the adjuster — crews can begin mitigation before a claim is approved. But reconstruction (replacing drywall, flooring, cabinetry) typically waits for a scope of loss to be agreed upon, which can add days or weeks to the overall project.
+- **Insurance approval delays.** The physical drying isn't waiting on the adjuster, crews can begin mitigation before a claim is approved. But reconstruction (replacing drywall, flooring, cabinetry) typically waits for a scope of loss to be agreed upon, which can add days or weeks to the overall project.
 
 ## The Reconstruction Phase: After the Structure Is Dry
 
-Drying is mitigation. Once moisture readings return to normal levels for your region — typically 7 to 12 percent moisture content in wood framing in South Dakota's climate — the structure is ready for rebuild.
+Drying is mitigation. Once moisture readings return to normal levels for your region, typically 7 to 12 percent moisture content in wood framing in South Dakota's climate, the structure is ready for rebuild.
 
 Reconstruction scope depends entirely on what came out during mitigation:
 
@@ -71,10 +71,10 @@ Reconstruction scope depends entirely on what came out during mitigation:
 - **Flooring replacement** (hardwood, LVP, tile): 2 to 5 days depending on material and subfloor condition.
 - **Full basement finish rebuild** after a significant flood: 3 to 6 weeks is realistic when you account for framing, insulation, drywall, electrical inspection, flooring, and paint.
 
-The total project timeline — mitigation plus reconstruction — for a moderate basement flood is commonly 3 to 6 weeks from first call to final walkthrough. For a more contained loss like a dishwasher leak that affected a kitchen floor and one cabinet run, you might be back to normal in 10 to 14 days.
+The total project timeline, mitigation plus reconstruction, for a moderate basement flood is commonly 3 to 6 weeks from first call to final walkthrough. For a more contained loss like a dishwasher leak that affected a kitchen floor and one cabinet run, you might be back to normal in 10 to 14 days.
 
 ## Closing: When to Stop Estimating and Start Calling
 
 Timelines are useful for planning, but they can't substitute for a moisture reading taken in your actual home. If you're looking at a stain on the ceiling, a buckled section of hardwood, or a musty smell that appeared after a rainy stretch, the clock on potential mold growth is already running.
 
-Crew Restoration & Construction handles water damage mitigation and reconstruction in Sioux Falls and the surrounding area. If you want a straight answer about what you're dealing with — not a sales pitch — call **(605) 965-2727** and describe what you're seeing. A conversation costs nothing, and knowing where you stand is worth a lot when water damage is involved.
+Crew Restoration & Construction handles water damage mitigation and reconstruction in Sioux Falls and the surrounding area. If you want a straight answer about what you're dealing with, not a sales pitch, call **(605) 965-2727** and describe what you're seeing. A conversation costs nothing, and knowing where you stand is worth a lot when water damage is involved.

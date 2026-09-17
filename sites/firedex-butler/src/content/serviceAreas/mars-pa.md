@@ -19,27 +19,27 @@ state: "PA"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a finished wall in Adams Township or Breakneck Creek backs up into a Mars Borough basement, the clock starts immediately — mold can begin colonizing wet drywall within 24 to 48 hours, and smoke odor bonds to surfaces within minutes of a fire. FireDEX Butler has been responding to those calls since 1981, handling water damage, fire and smoke cleanup, mold remediation, and reconstruction for homeowners and property managers across the 16046 ZIP code and the surrounding Butler County communities that line the Route 228 corridor.
+When a pipe bursts behind a finished wall in Adams Township or Breakneck Creek backs up into a Mars Borough basement, the clock starts immediately, mold can begin colonizing wet drywall within 24 to 48 hours, and smoke odor bonds to surfaces within minutes of a fire. FireDEX Butler has been responding to those calls since 1981, handling water damage, fire and smoke cleanup, mold remediation, and reconstruction for homeowners and property managers across the 16046 ZIP code and the surrounding Butler County communities that line the Route 228 corridor.
 
 ## Restoration emergencies common in Mars
 
-Mars sits at an interesting crossroads of old and new construction, and that mix shapes the kinds of damage calls we receive. The century-old homes clustered in Mars Borough proper — many with original cast-iron drain stacks and stone-and-mortar foundations — are particularly vulnerable during the wet springs that Butler County regularly delivers. When Breakneck Creek swells after a heavy storm cell, low-lying blocks along the creek can see water intrusion through foundation walls and floor drains before a homeowner realizes what's happening.
+Mars sits at an interesting crossroads of old and new construction, and that mix shapes the kinds of damage calls we receive. The century-old homes clustered in Mars Borough proper, many with original cast-iron drain stacks and stone-and-mortar foundations, are particularly vulnerable during the wet springs that Butler County regularly delivers. When Breakneck Creek swells after a heavy storm cell, low-lying blocks along the creek can see water intrusion through foundation walls and floor drains before a homeowner realizes what's happening.
 
-A few miles out, the picture changes. The newer tract and semi-custom homes spreading through Adams Ridge and along Three Degree Road in Adams Township represent a different failure pattern: builder-grade supply lines, washing machine hoses, and refrigerator ice-maker connections that reach the end of their service life just as finished basements are fully furnished. A slow leak behind drywall in a rec room can go undetected for weeks, creating ideal conditions for mold growth long before the stain appears on the ceiling. The Middlesex Township fringe and the Callery area share similar housing-stock characteristics — a blend of older farmhouses and newer infill — that we factor into every assessment.
+A few miles out, the picture changes. The newer tract and semi-custom homes spreading through Adams Ridge and along Three Degree Road in Adams Township represent a different failure pattern: builder-grade supply lines, washing machine hoses, and refrigerator ice-maker connections that reach the end of their service life just as finished basements are fully furnished. A slow leak behind drywall in a rec room can go undetected for weeks, creating ideal conditions for mold growth long before the stain appears on the ceiling. The Middlesex Township fringe and the Callery area share similar housing-stock characteristics, a blend of older farmhouses and newer infill, that we factor into every assessment.
 
 ## Services we provide in Mars
 
 ### Water damage restoration
 
-Water damage in Mars often involves one of two scenarios: foundation seepage in the older borough homes near Breakneck Creek, or appliance and supply-line failures in the finished lower levels of Adams Township's newer subdivisions. Either way, the response is the same — extract standing water, place commercial-grade drying equipment, monitor moisture readings daily, and dry the structure to IICRC S500 standards before any rebuild begins. Skipping steps here is how a manageable water loss becomes a mold remediation project.
+Water damage in Mars often involves one of two scenarios: foundation seepage in the older borough homes near Breakneck Creek, or appliance and supply-line failures in the finished lower levels of Adams Township's newer subdivisions. Either way, the response is the same, extract standing water, place commercial-grade drying equipment, monitor moisture readings daily, and dry the structure to IICRC S500 standards before any rebuild begins. Skipping steps here is how a manageable water loss becomes a mold remediation project.
 
 ### Fire and smoke damage restoration
 
-Fire calls in the Mars area frequently involve attached garages and the older balloon-frame construction still present in parts of Mars Borough, where smoke and soot can travel through wall cavities to rooms that never saw flames. Effective smoke remediation means going beyond what's visible — treating HVAC systems, insulation cavities, and structural framing, not just repainting surfaces.
+Fire calls in the Mars area frequently involve attached garages and the older balloon-frame construction still present in parts of Mars Borough, where smoke and soot can travel through wall cavities to rooms that never saw flames. Effective smoke remediation means going beyond what's visible, treating HVAC systems, insulation cavities, and structural framing, not just repainting surfaces.
 
 ### Mold remediation
 
-The damp springs along the Route 228 corridor make mold a recurring concern, particularly in stone-foundation basements and crawl spaces. We contain affected areas, remove compromised materials, treat surfaces, and address the moisture source — because remediation without fixing the underlying water intrusion is a temporary fix at best.
+The damp springs along the Route 228 corridor make mold a recurring concern, particularly in stone-foundation basements and crawl spaces. We contain affected areas, remove compromised materials, treat surfaces, and address the moisture source, because remediation without fixing the underlying water intrusion is a temporary fix at best.
 
 ### Reconstruction and build-back
 
@@ -47,12 +47,12 @@ Once mitigation is complete, a separate contractor handoff adds time and coordin
 
 ## Coverage and how fast we can get there
 
-FireDEX Butler's Cranberry Township headquarters sits roughly 5 to 7 miles from Mars Borough via Route 228 — a direct shot that keeps drive times short under normal traffic conditions. Adams Township neighborhoods including Adams Ridge are similarly close, and the Callery and Middlesex Township fringe areas fall within the same tight service radius. Because we operate 24/7, a call at 2 a.m. after a sump pump failure during a spring storm gets the same response as a weekday afternoon call. We'll tell you honestly when to expect a crew on-site based on current conditions — we don't publish minute guarantees we can't always keep.
+FireDEX Butler's Cranberry Township headquarters sits roughly 5 to 7 miles from Mars Borough via Route 228, a direct shot that keeps drive times short under normal traffic conditions. Adams Township neighborhoods including Adams Ridge are similarly close, and the Callery and Middlesex Township fringe areas fall within the same tight service radius. Because we operate 24/7, a call at 2 a.m. after a sump pump failure during a spring storm gets the same response as a weekday afternoon call. We'll tell you honestly when to expect a crew on-site based on current conditions, we don't publish minute guarantees we can't always keep.
 
 ## Building stock, site conditions, and permits in Mars
 
-Pre-war homes in the borough tend to carry plaster over wood lath, which holds water far longer than drywall and has to be probed rather than trusted by eye. In that vintage you also plan around knob-and-tube remnants, lead paint under later coats, and asbestos in old pipe wrap and floor tile — all of which change how demolition is scoped. The 1990s-and-later plans out toward Adams Township are poured-wall basements with copper or PEX supply, so the water usually travels along framing and under floating floors.
+Pre-war homes in the borough tend to carry plaster over wood lath, which holds water far longer than drywall and has to be probed rather than trusted by eye. In that vintage you also plan around knob-and-tube remnants, lead paint under later coats, and asbestos in old pipe wrap and floor tile, all of which change how demolition is scoped. The 1990s-and-later plans out toward Adams Township are poured-wall basements with copper or PEX supply, so the water usually travels along framing and under floating floors.
 
 Soils here are clay-heavy over shale and sandstone, so hillside lots shed water toward footings and footing depth follows western Pennsylvania frost practice. Repairs fall under the statewide Uniform Construction Code, with permits issued by the borough or township code office where the property sits.
 
-If you're dealing with a water, fire, mold, or smoke emergency anywhere in Mars, Adams Township, or the surrounding 16046 area, call FireDEX Butler at **(724) 452-7400** — we answer around the clock and can walk you through immediate steps while a crew is dispatched.
+If you're dealing with a water, fire, mold, or smoke emergency anywhere in Mars, Adams Township, or the surrounding 16046 area, call FireDEX Butler at **(724) 452-7400**, we answer around the clock and can walk you through immediate steps while a crew is dispatched.

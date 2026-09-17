@@ -21,29 +21,29 @@ service_display: "Biohazard and Trauma Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
-When something traumatic happens at a Seattle property, the hours immediately after are disorienting. You may not know who to call first, what to touch, or what the space will look like on the other side of this. National Restoration Construction has handled biohazard and trauma cleanup across the greater Seattle area since 2004, and the first thing we want you to know is that you don't have to figure this out alone. Reach us any time at **(206) 883-0333** — a real person answers around the clock.
+When something traumatic happens at a Seattle property, the hours immediately after are disorienting. You may not know who to call first, what to touch, or what the space will look like on the other side of this. National Restoration Construction has handled biohazard and trauma cleanup across the greater Seattle area since 2004, and the first thing we want you to know is that you don't have to figure this out alone. Reach us any time at **(206) 883-0333**, a real person answers around the clock.
 
 ## What Our Biohazard and Trauma Cleanup Process Looks Like
 
 When we arrive, the priority is containment and assessment before any physical work begins. A certified technician walks the affected area, identifies the scope of contamination, and establishes a controlled work zone so that unaffected parts of the property stay that way. We document everything photographically for your insurance file as we go.
 
-From there, the work moves in a deliberate sequence: removal of contaminated materials, treatment of all affected surfaces with hospital-grade disinfectants and EPA-registered biocides, HEPA-filtered air scrubbing to address airborne particulates, and a final clearance check before we consider the space restored. Every technician on our crew is IICRC certified and trained under OSHA bloodborne pathogen standards. We work in full personal protective equipment and transport all biohazardous waste in sealed, labeled containers to a licensed disposal facility — in compliance with Washington State Department of Ecology requirements.
+From there, the work moves in a deliberate sequence: removal of contaminated materials, treatment of all affected surfaces with hospital-grade disinfectants and EPA-registered biocides, HEPA-filtered air scrubbing to address airborne particulates, and a final clearance check before we consider the space restored. Every technician on our crew is IICRC certified and trained under OSHA bloodborne pathogen standards. We work in full personal protective equipment and transport all biohazardous waste in sealed, labeled containers to a licensed disposal facility, in compliance with Washington State Department of Ecology requirements.
 
 The goal at the end of every job is a space that is safe, odor-free, and visually restored. We don't consider the work finished until it meets that standard.
 
 ## Response Times Across Seattle
 
-Our headquarters is in Federal Way, roughly 25 miles south of downtown Seattle via I-5. Under normal traffic conditions, that puts us on-site in most Seattle neighborhoods within **60 to 90 minutes** of your call. For properties in South Seattle — Rainier Valley, Georgetown, Beacon Hill, Columbia City — response can be faster, sometimes under 45 minutes.
+Our headquarters is in Federal Way, roughly 25 miles south of downtown Seattle via I-5. Under normal traffic conditions, that puts us on-site in most Seattle neighborhoods within **60 to 90 minutes** of your call. For properties in South Seattle, Rainier Valley, Georgetown, Beacon Hill, Columbia City, response can be faster, sometimes under 45 minutes.
 
-For neighborhoods farther north — Ballard, Fremont, Green Lake, Crown Hill — plan for the upper end of that window during peak commute hours on I-5 or SR-99. If you're in a dense corridor and traffic is a factor, let us know when you call; we can sometimes route a technician already working in the city.
+For neighborhoods farther north, Ballard, Fremont, Green Lake, Crown Hill, plan for the upper end of that window during peak commute hours on I-5 or SR-99. If you're in a dense corridor and traffic is a factor, let us know when you call; we can sometimes route a technician already working in the city.
 
 We don't stage crews in a call center and dispatch them hours later. When you reach us, we're moving.
 
 ## Seattle Properties and Biohazard Situations: What We See Here
 
-Seattle's housing stock is a mix of older craftsman homes, mid-century apartment buildings, and newer construction — and each presents its own challenges in a biohazard situation. Older homes, particularly those built before the 1980s in neighborhoods like Capitol Hill, First Hill, and the Central District, often have porous subfloor materials, plaster walls, and limited ventilation that can complicate thorough remediation if work isn't done correctly the first time.
+Seattle's housing stock is a mix of older craftsman homes, mid-century apartment buildings, and newer construction, and each presents its own challenges in a biohazard situation. Older homes, particularly those built before the 1980s in neighborhoods like Capitol Hill, First Hill, and the Central District, often have porous subfloor materials, plaster walls, and limited ventilation that can complicate thorough remediation if work isn't done correctly the first time.
 
-Seattle's climate — cool, damp, and prone to extended overcast stretches — also means that any moisture introduced during a trauma scene cleanup can become a secondary problem quickly. We account for ambient humidity in our drying and decontamination protocols, and we have the monitoring equipment to verify that residual moisture isn't being left behind in wall cavities or beneath flooring.
+Seattle's climate, cool, damp, and prone to extended overcast stretches, also means that any moisture introduced during a trauma scene cleanup can become a secondary problem quickly. We account for ambient humidity in our drying and decontamination protocols, and we have the monitoring equipment to verify that residual moisture isn't being left behind in wall cavities or beneath flooring.
 
 Unattended death cleanup situations are among the most time-sensitive we handle. The longer a scene sits, the deeper contamination can migrate into structural materials. If you're managing a property where an unattended death has occurred, contacting us sooner rather than later limits the scope of what needs to be remediated.
 
@@ -57,4 +57,4 @@ If you're uncertain whether your policy covers this type of event, call us anywa
 
 ---
 
-If you're in the middle of this right now, the most useful thing you can do is secure the space, keep others out of the affected area, and reach us at **(206) 883-0333**. We'll take it from there — discreetly, thoroughly, and with the documentation your insurance company will need.
+If you're in the middle of this right now, the most useful thing you can do is secure the space, keep others out of the affected area, and reach us at **(206) 883-0333**. We'll take it from there, discreetly, thoroughly, and with the documentation your insurance company will need.

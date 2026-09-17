@@ -19,25 +19,25 @@ rendered: true
 ---
 ## What hard water is actually doing to your home
 
-If your showerheads are clogging with white crust every few months, your soap barely lathers, and your water heater is running longer than it used to, Bakersfield's notoriously hard water is likely the culprit. The San Joaquin Valley draws from groundwater sources that carry high concentrations of calcium and magnesium — minerals that scale up pipes, shorten appliance life, and leave that chalky film on every glass you pull from the dishwasher. A properly sized water softener or whole-house filtration system stops that damage at the point of entry, before the water ever reaches your fixtures.
+If your showerheads are clogging with white crust every few months, your soap barely lathers, and your water heater is running longer than it used to, Bakersfield's notoriously hard water is likely the culprit. The San Joaquin Valley draws from groundwater sources that carry high concentrations of calcium and magnesium, minerals that scale up pipes, shorten appliance life, and leave that chalky film on every glass you pull from the dishwasher. A properly sized water softener or whole-house filtration system stops that damage at the point of entry, before the water ever reaches your fixtures.
 
 ## What water softeners and filtration systems actually involve
 
 These aren't plug-and-play appliances. A whole-house water softener ties into your main supply line before it branches to water heaters, fixtures, and appliances. The system uses an ion-exchange resin tank to swap calcium and magnesium ions for sodium ions, producing water that won't deposit scale. A separate brine tank holds the salt that periodically regenerates the resin. Sizing matters: a unit rated for 32,000 grains of hardness capacity might be right for a two-person household but will exhaust quickly in a family of five with a large water heater.
 
-Whole-house filtration goes further. Depending on your water report, you might need sediment pre-filters, activated carbon stages to pull chloramines and taste compounds, or an iron filter if your water has a metallic tinge. Reverse osmosis (RO) systems add a semi-permeable membrane stage — typically installed under the kitchen sink — that reduces dissolved solids, nitrates, and other contaminants that a softener alone won't touch. A water conditioner install (salt-free template-assisted crystallization) is an alternative for homeowners who want scale control without adding sodium to the water supply.
+Whole-house filtration goes further. Depending on your water report, you might need sediment pre-filters, activated carbon stages to pull chloramines and taste compounds, or an iron filter if your water has a metallic tinge. Reverse osmosis (RO) systems add a semi-permeable membrane stage, typically installed under the kitchen sink, that reduces dissolved solids, nitrates, and other contaminants that a softener alone won't touch. A water conditioner install (salt-free template-assisted crystallization) is an alternative for homeowners who want scale control without adding sodium to the water supply.
 
 Installation typically runs two to four hours for a standalone softener on an accessible supply line. A combined softener-plus-RO setup takes longer, especially if a dedicated drain line or additional shutoff valves need to be added.
 
 ## Our process
 
-1. **Water quality assessment and system sizing.** Before recommending any equipment, we review your water hardness level — Bakersfield municipal water regularly tests above 20 grains per gallon — and ask about your household size, daily usage patterns, and any specific concerns like iron, chlorine taste, or sediment. This shapes every equipment decision that follows.
+1. **Water quality assessment and system sizing.** Before recommending any equipment, we review your water hardness level, Bakersfield municipal water regularly tests above 20 grains per gallon, and ask about your household size, daily usage patterns, and any specific concerns like iron, chlorine taste, or sediment. This shapes every equipment decision that follows.
 
 2. **System selection and pre-install planning.** We walk you through the options: salt-based ion exchange vs. salt-free conditioner, single-tank vs. twin-tank softeners for continuous soft water, point-of-entry vs. point-of-use filtration. We confirm where the bypass valve and drain connection will land, and whether your existing plumbing configuration needs any modifications before the unit goes in.
 
 3. **Installation and connection.** We shut off the main supply, cut into the line at the planned entry point, install the bypass valve assembly, connect the resin and brine tanks, and route the drain line to a utility drain or standpipe. For RO systems, we tap the cold supply under the sink, install the membrane housing and storage tank, and run a dedicated faucet line. Every connection is pressure-tested before water is restored.
 
-4. **System programming and first regeneration cycle.** The control head is programmed to your household's actual hardness number and daily flow rate — not a factory default. We initiate a manual regeneration cycle on-site so you can see the process and confirm the brine draw and rinse cycles complete correctly.
+4. **System programming and first regeneration cycle.** The control head is programmed to your household's actual hardness number and daily flow rate, not a factory default. We initiate a manual regeneration cycle on-site so you can see the process and confirm the brine draw and rinse cycles complete correctly.
 
 5. **Post-install walkthrough and maintenance schedule.** We show you how to check salt levels, what the regeneration cycle sounds like at 2 a.m. (so it doesn't alarm you), when to swap sediment pre-filters, and how long the RO membrane is rated for under your usage conditions. You leave the conversation knowing exactly what the system needs to keep performing.
 
@@ -45,15 +45,15 @@ Installation typically runs two to four hours for a standalone softener on an ac
 
 The most common mistake is undersizing. A softener that's too small for the household's hardness load will regenerate constantly, burning through salt and water, and still deliver partially hard water between cycles. Oversizing causes its own problem: long gaps between regeneration allow bacteria to establish in a stagnant resin bed.
 
-Bypass valve placement is the second failure point. A softener installed without an accessible bypass makes future service — or emergency shutoff — far more complicated than it needs to be. Every installation should include a three-valve bypass or a dedicated service loop.
+Bypass valve placement is the second failure point. A softener installed without an accessible bypass makes future service, or emergency shutoff, far more complicated than it needs to be. Every installation should include a three-valve bypass or a dedicated service loop.
 
-For RO systems, skipping the pre-filter stage is a frequent shortcut. Bakersfield's municipal supply contains chloramines (not just chlorine), and chloramines degrade thin-film composite membranes faster than chlorine does. A carbon block pre-filter upstream of the membrane is not optional — it's what determines whether your membrane lasts two years or five.
+For RO systems, skipping the pre-filter stage is a frequent shortcut. Bakersfield's municipal supply contains chloramines (not just chlorine), and chloramines degrade thin-film composite membranes faster than chlorine does. A carbon block pre-filter upstream of the membrane is not optional, it's what determines whether your membrane lasts two years or five.
 
 Finally, drain line air gaps matter. Without a proper air gap or check valve on the RO drain connection, backflow from a clogged drain can contaminate the system. It's a small detail that gets skipped on rushed installs.
 
 ## Seasonal and regional considerations
 
-Bakersfield's hard water problem doesn't vary much by season, but summer does create one relevant pressure point: households running irrigation systems, filling pools, or running swamp coolers draw significantly more water, which accelerates softener regeneration cycles and depletes salt faster than winter baselines suggest. If you're sizing a system in spring, factor in peak summer demand — not just your average winter usage. Homes on well water in the surrounding Kern County areas may also deal with elevated iron or manganese levels that require pre-treatment before a standard softener resin will perform correctly.
+Bakersfield's hard water problem doesn't vary much by season, but summer does create one relevant pressure point: households running irrigation systems, filling pools, or running swamp coolers draw significantly more water, which accelerates softener regeneration cycles and depletes salt faster than winter baselines suggest. If you're sizing a system in spring, factor in peak summer demand, not just your average winter usage. Homes on well water in the surrounding Kern County areas may also deal with elevated iron or manganese levels that require pre-treatment before a standard softener resin will perform correctly.
 
 ## Service area
 

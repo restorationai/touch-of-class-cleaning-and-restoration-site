@@ -19,36 +19,36 @@ rendered: true
 ---
 ## When the pipe doesn't wait for morning
 
-It's 11 p.m. and water is sheeting across your kitchen floor from a supply line that let go under the sink. Or it's a Sunday and your main sewer line has backed up into the shower — again. These aren't situations where you schedule something for next week. All Pro Plumbing Heating and Air runs 24/7 emergency dispatch in Bakersfield and the surrounding valley because plumbing failures don't follow business hours, and the longer water runs unchecked, the more damage compounds behind walls, under slabs, and inside cabinets.
+It's 11 p.m. and water is sheeting across your kitchen floor from a supply line that let go under the sink. Or it's a Sunday and your main sewer line has backed up into the shower, again. These aren't situations where you schedule something for next week. All Pro Plumbing Heating and Air runs 24/7 emergency dispatch in Bakersfield and the surrounding valley because plumbing failures don't follow business hours, and the longer water runs unchecked, the more damage compounds behind walls, under slabs, and inside cabinets.
 
 ## What emergency plumbing actually involves
 
-Emergency plumbing isn't just faster scheduling — it's a different mode of work entirely. A technician arriving at midnight to a burst supply line needs to locate the shutoff quickly, assess whether the break is at a fixture angle stop, a main shutoff, or somewhere inside the wall, and stop the water before anything else. That first five minutes determines how much drywall, flooring, and cabinetry ends up in a dumpster.
+Emergency plumbing isn't just faster scheduling, it's a different mode of work entirely. A technician arriving at midnight to a burst supply line needs to locate the shutoff quickly, assess whether the break is at a fixture angle stop, a main shutoff, or somewhere inside the wall, and stop the water before anything else. That first five minutes determines how much drywall, flooring, and cabinetry ends up in a dumpster.
 
 Common emergency calls include:
 
-- **Burst or split pipes** — copper and CPVC in older Bakersfield homes can fail from pressure spikes, corrosion, or physical damage; PEX can pull from a crimp fitting under stress
-- **Sewer backups** — a main line blockage from roots, grease buildup, or a collapsed section backs sewage up through the lowest fixture in the house
-- **Water heater failures** — a failed T&P relief valve or a corroded tank bottom can release 40–80 gallons fast
-- **Slab leaks** — pressurized water escaping under a concrete slab produces a warm spot on the floor, a running meter with everything off, or a hiss you can hear at night
-- **Gas line issues** — if you smell gas, leave the building immediately, don't flip any switches, and call 911 or SoCalGas emergency line (1-800-427-2200) from outside. Only after the utility clears the scene is it time to call a plumber for leak repair and pressure testing
-- **Fixture failures and overflows** — a toilet that won't stop running or a supply valve that won't close
+- **Burst or split pipes**, copper and CPVC in older Bakersfield homes can fail from pressure spikes, corrosion, or physical damage; PEX can pull from a crimp fitting under stress
+- **Sewer backups**, a main line blockage from roots, grease buildup, or a collapsed section backs sewage up through the lowest fixture in the house
+- **Water heater failures**, a failed T&P relief valve or a corroded tank bottom can release 40–80 gallons fast
+- **Slab leaks**, pressurized water escaping under a concrete slab produces a warm spot on the floor, a running meter with everything off, or a hiss you can hear at night
+- **Gas line issues**, if you smell gas, leave the building immediately, don't flip any switches, and call 911 or SoCalGas emergency line (1-800-427-2200) from outside. Only after the utility clears the scene is it time to call a plumber for leak repair and pressure testing
+- **Fixture failures and overflows**, a toilet that won't stop running or a supply valve that won't close
 
 On most emergency calls a technician arrives with a full service truck: pipe cutters, press tools, push-fit fittings, a drain machine, a camera, and the materials to complete a same-day plumbing repair on the most common failures.
 
 ## Our process
 
 **1. Dispatch and pre-arrival triage**
-When you call (661) 863-9242, the dispatcher walks you through finding the nearest shutoff — house main, meter valve, or angle stop — so water stops moving before the truck arrives. Stopping flow is always step one.
+When you call (661) 863-9242, the dispatcher walks you through finding the nearest shutoff, house main, meter valve, or angle stop, so water stops moving before the truck arrives. Stopping flow is always step one.
 
 **2. Arrival and rapid diagnosis**
 The technician confirms the shutoff is holding, then traces the failure: visual inspection, pressure check if needed, and a drain camera or leak-detection equipment for anything not immediately visible. For a slab leak, electronic listening equipment or thermal imaging pinpoints the break before any concrete is touched.
 
 **3. Clear scope and upfront quote**
-Once the problem is located, you get a written price before any repair work starts. The number on the invoice matches the number you approved — no after-the-fact additions.
+Once the problem is located, you get a written price before any repair work starts. The number on the invoice matches the number you approved, no after-the-fact additions.
 
 **4. Repair and pressure or flow test**
-The repair is made — whether that's a section re-pipe, a push-fit coupling on a burst line, a main drain clearing with a cable machine, or a water heater swap — then tested under normal operating pressure or flow to confirm the fix holds.
+The repair is made, whether that's a section re-pipe, a push-fit coupling on a burst line, a main drain clearing with a cable machine, or a water heater swap, then tested under normal operating pressure or flow to confirm the fix holds.
 
 **5. Documentation handoff**
 For any call that involves water escape, the technician notes affected areas, approximate water contact time, and materials involved. That documentation matters if you file a homeowner's insurance claim for resulting water damage. If water spread beyond the pipe itself, contact your insurer promptly and consider reaching out to a qualified restoration professional to assess drying needs.
@@ -63,10 +63,10 @@ For slab leaks specifically, jackhammering to the wrong spot because the leak wa
 
 ## Seasonal and regional considerations
 
-Bakersfield sits in the southern San Joaquin Valley, where summer temperatures regularly exceed 105°F and winters occasionally dip below freezing in the outlying areas toward Tehachapi and the foothills. Exposed supply lines in uninsulated garages or crawl spaces can freeze during those cold snaps — rare but real. More common is the opposite: thermal expansion in copper lines during extreme heat cycling, which stresses older solder joints and angle-stop valves that haven't moved in years. The valley's hard water also accelerates scale buildup inside water heaters and on valve seats, which is why T&P valve failures and water heater tank corrosion are disproportionately common here compared to softer-water markets.
+Bakersfield sits in the southern San Joaquin Valley, where summer temperatures regularly exceed 105°F and winters occasionally dip below freezing in the outlying areas toward Tehachapi and the foothills. Exposed supply lines in uninsulated garages or crawl spaces can freeze during those cold snaps, rare but real. More common is the opposite: thermal expansion in copper lines during extreme heat cycling, which stresses older solder joints and angle-stop valves that haven't moved in years. The valley's hard water also accelerates scale buildup inside water heaters and on valve seats, which is why T&P valve failures and water heater tank corrosion are disproportionately common here compared to softer-water markets.
 
 ## Service area
 
-All Pro Plumbing Heating and Air handles emergency plumbing calls throughout Bakersfield and the surrounding communities — including Oildale, Rosedale, Lamont, Shafter, Wasco, Delano, Tehachapi, and Ridgecrest. The city-specific pages for each area link back here for full service details.
+All Pro Plumbing Heating and Air handles emergency plumbing calls throughout Bakersfield and the surrounding communities, including Oildale, Rosedale, Lamont, Shafter, Wasco, Delano, Tehachapi, and Ridgecrest. The city-specific pages for each area link back here for full service details.
 
-Water running where it shouldn't, drains backing up, or a pipe that gave out at the worst possible time — call **(661) 863-9242** now and get a technician moving toward your address.
+Water running where it shouldn't, drains backing up, or a pipe that gave out at the worst possible time, call **(661) 863-9242** now and get a technician moving toward your address.

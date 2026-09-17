@@ -19,13 +19,13 @@ state: "NJ"
 primary: false
 rendered: true
 ---
-When a pipe bursts in a finished basement off Oak Tree Road or a sprinkler head discharges overnight in a Route 1 warehouse, The Restoration Group dispatches from Kenilworth around the clock — extracting water, drying structural cavities, remediating mold, and managing fire and smoke losses from first call through final rebuild. We handle residential and commercial properties across Edison's ZIP codes, and we bill insurance carriers directly so property owners can focus on getting back to normal rather than navigating paperwork.
+When a pipe bursts in a finished basement off Oak Tree Road or a sprinkler head discharges overnight in a Route 1 warehouse, The Restoration Group dispatches from Kenilworth around the clock, extracting water, drying structural cavities, remediating mold, and managing fire and smoke losses from first call through final rebuild. We handle residential and commercial properties across Edison's ZIP codes, and we bill insurance carriers directly so property owners can focus on getting back to normal rather than navigating paperwork.
 
 ## Restoration emergencies common in Edison
 
-Edison's size and diversity create an unusually wide range of loss scenarios. The township's postwar housing stock — capes, split-levels, and colonials built through the 1950s–1970s — carries original galvanized supply lines and cast-iron drain stacks that are well past their design life. When those systems fail, they typically fail into finished basements, turning a plumbing repair into a full structural drying project. Slab-on-grade and crawl-space construction in neighborhoods like Clara Barton and Nixon adds complexity: moisture migrates differently there than in a standard full basement, and drying protocols have to account for it.
+Edison's size and diversity create an unusually wide range of loss scenarios. The township's postwar housing stock, capes, split-levels, and colonials built through the 1950s–1970s, carries original galvanized supply lines and cast-iron drain stacks that are well past their design life. When those systems fail, they typically fail into finished basements, turning a plumbing repair into a full structural drying project. Slab-on-grade and crawl-space construction in neighborhoods like Clara Barton and Nixon adds complexity: moisture migrates differently there than in a standard full basement, and drying protocols have to account for it.
 
-The southern edge of the township runs along the Raritan River, and low-lying areas near Mill Brook tributaries learned that lesson hard during Hurricane Ida in 2021, when ground-floor flooding reached properties that had never flooded before. That storm also exposed how quickly water intrudes into the dense multifamily complexes scattered through North Edison and Stelton — one unit's loss becomes a building-wide moisture event within hours.
+The southern edge of the township runs along the Raritan River, and low-lying areas near Mill Brook tributaries learned that lesson hard during Hurricane Ida in 2021, when ground-floor flooding reached properties that had never flooded before. That storm also exposed how quickly water intrudes into the dense multifamily complexes scattered through North Edison and Stelton, one unit's loss becomes a building-wide moisture event within hours.
 
 The Route 1 and Route 27 commercial corridors generate a different category of loss entirely. Big-box retail, restaurants, medical offices, and logistics facilities along those corridors see sprinkler-discharge events, roof-leak losses after nor'easters, and overnight pipe failures that can saturate tens of thousands of square feet before anyone arrives in the morning. Menlo Park Mall and the industrial footprint nearby represent the kind of large-loss commercial exposure that requires a contractor with the crew size and equipment inventory to mobilize fast.
 
@@ -33,7 +33,7 @@ The Route 1 and Route 27 commercial corridors generate a different category of l
 
 ### Water damage restoration
 
-Water damage in Edison most often starts with a failed supply line, a backed-up cast-iron drain, or storm-driven intrusion in a low-lying area near the Raritan. We extract standing water, place drying equipment calibrated to the specific material assembly — concrete slab, wood subfloor, drywall cavity — and document moisture readings daily until the structure reaches dry standard. For the multifamily buildings common in Stelton and North Edison, we coordinate with property managers to stage drying across multiple units without displacing more residents than necessary.
+Water damage in Edison most often starts with a failed supply line, a backed-up cast-iron drain, or storm-driven intrusion in a low-lying area near the Raritan. We extract standing water, place drying equipment calibrated to the specific material assembly, concrete slab, wood subfloor, drywall cavity, and document moisture readings daily until the structure reaches dry standard. For the multifamily buildings common in Stelton and North Edison, we coordinate with property managers to stage drying across multiple units without displacing more residents than necessary.
 
 ### Mold remediation
 
@@ -41,7 +41,7 @@ Edison's humid summers and the frequency of slow, undetected leaks behind finish
 
 ### Fire and smoke damage restoration
 
-Smoke residue behaves differently depending on what burned — kitchen grease fires leave a wet, pungent film that embeds in porous surfaces; electrical fires in older wiring produce a dry, acidic soot that travels through HVAC systems into rooms far from the origin. We assess both the char damage and the secondary smoke migration, clean or remove affected materials, and deodorize before any reconstruction begins.
+Smoke residue behaves differently depending on what burned, kitchen grease fires leave a wet, pungent film that embeds in porous surfaces; electrical fires in older wiring produce a dry, acidic soot that travels through HVAC systems into rooms far from the origin. We assess both the char damage and the secondary smoke migration, clean or remove affected materials, and deodorize before any reconstruction begins.
 
 ### Commercial restoration
 
@@ -49,14 +49,14 @@ For property managers and business owners along the Route 1 retail corridor or n
 
 ## Coverage and how fast we can get there
 
-The Restoration Group's Kenilworth headquarters sits roughly 15 miles from central Edison via the Garden State Parkway to Route 1 or through Woodbridge on Route 9. Neighborhoods in the 08820 and 08837 ZIP codes — including Menlo Park and the areas near Roosevelt Park — are typically among the first we can reach. Clara Barton, Oak Tree, and Nixon in the 08817 and 08818 corridors add a few minutes depending on traffic on Route 27. Because we operate 24/7, a call at 2 a.m. after a basement flood gets the same dispatch response as a call at noon.
+The Restoration Group's Kenilworth headquarters sits roughly 15 miles from central Edison via the Garden State Parkway to Route 1 or through Woodbridge on Route 9. Neighborhoods in the 08820 and 08837 ZIP codes, including Menlo Park and the areas near Roosevelt Park, are typically among the first we can reach. Clara Barton, Oak Tree, and Nixon in the 08817 and 08818 corridors add a few minutes depending on traffic on Route 27. Because we operate 24/7, a call at 2 a.m. after a basement flood gets the same dispatch response as a call at noon.
 
 ## Building stock, site conditions, and permits in Edison
 
-Homes built before 1978 in Edison generally carry lead paint, and pre-1980 construction often hides asbestos in floor tile, mastic, and the wrap on old heating pipes. That matters before demolition, not after — cutting out wet flooring or a boiler-room ceiling without testing turns a drying job into an abatement job. Older sections near Stelton and Clara Barton can still have plaster and lath, which holds water far longer than drywall and usually needs cavity drying rather than tear-out.
+Homes built before 1978 in Edison generally carry lead paint, and pre-1980 construction often hides asbestos in floor tile, mastic, and the wrap on old heating pipes. That matters before demolition, not after, cutting out wet flooring or a boiler-room ceiling without testing turns a drying job into an abatement job. Older sections near Stelton and Clara Barton can still have plaster and lath, which holds water far longer than drywall and usually needs cavity drying rather than tear-out.
 
 Soils here are Coastal Plain sands and clays with a seasonally high water table close to the Raritan, so foundation drains and sump systems carry real load through spring.
 
 Repairs go through Edison Township's construction office under the New Jersey Uniform Construction Code, with separate building, electrical, plumbing, and fire subcode approvals on most rebuilds.
 
-If you're dealing with a water, fire, mold, or storm loss anywhere in Edison — from the Raritan floodplain to the Route 1 commercial strip — call The Restoration Group at **(855) 650-7422**. We're available around the clock, we work directly with your insurance carrier, and we've been doing this work in Central Jersey since 2021.
+If you're dealing with a water, fire, mold, or storm loss anywhere in Edison, from the Raritan floodplain to the Route 1 commercial strip, call The Restoration Group at **(855) 650-7422**. We're available around the clock, we work directly with your insurance carrier, and we've been doing this work in Central Jersey since 2021.

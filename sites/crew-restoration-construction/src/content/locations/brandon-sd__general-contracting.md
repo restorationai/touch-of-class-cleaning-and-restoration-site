@@ -20,33 +20,33 @@ state: "SD"
 service_display: "Renovations, Remodels and General Contracting"
 rendered: true
 ---
-Brandon has been one of the fastest-growing corners of the Sioux Falls metro for the better part of a decade, and that growth shows up clearly in the housing stock: subdivisions like Aspen Heights filled in quickly, often with builder-grade finishes that homeowners are now ready to upgrade. Whether you bought a newer home in 57005 that never quite matched your vision, or you're dealing with a kitchen that needs a full gut after a water loss, Crew Restoration & Construction handles renovations, remodels, and general contracting work sized for real Brandon homes — not cookie-cutter scopes pulled from a franchise playbook.
+Brandon has been one of the fastest-growing corners of the Sioux Falls metro for the better part of a decade, and that growth shows up clearly in the housing stock: subdivisions like Aspen Heights filled in quickly, often with builder-grade finishes that homeowners are now ready to upgrade. Whether you bought a newer home in 57005 that never quite matched your vision, or you're dealing with a kitchen that needs a full gut after a water loss, Crew Restoration & Construction handles renovations, remodels, and general contracting work sized for real Brandon homes, not cookie-cutter scopes pulled from a franchise playbook.
 
 ## Why Brandon's Building Stock Shapes Every Remodel
 
-Because Brandon grew so rapidly through the 2000s and 2010s, a large share of its homes were built to meet minimum code at the time of construction rather than for longevity or flexibility. That matters when you open a wall. Insulation values in many of these homes fall short of what South Dakota's climate demands — winters along the Split Rock Creek corridor can push sustained temperatures well below zero, and inadequate cavity insulation shows up as frost on interior walls and high heating bills. A remodel is often the right moment to address that, adding continuous insulation or upgrading to spray foam before the drywall goes back up.
+Because Brandon grew so rapidly through the 2000s and 2010s, a large share of its homes were built to meet minimum code at the time of construction rather than for longevity or flexibility. That matters when you open a wall. Insulation values in many of these homes fall short of what South Dakota's climate demands, winters along the Split Rock Creek corridor can push sustained temperatures well below zero, and inadequate cavity insulation shows up as frost on interior walls and high heating bills. A remodel is often the right moment to address that, adding continuous insulation or upgrading to spray foam before the drywall goes back up.
 
 Foundation movement is another factor worth planning around. Brandon sits on expansive clay soils that shift with freeze-thaw cycles, and some of the newer subdivisions near the Brandon Golf Course area have seen minor settling that affects door frames, tile grout lines, and finish carpentry. A general contractor who hasn't worked in this specific pocket of the metro may miss those signs during a pre-construction walkthrough. We look for them before we price the job.
 
 ## Our Renovation and Remodeling Process in Brandon
 
-Every project starts with a scoped walkthrough — not a sales visit. We want to understand the existing structure, identify any deferred maintenance that could affect the finished work, and confirm permit requirements with Lincoln County or the City of Brandon before a single subcontractor is scheduled. Brandon has grown fast enough that its permitting office handles a significant volume of residential work; we submit complete documentation the first time to avoid back-and-forth delays.
+Every project starts with a scoped walkthrough, not a sales visit. We want to understand the existing structure, identify any deferred maintenance that could affect the finished work, and confirm permit requirements with Lincoln County or the City of Brandon before a single subcontractor is scheduled. Brandon has grown fast enough that its permitting office handles a significant volume of residential work; we submit complete documentation the first time to avoid back-and-forth delays.
 
 From there, the process moves in a clear sequence:
 
-- **Demo and structural assessment** — we expose what's behind finishes before finalizing material orders, because surprises in the wall cavity are cheaper to handle before cabinets are on order.
-- **Rough-in trades** — plumbing, electrical, and HVAC are coordinated in sequence, not stacked on top of each other. Inspections are scheduled as each phase closes.
-- **Insulation and air sealing** — especially relevant in Brandon's climate, where a remodel without updated air sealing leaves money on the table every winter.
-- **Finish work** — tile, cabinetry, trim, paint, and fixtures installed to a standard that holds up, not just one that photographs well.
+- **Demo and structural assessment**, we expose what's behind finishes before finalizing material orders, because surprises in the wall cavity are cheaper to handle before cabinets are on order.
+- **Rough-in trades**, plumbing, electrical, and HVAC are coordinated in sequence, not stacked on top of each other. Inspections are scheduled as each phase closes.
+- **Insulation and air sealing**, especially relevant in Brandon's climate, where a remodel without updated air sealing leaves money on the table every winter.
+- **Finish work**, tile, cabinetry, trim, paint, and fixtures installed to a standard that holds up, not just one that photographs well.
 
-For post-damage rebuilds — homes where a water loss, fire, or storm event triggered the renovation — we coordinate directly with your insurance adjuster and work from the approved scope so there are no billing surprises at project close.
+For post-damage rebuilds, homes where a water loss, fire, or storm event triggered the renovation, we coordinate directly with your insurance adjuster and work from the approved scope so there are no billing surprises at project close.
 
 ## Reaching Brandon from Sioux Falls
 
-Our crew operates out of Sioux Falls, and Brandon is a straightforward run east on I-90 or along Highway 11. Most Brandon addresses — including the Split Rock area and neighborhoods closer to Aspen Park — are well within our regular service range. For scheduled renovation work, we confirm start times and crew arrival windows in advance so you're not waiting around. We don't make promises about after-hours emergency arrival times we can't back up, but for planned remodel projects, scheduling is simple and we keep it.
+Our crew operates out of Sioux Falls, and Brandon is a straightforward run east on I-90 or along Highway 11. Most Brandon addresses, including the Split Rock area and neighborhoods closer to Aspen Park, are well within our regular service range. For scheduled renovation work, we confirm start times and crew arrival windows in advance so you're not waiting around. We don't make promises about after-hours emergency arrival times we can't back up, but for planned remodel projects, scheduling is simple and we keep it.
 
 ## Local Note
 
-One thing that catches out-of-area contractors in Brandon's newer subdivisions: the builder-grade LVP flooring installed in many homes built between 2015 and 2022 is glued directly to concrete slab rather than floated. When homeowners want to upgrade to hardwood or tile, that adhesive removal adds time and changes the subfloor prep significantly. We account for it in the estimate rather than flagging it as a change order after demo day — a detail that matters when you're budgeting a kitchen or main-floor remodel in Aspen Heights or a comparable subdivision.
+One thing that catches out-of-area contractors in Brandon's newer subdivisions: the builder-grade LVP flooring installed in many homes built between 2015 and 2022 is glued directly to concrete slab rather than floated. When homeowners want to upgrade to hardwood or tile, that adhesive removal adds time and changes the subfloor prep significantly. We account for it in the estimate rather than flagging it as a change order after demo day, a detail that matters when you're budgeting a kitchen or main-floor remodel in Aspen Heights or a comparable subdivision.
 
 If your Brandon home is ready for a renovation that reflects how you actually live in it, call Crew Restoration & Construction at (605) 965-2727. We'll walk the space with you, give you a straight scope, and get the work done without the runaround.

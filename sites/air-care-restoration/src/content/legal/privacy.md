@@ -18,19 +18,19 @@ rendered: true
 ---
 ## What This Policy Covers
 
-This privacy policy explains how Air Care Restoration collects, uses, and protects information you share when you visit aircarerestoration.com or contact us about water damage, fire damage, mold remediation, or any other restoration service. We keep this plain and direct — you deserve to know exactly what happens with your information.
+This privacy policy explains how Air Care Restoration collects, uses, and protects information you share when you visit aircarerestoration.com or contact us about water damage, fire damage, mold remediation, or any other restoration service. We keep this plain and direct, you deserve to know exactly what happens with your information.
 
 ## Information We Collect
 
 When you fill out a contact or estimate request form, we collect the details you provide: your name, phone number, email address, property address, and a description of the damage or service you need. If you call us directly at (325) 339-8723 or email info@aircarerestoration.com, we retain that correspondence as well.
 
-Our website also collects basic, anonymous analytics data — pages visited, general geographic region, browser type, and session duration. This data is aggregated and not tied to any individual. We use it only to understand how the site performs and where visitors need clearer information.
+Our website also collects basic, anonymous analytics data, pages visited, general geographic region, browser type, and session duration. This data is aggregated and not tied to any individual. We use it only to understand how the site performs and where visitors need clearer information.
 
 We do not use tracking pixels for advertising, and we do not run retargeting campaigns.
 
 ## How We Use Your Information
 
-The information you share is used for one purpose: helping you with your restoration project. That means responding to your inquiry, scheduling an on-site estimate, coordinating the scope of work, and — when you authorize it — communicating with your insurance carrier to document the loss and process your claim.
+The information you share is used for one purpose: helping you with your restoration project. That means responding to your inquiry, scheduling an on-site estimate, coordinating the scope of work, and, when you authorize it, communicating with your insurance carrier to document the loss and process your claim.
 
 We do not use your contact information for marketing lists, and we do not sell, rent, or trade your personal information to any third party.
 
@@ -40,7 +40,7 @@ Restoration work often involves your homeowner's or commercial property insuranc
 
 ## Data Retention
 
-We retain project records — including contact information, photos, moisture logs, and insurance correspondence — for as long as is reasonably necessary to complete your project and satisfy applicable recordkeeping obligations under Texas contractor regulations. Contact form submissions that do not result in a project are retained for a limited period and then deleted.
+We retain project records, including contact information, photos, moisture logs, and insurance correspondence, for as long as is reasonably necessary to complete your project and satisfy applicable recordkeeping obligations under Texas contractor regulations. Contact form submissions that do not result in a project are retained for a limited period and then deleted.
 
 ## Your Rights as a Visitor
 

@@ -17,7 +17,7 @@ service_slug: "contents-restoration-pack-out"
 service_display: "Contents Restoration & Pack-Out"
 rendered: true
 ---
-After a flood, fire, or sewage backup, the structure gets most of the attention — but the furniture, clothing, electronics, documents, and keepsakes inside are often what a family actually grieves losing. Contents restoration is the work of recovering those items: inventorying them before they leave the home, cleaning smoke residue or water staining from surfaces that can't simply be replaced, and returning belongings in documented condition so nothing disappears into a dumpster that didn't have to. When the structure needs drying or remediation, a coordinated pack-out keeps your possessions safe while the real work happens.
+After a flood, fire, or sewage backup, the structure gets most of the attention, but the furniture, clothing, electronics, documents, and keepsakes inside are often what a family actually grieves losing. Contents restoration is the work of recovering those items: inventorying them before they leave the home, cleaning smoke residue or water staining from surfaces that can't simply be replaced, and returning belongings in documented condition so nothing disappears into a dumpster that didn't have to. When the structure needs drying or remediation, a coordinated pack-out keeps your possessions safe while the real work happens.
 
 ## What contents restoration & pack-out actually involves
 
@@ -25,9 +25,9 @@ Pack-out is not moving day. Every item that leaves the property is photographed,
 
 Once contents reach a secure cleaning facility, the restoration work depends entirely on what type of loss affected them:
 
-- **Smoke and soot damage** leaves oily or dry residue depending on what burned. Synthetic materials — foam, plastics, carpet backing — produce a dense, sticky soot that embeds in fabric fibers and etches hard surfaces if left too long. Wood and paper fires leave drier ash that is easier to surface-clean but can still carry odor deep into porous materials.
+- **Smoke and soot damage** leaves oily or dry residue depending on what burned. Synthetic materials, foam, plastics, carpet backing, produce a dense, sticky soot that embeds in fabric fibers and etches hard surfaces if left too long. Wood and paper fires leave drier ash that is easier to surface-clean but can still carry odor deep into porous materials.
 - **Water-damaged contents** need to be assessed for how long they were wet and what category of water touched them. A book soaked in clean supply-line water is a different problem than upholstered furniture that sat in Category 3 floodwater. Restoration is possible in many cases; replacement is sometimes the honest answer.
-- **Odor penetration** in soft goods — mattresses, upholstered pieces, clothing, drapery — often requires ozone treatment or hydroxyl generation in a controlled environment, not just surface deodorizing spray.
+- **Odor penetration** in soft goods, mattresses, upholstered pieces, clothing, drapery, often requires ozone treatment or hydroxyl generation in a controlled environment, not just surface deodorizing spray.
 
 Timeline varies by volume and loss type. A single-room pack-out with moderate smoke damage might move through cleaning and return in one to two weeks. A whole-house pack-out following a major fire or flood takes longer, and the contents restoration runs in parallel with structural work so both finish close together.
 
@@ -35,25 +35,25 @@ Timeline varies by volume and loss type. A single-room pack-out with moderate sm
 
 1. **Pre-pack inventory and condition documentation.** Before anything is moved, every visible item is photographed and logged with a condition note. Fragile, high-value, or sentimental items are flagged separately. This record becomes part of the claim file.
 
-2. **Pack-out and secure transport.** Items are wrapped, boxed, and loaded using materials that won't transfer soot or moisture. Contents are transported to a climate-controlled facility — not a warehouse where temperature swings can accelerate mold growth on damp textiles.
+2. **Pack-out and secure transport.** Items are wrapped, boxed, and loaded using materials that won't transfer soot or moisture. Contents are transported to a climate-controlled facility, not a warehouse where temperature swings can accelerate mold growth on damp textiles.
 
 3. **Triage and cleaning.** At the facility, each item is re-evaluated. Salvageable items go through the appropriate cleaning method: ultrasonic cleaning for hard goods and electronics components, dry-cleaning or ozone treatment for soft goods, document drying and freeze-stabilization for paper records. Items that cannot be restored to a safe, functional condition are documented for replacement on the claim.
 
-4. **Deodorization and quality check.** Cleaned items are deodorized in a controlled environment and inspected before packing for return. Smoke odor that survives cleaning at this stage is a signal the item needs a second pass or should be listed as a total loss — returning a smoky couch to a freshly remediated home defeats the remediation.
+4. **Deodorization and quality check.** Cleaned items are deodorized in a controlled environment and inspected before packing for return. Smoke odor that survives cleaning at this stage is a signal the item needs a second pass or should be listed as a total loss, returning a smoky couch to a freshly remediated home defeats the remediation.
 
 5. **Scheduled return and re-installation.** Contents come back on a timeline coordinated with the structural work so you're not moving furniture into a space that still needs drying or painting.
 
 ## What separates a good contents response from a bad one
 
-The most common failure in contents restoration is speed without documentation. A crew that loads a truck quickly without a written inventory leaves the homeowner unable to dispute a missing or damaged item later — and leaves the adjuster without the documentation needed to approve replacement costs.
+The most common failure in contents restoration is speed without documentation. A crew that loads a truck quickly without a written inventory leaves the homeowner unable to dispute a missing or damaged item later, and leaves the adjuster without the documentation needed to approve replacement costs.
 
-A second common problem is treating all soot the same way. Protein soot — from cooking fires or materials with high organic content — is nearly invisible but leaves a powerful odor and a greasy film that standard wiping spreads rather than removes. It requires enzymatic or alkaline cleaning chemistry, not the dry-sponge method used for wood-fire ash. Misidentifying soot type leads to items that smell clean in the facility and reek once they're back in a warm room.
+A second common problem is treating all soot the same way. Protein soot, from cooking fires or materials with high organic content, is nearly invisible but leaves a powerful odor and a greasy film that standard wiping spreads rather than removes. It requires enzymatic or alkaline cleaning chemistry, not the dry-sponge method used for wood-fire ash. Misidentifying soot type leads to items that smell clean in the facility and reek once they're back in a warm room.
 
 Insurance adjusters reviewing a contents claim look for itemized inventories with pre-cleaning condition photos, cleaning method notes by item category, and clear total-loss documentation for items that couldn't be restored. A claim without that paper trail is harder to settle and slower to close.
 
 ## What does contents restoration & pack-out cost?
 
-Typical costs depend on the volume of contents, the type of loss, and how many items require specialized cleaning. Most homeowners pay somewhere in the ranges below — these are industry-typical figures, not a quote from PuroClean of East Las Vegas, and every loss is different; a written scope is provided before work begins. Homeowners insurance typically covers contents restoration when the underlying loss (fire, water, storm) is a covered peril, subject to your policy's contents coverage limit and deductible.
+Typical costs depend on the volume of contents, the type of loss, and how many items require specialized cleaning. Most homeowners pay somewhere in the ranges below, these are industry-typical figures, not a quote from PuroClean of East Las Vegas, and every loss is different; a written scope is provided before work begins. Homeowners insurance typically covers contents restoration when the underlying loss (fire, water, storm) is a covered peril, subject to your policy's contents coverage limit and deductible.
 
 | Scenario | Typical industry range |
 |---|---|
@@ -66,12 +66,12 @@ Typical costs depend on the volume of contents, the type of loss, and how many i
 
 ## Seasonal & regional considerations
 
-Las Vegas's low humidity is an asset during contents restoration — textiles and paper goods that might mold within 48 hours in a humid climate have a longer window here before secondary damage sets in. That said, the valley's heat accelerates off-gassing from smoke-damaged synthetics and can bake soot residue into hard surfaces if contents sit in a hot garage or unventilated space while waiting for pack-out. Getting items into a climate-controlled environment quickly still matters, even when ambient moisture is low.
+Las Vegas's low humidity is an asset during contents restoration, textiles and paper goods that might mold within 48 hours in a humid climate have a longer window here before secondary damage sets in. That said, the valley's heat accelerates off-gassing from smoke-damaged synthetics and can bake soot residue into hard surfaces if contents sit in a hot garage or unventilated space while waiting for pack-out. Getting items into a climate-controlled environment quickly still matters, even when ambient moisture is low.
 
-Homes in the east valley and Henderson corridor tend to be built on slab foundations with stucco exteriors, which affects how water losses migrate — water that enters through the roof or windows can travel inside wall cavities and reach contents in adjacent rooms before it's visible. A contents inventory that only covers the room of origin sometimes misses damage that spread.
+Homes in the east valley and Henderson corridor tend to be built on slab foundations with stucco exteriors, which affects how water losses migrate, water that enters through the roof or windows can travel inside wall cavities and reach contents in adjacent rooms before it's visible. A contents inventory that only covers the room of origin sometimes misses damage that spread.
 
 ## Service area
 
 PuroClean of East Las Vegas handles contents restoration and pack-out throughout the Las Vegas metro, including Henderson, North Las Vegas, Boulder City, Summerlin, and surrounding communities. City-specific pages detail local considerations for each area.
 
-If your belongings were caught in a water loss, fire, or any other damaging event, call **(702) 551-3040** to schedule your contents inventory and pack-out — before more time passes and more items cross the line from restorable to replaced.
+If your belongings were caught in a water loss, fire, or any other damaging event, call **(702) 551-3040** to schedule your contents inventory and pack-out, before more time passes and more items cross the line from restorable to replaced.

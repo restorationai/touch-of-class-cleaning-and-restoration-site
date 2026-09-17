@@ -20,38 +20,38 @@ state: "MS"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
-Agricola sits in the southern Mississippi coastal plain where Gulf-driven storms can shift from watch to warning in under an hour, leaving homes with blown-in windows, peeled roofing, and wide-open walls before a homeowner can even get off the phone with their insurance agent. When that happens, the gap between the storm passing and a crew arriving with plywood and heavy-duty tarps is the gap between a manageable repair and a gut renovation — and in this part of George County, that window closes fast once humidity starts working on exposed framing.
+Agricola sits in the southern Mississippi coastal plain where Gulf-driven storms can shift from watch to warning in under an hour, leaving homes with blown-in windows, peeled roofing, and wide-open walls before a homeowner can even get off the phone with their insurance agent. When that happens, the gap between the storm passing and a crew arriving with plywood and heavy-duty tarps is the gap between a manageable repair and a gut renovation, and in this part of George County, that window closes fast once humidity starts working on exposed framing.
 
 ## Why Agricola Properties Face Elevated Board-Up and Tarping Risks
 
-The Gulf Coast's storm season is long and unforgiving, and Agricola's position in the coastal plain puts it squarely in the path of tropical systems that funnel moisture and wind inland from the Mississippi Sound. Unlike barrier-island communities that take a direct hit and see damage concentrated in one pass, inland areas like Agricola often experience prolonged high-wind events as storms stall or wobble — meaning roof decking and window glazing endure hours of sustained stress rather than a single gust.
+The Gulf Coast's storm season is long and unforgiving, and Agricola's position in the coastal plain puts it squarely in the path of tropical systems that funnel moisture and wind inland from the Mississippi Sound. Unlike barrier-island communities that take a direct hit and see damage concentrated in one pass, inland areas like Agricola often experience prolonged high-wind events as storms stall or wobble, meaning roof decking and window glazing endure hours of sustained stress rather than a single gust.
 
 The local housing stock adds another layer of complexity. Much of the residential construction in and around Agricola predates modern wind-load requirements, with roof-to-wall connections and window framing that weren't engineered for the standards Mississippi adopted after Hurricane Katrina. Older metal roofing and wood-frame construction common in rural George County can delaminate or separate at seams that would hold on newer builds, creating large open sections that require tarping across multiple roof planes rather than a single patch.
 
-Fire damage board-up is also a recurring need here. Rural properties in George County often have longer response times from the fire department, which means structure fires burn longer before suppression — leaving more compromised walls and broken windows that need immediate securing against weather intrusion and unauthorized entry.
+Fire damage board-up is also a recurring need here. Rural properties in George County often have longer response times from the fire department, which means structure fires burn longer before suppression, leaving more compromised walls and broken windows that need immediate securing against weather intrusion and unauthorized entry.
 
 ## Our Emergency Board-Up and Tarping Process in Agricola
 
 When a call comes in from the Agricola area, the first thing we assess is the type and extent of the opening. A broken window board-up on a single-story home is a fundamentally different job than tarping a hip roof where two sections have lost their decking. We don't send a one-size crew.
 
-For roof tarping, we use 6-mil or heavier polyethylene tarps secured with batten boards screwed into undamaged decking — not bungee cords or sandbags, which fail in the next rain event. Tarps are lapped and sealed at ridges to prevent wind lift, a detail that matters especially in an area that can see sustained winds from a secondary storm system days after the initial event.
+For roof tarping, we use 6-mil or heavier polyethylene tarps secured with batten boards screwed into undamaged decking, not bungee cords or sandbags, which fail in the next rain event. Tarps are lapped and sealed at ridges to prevent wind lift, a detail that matters especially in an area that can see sustained winds from a secondary storm system days after the initial event.
 
-For fire damage board-up and broken window board-up, we cut OSB panels to fit each opening, frame them with 2x4 lumber anchored into the surrounding wall structure, and apply tamper-resistant fasteners where security is a concern. Every opening is photographed before and after installation — documentation that goes directly into the insurance claim file.
+For fire damage board-up and broken window board-up, we cut OSB panels to fit each opening, frame them with 2x4 lumber anchored into the surrounding wall structure, and apply tamper-resistant fasteners where security is a concern. Every opening is photographed before and after installation, documentation that goes directly into the insurance claim file.
 
-As an IICRC Certified Firm with IICRC FSRT (Fire & Smoke) and FORTIFIED Building Roofing MS Windstorm certification, our crews understand how temporary protection fits into the larger restoration sequence — which matters when your adjuster is asking whether the secondary damage was preventable.
+As an IICRC Certified Firm with IICRC FSRT (Fire & Smoke) and FORTIFIED Building Roofing MS Windstorm certification, our crews understand how temporary protection fits into the larger restoration sequence, which matters when your adjuster is asking whether the secondary damage was preventable.
 
 ## Reaching Agricola from Gulfport
 
-HomeLyft Restoration MS is based in Gulfport, and Agricola is accessible via US-49 north through Wiggins, then east on local routes into George County. The drive puts Agricola well within our regular service territory — we run this corridor routinely for storm response work across the coastal plain.
+HomeLyft Restoration MS is based in Gulfport, and Agricola is accessible via US-49 north through Wiggins, then east on local routes into George County. The drive puts Agricola well within our regular service territory, we run this corridor routinely for storm response work across the coastal plain.
 
 One practical note for property owners: if your home is down a long private drive or a gravel road that runs soft after heavy rain, let us know when you call. We can discuss equipment staging and whether a smaller initial vehicle makes sense for access before the full crew arrives with materials.
 
 ## Agricola Insurance and Documentation Coordination
 
-Most homeowners' policies in Mississippi cover emergency board-up and tarping as part of the initial loss mitigation — but the documentation has to be thorough. Adjusters for Gulf Coast claims are experienced at flagging inadequate temporary protection as a basis for disputing secondary damage claims, so the photo record and scope of work we provide isn't just paperwork — it's your protection.
+Most homeowners' policies in Mississippi cover emergency board-up and tarping as part of the initial loss mitigation, but the documentation has to be thorough. Adjusters for Gulf Coast claims are experienced at flagging inadequate temporary protection as a basis for disputing secondary damage claims, so the photo record and scope of work we provide isn't just paperwork, it's your protection.
 
-We prepare a written scope of the board-up or tarping work, itemized by opening and material, and we can communicate directly with your adjuster or carrier representative. If your policy has a mitigation requirement — and most in Mississippi do — having a certified firm on record satisfies that requirement.
+We prepare a written scope of the board-up or tarping work, itemized by opening and material, and we can communicate directly with your adjuster or carrier representative. If your policy has a mitigation requirement, and most in Mississippi do, having a certified firm on record satisfies that requirement.
 
 ## Local Note
 
-One thing that catches out-of-area crews in George County is the soil behavior after a major rain event. The sandy loam common in this part of the coastal plain drains quickly on the surface but can stay saturated underneath, and extension ladders or scaffold legs can sink unexpectedly when set up on ground that looks dry. Our crews working in the Agricola area carry leg levelers and use ground pads as standard practice — a small detail that prevents both equipment damage and safety incidents when we're working fast on a storm-damaged roof.
+One thing that catches out-of-area crews in George County is the soil behavior after a major rain event. The sandy loam common in this part of the coastal plain drains quickly on the surface but can stay saturated underneath, and extension ladders or scaffold legs can sink unexpectedly when set up on ground that looks dry. Our crews working in the Agricola area carry leg levelers and use ground pads as standard practice, a small detail that prevents both equipment damage and safety incidents when we're working fast on a storm-damaged roof.

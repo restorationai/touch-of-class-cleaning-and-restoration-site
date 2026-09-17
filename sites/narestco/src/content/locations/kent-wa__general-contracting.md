@@ -20,13 +20,13 @@ state: "WA"
 service_display: "Renovations, Remodels and General Contracting"
 rendered: true
 ---
-Whether you're picking up the pieces after a burst pipe soaked your subfloor, finally tackling that 1970s kitchen that's been on your list for years, or managing a commercial property in need of a full interior overhaul, the path forward in Kent starts with a licensed general contractor who knows the area and can move quickly. National Restoration Construction has been handling home renovation services, post-damage rebuilds, and full-scale remodels across the South King County corridor since 2004 — and our Federal Way headquarters puts us minutes from most Kent neighborhoods.
+Whether you're picking up the pieces after a burst pipe soaked your subfloor, finally tackling that 1970s kitchen that's been on your list for years, or managing a commercial property in need of a full interior overhaul, the path forward in Kent starts with a licensed general contractor who knows the area and can move quickly. National Restoration Construction has been handling home renovation services, post-damage rebuilds, and full-scale remodels across the South King County corridor since 2004, and our Federal Way headquarters puts us minutes from most Kent neighborhoods.
 
 ## What General Contracting and Remodeling Work Looks Like in Kent
 
-Kent's housing stock tells a story. A significant share of the city's single-family homes were built between the 1950s and 1990s, which means a lot of properties are carrying original plumbing, galvanized steel supply lines, and kitchens that haven't seen a remodel since the Clinton administration. When those systems finally fail — or when a homeowner decides it's time to modernize — the scope of work is rarely simple. Walls opened for a bathroom remodel sometimes reveal knob-and-tube wiring or asbestos-wrapped pipes. A kitchen remodel that starts as a cabinet swap can turn into a full gut job once the demo crew finds water damage behind the dishwasher.
+Kent's housing stock tells a story. A significant share of the city's single-family homes were built between the 1950s and 1990s, which means a lot of properties are carrying original plumbing, galvanized steel supply lines, and kitchens that haven't seen a remodel since the Clinton administration. When those systems finally fail, or when a homeowner decides it's time to modernize, the scope of work is rarely simple. Walls opened for a bathroom remodel sometimes reveal knob-and-tube wiring or asbestos-wrapped pipes. A kitchen remodel that starts as a cabinet swap can turn into a full gut job once the demo crew finds water damage behind the dishwasher.
 
-We handle all of it under one license. Washington State Department of Labor & Industries General Contractor Certificate of Registration (#NATIORC792M6) covers the structural, finish, and specialty trades — so you're not coordinating five different subs while your house is torn open.
+We handle all of it under one license. Washington State Department of Labor & Industries General Contractor Certificate of Registration (#NATIORC792M6) covers the structural, finish, and specialty trades, so you're not coordinating five different subs while your house is torn open.
 
 ## Our Renovation and Remodeling Process
 
@@ -34,34 +34,34 @@ Every project starts with a detailed walkthrough, not a ballpark number shouted 
 
 From there, the process runs in a logical sequence:
 
-- **Demo and rough-in** — structural changes, framing, plumbing and electrical rough-in, HVAC modifications
-- **Inspections** — we schedule and manage all required City of Kent permit inspections
-- **Insulation, drywall, and waterproofing** — especially critical in bathrooms and below-grade spaces given Western Washington's rainfall
-- **Finish work** — tile, cabinetry, flooring, fixtures, paint
-- **Final walkthrough** — punch list completed before we consider the job closed
+- **Demo and rough-in**, structural changes, framing, plumbing and electrical rough-in, HVAC modifications
+- **Inspections**, we schedule and manage all required City of Kent permit inspections
+- **Insulation, drywall, and waterproofing**, especially critical in bathrooms and below-grade spaces given Western Washington's rainfall
+- **Finish work**, tile, cabinetry, flooring, fixtures, paint
+- **Final walkthrough**, punch list completed before we consider the job closed
 
-For post-damage rebuilds — the work that follows water extraction, fire cleanup, or mold remediation — we coordinate directly with the remediation team so the rebuild phase starts as soon as the structure is cleared, not weeks later.
+For post-damage rebuilds, the work that follows water extraction, fire cleanup, or mold remediation, we coordinate directly with the remediation team so the rebuild phase starts as soon as the structure is cleared, not weeks later.
 
 ## Why Kent Homes Face Renovation Emergencies
 
-The Green River Valley gets real weather. Kent averages around 38 inches of rain annually, and the stretch from October through March puts consistent pressure on roofing, gutters, crawl spaces, and window seals. Homes in lower-elevation neighborhoods near the Green River or along Mill Creek drainage corridors are particularly vulnerable to moisture intrusion — and moisture that sits for more than 24 to 48 hours starts the clock on mold colonization inside wall cavities.
+The Green River Valley gets real weather. Kent averages around 38 inches of rain annually, and the stretch from October through March puts consistent pressure on roofing, gutters, crawl spaces, and window seals. Homes in lower-elevation neighborhoods near the Green River or along Mill Creek drainage corridors are particularly vulnerable to moisture intrusion, and moisture that sits for more than 24 to 48 hours starts the clock on mold colonization inside wall cavities.
 
 Older Kent homes also tend to have crawl spaces rather than full basements, and those crawl spaces are often inadequately vented or vapor-sealed. A slow drip from a supply line fitting can saturate floor joists for months before a homeowner notices soft spots in the kitchen floor. By that point, what could have been a repair becomes a partial floor replacement and a mold remediation job rolled into one renovation project.
 
-That combination — aging housing stock plus a wet Pacific Northwest climate — is exactly why home remodeling in Kent so often uncovers more than the original scope suggested.
+That combination, aging housing stock plus a wet Pacific Northwest climate, is exactly why home remodeling in Kent so often uncovers more than the original scope suggested.
 
 ## Insurance Claims and Post-Damage Rebuilds
 
-If your renovation need grew out of a covered loss — a pipe failure, storm damage, a fire — the insurance piece matters as much as the construction work. We work directly with adjusters and can provide the line-item documentation most carriers require before authorizing rebuild scope. We don't inflate estimates to game the process, and we don't low-ball to win the job and change-order you later.
+If your renovation need grew out of a covered loss, a pipe failure, storm damage, a fire, the insurance piece matters as much as the construction work. We work directly with adjusters and can provide the line-item documentation most carriers require before authorizing rebuild scope. We don't inflate estimates to game the process, and we don't low-ball to win the job and change-order you later.
 
 What you handle: filing the initial claim, paying your deductible, responding to your adjuster's requests for access.
 
 What we handle: damage documentation, scope writing, supplement negotiations when the initial estimate misses items, and the full build-back once the claim is approved.
 
-For projects that aren't insurance-related — a kitchen remodel, a bathroom remodel, an addition — we provide fixed-price contracts with clearly defined change-order terms so the final number doesn't drift.
+For projects that aren't insurance-related, a kitchen remodel, a bathroom remodel, an addition, we provide fixed-price contracts with clearly defined change-order terms so the final number doesn't drift.
 
 ## Getting to Kent Fast
 
-Our Federal Way location sits roughly 10 to 15 minutes from central Kent under normal traffic conditions. For urgent situations — a roof opened by a fallen tree, a burst pipe that's already been mitigated but needs immediate board-up and assessment before a remodel scope can be written — most Kent addresses see a project manager on-site within 60 to 90 minutes of first contact. Neighborhoods closer to the Federal Way border, like Panther Lake or the West Hill area, are often faster.
+Our Federal Way location sits roughly 10 to 15 minutes from central Kent under normal traffic conditions. For urgent situations, a roof opened by a fallen tree, a burst pipe that's already been mitigated but needs immediate board-up and assessment before a remodel scope can be written, most Kent addresses see a project manager on-site within 60 to 90 minutes of first contact. Neighborhoods closer to the Federal Way border, like Panther Lake or the West Hill area, are often faster.
 
 If you're dealing with an active emergency, (206) 883-0333 reaches a live person around the clock. For planned projects, the same number connects you to scheduling.

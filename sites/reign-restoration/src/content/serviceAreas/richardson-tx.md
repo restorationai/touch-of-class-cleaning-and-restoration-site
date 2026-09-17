@@ -19,23 +19,23 @@ state: "TX"
 primary: false
 rendered: true
 ---
-When a pipe bursts under a slab in Canyon Creek or smoke works its way into the ductwork of a CityLine mid-rise, Richardson property owners need a restoration crew that already understands the building, not one learning on the job. Reign Restoration responds to water damage, fire and smoke damage, mold, and reconstruction calls across Richardson 24/7 — including ZIP codes 75080, 75081, and 75082 — and we coordinate directly with your insurance carrier so the claims process doesn't stall your recovery.
+When a pipe bursts under a slab in Canyon Creek or smoke works its way into the ductwork of a CityLine mid-rise, Richardson property owners need a restoration crew that already understands the building, not one learning on the job. Reign Restoration responds to water damage, fire and smoke damage, mold, and reconstruction calls across Richardson 24/7, including ZIP codes 75080, 75081, and 75082, and we coordinate directly with your insurance carrier so the claims process doesn't stall your recovery.
 
 ## Restoration emergencies common in Richardson
 
-Richardson sits at an unusual intersection of geology, age, and growth. Two-thirds of the city falls in Dallas County, the remainder in Collin County, and most of its residential neighborhoods were platted during the postwar expansion along Central Expressway. Richardson Heights, Canyon Creek, and Cottonwood Heights went up between the 1950s and early 1980s — meaning a significant share of homes still sit on original cast-iron or clay drain lines buried beneath post-tension slabs. Those aging lines crack, root-intrude, and collapse quietly for years before a homeowner notices the slow drain or the wet spot in the hallway.
+Richardson sits at an unusual intersection of geology, age, and growth. Two-thirds of the city falls in Dallas County, the remainder in Collin County, and most of its residential neighborhoods were platted during the postwar expansion along Central Expressway. Richardson Heights, Canyon Creek, and Cottonwood Heights went up between the 1950s and early 1980s, meaning a significant share of homes still sit on original cast-iron or clay drain lines buried beneath post-tension slabs. Those aging lines crack, root-intrude, and collapse quietly for years before a homeowner notices the slow drain or the wet spot in the hallway.
 
-Below those slabs lies Houston Black clay, one of the most reactive soils in North Texas. It swells when wet and shrinks when dry, and the creeks that thread through Richardson — Duck Creek, Cottonwood Creek, Prairie Creek — flood their adjacent neighborhoods during the intense, fast-moving storms the DFW Metroplex sees every spring and fall. After a heavy rain, that clay holds moisture against foundations for weeks, giving mold a window to colonize wall cavities before the surface ever looks wet. Homes near the Spring Creek Nature Area and Breckinridge Park sit in natural drainage corridors and tend to see water intrusion events more frequently than properties on higher ground.
+Below those slabs lies Houston Black clay, one of the most reactive soils in North Texas. It swells when wet and shrinks when dry, and the creeks that thread through Richardson, Duck Creek, Cottonwood Creek, Prairie Creek, flood their adjacent neighborhoods during the intense, fast-moving storms the DFW Metroplex sees every spring and fall. After a heavy rain, that clay holds moisture against foundations for weeks, giving mold a window to colonize wall cavities before the surface ever looks wet. Homes near the Spring Creek Nature Area and Breckinridge Park sit in natural drainage corridors and tend to see water intrusion events more frequently than properties on higher ground.
 
 ## Services we provide in Richardson
 
 ### Water damage restoration
 
-Water damage in Richardson often starts below the surface — a slow slab leak under a kitchen in Cottonwood Heights, a failed supply line behind a wall in Prairie Creek, or storm-driven water that pools against a foundation in Heights Park before finding a gap. We extract standing water, dry structural materials to IICRC S500 standards, and document moisture readings throughout so your adjuster has the data they need. We also handle the secondary mold assessment that should follow any water event lasting more than 24 to 48 hours.
+Water damage in Richardson often starts below the surface, a slow slab leak under a kitchen in Cottonwood Heights, a failed supply line behind a wall in Prairie Creek, or storm-driven water that pools against a foundation in Heights Park before finding a gap. We extract standing water, dry structural materials to IICRC S500 standards, and document moisture readings throughout so your adjuster has the data they need. We also handle the secondary mold assessment that should follow any water event lasting more than 24 to 48 hours.
 
 ### Fire and smoke damage restoration
 
-Fire calls in Richardson's older neighborhoods — Richardson Heights and Arapaho Heights in particular — frequently involve homes with original attic insulation and wood-framed interiors that absorb smoke deeply. Odor doesn't leave on its own; it bonds to porous surfaces and recirculates through HVAC systems. We remove charred material, treat affected surfaces, and clean or replace ductwork so the smell doesn't return three weeks after you move back in.
+Fire calls in Richardson's older neighborhoods, Richardson Heights and Arapaho Heights in particular, frequently involve homes with original attic insulation and wood-framed interiors that absorb smoke deeply. Odor doesn't leave on its own; it bonds to porous surfaces and recirculates through HVAC systems. We remove charred material, treat affected surfaces, and clean or replace ductwork so the smell doesn't return three weeks after you move back in.
 
 ### Mold remediation
 
@@ -43,11 +43,11 @@ The combination of reactive clay soil, aging plumbing, and Richardson's humid su
 
 ### Reconstruction
 
-Once mitigation is complete, many property owners need more than drywall patches. We handle full reconstruction — flooring, cabinetry, framing, and finish work — so you're not coordinating a separate contractor after an already stressful event.
+Once mitigation is complete, many property owners need more than drywall patches. We handle full reconstruction, flooring, cabinetry, framing, and finish work, so you're not coordinating a separate contractor after an already stressful event.
 
 ## Coverage and how fast we can get there
 
-Reign Restoration is headquartered in Royse City, roughly 30 miles east of Richardson via US-80 West to I-635 North, or through Garland on TX-78 depending on traffic. Richardson is well within our active service area, and because we operate 24/7, a call at 2 a.m. from The Reservation or a midday call from a property manager near the University of Texas at Dallas gets the same response. We do not publish a guaranteed on-site minute figure, but Richardson is a routine dispatch for our crews — not an edge-of-territory call.
+Reign Restoration is headquartered in Royse City, roughly 30 miles east of Richardson via US-80 West to I-635 North, or through Garland on TX-78 depending on traffic. Richardson is well within our active service area, and because we operate 24/7, a call at 2 a.m. from The Reservation or a midday call from a property manager near the University of Texas at Dallas gets the same response. We do not publish a guaranteed on-site minute figure, but Richardson is a routine dispatch for our crews, not an edge-of-territory call.
 
 ## Building stock, site conditions, and permits in Richardson
 
@@ -57,4 +57,4 @@ Winter matters too: a hard North Texas freeze hits attic-run supply lines, and a
 
 Permits come from the City of Richardson, whether the address falls on the Dallas or Collin County side. Structural framing work and plumbing or electrical changes during reconstruction generally trigger inspection.
 
-If you're dealing with water, fire, mold, or storm damage anywhere in Richardson — from 75080 to 75082 — call Reign Restoration at (214) 304-0621. We're available around the clock and ready to get to work.
+If you're dealing with water, fire, mold, or storm damage anywhere in Richardson, from 75080 to 75082, call Reign Restoration at (214) 304-0621. We're available around the clock and ready to get to work.

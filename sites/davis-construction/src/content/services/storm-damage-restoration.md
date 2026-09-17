@@ -19,41 +19,41 @@ rendered: true
 ---
 ## What happens in the first 24 hours after a storm hits
 
-A branch punches through your roof at 2 a.m. By morning, rain has soaked through the attic insulation, pooled on the ceiling drywall, and started working toward the wall cavities. That's the storm damage window most homeowners don't fully appreciate — it's not just the wind or the impact, it's the cascade of secondary damage that begins the moment the sky opens up through a breach. Storm damage restoration is the work of stopping that cascade, documenting everything for your insurance carrier, and putting the structure back together from the outside in.
+A branch punches through your roof at 2 a.m. By morning, rain has soaked through the attic insulation, pooled on the ceiling drywall, and started working toward the wall cavities. That's the storm damage window most homeowners don't fully appreciate, it's not just the wind or the impact, it's the cascade of secondary damage that begins the moment the sky opens up through a breach. Storm damage restoration is the work of stopping that cascade, documenting everything for your insurance carrier, and putting the structure back together from the outside in.
 
 ## What storm damage restoration actually involves
 
-Storm damage isn't a single event — it's a sequence. A tornado or severe thunderstorm can deliver wind damage, impact damage from debris or fallen trees, roof breaches that let in water, and in some cases structural compromise to load-bearing elements, all in a matter of minutes. Restoring a storm-damaged property means addressing every layer of that sequence, not just the most visible one.
+Storm damage isn't a single event, it's a sequence. A tornado or severe thunderstorm can deliver wind damage, impact damage from debris or fallen trees, roof breaches that let in water, and in some cases structural compromise to load-bearing elements, all in a matter of minutes. Restoring a storm-damaged property means addressing every layer of that sequence, not just the most visible one.
 
 On a typical storm job, the work includes emergency tarping and board-up to stop active water intrusion, debris removal (including tree sections and displaced roofing materials), moisture mapping of affected interior spaces, structural drying with commercial dehumidifiers and air movers, and full documentation of damage scope for the insurance claim. Depending on the severity, the timeline from emergency stabilization to final reconstruction can run anywhere from a few days for a contained roof breach to several weeks for a property that took a direct hit from a tornado or large tree fall.
 
-Equipment on a storm job looks different from a standard water damage call. You'll see chainsaws and heavy debris equipment alongside moisture meters, thermal imaging cameras, and desiccant dehumidifiers — because the structural drying phase can't begin until the source of intrusion is sealed.
+Equipment on a storm job looks different from a standard water damage call. You'll see chainsaws and heavy debris equipment alongside moisture meters, thermal imaging cameras, and desiccant dehumidifiers, because the structural drying phase can't begin until the source of intrusion is sealed.
 
 ## Our process
 
-1. **Emergency stabilization** — The first priority is stopping the bleeding. That means tarping compromised roof sections, boarding broken windows and doors, and removing any debris that poses an immediate safety hazard. This step happens before any detailed assessment, because every hour of open exposure adds to the water intrusion damage.
+1. **Emergency stabilization**, The first priority is stopping the bleeding. That means tarping compromised roof sections, boarding broken windows and doors, and removing any debris that poses an immediate safety hazard. This step happens before any detailed assessment, because every hour of open exposure adds to the water intrusion damage.
 
-2. **Damage documentation and scope development** — Once the property is stabilized, every affected area is photographed, measured, and logged. Thermal imaging identifies moisture that has migrated behind walls or under flooring that isn't visible to the naked eye. This documentation package is what your insurance adjuster will use to write the claim, and a thorough scope prevents underpayment.
+2. **Damage documentation and scope development**, Once the property is stabilized, every affected area is photographed, measured, and logged. Thermal imaging identifies moisture that has migrated behind walls or under flooring that isn't visible to the naked eye. This documentation package is what your insurance adjuster will use to write the claim, and a thorough scope prevents underpayment.
 
-3. **Debris and tree removal** — Fallen trees and large debris are extracted before interior work begins. Depending on the size and location of the tree, this may involve coordination with a crane or specialized rigging to avoid causing additional structural damage during removal.
+3. **Debris and tree removal**, Fallen trees and large debris are extracted before interior work begins. Depending on the size and location of the tree, this may involve coordination with a crane or specialized rigging to avoid causing additional structural damage during removal.
 
-4. **Structural drying and moisture remediation** — With the exterior sealed and debris cleared, commercial drying equipment goes in. Moisture readings are logged daily until affected materials reach acceptable dryness levels. If water has been sitting long enough for microbial growth to begin — typically 48–72 hours in warm, humid conditions like Madison summers — that's addressed as part of this phase.
+4. **Structural drying and moisture remediation**, With the exterior sealed and debris cleared, commercial drying equipment goes in. Moisture readings are logged daily until affected materials reach acceptable dryness levels. If water has been sitting long enough for microbial growth to begin, typically 48–72 hours in warm, humid conditions like Madison summers, that's addressed as part of this phase.
 
-5. **Reconstruction and finish work** — Damaged roofing, siding, framing, drywall, insulation, and interior finishes are repaired or replaced to pre-loss condition. Permits are pulled where required, and work is inspected before close-out.
+5. **Reconstruction and finish work**, Damaged roofing, siding, framing, drywall, insulation, and interior finishes are repaired or replaced to pre-loss condition. Permits are pulled where required, and work is inspected before close-out.
 
 ## What separates a good storm damage response from a bad one
 
 The single most common failure on storm jobs is incomplete moisture mapping before reconstruction begins. A crew that replaces the roof and patches the drywall without verifying that wall cavities and structural members have dried to baseline will trap moisture inside the assembly. Six months later, the homeowner has a mold problem and a warranty dispute.
 
-A second common failure is inadequate documentation at the time of loss. Insurance adjusters work from the evidence that exists at the time of inspection — if secondary damage (soaked insulation, saturated subfloor, compromised sheathing) isn't photographed and logged before it's torn out, it becomes very difficult to include in the claim. Experienced storm restoration contractors document aggressively before demolition begins.
+A second common failure is inadequate documentation at the time of loss. Insurance adjusters work from the evidence that exists at the time of inspection, if secondary damage (soaked insulation, saturated subfloor, compromised sheathing) isn't photographed and logged before it's torn out, it becomes very difficult to include in the claim. Experienced storm restoration contractors document aggressively before demolition begins.
 
-On the insurance side, adjusters look specifically for proof of storm causation versus pre-existing deterioration. Hail impact patterns, wind-driven rain entry points, and impact damage from debris all have identifiable signatures. Knowing how to document those signatures — and how to distinguish them from wear-and-tear — is the difference between a full claim payout and a partial one.
+On the insurance side, adjusters look specifically for proof of storm causation versus pre-existing deterioration. Hail impact patterns, wind-driven rain entry points, and impact damage from debris all have identifiable signatures. Knowing how to document those signatures, and how to distinguish them from wear-and-tear, is the difference between a full claim payout and a partial one.
 
 ## Seasonal and regional considerations
 
 Madison and the broader Tennessee Valley sit in one of the most active severe weather corridors in the country. The region sees two distinct severe weather peaks: spring (March through May), when supercell thunderstorms and tornado outbreaks are most frequent, and late fall (November into December), when a secondary severe weather season brings another round of wind and tornado risk. Summer brings frequent afternoon thunderstorms capable of producing damaging straight-line winds and large hail.
 
-Humidity is a compounding factor. When a storm breach happens in July or August, interior temperatures and humidity levels accelerate the timeline for secondary mold growth — the 48–72 hour window that applies in temperate climates can compress in a Madison summer. Response speed matters more here than it does in drier climates.
+Humidity is a compounding factor. When a storm breach happens in July or August, interior temperatures and humidity levels accelerate the timeline for secondary mold growth, the 48–72 hour window that applies in temperate climates can compress in a Madison summer. Response speed matters more here than it does in drier climates.
 
 ## Service area
 
@@ -61,4 +61,4 @@ Davis Construction Contractors is based in Madison, AL and handles storm damage 
 
 ---
 
-If a storm has left your roof open, your windows boarded, or your interior wet, the clock is already running. Call Davis Construction Contractors at **(256) 771-0326** to get a crew on-site for emergency stabilization and a documented damage assessment — the two things you need before anything else moves forward.
+If a storm has left your roof open, your windows boarded, or your interior wet, the clock is already running. Call Davis Construction Contractors at **(256) 771-0326** to get a crew on-site for emergency stabilization and a documented damage assessment, the two things you need before anything else moves forward.

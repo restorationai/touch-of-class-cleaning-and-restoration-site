@@ -17,52 +17,52 @@ service_slug: "air-duct-cleaning"
 service_display: "Air Duct Cleaning"
 rendered: true
 ---
-You change your furnace filter every few months, but the ductwork behind it hasn't been touched in years. Dust, pet dander, mold spores, and construction debris accumulate inside sheet-metal supply and return runs where no vacuum ever reaches — and every time your HVAC system cycles, that buildup circulates through every room in the house. If you've noticed a musty smell when the heat kicks on, visible dust settling on registers shortly after cleaning, or worsening allergy symptoms indoors, the ducts are often the culprit.
+You change your furnace filter every few months, but the ductwork behind it hasn't been touched in years. Dust, pet dander, mold spores, and construction debris accumulate inside sheet-metal supply and return runs where no vacuum ever reaches, and every time your HVAC system cycles, that buildup circulates through every room in the house. If you've noticed a musty smell when the heat kicks on, visible dust settling on registers shortly after cleaning, or worsening allergy symptoms indoors, the ducts are often the culprit.
 
 ## What air duct cleaning actually involves
 
-Air duct cleaning is not a technician running a shop vac across your registers. A proper HVAC duct cleaning job involves negative-pressure containment of the entire duct system, mechanical agitation inside the trunk lines and branch runs, and HEPA-filtered collection of everything dislodged. On a typical Auburn-area home — a colonial or cape with a gas forced-air system and 10–15 supply registers — a full residential duct cleaning takes three to five hours from setup to final inspection.
+Air duct cleaning is not a technician running a shop vac across your registers. A proper HVAC duct cleaning job involves negative-pressure containment of the entire duct system, mechanical agitation inside the trunk lines and branch runs, and HEPA-filtered collection of everything dislodged. On a typical Auburn-area home, a colonial or cape with a gas forced-air system and 10–15 supply registers, a full residential duct cleaning takes three to five hours from setup to final inspection.
 
-Equipment that matters: a truck-mounted or high-capacity portable vacuum unit capable of generating 4,000–6,000 CFM of negative pressure, rotary brush systems sized to the duct diameter, and a camera or inspection mirror to confirm cleanliness before the system is sealed back up. Dryer vent cleaning is often completed the same visit — a clogged dryer duct is one of the leading causes of residential fires, and it takes roughly 20 minutes to clear and verify airflow.
+Equipment that matters: a truck-mounted or high-capacity portable vacuum unit capable of generating 4,000–6,000 CFM of negative pressure, rotary brush systems sized to the duct diameter, and a camera or inspection mirror to confirm cleanliness before the system is sealed back up. Dryer vent cleaning is often completed the same visit, a clogged dryer duct is one of the leading causes of residential fires, and it takes roughly 20 minutes to clear and verify airflow.
 
-If microbial growth is present — visible mold on duct surfaces, or a confirmed mold source in the air handler — air duct sanitization with an EPA-registered antimicrobial agent is applied after mechanical cleaning, not instead of it.
+If microbial growth is present, visible mold on duct surfaces, or a confirmed mold source in the air handler, air duct sanitization with an EPA-registered antimicrobial agent is applied after mechanical cleaning, not instead of it.
 
 ## Our process
 
 1. **System inspection and pre-cleaning assessment.** Before any equipment is connected, a technician walks every register, checks the air handler and coil, and photographs the interior of accessible duct sections. This establishes baseline condition and identifies any sections with moisture damage, deteriorated flex duct, or visible microbial growth that would change the scope of work.
 
-2. **Negative-pressure setup.** A high-capacity vacuum collection unit is connected directly to the main trunk line, placing the entire duct system under negative pressure. This ensures that when debris is agitated, it moves toward the collection unit — not back into your living space.
+2. **Negative-pressure setup.** A high-capacity vacuum collection unit is connected directly to the main trunk line, placing the entire duct system under negative pressure. This ensures that when debris is agitated, it moves toward the collection unit, not back into your living space.
 
 3. **Mechanical agitation of supply and return runs.** Rotary brushes and compressed-air whips are run through each supply branch and return duct, breaking loose compacted dust, debris, and any fibrous buildup from the duct walls. Each run is worked from the register back toward the trunk line.
 
 4. **Air handler and coil inspection.** The blower compartment, evaporator coil, and drain pan are inspected and cleaned as part of the same visit. Dirty coils and standing water in the drain pan are common sources of odor and mold that duct cleaning alone won't fix.
 
-5. **Post-cleaning verification and dryer vent service.** A technician inspects cleared runs with a mirror or camera, replaces register covers, and — if included in the scope — clears and flow-tests the dryer exhaust duct from the back of the dryer to the exterior termination cap.
+5. **Post-cleaning verification and dryer vent service.** A technician inspects cleared runs with a mirror or camera, replaces register covers, and, if included in the scope, clears and flow-tests the dryer exhaust duct from the back of the dryer to the exterior termination cap.
 
 ## What separates a good duct cleaning from a bad one
 
-The most common shortcut in this industry is skipping negative pressure entirely — a technician with a portable shop vac and a brush kit will dislodge debris without capturing it, redistributing particulates through the home. If no collection unit is connected to the trunk line before agitation begins, the cleaning is making air quality worse before it gets better.
+The most common shortcut in this industry is skipping negative pressure entirely, a technician with a portable shop vac and a brush kit will dislodge debris without capturing it, redistributing particulates through the home. If no collection unit is connected to the trunk line before agitation begins, the cleaning is making air quality worse before it gets better.
 
 A second missed step is the air handler itself. Cleaning only the duct runs while leaving a dirty blower wheel or a mold-colonized drain pan means the system will re-contaminate the ducts within weeks. Good operators treat the air handler as part of the same system, not a separate line item to upsell later.
 
-For homes with older duct insulation or flex duct installed before the mid-1990s, a technician should flag any sections with asbestos-containing duct wrap or deteriorating inner liner — both require a different handling protocol before mechanical cleaning begins. Auburn's housing stock includes a significant number of homes built between 1950 and 1980 where this is worth checking.
+For homes with older duct insulation or flex duct installed before the mid-1990s, a technician should flag any sections with asbestos-containing duct wrap or deteriorating inner liner, both require a different handling protocol before mechanical cleaning begins. Auburn's housing stock includes a significant number of homes built between 1950 and 1980 where this is worth checking.
 
-Finally, air duct sanitization is only effective after thorough mechanical cleaning. Applying an antimicrobial coating over dust-laden duct walls does not kill mold — it seals debris in place temporarily and gives a false sense of remediation.
+Finally, air duct sanitization is only effective after thorough mechanical cleaning. Applying an antimicrobial coating over dust-laden duct walls does not kill mold, it seals debris in place temporarily and gives a false sense of remediation.
 
 ## What does air duct cleaning cost?
 
 Cost depends on the documented scope of work. Every home is different, and factors like system size, number of registers, accessibility, contamination level, and whether sanitization or dryer vent service is needed all affect what a job requires. We produce a line-item scope with photos and moisture readings formatted for insurance carriers before any work begins, so there are no surprises. For insured losses, we bill the carrier directly.
 
-Homeowners insurance typically does not cover routine duct cleaning, but it may cover duct cleaning and sanitization when it is part of a documented water damage or mold remediation claim — for example, when a duct system is contaminated following a roof leak or HVAC condensate overflow. Quality Contracting, Inc. works with all major insurance carriers and handles claim documentation when coverage applies.
+Homeowners insurance typically does not cover routine duct cleaning, but it may cover duct cleaning and sanitization when it is part of a documented water damage or mold remediation claim, for example, when a duct system is contaminated following a roof leak or HVAC condensate overflow. Quality Contracting, Inc. works with all major insurance carriers and handles claim documentation when coverage applies.
 
 ## Seasonal and regional considerations
 
-In Central Massachusetts, the shoulder seasons — late September through November and again in March and April — are the most practical windows for duct cleaning. Systems are transitioning between heating and cooling, which means the HVAC won't be needed urgently while the work is being done. It's also worth timing a cleaning after any major renovation project: drywall dust and fiberglass particles from insulation work settle into duct runs quickly and are abrasive to blower components over time.
+In Central Massachusetts, the shoulder seasons, late September through November and again in March and April, are the most practical windows for duct cleaning. Systems are transitioning between heating and cooling, which means the HVAC won't be needed urgently while the work is being done. It's also worth timing a cleaning after any major renovation project: drywall dust and fiberglass particles from insulation work settle into duct runs quickly and are abrasive to blower components over time.
 
-Auburn's humidity profile through July and August also matters. If the evaporator coil or drain pan has been running wet — a common issue when systems are oversized or drain lines are partially blocked — late-summer cleanings should include a close inspection for microbial growth before the system is sealed back up for heating season.
+Auburn's humidity profile through July and August also matters. If the evaporator coil or drain pan has been running wet, a common issue when systems are oversized or drain lines are partially blocked, late-summer cleanings should include a close inspection for microbial growth before the system is sealed back up for heating season.
 
 ## Service area
 
-Quality Contracting, Inc. is based in Auburn, MA and serves homeowners, property managers, and commercial building owners across Southern New England, with crews responding across a 50 mile radius of Auburn — including Worcester, Shrewsbury, Westborough, Southborough, Hopkinton, Framingham, Natick, Wellesley, Needham, Newton, and Weston. Individual city and town service pages link back here for full process detail.
+Quality Contracting, Inc. is based in Auburn, MA and serves homeowners, property managers, and commercial building owners across Southern New England, with crews responding across a 50 mile radius of Auburn, including Worcester, Shrewsbury, Westborough, Southborough, Hopkinton, Framingham, Natick, Wellesley, Needham, Newton, and Weston. Individual city and town service pages link back here for full process detail.
 
-If your registers are dusty hours after cleaning, your system smells musty on startup, or you haven't had the ducts inspected since your last renovation — call (508) 756-8800 to schedule your duct cleaning assessment.
+If your registers are dusty hours after cleaning, your system smells musty on startup, or you haven't had the ducts inspected since your last renovation, call (508) 756-8800 to schedule your duct cleaning assessment.

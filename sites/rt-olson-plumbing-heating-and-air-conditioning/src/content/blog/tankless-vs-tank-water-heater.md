@@ -17,13 +17,13 @@ published_at: "2026-08-09"
 services: ["water-heater-installation"]
 rendered: true
 ---
-Both types heat your water and both will last years if maintained — but they work very differently, and the right choice depends on your household size, how your home is set up, and what you want to spend now versus later. The short answer: a tank water heater costs less upfront and is simpler to replace, while a tankless unit costs more to install but uses less energy and never runs out of hot water mid-shower. Neither is universally better. What follows breaks down the real-world differences so you can make the call with confidence.
+Both types heat your water and both will last years if maintained, but they work very differently, and the right choice depends on your household size, how your home is set up, and what you want to spend now versus later. The short answer: a tank water heater costs less upfront and is simpler to replace, while a tankless unit costs more to install but uses less energy and never runs out of hot water mid-shower. Neither is universally better. What follows breaks down the real-world differences so you can make the call with confidence.
 
 ## How Each System Actually Works
 
-A **storage tank water heater** keeps 30 to 80 gallons of water hot around the clock, ready the moment you turn on a faucet. A gas burner or electric element cycles on and off to maintain that temperature — even at 2 a.m. when nobody needs hot water. That constant reheating is called standby heat loss, and it's the main reason tank units cost more to run over time.
+A **storage tank water heater** keeps 30 to 80 gallons of water hot around the clock, ready the moment you turn on a faucet. A gas burner or electric element cycles on and off to maintain that temperature, even at 2 a.m. when nobody needs hot water. That constant reheating is called standby heat loss, and it's the main reason tank units cost more to run over time.
 
-A **tankless water heater** (also called an on-demand or instantaneous heater) has no storage tank. Cold water flows through a heat exchanger — typically fired by a high-output gas burner or a large electric element — and exits hot within a few seconds. Because it only heats water when you ask for it, there's no standby loss. The trade-off is that the unit has a maximum flow rate, measured in gallons per minute (GPM). If two showers and a dishwasher run simultaneously, a single undersized tankless unit may struggle to keep up.
+A **tankless water heater** (also called an on-demand or instantaneous heater) has no storage tank. Cold water flows through a heat exchanger, typically fired by a high-output gas burner or a large electric element, and exits hot within a few seconds. Because it only heats water when you ask for it, there's no standby loss. The trade-off is that the unit has a maximum flow rate, measured in gallons per minute (GPM). If two showers and a dishwasher run simultaneously, a single undersized tankless unit may struggle to keep up.
 
 Southern California's incoming water temperature is relatively mild compared to colder climates, which is actually an advantage for tankless performance: the heat exchanger doesn't have to work as hard to raise water to 120°F when the groundwater is already in the mid-60s.
 
@@ -32,15 +32,15 @@ Southern California's incoming water temperature is relatively mild compared to 
 This is where most homeowners get tripped up comparing sticker prices without accounting for the full picture.
 
 **Storage tank water heaters:**
-- Equipment cost is lower — a quality 50-gallon gas unit typically runs $600–$1,000 before installation.
+- Equipment cost is lower, a quality 50-gallon gas unit typically runs $600–$1,000 before installation.
 - Installation is usually straightforward, especially if you're replacing an existing tank in the same location.
 - Energy costs are higher over time because of standby heat loss.
 - Lifespan is typically 8–12 years with regular maintenance.
 
 **Tankless water heaters:**
-- Equipment cost is higher — a whole-house gas tankless unit commonly runs $1,000–$2,000 or more before installation.
+- Equipment cost is higher, a whole-house gas tankless unit commonly runs $1,000–$2,000 or more before installation.
 - Installation can be significantly more involved: gas lines often need to be upsized to handle the higher BTU demand, and venting requirements are different. Budget for that work.
-- Energy costs are lower — the U.S. Department of Energy estimates tankless units can be 24–34% more energy-efficient than storage tanks for homes that use a moderate amount of hot water.
+- Energy costs are lower, the U.S. Department of Energy estimates tankless units can be 24–34% more energy-efficient than storage tanks for homes that use a moderate amount of hot water.
 - Lifespan is typically 15–20 years, and most parts are individually replaceable.
 
 The math usually favors tankless over a 15-year horizon, but that break-even point depends heavily on your gas rate, how much hot water your household uses, and what the installation actually costs at your home.
@@ -51,7 +51,7 @@ This is the most practical filter to apply.
 
 **If you have 1–2 people in the home**, a smaller tank (30–40 gallons) or a single mid-range tankless unit will handle your demand without issue. Either option works well.
 
-**If you have 3–4 people**, you're in the middle ground. A 50-gallon tank will cover most households comfortably. A properly sized tankless unit — typically 7–9 GPM for a gas model — will handle simultaneous demand, but sizing matters. An undersized unit is the most common complaint people have about tankless heaters, and it's almost always a spec problem, not a technology problem.
+**If you have 3–4 people**, you're in the middle ground. A 50-gallon tank will cover most households comfortably. A properly sized tankless unit, typically 7–9 GPM for a gas model, will handle simultaneous demand, but sizing matters. An undersized unit is the most common complaint people have about tankless heaters, and it's almost always a spec problem, not a technology problem.
 
 **If you have 5 or more people, or a large home with multiple bathrooms**, a high-output tankless unit or a tandem tankless setup (two units running in parallel) is worth considering. Alternatively, a large-capacity tank (75–80 gallons) can work, though recovery time after heavy use becomes a factor.
 
@@ -64,13 +64,13 @@ If those scenarios happen regularly in your home, a tankless unit rated at 8–1
 
 ## Installation Realities in Corona-Area Homes
 
-California has specific requirements for water heater installation — seismic strapping, proper venting, and permit-required work — that apply to both tank and tankless units. That's not unique to tankless, but it's worth knowing that pulling permits and having the work inspected is standard practice here, not optional.
+California has specific requirements for water heater installation, seismic strapping, proper venting, and permit-required work, that apply to both tank and tankless units. That's not unique to tankless, but it's worth knowing that pulling permits and having the work inspected is standard practice here, not optional.
 
 Where tankless installations get more complex in older homes is the gas supply. Many homes built before the 1990s have ¾-inch gas lines that were sized for the original appliances. A whole-house tankless unit may require a dedicated ¾-inch or even 1-inch gas line run directly from the meter. That's additional labor and materials that need to be quoted before you commit.
 
 Electric tankless units avoid the gas line issue but create a different one: whole-house electric tankless heaters typically require 200-amp service and multiple dedicated 240V circuits. If your panel is already close to capacity, an upgrade may be part of the cost.
 
-Venting is another difference. Traditional tank water heaters use a B-vent that may already be in place. Most high-efficiency tankless units use a sealed, direct-vent system with PVC or stainless flue pipes — a different configuration that may require new penetrations through the wall or roof.
+Venting is another difference. Traditional tank water heaters use a B-vent that may already be in place. Most high-efficiency tankless units use a sealed, direct-vent system with PVC or stainless flue pipes, a different configuration that may require new penetrations through the wall or roof.
 
 None of these are deal-breakers, but they're real costs that a proper quote will surface. Getting that quote before you decide is the right order of operations.
 
@@ -84,6 +84,6 @@ Run through these questions:
 4. **Do you want simplicity or efficiency?** Tank water heaters are easier to service and have lower repair costs when something goes wrong. Tankless units are more efficient but have more components and benefit from annual descaling, especially in areas with hard water.
 5. **What's your budget for installation, not just equipment?** Get a full installed price for both options before deciding.
 
-There's no wrong answer here — both technologies are mature and reliable when properly sized and installed. The mistake is choosing based on equipment price alone without accounting for installation requirements and long-term operating costs.
+There's no wrong answer here, both technologies are mature and reliable when properly sized and installed. The mistake is choosing based on equipment price alone without accounting for installation requirements and long-term operating costs.
 
-If you're ready to get a real number for your home, RT Olson Plumbing, Heating and Air Conditioning installs both tank and tankless water heaters in Corona and the surrounding area. A call to **(951) 344-5596** will get you a straight answer on what each option would actually cost and what makes sense for your setup — no pressure to go one direction or the other.
+If you're ready to get a real number for your home, RT Olson Plumbing, Heating and Air Conditioning installs both tank and tankless water heaters in Corona and the surrounding area. A call to **(951) 344-5596** will get you a straight answer on what each option would actually cost and what makes sense for your setup, no pressure to go one direction or the other.

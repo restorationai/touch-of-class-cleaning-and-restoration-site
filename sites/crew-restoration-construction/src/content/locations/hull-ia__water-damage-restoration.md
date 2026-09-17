@@ -20,7 +20,7 @@ state: "IA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
-Hull sits in the heart of Sioux County, where northwest Iowa's freeze-thaw cycles hit hard and the region's agricultural roots mean a lot of older homes and outbuildings that weren't always built with modern moisture barriers in mind. When a pipe bursts in January or a sump pump fails during a spring thaw, water moves fast through crawl spaces and basement floors — and in a community this size, a professional water damage crew isn't always around the corner. That's why Crew Restoration & Construction makes the drive from Sioux Falls to 51239 when Hull homeowners and property managers need water removed and structures dried correctly.
+Hull sits in the heart of Sioux County, where northwest Iowa's freeze-thaw cycles hit hard and the region's agricultural roots mean a lot of older homes and outbuildings that weren't always built with modern moisture barriers in mind. When a pipe bursts in January or a sump pump fails during a spring thaw, water moves fast through crawl spaces and basement floors, and in a community this size, a professional water damage crew isn't always around the corner. That's why Crew Restoration & Construction makes the drive from Sioux Falls to 51239 when Hull homeowners and property managers need water removed and structures dried correctly.
 
 ## Why Hull Properties See Water Damage Issues
 
@@ -28,13 +28,13 @@ Northwest Iowa's climate is unforgiving in both directions. Winters regularly pu
 
 ## Our Water Damage Restoration Process in Hull
 
-When we arrive at a Hull property, the first priority is stopping the source — whether that's a failed water heater, a ruptured supply line, or a backed-up floor drain. From there, the process moves in a deliberate sequence:
+When we arrive at a Hull property, the first priority is stopping the source, whether that's a failed water heater, a ruptured supply line, or a backed-up floor drain. From there, the process moves in a deliberate sequence:
 
 **1. Moisture mapping.** We use thermal imaging cameras and calibrated moisture meters to trace water migration behind walls and under flooring before a single panel comes off. In older Hull homes, water often travels farther than it appears.
 
-**2. Water extraction.** Truck-mounted extractors pull standing water from basements, main floors, and crawl spaces. For saturated carpet and pad, we use weighted extraction heads that force water up from the backing — a step that's easy to skip but critical for preventing secondary damage.
+**2. Water extraction.** Truck-mounted extractors pull standing water from basements, main floors, and crawl spaces. For saturated carpet and pad, we use weighted extraction heads that force water up from the backing, a step that's easy to skip but critical for preventing secondary damage.
 
-**3. Structural drying.** Industrial air movers and refrigerant dehumidifiers run in a calculated configuration based on the room's cubic footage and the materials present. Drying logs are recorded daily so there's a documented record — useful for insurance adjusters and for confirming the structure is genuinely dry, not just surface-dry.
+**3. Structural drying.** Industrial air movers and refrigerant dehumidifiers run in a calculated configuration based on the room's cubic footage and the materials present. Drying logs are recorded daily so there's a documented record, useful for insurance adjusters and for confirming the structure is genuinely dry, not just surface-dry.
 
 **4. Antimicrobial treatment.** Mold can begin colonizing wet organic material within 24 to 48 hours. We apply EPA-registered antimicrobials to affected framing, subfloor, and drywall as a precaution, not an afterthought.
 
@@ -42,14 +42,14 @@ When we arrive at a Hull property, the first priority is stopping the source —
 
 ## Reaching Hull from Sioux Falls
 
-Crew Restoration & Construction is headquartered in Sioux Falls and serves communities across the region, including Hull. The drive runs west on I-90 and then north through Sioux County — roughly 90 miles depending on the route. We schedule Hull calls promptly and communicate an accurate arrival window so you're not waiting and wondering. If you're near Hull City Park or in the West Hull area, give us the cross streets when you call — it helps us route directly and avoid any delays in a community where address signage can be sparse on the residential side streets.
+Crew Restoration & Construction is headquartered in Sioux Falls and serves communities across the region, including Hull. The drive runs west on I-90 and then north through Sioux County, roughly 90 miles depending on the route. We schedule Hull calls promptly and communicate an accurate arrival window so you're not waiting and wondering. If you're near Hull City Park or in the West Hull area, give us the cross streets when you call, it helps us route directly and avoid any delays in a community where address signage can be sparse on the residential side streets.
 
 ## Hull Insurance Coordination
 
-Most standard homeowners policies cover sudden and accidental water damage — a burst pipe, an appliance failure, an ice-dam overflow — but the documentation has to be thorough to avoid a partial denial. We photograph affected materials before removal, generate moisture-reading logs with timestamps, and produce a detailed scope of loss that aligns with the format most major carriers expect. We work with your adjuster directly and can provide supplemental documentation if the initial estimate is disputed. If your policy has a mold exclusion, knowing that early changes how we sequence the work, so flag it when you call.
+Most standard homeowners policies cover sudden and accidental water damage, a burst pipe, an appliance failure, an ice-dam overflow, but the documentation has to be thorough to avoid a partial denial. We photograph affected materials before removal, generate moisture-reading logs with timestamps, and produce a detailed scope of loss that aligns with the format most major carriers expect. We work with your adjuster directly and can provide supplemental documentation if the initial estimate is disputed. If your policy has a mold exclusion, knowing that early changes how we sequence the work, so flag it when you call.
 
 ## Local Note
 
-One thing that comes up specifically in Sioux County's older agricultural communities: homes near Hull City Park and in the established blocks of Downtown Hull often have clay tile sewer laterals that are decades old. When a water loss happens and we're running extraction equipment, the increased flow can expose a pre-existing crack or root intrusion in that lateral — something that wouldn't have been visible otherwise. We flag it when we see it. It's not our scope to repair the lateral, but catching it during a water loss is far better than discovering it six months later when a slow backup causes a second damage event.
+One thing that comes up specifically in Sioux County's older agricultural communities: homes near Hull City Park and in the established blocks of Downtown Hull often have clay tile sewer laterals that are decades old. When a water loss happens and we're running extraction equipment, the increased flow can expose a pre-existing crack or root intrusion in that lateral, something that wouldn't have been visible otherwise. We flag it when we see it. It's not our scope to repair the lateral, but catching it during a water loss is far better than discovering it six months later when a slow backup causes a second damage event.
 
 If water has reached your floors, walls, or crawl space in Hull, the window for preventing secondary damage is short. Call Crew Restoration & Construction at (605) 965-2727 to schedule an assessment and get a crew moving toward your property.

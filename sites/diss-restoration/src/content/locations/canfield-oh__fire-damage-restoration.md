@@ -20,43 +20,43 @@ state: "OH"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-Canfield sits in Mahoning County's rolling terrain, where older residential neighborhoods mix craftsman bungalows and mid-century ranch homes with newer subdivisions — and where a house fire leaves behind more than char. Smoke travels fast through the balloon-frame construction common in the area's pre-1970 housing stock, infiltrating wall cavities and attic spaces long before the fire department clears the scene. DISS Restoration responds 24/7 to fire damage calls in Canfield, bringing IICRC FSRT-certified technicians and the equipment to address not just what burned, but everything the smoke and soot touched.
+Canfield sits in Mahoning County's rolling terrain, where older residential neighborhoods mix craftsman bungalows and mid-century ranch homes with newer subdivisions, and where a house fire leaves behind more than char. Smoke travels fast through the balloon-frame construction common in the area's pre-1970 housing stock, infiltrating wall cavities and attic spaces long before the fire department clears the scene. DISS Restoration responds 24/7 to fire damage calls in Canfield, bringing IICRC FSRT-certified technicians and the equipment to address not just what burned, but everything the smoke and soot touched.
 
 ## Why Canfield Properties Face Particular Challenges After a Fire
 
-Mahoning County's climate swings matter here. Cold Ohio winters mean homes are sealed tight for months at a time — good for heating bills, bad for smoke odor. When a fire occurs in January or February, the same weatherproofing that keeps heat in traps combustion byproducts inside wall assemblies, ductwork, and insulation. Soot particles are acidic and begin etching surfaces — metals, glass, finished wood — within hours. In a tightly insulated Canfield home, that damage clock runs fast.
+Mahoning County's climate swings matter here. Cold Ohio winters mean homes are sealed tight for months at a time, good for heating bills, bad for smoke odor. When a fire occurs in January or February, the same weatherproofing that keeps heat in traps combustion byproducts inside wall assemblies, ductwork, and insulation. Soot particles are acidic and begin etching surfaces, metals, glass, finished wood, within hours. In a tightly insulated Canfield home, that damage clock runs fast.
 
-The area's housing stock adds another layer. Many Canfield homes built between the 1940s and 1970s used plaster-and-lath wall systems rather than modern drywall. Plaster is porous, and smoke odor compounds absorb into it deeply. Surface cleaning alone won't resolve the smell — restoration work has to account for what's behind the wall finish, not just what's visible.
+The area's housing stock adds another layer. Many Canfield homes built between the 1940s and 1970s used plaster-and-lath wall systems rather than modern drywall. Plaster is porous, and smoke odor compounds absorb into it deeply. Surface cleaning alone won't resolve the smell, restoration work has to account for what's behind the wall finish, not just what's visible.
 
 Gas service in this part of Mahoning County also means that fire investigations sometimes involve utility coordination before restoration crews can fully access affected areas. DISS works alongside the responding utility and fire marshal as needed so the documentation and safety steps happen in the right order.
 
 ## Our Fire Damage Restoration Process in Canfield
 
-Every fire loss is different, but the sequence of professional restoration follows a disciplined path. After the fire marshal releases the property, our IICRC-certified team conducts a thorough assessment — mapping the fire origin, the heat damage radius, and the smoke migration path through the structure. In Canfield's older homes, that smoke path often extends well beyond the room of origin.
+Every fire loss is different, but the sequence of professional restoration follows a disciplined path. After the fire marshal releases the property, our IICRC-certified team conducts a thorough assessment, mapping the fire origin, the heat damage radius, and the smoke migration path through the structure. In Canfield's older homes, that smoke path often extends well beyond the room of origin.
 
 From there, the process moves through these stages:
 
-- **Board-up and structural stabilization** — securing windows, doors, and any compromised roof sections against weather and unauthorized entry
-- **Contents inventory and pack-out** — salvageable belongings are documented, packed, and moved to a controlled environment for cleaning
-- **Soot and char removal** — dry chemical sponges, HEPA vacuuming, and wet cleaning methods calibrated to the surface type
-- **Odor neutralization** — thermal fogging and hydroxyl generation to reach smoke compounds in cavities, ductwork, and porous materials
-- **Structural drying if water is present** — suppression water from firefighting creates a secondary damage layer; our IICRC ASD-certified team handles both simultaneously
-- **Reconstruction coordination** — once the structure is clean and dry, rebuild work begins
+- **Board-up and structural stabilization**, securing windows, doors, and any compromised roof sections against weather and unauthorized entry
+- **Contents inventory and pack-out**, salvageable belongings are documented, packed, and moved to a controlled environment for cleaning
+- **Soot and char removal**, dry chemical sponges, HEPA vacuuming, and wet cleaning methods calibrated to the surface type
+- **Odor neutralization**, thermal fogging and hydroxyl generation to reach smoke compounds in cavities, ductwork, and porous materials
+- **Structural drying if water is present**, suppression water from firefighting creates a secondary damage layer; our IICRC ASD-certified team handles both simultaneously
+- **Reconstruction coordination**, once the structure is clean and dry, rebuild work begins
 
-EPA Lead-Safe certification matters on this list. Many Canfield homes built before 1978 contain lead-based paint. Fire and demo work that disturbs those surfaces requires specific containment and disposal protocols — something our team is trained and certified to handle.
+EPA Lead-Safe certification matters on this list. Many Canfield homes built before 1978 contain lead-based paint. Fire and demo work that disturbs those surfaces requires specific containment and disposal protocols, something our team is trained and certified to handle.
 
 ## Reaching Canfield from Youngstown
 
-DISS Restoration is based in Youngstown, and Canfield is a direct run south on US-224 — a straightforward route that keeps response times short for a 24/7 emergency call. Whether the loss is in a neighborhood closer to the township center or further out toward the county line, our crews can mobilize and be on-site without the delays that come with more distant service areas. When you call (724) 981-1441, you reach someone who can dispatch immediately, any hour.
+DISS Restoration is based in Youngstown, and Canfield is a direct run south on US-224, a straightforward route that keeps response times short for a 24/7 emergency call. Whether the loss is in a neighborhood closer to the township center or further out toward the county line, our crews can mobilize and be on-site without the delays that come with more distant service areas. When you call (724) 981-1441, you reach someone who can dispatch immediately, any hour.
 
 ## Insurance Documentation for Canfield Fire Claims
 
-Fire claims are among the most document-intensive losses a homeowner faces. Carriers want a clear record of pre-loss conditions, cause and origin details from the fire report, a scope of damage, and itemized restoration costs. DISS prepares that documentation systematically — photographs, moisture and air quality readings, materials lists — and works directly with adjusters to keep the claim moving. You're not left translating between a contractor and an insurance company; we handle that communication.
+Fire claims are among the most document-intensive losses a homeowner faces. Carriers want a clear record of pre-loss conditions, cause and origin details from the fire report, a scope of damage, and itemized restoration costs. DISS prepares that documentation systematically, photographs, moisture and air quality readings, materials lists, and works directly with adjusters to keep the claim moving. You're not left translating between a contractor and an insurance company; we handle that communication.
 
 If your policy includes ALE (additional living expenses) coverage, we can help clarify what the scope of damage supports so your adjuster has what they need to authorize temporary housing costs while restoration is underway.
 
 ## Local Note
 
-Canfield's mix of plaster-wall construction and tight modern insulation creates a specific odor challenge that crews unfamiliar with the local housing stock sometimes underestimate. Plaster absorbs smoke compounds at a molecular level, and standard deodorization timed for drywall construction won't reach what's embedded in a 1950s plaster wall. Our technicians adjust dwell times and treatment cycles when they're working in that older construction — it's a detail that makes the difference between a home that smells clean and one that still carries smoke six months later.
+Canfield's mix of plaster-wall construction and tight modern insulation creates a specific odor challenge that crews unfamiliar with the local housing stock sometimes underestimate. Plaster absorbs smoke compounds at a molecular level, and standard deodorization timed for drywall construction won't reach what's embedded in a 1950s plaster wall. Our technicians adjust dwell times and treatment cycles when they're working in that older construction, it's a detail that makes the difference between a home that smells clean and one that still carries smoke six months later.
 
 If your Canfield home has suffered fire or smoke damage, call DISS Restoration at (724) 981-1441. We're available around the clock, and the sooner the assessment begins, the more of your home and belongings can be saved.

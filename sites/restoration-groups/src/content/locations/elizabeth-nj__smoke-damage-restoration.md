@@ -20,22 +20,22 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
-A kitchen fire in a Peterstown two-family can fill both floors with smoke in minutes — and in Elizabeth's tightly packed early-1900s frame housing stock, the odor and residue rarely stay contained to a single unit. Smoke from burning synthetic materials bonds to plaster lath, original hardwood trim, and the century-old horsehair insulation still found in many walls throughout Elmora and Midtown. The Restoration Group is an IICRC Certified Firm (#210213) based in Kenilworth, about ten minutes from Elizabeth's core, available around the clock because smoke damage does not wait for business hours.
+A kitchen fire in a Peterstown two-family can fill both floors with smoke in minutes, and in Elizabeth's tightly packed early-1900s frame housing stock, the odor and residue rarely stay contained to a single unit. Smoke from burning synthetic materials bonds to plaster lath, original hardwood trim, and the century-old horsehair insulation still found in many walls throughout Elmora and Midtown. The Restoration Group is an IICRC Certified Firm (#210213) based in Kenilworth, about ten minutes from Elizabeth's core, available around the clock because smoke damage does not wait for business hours.
 
 ## Why Elizabeth Properties Face Distinct Smoke Damage Challenges
 
-Elizabeth's housing inventory skews heavily toward two- and three-family frame homes built between 1900 and 1940. That construction era means several things for smoke residue cleanup that simply do not apply in newer suburban builds. Plaster walls are porous in a way that modern drywall is not — smoke particles work into the substrate rather than sitting on the surface, which means a wipe-down is not a remediation. Original wood-framed balloon construction, common throughout Elizabethport and Bayway, allows smoke to travel vertically inside wall cavities from basement to attic without any visible path, leaving odor sources that are impossible to locate without thermal imaging and air sampling.
+Elizabeth's housing inventory skews heavily toward two- and three-family frame homes built between 1900 and 1940. That construction era means several things for smoke residue cleanup that simply do not apply in newer suburban builds. Plaster walls are porous in a way that modern drywall is not, smoke particles work into the substrate rather than sitting on the surface, which means a wipe-down is not a remediation. Original wood-framed balloon construction, common throughout Elizabethport and Bayway, allows smoke to travel vertically inside wall cavities from basement to attic without any visible path, leaving odor sources that are impossible to locate without thermal imaging and air sampling.
 
 The density of the housing stock compounds the problem. When a fire occurs in a shared-wall or attached structure near the Port Newark-Elizabeth Marine Terminal corridor or along the industrial approach to Newark Liberty International Airport, neighboring units absorb smoke through shared attic spaces, common hallways, and HVAC systems. Landlords managing multi-unit buildings face a documentation burden: each affected unit needs its own scope of work, photo log, and drying record if insurance carriers are going to pay out cleanly on a multi-family loss.
 
 ## Our Smoke Damage Restoration Process in Elizabeth
 
-When we arrive on-site, the first priority is containment — sealing HVAC registers and doorways so that soot-laden air does not migrate into unaffected spaces while we work. In older Elizabeth homes, this step matters more than in newer construction because the air sealing built into modern homes simply does not exist in pre-war framing.
+When we arrive on-site, the first priority is containment, sealing HVAC registers and doorways so that soot-laden air does not migrate into unaffected spaces while we work. In older Elizabeth homes, this step matters more than in newer construction because the air sealing built into modern homes simply does not exist in pre-war framing.
 
 From there, the process moves through a documented sequence:
 
 - **Air quality assessment** using particle counters and thermal cameras to map where smoke has traveled, including inside wall cavities.
-- **Dry soot removal** with HEPA-filtered vacuums before any wet cleaning — agitating dry soot with water first drives it deeper into porous surfaces.
+- **Dry soot removal** with HEPA-filtered vacuums before any wet cleaning, agitating dry soot with water first drives it deeper into porous surfaces.
 - **Chemical sponge and dry-cleaning methods** on plaster ceilings and original woodwork, which react poorly to aggressive wet scrubbing.
 - **Hydroxyl or ozone treatment** for embedded odor in structural cavities, calibrated to the square footage and occupancy status of the unit.
 - **Sealed primer application** on porous masonry and plaster surfaces before any repainting, so odor does not bleed through new finishes months later.
@@ -45,7 +45,7 @@ Every step is documented with timestamped photos and moisture readings, formatte
 
 ## Reaching Elizabeth from Kenilworth
 
-The Restoration Group's Kenilworth shop sits roughly ten minutes from central Elizabeth via the Garden State Parkway or Route 28. We serve every ZIP code in the city — 07201, 07202, 07206, and 07208 — and our 24/7 availability means a call at 2 a.m. from a landlord in North Elizabeth or a property manager near Warinanco Park gets the same response as a mid-afternoon call. We know the neighborhood street grid well enough to stage equipment efficiently in areas where parking and access are tight, which matters when you are trying to protect a building's unaffected units while working on the damaged one.
+The Restoration Group's Kenilworth shop sits roughly ten minutes from central Elizabeth via the Garden State Parkway or Route 28. We serve every ZIP code in the city, 07201, 07202, 07206, and 07208, and our 24/7 availability means a call at 2 a.m. from a landlord in North Elizabeth or a property manager near Warinanco Park gets the same response as a mid-afternoon call. We know the neighborhood street grid well enough to stage equipment efficiently in areas where parking and access are tight, which matters when you are trying to protect a building's unaffected units while working on the damaged one.
 
 ## Elizabeth Insurance Coordination for Smoke Losses
 
@@ -53,6 +53,6 @@ Multi-family smoke losses in Elizabeth tend to generate complex insurance situat
 
 ## Local Note
 
-In Elizabeth's Elizabethport and Bayway neighborhoods, many older wood-frame homes have been re-sided with aluminum or vinyl cladding over the original exterior. After a fire, smoke odor can become trapped in the air gap between the new cladding and the original sheathing — a space that standard interior remediation does not reach. We probe those cavities with borescope cameras when the fire origin or smoke travel pattern suggests exterior-wall involvement. Skipping that step is one of the most common reasons a post-fire odor complaint resurfaces three months after a restoration is supposedly complete.
+In Elizabeth's Elizabethport and Bayway neighborhoods, many older wood-frame homes have been re-sided with aluminum or vinyl cladding over the original exterior. After a fire, smoke odor can become trapped in the air gap between the new cladding and the original sheathing, a space that standard interior remediation does not reach. We probe those cavities with borescope cameras when the fire origin or smoke travel pattern suggests exterior-wall involvement. Skipping that step is one of the most common reasons a post-fire odor complaint resurfaces three months after a restoration is supposedly complete.
 
-If you are dealing with smoke residue in an Elizabeth property — whether it is a single unit or an entire multi-family building — call The Restoration Group at (908) 970-8533. We will assess the full extent of the loss, document it properly for your insurance carrier, and restore the structure to a condition you can actually live or rent in.
+If you are dealing with smoke residue in an Elizabeth property, whether it is a single unit or an entire multi-family building, call The Restoration Group at (908) 970-8533. We will assess the full extent of the loss, document it properly for your insurance carrier, and restore the structure to a condition you can actually live or rent in.

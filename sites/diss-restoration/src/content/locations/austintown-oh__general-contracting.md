@@ -20,37 +20,37 @@ state: "OH"
 service_display: "Renovations, Remodels and General Contracting"
 rendered: true
 ---
-Austintown's housing stock tells a familiar Mahoning Valley story: mid-century ranch homes and split-levels built during the postwar boom, many of them sitting on clay-heavy soils that shift with Ohio's freeze-thaw cycles and leave foundations, door frames, and interior walls slightly out of true by the time a homeowner decides to renovate. Whether you're updating a kitchen that hasn't changed since the 1970s, converting a basement that took on water last spring, or rebuilding after fire or flood damage, DISS Restoration handles the full scope of general contracting work in Austintown — from the first demo swing to the final coat of paint.
+Austintown's housing stock tells a familiar Mahoning Valley story: mid-century ranch homes and split-levels built during the postwar boom, many of them sitting on clay-heavy soils that shift with Ohio's freeze-thaw cycles and leave foundations, door frames, and interior walls slightly out of true by the time a homeowner decides to renovate. Whether you're updating a kitchen that hasn't changed since the 1970s, converting a basement that took on water last spring, or rebuilding after fire or flood damage, DISS Restoration handles the full scope of general contracting work in Austintown, from the first demo swing to the final coat of paint.
 
 ## Why Austintown's Building Stock Shapes Every Renovation
 
-A significant portion of Austintown's residential construction dates to the 1950s through the 1970s, and that era comes with specific realities that affect every remodeling project. Homes from that period frequently contain original plaster-and-lath walls, cast-iron drain stacks, and galvanized supply lines that are well past their service life. Before a kitchen or bathroom remodel can move forward, it's common to find plumbing that needs to be brought up to current Ohio Residential Code standards — not because something has failed yet, but because opening a wall makes the deficiency visible and, at that point, code-required to address.
+A significant portion of Austintown's residential construction dates to the 1950s through the 1970s, and that era comes with specific realities that affect every remodeling project. Homes from that period frequently contain original plaster-and-lath walls, cast-iron drain stacks, and galvanized supply lines that are well past their service life. Before a kitchen or bathroom remodel can move forward, it's common to find plumbing that needs to be brought up to current Ohio Residential Code standards, not because something has failed yet, but because opening a wall makes the deficiency visible and, at that point, code-required to address.
 
 Ohio's clay-dominant soils throughout the Mahoning Valley also mean that crawl spaces and slab edges see seasonal movement. That movement telegraphs into interior finishes: tile grout cracks, door casings rack, and drywall seams open up. A renovation that doesn't account for that underlying movement will show the same problems within a few years. DISS Restoration's IICRC-certified team approaches structural work with that context in mind, assessing subfloor and framing conditions before specifying finish materials.
 
 ## Our Renovation and General Contracting Process in Austintown
 
-Every project starts with a walkthrough that goes beyond the cosmetic scope. We look at what's behind the walls, under the floors, and in the mechanical chases — because in a 1960s Austintown ranch, the renovation you planned and the renovation you actually need are often different conversations.
+Every project starts with a walkthrough that goes beyond the cosmetic scope. We look at what's behind the walls, under the floors, and in the mechanical chases, because in a 1960s Austintown ranch, the renovation you planned and the renovation you actually need are often different conversations.
 
 From there the process moves through a clear sequence:
 
-- **Scope and permitting** — Mahoning County and local township requirements govern what needs a permit and what doesn't. We handle permit applications and coordinate inspections so the project doesn't stall waiting on paperwork.
-- **Demolition and abatement** — Homes built before 1978 require EPA Lead-Safe certified practices during any work that disturbs painted surfaces. DISS Restoration holds that certification and follows the required containment and disposal protocols.
-- **Structural and mechanical rough-in** — Framing corrections, plumbing updates, electrical rough-in, and HVAC modifications happen before any finish work is scheduled.
-- **Finish work and punch-out** — Drywall, tile, cabinetry, trim, and paint are sequenced to minimize rework and keep the project on schedule.
+- **Scope and permitting**, Mahoning County and local township requirements govern what needs a permit and what doesn't. We handle permit applications and coordinate inspections so the project doesn't stall waiting on paperwork.
+- **Demolition and abatement**, Homes built before 1978 require EPA Lead-Safe certified practices during any work that disturbs painted surfaces. DISS Restoration holds that certification and follows the required containment and disposal protocols.
+- **Structural and mechanical rough-in**, Framing corrections, plumbing updates, electrical rough-in, and HVAC modifications happen before any finish work is scheduled.
+- **Finish work and punch-out**, Drywall, tile, cabinetry, trim, and paint are sequenced to minimize rework and keep the project on schedule.
 
-For post-damage rebuilds — after a water loss, fire, or mold remediation — we coordinate directly with your insurance carrier, providing the documentation and line-item estimates adjusters need to process the claim.
+For post-damage rebuilds, after a water loss, fire, or mold remediation, we coordinate directly with your insurance carrier, providing the documentation and line-item estimates adjusters need to process the claim.
 
 ## Reaching Austintown from Youngstown
 
-DISS Restoration is based in Youngstown, and Austintown sits directly to the west along the US-422 corridor, making it one of the most accessible communities we serve. The drive is straightforward in either direction, and because we operate 24/7, scheduling around your availability — not ours — is the standard approach. For post-damage work that can't wait, that accessibility matters.
+DISS Restoration is based in Youngstown, and Austintown sits directly to the west along the US-422 corridor, making it one of the most accessible communities we serve. The drive is straightforward in either direction, and because we operate 24/7, scheduling around your availability, not ours, is the standard approach. For post-damage work that can't wait, that accessibility matters.
 
 ## Working with Insurance on Post-Damage Rebuilds in Austintown
 
-When a renovation follows a covered loss — a burst pipe, a kitchen fire, storm damage — the general contracting scope has to align with what the insurance carrier has approved. That means detailed line-item estimates, photo documentation of damaged materials before removal, and sometimes a supplemental claim when hidden damage is discovered during demo. DISS Restoration handles that documentation process as part of the job, not as an add-on, so the rebuild doesn't stall while you're negotiating with an adjuster.
+When a renovation follows a covered loss, a burst pipe, a kitchen fire, storm damage, the general contracting scope has to align with what the insurance carrier has approved. That means detailed line-item estimates, photo documentation of damaged materials before removal, and sometimes a supplemental claim when hidden damage is discovered during demo. DISS Restoration handles that documentation process as part of the job, not as an add-on, so the rebuild doesn't stall while you're negotiating with an adjuster.
 
 ## Local Note
 
-Austintown's mid-century split-levels were often built with a half-story configuration that creates an awkward transition between the lower level and the main floor — a staircase that's steeper than current code allows and a ceiling height on the lower level that doesn't meet today's habitable-space minimums. Homeowners who want to finish or renovate that lower level sometimes discover the project requires more structural modification than the original estimate assumed. It's worth having that conversation before demo begins, not after.
+Austintown's mid-century split-levels were often built with a half-story configuration that creates an awkward transition between the lower level and the main floor, a staircase that's steeper than current code allows and a ceiling height on the lower level that doesn't meet today's habitable-space minimums. Homeowners who want to finish or renovate that lower level sometimes discover the project requires more structural modification than the original estimate assumed. It's worth having that conversation before demo begins, not after.
 
 If you're planning a kitchen remodel, bathroom update, basement conversion, or full post-damage rebuild in Austintown, call DISS Restoration at (724) 981-1441. We'll walk the property, give you a clear scope, and handle the project from permits to punch-out.

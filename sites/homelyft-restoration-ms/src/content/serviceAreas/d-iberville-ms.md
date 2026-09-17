@@ -19,23 +19,23 @@ state: "MS"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall or storm surge pushes water under a door in D'Iberville, HomeLyft Restoration MS responds with full-service water damage mitigation, mold remediation, fire and smoke cleanup, and structural drying — handled by a crew that knows the Gulf Coast's particular brand of moisture damage. We're based in Gulfport, and D'Iberville is a regular part of our service territory. If you're dealing with standing water, smoke odor, or a mold discovery, call us at (228) 284-5200.
+When a pipe bursts behind a wall or storm surge pushes water under a door in D'Iberville, HomeLyft Restoration MS responds with full-service water damage mitigation, mold remediation, fire and smoke cleanup, and structural drying, handled by a crew that knows the Gulf Coast's particular brand of moisture damage. We're based in Gulfport, and D'Iberville is a regular part of our service territory. If you're dealing with standing water, smoke odor, or a mold discovery, call us at (228) 284-5200.
 
 ## Restoration emergencies common in D'Iberville
 
-D'Iberville sits in Harrison County just inland from Biloxi Bay, and that geography shapes the restoration calls we receive here. The city's low-lying terrain and proximity to Back Bay of Biloxi mean that even moderate rainfall events can overwhelm residential drainage, pushing water into crawl spaces and slab-on-grade foundations before a homeowner realizes anything is wrong. Humidity routinely climbs above 80 percent from late spring through early fall, which means wet building materials — drywall, insulation, subfloor — can begin supporting mold colonization within 24 to 48 hours of a water intrusion if drying isn't started promptly.
+D'Iberville sits in Harrison County just inland from Biloxi Bay, and that geography shapes the restoration calls we receive here. The city's low-lying terrain and proximity to Back Bay of Biloxi mean that even moderate rainfall events can overwhelm residential drainage, pushing water into crawl spaces and slab-on-grade foundations before a homeowner realizes anything is wrong. Humidity routinely climbs above 80 percent from late spring through early fall, which means wet building materials, drywall, insulation, subfloor, can begin supporting mold colonization within 24 to 48 hours of a water intrusion if drying isn't started promptly.
 
-The housing stock in D'Iberville is a mix of post-Katrina rebuilds, older ranch-style homes on pier-and-beam foundations, and newer commercial corridors along Sangani Boulevard. Post-storm rebuilds sometimes used materials or techniques that differ from pre-2005 construction, and pier-and-beam foundations create crawl space environments that trap moisture year-round. Commercial properties near the retail and hospitality districts face their own challenges — flat or low-slope roofs that pond water after heavy rain, HVAC systems that cycle humid Gulf air through ductwork, and the compressed timelines that come with needing to reopen quickly after a loss.
+The housing stock in D'Iberville is a mix of post-Katrina rebuilds, older ranch-style homes on pier-and-beam foundations, and newer commercial corridors along Sangani Boulevard. Post-storm rebuilds sometimes used materials or techniques that differ from pre-2005 construction, and pier-and-beam foundations create crawl space environments that trap moisture year-round. Commercial properties near the retail and hospitality districts face their own challenges, flat or low-slope roofs that pond water after heavy rain, HVAC systems that cycle humid Gulf air through ductwork, and the compressed timelines that come with needing to reopen quickly after a loss.
 
 ## Services we provide in D'Iberville
 
 ### Water damage mitigation and structural drying
 
-Water damage in D'Iberville often starts small — a slow supply line leak, a roof penetration after a thunderstorm, a backed-up floor drain — and spreads quietly inside wall cavities and under flooring. We use thermal imaging and moisture meters to map the full extent of saturation before any drying equipment is placed. Industrial air movers and desiccant or refrigerant dehumidifiers run until readings confirm materials have returned to acceptable moisture content, not just until surfaces feel dry to the touch.
+Water damage in D'Iberville often starts small, a slow supply line leak, a roof penetration after a thunderstorm, a backed-up floor drain, and spreads quietly inside wall cavities and under flooring. We use thermal imaging and moisture meters to map the full extent of saturation before any drying equipment is placed. Industrial air movers and desiccant or refrigerant dehumidifiers run until readings confirm materials have returned to acceptable moisture content, not just until surfaces feel dry to the touch.
 
 ### Mold remediation
 
-The combination of heat, humidity, and older housing stock makes mold a consistent issue in D'Iberville homes. We contain affected areas, remove compromised materials, treat surfaces with EPA-registered antimicrobials, and document the process. We don't make guarantees about air quality outcomes — mold remediation removes visible growth and addresses the moisture source, and any air quality testing before or after is performed by a separate, independent industrial hygienist if the property owner chooses to commission it.
+The combination of heat, humidity, and older housing stock makes mold a consistent issue in D'Iberville homes. We contain affected areas, remove compromised materials, treat surfaces with EPA-registered antimicrobials, and document the process. We don't make guarantees about air quality outcomes, mold remediation removes visible growth and addresses the moisture source, and any air quality testing before or after is performed by a separate, independent industrial hygienist if the property owner chooses to commission it.
 
 ### Fire and smoke damage restoration
 
@@ -43,11 +43,11 @@ Smoke residue from a kitchen fire or electrical fault doesn't stay in the room w
 
 ### Reconstruction and build-back
 
-After mitigation is complete, many D'Iberville homeowners need more than drying — they need drywall replaced, flooring reinstalled, and cabinetry rebuilt. We handle build-back so you're working with one company through the full process rather than coordinating separately between a restoration crew and a general contractor.
+After mitigation is complete, many D'Iberville homeowners need more than drying, they need drywall replaced, flooring reinstalled, and cabinetry rebuilt. We handle build-back so you're working with one company through the full process rather than coordinating separately between a restoration crew and a general contractor.
 
 ## Coverage and how fast we can get there
 
-From our Gulfport headquarters, D'Iberville is a straightforward run — typically east on I-10 or US-90, crossing into Harrison County and reaching the city in under 30 minutes under normal traffic conditions. We can reach properties near the Promenade retail area, neighborhoods along Sangani Boulevard, and residential streets closer to the Back Bay without the routing complications that affect more remote parts of the Coast. We schedule promptly and will give you an honest arrival window when you call — we don't make blanket minute-response promises, but D'Iberville is genuinely close and a priority part of our coverage map.
+From our Gulfport headquarters, D'Iberville is a straightforward run, typically east on I-10 or US-90, crossing into Harrison County and reaching the city in under 30 minutes under normal traffic conditions. We can reach properties near the Promenade retail area, neighborhoods along Sangani Boulevard, and residential streets closer to the Back Bay without the routing complications that affect more remote parts of the Coast. We schedule promptly and will give you an honest arrival window when you call, we don't make blanket minute-response promises, but D'Iberville is genuinely close and a priority part of our coverage map.
 
 ## Building stock, site conditions, and permits in D'Iberville
 

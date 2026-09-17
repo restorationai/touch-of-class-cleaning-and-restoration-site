@@ -20,17 +20,17 @@ state: "MS"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-When fire tears through a Lumberton home, the damage rarely stops at the charred walls. Lamar County's humid subtropical climate means smoke residue and soot begin bonding to surfaces within hours, while the moisture already present in the air accelerates corrosion on metal fixtures, electronics, and structural fasteners before a cleanup crew ever arrives. That combination — Southern heat, high ambient humidity, and the particular building materials common to this part of Mississippi — makes fire and smoke restoration here a more layered job than it might be in a drier climate.
+When fire tears through a Lumberton home, the damage rarely stops at the charred walls. Lamar County's humid subtropical climate means smoke residue and soot begin bonding to surfaces within hours, while the moisture already present in the air accelerates corrosion on metal fixtures, electronics, and structural fasteners before a cleanup crew ever arrives. That combination, Southern heat, high ambient humidity, and the particular building materials common to this part of Mississippi, makes fire and smoke restoration here a more layered job than it might be in a drier climate.
 
 ## Why Lumberton Properties Face Distinct Fire Damage Challenges
 
-Lumberton sits in a region where a significant portion of the housing stock was built between the 1950s and 1980s, when construction relied heavily on wood-frame framing, older electrical systems, and materials like asbestos-containing floor tile and lead-based paint. A structural fire in one of these homes doesn't just leave soot — it can disturb hazardous materials that require careful handling before any cosmetic restoration begins. The team holds EPA Lead-Safe certification and follows established protocols for identifying and containing these materials before demolition or cleaning starts.
+Lumberton sits in a region where a significant portion of the housing stock was built between the 1950s and 1980s, when construction relied heavily on wood-frame framing, older electrical systems, and materials like asbestos-containing floor tile and lead-based paint. A structural fire in one of these homes doesn't just leave soot, it can disturb hazardous materials that require careful handling before any cosmetic restoration begins. The team holds EPA Lead-Safe certification and follows established protocols for identifying and containing these materials before demolition or cleaning starts.
 
 Lamar County also sees its share of severe thunderstorms and lightning strikes, which are among the leading ignition sources for residential fires in this part of Mississippi. A lightning-caused fire often starts in the attic or roof cavity, meaning structural damage can be hidden above ceilings long after the visible flames are out. Thermal imaging and moisture mapping are part of every initial assessment here for exactly that reason.
 
 ## The Fire Damage Restoration Process in Lumberton
 
-The first step on any fire job is stabilization — boarding windows, tarping compromised roof sections, and securing the structure against the rain that can follow a Lamar County storm. From there, the process moves through a defined sequence:
+The first step on any fire job is stabilization, boarding windows, tarping compromised roof sections, and securing the structure against the rain that can follow a Lamar County storm. From there, the process moves through a defined sequence:
 
 **1. Assessment and documentation.** Every affected surface is photographed and catalogued for the insurance claim file. Scope of damage is mapped room by room, including hidden cavities where smoke migrates.
 
@@ -38,20 +38,20 @@ The first step on any fire job is stabilization — boarding windows, tarping co
 
 **3. Smoke and soot removal.** Dry-ice blasting, HEPA vacuuming, and chemical sponge wiping are matched to the surface type. Porous materials like brick and unfinished wood require different treatment than painted drywall. The IICRC FSRT (Fire and Smoke Restoration) certification that guides this work establishes the cleaning standards applied throughout.
 
-**4. Deodorization.** Hydroxyl generators and thermal fogging reach the odor molecules embedded in wall cavities, ductwork, and subflooring — the places where smoke smell lingers for months if left untreated.
+**4. Deodorization.** Hydroxyl generators and thermal fogging reach the odor molecules embedded in wall cavities, ductwork, and subflooring, the places where smoke smell lingers for months if left untreated.
 
 **5. Reconstruction.** Framing, insulation, drywall, flooring, and finish work are completed to bring the home back to pre-loss condition, coordinated directly with the adjuster's scope.
 
 ## Reaching Lumberton from Gulfport
 
-HomeLyft Restoration MS operates out of Gulfport and reaches Lumberton via US-98 West through Hattiesburg and into Lamar County. The drive runs roughly 60 miles depending on the specific address in the area. When you call +12282845200, the team will confirm scheduling and give you an honest arrival window based on current conditions — no inflated promises about response times.
+HomeLyft Restoration MS operates out of Gulfport and reaches Lumberton via US-98 West through Hattiesburg and into Lamar County. The drive runs roughly 60 miles depending on the specific address in the area. When you call +12282845200, the team will confirm scheduling and give you an honest arrival window based on current conditions, no inflated promises about response times.
 
 ## Lumberton Insurance Coordination
 
-Fire claims in Mississippi typically involve an adjuster visit, a scope of work review, and sometimes a supplemental claim when hidden damage surfaces during demolition. The team documents the loss in a format most major carriers recognize — line-item estimates, photo logs, and moisture readings — so the adjuster has what they need without multiple site visits. If the initial scope underestimates the damage (common when smoke has traveled through HVAC systems or wall cavities), the documentation trail supports a supplement rather than leaving you to argue the difference out of pocket.
+Fire claims in Mississippi typically involve an adjuster visit, a scope of work review, and sometimes a supplemental claim when hidden damage surfaces during demolition. The team documents the loss in a format most major carriers recognize, line-item estimates, photo logs, and moisture readings, so the adjuster has what they need without multiple site visits. If the initial scope underestimates the damage (common when smoke has traveled through HVAC systems or wall cavities), the documentation trail supports a supplement rather than leaving you to argue the difference out of pocket.
 
 ## Local Note
 
-Homes in and around Lumberton that were built before the mid-1980s frequently have pier-and-beam foundations with open crawl spaces. After a fire, firefighting water and foam runoff can pool under the structure, and that moisture — combined with the heat already in the subfloor — creates conditions for mold colonization within 48 to 72 hours. On jobs in this area, the crawl space inspection is never skipped, even when the fire was contained to upper floors. A thermal camera and moisture meter go under the house on day one.
+Homes in and around Lumberton that were built before the mid-1980s frequently have pier-and-beam foundations with open crawl spaces. After a fire, firefighting water and foam runoff can pool under the structure, and that moisture, combined with the heat already in the subfloor, creates conditions for mold colonization within 48 to 72 hours. On jobs in this area, the crawl space inspection is never skipped, even when the fire was contained to upper floors. A thermal camera and moisture meter go under the house on day one.
 
 If fire has damaged your Lumberton property, the longer the soot and smoke residue sit, the deeper they penetrate and the more surfaces become permanently stained or corroded. Call HomeLyft Restoration MS at +12282845200 to schedule an assessment and get the documentation process started before the damage compounds.

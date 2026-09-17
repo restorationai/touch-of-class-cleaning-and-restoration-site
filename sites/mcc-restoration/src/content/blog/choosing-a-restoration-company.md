@@ -21,35 +21,35 @@ Choosing a restoration company after a flood, fire, or mold discovery is one of 
 
 ## Why Duncanville Homeowners Face Unique Pressure After a Loss
 
-Duncanville sits in the southern DFW corridor, which means it catches the full range of North Texas weather — spring storms that push water through crawl spaces and foundation cracks, summer heat that accelerates mold growth inside walls, and the occasional hard freeze that bursts supply lines in older homes along Wheatland Road and Camp Wisdom. When something goes wrong here, it tends to go wrong fast.
+Duncanville sits in the southern DFW corridor, which means it catches the full range of North Texas weather, spring storms that push water through crawl spaces and foundation cracks, summer heat that accelerates mold growth inside walls, and the occasional hard freeze that bursts supply lines in older homes along Wheatland Road and Camp Wisdom. When something goes wrong here, it tends to go wrong fast.
 
-That urgency is exactly what predatory contractors count on. After a major storm event, out-of-state "storm chasers" flood the area, knock on doors, and offer to start work immediately — sometimes before an adjuster has even seen the property. Signing an Assignment of Benefits (AOB) agreement with one of these companies can hand over your insurance claim entirely, leaving you with little control over the scope of work or the final settlement. Texas law has placed some limits on AOB abuse, but the pressure tactics haven't disappeared.
+That urgency is exactly what predatory contractors count on. After a major storm event, out-of-state "storm chasers" flood the area, knock on doors, and offer to start work immediately, sometimes before an adjuster has even seen the property. Signing an Assignment of Benefits (AOB) agreement with one of these companies can hand over your insurance claim entirely, leaving you with little control over the scope of work or the final settlement. Texas law has placed some limits on AOB abuse, but the pressure tactics haven't disappeared.
 
 The best defense is knowing what a legitimate restoration company looks like before you need one.
 
-## What Credentials Actually Mean — and Which Ones to Ask For
+## What Credentials Actually Mean, and Which Ones to Ask For
 
-Not every contractor who owns a wet-vac is a restoration professional. The industry has a standards body — the IICRC — that publishes the technical protocols most reputable companies follow. When a company says work was performed to the IICRC S500 standard for water damage or the S520 standard for mold, that's a reference to a specific, auditable protocol, not a marketing phrase.
+Not every contractor who owns a wet-vac is a restoration professional. The industry has a standards body, the IICRC, that publishes the technical protocols most reputable companies follow. When a company says work was performed to the IICRC S500 standard for water damage or the S520 standard for mold, that's a reference to a specific, auditable protocol, not a marketing phrase.
 
 Here's what to ask before you hire anyone:
 
 1. **What formal training do your technicians have?** Ask whether the crew works to the IICRC S500 and S520 protocols, and who on the team has documented training in them.
-2. **Who will actually be doing the work?** Texas has no statewide license for general contractors, so the vetting falls to you — ask for proof of insurance, references from comparable jobs, and whether the crew is in-house or subcontracted.
+2. **Who will actually be doing the work?** Texas has no statewide license for general contractors, so the vetting falls to you, ask for proof of insurance, references from comparable jobs, and whether the crew is in-house or subcontracted.
 3. **Do you carry general liability and workers' compensation insurance?** If an uninsured worker is injured on your property, you could be liable.
 4. **Have you handled this specific type of loss before?** Water damage from a burst pipe is different from a sewage backup. Fire damage with significant smoke residue requires different chemistry and equipment than a contained kitchen fire. Experience with your specific situation matters.
 
-For mold work specifically, ask whether the company follows EPA guidelines and whether they use a third-party industrial hygienist to test air quality before and after remediation — not just their own in-house assessment.
+For mold work specifically, ask whether the company follows EPA guidelines and whether they use a third-party industrial hygienist to test air quality before and after remediation, not just their own in-house assessment.
 
 ## Red Flags That Should Make You Walk Away
 
 Some warning signs are subtle. Others are loud. Either way, trust them.
 
 - **They show up unsolicited after a storm.** Legitimate local companies don't need to canvass neighborhoods. If someone knocks on your door within 24 hours of a weather event, be skeptical.
-- **They pressure you to sign before your insurance adjuster has visited.** A good restoration company will document the damage thoroughly and work within the claims process — not around it.
+- **They pressure you to sign before your insurance adjuster has visited.** A good restoration company will document the damage thoroughly and work within the claims process, not around it.
 - **They can't give you a written estimate or scope of work.** Verbal agreements are unenforceable. Every legitimate job starts with written documentation of what will be done, how, and at what cost.
 - **They ask you to sign over your insurance claim (AOB).** You have the right to manage your own claim. You don't have to surrender that right to get work done.
-- **Their online presence is thin or brand-new.** A company that's been operating in Duncanville or the broader DFW area for years will have a traceable history — reviews, a business address, a phone number that connects to a real person.
-- **They quote a price dramatically lower than everyone else.** In restoration, low bids often mean cut corners — materials that don't meet drying standards, incomplete mold removal, or reconstruction that fails inspection.
+- **Their online presence is thin or brand-new.** A company that's been operating in Duncanville or the broader DFW area for years will have a traceable history, reviews, a business address, a phone number that connects to a real person.
+- **They quote a price dramatically lower than everyone else.** In restoration, low bids often mean cut corners, materials that don't meet drying standards, incomplete mold removal, or reconstruction that fails inspection.
 
 ## How to Evaluate a Company for Your Specific Type of Loss
 
@@ -57,33 +57,33 @@ The process for vetting a water damage company is slightly different from vettin
 
 ### Water Damage
 
-Ask how they determine when a structure is dry. The answer should reference moisture meters and thermal imaging, not just a visual inspection or a set number of days. Drying is complete when readings reach the standard established for the material — not when the fans have been running for 72 hours. Ask whether they use desiccant or refrigerant dehumidifiers, and whether they'll leave equipment on-site with daily monitoring. If a company plans to drop equipment and disappear for a week, that's a problem.
+Ask how they determine when a structure is dry. The answer should reference moisture meters and thermal imaging, not just a visual inspection or a set number of days. Drying is complete when readings reach the standard established for the material, not when the fans have been running for 72 hours. Ask whether they use desiccant or refrigerant dehumidifiers, and whether they'll leave equipment on-site with daily monitoring. If a company plans to drop equipment and disappear for a week, that's a problem.
 
-For water damage situations in Duncanville, MCC Restoration and Contracting Services handles both the mitigation and the reconstruction, which matters — you don't want a handoff gap between the company that dried your walls and the one that rebuilds them.
+For water damage situations in Duncanville, MCC Restoration and Contracting Services handles both the mitigation and the reconstruction, which matters, you don't want a handoff gap between the company that dried your walls and the one that rebuilds them.
 
 ### Fire and Smoke Damage
 
-Smoke residue is chemically complex and gets into places you can't see — inside HVAC ductwork, behind outlet covers, inside wall cavities. Ask the company specifically how they handle odor: ozone treatment, thermal fogging, hydroxyl generators, or encapsulants each have appropriate use cases, and a company that only offers one approach may not be equipped for your situation. Also ask whether they perform a full contents inventory before any pack-out, and how contents are stored and returned.
+Smoke residue is chemically complex and gets into places you can't see, inside HVAC ductwork, behind outlet covers, inside wall cavities. Ask the company specifically how they handle odor: ozone treatment, thermal fogging, hydroxyl generators, or encapsulants each have appropriate use cases, and a company that only offers one approach may not be equipped for your situation. Also ask whether they perform a full contents inventory before any pack-out, and how contents are stored and returned.
 
 ### Mold Remediation
 
-Mold remediation is not the same as mold removal. Ask whether the company establishes containment before disturbing any growth, what their negative air pressure protocol is, and how they verify clearance. A company that just sprays bleach and calls it done is not performing remediation — they're painting over a problem that will return. Ask whether post-remediation clearance testing is performed by an independent party.
+Mold remediation is not the same as mold removal. Ask whether the company establishes containment before disturbing any growth, what their negative air pressure protocol is, and how they verify clearance. A company that just sprays bleach and calls it done is not performing remediation, they're painting over a problem that will return. Ask whether post-remediation clearance testing is performed by an independent party.
 
 ## Questions to Ask Before You Sign Anything
 
 Regardless of the type of loss, run through this list before you commit:
 
 1. Can you provide a written, itemized scope of work?
-2. How do you communicate progress — daily updates, a project portal, a dedicated project manager?
-3. Who will actually be on-site doing the work — your employees or subcontractors?
+2. How do you communicate progress, daily updates, a project portal, a dedicated project manager?
+3. Who will actually be on-site doing the work, your employees or subcontractors?
 4. How do you handle supplements if the damage turns out to be worse than initially scoped?
 5. What's your process if I'm not satisfied with the work?
 6. Can you provide references from jobs in Duncanville or the surrounding area?
 
-A company that answers these questions clearly and without irritation is a company that has answered them before — because they do the job right and know the process.
+A company that answers these questions clearly and without irritation is a company that has answered them before, because they do the job right and know the process.
 
 ## Making the Call
 
-If you're dealing with water damage, fire damage, or a mold issue in Duncanville right now, the most important thing is to document everything before anyone touches it — photos and video of every affected area, including areas that look minor. Then take the ten minutes to verify who you're calling before you call them.
+If you're dealing with water damage, fire damage, or a mold issue in Duncanville right now, the most important thing is to document everything before anyone touches it, photos and video of every affected area, including areas that look minor. Then take the ten minutes to verify who you're calling before you call them.
 
 MCC Restoration and Contracting Services works in Duncanville and the surrounding DFW area, handles water damage, fire damage, and mold remediation, and can walk you through the insurance process from first call to final inspection. Reach them at (682) 772-9123.

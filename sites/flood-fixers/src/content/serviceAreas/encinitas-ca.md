@@ -19,21 +19,21 @@ state: "CA"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall in Leucadia or a slow roof leak finally saturates the subfloor of a Cardiff-by-the-Sea bungalow, Flood Fixers dispatches from San Diego with extraction equipment already loaded. We handle water damage, fire and smoke damage, mold remediation, and full reconstruction for homeowners and property managers throughout Encinitas — and we work directly with your insurance carrier so the claim process doesn't become a second emergency.
+When a pipe bursts behind a wall in Leucadia or a slow roof leak finally saturates the subfloor of a Cardiff-by-the-Sea bungalow, Flood Fixers dispatches from San Diego with extraction equipment already loaded. We handle water damage, fire and smoke damage, mold remediation, and full reconstruction for homeowners and property managers throughout Encinitas, and we work directly with your insurance carrier so the claim process doesn't become a second emergency.
 
 ## Restoration emergencies common in Encinitas
 
-Encinitas sits in a climate that feels mild until it doesn't. The marine layer keeps humidity elevated year-round, which means moisture that finds its way into a wall cavity or crawl space doesn't dry on its own — it feeds mold within 24 to 48 hours. The city's housing stock amplifies the risk: much of Leucadia and Old Encinitas is built on slab foundations from the 1950s through 1970s, where copper supply lines have aged past their service life and slab leaks are a recurring problem. Newer construction in Encinitas Ranch and along Olivenhain Road tends to use PEX, but HOA-governed communities there often have shared irrigation infrastructure that can push water into multiple units before anyone notices. Then there's the topography — the coastal bluffs and canyon edges that make Encinitas scenic also concentrate stormwater runoff during the atmospheric river events that hit San Diego County every few winters, sending water under doors and through foundation vents in neighborhoods that rarely flood in a normal year.
+Encinitas sits in a climate that feels mild until it doesn't. The marine layer keeps humidity elevated year-round, which means moisture that finds its way into a wall cavity or crawl space doesn't dry on its own, it feeds mold within 24 to 48 hours. The city's housing stock amplifies the risk: much of Leucadia and Old Encinitas is built on slab foundations from the 1950s through 1970s, where copper supply lines have aged past their service life and slab leaks are a recurring problem. Newer construction in Encinitas Ranch and along Olivenhain Road tends to use PEX, but HOA-governed communities there often have shared irrigation infrastructure that can push water into multiple units before anyone notices. Then there's the topography, the coastal bluffs and canyon edges that make Encinitas scenic also concentrate stormwater runoff during the atmospheric river events that hit San Diego County every few winters, sending water under doors and through foundation vents in neighborhoods that rarely flood in a normal year.
 
 ## Services we provide in Encinitas
 
 ### Water damage restoration
 
-Water damage in Encinitas often starts quietly — a pinhole slab leak under a Cardiff kitchen, an HVAC condensate line that backs up during a warm spell, or a washing machine supply hose that finally fails in a Leucadia townhome. We use thermal imaging and moisture mapping to find water that has migrated beyond the visible wet spot, then set industrial drying equipment calibrated to the ambient humidity on-site. Drying timelines in coastal Encinitas typically run longer than inland San Diego because the air holds more moisture; we monitor daily and adjust.
+Water damage in Encinitas often starts quietly, a pinhole slab leak under a Cardiff kitchen, an HVAC condensate line that backs up during a warm spell, or a washing machine supply hose that finally fails in a Leucadia townhome. We use thermal imaging and moisture mapping to find water that has migrated beyond the visible wet spot, then set industrial drying equipment calibrated to the ambient humidity on-site. Drying timelines in coastal Encinitas typically run longer than inland San Diego because the air holds more moisture; we monitor daily and adjust.
 
 ### Mold remediation
 
-The same marine air that makes Encinitas comfortable makes it a favorable environment for mold. We follow IICRC S520 protocols for containment, removal, and clearance testing. On pages for mold remediation specifically, we note that remediation addresses the physical mold colony — post-remediation air quality testing by a third-party industrial hygienist is the appropriate next step for health-related questions.
+The same marine air that makes Encinitas comfortable makes it a favorable environment for mold. We follow IICRC S520 protocols for containment, removal, and clearance testing. On pages for mold remediation specifically, we note that remediation addresses the physical mold colony, post-remediation air quality testing by a third-party industrial hygienist is the appropriate next step for health-related questions.
 
 ### Fire and smoke damage restoration
 
@@ -41,16 +41,16 @@ Brush fires in the canyons east of El Camino Real can push smoke into homes mile
 
 ### Reconstruction
 
-After mitigation is complete and the insurance adjuster has signed off, we handle the rebuild — drywall, flooring, cabinetry, and finish work — under a single contractor relationship. For properties in HOA communities like Encinitas Ranch, we coordinate with association management on material specifications and access scheduling before work begins.
+After mitigation is complete and the insurance adjuster has signed off, we handle the rebuild, drywall, flooring, cabinetry, and finish work, under a single contractor relationship. For properties in HOA communities like Encinitas Ranch, we coordinate with association management on material specifications and access scheduling before work begins.
 
 ## Response time and coverage
 
-From our San Diego headquarters, Flood Fixers reaches most of Encinitas in 45 to 60 minutes under normal traffic conditions. The I-5 corridor puts ZIP codes 92024 and 92007 — covering Old Encinitas, Cardiff, and the coastal strip — within that window consistently. Leucadia, in the northern part of the city, typically adds 5 to 10 minutes. We answer calls around the clock; a technician, not a call center, picks up after hours. When you call (855) 204-1124, you can expect an honest ETA based on where our nearest crew is at that moment, not a marketing number.
+From our San Diego headquarters, Flood Fixers reaches most of Encinitas in 45 to 60 minutes under normal traffic conditions. The I-5 corridor puts ZIP codes 92024 and 92007, covering Old Encinitas, Cardiff, and the coastal strip, within that window consistently. Leucadia, in the northern part of the city, typically adds 5 to 10 minutes. We answer calls around the clock; a technician, not a call center, picks up after hours. When you call (855) 204-1124, you can expect an honest ETA based on where our nearest crew is at that moment, not a marketing number.
 
 ## Building stock, site conditions, and permits in Encinitas
 
-Beyond the postwar slab tracts, Encinitas still has older beach cottages on raised post-and-pier crawlspaces, some with lath-and-plaster walls that hold water far longer than drywall and have to be dried differently. Stucco over wood frame is the dominant exterior, and once it wicks water the sheathing behind it stays wet long after the surface looks dry. Anything built before the late 1970s gets treated as suspect for asbestos in popcorn ceilings, sheet flooring, and mastic, and for lead paint — testing comes before demolition, not after. Older homes on the coastal terrace often still drain through cast iron, which corrodes from the inside and leaks under the slab.
+Beyond the postwar slab tracts, Encinitas still has older beach cottages on raised post-and-pier crawlspaces, some with lath-and-plaster walls that hold water far longer than drywall and have to be dried differently. Stucco over wood frame is the dominant exterior, and once it wicks water the sheathing behind it stays wet long after the surface looks dry. Anything built before the late 1970s gets treated as suspect for asbestos in popcorn ceilings, sheet flooring, and mastic, and for lead paint, testing comes before demolition, not after. Older homes on the coastal terrace often still drain through cast iron, which corrodes from the inside and leaks under the slab.
 
 The City of Encinitas building division issues permits. Structural framing, electrical, and re-roof work trigger one; near-bluff properties can also fall under coastal development review.
 
-If you're dealing with water, fire, mold, or storm damage anywhere in Encinitas right now, call Flood Fixers at **(855) 204-1124**. We'll tell you exactly how far out we are and what to do — or not do — until we arrive.
+If you're dealing with water, fire, mold, or storm damage anywhere in Encinitas right now, call Flood Fixers at **(855) 204-1124**. We'll tell you exactly how far out we are and what to do, or not do, until we arrive.

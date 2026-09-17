@@ -19,13 +19,13 @@ state: "FL"
 primary: false
 rendered: true
 ---
-When water backs up through a slab, smoke settles into drywall, or mold takes hold behind a bathroom tile in Sunrise, RestorationXpress responds with the equipment and documentation to stop the damage and start the rebuild. From full water extraction and structural drying to mold remediation, fire and smoke cleanup, and reconstruction, we handle the work that Sunrise homeowners and property managers need done right — and we coordinate directly with insurance carriers so the process doesn't fall on you to manage alone.
+When water backs up through a slab, smoke settles into drywall, or mold takes hold behind a bathroom tile in Sunrise, RestorationXpress responds with the equipment and documentation to stop the damage and start the rebuild. From full water extraction and structural drying to mold remediation, fire and smoke cleanup, and reconstruction, we handle the work that Sunrise homeowners and property managers need done right, and we coordinate directly with insurance carriers so the process doesn't fall on you to manage alone.
 
 ## Restoration emergencies common in Sunrise
 
-Sunrise sits on ground that doesn't forgive heavy rain. The city's western edge borders the Everglades conservation area, and the water table in neighborhoods like Sawgrass Lakes and Welleby can be just a few feet below grade even in a dry spring. When South Florida's summer convective storms drop three or four inches in an afternoon — which Broward County sees regularly from June through October — water finds its way into slabs, garages, and low-lying first floors before storm drains can catch up. Homes near the Everglades edge are especially prone to flooding after those heavy summer rains, and standing water under flooring can begin supporting mold colonization in as little as 24 to 48 hours.
+Sunrise sits on ground that doesn't forgive heavy rain. The city's western edge borders the Everglades conservation area, and the water table in neighborhoods like Sawgrass Lakes and Welleby can be just a few feet below grade even in a dry spring. When South Florida's summer convective storms drop three or four inches in an afternoon, which Broward County sees regularly from June through October, water finds its way into slabs, garages, and low-lying first floors before storm drains can catch up. Homes near the Everglades edge are especially prone to flooding after those heavy summer rains, and standing water under flooring can begin supporting mold colonization in as little as 24 to 48 hours.
 
-The housing stock adds another layer of risk. Large portions of Sunrise were built in the 1970s and 1980s, when construction standards for vapor barriers and window flashing were less stringent than today's Florida Building Code requires. Older CBS (concrete block and stucco) homes in Sunrise Golf Village and Sunset Strip often have aging roof systems and original plumbing that make them more vulnerable to slow leaks that go undetected until a ceiling sags or a musty smell surfaces in a closet. Homes in those ZIP codes — 33313 and 33322 — account for a meaningful share of the water and mold calls we receive.
+The housing stock adds another layer of risk. Large portions of Sunrise were built in the 1970s and 1980s, when construction standards for vapor barriers and window flashing were less stringent than today's Florida Building Code requires. Older CBS (concrete block and stucco) homes in Sunrise Golf Village and Sunset Strip often have aging roof systems and original plumbing that make them more vulnerable to slow leaks that go undetected until a ceiling sags or a musty smell surfaces in a closet. Homes in those ZIP codes, 33313 and 33322, account for a meaningful share of the water and mold calls we receive.
 
 ## Services we provide in Sunrise
 
@@ -35,23 +35,23 @@ Water damage in Sunrise often traces back to one of three sources: roof intrusio
 
 ### Mold remediation
 
-In the 33323 and 33325 ZIP codes — newer developments closer to Sawgrass Mills and Sawgrass International Corporate Park — tighter building envelopes can trap moisture after a slow AC leak or a roof intrusion that wasn't caught quickly. We contain affected areas, remove compromised materials, treat surfaces, and clear the space through post-remediation verification. We do not make medical claims about air quality outcomes, but we follow established remediation protocols designed to address visible and hidden mold growth.
+In the 33323 and 33325 ZIP codes, newer developments closer to Sawgrass Mills and Sawgrass International Corporate Park, tighter building envelopes can trap moisture after a slow AC leak or a roof intrusion that wasn't caught quickly. We contain affected areas, remove compromised materials, treat surfaces, and clear the space through post-remediation verification. We do not make medical claims about air quality outcomes, but we follow established remediation protocols designed to address visible and hidden mold growth.
 
 ### Fire and smoke damage restoration
 
-Kitchen fires and electrical fires in older Sunrise homes leave smoke residue that penetrates drywall, HVAC ductwork, and soft furnishings long after the flames are out. The smell that lingers weeks later isn't cosmetic — it's embedded particulate. We clean structural surfaces, treat ductwork, and coordinate pack-out and content cleaning when personal property is involved.
+Kitchen fires and electrical fires in older Sunrise homes leave smoke residue that penetrates drywall, HVAC ductwork, and soft furnishings long after the flames are out. The smell that lingers weeks later isn't cosmetic, it's embedded particulate. We clean structural surfaces, treat ductwork, and coordinate pack-out and content cleaning when personal property is involved.
 
 ### Reconstruction
 
-Once mitigation is complete, we handle the rebuild — drywall, flooring, cabinetry, painting — so you're working with one contractor through the full process rather than sourcing a separate GC after the drying crew leaves.
+Once mitigation is complete, we handle the rebuild, drywall, flooring, cabinetry, painting, so you're working with one contractor through the full process rather than sourcing a separate GC after the drying crew leaves.
 
 ## Coverage and how fast we can get there
 
-RestorationXpress operates out of Davie, which sits directly south of Sunrise along University Drive and Flamingo Road. The drive from our Davie headquarters to central Sunrise neighborhoods like Welleby or Sunset Strip typically runs under 15 minutes in normal traffic via University Drive north. Reaching the western edge of the city — properties near Markham Park or the Sawgrass Lakes area along Nob Hill Road — adds a few minutes but remains a straightforward route with no highway delays. For scheduling, call us at (954) 932-5420 during business hours and we'll confirm an arrival window based on current crew availability.
+RestorationXpress operates out of Davie, which sits directly south of Sunrise along University Drive and Flamingo Road. The drive from our Davie headquarters to central Sunrise neighborhoods like Welleby or Sunset Strip typically runs under 15 minutes in normal traffic via University Drive north. Reaching the western edge of the city, properties near Markham Park or the Sawgrass Lakes area along Nob Hill Road, adds a few minutes but remains a straightforward route with no highway delays. For scheduling, call us at (954) 932-5420 during business hours and we'll confirm an arrival window based on current crew availability.
 
 ## Building stock, site conditions, and permits in Sunrise
 
-Almost nothing here is built over a basement or crawlspace. Homes sit on slab-on-grade poured over sand and fill above shallow limestone, so water that gets in has nowhere to drain down — it wicks sideways into block walls, baseboards, and the underside of flooring. Terrazzo and tile set directly on the slab hide moisture well; carpet pad and laminate hold it. Cast iron drain lines in the older sections corrode from the inside and fail below the slab, and some 1980s builds used polybutylene supply piping that splits at the fittings.
+Almost nothing here is built over a basement or crawlspace. Homes sit on slab-on-grade poured over sand and fill above shallow limestone, so water that gets in has nowhere to drain down, it wicks sideways into block walls, baseboards, and the underside of flooring. Terrazzo and tile set directly on the slab hide moisture well; carpet pad and laminate hold it. Cast iron drain lines in the older sections corrode from the inside and fail below the slab, and some 1980s builds used polybutylene supply piping that splits at the fittings.
 
 Because Broward sits in the High Velocity Hurricane Zone, roof and window replacement follows stricter attachment and product-approval rules than most of Florida. Structural repairs, reroofs, and rebuilds are permitted through the City of Sunrise building department, with flood-zone properties facing added elevation review.
 

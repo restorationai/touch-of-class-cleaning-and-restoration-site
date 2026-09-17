@@ -20,44 +20,44 @@ state: "MS"
 service_display: "Post-Construction and Specialty Cleaning"
 rendered: true
 ---
-Waveland sits right on the edge of the Mississippi Sound, and that coastal exposure shapes everything about how construction and renovation projects finish here — including how they need to be cleaned. Salt-laden air accelerates the settling of fine construction dust onto surfaces, and the region's humidity means that drywall compound dust, sawdust, and adhesive residue can bond to floors and fixtures faster than in drier climates. Whether you've just wrapped a storm-recovery rebuild, a kitchen gut-and-remodel, or a full addition, HomeLyft Restoration MS provides post-construction and specialty cleaning that gets the space genuinely ready for occupancy — not just visually presentable.
+Waveland sits right on the edge of the Mississippi Sound, and that coastal exposure shapes everything about how construction and renovation projects finish here, including how they need to be cleaned. Salt-laden air accelerates the settling of fine construction dust onto surfaces, and the region's humidity means that drywall compound dust, sawdust, and adhesive residue can bond to floors and fixtures faster than in drier climates. Whether you've just wrapped a storm-recovery rebuild, a kitchen gut-and-remodel, or a full addition, HomeLyft Restoration MS provides post-construction and specialty cleaning that gets the space genuinely ready for occupancy, not just visually presentable.
 
 ## Why Waveland Properties Require a Different Approach to Post-Construction Cleanup
 
-Waveland's building stock tells the story of repeated hurricane impacts. Many homes rebuilt or heavily renovated after Katrina in 2005 used a mix of older structural elements and newer materials — combinations that create unusual cleanup challenges. Spray foam insulation installed alongside original cypress framing, for example, leaves residue patterns that standard cleaning crews aren't equipped to address. Newer construction along the beachside corridors often involves fiber cement siding and impact-rated windows, both of which require non-abrasive cleaning protocols to avoid scratching or etching factory finishes.
+Waveland's building stock tells the story of repeated hurricane impacts. Many homes rebuilt or heavily renovated after Katrina in 2005 used a mix of older structural elements and newer materials, combinations that create unusual cleanup challenges. Spray foam insulation installed alongside original cypress framing, for example, leaves residue patterns that standard cleaning crews aren't equipped to address. Newer construction along the beachside corridors often involves fiber cement siding and impact-rated windows, both of which require non-abrasive cleaning protocols to avoid scratching or etching factory finishes.
 
 Beyond the materials themselves, Waveland's proximity to the Gulf means that even a two-week construction project accumulates salt film on interior glass and hardware. Left unaddressed, that film etches into surfaces. Our specialty cleaning phase includes a targeted treatment for salt and mineral deposits that a standard construction broom-out simply skips.
 
 ## Our Post-Construction and Specialty Cleaning Process in Waveland
 
-Every cleanup starts with a walk-through to document what trades were on site and what materials were used — information that directly determines which cleaning agents and tools are appropriate. We don't apply the same protocol to a freshly tiled bathroom addition as we do to a whole-home renovation with new HVAC ductwork.
+Every cleanup starts with a walk-through to document what trades were on site and what materials were used, information that directly determines which cleaning agents and tools are appropriate. We don't apply the same protocol to a freshly tiled bathroom addition as we do to a whole-home renovation with new HVAC ductwork.
 
 The sequence we follow:
 
-1. **Rough debris removal** — construction waste, packaging, excess materials staged for disposal or contractor retrieval.
-2. **Detail dust removal** — HEPA-filtered vacuuming of every horizontal surface, inside cabinet boxes, window tracks, and HVAC registers before any wet cleaning begins. Skipping this step just spreads fine particulate into a slurry.
-3. **Surface cleaning by material type** — tile, stone, hardwood, LVP, painted drywall, and specialty finishes each get the appropriate product and method. We are EPA Lead-Safe Certified, which matters on any Waveland home where original pre-1978 materials were disturbed during renovation.
-4. **Window and glass final clean** — interior and exterior where accessible, with attention to the salt film common in coastal builds.
-5. **Final inspection walkthrough** — we photograph completed spaces so the contractor, homeowner, or property manager has documentation before occupancy.
+1. **Rough debris removal**, construction waste, packaging, excess materials staged for disposal or contractor retrieval.
+2. **Detail dust removal**, HEPA-filtered vacuuming of every horizontal surface, inside cabinet boxes, window tracks, and HVAC registers before any wet cleaning begins. Skipping this step just spreads fine particulate into a slurry.
+3. **Surface cleaning by material type**, tile, stone, hardwood, LVP, painted drywall, and specialty finishes each get the appropriate product and method. We are EPA Lead-Safe Certified, which matters on any Waveland home where original pre-1978 materials were disturbed during renovation.
+4. **Window and glass final clean**, interior and exterior where accessible, with attention to the salt film common in coastal builds.
+5. **Final inspection walkthrough**, we photograph completed spaces so the contractor, homeowner, or property manager has documentation before occupancy.
 
 ## Reaching Waveland from Gulfport
 
-HomeLyft Restoration MS is headquartered in Gulfport, putting Waveland well within our regular service area along the Mississippi Gulf Coast. The US-90 corridor connects our team directly to Waveland, and we schedule jobs to account for the beach-season traffic patterns that can slow the route in summer months. When you call to schedule — reach us at +12282845200 — we'll confirm a realistic arrival window based on current conditions rather than a generic estimate.
+HomeLyft Restoration MS is headquartered in Gulfport, putting Waveland well within our regular service area along the Mississippi Gulf Coast. The US-90 corridor connects our team directly to Waveland, and we schedule jobs to account for the beach-season traffic patterns that can slow the route in summer months. When you call to schedule, reach us at +12282845200, we'll confirm a realistic arrival window based on current conditions rather than a generic estimate.
 
 For larger post-construction projects, we can stage equipment locally to avoid repeated round trips, which keeps the cleanup timeline tight and reduces disruption to neighboring properties.
 
 ## Equipment and Methods We Use for Post-Construction Cleaning
 
-Post-construction cleaning is equipment-intensive work. Fine drywall dust is a particular challenge — particles under 10 microns stay airborne for hours and resettle on surfaces you've already cleaned if you don't capture them at the source. We use commercial HEPA vacuums rated for fine particulate, not shop vacs, for all dust removal phases.
+Post-construction cleaning is equipment-intensive work. Fine drywall dust is a particular challenge, particles under 10 microns stay airborne for hours and resettle on surfaces you've already cleaned if you don't capture them at the source. We use commercial HEPA vacuums rated for fine particulate, not shop vacs, for all dust removal phases.
 
-For specialty surfaces — polished concrete, natural stone countertops, impact-resistant glass — we carry pH-neutral cleaners and microfiber systems that won't leave scratches or streaks. Grout haze removal after tile work requires a different chemistry than general surface cleaning, and we carry the appropriate products on the truck rather than improvising with general-purpose cleaners that can damage grout or tile finishes.
+For specialty surfaces, polished concrete, natural stone countertops, impact-resistant glass, we carry pH-neutral cleaners and microfiber systems that won't leave scratches or streaks. Grout haze removal after tile work requires a different chemistry than general surface cleaning, and we carry the appropriate products on the truck rather than improvising with general-purpose cleaners that can damage grout or tile finishes.
 
 Where renovation work involved older materials and our EPA Lead-Safe certification protocols apply, we follow containment and cleaning procedures that protect both occupants and our crew.
 
 ## Local Note
 
-One thing that catches out-of-area cleaning crews in Waveland: the combination of high ambient humidity and the concrete slab construction common in post-Katrina rebuilds means that construction dust doesn't just sit on surfaces — it can form a thin crust on slab floors if moisture is present during or shortly after the build. Standard sweeping breaks it loose but doesn't remove it, and it redeposits as soon as foot traffic stirs the air. We've learned to address slab floors with a damp-mop system using a neutral cleaner before any dry buffing, which actually removes the crust rather than redistributing it. It adds time, but it's the difference between a floor that looks clean and one that actually is.
+One thing that catches out-of-area cleaning crews in Waveland: the combination of high ambient humidity and the concrete slab construction common in post-Katrina rebuilds means that construction dust doesn't just sit on surfaces, it can form a thin crust on slab floors if moisture is present during or shortly after the build. Standard sweeping breaks it loose but doesn't remove it, and it redeposits as soon as foot traffic stirs the air. We've learned to address slab floors with a damp-mop system using a neutral cleaner before any dry buffing, which actually removes the crust rather than redistributing it. It adds time, but it's the difference between a floor that looks clean and one that actually is.
 
-If your project is in Waveland and the slab was exposed during construction during a humid stretch — common from May through September on the Gulf Coast — flag that for us when you call and we'll plan accordingly.
+If your project is in Waveland and the slab was exposed during construction during a humid stretch, common from May through September on the Gulf Coast, flag that for us when you call and we'll plan accordingly.
 
 When your Waveland renovation or new build is in the final stretch, the last thing you want is a cleaning crew that treats it like a routine office wipe-down. Call HomeLyft Restoration MS at +12282845200 to schedule your post-construction or specialty cleaning and get the space move-in ready the right way.

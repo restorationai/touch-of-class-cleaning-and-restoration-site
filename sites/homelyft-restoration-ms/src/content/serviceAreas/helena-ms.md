@@ -19,21 +19,21 @@ state: "MS"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind the walls of a Helena home or a slow roof leak finally makes itself known through a water-stained ceiling, HomeLyft Restoration MS handles the full scope — water extraction, structural drying, mold assessment, fire and smoke cleanup, and reconstruction — so Helena property owners have one point of contact from the first call through the final walk-through. We work directly with insurance carriers, document every affected material, and schedule promptly so damage doesn't compound while paperwork stalls.
+When a pipe bursts behind the walls of a Helena home or a slow roof leak finally makes itself known through a water-stained ceiling, HomeLyft Restoration MS handles the full scope, water extraction, structural drying, mold assessment, fire and smoke cleanup, and reconstruction, so Helena property owners have one point of contact from the first call through the final walk-through. We work directly with insurance carriers, document every affected material, and schedule promptly so damage doesn't compound while paperwork stalls.
 
 ## Restoration emergencies common in Helena
 
-Helena sits in the Mississippi Delta, where the combination of a high water table, heavy clay soils, and the region's humidity creates conditions that accelerate damage in ways homeowners from drier climates rarely anticipate. Summer humidity regularly pushes indoor relative humidity above the threshold where mold begins colonizing porous materials — often within 48 to 72 hours of a moisture event. The Delta's older housing stock, much of it built before modern vapor barriers and moisture-resistant sheathing became standard, absorbs water quickly and releases it slowly. Crawl spaces are common, and standing water beneath a home can wick upward into subfloor assemblies for weeks before a homeowner notices warping hardwood or a musty smell drifting through floor registers. Severe thunderstorm seasons bring roof damage, wind-driven rain intrusion, and the occasional tornado that leaves structural work behind. Winter freeze-thaw cycles, while shorter than in northern states, still catch older supply lines off guard — especially in uninsulated exterior walls and under-house plumbing runs.
+Helena sits in the Mississippi Delta, where the combination of a high water table, heavy clay soils, and the region's humidity creates conditions that accelerate damage in ways homeowners from drier climates rarely anticipate. Summer humidity regularly pushes indoor relative humidity above the threshold where mold begins colonizing porous materials, often within 48 to 72 hours of a moisture event. The Delta's older housing stock, much of it built before modern vapor barriers and moisture-resistant sheathing became standard, absorbs water quickly and releases it slowly. Crawl spaces are common, and standing water beneath a home can wick upward into subfloor assemblies for weeks before a homeowner notices warping hardwood or a musty smell drifting through floor registers. Severe thunderstorm seasons bring roof damage, wind-driven rain intrusion, and the occasional tornado that leaves structural work behind. Winter freeze-thaw cycles, while shorter than in northern states, still catch older supply lines off guard, especially in uninsulated exterior walls and under-house plumbing runs.
 
 ## Services we provide in Helena
 
 ### Water damage restoration
 
-Water damage in Helena frequently starts quietly — a slow supply line drip, a condensation line that backs up, a crawl space that collects groundwater after a heavy Delta rain. By the time it's visible, moisture has often tracked well beyond the obvious wet spot. HomeLyft extracts standing water, maps moisture with thermal imaging and moisture meters, and dries structural assemblies to documented target levels so secondary mold growth doesn't become the next emergency.
+Water damage in Helena frequently starts quietly, a slow supply line drip, a condensation line that backs up, a crawl space that collects groundwater after a heavy Delta rain. By the time it's visible, moisture has often tracked well beyond the obvious wet spot. HomeLyft extracts standing water, maps moisture with thermal imaging and moisture meters, and dries structural assemblies to documented target levels so secondary mold growth doesn't become the next emergency.
 
 ### Mold remediation
 
-Helena's climate means mold isn't a rare edge case — it's a predictable outcome of any moisture event that isn't addressed quickly. We assess the extent of colonization, contain the affected area, remove compromised materials, and treat surfaces according to established remediation protocols. We do not make guarantees about air quality outcomes, but we follow the process thoroughly and document each phase for your records and your insurer.
+Helena's climate means mold isn't a rare edge case, it's a predictable outcome of any moisture event that isn't addressed quickly. We assess the extent of colonization, contain the affected area, remove compromised materials, and treat surfaces according to established remediation protocols. We do not make guarantees about air quality outcomes, but we follow the process thoroughly and document each phase for your records and your insurer.
 
 ### Fire and smoke damage restoration
 
@@ -41,19 +41,19 @@ After a fire, the visible char is only part of the problem. Smoke residue penetr
 
 ### Biohazard and specialty cleanup
 
-Sewage backups — common when Delta-area drainage systems are overwhelmed by heavy rain — require proper containment and disposal, not just a mop and bleach. HomeLyft handles sewage intrusion, trauma scene cleanup, and other biohazard situations with the appropriate protective protocols and waste disposal procedures.
+Sewage backups, common when Delta-area drainage systems are overwhelmed by heavy rain, require proper containment and disposal, not just a mop and bleach. HomeLyft handles sewage intrusion, trauma scene cleanup, and other biohazard situations with the appropriate protective protocols and waste disposal procedures.
 
 ### Reconstruction
 
-Once mitigation is complete, many restoration projects leave behind open walls, missing flooring, or damaged framing. Rather than handing you off to a separate contractor, HomeLyft carries the project through rebuild — drywall, flooring, cabinetry, and finish work — so the property returns to a livable condition without a second coordination headache.
+Once mitigation is complete, many restoration projects leave behind open walls, missing flooring, or damaged framing. Rather than handing you off to a separate contractor, HomeLyft carries the project through rebuild, drywall, flooring, cabinetry, and finish work, so the property returns to a livable condition without a second coordination headache.
 
 ## Coverage and how fast we can get there
 
-HomeLyft Restoration MS is headquartered in Gulfport, on the Gulf Coast. Helena is in the northwest corner of the state — a meaningful drive, roughly 250 miles via US-49 North and US-61 or through Jackson on I-55 North. We're transparent about that distance: we are not a same-hour local crew. What we offer Helena property owners is a fully equipped team that makes the trip with the right drying equipment, containment materials, and documentation tools loaded and ready — so the visit is productive from the moment we arrive. For Helena calls, we coordinate scheduling promptly and communicate an honest arrival window so you're not waiting without information. Property managers overseeing multiple Helena units find the single-vendor model useful — one call, one invoice, one insurance liaison.
+HomeLyft Restoration MS is headquartered in Gulfport, on the Gulf Coast. Helena is in the northwest corner of the state, a meaningful drive, roughly 250 miles via US-49 North and US-61 or through Jackson on I-55 North. We're transparent about that distance: we are not a same-hour local crew. What we offer Helena property owners is a fully equipped team that makes the trip with the right drying equipment, containment materials, and documentation tools loaded and ready, so the visit is productive from the moment we arrive. For Helena calls, we coordinate scheduling promptly and communicate an honest arrival window so you're not waiting without information. Property managers overseeing multiple Helena units find the single-vendor model useful, one call, one invoice, one insurance liaison.
 
 ## Building stock, site conditions, and permits in Helena
 
-Most of the older housing in this part of the Delta is wood-frame set on brick or block piers, with plaster-and-lath or early gypsum board inside and board sheathing under the siding. Those wall assemblies hold water differently than modern drywall over OSB — plaster stays wet behind an intact-looking surface, and drying it means reading moisture in the substrate, not the paint. Post-1970s ranch construction here is more often slab-on-grade with drywall and fiberglass batts.
+Most of the older housing in this part of the Delta is wood-frame set on brick or block piers, with plaster-and-lath or early gypsum board inside and board sheathing under the siding. Those wall assemblies hold water differently than modern drywall over OSB, plaster stays wet behind an intact-looking surface, and drying it means reading moisture in the substrate, not the paint. Post-1970s ranch construction here is more often slab-on-grade with drywall and fiberglass batts.
 
 Plumbing tracks the same eras: galvanized steel supply and cast iron drains in the oldest homes, polybutylene in 1980s and early-90s work, copper and PEX after. Any home built before 1978 gets treated as lead-painted, and pre-1980s floor tile, mastic, and pipe wrap get tested rather than demolished blind.
 

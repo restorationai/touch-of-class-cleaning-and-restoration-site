@@ -20,41 +20,41 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
-The acrid smell of smoke doesn't leave a Highland Park home the way it entered — fast and obvious. It seeps into the plaster walls of the 1920s colonials along Livingston Manor, settles into the original hardwood floors of Triangle-area bungalows, and clings to the cast-iron radiator pipes that run through the bones of the borough's dense pre-war housing stock. When a kitchen fire or electrical fault leaves your home in 08904 smelling like a campfire three weeks later, that's not a cleaning problem — it's a chemistry problem, and it requires a structured restoration process to resolve.
+The acrid smell of smoke doesn't leave a Highland Park home the way it entered, fast and obvious. It seeps into the plaster walls of the 1920s colonials along Livingston Manor, settles into the original hardwood floors of Triangle-area bungalows, and clings to the cast-iron radiator pipes that run through the bones of the borough's dense pre-war housing stock. When a kitchen fire or electrical fault leaves your home in 08904 smelling like a campfire three weeks later, that's not a cleaning problem, it's a chemistry problem, and it requires a structured restoration process to resolve.
 
 ## Why Highland Park's Housing Stock Complicates Smoke Damage
 
-Highland Park's residential fabric is overwhelmingly pre-1950 construction — two-families, colonials, and bungalows built between roughly 1910 and 1945, many with their original plaster-and-lath walls still intact. That matters for smoke damage in a specific way: plaster is far more porous than modern drywall. Smoke particulates and volatile organic compounds (VOCs) penetrate deeper into plaster surfaces and take longer to off-gas, which is why odor can persist for months if the affected material isn't treated at the substrate level rather than just the surface.
+Highland Park's residential fabric is overwhelmingly pre-1950 construction, two-families, colonials, and bungalows built between roughly 1910 and 1945, many with their original plaster-and-lath walls still intact. That matters for smoke damage in a specific way: plaster is far more porous than modern drywall. Smoke particulates and volatile organic compounds (VOCs) penetrate deeper into plaster surfaces and take longer to off-gas, which is why odor can persist for months if the affected material isn't treated at the substrate level rather than just the surface.
 
-Many of these homes also have original wood window frames, built-in cabinetry, and unfinished attic spaces with exposed rafters — all surfaces that absorb soot and odor aggressively. A smoke event that might be contained to two rooms in a newer construction home can affect the entire envelope of a 1930s Highland Park two-family if air circulation carried smoke through the open stairwell before the fire was suppressed.
+Many of these homes also have original wood window frames, built-in cabinetry, and unfinished attic spaces with exposed rafters, all surfaces that absorb soot and odor aggressively. A smoke event that might be contained to two rooms in a newer construction home can affect the entire envelope of a 1930s Highland Park two-family if air circulation carried smoke through the open stairwell before the fire was suppressed.
 
 ## Our Smoke Damage Restoration Process in Highland Park
 
-Every job starts with a full scope assessment — not a visual walk-through, but a systematic inspection that includes air quality sampling, surface pH testing (soot is acidic and continues degrading materials after the fire is out), and thermal imaging to identify smoke migration into wall cavities. In Highland Park's older homes, that last step frequently reveals smoke infiltration behind plaster walls that shows no visible surface staining.
+Every job starts with a full scope assessment, not a visual walk-through, but a systematic inspection that includes air quality sampling, surface pH testing (soot is acidic and continues degrading materials after the fire is out), and thermal imaging to identify smoke migration into wall cavities. In Highland Park's older homes, that last step frequently reveals smoke infiltration behind plaster walls that shows no visible surface staining.
 
 From there, the process moves through four stages:
 
-- **Dry soot removal** using HEPA-filtered vacuuming and dry chemical sponges before any wet cleaning begins — wetting soot before dry removal drives it deeper into porous surfaces.
+- **Dry soot removal** using HEPA-filtered vacuuming and dry chemical sponges before any wet cleaning begins, wetting soot before dry removal drives it deeper into porous surfaces.
 - **Structural surface cleaning** with alkaline-based cleaners calibrated to neutralize acidic soot residue on plaster, brick, and wood substrates common in Highland Park homes.
-- **Thermal fogging and hydroxyl treatment** to break down odor-causing molecules embedded in soft goods, insulation, and wall cavities — not just mask them.
+- **Thermal fogging and hydroxyl treatment** to break down odor-causing molecules embedded in soft goods, insulation, and wall cavities, not just mask them.
 - **Final air quality verification** before the job is closed out, so you have documentation that particulate levels have returned to pre-loss conditions.
 
-As an IICRC Certified Firm (#210213), the work follows S700 standard protocols for smoke and soot restoration. The team is available around the clock — call (855) 650-7422 any time.
+As an IICRC Certified Firm (#210213), the work follows S700 standard protocols for smoke and soot restoration. The team is available around the clock, call (855) 650-7422 any time.
 
 ## Reaching Highland Park from Kenilworth
 
-The Restoration Group's Kenilworth headquarters puts Highland Park well within our standard response zone. The most direct route runs east on Route 28 to the Garden State Parkway, then northeast to Route 1, crossing into Highland Park via the Landing Lane Bridge or the New Brunswick corridor — typically a straightforward drive outside of rush hour. Because Highland Park is one of our regular service areas, crews are already familiar with the borough's street layout, including the narrower residential blocks off Raritan Avenue and the access constraints near Donaldson Park's River Road edge.
+The Restoration Group's Kenilworth headquarters puts Highland Park well within our standard response zone. The most direct route runs east on Route 28 to the Garden State Parkway, then northeast to Route 1, crossing into Highland Park via the Landing Lane Bridge or the New Brunswick corridor, typically a straightforward drive outside of rush hour. Because Highland Park is one of our regular service areas, crews are already familiar with the borough's street layout, including the narrower residential blocks off Raritan Avenue and the access constraints near Donaldson Park's River Road edge.
 
 For 24/7 emergency calls, dispatch can have a crew mobilized and en route regardless of the hour.
 
 ## Insurance Coordination for Highland Park Smoke Claims
 
-Smoke damage claims are among the most contested residential insurance losses because the full extent of damage isn't always visible at first inspection. Adjusters sometimes scope only the room of origin, missing secondary smoke migration into adjacent spaces. The documentation package produced during the assessment — air sampling data, thermal images, surface pH readings, and a written scope of loss — is specifically structured to support a complete claim rather than a partial one.
+Smoke damage claims are among the most contested residential insurance losses because the full extent of damage isn't always visible at first inspection. Adjusters sometimes scope only the room of origin, missing secondary smoke migration into adjacent spaces. The documentation package produced during the assessment, air sampling data, thermal images, surface pH readings, and a written scope of loss, is specifically structured to support a complete claim rather than a partial one.
 
 For rental properties near the Rutgers corridor or multi-unit buildings along the Raritan Avenue business district, the process also includes coordination with property managers and, where required, notification documentation for tenants displaced during restoration.
 
 ## Local Note
 
-One pattern that comes up repeatedly in Highland Park's older two-family homes: the shared attic space above a converted second-floor unit often has no fire or smoke barrier between units. When a kitchen fire starts on the first floor, smoke migrates into the attic and then back down into the second-floor unit through ceiling light fixtures and plumbing penetrations — even when the second floor shows no visible damage. Homeowners and landlords are sometimes surprised when the restoration scope includes the upstairs unit. It's not scope creep; it's what the thermal imaging and air sampling actually show.
+One pattern that comes up repeatedly in Highland Park's older two-family homes: the shared attic space above a converted second-floor unit often has no fire or smoke barrier between units. When a kitchen fire starts on the first floor, smoke migrates into the attic and then back down into the second-floor unit through ceiling light fixtures and plumbing penetrations, even when the second floor shows no visible damage. Homeowners and landlords are sometimes surprised when the restoration scope includes the upstairs unit. It's not scope creep; it's what the thermal imaging and air sampling actually show.
 
-If your home or rental property in Highland Park has been affected by a fire, don't wait on the odor — smoke residue continues breaking down finishes, fabrics, and metal surfaces every day it sits. Call (855) 650-7422 to schedule an assessment and get a clear picture of what the damage actually involves.
+If your home or rental property in Highland Park has been affected by a fire, don't wait on the odor, smoke residue continues breaking down finishes, fabrics, and metal surfaces every day it sits. Call (855) 650-7422 to schedule an assessment and get a clear picture of what the damage actually involves.

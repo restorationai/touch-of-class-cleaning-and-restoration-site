@@ -20,27 +20,27 @@ state: "NV"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-The smell hits before you even open the front door — that acrid mix of charred drywall, melted plastic, and smoke that has soaked into every surface. For homeowners near Sunrise Mountain or along the East Charleston corridor, a house fire doesn't just damage what burned; it contaminates what didn't. Smoke travels through HVAC ducts, settles into closets two rooms away, and begins chemically bonding to walls within hours. PuroClean of East Las Vegas responds to fire damage throughout Sunrise Manor, and our East Las Vegas base means we're reaching neighborhoods like Nellis Meadows and Sunrise Vista faster than crews coming from the Strip side of the valley.
+The smell hits before you even open the front door, that acrid mix of charred drywall, melted plastic, and smoke that has soaked into every surface. For homeowners near Sunrise Mountain or along the East Charleston corridor, a house fire doesn't just damage what burned; it contaminates what didn't. Smoke travels through HVAC ducts, settles into closets two rooms away, and begins chemically bonding to walls within hours. PuroClean of East Las Vegas responds to fire damage throughout Sunrise Manor, and our East Las Vegas base means we're reaching neighborhoods like Nellis Meadows and Sunrise Vista faster than crews coming from the Strip side of the valley.
 
 ## Why Sunrise Manor Properties Face Distinct Fire Damage Challenges
 
-Sunrise Manor's housing stock tells a specific story. A significant portion of homes in the 89110 and 89115 ZIP codes were built between the 1960s and 1980s — an era when aluminum wiring was common and attic insulation was often fiberglass batts without modern fire-blocking between wall cavities. When fire travels through those older wall assemblies, it can spread horizontally inside the structure before anyone sees flames on the exterior. That hidden char is one of the first things our crews look for during structural assessment.
+Sunrise Manor's housing stock tells a specific story. A significant portion of homes in the 89110 and 89115 ZIP codes were built between the 1960s and 1980s, an era when aluminum wiring was common and attic insulation was often fiberglass batts without modern fire-blocking between wall cavities. When fire travels through those older wall assemblies, it can spread horizontally inside the structure before anyone sees flames on the exterior. That hidden char is one of the first things our crews look for during structural assessment.
 
-The desert climate adds another layer. Las Vegas averages fewer than 5 inches of rain annually, which means homes here accumulate years of dust and particulate inside ductwork — fuel that superheats quickly and carries smoke odor deep into the system. Post-fire, that same dry air accelerates soot oxidation on walls and fabrics, narrowing the window before staining becomes permanent. Acting within the first 24 to 48 hours matters here more than in humid climates where surfaces stay more chemically stable.
+The desert climate adds another layer. Las Vegas averages fewer than 5 inches of rain annually, which means homes here accumulate years of dust and particulate inside ductwork, fuel that superheats quickly and carries smoke odor deep into the system. Post-fire, that same dry air accelerates soot oxidation on walls and fabrics, narrowing the window before staining becomes permanent. Acting within the first 24 to 48 hours matters here more than in humid climates where surfaces stay more chemically stable.
 
 ## Our Fire Damage Restoration Process in Sunrise Manor
 
-Every job starts with a room-by-room structural and smoke assessment — not just the origin room, but every space the HVAC system could have touched. We document damage with photographs and written scope notes formatted for insurance carriers, which matters when you're filing a claim and need clear evidence of what was affected versus what was pre-existing.
+Every job starts with a room-by-room structural and smoke assessment, not just the origin room, but every space the HVAC system could have touched. We document damage with photographs and written scope notes formatted for insurance carriers, which matters when you're filing a claim and need clear evidence of what was affected versus what was pre-existing.
 
-Demolition of unsalvageable materials comes next. In older Sunrise Manor homes, that sometimes means removing original plaster-and-lath walls rather than standard drywall — a slower process because plaster holds smoke compounds differently and requires more aggressive cleaning of adjacent framing before reconstruction can begin.
+Demolition of unsalvageable materials comes next. In older Sunrise Manor homes, that sometimes means removing original plaster-and-lath walls rather than standard drywall, a slower process because plaster holds smoke compounds differently and requires more aggressive cleaning of adjacent framing before reconstruction can begin.
 
 Odor elimination runs parallel to structural work, not after it. We use thermal fogging and hydroxyl generators to break down smoke molecules in the air and on porous surfaces simultaneously. Sealing smoke-stained framing with shellac-based primer locks in residual odor before new drywall goes up. Skipping that step is one of the most common reasons homeowners smell smoke again six months after a contractor says the job is done.
 
-Final reconstruction — drywall, texture, paint, trim, cabinetry — is handled by the same team, so you're not coordinating a separate contractor once mitigation wraps up.
+Final reconstruction, drywall, texture, paint, trim, cabinetry, is handled by the same team, so you're not coordinating a separate contractor once mitigation wraps up.
 
 ## Reaching Sunrise Manor from Our East Las Vegas Base
 
-Our team operates out of East Las Vegas, which puts us on the same side of the valley as Sunrise Manor. We're not crossing the I-15 or navigating tourist-corridor traffic to reach you. Neighborhoods near Nellis Air Force Base, along the Whitney Ranch border, and throughout the East Charleston corridor are all within our primary service area. When you call +17025513040, you're reaching a crew that drives these streets regularly — not a dispatch center routing someone from Henderson or North Las Vegas.
+Our team operates out of East Las Vegas, which puts us on the same side of the valley as Sunrise Manor. We're not crossing the I-15 or navigating tourist-corridor traffic to reach you. Neighborhoods near Nellis Air Force Base, along the Whitney Ranch border, and throughout the East Charleston corridor are all within our primary service area. When you call +17025513040, you're reaching a crew that drives these streets regularly, not a dispatch center routing someone from Henderson or North Las Vegas.
 
 ## Sunrise Manor Insurance & HOA Coordination
 
@@ -50,6 +50,6 @@ If your property sits within a managed community near the Whitney Ranch border o
 
 ## Local Note
 
-Homes in the Nellis Meadows area and other parts of Sunrise Manor built in the late 1970s frequently have original single-pane aluminum-frame windows. After a fire, those frames warp and the seals fail — which matters for restoration because smoke odor can re-enter a cleaned space through gaps around compromised window frames even after interior work is complete. We flag these during assessment and include window resealing or replacement in the scope when needed, rather than leaving it as a loose end that surfaces after you've moved back in.
+Homes in the Nellis Meadows area and other parts of Sunrise Manor built in the late 1970s frequently have original single-pane aluminum-frame windows. After a fire, those frames warp and the seals fail, which matters for restoration because smoke odor can re-enter a cleaned space through gaps around compromised window frames even after interior work is complete. We flag these during assessment and include window resealing or replacement in the scope when needed, rather than leaving it as a loose end that surfaces after you've moved back in.
 
 If your home in Sunrise Manor has been damaged by fire, call PuroClean of East Las Vegas at +17025513040. We'll walk through what we're seeing, explain the scope honestly, and get the work started before the damage compounds further.

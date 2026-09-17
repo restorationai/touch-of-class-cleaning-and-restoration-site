@@ -17,39 +17,39 @@ service_slug: "burst-frozen-pipes"
 service_display: "Burst & Frozen Pipes"
 rendered: true
 ---
-A pipe that bursts at 2 a.m. can push dozens of gallons into your walls and subfloor before the water even reaches the hallway. In Las Vegas, that scenario plays out more often than most residents expect — a single hard overnight freeze sends water expanding through copper or CPVC fittings that have never been properly insulated, and by morning the damage is already hidden inside the wall cavity. The clock matters here: the longer saturated framing and drywall sit wet, the closer you get to a secondary mold problem on top of the original loss.
+A pipe that bursts at 2 a.m. can push dozens of gallons into your walls and subfloor before the water even reaches the hallway. In Las Vegas, that scenario plays out more often than most residents expect, a single hard overnight freeze sends water expanding through copper or CPVC fittings that have never been properly insulated, and by morning the damage is already hidden inside the wall cavity. The clock matters here: the longer saturated framing and drywall sit wet, the closer you get to a secondary mold problem on top of the original loss.
 
 ## What burst and frozen pipes actually involve
 
-Burst-pipe water damage is deceptive because the visible water — the puddle on the kitchen floor, the stain spreading across the ceiling — is rarely where the real saturation lives. Water follows gravity and the path of least resistance, which means it travels through wall cavities, pools inside insulation batts, and wicks into floor assemblies before it announces itself. Restoration work on a pipe loss is largely about finding and removing moisture that you cannot see.
+Burst-pipe water damage is deceptive because the visible water, the puddle on the kitchen floor, the stain spreading across the ceiling, is rarely where the real saturation lives. Water follows gravity and the path of least resistance, which means it travels through wall cavities, pools inside insulation batts, and wicks into floor assemblies before it announces itself. Restoration work on a pipe loss is largely about finding and removing moisture that you cannot see.
 
-The equipment used is specific to this kind of loss: high-capacity truck-mount or portable extractors pull standing water from hard floors and carpet, but the drying phase requires industrial desiccant or refrigerant dehumidifiers, air movers positioned to create a directed airflow through the wet assembly, and thermal imaging cameras or penetrating moisture meters to confirm that readings are actually dropping — not just drying at the surface while the lath or subfloor stays saturated underneath.
+The equipment used is specific to this kind of loss: high-capacity truck-mount or portable extractors pull standing water from hard floors and carpet, but the drying phase requires industrial desiccant or refrigerant dehumidifiers, air movers positioned to create a directed airflow through the wet assembly, and thermal imaging cameras or penetrating moisture meters to confirm that readings are actually dropping, not just drying at the surface while the lath or subfloor stays saturated underneath.
 
 Timeline depends on the category of water (clean supply-line water dries faster than gray or contaminated water), the materials affected, and how long the loss sat before mitigation started. A contained single-room loss caught quickly can be dried in three to four days. A loss that soaked into multiple floors or ran behind tile before anyone noticed can take longer and may require selective demolition to expose wet cavities to airflow.
 
 ## Our process
 
-1. **Locate and isolate the source.** Before any drying begins, the broken pipe or fitting needs to be identified and the water supply shut off at the right point — sometimes the main, sometimes a zone valve. We help coordinate with a licensed plumber if the repair isn't already complete, because running dehumidifiers while water is still entering the structure accomplishes nothing.
+1. **Locate and isolate the source.** Before any drying begins, the broken pipe or fitting needs to be identified and the water supply shut off at the right point, sometimes the main, sometimes a zone valve. We help coordinate with a licensed plumber if the repair isn't already complete, because running dehumidifiers while water is still entering the structure accomplishes nothing.
 
-2. **Thermal imaging and moisture mapping.** We scan affected walls, ceilings, and floors with infrared cameras to trace where water has traveled, then confirm readings with penetrating and non-penetrating moisture meters. Every affected area is logged and photographed — this documentation becomes the basis for the insurance claim scope.
+2. **Thermal imaging and moisture mapping.** We scan affected walls, ceilings, and floors with infrared cameras to trace where water has traveled, then confirm readings with penetrating and non-penetrating moisture meters. Every affected area is logged and photographed, this documentation becomes the basis for the insurance claim scope.
 
-3. **Extraction and controlled demolition.** Standing water comes out first. Where water is trapped inside wall cavities or beneath flooring, we use injectidry panel systems or drill small access ports to introduce airflow without removing entire sections of drywall unnecessarily. When materials are too saturated to dry in place — soaked insulation, buckled hardwood, compromised drywall — we remove them cleanly and document what came out and why.
+3. **Extraction and controlled demolition.** Standing water comes out first. Where water is trapped inside wall cavities or beneath flooring, we use injectidry panel systems or drill small access ports to introduce airflow without removing entire sections of drywall unnecessarily. When materials are too saturated to dry in place, soaked insulation, buckled hardwood, compromised drywall, we remove them cleanly and document what came out and why.
 
-4. **Structural drying with daily monitoring.** Dehumidifiers and air movers run continuously. We return daily to take moisture readings at every mapped point, adjusting equipment placement as materials dry. Drying is not complete until readings return to normal dry-standard levels for the material type — not just "close enough."
+4. **Structural drying with daily monitoring.** Dehumidifiers and air movers run continuously. We return daily to take moisture readings at every mapped point, adjusting equipment placement as materials dry. Drying is not complete until readings return to normal dry-standard levels for the material type, not just "close enough."
 
-5. **Drying verification and clearance documentation.** When all readings confirm the structure is dry, we produce a final moisture log. That report goes to you and to your insurance adjuster as evidence that drying was completed to standard — which matters when the reconstruction scope is written and when the claim closes.
+5. **Drying verification and clearance documentation.** When all readings confirm the structure is dry, we produce a final moisture log. That report goes to you and to your insurance adjuster as evidence that drying was completed to standard, which matters when the reconstruction scope is written and when the claim closes.
 
 ## What separates a good pipe-loss response from a bad one
 
-The most common mistake in burst-pipe mitigation is calling a structure dry based on surface readings alone. Drywall can register acceptable moisture at the face while the paper backing and the stud cavity behind it remain wet. Flooring is the same — a hardwood floor can feel firm underfoot while the subfloor beneath it holds enough moisture to grow mold within days. Operators who skip daily monitoring or pull equipment too early leave a hidden problem that surfaces weeks later as odor, staining, or visible mold growth.
+The most common mistake in burst-pipe mitigation is calling a structure dry based on surface readings alone. Drywall can register acceptable moisture at the face while the paper backing and the stud cavity behind it remain wet. Flooring is the same, a hardwood floor can feel firm underfoot while the subfloor beneath it holds enough moisture to grow mold within days. Operators who skip daily monitoring or pull equipment too early leave a hidden problem that surfaces weeks later as odor, staining, or visible mold growth.
 
-A second failure point is inadequate documentation. Insurance adjusters reviewing a burst-pipe claim want to see a moisture map drawn at intake, daily moisture logs showing a drying curve, photographs of every area of demolition with materials identified, and a clear explanation of why each action was taken. Claims that arrive without this documentation get disputed or underpaid — and the homeowner absorbs the difference.
+A second failure point is inadequate documentation. Insurance adjusters reviewing a burst-pipe claim want to see a moisture map drawn at intake, daily moisture logs showing a drying curve, photographs of every area of demolition with materials identified, and a clear explanation of why each action was taken. Claims that arrive without this documentation get disputed or underpaid, and the homeowner absorbs the difference.
 
 Category of water also matters more than it looks. A supply-line break is clean water at the point of loss, but if it sat in a crawl space or soaked through flooring into a basement, contamination from soil and building materials can elevate it to a category that requires additional handling protocols. Treating a category 2 or 3 loss as clean water is both a health risk and a liability.
 
 ## What does burst and frozen pipe restoration cost?
 
-Typical costs vary significantly based on how much of the structure was affected, how long the water sat, and what materials need to come out. Most homeowners pay somewhere in the ranges below — these are industry-typical figures, not a quote from PuroClean of East Las Vegas. Every loss is different, and we provide a written scope of work before any billable work begins.
+Typical costs vary significantly based on how much of the structure was affected, how long the water sat, and what materials need to come out. Most homeowners pay somewhere in the ranges below, these are industry-typical figures, not a quote from PuroClean of East Las Vegas. Every loss is different, and we provide a written scope of work before any billable work begins.
 
 | Scenario | Typical industry range |
 |---|---|
@@ -59,18 +59,18 @@ Typical costs vary significantly based on how much of the structure was affected
 | Loss affecting two floors or a finished basement | $10,000 – $25,000+ |
 | Pipe freeze with extended saturation and mold involvement | $15,000 – $40,000+ |
 
-Standard homeowners insurance typically covers sudden and accidental pipe bursts, including mitigation and drying costs — but policies vary on what they cover for the plumbing repair itself and for losses attributed to long-term neglect or gradual leaks. PuroClean of East Las Vegas works with all major insurance carriers and handles claim documentation so you are not piecing together paperwork while managing a damaged home.
+Standard homeowners insurance typically covers sudden and accidental pipe bursts, including mitigation and drying costs, but policies vary on what they cover for the plumbing repair itself and for losses attributed to long-term neglect or gradual leaks. PuroClean of East Las Vegas works with all major insurance carriers and handles claim documentation so you are not piecing together paperwork while managing a damaged home.
 
 ## Seasonal and regional considerations
 
-Las Vegas sits in a desert climate, which creates a specific and underappreciated pipe-freeze risk. Because hard freezes are infrequent, many homes — particularly older construction in neighborhoods like Boulder Highway, Whitney, and the eastern valley — were built with minimal pipe insulation in attics and exterior walls. Pipes that would be protected by insulation or interior wall placement in colder climates run exposed in spaces that see near-freezing or below-freezing temperatures on the coldest winter nights.
+Las Vegas sits in a desert climate, which creates a specific and underappreciated pipe-freeze risk. Because hard freezes are infrequent, many homes, particularly older construction in neighborhoods like Boulder Highway, Whitney, and the eastern valley, were built with minimal pipe insulation in attics and exterior walls. Pipes that would be protected by insulation or interior wall placement in colder climates run exposed in spaces that see near-freezing or below-freezing temperatures on the coldest winter nights.
 
-When a freeze event does hit the valley, it often hits fast — overnight lows drop sharply after a warm afternoon, and pipes that have never frozen before fail without warning. The resulting losses tend to cluster in a short window, which means response capacity across the city gets stretched. Having a restoration contractor identified before a freeze event, not during one, puts you in a better position.
+When a freeze event does hit the valley, it often hits fast, overnight lows drop sharply after a warm afternoon, and pipes that have never frozen before fail without warning. The resulting losses tend to cluster in a short window, which means response capacity across the city gets stretched. Having a restoration contractor identified before a freeze event, not during one, puts you in a better position.
 
-The dry climate also affects drying timelines — low ambient humidity means structural drying can move faster here than in humid regions, which is one genuine advantage when a loss is caught quickly.
+The dry climate also affects drying timelines, low ambient humidity means structural drying can move faster here than in humid regions, which is one genuine advantage when a loss is caught quickly.
 
 ## Service area
 
 PuroClean of East Las Vegas serves the eastern Las Vegas valley and surrounding communities, including Henderson, Boulder City, North Las Vegas, Summerlin, and unincorporated Clark County. The city-specific pages for each area link back here for the full technical detail on how burst and frozen pipe losses are handled.
 
-If you're looking at a wet ceiling, a wall that sounds hollow when you tap it, or a water meter that keeps spinning with everything turned off — call us at +17025513040 and let's get eyes on it before the damage goes further.
+If you're looking at a wet ceiling, a wall that sounds hollow when you tap it, or a water meter that keeps spinning with everything turned off, call us at +17025513040 and let's get eyes on it before the damage goes further.

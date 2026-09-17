@@ -20,11 +20,11 @@ state: "TX"
 service_display: "Air Duct Cleaning"
 rendered: true
 ---
-Coleman summers are no joke — sustained heat pushes central air systems to run almost continuously from May through September, pulling fine caliche dust, cotton gin particulates, and the ever-present West Texas grit straight into ductwork that may not have been touched in years. That combination of relentless runtime and regional airborne debris makes air duct cleaning in Coleman a genuine maintenance need, not just a marketing upsell.
+Coleman summers are no joke, sustained heat pushes central air systems to run almost continuously from May through September, pulling fine caliche dust, cotton gin particulates, and the ever-present West Texas grit straight into ductwork that may not have been touched in years. That combination of relentless runtime and regional airborne debris makes air duct cleaning in Coleman a genuine maintenance need, not just a marketing upsell.
 
 ## Why Coleman Properties See Duct Buildup Faster Than You'd Expect
 
-Coleman sits in the Rolling Plains transition zone where sandy loam topsoil and loose caliche are easily disturbed by wind. During dry spells — which Coleman gets plenty of — that fine particulate infiltrates homes through door seals, attic bypasses, and return-air grilles. Once inside the duct system, it layers onto interior duct walls and accumulates around dampers and coil housings.
+Coleman sits in the Rolling Plains transition zone where sandy loam topsoil and loose caliche are easily disturbed by wind. During dry spells, which Coleman gets plenty of, that fine particulate infiltrates homes through door seals, attic bypasses, and return-air grilles. Once inside the duct system, it layers onto interior duct walls and accumulates around dampers and coil housings.
 
 Coleman's housing stock skews older. A significant portion of the city's single-family homes were built in the mid-20th century, when duct systems were often fabricated from bare sheet metal with minimal sealing at joints. Those older trunks and branch lines collect debris at seams, and flex duct retrofits added during later HVAC upgrades can sag and trap particulate in low spots. If your home was built before the 1980s, there's a reasonable chance the ductwork has never been professionally cleaned.
 
@@ -32,9 +32,9 @@ Cotton is still part of Coleman County's agricultural economy, and during harves
 
 ## Our Air Duct Cleaning Process in Coleman
 
-The process starts with a visual inspection — we use a duct camera to document what's actually inside before any equipment runs. That documentation matters if you're filing a claim or simply want a before-and-after record.
+The process starts with a visual inspection, we use a duct camera to document what's actually inside before any equipment runs. That documentation matters if you're filing a claim or simply want a before-and-after record.
 
-From there, we connect a commercial-grade negative-air vacuum to the main trunk line, creating continuous negative pressure throughout the system while technicians work each branch with agitation tools. For older sheet-metal ductwork common in Coleman's mid-century homes, we use soft-bristle contact cleaning to avoid disturbing any existing joint sealant. Flex duct sections get a gentler approach — high-velocity air whips rather than rotary brushes — to protect the inner liner.
+From there, we connect a commercial-grade negative-air vacuum to the main trunk line, creating continuous negative pressure throughout the system while technicians work each branch with agitation tools. For older sheet-metal ductwork common in Coleman's mid-century homes, we use soft-bristle contact cleaning to avoid disturbing any existing joint sealant. Flex duct sections get a gentler approach, high-velocity air whips rather than rotary brushes, to protect the inner liner.
 
 If contamination includes visible mold growth, biological debris, or heavy odor, we apply an EPA-registered sanitizing agent to interior duct surfaces after the mechanical cleaning is complete. We are an IICRC Certified Firm. In older Coleman homes where lead-based paint on nearby surfaces may be a consideration during any HVAC or structural work, owner Sarha Boyd holds an EPA Certified Renovator credential under the Lead RRP program.
 
@@ -42,16 +42,16 @@ We also clean and inspect dryer vents during the same visit when requested. In C
 
 ## Getting to Coleman from Abilene
 
-Air Care Restoration is based in Abilene, and Coleman is a straightforward drive southeast on US-84 — a route our crews run regularly for jobs across Coleman County. We're available 24/7, so whether you're calling on a weekday morning or a Saturday night after noticing a burning smell from your vents, someone picks up.
+Air Care Restoration is based in Abilene, and Coleman is a straightforward drive southeast on US-84, a route our crews run regularly for jobs across Coleman County. We're available 24/7, so whether you're calling on a weekday morning or a Saturday night after noticing a burning smell from your vents, someone picks up.
 
 For scheduling purposes, plan for a half-day to full-day appointment depending on system size. A standard three-bedroom home in Coleman typically takes three to four hours from setup to final walkthrough.
 
 ## Local Note
 
-One thing worth knowing about Coleman specifically: many homes here have evaporative coolers — swamp coolers — that were either replaced by refrigerated air at some point or are still running alongside a central system. When a swamp cooler was decommissioned and the ductwork was repurposed for a refrigerated system, the interior of those ducts often retains mineral scale and biological residue from years of humid air passing through. If your home made that transition and the ducts were never cleaned after the changeover, what's inside is likely a mix of mineral deposits, old insulation fiber, and biological growth — a combination that standard residential duct cleaning services sometimes underestimate. We've seen it enough in this part of West Texas to know to ask about the system history before we quote.
+One thing worth knowing about Coleman specifically: many homes here have evaporative coolers, swamp coolers, that were either replaced by refrigerated air at some point or are still running alongside a central system. When a swamp cooler was decommissioned and the ductwork was repurposed for a refrigerated system, the interior of those ducts often retains mineral scale and biological residue from years of humid air passing through. If your home made that transition and the ducts were never cleaned after the changeover, what's inside is likely a mix of mineral deposits, old insulation fiber, and biological growth, a combination that standard residential duct cleaning services sometimes underestimate. We've seen it enough in this part of West Texas to know to ask about the system history before we quote.
 
-If you're not sure whether your home went through that kind of conversion, check the attic or utility closet for a water supply line running to an old plenum or ceiling unit — that's usually the tell.
+If you're not sure whether your home went through that kind of conversion, check the attic or utility closet for a water supply line running to an old plenum or ceiling unit, that's usually the tell.
 
 ---
 
-If your Coleman home's air system is moving less air than it used to, if you're noticing more dust on surfaces shortly after cleaning, or if there's an odor you can't locate, the ductwork is a logical first place to look. Call Air Care Restoration at (325) 339-8723 to schedule an inspection and cleaning — we'll tell you honestly what we find before any work begins.
+If your Coleman home's air system is moving less air than it used to, if you're noticing more dust on surfaces shortly after cleaning, or if there's an odor you can't locate, the ductwork is a logical first place to look. Call Air Care Restoration at (325) 339-8723 to schedule an inspection and cleaning, we'll tell you honestly what we find before any work begins.

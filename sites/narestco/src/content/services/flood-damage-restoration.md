@@ -21,11 +21,11 @@ Floodwater doesn't wait. Whether a burst pipe soaked your basement overnight or 
 
 ## How We Handle Flood Damage
 
-The first thing we do when we arrive is measure — not guess. Technicians use moisture meters and thermal imaging cameras to map exactly where water has traveled, including inside wall cavities, under hardwood floors, and beneath vinyl plank that looks dry on the surface but isn't. Standing water is extracted using truck-mounted and portable units capable of pulling hundreds of gallons per hour. What's left behind is the harder problem: the moisture absorbed into drywall, subfloor, insulation, and framing.
+The first thing we do when we arrive is measure, not guess. Technicians use moisture meters and thermal imaging cameras to map exactly where water has traveled, including inside wall cavities, under hardwood floors, and beneath vinyl plank that looks dry on the surface but isn't. Standing water is extracted using truck-mounted and portable units capable of pulling hundreds of gallons per hour. What's left behind is the harder problem: the moisture absorbed into drywall, subfloor, insulation, and framing.
 
-Drying that residual moisture is a multi-day process. We place high-capacity axial and centrifugal air movers in calculated positions to create airflow through wet materials, paired with commercial-grade desiccant or refrigerant dehumidifiers that pull moisture out of the air as it evaporates. Readings are logged daily. Drying targets are set to IICRC S500 standards — the industry benchmark for water damage restoration — and we don't pull equipment until the numbers confirm the structure has returned to pre-loss moisture levels.
+Drying that residual moisture is a multi-day process. We place high-capacity axial and centrifugal air movers in calculated positions to create airflow through wet materials, paired with commercial-grade desiccant or refrigerant dehumidifiers that pull moisture out of the air as it evaporates. Readings are logged daily. Drying targets are set to IICRC S500 standards, the industry benchmark for water damage restoration, and we don't pull equipment until the numbers confirm the structure has returned to pre-loss moisture levels.
 
-If materials are too saturated to dry in place — common with Category 2 or Category 3 water intrusion, which can carry sewage, chemicals, or biological contaminants — controlled demolition removes them. That means cutting drywall to the flood line, pulling saturated insulation, and in some cases lifting flooring. Once the structure is dry and clean, our reconstruction team handles the rebuild: framing, drywall, insulation, flooring, paint. One contractor, start to finish.
+If materials are too saturated to dry in place, common with Category 2 or Category 3 water intrusion, which can carry sewage, chemicals, or biological contaminants, controlled demolition removes them. That means cutting drywall to the flood line, pulling saturated insulation, and in some cases lifting flooring. Once the structure is dry and clean, our reconstruction team handles the rebuild: framing, drywall, insulation, flooring, paint. One contractor, start to finish.
 
 ## When to Call Us
 
@@ -35,15 +35,15 @@ Call immediately if you're dealing with any of the following:
 - Wet carpet, padding, or flooring that has been wet for more than a few hours
 - A musty or earthy smell that appeared after a rain event, a plumbing failure, or a roof leak
 - Discoloration or bubbling on walls or ceilings
-- A sewage backup — this is a health hazard and requires different handling than clean water
+- A sewage backup, this is a health hazard and requires different handling than clean water
 
-Mold can begin colonizing porous materials within 24 to 48 hours of a moisture event under the right temperature conditions — and Federal Way's mild, damp climate provides those conditions for much of the year. Waiting to see if things dry out on their own is the most common mistake homeowners make, and it's the one that turns a $3,000 extraction job into a $15,000 mold remediation and rebuild.
+Mold can begin colonizing porous materials within 24 to 48 hours of a moisture event under the right temperature conditions, and Federal Way's mild, damp climate provides those conditions for much of the year. Waiting to see if things dry out on their own is the most common mistake homeowners make, and it's the one that turns a $3,000 extraction job into a $15,000 mold remediation and rebuild.
 
 Do not run residential box fans over wet flooring. They circulate humid air without removing moisture from the structure, and they can accelerate mold growth in wall cavities. Leave drying equipment decisions to the technicians.
 
 ## What Sets Our Flood Damage Team Apart
 
-National Restoration Construction is IICRC Certified in water damage restoration, which means our process follows the same science-based standards used by insurance adjusters to evaluate whether a job was done correctly. We're also a Lead-Safe Certified Firm through the EPA — relevant in Federal Way's older housing stock, where pre-1978 construction is common and disturbing building materials without proper protocols creates a separate liability.
+National Restoration Construction is IICRC Certified in water damage restoration, which means our process follows the same science-based standards used by insurance adjusters to evaluate whether a job was done correctly. We're also a Lead-Safe Certified Firm through the EPA, relevant in Federal Way's older housing stock, where pre-1978 construction is common and disturbing building materials without proper protocols creates a separate liability.
 
 We've operated under General Contractor Certificate of Registration #NATIORC792M6, which means we can legally perform both the mitigation and the reconstruction under one roof. Many restoration companies subcontract the rebuild. We don't. That matters for timeline, accountability, and the quality of the finished work.
 
@@ -51,12 +51,12 @@ Response time: we aim to have a technician on-site within two hours of your call
 
 ## Insurance, Billing, and the Claims Process
 
-Most homeowner policies cover sudden and accidental water damage — a burst pipe, an appliance failure, or storm-driven water entry — but the language matters. Gradual leaks and flooding from rising groundwater are often excluded or require separate flood insurance through the National Flood Insurance Program (NFIP).
+Most homeowner policies cover sudden and accidental water damage, a burst pipe, an appliance failure, or storm-driven water entry, but the language matters. Gradual leaks and flooding from rising groundwater are often excluded or require separate flood insurance through the National Flood Insurance Program (NFIP).
 
-We work directly with insurance carriers and can document the loss in the format adjusters need: moisture readings, photo documentation, scope of work, and itemized estimates built in Xactimate, the estimating platform most carriers use. We don't inflate scopes, and we don't cut corners to fit a low adjuster estimate — we document what the structure actually needs and advocate for that with your carrier.
+We work directly with insurance carriers and can document the loss in the format adjusters need: moisture readings, photo documentation, scope of work, and itemized estimates built in Xactimate, the estimating platform most carriers use. We don't inflate scopes, and we don't cut corners to fit a low adjuster estimate, we document what the structure actually needs and advocate for that with your carrier.
 
 If you're unsure whether your loss is covered, call us before you call your insurer. We can help you understand what you're looking at before you file, which matters because filing a claim that gets denied can still affect your premium.
 
 ---
 
-Flood cleanup handled correctly the first time costs less — in money, time, and stress — than a job that has to be redone because the structure never fully dried. If you're dealing with water damage right now, call National Restoration Construction at **(206) 883-0333**. We'll tell you exactly what you're dealing with and what it takes to fix it.
+Flood cleanup handled correctly the first time costs less, in money, time, and stress, than a job that has to be redone because the structure never fully dried. If you're dealing with water damage right now, call National Restoration Construction at **(206) 883-0333**. We'll tell you exactly what you're dealing with and what it takes to fix it.

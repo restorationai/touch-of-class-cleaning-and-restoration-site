@@ -19,11 +19,11 @@ state: "UT"
 primary: false
 rendered: true
 ---
-When water backs up through a basement drain in South Provo at 11 p.m., or smoke from a kitchen fire settles into the drywall of a century-old home near Center Street, the clock starts immediately. Home Pride Restoration and Cleaning has been responding to those calls for Provo property owners since 1997 — extracting standing water, clearing smoke residue, remediating mold, and managing the full rebuild from first call through final inspection. One number, (801) 995-2437, reaches a live dispatcher around the clock.
+When water backs up through a basement drain in South Provo at 11 p.m., or smoke from a kitchen fire settles into the drywall of a century-old home near Center Street, the clock starts immediately. Home Pride Restoration and Cleaning has been responding to those calls for Provo property owners since 1997, extracting standing water, clearing smoke residue, remediating mold, and managing the full rebuild from first call through final inspection. One number, (801) 995-2437, reaches a live dispatcher around the clock.
 
 ## Restoration emergencies common in Provo
 
-Provo sits at roughly 4,550 feet in a high-desert valley that gets more weather variety than most people expect. Winters bring freeze-thaw cycles that crack supply lines and drive ice damming on older rooflines. Spring snowmelt off the Wasatch front pushes the water table up fast — homes in lower-elevation areas near the Provo River corridor can see groundwater intrusion weeks after the mountains stop draining. Summer monsoon moisture arrives quickly and without much warning, overwhelming gutters and window wells that were bone-dry all spring.
+Provo sits at roughly 4,550 feet in a high-desert valley that gets more weather variety than most people expect. Winters bring freeze-thaw cycles that crack supply lines and drive ice damming on older rooflines. Spring snowmelt off the Wasatch front pushes the water table up fast, homes in lower-elevation areas near the Provo River corridor can see groundwater intrusion weeks after the mountains stop draining. Summer monsoon moisture arrives quickly and without much warning, overwhelming gutters and window wells that were bone-dry all spring.
 
 The housing stock adds another layer. Provo has a wide range of building eras: post-war bungalows and brick ramblers in established neighborhoods like Joaquin and Tree Streets, mid-century apartment complexes near BYU, and newer construction pushing south toward the Provo Towne Centre corridor. Older homes often have galvanized supply lines near the end of their service life, original clay sewer laterals prone to root intrusion, and attic insulation that holds moisture long after a roof leak is patched. Each era brings its own failure patterns, and our crews have worked in all of them.
 
@@ -31,11 +31,11 @@ The housing stock adds another layer. Provo has a wide range of building eras: p
 
 ### Water damage restoration
 
-Water damage in Provo frequently starts small — a slow supply line drip behind a refrigerator, a failed wax ring under a toilet — and goes unnoticed until flooring buckles or drywall begins to stain. We use thermal imaging and moisture meters to map the full spread before any drying equipment goes in, because what's visible on the surface rarely tells the whole story. Industrial air movers and desiccant dehumidifiers run until readings confirm the structure is dry, not just until things look dry.
+Water damage in Provo frequently starts small, a slow supply line drip behind a refrigerator, a failed wax ring under a toilet, and goes unnoticed until flooring buckles or drywall begins to stain. We use thermal imaging and moisture meters to map the full spread before any drying equipment goes in, because what's visible on the surface rarely tells the whole story. Industrial air movers and desiccant dehumidifiers run until readings confirm the structure is dry, not just until things look dry.
 
 ### Mold remediation
 
-At Provo's elevation and humidity swings, mold can begin colonizing a wet surface within 24 to 48 hours. Bathrooms in older rentals near campus, crawl spaces under homes in the Joaquin neighborhood, and finished basements throughout the city are common sites. Our remediation process follows IICRC S520 protocols — containment, HEPA filtration, removal of affected materials, and clearance testing — so the work is documented and defensible for insurance claims or future property sales.
+At Provo's elevation and humidity swings, mold can begin colonizing a wet surface within 24 to 48 hours. Bathrooms in older rentals near campus, crawl spaces under homes in the Joaquin neighborhood, and finished basements throughout the city are common sites. Our remediation process follows IICRC S520 protocols, containment, HEPA filtration, removal of affected materials, and clearance testing, so the work is documented and defensible for insurance claims or future property sales.
 
 ### Fire and smoke damage restoration
 
@@ -47,17 +47,17 @@ Unattended situations, sewage backups, and trauma scenes require both proper per
 
 ### Reconstruction
 
-Once mitigation is complete, we can carry the project through rebuild — drywall, flooring, cabinetry, painting — under a single contractor relationship. For Provo property owners navigating a claim, fewer handoffs means a faster return to normal.
+Once mitigation is complete, we can carry the project through rebuild, drywall, flooring, cabinetry, painting, under a single contractor relationship. For Provo property owners navigating a claim, fewer handoffs means a faster return to normal.
 
 ## Response time and coverage
 
-Home Pride Restoration and Cleaning's headquarters is in Saratoga Springs, approximately 18 miles northwest of downtown Provo via US-89. Under normal traffic conditions, that puts a technician on-site in Provo within 45 to 60 minutes of your call. Neighborhoods in north Provo — including the Tree Streets area and properties near Brigham Young University — are typically reachable in under 50 minutes. South Provo addresses, including the ZIP codes 84601 and 84606, run a similar window. We aim for faster response on confirmed active flooding or fire-related calls, where every additional minute increases structural exposure.
+Home Pride Restoration and Cleaning's headquarters is in Saratoga Springs, approximately 18 miles northwest of downtown Provo via US-89. Under normal traffic conditions, that puts a technician on-site in Provo within 45 to 60 minutes of your call. Neighborhoods in north Provo, including the Tree Streets area and properties near Brigham Young University, are typically reachable in under 50 minutes. South Provo addresses, including the ZIP codes 84601 and 84606, run a similar window. We aim for faster response on confirmed active flooding or fire-related calls, where every additional minute increases structural exposure.
 
 ## Building stock, site conditions, and permits in Provo
 
 Much of Provo's older core is brick over wood framing with plaster-and-lath interiors and full basements rather than crawlspaces or slabs. That matters when water gets in: plaster holds moisture against the lath and the framing behind it, and a finished basement puts the wettest materials at the lowest point in the house. Unreinforced masonry is common in these older walls, so anything structural gets looked at carefully before demolition.
 
-The valley floor is old lake-bottom silt and clay, which drains slowly and keeps basement walls damp long after the surface dries. Pre-1978 homes bring lead paint, and pre-1980 materials can contain asbestos — Utah requires that be assessed before renovation or demolition disturbs it.
+The valley floor is old lake-bottom silt and clay, which drains slowly and keeps basement walls damp long after the surface dries. Pre-1978 homes bring lead paint, and pre-1980 materials can contain asbestos, Utah requires that be assessed before renovation or demolition disturbs it.
 
 Building permits for structural repair or rebuild come from Provo City's building division, under the Utah State Construction Code.
 

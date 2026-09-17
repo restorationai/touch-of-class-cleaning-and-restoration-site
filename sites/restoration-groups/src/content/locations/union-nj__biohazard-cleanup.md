@@ -21,34 +21,34 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
-When something unexpected and deeply difficult happens inside a Union home or business, the last thing a family should have to manage is the cleanup. Whether the situation involves a trauma, an unattended death, or the discovery of infectious materials in a property off the Route 22 corridor or tucked into one of Union's postwar split-levels, the path forward starts with a single call. The Restoration Group responds 24/7 from its base in neighboring Kenilworth — close enough that crews are typically on the road to Union ZIP codes 07083 and 07088 within minutes of dispatch.
+When something unexpected and deeply difficult happens inside a Union home or business, the last thing a family should have to manage is the cleanup. Whether the situation involves a trauma, an unattended death, or the discovery of infectious materials in a property off the Route 22 corridor or tucked into one of Union's postwar split-levels, the path forward starts with a single call. The Restoration Group responds 24/7 from its base in neighboring Kenilworth, close enough that crews are typically on the road to Union ZIP codes 07083 and 07088 within minutes of dispatch.
 
 ## Why Union Properties Present Unique Biohazard Challenges
 
-Union Township's housing stock tells the story of postwar New Jersey expansion: capes, split-levels, and colonials built through the 1940s, 50s, and 60s line neighborhoods from Battle Hill to Vauxhall. Many of these homes have finished or semi-finished basements, original hardwood subfloors, and plaster-and-lath construction that absorbs and retains biological material differently than modern drywall. Contamination can wick into porous surfaces before it's visible at the surface level — which is why thorough ATP testing and moisture mapping matter even in situations that appear contained.
+Union Township's housing stock tells the story of postwar New Jersey expansion: capes, split-levels, and colonials built through the 1940s, 50s, and 60s line neighborhoods from Battle Hill to Vauxhall. Many of these homes have finished or semi-finished basements, original hardwood subfloors, and plaster-and-lath construction that absorbs and retains biological material differently than modern drywall. Contamination can wick into porous surfaces before it's visible at the surface level, which is why thorough ATP testing and moisture mapping matter even in situations that appear contained.
 
-Commercial properties along the Union Center business district and the Route 22 retail corridor add another dimension. Multi-tenant buildings, shared HVAC systems, and high foot-traffic spaces require discreet, efficient remediation that doesn't disrupt neighboring tenants or draw unnecessary attention. Kean University's student housing inventory introduces its own range of scenarios — from sharps and needle cleanup to infectious material situations that require careful coordination with property management.
+Commercial properties along the Union Center business district and the Route 22 retail corridor add another dimension. Multi-tenant buildings, shared HVAC systems, and high foot-traffic spaces require discreet, efficient remediation that doesn't disrupt neighboring tenants or draw unnecessary attention. Kean University's student housing inventory introduces its own range of scenarios, from sharps and needle cleanup to infectious material situations that require careful coordination with property management.
 
 ## Our Biohazard Remediation Process in Union
 
 Every biohazard situation is different, and the process is shaped by the specific conditions of the property and the nature of the loss. In general, work follows a consistent framework:
 
-**Assessment and containment** come first. Affected areas are isolated to prevent cross-contamination, and the scope of remediation is documented — both for the safety of the crew and for insurance purposes.
+**Assessment and containment** come first. Affected areas are isolated to prevent cross-contamination, and the scope of remediation is documented, both for the safety of the crew and for insurance purposes.
 
 **Removal and decontamination** follow established protocols for handling blood, bodily fluids, sharps, and other infectious materials. All waste is packaged and transported in compliance with New Jersey Department of Environmental Protection requirements for regulated medical waste.
 
 **Surface treatment and verification** close out the job. Porous materials that cannot be fully decontaminated are removed and disposed of properly. ATP testing confirms that treated surfaces meet accepted safety thresholds before the space is released.
 
-The Restoration Group holds IICRC Certified Firm status (#210213) and is licensed by the NJ Division of Consumer Affairs as a Home Improvement Contractor — credentials that matter when insurance adjusters and property managers need documentation of compliant work.
+The Restoration Group holds IICRC Certified Firm status (#210213) and is licensed by the NJ Division of Consumer Affairs as a Home Improvement Contractor, credentials that matter when insurance adjusters and property managers need documentation of compliant work.
 
 ## Discretion and Coordination in Union Neighborhoods
 
-In close-knit areas like Putnam Ridge and Washington, neighbors notice unmarked vans and equipment staging. The Restoration Group uses unmarked vehicles and plain-clothed crews when requested, and coordinates directly with family members, estate attorneys, property managers, or landlords — whoever is the appropriate point of contact — so that the people most affected don't have to manage logistics during an already difficult time.
+In close-knit areas like Putnam Ridge and Washington, neighbors notice unmarked vans and equipment staging. The Restoration Group uses unmarked vehicles and plain-clothed crews when requested, and coordinates directly with family members, estate attorneys, property managers, or landlords, whoever is the appropriate point of contact, so that the people most affected don't have to manage logistics during an already difficult time.
 
 For rental properties, HOA-governed communities, and commercial spaces, the team handles documentation that landlords and property managers need for their records: scope of work, waste manifests, and post-remediation verification reports.
 
 ## Local Note
 
-Union's postwar split-levels were often built with open-plan lower levels that connect directly to mechanical rooms and crawl spaces — a layout that can allow biological contamination to migrate into HVAC returns faster than in homes with more compartmentalized floor plans. When a situation occurs on a lower level in these homes, the team checks air handling equipment as a standard part of the assessment, not an add-on. It's a detail that matters in Union specifically and one that's easy to miss if a crew isn't familiar with how these homes were built.
+Union's postwar split-levels were often built with open-plan lower levels that connect directly to mechanical rooms and crawl spaces, a layout that can allow biological contamination to migrate into HVAC returns faster than in homes with more compartmentalized floor plans. When a situation occurs on a lower level in these homes, the team checks air handling equipment as a standard part of the assessment, not an add-on. It's a detail that matters in Union specifically and one that's easy to miss if a crew isn't familiar with how these homes were built.
 
-If you're dealing with a situation that can't wait, call (855) 650-7422. The Restoration Group is available around the clock, responds to Union properties 24/7, and handles every step from initial assessment through final clearance — so you can focus on what matters most.
+If you're dealing with a situation that can't wait, call (855) 650-7422. The Restoration Group is available around the clock, responds to Union properties 24/7, and handles every step from initial assessment through final clearance, so you can focus on what matters most.

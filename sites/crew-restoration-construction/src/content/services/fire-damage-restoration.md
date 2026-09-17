@@ -17,15 +17,15 @@ service_slug: "fire-damage-restoration"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-Even after the flames are out and the fire trucks leave, the damage keeps moving. Smoke infiltrates wall cavities, soot etches surfaces within hours, and the acidic residue from burning synthetics starts corroding metal fixtures, appliances, and even window glass before most homeowners have made their first insurance call. Fire damage restoration is a race against secondary damage — and the window to prevent permanent loss is measured in days, not weeks.
+Even after the flames are out and the fire trucks leave, the damage keeps moving. Smoke infiltrates wall cavities, soot etches surfaces within hours, and the acidic residue from burning synthetics starts corroding metal fixtures, appliances, and even window glass before most homeowners have made their first insurance call. Fire damage restoration is a race against secondary damage, and the window to prevent permanent loss is measured in days, not weeks.
 
 ## What fire damage restoration actually involves
 
 Fire cleanup is not cleaning up after a fire. It's a structured technical process that addresses four overlapping problems at once: structural damage from heat and flame, soot and char residue on surfaces, smoke odor embedded in porous materials, and water damage left behind by suppression efforts.
 
-Soot comes in distinct types, and each one requires a different removal method. Dry, powdery soot from fast-burning natural materials (paper, wood) brushes off surfaces relatively cleanly. Wet, oily soot from slow-burning synthetics — foam insulation, carpet backing, upholstered furniture, plastic — smears when wiped and bonds aggressively to drywall, cabinetry, and HVAC ductwork. Protein soot, produced by kitchen fires involving grease or food, is nearly invisible but leaves a powerful odor and a varnish-like film that standard cleaning products don't touch.
+Soot comes in distinct types, and each one requires a different removal method. Dry, powdery soot from fast-burning natural materials (paper, wood) brushes off surfaces relatively cleanly. Wet, oily soot from slow-burning synthetics, foam insulation, carpet backing, upholstered furniture, plastic, smears when wiped and bonds aggressively to drywall, cabinetry, and HVAC ductwork. Protein soot, produced by kitchen fires involving grease or food, is nearly invisible but leaves a powerful odor and a varnish-like film that standard cleaning products don't touch.
 
-Smoke travels farther than most people expect. It follows air pressure differentials and infiltrates closets, attics, crawl spaces, and rooms with no visible fire damage. In Sioux Falls homes — many of them two-story colonials and ranch-styles with open HVAC systems — smoke from a kitchen or basement fire can coat every room in the house within minutes.
+Smoke travels farther than most people expect. It follows air pressure differentials and infiltrates closets, attics, crawl spaces, and rooms with no visible fire damage. In Sioux Falls homes, many of them two-story colonials and ranch-styles with open HVAC systems, smoke from a kitchen or basement fire can coat every room in the house within minutes.
 
 Restoration equipment on a fire loss typically includes HEPA air scrubbers to capture airborne particulates, thermal foggers to neutralize odor molecules in hard-to-reach cavities, ozone generators for deep deodorization after contents are removed, and hydroxyl generators for occupied or sensitive environments. Structural drying equipment is almost always needed alongside, because suppression water left standing accelerates mold growth in already-compromised materials.
 
@@ -33,25 +33,25 @@ Restoration equipment on a fire loss typically includes HEPA air scrubbers to ca
 
 1. **Emergency stabilization and safety assessment.** Before any cleaning begins, the structure is evaluated for compromised load-bearing elements, electrical hazards, and broken windows or doors. Temporary board-up and roof tarping protect the property from weather and unauthorized entry while the full scope is documented.
 
-2. **Soot characterization and surface testing.** Not all soot is treated the same way. Affected surfaces are tested to identify soot type — dry, wet, or protein — so the correct cleaning chemistry is matched to each material. Applying the wrong method to wet soot spreads contamination and can permanently stain drywall, cabinetry, and stone.
+2. **Soot characterization and surface testing.** Not all soot is treated the same way. Affected surfaces are tested to identify soot type, dry, wet, or protein, so the correct cleaning chemistry is matched to each material. Applying the wrong method to wet soot spreads contamination and can permanently stain drywall, cabinetry, and stone.
 
-3. **Contents pack-out and inventory.** Salvageable contents — furniture, clothing, documents, electronics — are inventoried, packed, and transported to a controlled cleaning facility. This protects belongings from ongoing smoke exposure during structural restoration and gives adjusters a documented contents list for the claim.
+3. **Contents pack-out and inventory.** Salvageable contents, furniture, clothing, documents, electronics, are inventoried, packed, and transported to a controlled cleaning facility. This protects belongings from ongoing smoke exposure during structural restoration and gives adjusters a documented contents list for the claim.
 
 4. **Structural cleaning, deodorization, and HVAC purging.** Affected surfaces are cleaned using chemistry matched to soot type. Ductwork is inspected and cleaned to prevent smoke odor from recirculating after the HVAC system is restored. Thermal fogging or ozone treatment is applied to penetrate wall cavities, subflooring, and ceiling voids where odor compounds settle.
 
-5. **Reconstruction and clearance.** Charred framing, fire-damaged drywall, and unsalvageable flooring are removed and rebuilt to pre-loss condition. Restoration is complete when surfaces are clean, odor is undetectable, and the structure is safe for occupancy — not just when it looks clean on the surface.
+5. **Reconstruction and clearance.** Charred framing, fire-damaged drywall, and unsalvageable flooring are removed and rebuilt to pre-loss condition. Restoration is complete when surfaces are clean, odor is undetectable, and the structure is safe for occupancy, not just when it looks clean on the surface.
 
 ## What separates a good fire damage response from a bad one
 
-The most common mistake in fire cleanup is treating it as a cleaning job rather than a restoration job. Wiping soot without identifying its type spreads oily residue deeper into porous surfaces. Skipping contents pack-out leaves belongings absorbing smoke odor for weeks. Painting over smoke-stained drywall without proper sealing primer causes odor to bleed back through within months — a problem that frustrates homeowners and creates disputes with insurance carriers.
+The most common mistake in fire cleanup is treating it as a cleaning job rather than a restoration job. Wiping soot without identifying its type spreads oily residue deeper into porous surfaces. Skipping contents pack-out leaves belongings absorbing smoke odor for weeks. Painting over smoke-stained drywall without proper sealing primer causes odor to bleed back through within months, a problem that frustrates homeowners and creates disputes with insurance carriers.
 
 Experienced operators document everything before touching a surface: photographs, moisture readings, air quality baselines, and a written scope that separates structural damage from contents damage. Insurance adjusters look for this documentation to validate line items. Without it, legitimate costs get denied or underpaid.
 
-HVAC contamination is the most frequently missed item on fire loss estimates. Smoke travels through duct systems and deposits a thin film on interior surfaces. If ducts aren't cleaned and sealed, odor returns every time the system runs — sometimes months after restoration is complete.
+HVAC contamination is the most frequently missed item on fire loss estimates. Smoke travels through duct systems and deposits a thin film on interior surfaces. If ducts aren't cleaned and sealed, odor returns every time the system runs, sometimes months after restoration is complete.
 
 ## What does fire damage restoration cost?
 
-Typical costs for fire and smoke restoration vary significantly based on fire size, soot type, contents volume, and whether reconstruction is needed. Most homeowners pay somewhere in the range below, though every loss is different — Crew Restoration & Construction provides a written scope of work before any work begins so there are no surprises.
+Typical costs for fire and smoke restoration vary significantly based on fire size, soot type, contents volume, and whether reconstruction is needed. Most homeowners pay somewhere in the range below, though every loss is different, Crew Restoration & Construction provides a written scope of work before any work begins so there are no surprises.
 
 | Scenario | Typical industry range |
 |---|---|
@@ -61,14 +61,14 @@ Typical costs for fire and smoke restoration vary significantly based on fire si
 | Partial structural fire with reconstruction | $30,000 – $80,000 |
 | Total loss with full rebuild | $100,000+ |
 
-Homeowners insurance typically covers fire damage restoration — including structural cleaning, contents pack-out, deodorization, and reconstruction — when the cause is accidental. Coverage limits, deductibles, and policy exclusions vary, so reviewing your declarations page early in the process matters.
+Homeowners insurance typically covers fire damage restoration, including structural cleaning, contents pack-out, deodorization, and reconstruction, when the cause is accidental. Coverage limits, deductibles, and policy exclusions vary, so reviewing your declarations page early in the process matters.
 
 ## Seasonal and regional considerations
 
-Sioux Falls winters create a compounding problem after a fire loss. Suppression water freezes in wall cavities and subfloors when temperatures drop, making extraction harder and extending drying timelines. Space heaters used as temporary heat sources during South Dakota's cold months are a leading cause of residential fires in the region — often burning in areas with synthetic materials that produce the most aggressive wet soot. Summer fires, while less common, carry higher humidity that accelerates mold colonization in water-damaged materials before structural drying is complete.
+Sioux Falls winters create a compounding problem after a fire loss. Suppression water freezes in wall cavities and subfloors when temperatures drop, making extraction harder and extending drying timelines. Space heaters used as temporary heat sources during South Dakota's cold months are a leading cause of residential fires in the region, often burning in areas with synthetic materials that produce the most aggressive wet soot. Summer fires, while less common, carry higher humidity that accelerates mold colonization in water-damaged materials before structural drying is complete.
 
 ## Service area
 
-Crew Restoration & Construction serves Sioux Falls and the surrounding region, including Brandon, Tea, Harrisburg, Dell Rapids, and Baltic. Dedicated service-area pages cover fire damage restoration in each community — this page covers the process, standards, and scope that apply across all of them.
+Crew Restoration & Construction serves Sioux Falls and the surrounding region, including Brandon, Tea, Harrisburg, Dell Rapids, and Baltic. Dedicated service-area pages cover fire damage restoration in each community, this page covers the process, standards, and scope that apply across all of them.
 
 If your home or property has fire or smoke damage, the sooner the restoration process starts, the more can be saved. Call Crew Restoration & Construction at **(605) 965-2727** to begin smoke and soot removal and get a written scope before work starts.

@@ -20,17 +20,17 @@ state: "WA"
 service_display: "Odor Removal and Deodorization"
 rendered: true
 ---
-That smell isn't going away on its own. Whether it's smoke hanging in the walls after a kitchen fire, the sharp chemical bite of a sewage backup, or a musty odor that crept in after weeks of hidden moisture, odors left untreated don't fade — they settle deeper into drywall, insulation, HVAC ducts, and subfloor material. National Restoration Construction has been responding to odor emergencies across the Kent area since 2004, and our Federal Way headquarters puts a crew at most Kent addresses within 60–90 minutes of your call.
+That smell isn't going away on its own. Whether it's smoke hanging in the walls after a kitchen fire, the sharp chemical bite of a sewage backup, or a musty odor that crept in after weeks of hidden moisture, odors left untreated don't fade, they settle deeper into drywall, insulation, HVAC ducts, and subfloor material. National Restoration Construction has been responding to odor emergencies across the Kent area since 2004, and our Federal Way headquarters puts a crew at most Kent addresses within 60–90 minutes of your call.
 
 ## Why Kent Properties Are Prone to Persistent Odors
 
-Kent sits in the Green River Valley, where the combination of marine air, frequent rain, and older housing stock creates conditions that make odors especially stubborn. Many homes built in the 1960s through 1980s — common in neighborhoods like East Hill and the Meridian area — use wood-frame construction with minimal vapor barriers. When moisture infiltrates, it doesn't just evaporate; it feeds mold colonies that can begin forming within 24–48 hours of a leak, and the musty byproduct of that growth embeds itself in porous surfaces fast.
+Kent sits in the Green River Valley, where the combination of marine air, frequent rain, and older housing stock creates conditions that make odors especially stubborn. Many homes built in the 1960s through 1980s, common in neighborhoods like East Hill and the Meridian area, use wood-frame construction with minimal vapor barriers. When moisture infiltrates, it doesn't just evaporate; it feeds mold colonies that can begin forming within 24–48 hours of a leak, and the musty byproduct of that growth embeds itself in porous surfaces fast.
 
 The region's wet winters also mean that odors from flooding, roof leaks, or crawl space intrusion are seasonal realities here, not rare events. Add in Kent's mix of residential neighborhoods and light industrial corridors, and property managers dealing with smoke, chemical, or biohazard odors have a particular challenge: standard cleaning products mask the problem at the surface while the source continues off-gassing below.
 
 ## Our Odor Removal and Deodorization Process in Kent
 
-We don't spray and leave. Effective professional odor elimination requires identifying the source, neutralizing it at the molecular level, and then verifying the result — not just making the space smell like a cleaning product.
+We don't spray and leave. Effective professional odor elimination requires identifying the source, neutralizing it at the molecular level, and then verifying the result, not just making the space smell like a cleaning product.
 
 Here's what that looks like on a typical Kent job:
 
@@ -41,26 +41,26 @@ A technician walks the property with moisture meters, thermal imaging, and their
 If the odor source is saturated drywall, charred framing, or soaked insulation, no deodorization technology will permanently fix the problem until that material is removed. We handle the demo and document everything for your insurance claim.
 
 **3. Technology-Matched Treatment**
-Different odors require different tools. Smoke odor removal after a fire often calls for **thermal fogging**, which penetrates the same microscopic pathways the smoke traveled. Biological odors — sewage, decomposition, mold — respond better to **hydroxyl deodorization**, which uses UV-generated hydroxyl radicals to break down odor molecules without requiring the space to be vacated. For deep structural penetration in tightly sealed spaces, **ozone treatment** may be appropriate, though it requires careful containment protocols. We match the method to the problem rather than defaulting to one approach.
+Different odors require different tools. Smoke odor removal after a fire often calls for **thermal fogging**, which penetrates the same microscopic pathways the smoke traveled. Biological odors, sewage, decomposition, mold, respond better to **hydroxyl deodorization**, which uses UV-generated hydroxyl radicals to break down odor molecules without requiring the space to be vacated. For deep structural penetration in tightly sealed spaces, **ozone treatment** may be appropriate, though it requires careful containment protocols. We match the method to the problem rather than defaulting to one approach.
 
 **4. HEPA Air Scrubbing**
-While treatment is underway, commercial-grade HEPA air scrubbers run continuously to capture airborne particulates — especially important after smoke or mold events.
+While treatment is underway, commercial-grade HEPA air scrubbers run continuously to capture airborne particulates, especially important after smoke or mold events.
 
 **5. Post-Treatment Verification**
 Before we close out a job, we re-test air quality and do a final walkthrough. If the odor isn't gone, we haven't finished.
 
 ## Response Times Across Kent
 
-Our Federal Way location is roughly 10–15 minutes from central Kent under normal traffic conditions. That means most Kent addresses — whether you're near the Kent Transit Center, out toward Covington, or up on East Hill — can expect a technician on-site within 60–90 minutes of your initial contact. For properties closer to the Federal Way border along the 167 corridor, response can be faster.
+Our Federal Way location is roughly 10–15 minutes from central Kent under normal traffic conditions. That means most Kent addresses, whether you're near the Kent Transit Center, out toward Covington, or up on East Hill, can expect a technician on-site within 60–90 minutes of your initial contact. For properties closer to the Federal Way border along the 167 corridor, response can be faster.
 
 We operate 24 hours a day, 7 days a week. Odors from fires and sewage backups don't wait for business hours, and neither do we.
 
 ## Navigating Insurance for Odor Damage in Kent
 
-Most homeowners' policies cover odor remediation when it results from a covered peril — fire, smoke, sudden water discharge, or certain types of flooding. What trips people up is documentation. Insurers want to see the source of the odor, the scope of affected materials, and a detailed remediation plan before they approve a claim.
+Most homeowners' policies cover odor remediation when it results from a covered peril, fire, smoke, sudden water discharge, or certain types of flooding. What trips people up is documentation. Insurers want to see the source of the odor, the scope of affected materials, and a detailed remediation plan before they approve a claim.
 
-We work directly with insurance adjusters and can provide the moisture readings, photo documentation, and written scope of work your carrier needs. We don't file the claim for you — that's your relationship with your insurer — but we make sure you have everything required to support it. Our Washington State contractor license (#NATIORC792M6) and IICRC certification are typically required by carriers before they'll approve a remediation contractor, and we carry both.
+We work directly with insurance adjusters and can provide the moisture readings, photo documentation, and written scope of work your carrier needs. We don't file the claim for you, that's your relationship with your insurer, but we make sure you have everything required to support it. Our Washington State contractor license (#NATIORC792M6) and IICRC certification are typically required by carriers before they'll approve a remediation contractor, and we carry both.
 
 ## Don't Wait on an Odor Problem
 
-The longer an odor source sits — smoke residue continuing to off-gas, mold spreading through wall cavities, sewage soaking into subfloor — the more material typically needs to be replaced rather than cleaned. What starts as a remediation job can become a full reconstruction project if it's left too long. If something in your Kent home or property smells wrong, reach out to National Restoration Construction at **(206) 883-0333**. An honest assessment costs nothing, and getting eyes on the problem early almost always saves money.
+The longer an odor source sits, smoke residue continuing to off-gas, mold spreading through wall cavities, sewage soaking into subfloor, the more material typically needs to be replaced rather than cleaned. What starts as a remediation job can become a full reconstruction project if it's left too long. If something in your Kent home or property smells wrong, reach out to National Restoration Construction at **(206) 883-0333**. An honest assessment costs nothing, and getting eyes on the problem early almost always saves money.

@@ -19,19 +19,19 @@ state: "CA"
 primary: false
 rendered: true
 ---
-When a pipe bursts in a Gossamer Grove new build or a roof leak soaks inventory at a warehouse near Wonderful Industrial Park, ProRestoration Services dispatches from Bakersfield around the clock to contain the damage, dry the structure, and get Shafter property owners back to normal. We handle water damage, fire and smoke cleanup, mold remediation, and full reconstruction — and we work directly with insurance carriers so the claims process doesn't fall on your shoulders.
+When a pipe bursts in a Gossamer Grove new build or a roof leak soaks inventory at a warehouse near Wonderful Industrial Park, ProRestoration Services dispatches from Bakersfield around the clock to contain the damage, dry the structure, and get Shafter property owners back to normal. We handle water damage, fire and smoke cleanup, mold remediation, and full reconstruction, and we work directly with insurance carriers so the claims process doesn't fall on your shoulders.
 
 ## Restoration emergencies common in Shafter
 
-Shafter sits in the southern San Joaquin Valley, where summer temperatures routinely push past 105°F and winter nights can drop below freezing — a combination that stresses plumbing, roofing, and HVAC systems year-round. The valley floor's clay-heavy soil expands and contracts with the seasons, shifting foundations and cracking supply lines in older homes. Downtown Shafter's housing stock includes structures built before modern plumbing codes, where galvanized pipes corrode quietly until they fail. Gossamer Grove, by contrast, is one of Kern County's fastest-growing master-planned communities, where builder-defect claims and appliance failures — refrigerator ice-maker lines, dishwasher supply hoses — account for a large share of water losses in homes that are only a few years old. North Shafter's mix of agricultural support businesses and residential blocks adds its own pattern: irrigation runoff, high groundwater during wet years, and equipment-related flooding that can affect both homes and commercial spaces on the same parcel.
+Shafter sits in the southern San Joaquin Valley, where summer temperatures routinely push past 105°F and winter nights can drop below freezing, a combination that stresses plumbing, roofing, and HVAC systems year-round. The valley floor's clay-heavy soil expands and contracts with the seasons, shifting foundations and cracking supply lines in older homes. Downtown Shafter's housing stock includes structures built before modern plumbing codes, where galvanized pipes corrode quietly until they fail. Gossamer Grove, by contrast, is one of Kern County's fastest-growing master-planned communities, where builder-defect claims and appliance failures, refrigerator ice-maker lines, dishwasher supply hoses, account for a large share of water losses in homes that are only a few years old. North Shafter's mix of agricultural support businesses and residential blocks adds its own pattern: irrigation runoff, high groundwater during wet years, and equipment-related flooding that can affect both homes and commercial spaces on the same parcel.
 
-The logistics and agriculture operations anchored by Wonderful Industrial Park introduce large-loss commercial scenarios as well — sprinkler system discharges, roof leaks over refrigerated inventory, and forklift-related pipe strikes that can release hundreds of gallons before a shutoff valve is reached.
+The logistics and agriculture operations anchored by Wonderful Industrial Park introduce large-loss commercial scenarios as well, sprinkler system discharges, roof leaks over refrigerated inventory, and forklift-related pipe strikes that can release hundreds of gallons before a shutoff valve is reached.
 
 ## Services we provide in Shafter
 
 ### Water damage restoration
 
-Water damage in Shafter often shows up in two distinct patterns: slow, hidden leaks behind drywall in the older blocks near Downtown Shafter and the Shafter Depot Museum corridor, and sudden, high-volume losses in Gossamer Grove's newer construction where appliance connections fail without warning. We use thermal imaging and moisture meters to map the full extent of saturation before a single fan is placed, then dry to documented standards so walls and subfloors are genuinely dry — not just surface-dry.
+Water damage in Shafter often shows up in two distinct patterns: slow, hidden leaks behind drywall in the older blocks near Downtown Shafter and the Shafter Depot Museum corridor, and sudden, high-volume losses in Gossamer Grove's newer construction where appliance connections fail without warning. We use thermal imaging and moisture meters to map the full extent of saturation before a single fan is placed, then dry to documented standards so walls and subfloors are genuinely dry, not just surface-dry.
 
 ### Mold remediation
 
@@ -39,24 +39,24 @@ Shafter's hot summers create ideal conditions for mold growth after any water in
 
 ### Fire and smoke damage restoration
 
-Fire losses in Shafter range from kitchen fires in residential homes to brush-adjacent incidents on the valley's rural edges. Smoke residue is deceptive — it migrates through HVAC systems and settles in rooms far from the point of origin. We clean structural surfaces, contents, and ductwork, and we address the persistent odor that lingers long after visible soot is gone.
+Fire losses in Shafter range from kitchen fires in residential homes to brush-adjacent incidents on the valley's rural edges. Smoke residue is deceptive, it migrates through HVAC systems and settles in rooms far from the point of origin. We clean structural surfaces, contents, and ductwork, and we address the persistent odor that lingers long after visible soot is gone.
 
 ### Commercial and large-loss restoration
 
-For the distribution centers, packing houses, and agricultural facilities operating in and around Wonderful Industrial Park, a water or fire event isn't just a property problem — it's a business interruption. We have the equipment capacity to handle large square footage and coordinate directly with commercial property managers and their carriers to minimize downtime.
+For the distribution centers, packing houses, and agricultural facilities operating in and around Wonderful Industrial Park, a water or fire event isn't just a property problem, it's a business interruption. We have the equipment capacity to handle large square footage and coordinate directly with commercial property managers and their carriers to minimize downtime.
 
 ### Reconstruction
 
-Once mitigation is complete, we can carry the project through repairs and rebuild — replacing drywall, flooring, cabinetry, and structural framing — so property owners deal with one contractor instead of coordinating a separate general contractor after the restoration crew leaves.
+Once mitigation is complete, we can carry the project through repairs and rebuild, replacing drywall, flooring, cabinetry, and structural framing, so property owners deal with one contractor instead of coordinating a separate general contractor after the restoration crew leaves.
 
 ## Coverage and how fast we can get there
 
-ProRestoration Services is based in Bakersfield, roughly 25 miles southeast of Shafter via Highway 99 North or the more direct route along 7th Standard Road. Both routes are straightforward and free of significant traffic delays outside of peak commute windows. We serve all of Shafter's ZIP code 93263 — including Gossamer Grove on the city's growing northwest edge, the established neighborhoods of North Shafter, and the older commercial and residential blocks of Downtown Shafter. Because we operate 24/7, a call at 2 a.m. after a pipe failure gets the same response as a call at noon.
+ProRestoration Services is based in Bakersfield, roughly 25 miles southeast of Shafter via Highway 99 North or the more direct route along 7th Standard Road. Both routes are straightforward and free of significant traffic delays outside of peak commute windows. We serve all of Shafter's ZIP code 93263, including Gossamer Grove on the city's growing northwest edge, the established neighborhoods of North Shafter, and the older commercial and residential blocks of Downtown Shafter. Because we operate 24/7, a call at 2 a.m. after a pipe failure gets the same response as a call at noon.
 
 ## Building stock, site conditions, and permits in Shafter
 
-Downtown Shafter's oldest blocks date to the town's rail-and-farming years, and those houses tend to be wood frame with stucco or lap siding, raised floors over shallow crawlspaces, and cast iron drain lines that scale shut and crack at the hub. Anything built before 1978 may carry lead paint, and pre-1980s homes often have asbestos in floor tile, mastic, or wall and ceiling texture — so demolition gets tested and scoped, not just torn out. Post-war and tract-era homes here are slab-on-grade with composition shingle roofs and ductwork in unvented attics; no basements anywhere on this stretch of valley floor. Newer Gossamer Grove homes run PEX and engineered fill pads, which spread water fast under laminate and along bottom plates.
+Downtown Shafter's oldest blocks date to the town's rail-and-farming years, and those houses tend to be wood frame with stucco or lap siding, raised floors over shallow crawlspaces, and cast iron drain lines that scale shut and crack at the hub. Anything built before 1978 may carry lead paint, and pre-1980s homes often have asbestos in floor tile, mastic, or wall and ceiling texture, so demolition gets tested and scoped, not just torn out. Post-war and tract-era homes here are slab-on-grade with composition shingle roofs and ductwork in unvented attics; no basements anywhere on this stretch of valley floor. Newer Gossamer Grove homes run PEX and engineered fill pads, which spread water fast under laminate and along bottom plates.
 
 Structural repair and reroofing in city limits are permitted through the City of Shafter under California's Title 24 building standards, with seismic detailing that matters once framing is replaced.
 
-If you're dealing with water, fire, or mold damage anywhere in Shafter — from a Gossamer Grove appliance failure to a commercial loss near Mannel Park — call ProRestoration Services at **(661) 393-9306**. We're available around the clock, and we'll walk you through the next steps before we even arrive on site.
+If you're dealing with water, fire, or mold damage anywhere in Shafter, from a Gossamer Grove appliance failure to a commercial loss near Mannel Park, call ProRestoration Services at **(661) 393-9306**. We're available around the clock, and we'll walk you through the next steps before we even arrive on site.

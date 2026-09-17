@@ -20,32 +20,32 @@ state: "SD"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
-When a sewer line backs up in Dakota Dunes, the problem isn't just the immediate mess — it's what happens next in a community built on the Missouri River floodplain. The same saturated soils that made the 2011 Missouri River flood so catastrophic for this area also mean that raw sewage doesn't stay contained. It migrates laterally through crawl spaces, wicks into slab edges, and finds its way into finished basements fast. Crew Restoration & Construction responds to sewage backup and sanitization calls throughout the 57049 ZIP code, and we understand what the ground conditions here demand.
+When a sewer line backs up in Dakota Dunes, the problem isn't just the immediate mess, it's what happens next in a community built on the Missouri River floodplain. The same saturated soils that made the 2011 Missouri River flood so catastrophic for this area also mean that raw sewage doesn't stay contained. It migrates laterally through crawl spaces, wicks into slab edges, and finds its way into finished basements fast. Crew Restoration & Construction responds to sewage backup and sanitization calls throughout the 57049 ZIP code, and we understand what the ground conditions here demand.
 
 ## Why Dakota Dunes Properties See Sewage Backup Issues
 
-Dakota Dunes sits at the confluence of the Missouri River and Big Sioux River, and that geography shapes every underground utility in the community. Lateral sewer lines in riverside developments run through high-water-table soil that shifts seasonally — expanding in wet springs and contracting in dry summers. That movement stresses pipe joints over time, creating the small cracks and root intrusion points that eventually cause a full backup.
+Dakota Dunes sits at the confluence of the Missouri River and Big Sioux River, and that geography shapes every underground utility in the community. Lateral sewer lines in riverside developments run through high-water-table soil that shifts seasonally, expanding in wet springs and contracting in dry summers. That movement stresses pipe joints over time, creating the small cracks and root intrusion points that eventually cause a full backup.
 
-The upscale homes in The Dunes golf community and the Two Rivers area were largely built in the 1990s and early 2000s, which means their PVC laterals are now entering the age range where joint failures become more common. Many of these properties also have finished lower levels — home theaters, wet bars, guest suites — that sit directly in the path of any sewage event. A backup that might be a minor inconvenience in a bare-concrete utility basement becomes a major loss in a carpeted, furnished lower level.
+The upscale homes in The Dunes golf community and the Two Rivers area were largely built in the 1990s and early 2000s, which means their PVC laterals are now entering the age range where joint failures become more common. Many of these properties also have finished lower levels, home theaters, wet bars, guest suites, that sit directly in the path of any sewage event. A backup that might be a minor inconvenience in a bare-concrete utility basement becomes a major loss in a carpeted, furnished lower level.
 
-Septic overflow is a separate but related concern for properties on the outer edges of the development that aren't connected to the municipal system. Heavy rainfall saturates drain fields, and when the ground can't absorb effluent fast enough, it surfaces — sometimes inside the structure.
+Septic overflow is a separate but related concern for properties on the outer edges of the development that aren't connected to the municipal system. Heavy rainfall saturates drain fields, and when the ground can't absorb effluent fast enough, it surfaces, sometimes inside the structure.
 
 ## Our Sewage Cleanup and Sanitization Process in Dakota Dunes
 
-Raw sewage is classified as Category 3 water — the most contaminated type — and the cleanup process reflects that. We don't treat it like a standard water loss.
+Raw sewage is classified as Category 3 water, the most contaminated type, and the cleanup process reflects that. We don't treat it like a standard water loss.
 
 When we arrive, the first priority is stopping ongoing exposure: ventilating the space, establishing containment if sewage has reached living areas, and identifying the source so the backup isn't still active while we work. From there, the process moves through several concrete phases:
 
 - **Extraction and removal**: Standing sewage and saturated porous materials (carpet, pad, drywall, insulation) are removed. Porous materials contaminated by Category 3 water are not salvageable and come out.
 - **Hard surface cleaning**: Concrete, tile, and framing members are scrubbed with EPA-registered disinfectants rated for fecal coliform and other pathogens common in sewage.
 - **Structural drying**: Even after visible sewage is gone, moisture remains in subfloor assemblies and wall cavities. We use desiccant or refrigerant dehumidifiers and air movers calibrated to the space until moisture readings reach acceptable levels.
-- **Sanitization and deodorization**: A final antimicrobial treatment addresses residual contamination and the persistent odor that raw sewage leaves behind — particularly in the confined crawl spaces common under some Two Rivers-area homes.
+- **Sanitization and deodorization**: A final antimicrobial treatment addresses residual contamination and the persistent odor that raw sewage leaves behind, particularly in the confined crawl spaces common under some Two Rivers-area homes.
 
 We document every step with photos and moisture logs, which matters when you're filing a claim.
 
 ## Dakota Dunes Insurance Coordination
 
-Sewage backup coverage is one of the most commonly misunderstood parts of a homeowner's policy. Standard policies often exclude it unless a specific sewage backup rider was added — and in a community like Dakota Dunes, where finished lower levels represent significant value, that gap can be expensive.
+Sewage backup coverage is one of the most commonly misunderstood parts of a homeowner's policy. Standard policies often exclude it unless a specific sewage backup rider was added, and in a community like Dakota Dunes, where finished lower levels represent significant value, that gap can be expensive.
 
 We work directly with adjusters and provide the documentation they require: scope of loss, affected materials, moisture readings before and after, and photo evidence. If your policy does cover the event, direct billing to your carrier means you're not fronting the full cost out of pocket. If coverage is limited or denied, we'll tell you plainly what the out-of-pocket costs look like before work begins.
 
@@ -53,6 +53,6 @@ For properties managed through an HOA, we can coordinate with property managemen
 
 ## Local Note
 
-One thing we've learned working in Dakota Dunes specifically: the finished basements in the golf community properties often have floor drains that tie directly into the sanitary lateral — the same line that backed up. During cleanup, those drains need to be temporarily plugged or monitored, because running water elsewhere in the house (a washing machine, a flushed toilet) can reintroduce contaminated water into a space you've already cleaned. It's a step that gets skipped when crews aren't familiar with how these homes were plumbed, and it turns a one-day job into a two-day job. We check drain connections before we start extraction.
+One thing we've learned working in Dakota Dunes specifically: the finished basements in the golf community properties often have floor drains that tie directly into the sanitary lateral, the same line that backed up. During cleanup, those drains need to be temporarily plugged or monitored, because running water elsewhere in the house (a washing machine, a flushed toilet) can reintroduce contaminated water into a space you've already cleaned. It's a step that gets skipped when crews aren't familiar with how these homes were plumbed, and it turns a one-day job into a two-day job. We check drain connections before we start extraction.
 
-If you're dealing with sewage backup in Dakota Dunes — whether it's a sewer line failure, a septic overflow, or a floor drain that came up during a rain event — call Crew Restoration & Construction at **(605) 965-2727**. We serve the entire 57049 area and can walk you through next steps before we're even on-site.
+If you're dealing with sewage backup in Dakota Dunes, whether it's a sewer line failure, a septic overflow, or a floor drain that came up during a rain event, call Crew Restoration & Construction at **(605) 965-2727**. We serve the entire 57049 area and can walk you through next steps before we're even on-site.

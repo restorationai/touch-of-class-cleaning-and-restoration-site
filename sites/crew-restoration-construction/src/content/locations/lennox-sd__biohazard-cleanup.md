@@ -21,27 +21,27 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
-Lennox is a small Lincoln County community that has grown steadily over the past decade, adding new residential streets on the edges of town while its older blocks near Downtown Lennox retain homes built in earlier eras. When an unattended death, a traumatic accident, or the discovery of infectious material brings a biohazard situation into one of those homes, the people left to deal with it are almost always neighbors, family members, or landlords — not professionals. Crew Restoration & Construction handles these situations with discretion and clinical care so that the people closest to the loss do not have to.
+Lennox is a small Lincoln County community that has grown steadily over the past decade, adding new residential streets on the edges of town while its older blocks near Downtown Lennox retain homes built in earlier eras. When an unattended death, a traumatic accident, or the discovery of infectious material brings a biohazard situation into one of those homes, the people left to deal with it are almost always neighbors, family members, or landlords, not professionals. Crew Restoration & Construction handles these situations with discretion and clinical care so that the people closest to the loss do not have to.
 
 ## Why Lennox Properties Present Specific Biohazard Considerations
 
-Lennox's residential growth pattern means the housing stock spans a wide range. Homes near the Lennox City Park area tend to be older, with original hardwood subfloors, plaster-and-lath walls, and limited crawl space ventilation. Infectious or biological material that is not contained quickly can wick into porous subfloor assemblies or migrate through gaps in older construction — making the difference between a contained cleanup and a much larger remediation project a matter of hours, not days.
+Lennox's residential growth pattern means the housing stock spans a wide range. Homes near the Lennox City Park area tend to be older, with original hardwood subfloors, plaster-and-lath walls, and limited crawl space ventilation. Infectious or biological material that is not contained quickly can wick into porous subfloor assemblies or migrate through gaps in older construction, making the difference between a contained cleanup and a much larger remediation project a matter of hours, not days.
 
 Lincoln County farmland surrounds the town, and that rural context matters in a practical way: properties on the outer edges of Lennox sometimes include outbuildings, grain storage structures, or detached garages where sharps, needles, or other infectious material may be discovered during estate cleanouts or property transfers. Those structures often lack climate control, which affects how biological material behaves and how technicians must approach containment.
 
 ## Our Biohazard Cleanup Process in Lennox
 
-Every job starts with a discreet arrival. Crew Restoration & Construction uses unmarked or low-profile vehicles when requested — a detail that matters in a close-knit community like Lennox where neighbors notice. Technicians assess the affected area, establish containment barriers, and begin removal of biologically compromised materials using regulated personal protective equipment and industry-standard disposal protocols.
+Every job starts with a discreet arrival. Crew Restoration & Construction uses unmarked or low-profile vehicles when requested, a detail that matters in a close-knit community like Lennox where neighbors notice. Technicians assess the affected area, establish containment barriers, and begin removal of biologically compromised materials using regulated personal protective equipment and industry-standard disposal protocols.
 
 All biological waste collected in the 57039 ZIP code is transported and disposed of in compliance with South Dakota Department of Environment and Natural Resources requirements for regulated medical and biohazard waste. Nothing is left curbside or in standard household waste streams. After physical removal, affected surfaces are treated with EPA-registered disinfectants appropriate to the specific pathogen risk category. The space is then cleared and documented before technicians leave the site.
 
-Documentation matters for two reasons: it protects the property owner during any insurance claim, and it creates a written record that the property has been professionally remediated — something that becomes important if the home is ever sold or re-tenanted.
+Documentation matters for two reasons: it protects the property owner during any insurance claim, and it creates a written record that the property has been professionally remediated, something that becomes important if the home is ever sold or re-tenanted.
 
 ## Reaching Lennox from Sioux Falls
 
 Crew Restoration & Construction is based in Sioux Falls, and Lennox sits roughly 25 miles to the southwest via SD-44. That route is direct and well-maintained through most of the year, though winter conditions on the Lincoln County stretches can add time during ice events. We schedule Lennox jobs as promptly as the situation allows and communicate arrival windows clearly so that property owners or authorized contacts are not left waiting without information.
 
-For situations involving a rental property or an estate where the primary contact is not local, we can coordinate access and documentation with a designated representative — a common need in Lennox's growing rental market.
+For situations involving a rental property or an estate where the primary contact is not local, we can coordinate access and documentation with a designated representative, a common need in Lennox's growing rental market.
 
 ## Lennox Insurance Coordination
 
@@ -51,6 +51,6 @@ For landlords managing properties in the Lennox area, we can also produce the do
 
 ## Local Note
 
-Older homes in and around Downtown Lennox frequently have original tongue-and-groove hardwood floors laid directly over board subfloors with minimal vapor barrier — a construction method common in South Dakota before the 1960s. When biological material reaches that floor assembly, it can travel laterally between boards much farther than the visible stain suggests. Technicians who are not familiar with this construction type sometimes underestimate the affected area. Crew Restoration & Construction accounts for this by testing beyond the visible boundary before finalizing the scope, which prevents incomplete remediation from being discovered later during a sale inspection or renovation.
+Older homes in and around Downtown Lennox frequently have original tongue-and-groove hardwood floors laid directly over board subfloors with minimal vapor barrier, a construction method common in South Dakota before the 1960s. When biological material reaches that floor assembly, it can travel laterally between boards much farther than the visible stain suggests. Technicians who are not familiar with this construction type sometimes underestimate the affected area. Crew Restoration & Construction accounts for this by testing beyond the visible boundary before finalizing the scope, which prevents incomplete remediation from being discovered later during a sale inspection or renovation.
 
-If you are dealing with a biohazard situation at a Lennox property — whether it involves an unattended death, infectious material, sharps discovery, or another sensitive circumstance — Crew Restoration & Construction can help you move through it with as little additional stress as possible. Call (605) 965-2727 to speak with someone directly about what to expect and how to get started.
+If you are dealing with a biohazard situation at a Lennox property, whether it involves an unattended death, infectious material, sharps discovery, or another sensitive circumstance, Crew Restoration & Construction can help you move through it with as little additional stress as possible. Call (605) 965-2727 to speak with someone directly about what to expect and how to get started.

@@ -20,21 +20,21 @@ state: "CA"
 service_display: "Garbage Disposal Repair and Installation"
 rendered: true
 ---
-Anaheim kitchens work hard — weekend cookouts, big family gatherings, the kind of meal prep that sends citrus rinds, fibrous vegetable scraps, and the occasional bone fragment straight down the drain. When a disposal starts humming without spinning, leaking from the collar, or simply goes silent mid-cycle, the timing is almost never convenient. RT Olson Plumbing, Heating and Air Conditioning responds 24/7, reaching Anaheim from our Corona base to diagnose and fix the problem the same visit whenever parts allow.
+Anaheim kitchens work hard, weekend cookouts, big family gatherings, the kind of meal prep that sends citrus rinds, fibrous vegetable scraps, and the occasional bone fragment straight down the drain. When a disposal starts humming without spinning, leaking from the collar, or simply goes silent mid-cycle, the timing is almost never convenient. RT Olson Plumbing, Heating and Air Conditioning responds 24/7, reaching Anaheim from our Corona base to diagnose and fix the problem the same visit whenever parts allow.
 
 ## Why Anaheim Kitchens See Disposal Problems
 
-Anaheim's housing stock spans several decades of construction, and the era a home was built in shapes what's under the sink more than most homeowners realize. Tract homes built during the postwar boom of the 1950s and 1960s — common across older Anaheim neighborhoods — were often plumbed with galvanized drain lines that have narrowed significantly with rust and mineral scale over the decades. A disposal that drains slowly isn't always a disposal problem; it's sometimes a drain problem the disposal is exposing.
+Anaheim's housing stock spans several decades of construction, and the era a home was built in shapes what's under the sink more than most homeowners realize. Tract homes built during the postwar boom of the 1950s and 1960s, common across older Anaheim neighborhoods, were often plumbed with galvanized drain lines that have narrowed significantly with rust and mineral scale over the decades. A disposal that drains slowly isn't always a disposal problem; it's sometimes a drain problem the disposal is exposing.
 
-Southern California's hard water is the other persistent factor. The water supply throughout Orange County carries elevated calcium and magnesium levels, and that mineral load gradually coats disposal grinding chambers and impeller plates, reducing efficiency long before the unit actually fails. Homeowners often notice the unit working harder — louder, slower — before the first real jam or leak appears.
+Southern California's hard water is the other persistent factor. The water supply throughout Orange County carries elevated calcium and magnesium levels, and that mineral load gradually coats disposal grinding chambers and impeller plates, reducing efficiency long before the unit actually fails. Homeowners often notice the unit working harder, louder, slower, before the first real jam or leak appears.
 
 Finally, Anaheim's warm climate means kitchens run year-round without the seasonal slowdown that gives appliances a rest in cooler climates. Disposals here log more operating hours annually than units in most other regions, which accelerates normal wear on seals, bearings, and the reset button's internal thermal overload protector.
 
 ## Our Repair and Installation Process
 
-Every service call starts with a full under-sink assessment — not just the disposal unit itself, but the drain flange, mounting assembly, discharge tube, and the P-trap connection. A leaking disposal is often blamed on the unit when the actual failure point is the flange gasket or a cracked discharge elbow.
+Every service call starts with a full under-sink assessment, not just the disposal unit itself, but the drain flange, mounting assembly, discharge tube, and the P-trap connection. A leaking disposal is often blamed on the unit when the actual failure point is the flange gasket or a cracked discharge elbow.
 
-For jammed units, we use a combination of manual reset and hex-key impeller release before recommending replacement. Many disposals that appear dead have simply tripped their thermal overload and need a reset plus a clearing of whatever caused the jam — a bottle cap, a small bone, or compacted fibrous material like celery or artichoke leaves (a common culprit in Anaheim households where artichokes are a kitchen staple).
+For jammed units, we use a combination of manual reset and hex-key impeller release before recommending replacement. Many disposals that appear dead have simply tripped their thermal overload and need a reset plus a clearing of whatever caused the jam, a bottle cap, a small bone, or compacted fibrous material like celery or artichoke leaves (a common culprit in Anaheim households where artichokes are a kitchen staple).
 
 When replacement is the right call, we size the new unit to the household's actual usage pattern. A 1/3 HP builder-grade unit is undersized for a busy family kitchen; we typically recommend 3/4 HP or higher for homes where the disposal runs daily. We carry common replacement units on the truck and can complete most installations in a single visit, including reconnecting the dishwasher drain line if it ties into the disposal.
 
@@ -44,8 +44,8 @@ Our Corona shop puts us on the 91 freeway with a direct shot into Anaheim. We se
 
 ## Local Note
 
-Older Anaheim homes with cast-iron drain stacks — a construction detail common in homes built before the mid-1970s — can complicate disposal installations in a specific way: the discharge port height relative to the P-trap matters more when the stack connection is fixed and non-adjustable. If a new disposal sits slightly lower than the old unit, the discharge tube angle can create a trap that holds standing water and breeds odor. It's a small detail that gets missed on quick installs, and it's one of the first things we check when a disposal smells foul even after cleaning.
+Older Anaheim homes with cast-iron drain stacks, a construction detail common in homes built before the mid-1970s, can complicate disposal installations in a specific way: the discharge port height relative to the P-trap matters more when the stack connection is fixed and non-adjustable. If a new disposal sits slightly lower than the old unit, the discharge tube angle can create a trap that holds standing water and breeds odor. It's a small detail that gets missed on quick installs, and it's one of the first things we check when a disposal smells foul even after cleaning.
 
 ---
 
-If your disposal is humming, leaking, or has gone completely quiet, call RT Olson Plumbing, Heating and Air Conditioning at (951) 344-5596. We're available 24/7 and serve Anaheim with the same same-day response we provide throughout the region — no after-hours surcharge surprises, just a straight diagnosis and a clear repair or replacement recommendation.
+If your disposal is humming, leaking, or has gone completely quiet, call RT Olson Plumbing, Heating and Air Conditioning at (951) 344-5596. We're available 24/7 and serve Anaheim with the same same-day response we provide throughout the region, no after-hours surcharge surprises, just a straight diagnosis and a clear repair or replacement recommendation.

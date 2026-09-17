@@ -20,13 +20,13 @@ state: "MS"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-Pass Christian sits right on the Mississippi Gulf Coast, where salt air, high humidity, and the lingering effects of hurricane seasons have shaped a housing stock that ranges from century-old raised cottages to post-Katrina rebuilds — and when fire moves through any of those structures, the damage compounds fast. Smoke and soot don't just stain surfaces here; they absorb into the porous wood framing, aged plaster, and storm-weathered siding that define so much of this city's character. HomeLyft Restoration MS responds to fire and smoke damage in Pass Christian with IICRC FSRT-certified technicians who understand exactly what a coastal Gulf home holds inside its walls.
+Pass Christian sits right on the Mississippi Gulf Coast, where salt air, high humidity, and the lingering effects of hurricane seasons have shaped a housing stock that ranges from century-old raised cottages to post-Katrina rebuilds, and when fire moves through any of those structures, the damage compounds fast. Smoke and soot don't just stain surfaces here; they absorb into the porous wood framing, aged plaster, and storm-weathered siding that define so much of this city's character. HomeLyft Restoration MS responds to fire and smoke damage in Pass Christian with IICRC FSRT-certified technicians who understand exactly what a coastal Gulf home holds inside its walls.
 
 ## Why Pass Christian Properties Face Compounded Fire Damage
 
-The Gulf Coast climate creates conditions that accelerate secondary damage after a fire. Pass Christian's average relative humidity routinely exceeds 70 percent, which means smoke residue — already acidic — begins bonding to wet surfaces almost immediately after firefighters clear the scene. Older homes in this area often feature heart pine flooring, tongue-and-groove ceilings, and original wood window casings that absorb odor at a molecular level. Standard wipe-down methods aren't enough.
+The Gulf Coast climate creates conditions that accelerate secondary damage after a fire. Pass Christian's average relative humidity routinely exceeds 70 percent, which means smoke residue, already acidic, begins bonding to wet surfaces almost immediately after firefighters clear the scene. Older homes in this area often feature heart pine flooring, tongue-and-groove ceilings, and original wood window casings that absorb odor at a molecular level. Standard wipe-down methods aren't enough.
 
-Post-Katrina reconstruction added another layer of complexity. Many homes rebuilt between 2006 and 2012 used engineered lumber and composite materials that char and off-gas differently than old-growth wood. A structural fire in one of those homes can leave behind a chemical odor profile that differs significantly from what you'd find in a pre-1970 cottage a few blocks away — and the restoration approach has to account for that difference.
+Post-Katrina reconstruction added another layer of complexity. Many homes rebuilt between 2006 and 2012 used engineered lumber and composite materials that char and off-gas differently than old-growth wood. A structural fire in one of those homes can leave behind a chemical odor profile that differs significantly from what you'd find in a pre-1970 cottage a few blocks away, and the restoration approach has to account for that difference.
 
 ## Our Fire Damage Restoration Process in Pass Christian
 
@@ -34,29 +34,29 @@ Every job starts with a room-by-room damage assessment that distinguishes char z
 
 From there, the process moves through these concrete steps:
 
-- **Board-up and structural stabilization** — securing openings against Gulf weather, which can shift from calm to stormy with little warning
-- **Dry-ice or soda blasting of char** — particularly effective on the exposed wood framing common in older Pass Christian homes, removing carbon without saturating structural members with water
+- **Board-up and structural stabilization**, securing openings against Gulf weather, which can shift from calm to stormy with little warning
+- **Dry-ice or soda blasting of char**, particularly effective on the exposed wood framing common in older Pass Christian homes, removing carbon without saturating structural members with water
 - **HEPA vacuuming and chemical sponge wiping** of all smoke-affected surfaces, working from ceiling to floor
-- **Thermal fogging and hydroxyl generation** to neutralize odor molecules embedded in porous materials — not just mask them
+- **Thermal fogging and hydroxyl generation** to neutralize odor molecules embedded in porous materials, not just mask them
 - **Duct cleaning and HVAC decontamination**, because soot that enters the air handler will redistribute every time the system runs
 - **Controlled demolition and reconstruction** of materials that cannot be restored, coordinated with Mississippi-licensed contractors
 
-All drying and structural work follows IICRC standards, and the team is EPA Lead-Safe Certified — relevant in Pass Christian's older housing stock where lead paint beneath fire-damaged surfaces is a real possibility.
+All drying and structural work follows IICRC standards, and the team is EPA Lead-Safe Certified, relevant in Pass Christian's older housing stock where lead paint beneath fire-damaged surfaces is a real possibility.
 
 ## Reaching Pass Christian from Gulfport
 
 HomeLyft Restoration MS operates out of Gulfport, roughly 12 miles east of Pass Christian along US-90. That coastal highway route puts our crews close to the heart of the city without the inland detours that can add significant time in an emergency. Whether the call comes from the beachside streets near the historic seawall or from neighborhoods further north toward the railroad corridor, the drive along the Gulf is direct and familiar to our team.
 
-When you call +12282845200, our dispatch team will confirm scheduling and give you an honest arrival estimate based on current conditions — we won't quote a minute figure we can't stand behind.
+When you call +12282845200, our dispatch team will confirm scheduling and give you an honest arrival estimate based on current conditions, we won't quote a minute figure we can't stand behind.
 
 ## Insurance Coordination for Pass Christian Fire Claims
 
-Fire damage claims on the Gulf Coast carry specific complications. Many Pass Christian homeowners carry separate wind and flood policies alongside their standard homeowner's coverage — a legacy of post-Katrina insurance restructuring in Harrison County. When a fire follows a storm event, or when fire suppression water causes secondary water damage, determining which policy responds to which loss can become genuinely complicated.
+Fire damage claims on the Gulf Coast carry specific complications. Many Pass Christian homeowners carry separate wind and flood policies alongside their standard homeowner's coverage, a legacy of post-Katrina insurance restructuring in Harrison County. When a fire follows a storm event, or when fire suppression water causes secondary water damage, determining which policy responds to which loss can become genuinely complicated.
 
-HomeLyft documents every affected material with photographs, moisture readings, and written scope notes formatted to meet adjuster expectations. We work directly with most major carriers and can communicate the scope of loss in the language adjusters use, which typically shortens the approval timeline. We do not make coverage decisions — that's between you and your insurer — but we make sure the documentation doesn't leave room for ambiguity.
+HomeLyft documents every affected material with photographs, moisture readings, and written scope notes formatted to meet adjuster expectations. We work directly with most major carriers and can communicate the scope of loss in the language adjusters use, which typically shortens the approval timeline. We do not make coverage decisions, that's between you and your insurer, but we make sure the documentation doesn't leave room for ambiguity.
 
 ## Local Note
 
-One thing our team has learned working in Pass Christian specifically: homes built on pier-and-beam foundations — which are common here as a flood-mitigation measure — allow smoke and soot to migrate into the crawl space during a fire event. That underfloor space is often overlooked in initial assessments, but it can harbor odor-causing residue that resurfaces months later through gaps in the subfloor. On any pier-and-beam property in this area, we include a crawl space inspection and, where needed, treatment as a standard part of the fire restoration scope — not an add-on.
+One thing our team has learned working in Pass Christian specifically: homes built on pier-and-beam foundations, which are common here as a flood-mitigation measure, allow smoke and soot to migrate into the crawl space during a fire event. That underfloor space is often overlooked in initial assessments, but it can harbor odor-causing residue that resurfaces months later through gaps in the subfloor. On any pier-and-beam property in this area, we include a crawl space inspection and, where needed, treatment as a standard part of the fire restoration scope, not an add-on.
 
-If your home or business in Pass Christian has been through a fire, the next step is a thorough assessment before any cleaning or repairs begin. Call HomeLyft Restoration MS at +12282845200 to schedule that walkthrough — the sooner the damage is properly scoped, the more material and cost can typically be saved.
+If your home or business in Pass Christian has been through a fire, the next step is a thorough assessment before any cleaning or repairs begin. Call HomeLyft Restoration MS at +12282845200 to schedule that walkthrough, the sooner the damage is properly scoped, the more material and cost can typically be saved.

@@ -19,7 +19,7 @@ state: "MS"
 primary: false
 rendered: true
 ---
-When a pipe bursts under a pier-and-beam floor or a Gulf storm pushes water through a crawl space vent, Big Point property owners need a restoration crew that knows the area — not a call center routing your job to whoever is available. HomeLyft Restoration MS dispatches from Gulfport and handles water damage mitigation, mold remediation, fire and smoke cleanup, and full reconstruction for homes and commercial properties throughout Big Point and the surrounding Jackson County communities. One call starts the documentation, the drying, and the insurance coordination.
+When a pipe bursts under a pier-and-beam floor or a Gulf storm pushes water through a crawl space vent, Big Point property owners need a restoration crew that knows the area, not a call center routing your job to whoever is available. HomeLyft Restoration MS dispatches from Gulfport and handles water damage mitigation, mold remediation, fire and smoke cleanup, and full reconstruction for homes and commercial properties throughout Big Point and the surrounding Jackson County communities. One call starts the documentation, the drying, and the insurance coordination.
 
 ## Restoration emergencies common in Big Point
 
@@ -27,13 +27,13 @@ Big Point sits in the humid subtropical corridor of Jackson County, where summer
 
 The housing stock in the Big Point area includes a mix of older wood-frame homes on raised foundations and newer slab-on-grade construction closer to the waterways. Older homes tend to have less vapor barrier protection and more wood framing that absorbs moisture quickly. Slab homes, by contrast, trap water under flooring and inside wall bases where it is not immediately visible. Both types require different drying strategies, and getting that assessment wrong in the first 24 hours is what turns a manageable water claim into a full gut-and-rebuild.
 
-Wildfire smoke and structure fires are a secondary but real concern in the more rural stretches of the area, where volunteer response times can mean more exposure time before suppression. Smoke residue penetrates porous materials — drywall, insulation, wood framing — and the odor does not respond to surface cleaning alone.
+Wildfire smoke and structure fires are a secondary but real concern in the more rural stretches of the area, where volunteer response times can mean more exposure time before suppression. Smoke residue penetrates porous materials, drywall, insulation, wood framing, and the odor does not respond to surface cleaning alone.
 
 ## Services we provide in Big Point
 
-**Water damage mitigation** is the most common call we receive from Big Point. Whether the source is a failed water heater, a roof breach during a named storm, or a slow plumbing leak discovered behind a vanity, the process starts with moisture mapping using thermal imaging and calibrated meters, followed by commercial-grade drying equipment placed to move air through the affected structure — not just at the surface.
+**Water damage mitigation** is the most common call we receive from Big Point. Whether the source is a failed water heater, a roof breach during a named storm, or a slow plumbing leak discovered behind a vanity, the process starts with moisture mapping using thermal imaging and calibrated meters, followed by commercial-grade drying equipment placed to move air through the affected structure, not just at the surface.
 
-**Mold remediation** in the Big Point area frequently follows water events that were not dried completely, or older homes where crawl space ventilation has been inadequate for years. We contain the affected area, remove compromised materials, treat structural surfaces, and clear the space before reconstruction begins. We do not issue health clearances — that is the role of an independent industrial hygienist — but we follow established remediation protocols to address the visible and hidden growth.
+**Mold remediation** in the Big Point area frequently follows water events that were not dried completely, or older homes where crawl space ventilation has been inadequate for years. We contain the affected area, remove compromised materials, treat structural surfaces, and clear the space before reconstruction begins. We do not issue health clearances, that is the role of an independent industrial hygienist, but we follow established remediation protocols to address the visible and hidden growth.
 
 **Fire and smoke damage restoration** involves more than removing charred material. Smoke residue from a kitchen fire or an electrical fault travels through HVAC systems and settles into soft goods, insulation, and wall cavities. We assess the full spread of contamination before scoping the restoration, which prevents odor callbacks weeks after the work is done.
 
@@ -41,11 +41,11 @@ Wildfire smoke and structure fires are a secondary but real concern in the more 
 
 ## Coverage and how fast we can get there
 
-HomeLyft Restoration MS operates out of Gulfport, roughly 25 to 30 miles west of Big Point via US-90 and MS-613. Jackson County's road network through this part of the county is mostly two-lane, so actual drive time depends on conditions and time of day. We schedule promptly and communicate an estimated arrival window when you call — (228) 284-5200. For property managers overseeing multiple units or rental properties in the Big Point area, we can coordinate access and documentation directly with your office.
+HomeLyft Restoration MS operates out of Gulfport, roughly 25 to 30 miles west of Big Point via US-90 and MS-613. Jackson County's road network through this part of the county is mostly two-lane, so actual drive time depends on conditions and time of day. We schedule promptly and communicate an estimated arrival window when you call, (228) 284-5200. For property managers overseeing multiple units or rental properties in the Big Point area, we can coordinate access and documentation directly with your office.
 
 ## Building stock, site conditions, and permits in Big Point
 
-Big Point is unincorporated, so there is no city hall to visit — building permits for structural repair, reroofing, and rebuilds come from Jackson County, and floodplain questions go through the county's floodplain administrator. Mississippi's coastal counties enforce wind provisions in the residential code, so roof reattachment and connection details matter on any rebuild scope.
+Big Point is unincorporated, so there is no city hall to visit, building permits for structural repair, reroofing, and rebuilds come from Jackson County, and floodplain questions go through the county's floodplain administrator. Mississippi's coastal counties enforce wind provisions in the residential code, so roof reattachment and connection details matter on any rebuild scope.
 
 Basements are essentially nonexistent here. Much of the area is on private well and septic, and a saturated drainfield after days of rain is a different problem than a supply leak. Older homes may still carry galvanized supply, cast iron drains, and pre-1978 lead paint or asbestos-containing sheet flooring and joint compound, which changes how material gets removed. Manufactured and modular homes are common in rural Jackson County and dry differently than stick-built.
 

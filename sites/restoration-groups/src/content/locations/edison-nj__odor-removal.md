@@ -20,27 +20,27 @@ state: "NJ"
 service_display: "Odor Removal and Deodorization"
 rendered: true
 ---
-Edison's postwar split-levels and colonials hold odors differently than newer construction — decades-old plaster, original hardwood subfloors, and cast-iron drain stacks create porous surfaces where smoke, sewer gas, and mildew can settle deep before a homeowner even notices the source. Whether the smell is coming from a finished basement off a Mill Brook tributary that flooded during Ida, a kitchen fire in a Clara Barton cape, or a sprinkler discharge in a Route 1 warehouse, the chemistry of odor removal demands more than an air freshener and an open window.
+Edison's postwar split-levels and colonials hold odors differently than newer construction, decades-old plaster, original hardwood subfloors, and cast-iron drain stacks create porous surfaces where smoke, sewer gas, and mildew can settle deep before a homeowner even notices the source. Whether the smell is coming from a finished basement off a Mill Brook tributary that flooded during Ida, a kitchen fire in a Clara Barton cape, or a sprinkler discharge in a Route 1 warehouse, the chemistry of odor removal demands more than an air freshener and an open window.
 
 ## Why Edison Properties Hold Odors Longer
 
-The housing stock across Edison — particularly the dense residential corridors near Oak Tree Road and the older neighborhoods in Stelton — was largely built between the 1940s and 1970s. That era of construction relied heavily on plaster-and-lath walls, tongue-and-groove subfloors, and cellulose-based insulation. All three materials are highly absorbent. When smoke from a kitchen fire or the acrid residue of a sewer backup soaks into them, the odor molecules bond at a molecular level rather than sitting on the surface.
+The housing stock across Edison, particularly the dense residential corridors near Oak Tree Road and the older neighborhoods in Stelton, was largely built between the 1940s and 1970s. That era of construction relied heavily on plaster-and-lath walls, tongue-and-groove subfloors, and cellulose-based insulation. All three materials are highly absorbent. When smoke from a kitchen fire or the acrid residue of a sewer backup soaks into them, the odor molecules bond at a molecular level rather than sitting on the surface.
 
-The township's geography compounds the problem. Low-lying areas near the Raritan River and Mill Brook see periodic flooding that leaves behind anaerobic bacteria in crawlspaces and under finished basement slabs — the source of that persistent musty or sulfur-like smell that returns every summer even after a homeowner has cleaned thoroughly. On the commercial side, the restaurant and retail density along the Route 1 corridor means grease-fire smoke and cooking-odor saturation in HVAC systems is a recurring issue for property managers dealing with tenant turnover.
+The township's geography compounds the problem. Low-lying areas near the Raritan River and Mill Brook see periodic flooding that leaves behind anaerobic bacteria in crawlspaces and under finished basement slabs, the source of that persistent musty or sulfur-like smell that returns every summer even after a homeowner has cleaned thoroughly. On the commercial side, the restaurant and retail density along the Route 1 corridor means grease-fire smoke and cooking-odor saturation in HVAC systems is a recurring issue for property managers dealing with tenant turnover.
 
 ## Our Odor Removal and Deodorization Process in Edison
 
-Effective odor elimination isn't a single step — it's a sequence calibrated to the source and the substrate. The process typically follows this progression:
+Effective odor elimination isn't a single step, it's a sequence calibrated to the source and the substrate. The process typically follows this progression:
 
 **Source removal first.** No deodorization technology works if the contaminated material is still present. Charred wood, smoke-saturated insulation, or sewage-soaked drywall comes out before any treatment begins.
 
-**Thermal fogging** penetrates the same pathways smoke traveled — into wall cavities, under flooring, into HVAC ductwork. The fog particles are sized to match smoke particles, so they reach surfaces that wiping and spraying cannot.
+**Thermal fogging** penetrates the same pathways smoke traveled, into wall cavities, under flooring, into HVAC ductwork. The fog particles are sized to match smoke particles, so they reach surfaces that wiping and spraying cannot.
 
-**Hydroxyl deodorization** is safe to run in occupied or partially occupied spaces, making it the right tool for multifamily buildings and commercial properties where a full shutdown isn't practical. Hydroxyl generators produce the same reactive molecules the atmosphere uses to break down pollutants — the process is chemical, not masking.
+**Hydroxyl deodorization** is safe to run in occupied or partially occupied spaces, making it the right tool for multifamily buildings and commercial properties where a full shutdown isn't practical. Hydroxyl generators produce the same reactive molecules the atmosphere uses to break down pollutants, the process is chemical, not masking.
 
 **Ozone treatment** is reserved for vacant, sealed spaces where a high-concentration oxidizing cycle can be completed safely. It's particularly effective in Edison's older homes where smoke or mildew has penetrated plaster walls and original hardwood.
 
-**Encapsulation and HVAC treatment** close out the job — locking any residual odor compounds in place and clearing the duct system so the HVAC doesn't redistribute what was just eliminated.
+**Encapsulation and HVAC treatment** close out the job, locking any residual odor compounds in place and clearing the duct system so the HVAC doesn't redistribute what was just eliminated.
 
 The IICRC Certified Firm standard (Certification #210213) guides the protocol at each stage, including documentation of pre- and post-treatment air quality readings.
 
@@ -50,10 +50,10 @@ The Restoration Group operates out of Kenilworth, roughly 12 miles northwest of 
 
 ## Local Note: Plaster Walls and Ozone Dwell Time
 
-One thing that comes up repeatedly in Edison's older split-levels and colonials — especially in the Stelton and Clara Barton sections — is that plaster walls require a significantly longer ozone dwell time than modern drywall. Plaster is denser and less permeable, so the oxidizing cycle needs to run longer to drive treatment deep enough to neutralize embedded odor compounds rather than just addressing the surface. Homeowners who have tried rental ozone machines and found the smell returned within a few weeks usually hit this exact problem: the dwell time on the label is calibrated for drywall construction, not 1950s plaster. Adjusting the protocol for the actual substrate is the difference between a job that holds and one that doesn't.
+One thing that comes up repeatedly in Edison's older split-levels and colonials, especially in the Stelton and Clara Barton sections, is that plaster walls require a significantly longer ozone dwell time than modern drywall. Plaster is denser and less permeable, so the oxidizing cycle needs to run longer to drive treatment deep enough to neutralize embedded odor compounds rather than just addressing the surface. Homeowners who have tried rental ozone machines and found the smell returned within a few weeks usually hit this exact problem: the dwell time on the label is calibrated for drywall construction, not 1950s plaster. Adjusting the protocol for the actual substrate is the difference between a job that holds and one that doesn't.
 
 ## Edison Insurance and Commercial Coordination
 
-Smoke and water-related odor losses are generally covered under standard homeowners and commercial property policies, and the documentation requirements matter. The Restoration Group provides written scope, photographic evidence of affected materials, and moisture and air quality readings formatted for adjuster review. For commercial properties along the Route 1 corridor or within larger complexes, coordination with property managers and their carriers is part of the standard workflow — not an add-on.
+Smoke and water-related odor losses are generally covered under standard homeowners and commercial property policies, and the documentation requirements matter. The Restoration Group provides written scope, photographic evidence of affected materials, and moisture and air quality readings formatted for adjuster review. For commercial properties along the Route 1 corridor or within larger complexes, coordination with property managers and their carriers is part of the standard workflow, not an add-on.
 
 If you're dealing with a persistent smell in an Edison home or commercial property and the source has already been identified, call (855) 650-7422. The work is licensed through the NJ Division of Consumer Affairs, and the team can assess the right combination of methods for the specific materials and odor type involved.

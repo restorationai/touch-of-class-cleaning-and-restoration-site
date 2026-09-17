@@ -20,15 +20,15 @@ state: "TX"
 service_display: "Contents Restoration and Storage"
 rendered: true
 ---
-When a burst pipe soaks the living room of a 1980s brick ranch in Hunters Glen, or a kitchen fire leaves smoke residue baked into the cabinetry of a Willow Bend two-story, the contents inside those homes face a clock. Furniture, electronics, artwork, clothing, and documents begin absorbing odors and moisture within hours. Reign Restoration's contents restoration and storage service is built to move fast — packing out your belongings, cleaning and restoring what can be saved, and storing everything in a climate-controlled facility until your home is ready.
+When a burst pipe soaks the living room of a 1980s brick ranch in Hunters Glen, or a kitchen fire leaves smoke residue baked into the cabinetry of a Willow Bend two-story, the contents inside those homes face a clock. Furniture, electronics, artwork, clothing, and documents begin absorbing odors and moisture within hours. Reign Restoration's contents restoration and storage service is built to move fast, packing out your belongings, cleaning and restoring what can be saved, and storing everything in a climate-controlled facility until your home is ready.
 
 ## Why Plano Homes See Contents Damage the Way They Do
 
-Plano's housing stock tells the story in layers. The tract homes built through the 1970s and 1980s east of US 75 — neighborhoods like Hunters Glen and Whiffletree — are old enough that original cast-iron drain lines are quietly corroding underneath slab foundations. When those lines fail, the leak doesn't announce itself; it saturates the slab and wicks upward into flooring, baseboards, and the furniture sitting on top of them. By the time a homeowner notices the discoloration or smell, personal property has been in contact with contaminated water for days.
+Plano's housing stock tells the story in layers. The tract homes built through the 1970s and 1980s east of US 75, neighborhoods like Hunters Glen and Whiffletree, are old enough that original cast-iron drain lines are quietly corroding underneath slab foundations. When those lines fail, the leak doesn't announce itself; it saturates the slab and wicks upward into flooring, baseboards, and the furniture sitting on top of them. By the time a homeowner notices the discoloration or smell, personal property has been in contact with contaminated water for days.
 
 The 1990s two-story brick construction in Willow Bend and Deerfield presents a different pattern. Second-floor laundry rooms and ice-maker lines are common failure points, and when water travels down through a floor system, it tends to hit upholstered furniture, rugs, and stored items in lower-level rooms before anyone realizes there's a problem. The Spring Creek drainage corridor on Plano's east side also means that heavy rainfall events can overwhelm older storm infrastructure quickly, pushing water into garages and finished basements faster than sump systems can respond.
 
-None of that is unusual — it's just the reality of aging infrastructure in a city that grew fast. What matters is how quickly contents are removed from the loss environment.
+None of that is unusual, it's just the reality of aging infrastructure in a city that grew fast. What matters is how quickly contents are removed from the loss environment.
 
 ## Our Contents Pack-Out and Restoration Process in Plano
 
@@ -38,21 +38,21 @@ From there, the process depends on what the item is and what it's been exposed t
 
 - **Soft contents** (clothing, bedding, drapery) go through an ozone or thermal treatment cycle to neutralize smoke and biological odors, then are cleaned and packaged.
 - **Hard contents** (furniture frames, cabinetry components, decorative items) are cleaned using ultrasonic equipment or hand-wiped with appropriate solvents depending on the finish and material.
-- **Electronics and documents** are triaged separately — electronics are assessed for corrosion and function; documents and photos can often be freeze-dried or air-dried to prevent further deterioration.
+- **Electronics and documents** are triaged separately, electronics are assessed for corrosion and function; documents and photos can often be freeze-dried or air-dried to prevent further deterioration.
 - **Furniture restoration after fire or water damage** may involve refinishing, reupholstering, or structural repair depending on the extent of damage.
 
-Items that can't be restored on-site are stored in our climate-controlled facility. Plano's summer heat — routinely above 100°F between June and August — makes uncontrolled storage a real risk for wood furniture, electronics, and anything with adhesives. Climate-controlled storage isn't a luxury here; it's a practical necessity.
+Items that can't be restored on-site are stored in our climate-controlled facility. Plano's summer heat, routinely above 100°F between June and August, makes uncontrolled storage a real risk for wood furniture, electronics, and anything with adhesives. Climate-controlled storage isn't a luxury here; it's a practical necessity.
 
 ## Reaching Plano from Royse City
 
-Reign Restoration is based in Royse City, east of Plano on US 80 and SH 66. Plano is accessible via US 80 to I-30 west and then north on US 75, or via SH 78 north to connect with George Bush Turnpike heading west. The Legacy West and 75024 corridor is roughly 35–45 minutes depending on traffic conditions on the Bush Turnpike. Because Reign operates 24/7, calls that come in during overnight hours — when traffic on US 75 is minimal — often see faster arrival than daytime estimates suggest.
+Reign Restoration is based in Royse City, east of Plano on US 80 and SH 66. Plano is accessible via US 80 to I-30 west and then north on US 75, or via SH 78 north to connect with George Bush Turnpike heading west. The Legacy West and 75024 corridor is roughly 35–45 minutes depending on traffic conditions on the Bush Turnpike. Because Reign operates 24/7, calls that come in during overnight hours, when traffic on US 75 is minimal, often see faster arrival than daytime estimates suggest.
 
 ## Plano Insurance Coordination for Contents Claims
 
-Contents losses are frequently underdocumented, and that gap almost always works against the homeowner at settlement time. Reign's pack-out process is built with the adjuster's requirements in mind: itemized line-item inventories, pre- and post-restoration photographs, and written scope notes that distinguish restorable items from non-salvageable ones. Most major carriers accept this format directly. If your policy includes ALE (additional living expense) coverage, documented contents storage costs are typically reimbursable — we can provide the itemized storage invoices your adjuster will need.
+Contents losses are frequently underdocumented, and that gap almost always works against the homeowner at settlement time. Reign's pack-out process is built with the adjuster's requirements in mind: itemized line-item inventories, pre- and post-restoration photographs, and written scope notes that distinguish restorable items from non-salvageable ones. Most major carriers accept this format directly. If your policy includes ALE (additional living expense) coverage, documented contents storage costs are typically reimbursable, we can provide the itemized storage invoices your adjuster will need.
 
 ## Local Note
 
-One thing that comes up repeatedly in Plano's older east-side neighborhoods: homeowners who've had a slab leak repaired by a plumber assume the contents damage is minor because the visible water was cleaned up quickly. What they don't always account for is that cast-iron drain failures often involve Category 3 (sewage-contaminated) water, not clean supply-line water. Soft contents — rugs, upholstered furniture, mattresses — that were in contact with that water may not be restorable even if they look and smell fine after drying. It's worth having those items assessed before assuming they're safe to keep.
+One thing that comes up repeatedly in Plano's older east-side neighborhoods: homeowners who've had a slab leak repaired by a plumber assume the contents damage is minor because the visible water was cleaned up quickly. What they don't always account for is that cast-iron drain failures often involve Category 3 (sewage-contaminated) water, not clean supply-line water. Soft contents, rugs, upholstered furniture, mattresses, that were in contact with that water may not be restorable even if they look and smell fine after drying. It's worth having those items assessed before assuming they're safe to keep.
 
 If you're dealing with a loss in the 75075, 75074, or surrounding ZIP codes and aren't sure what can be saved, call (214) 304-0621. Reign Restoration can walk through the damage with you, document what's there, and give you an honest assessment before anything is packed out.

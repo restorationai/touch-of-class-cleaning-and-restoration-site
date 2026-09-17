@@ -17,13 +17,13 @@ service_slug: "sewage-cleanup"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
-A sewer line backup doesn't announce itself politely. One moment your basement drain is gurgling; the next, raw sewage is spreading across the floor — carrying fecal coliform bacteria, hepatitis A, and whatever else has been moving through the municipal line beneath your street. In Las Vegas's aging grid of mid-century tract homes and dense apartment corridors, that scenario plays out more often than most property owners expect, especially when summer monsoon rains overwhelm storm infrastructure or a grease-clogged lateral finally gives way. The window to act is short: Category 3 contaminated water begins wicking into drywall and subfloor within hours, and the microbial load doesn't stop multiplying once the visible water is gone.
+A sewer line backup doesn't announce itself politely. One moment your basement drain is gurgling; the next, raw sewage is spreading across the floor, carrying fecal coliform bacteria, hepatitis A, and whatever else has been moving through the municipal line beneath your street. In Las Vegas's aging grid of mid-century tract homes and dense apartment corridors, that scenario plays out more often than most property owners expect, especially when summer monsoon rains overwhelm storm infrastructure or a grease-clogged lateral finally gives way. The window to act is short: Category 3 contaminated water begins wicking into drywall and subfloor within hours, and the microbial load doesn't stop multiplying once the visible water is gone.
 
 ## What sewage cleanup and sanitization actually involves
 
-Sewage cleanup is not a mop-and-bleach job. The work involves controlled removal of contaminated water and solids, aggressive disinfection of porous and semi-porous materials, and verification that pathogens have been reduced to safe levels — not just that surfaces look clean.
+Sewage cleanup is not a mop-and-bleach job. The work involves controlled removal of contaminated water and solids, aggressive disinfection of porous and semi-porous materials, and verification that pathogens have been reduced to safe levels, not just that surfaces look clean.
 
-The contamination is classified as **Category 3 water** ("black water") regardless of whether it originates from a municipal sewer backup, a septic overflow, or a broken drain line inside the home. That classification matters because it governs what can be saved and what must go. Drywall that has absorbed sewage-contaminated water is not a dry-out candidate — it is a removal candidate. Carpet, pad, and most porous flooring materials that contacted raw sewage are similarly non-restorable under standard remediation protocols.
+The contamination is classified as **Category 3 water** ("black water") regardless of whether it originates from a municipal sewer backup, a septic overflow, or a broken drain line inside the home. That classification matters because it governs what can be saved and what must go. Drywall that has absorbed sewage-contaminated water is not a dry-out candidate, it is a removal candidate. Carpet, pad, and most porous flooring materials that contacted raw sewage are similarly non-restorable under standard remediation protocols.
 
 Equipment on a sewage job typically includes truck-mounted or portable extraction units capable of handling solids, commercial-grade air scrubbers with HEPA filtration to capture aerosolized pathogens, EPA-registered hospital-grade disinfectants applied via electrostatic sprayer or pump sprayer depending on surface geometry, and moisture meters and thermal imaging cameras to confirm that contamination hasn't migrated beyond the visible loss area.
 
@@ -31,19 +31,19 @@ Timeline: a contained backup in a single bathroom or utility room can often be e
 
 ## Our process
 
-1. **Containment and safety staging.** Before extraction begins, the affected area is isolated with poly sheeting and negative air pressure is established where the loss is indoors. This prevents aerosolized contaminants from migrating to clean areas of the home. Technicians work in appropriate PPE — respirators, gloves, and Tyvek suits — for the duration of Category 3 work.
+1. **Containment and safety staging.** Before extraction begins, the affected area is isolated with poly sheeting and negative air pressure is established where the loss is indoors. This prevents aerosolized contaminants from migrating to clean areas of the home. Technicians work in appropriate PPE, respirators, gloves, and Tyvek suits, for the duration of Category 3 work.
 
-2. **Extraction of standing sewage and solids.** Contaminated water and solid waste are removed using extraction equipment rated for Category 3 material. All waste is handled and disposed of in compliance with applicable Nevada regulations — this is not material that goes into a standard dumpster.
+2. **Extraction of standing sewage and solids.** Contaminated water and solid waste are removed using extraction equipment rated for Category 3 material. All waste is handled and disposed of in compliance with applicable Nevada regulations, this is not material that goes into a standard dumpster.
 
 3. **Removal of non-restorable porous materials.** Saturated drywall, insulation, carpet, pad, and subfloor sections that absorbed sewage are removed and bagged for disposal. Cuts are made to clean, unaffected material to ensure no contaminated substrate remains behind finished surfaces.
 
-4. **Disinfection and deodorization.** Structural surfaces — concrete, framing, remaining subfloor — are treated with EPA-registered disinfectants. Odor control is addressed with hydroxyl generators or thermal fogging depending on the scope; the characteristic sewer odor is a reliable indicator that microbial activity is still present, so deodorization is not cosmetic — it's a process checkpoint.
+4. **Disinfection and deodorization.** Structural surfaces, concrete, framing, remaining subfloor, are treated with EPA-registered disinfectants. Odor control is addressed with hydroxyl generators or thermal fogging depending on the scope; the characteristic sewer odor is a reliable indicator that microbial activity is still present, so deodorization is not cosmetic, it's a process checkpoint.
 
 5. **Moisture verification and documentation.** Before drying equipment is removed, every affected surface is mapped with moisture meters and documented photographically. This documentation serves two purposes: confirming the space is genuinely dry before reconstruction begins, and providing the loss record your insurance adjuster needs to process the claim accurately.
 
 ## What separates a good sewage response from a bad one
 
-The most common failure in sewage cleanup is incomplete material removal driven by a desire to save flooring or wall materials that can't actually be saved. Leaving contaminated drywall in place and drying over it doesn't remediate the pathogen load — it just dries contaminated material into the wall cavity. Months later, the odor returns, or an air quality test surfaces the problem during a home sale.
+The most common failure in sewage cleanup is incomplete material removal driven by a desire to save flooring or wall materials that can't actually be saved. Leaving contaminated drywall in place and drying over it doesn't remediate the pathogen load, it just dries contaminated material into the wall cavity. Months later, the odor returns, or an air quality test surfaces the problem during a home sale.
 
 A second common failure is inadequate disinfection of the substructure. Concrete slabs are porous. Framing lumber absorbs moisture. Treating only the visible surface with a diluted disinfectant and calling it done is not the same as a thorough application of an EPA-registered product at the correct dwell time.
 
@@ -51,7 +51,7 @@ Insurance adjusters reviewing sewage claims look for a clear Category 3 designat
 
 ## Seasonal and regional considerations
 
-Las Vegas sits in a desert, but that doesn't make it immune to sewage events — it just changes the triggers. The valley's monsoon season (roughly July through September) can push significant water volume into storm and sanitary systems in a short window, causing municipal sewer backups in low-lying neighborhoods and older areas of Henderson and North Las Vegas where infrastructure hasn't been upgraded. Separately, the region's hard water and high mineral content accelerate scale buildup in drain lines, making partial blockages more common in homes built before 1990. Crawl space and under-slab plumbing failures are also a recurring issue in the valley's older housing stock, where cast-iron drain lines have corroded over decades.
+Las Vegas sits in a desert, but that doesn't make it immune to sewage events, it just changes the triggers. The valley's monsoon season (roughly July through September) can push significant water volume into storm and sanitary systems in a short window, causing municipal sewer backups in low-lying neighborhoods and older areas of Henderson and North Las Vegas where infrastructure hasn't been upgraded. Separately, the region's hard water and high mineral content accelerate scale buildup in drain lines, making partial blockages more common in homes built before 1990. Crawl space and under-slab plumbing failures are also a recurring issue in the valley's older housing stock, where cast-iron drain lines have corroded over decades.
 
 ## Service area
 

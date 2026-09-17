@@ -20,11 +20,11 @@ state: "CA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-The dry Santa Barbara County air and the Santa Ana wind patterns that sweep through Vandenberg Village can turn a small kitchen fire into a whole-house smoke event faster than homeowners expect. When that happens, the clock starts immediately — soot begins etching glass and metal within hours, and the acrid odor from burning synthetic materials bonds to drywall, insulation, and HVAC ductwork in ways that don't simply air out. Coastal Restoration Services Inc is based right here in Vandenberg Village, which means the crew responding to your home isn't driving in from another county.
+The dry Santa Barbara County air and the Santa Ana wind patterns that sweep through Vandenberg Village can turn a small kitchen fire into a whole-house smoke event faster than homeowners expect. When that happens, the clock starts immediately, soot begins etching glass and metal within hours, and the acrid odor from burning synthetic materials bonds to drywall, insulation, and HVAC ductwork in ways that don't simply air out. Coastal Restoration Services Inc is based right here in Vandenberg Village, which means the crew responding to your home isn't driving in from another county.
 
 ## Why Vandenberg Village Properties Face Distinct Fire Damage Challenges
 
-Vandenberg Village developed largely in the mid-20th century as housing grew around the military presence at what is now Vandenberg Space Force Base. A significant share of the residential stock dates from the 1960s and 1970s, when construction relied on materials — original wood-paneled walls, older insulation types, and single-pane aluminum-frame windows — that behave very differently in a fire than modern assemblies do.
+Vandenberg Village developed largely in the mid-20th century as housing grew around the military presence at what is now Vandenberg Space Force Base. A significant share of the residential stock dates from the 1960s and 1970s, when construction relied on materials, original wood-paneled walls, older insulation types, and single-pane aluminum-frame windows, that behave very differently in a fire than modern assemblies do.
 
 Older wood paneling absorbs smoke particulates deeply, and the resins in that wood can re-off-gas odor for weeks if the material is simply wiped down rather than properly encapsulated or removed. Single-pane windows crack under heat stress and allow smoke to migrate into wall cavities before the fire is even suppressed. The region's low humidity for much of the year also means smoke residue dries and sets quickly, compressing the window for effective cleaning.
 
@@ -32,12 +32,12 @@ On top of the housing stock, the coastal-adjacent climate introduces a secondary
 
 ## Our Fire Damage Restoration Process in Vandenberg Village
 
-Every fire loss is different, but the sequence matters. The process begins with a structured assessment — documenting the extent of char, smoke migration, and heat damage before anything is moved or discarded. That documentation serves two purposes: it guides the restoration scope, and it creates the evidence trail your insurance adjuster will need.
+Every fire loss is different, but the sequence matters. The process begins with a structured assessment, documenting the extent of char, smoke migration, and heat damage before anything is moved or discarded. That documentation serves two purposes: it guides the restoration scope, and it creates the evidence trail your insurance adjuster will need.
 
 From there, the work moves in a deliberate order:
 
 - **Emergency board-up and tarping** to secure the structure against weather and unauthorized entry while the site is open
-- **Controlled demolition** of materials that cannot be restored — charred framing, compromised insulation, saturated drywall from firefighting water
+- **Controlled demolition** of materials that cannot be restored, charred framing, compromised insulation, saturated drywall from firefighting water
 - **HEPA vacuuming and dry-sponge cleaning** of smoke residue on surfaces before any wet cleaning begins, which prevents smearing soot deeper into porous materials
 - **Thermal fogging or hydroxyl treatment** to neutralize odor molecules in wall cavities, ductwork, and soft goods that can't be physically cleaned
 - **Structural drying** if firefighting water is present, coordinated with smoke remediation rather than sequenced after it
@@ -47,12 +47,12 @@ Because the team is locally based, site visits for scope updates or insurance wa
 
 ## Insurance Coordination for Vandenberg Village Homeowners
 
-Most homeowners' policies in Santa Barbara County cover sudden and accidental fire losses, but the documentation requirements vary by carrier, and supplemental claims — for smoke damage found after the initial adjuster visit, for example — are common on fire jobs. We photograph and measure affected areas systematically, generate line-item estimates in the format most carriers recognize, and communicate directly with adjusters to reduce the back-and-forth that delays project starts.
+Most homeowners' policies in Santa Barbara County cover sudden and accidental fire losses, but the documentation requirements vary by carrier, and supplemental claims, for smoke damage found after the initial adjuster visit, for example, are common on fire jobs. We photograph and measure affected areas systematically, generate line-item estimates in the format most carriers recognize, and communicate directly with adjusters to reduce the back-and-forth that delays project starts.
 
-If your policy includes Additional Living Expense coverage, we can help you understand what documentation you'll need to submit for temporary housing costs while restoration is underway. We don't handle the policy side — that's between you and your insurer — but we make sure the restoration documentation doesn't become the bottleneck.
+If your policy includes Additional Living Expense coverage, we can help you understand what documentation you'll need to submit for temporary housing costs while restoration is underway. We don't handle the policy side, that's between you and your insurer, but we make sure the restoration documentation doesn't become the bottleneck.
 
 ## Local Note
 
-One thing that comes up repeatedly on Vandenberg Village fire jobs is the interaction between the area's older forced-air heating systems and smoke migration. Many homes here still have original duct runs that were never sealed to modern standards, which means smoke from even a contained kitchen or garage fire can travel through the entire duct system and deposit residue in every room. Before any cleaning begins, we assess the ductwork separately — because restoring the living areas without addressing the ducts means the odor returns the first time the heat kicks on. It's a detail that gets missed when a crew isn't familiar with the typical mechanical systems in this housing stock.
+One thing that comes up repeatedly on Vandenberg Village fire jobs is the interaction between the area's older forced-air heating systems and smoke migration. Many homes here still have original duct runs that were never sealed to modern standards, which means smoke from even a contained kitchen or garage fire can travel through the entire duct system and deposit residue in every room. Before any cleaning begins, we assess the ductwork separately, because restoring the living areas without addressing the ducts means the odor returns the first time the heat kicks on. It's a detail that gets missed when a crew isn't familiar with the typical mechanical systems in this housing stock.
 
-If you've had a fire at your Vandenberg Village property — whether it's a contained appliance fire or a loss that affected multiple rooms — call Coastal Restoration Services Inc at **(805) 345-7440**. The sooner the assessment begins, the more options you have for salvaging materials and controlling the final scope of work.
+If you've had a fire at your Vandenberg Village property, whether it's a contained appliance fire or a loss that affected multiple rooms, call Coastal Restoration Services Inc at **(805) 345-7440**. The sooner the assessment begins, the more options you have for salvaging materials and controlling the final scope of work.

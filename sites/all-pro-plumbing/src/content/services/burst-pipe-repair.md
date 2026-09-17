@@ -19,34 +19,34 @@ rendered: true
 ---
 ## What a burst pipe actually looks like at 2 a.m.
 
-One minute your house is quiet. The next, water is sheeting down a wall, soaking into drywall, and pooling under baseboards faster than towels can keep up. Bakersfield's aging housing stock — much of it built on slab foundations with galvanized or copper supply lines that have been expanding and contracting through decades of triple-digit summers — is especially prone to sudden failures. Whether the break is visible at a shutoff valve or hidden inside a wall cavity, the clock starts the moment the pipe lets go.
+One minute your house is quiet. The next, water is sheeting down a wall, soaking into drywall, and pooling under baseboards faster than towels can keep up. Bakersfield's aging housing stock, much of it built on slab foundations with galvanized or copper supply lines that have been expanding and contracting through decades of triple-digit summers, is especially prone to sudden failures. Whether the break is visible at a shutoff valve or hidden inside a wall cavity, the clock starts the moment the pipe lets go.
 
 ## What burst and leaking pipe repair actually involves
 
-Not every leak announces itself with a flood. Some announce themselves as a soft spot in drywall, a water bill that jumped $80 for no reason, or the faint hiss of pressurized water escaping behind tile. Others — a full pipe burst — are impossible to miss.
+Not every leak announces itself with a flood. Some announce themselves as a soft spot in drywall, a water bill that jumped $80 for no reason, or the faint hiss of pressurized water escaping behind tile. Others, a full pipe burst, are impossible to miss.
 
 The repair work spans a wide range depending on pipe material, location, and how long the leak has been running. A pinhole in a copper supply line behind a vanity is a different job than a split section of galvanized main running under a slab. Common repair types include:
 
-- **Copper pipe repair or replacement** — soldering or press-fit fittings on supply lines, often in walls or ceilings
-- **PVC and ABS drain line repair** — cracked or separated joints under slabs or in crawl spaces
-- **Galvanized pipe sections** — common in Bakersfield homes built before the 1970s; corroded sections are cut out and replaced with copper or PEX
-- **Water line repair at the meter or main shutoff** — breaks near the street or at the house connection
-- **Slab leak access and repair** — jackhammering or rerouting through walls when a line under the concrete fails
+- **Copper pipe repair or replacement**, soldering or press-fit fittings on supply lines, often in walls or ceilings
+- **PVC and ABS drain line repair**, cracked or separated joints under slabs or in crawl spaces
+- **Galvanized pipe sections**, common in Bakersfield homes built before the 1970s; corroded sections are cut out and replaced with copper or PEX
+- **Water line repair at the meter or main shutoff**, breaks near the street or at the house connection
+- **Slab leak access and repair**, jackhammering or rerouting through walls when a line under the concrete fails
 
 Timeline varies: a straightforward supply line repair in an accessible wall typically takes two to four hours. A slab leak reroute is a full-day job that may require drywall access at multiple points.
 
-If water spread beyond the pipe itself — soaking subfloor, insulation, or wall cavities — the plumbing repair is only the first step. Contact your homeowner's insurer promptly and engage a qualified water damage restoration professional to handle drying and structural assessment.
+If water spread beyond the pipe itself, soaking subfloor, insulation, or wall cavities, the plumbing repair is only the first step. Contact your homeowner's insurer promptly and engage a qualified water damage restoration professional to handle drying and structural assessment.
 
 ## Our process
 
 **1. Shut the water down and assess the scope.**
-The first call is always to your main shutoff. If you haven't located it yet, our technician can walk you through it by phone before arriving. On-site, we identify whether the break is on the supply side (pressurized, actively flowing) or drain side (gravity-fed, slower to spread), and we trace the leak to its source — not just the wet spot on the wall, which is often several feet from where the pipe actually failed.
+The first call is always to your main shutoff. If you haven't located it yet, our technician can walk you through it by phone before arriving. On-site, we identify whether the break is on the supply side (pressurized, actively flowing) or drain side (gravity-fed, slower to spread), and we trace the leak to its source, not just the wet spot on the wall, which is often several feet from where the pipe actually failed.
 
 **2. Locate the break precisely before opening anything.**
 For leaks inside walls or under slabs, we use pressure testing and, where needed, acoustic detection to pinpoint the failure before cutting drywall or concrete. Opening the wrong section of wall adds hours and cost. Getting the location right the first time doesn't.
 
 **3. Access, cut out, and repair.**
-We remove only what needs to come out — drywall, tile, or concrete — to reach the damaged section. The failed pipe is cut back to clean, uncorroded material on both sides. Depending on the pipe type and location, the repair uses solder, press-fit, push-connect, or threaded fittings. We don't patch over corrosion; if the pipe wall is compromised beyond the visible break, we extend the repair to sound material.
+We remove only what needs to come out, drywall, tile, or concrete, to reach the damaged section. The failed pipe is cut back to clean, uncorroded material on both sides. Depending on the pipe type and location, the repair uses solder, press-fit, push-connect, or threaded fittings. We don't patch over corrosion; if the pipe wall is compromised beyond the visible break, we extend the repair to sound material.
 
 **4. Pressure test before closing anything up.**
 Once the repair is complete, we pressure test the line to confirm the fix holds before any wall or slab access is closed. A repair that passes a visual check but fails under working pressure is a callback waiting to happen.
@@ -56,7 +56,7 @@ We show you what failed, why it likely failed, and whether adjacent pipe looks l
 
 ## What separates a good pipe repair response from a bad one
 
-The most common mistake is treating the wet spot as the problem. Water travels — it follows framing, insulation, and gravity — so the stain on the ceiling or the wet carpet in the hallway may be two rooms away from the actual break. Technicians who open the wall at the damage point without tracing the leak first often miss the source entirely.
+The most common mistake is treating the wet spot as the problem. Water travels, it follows framing, insulation, and gravity, so the stain on the ceiling or the wet carpet in the hallway may be two rooms away from the actual break. Technicians who open the wall at the damage point without tracing the leak first often miss the source entirely.
 
 A second failure point is repairing only the visible break on a pipe that's failing systemwide. Galvanized steel corrodes from the inside out; a pinhole in one section usually means the adjacent sections are thinning too. A good repair includes an honest assessment of what's next to the break, not just what's visibly leaking today.
 
@@ -64,12 +64,12 @@ For insurance documentation, photos of the pipe failure, the access point, and t
 
 ## Seasonal and regional considerations
 
-Bakersfield doesn't see the hard freezes that burst pipes in colder climates, but it does see overnight temperatures drop into the mid-20s during January cold snaps — cold enough to freeze uninsulated lines in exterior walls, garage spaces, and crawl areas. Pipes that survive a freeze often fail days later as they thaw and the stressed metal or plastic gives way under returning pressure. If you had a hard freeze and your water pressure feels off, that's worth checking before the slow leak becomes a fast one.
+Bakersfield doesn't see the hard freezes that burst pipes in colder climates, but it does see overnight temperatures drop into the mid-20s during January cold snaps, cold enough to freeze uninsulated lines in exterior walls, garage spaces, and crawl areas. Pipes that survive a freeze often fail days later as they thaw and the stressed metal or plastic gives way under returning pressure. If you had a hard freeze and your water pressure feels off, that's worth checking before the slow leak becomes a fast one.
 
 The valley's hard water also accelerates scale buildup inside copper and galvanized lines, reducing interior diameter over years and creating weak points where fittings meet straight runs.
 
 ## Service area
 
-All Pro Plumbing Heating and Air handles burst and leaking pipe repair throughout Bakersfield and the surrounding communities — including Oildale, Rosedale, Shafter, Wasco, Delano, Tehachapi, and Ridgecrest. City-specific pages cover local considerations in more detail; this page covers the full scope of the work regardless of address.
+All Pro Plumbing Heating and Air handles burst and leaking pipe repair throughout Bakersfield and the surrounding communities, including Oildale, Rosedale, Shafter, Wasco, Delano, Tehachapi, and Ridgecrest. City-specific pages cover local considerations in more detail; this page covers the full scope of the work regardless of address.
 
-If a pipe has let go in your home or you're tracking down a slow leak that's showing up on your water bill, call All Pro Plumbing Heating and Air at **(661) 863-9242** — available around the clock. Tell us where the water is, whether you've been able to shut the main, and we'll get a technician moving toward you.
+If a pipe has let go in your home or you're tracking down a slow leak that's showing up on your water bill, call All Pro Plumbing Heating and Air at **(661) 863-9242**, available around the clock. Tell us where the water is, whether you've been able to shut the main, and we'll get a technician moving toward you.

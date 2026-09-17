@@ -20,27 +20,27 @@ state: "CA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-Ontario sits in the eastern end of the Inland Empire, where the Santa Ana winds that funnel through Cajon Pass each fall can push an ember far past its ignition point and turn a contained structure fire into a multi-room loss within minutes. That same dry, high-velocity air that accelerates fire spread also bakes smoke residue deeper into porous surfaces — stucco exteriors, wood-frame attic sheathing, and the older masonry construction common in parts of the city — before crews even arrive. Dry County Restoration responds to fire and smoke calls in Ontario around the clock, dispatching from our Corona headquarters to start assessment and stabilization the same day you call.
+Ontario sits in the eastern end of the Inland Empire, where the Santa Ana winds that funnel through Cajon Pass each fall can push an ember far past its ignition point and turn a contained structure fire into a multi-room loss within minutes. That same dry, high-velocity air that accelerates fire spread also bakes smoke residue deeper into porous surfaces, stucco exteriors, wood-frame attic sheathing, and the older masonry construction common in parts of the city, before crews even arrive. Dry County Restoration responds to fire and smoke calls in Ontario around the clock, dispatching from our Corona headquarters to start assessment and stabilization the same day you call.
 
 ## Why Ontario Properties See Distinctive Fire Damage Patterns
 
-The Inland Empire's climate is one of the driest in Southern California, and Ontario's position near the base of the San Gabriel foothills puts it squarely in the path of offshore wind events. When those winds arrive — often dropping relative humidity into the single digits — smoke from even a kitchen fire can travel through HVAC systems and settle into every room of a house before the flames are out.
+The Inland Empire's climate is one of the driest in Southern California, and Ontario's position near the base of the San Gabriel foothills puts it squarely in the path of offshore wind events. When those winds arrive, often dropping relative humidity into the single digits, smoke from even a kitchen fire can travel through HVAC systems and settle into every room of a house before the flames are out.
 
-Ontario's housing stock adds another layer of complexity. The city grew in distinct waves: early agricultural-era homes near the historic core tend to have wood-lath plaster walls and original hardwood floors that absorb smoke odor compounds differently than modern drywall. Newer tract developments that expanded through the 1980s and 1990s used lightweight wood-frame construction with engineered lumber — materials that char more predictably but can lose structural integrity faster under sustained heat. Knowing which generation of construction you're walking into shapes how we approach both the structural assessment and the deodorization plan.
+Ontario's housing stock adds another layer of complexity. The city grew in distinct waves: early agricultural-era homes near the historic core tend to have wood-lath plaster walls and original hardwood floors that absorb smoke odor compounds differently than modern drywall. Newer tract developments that expanded through the 1980s and 1990s used lightweight wood-frame construction with engineered lumber, materials that char more predictably but can lose structural integrity faster under sustained heat. Knowing which generation of construction you're walking into shapes how we approach both the structural assessment and the deodorization plan.
 
 ## Our Fire Damage Restoration Process in Ontario
 
-Every fire loss starts with a full scope — not a quick visual walk-through, but a systematic inspection that includes checking the attic, crawl space (where applicable), and HVAC ductwork for smoke penetration. Smoke doesn't respect room boundaries; it follows air pressure and temperature gradients, and in Ontario's single-story ranch homes it commonly travels the full length of a structure before settling.
+Every fire loss starts with a full scope, not a quick visual walk-through, but a systematic inspection that includes checking the attic, crawl space (where applicable), and HVAC ductwork for smoke penetration. Smoke doesn't respect room boundaries; it follows air pressure and temperature gradients, and in Ontario's single-story ranch homes it commonly travels the full length of a structure before settling.
 
 After scope and documentation, the process moves through these stages:
 
 **Emergency board-up and tarping.** Open roof decking or broken windows left exposed to the Inland Empire sun accelerate secondary damage and create a security risk. We secure the structure before any cleaning begins.
 
-**Soot and smoke residue removal.** Dry soot from fast-flaming fires requires different chemistry than the wet, oily residue left by slow-smoldering synthetic materials. We identify the residue type before selecting cleaning agents — using the wrong approach can permanently set staining into surfaces.
+**Soot and smoke residue removal.** Dry soot from fast-flaming fires requires different chemistry than the wet, oily residue left by slow-smoldering synthetic materials. We identify the residue type before selecting cleaning agents, using the wrong approach can permanently set staining into surfaces.
 
 **Structural drying.** Firefighting water is often overlooked in the post-fire assessment. Saturated insulation and wall cavities left undried will grow mold within days in Ontario's warm temperatures. Our IICRC-certified team uses thermal imaging and moisture meters to find hidden saturation and dry it to standard before reconstruction begins.
 
-**Odor neutralization.** Hydroxyl generators and thermal fogging reach into wall voids and ductwork where surface cleaning cannot. This step is not optional — smoke odor compounds bond to surfaces at a molecular level and will off-gas for months if not properly treated.
+**Odor neutralization.** Hydroxyl generators and thermal fogging reach into wall voids and ductwork where surface cleaning cannot. This step is not optional, smoke odor compounds bond to surfaces at a molecular level and will off-gas for months if not properly treated.
 
 **Reconstruction coordination.** We carry contractor license #1083555 and coordinate directly with your insurance adjuster on the scope of structural repairs, so you're not managing two separate contractors through the claim.
 
@@ -50,12 +50,12 @@ Our Corona base puts us on the I-15 corridor, which connects directly to Ontario
 
 ## Ontario Insurance Coordination
 
-Fire claims in California are among the more document-intensive insurance claims a homeowner will file. Carriers typically require a detailed line-item scope, photographic evidence of every affected surface, and moisture readings if water damage is part of the loss. We produce that documentation as a standard part of our process — not as an add-on — because incomplete documentation is the most common reason fire claims get delayed or underpaid.
+Fire claims in California are among the more document-intensive insurance claims a homeowner will file. Carriers typically require a detailed line-item scope, photographic evidence of every affected surface, and moisture readings if water damage is part of the loss. We produce that documentation as a standard part of our process, not as an add-on, because incomplete documentation is the most common reason fire claims get delayed or underpaid.
 
 If your property is in an HOA community, some associations also require notification before exterior board-up or scaffolding is installed. We've worked through those coordination steps before and can help you identify what your CC&Rs require so there are no surprises mid-project.
 
 ## Local Note
 
-Ontario's older neighborhoods near Euclid Avenue — the historic tree-lined boulevard that anchors the city's original grid — often feature homes with original plaster ceilings and interior brick fireplaces. After a fire, brick and mortar absorb smoke odor compounds deeply and release them slowly over weeks. Standard surface cleaning misses this entirely. When we're working in homes of that era, we factor in extended deodorization cycles and, in some cases, recommend sealing exposed brick with an odor-blocking primer before any cosmetic work proceeds. It's a detail that matters in Ontario specifically because of how much of that original construction is still occupied and well-maintained.
+Ontario's older neighborhoods near Euclid Avenue, the historic tree-lined boulevard that anchors the city's original grid, often feature homes with original plaster ceilings and interior brick fireplaces. After a fire, brick and mortar absorb smoke odor compounds deeply and release them slowly over weeks. Standard surface cleaning misses this entirely. When we're working in homes of that era, we factor in extended deodorization cycles and, in some cases, recommend sealing exposed brick with an odor-blocking primer before any cosmetic work proceeds. It's a detail that matters in Ontario specifically because of how much of that original construction is still occupied and well-maintained.
 
 If your home or business in Ontario has been affected by fire or smoke, call Dry County Restoration at (951) 667-9910. We'll walk you through what to expect, start the documentation your insurance carrier needs, and get a crew moving the same day.

@@ -19,23 +19,23 @@ state: "MS"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall or Gulf moisture finds its way into a crawl space, Pascagoula property owners need a restoration crew that understands the specific way this city takes on water — not a call center that dispatches a generic team. HomeLyft Restoration MS works directly with homeowners and property managers across Pascagoula, handling water damage, fire and smoke cleanup, mold remediation, and reconstruction from first inspection through the final walkthrough. One call to (228) 284-5200 connects you to a team that already knows the territory.
+When a pipe bursts behind a wall or Gulf moisture finds its way into a crawl space, Pascagoula property owners need a restoration crew that understands the specific way this city takes on water, not a call center that dispatches a generic team. HomeLyft Restoration MS works directly with homeowners and property managers across Pascagoula, handling water damage, fire and smoke cleanup, mold remediation, and reconstruction from first inspection through the final walkthrough. One call to (228) 284-5200 connects you to a team that already knows the territory.
 
 ## Restoration emergencies common in Pascagoula
 
-Pascagoula sits at the mouth of the Pascagoula River, bordered by the Escatawpa River to the north and the Mississippi Sound to the south. That geography is beautiful — and unforgiving when storms roll in. Jackson County averages more than 65 inches of rainfall a year, and the low-lying coastal terrain means water has nowhere to drain quickly. Tropical systems that make landfall anywhere along the Mississippi or Alabama coast push storm surge and wind-driven rain directly into neighborhoods here. The water table is high enough that even a moderate rain event can saturate soil and force moisture up through slab foundations and into crawl spaces.
+Pascagoula sits at the mouth of the Pascagoula River, bordered by the Escatawpa River to the north and the Mississippi Sound to the south. That geography is beautiful, and unforgiving when storms roll in. Jackson County averages more than 65 inches of rainfall a year, and the low-lying coastal terrain means water has nowhere to drain quickly. Tropical systems that make landfall anywhere along the Mississippi or Alabama coast push storm surge and wind-driven rain directly into neighborhoods here. The water table is high enough that even a moderate rain event can saturate soil and force moisture up through slab foundations and into crawl spaces.
 
-The housing stock adds another layer of complexity. Pascagoula has a significant inventory of mid-century homes — many built in the post-war boom tied to the Ingalls Shipbuilding expansion — with original cast-iron or galvanized plumbing that corrodes from the inside out. Older pier-and-beam construction is common, and those crawl spaces are prime territory for mold colonization: dark, humid, and rarely inspected until something smells wrong. Newer construction near the waterfront faces its own challenges, including wind-driven rain intrusion around windows and doors during tropical events.
+The housing stock adds another layer of complexity. Pascagoula has a significant inventory of mid-century homes, many built in the post-war boom tied to the Ingalls Shipbuilding expansion, with original cast-iron or galvanized plumbing that corrodes from the inside out. Older pier-and-beam construction is common, and those crawl spaces are prime territory for mold colonization: dark, humid, and rarely inspected until something smells wrong. Newer construction near the waterfront faces its own challenges, including wind-driven rain intrusion around windows and doors during tropical events.
 
 ## Services we provide in Pascagoula
 
 ### Water damage restoration
 
-Water damage in Pascagoula often starts invisibly — a slow roof leak after a storm, a supply line that weeps behind a cabinet for weeks, or storm surge that retreats and leaves saturated subfloor behind. We extract standing water, map moisture with thermal imaging and calibrated meters, and dry structural materials to documented targets. In pier-and-beam homes, that means getting equipment into crawl spaces where humidity lingers long after the surface looks dry. We document everything for your insurance carrier.
+Water damage in Pascagoula often starts invisibly, a slow roof leak after a storm, a supply line that weeps behind a cabinet for weeks, or storm surge that retreats and leaves saturated subfloor behind. We extract standing water, map moisture with thermal imaging and calibrated meters, and dry structural materials to documented targets. In pier-and-beam homes, that means getting equipment into crawl spaces where humidity lingers long after the surface looks dry. We document everything for your insurance carrier.
 
 ### Mold remediation
 
-Mold can begin colonizing wet building materials in as little as 24 to 48 hours in Pascagoula's climate. By the time a musty odor is noticeable, colonies are typically well established behind drywall or under flooring. Our remediation process contains the affected area, removes compromised materials, and treats structural surfaces — followed by post-remediation verification to confirm clearance. We do not make health claims, but we do follow established industry protocols and leave documentation you can share with your physician or insurer.
+Mold can begin colonizing wet building materials in as little as 24 to 48 hours in Pascagoula's climate. By the time a musty odor is noticeable, colonies are typically well established behind drywall or under flooring. Our remediation process contains the affected area, removes compromised materials, and treats structural surfaces, followed by post-remediation verification to confirm clearance. We do not make health claims, but we do follow established industry protocols and leave documentation you can share with your physician or insurer.
 
 ### Fire and smoke damage restoration
 
@@ -43,15 +43,15 @@ Smoke residue behaves differently depending on what burned and how hot the fire 
 
 ### Reconstruction
 
-Once mitigation is complete, many property owners want a single contractor to handle the rebuild rather than coordinating a separate GC. We carry reconstruction services in-house — drywall, flooring, cabinetry, and finish work — so the project doesn't stall between the demo phase and the repair phase.
+Once mitigation is complete, many property owners want a single contractor to handle the rebuild rather than coordinating a separate GC. We carry reconstruction services in-house, drywall, flooring, cabinetry, and finish work, so the project doesn't stall between the demo phase and the repair phase.
 
 ## Coverage and how fast we can get there
 
-HomeLyft Restoration MS is based in Gulfport, roughly 45 miles west of Pascagoula via US-90 or I-10. Both routes are well-traveled and accessible in most weather conditions, though US-90 through Bay St. Louis, Waveland, and Biloxi gives crews a direct coastal path when interstate access is clear. We serve the full Pascagoula area, including properties along the waterfront, inland residential streets, and commercial corridors near the port. Scheduling is handled during our business hours — call (228) 284-5200 to confirm availability and get a crew dispatched as quickly as our current schedule allows.
+HomeLyft Restoration MS is based in Gulfport, roughly 45 miles west of Pascagoula via US-90 or I-10. Both routes are well-traveled and accessible in most weather conditions, though US-90 through Bay St. Louis, Waveland, and Biloxi gives crews a direct coastal path when interstate access is clear. We serve the full Pascagoula area, including properties along the waterfront, inland residential streets, and commercial corridors near the port. Scheduling is handled during our business hours, call (228) 284-5200 to confirm availability and get a crew dispatched as quickly as our current schedule allows.
 
 ## Building stock, site conditions, and permits in Pascagoula
 
-Pre-1978 homes here almost always carry lead paint, and mid-century floors often hide 9x9 vinyl-asbestos tile set in black mastic. Both change how demo is sequenced — testing first, containment second, then removal. Interior walls of that era may be plaster over gypsum lath rather than modern drywall, which holds water far longer than it looks like it should. Homes built from the late 1970s onward are typically slab-on-grade, and slabs on sandy coastal soil wick moisture up into bottom plates and baseboard long after the surface reads dry.
+Pre-1978 homes here almost always carry lead paint, and mid-century floors often hide 9x9 vinyl-asbestos tile set in black mastic. Both change how demo is sequenced, testing first, containment second, then removal. Interior walls of that era may be plaster over gypsum lath rather than modern drywall, which holds water far longer than it looks like it should. Homes built from the late 1970s onward are typically slab-on-grade, and slabs on sandy coastal soil wick moisture up into bottom plates and baseboard long after the surface reads dry.
 
 Building permits inside the city limits come from Pascagoula; properties outside them go through Jackson County. Structural repair, roof replacement, and rebuilds generally trigger one. Because this is a coastal county, flood-zone elevation rules and the 50-percent substantial-improvement threshold can reshape a rebuild scope, so that gets checked before demo, not after.
 

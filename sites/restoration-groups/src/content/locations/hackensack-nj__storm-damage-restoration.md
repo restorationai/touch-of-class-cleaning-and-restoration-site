@@ -20,7 +20,7 @@ state: "NJ"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
-When a nor'easter or a remnant tropical system rolls through Bergen County, Hackensack takes the hit differently than most of its neighbors. The Hackensack River's tidal influence pushes water inland through the low-lying Southside and along the eastern edges of the city before a storm even peaks, while the dense wall of high-rise apartments lining the Prospect Avenue corridor faces wind-driven rain that finds every aging window seal and roof membrane seam. When that happens — at 2 a.m. or mid-afternoon — call (855) 650-7422.
+When a nor'easter or a remnant tropical system rolls through Bergen County, Hackensack takes the hit differently than most of its neighbors. The Hackensack River's tidal influence pushes water inland through the low-lying Southside and along the eastern edges of the city before a storm even peaks, while the dense wall of high-rise apartments lining the Prospect Avenue corridor faces wind-driven rain that finds every aging window seal and roof membrane seam. When that happens, at 2 a.m. or mid-afternoon, call (855) 650-7422.
 
 ## Why Hackensack Properties See Concentrated Storm Damage
 
@@ -28,31 +28,31 @@ Hackensack's building stock spans nearly a century of construction, and that ran
 
 The Prospect Avenue high-rises present a different problem: stacked units mean that a roof breach or a storm-driven window failure on an upper floor can cascade water through mechanical chases and ceiling assemblies across multiple units below. One storm event can generate losses on floors 12, 9, and 6 simultaneously, each requiring its own documentation and drying scope.
 
-Then there's the river. Tropical Storm Ida in 2021 demonstrated what tidal backflow looks like in practice — basements and crawl spaces across Bergen County took on water faster than sump pumps could cycle, and streets near the Hackensack River waterfront flooded before the worst rainfall totals even arrived. Properties in the lower-elevation corridors east of Main Street are structurally exposed to that pattern every time a significant storm stalls over the region.
+Then there's the river. Tropical Storm Ida in 2021 demonstrated what tidal backflow looks like in practice, basements and crawl spaces across Bergen County took on water faster than sump pumps could cycle, and streets near the Hackensack River waterfront flooded before the worst rainfall totals even arrived. Properties in the lower-elevation corridors east of Main Street are structurally exposed to that pattern every time a significant storm stalls over the region.
 
 ## Our Storm Damage Restoration Process in Hackensack
 
-Every storm loss starts with a thorough site assessment before any equipment is staged. In Hackensack, that means checking not just the obvious entry points — missing shingles, broken windows, displaced flashing — but also the secondary pathways that older construction creates: open mortar joints in brick facades, deteriorated caulk around through-wall AC sleeves common in mid-century capes, and the flat or low-slope roof sections on commercial storefronts along the Main Street business district that pond water even in moderate rain.
+Every storm loss starts with a thorough site assessment before any equipment is staged. In Hackensack, that means checking not just the obvious entry points, missing shingles, broken windows, displaced flashing, but also the secondary pathways that older construction creates: open mortar joints in brick facades, deteriorated caulk around through-wall AC sleeves common in mid-century capes, and the flat or low-slope roof sections on commercial storefronts along the Main Street business district that pond water even in moderate rain.
 
 Once the assessment is complete, the work follows a defined sequence:
 
 - **Emergency stabilization**: board-up, roof tarping, and temporary weatherproofing to stop active intrusion.
-- **Water extraction and controlled demolition**: standing water is extracted, and saturated materials — drywall, insulation, subfloor — are removed to the extent needed to allow proper drying. We don't tear out more than the moisture readings justify.
-- **Structural drying**: commercial-grade desiccant dehumidifiers and air movers are placed according to IICRC S500 drying principles. In plaster-walled homes common to Fairmount and the Heights, drying timelines run longer than in modern drywall construction because plaster releases absorbed moisture slowly — we monitor daily rather than pulling equipment on a fixed schedule.
+- **Water extraction and controlled demolition**: standing water is extracted, and saturated materials, drywall, insulation, subfloor, are removed to the extent needed to allow proper drying. We don't tear out more than the moisture readings justify.
+- **Structural drying**: commercial-grade desiccant dehumidifiers and air movers are placed according to IICRC S500 drying principles. In plaster-walled homes common to Fairmount and the Heights, drying timelines run longer than in modern drywall construction because plaster releases absorbed moisture slowly, we monitor daily rather than pulling equipment on a fixed schedule.
 - **Documentation and reconstruction scoping**: every affected area is photographed and logged before reconstruction begins, which matters when your insurer or a public adjuster needs a complete loss record.
 
 ## Reaching Hackensack from Kenilworth
 
-The Restoration Group is headquartered in Kenilworth, NJ, and operates 24/7. From Kenilworth, the most direct route to central Hackensack runs north on the Garden State Parkway to Route 4 east, putting crews near the Bergen County Courthouse district and the 07601 ZIP code in under 30 minutes under normal conditions. For calls in the Southside or along the river-adjacent streets, Route 17 north to Route 4 is the alternate when Parkway access is congested — a real consideration during and immediately after a storm when traffic patterns shift.
+The Restoration Group is headquartered in Kenilworth, NJ, and operates 24/7. From Kenilworth, the most direct route to central Hackensack runs north on the Garden State Parkway to Route 4 east, putting crews near the Bergen County Courthouse district and the 07601 ZIP code in under 30 minutes under normal conditions. For calls in the Southside or along the river-adjacent streets, Route 17 north to Route 4 is the alternate when Parkway access is congested, a real consideration during and immediately after a storm when traffic patterns shift.
 
 ## Storm Damage Insurance Coordination in Hackensack
 
-Most homeowners and property managers in Hackensack deal with standard carriers, but storm claims here frequently involve questions about flood versus wind coverage — a distinction that matters enormously when the damage results from tidal backflow rather than direct rainfall. We photograph and document the loss in a format that clearly distinguishes storm-driven water intrusion from groundwater or sewer backup, which helps your adjuster apply the correct coverage line.
+Most homeowners and property managers in Hackensack deal with standard carriers, but storm claims here frequently involve questions about flood versus wind coverage, a distinction that matters enormously when the damage results from tidal backflow rather than direct rainfall. We photograph and document the loss in a format that clearly distinguishes storm-driven water intrusion from groundwater or sewer backup, which helps your adjuster apply the correct coverage line.
 
 For the commercial properties along Main Street and the mixed-use buildings near the courthouse district, we're accustomed to working around business-hours constraints and coordinating with property managers who are fielding calls from multiple tenants at once. We can provide interim reports as work progresses rather than a single closeout document.
 
 ## Local Note
 
-One pattern we've seen repeatedly in Hackensack's older two- and three-family homes: the original roof structure often includes a finished attic or a knee-wall space that isn't accessible from the main living area. After a storm, water can sit in that concealed cavity for days before it shows up as a ceiling stain on the floor below. If your home in the 07601 area was built before 1960 and you've had any roof damage, it's worth having that space inspected with a moisture meter even if you don't see visible water — by the time the stain appears, secondary damage is already underway.
+One pattern we've seen repeatedly in Hackensack's older two- and three-family homes: the original roof structure often includes a finished attic or a knee-wall space that isn't accessible from the main living area. After a storm, water can sit in that concealed cavity for days before it shows up as a ceiling stain on the floor below. If your home in the 07601 area was built before 1960 and you've had any roof damage, it's worth having that space inspected with a moisture meter even if you don't see visible water, by the time the stain appears, secondary damage is already underway.
 
-Storm damage in Hackensack moves fast, and so does the secondary damage that follows. Whether you're dealing with a tree through a roof in the Heights or a flooded basement near the Hackensack River, call (855) 650-7422 any time — day or night — and we'll have a crew on the way.
+Storm damage in Hackensack moves fast, and so does the secondary damage that follows. Whether you're dealing with a tree through a roof in the Heights or a flooded basement near the Hackensack River, call (855) 650-7422 any time, day or night, and we'll have a crew on the way.

@@ -21,27 +21,27 @@ service_display: "Crime Scene Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
-When something unthinkable happens inside a Renton home — whether in a Kennydale rambler or a Renton Highlands apartment — the last thing a family should have to manage is the cleanup. National Restoration Construction has handled forensic cleanup calls across the south Lake Washington corridor since 2004, working quietly and quickly so that property owners and loved ones can focus on what matters. We respond from our Federal Way location, and we understand the specific building stock, local regulations, and community character that shape how this work gets done here.
+When something unthinkable happens inside a Renton home, whether in a Kennydale rambler or a Renton Highlands apartment, the last thing a family should have to manage is the cleanup. National Restoration Construction has handled forensic cleanup calls across the south Lake Washington corridor since 2004, working quietly and quickly so that property owners and loved ones can focus on what matters. We respond from our Federal Way location, and we understand the specific building stock, local regulations, and community character that shape how this work gets done here.
 
 ## Why Renton's Housing Stock Shapes Post-Crime Cleanup
 
-Renton's neighborhoods span nearly a century of construction. The craftsman-era homes on Renton Hill — many built in the 1910s and 1920s — have original fir subfloors, plaster-and-lath walls, and unsealed concrete basements that absorb biological material differently than modern construction. Porous surfaces hold contaminants longer and require additional dwell time with EPA-registered disinfectants before they can be confirmed clean. The same moisture-prone basements that give Renton Hill homeowners trouble after heavy rain can complicate remediation timelines when biological contamination is involved, because existing dampness slows the effectiveness of certain treatment protocols.
+Renton's neighborhoods span nearly a century of construction. The craftsman-era homes on Renton Hill, many built in the 1910s and 1920s, have original fir subfloors, plaster-and-lath walls, and unsealed concrete basements that absorb biological material differently than modern construction. Porous surfaces hold contaminants longer and require additional dwell time with EPA-registered disinfectants before they can be confirmed clean. The same moisture-prone basements that give Renton Hill homeowners trouble after heavy rain can complicate remediation timelines when biological contamination is involved, because existing dampness slows the effectiveness of certain treatment protocols.
 
-In newer developments near Fairwood and along the 98058 corridor, engineered flooring and composite subfloor systems present their own challenges — seams and underlayment can wick and trap material in ways that aren't visible on the surface. Our technicians assess the specific construction type before committing to a scope of work, because a one-size approach leads to incomplete remediation.
+In newer developments near Fairwood and along the 98058 corridor, engineered flooring and composite subfloor systems present their own challenges, seams and underlayment can wick and trap material in ways that aren't visible on the surface. Our technicians assess the specific construction type before committing to a scope of work, because a one-size approach leads to incomplete remediation.
 
 ## Our Crime Scene Cleanup Process in Renton
 
-Every job begins with a discreet arrival — unmarked vehicles when requested, and a walk-through with the property owner or their designated contact before any work begins. We do not start until you understand what we're doing and why.
+Every job begins with a discreet arrival, unmarked vehicles when requested, and a walk-through with the property owner or their designated contact before any work begins. We do not start until you understand what we're doing and why.
 
 From there, the process follows IICRC and ANSI standards for biohazard remediation:
 
-- **Containment and assessment** — Affected areas are isolated to prevent cross-contamination to unaffected rooms or HVAC systems.
-- **Removal of contaminated materials** — Porous materials that cannot be decontaminated to a safe standard are removed and disposed of in accordance with Washington State Department of Ecology requirements for biohazardous waste.
-- **Surface treatment** — EPA-registered hospital-grade disinfectants are applied at appropriate concentrations and dwell times for the specific surfaces involved.
-- **Verification** — We use ATP testing and, when warranted, third-party confirmation to document that the space meets safe re-occupancy standards before we close out the job.
-- **Odor neutralization** — Thermal fogging or hydroxyl generation is used as needed, particularly in older homes where materials have had more time to absorb odors.
+- **Containment and assessment**, Affected areas are isolated to prevent cross-contamination to unaffected rooms or HVAC systems.
+- **Removal of contaminated materials**, Porous materials that cannot be decontaminated to a safe standard are removed and disposed of in accordance with Washington State Department of Ecology requirements for biohazardous waste.
+- **Surface treatment**, EPA-registered hospital-grade disinfectants are applied at appropriate concentrations and dwell times for the specific surfaces involved.
+- **Verification**, We use ATP testing and, when warranted, third-party confirmation to document that the space meets safe re-occupancy standards before we close out the job.
+- **Odor neutralization**, Thermal fogging or hydroxyl generation is used as needed, particularly in older homes where materials have had more time to absorb odors.
 
-All work is performed by technicians operating under our General Contractor Certificate of Registration (#NATIORC792M6) and our Lead-Safe Certified Firm status — relevant in Renton Hill and other pre-1978 housing where lead paint may be disturbed during material removal.
+All work is performed by technicians operating under our General Contractor Certificate of Registration (#NATIORC792M6) and our Lead-Safe Certified Firm status, relevant in Renton Hill and other pre-1978 housing where lead paint may be disturbed during material removal.
 
 ## Response Time to Renton from Federal Way
 
@@ -51,14 +51,14 @@ We do not triage calls by neighborhood. A call from Talbot Hill at 2 a.m. gets t
 
 ## Renton Insurance Coordination
 
-Homeowners insurance often covers forensic cleanup under the dwelling or personal property provisions of a standard policy, though coverage varies by carrier and policy language. We work directly with adjusters and can provide the documentation — scope of work, itemized materials, before-and-after verification records — that insurers require to process a claim. If your policy does not cover the full cost, we will tell you that plainly before work begins, not after.
+Homeowners insurance often covers forensic cleanup under the dwelling or personal property provisions of a standard policy, though coverage varies by carrier and policy language. We work directly with adjusters and can provide the documentation, scope of work, itemized materials, before-and-after verification records, that insurers require to process a claim. If your policy does not cover the full cost, we will tell you that plainly before work begins, not after.
 
-For rental properties in the 98056 and 98058 ZIP codes — where investor-owned single-family rentals and small multifamily buildings are common — we can coordinate with both the property owner and the tenant's insurer when applicable.
+For rental properties in the 98056 and 98058 ZIP codes, where investor-owned single-family rentals and small multifamily buildings are common, we can coordinate with both the property owner and the tenant's insurer when applicable.
 
 ## Local Note
 
-Renton Hill's early-1900s craftsman homes frequently have original tongue-and-groove fir subfloors laid directly over unventilated crawl spaces. When biological contamination reaches the subfloor, the material can migrate into the crawl space through gaps between boards — a pathway that isn't obvious during an initial visual assessment. We've learned to inspect crawl space access points on these properties as a standard part of the Renton Hill scope, because incomplete remediation at the subfloor level is one of the more common reasons a job has to be reopened.
+Renton Hill's early-1900s craftsman homes frequently have original tongue-and-groove fir subfloors laid directly over unventilated crawl spaces. When biological contamination reaches the subfloor, the material can migrate into the crawl space through gaps between boards, a pathway that isn't obvious during an initial visual assessment. We've learned to inspect crawl space access points on these properties as a standard part of the Renton Hill scope, because incomplete remediation at the subfloor level is one of the more common reasons a job has to be reopened.
 
 If you're managing a property on Renton Hill or in any of the city's older neighborhoods and you're not sure whether the remediation was thorough, we offer re-inspection services as well.
 
-Calling (206) 883-0333 connects you directly to our response team — not a call center. If you're dealing with an aftermath situation at a Renton property and you need someone who will handle it with discretion and get it done right, we're ready to help.
+Calling (206) 883-0333 connects you directly to our response team, not a call center. If you're dealing with an aftermath situation at a Renton property and you need someone who will handle it with discretion and get it done right, we're ready to help.

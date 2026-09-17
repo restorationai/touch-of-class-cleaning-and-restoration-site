@@ -19,11 +19,11 @@ state: "MS"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall or a storm pushes water under your doors, HomeLyft Restoration MS responds to Hurley property owners with hands-on water extraction, structural drying, mold assessment, fire and smoke cleanup, and full reconstruction — handled by a single crew from first call to finished repair. Hurley sits in the far eastern corner of Jackson County, and we know this stretch of the Mississippi Gulf Coast well enough to show up prepared, not guessing.
+When a pipe bursts behind a wall or a storm pushes water under your doors, HomeLyft Restoration MS responds to Hurley property owners with hands-on water extraction, structural drying, mold assessment, fire and smoke cleanup, and full reconstruction, handled by a single crew from first call to finished repair. Hurley sits in the far eastern corner of Jackson County, and we know this stretch of the Mississippi Gulf Coast well enough to show up prepared, not guessing.
 
 ## Restoration emergencies common in Hurley
 
-Hurley's geography sets it up for a specific pattern of property damage. The community sits inland from the coast but still sits squarely in the humid subtropical belt that makes Jackson County one of the wetter corners of Mississippi — annual rainfall routinely tops 60 inches, and the area sees tropical moisture from Gulf systems that can stall and drop several inches overnight. The soil in this part of the county is dense clay in places and sandy loam in others, which means drainage is unpredictable lot to lot. Crawl-space homes — common throughout the rural and semi-rural stretches around Hurley — trap ground moisture underneath living spaces, and that moisture doesn't need a flood event to cause damage; sustained humidity alone can saturate wood framing and trigger mold colonization within 24 to 48 hours of a plumbing failure or roof breach.
+Hurley's geography sets it up for a specific pattern of property damage. The community sits inland from the coast but still sits squarely in the humid subtropical belt that makes Jackson County one of the wetter corners of Mississippi, annual rainfall routinely tops 60 inches, and the area sees tropical moisture from Gulf systems that can stall and drop several inches overnight. The soil in this part of the county is dense clay in places and sandy loam in others, which means drainage is unpredictable lot to lot. Crawl-space homes, common throughout the rural and semi-rural stretches around Hurley, trap ground moisture underneath living spaces, and that moisture doesn't need a flood event to cause damage; sustained humidity alone can saturate wood framing and trigger mold colonization within 24 to 48 hours of a plumbing failure or roof breach.
 
 Older housing stock in the area often predates modern vapor barriers and updated building codes, so when water gets in, it travels farther and hides longer than it would in newer construction. Fire damage in rural settings like Hurley also carries a specific complication: longer distances from fire stations mean structures burn longer before suppression, leaving deeper smoke penetration into wall cavities and HVAC systems.
 
@@ -31,32 +31,32 @@ Older housing stock in the area often predates modern vapor barriers and updated
 
 ### Water damage restoration
 
-Water damage in Hurley frequently starts in places you can't immediately see — a slow roof leak after a storm, a supply line failure under a crawl space, or a water heater that gives out overnight. We use thermal imaging and moisture meters to map the full extent of saturation before we pull a single piece of material, then dry the structure to IICRC S500 standards using commercial-grade desiccant and refrigerant dehumidifiers sized for the job.
+Water damage in Hurley frequently starts in places you can't immediately see, a slow roof leak after a storm, a supply line failure under a crawl space, or a water heater that gives out overnight. We use thermal imaging and moisture meters to map the full extent of saturation before we pull a single piece of material, then dry the structure to IICRC S500 standards using commercial-grade desiccant and refrigerant dehumidifiers sized for the job.
 
 ### Mold remediation
 
-The combination of Hurley's humidity, older housing, and crawl-space construction makes mold a realistic follow-on to almost any water intrusion. We contain affected areas, remove compromised materials, treat structural surfaces, and verify clearance before closing walls back up. We do not make medical claims about air quality — we follow established remediation protocols and document the work for your records and your insurer.
+The combination of Hurley's humidity, older housing, and crawl-space construction makes mold a realistic follow-on to almost any water intrusion. We contain affected areas, remove compromised materials, treat structural surfaces, and verify clearance before closing walls back up. We do not make medical claims about air quality, we follow established remediation protocols and document the work for your records and your insurer.
 
 ### Fire and smoke damage restoration
 
-Smoke residue from a kitchen fire or a chimney event doesn't stay in one room. In homes with central air, it distributes through ductwork within minutes. Our fire restoration work in the Hurley area includes odor neutralization, soot removal from surfaces and cavities, duct cleaning, and content cleaning — followed by whatever structural repairs the fire itself caused.
+Smoke residue from a kitchen fire or a chimney event doesn't stay in one room. In homes with central air, it distributes through ductwork within minutes. Our fire restoration work in the Hurley area includes odor neutralization, soot removal from surfaces and cavities, duct cleaning, and content cleaning, followed by whatever structural repairs the fire itself caused.
 
 ### Reconstruction and build-back
 
-Once the damage is mitigated, many restoration companies hand you back to a general contractor. We carry the project through build-back — drywall, flooring, cabinetry, painting — so you're dealing with one point of contact from the emergency call to the finished room.
+Once the damage is mitigated, many restoration companies hand you back to a general contractor. We carry the project through build-back, drywall, flooring, cabinetry, painting, so you're dealing with one point of contact from the emergency call to the finished room.
 
 ### Biohazard and specialty cleanup
 
-Sewage backups, which are not uncommon when heavy rain overwhelms older septic systems in rural Jackson County, require Category 3 water protocols — full PPE, antimicrobial treatment, and proper disposal of porous materials. We handle these jobs safely and document the process for insurance purposes.
+Sewage backups, which are not uncommon when heavy rain overwhelms older septic systems in rural Jackson County, require Category 3 water protocols, full PPE, antimicrobial treatment, and proper disposal of porous materials. We handle these jobs safely and document the process for insurance purposes.
 
 ## Coverage and how fast we can get there
 
-HomeLyft Restoration MS operates out of Gulfport, roughly 35 to 40 miles southwest of Hurley via US-90 East and MS-613 North. Depending on time of day and road conditions through Moss Point and Escatawpa, that translates to a drive of under an hour in most circumstances. We schedule Hurley calls with that travel window in mind and will give you a realistic arrival estimate when you call — not a number pulled from a marketing page. Call us at (228) 284-5200 to reach a team member directly.
+HomeLyft Restoration MS operates out of Gulfport, roughly 35 to 40 miles southwest of Hurley via US-90 East and MS-613 North. Depending on time of day and road conditions through Moss Point and Escatawpa, that translates to a drive of under an hour in most circumstances. We schedule Hurley calls with that travel window in mind and will give you a realistic arrival estimate when you call, not a number pulled from a marketing page. Call us at (228) 284-5200 to reach a team member directly.
 
 ## Building stock, site conditions, and permits in Hurley
 
-Hurley is unincorporated, so there is no city hall to pull a permit from — structural repair, reroofing, and rebuild work here go through Jackson County, and septic replacement after a Category 3 loss is handled under state health department rules rather than a municipal utility. Being inland of the coast usually means less stringent wind-borne debris requirements than the beachfront, but Mississippi's statewide code still governs the rebuild, and roof tie-downs matter on any full re-deck.
+Hurley is unincorporated, so there is no city hall to pull a permit from, structural repair, reroofing, and rebuild work here go through Jackson County, and septic replacement after a Category 3 loss is handled under state health department rules rather than a municipal utility. Being inland of the coast usually means less stringent wind-borne debris requirements than the beachfront, but Mississippi's statewide code still governs the rebuild, and roof tie-downs matter on any full re-deck.
 
-The housing is largely postwar and later — brick-veneer or vinyl-clad ranches on slab, plus pier-and-beam homes with vented crawl spaces. Watch the plumbing vintage: cast iron drains in the oldest houses, polybutylene supply in 1980s and early-90s builds, and copper elsewhere. Those failures usually surface as slow, hidden saturation rather than a dramatic burst.
+The housing is largely postwar and later, brick-veneer or vinyl-clad ranches on slab, plus pier-and-beam homes with vented crawl spaces. Watch the plumbing vintage: cast iron drains in the oldest houses, polybutylene supply in 1980s and early-90s builds, and copper elsewhere. Those failures usually surface as slow, hidden saturation rather than a dramatic burst.
 
 If your home or rental property in Hurley is showing signs of water intrusion, smoke damage, or mold, call HomeLyft Restoration MS at **(228) 284-5200**. We'll tell you exactly what we're looking at, what it takes to fix it, and how we work with your insurance company to keep the process moving.

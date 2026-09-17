@@ -17,37 +17,37 @@ service_slug: "fire-damage-restoration"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-Smoke doesn't stop moving when the flames go out. Within hours of a house fire, soot particles migrate through ductwork, settle into closet corners, and bond to cool surfaces in rooms that never saw a flame. The odor penetrates drywall, insulation, and wood framing — and if protein-based materials burned (food, hair, upholstery), that residue is nearly invisible yet produces some of the most persistent smells in residential restoration. Getting fire damage right means understanding what burned, where the byproducts traveled, and in what order to address them.
+Smoke doesn't stop moving when the flames go out. Within hours of a house fire, soot particles migrate through ductwork, settle into closet corners, and bond to cool surfaces in rooms that never saw a flame. The odor penetrates drywall, insulation, and wood framing, and if protein-based materials burned (food, hair, upholstery), that residue is nearly invisible yet produces some of the most persistent smells in residential restoration. Getting fire damage right means understanding what burned, where the byproducts traveled, and in what order to address them.
 
 ## What fire and smoke restoration actually involves
 
-Fire damage is rarely just a burn zone. The visible char is often the easiest part to address. The work that determines whether a home smells and feels normal again is the systematic removal of soot residue from every surface those particles reached — including inside wall cavities, HVAC systems, and sub-floor assemblies.
+Fire damage is rarely just a burn zone. The visible char is often the easiest part to address. The work that determines whether a home smells and feels normal again is the systematic removal of soot residue from every surface those particles reached, including inside wall cavities, HVAC systems, and sub-floor assemblies.
 
-Different fires produce chemically different soot. A kitchen grease fire leaves a wet, oily residue that smears if wiped with a dry cloth. A structural fire involving synthetic materials — foam insulation, PVC pipe, carpet padding — produces a dry, porous soot that embeds deeply into porous surfaces and carries acrolein and other irritants. Protein fires from burning food or organic matter leave almost no visible residue but generate an extraordinarily stubborn odor that standard cleaning misses entirely.
+Different fires produce chemically different soot. A kitchen grease fire leaves a wet, oily residue that smears if wiped with a dry cloth. A structural fire involving synthetic materials, foam insulation, PVC pipe, carpet padding, produces a dry, porous soot that embeds deeply into porous surfaces and carries acrolein and other irritants. Protein fires from burning food or organic matter leave almost no visible residue but generate an extraordinarily stubborn odor that standard cleaning misses entirely.
 
-Equipment used in a thorough fire and smoke restoration includes HEPA-filtered air scrubbers, hydroxyl generators or ozone equipment for odor neutralization, thermal foggers to push deodorizing agents into the same porous pathways the smoke traveled, and professional-grade cleaning agents matched to the specific soot chemistry. Contents that can be salvaged are typically packed out, inventoried, and cleaned off-site rather than cleaned in place — which protects them from secondary damage during structural work.
+Equipment used in a thorough fire and smoke restoration includes HEPA-filtered air scrubbers, hydroxyl generators or ozone equipment for odor neutralization, thermal foggers to push deodorizing agents into the same porous pathways the smoke traveled, and professional-grade cleaning agents matched to the specific soot chemistry. Contents that can be salvaged are typically packed out, inventoried, and cleaned off-site rather than cleaned in place, which protects them from secondary damage during structural work.
 
 Timeline varies with fire size and material involvement, but most residential fire damage restorations run from one to several weeks for cleaning and deodorization, with reconstruction (if structural damage occurred) extending that further.
 
 ## Our process
 
-1. **Emergency stabilization and safety assessment.** Before cleaning begins, the structure is evaluated for safety — compromised framing, electrical hazards, broken glass, and standing water from suppression efforts. Board-up and tarping protect the structure from weather and unauthorized entry while the scope is developed.
+1. **Emergency stabilization and safety assessment.** Before cleaning begins, the structure is evaluated for safety, compromised framing, electrical hazards, broken glass, and standing water from suppression efforts. Board-up and tarping protect the structure from weather and unauthorized entry while the scope is developed.
 
-2. **Soot characterization and surface mapping.** Not all soot is treated the same way. The IICRC FSRT-trained technicians at DISS Restoration identify the type of residue in each area — wet/oily, dry/porous, or protein-based — and map affected surfaces throughout the structure, including rooms that appear undamaged but show evidence of smoke migration.
+2. **Soot characterization and surface mapping.** Not all soot is treated the same way. The IICRC FSRT-trained technicians at DISS Restoration identify the type of residue in each area, wet/oily, dry/porous, or protein-based, and map affected surfaces throughout the structure, including rooms that appear undamaged but show evidence of smoke migration.
 
 3. **Contents pack-out and inventory.** Salvageable belongings are photographed, itemized, and removed to a controlled environment for cleaning and storage. This step protects contents from cross-contamination during structural cleaning and creates a defensible inventory for the insurance claim.
 
-4. **Structural cleaning, HEPA filtration, and deodorization.** Affected surfaces are cleaned using chemistry matched to the soot type. HEPA air scrubbers run continuously to capture airborne particulates. Thermal fogging and/or hydroxyl treatment address odor in porous materials — drywall, framing, subfloor — that surface cleaning cannot reach alone. HVAC systems are cleaned or isolated to prevent re-contamination.
+4. **Structural cleaning, HEPA filtration, and deodorization.** Affected surfaces are cleaned using chemistry matched to the soot type. HEPA air scrubbers run continuously to capture airborne particulates. Thermal fogging and/or hydroxyl treatment address odor in porous materials, drywall, framing, subfloor, that surface cleaning cannot reach alone. HVAC systems are cleaned or isolated to prevent re-contamination.
 
-5. **Clearance verification and reconstruction handoff.** Before any rebuild begins, affected areas are verified to be clean and odor-free. If structural repairs are needed — replacing charred framing, drywall, flooring, or roofing — a written scope of work is developed and the reconstruction phase begins under the same project file, keeping documentation continuous for the insurance carrier.
+5. **Clearance verification and reconstruction handoff.** Before any rebuild begins, affected areas are verified to be clean and odor-free. If structural repairs are needed, replacing charred framing, drywall, flooring, or roofing, a written scope of work is developed and the reconstruction phase begins under the same project file, keeping documentation continuous for the insurance carrier.
 
 ## What separates a thorough fire damage response from an incomplete one
 
-The most common failure in post-fire restoration is treating only what's visible. Contractors who clean the burn zone and repaint over lightly soiled walls are setting up a homeowner for odor return within months — especially in humid conditions, when soot compounds reactivate. Insurance adjusters have seen this pattern repeatedly and increasingly require documentation of cleaning methodology, not just completion photos.
+The most common failure in post-fire restoration is treating only what's visible. Contractors who clean the burn zone and repaint over lightly soiled walls are setting up a homeowner for odor return within months, especially in humid conditions, when soot compounds reactivate. Insurance adjusters have seen this pattern repeatedly and increasingly require documentation of cleaning methodology, not just completion photos.
 
 A second common gap is HVAC neglect. Smoke travels wherever air moves, and a forced-air system can distribute soot throughout an entire house within minutes of ignition. Failing to clean or isolate ductwork before running the system post-fire redistributes contamination and voids much of the cleaning work already done.
 
-Proper documentation matters as much as the physical work. Adjusters need a line-item scope that identifies affected materials, cleaning methods applied, and equipment deployed — not a single-line invoice. DISS Restoration carries IICRC FSRT (Fire and Smoke Restoration Technician) certification, which means the work is performed and documented to the standard adjusters expect.
+Proper documentation matters as much as the physical work. Adjusters need a line-item scope that identifies affected materials, cleaning methods applied, and equipment deployed, not a single-line invoice. DISS Restoration carries IICRC FSRT (Fire and Smoke Restoration Technician) certification, which means the work is performed and documented to the standard adjusters expect.
 
 ## What does fire damage restoration cost?
 
@@ -61,14 +61,14 @@ Typical costs depend heavily on fire size, what materials burned, how far smoke 
 | Significant structural fire, whole-home smoke | $50,000 – $120,000+ |
 | Contents pack-out and cleaning (per job) | $2,000 – $10,000 |
 
-Every loss is different — these are industry-typical figures, not quotes. DISS Restoration provides a written scope of work before any work begins so you know exactly what is being done and why. Homeowners insurance typically covers fire damage restoration, including cleaning, deodorization, contents pack-out, and structural repairs, subject to your policy's deductible and coverage limits.
+Every loss is different, these are industry-typical figures, not quotes. DISS Restoration provides a written scope of work before any work begins so you know exactly what is being done and why. Homeowners insurance typically covers fire damage restoration, including cleaning, deodorization, contents pack-out, and structural repairs, subject to your policy's deductible and coverage limits.
 
 ## Seasonal and regional considerations
 
-In the Youngstown area, fire risk has a seasonal pattern worth knowing. Heating season — roughly October through March in northeast Ohio — brings a spike in furnace-related fires, chimney fires in older homes with clay-tile flues, and space heater incidents. The region's housing stock includes a high proportion of pre-1970 construction with original knob-and-tube or early aluminum wiring, both of which are associated with elevated electrical fire risk. Post-fire, the cold months also mean suppression water freezes quickly in wall cavities and subfloors, adding a water damage component that must be addressed alongside the fire cleanup.
+In the Youngstown area, fire risk has a seasonal pattern worth knowing. Heating season, roughly October through March in northeast Ohio, brings a spike in furnace-related fires, chimney fires in older homes with clay-tile flues, and space heater incidents. The region's housing stock includes a high proportion of pre-1970 construction with original knob-and-tube or early aluminum wiring, both of which are associated with elevated electrical fire risk. Post-fire, the cold months also mean suppression water freezes quickly in wall cavities and subfloors, adding a water damage component that must be addressed alongside the fire cleanup.
 
 ## Service area
 
-DISS Restoration is based in Youngstown and handles fire damage restoration throughout Mahoning County and the surrounding region — including Boardman, Canfield, Austintown, Niles, Warren, and the Shenango Valley into western Pennsylvania. Each city combination page links back here for the full technical detail on what fire and smoke restoration involves.
+DISS Restoration is based in Youngstown and handles fire damage restoration throughout Mahoning County and the surrounding region, including Boardman, Canfield, Austintown, Niles, Warren, and the Shenango Valley into western Pennsylvania. Each city combination page links back here for the full technical detail on what fire and smoke restoration involves.
 
-If you're looking at smoke-stained walls and wondering whether the smell will ever leave — call **(724) 981-1441** to begin smoke and soot removal. DISS Restoration responds 24/7.
+If you're looking at smoke-stained walls and wondering whether the smell will ever leave, call **(724) 981-1441** to begin smoke and soot removal. DISS Restoration responds 24/7.

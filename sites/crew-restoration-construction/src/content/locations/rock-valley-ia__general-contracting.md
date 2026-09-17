@@ -20,15 +20,15 @@ state: "IA"
 service_display: "Renovations, Remodels and General Contracting"
 rendered: true
 ---
-When Rock River flooding recedes and the damage assessment is done, Rock Valley homeowners often face a decision that goes beyond restoration: do you patch what broke, or take the opportunity to build something better? That question is at the heart of what Crew Restoration & Construction does in Rock Valley and the surrounding 51247 area — pairing post-damage rebuilds with thoughtful renovations and general contracting work that makes your home or commercial property more resilient, more functional, and more valuable than it was before the water ever rose.
+When Rock River flooding recedes and the damage assessment is done, Rock Valley homeowners often face a decision that goes beyond restoration: do you patch what broke, or take the opportunity to build something better? That question is at the heart of what Crew Restoration & Construction does in Rock Valley and the surrounding 51247 area, pairing post-damage rebuilds with thoughtful renovations and general contracting work that makes your home or commercial property more resilient, more functional, and more valuable than it was before the water ever rose.
 
 ## Why Rock Valley Properties Present Unique Renovation Challenges
 
-Building stock in Rock Valley skews older, and older homes carry their own set of surprises once walls open up. Knob-and-tube wiring, cast-iron drain lines, and balloon-frame construction are common discoveries in properties near Downtown Rock Valley, particularly in homes built before the 1960s. None of these are dealbreakers — but they do change the scope conversation. A kitchen remodel that looks straightforward from the outside can reveal subfloor framing that needs sistering, or a plumbing stack that hasn't been touched in fifty years.
+Building stock in Rock Valley skews older, and older homes carry their own set of surprises once walls open up. Knob-and-tube wiring, cast-iron drain lines, and balloon-frame construction are common discoveries in properties near Downtown Rock Valley, particularly in homes built before the 1960s. None of these are dealbreakers, but they do change the scope conversation. A kitchen remodel that looks straightforward from the outside can reveal subfloor framing that needs sistering, or a plumbing stack that hasn't been touched in fifty years.
 
-The Rock River area adds another layer. Low-lying properties that have experienced repeated flood intrusion often have compromised crawl space structures, deteriorated rim joists, and moisture-damaged subflooring that has to be addressed before any cosmetic renovation begins. Skipping that step means new flooring and cabinetry sit on a foundation that hasn't been corrected — and the problem comes back.
+The Rock River area adds another layer. Low-lying properties that have experienced repeated flood intrusion often have compromised crawl space structures, deteriorated rim joists, and moisture-damaged subflooring that has to be addressed before any cosmetic renovation begins. Skipping that step means new flooring and cabinetry sit on a foundation that hasn't been corrected, and the problem comes back.
 
-Sioux County's climate also matters. Northwest Iowa's freeze-thaw cycles are aggressive. Exterior renovations — siding replacement, window upgrades, deck rebuilds — have to account for how materials expand and contract through a Rock Valley winter. We specify products and installation methods that are rated for that thermal range, not just products that look good in a showroom.
+Sioux County's climate also matters. Northwest Iowa's freeze-thaw cycles are aggressive. Exterior renovations, siding replacement, window upgrades, deck rebuilds, have to account for how materials expand and contract through a Rock Valley winter. We specify products and installation methods that are rated for that thermal range, not just products that look good in a showroom.
 
 ## Our General Contracting Process in Rock Valley
 
@@ -36,24 +36,24 @@ Every project starts with a walk-through that treats your property as what it ac
 
 From there, the process moves in a logical sequence:
 
-- **Structural and mechanical first** — framing corrections, subfloor repair, electrical and plumbing updates that need to happen before walls close
-- **Rough inspections** — coordinated with Sioux County building officials so the project doesn't stall waiting on permits
-- **Insulation and moisture control** — particularly important in Rock Valley's climate and in any home that has had flood exposure
-- **Finish work** — drywall, tile, cabinetry, flooring, fixtures — executed to match the design plan you approved at the start
+- **Structural and mechanical first**, framing corrections, subfloor repair, electrical and plumbing updates that need to happen before walls close
+- **Rough inspections**, coordinated with Sioux County building officials so the project doesn't stall waiting on permits
+- **Insulation and moisture control**, particularly important in Rock Valley's climate and in any home that has had flood exposure
+- **Finish work**, drywall, tile, cabinetry, flooring, fixtures, executed to match the design plan you approved at the start
 
 For post-damage rebuilds, we work alongside your insurance adjuster's documentation so the rebuild scope aligns with what's been approved. We can handle the general contracting on the full project rather than handing you off to a separate contractor once the restoration side is complete.
 
 ## Reaching Rock Valley from Our Team
 
-Crew Restoration & Construction is based in Sioux Falls, SD, and serves Rock Valley as part of our broader regional footprint across the tri-state area. When you call (605) 965-2727, you'll reach a team that knows the route down I-90 and US-75 and schedules Rock Valley projects regularly — this isn't a market we're unfamiliar with. We coordinate project start dates, material deliveries, and subcontractor scheduling to minimize the number of days your project sits idle waiting on the next phase.
+Crew Restoration & Construction is based in Sioux Falls, SD, and serves Rock Valley as part of our broader regional footprint across the tri-state area. When you call (605) 965-2727, you'll reach a team that knows the route down I-90 and US-75 and schedules Rock Valley projects regularly, this isn't a market we're unfamiliar with. We coordinate project start dates, material deliveries, and subcontractor scheduling to minimize the number of days your project sits idle waiting on the next phase.
 
 ## Local Note: What Flood-Exposed Homes Near the Rock River Often Need Before Renovation
 
-Here's something that comes up repeatedly on Rock Valley projects near the Rock River area: homeowners who experienced flooding two or three years ago had the visible damage repaired but never addressed the crawl space or basement wall cavity. By the time they call us for a bathroom remodel or kitchen renovation, we're finding residual moisture readings in wall assemblies that were never fully dried, and in some cases, microbial growth behind finished surfaces that were closed up too quickly. Before any finish renovation begins in a home with a flood history, we take moisture readings at the wall base and subfloor — not because we're looking to expand the scope, but because opening walls over a hidden moisture problem and then closing them again with new materials is a mistake that shows up eighteen months later. That extra hour of assessment at the start saves a much larger problem down the road.
+Here's something that comes up repeatedly on Rock Valley projects near the Rock River area: homeowners who experienced flooding two or three years ago had the visible damage repaired but never addressed the crawl space or basement wall cavity. By the time they call us for a bathroom remodel or kitchen renovation, we're finding residual moisture readings in wall assemblies that were never fully dried, and in some cases, microbial growth behind finished surfaces that were closed up too quickly. Before any finish renovation begins in a home with a flood history, we take moisture readings at the wall base and subfloor, not because we're looking to expand the scope, but because opening walls over a hidden moisture problem and then closing them again with new materials is a mistake that shows up eighteen months later. That extra hour of assessment at the start saves a much larger problem down the road.
 
 ## Renovations That Add Long-Term Value in Rock Valley
 
-Kitchen and bathroom remodels remain the highest-return renovation investments for Rock Valley homeowners looking to build equity. In a market where buyers pay close attention to the condition of mechanical systems and the quality of finish work, a renovation that addresses both — updated plumbing, new fixtures, quality tile and cabinetry — carries more weight than a cosmetic refresh alone. We also handle additions, basement finishing, and full interior remodels for commercial properties in Downtown Rock Valley that are being repurposed or updated to meet current use requirements.
+Kitchen and bathroom remodels remain the highest-return renovation investments for Rock Valley homeowners looking to build equity. In a market where buyers pay close attention to the condition of mechanical systems and the quality of finish work, a renovation that addresses both, updated plumbing, new fixtures, quality tile and cabinetry, carries more weight than a cosmetic refresh alone. We also handle additions, basement finishing, and full interior remodels for commercial properties in Downtown Rock Valley that are being repurposed or updated to meet current use requirements.
 
 Whatever the scope, the goal is the same: a finished project that holds up to Rock Valley's climate, fits the character of the neighborhood, and doesn't leave you with a punch list of unresolved issues six months after we leave.
 

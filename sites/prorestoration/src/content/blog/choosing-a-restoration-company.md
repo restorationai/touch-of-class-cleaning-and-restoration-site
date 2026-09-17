@@ -17,22 +17,22 @@ published_at: "2026-06-30"
 services: ["water-damage-restoration", "fire-damage-restoration", "mold-remediation"]
 rendered: true
 ---
-The short answer: vet the license, check the certifications, read the insurance process, and get everything in writing before anyone touches your property. In Bakersfield's Central Valley climate — where summer heat accelerates mold growth and aging tract-home plumbing fails without warning — the restoration company you call in the first hour can determine how long you're displaced and how much of the bill your insurance actually covers. Here's how to make that call with confidence.
+The short answer: vet the license, check the certifications, read the insurance process, and get everything in writing before anyone touches your property. In Bakersfield's Central Valley climate, where summer heat accelerates mold growth and aging tract-home plumbing fails without warning, the restoration company you call in the first hour can determine how long you're displaced and how much of the bill your insurance actually covers. Here's how to make that call with confidence.
 
 ## Why the Restoration Industry Attracts Bad Actors
 
 Restoration work is cash-heavy, urgent, and emotionally charged. When a pipe bursts at 2 a.m. or smoke is still hanging in your hallway, you're not in a position to comparison-shop. Unscrupulous contractors know this. They show up fast, ask you to sign an Assignment of Benefits (AOB) form before you've called your insurer, and then bill at inflated rates while doing substandard work.
 
-Kern County has seen its share of storm-chasing contractors — crews from out of state who flood the market after a weather event, complete a surface dry-out, and disappear before the hidden moisture causes a mold problem three weeks later. A legitimate local company has a physical address, a California contractor's license you can verify on the CSLB website, and a reputation that lives or dies in this community.
+Kern County has seen its share of storm-chasing contractors, crews from out of state who flood the market after a weather event, complete a surface dry-out, and disappear before the hidden moisture causes a mold problem three weeks later. A legitimate local company has a physical address, a California contractor's license you can verify on the CSLB website, and a reputation that lives or dies in this community.
 
 Before you let anyone start work, spend five minutes on the Contractors State License Board lookup at cslb.ca.gov. Enter the company name or license number and confirm the license is active, the classification matches the work ("B" general building or "C-10" for electrical-related drying equipment), and there are no disciplinary actions on record.
 
 ## The Credentials That Actually Matter
 
-Not all certifications are equal. Here's what to look for — and what to ask:
+Not all certifications are equal. Here's what to look for, and what to ask:
 
-- **IICRC certification**: The Institute of Inspection, Cleaning and Restoration Certification sets the industry standard for water damage (S500), fire and smoke (S700), and mold remediation (S520). A company whose technicians hold current IICRC credentials is trained to dry structures to measurable standards, not just until things *look* dry. Ask which technicians are certified — not just whether the company is affiliated.
-- **EPA Lead-Safe certification**: Bakersfield has a significant stock of pre-1978 housing, particularly in neighborhoods like Oleander-Sunset and around the downtown core. If your home was built before 1978 and the restoration involves disturbing painted surfaces, the contractor must hold an EPA Renovation, Repair and Painting (RRP) certification. This isn't optional — it's federal law.
+- **IICRC certification**: The Institute of Inspection, Cleaning and Restoration Certification sets the industry standard for water damage (S500), fire and smoke (S700), and mold remediation (S520). A company whose technicians hold current IICRC credentials is trained to dry structures to measurable standards, not just until things *look* dry. Ask which technicians are certified, not just whether the company is affiliated.
+- **EPA Lead-Safe certification**: Bakersfield has a significant stock of pre-1978 housing, particularly in neighborhoods like Oleander-Sunset and around the downtown core. If your home was built before 1978 and the restoration involves disturbing painted surfaces, the contractor must hold an EPA Renovation, Repair and Painting (RRP) certification. This isn't optional, it's federal law.
 - **Insurance and bonding**: Ask for a certificate of insurance naming you as an additional insured for the duration of the project. General liability and workers' compensation should both be current. If a worker is injured on your property and the contractor isn't properly insured, you can be held liable.
 - **Local business history**: How long has the company operated in Bakersfield specifically? A five-year-old company with roots here has navigated the Valley's clay-heavy soil (which shifts and stresses foundations), the summer heat that pushes attic temperatures past 150°F, and the specific insurance adjusters and building inspectors in Kern County.
 
@@ -42,21 +42,21 @@ Some warning signs are easy to spot. Others are buried in paperwork.
 
 **Before work begins:**
 - A contractor who pressures you to sign an Assignment of Benefits before you've spoken to your insurance company. AOB agreements aren't always predatory, but signing one before you understand it can strip you of control over your own claim.
-- No written scope of work. Verbal estimates are unenforceable. Every line item — equipment, labor, disposal fees, reconstruction — should be documented.
+- No written scope of work. Verbal estimates are unenforceable. Every line item, equipment, labor, disposal fees, reconstruction, should be documented.
 - A quote that's dramatically lower than others. Restoration pricing follows industry guidelines (Xactimate is the standard estimating platform most insurers use). A bid that's 40% below market usually means corners will be cut on drying time, documentation, or materials.
 
 **During the job:**
 - Technicians who can't show you moisture readings. Professional water damage restoration involves daily moisture mapping with calibrated meters. If a crew is pulling equipment before readings confirm the structure is dry, you're inheriting a mold problem.
 - No containment during mold remediation. Disturbing mold colonies without proper poly barriers and negative air pressure spreads spores to unaffected areas of your home.
-- Lack of photo documentation. Your insurance company will want a photographic record of the damage before, during, and after. A reputable company documents obsessively — it protects both of you.
+- Lack of photo documentation. Your insurance company will want a photographic record of the damage before, during, and after. A reputable company documents obsessively, it protects both of you.
 
 ## How to Evaluate the Insurance Process
 
-Most major restoration projects — water damage, fire damage, significant mold — run through homeowner's or commercial property insurance. How a company handles this process tells you a lot about their legitimacy.
+Most major restoration projects, water damage, fire damage, significant mold, run through homeowner's or commercial property insurance. How a company handles this process tells you a lot about their legitimacy.
 
 A professional restoration company will:
 1. **Help you document the loss** with photos, moisture logs, and a written scope before any materials are removed.
-2. **Communicate directly with your adjuster** to ensure the scope of damage is accurately represented — not inflated, not minimized.
+2. **Communicate directly with your adjuster** to ensure the scope of damage is accurately represented, not inflated, not minimized.
 3. **Work within your policy's guidelines** rather than around them. This means using Xactimate pricing that adjusters recognize, not arbitrary markups.
 4. **Explain your out-of-pocket costs upfront**, including your deductible and any items your policy may not cover (like code upgrades required by Bakersfield's current building standards).
 
@@ -64,7 +64,7 @@ You are always entitled to choose your own restoration contractor. Your insuranc
 
 ## Questions to Ask Before You Hire
 
-When you're on the phone with a restoration company — or when they arrive at your door — these questions separate prepared professionals from crews that are winging it:
+When you're on the phone with a restoration company, or when they arrive at your door, these questions separate prepared professionals from crews that are winging it:
 
 1. **"Can you give me your CSLB license number right now?"** A legitimate contractor knows it by heart or has it on their truck.
 2. **"Which of your technicians on this job are IICRC certified, and in what categories?"** Water damage, fire/smoke, and mold are separate certifications.
@@ -77,4 +77,4 @@ When you're on the phone with a restoration company — or when they arrive at y
 
 If you're standing in a wet living room, smelling smoke residue in your kitchen cabinets, or watching a ceiling stain spread after a rainstorm, the research window is short. Do the CSLB check, ask for the license number and proof of insurance, and get a written scope before signing anything.
 
-ProRestoration Services works with homeowners and property managers across Bakersfield on water damage, fire and smoke damage, and mold remediation — and handles the insurance documentation process from first call through final inspection. If you're weighing your options or have questions about a specific situation, call (661) 393-9306.
+ProRestoration Services works with homeowners and property managers across Bakersfield on water damage, fire and smoke damage, and mold remediation, and handles the insurance documentation process from first call through final inspection. If you're weighing your options or have questions about a specific situation, call (661) 393-9306.

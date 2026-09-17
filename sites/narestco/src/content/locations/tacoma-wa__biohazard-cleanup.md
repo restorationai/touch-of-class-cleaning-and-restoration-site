@@ -21,38 +21,38 @@ service_display: "Biohazard and Trauma Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
-When something traumatic happens at a Tacoma property, the hours immediately after matter enormously — not just emotionally, but practically. Biohazardous materials left in place can penetrate porous surfaces, migrate through subflooring, and create secondary health risks within a short window. National Restoration Construction responds to biohazard and trauma cleanup calls across Tacoma 24 hours a day, seven days a week, with a team that is trained, certified, and practiced at handling these situations with complete discretion.
+When something traumatic happens at a Tacoma property, the hours immediately after matter enormously, not just emotionally, but practically. Biohazardous materials left in place can penetrate porous surfaces, migrate through subflooring, and create secondary health risks within a short window. National Restoration Construction responds to biohazard and trauma cleanup calls across Tacoma 24 hours a day, seven days a week, with a team that is trained, certified, and practiced at handling these situations with complete discretion.
 
 ## What Our Biohazard and Trauma Cleanup Process Looks Like in Tacoma
 
 Every situation is different, but the process follows a disciplined sequence designed to protect everyone on-site and restore the property to a safe, habitable condition.
 
-When our crew arrives — typically within 60 to 90 minutes from our Federal Way headquarters, which puts us well inside Tacoma's city limits quickly — the first step is a thorough assessment. We identify all affected surfaces, materials, and adjacent areas that may have been compromised. Nothing is assumed contained until it is confirmed contained.
+When our crew arrives, typically within 60 to 90 minutes from our Federal Way headquarters, which puts us well inside Tacoma's city limits quickly, the first step is a thorough assessment. We identify all affected surfaces, materials, and adjacent areas that may have been compromised. Nothing is assumed contained until it is confirmed contained.
 
-From there, the affected area is isolated and our technicians work in appropriate personal protective equipment throughout the entire remediation. We use EPA-registered hospital-grade disinfectants, HEPA-filtered air scrubbers, and specialized extraction equipment to address biological materials at the surface and subsurface level. Porous materials — drywall, carpet, subflooring — that cannot be fully decontaminated are carefully removed and disposed of in accordance with Washington State Department of Ecology regulations for biohazardous waste.
+From there, the affected area is isolated and our technicians work in appropriate personal protective equipment throughout the entire remediation. We use EPA-registered hospital-grade disinfectants, HEPA-filtered air scrubbers, and specialized extraction equipment to address biological materials at the surface and subsurface level. Porous materials, drywall, carpet, subflooring, that cannot be fully decontaminated are carefully removed and disposed of in accordance with Washington State Department of Ecology regulations for biohazardous waste.
 
 Before we leave, the space is tested and documented. You receive a written remediation report, which matters both for your own peace of mind and for any insurance claim.
 
 ## Tacoma Properties and Biohazard Risk Factors
 
-Tacoma's housing stock is older than many people realize. Large portions of neighborhoods like Hilltop, South Tacoma, and the Eastside are made up of homes built before 1970 — structures with original hardwood subfloors, plaster walls, and crawl spaces that can absorb and retain biological contamination far more readily than modern construction. When a trauma scene or unattended death cleanup situation occurs in one of these homes, the remediation scope often extends beyond what is immediately visible.
+Tacoma's housing stock is older than many people realize. Large portions of neighborhoods like Hilltop, South Tacoma, and the Eastside are made up of homes built before 1970, structures with original hardwood subfloors, plaster walls, and crawl spaces that can absorb and retain biological contamination far more readily than modern construction. When a trauma scene or unattended death cleanup situation occurs in one of these homes, the remediation scope often extends beyond what is immediately visible.
 
-The region's climate compounds this. Western Washington's persistent moisture means that any organic material left in place — even briefly — faces accelerated microbial activity. What might be a contained problem in a drier climate can spread more aggressively here. Speed of response is not a marketing point; it is a practical necessity.
+The region's climate compounds this. Western Washington's persistent moisture means that any organic material left in place, even briefly, faces accelerated microbial activity. What might be a contained problem in a drier climate can spread more aggressively here. Speed of response is not a marketing point; it is a practical necessity.
 
 We have worked in Tacoma properties of every type: single-family homes, multi-unit buildings managed by property companies, commercial spaces, and public housing. The discretion we bring to each job is the same regardless of the setting.
 
 ## How Insurance Works for Biohazard Cleanup in Tacoma
 
-Many homeowners and property managers do not realize that biohazard remediation — including trauma scene cleanup, blood cleanup, and unattended death cleanup — is frequently covered under standard homeowner's or commercial property insurance policies. Coverage depends on the policy and the circumstances, but it is worth pursuing before assuming you are paying out of pocket.
+Many homeowners and property managers do not realize that biohazard remediation, including trauma scene cleanup, blood cleanup, and unattended death cleanup, is frequently covered under standard homeowner's or commercial property insurance policies. Coverage depends on the policy and the circumstances, but it is worth pursuing before assuming you are paying out of pocket.
 
 We work directly with insurance carriers and can provide the documentation adjusters need: itemized scope of work, before-and-after records, and the remediation report. We do not require you to navigate that process alone. Our team can communicate with your adjuster on your behalf and help ensure the claim reflects the full scope of what was required.
 
-If you are a property manager dealing with a tenant situation, we understand the additional layer of coordination involved — with the property owner, the insurer, and sometimes law enforcement or the medical examiner's office. We have handled that coordination before and can help you move through it efficiently.
+If you are a property manager dealing with a tenant situation, we understand the additional layer of coordination involved, with the property owner, the insurer, and sometimes law enforcement or the medical examiner's office. We have handled that coordination before and can help you move through it efficiently.
 
 ## Certifications, Licensing, and Why They Matter Here
 
-Biohazard remediation is not a general cleaning service. It requires specific training, proper waste disposal protocols, and accountability. Our technicians are IICRC certified, and National Restoration Construction holds EPA certification, ANSI certification, and a Lead-Safe Certified Firm designation — relevant in Tacoma's older housing stock where disturbing building materials during remediation can introduce additional hazards. We are licensed through the Washington State Department of Labor and Industries (General Contractor Certificate of Registration #NATIORC792M6) and accredited by the BBB.
+Biohazard remediation is not a general cleaning service. It requires specific training, proper waste disposal protocols, and accountability. Our technicians are IICRC certified, and National Restoration Construction holds EPA certification, ANSI certification, and a Lead-Safe Certified Firm designation, relevant in Tacoma's older housing stock where disturbing building materials during remediation can introduce additional hazards. We are licensed through the Washington State Department of Labor and Industries (General Contractor Certificate of Registration #NATIORC792M6) and accredited by the BBB.
 
-These credentials exist so that when the work is done, it is done in a way that holds up — to inspection, to insurance review, and to your own confidence that the property is genuinely safe.
+These credentials exist so that when the work is done, it is done in a way that holds up, to inspection, to insurance review, and to your own confidence that the property is genuinely safe.
 
 If you are facing this situation right now, you do not need to figure out the next steps alone. Reach out to us at (206) 883-0333 any time of day or night. We will tell you exactly what to expect before we arrive, and we will handle the rest.

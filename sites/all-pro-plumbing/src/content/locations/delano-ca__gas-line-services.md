@@ -20,13 +20,13 @@ state: "CA"
 service_display: "Gas Line Installation and Leak Repair"
 rendered: true
 ---
-Delano's older housing stock along the Cecil Avenue corridor and the pre-1960 bungalows clustered near Downtown Delano were built when natural gas lines were smaller-diameter black iron pipe — material that corrodes from the inside out over decades. Add Kern County's expansive clay soils, which shift noticeably between the bone-dry summers and the brief wet winters, and you have conditions that stress buried gas lines year-round. Whether you've caught the faint sulfur smell of a slow leak or you're adding a new gas range, outdoor grill line, or whole-house generator connection, All Pro Plumbing Heating and Air responds around the clock at (661) 863-9242.
+Delano's older housing stock along the Cecil Avenue corridor and the pre-1960 bungalows clustered near Downtown Delano were built when natural gas lines were smaller-diameter black iron pipe, material that corrodes from the inside out over decades. Add Kern County's expansive clay soils, which shift noticeably between the bone-dry summers and the brief wet winters, and you have conditions that stress buried gas lines year-round. Whether you've caught the faint sulfur smell of a slow leak or you're adding a new gas range, outdoor grill line, or whole-house generator connection, All Pro Plumbing Heating and Air responds around the clock at (661) 863-9242.
 
 ## Why Delano Properties Experience Gas Line Problems
 
-The San Joaquin Valley's heat is hard on more than air conditioners. Summer ground temperatures in the 93215 ZIP code regularly push surface soil into a shrink-swell cycle that tugs at buried fittings. Homes built during Delano's agricultural-boom years — many of them within a few blocks of Cesar Chavez Park — were piped with threaded black iron that was standard at the time. Those threaded joints are the first place corrosion and micro-movement create weeps. On the west side of town, the 2000s subdivisions used corrugated stainless steel tubing (CSST), which is flexible and faster to install but requires proper bonding to protect against lightning-induced arc damage — a step that was sometimes skipped on early CSST installations before California tightened its code requirements.
+The San Joaquin Valley's heat is hard on more than air conditioners. Summer ground temperatures in the 93215 ZIP code regularly push surface soil into a shrink-swell cycle that tugs at buried fittings. Homes built during Delano's agricultural-boom years, many of them within a few blocks of Cesar Chavez Park, were piped with threaded black iron that was standard at the time. Those threaded joints are the first place corrosion and micro-movement create weeps. On the west side of town, the 2000s subdivisions used corrugated stainless steel tubing (CSST), which is flexible and faster to install but requires proper bonding to protect against lightning-induced arc damage, a step that was sometimes skipped on early CSST installations before California tightened its code requirements.
 
-Commercial properties along the Highway 99 corridor — cold-storage facilities, packing sheds, and restaurant equipment — run higher-pressure gas systems that demand larger-diameter supply lines and pressure-drop calculations before any new appliance is added. A line sized for a residential range will starve a commercial broiler or industrial water heater.
+Commercial properties along the Highway 99 corridor, cold-storage facilities, packing sheds, and restaurant equipment, run higher-pressure gas systems that demand larger-diameter supply lines and pressure-drop calculations before any new appliance is added. A line sized for a residential range will starve a commercial broiler or industrial water heater.
 
 ## Our Gas Line Installation and Leak Repair Process in Delano
 
@@ -34,22 +34,22 @@ If you suspect an active leak, stop here: leave the building immediately, don't 
 
 For confirmed-safe leak repairs and new installations, our process follows these steps:
 
-1. **Locate and isolate** — We use calibrated combustible-gas detectors to trace the leak to its source, whether it's a corroded fitting inside a wall or a joint shift in a buried yard line.
-2. **Pressure test the existing system** — Before any repair or extension, we pressure-test the full system with nitrogen so we know the baseline and can confirm the fix held.
-3. **Repair or replace** — Corroded black iron sections get replaced with properly coated steel or flexible CSST with code-compliant bonding. New installations use materials and sizing matched to your appliance BTU loads.
-4. **Permit and inspection** — We pull the required City of Delano / Kern County permit and schedule the inspection. The job isn't done until it passes.
-5. **Final pressure test and documentation** — A second pressure test after inspection gives you a written record that the system is leak-free.
+1. **Locate and isolate**, We use calibrated combustible-gas detectors to trace the leak to its source, whether it's a corroded fitting inside a wall or a joint shift in a buried yard line.
+2. **Pressure test the existing system**, Before any repair or extension, we pressure-test the full system with nitrogen so we know the baseline and can confirm the fix held.
+3. **Repair or replace**, Corroded black iron sections get replaced with properly coated steel or flexible CSST with code-compliant bonding. New installations use materials and sizing matched to your appliance BTU loads.
+4. **Permit and inspection**, We pull the required City of Delano / Kern County permit and schedule the inspection. The job isn't done until it passes.
+5. **Final pressure test and documentation**, A second pressure test after inspection gives you a written record that the system is leak-free.
 
 ## Earthquake Gas Shutoff Valves in Delano
 
-The San Joaquin Valley sits within reach of fault activity from both the Sierra Nevada foothills and the Coast Ranges. An automatic earthquake gas shutoff valve (seismic shutoff valve) installs at the gas meter and trips when it senses ground motion above a set threshold, stopping gas flow before a post-quake fire can start. California law requires these valves on new construction in many jurisdictions, and they're a smart retrofit for older Delano homes that predate the requirement. We install excess-flow and seismic shutoff valves, test them to manufacturer spec, and document the installation for your homeowner's insurance carrier — some carriers offer a premium credit for the upgrade.
+The San Joaquin Valley sits within reach of fault activity from both the Sierra Nevada foothills and the Coast Ranges. An automatic earthquake gas shutoff valve (seismic shutoff valve) installs at the gas meter and trips when it senses ground motion above a set threshold, stopping gas flow before a post-quake fire can start. California law requires these valves on new construction in many jurisdictions, and they're a smart retrofit for older Delano homes that predate the requirement. We install excess-flow and seismic shutoff valves, test them to manufacturer spec, and document the installation for your homeowner's insurance carrier, some carriers offer a premium credit for the upgrade.
 
 ## Reaching Delano from Bakersfield
 
-All Pro's team runs 24/7, and Delano is a straight shot up Highway 99 from our Bakersfield base. We dispatch to all Delano neighborhoods — from the Randolph Street corridor near the high school to the newer streets on the west side — at any hour. When you call (661) 863-9242, dispatch will give you an honest arrival estimate based on current crew location and traffic, not a scripted window.
+All Pro's team runs 24/7, and Delano is a straight shot up Highway 99 from our Bakersfield base. We dispatch to all Delano neighborhoods, from the Randolph Street corridor near the high school to the newer streets on the west side, at any hour. When you call (661) 863-9242, dispatch will give you an honest arrival estimate based on current crew location and traffic, not a scripted window.
 
 ## Local Note
 
-One thing that comes up specifically in Delano's older downtown blocks: the gas service lateral sometimes enters the home through the floor rather than the wall, running beneath the original hardwood or linoleum that's been layered over for 60-plus years. When we're tracing a leak in a pre-1960 bungalow near Delano High School or the Cesar Chavez Park neighborhood, we account for that routing before we start cutting. Knowing where the pipe actually runs — not where a generic diagram says it should — saves time and keeps repair patches to a minimum.
+One thing that comes up specifically in Delano's older downtown blocks: the gas service lateral sometimes enters the home through the floor rather than the wall, running beneath the original hardwood or linoleum that's been layered over for 60-plus years. When we're tracing a leak in a pre-1960 bungalow near Delano High School or the Cesar Chavez Park neighborhood, we account for that routing before we start cutting. Knowing where the pipe actually runs, not where a generic diagram says it should, saves time and keeps repair patches to a minimum.
 
 When you're ready to schedule an inspection, add a gas line for a new stove or outdoor kitchen, or you've already gotten the all-clear from SoCalGas after a suspected leak, call All Pro Plumbing Heating and Air at (661) 863-9242. We serve all of Delano, 24 hours a day, and we pull the permits so the work is on record.

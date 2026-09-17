@@ -21,27 +21,27 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
-When something goes wrong inside a home or property in Leakesville — a traumatic event, an unattended situation, or the discovery of infectious materials — the cleanup that follows is not a task for a mop and a bottle of bleach. Greene County's humid subtropical climate means that biological materials left even briefly in warm, poorly ventilated spaces begin breaking down rapidly, creating compounding health and structural concerns. HomeLyft Restoration MS responds to those calls with trained technicians, clinical-grade disinfection protocols, and the discretion that difficult moments demand.
+When something goes wrong inside a home or property in Leakesville, a traumatic event, an unattended situation, or the discovery of infectious materials, the cleanup that follows is not a task for a mop and a bottle of bleach. Greene County's humid subtropical climate means that biological materials left even briefly in warm, poorly ventilated spaces begin breaking down rapidly, creating compounding health and structural concerns. HomeLyft Restoration MS responds to those calls with trained technicians, clinical-grade disinfection protocols, and the discretion that difficult moments demand.
 
 ## Why Leakesville Properties Present Unique Biohazard Challenges
 
-Leakesville sits in the heart of Greene County, where summer heat and high ambient humidity accelerate the degradation of organic matter faster than in cooler, drier climates. Many homes in the area were built during the mid-twentieth century, when construction methods included materials — certain adhesives, older subflooring, and porous plaster-style wall finishes — that absorb biological fluids more readily than modern composites. Once absorbed, contamination is not visible to the naked eye, which is why surface cleaning alone is never sufficient.
+Leakesville sits in the heart of Greene County, where summer heat and high ambient humidity accelerate the degradation of organic matter faster than in cooler, drier climates. Many homes in the area were built during the mid-twentieth century, when construction methods included materials, certain adhesives, older subflooring, and porous plaster-style wall finishes, that absorb biological fluids more readily than modern composites. Once absorbed, contamination is not visible to the naked eye, which is why surface cleaning alone is never sufficient.
 
 The rural character of much of the area also means that some properties rely on pier-and-beam or crawl-space foundations rather than sealed slabs. If a biohazard situation occurs near a floor penetration or an unsealed crawl space, contamination can migrate downward into areas that require separate access and treatment. Identifying those pathways before beginning remediation is a step that matters here more than it might in newer suburban construction.
 
 ## Our Biohazard Cleanup Process in Leakesville
 
-Every job begins with a thorough assessment — not just of what is visible, but of what the structure may have absorbed. Technicians use ATP surface testing and, where appropriate, UV detection to map the full extent of contamination before any material is removed or treated.
+Every job begins with a thorough assessment, not just of what is visible, but of what the structure may have absorbed. Technicians use ATP surface testing and, where appropriate, UV detection to map the full extent of contamination before any material is removed or treated.
 
-Contaminated porous materials — flooring, subfloor sections, drywall, insulation — are carefully removed, bagged, and transported in sealed containers to a licensed disposal facility in accordance with Mississippi Department of Environmental Quality regulations governing infectious and biohazardous waste. Nothing is left to chance in the chain of custody.
+Contaminated porous materials, flooring, subfloor sections, drywall, insulation, are carefully removed, bagged, and transported in sealed containers to a licensed disposal facility in accordance with Mississippi Department of Environmental Quality regulations governing infectious and biohazardous waste. Nothing is left to chance in the chain of custody.
 
-Once the affected area is cleared, all surfaces are treated with EPA-registered hospital-grade disinfectants, applied at the contact times required to achieve the listed kill claims. A final ATP clearance test confirms that surfaces meet accepted cleanliness thresholds before the space is released. Documentation of every step is provided — useful both for your own records and for any insurance claim.
+Once the affected area is cleared, all surfaces are treated with EPA-registered hospital-grade disinfectants, applied at the contact times required to achieve the listed kill claims. A final ATP clearance test confirms that surfaces meet accepted cleanliness thresholds before the space is released. Documentation of every step is provided, useful both for your own records and for any insurance claim.
 
 For situations involving sharps or needle cleanup, technicians follow OSHA Bloodborne Pathogen Standard protocols, using puncture-resistant containers and full PPE. This is not a service to improvise.
 
 ## Reaching Leakesville from Gulfport
 
-HomeLyft Restoration MS is headquartered in Gulfport and serves communities across southern Mississippi, including Leakesville and the broader Greene County area. The drive from Gulfport follows US-49 north before connecting through state routes into Greene County — a route the team knows well from serving properties throughout the region. Scheduling is handled promptly; call +12282845200 to speak with someone directly and arrange a time that works for your situation.
+HomeLyft Restoration MS is headquartered in Gulfport and serves communities across southern Mississippi, including Leakesville and the broader Greene County area. The drive from Gulfport follows US-49 north before connecting through state routes into Greene County, a route the team knows well from serving properties throughout the region. Scheduling is handled promptly; call +12282845200 to speak with someone directly and arrange a time that works for your situation.
 
 Discretion matters in this kind of work. Technicians arrive in unmarked or low-profile vehicles when requested, and the team understands that neighbors and passersby do not need to know what is happening inside a home.
 
@@ -49,10 +49,10 @@ Discretion matters in this kind of work. Technicians arrive in unmarked or low-p
 
 Many standard homeowners insurance policies in Mississippi include coverage for biohazard remediation under certain circumstances, though policy language varies. HomeLyft works directly with adjusters, provides itemized documentation of all materials removed and treatments applied, and can submit directly to most major carriers. This removes the burden of upfront cost from a family already dealing with an overwhelming situation.
 
-If coverage is unclear, the team can walk through what documentation is typically needed to support a claim — without making promises about what any individual policy will pay.
+If coverage is unclear, the team can walk through what documentation is typically needed to support a claim, without making promises about what any individual policy will pay.
 
 ## Local Note
 
-One thing that comes up specifically in older Greene County homes is the presence of tongue-and-groove pine subfloor beneath later layers of vinyl or carpet. That original pine is extremely porous and, once contaminated, cannot be sanitized in place — it must be removed. Technicians who are unfamiliar with this regional construction pattern sometimes miss it, treating only the surface layer and leaving the contamination underneath. It is one of the first things the HomeLyft team checks on Leakesville jobs, because getting it wrong means the problem is still there after the crew leaves.
+One thing that comes up specifically in older Greene County homes is the presence of tongue-and-groove pine subfloor beneath later layers of vinyl or carpet. That original pine is extremely porous and, once contaminated, cannot be sanitized in place, it must be removed. Technicians who are unfamiliar with this regional construction pattern sometimes miss it, treating only the surface layer and leaving the contamination underneath. It is one of the first things the HomeLyft team checks on Leakesville jobs, because getting it wrong means the problem is still there after the crew leaves.
 
-If you are dealing with a situation in Leakesville that requires professional, discreet, and thorough biohazard cleanup, the right step is a phone call. Reach HomeLyft Restoration MS at +12282845200 — the conversation is confidential, and there is no pressure to commit before you are ready.
+If you are dealing with a situation in Leakesville that requires professional, discreet, and thorough biohazard cleanup, the right step is a phone call. Reach HomeLyft Restoration MS at +12282845200, the conversation is confidential, and there is no pressure to commit before you are ready.

@@ -18,11 +18,11 @@ rendered: true
 ---
 ## Our Commitment to Accessibility
 
-AAA Flood Service LLC is committed to making aaawaterdamagehawaii.com usable by as many people as possible, including those who rely on assistive technologies such as screen readers, keyboard navigation, or display magnification tools. We believe everyone deserves equal access to information about our services — especially during the stressful moments that bring most visitors to this site.
+AAA Flood Service LLC is committed to making aaawaterdamagehawaii.com usable by as many people as possible, including those who rely on assistive technologies such as screen readers, keyboard navigation, or display magnification tools. We believe everyone deserves equal access to information about our services, especially during the stressful moments that bring most visitors to this site.
 
 ## The Standard We Aim to Meet
 
-This website is built with reference to the **Web Content Accessibility Guidelines (WCAG) 2.1, Level AA** — the widely recognized benchmark for accessible web content. That means we work toward:
+This website is built with reference to the **Web Content Accessibility Guidelines (WCAG) 2.1, Level AA**, the widely recognized benchmark for accessible web content. That means we work toward:
 
 - Sufficient color contrast between text and backgrounds
 - Descriptive alt text on images
@@ -43,7 +43,7 @@ If you encounter a page, feature, or piece of content that is difficult or impos
 - **Phone:** (808) 349-3407
 - **Website:** aaawaterdamagehawaii.com
 
-When you reach out, it helps to describe the specific page or feature you had trouble with and the assistive technology or browser you were using. We will acknowledge your report promptly and aim to provide a resolution or a suitable alternative means of accessing the information **within a reasonable timeframe** — generally within five to ten business days for straightforward issues.
+When you reach out, it helps to describe the specific page or feature you had trouble with and the assistive technology or browser you were using. We will acknowledge your report promptly and aim to provide a resolution or a suitable alternative means of accessing the information **within a reasonable timeframe**, generally within five to ten business days for straightforward issues.
 
 ## Alternative Ways to Reach Us
 
@@ -51,4 +51,4 @@ If any part of this website prevents you from getting the information you need, 
 
 ## Ongoing Improvement
 
-Accessibility at AAA Flood Service LLC is treated as a living commitment. We periodically review the site for compliance, test with common assistive technologies, and update our practices as guidelines evolve. Feedback from real users is one of the most valuable tools we have — so if something isn't working for you, please don't hesitate to let us know.
+Accessibility at AAA Flood Service LLC is treated as a living commitment. We periodically review the site for compliance, test with common assistive technologies, and update our practices as guidelines evolve. Feedback from real users is one of the most valuable tools we have, so if something isn't working for you, please don't hesitate to let us know.

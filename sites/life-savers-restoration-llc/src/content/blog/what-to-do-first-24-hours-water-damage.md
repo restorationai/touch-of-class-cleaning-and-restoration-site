@@ -24,7 +24,7 @@ If water has entered your home, the clock starts the moment the source stops. Mo
 Before anything else, cut off the source.
 
 1. **Shut off the main water supply.** In most Henderson homes, the shutoff is at the meter box near the street or at a valve behind the water heater. If a supply line or appliance hose failed, the individual shutoff under the sink or behind the appliance is faster.
-2. **Turn off electricity to affected rooms.** Go to your breaker panel and kill power to any circuit that serves a wet area. Water and live outlets are a lethal combination — do not assume a room is safe because the lights still work.
+2. **Turn off electricity to affected rooms.** Go to your breaker panel and kill power to any circuit that serves a wet area. Water and live outlets are a lethal combination, do not assume a room is safe because the lights still work.
 3. **Stop using drains in the home if you suspect a sewer backup.** Running a faucet or flushing a toilet can push contaminated water back up through floor drains or tub drains.
 
 Once the source is controlled and the space is electrically safe, you can move to documenting the damage.
@@ -34,10 +34,10 @@ Once the source is controlled and the space is electrically safe, you can move t
 Your insurance adjuster will need evidence of the original condition. Resist the urge to start mopping or pulling up carpet before you have a complete record.
 
 - **Photograph every affected room** from multiple angles, including ceiling, walls, and floor.
-- **Video-walk the space** and narrate what you see — the timestamp embedded in the file can matter during a claim.
+- **Video-walk the space** and narrate what you see, the timestamp embedded in the file can matter during a claim.
 - **Open cabinets and photograph inside** where water often pools unseen under the sink base.
 - **Note the water line height** on walls with a piece of tape and photograph it. This helps document saturation depth for your adjuster and for any restoration crew that arrives.
-- **Save any failed parts** — a burst supply line, a cracked fitting, a faulty valve. Physical evidence of the cause supports your claim.
+- **Save any failed parts**, a burst supply line, a cracked fitting, a faulty valve. Physical evidence of the cause supports your claim.
 
 In Nevada, most homeowner policies cover sudden and accidental water damage but exclude long-term seepage. The documentation you create in these first minutes is often what distinguishes a covered claim from a denied one.
 
@@ -49,9 +49,9 @@ Once you have your documentation, you can start limiting the spread.
 2. **Lift area rugs and small furniture** off wet flooring. Furniture legs sitting in water will stain and warp flooring beneath them, and the dye in wet rugs can bleed permanently into carpet or tile grout.
 3. **Open interior doors and closets** in the affected area to allow air circulation.
 4. **Run ceiling fans** in rooms that are not at risk of electrical hazard.
-5. **Avoid using household box fans to blow air across wet carpet** if you suspect contaminated water — fans can spread bacteria-laden aerosols through the home.
+5. **Avoid using household box fans to blow air across wet carpet** if you suspect contaminated water, fans can spread bacteria-laden aerosols through the home.
 
-Henderson's dry desert climate can be deceptive here. Low ambient humidity makes the air feel dry, but it does not mean the structure is drying. Water trapped inside wall cavities, under laminate, or beneath tile adhesive will not evaporate on its own — it will sit and feed mold growth regardless of how dry the room feels.
+Henderson's dry desert climate can be deceptive here. Low ambient humidity makes the air feel dry, but it does not mean the structure is drying. Water trapped inside wall cavities, under laminate, or beneath tile adhesive will not evaporate on its own, it will sit and feed mold growth regardless of how dry the room feels.
 
 ## What NOT to Do in the First 24 Hours
 
@@ -67,24 +67,24 @@ Some instinctive responses to a water emergency can make the situation significa
 
 Some water losses are genuinely manageable with a shop vac and a few fans. Many are not. Call a professional restoration company when:
 
-- **The water source was a toilet, sewer line, or outdoor flooding.** This is Category 3 (grossly contaminated) water under the IICRC classification system. It requires protective equipment, antimicrobial treatment, and proper disposal of porous materials — not a mop and bleach.
+- **The water source was a toilet, sewer line, or outdoor flooding.** This is Category 3 (grossly contaminated) water under the IICRC classification system. It requires protective equipment, antimicrobial treatment, and proper disposal of porous materials, not a mop and bleach.
 - **The affected area is larger than roughly 10 square feet of flooring or one wall cavity.** Beyond that threshold, consumer-grade equipment cannot achieve the drying rates needed to prevent mold.
 - **You see or smell mold already.** If mold is visible within the first 24 hours, the moisture problem likely predates this event. A professional assessment will find the full extent.
 - **Water has reached insulation, subfloor, or structural framing.** These materials hold moisture long after surfaces feel dry and require monitoring with moisture meters, not guesswork.
 - **You are filing an insurance claim.** Restoration companies experienced in insurance work document the loss to industry standards, communicate directly with adjusters, and provide the scope-of-loss reports that carriers require.
 
-Professional drying equipment — industrial dehumidifiers, axial air movers, and thermal imaging cameras — is not available at a hardware store. The difference between a properly dried structure and one that was only surface-dried is often invisible until mold appears weeks later.
+Professional drying equipment, industrial dehumidifiers, axial air movers, and thermal imaging cameras, is not available at a hardware store. The difference between a properly dried structure and one that was only surface-dried is often invisible until mold appears weeks later.
 
 ## The Longer Recovery: What Comes After Day One
 
 Even if the first 24 hours go well, water damage recovery is rarely a single-day event.
 
-A professional drying process typically runs three to five days, with daily moisture readings taken to confirm the structure is reaching acceptable levels. Drywall that reads dry at the surface can still have saturated framing behind it — moisture meters and thermal cameras identify what a visual inspection misses.
+A professional drying process typically runs three to five days, with daily moisture readings taken to confirm the structure is reaching acceptable levels. Drywall that reads dry at the surface can still have saturated framing behind it, moisture meters and thermal cameras identify what a visual inspection misses.
 
-Once structural drying is complete, any damaged materials — drywall, insulation, flooring, cabinetry — are removed and replaced during the reconstruction phase. In Henderson, permits are generally required for work that involves structural framing, electrical, or plumbing, so factor that into your timeline if reconstruction is extensive.
+Once structural drying is complete, any damaged materials, drywall, insulation, flooring, cabinetry, are removed and replaced during the reconstruction phase. In Henderson, permits are generally required for work that involves structural framing, electrical, or plumbing, so factor that into your timeline if reconstruction is extensive.
 
 Throughout this period, keep a written log: every contractor who enters the home, every reading taken, every material removed. That log becomes part of your claim file and protects you if a dispute arises later.
 
 ---
 
-If you are in Henderson or the surrounding Las Vegas Valley and the damage is beyond what a mop and a fan can handle, Life Savers Restoration LLC is available to assess the situation and walk you through next steps. You can reach the team at **(702) 845-1325**. Getting a professional set of eyes on the loss early — before materials are disturbed or discarded — is almost always the decision homeowners are glad they made.
+If you are in Henderson or the surrounding Las Vegas Valley and the damage is beyond what a mop and a fan can handle, Life Savers Restoration LLC is available to assess the situation and walk you through next steps. You can reach the team at **(702) 845-1325**. Getting a professional set of eyes on the loss early, before materials are disturbed or discarded, is almost always the decision homeowners are glad they made.

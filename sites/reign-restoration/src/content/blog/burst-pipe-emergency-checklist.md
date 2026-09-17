@@ -17,22 +17,22 @@ published_at: "2026-07-19"
 services: ["water-damage-restoration", "appliance-leak-cleanup"]
 rendered: true
 ---
-If a pipe just burst in your home, here is the short version: shut off the main water supply valve immediately, cut power to any rooms with standing water, and start documenting everything with your phone camera before you touch a single wet surface. The steps below walk through the full response — from the first 60 seconds to the weeks of drying that follow — so you know exactly what to do, in what order, and what to skip.
+If a pipe just burst in your home, here is the short version: shut off the main water supply valve immediately, cut power to any rooms with standing water, and start documenting everything with your phone camera before you touch a single wet surface. The steps below walk through the full response, from the first 60 seconds to the weeks of drying that follow, so you know exactly what to do, in what order, and what to skip.
 
-## Step 1 — Stop the Water First
+## Step 1, Stop the Water First
 
 Every second a burst pipe runs, water is spreading. It moves under baseboards, soaks into subfloor, and wicks up drywall faster than most people expect.
 
 **Find your main shutoff valve.** In North Texas homes, it is usually one of three places:
 - The utility closet or garage wall nearest the street
 - Under the kitchen sink (if only one fixture is affected and you can isolate it there)
-- At the meter box near the curb — bring a meter key or a flat-blade screwdriver
+- At the meter box near the curb, bring a meter key or a flat-blade screwdriver
 
 Turn it clockwise until it stops. Then open a faucet on the lowest floor of the house to bleed the remaining pressure out of the lines. This step alone can cut the total water volume released by 30–50 gallons depending on how long it takes to locate the valve.
 
-If the burst is on a supply line to a single appliance — a washing machine hose, an icemaker line, or a dishwasher connection — you may be able to close the valve directly behind that appliance without shutting down the whole house. Appliance supply line failures are one of the more common calls in older Royse City homes, and the response is the same: isolate first, then assess.
+If the burst is on a supply line to a single appliance, a washing machine hose, an icemaker line, or a dishwasher connection, you may be able to close the valve directly behind that appliance without shutting down the whole house. Appliance supply line failures are one of the more common calls in older Royse City homes, and the response is the same: isolate first, then assess.
 
-## Step 2 — Make the Area Safe Before You Step In
+## Step 2, Make the Area Safe Before You Step In
 
 Water and electricity are the combination that turns a plumbing emergency into a life-safety emergency. Before you walk into a flooded room:
 
@@ -43,9 +43,9 @@ Water and electricity are the combination that turns a plumbing emergency into a
 
 Once the water is off and the power is isolated, you can move to documentation.
 
-## Step 3 — Document Everything Before You Clean Up
+## Step 3, Document Everything Before You Clean Up
 
-This step is the one homeowners most often skip — and most often regret when the insurance adjuster arrives.
+This step is the one homeowners most often skip, and most often regret when the insurance adjuster arrives.
 
 Use your phone to record a slow video walkthrough of every affected room. Then photograph:
 - The pipe or fitting that failed (close-up and wide shot)
@@ -62,7 +62,7 @@ Some of the most instinctive responses make the damage worse or complicate the i
 
 **Do not use a shop vac as your only drying tool.** A wet-vac removes surface water, but it does nothing for moisture that has already migrated into wall cavities, subfloor, or insulation. Structural materials can hold enough moisture to feed mold growth within 24–48 hours even after the floor looks dry to the touch.
 
-**Do not crank the heat to "dry things out."** Warm, humid air is exactly the environment mold needs. If you have a dehumidifier, run it. If you do not, open windows only if outdoor humidity is lower than indoor — which in a Texas summer is rarely the case.
+**Do not crank the heat to "dry things out."** Warm, humid air is exactly the environment mold needs. If you have a dehumidifier, run it. If you do not, open windows only if outdoor humidity is lower than indoor, which in a Texas summer is rarely the case.
 
 **Do not repaint or re-drywall over wet surfaces.** Sealing moisture inside a wall cavity is a reliable way to guarantee a mold remediation job six months from now.
 
@@ -70,7 +70,7 @@ Some of the most instinctive responses make the damage worse or complicate the i
 
 ## When to Call a Professional Restoration Company
 
-You can handle a small, contained drip on a hard surface floor yourself — towels, a fan, a dehumidifier, and a few days of monitoring. A burst pipe is almost never that situation.
+You can handle a small, contained drip on a hard surface floor yourself, towels, a fan, a dehumidifier, and a few days of monitoring. A burst pipe is almost never that situation.
 
 Call a professional water damage restoration company when:
 - Standing water covers more than a few square feet
@@ -79,9 +79,9 @@ Call a professional water damage restoration company when:
 - You cannot identify where all the water traveled
 - The loss happened more than a few hours before you discovered it
 
-Professional crews use moisture meters and thermal imaging cameras to map exactly how far water has migrated — including into places you cannot see. They set industrial-grade drying equipment calibrated to the specific material types and moisture readings in your home, and they document the drying process in a format that satisfies insurance adjusters.
+Professional crews use moisture meters and thermal imaging cameras to map exactly how far water has migrated, including into places you cannot see. They set industrial-grade drying equipment calibrated to the specific material types and moisture readings in your home, and they document the drying process in a format that satisfies insurance adjusters.
 
-The IICRC S500 standard — the industry benchmark for water damage response — specifies target moisture levels for different material categories and drying timelines. Reaching those targets typically takes three to five days of continuous equipment operation, not a weekend with a box fan.
+The IICRC S500 standard, the industry benchmark for water damage response, specifies target moisture levels for different material categories and drying timelines. Reaching those targets typically takes three to five days of continuous equipment operation, not a weekend with a box fan.
 
 ## The Recovery Timeline: What Happens After the Emergency
 
@@ -91,11 +91,11 @@ Understanding what comes next helps you plan and reduces the anxiety of not know
 
 **Days 2–5:** Daily moisture readings. A technician checks the readings each day and adjusts equipment as materials dry. Flooring, drywall, and framing each have different target moisture levels.
 
-**Day 3–5 (or later):** Once materials reach dry standard, equipment is removed. At this point you have a documented dry certificate — keep a copy for your insurance file.
+**Day 3–5 (or later):** Once materials reach dry standard, equipment is removed. At this point you have a documented dry certificate, keep a copy for your insurance file.
 
 **After drying:** Reconstruction begins. This may mean replacing drywall sections, refinishing or replacing flooring, repainting, and repairing or replacing the failed pipe or fitting. If your loss involved a supply line to an appliance, this is also the time to evaluate whether the appliance itself was damaged.
 
-Water damage restoration and the reconstruction that follows it are separate scopes of work, but many restoration companies — including those that handle both emergency response and rebuild — can coordinate the full process under one claim.
+Water damage restoration and the reconstruction that follows it are separate scopes of work, but many restoration companies, including those that handle both emergency response and rebuild, can coordinate the full process under one claim.
 
 ---
 

@@ -24,37 +24,37 @@ West of Abilene along US-83/84, Tuscola sits in the rolling Taylor County landsc
 
 ## Why Tuscola Properties See Water Damage Differently
 
-Tuscola and the surrounding Taylor County area share a climate pattern that creates a specific kind of water damage risk: long dry stretches followed by sudden, heavy rainfall. When the ground is baked solid, even moderate rain runs off rather than absorbing — and that runoff finds its way into crawl spaces, garages, and low-lying foundation edges before the soil can catch up.
+Tuscola and the surrounding Taylor County area share a climate pattern that creates a specific kind of water damage risk: long dry stretches followed by sudden, heavy rainfall. When the ground is baked solid, even moderate rain runs off rather than absorbing, and that runoff finds its way into crawl spaces, garages, and low-lying foundation edges before the soil can catch up.
 
-The housing stock in this part of Taylor County leans toward ranch-style homes and agricultural properties, many built with pier-and-beam or slab foundations. Slab foundations are particularly unforgiving when a supply line fails beneath the concrete — water migrates laterally under the slab, saturating insulation and subfloor materials well beyond the visible wet spot. A surface reading with a basic moisture meter can look dry while the materials an inch deeper are still holding significant moisture. That hidden saturation is where mold colonization begins, typically within 24 to 48 hours of initial exposure.
+The housing stock in this part of Taylor County leans toward ranch-style homes and agricultural properties, many built with pier-and-beam or slab foundations. Slab foundations are particularly unforgiving when a supply line fails beneath the concrete, water migrates laterally under the slab, saturating insulation and subfloor materials well beyond the visible wet spot. A surface reading with a basic moisture meter can look dry while the materials an inch deeper are still holding significant moisture. That hidden saturation is where mold colonization begins, typically within 24 to 48 hours of initial exposure.
 
 Older metal supply lines common in homes built in the 1970s and 1980s are also prone to pinhole leaks that go undetected for weeks, quietly soaking wall cavities and floor assemblies. By the time a homeowner notices a soft spot underfoot or a stain on the ceiling, the damage has already spread.
 
 ## Our Water Cleanup Process in Tuscola
 
-When we arrive at a Tuscola property, the first step is a full moisture assessment — not just the room where the water is visible, but the adjacent walls, subfloor, and any connected spaces. We use thermal imaging and calibrated moisture meters to map the actual extent of saturation before any equipment is placed.
+When we arrive at a Tuscola property, the first step is a full moisture assessment, not just the room where the water is visible, but the adjacent walls, subfloor, and any connected spaces. We use thermal imaging and calibrated moisture meters to map the actual extent of saturation before any equipment is placed.
 
 From there, the process follows the IICRC S500 standard for water damage restoration:
 
 - **Standing water extraction** using truck-mounted or portable extraction units, depending on access
 - **Structural drying** with commercial-grade air movers and refrigerant or desiccant dehumidifiers sized to the affected area
 - **Daily moisture monitoring** to track drying progress and adjust equipment placement
-- **Documentation at every stage** — photos, moisture readings, and equipment logs that your insurance adjuster can use directly
+- **Documentation at every stage**, photos, moisture readings, and equipment logs that your insurance adjuster can use directly
 
 In slab-on-grade homes, we pay close attention to the transition zones where flooring meets walls, since water wicks upward into baseboards and lower drywall even when the slab surface appears dry.
 
 ## Reaching Tuscola from Abilene
 
-Air Care Restoration is based in Abilene, and Tuscola is a straightforward run south on US-83/84 — a route our crews know well. Because we operate 24/7, a call at 2 a.m. after a water heater failure or a storm-driven flood gets the same response as a call during business hours. We do not quote specific arrival times in minutes because road and weather conditions vary, but Tuscola is well within our primary service area and we prioritize emergency calls accordingly.
+Air Care Restoration is based in Abilene, and Tuscola is a straightforward run south on US-83/84, a route our crews know well. Because we operate 24/7, a call at 2 a.m. after a water heater failure or a storm-driven flood gets the same response as a call during business hours. We do not quote specific arrival times in minutes because road and weather conditions vary, but Tuscola is well within our primary service area and we prioritize emergency calls accordingly.
 
 ## Tuscola Insurance Coordination
 
-Most homeowner policies in Taylor County cover sudden and accidental water damage — a burst pipe, an appliance failure, an ice-maker line that let go overnight. What they typically do not cover is long-term seepage or gradual leaks, which is why the documentation we produce from day one matters. We photograph affected materials before removal, log moisture readings with timestamps, and organize the claim file in a format most major carriers accept for direct billing. That documentation also protects you if a carrier questions the scope of damage later.
+Most homeowner policies in Taylor County cover sudden and accidental water damage, a burst pipe, an appliance failure, an ice-maker line that let go overnight. What they typically do not cover is long-term seepage or gradual leaks, which is why the documentation we produce from day one matters. We photograph affected materials before removal, log moisture readings with timestamps, and organize the claim file in a format most major carriers accept for direct billing. That documentation also protects you if a carrier questions the scope of damage later.
 
-If you have not yet called your insurance company when you reach us, that is fine — we can walk you through what to expect from the claims process while the crew begins extraction.
+If you have not yet called your insurance company when you reach us, that is fine, we can walk you through what to expect from the claims process while the crew begins extraction.
 
 ## Local Note
 
-In Taylor County's rural and semi-rural properties — the kind common on the outskirts of Tuscola — well-pump houses and utility rooms are often attached or semi-enclosed structures that share a wall with the main house. When a supply line fails in one of those spaces, water can travel along the shared wall cavity for a surprising distance before it becomes visible inside the living area. We check those transition points as a matter of course on rural property calls, because missing that pathway means leaving wet framing inside a finished wall.
+In Taylor County's rural and semi-rural properties, the kind common on the outskirts of Tuscola, well-pump houses and utility rooms are often attached or semi-enclosed structures that share a wall with the main house. When a supply line fails in one of those spaces, water can travel along the shared wall cavity for a surprising distance before it becomes visible inside the living area. We check those transition points as a matter of course on rural property calls, because missing that pathway means leaving wet framing inside a finished wall.
 
 If you are dealing with standing water, a soaked floor, or a leak that has been running longer than you realized, call Air Care Restoration at **(325) 339-8723**. We serve Tuscola and the surrounding Taylor County area around the clock, and the sooner extraction begins, the more of your home's materials we can save.

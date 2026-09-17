@@ -19,23 +19,23 @@ state: "CA"
 primary: false
 rendered: true
 ---
-When a pipe bursts under a slab or a weekend rainstorm pushes water through a crawl space vent, Los Berros property owners need someone who knows this corner of San Luis Obispo County — not a dispatch center three counties away. Coastal Restoration Services Inc handles water damage mitigation, mold remediation, fire and smoke cleanup, and structural drying for homes and commercial properties throughout Los Berros. Call (805) 345-7440 to reach a technician directly.
+When a pipe bursts under a slab or a weekend rainstorm pushes water through a crawl space vent, Los Berros property owners need someone who knows this corner of San Luis Obispo County, not a dispatch center three counties away. Coastal Restoration Services Inc handles water damage mitigation, mold remediation, fire and smoke cleanup, and structural drying for homes and commercial properties throughout Los Berros. Call (805) 345-7440 to reach a technician directly.
 
 ## Restoration emergencies common in Los Berros
 
-Los Berros sits in a narrow valley where the marine layer rolls in off the Pacific most mornings and afternoon temperatures can swing dramatically from the coast. That moisture cycle — cool, humid nights followed by warmer days — creates conditions where building materials stay damp longer than homeowners expect. Crawl spaces under older ranch-style homes in the area accumulate ground moisture year-round, and when a supply line or irrigation connection fails, standing water can sit undetected for days before the smell gives it away.
+Los Berros sits in a narrow valley where the marine layer rolls in off the Pacific most mornings and afternoon temperatures can swing dramatically from the coast. That moisture cycle, cool, humid nights followed by warmer days, creates conditions where building materials stay damp longer than homeowners expect. Crawl spaces under older ranch-style homes in the area accumulate ground moisture year-round, and when a supply line or irrigation connection fails, standing water can sit undetected for days before the smell gives it away.
 
-The local housing stock skews toward single-story wood-frame construction built in the mid-twentieth century, with pier-and-beam foundations that are efficient to repair but also efficient at trapping humidity. Seasonal creek activity in the surrounding hills means that heavy winter rain events — the kind San Luis Obispo County sees in El Niño years — can push water toward low-lying structures faster than conventional sump systems handle it. Fire risk from dry-grass conditions in late summer and fall is also a factor for properties on the rural edges of the community, where ember cast from a neighboring hillside can ignite attic insulation before a homeowner notices smoke.
+The local housing stock skews toward single-story wood-frame construction built in the mid-twentieth century, with pier-and-beam foundations that are efficient to repair but also efficient at trapping humidity. Seasonal creek activity in the surrounding hills means that heavy winter rain events, the kind San Luis Obispo County sees in El Niño years, can push water toward low-lying structures faster than conventional sump systems handle it. Fire risk from dry-grass conditions in late summer and fall is also a factor for properties on the rural edges of the community, where ember cast from a neighboring hillside can ignite attic insulation before a homeowner notices smoke.
 
 ## Services we provide in Los Berros
 
 ### Water damage mitigation and structural drying
 
-Water damage in Los Berros often starts small — a slow drip behind a wall cabinet, a failed wax ring under a toilet — and becomes a mold problem within 48 to 72 hours if the materials aren't dried properly. Coastal Restoration Services uses commercial-grade desiccant dehumidifiers and air movers calibrated to the ambient humidity levels typical of this valley. Moisture mapping with thermal imaging lets us confirm that wall cavities and subfloor assemblies are dry before any reconstruction begins, so you're not reopening walls six months later.
+Water damage in Los Berros often starts small, a slow drip behind a wall cabinet, a failed wax ring under a toilet, and becomes a mold problem within 48 to 72 hours if the materials aren't dried properly. Coastal Restoration Services uses commercial-grade desiccant dehumidifiers and air movers calibrated to the ambient humidity levels typical of this valley. Moisture mapping with thermal imaging lets us confirm that wall cavities and subfloor assemblies are dry before any reconstruction begins, so you're not reopening walls six months later.
 
 ### Mold remediation
 
-The same conditions that keep Los Berros gardens green make mold colonization a realistic outcome after any water intrusion event. Remediation here follows established industry protocols for containment, HEPA filtration, and material removal. We document conditions before and after work so that your insurance carrier and any future buyer have a clear record. We do not make health claims about air quality outcomes — that determination belongs to a licensed industrial hygienist — but we do remove the affected materials and address the moisture source that allowed growth in the first place.
+The same conditions that keep Los Berros gardens green make mold colonization a realistic outcome after any water intrusion event. Remediation here follows established industry protocols for containment, HEPA filtration, and material removal. We document conditions before and after work so that your insurance carrier and any future buyer have a clear record. We do not make health claims about air quality outcomes, that determination belongs to a licensed industrial hygienist, but we do remove the affected materials and address the moisture source that allowed growth in the first place.
 
 ### Fire and smoke damage cleanup
 
@@ -43,11 +43,11 @@ Smoke residue from a kitchen fire or a wildfire-adjacent event behaves different
 
 ### Biohazard and specialty cleanup
 
-For situations involving sewage backup, undiscovered loss events, or other biohazard conditions, Coastal Restoration Services responds with appropriate PPE and disposal protocols. Sewage intrusions are more common than most homeowners realize in areas where aging lateral lines connect to county systems — a blockage during a heavy rain event can push effluent back through floor drains or low fixtures quickly.
+For situations involving sewage backup, undiscovered loss events, or other biohazard conditions, Coastal Restoration Services responds with appropriate PPE and disposal protocols. Sewage intrusions are more common than most homeowners realize in areas where aging lateral lines connect to county systems, a blockage during a heavy rain event can push effluent back through floor drains or low fixtures quickly.
 
 ## Coverage and how fast we can get there
 
-Coastal Restoration Services operates out of Vandenberg Village, roughly 25 to 30 miles northwest of Los Berros via US-101 South and the Los Berros Road corridor. That route is straightforward outside of peak commute windows on the 101 through Arroyo Grande. For property managers coordinating access or homeowners scheduling an assessment, call (805) 345-7440 during business hours to confirm scheduling and get a technician on the calendar. We do not overstate response windows — you'll get an honest estimate of when we can be on-site when you call.
+Coastal Restoration Services operates out of Vandenberg Village, roughly 25 to 30 miles northwest of Los Berros via US-101 South and the Los Berros Road corridor. That route is straightforward outside of peak commute windows on the 101 through Arroyo Grande. For property managers coordinating access or homeowners scheduling an assessment, call (805) 345-7440 during business hours to confirm scheduling and get a technician on the calendar. We do not overstate response windows, you'll get an honest estimate of when we can be on-site when you call.
 
 ## Building stock, site conditions, and permits in Los Berros
 
@@ -57,4 +57,4 @@ In homes from the mid-century era, expect galvanized supply lines that scale shu
 
 Many properties out here rely on septic and private wells, so a sewage backup or a saturated leach field is a site problem, not a utility call.
 
-If you're dealing with water, fire, mold, or a related emergency at a Los Berros property, the clearest next step is a phone call. Reach Coastal Restoration Services Inc at **(805) 345-7440** — a technician can walk you through what to expect before anyone sets foot on your property.
+If you're dealing with water, fire, mold, or a related emergency at a Los Berros property, the clearest next step is a phone call. Reach Coastal Restoration Services Inc at **(805) 345-7440**, a technician can walk you through what to expect before anyone sets foot on your property.

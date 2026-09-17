@@ -17,49 +17,49 @@ service_slug: "fire-damage-restoration"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-The fire is out, but the damage keeps moving. Within hours of extinguishment, acidic soot begins etching metal fixtures and grout lines. Within days, smoke odor penetrates wall cavities, insulation, and HVAC ductwork — surfaces that look untouched can absorb enough residue to make a home uninhabitable for months if the cleanup is handled incorrectly. Fire and smoke restoration is one of the most technically demanding services in the industry, and the window for limiting permanent damage is short.
+The fire is out, but the damage keeps moving. Within hours of extinguishment, acidic soot begins etching metal fixtures and grout lines. Within days, smoke odor penetrates wall cavities, insulation, and HVAC ductwork, surfaces that look untouched can absorb enough residue to make a home uninhabitable for months if the cleanup is handled incorrectly. Fire and smoke restoration is one of the most technically demanding services in the industry, and the window for limiting permanent damage is short.
 
 ## What fire damage restoration actually involves
 
-Fire damage is never just charring. A single residential fire produces at least three distinct types of residue — wet soot from smoldering materials, dry powdery soot from fast-flaming combustion, and protein residue from burning food or organic material — and each requires a different cleaning chemistry. Structural fire damage to framing, sheathing, and subfloor has to be assessed separately from cosmetic smoke damage to walls and ceilings.
+Fire damage is never just charring. A single residential fire produces at least three distinct types of residue, wet soot from smoldering materials, dry powdery soot from fast-flaming combustion, and protein residue from burning food or organic material, and each requires a different cleaning chemistry. Structural fire damage to framing, sheathing, and subfloor has to be assessed separately from cosmetic smoke damage to walls and ceilings.
 
-On the odor side, smoke molecules are small enough to penetrate porous materials — drywall, wood framing, soft goods, even concrete block. Surface cleaning alone will not eliminate odor. Effective fire cleanup requires thermal fogging, hydroxyl generation, or ozone treatment to neutralize odor compounds that have migrated past the surface layer.
+On the odor side, smoke molecules are small enough to penetrate porous materials, drywall, wood framing, soft goods, even concrete block. Surface cleaning alone will not eliminate odor. Effective fire cleanup requires thermal fogging, hydroxyl generation, or ozone treatment to neutralize odor compounds that have migrated past the surface layer.
 
 Timeline matters here. Soot begins permanently staining porous surfaces like grout, natural stone, and unfinished wood within 24–72 hours. Acidic residue from synthetic materials (plastics, foam, vinyl) starts corroding metal within the same window. A thorough post-fire restoration response addresses both the visible damage and the hidden migration of residue before either becomes irreversible.
 
 ## Our process
 
-1. **Soot characterization and scope assessment.** Before any cleaning begins, the type of soot present in each area is identified — dry, wet, or protein-based — because applying the wrong cleaning agent (alkaline cleaner on protein soot, for example) can permanently set the stain. Structural damage is documented room by room, and a written scope is prepared.
+1. **Soot characterization and scope assessment.** Before any cleaning begins, the type of soot present in each area is identified, dry, wet, or protein-based, because applying the wrong cleaning agent (alkaline cleaner on protein soot, for example) can permanently set the stain. Structural damage is documented room by room, and a written scope is prepared.
 
-2. **Contents pack-out and protection.** Salvageable contents — furniture, clothing, documents, electronics — are inventoried, packed, and either cleaned on-site or transported to a controlled facility. Items left in a smoke-saturated environment continue absorbing odor compounds even after the structure is cleaned.
+2. **Contents pack-out and protection.** Salvageable contents, furniture, clothing, documents, electronics, are inventoried, packed, and either cleaned on-site or transported to a controlled facility. Items left in a smoke-saturated environment continue absorbing odor compounds even after the structure is cleaned.
 
 3. **Structural cleaning and soot removal.** Affected surfaces are cleaned using chemistry matched to the soot type. HEPA vacuuming removes loose dry soot before wet cleaning to prevent smearing. Ceilings, walls, framing members, and HVAC surfaces are addressed in sequence, working from the highest contamination zones outward.
 
-4. **Thermal fogging and deodorization.** A thermal fogger disperses a deodorizing agent as a fine mist that penetrates the same pathways smoke traveled — wall cavities, subfloor gaps, ductwork — neutralizing odor compounds at the molecular level rather than masking them. Depending on the loss, hydroxyl generators or ozone treatment may be used in unoccupied areas for deeper penetration.
+4. **Thermal fogging and deodorization.** A thermal fogger disperses a deodorizing agent as a fine mist that penetrates the same pathways smoke traveled, wall cavities, subfloor gaps, ductwork, neutralizing odor compounds at the molecular level rather than masking them. Depending on the loss, hydroxyl generators or ozone treatment may be used in unoccupied areas for deeper penetration.
 
-5. **Clearance and reconstruction handoff.** Once cleaning and deodorization are complete, affected areas are re-inspected before any reconstruction begins. Rebuilding over residual soot or odor is one of the most common and costly mistakes in post-fire restoration — it traps odor inside finished walls and leads to callbacks months later.
+5. **Clearance and reconstruction handoff.** Once cleaning and deodorization are complete, affected areas are re-inspected before any reconstruction begins. Rebuilding over residual soot or odor is one of the most common and costly mistakes in post-fire restoration, it traps odor inside finished walls and leads to callbacks months later.
 
 ## What separates a good fire damage response from a bad one
 
 The most common failure in fire cleanup is treating it like a cleaning job rather than a restoration job. Crews that wipe down visible soot and repaint over it will leave acidic residue inside wall cavities that continues to off-gas odor and degrade finishes. Insurance adjusters and industrial hygienists look specifically for documentation that soot type was identified, that cleaning chemistry was matched to surface type, and that deodorization reached beyond accessible surfaces.
 
-A second common failure is skipping contents pack-out. Soft goods and porous materials left in a smoke-saturated structure re-contaminate cleaned surfaces. Proper contents handling — inventoried, documented, and cleaned or disposed of according to salvageability — is both a quality control measure and a critical part of the insurance claim.
+A second common failure is skipping contents pack-out. Soft goods and porous materials left in a smoke-saturated structure re-contaminate cleaned surfaces. Proper contents handling, inventoried, documented, and cleaned or disposed of according to salvageability, is both a quality control measure and a critical part of the insurance claim.
 
 Finally, HVAC systems are frequently overlooked. Smoke circulates through ductwork during and after a fire. Cleaning the living space without addressing the air handling system means every time the heat or air conditioning runs, residue is redistributed through the home.
 
 ## What does fire damage restoration cost?
 
-Cost depends on the documented scope of work. Every fire loss is different — the size of the affected area, the intensity of the fire, the types of materials involved, and the extent of hidden smoke migration all affect the final scope. Quality Contracting, Inc. produces a line-item scope with photos and moisture readings formatted for insurance carriers so the adjuster has everything needed to process the claim accurately. For insured losses we bill the carrier directly. Quality Contracting, Inc. provides a written scope of work before any work begins so there are no surprises. Standard homeowners insurance policies typically cover sudden and accidental fire damage including cleanup, structural repair, and contents restoration, subject to your deductible and policy limits.
+Cost depends on the documented scope of work. Every fire loss is different, the size of the affected area, the intensity of the fire, the types of materials involved, and the extent of hidden smoke migration all affect the final scope. Quality Contracting, Inc. produces a line-item scope with photos and moisture readings formatted for insurance carriers so the adjuster has everything needed to process the claim accurately. For insured losses we bill the carrier directly. Quality Contracting, Inc. provides a written scope of work before any work begins so there are no surprises. Standard homeowners insurance policies typically cover sudden and accidental fire damage including cleanup, structural repair, and contents restoration, subject to your deductible and policy limits.
 
 ## Seasonal and regional considerations
 
-In central Massachusetts, fire losses spike during the heating season — roughly October through March — when wood stoves, space heaters, and older oil-fired systems in the region's aging housing stock see heavy use. Auburn and the surrounding communities have a high proportion of pre-1980 construction, which means fire damage often intersects with lead paint and asbestos-containing materials in older insulation, floor tiles, or plaster. Any fire damage repair involving demolition of pre-1978 materials requires lead-safe work practices, and suspected asbestos-containing materials must be tested before disturbance.
+In central Massachusetts, fire losses spike during the heating season, roughly October through March, when wood stoves, space heaters, and older oil-fired systems in the region's aging housing stock see heavy use. Auburn and the surrounding communities have a high proportion of pre-1980 construction, which means fire damage often intersects with lead paint and asbestos-containing materials in older insulation, floor tiles, or plaster. Any fire damage repair involving demolition of pre-1978 materials requires lead-safe work practices, and suspected asbestos-containing materials must be tested before disturbance.
 
 Winter fire losses also introduce a secondary risk: water damage from firefighting efforts in freezing temperatures. Wet materials in an unheated structure can freeze before drying is complete, which delays the restoration timeline and increases the risk of mold colonization once the heat is restored.
 
 ## Service area
 
-Quality Contracting, Inc. is based in Auburn, MA and provides fire damage restoration across Southern New England, with crews responding across a 50 mile radius of Auburn — including Worcester, Shrewsbury, Westborough, Southborough, Hopkinton, Framingham, Natick, Wellesley, Needham, Newton, and Weston. The city and town pages in this section link to service-specific information for each community.
+Quality Contracting, Inc. is based in Auburn, MA and provides fire damage restoration across Southern New England, with crews responding across a 50 mile radius of Auburn, including Worcester, Shrewsbury, Westborough, Southborough, Hopkinton, Framingham, Natick, Wellesley, Needham, Newton, and Weston. The city and town pages in this section link to service-specific information for each community.
 
 ---
 

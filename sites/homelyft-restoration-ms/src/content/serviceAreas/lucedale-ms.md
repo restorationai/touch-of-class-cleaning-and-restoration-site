@@ -19,33 +19,33 @@ state: "MS"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall or a storm pushes water under the doors of a George County home, the clock starts immediately. HomeLyft Restoration MS handles water damage mitigation, mold remediation, fire and smoke cleanup, and structural drying for property owners throughout Lucedale — working directly with insurance carriers and staying on-site until the job is genuinely finished, not just surface-dry.
+When a pipe bursts behind a wall or a storm pushes water under the doors of a George County home, the clock starts immediately. HomeLyft Restoration MS handles water damage mitigation, mold remediation, fire and smoke cleanup, and structural drying for property owners throughout Lucedale, working directly with insurance carriers and staying on-site until the job is genuinely finished, not just surface-dry.
 
 ## Restoration emergencies common in Lucedale
 
 Lucedale sits in the heart of George County, where the humid subtropical climate means summer humidity rarely drops below uncomfortable and Gulf-driven storm systems push heavy rainfall inland with little warning. The Black Creek watershed and the surrounding lowland terrain mean that even moderate rain events can overwhelm older drainage infrastructure, sending water into crawl spaces and slab-on-grade foundations faster than most homeowners expect.
 
-The housing stock here skews older — a significant share of Lucedale's residential properties were built before modern moisture barriers and vapor retarders were standard practice. Pier-and-beam construction, common throughout the county, creates crawl space environments where standing water can sit undetected for days. In that window — often 24 to 48 hours after initial saturation — mold colonies begin establishing themselves on wood framing and insulation. The combination of aging construction, high ambient humidity, and periodic flooding from named storms and afternoon thunderstorms makes water intrusion the most frequent call HomeLyft receives from this part of Mississippi.
+The housing stock here skews older, a significant share of Lucedale's residential properties were built before modern moisture barriers and vapor retarders were standard practice. Pier-and-beam construction, common throughout the county, creates crawl space environments where standing water can sit undetected for days. In that window, often 24 to 48 hours after initial saturation, mold colonies begin establishing themselves on wood framing and insulation. The combination of aging construction, high ambient humidity, and periodic flooding from named storms and afternoon thunderstorms makes water intrusion the most frequent call HomeLyft receives from this part of Mississippi.
 
-Fire damage follows a different but equally local pattern. Rural properties on the outskirts of Lucedale often rely on well water and have longer fire department response distances, which means structure fires burn longer before suppression — leaving heavier smoke and soot penetration into wall cavities, ductwork, and attic insulation than a comparable urban fire might.
+Fire damage follows a different but equally local pattern. Rural properties on the outskirts of Lucedale often rely on well water and have longer fire department response distances, which means structure fires burn longer before suppression, leaving heavier smoke and soot penetration into wall cavities, ductwork, and attic insulation than a comparable urban fire might.
 
 ## Services we provide in Lucedale
 
 **Water damage mitigation and structural drying**
-Water damage in Lucedale often starts invisibly — a slow roof leak after a storm, a supply line failure behind a vanity, or groundwater wicking through a crawl space after a heavy rain event. The work involves more than extracting standing water. Structural drying requires calibrated dehumidification and air movement maintained over days, with moisture readings logged to confirm framing and subfloor materials have returned to acceptable levels before any rebuild begins.
+Water damage in Lucedale often starts invisibly, a slow roof leak after a storm, a supply line failure behind a vanity, or groundwater wicking through a crawl space after a heavy rain event. The work involves more than extracting standing water. Structural drying requires calibrated dehumidification and air movement maintained over days, with moisture readings logged to confirm framing and subfloor materials have returned to acceptable levels before any rebuild begins.
 
 **Mold remediation**
-George County's year-round humidity means that any unaddressed moisture problem has a short window before mold becomes a secondary issue. Remediation here involves containing affected areas, removing compromised materials, and treating surfaces — followed by post-remediation verification to confirm clearance. We do not offer medical advice on health effects, but we do follow established industry protocols for containment and removal.
+George County's year-round humidity means that any unaddressed moisture problem has a short window before mold becomes a secondary issue. Remediation here involves containing affected areas, removing compromised materials, and treating surfaces, followed by post-remediation verification to confirm clearance. We do not offer medical advice on health effects, but we do follow established industry protocols for containment and removal.
 
 **Fire and smoke damage cleanup**
-Soot from a house fire is acidic and continues etching surfaces — metal fixtures, glass, painted walls — for days after the flames are out. In Lucedale homes with older wood framing and plaster walls, smoke penetrates deeply. Cleanup involves dry-chemical sponging, thermal fogging or hydroxyl treatment for odor, and careful documentation of what can be cleaned versus what requires replacement for the insurance claim.
+Soot from a house fire is acidic and continues etching surfaces, metal fixtures, glass, painted walls, for days after the flames are out. In Lucedale homes with older wood framing and plaster walls, smoke penetrates deeply. Cleanup involves dry-chemical sponging, thermal fogging or hydroxyl treatment for odor, and careful documentation of what can be cleaned versus what requires replacement for the insurance claim.
 
 **Reconstruction and repairs**
 Once mitigation is complete, many property owners need a single contractor to handle the rebuild rather than managing multiple trades. HomeLyft coordinates structural repairs, drywall, flooring, and finish work so the property gets back to pre-loss condition without the owner juggling subcontractors.
 
 ## Coverage and how fast we can get there
 
-Lucedale is roughly 65 miles northeast of HomeLyft's Gulfport headquarters. The most direct route runs US-49 north through Wiggins and into George County, with the final miles on MS-26 into downtown Lucedale. Depending on traffic and time of day, that drive typically falls in the 75-to-90-minute range. For property owners in the areas surrounding Lucedale — out along MS-98 toward the Alabama line or south toward Agricola — travel time is comparable, and we factor that into scheduling when we take your call. We will give you an honest arrival estimate when you reach us at (228) 284-5200, not a number designed to get you off the phone.
+Lucedale is roughly 65 miles northeast of HomeLyft's Gulfport headquarters. The most direct route runs US-49 north through Wiggins and into George County, with the final miles on MS-26 into downtown Lucedale. Depending on traffic and time of day, that drive typically falls in the 75-to-90-minute range. For property owners in the areas surrounding Lucedale, out along MS-98 toward the Alabama line or south toward Agricola, travel time is comparable, and we factor that into scheduling when we take your call. We will give you an honest arrival estimate when you reach us at (228) 284-5200, not a number designed to get you off the phone.
 
 ## Building stock, site conditions, and permits in Lucedale
 

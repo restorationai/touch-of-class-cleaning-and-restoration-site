@@ -20,40 +20,40 @@ state: "MS"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
-Moss Point sits at the convergence of the Escatawpa River and Pascagoula River systems, which means when a Gulf storm pushes inland — whether it's a named hurricane making landfall near the coast or a fast-moving tornado spawned by a squall line — the city doesn't just deal with wind damage. It deals with water that has nowhere to drain quickly. That combination of structural wind impact and slow-draining floodwater makes storm damage here more layered than a simple roof-and-siding job, and it's why the restoration process needs to account for both at once.
+Moss Point sits at the convergence of the Escatawpa River and Pascagoula River systems, which means when a Gulf storm pushes inland, whether it's a named hurricane making landfall near the coast or a fast-moving tornado spawned by a squall line, the city doesn't just deal with wind damage. It deals with water that has nowhere to drain quickly. That combination of structural wind impact and slow-draining floodwater makes storm damage here more layered than a simple roof-and-siding job, and it's why the restoration process needs to account for both at once.
 
 ## Why Moss Point Properties See Compounding Storm Damage
 
-The housing stock in Moss Point skews older, with a significant portion of single-family homes built before modern wind-load codes were adopted in Mississippi. Older pier-and-beam foundations, which are common in lower-lying sections of the city, can shift when saturated soil loses bearing capacity after prolonged rainfall — a problem that doesn't always show up immediately after the storm passes. Soffit and fascia on homes from the 1960s and 1970s are frequently original wood construction, which fails faster under hurricane-force gusts than modern composite materials and allows water infiltration into attic spaces before a homeowner even realizes the roof envelope has been breached.
+The housing stock in Moss Point skews older, with a significant portion of single-family homes built before modern wind-load codes were adopted in Mississippi. Older pier-and-beam foundations, which are common in lower-lying sections of the city, can shift when saturated soil loses bearing capacity after prolonged rainfall, a problem that doesn't always show up immediately after the storm passes. Soffit and fascia on homes from the 1960s and 1970s are frequently original wood construction, which fails faster under hurricane-force gusts than modern composite materials and allows water infiltration into attic spaces before a homeowner even realizes the roof envelope has been breached.
 
-Moss Point also sits in Jackson County, which falls within Mississippi's designated windstorm-prone coastal zone. That designation affects both how repairs must be documented and how insurance adjusters assess structural damage — something that matters from the first hour of a claim.
+Moss Point also sits in Jackson County, which falls within Mississippi's designated windstorm-prone coastal zone. That designation affects both how repairs must be documented and how insurance adjusters assess structural damage, something that matters from the first hour of a claim.
 
 ## Our Storm Damage Restoration Process in Moss Point
 
-When we arrive at a Moss Point property after a severe weather event, the first priority is a systematic exterior and interior assessment — not just photographing obvious damage, but probing for hidden moisture that entered through compromised roof decking, broken windows, or failed door seals. Water that gets into wall cavities in Mississippi's humidity can begin supporting mold colonization in as little as 24 to 48 hours, so the clock on drying starts the moment the storm ends, not when the adjuster schedules a visit.
+When we arrive at a Moss Point property after a severe weather event, the first priority is a systematic exterior and interior assessment, not just photographing obvious damage, but probing for hidden moisture that entered through compromised roof decking, broken windows, or failed door seals. Water that gets into wall cavities in Mississippi's humidity can begin supporting mold colonization in as little as 24 to 48 hours, so the clock on drying starts the moment the storm ends, not when the adjuster schedules a visit.
 
 Our process moves in a defined sequence:
 
 1. **Emergency tarping and board-up** to stop active water intrusion at the roof and openings.
 2. **Moisture mapping** using thermal imaging and calibrated meters across all affected rooms and wall assemblies.
 3. **Debris removal and tree damage cleanup**, including coordination for safe limb and root extraction when a fallen tree has compromised a foundation or crawl space.
-4. **Structural drying** using industrial air movers and desiccant or refrigerant dehumidifiers, calibrated to the specific material types present — older plaster, tongue-and-groove wood subfloors, and fiber-cement siding all dry on different timelines.
+4. **Structural drying** using industrial air movers and desiccant or refrigerant dehumidifiers, calibrated to the specific material types present, older plaster, tongue-and-groove wood subfloors, and fiber-cement siding all dry on different timelines.
 5. **Documentation and scope writing** for the insurance claim, with photo logs and moisture readings that meet carrier requirements.
 
-Because we hold FORTIFIED Building Roofing and MS Windstorm certification, we understand the specific construction standards that Jackson County insurers look for when evaluating storm repairs — which can make a real difference in how smoothly a claim moves.
+Because we hold FORTIFIED Building Roofing and MS Windstorm certification, we understand the specific construction standards that Jackson County insurers look for when evaluating storm repairs, which can make a real difference in how smoothly a claim moves.
 
 ## Reaching Moss Point from Gulfport
 
-Our team operates out of Gulfport and reaches Moss Point via US-90 East through Biloxi and Pascagoula — a route that stays accessible in most storm conditions short of active surge flooding. We schedule prompt response and will give you an honest estimated arrival window when you call, rather than a guarantee we can't keep when roads are compromised after a major event. Call us at +12282845200 to get on the schedule and start the documentation process.
+Our team operates out of Gulfport and reaches Moss Point via US-90 East through Biloxi and Pascagoula, a route that stays accessible in most storm conditions short of active surge flooding. We schedule prompt response and will give you an honest estimated arrival window when you call, rather than a guarantee we can't keep when roads are compromised after a major event. Call us at +12282845200 to get on the schedule and start the documentation process.
 
 ## Moss Point Insurance Coordination
 
-Jackson County storm claims — especially those involving both wind and water damage — frequently run into coverage disputes about which peril caused which damage. We document the loss in a way that separates wind-driven water intrusion from ground-level flooding, which are typically covered under different policy provisions. Our scope of work is written to align with Xactimate line items that adjusters recognize, reducing back-and-forth and helping you avoid out-of-pocket costs for work that should be covered.
+Jackson County storm claims, especially those involving both wind and water damage, frequently run into coverage disputes about which peril caused which damage. We document the loss in a way that separates wind-driven water intrusion from ground-level flooding, which are typically covered under different policy provisions. Our scope of work is written to align with Xactimate line items that adjusters recognize, reducing back-and-forth and helping you avoid out-of-pocket costs for work that should be covered.
 
 If your home was built before 1978, our EPA Lead-Safe certification means we can handle the disturbed materials that often surface during storm repair on older Moss Point properties without triggering a separate abatement contractor.
 
 ## Local Note
 
-One pattern we've seen repeatedly in lower-elevation sections of Moss Point: after a storm drops several inches of rain in a short window, crawl space vents that are code-compliant under normal conditions can allow a significant volume of storm-driven water to enter the subfloor cavity. Homeowners often focus entirely on roof and ceiling damage and don't check the crawl space for days. By then, the wood joists and subfloor sheathing have been sitting in standing water long enough that drying alone isn't sufficient — partial replacement becomes necessary. If your home has a crawl space and you've had any recent severe weather, it's worth having it inspected even if the interior looks dry.
+One pattern we've seen repeatedly in lower-elevation sections of Moss Point: after a storm drops several inches of rain in a short window, crawl space vents that are code-compliant under normal conditions can allow a significant volume of storm-driven water to enter the subfloor cavity. Homeowners often focus entirely on roof and ceiling damage and don't check the crawl space for days. By then, the wood joists and subfloor sheathing have been sitting in standing water long enough that drying alone isn't sufficient, partial replacement becomes necessary. If your home has a crawl space and you've had any recent severe weather, it's worth having it inspected even if the interior looks dry.
 
 Call HomeLyft Restoration MS at +12282845200 to schedule an assessment after storm damage in Moss Point. The sooner moisture is mapped and drying equipment is placed, the more of your home's structure and contents we can protect.

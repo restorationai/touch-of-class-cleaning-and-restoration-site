@@ -20,33 +20,33 @@ state: "SD"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
-When a severe storm rolls across the Missouri River valley and stalls over Yankton, it doesn't behave the way storms do on the open plains farther west. The bluffs and river corridor funnel wind, concentrate hail, and leave properties from Riverside to the Westside dealing with damage that can look manageable from the street but runs deep — torn roof decking, water-saturated insulation, and structural stress that doesn't show up until the next freeze-thaw cycle. Crew Restoration & Construction responds to storm damage throughout the 57078 area, bringing the equipment and experience to assess what's visible and what isn't.
+When a severe storm rolls across the Missouri River valley and stalls over Yankton, it doesn't behave the way storms do on the open plains farther west. The bluffs and river corridor funnel wind, concentrate hail, and leave properties from Riverside to the Westside dealing with damage that can look manageable from the street but runs deep, torn roof decking, water-saturated insulation, and structural stress that doesn't show up until the next freeze-thaw cycle. Crew Restoration & Construction responds to storm damage throughout the 57078 area, bringing the equipment and experience to assess what's visible and what isn't.
 
 ## Why Yankton Properties See Repeated Storm Damage
 
 Yankton sits at the confluence of the Niobrara and Missouri Rivers, and that geography shapes its weather in ways that matter for restoration work. The region sees a full range of severe weather: late-spring tornadoes and straight-line wind events, summer hailstorms that can strip shingles in minutes, and ice storms in late fall that load gutters and roof overhangs beyond their design limits.
 
-Properties near Lewis and Clark Lake and Gavins Point Dam face a compounding problem — storm surge and wind-driven wave action push water toward lakeside foundations and crawl spaces that are already dealing with elevated groundwater. A storm that drops two inches of rain in an hour doesn't just damage roofs; it overwhelms sump systems and forces moisture into rim joists and subfloors that were already cycling through wet-dry stress from proximity to the reservoir.
+Properties near Lewis and Clark Lake and Gavins Point Dam face a compounding problem, storm surge and wind-driven wave action push water toward lakeside foundations and crawl spaces that are already dealing with elevated groundwater. A storm that drops two inches of rain in an hour doesn't just damage roofs; it overwhelms sump systems and forces moisture into rim joists and subfloors that were already cycling through wet-dry stress from proximity to the reservoir.
 
-Older housing stock in Downtown Yankton adds another layer. Many homes in the historic core were built before modern moisture barriers and vapor retarders were standard. When a storm breaches the envelope — a broken window, a lifted flashing, a cracked chimney cap — water finds paths through the structure that aren't obvious from inside. Restoration in these homes requires more investigative work before drying equipment goes in.
+Older housing stock in Downtown Yankton adds another layer. Many homes in the historic core were built before modern moisture barriers and vapor retarders were standard. When a storm breaches the envelope, a broken window, a lifted flashing, a cracked chimney cap, water finds paths through the structure that aren't obvious from inside. Restoration in these homes requires more investigative work before drying equipment goes in.
 
 ## Our Storm Damage Restoration Process in Yankton
 
-Every job starts with a full exterior and interior assessment before any work begins. Wind and hail damage is often asymmetrical — the south and west faces of a roof take the worst of a storm, but wind-driven rain can enter from any direction. We document everything with photos and moisture readings, which matters both for your insurance claim and for making sure we're drying the right areas.
+Every job starts with a full exterior and interior assessment before any work begins. Wind and hail damage is often asymmetrical, the south and west faces of a roof take the worst of a storm, but wind-driven rain can enter from any direction. We document everything with photos and moisture readings, which matters both for your insurance claim and for making sure we're drying the right areas.
 
 Once the scope is clear, the process moves in a defined sequence:
 
 - **Emergency tarping and board-up** to stop active water intrusion at the roof, windows, or siding
-- **Water extraction** from any interior areas where rain or flooding has entered — standing water under flooring is common after severe events and can't be left to evaporate on its own
+- **Water extraction** from any interior areas where rain or flooding has entered, standing water under flooring is common after severe events and can't be left to evaporate on its own
 - **Structural drying** using industrial air movers and dehumidifiers, monitored with daily moisture readings until materials reach target levels
 - **Debris removal and tree damage cleanup**, including coordination with local utility contacts if downed limbs are near service lines
-- **Reconstruction** — Crew handles both the restoration and the rebuild, so you're not managing two separate contractors
+- **Reconstruction**, Crew handles both the restoration and the rebuild, so you're not managing two separate contractors
 
 For properties near the Riverside area, where mature tree canopy is dense, tree damage cleanup is often the first call we get after a storm. A tree on a roof is an emergency tarp situation first and a reconstruction conversation second.
 
 ## Reaching Yankton from Sioux Falls
 
-Crew Restoration & Construction is based in Sioux Falls and serves Yankton as part of our regional coverage area. The drive on US-81 South puts our crews in Yankton without routing through smaller roads that can be compromised after a severe storm. When you call (605) 965-2727, we'll give you an honest estimate of when a crew can be on-site based on current conditions and dispatch availability — we won't promise a window we can't keep.
+Crew Restoration & Construction is based in Sioux Falls and serves Yankton as part of our regional coverage area. The drive on US-81 South puts our crews in Yankton without routing through smaller roads that can be compromised after a severe storm. When you call (605) 965-2727, we'll give you an honest estimate of when a crew can be on-site based on current conditions and dispatch availability, we won't promise a window we can't keep.
 
 For tree damage cleanup and emergency tarping, prompt scheduling matters. Roof decking exposed to even one additional rain event after initial damage can mean the difference between replacing a few sheets of OSB and replacing the entire roof system.
 
@@ -58,6 +58,6 @@ One practical note: if your property is in a flood-prone area near Gavins Point 
 
 ## Local Note
 
-Properties along the Riverside corridor — particularly those closest to Riverside Park — often have mature cottonwood and silver maple trees that were planted decades ago when the lots were developed. After a wind event, these species drop large limbs with very little warning, and the root systems can heave sidewalks and foundation edges over time. What looks like storm damage to a porch or foundation wall is sometimes a combination of acute wind damage and years of slow root pressure. When we assess storm damage on these properties, we look at both — because repairing the visible damage without noting the underlying root intrusion means the same wall cracks again in two winters.
+Properties along the Riverside corridor, particularly those closest to Riverside Park, often have mature cottonwood and silver maple trees that were planted decades ago when the lots were developed. After a wind event, these species drop large limbs with very little warning, and the root systems can heave sidewalks and foundation edges over time. What looks like storm damage to a porch or foundation wall is sometimes a combination of acute wind damage and years of slow root pressure. When we assess storm damage on these properties, we look at both, because repairing the visible damage without noting the underlying root intrusion means the same wall cracks again in two winters.
 
-If you're dealing with storm damage anywhere in Yankton, call Crew Restoration & Construction at **(605) 965-2727**. We'll walk through what happened, what needs to happen next, and what a realistic timeline looks like — before any work starts.
+If you're dealing with storm damage anywhere in Yankton, call Crew Restoration & Construction at **(605) 965-2727**. We'll walk through what happened, what needs to happen next, and what a realistic timeline looks like, before any work starts.

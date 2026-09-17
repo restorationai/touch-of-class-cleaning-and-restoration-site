@@ -19,31 +19,31 @@ rendered: true
 ---
 ## When a frozen pipe thaws, the real damage is just getting started
 
-The pipe itself freezing is not the crisis — the crisis is the 30 to 90 seconds after it thaws. A single half-inch copper supply line running through an uninsulated exterior wall can release 250 gallons of water in an hour once pressure returns. By the time you hear water running somewhere it shouldn't, it has already traveled behind drywall, soaked into subfloor sheathing, and begun wicking up wall cavities. Frozen pipe restoration is not just plumbing — it is a race against secondary damage that starts the moment the ice lets go.
+The pipe itself freezing is not the crisis, the crisis is the 30 to 90 seconds after it thaws. A single half-inch copper supply line running through an uninsulated exterior wall can release 250 gallons of water in an hour once pressure returns. By the time you hear water running somewhere it shouldn't, it has already traveled behind drywall, soaked into subfloor sheathing, and begun wicking up wall cavities. Frozen pipe restoration is not just plumbing, it is a race against secondary damage that starts the moment the ice lets go.
 
 ## What frozen pipe restoration actually involves
 
 Frozen pipe restoration begins where a plumber's work ends. Once the break is repaired or the line is capped, the water that escaped has already colonized materials throughout the structure. The scope of work depends on how long the pipe ran before discovery, which building materials absorbed the water, and whether the leak occurred in a finished or unfinished space.
 
-In a typical Cranberry Township split-level or ranch home — many of which were built in the 1980s and 1990s with supply lines running through exterior garage walls — a single freeze event can saturate drywall across 200 to 400 square feet, soak engineered hardwood flooring, and push water into the insulation batt behind the wall cavity. Insulation does not dry; it has to come out.
+In a typical Cranberry Township split-level or ranch home, many of which were built in the 1980s and 1990s with supply lines running through exterior garage walls, a single freeze event can saturate drywall across 200 to 400 square feet, soak engineered hardwood flooring, and push water into the insulation batt behind the wall cavity. Insulation does not dry; it has to come out.
 
 Equipment on a frozen pipe job includes truck-mounted or portable extraction units to pull standing water, low-grain refrigerant (LGR) dehumidifiers, axial and centrifugal air movers positioned to drive evaporation through the wet assembly, and thermal imaging cameras to map moisture migration that is invisible to the eye. Drying typically takes three to five days for Category 1 clean water losses in standard residential construction, though concrete slabs, engineered lumber, and dense-pack insulation extend that window.
 
 ## Our process
 
-1. **Emergency water extraction and source confirmation.** Before drying equipment is staged, we verify the break has been repaired or isolated. We extract all standing water — including water pooled under flooring systems and in wall cavities where accessible — using truck-mounted extraction or portable units depending on the structure.
+1. **Emergency water extraction and source confirmation.** Before drying equipment is staged, we verify the break has been repaired or isolated. We extract all standing water, including water pooled under flooring systems and in wall cavities where accessible, using truck-mounted extraction or portable units depending on the structure.
 
 2. **Thermal imaging and moisture mapping.** We scan every affected room with infrared cameras to identify hidden moisture migration. Water from a frozen pipe in a second-floor bathroom can travel down a stud bay, pool on a top plate, and saturate first-floor ceiling drywall without any visible staining for 24 to 48 hours. We document baseline moisture readings in every affected material before drying begins.
 
-3. **Controlled demolition of non-salvageable materials.** Saturated insulation, drywall below the flood cut line, and flooring that cannot be dried in place are removed before drying equipment is set. Leaving wet materials sealed behind walls does not accelerate drying — it creates the conditions for mold colonization within 48 to 72 hours of the initial event.
+3. **Controlled demolition of non-salvageable materials.** Saturated insulation, drywall below the flood cut line, and flooring that cannot be dried in place are removed before drying equipment is set. Leaving wet materials sealed behind walls does not accelerate drying, it creates the conditions for mold colonization within 48 to 72 hours of the initial event.
 
-4. **Structural drying with daily monitoring.** LGR dehumidifiers and air movers are positioned to dry the structural assembly — not just the air. We return daily to log moisture readings against the drying targets established on day one. Equipment is adjusted or repositioned based on readings, not on a fixed schedule.
+4. **Structural drying with daily monitoring.** LGR dehumidifiers and air movers are positioned to dry the structural assembly, not just the air. We return daily to log moisture readings against the drying targets established on day one. Equipment is adjusted or repositioned based on readings, not on a fixed schedule.
 
-5. **Final clearance documentation.** When all affected materials reach acceptable moisture content, we document final readings and provide a drying log for your insurance claim. This record shows the adjuster exactly what was wet, how long it took to dry, and what had to be removed — reducing disputes over scope.
+5. **Final clearance documentation.** When all affected materials reach acceptable moisture content, we document final readings and provide a drying log for your insurance claim. This record shows the adjuster exactly what was wet, how long it took to dry, and what had to be removed, reducing disputes over scope.
 
 ## What separates a good frozen pipe response from a bad one
 
-The most common mistake on frozen pipe jobs is treating them like simple water calls and under-scoping the drying equipment. A single air mover pointed at a wet wall does not dry the stud cavity — it dries the surface of the drywall while the framing stays wet. Mold does not care about surface readings.
+The most common mistake on frozen pipe jobs is treating them like simple water calls and under-scoping the drying equipment. A single air mover pointed at a wet wall does not dry the stud cavity, it dries the surface of the drywall while the framing stays wet. Mold does not care about surface readings.
 
 A second failure point is missing the migration path. Water follows gravity and pressure differentials, not floor plans. Experienced operators use thermal imaging on adjacent rooms and floors below the loss, not just the room where the pipe broke. Insurance adjusters increasingly request thermal images as part of the initial documentation package, and claims without them are more likely to face scope disputes.
 
@@ -51,7 +51,7 @@ A third issue specific to freeze events: the pipe break is sometimes not the onl
 
 ## Seasonal and regional considerations
 
-Western Pennsylvania's freeze-thaw pattern is particularly hard on residential plumbing. Cranberry Township and the surrounding Butler County corridor regularly cycles through temperatures in the teens and then back above freezing within 24 to 48 hours — exactly the conditions that cause pipes to freeze, thaw, and re-freeze before a homeowner realizes there is a problem. The second freeze can mask the first leak by re-freezing water that has already escaped into the wall cavity.
+Western Pennsylvania's freeze-thaw pattern is particularly hard on residential plumbing. Cranberry Township and the surrounding Butler County corridor regularly cycles through temperatures in the teens and then back above freezing within 24 to 48 hours, exactly the conditions that cause pipes to freeze, thaw, and re-freeze before a homeowner realizes there is a problem. The second freeze can mask the first leak by re-freezing water that has already escaped into the wall cavity.
 
 Peak season for frozen pipe calls runs from late December through mid-February, with secondary spikes during the late-season cold snaps that hit the region in March. Homes with attached garages, crawl spaces, or supply lines running through exterior walls on the north or west face of the structure carry the highest risk.
 
@@ -59,4 +59,4 @@ Peak season for frozen pipe calls runs from late December through mid-February, 
 
 FireDEX Butler is based in Cranberry Township and serves communities throughout Butler County and the surrounding region, including Mars, Zelienople, Evans City, Harmony, Saxonburg, and Butler Borough. Linked service-area pages cover frozen pipe restoration in each of those communities with local detail.
 
-If you are looking at wet walls, warped flooring, or a ceiling that is starting to sag after a pipe thaw, call (724) 452-7400 now. We respond around the clock — the drying clock starts the moment we arrive, and every hour matters.
+If you are looking at wet walls, warped flooring, or a ceiling that is starting to sag after a pipe thaw, call (724) 452-7400 now. We respond around the clock, the drying clock starts the moment we arrive, and every hour matters.

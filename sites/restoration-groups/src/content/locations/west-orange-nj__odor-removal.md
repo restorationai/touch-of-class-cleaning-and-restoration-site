@@ -20,23 +20,23 @@ state: "NJ"
 service_display: "Odor Removal and Deodorization"
 rendered: true
 ---
-West Orange sits on the Watchung ridge where older building stock, heavy storm runoff, and the occasional sewer backup create odor problems that don't respond to a can of spray and an open window. The grand Victorians in Llewellyn Park have plaster walls and original millwork that absorb smoke and moisture odors deep into the substrate, while the postwar splits and ranches in Pleasantdale — most with finished basements — trap sewer-backup and flood odors in carpeted lower levels that recirculate through HVAC systems for weeks. When the smell won't leave on its own, The Restoration Group brings the equipment and the process to eliminate it at the molecular level.
+West Orange sits on the Watchung ridge where older building stock, heavy storm runoff, and the occasional sewer backup create odor problems that don't respond to a can of spray and an open window. The grand Victorians in Llewellyn Park have plaster walls and original millwork that absorb smoke and moisture odors deep into the substrate, while the postwar splits and ranches in Pleasantdale, most with finished basements, trap sewer-backup and flood odors in carpeted lower levels that recirculate through HVAC systems for weeks. When the smell won't leave on its own, The Restoration Group brings the equipment and the process to eliminate it at the molecular level.
 
 ## Why West Orange Homes Hold Odors Longer
 
-The same hillside topography that makes West Orange scenic creates real problems after a storm. Stormwater rushing down toward the Rahway River headwaters and the streams draining South Mountain Reservation overwhelms sump pumps and backs up municipal sewers into finished basements. Sewer gas and organic waste odors bond to porous materials — drywall, carpet padding, wood framing — and if drying and deodorization don't happen within 24 to 48 hours, those compounds become nearly impossible to mask with surface treatments alone.
+The same hillside topography that makes West Orange scenic creates real problems after a storm. Stormwater rushing down toward the Rahway River headwaters and the streams draining South Mountain Reservation overwhelms sump pumps and backs up municipal sewers into finished basements. Sewer gas and organic waste odors bond to porous materials, drywall, carpet padding, wood framing, and if drying and deodorization don't happen within 24 to 48 hours, those compounds become nearly impossible to mask with surface treatments alone.
 
-Fire losses add another layer. A kitchen fire in a 1920s Tudor or colonial near the Gregory neighborhood doesn't just leave smoke on the walls — it pushes carbonaceous soot and volatile organic compounds into plaster cavities, attic insulation, and HVAC ductwork. The same tight, well-built envelope that makes those homes energy-efficient in a New Jersey winter also traps odor-laden air and prevents natural dilution.
+Fire losses add another layer. A kitchen fire in a 1920s Tudor or colonial near the Gregory neighborhood doesn't just leave smoke on the walls, it pushes carbonaceous soot and volatile organic compounds into plaster cavities, attic insulation, and HVAC ductwork. The same tight, well-built envelope that makes those homes energy-efficient in a New Jersey winter also traps odor-laden air and prevents natural dilution.
 
 Pet odors, hoarding situations, and decomposition losses follow a similar pattern: the older and denser the construction, the deeper the contamination penetrates before anyone calls for help.
 
 ## Our Odor Removal and Deodorization Process in West Orange
 
-Effective deodorization isn't a single treatment — it's a sequenced protocol matched to the odor source and the building materials involved. As an IICRC Certified Firm (#210213), the process follows industry standards for source removal first, then treatment, then verification.
+Effective deodorization isn't a single treatment, it's a sequenced protocol matched to the odor source and the building materials involved. As an IICRC Certified Firm (#210213), the process follows industry standards for source removal first, then treatment, then verification.
 
 **Source removal** comes before any deodorization equipment is deployed. Smoke-damaged insulation, flood-soaked carpet padding, or sewage-contaminated drywall has to come out. Masking over a contaminated substrate just delays the problem.
 
-**Thermal fogging** is particularly effective in West Orange's older homes because the fogging agent penetrates the same pathways smoke traveled — into wall cavities, behind baseboards, into attic spaces — neutralizing odor molecules rather than coating them. It's one of the few methods that reaches plaster-wall construction effectively.
+**Thermal fogging** is particularly effective in West Orange's older homes because the fogging agent penetrates the same pathways smoke traveled, into wall cavities, behind baseboards, into attic spaces, neutralizing odor molecules rather than coating them. It's one of the few methods that reaches plaster-wall construction effectively.
 
 **Hydroxyl generation** runs as a continuous treatment in occupied or semi-occupied spaces where ozone isn't appropriate. Hydroxyl generators produce no harmful residuals and can run while contents and soft goods remain in the room, which matters when a homeowner near Essex Green needs to stay partially functional during treatment.
 
@@ -44,14 +44,14 @@ Effective deodorization isn't a single treatment — it's a sequenced protocol m
 
 **Air scrubbing with activated carbon filtration** runs throughout the project to capture airborne particulates and VOCs, improving indoor air quality as the primary treatments work.
 
-Final verification uses direct-read instrumentation and, where appropriate, third-party air sampling to confirm odor compounds have been reduced to acceptable levels — not just that the space smells better to the technician standing in it.
+Final verification uses direct-read instrumentation and, where appropriate, third-party air sampling to confirm odor compounds have been reduced to acceptable levels, not just that the space smells better to the technician standing in it.
 
 ## Reaching West Orange from Kenilworth
 
-The Restoration Group operates out of Kenilworth, NJ, and West Orange is a direct run up Route 22 West to the Garden State Parkway North or I-78 West to Route 124 — typically a 25-to-35-minute drive depending on traffic. Because the team is available around the clock, a call at 2 a.m. after a basement sewer backup or a late-night kitchen fire gets the same response as a weekday morning call. For addresses in the 07052 ZIP code — whether that's a hillside colonial off Eagle Rock Avenue or a commercial property on Northfield Avenue — dispatch and routing are straightforward.
+The Restoration Group operates out of Kenilworth, NJ, and West Orange is a direct run up Route 22 West to the Garden State Parkway North or I-78 West to Route 124, typically a 25-to-35-minute drive depending on traffic. Because the team is available around the clock, a call at 2 a.m. after a basement sewer backup or a late-night kitchen fire gets the same response as a weekday morning call. For addresses in the 07052 ZIP code, whether that's a hillside colonial off Eagle Rock Avenue or a commercial property on Northfield Avenue, dispatch and routing are straightforward.
 
 ## Local Note: Plaster Walls and Odor Penetration
 
-One thing that surprises homeowners in Llewellyn Park and the older sections of West Orange: plaster walls absorb odor compounds differently than modern drywall. Plaster is denser and less permeable on the surface, which sounds like an advantage — but smoke and moisture odors that do penetrate tend to off-gas slowly over months rather than weeks. Thermal fogging is often the only treatment that reaches the depth of penetration in a plaster assembly without requiring demolition. If a previous contractor attempted deodorization with surface sprays or ozone alone and the smell returned after a few weeks, plaster absorption is usually the reason.
+One thing that surprises homeowners in Llewellyn Park and the older sections of West Orange: plaster walls absorb odor compounds differently than modern drywall. Plaster is denser and less permeable on the surface, which sounds like an advantage, but smoke and moisture odors that do penetrate tend to off-gas slowly over months rather than weeks. Thermal fogging is often the only treatment that reaches the depth of penetration in a plaster assembly without requiring demolition. If a previous contractor attempted deodorization with surface sprays or ozone alone and the smell returned after a few weeks, plaster absorption is usually the reason.
 
-If the odor in your West Orange home has outlasted a previous treatment, call (855) 650-7422 to schedule an assessment. The Restoration Group will identify the source, match the method to your building's construction, and document the process from start to finish — whether you're filing an insurance claim or paying out of pocket.
+If the odor in your West Orange home has outlasted a previous treatment, call (855) 650-7422 to schedule an assessment. The Restoration Group will identify the source, match the method to your building's construction, and document the process from start to finish, whether you're filing an insurance claim or paying out of pocket.

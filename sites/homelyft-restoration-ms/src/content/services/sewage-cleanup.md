@@ -17,39 +17,39 @@ service_slug: "sewage-cleanup"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
-The smell hits before anything else — a thick, sulfurous odor that tells you something has gone badly wrong before you even see the water on the floor. A sewer line backup or septic overflow doesn't just leave standing water; it deposits fecal coliform bacteria, viruses, and parasites on every surface it touches. Within 24 hours, those pathogens begin migrating into drywall, subfloor, and insulation. Within 48, you're looking at secondary mold colonization on top of an already serious contamination event. Sewage cleanup is not a mop-and-bleach job — it's a Category 3 biohazard response.
+The smell hits before anything else, a thick, sulfurous odor that tells you something has gone badly wrong before you even see the water on the floor. A sewer line backup or septic overflow doesn't just leave standing water; it deposits fecal coliform bacteria, viruses, and parasites on every surface it touches. Within 24 hours, those pathogens begin migrating into drywall, subfloor, and insulation. Within 48, you're looking at secondary mold colonization on top of an already serious contamination event. Sewage cleanup is not a mop-and-bleach job, it's a Category 3 biohazard response.
 
 ## What sewage cleanup and sanitization actually involves
 
-Industry standards classify sewage-contaminated water as Category 3 — the most hazardous water loss category, alongside floodwater. That classification changes everything about how the work gets done. Technicians cannot simply extract the water and run drying equipment; every porous material that absorbed sewage must be evaluated for removal, and every hard surface that contacted it must be treated with EPA-registered disinfectants capable of killing gram-negative bacteria and enteric viruses.
+Industry standards classify sewage-contaminated water as Category 3, the most hazardous water loss category, alongside floodwater. That classification changes everything about how the work gets done. Technicians cannot simply extract the water and run drying equipment; every porous material that absorbed sewage must be evaluated for removal, and every hard surface that contacted it must be treated with EPA-registered disinfectants capable of killing gram-negative bacteria and enteric viruses.
 
 In a typical sewer line backup affecting a bathroom, hallway, and adjacent bedroom, the scope includes: full personal protective equipment (PPE) staging before entry, mechanical extraction of standing water and solid waste, removal of contaminated flooring materials (tile, hardwood, laminate, carpet, and pad), removal of drywall to the flood cut line, HEPA vacuuming of framing cavities, application of hospital-grade antimicrobial and antifungal agents to all exposed structural surfaces, and commercial-grade dehumidification and air movement to bring structural moisture readings back to pre-loss baselines.
 
-Septic overflow events — common in older Gulf Coast neighborhoods where systems haven't been pumped in years — can introduce even higher concentrations of solids and require additional decontamination passes. A full Category 3 loss in a single bathroom typically takes 3–5 days from extraction to clearance, depending on how far contamination traveled and how quickly the response began.
+Septic overflow events, common in older Gulf Coast neighborhoods where systems haven't been pumped in years, can introduce even higher concentrations of solids and require additional decontamination passes. A full Category 3 loss in a single bathroom typically takes 3–5 days from extraction to clearance, depending on how far contamination traveled and how quickly the response began.
 
 ## Our process
 
-1. **Containment and PPE staging.** Before any equipment enters the affected area, the space is isolated with poly sheeting and negative air pressure where needed to prevent cross-contamination to unaffected rooms. Technicians suit up in Tyvek suits, gloves, and respirators — not because it looks dramatic, but because Category 3 water is a genuine pathogen risk.
+1. **Containment and PPE staging.** Before any equipment enters the affected area, the space is isolated with poly sheeting and negative air pressure where needed to prevent cross-contamination to unaffected rooms. Technicians suit up in Tyvek suits, gloves, and respirators, not because it looks dramatic, but because Category 3 water is a genuine pathogen risk.
 
-2. **Extraction and solid waste removal.** Standing sewage, solids, and debris are removed using truck-mounted extraction units and manual tools. Solid waste is bagged and disposed of per applicable regulations. This step is not rushed — incomplete extraction leaves behind the contamination that causes odor and mold weeks later.
+2. **Extraction and solid waste removal.** Standing sewage, solids, and debris are removed using truck-mounted extraction units and manual tools. Solid waste is bagged and disposed of per applicable regulations. This step is not rushed, incomplete extraction leaves behind the contamination that causes odor and mold weeks later.
 
-3. **Demolition of unsalvageable materials.** Porous materials — drywall, insulation, carpet, pad, and in many cases subfloor — that absorbed Category 3 water cannot be dried and kept. They are removed, double-bagged, and disposed of. Attempting to dry contaminated porous materials in place is one of the most common and costly mistakes in sewage response.
+3. **Demolition of unsalvageable materials.** Porous materials, drywall, insulation, carpet, pad, and in many cases subfloor, that absorbed Category 3 water cannot be dried and kept. They are removed, double-bagged, and disposed of. Attempting to dry contaminated porous materials in place is one of the most common and costly mistakes in sewage response.
 
-4. **Disinfection and antimicrobial treatment.** All remaining structural surfaces — framing, concrete slab, wall cavities — are treated with EPA-registered disinfectants. A second application of antifungal agent follows to suppress mold colonization. Dwell times matter here; product is not wiped off before it has had adequate contact time to be effective.
+4. **Disinfection and antimicrobial treatment.** All remaining structural surfaces, framing, concrete slab, wall cavities, are treated with EPA-registered disinfectants. A second application of antifungal agent follows to suppress mold colonization. Dwell times matter here; product is not wiped off before it has had adequate contact time to be effective.
 
-5. **Structural drying and moisture verification.** Commercial dehumidifiers and air movers run until moisture readings in framing and concrete return to regional baselines. Readings are logged daily. Drying is not called complete based on how the surface looks — it's called complete when the numbers confirm it, per IICRC S500 drying standards.
+5. **Structural drying and moisture verification.** Commercial dehumidifiers and air movers run until moisture readings in framing and concrete return to regional baselines. Readings are logged daily. Drying is not called complete based on how the surface looks, it's called complete when the numbers confirm it, per IICRC S500 drying standards.
 
 ## What separates a good sewage cleanup response from a bad one
 
-The single most common failure in sewage cleanup is treating Category 3 water like Category 1 (clean water from a supply line). Operators who extract the water, run fans for a few days, and spray bleach are leaving active contamination behind — inside wall cavities, under flooring, in the air. Bleach alone does not meet the contact-time and concentration requirements to address enteric pathogens on porous substrates.
+The single most common failure in sewage cleanup is treating Category 3 water like Category 1 (clean water from a supply line). Operators who extract the water, run fans for a few days, and spray bleach are leaving active contamination behind, inside wall cavities, under flooring, in the air. Bleach alone does not meet the contact-time and concentration requirements to address enteric pathogens on porous substrates.
 
-A second frequent mistake is incomplete demolition. Leaving contaminated drywall or subfloor in place because it "looks dry" is how a sewage event becomes a mold remediation job three weeks later. Insurance adjusters reviewing a subsequent mold claim will look at the original scope of work — if the initial contractor didn't document what was removed and why, the carrier may dispute the secondary claim.
+A second frequent mistake is incomplete demolition. Leaving contaminated drywall or subfloor in place because it "looks dry" is how a sewage event becomes a mold remediation job three weeks later. Insurance adjusters reviewing a subsequent mold claim will look at the original scope of work, if the initial contractor didn't document what was removed and why, the carrier may dispute the secondary claim.
 
 What good operators do differently: they document contamination boundaries with moisture meters and ATP (adenosine triphosphate) testing before and after treatment, photograph every demolition cut and every surface before disinfectant application, and provide a written clearance report that an adjuster or future buyer can review. HomeLyft Restoration MS is an IICRC Certified Firm with technicians holding IICRC WRT and AMRT credentials, which means the documentation and drying protocols meet the standards adjusters and carriers recognize.
 
 ## What does sewage cleanup and sanitization cost?
 
-Typical costs for sewage backup cleanup depend heavily on how far contamination spread, how long it sat, and how much material requires removal. Most homeowners pay somewhere in the following ranges based on industry data — these are not HomeLyft Restoration MS quotes, and every loss is different:
+Typical costs for sewage backup cleanup depend heavily on how far contamination spread, how long it sat, and how much material requires removal. Most homeowners pay somewhere in the following ranges based on industry data, these are not HomeLyft Restoration MS quotes, and every loss is different:
 
 | Scenario | Typical industry range |
 |---|---|
@@ -60,11 +60,11 @@ Typical costs for sewage backup cleanup depend heavily on how far contamination 
 | Septic overflow, exterior and crawl space | $6,000 – $20,000 |
 | Sewer line backup, multi-room spread | $10,000 – $30,000+ |
 
-HomeLyft Restoration MS provides a written scope of work before any billable work begins, so you know exactly what is being done and why. Homeowners insurance typically covers sudden and accidental sewer line backups and septic overflows if you carry the sewer backup endorsement — standard HO-3 policies often exclude it without that rider, which is worth confirming with your agent before assuming coverage.
+HomeLyft Restoration MS provides a written scope of work before any billable work begins, so you know exactly what is being done and why. Homeowners insurance typically covers sudden and accidental sewer line backups and septic overflows if you carry the sewer backup endorsement, standard HO-3 policies often exclude it without that rider, which is worth confirming with your agent before assuming coverage.
 
 ## Seasonal and regional considerations
 
-Along the Mississippi Gulf Coast, sewage backup risk spikes during two predictable windows: hurricane season (June through November), when storm surge and heavy rainfall overwhelm municipal sewer systems and private septic fields, and the winter wet season, when saturated soil reduces septic absorption capacity. Gulfport's aging sewer infrastructure in older neighborhoods — particularly those built before the 1980s — is especially prone to root intrusion and pipe collapse that triggers backups with little warning.
+Along the Mississippi Gulf Coast, sewage backup risk spikes during two predictable windows: hurricane season (June through November), when storm surge and heavy rainfall overwhelm municipal sewer systems and private septic fields, and the winter wet season, when saturated soil reduces septic absorption capacity. Gulfport's aging sewer infrastructure in older neighborhoods, particularly those built before the 1980s, is especially prone to root intrusion and pipe collapse that triggers backups with little warning.
 
 High ambient humidity along the coast (averaging above 70% relative humidity for much of the year) also means that any delay in extraction and drying accelerates mold colonization significantly faster than in drier inland climates. A 24-hour response window that might be acceptable in a drier region can already show early mold growth in coastal Mississippi conditions.
 

@@ -20,17 +20,17 @@ state: "UT"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
-Eagle Mountain sits on the western bench of Utah Lake Valley, where the clay-heavy soils common across Lehi and the surrounding Wasatch Front don't drain the way homeowners expect — especially during the rapid spring snowmelt that rolls off the Oquirrh Mountains. When that saturated ground has nowhere to go, it finds the path of least resistance: your basement. A flooded basement in Eagle Mountain can go from a damp floor to several inches of standing water in a matter of hours, and the window to prevent secondary mold growth is shorter than most people realize — typically 24 to 48 hours after the initial intrusion.
+Eagle Mountain sits on the western bench of Utah Lake Valley, where the clay-heavy soils common across Lehi and the surrounding Wasatch Front don't drain the way homeowners expect, especially during the rapid spring snowmelt that rolls off the Oquirrh Mountains. When that saturated ground has nowhere to go, it finds the path of least resistance: your basement. A flooded basement in Eagle Mountain can go from a damp floor to several inches of standing water in a matter of hours, and the window to prevent secondary mold growth is shorter than most people realize, typically 24 to 48 hours after the initial intrusion.
 
 ## Why Eagle Mountain Basements Flood More Than You'd Expect
 
-The city's explosive growth over the past two decades means a significant portion of the housing stock was built quickly, with basement waterproofing systems that range from adequate to minimal. Many homes in the Ranches and Overland communities were constructed on lots where the water table rises noticeably in late winter and early spring. Window wells fill during heavy rain events. Sump pump failures — often because the pump runs continuously for weeks during snowmelt season and simply burns out — are one of the most common calls we receive from Eagle Mountain addresses.
+The city's explosive growth over the past two decades means a significant portion of the housing stock was built quickly, with basement waterproofing systems that range from adequate to minimal. Many homes in the Ranches and Overland communities were constructed on lots where the water table rises noticeably in late winter and early spring. Window wells fill during heavy rain events. Sump pump failures, often because the pump runs continuously for weeks during snowmelt season and simply burns out, are one of the most common calls we receive from Eagle Mountain addresses.
 
 The clay-dominant soil also creates a phenomenon called hydrostatic pressure: water doesn't percolate away quickly, so it presses laterally against foundation walls. Hairline cracks in poured concrete foundations, common in homes built in the mid-2000s construction boom, become entry points under that pressure. By the time a homeowner notices water on the basement floor, the wall cavity and subfloor assembly may already be saturated.
 
 ## Our Basement Flooding Cleanup Process in Eagle Mountain
 
-When we arrive — typically within 60 to 90 minutes of your call from our Saratoga Springs base, using the Redwood Road corridor to reach Eagle Mountain quickly — the first priority is source control. If a burst supply line or failed sump is still active, we help isolate it before extraction begins.
+When we arrive, typically within 60 to 90 minutes of your call from our Saratoga Springs base, using the Redwood Road corridor to reach Eagle Mountain quickly, the first priority is source control. If a burst supply line or failed sump is still active, we help isolate it before extraction begins.
 
 From there, the process follows a structured sequence:
 
@@ -44,18 +44,18 @@ Our IICRC-certified technicians follow the S500 Standard for Water Damage Restor
 
 ## Response Time to Eagle Mountain
 
-From our Saratoga Springs headquarters, Eagle Mountain is a straightforward run — roughly 10 to 15 minutes under normal conditions via Redwood Road and Eagle Mountain Boulevard. That puts a crew at most Eagle Mountain addresses well within the 60-minute window that makes a real difference in limiting damage spread. Homes further out toward the Overland community or the newer developments along Pony Express Parkway add a few minutes, but we're still talking about a same-hour response for most emergency calls.
+From our Saratoga Springs headquarters, Eagle Mountain is a straightforward run, roughly 10 to 15 minutes under normal conditions via Redwood Road and Eagle Mountain Boulevard. That puts a crew at most Eagle Mountain addresses well within the 60-minute window that makes a real difference in limiting damage spread. Homes further out toward the Overland community or the newer developments along Pony Express Parkway add a few minutes, but we're still talking about a same-hour response for most emergency calls.
 
 We answer the phone around the clock. Flooding doesn't schedule itself, and neither do we.
 
 ## Working With Your Insurance Carrier
 
-Most sudden-onset basement flooding events — a burst pipe, a sump pump failure, an appliance leak — are covered under standard homeowner's policies. Gradual seepage or long-term neglect is a different story, and adjusters know the difference. We document the loss thoroughly from the moment we arrive: photos, moisture readings, equipment logs, and a detailed scope of work. That documentation is what keeps your claim moving and reduces the back-and-forth with the carrier.
+Most sudden-onset basement flooding events, a burst pipe, a sump pump failure, an appliance leak, are covered under standard homeowner's policies. Gradual seepage or long-term neglect is a different story, and adjusters know the difference. We document the loss thoroughly from the moment we arrive: photos, moisture readings, equipment logs, and a detailed scope of work. That documentation is what keeps your claim moving and reduces the back-and-forth with the carrier.
 
 We work directly with all major insurers and can communicate with your adjuster on your behalf. You'll receive a copy of everything.
 
 ## Local Note: Sump Pump Timing in Eagle Mountain
 
-One pattern we've seen repeatedly in Eagle Mountain homes: sump pumps that were installed when the house was built and have never been tested or serviced. The Oquirrh Mountain snowpack can deliver a sustained melt event over two to three weeks in March and April, running a builder-grade sump pump far beyond its design cycle. By the time the pump fails, the pit is already overflowing. If you're in the Ranches area or any neighborhood built on the lower benches where drainage slopes toward the valley floor, consider having your sump pump inspected before spring — not after the first flood. It's a conversation we have with a lot of Eagle Mountain homeowners after the fact, and it's one we'd rather have before.
+One pattern we've seen repeatedly in Eagle Mountain homes: sump pumps that were installed when the house was built and have never been tested or serviced. The Oquirrh Mountain snowpack can deliver a sustained melt event over two to three weeks in March and April, running a builder-grade sump pump far beyond its design cycle. By the time the pump fails, the pit is already overflowing. If you're in the Ranches area or any neighborhood built on the lower benches where drainage slopes toward the valley floor, consider having your sump pump inspected before spring, not after the first flood. It's a conversation we have with a lot of Eagle Mountain homeowners after the fact, and it's one we'd rather have before.
 
-If your basement is already wet, call (801) 995-2437 now. Every hour matters when it comes to stopping water damage in Eagle Mountain from becoming a mold problem — and Home Pride Restoration and Cleaning has been doing this work since 1997.
+If your basement is already wet, call (801) 995-2437 now. Every hour matters when it comes to stopping water damage in Eagle Mountain from becoming a mold problem, and Home Pride Restoration and Cleaning has been doing this work since 1997.

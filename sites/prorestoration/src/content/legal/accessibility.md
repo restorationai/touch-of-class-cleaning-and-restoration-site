@@ -18,7 +18,7 @@ rendered: true
 ---
 ## Our Commitment to Accessibility
 
-ProRestoration Services Inc. believes everyone deserves equal access to information about our services — whether you are dealing with water damage at 2 a.m. or researching mold remediation options from a mobile device. We are committed to making prorestorationca.com usable for visitors of all abilities, including those who rely on assistive technologies such as screen readers, keyboard navigation, or display magnification.
+ProRestoration Services Inc. believes everyone deserves equal access to information about our services, whether you are dealing with water damage at 2 a.m. or researching mold remediation options from a mobile device. We are committed to making prorestorationca.com usable for visitors of all abilities, including those who rely on assistive technologies such as screen readers, keyboard navigation, or display magnification.
 
 ## WCAG 2.1 AA Standard
 
@@ -28,7 +28,7 @@ We recognize that accessibility is an ongoing effort rather than a one-time chec
 
 ## Known Limitations
 
-Despite our best efforts, some content — such as third-party embedded maps or older PDF documents — may not yet fully meet WCAG 2.1 AA requirements. We are actively working to identify and remediate these gaps. If you encounter a barrier that prevents you from accessing any information on this site, please let us know.
+Despite our best efforts, some content, such as third-party embedded maps or older PDF documents, may not yet fully meet WCAG 2.1 AA requirements. We are actively working to identify and remediate these gaps. If you encounter a barrier that prevents you from accessing any information on this site, please let us know.
 
 ## How to Report an Issue
 
@@ -38,7 +38,7 @@ If you experience difficulty accessing any part of prorestorationca.com, we want
 3556 Bowman Ct Suite B
 Bakersfield, CA 93308
 
-When you contact us, please describe the page or feature you were trying to use, the assistive technology or browser you were using if known, and the nature of the difficulty. We will acknowledge your report promptly and work to address the issue within a **reasonable timeframe** — typically within 10 business days for straightforward fixes, with more complex structural changes scheduled in our next site update cycle.
+When you contact us, please describe the page or feature you were trying to use, the assistive technology or browser you were using if known, and the nature of the difficulty. We will acknowledge your report promptly and work to address the issue within a **reasonable timeframe**, typically within 10 business days for straightforward fixes, with more complex structural changes scheduled in our next site update cycle.
 
 ## Alternative Access to Information
 

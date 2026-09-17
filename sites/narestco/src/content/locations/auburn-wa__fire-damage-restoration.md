@@ -20,7 +20,7 @@ state: "WA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-A house fire leaves behind more than charred walls. Within hours of the flames going out, smoke residue is already bonding to surfaces, soot is migrating through your HVAC system, and the water used to suppress the fire is soaking into subfloors and framing. If you're in Auburn right now dealing with this, the clock matters — and so does who you call first.
+A house fire leaves behind more than charred walls. Within hours of the flames going out, smoke residue is already bonding to surfaces, soot is migrating through your HVAC system, and the water used to suppress the fire is soaking into subfloors and framing. If you're in Auburn right now dealing with this, the clock matters, and so does who you call first.
 
 National Restoration Construction has been handling fire and smoke restoration across the South King County area since 2004. Our Federal Way headquarters puts us less than 15 minutes from most Auburn addresses, and we dispatch crews around the clock.
 
@@ -30,25 +30,25 @@ The first 30 minutes on-site are about stopping the damage from spreading, not j
 
 **Emergency board-up and tarping.** If windows, doors, or roof sections were compromised by the fire or firefighter access, we secure the structure immediately. Auburn's wet winters mean an open roof can turn a fire loss into a water and mold loss within 48 hours.
 
-**Air quality containment.** Smoke particles are measured in microns — small enough to travel room to room long after the fire is out. We set up negative air pressure zones and HEPA filtration units to stop cross-contamination before we begin any cleaning.
+**Air quality containment.** Smoke particles are measured in microns, small enough to travel room to room long after the fire is out. We set up negative air pressure zones and HEPA filtration units to stop cross-contamination before we begin any cleaning.
 
 **Structural assessment.** Not every wall that looks burned needs to come down, and not every wall that looks fine is safe to keep. Our IICRC-certified technicians document load-bearing concerns, compromised framing, and hidden char before any reconstruction planning begins.
 
-**Soot and smoke residue removal.** Dry soot, wet soot, and protein residue (common in kitchen fires) each require different chemistry and technique. We use dry sponging, chemical sponges, and thermal fogging depending on what's in front of us — not a one-size approach.
+**Soot and smoke residue removal.** Dry soot, wet soot, and protein residue (common in kitchen fires) each require different chemistry and technique. We use dry sponging, chemical sponges, and thermal fogging depending on what's in front of us, not a one-size approach.
 
 **Odor neutralization.** The smell of smoke in drywall and insulation doesn't fade on its own. We use ozone treatment and hydroxyl generators for deep odor elimination, particularly in Auburn homes with older insulation that absorbs odor aggressively.
 
 ## Why Auburn Homes Face Specific Fire Damage Challenges
 
-Auburn's housing stock spans a wide range — mid-century ramblers in the Lea Hill area, newer construction near the Valley, and older craftsman-style homes closer to downtown. Older homes often have original knob-and-tube or aluminum wiring, which is a known fire risk factor and something our structural assessment always flags for your electrician and insurer.
+Auburn's housing stock spans a wide range, mid-century ramblers in the Lea Hill area, newer construction near the Valley, and older craftsman-style homes closer to downtown. Older homes often have original knob-and-tube or aluminum wiring, which is a known fire risk factor and something our structural assessment always flags for your electrician and insurer.
 
-The region's climate adds a layer of complexity. Western Washington's persistent moisture means that water from fire suppression doesn't evaporate the way it might in a drier climate. Subfloor systems and wall cavities stay wet longer, which accelerates mold colonization — sometimes beginning within 24 to 48 hours of saturation. Post-fire restoration in Auburn almost always includes moisture mapping alongside smoke and soot remediation, not as an upsell, but because the two problems arrive together.
+The region's climate adds a layer of complexity. Western Washington's persistent moisture means that water from fire suppression doesn't evaporate the way it might in a drier climate. Subfloor systems and wall cavities stay wet longer, which accelerates mold colonization, sometimes beginning within 24 to 48 hours of saturation. Post-fire restoration in Auburn almost always includes moisture mapping alongside smoke and soot remediation, not as an upsell, but because the two problems arrive together.
 
 ## How We Work With Your Insurance Company
 
-Filing a fire damage claim is stressful on top of an already stressful situation. We work directly with all major insurance carriers and can provide the detailed line-item documentation your adjuster needs — scope of loss, photo evidence, drying logs, and material inventories.
+Filing a fire damage claim is stressful on top of an already stressful situation. We work directly with all major insurance carriers and can provide the detailed line-item documentation your adjuster needs, scope of loss, photo evidence, drying logs, and material inventories.
 
-Here's the division of labor: we document the damage, communicate with the adjuster, and manage the remediation and reconstruction scope. You handle your personal property inventory (clothing, furniture, electronics) for your contents claim — we can point you to the right resources for that if you need them. We're licensed as a General Contractor in Washington State (WA L&I #NATIORC792M6), which means we can carry the project from emergency response through full structural rebuild under one roof, simplifying the insurance process considerably.
+Here's the division of labor: we document the damage, communicate with the adjuster, and manage the remediation and reconstruction scope. You handle your personal property inventory (clothing, furniture, electronics) for your contents claim, we can point you to the right resources for that if you need them. We're licensed as a General Contractor in Washington State (WA L&I #NATIORC792M6), which means we can carry the project from emergency response through full structural rebuild under one roof, simplifying the insurance process considerably.
 
 We do not require payment upfront before insurance settles. We'll walk you through what to expect before any work begins.
 
@@ -58,8 +58,8 @@ Our Federal Way headquarters sits roughly 10–14 miles from central Auburn via 
 
 If you're in the West Hill or Lea Hill neighborhoods, add a few minutes depending on traffic at the Auburn-Black Diamond Road corridor. If you're near the Auburn Municipal Airport or the downtown core, we're often there faster.
 
-We answer live 24 hours a day, 7 days a week — no answering service, no callback queue during business hours only. When you reach (206) 883-0333, you're reaching someone who can dispatch a crew.
+We answer live 24 hours a day, 7 days a week, no answering service, no callback queue during business hours only. When you reach (206) 883-0333, you're reaching someone who can dispatch a crew.
 
 ---
 
-If the fire was recent, don't wait to see how bad it gets. Smoke damage compounds quickly, and the difference between a remediation job and a full gut renovation often comes down to how fast the response was. Reach us at **(206) 883-0333** — we'll tell you exactly what we're seeing and what comes next before any work begins.
+If the fire was recent, don't wait to see how bad it gets. Smoke damage compounds quickly, and the difference between a remediation job and a full gut renovation often comes down to how fast the response was. Reach us at **(206) 883-0333**, we'll tell you exactly what we're seeing and what comes next before any work begins.

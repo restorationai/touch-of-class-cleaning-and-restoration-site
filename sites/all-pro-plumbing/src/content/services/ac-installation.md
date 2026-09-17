@@ -19,11 +19,11 @@ rendered: true
 ---
 ## When the old unit finally gives out
 
-An AC that's been limping through Bakersfield summers for 15 years doesn't usually fail gracefully — it short-cycles on a 105° afternoon, trips the breaker twice before you give up, and leaves you standing in a house that won't cool below 85°. At that point, another repair is throwing money at a system that's already past its useful life. A properly sized, properly installed replacement is the reset the house actually needs.
+An AC that's been limping through Bakersfield summers for 15 years doesn't usually fail gracefully, it short-cycles on a 105° afternoon, trips the breaker twice before you give up, and leaves you standing in a house that won't cool below 85°. At that point, another repair is throwing money at a system that's already past its useful life. A properly sized, properly installed replacement is the reset the house actually needs.
 
 ## What AC installation and replacement actually involves
 
-Central air installation and replacement isn't a swap of one box for another. The outdoor condenser, the indoor air handler or coil, the refrigerant line set, the electrical disconnect, the thermostat wiring, and the drain line all have to work together — and the whole system has to be sized correctly for the square footage, insulation, and window exposure of your specific home.
+Central air installation and replacement isn't a swap of one box for another. The outdoor condenser, the indoor air handler or coil, the refrigerant line set, the electrical disconnect, the thermostat wiring, and the drain line all have to work together, and the whole system has to be sized correctly for the square footage, insulation, and window exposure of your specific home.
 
 In the Bakersfield area, sizing matters more than most places. A unit that's too small runs constantly and still can't keep up on triple-digit days. A unit that's too large short-cycles, pulls humidity poorly, and wears out faster than it should. Equipment selection also affects long-term operating costs: today's high SEER2 air conditioners can reach 18–22 SEER2 versus the 13–14 SEER2 of a system installed a decade ago, which translates to real monthly savings when your AC runs six to eight months a year.
 
@@ -32,13 +32,13 @@ Timeline for a standard residential replacement is typically one day for the equ
 ## Our process
 
 **1. Load calculation and equipment selection**
-Before any equipment is ordered, we run a Manual J load calculation — the industry-standard method for determining how much cooling capacity your home actually needs. We factor in square footage, ceiling height, insulation values, window area and orientation, and local design temperatures. This is where system sizing is determined, not by guessing based on the old unit's tonnage.
+Before any equipment is ordered, we run a Manual J load calculation, the industry-standard method for determining how much cooling capacity your home actually needs. We factor in square footage, ceiling height, insulation values, window area and orientation, and local design temperatures. This is where system sizing is determined, not by guessing based on the old unit's tonnage.
 
 **2. Equipment and refrigerant line assessment**
 We review the existing line set, air handler or furnace coil, electrical panel capacity, and disconnect box. If the line set is sized correctly and in good condition, it can often be reused. If the existing system used R-22 refrigerant (phased out federally), a full line set flush or replacement is required before charging a new R-410A or R-454B system. We walk you through what needs to replace and why before anything is ordered.
 
 **3. Permit pull and scheduled installation**
-In Kern County, AC replacement requires a mechanical permit. We pull the permit, schedule the installation date, and coordinate the inspection — you don't have to manage that process. On installation day, the old condenser and coil are removed, the new equipment is set and connected, refrigerant is charged to manufacturer spec, and the system is commissioned with a full operational test.
+In Kern County, AC replacement requires a mechanical permit. We pull the permit, schedule the installation date, and coordinate the inspection, you don't have to manage that process. On installation day, the old condenser and coil are removed, the new equipment is set and connected, refrigerant is charged to manufacturer spec, and the system is commissioned with a full operational test.
 
 **4. System commissioning and airflow verification**
 After startup, we measure supply and return temperatures, check static pressure across the air handler, verify refrigerant charge with gauges, and confirm that every register in the house is delivering conditioned air. A new condenser sitting outside means nothing if the ductwork is leaking 30% of that air into the attic.
@@ -48,22 +48,22 @@ We walk you through thermostat operation, filter replacement schedule, and what 
 
 ## What separates a good installation from a bad one
 
-The most common mistake in residential AC installation is skipping the load calculation and simply matching the old unit's tonnage. If the original system was oversized — which is common in homes built before energy codes tightened — you end up replacing a problem with the same problem.
+The most common mistake in residential AC installation is skipping the load calculation and simply matching the old unit's tonnage. If the original system was oversized, which is common in homes built before energy codes tightened, you end up replacing a problem with the same problem.
 
 The second most common issue is refrigerant charge. An improperly charged system can lose 5–20% of its efficiency and will wear the compressor prematurely. Charge should be verified with gauges against manufacturer subcooling or superheat targets, not estimated.
 
-Electrical is the third area where corners get cut. A new high-efficiency condenser often draws different amperage than the unit it replaced. The disconnect, breaker, and wire gauge all need to match the new equipment's nameplate — not the old one's.
+Electrical is the third area where corners get cut. A new high-efficiency condenser often draws different amperage than the unit it replaced. The disconnect, breaker, and wire gauge all need to match the new equipment's nameplate, not the old one's.
 
 Finally, ductwork is frequently ignored during an AC replacement. A new, efficient condenser paired with a leaky or undersized duct system will underperform from day one. A thorough installation includes at minimum a visual inspection of accessible ductwork and a static pressure measurement.
 
 ## Seasonal and regional considerations
 
-Bakersfield's climate puts more annual hours on residential AC systems than most of California. The San Joaquin Valley's combination of intense summer heat and poor overnight recovery means a condenser installed here accumulates wear faster than the same unit in a milder coastal climate. That makes equipment quality and correct refrigerant charge especially important — a system that's slightly undercharged in San Jose might still limp along; the same system in Bakersfield in August will struggle visibly.
+Bakersfield's climate puts more annual hours on residential AC systems than most of California. The San Joaquin Valley's combination of intense summer heat and poor overnight recovery means a condenser installed here accumulates wear faster than the same unit in a milder coastal climate. That makes equipment quality and correct refrigerant charge especially important, a system that's slightly undercharged in San Jose might still limp along; the same system in Bakersfield in August will struggle visibly.
 
 Hard water in the valley also affects condensate drain lines and coil cleanliness over time. We clear and treat the condensate drain at installation so you're not dealing with a backed-up drain line in your first summer.
 
 ## Service area
 
-All Pro Plumbing Heating and Air installs and replaces central air systems throughout Bakersfield and the surrounding communities — including Oildale, Rosedale, Shafter, Wasco, Delano, Tehachapi, and Arvin. Dedicated city-specific pages for AC installation are linked from the navigation if you want information specific to your area.
+All Pro Plumbing Heating and Air installs and replaces central air systems throughout Bakersfield and the surrounding communities, including Oildale, Rosedale, Shafter, Wasco, Delano, Tehachapi, and Arvin. Dedicated city-specific pages for AC installation are linked from the navigation if you want information specific to your area.
 
-If your AC gave out today — or you've been patching the same aging system for too long — call **(661) 863-9242** to schedule a load calculation and equipment quote. We're available 24/7, and we'll give you a clear picture of your options and costs before any work begins.
+If your AC gave out today, or you've been patching the same aging system for too long, call **(661) 863-9242** to schedule a load calculation and equipment quote. We're available 24/7, and we'll give you a clear picture of your options and costs before any work begins.

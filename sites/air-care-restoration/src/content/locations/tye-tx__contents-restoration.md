@@ -20,15 +20,15 @@ state: "TX"
 service_display: "Contents Restoration and Storage"
 rendered: true
 ---
-West Texas wind carries more than dust — it carries the residue of whatever burned, flooded, or went wrong inside your home. In Tye, where the open terrain between Abilene and the Taylor County line means properties are exposed to the full force of seasonal storms, hail events, and the occasional grass fire that sweeps through the area, contents damage rarely stops at the walls. Furniture, clothing, documents, electronics, and irreplaceable keepsakes absorb smoke odor, soot, and water in ways that aren't always visible on the surface. Air Care Restoration's contents restoration and storage service is built to recover what matters most — before secondary damage makes recovery impossible.
+West Texas wind carries more than dust, it carries the residue of whatever burned, flooded, or went wrong inside your home. In Tye, where the open terrain between Abilene and the Taylor County line means properties are exposed to the full force of seasonal storms, hail events, and the occasional grass fire that sweeps through the area, contents damage rarely stops at the walls. Furniture, clothing, documents, electronics, and irreplaceable keepsakes absorb smoke odor, soot, and water in ways that aren't always visible on the surface. Air Care Restoration's contents restoration and storage service is built to recover what matters most, before secondary damage makes recovery impossible.
 
 ## Why Tye Properties See Contents Restoration Challenges
 
-The climate in this part of Taylor County is unforgiving to building materials and the belongings inside them. Summers push well past 100°F, and that heat accelerates off-gassing from smoke-damaged fabrics and finishes. When a fire or water loss happens in July, the window between the initial event and irreversible damage to upholstered furniture, wood pieces, and paper documents is measured in hours — not days.
+The climate in this part of Taylor County is unforgiving to building materials and the belongings inside them. Summers push well past 100°F, and that heat accelerates off-gassing from smoke-damaged fabrics and finishes. When a fire or water loss happens in July, the window between the initial event and irreversible damage to upholstered furniture, wood pieces, and paper documents is measured in hours, not days.
 
-Tye's housing stock skews toward single-family homes built in the latter half of the twentieth century, many with pier-and-beam or slab foundations that can trap moisture beneath flooring after a plumbing failure. Contents sitting on flooring over a compromised slab — rugs, furniture legs, stored boxes — begin absorbing that moisture from below even when the surface looks dry. That pattern makes early pack-out critical: getting belongings out of the structure and into a controlled environment stops the damage clock.
+Tye's housing stock skews toward single-family homes built in the latter half of the twentieth century, many with pier-and-beam or slab foundations that can trap moisture beneath flooring after a plumbing failure. Contents sitting on flooring over a compromised slab, rugs, furniture legs, stored boxes, begin absorbing that moisture from below even when the surface looks dry. That pattern makes early pack-out critical: getting belongings out of the structure and into a controlled environment stops the damage clock.
 
-Grass and brush fires are a real seasonal risk in this corridor. Smoke from a nearby field fire can infiltrate a home through HVAC systems and settle on every horizontal surface — upholstery, bookshelves, kitchen items — without a single flame touching the structure. That type of secondary smoke exposure is often overlooked until the smell becomes permanent.
+Grass and brush fires are a real seasonal risk in this corridor. Smoke from a nearby field fire can infiltrate a home through HVAC systems and settle on every horizontal surface, upholstery, bookshelves, kitchen items, without a single flame touching the structure. That type of secondary smoke exposure is often overlooked until the smell becomes permanent.
 
 ## Our Contents Restoration and Storage Process in Tye
 
@@ -36,25 +36,25 @@ Every pack-out starts with a detailed inventory. Each item is photographed, cata
 
 Items are transported to a climate-controlled facility where temperature and humidity are maintained at levels that prevent further deterioration. Depending on the type of loss, contents go through one or more of the following:
 
-- **Ultrasonic cleaning** for hard surfaces, metals, and non-porous items — a process that uses high-frequency sound waves in a cleaning solution to remove soot and residue from detailed surfaces without abrasion.
+- **Ultrasonic cleaning** for hard surfaces, metals, and non-porous items, a process that uses high-frequency sound waves in a cleaning solution to remove soot and residue from detailed surfaces without abrasion.
 - **Ozone and hydroxyl treatment** for smoke odor embedded in fabrics, upholstery, and soft goods.
 - **Dry cleaning and wet cleaning protocols** for textiles, calibrated to the fiber content and degree of soiling.
 - **Document and photo recovery** using controlled drying techniques to stabilize paper items before they become brittle or fused.
 
-Once the structure is cleared and restored, contents are returned in the same documented order they left — matched to your inventory so nothing is unaccounted for.
+Once the structure is cleared and restored, contents are returned in the same documented order they left, matched to your inventory so nothing is unaccounted for.
 
 ## Reaching Tye from Abilene
 
-Air Care Restoration is based in Abilene, and Tye sits just a short drive east on I-20 — a route the crew knows well. Because the team operates 24/7, a call placed at any hour connects you with a live dispatcher who can get a crew moving toward your property without waiting for a business-hours window. In a contents loss, that speed matters: the longer smoke-damaged textiles sit in an affected structure, the deeper the odor compounds bond to fibers.
+Air Care Restoration is based in Abilene, and Tye sits just a short drive east on I-20, a route the crew knows well. Because the team operates 24/7, a call placed at any hour connects you with a live dispatcher who can get a crew moving toward your property without waiting for a business-hours window. In a contents loss, that speed matters: the longer smoke-damaged textiles sit in an affected structure, the deeper the odor compounds bond to fibers.
 
 ## Tye Insurance Coordination
 
-Contents losses are a covered line item under most standard homeowners policies, but the documentation requirements are specific. Carriers want itemized inventories, condition assessments, and in many cases a written scope of cleaning or replacement for each category of goods. The pack-out process Air Care Restoration uses generates that documentation automatically — photographs, condition notes, and cleaning records that go directly into the claim file. The goal is to reduce the back-and-forth between you and your adjuster and keep the claim moving.
+Contents losses are a covered line item under most standard homeowners policies, but the documentation requirements are specific. Carriers want itemized inventories, condition assessments, and in many cases a written scope of cleaning or replacement for each category of goods. The pack-out process Air Care Restoration uses generates that documentation automatically, photographs, condition notes, and cleaning records that go directly into the claim file. The goal is to reduce the back-and-forth between you and your adjuster and keep the claim moving.
 
 The IICRC FSRT (Fire and Smoke Restoration Technician) certification the team holds means the cleaning methods applied to your contents align with the standards carriers expect to see documented in a claim.
 
 ## Local Note
 
-In this stretch of Taylor County, HVAC systems in homes built before the 1990s often use older duct configurations that pull air from unconditioned spaces — attics and crawl spaces that collect dust, pollen, and in a fire event, fine soot particles. When smoke enters through the system, it deposits on contents throughout the entire home, not just the rooms nearest the fire. Homeowners sometimes focus the contents pack-out on the room of origin and leave the rest. In Tye's older housing stock, that approach almost always leaves smoke-contaminated items behind. A whole-home contents assessment before any items are left in place is the safer starting point.
+In this stretch of Taylor County, HVAC systems in homes built before the 1990s often use older duct configurations that pull air from unconditioned spaces, attics and crawl spaces that collect dust, pollen, and in a fire event, fine soot particles. When smoke enters through the system, it deposits on contents throughout the entire home, not just the rooms nearest the fire. Homeowners sometimes focus the contents pack-out on the room of origin and leave the rest. In Tye's older housing stock, that approach almost always leaves smoke-contaminated items behind. A whole-home contents assessment before any items are left in place is the safer starting point.
 
 If your home in Tye has been affected by fire, smoke, flooding, or storm damage, call Air Care Restoration at (325) 339-8723. The crew is available around the clock, the pack-out process starts with a full inventory, and nothing leaves your property without documentation.

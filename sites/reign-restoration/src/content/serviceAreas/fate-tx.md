@@ -19,41 +19,41 @@ state: "TX"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall or a storm pushes water under your back door, Fate property owners need someone who can show up ready to work — not someone who has to figure out the area first. Reign Restoration operates out of Royse City, just a short drive west on US-380, and we handle water damage mitigation, fire and smoke cleanup, mold remediation, and full reconstruction for homes and commercial properties throughout Fate and the surrounding Rockwall County corridor.
+When a pipe bursts behind a wall or a storm pushes water under your back door, Fate property owners need someone who can show up ready to work, not someone who has to figure out the area first. Reign Restoration operates out of Royse City, just a short drive west on US-380, and we handle water damage mitigation, fire and smoke cleanup, mold remediation, and full reconstruction for homes and commercial properties throughout Fate and the surrounding Rockwall County corridor.
 
 ## Restoration emergencies common in Fate
 
-Fate sits in one of the fastest-growing corridors in North Texas, and that growth pattern shapes the kind of damage calls we get. A large share of the housing stock is production-built — slab-on-grade construction from the 2000s through today — which means plumbing runs through interior walls and under slabs where a slow leak can go undetected for weeks. North Texas clay soil expands and contracts dramatically with seasonal moisture swings, putting stress on slab foundations and the supply lines embedded in them. When a slab leak finally announces itself, it often does so through buckled LVP flooring or a water bill that doubled overnight.
+Fate sits in one of the fastest-growing corridors in North Texas, and that growth pattern shapes the kind of damage calls we get. A large share of the housing stock is production-built, slab-on-grade construction from the 2000s through today, which means plumbing runs through interior walls and under slabs where a slow leak can go undetected for weeks. North Texas clay soil expands and contracts dramatically with seasonal moisture swings, putting stress on slab foundations and the supply lines embedded in them. When a slab leak finally announces itself, it often does so through buckled LVP flooring or a water bill that doubled overnight.
 
-Rockwall County also sits in a hail corridor that tracks northeast out of the DFW Metroplex. A single spring storm can leave dozens of Fate homes with compromised roof decking, and if that damage isn't caught quickly, the next rain event drives water into attic insulation and down interior wall cavities — exactly the warm, dark, damp environment where mold colonies establish within 24 to 72 hours. Summer humidity compounds the problem: when outdoor dew points climb into the mid-70s, even a small moisture intrusion can sustain microbial growth long after the visible water is gone.
+Rockwall County also sits in a hail corridor that tracks northeast out of the DFW Metroplex. A single spring storm can leave dozens of Fate homes with compromised roof decking, and if that damage isn't caught quickly, the next rain event drives water into attic insulation and down interior wall cavities, exactly the warm, dark, damp environment where mold colonies establish within 24 to 72 hours. Summer humidity compounds the problem: when outdoor dew points climb into the mid-70s, even a small moisture intrusion can sustain microbial growth long after the visible water is gone.
 
 ## Services we provide in Fate
 
 ### Water damage mitigation and drying
 
-Water damage in Fate frequently starts as a hidden problem — a refrigerator ice-maker line, a slow toilet supply valve, or a washing machine hose that finally gives out. By the time a homeowner notices discoloration on drywall or a soft spot in the subfloor, moisture has often migrated well beyond the source. We use thermal imaging and calibrated moisture meters to trace the full extent of saturation before any drying equipment is placed, so nothing gets missed behind cabinetry or under flooring.
+Water damage in Fate frequently starts as a hidden problem, a refrigerator ice-maker line, a slow toilet supply valve, or a washing machine hose that finally gives out. By the time a homeowner notices discoloration on drywall or a soft spot in the subfloor, moisture has often migrated well beyond the source. We use thermal imaging and calibrated moisture meters to trace the full extent of saturation before any drying equipment is placed, so nothing gets missed behind cabinetry or under flooring.
 
 ### Fire and smoke damage restoration
 
-Smoke residue doesn't stay where the fire was. In the open floor plans common to newer Fate construction, soot travels through HVAC returns and settles on surfaces in rooms that never saw flames. The acrid, oily smell that lingers in cabinetry and ductwork weeks after a kitchen fire is protein smoke — one of the hardest residues to neutralize without the right chemistry and equipment. We address both the visible char and the invisible odor compounds that keep reminding a family the fire happened.
+Smoke residue doesn't stay where the fire was. In the open floor plans common to newer Fate construction, soot travels through HVAC returns and settles on surfaces in rooms that never saw flames. The acrid, oily smell that lingers in cabinetry and ductwork weeks after a kitchen fire is protein smoke, one of the hardest residues to neutralize without the right chemistry and equipment. We address both the visible char and the invisible odor compounds that keep reminding a family the fire happened.
 
 ### Mold remediation
 
-Given Fate's climate and housing age, mold calls often follow a roof leak or an HVAC condensate line that backed up and dripped into a ceiling cavity for a season. We contain the affected area, remove compromised materials, and treat structural surfaces — then verify clearance before reconstruction begins. We don't cut corners on containment; cross-contamination into adjacent rooms is how a manageable mold problem becomes a whole-house project.
+Given Fate's climate and housing age, mold calls often follow a roof leak or an HVAC condensate line that backed up and dripped into a ceiling cavity for a season. We contain the affected area, remove compromised materials, and treat structural surfaces, then verify clearance before reconstruction begins. We don't cut corners on containment; cross-contamination into adjacent rooms is how a manageable mold problem becomes a whole-house project.
 
 ### Reconstruction and build-back
 
-Mitigation is only half the job. Once the structure is dry and clean, Reign Restoration can handle the rebuild — drywall, flooring, cabinetry, paint — so homeowners aren't left coordinating a separate contractor after an already stressful event.
+Mitigation is only half the job. Once the structure is dry and clean, Reign Restoration can handle the rebuild, drywall, flooring, cabinetry, paint, so homeowners aren't left coordinating a separate contractor after an already stressful event.
 
 ## Coverage and how fast we can get there
 
-Royse City and Fate share a border, and US-380 connects our HQ directly to the heart of Fate in a straightforward drive under normal traffic conditions. Whether a call comes from the established neighborhoods near Fate's original town center or from the newer subdivisions that have expanded toward the Hunt County line, we're closer than most DFW-based restoration companies that list Fate as a service area but dispatch from the far side of the metro. We schedule promptly and communicate an estimated arrival time when you call — (214) 304-0621.
+Royse City and Fate share a border, and US-380 connects our HQ directly to the heart of Fate in a straightforward drive under normal traffic conditions. Whether a call comes from the established neighborhoods near Fate's original town center or from the newer subdivisions that have expanded toward the Hunt County line, we're closer than most DFW-based restoration companies that list Fate as a service area but dispatch from the far side of the metro. We schedule promptly and communicate an estimated arrival time when you call, (214) 304-0621.
 
 ## Building stock, site conditions, and permits in Fate
 
 Most of Fate's homes are young enough that supply lines are PEX or CPVC rather than copper, and the failures we see reflect that: fittings at manifolds, and lines run through unconditioned attics that split during a hard North Texas freeze. Older houses near the original townsite are a different animal, with cast iron or galvanized drains that scale shut and back up into finished space.
 
-Many newer subdivisions here are built on graded pads and engineered fill, and slabs are often post-tensioned. That matters during demolition — cutting a slab to reach a leak is not a job for a saw and a guess, and tendon locations have to be identified first.
+Many newer subdivisions here are built on graded pads and engineered fill, and slabs are often post-tensioned. That matters during demolition, cutting a slab to reach a leak is not a job for a saw and a guess, and tendon locations have to be identified first.
 
 Structural repair and reroofing generally require a permit from the City of Fate, and subdivisions with active HOAs often add their own approval step for exterior materials and colors.
 

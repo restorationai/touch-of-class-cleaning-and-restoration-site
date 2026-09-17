@@ -24,38 +24,38 @@ Water is already moving. It's wicking into drywall, soaking beneath hardwood, an
 
 ## Why Seattle Properties See Water Damage So Often
 
-Seattle averages around 37 inches of rain a year — not the most in the country, but it arrives in long, relentless stretches from October through April rather than short summer downpours. That sustained moisture load puts pressure on older drainage systems, window seals, and roof assemblies in ways that a single heavy storm in a drier climate wouldn't. A lot of Seattle's housing stock — the Craftsman bungalows in Ballard, the older two-story colonials in Beacon Hill, the mid-century ramblers in Rainier Beach — was built before modern vapor barriers and waterproofing standards existed. Basements in those homes can take on water through foundation cracks that have been slowly widening for decades.
+Seattle averages around 37 inches of rain a year, not the most in the country, but it arrives in long, relentless stretches from October through April rather than short summer downpours. That sustained moisture load puts pressure on older drainage systems, window seals, and roof assemblies in ways that a single heavy storm in a drier climate wouldn't. A lot of Seattle's housing stock, the Craftsman bungalows in Ballard, the older two-story colonials in Beacon Hill, the mid-century ramblers in Rainier Beach, was built before modern vapor barriers and waterproofing standards existed. Basements in those homes can take on water through foundation cracks that have been slowly widening for decades.
 
 Beyond rain, the region's freeze-thaw cycles in January and February stress supply lines and hose bibs. A pipe that sweated harmlessly through ten mild winters can split during one hard cold snap. And Seattle's density means that a neighbor's plumbing failure or a shared-wall leak in a Capitol Hill condo can become your emergency without any warning at all.
 
 ## What Our Water Damage Restoration Process Looks Like
 
-When a technician arrives, the first job is stopping the damage from spreading — not paperwork, not a sales pitch. We locate the moisture boundary using thermal imaging cameras and moisture meters, because water travels further than it looks. Visible puddles are rarely the full picture.
+When a technician arrives, the first job is stopping the damage from spreading, not paperwork, not a sales pitch. We locate the moisture boundary using thermal imaging cameras and moisture meters, because water travels further than it looks. Visible puddles are rarely the full picture.
 
 From there, the process moves in a clear sequence:
 
-**Extraction first.** Truck-mounted extraction units pull standing water out of carpet, flooring, and crawl spaces faster than portable units. For larger commercial losses — a burst sprinkler line in a SoDo warehouse, for example — we bring high-capacity equipment scaled to the volume.
+**Extraction first.** Truck-mounted extraction units pull standing water out of carpet, flooring, and crawl spaces faster than portable units. For larger commercial losses, a burst sprinkler line in a SoDo warehouse, for example, we bring high-capacity equipment scaled to the volume.
 
-**Structural drying next.** Industrial-grade desiccant dehumidifiers and high-velocity air movers are positioned based on a drying plan, not guesswork. We monitor temperature, humidity, and moisture readings in the structure daily and adjust equipment placement as materials dry. In Seattle's cool, damp air, this step can't be rushed — ambient humidity outside will work against you if the drying system isn't sized correctly.
+**Structural drying next.** Industrial-grade desiccant dehumidifiers and high-velocity air movers are positioned based on a drying plan, not guesswork. We monitor temperature, humidity, and moisture readings in the structure daily and adjust equipment placement as materials dry. In Seattle's cool, damp air, this step can't be rushed, ambient humidity outside will work against you if the drying system isn't sized correctly.
 
 **Documentation throughout.** Every moisture reading, every equipment placement, every day of drying is logged. That record is what your insurance adjuster needs to process the claim accurately.
 
-**Controlled demolition when necessary.** Saturated drywall and insulation can't be dried in place — they have to come out. We remove only what can't be saved, clearly mark what we've taken, and prepare the structure for reconstruction. As a licensed general contractor (WA L&I #NATIORC792M6), we handle the rebuild ourselves rather than handing you off to a second company.
+**Controlled demolition when necessary.** Saturated drywall and insulation can't be dried in place, they have to come out. We remove only what can't be saved, clearly mark what we've taken, and prepare the structure for reconstruction. As a licensed general contractor (WA L&I #NATIORC792M6), we handle the rebuild ourselves rather than handing you off to a second company.
 
 ## Response Times Across Seattle
 
-Our headquarters is in Federal Way, roughly 25 miles south of downtown Seattle via I-5. Under normal traffic conditions, that puts a crew at most South Seattle and SODO addresses within 45–60 minutes. Neighborhoods further north — Fremont, Wallingford, Northgate, Lake City — typically see arrival within 60–90 minutes. We respond 24 hours a day, seven days a week, including holidays, because pipe failures don't observe business hours.
+Our headquarters is in Federal Way, roughly 25 miles south of downtown Seattle via I-5. Under normal traffic conditions, that puts a crew at most South Seattle and SODO addresses within 45–60 minutes. Neighborhoods further north, Fremont, Wallingford, Northgate, Lake City, typically see arrival within 60–90 minutes. We respond 24 hours a day, seven days a week, including holidays, because pipe failures don't observe business hours.
 
 If you're in a high-rise or multi-unit building, let us know when you call. We'll coordinate with building management on access and shutoff procedures before the crew arrives so no time is wasted on-site.
 
 ## Navigating Insurance for a Water Damage Claim
 
-Most sudden and accidental water losses — a burst pipe, an appliance supply line failure, an overflow — are covered under standard homeowners' policies. Flood damage from rising groundwater or storm surge is a separate coverage, typically through the National Flood Insurance Program. We'll be straightforward with you about which category your loss falls into.
+Most sudden and accidental water losses, a burst pipe, an appliance supply line failure, an overflow, are covered under standard homeowners' policies. Flood damage from rising groundwater or storm surge is a separate coverage, typically through the National Flood Insurance Program. We'll be straightforward with you about which category your loss falls into.
 
 We work directly with all major carriers and can communicate with your adjuster throughout the process. We provide the moisture logs, equipment records, and photo documentation that adjusters require to approve a claim. What you'll need to handle on your side: filing the initial claim with your insurer and reviewing your policy's deductible. We'll take it from there.
 
-If you're uncertain whether your damage is covered, document everything with your phone before touching anything — photos and short videos of the source, the affected areas, and any visible damage to contents. That documentation protects you regardless of what the policy says.
+If you're uncertain whether your damage is covered, document everything with your phone before touching anything, photos and short videos of the source, the affected areas, and any visible damage to contents. That documentation protects you regardless of what the policy says.
 
 ---
 
-The longer water sits, the more it costs to fix — and after 24 to 48 hours, mold colonization becomes a real secondary concern in Seattle's climate. If you're looking at water damage right now, reach out to National Restoration Construction at **(206) 883-0333**. An IICRC-certified technician will walk you through what happens next before anyone sets foot in your home.
+The longer water sits, the more it costs to fix, and after 24 to 48 hours, mold colonization becomes a real secondary concern in Seattle's climate. If you're looking at water damage right now, reach out to National Restoration Construction at **(206) 883-0333**. An IICRC-certified technician will walk you through what happens next before anyone sets foot in your home.

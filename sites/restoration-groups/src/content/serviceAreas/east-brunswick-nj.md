@@ -19,13 +19,13 @@ state: "NJ"
 primary: false
 rendered: true
 ---
-When a pipe bursts in a finished basement off Old Bridge Turnpike or a roof leak soaks a commercial tenant near Brunswick Square Mall, The Restoration Group dispatches from Kenilworth around the clock — handling water extraction, structural drying, mold remediation, fire and smoke cleanup, and full reconstruction for homeowners, landlords, and property managers across East Brunswick's 08816 ZIP code.
+When a pipe bursts in a finished basement off Old Bridge Turnpike or a roof leak soaks a commercial tenant near Brunswick Square Mall, The Restoration Group dispatches from Kenilworth around the clock, handling water extraction, structural drying, mold remediation, fire and smoke cleanup, and full reconstruction for homeowners, landlords, and property managers across East Brunswick's 08816 ZIP code.
 
 ## Restoration emergencies common in East Brunswick
 
-East Brunswick's housing stock tells the story of its restoration calls. The town grew rapidly from the 1950s through the 1970s, filling in with ranches, split-levels, and colonials — nearly all of them with finished basements and original supply plumbing that is now 50 to 70 years old. Cast-iron drain lines corrode from the inside out; galvanized supply pipes scale shut and then rupture without warning. When they fail, they fail into finished living space.
+East Brunswick's housing stock tells the story of its restoration calls. The town grew rapidly from the 1950s through the 1970s, filling in with ranches, split-levels, and colonials, nearly all of them with finished basements and original supply plumbing that is now 50 to 70 years old. Cast-iron drain lines corrode from the inside out; galvanized supply pipes scale shut and then rupture without warning. When they fail, they fail into finished living space.
 
-The Lawrence Brook watershed and the Farrington Lake drainage basin thread through low-lying sections of town, and those corridors flooded seriously during the remnants of Hurricane Irene and again during Ida. Neighborhoods that sit in the floodplain — including areas near Frost Woods and along the Lawrence Brook greenway — see groundwater intrusion and storm-surge flooding that standard sump systems cannot keep up with during a slow-moving rain event.
+The Lawrence Brook watershed and the Farrington Lake drainage basin thread through low-lying sections of town, and those corridors flooded seriously during the remnants of Hurricane Irene and again during Ida. Neighborhoods that sit in the floodplain, including areas near Frost Woods and along the Lawrence Brook greenway, see groundwater intrusion and storm-surge flooding that standard sump systems cannot keep up with during a slow-moving rain event.
 
 The Route 18 corridor adds a commercial dimension. The big-box retail strip, Brunswick Square Mall, and the restaurant cluster generate their own loss patterns: overnight sprinkler discharges, roof membrane failures that go unnoticed until Monday morning, and grease-exhaust fires that leave smoke residue baked into HVAC ductwork. Dense townhome and condo developments in areas like Tanglewood and the Village of the Golden Triangle mean a single failed washing-machine supply line can migrate through shared walls and affect multiple units before anyone notices.
 
@@ -33,15 +33,15 @@ The Route 18 corridor adds a commercial dimension. The big-box retail strip, Bru
 
 ### Water damage restoration
 
-Water damage in East Brunswick most often starts below grade. A finished basement in the Farrington or Frost Woods neighborhoods can absorb hundreds of gallons before the homeowner realizes the sump pump failed during a storm. We extract standing water, remove saturated flooring and drywall, and dry the structural assembly to IICRC S500 standards — documenting moisture readings throughout so your insurance adjuster has a complete picture.
+Water damage in East Brunswick most often starts below grade. A finished basement in the Farrington or Frost Woods neighborhoods can absorb hundreds of gallons before the homeowner realizes the sump pump failed during a storm. We extract standing water, remove saturated flooring and drywall, and dry the structural assembly to IICRC S500 standards, documenting moisture readings throughout so your insurance adjuster has a complete picture.
 
 ### Mold remediation
 
-Mold can begin colonizing porous material within 24 to 48 hours of a moisture event. East Brunswick's older homes — especially those with block-wall basements and limited vapor control — are particularly susceptible after any water intrusion. We contain affected areas, remove compromised materials, and treat surfaces before rebuilding, following EPA guidelines throughout the process.
+Mold can begin colonizing porous material within 24 to 48 hours of a moisture event. East Brunswick's older homes, especially those with block-wall basements and limited vapor control, are particularly susceptible after any water intrusion. We contain affected areas, remove compromised materials, and treat surfaces before rebuilding, following EPA guidelines throughout the process.
 
 ### Fire and smoke damage restoration
 
-Smoke residue is deceptive: it migrates through HVAC systems and settles into wall cavities well beyond the room where a fire started. After a kitchen fire or a garage fire in one of East Brunswick's split-level homes, the odor and soot often reach the second floor before suppression crews arrive. We assess the full migration path, clean structural surfaces, and deodorize — not just the room of origin.
+Smoke residue is deceptive: it migrates through HVAC systems and settles into wall cavities well beyond the room where a fire started. After a kitchen fire or a garage fire in one of East Brunswick's split-level homes, the odor and soot often reach the second floor before suppression crews arrive. We assess the full migration path, clean structural surfaces, and deodorize, not just the room of origin.
 
 ### Commercial restoration
 
@@ -49,18 +49,18 @@ For property managers and business owners along the Route 18 corridor or inside 
 
 ### Reconstruction
 
-Once mitigation is complete, the same crew that dried your home can rebuild it — framing, drywall, flooring, painting. One contractor, one file, one point of contact from the first call to the final walkthrough.
+Once mitigation is complete, the same crew that dried your home can rebuild it, framing, drywall, flooring, painting. One contractor, one file, one point of contact from the first call to the final walkthrough.
 
 ## Coverage and how fast we can get there
 
-From our Kenilworth headquarters, East Brunswick is roughly 25 miles via the Garden State Parkway south to Route 9 or via Route 1 through Metuchen — a straightforward run that keeps us well within Middlesex County reach. Because we operate 24/7, a call at 2 a.m. from a property manager in the Village of the Golden Triangle or a homeowner off Old Bridge Turnpike gets the same dispatch response as a mid-afternoon call. We will give you an honest estimated arrival window when you call (855) 650-7422 — conditions on the Parkway and Route 18 vary, and we do not quote arrival times we cannot stand behind.
+From our Kenilworth headquarters, East Brunswick is roughly 25 miles via the Garden State Parkway south to Route 9 or via Route 1 through Metuchen, a straightforward run that keeps us well within Middlesex County reach. Because we operate 24/7, a call at 2 a.m. from a property manager in the Village of the Golden Triangle or a homeowner off Old Bridge Turnpike gets the same dispatch response as a mid-afternoon call. We will give you an honest estimated arrival window when you call (855) 650-7422, conditions on the Parkway and Route 18 vary, and we do not quote arrival times we cannot stand behind.
 
 ## Building stock, site conditions, and permits in East Brunswick
 
-Homes from the early part of the postwar boom here often have plaster over rock lath rather than drywall, and that assembly holds water far longer than it looks like it should — it needs drilled cavity drying, not just fans in the room. Anything built before the late 1970s should be assumed to carry lead paint, asbestos floor tile and mastic, and asbestos insulation on old boiler and duct runs until testing says otherwise, which shapes the demolition scope.
+Homes from the early part of the postwar boom here often have plaster over rock lath rather than drywall, and that assembly holds water far longer than it looks like it should, it needs drilled cavity drying, not just fans in the room. Anything built before the late 1970s should be assumed to carry lead paint, asbestos floor tile and mastic, and asbestos insulation on old boiler and duct runs until testing says otherwise, which shapes the demolition scope.
 
 This part of Middlesex County sits on coastal plain sands and clays, so drainage varies block to block and footings are set below a roughly three-foot frost line.
 
 Repairs beyond cosmetic replacement need permits from East Brunswick Township's construction office under the New Jersey Uniform Construction Code, with separate building, plumbing, and electrical subcode approvals. In townhome and condo clusters, the association usually controls exterior and common-element work.
 
-If you are dealing with a water, fire, mold, or structural loss anywhere in East Brunswick — from a ranch off Frost Woods to a commercial bay near the Ireland Brook Conservation Area — call The Restoration Group at **(855) 650-7422**. We answer every hour of every day and can walk you through next steps before we even arrive on site.
+If you are dealing with a water, fire, mold, or structural loss anywhere in East Brunswick, from a ranch off Frost Woods to a commercial bay near the Ireland Brook Conservation Area, call The Restoration Group at **(855) 650-7422**. We answer every hour of every day and can walk you through next steps before we even arrive on site.

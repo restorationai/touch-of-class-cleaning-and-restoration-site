@@ -18,19 +18,19 @@ service_display: "Storm Damage Restoration"
 rendered: true
 hero: '/images/services/storm-damage-restoration.webp'
 ---
-A storm can unravel months of work in a single night. Whether a windstorm peeled back your roof, a fallen Douglas fir punched through your garage, or flash flooding pushed water under your foundation, the damage compounds quickly — soaked insulation, compromised framing, mold spores activating within 24 to 48 hours. National Restoration Construction responds fast, stabilizes the structure, and carries the repair from emergency tarping all the way through finished reconstruction. One crew, one point of contact, no handoffs.
+A storm can unravel months of work in a single night. Whether a windstorm peeled back your roof, a fallen Douglas fir punched through your garage, or flash flooding pushed water under your foundation, the damage compounds quickly, soaked insulation, compromised framing, mold spores activating within 24 to 48 hours. National Restoration Construction responds fast, stabilizes the structure, and carries the repair from emergency tarping all the way through finished reconstruction. One crew, one point of contact, no handoffs.
 
 ## How We Handle Storm Damage
 
-Storm damage rarely arrives in a single, clean category. A severe weather event can combine structural impact, water intrusion, and debris penetration in the same property — and each layer has its own timeline before it gets worse.
+Storm damage rarely arrives in a single, clean category. A severe weather event can combine structural impact, water intrusion, and debris penetration in the same property, and each layer has its own timeline before it gets worse.
 
-When our crew arrives, the first priority is life-safety and structural stabilization. That means assessing load-bearing walls and roof decking before anyone walks through a compromised attic, boarding exposed openings, and deploying emergency tarps rated for Pacific Northwest rainfall. We use moisture meters and thermal imaging cameras to map water migration behind walls and under subfloors — damage that looks dry on the surface is often saturated two inches in.
+When our crew arrives, the first priority is life-safety and structural stabilization. That means assessing load-bearing walls and roof decking before anyone walks through a compromised attic, boarding exposed openings, and deploying emergency tarps rated for Pacific Northwest rainfall. We use moisture meters and thermal imaging cameras to map water migration behind walls and under subfloors, damage that looks dry on the surface is often saturated two inches in.
 
-Once the structure is secured, we move into extraction and drying. Industrial-grade truck-mount extractors pull standing water from carpets and crawlspaces. High-capacity LGR dehumidifiers and axial air movers run continuously — often 72 hours or more — until moisture readings return to regional baseline levels. We log every reading, every day, so there's a documented drying record your insurance adjuster can review.
+Once the structure is secured, we move into extraction and drying. Industrial-grade truck-mount extractors pull standing water from carpets and crawlspaces. High-capacity LGR dehumidifiers and axial air movers run continuously, often 72 hours or more, until moisture readings return to regional baseline levels. We log every reading, every day, so there's a documented drying record your insurance adjuster can review.
 
 Tree damage cleanup follows its own sequence: limb removal, stump grinding if needed, debris hauling, and then a careful look at what the impact did to the roof deck, fascia, gutters, and any interior ceiling below. A tree hit that looks cosmetic from the street can mean cracked rafters and a slow leak that won't show up until the next rainstorm.
 
-Reconstruction — framing, roofing, siding, drywall, insulation, paint — is handled in-house under General Contractor Certificate of Registration #NATIORC792M6. You won't be coordinating between a mitigation company and a separate contractor. We close the loop.
+Reconstruction, framing, roofing, siding, drywall, insulation, paint, is handled in-house under General Contractor Certificate of Registration #NATIORC792M6. You won't be coordinating between a mitigation company and a separate contractor. We close the loop.
 
 ## When to Call Us
 
@@ -39,22 +39,22 @@ Call immediately if any of the following are true after a storm:
 - **Visible sky from inside the structure.** Any breach in the roof or exterior wall is an active water intrusion point, even if it's not raining right now.
 - **Standing water or wet flooring.** Water under LVP, hardwood, or carpet begins warping subfloor within hours. Mold can colonize porous materials in as little as 24 to 48 hours in Western Washington's humidity.
 - **A tree or large branch made contact with the structure.** Even a glancing blow can shift roof trusses or crack ridge boards that aren't visible from the attic hatch.
-- **Gutters pulled away from the fascia.** This is often a sign that the fascia board itself is damaged — and that water is now channeling directly against your exterior sheathing.
+- **Gutters pulled away from the fascia.** This is often a sign that the fascia board itself is damaged, and that water is now channeling directly against your exterior sheathing.
 - **Ceiling staining or sagging.** Drywall holds water like a sponge. A sagging ceiling is a ceiling that may fail under the weight.
 
-What not to do first: don't run shop vacs over saturated carpet and consider it handled. Surface extraction without professional drying equipment leaves moisture in the pad, subfloor, and wall cavities where mold establishes itself. Don't wait to call your insurance company — most policies require prompt notification after a loss, and delays can complicate your claim.
+What not to do first: don't run shop vacs over saturated carpet and consider it handled. Surface extraction without professional drying equipment leaves moisture in the pad, subfloor, and wall cavities where mold establishes itself. Don't wait to call your insurance company, most policies require prompt notification after a loss, and delays can complicate your claim.
 
 ## What Sets Our Storm Damage Team Apart
 
 The Federal Way and greater South Sound area sees a specific kind of storm exposure: atmospheric river events that stack inches of rain in 24 hours, Puget Sound convergence zone wind events that can hit 60 mph without a named storm, and the occasional early-season freeze that turns standing water into ice damming. Our crews work in these conditions year-round, not just during declared disasters.
 
-National Restoration Construction holds IICRC certification in water damage restoration and applied structural drying — the industry's technical standard for drying protocols and equipment placement. We're also a Lead-Safe Certified Firm and EPA Certified, which matters in Federal Way's older housing stock where pre-1978 construction is common and storm damage to painted surfaces can trigger lead-safe work practice requirements.
+National Restoration Construction holds IICRC certification in water damage restoration and applied structural drying, the industry's technical standard for drying protocols and equipment placement. We're also a Lead-Safe Certified Firm and EPA Certified, which matters in Federal Way's older housing stock where pre-1978 construction is common and storm damage to painted surfaces can trigger lead-safe work practice requirements.
 
-Response time for storm damage calls in our primary service area is typically two to four hours. For active emergencies — water entering the structure, a tree on the roof — we prioritize same-day dispatch.
+Response time for storm damage calls in our primary service area is typically two to four hours. For active emergencies, water entering the structure, a tree on the roof, we prioritize same-day dispatch.
 
 ## Insurance, Billing, and the Claims Process
 
-Most homeowner policies cover sudden and accidental storm damage to the structure, including wind, hail, fallen trees, and resulting water intrusion. What they typically don't cover is damage attributed to deferred maintenance — so documentation of pre-storm condition matters.
+Most homeowner policies cover sudden and accidental storm damage to the structure, including wind, hail, fallen trees, and resulting water intrusion. What they typically don't cover is damage attributed to deferred maintenance, so documentation of pre-storm condition matters.
 
 We work directly with all major insurance carriers and can communicate with your adjuster on your behalf. Our estimators use Xactimate, the same estimating platform most adjusters use, which reduces back-and-forth and speeds up approvals. We document everything: photos before work begins, moisture logs throughout the drying phase, and a line-item scope of repairs that matches what the adjuster will review.
 
@@ -62,4 +62,4 @@ You're responsible for your deductible. We'll be straight with you about what th
 
 ---
 
-If a storm has hit your property and you're not sure what you're dealing with, the fastest answer is a phone call. Our team at **(206) 883-0333** can talk you through what you're seeing, advise on immediate steps to limit further damage, and get a crew moving. Storm damage restoration in Federal Way and across the surrounding region — we handle it start to finish.
+If a storm has hit your property and you're not sure what you're dealing with, the fastest answer is a phone call. Our team at **(206) 883-0333** can talk you through what you're seeing, advise on immediate steps to limit further damage, and get a crew moving. Storm damage restoration in Federal Way and across the surrounding region, we handle it start to finish.

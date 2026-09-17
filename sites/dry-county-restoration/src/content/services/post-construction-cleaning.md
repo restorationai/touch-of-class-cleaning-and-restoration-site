@@ -17,21 +17,21 @@ service_slug: "post-construction-cleaning"
 service_display: "Post-Construction and Specialty Cleaning"
 rendered: true
 ---
-The contractor has packed up, the permits are closed, and the space looks almost ready — except for the fine layer of drywall dust coating every horizontal surface, the caulk smears on the new tile, the construction adhesive on the hardwood, and the silica haze filmed across the windows. Post-construction cleaning is not a matter of running a mop through a finished room. It is a systematic, multi-pass process designed to remove the particulate and chemical residue that trades leave behind — residue that can scratch new surfaces, clog HVAC systems, and trigger respiratory irritation if left in place.
+The contractor has packed up, the permits are closed, and the space looks almost ready, except for the fine layer of drywall dust coating every horizontal surface, the caulk smears on the new tile, the construction adhesive on the hardwood, and the silica haze filmed across the windows. Post-construction cleaning is not a matter of running a mop through a finished room. It is a systematic, multi-pass process designed to remove the particulate and chemical residue that trades leave behind, residue that can scratch new surfaces, clog HVAC systems, and trigger respiratory irritation if left in place.
 
 ## What post-construction and specialty cleaning actually involves
 
-Construction debris comes in two categories that require different approaches: coarse debris (drywall scraps, fasteners, packaging, tape, drop cloth residue) and fine particulate (silica dust, joint compound powder, sawdust, insulation fibers). Both need to be addressed before occupancy, and in the right order — removing coarse debris first, then working top-to-bottom through fine particulate, then doing a detail pass on surfaces that contact people directly.
+Construction debris comes in two categories that require different approaches: coarse debris (drywall scraps, fasteners, packaging, tape, drop cloth residue) and fine particulate (silica dust, joint compound powder, sawdust, insulation fibers). Both need to be addressed before occupancy, and in the right order, removing coarse debris first, then working top-to-bottom through fine particulate, then doing a detail pass on surfaces that contact people directly.
 
 Specialty cleaning extends beyond new construction. It covers deep cleaning after major renovations, post-remediation cleaning following mold or water damage work, move-in/move-out cleaning for properties that have sat vacant, and high-detail cleaning of commercial spaces before certificate-of-occupancy inspections. Each scenario has its own surface sensitivities, chemical compatibility requirements, and documentation needs.
 
-Equipment matters here. HEPA-filtered vacuums — not shop vacs — are required to capture fine silica and drywall particulate without recirculating it into the air. Microfiber systems, pH-appropriate cleaning agents for stone, tile, and hardwood, and non-abrasive tools for glass and fixture surfaces are standard. In larger spaces, air scrubbers may run during the cleaning process to capture airborne dust that gets disturbed during wiping.
+Equipment matters here. HEPA-filtered vacuums, not shop vacs, are required to capture fine silica and drywall particulate without recirculating it into the air. Microfiber systems, pH-appropriate cleaning agents for stone, tile, and hardwood, and non-abrasive tools for glass and fixture surfaces are standard. In larger spaces, air scrubbers may run during the cleaning process to capture airborne dust that gets disturbed during wiping.
 
 ## Our process
 
 1. **Site walkthrough and surface inventory.** Before any cleaning begins, the space is walked to catalog surface types (natural stone, engineered hardwood, painted drywall, glass, grout), identify problem areas (adhesive residue, paint overspray, grout haze), and confirm which materials require specialty chemistry or extra care. This step prevents damage to new finishes.
 
-2. **Coarse debris removal.** All construction waste — scraps, packaging, fasteners, tape, drop cloth material — is removed and disposed of properly. This clears the field for the detail work that follows and prevents coarse material from scratching surfaces during the cleaning passes.
+2. **Coarse debris removal.** All construction waste, scraps, packaging, fasteners, tape, drop cloth material, is removed and disposed of properly. This clears the field for the detail work that follows and prevents coarse material from scratching surfaces during the cleaning passes.
 
 3. **Top-to-bottom HEPA vacuum and wipe-down.** Starting at ceiling height and working down, every surface is vacuumed with HEPA-filtered equipment before any wet cleaning begins. Wiping a dusty surface before vacuuming it just smears particulate into pores and grout lines. After vacuuming, surfaces are wiped with microfiber using chemistry matched to the substrate.
 
@@ -41,17 +41,17 @@ Equipment matters here. HEPA-filtered vacuums — not shop vacs — are required
 
 ## What separates a good post-construction clean from a bad one
 
-The most common failure in post-construction cleaning is sequence error: wet-mopping before vacuuming, or wiping walls before the ceiling dust has been addressed. Both turn dry particulate into a paste that embeds in grout, wood grain, and paint texture — and then requires aggressive mechanical action to remove, which risks scratching new surfaces.
+The most common failure in post-construction cleaning is sequence error: wet-mopping before vacuuming, or wiping walls before the ceiling dust has been addressed. Both turn dry particulate into a paste that embeds in grout, wood grain, and paint texture, and then requires aggressive mechanical action to remove, which risks scratching new surfaces.
 
 The second common failure is chemistry mismatch. Using acidic cleaners on natural stone, alkaline degreasers on finished hardwood, or abrasive pads on coated glass can cause permanent damage to materials that were just installed. A good operator identifies surface types before selecting any product.
 
 For commercial projects or properties going through a certificate-of-occupancy inspection, documentation matters as much as the cleaning itself. Inspectors and property managers want a record of what was cleaned, what products were used, and what condition the space was left in. Gaps in documentation create liability exposure.
 
-On renovation projects that also involved water damage or mold remediation, the cleaning scope needs to account for post-remediation requirements — surfaces that were encapsulated or treated may have specific cleaning restrictions, and disturbing them improperly can void the remediation work.
+On renovation projects that also involved water damage or mold remediation, the cleaning scope needs to account for post-remediation requirements, surfaces that were encapsulated or treated may have specific cleaning restrictions, and disturbing them improperly can void the remediation work.
 
 ## What does post-construction and specialty cleaning cost?
 
-Typical costs for post-construction and specialty cleaning vary based on square footage, the number of trades involved, surface complexity, and whether specialty treatments (adhesive removal, grout haze removal, HEPA air scrubbing) are needed. Most residential projects run in the ranges below — these are industry-typical figures, not quotes.
+Typical costs for post-construction and specialty cleaning vary based on square footage, the number of trades involved, surface complexity, and whether specialty treatments (adhesive removal, grout haze removal, HEPA air scrubbing) are needed. Most residential projects run in the ranges below, these are industry-typical figures, not quotes.
 
 | Scenario | Typical range |
 |---|---|
@@ -62,11 +62,11 @@ Typical costs for post-construction and specialty cleaning vary based on square 
 | Post-remediation specialty clean (mold or water) | $800 – $3,000 |
 | Vacant property deep clean, move-in ready | $600 – $2,000 |
 
-Every project is different, and Dry County Restoration provides a written scope before any work begins. Homeowners insurance typically does not cover routine post-construction cleaning, but it may cover specialty cleaning that is part of a documented water damage, mold, or fire restoration claim — your adjuster can confirm coverage based on your policy language.
+Every project is different, and Dry County Restoration provides a written scope before any work begins. Homeowners insurance typically does not cover routine post-construction cleaning, but it may cover specialty cleaning that is part of a documented water damage, mold, or fire restoration claim, your adjuster can confirm coverage based on your policy language.
 
 ## Seasonal and regional considerations
 
-In the Inland Empire, construction activity peaks in spring and early summer, and the dry desert air means drywall dust and fine particulate stay airborne longer than in more humid climates. That same low humidity accelerates moisture loss from freshly installed hardwood and grout, which can affect how cleaning chemistry performs — products that need dwell time may dry too quickly in hot, low-humidity conditions. Scheduling the final clean during cooler morning hours, or keeping HVAC off during the cleaning process, helps chemistry work as intended and keeps disturbed dust from recirculating through a running system.
+In the Inland Empire, construction activity peaks in spring and early summer, and the dry desert air means drywall dust and fine particulate stay airborne longer than in more humid climates. That same low humidity accelerates moisture loss from freshly installed hardwood and grout, which can affect how cleaning chemistry performs, products that need dwell time may dry too quickly in hot, low-humidity conditions. Scheduling the final clean during cooler morning hours, or keeping HVAC off during the cleaning process, helps chemistry work as intended and keeps disturbed dust from recirculating through a running system.
 
 Corona's housing stock includes a mix of tract homes from the 1980s and 1990s alongside newer builds in master-planned communities. Older homes undergoing renovation may have original tile, plaster walls, or older hardwood that requires different handling than the engineered surfaces common in newer construction.
 
@@ -74,4 +74,4 @@ Corona's housing stock includes a mix of tract homes from the 1980s and 1990s al
 
 Dry County Restoration is based in Corona and provides post-construction and specialty cleaning throughout the surrounding Inland Empire and Riverside County communities. The city-specific pages for this service cover individual areas and link back here for full process detail.
 
-When the dust has settled and the trades have cleared out, call (951) 667-9910 to schedule your final clean — and hand the space over in the condition it was built to be in.
+When the dust has settled and the trades have cleared out, call (951) 667-9910 to schedule your final clean, and hand the space over in the condition it was built to be in.

@@ -20,38 +20,38 @@ state: "UT"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
-Smoke doesn't stop at the room where the fire started. Within hours of a house fire — or even a contained kitchen incident — smoke particles and soot infiltrate HVAC ducts, settle into carpet fibers, and chemically bond to wall surfaces throughout the home. In American Fork, where many neighborhoods sit at the foot of the Wasatch Range and wildfire smoke from summer canyon fires regularly blankets Utah Valley, that contamination problem can compound fast. Whether the source was a structure fire or days of heavy wildfire smoke seeping through an older home's envelope, the clock starts the moment the air clears.
+Smoke doesn't stop at the room where the fire started. Within hours of a house fire, or even a contained kitchen incident, smoke particles and soot infiltrate HVAC ducts, settle into carpet fibers, and chemically bond to wall surfaces throughout the home. In American Fork, where many neighborhoods sit at the foot of the Wasatch Range and wildfire smoke from summer canyon fires regularly blankets Utah Valley, that contamination problem can compound fast. Whether the source was a structure fire or days of heavy wildfire smoke seeping through an older home's envelope, the clock starts the moment the air clears.
 
 ## Why American Fork Homes Are Particularly Vulnerable to Smoke Damage
 
-American Fork's housing stock spans several decades and building styles. Homes built in the 1970s and 1980s — common in established subdivisions closer to Main Street — often have original forced-air systems with minimal filtration, which means smoke particles circulate and redeposit on every surface the air touches. Newer construction on the city's east side tends toward tighter building envelopes, which actually traps smoke indoors longer once it enters.
+American Fork's housing stock spans several decades and building styles. Homes built in the 1970s and 1980s, common in established subdivisions closer to Main Street, often have original forced-air systems with minimal filtration, which means smoke particles circulate and redeposit on every surface the air touches. Newer construction on the city's east side tends toward tighter building envelopes, which actually traps smoke indoors longer once it enters.
 
-The bigger wildfire factor is geography. American Fork sits directly below American Fork Canyon, one of the most heavily used corridors in the Wasatch Front. When a canyon fire pushes smoke west into Utah Valley, homes in the 84003 ZIP code can accumulate measurable soot on interior surfaces within 24 to 48 hours — especially if windows were open or HVAC systems were running on "fresh air" intake. That's not cosmetic. Fine particulate smoke residue is acidic and begins etching glass, tarnishing metal fixtures, and yellowing painted surfaces the longer it sits.
+The bigger wildfire factor is geography. American Fork sits directly below American Fork Canyon, one of the most heavily used corridors in the Wasatch Front. When a canyon fire pushes smoke west into Utah Valley, homes in the 84003 ZIP code can accumulate measurable soot on interior surfaces within 24 to 48 hours, especially if windows were open or HVAC systems were running on "fresh air" intake. That's not cosmetic. Fine particulate smoke residue is acidic and begins etching glass, tarnishing metal fixtures, and yellowing painted surfaces the longer it sits.
 
 ## Our Smoke Damage Restoration Process in American Fork
 
-The work begins with a structured assessment — not a visual walkthrough, but a methodical room-by-room inspection using pH testing strips on wall surfaces and soot sponge sampling to identify the type of residue present. Wet smoke (from slow, smoldering fires) behaves differently than dry smoke (fast, high-temperature fires) or protein residue (kitchen fires), and the cleaning chemistry has to match.
+The work begins with a structured assessment, not a visual walkthrough, but a methodical room-by-room inspection using pH testing strips on wall surfaces and soot sponge sampling to identify the type of residue present. Wet smoke (from slow, smoldering fires) behaves differently than dry smoke (fast, high-temperature fires) or protein residue (kitchen fires), and the cleaning chemistry has to match.
 
 From there, the process moves in a deliberate sequence:
 
-1. **Containment and air scrubbing** — HEPA air scrubbers run continuously to pull fine particulates out of the air before any surface work begins.
-2. **Dry soot removal** — Dry chemical sponges lift loose soot from ceilings and walls before any moisture is introduced. Wetting soot before this step drives it deeper into porous surfaces.
-3. **Surface cleaning and deodorization** — We use thermal fogging and hydroxyl generators to neutralize odor molecules embedded in soft goods, wood framing, and ductwork — not just mask them.
-4. **HVAC cleaning** — Every register, return, and accessible duct run gets cleaned and treated. Skipping this step guarantees odor return within weeks.
-5. **Final clearance check** — Air quality readings confirm particulate levels are back within normal range before the job closes.
+1. **Containment and air scrubbing**, HEPA air scrubbers run continuously to pull fine particulates out of the air before any surface work begins.
+2. **Dry soot removal**, Dry chemical sponges lift loose soot from ceilings and walls before any moisture is introduced. Wetting soot before this step drives it deeper into porous surfaces.
+3. **Surface cleaning and deodorization**, We use thermal fogging and hydroxyl generators to neutralize odor molecules embedded in soft goods, wood framing, and ductwork, not just mask them.
+4. **HVAC cleaning**, Every register, return, and accessible duct run gets cleaned and treated. Skipping this step guarantees odor return within weeks.
+5. **Final clearance check**, Air quality readings confirm particulate levels are back within normal range before the job closes.
 
 All technicians on this work are IICRC Certified, and the company holds Utah contractor license #RC-25-0737.
 
 ## Response Time to American Fork
 
-Home Pride Restoration and Cleaning is headquartered in Saratoga Springs, roughly 10 to 15 minutes from American Fork via US-89 North. In most cases, a crew can be on-site within 60 to 90 minutes of your call to (801) 995-2437 — often faster during off-peak hours. American Fork's grid layout makes navigation straightforward from the west side of the valley, and we're familiar with the residential streets north of State Street as well as the newer developments near the east bench.
+Home Pride Restoration and Cleaning is headquartered in Saratoga Springs, roughly 10 to 15 minutes from American Fork via US-89 North. In most cases, a crew can be on-site within 60 to 90 minutes of your call to (801) 995-2437, often faster during off-peak hours. American Fork's grid layout makes navigation straightforward from the west side of the valley, and we're familiar with the residential streets north of State Street as well as the newer developments near the east bench.
 
 ## Insurance Coordination for American Fork Claims
 
-Most homeowner policies in Utah cover smoke damage from a covered fire event, and wildfire smoke damage claims have become increasingly common along the Wasatch Front. We document the damage thoroughly — written scope, photographs, air quality readings — in a format that aligns with what adjusters from the major carriers operating in Utah County expect to see. We work directly with your adjuster and can provide supplemental documentation if the initial estimate is disputed. You won't need to manage the paperwork bridge between our scope and your carrier's estimate.
+Most homeowner policies in Utah cover smoke damage from a covered fire event, and wildfire smoke damage claims have become increasingly common along the Wasatch Front. We document the damage thoroughly, written scope, photographs, air quality readings, in a format that aligns with what adjusters from the major carriers operating in Utah County expect to see. We work directly with your adjuster and can provide supplemental documentation if the initial estimate is disputed. You won't need to manage the paperwork bridge between our scope and your carrier's estimate.
 
 ## Local Note
 
-One thing that catches homeowners off guard in American Fork: homes with evaporative (swamp) coolers — still common in older parts of the city — pull outside air directly into the living space with almost no filtration. During a wildfire smoke event, those systems can deposit a surprisingly concentrated layer of fine soot on interior surfaces in just a few hours of operation. If your home has an evaporative cooler and it was running during a smoke event, expect the scope of interior cleaning to be larger than a comparable forced-air home. We account for this during the initial assessment so there are no surprises mid-project.
+One thing that catches homeowners off guard in American Fork: homes with evaporative (swamp) coolers, still common in older parts of the city, pull outside air directly into the living space with almost no filtration. During a wildfire smoke event, those systems can deposit a surprisingly concentrated layer of fine soot on interior surfaces in just a few hours of operation. If your home has an evaporative cooler and it was running during a smoke event, expect the scope of interior cleaning to be larger than a comparable forced-air home. We account for this during the initial assessment so there are no surprises mid-project.
 
-If your American Fork home is showing signs of smoke damage — discoloration on walls, a persistent burnt or acrid smell, or visible soot on surfaces — call (801) 995-2437. The sooner the residue is addressed, the less material damage it causes and the shorter the restoration timeline.
+If your American Fork home is showing signs of smoke damage, discoloration on walls, a persistent burnt or acrid smell, or visible soot on surfaces, call (801) 995-2437. The sooner the residue is addressed, the less material damage it causes and the shorter the restoration timeline.

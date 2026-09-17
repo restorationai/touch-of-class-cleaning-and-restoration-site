@@ -20,39 +20,39 @@ state: "CA"
 service_display: "Garbage Disposal Repair and Installation"
 rendered: true
 ---
-Chino's warm, dry summers and hard water from the Inland Empire's groundwater supply are a quiet enemy of garbage disposals. The minerals that make local tap water taste faintly chalky also leave calcium deposits inside disposal grinding chambers, accelerating wear on seals and bearings faster than you'd see in coastal cities. Whether your disposal is humming without spinning, leaking from the bottom flange, or simply dead after a holiday dinner, RT Olson Plumbing, Heating and Air Conditioning responds around the clock from our Corona base — typically reaching Chino addresses quickly via the 71 or 60 freeway.
+Chino's warm, dry summers and hard water from the Inland Empire's groundwater supply are a quiet enemy of garbage disposals. The minerals that make local tap water taste faintly chalky also leave calcium deposits inside disposal grinding chambers, accelerating wear on seals and bearings faster than you'd see in coastal cities. Whether your disposal is humming without spinning, leaking from the bottom flange, or simply dead after a holiday dinner, RT Olson Plumbing, Heating and Air Conditioning responds around the clock from our Corona base, typically reaching Chino addresses quickly via the 71 or 60 freeway.
 
 ## Why Chino Homes See More Disposal Problems Than You'd Expect
 
-Chino's housing stock spans several decades of construction, from older ranch-style homes built when 1/3-horsepower disposals were standard, to newer tract developments where builders installed builder-grade units that look fine on day one but struggle under real daily use. In either case, Chino's notoriously hard water — the Inland Empire sits over a basin where water picks up significant mineral content before it reaches your tap — shortens the working life of seals, corrodes the sink flange connection, and causes grinding components to bind earlier than manufacturers' rated lifespans suggest.
+Chino's housing stock spans several decades of construction, from older ranch-style homes built when 1/3-horsepower disposals were standard, to newer tract developments where builders installed builder-grade units that look fine on day one but struggle under real daily use. In either case, Chino's notoriously hard water, the Inland Empire sits over a basin where water picks up significant mineral content before it reaches your tap, shortens the working life of seals, corrodes the sink flange connection, and causes grinding components to bind earlier than manufacturers' rated lifespans suggest.
 
 Common failure patterns we see in Chino kitchens:
 
-- **Humming with no spin**: The motor is alive but the grinding plate is jammed, often from a piece of bone, a fruit pit, or — very commonly — hardened mineral scale that has fused debris to the impeller ring.
+- **Humming with no spin**: The motor is alive but the grinding plate is jammed, often from a piece of bone, a fruit pit, or, very commonly, hardened mineral scale that has fused debris to the impeller ring.
 - **Leaking at the bottom**: Internal seals fail, often accelerated by the thermal cycling Chino sees between 100°F summer afternoons and cooler winter nights.
-- **Leaking at the flange**: The putty seal between the disposal and the sink basket dries out and cracks — a repair that looks simple but requires pulling the entire unit to reseat properly.
+- **Leaking at the flange**: The putty seal between the disposal and the sink basket dries out and cracks, a repair that looks simple but requires pulling the entire unit to reseat properly.
 - **Complete non-response**: Tripped reset button or a failed motor. We test both before recommending replacement.
 
 ## Our Garbage Disposal Repair and Installation Process in Chino
 
-When we arrive at a Chino address, the first step is always diagnosis — not a sales pitch for a new unit. We check the reset button, test for voltage at the outlet, attempt a manual rotation with the hex wrench, and inspect the drain line for blockages that can back-pressure a disposal into failure. Many service calls end with a cleared jam and a reset, not a replacement.
+When we arrive at a Chino address, the first step is always diagnosis, not a sales pitch for a new unit. We check the reset button, test for voltage at the outlet, attempt a manual rotation with the hex wrench, and inspect the drain line for blockages that can back-pressure a disposal into failure. Many service calls end with a cleared jam and a reset, not a replacement.
 
-When replacement is the right call, we walk you through motor size options — typically 1/2 HP for lighter household use, 3/4 HP or 1 HP for larger families or kitchens that process significant food volume. We carry units on the truck so most installations complete in a single visit. The process:
+When replacement is the right call, we walk you through motor size options, typically 1/2 HP for lighter household use, 3/4 HP or 1 HP for larger families or kitchens that process significant food volume. We carry units on the truck so most installations complete in a single visit. The process:
 
 1. Shut off power at the breaker and confirm zero voltage at the outlet.
 2. Disconnect the drain line and dishwasher knock-out if applicable.
 3. Remove the old unit and inspect the sink flange and mounting ring for corrosion.
-4. Reseat or replace the flange with fresh plumber's putty — skipping this step is how flange leaks happen six months after an install.
+4. Reseat or replace the flange with fresh plumber's putty, skipping this step is how flange leaks happen six months after an install.
 5. Mount the new unit, reconnect drain and dishwasher lines, restore power, and run a full test cycle.
 
 We also check the P-trap and drain stub-out for buildup while we're under the sink. Chino's hard water deposits don't stop at the disposal.
 
 ## Reaching Chino from Corona
 
-Our shop is in Corona, and Chino is a straightforward run — west on the 91 to the 71 north, or via the 60 depending on traffic and which part of Chino you're in. We're available 24/7, so a disposal that quits mid-evening or starts leaking on a weekend morning isn't something you have to wait until Monday to address. When you call (951) 344-5596, you'll reach a live dispatcher who can give you a realistic arrival window based on current conditions.
+Our shop is in Corona, and Chino is a straightforward run, west on the 91 to the 71 north, or via the 60 depending on traffic and which part of Chino you're in. We're available 24/7, so a disposal that quits mid-evening or starts leaking on a weekend morning isn't something you have to wait until Monday to address. When you call (951) 344-5596, you'll reach a live dispatcher who can give you a realistic arrival window based on current conditions.
 
 ## Local Note
 
-Chino's newer planned communities — particularly the subdivisions developed in the 2000s and 2010s on what was formerly dairy farmland — were often built quickly with production-grade appliances throughout, including disposals. What that means practically: the electrical outlet under the sink in these homes is sometimes a switched outlet tied to the same circuit as the under-cabinet lighting, not a dedicated circuit. If your disposal stops working and the reset button doesn't fix it, check whether the outlet itself has power before assuming the unit is dead. We've made more than a few Chino service calls that resolved with a flipped switch rather than a repair bill.
+Chino's newer planned communities, particularly the subdivisions developed in the 2000s and 2010s on what was formerly dairy farmland, were often built quickly with production-grade appliances throughout, including disposals. What that means practically: the electrical outlet under the sink in these homes is sometimes a switched outlet tied to the same circuit as the under-cabinet lighting, not a dedicated circuit. If your disposal stops working and the reset button doesn't fix it, check whether the outlet itself has power before assuming the unit is dead. We've made more than a few Chino service calls that resolved with a flipped switch rather than a repair bill.
 
 If you're in Chino and your disposal is humming, leaking, or completely silent, call RT Olson at (951) 344-5596. We're available around the clock, we carry replacement units on the truck, and we won't recommend a new disposal if a repair will do the job.

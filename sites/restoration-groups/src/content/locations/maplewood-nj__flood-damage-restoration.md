@@ -20,27 +20,27 @@ state: "NJ"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
-When the East Branch of the Rahway River overtops its banks near Memorial Park and pushes water into Maplewood Village, the damage moves fast — through storm drains, under doors, and into the finished basements of century-old colonials and Tudors that line the surrounding streets. Tropical Storm Ida in 2021 made that pattern impossible to ignore, flooding low-lying blocks and leaving homeowners in the 07040 ZIP code facing saturated plaster walls, soaked subfloors, and the 24-to-48-hour window before mold colonizes wet materials. When that happens, the response has to be immediate.
+When the East Branch of the Rahway River overtops its banks near Memorial Park and pushes water into Maplewood Village, the damage moves fast, through storm drains, under doors, and into the finished basements of century-old colonials and Tudors that line the surrounding streets. Tropical Storm Ida in 2021 made that pattern impossible to ignore, flooding low-lying blocks and leaving homeowners in the 07040 ZIP code facing saturated plaster walls, soaked subfloors, and the 24-to-48-hour window before mold colonizes wet materials. When that happens, the response has to be immediate.
 
 ## Why Maplewood Properties Are Especially Vulnerable to Flood Damage
 
-Maplewood's housing stock is part of what makes flood losses here more complicated than in newer suburbs. The Tudors, craftsman bungalows, and colonials built between roughly 1910 and 1940 — common throughout the Hilton and Jefferson neighborhoods — were constructed with stone or rubble foundations that were never designed to be fully waterproof. Hydrostatic pressure from saturated soil pushes water through foundation walls at the mortar joints long after surface flooding recedes. Original cast-iron drain lines, common in homes of this era, are prone to root intrusion and partial blockages that turn a heavy rain event into a sump-failure backup.
+Maplewood's housing stock is part of what makes flood losses here more complicated than in newer suburbs. The Tudors, craftsman bungalows, and colonials built between roughly 1910 and 1940, common throughout the Hilton and Jefferson neighborhoods, were constructed with stone or rubble foundations that were never designed to be fully waterproof. Hydrostatic pressure from saturated soil pushes water through foundation walls at the mortar joints long after surface flooding recedes. Original cast-iron drain lines, common in homes of this era, are prone to root intrusion and partial blockages that turn a heavy rain event into a sump-failure backup.
 
-Finished basements are another compounding factor. Many Maplewood homeowners converted their lower levels decades ago using wood framing, fiberglass insulation, and standard drywall — materials that wick and hold water. Once a basement floods, that assembly traps moisture behind walls where it cannot dry on its own.
+Finished basements are another compounding factor. Many Maplewood homeowners converted their lower levels decades ago using wood framing, fiberglass insulation, and standard drywall, materials that wick and hold water. Once a basement floods, that assembly traps moisture behind walls where it cannot dry on its own.
 
 ## Our Flood Damage Restoration Process in Maplewood
 
-Every flood loss starts with a thorough moisture assessment before any equipment goes in. We use thermal imaging and calibrated moisture meters to map exactly where water has traveled — including inside wall cavities, under hardwood floors, and beneath tile set over older concrete slabs. In Maplewood's older homes, water frequently migrates further than it appears on the surface.
+Every flood loss starts with a thorough moisture assessment before any equipment goes in. We use thermal imaging and calibrated moisture meters to map exactly where water has traveled, including inside wall cavities, under hardwood floors, and beneath tile set over older concrete slabs. In Maplewood's older homes, water frequently migrates further than it appears on the surface.
 
 From there, the process follows a structured sequence:
 
 - **Water extraction** using truck-mounted and portable extraction units to remove standing water from finished and unfinished spaces
-- **Controlled demolition** where necessary — removing saturated drywall, insulation, and flooring to expose framing and allow airflow
+- **Controlled demolition** where necessary, removing saturated drywall, insulation, and flooring to expose framing and allow airflow
 - **Structural drying** using commercial-grade desiccant or refrigerant dehumidifiers and high-velocity air movers, placed according to the IICRC S500 standard for water damage restoration
 - **Antimicrobial treatment** applied to affected framing and concrete to inhibit mold growth during the drying period
 - **Moisture verification** with documented final readings before any reconstruction begins
 
-Drying timelines in plaster-wall homes — still found throughout the Tuscan and The Fields areas — typically run longer than in modern drywall construction. Plaster is dense and releases absorbed moisture slowly; we account for that in equipment placement and drying schedules rather than pulling equipment prematurely.
+Drying timelines in plaster-wall homes, still found throughout the Tuscan and The Fields areas, typically run longer than in modern drywall construction. Plaster is dense and releases absorbed moisture slowly; we account for that in equipment placement and drying schedules rather than pulling equipment prematurely.
 
 ## Getting to Maplewood from Kenilworth
 
@@ -48,10 +48,10 @@ Our team operates 24/7, and Maplewood is a straightforward run from our Kenilwor
 
 ## Maplewood Insurance Coordination for Flood Losses
 
-Flood damage claims in Maplewood often involve both homeowners insurance (for sudden discharge or sump overflow) and — where applicable — NFIP flood insurance policies, which carry separate deductibles and documentation requirements. We photograph and document structural damage, affected materials, and moisture readings in a format that supports adjuster review for both policy types. We work directly with most major carriers and can communicate with your adjuster throughout the drying and scoping process so you are not managing that back-and-forth while also dealing with a damaged home.
+Flood damage claims in Maplewood often involve both homeowners insurance (for sudden discharge or sump overflow) and, where applicable, NFIP flood insurance policies, which carry separate deductibles and documentation requirements. We photograph and document structural damage, affected materials, and moisture readings in a format that supports adjuster review for both policy types. We work directly with most major carriers and can communicate with your adjuster throughout the drying and scoping process so you are not managing that back-and-forth while also dealing with a damaged home.
 
 ## Local Note: What Maplewood's Older Foundations Tell Us Before We Start
 
-One thing that shapes how we approach jobs in this town: the stone and rubble foundations common to pre-war Maplewood homes often show active seepage in multiple locations simultaneously during a major event, not just at the lowest point. Crews unfamiliar with this housing stock sometimes treat only the most visible intrusion point and miss lateral migration through the mortar bed. We probe the full perimeter of the foundation interior before setting drying equipment, because a missed wet zone in a corner framing bay is exactly where mold establishes itself first — and the last place a homeowner thinks to check three weeks later.
+One thing that shapes how we approach jobs in this town: the stone and rubble foundations common to pre-war Maplewood homes often show active seepage in multiple locations simultaneously during a major event, not just at the lowest point. Crews unfamiliar with this housing stock sometimes treat only the most visible intrusion point and miss lateral migration through the mortar bed. We probe the full perimeter of the foundation interior before setting drying equipment, because a missed wet zone in a corner framing bay is exactly where mold establishes itself first, and the last place a homeowner thinks to check three weeks later.
 
-If your home in Maplewood has taken on water — whether from the Rahway River's overflow, a failed sump pump, or a backed-up drain during a storm — call The Restoration Group at (855) 650-7422. We respond around the clock, assess the full scope of the damage, and start the drying process before the timeline for secondary damage runs out.
+If your home in Maplewood has taken on water, whether from the Rahway River's overflow, a failed sump pump, or a backed-up drain during a storm, call The Restoration Group at (855) 650-7422. We respond around the clock, assess the full scope of the damage, and start the drying process before the timeline for secondary damage runs out.

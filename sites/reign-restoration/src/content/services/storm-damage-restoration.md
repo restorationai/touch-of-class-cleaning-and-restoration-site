@@ -17,44 +17,44 @@ service_slug: "storm-damage-restoration"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
-A storm doesn't give you a warning before the roof decking splits or a sixty-foot oak lands across your garage. What it leaves behind — torn shingles, buckled siding, water pouring through a ceiling breach, debris driven into window frames — starts causing secondary damage within hours. Mold colonization can begin in as little as 24–48 hours once water enters the structure, and saturated insulation loses its R-value permanently. Storm damage restoration is the process of stopping that clock: securing the building envelope, removing what can't be saved, drying what can, and rebuilding to pre-loss condition.
+A storm doesn't give you a warning before the roof decking splits or a sixty-foot oak lands across your garage. What it leaves behind, torn shingles, buckled siding, water pouring through a ceiling breach, debris driven into window frames, starts causing secondary damage within hours. Mold colonization can begin in as little as 24–48 hours once water enters the structure, and saturated insulation loses its R-value permanently. Storm damage restoration is the process of stopping that clock: securing the building envelope, removing what can't be saved, drying what can, and rebuilding to pre-loss condition.
 
 ## What Storm Damage Restoration actually involves
 
-Storm damage is rarely just one problem. A single severe weather event — whether it's a North Texas supercell, a derecho, or a late-season tornado — typically produces a combination of wind damage, impact damage, and water intrusion simultaneously. That layering is what makes storm restoration different from a standard leak repair.
+Storm damage is rarely just one problem. A single severe weather event, whether it's a North Texas supercell, a derecho, or a late-season tornado, typically produces a combination of wind damage, impact damage, and water intrusion simultaneously. That layering is what makes storm restoration different from a standard leak repair.
 
-The work begins at the exterior: emergency tarping and board-up to stop active water entry, followed by a systematic inspection of the roof deck, fascia, soffit, and wall assemblies. Inside, moisture mapping with thermal imaging cameras and pin/pinless moisture meters identifies where water has traveled — often far from the visible ceiling stain. Saturated drywall, wet insulation batts, and compromised OSB sheathing all have to be identified before any drying equipment is placed.
+The work begins at the exterior: emergency tarping and board-up to stop active water entry, followed by a systematic inspection of the roof deck, fascia, soffit, and wall assemblies. Inside, moisture mapping with thermal imaging cameras and pin/pinless moisture meters identifies where water has traveled, often far from the visible ceiling stain. Saturated drywall, wet insulation batts, and compromised OSB sheathing all have to be identified before any drying equipment is placed.
 
-From there, the process shifts to controlled drying: commercial-grade desiccant or refrigerant dehumidifiers, high-velocity air movers, and in some cases injectidry systems that force dry air directly into wall cavities. Debris removal — everything from shingle fragments and tree limbs to interior contents damaged by impact or water — runs parallel to the drying operation. Structural repairs, window and door replacement, and finish work close out the project once the structure tests dry.
+From there, the process shifts to controlled drying: commercial-grade desiccant or refrigerant dehumidifiers, high-velocity air movers, and in some cases injectidry systems that force dry air directly into wall cavities. Debris removal, everything from shingle fragments and tree limbs to interior contents damaged by impact or water, runs parallel to the drying operation. Structural repairs, window and door replacement, and finish work close out the project once the structure tests dry.
 
 Timeline varies with severity. A contained roof breach with localized ceiling damage may resolve in five to seven days. A home that took a direct tree strike with widespread water intrusion across multiple rooms can run three to four weeks from emergency response through final reconstruction.
 
 ## Our process
 
-1. **Emergency stabilization** — Roof tarping, window board-up, and temporary weatherproofing stop active water entry and protect the structure from further exposure while a full assessment is staged.
+1. **Emergency stabilization**, Roof tarping, window board-up, and temporary weatherproofing stop active water entry and protect the structure from further exposure while a full assessment is staged.
 
-2. **Damage documentation and moisture mapping** — Every affected surface is photographed, measured, and tested with calibrated moisture meters and thermal imaging. This documentation becomes the foundation of your insurance claim and the scope of work — nothing gets missed because it wasn't visible to the naked eye.
+2. **Damage documentation and moisture mapping**, Every affected surface is photographed, measured, and tested with calibrated moisture meters and thermal imaging. This documentation becomes the foundation of your insurance claim and the scope of work, nothing gets missed because it wasn't visible to the naked eye.
 
-3. **Debris removal and selective demolition** — Unsalvageable materials (saturated drywall, destroyed insulation, splintered framing members, impact-damaged roofing) are removed and disposed of. Selective demo is kept to the minimum necessary — over-demolition increases cost and claim disputes.
+3. **Debris removal and selective demolition**, Unsalvageable materials (saturated drywall, destroyed insulation, splintered framing members, impact-damaged roofing) are removed and disposed of. Selective demo is kept to the minimum necessary, over-demolition increases cost and claim disputes.
 
-4. **Structural drying** — Commercial dehumidifiers and air movers are placed according to the IICRC S500 drying science standard. Moisture readings are logged daily. Equipment is not pulled until the structure reaches documented drying goals — not just until it "feels dry."
+4. **Structural drying**, Commercial dehumidifiers and air movers are placed according to the IICRC S500 drying science standard. Moisture readings are logged daily. Equipment is not pulled until the structure reaches documented drying goals, not just until it "feels dry."
 
-5. **Reconstruction and final inspection** — Framing repairs, sheathing replacement, roofing, siding, drywall, insulation, and interior finishes are completed to code. A final walkthrough confirms the structure is restored to pre-loss condition before the project is closed.
+5. **Reconstruction and final inspection**, Framing repairs, sheathing replacement, roofing, siding, drywall, insulation, and interior finishes are completed to code. A final walkthrough confirms the structure is restored to pre-loss condition before the project is closed.
 
 ## What separates a good storm damage response from a bad one
 
-The most common mistake after storm damage is treating it as a roofing problem only. A contractor who patches the roof and leaves without checking for interior moisture is setting the homeowner up for a mold claim six weeks later — and by then, the connection to the original storm event is harder to prove to an adjuster.
+The most common mistake after storm damage is treating it as a roofing problem only. A contractor who patches the roof and leaves without checking for interior moisture is setting the homeowner up for a mold claim six weeks later, and by then, the connection to the original storm event is harder to prove to an adjuster.
 
 A few things experienced operators do differently:
 
 - **They document before they touch anything.** Insurance adjusters need to see the damage as it was found. Premature debris removal without photo and moisture documentation can reduce or void a claim.
-- **They look for hidden water migration.** Water from a roof breach doesn't fall straight down — it follows framing members, top plates, and insulation horizontally. Thermal imaging catches this; a visual-only inspection misses it routinely.
+- **They look for hidden water migration.** Water from a roof breach doesn't fall straight down, it follows framing members, top plates, and insulation horizontally. Thermal imaging catches this; a visual-only inspection misses it routinely.
 - **They don't skip the drying phase.** Structural lumber and OSB sheathing hold moisture long after surface materials feel dry. Pulling equipment early to close a job faster leads to callbacks, mold growth, and structural deterioration.
-- **They know what wind vs. hail damage looks like to an adjuster.** Hail damage has a distinct bruising pattern on shingles and a specific granule-loss profile. Wind damage shows directional tearing and lifted tabs. Mischaracterizing one as the other — or missing hail damage entirely on a wind claim — leaves money on the table.
+- **They know what wind vs. hail damage looks like to an adjuster.** Hail damage has a distinct bruising pattern on shingles and a specific granule-loss profile. Wind damage shows directional tearing and lifted tabs. Mischaracterizing one as the other, or missing hail damage entirely on a wind claim, leaves money on the table.
 
 ## What does Storm Damage Restoration cost?
 
-Typical costs for storm damage restoration vary widely depending on the size of the affected area, the type of damage, and whether reconstruction is required. Most homeowners pay somewhere between $3,000 and $25,000 for a complete storm restoration project, though major structural losses can run higher. The table below reflects typical industry ranges — these are not Reign Restoration quotes, and every loss is different.
+Typical costs for storm damage restoration vary widely depending on the size of the affected area, the type of damage, and whether reconstruction is required. Most homeowners pay somewhere between $3,000 and $25,000 for a complete storm restoration project, though major structural losses can run higher. The table below reflects typical industry ranges, these are not Reign Restoration quotes, and every loss is different.
 
 | Scenario | Typical industry range |
 |---|---|
@@ -65,18 +65,18 @@ Typical costs for storm damage restoration vary widely depending on the size of 
 | Major structural damage with full reconstruction | $25,000 – $80,000+ |
 | Mold remediation added due to delayed response | $2,000 – $8,000 additional |
 
-Reign Restoration provides a written scope of work before any billable work begins. Homeowners insurance typically covers sudden and accidental storm damage — wind, hail, falling trees, and resulting water intrusion — subject to your deductible and policy exclusions; a licensed public adjuster or your carrier's adjuster can clarify what your specific policy covers.
+Reign Restoration provides a written scope of work before any billable work begins. Homeowners insurance typically covers sudden and accidental storm damage, wind, hail, falling trees, and resulting water intrusion, subject to your deductible and policy exclusions; a licensed public adjuster or your carrier's adjuster can clarify what your specific policy covers.
 
 ## Seasonal and regional considerations
 
-Royse City and the broader Rockwall, Hunt, and Kaufman County area sit squarely in Tornado Alley's southern corridor. Peak severe weather season runs March through June, with a secondary window in October and November. Supercell thunderstorms in this region frequently produce large hail (two inches or larger is not unusual), straight-line winds exceeding 70 mph, and occasional tornado touchdowns — sometimes all in the same storm system.
+Royse City and the broader Rockwall, Hunt, and Kaufman County area sit squarely in Tornado Alley's southern corridor. Peak severe weather season runs March through June, with a secondary window in October and November. Supercell thunderstorms in this region frequently produce large hail (two inches or larger is not unusual), straight-line winds exceeding 70 mph, and occasional tornado touchdowns, sometimes all in the same storm system.
 
-The clay-heavy soil common across this part of the Blackland Prairie expands and contracts significantly with moisture changes, which means foundation movement after heavy rain events can compound storm damage to exterior walls and door frames. Summer heat also accelerates mold growth in water-damaged structures — what might take 48–72 hours to colonize in a cooler climate can develop faster when ambient temperatures are in the 90s.
+The clay-heavy soil common across this part of the Blackland Prairie expands and contracts significantly with moisture changes, which means foundation movement after heavy rain events can compound storm damage to exterior walls and door frames. Summer heat also accelerates mold growth in water-damaged structures, what might take 48–72 hours to colonize in a cooler climate can develop faster when ambient temperatures are in the 90s.
 
-If your home has older wood-frame construction — common in Royse City's historic downtown neighborhoods and many of the established subdivisions off I-30 — wind damage can expose lead paint or asbestos-containing materials in older sheathing and roofing. Reign Restoration holds Texas Mold Remediation Contractor license #MRC2276, and our IICRC-certified team follows proper protocols when legacy materials are a concern.
+If your home has older wood-frame construction, common in Royse City's historic downtown neighborhoods and many of the established subdivisions off I-30, wind damage can expose lead paint or asbestos-containing materials in older sheathing and roofing. Reign Restoration holds Texas Mold Remediation Contractor license #MRC2276, and our IICRC-certified team follows proper protocols when legacy materials are a concern.
 
 ## Service area
 
-Reign Restoration is based in Royse City and serves storm damage restoration clients throughout the surrounding region — including Rockwall, Fate, Heath, Forney, Terrell, Caddo Mills, Greenville, and the broader Hunt, Kaufman, and Rockwall County areas. City-specific pages for each community link back here for the full service description.
+Reign Restoration is based in Royse City and serves storm damage restoration clients throughout the surrounding region, including Rockwall, Fate, Heath, Forney, Terrell, Caddo Mills, Greenville, and the broader Hunt, Kaufman, and Rockwall County areas. City-specific pages for each community link back here for the full service description.
 
 If a storm has hit your home or property, call Reign Restoration at **(214) 304-0621** to schedule your damage assessment and get a written scope before any work begins.

@@ -21,11 +21,11 @@ Some situations can't wait for a callback, and they can't be handled with househ
 
 ## What biohazard cleanup actually involves
 
-Biohazard remediation is regulated work. In New Jersey, biohazardous waste — including blood, bodily fluids, sharps, and infectious material — must be collected, packaged, labeled, and transported by licensed handlers following state and federal guidelines. That means the job isn't just cleaning; it's documentation, chain-of-custody waste manifests, and proper disposal through a licensed medical waste facility.
+Biohazard remediation is regulated work. In New Jersey, biohazardous waste, including blood, bodily fluids, sharps, and infectious material, must be collected, packaged, labeled, and transported by licensed handlers following state and federal guidelines. That means the job isn't just cleaning; it's documentation, chain-of-custody waste manifests, and proper disposal through a licensed medical waste facility.
 
 On-site, the work involves personal protective equipment staging before anyone enters the affected area, physical removal of contaminated materials (porous surfaces like carpet, drywall, and subflooring often cannot be salvaged), enzymatic and hospital-grade disinfectant treatment of structural surfaces, and ATP or other verification testing to confirm the area meets clearance standards before containment is removed. HEPA air filtration runs throughout to capture airborne particulates.
 
-Timeline depends on the scope. A single-room incident with hard flooring typically resolves in one to two days. Situations involving porous building materials, multiple rooms, or extended time before discovery take longer — sometimes requiring partial reconstruction after remediation is complete.
+Timeline depends on the scope. A single-room incident with hard flooring typically resolves in one to two days. Situations involving porous building materials, multiple rooms, or extended time before discovery take longer, sometimes requiring partial reconstruction after remediation is complete.
 
 The Restoration Group is an IICRC Certified Firm (#210213) and a licensed New Jersey Home Improvement Contractor. Crews are available around the clock.
 
@@ -33,27 +33,27 @@ The Restoration Group is an IICRC Certified Firm (#210213) and a licensed New Je
 
 1. **Initial assessment and containment setup.** Before any cleaning begins, the affected area is assessed for scope and pathogen risk. Physical barriers and negative air pressure are established where needed to prevent cross-contamination to unaffected spaces. Entry and exit protocols are set for the crew.
 
-2. **PPE staging and regulated material removal.** Crew members suit up in appropriate personal protective equipment before entering. Contaminated porous materials — carpet, padding, drywall, insulation — are removed, double-bagged in regulated biohazard containers, and inventoried for the waste manifest. Sharps and needle cleanup follows a separate protocol using puncture-resistant containers.
+2. **PPE staging and regulated material removal.** Crew members suit up in appropriate personal protective equipment before entering. Contaminated porous materials, carpet, padding, drywall, insulation, are removed, double-bagged in regulated biohazard containers, and inventoried for the waste manifest. Sharps and needle cleanup follows a separate protocol using puncture-resistant containers.
 
-3. **Enzymatic treatment and hospital-grade disinfection.** Hard and semi-porous surfaces are treated with enzymatic cleaners that break down organic material at the molecular level, followed by EPA-registered hospital-grade disinfectants. This step is applied in sequence, not simultaneously — enzymatic action must complete before disinfectant is introduced, a detail that less careful operators sometimes skip.
+3. **Enzymatic treatment and hospital-grade disinfection.** Hard and semi-porous surfaces are treated with enzymatic cleaners that break down organic material at the molecular level, followed by EPA-registered hospital-grade disinfectants. This step is applied in sequence, not simultaneously, enzymatic action must complete before disinfectant is introduced, a detail that less careful operators sometimes skip.
 
 4. **Verification testing and clearance.** Before containment comes down, surfaces are tested to confirm pathogen levels are within safe thresholds. ATP bioluminescence testing is one common method. Results are documented and included in the job file.
 
-5. **Waste transport and manifest documentation.** All biohazardous waste leaves the property in labeled, regulated containers with a completed waste manifest — a legal requirement for transport and disposal. A copy goes to the property owner and, when applicable, to the insurance carrier.
+5. **Waste transport and manifest documentation.** All biohazardous waste leaves the property in labeled, regulated containers with a completed waste manifest, a legal requirement for transport and disposal. A copy goes to the property owner and, when applicable, to the insurance carrier.
 
 ## What separates a good biohazard response from a bad one
 
-The most common failure point in biohazard cleanup is incomplete removal of porous materials. A surface can appear clean and still harbor pathogens in the substrate beneath it. Carpet padding, wood subfloor, and drywall paper facing are particularly prone to this. Operators who stop at surface cleaning — rather than removing and replacing compromised materials — leave a hidden risk behind.
+The most common failure point in biohazard cleanup is incomplete removal of porous materials. A surface can appear clean and still harbor pathogens in the substrate beneath it. Carpet padding, wood subfloor, and drywall paper facing are particularly prone to this. Operators who stop at surface cleaning, rather than removing and replacing compromised materials, leave a hidden risk behind.
 
 A second failure is skipping verification testing. Without ATP or equivalent testing, there is no documented evidence that the space is safe. Insurance adjusters increasingly require clearance documentation before closing a claim, and property owners have no objective confirmation without it.
 
-Third: waste manifest gaps. Biohazardous waste transport without a complete, signed manifest is a regulatory violation. A reputable operator provides the property owner with a copy of the manifest as a matter of course — not only because it's required, but because it's the paper trail that protects everyone.
+Third: waste manifest gaps. Biohazardous waste transport without a complete, signed manifest is a regulatory violation. A reputable operator provides the property owner with a copy of the manifest as a matter of course, not only because it's required, but because it's the paper trail that protects everyone.
 
 Discretion is also part of the job. Unmarked vehicles, plain-clothed crews, and direct communication with a single point of contact are standard practice for situations where privacy matters.
 
 ## What does biohazard cleanup cost?
 
-Typical costs for biohazard remediation vary significantly based on the type of material involved, the size of the affected area, and how long the situation went unaddressed before cleanup began. Most homeowners and property managers pay somewhere in the ranges below — these are industry-typical figures, not quotes from The Restoration Group.
+Typical costs for biohazard remediation vary significantly based on the type of material involved, the size of the affected area, and how long the situation went unaddressed before cleanup began. Most homeowners and property managers pay somewhere in the ranges below, these are industry-typical figures, not quotes from The Restoration Group.
 
 | Scenario | Typical range |
 |---|---|
@@ -63,7 +63,7 @@ Typical costs for biohazard remediation vary significantly based on the type of 
 | Sharps and needle cleanup, contained area | $500 – $2,000 |
 | Multi-room or whole-property biohazard situation | $10,000 – $25,000+ |
 
-Every loss is different, and The Restoration Group provides a written scope of work before any remediation begins. Homeowners insurance frequently covers biohazard cleanup — particularly in cases involving traumatic events — though coverage varies by policy and carrier; documentation of the loss and the remediation scope is essential to a successful claim.
+Every loss is different, and The Restoration Group provides a written scope of work before any remediation begins. Homeowners insurance frequently covers biohazard cleanup, particularly in cases involving traumatic events, though coverage varies by policy and carrier; documentation of the loss and the remediation scope is essential to a successful claim.
 
 ## Service area
 
@@ -71,4 +71,4 @@ The Restoration Group is based in Kenilworth, NJ, and provides biohazard cleanup
 
 ---
 
-If you're dealing with a situation that requires biohazard remediation, the next step doesn't have to be complicated. Call **(855) 650-7422** any time — day or night — to begin discreet biohazard cleanup with a crew that handles the logistics, the documentation, and the disposal so you don't have to.
+If you're dealing with a situation that requires biohazard remediation, the next step doesn't have to be complicated. Call **(855) 650-7422** any time, day or night, to begin discreet biohazard cleanup with a crew that handles the logistics, the documentation, and the disposal so you don't have to.

@@ -20,23 +20,23 @@ rendered: true
 
 Reign Restoration is committed to making its website usable by everyone, including people who rely on assistive technologies such as screen readers, keyboard navigation, or display magnification. We believe access to clear, accurate information about restoration services should not depend on a visitor's physical or cognitive abilities.
 
-This site is built with the goal of conforming to the **Web Content Accessibility Guidelines (WCAG) 2.1 Level AA** — the widely recognized benchmark for accessible web content. Those guidelines cover four core principles: content should be perceivable, operable, understandable, and robust across a range of browsers and assistive devices.
+This site is built with the goal of conforming to the **Web Content Accessibility Guidelines (WCAG) 2.1 Level AA**, the widely recognized benchmark for accessible web content. Those guidelines cover four core principles: content should be perceivable, operable, understandable, and robust across a range of browsers and assistive devices.
 
 ## What We've Done to Support Accessible Use
 
-Our pages are structured with semantic HTML so that screen readers can navigate headings, links, and form fields in a logical order. Images include descriptive alternative text. Color contrast ratios are chosen to remain readable for visitors with low vision or color-vision differences. Interactive elements — including phone number links and the contact form — are reachable and operable by keyboard alone.
+Our pages are structured with semantic HTML so that screen readers can navigate headings, links, and form fields in a logical order. Images include descriptive alternative text. Color contrast ratios are chosen to remain readable for visitors with low vision or color-vision differences. Interactive elements, including phone number links and the contact form, are reachable and operable by keyboard alone.
 
 We also aim to keep the language on this site plain and direct. Restoration emergencies are already stressful; the last thing anyone needs is a website that's hard to parse.
 
 ## Known Limitations and Ongoing Work
 
-Accessibility is not a one-time checkbox — it requires ongoing attention as content is added and the site evolves. While we work to maintain WCAG 2.1 AA conformance across all pages, some third-party embeds or documents (such as PDF forms) may not yet meet the same standard. We are actively working to address those gaps.
+Accessibility is not a one-time checkbox, it requires ongoing attention as content is added and the site evolves. While we work to maintain WCAG 2.1 AA conformance across all pages, some third-party embeds or documents (such as PDF forms) may not yet meet the same standard. We are actively working to address those gaps.
 
 If you encounter any barrier that prevents you from accessing information or completing a task on this site, we want to know about it.
 
 ## How to Report an Issue
 
-Please reach out directly and describe the problem as specifically as you can — the page URL, the task you were trying to complete, and the browser or assistive technology you were using all help us reproduce and fix the issue quickly.
+Please reach out directly and describe the problem as specifically as you can, the page URL, the task you were trying to complete, and the browser or assistive technology you were using all help us reproduce and fix the issue quickly.
 
 **Email:** jerrott@reign-restoration.com 
 **Phone:** (214) 304-0621 

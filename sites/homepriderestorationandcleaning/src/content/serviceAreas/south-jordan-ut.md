@@ -19,11 +19,11 @@ state: "UT"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a finished wall in South Jordan or a washing machine overflow soaks through engineered hardwood into the subfloor, the clock starts immediately. Home Pride Restoration and Cleaning has been responding to exactly those calls — water damage, fire and smoke damage, mold remediation, and biohazard cleanup — since 1997. Operating out of Saratoga Springs, we reach South Jordan faster than most Salt Lake Valley contractors, and we handle the full scope: emergency mitigation, structural drying, contents pack-out, and reconstruction, all under one crew.
+When a pipe bursts behind a finished wall in South Jordan or a washing machine overflow soaks through engineered hardwood into the subfloor, the clock starts immediately. Home Pride Restoration and Cleaning has been responding to exactly those calls, water damage, fire and smoke damage, mold remediation, and biohazard cleanup, since 1997. Operating out of Saratoga Springs, we reach South Jordan faster than most Salt Lake Valley contractors, and we handle the full scope: emergency mitigation, structural drying, contents pack-out, and reconstruction, all under one crew.
 
 ## Restoration emergencies common in South Jordan
 
-South Jordan sits on the western bench of the Salt Lake Valley, where the soil transitions from clay-heavy flats near the Jordan River corridor to compacted sandy loam as you climb toward Daybreak and the newer subdivisions along Bangerter Highway. That soil profile matters. Clay soils hold moisture, and homes built in the 1980s and 1990s — common in older pockets of the city — often have crawl spaces or slab-on-grade foundations that wick groundwater during spring snowmelt off the Oquirrh Mountains. The Jordan River itself, which runs through the city's eastern edge near South Jordan Parkway, has historically contributed to elevated water tables in low-lying neighborhoods.
+South Jordan sits on the western bench of the Salt Lake Valley, where the soil transitions from clay-heavy flats near the Jordan River corridor to compacted sandy loam as you climb toward Daybreak and the newer subdivisions along Bangerter Highway. That soil profile matters. Clay soils hold moisture, and homes built in the 1980s and 1990s, common in older pockets of the city, often have crawl spaces or slab-on-grade foundations that wick groundwater during spring snowmelt off the Oquirrh Mountains. The Jordan River itself, which runs through the city's eastern edge near South Jordan Parkway, has historically contributed to elevated water tables in low-lying neighborhoods.
 
 The housing stock compounds this. South Jordan grew rapidly through three distinct eras: ranch-style homes from the late 1970s through the 1990s, a wave of two-story colonials and craftsman builds through the 2000s, and the large-footprint master-planned homes in Daybreak from 2004 onward. Older homes often have galvanized or early PVC supply lines that fail quietly inside walls. Newer Daybreak homes, while well-built, feature complex rooflines and open floor plans where a single point of water intrusion can spread across thousands of square feet of luxury vinyl plank before anyone notices. Summer monsoon moisture from the southwest, combined with South Jordan's average of 15 inches of annual precipitation, also creates attic condensation and crawl-space humidity events that can put mold colonies on framing within 48 to 72 hours of a moisture event.
 
@@ -31,15 +31,15 @@ The housing stock compounds this. South Jordan grew rapidly through three distin
 
 ### Water damage restoration
 
-Water damage in South Jordan frequently involves finished basements — a near-universal feature in the city's newer builds — where moisture migrates from a supply line failure or a slow roof leak into insulated stud bays and then into drywall before the homeowner smells anything. We use thermal imaging cameras and calibrated moisture meters to map the full extent of saturation, then deploy commercial desiccant dehumidifiers and air movers sized to the actual affected square footage, not a one-size estimate.
+Water damage in South Jordan frequently involves finished basements, a near-universal feature in the city's newer builds, where moisture migrates from a supply line failure or a slow roof leak into insulated stud bays and then into drywall before the homeowner smells anything. We use thermal imaging cameras and calibrated moisture meters to map the full extent of saturation, then deploy commercial desiccant dehumidifiers and air movers sized to the actual affected square footage, not a one-size estimate.
 
 ### Fire and smoke damage restoration
 
-House fires in South Jordan's tightly spaced subdivisions — particularly in the Bingham Creek and River Hollow areas — often involve smoke and soot migration into HVAC ductwork before the fire department has cleared the scene. Smoke residue in a forced-air system can re-contaminate cleaned rooms for weeks if the ducts aren't addressed. Our fire restoration process includes duct cleaning, odor neutralization with hydroxyl generators, and structural assessment before any cosmetic repairs begin.
+House fires in South Jordan's tightly spaced subdivisions, particularly in the Bingham Creek and River Hollow areas, often involve smoke and soot migration into HVAC ductwork before the fire department has cleared the scene. Smoke residue in a forced-air system can re-contaminate cleaned rooms for weeks if the ducts aren't addressed. Our fire restoration process includes duct cleaning, odor neutralization with hydroxyl generators, and structural assessment before any cosmetic repairs begin.
 
 ### Mold remediation
 
-Mold remediation in South Jordan commonly traces back to one of two sources: an undiscovered slow leak behind a vanity or under a dishwasher, or chronic crawl-space humidity in older homes near the Jordan River lowlands. We follow IICRC S520 protocols, contain affected areas with negative air pressure, and remove contaminated materials rather than encapsulating over active growth. We do not perform post-remediation testing ourselves — that's a conflict of interest — but we can refer you to independent industrial hygienists who operate in the South Jordan area.
+Mold remediation in South Jordan commonly traces back to one of two sources: an undiscovered slow leak behind a vanity or under a dishwasher, or chronic crawl-space humidity in older homes near the Jordan River lowlands. We follow IICRC S520 protocols, contain affected areas with negative air pressure, and remove contaminated materials rather than encapsulating over active growth. We do not perform post-remediation testing ourselves, that's a conflict of interest, but we can refer you to independent industrial hygienists who operate in the South Jordan area.
 
 ### Biohazard and specialty cleanup
 
@@ -47,7 +47,7 @@ Property managers overseeing rental units near the South Jordan Towne Center and
 
 ## Response time and coverage
 
-From our Saratoga Springs headquarters, South Jordan is roughly 12 to 18 minutes via Redwood Road or Bangerter Highway under normal traffic conditions. We target on-site arrival within 45 to 60 minutes of your call for active water emergencies anywhere in the 84009 and 84095 ZIP codes — including Daybreak, the Bingham Creek corridor, and neighborhoods along 10400 South and South Jordan Parkway. For evening and weekend calls, our dispatch line — (801) 995-2437 — connects directly to an on-call technician, not an answering service.
+From our Saratoga Springs headquarters, South Jordan is roughly 12 to 18 minutes via Redwood Road or Bangerter Highway under normal traffic conditions. We target on-site arrival within 45 to 60 minutes of your call for active water emergencies anywhere in the 84009 and 84095 ZIP codes, including Daybreak, the Bingham Creek corridor, and neighborhoods along 10400 South and South Jordan Parkway. For evening and weekend calls, our dispatch line, (801) 995-2437, connects directly to an on-call technician, not an answering service.
 
 ## Building stock, site conditions, and permits in South Jordan
 

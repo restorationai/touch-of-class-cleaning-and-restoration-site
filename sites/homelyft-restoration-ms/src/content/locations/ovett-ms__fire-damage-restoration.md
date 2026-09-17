@@ -20,42 +20,42 @@ state: "MS"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-When fire tears through a home in Ovett, the damage doesn't stop when the flames do. Jones County's humid subtropical climate means smoke residue begins bonding to wall cavities, insulation, and wood framing within hours — and the moisture that lingers after firefighting efforts can accelerate that process, turning a fire loss into a compounded smoke-and-moisture problem almost overnight. HomeLyft Restoration MS responds to fire losses across the Ovett area with an IICRC FSRT-certified team trained specifically in fire and smoke restoration, working to stop secondary damage before it compounds the original loss.
+When fire tears through a home in Ovett, the damage doesn't stop when the flames do. Jones County's humid subtropical climate means smoke residue begins bonding to wall cavities, insulation, and wood framing within hours, and the moisture that lingers after firefighting efforts can accelerate that process, turning a fire loss into a compounded smoke-and-moisture problem almost overnight. HomeLyft Restoration MS responds to fire losses across the Ovett area with an IICRC FSRT-certified team trained specifically in fire and smoke restoration, working to stop secondary damage before it compounds the original loss.
 
 ## Why Ovett Properties Face Compounded Fire Damage
 
-Ovett sits in the piney woods of Jones County, where a significant portion of the housing stock consists of wood-frame construction — pier-and-beam foundations, tongue-and-groove pine interiors, and older dimensional lumber that has dried and seasoned over decades. That aged wood is highly combustible, and when it burns, it produces a dense, oily soot that penetrates deep into porous surfaces. Smoke doesn't just coat walls — it migrates through wall cavities, settles into HVAC ductwork, and embeds itself in attic insulation.
+Ovett sits in the piney woods of Jones County, where a significant portion of the housing stock consists of wood-frame construction, pier-and-beam foundations, tongue-and-groove pine interiors, and older dimensional lumber that has dried and seasoned over decades. That aged wood is highly combustible, and when it burns, it produces a dense, oily soot that penetrates deep into porous surfaces. Smoke doesn't just coat walls, it migrates through wall cavities, settles into HVAC ductwork, and embeds itself in attic insulation.
 
-The region's humidity compounds the challenge. After a fire is extinguished, the combination of suppression water and ambient moisture common to south-central Mississippi creates conditions where char and soot can begin off-gassing acidic compounds that etch metal fixtures, yellow painted surfaces, and corrode electronics within 24 to 72 hours. Acting quickly isn't just about aesthetics — it's about preserving structural materials and personal property that can still be saved.
+The region's humidity compounds the challenge. After a fire is extinguished, the combination of suppression water and ambient moisture common to south-central Mississippi creates conditions where char and soot can begin off-gassing acidic compounds that etch metal fixtures, yellow painted surfaces, and corrode electronics within 24 to 72 hours. Acting quickly isn't just about aesthetics, it's about preserving structural materials and personal property that can still be saved.
 
 ## Our Fire Damage Restoration Process in Ovett
 
 Every fire loss is different, but the sequence of work follows a disciplined framework calibrated to local conditions:
 
-**1. Emergency stabilization.** We secure the structure — boarding windows, tarping roof penetrations, and assessing load-bearing members for fire compromise. In older Ovett homes with heavy timber framing, we pay particular attention to beam connections and floor joists before allowing anyone to move through the structure.
+**1. Emergency stabilization.** We secure the structure, boarding windows, tarping roof penetrations, and assessing load-bearing members for fire compromise. In older Ovett homes with heavy timber framing, we pay particular attention to beam connections and floor joists before allowing anyone to move through the structure.
 
 **2. Soot and smoke mapping.** Using thermal imaging and air sampling, we identify where smoke has traveled beyond the visible burn zone. Smoke follows air pathways, and in pier-and-beam homes common to this area, it often infiltrates the subfloor cavity and crawl space.
 
-**3. Controlled demolition and debris removal.** Char-damaged materials are removed to clean structural lines. We document every item removed with photographs and itemized logs — critical for your insurance adjuster.
+**3. Controlled demolition and debris removal.** Char-damaged materials are removed to clean structural lines. We document every item removed with photographs and itemized logs, critical for your insurance adjuster.
 
 **4. Odor neutralization and surface cleaning.** We use hydroxyl generators and thermal fogging to reach smoke particles in cavities that surface wiping cannot access. Soot on wood framing is treated with HEPA vacuuming followed by chemical sponge cleaning and sealant application where needed.
 
-**5. Structural drying and reconstruction prep.** Suppression water is extracted and affected materials are dried per the IICRC S500 standard before any reconstruction begins. Skipping this step traps moisture behind new drywall — a mistake that leads to mold growth within weeks.
+**5. Structural drying and reconstruction prep.** Suppression water is extracted and affected materials are dried per the IICRC S500 standard before any reconstruction begins. Skipping this step traps moisture behind new drywall, a mistake that leads to mold growth within weeks.
 
 ## Reaching Ovett from Our Operations
 
-HomeLyft Restoration MS operates out of Gulfport and dispatches crews across south Mississippi. Ovett is accessible via US-84 and the surrounding Jones County road network. Because Ovett is a rural community rather than a dense suburban grid, we coordinate staging carefully — fire losses here often involve longer driveways, outbuildings, and limited turnaround space for equipment trailers. We confirm site access details when you call so the crew arrives prepared rather than problem-solving in the driveway.
+HomeLyft Restoration MS operates out of Gulfport and dispatches crews across south Mississippi. Ovett is accessible via US-84 and the surrounding Jones County road network. Because Ovett is a rural community rather than a dense suburban grid, we coordinate staging carefully, fire losses here often involve longer driveways, outbuildings, and limited turnaround space for equipment trailers. We confirm site access details when you call so the crew arrives prepared rather than problem-solving in the driveway.
 
 Call us at +12282845200 to schedule an assessment. We will give you an honest arrival window based on current crew location and job queue.
 
 ## Insurance Coordination for Ovett Fire Claims
 
-Most homeowner policies in Mississippi cover fire and smoke damage, but the documentation burden falls on you — unless your restoration contractor handles it. We photograph affected areas before any work begins, generate itemized scope reports, and communicate directly with your adjuster throughout the project. Our team is familiar with the claim patterns common to Jones County properties, including total-loss evaluations on older wood-frame homes where replacement cost versus actual cash value becomes a point of negotiation. We don't make that determination for you, but we make sure the documentation supports your position.
+Most homeowner policies in Mississippi cover fire and smoke damage, but the documentation burden falls on you, unless your restoration contractor handles it. We photograph affected areas before any work begins, generate itemized scope reports, and communicate directly with your adjuster throughout the project. Our team is familiar with the claim patterns common to Jones County properties, including total-loss evaluations on older wood-frame homes where replacement cost versus actual cash value becomes a point of negotiation. We don't make that determination for you, but we make sure the documentation supports your position.
 
 ## Local Note
 
-One thing that catches homeowners off guard in the Ovett area: many older homes here were built with heart pine flooring and interior paneling — materials that were standard in Jones County construction for much of the 20th century. Heart pine is exceptionally dense and resinous, which means it resists light fire damage better than modern lumber, but it also means smoke odor binds to it more stubbornly than it does to softwood or drywall. Standard deodorization timelines often need to be extended on these properties, and sealant selection matters — oil-based shellac primers are typically more effective than water-based alternatives on resinous pine when locking in residual smoke odor before repainting.
+One thing that catches homeowners off guard in the Ovett area: many older homes here were built with heart pine flooring and interior paneling, materials that were standard in Jones County construction for much of the 20th century. Heart pine is exceptionally dense and resinous, which means it resists light fire damage better than modern lumber, but it also means smoke odor binds to it more stubbornly than it does to softwood or drywall. Standard deodorization timelines often need to be extended on these properties, and sealant selection matters, oil-based shellac primers are typically more effective than water-based alternatives on resinous pine when locking in residual smoke odor before repainting.
 
 If your home has original heart pine floors or walls and you've had a fire, make sure whoever you hire knows what they're working with before they start.
 
-Fire damage in Ovett doesn't wait, and neither should your response. Call HomeLyft Restoration MS at +12282845200 to speak with a certified technician about your property — we'll assess the loss, walk you through the process, and get a crew moving toward Ovett.
+Fire damage in Ovett doesn't wait, and neither should your response. Call HomeLyft Restoration MS at +12282845200 to speak with a certified technician about your property, we'll assess the loss, walk you through the process, and get a crew moving toward Ovett.

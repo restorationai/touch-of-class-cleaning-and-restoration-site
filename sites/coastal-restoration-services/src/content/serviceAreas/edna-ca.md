@@ -19,35 +19,35 @@ state: "CA"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall or a slow roof leak finally shows itself as a ceiling stain, Edna property owners need a restoration crew that already knows the area — not one that has to look it up. Coastal Restoration Services Inc handles water damage mitigation, mold remediation, fire and smoke cleanup, and structural drying for homes and commercial properties throughout Edna and the surrounding San Luis Obispo County corridor. Call us at **(805) 345-7440** to talk through what you're seeing.
+When a pipe bursts behind a wall or a slow roof leak finally shows itself as a ceiling stain, Edna property owners need a restoration crew that already knows the area, not one that has to look it up. Coastal Restoration Services Inc handles water damage mitigation, mold remediation, fire and smoke cleanup, and structural drying for homes and commercial properties throughout Edna and the surrounding San Luis Obispo County corridor. Call us at **(805) 345-7440** to talk through what you're seeing.
 
 ## Restoration emergencies common in Edna
 
-Edna sits in the Edna Valley, a shallow inland basin where marine air funnels in from the Pismo coast most afternoons. That persistent coastal humidity — often 80 percent or higher on summer mornings before the fog burns off — means building materials here stay closer to their moisture threshold than they do in drier inland valleys. Wood framing, drywall paper, and subfloor sheathing in older ranch-style homes absorb ambient moisture season after season, so when a supply line fails or a roof flashing lets in water, materials that are already near saturation take longer to dry and mold colonization can begin within 24 to 48 hours rather than the 72-hour window homeowners sometimes assume they have.
+Edna sits in the Edna Valley, a shallow inland basin where marine air funnels in from the Pismo coast most afternoons. That persistent coastal humidity, often 80 percent or higher on summer mornings before the fog burns off, means building materials here stay closer to their moisture threshold than they do in drier inland valleys. Wood framing, drywall paper, and subfloor sheathing in older ranch-style homes absorb ambient moisture season after season, so when a supply line fails or a roof flashing lets in water, materials that are already near saturation take longer to dry and mold colonization can begin within 24 to 48 hours rather than the 72-hour window homeowners sometimes assume they have.
 
-The valley's agricultural heritage also means a significant share of the housing stock includes older construction — structures built before current moisture-barrier and vapor-retarder standards — alongside newer wine-country estates and converted agricultural outbuildings. Each type presents different drying challenges. Thick adobe-style walls hold moisture deep in the assembly; modern open-plan builds with engineered lumber are sensitive to swelling and delamination. Seasonal rains between November and March bring the highest volume of emergency calls, but the valley's irrigation infrastructure means water-intrusion events happen year-round.
+The valley's agricultural heritage also means a significant share of the housing stock includes older construction, structures built before current moisture-barrier and vapor-retarder standards, alongside newer wine-country estates and converted agricultural outbuildings. Each type presents different drying challenges. Thick adobe-style walls hold moisture deep in the assembly; modern open-plan builds with engineered lumber are sensitive to swelling and delamination. Seasonal rains between November and March bring the highest volume of emergency calls, but the valley's irrigation infrastructure means water-intrusion events happen year-round.
 
 ## Services we provide in Edna
 
 ### Water damage mitigation and structural drying
 
-Water damage in Edna frequently starts subtly — a slow drip behind a wine-country kitchen backsplash, irrigation water wicking under a slab, or a washing machine supply hose that finally gives out. We extract standing water, deploy commercial-grade desiccant and refrigerant dehumidifiers calibrated for the valley's ambient humidity, and monitor moisture readings in walls and subfloors until materials reach target drying goals per the IICRC S500 standard. We document every reading for your insurance carrier.
+Water damage in Edna frequently starts subtly, a slow drip behind a wine-country kitchen backsplash, irrigation water wicking under a slab, or a washing machine supply hose that finally gives out. We extract standing water, deploy commercial-grade desiccant and refrigerant dehumidifiers calibrated for the valley's ambient humidity, and monitor moisture readings in walls and subfloors until materials reach target drying goals per the IICRC S500 standard. We document every reading for your insurance carrier.
 
 ### Mold remediation
 
-Given Edna's humidity profile, mold is rarely a surprise — but it is always urgent. We assess the affected area, establish containment, remove compromised materials, and treat structural surfaces before rebuilding. We do not make medical claims about air quality outcomes, but we follow established remediation protocols designed to return the space to a condition where normal occupancy can resume.
+Given Edna's humidity profile, mold is rarely a surprise, but it is always urgent. We assess the affected area, establish containment, remove compromised materials, and treat structural surfaces before rebuilding. We do not make medical claims about air quality outcomes, but we follow established remediation protocols designed to return the space to a condition where normal occupancy can resume.
 
 ### Fire and smoke damage restoration
 
-Grass and brush fires in the hills surrounding the Edna Valley can push smoke into homes even when flames never reach the structure. Smoke residue is acidic and continues etching surfaces — metals, glass, painted walls — for days after the fire is out. We assess residue type, neutralize odors at the source rather than masking them, and clean or remove affected materials before the damage compounds.
+Grass and brush fires in the hills surrounding the Edna Valley can push smoke into homes even when flames never reach the structure. Smoke residue is acidic and continues etching surfaces, metals, glass, painted walls, for days after the fire is out. We assess residue type, neutralize odors at the source rather than masking them, and clean or remove affected materials before the damage compounds.
 
 ### Contents pack-out and storage coordination
 
-For larger losses, we can coordinate pack-out of salvageable contents — furniture, documents, personal property — to protect them during the restoration process and simplify the insurance inventory.
+For larger losses, we can coordinate pack-out of salvageable contents, furniture, documents, personal property, to protect them during the restoration process and simplify the insurance inventory.
 
 ## Coverage and how fast we can get there
 
-Coastal Restoration Services Inc operates out of Santa Maria, roughly 20 to 25 miles southwest of the Edna Valley via Highway 101 and Los Berros Road or Orcutt Road depending on conditions. That puts Edna well within our regular service area. When you call **(805) 345-7440**, our team will confirm scheduling and give you an honest arrival window based on current crew availability and road conditions — we won't quote you a time we can't keep. Properties throughout the Edna Valley, including the rural parcels off Corbett Canyon Road and the residential areas closer to the 227 corridor toward San Luis Obispo, are all reachable without the extended drive times that affect more remote parts of the county.
+Coastal Restoration Services Inc operates out of Santa Maria, roughly 20 to 25 miles southwest of the Edna Valley via Highway 101 and Los Berros Road or Orcutt Road depending on conditions. That puts Edna well within our regular service area. When you call **(805) 345-7440**, our team will confirm scheduling and give you an honest arrival window based on current crew availability and road conditions, we won't quote you a time we can't keep. Properties throughout the Edna Valley, including the rural parcels off Corbett Canyon Road and the residential areas closer to the 227 corridor toward San Luis Obispo, are all reachable without the extended drive times that affect more remote parts of the county.
 
 ## Building stock, site conditions, and permits in Edna
 
@@ -55,4 +55,4 @@ Edna is unincorporated, so building permits for structural repair or rebuild com
 
 Basements are rare. Older farmhouses tend to sit on raised perimeter foundations over a vented crawlspace, where wet insulation and joists need direct access, while postwar and later homes are slab-on-grade with plumbing in or under the slab. Expect galvanized or copper supply and cast iron drains in pre-1970s houses, and treat pre-1978 paint and pre-1980s flooring and mastic as suspect until tested.
 
-If you're dealing with water, mold, fire, or smoke damage at an Edna property, the right time to call is before the problem gets larger. Reach Coastal Restoration Services Inc at **(805) 345-7440** and describe what you're seeing — we'll tell you exactly what the next step looks like.
+If you're dealing with water, mold, fire, or smoke damage at an Edna property, the right time to call is before the problem gets larger. Reach Coastal Restoration Services Inc at **(805) 345-7440** and describe what you're seeing, we'll tell you exactly what the next step looks like.

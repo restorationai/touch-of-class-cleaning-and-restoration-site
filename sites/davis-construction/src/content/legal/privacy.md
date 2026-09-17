@@ -26,21 +26,21 @@ If you have questions about anything here, reach us directly at davisheath09@gma
 
 We collect only what's necessary to help you. When you submit a contact or estimate-request form, we receive your name, phone number, email address, and whatever details you include about the job. If you call us directly, we may note your contact information and the nature of your request to follow up accurately.
 
-On the technical side, our website uses basic analytics tools that collect anonymized data — page views, approximate geographic region, device type, and referral source. This data is aggregated and never tied to your identity. We do not use tracking pixels, behavioral ad networks, or third-party cookies for advertising purposes.
+On the technical side, our website uses basic analytics tools that collect anonymized data, page views, approximate geographic region, device type, and referral source. This data is aggregated and never tied to your identity. We do not use tracking pixels, behavioral ad networks, or third-party cookies for advertising purposes.
 
 ## How We Use Your Information
 
-The information you share is used for one purpose: helping you with your project. That means responding to your inquiry, scheduling an on-site estimate, coordinating scope-of-work documentation, and — when you've authorized it — communicating with your insurance carrier on your behalf during the claims process.
+The information you share is used for one purpose: helping you with your project. That means responding to your inquiry, scheduling an on-site estimate, coordinating scope-of-work documentation, and, when you've authorized it, communicating with your insurance carrier on your behalf during the claims process.
 
 We do not use your contact information for unsolicited marketing. We do not sell, rent, or trade your personal data to any third party.
 
 ## Insurance Coordination and Third-Party Sharing
 
-Restoration work often involves insurance carriers, adjusters, and occasionally subcontractors. We share your information with these parties only when you've given us explicit authorization — typically through a signed work-authorization or direction-to-pay form. We do not share your data with any outside party without that authorization.
+Restoration work often involves insurance carriers, adjusters, and occasionally subcontractors. We share your information with these parties only when you've given us explicit authorization, typically through a signed work-authorization or direction-to-pay form. We do not share your data with any outside party without that authorization.
 
 ## Data Retention
 
-We retain job-related records — including contact information, estimates, photos, and insurance documentation — for as long as necessary to fulfill the work and meet Alabama contractor recordkeeping requirements, generally a minimum of five years. If you'd like your information removed from our records and there is no active legal or insurance obligation requiring retention, contact us and we'll handle it promptly.
+We retain job-related records, including contact information, estimates, photos, and insurance documentation, for as long as necessary to fulfill the work and meet Alabama contractor recordkeeping requirements, generally a minimum of five years. If you'd like your information removed from our records and there is no active legal or insurance obligation requiring retention, contact us and we'll handle it promptly.
 
 ## Your Rights
 

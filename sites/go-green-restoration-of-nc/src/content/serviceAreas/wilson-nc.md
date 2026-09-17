@@ -19,25 +19,25 @@ state: "NC"
 primary: false
 rendered: true
 ---
-Go Green Restoration of NC responds to water damage, fire and smoke damage, mold remediation, and storm-related losses for homeowners and property managers throughout Wilson. From a burst pipe soaking hardwood floors to smoke residue settling into the ductwork of an older ranch home, the crew dispatched from our Middlesex headquarters arrives ready to assess, document, and begin mitigation the same day you call — not the day after.
+Go Green Restoration of NC responds to water damage, fire and smoke damage, mold remediation, and storm-related losses for homeowners and property managers throughout Wilson. From a burst pipe soaking hardwood floors to smoke residue settling into the ductwork of an older ranch home, the crew dispatched from our Middlesex headquarters arrives ready to assess, document, and begin mitigation the same day you call, not the day after.
 
 ## Restoration emergencies common in Wilson
 
-Wilson sits in the inner coastal plain, where the combination of high seasonal humidity, a relatively shallow water table, and an aging housing stock creates conditions that restoration contractors see repeatedly. Summer humidity routinely climbs past 85 percent, which means a slow plumbing leak behind a cabinet can fuel visible mold colonization in as little as 48 to 72 hours. Many homes in established Wilson neighborhoods were built in the 1950s through 1980s and feature crawl spaces with marginal vapor barriers — or none at all — making groundwater intrusion and subfloor rot a recurring problem after heavy rain events. The area also sits in a region that sees periodic tropical remnants tracking inland from the coast; those events can dump several inches of rain in a few hours, overwhelming storm drains and pushing water into basements and lower-level units. Wilson's older commercial corridor includes brick masonry buildings where moisture wicks through the facade and saturates interior walls silently for months before anyone notices.
+Wilson sits in the inner coastal plain, where the combination of high seasonal humidity, a relatively shallow water table, and an aging housing stock creates conditions that restoration contractors see repeatedly. Summer humidity routinely climbs past 85 percent, which means a slow plumbing leak behind a cabinet can fuel visible mold colonization in as little as 48 to 72 hours. Many homes in established Wilson neighborhoods were built in the 1950s through 1980s and feature crawl spaces with marginal vapor barriers, or none at all, making groundwater intrusion and subfloor rot a recurring problem after heavy rain events. The area also sits in a region that sees periodic tropical remnants tracking inland from the coast; those events can dump several inches of rain in a few hours, overwhelming storm drains and pushing water into basements and lower-level units. Wilson's older commercial corridor includes brick masonry buildings where moisture wicks through the facade and saturates interior walls silently for months before anyone notices.
 
 ## Services we provide in Wilson
 
 ### Water damage restoration
 
-Water damage in Wilson often starts in the crawl space or at the roofline — either groundwater migrating upward after a saturated soil event or flashing failures that let rain track down interior wall cavities. We extract standing water, use thermal imaging to locate moisture hidden behind drywall, and dry structural assemblies to IICRC S500 standards before any rebuild begins. Catching it early is the difference between replacing a section of subfloor and replacing the entire floor system.
+Water damage in Wilson often starts in the crawl space or at the roofline, either groundwater migrating upward after a saturated soil event or flashing failures that let rain track down interior wall cavities. We extract standing water, use thermal imaging to locate moisture hidden behind drywall, and dry structural assemblies to IICRC S500 standards before any rebuild begins. Catching it early is the difference between replacing a section of subfloor and replacing the entire floor system.
 
 ### Mold remediation
 
-The same humidity that makes Wilson summers feel heavy also feeds mold inside walls, under flooring, and across crawl space joists. We contain affected areas, remove compromised materials, and treat surfaces with EPA-registered antimicrobials. Because Wilson's older homes frequently have inadequate crawl space ventilation, we also assess whether encapsulation or a mechanical dehumidification system makes sense as a long-term fix — not just a cleanup.
+The same humidity that makes Wilson summers feel heavy also feeds mold inside walls, under flooring, and across crawl space joists. We contain affected areas, remove compromised materials, and treat surfaces with EPA-registered antimicrobials. Because Wilson's older homes frequently have inadequate crawl space ventilation, we also assess whether encapsulation or a mechanical dehumidification system makes sense as a long-term fix, not just a cleanup.
 
 ### Fire and smoke damage restoration
 
-After a kitchen fire or an electrical fault, smoke residue doesn't stay in the room where the fire started. It migrates through HVAC returns and settles into attic insulation, closets, and wall cavities throughout the house. Our fire restoration work in Wilson includes structural drying if firefighting water is involved, odor neutralization using hydroxyl or thermal fogging, and content cleaning — so the goal is returning the home to livable condition, not just making the visible damage disappear.
+After a kitchen fire or an electrical fault, smoke residue doesn't stay in the room where the fire started. It migrates through HVAC returns and settles into attic insulation, closets, and wall cavities throughout the house. Our fire restoration work in Wilson includes structural drying if firefighting water is involved, odor neutralization using hydroxyl or thermal fogging, and content cleaning, so the goal is returning the home to livable condition, not just making the visible damage disappear.
 
 ### Storm and wind damage
 
@@ -45,7 +45,7 @@ When a tropical system or a fast-moving thunderstorm pushes through Wilson Count
 
 ## Coverage and how fast we can get there
 
-Go Green Restoration of NC is headquartered in Middlesex, roughly 25 to 30 miles northwest of Wilson via US-264 East. That puts us well within practical same-day response range for calls received during business hours. We serve all of Wilson's ZIP codes, including 27893 and 27896, and regularly work throughout the city — from properties near Barton College and the Wilson Medical Center area to residential streets in established neighborhoods across the county. If you're a property manager handling multiple units, we can coordinate a site visit and scope of work without requiring you to be on-site for the full assessment.
+Go Green Restoration of NC is headquartered in Middlesex, roughly 25 to 30 miles northwest of Wilson via US-264 East. That puts us well within practical same-day response range for calls received during business hours. We serve all of Wilson's ZIP codes, including 27893 and 27896, and regularly work throughout the city, from properties near Barton College and the Wilson Medical Center area to residential streets in established neighborhoods across the county. If you're a property manager handling multiple units, we can coordinate a site visit and scope of work without requiring you to be on-site for the full assessment.
 
 ## Building stock, site conditions, and permits in Wilson
 

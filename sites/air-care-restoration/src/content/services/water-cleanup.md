@@ -17,43 +17,43 @@ service_slug: "water-cleanup"
 service_display: "Water Cleanup"
 rendered: true
 ---
-Standing water doesn't wait. Within the first hour, it migrates under baseboards, wicks into drywall, and begins saturating subfloor materials that won't show moisture on the surface for days. By the time you notice the smell — that damp, slightly sweet odor that means something organic is starting to break down — the water has already traveled farther than the visible stain suggests. Water cleanup isn't just removing what you can see. It's tracking where the water went, drying what it reached, and verifying the structure is genuinely dry before anything gets closed back up.
+Standing water doesn't wait. Within the first hour, it migrates under baseboards, wicks into drywall, and begins saturating subfloor materials that won't show moisture on the surface for days. By the time you notice the smell, that damp, slightly sweet odor that means something organic is starting to break down, the water has already traveled farther than the visible stain suggests. Water cleanup isn't just removing what you can see. It's tracking where the water went, drying what it reached, and verifying the structure is genuinely dry before anything gets closed back up.
 
 ## What water cleanup actually involves
 
-The work divides into three overlapping phases: extraction, structural drying, and verification. Extraction is the most visible part — truck-mounted or portable vacuums pulling standing water from carpet, hardwood, and concrete. But extraction alone rarely gets a structure dry. Water that has been sitting for more than a few hours has already moved laterally through porous materials: the paper facing on drywall, the wood fibers in OSB subfloor, the insulation batts inside a wall cavity.
+The work divides into three overlapping phases: extraction, structural drying, and verification. Extraction is the most visible part, truck-mounted or portable vacuums pulling standing water from carpet, hardwood, and concrete. But extraction alone rarely gets a structure dry. Water that has been sitting for more than a few hours has already moved laterally through porous materials: the paper facing on drywall, the wood fibers in OSB subfloor, the insulation batts inside a wall cavity.
 
-Structural drying uses a combination of commercial-grade air movers and refrigerant or desiccant dehumidifiers to lower the vapor pressure inside the affected materials until moisture migrates out. The equipment placement matters — air movers positioned to create a vortex along wall surfaces dry faster than units aimed at open floor space. Dehumidifier capacity is calculated against the cubic footage of the drying chamber, not guessed.
+Structural drying uses a combination of commercial-grade air movers and refrigerant or desiccant dehumidifiers to lower the vapor pressure inside the affected materials until moisture migrates out. The equipment placement matters, air movers positioned to create a vortex along wall surfaces dry faster than units aimed at open floor space. Dehumidifier capacity is calculated against the cubic footage of the drying chamber, not guessed.
 
-Verification is where corners get cut on less careful jobs. Thermal imaging cameras and penetrating moisture meters read conditions inside walls and under flooring that look fine to the eye. A reading at or below the material's equilibrium moisture content — compared against an unaffected reference area in the same building — is the standard for calling a structure dry. Until those numbers confirm it, drying continues.
+Verification is where corners get cut on less careful jobs. Thermal imaging cameras and penetrating moisture meters read conditions inside walls and under flooring that look fine to the eye. A reading at or below the material's equilibrium moisture content, compared against an unaffected reference area in the same building, is the standard for calling a structure dry. Until those numbers confirm it, drying continues.
 
 For Category 2 (gray water from appliances or overflows) or Category 3 (sewage, floodwater, or any water that has been standing long enough to support bacterial growth), the work also includes antimicrobial treatment and, in some cases, selective demolition of materials that cannot be dried in place.
 
 ## Our process
 
-1. **Emergency assessment and water source control.** The first priority is stopping the source — whether that means shutting off a supply line, coordinating with a plumber, or documenting a storm intrusion point. We then walk the full loss, including rooms adjacent to the visible damage, to map where water has traveled using moisture meters and thermal imaging.
+1. **Emergency assessment and water source control.** The first priority is stopping the source, whether that means shutting off a supply line, coordinating with a plumber, or documenting a storm intrusion point. We then walk the full loss, including rooms adjacent to the visible damage, to map where water has traveled using moisture meters and thermal imaging.
 
 2. **Extraction.** Standing water is removed with truck-mounted extraction equipment capable of pulling hundreds of gallons per hour. Carpet and pad are evaluated: pad is almost always removed and discarded (it holds water and cannot be dried in place effectively), while carpet may be salvageable depending on the water category and saturation time.
 
-3. **Drying system setup.** Air movers and dehumidifiers are placed according to a calculated drying plan. Wall cavities with confirmed moisture intrusion may require flood cuts — horizontal drywall openings near the floor — or injection drying ports to introduce airflow behind the surface without full demolition.
+3. **Drying system setup.** Air movers and dehumidifiers are placed according to a calculated drying plan. Wall cavities with confirmed moisture intrusion may require flood cuts, horizontal drywall openings near the floor, or injection drying ports to introduce airflow behind the surface without full demolition.
 
 4. **Daily moisture monitoring.** Readings are logged at the same points each day. Drying typically takes three to five days for clean-water losses in wood-frame construction, longer for concrete slabs, dense insulation, or materials that absorbed water over an extended period before extraction began. Monitoring continues until the structure reaches documented dry standard.
 
-5. **Post-drying documentation and scope.** Once dry standard is confirmed, we provide a written report of all readings, equipment logs, and affected materials — the documentation your insurance adjuster will need to process the claim and authorize any reconstruction.
+5. **Post-drying documentation and scope.** Once dry standard is confirmed, we provide a written report of all readings, equipment logs, and affected materials, the documentation your insurance adjuster will need to process the claim and authorize any reconstruction.
 
 ## What separates a good water cleanup response from a bad one
 
-The most common failure in water damage cleanup is declaring victory too early. A surface that reads dry with a pin-type meter on the face of the drywall can still have saturated framing behind it. Adjusters experienced with water losses know to ask for psychrometric data — temperature, relative humidity, and specific humidity readings logged over the drying period — not just a final moisture reading.
+The most common failure in water damage cleanup is declaring victory too early. A surface that reads dry with a pin-type meter on the face of the drywall can still have saturated framing behind it. Adjusters experienced with water losses know to ask for psychrometric data, temperature, relative humidity, and specific humidity readings logged over the drying period, not just a final moisture reading.
 
 A second common problem is category misclassification. Water from a dishwasher overflow is Category 2, not Category 1 clean water, because appliance water carries detergent residue, food particulate, and potential microbial load. Treating it as clean water skips the antimicrobial step and can leave conditions that support mold growth inside wall cavities within 24 to 72 hours.
 
 Third: improper containment on Category 3 losses. Floodwater and sewage backups require containment barriers and negative air pressure to prevent cross-contamination of unaffected areas during the cleanup. Skipping this step because it takes time is the kind of shortcut that turns a contained loss into a whole-house problem.
 
-Air Care Restoration holds IICRC certification in Water Restoration Technician (WRT) and operates as an IICRC Certified Firm, meaning the work follows the IICRC S500 standard for professional water damage restoration. Owner Sarha Boyd holds EPA Certified Renovator (Lead RRP) credentials — relevant when water losses affect pre-1978 homes where disturbing painted surfaces triggers lead-safe work practice requirements.
+Air Care Restoration holds IICRC certification in Water Restoration Technician (WRT) and operates as an IICRC Certified Firm, meaning the work follows the IICRC S500 standard for professional water damage restoration. Owner Sarha Boyd holds EPA Certified Renovator (Lead RRP) credentials, relevant when water losses affect pre-1978 homes where disturbing painted surfaces triggers lead-safe work practice requirements.
 
 ## What does water cleanup cost?
 
-Typical costs for water damage cleanup vary significantly based on the size of the affected area, the water category, and how long the water sat before extraction began. Most homeowners pay somewhere in the ranges below — these are industry-typical figures, not Air Care Restoration quotes, and every loss is different.
+Typical costs for water damage cleanup vary significantly based on the size of the affected area, the water category, and how long the water sat before extraction began. Most homeowners pay somewhere in the ranges below, these are industry-typical figures, not Air Care Restoration quotes, and every loss is different.
 
 | Scenario | Typical industry range |
 |---|---|
@@ -66,16 +66,16 @@ Typical costs for water damage cleanup vary significantly based on the size of t
 
 *Industry reference ranges for budgeting context only, not an Air Care quote or guaranteed price. Every project is scoped and documented individually.*
 
-Air Care Restoration provides a written scope of work before any work begins so you know exactly what is being done and why. Homeowners insurance typically covers sudden and accidental water losses — a burst pipe, appliance failure, or storm-driven intrusion — but generally excludes gradual leaks or maintenance-related damage. We provide detailed damage documentation and estimates and communicate technical scope information directly with your adjuster. Coverage and settlement decisions remain between you and your carrier.
+Air Care Restoration provides a written scope of work before any work begins so you know exactly what is being done and why. Homeowners insurance typically covers sudden and accidental water losses, a burst pipe, appliance failure, or storm-driven intrusion, but generally excludes gradual leaks or maintenance-related damage. We provide detailed damage documentation and estimates and communicate technical scope information directly with your adjuster. Coverage and settlement decisions remain between you and your carrier.
 
 ## Seasonal and regional considerations
 
-Abilene's climate creates a specific set of water damage patterns worth knowing. The region sits in a semi-arid zone, but when storms arrive — particularly the severe convective storms that roll through West Texas from spring through early fall — rainfall totals can overwhelm drainage infrastructure quickly. Flat lots and clay-heavy soils slow surface drainage, which means water finds its way into slab foundations, window wells, and garage slabs faster than it might in areas with sandier soil profiles.
+Abilene's climate creates a specific set of water damage patterns worth knowing. The region sits in a semi-arid zone, but when storms arrive, particularly the severe convective storms that roll through West Texas from spring through early fall, rainfall totals can overwhelm drainage infrastructure quickly. Flat lots and clay-heavy soils slow surface drainage, which means water finds its way into slab foundations, window wells, and garage slabs faster than it might in areas with sandier soil profiles.
 
-Winter brings a different risk. Hard freezes hit Abilene with less warning than in northern climates, and homes built before modern insulation standards — particularly pier-and-beam construction common in older Abilene neighborhoods — often have exposed or under-insulated supply lines in crawl spaces and exterior walls. A pipe freeze and burst event can discharge hundreds of gallons before the homeowner realizes what has happened. The 2021 winter storm event was a regional reminder of how quickly freeze-related losses can escalate across an entire neighborhood simultaneously.
+Winter brings a different risk. Hard freezes hit Abilene with less warning than in northern climates, and homes built before modern insulation standards, particularly pier-and-beam construction common in older Abilene neighborhoods, often have exposed or under-insulated supply lines in crawl spaces and exterior walls. A pipe freeze and burst event can discharge hundreds of gallons before the homeowner realizes what has happened. The 2021 winter storm event was a regional reminder of how quickly freeze-related losses can escalate across an entire neighborhood simultaneously.
 
 ## Service area
 
-Air Care Restoration is based in Abilene and provides water cleanup services throughout the surrounding area, including Sweetwater, Snyder, Breckenridge, Cisco, Clyde, Merkel, and other communities across the Big Country region. City-specific pages with local detail are available for each area — this page covers the full scope of what water cleanup involves regardless of where the loss occurs.
+Air Care Restoration is based in Abilene and provides water cleanup services throughout the surrounding area, including Sweetwater, Snyder, Breckenridge, Cisco, Clyde, Merkel, and other communities across the Big Country region. City-specific pages with local detail are available for each area, this page covers the full scope of what water cleanup involves regardless of where the loss occurs.
 
-If you're standing in a wet room right now, the clock is already running. Call Air Care Restoration at **(325) 339-8723** — available 24/7 — to schedule your moisture assessment and get extraction equipment moving before the water moves further.
+If you're standing in a wet room right now, the clock is already running. Call Air Care Restoration at **(325) 339-8723**, available 24/7, to schedule your moisture assessment and get extraction equipment moving before the water moves further.

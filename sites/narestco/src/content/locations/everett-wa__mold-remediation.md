@@ -20,35 +20,35 @@ state: "WA"
 service_display: "Mold Remediation"
 rendered: true
 ---
-If you've spotted dark patches spreading across drywall, caught that musty basement smell that won't go away, or just found standing water that's been sitting longer than 24 hours — mold is either already growing or will be soon. In Everett's climate, that window closes fast. National Restoration Construction has been handling mold remediation across the Puget Sound region since 2004, and we can have a certified technician at your door well before the problem doubles in size.
+If you've spotted dark patches spreading across drywall, caught that musty basement smell that won't go away, or just found standing water that's been sitting longer than 24 hours, mold is either already growing or will be soon. In Everett's climate, that window closes fast. National Restoration Construction has been handling mold remediation across the Puget Sound region since 2004, and we can have a certified technician at your door well before the problem doubles in size.
 
 ## Why Everett Properties Are Especially Vulnerable to Mold
 
-Everett sits at the northern end of Snohomish County, where marine air off Port Gardner Bay keeps humidity elevated for most of the year. From October through April, the region routinely sees weeks of overcast skies and persistent drizzle — exactly the conditions that let mold colonize a damp wall cavity in as little as 24 to 48 hours after a leak. Older housing stock in neighborhoods like Bayside, Pinehurst, and North Broadway often features original wood-framed walls with minimal vapor barriers, and crawl spaces that were never designed to handle modern rainfall patterns. Even newer construction in the Mukilteo Speedway corridor can trap moisture behind vinyl siding or under engineered flooring when gutters back up or a supply line weeps slowly over months. The result: black mold remediation calls that start with a small stain and end with a contractor opening up an entire wall section.
+Everett sits at the northern end of Snohomish County, where marine air off Port Gardner Bay keeps humidity elevated for most of the year. From October through April, the region routinely sees weeks of overcast skies and persistent drizzle, exactly the conditions that let mold colonize a damp wall cavity in as little as 24 to 48 hours after a leak. Older housing stock in neighborhoods like Bayside, Pinehurst, and North Broadway often features original wood-framed walls with minimal vapor barriers, and crawl spaces that were never designed to handle modern rainfall patterns. Even newer construction in the Mukilteo Speedway corridor can trap moisture behind vinyl siding or under engineered flooring when gutters back up or a supply line weeps slowly over months. The result: black mold remediation calls that start with a small stain and end with a contractor opening up an entire wall section.
 
 ## Our Mold Remediation Process in Everett
 
 We don't show up with a bottle of bleach and a shop vac. Mold abatement done right follows a documented protocol, and ours aligns with IICRC S520 standards.
 
-**Assessment and air testing.** Before anything is touched, a technician walks the property with a moisture meter and thermal imaging camera. We identify the moisture source — because remediating mold without fixing the water intrusion is just buying time. We document everything photographically for your insurance file.
+**Assessment and air testing.** Before anything is touched, a technician walks the property with a moisture meter and thermal imaging camera. We identify the moisture source, because remediating mold without fixing the water intrusion is just buying time. We document everything photographically for your insurance file.
 
-**Containment.** Affected areas are sealed off with 6-mil poly sheeting and negative air pressure is established using HEPA-filtered air scrubbers. This keeps spores from migrating to unaffected rooms while work is underway — a step that's easy to skip and expensive to skip.
+**Containment.** Affected areas are sealed off with 6-mil poly sheeting and negative air pressure is established using HEPA-filtered air scrubbers. This keeps spores from migrating to unaffected rooms while work is underway, a step that's easy to skip and expensive to skip.
 
 **Removal and cleaning.** Porous materials (drywall, insulation, subflooring) that test positive are removed and bagged for disposal. Hard surfaces are HEPA-vacuumed, then treated with an EPA-registered antimicrobial solution. We don't encapsulate over active mold growth.
 
 **Clearance testing.** Once mold cleanup is complete, air and surface samples confirm that spore counts are within normal background levels before containment comes down.
 
-**Reconstruction.** As a licensed general contractor (WA L&I #NATIORC792M6), we rebuild what we removed — new drywall, insulation, paint — so you're not left coordinating a second contractor.
+**Reconstruction.** As a licensed general contractor (WA L&I #NATIORC792M6), we rebuild what we removed, new drywall, insulation, paint, so you're not left coordinating a second contractor.
 
 ## Response Times Across Everett
 
-Our operations hub is in Federal Way, roughly 35 miles south of downtown Everett via I-5. Under normal traffic conditions, that's a 45-to-60-minute drive. We target on-site arrival within 60 to 90 minutes of your call for most Everett addresses — including Everett Station, Silver Lake, and the Eastmont neighborhood. If you're in south Everett near the Lynnwood border, we're often closer to that 45-minute mark.
+Our operations hub is in Federal Way, roughly 35 miles south of downtown Everett via I-5. Under normal traffic conditions, that's a 45-to-60-minute drive. We target on-site arrival within 60 to 90 minutes of your call for most Everett addresses, including Everett Station, Silver Lake, and the Eastmont neighborhood. If you're in south Everett near the Lynnwood border, we're often closer to that 45-minute mark.
 
-Mold remediation isn't always a same-hour emergency the way a burst pipe is, but moving quickly still matters. Every day of delay after a water event is another day of colonization, and a problem contained to one wall section today can spread to adjacent framing and HVAC ducts within a week. Reach us at **(206) 883-0333** — someone answers around the clock.
+Mold remediation isn't always a same-hour emergency the way a burst pipe is, but moving quickly still matters. Every day of delay after a water event is another day of colonization, and a problem contained to one wall section today can spread to adjacent framing and HVAC ducts within a week. Reach us at **(206) 883-0333**, someone answers around the clock.
 
 ## Navigating Insurance for Mold Damage in Everett
 
-Whether mold is covered depends on the cause. Most homeowner policies cover mold that results from a sudden, accidental water event — a burst pipe, an appliance failure, a roof breach from a windstorm. Mold that developed slowly from a maintenance issue (a dripping faucet ignored for six months) is typically excluded. We've worked with every major carrier active in Washington State and know how adjusters document these claims.
+Whether mold is covered depends on the cause. Most homeowner policies cover mold that results from a sudden, accidental water event, a burst pipe, an appliance failure, a roof breach from a windstorm. Mold that developed slowly from a maintenance issue (a dripping faucet ignored for six months) is typically excluded. We've worked with every major carrier active in Washington State and know how adjusters document these claims.
 
 Here's what we handle: scope of loss documentation, photo and moisture-reading reports formatted for adjuster review, line-item estimates in Xactimate (the software most carriers require), and direct communication with your insurer throughout the process. What you'll need to do: file the initial claim and give us authorization to work with your adjuster. We'll take it from there.
 
@@ -56,4 +56,4 @@ If you're a property manager dealing with a tenant situation, we can also provid
 
 ---
 
-If something in your Everett home or building doesn't smell right, or you already know you have a mold problem, the worst outcome is waiting to see if it resolves on its own — it won't. Reach National Restoration Construction at **(206) 883-0333** any time, day or night. The assessment is the first step, and the sooner it happens, the smaller the job tends to be.
+If something in your Everett home or building doesn't smell right, or you already know you have a mold problem, the worst outcome is waiting to see if it resolves on its own, it won't. Reach National Restoration Construction at **(206) 883-0333** any time, day or night. The assessment is the first step, and the sooner it happens, the smaller the job tends to be.

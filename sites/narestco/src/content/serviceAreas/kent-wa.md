@@ -19,34 +19,34 @@ state: "WA"
 primary: false
 rendered: true
 ---
-When a pipe bursts at 2 a.m. or smoke from a kitchen fire settles into every wall cavity, Kent property owners need someone on-site fast — not a call center promising to schedule something next week. National Restoration Construction has been responding to water, fire, mold, and biohazard emergencies across the South King County area since 2004. Our crews work in Kent regularly, know the housing stock here, and carry the certifications and insurance-billing experience to handle the job from first extraction through finished reconstruction.
+When a pipe bursts at 2 a.m. or smoke from a kitchen fire settles into every wall cavity, Kent property owners need someone on-site fast, not a call center promising to schedule something next week. National Restoration Construction has been responding to water, fire, mold, and biohazard emergencies across the South King County area since 2004. Our crews work in Kent regularly, know the housing stock here, and carry the certifications and insurance-billing experience to handle the job from first extraction through finished reconstruction.
 
 ## Restoration services we provide in Kent
 
 ### Water damage restoration
-Standing water starts damaging subfloors, drywall, and framing within hours. We extract water, dry structural cavities with commercial-grade desiccant and air-mover systems, and document moisture readings throughout — the kind of documentation your insurance adjuster will ask for. Whether the source is a failed water heater, a burst supply line, or a backed-up sewer lateral, we handle the mitigation and the rebuild under one roof.
+Standing water starts damaging subfloors, drywall, and framing within hours. We extract water, dry structural cavities with commercial-grade desiccant and air-mover systems, and document moisture readings throughout, the kind of documentation your insurance adjuster will ask for. Whether the source is a failed water heater, a burst supply line, or a backed-up sewer lateral, we handle the mitigation and the rebuild under one roof.
 
 ### Fire and smoke damage restoration
 After a fire is out, the damage keeps spreading. Smoke residue is acidic and continues etching surfaces for days; soot embeds into porous materials like insulation, carpet, and cabinetry. We assess what can be cleaned and restored versus what needs to come out, use thermal fogging and hydroxyl treatment to address odor at the molecular level, and coordinate structural repairs so you're not managing two separate contractors.
 
 ### Mold remediation
-Mold can begin colonizing wet building materials in as little as 24 to 48 hours. We contain affected areas, remove compromised materials following EPA guidelines, and treat surfaces before reconstruction. We also identify and address the moisture source — without fixing that, remediation is temporary.
+Mold can begin colonizing wet building materials in as little as 24 to 48 hours. We contain affected areas, remove compromised materials following EPA guidelines, and treat surfaces before reconstruction. We also identify and address the moisture source, without fixing that, remediation is temporary.
 
 ### Biohazard and trauma cleanup
 Unattended deaths, sewage backups, and similar situations require specialized protective equipment and proper disposal protocols. Our technicians are trained to handle these scenes safely and discreetly, restoring the space to a condition where normal remediation or reconstruction can continue.
 
 ### Reconstruction and rebuild
-Most restoration companies stop at mitigation and hand you a list of contractors to call. We carry a Washington State general contractor license and complete the rebuild ourselves — flooring, drywall, cabinetry, painting — so you deal with one point of contact from the emergency call through the final walkthrough.
+Most restoration companies stop at mitigation and hand you a list of contractors to call. We carry a Washington State general contractor license and complete the rebuild ourselves, flooring, drywall, cabinetry, painting, so you deal with one point of contact from the emergency call through the final walkthrough.
 
 ## Why Kent property owners face restoration emergencies
 
-Kent sits in the Green River Valley, which shapes its weather and its risk profile in specific ways. The valley floor sees heavier fog and sustained winter moisture than the surrounding hillside neighborhoods, and older ranch-style and split-level homes — many built in the 1960s through 1980s — often have galvanized supply lines and cast-iron drain stacks that are well past their expected service life. When those fail during a cold snap or a heavy rain event, water moves fast through unfinished utility spaces before anyone notices.
+Kent sits in the Green River Valley, which shapes its weather and its risk profile in specific ways. The valley floor sees heavier fog and sustained winter moisture than the surrounding hillside neighborhoods, and older ranch-style and split-level homes, many built in the 1960s through 1980s, often have galvanized supply lines and cast-iron drain stacks that are well past their expected service life. When those fail during a cold snap or a heavy rain event, water moves fast through unfinished utility spaces before anyone notices.
 
-The area also experiences wind events that drive rain under roofing and around older window seals, leading to slow leaks that go undetected until mold is already established inside wall cavities. Kent's mix of residential neighborhoods and light-industrial corridors means we also respond regularly to commercial properties — warehouses, multi-tenant buildings, and small manufacturing spaces — where a single water event can affect multiple tenants and require coordinated access.
+The area also experiences wind events that drive rain under roofing and around older window seals, leading to slow leaks that go undetected until mold is already established inside wall cavities. Kent's mix of residential neighborhoods and light-industrial corridors means we also respond regularly to commercial properties, warehouses, multi-tenant buildings, and small manufacturing spaces, where a single water event can affect multiple tenants and require coordinated access.
 
 ## Response time and coverage in Kent
 
-Our headquarters in Federal Way puts Kent roughly 10 to 15 minutes away under normal traffic conditions. For most calls in Kent, we have a technician on-site within 60 to 90 minutes of your call — often faster for addresses near the West Valley Highway corridor or SR-167. We respond 24 hours a day, 7 days a week, including holidays, because emergencies don't wait for business hours.
+Our headquarters in Federal Way puts Kent roughly 10 to 15 minutes away under normal traffic conditions. For most calls in Kent, we have a technician on-site within 60 to 90 minutes of your call, often faster for addresses near the West Valley Highway corridor or SR-167. We respond 24 hours a day, 7 days a week, including holidays, because emergencies don't wait for business hours.
 
 We cover all Kent ZIP codes, including neighborhoods from the East Hill plateau down to the valley floor, and we work in adjacent cities when a job crosses into Renton, Auburn, or Covington.
 

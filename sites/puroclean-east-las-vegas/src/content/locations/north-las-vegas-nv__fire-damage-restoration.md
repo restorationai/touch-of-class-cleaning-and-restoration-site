@@ -20,19 +20,19 @@ state: "NV"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-When a kitchen fire races through a home near Aliante or a garage blaze scorches a property in Cheyenne Ranch, the damage doesn't stop when the flames do. North Las Vegas's dry desert heat — routinely above 110°F in summer — accelerates the bonding of smoke residue to surfaces, meaning every hour between extinguishment and professional cleanup is an hour of deeper, costlier penetration. PuroClean of East Las Vegas responds to fire damage calls across North Las Vegas, working through the acrid smell of char and the brittle reality of heat-warped framing to bring properties back to livable condition.
+When a kitchen fire races through a home near Aliante or a garage blaze scorches a property in Cheyenne Ranch, the damage doesn't stop when the flames do. North Las Vegas's dry desert heat, routinely above 110°F in summer, accelerates the bonding of smoke residue to surfaces, meaning every hour between extinguishment and professional cleanup is an hour of deeper, costlier penetration. PuroClean of East Las Vegas responds to fire damage calls across North Las Vegas, working through the acrid smell of char and the brittle reality of heat-warped framing to bring properties back to livable condition.
 
 ## Why North Las Vegas Properties Face Distinct Fire Damage Challenges
 
-North Las Vegas has grown fast. Neighborhoods like Sky Canyon and Eldorado include large-footprint stucco-and-wood-frame homes built in the 2000s and 2010s — construction that uses engineered lumber, OSB sheathing, and open floor plans. Engineered lumber loses structural integrity faster under fire exposure than dimensional lumber, which means post-fire structural assessments here often uncover compromised trusses and floor systems that look intact from the outside but have been weakened at the glue-laminate bonds.
+North Las Vegas has grown fast. Neighborhoods like Sky Canyon and Eldorado include large-footprint stucco-and-wood-frame homes built in the 2000s and 2010s, construction that uses engineered lumber, OSB sheathing, and open floor plans. Engineered lumber loses structural integrity faster under fire exposure than dimensional lumber, which means post-fire structural assessments here often uncover compromised trusses and floor systems that look intact from the outside but have been weakened at the glue-laminate bonds.
 
-The region's low humidity — Clark County averages around 30% relative humidity even in cooler months — creates a paradox after a fire. Dry air that made the fire burn hotter also means smoke particles settle into porous materials like stucco, insulation, and HVAC ductwork quickly and deeply. Soot that might stay loose and surface-level in a humid Gulf Coast climate becomes embedded here within 24 to 48 hours. Waiting even a day to begin cleanup in ZIP codes like 89084 or 89085 meaningfully increases the scope of content cleaning and odor neutralization required.
+The region's low humidity, Clark County averages around 30% relative humidity even in cooler months, creates a paradox after a fire. Dry air that made the fire burn hotter also means smoke particles settle into porous materials like stucco, insulation, and HVAC ductwork quickly and deeply. Soot that might stay loose and surface-level in a humid Gulf Coast climate becomes embedded here within 24 to 48 hours. Waiting even a day to begin cleanup in ZIP codes like 89084 or 89085 meaningfully increases the scope of content cleaning and odor neutralization required.
 
-Homes near Nellis Air Force Base also tend to be older rental stock — some built in the 1960s and 1970s — where aluminum wiring, older panel boxes, and deferred maintenance can contribute to electrical fires. Those properties carry an added layer of complexity: before any restoration work begins, the electrical system needs to be cleared by a licensed electrician, and we coordinate that step rather than assume it's been handled.
+Homes near Nellis Air Force Base also tend to be older rental stock, some built in the 1960s and 1970s, where aluminum wiring, older panel boxes, and deferred maintenance can contribute to electrical fires. Those properties carry an added layer of complexity: before any restoration work begins, the electrical system needs to be cleared by a licensed electrician, and we coordinate that step rather than assume it's been handled.
 
 ## Our Fire Damage Restoration Process in North Las Vegas
 
-The first step on-site is a structured assessment — not a visual walk-through, but a methodical inspection that maps the fire origin zone, the heat damage radius, and the smoke migration path. Smoke travels through HVAC returns, wall cavities, and attic spaces, often depositing odor-causing particles far from the visible burn area. In North Las Vegas homes with tile roofs and sealed attic spaces, smoke can become trapped in the attic insulation and re-release odor for weeks if not addressed.
+The first step on-site is a structured assessment, not a visual walk-through, but a methodical inspection that maps the fire origin zone, the heat damage radius, and the smoke migration path. Smoke travels through HVAC returns, wall cavities, and attic spaces, often depositing odor-causing particles far from the visible burn area. In North Las Vegas homes with tile roofs and sealed attic spaces, smoke can become trapped in the attic insulation and re-release odor for weeks if not addressed.
 
 Once the scope is documented, the process moves through:
 
@@ -44,16 +44,16 @@ Once the scope is documented, the process moves through:
 - **Structural drying** if firefighting water is present, using desiccant dehumidifiers calibrated for desert ambient conditions
 - **Reconstruction coordination**, from drywall and insulation to cabinetry and paint
 
-Every step is photographed and logged — documentation that feeds directly into the insurance claim.
+Every step is photographed and logged, documentation that feeds directly into the insurance claim.
 
 ## Insurance and HOA Coordination in North Las Vegas
 
-Most homeowners in master-planned communities like Aliante are subject to HOA covenants that govern the appearance of the property exterior during restoration — including requirements around visible tarping, dumpster placement, and construction fencing. We're familiar with the general HOA landscape in North Las Vegas and can help homeowners communicate proactively with their association to avoid compliance notices on top of an already stressful situation.
+Most homeowners in master-planned communities like Aliante are subject to HOA covenants that govern the appearance of the property exterior during restoration, including requirements around visible tarping, dumpster placement, and construction fencing. We're familiar with the general HOA landscape in North Las Vegas and can help homeowners communicate proactively with their association to avoid compliance notices on top of an already stressful situation.
 
 On the insurance side, we work directly with adjusters, provide line-item Xactimate estimates, and document the loss in the format carriers expect. This doesn't eliminate the claims process, but it reduces the back-and-forth that delays authorization and, ultimately, the start of reconstruction.
 
 ## Local Note
 
-In the newer subdivisions around Craig Ranch Regional Park and the northern Aliante corridor, many homes were built with spray-foam insulation in the attic — an energy-efficient choice that also creates a sealed, unvented attic. After a fire, that sealed attic traps smoke and combustion byproducts with nowhere to vent, and standard air-out procedures don't work the way they do in a vented attic. We bring in negative-air equipment and treat the attic as its own contained smoke-affected zone, which adds time to the job but prevents the persistent "ghost odor" that homeowners notice months later when temperatures rise and the foam off-gasses residual smoke compounds.
+In the newer subdivisions around Craig Ranch Regional Park and the northern Aliante corridor, many homes were built with spray-foam insulation in the attic, an energy-efficient choice that also creates a sealed, unvented attic. After a fire, that sealed attic traps smoke and combustion byproducts with nowhere to vent, and standard air-out procedures don't work the way they do in a vented attic. We bring in negative-air equipment and treat the attic as its own contained smoke-affected zone, which adds time to the job but prevents the persistent "ghost odor" that homeowners notice months later when temperatures rise and the foam off-gasses residual smoke compounds.
 
-If you're dealing with fire damage anywhere in North Las Vegas — from Valley View to Sky Canyon — call PuroClean of East Las Vegas at (702) 551-3040. The sooner the assessment begins, the more of your home and its contents can be saved.
+If you're dealing with fire damage anywhere in North Las Vegas, from Valley View to Sky Canyon, call PuroClean of East Las Vegas at (702) 551-3040. The sooner the assessment begins, the more of your home and its contents can be saved.

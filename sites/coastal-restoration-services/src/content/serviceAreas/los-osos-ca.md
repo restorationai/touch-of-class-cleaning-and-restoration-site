@@ -19,13 +19,13 @@ state: "CA"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a wall or a weekend storm pushes water under the slab, Los Osos property owners need someone who understands what they're dealing with — not a call center routing them to the next available crew. Coastal Restoration Services Inc handles water damage, mold remediation, fire and smoke cleanup, and reconstruction for homes and commercial properties throughout Los Osos and the broader San Luis Obispo County coast. Call us at **(805) 345-7440** to describe what you're seeing and we'll walk you through next steps.
+When a pipe bursts behind a wall or a weekend storm pushes water under the slab, Los Osos property owners need someone who understands what they're dealing with, not a call center routing them to the next available crew. Coastal Restoration Services Inc handles water damage, mold remediation, fire and smoke cleanup, and reconstruction for homes and commercial properties throughout Los Osos and the broader San Luis Obispo County coast. Call us at **(805) 345-7440** to describe what you're seeing and we'll walk you through next steps.
 
 ## Restoration emergencies common in Los Osos
 
-Los Osos sits at the edge of Morro Bay estuary on a marine terrace with a notably shallow water table — in some neighborhoods, that table sits only a few feet below the surface. That geology shapes nearly every water-damage call we take here. A slow leak under a slab doesn't just saturate the subfloor; it can wick upward through concrete and into framing within days, and the cool, humid air off the bay slows drying times compared to inland San Luis Obispo County. The area's coastal fog keeps relative humidity elevated for much of the year, which means mold can begin colonizing wet drywall in as little as 24 to 48 hours after a loss — faster than most homeowners expect.
+Los Osos sits at the edge of Morro Bay estuary on a marine terrace with a notably shallow water table, in some neighborhoods, that table sits only a few feet below the surface. That geology shapes nearly every water-damage call we take here. A slow leak under a slab doesn't just saturate the subfloor; it can wick upward through concrete and into framing within days, and the cool, humid air off the bay slows drying times compared to inland San Luis Obispo County. The area's coastal fog keeps relative humidity elevated for much of the year, which means mold can begin colonizing wet drywall in as little as 24 to 48 hours after a loss, faster than most homeowners expect.
 
-The housing stock adds another layer of complexity. A significant portion of Los Osos homes were built in the 1960s through the 1980s, when construction standards for vapor barriers, crawlspace ventilation, and drainage were less stringent than today. Older ranch-style homes on South Bay Boulevard and the streets feeding into the Baywood Park corridor frequently have unvented or poorly vented crawlspaces that trap moisture. When a supply line fails or a roof flashing lets in winter rain, that moisture has nowhere to go — and it often goes undetected until the smell of mildew becomes impossible to ignore.
+The housing stock adds another layer of complexity. A significant portion of Los Osos homes were built in the 1960s through the 1980s, when construction standards for vapor barriers, crawlspace ventilation, and drainage were less stringent than today. Older ranch-style homes on South Bay Boulevard and the streets feeding into the Baywood Park corridor frequently have unvented or poorly vented crawlspaces that trap moisture. When a supply line fails or a roof flashing lets in winter rain, that moisture has nowhere to go, and it often goes undetected until the smell of mildew becomes impossible to ignore.
 
 Septic system proximity is also a real factor in parts of Los Osos, where the long-running sewer project history left some parcels on aging systems longer than anticipated. Any sewage backup or drain overflow in those properties carries biohazard implications that require a different response protocol than a clean-water pipe break.
 
@@ -33,15 +33,15 @@ Septic system proximity is also a real factor in parts of Los Osos, where the lo
 
 ### Water damage restoration
 
-Water damage in Los Osos often starts small — a slow drip behind a vanity, a failed washing machine hose, a roof penetration that weeps only during heavy rain. By the time it's visible, the moisture has typically spread further than the stain suggests. We use thermal imaging and moisture meters to map the actual extent of saturation, then extract standing water, set commercial drying equipment, and monitor daily until structural readings return to baseline. We document everything for insurance carriers and can bill most major carriers directly.
+Water damage in Los Osos often starts small, a slow drip behind a vanity, a failed washing machine hose, a roof penetration that weeps only during heavy rain. By the time it's visible, the moisture has typically spread further than the stain suggests. We use thermal imaging and moisture meters to map the actual extent of saturation, then extract standing water, set commercial drying equipment, and monitor daily until structural readings return to baseline. We document everything for insurance carriers and can bill most major carriers directly.
 
 ### Mold remediation
 
-The bay-influenced humidity in Los Osos means mold isn't just a post-flood problem — it can establish in chronically damp crawlspaces, attic spaces with inadequate ventilation, and behind tile in older bathrooms. We contain affected areas, remove compromised materials, treat structural surfaces, and verify clearance before reconstruction begins. We follow established industry protocols for containment and air filtration throughout the process.
+The bay-influenced humidity in Los Osos means mold isn't just a post-flood problem, it can establish in chronically damp crawlspaces, attic spaces with inadequate ventilation, and behind tile in older bathrooms. We contain affected areas, remove compromised materials, treat structural surfaces, and verify clearance before reconstruction begins. We follow established industry protocols for containment and air filtration throughout the process.
 
 ### Fire and smoke damage restoration
 
-While Los Osos itself sits in a relatively low direct-ignition-risk zone compared to the inland hills, homes here are not immune to kitchen fires, electrical fires in aging wiring, and wildfire smoke infiltration during regional fire events. Smoke residue is acidic and continues to etch surfaces and corrode metals long after the flames are out. We assess the full scope of smoke penetration — including HVAC systems and wall cavities — before beginning odor neutralization and surface cleaning.
+While Los Osos itself sits in a relatively low direct-ignition-risk zone compared to the inland hills, homes here are not immune to kitchen fires, electrical fires in aging wiring, and wildfire smoke infiltration during regional fire events. Smoke residue is acidic and continues to etch surfaces and corrode metals long after the flames are out. We assess the full scope of smoke penetration, including HVAC systems and wall cavities, before beginning odor neutralization and surface cleaning.
 
 ### Biohazard and sewage cleanup
 
@@ -49,7 +49,7 @@ Sewage backups, whether from a main line failure or a septic overflow, require m
 
 ### Reconstruction
 
-Once the damage is mitigated and the structure is dry and clean, rebuilding can begin. Rather than handing you off to a separate contractor, we carry reconstruction services in-house — drywall, flooring, cabinetry, and finish work — so the project moves on a single timeline with a single point of contact.
+Once the damage is mitigated and the structure is dry and clean, rebuilding can begin. Rather than handing you off to a separate contractor, we carry reconstruction services in-house, drywall, flooring, cabinetry, and finish work, so the project moves on a single timeline with a single point of contact.
 
 ## Coverage and how fast we can get there
 

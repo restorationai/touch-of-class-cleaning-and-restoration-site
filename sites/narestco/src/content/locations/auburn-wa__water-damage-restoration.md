@@ -20,44 +20,44 @@ state: "WA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
-Water is already moving. Right now, if you've got a burst pipe, an overflowing appliance, or a roof leak that finally gave way, moisture is wicking into your subfloor, your drywall, and your insulation faster than it looks. National Restoration Construction answers water damage calls in Auburn 24 hours a day, seven days a week — and because our team is based in Federal Way, we're typically on your property within 60 to 90 minutes of your call.
+Water is already moving. Right now, if you've got a burst pipe, an overflowing appliance, or a roof leak that finally gave way, moisture is wicking into your subfloor, your drywall, and your insulation faster than it looks. National Restoration Construction answers water damage calls in Auburn 24 hours a day, seven days a week, and because our team is based in Federal Way, we're typically on your property within 60 to 90 minutes of your call.
 
 ## Why Auburn Properties See Water Damage So Often
 
-Auburn sits in the Green River Valley, which means it collects rainfall from the Cascade foothills and deals with a water table that can rise quickly during a wet winter. The city averages around 40 inches of rain per year — most of it falling between October and April — and that sustained moisture load puts real stress on older homes. Much of Auburn's residential housing stock dates to the 1970s and 1980s, when polybutylene supply lines were common. Those pipes are now decades past their expected lifespan and fail without warning. Crawl spaces in valley-floor neighborhoods are especially vulnerable: poor drainage, inadequate vapor barriers, and occasional groundwater intrusion can leave standing water under a home for days before a homeowner notices the musty smell coming up through the floor.
+Auburn sits in the Green River Valley, which means it collects rainfall from the Cascade foothills and deals with a water table that can rise quickly during a wet winter. The city averages around 40 inches of rain per year, most of it falling between October and April, and that sustained moisture load puts real stress on older homes. Much of Auburn's residential housing stock dates to the 1970s and 1980s, when polybutylene supply lines were common. Those pipes are now decades past their expected lifespan and fail without warning. Crawl spaces in valley-floor neighborhoods are especially vulnerable: poor drainage, inadequate vapor barriers, and occasional groundwater intrusion can leave standing water under a home for days before a homeowner notices the musty smell coming up through the floor.
 
-Commercial properties along Auburn Way and in the industrial corridors near SR-167 deal with their own version of this — aging flat roofs, large HVAC condensate systems, and fire suppression lines that can dump hundreds of gallons in minutes when something goes wrong.
+Commercial properties along Auburn Way and in the industrial corridors near SR-167 deal with their own version of this, aging flat roofs, large HVAC condensate systems, and fire suppression lines that can dump hundreds of gallons in minutes when something goes wrong.
 
 ## Our Water Damage Restoration Process in Auburn
 
-Every job starts with a moisture assessment, not a sales pitch. When we arrive, we use thermal imaging cameras and calibrated moisture meters to map exactly where water has traveled — including inside wall cavities and under flooring where it isn't visible. You see the readings. We explain what they mean.
+Every job starts with a moisture assessment, not a sales pitch. When we arrive, we use thermal imaging cameras and calibrated moisture meters to map exactly where water has traveled, including inside wall cavities and under flooring where it isn't visible. You see the readings. We explain what they mean.
 
 From there, the process moves in a clear sequence:
 
-**1. Water Extraction** — Truck-mounted extraction units remove standing water fast. For a flooded basement or a kitchen with an inch of water across the floor, this stage is measured in minutes, not hours.
+**1. Water Extraction**, Truck-mounted extraction units remove standing water fast. For a flooded basement or a kitchen with an inch of water across the floor, this stage is measured in minutes, not hours.
 
-**2. Structural Drying** — Industrial-grade air movers and low-grain refrigerant dehumidifiers are positioned to create a controlled drying environment. We calculate the number of units needed based on the affected square footage and material types — hardwood dries differently than concrete slab. Drying typically takes three to five days, though we monitor moisture readings daily and adjust equipment placement as conditions change.
+**2. Structural Drying**, Industrial-grade air movers and low-grain refrigerant dehumidifiers are positioned to create a controlled drying environment. We calculate the number of units needed based on the affected square footage and material types, hardwood dries differently than concrete slab. Drying typically takes three to five days, though we monitor moisture readings daily and adjust equipment placement as conditions change.
 
-**3. Antimicrobial Treatment** — Any surface that held standing water gets treated. Mold can begin colonizing porous materials within 24 to 48 hours of saturation; treatment at this stage is about reducing that risk, not eliminating a problem that may not exist yet.
+**3. Antimicrobial Treatment**, Any surface that held standing water gets treated. Mold can begin colonizing porous materials within 24 to 48 hours of saturation; treatment at this stage is about reducing that risk, not eliminating a problem that may not exist yet.
 
-**4. Documentation and Scope** — Throughout the process, we photograph conditions, log moisture readings, and produce the written documentation your insurance adjuster will need. If controlled demolition is required — removing wet drywall or saturated insulation — we document before and after.
+**4. Documentation and Scope**, Throughout the process, we photograph conditions, log moisture readings, and produce the written documentation your insurance adjuster will need. If controlled demolition is required, removing wet drywall or saturated insulation, we document before and after.
 
-**5. Reconstruction** — As an IICRC-certified firm with a Washington State General Contractor license (WA L&I #NATIORC792M6), we handle the rebuild ourselves. You don't have to find a separate contractor once mitigation is complete.
+**5. Reconstruction**, As an IICRC-certified firm with a Washington State General Contractor license (WA L&I #NATIORC792M6), we handle the rebuild ourselves. You don't have to find a separate contractor once mitigation is complete.
 
 ## Response Times Across Auburn
 
-Our Federal Way headquarters puts us roughly 10 to 15 minutes from most of Auburn under normal traffic conditions. That means a technician with extraction equipment can realistically be at a property in the West Hill, Lea Hill, or downtown Auburn neighborhoods within 60 minutes of your call — often faster during off-peak hours. For properties closer to the Federal Way border along Auburn's northern edge, response can be under 45 minutes.
+Our Federal Way headquarters puts us roughly 10 to 15 minutes from most of Auburn under normal traffic conditions. That means a technician with extraction equipment can realistically be at a property in the West Hill, Lea Hill, or downtown Auburn neighborhoods within 60 minutes of your call, often faster during off-peak hours. For properties closer to the Federal Way border along Auburn's northern edge, response can be under 45 minutes.
 
 We don't dispatch a salesperson first. The person who shows up has the equipment and the training to start water removal immediately.
 
 ## Navigating Your Insurance Claim
 
-Most sudden water damage — a pipe burst, appliance overflow, or storm-driven roof leak — is covered under standard homeowners policies. What isn't covered, generally, is gradual leakage or flooding from rising groundwater (that requires separate flood insurance). Knowing the difference before you file matters.
+Most sudden water damage, a pipe burst, appliance overflow, or storm-driven roof leak, is covered under standard homeowners policies. What isn't covered, generally, is gradual leakage or flooding from rising groundwater (that requires separate flood insurance). Knowing the difference before you file matters.
 
-We work directly with all major carriers and can communicate with your adjuster on your behalf. We provide moisture logs, photo documentation, and a detailed scope of loss in the format adjusters expect. You remain in control of your claim — we just remove the part where you're trying to translate water damage into insurance language while also dealing with a wet house.
+We work directly with all major carriers and can communicate with your adjuster on your behalf. We provide moisture logs, photo documentation, and a detailed scope of loss in the format adjusters expect. You remain in control of your claim, we just remove the part where you're trying to translate water damage into insurance language while also dealing with a wet house.
 
 If you're not sure whether your damage is covered, that's a normal place to be. We can walk through what we're seeing on-site and help you understand what to report before you make the call to your carrier.
 
 ---
 
-If water is sitting in your Auburn home or building right now, the window for limiting damage is measured in hours. Reach National Restoration Construction at **(206) 883-0333** — someone answers every call, day or night, and we can have a crew moving toward you within the hour.
+If water is sitting in your Auburn home or building right now, the window for limiting damage is measured in hours. Reach National Restoration Construction at **(206) 883-0333**, someone answers every call, day or night, and we can have a crew moving toward you within the hour.

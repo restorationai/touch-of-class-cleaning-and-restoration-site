@@ -17,15 +17,15 @@ service_slug: "painting-trim"
 service_display: "Painting and Trim"
 rendered: true
 ---
-Paint is one of the few things in a home that fails slowly and visibly — chalking exterior siding, trim that's gone gray and checked along the grain, interior walls where the sheen has worn uneven from years of cleaning. By the time most homeowners call a painting contractor, they've been looking at the problem for months. The good news: a properly prepped and painted surface in Madison's climate can hold up for eight to twelve years on the exterior and indefinitely indoors when the right products are matched to the substrate.
+Paint is one of the few things in a home that fails slowly and visibly, chalking exterior siding, trim that's gone gray and checked along the grain, interior walls where the sheen has worn uneven from years of cleaning. By the time most homeowners call a painting contractor, they've been looking at the problem for months. The good news: a properly prepped and painted surface in Madison's climate can hold up for eight to twelve years on the exterior and indefinitely indoors when the right products are matched to the substrate.
 
 ## What painting and trim actually involves
 
-Painting is about 20% product and 80% preparation. The paint itself is the last thing that goes on — everything before it determines how long the finish lasts and how clean it looks at five feet and at five inches.
+Painting is about 20% product and 80% preparation. The paint itself is the last thing that goes on, everything before it determines how long the finish lasts and how clean it looks at five feet and at five inches.
 
-For **interior painting**, that preparation means patching nail holes and stress cracks with the right filler compound (lightweight spackle for small voids, setting-type compound for larger repairs that need to hold), sanding to a feather edge, and priming bare patches before the finish coat goes on. Skipping the spot prime is the most common shortcut that shows up as a sheen difference — a dull ring around every patch — within a few weeks of painting.
+For **interior painting**, that preparation means patching nail holes and stress cracks with the right filler compound (lightweight spackle for small voids, setting-type compound for larger repairs that need to hold), sanding to a feather edge, and priming bare patches before the finish coat goes on. Skipping the spot prime is the most common shortcut that shows up as a sheen difference, a dull ring around every patch, within a few weeks of painting.
 
-For **exterior painting** in North Alabama, preparation adds a moisture and adhesion check. Wood siding and trim that reads above 15% moisture content on a pin meter shouldn't be painted — the film will bubble and peel within a season. Surfaces get pressure-washed, allowed to dry fully (typically 48–72 hours depending on temperature and sun exposure), then scraped, sanded, and caulked before primer touches the surface. Caulking is its own discipline: the wrong product in the wrong joint — say, a paintable latex caulk in a high-movement wood-to-masonry joint — will crack and open up within a year.
+For **exterior painting** in North Alabama, preparation adds a moisture and adhesion check. Wood siding and trim that reads above 15% moisture content on a pin meter shouldn't be painted, the film will bubble and peel within a season. Surfaces get pressure-washed, allowed to dry fully (typically 48–72 hours depending on temperature and sun exposure), then scraped, sanded, and caulked before primer touches the surface. Caulking is its own discipline: the wrong product in the wrong joint, say, a paintable latex caulk in a high-movement wood-to-masonry joint, will crack and open up within a year.
 
 **Trim painting** is the detail work that makes or breaks the overall impression of a room or exterior. Doors, window casings, baseboards, crown molding, and fascia boards all take more prep time per square foot than open wall surfaces. They're also where brush marks, lap lines, and missed back-priming on raw wood ends show up most clearly.
 
@@ -33,21 +33,21 @@ Timeline for a typical interior project (3–4 rooms): 1–2 days prep, 1–2 da
 
 ## Our process
 
-1. **Surface assessment and product selection.** Before a drop cloth goes down, we walk the project and note substrate type, existing paint condition, moisture readings on any wood surfaces, and any areas needing repair. Product selection — sheen level, primer type, paint line — gets decided here, not at the supply house the morning of day one.
+1. **Surface assessment and product selection.** Before a drop cloth goes down, we walk the project and note substrate type, existing paint condition, moisture readings on any wood surfaces, and any areas needing repair. Product selection, sheen level, primer type, paint line, gets decided here, not at the supply house the morning of day one.
 
-2. **Repair and surface preparation.** Cracks get opened slightly with a putty knife before filling so the compound bonds to both sides. Peeling exterior paint gets scraped back to a firm edge, not just feathered over. Bare wood ends on trim get back-primed with an oil-based or shellac primer before any latex topcoat — this is the step that prevents end-grain moisture absorption and premature failure on fascia and window sills.
+2. **Repair and surface preparation.** Cracks get opened slightly with a putty knife before filling so the compound bonds to both sides. Peeling exterior paint gets scraped back to a firm edge, not just feathered over. Bare wood ends on trim get back-primed with an oil-based or shellac primer before any latex topcoat, this is the step that prevents end-grain moisture absorption and premature failure on fascia and window sills.
 
-3. **Priming.** New drywall, repaired surfaces, and any bare wood get a dedicated prime coat. On exteriors, we use a bonding primer over chalky or previously failing paint rather than painting directly over a compromised surface. Primer is not optional — it's the mechanical and chemical bond between the substrate and the finish.
+3. **Priming.** New drywall, repaired surfaces, and any bare wood get a dedicated prime coat. On exteriors, we use a bonding primer over chalky or previously failing paint rather than painting directly over a compromised surface. Primer is not optional, it's the mechanical and chemical bond between the substrate and the finish.
 
-4. **Finish coat application.** Interior walls and ceilings get rolled in a consistent W-pattern and back-rolled to eliminate lap lines. Trim is cut in by brush with attention to maintaining a wet edge. Exterior surfaces are applied within the manufacturer's temperature and humidity window — typically 50°F–90°F with humidity below 85%. Two finish coats are standard on any surface that's changing color significantly or coming off a bare prime.
+4. **Finish coat application.** Interior walls and ceilings get rolled in a consistent W-pattern and back-rolled to eliminate lap lines. Trim is cut in by brush with attention to maintaining a wet edge. Exterior surfaces are applied within the manufacturer's temperature and humidity window, typically 50°F–90°F with humidity below 85%. Two finish coats are standard on any surface that's changing color significantly or coming off a bare prime.
 
-5. **Detail review and touch-up.** Before we call a job done, we walk the space in raking light — angled natural or artificial light that makes every brush mark, missed spot, and texture inconsistency visible. Touch-up happens before cleanup, not as an afterthought after the ladders are loaded.
+5. **Detail review and touch-up.** Before we call a job done, we walk the space in raking light, angled natural or artificial light that makes every brush mark, missed spot, and texture inconsistency visible. Touch-up happens before cleanup, not as an afterthought after the ladders are loaded.
 
 ## What separates a good paint job from one that fails early
 
 The most common failure points we see when repainting a house that was done by someone else:
 
-- **Paint applied over dirty or chalky surfaces.** Chalk is essentially a release layer — paint bonded to it will peel in sheets. A simple chalk test (rub your hand across the surface; if it comes away white) tells you whether a bonding primer is required.
+- **Paint applied over dirty or chalky surfaces.** Chalk is essentially a release layer, paint bonded to it will peel in sheets. A simple chalk test (rub your hand across the surface; if it comes away white) tells you whether a bonding primer is required.
 - **Caulk applied over paint instead of under it.** Caulk needs to bond to the substrate, not to a paint film. Caulk-over-paint joints fail at the paint interface and open up to water infiltration.
 - **Trim not back-primed.** Unprimed end grain on wood trim wicks moisture and causes paint to lift from the inside out, especially on north-facing or shaded elevations.
 - **Wrong sheen for the application.** Flat paint on a high-traffic wall or a bathroom ceiling will absorb moisture and stain; semi-gloss on a large open wall will telegraph every surface imperfection.
@@ -55,7 +55,7 @@ The most common failure points we see when repainting a house that was done by s
 
 ## Seasonal and regional considerations
 
-Madison's humidity is the main variable for exterior painting. Summer months can push relative humidity above 85% even on days that feel comfortable — conditions where latex paint dries slowly, traps moisture, and can develop a milky haze in the film. Spring and fall, when overnight lows stay above 50°F and afternoon humidity drops, are the best windows for exterior work. Interior painting is year-round, but running the HVAC to maintain consistent temperature and airflow speeds dry times and improves flow-out on trim work.
+Madison's humidity is the main variable for exterior painting. Summer months can push relative humidity above 85% even on days that feel comfortable, conditions where latex paint dries slowly, traps moisture, and can develop a milky haze in the film. Spring and fall, when overnight lows stay above 50°F and afternoon humidity drops, are the best windows for exterior work. Interior painting is year-round, but running the HVAC to maintain consistent temperature and airflow speeds dry times and improves flow-out on trim work.
 
 ## Service area
 

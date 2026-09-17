@@ -20,7 +20,7 @@ state: "FL"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
-Plantation sits in the heart of Broward County's storm corridor, and every hurricane season reminds homeowners here why that matters. The city's canopy of mature oaks and royal palms — especially dense across Plantation Acres' sprawling lots — turns a 60 mph wind gust into a roof-puncturing, fence-flattening event. When a storm tears through, the damage rarely stops at the shingles: water follows within minutes, soaking insulation, warping subflooring, and setting the clock on mold colonization. RestorationXpress responds to storm damage calls across Plantation from our Davie location, and we know this city's particular vulnerabilities well.
+Plantation sits in the heart of Broward County's storm corridor, and every hurricane season reminds homeowners here why that matters. The city's canopy of mature oaks and royal palms, especially dense across Plantation Acres' sprawling lots, turns a 60 mph wind gust into a roof-puncturing, fence-flattening event. When a storm tears through, the damage rarely stops at the shingles: water follows within minutes, soaking insulation, warping subflooring, and setting the clock on mold colonization. RestorationXpress responds to storm damage calls across Plantation from our Davie location, and we know this city's particular vulnerabilities well.
 
 ## Why Plantation Properties See Disproportionate Storm Damage
 
@@ -28,35 +28,35 @@ Plantation's housing stock is a study in contrasts. The neighborhoods near Jacar
 
 The city's high water table compounds the problem. Broward County's soil saturates quickly during heavy rain events, and once the ground can't absorb more, water backs up through weep screed, window frames, and garage door thresholds. Homes near Volunteer Park and along the drainage corridors feeding into the South New River Canal have seen this pattern repeatedly after named storms and even strong afternoon squall lines.
 
-Mature tree canopy is the other major factor. Plantation Acres' large residential lots support trees with root systems that can heave driveways and foundations when saturated, and limbs that can punch through roofs or lanai enclosures during gusts. A single fallen oak can cause simultaneous roof damage, water intrusion, and electrical hazards — all requiring coordinated response.
+Mature tree canopy is the other major factor. Plantation Acres' large residential lots support trees with root systems that can heave driveways and foundations when saturated, and limbs that can punch through roofs or lanai enclosures during gusts. A single fallen oak can cause simultaneous roof damage, water intrusion, and electrical hazards, all requiring coordinated response.
 
 ## Our Storm Damage Restoration Process in Plantation
 
-Every storm job starts with a systematic damage assessment before any materials are moved or removed. We photograph and document the full scope — roof penetrations, interior water migration paths, affected wall cavities, and any structural concerns — because that documentation is the foundation of your insurance claim.
+Every storm job starts with a systematic damage assessment before any materials are moved or removed. We photograph and document the full scope, roof penetrations, interior water migration paths, affected wall cavities, and any structural concerns, because that documentation is the foundation of your insurance claim.
 
 Once the assessment is complete, the work moves in a defined sequence:
 
 - **Emergency tarping and board-up** to stop active water intrusion through roof breaches or broken windows
 - **Standing water extraction** using truck-mounted and portable units, including water trapped under tile and hardwood flooring
 - **Structural drying** with industrial air movers and desiccant or refrigerant dehumidifiers, monitored daily with calibrated moisture meters
-- **Debris removal and controlled demolition** of materials that can't be dried in place — saturated drywall, insulation, and damaged flooring
+- **Debris removal and controlled demolition** of materials that can't be dried in place, saturated drywall, insulation, and damaged flooring
 - **Mold prevention treatment** on exposed framing, since Plantation's humidity means mold can begin colonizing within 24 to 48 hours of a moisture event
 - **Reconstruction coordination** to restore the structure once the dry standard is confirmed
 
-For homes in ZIP code 33322 and surrounding areas with tile roofs, we work carefully around the mortar-set field tiles that are common in Plantation's mid-century and 1980s builds — improper handling during tarping can crack undamaged tiles and expand the repair scope unnecessarily.
+For homes in ZIP code 33322 and surrounding areas with tile roofs, we work carefully around the mortar-set field tiles that are common in Plantation's mid-century and 1980s builds, improper handling during tarping can crack undamaged tiles and expand the repair scope unnecessarily.
 
 ## Reaching Plantation from Davie
 
-RestorationXpress operates out of Davie, which puts us immediately adjacent to Plantation's eastern boundary. From our location, we can reach neighborhoods along Broward Boulevard and University Drive quickly via I-595 or SR-84. The Jacaranda corridor and the residential streets near Westfield Broward Mall are typically accessible within a short drive under normal traffic conditions. We'll give you an honest arrival estimate when you call — (954) 932-5420 — rather than a number that doesn't account for post-storm traffic or road closures.
+RestorationXpress operates out of Davie, which puts us immediately adjacent to Plantation's eastern boundary. From our location, we can reach neighborhoods along Broward Boulevard and University Drive quickly via I-595 or SR-84. The Jacaranda corridor and the residential streets near Westfield Broward Mall are typically accessible within a short drive under normal traffic conditions. We'll give you an honest arrival estimate when you call, (954) 932-5420, rather than a number that doesn't account for post-storm traffic or road closures.
 
 ## Plantation Insurance & HOA Coordination
 
 Most storm damage claims in Plantation run through homeowners' insurance, and the documentation phase of our work is built around what adjusters need. We provide itemized moisture readings, photo logs, and scope-of-loss reports in formats compatible with Xactimate, the estimating platform most carriers use. If your adjuster requests a re-inspection or disputes a line item, we're available to walk through the documentation with them.
 
-HOA requirements in Plantation vary significantly by community. Some associations — particularly in the gated communities along Cleary Boulevard — require prior approval for exterior repairs or specific material matches on roofing and fencing. We flag these situations early and can communicate directly with your HOA management company to keep the project on schedule.
+HOA requirements in Plantation vary significantly by community. Some associations, particularly in the gated communities along Cleary Boulevard, require prior approval for exterior repairs or specific material matches on roofing and fencing. We flag these situations early and can communicate directly with your HOA management company to keep the project on schedule.
 
 ## Local Note
 
-Homes in Plantation Acres sit on larger lots than most of Broward County, and many were built in the 1960s and 1970s with original wood-frame additions or screen enclosures attached to the main concrete-block structure. After a storm, these additions are often the first to fail — and because they're attached, water tracks from the damaged addition directly into the main living space through the shared wall. If you have a wood-frame addition or Florida room on your property, it's worth having that wall cavity checked even if the interior of the main house looks dry. We've found significant hidden moisture in that exact location more than once in this neighborhood.
+Homes in Plantation Acres sit on larger lots than most of Broward County, and many were built in the 1960s and 1970s with original wood-frame additions or screen enclosures attached to the main concrete-block structure. After a storm, these additions are often the first to fail, and because they're attached, water tracks from the damaged addition directly into the main living space through the shared wall. If you have a wood-frame addition or Florida room on your property, it's worth having that wall cavity checked even if the interior of the main house looks dry. We've found significant hidden moisture in that exact location more than once in this neighborhood.
 
-If your Plantation home has taken storm damage — whether it's a tree through the roof, a flooded garage, or water wicking up through your floors after a heavy squall — call RestorationXpress at (954) 932-5420. We'll assess the full scope, document everything your insurer needs, and get the drying process started before Broward County's humidity turns a storm repair into a mold remediation.
+If your Plantation home has taken storm damage, whether it's a tree through the roof, a flooded garage, or water wicking up through your floors after a heavy squall, call RestorationXpress at (954) 932-5420. We'll assess the full scope, document everything your insurer needs, and get the drying process started before Broward County's humidity turns a storm repair into a mold remediation.

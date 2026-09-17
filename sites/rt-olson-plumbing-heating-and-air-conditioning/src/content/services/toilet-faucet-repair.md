@@ -17,13 +17,13 @@ service_slug: "toilet-faucet-repair"
 service_display: "Toilet, Faucet and Fixture Services"
 rendered: true
 ---
-A toilet that runs all night, a faucet that drips even when fully closed, a shower valve that takes three minutes of juggling to find a temperature that won't scald you — these aren't minor annoyances. They're symptoms of worn internal components, mineral-laden water, or aging fixtures that will only get worse. In the Inland Empire, hard water accelerates that wear faster than most homeowners expect, eating through washers, cartridges, and fill valves years ahead of schedule. RT Olson Plumbing, Heating and Air Conditioning diagnoses and resolves the full range of toilet, faucet, and fixture problems — from a phantom flush at 2 a.m. to a full bathroom fixture replacement.
+A toilet that runs all night, a faucet that drips even when fully closed, a shower valve that takes three minutes of juggling to find a temperature that won't scald you, these aren't minor annoyances. They're symptoms of worn internal components, mineral-laden water, or aging fixtures that will only get worse. In the Inland Empire, hard water accelerates that wear faster than most homeowners expect, eating through washers, cartridges, and fill valves years ahead of schedule. RT Olson Plumbing, Heating and Air Conditioning diagnoses and resolves the full range of toilet, faucet, and fixture problems, from a phantom flush at 2 a.m. to a full bathroom fixture replacement.
 
 ## What toilet, faucet and fixture services actually involve
 
-This work covers everything from the supply stop valve behind your toilet to the aerator on your kitchen faucet — and everything in between. A running toilet repair typically means replacing the flapper, fill valve, or flush valve seat, depending on where the leak is occurring. A dripping faucet usually points to a worn cartridge, O-ring, or ceramic disc, which varies by faucet brand and style. Shower valve repair is its own category: a pressure-balancing valve behaves differently from a thermostatic valve, and diagnosing the right fix requires knowing which type you have.
+This work covers everything from the supply stop valve behind your toilet to the aerator on your kitchen faucet, and everything in between. A running toilet repair typically means replacing the flapper, fill valve, or flush valve seat, depending on where the leak is occurring. A dripping faucet usually points to a worn cartridge, O-ring, or ceramic disc, which varies by faucet brand and style. Shower valve repair is its own category: a pressure-balancing valve behaves differently from a thermostatic valve, and diagnosing the right fix requires knowing which type you have.
 
-Fixture installation — whether you're upgrading to a low-flow toilet, swapping out a builder-grade faucet, or replacing a corroded tub spout — involves shutting off supply lines, clearing the drain, setting the new fixture to manufacturer spec, and pressure-testing before calling the job done. In older Corona homes, especially those built in the 1970s and 1980s, supply lines are often galvanized steel that has narrowed with mineral buildup. That context changes what a straightforward swap actually requires.
+Fixture installation, whether you're upgrading to a low-flow toilet, swapping out a builder-grade faucet, or replacing a corroded tub spout, involves shutting off supply lines, clearing the drain, setting the new fixture to manufacturer spec, and pressure-testing before calling the job done. In older Corona homes, especially those built in the 1970s and 1980s, supply lines are often galvanized steel that has narrowed with mineral buildup. That context changes what a straightforward swap actually requires.
 
 Timeline depends on scope. A flapper swap or cartridge replacement is typically a same-visit repair. A toilet replacement or shower valve swap runs two to four hours. A multi-fixture bathroom remodel is scheduled in stages.
 
@@ -31,30 +31,30 @@ Timeline depends on scope. A flapper swap or cartridge replacement is typically 
 
 1. **Diagnose before touching anything.** We identify whether the problem is the fixture itself, the supply line, the shut-off valve, or the drain connection. A faucet that "won't stop dripping" after a DIY cartridge swap is often a seat or O-ring issue that the cartridge alone can't fix.
 
-2. **Shut off supply and confirm water is isolated.** For toilet work, that means closing the angle stop and flushing the tank. For faucet and shower valve work, we isolate at the nearest shut-off or the main, depending on valve condition. We never assume an old angle stop will hold — if it won't, we address it first.
+2. **Shut off supply and confirm water is isolated.** For toilet work, that means closing the angle stop and flushing the tank. For faucet and shower valve work, we isolate at the nearest shut-off or the main, depending on valve condition. We never assume an old angle stop will hold, if it won't, we address it first.
 
 3. **Remove, inspect, and match components.** Cartridges, fill valves, and flush valve seats are brand- and model-specific. We identify the correct replacement part before removing the old one, so there's no mid-job run to the supply house. For fixture replacements, we confirm rough-in dimensions (toilet rough-in distance, faucet hole spread) before the old unit comes out.
 
 4. **Install, seal, and set.** Toilets get a new wax ring or wax-free gasket, properly torqued bolts, and a supply line rated for the connection type. Faucets get thread sealant on supply connections and a drain assembly set to the correct stopper height. Shower valves are set to the manufacturer's maximum temperature limit before the trim plate goes on.
 
-5. **Pressure-test and verify.** We run the fixture through a full cycle — fill, flush, flow, drain — before we leave. For shower valves, we check both the pressure-balance function and the hot-limit stop. A job isn't finished until there's no drip at the supply connections and no weep at the base.
+5. **Pressure-test and verify.** We run the fixture through a full cycle, fill, flush, flow, drain, before we leave. For shower valves, we check both the pressure-balance function and the hot-limit stop. A job isn't finished until there's no drip at the supply connections and no weep at the base.
 
 ## What separates a good fixture repair from a bad one
 
-The most common mistake in DIY and rushed professional work alike is replacing the most visible component without diagnosing the root cause. A flapper swap fixes a running toilet only if the flapper is the problem — if the flush valve seat is pitted or corroded, a new flapper will leak just as fast. Similarly, swapping a faucet cartridge without inspecting the valve body for cracks or the seat for scoring often means a callback within weeks.
+The most common mistake in DIY and rushed professional work alike is replacing the most visible component without diagnosing the root cause. A flapper swap fixes a running toilet only if the flapper is the problem, if the flush valve seat is pitted or corroded, a new flapper will leak just as fast. Similarly, swapping a faucet cartridge without inspecting the valve body for cracks or the seat for scoring often means a callback within weeks.
 
 Shower valve repair is where the technical gap shows most clearly. Pressure-balancing valves (the standard since California adopted updated plumbing codes) have a cartridge that controls both volume and temperature balance. Thermostatic valves have separate volume and temperature controls. Misidentifying the valve type leads to ordering the wrong part and, in some cases, incorrect reassembly that defeats the scald-protection function entirely.
 
-On fixture installations, the detail that gets skipped most often is confirming the shut-off valve condition before committing to the job. An angle stop that's been untouched for 20 years may not close fully — or may fail when turned. Addressing that before removing the old fixture prevents a minor repair from becoming a water-damage event.
+On fixture installations, the detail that gets skipped most often is confirming the shut-off valve condition before committing to the job. An angle stop that's been untouched for 20 years may not close fully, or may fail when turned. Addressing that before removing the old fixture prevents a minor repair from becoming a water-damage event.
 
 ## Seasonal and regional considerations
 
 Corona and the surrounding Inland Empire sit in a hard-water zone. The water delivered through local municipal systems carries elevated calcium and magnesium levels that deposit inside valve bodies, cartridge housings, and aerator screens over time. That mineral scale is a primary driver of faucets that won't shut off cleanly, shower valves that lose temperature precision, and fill valves that cycle constantly. If you're replacing a fixture that failed earlier than expected, scale buildup inside the supply lines and valve seats is worth inspecting before the new unit goes in.
 
-Summer heat in the region also stresses supply lines — particularly the braided-steel lines connecting shut-off valves to toilets and faucets. Lines that have been in place for more than seven to ten years are worth replacing proactively during any fixture service call.
+Summer heat in the region also stresses supply lines, particularly the braided-steel lines connecting shut-off valves to toilets and faucets. Lines that have been in place for more than seven to ten years are worth replacing proactively during any fixture service call.
 
 ## Service area
 
-RT Olson Plumbing, Heating and Air Conditioning is based in Corona and provides toilet, faucet, and fixture services throughout the surrounding communities — including Norco, Eastvale, Riverside, Chino Hills, Ontario, and Anaheim Hills. City-specific service pages for each area link back to this page for full service details.
+RT Olson Plumbing, Heating and Air Conditioning is based in Corona and provides toilet, faucet, and fixture services throughout the surrounding communities, including Norco, Eastvale, Riverside, Chino Hills, Ontario, and Anaheim Hills. City-specific service pages for each area link back to this page for full service details.
 
-If your toilet is running, your faucet won't stop dripping, or your shower valve is overdue for repair, call (951) 344-5596 to schedule a fixture diagnosis — available 24/7, license #997337.
+If your toilet is running, your faucet won't stop dripping, or your shower valve is overdue for repair, call (951) 344-5596 to schedule a fixture diagnosis, available 24/7, license #997337.

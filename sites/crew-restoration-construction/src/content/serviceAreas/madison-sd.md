@@ -19,17 +19,17 @@ state: "SD"
 primary: false
 rendered: true
 ---
-When a pipe bursts under a Lake Herman cabin or a kitchen fire leaves smoke residue baked into the walls of a Downtown Madison rental, Crew Restoration & Construction handles the full scope — water extraction, structural drying, fire and smoke cleanup, mold remediation, and reconstruction — so Madison property owners have one crew to call instead of juggling three separate contractors. We work across Lake County, covering the 57042 ZIP code and the surrounding communities that depend on Madison as their hub.
+When a pipe bursts under a Lake Herman cabin or a kitchen fire leaves smoke residue baked into the walls of a Downtown Madison rental, Crew Restoration & Construction handles the full scope, water extraction, structural drying, fire and smoke cleanup, mold remediation, and reconstruction, so Madison property owners have one crew to call instead of juggling three separate contractors. We work across Lake County, covering the 57042 ZIP code and the surrounding communities that depend on Madison as their hub.
 
 ## Restoration emergencies common in Madison
 
-Madison sits in a part of South Dakota where the seasons swing hard. Winters bring freeze-thaw cycles that stress older supply lines and foundation walls, and spring snowmelt can push groundwater into basements faster than sump pumps can keep up. The housing stock in neighborhoods like Downtown Madison skews older — many homes were built before modern vapor barriers and drainage codes were standard — which means water that gets in tends to travel farther and stay longer before anyone notices it. Lake Herman State Park draws seasonal cabin owners who may not be on-site when a slow leak turns into a saturated subfloor. Dakota State University keeps a steady population of rental properties cycling through tenants, and deferred maintenance in those units can accelerate mold colonization after even a minor plumbing event. Hail and high-wind events are common enough in summer that roof damage leading to interior water intrusion is a recurring pattern the team sees year after year.
+Madison sits in a part of South Dakota where the seasons swing hard. Winters bring freeze-thaw cycles that stress older supply lines and foundation walls, and spring snowmelt can push groundwater into basements faster than sump pumps can keep up. The housing stock in neighborhoods like Downtown Madison skews older, many homes were built before modern vapor barriers and drainage codes were standard, which means water that gets in tends to travel farther and stay longer before anyone notices it. Lake Herman State Park draws seasonal cabin owners who may not be on-site when a slow leak turns into a saturated subfloor. Dakota State University keeps a steady population of rental properties cycling through tenants, and deferred maintenance in those units can accelerate mold colonization after even a minor plumbing event. Hail and high-wind events are common enough in summer that roof damage leading to interior water intrusion is a recurring pattern the team sees year after year.
 
 ## Services we provide in Madison
 
 ### Water damage restoration
 
-Water damage in Madison often involves secondary migration — water that enters through a foundation crack or a failed appliance line wicks into wall cavities and under flooring before it becomes visible. Crew Restoration & Construction uses moisture mapping and thermal imaging to find water that isn't obvious on the surface, then extracts standing water and sets drying equipment calibrated to the actual moisture load. Lakeside cabins near Lake Herman frequently need this service after seasonal flooding or when a property sits unoccupied through a wet spring and a slow leak goes undetected for weeks.
+Water damage in Madison often involves secondary migration, water that enters through a foundation crack or a failed appliance line wicks into wall cavities and under flooring before it becomes visible. Crew Restoration & Construction uses moisture mapping and thermal imaging to find water that isn't obvious on the surface, then extracts standing water and sets drying equipment calibrated to the actual moisture load. Lakeside cabins near Lake Herman frequently need this service after seasonal flooding or when a property sits unoccupied through a wet spring and a slow leak goes undetected for weeks.
 
 ### Fire and smoke damage restoration
 
@@ -37,19 +37,19 @@ Smoke residue doesn't stay where the fire was. In a tightly built home, soot tra
 
 ### Mold remediation
 
-Mold can begin colonizing porous materials within 24 to 48 hours of a moisture event. In the rental properties around Dakota State University and older homes in the Lake Herman area, mold is often found during a water damage job — not before it. Crew Restoration & Construction contains affected areas, removes compromised materials, and treats surfaces to address the source, not just the visible growth.
+Mold can begin colonizing porous materials within 24 to 48 hours of a moisture event. In the rental properties around Dakota State University and older homes in the Lake Herman area, mold is often found during a water damage job, not before it. Crew Restoration & Construction contains affected areas, removes compromised materials, and treats surfaces to address the source, not just the visible growth.
 
 ### Reconstruction and repairs
 
-Once mitigation is complete, the same crew can handle the rebuild — drywall, flooring, cabinetry, and structural repairs — so the project doesn't stall waiting for a separate contractor to pick up where the restoration team left off.
+Once mitigation is complete, the same crew can handle the rebuild, drywall, flooring, cabinetry, and structural repairs, so the project doesn't stall waiting for a separate contractor to pick up where the restoration team left off.
 
 ## Coverage and how fast we can get there
 
-Crew Restoration & Construction operates out of Sioux Falls, roughly 45 miles west of Madison via I-90 East to SD-34. That route runs directly into Downtown Madison and puts the crew within reach of the Lake Herman area with a short additional drive south on SD-19. For property managers overseeing multiple units in the 57042 ZIP code, or for Prairie Village event staff dealing with an unexpected water issue, the team can be dispatched and en route promptly — call (605) 965-2727 during business hours to confirm scheduling and get an accurate arrival estimate based on current crew location.
+Crew Restoration & Construction operates out of Sioux Falls, roughly 45 miles west of Madison via I-90 East to SD-34. That route runs directly into Downtown Madison and puts the crew within reach of the Lake Herman area with a short additional drive south on SD-19. For property managers overseeing multiple units in the 57042 ZIP code, or for Prairie Village event staff dealing with an unexpected water issue, the team can be dispatched and en route promptly, call (605) 965-2727 during business hours to confirm scheduling and get an accurate arrival estimate based on current crew location.
 
 ## Building stock, site conditions, and permits in Madison
 
-Much of Madison's older core was built with balloon-framed walls, plaster and lath over wood studs, and full basements — the standard here because frost depth in eastern South Dakota forces footings well below grade. Once water reaches a plaster wall, it hides behind the lath and dries slowly, so drying that assembly takes longer than drywall and often means controlled removal rather than fans alone. Homes from that era commonly still carry galvanized supply lines and cast iron drains, both of which fail from the inside out, plus asbestos-containing floor tile and mastic and pre-1978 lead paint that a demolition scope has to account for.
+Much of Madison's older core was built with balloon-framed walls, plaster and lath over wood studs, and full basements, the standard here because frost depth in eastern South Dakota forces footings well below grade. Once water reaches a plaster wall, it hides behind the lath and dries slowly, so drying that assembly takes longer than drywall and often means controlled removal rather than fans alone. Homes from that era commonly still carry galvanized supply lines and cast iron drains, both of which fail from the inside out, plus asbestos-containing floor tile and mastic and pre-1978 lead paint that a demolition scope has to account for.
 
 The ground is glacial soil with seasonally high groundwater near the lake, which keeps basement and crawlspace moisture a year-round problem. Inside city limits Madison issues the building permit for structural repair and rebuild; cabins outside the limits fall to Lake County.
 

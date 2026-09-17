@@ -17,39 +17,39 @@ service_slug: "insulation-removal-installation"
 service_display: "Insulation Removal & Installation"
 rendered: true
 ---
-Your energy bills have been creeping up for years, and last winter you noticed the upstairs bedrooms staying cold no matter how high you pushed the thermostat. Then a roof leak or pest intrusion happened, and now the insulation in your attic is matted, wet, or contaminated — no longer doing the job it was installed to do. Old, damaged, or insufficient insulation doesn't just waste energy; it creates conditions where moisture lingers, mold colonizes, and air quality quietly degrades. Removing it correctly and replacing it with the right material and depth is what actually fixes the problem.
+Your energy bills have been creeping up for years, and last winter you noticed the upstairs bedrooms staying cold no matter how high you pushed the thermostat. Then a roof leak or pest intrusion happened, and now the insulation in your attic is matted, wet, or contaminated, no longer doing the job it was installed to do. Old, damaged, or insufficient insulation doesn't just waste energy; it creates conditions where moisture lingers, mold colonizes, and air quality quietly degrades. Removing it correctly and replacing it with the right material and depth is what actually fixes the problem.
 
 ## What insulation removal & installation actually involves
 
-Insulation removal is messier and more technical than most homeowners expect. Blown-in fiberglass or cellulose that has absorbed moisture becomes dense and heavy; batt insulation that has been compressed by foot traffic or pest activity loses most of its R-value. Before a single bag leaves the attic, the underlying cause of the damage — whether that's a roof penetration, a bathroom exhaust fan venting into the attic cavity, or condensation from inadequate ventilation — has to be identified and corrected. Replacing insulation over an unresolved moisture source just restarts the clock on the same problem.
+Insulation removal is messier and more technical than most homeowners expect. Blown-in fiberglass or cellulose that has absorbed moisture becomes dense and heavy; batt insulation that has been compressed by foot traffic or pest activity loses most of its R-value. Before a single bag leaves the attic, the underlying cause of the damage, whether that's a roof penetration, a bathroom exhaust fan venting into the attic cavity, or condensation from inadequate ventilation, has to be identified and corrected. Replacing insulation over an unresolved moisture source just restarts the clock on the same problem.
 
-In a typical attic insulation removal job, a commercial-grade vacuum system pulls old material through a large-diameter hose directly into sealed disposal bags outside the home, keeping particulates out of your living space. Crawl space insulation replacement involves different logistics: faced batts or spray foam installed between floor joists often have to be cut out by hand, and the crawl space vapor barrier typically needs inspection or replacement at the same time. Once the substrate is clean and dry, new blown-in insulation — most commonly blown-in fiberglass or open-cell spray foam — is installed to current North Carolina energy code depth, which for most of the Piedmont region means a minimum of R-38 in the attic.
+In a typical attic insulation removal job, a commercial-grade vacuum system pulls old material through a large-diameter hose directly into sealed disposal bags outside the home, keeping particulates out of your living space. Crawl space insulation replacement involves different logistics: faced batts or spray foam installed between floor joists often have to be cut out by hand, and the crawl space vapor barrier typically needs inspection or replacement at the same time. Once the substrate is clean and dry, new blown-in insulation, most commonly blown-in fiberglass or open-cell spray foam, is installed to current North Carolina energy code depth, which for most of the Piedmont region means a minimum of R-38 in the attic.
 
 A full attic insulation removal and reinstall in a 1,500–2,000 sq ft home typically runs two to four days depending on access, contamination level, and drying requirements.
 
 ## Our process
 
-1. **Inspection and moisture assessment** — Before any material is disturbed, the attic or crawl space is inspected for active leaks, condensation patterns, pest evidence, and existing R-value depth. Moisture readings are taken at the deck or subfloor to confirm the substrate is dry enough to accept new insulation.
+1. **Inspection and moisture assessment**, Before any material is disturbed, the attic or crawl space is inspected for active leaks, condensation patterns, pest evidence, and existing R-value depth. Moisture readings are taken at the deck or subfloor to confirm the substrate is dry enough to accept new insulation.
 
-2. **Source correction and containment** — Any identified entry points for water or pests are addressed. Penetrations are sealed, ventilation baffles are checked, and if mold is present on the sheathing, that scope is handled before insulation work begins. The work area is isolated from living spaces to prevent particulate migration.
+2. **Source correction and containment**, Any identified entry points for water or pests are addressed. Penetrations are sealed, ventilation baffles are checked, and if mold is present on the sheathing, that scope is handled before insulation work begins. The work area is isolated from living spaces to prevent particulate migration.
 
-3. **Mechanical removal and disposal** — Old insulation is extracted using a high-CFM vacuum system with HEPA filtration, bagged on-site, and hauled off. Batt material in crawl spaces is removed by hand, and contaminated vapor barriers are pulled and replaced. The substrate is left clean and dry.
+3. **Mechanical removal and disposal**, Old insulation is extracted using a high-CFM vacuum system with HEPA filtration, bagged on-site, and hauled off. Batt material in crawl spaces is removed by hand, and contaminated vapor barriers are pulled and replaced. The substrate is left clean and dry.
 
-4. **Air sealing** — This step is frequently skipped by less experienced crews and is responsible for a significant share of energy loss. Gaps around top plates, recessed light cans, plumbing chases, and attic hatches are sealed with foam or caulk before new insulation goes in. Air sealing can reduce heating and cooling load by 15–30% on its own.
+4. **Air sealing**, This step is frequently skipped by less experienced crews and is responsible for a significant share of energy loss. Gaps around top plates, recessed light cans, plumbing chases, and attic hatches are sealed with foam or caulk before new insulation goes in. Air sealing can reduce heating and cooling load by 15–30% on its own.
 
-5. **New insulation installation** — Blown-in insulation is installed to the specified R-value depth, with depth markers placed for verification. In crawl spaces, new vapor barrier is installed and faced batts or spray foam are applied to the floor joists. A final depth and coverage check is documented before the job is closed out.
+5. **New insulation installation**, Blown-in insulation is installed to the specified R-value depth, with depth markers placed for verification. In crawl spaces, new vapor barrier is installed and faced batts or spray foam are applied to the floor joists. A final depth and coverage check is documented before the job is closed out.
 
 ## What separates a good insulation job from a bad one
 
 The most common failure point is skipping the source investigation. A crew that pulls wet insulation and immediately installs new material without identifying why the old material was wet will be back in 18 months doing the same job. Adjusters who review insulation claims look specifically for documentation that the moisture intrusion point was identified and corrected prior to reinstallation.
 
-The second most common mistake is inadequate air sealing. Building science research consistently shows that air leakage accounts for more heat transfer than conduction through the insulation itself in older homes — and most of the housing stock in the Middlesex area and surrounding Johnston and Nash County communities was built before air sealing was a standard practice. Adding R-value on top of a leaky top plate is only half the job.
+The second most common mistake is inadequate air sealing. Building science research consistently shows that air leakage accounts for more heat transfer than conduction through the insulation itself in older homes, and most of the housing stock in the Middlesex area and surrounding Johnston and Nash County communities was built before air sealing was a standard practice. Adding R-value on top of a leaky top plate is only half the job.
 
-A third issue is improper vapor barrier installation in crawl spaces. A barrier that is not lapped correctly at seams, not sealed at foundation walls, or not weighted down properly allows ground moisture to continue evaporating into the floor assembly — defeating the purpose of the new insulation above it.
+A third issue is improper vapor barrier installation in crawl spaces. A barrier that is not lapped correctly at seams, not sealed at foundation walls, or not weighted down properly allows ground moisture to continue evaporating into the floor assembly, defeating the purpose of the new insulation above it.
 
 ## What does insulation removal & installation cost?
 
-Typical costs for insulation removal and reinstallation vary based on the area involved, the type of insulation, contamination level, and whether air sealing or vapor barrier work is included. Most homeowners pay somewhere in the ranges below — these are industry-typical figures, not quotes from Go Green Restoration of NC.
+Typical costs for insulation removal and reinstallation vary based on the area involved, the type of insulation, contamination level, and whether air sealing or vapor barrier work is included. Most homeowners pay somewhere in the ranges below, these are industry-typical figures, not quotes from Go Green Restoration of NC.
 
 | Scenario | Typical range |
 |---|---|
@@ -60,16 +60,16 @@ Typical costs for insulation removal and reinstallation vary based on the area i
 | Contaminated/mold-affected insulation removal (attic) | $2,500 – $6,500 |
 | Full attic air sealing + blown-in insulation | $2,000 – $5,500 |
 
-Every loss and every home is different — Go Green Restoration of NC provides a written scope of work before any work begins so there are no surprises. Homeowners insurance typically covers insulation removal and replacement when the damage is caused by a covered peril such as a roof leak, burst pipe, or storm event; damage from long-term neglect or normal aging is generally not covered.
+Every loss and every home is different, Go Green Restoration of NC provides a written scope of work before any work begins so there are no surprises. Homeowners insurance typically covers insulation removal and replacement when the damage is caused by a covered peril such as a roof leak, burst pipe, or storm event; damage from long-term neglect or normal aging is generally not covered.
 
 ## Seasonal & regional considerations
 
-North Carolina's humid subtropical climate creates a specific challenge for insulation: summer humidity levels in the Piedmont and Coastal Plain routinely push above 70%, which means any gap in the building envelope allows warm, moist air to contact cooler surfaces inside the attic assembly — exactly the conditions that drive condensation and mold growth on roof sheathing. Crawl spaces in the Middlesex area are particularly vulnerable during the stretch from late spring through early fall, when ground temperatures and ambient humidity are both elevated.
+North Carolina's humid subtropical climate creates a specific challenge for insulation: summer humidity levels in the Piedmont and Coastal Plain routinely push above 70%, which means any gap in the building envelope allows warm, moist air to contact cooler surfaces inside the attic assembly, exactly the conditions that drive condensation and mold growth on roof sheathing. Crawl spaces in the Middlesex area are particularly vulnerable during the stretch from late spring through early fall, when ground temperatures and ambient humidity are both elevated.
 
 Winter brings a different risk: ice damming is less common here than in New England, but cold snaps can reveal thermal bridging and air leakage that wasn't obvious in milder months. If your energy bills spike every January, the attic insulation is often the first place to look.
 
 ## Service area
 
-Go Green Restoration of NC is based in Middlesex, NC and serves homeowners and property managers throughout the surrounding region — including communities in Nash, Johnston, Wilson, and Wake counties. The city-specific pages for attic insulation removal and crawl space insulation replacement in nearby towns link back here for the full technical detail on how this work is done.
+Go Green Restoration of NC is based in Middlesex, NC and serves homeowners and property managers throughout the surrounding region, including communities in Nash, Johnston, Wilson, and Wake counties. The city-specific pages for attic insulation removal and crawl space insulation replacement in nearby towns link back here for the full technical detail on how this work is done.
 
 Ready to find out what's actually happening in your attic or crawl space? Call (919) 906-5473 to schedule an insulation inspection and get a written scope before any work begins.

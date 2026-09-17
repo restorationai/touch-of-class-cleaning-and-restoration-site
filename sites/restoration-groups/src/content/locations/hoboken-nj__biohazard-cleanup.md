@@ -21,13 +21,13 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
-Hoboken's density makes difficult situations harder. When a biohazard event occurs in a below-grade garden unit off Washington Street, a shared brownstone stairwell in Uptown, or a studio in one of the waterfront high-rises near Pier A Park, the confined space, shared ventilation, and proximity to neighbors all shape what responsible cleanup looks like. The Restoration Group responds 24/7 to biohazard situations throughout Hoboken — discreetly, thoroughly, and with the regulatory compliance that properties in a city this tightly built genuinely require.
+Hoboken's density makes difficult situations harder. When a biohazard event occurs in a below-grade garden unit off Washington Street, a shared brownstone stairwell in Uptown, or a studio in one of the waterfront high-rises near Pier A Park, the confined space, shared ventilation, and proximity to neighbors all shape what responsible cleanup looks like. The Restoration Group responds 24/7 to biohazard situations throughout Hoboken, discreetly, thoroughly, and with the regulatory compliance that properties in a city this tightly built genuinely require.
 
 ## Why Hoboken's Building Stock Shapes Biohazard Response
 
-Hoboken's housing is overwhelmingly 19th-century brick rowhouse construction — party walls shared on both sides, narrow interior staircases, and below-grade units that were never designed with modern ventilation in mind. That physical reality matters in biohazard remediation. Porous masonry and original wood subfloors absorb biological material differently than modern concrete slab or vinyl plank. Affected surfaces may look contained but require careful assessment to confirm that contamination has not migrated into material beneath the visible layer.
+Hoboken's housing is overwhelmingly 19th-century brick rowhouse construction, party walls shared on both sides, narrow interior staircases, and below-grade units that were never designed with modern ventilation in mind. That physical reality matters in biohazard remediation. Porous masonry and original wood subfloors absorb biological material differently than modern concrete slab or vinyl plank. Affected surfaces may look contained but require careful assessment to confirm that contamination has not migrated into material beneath the visible layer.
 
-Shared building infrastructure adds another layer of complexity. In a multi-unit brownstone, a stairwell or common hallway that has been affected becomes a concern for every resident in the building, not just one unit. Proper containment — sealing the work area, controlling airflow, and preventing cross-contamination — is not optional in a building where a dozen households share the same entry. Our IICRC Certified Firm (#210213) protocols are built around exactly this kind of confined, occupied-building scenario.
+Shared building infrastructure adds another layer of complexity. In a multi-unit brownstone, a stairwell or common hallway that has been affected becomes a concern for every resident in the building, not just one unit. Proper containment, sealing the work area, controlling airflow, and preventing cross-contamination, is not optional in a building where a dozen households share the same entry. Our IICRC Certified Firm (#210213) protocols are built around exactly this kind of confined, occupied-building scenario.
 
 ## Our Biohazard Cleanup Process in Hoboken
 
@@ -35,24 +35,24 @@ Every job begins with a discreet arrival. We do not stage equipment on the sidew
 
 Once on-site, the process follows a structured sequence:
 
-- **Assessment and containment** — identifying the full scope of affected materials and isolating the work area before any removal begins.
-- **Removal of affected materials** — biological material, sharps, infectious waste, and any porous materials that cannot be safely restored are packaged and handled according to New Jersey Department of Environmental Protection transport and disposal requirements.
-- **Surface treatment** — EPA-registered disinfectants applied to all affected and adjacent surfaces, with contact times observed per label protocol.
-- **Air quality control** — HEPA filtration equipment runs throughout the job to capture airborne particulates within the contained space.
-- **Documentation** — written records of the scope, materials removed, and products used, which your insurance carrier or building management will likely request.
+- **Assessment and containment**, identifying the full scope of affected materials and isolating the work area before any removal begins.
+- **Removal of affected materials**, biological material, sharps, infectious waste, and any porous materials that cannot be safely restored are packaged and handled according to New Jersey Department of Environmental Protection transport and disposal requirements.
+- **Surface treatment**, EPA-registered disinfectants applied to all affected and adjacent surfaces, with contact times observed per label protocol.
+- **Air quality control**, HEPA filtration equipment runs throughout the job to capture airborne particulates within the contained space.
+- **Documentation**, written records of the scope, materials removed, and products used, which your insurance carrier or building management will likely request.
 
 Nothing is signed off until the space meets the standard for safe re-occupancy.
 
 ## Reaching Hoboken from Kenilworth
 
-The Restoration Group is headquartered in Kenilworth, NJ. Hoboken is accessible via the New Jersey Turnpike to Route 3 East or via Routes 1 and 9 to the Lincoln Tunnel approach — typical drive times vary with traffic on those corridors, but we dispatch around the clock. If you are calling from the 07030 ZIP code, expect us to be in contact immediately and en route as soon as a crew is confirmed. We serve all of Hoboken including Southwest Hoboken, Castle Point, and the Waterfront.
+The Restoration Group is headquartered in Kenilworth, NJ. Hoboken is accessible via the New Jersey Turnpike to Route 3 East or via Routes 1 and 9 to the Lincoln Tunnel approach, typical drive times vary with traffic on those corridors, but we dispatch around the clock. If you are calling from the 07030 ZIP code, expect us to be in contact immediately and en route as soon as a crew is confirmed. We serve all of Hoboken including Southwest Hoboken, Castle Point, and the Waterfront.
 
 ## Hoboken Insurance and Building Management Coordination
 
-Biohazard cleanup is frequently a covered loss under homeowners, renters, or commercial property policies, though coverage depends on the specific policy and the nature of the event. We document the scope of work thoroughly — photographs, written scope, itemized materials — so that you or your adjuster has what is needed to file. For condo associations and multi-unit property managers, we can communicate directly with building management to coordinate access, notify affected parties appropriately, and provide the documentation a board or management company typically requires before releasing a unit back to occupancy.
+Biohazard cleanup is frequently a covered loss under homeowners, renters, or commercial property policies, though coverage depends on the specific policy and the nature of the event. We document the scope of work thoroughly, photographs, written scope, itemized materials, so that you or your adjuster has what is needed to file. For condo associations and multi-unit property managers, we can communicate directly with building management to coordinate access, notify affected parties appropriately, and provide the documentation a board or management company typically requires before releasing a unit back to occupancy.
 
 ## Local Note
 
-In Hoboken's older brownstones, original pine or fir hardwood floors are often installed directly over a wood subfloor with no moisture barrier — a construction method common in buildings from the late 1800s through the early 1900s. When biological material reaches the floor, it can wick between boards and into the subfloor layer before it is visible at the surface. Crews working in these buildings need to assess below the finished floor, not just at it. This is a detail that matters in a city where the majority of the residential housing stock predates World War II, and it is something we account for during the initial assessment on every Hoboken job in this building type.
+In Hoboken's older brownstones, original pine or fir hardwood floors are often installed directly over a wood subfloor with no moisture barrier, a construction method common in buildings from the late 1800s through the early 1900s. When biological material reaches the floor, it can wick between boards and into the subfloor layer before it is visible at the surface. Crews working in these buildings need to assess below the finished floor, not just at it. This is a detail that matters in a city where the majority of the residential housing stock predates World War II, and it is something we account for during the initial assessment on every Hoboken job in this building type.
 
-If you are dealing with a biohazard situation at a Hoboken address — whether in a private residence, a rental unit, or a commercial space — call (855) 650-7422. We answer 24/7, we arrive discreetly, and we handle the process so you do not have to navigate it alone.
+If you are dealing with a biohazard situation at a Hoboken address, whether in a private residence, a rental unit, or a commercial space, call (855) 650-7422. We answer 24/7, we arrive discreetly, and we handle the process so you do not have to navigate it alone.

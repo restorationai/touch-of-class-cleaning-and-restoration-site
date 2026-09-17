@@ -20,13 +20,13 @@ state: "WA"
 service_display: "Soot Removal"
 rendered: true
 ---
-When a kitchen fire or chimney flare-up leaves soot on the walls of a 1960s University Place rambler, the cleanup is rarely as simple as wiping down the surfaces. The wood-paneled interiors and textured ceilings common to that era of West Pierce County construction absorb smoke residue differently than modern drywall — and the damp marine air rolling in off the Narrows means soot particles stay chemically active longer, bonding more stubbornly to porous materials before anyone even makes the first phone call. National Restoration Construction has been responding to post-fire losses in this area since 2004, and we understand what that combination of older housing stock and Pacific Northwest humidity does to a soot job.
+When a kitchen fire or chimney flare-up leaves soot on the walls of a 1960s University Place rambler, the cleanup is rarely as simple as wiping down the surfaces. The wood-paneled interiors and textured ceilings common to that era of West Pierce County construction absorb smoke residue differently than modern drywall, and the damp marine air rolling in off the Narrows means soot particles stay chemically active longer, bonding more stubbornly to porous materials before anyone even makes the first phone call. National Restoration Construction has been responding to post-fire losses in this area since 2004, and we understand what that combination of older housing stock and Pacific Northwest humidity does to a soot job.
 
 ## Why University Place Homes Face Distinct Soot Challenges
 
-The housing stock in the 98466 and 98467 ZIP codes skews heavily toward mid-century ramblers and split-levels — homes built when open-concept floor plans were uncommon and HVAC systems were simpler. That matters for soot removal because smoke travels through a structure differently in a compartmentalized 1965 split-level than in a newer open-plan home. Smoke migrates into crawl spaces, wall cavities, and attic voids, depositing fine dry soot and oily wet soot in places that aren't immediately visible. In homes near the Chambers Creek corridor, where crawl spaces often lack adequate vapor barriers, residual moisture compounds the problem: wet soot is significantly harder to remove and more likely to cause secondary odor if not fully addressed.
+The housing stock in the 98466 and 98467 ZIP codes skews heavily toward mid-century ramblers and split-levels, homes built when open-concept floor plans were uncommon and HVAC systems were simpler. That matters for soot removal because smoke travels through a structure differently in a compartmentalized 1965 split-level than in a newer open-plan home. Smoke migrates into crawl spaces, wall cavities, and attic voids, depositing fine dry soot and oily wet soot in places that aren't immediately visible. In homes near the Chambers Creek corridor, where crawl spaces often lack adequate vapor barriers, residual moisture compounds the problem: wet soot is significantly harder to remove and more likely to cause secondary odor if not fully addressed.
 
-The wood-burning fireplaces and older oil-furnace systems still found in many Beckonridge and Narrows View homes also produce a heavier, greasier soot profile than a natural-gas appliance fire. That type of residue requires chemical dry-cleaning sponges and alkaline cleaning solutions rather than simple water-based wiping — and using the wrong method on the wrong surface can permanently set the stain.
+The wood-burning fireplaces and older oil-furnace systems still found in many Beckonridge and Narrows View homes also produce a heavier, greasier soot profile than a natural-gas appliance fire. That type of residue requires chemical dry-cleaning sponges and alkaline cleaning solutions rather than simple water-based wiping, and using the wrong method on the wrong surface can permanently set the stain.
 
 ## Our Soot Removal Process in University Place
 
@@ -34,28 +34,28 @@ Every job starts with a room-by-room scope assessment. We document affected surf
 
 From there, the process follows a consistent sequence:
 
-- **HEPA vacuuming** of all loose soot from ceilings, walls, and horizontal surfaces before any wet cleaning begins — disturbing soot before vacuuming drives particles deeper into porous materials.
+- **HEPA vacuuming** of all loose soot from ceilings, walls, and horizontal surfaces before any wet cleaning begins, disturbing soot before vacuuming drives particles deeper into porous materials.
 - **Dry chemical sponge cleaning** for flat painted surfaces and ceilings, which lifts soot without smearing.
 - **Alkaline or solvent-based cleaning** for greasy soot deposits on wood, tile, and cabinetry.
-- **Odor neutralization** using hydroxyl generators or thermal fogging, calibrated to the square footage of the affected area — not just the rooms with visible damage.
+- **Odor neutralization** using hydroxyl generators or thermal fogging, calibrated to the square footage of the affected area, not just the rooms with visible damage.
 - **Final air quality check** before packing out equipment.
 
-All work is performed by IICRC-certified technicians under our Washington State General Contractor license (#NATIORC792M6), and we carry Lead-Safe Certification for work in pre-1978 homes — a relevant credential given the age of much of the local housing.
+All work is performed by IICRC-certified technicians under our Washington State General Contractor license (#NATIORC792M6), and we carry Lead-Safe Certification for work in pre-1978 homes, a relevant credential given the age of much of the local housing.
 
 ## Response Time to University Place
 
-Our Federal Way headquarters puts University Place roughly 15–20 minutes south via I-5 and Bridgeport Way under normal traffic conditions. For properties near the Chambers Bay Golf Course corridor or out on Day Island, add 5–10 minutes depending on the time of day and bridge access. In practical terms, most University Place addresses see a technician on-site within 60–90 minutes of the initial call — often faster for evening and weekend emergencies when I-5 is clear.
+Our Federal Way headquarters puts University Place roughly 15–20 minutes south via I-5 and Bridgeport Way under normal traffic conditions. For properties near the Chambers Bay Golf Course corridor or out on Day Island, add 5–10 minutes depending on the time of day and bridge access. In practical terms, most University Place addresses see a technician on-site within 60–90 minutes of the initial call, often faster for evening and weekend emergencies when I-5 is clear.
 
 We call ahead when routing to Day Island specifically, because the single-road access point can create staging challenges for a fully loaded service vehicle. That small coordination step prevents delays that would otherwise cost you time during an already stressful situation.
 
 ## University Place Insurance Coordination
 
-Most homeowner policies in West Pierce County cover sudden and accidental fire and smoke damage, including soot cleaning and odor remediation. We work directly with adjusters from the major carriers active in this area, providing itemized scopes, photo documentation, and moisture/soot mapping reports in the format adjusters expect. We do not inflate scopes or pad line items — accurate documentation moves claims faster.
+Most homeowner policies in West Pierce County cover sudden and accidental fire and smoke damage, including soot cleaning and odor remediation. We work directly with adjusters from the major carriers active in this area, providing itemized scopes, photo documentation, and moisture/soot mapping reports in the format adjusters expect. We do not inflate scopes or pad line items, accurate documentation moves claims faster.
 
 If your property is in an HOA community, some associations in University Place require written notification before exterior work or equipment staging. We handle that communication on your behalf so you are not caught between your contractor and your HOA during an already difficult week.
 
 ## Local Note
 
-In University Place's older split-level homes — especially those on the bluff-side streets above Chambers Creek Regional Park — we consistently find that smoke from a main-floor fire migrates downward into daylight basements more aggressively than homeowners expect. The below-grade orientation of those lower levels creates a slight negative pressure zone that pulls smoke-laden air down through floor gaps and HVAC returns. If you had a fire on the main level and the basement "smells fine" right now, do not skip that space in the scope. Soot odor in a daylight basement can take 48–72 hours to fully develop, and by then the residue has had time to bond.
+In University Place's older split-level homes, especially those on the bluff-side streets above Chambers Creek Regional Park, we consistently find that smoke from a main-floor fire migrates downward into daylight basements more aggressively than homeowners expect. The below-grade orientation of those lower levels creates a slight negative pressure zone that pulls smoke-laden air down through floor gaps and HVAC returns. If you had a fire on the main level and the basement "smells fine" right now, do not skip that space in the scope. Soot odor in a daylight basement can take 48–72 hours to fully develop, and by then the residue has had time to bond.
 
-If your home in University Place has been affected by fire or smoke and you are not sure how far the damage extends, call (206) 883-0333 for a same-day assessment. We will walk the entire structure — not just the room with visible char — and give you an honest picture of what needs to be done before anything is cleaned or repaired.
+If your home in University Place has been affected by fire or smoke and you are not sure how far the damage extends, call (206) 883-0333 for a same-day assessment. We will walk the entire structure, not just the room with visible char, and give you an honest picture of what needs to be done before anything is cleaned or repaired.

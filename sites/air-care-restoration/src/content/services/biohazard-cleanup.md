@@ -17,41 +17,41 @@ service_slug: "biohazard-cleanup"
 service_display: "Biohazard Cleanup"
 rendered: true
 ---
-Some situations don't wait for business hours, and they don't get easier with time. When a death, trauma, or hazardous material exposure occurs in a home or property, the substances left behind — blood, bodily fluids, or infectious material — begin to break down within hours, penetrating porous surfaces and creating biological risks that standard cleaning cannot address. The right response is fast, discreet, and handled by technicians trained to treat the space — and everyone connected to it — with care.
+Some situations don't wait for business hours, and they don't get easier with time. When a death, trauma, or hazardous material exposure occurs in a home or property, the substances left behind, blood, bodily fluids, or infectious material, begin to break down within hours, penetrating porous surfaces and creating biological risks that standard cleaning cannot address. The right response is fast, discreet, and handled by technicians trained to treat the space, and everyone connected to it, with care.
 
 ## What biohazard cleanup actually involves
 
 Biohazard remediation is a regulated category of work, distinct from general cleaning or even standard restoration. It requires personal protective equipment rated for bloodborne pathogen exposure, EPA-registered hospital-grade disinfectants, enzymatic treatments that break down organic material at the molecular level, and proper disposal of all contaminated waste under state and federal guidelines.
 
-The work is methodical rather than fast. Technicians assess which surfaces are affected — not just what's visible, but what has wicked into subfloor, drywall, grout, or HVAC pathways. Porous materials that cannot be decontaminated are removed and packaged as regulated medical waste. Hard surfaces are treated in stages: removal of biological material, enzymatic application, disinfection, and verification. Air scrubbers with HEPA filtration run throughout to capture aerosolized particles. When the work is complete, the space should be safe for re-occupancy — and unrecognizable as the scene you called about.
+The work is methodical rather than fast. Technicians assess which surfaces are affected, not just what's visible, but what has wicked into subfloor, drywall, grout, or HVAC pathways. Porous materials that cannot be decontaminated are removed and packaged as regulated medical waste. Hard surfaces are treated in stages: removal of biological material, enzymatic application, disinfection, and verification. Air scrubbers with HEPA filtration run throughout to capture aerosolized particles. When the work is complete, the space should be safe for re-occupancy, and unrecognizable as the scene you called about.
 
 Timeline varies by the extent of affected area, the materials involved, and how long the situation went unaddressed. A contained single-room response may be completed in a day. Larger or older losses involving structural penetration can take two to three days.
 
 ## Our process
 
-1. **Arrival and PPE staging.** Before any work begins, technicians don full personal protective equipment — Tyvek suits, gloves, respirators, and eye protection rated for bloodborne pathogen exposure. The affected area is assessed and isolated from the rest of the property to prevent cross-contamination.
+1. **Arrival and PPE staging.** Before any work begins, technicians don full personal protective equipment, Tyvek suits, gloves, respirators, and eye protection rated for bloodborne pathogen exposure. The affected area is assessed and isolated from the rest of the property to prevent cross-contamination.
 
-2. **Biological material removal.** Contaminated items — soft goods, flooring, drywall, insulation, or other porous materials that cannot be safely decontaminated — are carefully removed, double-bagged in biohazard-rated containers, and staged for regulated disposal. Nothing is left in a standard waste stream.
+2. **Biological material removal.** Contaminated items, soft goods, flooring, drywall, insulation, or other porous materials that cannot be safely decontaminated, are carefully removed, double-bagged in biohazard-rated containers, and staged for regulated disposal. Nothing is left in a standard waste stream.
 
-3. **Enzymatic treatment and disinfection.** Remaining hard surfaces are treated with EPA-registered enzymatic cleaners that break down proteins in blood and bodily fluids, followed by hospital-grade disinfectants. This is a staged process — application, dwell time, and verification — not a single pass.
+3. **Enzymatic treatment and disinfection.** Remaining hard surfaces are treated with EPA-registered enzymatic cleaners that break down proteins in blood and bodily fluids, followed by hospital-grade disinfectants. This is a staged process, application, dwell time, and verification, not a single pass.
 
 4. **Air filtration and odor control.** HEPA air scrubbers run throughout the job. Where odor has penetrated structural cavities, additional treatment may be applied. The goal is a space that is both biologically safe and livable.
 
-5. **Regulated waste manifest and documentation.** All biohazard waste is transported by licensed carriers and disposed of under a documented waste manifest — a legal record of what was removed and how it was handled. This documentation is also part of the insurance claim file.
+5. **Regulated waste manifest and documentation.** All biohazard waste is transported by licensed carriers and disposed of under a documented waste manifest, a legal record of what was removed and how it was handled. This documentation is also part of the insurance claim file.
 
 ## What separates a good biohazard response from a bad one
 
-The most common failure in biohazard cleanup is incomplete decontamination — treating what's visible while missing what has migrated. Blood and bodily fluids travel. They follow gravity into subfloor seams, wick into wall cavities through baseboard gaps, and pool in spaces that aren't obvious until materials are removed. A technician who cleans the surface without probing beneath it is leaving a biological hazard behind.
+The most common failure in biohazard cleanup is incomplete decontamination, treating what's visible while missing what has migrated. Blood and bodily fluids travel. They follow gravity into subfloor seams, wick into wall cavities through baseboard gaps, and pool in spaces that aren't obvious until materials are removed. A technician who cleans the surface without probing beneath it is leaving a biological hazard behind.
 
-A second common gap is improper waste handling. Contaminated material placed in standard trash — even in sealed bags — is a regulatory violation and a liability. Every item removed from a biohazard scene must be logged, containerized in compliant packaging, and transported by a licensed medical waste carrier with a documented chain of custody.
+A second common gap is improper waste handling. Contaminated material placed in standard trash, even in sealed bags, is a regulatory violation and a liability. Every item removed from a biohazard scene must be logged, containerized in compliant packaging, and transported by a licensed medical waste carrier with a documented chain of custody.
 
-Insurance adjusters reviewing biohazard claims look for this documentation. They also look for scope-of-work records that justify material removal — photos, moisture readings, surface documentation — rather than a vague line item. Air Care Restoration is IICRC certified and OSHA trained, and every job produces a documented scope that supports the claim.
+Insurance adjusters reviewing biohazard claims look for this documentation. They also look for scope-of-work records that justify material removal, photos, moisture readings, surface documentation, rather than a vague line item. Air Care Restoration is IICRC certified and OSHA trained, and every job produces a documented scope that supports the claim.
 
 Privacy is also part of the work. We arrive with privacy, compassion and professional discretion.
 
 ## What does biohazard cleanup cost?
 
-Typical costs depend heavily on the size of the affected area, the materials involved, and how long the loss went unaddressed before remediation began. Most homeowners pay somewhere in the ranges below, based on industry-typical figures — every loss is different, and Air Care Restoration provides a written scope of work before any work begins so there are no surprises.
+Typical costs depend heavily on the size of the affected area, the materials involved, and how long the loss went unaddressed before remediation began. Most homeowners pay somewhere in the ranges below, based on industry-typical figures, every loss is different, and Air Care Restoration provides a written scope of work before any work begins so there are no surprises.
 
 | Scenario | Typical industry range |
 |---|---|
@@ -64,12 +64,12 @@ Typical costs depend heavily on the size of the affected area, the materials inv
 
 *Industry reference ranges for budgeting context only, not an Air Care quote or guaranteed price. Every project is scoped and documented individually.*
 
-Homeowners insurance frequently covers biohazard remediation following a covered event — coverage varies by policy and carrier, so confirming with your adjuster early is worthwhile. Air Care Restoration works with all major insurance carriers and provides detailed documentation and direct billing to support the claims process. Coverage and settlement decisions remain between you and your carrier.
+Homeowners insurance frequently covers biohazard remediation following a covered event, coverage varies by policy and carrier, so confirming with your adjuster early is worthwhile. Air Care Restoration works with all major insurance carriers and provides detailed documentation and direct billing to support the claims process. Coverage and settlement decisions remain between you and your carrier.
 
 ## Service area
 
-Air Care Restoration is based in Abilene, TX and provides biohazard cleanup throughout the surrounding region. Dedicated service-area pages cover communities across the Big Country — if you're outside Abilene proper, reach out and we'll confirm coverage for your location.
+Air Care Restoration is based in Abilene, TX and provides biohazard cleanup throughout the surrounding region. Dedicated service-area pages cover communities across the Big Country, if you're outside Abilene proper, reach out and we'll confirm coverage for your location.
 
 ---
 
-If you're dealing with a situation that requires biohazard cleanup, the next step is a discreet conversation — not a commitment. Call Air Care Restoration at (325) 339-8723, any time of day or night, to speak with someone who can tell you exactly what the process looks like for your property.
+If you're dealing with a situation that requires biohazard cleanup, the next step is a discreet conversation, not a commitment. Call Air Care Restoration at (325) 339-8723, any time of day or night, to speak with someone who can tell you exactly what the process looks like for your property.

@@ -20,44 +20,44 @@ state: "NJ"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-The smell of smoke doesn't leave a house the way water does — it seeps into plaster, travels through ductwork, and settles into the original-growth fir framing that's common in Bloomfield's 1920s colonials and Tudors. When a kitchen fire chars the cabinets in a Watsessing two-family or an electrical fault scorches the attic of a Brookdale colonial, the visible damage is only part of the problem. Soot particles and acidic smoke residues begin etching metal fixtures, discoloring grout, and breaking down fabric within hours. Getting the right crew on-site fast — and with the right equipment — is the difference between restoring a home and replacing it.
+The smell of smoke doesn't leave a house the way water does, it seeps into plaster, travels through ductwork, and settles into the original-growth fir framing that's common in Bloomfield's 1920s colonials and Tudors. When a kitchen fire chars the cabinets in a Watsessing two-family or an electrical fault scorches the attic of a Brookdale colonial, the visible damage is only part of the problem. Soot particles and acidic smoke residues begin etching metal fixtures, discoloring grout, and breaking down fabric within hours. Getting the right crew on-site fast, and with the right equipment, is the difference between restoring a home and replacing it.
 
 ## Why Bloomfield's Housing Stock Complicates Fire Damage
 
-Most of the residential blocks in the 07003 ZIP code were built between 1910 and 1950, which means the homes carry characteristics that change how fire and smoke restoration unfolds. Original horsehair plaster walls are far more porous than modern drywall — smoke penetrates deeper, and odor-neutralizing treatments need more dwell time and more passes to be effective. Balloon-frame construction, common in pre-1940 builds, allows fire and smoke to travel vertically inside wall cavities without stopping at floor plates, meaning a first-floor fire can deposit soot residue in second-floor walls without any visible burn damage there.
+Most of the residential blocks in the 07003 ZIP code were built between 1910 and 1950, which means the homes carry characteristics that change how fire and smoke restoration unfolds. Original horsehair plaster walls are far more porous than modern drywall, smoke penetrates deeper, and odor-neutralizing treatments need more dwell time and more passes to be effective. Balloon-frame construction, common in pre-1940 builds, allows fire and smoke to travel vertically inside wall cavities without stopping at floor plates, meaning a first-floor fire can deposit soot residue in second-floor walls without any visible burn damage there.
 
-Many of these homes also have finished basements with decades-old HVAC systems. When smoke enters a return air duct, it can distribute fine particulate through every room in the house within minutes. Duct cleaning and system inspection are not optional add-ons in these properties — they're a core part of the restoration scope.
+Many of these homes also have finished basements with decades-old HVAC systems. When smoke enters a return air duct, it can distribute fine particulate through every room in the house within minutes. Duct cleaning and system inspection are not optional add-ons in these properties, they're a core part of the restoration scope.
 
 ## Our Fire Damage Restoration Process in Bloomfield
 
-Every job starts with a structured assessment before any cleaning begins. We document the fire origin point, map the smoke migration path through the structure, and test surface pH levels — acidic soot residue requires different neutralizing chemistry than dry smoke from a smoldering fire. That distinction matters in older Bloomfield homes where the same room may have original plaster on two walls and a later drywall patch on a third.
+Every job starts with a structured assessment before any cleaning begins. We document the fire origin point, map the smoke migration path through the structure, and test surface pH levels, acidic soot residue requires different neutralizing chemistry than dry smoke from a smoldering fire. That distinction matters in older Bloomfield homes where the same room may have original plaster on two walls and a later drywall patch on a third.
 
 From there, the process moves through these stages:
 
-- **Board-up and stabilization** — securing the structure against weather and unauthorized entry while work is underway
-- **Debris removal and selective demolition** — removing charred materials that cannot be restored, with careful attention to identifying original architectural details worth salvaging
-- **Dry ice blasting and HEPA vacuuming** — removing soot from framing, masonry, and hard surfaces without introducing moisture into already-stressed materials
-- **Chemical sponge and wet-cleaning treatments** — surface-specific cleaning calibrated to plaster, wood, brick, and tile
-- **Thermal fogging and hydroxyl generation** — penetrating odor treatment that reaches inside wall cavities and porous materials where surface cleaning alone won't reach
-- **Structural drying and air quality monitoring** — fire suppression water adds a secondary moisture problem; we dry to IICRC S500 standards before any reconstruction begins
-- **Reconstruction coordination** — framing, drywall, painting, and finish work handled in-house or with vetted trade partners
+- **Board-up and stabilization**, securing the structure against weather and unauthorized entry while work is underway
+- **Debris removal and selective demolition**, removing charred materials that cannot be restored, with careful attention to identifying original architectural details worth salvaging
+- **Dry ice blasting and HEPA vacuuming**, removing soot from framing, masonry, and hard surfaces without introducing moisture into already-stressed materials
+- **Chemical sponge and wet-cleaning treatments**, surface-specific cleaning calibrated to plaster, wood, brick, and tile
+- **Thermal fogging and hydroxyl generation**, penetrating odor treatment that reaches inside wall cavities and porous materials where surface cleaning alone won't reach
+- **Structural drying and air quality monitoring**, fire suppression water adds a secondary moisture problem; we dry to IICRC S500 standards before any reconstruction begins
+- **Reconstruction coordination**, framing, drywall, painting, and finish work handled in-house or with vetted trade partners
 
 As an IICRC Certified Firm (#210213) and NJ Licensed Home Improvement Contractor, we carry the credentials your insurance adjuster will ask for before approving a scope of work.
 
 ## Reaching Bloomfield from Kenilworth
 
-The Restoration Group operates out of Kenilworth, and Bloomfield is a direct run up Route 22 East to the Garden State Parkway or up Springfield Avenue into town — a straightforward corridor we travel regularly. We're available 24/7, so whether a fire is reported at 2 a.m. in Bloomfield Center or on a Sunday afternoon near the Broad Street business district, we can dispatch immediately. Neighborhoods closer to the Brookdale Park corridor or along the Watsessing Avenue spine are well within our normal response zone.
+The Restoration Group operates out of Kenilworth, and Bloomfield is a direct run up Route 22 East to the Garden State Parkway or up Springfield Avenue into town, a straightforward corridor we travel regularly. We're available 24/7, so whether a fire is reported at 2 a.m. in Bloomfield Center or on a Sunday afternoon near the Broad Street business district, we can dispatch immediately. Neighborhoods closer to the Brookdale Park corridor or along the Watsessing Avenue spine are well within our normal response zone.
 
-For commercial losses — a restaurant kitchen fire on Bloomfield Avenue, a retail space in the Broad Street corridor — we bring the same process with added attention to business interruption timelines and landlord-tenant documentation requirements.
+For commercial losses, a restaurant kitchen fire on Bloomfield Avenue, a retail space in the Broad Street corridor, we bring the same process with added attention to business interruption timelines and landlord-tenant documentation requirements.
 
 ## Insurance Coordination for Bloomfield Fire Claims
 
 Fire damage claims in New Jersey are among the most document-intensive property insurance claims you'll encounter. We photograph every affected surface before any cleaning begins, generate itemized moisture and soot mapping reports, and provide your adjuster with a written scope that matches the line-item format carriers expect. We bill most major carriers directly, which means you're not fronting the full cost of restoration while waiting for reimbursement.
 
-For two-family homes — a common property type throughout Watsessing and North Center — we're experienced with split-policy situations where the owner-occupant unit and the rental unit carry separate coverage. Getting both adjusters aligned early prevents delays in the reconstruction phase.
+For two-family homes, a common property type throughout Watsessing and North Center, we're experienced with split-policy situations where the owner-occupant unit and the rental unit carry separate coverage. Getting both adjusters aligned early prevents delays in the reconstruction phase.
 
 ## Local Note
 
-Bloomfield's pre-war Tudors and colonials frequently have original cedar-shake or slate roofs with minimal modern underlayment. When firefighters ventilate a roof during suppression — a standard tactic to release heat and gases — the opening left behind is larger and harder to weatherproof temporarily than a cut through modern asphalt shingles. We carry board-up and tarp materials sized for these older roof profiles, and we inspect the attic framing below the cut before any interior work begins, because water intrusion through an improperly sealed vent opening can start a secondary mold problem within 48 to 72 hours in a closed attic space.
+Bloomfield's pre-war Tudors and colonials frequently have original cedar-shake or slate roofs with minimal modern underlayment. When firefighters ventilate a roof during suppression, a standard tactic to release heat and gases, the opening left behind is larger and harder to weatherproof temporarily than a cut through modern asphalt shingles. We carry board-up and tarp materials sized for these older roof profiles, and we inspect the attic framing below the cut before any interior work begins, because water intrusion through an improperly sealed vent opening can start a secondary mold problem within 48 to 72 hours in a closed attic space.
 
-If your home or property in Bloomfield has been affected by fire, call The Restoration Group at **(855) 650-7422** — any hour, any day. We'll assess the damage, walk you through the restoration scope, and get the process moving before the soot has time to do more harm.
+If your home or property in Bloomfield has been affected by fire, call The Restoration Group at **(855) 650-7422**, any hour, any day. We'll assess the damage, walk you through the restoration scope, and get the process moving before the soot has time to do more harm.

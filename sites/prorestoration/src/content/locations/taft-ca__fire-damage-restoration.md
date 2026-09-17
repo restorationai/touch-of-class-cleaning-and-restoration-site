@@ -20,15 +20,15 @@ state: "CA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-Old wall furnaces and decades-old wiring in Ford City's 1930s and 1940s workers' cottages don't just raise the odds of a house fire — they shape how bad the aftermath gets. When insulation-wrapped knob-and-tube circuits or a cracked furnace heat exchanger ignites wall cavities in those compact bungalows, smoke travels fast through uninsulated attic spaces before anyone smells it downstairs. ProRestoration Services responds 24/7 from Bakersfield, reaching 93268 ZIP code addresses in roughly 35 minutes — faster than most crews operating out of Fresno or the Valley's larger metros.
+Old wall furnaces and decades-old wiring in Ford City's 1930s and 1940s workers' cottages don't just raise the odds of a house fire, they shape how bad the aftermath gets. When insulation-wrapped knob-and-tube circuits or a cracked furnace heat exchanger ignites wall cavities in those compact bungalows, smoke travels fast through uninsulated attic spaces before anyone smells it downstairs. ProRestoration Services responds 24/7 from Bakersfield, reaching 93268 ZIP code addresses in roughly 35 minutes, faster than most crews operating out of Fresno or the Valley's larger metros.
 
 ## Why Taft Properties See Fire Damage Differently
 
-Taft's housing stock tells a story in burn patterns. The workers' cottages built through the oil-boom decades in Ford City and South Taft were constructed quickly and cheaply — balloon-frame construction with open wall cavities that act like vertical chimneys once a fire starts inside a partition wall. Smoke doesn't stop at the room of origin; it migrates into every cavity and surfaces as soot on ceilings two rooms away.
+Taft's housing stock tells a story in burn patterns. The workers' cottages built through the oil-boom decades in Ford City and South Taft were constructed quickly and cheaply, balloon-frame construction with open wall cavities that act like vertical chimneys once a fire starts inside a partition wall. Smoke doesn't stop at the room of origin; it migrates into every cavity and surfaces as soot on ceilings two rooms away.
 
-The desert-edge climate adds another layer. Taft sits at the dry western edge of the San Joaquin Valley, where relative humidity regularly drops below 20 percent in summer and wind off the Temblor Range carries fine silica dust year-round. That aridity accelerates structural drying after suppression water is introduced — genuinely helpful — but the same wind-driven dust embeds itself into smoke-damaged contents, compounding the cleaning challenge. Upholstered furniture, drapes, and stored clothing in a fire-affected home near the Rails to Trails path or Franklin Field can carry a layered mix of char, protein smoke residue, and mineral dust that standard dry-cleaning alone won't resolve.
+The desert-edge climate adds another layer. Taft sits at the dry western edge of the San Joaquin Valley, where relative humidity regularly drops below 20 percent in summer and wind off the Temblor Range carries fine silica dust year-round. That aridity accelerates structural drying after suppression water is introduced, genuinely helpful, but the same wind-driven dust embeds itself into smoke-damaged contents, compounding the cleaning challenge. Upholstered furniture, drapes, and stored clothing in a fire-affected home near the Rails to Trails path or Franklin Field can carry a layered mix of char, protein smoke residue, and mineral dust that standard dry-cleaning alone won't resolve.
 
-Older galvanized supply lines and undersized drain stacks, common throughout South Taft, also mean that firefighting water doesn't always drain quickly from crawlspaces. We assess for secondary water intrusion during every post-fire walkthrough — a step that matters more here than in newer construction.
+Older galvanized supply lines and undersized drain stacks, common throughout South Taft, also mean that firefighting water doesn't always drain quickly from crawlspaces. We assess for secondary water intrusion during every post-fire walkthrough, a step that matters more here than in newer construction.
 
 ## Our Fire Damage Restoration Process in Taft
 
@@ -36,25 +36,25 @@ The first hour on-site is stabilization: board-up and roof tarping if the struct
 
 Once the structure is secured, the restoration sequence moves through four phases:
 
-1. **Debris and char removal** — We remove unsalvageable materials down to clean substrate, documenting every item photographically for your insurance adjuster.
-2. **Smoke and soot cleaning** — Protein smoke from kitchen fires and dry smoke from fast-burning structural fires require different chemical approaches. We use HEPA-filtered negative air machines to capture airborne particulates while technicians work through affected rooms with appropriate cleaning agents.
-3. **Odor neutralization** — Thermal fogging and hydroxyl generation address embedded odor in porous surfaces. In Taft's tight, low-humidity air, odor compounds can concentrate quickly — we don't close out a job until a re-check confirms the smell is gone, not masked.
-4. **Structural repair and reconstruction** — As a CSLB-licensed contractor (license #960566), we handle framing, drywall, insulation, and finish work in-house, which avoids the coordination gap that slows multi-contractor jobs.
+1. **Debris and char removal**, We remove unsalvageable materials down to clean substrate, documenting every item photographically for your insurance adjuster.
+2. **Smoke and soot cleaning**, Protein smoke from kitchen fires and dry smoke from fast-burning structural fires require different chemical approaches. We use HEPA-filtered negative air machines to capture airborne particulates while technicians work through affected rooms with appropriate cleaning agents.
+3. **Odor neutralization**, Thermal fogging and hydroxyl generation address embedded odor in porous surfaces. In Taft's tight, low-humidity air, odor compounds can concentrate quickly, we don't close out a job until a re-check confirms the smell is gone, not masked.
+4. **Structural repair and reconstruction**, As a CSLB-licensed contractor (license #960566), we handle framing, drywall, insulation, and finish work in-house, which avoids the coordination gap that slows multi-contractor jobs.
 
 ## Reaching Taft from Bakersfield
 
-Our Bakersfield location puts us on Highway 119 west toward Taft within minutes of a call. The route runs straight through to Downtown Taft, and we can reach addresses in Taft Heights or along the South Taft corridor without navigating secondary roads that add time. Because we operate 24/7, a call at 2 a.m. after a kitchen fire gets the same dispatch priority as a mid-afternoon call — there's no answering service hand-off or next-morning callback.
+Our Bakersfield location puts us on Highway 119 west toward Taft within minutes of a call. The route runs straight through to Downtown Taft, and we can reach addresses in Taft Heights or along the South Taft corridor without navigating secondary roads that add time. Because we operate 24/7, a call at 2 a.m. after a kitchen fire gets the same dispatch priority as a mid-afternoon call, there's no answering service hand-off or next-morning callback.
 
 For large-loss commercial jobs near Taft College or industrial sites on the west side, we can stage additional equipment on-site rather than running return trips to Bakersfield, which keeps the early mitigation phase moving without interruption.
 
 ## Taft Insurance Coordination
 
-Fire claims on older Taft properties can get complicated. Adjusters sometimes flag pre-existing conditions — aging electrical panels, unpermitted additions common in the older neighborhoods — as partial offsets to claim value. Our documentation process is built around that reality: we photograph existing conditions separately from fire damage, produce a line-item scope using Xactimate (the estimating platform most carriers use), and communicate directly with your adjuster to keep the claim moving. You shouldn't have to translate between your contractor and your insurance company.
+Fire claims on older Taft properties can get complicated. Adjusters sometimes flag pre-existing conditions, aging electrical panels, unpermitted additions common in the older neighborhoods, as partial offsets to claim value. Our documentation process is built around that reality: we photograph existing conditions separately from fire damage, produce a line-item scope using Xactimate (the estimating platform most carriers use), and communicate directly with your adjuster to keep the claim moving. You shouldn't have to translate between your contractor and your insurance company.
 
 We work with most major carriers and can bill directly in many cases, reducing out-of-pocket exposure during the repair period.
 
 ## Local Note
 
-In Taft's older balloon-frame homes — particularly the compact cottages in Ford City — smoke odor has a way of reappearing weeks after a fire even when initial cleaning looks complete. The reason is usually the wall cavity itself: char residue on framing lumber off-gasses slowly in the dry heat, and without cavity access, surface treatments don't reach the source. When we scope a fire job in these homes, we include framing inspection and, where necessary, cavity cleaning or encapsulation as a standard line item rather than a change order surprise. It's a detail that matters specifically to this housing stock and one that homeowners elsewhere rarely encounter.
+In Taft's older balloon-frame homes, particularly the compact cottages in Ford City, smoke odor has a way of reappearing weeks after a fire even when initial cleaning looks complete. The reason is usually the wall cavity itself: char residue on framing lumber off-gasses slowly in the dry heat, and without cavity access, surface treatments don't reach the source. When we scope a fire job in these homes, we include framing inspection and, where necessary, cavity cleaning or encapsulation as a standard line item rather than a change order surprise. It's a detail that matters specifically to this housing stock and one that homeowners elsewhere rarely encounter.
 
-If you're dealing with fire or smoke damage at a property in Taft, call ProRestoration Services at (661) 393-9306. We'll walk you through what comes next — from the first emergency board-up to the final coat of paint.
+If you're dealing with fire or smoke damage at a property in Taft, call ProRestoration Services at (661) 393-9306. We'll walk you through what comes next, from the first emergency board-up to the final coat of paint.

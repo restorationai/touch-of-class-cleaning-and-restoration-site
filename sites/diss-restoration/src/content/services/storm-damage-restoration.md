@@ -17,27 +17,27 @@ service_slug: "storm-damage-restoration"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
-A storm doesn't announce when it's finished damaging your home. The obvious destruction — a tree through the roof, a shattered window, siding peeled back to bare sheathing — is only the beginning. Within hours, wind-driven rain soaks into wall cavities, attic insulation, and subfloor decking. Within days, that hidden moisture becomes a mold problem. The clock starts the moment the storm passes, and the window for limiting secondary damage is narrow.
+A storm doesn't announce when it's finished damaging your home. The obvious destruction, a tree through the roof, a shattered window, siding peeled back to bare sheathing, is only the beginning. Within hours, wind-driven rain soaks into wall cavities, attic insulation, and subfloor decking. Within days, that hidden moisture becomes a mold problem. The clock starts the moment the storm passes, and the window for limiting secondary damage is narrow.
 
 ## What Storm Damage Restoration actually involves
 
-Storm damage restoration is not a single trade — it's a coordinated sequence of emergency stabilization, structural drying, and repair work that has to happen in the right order. Skipping ahead to repairs before moisture is fully extracted means trapping water inside finished assemblies, where it will rot framing and feed mold colonies behind new drywall.
+Storm damage restoration is not a single trade, it's a coordinated sequence of emergency stabilization, structural drying, and repair work that has to happen in the right order. Skipping ahead to repairs before moisture is fully extracted means trapping water inside finished assemblies, where it will rot framing and feed mold colonies behind new drywall.
 
-The work typically begins with emergency tarping and board-up to stop the weather from continuing to enter the structure. From there, the focus shifts to water intrusion: mapping where rain entered, tracing its migration path through building materials, and extracting standing water before it wicks further. Industrial-grade desiccant or refrigerant dehumidifiers, high-velocity air movers, and thermal imaging cameras are standard equipment for this phase. Structural drying is monitored daily with calibrated moisture meters until affected materials reach documented drying goals — not just until they feel dry to the touch.
+The work typically begins with emergency tarping and board-up to stop the weather from continuing to enter the structure. From there, the focus shifts to water intrusion: mapping where rain entered, tracing its migration path through building materials, and extracting standing water before it wicks further. Industrial-grade desiccant or refrigerant dehumidifiers, high-velocity air movers, and thermal imaging cameras are standard equipment for this phase. Structural drying is monitored daily with calibrated moisture meters until affected materials reach documented drying goals, not just until they feel dry to the touch.
 
-Once the structure is dry and stabilized, the scope shifts to physical repair: replacing damaged roofing, siding, windows, insulation, drywall, and any structural members compromised by impact or prolonged saturation. In older Youngstown-area homes — many built in the mid-20th century with plaster-and-lath walls and older roof decking — the repair scope often differs significantly from what a quick visual inspection suggests.
+Once the structure is dry and stabilized, the scope shifts to physical repair: replacing damaged roofing, siding, windows, insulation, drywall, and any structural members compromised by impact or prolonged saturation. In older Youngstown-area homes, many built in the mid-20th century with plaster-and-lath walls and older roof decking, the repair scope often differs significantly from what a quick visual inspection suggests.
 
 ## Our process
 
-1. **Emergency stabilization** — Tarping breached roof sections, boarding compromised windows and doors, and securing any structural hazards before the crew moves inside. This step protects both the structure and the people working in it.
+1. **Emergency stabilization**, Tarping breached roof sections, boarding compromised windows and doors, and securing any structural hazards before the crew moves inside. This step protects both the structure and the people working in it.
 
-2. **Damage mapping and moisture intrusion assessment** — A systematic inspection using thermal imaging and calibrated moisture meters to document every point of water entry and trace its migration into walls, ceilings, floors, and framing. This produces the documentation that drives both the drying plan and the insurance claim.
+2. **Damage mapping and moisture intrusion assessment**, A systematic inspection using thermal imaging and calibrated moisture meters to document every point of water entry and trace its migration into walls, ceilings, floors, and framing. This produces the documentation that drives both the drying plan and the insurance claim.
 
-3. **Water extraction and structural drying** — Standing water is extracted first; then drying equipment is positioned according to a psychrometric drying plan. Readings are logged daily. Drying is not complete until affected assemblies reach the moisture content targets defined by the IICRC S500 standard — a number, not a feeling.
+3. **Water extraction and structural drying**, Standing water is extracted first; then drying equipment is positioned according to a psychrometric drying plan. Readings are logged daily. Drying is not complete until affected assemblies reach the moisture content targets defined by the IICRC S500 standard, a number, not a feeling.
 
-4. **Debris removal and structural repair** — Damaged roofing materials, insulation, drywall, and compromised framing are removed and documented before replacement begins. Repair work is sequenced so that concealed cavities are fully dry before they're closed in.
+4. **Debris removal and structural repair**, Damaged roofing materials, insulation, drywall, and compromised framing are removed and documented before replacement begins. Repair work is sequenced so that concealed cavities are fully dry before they're closed in.
 
-5. **Final inspection and documentation package** — A close-out inspection confirms moisture readings are within normal range throughout the structure. The complete documentation package — photos, moisture logs, scope of work, and receipts — is compiled for the insurance carrier.
+5. **Final inspection and documentation package**, A close-out inspection confirms moisture readings are within normal range throughout the structure. The complete documentation package, photos, moisture logs, scope of work, and receipts, is compiled for the insurance carrier.
 
 ## What separates a good storm damage response from a bad one
 
@@ -45,16 +45,16 @@ The most common failure in storm damage restoration is treating it like a roofin
 
 A few specific things experienced operators do differently:
 
-- **Thermal imaging before demolition.** Infrared cameras reveal moisture migration that moisture meters alone miss — particularly in plaster walls, cathedral ceiling assemblies, and around chimney chases, which are common failure points in northeastern Ohio's older housing stock.
+- **Thermal imaging before demolition.** Infrared cameras reveal moisture migration that moisture meters alone miss, particularly in plaster walls, cathedral ceiling assemblies, and around chimney chases, which are common failure points in northeastern Ohio's older housing stock.
 - **Documenting drying progress, not just completion.** Insurance adjusters and building inspectors want to see daily moisture logs, not a single final reading. Carriers increasingly require this documentation to approve structural drying line items.
-- **Identifying wind-driven rain versus bulk water intrusion.** The two behave differently inside a wall assembly. Wind-driven rain can saturate insulation and sheathing while the interior drywall reads nearly dry — a pattern that leads to missed damage and underpaid claims.
+- **Identifying wind-driven rain versus bulk water intrusion.** The two behave differently inside a wall assembly. Wind-driven rain can saturate insulation and sheathing while the interior drywall reads nearly dry, a pattern that leads to missed damage and underpaid claims.
 - **Checking for pre-existing damage.** Adjusters are trained to identify damage that predates the storm event. A thorough pre-repair photo and moisture documentation package protects the homeowner's claim from being partially denied on those grounds.
 
-Our team holds IICRC certifications in Water Restoration (WRT), Applied Structural Drying (ASD), and Fire and Smoke Restoration (FSRT) — relevant because many storm events involve both wind damage and electrical or fire hazards — and we are an EPA Lead-Safe Certified Firm, which matters in Youngstown-area homes built before 1978.
+Our team holds IICRC certifications in Water Restoration (WRT), Applied Structural Drying (ASD), and Fire and Smoke Restoration (FSRT), relevant because many storm events involve both wind damage and electrical or fire hazards, and we are an EPA Lead-Safe Certified Firm, which matters in Youngstown-area homes built before 1978.
 
 ## What does Storm Damage Restoration cost?
 
-Typical costs vary widely depending on the size of the breach, how long water was entering before mitigation began, and the construction type of the home. Most homeowners pay somewhere in the ranges below, which reflect industry-typical figures — not a quote from DISS Restoration.
+Typical costs vary widely depending on the size of the breach, how long water was entering before mitigation began, and the construction type of the home. Most homeowners pay somewhere in the ranges below, which reflect industry-typical figures, not a quote from DISS Restoration.
 
 | Scenario | Typical industry range |
 |---|---|
@@ -65,7 +65,7 @@ Typical costs vary widely depending on the size of the breach, how long water wa
 | Emergency tarping and board-up only | $500 – $2,500 |
 | Mold remediation triggered by delayed storm response | $3,500 – $15,000 |
 
-Every loss is different, and DISS Restoration provides a written scope of work before any work begins. Homeowners insurance typically covers sudden and accidental storm damage — wind, hail, falling trees, and resulting water intrusion — though flood damage from ground-level water generally requires a separate flood policy.
+Every loss is different, and DISS Restoration provides a written scope of work before any work begins. Homeowners insurance typically covers sudden and accidental storm damage, wind, hail, falling trees, and resulting water intrusion, though flood damage from ground-level water generally requires a separate flood policy.
 
 ## Seasonal and regional considerations
 
@@ -73,7 +73,7 @@ Northeastern Ohio sits in a weather corridor that produces severe thunderstorms 
 
 Winter ice storms create a separate damage pattern: ice dams along roof edges force meltwater under shingles and into attic assemblies, often without any visible interior sign until the ceiling is already saturated. Freeze-thaw cycles also stress older masonry and flashing details common in Youngstown's mid-century housing stock, creating entry points that a summer storm can exploit.
 
-Because DISS Restoration operates 24/7, we respond to both the summer severe-weather season and winter ice events — the two peaks that drive the majority of storm damage calls in this region.
+Because DISS Restoration operates 24/7, we respond to both the summer severe-weather season and winter ice events, the two peaks that drive the majority of storm damage calls in this region.
 
 ## Service area
 

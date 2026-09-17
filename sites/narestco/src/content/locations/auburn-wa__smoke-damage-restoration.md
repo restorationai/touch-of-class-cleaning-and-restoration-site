@@ -20,35 +20,35 @@ state: "WA"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
-If your Auburn home or building smells like smoke right now — whether from a kitchen fire, a structure fire next door, or wildfire smoke that pushed through your HVAC system — the clock matters more than most people realize. Smoke residue doesn't just linger; it etches into drywall, porous wood, and soft furnishings within hours, and the acidic compounds in soot actively corrode metal fixtures, appliances, and electronics the longer they sit. National Restoration Construction has been responding to smoke damage emergencies in the Auburn area since 2004, and our Federal Way headquarters puts us less than 15 miles from most Auburn addresses — close enough to have a crew on your property fast.
+If your Auburn home or building smells like smoke right now, whether from a kitchen fire, a structure fire next door, or wildfire smoke that pushed through your HVAC system, the clock matters more than most people realize. Smoke residue doesn't just linger; it etches into drywall, porous wood, and soft furnishings within hours, and the acidic compounds in soot actively corrode metal fixtures, appliances, and electronics the longer they sit. National Restoration Construction has been responding to smoke damage emergencies in the Auburn area since 2004, and our Federal Way headquarters puts us less than 15 miles from most Auburn addresses, close enough to have a crew on your property fast.
 
 ## What Smoke Damage Looks Like in Auburn Homes
 
-Auburn's housing stock is a mix of mid-century ramblers, 1980s–90s tract homes, and newer construction in developments like Lakeland Hills and along the Lea Hill corridor. Older homes often have unlined cavities in walls and ceilings that pull smoke deep into the structure — places a surface wipe-down will never reach. Newer builds with open floor plans and connected HVAC systems can distribute smoke residue through every room in minutes, even when the fire itself was confined to a single space.
+Auburn's housing stock is a mix of mid-century ramblers, 1980s–90s tract homes, and newer construction in developments like Lakeland Hills and along the Lea Hill corridor. Older homes often have unlined cavities in walls and ceilings that pull smoke deep into the structure, places a surface wipe-down will never reach. Newer builds with open floor plans and connected HVAC systems can distribute smoke residue through every room in minutes, even when the fire itself was confined to a single space.
 
 Western Washington's damp climate adds a layer of complexity: when smoke-saturated air cools against cold exterior walls or uninsulated crawl spaces, residue condenses and bonds to surfaces more aggressively than it would in a dry climate. That same moisture can accelerate the corrosion that soot causes on copper pipes, stainless appliances, and electrical components. What looks like a manageable cleanup on day one can become a structural and systems problem by day three.
 
 ## Our Smoke Damage Restoration Process in Auburn
 
-Every job starts with a thorough assessment — not just the room where the fire or smoke originated, but adjacent spaces, the attic if accessible, and the HVAC system. Smoke travels, and we document what we find before touching anything, which matters for your insurance claim.
+Every job starts with a thorough assessment, not just the room where the fire or smoke originated, but adjacent spaces, the attic if accessible, and the HVAC system. Smoke travels, and we document what we find before touching anything, which matters for your insurance claim.
 
 From there, the process typically follows this sequence:
 
 **Containment and ventilation.** We establish negative air pressure in affected zones using commercial-grade air scrubbers with HEPA filtration to stop cross-contamination and begin pulling particulates out of the air.
 
-**Dry and wet residue removal.** Different smoke types — protein smoke from cooking fires, synthetic smoke from burning plastics, and wood-smoke char — each respond to different cleaning agents and techniques. We match the chemistry to the residue rather than applying a one-size approach.
+**Dry and wet residue removal.** Different smoke types, protein smoke from cooking fires, synthetic smoke from burning plastics, and wood-smoke char, each respond to different cleaning agents and techniques. We match the chemistry to the residue rather than applying a one-size approach.
 
 **Structural cleaning and deodorization.** Walls, ceilings, framing, and subfloor materials are cleaned down to bare surfaces where needed. Thermal fogging and hydroxyl generation reach into cavities and porous materials where sprays and wipes can't.
 
-**Content pack-out and cleaning.** Furniture, clothing, documents, and personal items can often be restored off-site. We inventory, pack, and return cleaned contents — a step that's frequently covered under your homeowner's policy.
+**Content pack-out and cleaning.** Furniture, clothing, documents, and personal items can often be restored off-site. We inventory, pack, and return cleaned contents, a step that's frequently covered under your homeowner's policy.
 
 **Reconstruction.** When smoke damage requires replacing drywall, flooring, cabinetry, or structural elements, our general contractor license (WA L&I #NATIORC792M6) means we handle that work directly rather than handing you off to a separate contractor.
 
 ## Response Times Across Auburn
 
-From our Federal Way base, we can typically reach Auburn addresses in 30 to 45 minutes under normal traffic conditions. Neighborhoods on Auburn's west side — near the Auburn Municipal Airport or along West Valley Highway — are often closer to 30 minutes. Lakeland Hills and areas east of Auburn Way South may run 40–50 minutes depending on time of day.
+From our Federal Way base, we can typically reach Auburn addresses in 30 to 45 minutes under normal traffic conditions. Neighborhoods on Auburn's west side, near the Auburn Municipal Airport or along West Valley Highway, are often closer to 30 minutes. Lakeland Hills and areas east of Auburn Way South may run 40–50 minutes depending on time of day.
 
-For true emergencies, we dispatch 24 hours a day, seven days a week. If you're calling at 2 a.m. after a fire, someone answers — not a voicemail box.
+For true emergencies, we dispatch 24 hours a day, seven days a week. If you're calling at 2 a.m. after a fire, someone answers, not a voicemail box.
 
 ## Navigating Your Insurance Claim
 
@@ -56,8 +56,8 @@ Most homeowner and commercial property policies cover smoke damage restoration, 
 
 What you should do before we arrive: avoid wiping or washing smoke-stained surfaces (it can set the residue and reduce what's recoverable), don't run your HVAC system (it spreads particulates), and if it's safe to do so, take photos of every affected room before anything is moved. We'll build on that documentation when we arrive.
 
-Our IICRC certification means our scope-of-work reports carry weight with adjusters — the standards we follow are the same ones insurers reference when evaluating claims.
+Our IICRC certification means our scope-of-work reports carry weight with adjusters, the standards we follow are the same ones insurers reference when evaluating claims.
 
 ---
 
-If you're in Auburn and dealing with smoke damage today, the sooner a professional assessment happens, the more of your home and belongings can be saved — and the stronger your insurance claim will be. Reach National Restoration Construction at **(206) 883-0333** any time of day or night.
+If you're in Auburn and dealing with smoke damage today, the sooner a professional assessment happens, the more of your home and belongings can be saved, and the stronger your insurance claim will be. Reach National Restoration Construction at **(206) 883-0333** any time of day or night.

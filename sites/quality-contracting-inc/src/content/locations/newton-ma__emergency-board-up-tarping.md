@@ -20,33 +20,33 @@ state: "MA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
-Newton's winters hit hard and fast — a nor'easter can strip shingles off a Victorian triple-decker overnight, and a house fire in February leaves charred window frames exposed to temperatures that drop into the single digits by morning. When a roof is open to the sky or a window is gone, every hour of delay compounds the damage inside. Emergency board-up and tarping stops that clock, and Quality Contracting, Inc. provides that response to Newton homeowners and property managers from our Auburn base.
+Newton's winters hit hard and fast, a nor'easter can strip shingles off a Victorian triple-decker overnight, and a house fire in February leaves charred window frames exposed to temperatures that drop into the single digits by morning. When a roof is open to the sky or a window is gone, every hour of delay compounds the damage inside. Emergency board-up and tarping stops that clock, and Quality Contracting, Inc. provides that response to Newton homeowners and property managers from our Auburn base.
 
 ## Why Newton Properties See Board-Up and Tarping Emergencies
 
-Newton's housing stock tells the story. Much of the city developed between the 1880s and the 1940s, which means a significant share of its homes are wood-frame construction with balloon framing — a style where wall cavities run continuously from foundation to roof. When a fire or impact breaches the exterior envelope on a home built that way, wind-driven rain and cold air travel vertically through the wall system in ways that newer platform-framed houses simply don't experience. That makes a fast, tight board-up more consequential here than in a subdivision of 1990s colonials.
+Newton's housing stock tells the story. Much of the city developed between the 1880s and the 1940s, which means a significant share of its homes are wood-frame construction with balloon framing, a style where wall cavities run continuously from foundation to roof. When a fire or impact breaches the exterior envelope on a home built that way, wind-driven rain and cold air travel vertically through the wall system in ways that newer platform-framed houses simply don't experience. That makes a fast, tight board-up more consequential here than in a subdivision of 1990s colonials.
 
-Newton also sits in Middlesex County's inland climate band, which means freeze-thaw cycling that can widen a roof breach between the night of the damage and the morning a roofer arrives. A tarp installed correctly — weighted, lapped over the ridge, and secured against wind lift — bridges that gap. One installed carelessly can act like a sail and worsen the opening it was meant to protect.
+Newton also sits in Middlesex County's inland climate band, which means freeze-thaw cycling that can widen a roof breach between the night of the damage and the morning a roofer arrives. A tarp installed correctly, weighted, lapped over the ridge, and secured against wind lift, bridges that gap. One installed carelessly can act like a sail and worsen the opening it was meant to protect.
 
 Beyond weather, Newton's density matters. Many properties share close lot lines, and a board-up that leaves gaps creates a security exposure not just for the affected home but for neighbors. Police and fire departments in Newton are accustomed to requesting emergency securing of structures after incidents, and having a contractor who can respond promptly keeps that process moving.
 
 ## Our Emergency Board-Up and Tarping Process in Newton
 
-Every job starts with a rapid exterior assessment — what is open, what is structurally at risk, and what sequence of work protects the most interior space first. For a fire damage board-up, that typically means securing window and door openings with plywood cut to fit and fastened to the structural framing, not just tacked to the trim. For a roof breach, heavy-duty polyethylene tarping is lapped well past the damaged area, weighted or strapped at the eaves, and tied off at ridge points that can actually hold tension.
+Every job starts with a rapid exterior assessment, what is open, what is structurally at risk, and what sequence of work protects the most interior space first. For a fire damage board-up, that typically means securing window and door openings with plywood cut to fit and fastened to the structural framing, not just tacked to the trim. For a roof breach, heavy-duty polyethylene tarping is lapped well past the damaged area, weighted or strapped at the eaves, and tied off at ridge points that can actually hold tension.
 
-On Newton's older homes, we pay attention to original window and door dimensions, which are often non-standard. Pre-cut stock panels rarely fit a 1920s double-hung opening cleanly, so we cut on-site to avoid gaps that defeat the purpose. We also document the condition of the opening before and after — photographs that become part of the insurance file and establish that the structure was secured properly at a specific date and time.
+On Newton's older homes, we pay attention to original window and door dimensions, which are often non-standard. Pre-cut stock panels rarely fit a 1920s double-hung opening cleanly, so we cut on-site to avoid gaps that defeat the purpose. We also document the condition of the opening before and after, photographs that become part of the insurance file and establish that the structure was secured properly at a specific date and time.
 
 For commercial properties or multi-family buildings, we coordinate with property managers on access points and tenant safety before work begins.
 
 ## Reaching Newton from Auburn
 
-Auburn sits roughly 40 miles west of Newton via the Massachusetts Turnpike (I-90), which runs directly into Newton's southern edge. That corridor is one of the more predictable routes in the metro area outside of peak commute hours, and it puts us on Newton streets without navigating the tighter surface-road grid that slows response from some other directions. We do not publish a guaranteed minute figure — traffic on the Pike varies — but Newton is well within our established service area and a priority dispatch.
+Auburn sits roughly 40 miles west of Newton via the Massachusetts Turnpike (I-90), which runs directly into Newton's southern edge. That corridor is one of the more predictable routes in the metro area outside of peak commute hours, and it puts us on Newton streets without navigating the tighter surface-road grid that slows response from some other directions. We do not publish a guaranteed minute figure, traffic on the Pike varies, but Newton is well within our established service area and a priority dispatch.
 
 ## Newton Insurance and HOA Coordination
 
 Most standard homeowners' policies cover emergency board-up and tarping as part of the initial loss mitigation, meaning the cost is typically rolled into the same claim as the underlying damage. We photograph every opening before and after securing, note the materials used, and provide documentation formatted for insurance submission. That paper trail matters when an adjuster is determining whether secondary water or weather damage was preventable.
 
-Newton has a number of condominium associations and historic districts where exterior alterations — even temporary ones — can draw scrutiny. If your property falls under an HOA or is in a locally designated historic area, it is worth a quick call to your association manager to flag the emergency work. We use materials and methods that are straightforward to remove and replace, which simplifies any follow-up review.
+Newton has a number of condominium associations and historic districts where exterior alterations, even temporary ones, can draw scrutiny. If your property falls under an HOA or is in a locally designated historic area, it is worth a quick call to your association manager to flag the emergency work. We use materials and methods that are straightforward to remove and replace, which simplifies any follow-up review.
 
 ## Local Note
 

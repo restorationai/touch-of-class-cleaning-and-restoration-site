@@ -20,23 +20,23 @@ state: "IA"
 service_display: "Post-Construction and Specialty Cleaning"
 rendered: true
 ---
-Construction season in Sioux County moves fast — a new build near the Floyd River can go from framing to finish trim in a matter of weeks — and when the last subcontractor walks out, what's left behind rarely looks like the photos in the listing. Drywall dust settles into every horizontal surface, caulk smears streak fresh windows, and sawdust works its way into HVAC registers before the first family ever turns on the heat. Crew Restoration & Construction handles that gap between "construction complete" and "move-in ready" for Alton homeowners, general contractors, and commercial property owners throughout the 51003 area.
+Construction season in Sioux County moves fast, a new build near the Floyd River can go from framing to finish trim in a matter of weeks, and when the last subcontractor walks out, what's left behind rarely looks like the photos in the listing. Drywall dust settles into every horizontal surface, caulk smears streak fresh windows, and sawdust works its way into HVAC registers before the first family ever turns on the heat. Crew Restoration & Construction handles that gap between "construction complete" and "move-in ready" for Alton homeowners, general contractors, and commercial property owners throughout the 51003 area.
 
 ## Why Alton Properties See Unique Post-Construction Cleaning Challenges
 
-Alton sits in northwest Iowa's loess-heavy soil belt, and that fine, wind-deposited soil is relentless. During any active construction project, it infiltrates through unsealed openings and mixes with the standard debris load — joint compound dust, insulation fibers, grout haze — creating a gritty composite that ordinary cleaning equipment can't fully capture. Northwest Iowa winters compound the problem: freeze-thaw cycles mean construction timelines often stretch across seasons, and a project that pauses in November can accumulate months of tracked-in mud, road salt residue, and moisture before the final clean ever begins.
+Alton sits in northwest Iowa's loess-heavy soil belt, and that fine, wind-deposited soil is relentless. During any active construction project, it infiltrates through unsealed openings and mixes with the standard debris load, joint compound dust, insulation fibers, grout haze, creating a gritty composite that ordinary cleaning equipment can't fully capture. Northwest Iowa winters compound the problem: freeze-thaw cycles mean construction timelines often stretch across seasons, and a project that pauses in November can accumulate months of tracked-in mud, road salt residue, and moisture before the final clean ever begins.
 
 Older properties in and around Downtown Alton present a separate layer of complexity. Many of the homes and commercial buildings near St. Mary's Catholic Church were built in eras when lead-based paint and asbestos-containing materials were standard. When renovation work disturbs those surfaces, the post-construction cleanup must account for residual dust that carries more than aesthetic concerns. Crew's team approaches every older-structure project with that history in mind, adjusting protocols accordingly.
 
 ## Our Post-Construction and Specialty Cleaning Process in Alton
 
-A thorough final clean isn't a single pass with a mop — it's a sequenced process that follows the construction debris from ceiling to floor.
+A thorough final clean isn't a single pass with a mop, it's a sequenced process that follows the construction debris from ceiling to floor.
 
 **Rough clean first.** Before any detail work begins, crews remove bulk debris: scrap lumber, packaging materials, leftover fasteners, and the heaviest accumulations of drywall dust. This stage protects finished surfaces that follow.
 
 **HEPA-filtered vacuuming throughout.** Drywall dust particles are fine enough to stay airborne for hours. Commercial HEPA vacuums capture particles down to 0.3 microns, pulling them out of ductwork grilles, window tracks, cabinet interiors, and light fixture boxes before they redistribute.
 
-**Detail cleaning of every surface.** Window glass, frames, and sills get scraped and polished. Tile grout haze — the chalky film left after grouting — is removed with appropriate acid-based cleaners calibrated to the tile type. Cabinetry interiors, drawer slides, and hardware are wiped clean of construction oils and fingerprints.
+**Detail cleaning of every surface.** Window glass, frames, and sills get scraped and polished. Tile grout haze, the chalky film left after grouting, is removed with appropriate acid-based cleaners calibrated to the tile type. Cabinetry interiors, drawer slides, and hardware are wiped clean of construction oils and fingerprints.
 
 **Final inspection and touch-up.** A walk-through with the property owner or general contractor identifies anything the crew missed. In Alton's tighter construction market, where a single GC often juggles multiple Sioux County projects simultaneously, this documented sign-off matters for project closeout.
 
@@ -49,14 +49,14 @@ Post-construction cleanup is the most common request, but "specialty cleaning" c
 - **Post-flood reconstruction cleans** following water damage repairs, where new drywall and flooring installation leaves a secondary debris layer on top of the remediated space
 - **Commercial tenant turnover cleans** for retail or office spaces undergoing buildout
 
-Each of these requires different chemistry, different equipment, and a different sequence — there's no single "specialty clean" formula.
+Each of these requires different chemistry, different equipment, and a different sequence, there's no single "specialty clean" formula.
 
 ## Reaching Alton from Sioux Falls
 
-Crew Restoration & Construction operates out of Sioux Falls, SD, and serves communities across the region including Alton and the surrounding Sioux County area. Alton is roughly a 90-minute drive from the Sioux Falls office via I-90 west and then south through the Orange City corridor — a route the crew knows well from regular work in northwest Iowa. Scheduling is handled directly by phone at (605) 965-2727, and the team works to fit Alton projects into the schedule with as little lead time as the project timeline allows.
+Crew Restoration & Construction operates out of Sioux Falls, SD, and serves communities across the region including Alton and the surrounding Sioux County area. Alton is roughly a 90-minute drive from the Sioux Falls office via I-90 west and then south through the Orange City corridor, a route the crew knows well from regular work in northwest Iowa. Scheduling is handled directly by phone at (605) 965-2727, and the team works to fit Alton projects into the schedule with as little lead time as the project timeline allows.
 
 ## Local Note
 
-One thing that catches out-of-area cleaning crews in Alton: the town's older commercial buildings near Downtown Alton frequently have original hardwood floors under decades of layered flooring materials. When a renovation strips back to the original wood, the post-construction clean has to account for the fact that freshly exposed hardwood is extremely sensitive to moisture — even the wrong cleaning solution applied too liberally can raise the grain or cause cupping before the finish coat goes down. Crew's team identifies floor type before selecting any wet-cleaning method, and in those situations, dry or near-dry methods are used until the finish is fully cured.
+One thing that catches out-of-area cleaning crews in Alton: the town's older commercial buildings near Downtown Alton frequently have original hardwood floors under decades of layered flooring materials. When a renovation strips back to the original wood, the post-construction clean has to account for the fact that freshly exposed hardwood is extremely sensitive to moisture, even the wrong cleaning solution applied too liberally can raise the grain or cause cupping before the finish coat goes down. Crew's team identifies floor type before selecting any wet-cleaning method, and in those situations, dry or near-dry methods are used until the finish is fully cured.
 
-When the dust has settled — literally — and you need Alton's new or renovated space to look the way it was designed to look, call Crew Restoration & Construction at (605) 965-2727. The crew brings the right equipment, the right sequence, and familiarity with the specific conditions that northwest Iowa construction projects leave behind.
+When the dust has settled, literally, and you need Alton's new or renovated space to look the way it was designed to look, call Crew Restoration & Construction at (605) 965-2727. The crew brings the right equipment, the right sequence, and familiarity with the specific conditions that northwest Iowa construction projects leave behind.

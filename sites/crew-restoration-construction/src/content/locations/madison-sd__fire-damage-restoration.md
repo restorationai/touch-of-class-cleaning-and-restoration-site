@@ -20,13 +20,13 @@ state: "SD"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-When a fire tears through a home near Lake Herman or along the older blocks of Downtown Madison, the damage compounds fast — smoke infiltrates wall cavities, soot bonds to surfaces within hours, and the South Dakota winter air accelerates structural drying in ways that can crack already-stressed framing. Crew Restoration & Construction responds to fire damage calls in Madison (57042) and the surrounding Lake County area, moving quickly to stabilize the property before secondary damage — water from suppression efforts, freeze-thaw stress, and lingering smoke odor — turns a recoverable loss into a full rebuild.
+When a fire tears through a home near Lake Herman or along the older blocks of Downtown Madison, the damage compounds fast, smoke infiltrates wall cavities, soot bonds to surfaces within hours, and the South Dakota winter air accelerates structural drying in ways that can crack already-stressed framing. Crew Restoration & Construction responds to fire damage calls in Madison (57042) and the surrounding Lake County area, moving quickly to stabilize the property before secondary damage, water from suppression efforts, freeze-thaw stress, and lingering smoke odor, turns a recoverable loss into a full rebuild.
 
 ## Why Madison Properties See Distinct Fire Damage Challenges
 
 Madison's housing stock skews older. Much of Downtown Madison features wood-frame construction from the mid-20th century or earlier, with original plaster-and-lath interiors, uninsulated balloon-frame wall cavities, and older electrical panels that can be contributing factors in fire ignition. That construction style matters during restoration: smoke and soot travel farther inside balloon-frame walls than in modern platform-frame homes, because the cavities run continuously from the basement to the attic with few fire stops. A fire that looks contained to one room on the surface can leave soot deposits two floors away.
 
-The region's climate adds another layer. Lake Herman State Park sits just west of town, and the proximity to open water means Madison sees sharp humidity swings — dry, bitter winters followed by humid spring and summer months. After a fire, suppression water introduced into a structure during a cold stretch can freeze inside wall assemblies before crews can extract it, creating hidden ice pockets that expand and crack framing or masonry. Restoration timelines in Madison during the colder months account for this; we use heated drying equipment and monitor wall cavity temperatures, not just surface readings.
+The region's climate adds another layer. Lake Herman State Park sits just west of town, and the proximity to open water means Madison sees sharp humidity swings, dry, bitter winters followed by humid spring and summer months. After a fire, suppression water introduced into a structure during a cold stretch can freeze inside wall assemblies before crews can extract it, creating hidden ice pockets that expand and crack framing or masonry. Restoration timelines in Madison during the colder months account for this; we use heated drying equipment and monitor wall cavity temperatures, not just surface readings.
 
 ## Our Fire Damage Restoration Process in Madison
 
@@ -36,7 +36,7 @@ From there, the process moves in a deliberate sequence:
 
 - **Board-up and tarping** to secure the structure against weather and unauthorized entry
 - **Water and suppression residue extraction**, because most residential fires in Madison are extinguished with water, leaving saturated subfloors and insulation
-- **Dry-ice or soda blasting of structural members** where char and soot are embedded in wood framing — a method that removes contamination without adding moisture
+- **Dry-ice or soda blasting of structural members** where char and soot are embedded in wood framing, a method that removes contamination without adding moisture
 - **HEPA vacuuming and chemical sponge cleaning** of salvageable surfaces, working from the top of each room down
 - **Thermal fogging and hydroxyl treatment** to neutralize smoke odor at the molecular level, not just mask it
 - **Reconstruction**, handled in-house, so you work with one company from emergency response through finished repairs
@@ -45,16 +45,16 @@ Handling both the mitigation and the rebuild under one contract matters in a sma
 
 ## Reaching Madison from Sioux Falls
 
-Crew Restoration & Construction is headquartered in Sioux Falls, roughly 70 miles southwest of Madison via I-90 East and SD-34. Our crews are familiar with the route and stage equipment accordingly for Lake County calls. For properties near Dakota State University or in the Lake Herman area, we note that some residential streets near the lake can be narrow or seasonally soft — we coordinate vehicle access before arrival on those addresses to avoid staging delays.
+Crew Restoration & Construction is headquartered in Sioux Falls, roughly 70 miles southwest of Madison via I-90 East and SD-34. Our crews are familiar with the route and stage equipment accordingly for Lake County calls. For properties near Dakota State University or in the Lake Herman area, we note that some residential streets near the lake can be narrow or seasonally soft, we coordinate vehicle access before arrival on those addresses to avoid staging delays.
 
 ## Madison Insurance Coordination
 
-Fire claims in Lake County typically involve a field adjuster visit, and the gap between the adjuster's schedule and the contractor's availability can slow the drying clock. We work directly with most major carriers, providing line-item estimates in Xactimate format — the industry standard adjusters use — so there's no translation friction between our scope and theirs. We can also document pre-existing conditions separately from fire-related damage, which protects you from having unrelated items excluded from the claim.
+Fire claims in Lake County typically involve a field adjuster visit, and the gap between the adjuster's schedule and the contractor's availability can slow the drying clock. We work directly with most major carriers, providing line-item estimates in Xactimate format, the industry standard adjusters use, so there's no translation friction between our scope and theirs. We can also document pre-existing conditions separately from fire-related damage, which protects you from having unrelated items excluded from the claim.
 
 If your property is financed, your mortgage lender will likely require proof of licensed, insured contractor work before releasing insurance funds. We carry the documentation your lender needs and can provide it on request.
 
 ## Local Note
 
-Older homes in Downtown Madison with original plaster walls present a specific challenge during smoke cleaning that crews unfamiliar with the area's housing stock sometimes miss. Plaster is alkaline, and many smoke residues are acidic — the wrong cleaning agent applied to a plaster surface can cause permanent staining or surface breakdown that looks like cleaning damage rather than fire damage. We use pH-adjusted cleaning solutions calibrated for plaster substrates, and we test on an inconspicuous area before treating any finished surface. It's a small step that prevents a costly mistake on homes where original plaster is part of the character — and the value — of the property.
+Older homes in Downtown Madison with original plaster walls present a specific challenge during smoke cleaning that crews unfamiliar with the area's housing stock sometimes miss. Plaster is alkaline, and many smoke residues are acidic, the wrong cleaning agent applied to a plaster surface can cause permanent staining or surface breakdown that looks like cleaning damage rather than fire damage. We use pH-adjusted cleaning solutions calibrated for plaster substrates, and we test on an inconspicuous area before treating any finished surface. It's a small step that prevents a costly mistake on homes where original plaster is part of the character, and the value, of the property.
 
 If your Madison home or commercial property has been affected by fire, the window for limiting secondary damage is short. Call Crew Restoration & Construction at (605) 965-2727 to schedule an assessment and get a clear picture of what restoration will involve before committing to any scope of work.

@@ -20,40 +20,40 @@ state: "TX"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-West Texas wind carries embers fast. In Merkel, where open rangeland meets older residential streets and the air stays bone-dry for long stretches, a kitchen fire or a grass fire that jumps a fence line can move through a structure faster than most homeowners expect. Air Care Restoration responds 24/7 to fire damage calls in Merkel and the surrounding Taylor County area — arriving with IICRC FSRT-certified technicians trained specifically in fire and smoke restoration, not just general cleanup.
+West Texas wind carries embers fast. In Merkel, where open rangeland meets older residential streets and the air stays bone-dry for long stretches, a kitchen fire or a grass fire that jumps a fence line can move through a structure faster than most homeowners expect. Air Care Restoration responds 24/7 to fire damage calls in Merkel and the surrounding Taylor County area, arriving with IICRC FSRT-certified technicians trained specifically in fire and smoke restoration, not just general cleanup.
 
 ## Why Merkel Properties Face Particular Fire Damage Challenges
 
-Merkel sits in a semi-arid stretch of West Texas where relative humidity regularly drops low enough to turn building materials into kindling. That dry climate also means smoke particles penetrate deeper into wood framing, insulation, and drywall before suppression water slows combustion — leaving behind a residue layer that isn't always visible at the surface but continues to off-gas the acrid odor that lingers for months if not treated correctly.
+Merkel sits in a semi-arid stretch of West Texas where relative humidity regularly drops low enough to turn building materials into kindling. That dry climate also means smoke particles penetrate deeper into wood framing, insulation, and drywall before suppression water slows combustion, leaving behind a residue layer that isn't always visible at the surface but continues to off-gas the acrid odor that lingers for months if not treated correctly.
 
-A significant portion of Merkel's housing stock dates to mid-twentieth century construction — pier-and-beam foundations, wood-framed walls, and older electrical systems that were wired under codes that predate modern arc-fault protection requirements. When fire touches that framing, it can travel inside wall cavities and attic spaces before it's ever detected by a smoke alarm on the ceiling below. Post-fire structural assessment here means opening walls, not just scanning surfaces.
+A significant portion of Merkel's housing stock dates to mid-twentieth century construction, pier-and-beam foundations, wood-framed walls, and older electrical systems that were wired under codes that predate modern arc-fault protection requirements. When fire touches that framing, it can travel inside wall cavities and attic spaces before it's ever detected by a smoke alarm on the ceiling below. Post-fire structural assessment here means opening walls, not just scanning surfaces.
 
-Grass and brush fires are also a real seasonal threat in Taylor County. A fire that starts at a property edge can char siding, melt vinyl windows, and push smoke into an HVAC system within minutes — leaving the interior of a structurally intact home heavily contaminated even when the flames never entered the front door.
+Grass and brush fires are also a real seasonal threat in Taylor County. A fire that starts at a property edge can char siding, melt vinyl windows, and push smoke into an HVAC system within minutes, leaving the interior of a structurally intact home heavily contaminated even when the flames never entered the front door.
 
 ## Our Fire Damage Restoration Process in Merkel
 
-When we arrive at a Merkel property after a fire, the first priority is safety assessment — confirming the structure is stable and that utilities have been properly isolated before any crew member enters. From there, the process follows a documented sequence:
+When we arrive at a Merkel property after a fire, the first priority is safety assessment, confirming the structure is stable and that utilities have been properly isolated before any crew member enters. From there, the process follows a documented sequence:
 
 **Board-up and weatherproofing.** West Texas weather doesn't pause for a recovery. Open walls or a compromised roof in Merkel's wind corridor can compound the damage overnight. We secure the structure immediately.
 
-**Smoke and soot mapping.** Not all smoke residue is the same. Protein smoke from a kitchen fire behaves differently than the thick, oily soot from a structural fire involving synthetic materials. We identify residue type before choosing cleaning chemistry — the wrong approach can permanently set staining into surfaces.
+**Smoke and soot mapping.** Not all smoke residue is the same. Protein smoke from a kitchen fire behaves differently than the thick, oily soot from a structural fire involving synthetic materials. We identify residue type before choosing cleaning chemistry, the wrong approach can permanently set staining into surfaces.
 
 **Content inventory and pack-out.** Salvageable belongings are documented, packed, and transported for off-site cleaning and deodorization. This protects items from secondary smoke exposure during the structural work and gives your adjuster a clear record.
 
-**Structural drying and deodorization.** Suppression water from firefighting creates a secondary moisture problem inside the same walls the fire damaged. We run drying equipment alongside odor-counteracting treatments — thermal fogging and hydroxyl generation — so the structure doesn't develop a mold problem on top of the fire loss.
+**Structural drying and deodorization.** Suppression water from firefighting creates a secondary moisture problem inside the same walls the fire damaged. We run drying equipment alongside odor-counteracting treatments, thermal fogging and hydroxyl generation, so the structure doesn't develop a mold problem on top of the fire loss.
 
 **Reconstruction coordination.** Once the structure is clean, dry, and documented, we coordinate the rebuild phase so you're working with one point of contact rather than managing a general contractor separately.
 
 ## Reaching Merkel from Abilene
 
-Air Care Restoration is based in Abilene, and Merkel is a direct run west on I-20 — a route our crews travel regularly for Taylor County calls. Because we operate 24/7, a call placed at 2 a.m. after a fire is discovered reaches a live dispatcher, not a voicemail. We don't publish a minute-by-minute ETA guarantee, but Merkel's proximity to Abilene means response is measured in under an hour for most addresses in the city.
+Air Care Restoration is based in Abilene, and Merkel is a direct run west on I-20, a route our crews travel regularly for Taylor County calls. Because we operate 24/7, a call placed at 2 a.m. after a fire is discovered reaches a live dispatcher, not a voicemail. We don't publish a minute-by-minute ETA guarantee, but Merkel's proximity to Abilene means response is measured in under an hour for most addresses in the city.
 
 ## Working with Your Insurance Carrier After a Merkel Fire
 
-Fire losses in Texas are among the more complex insurance claims a homeowner will file. Documentation quality at the scene directly affects how smoothly a claim moves through the carrier. Our team photographs affected materials systematically, writes detailed scope notes, and communicates directly with adjusters — reducing the back-and-forth that delays approval and extends the time your family is displaced. We work with most major carriers and can walk you through what to expect from the Texas Department of Insurance's standard claim timelines if questions come up.
+Fire losses in Texas are among the more complex insurance claims a homeowner will file. Documentation quality at the scene directly affects how smoothly a claim moves through the carrier. Our team photographs affected materials systematically, writes detailed scope notes, and communicates directly with adjusters, reducing the back-and-forth that delays approval and extends the time your family is displaced. We work with most major carriers and can walk you through what to expect from the Texas Department of Insurance's standard claim timelines if questions come up.
 
 ## Local Note
 
-Older homes in Merkel built with original cellulose insulation in the attic — common in construction from the 1950s through the 1970s — present a specific challenge after a fire. Cellulose absorbs smoke odor compounds deeply and holds them long after surfaces appear clean. Standard deodorization passes that work fine on modern fiberglass batt insulation often leave cellulose-insulated attics still smelling of smoke weeks later. When we're working a fire loss in a home of that era in Taylor County, we assess attic insulation as a primary odor source, not an afterthought.
+Older homes in Merkel built with original cellulose insulation in the attic, common in construction from the 1950s through the 1970s, present a specific challenge after a fire. Cellulose absorbs smoke odor compounds deeply and holds them long after surfaces appear clean. Standard deodorization passes that work fine on modern fiberglass batt insulation often leave cellulose-insulated attics still smelling of smoke weeks later. When we're working a fire loss in a home of that era in Taylor County, we assess attic insulation as a primary odor source, not an afterthought.
 
-If your Merkel home or business has been through a fire — whether the damage is structural or the problem is smoke and odor that's moved through the building — call Air Care Restoration at (325) 339-8723. We're available around the clock, and we'll give you a straight answer about what the restoration process looks like for your specific situation.
+If your Merkel home or business has been through a fire, whether the damage is structural or the problem is smoke and odor that's moved through the building, call Air Care Restoration at (325) 339-8723. We're available around the clock, and we'll give you a straight answer about what the restoration process looks like for your specific situation.

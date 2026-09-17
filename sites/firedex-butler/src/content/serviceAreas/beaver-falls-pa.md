@@ -19,21 +19,21 @@ state: "PA"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind the walls of a College Hill rowhouse or a basement drain backs up in Patterson Township, the clock starts moving fast. FireDEX Butler has been responding to water, fire, mold, and biohazard losses across Beaver County since 1981, and Beaver Falls — ZIP 15010 — is part of the territory we know well. We handle the full scope of restoration work here, from emergency extraction and drying through structural rebuild, and we work directly with insurance carriers so property owners aren't left managing the paperwork alone.
+When a pipe bursts behind the walls of a College Hill rowhouse or a basement drain backs up in Patterson Township, the clock starts moving fast. FireDEX Butler has been responding to water, fire, mold, and biohazard losses across Beaver County since 1981, and Beaver Falls, ZIP 15010, is part of the territory we know well. We handle the full scope of restoration work here, from emergency extraction and drying through structural rebuild, and we work directly with insurance carriers so property owners aren't left managing the paperwork alone.
 
 ## Restoration emergencies common in Beaver Falls
 
-Beaver Falls sits in a river valley, and that geography shapes the losses we see here. The Beaver River keeps humidity elevated through much of the year, and stone and block foundations along the numbered avenues and on College Hill absorb that moisture steadily. Add original cast-iron drains and aging galvanized supply lines — common in the pre-war brick rowhomes and frame houses that make up most of the residential stock — and you get a predictable pattern: slow sewage backups that go unnoticed until the smell reaches the first floor, pinhole leaks that saturate wall cavities for weeks before a stain appears, and furnace or space-heater fires in rooms that haven't had an electrical update in decades. Stone foundations also create the kind of chronic dampness that lets mold colonize in as little as 48 to 72 hours after a water intrusion. Along the Seventh Avenue business district and the Route 18 corridor, older commercial buildings add their own recurring losses — sprinkler-discharge events from aging suppression systems and flat-roof leaks that pool over suspended ceilings before anyone notices.
+Beaver Falls sits in a river valley, and that geography shapes the losses we see here. The Beaver River keeps humidity elevated through much of the year, and stone and block foundations along the numbered avenues and on College Hill absorb that moisture steadily. Add original cast-iron drains and aging galvanized supply lines, common in the pre-war brick rowhomes and frame houses that make up most of the residential stock, and you get a predictable pattern: slow sewage backups that go unnoticed until the smell reaches the first floor, pinhole leaks that saturate wall cavities for weeks before a stain appears, and furnace or space-heater fires in rooms that haven't had an electrical update in decades. Stone foundations also create the kind of chronic dampness that lets mold colonize in as little as 48 to 72 hours after a water intrusion. Along the Seventh Avenue business district and the Route 18 corridor, older commercial buildings add their own recurring losses, sprinkler-discharge events from aging suppression systems and flat-roof leaks that pool over suspended ceilings before anyone notices.
 
 ## Services we provide in Beaver Falls
 
 ### Water damage restoration
 
-Water damage in Beaver Falls often starts small and spreads silently. A failed supply line in a College Hill duplex can saturate subfloor and wall framing before a tenant notices standing water. We use thermal imaging and moisture meters to map the full extent of the loss — not just the visible wet area — then set commercial drying equipment calibrated to the building's materials and the ambient humidity. Sewage backups, which are common in older drain systems throughout Eastvale and Downtown, require containment and antimicrobial treatment in addition to extraction and drying.
+Water damage in Beaver Falls often starts small and spreads silently. A failed supply line in a College Hill duplex can saturate subfloor and wall framing before a tenant notices standing water. We use thermal imaging and moisture meters to map the full extent of the loss, not just the visible wet area, then set commercial drying equipment calibrated to the building's materials and the ambient humidity. Sewage backups, which are common in older drain systems throughout Eastvale and Downtown, require containment and antimicrobial treatment in addition to extraction and drying.
 
 ### Fire and smoke damage restoration
 
-Space-heater fires and kitchen fires in the older frame housing stock on the numbered avenues tend to produce heavy smoke residue that penetrates plaster walls and wood framing. Smoke odor doesn't stop at the room of origin — it migrates through HVAC systems and into adjacent units in rowhouse configurations. We perform structural cleaning, content pack-out when needed, and odor neutralization using thermal fogging and hydroxyl treatment.
+Space-heater fires and kitchen fires in the older frame housing stock on the numbered avenues tend to produce heavy smoke residue that penetrates plaster walls and wood framing. Smoke odor doesn't stop at the room of origin, it migrates through HVAC systems and into adjacent units in rowhouse configurations. We perform structural cleaning, content pack-out when needed, and odor neutralization using thermal fogging and hydroxyl treatment.
 
 ### Mold remediation
 
@@ -41,15 +41,15 @@ River-valley humidity and stone foundations make Beaver Falls one of the more mo
 
 ### Commercial restoration
 
-The commercial stock along Seventh Avenue and the Route 18 corridor includes buildings that have changed use several times over the decades. Sprinkler-discharge events, roof leaks, and fire losses in these structures often involve mixed materials — drop ceilings, original hardwood, brick masonry — that require careful sequencing to restore. We work around business hours where possible and document losses thoroughly for commercial insurance claims.
+The commercial stock along Seventh Avenue and the Route 18 corridor includes buildings that have changed use several times over the decades. Sprinkler-discharge events, roof leaks, and fire losses in these structures often involve mixed materials, drop ceilings, original hardwood, brick masonry, that require careful sequencing to restore. We work around business hours where possible and document losses thoroughly for commercial insurance claims.
 
 ### Reconstruction
 
-When structural materials can't be dried or cleaned back to pre-loss condition, we handle the rebuild. That means framing, drywall, flooring, and finish work — one contractor from first call through final walkthrough rather than coordinating a separate GC.
+When structural materials can't be dried or cleaned back to pre-loss condition, we handle the rebuild. That means framing, drywall, flooring, and finish work, one contractor from first call through final walkthrough rather than coordinating a separate GC.
 
 ## Coverage and how fast we can get there
 
-FireDEX Butler operates out of Cranberry Township and reaches Beaver Falls via Route 68 to I-76 West, a run of roughly 25 miles. We dispatch around the clock — 24 hours a day, seven days a week — so a call at 2 a.m. from a property manager in White Township or a homeowner near Geneva College gets the same response as a call at noon. Patterson Township, Eastvale, and the neighborhoods along Brady's Run Park are all within our regular service area. If you're not sure whether your address falls in our coverage zone, call (724) 452-7400 and we'll confirm immediately.
+FireDEX Butler operates out of Cranberry Township and reaches Beaver Falls via Route 68 to I-76 West, a run of roughly 25 miles. We dispatch around the clock, 24 hours a day, seven days a week, so a call at 2 a.m. from a property manager in White Township or a homeowner near Geneva College gets the same response as a call at noon. Patterson Township, Eastvale, and the neighborhoods along Brady's Run Park are all within our regular service area. If you're not sure whether your address falls in our coverage zone, call (724) 452-7400 and we'll confirm immediately.
 
 ## Building stock, site conditions, and permits in Beaver Falls
 

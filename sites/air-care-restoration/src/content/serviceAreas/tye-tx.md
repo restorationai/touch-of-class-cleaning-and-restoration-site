@@ -23,13 +23,13 @@ When water soaks through drywall, smoke settles into insulation, or mold takes h
 
 ## Restoration emergencies common in Tye
 
-Tye sits in the rolling plains of Taylor County, where the climate swings hard between seasons. Summer heat pushes attic temperatures high enough to accelerate mold colonization within 24 to 48 hours of any moisture intrusion. Winter brings periodic hard freezes — the kind that can split supply lines inside exterior walls overnight, especially in homes built before modern insulation standards. Spring and early summer produce severe thunderstorms capable of driving wind-blown rain under rooflines, through aging window seals, and into crawlspaces. Because much of Tye's housing stock is relatively modest in age and construction, the same storm that looks minor on radar can still push enough water into a slab-on-grade home to saturate flooring, baseboards, and wall cavities before the homeowner realizes the extent of the damage.
+Tye sits in the rolling plains of Taylor County, where the climate swings hard between seasons. Summer heat pushes attic temperatures high enough to accelerate mold colonization within 24 to 48 hours of any moisture intrusion. Winter brings periodic hard freezes, the kind that can split supply lines inside exterior walls overnight, especially in homes built before modern insulation standards. Spring and early summer produce severe thunderstorms capable of driving wind-blown rain under rooflines, through aging window seals, and into crawlspaces. Because much of Tye's housing stock is relatively modest in age and construction, the same storm that looks minor on radar can still push enough water into a slab-on-grade home to saturate flooring, baseboards, and wall cavities before the homeowner realizes the extent of the damage.
 
 ## Services we provide in Tye
 
 ### Water damage restoration
 
-Water damage in Tye frequently starts small and hides well. A slow supply-line leak behind a vanity, a failed washing-machine hose, or a roof penetration after a hailstorm can saturate wall assemblies and subfloor materials while the surface still looks and feels dry. The crew uses moisture meters and thermal imaging to map the actual wet zone, then sets drying equipment calibrated to the conditions inside the structure — not just the room air temperature.
+Water damage in Tye frequently starts small and hides well. A slow supply-line leak behind a vanity, a failed washing-machine hose, or a roof penetration after a hailstorm can saturate wall assemblies and subfloor materials while the surface still looks and feels dry. The crew uses moisture meters and thermal imaging to map the actual wet zone, then sets drying equipment calibrated to the conditions inside the structure, not just the room air temperature.
 
 ### Fire and smoke damage restoration
 
@@ -37,7 +37,7 @@ After a fire, the visible char is rarely the full story. Smoke residue travels t
 
 ### Mold remediation
 
-In Taylor County's climate, mold can establish itself in as little as 24 to 48 hours in a wet wall cavity. Remediation means more than wiping visible growth — it means identifying the moisture source, containing the affected area to prevent cross-contamination, and removing colonized materials. An independent licensed Mold Assessment Consultant establishes the remediation protocol and performs post-remediation verification to confirm the work meets the criteria set out in that protocol before reconstruction begins.
+In Taylor County's climate, mold can establish itself in as little as 24 to 48 hours in a wet wall cavity. Remediation means more than wiping visible growth, it means identifying the moisture source, containing the affected area to prevent cross-contamination, and removing colonized materials. An independent licensed Mold Assessment Consultant establishes the remediation protocol and performs post-remediation verification to confirm the work meets the criteria set out in that protocol before reconstruction begins.
 
 ### Storm damage restoration
 
@@ -45,7 +45,7 @@ Hail and high-wind events that move through the Abilene metro regularly clip Tye
 
 ### Biohazard and specialty cleanup
 
-Sewage backups, which can occur when heavy rain overwhelms drainage systems, introduce Category 3 contaminated water into living spaces. This requires full containment, proper disposal of affected porous materials, and disinfection — not a standard wet-dry vacuum and a fan.
+Sewage backups, which can occur when heavy rain overwhelms drainage systems, introduce Category 3 contaminated water into living spaces. This requires full containment, proper disposal of affected porous materials, and disinfection, not a standard wet-dry vacuum and a fan.
 
 ## Coverage and how fast we can get there
 
@@ -53,6 +53,6 @@ Tye is directly adjacent to Abilene's western edge, making it one of the closest
 
 ## Building stock, site conditions, and permits in Tye
 
-Most of Tye's residential construction dates from the mid-twentieth century through the early 2000s, with a mix of wood-frame and masonry veneer homes built on slab-on-grade foundations — the dominant foundation type across this part of the West Texas plains. Slab construction means there is no crawlspace buffer: water that reaches the slab migrates directly into flooring systems and wall bottom plates. Homes built before the late 1970s may contain asbestos-containing materials in floor tile, mastic, or textured ceilings, which requires identification and handling by a licensed abatement contractor before any demolition work begins. The soils in Taylor County include expansive clays that shift with moisture changes, which can stress slab edges and create gaps where water enters. Seasonal freeze-thaw cycles, while less severe than in northern climates, are enough to crack supply lines in poorly insulated exterior wall cavities. Structural repair and reconstruction work in Tye falls under Taylor County's permitting jurisdiction; any scope involving structural framing, electrical, or plumbing typically requires a permit before work begins.
+Most of Tye's residential construction dates from the mid-twentieth century through the early 2000s, with a mix of wood-frame and masonry veneer homes built on slab-on-grade foundations, the dominant foundation type across this part of the West Texas plains. Slab construction means there is no crawlspace buffer: water that reaches the slab migrates directly into flooring systems and wall bottom plates. Homes built before the late 1970s may contain asbestos-containing materials in floor tile, mastic, or textured ceilings, which requires identification and handling by a licensed abatement contractor before any demolition work begins. The soils in Taylor County include expansive clays that shift with moisture changes, which can stress slab edges and create gaps where water enters. Seasonal freeze-thaw cycles, while less severe than in northern climates, are enough to crack supply lines in poorly insulated exterior wall cavities. Structural repair and reconstruction work in Tye falls under Taylor County's permitting jurisdiction; any scope involving structural framing, electrical, or plumbing typically requires a permit before work begins.
 
-If you're dealing with an active loss — water still moving, smoke still in the air, or mold you found behind a wall — call Air Care Restoration at (325) 339-8723. The line is answered 24 hours a day, and the crew is closer than you might expect.
+If you're dealing with an active loss, water still moving, smoke still in the air, or mold you found behind a wall, call Air Care Restoration at (325) 339-8723. The line is answered 24 hours a day, and the crew is closer than you might expect.

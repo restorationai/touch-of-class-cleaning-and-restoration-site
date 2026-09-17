@@ -20,27 +20,27 @@ state: "SD"
 service_display: "Asbestos Abatement"
 rendered: true
 ---
-Harrisburg is one of the fastest-growing communities south of Sioux Falls, and that growth has a complicated relationship with the past. As new subdivisions like Journey and Willow Run push outward, contractors and homeowners renovating older structures closer to Downtown Harrisburg are uncovering something the original builders never labeled: asbestos-containing materials tucked into floor tiles, pipe insulation, joint compound, and — most commonly — the textured popcorn ceilings that were standard practice through the late 1980s. Disturbing those materials without a proper abatement plan doesn't just create a health risk; it can halt a renovation, trigger liability, and complicate a property sale.
+Harrisburg is one of the fastest-growing communities south of Sioux Falls, and that growth has a complicated relationship with the past. As new subdivisions like Journey and Willow Run push outward, contractors and homeowners renovating older structures closer to Downtown Harrisburg are uncovering something the original builders never labeled: asbestos-containing materials tucked into floor tiles, pipe insulation, joint compound, and, most commonly, the textured popcorn ceilings that were standard practice through the late 1980s. Disturbing those materials without a proper abatement plan doesn't just create a health risk; it can halt a renovation, trigger liability, and complicate a property sale.
 
 ## Why Harrisburg Properties Encounter Asbestos
 
-Harrisburg's building stock tells two different stories depending on the decade. Homes and commercial buildings constructed before 1980 — including older structures near Downtown Harrisburg and along the corridors feeding into the Harrisburg High School district — were commonly built with asbestos in roofing shingles, vinyl floor tiles, duct insulation, and ceiling texture. Asbestos was cheap, fire-resistant, and widely available, which made it a default material for contractors across the northern plains.
+Harrisburg's building stock tells two different stories depending on the decade. Homes and commercial buildings constructed before 1980, including older structures near Downtown Harrisburg and along the corridors feeding into the Harrisburg High School district, were commonly built with asbestos in roofing shingles, vinyl floor tiles, duct insulation, and ceiling texture. Asbestos was cheap, fire-resistant, and widely available, which made it a default material for contractors across the northern plains.
 
-The climate here adds another layer of risk. South Dakota's freeze-thaw cycles put mechanical stress on older pipe insulation and duct wrap year after year. When that insulation cracks or crumbles — a state called friability — asbestos fibers become airborne far more easily than intact material. Homeowners who notice deteriorating insulation in a basement or crawl space near the Willow Creek corridor are often dealing with exactly this scenario, and the instinct to pull it out by hand is understandable but dangerous.
+The climate here adds another layer of risk. South Dakota's freeze-thaw cycles put mechanical stress on older pipe insulation and duct wrap year after year. When that insulation cracks or crumbles, a state called friability, asbestos fibers become airborne far more easily than intact material. Homeowners who notice deteriorating insulation in a basement or crawl space near the Willow Creek corridor are often dealing with exactly this scenario, and the instinct to pull it out by hand is understandable but dangerous.
 
 Even newer construction isn't entirely immune. Some materials manufactured through the mid-1990s still contained trace asbestos, and imported flooring products have occasionally tested positive in more recent decades. If your home in the 57032 ZIP code was built before 1990 and you're planning any renovation that involves cutting, sanding, or demolishing existing materials, testing before you start is the responsible first step.
 
 ## Our Asbestos Abatement Process in Harrisburg
 
-Abatement isn't simply removal — it's a sequenced process designed to keep fibers contained from the moment work begins until final air clearance is confirmed. Here's how that plays out on a Harrisburg property:
+Abatement isn't simply removal, it's a sequenced process designed to keep fibers contained from the moment work begins until final air clearance is confirmed. Here's how that plays out on a Harrisburg property:
 
-**Inspection and sampling first.** Before any work begins, suspected materials are sampled and sent to an accredited laboratory. We don't guess, and we don't treat everything as positive — unnecessary abatement wastes money and time.
+**Inspection and sampling first.** Before any work begins, suspected materials are sampled and sent to an accredited laboratory. We don't guess, and we don't treat everything as positive, unnecessary abatement wastes money and time.
 
 **Containment setup.** Once a positive result is confirmed, the work area is isolated with polyethylene sheeting and negative air pressure units that exhaust through HEPA filtration. This keeps fibers out of adjacent living spaces while the work is underway.
 
 **Wet removal.** Asbestos-containing materials are wetted with amended water before removal to suppress fiber release. This is especially important with popcorn ceiling texture, which is porous and can release fibers readily when dry-scraped.
 
-**Proper disposal.** Waste is double-bagged in labeled, approved containers and transported to a licensed disposal facility — not a general construction dumpster. South Dakota has specific disposal requirements for asbestos-containing waste, and we follow them on every job.
+**Proper disposal.** Waste is double-bagged in labeled, approved containers and transported to a licensed disposal facility, not a general construction dumpster. South Dakota has specific disposal requirements for asbestos-containing waste, and we follow them on every job.
 
 **Post-abatement clearance.** Air samples are collected after cleanup and before containment is removed. The project isn't complete until those results confirm the space is safe to re-occupy.
 
@@ -52,6 +52,6 @@ For project inquiries, call us at (605) 965-2727 to discuss scheduling and get a
 
 ## Local Note
 
-One pattern we've noticed working in Harrisburg's older residential pockets: homes built in the 1960s and 1970s near the original townsite often have multiple asbestos-containing materials layered on top of each other — vinyl floor tiles installed over an earlier tile layer, or joint compound applied over original plaster. When a renovation exposes only the top layer, it's easy to assume the work is done. But the layer underneath may also be positive, and disturbing it during subsequent demo without re-testing creates an uncontrolled release. We always recommend a thorough inspection of the full material stack before any demo begins, not just the surface layer that's visible.
+One pattern we've noticed working in Harrisburg's older residential pockets: homes built in the 1960s and 1970s near the original townsite often have multiple asbestos-containing materials layered on top of each other, vinyl floor tiles installed over an earlier tile layer, or joint compound applied over original plaster. When a renovation exposes only the top layer, it's easy to assume the work is done. But the layer underneath may also be positive, and disturbing it during subsequent demo without re-testing creates an uncontrolled release. We always recommend a thorough inspection of the full material stack before any demo begins, not just the surface layer that's visible.
 
 If you're planning a kitchen gut, bathroom remodel, or full renovation of a pre-1985 home anywhere in the Harrisburg area, a proper asbestos inspection before demolition is the step that protects your contractor, your family, and your project timeline. Call Crew Restoration & Construction at (605) 965-2727 to schedule an inspection or discuss what asbestos abatement in Harrisburg looks like for your specific situation.

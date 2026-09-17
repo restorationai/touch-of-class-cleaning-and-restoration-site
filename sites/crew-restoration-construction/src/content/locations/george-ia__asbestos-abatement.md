@@ -20,11 +20,11 @@ state: "IA"
 service_display: "Asbestos Abatement"
 rendered: true
 ---
-George, Iowa sits just inside the Lyon County line in the state's northwest corner, where generations of farm families built homes and commercial buildings during an era when asbestos was standard in everything from floor tile adhesive to pipe insulation to the textured ceilings above kitchen tables. That building legacy means asbestos abatement in the 51237 ZIP code is less a rare event than a routine reality — especially as older properties in and around Downtown George change hands, get renovated, or finally get the updates they've needed for decades. Crew Restoration & Construction handles the testing, removal, and clearance work so you're not guessing at what's inside your walls.
+George, Iowa sits just inside the Lyon County line in the state's northwest corner, where generations of farm families built homes and commercial buildings during an era when asbestos was standard in everything from floor tile adhesive to pipe insulation to the textured ceilings above kitchen tables. That building legacy means asbestos abatement in the 51237 ZIP code is less a rare event than a routine reality, especially as older properties in and around Downtown George change hands, get renovated, or finally get the updates they've needed for decades. Crew Restoration & Construction handles the testing, removal, and clearance work so you're not guessing at what's inside your walls.
 
 ## Why George Properties Face Asbestos Exposure Risks
 
-Northwest Iowa's housing stock skews older. Many homes and small commercial buildings in George were constructed between the 1940s and early 1980s — the window when asbestos-containing materials were used most heavily and with the least oversight. Common sources include:
+Northwest Iowa's housing stock skews older. Many homes and small commercial buildings in George were constructed between the 1940s and early 1980s, the window when asbestos-containing materials were used most heavily and with the least oversight. Common sources include:
 
 - **Popcorn (acoustic) ceilings** applied before 1978, which can contain up to 10% chrysotile asbestos by weight
 - **Vinyl floor tiles and the black mastic adhesive beneath them**, especially 9×9-inch tiles common in mid-century Iowa farmhouses and bungalows
@@ -36,27 +36,27 @@ The dry, windy climate of northwest Iowa adds a layer of concern that's easy to 
 
 ## Our Asbestos Abatement Process in George
 
-Every project starts with a proper inspection — not a visual guess. A certified inspector collects bulk samples from suspect materials and sends them to an accredited laboratory. Results typically come back within a few business days, and they determine everything that follows.
+Every project starts with a proper inspection, not a visual guess. A certified inspector collects bulk samples from suspect materials and sends them to an accredited laboratory. Results typically come back within a few business days, and they determine everything that follows.
 
 If asbestos-containing material is confirmed, the abatement scope is scoped to Iowa Department of Natural Resources (DNR) notification requirements and EPA NESHAP regulations, both of which apply to demolition and renovation projects of a certain scale. For residential projects in George, the practical steps look like this:
 
-1. **Containment setup** — poly sheeting, negative air pressure units with HEPA filtration, and regulated access points to isolate the work area
-2. **Wet removal** — materials are wetted before and during removal to suppress fiber release; no dry scraping or grinding
-3. **Waste packaging and manifesting** — asbestos waste is double-bagged in labeled 6-mil poly bags, placed in sealed containers, and transported to a licensed disposal facility — Iowa requires a waste manifest tracking the material from your property to final disposal
-4. **Post-abatement air clearance** — air samples are collected by an independent party and analyzed before containment is removed and the space is released for reoccupancy or continued renovation
+1. **Containment setup**, poly sheeting, negative air pressure units with HEPA filtration, and regulated access points to isolate the work area
+2. **Wet removal**, materials are wetted before and during removal to suppress fiber release; no dry scraping or grinding
+3. **Waste packaging and manifesting**, asbestos waste is double-bagged in labeled 6-mil poly bags, placed in sealed containers, and transported to a licensed disposal facility, Iowa requires a waste manifest tracking the material from your property to final disposal
+4. **Post-abatement air clearance**, air samples are collected by an independent party and analyzed before containment is removed and the space is released for reoccupancy or continued renovation
 
 This sequence doesn't get shortened for small jobs. A single popcorn ceiling in a North George rental unit gets the same containment protocol as a full basement pipe-wrap removal.
 
 ## Reaching George from Sioux Falls
 
-Crew Restoration & Construction is based in Sioux Falls, SD, and serves communities across the region including George. The drive from Sioux Falls runs south and west through Lyon County — generally under two hours depending on conditions. We schedule asbestos inspections and abatement projects in George with advance coordination, so call (605) 965-2727 to discuss timing and get a project window on the calendar before you start any demo work.
+Crew Restoration & Construction is based in Sioux Falls, SD, and serves communities across the region including George. The drive from Sioux Falls runs south and west through Lyon County, generally under two hours depending on conditions. We schedule asbestos inspections and abatement projects in George with advance coordination, so call (605) 965-2727 to discuss timing and get a project window on the calendar before you start any demo work.
 
 ## George Insurance & Project Coordination
 
-Asbestos abatement is sometimes covered under homeowner's insurance when the presence of asbestos is tied to a covered loss — a roof claim that exposes asbestos-containing shingles, for example, or a pipe burst that requires disturbing insulated lines. In those cases, documentation matters: lab reports, scope of work, waste manifests, and clearance results all become part of the claim file. We provide that paperwork in a format most carriers recognize. For projects that are purely elective — a kitchen remodel or a popcorn ceiling removal before listing a home — costs are typically out of pocket, and we can walk you through what the scope and timeline look like before any work begins.
+Asbestos abatement is sometimes covered under homeowner's insurance when the presence of asbestos is tied to a covered loss, a roof claim that exposes asbestos-containing shingles, for example, or a pipe burst that requires disturbing insulated lines. In those cases, documentation matters: lab reports, scope of work, waste manifests, and clearance results all become part of the claim file. We provide that paperwork in a format most carriers recognize. For projects that are purely elective, a kitchen remodel or a popcorn ceiling removal before listing a home, costs are typically out of pocket, and we can walk you through what the scope and timeline look like before any work begins.
 
 ## Local Note
 
-One thing that comes up specifically in Lyon County's older farm-town housing stock: many homes in George have had multiple layers of flooring installed over the original subfloor — linoleum over tile over tile, sometimes going back to the 1950s. Each layer is a potential asbestos source, and the lower layers are often the ones with the highest fiber content. When a homeowner pulls up a top layer of vinyl plank and sees a dark adhesive residue underneath, that's the moment to stop and test before going further. We've seen this pattern enough times in small northwest Iowa towns that we flag it during every pre-renovation consultation in the area.
+One thing that comes up specifically in Lyon County's older farm-town housing stock: many homes in George have had multiple layers of flooring installed over the original subfloor, linoleum over tile over tile, sometimes going back to the 1950s. Each layer is a potential asbestos source, and the lower layers are often the ones with the highest fiber content. When a homeowner pulls up a top layer of vinyl plank and sees a dark adhesive residue underneath, that's the moment to stop and test before going further. We've seen this pattern enough times in small northwest Iowa towns that we flag it during every pre-renovation consultation in the area.
 
-If you're planning a renovation, a sale, or just finally dealing with that textured ceiling in your Downtown George home, the right first step is a proper inspection — not a guess. Call Crew Restoration & Construction at (605) 965-2727 to schedule asbestos testing or discuss a full abatement scope for your George property.
+If you're planning a renovation, a sale, or just finally dealing with that textured ceiling in your Downtown George home, the right first step is a proper inspection, not a guess. Call Crew Restoration & Construction at (605) 965-2727 to schedule asbestos testing or discuss a full abatement scope for your George property.

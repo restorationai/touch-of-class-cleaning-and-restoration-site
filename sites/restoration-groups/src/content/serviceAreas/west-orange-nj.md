@@ -19,27 +19,27 @@ state: "NJ"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a finished wall in Llewellyn Park or a sump pump fails during a nor'easter in Pleasantdale, West Orange property owners need someone who understands the specific way water moves through this hillside town — not a call center reading from a script. The Restoration Group handles water damage mitigation, fire and smoke cleanup, mold remediation, and full reconstruction for residential and commercial properties across West Orange's 07052 ZIP code, around the clock.
+When a pipe bursts behind a finished wall in Llewellyn Park or a sump pump fails during a nor'easter in Pleasantdale, West Orange property owners need someone who understands the specific way water moves through this hillside town, not a call center reading from a script. The Restoration Group handles water damage mitigation, fire and smoke cleanup, mold remediation, and full reconstruction for residential and commercial properties across West Orange's 07052 ZIP code, around the clock.
 
 ## Restoration emergencies common in West Orange
 
-West Orange climbs the Watchung ridge, and that elevation change drives a particular pattern of property damage. Stormwater runs downslope fast, overwhelming sump pumps in the finished basements that are nearly universal in the postwar splits and ranches of Pleasantdale and the Gregory neighborhood. The headwaters of the Rahway River and the streams draining South Mountain Reservation swell quickly after heavy rain — a dynamic that became impossible to ignore when Ida hit in 2021, sending flash flooding and raw sewer backups into low-lying pockets across town.
+West Orange climbs the Watchung ridge, and that elevation change drives a particular pattern of property damage. Stormwater runs downslope fast, overwhelming sump pumps in the finished basements that are nearly universal in the postwar splits and ranches of Pleasantdale and the Gregory neighborhood. The headwaters of the Rahway River and the streams draining South Mountain Reservation swell quickly after heavy rain, a dynamic that became impossible to ignore when Ida hit in 2021, sending flash flooding and raw sewer backups into low-lying pockets across town.
 
-The housing stock adds its own complications. The grand Victorians and Tudors in Llewellyn Park and the St. Cloud neighborhood were built with materials — horsehair plaster, old-growth framing, knob-and-wiring behind walls — that require careful handling during any demo or drying work. Older clay sewer laterals in these neighborhoods are more prone to root intrusion and backup than modern PVC lines. Meanwhile, the commercial corridors along Northfield Avenue and Prospect Avenue, plus the Essex Green Shopping Center, see a different failure mode: roof-membrane leaks, sprinkler activations, and overnight pipe breaks that can saturate thousands of square feet of retail or office space before anyone arrives in the morning.
+The housing stock adds its own complications. The grand Victorians and Tudors in Llewellyn Park and the St. Cloud neighborhood were built with materials, horsehair plaster, old-growth framing, knob-and-wiring behind walls, that require careful handling during any demo or drying work. Older clay sewer laterals in these neighborhoods are more prone to root intrusion and backup than modern PVC lines. Meanwhile, the commercial corridors along Northfield Avenue and Prospect Avenue, plus the Essex Green Shopping Center, see a different failure mode: roof-membrane leaks, sprinkler activations, and overnight pipe breaks that can saturate thousands of square feet of retail or office space before anyone arrives in the morning.
 
 ## Services we provide in West Orange
 
 ### Water damage mitigation
 
-Water damage in West Orange often starts in the basement and moves up. A failed sump pump during a storm, a cracked foundation wall, or a backed-up floor drain can saturate concrete slab, framing, and drywall before the water is even visible upstairs. We extract standing water, deploy industrial drying equipment, and monitor moisture levels daily until structural readings confirm the building is dry — following the IICRC S500 standard for water damage restoration.
+Water damage in West Orange often starts in the basement and moves up. A failed sump pump during a storm, a cracked foundation wall, or a backed-up floor drain can saturate concrete slab, framing, and drywall before the water is even visible upstairs. We extract standing water, deploy industrial drying equipment, and monitor moisture levels daily until structural readings confirm the building is dry, following the IICRC S500 standard for water damage restoration.
 
 ### Fire and smoke damage restoration
 
-Smoke from a kitchen fire in a 1920s Tudor travels differently than in new construction — it moves through plaster cracks, uninsulated wall cavities, and old ductwork, leaving odor in rooms that never saw flames. We assess the full migration path, not just the room of origin, and use thermal fogging and hydroxyl treatment alongside physical cleaning to address smoke residue throughout the structure.
+Smoke from a kitchen fire in a 1920s Tudor travels differently than in new construction, it moves through plaster cracks, uninsulated wall cavities, and old ductwork, leaving odor in rooms that never saw flames. We assess the full migration path, not just the room of origin, and use thermal fogging and hydroxyl treatment alongside physical cleaning to address smoke residue throughout the structure.
 
 ### Mold remediation
 
-West Orange's wet-basement problem means mold often establishes itself long before it's visible. Finished basement walls can hide active colonies on the paper facing of drywall for months after a flooding event. We identify affected materials, contain the work area, remove compromised building components, and treat the underlying surface — work performed by our certified team in compliance with New Jersey Department of Health guidelines.
+West Orange's wet-basement problem means mold often establishes itself long before it's visible. Finished basement walls can hide active colonies on the paper facing of drywall for months after a flooding event. We identify affected materials, contain the work area, remove compromised building components, and treat the underlying surface, work performed by our certified team in compliance with New Jersey Department of Health guidelines.
 
 ### Commercial restoration
 
@@ -51,7 +51,7 @@ Once the damage is dry and remediated, the rebuild begins. We handle carpentry, 
 
 ## Coverage and how fast we can get there
 
-The Restoration Group is headquartered in Kenilworth, roughly 10 miles from West Orange via Route 22 West to I-78 West to Route 10 — a straightforward run that keeps us close to every part of town, from the Redwood neighborhood near the Eagle Rock Reservation to the commercial strip along Prospect Avenue. We operate 24 hours a day, 7 days a week, so a call at 2 a.m. after a basement flood reaches a live dispatcher, not a voicemail.
+The Restoration Group is headquartered in Kenilworth, roughly 10 miles from West Orange via Route 22 West to I-78 West to Route 10, a straightforward run that keeps us close to every part of town, from the Redwood neighborhood near the Eagle Rock Reservation to the commercial strip along Prospect Avenue. We operate 24 hours a day, 7 days a week, so a call at 2 a.m. after a basement flood reaches a live dispatcher, not a voicemail.
 
 ## Building stock, site conditions, and permits in West Orange
 
@@ -61,4 +61,4 @@ In the older houses, expect galvanized supply lines that scale shut, cast iron d
 
 Structural repair and rebuild work is permitted through West Orange's construction office under the New Jersey Uniform Construction Code, with separate building, plumbing, electrical and fire subcodes.
 
-If you're dealing with water, fire, mold, or storm damage anywhere in West Orange — from a finished basement in Pleasantdale to a commercial space near Turtle Back Zoo — call The Restoration Group at **(855) 650-7422**. We're available around the clock and ready to get to work.
+If you're dealing with water, fire, mold, or storm damage anywhere in West Orange, from a finished basement in Pleasantdale to a commercial space near Turtle Back Zoo, call The Restoration Group at **(855) 650-7422**. We're available around the clock and ready to get to work.

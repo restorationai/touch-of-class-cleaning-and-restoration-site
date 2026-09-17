@@ -17,41 +17,41 @@ service_slug: "water-damage-restoration"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
-You notice it first as a soft give underfoot — the subfloor has absorbed water you didn't know was there. Or maybe it's the low hum of water trickling behind drywall after a supply line let go at 2 a.m. Water damage rarely announces itself cleanly. By the time it's visible, moisture has often been migrating through wall cavities, insulation, and framing for hours. The window to stop secondary damage — swelling, delamination, and mold colonization, which can begin within 24 to 48 hours of saturation — is narrow.
+You notice it first as a soft give underfoot, the subfloor has absorbed water you didn't know was there. Or maybe it's the low hum of water trickling behind drywall after a supply line let go at 2 a.m. Water damage rarely announces itself cleanly. By the time it's visible, moisture has often been migrating through wall cavities, insulation, and framing for hours. The window to stop secondary damage, swelling, delamination, and mold colonization, which can begin within 24 to 48 hours of saturation, is narrow.
 
 ## What Water Damage Restoration actually involves
 
-Water damage restoration is not mopping up and running a fan. It is a sequenced technical process that starts with identifying every wet material in the structure — not just the ones you can see — and ends only when moisture readings return to pre-loss baselines documented against a dry standard.
+Water damage restoration is not mopping up and running a fan. It is a sequenced technical process that starts with identifying every wet material in the structure, not just the ones you can see, and ends only when moisture readings return to pre-loss baselines documented against a dry standard.
 
-The equipment matters. Industrial-grade truck-mounted or portable extractors pull standing water at volumes a shop vac cannot approach. Low-grain refrigerant (LGR) dehumidifiers drop the dew point in a room so that moisture releases from materials into the air, where it can be captured. Axial and centrifugal air movers create the directional airflow that accelerates evaporation from wall cavities, under cabinets, and beneath floating floors. Thermal imaging cameras and calibrated moisture meters map the true boundary of the wet zone — often two to three feet wider than the visible damage.
+The equipment matters. Industrial-grade truck-mounted or portable extractors pull standing water at volumes a shop vac cannot approach. Low-grain refrigerant (LGR) dehumidifiers drop the dew point in a room so that moisture releases from materials into the air, where it can be captured. Axial and centrifugal air movers create the directional airflow that accelerates evaporation from wall cavities, under cabinets, and beneath floating floors. Thermal imaging cameras and calibrated moisture meters map the true boundary of the wet zone, often two to three feet wider than the visible damage.
 
-Timeline varies by category and class of water loss. A small, clean-water (Category 1) event in a single room with no wet insulation may dry in three to four days. A Category 2 loss — water from a dishwasher overflow, a washing machine drain backup, or a toilet supply line — carries contaminants that change the handling protocol and often extend the drying window. Category 3 water (sewage, floodwater, or any water that has sat long enough to degrade) requires controlled removal of affected porous materials before drying can begin.
+Timeline varies by category and class of water loss. A small, clean-water (Category 1) event in a single room with no wet insulation may dry in three to four days. A Category 2 loss, water from a dishwasher overflow, a washing machine drain backup, or a toilet supply line, carries contaminants that change the handling protocol and often extend the drying window. Category 3 water (sewage, floodwater, or any water that has sat long enough to degrade) requires controlled removal of affected porous materials before drying can begin.
 
 ## Our process
 
 1. **Emergency water removal.** The first priority is stopping active water intrusion and extracting standing water. Truck-mounted extraction removes the bulk; follow-up extraction pulls water from carpet padding, hardwood, and subfloor assemblies before they reach saturation point.
 
-2. **Moisture mapping and category assessment.** Using thermal imaging and penetrating moisture meters, we establish the true wet boundary and classify the water source. Category and class determine which materials can be dried in place and which must be removed — a determination that affects both the drying plan and the insurance scope.
+2. **Moisture mapping and category assessment.** Using thermal imaging and penetrating moisture meters, we establish the true wet boundary and classify the water source. Category and class determine which materials can be dried in place and which must be removed, a determination that affects both the drying plan and the insurance scope.
 
-3. **Structural drying with monitored equipment placement.** Dehumidifiers and air movers are positioned to create a specific airflow pattern — not just placed in the room. Equipment is sized to the cubic footage, material types, and ambient conditions. Daily moisture readings are logged on a drying report, which becomes part of the insurance documentation.
+3. **Structural drying with monitored equipment placement.** Dehumidifiers and air movers are positioned to create a specific airflow pattern, not just placed in the room. Equipment is sized to the cubic footage, material types, and ambient conditions. Daily moisture readings are logged on a drying report, which becomes part of the insurance documentation.
 
 4. **Containment and antimicrobial treatment for Category 2/3 losses.** Where contaminated water is involved, affected areas are contained to prevent cross-contamination. Porous materials that cannot be dried to a safe standard are removed and disposed of properly. Antimicrobial treatment is applied to structural surfaces before enclosure.
 
-5. **Final moisture verification and scope documentation.** Drying is not complete until readings across all affected materials reach the dry standard for that material type and climate. A final moisture report documents the outcome — required by most carriers before reconstruction begins.
+5. **Final moisture verification and scope documentation.** Drying is not complete until readings across all affected materials reach the dry standard for that material type and climate. A final moisture report documents the outcome, required by most carriers before reconstruction begins.
 
 ## What separates a good water damage response from a bad one
 
-The most common failure point is incomplete moisture mapping. A crew that pulls wet carpet, runs a dehumidifier for two days, and calls it dry may leave saturated wall framing, insulation, and subfloor behind. That hidden moisture becomes a mold problem in three to six weeks — and by then, the original water event may be outside the claim window.
+The most common failure point is incomplete moisture mapping. A crew that pulls wet carpet, runs a dehumidifier for two days, and calls it dry may leave saturated wall framing, insulation, and subfloor behind. That hidden moisture becomes a mold problem in three to six weeks, and by then, the original water event may be outside the claim window.
 
-A second common mistake is under-sizing equipment. One residential dehumidifier in a 1,200-square-foot basement does not move enough air to dry the space in a reasonable window. Restoration drying uses equipment rated in pints-per-day at specific grain depression levels — not the same machines sold at hardware stores.
+A second common mistake is under-sizing equipment. One residential dehumidifier in a 1,200-square-foot basement does not move enough air to dry the space in a reasonable window. Restoration drying uses equipment rated in pints-per-day at specific grain depression levels, not the same machines sold at hardware stores.
 
 Insurance adjusters look for a drying log with daily psychrometric readings (temperature, relative humidity, specific humidity, and moisture content by material). Without that documentation, a carrier may dispute whether drying was necessary, how long it took, or whether the scope of removed materials was justified. A documented drying report protects the homeowner as much as it protects the contractor.
 
-Finally, Category 2 and 3 losses require material removal decisions made at the time of loss — not after the drying window has passed. Drywall that has absorbed gray or black water cannot be dried to a safe standard; attempting to do so traps contamination inside the wall assembly.
+Finally, Category 2 and 3 losses require material removal decisions made at the time of loss, not after the drying window has passed. Drywall that has absorbed gray or black water cannot be dried to a safe standard; attempting to do so traps contamination inside the wall assembly.
 
 ## What does Water Damage Restoration cost?
 
-Typical costs vary significantly based on the size of the affected area, the category of water involved, and how much structural material requires removal. Most homeowners pay somewhere in the ranges below — these are industry-typical figures, not quotes from Go Green Restoration of NC. Every loss is different, and Go Green Restoration of NC provides a written scope of work before any work begins. Homeowners insurance typically covers sudden and accidental water losses (burst pipes, appliance failures, storm-driven water entry) but generally excludes gradual leaks or maintenance-related failures — your policy language controls.
+Typical costs vary significantly based on the size of the affected area, the category of water involved, and how much structural material requires removal. Most homeowners pay somewhere in the ranges below, these are industry-typical figures, not quotes from Go Green Restoration of NC. Every loss is different, and Go Green Restoration of NC provides a written scope of work before any work begins. Homeowners insurance typically covers sudden and accidental water losses (burst pipes, appliance failures, storm-driven water entry) but generally excludes gradual leaks or maintenance-related failures, your policy language controls.
 
 | Scenario | Typical industry range |
 |---|---|
@@ -64,14 +64,14 @@ Typical costs vary significantly based on the size of the affected area, the cat
 
 ## Seasonal and regional considerations
 
-Middlesex and the surrounding Johnston, Nash, and Wake County areas see a climate that creates specific water damage patterns worth knowing. Late summer and fall tropical systems — remnants of Gulf and Atlantic storms — can push significant rainfall through compromised roof penetrations, foundation walls, and crawl space vents in a matter of hours. The region's clay-heavy soils shed water quickly, which means crawl spaces and slab-on-grade homes can see rapid hydrostatic pressure buildup during heavy rain events.
+Middlesex and the surrounding Johnston, Nash, and Wake County areas see a climate that creates specific water damage patterns worth knowing. Late summer and fall tropical systems, remnants of Gulf and Atlantic storms, can push significant rainfall through compromised roof penetrations, foundation walls, and crawl space vents in a matter of hours. The region's clay-heavy soils shed water quickly, which means crawl spaces and slab-on-grade homes can see rapid hydrostatic pressure buildup during heavy rain events.
 
-Winter freeze-thaw cycles, while less severe than farther north, still produce pipe failures — particularly in uninsulated exterior walls and crawl space plumbing — during the hard freezes that hit the NC Piedmont several times each winter. A pipe that freezes overnight and thaws by morning may have already discharged hundreds of gallons into a wall cavity before anyone notices.
+Winter freeze-thaw cycles, while less severe than farther north, still produce pipe failures, particularly in uninsulated exterior walls and crawl space plumbing, during the hard freezes that hit the NC Piedmont several times each winter. A pipe that freezes overnight and thaws by morning may have already discharged hundreds of gallons into a wall cavity before anyone notices.
 
 Spring humidity in central NC climbs fast. A structure that was wet in February and incompletely dried is a mold candidate by April. The drying window is real, and the regional climate shortens it.
 
 ## Service area
 
-Go Green Restoration of NC is based in Middlesex, NC and serves communities throughout the surrounding region — including Zebulon, Wendell, Knightdale, Wilson, Rocky Mount, and communities across Johnston, Nash, Wilson, and Wake counties. The city-specific pages linked from this site go deeper on local response and neighborhood housing stock for each area.
+Go Green Restoration of NC is based in Middlesex, NC and serves communities throughout the surrounding region, including Zebulon, Wendell, Knightdale, Wilson, Rocky Mount, and communities across Johnston, Nash, Wilson, and Wake counties. The city-specific pages linked from this site go deeper on local response and neighborhood housing stock for each area.
 
-If you are seeing standing water, wet flooring, or visible water staining right now, call (919) 906-5473 to schedule your moisture assessment. The sooner wet materials are mapped and extraction begins, the narrower the scope of damage — and the stronger your insurance documentation from day one.
+If you are seeing standing water, wet flooring, or visible water staining right now, call (919) 906-5473 to schedule your moisture assessment. The sooner wet materials are mapped and extraction begins, the narrower the scope of damage, and the stronger your insurance documentation from day one.

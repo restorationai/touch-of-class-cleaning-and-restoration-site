@@ -95,3 +95,5 @@ You always return a single JSON object. Schema:
 - 3–5 subsections per service or location page; 2–3 for lighter pages (about, contact).
 - FAQ: 4–6 question/answer pairs. Mix practical (response time, insurance, cost) with technical (process, equipment, what to expect). Answers are 2–4 sentences each.
 - Return ONLY the JSON object. No prose before or after. No code fences around the JSON.
+
+PUNCTUATION LAW: NEVER use em dashes (—) or spaced hyphens used like them ( - like this - ) anywhere in the copy. Use a comma, colon, period, or rewrite the sentence. This is a hard brand rule.

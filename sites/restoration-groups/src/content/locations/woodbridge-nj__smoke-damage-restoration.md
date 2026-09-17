@@ -20,29 +20,29 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
-Smoke from a house fire doesn't stop at the burn line. In Woodbridge's stock of postwar capes, split-levels, and colonials — the kind of homes packed into neighborhoods like Colonia and Fords — smoke travels through wall cavities, settles into HVAC ductwork, and soaks into plaster and older drywall long before firefighters pack up. By the time the trucks leave, odor molecules and acidic soot particles are already at work etching metal fixtures, yellowing ceilings, and embedding themselves in upholstery. The clock starts immediately, and so should the cleanup.
+Smoke from a house fire doesn't stop at the burn line. In Woodbridge's stock of postwar capes, split-levels, and colonials, the kind of homes packed into neighborhoods like Colonia and Fords, smoke travels through wall cavities, settles into HVAC ductwork, and soaks into plaster and older drywall long before firefighters pack up. By the time the trucks leave, odor molecules and acidic soot particles are already at work etching metal fixtures, yellowing ceilings, and embedding themselves in upholstery. The clock starts immediately, and so should the cleanup.
 
 ## Why Woodbridge Properties Are Especially Vulnerable to Smoke Damage
 
-Woodbridge Township's housing stock tells a lot of the story. Homes built between the late 1940s and early 1970s — the dominant era across much of the 07095 and 07064 ZIP codes — were often constructed with horsehair plaster, solid-wood millwork, and minimal vapor barriers. Plaster walls absorb smoke particulates differently than modern drywall: the surface may look cleanable, but soot migrates into the substrate and re-volatilizes as odor for months if the underlying material isn't treated or removed.
+Woodbridge Township's housing stock tells a lot of the story. Homes built between the late 1940s and early 1970s, the dominant era across much of the 07095 and 07064 ZIP codes, were often constructed with horsehair plaster, solid-wood millwork, and minimal vapor barriers. Plaster walls absorb smoke particulates differently than modern drywall: the surface may look cleanable, but soot migrates into the substrate and re-volatilizes as odor for months if the underlying material isn't treated or removed.
 
-The Route 1 & 9 corridor adds another dimension. Dense retail strips, restaurants with commercial kitchen exhaust systems, and light industrial tenants along that corridor generate a specific category of loss — overnight kitchen fires, suppression-system discharges, and grease-fueled blazes that produce a heavier, oilier smoke residue than a typical residential fire. That residue behaves differently: it bonds to surfaces more aggressively and requires alkaline cleaning agents and extended thermal fogging rather than a simple wipe-down.
+The Route 1 & 9 corridor adds another dimension. Dense retail strips, restaurants with commercial kitchen exhaust systems, and light industrial tenants along that corridor generate a specific category of loss, overnight kitchen fires, suppression-system discharges, and grease-fueled blazes that produce a heavier, oilier smoke residue than a typical residential fire. That residue behaves differently: it bonds to surfaces more aggressively and requires alkaline cleaning agents and extended thermal fogging rather than a simple wipe-down.
 
-Woodbridge Center and the surrounding commercial blocks also see sprinkler activations that combine smoke and water damage simultaneously — a combination that accelerates mold risk on top of the soot problem if drying and smoke remediation aren't coordinated from the start.
+Woodbridge Center and the surrounding commercial blocks also see sprinkler activations that combine smoke and water damage simultaneously, a combination that accelerates mold risk on top of the soot problem if drying and smoke remediation aren't coordinated from the start.
 
 ## Our Smoke Damage Restoration Process in Woodbridge
 
-Every job begins with a full scope assessment before any cleaning starts. Smoke behaves differently depending on what burned, how long it burned, and how the structure's air pathways channeled it. We document affected materials with photos and moisture readings, then map where smoke has migrated — including inside HVAC returns, in attic insulation, and behind wall cavities that may show no visible staining.
+Every job begins with a full scope assessment before any cleaning starts. Smoke behaves differently depending on what burned, how long it burned, and how the structure's air pathways channeled it. We document affected materials with photos and moisture readings, then map where smoke has migrated, including inside HVAC returns, in attic insulation, and behind wall cavities that may show no visible staining.
 
 From there, the process moves through four phases:
 
-**Dry soot removal** — Dry chemical sponges and HEPA-filtered vacuums lift loose carbon particles from ceilings, walls, and structural surfaces before any wet cleaning is applied. Wet-wiping soot before dry removal smears it deeper into porous materials.
+**Dry soot removal**, Dry chemical sponges and HEPA-filtered vacuums lift loose carbon particles from ceilings, walls, and structural surfaces before any wet cleaning is applied. Wet-wiping soot before dry removal smears it deeper into porous materials.
 
-**Surface decontamination** — Affected hard surfaces are cleaned with pH-appropriate agents matched to the residue type. Protein smoke from kitchen fires, petroleum smoke from electrical or garage fires, and wood-combustion smoke each require different chemistry.
+**Surface decontamination**, Affected hard surfaces are cleaned with pH-appropriate agents matched to the residue type. Protein smoke from kitchen fires, petroleum smoke from electrical or garage fires, and wood-combustion smoke each require different chemistry.
 
-**Odor neutralization** — Thermal fogging and hydroxyl generation penetrate the same pathways smoke traveled. In older Woodbridge homes with plaster walls and original wood floors, this step often takes longer than in newer construction because porous materials off-gas slowly.
+**Odor neutralization**, Thermal fogging and hydroxyl generation penetrate the same pathways smoke traveled. In older Woodbridge homes with plaster walls and original wood floors, this step often takes longer than in newer construction because porous materials off-gas slowly.
 
-**HVAC decontamination** — Ductwork is inspected, cleaned, and if necessary sealed before the system is run again. Skipping this step recontaminates cleaned rooms the first time the heat or AC cycles on.
+**HVAC decontamination**, Ductwork is inspected, cleaned, and if necessary sealed before the system is run again. Skipping this step recontaminates cleaned rooms the first time the heat or AC cycles on.
 
 All drying and dehumidification follows IICRC S500 and S520 standards. As an IICRC Certified Firm (#210213) and NJ Licensed Home Improvement Contractor, the work is documented in a format insurers recognize and accept.
 
@@ -52,12 +52,12 @@ Our Kenilworth headquarters puts Woodbridge well within our primary service radi
 
 ## Woodbridge Insurance Coordination
 
-Smoke damage claims in New Jersey are governed by standard homeowners policy language, but how thoroughly the loss is documented at the start determines how smoothly the claim moves. We photograph every affected surface, log material types, and produce a scope of work that aligns with the line-item format carriers use for review. We work with most major insurers and can communicate directly with your adjuster to clarify scope questions — which matters when a claim involves both smoke and water damage from suppression, a combination adjusters sometimes try to split across separate deductibles.
+Smoke damage claims in New Jersey are governed by standard homeowners policy language, but how thoroughly the loss is documented at the start determines how smoothly the claim moves. We photograph every affected surface, log material types, and produce a scope of work that aligns with the line-item format carriers use for review. We work with most major insurers and can communicate directly with your adjuster to clarify scope questions, which matters when a claim involves both smoke and water damage from suppression, a combination adjusters sometimes try to split across separate deductibles.
 
 ## Local Note
 
-In Woodbridge's older neighborhoods, particularly the split-levels and raised ranches common in the Avenel and Fords sections, return-air chases were often framed directly into wall cavities without sheet-metal lining. When smoke enters those unlined chases, it coats raw wood framing that no duct-cleaning brush can reach. We've learned to check those framed chases with a borescope before closing out any smoke job in homes of that era — because an overlooked cavity is almost always the source of the odor that comes back six weeks after a "completed" cleanup.
+In Woodbridge's older neighborhoods, particularly the split-levels and raised ranches common in the Avenel and Fords sections, return-air chases were often framed directly into wall cavities without sheet-metal lining. When smoke enters those unlined chases, it coats raw wood framing that no duct-cleaning brush can reach. We've learned to check those framed chases with a borescope before closing out any smoke job in homes of that era, because an overlooked cavity is almost always the source of the odor that comes back six weeks after a "completed" cleanup.
 
 If your home in Woodbridge smells like smoke weeks after a fire was extinguished, that's where to look first.
 
-The Restoration Group is available around the clock for smoke damage emergencies throughout Woodbridge Township. Call (855) 650-7422 — the sooner soot and odor are addressed, the less material has to be replaced rather than restored.
+The Restoration Group is available around the clock for smoke damage emergencies throughout Woodbridge Township. Call (855) 650-7422, the sooner soot and odor are addressed, the less material has to be replaced rather than restored.
