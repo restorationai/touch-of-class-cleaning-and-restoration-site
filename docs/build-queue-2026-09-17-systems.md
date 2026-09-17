@@ -192,3 +192,64 @@ it.
 4. **E1+E2 spam loop**
 5. **C1 SLA + C2 unstick** the three stalled clients
 6. **A2 nightly auto-apply**, C3-C6, B2/B4, D2-D3, E3-E4
+
+---
+
+## P. PARITY ENGINE — GBP <-> Website, services + locations, failproof
+(Santino 2026-09-17: "consistent parity between the Google Business Profile
+and the site... services AND locations, both directions, closest areas
+first." The area where our system must be provably connected end to end.)
+
+**What already exists (fragments, not a loop):**
+- A nightly reconciliation already COMPUTES both service gaps per client
+  (marketing_gbp_profiles.reconcile_gbp_without_page /
+  reconcile_site_without_gbp) — data, no action.
+- Client-confirmed services auto-apply to GBP + queue a website page
+  (since 08-03), and A2 (09-17) now auto-applies optimizer service ADDs.
+- The page queue drain (gbp.py create-pages) turns queued services into
+  built site pages.
+- NOTHING exists for location parity, the 20-cap, variant fan-out
+  recurrence, or aliveness checks on any of this.
+
+**P1. Parity ledger.** One derived view per client: services on site /
+on GBP / missing each direction; areas on site / on GBP / missing each
+direction; a single parity % per client. Surfaced on the app's GBP panel
+and as a digest line. You cannot keep what you cannot see.
+
+**P2. Service parity loop (both directions, nightly).**
+GBP service with no site page -> page auto-queued (existing drain builds
+it). Site service page with no GBP service -> service auto-added via the
+A2 batch (plus its variant family). Closes the reconcile data into action.
+
+**P3. Location parity loop (both directions, nightly, 20-cap aware).**
+Google caps service areas at 20 per profile. Rules:
+  - GBP -> site: every GBP service area gets a site city page (no cap
+    this direction).
+  - Site -> GBP: rank the site's cities by distance from the profile's
+    real location; the CLOSEST 20 are maintained as the GBP service
+    areas; a new closer city displaces the farthest.
+  - The SITE may exceed 20 (organic + AI search have no radius cap);
+    pages build closest-first in rings, so when a second profile opens
+    (multi-location game plan), its ring of cities is already built and
+    its own 20 areas are ready.
+
+**P4. A5 becomes a WEEKLY RECURRING generator (never one-shot).**
+The variant bank (emergency/24-7 families, surface-damage families:
+ceiling 1,900/mo, hardwood 1,600, laminate 1,000, carpet 720...) refreshes
+weekly and re-stages fleet-wide, so a client missed once is caught the
+next week and new bank entries apply RETROACTIVELY to every client
+automatically. Individually small volumes aggregate; truthful services
+only; licensed-trade names still gated.
+
+**P5. Aliveness (the "A5 must be active and alive" guarantee).**
+The parity sweep and the A5 generator each write a heartbeat to ops_kv on
+every run; the D1 pipeline watchdog red-flags any heartbeat older than 8
+days. A dead parity engine announces itself — never discovered on a
+client call.
+
+**P6. Retro backfill (first run).** Apply the new surface-damage +
+long-tail families to EVERY current client through the A2 nightly batch,
+staged per client, RX-first pattern.
+
+Build order: P1 -> P3 (locations are the fully-missing half) -> P2 ->
+P4+P5 -> P6.
