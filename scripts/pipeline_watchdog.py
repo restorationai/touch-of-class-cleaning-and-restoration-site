@@ -124,7 +124,9 @@ def check_coverage() -> list[str]:
     # invisibly before 09-17.
     stale = _sb("GET", "/rest/v1/marketing_gbp_suggestions?status=eq.open"
                 "&item_type=in.(service,description)"
-                f"&created_at=lt.{(NOW - timedelta(days=7)).isoformat()}"
+                # '+00:00' in an ISO stamp URL-decodes to a space and 400s (same
+                # gotcha call_alerts hit) — always the Z form in query strings.
+                f"&created_at=lt.{(NOW - timedelta(days=7)).isoformat().replace('+00:00', 'Z')}"
                 "&select=company_id") or []
     from collections import Counter
     stale_by = Counter(r["company_id"] for r in stale)
