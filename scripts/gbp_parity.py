@@ -185,7 +185,10 @@ def location_plan(slug: str, cid: str) -> dict | None:
             pinned.append({"city": f"{m.group(1)} County", "state": m.group(2),
                            "mi": 0.0, "sources": {"gbp", "home-county"}})
             cands.pop(_city_key(area), None)
-    ranked = sorted(cands.values(), key=lambda c: c["mi"])
+    # (mi, name) key: fully deterministic ordering — equal-distance ties can
+    # never reorder between nights, so the 20-list only changes when the
+    # underlying data changes. No churn to Google from re-runs.
+    ranked = sorted(cands.values(), key=lambda c: (c["mi"], c["city"]))
     target = (pinned + ranked)[:MAX_AREAS]
     target_set = {_city_key(f"{c['city']}")
                   for c in target}
