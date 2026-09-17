@@ -1,6 +1,6 @@
 {
   "slug": "quality-contracting-inc",
-  "generated_at": "2026-09-14T20:26:23Z",
+  "generated_at": "2026-09-17T20:34:03Z",
   "truth": {
     "hours": "",
     "is_247": false,
@@ -274,7 +274,7 @@
       "family": "certification",
       "severity": "review",
       "matched": "IICRC",
-      "context": "ndustry exist for specific reasons. The IICRC standards \u2014 set by the Institute of Ins",
+      "context": "ndustry exist for specific reasons. The IICRC standards, set by the Institute of Insp",
       "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
     },
     {

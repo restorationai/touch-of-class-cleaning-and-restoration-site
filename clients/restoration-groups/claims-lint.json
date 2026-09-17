@@ -1,6 +1,6 @@
 {
   "slug": "restoration-groups",
-  "generated_at": "2026-09-14T20:26:24Z",
+  "generated_at": "2026-09-17T20:34:04Z",
   "truth": {
     "hours": "24/7",
     "is_247": true,
@@ -141,7 +141,7 @@
       "family": "certification",
       "severity": "review",
       "matched": "lead-safe",
-      "context": "umulated paint layers \u2014 some pre-dating lead-safe regulations \u2014 which means any surface d",
+      "context": "cumulated paint layers, some pre-dating lead-safe regulations, which means any surface di",
       "reason": "certification mention looks like a regulatory reference \u2014 verify it is not a self-claim"
     },
     {

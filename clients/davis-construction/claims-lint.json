@@ -1,6 +1,6 @@
 {
   "slug": "davis-construction",
-  "generated_at": "2026-09-14T20:26:20Z",
+  "generated_at": "2026-09-17T20:34:01Z",
   "truth": {
     "hours": "Monday\u2013Friday, 8:00 AM \u2013 5:00 PM",
     "is_247": false,
@@ -94,7 +94,7 @@
       "family": "service-scope",
       "severity": "review",
       "matched": "Fire and smoke damage",
-      "context": "t's not a protocol \u2014 that's a guess. **Fire and smoke damage** is more complex than it looks. Smoke",
+      "context": "at's not a protocol, that's a guess. **Fire and smoke damage** is more complex than it looks. Smoke",
       "reason": "names the 'fire' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
     },
     {
@@ -283,7 +283,7 @@
       "family": "certification",
       "severity": "review",
       "matched": "lead-safe",
-      "context": "ing, masonry sealing, and in some cases lead-safe work practices \u2014 is the only way to get",
+      "context": "ing, masonry sealing, and in some cases lead-safe work practices, is the only way to get",
       "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
     },
     {
@@ -301,7 +301,7 @@
       "family": "service-scope",
       "severity": "review",
       "matched": "smoke damage restoration",
-      "context": "y, and document everything. **Fire and smoke damage restoration** \u2014 Flames do obvious damage, but the a",
+      "context": "y, and document everything. **Fire and smoke damage restoration**, Flames do obvious damage, but the ac",
       "reason": "names the 'fire' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
     },
     {
@@ -319,7 +319,7 @@
       "family": "service-scope",
       "severity": "review",
       "matched": "fire and smoke damage",
-      "context": "ng, and moisture mapping \u2014 as well as **fire and smoke damage restoration**, where the work goes well",
+      "context": "ing, and moisture mapping, as well as **fire and smoke damage restoration**, where the work goes well",
       "reason": "names the 'fire' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
     },
     {
@@ -328,7 +328,7 @@
       "family": "service-scope",
       "severity": "review",
       "matched": "smoke damage restoration",
-      "context": "oisture mapping \u2014 as well as **fire and smoke damage restoration**, where the work goes well beyond what",
+      "context": "moisture mapping, as well as **fire and smoke damage restoration**, where the work goes well beyond what",
       "reason": "names the 'fire' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
     },
     {
@@ -346,7 +346,7 @@
       "family": "service-scope",
       "severity": "review",
       "matched": "structural reconstruction",
-      "context": "property damage \u2014 emergency mitigation, structural reconstruction, and everything in between. We work wit",
+      "context": "property damage, emergency mitigation, structural reconstruction, and everything in between. We work wit",
       "reason": "names the 'reconstruction' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
     },
     {

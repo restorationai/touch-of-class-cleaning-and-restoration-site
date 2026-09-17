@@ -1,6 +1,6 @@
 {
   "slug": "homepriderestorationandcleaning",
-  "generated_at": "2026-09-14T20:26:22Z",
+  "generated_at": "2026-09-17T20:34:02Z",
   "truth": {
     "hours": "24/7",
     "is_247": true,
@@ -26,7 +26,7 @@
       "family": "service-scope",
       "severity": "review",
       "matched": "biohazard cleanup",
-      "context": "damage, mold remediation, storm damage, biohazard cleanup, and full reconstruction \u2014 and has been",
+      "context": "damage, mold remediation, storm damage, biohazard cleanup, and full reconstruction, and has been",
       "reason": "names the 'biohazard' service family but plan-input services are only: water-damage-restoration, burst-pipe-repair, frozen-pipe-restoration, appliance-leak-cleanup, basement-flooding-cleanup, roof-leak-repair"
     },
     {
@@ -71,7 +71,7 @@
       "family": "service-scope",
       "severity": "review",
       "matched": "biohazard cleanup",
-      "context": "and smoke damage, mold remediation, and biohazard cleanup \u2014 for Park City property owners since 1",
+      "context": "and smoke damage, mold remediation, and biohazard cleanup, for Park City property owners since 19",
       "reason": "names the 'biohazard' service family but plan-input services are only: water-damage-restoration, burst-pipe-repair, frozen-pipe-restoration, appliance-leak-cleanup, basement-flooding-cleanup, roof-leak-repair"
     },
     {
@@ -125,7 +125,7 @@
       "family": "service-scope",
       "severity": "review",
       "matched": "biohazard cleanup",
-      "context": "and smoke damage, mold remediation, and biohazard cleanup \u2014 since 1997. Operating out of Saratoga",
+      "context": "and smoke damage, mold remediation, and biohazard cleanup, since 1997. Operating out of Saratoga",
       "reason": "names the 'biohazard' service family but plan-input services are only: water-damage-restoration, burst-pipe-repair, frozen-pipe-restoration, appliance-leak-cleanup, basement-flooding-cleanup, roof-leak-repair"
     },
     {

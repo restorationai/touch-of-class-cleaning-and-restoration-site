@@ -1,333 +1,362 @@
 {
-  "items": [
+ "items": [
+  {
+   "id": "2026-09-17-water-damage-restoration-cost-fl",
+   "status": "queued",
+   "queued_at": "2026-09-17T20:47:05Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "cost_guide",
+   "combo_key": "water-damage-restoration-cost-fl",
+   "primary_keyword": "water damage restoration cost FL",
+   "intent": "transactional",
+   "target_word_count": 1500,
+   "city_anchor": "thonotosassa-fl",
+   "best_of": {
+    "service": "water-damage-restoration",
+    "service_pretty": "Water Damage Restoration",
+    "city": "Thonotosassa",
+    "state": "FL",
+    "competitors": []
+   },
+   "fan_out_cluster": [
+    "how much does water damage restoration cost in FL",
+    "water damage restoration price FL",
+    "average cost of water damage restoration FL",
+    "water damage cleanup FL",
+    "water cleanup FL",
+    "water removal FL"
+   ],
+   "source": "best-of-seeder"
+  },
+  {
+   "id": "2026-09-06-sewage-cleanup-remediation",
+   "status": "queued",
+   "queued_at": "2026-09-06T10:23:57Z",
+   "priority": 1,
+   "content_type": "target_term",
+   "combo_key": "sewage-cleanup-remediation",
+   "primary_keyword": "Sewage Cleanup & Remediation",
+   "intent": "commercial",
+   "target_word_count": 1400,
+   "city_anchor": "plant-city-fl",
+   "source": "app target-term (onboarding-backfill)"
+  },
+  {
+   "id": "2026-09-06-board-up-tarping-services",
+   "status": "queued",
+   "queued_at": "2026-09-06T10:23:57Z",
+   "priority": 1,
+   "content_type": "target_term",
+   "combo_key": "board-up-tarping-services",
+   "primary_keyword": "Board-Up & Tarping Services",
+   "intent": "commercial",
+   "target_word_count": 1400,
+   "city_anchor": "lakeland-fl",
+   "source": "app target-term (onboarding-backfill)"
+  },
+  {
+   "id": "2026-09-06-general-contracting-reconstruction-renovation",
+   "status": "queued",
+   "queued_at": "2026-09-06T10:23:57Z",
+   "priority": 1,
+   "content_type": "target_term",
+   "combo_key": "general-contracting-reconstruction-renovation",
+   "primary_keyword": "General Contracting (Reconstruction & Renovation)",
+   "intent": "commercial",
+   "target_word_count": 1400,
+   "city_anchor": "dover-fl",
+   "source": "app target-term (onboarding-backfill)"
+  },
+  {
+   "id": "2026-09-06-fire-smoke-restoration",
+   "status": "queued",
+   "queued_at": "2026-09-06T10:23:57Z",
+   "priority": 1,
+   "content_type": "target_term",
+   "combo_key": "fire-smoke-restoration",
+   "primary_keyword": "Fire & Smoke Restoration",
+   "intent": "commercial",
+   "target_word_count": 1400,
+   "city_anchor": "brandon-fl",
+   "source": "app target-term (onboarding-backfill)"
+  },
+  {
+   "id": "2026-09-03-best-water-damage-restoration-in-thonotosasa-fl",
+   "status": "written",
+   "queued_at": "2026-09-03T20:26:46Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "best_of_comparison",
+   "combo_key": "best-water-damage-restoration-in-thonotosasa-fl",
+   "primary_keyword": "best water damage restoration company in Thonotosasa, FL",
+   "intent": "commercial",
+   "target_word_count": 1600,
+   "city_anchor": "thonotosasa-fl",
+   "best_of": {
+    "service": "water-damage-restoration",
+    "service_pretty": "Water Damage Restoration",
+    "city": "Thonotosasa",
+    "state": "FL",
+    "competitors": [
+     {
+      "name": "Gladiator Restoration",
+      "google_rating": 4.8,
+      "review_count": 45
+     },
+     {
+      "name": "Expert Water Removal - Tampa Water Damage Restoration",
+      "google_rating": 4.9,
+      "review_count": 1870
+     },
+     {
+      "name": "High-end Florida Services HES Restoration",
+      "google_rating": 4.9,
+      "review_count": 91
+     },
+     {
+      "name": "SERVPRO of NE Hillsborough County/ Plant City",
+      "google_rating": 4.9,
+      "review_count": 196
+     }
+    ]
+   },
+   "fan_out_cluster": [
+    "best water damage restoration companies Thonotosasa",
+    "top rated water damage restoration Thonotosasa FL",
+    "who is the best water damage restoration company in Thonotosasa",
+    "water damage cleanup Thonotosasa",
+    "water cleanup Thonotosasa",
+    "water removal Thonotosasa"
+   ],
+   "source": "best-of-seeder",
+   "written_at": "2026-09-06T10:26:30Z",
+   "post_url": "https://drycor.com/blog/best-water-damage-restoration-company-in-thonotosasa-fl/",
+   "claims_flags": [
     {
-      "id": "2026-09-06-sewage-cleanup-remediation",
-      "status": "queued",
-      "queued_at": "2026-09-06T10:23:57Z",
-      "priority": 1,
-      "content_type": "target_term",
-      "combo_key": "sewage-cleanup-remediation",
-      "primary_keyword": "Sewage Cleanup & Remediation",
-      "intent": "commercial",
-      "target_word_count": 1400,
-      "city_anchor": "plant-city-fl",
-      "source": "app target-term (onboarding-backfill)"
+     "file": "src/content/blog/best-water-damage-restoration-company-in-thonotosasa-fl.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "review",
+     "matched": "45 Google reviews",
+     "context": "ny with a strong 4.8-star rating across 45 Google reviews. A 4.8 average with that volume reflect",
+     "reason": "listicle review-count 45 (competitor stat \u2014 verify it is not presented as ours)"
     },
     {
-      "id": "2026-09-06-board-up-tarping-services",
-      "status": "queued",
-      "queued_at": "2026-09-06T10:23:57Z",
-      "priority": 1,
-      "content_type": "target_term",
-      "combo_key": "board-up-tarping-services",
-      "primary_keyword": "Board-Up & Tarping Services",
-      "intent": "commercial",
-      "target_word_count": 1400,
-      "city_anchor": "lakeland-fl",
-      "source": "app target-term (onboarding-backfill)"
+     "file": "src/content/blog/best-water-damage-restoration-company-in-thonotosasa-fl.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "review",
+     "matched": "870 reviews",
+     "context": "ration company in the Tampa Bay area, 1,870 reviews at a 4.9 average is a meaningful signal",
+     "reason": "listicle review-count 870 (competitor stat \u2014 verify it is not presented as ours)"
     },
     {
-      "id": "2026-09-06-general-contracting-reconstruction-renovation",
-      "status": "queued",
-      "queued_at": "2026-09-06T10:23:57Z",
-      "priority": 1,
-      "content_type": "target_term",
-      "combo_key": "general-contracting-reconstruction-renovation",
-      "primary_keyword": "General Contracting (Reconstruction & Renovation)",
-      "intent": "commercial",
-      "target_word_count": 1400,
-      "city_anchor": "dover-fl",
-      "source": "app target-term (onboarding-backfill)"
+     "file": "src/content/blog/best-water-damage-restoration-company-in-thonotosasa-fl.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "review",
+     "matched": "91 reviews",
+     "context": "toration holds a 4.9-star rating across 91 reviews, which is a strong signal for a company",
+     "reason": "listicle review-count 91 (competitor stat \u2014 verify it is not presented as ours)"
     },
     {
-      "id": "2026-09-06-fire-smoke-restoration",
-      "status": "queued",
-      "queued_at": "2026-09-06T10:23:57Z",
-      "priority": 1,
-      "content_type": "target_term",
-      "combo_key": "fire-smoke-restoration",
-      "primary_keyword": "Fire & Smoke Restoration",
-      "intent": "commercial",
-      "target_word_count": 1400,
-      "city_anchor": "brandon-fl",
-      "source": "app target-term (onboarding-backfill)"
-    },
-    {
-      "id": "2026-09-03-best-water-damage-restoration-in-thonotosasa-fl",
-      "status": "written",
-      "queued_at": "2026-09-03T20:26:46Z",
-      "priority": 1,
-      "prioritized": true,
-      "content_type": "best_of_comparison",
-      "combo_key": "best-water-damage-restoration-in-thonotosasa-fl",
-      "primary_keyword": "best water damage restoration company in Thonotosasa, FL",
-      "intent": "commercial",
-      "target_word_count": 1600,
-      "city_anchor": "thonotosasa-fl",
-      "best_of": {
-        "service": "water-damage-restoration",
-        "service_pretty": "Water Damage Restoration",
-        "city": "Thonotosasa",
-        "state": "FL",
-        "competitors": [
-          {
-            "name": "Gladiator Restoration",
-            "google_rating": 4.8,
-            "review_count": 45
-          },
-          {
-            "name": "Expert Water Removal - Tampa Water Damage Restoration",
-            "google_rating": 4.9,
-            "review_count": 1870
-          },
-          {
-            "name": "High-end Florida Services HES Restoration",
-            "google_rating": 4.9,
-            "review_count": 91
-          },
-          {
-            "name": "SERVPRO of NE Hillsborough County/ Plant City",
-            "google_rating": 4.9,
-            "review_count": 196
-          }
-        ]
-      },
-      "fan_out_cluster": [
-        "best water damage restoration companies Thonotosasa",
-        "top rated water damage restoration Thonotosasa FL",
-        "who is the best water damage restoration company in Thonotosasa",
-        "water damage cleanup Thonotosasa",
-        "water cleanup Thonotosasa",
-        "water removal Thonotosasa"
-      ],
-      "source": "best-of-seeder",
-      "written_at": "2026-09-06T10:26:30Z",
-      "post_url": "https://drycor.com/blog/best-water-damage-restoration-company-in-thonotosasa-fl/",
-      "claims_flags": [
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-thonotosasa-fl.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "review",
-          "matched": "45 Google reviews",
-          "context": "ny with a strong 4.8-star rating across 45 Google reviews. A 4.8 average with that volume reflect",
-          "reason": "listicle review-count 45 (competitor stat \u2014 verify it is not presented as ours)"
-        },
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-thonotosasa-fl.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "review",
-          "matched": "870 reviews",
-          "context": "ration company in the Tampa Bay area, 1,870 reviews at a 4.9 average is a meaningful signal",
-          "reason": "listicle review-count 870 (competitor stat \u2014 verify it is not presented as ours)"
-        },
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-thonotosasa-fl.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "review",
-          "matched": "91 reviews",
-          "context": "toration holds a 4.9-star rating across 91 reviews, which is a strong signal for a company",
-          "reason": "listicle review-count 91 (competitor stat \u2014 verify it is not presented as ours)"
-        },
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-thonotosasa-fl.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "review",
-          "matched": "196 reviews",
-          "context": "rk. They carry a 4.9-star rating across 196 reviews. As a franchise, they operate under SER",
-          "reason": "listicle review-count 196 (competitor stat \u2014 verify it is not presented as ours)"
-        }
-      ]
-    },
-    {
-      "id": "2026-09-03-water-damage-restoration-cost",
-      "status": "queued",
-      "queued_at": "2026-09-03T20:29:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "water damage restoration cost",
-      "intent": "commercial",
-      "volume": 880,
-      "kd": 3,
-      "fan_out_cluster": [
-        "water damage restoration cost per square foot",
-        "how much does water damage restoration cost",
-        "water damage restoration cost calculator",
-        "water damage restoration price sheet",
-        "does insurance pay the water damage restoration bill",
-        "average water damage repair cost in the Tampa Bay area"
-      ],
-      "suggested_slug": "water-damage-restoration-cost",
-      "suggested_title": "Water damage restoration cost: what Tampa Bay homeowners actually pay",
-      "target_word_count": 1600,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/water-cleanup/",
-        "/service-areas/tampa-fl/water-damage-restoration/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "water-cleanup"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iicrc.org/page/IICRCS500"
-      ],
-      "notes": "Highest-value opening item: 880/mo, KD 3, CPC 14.73. Give real dollar ranges by loss size (single room, whole floor, whole home) and by water category 1/2/3. Anchor the Florida angle: humidity extends drying time and drives equipment-day cost. Close by pointing to the Thonotosassa and Tampa water damage restoration pages. Do not quote a fixed price as a guarantee.",
-      "source": "keyword-researcher"
-    },
-    {
-      "id": "2026-09-03-how-to-fix-water-damage-on-ceiling",
-      "status": "queued",
-      "queued_at": "2026-09-03T20:29:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "how to fix water damage on ceiling",
-      "intent": "informational",
-      "volume": 1000,
-      "kd": 0,
-      "fan_out_cluster": [
-        "ceiling water damage repair",
-        "water damage on ceiling",
-        "signs of water damage behind walls",
-        "ceiling water damage repair cost",
-        "water stain on ceiling after heavy rain",
-        "when to replace instead of repair a water damaged ceiling"
-      ],
-      "suggested_slug": "how-to-fix-water-damage-on-ceiling",
-      "suggested_title": "How to fix water damage on ceiling: repair steps, costs, and when to call a pro",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/storm-damage-restoration/",
-        "/services/mold-remediation/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "storm-damage-restoration",
-        "mold-remediation"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iicrc.org/page/IICRCS500"
-      ],
-      "notes": "KD 0 at 1000/mo: the single easiest win in this fan-out. Cover find-the-source first (roof leak vs supply line vs HVAC condensate, all three common in Hillsborough County), then a sagging-ceiling safety warning, then DIY-versus-pro decision criteria. Tie the mold section back to the mold remediation page.",
-      "source": "keyword-researcher"
-    },
-    {
-      "id": "2026-09-03-water-damage-restoration-process",
-      "status": "queued",
-      "queued_at": "2026-09-03T20:29:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "water damage restoration process",
-      "intent": "informational",
-      "volume": 110,
-      "kd": 6,
-      "fan_out_cluster": [
-        "water damage restoration process steps",
-        "water damage restoration checklist",
-        "how long does water damage take to dry",
-        "water damage restoration equipment drying time",
-        "what happens during water mitigation",
-        "how do restoration companies dry a house"
-      ],
-      "suggested_slug": "water-damage-restoration-process",
-      "suggested_title": "The water damage restoration process, step by step (day one to fully dry)",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/water-cleanup/",
-        "/services/contents-restoration-storage/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "water-cleanup",
-        "contents-restoration-storage"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iicrc.org/page/IICRCS500"
-      ],
-      "notes": "Sister post to the existing fire damage restoration process article, so the water side gets the same treatment. Walk the IICRC S500 sequence: inspection and moisture mapping, extraction, controlled demolition, drying and dehumidification, monitoring to dry standard, reconstruction. Mention DRYCOR's IICRC WRT credential and 24/7 response.",
-      "source": "keyword-researcher"
-    },
-    {
-      "id": "2026-09-03-how-soon-can-mold-grow-after-water-damage",
-      "status": "queued",
-      "queued_at": "2026-09-03T20:29:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "how soon can mold grow after water damage",
-      "intent": "informational",
-      "volume": null,
-      "kd": null,
-      "fan_out_cluster": [
-        "how long before mold grows after a leak",
-        "24 to 48 hour mold growth window",
-        "how to prevent mold growth after water damage",
-        "signs of mold after water damage",
-        "does drying a house prevent mold",
-        "Florida humidity and mold growth timeline"
-      ],
-      "suggested_slug": "how-soon-can-mold-grow-after-water-damage",
-      "suggested_title": "How soon can mold grow after water damage? The 24 to 48 hour window explained",
-      "target_word_count": 1300,
-      "internal_link_targets": [
-        "/services/mold-remediation/",
-        "/services/water-damage-restoration/",
-        "/service-areas/tampa-fl/mold-remediation/"
-      ],
-      "service_tags": [
-        "mold-remediation",
-        "water-damage-restoration"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.epa.gov/mold/mold-cleanup-your-home"
-      ],
-      "notes": "No Google volume, surfaced by the ChatGPT decomposition: queued as AI-retrieval fuel, not for classic search traffic. Answer the timeline question in the first two sentences so an AI engine can lift the passage verbatim. Existing blog posts cover hidden mold signs, testing, and black mold, but none cover the growth timeline. Lean on the Tampa humidity angle and DRYCOR's NAERMC mold credential.",
-      "source": "keyword-researcher"
-    },
-    {
-      "id": "2026-09-03-how-to-file-a-water-damage-insurance-claim",
-      "status": "queued",
-      "queued_at": "2026-09-03T20:29:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "how to file a water damage insurance claim",
-      "intent": "informational",
-      "volume": 40,
-      "kd": 27,
-      "fan_out_cluster": [
-        "how to document water damage for insurance",
-        "is water damage restoration covered by insurance",
-        "what to photograph after water damage",
-        "water damage insurance claim denied what to do",
-        "do restoration companies bill insurance directly",
-        "how long does a water damage claim take"
-      ],
-      "suggested_slug": "how-to-file-a-water-damage-insurance-claim",
-      "suggested_title": "How to file a water damage insurance claim (and what to photograph first)",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/storm-damage-restoration/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "storm-damage-restoration"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iii.org/article/how-to-file-a-homeowners-claim"
-      ],
-      "notes": "Promoted to priority 1 under the insurance decision-stage rule despite 40/mo volume: these readers hire someone within 24 to 48 hours. Distinct from the existing does-homeowners-insurance-cover-water-damage post, which answers coverage, not process, so cross-link the two rather than repeat. Cover sudden-and-accidental versus gradual-damage exclusions and Florida-specific claim deadlines carefully, and avoid stating anything as legal or coverage advice.",
-      "source": "keyword-researcher"
+     "file": "src/content/blog/best-water-damage-restoration-company-in-thonotosasa-fl.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "review",
+     "matched": "196 reviews",
+     "context": "rk. They carry a 4.9-star rating across 196 reviews. As a franchise, they operate under SER",
+     "reason": "listicle review-count 196 (competitor stat \u2014 verify it is not presented as ours)"
     }
-  ]
+   ]
+  },
+  {
+   "id": "2026-09-03-water-damage-restoration-cost",
+   "status": "queued",
+   "queued_at": "2026-09-03T20:29:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "water damage restoration cost",
+   "intent": "commercial",
+   "volume": 880,
+   "kd": 3,
+   "fan_out_cluster": [
+    "water damage restoration cost per square foot",
+    "how much does water damage restoration cost",
+    "water damage restoration cost calculator",
+    "water damage restoration price sheet",
+    "does insurance pay the water damage restoration bill",
+    "average water damage repair cost in the Tampa Bay area"
+   ],
+   "suggested_slug": "water-damage-restoration-cost",
+   "suggested_title": "Water damage restoration cost: what Tampa Bay homeowners actually pay",
+   "target_word_count": 1600,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/water-cleanup/",
+    "/service-areas/tampa-fl/water-damage-restoration/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "water-cleanup"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500"
+   ],
+   "notes": "Highest-value opening item: 880/mo, KD 3, CPC 14.73. Give real dollar ranges by loss size (single room, whole floor, whole home) and by water category 1/2/3. Anchor the Florida angle: humidity extends drying time and drives equipment-day cost. Close by pointing to the Thonotosassa and Tampa water damage restoration pages. Do not quote a fixed price as a guarantee.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-09-03-how-to-fix-water-damage-on-ceiling",
+   "status": "queued",
+   "queued_at": "2026-09-03T20:29:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "how to fix water damage on ceiling",
+   "intent": "informational",
+   "volume": 1000,
+   "kd": 0,
+   "fan_out_cluster": [
+    "ceiling water damage repair",
+    "water damage on ceiling",
+    "signs of water damage behind walls",
+    "ceiling water damage repair cost",
+    "water stain on ceiling after heavy rain",
+    "when to replace instead of repair a water damaged ceiling"
+   ],
+   "suggested_slug": "how-to-fix-water-damage-on-ceiling",
+   "suggested_title": "How to fix water damage on ceiling: repair steps, costs, and when to call a pro",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/storm-damage-restoration/",
+    "/services/mold-remediation/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "storm-damage-restoration",
+    "mold-remediation"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500"
+   ],
+   "notes": "KD 0 at 1000/mo: the single easiest win in this fan-out. Cover find-the-source first (roof leak vs supply line vs HVAC condensate, all three common in Hillsborough County), then a sagging-ceiling safety warning, then DIY-versus-pro decision criteria. Tie the mold section back to the mold remediation page.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-09-03-water-damage-restoration-process",
+   "status": "queued",
+   "queued_at": "2026-09-03T20:29:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "water damage restoration process",
+   "intent": "informational",
+   "volume": 110,
+   "kd": 6,
+   "fan_out_cluster": [
+    "water damage restoration process steps",
+    "water damage restoration checklist",
+    "how long does water damage take to dry",
+    "water damage restoration equipment drying time",
+    "what happens during water mitigation",
+    "how do restoration companies dry a house"
+   ],
+   "suggested_slug": "water-damage-restoration-process",
+   "suggested_title": "The water damage restoration process, step by step (day one to fully dry)",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/water-cleanup/",
+    "/services/contents-restoration-storage/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "water-cleanup",
+    "contents-restoration-storage"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500"
+   ],
+   "notes": "Sister post to the existing fire damage restoration process article, so the water side gets the same treatment. Walk the IICRC S500 sequence: inspection and moisture mapping, extraction, controlled demolition, drying and dehumidification, monitoring to dry standard, reconstruction. Mention DRYCOR's IICRC WRT credential and 24/7 response.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-09-03-how-soon-can-mold-grow-after-water-damage",
+   "status": "queued",
+   "queued_at": "2026-09-03T20:29:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "how soon can mold grow after water damage",
+   "intent": "informational",
+   "volume": null,
+   "kd": null,
+   "fan_out_cluster": [
+    "how long before mold grows after a leak",
+    "24 to 48 hour mold growth window",
+    "how to prevent mold growth after water damage",
+    "signs of mold after water damage",
+    "does drying a house prevent mold",
+    "Florida humidity and mold growth timeline"
+   ],
+   "suggested_slug": "how-soon-can-mold-grow-after-water-damage",
+   "suggested_title": "How soon can mold grow after water damage? The 24 to 48 hour window explained",
+   "target_word_count": 1300,
+   "internal_link_targets": [
+    "/services/mold-remediation/",
+    "/services/water-damage-restoration/",
+    "/service-areas/tampa-fl/mold-remediation/"
+   ],
+   "service_tags": [
+    "mold-remediation",
+    "water-damage-restoration"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.epa.gov/mold/mold-cleanup-your-home"
+   ],
+   "notes": "No Google volume, surfaced by the ChatGPT decomposition: queued as AI-retrieval fuel, not for classic search traffic. Answer the timeline question in the first two sentences so an AI engine can lift the passage verbatim. Existing blog posts cover hidden mold signs, testing, and black mold, but none cover the growth timeline. Lean on the Tampa humidity angle and DRYCOR's NAERMC mold credential.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-09-03-how-to-file-a-water-damage-insurance-claim",
+   "status": "queued",
+   "queued_at": "2026-09-03T20:29:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "how to file a water damage insurance claim",
+   "intent": "informational",
+   "volume": 40,
+   "kd": 27,
+   "fan_out_cluster": [
+    "how to document water damage for insurance",
+    "is water damage restoration covered by insurance",
+    "what to photograph after water damage",
+    "water damage insurance claim denied what to do",
+    "do restoration companies bill insurance directly",
+    "how long does a water damage claim take"
+   ],
+   "suggested_slug": "how-to-file-a-water-damage-insurance-claim",
+   "suggested_title": "How to file a water damage insurance claim (and what to photograph first)",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/storm-damage-restoration/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "storm-damage-restoration"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iii.org/article/how-to-file-a-homeowners-claim"
+   ],
+   "notes": "Promoted to priority 1 under the insurance decision-stage rule despite 40/mo volume: these readers hire someone within 24 to 48 hours. Distinct from the existing does-homeowners-insurance-cover-water-damage post, which answers coverage, not process, so cross-link the two rather than repeat. Cover sudden-and-accidental versus gradual-damage exclusions and Florida-specific claim deadlines carefully, and avoid stating anything as legal or coverage advice.",
+   "source": "keyword-researcher"
+  }
+ ]
 }

@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+rodent dropping clean up services near me,transactional,590,0,15.28,2,biohazard cleanup,,,no
+crime scene cleaner,transactional,27100,17,35.66,3,biohazard cleanup,,/services/crime-scene-cleanup/,no
+biohazard cleanup,transactional,2400,8,73.81,3,biohazard cleanup,,/services/biohazard-cleanup/,no
+biohazard clean up,transactional,2400,17,73.81,3,biohazard cleanup,,/services/biohazard-cleanup/,no
+biohazard clean,transactional,1600,15,64.7,3,biohazard cleanup,,/services/biohazard-cleanup/,no
+biohazard cleanup near me,transactional,1600,1,70.96,3,biohazard cleanup,,/services/biohazard-cleanup/,no
+crime scene cleanup Seattle,transactional,390,0,13.23,3,biohazard cleanup,Seattle,/service-areas/seattle-wa/crime-scene-cleanup/,no
+biohazard cleaning services near me,transactional,320,0,73.27,3,biohazard cleanup,,/services/biohazard-cleanup/,no
+biohazard cleanup companies near me,transactional,110,1,98.35,3,biohazard cleanup,,/services/biohazard-cleanup/,no
+biohazard clean up after death,transactional,50,0,89.92,3,biohazard cleanup,,/services/unattended-death-cleanup/,no
+Seattle biohazard cleanup,transactional,10,,,3,biohazard cleanup,Seattle,/service-areas/seattle-wa/biohazard-cleanup/,no
+biohazard cleanup Tacoma WA,transactional,10,,,3,biohazard cleanup,Tacoma,/service-areas/tacoma-wa/biohazard-cleanup/,no
+biohazard cleanup Federal Way,transactional,,,,3,biohazard cleanup,Federal Way,/services/biohazard-cleanup/,no
+biohazard cleanup Federal Way WA,transactional,,,,3,biohazard cleanup,Federal Way,/services/biohazard-cleanup/,no
+emergency biohazard cleanup Federal Way,transactional,,,,3,biohazard cleanup,Federal Way,/services/biohazard-cleanup/,no
+biohazard cleanup in Seattle,transactional,,,,3,biohazard cleanup,Seattle,/service-areas/seattle-wa/biohazard-cleanup/,no
+emergency biohazard cleanup Seattle,transactional,,,,3,biohazard cleanup,Seattle,/service-areas/seattle-wa/biohazard-cleanup/,no
+biohazard cleanup companies Seattle,transactional,,,,3,biohazard cleanup companies,Seattle,/service-areas/seattle-wa/biohazard-cleanup/,no
+biohazard cleanup Bellevue,transactional,,,,3,biohazard cleanup,Bellevue,/service-areas/bellevue-wa/biohazard-cleanup/,no
+trauma scene cleanup Tacoma,transactional,,,,3,biohazard cleanup,Tacoma,/service-areas/tacoma-wa/trauma-scene-cleanup/,no
+unattended death cleanup Seattle,transactional,,,,3,biohazard cleanup,Seattle,/service-areas/seattle-wa/unattended-death-cleanup/,no
+how much does biohazard cleanup cost,commercial,70,0,14.2,1,biohazard cleanup cost,,,yes
+biohazard cleanup cost,commercial,70,0,84.96,2,biohazard cleanup,,,no
+biohazard cleanup cost per hour,commercial,40,0,29.94,2,biohazard cleanup cost,,,no
+biohazard cleanup cost Seattle,commercial,,,,2,biohazard cleanup cost,Seattle,,no
+biohazard cleanup companies,commercial,2400,18,73.81,3,biohazard cleanup,,/services/biohazard-cleanup/,no
+vomit clean up,informational,590,0,3.95,1,biohazard cleanup,,,yes
+is urine biohazard,informational,480,0,,1,biohazard cleanup,,,yes
+do you need a license for biohazard cleanup in washington,informational,,,,1,biohazard cleanup,,,yes
+what do rodent droppings look like,informational,480,0,10.94,2,biohazard cleanup,,,no
+biohazard cleanup requirements,informational,30,0,14.49,2,biohazard cleanup,,,no
+osha biohazard cleanup guidelines,informational,10,,,2,biohazard cleanup,,,no
+does insurance cover unattended death cleanup,informational,,,,2,biohazard cleanup,,,no
+who cleans up blood after a death in a home,informational,,,,2,biohazard cleanup,,,no
+what happens during a biohazard cleanup,informational,,,,2,biohazard cleanup,,,no
+can i clean up blood myself,informational,,,,2,biohazard cleanup,,,no
+who pays for crime scene cleanup,informational,50,2,47.5,3,biohazard cleanup,,https://narestco.com/blog/who-pays-for-crime-scene-cleanup-washington/,no
+does homeowners insurance cover biohazard cleanup,informational,20,0,,3,biohazard cleanup,,https://narestco.com/blog/does-homeowners-insurance-cover-biohazard-cleanup/,no
+how long does biohazard cleanup take,informational,,,,3,biohazard cleanup,,https://narestco.com/blog/how-long-does-trauma-scene-cleanup-take/,no
+who do you call after an unattended death at home,informational,,,,3,biohazard cleanup,,https://narestco.com/blog/what-happens-after-an-unattended-death/,no

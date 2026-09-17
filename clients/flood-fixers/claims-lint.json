@@ -1,6 +1,6 @@
 {
   "slug": "flood-fixers",
-  "generated_at": "2026-09-14T20:26:21Z",
+  "generated_at": "2026-09-17T20:34:01Z",
   "truth": {
     "hours": "24/7 Emergency Service",
     "is_247": true,
@@ -88,7 +88,7 @@
       "family": "service-scope",
       "severity": "review",
       "matched": "mold remediation",
-      "context": "g phase \u2014 and raises the probability of mold remediation being needed. - **Insurance documentati",
+      "context": "ng phase, and raises the probability of mold remediation being needed. - **Insurance documentati",
       "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
     },
     {
@@ -142,7 +142,7 @@
       "family": "service-scope",
       "severity": "review",
       "matched": "Mold Remediation",
-      "context": "nd the **S520 Standard for Professional Mold Remediation** \u2014 the documents that define what \"don",
+      "context": "nd the **S520 Standard for Professional Mold Remediation**, the documents that define what \"done",
       "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
     },
     {
@@ -205,7 +205,7 @@
       "family": "service-scope",
       "severity": "review",
       "matched": "mold remediation",
-      "context": "kind that follow a water loss, fire, or mold remediation \u2014 we coordinate directly with your insu",
+      "context": "kind that follow a water loss, fire, or mold remediation, we coordinate directly with your insur",
       "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
     },
     {
@@ -232,7 +232,7 @@
       "family": "service-scope",
       "severity": "review",
       "matched": "mold remediation",
-      "context": "lows water extraction, fire cleanup, or mold remediation \u2014 that means reviewing the remediation",
+      "context": "lows water extraction, fire cleanup, or mold remediation, that means reviewing the remediation d",
       "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
     },
     {
@@ -295,7 +295,7 @@
       "family": "service-scope",
       "severity": "review",
       "matched": "smoke damage restoration",
-      "context": "surance adjuster will need. **Fire and smoke damage restoration** \u2014 Flames do obvious damage; smoke doe",
+      "context": "surance adjuster will need. **Fire and smoke damage restoration**, Flames do obvious damage; smoke does",
       "reason": "names the 'fire' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
     },
     {
@@ -304,7 +304,7 @@
       "family": "service-scope",
       "severity": "review",
       "matched": "Storm damage and reconstruction",
-      "context": "rance before we close walls back up. **Storm damage and reconstruction** \u2014 When a Pacific storm pushes water t",
+      "context": "rance before we close walls back up. **Storm damage and reconstruction**, When a Pacific storm pushes water th",
       "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
     },
     {
@@ -727,7 +727,7 @@
       "family": "service-scope",
       "severity": "review",
       "matched": "Fire and smoke damage",
-      "context": "nce \u2014 we don't just paint over it. ### Fire and smoke damage restoration Kitchen fires are the most",
+      "context": "ance, we don't just paint over it. ### Fire and smoke damage restoration Kitchen fires are the most",
       "reason": "names the 'fire' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
     },
     {
@@ -952,7 +952,7 @@
       "family": "service-scope",
       "severity": "review",
       "matched": "biohazard cleanup",
-      "context": "age, fire damage, mold remediation, and biohazard cleanup crews directly to San Marcos addresses",
+      "context": "age, fire damage, mold remediation, and biohazard cleanup crews directly to San Marcos addresses,",
       "reason": "names the 'biohazard' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
     },
     {
@@ -1132,7 +1132,7 @@
       "family": "service-scope",
       "severity": "review",
       "matched": "mold remediation",
-      "context": "e water damage, fire and smoke cleanup, mold remediation, and reconstruction \u2014 start to finish \u2014",
+      "context": "e water damage, fire and smoke cleanup, mold remediation, and reconstruction, start to finish, s",
       "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
     },
     {

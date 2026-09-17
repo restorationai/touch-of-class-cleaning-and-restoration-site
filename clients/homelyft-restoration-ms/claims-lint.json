@@ -1,6 +1,6 @@
 {
   "slug": "homelyft-restoration-ms",
-  "generated_at": "2026-09-14T20:26:22Z",
+  "generated_at": "2026-09-17T20:34:02Z",
   "truth": {
     "hours": "24/7",
     "is_247": true,
@@ -105,7 +105,7 @@
       "family": "service-scope",
       "severity": "review",
       "matched": "reconstruction services",
-      "context": "an coordinating a separate GC. We carry reconstruction services in-house \u2014 drywall, flooring, cabinetry",
+      "context": "an coordinating a separate GC. We carry reconstruction services in-house, drywall, flooring, cabinetry,",
       "reason": "names the 'reconstruction' service family but plan-input services are only: water-damage-restoration, fire-damage-restoration, mold-remediation, storm-damage-restoration, sewage-cleanup, general-contracting"
     },
     {
