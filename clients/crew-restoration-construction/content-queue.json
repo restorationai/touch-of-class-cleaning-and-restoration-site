@@ -351,7 +351,7 @@
     },
     {
       "id": "2026-08-09-how-to-prevent-pipes-from-freezing",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-09T22:33:00Z",
       "written_at": null,
       "post_url": null,
@@ -383,11 +383,12 @@
         "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/winter-storm/frozen-pipes.html"
       ],
       "notes": "Massive January seasonality (135,000 national searches in Jan 2026). Publish well before freeze season. Cover prevention plus safe thawing when pipes freeze but have not burst; hand off to the existing burst pipe checklist for the failure case.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.791806+00:00"
     },
     {
       "id": "2026-08-09-how-to-get-rid-of-ice-dams",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-09T22:34:00Z",
       "written_at": null,
       "post_url": null,
@@ -422,11 +423,12 @@
         "https://extension.umn.edu/protecting-home-rain-and-ice/dealing-and-preventing-ice-dams"
       ],
       "notes": "KD 5 and strongly seasonal (Feb spike). Cover safe removal (steaming, roof raking), why hacking at ice wrecks shingles, attic insulation and ventilation as the permanent fix, and the interior water damage tie-in. Pair with the ice dam removal cost post.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.791981+00:00"
     },
     {
       "id": "2026-08-09-what-does-hail-damage-look-like-on-a-roof",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-09T22:35:00Z",
       "written_at": null,
       "post_url": null,
@@ -461,11 +463,12 @@
         "https://dlr.sd.gov/insurance/homeowners.aspx"
       ],
       "notes": "Sioux Falls sits in hail alley; summer spike in the volume curve matches storm season. Photo-heavy inspection guide: bruising, granule loss, soft metal dents as tell-tales. Warn about storm-chaser contractors and point to the insurance claim checklist.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.791984+00:00"
     },
     {
       "id": "2026-08-09-hail-damage-roof-insurance-claim",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-09T22:36:00Z",
       "written_at": null,
       "post_url": null,
@@ -499,11 +502,12 @@
         "https://dlr.sd.gov/insurance/homeowners.aspx"
       ],
       "notes": "$37.84 CPC and KD 7. Differentiates from the generic storm claim checklist by going roof-specific: separate wind/hail deductibles, replacement cost vs actual cash value, depreciation holdback, matching shingles, completion deadlines. SD DOI notes replacement-cost insurers generally must return the roof to pre-loss condition.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.791985+00:00"
     },
     {
       "id": "2026-08-09-does-renters-insurance-cover-water-damage",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-09T22:37:00Z",
       "written_at": null,
       "post_url": null,
@@ -535,11 +539,12 @@
         "https://dlr.sd.gov/insurance/homeowners.aspx"
       ],
       "notes": "Renter-side companion to the homeowners insurance post. Strong local fit: college-town rentals near SDSU in Brookings and DSU in Madison per plan-input local notes. Cover belongings vs building split, loss-of-use coverage, and when the landlord's policy applies.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.791986+00:00"
     },
     {
       "id": "2026-08-09-sewage-backup-in-basement",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-09T22:38:00Z",
       "written_at": null,
       "post_url": null,
@@ -572,11 +577,12 @@
         "https://dlr.sd.gov/insurance/general_guidance/homeowners_forms_types.aspx"
       ],
       "notes": "$47 CPC panicked-homeowner query. Category 3 black water: do not DIY, health risks, what pros remove vs dry in place. Key insurance point: standard HO-3 policies exclude sewer backup without a water backup endorsement (SD DOI flags this). Sensitive-adjacent: keep tone practical, not alarmist.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.791987+00:00"
     },
     {
       "id": "2026-08-09-water-in-basement-after-heavy-rain",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-09T22:39:00Z",
       "written_at": null,
       "post_url": null,
@@ -608,11 +614,12 @@
         "https://www.epa.gov/mold/mold-cleanup-your-home"
       ],
       "notes": "$48 CPC. Diagnostic angle distinguishes it from the existing first-24-hours post: hydrostatic pressure, window wells, sump failure, grading and gutters. Local hook: spring flooding along the Big Sioux hits Baltic, Dell Rapids, Canton, and McCook Lake homes per plan-input notes.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.791988+00:00"
     },
     {
       "id": "2026-08-09-how-long-does-mold-remediation-take",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-09T22:40:00Z",
       "written_at": null,
       "post_url": null,
@@ -644,11 +651,12 @@
         "https://www.epa.gov/mold/mold-cleanup-your-home"
       ],
       "notes": "Mirrors the successful how-long format already used for water damage restoration, applied to mold. Timeline table by scope (single wall cavity vs whole basement), what extends jobs (containment, clearance testing), and whether occupants can stay.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.791989+00:00"
     },
     {
       "id": "2026-08-09-asbestos-abatement-cost",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-09T22:41:00Z",
       "written_at": null,
       "post_url": null,
@@ -681,11 +689,12 @@
         "https://www.epa.gov/asbestos"
       ],
       "notes": "1,000/mo and Crew actually offers abatement, which few competitors in the metro do. Cover testing costs, per-square-foot removal ranges by material, and why pre-1980s housing stock in the older river towns (Canton, Elk Point, Dell Rapids) should test before any remodel. Natural bridge to general contracting.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.791991+00:00"
     },
     {
       "id": "2026-08-09-ice-dam-removal-cost",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-09T22:42:00Z",
       "written_at": null,
       "post_url": null,
@@ -719,11 +728,12 @@
         "https://extension.umn.edu/protecting-home-rain-and-ice/dealing-and-preventing-ice-dams"
       ],
       "notes": "720/mo average masks a 4,400 February spike; publish before December so it ranks by the first thaw-freeze cycle. Steaming vs mechanical removal pricing, when interior leaks make it an emergency, and the water damage handoff. Cross-link the how-to-get-rid-of-ice-dams post.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.791992+00:00"
     },
     {
       "id": "2026-08-09-fire-damage-restoration-cost",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-09T22:43:00Z",
       "written_at": null,
       "post_url": null,
@@ -758,11 +768,12 @@
         "https://www.iicrc.org/page/IICRCS500"
       ],
       "notes": "Rounds out cost-guide coverage of Crew's core services. Range from smoke-only cleanup to structural rebuild; Crew's differentiator is mitigation through reconstruction under one contractor (general contracting license 3814). Cross-link the fire restoration process post.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.791993+00:00"
     },
     {
       "id": "2026-08-26-what-to-do-if-your-basement-is-flooded",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T14:45:34Z",
       "written_at": null,
       "post_url": null,
@@ -797,11 +808,12 @@
         "https://www.iicrc.org/page/IICRCS500",
         "https://www.cdc.gov/floods/safety/cleanup-safely-after-a-disaster.html"
       ],
-      "notes": "Lead with safety: power shutoff before entering standing water, then extraction, then drying. Anchor local context to Sioux Falls spring melt and heavy-rain events. Pull the 24-48 hour mold growth window forward. Do not duplicate /blog/what-to-do-first-24-hours-water-damage/ (that post is generic water damage): this one is basement-specific (sump pump failure, groundwater seepage, floor drain backup)."
+      "notes": "Lead with safety: power shutoff before entering standing water, then extraction, then drying. Anchor local context to Sioux Falls spring melt and heavy-rain events. Pull the 24-48 hour mold growth window forward. Do not duplicate /blog/what-to-do-first-24-hours-water-damage/ (that post is generic water damage): this one is basement-specific (sump pump failure, groundwater seepage, floor drain backup).",
+      "banked_at": "2026-09-17T22:13:26.013019+00:00"
     },
     {
       "id": "2026-08-26-how-to-disinfect-a-flooded-basement",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T14:45:34Z",
       "written_at": null,
       "post_url": null,
@@ -839,11 +851,12 @@
         "https://www.epa.gov/mold/mold-cleanup-your-home",
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "Split by IICRC S500 water category. Category 1 versus 3 changes the answer completely, and most basement floods that involve a floor drain or sewer backup are category 3. Be explicit that porous materials (carpet pad, drywall below the waterline, upholstered contents) are not salvageable by disinfecting. Bleach is not the right antimicrobial for porous surfaces: say so."
+      "notes": "Split by IICRC S500 water category. Category 1 versus 3 changes the answer completely, and most basement floods that involve a floor drain or sewer backup are category 3. Be explicit that porous materials (carpet pad, drywall below the waterline, upholstered contents) are not salvageable by disinfecting. Bleach is not the right antimicrobial for porous surfaces: say so.",
+      "banked_at": "2026-09-17T22:13:26.013026+00:00"
     },
     {
       "id": "2026-08-26-who-to-call-for-flooded-basement",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T14:45:34Z",
       "written_at": null,
       "post_url": null,
@@ -877,11 +890,12 @@
         "https://www.iicrc.org/page/IICRCS500",
         "https://www.iii.org/article/what-does-flood-insurance-cover"
       ],
-      "notes": "Decision-stage: the honest answer is a plumber stops the source and an IICRC-certified restoration contractor dries the structure, and for a sump pump failure you often need both. Give the call order (safety, source, restoration, insurer) rather than a sales pitch. High CPC (96 USD) confirms commercial value. Mention 24/7 response and the Sioux Falls service radius."
+      "notes": "Decision-stage: the honest answer is a plumber stops the source and an IICRC-certified restoration contractor dries the structure, and for a sump pump failure you often need both. Give the call order (safety, source, restoration, insurer) rather than a sales pitch. High CPC (96 USD) confirms commercial value. Mention 24/7 response and the Sioux Falls service radius.",
+      "banked_at": "2026-09-17T22:13:26.013028+00:00"
     },
     {
       "id": "2026-08-26-basement-flood-cleanup-cost",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T14:45:34Z",
       "written_at": null,
       "post_url": null,
@@ -914,11 +928,12 @@
         "https://www.iicrc.org/page/IICRCS500",
         "https://www.iii.org/article/what-does-flood-insurance-cover"
       ],
-      "notes": "Cost drivers: square footage, water category, depth, how long it sat, whether drywall and flooring come out, and equipment days. Keep ranges honest and caveated. Distinct from the already-queued generic water damage restoration cost posts because it is basement-scoped. Do not state a flat price the estimator cannot honor."
+      "notes": "Cost drivers: square footage, water category, depth, how long it sat, whether drywall and flooring come out, and equipment days. Keep ranges honest and caveated. Distinct from the already-queued generic water damage restoration cost posts because it is basement-scoped. Do not state a flat price the estimator cannot honor.",
+      "banked_at": "2026-09-17T22:13:26.013029+00:00"
     },
     {
       "id": "2026-08-26-will-insurance-cover-flooded-basement",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T14:45:34Z",
       "written_at": null,
       "post_url": null,
@@ -952,7 +967,8 @@
         "https://www.iii.org/article/what-does-flood-insurance-cover",
         "https://www.floodsmart.gov/"
       ],
-      "notes": "The distinction that matters: a burst supply line is usually covered, surface water and groundwater are not (that is NFIP territory), and sump pump failure or sewer backup needs a water backup endorsement. Cross-link, do not duplicate, /blog/does-homeowners-insurance-cover-water-damage/ and /blog/storm-damage-insurance-claim-checklist/. Never tell the reader what their specific policy covers: tell them which clause to look for."
+      "notes": "The distinction that matters: a burst supply line is usually covered, surface water and groundwater are not (that is NFIP territory), and sump pump failure or sewer backup needs a water backup endorsement. Cross-link, do not duplicate, /blog/does-homeowners-insurance-cover-water-damage/ and /blog/storm-damage-insurance-claim-checklist/. Never tell the reader what their specific policy covers: tell them which clause to look for.",
+      "banked_at": "2026-09-17T22:13:26.013030+00:00"
     },
     {
       "id": "2026-09-15-mold-remediation-near-me",

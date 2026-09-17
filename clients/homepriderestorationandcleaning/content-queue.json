@@ -565,7 +565,7 @@
     },
     {
       "id": "2026-08-03-does-homeowners-insurance-cover-storm-damage",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-03T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -600,11 +600,12 @@
         "https://content.naic.org/article/consumer_insight_after_storm_read_fine_print_avoid_signing_away_your_insurance_benefits.htm",
         "https://insurance.utah.gov/"
       ],
-      "notes": "Flagship storm-insurance pillar: KD 2 with an $18.39 CPC, so this is cheap organic real estate for a term with real commercial value. Lead with the covered-vs-excluded split (wind, hail, lightning, weight of snow/ice covered; rising-water flooding and wear-and-tear excluded) because that is the distinction Utah homeowners get wrong. Link out to the planned /blog/storm-damage-insurance-claim-checklist/ post rather than repeating claim-filing steps."
+      "notes": "Flagship storm-insurance pillar: KD 2 with an $18.39 CPC, so this is cheap organic real estate for a term with real commercial value. Lead with the covered-vs-excluded split (wind, hail, lightning, weight of snow/ice covered; rising-water flooding and wear-and-tear excluded) because that is the distinction Utah homeowners get wrong. Link out to the planned /blog/storm-damage-insurance-claim-checklist/ post rather than repeating claim-filing steps.",
+      "banked_at": "2026-09-17T22:13:26.020063+00:00"
     },
     {
       "id": "2026-08-03-does-homeowners-insurance-cover-wind-damage",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-03T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -637,11 +638,12 @@
         "https://www.insurance.com/home-and-renters-insurance/claims/storm-damage-insurance-claims",
         "https://insurance.utah.gov/"
       ],
-      "notes": "Absorbs the \"wind damage to roof\" (140/mo, KD 11) and \"wind damage to fence\" (70/mo, CPC 28.69) variants as H2 sections so we do not cannibalise with three near-identical posts. Wasatch Front canyon winds are the local hook: reference real wind events rather than hurricane framing."
+      "notes": "Absorbs the \"wind damage to roof\" (140/mo, KD 11) and \"wind damage to fence\" (70/mo, CPC 28.69) variants as H2 sections so we do not cannibalise with three near-identical posts. Wasatch Front canyon winds are the local hook: reference real wind events rather than hurricane framing.",
+      "banked_at": "2026-09-17T22:13:26.020065+00:00"
     },
     {
       "id": "2026-08-03-does-homeowners-insurance-cover-roof-leaks-from-rain",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-03T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -677,11 +679,12 @@
         "https://www.iicrc.org/page/IICRCS500",
         "https://www.allstate.com/resources/home-insurance/storm-and-wind-damage"
       ],
-      "notes": "The sudden-and-accidental vs deferred-maintenance distinction is the whole article: that is why these claims get denied. Ties to the existing ice-dam content (bank already has \"does homeowners insurance cover roof leaks from ice dams\" territory) so cross-link to the Park City ice dam posts. Mention the 24-48 hour mold window to justify the mold-remediation link."
+      "notes": "The sudden-and-accidental vs deferred-maintenance distinction is the whole article: that is why these claims get denied. Ties to the existing ice-dam content (bank already has \"does homeowners insurance cover roof leaks from ice dams\" territory) so cross-link to the Park City ice dam posts. Mention the 24-48 hour mold window to justify the mold-remediation link.",
+      "banked_at": "2026-09-17T22:13:26.020066+00:00"
     },
     {
       "id": "2026-08-03-does-homeowners-insurance-cover-tornado-damage",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-03T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -716,11 +719,12 @@
         "https://www.insurance.com/home-and-renters-insurance/claims/storm-damage-insurance-claims",
         "https://insurance.utah.gov/"
       ],
-      "notes": "Highest volume in this run at 590/mo. Tornadoes are rare in Utah, so keep the local angle honest: frame it as high-wind and microburst events (Utah does get them) and do not imply a tornado-prone service area. Renters-insurance angle (140/mo) is a clean H2."
+      "notes": "Highest volume in this run at 590/mo. Tornadoes are rare in Utah, so keep the local angle honest: frame it as high-wind and microburst events (Utah does get them) and do not imply a tornado-prone service area. Renters-insurance angle (140/mo) is a clean H2.",
+      "banked_at": "2026-09-17T22:13:26.020067+00:00"
     },
     {
       "id": "2026-08-03-what-to-do-after-storm-damage-to-your-house",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-03T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -756,7 +760,8 @@
         "https://yourhome.fanniemae.com/get-relief/disaster/insurance-after-disaster",
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "Zero measured Google volume but surfaced directly by the ChatGPT decomposition, so it is AI-retrieval fuel: write it as a numbered, liftable passage (safety, document, mitigate, call insurer, keep records). Must stay mitigation-focused and defer claim mechanics to /blog/storm-damage-insurance-claim-checklist/ to avoid duplicate content."
+      "notes": "Zero measured Google volume but surfaced directly by the ChatGPT decomposition, so it is AI-retrieval fuel: write it as a numbered, liftable passage (safety, document, mitigate, call insurer, keep records). Must stay mitigation-focused and defer claim mechanics to /blog/storm-damage-insurance-claim-checklist/ to avoid duplicate content.",
+      "banked_at": "2026-09-17T22:13:26.020068+00:00"
     },
     {
       "id": "2026-08-27-hail-damage-roof-signs-utah",

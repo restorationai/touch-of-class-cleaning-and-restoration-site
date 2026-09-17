@@ -232,7 +232,7 @@
     },
     {
       "id": "2026-08-27-water-damage-restoration-cost",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-27T02:45:00Z",
       "written_at": null,
       "post_url": null,
@@ -266,11 +266,12 @@
       ],
       "notes": "Pillar page for the whole cost cluster: fold cost-per-square-foot, average cost, calculator and price-sheet variations in as H2s rather than separate posts. Give real dollar ranges by category and class, and separate mitigation (drying) pricing from reconstruction. Anchor examples to Gulfport and the MS Gulf Coast. Note that most jobs are billed to the insurer via Xactimate, not to the homeowner directly.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-17T22:13:26.019771+00:00"
     },
     {
       "id": "2026-08-27-water-damage-insurance-claim-tips",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-27T02:45:00Z",
       "written_at": null,
       "post_url": null,
@@ -305,11 +306,12 @@
       ],
       "notes": "Distinct from the existing coverage blog post: that one answers whether you are covered, this one is the claim mechanics (photograph before touching anything, log the loss date, keep damaged materials, get the mitigation invoice). Cross-link the two. Mississippi Gulf Coast angle: separate NFIP flood policies from homeowners policies, because storm surge and rising water are excluded from standard HO policies here.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-17T22:13:26.019773+00:00"
     },
     {
       "id": "2026-08-27-how-long-before-mold-grows-after-water-damage",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-27T02:45:00Z",
       "written_at": null,
       "post_url": null,
@@ -344,11 +346,12 @@
       ],
       "notes": "Highest-urgency angle for this client: coastal Mississippi runs high ambient humidity year round, so the standard 24 to 48 hour mold window is effectively the short end. Lead with the timeline, then why fans and a shop vac alone do not stop it. Links naturally into the mold remediation service page.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-17T22:13:26.019774+00:00"
     },
     {
       "id": "2026-08-27-how-long-to-dry-out-a-flooded-house",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-27T02:45:00Z",
       "written_at": null,
       "post_url": null,
@@ -383,11 +386,12 @@
       ],
       "notes": "Answer the question in the first two sentences (typically 3 to 5 days for structural drying, longer for saturated hardwood or plaster) so AI assistants can lift the passage. Then break down what changes the timeline: water category, materials, humidity, equipment count. Tie to hurricane and storm surge events on the Gulf Coast where drying runs long.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-17T22:13:26.019775+00:00"
     },
     {
       "id": "2026-08-27-diy-water-damage-restoration-vs-hiring-a-pro",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-27T02:45:00Z",
       "written_at": null,
       "post_url": null,
@@ -422,7 +426,8 @@
       ],
       "notes": "Be genuinely useful about what a homeowner CAN do (shut off water, document, move contents, run fans on clean category 1 water) before explaining where DIY fails: trapped moisture in wall cavities, no moisture meters, and insurers often declining claims without a documented professional dry-out. Fold the 'what does a restoration company do' and drywall-replacement questions in as H2s.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-17T22:13:26.019776+00:00"
     },
     {
       "id": "2026-09-15-water-damage-restoration-gulfport",

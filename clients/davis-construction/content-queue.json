@@ -846,7 +846,7 @@
     },
     {
       "id": "2026-08-10-do-i-need-a-permit-for-a-home-addition-in-alabama",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-10T18:25:00Z",
       "written_at": null,
       "post_url": null,
@@ -879,11 +879,12 @@
         "https://www.huntsvilleal.gov/",
         "https://planreview.huntsvilleal.gov/planreview"
       ],
-      "notes": "Highest-value local angle from the ChatGPT decomposition. Cover the city-limits versus unincorporated-county distinction (Huntsville city vs Madison County vs Limestone County for Athens), the online plan review step, and the inspection milestones. State plainly that the contractor should pull the permit, and that a contractor asking the homeowner to pull it is a red flag."
+      "notes": "Highest-value local angle from the ChatGPT decomposition. Cover the city-limits versus unincorporated-county distinction (Huntsville city vs Madison County vs Limestone County for Athens), the online plan review step, and the inspection milestones. State plainly that the contractor should pull the permit, and that a contractor asking the homeowner to pull it is a red flag.",
+      "banked_at": "2026-09-17T22:13:26.014335+00:00"
     },
     {
       "id": "2026-08-10-how-long-does-a-home-addition-take",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-10T18:25:00Z",
       "written_at": null,
       "post_url": null,
@@ -914,11 +915,12 @@
       "external_authority_candidates": [
         "https://www.nahb.org/"
       ],
-      "notes": "Split the timeline into design and planning, permitting and plan review, then construction, and make clear that a quoted build time usually excludes the first two. Give a week-by-week phase table. Address living in the house during the work, since that is the question homeowners actually mean."
+      "notes": "Split the timeline into design and planning, permitting and plan review, then construction, and make clear that a quoted build time usually excludes the first two. Give a week-by-week phase table. Address living in the house during the work, since that is the question homeowners actually mean.",
+      "banked_at": "2026-09-17T22:13:26.014342+00:00"
     },
     {
       "id": "2026-08-10-is-it-cheaper-to-build-up-or-out",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-10T18:25:00Z",
       "written_at": null,
       "post_url": null,
@@ -951,11 +953,12 @@
       "external_authority_candidates": [
         "https://www.nahb.org/"
       ],
-      "notes": "Real decision content: building out adds foundation and roof but keeps the house intact; building up adds structural reinforcement, stair space and a full roof tear-off. Tie to local conditions: many Madison and Athens ranch homes on generous lots favor building out, while older Huntsville lots with setback limits push people up. Mention when a structural engineer is required."
+      "notes": "Real decision content: building out adds foundation and roof but keeps the house intact; building up adds structural reinforcement, stair space and a full roof tear-off. Tie to local conditions: many Madison and Athens ranch homes on generous lots favor building out, while older Huntsville lots with setback limits push people up. Mention when a structural engineer is required.",
+      "banked_at": "2026-09-17T22:13:26.014344+00:00"
     },
     {
       "id": "2026-08-10-does-a-home-addition-add-value-to-your-home",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-10T18:25:00Z",
       "written_at": null,
       "post_url": null,
@@ -986,7 +989,8 @@
       "external_authority_candidates": [
         "https://www.nahb.org/"
       ],
-      "notes": "Compare payback by addition type and set expectations that resale recovery is rarely 100 percent, so the real case is usable space versus the cost of moving. Reference the Huntsville area market: aerospace and Redstone Arsenal families often add space rather than relocate."
+      "notes": "Compare payback by addition type and set expectations that resale recovery is rarely 100 percent, so the real case is usable space versus the cost of moving. Reference the Huntsville area market: aerospace and Redstone Arsenal families often add space rather than relocate.",
+      "banked_at": "2026-09-17T22:13:26.014345+00:00"
     },
     {
       "id": "2026-08-26-20x20-room-addition-cost",

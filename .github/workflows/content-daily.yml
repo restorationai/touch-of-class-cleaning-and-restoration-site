@@ -55,6 +55,10 @@ jobs:
           DATAFORSEO_PASSWORD:          ${{ secrets.DATAFORSEO_PASSWORD }}
         run: |
           python3 scripts/target_terms_sync.py || true
+          # C3 (2026-09-17): shallow queues — cap 6 queued/client, overflow
+          # banked and auto-promoted as room frees. Strategy changes land in
+          # days, never behind a 23-deep backlog.
+          python3 scripts/content_queue_hygiene.py || true
           SLUG="${{ github.event.inputs.only_slug }}"
           if [ -n "$SLUG" ]; then
             python3 scripts/master_scheduler.py run-due --slug "$SLUG" --headless --systems 0,2

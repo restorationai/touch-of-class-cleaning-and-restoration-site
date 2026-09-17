@@ -682,7 +682,7 @@
     },
     {
       "id": "2026-07-09-what-to-do-after-storm-damage",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-07-09T18:09:50Z",
       "written_at": null,
       "post_url": null,
@@ -716,11 +716,12 @@
       "external_authority_candidates": [
         "https://www.ready.gov/severe-weather"
       ],
-      "notes": "Top-of-funnel emergency guide for homeowners in the hours after a Puget Sound windstorm or atmospheric river. Lead with safety (stay clear of downed power lines and unstable trees), then: document damage, contact insurer, temporary tarping and board-up to stop further water intrusion, and when to call a pro. Strong AI Overview citation candidate. DataForSEO was unavailable at research time; volume and KD pending backfill; queued via intent-first."
+      "notes": "Top-of-funnel emergency guide for homeowners in the hours after a Puget Sound windstorm or atmospheric river. Lead with safety (stay clear of downed power lines and unstable trees), then: document damage, contact insurer, temporary tarping and board-up to stop further water intrusion, and when to call a pro. Strong AI Overview citation candidate. DataForSEO was unavailable at research time; volume and KD pending backfill; queued via intent-first.",
+      "banked_at": "2026-09-17T22:13:26.022301+00:00"
     },
     {
       "id": "2026-07-09-storm-damage-repair-cost",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-07-09T18:09:50Z",
       "written_at": null,
       "post_url": null,
@@ -752,7 +753,8 @@
       ],
       "city_anchor": null,
       "external_authority_candidates": [],
-      "notes": "Cost decision-stage post. Break down realistic ranges by damage type: minor debris and cleanup, roof tarping and repair, fallen-tree impact, structural water intrusion, and full reconstruction. Note how insurance offsets out-of-pocket cost and where deductibles apply. Cross-link to the storm insurance-coverage post and the reconstruction service. DataForSEO was unavailable at research time; volume and KD pending backfill; queued via intent-first."
+      "notes": "Cost decision-stage post. Break down realistic ranges by damage type: minor debris and cleanup, roof tarping and repair, fallen-tree impact, structural water intrusion, and full reconstruction. Note how insurance offsets out-of-pocket cost and where deductibles apply. Cross-link to the storm insurance-coverage post and the reconstruction service. DataForSEO was unavailable at research time; volume and KD pending backfill; queued via intent-first.",
+      "banked_at": "2026-09-17T22:13:26.022305+00:00"
     },
     {
       "id": "2026-07-15-who-pays-for-crime-scene-cleanup-washington",
@@ -861,7 +863,7 @@
     },
     {
       "id": "2026-07-23-flooded-basement-what-to-do",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-07-23T18:15:00Z",
       "written_at": null,
       "post_url": null,
@@ -895,11 +897,12 @@
       "external_authority_candidates": [
         "https://www.ready.gov/floods"
       ],
-      "notes": "Top pick: vol 1000, KD 3. Emergency top-of-funnel for panicked homeowners. Lead with safety first (kill power/gas before entering standing water), then document for insurance, stop the source, extract water, and the 24-48 hour mold window. Distinguish clean vs gray vs sewage (black) water and when to call a pro (over ~10 sq ft or sewage). PNW context: 37+ in/yr rain, sump-pump failures, older ramblers with unconditioned crawl spaces and basements. Strong AI Overview citation candidate."
+      "notes": "Top pick: vol 1000, KD 3. Emergency top-of-funnel for panicked homeowners. Lead with safety first (kill power/gas before entering standing water), then document for insurance, stop the source, extract water, and the 24-48 hour mold window. Distinguish clean vs gray vs sewage (black) water and when to call a pro (over ~10 sq ft or sewage). PNW context: 37+ in/yr rain, sump-pump failures, older ramblers with unconditioned crawl spaces and basements. Strong AI Overview citation candidate.",
+      "banked_at": "2026-09-17T22:13:26.022306+00:00"
     },
     {
       "id": "2026-07-23-how-to-prevent-basement-flooding-heavy-rain",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-07-23T18:15:00Z",
       "written_at": null,
       "post_url": null,
@@ -931,11 +934,12 @@
       "external_authority_candidates": [
         "https://www.ready.gov/floods"
       ],
-      "notes": "Prevention/seasonal decision-stage, vol 320 (KD pending, competition HIGH). Frame for the PNW reality: sustained winter drizzle, atmospheric rivers, and Green/White/Cedar/Snohomish river valleys. Cover sump pumps + battery backup, exterior grading, gutter and downspout extensions, French drains, window-well covers, and backwater valves. Close with what to do when prevention fails, linking basement-flooding-cleanup. Matches the seed-list informational topic 'how to prevent basement flooding'."
+      "notes": "Prevention/seasonal decision-stage, vol 320 (KD pending, competition HIGH). Frame for the PNW reality: sustained winter drizzle, atmospheric rivers, and Green/White/Cedar/Snohomish river valleys. Cover sump pumps + battery backup, exterior grading, gutter and downspout extensions, French drains, window-well covers, and backwater valves. Close with what to do when prevention fails, linking basement-flooding-cleanup. Matches the seed-list informational topic 'how to prevent basement flooding'.",
+      "banked_at": "2026-09-17T22:13:26.022308+00:00"
     },
     {
       "id": "2026-07-23-flooded-basement-cleanup-cost",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-07-23T18:15:00Z",
       "written_at": null,
       "post_url": null,
@@ -967,11 +971,12 @@
       ],
       "city_anchor": null,
       "external_authority_candidates": [],
-      "notes": "Cost decision-stage, vol 260. Cost posts perform well for this client (see fire and mold cost posts). Break down realistic ranges by water category (clean vs gray vs sewage/black), affected square footage, extraction + structural drying vs full reconstruction, and mold remediation add-ons. Note how insurance offsets out-of-pocket and where deductibles and coverage gaps (surface flood, sewer backup) apply. Cross-link the basement flooding insurance post."
+      "notes": "Cost decision-stage, vol 260. Cost posts perform well for this client (see fire and mold cost posts). Break down realistic ranges by water category (clean vs gray vs sewage/black), affected square footage, extraction + structural drying vs full reconstruction, and mold remediation add-ons. Note how insurance offsets out-of-pocket and where deductibles and coverage gaps (surface flood, sewer backup) apply. Cross-link the basement flooding insurance post.",
+      "banked_at": "2026-09-17T22:13:26.022309+00:00"
     },
     {
       "id": "2026-07-23-my-basement-flooded-what-will-insurance-cover",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-07-23T18:15:00Z",
       "written_at": null,
       "post_url": null,
@@ -1005,11 +1010,12 @@
       "external_authority_candidates": [
         "https://www.iii.org/article/what-covered-standard-homeowners-policy"
       ],
-      "notes": "High-value insurance decision-stage (restoration-vertical priority), vol 170. Distinguish the three coverage buckets that trip up homeowners: sudden/accidental internal water (burst pipe, appliance leak) usually covered; surface flooding and groundwater need a separate NFIP/flood policy; sewer/drain backup needs a water-backup endorsement, and sump-pump failure needs its own rider. Cross-link the existing water-damage insurance post. Companion piece extending the site's insurance content into basement flooding."
+      "notes": "High-value insurance decision-stage (restoration-vertical priority), vol 170. Distinguish the three coverage buckets that trip up homeowners: sudden/accidental internal water (burst pipe, appliance leak) usually covered; surface flooding and groundwater need a separate NFIP/flood policy; sewer/drain backup needs a water-backup endorsement, and sump-pump failure needs its own rider. Cross-link the existing water-damage insurance post. Companion piece extending the site's insurance content into basement flooding.",
+      "banked_at": "2026-09-17T22:13:26.022310+00:00"
     },
     {
       "id": "2026-08-26-sewage-backup-in-basement",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T08:30:38Z",
       "written_at": null,
       "post_url": null,
@@ -1040,11 +1046,12 @@
         "https://www.iicrc.org/page/IICRCS500",
         "https://www.cdc.gov/mold/php/about/index.html"
       ],
-      "notes": "Category 3 black water: lead with the health/safety warning and the 24-48 hour response window. Sensitive-content care (contamination, health). Pair with the sewage cleanup and basement flooding cleanup service pages."
+      "notes": "Category 3 black water: lead with the health/safety warning and the 24-48 hour response window. Sensitive-content care (contamination, health). Pair with the sewage cleanup and basement flooding cleanup service pages.",
+      "banked_at": "2026-09-17T22:13:26.022311+00:00"
     },
     {
       "id": "2026-08-26-does-homeowners-insurance-cover-sewage-backup",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T08:30:38Z",
       "written_at": null,
       "post_url": null,
@@ -1071,11 +1078,12 @@
       "external_authority_candidates": [
         "https://www.iii.org/article/what-is-covered-by-standard-homeowners-policy"
       ],
-      "notes": "Decision-stage query hit 24-48 hours before hiring. Explain that a sewer/water backup rider is usually a SEPARATE endorsement, not standard coverage. Neutral, no legal/insurance guarantees."
+      "notes": "Decision-stage query hit 24-48 hours before hiring. Explain that a sewer/water backup rider is usually a SEPARATE endorsement, not standard coverage. Neutral, no legal/insurance guarantees.",
+      "banked_at": "2026-09-17T22:13:26.022312+00:00"
     },
     {
       "id": "2026-08-26-sewage-backup-cleanup-cost",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T08:30:38Z",
       "written_at": null,
       "post_url": null,
@@ -1103,11 +1111,12 @@
       "external_authority_candidates": [
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "Fold the cost variants into one guide. Break cost by category 3 factors: extraction, sanitizing, affected materials, structural drying. Give ranges, not guarantees."
+      "notes": "Fold the cost variants into one guide. Break cost by category 3 factors: extraction, sanitizing, affected materials, structural drying. Give ranges, not guarantees.",
+      "banked_at": "2026-09-17T22:13:26.022313+00:00"
     },
     {
       "id": "2026-08-26-how-to-clean-up-raw-sewage-in-basement",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T08:30:38Z",
       "written_at": null,
       "post_url": null,
@@ -1137,11 +1146,12 @@
         "https://www.cdc.gov/mold/php/about/index.html",
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "Sensitive: raw sewage is a category 3 biohazard. Emphasize PPE, health risk, disinfection, and the clear threshold for calling a professional. DIY-vs-pro framing without encouraging unsafe cleanup."
+      "notes": "Sensitive: raw sewage is a category 3 biohazard. Emphasize PPE, health risk, disinfection, and the clear threshold for calling a professional. DIY-vs-pro framing without encouraging unsafe cleanup.",
+      "banked_at": "2026-09-17T22:13:26.022314+00:00"
     },
     {
       "id": "2026-08-26-what-is-category-3-water",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T08:30:38Z",
       "written_at": null,
       "post_url": null,
@@ -1170,7 +1180,8 @@
       "external_authority_candidates": [
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "Authority/definition piece anchoring the sewage cluster. Explain IICRC S500 water categories 1-2-3, why sewage is category 3, and health implications. Links out to sewage cleanup + water damage services."
+      "notes": "Authority/definition piece anchoring the sewage cluster. Explain IICRC S500 water categories 1-2-3, why sewage is category 3, and health implications. Links out to sewage cleanup + water damage services.",
+      "banked_at": "2026-09-17T22:13:26.022315+00:00"
     },
     {
       "id": "2026-08-28-pin-water-damage-repair",

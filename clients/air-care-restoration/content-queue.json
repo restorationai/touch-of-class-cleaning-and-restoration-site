@@ -264,7 +264,7 @@
     },
     {
       "id": "2026-08-17-how-soon-does-mold-grow-after-water-damage",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-17T17:12:13Z",
       "written_at": null,
       "post_url": null,
@@ -300,11 +300,12 @@
       ],
       "notes": "110/mo, KD 0. The two planned mold posts cover detection and black-mold identification, not the growth timeline, so the editorial partition is genuinely open. Answer the number in the first 40 words (24 to 48 hours) because that is the passage AI engines lift.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-17T22:13:26.009111+00:00"
     },
     {
       "id": "2026-08-17-how-long-does-water-damage-restoration-take",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-17T17:12:13Z",
       "written_at": null,
       "post_url": null,
@@ -340,11 +341,12 @@
       ],
       "notes": "50/mo, KD 3, and it pairs with the cost post as the other half of the two questions every caller asks. Structure as day 1, days 2 to 4, days 5 to 7, then reconstruction. Fold the zero-volume ChatGPT variant 'water damage restoration process steps' in as an H2.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-17T22:13:26.009119+00:00"
     },
     {
       "id": "2026-08-17-file-insurance-claim-water-damage",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-17T17:12:13Z",
       "written_at": null,
       "post_url": null,
@@ -380,11 +382,12 @@
       ],
       "notes": "Zero measured Google volume but surfaced twice in the ChatGPT decomposition, so it is scored intent-first per the GEO rule. The existing blog covers WHETHER insurance pays, not HOW to file: adjacent, not duplicate. Make the point that Texas homeowners can choose their own restoration contractor, which is the conversion lever.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-17T22:13:26.009120+00:00"
     },
     {
       "id": "2026-08-26-what-certifications-water-damage-restoration-company",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T13:20:00Z",
       "written_at": null,
       "post_url": null,
@@ -420,11 +423,12 @@
       ],
       "notes": "Decision-stage question straight out of the ChatGPT decomposition. Air Care is an IICRC certified firm holding WRT and FSRT plus Texas mold remediation contractor licence MRC2262 and EPA Lead-Safe: name each credential, say what it actually covers, and link the TDLR licence lookup so the reader can verify. Do not claim credentials outside the plan-input list.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-17T22:13:26.009122+00:00"
     },
     {
       "id": "2026-08-26-should-i-replace-drywall-that-got-wet",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T13:20:00Z",
       "written_at": null,
       "post_url": null,
@@ -461,11 +465,12 @@
       ],
       "notes": "Materials-triage question no existing post covers. Explain the dry-in-place vs flood-cut decision by water category and saturation time, the 2-foot and 4-foot flood cut, and why category 3 drywall always comes out. Reference moisture meter readings rather than guesswork.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-17T22:13:26.009123+00:00"
     },
     {
       "id": "2026-08-26-does-insurance-cover-burst-pipe-in-wall",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T13:20:00Z",
       "written_at": null,
       "post_url": null,
@@ -502,11 +507,12 @@
       ],
       "notes": "Highest-intent insurance gap left after the published insurance explainer: the in-wall, hidden-failure case. Draw the line between sudden accidental discharge (usually covered) and long-term seepage (usually excluded), cover access or tear-out coverage, and note the Texas 2021 freeze precedent. Reference TDI, and never promise a coverage outcome.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-17T22:13:26.009124+00:00"
     },
     {
       "id": "2026-08-26-what-personal-items-can-be-salvaged-after-water-damage",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T13:20:00Z",
       "written_at": null,
       "post_url": null,
@@ -543,11 +549,12 @@
       ],
       "notes": "Only demand signal in this seed family pointing at the contents-restoration service, which has no editorial support yet. Sort by material (porous vs semi-porous vs hard) and by water category, cover pack-out and storage, and be honest that category 3 contact ends most porous items.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-17T22:13:26.009125+00:00"
     },
     {
       "id": "2026-08-26-what-equipment-do-water-damage-restoration-companies-use",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T13:20:00Z",
       "written_at": null,
       "post_url": null,
@@ -582,7 +589,8 @@
       ],
       "notes": "Entity-dense passage bait for AI answers (air movers, LGR dehumidifiers, moisture meters, thermal cameras, negative air machines, extraction units). Frame around the DIY-versus-pro drying gap and the IICRC S500 drying standard. Use only equipment the client actually runs; ask before naming brands.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-17T22:13:26.009126+00:00"
     },
     {
       "id": "2026-09-03-pin-black-mold-removal",

@@ -403,7 +403,7 @@
     },
     {
       "id": "2026-07-20-how-to-prevent-mold-after-a-flood",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-07-20T21:15:00Z",
       "written_at": null,
       "post_url": null,
@@ -434,11 +434,12 @@
         "https://www.epa.gov/mold/mold-cleanup-your-home",
         "https://www.cdc.gov/disasters/floods/index.html"
       ],
-      "notes": "Actionable prevention post: mold begins in 24-48h after flooding. Cover fast water removal, structural drying, discarding porous materials, dehumidification, and when DIY isn't enough. Distinct from the basement-flooding-prevention (prevents the flood) and mold-after-water-damage (mold growth timing) blogs. No Google volume returned; queued intent-first as a GEO/AI-retrieval question. KD low (null in bulk check)."
+      "notes": "Actionable prevention post: mold begins in 24-48h after flooding. Cover fast water removal, structural drying, discarding porous materials, dehumidification, and when DIY isn't enough. Distinct from the basement-flooding-prevention (prevents the flood) and mold-after-water-damage (mold growth timing) blogs. No Google volume returned; queued intent-first as a GEO/AI-retrieval question. KD low (null in bulk check).",
+      "banked_at": "2026-09-17T22:13:26.018230+00:00"
     },
     {
       "id": "2026-07-20-what-to-throw-away-after-a-flood",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-07-20T21:15:00Z",
       "written_at": null,
       "post_url": null,
@@ -469,11 +470,12 @@
         "https://www.ready.gov/floods",
         "https://www.epa.gov/mold/mold-cleanup-your-home"
       ],
-      "notes": "Save/discard checklist grounded in the ChatGPT decomposition: usually discard carpet padding, wet insulation, particleboard/MDF, mattresses and upholstery exposed to floodwater; can often save solid wood, metal, glass after cleaning. Emphasize category-3 contamination from floodwater. No Google volume returned; queued intent-first."
+      "notes": "Save/discard checklist grounded in the ChatGPT decomposition: usually discard carpet padding, wet insulation, particleboard/MDF, mattresses and upholstery exposed to floodwater; can often save solid wood, metal, glass after cleaning. Emphasize category-3 contamination from floodwater. No Google volume returned; queued intent-first.",
+      "banked_at": "2026-09-17T22:13:26.018232+00:00"
     },
     {
       "id": "2026-07-20-how-much-does-flood-damage-cleanup-cost",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-07-20T21:15:00Z",
       "written_at": null,
       "post_url": null,
@@ -503,11 +505,12 @@
         "https://www.floodsmart.gov/",
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "Decision-stage cost query, distinct from the queued water-damage-restoration cost post: flood water is typically category 3, driving higher remediation cost, and NFIP flood insurance (not standard homeowners) is the relevant coverage. Keep ranges general; avoid unverifiable local quotes. Commercial intent, no matching commercial page in url-plan; blog is correct home. No Google volume returned; queued intent-first, KD low."
+      "notes": "Decision-stage cost query, distinct from the queued water-damage-restoration cost post: flood water is typically category 3, driving higher remediation cost, and NFIP flood insurance (not standard homeowners) is the relevant coverage. Keep ranges general; avoid unverifiable local quotes. Commercial intent, no matching commercial page in url-plan; blog is correct home. No Google volume returned; queued intent-first, KD low.",
+      "banked_at": "2026-09-17T22:13:26.018234+00:00"
     },
     {
       "id": "2026-08-03-water-pipe-burst-inside-house",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-03T18:04:59Z",
       "written_at": null,
       "post_url": null,
@@ -540,11 +543,12 @@
         "https://www.iicrc.org/page/IICRCS500",
         "https://www.allstate.com/resources/home-insurance/burst-pipe-water-damage"
       ],
-      "notes": "Highest-volume uncovered term from the burst pipe seed (590/mo, KD 1, $25.90 CPC). Do NOT repeat the numbered emergency steps: /blog/burst-pipe-emergency-checklist/ already owns that intent and must be linked instead. This post covers what a burst supply line actually does to drywall, insulation, subfloor and cabinetry, the 24-48 hour mold window, and how a restoration crew finds hidden moisture (meters, thermal imaging, cavity drying)."
+      "notes": "Highest-volume uncovered term from the burst pipe seed (590/mo, KD 1, $25.90 CPC). Do NOT repeat the numbered emergency steps: /blog/burst-pipe-emergency-checklist/ already owns that intent and must be linked instead. This post covers what a burst supply line actually does to drywall, insulation, subfloor and cabinetry, the 24-48 hour mold window, and how a restoration crew finds hidden moisture (meters, thermal imaging, cavity drying).",
+      "banked_at": "2026-09-17T22:13:26.018235+00:00"
     },
     {
       "id": "2026-08-03-pipe-burst-repair-cost",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-03T18:04:59Z",
       "written_at": null,
       "post_url": null,
@@ -579,11 +583,12 @@
         "https://www.iicrc.org/page/IICRCS500",
         "https://www.iii.org/article/covering-your-home-water-damage"
       ],
-      "notes": "$34 CPC, decision-stage. The differentiator: split cost into three buckets (plumbing repair, mitigation/drying, reconstruction) because homeowners searching this only price the first one. Use San Diego County ranges and label every figure as a range, never a fixed quote. Cross-link the insurance posts since most of this cost is claimable."
+      "notes": "$34 CPC, decision-stage. The differentiator: split cost into three buckets (plumbing repair, mitigation/drying, reconstruction) because homeowners searching this only price the first one. Use San Diego County ranges and label every figure as a range, never a fixed quote. Cross-link the insurance posts since most of this cost is claimable.",
+      "banked_at": "2026-09-17T22:13:26.018236+00:00"
     },
     {
       "id": "2026-08-03-does-homeowners-insurance-cover-broken-pipes-under-foundation",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-03T18:04:59Z",
       "written_at": null,
       "post_url": null,
@@ -618,11 +623,12 @@
         "https://www.iii.org/article/covering-your-home-water-damage",
         "https://www.allstate.com/resources/home-insurance/burst-pipe-water-damage"
       ],
-      "notes": "Insurance decision-stage, 24-48 hours before hiring. Keep this narrowly about pipes under the slab, foundation and yard so it does not compete with the existing generic /blog/does-homeowners-insurance-cover-water-damage/ post, which should be linked as the parent. The whole answer hinges on sudden-and-accidental versus long-term seepage, plus the fact that the resulting water damage is often covered even when the pipe itself is not. San Diego is slab-on-grade heavy, so this is a local reality, not an edge case."
+      "notes": "Insurance decision-stage, 24-48 hours before hiring. Keep this narrowly about pipes under the slab, foundation and yard so it does not compete with the existing generic /blog/does-homeowners-insurance-cover-water-damage/ post, which should be linked as the parent. The whole answer hinges on sudden-and-accidental versus long-term seepage, plus the fact that the resulting water damage is often covered even when the pipe itself is not. San Diego is slab-on-grade heavy, so this is a local reality, not an edge case.",
+      "banked_at": "2026-09-17T22:13:26.018237+00:00"
     },
     {
       "id": "2026-08-03-burst-pipe-insurance-claim-tips",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-03T18:04:59Z",
       "written_at": null,
       "post_url": null,
@@ -656,11 +662,12 @@
         "https://www.iicrc.org/page/IICRCS500",
         "https://www.iii.org/article/how-to-file-a-homeowners-insurance-claim"
       ],
-      "notes": "Claim-process angle only: eligibility belongs to the foundation-pipes post. Emphasize photo and video documentation before mitigation starts, keeping receipts for emergency spend, and the fact that moisture readings and daily drying logs from an IICRC-certified firm are the strongest claim evidence a homeowner can hand an adjuster. Include the California point that the policyholder chooses their own restoration contractor, not the carrier."
+      "notes": "Claim-process angle only: eligibility belongs to the foundation-pipes post. Emphasize photo and video documentation before mitigation starts, keeping receipts for emergency spend, and the fact that moisture readings and daily drying logs from an IICRC-certified firm are the strongest claim evidence a homeowner can hand an adjuster. Include the California point that the policyholder chooses their own restoration contractor, not the carrier.",
+      "banked_at": "2026-09-17T22:13:26.018238+00:00"
     },
     {
       "id": "2026-08-03-how-to-tell-if-a-pipe-burst-underground",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-03T18:04:59Z",
       "written_at": null,
       "post_url": null,
@@ -693,11 +700,12 @@
         "https://www.epa.gov/watersense/fix-leak-week",
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "Diagnostic checklist, zero Google-measured KD and a strong AI-retrieval shape (the SERP already carries an AI overview plus people-also-ask). Build it as discrete signal sections: the meter test with everything shut off, an unexplained bill spike, soggy or unusually green patches in the yard, running-water sound in a silent house, warm spots on a slab floor, low pressure, sinkholes or settling. Lead with slab symptoms rather than basement symptoms: San Diego housing stock is mostly slab-on-grade."
+      "notes": "Diagnostic checklist, zero Google-measured KD and a strong AI-retrieval shape (the SERP already carries an AI overview plus people-also-ask). Build it as discrete signal sections: the meter test with everything shut off, an unexplained bill spike, soggy or unusually green patches in the yard, running-water sound in a silent house, warm spots on a slab floor, low pressure, sinkholes or settling. Lead with slab symptoms rather than basement symptoms: San Diego housing stock is mostly slab-on-grade.",
+      "banked_at": "2026-09-17T22:13:26.018239+00:00"
     },
     {
       "id": "2026-08-27-does-renters-insurance-cover-basement-flooding",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-27T02:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -729,11 +737,12 @@
         "https://www.floodsmart.gov/",
         "https://www.iii.org/article/does-my-homeowners-insurance-cover-water-damage"
       ],
-      "notes": "Highest-volume gap from this seed (720/mo, KD 12) and genuinely uncovered: both existing insurance posts address homeowners policies, not renters. Draw the line clearly between contents coverage (tenant policy) and structure coverage (landlord policy), and note the NFIP flood exclusion. Do not promise coverage outcomes."
+      "notes": "Highest-volume gap from this seed (720/mo, KD 12) and genuinely uncovered: both existing insurance posts address homeowners policies, not renters. Draw the line clearly between contents coverage (tenant policy) and structure coverage (landlord policy), and note the NFIP flood exclusion. Do not promise coverage outcomes.",
+      "banked_at": "2026-09-17T22:13:26.018240+00:00"
     },
     {
       "id": "2026-08-27-basement-flooded-who-to-call",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-27T02:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -766,11 +775,12 @@
       "external_authority_candidates": [
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "CPC $94.88 with KD 0: the single best money-to-difficulty ratio in this seed family. Decision-stage query. Order the call list by scenario (still-active water goes to the plumber or shutoff first, then restoration, then the carrier) and close with the 24/7 line."
+      "notes": "CPC $94.88 with KD 0: the single best money-to-difficulty ratio in this seed family. Decision-stage query. Order the call list by scenario (still-active water goes to the plumber or shutoff first, then restoration, then the carrier) and close with the 24/7 line.",
+      "banked_at": "2026-09-17T22:13:26.018241+00:00"
     },
     {
       "id": "2026-08-27-why-is-my-basement-flooding",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-27T02:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -803,11 +813,12 @@
       "external_authority_candidates": [
         "https://www.ready.gov/floods"
       ],
-      "notes": "Diagnostic angle, not covered by the existing prevention post. Cause-first structure so AI assistants can lift individual causes as passages. Include a San Diego note: most local basement flooding is plumbing or irrigation driven rather than seasonal groundwater, which differs from the national coverage that dominates this SERP."
+      "notes": "Diagnostic angle, not covered by the existing prevention post. Cause-first structure so AI assistants can lift individual causes as passages. Include a San Diego note: most local basement flooding is plumbing or irrigation driven rather than seasonal groundwater, which differs from the national coverage that dominates this SERP.",
+      "banked_at": "2026-09-17T22:13:26.018242+00:00"
     },
     {
       "id": "2026-08-27-water-heater-flooding-basement",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-27T02:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -839,11 +850,12 @@
       "external_authority_candidates": [
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "KD 0 at CPC $73.99. Lead with the shutoff sequence (power or gas first, then cold water supply) because that is the passage AI assistants will lift. A failed heater is clean Category 1 water that degrades to Category 2 within roughly 48 hours: state that window explicitly."
+      "notes": "KD 0 at CPC $73.99. Lead with the shutoff sequence (power or gas first, then cold water supply) because that is the passage AI assistants will lift. A failed heater is clean Category 1 water that degrades to Category 2 within roughly 48 hours: state that window explicitly.",
+      "banked_at": "2026-09-17T22:13:26.018243+00:00"
     },
     {
       "id": "2026-08-27-basement-flooding-sump-pump-not-working",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-27T02:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -874,7 +886,8 @@
       "external_authority_candidates": [
         "https://www.ready.gov/floods"
       ],
-      "notes": "KD 0 at CPC $73.24. Split the piece by failure mode (tripped breaker, stuck float, clogged intake, undersized pump, discharge frozen or blocked) and be explicit that standing water plus an electrical outlet is a stop-and-call-a-pro condition. Flood Fixers does not sell or install sump pumps: keep the CTA on cleanup and drying, not pump replacement."
+      "notes": "KD 0 at CPC $73.24. Split the piece by failure mode (tripped breaker, stuck float, clogged intake, undersized pump, discharge frozen or blocked) and be explicit that standing water plus an electrical outlet is a stop-and-call-a-pro condition. Flood Fixers does not sell or install sump pumps: keep the CTA on cleanup and drying, not pump replacement.",
+      "banked_at": "2026-09-17T22:13:26.018244+00:00"
     },
     {
       "id": "2026-08-28-pin-water-damage-repair",

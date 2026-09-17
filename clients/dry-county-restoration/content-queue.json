@@ -234,7 +234,7 @@
     },
     {
       "id": "2026-08-26-how-to-fix-water-damage-on-ceiling",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T23:35:00Z",
       "written_at": null,
       "post_url": null,
@@ -269,11 +269,12 @@
       ],
       "notes": "1000/mo, KD 0. Lead with the safety call: a sagging or bulging ceiling is holding water and is a collapse risk, not a DIY patch. Give the honest DIY boundary (small stain, dry, source fixed) then hand off to the restoration and reconstruction pages. The heavy-rain question is the strongest AI-retrieval passage in the cluster.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-17T22:13:26.016216+00:00"
     },
     {
       "id": "2026-08-26-how-to-repair-water-damage-to-hardwood-floors",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T23:35:00Z",
       "written_at": null,
       "post_url": null,
@@ -307,11 +308,12 @@
       ],
       "notes": "590/mo, KD 0. The money angle is salvage vs replace: in-place structural drying (the firm holds IICRC ASD) often saves floors that look ruined, and that is a real differentiator worth stating. Explain cupping vs crowning vs buckling as the diagnostic. Fold the generic 'water damage on wood' variant in as an H2 on furniture and trim.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-17T22:13:26.016220+00:00"
     },
     {
       "id": "2026-08-26-how-long-does-water-damage-restoration-take",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T23:35:00Z",
       "written_at": null,
       "post_url": null,
@@ -345,7 +347,8 @@
       ],
       "notes": "50/mo, KD 3, but it answers the two questions every panicked caller asks: how long, and do we have to leave. Structure as a literal day-by-day timeline (inspection, extraction, 3-5 days drying, then reconstruction) because that format is what AI assistants lift verbatim. Separate mitigation timeline from rebuild timeline so expectations are not set wrong.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-17T22:13:26.016221+00:00"
     },
     {
       "id": "2026-09-17-what-to-do-after-a-house-fire",
@@ -428,7 +431,7 @@
     },
     {
       "id": "2026-09-17-smoke-damage-restoration",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-17T20:30:00Z",
       "written_at": null,
       "post_url": null,
@@ -466,11 +469,12 @@
         "https://www.iicrc.org/page/IICRCS700",
         "https://www.usfa.fema.gov/prevention/home-fires/after-a-fire/"
       ],
-      "notes": "Biggest uncovered commercial gap found this run: 1600/mo at KD 20 with CPC 31.88 and NO page in the url-plan targeting smoke or soot. SERVICE-FIT FLAG: smoke-damage-restoration and soot-removal are catalog slugs that are NOT in this client's plan-input services[], so this is written as a sub-topic of the in-plan fire-damage-restoration service and tagged that way. Do not promise smoke remediation as a standalone service line. Client holds IICRC WRT/ASD/AMRT but NOT FSRT/OCT; keep claims to their actual certifications. Recommend the team add smoke-damage-restoration to plan-input and build a service page."
+      "notes": "Biggest uncovered commercial gap found this run: 1600/mo at KD 20 with CPC 31.88 and NO page in the url-plan targeting smoke or soot. SERVICE-FIT FLAG: smoke-damage-restoration and soot-removal are catalog slugs that are NOT in this client's plan-input services[], so this is written as a sub-topic of the in-plan fire-damage-restoration service and tagged that way. Do not promise smoke remediation as a standalone service line. Client holds IICRC WRT/ASD/AMRT but NOT FSRT/OCT; keep claims to their actual certifications. Recommend the team add smoke-damage-restoration to plan-input and build a service page.",
+      "banked_at": "2026-09-17T22:13:26.016223+00:00"
     },
     {
       "id": "2026-09-17-fire-damage-restoration-cost",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-17T20:30:00Z",
       "written_at": null,
       "post_url": null,
@@ -504,11 +508,12 @@
         "https://www.iicrc.org/page/IICRCS700",
         "https://www.usfa.fema.gov/prevention/home-fires/after-a-fire/"
       ],
-      "notes": "KD 1. Give honest ranges by damage severity and square footage, separate mitigation from reconstruction (general-contracting is in plan, so the rebuild side is sellable), and explain how the insurance deductible changes out-of-pocket cost. Pairs with the queued water damage restoration cost CA post: use the same table format, do not repeat the copy."
+      "notes": "KD 1. Give honest ranges by damage severity and square footage, separate mitigation from reconstruction (general-contracting is in plan, so the rebuild side is sellable), and explain how the insurance deductible changes out-of-pocket cost. Pairs with the queued water damage restoration cost CA post: use the same table format, do not repeat the copy.",
+      "banked_at": "2026-09-17T22:13:26.016224+00:00"
     },
     {
       "id": "2026-09-17-what-to-throw-away-after-smoke-damage",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-17T20:30:00Z",
       "written_at": null,
       "post_url": null,
@@ -544,7 +549,8 @@
         "https://www.redcross.org/get-help/disaster-relief-and-recovery-services/recovering-from-a-home-fire.html",
         "https://www.iicrc.org/page/IICRCS700"
       ],
-      "notes": "CPC 18.92 on a 210/mo question: strong AI-retrieval fuel, and the keep-vs-toss list is exactly the passage format ChatGPT lifts verbatim. Build it as a room-by-room and material-by-material list (food, medication, cosmetics, mattresses, porous vs non-porous). Tie the save side to contents-restoration, which IS in plan. KD unknown (not in the Labs DB); queued on volume plus intent."
+      "notes": "CPC 18.92 on a 210/mo question: strong AI-retrieval fuel, and the keep-vs-toss list is exactly the passage format ChatGPT lifts verbatim. Build it as a room-by-room and material-by-material list (food, medication, cosmetics, mattresses, porous vs non-porous). Tie the save side to contents-restoration, which IS in plan. KD unknown (not in the Labs DB); queued on volume plus intent.",
+      "banked_at": "2026-09-17T22:13:26.016225+00:00"
     }
   ]
 }

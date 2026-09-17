@@ -235,7 +235,7 @@
     },
     {
       "id": "2026-08-26-water-damage-restoration-cost",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T23:55:00Z",
       "written_at": null,
       "post_url": null,
@@ -272,11 +272,12 @@
       ],
       "notes": "Highest-CPC family in the seed (mitigation CPCs run $30-$118 in this market), so the organic version intercepts spend the client would otherwise pay for. Structure by cost driver: water category (1/2/3), square footage, class of drying, equipment days, and whether reconstruction follows mitigation. Give honest ranges and say plainly that most of it is an insurance claim, not out of pocket. No fabricated price tables and no fake calculator: publish ranges with the drivers that move them.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-17T22:13:26.017467+00:00"
     },
     {
       "id": "2026-08-26-water-in-basement-after-heavy-rain",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T23:55:00Z",
       "written_at": null,
       "post_url": null,
@@ -313,11 +314,12 @@
       ],
       "notes": "Strong local hook without being a location page: Connoquenessing Creek (Zelienople, Butler) and Breakneck Creek (Mars, Evans City) put low-lying blocks on flood alert in cloudburst summers, and Cranberry and Seven Fields sit on sump-dependent newer builds. Separate the three causes clearly (surface grading and downspouts, hydrostatic seepage through block walls, sump or drain failure) because the insurance answer differs for each: groundwater seepage is usually excluded, sump failure needs a rider, storm-driven surface flooding needs NFIP. Writer should note FireDEX does the cleanup and drying, not foundation waterproofing.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-17T22:13:26.017469+00:00"
     },
     {
       "id": "2026-08-26-category-3-water-damage",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T23:55:00Z",
       "written_at": null,
       "post_url": null,
@@ -354,11 +356,12 @@
       ],
       "notes": "Definition-style page that AI assistants lift verbatim, which is exactly the retrieval slot the audit says the client can win. Cover the escalation rule (clean water turns category 2 then 3 with time, temperature and contact with contaminated materials) because that is what homeowners get wrong when they wait a weekend. Butler and Beaver Falls housing stock runs original cast-iron drains, so sewer backup is a real local scenario. Sensitive-adjacent content: keep it factual, no gore, no scare copy. Cite the S500 standard, do not claim certification.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-17T22:13:26.017470+00:00"
     },
     {
       "id": "2026-08-26-what-is-water-damage-restoration",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T23:55:00Z",
       "written_at": null,
       "post_url": null,
@@ -395,7 +398,8 @@
       ],
       "notes": "Pillar explainer for the water-first pivot: FireDEX reads as a fire brand, so a plain-language water process page anchors the entity to water work for both readers and AI retrieval. Draw the mitigation/reconstruction line explicitly (extraction, structural drying, monitoring, then repairs) since the client does both under one roof, which most Butler County competitors do not. Differentiate from /blog/how-long-does-water-damage-restoration-take/ by covering scope rather than duration, and link to it for the timeline question.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-17T22:13:26.017471+00:00"
     },
     {
       "id": "2026-09-10-what-to-do-after-a-house-fire",

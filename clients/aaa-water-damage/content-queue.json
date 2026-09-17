@@ -160,7 +160,7 @@
     },
     {
       "id": "2026-08-10-water-damage-restoration-cost",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-10T17:12:00Z",
       "written_at": null,
       "post_url": null,
@@ -194,11 +194,12 @@
       ],
       "notes": "Highest-value uncovered informational term in the seed family: 880/mo at KD 3, and none of the 12 planned blog posts touch price. Break cost down by driver (water category, affected square footage, materials removed, drying days, equipment count) rather than publishing a flat price list. Explain mitigation billing vs reconstruction billing separately. Do not publish a fixed price sheet or a guaranteed quote range.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-17T22:13:26.007757+00:00"
     },
     {
       "id": "2026-08-10-who-is-responsible-for-water-damage-in-a-condo",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-10T17:12:00Z",
       "written_at": null,
       "post_url": null,
@@ -232,11 +233,12 @@
       ],
       "notes": "Highest local-fit question in the whole fan-out. Urban Honolulu is condo country (Waikiki, Kakaako, Ala Moana, the Diamond Head Gold Coast co-ops) where one failed riser or supply line soaks the units below and pulls in AOAO coverage alongside the owner's HO-6. Explain the split between association master policy and unit-owner policy in general terms, and what documentation the association's insurer will expect. Keep it educational: state plainly this is not legal or insurance advice and that the governing documents control.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-17T22:13:26.007939+00:00"
     },
     {
       "id": "2026-08-10-water-mitigation-vs-water-restoration",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-10T17:12:00Z",
       "written_at": null,
       "post_url": null,
@@ -270,11 +272,12 @@
       ],
       "notes": "ChatGPT's decomposition of the seed named this distinction as extremely important and no planned page covers it. Lay out mitigation (extraction, air movers, dehumidifiers, moisture mapping, controlled demolition, monitoring, documentation) against reconstruction (drywall, flooring, cabinets, trim, paint). Important truth-gate note for this client: drywall, painting and remodel service pages were deliberately omitted pending an HI contractor license number, so the post must describe reconstruction generically and must not offer or imply the client performs licensed reconstruction work.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-17T22:13:26.007943+00:00"
     },
     {
       "id": "2026-08-10-how-do-i-know-if-my-house-is-dry-after-water-damage",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-10T17:12:00Z",
       "written_at": null,
       "post_url": null,
@@ -309,7 +312,8 @@
       ],
       "notes": "ChatGPT called this the single best question a homeowner can ask, and the planned blog only covers how long restoration takes, not how dryness is verified. Give the reader the exact list to ask for: baseline readings, affected materials, daily readings, target dry standard, where readings were taken, and a copy of the drying log. Tie it to Oahu's ambient humidity, which makes 'it feels dry' meaningless year-round.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-17T22:13:26.007944+00:00"
     },
     {
       "id": "2026-08-17-mold-remediation-cost",
@@ -465,7 +469,7 @@
     },
     {
       "id": "2026-08-17-mold-remediation-oahu",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-17T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -499,7 +503,8 @@
       ],
       "notes": "Island-wide gap that mirrors the one the water damage run found: the url-plan has mold-remediation pages for all 13 cities but nothing at Oahu or Hawaii scope, so 'mold remediation oahu' (170/mo, KD 12) and 'mold remediation hawaii' (50/mo, KD 16) have no target. Frame around what makes island mold different: year-round trade-wind humidity that collapses the 24-48 hour growth window, single-wall construction in Kaimuki, Aina Haina and Kailua that wicks water into cavities, the Koolau windward face making Kaneohe the wettest market served, and salt-air corrosion seeding slow leaks. Route readers out to the per-city mold pages. Truth gate: 'over 25 years' phrasing only, no founding year, no license or IICRC claims, no commercial client name-drops.",
       "source": "keyword-researcher",
-      "seed": "mold remediation"
+      "seed": "mold remediation",
+      "banked_at": "2026-09-17T22:13:26.007946+00:00"
     },
     {
       "id": "2026-08-26-flood-insurance-hawaii",

@@ -311,7 +311,7 @@
     },
     {
       "id": "2026-08-09-crawl-space-encapsulation-cost",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-10T00:45:00Z",
       "written_at": null,
       "post_url": null,
@@ -345,11 +345,12 @@
         "https://www.epa.gov/mold/mold-course-chapter-2"
       ],
       "notes": "Flagship cost guide: 9,900/mo national, $24.35 CPC, top CPC tier for this service. Give national ranges then anchor to the housing stock we serve: older homes around Durham's Trinity Park and Duke Park bring frequent crawl space moisture calls, and Zebulon's rural properties are typically well-and-crawl-space homes (both per plan-input local notes). Break out cost per square foot, vapor barrier only vs full encapsulation, and dehumidifier add-on.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.795194+00:00"
     },
     {
       "id": "2026-08-09-mold-remediation-cost",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-10T00:46:00Z",
       "written_at": null,
       "post_url": null,
@@ -383,11 +384,12 @@
         "https://www.epa.gov/mold/mold-cleanup-your-home"
       ],
       "notes": "Highest-volume mold cost guide (9,900/mo, KD 3, $23 CPC). National ranges first, then Raleigh-area factors: humid summers, crawl space and attic jobs, containment and clearance testing. Cross-link the existing mold testing and hidden mold posts.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.795198+00:00"
     },
     {
       "id": "2026-08-09-air-duct-cleaning-cost",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-10T00:47:00Z",
       "written_at": null,
       "post_url": null,
@@ -419,11 +421,12 @@
         "https://www.epa.gov/indoor-air-quality-iaq/should-you-have-air-ducts-your-home-cleaned"
       ],
       "notes": "9,900/mo national, $13 CPC. This niche is full of $99 bait-and-switch coupon operators, so a straight-talk pricing guide builds trust. Reference the EPA guidance on when duct cleaning is and is not worthwhile. Do not promise health outcomes.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.795202+00:00"
     },
     {
       "id": "2026-08-09-attic-insulation-cost",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-10T00:48:00Z",
       "written_at": null,
       "post_url": null,
@@ -455,11 +458,12 @@
         "https://www.energy.gov/energysaver/insulation"
       ],
       "notes": "9,900/mo national, $10 CPC. Anchor to Wake Forest where fast-growing subdivisions make attic insulation and duct work common projects (per plan-input local notes). Cover removal cost separately (390/mo for insulation removal cost): old, damp, or pest-contaminated insulation is the removal trigger in this climate.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.795203+00:00"
     },
     {
       "id": "2026-08-09-mold-inspection-cost",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-10T00:49:00Z",
       "written_at": null,
       "post_url": null,
@@ -491,11 +495,12 @@
         "https://www.epa.gov/mold/mold-cleanup-your-home"
       ],
       "notes": "5,400/mo national, $14 CPC. Anchor to Durham where older housing stock around Trinity Park and Duke Park drives moisture and mold calls (per plan-input local notes). Distinguish inspection vs testing vs remediation quotes. Cross-link the existing DIY-vs-pro mold testing post instead of repeating it.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.795204+00:00"
     },
     {
       "id": "2026-08-09-carpet-cleaning-cost",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-10T00:50:00Z",
       "written_at": null,
       "post_url": null,
@@ -524,11 +529,12 @@
       "city_anchor": "raleigh-nc",
       "external_authority_candidates": [],
       "notes": "5,400/mo national plus 1,600/mo for carpet cleaning raleigh shows real metro demand. Per-room vs per-square-foot pricing, hot water extraction vs low-moisture, and why dry times matter in humid summers. Keep claims to process and pricing.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.795205+00:00"
     },
     {
       "id": "2026-08-09-water-damage-restoration-cost",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-10T00:51:00Z",
       "written_at": null,
       "post_url": null,
@@ -560,11 +566,12 @@
         "https://www.iicrc.org/page/IICRCS500"
       ],
       "notes": "880/mo, KD 3, $20 CPC. Category and class drive price: explain Cat 1 vs Cat 3 and drying scope. Region angle is groundable from plan-input: Tar River flooding history around Rocky Mount and storm-driven intrusions near the Neuse in Smithfield make storm-season claims a recurring cost question. Cross-link both existing water damage posts.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.795206+00:00"
     },
     {
       "id": "2026-08-09-does-homeowners-insurance-cover-mold",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-10T00:52:00Z",
       "written_at": null,
       "post_url": null,
@@ -596,11 +603,12 @@
         "https://www.iii.org/article/will-homeowners-insurance-cover-mold"
       ],
       "notes": "5,400/mo, KD 11, $12.57 CPC. Companion to the existing water damage insurance post: link it early and keep the two distinct (this one is mold-specific: sudden-event coverage vs excluded slow leaks and humidity neglect). No legal or coverage guarantees, always point to the policy.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.795207+00:00"
     },
     {
       "id": "2026-08-09-mold-in-air-ducts",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-10T00:53:00Z",
       "written_at": null,
       "post_url": null,
@@ -634,11 +642,12 @@
         "https://www.epa.gov/indoor-air-quality-iaq/should-you-have-air-ducts-your-home-cleaned"
       ],
       "notes": "3,600/mo, KD 2, $20.69 CPC, and it bridges two of the client's services (duct cleaning + mold remediation). Humid-climate condensation in ductwork is the mechanism. Health claims stay cautious and cite EPA. Cross-link black mold vs regular mold.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.795208+00:00"
     },
     {
       "id": "2026-08-09-mold-in-crawl-space",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-10T00:54:00Z",
       "written_at": null,
       "post_url": null,
@@ -672,11 +681,12 @@
         "https://www.epa.gov/mold/mold-course-chapter-2"
       ],
       "notes": "1,300/mo, $19.76 CPC. The natural bridge post from mold remediation to crawl space encapsulation. Groundable local hooks from plan-input: older Durham housing stock brings frequent crawl space moisture calls, Wilson's humid summers drive encapsulation demand, Zebulon homes typically sit on crawl spaces. Stack-effect explanation for the upstairs question.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.795210+00:00"
     },
     {
       "id": "2026-08-09-how-to-lower-humidity-in-house",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-10T00:55:00Z",
       "written_at": null,
       "post_url": null,
@@ -709,11 +719,12 @@
         "https://www.epa.gov/mold/mold-course-chapter-2"
       ],
       "notes": "8,100/mo with a clear summer peak (12,100 in June), KD 11. Low CPC but big AI-answer surface. The differentiated angle vs national listicles: the crawl space is the humidity source most NC guides skip. Funnel to encapsulation without overselling; keep the 30 to 50 percent indoor RH guidance sourced to EPA.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.795211+00:00"
     },
     {
       "id": "2026-08-09-is-crawl-space-encapsulation-worth-it",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-10T00:56:00Z",
       "written_at": null,
       "post_url": null,
@@ -745,7 +756,8 @@
         "https://www.epa.gov/mold/mold-course-chapter-2"
       ],
       "notes": "140/mo but $22.35 CPC and the negatives variant adds 320/mo: decision-stage searchers about to spend thousands. Answer honestly including when encapsulation is NOT worth it (dry lots, slab additions), which is what wins AI citations. Link the cost guide once it publishes (target slug crawl-space-encapsulation-cost).",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.795212+00:00"
     },
     {
       "id": "2026-08-09-water-in-crawl-space-after-heavy-rain",
@@ -826,7 +838,7 @@
     },
     {
       "id": "2026-08-27-what-to-do-after-a-house-fire",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-27T02:20:00Z",
       "written_at": null,
       "post_url": null,
@@ -859,11 +871,12 @@
         "https://www.usfa.fema.gov/prevention/home-fires/after-a-fire/",
         "https://www.iii.org/"
       ],
-      "notes": "Pillar post for the whole fire seed family: every other queued fire item should link back here. Lead with safety and the do-not-re-enter rule, then the insurance call, then securing the property. Cover the detail most competitors miss: firefighting water is itself a category 2 or 3 water loss, so water damage and mold risk start the same day as the fire. That is the natural bridge to the water damage restoration service page. Local angle: Go Green runs 24/7 out of Middlesex on the US-264 corridor, so name realistic response expectations for Nash and Johnston County line towns."
+      "notes": "Pillar post for the whole fire seed family: every other queued fire item should link back here. Lead with safety and the do-not-re-enter rule, then the insurance call, then securing the property. Cover the detail most competitors miss: firefighting water is itself a category 2 or 3 water loss, so water damage and mold risk start the same day as the fire. That is the natural bridge to the water damage restoration service page. Local angle: Go Green runs 24/7 out of Middlesex on the US-264 corridor, so name realistic response expectations for Nash and Johnston County line towns.",
+      "banked_at": "2026-09-17T22:13:26.019181+00:00"
     },
     {
       "id": "2026-08-27-fire-damage-restoration-cost",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-27T02:20:00Z",
       "written_at": null,
       "post_url": null,
@@ -896,11 +909,12 @@
         "https://www.iicrc.org/standards",
         "https://www.iii.org/"
       ],
-      "notes": "Highest commercial-intent item in this run: KD 0 at 260 a month. Give real cost ranges broken out by phase (board up and tarping, water extraction, soot and smoke cleaning, deodorization, contents, reconstruction) rather than one national average, and state plainly which phases Go Green performs and which it does not. Note that reconstruction and general contracting are not in this client's planned services, so do not imply a full rebuild is offered. Include a per-square-foot table since 'fire restoration cost per square foot' is a live sub-query."
+      "notes": "Highest commercial-intent item in this run: KD 0 at 260 a month. Give real cost ranges broken out by phase (board up and tarping, water extraction, soot and smoke cleaning, deodorization, contents, reconstruction) rather than one national average, and state plainly which phases Go Green performs and which it does not. Note that reconstruction and general contracting are not in this client's planned services, so do not imply a full rebuild is offered. Include a per-square-foot table since 'fire restoration cost per square foot' is a live sub-query.",
+      "banked_at": "2026-09-17T22:13:26.019183+00:00"
     },
     {
       "id": "2026-08-27-what-to-throw-away-after-smoke-damage",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-27T02:20:00Z",
       "written_at": null,
       "post_url": null,
@@ -933,11 +947,12 @@
         "https://www.usfa.fema.gov/prevention/home-fires/after-a-fire/",
         "https://www.iicrc.org/standards"
       ],
-      "notes": "KD 0 at 210 a month and a perfect AI-retrieval shape: build it as a scannable keep-versus-toss list by category (food and medication, mattresses and pillows, cosmetics, clothing, upholstery, electronics, dishes, wood furniture). Be direct that porous items absorbing smoke residue are usually unsalvageable while hard goods and many textiles are restorable, which is the honest case for calling a pro before bagging everything. Stress documenting every discarded item with photos before disposal because the insurer will want the inventory."
+      "notes": "KD 0 at 210 a month and a perfect AI-retrieval shape: build it as a scannable keep-versus-toss list by category (food and medication, mattresses and pillows, cosmetics, clothing, upholstery, electronics, dishes, wood furniture). Be direct that porous items absorbing smoke residue are usually unsalvageable while hard goods and many textiles are restorable, which is the honest case for calling a pro before bagging everything. Stress documenting every discarded item with photos before disposal because the insurer will want the inventory.",
+      "banked_at": "2026-09-17T22:13:26.019184+00:00"
     },
     {
       "id": "2026-08-27-fire-damage-insurance-claim",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-27T02:20:00Z",
       "written_at": null,
       "post_url": null,
@@ -970,11 +985,12 @@
         "https://www.iii.org/",
         "https://www.ncdoi.gov/consumers/homeowners-insurance"
       ],
-      "notes": "Decision-stage money post: CPC 15.54 at KD 4 means people search this 24 to 48 hours before they hire anyone. Walk the claim timeline (report, adjuster visit, scope of loss, ACV advance, depreciation recovery) and explain additional living expenses, which most homeowners do not know they can claim. Use the NC Department of Insurance page for state-specific consumer rights. Position Go Green as the contractor who documents the loss for the adjuster, and be careful not to give legal advice or promise claim outcomes."
+      "notes": "Decision-stage money post: CPC 15.54 at KD 4 means people search this 24 to 48 hours before they hire anyone. Walk the claim timeline (report, adjuster visit, scope of loss, ACV advance, depreciation recovery) and explain additional living expenses, which most homeowners do not know they can claim. Use the NC Department of Insurance page for state-specific consumer rights. Position Go Green as the contractor who documents the loss for the adjuster, and be careful not to give legal advice or promise claim outcomes.",
+      "banked_at": "2026-09-17T22:13:26.019185+00:00"
     },
     {
       "id": "2026-08-27-how-to-clean-smoke-damage-walls-ceiling",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-27T02:20:00Z",
       "written_at": null,
       "post_url": null,
@@ -1008,11 +1024,12 @@
         "https://www.iicrc.org/standards",
         "https://www.epa.gov/indoor-air-quality-iaq/should-you-have-air-ducts-your-home-cleaned"
       ],
-      "notes": "KD 0 at 170 a month. Genuine how-to with a real stopping point: chemical sponge first and dry cleaning before any wet method, because water sets soot into a permanent stain. Distinguish the residue types (dry or protein or petroleum based) since they need different approaches. The honest hand-off is that surface cleaning does not touch odor held in the HVAC system, insulation, and framing, which is where the air duct cleaning page belongs."
+      "notes": "KD 0 at 170 a month. Genuine how-to with a real stopping point: chemical sponge first and dry cleaning before any wet method, because water sets soot into a permanent stain. Distinguish the residue types (dry or protein or petroleum based) since they need different approaches. The honest hand-off is that surface cleaning does not touch odor held in the HVAC system, insulation, and framing, which is where the air duct cleaning page belongs.",
+      "banked_at": "2026-09-17T22:13:26.019186+00:00"
     },
     {
       "id": "2026-09-10-homeowners-insurance-storm-damage",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-10T20:25:00Z",
       "written_at": null,
       "post_url": null,
@@ -1047,11 +1064,12 @@
         "https://www.ncdoi.gov/documents/consumer/publications/after-disaster-brochure/open",
         "https://www.floodsmart.gov/"
       ],
-      "notes": "KD 22 at 590 a month, and the whole term is decision-stage: people read this before they call anyone. Do NOT rewrite the existing water damage insurance post: the storm angle is the separate-perils problem. Wind driven rain through a damaged roof is usually covered, rising surface water is not and needs a separate NFIP flood policy, and NC coastal and windstorm deductibles are a percentage of dwelling value rather than a flat number. Cite NC DOI, not a carrier blog. Link across to /blog/does-homeowners-insurance-cover-water-damage/ for the non-storm causes."
+      "notes": "KD 22 at 590 a month, and the whole term is decision-stage: people read this before they call anyone. Do NOT rewrite the existing water damage insurance post: the storm angle is the separate-perils problem. Wind driven rain through a damaged roof is usually covered, rising surface water is not and needs a separate NFIP flood policy, and NC coastal and windstorm deductibles are a percentage of dwelling value rather than a flat number. Cite NC DOI, not a carrier blog. Link across to /blog/does-homeowners-insurance-cover-water-damage/ for the non-storm causes.",
+      "banked_at": "2026-09-17T22:13:26.019187+00:00"
     },
     {
       "id": "2026-09-10-storm-damage-insurance-claim",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-10T20:25:00Z",
       "written_at": null,
       "post_url": null,
@@ -1085,11 +1103,12 @@
         "https://www.ncdoi.gov/consumers/disaster/how-deal-aftermath-disaster",
         "https://www.ncdoi.gov/documents/consumer/publications/after-disaster-brochure/open"
       ],
-      "notes": "KD 4 with a 21 dollar CPC: the ads side is paying for this intent, so own it organically. Structure as the actual sequence: photograph everything before touching it, make temporary repairs only (tarp, board up, extract standing water) and keep receipts, do not make permanent repairs until the adjuster has agreed scope. Note that mitigation is a policy DUTY, so delaying drying can reduce the payout, which is the honest reason to call fast. Same-topic siblings 'how to file a storm damage insurance claim' stay in the bank as H2s."
+      "notes": "KD 4 with a 21 dollar CPC: the ads side is paying for this intent, so own it organically. Structure as the actual sequence: photograph everything before touching it, make temporary repairs only (tarp, board up, extract standing water) and keep receipts, do not make permanent repairs until the adjuster has agreed scope. Note that mitigation is a policy DUTY, so delaying drying can reduce the payout, which is the honest reason to call fast. Same-topic siblings 'how to file a storm damage insurance claim' stay in the bank as H2s.",
+      "banked_at": "2026-09-17T22:13:26.019188+00:00"
     },
     {
       "id": "2026-09-10-what-to-do-after-storm-damage",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-10T20:25:00Z",
       "written_at": null,
       "post_url": null,
@@ -1123,11 +1142,12 @@
         "https://www.ncdoi.gov/consumers/disaster/how-deal-aftermath-disaster",
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "Zero measured Google volume, queued on AI-retrieval demand: this was the top decomposition ChatGPT produced for a storm damage prompt, so it is the passage an assistant lifts. Safety first and concretely: downed lines, gas smell, sagging ceilings holding water. Then document, then temporary repairs only. Distinct from /blog/what-to-do-first-24-hours-water-damage/ because the storm version has an exterior-hazard and power-outage phase before any drying starts. Ties to the US-264 corridor and the Nash and Johnston county line for response time."
+      "notes": "Zero measured Google volume, queued on AI-retrieval demand: this was the top decomposition ChatGPT produced for a storm damage prompt, so it is the passage an assistant lifts. Safety first and concretely: downed lines, gas smell, sagging ceilings holding water. Then document, then temporary repairs only. Distinct from /blog/what-to-do-first-24-hours-water-damage/ because the storm version has an exterior-hazard and power-outage phase before any drying starts. Ties to the US-264 corridor and the Nash and Johnston county line for response time.",
+      "banked_at": "2026-09-17T22:13:26.019189+00:00"
     },
     {
       "id": "2026-09-10-how-to-dry-out-house-after-storm",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-10T20:25:00Z",
       "written_at": null,
       "post_url": null,
@@ -1162,11 +1182,12 @@
         "https://www.iicrc.org/page/IICRCS500",
         "https://www.epa.gov/mold/mold-cleanup-your-home"
       ],
-      "notes": "Rocky Mount is the right anchor: Tar River flooding history means this is a repeat local search. The honest technical spine is IICRC S500 structural drying: box fans move air but do not remove water vapor, so without dehumidification you just relocate moisture into cavities. Cover the 24 to 48 hour mold window, wet insulation as non-salvageable, and moisture readings behind drywall as the reason a dry-looking wall can still be wet. Feeds the insulation removal page naturally."
+      "notes": "Rocky Mount is the right anchor: Tar River flooding history means this is a repeat local search. The honest technical spine is IICRC S500 structural drying: box fans move air but do not remove water vapor, so without dehumidification you just relocate moisture into cavities. Cover the 24 to 48 hour mold window, wet insulation as non-salvageable, and moisture readings behind drywall as the reason a dry-looking wall can still be wet. Feeds the insulation removal page naturally.",
+      "banked_at": "2026-09-17T22:13:26.019190+00:00"
     },
     {
       "id": "2026-09-10-signs-of-water-intrusion-in-walls",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-10T20:25:00Z",
       "written_at": null,
       "post_url": null,
@@ -1201,7 +1222,8 @@
         "https://www.epa.gov/mold/mold-cleanup-your-home",
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "Pulled from the ChatGPT decomposition ('what are the signs of water intrusion in my home'), no measured volume, queued as AI-retrieval fuel. Durham anchor because the older Trinity Park and Duke Park housing stock is where slow intrusion hides. Symptom-first structure so each H2 is liftable: staining and tide lines, bubbling or blistering paint, cool spots, musty odor with nothing visible, warped baseboard, crawl space humidity climbing. Complements /blog/signs-of-hidden-mold/ by staying on the water cause rather than the mold outcome."
+      "notes": "Pulled from the ChatGPT decomposition ('what are the signs of water intrusion in my home'), no measured volume, queued as AI-retrieval fuel. Durham anchor because the older Trinity Park and Duke Park housing stock is where slow intrusion hides. Symptom-first structure so each H2 is liftable: staining and tide lines, bubbling or blistering paint, cool spots, musty odor with nothing visible, warped baseboard, crawl space humidity climbing. Complements /blog/signs-of-hidden-mold/ by staying on the water cause rather than the mold outcome.",
+      "banked_at": "2026-09-17T22:13:26.019191+00:00"
     }
   ]
 }

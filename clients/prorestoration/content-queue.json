@@ -1,936 +1,953 @@
 {
- "items": [
-  {
-   "id": "2026-09-14-who-to-call-for-water-damage-restoration-in-bakersfield-ca",
-   "status": "queued",
-   "queued_at": "2026-09-14T20:21:58Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "who_to_call",
-   "combo_key": "who-to-call-for-water-damage-restoration-in-bakersfield-ca",
-   "primary_keyword": "who to call for water damage restoration in Bakersfield, CA",
-   "intent": "transactional",
-   "target_word_count": 1200,
-   "city_anchor": "bakersfield-ca",
-   "best_of": {
-    "service": "water-damage-restoration",
-    "service_pretty": "Water Damage Restoration",
-    "city": "Bakersfield",
-    "state": "CA",
-    "competitors": []
-   },
-   "fan_out_cluster": [
-    "who do you call for water damage restoration Bakersfield",
-    "who do I call for water damage restoration in Bakersfield",
-    "water damage restoration emergency number Bakersfield CA",
-    "water cleanup Bakersfield",
-    "flood cleanup Bakersfield",
-    "water damage repair Bakersfield"
-   ],
-   "source": "best-of-seeder"
-  },
-  {
-   "id": "2026-08-28-water-damage-restoration-cost-ca",
-   "status": "published",
-   "queued_at": "2026-08-28T01:05:30Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "cost_guide",
-   "combo_key": "water-damage-restoration-cost-ca",
-   "primary_keyword": "water damage restoration cost CA",
-   "intent": "transactional",
-   "target_word_count": 1500,
-   "city_anchor": "bakersfield-ca",
-   "best_of": {
-    "service": "water-damage-restoration",
-    "service_pretty": "Water Damage Restoration",
-    "city": "Bakersfield",
-    "state": "CA",
-    "competitors": []
-   },
-   "fan_out_cluster": [
-    "how much does water damage restoration cost in CA",
-    "water damage restoration price CA",
-    "average cost of water damage restoration CA",
-    "water damage cleanup CA",
-    "water cleanup CA",
-    "water removal CA"
-   ],
-   "source": "best-of-seeder",
-   "written_at": "2026-09-07T20:21:48Z",
-   "post_url": "https://prorestorationca.com/blog/water-damage-restoration-cost-ca/",
-   "published_verified_at": "2026-09-07T20:22:03Z"
-  },
-  {
-   "id": "2026-08-07-best-water-damage-restoration-in-bakersfield-ca",
-   "status": "published",
-   "queued_at": "2026-08-07T03:43:43Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "best_of_comparison",
-   "combo_key": "best-water-damage-restoration-in-bakersfield-ca",
-   "primary_keyword": "best water damage restoration company in Bakersfield, CA",
-   "intent": "commercial",
-   "target_word_count": 1600,
-   "city_anchor": "bakersfield-ca",
-   "best_of": {
-    "service": "water-damage-restoration",
-    "service_pretty": "Water Damage Restoration",
-    "city": "Bakersfield",
-    "state": "CA",
-    "competitors": [
-     {
-      "name": "911 Restoration of Bakersfield",
-      "google_rating": 4.9,
-      "review_count": 317
-     },
-     {
-      "name": "Alert Disaster Restoration",
-      "google_rating": 4.9,
-      "review_count": 549
-     },
-     {
-      "name": "Paul Davis Restoration of Bakersfield, CA",
-      "google_rating": 5,
-      "review_count": 46
-     },
-     {
-      "name": "Rainbow International of Bakersfield",
-      "google_rating": 4.9,
-      "review_count": 18
-     }
-    ]
-   },
-   "fan_out_cluster": [
-    "best water damage restoration companies Bakersfield",
-    "top rated water damage restoration Bakersfield CA",
-    "who is the best water damage restoration company in Bakersfield",
-    "flood cleanup Bakersfield",
-    "water damage repair Bakersfield",
-    "water damage cleanup Bakersfield"
-   ],
-   "source": "best-of-seeder",
-   "written_at": "2026-08-27T05:27:06Z",
-   "post_url": "https://prorestorationca.com/blog/best-water-damage-restoration-company-in-bakersfield-ca/",
-   "claims_flags": [
+  "items": [
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-bakersfield-ca.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "review",
-     "matched": "317 reviews",
-     "context": "d holds a 4.9-star Google rating across 317 reviews, which is a solid volume of feedback fo",
-     "reason": "listicle review-count 317 (competitor stat \u2014 verify it is not presented as ours)"
+      "id": "2026-09-14-who-to-call-for-water-damage-restoration-in-bakersfield-ca",
+      "status": "queued",
+      "queued_at": "2026-09-14T20:21:58Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "who_to_call",
+      "combo_key": "who-to-call-for-water-damage-restoration-in-bakersfield-ca",
+      "primary_keyword": "who to call for water damage restoration in Bakersfield, CA",
+      "intent": "transactional",
+      "target_word_count": 1200,
+      "city_anchor": "bakersfield-ca",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Bakersfield",
+        "state": "CA",
+        "competitors": []
+      },
+      "fan_out_cluster": [
+        "who do you call for water damage restoration Bakersfield",
+        "who do I call for water damage restoration in Bakersfield",
+        "water damage restoration emergency number Bakersfield CA",
+        "water cleanup Bakersfield",
+        "flood cleanup Bakersfield",
+        "water damage repair Bakersfield"
+      ],
+      "source": "best-of-seeder"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-bakersfield-ca.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "review",
-     "matched": "549 reviews",
-     "context": "n carries a 4.9-star Google rating with 549 reviews, the highest review volume of any compa",
-     "reason": "listicle review-count 549 (competitor stat \u2014 verify it is not presented as ours)"
+      "id": "2026-08-28-water-damage-restoration-cost-ca",
+      "status": "published",
+      "queued_at": "2026-08-28T01:05:30Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "cost_guide",
+      "combo_key": "water-damage-restoration-cost-ca",
+      "primary_keyword": "water damage restoration cost CA",
+      "intent": "transactional",
+      "target_word_count": 1500,
+      "city_anchor": "bakersfield-ca",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Bakersfield",
+        "state": "CA",
+        "competitors": []
+      },
+      "fan_out_cluster": [
+        "how much does water damage restoration cost in CA",
+        "water damage restoration price CA",
+        "average cost of water damage restoration CA",
+        "water damage cleanup CA",
+        "water cleanup CA",
+        "water removal CA"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-09-07T20:21:48Z",
+      "post_url": "https://prorestorationca.com/blog/water-damage-restoration-cost-ca/",
+      "published_verified_at": "2026-09-07T20:22:03Z"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-bakersfield-ca.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "review",
-     "matched": "46 reviews",
-     "context": "d holds a 5.0-star Google rating across 46 reviews. The perfect average is notable, though",
-     "reason": "listicle review-count 46 (competitor stat \u2014 verify it is not presented as ours)"
+      "id": "2026-08-07-best-water-damage-restoration-in-bakersfield-ca",
+      "status": "published",
+      "queued_at": "2026-08-07T03:43:43Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "best_of_comparison",
+      "combo_key": "best-water-damage-restoration-in-bakersfield-ca",
+      "primary_keyword": "best water damage restoration company in Bakersfield, CA",
+      "intent": "commercial",
+      "target_word_count": 1600,
+      "city_anchor": "bakersfield-ca",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Bakersfield",
+        "state": "CA",
+        "competitors": [
+          {
+            "name": "911 Restoration of Bakersfield",
+            "google_rating": 4.9,
+            "review_count": 317
+          },
+          {
+            "name": "Alert Disaster Restoration",
+            "google_rating": 4.9,
+            "review_count": 549
+          },
+          {
+            "name": "Paul Davis Restoration of Bakersfield, CA",
+            "google_rating": 5,
+            "review_count": 46
+          },
+          {
+            "name": "Rainbow International of Bakersfield",
+            "google_rating": 4.9,
+            "review_count": 18
+          }
+        ]
+      },
+      "fan_out_cluster": [
+        "best water damage restoration companies Bakersfield",
+        "top rated water damage restoration Bakersfield CA",
+        "who is the best water damage restoration company in Bakersfield",
+        "flood cleanup Bakersfield",
+        "water damage repair Bakersfield",
+        "water damage cleanup Bakersfield"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-08-27T05:27:06Z",
+      "post_url": "https://prorestorationca.com/blog/best-water-damage-restoration-company-in-bakersfield-ca/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-bakersfield-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "317 reviews",
+          "context": "d holds a 4.9-star Google rating across 317 reviews, which is a solid volume of feedback fo",
+          "reason": "listicle review-count 317 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-bakersfield-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "549 reviews",
+          "context": "n carries a 4.9-star Google rating with 549 reviews, the highest review volume of any compa",
+          "reason": "listicle review-count 549 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-bakersfield-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "46 reviews",
+          "context": "d holds a 5.0-star Google rating across 46 reviews. The perfect average is notable, though",
+          "reason": "listicle review-count 46 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-bakersfield-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "18 reviews",
+          "context": "d carries a 4.9-star Google rating with 18 reviews. The lower review count makes the avera",
+          "reason": "listicle review-count 18 (competitor stat \u2014 verify it is not presented as ours)"
+        }
+      ],
+      "published_verified_at": "2026-08-27T05:28:17Z"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-bakersfield-ca.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "review",
-     "matched": "18 reviews",
-     "context": "d carries a 4.9-star Google rating with 18 reviews. The lower review count makes the avera",
-     "reason": "listicle review-count 18 (competitor stat \u2014 verify it is not presented as ours)"
+      "id": "2026-08-09-mold-remediation-cost",
+      "status": "banked",
+      "queued_at": "2026-08-10T00:46:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "mold remediation cost",
+      "intent": "commercial",
+      "volume": 9900,
+      "kd": 3,
+      "fan_out_cluster": [
+        "mold removal cost",
+        "how much does mold remediation cost",
+        "mold remediation cost bakersfield",
+        "does homeowners insurance cover mold remediation",
+        "mold inspection vs remediation cost"
+      ],
+      "suggested_slug": "mold-remediation-cost",
+      "suggested_title": "Mold Remediation Cost in Bakersfield, CA: What Homeowners Actually Pay",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/service-areas/bakersfield-ca/mold-remediation/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "mold-remediation"
+      ],
+      "city_anchor": "bakersfield-ca",
+      "external_authority_candidates": [
+        "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHLB/AQS/Pages/Frequently-Asked-Questions-about-Mold.aspx",
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "Highest-volume cost guide in the pool (9,900/mo national, KD 3, $23 CPC). Give national ranges then anchor to Bakersfield factors: mold hidden under flooring after slab leaks, swamp cooler moisture in ceilings and attics, sealed 100 degree AC interiors. Cross-link the mold testing and hidden mold posts.",
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.798962+00:00"
+    },
+    {
+      "id": "2026-08-09-mold-inspection-cost",
+      "status": "banked",
+      "queued_at": "2026-08-10T00:47:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "mold inspection cost",
+      "intent": "commercial",
+      "volume": 5400,
+      "kd": null,
+      "fan_out_cluster": [
+        "mold testing cost",
+        "air quality mold test cost",
+        "do I need a mold inspection",
+        "mold inspection vs mold testing",
+        "clearance testing after mold remediation"
+      ],
+      "suggested_slug": "mold-inspection-cost",
+      "suggested_title": "Mold Inspection Cost in Bakersfield, CA: Testing, Inspections, and What Comes Next",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-inspection-testing/",
+        "/services/mold-remediation/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/"
+      ],
+      "service_tags": [
+        "mold-inspection-testing",
+        "mold-remediation"
+      ],
+      "city_anchor": "bakersfield-ca",
+      "external_authority_candidates": [
+        "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHLB/AQS/Pages/Frequently-Asked-Questions-about-Mold.aspx"
+      ],
+      "notes": "5,400/mo and ProRestoration offers inspection and testing as its own service. Cover inspection vs air testing vs clearance testing pricing, and the CDPH point that a musty smell with no visible mold usually means a hidden moisture problem. Natural feeder to the remediation cost guide.",
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.798969+00:00"
+    },
+    {
+      "id": "2026-08-09-carpet-cleaning-cost",
+      "status": "banked",
+      "queued_at": "2026-08-10T00:48:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "carpet cleaning cost",
+      "intent": "commercial",
+      "volume": 5400,
+      "kd": null,
+      "fan_out_cluster": [
+        "how much does carpet cleaning cost",
+        "carpet cleaning prices per room",
+        "steam cleaning carpet cost",
+        "pet stain carpet cleaning cost",
+        "carpet cleaning after water damage"
+      ],
+      "suggested_slug": "carpet-cleaning-cost",
+      "suggested_title": "Carpet Cleaning Cost in Bakersfield, CA: Prices by Room, Method, and Stain",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/carpet-cleaning/",
+        "/service-areas/bakersfield-ca/carpet-cleaning/",
+        "/services/water-damage-restoration/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "carpet-cleaning"
+      ],
+      "city_anchor": "bakersfield-ca",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/"
+      ],
+      "notes": "5,400/mo national plus a real local money page: carpet cleaning bakersfield pulls 880/mo (banked, covered by the service-area page this guide should feed). Per-room vs per-square-foot pricing, valley dust load, and the line between cleaning and water damage carpet restoration.",
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.798970+00:00"
+    },
+    {
+      "id": "2026-08-09-slab-leak-repair-cost",
+      "status": "banked",
+      "queued_at": "2026-08-10T00:49:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "slab leak repair cost",
+      "intent": "commercial",
+      "volume": 1300,
+      "kd": 1,
+      "fan_out_cluster": [
+        "slab leak detection cost",
+        "repair vs reroute slab leak",
+        "does homeowners insurance cover slab leaks",
+        "why is my water bill so high",
+        "slab leak water damage repair"
+      ],
+      "suggested_slug": "slab-leak-repair-cost",
+      "suggested_title": "Slab Leak Repair Cost in Bakersfield, CA: Detection, Repair, and the Water Damage Bill",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/burst-pipe-repair/",
+        "/services/water-damage-restoration/",
+        "/service-areas/bakersfield-ca/burst-pipe-repair/",
+        "/blog/burst-pipe-emergency-checklist/"
+      ],
+      "service_tags": [
+        "burst-pipe-repair",
+        "water-damage-restoration"
+      ],
+      "city_anchor": "bakersfield-ca",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "The signature Bakersfield keyword: 1,300/mo, KD 1, $28 CPC. Plan-input grounding: slab-on-grade construction plus very hard water makes slab leaks the top local water damage source, with failing galvanized pipe in pre-1970 Oleander, Westchester, and East Bakersfield homes. Separate the plumbing fix from the restoration bill, and explain that insurance typically covers resulting damage rather than the pipe repair.",
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.798972+00:00"
+    },
+    {
+      "id": "2026-08-09-water-damage-restoration-cost",
+      "status": "banked",
+      "queued_at": "2026-08-10T00:50:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "water damage restoration cost",
+      "intent": "commercial",
+      "volume": 880,
+      "kd": 3,
+      "fan_out_cluster": [
+        "water damage repair cost",
+        "average cost of water damage restoration",
+        "water damage restoration cost per square foot",
+        "cost to dry out a house after a leak",
+        "water damage restoration cost bakersfield"
+      ],
+      "suggested_slug": "water-damage-restoration-cost",
+      "suggested_title": "Water Damage Restoration Cost in Bakersfield, CA (2026 Pricing Guide)",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/service-areas/bakersfield-ca/water-damage-restoration/",
+        "/blog/how-long-does-water-damage-restoration-take/",
+        "/blog/what-to-do-first-24-hours-water-damage/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": "bakersfield-ca",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "880/mo, KD 3, $20 CPC, and the Bakersfield head term carries a $120 CPC (banked as covered). Break out by water category and affected area, note that the dry Kern County climate helps drying times, and explain what insurance absorbs vs the deductible. Cross-link the duration post.",
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.798973+00:00"
+    },
+    {
+      "id": "2026-08-09-fire-damage-restoration-cost",
+      "status": "banked",
+      "queued_at": "2026-08-10T00:51:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "fire damage restoration cost",
+      "intent": "commercial",
+      "volume": 260,
+      "kd": null,
+      "fan_out_cluster": [
+        "fire damage repair cost",
+        "smoke damage cleaning cost",
+        "fire restoration cost per square foot",
+        "contents cleaning after a fire cost",
+        "fire damage rebuild cost"
+      ],
+      "suggested_slug": "fire-damage-restoration-cost",
+      "suggested_title": "Fire Damage Restoration Cost: From Smoke Cleanup to Full Rebuild",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/smoke-damage-restoration/",
+        "/services/reconstruction/",
+        "/blog/fire-damage-restoration-process/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "smoke-damage-restoration",
+        "reconstruction"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/fire.html"
+      ],
+      "notes": "Rounds out cost-guide coverage of the core services. Range from smoke-only cleanup to structural rebuild; ProRestoration's differentiator is mitigation through reconstruction under one CSLB-licensed contractor (license 960566). Local loss drivers per plan notes: space-heater fires in tule fog season and aging electrical in Oildale-era housing.",
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.798974+00:00"
+    },
+    {
+      "id": "2026-08-09-does-homeowners-insurance-cover-mold",
+      "status": "banked",
+      "queued_at": "2026-08-10T00:52:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "does homeowners insurance cover mold",
+      "intent": "informational",
+      "volume": 5400,
+      "kd": 11,
+      "fan_out_cluster": [
+        "does homeowners insurance cover mold remediation",
+        "when does insurance cover mold",
+        "mold damage insurance claim",
+        "mold from water leak insurance",
+        "mold sublimits california"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-mold",
+      "suggested_title": "Does Homeowners Insurance Cover Mold? What California Policies Actually Pay For",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/blog/mold-after-water-damage/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.insurance.ca.gov/01-consumers/105-type/95-guides/03-res/res-ins-guide.cfm",
+        "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHLB/AQS/Pages/Frequently-Asked-Questions-about-Mold.aspx"
+      ],
+      "notes": "Companion to the existing water damage insurance post. Core distinction: mold from a sudden covered peril (burst pipe, slab leak) is often covered while gradual moisture is not, and many policies carry mold sublimits. Cite the CA Department of Insurance homeowners guide. Lead with the plain answer in the first 80 words.",
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.798983+00:00"
+    },
+    {
+      "id": "2026-08-09-sewage-smell-in-house",
+      "status": "banked",
+      "queued_at": "2026-08-10T00:53:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "sewage smell in house",
+      "intent": "informational",
+      "volume": 3600,
+      "kd": null,
+      "fan_out_cluster": [
+        "sewer smell in bathroom",
+        "sewage smell but no backup",
+        "dry p-trap sewer gas smell",
+        "sewage smell after using shower",
+        "is sewer gas dangerous"
+      ],
+      "suggested_slug": "sewage-smell-in-house",
+      "suggested_title": "Sewage Smell in House: What Causes It and When It Means a Real Problem",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/sewage-cleanup/",
+        "/services/odor-removal/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "sewage-cleanup",
+        "odor-removal"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.osha.gov/hydrogen-sulfide"
+      ],
+      "notes": "3,600/mo diagnostic query with a $16.55 CPC. Walk the easy DIY causes (dry P-trap, wax ring) before the serious ones: failing cast-iron and Orangeburg sewer laterals in Oildale and pre-1970 East Bakersfield homes per plan notes. Clear escalation line: persistent smell or any backup means Category 3 cleanup, not air freshener.",
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.798988+00:00"
+    },
+    {
+      "id": "2026-08-09-water-stain-on-ceiling",
+      "status": "banked",
+      "queued_at": "2026-08-10T00:54:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "water stain on ceiling",
+      "intent": "informational",
+      "volume": 3600,
+      "kd": 18,
+      "fan_out_cluster": [
+        "brown spot on ceiling",
+        "ceiling water stain but no leak",
+        "swamp cooler leaking through ceiling",
+        "ac leaking water through ceiling",
+        "how to tell if a ceiling stain is active"
+      ],
+      "suggested_slug": "water-stain-on-ceiling",
+      "suggested_title": "Water Stain on Ceiling: What It Means and What It Costs to Ignore",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/appliance-leak-cleanup/",
+        "/blog/signs-of-hidden-mold/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "appliance-leak-cleanup"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "3,600/mo, KD 18. Bakersfield-specific stain sources straight from plan notes: aging evaporative coolers leaking through roofs and attics every summer, AC condensate in 100 degree heat, and upstairs bathroom leaks in two-story Rosedale plans. Cover active vs old stain tests and moisture mapping before paint-over.",
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.798989+00:00"
+    },
+    {
+      "id": "2026-08-09-does-renters-insurance-cover-water-damage",
+      "status": "banked",
+      "queued_at": "2026-08-10T00:55:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "does renters insurance cover water damage",
+      "intent": "informational",
+      "volume": 1000,
+      "kd": 9,
+      "fan_out_cluster": [
+        "renters insurance water damage from upstairs unit",
+        "who pays for water damage renter or landlord",
+        "landlord responsibilities after water damage",
+        "does renters insurance cover mold",
+        "renters displaced by water damage"
+      ],
+      "suggested_slug": "does-renters-insurance-cover-water-damage",
+      "suggested_title": "Does Renters Insurance Cover Water Damage? A Guide for Kern County Renters",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.insurance.ca.gov/01-consumers/105-type/95-guides/03-res/res-ins-guide.cfm"
+      ],
+      "notes": "Renter-side companion to the homeowners post (1,000/mo, KD 9). Strong local fit per plan notes: Oildale mobile home parks and rentals, farm-labor rentals in Wasco and Lamont. Cover belongings vs building split, loss-of-use coverage, and where the landlord's policy takes over.",
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.798990+00:00"
+    },
+    {
+      "id": "2026-08-09-how-long-does-mold-remediation-take",
+      "status": "banked",
+      "queued_at": "2026-08-10T00:56:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "how long does mold remediation take",
+      "intent": "informational",
+      "volume": 720,
+      "kd": null,
+      "fan_out_cluster": [
+        "how long does mold removal take",
+        "mold remediation timeline by job size",
+        "can you stay home during mold remediation",
+        "clearance testing after mold remediation",
+        "mold remediation process steps"
+      ],
+      "suggested_slug": "how-long-does-mold-remediation-take",
+      "suggested_title": "How Long Does Mold Remediation Take? Timelines by Job Size",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/services/mold-inspection-testing/",
+        "/blog/black-mold-vs-regular-mold/",
+        "/blog/how-to-test-for-mold/"
+      ],
+      "service_tags": [
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "Mirrors the how-long format already proven on the water damage side (720/mo, $13.96 CPC). Timeline table by scope, what extends jobs (containment, clearance testing), and whether occupants can stay. Note the dry climate helps drying but does not shortcut containment.",
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.798992+00:00"
+    },
+    {
+      "id": "2026-08-09-signs-of-a-slab-leak",
+      "status": "banked",
+      "queued_at": "2026-08-10T00:57:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "signs of a slab leak",
+      "intent": "informational",
+      "volume": 390,
+      "kd": null,
+      "fan_out_cluster": [
+        "how to detect a slab leak",
+        "warm spot on floor slab leak",
+        "why is my water bill so high",
+        "water meter running when everything is off",
+        "does homeowners insurance cover slab leaks",
+        "can a slab leak cause mold"
+      ],
+      "suggested_slug": "signs-of-a-slab-leak",
+      "suggested_title": "Signs of a Slab Leak: How Bakersfield Homeowners Catch Them Early",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/burst-pipe-repair/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/signs-of-hidden-mold/"
+      ],
+      "service_tags": [
+        "burst-pipe-repair",
+        "water-damage-restoration"
+      ],
+      "city_anchor": "bakersfield-ca",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "390/mo with a $19.82 CPC; question-side feeder for the slab leak cost guide. ChatGPT fan-out surfaced the exact homeowner phrasings: high water bill, meter running with everything off, warm or damp floor spots, musty smell in one area. Ground in slab-on-grade plus hard water per plan notes.",
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.798993+00:00"
+    },
+    {
+      "id": "2026-08-09-sewage-backup-in-house",
+      "status": "queued",
+      "queued_at": "2026-08-10T00:58:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "sewage backup in house",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 20,
+      "fan_out_cluster": [
+        "sewage backup in bathtub",
+        "sewage backup what to do first",
+        "does insurance cover sewer backup",
+        "is the backup my sewer line or the city's",
+        "category 3 water damage"
+      ],
+      "suggested_slug": "sewage-backup-in-house",
+      "suggested_title": "Sewage Backup in House: What to Do First (and What Cleanup Involves)",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/sewage-cleanup/",
+        "/services/water-damage-restoration/",
+        "/services/odor-removal/"
+      ],
+      "service_tags": [
+        "sewage-cleanup",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "$31.80 CPC panicked-homeowner query. Kern County angle: slab-on-grade homes back up into tubs and showers rather than basements, and Oildale's cast-iron and Orangeburg laterals are the usual culprits per plan notes. Category 3 black water: do not DIY, what gets removed vs disinfected, and the water backup endorsement most standard policies need. Keep tone practical, not alarmist.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-09-what-to-do-after-a-house-fire",
+      "status": "queued",
+      "queued_at": "2026-08-10T00:59:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "what to do after a house fire",
+      "intent": "informational",
+      "volume": 260,
+      "kd": null,
+      "fan_out_cluster": [
+        "is my house safe to stay in after a fire",
+        "house fire insurance claim first steps",
+        "board up after a house fire",
+        "what can be saved after a house fire",
+        "smoke and soot health risks"
+      ],
+      "suggested_slug": "what-to-do-after-a-house-fire",
+      "suggested_title": "What to Do After a House Fire: The First 48 Hours",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/smoke-damage-restoration/",
+        "/blog/fire-damage-restoration-process/",
+        "/blog/smoke-odor-removal-techniques/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "smoke-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/fire.html"
+      ],
+      "notes": "Checklist companion to the existing restoration-process post: safety, insurance first call, securing the property, what not to touch, temporary housing coverage. Local loss drivers per plan notes: space-heater fires in winter tule fog season and aging electrical in Oildale and Taft housing stock.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-09-swamp-cooler-leaking-water",
+      "status": "queued",
+      "queued_at": "2026-08-10T01:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "swamp cooler leaking water",
+      "intent": "informational",
+      "volume": 50,
+      "kd": null,
+      "fan_out_cluster": [
+        "why is my swamp cooler leaking",
+        "swamp cooler leaking through roof",
+        "swamp cooler water damage ceiling",
+        "does insurance cover swamp cooler water damage",
+        "swamp cooler float valve overflow",
+        "swamp cooler mold"
+      ],
+      "suggested_slug": "swamp-cooler-leaking-water",
+      "suggested_title": "Swamp Cooler Leaking Water? What to Do Before It Ruins Your Ceiling",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/appliance-leak-cleanup/",
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/"
+      ],
+      "service_tags": [
+        "appliance-leak-cleanup",
+        "water-damage-restoration"
+      ],
+      "city_anchor": "bakersfield-ca",
+      "external_authority_candidates": [
+        "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHLB/AQS/Pages/Frequently-Asked-Questions-about-Mold.aspx"
+      ],
+      "notes": "The most Bakersfield-specific topic in the pool. Annual average is only 50/mo but Ads monthly data shows the summer spike (140/mo in June and July), and plan notes ground it: aging evaporative coolers leak through roofs and attics every summer. ChatGPT fan-out's key distinction: fixing the cooler vs fixing the wet insulation, drywall, and ceiling it leaves behind. Cover the shutoff step, who to call, and the attic mold risk.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-27-storm-damage-to-roof",
+      "status": "banked",
+      "queued_at": "2026-08-27T05:22:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "storm damage to roof",
+      "intent": "informational",
+      "volume": 4400,
+      "kd": 29,
+      "fan_out_cluster": [
+        "storm damage roof repair",
+        "wind damage on roofs",
+        "how to tarp a roof",
+        "storm damage insurance coverage",
+        "wind damage roof insurance claim",
+        "storm damage repair"
+      ],
+      "suggested_slug": "storm-damage-to-roof",
+      "suggested_title": "Storm damage to roof: how to spot it, tarp it, and get it covered",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/storm-damage-restoration/",
+        "/services/water-damage-restoration/",
+        "/services/reconstruction/"
+      ],
+      "service_tags": [
+        "storm-damage-restoration",
+        "water-damage-restoration",
+        "reconstruction"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.fema.gov/flood-maps"
+      ],
+      "notes": "Highest CPC term in the storm family (about 55 USD), which means roofers and restorers pay real money for it. Lead with the 24 to 48 hour window before roof water intrusion becomes ceiling and drywall damage. Kern County angle: winter atmospheric river rain plus Bakersfield wind events, not hail. Link the tarping how-to post once it is live.",
+      "banked_at": "2026-09-17T22:13:26.024031+00:00"
+    },
+    {
+      "id": "2026-08-27-tree-fell-on-house-what-to-do",
+      "status": "banked",
+      "queued_at": "2026-08-27T05:22:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "tree fell on house",
+      "intent": "informational",
+      "volume": 1300,
+      "kd": 5,
+      "fan_out_cluster": [
+        "tree fell on house what to do",
+        "my neighbor's tree fell on my house",
+        "a tree fell on my house who do i call",
+        "tree fell on house insurance",
+        "tree fell on house during storm",
+        "tree fell on power line to house"
+      ],
+      "suggested_slug": "tree-fell-on-house-what-to-do",
+      "suggested_title": "Tree fell on house: what to do in the first 24 hours",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/storm-damage-restoration/",
+        "/services/reconstruction/",
+        "/services/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "storm-damage-restoration",
+        "reconstruction",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Safety first section is mandatory: downed power lines, unstable structure, when to evacuate. Cover the neighbor liability question (590 a month on its own) and the who do I call sequence: 911 or PG&E, then insurer, then restoration contractor for emergency tarping and structural drying. Do not give legal advice, describe the general California rule and point to the insurer.",
+      "banked_at": "2026-09-17T22:13:26.024037+00:00"
+    },
+    {
+      "id": "2026-08-27-wind-damage-on-roofs",
+      "status": "banked",
+      "queued_at": "2026-08-27T05:22:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "wind damage on roofs",
+      "intent": "informational",
+      "volume": 1300,
+      "kd": 0,
+      "fan_out_cluster": [
+        "wind damage roof shingles",
+        "wind damage roof insurance claim",
+        "shingle wind damage",
+        "wind damage to siding",
+        "roof wind damage repair",
+        "wind damage repair"
+      ],
+      "suggested_slug": "wind-damage-on-roofs",
+      "suggested_title": "Wind damage on roofs: what it looks like and what insurance actually pays",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/storm-damage-restoration/",
+        "/services/general-contracting/",
+        "/services/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "storm-damage-restoration",
+        "general-contracting",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "KD 0 with 1300 a month is the easiest win in this seed family. Show homeowners what lifted, creased and missing shingles look like from the ground so they can document before calling. Local hook: Bakersfield and the Tehachapi pass get sustained wind events that peel shingles without a named storm, and insurers often push back on wear and tear.",
+      "banked_at": "2026-09-17T22:13:26.024039+00:00"
+    },
+    {
+      "id": "2026-08-27-how-to-tarp-a-roof",
+      "status": "banked",
+      "queued_at": "2026-08-27T05:22:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to tarp a roof",
+      "intent": "informational",
+      "volume": 880,
+      "kd": 0,
+      "fan_out_cluster": [
+        "how to tarp a leaking roof",
+        "how to secure a tarp on a roof",
+        "how to put a tarp on a roof without nails",
+        "how much does it cost to tarp a roof",
+        "emergency roof tarping",
+        "best way to tarp a roof"
+      ],
+      "suggested_slug": "how-to-tarp-a-roof",
+      "suggested_title": "How to tarp a roof safely (and when to call a pro instead)",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/storm-damage-restoration/",
+        "/services/water-damage-restoration/",
+        "/services/general-contracting/"
+      ],
+      "service_tags": [
+        "storm-damage-restoration",
+        "water-damage-restoration",
+        "reconstruction"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/severe-storm.html"
+      ],
+      "notes": "Pairs with emergency roof tarping (720 a month, CPC about 43 USD, KD 0) which stays in the bank as the commercial sibling. Be explicit about the do not climb conditions: wet roof, steep pitch, active wind, night, any downed line. That honesty is what converts a DIY reader into a call.",
+      "banked_at": "2026-09-17T22:13:26.024040+00:00"
+    },
+    {
+      "id": "2026-08-27-does-homeowners-insurance-cover-storm-damage",
+      "status": "banked",
+      "queued_at": "2026-08-27T05:22:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover storm damage",
+      "intent": "informational",
+      "volume": 90,
+      "kd": 2,
+      "fan_out_cluster": [
+        "storm damage insurance coverage",
+        "homeowners insurance for storm damage",
+        "storm damage insurance claim",
+        "wind damage roof insurance claim",
+        "tree fell on house insurance",
+        "storm damage to roof"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-storm-damage",
+      "suggested_title": "Does homeowners insurance cover storm damage? What California policies actually pay",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/storm-damage-restoration/",
+        "/services/water-damage-restoration/",
+        "/blog/storm-damage-insurance-claim-checklist/"
+      ],
+      "service_tags": [
+        "storm-damage-restoration",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iii.org/article/what-does-standard-homeowners-policy-cover",
+        "https://www.insurance.ca.gov/"
+      ],
+      "notes": "Decision stage insurance query, the pattern that already produced this client's best queued posts. Draw the line that costs Kern County homeowners money: wind and falling trees are usually covered, rising surface water and flooding are not without a separate NFIP policy, and Lamont, Arvin and the Caliente Creek basin sit in exactly that gap. Internal link to the existing claim checklist post rather than repeating it.",
+      "banked_at": "2026-09-17T22:13:26.024041+00:00"
+    },
+    {
+      "id": "2026-09-15-water-damage-restoration-bakersfield",
+      "status": "queued",
+      "queued_at": "2026-09-15T14:24:35Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "target_term",
+      "combo_key": "water-damage-restoration-bakersfield",
+      "primary_keyword": "water damage restoration bakersfield",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "bakersfield-ca",
+      "source": "gameplan-2026-09-1 (dev-agent)"
+    },
+    {
+      "id": "2026-09-15-fire-damage-restoration-bakersfield",
+      "status": "queued",
+      "queued_at": "2026-09-15T14:24:35Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "target_term",
+      "combo_key": "fire-damage-restoration-bakersfield",
+      "primary_keyword": "fire damage restoration bakersfield",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "bakersfield-ca",
+      "source": "gameplan-2026-09-1 (dev-agent)"
     }
-   ],
-   "published_verified_at": "2026-08-27T05:28:17Z"
-  },
-  {
-   "id": "2026-08-09-mold-remediation-cost",
-   "status": "queued",
-   "queued_at": "2026-08-10T00:46:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "mold remediation cost",
-   "intent": "commercial",
-   "volume": 9900,
-   "kd": 3,
-   "fan_out_cluster": [
-    "mold removal cost",
-    "how much does mold remediation cost",
-    "mold remediation cost bakersfield",
-    "does homeowners insurance cover mold remediation",
-    "mold inspection vs remediation cost"
-   ],
-   "suggested_slug": "mold-remediation-cost",
-   "suggested_title": "Mold Remediation Cost in Bakersfield, CA: What Homeowners Actually Pay",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/mold-remediation/",
-    "/service-areas/bakersfield-ca/mold-remediation/",
-    "/blog/how-to-test-for-mold/",
-    "/blog/signs-of-hidden-mold/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "mold-remediation"
-   ],
-   "city_anchor": "bakersfield-ca",
-   "external_authority_candidates": [
-    "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHLB/AQS/Pages/Frequently-Asked-Questions-about-Mold.aspx",
-    "https://www.epa.gov/mold/mold-cleanup-your-home"
-   ],
-   "notes": "Highest-volume cost guide in the pool (9,900/mo national, KD 3, $23 CPC). Give national ranges then anchor to Bakersfield factors: mold hidden under flooring after slab leaks, swamp cooler moisture in ceilings and attics, sealed 100 degree AC interiors. Cross-link the mold testing and hidden mold posts.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-mold-inspection-cost",
-   "status": "queued",
-   "queued_at": "2026-08-10T00:47:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "mold inspection cost",
-   "intent": "commercial",
-   "volume": 5400,
-   "kd": null,
-   "fan_out_cluster": [
-    "mold testing cost",
-    "air quality mold test cost",
-    "do I need a mold inspection",
-    "mold inspection vs mold testing",
-    "clearance testing after mold remediation"
-   ],
-   "suggested_slug": "mold-inspection-cost",
-   "suggested_title": "Mold Inspection Cost in Bakersfield, CA: Testing, Inspections, and What Comes Next",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/mold-inspection-testing/",
-    "/services/mold-remediation/",
-    "/blog/how-to-test-for-mold/",
-    "/blog/signs-of-hidden-mold/"
-   ],
-   "service_tags": [
-    "mold-inspection-testing",
-    "mold-remediation"
-   ],
-   "city_anchor": "bakersfield-ca",
-   "external_authority_candidates": [
-    "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHLB/AQS/Pages/Frequently-Asked-Questions-about-Mold.aspx"
-   ],
-   "notes": "5,400/mo and ProRestoration offers inspection and testing as its own service. Cover inspection vs air testing vs clearance testing pricing, and the CDPH point that a musty smell with no visible mold usually means a hidden moisture problem. Natural feeder to the remediation cost guide.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-carpet-cleaning-cost",
-   "status": "queued",
-   "queued_at": "2026-08-10T00:48:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "carpet cleaning cost",
-   "intent": "commercial",
-   "volume": 5400,
-   "kd": null,
-   "fan_out_cluster": [
-    "how much does carpet cleaning cost",
-    "carpet cleaning prices per room",
-    "steam cleaning carpet cost",
-    "pet stain carpet cleaning cost",
-    "carpet cleaning after water damage"
-   ],
-   "suggested_slug": "carpet-cleaning-cost",
-   "suggested_title": "Carpet Cleaning Cost in Bakersfield, CA: Prices by Room, Method, and Stain",
-   "target_word_count": 1300,
-   "internal_link_targets": [
-    "/services/carpet-cleaning/",
-    "/service-areas/bakersfield-ca/carpet-cleaning/",
-    "/services/water-damage-restoration/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "carpet-cleaning"
-   ],
-   "city_anchor": "bakersfield-ca",
-   "external_authority_candidates": [
-    "https://www.iicrc.org/"
-   ],
-   "notes": "5,400/mo national plus a real local money page: carpet cleaning bakersfield pulls 880/mo (banked, covered by the service-area page this guide should feed). Per-room vs per-square-foot pricing, valley dust load, and the line between cleaning and water damage carpet restoration.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-slab-leak-repair-cost",
-   "status": "queued",
-   "queued_at": "2026-08-10T00:49:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "slab leak repair cost",
-   "intent": "commercial",
-   "volume": 1300,
-   "kd": 1,
-   "fan_out_cluster": [
-    "slab leak detection cost",
-    "repair vs reroute slab leak",
-    "does homeowners insurance cover slab leaks",
-    "why is my water bill so high",
-    "slab leak water damage repair"
-   ],
-   "suggested_slug": "slab-leak-repair-cost",
-   "suggested_title": "Slab Leak Repair Cost in Bakersfield, CA: Detection, Repair, and the Water Damage Bill",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/burst-pipe-repair/",
-    "/services/water-damage-restoration/",
-    "/service-areas/bakersfield-ca/burst-pipe-repair/",
-    "/blog/burst-pipe-emergency-checklist/"
-   ],
-   "service_tags": [
-    "burst-pipe-repair",
-    "water-damage-restoration"
-   ],
-   "city_anchor": "bakersfield-ca",
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "The signature Bakersfield keyword: 1,300/mo, KD 1, $28 CPC. Plan-input grounding: slab-on-grade construction plus very hard water makes slab leaks the top local water damage source, with failing galvanized pipe in pre-1970 Oleander, Westchester, and East Bakersfield homes. Separate the plumbing fix from the restoration bill, and explain that insurance typically covers resulting damage rather than the pipe repair.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-water-damage-restoration-cost",
-   "status": "queued",
-   "queued_at": "2026-08-10T00:50:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "water damage restoration cost",
-   "intent": "commercial",
-   "volume": 880,
-   "kd": 3,
-   "fan_out_cluster": [
-    "water damage repair cost",
-    "average cost of water damage restoration",
-    "water damage restoration cost per square foot",
-    "cost to dry out a house after a leak",
-    "water damage restoration cost bakersfield"
-   ],
-   "suggested_slug": "water-damage-restoration-cost",
-   "suggested_title": "Water Damage Restoration Cost in Bakersfield, CA (2026 Pricing Guide)",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/service-areas/bakersfield-ca/water-damage-restoration/",
-    "/blog/how-long-does-water-damage-restoration-take/",
-    "/blog/what-to-do-first-24-hours-water-damage/"
-   ],
-   "service_tags": [
-    "water-damage-restoration"
-   ],
-   "city_anchor": "bakersfield-ca",
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "880/mo, KD 3, $20 CPC, and the Bakersfield head term carries a $120 CPC (banked as covered). Break out by water category and affected area, note that the dry Kern County climate helps drying times, and explain what insurance absorbs vs the deductible. Cross-link the duration post.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-fire-damage-restoration-cost",
-   "status": "queued",
-   "queued_at": "2026-08-10T00:51:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "fire damage restoration cost",
-   "intent": "commercial",
-   "volume": 260,
-   "kd": null,
-   "fan_out_cluster": [
-    "fire damage repair cost",
-    "smoke damage cleaning cost",
-    "fire restoration cost per square foot",
-    "contents cleaning after a fire cost",
-    "fire damage rebuild cost"
-   ],
-   "suggested_slug": "fire-damage-restoration-cost",
-   "suggested_title": "Fire Damage Restoration Cost: From Smoke Cleanup to Full Rebuild",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/fire-damage-restoration/",
-    "/services/smoke-damage-restoration/",
-    "/services/reconstruction/",
-    "/blog/fire-damage-restoration-process/"
-   ],
-   "service_tags": [
-    "fire-damage-restoration",
-    "smoke-damage-restoration",
-    "reconstruction"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/fire.html"
-   ],
-   "notes": "Rounds out cost-guide coverage of the core services. Range from smoke-only cleanup to structural rebuild; ProRestoration's differentiator is mitigation through reconstruction under one CSLB-licensed contractor (license 960566). Local loss drivers per plan notes: space-heater fires in tule fog season and aging electrical in Oildale-era housing.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-does-homeowners-insurance-cover-mold",
-   "status": "queued",
-   "queued_at": "2026-08-10T00:52:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "does homeowners insurance cover mold",
-   "intent": "informational",
-   "volume": 5400,
-   "kd": 11,
-   "fan_out_cluster": [
-    "does homeowners insurance cover mold remediation",
-    "when does insurance cover mold",
-    "mold damage insurance claim",
-    "mold from water leak insurance",
-    "mold sublimits california"
-   ],
-   "suggested_slug": "does-homeowners-insurance-cover-mold",
-   "suggested_title": "Does Homeowners Insurance Cover Mold? What California Policies Actually Pay For",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/mold-remediation/",
-    "/services/water-damage-restoration/",
-    "/blog/does-homeowners-insurance-cover-water-damage/",
-    "/blog/mold-after-water-damage/"
-   ],
-   "service_tags": [
-    "mold-remediation",
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.insurance.ca.gov/01-consumers/105-type/95-guides/03-res/res-ins-guide.cfm",
-    "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHLB/AQS/Pages/Frequently-Asked-Questions-about-Mold.aspx"
-   ],
-   "notes": "Companion to the existing water damage insurance post. Core distinction: mold from a sudden covered peril (burst pipe, slab leak) is often covered while gradual moisture is not, and many policies carry mold sublimits. Cite the CA Department of Insurance homeowners guide. Lead with the plain answer in the first 80 words.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-sewage-smell-in-house",
-   "status": "queued",
-   "queued_at": "2026-08-10T00:53:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "sewage smell in house",
-   "intent": "informational",
-   "volume": 3600,
-   "kd": null,
-   "fan_out_cluster": [
-    "sewer smell in bathroom",
-    "sewage smell but no backup",
-    "dry p-trap sewer gas smell",
-    "sewage smell after using shower",
-    "is sewer gas dangerous"
-   ],
-   "suggested_slug": "sewage-smell-in-house",
-   "suggested_title": "Sewage Smell in House: What Causes It and When It Means a Real Problem",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/sewage-cleanup/",
-    "/services/odor-removal/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "sewage-cleanup",
-    "odor-removal"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.osha.gov/hydrogen-sulfide"
-   ],
-   "notes": "3,600/mo diagnostic query with a $16.55 CPC. Walk the easy DIY causes (dry P-trap, wax ring) before the serious ones: failing cast-iron and Orangeburg sewer laterals in Oildale and pre-1970 East Bakersfield homes per plan notes. Clear escalation line: persistent smell or any backup means Category 3 cleanup, not air freshener.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-water-stain-on-ceiling",
-   "status": "queued",
-   "queued_at": "2026-08-10T00:54:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "water stain on ceiling",
-   "intent": "informational",
-   "volume": 3600,
-   "kd": 18,
-   "fan_out_cluster": [
-    "brown spot on ceiling",
-    "ceiling water stain but no leak",
-    "swamp cooler leaking through ceiling",
-    "ac leaking water through ceiling",
-    "how to tell if a ceiling stain is active"
-   ],
-   "suggested_slug": "water-stain-on-ceiling",
-   "suggested_title": "Water Stain on Ceiling: What It Means and What It Costs to Ignore",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/appliance-leak-cleanup/",
-    "/blog/signs-of-hidden-mold/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "appliance-leak-cleanup"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.epa.gov/mold/mold-cleanup-your-home"
-   ],
-   "notes": "3,600/mo, KD 18. Bakersfield-specific stain sources straight from plan notes: aging evaporative coolers leaking through roofs and attics every summer, AC condensate in 100 degree heat, and upstairs bathroom leaks in two-story Rosedale plans. Cover active vs old stain tests and moisture mapping before paint-over.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-does-renters-insurance-cover-water-damage",
-   "status": "queued",
-   "queued_at": "2026-08-10T00:55:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "does renters insurance cover water damage",
-   "intent": "informational",
-   "volume": 1000,
-   "kd": 9,
-   "fan_out_cluster": [
-    "renters insurance water damage from upstairs unit",
-    "who pays for water damage renter or landlord",
-    "landlord responsibilities after water damage",
-    "does renters insurance cover mold",
-    "renters displaced by water damage"
-   ],
-   "suggested_slug": "does-renters-insurance-cover-water-damage",
-   "suggested_title": "Does Renters Insurance Cover Water Damage? A Guide for Kern County Renters",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/blog/does-homeowners-insurance-cover-water-damage/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.insurance.ca.gov/01-consumers/105-type/95-guides/03-res/res-ins-guide.cfm"
-   ],
-   "notes": "Renter-side companion to the homeowners post (1,000/mo, KD 9). Strong local fit per plan notes: Oildale mobile home parks and rentals, farm-labor rentals in Wasco and Lamont. Cover belongings vs building split, loss-of-use coverage, and where the landlord's policy takes over.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-how-long-does-mold-remediation-take",
-   "status": "queued",
-   "queued_at": "2026-08-10T00:56:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "how long does mold remediation take",
-   "intent": "informational",
-   "volume": 720,
-   "kd": null,
-   "fan_out_cluster": [
-    "how long does mold removal take",
-    "mold remediation timeline by job size",
-    "can you stay home during mold remediation",
-    "clearance testing after mold remediation",
-    "mold remediation process steps"
-   ],
-   "suggested_slug": "how-long-does-mold-remediation-take",
-   "suggested_title": "How Long Does Mold Remediation Take? Timelines by Job Size",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/mold-remediation/",
-    "/services/mold-inspection-testing/",
-    "/blog/black-mold-vs-regular-mold/",
-    "/blog/how-to-test-for-mold/"
-   ],
-   "service_tags": [
-    "mold-remediation"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.epa.gov/mold/mold-cleanup-your-home"
-   ],
-   "notes": "Mirrors the how-long format already proven on the water damage side (720/mo, $13.96 CPC). Timeline table by scope, what extends jobs (containment, clearance testing), and whether occupants can stay. Note the dry climate helps drying but does not shortcut containment.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-signs-of-a-slab-leak",
-   "status": "queued",
-   "queued_at": "2026-08-10T00:57:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "signs of a slab leak",
-   "intent": "informational",
-   "volume": 390,
-   "kd": null,
-   "fan_out_cluster": [
-    "how to detect a slab leak",
-    "warm spot on floor slab leak",
-    "why is my water bill so high",
-    "water meter running when everything is off",
-    "does homeowners insurance cover slab leaks",
-    "can a slab leak cause mold"
-   ],
-   "suggested_slug": "signs-of-a-slab-leak",
-   "suggested_title": "Signs of a Slab Leak: How Bakersfield Homeowners Catch Them Early",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/burst-pipe-repair/",
-    "/services/water-damage-restoration/",
-    "/blog/burst-pipe-emergency-checklist/",
-    "/blog/signs-of-hidden-mold/"
-   ],
-   "service_tags": [
-    "burst-pipe-repair",
-    "water-damage-restoration"
-   ],
-   "city_anchor": "bakersfield-ca",
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "390/mo with a $19.82 CPC; question-side feeder for the slab leak cost guide. ChatGPT fan-out surfaced the exact homeowner phrasings: high water bill, meter running with everything off, warm or damp floor spots, musty smell in one area. Ground in slab-on-grade plus hard water per plan notes.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-sewage-backup-in-house",
-   "status": "queued",
-   "queued_at": "2026-08-10T00:58:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "sewage backup in house",
-   "intent": "informational",
-   "volume": 260,
-   "kd": 20,
-   "fan_out_cluster": [
-    "sewage backup in bathtub",
-    "sewage backup what to do first",
-    "does insurance cover sewer backup",
-    "is the backup my sewer line or the city's",
-    "category 3 water damage"
-   ],
-   "suggested_slug": "sewage-backup-in-house",
-   "suggested_title": "Sewage Backup in House: What to Do First (and What Cleanup Involves)",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/sewage-cleanup/",
-    "/services/water-damage-restoration/",
-    "/services/odor-removal/"
-   ],
-   "service_tags": [
-    "sewage-cleanup",
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "$31.80 CPC panicked-homeowner query. Kern County angle: slab-on-grade homes back up into tubs and showers rather than basements, and Oildale's cast-iron and Orangeburg laterals are the usual culprits per plan notes. Category 3 black water: do not DIY, what gets removed vs disinfected, and the water backup endorsement most standard policies need. Keep tone practical, not alarmist.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-what-to-do-after-a-house-fire",
-   "status": "queued",
-   "queued_at": "2026-08-10T00:59:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "what to do after a house fire",
-   "intent": "informational",
-   "volume": 260,
-   "kd": null,
-   "fan_out_cluster": [
-    "is my house safe to stay in after a fire",
-    "house fire insurance claim first steps",
-    "board up after a house fire",
-    "what can be saved after a house fire",
-    "smoke and soot health risks"
-   ],
-   "suggested_slug": "what-to-do-after-a-house-fire",
-   "suggested_title": "What to Do After a House Fire: The First 48 Hours",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/fire-damage-restoration/",
-    "/services/smoke-damage-restoration/",
-    "/blog/fire-damage-restoration-process/",
-    "/blog/smoke-odor-removal-techniques/"
-   ],
-   "service_tags": [
-    "fire-damage-restoration",
-    "smoke-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/fire.html"
-   ],
-   "notes": "Checklist companion to the existing restoration-process post: safety, insurance first call, securing the property, what not to touch, temporary housing coverage. Local loss drivers per plan notes: space-heater fires in winter tule fog season and aging electrical in Oildale and Taft housing stock.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-swamp-cooler-leaking-water",
-   "status": "queued",
-   "queued_at": "2026-08-10T01:00:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "swamp cooler leaking water",
-   "intent": "informational",
-   "volume": 50,
-   "kd": null,
-   "fan_out_cluster": [
-    "why is my swamp cooler leaking",
-    "swamp cooler leaking through roof",
-    "swamp cooler water damage ceiling",
-    "does insurance cover swamp cooler water damage",
-    "swamp cooler float valve overflow",
-    "swamp cooler mold"
-   ],
-   "suggested_slug": "swamp-cooler-leaking-water",
-   "suggested_title": "Swamp Cooler Leaking Water? What to Do Before It Ruins Your Ceiling",
-   "target_word_count": 1300,
-   "internal_link_targets": [
-    "/services/appliance-leak-cleanup/",
-    "/services/water-damage-restoration/",
-    "/services/mold-remediation/"
-   ],
-   "service_tags": [
-    "appliance-leak-cleanup",
-    "water-damage-restoration"
-   ],
-   "city_anchor": "bakersfield-ca",
-   "external_authority_candidates": [
-    "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHLB/AQS/Pages/Frequently-Asked-Questions-about-Mold.aspx"
-   ],
-   "notes": "The most Bakersfield-specific topic in the pool. Annual average is only 50/mo but Ads monthly data shows the summer spike (140/mo in June and July), and plan notes ground it: aging evaporative coolers leak through roofs and attics every summer. ChatGPT fan-out's key distinction: fixing the cooler vs fixing the wet insulation, drywall, and ceiling it leaves behind. Cover the shutoff step, who to call, and the attic mold risk.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-27-storm-damage-to-roof",
-   "status": "queued",
-   "queued_at": "2026-08-27T05:22:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "storm damage to roof",
-   "intent": "informational",
-   "volume": 4400,
-   "kd": 29,
-   "fan_out_cluster": [
-    "storm damage roof repair",
-    "wind damage on roofs",
-    "how to tarp a roof",
-    "storm damage insurance coverage",
-    "wind damage roof insurance claim",
-    "storm damage repair"
-   ],
-   "suggested_slug": "storm-damage-to-roof",
-   "suggested_title": "Storm damage to roof: how to spot it, tarp it, and get it covered",
-   "target_word_count": 1600,
-   "internal_link_targets": [
-    "/services/storm-damage-restoration/",
-    "/services/water-damage-restoration/",
-    "/services/reconstruction/"
-   ],
-   "service_tags": [
-    "storm-damage-restoration",
-    "water-damage-restoration",
-    "reconstruction"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500",
-    "https://www.fema.gov/flood-maps"
-   ],
-   "notes": "Highest CPC term in the storm family (about 55 USD), which means roofers and restorers pay real money for it. Lead with the 24 to 48 hour window before roof water intrusion becomes ceiling and drywall damage. Kern County angle: winter atmospheric river rain plus Bakersfield wind events, not hail. Link the tarping how-to post once it is live."
-  },
-  {
-   "id": "2026-08-27-tree-fell-on-house-what-to-do",
-   "status": "queued",
-   "queued_at": "2026-08-27T05:22:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "tree fell on house",
-   "intent": "informational",
-   "volume": 1300,
-   "kd": 5,
-   "fan_out_cluster": [
-    "tree fell on house what to do",
-    "my neighbor's tree fell on my house",
-    "a tree fell on my house who do i call",
-    "tree fell on house insurance",
-    "tree fell on house during storm",
-    "tree fell on power line to house"
-   ],
-   "suggested_slug": "tree-fell-on-house-what-to-do",
-   "suggested_title": "Tree fell on house: what to do in the first 24 hours",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/storm-damage-restoration/",
-    "/services/reconstruction/",
-    "/services/water-damage-restoration/"
-   ],
-   "service_tags": [
-    "storm-damage-restoration",
-    "reconstruction",
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "Safety first section is mandatory: downed power lines, unstable structure, when to evacuate. Cover the neighbor liability question (590 a month on its own) and the who do I call sequence: 911 or PG&E, then insurer, then restoration contractor for emergency tarping and structural drying. Do not give legal advice, describe the general California rule and point to the insurer."
-  },
-  {
-   "id": "2026-08-27-wind-damage-on-roofs",
-   "status": "queued",
-   "queued_at": "2026-08-27T05:22:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "wind damage on roofs",
-   "intent": "informational",
-   "volume": 1300,
-   "kd": 0,
-   "fan_out_cluster": [
-    "wind damage roof shingles",
-    "wind damage roof insurance claim",
-    "shingle wind damage",
-    "wind damage to siding",
-    "roof wind damage repair",
-    "wind damage repair"
-   ],
-   "suggested_slug": "wind-damage-on-roofs",
-   "suggested_title": "Wind damage on roofs: what it looks like and what insurance actually pays",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/storm-damage-restoration/",
-    "/services/general-contracting/",
-    "/services/water-damage-restoration/"
-   ],
-   "service_tags": [
-    "storm-damage-restoration",
-    "general-contracting",
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "KD 0 with 1300 a month is the easiest win in this seed family. Show homeowners what lifted, creased and missing shingles look like from the ground so they can document before calling. Local hook: Bakersfield and the Tehachapi pass get sustained wind events that peel shingles without a named storm, and insurers often push back on wear and tear."
-  },
-  {
-   "id": "2026-08-27-how-to-tarp-a-roof",
-   "status": "queued",
-   "queued_at": "2026-08-27T05:22:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "how to tarp a roof",
-   "intent": "informational",
-   "volume": 880,
-   "kd": 0,
-   "fan_out_cluster": [
-    "how to tarp a leaking roof",
-    "how to secure a tarp on a roof",
-    "how to put a tarp on a roof without nails",
-    "how much does it cost to tarp a roof",
-    "emergency roof tarping",
-    "best way to tarp a roof"
-   ],
-   "suggested_slug": "how-to-tarp-a-roof",
-   "suggested_title": "How to tarp a roof safely (and when to call a pro instead)",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/storm-damage-restoration/",
-    "/services/water-damage-restoration/",
-    "/services/general-contracting/"
-   ],
-   "service_tags": [
-    "storm-damage-restoration",
-    "water-damage-restoration",
-    "reconstruction"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/severe-storm.html"
-   ],
-   "notes": "Pairs with emergency roof tarping (720 a month, CPC about 43 USD, KD 0) which stays in the bank as the commercial sibling. Be explicit about the do not climb conditions: wet roof, steep pitch, active wind, night, any downed line. That honesty is what converts a DIY reader into a call."
-  },
-  {
-   "id": "2026-08-27-does-homeowners-insurance-cover-storm-damage",
-   "status": "queued",
-   "queued_at": "2026-08-27T05:22:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "does homeowners insurance cover storm damage",
-   "intent": "informational",
-   "volume": 90,
-   "kd": 2,
-   "fan_out_cluster": [
-    "storm damage insurance coverage",
-    "homeowners insurance for storm damage",
-    "storm damage insurance claim",
-    "wind damage roof insurance claim",
-    "tree fell on house insurance",
-    "storm damage to roof"
-   ],
-   "suggested_slug": "does-homeowners-insurance-cover-storm-damage",
-   "suggested_title": "Does homeowners insurance cover storm damage? What California policies actually pay",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/storm-damage-restoration/",
-    "/services/water-damage-restoration/",
-    "/blog/storm-damage-insurance-claim-checklist/"
-   ],
-   "service_tags": [
-    "storm-damage-restoration",
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iii.org/article/what-does-standard-homeowners-policy-cover",
-    "https://www.insurance.ca.gov/"
-   ],
-   "notes": "Decision stage insurance query, the pattern that already produced this client's best queued posts. Draw the line that costs Kern County homeowners money: wind and falling trees are usually covered, rising surface water and flooding are not without a separate NFIP policy, and Lamont, Arvin and the Caliente Creek basin sit in exactly that gap. Internal link to the existing claim checklist post rather than repeating it."
-  },
-  {
-   "id": "2026-09-15-water-damage-restoration-bakersfield",
-   "status": "queued",
-   "queued_at": "2026-09-15T14:24:35Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "target_term",
-   "combo_key": "water-damage-restoration-bakersfield",
-   "primary_keyword": "water damage restoration bakersfield",
-   "intent": "commercial",
-   "target_word_count": 1400,
-   "city_anchor": "bakersfield-ca",
-   "source": "gameplan-2026-09-1 (dev-agent)"
-  },
-  {
-   "id": "2026-09-15-fire-damage-restoration-bakersfield",
-   "status": "queued",
-   "queued_at": "2026-09-15T14:24:35Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "target_term",
-   "combo_key": "fire-damage-restoration-bakersfield",
-   "primary_keyword": "fire damage restoration bakersfield",
-   "intent": "commercial",
-   "target_word_count": 1400,
-   "city_anchor": "bakersfield-ca",
-   "source": "gameplan-2026-09-1 (dev-agent)"
-  }
- ]
+  ]
 }

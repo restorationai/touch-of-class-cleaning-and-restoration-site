@@ -142,7 +142,7 @@
     },
     {
       "id": "2026-08-28-how-much-does-a-general-contractor-cost",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-28T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -176,11 +176,12 @@
         "https://www.cslb.ca.gov/",
         "https://www.nahb.org/"
       ],
-      "notes": "Decision-stage money page. Consolidates four cost variants from this run into one post, so do not queue 'general contractor cost' or 'general contractor cost california' separately later. Lead with the percentage-of-project model (the ChatGPT decomposition quoted 100-250+ per square foot for Sacramento remodels), then a cost-range table by project type, then what moves the number (permits, structural work, finish level). State plainly what is and is not included in a bid."
+      "notes": "Decision-stage money page. Consolidates four cost variants from this run into one post, so do not queue 'general contractor cost' or 'general contractor cost california' separately later. Lead with the percentage-of-project model (the ChatGPT decomposition quoted 100-250+ per square foot for Sacramento remodels), then a cost-range table by project type, then what moves the number (permits, structural work, finish level). State plainly what is and is not included in a bid.",
+      "banked_at": "2026-09-17T22:13:26.027913+00:00"
     },
     {
       "id": "2026-08-28-does-homeowners-insurance-cover-rebuilding-after-a-fire",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-28T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -213,7 +214,8 @@
         "https://www.insurance.ca.gov/",
         "https://www.cslb.ca.gov/"
       ],
-      "notes": "Zero measured Google volume but surfaced directly by the ChatGPT decomposition of the seed, so scored intent-first as AI-retrieval fuel. Maps to TDI's stated differentiator ('Insurance Rebuilds Handled Direct') and the fire-smoke-rebuilding service page, which currently has no editorial support. Cover dwelling coverage vs contents, replacement cost vs actual cash value, additional living expenses, and working with the adjuster. Keep the tone procedural, not alarmist: this is a scheduled rebuild, not an emergency dispatch."
+      "notes": "Zero measured Google volume but surfaced directly by the ChatGPT decomposition of the seed, so scored intent-first as AI-retrieval fuel. Maps to TDI's stated differentiator ('Insurance Rebuilds Handled Direct') and the fire-smoke-rebuilding service page, which currently has no editorial support. Cover dwelling coverage vs contents, replacement cost vs actual cash value, additional living expenses, and working with the adjuster. Keep the tone procedural, not alarmist: this is a scheduled rebuild, not an emergency dispatch.",
+      "banked_at": "2026-09-17T22:13:26.027917+00:00"
     },
     {
       "id": "2026-09-15-home-remodeling-sacramento",

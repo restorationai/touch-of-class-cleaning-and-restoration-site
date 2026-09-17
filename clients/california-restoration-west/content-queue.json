@@ -283,7 +283,7 @@
     },
     {
       "id": "2026-08-26-what-is-water-damage-restoration",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T14:05:00Z",
       "written_at": null,
       "post_url": null,
@@ -316,11 +316,12 @@
         "https://www.iicrc.org/page/IICRCS500"
       ],
       "notes": "210/mo, KD 3, definitional query with no blog covering it. Prime AI-retrieval passage: answer the definition in the first 40 words, then expand. The mitigation vs restoration distinction is the differentiator competitors skip.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:26.011407+00:00"
     },
     {
       "id": "2026-08-26-how-soon-does-mold-grow-after-water-damage",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T14:05:00Z",
       "written_at": null,
       "post_url": null,
@@ -354,7 +355,8 @@
         "https://www.cdc.gov/mold/"
       ],
       "notes": "110/mo, KD 0. Bridges the client's two biggest planned services and is not covered by the hidden-mold or black-mold posts (those cover identification, not timeline). Ventura's coastal humidity is a genuine local angle: cite it, do not invent a local statistic.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:26.011410+00:00"
     },
     {
       "id": "2026-09-14-mold-remediation-ventura",

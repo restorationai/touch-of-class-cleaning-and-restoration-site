@@ -356,7 +356,7 @@
     },
     {
       "id": "2026-08-10-flooded-basement-who-to-call",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-10T18:35:34Z",
       "written_at": null,
       "post_url": null,
@@ -388,11 +388,12 @@
         "https://www.ready.gov/floods"
       ],
       "notes": "$104.67 CPC is the highest in this run: pure panic-stage buyer intent at KD 2. Answer the literal question in the first 40 words so AI assistants can lift it. Order of operations: stop the water, kill the power if water is near outlets, call restoration, then open the claim.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:26.015265+00:00"
     },
     {
       "id": "2026-08-10-basement-flooding-solutions",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-10T18:35:34Z",
       "written_at": null,
       "post_url": null,
@@ -425,11 +426,12 @@
         "https://www.floodsmart.gov/"
       ],
       "notes": "320/mo at KD 2 with $57.63 CPC. Prevention intent, so this one earns links and repeat visits rather than same-day calls. Mahoning Valley housing stock skews older with block foundations and undersized drain tile, which is the local angle worth leading with.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:26.015268+00:00"
     },
     {
       "id": "2026-08-10-why-is-my-basement-flooding",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-10T18:35:34Z",
       "written_at": null,
       "post_url": null,
@@ -462,11 +464,12 @@
         "https://www.epa.gov/mold/what-do-after-flood"
       ],
       "notes": "Diagnosis-stage query, 210/mo at KD 7. The ChatGPT decomposition flagged that homeowners lump four distinct failures together: supply line burst, sewer backup, sump pump failure, and foundation seepage. Separating those four is the whole value of this post, and each one has a different insurance outcome.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:26.015270+00:00"
     },
     {
       "id": "2026-08-26-how-long-does-water-damage-restoration-take",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T23:15:00Z",
       "written_at": null,
       "post_url": null,
@@ -500,11 +503,12 @@
         "https://www.epa.gov/mold/mold-cleanup-your-home"
       ],
       "notes": "Give a real day-by-day table (day 0 extraction, days 1-4 drying, days 5+ repairs) and name the variables that stretch it: category of water, affected materials, hidden saturation behind walls. Anchor the 24-48 hour mold window. DISS is IICRC ASD (structural drying) certified, lean on that.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:26.015271+00:00"
     },
     {
       "id": "2026-08-26-water-mitigation-vs-water-restoration",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T23:15:00Z",
       "written_at": null,
       "post_url": null,
@@ -537,11 +541,12 @@
         "https://www.iicrc.org/page/IICRCS500"
       ],
       "notes": "Zero measured Google volume but surfaced directly by the ChatGPT decomposition, so treat this as AI-retrieval fuel: short definitional passages an assistant can lift verbatim. Key selling angle for DISS: they do both phases in house (IICRC mitigation plus general contracting rebuild), so the homeowner does not hand off between two vendors.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:26.015272+00:00"
     },
     {
       "id": "2026-08-26-insurance-temporary-housing-water-damage",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T23:15:00Z",
       "written_at": null,
       "post_url": null,
@@ -575,11 +580,12 @@
         "https://www.fema.gov/flood-insurance"
       ],
       "notes": "This is Coverage D / loss of use, and almost nobody in the vertical writes it well. Explain what makes a home legally uninhabitable, what receipts to keep, and typical ALE time limits. Do not give policy-specific promises: frame as what to ask your adjuster. Pairs with the existing insurance blog rather than duplicating it.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:26.015273+00:00"
     },
     {
       "id": "2026-08-26-best-water-damage-restoration-near-me",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T23:15:00Z",
       "written_at": null,
       "post_url": null,
@@ -612,11 +618,12 @@
         "https://www.bbb.org/"
       ],
       "notes": "CANNIBALIZATION WATCH: a Youngstown best-of post is already written and /blog/choosing-a-restoration-company/ is planned. Do NOT write another ranked list. Write the criteria-and-vetting angle (certifications, response time SLA, direct insurance billing, written scope before work starts, who owns the rebuild) and link out to the Youngstown best-of for the local shortlist.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:26.015274+00:00"
     },
     {
       "id": "2026-08-26-water-damage-restoration-cost-calculator",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T23:15:00Z",
       "written_at": null,
       "post_url": null,
@@ -648,7 +655,8 @@
         "https://www.iicrc.org/page/IICRCS500"
       ],
       "notes": "KD 0, wide-open SERP. Build this as an ESTIMATOR asset (input tables by square footage x water category x affected material), not another prose cost guide: two cost-guide posts are already in this queue and a third would cannibalize. Cross-link to them instead.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:26.015275+00:00"
     },
     {
       "id": "2026-09-15-water-damage-restoration-youngstown",
