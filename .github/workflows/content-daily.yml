@@ -53,18 +53,34 @@ jobs:
           GITHUB_PERSONAL_ACCESS_TOKEN: ${{ secrets.GH_PAT }}
           DATAFORSEO_USERNAME:          ${{ secrets.DATAFORSEO_USERNAME }}
           DATAFORSEO_PASSWORD:          ${{ secrets.DATAFORSEO_PASSWORD }}
+          SENDGRID_API_KEY:             ${{ secrets.SENDGRID_API_KEY }}
         run: |
           python3 scripts/target_terms_sync.py || true
           # C3 (2026-09-17): shallow queues — cap 6 queued/client, overflow
           # banked and auto-promoted as room frees. Strategy changes land in
           # days, never behind a 23-deep backlog.
           python3 scripts/content_queue_hygiene.py || true
+          git add clients/*/content-queue.json 2>/dev/null || true
+          git commit -m "content queue hygiene: cap/bank pass [automated]" || echo "hygiene: nothing to commit" 
           SLUG="${{ github.event.inputs.only_slug }}"
           if [ -n "$SLUG" ]; then
             python3 scripts/master_scheduler.py run-due --slug "$SLUG" --headless --systems 0,2
           else
             python3 scripts/master_scheduler.py run-due --all --headless --systems 0,2
           fi
+      - name: Checkpoint push (never lose a written post)
+        if: always()
+        run: |
+          # 2026-09-17 discovery: the writer's guarded per-post pushes skip
+          # whenever ANY stray path dirties the runner's tree, and there was
+          # no end-of-run push — so posts written after the first stray path
+          # died with the runner. This step commits everything the run
+          # produced and pushes it, always.
+          git add -A
+          git commit -m "content-daily: checkpoint (posts + queue updates) [automated]" || echo "nothing to commit"
+          git pull --rebase --autostash origin main || true
+          git push origin main || echo "push failed — next run retries"
+
       - name: Alert on failure
         if: failure()
         env:
