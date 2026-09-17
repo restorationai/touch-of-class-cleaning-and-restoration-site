@@ -13,7 +13,7 @@
     "url_count": 626,
     "generated_at": "2026-09-17T20:46:25.755219+00:00"
   },
-  "updated_at": "2026-09-17T22:38:08.361382+00:00",
+  "updated_at": "2026-09-17T23:23:21.221577+00:00",
   "indexnow_key": "240bb5d741474b6c82ce0287639ce378",
   "build": {
     "scaffolded_at": "2026-09-11T21:37:06.902807+00:00",
@@ -23,10 +23,10 @@
     "url_count": 286,
     "pages_status": "exists",
     "last_rendered_at": "2026-09-17T22:24:27.611617+00:00",
-    "last_pushed_staging_at": "2026-09-12T00:12:56.597733+00:00",
+    "last_pushed_staging_at": "2026-09-17T23:23:21.221560+00:00",
     "last_pushed_main_at": "2026-09-17T22:38:08.361333+00:00"
   },
-  "build_status": "pushed_main",
+  "build_status": "pushed_staging",
   "cutover_prep": {
     "domain": "drycor.com",
     "harvested_at": "2026-09-03T14:15:11+00:00",
