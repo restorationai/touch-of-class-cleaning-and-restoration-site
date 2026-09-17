@@ -185,10 +185,16 @@ def location_plan(slug: str, cid: str) -> dict | None:
             pinned.append({"city": f"{m.group(1)} County", "state": m.group(2),
                            "mi": 0.0, "sources": {"gbp", "home-county"}})
             cands.pop(_city_key(area), None)
-    # (mi, name) key: fully deterministic ordering — equal-distance ties can
-    # never reorder between nights, so the 20-list only changes when the
-    # underlying data changes. No churn to Google from re-runs.
-    ranked = sorted(cands.values(), key=lambda c: (c["mi"], c["city"]))
+    # DEMAND-WEIGHTED TIEBREAK (Santino 2026-09-17, "suggestion A"):
+    # distance stays primary, but within the same ~1.5-mile band the BIGGER
+    # place wins the slot (land area as the size proxy — instant, no API).
+    # Still fully deterministic: band -> size desc -> name, so re-runs can
+    # never churn the list.
+    def _size(c):
+        g = by_name.get(_city_key(c["city"]))
+        return (g or {}).get("sqmi", 0.0)
+    ranked = sorted(cands.values(),
+                    key=lambda c: (round(c["mi"] / 1.5), -_size(c), c["city"]))
     target = (pinned + ranked)[:MAX_AREAS]
     target_set = {_city_key(f"{c['city']}")
                   for c in target}

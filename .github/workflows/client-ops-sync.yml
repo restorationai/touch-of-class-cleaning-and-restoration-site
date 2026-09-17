@@ -194,7 +194,12 @@ jobs:
           # services) + location loop (closest-20 service areas maintained
           # on GBP, home county pinned, fill-to-20 from the Census
           # gazetteer). Site-side city builds stay gated (--apply-site).
-          python3 scripts/gbp_parity.py --all --apply || true
+          python3 scripts/gbp_parity.py --all --apply --apply-site --max-new-cities 1 || true
+          # D1 PIPELINE WATCHDOG (2026-09-17): workflows + engine
+          # heartbeats + per-client coverage assertions + content SLA.
+          # Every silent failure class from the RX postmortem alerts
+          # into Ops Attention within a day.
+          python3 scripts/pipeline_watchdog.py || true
 
       - name: Mini heartbeat mirror (superadmin dot, 2026-09-14)
         # The Mac Mini heartbeats + daily-reports by git commit; this step
