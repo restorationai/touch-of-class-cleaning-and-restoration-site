@@ -62,6 +62,20 @@ def build_queries(ident: dict) -> list[dict]:
     out: list[dict] = []
     for svc in svcs:
         out.append({"query": f"how much does {svc} cost", "location": "", "region": "United States"})
+    # B2 (Santino 2026-09-17): CITY-MODIFIED cost queries too. The national
+    # framing ("AIOs are national-only") was too absolute — Google does show
+    # AI Overviews on "{service} cost in {city}" phrasings, and those are
+    # exactly the queries our local cost-guide pages target, so tracking
+    # only national misrepresented what our content can win. Top 2 services
+    # x primary city, still tracked from a national vantage (the query
+    # itself carries the locality).
+    areas = ident.get("areas") or []
+    city = next((a for a in areas if a.get("primary")), areas[0] if areas else {})
+    cstr = f"{city.get('city')}, {city.get('state')}" if city.get("city") else ""
+    if cstr:
+        for svc in svcs[:2]:
+            out.append({"query": f"{svc} cost in {cstr}",
+                        "location": "", "region": "United States"})
     for q in GENERIC_INFO:
         out.append({"query": q, "location": "", "region": "United States"})
 
