@@ -20,7 +20,22 @@ import { brand } from "~/lib/brand";
     <meta name="robots" content="noindex" />
     <title>Free Estimate | {brand.displayName}</title>
   </head>
-  <body class="bg-transparent">
+  <body class="bg-transparent" style="margin:0;padding:0">
     <FreeEstimateForm compact heading="Request Your Free Estimate" />
+      <script is:inline>
+      // Auto-height for the script-tag embed: report content height to the
+      // parent page so the host iframe never shows white space below the
+      // form (and grows when the form swaps to its thank-you state).
+      (function () {
+        if (window.parent === window) return;
+        var post = function () {
+          var h = document.documentElement.scrollHeight || document.body.scrollHeight;
+          window.parent.postMessage({ type: "rankai-embed-height", height: h }, "*");
+        };
+        new ResizeObserver(post).observe(document.documentElement);
+        window.addEventListener("load", post);
+        post();
+      })();
+    </script>
   </body>
 </html>
