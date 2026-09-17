@@ -189,6 +189,12 @@ jobs:
           # surviving the removal law, descriptions), one batched Google
           # call per client. Categories/names/pages stay human.
           python3 scripts/gbp_auto_apply.py --all --apply || true
+          # PARITY ENGINE P1-P3 (2026-09-17): ledger + service loop (pages
+          # queued for real GBP-only services, ADDs staged for site-only
+          # services) + location loop (closest-20 service areas maintained
+          # on GBP, home county pinned, fill-to-20 from the Census
+          # gazetteer). Site-side city builds stay gated (--apply-site).
+          python3 scripts/gbp_parity.py --all --apply || true
 
       - name: Mini heartbeat mirror (superadmin dot, 2026-09-14)
         # The Mac Mini heartbeats + daily-reports by git commit; this step
