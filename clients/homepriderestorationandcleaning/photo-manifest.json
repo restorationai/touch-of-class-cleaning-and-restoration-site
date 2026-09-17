@@ -1421,6 +1421,33 @@
       "triaged_at": "2026-08-05T06:01:29Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipMdli4M3U0k_wKR2-SQRLxsvf_XlhVPQ7nNvvvJ": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMdli4M3U0k_wKR2-SQRLxsvf_XlhVPQ7nNvvvJ.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/gbp-AF1QipMdli4M3U0k_wKR2-SQRLxsvf_XlhVPQ7nNvvvJ.jpg",
+      "width": 810,
+      "height": 1080,
+      "bytes": 1183412,
+      "sha1": "77e6b9460017b28c",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Grey sectional sofa back with wet cleaning stain visible",
+      "quality": 42,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [
+        "upholstery-cleaning"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Awkward angle, partial wet stain visible, low composition quality.",
+      "triaged_at": "2026-09-17T14:07:35Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipMgv1kAMl4KooFve77R0napXCAU96LVlYQzNZpA": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMgv1kAMl4KooFve77R0napXCAU96LVlYQzNZpA.jpg",
@@ -3979,6 +4006,33 @@
       "triaged_at": "2026-08-05T06:06:13Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipOfO9KUXGQn3yOvYv3dW79jmUXzveZgsW86pG35": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOfO9KUXGQn3yOvYv3dW79jmUXzveZgsW86pG35.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/gbp-AF1QipOfO9KUXGQn3yOvYv3dW79jmUXzveZgsW86pG35.jpg",
+      "width": 1200,
+      "height": 900,
+      "bytes": 113940,
+      "sha1": "3323a9ad47d39cde",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Grey sectional sofa back with wet stain, black side bars",
+      "quality": 38,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 28
+      },
+      "service_slugs": [
+        "upholstery-cleaning"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Same shot as image 0 with black borders added; poor composition and angle.",
+      "triaged_at": "2026-09-17T14:07:35Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipOhBsJD8_nB8qKKAvDS7P0SlI3w4kIKMyFyAFKT": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipOhBsJD8_nB8qKKAvDS7P0SlI3w4kIKMyFyAFKT.jpg",
@@ -4185,7 +4239,8 @@
       "flags": [],
       "reason": "Awkward rear angle, no technician visible; shows cleaning result but poorly framed.",
       "triaged_at": "2026-08-05T06:06:29Z",
-      "triage_model": "claude-sonnet-4-6"
+      "triage_model": "claude-sonnet-4-6",
+      "duplicate_of": "gbp:gbp-AF1QipMdli4M3U0k_wKR2-SQRLxsvf_XlhVPQ7nNvvvJ"
     },
     "gbp:gbp-AF1QipOuyLi0GGnQRjFoH4HhqXaT7z0C1HkDfdzcu__x": {
       "source": "gbp",
@@ -5291,5 +5346,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-09-12T01:53:03Z"
+  "triaged_at": "2026-09-17T14:07:35Z"
 }
