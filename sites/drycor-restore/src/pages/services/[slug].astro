@@ -34,7 +34,7 @@ const serviceLower = data.service_display.toLowerCase();
 const bestCompanyAnswer = [
   `${brand.displayName} provides ${isLicensed ? "licensed and insured " : ""}${serviceLower} in ${brand.primaryCity}, ${brand.primaryState} and the surrounding area${sinceClause}.`,
   hasGbpRating
-    ? `Customers rate us ${brand.gbpRatingValue} out of 5 stars across ${brand.gbpReviewCount} Google reviews.`
+    ? `Customers rate us ${brand.gbpRatingValue} out of 5 stars on Google.`
     : "",
   is247
     ? `We answer calls 24/7 — call ${brand.phone} for immediate help.`

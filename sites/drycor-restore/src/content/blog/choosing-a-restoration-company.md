@@ -41,7 +41,7 @@ If a technician is injured in your home and the company doesn't carry workers' c
 In Florida, contractors performing structural repairs as part of a restoration project typically need a state-issued contractor's license. You can verify license status through the Florida Department of Business and Professional Regulation (DBPR) online. This takes about two minutes.
 
 **4. Read recent reviews, and read the negative ones.**
-A company with 200 five-star reviews and zero complaints is statistically unusual. Look for how they respond to criticism. A company that engages professionally with a bad review is more trustworthy than one with a suspiciously perfect record.
+A company with hundreds of five-star reviews and zero complaints is statistically unusual. Look for how they respond to criticism. A company that engages professionally with a bad review is more trustworthy than one with a suspiciously perfect record.
 
 **5. Get the scope of work in writing before anything starts.**
 A written scope should specify what materials will be removed, what drying equipment will be used and for how long, how the work will be documented, and what the billing arrangement is. Vague contracts protect the contractor, not you.

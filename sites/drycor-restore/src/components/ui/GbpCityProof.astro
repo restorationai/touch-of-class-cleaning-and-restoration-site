@@ -17,8 +17,8 @@ const hasRating = rating !== "" && count !== "";
 const reviews = brand.gbpReviews || [];
 const review = hasRating && reviews.length > 0 ? reviews[cityHash(city) % reviews.length] : undefined;
 const heading = isHqCity(city)
-  ? `Headquartered right here in ${city} — ★ ${rating} · ${count} Google reviews`
-  : `Serving ${city} from our ${brand.primaryCity} headquarters — ★ ${rating} · ${count} Google reviews`;
+  ? `Headquartered right here in ${city} — ★ ${rating} Google rating`
+  : `Serving ${city} from our ${brand.primaryCity} headquarters — ★ ${rating} Google rating`;
 const reviewsUrl = brand.placeId
   ? `https://search.google.com/local/reviews?placeid=${brand.placeId}`
   : brand.googleCid

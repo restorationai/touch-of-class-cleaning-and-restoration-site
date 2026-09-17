@@ -17,7 +17,7 @@ const mapsUrl = brand.placeId
 
 const title = `Reviews | ${brand.displayName}`;
 const meta = hasSynced
-  ? `${brand.displayName} holds a ${rating}-star Google rating across ${count} reviews. Read what customers say about the work.`
+  ? `${brand.displayName} holds a ${rating}-star Google rating. Read what customers say about the work.`
   : `Read customer reviews of ${brand.displayName} on Google.`;
 ---
 
@@ -28,7 +28,7 @@ const meta = hasSynced
       {hasSynced ? (
         <p class="text-lg opacity-80 mt-4 flex items-center gap-2">
           <Star size={20} class="shrink-0" />
-          <span><strong>{rating}</strong> stars across <strong>{count}</strong> Google reviews — pulled directly from our Google Business Profile.</span>
+          <span>A <strong>{rating}</strong>-star Google rating — pulled directly from our Google Business Profile.</span>
         </p>
       ) : (
         <p class="text-lg opacity-80 mt-4">
