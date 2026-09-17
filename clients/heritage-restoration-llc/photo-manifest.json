@@ -55,6 +55,31 @@
       "triaged_at": "2026-09-17T16:26:24Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "crew:1789665501642-76bc724d": {
+      "source": "crew",
+      "storage": "job-photos/1789665501642-76bc724d.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1789496674784/job-photos/1789665501642-76bc724d.jpg",
+      "width": 2000,
+      "height": 744,
+      "bytes": 76636,
+      "sha1": "8f8c85b7e31b8cd0",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Heritage Restoration company logo lockup on blue background",
+      "quality": 72,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "logo_card"
+      ],
+      "reason": "Purely a designed brand graphic; no photographic content suitable for site slots.",
+      "triaged_at": "2026-09-17T17:42:48Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipNgL1_o5ykII-3zHaf-CMIfg8vXt9_AlSi8jOkS": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipNgL1_o5ykII-3zHaf-CMIfg8vXt9_AlSi8jOkS.jpg",
@@ -155,5 +180,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-09-17T16:26:24Z"
+  "triaged_at": "2026-09-17T17:42:48Z"
 }
