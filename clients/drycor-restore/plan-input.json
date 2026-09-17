@@ -181,6 +181,176 @@
       "city": "Auburndale",
       "state": "FL",
       "slug": "auburndale-fl"
+    },
+    {
+      "city": "Anna Maria",
+      "state": "FL",
+      "slug": "anna-maria-fl"
+    },
+    {
+      "city": "Bartow",
+      "state": "FL",
+      "slug": "bartow-fl"
+    },
+    {
+      "city": "Clearwater Beach",
+      "state": "FL",
+      "slug": "clearwater-beach-fl"
+    },
+    {
+      "city": "Dade City",
+      "state": "FL",
+      "slug": "dade-city-fl"
+    },
+    {
+      "city": "Davenport",
+      "state": "FL",
+      "slug": "davenport-fl"
+    },
+    {
+      "city": "Dundee",
+      "state": "FL",
+      "slug": "dundee-fl"
+    },
+    {
+      "city": "Ellenton",
+      "state": "FL",
+      "slug": "ellenton-fl"
+    },
+    {
+      "city": "Englewood",
+      "state": "FL",
+      "slug": "englewood-fl"
+    },
+    {
+      "city": "Gibsonton",
+      "state": "FL",
+      "slug": "gibsonton-fl"
+    },
+    {
+      "city": "Haines City",
+      "state": "FL",
+      "slug": "haines-city-fl"
+    },
+    {
+      "city": "Holiday",
+      "state": "FL",
+      "slug": "holiday-fl"
+    },
+    {
+      "city": "Holmes Beach",
+      "state": "FL",
+      "slug": "holmes-beach-fl"
+    },
+    {
+      "city": "Lake Wales",
+      "state": "FL",
+      "slug": "lake-wales-fl"
+    },
+    {
+      "city": "Lakewood Ranch",
+      "state": "FL",
+      "slug": "lakewood-ranch-fl"
+    },
+    {
+      "city": "Lithia",
+      "state": "FL",
+      "slug": "lithia-fl"
+    },
+    {
+      "city": "Longboat Key",
+      "state": "FL",
+      "slug": "longboat-key-fl"
+    },
+    {
+      "city": "Mulberry",
+      "state": "FL",
+      "slug": "mulberry-fl"
+    },
+    {
+      "city": "Nokomis",
+      "state": "FL",
+      "slug": "nokomis-fl"
+    },
+    {
+      "city": "North Port",
+      "state": "FL",
+      "slug": "north-port-fl"
+    },
+    {
+      "city": "Odessa",
+      "state": "FL",
+      "slug": "odessa-fl"
+    },
+    {
+      "city": "Oldsmar",
+      "state": "FL",
+      "slug": "oldsmar-fl"
+    },
+    {
+      "city": "Osprey",
+      "state": "FL",
+      "slug": "osprey-fl"
+    },
+    {
+      "city": "Parrish",
+      "state": "FL",
+      "slug": "parrish-fl"
+    },
+    {
+      "city": "Polk City",
+      "state": "FL",
+      "slug": "polk-city-fl"
+    },
+    {
+      "city": "Port Richey",
+      "state": "FL",
+      "slug": "port-richey-fl"
+    },
+    {
+      "city": "Safety Harbor",
+      "state": "FL",
+      "slug": "safety-harbor-fl"
+    },
+    {
+      "city": "Sarasota",
+      "state": "FL",
+      "slug": "sarasota-fl"
+    },
+    {
+      "city": "Seminole",
+      "state": "FL",
+      "slug": "seminole-fl"
+    },
+    {
+      "city": "Siesta Key",
+      "state": "FL",
+      "slug": "siesta-key-fl"
+    },
+    {
+      "city": "St. Pete Beach",
+      "state": "FL",
+      "slug": "st-pete-beach-fl"
+    },
+    {
+      "city": "Sun City Center",
+      "state": "FL",
+      "slug": "sun-city-center-fl"
+    },
+    {
+      "city": "Tarpon Springs",
+      "state": "FL",
+      "slug": "tarpon-springs-fl"
+    },
+    {
+      "city": "Trinity",
+      "state": "FL",
+      "slug": "trinity-fl"
+    },
+    {
+      "city": "Venice",
+      "state": "FL",
+      "slug": "venice-fl"
     }
   ],
   "template": "restoration",
