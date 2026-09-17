@@ -184,6 +184,11 @@ jobs:
           # generate_lead) + Google Ads links for every client with a GA4
           # id. Idempotent; new clients get wired on their first sweep.
           python3 scripts/ga4_wire.py || true
+          # A2 (2026-09-17, approved after the RX test): GBP optimizer
+          # auto-apply — safe classes only (service ADDs, junk REMOVEs
+          # surviving the removal law, descriptions), one batched Google
+          # call per client. Categories/names/pages stay human.
+          python3 scripts/gbp_auto_apply.py --all --apply || true
 
       - name: Mini heartbeat mirror (superadmin dot, 2026-09-14)
         # The Mac Mini heartbeats + daily-reports by git commit; this step
