@@ -161,6 +161,12 @@ def check_coverage() -> list[str]:
         queued = [i for i in (q.get("items") or []) if i.get("status") == "queued"]
         if not queued:
             continue
+        # C2 precision (2026-09-17): a client whose site has no scaffolded
+        # blog CANNOT publish — that is "waiting on site build", not
+        # "starved" (Paul Davis Charleston case). The SLA only judges
+        # clients the writer could actually serve.
+        if not (ROOT / f"sites/{slug}/src/content/blog").exists():
+            continue
         last = None
         for mp in glob.glob(str(ROOT / f"sites/{slug}/src/content/blog/*.md")):
             m = re.search(r'published_at:\s*"?(\d{4}-\d{2}-\d{2})', Path(mp).read_text())

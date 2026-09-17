@@ -5,7 +5,7 @@
   "tier": "standard",
   "vertical": "restoration",
   "contact": "info@procraftexteriors.com",
-  "status": "onboarding",
+  "status": "departed",
   "plan_status": "planned",
   "plan": {
     "template": "restoration",
@@ -31,5 +31,6 @@
     "last_audit_at": "2026-08-27T05:00:04.549342+00:00",
     "last_audit_verdict": "red",
     "last_audit_report_path": "audit-runs/2026-08-27-onsite-audit.md"
-  }
+  },
+  "departed_note": "never-paid signup; site+repo+pages deleted 2026-08-28 (7c869b7f); record aligned 2026-09-17"
 }
