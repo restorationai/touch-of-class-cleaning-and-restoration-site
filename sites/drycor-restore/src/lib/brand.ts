@@ -67,7 +67,7 @@ export const brand = {
     { author: "Mark", rating: 5, text: "The Showalter Construction and Restoration Team as well as DryCor Restore have been a Great Help and Excellent Experience. From Initial assessment, Insurance navigation, Expert Advice, Execution of Restore have been spot on ! The Crew of Victor, Victor, Damen and Garrett are the best, Hard working…", when: "June 2026" },
     { author: "Cindy", rating: 5, text: "I highly recommend Drycor Restore, and Showalter Construction and Restoration. I had a plumbing issue that allowed water to run unseen throughout the house for months, damaging all of my floors, and leaving mold in my bathroom and bedroom. The slab had to be dried throughout, sealed, and new floors…", when: "May 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
-  tagline: "24/7 restoration services in Thonotosassa, FL.",
+  tagline: "24/7 restoration services across Tampa Bay, FL.",
   ctaLabel: "24/7 Emergency Line",
   // Vertical trade-identity copy — resolved at scaffold time from
   // templates/{vertical}/vertical-tokens.json (see scripts/verticals.py).
