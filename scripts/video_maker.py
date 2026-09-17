@@ -443,6 +443,47 @@ def _trim_scenes_to_cap(scenes: list[dict],
     return sc
 
 
+def parse_script_json(raw: str) -> dict:
+    """LLM JSON with self-repair (D2, 2026-09-17: an unescaped quote in a
+    narration string crashed the whole fleet run for 3 weeks). Try strict,
+    then repair the classic failure (bare interior double-quotes inside
+    string values), then a trailing-comma cleanup. Raises only when all
+    three fail — and the caller treats that as THIS client failing, never
+    the run."""
+    try:
+        return json.loads(raw)
+    except json.JSONDecodeError:
+        pass
+    # State-machine repair: walk the text; inside a string, a double-quote
+    # only legitimately CLOSES it when the next non-space char is a JSON
+    # delimiter (, : } ] or end). Any other interior quote gets escaped.
+    out, in_str, esc = [], False, False
+    for idx, ch in enumerate(raw):
+        if esc:
+            out.append(ch); esc = False; continue
+        if ch == "\\" and in_str:
+            out.append(ch); esc = True; continue
+        if ch == '"':
+            if not in_str:
+                in_str = True; out.append(ch); continue
+            j = idx + 1
+            while j < len(raw) and raw[j] in " \t\r\n":
+                j += 1
+            if j >= len(raw) or raw[j] in ",:}]":
+                in_str = False; out.append(ch)
+            else:
+                out.append('\\"')   # interior quote — escape it
+            continue
+        out.append(ch)
+    repaired = "".join(out)
+    try:
+        return json.loads(repaired)
+    except json.JSONDecodeError:
+        pass
+    cleaned = re.sub(r",\s*([}\]])", r"\1", repaired)
+    return json.loads(cleaned)
+
+
 def generate_video_script(post: dict, client: dict) -> dict:
     api_key = require_env("ANTHROPIC_API_KEY")
 
@@ -505,7 +546,7 @@ def generate_video_script(post: dict, client: dict) -> dict:
         # Strip ```json fences if present
         raw = re.sub(r"^```json\s*", "", raw)
         raw = re.sub(r"\s*```$", "", raw)
-        script = json.loads(raw)
+        script = parse_script_json(raw)
         for k in usage_total:
             usage_total[k] += payload.get("usage", {}).get(k, 0)
 
@@ -640,7 +681,7 @@ def generate_brand_script(client: dict, service: str | None = None,
     raw = payload["content"][0]["text"].strip()
     raw = re.sub(r"^```json\s*", "", raw)
     raw = re.sub(r"\s*```$", "", raw)
-    script = json.loads(raw)
+    script = parse_script_json(raw)
     script["_usage"] = payload.get("usage", {})
     return script
 
@@ -2211,7 +2252,7 @@ def generate_geo_script(client: dict, service: str, city: str,
     raw = payload["content"][0]["text"].strip()
     raw = re.sub(r"^```json\s*", "", raw)
     raw = re.sub(r"\s*```$", "", raw)
-    script = json.loads(raw)
+    script = parse_script_json(raw)
     script["_usage"] = payload.get("usage", {})
     return script
 

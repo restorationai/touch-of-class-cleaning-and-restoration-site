@@ -336,16 +336,39 @@ def plan_next(slug: str, st: dict) -> dict | None:
 
 
 def _run_maker(argv: list[str]) -> dict:
-    """Run video_maker in its own process — a failure on one client doesn't
-    kill the whole cron run."""
-    r = subprocess.run(
-        [sys.executable, str(ROOT / "scripts" / "video_maker.py"), *argv],
-        cwd=str(ROOT), capture_output=True, text=True, timeout=1800,
-    )
-    ok = r.returncode == 0
-    m = re.search(r"youtu\.be/([\w-]+)", r.stdout)
-    return {"ok": ok, "youtube_id": m.group(1) if m else None,
-            "err": (r.stderr[-300:] if not ok else None)}
+    """Run video_maker in its own PROCESS GROUP with a hard wall clock.
+
+    D2 (2026-09-17): plain subprocess.run(timeout=...) kills only the child
+    — video_maker's ffmpeg GRANDCHILDREN survive holding the stdout pipe,
+    and the capture read blocks forever. That is exactly how 7 of 8 fleet
+    runs hung to the 120-minute cancel since Aug 31 (orphan ffmpeg pids in
+    every teardown log). start_new_session puts the whole tree in one
+    group; on timeout the GROUP dies and the run moves to the next client.
+    Any exception here is THIS client's failure, never the run's."""
+    import os as _os
+    import signal as _signal
+    try:
+        proc = subprocess.Popen(
+            [sys.executable, str(ROOT / "scripts" / "video_maker.py"), *argv],
+            cwd=str(ROOT), stdout=subprocess.PIPE, stderr=subprocess.PIPE,
+            text=True, start_new_session=True,
+        )
+        try:
+            out, err = proc.communicate(timeout=1800)
+        except subprocess.TimeoutExpired:
+            try:
+                _os.killpg(_os.getpgid(proc.pid), _signal.SIGKILL)
+            except Exception:  # noqa: BLE001
+                proc.kill()
+            out, err = proc.communicate()
+            return {"ok": False, "youtube_id": None,
+                    "err": "timeout 30min — process group killed"}
+        ok = proc.returncode == 0
+        m = re.search(r"youtu\.be/([\w-]+)", out or "")
+        return {"ok": ok, "youtube_id": m.group(1) if m else None,
+                "err": ((err or "")[-300:] if not ok else None)}
+    except Exception as e:  # noqa: BLE001 — one client never sinks the cron
+        return {"ok": False, "youtube_id": None, "err": str(e)[:300]}
 
 
 def make_planned(slug: str, plan: dict, dry_run: bool) -> dict:
