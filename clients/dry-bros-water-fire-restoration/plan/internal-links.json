@@ -7,7 +7,6 @@
     "/services/fire-damage-restoration/",
     "/services/mold-remediation/",
     "/services/water-damage-restoration/",
-    "/services/emergency-plumbing/",
     "/services/flood-damage-restoration/",
     "/services/reconstruction/",
     "/services/sewage-cleanup/",
@@ -32,7 +31,6 @@
     "/services/fire-damage-restoration/",
     "/services/mold-remediation/",
     "/services/water-damage-restoration/",
-    "/services/emergency-plumbing/",
     "/services/flood-damage-restoration/",
     "/services/reconstruction/",
     "/services/sewage-cleanup/",
@@ -241,24 +239,12 @@
     "/service-areas/oak-park-il/reconstruction/",
     "/service-areas/skokie-il/reconstruction/"
   ],
-  "/services/emergency-plumbing/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/berwyn-il/emergency-plumbing/",
-    "/service-areas/cicero-il/emergency-plumbing/",
-    "/service-areas/des-plaines-il/emergency-plumbing/",
-    "/service-areas/evanston-il/emergency-plumbing/",
-    "/service-areas/naperville-il/emergency-plumbing/",
-    "/service-areas/oak-park-il/emergency-plumbing/",
-    "/service-areas/skokie-il/emergency-plumbing/"
-  ],
   "/service-areas/naperville-il/": [
     "/service-areas/",
     "/contact/",
     "/service-areas/naperville-il/fire-damage-restoration/",
     "/service-areas/naperville-il/mold-remediation/",
     "/service-areas/naperville-il/water-damage-restoration/",
-    "/service-areas/naperville-il/emergency-plumbing/",
     "/service-areas/naperville-il/flood-damage-restoration/",
     "/service-areas/naperville-il/reconstruction/",
     "/service-areas/naperville-il/sewage-cleanup/",
@@ -280,7 +266,6 @@
     "/service-areas/cicero-il/fire-damage-restoration/",
     "/service-areas/cicero-il/mold-remediation/",
     "/service-areas/cicero-il/water-damage-restoration/",
-    "/service-areas/cicero-il/emergency-plumbing/",
     "/service-areas/cicero-il/flood-damage-restoration/",
     "/service-areas/cicero-il/reconstruction/",
     "/service-areas/cicero-il/sewage-cleanup/",
@@ -302,7 +287,6 @@
     "/service-areas/evanston-il/fire-damage-restoration/",
     "/service-areas/evanston-il/mold-remediation/",
     "/service-areas/evanston-il/water-damage-restoration/",
-    "/service-areas/evanston-il/emergency-plumbing/",
     "/service-areas/evanston-il/flood-damage-restoration/",
     "/service-areas/evanston-il/reconstruction/",
     "/service-areas/evanston-il/sewage-cleanup/",
@@ -324,7 +308,6 @@
     "/service-areas/oak-park-il/fire-damage-restoration/",
     "/service-areas/oak-park-il/mold-remediation/",
     "/service-areas/oak-park-il/water-damage-restoration/",
-    "/service-areas/oak-park-il/emergency-plumbing/",
     "/service-areas/oak-park-il/flood-damage-restoration/",
     "/service-areas/oak-park-il/reconstruction/",
     "/service-areas/oak-park-il/sewage-cleanup/",
@@ -346,7 +329,6 @@
     "/service-areas/skokie-il/fire-damage-restoration/",
     "/service-areas/skokie-il/mold-remediation/",
     "/service-areas/skokie-il/water-damage-restoration/",
-    "/service-areas/skokie-il/emergency-plumbing/",
     "/service-areas/skokie-il/flood-damage-restoration/",
     "/service-areas/skokie-il/reconstruction/",
     "/service-areas/skokie-il/sewage-cleanup/",
@@ -368,7 +350,6 @@
     "/service-areas/berwyn-il/fire-damage-restoration/",
     "/service-areas/berwyn-il/mold-remediation/",
     "/service-areas/berwyn-il/water-damage-restoration/",
-    "/service-areas/berwyn-il/emergency-plumbing/",
     "/service-areas/berwyn-il/flood-damage-restoration/",
     "/service-areas/berwyn-il/reconstruction/",
     "/service-areas/berwyn-il/sewage-cleanup/",
@@ -390,7 +371,6 @@
     "/service-areas/des-plaines-il/fire-damage-restoration/",
     "/service-areas/des-plaines-il/mold-remediation/",
     "/service-areas/des-plaines-il/water-damage-restoration/",
-    "/service-areas/des-plaines-il/emergency-plumbing/",
     "/service-areas/des-plaines-il/flood-damage-restoration/",
     "/service-areas/des-plaines-il/reconstruction/",
     "/service-areas/des-plaines-il/sewage-cleanup/",
@@ -532,15 +512,6 @@
     "/service-areas/cicero-il/reconstruction/",
     "/contact/"
   ],
-  "/service-areas/naperville-il/emergency-plumbing/": [
-    "/services/emergency-plumbing/",
-    "/service-areas/naperville-il/",
-    "/service-areas/naperville-il/fire-damage-restoration/",
-    "/service-areas/naperville-il/mold-remediation/",
-    "/service-areas/berwyn-il/emergency-plumbing/",
-    "/service-areas/cicero-il/emergency-plumbing/",
-    "/contact/"
-  ],
   "/service-areas/cicero-il/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/cicero-il/",
@@ -665,15 +636,6 @@
     "/service-areas/cicero-il/mold-remediation/",
     "/service-areas/berwyn-il/reconstruction/",
     "/service-areas/des-plaines-il/reconstruction/",
-    "/contact/"
-  ],
-  "/service-areas/cicero-il/emergency-plumbing/": [
-    "/services/emergency-plumbing/",
-    "/service-areas/cicero-il/",
-    "/service-areas/cicero-il/fire-damage-restoration/",
-    "/service-areas/cicero-il/mold-remediation/",
-    "/service-areas/berwyn-il/emergency-plumbing/",
-    "/service-areas/des-plaines-il/emergency-plumbing/",
     "/contact/"
   ],
   "/service-areas/evanston-il/water-damage-restoration/": [
@@ -802,15 +764,6 @@
     "/service-areas/cicero-il/reconstruction/",
     "/contact/"
   ],
-  "/service-areas/evanston-il/emergency-plumbing/": [
-    "/services/emergency-plumbing/",
-    "/service-areas/evanston-il/",
-    "/service-areas/evanston-il/fire-damage-restoration/",
-    "/service-areas/evanston-il/mold-remediation/",
-    "/service-areas/berwyn-il/emergency-plumbing/",
-    "/service-areas/cicero-il/emergency-plumbing/",
-    "/contact/"
-  ],
   "/service-areas/oak-park-il/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/oak-park-il/",
@@ -935,15 +888,6 @@
     "/service-areas/oak-park-il/mold-remediation/",
     "/service-areas/berwyn-il/reconstruction/",
     "/service-areas/cicero-il/reconstruction/",
-    "/contact/"
-  ],
-  "/service-areas/oak-park-il/emergency-plumbing/": [
-    "/services/emergency-plumbing/",
-    "/service-areas/oak-park-il/",
-    "/service-areas/oak-park-il/fire-damage-restoration/",
-    "/service-areas/oak-park-il/mold-remediation/",
-    "/service-areas/berwyn-il/emergency-plumbing/",
-    "/service-areas/cicero-il/emergency-plumbing/",
     "/contact/"
   ],
   "/service-areas/skokie-il/water-damage-restoration/": [
@@ -1072,15 +1016,6 @@
     "/service-areas/cicero-il/reconstruction/",
     "/contact/"
   ],
-  "/service-areas/skokie-il/emergency-plumbing/": [
-    "/services/emergency-plumbing/",
-    "/service-areas/skokie-il/",
-    "/service-areas/skokie-il/fire-damage-restoration/",
-    "/service-areas/skokie-il/mold-remediation/",
-    "/service-areas/berwyn-il/emergency-plumbing/",
-    "/service-areas/cicero-il/emergency-plumbing/",
-    "/contact/"
-  ],
   "/service-areas/berwyn-il/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/berwyn-il/",
@@ -1207,15 +1142,6 @@
     "/service-areas/des-plaines-il/reconstruction/",
     "/contact/"
   ],
-  "/service-areas/berwyn-il/emergency-plumbing/": [
-    "/services/emergency-plumbing/",
-    "/service-areas/berwyn-il/",
-    "/service-areas/berwyn-il/fire-damage-restoration/",
-    "/service-areas/berwyn-il/mold-remediation/",
-    "/service-areas/cicero-il/emergency-plumbing/",
-    "/service-areas/des-plaines-il/emergency-plumbing/",
-    "/contact/"
-  ],
   "/service-areas/des-plaines-il/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/des-plaines-il/",
@@ -1340,15 +1266,6 @@
     "/service-areas/des-plaines-il/mold-remediation/",
     "/service-areas/berwyn-il/reconstruction/",
     "/service-areas/cicero-il/reconstruction/",
-    "/contact/"
-  ],
-  "/service-areas/des-plaines-il/emergency-plumbing/": [
-    "/services/emergency-plumbing/",
-    "/service-areas/des-plaines-il/",
-    "/service-areas/des-plaines-il/fire-damage-restoration/",
-    "/service-areas/des-plaines-il/mold-remediation/",
-    "/service-areas/berwyn-il/emergency-plumbing/",
-    "/service-areas/cicero-il/emergency-plumbing/",
     "/contact/"
   ],
   "/blog/what-to-do-first-24-hours-water-damage/": [

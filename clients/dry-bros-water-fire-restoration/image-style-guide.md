@@ -218,7 +218,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Water Damage Restoration, Fire Damage Restoration, Mold Remediation, Emergency Water Cleanup, Flood Damage Restoration, Burst Pipe Cleanup and Repair, Basement Flooding Cleanup, Sewage Cleanup and Sanitization, Smoke Damage Restoration, Odor Removal and Deodorization, Storm Damage Restoration, Emergency Board-Up and Tarping, Contents Restoration and Storage, Reconstruction Services, Emergency Plumbing)
+- [ ] (continue for each of Water Damage Restoration, Fire Damage Restoration, Mold Remediation, Emergency Water Cleanup, Flood Damage Restoration, Burst Pipe Cleanup and Repair, Basement Flooding Cleanup, Sewage Cleanup and Sanitization, Smoke Damage Restoration, Odor Removal and Deodorization, Storm Damage Restoration, Emergency Board-Up and Tarping, Contents Restoration and Storage, Reconstruction Services)
 
 ### Service area pages (one image per city served)
 - [ ] Chicago hero — exterior shot, regional housing stock, evocative of the city

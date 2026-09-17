@@ -1,9 +1,9 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-17T14:04:58.257244+00:00",
+  "generated_at": "2026-09-17T14:49:21.525184+00:00",
   "input_summary": {
-    "service_count": 15,
+    "service_count": 14,
     "service_area_count": 8,
     "cross_product": true,
     "blog_seed_count": 8
@@ -14,11 +14,13 @@
       "archetype": "home",
       "vars_keys": [],
       "title": "Dry Bros Water & Fire Restoration | Restoration Services in Chicago, IL",
-      "h1": "Restoration Services in Chicago",
-      "meta_description": "Dry Bros Water & Fire Restoration provides water, fire, mold, and storm damage restoration across Chicago and surrounding areas. Licensed, insured. Call (877) 379-2767.",
+      "h1": "24/7 Restoration Services in Chicago",
+      "meta_description": "Dry Bros Water & Fire Restoration provides 24/7 water, fire, mold, and storm damage restoration across Chicago and surrounding areas. Licensed, insured. Call (877) 379-2767.",
       "primary_keyword": "restoration services chicago",
       "secondary_keywords": [
-        "restoration company near me"
+        "restoration company near me",
+        "24/7 damage restoration",
+        "emergency restoration"
       ],
       "search_intent": "local_commercial",
       "target_word_count": 1200,
@@ -45,7 +47,6 @@
         "/services/fire-damage-restoration/",
         "/services/mold-remediation/",
         "/services/water-damage-restoration/",
-        "/services/emergency-plumbing/",
         "/services/flood-damage-restoration/",
         "/services/reconstruction/",
         "/services/sewage-cleanup/",
@@ -72,7 +73,7 @@
       "vars_keys": [],
       "title": "Restoration Services in Chicago | Dry Bros Water & Fire Restoration",
       "h1": "Our Restoration Services",
-      "meta_description": "Full-service restoration in Chicago: water, fire, mold, storm, biohazard, and commercial restoration. Prompt scheduling. Call (877) 379-2767.",
+      "meta_description": "Full-service restoration in Chicago: water, fire, mold, storm, biohazard, and commercial restoration. 24/7 response. Call (877) 379-2767.",
       "primary_keyword": "restoration services chicago",
       "secondary_keywords": [
         "damage restoration services",
@@ -99,7 +100,6 @@
         "/services/fire-damage-restoration/",
         "/services/mold-remediation/",
         "/services/water-damage-restoration/",
-        "/services/emergency-plumbing/",
         "/services/flood-damage-restoration/",
         "/services/reconstruction/",
         "/services/sewage-cleanup/",
@@ -119,7 +119,7 @@
       "vars_keys": [],
       "title": "Service Areas | Dry Bros Water & Fire Restoration Restoration",
       "h1": "Areas We Serve",
-      "meta_description": "Dry Bros Water & Fire Restoration provides restoration services across Chicago and the surrounding region. Find your city.",
+      "meta_description": "Dry Bros Water & Fire Restoration provides 24/7 restoration services across Chicago and the surrounding region. Find your city.",
       "primary_keyword": "dry bros water & fire restoration service areas",
       "secondary_keywords": [
         "restoration service area",
@@ -227,12 +227,14 @@
       "url_path": "/contact/",
       "archetype": "contact",
       "vars_keys": [],
-      "title": "Contact Dry Bros Water & Fire Restoration | Restoration in Chicago",
+      "title": "Contact Dry Bros Water & Fire Restoration | 24/7 Restoration in Chicago",
       "h1": "Contact Dry Bros Water & Fire Restoration",
-      "meta_description": "Call (877) 379-2767 for restoration services in Chicago and surrounding areas. Free estimates. Direct insurance billing.",
+      "meta_description": "Call (877) 379-2767 for 24/7 emergency restoration in Chicago and surrounding areas. Free estimates. Direct insurance billing.",
       "primary_keyword": "dry bros water & fire restoration contact",
       "secondary_keywords": [
-        "restoration company contact"
+        "restoration company contact",
+        "24/7 restoration phone",
+        "emergency restoration near me"
       ],
       "search_intent": "navigational_action",
       "target_word_count": 400,
@@ -262,7 +264,7 @@
       ],
       "title": "Water Damage Restoration in Chicago | Dry Bros Water & Fire Restoration",
       "h1": "Water Damage Restoration in Chicago",
-      "meta_description": "Water damage restoration in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 water damage restoration in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "water damage restoration chicago",
       "secondary_keywords": [
         "water removal",
@@ -311,7 +313,7 @@
       ],
       "title": "Fire Damage Restoration in Chicago | Dry Bros Water & Fire Restoration",
       "h1": "Fire Damage Restoration in Chicago",
-      "meta_description": "Fire damage restoration in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 fire damage restoration in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "fire damage restoration chicago",
       "secondary_keywords": [
         "fire cleanup",
@@ -358,7 +360,7 @@
       ],
       "title": "Mold Remediation in Chicago | Dry Bros Water & Fire Restoration",
       "h1": "Mold Remediation in Chicago",
-      "meta_description": "Mold remediation in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 mold remediation in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "mold remediation chicago",
       "secondary_keywords": [
         "mold removal",
@@ -404,14 +406,15 @@
       "vars_keys": [
         "service"
       ],
-      "title": "Water Cleanup in Chicago | Dry Bros Water & Fire Restoration",
-      "h1": "Water Cleanup in Chicago",
-      "meta_description": "Water cleanup in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767.",
+      "title": "Emergency Water Cleanup in Chicago | Dry Bros Water & Fire Restoration",
+      "h1": "Emergency Water Cleanup in Chicago",
+      "meta_description": "24/7 emergency water cleanup in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "emergency water cleanup chicago",
       "secondary_keywords": [
         "water cleanup",
         "water damage cleanup",
         "water clean up",
+        "emergency water cleanup",
         "flood water cleanup",
         "standing water removal"
       ],
@@ -452,7 +455,7 @@
       ],
       "title": "Flood Damage Restoration in Chicago | Dry Bros Water & Fire Restoration",
       "h1": "Flood Damage Restoration in Chicago",
-      "meta_description": "Flood damage restoration in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 flood damage restoration in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "flood damage restoration chicago",
       "secondary_keywords": [
         "flood cleanup",
@@ -497,12 +500,14 @@
       ],
       "title": "Burst Pipe Cleanup and Repair in Chicago | Dry Bros Water & Fire Restoration",
       "h1": "Burst Pipe Cleanup and Repair in Chicago",
-      "meta_description": "Burst pipe cleanup and repair in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 burst pipe cleanup and repair in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "burst pipe cleanup and repair chicago",
       "secondary_keywords": [
         "burst pipe cleanup",
+        "pipe burst emergency",
         "pipe break water damage",
-        "water line break"
+        "water line break",
+        "emergency pipe repair"
       ],
       "search_intent": "local_emergency",
       "target_word_count": 1100,
@@ -540,7 +545,7 @@
       ],
       "title": "Basement Flooding Cleanup in Chicago | Dry Bros Water & Fire Restoration",
       "h1": "Basement Flooding Cleanup in Chicago",
-      "meta_description": "Basement flooding cleanup in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 basement flooding cleanup in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "basement flooding cleanup chicago",
       "secondary_keywords": [
         "flooded basement cleanup",
@@ -585,7 +590,7 @@
       ],
       "title": "Sewage Cleanup and Sanitization in Chicago | Dry Bros Water & Fire Restoration",
       "h1": "Sewage Cleanup and Sanitization in Chicago",
-      "meta_description": "Sewage cleanup and sanitization in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 sewage cleanup and sanitization in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "sewage cleanup and sanitization chicago",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -630,7 +635,7 @@
       ],
       "title": "Smoke Damage Restoration in Chicago | Dry Bros Water & Fire Restoration",
       "h1": "Smoke Damage Restoration in Chicago",
-      "meta_description": "Smoke damage restoration in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 smoke damage restoration in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "smoke damage restoration chicago",
       "secondary_keywords": [
         "smoke residue cleanup",
@@ -676,7 +681,7 @@
       ],
       "title": "Odor Removal and Deodorization in Chicago | Dry Bros Water & Fire Restoration",
       "h1": "Odor Removal and Deodorization in Chicago",
-      "meta_description": "Odor removal and deodorization in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 odor removal and deodorization in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "odor removal and deodorization chicago",
       "secondary_keywords": [
         "smoke odor removal",
@@ -721,7 +726,7 @@
       ],
       "title": "Storm Damage Restoration in Chicago | Dry Bros Water & Fire Restoration",
       "h1": "Storm Damage Restoration in Chicago",
-      "meta_description": "Storm damage restoration in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 storm damage restoration in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "storm damage restoration chicago",
       "secondary_keywords": [
         "hurricane damage cleanup",
@@ -764,12 +769,14 @@
       "vars_keys": [
         "service"
       ],
-      "title": "Board-Up and Tarping in Chicago | Dry Bros Water & Fire Restoration",
-      "h1": "Board-Up and Tarping in Chicago",
-      "meta_description": "Board-up and tarping in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767.",
+      "title": "Emergency Board-Up and Tarping in Chicago | Dry Bros Water & Fire Restoration",
+      "h1": "Emergency Board-Up and Tarping in Chicago",
+      "meta_description": "24/7 emergency board-up and tarping in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "emergency board-up and tarping chicago",
       "secondary_keywords": [
+        "emergency board up",
         "roof tarping",
+        "emergency tarping service",
         "fire damage board up",
         "broken window board up"
       ],
@@ -809,7 +816,7 @@
       ],
       "title": "Contents Restoration and Storage in Chicago | Dry Bros Water & Fire Restoration",
       "h1": "Contents Restoration and Storage in Chicago",
-      "meta_description": "Contents restoration and storage in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 contents restoration and storage in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "contents restoration and storage chicago",
       "secondary_keywords": [
         "contents pack-out",
@@ -854,7 +861,7 @@
       ],
       "title": "Reconstruction Services in Chicago | Dry Bros Water & Fire Restoration",
       "h1": "Reconstruction Services in Chicago",
-      "meta_description": "Reconstruction services in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 reconstruction services in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "reconstruction services chicago",
       "secondary_keywords": [
         "post-damage reconstruction",
@@ -892,47 +899,6 @@
       ]
     },
     {
-      "url_path": "/services/emergency-plumbing/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Plumbing in Chicago | Dry Bros Water & Fire Restoration",
-      "h1": "Plumbing in Chicago",
-      "meta_description": "Plumbing in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "emergency plumbing chicago",
-      "secondary_keywords": [
-        "burst pipe plumber"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 8.1,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/berwyn-il/emergency-plumbing/",
-        "/service-areas/cicero-il/emergency-plumbing/",
-        "/service-areas/des-plaines-il/emergency-plumbing/",
-        "/service-areas/evanston-il/emergency-plumbing/",
-        "/service-areas/naperville-il/emergency-plumbing/",
-        "/service-areas/oak-park-il/emergency-plumbing/",
-        "/service-areas/skokie-il/emergency-plumbing/"
-      ]
-    },
-    {
       "url_path": "/service-areas/naperville-il/",
       "archetype": "service-area",
       "vars_keys": [
@@ -940,7 +906,7 @@
       ],
       "title": "Restoration Services in Naperville, IL | Dry Bros Water & Fire Restoration",
       "h1": "Restoration Services in Naperville",
-      "meta_description": "Serving Naperville, IL with water, fire, mold, and storm damage restoration. Experienced team. Call (877) 379-2767.",
+      "meta_description": "Serving Naperville, IL with 24/7 water, fire, mold, and storm damage restoration. Experienced team. Call (877) 379-2767.",
       "primary_keyword": "restoration services naperville",
       "secondary_keywords": [
         "naperville restoration company",
@@ -967,7 +933,6 @@
         "/service-areas/naperville-il/fire-damage-restoration/",
         "/service-areas/naperville-il/mold-remediation/",
         "/service-areas/naperville-il/water-damage-restoration/",
-        "/service-areas/naperville-il/emergency-plumbing/",
         "/service-areas/naperville-il/flood-damage-restoration/",
         "/service-areas/naperville-il/reconstruction/",
         "/service-areas/naperville-il/sewage-cleanup/",
@@ -992,7 +957,7 @@
       ],
       "title": "Restoration Services in Cicero, IL | Dry Bros Water & Fire Restoration",
       "h1": "Restoration Services in Cicero",
-      "meta_description": "Serving Cicero, IL with water, fire, mold, and storm damage restoration. Experienced team. Call (877) 379-2767.",
+      "meta_description": "Serving Cicero, IL with 24/7 water, fire, mold, and storm damage restoration. Experienced team. Call (877) 379-2767.",
       "primary_keyword": "restoration services cicero",
       "secondary_keywords": [
         "cicero restoration company",
@@ -1019,7 +984,6 @@
         "/service-areas/cicero-il/fire-damage-restoration/",
         "/service-areas/cicero-il/mold-remediation/",
         "/service-areas/cicero-il/water-damage-restoration/",
-        "/service-areas/cicero-il/emergency-plumbing/",
         "/service-areas/cicero-il/flood-damage-restoration/",
         "/service-areas/cicero-il/reconstruction/",
         "/service-areas/cicero-il/sewage-cleanup/",
@@ -1044,7 +1008,7 @@
       ],
       "title": "Restoration Services in Evanston, IL | Dry Bros Water & Fire Restoration",
       "h1": "Restoration Services in Evanston",
-      "meta_description": "Serving Evanston, IL with water, fire, mold, and storm damage restoration. Experienced team. Call (877) 379-2767.",
+      "meta_description": "Serving Evanston, IL with 24/7 water, fire, mold, and storm damage restoration. Experienced team. Call (877) 379-2767.",
       "primary_keyword": "restoration services evanston",
       "secondary_keywords": [
         "evanston restoration company",
@@ -1071,7 +1035,6 @@
         "/service-areas/evanston-il/fire-damage-restoration/",
         "/service-areas/evanston-il/mold-remediation/",
         "/service-areas/evanston-il/water-damage-restoration/",
-        "/service-areas/evanston-il/emergency-plumbing/",
         "/service-areas/evanston-il/flood-damage-restoration/",
         "/service-areas/evanston-il/reconstruction/",
         "/service-areas/evanston-il/sewage-cleanup/",
@@ -1096,7 +1059,7 @@
       ],
       "title": "Restoration Services in Oak Park, IL | Dry Bros Water & Fire Restoration",
       "h1": "Restoration Services in Oak Park",
-      "meta_description": "Serving Oak Park, IL with water, fire, mold, and storm damage restoration. Experienced team. Call (877) 379-2767.",
+      "meta_description": "Serving Oak Park, IL with 24/7 water, fire, mold, and storm damage restoration. Experienced team. Call (877) 379-2767.",
       "primary_keyword": "restoration services oak park",
       "secondary_keywords": [
         "oak park restoration company",
@@ -1123,7 +1086,6 @@
         "/service-areas/oak-park-il/fire-damage-restoration/",
         "/service-areas/oak-park-il/mold-remediation/",
         "/service-areas/oak-park-il/water-damage-restoration/",
-        "/service-areas/oak-park-il/emergency-plumbing/",
         "/service-areas/oak-park-il/flood-damage-restoration/",
         "/service-areas/oak-park-il/reconstruction/",
         "/service-areas/oak-park-il/sewage-cleanup/",
@@ -1148,7 +1110,7 @@
       ],
       "title": "Restoration Services in Skokie, IL | Dry Bros Water & Fire Restoration",
       "h1": "Restoration Services in Skokie",
-      "meta_description": "Serving Skokie, IL with water, fire, mold, and storm damage restoration. Experienced team. Call (877) 379-2767.",
+      "meta_description": "Serving Skokie, IL with 24/7 water, fire, mold, and storm damage restoration. Experienced team. Call (877) 379-2767.",
       "primary_keyword": "restoration services skokie",
       "secondary_keywords": [
         "skokie restoration company",
@@ -1175,7 +1137,6 @@
         "/service-areas/skokie-il/fire-damage-restoration/",
         "/service-areas/skokie-il/mold-remediation/",
         "/service-areas/skokie-il/water-damage-restoration/",
-        "/service-areas/skokie-il/emergency-plumbing/",
         "/service-areas/skokie-il/flood-damage-restoration/",
         "/service-areas/skokie-il/reconstruction/",
         "/service-areas/skokie-il/sewage-cleanup/",
@@ -1200,7 +1161,7 @@
       ],
       "title": "Restoration Services in Berwyn, IL | Dry Bros Water & Fire Restoration",
       "h1": "Restoration Services in Berwyn",
-      "meta_description": "Serving Berwyn, IL with water, fire, mold, and storm damage restoration. Experienced team. Call (877) 379-2767.",
+      "meta_description": "Serving Berwyn, IL with 24/7 water, fire, mold, and storm damage restoration. Experienced team. Call (877) 379-2767.",
       "primary_keyword": "restoration services berwyn",
       "secondary_keywords": [
         "berwyn restoration company",
@@ -1227,7 +1188,6 @@
         "/service-areas/berwyn-il/fire-damage-restoration/",
         "/service-areas/berwyn-il/mold-remediation/",
         "/service-areas/berwyn-il/water-damage-restoration/",
-        "/service-areas/berwyn-il/emergency-plumbing/",
         "/service-areas/berwyn-il/flood-damage-restoration/",
         "/service-areas/berwyn-il/reconstruction/",
         "/service-areas/berwyn-il/sewage-cleanup/",
@@ -1252,7 +1212,7 @@
       ],
       "title": "Restoration Services in Des Plaines, IL | Dry Bros Water & Fire Restoration",
       "h1": "Restoration Services in Des Plaines",
-      "meta_description": "Serving Des Plaines, IL with water, fire, mold, and storm damage restoration. Experienced team. Call (877) 379-2767.",
+      "meta_description": "Serving Des Plaines, IL with 24/7 water, fire, mold, and storm damage restoration. Experienced team. Call (877) 379-2767.",
       "primary_keyword": "restoration services des plaines",
       "secondary_keywords": [
         "des plaines restoration company",
@@ -1279,7 +1239,6 @@
         "/service-areas/des-plaines-il/fire-damage-restoration/",
         "/service-areas/des-plaines-il/mold-remediation/",
         "/service-areas/des-plaines-il/water-damage-restoration/",
-        "/service-areas/des-plaines-il/emergency-plumbing/",
         "/service-areas/des-plaines-il/flood-damage-restoration/",
         "/service-areas/des-plaines-il/reconstruction/",
         "/service-areas/des-plaines-il/sewage-cleanup/",
@@ -1305,7 +1264,7 @@
       ],
       "title": "Water Damage Restoration in Naperville, IL | Dry Bros Water & Fire Restoration",
       "h1": "Water Damage Restoration in Naperville",
-      "meta_description": "Water damage restoration in Naperville, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 water damage restoration in Naperville, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "water damage restoration naperville",
       "secondary_keywords": [
         "water removal",
@@ -1349,7 +1308,7 @@
       ],
       "title": "Fire Damage Restoration in Naperville, IL | Dry Bros Water & Fire Restoration",
       "h1": "Fire Damage Restoration in Naperville",
-      "meta_description": "Fire damage restoration in Naperville, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 fire damage restoration in Naperville, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "fire damage restoration naperville",
       "secondary_keywords": [
         "fire cleanup",
@@ -1393,7 +1352,7 @@
       ],
       "title": "Mold Remediation in Naperville, IL | Dry Bros Water & Fire Restoration",
       "h1": "Mold Remediation in Naperville",
-      "meta_description": "Mold remediation in Naperville, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 mold remediation in Naperville, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "mold remediation naperville",
       "secondary_keywords": [
         "mold removal",
@@ -1435,14 +1394,15 @@
         "area",
         "service"
       ],
-      "title": "Water Cleanup in Naperville, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Water Cleanup in Naperville",
-      "meta_description": "Water cleanup in Naperville, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "title": "Emergency Water Cleanup in Naperville, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Emergency Water Cleanup in Naperville",
+      "meta_description": "24/7 emergency water cleanup in Naperville, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "emergency water cleanup naperville",
       "secondary_keywords": [
         "water cleanup",
         "water damage cleanup",
         "water clean up",
+        "emergency water cleanup",
         "flood water cleanup",
         "standing water removal"
       ],
@@ -1481,7 +1441,7 @@
       ],
       "title": "Flood Damage Restoration in Naperville, IL | Dry Bros Water & Fire Restoration",
       "h1": "Flood Damage Restoration in Naperville",
-      "meta_description": "Flood damage restoration in Naperville, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 flood damage restoration in Naperville, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "flood damage restoration naperville",
       "secondary_keywords": [
         "flood cleanup",
@@ -1525,12 +1485,14 @@
       ],
       "title": "Burst Pipe Cleanup and Repair in Naperville, IL | Dry Bros Water & Fire Restoration",
       "h1": "Burst Pipe Cleanup and Repair in Naperville",
-      "meta_description": "Burst pipe cleanup and repair in Naperville, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 burst pipe cleanup and repair in Naperville, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "burst pipe cleanup and repair naperville",
       "secondary_keywords": [
         "burst pipe cleanup",
+        "pipe burst emergency",
         "pipe break water damage",
-        "water line break"
+        "water line break",
+        "emergency pipe repair"
       ],
       "search_intent": "local_emergency",
       "target_word_count": 900,
@@ -1567,7 +1529,7 @@
       ],
       "title": "Basement Flooding Cleanup in Naperville, IL | Dry Bros Water & Fire Restoration",
       "h1": "Basement Flooding Cleanup in Naperville",
-      "meta_description": "Basement flooding cleanup in Naperville, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 basement flooding cleanup in Naperville, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "basement flooding cleanup naperville",
       "secondary_keywords": [
         "flooded basement cleanup",
@@ -1611,7 +1573,7 @@
       ],
       "title": "Sewage Cleanup and Sanitization in Naperville, IL | Dry Bros Water & Fire Restoration",
       "h1": "Sewage Cleanup and Sanitization in Naperville",
-      "meta_description": "Sewage cleanup and sanitization in Naperville, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 sewage cleanup and sanitization in Naperville, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "sewage cleanup and sanitization naperville",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -1655,7 +1617,7 @@
       ],
       "title": "Smoke Damage Restoration in Naperville, IL | Dry Bros Water & Fire Restoration",
       "h1": "Smoke Damage Restoration in Naperville",
-      "meta_description": "Smoke damage restoration in Naperville, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 smoke damage restoration in Naperville, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "smoke damage restoration naperville",
       "secondary_keywords": [
         "smoke residue cleanup",
@@ -1699,7 +1661,7 @@
       ],
       "title": "Odor Removal and Deodorization in Naperville, IL | Dry Bros Water & Fire Restoration",
       "h1": "Odor Removal and Deodorization in Naperville",
-      "meta_description": "Odor removal and deodorization in Naperville, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 odor removal and deodorization in Naperville, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "odor removal and deodorization naperville",
       "secondary_keywords": [
         "smoke odor removal",
@@ -1743,7 +1705,7 @@
       ],
       "title": "Storm Damage Restoration in Naperville, IL | Dry Bros Water & Fire Restoration",
       "h1": "Storm Damage Restoration in Naperville",
-      "meta_description": "Storm damage restoration in Naperville, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 storm damage restoration in Naperville, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "storm damage restoration naperville",
       "secondary_keywords": [
         "hurricane damage cleanup",
@@ -1785,12 +1747,14 @@
         "area",
         "service"
       ],
-      "title": "Board-Up and Tarping in Naperville, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Board-Up and Tarping in Naperville",
-      "meta_description": "Board-up and tarping in Naperville, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "title": "Emergency Board-Up and Tarping in Naperville, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Emergency Board-Up and Tarping in Naperville",
+      "meta_description": "24/7 emergency board-up and tarping in Naperville, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "emergency board-up and tarping naperville",
       "secondary_keywords": [
+        "emergency board up",
         "roof tarping",
+        "emergency tarping service",
         "fire damage board up",
         "broken window board up"
       ],
@@ -1829,7 +1793,7 @@
       ],
       "title": "Contents Restoration and Storage in Naperville, IL | Dry Bros Water & Fire Restoration",
       "h1": "Contents Restoration and Storage in Naperville",
-      "meta_description": "Contents restoration and storage in Naperville, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 contents restoration and storage in Naperville, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "contents restoration and storage naperville",
       "secondary_keywords": [
         "contents pack-out",
@@ -1873,7 +1837,7 @@
       ],
       "title": "Reconstruction Services in Naperville, IL | Dry Bros Water & Fire Restoration",
       "h1": "Reconstruction Services in Naperville",
-      "meta_description": "Reconstruction services in Naperville, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 reconstruction services in Naperville, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "reconstruction services naperville",
       "secondary_keywords": [
         "post-damage reconstruction",
@@ -1909,46 +1873,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/naperville-il/emergency-plumbing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Plumbing in Naperville, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Plumbing in Naperville",
-      "meta_description": "Plumbing in Naperville, IL. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "emergency plumbing naperville",
-      "secondary_keywords": [
-        "burst pipe plumber"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-plumbing/",
-        "/service-areas/naperville-il/",
-        "/service-areas/naperville-il/fire-damage-restoration/",
-        "/service-areas/naperville-il/mold-remediation/",
-        "/service-areas/berwyn-il/emergency-plumbing/",
-        "/service-areas/cicero-il/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/cicero-il/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -1957,7 +1881,7 @@
       ],
       "title": "Water Damage Restoration in Cicero, IL | Dry Bros Water & Fire Restoration",
       "h1": "Water Damage Restoration in Cicero",
-      "meta_description": "Water damage restoration in Cicero, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 water damage restoration in Cicero, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "water damage restoration cicero",
       "secondary_keywords": [
         "water removal",
@@ -2001,7 +1925,7 @@
       ],
       "title": "Fire Damage Restoration in Cicero, IL | Dry Bros Water & Fire Restoration",
       "h1": "Fire Damage Restoration in Cicero",
-      "meta_description": "Fire damage restoration in Cicero, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 fire damage restoration in Cicero, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "fire damage restoration cicero",
       "secondary_keywords": [
         "fire cleanup",
@@ -2045,7 +1969,7 @@
       ],
       "title": "Mold Remediation in Cicero, IL | Dry Bros Water & Fire Restoration",
       "h1": "Mold Remediation in Cicero",
-      "meta_description": "Mold remediation in Cicero, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 mold remediation in Cicero, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "mold remediation cicero",
       "secondary_keywords": [
         "mold removal",
@@ -2087,14 +2011,15 @@
         "area",
         "service"
       ],
-      "title": "Water Cleanup in Cicero, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Water Cleanup in Cicero",
-      "meta_description": "Water cleanup in Cicero, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "title": "Emergency Water Cleanup in Cicero, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Emergency Water Cleanup in Cicero",
+      "meta_description": "24/7 emergency water cleanup in Cicero, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "emergency water cleanup cicero",
       "secondary_keywords": [
         "water cleanup",
         "water damage cleanup",
         "water clean up",
+        "emergency water cleanup",
         "flood water cleanup",
         "standing water removal"
       ],
@@ -2133,7 +2058,7 @@
       ],
       "title": "Flood Damage Restoration in Cicero, IL | Dry Bros Water & Fire Restoration",
       "h1": "Flood Damage Restoration in Cicero",
-      "meta_description": "Flood damage restoration in Cicero, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 flood damage restoration in Cicero, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "flood damage restoration cicero",
       "secondary_keywords": [
         "flood cleanup",
@@ -2177,12 +2102,14 @@
       ],
       "title": "Burst Pipe Cleanup and Repair in Cicero, IL | Dry Bros Water & Fire Restoration",
       "h1": "Burst Pipe Cleanup and Repair in Cicero",
-      "meta_description": "Burst pipe cleanup and repair in Cicero, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 burst pipe cleanup and repair in Cicero, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "burst pipe cleanup and repair cicero",
       "secondary_keywords": [
         "burst pipe cleanup",
+        "pipe burst emergency",
         "pipe break water damage",
-        "water line break"
+        "water line break",
+        "emergency pipe repair"
       ],
       "search_intent": "local_emergency",
       "target_word_count": 900,
@@ -2219,7 +2146,7 @@
       ],
       "title": "Basement Flooding Cleanup in Cicero, IL | Dry Bros Water & Fire Restoration",
       "h1": "Basement Flooding Cleanup in Cicero",
-      "meta_description": "Basement flooding cleanup in Cicero, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 basement flooding cleanup in Cicero, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "basement flooding cleanup cicero",
       "secondary_keywords": [
         "flooded basement cleanup",
@@ -2263,7 +2190,7 @@
       ],
       "title": "Sewage Cleanup and Sanitization in Cicero, IL | Dry Bros Water & Fire Restoration",
       "h1": "Sewage Cleanup and Sanitization in Cicero",
-      "meta_description": "Sewage cleanup and sanitization in Cicero, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 sewage cleanup and sanitization in Cicero, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "sewage cleanup and sanitization cicero",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -2307,7 +2234,7 @@
       ],
       "title": "Smoke Damage Restoration in Cicero, IL | Dry Bros Water & Fire Restoration",
       "h1": "Smoke Damage Restoration in Cicero",
-      "meta_description": "Smoke damage restoration in Cicero, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 smoke damage restoration in Cicero, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "smoke damage restoration cicero",
       "secondary_keywords": [
         "smoke residue cleanup",
@@ -2351,7 +2278,7 @@
       ],
       "title": "Odor Removal and Deodorization in Cicero, IL | Dry Bros Water & Fire Restoration",
       "h1": "Odor Removal and Deodorization in Cicero",
-      "meta_description": "Odor removal and deodorization in Cicero, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 odor removal and deodorization in Cicero, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "odor removal and deodorization cicero",
       "secondary_keywords": [
         "smoke odor removal",
@@ -2395,7 +2322,7 @@
       ],
       "title": "Storm Damage Restoration in Cicero, IL | Dry Bros Water & Fire Restoration",
       "h1": "Storm Damage Restoration in Cicero",
-      "meta_description": "Storm damage restoration in Cicero, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 storm damage restoration in Cicero, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "storm damage restoration cicero",
       "secondary_keywords": [
         "hurricane damage cleanup",
@@ -2437,12 +2364,14 @@
         "area",
         "service"
       ],
-      "title": "Board-Up and Tarping in Cicero, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Board-Up and Tarping in Cicero",
-      "meta_description": "Board-up and tarping in Cicero, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "title": "Emergency Board-Up and Tarping in Cicero, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Emergency Board-Up and Tarping in Cicero",
+      "meta_description": "24/7 emergency board-up and tarping in Cicero, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "emergency board-up and tarping cicero",
       "secondary_keywords": [
+        "emergency board up",
         "roof tarping",
+        "emergency tarping service",
         "fire damage board up",
         "broken window board up"
       ],
@@ -2481,7 +2410,7 @@
       ],
       "title": "Contents Restoration and Storage in Cicero, IL | Dry Bros Water & Fire Restoration",
       "h1": "Contents Restoration and Storage in Cicero",
-      "meta_description": "Contents restoration and storage in Cicero, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 contents restoration and storage in Cicero, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "contents restoration and storage cicero",
       "secondary_keywords": [
         "contents pack-out",
@@ -2525,7 +2454,7 @@
       ],
       "title": "Reconstruction Services in Cicero, IL | Dry Bros Water & Fire Restoration",
       "h1": "Reconstruction Services in Cicero",
-      "meta_description": "Reconstruction services in Cicero, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 reconstruction services in Cicero, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "reconstruction services cicero",
       "secondary_keywords": [
         "post-damage reconstruction",
@@ -2561,46 +2490,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/cicero-il/emergency-plumbing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Plumbing in Cicero, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Plumbing in Cicero",
-      "meta_description": "Plumbing in Cicero, IL. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "emergency plumbing cicero",
-      "secondary_keywords": [
-        "burst pipe plumber"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-plumbing/",
-        "/service-areas/cicero-il/",
-        "/service-areas/cicero-il/fire-damage-restoration/",
-        "/service-areas/cicero-il/mold-remediation/",
-        "/service-areas/berwyn-il/emergency-plumbing/",
-        "/service-areas/des-plaines-il/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/evanston-il/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -2609,7 +2498,7 @@
       ],
       "title": "Water Damage Restoration in Evanston, IL | Dry Bros Water & Fire Restoration",
       "h1": "Water Damage Restoration in Evanston",
-      "meta_description": "Water damage restoration in Evanston, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 water damage restoration in Evanston, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "water damage restoration evanston",
       "secondary_keywords": [
         "water removal",
@@ -2653,7 +2542,7 @@
       ],
       "title": "Fire Damage Restoration in Evanston, IL | Dry Bros Water & Fire Restoration",
       "h1": "Fire Damage Restoration in Evanston",
-      "meta_description": "Fire damage restoration in Evanston, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 fire damage restoration in Evanston, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "fire damage restoration evanston",
       "secondary_keywords": [
         "fire cleanup",
@@ -2697,7 +2586,7 @@
       ],
       "title": "Mold Remediation in Evanston, IL | Dry Bros Water & Fire Restoration",
       "h1": "Mold Remediation in Evanston",
-      "meta_description": "Mold remediation in Evanston, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 mold remediation in Evanston, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "mold remediation evanston",
       "secondary_keywords": [
         "mold removal",
@@ -2739,14 +2628,15 @@
         "area",
         "service"
       ],
-      "title": "Water Cleanup in Evanston, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Water Cleanup in Evanston",
-      "meta_description": "Water cleanup in Evanston, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "title": "Emergency Water Cleanup in Evanston, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Emergency Water Cleanup in Evanston",
+      "meta_description": "24/7 emergency water cleanup in Evanston, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "emergency water cleanup evanston",
       "secondary_keywords": [
         "water cleanup",
         "water damage cleanup",
         "water clean up",
+        "emergency water cleanup",
         "flood water cleanup",
         "standing water removal"
       ],
@@ -2785,7 +2675,7 @@
       ],
       "title": "Flood Damage Restoration in Evanston, IL | Dry Bros Water & Fire Restoration",
       "h1": "Flood Damage Restoration in Evanston",
-      "meta_description": "Flood damage restoration in Evanston, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 flood damage restoration in Evanston, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "flood damage restoration evanston",
       "secondary_keywords": [
         "flood cleanup",
@@ -2829,12 +2719,14 @@
       ],
       "title": "Burst Pipe Cleanup and Repair in Evanston, IL | Dry Bros Water & Fire Restoration",
       "h1": "Burst Pipe Cleanup and Repair in Evanston",
-      "meta_description": "Burst pipe cleanup and repair in Evanston, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 burst pipe cleanup and repair in Evanston, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "burst pipe cleanup and repair evanston",
       "secondary_keywords": [
         "burst pipe cleanup",
+        "pipe burst emergency",
         "pipe break water damage",
-        "water line break"
+        "water line break",
+        "emergency pipe repair"
       ],
       "search_intent": "local_emergency",
       "target_word_count": 900,
@@ -2871,7 +2763,7 @@
       ],
       "title": "Basement Flooding Cleanup in Evanston, IL | Dry Bros Water & Fire Restoration",
       "h1": "Basement Flooding Cleanup in Evanston",
-      "meta_description": "Basement flooding cleanup in Evanston, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 basement flooding cleanup in Evanston, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "basement flooding cleanup evanston",
       "secondary_keywords": [
         "flooded basement cleanup",
@@ -2915,7 +2807,7 @@
       ],
       "title": "Sewage Cleanup and Sanitization in Evanston, IL | Dry Bros Water & Fire Restoration",
       "h1": "Sewage Cleanup and Sanitization in Evanston",
-      "meta_description": "Sewage cleanup and sanitization in Evanston, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 sewage cleanup and sanitization in Evanston, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "sewage cleanup and sanitization evanston",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -2959,7 +2851,7 @@
       ],
       "title": "Smoke Damage Restoration in Evanston, IL | Dry Bros Water & Fire Restoration",
       "h1": "Smoke Damage Restoration in Evanston",
-      "meta_description": "Smoke damage restoration in Evanston, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 smoke damage restoration in Evanston, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "smoke damage restoration evanston",
       "secondary_keywords": [
         "smoke residue cleanup",
@@ -3003,7 +2895,7 @@
       ],
       "title": "Odor Removal and Deodorization in Evanston, IL | Dry Bros Water & Fire Restoration",
       "h1": "Odor Removal and Deodorization in Evanston",
-      "meta_description": "Odor removal and deodorization in Evanston, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 odor removal and deodorization in Evanston, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "odor removal and deodorization evanston",
       "secondary_keywords": [
         "smoke odor removal",
@@ -3047,7 +2939,7 @@
       ],
       "title": "Storm Damage Restoration in Evanston, IL | Dry Bros Water & Fire Restoration",
       "h1": "Storm Damage Restoration in Evanston",
-      "meta_description": "Storm damage restoration in Evanston, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 storm damage restoration in Evanston, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "storm damage restoration evanston",
       "secondary_keywords": [
         "hurricane damage cleanup",
@@ -3089,12 +2981,14 @@
         "area",
         "service"
       ],
-      "title": "Board-Up and Tarping in Evanston, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Board-Up and Tarping in Evanston",
-      "meta_description": "Board-up and tarping in Evanston, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "title": "Emergency Board-Up and Tarping in Evanston, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Emergency Board-Up and Tarping in Evanston",
+      "meta_description": "24/7 emergency board-up and tarping in Evanston, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "emergency board-up and tarping evanston",
       "secondary_keywords": [
+        "emergency board up",
         "roof tarping",
+        "emergency tarping service",
         "fire damage board up",
         "broken window board up"
       ],
@@ -3133,7 +3027,7 @@
       ],
       "title": "Contents Restoration and Storage in Evanston, IL | Dry Bros Water & Fire Restoration",
       "h1": "Contents Restoration and Storage in Evanston",
-      "meta_description": "Contents restoration and storage in Evanston, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 contents restoration and storage in Evanston, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "contents restoration and storage evanston",
       "secondary_keywords": [
         "contents pack-out",
@@ -3177,7 +3071,7 @@
       ],
       "title": "Reconstruction Services in Evanston, IL | Dry Bros Water & Fire Restoration",
       "h1": "Reconstruction Services in Evanston",
-      "meta_description": "Reconstruction services in Evanston, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 reconstruction services in Evanston, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "reconstruction services evanston",
       "secondary_keywords": [
         "post-damage reconstruction",
@@ -3213,46 +3107,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/evanston-il/emergency-plumbing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Plumbing in Evanston, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Plumbing in Evanston",
-      "meta_description": "Plumbing in Evanston, IL. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "emergency plumbing evanston",
-      "secondary_keywords": [
-        "burst pipe plumber"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-plumbing/",
-        "/service-areas/evanston-il/",
-        "/service-areas/evanston-il/fire-damage-restoration/",
-        "/service-areas/evanston-il/mold-remediation/",
-        "/service-areas/berwyn-il/emergency-plumbing/",
-        "/service-areas/cicero-il/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/oak-park-il/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3261,7 +3115,7 @@
       ],
       "title": "Water Damage Restoration in Oak Park, IL | Dry Bros Water & Fire Restoration",
       "h1": "Water Damage Restoration in Oak Park",
-      "meta_description": "Water damage restoration in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 water damage restoration in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "water damage restoration oak park",
       "secondary_keywords": [
         "water removal",
@@ -3305,7 +3159,7 @@
       ],
       "title": "Fire Damage Restoration in Oak Park, IL | Dry Bros Water & Fire Restoration",
       "h1": "Fire Damage Restoration in Oak Park",
-      "meta_description": "Fire damage restoration in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 fire damage restoration in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "fire damage restoration oak park",
       "secondary_keywords": [
         "fire cleanup",
@@ -3349,7 +3203,7 @@
       ],
       "title": "Mold Remediation in Oak Park, IL | Dry Bros Water & Fire Restoration",
       "h1": "Mold Remediation in Oak Park",
-      "meta_description": "Mold remediation in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 mold remediation in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "mold remediation oak park",
       "secondary_keywords": [
         "mold removal",
@@ -3391,14 +3245,15 @@
         "area",
         "service"
       ],
-      "title": "Water Cleanup in Oak Park, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Water Cleanup in Oak Park",
-      "meta_description": "Water cleanup in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "title": "Emergency Water Cleanup in Oak Park, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Emergency Water Cleanup in Oak Park",
+      "meta_description": "24/7 emergency water cleanup in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "emergency water cleanup oak park",
       "secondary_keywords": [
         "water cleanup",
         "water damage cleanup",
         "water clean up",
+        "emergency water cleanup",
         "flood water cleanup",
         "standing water removal"
       ],
@@ -3437,7 +3292,7 @@
       ],
       "title": "Flood Damage Restoration in Oak Park, IL | Dry Bros Water & Fire Restoration",
       "h1": "Flood Damage Restoration in Oak Park",
-      "meta_description": "Flood damage restoration in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 flood damage restoration in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "flood damage restoration oak park",
       "secondary_keywords": [
         "flood cleanup",
@@ -3481,12 +3336,14 @@
       ],
       "title": "Burst Pipe Cleanup and Repair in Oak Park, IL | Dry Bros Water & Fire Restoration",
       "h1": "Burst Pipe Cleanup and Repair in Oak Park",
-      "meta_description": "Burst pipe cleanup and repair in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 burst pipe cleanup and repair in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "burst pipe cleanup and repair oak park",
       "secondary_keywords": [
         "burst pipe cleanup",
+        "pipe burst emergency",
         "pipe break water damage",
-        "water line break"
+        "water line break",
+        "emergency pipe repair"
       ],
       "search_intent": "local_emergency",
       "target_word_count": 900,
@@ -3523,7 +3380,7 @@
       ],
       "title": "Basement Flooding Cleanup in Oak Park, IL | Dry Bros Water & Fire Restoration",
       "h1": "Basement Flooding Cleanup in Oak Park",
-      "meta_description": "Basement flooding cleanup in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 basement flooding cleanup in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "basement flooding cleanup oak park",
       "secondary_keywords": [
         "flooded basement cleanup",
@@ -3567,7 +3424,7 @@
       ],
       "title": "Sewage Cleanup and Sanitization in Oak Park, IL | Dry Bros Water & Fire Restoration",
       "h1": "Sewage Cleanup and Sanitization in Oak Park",
-      "meta_description": "Sewage cleanup and sanitization in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 sewage cleanup and sanitization in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "sewage cleanup and sanitization oak park",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -3611,7 +3468,7 @@
       ],
       "title": "Smoke Damage Restoration in Oak Park, IL | Dry Bros Water & Fire Restoration",
       "h1": "Smoke Damage Restoration in Oak Park",
-      "meta_description": "Smoke damage restoration in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 smoke damage restoration in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "smoke damage restoration oak park",
       "secondary_keywords": [
         "smoke residue cleanup",
@@ -3655,7 +3512,7 @@
       ],
       "title": "Odor Removal and Deodorization in Oak Park, IL | Dry Bros Water & Fire Restoration",
       "h1": "Odor Removal and Deodorization in Oak Park",
-      "meta_description": "Odor removal and deodorization in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 odor removal and deodorization in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "odor removal and deodorization oak park",
       "secondary_keywords": [
         "smoke odor removal",
@@ -3699,7 +3556,7 @@
       ],
       "title": "Storm Damage Restoration in Oak Park, IL | Dry Bros Water & Fire Restoration",
       "h1": "Storm Damage Restoration in Oak Park",
-      "meta_description": "Storm damage restoration in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 storm damage restoration in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "storm damage restoration oak park",
       "secondary_keywords": [
         "hurricane damage cleanup",
@@ -3741,12 +3598,14 @@
         "area",
         "service"
       ],
-      "title": "Board-Up and Tarping in Oak Park, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Board-Up and Tarping in Oak Park",
-      "meta_description": "Board-up and tarping in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "title": "Emergency Board-Up and Tarping in Oak Park, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Emergency Board-Up and Tarping in Oak Park",
+      "meta_description": "24/7 emergency board-up and tarping in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "emergency board-up and tarping oak park",
       "secondary_keywords": [
+        "emergency board up",
         "roof tarping",
+        "emergency tarping service",
         "fire damage board up",
         "broken window board up"
       ],
@@ -3785,7 +3644,7 @@
       ],
       "title": "Contents Restoration and Storage in Oak Park, IL | Dry Bros Water & Fire Restoration",
       "h1": "Contents Restoration and Storage in Oak Park",
-      "meta_description": "Contents restoration and storage in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 contents restoration and storage in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "contents restoration and storage oak park",
       "secondary_keywords": [
         "contents pack-out",
@@ -3829,7 +3688,7 @@
       ],
       "title": "Reconstruction Services in Oak Park, IL | Dry Bros Water & Fire Restoration",
       "h1": "Reconstruction Services in Oak Park",
-      "meta_description": "Reconstruction services in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 reconstruction services in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "reconstruction services oak park",
       "secondary_keywords": [
         "post-damage reconstruction",
@@ -3865,46 +3724,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/oak-park-il/emergency-plumbing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Plumbing in Oak Park, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Plumbing in Oak Park",
-      "meta_description": "Plumbing in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "emergency plumbing oak park",
-      "secondary_keywords": [
-        "burst pipe plumber"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-plumbing/",
-        "/service-areas/oak-park-il/",
-        "/service-areas/oak-park-il/fire-damage-restoration/",
-        "/service-areas/oak-park-il/mold-remediation/",
-        "/service-areas/berwyn-il/emergency-plumbing/",
-        "/service-areas/cicero-il/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/skokie-il/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3913,7 +3732,7 @@
       ],
       "title": "Water Damage Restoration in Skokie, IL | Dry Bros Water & Fire Restoration",
       "h1": "Water Damage Restoration in Skokie",
-      "meta_description": "Water damage restoration in Skokie, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 water damage restoration in Skokie, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "water damage restoration skokie",
       "secondary_keywords": [
         "water removal",
@@ -3957,7 +3776,7 @@
       ],
       "title": "Fire Damage Restoration in Skokie, IL | Dry Bros Water & Fire Restoration",
       "h1": "Fire Damage Restoration in Skokie",
-      "meta_description": "Fire damage restoration in Skokie, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 fire damage restoration in Skokie, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "fire damage restoration skokie",
       "secondary_keywords": [
         "fire cleanup",
@@ -4001,7 +3820,7 @@
       ],
       "title": "Mold Remediation in Skokie, IL | Dry Bros Water & Fire Restoration",
       "h1": "Mold Remediation in Skokie",
-      "meta_description": "Mold remediation in Skokie, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 mold remediation in Skokie, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "mold remediation skokie",
       "secondary_keywords": [
         "mold removal",
@@ -4043,14 +3862,15 @@
         "area",
         "service"
       ],
-      "title": "Water Cleanup in Skokie, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Water Cleanup in Skokie",
-      "meta_description": "Water cleanup in Skokie, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "title": "Emergency Water Cleanup in Skokie, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Emergency Water Cleanup in Skokie",
+      "meta_description": "24/7 emergency water cleanup in Skokie, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "emergency water cleanup skokie",
       "secondary_keywords": [
         "water cleanup",
         "water damage cleanup",
         "water clean up",
+        "emergency water cleanup",
         "flood water cleanup",
         "standing water removal"
       ],
@@ -4089,7 +3909,7 @@
       ],
       "title": "Flood Damage Restoration in Skokie, IL | Dry Bros Water & Fire Restoration",
       "h1": "Flood Damage Restoration in Skokie",
-      "meta_description": "Flood damage restoration in Skokie, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 flood damage restoration in Skokie, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "flood damage restoration skokie",
       "secondary_keywords": [
         "flood cleanup",
@@ -4133,12 +3953,14 @@
       ],
       "title": "Burst Pipe Cleanup and Repair in Skokie, IL | Dry Bros Water & Fire Restoration",
       "h1": "Burst Pipe Cleanup and Repair in Skokie",
-      "meta_description": "Burst pipe cleanup and repair in Skokie, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 burst pipe cleanup and repair in Skokie, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "burst pipe cleanup and repair skokie",
       "secondary_keywords": [
         "burst pipe cleanup",
+        "pipe burst emergency",
         "pipe break water damage",
-        "water line break"
+        "water line break",
+        "emergency pipe repair"
       ],
       "search_intent": "local_emergency",
       "target_word_count": 900,
@@ -4175,7 +3997,7 @@
       ],
       "title": "Basement Flooding Cleanup in Skokie, IL | Dry Bros Water & Fire Restoration",
       "h1": "Basement Flooding Cleanup in Skokie",
-      "meta_description": "Basement flooding cleanup in Skokie, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 basement flooding cleanup in Skokie, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "basement flooding cleanup skokie",
       "secondary_keywords": [
         "flooded basement cleanup",
@@ -4219,7 +4041,7 @@
       ],
       "title": "Sewage Cleanup and Sanitization in Skokie, IL | Dry Bros Water & Fire Restoration",
       "h1": "Sewage Cleanup and Sanitization in Skokie",
-      "meta_description": "Sewage cleanup and sanitization in Skokie, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 sewage cleanup and sanitization in Skokie, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "sewage cleanup and sanitization skokie",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -4263,7 +4085,7 @@
       ],
       "title": "Smoke Damage Restoration in Skokie, IL | Dry Bros Water & Fire Restoration",
       "h1": "Smoke Damage Restoration in Skokie",
-      "meta_description": "Smoke damage restoration in Skokie, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 smoke damage restoration in Skokie, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "smoke damage restoration skokie",
       "secondary_keywords": [
         "smoke residue cleanup",
@@ -4307,7 +4129,7 @@
       ],
       "title": "Odor Removal and Deodorization in Skokie, IL | Dry Bros Water & Fire Restoration",
       "h1": "Odor Removal and Deodorization in Skokie",
-      "meta_description": "Odor removal and deodorization in Skokie, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 odor removal and deodorization in Skokie, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "odor removal and deodorization skokie",
       "secondary_keywords": [
         "smoke odor removal",
@@ -4351,7 +4173,7 @@
       ],
       "title": "Storm Damage Restoration in Skokie, IL | Dry Bros Water & Fire Restoration",
       "h1": "Storm Damage Restoration in Skokie",
-      "meta_description": "Storm damage restoration in Skokie, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 storm damage restoration in Skokie, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "storm damage restoration skokie",
       "secondary_keywords": [
         "hurricane damage cleanup",
@@ -4393,12 +4215,14 @@
         "area",
         "service"
       ],
-      "title": "Board-Up and Tarping in Skokie, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Board-Up and Tarping in Skokie",
-      "meta_description": "Board-up and tarping in Skokie, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "title": "Emergency Board-Up and Tarping in Skokie, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Emergency Board-Up and Tarping in Skokie",
+      "meta_description": "24/7 emergency board-up and tarping in Skokie, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "emergency board-up and tarping skokie",
       "secondary_keywords": [
+        "emergency board up",
         "roof tarping",
+        "emergency tarping service",
         "fire damage board up",
         "broken window board up"
       ],
@@ -4437,7 +4261,7 @@
       ],
       "title": "Contents Restoration and Storage in Skokie, IL | Dry Bros Water & Fire Restoration",
       "h1": "Contents Restoration and Storage in Skokie",
-      "meta_description": "Contents restoration and storage in Skokie, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 contents restoration and storage in Skokie, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "contents restoration and storage skokie",
       "secondary_keywords": [
         "contents pack-out",
@@ -4481,7 +4305,7 @@
       ],
       "title": "Reconstruction Services in Skokie, IL | Dry Bros Water & Fire Restoration",
       "h1": "Reconstruction Services in Skokie",
-      "meta_description": "Reconstruction services in Skokie, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 reconstruction services in Skokie, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "reconstruction services skokie",
       "secondary_keywords": [
         "post-damage reconstruction",
@@ -4517,46 +4341,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/skokie-il/emergency-plumbing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Plumbing in Skokie, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Plumbing in Skokie",
-      "meta_description": "Plumbing in Skokie, IL. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "emergency plumbing skokie",
-      "secondary_keywords": [
-        "burst pipe plumber"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-plumbing/",
-        "/service-areas/skokie-il/",
-        "/service-areas/skokie-il/fire-damage-restoration/",
-        "/service-areas/skokie-il/mold-remediation/",
-        "/service-areas/berwyn-il/emergency-plumbing/",
-        "/service-areas/cicero-il/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/berwyn-il/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4565,7 +4349,7 @@
       ],
       "title": "Water Damage Restoration in Berwyn, IL | Dry Bros Water & Fire Restoration",
       "h1": "Water Damage Restoration in Berwyn",
-      "meta_description": "Water damage restoration in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 water damage restoration in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "water damage restoration berwyn",
       "secondary_keywords": [
         "water removal",
@@ -4609,7 +4393,7 @@
       ],
       "title": "Fire Damage Restoration in Berwyn, IL | Dry Bros Water & Fire Restoration",
       "h1": "Fire Damage Restoration in Berwyn",
-      "meta_description": "Fire damage restoration in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 fire damage restoration in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "fire damage restoration berwyn",
       "secondary_keywords": [
         "fire cleanup",
@@ -4653,7 +4437,7 @@
       ],
       "title": "Mold Remediation in Berwyn, IL | Dry Bros Water & Fire Restoration",
       "h1": "Mold Remediation in Berwyn",
-      "meta_description": "Mold remediation in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 mold remediation in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "mold remediation berwyn",
       "secondary_keywords": [
         "mold removal",
@@ -4695,14 +4479,15 @@
         "area",
         "service"
       ],
-      "title": "Water Cleanup in Berwyn, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Water Cleanup in Berwyn",
-      "meta_description": "Water cleanup in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "title": "Emergency Water Cleanup in Berwyn, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Emergency Water Cleanup in Berwyn",
+      "meta_description": "24/7 emergency water cleanup in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "emergency water cleanup berwyn",
       "secondary_keywords": [
         "water cleanup",
         "water damage cleanup",
         "water clean up",
+        "emergency water cleanup",
         "flood water cleanup",
         "standing water removal"
       ],
@@ -4741,7 +4526,7 @@
       ],
       "title": "Flood Damage Restoration in Berwyn, IL | Dry Bros Water & Fire Restoration",
       "h1": "Flood Damage Restoration in Berwyn",
-      "meta_description": "Flood damage restoration in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 flood damage restoration in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "flood damage restoration berwyn",
       "secondary_keywords": [
         "flood cleanup",
@@ -4785,12 +4570,14 @@
       ],
       "title": "Burst Pipe Cleanup and Repair in Berwyn, IL | Dry Bros Water & Fire Restoration",
       "h1": "Burst Pipe Cleanup and Repair in Berwyn",
-      "meta_description": "Burst pipe cleanup and repair in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 burst pipe cleanup and repair in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "burst pipe cleanup and repair berwyn",
       "secondary_keywords": [
         "burst pipe cleanup",
+        "pipe burst emergency",
         "pipe break water damage",
-        "water line break"
+        "water line break",
+        "emergency pipe repair"
       ],
       "search_intent": "local_emergency",
       "target_word_count": 900,
@@ -4827,7 +4614,7 @@
       ],
       "title": "Basement Flooding Cleanup in Berwyn, IL | Dry Bros Water & Fire Restoration",
       "h1": "Basement Flooding Cleanup in Berwyn",
-      "meta_description": "Basement flooding cleanup in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 basement flooding cleanup in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "basement flooding cleanup berwyn",
       "secondary_keywords": [
         "flooded basement cleanup",
@@ -4871,7 +4658,7 @@
       ],
       "title": "Sewage Cleanup and Sanitization in Berwyn, IL | Dry Bros Water & Fire Restoration",
       "h1": "Sewage Cleanup and Sanitization in Berwyn",
-      "meta_description": "Sewage cleanup and sanitization in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 sewage cleanup and sanitization in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "sewage cleanup and sanitization berwyn",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -4915,7 +4702,7 @@
       ],
       "title": "Smoke Damage Restoration in Berwyn, IL | Dry Bros Water & Fire Restoration",
       "h1": "Smoke Damage Restoration in Berwyn",
-      "meta_description": "Smoke damage restoration in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 smoke damage restoration in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "smoke damage restoration berwyn",
       "secondary_keywords": [
         "smoke residue cleanup",
@@ -4959,7 +4746,7 @@
       ],
       "title": "Odor Removal and Deodorization in Berwyn, IL | Dry Bros Water & Fire Restoration",
       "h1": "Odor Removal and Deodorization in Berwyn",
-      "meta_description": "Odor removal and deodorization in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 odor removal and deodorization in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "odor removal and deodorization berwyn",
       "secondary_keywords": [
         "smoke odor removal",
@@ -5003,7 +4790,7 @@
       ],
       "title": "Storm Damage Restoration in Berwyn, IL | Dry Bros Water & Fire Restoration",
       "h1": "Storm Damage Restoration in Berwyn",
-      "meta_description": "Storm damage restoration in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 storm damage restoration in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "storm damage restoration berwyn",
       "secondary_keywords": [
         "hurricane damage cleanup",
@@ -5045,12 +4832,14 @@
         "area",
         "service"
       ],
-      "title": "Board-Up and Tarping in Berwyn, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Board-Up and Tarping in Berwyn",
-      "meta_description": "Board-up and tarping in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "title": "Emergency Board-Up and Tarping in Berwyn, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Emergency Board-Up and Tarping in Berwyn",
+      "meta_description": "24/7 emergency board-up and tarping in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "emergency board-up and tarping berwyn",
       "secondary_keywords": [
+        "emergency board up",
         "roof tarping",
+        "emergency tarping service",
         "fire damage board up",
         "broken window board up"
       ],
@@ -5089,7 +4878,7 @@
       ],
       "title": "Contents Restoration and Storage in Berwyn, IL | Dry Bros Water & Fire Restoration",
       "h1": "Contents Restoration and Storage in Berwyn",
-      "meta_description": "Contents restoration and storage in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 contents restoration and storage in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "contents restoration and storage berwyn",
       "secondary_keywords": [
         "contents pack-out",
@@ -5133,7 +4922,7 @@
       ],
       "title": "Reconstruction Services in Berwyn, IL | Dry Bros Water & Fire Restoration",
       "h1": "Reconstruction Services in Berwyn",
-      "meta_description": "Reconstruction services in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 reconstruction services in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "reconstruction services berwyn",
       "secondary_keywords": [
         "post-damage reconstruction",
@@ -5169,46 +4958,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/berwyn-il/emergency-plumbing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Plumbing in Berwyn, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Plumbing in Berwyn",
-      "meta_description": "Plumbing in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "emergency plumbing berwyn",
-      "secondary_keywords": [
-        "burst pipe plumber"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-plumbing/",
-        "/service-areas/berwyn-il/",
-        "/service-areas/berwyn-il/fire-damage-restoration/",
-        "/service-areas/berwyn-il/mold-remediation/",
-        "/service-areas/cicero-il/emergency-plumbing/",
-        "/service-areas/des-plaines-il/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/des-plaines-il/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5217,7 +4966,7 @@
       ],
       "title": "Water Damage Restoration in Des Plaines, IL | Dry Bros Water & Fire Restoration",
       "h1": "Water Damage Restoration in Des Plaines",
-      "meta_description": "Water damage restoration in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 water damage restoration in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "water damage restoration des plaines",
       "secondary_keywords": [
         "water removal",
@@ -5261,7 +5010,7 @@
       ],
       "title": "Fire Damage Restoration in Des Plaines, IL | Dry Bros Water & Fire Restoration",
       "h1": "Fire Damage Restoration in Des Plaines",
-      "meta_description": "Fire damage restoration in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 fire damage restoration in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "fire damage restoration des plaines",
       "secondary_keywords": [
         "fire cleanup",
@@ -5305,7 +5054,7 @@
       ],
       "title": "Mold Remediation in Des Plaines, IL | Dry Bros Water & Fire Restoration",
       "h1": "Mold Remediation in Des Plaines",
-      "meta_description": "Mold remediation in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 mold remediation in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "mold remediation des plaines",
       "secondary_keywords": [
         "mold removal",
@@ -5347,14 +5096,15 @@
         "area",
         "service"
       ],
-      "title": "Water Cleanup in Des Plaines, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Water Cleanup in Des Plaines",
-      "meta_description": "Water cleanup in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "title": "Emergency Water Cleanup in Des Plaines, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Emergency Water Cleanup in Des Plaines",
+      "meta_description": "24/7 emergency water cleanup in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "emergency water cleanup des plaines",
       "secondary_keywords": [
         "water cleanup",
         "water damage cleanup",
         "water clean up",
+        "emergency water cleanup",
         "flood water cleanup",
         "standing water removal"
       ],
@@ -5393,7 +5143,7 @@
       ],
       "title": "Flood Damage Restoration in Des Plaines, IL | Dry Bros Water & Fire Restoration",
       "h1": "Flood Damage Restoration in Des Plaines",
-      "meta_description": "Flood damage restoration in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 flood damage restoration in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "flood damage restoration des plaines",
       "secondary_keywords": [
         "flood cleanup",
@@ -5437,12 +5187,14 @@
       ],
       "title": "Burst Pipe Cleanup and Repair in Des Plaines, IL | Dry Bros Water & Fire Restoration",
       "h1": "Burst Pipe Cleanup and Repair in Des Plaines",
-      "meta_description": "Burst pipe cleanup and repair in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 burst pipe cleanup and repair in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "burst pipe cleanup and repair des plaines",
       "secondary_keywords": [
         "burst pipe cleanup",
+        "pipe burst emergency",
         "pipe break water damage",
-        "water line break"
+        "water line break",
+        "emergency pipe repair"
       ],
       "search_intent": "local_emergency",
       "target_word_count": 900,
@@ -5479,7 +5231,7 @@
       ],
       "title": "Basement Flooding Cleanup in Des Plaines, IL | Dry Bros Water & Fire Restoration",
       "h1": "Basement Flooding Cleanup in Des Plaines",
-      "meta_description": "Basement flooding cleanup in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 basement flooding cleanup in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "basement flooding cleanup des plaines",
       "secondary_keywords": [
         "flooded basement cleanup",
@@ -5523,7 +5275,7 @@
       ],
       "title": "Sewage Cleanup and Sanitization in Des Plaines, IL | Dry Bros Water & Fire Restoration",
       "h1": "Sewage Cleanup and Sanitization in Des Plaines",
-      "meta_description": "Sewage cleanup and sanitization in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 sewage cleanup and sanitization in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "sewage cleanup and sanitization des plaines",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -5567,7 +5319,7 @@
       ],
       "title": "Smoke Damage Restoration in Des Plaines, IL | Dry Bros Water & Fire Restoration",
       "h1": "Smoke Damage Restoration in Des Plaines",
-      "meta_description": "Smoke damage restoration in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 smoke damage restoration in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "smoke damage restoration des plaines",
       "secondary_keywords": [
         "smoke residue cleanup",
@@ -5611,7 +5363,7 @@
       ],
       "title": "Odor Removal and Deodorization in Des Plaines, IL | Dry Bros Water & Fire Restoration",
       "h1": "Odor Removal and Deodorization in Des Plaines",
-      "meta_description": "Odor removal and deodorization in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 odor removal and deodorization in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "odor removal and deodorization des plaines",
       "secondary_keywords": [
         "smoke odor removal",
@@ -5655,7 +5407,7 @@
       ],
       "title": "Storm Damage Restoration in Des Plaines, IL | Dry Bros Water & Fire Restoration",
       "h1": "Storm Damage Restoration in Des Plaines",
-      "meta_description": "Storm damage restoration in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 storm damage restoration in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "storm damage restoration des plaines",
       "secondary_keywords": [
         "hurricane damage cleanup",
@@ -5697,12 +5449,14 @@
         "area",
         "service"
       ],
-      "title": "Board-Up and Tarping in Des Plaines, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Board-Up and Tarping in Des Plaines",
-      "meta_description": "Board-up and tarping in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "title": "Emergency Board-Up and Tarping in Des Plaines, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Emergency Board-Up and Tarping in Des Plaines",
+      "meta_description": "24/7 emergency board-up and tarping in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "emergency board-up and tarping des plaines",
       "secondary_keywords": [
+        "emergency board up",
         "roof tarping",
+        "emergency tarping service",
         "fire damage board up",
         "broken window board up"
       ],
@@ -5741,7 +5495,7 @@
       ],
       "title": "Contents Restoration and Storage in Des Plaines, IL | Dry Bros Water & Fire Restoration",
       "h1": "Contents Restoration and Storage in Des Plaines",
-      "meta_description": "Contents restoration and storage in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 contents restoration and storage in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "contents restoration and storage des plaines",
       "secondary_keywords": [
         "contents pack-out",
@@ -5785,7 +5539,7 @@
       ],
       "title": "Reconstruction Services in Des Plaines, IL | Dry Bros Water & Fire Restoration",
       "h1": "Reconstruction Services in Des Plaines",
-      "meta_description": "Reconstruction services in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "meta_description": "24/7 reconstruction services in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767.",
       "primary_keyword": "reconstruction services des plaines",
       "secondary_keywords": [
         "post-damage reconstruction",
@@ -5817,46 +5571,6 @@
         "/service-areas/des-plaines-il/mold-remediation/",
         "/service-areas/berwyn-il/reconstruction/",
         "/service-areas/cicero-il/reconstruction/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/des-plaines-il/emergency-plumbing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Plumbing in Des Plaines, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Plumbing in Des Plaines",
-      "meta_description": "Plumbing in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "emergency plumbing des plaines",
-      "secondary_keywords": [
-        "burst pipe plumber"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-plumbing/",
-        "/service-areas/des-plaines-il/",
-        "/service-areas/des-plaines-il/fire-damage-restoration/",
-        "/service-areas/des-plaines-il/mold-remediation/",
-        "/service-areas/berwyn-il/emergency-plumbing/",
-        "/service-areas/cicero-il/emergency-plumbing/",
         "/contact/"
       ]
     },
@@ -5902,10 +5616,10 @@
       "vars_keys": [
         "post"
       ],
-      "title": "Burst Pipe Checklist: Step-by-Step Response",
-      "h1": "Burst Pipe Checklist: Step-by-Step Response",
+      "title": "Burst Pipe Emergency Checklist: Step-by-Step Response",
+      "h1": "Burst Pipe Emergency Checklist: Step-by-Step Response",
       "meta_description": "",
-      "primary_keyword": "burst pipe checklist stepbystep response",
+      "primary_keyword": "burst pipe emergency checklist stepbystep response",
       "secondary_keywords": [
         "water damage restoration",
         "appliance leak cleanup"

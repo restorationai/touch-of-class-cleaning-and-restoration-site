@@ -35,7 +35,8 @@
       "heading": "Archivo",
       "body": "Inter",
       "source": "NOT the client's actual typeface \u2014 the logo uses custom stylized 3D display lettering (heavy uppercase grotesque headline, bold italic chrome phone-number face) with no identifiable named font, so no exact font can be read from the image. Archivo (heavy weight) is the closest free web substitute for the bold grotesque headline; Inter is the SOP body fallback. Replace if the client supplies their real brand font."
-    }
+    },
+    "hours": "24/7"
   },
   "services": [
     "water-damage-restoration",
@@ -51,8 +52,7 @@
     "storm-damage-restoration",
     "emergency-board-up-tarping",
     "contents-restoration",
-    "reconstruction",
-    "emergency-plumbing"
+    "reconstruction"
   ],
   "service_areas": [
     {
