@@ -6,15 +6,15 @@
 
 ## CLIENT DIRECTION
 
-**1. Vehicles MUST match Frontline's REAL van — the orange-and-blue wrap, not white. (Jared, 2026-09-11)**
-Client said, verbatim: *"Also the pictures of the vans are pretty far from what we actually have."*
-The real fleet is documented — use it as the source of truth for every vehicle in every image.
+**1. Vehicles MUST match Frontline's REAL van — Jared uploaded actual photos of it. (Jared, 2026-09-11 and 2026-09-15)**
+Client said, verbatim: *"Also the pictures of the vans are pretty far from what we actually have."* (2026-09-11) and *"Ok, I've uploaded 4 photos of my work vans. Plus use those pictures to update all the photos of vans throughout the website."* (2026-09-15)
+His REAL van photo is now the single source of truth for every vehicle in every image.
 
-LIVERY-REFERENCE: harvested/real-van-promaster.jpg
+LIVERY-REFERENCE: harvested/real-van-2026-09-15.jpg
 
-VAN-OVERRIDE: a fleet of exactly THREE matching Ram ProMaster high-roof cargo vans (rounded modern Euro-style cargo body, NOT a boxy Ford Transit), each wrapped IDENTICALLY in the livery of the reference image — a bold two-tone wrap that is vivid ORANGE across the front third of the body and transitions to deep ROYAL BLUE across the rear two-thirds, carrying the stylized blue-and-orange "F" shield mark and the "FRONTLINE FIRE & FLOOD" wordmark on the side panel exactly as shown in the reference. Every van faces the SAME direction and is shot from the same side so the wrap reads identically across all three. The ONLY lettering allowed is the "FRONTLINE FIRE & FLOOD" wordmark and the F shield — NO readable phone numbers, NO website URL, NO license number anywhere on the wrap (these garble; leave them off entirely).
+VAN-OVERRIDE: a fleet of exactly THREE matching Ram ProMaster high-roof cargo vans (rounded modern Euro-style cargo body, NOT a boxy Ford Transit), each wrapped IDENTICALLY in the livery of the reference photo, which is Frontline's ACTUAL van. The wrap is PREDOMINANTLY VIVID ORANGE across the whole body (cab, doors, roof, most of the cargo side all orange), with DEEP BLUE appearing only as a dynamic lower SWOOSH/WAVE that sweeps along the bottom of the body and curves upward toward the rear — it is an accent band, NOT half the van. On the mid/front side panel (over the front and sliding doors) sits the "FRONTLINE FIRE & FLOOD" wordmark set inside a WHITE rounded speech-bubble/callout shape, with the stylized blue-and-orange "F" speech-bubble shield mark directly beside it, and a small "VETERAN OWNED & OPERATED" arc above the wordmark, exactly as shown in the reference. Every van faces the SAME direction and is shot from the same side so the wrap reads identically across all three. The ONLY lettering allowed is the "FRONTLINE FIRE & FLOOD" wordmark and the F shield — NO readable phone numbers, NO website URL, NO license number anywhere on the wrap (these garble; leave them off entirely).
 
-**AUTOMATIC REJECT:** white vans, a thin accent stripe on a white body, a Ford-Transit-style boxy body, or any wrap that is not the orange-front-to-blue-rear ProMaster livery of the reference image. The current white-Transit hero is exactly what the client rejected.
+**AUTOMATIC REJECT:** white vans, a thin accent stripe on a white body, a Ford-Transit-style boxy body, an orange-front-to-blue-rear split (the van is orange-DOMINANT with only a lower blue swoosh, not two halves), a wordmark that is not inside its white callout, or any wrap that does not match the real reference photo. The old orange-front/blue-rear hero was a stylized approximation, not his real van.
 <!-- ========================== END CLIENT DIRECTION ========================== -->
 
 This guide is consulted by every image-generation call (Skill 3 launch images, Skill 4 blog hero images, future image regenerations). The goal: a viewer scrolling through the site should feel like one professional photographer documented one company on one continuous job. No stylistic drift from page to page.
