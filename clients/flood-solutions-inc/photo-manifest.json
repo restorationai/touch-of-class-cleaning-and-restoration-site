@@ -421,6 +421,66 @@
       "triaged_at": "2026-09-15T14:08:03Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "web:aaf2a9f048f92552": {
+      "source": "website",
+      "storage": "site-assets/web/web-aaf2a9f048f92552.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1789143868981/site-assets/web/web-aaf2a9f048f92552.jpg",
+      "origin_url": "https://www.floodsolutionsinc.com/wp-content/uploads/How-to-Dry-Water-Damaged-Buildings.jpg",
+      "found_on": "https://www.floodsolutionsinc.com/blog/",
+      "width": 1600,
+      "height": 893,
+      "bytes": 169031,
+      "sha1": "aaf2a9f048f92552",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Blue air mover and dehumidifier on wet basement floor",
+      "quality": 82,
+      "slots": {
+        "hero": 72,
+        "team": 0,
+        "services": 78
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Suspiciously polished lighting and staging for a working contractor's basement shot.",
+      "triaged_at": "2026-09-17T19:31:41Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:ac398e2a8dd25221": {
+      "source": "website",
+      "storage": "site-assets/web/web-ac398e2a8dd25221.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1789143868981/site-assets/web/web-ac398e2a8dd25221.jpg",
+      "origin_url": "https://www.floodsolutionsinc.com/wp-content/uploads/Structural-Drying-Experts-for-Emergency-Damage-Cleanup.jpg",
+      "found_on": "https://www.floodsolutionsinc.com/blog/",
+      "width": 1600,
+      "height": 895,
+      "bytes": 173519,
+      "sha1": "ac398e2a8dd25221",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Warped water-damaged wood floor with extraction equipment background",
+      "quality": 65,
+      "slots": {
+        "hero": 28,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Extreme low-angle crop, soft background; reads as stock or art-directed scene.",
+      "triaged_at": "2026-09-17T19:31:41Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "web:aed448e3dbb4ac6f": {
       "source": "website",
       "storage": "site-assets/web/web-aed448e3dbb4ac6f.jpg",
@@ -559,6 +619,36 @@
       "flags": [],
       "reason": "Clear authentic equipment shot with dehumidifier visible; solid services card.",
       "triaged_at": "2026-09-15T14:08:03Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:c41cf895aaa7bfdd": {
+      "source": "website",
+      "storage": "site-assets/web/web-c41cf895aaa7bfdd.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1789143868981/site-assets/web/web-c41cf895aaa7bfdd.jpg",
+      "origin_url": "https://www.floodsolutionsinc.com/wp-content/uploads/10-Best-Water-Damage-Cleanup-Solutions.jpg",
+      "found_on": "https://www.floodsolutionsinc.com/blog/",
+      "width": 1600,
+      "height": 897,
+      "bytes": 191714,
+      "sha1": "c41cf895aaa7bfdd",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Technician operating air mover on wet hardwood floor",
+      "quality": 75,
+      "slots": {
+        "hero": 35,
+        "team": 45,
+        "services": 72
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Clean cinematic framing and lighting inconsistent with real job-site photography.",
+      "triaged_at": "2026-09-17T19:31:41Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "web:ccd0d212f30930bb": {
@@ -732,5 +822,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-09-15T15:33:14Z"
+  "triaged_at": "2026-09-17T19:31:41Z"
 }

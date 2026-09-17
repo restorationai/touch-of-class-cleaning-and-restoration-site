@@ -272,8 +272,242 @@
       "reason": "Real job-site crew shot; portrait crop and back-turned worker limit team slot.",
       "triaged_at": "2026-08-25T01:00:57Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "web:1517c324bbe7d204": {
+      "source": "website",
+      "storage": "site-assets/web/web-1517c324bbe7d204.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787586121477/site-assets/web/web-1517c324bbe7d204.jpg",
+      "origin_url": "https://www.tdiusa.com/images/services/bathroom-remodeling.webp",
+      "found_on": "https://www.tdiusa.com",
+      "width": 1376,
+      "height": 768,
+      "bytes": 80438,
+      "sha1": "1517c324bbe7d204",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Luxury marble bathroom remodel nearing completion with tools",
+      "quality": 82,
+      "slots": {
+        "hero": 55,
+        "team": 0,
+        "services": 72
+      },
+      "service_slugs": [
+        "bathroom-remodeling"
+      ],
+      "flags": [],
+      "reason": "Good composition, natural light, active remodel scene; no crew visible.",
+      "triaged_at": "2026-09-17T19:30:12Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:4e3ebf49c2314a8f": {
+      "source": "website",
+      "storage": "site-assets/web/web-4e3ebf49c2314a8f.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787586121477/site-assets/web/web-4e3ebf49c2314a8f.jpg",
+      "origin_url": "https://www.tdiusa.com/images/services/commercial-construction.webp",
+      "found_on": "https://www.tdiusa.com/services/",
+      "width": 1200,
+      "height": 896,
+      "bytes": 56200,
+      "sha1": "4e3ebf49c2314a8f",
+      "exif": {},
+      "category": "crew",
+      "subject": "Two technicians in blue uniforms installing drywall on framed wall",
+      "quality": 70,
+      "slots": {
+        "hero": 28,
+        "team": 72,
+        "services": 75
+      },
+      "service_slugs": [
+        "home-remodeling",
+        "general-contracting"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Over-polished, AI-generated or stock appearance; identical workers, too generic.",
+      "triaged_at": "2026-09-17T19:30:12Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:6e4a184eed992609": {
+      "source": "website",
+      "storage": "site-assets/web/web-6e4a184eed992609.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787586121477/site-assets/web/web-6e4a184eed992609.jpg",
+      "origin_url": "https://www.tdiusa.com/images/services/garage-construction.webp",
+      "found_on": "https://www.tdiusa.com/services/",
+      "width": 1200,
+      "height": 896,
+      "bytes": 106990,
+      "sha1": "6e4a184eed992609",
+      "exif": {},
+      "category": "crew",
+      "subject": "Two TDI crew members working inside open garage with branded van",
+      "quality": 78,
+      "slots": {
+        "hero": 72,
+        "team": 68,
+        "services": 70
+      },
+      "service_slugs": [
+        "garage-construction"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Branding visible but scene feels AI-generated; still usable for garage service card.",
+      "triaged_at": "2026-09-17T19:30:12Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:a64255b09252048b": {
+      "source": "website",
+      "storage": "site-assets/web/web-a64255b09252048b.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787586121477/site-assets/web/web-a64255b09252048b.jpg",
+      "origin_url": "https://www.tdiusa.com/images/services/fire-smoke-rebuilding.webp",
+      "found_on": "https://www.tdiusa.com/services/",
+      "width": 1200,
+      "height": 896,
+      "bytes": 90412,
+      "sha1": "a64255b09252048b",
+      "exif": {},
+      "category": "crew",
+      "subject": "Two masked technicians assessing fire-damaged kitchen with equipment",
+      "quality": 74,
+      "slots": {
+        "hero": 30,
+        "team": 65,
+        "services": 82
+      },
+      "service_slugs": [
+        "fire-smoke-rebuilding"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Strong services scene; looks AI-generated but depicts relevant trade work clearly.",
+      "triaged_at": "2026-09-17T19:30:12Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:a9b17db5404325e3": {
+      "source": "website",
+      "storage": "site-assets/web/web-a9b17db5404325e3.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787586121477/site-assets/web/web-a9b17db5404325e3.jpg",
+      "origin_url": "https://www.tdiusa.com/images/services/kitchen-remodeling.webp",
+      "found_on": "https://www.tdiusa.com",
+      "width": 1376,
+      "height": 768,
+      "bytes": 98822,
+      "sha1": "a9b17db5404325e3",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "High-end kitchen remodel in progress with marble island taped",
+      "quality": 84,
+      "slots": {
+        "hero": 60,
+        "team": 0,
+        "services": 75
+      },
+      "service_slugs": [
+        "kitchen-remodeling"
+      ],
+      "flags": [],
+      "reason": "Well-lit, photogenic kitchen remodel scene; no crew but strong services fit.",
+      "triaged_at": "2026-09-17T19:30:12Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:b5f0ecc20009bd93": {
+      "source": "website",
+      "storage": "site-assets/web/web-b5f0ecc20009bd93.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787586121477/site-assets/web/web-b5f0ecc20009bd93.jpg",
+      "origin_url": "https://www.tdiusa.com/images/services/home-remodeling.webp",
+      "found_on": "https://www.tdiusa.com",
+      "width": 1376,
+      "height": 768,
+      "bytes": 115030,
+      "sha1": "b5f0ecc20009bd93",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Large open living room under construction with flooring and saw",
+      "quality": 80,
+      "slots": {
+        "hero": 58,
+        "team": 0,
+        "services": 68
+      },
+      "service_slugs": [
+        "home-remodeling",
+        "new-construction"
+      ],
+      "flags": [],
+      "reason": "Bright, spacious construction scene; good for services cards, no crew present.",
+      "triaged_at": "2026-09-17T19:30:12Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:d808bd7f0623c2ef": {
+      "source": "website",
+      "storage": "site-assets/web/web-d808bd7f0623c2ef.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787586121477/site-assets/web/web-d808bd7f0623c2ef.jpg",
+      "origin_url": "https://www.tdiusa.com/images/services/general-contracting.webp",
+      "found_on": "https://www.tdiusa.com",
+      "width": 1200,
+      "height": 896,
+      "bytes": 128662,
+      "sha1": "d808bd7f0623c2ef",
+      "exif": {},
+      "category": "crew",
+      "subject": "Three crew members reviewing blueprints inside framed construction site",
+      "quality": 82,
+      "slots": {
+        "hero": 55,
+        "team": 78,
+        "services": 72
+      },
+      "service_slugs": [
+        "general-contracting",
+        "new-construction",
+        "home-remodeling"
+      ],
+      "flags": [
+        "stock_photo",
+        "people_faces"
+      ],
+      "reason": "Too polished and art-directed for a working contractor's own crew photo.",
+      "triaged_at": "2026-09-17T19:30:29Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:e4895d22acc37ed4": {
+      "source": "website",
+      "storage": "site-assets/web/web-e4895d22acc37ed4.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787586121477/site-assets/web/web-e4895d22acc37ed4.jpg",
+      "origin_url": "https://www.tdiusa.com/images/hero-bg.webp",
+      "found_on": "https://www.tdiusa.com",
+      "width": 1376,
+      "height": 768,
+      "bytes": 218778,
+      "sha1": "e4895d22acc37ed4",
+      "exif": {},
+      "category": "fleet",
+      "subject": "Three TDI-branded blue vans and crew at framed construction site",
+      "quality": 88,
+      "slots": {
+        "hero": 90,
+        "team": 65,
+        "services": 75
+      },
+      "service_slugs": [
+        "new-construction",
+        "general-contracting",
+        "home-remodeling"
+      ],
+      "flags": [
+        "stock_photo",
+        "people_faces"
+      ],
+      "reason": "Beautifully composed but appears too polished and art-directed; likely a branded stock or agency shoot.",
+      "triaged_at": "2026-09-17T19:30:29Z",
+      "triage_model": "claude-sonnet-4-6"
     }
   },
   "slots": {},
-  "triaged_at": "2026-09-08T14:16:43Z"
+  "triaged_at": "2026-09-17T19:30:29Z"
 }
