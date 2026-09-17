@@ -1,20 +1,20 @@
 # Site Plan Report — Dry Bros Water & Fire Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-17T14:49:21.529594+00:00
+- Generated: 2026-09-17T15:06:19.345222+00:00
 - Domain: `None`
-- Services selected: 14 of 65 catalog entries
+- Services selected: 13 of 65 catalog entries
 - Service areas: 8
 - Cross-product enabled: True
-- Total URLs: **136**
-- Total internal links: 1060 (avg 7.8 per page)
+- Total URLs: **128**
+- Total internal links: 993 (avg 7.8 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 98 |
-| `service-landing` | 14 |
+| `service-area-service` | 91 |
+| `service-landing` | 13 |
 | `blog-post` | 8 |
 | `service-area` | 7 |
 | `legal` | 3 |
@@ -40,7 +40,6 @@
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
 - `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
 - `contents-restoration` — Contents Restoration and Storage (supporting, priority 5)
-- `reconstruction` — Reconstruction Services (core, priority 9)
 
 ## Service areas
 
@@ -61,12 +60,12 @@
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation chicago |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration chicago |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration chicago |
-| `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services chicago |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization chicago |
 | `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration chicago |
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration chicago |
 | `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup chicago |
 | `/services/basement-flooding-cleanup/` | `service-landing` | 7.2 | basement flooding cleanup chicago |
+| `/services/burst-pipe-repair/` | `service-landing` | 7.2 | burst pipe cleanup and repair chicago |
 
 ## Validation
 

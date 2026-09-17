@@ -188,16 +188,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/reconstruction/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/naperville-il/": {
     "archetype": "service-area",
     "stubs": [
@@ -391,16 +381,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/naperville-il/reconstruction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/cicero-il/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -522,16 +502,6 @@
     "missing_stubs": []
   },
   "/service-areas/cicero-il/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/cicero-il/reconstruction/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -671,16 +641,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/evanston-il/reconstruction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/oak-park-il/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -802,16 +762,6 @@
     "missing_stubs": []
   },
   "/service-areas/oak-park-il/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/oak-park-il/reconstruction/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -951,16 +901,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/skokie-il/reconstruction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/berwyn-il/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1091,16 +1031,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/berwyn-il/reconstruction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/des-plaines-il/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1222,16 +1152,6 @@
     "missing_stubs": []
   },
   "/service-areas/des-plaines-il/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/des-plaines-il/reconstruction/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

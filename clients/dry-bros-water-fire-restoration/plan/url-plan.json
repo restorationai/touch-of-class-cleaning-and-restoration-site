@@ -1,9 +1,9 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-17T14:49:21.525184+00:00",
+  "generated_at": "2026-09-17T15:06:19.339988+00:00",
   "input_summary": {
-    "service_count": 14,
+    "service_count": 13,
     "service_area_count": 8,
     "cross_product": true,
     "blog_seed_count": 8
@@ -48,7 +48,6 @@
         "/services/mold-remediation/",
         "/services/water-damage-restoration/",
         "/services/flood-damage-restoration/",
-        "/services/reconstruction/",
         "/services/sewage-cleanup/",
         "/services/smoke-damage-restoration/",
         "/services/storm-damage-restoration/",
@@ -101,7 +100,6 @@
         "/services/mold-remediation/",
         "/services/water-damage-restoration/",
         "/services/flood-damage-restoration/",
-        "/services/reconstruction/",
         "/services/sewage-cleanup/",
         "/services/smoke-damage-restoration/",
         "/services/storm-damage-restoration/",
@@ -854,51 +852,6 @@
       ]
     },
     {
-      "url_path": "/services/reconstruction/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Reconstruction Services in Chicago | Dry Bros Water & Fire Restoration",
-      "h1": "Reconstruction Services in Chicago",
-      "meta_description": "24/7 reconstruction services in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "reconstruction services chicago",
-      "secondary_keywords": [
-        "post-damage reconstruction",
-        "rebuild services",
-        "structural reconstruction",
-        "post-disaster rebuilding",
-        "fire damage reconstruction"
-      ],
-      "search_intent": "local_commercial",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 8.1,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/berwyn-il/reconstruction/",
-        "/service-areas/cicero-il/reconstruction/",
-        "/service-areas/des-plaines-il/reconstruction/",
-        "/service-areas/evanston-il/reconstruction/",
-        "/service-areas/naperville-il/reconstruction/",
-        "/service-areas/oak-park-il/reconstruction/",
-        "/service-areas/skokie-il/reconstruction/"
-      ]
-    },
-    {
       "url_path": "/service-areas/naperville-il/",
       "archetype": "service-area",
       "vars_keys": [
@@ -934,7 +887,6 @@
         "/service-areas/naperville-il/mold-remediation/",
         "/service-areas/naperville-il/water-damage-restoration/",
         "/service-areas/naperville-il/flood-damage-restoration/",
-        "/service-areas/naperville-il/reconstruction/",
         "/service-areas/naperville-il/sewage-cleanup/",
         "/service-areas/naperville-il/smoke-damage-restoration/",
         "/service-areas/naperville-il/storm-damage-restoration/",
@@ -985,7 +937,6 @@
         "/service-areas/cicero-il/mold-remediation/",
         "/service-areas/cicero-il/water-damage-restoration/",
         "/service-areas/cicero-il/flood-damage-restoration/",
-        "/service-areas/cicero-il/reconstruction/",
         "/service-areas/cicero-il/sewage-cleanup/",
         "/service-areas/cicero-il/smoke-damage-restoration/",
         "/service-areas/cicero-il/storm-damage-restoration/",
@@ -1036,7 +987,6 @@
         "/service-areas/evanston-il/mold-remediation/",
         "/service-areas/evanston-il/water-damage-restoration/",
         "/service-areas/evanston-il/flood-damage-restoration/",
-        "/service-areas/evanston-il/reconstruction/",
         "/service-areas/evanston-il/sewage-cleanup/",
         "/service-areas/evanston-il/smoke-damage-restoration/",
         "/service-areas/evanston-il/storm-damage-restoration/",
@@ -1087,7 +1037,6 @@
         "/service-areas/oak-park-il/mold-remediation/",
         "/service-areas/oak-park-il/water-damage-restoration/",
         "/service-areas/oak-park-il/flood-damage-restoration/",
-        "/service-areas/oak-park-il/reconstruction/",
         "/service-areas/oak-park-il/sewage-cleanup/",
         "/service-areas/oak-park-il/smoke-damage-restoration/",
         "/service-areas/oak-park-il/storm-damage-restoration/",
@@ -1138,7 +1087,6 @@
         "/service-areas/skokie-il/mold-remediation/",
         "/service-areas/skokie-il/water-damage-restoration/",
         "/service-areas/skokie-il/flood-damage-restoration/",
-        "/service-areas/skokie-il/reconstruction/",
         "/service-areas/skokie-il/sewage-cleanup/",
         "/service-areas/skokie-il/smoke-damage-restoration/",
         "/service-areas/skokie-il/storm-damage-restoration/",
@@ -1189,7 +1137,6 @@
         "/service-areas/berwyn-il/mold-remediation/",
         "/service-areas/berwyn-il/water-damage-restoration/",
         "/service-areas/berwyn-il/flood-damage-restoration/",
-        "/service-areas/berwyn-il/reconstruction/",
         "/service-areas/berwyn-il/sewage-cleanup/",
         "/service-areas/berwyn-il/smoke-damage-restoration/",
         "/service-areas/berwyn-il/storm-damage-restoration/",
@@ -1240,7 +1187,6 @@
         "/service-areas/des-plaines-il/mold-remediation/",
         "/service-areas/des-plaines-il/water-damage-restoration/",
         "/service-areas/des-plaines-il/flood-damage-restoration/",
-        "/service-areas/des-plaines-il/reconstruction/",
         "/service-areas/des-plaines-il/sewage-cleanup/",
         "/service-areas/des-plaines-il/smoke-damage-restoration/",
         "/service-areas/des-plaines-il/storm-damage-restoration/",
@@ -1829,50 +1775,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/naperville-il/reconstruction/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Reconstruction Services in Naperville, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Reconstruction Services in Naperville",
-      "meta_description": "24/7 reconstruction services in Naperville, IL. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "reconstruction services naperville",
-      "secondary_keywords": [
-        "post-damage reconstruction",
-        "rebuild services",
-        "structural reconstruction",
-        "post-disaster rebuilding",
-        "fire damage reconstruction"
-      ],
-      "search_intent": "local_commercial",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/reconstruction/",
-        "/service-areas/naperville-il/",
-        "/service-areas/naperville-il/fire-damage-restoration/",
-        "/service-areas/naperville-il/mold-remediation/",
-        "/service-areas/berwyn-il/reconstruction/",
-        "/service-areas/cicero-il/reconstruction/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/cicero-il/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -2442,50 +2344,6 @@
         "/service-areas/cicero-il/mold-remediation/",
         "/service-areas/berwyn-il/contents-restoration/",
         "/service-areas/des-plaines-il/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/cicero-il/reconstruction/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Reconstruction Services in Cicero, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Reconstruction Services in Cicero",
-      "meta_description": "24/7 reconstruction services in Cicero, IL. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "reconstruction services cicero",
-      "secondary_keywords": [
-        "post-damage reconstruction",
-        "rebuild services",
-        "structural reconstruction",
-        "post-disaster rebuilding",
-        "fire damage reconstruction"
-      ],
-      "search_intent": "local_commercial",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/reconstruction/",
-        "/service-areas/cicero-il/",
-        "/service-areas/cicero-il/fire-damage-restoration/",
-        "/service-areas/cicero-il/mold-remediation/",
-        "/service-areas/berwyn-il/reconstruction/",
-        "/service-areas/des-plaines-il/reconstruction/",
         "/contact/"
       ]
     },
@@ -3063,50 +2921,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/evanston-il/reconstruction/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Reconstruction Services in Evanston, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Reconstruction Services in Evanston",
-      "meta_description": "24/7 reconstruction services in Evanston, IL. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "reconstruction services evanston",
-      "secondary_keywords": [
-        "post-damage reconstruction",
-        "rebuild services",
-        "structural reconstruction",
-        "post-disaster rebuilding",
-        "fire damage reconstruction"
-      ],
-      "search_intent": "local_commercial",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/reconstruction/",
-        "/service-areas/evanston-il/",
-        "/service-areas/evanston-il/fire-damage-restoration/",
-        "/service-areas/evanston-il/mold-remediation/",
-        "/service-areas/berwyn-il/reconstruction/",
-        "/service-areas/cicero-il/reconstruction/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/oak-park-il/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3676,50 +3490,6 @@
         "/service-areas/oak-park-il/mold-remediation/",
         "/service-areas/berwyn-il/contents-restoration/",
         "/service-areas/cicero-il/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/oak-park-il/reconstruction/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Reconstruction Services in Oak Park, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Reconstruction Services in Oak Park",
-      "meta_description": "24/7 reconstruction services in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "reconstruction services oak park",
-      "secondary_keywords": [
-        "post-damage reconstruction",
-        "rebuild services",
-        "structural reconstruction",
-        "post-disaster rebuilding",
-        "fire damage reconstruction"
-      ],
-      "search_intent": "local_commercial",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/reconstruction/",
-        "/service-areas/oak-park-il/",
-        "/service-areas/oak-park-il/fire-damage-restoration/",
-        "/service-areas/oak-park-il/mold-remediation/",
-        "/service-areas/berwyn-il/reconstruction/",
-        "/service-areas/cicero-il/reconstruction/",
         "/contact/"
       ]
     },
@@ -4297,50 +4067,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/skokie-il/reconstruction/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Reconstruction Services in Skokie, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Reconstruction Services in Skokie",
-      "meta_description": "24/7 reconstruction services in Skokie, IL. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "reconstruction services skokie",
-      "secondary_keywords": [
-        "post-damage reconstruction",
-        "rebuild services",
-        "structural reconstruction",
-        "post-disaster rebuilding",
-        "fire damage reconstruction"
-      ],
-      "search_intent": "local_commercial",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/reconstruction/",
-        "/service-areas/skokie-il/",
-        "/service-areas/skokie-il/fire-damage-restoration/",
-        "/service-areas/skokie-il/mold-remediation/",
-        "/service-areas/berwyn-il/reconstruction/",
-        "/service-areas/cicero-il/reconstruction/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/berwyn-il/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4914,50 +4640,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/berwyn-il/reconstruction/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Reconstruction Services in Berwyn, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Reconstruction Services in Berwyn",
-      "meta_description": "24/7 reconstruction services in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "reconstruction services berwyn",
-      "secondary_keywords": [
-        "post-damage reconstruction",
-        "rebuild services",
-        "structural reconstruction",
-        "post-disaster rebuilding",
-        "fire damage reconstruction"
-      ],
-      "search_intent": "local_commercial",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/reconstruction/",
-        "/service-areas/berwyn-il/",
-        "/service-areas/berwyn-il/fire-damage-restoration/",
-        "/service-areas/berwyn-il/mold-remediation/",
-        "/service-areas/cicero-il/reconstruction/",
-        "/service-areas/des-plaines-il/reconstruction/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/des-plaines-il/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5527,50 +5209,6 @@
         "/service-areas/des-plaines-il/mold-remediation/",
         "/service-areas/berwyn-il/contents-restoration/",
         "/service-areas/cicero-il/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/des-plaines-il/reconstruction/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Reconstruction Services in Des Plaines, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Reconstruction Services in Des Plaines",
-      "meta_description": "24/7 reconstruction services in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "reconstruction services des plaines",
-      "secondary_keywords": [
-        "post-damage reconstruction",
-        "rebuild services",
-        "structural reconstruction",
-        "post-disaster rebuilding",
-        "fire damage reconstruction"
-      ],
-      "search_intent": "local_commercial",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/reconstruction/",
-        "/service-areas/des-plaines-il/",
-        "/service-areas/des-plaines-il/fire-damage-restoration/",
-        "/service-areas/des-plaines-il/mold-remediation/",
-        "/service-areas/berwyn-il/reconstruction/",
-        "/service-areas/cicero-il/reconstruction/",
         "/contact/"
       ]
     },
