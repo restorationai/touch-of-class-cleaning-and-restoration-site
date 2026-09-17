@@ -86,6 +86,18 @@ def check_workflows() -> list[str]:
     return issues
 
 
+def _self_heal_ai_scan() -> str:
+    """B3 (Santino 2026-09-17): a stale scan heartbeat doesn't just alert —
+    it DISPATCHES a fresh weekly-maintenance run (which runs the sharded,
+    stalest-first scanner). Auto-run instead of a label."""
+    tok = os.environ.get("GITHUB_PERSONAL_ACCESS_TOKEN") or os.environ.get("GH_PAT", "")
+    r = requests.post(
+        f"https://api.github.com/repos/{REPO}/actions/workflows/weekly-maintenance.yml/dispatches",
+        headers={"Authorization": f"token {tok}"},
+        json={"ref": "main"}, timeout=30)
+    return "dispatched" if r.status_code == 204 else f"dispatch failed {r.status_code}"
+
+
 def check_heartbeats() -> list[str]:
     issues = []
     for key, max_days in HEARTBEATS.items():
@@ -96,7 +108,10 @@ def check_heartbeats() -> list[str]:
             continue
         age = (NOW - datetime.fromisoformat(at)).days
         if age > max_days:
-            issues.append(f"{key}: last beat {age}d ago (max {max_days}) — engine dead")
+            note = ""
+            if key == "heartbeat:ai-scan":
+                note = f"; self-heal: {_self_heal_ai_scan()}"
+            issues.append(f"{key}: last beat {age}d ago (max {max_days}) — engine dead{note}")
     return issues
 
 

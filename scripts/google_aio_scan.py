@@ -37,12 +37,14 @@ SERP_URL = "https://api.dataforseo.com/v3/serp/google/organic/live/advanced"
 # Evergreen informational queries that reliably trigger a (national) AI Overview
 # AND commonly cite restoration companies — the real "get cited" opportunity.
 GENERIC_INFO = [
-    "how much does mold removal cost",
-    "does homeowners insurance cover water damage",
+    # B2 final (Santino 2026-09-17): NO pure-national queries — a local
+    # restoration company is never cited in a national answer, and those
+    # rows dragged visibility % into meaningless territory. Everything is
+    # localized: costs at CITY level, insurance/how-to at STATE level
+    # ({st} is filled per client).
+    "does homeowners insurance cover water damage in {st}",
     "is black mold dangerous to your health",
-    "what to do after water damage in your home",
-    "how to get rid of black mold",
-    "does water damage cause mold",
+    "what to do after water damage in your home in {st}",
     "signs of water damage in walls",
 ]
 
@@ -59,25 +61,29 @@ def build_queries(ident: dict) -> list[dict]:
     queries return the map pack, not an AIO — so these are tracked nationally."""
     svcs = [s.replace("-", " ") for s in ident.get("services", [])[:3]]
 
-    out: list[dict] = []
-    for svc in svcs:
-        out.append({"query": f"how much does {svc} cost", "location": "", "region": "United States"})
-    # B2 (Santino 2026-09-17): CITY-MODIFIED cost queries too. The national
-    # framing ("AIOs are national-only") was too absolute — Google does show
-    # AI Overviews on "{service} cost in {city}" phrasings, and those are
-    # exactly the queries our local cost-guide pages target, so tracking
-    # only national misrepresented what our content can win. Top 2 services
-    # x primary city, still tracked from a national vantage (the query
-    # itself carries the locality).
     areas = ident.get("areas") or []
     city = next((a for a in areas if a.get("primary")), areas[0] if areas else {})
     cstr = f"{city.get('city')}, {city.get('state')}" if city.get("city") else ""
+    st = city.get("state") or ""
+    STATE_NAMES = {"FL": "Florida", "CA": "California", "TX": "Texas", "NV": "Nevada",
+                   "IL": "Illinois", "WA": "Washington", "PA": "Pennsylvania",
+                   "NC": "North Carolina", "SC": "South Carolina", "HI": "Hawaii",
+                   "MN": "Minnesota", "MS": "Mississippi", "MI": "Michigan",
+                   "NJ": "New Jersey", "MA": "Massachusetts", "UT": "Utah",
+                   "SD": "South Dakota", "CO": "Colorado", "AZ": "Arizona",
+                   "GA": "Georgia", "TN": "Tennessee", "OH": "Ohio", "NY": "New York"}
+    st_name = STATE_NAMES.get(st.upper(), st)
+
+    out: list[dict] = []
+    # costs at CITY level (what our cost-guide pages target)
     if cstr:
-        for svc in svcs[:2]:
+        for svc in svcs:
             out.append({"query": f"{svc} cost in {cstr}",
                         "location": "", "region": "United States"})
+    # evergreen how-to/insurance at STATE level where the phrasing carries it
     for q in GENERIC_INFO:
-        out.append({"query": q, "location": "", "region": "United States"})
+        out.append({"query": q.format(st=st_name) if "{st}" in q else q,
+                    "location": "", "region": "United States"})
 
     seen, dedup = set(), []
     for q in out:

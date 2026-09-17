@@ -327,14 +327,32 @@ def main() -> int:
     auth = base64.b64encode(f"{u}:{p}".encode()).decode()
     all_slugs = sorted(json.loads((ROOT / "clients" / "company_map.json").read_text())) \
         if args.all else [args.slug]
-    start_i = 0
     if args.all and args.shard:
-        row = _sb_get_kv("ai-scan-cursor")
-        start_i = int((row or {}).get("i") or 0) % max(len(all_slugs), 1)
-        slugs = [all_slugs[(start_i + k) % len(all_slugs)]
-                 for k in range(min(args.shard, len(all_slugs)))]
-        print(f"shard: {len(slugs)} client(s) from cursor {start_i} "
-              f"({slugs[0]} ...)")
+        # B3 self-healing order (Santino 2026-09-17: "why not just auto run
+        # a new scan?"): every shard scans the STALEST clients first —
+        # never-scanned clients lead, then oldest history ascending. An
+        # overdue client is therefore always at the front of the very next
+        # run; staleness cures itself by construction, no cursor to lose,
+        # no manual trigger, no per-visit cost stampede from the app.
+        cmap = json.loads((ROOT / "clients" / "company_map.json").read_text())
+        last: dict[str, str] = {}
+        try:
+            import urllib.request as _u
+            k = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+            req = _u.Request(os.environ["SUPABASE_URL"].rstrip("/")
+                             + "/rest/v1/marketing_ai_search_history"
+                             "?select=company_id,scanned_at"
+                             "&order=scanned_at.desc&limit=2000",
+                             headers={"apikey": k, "Authorization": f"Bearer {k}"})
+            with _u.urlopen(req, timeout=30) as r:
+                for row in json.loads(r.read() or b"[]"):
+                    last.setdefault(row["company_id"], row["scanned_at"])
+        except Exception as e:
+            print(f"  (history fetch failed, alphabetical order: {e})", file=sys.stderr)
+        slugs = sorted(all_slugs,
+                       key=lambda sl: last.get(cmap.get(sl, ""), ""))[:args.shard]
+        print(f"shard: {len(slugs)} stalest client(s) "
+              f"({slugs[0]}: last {last.get(cmap.get(slugs[0], ''), 'never')[:10] or 'never'} ...)")
     else:
         slugs = all_slugs
     total, done = 0.0, 0
@@ -345,9 +363,6 @@ def main() -> int:
             break
         total += run_for(s, auth, args.limit, engines, args.dry_run)
         done += 1
-        if args.all and args.shard and not args.dry_run:
-            _sb_set_kv("ai-scan-cursor", {"i": (start_i + done) % len(all_slugs),
-                                          "at": datetime.now(timezone.utc).isoformat()})
     if args.all and args.shard and not args.dry_run:
         _sb_set_kv("heartbeat:ai-scan",
                    {"at": datetime.now(timezone.utc).isoformat(),
