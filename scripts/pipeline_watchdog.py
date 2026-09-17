@@ -118,6 +118,21 @@ def check_coverage() -> list[str]:
         if age >= 10 and cid not in has_bank:
             issues.append(f"service-bank coverage: {co['name']} active {age}d "
                           "with a GBP but ZERO bank variants — fan-out missed them")
+    # OPTIMIZER SLA (A4): auto-safe items are supposed to clear on the
+    # NIGHTLY sweep — any client where they sit >7 days means the sweep is
+    # skipping them (or dead), which is exactly how ~700 items piled up
+    # invisibly before 09-17.
+    stale = _sb("GET", "/rest/v1/marketing_gbp_suggestions?status=eq.open"
+                "&item_type=in.(service,description)"
+                f"&created_at=lt.{(NOW - timedelta(days=7)).isoformat()}"
+                "&select=company_id") or []
+    from collections import Counter
+    stale_by = Counter(r["company_id"] for r in stale)
+    for cid, n in stale_by.most_common(5):
+        nm = (comps.get(cid) or {}).get("name") or cid
+        issues.append(f"optimizer SLA: {nm} has {n} auto-safe item(s) open "
+                      ">7 days — the nightly apply is not clearing them")
+
     # CONTENT SLA (C1)
     for qf in glob.glob(str(ROOT / "clients/*/content-queue.json")):
         slug = Path(qf).parent.name
