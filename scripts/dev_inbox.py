@@ -88,7 +88,13 @@ def open_devs() -> list[dict]:
     # a client's just-queued task would go missing from the inbox while
     # sitting perfectly well in the table. "Queued but invisible" is the same
     # failure as "never queued" to everyone downstream.
+    # Server-side [DEV] prefix filter (2026-09-17): without it this page held
+    # the oldest 1000 open notes of ANY tag, and once the never-resolved
+    # non-[DEV] backlog crossed 1000 rows every new [DEV] note (sorted last
+    # under created_at.asc) fell off the end — the inbox read count=0 for two
+    # days while Rob's 09-15 site asks sat queued. %5B/%5D = URL-encoded [].
     notes = _sb("GET", "/rest/v1/marketing_ops_notes?status=eq.open"
+                "&body=like.%5BDEV%5D*"
                 "&select=id,company_id,body,created_at"
                 f"&order=created_at.asc&limit={INBOX_PAGE}") or []
     if len(notes) >= INBOX_PAGE:

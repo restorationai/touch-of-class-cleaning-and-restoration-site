@@ -1592,6 +1592,12 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
             # client response (silence past 2 days releases the hold so a
             # quiet client never blocks a launch). Access already promised/
             # granted skips the gate — never un-ask what's in motion.
+            # da MUST be fetched before the gate reads it (2026-09-17: the
+            # 09-09 gate landed above the old assignment — UnboundLocalError
+            # on the first gap_open client killed the whole ledger pass, and
+            # a later gap_open client would have read the PREVIOUS client's
+            # row). One fetch, up front, both bugs gone.
+            da = _domain_access_row(cid) or {}
             if gap_open and (da.get("domain_access_status") or "none") == "none":
                 try:
                     _pv = _sb("GET", "/rest/v1/marketing_action_plan"
@@ -1616,7 +1622,6 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                                 "reaction (releases after 2 days)")
                 except Exception:  # noqa: BLE001 — gate must never kill the pass
                     pass
-            da = _domain_access_row(cid) or {}
             da_status = da.get("domain_access_status") or "none"
             try:
                 patch: dict = {}

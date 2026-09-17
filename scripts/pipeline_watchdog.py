@@ -49,7 +49,7 @@ REPO = "restorationai/Rank-AI-Pipeline"
 WATCHED_WORKFLOWS = [
     "client-ops-sync.yml", "content-daily.yml", "video-automation.yml",
     "weekly-maintenance.yml", "call-intel.yml", "gbp-maintenance.yml",
-    "monthly-reports.yml",
+    "monthly-reports.yml", "dev-agent.yml", "site-render.yml",
 ]
 HEARTBEATS = {"heartbeat:parity": 8, "heartbeat:service-bank": 8}
 NOW = datetime.now(timezone.utc)
