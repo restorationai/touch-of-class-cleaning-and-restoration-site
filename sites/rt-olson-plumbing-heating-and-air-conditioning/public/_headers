@@ -8,3 +8,10 @@
   Content-Security-Policy: frame-ancestors 'self' https://app.restorationai.io http://localhost:5173
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: geolocation=(), microphone=(), camera=()
+
+# /embed/* is the embeddable lead form: third-party landing pages (e.g. the
+# client's paid-ads agency) iframe it from their own domains, so the
+# frame-ancestors lockdown above must not apply here.
+/embed/*
+  ! Content-Security-Policy
+  Content-Security-Policy: frame-ancestors *
