@@ -1,20 +1,20 @@
 # Site Plan Report — DRYCOR RESTORE
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-11T21:36:52.173711+00:00
+- Generated: 2026-09-17T20:46:25.754381+00:00
 - Domain: `drycor.com`
-- Services selected: 9 of 64 catalog entries
-- Service areas: 27
+- Services selected: 9 of 65 catalog entries
+- Service areas: 61
 - Cross-product enabled: True
-- Total URLs: **286**
-- Total internal links: 2267 (avg 7.9 per page)
+- Total URLs: **626**
+- Total internal links: 4955 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 234 |
-| `service-area` | 26 |
+| `service-area-service` | 540 |
+| `service-area` | 60 |
 | `service-landing` | 9 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -33,7 +33,7 @@
 - `contents-restoration-storage` — Contents Restoration & Storage (adjacent, priority 5)
 - `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
-- `water-cleanup` — Water Cleanup (core, priority 9)
+- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 - `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
 - `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
 
@@ -66,6 +66,40 @@
 - `palmetto-fl` — Palmetto, FL
 - `winter-haven-fl` — Winter Haven, FL
 - `auburndale-fl` — Auburndale, FL
+- `anna-maria-fl` — Anna Maria, FL
+- `bartow-fl` — Bartow, FL
+- `clearwater-beach-fl` — Clearwater Beach, FL
+- `dade-city-fl` — Dade City, FL
+- `davenport-fl` — Davenport, FL
+- `dundee-fl` — Dundee, FL
+- `ellenton-fl` — Ellenton, FL
+- `englewood-fl` — Englewood, FL
+- `gibsonton-fl` — Gibsonton, FL
+- `haines-city-fl` — Haines City, FL
+- `holiday-fl` — Holiday, FL
+- `holmes-beach-fl` — Holmes Beach, FL
+- `lake-wales-fl` — Lake Wales, FL
+- `lakewood-ranch-fl` — Lakewood Ranch, FL
+- `lithia-fl` — Lithia, FL
+- `longboat-key-fl` — Longboat Key, FL
+- `mulberry-fl` — Mulberry, FL
+- `nokomis-fl` — Nokomis, FL
+- `north-port-fl` — North Port, FL
+- `odessa-fl` — Odessa, FL
+- `oldsmar-fl` — Oldsmar, FL
+- `osprey-fl` — Osprey, FL
+- `parrish-fl` — Parrish, FL
+- `polk-city-fl` — Polk City, FL
+- `port-richey-fl` — Port Richey, FL
+- `safety-harbor-fl` — Safety Harbor, FL
+- `sarasota-fl` — Sarasota, FL
+- `seminole-fl` — Seminole, FL
+- `siesta-key-fl` — Siesta Key, FL
+- `st-pete-beach-fl` — St. Pete Beach, FL
+- `sun-city-center-fl` — Sun City Center, FL
+- `tarpon-springs-fl` — Tarpon Springs, FL
+- `trinity-fl` — Trinity, FL
+- `venice-fl` — Venice, FL
 
 ## Top 10 priority pages
 
@@ -76,11 +110,11 @@
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration thonotosassa |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization thonotosassa |
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration thonotosassa |
-| `/services/water-cleanup/` | `service-landing` | 8.1 | water cleanup thonotosassa |
+| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup thonotosassa |
 | `/services/general-contracting/` | `service-landing` | 7.2 | renovations, remodels and general contracting thonotosassa |
-| `/service-areas/apollo-beach-fl/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration apollo beach |
-| `/service-areas/apollo-beach-fl/mold-remediation/` | `service-area-service` | 7.0 | mold remediation apollo beach |
-| `/service-areas/apollo-beach-fl/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration apollo beach |
+| `/service-areas/anna-maria-fl/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration anna maria |
+| `/service-areas/anna-maria-fl/mold-remediation/` | `service-area-service` | 7.0 | mold remediation anna maria |
+| `/service-areas/anna-maria-fl/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration anna maria |
 
 ## Validation
 

@@ -185,7 +185,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Water Damage Restoration, Fire Damage Restoration, Mold Remediation, Contents Restoration & Storage, Renovations, Remodels and General Contracting, Storm Damage Restoration, Water Cleanup, Sewage Cleanup and Sanitization, Emergency Board-Up and Tarping)
+- [ ] (continue for each of Water Damage Restoration, Fire Damage Restoration, Mold Remediation, Contents Restoration & Storage, Renovations, Remodels and General Contracting, Storm Damage Restoration, Emergency Water Cleanup, Sewage Cleanup and Sanitization, Emergency Board-Up and Tarping)
 
 ### Service area pages (one image per city served)
 - [ ] Thonotosassa hero — exterior shot, regional housing stock, evocative of the city
