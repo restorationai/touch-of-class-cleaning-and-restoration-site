@@ -1,4 +1,4 @@
-# TDI Builders, Inc.: Image Style Guide
+# TDI USA, Inc.: Image Style Guide
 
 This guide is consulted by every image-generation call (Skill 3 launch images, Skill 4 blog hero images, future image regenerations). The goal: a viewer scrolling through the site should feel like one professional photographer documented one company on one continuous project. No stylistic drift from page to page.
 
@@ -71,7 +71,7 @@ Per-client brand colors take priority. The values below are substituted from `pl
 |------|--------|----------------------|
 | Primary brand color (uniforms, vehicle, signage glimpsed in shots) | `#0080C4` | **#0080C4** |
 | Accent (jobsite signage, CTAs that appear in promo shots) | `#0080C4` | **#0080C4** |
-| Logo color (if a crew member's shirt back is visible) | derived from brand logo | match TDI Builders, Inc.'s logo |
+| Logo color (if a crew member's shirt back is visible) | derived from brand logo | match TDI USA, Inc.'s logo |
 | Materials / texture | natural and neutral | warm lumber tones, cool concrete grays, real drywall whites, natural stone and tile textures |
 | Environment-specific atmospherics | regional | varies — see "Setting & Environment" below for Sacramento |
 
@@ -100,7 +100,7 @@ Every image that depicts a person must show a crew member in branded company wor
 ### Uniform specifications
 - **Top**: Work shirt or polo in the client's primary brand color (`#0080C4`). For darker brand colors (navy, deep red, charcoal), use that color directly. For lighter brand colors, render as a darker navy or charcoal work shirt with the brand color visible as logo embroidery, accent stripe, or branded hat.
 - **Bottom**: Neutral work pants (charcoal, dark navy, or khaki). Subordinate to the top.
-- **Branding**: TDI Builders, Inc. or TDI Builders, Inc. embroidered on chest or back.
+- **Branding**: TDI USA, Inc. or TDI USA, Inc. embroidered on chest or back.
 - **PPE**: Hard hat on active framing/roofing/demolition scenes, safety glasses when cutting, gloves for material handling, ear protection near loud tools. Finish-work scenes (painting, trim, cabinet install) can be hard-hat-free.
 - **Footwear**: Sturdy work boots, never sneakers.
 

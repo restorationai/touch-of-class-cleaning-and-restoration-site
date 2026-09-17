@@ -304,6 +304,24 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/manteca-ca/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/turlock-ca/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/roseville-ca/commercial-construction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1975,6 +1993,246 @@
     "missing_stubs": []
   },
   "/service-areas/loomis-ca/room-addition/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/manteca-ca/commercial-construction/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/manteca-ca/general-contracting/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/manteca-ca/new-construction/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/manteca-ca/fire-smoke-rebuilding/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/manteca-ca/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/manteca-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/manteca-ca/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/manteca-ca/home-remodeling/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/manteca-ca/kitchen-remodeling/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/manteca-ca/bathroom-remodeling/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/manteca-ca/garage-construction/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/manteca-ca/room-addition/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/turlock-ca/commercial-construction/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/turlock-ca/general-contracting/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/turlock-ca/new-construction/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/turlock-ca/fire-smoke-rebuilding/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/turlock-ca/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/turlock-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/turlock-ca/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/turlock-ca/home-remodeling/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/turlock-ca/kitchen-remodeling/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/turlock-ca/bathroom-remodeling/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/turlock-ca/garage-construction/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/turlock-ca/room-addition/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

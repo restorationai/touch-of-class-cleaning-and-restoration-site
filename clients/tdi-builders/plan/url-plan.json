@@ -1,10 +1,10 @@
 {
   "template": "construction",
   "template_version": "0.1.0",
-  "generated_at": "2026-08-24T07:43:17.586750+00:00",
+  "generated_at": "2026-09-17T22:59:01.107134+00:00",
   "input_summary": {
     "service_count": 12,
-    "service_area_count": 15,
+    "service_area_count": 17,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -13,9 +13,9 @@
       "url_path": "/",
       "archetype": "home",
       "vars_keys": [],
-      "title": "TDI Builders, Inc. | General Contractor in Sacramento, CA",
+      "title": "TDI USA, Inc. | General Contractor in Sacramento, CA",
       "h1": "Trusted General Contractor in Sacramento",
-      "meta_description": "TDI Builders, Inc. is a licensed general contractor serving Sacramento and surrounding areas \u2014 remodeling, new construction, roofing, and exterior work. Free estimates. Call (877) 688-0866.",
+      "meta_description": "TDI USA, Inc. is a licensed general contractor serving Sacramento and surrounding areas \u2014 remodeling, new construction, roofing, and exterior work. Free estimates. Call (877) 688-0866.",
       "primary_keyword": "general contractor sacramento",
       "secondary_keywords": [
         "general contractor near me",
@@ -65,10 +65,12 @@
         "/service-areas/granite-bay-ca/",
         "/service-areas/lincoln-ca/",
         "/service-areas/loomis-ca/",
+        "/service-areas/manteca-ca/",
         "/service-areas/modesto-ca/",
         "/service-areas/rancho-cordova-ca/",
         "/service-areas/rocklin-ca/",
         "/service-areas/roseville-ca/",
+        "/service-areas/turlock-ca/",
         "/service-areas/west-sacramento-ca/"
       ]
     },
@@ -76,7 +78,7 @@
       "url_path": "/services/",
       "archetype": "services-hub",
       "vars_keys": [],
-      "title": "Construction Services in Sacramento | TDI Builders, Inc.",
+      "title": "Construction Services in Sacramento | TDI USA, Inc.",
       "h1": "Our Construction Services",
       "meta_description": "Full-service general contracting in Sacramento: remodeling, new construction, roofing, siding, decks, and painting. Free estimates. Call (877) 688-0866.",
       "primary_keyword": "construction services sacramento",
@@ -120,10 +122,10 @@
       "url_path": "/service-areas/",
       "archetype": "service-areas-hub",
       "vars_keys": [],
-      "title": "Service Areas | TDI Builders, Inc. Construction",
+      "title": "Service Areas | TDI USA, Inc. Construction",
       "h1": "Areas We Serve",
-      "meta_description": "TDI Builders, Inc. builds and remodels across Sacramento and the surrounding region. Find your city.",
-      "primary_keyword": "tdi builders, inc. service areas",
+      "meta_description": "TDI USA, Inc. builds and remodels across Sacramento and the surrounding region. Find your city.",
+      "primary_keyword": "tdi usa, inc. service areas",
       "secondary_keywords": [
         "construction service area",
         "cities we serve",
@@ -154,10 +156,12 @@
         "/service-areas/granite-bay-ca/",
         "/service-areas/lincoln-ca/",
         "/service-areas/loomis-ca/",
+        "/service-areas/manteca-ca/",
         "/service-areas/modesto-ca/",
         "/service-areas/rancho-cordova-ca/",
         "/service-areas/rocklin-ca/",
         "/service-areas/roseville-ca/",
+        "/service-areas/turlock-ca/",
         "/service-areas/west-sacramento-ca/"
       ]
     },
@@ -165,9 +169,9 @@
       "url_path": "/blog/",
       "archetype": "blog-index",
       "vars_keys": [],
-      "title": "Construction Blog | TDI Builders, Inc.",
+      "title": "Construction Blog | TDI USA, Inc.",
       "h1": "Construction Resources and Insights",
-      "meta_description": "Guides, checklists, and explainers from TDI Builders, Inc. on remodeling, new construction, roofing, and home improvement projects.",
+      "meta_description": "Guides, checklists, and explainers from TDI USA, Inc. on remodeling, new construction, roofing, and home improvement projects.",
       "primary_keyword": "construction blog sacramento",
       "secondary_keywords": [
         "construction guides",
@@ -202,10 +206,10 @@
       "url_path": "/about/",
       "archetype": "about",
       "vars_keys": [],
-      "title": "About TDI Builders, Inc. | Sacramento Construction Company",
-      "h1": "About TDI Builders, Inc.",
-      "meta_description": "TDI Builders, Inc. has served Sacramento since 1985. Meet our licensed construction team. Licensed, insured, locally owned.",
-      "primary_keyword": "tdi builders, inc. sacramento",
+      "title": "About TDI USA, Inc. | Sacramento Construction Company",
+      "h1": "About TDI USA, Inc.",
+      "meta_description": "TDI USA, Inc. has served Sacramento since 1985. Meet our licensed construction team. Licensed, insured, locally owned.",
+      "primary_keyword": "tdi usa, inc. sacramento",
       "secondary_keywords": [
         "local construction company",
         "licensed general contractor",
@@ -237,10 +241,10 @@
       "url_path": "/contact/",
       "archetype": "contact",
       "vars_keys": [],
-      "title": "Contact TDI Builders, Inc. | Free Estimates in Sacramento",
-      "h1": "Contact TDI Builders, Inc.",
+      "title": "Contact TDI USA, Inc. | Free Estimates in Sacramento",
+      "h1": "Contact TDI USA, Inc.",
       "meta_description": "Call (877) 688-0866 for a free estimate on your construction or remodeling project in Sacramento and surrounding areas. Licensed and insured.",
-      "primary_keyword": "tdi builders, inc. contact",
+      "primary_keyword": "tdi usa, inc. contact",
       "secondary_keywords": [
         "construction company contact",
         "free construction estimate",
@@ -272,7 +276,7 @@
       "vars_keys": [
         "service"
       ],
-      "title": "Commercial Construction and Tenant Improvements in Sacramento | TDI Builders, Inc.",
+      "title": "Commercial Construction and Tenant Improvements in Sacramento | TDI USA, Inc.",
       "h1": "Commercial Construction and Tenant Improvements in Sacramento",
       "meta_description": "Trusted commercial construction and tenant improvements in Sacramento and surrounding areas. Licensed general contractor, free estimates, on-time and on-budget. Call (877) 688-0866.",
       "primary_keyword": "commercial construction and tenant improvements sacramento",
@@ -311,9 +315,9 @@
         "/service-areas/granite-bay-ca/commercial-construction/",
         "/service-areas/lincoln-ca/commercial-construction/",
         "/service-areas/loomis-ca/commercial-construction/",
+        "/service-areas/manteca-ca/commercial-construction/",
         "/service-areas/modesto-ca/commercial-construction/",
-        "/service-areas/rancho-cordova-ca/commercial-construction/",
-        "/service-areas/rocklin-ca/commercial-construction/"
+        "/service-areas/rancho-cordova-ca/commercial-construction/"
       ]
     },
     {
@@ -322,7 +326,7 @@
       "vars_keys": [
         "service"
       ],
-      "title": "Renovations, Remodels and General Contracting in Sacramento | TDI Builders, Inc.",
+      "title": "Renovations, Remodels and General Contracting in Sacramento | TDI USA, Inc.",
       "h1": "Renovations, Remodels and General Contracting in Sacramento",
       "meta_description": "Trusted renovations, remodels and general contracting in Sacramento and surrounding areas. Licensed general contractor, free estimates, on-time and on-budget. Call (877) 688-0866.",
       "primary_keyword": "renovations, remodels and general contracting sacramento",
@@ -361,9 +365,9 @@
         "/service-areas/granite-bay-ca/general-contracting/",
         "/service-areas/lincoln-ca/general-contracting/",
         "/service-areas/loomis-ca/general-contracting/",
+        "/service-areas/manteca-ca/general-contracting/",
         "/service-areas/modesto-ca/general-contracting/",
         "/service-areas/rancho-cordova-ca/general-contracting/",
-        "/service-areas/rocklin-ca/general-contracting/",
         "/blog/choosing-a-general-contractor/",
         "/blog/how-to-plan-a-home-remodel/",
         "/blog/do-you-need-a-permit/"
@@ -375,7 +379,7 @@
       "vars_keys": [
         "service"
       ],
-      "title": "New Home Construction in Sacramento | TDI Builders, Inc.",
+      "title": "New Home Construction in Sacramento | TDI USA, Inc.",
       "h1": "New Home Construction in Sacramento",
       "meta_description": "Trusted new home construction in Sacramento and surrounding areas. Licensed general contractor, free estimates, on-time and on-budget. Call (877) 688-0866.",
       "primary_keyword": "new home construction sacramento",
@@ -414,9 +418,9 @@
         "/service-areas/granite-bay-ca/new-construction/",
         "/service-areas/lincoln-ca/new-construction/",
         "/service-areas/loomis-ca/new-construction/",
+        "/service-areas/manteca-ca/new-construction/",
         "/service-areas/modesto-ca/new-construction/",
         "/service-areas/rancho-cordova-ca/new-construction/",
-        "/service-areas/rocklin-ca/new-construction/",
         "/blog/choosing-a-general-contractor/"
       ]
     },
@@ -426,7 +430,7 @@
       "vars_keys": [
         "service"
       ],
-      "title": "Fire and Smoke Damage Rebuilding in Sacramento | TDI Builders, Inc.",
+      "title": "Fire and Smoke Damage Rebuilding in Sacramento | TDI USA, Inc.",
       "h1": "Fire and Smoke Damage Rebuilding in Sacramento",
       "meta_description": "Trusted fire and smoke damage rebuilding in Sacramento and surrounding areas. Licensed general contractor, free estimates, on-time and on-budget. Call (877) 688-0866.",
       "primary_keyword": "fire and smoke damage rebuilding sacramento",
@@ -465,9 +469,9 @@
         "/service-areas/granite-bay-ca/fire-smoke-rebuilding/",
         "/service-areas/lincoln-ca/fire-smoke-rebuilding/",
         "/service-areas/loomis-ca/fire-smoke-rebuilding/",
+        "/service-areas/manteca-ca/fire-smoke-rebuilding/",
         "/service-areas/modesto-ca/fire-smoke-rebuilding/",
-        "/service-areas/rancho-cordova-ca/fire-smoke-rebuilding/",
-        "/service-areas/rocklin-ca/fire-smoke-rebuilding/"
+        "/service-areas/rancho-cordova-ca/fire-smoke-rebuilding/"
       ]
     },
     {
@@ -476,7 +480,7 @@
       "vars_keys": [
         "service"
       ],
-      "title": "Water Damage Restoration in Sacramento | TDI Builders, Inc.",
+      "title": "Water Damage Restoration in Sacramento | TDI USA, Inc.",
       "h1": "Water Damage Restoration in Sacramento",
       "meta_description": "Trusted water damage restoration in Sacramento and surrounding areas. Licensed general contractor, free estimates, on-time and on-budget. Call (877) 688-0866.",
       "primary_keyword": "water damage restoration sacramento",
@@ -515,9 +519,9 @@
         "/service-areas/granite-bay-ca/water-damage-restoration/",
         "/service-areas/lincoln-ca/water-damage-restoration/",
         "/service-areas/loomis-ca/water-damage-restoration/",
+        "/service-areas/manteca-ca/water-damage-restoration/",
         "/service-areas/modesto-ca/water-damage-restoration/",
-        "/service-areas/rancho-cordova-ca/water-damage-restoration/",
-        "/service-areas/rocklin-ca/water-damage-restoration/"
+        "/service-areas/rancho-cordova-ca/water-damage-restoration/"
       ]
     },
     {
@@ -526,7 +530,7 @@
       "vars_keys": [
         "service"
       ],
-      "title": "Storm Damage Restoration in Sacramento | TDI Builders, Inc.",
+      "title": "Storm Damage Restoration in Sacramento | TDI USA, Inc.",
       "h1": "Storm Damage Restoration in Sacramento",
       "meta_description": "Trusted storm damage restoration in Sacramento and surrounding areas. Licensed general contractor, free estimates, on-time and on-budget. Call (877) 688-0866.",
       "primary_keyword": "storm damage restoration sacramento",
@@ -565,9 +569,9 @@
         "/service-areas/granite-bay-ca/storm-damage-restoration/",
         "/service-areas/lincoln-ca/storm-damage-restoration/",
         "/service-areas/loomis-ca/storm-damage-restoration/",
+        "/service-areas/manteca-ca/storm-damage-restoration/",
         "/service-areas/modesto-ca/storm-damage-restoration/",
         "/service-areas/rancho-cordova-ca/storm-damage-restoration/",
-        "/service-areas/rocklin-ca/storm-damage-restoration/",
         "/blog/storm-damage-insurance-claim-checklist/",
         "/blog/storm-damage-repair-process/"
       ]
@@ -578,7 +582,7 @@
       "vars_keys": [
         "service"
       ],
-      "title": "Mold Remediation in Sacramento | TDI Builders, Inc.",
+      "title": "Mold Remediation in Sacramento | TDI USA, Inc.",
       "h1": "Mold Remediation in Sacramento",
       "meta_description": "Trusted mold remediation in Sacramento and surrounding areas. Licensed general contractor, free estimates, on-time and on-budget. Call (877) 688-0866.",
       "primary_keyword": "mold remediation sacramento",
@@ -617,9 +621,9 @@
         "/service-areas/granite-bay-ca/mold-remediation/",
         "/service-areas/lincoln-ca/mold-remediation/",
         "/service-areas/loomis-ca/mold-remediation/",
+        "/service-areas/manteca-ca/mold-remediation/",
         "/service-areas/modesto-ca/mold-remediation/",
         "/service-areas/rancho-cordova-ca/mold-remediation/",
-        "/service-areas/rocklin-ca/mold-remediation/",
         "/blog/mold-found-during-renovation/"
       ]
     },
@@ -629,7 +633,7 @@
       "vars_keys": [
         "service"
       ],
-      "title": "Home Remodeling in Sacramento | TDI Builders, Inc.",
+      "title": "Home Remodeling in Sacramento | TDI USA, Inc.",
       "h1": "Home Remodeling in Sacramento",
       "meta_description": "Trusted home remodeling in Sacramento and surrounding areas. Licensed general contractor, free estimates, on-time and on-budget. Call (877) 688-0866.",
       "primary_keyword": "home remodeling sacramento",
@@ -668,9 +672,9 @@
         "/service-areas/granite-bay-ca/home-remodeling/",
         "/service-areas/lincoln-ca/home-remodeling/",
         "/service-areas/loomis-ca/home-remodeling/",
+        "/service-areas/manteca-ca/home-remodeling/",
         "/service-areas/modesto-ca/home-remodeling/",
         "/service-areas/rancho-cordova-ca/home-remodeling/",
-        "/service-areas/rocklin-ca/home-remodeling/",
         "/blog/choosing-a-general-contractor/",
         "/blog/how-to-plan-a-home-remodel/",
         "/blog/do-you-need-a-permit/"
@@ -682,7 +686,7 @@
       "vars_keys": [
         "service"
       ],
-      "title": "Kitchen Remodeling in Sacramento | TDI Builders, Inc.",
+      "title": "Kitchen Remodeling in Sacramento | TDI USA, Inc.",
       "h1": "Kitchen Remodeling in Sacramento",
       "meta_description": "Trusted kitchen remodeling in Sacramento and surrounding areas. Licensed general contractor, free estimates, on-time and on-budget. Call (877) 688-0866.",
       "primary_keyword": "kitchen remodeling sacramento",
@@ -721,9 +725,9 @@
         "/service-areas/granite-bay-ca/kitchen-remodeling/",
         "/service-areas/lincoln-ca/kitchen-remodeling/",
         "/service-areas/loomis-ca/kitchen-remodeling/",
+        "/service-areas/manteca-ca/kitchen-remodeling/",
         "/service-areas/modesto-ca/kitchen-remodeling/",
         "/service-areas/rancho-cordova-ca/kitchen-remodeling/",
-        "/service-areas/rocklin-ca/kitchen-remodeling/",
         "/blog/kitchen-remodel-cost-breakdown/"
       ]
     },
@@ -733,7 +737,7 @@
       "vars_keys": [
         "service"
       ],
-      "title": "Bathroom Remodeling in Sacramento | TDI Builders, Inc.",
+      "title": "Bathroom Remodeling in Sacramento | TDI USA, Inc.",
       "h1": "Bathroom Remodeling in Sacramento",
       "meta_description": "Trusted bathroom remodeling in Sacramento and surrounding areas. Licensed general contractor, free estimates, on-time and on-budget. Call (877) 688-0866.",
       "primary_keyword": "bathroom remodeling sacramento",
@@ -772,9 +776,9 @@
         "/service-areas/granite-bay-ca/bathroom-remodeling/",
         "/service-areas/lincoln-ca/bathroom-remodeling/",
         "/service-areas/loomis-ca/bathroom-remodeling/",
+        "/service-areas/manteca-ca/bathroom-remodeling/",
         "/service-areas/modesto-ca/bathroom-remodeling/",
-        "/service-areas/rancho-cordova-ca/bathroom-remodeling/",
-        "/service-areas/rocklin-ca/bathroom-remodeling/"
+        "/service-areas/rancho-cordova-ca/bathroom-remodeling/"
       ]
     },
     {
@@ -783,7 +787,7 @@
       "vars_keys": [
         "service"
       ],
-      "title": "Garage Construction in Sacramento | TDI Builders, Inc.",
+      "title": "Garage Construction in Sacramento | TDI USA, Inc.",
       "h1": "Garage Construction in Sacramento",
       "meta_description": "Trusted garage construction in Sacramento and surrounding areas. Licensed general contractor, free estimates, on-time and on-budget. Call (877) 688-0866.",
       "primary_keyword": "garage construction sacramento",
@@ -822,9 +826,9 @@
         "/service-areas/granite-bay-ca/garage-construction/",
         "/service-areas/lincoln-ca/garage-construction/",
         "/service-areas/loomis-ca/garage-construction/",
+        "/service-areas/manteca-ca/garage-construction/",
         "/service-areas/modesto-ca/garage-construction/",
-        "/service-areas/rancho-cordova-ca/garage-construction/",
-        "/service-areas/rocklin-ca/garage-construction/"
+        "/service-areas/rancho-cordova-ca/garage-construction/"
       ]
     },
     {
@@ -833,7 +837,7 @@
       "vars_keys": [
         "service"
       ],
-      "title": "Room Additions and Home Additions in Sacramento | TDI Builders, Inc.",
+      "title": "Room Additions and Home Additions in Sacramento | TDI USA, Inc.",
       "h1": "Room Additions and Home Additions in Sacramento",
       "meta_description": "Trusted room additions and home additions in Sacramento and surrounding areas. Licensed general contractor, free estimates, on-time and on-budget. Call (877) 688-0866.",
       "primary_keyword": "room additions and home additions sacramento",
@@ -872,9 +876,9 @@
         "/service-areas/granite-bay-ca/room-addition/",
         "/service-areas/lincoln-ca/room-addition/",
         "/service-areas/loomis-ca/room-addition/",
+        "/service-areas/manteca-ca/room-addition/",
         "/service-areas/modesto-ca/room-addition/",
         "/service-areas/rancho-cordova-ca/room-addition/",
-        "/service-areas/rocklin-ca/room-addition/",
         "/blog/do-you-need-a-permit/"
       ]
     },
@@ -884,7 +888,7 @@
       "vars_keys": [
         "area"
       ],
-      "title": "Construction Services in Roseville, CA | TDI Builders, Inc.",
+      "title": "Construction Services in Roseville, CA | TDI USA, Inc.",
       "h1": "Construction Services in Roseville",
       "meta_description": "Serving Roseville, CA with home remodeling, new construction, roofing, and exterior work. Licensed and insured. Call (877) 688-0866 for a free estimate.",
       "primary_keyword": "construction services roseville",
@@ -933,7 +937,7 @@
       "vars_keys": [
         "area"
       ],
-      "title": "Construction Services in Elk Grove, CA | TDI Builders, Inc.",
+      "title": "Construction Services in Elk Grove, CA | TDI USA, Inc.",
       "h1": "Construction Services in Elk Grove",
       "meta_description": "Serving Elk Grove, CA with home remodeling, new construction, roofing, and exterior work. Licensed and insured. Call (877) 688-0866 for a free estimate.",
       "primary_keyword": "construction services elk grove",
@@ -982,7 +986,7 @@
       "vars_keys": [
         "area"
       ],
-      "title": "Construction Services in Folsom, CA | TDI Builders, Inc.",
+      "title": "Construction Services in Folsom, CA | TDI USA, Inc.",
       "h1": "Construction Services in Folsom",
       "meta_description": "Serving Folsom, CA with home remodeling, new construction, roofing, and exterior work. Licensed and insured. Call (877) 688-0866 for a free estimate.",
       "primary_keyword": "construction services folsom",
@@ -1031,7 +1035,7 @@
       "vars_keys": [
         "area"
       ],
-      "title": "Construction Services in Modesto, CA | TDI Builders, Inc.",
+      "title": "Construction Services in Modesto, CA | TDI USA, Inc.",
       "h1": "Construction Services in Modesto",
       "meta_description": "Serving Modesto, CA with home remodeling, new construction, roofing, and exterior work. Licensed and insured. Call (877) 688-0866 for a free estimate.",
       "primary_keyword": "construction services modesto",
@@ -1080,7 +1084,7 @@
       "vars_keys": [
         "area"
       ],
-      "title": "Construction Services in Rocklin, CA | TDI Builders, Inc.",
+      "title": "Construction Services in Rocklin, CA | TDI USA, Inc.",
       "h1": "Construction Services in Rocklin",
       "meta_description": "Serving Rocklin, CA with home remodeling, new construction, roofing, and exterior work. Licensed and insured. Call (877) 688-0866 for a free estimate.",
       "primary_keyword": "construction services rocklin",
@@ -1129,7 +1133,7 @@
       "vars_keys": [
         "area"
       ],
-      "title": "Construction Services in Citrus Heights, CA | TDI Builders, Inc.",
+      "title": "Construction Services in Citrus Heights, CA | TDI USA, Inc.",
       "h1": "Construction Services in Citrus Heights",
       "meta_description": "Serving Citrus Heights, CA with home remodeling, new construction, roofing, and exterior work. Licensed and insured. Call (877) 688-0866 for a free estimate.",
       "primary_keyword": "construction services citrus heights",
@@ -1178,7 +1182,7 @@
       "vars_keys": [
         "area"
       ],
-      "title": "Construction Services in Rancho Cordova, CA | TDI Builders, Inc.",
+      "title": "Construction Services in Rancho Cordova, CA | TDI USA, Inc.",
       "h1": "Construction Services in Rancho Cordova",
       "meta_description": "Serving Rancho Cordova, CA with home remodeling, new construction, roofing, and exterior work. Licensed and insured. Call (877) 688-0866 for a free estimate.",
       "primary_keyword": "construction services rancho cordova",
@@ -1227,7 +1231,7 @@
       "vars_keys": [
         "area"
       ],
-      "title": "Construction Services in Fair Oaks, CA | TDI Builders, Inc.",
+      "title": "Construction Services in Fair Oaks, CA | TDI USA, Inc.",
       "h1": "Construction Services in Fair Oaks",
       "meta_description": "Serving Fair Oaks, CA with home remodeling, new construction, roofing, and exterior work. Licensed and insured. Call (877) 688-0866 for a free estimate.",
       "primary_keyword": "construction services fair oaks",
@@ -1276,7 +1280,7 @@
       "vars_keys": [
         "area"
       ],
-      "title": "Construction Services in Carmichael, CA | TDI Builders, Inc.",
+      "title": "Construction Services in Carmichael, CA | TDI USA, Inc.",
       "h1": "Construction Services in Carmichael",
       "meta_description": "Serving Carmichael, CA with home remodeling, new construction, roofing, and exterior work. Licensed and insured. Call (877) 688-0866 for a free estimate.",
       "primary_keyword": "construction services carmichael",
@@ -1325,7 +1329,7 @@
       "vars_keys": [
         "area"
       ],
-      "title": "Construction Services in West Sacramento, CA | TDI Builders, Inc.",
+      "title": "Construction Services in West Sacramento, CA | TDI USA, Inc.",
       "h1": "Construction Services in West Sacramento",
       "meta_description": "Serving West Sacramento, CA with home remodeling, new construction, roofing, and exterior work. Licensed and insured. Call (877) 688-0866 for a free estimate.",
       "primary_keyword": "construction services west sacramento",
@@ -1374,7 +1378,7 @@
       "vars_keys": [
         "area"
       ],
-      "title": "Construction Services in Lincoln, CA | TDI Builders, Inc.",
+      "title": "Construction Services in Lincoln, CA | TDI USA, Inc.",
       "h1": "Construction Services in Lincoln",
       "meta_description": "Serving Lincoln, CA with home remodeling, new construction, roofing, and exterior work. Licensed and insured. Call (877) 688-0866 for a free estimate.",
       "primary_keyword": "construction services lincoln",
@@ -1423,7 +1427,7 @@
       "vars_keys": [
         "area"
       ],
-      "title": "Construction Services in Granite Bay, CA | TDI Builders, Inc.",
+      "title": "Construction Services in Granite Bay, CA | TDI USA, Inc.",
       "h1": "Construction Services in Granite Bay",
       "meta_description": "Serving Granite Bay, CA with home remodeling, new construction, roofing, and exterior work. Licensed and insured. Call (877) 688-0866 for a free estimate.",
       "primary_keyword": "construction services granite bay",
@@ -1472,7 +1476,7 @@
       "vars_keys": [
         "area"
       ],
-      "title": "Construction Services in El Dorado Hills, CA | TDI Builders, Inc.",
+      "title": "Construction Services in El Dorado Hills, CA | TDI USA, Inc.",
       "h1": "Construction Services in El Dorado Hills",
       "meta_description": "Serving El Dorado Hills, CA with home remodeling, new construction, roofing, and exterior work. Licensed and insured. Call (877) 688-0866 for a free estimate.",
       "primary_keyword": "construction services el dorado hills",
@@ -1521,7 +1525,7 @@
       "vars_keys": [
         "area"
       ],
-      "title": "Construction Services in Loomis, CA | TDI Builders, Inc.",
+      "title": "Construction Services in Loomis, CA | TDI USA, Inc.",
       "h1": "Construction Services in Loomis",
       "meta_description": "Serving Loomis, CA with home remodeling, new construction, roofing, and exterior work. Licensed and insured. Call (877) 688-0866 for a free estimate.",
       "primary_keyword": "construction services loomis",
@@ -1565,13 +1569,111 @@
       ]
     },
     {
+      "url_path": "/service-areas/manteca-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Construction Services in Manteca, CA | TDI USA, Inc.",
+      "h1": "Construction Services in Manteca",
+      "meta_description": "Serving Manteca, CA with home remodeling, new construction, roofing, and exterior work. Licensed and insured. Call (877) 688-0866 for a free estimate.",
+      "primary_keyword": "construction services manteca",
+      "secondary_keywords": [
+        "manteca construction company",
+        "general contractor manteca",
+        "manteca remodeling contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/manteca-ca/home-remodeling/",
+        "/service-areas/manteca-ca/bathroom-remodeling/",
+        "/service-areas/manteca-ca/kitchen-remodeling/",
+        "/service-areas/manteca-ca/new-construction/",
+        "/service-areas/manteca-ca/general-contracting/",
+        "/service-areas/manteca-ca/room-addition/",
+        "/service-areas/manteca-ca/commercial-construction/",
+        "/service-areas/manteca-ca/fire-smoke-rebuilding/",
+        "/service-areas/manteca-ca/mold-remediation/",
+        "/service-areas/manteca-ca/storm-damage-restoration/",
+        "/service-areas/manteca-ca/water-damage-restoration/",
+        "/service-areas/manteca-ca/garage-construction/",
+        "/service-areas/carmichael-ca/",
+        "/service-areas/citrus-heights-ca/",
+        "/service-areas/el-dorado-hills-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/turlock-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Construction Services in Turlock, CA | TDI USA, Inc.",
+      "h1": "Construction Services in Turlock",
+      "meta_description": "Serving Turlock, CA with home remodeling, new construction, roofing, and exterior work. Licensed and insured. Call (877) 688-0866 for a free estimate.",
+      "primary_keyword": "construction services turlock",
+      "secondary_keywords": [
+        "turlock construction company",
+        "general contractor turlock",
+        "turlock remodeling contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/turlock-ca/home-remodeling/",
+        "/service-areas/turlock-ca/bathroom-remodeling/",
+        "/service-areas/turlock-ca/kitchen-remodeling/",
+        "/service-areas/turlock-ca/new-construction/",
+        "/service-areas/turlock-ca/general-contracting/",
+        "/service-areas/turlock-ca/room-addition/",
+        "/service-areas/turlock-ca/commercial-construction/",
+        "/service-areas/turlock-ca/fire-smoke-rebuilding/",
+        "/service-areas/turlock-ca/mold-remediation/",
+        "/service-areas/turlock-ca/storm-damage-restoration/",
+        "/service-areas/turlock-ca/water-damage-restoration/",
+        "/service-areas/turlock-ca/garage-construction/",
+        "/service-areas/carmichael-ca/",
+        "/service-areas/citrus-heights-ca/",
+        "/service-areas/el-dorado-hills-ca/"
+      ]
+    },
+    {
       "url_path": "/service-areas/roseville-ca/commercial-construction/",
       "archetype": "service-area-service",
       "vars_keys": [
         "area",
         "service"
       ],
-      "title": "Commercial Construction and Tenant Improvements in Roseville, CA | TDI Builders, Inc.",
+      "title": "Commercial Construction and Tenant Improvements in Roseville, CA | TDI USA, Inc.",
       "h1": "Commercial Construction and Tenant Improvements in Roseville",
       "meta_description": "Trusted commercial construction and tenant improvements in Roseville, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "commercial construction and tenant improvements roseville",
@@ -1615,7 +1717,7 @@
         "area",
         "service"
       ],
-      "title": "Renovations, Remodels and General Contracting in Roseville, CA | TDI Builders, Inc.",
+      "title": "Renovations, Remodels and General Contracting in Roseville, CA | TDI USA, Inc.",
       "h1": "Renovations, Remodels and General Contracting in Roseville",
       "meta_description": "Trusted renovations, remodels and general contracting in Roseville, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "renovations, remodels and general contracting roseville",
@@ -1659,7 +1761,7 @@
         "area",
         "service"
       ],
-      "title": "New Home Construction in Roseville, CA | TDI Builders, Inc.",
+      "title": "New Home Construction in Roseville, CA | TDI USA, Inc.",
       "h1": "New Home Construction in Roseville",
       "meta_description": "Trusted new home construction in Roseville, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "new home construction roseville",
@@ -1703,7 +1805,7 @@
         "area",
         "service"
       ],
-      "title": "Fire and Smoke Damage Rebuilding in Roseville, CA | TDI Builders, Inc.",
+      "title": "Fire and Smoke Damage Rebuilding in Roseville, CA | TDI USA, Inc.",
       "h1": "Fire and Smoke Damage Rebuilding in Roseville",
       "meta_description": "Trusted fire and smoke damage rebuilding in Roseville, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "fire and smoke damage rebuilding roseville",
@@ -1747,7 +1849,7 @@
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Roseville, CA | TDI Builders, Inc.",
+      "title": "Water Damage Restoration in Roseville, CA | TDI USA, Inc.",
       "h1": "Water Damage Restoration in Roseville",
       "meta_description": "Trusted water damage restoration in Roseville, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "water damage restoration roseville",
@@ -1791,7 +1893,7 @@
         "area",
         "service"
       ],
-      "title": "Storm Damage Restoration in Roseville, CA | TDI Builders, Inc.",
+      "title": "Storm Damage Restoration in Roseville, CA | TDI USA, Inc.",
       "h1": "Storm Damage Restoration in Roseville",
       "meta_description": "Trusted storm damage restoration in Roseville, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "storm damage restoration roseville",
@@ -1835,7 +1937,7 @@
         "area",
         "service"
       ],
-      "title": "Mold Remediation in Roseville, CA | TDI Builders, Inc.",
+      "title": "Mold Remediation in Roseville, CA | TDI USA, Inc.",
       "h1": "Mold Remediation in Roseville",
       "meta_description": "Trusted mold remediation in Roseville, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "mold remediation roseville",
@@ -1879,7 +1981,7 @@
         "area",
         "service"
       ],
-      "title": "Home Remodeling in Roseville, CA | TDI Builders, Inc.",
+      "title": "Home Remodeling in Roseville, CA | TDI USA, Inc.",
       "h1": "Home Remodeling in Roseville",
       "meta_description": "Trusted home remodeling in Roseville, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "home remodeling roseville",
@@ -1923,7 +2025,7 @@
         "area",
         "service"
       ],
-      "title": "Kitchen Remodeling in Roseville, CA | TDI Builders, Inc.",
+      "title": "Kitchen Remodeling in Roseville, CA | TDI USA, Inc.",
       "h1": "Kitchen Remodeling in Roseville",
       "meta_description": "Trusted kitchen remodeling in Roseville, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "kitchen remodeling roseville",
@@ -1967,7 +2069,7 @@
         "area",
         "service"
       ],
-      "title": "Bathroom Remodeling in Roseville, CA | TDI Builders, Inc.",
+      "title": "Bathroom Remodeling in Roseville, CA | TDI USA, Inc.",
       "h1": "Bathroom Remodeling in Roseville",
       "meta_description": "Trusted bathroom remodeling in Roseville, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "bathroom remodeling roseville",
@@ -2011,7 +2113,7 @@
         "area",
         "service"
       ],
-      "title": "Garage Construction in Roseville, CA | TDI Builders, Inc.",
+      "title": "Garage Construction in Roseville, CA | TDI USA, Inc.",
       "h1": "Garage Construction in Roseville",
       "meta_description": "Trusted garage construction in Roseville, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "garage construction roseville",
@@ -2055,7 +2157,7 @@
         "area",
         "service"
       ],
-      "title": "Room Additions and Home Additions in Roseville, CA | TDI Builders, Inc.",
+      "title": "Room Additions and Home Additions in Roseville, CA | TDI USA, Inc.",
       "h1": "Room Additions and Home Additions in Roseville",
       "meta_description": "Trusted room additions and home additions in Roseville, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "room additions and home additions roseville",
@@ -2099,7 +2201,7 @@
         "area",
         "service"
       ],
-      "title": "Commercial Construction and Tenant Improvements in Elk Grove, CA | TDI Builders, Inc.",
+      "title": "Commercial Construction and Tenant Improvements in Elk Grove, CA | TDI USA, Inc.",
       "h1": "Commercial Construction and Tenant Improvements in Elk Grove",
       "meta_description": "Trusted commercial construction and tenant improvements in Elk Grove, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "commercial construction and tenant improvements elk grove",
@@ -2143,7 +2245,7 @@
         "area",
         "service"
       ],
-      "title": "Renovations, Remodels and General Contracting in Elk Grove, CA | TDI Builders, Inc.",
+      "title": "Renovations, Remodels and General Contracting in Elk Grove, CA | TDI USA, Inc.",
       "h1": "Renovations, Remodels and General Contracting in Elk Grove",
       "meta_description": "Trusted renovations, remodels and general contracting in Elk Grove, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "renovations, remodels and general contracting elk grove",
@@ -2187,7 +2289,7 @@
         "area",
         "service"
       ],
-      "title": "New Home Construction in Elk Grove, CA | TDI Builders, Inc.",
+      "title": "New Home Construction in Elk Grove, CA | TDI USA, Inc.",
       "h1": "New Home Construction in Elk Grove",
       "meta_description": "Trusted new home construction in Elk Grove, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "new home construction elk grove",
@@ -2231,7 +2333,7 @@
         "area",
         "service"
       ],
-      "title": "Fire and Smoke Damage Rebuilding in Elk Grove, CA | TDI Builders, Inc.",
+      "title": "Fire and Smoke Damage Rebuilding in Elk Grove, CA | TDI USA, Inc.",
       "h1": "Fire and Smoke Damage Rebuilding in Elk Grove",
       "meta_description": "Trusted fire and smoke damage rebuilding in Elk Grove, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "fire and smoke damage rebuilding elk grove",
@@ -2275,7 +2377,7 @@
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Elk Grove, CA | TDI Builders, Inc.",
+      "title": "Water Damage Restoration in Elk Grove, CA | TDI USA, Inc.",
       "h1": "Water Damage Restoration in Elk Grove",
       "meta_description": "Trusted water damage restoration in Elk Grove, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "water damage restoration elk grove",
@@ -2319,7 +2421,7 @@
         "area",
         "service"
       ],
-      "title": "Storm Damage Restoration in Elk Grove, CA | TDI Builders, Inc.",
+      "title": "Storm Damage Restoration in Elk Grove, CA | TDI USA, Inc.",
       "h1": "Storm Damage Restoration in Elk Grove",
       "meta_description": "Trusted storm damage restoration in Elk Grove, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "storm damage restoration elk grove",
@@ -2363,7 +2465,7 @@
         "area",
         "service"
       ],
-      "title": "Mold Remediation in Elk Grove, CA | TDI Builders, Inc.",
+      "title": "Mold Remediation in Elk Grove, CA | TDI USA, Inc.",
       "h1": "Mold Remediation in Elk Grove",
       "meta_description": "Trusted mold remediation in Elk Grove, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "mold remediation elk grove",
@@ -2407,7 +2509,7 @@
         "area",
         "service"
       ],
-      "title": "Home Remodeling in Elk Grove, CA | TDI Builders, Inc.",
+      "title": "Home Remodeling in Elk Grove, CA | TDI USA, Inc.",
       "h1": "Home Remodeling in Elk Grove",
       "meta_description": "Trusted home remodeling in Elk Grove, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "home remodeling elk grove",
@@ -2451,7 +2553,7 @@
         "area",
         "service"
       ],
-      "title": "Kitchen Remodeling in Elk Grove, CA | TDI Builders, Inc.",
+      "title": "Kitchen Remodeling in Elk Grove, CA | TDI USA, Inc.",
       "h1": "Kitchen Remodeling in Elk Grove",
       "meta_description": "Trusted kitchen remodeling in Elk Grove, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "kitchen remodeling elk grove",
@@ -2495,7 +2597,7 @@
         "area",
         "service"
       ],
-      "title": "Bathroom Remodeling in Elk Grove, CA | TDI Builders, Inc.",
+      "title": "Bathroom Remodeling in Elk Grove, CA | TDI USA, Inc.",
       "h1": "Bathroom Remodeling in Elk Grove",
       "meta_description": "Trusted bathroom remodeling in Elk Grove, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "bathroom remodeling elk grove",
@@ -2539,7 +2641,7 @@
         "area",
         "service"
       ],
-      "title": "Garage Construction in Elk Grove, CA | TDI Builders, Inc.",
+      "title": "Garage Construction in Elk Grove, CA | TDI USA, Inc.",
       "h1": "Garage Construction in Elk Grove",
       "meta_description": "Trusted garage construction in Elk Grove, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "garage construction elk grove",
@@ -2583,7 +2685,7 @@
         "area",
         "service"
       ],
-      "title": "Room Additions and Home Additions in Elk Grove, CA | TDI Builders, Inc.",
+      "title": "Room Additions and Home Additions in Elk Grove, CA | TDI USA, Inc.",
       "h1": "Room Additions and Home Additions in Elk Grove",
       "meta_description": "Trusted room additions and home additions in Elk Grove, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "room additions and home additions elk grove",
@@ -2627,7 +2729,7 @@
         "area",
         "service"
       ],
-      "title": "Commercial Construction and Tenant Improvements in Folsom, CA | TDI Builders, Inc.",
+      "title": "Commercial Construction and Tenant Improvements in Folsom, CA | TDI USA, Inc.",
       "h1": "Commercial Construction and Tenant Improvements in Folsom",
       "meta_description": "Trusted commercial construction and tenant improvements in Folsom, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "commercial construction and tenant improvements folsom",
@@ -2671,7 +2773,7 @@
         "area",
         "service"
       ],
-      "title": "Renovations, Remodels and General Contracting in Folsom, CA | TDI Builders, Inc.",
+      "title": "Renovations, Remodels and General Contracting in Folsom, CA | TDI USA, Inc.",
       "h1": "Renovations, Remodels and General Contracting in Folsom",
       "meta_description": "Trusted renovations, remodels and general contracting in Folsom, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "renovations, remodels and general contracting folsom",
@@ -2715,7 +2817,7 @@
         "area",
         "service"
       ],
-      "title": "New Home Construction in Folsom, CA | TDI Builders, Inc.",
+      "title": "New Home Construction in Folsom, CA | TDI USA, Inc.",
       "h1": "New Home Construction in Folsom",
       "meta_description": "Trusted new home construction in Folsom, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "new home construction folsom",
@@ -2759,7 +2861,7 @@
         "area",
         "service"
       ],
-      "title": "Fire and Smoke Damage Rebuilding in Folsom, CA | TDI Builders, Inc.",
+      "title": "Fire and Smoke Damage Rebuilding in Folsom, CA | TDI USA, Inc.",
       "h1": "Fire and Smoke Damage Rebuilding in Folsom",
       "meta_description": "Trusted fire and smoke damage rebuilding in Folsom, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "fire and smoke damage rebuilding folsom",
@@ -2803,7 +2905,7 @@
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Folsom, CA | TDI Builders, Inc.",
+      "title": "Water Damage Restoration in Folsom, CA | TDI USA, Inc.",
       "h1": "Water Damage Restoration in Folsom",
       "meta_description": "Trusted water damage restoration in Folsom, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "water damage restoration folsom",
@@ -2847,7 +2949,7 @@
         "area",
         "service"
       ],
-      "title": "Storm Damage Restoration in Folsom, CA | TDI Builders, Inc.",
+      "title": "Storm Damage Restoration in Folsom, CA | TDI USA, Inc.",
       "h1": "Storm Damage Restoration in Folsom",
       "meta_description": "Trusted storm damage restoration in Folsom, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "storm damage restoration folsom",
@@ -2891,7 +2993,7 @@
         "area",
         "service"
       ],
-      "title": "Mold Remediation in Folsom, CA | TDI Builders, Inc.",
+      "title": "Mold Remediation in Folsom, CA | TDI USA, Inc.",
       "h1": "Mold Remediation in Folsom",
       "meta_description": "Trusted mold remediation in Folsom, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "mold remediation folsom",
@@ -2935,7 +3037,7 @@
         "area",
         "service"
       ],
-      "title": "Home Remodeling in Folsom, CA | TDI Builders, Inc.",
+      "title": "Home Remodeling in Folsom, CA | TDI USA, Inc.",
       "h1": "Home Remodeling in Folsom",
       "meta_description": "Trusted home remodeling in Folsom, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "home remodeling folsom",
@@ -2979,7 +3081,7 @@
         "area",
         "service"
       ],
-      "title": "Kitchen Remodeling in Folsom, CA | TDI Builders, Inc.",
+      "title": "Kitchen Remodeling in Folsom, CA | TDI USA, Inc.",
       "h1": "Kitchen Remodeling in Folsom",
       "meta_description": "Trusted kitchen remodeling in Folsom, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "kitchen remodeling folsom",
@@ -3023,7 +3125,7 @@
         "area",
         "service"
       ],
-      "title": "Bathroom Remodeling in Folsom, CA | TDI Builders, Inc.",
+      "title": "Bathroom Remodeling in Folsom, CA | TDI USA, Inc.",
       "h1": "Bathroom Remodeling in Folsom",
       "meta_description": "Trusted bathroom remodeling in Folsom, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "bathroom remodeling folsom",
@@ -3067,7 +3169,7 @@
         "area",
         "service"
       ],
-      "title": "Garage Construction in Folsom, CA | TDI Builders, Inc.",
+      "title": "Garage Construction in Folsom, CA | TDI USA, Inc.",
       "h1": "Garage Construction in Folsom",
       "meta_description": "Trusted garage construction in Folsom, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "garage construction folsom",
@@ -3111,7 +3213,7 @@
         "area",
         "service"
       ],
-      "title": "Room Additions and Home Additions in Folsom, CA | TDI Builders, Inc.",
+      "title": "Room Additions and Home Additions in Folsom, CA | TDI USA, Inc.",
       "h1": "Room Additions and Home Additions in Folsom",
       "meta_description": "Trusted room additions and home additions in Folsom, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "room additions and home additions folsom",
@@ -3155,7 +3257,7 @@
         "area",
         "service"
       ],
-      "title": "Commercial Construction and Tenant Improvements in Modesto, CA | TDI Builders, Inc.",
+      "title": "Commercial Construction and Tenant Improvements in Modesto, CA | TDI USA, Inc.",
       "h1": "Commercial Construction and Tenant Improvements in Modesto",
       "meta_description": "Trusted commercial construction and tenant improvements in Modesto, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "commercial construction and tenant improvements modesto",
@@ -3199,7 +3301,7 @@
         "area",
         "service"
       ],
-      "title": "Renovations, Remodels and General Contracting in Modesto, CA | TDI Builders, Inc.",
+      "title": "Renovations, Remodels and General Contracting in Modesto, CA | TDI USA, Inc.",
       "h1": "Renovations, Remodels and General Contracting in Modesto",
       "meta_description": "Trusted renovations, remodels and general contracting in Modesto, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "renovations, remodels and general contracting modesto",
@@ -3243,7 +3345,7 @@
         "area",
         "service"
       ],
-      "title": "New Home Construction in Modesto, CA | TDI Builders, Inc.",
+      "title": "New Home Construction in Modesto, CA | TDI USA, Inc.",
       "h1": "New Home Construction in Modesto",
       "meta_description": "Trusted new home construction in Modesto, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "new home construction modesto",
@@ -3287,7 +3389,7 @@
         "area",
         "service"
       ],
-      "title": "Fire and Smoke Damage Rebuilding in Modesto, CA | TDI Builders, Inc.",
+      "title": "Fire and Smoke Damage Rebuilding in Modesto, CA | TDI USA, Inc.",
       "h1": "Fire and Smoke Damage Rebuilding in Modesto",
       "meta_description": "Trusted fire and smoke damage rebuilding in Modesto, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "fire and smoke damage rebuilding modesto",
@@ -3331,7 +3433,7 @@
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Modesto, CA | TDI Builders, Inc.",
+      "title": "Water Damage Restoration in Modesto, CA | TDI USA, Inc.",
       "h1": "Water Damage Restoration in Modesto",
       "meta_description": "Trusted water damage restoration in Modesto, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "water damage restoration modesto",
@@ -3375,7 +3477,7 @@
         "area",
         "service"
       ],
-      "title": "Storm Damage Restoration in Modesto, CA | TDI Builders, Inc.",
+      "title": "Storm Damage Restoration in Modesto, CA | TDI USA, Inc.",
       "h1": "Storm Damage Restoration in Modesto",
       "meta_description": "Trusted storm damage restoration in Modesto, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "storm damage restoration modesto",
@@ -3419,7 +3521,7 @@
         "area",
         "service"
       ],
-      "title": "Mold Remediation in Modesto, CA | TDI Builders, Inc.",
+      "title": "Mold Remediation in Modesto, CA | TDI USA, Inc.",
       "h1": "Mold Remediation in Modesto",
       "meta_description": "Trusted mold remediation in Modesto, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "mold remediation modesto",
@@ -3463,7 +3565,7 @@
         "area",
         "service"
       ],
-      "title": "Home Remodeling in Modesto, CA | TDI Builders, Inc.",
+      "title": "Home Remodeling in Modesto, CA | TDI USA, Inc.",
       "h1": "Home Remodeling in Modesto",
       "meta_description": "Trusted home remodeling in Modesto, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "home remodeling modesto",
@@ -3507,7 +3609,7 @@
         "area",
         "service"
       ],
-      "title": "Kitchen Remodeling in Modesto, CA | TDI Builders, Inc.",
+      "title": "Kitchen Remodeling in Modesto, CA | TDI USA, Inc.",
       "h1": "Kitchen Remodeling in Modesto",
       "meta_description": "Trusted kitchen remodeling in Modesto, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "kitchen remodeling modesto",
@@ -3551,7 +3653,7 @@
         "area",
         "service"
       ],
-      "title": "Bathroom Remodeling in Modesto, CA | TDI Builders, Inc.",
+      "title": "Bathroom Remodeling in Modesto, CA | TDI USA, Inc.",
       "h1": "Bathroom Remodeling in Modesto",
       "meta_description": "Trusted bathroom remodeling in Modesto, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "bathroom remodeling modesto",
@@ -3595,7 +3697,7 @@
         "area",
         "service"
       ],
-      "title": "Garage Construction in Modesto, CA | TDI Builders, Inc.",
+      "title": "Garage Construction in Modesto, CA | TDI USA, Inc.",
       "h1": "Garage Construction in Modesto",
       "meta_description": "Trusted garage construction in Modesto, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "garage construction modesto",
@@ -3639,7 +3741,7 @@
         "area",
         "service"
       ],
-      "title": "Room Additions and Home Additions in Modesto, CA | TDI Builders, Inc.",
+      "title": "Room Additions and Home Additions in Modesto, CA | TDI USA, Inc.",
       "h1": "Room Additions and Home Additions in Modesto",
       "meta_description": "Trusted room additions and home additions in Modesto, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "room additions and home additions modesto",
@@ -3683,7 +3785,7 @@
         "area",
         "service"
       ],
-      "title": "Commercial Construction and Tenant Improvements in Rocklin, CA | TDI Builders, Inc.",
+      "title": "Commercial Construction and Tenant Improvements in Rocklin, CA | TDI USA, Inc.",
       "h1": "Commercial Construction and Tenant Improvements in Rocklin",
       "meta_description": "Trusted commercial construction and tenant improvements in Rocklin, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "commercial construction and tenant improvements rocklin",
@@ -3727,7 +3829,7 @@
         "area",
         "service"
       ],
-      "title": "Renovations, Remodels and General Contracting in Rocklin, CA | TDI Builders, Inc.",
+      "title": "Renovations, Remodels and General Contracting in Rocklin, CA | TDI USA, Inc.",
       "h1": "Renovations, Remodels and General Contracting in Rocklin",
       "meta_description": "Trusted renovations, remodels and general contracting in Rocklin, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "renovations, remodels and general contracting rocklin",
@@ -3771,7 +3873,7 @@
         "area",
         "service"
       ],
-      "title": "New Home Construction in Rocklin, CA | TDI Builders, Inc.",
+      "title": "New Home Construction in Rocklin, CA | TDI USA, Inc.",
       "h1": "New Home Construction in Rocklin",
       "meta_description": "Trusted new home construction in Rocklin, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "new home construction rocklin",
@@ -3815,7 +3917,7 @@
         "area",
         "service"
       ],
-      "title": "Fire and Smoke Damage Rebuilding in Rocklin, CA | TDI Builders, Inc.",
+      "title": "Fire and Smoke Damage Rebuilding in Rocklin, CA | TDI USA, Inc.",
       "h1": "Fire and Smoke Damage Rebuilding in Rocklin",
       "meta_description": "Trusted fire and smoke damage rebuilding in Rocklin, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "fire and smoke damage rebuilding rocklin",
@@ -3859,7 +3961,7 @@
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Rocklin, CA | TDI Builders, Inc.",
+      "title": "Water Damage Restoration in Rocklin, CA | TDI USA, Inc.",
       "h1": "Water Damage Restoration in Rocklin",
       "meta_description": "Trusted water damage restoration in Rocklin, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "water damage restoration rocklin",
@@ -3903,7 +4005,7 @@
         "area",
         "service"
       ],
-      "title": "Storm Damage Restoration in Rocklin, CA | TDI Builders, Inc.",
+      "title": "Storm Damage Restoration in Rocklin, CA | TDI USA, Inc.",
       "h1": "Storm Damage Restoration in Rocklin",
       "meta_description": "Trusted storm damage restoration in Rocklin, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "storm damage restoration rocklin",
@@ -3947,7 +4049,7 @@
         "area",
         "service"
       ],
-      "title": "Mold Remediation in Rocklin, CA | TDI Builders, Inc.",
+      "title": "Mold Remediation in Rocklin, CA | TDI USA, Inc.",
       "h1": "Mold Remediation in Rocklin",
       "meta_description": "Trusted mold remediation in Rocklin, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "mold remediation rocklin",
@@ -3991,7 +4093,7 @@
         "area",
         "service"
       ],
-      "title": "Home Remodeling in Rocklin, CA | TDI Builders, Inc.",
+      "title": "Home Remodeling in Rocklin, CA | TDI USA, Inc.",
       "h1": "Home Remodeling in Rocklin",
       "meta_description": "Trusted home remodeling in Rocklin, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "home remodeling rocklin",
@@ -4035,7 +4137,7 @@
         "area",
         "service"
       ],
-      "title": "Kitchen Remodeling in Rocklin, CA | TDI Builders, Inc.",
+      "title": "Kitchen Remodeling in Rocklin, CA | TDI USA, Inc.",
       "h1": "Kitchen Remodeling in Rocklin",
       "meta_description": "Trusted kitchen remodeling in Rocklin, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "kitchen remodeling rocklin",
@@ -4079,7 +4181,7 @@
         "area",
         "service"
       ],
-      "title": "Bathroom Remodeling in Rocklin, CA | TDI Builders, Inc.",
+      "title": "Bathroom Remodeling in Rocklin, CA | TDI USA, Inc.",
       "h1": "Bathroom Remodeling in Rocklin",
       "meta_description": "Trusted bathroom remodeling in Rocklin, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "bathroom remodeling rocklin",
@@ -4123,7 +4225,7 @@
         "area",
         "service"
       ],
-      "title": "Garage Construction in Rocklin, CA | TDI Builders, Inc.",
+      "title": "Garage Construction in Rocklin, CA | TDI USA, Inc.",
       "h1": "Garage Construction in Rocklin",
       "meta_description": "Trusted garage construction in Rocklin, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "garage construction rocklin",
@@ -4167,7 +4269,7 @@
         "area",
         "service"
       ],
-      "title": "Room Additions and Home Additions in Rocklin, CA | TDI Builders, Inc.",
+      "title": "Room Additions and Home Additions in Rocklin, CA | TDI USA, Inc.",
       "h1": "Room Additions and Home Additions in Rocklin",
       "meta_description": "Trusted room additions and home additions in Rocklin, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "room additions and home additions rocklin",
@@ -4211,7 +4313,7 @@
         "area",
         "service"
       ],
-      "title": "Commercial Construction and Tenant Improvements in Citrus Heights, CA | TDI Builders, Inc.",
+      "title": "Commercial Construction and Tenant Improvements in Citrus Heights, CA | TDI USA, Inc.",
       "h1": "Commercial Construction and Tenant Improvements in Citrus Heights",
       "meta_description": "Trusted commercial construction and tenant improvements in Citrus Heights, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "commercial construction and tenant improvements citrus heights",
@@ -4255,7 +4357,7 @@
         "area",
         "service"
       ],
-      "title": "Renovations, Remodels and General Contracting in Citrus Heights, CA | TDI Builders, Inc.",
+      "title": "Renovations, Remodels and General Contracting in Citrus Heights, CA | TDI USA, Inc.",
       "h1": "Renovations, Remodels and General Contracting in Citrus Heights",
       "meta_description": "Trusted renovations, remodels and general contracting in Citrus Heights, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "renovations, remodels and general contracting citrus heights",
@@ -4299,7 +4401,7 @@
         "area",
         "service"
       ],
-      "title": "New Home Construction in Citrus Heights, CA | TDI Builders, Inc.",
+      "title": "New Home Construction in Citrus Heights, CA | TDI USA, Inc.",
       "h1": "New Home Construction in Citrus Heights",
       "meta_description": "Trusted new home construction in Citrus Heights, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "new home construction citrus heights",
@@ -4343,7 +4445,7 @@
         "area",
         "service"
       ],
-      "title": "Fire and Smoke Damage Rebuilding in Citrus Heights, CA | TDI Builders, Inc.",
+      "title": "Fire and Smoke Damage Rebuilding in Citrus Heights, CA | TDI USA, Inc.",
       "h1": "Fire and Smoke Damage Rebuilding in Citrus Heights",
       "meta_description": "Trusted fire and smoke damage rebuilding in Citrus Heights, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "fire and smoke damage rebuilding citrus heights",
@@ -4387,7 +4489,7 @@
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Citrus Heights, CA | TDI Builders, Inc.",
+      "title": "Water Damage Restoration in Citrus Heights, CA | TDI USA, Inc.",
       "h1": "Water Damage Restoration in Citrus Heights",
       "meta_description": "Trusted water damage restoration in Citrus Heights, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "water damage restoration citrus heights",
@@ -4431,7 +4533,7 @@
         "area",
         "service"
       ],
-      "title": "Storm Damage Restoration in Citrus Heights, CA | TDI Builders, Inc.",
+      "title": "Storm Damage Restoration in Citrus Heights, CA | TDI USA, Inc.",
       "h1": "Storm Damage Restoration in Citrus Heights",
       "meta_description": "Trusted storm damage restoration in Citrus Heights, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "storm damage restoration citrus heights",
@@ -4475,7 +4577,7 @@
         "area",
         "service"
       ],
-      "title": "Mold Remediation in Citrus Heights, CA | TDI Builders, Inc.",
+      "title": "Mold Remediation in Citrus Heights, CA | TDI USA, Inc.",
       "h1": "Mold Remediation in Citrus Heights",
       "meta_description": "Trusted mold remediation in Citrus Heights, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "mold remediation citrus heights",
@@ -4519,7 +4621,7 @@
         "area",
         "service"
       ],
-      "title": "Home Remodeling in Citrus Heights, CA | TDI Builders, Inc.",
+      "title": "Home Remodeling in Citrus Heights, CA | TDI USA, Inc.",
       "h1": "Home Remodeling in Citrus Heights",
       "meta_description": "Trusted home remodeling in Citrus Heights, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "home remodeling citrus heights",
@@ -4563,7 +4665,7 @@
         "area",
         "service"
       ],
-      "title": "Kitchen Remodeling in Citrus Heights, CA | TDI Builders, Inc.",
+      "title": "Kitchen Remodeling in Citrus Heights, CA | TDI USA, Inc.",
       "h1": "Kitchen Remodeling in Citrus Heights",
       "meta_description": "Trusted kitchen remodeling in Citrus Heights, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "kitchen remodeling citrus heights",
@@ -4607,7 +4709,7 @@
         "area",
         "service"
       ],
-      "title": "Bathroom Remodeling in Citrus Heights, CA | TDI Builders, Inc.",
+      "title": "Bathroom Remodeling in Citrus Heights, CA | TDI USA, Inc.",
       "h1": "Bathroom Remodeling in Citrus Heights",
       "meta_description": "Trusted bathroom remodeling in Citrus Heights, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "bathroom remodeling citrus heights",
@@ -4651,7 +4753,7 @@
         "area",
         "service"
       ],
-      "title": "Garage Construction in Citrus Heights, CA | TDI Builders, Inc.",
+      "title": "Garage Construction in Citrus Heights, CA | TDI USA, Inc.",
       "h1": "Garage Construction in Citrus Heights",
       "meta_description": "Trusted garage construction in Citrus Heights, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "garage construction citrus heights",
@@ -4695,7 +4797,7 @@
         "area",
         "service"
       ],
-      "title": "Room Additions and Home Additions in Citrus Heights, CA | TDI Builders, Inc.",
+      "title": "Room Additions and Home Additions in Citrus Heights, CA | TDI USA, Inc.",
       "h1": "Room Additions and Home Additions in Citrus Heights",
       "meta_description": "Trusted room additions and home additions in Citrus Heights, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "room additions and home additions citrus heights",
@@ -4739,7 +4841,7 @@
         "area",
         "service"
       ],
-      "title": "Commercial Construction and Tenant Improvements in Rancho Cordova, CA | TDI Builders, Inc.",
+      "title": "Commercial Construction and Tenant Improvements in Rancho Cordova, CA | TDI USA, Inc.",
       "h1": "Commercial Construction and Tenant Improvements in Rancho Cordova",
       "meta_description": "Trusted commercial construction and tenant improvements in Rancho Cordova, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "commercial construction and tenant improvements rancho cordova",
@@ -4783,7 +4885,7 @@
         "area",
         "service"
       ],
-      "title": "Renovations, Remodels and General Contracting in Rancho Cordova, CA | TDI Builders, Inc.",
+      "title": "Renovations, Remodels and General Contracting in Rancho Cordova, CA | TDI USA, Inc.",
       "h1": "Renovations, Remodels and General Contracting in Rancho Cordova",
       "meta_description": "Trusted renovations, remodels and general contracting in Rancho Cordova, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "renovations, remodels and general contracting rancho cordova",
@@ -4827,7 +4929,7 @@
         "area",
         "service"
       ],
-      "title": "New Home Construction in Rancho Cordova, CA | TDI Builders, Inc.",
+      "title": "New Home Construction in Rancho Cordova, CA | TDI USA, Inc.",
       "h1": "New Home Construction in Rancho Cordova",
       "meta_description": "Trusted new home construction in Rancho Cordova, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "new home construction rancho cordova",
@@ -4871,7 +4973,7 @@
         "area",
         "service"
       ],
-      "title": "Fire and Smoke Damage Rebuilding in Rancho Cordova, CA | TDI Builders, Inc.",
+      "title": "Fire and Smoke Damage Rebuilding in Rancho Cordova, CA | TDI USA, Inc.",
       "h1": "Fire and Smoke Damage Rebuilding in Rancho Cordova",
       "meta_description": "Trusted fire and smoke damage rebuilding in Rancho Cordova, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "fire and smoke damage rebuilding rancho cordova",
@@ -4915,7 +5017,7 @@
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Rancho Cordova, CA | TDI Builders, Inc.",
+      "title": "Water Damage Restoration in Rancho Cordova, CA | TDI USA, Inc.",
       "h1": "Water Damage Restoration in Rancho Cordova",
       "meta_description": "Trusted water damage restoration in Rancho Cordova, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "water damage restoration rancho cordova",
@@ -4959,7 +5061,7 @@
         "area",
         "service"
       ],
-      "title": "Storm Damage Restoration in Rancho Cordova, CA | TDI Builders, Inc.",
+      "title": "Storm Damage Restoration in Rancho Cordova, CA | TDI USA, Inc.",
       "h1": "Storm Damage Restoration in Rancho Cordova",
       "meta_description": "Trusted storm damage restoration in Rancho Cordova, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "storm damage restoration rancho cordova",
@@ -5003,7 +5105,7 @@
         "area",
         "service"
       ],
-      "title": "Mold Remediation in Rancho Cordova, CA | TDI Builders, Inc.",
+      "title": "Mold Remediation in Rancho Cordova, CA | TDI USA, Inc.",
       "h1": "Mold Remediation in Rancho Cordova",
       "meta_description": "Trusted mold remediation in Rancho Cordova, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "mold remediation rancho cordova",
@@ -5047,7 +5149,7 @@
         "area",
         "service"
       ],
-      "title": "Home Remodeling in Rancho Cordova, CA | TDI Builders, Inc.",
+      "title": "Home Remodeling in Rancho Cordova, CA | TDI USA, Inc.",
       "h1": "Home Remodeling in Rancho Cordova",
       "meta_description": "Trusted home remodeling in Rancho Cordova, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "home remodeling rancho cordova",
@@ -5091,7 +5193,7 @@
         "area",
         "service"
       ],
-      "title": "Kitchen Remodeling in Rancho Cordova, CA | TDI Builders, Inc.",
+      "title": "Kitchen Remodeling in Rancho Cordova, CA | TDI USA, Inc.",
       "h1": "Kitchen Remodeling in Rancho Cordova",
       "meta_description": "Trusted kitchen remodeling in Rancho Cordova, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "kitchen remodeling rancho cordova",
@@ -5135,7 +5237,7 @@
         "area",
         "service"
       ],
-      "title": "Bathroom Remodeling in Rancho Cordova, CA | TDI Builders, Inc.",
+      "title": "Bathroom Remodeling in Rancho Cordova, CA | TDI USA, Inc.",
       "h1": "Bathroom Remodeling in Rancho Cordova",
       "meta_description": "Trusted bathroom remodeling in Rancho Cordova, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "bathroom remodeling rancho cordova",
@@ -5179,7 +5281,7 @@
         "area",
         "service"
       ],
-      "title": "Garage Construction in Rancho Cordova, CA | TDI Builders, Inc.",
+      "title": "Garage Construction in Rancho Cordova, CA | TDI USA, Inc.",
       "h1": "Garage Construction in Rancho Cordova",
       "meta_description": "Trusted garage construction in Rancho Cordova, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "garage construction rancho cordova",
@@ -5223,7 +5325,7 @@
         "area",
         "service"
       ],
-      "title": "Room Additions and Home Additions in Rancho Cordova, CA | TDI Builders, Inc.",
+      "title": "Room Additions and Home Additions in Rancho Cordova, CA | TDI USA, Inc.",
       "h1": "Room Additions and Home Additions in Rancho Cordova",
       "meta_description": "Trusted room additions and home additions in Rancho Cordova, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "room additions and home additions rancho cordova",
@@ -5267,7 +5369,7 @@
         "area",
         "service"
       ],
-      "title": "Commercial Construction and Tenant Improvements in Fair Oaks, CA | TDI Builders, Inc.",
+      "title": "Commercial Construction and Tenant Improvements in Fair Oaks, CA | TDI USA, Inc.",
       "h1": "Commercial Construction and Tenant Improvements in Fair Oaks",
       "meta_description": "Trusted commercial construction and tenant improvements in Fair Oaks, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "commercial construction and tenant improvements fair oaks",
@@ -5311,7 +5413,7 @@
         "area",
         "service"
       ],
-      "title": "Renovations, Remodels and General Contracting in Fair Oaks, CA | TDI Builders, Inc.",
+      "title": "Renovations, Remodels and General Contracting in Fair Oaks, CA | TDI USA, Inc.",
       "h1": "Renovations, Remodels and General Contracting in Fair Oaks",
       "meta_description": "Trusted renovations, remodels and general contracting in Fair Oaks, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "renovations, remodels and general contracting fair oaks",
@@ -5355,7 +5457,7 @@
         "area",
         "service"
       ],
-      "title": "New Home Construction in Fair Oaks, CA | TDI Builders, Inc.",
+      "title": "New Home Construction in Fair Oaks, CA | TDI USA, Inc.",
       "h1": "New Home Construction in Fair Oaks",
       "meta_description": "Trusted new home construction in Fair Oaks, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "new home construction fair oaks",
@@ -5399,7 +5501,7 @@
         "area",
         "service"
       ],
-      "title": "Fire and Smoke Damage Rebuilding in Fair Oaks, CA | TDI Builders, Inc.",
+      "title": "Fire and Smoke Damage Rebuilding in Fair Oaks, CA | TDI USA, Inc.",
       "h1": "Fire and Smoke Damage Rebuilding in Fair Oaks",
       "meta_description": "Trusted fire and smoke damage rebuilding in Fair Oaks, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "fire and smoke damage rebuilding fair oaks",
@@ -5443,7 +5545,7 @@
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Fair Oaks, CA | TDI Builders, Inc.",
+      "title": "Water Damage Restoration in Fair Oaks, CA | TDI USA, Inc.",
       "h1": "Water Damage Restoration in Fair Oaks",
       "meta_description": "Trusted water damage restoration in Fair Oaks, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "water damage restoration fair oaks",
@@ -5487,7 +5589,7 @@
         "area",
         "service"
       ],
-      "title": "Storm Damage Restoration in Fair Oaks, CA | TDI Builders, Inc.",
+      "title": "Storm Damage Restoration in Fair Oaks, CA | TDI USA, Inc.",
       "h1": "Storm Damage Restoration in Fair Oaks",
       "meta_description": "Trusted storm damage restoration in Fair Oaks, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "storm damage restoration fair oaks",
@@ -5531,7 +5633,7 @@
         "area",
         "service"
       ],
-      "title": "Mold Remediation in Fair Oaks, CA | TDI Builders, Inc.",
+      "title": "Mold Remediation in Fair Oaks, CA | TDI USA, Inc.",
       "h1": "Mold Remediation in Fair Oaks",
       "meta_description": "Trusted mold remediation in Fair Oaks, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "mold remediation fair oaks",
@@ -5575,7 +5677,7 @@
         "area",
         "service"
       ],
-      "title": "Home Remodeling in Fair Oaks, CA | TDI Builders, Inc.",
+      "title": "Home Remodeling in Fair Oaks, CA | TDI USA, Inc.",
       "h1": "Home Remodeling in Fair Oaks",
       "meta_description": "Trusted home remodeling in Fair Oaks, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "home remodeling fair oaks",
@@ -5619,7 +5721,7 @@
         "area",
         "service"
       ],
-      "title": "Kitchen Remodeling in Fair Oaks, CA | TDI Builders, Inc.",
+      "title": "Kitchen Remodeling in Fair Oaks, CA | TDI USA, Inc.",
       "h1": "Kitchen Remodeling in Fair Oaks",
       "meta_description": "Trusted kitchen remodeling in Fair Oaks, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "kitchen remodeling fair oaks",
@@ -5663,7 +5765,7 @@
         "area",
         "service"
       ],
-      "title": "Bathroom Remodeling in Fair Oaks, CA | TDI Builders, Inc.",
+      "title": "Bathroom Remodeling in Fair Oaks, CA | TDI USA, Inc.",
       "h1": "Bathroom Remodeling in Fair Oaks",
       "meta_description": "Trusted bathroom remodeling in Fair Oaks, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "bathroom remodeling fair oaks",
@@ -5707,7 +5809,7 @@
         "area",
         "service"
       ],
-      "title": "Garage Construction in Fair Oaks, CA | TDI Builders, Inc.",
+      "title": "Garage Construction in Fair Oaks, CA | TDI USA, Inc.",
       "h1": "Garage Construction in Fair Oaks",
       "meta_description": "Trusted garage construction in Fair Oaks, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "garage construction fair oaks",
@@ -5751,7 +5853,7 @@
         "area",
         "service"
       ],
-      "title": "Room Additions and Home Additions in Fair Oaks, CA | TDI Builders, Inc.",
+      "title": "Room Additions and Home Additions in Fair Oaks, CA | TDI USA, Inc.",
       "h1": "Room Additions and Home Additions in Fair Oaks",
       "meta_description": "Trusted room additions and home additions in Fair Oaks, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "room additions and home additions fair oaks",
@@ -5795,7 +5897,7 @@
         "area",
         "service"
       ],
-      "title": "Commercial Construction and Tenant Improvements in Carmichael, CA | TDI Builders, Inc.",
+      "title": "Commercial Construction and Tenant Improvements in Carmichael, CA | TDI USA, Inc.",
       "h1": "Commercial Construction and Tenant Improvements in Carmichael",
       "meta_description": "Trusted commercial construction and tenant improvements in Carmichael, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "commercial construction and tenant improvements carmichael",
@@ -5839,7 +5941,7 @@
         "area",
         "service"
       ],
-      "title": "Renovations, Remodels and General Contracting in Carmichael, CA | TDI Builders, Inc.",
+      "title": "Renovations, Remodels and General Contracting in Carmichael, CA | TDI USA, Inc.",
       "h1": "Renovations, Remodels and General Contracting in Carmichael",
       "meta_description": "Trusted renovations, remodels and general contracting in Carmichael, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "renovations, remodels and general contracting carmichael",
@@ -5883,7 +5985,7 @@
         "area",
         "service"
       ],
-      "title": "New Home Construction in Carmichael, CA | TDI Builders, Inc.",
+      "title": "New Home Construction in Carmichael, CA | TDI USA, Inc.",
       "h1": "New Home Construction in Carmichael",
       "meta_description": "Trusted new home construction in Carmichael, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "new home construction carmichael",
@@ -5927,7 +6029,7 @@
         "area",
         "service"
       ],
-      "title": "Fire and Smoke Damage Rebuilding in Carmichael, CA | TDI Builders, Inc.",
+      "title": "Fire and Smoke Damage Rebuilding in Carmichael, CA | TDI USA, Inc.",
       "h1": "Fire and Smoke Damage Rebuilding in Carmichael",
       "meta_description": "Trusted fire and smoke damage rebuilding in Carmichael, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "fire and smoke damage rebuilding carmichael",
@@ -5971,7 +6073,7 @@
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Carmichael, CA | TDI Builders, Inc.",
+      "title": "Water Damage Restoration in Carmichael, CA | TDI USA, Inc.",
       "h1": "Water Damage Restoration in Carmichael",
       "meta_description": "Trusted water damage restoration in Carmichael, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "water damage restoration carmichael",
@@ -6015,7 +6117,7 @@
         "area",
         "service"
       ],
-      "title": "Storm Damage Restoration in Carmichael, CA | TDI Builders, Inc.",
+      "title": "Storm Damage Restoration in Carmichael, CA | TDI USA, Inc.",
       "h1": "Storm Damage Restoration in Carmichael",
       "meta_description": "Trusted storm damage restoration in Carmichael, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "storm damage restoration carmichael",
@@ -6059,7 +6161,7 @@
         "area",
         "service"
       ],
-      "title": "Mold Remediation in Carmichael, CA | TDI Builders, Inc.",
+      "title": "Mold Remediation in Carmichael, CA | TDI USA, Inc.",
       "h1": "Mold Remediation in Carmichael",
       "meta_description": "Trusted mold remediation in Carmichael, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "mold remediation carmichael",
@@ -6103,7 +6205,7 @@
         "area",
         "service"
       ],
-      "title": "Home Remodeling in Carmichael, CA | TDI Builders, Inc.",
+      "title": "Home Remodeling in Carmichael, CA | TDI USA, Inc.",
       "h1": "Home Remodeling in Carmichael",
       "meta_description": "Trusted home remodeling in Carmichael, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "home remodeling carmichael",
@@ -6147,7 +6249,7 @@
         "area",
         "service"
       ],
-      "title": "Kitchen Remodeling in Carmichael, CA | TDI Builders, Inc.",
+      "title": "Kitchen Remodeling in Carmichael, CA | TDI USA, Inc.",
       "h1": "Kitchen Remodeling in Carmichael",
       "meta_description": "Trusted kitchen remodeling in Carmichael, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "kitchen remodeling carmichael",
@@ -6191,7 +6293,7 @@
         "area",
         "service"
       ],
-      "title": "Bathroom Remodeling in Carmichael, CA | TDI Builders, Inc.",
+      "title": "Bathroom Remodeling in Carmichael, CA | TDI USA, Inc.",
       "h1": "Bathroom Remodeling in Carmichael",
       "meta_description": "Trusted bathroom remodeling in Carmichael, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "bathroom remodeling carmichael",
@@ -6235,7 +6337,7 @@
         "area",
         "service"
       ],
-      "title": "Garage Construction in Carmichael, CA | TDI Builders, Inc.",
+      "title": "Garage Construction in Carmichael, CA | TDI USA, Inc.",
       "h1": "Garage Construction in Carmichael",
       "meta_description": "Trusted garage construction in Carmichael, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "garage construction carmichael",
@@ -6279,7 +6381,7 @@
         "area",
         "service"
       ],
-      "title": "Room Additions and Home Additions in Carmichael, CA | TDI Builders, Inc.",
+      "title": "Room Additions and Home Additions in Carmichael, CA | TDI USA, Inc.",
       "h1": "Room Additions and Home Additions in Carmichael",
       "meta_description": "Trusted room additions and home additions in Carmichael, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "room additions and home additions carmichael",
@@ -6323,7 +6425,7 @@
         "area",
         "service"
       ],
-      "title": "Commercial Construction and Tenant Improvements in West Sacramento, CA | TDI Builders, Inc.",
+      "title": "Commercial Construction and Tenant Improvements in West Sacramento, CA | TDI USA, Inc.",
       "h1": "Commercial Construction and Tenant Improvements in West Sacramento",
       "meta_description": "Trusted commercial construction and tenant improvements in West Sacramento, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "commercial construction and tenant improvements west sacramento",
@@ -6367,7 +6469,7 @@
         "area",
         "service"
       ],
-      "title": "Renovations, Remodels and General Contracting in West Sacramento, CA | TDI Builders, Inc.",
+      "title": "Renovations, Remodels and General Contracting in West Sacramento, CA | TDI USA, Inc.",
       "h1": "Renovations, Remodels and General Contracting in West Sacramento",
       "meta_description": "Trusted renovations, remodels and general contracting in West Sacramento, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "renovations, remodels and general contracting west sacramento",
@@ -6411,7 +6513,7 @@
         "area",
         "service"
       ],
-      "title": "New Home Construction in West Sacramento, CA | TDI Builders, Inc.",
+      "title": "New Home Construction in West Sacramento, CA | TDI USA, Inc.",
       "h1": "New Home Construction in West Sacramento",
       "meta_description": "Trusted new home construction in West Sacramento, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "new home construction west sacramento",
@@ -6455,7 +6557,7 @@
         "area",
         "service"
       ],
-      "title": "Fire and Smoke Damage Rebuilding in West Sacramento, CA | TDI Builders, Inc.",
+      "title": "Fire and Smoke Damage Rebuilding in West Sacramento, CA | TDI USA, Inc.",
       "h1": "Fire and Smoke Damage Rebuilding in West Sacramento",
       "meta_description": "Trusted fire and smoke damage rebuilding in West Sacramento, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "fire and smoke damage rebuilding west sacramento",
@@ -6499,7 +6601,7 @@
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in West Sacramento, CA | TDI Builders, Inc.",
+      "title": "Water Damage Restoration in West Sacramento, CA | TDI USA, Inc.",
       "h1": "Water Damage Restoration in West Sacramento",
       "meta_description": "Trusted water damage restoration in West Sacramento, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "water damage restoration west sacramento",
@@ -6543,7 +6645,7 @@
         "area",
         "service"
       ],
-      "title": "Storm Damage Restoration in West Sacramento, CA | TDI Builders, Inc.",
+      "title": "Storm Damage Restoration in West Sacramento, CA | TDI USA, Inc.",
       "h1": "Storm Damage Restoration in West Sacramento",
       "meta_description": "Trusted storm damage restoration in West Sacramento, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "storm damage restoration west sacramento",
@@ -6587,7 +6689,7 @@
         "area",
         "service"
       ],
-      "title": "Mold Remediation in West Sacramento, CA | TDI Builders, Inc.",
+      "title": "Mold Remediation in West Sacramento, CA | TDI USA, Inc.",
       "h1": "Mold Remediation in West Sacramento",
       "meta_description": "Trusted mold remediation in West Sacramento, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "mold remediation west sacramento",
@@ -6631,7 +6733,7 @@
         "area",
         "service"
       ],
-      "title": "Home Remodeling in West Sacramento, CA | TDI Builders, Inc.",
+      "title": "Home Remodeling in West Sacramento, CA | TDI USA, Inc.",
       "h1": "Home Remodeling in West Sacramento",
       "meta_description": "Trusted home remodeling in West Sacramento, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "home remodeling west sacramento",
@@ -6675,7 +6777,7 @@
         "area",
         "service"
       ],
-      "title": "Kitchen Remodeling in West Sacramento, CA | TDI Builders, Inc.",
+      "title": "Kitchen Remodeling in West Sacramento, CA | TDI USA, Inc.",
       "h1": "Kitchen Remodeling in West Sacramento",
       "meta_description": "Trusted kitchen remodeling in West Sacramento, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "kitchen remodeling west sacramento",
@@ -6719,7 +6821,7 @@
         "area",
         "service"
       ],
-      "title": "Bathroom Remodeling in West Sacramento, CA | TDI Builders, Inc.",
+      "title": "Bathroom Remodeling in West Sacramento, CA | TDI USA, Inc.",
       "h1": "Bathroom Remodeling in West Sacramento",
       "meta_description": "Trusted bathroom remodeling in West Sacramento, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "bathroom remodeling west sacramento",
@@ -6763,7 +6865,7 @@
         "area",
         "service"
       ],
-      "title": "Garage Construction in West Sacramento, CA | TDI Builders, Inc.",
+      "title": "Garage Construction in West Sacramento, CA | TDI USA, Inc.",
       "h1": "Garage Construction in West Sacramento",
       "meta_description": "Trusted garage construction in West Sacramento, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "garage construction west sacramento",
@@ -6807,7 +6909,7 @@
         "area",
         "service"
       ],
-      "title": "Room Additions and Home Additions in West Sacramento, CA | TDI Builders, Inc.",
+      "title": "Room Additions and Home Additions in West Sacramento, CA | TDI USA, Inc.",
       "h1": "Room Additions and Home Additions in West Sacramento",
       "meta_description": "Trusted room additions and home additions in West Sacramento, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "room additions and home additions west sacramento",
@@ -6851,7 +6953,7 @@
         "area",
         "service"
       ],
-      "title": "Commercial Construction and Tenant Improvements in Lincoln, CA | TDI Builders, Inc.",
+      "title": "Commercial Construction and Tenant Improvements in Lincoln, CA | TDI USA, Inc.",
       "h1": "Commercial Construction and Tenant Improvements in Lincoln",
       "meta_description": "Trusted commercial construction and tenant improvements in Lincoln, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "commercial construction and tenant improvements lincoln",
@@ -6895,7 +6997,7 @@
         "area",
         "service"
       ],
-      "title": "Renovations, Remodels and General Contracting in Lincoln, CA | TDI Builders, Inc.",
+      "title": "Renovations, Remodels and General Contracting in Lincoln, CA | TDI USA, Inc.",
       "h1": "Renovations, Remodels and General Contracting in Lincoln",
       "meta_description": "Trusted renovations, remodels and general contracting in Lincoln, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "renovations, remodels and general contracting lincoln",
@@ -6939,7 +7041,7 @@
         "area",
         "service"
       ],
-      "title": "New Home Construction in Lincoln, CA | TDI Builders, Inc.",
+      "title": "New Home Construction in Lincoln, CA | TDI USA, Inc.",
       "h1": "New Home Construction in Lincoln",
       "meta_description": "Trusted new home construction in Lincoln, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "new home construction lincoln",
@@ -6983,7 +7085,7 @@
         "area",
         "service"
       ],
-      "title": "Fire and Smoke Damage Rebuilding in Lincoln, CA | TDI Builders, Inc.",
+      "title": "Fire and Smoke Damage Rebuilding in Lincoln, CA | TDI USA, Inc.",
       "h1": "Fire and Smoke Damage Rebuilding in Lincoln",
       "meta_description": "Trusted fire and smoke damage rebuilding in Lincoln, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "fire and smoke damage rebuilding lincoln",
@@ -7027,7 +7129,7 @@
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Lincoln, CA | TDI Builders, Inc.",
+      "title": "Water Damage Restoration in Lincoln, CA | TDI USA, Inc.",
       "h1": "Water Damage Restoration in Lincoln",
       "meta_description": "Trusted water damage restoration in Lincoln, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "water damage restoration lincoln",
@@ -7071,7 +7173,7 @@
         "area",
         "service"
       ],
-      "title": "Storm Damage Restoration in Lincoln, CA | TDI Builders, Inc.",
+      "title": "Storm Damage Restoration in Lincoln, CA | TDI USA, Inc.",
       "h1": "Storm Damage Restoration in Lincoln",
       "meta_description": "Trusted storm damage restoration in Lincoln, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "storm damage restoration lincoln",
@@ -7115,7 +7217,7 @@
         "area",
         "service"
       ],
-      "title": "Mold Remediation in Lincoln, CA | TDI Builders, Inc.",
+      "title": "Mold Remediation in Lincoln, CA | TDI USA, Inc.",
       "h1": "Mold Remediation in Lincoln",
       "meta_description": "Trusted mold remediation in Lincoln, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "mold remediation lincoln",
@@ -7159,7 +7261,7 @@
         "area",
         "service"
       ],
-      "title": "Home Remodeling in Lincoln, CA | TDI Builders, Inc.",
+      "title": "Home Remodeling in Lincoln, CA | TDI USA, Inc.",
       "h1": "Home Remodeling in Lincoln",
       "meta_description": "Trusted home remodeling in Lincoln, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "home remodeling lincoln",
@@ -7203,7 +7305,7 @@
         "area",
         "service"
       ],
-      "title": "Kitchen Remodeling in Lincoln, CA | TDI Builders, Inc.",
+      "title": "Kitchen Remodeling in Lincoln, CA | TDI USA, Inc.",
       "h1": "Kitchen Remodeling in Lincoln",
       "meta_description": "Trusted kitchen remodeling in Lincoln, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "kitchen remodeling lincoln",
@@ -7247,7 +7349,7 @@
         "area",
         "service"
       ],
-      "title": "Bathroom Remodeling in Lincoln, CA | TDI Builders, Inc.",
+      "title": "Bathroom Remodeling in Lincoln, CA | TDI USA, Inc.",
       "h1": "Bathroom Remodeling in Lincoln",
       "meta_description": "Trusted bathroom remodeling in Lincoln, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "bathroom remodeling lincoln",
@@ -7291,7 +7393,7 @@
         "area",
         "service"
       ],
-      "title": "Garage Construction in Lincoln, CA | TDI Builders, Inc.",
+      "title": "Garage Construction in Lincoln, CA | TDI USA, Inc.",
       "h1": "Garage Construction in Lincoln",
       "meta_description": "Trusted garage construction in Lincoln, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "garage construction lincoln",
@@ -7335,7 +7437,7 @@
         "area",
         "service"
       ],
-      "title": "Room Additions and Home Additions in Lincoln, CA | TDI Builders, Inc.",
+      "title": "Room Additions and Home Additions in Lincoln, CA | TDI USA, Inc.",
       "h1": "Room Additions and Home Additions in Lincoln",
       "meta_description": "Trusted room additions and home additions in Lincoln, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "room additions and home additions lincoln",
@@ -7379,7 +7481,7 @@
         "area",
         "service"
       ],
-      "title": "Commercial Construction and Tenant Improvements in Granite Bay, CA | TDI Builders, Inc.",
+      "title": "Commercial Construction and Tenant Improvements in Granite Bay, CA | TDI USA, Inc.",
       "h1": "Commercial Construction and Tenant Improvements in Granite Bay",
       "meta_description": "Trusted commercial construction and tenant improvements in Granite Bay, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "commercial construction and tenant improvements granite bay",
@@ -7423,7 +7525,7 @@
         "area",
         "service"
       ],
-      "title": "Renovations, Remodels and General Contracting in Granite Bay, CA | TDI Builders, Inc.",
+      "title": "Renovations, Remodels and General Contracting in Granite Bay, CA | TDI USA, Inc.",
       "h1": "Renovations, Remodels and General Contracting in Granite Bay",
       "meta_description": "Trusted renovations, remodels and general contracting in Granite Bay, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "renovations, remodels and general contracting granite bay",
@@ -7467,7 +7569,7 @@
         "area",
         "service"
       ],
-      "title": "New Home Construction in Granite Bay, CA | TDI Builders, Inc.",
+      "title": "New Home Construction in Granite Bay, CA | TDI USA, Inc.",
       "h1": "New Home Construction in Granite Bay",
       "meta_description": "Trusted new home construction in Granite Bay, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "new home construction granite bay",
@@ -7511,7 +7613,7 @@
         "area",
         "service"
       ],
-      "title": "Fire and Smoke Damage Rebuilding in Granite Bay, CA | TDI Builders, Inc.",
+      "title": "Fire and Smoke Damage Rebuilding in Granite Bay, CA | TDI USA, Inc.",
       "h1": "Fire and Smoke Damage Rebuilding in Granite Bay",
       "meta_description": "Trusted fire and smoke damage rebuilding in Granite Bay, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "fire and smoke damage rebuilding granite bay",
@@ -7555,7 +7657,7 @@
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Granite Bay, CA | TDI Builders, Inc.",
+      "title": "Water Damage Restoration in Granite Bay, CA | TDI USA, Inc.",
       "h1": "Water Damage Restoration in Granite Bay",
       "meta_description": "Trusted water damage restoration in Granite Bay, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "water damage restoration granite bay",
@@ -7599,7 +7701,7 @@
         "area",
         "service"
       ],
-      "title": "Storm Damage Restoration in Granite Bay, CA | TDI Builders, Inc.",
+      "title": "Storm Damage Restoration in Granite Bay, CA | TDI USA, Inc.",
       "h1": "Storm Damage Restoration in Granite Bay",
       "meta_description": "Trusted storm damage restoration in Granite Bay, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "storm damage restoration granite bay",
@@ -7643,7 +7745,7 @@
         "area",
         "service"
       ],
-      "title": "Mold Remediation in Granite Bay, CA | TDI Builders, Inc.",
+      "title": "Mold Remediation in Granite Bay, CA | TDI USA, Inc.",
       "h1": "Mold Remediation in Granite Bay",
       "meta_description": "Trusted mold remediation in Granite Bay, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "mold remediation granite bay",
@@ -7687,7 +7789,7 @@
         "area",
         "service"
       ],
-      "title": "Home Remodeling in Granite Bay, CA | TDI Builders, Inc.",
+      "title": "Home Remodeling in Granite Bay, CA | TDI USA, Inc.",
       "h1": "Home Remodeling in Granite Bay",
       "meta_description": "Trusted home remodeling in Granite Bay, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "home remodeling granite bay",
@@ -7731,7 +7833,7 @@
         "area",
         "service"
       ],
-      "title": "Kitchen Remodeling in Granite Bay, CA | TDI Builders, Inc.",
+      "title": "Kitchen Remodeling in Granite Bay, CA | TDI USA, Inc.",
       "h1": "Kitchen Remodeling in Granite Bay",
       "meta_description": "Trusted kitchen remodeling in Granite Bay, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "kitchen remodeling granite bay",
@@ -7775,7 +7877,7 @@
         "area",
         "service"
       ],
-      "title": "Bathroom Remodeling in Granite Bay, CA | TDI Builders, Inc.",
+      "title": "Bathroom Remodeling in Granite Bay, CA | TDI USA, Inc.",
       "h1": "Bathroom Remodeling in Granite Bay",
       "meta_description": "Trusted bathroom remodeling in Granite Bay, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "bathroom remodeling granite bay",
@@ -7819,7 +7921,7 @@
         "area",
         "service"
       ],
-      "title": "Garage Construction in Granite Bay, CA | TDI Builders, Inc.",
+      "title": "Garage Construction in Granite Bay, CA | TDI USA, Inc.",
       "h1": "Garage Construction in Granite Bay",
       "meta_description": "Trusted garage construction in Granite Bay, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "garage construction granite bay",
@@ -7863,7 +7965,7 @@
         "area",
         "service"
       ],
-      "title": "Room Additions and Home Additions in Granite Bay, CA | TDI Builders, Inc.",
+      "title": "Room Additions and Home Additions in Granite Bay, CA | TDI USA, Inc.",
       "h1": "Room Additions and Home Additions in Granite Bay",
       "meta_description": "Trusted room additions and home additions in Granite Bay, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "room additions and home additions granite bay",
@@ -7907,7 +8009,7 @@
         "area",
         "service"
       ],
-      "title": "Commercial Construction and Tenant Improvements in El Dorado Hills, CA | TDI Builders, Inc.",
+      "title": "Commercial Construction and Tenant Improvements in El Dorado Hills, CA | TDI USA, Inc.",
       "h1": "Commercial Construction and Tenant Improvements in El Dorado Hills",
       "meta_description": "Trusted commercial construction and tenant improvements in El Dorado Hills, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "commercial construction and tenant improvements el dorado hills",
@@ -7951,7 +8053,7 @@
         "area",
         "service"
       ],
-      "title": "Renovations, Remodels and General Contracting in El Dorado Hills, CA | TDI Builders, Inc.",
+      "title": "Renovations, Remodels and General Contracting in El Dorado Hills, CA | TDI USA, Inc.",
       "h1": "Renovations, Remodels and General Contracting in El Dorado Hills",
       "meta_description": "Trusted renovations, remodels and general contracting in El Dorado Hills, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "renovations, remodels and general contracting el dorado hills",
@@ -7995,7 +8097,7 @@
         "area",
         "service"
       ],
-      "title": "New Home Construction in El Dorado Hills, CA | TDI Builders, Inc.",
+      "title": "New Home Construction in El Dorado Hills, CA | TDI USA, Inc.",
       "h1": "New Home Construction in El Dorado Hills",
       "meta_description": "Trusted new home construction in El Dorado Hills, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "new home construction el dorado hills",
@@ -8039,7 +8141,7 @@
         "area",
         "service"
       ],
-      "title": "Fire and Smoke Damage Rebuilding in El Dorado Hills, CA | TDI Builders, Inc.",
+      "title": "Fire and Smoke Damage Rebuilding in El Dorado Hills, CA | TDI USA, Inc.",
       "h1": "Fire and Smoke Damage Rebuilding in El Dorado Hills",
       "meta_description": "Trusted fire and smoke damage rebuilding in El Dorado Hills, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "fire and smoke damage rebuilding el dorado hills",
@@ -8083,7 +8185,7 @@
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in El Dorado Hills, CA | TDI Builders, Inc.",
+      "title": "Water Damage Restoration in El Dorado Hills, CA | TDI USA, Inc.",
       "h1": "Water Damage Restoration in El Dorado Hills",
       "meta_description": "Trusted water damage restoration in El Dorado Hills, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "water damage restoration el dorado hills",
@@ -8127,7 +8229,7 @@
         "area",
         "service"
       ],
-      "title": "Storm Damage Restoration in El Dorado Hills, CA | TDI Builders, Inc.",
+      "title": "Storm Damage Restoration in El Dorado Hills, CA | TDI USA, Inc.",
       "h1": "Storm Damage Restoration in El Dorado Hills",
       "meta_description": "Trusted storm damage restoration in El Dorado Hills, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "storm damage restoration el dorado hills",
@@ -8171,7 +8273,7 @@
         "area",
         "service"
       ],
-      "title": "Mold Remediation in El Dorado Hills, CA | TDI Builders, Inc.",
+      "title": "Mold Remediation in El Dorado Hills, CA | TDI USA, Inc.",
       "h1": "Mold Remediation in El Dorado Hills",
       "meta_description": "Trusted mold remediation in El Dorado Hills, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "mold remediation el dorado hills",
@@ -8215,7 +8317,7 @@
         "area",
         "service"
       ],
-      "title": "Home Remodeling in El Dorado Hills, CA | TDI Builders, Inc.",
+      "title": "Home Remodeling in El Dorado Hills, CA | TDI USA, Inc.",
       "h1": "Home Remodeling in El Dorado Hills",
       "meta_description": "Trusted home remodeling in El Dorado Hills, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "home remodeling el dorado hills",
@@ -8259,7 +8361,7 @@
         "area",
         "service"
       ],
-      "title": "Kitchen Remodeling in El Dorado Hills, CA | TDI Builders, Inc.",
+      "title": "Kitchen Remodeling in El Dorado Hills, CA | TDI USA, Inc.",
       "h1": "Kitchen Remodeling in El Dorado Hills",
       "meta_description": "Trusted kitchen remodeling in El Dorado Hills, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "kitchen remodeling el dorado hills",
@@ -8303,7 +8405,7 @@
         "area",
         "service"
       ],
-      "title": "Bathroom Remodeling in El Dorado Hills, CA | TDI Builders, Inc.",
+      "title": "Bathroom Remodeling in El Dorado Hills, CA | TDI USA, Inc.",
       "h1": "Bathroom Remodeling in El Dorado Hills",
       "meta_description": "Trusted bathroom remodeling in El Dorado Hills, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "bathroom remodeling el dorado hills",
@@ -8347,7 +8449,7 @@
         "area",
         "service"
       ],
-      "title": "Garage Construction in El Dorado Hills, CA | TDI Builders, Inc.",
+      "title": "Garage Construction in El Dorado Hills, CA | TDI USA, Inc.",
       "h1": "Garage Construction in El Dorado Hills",
       "meta_description": "Trusted garage construction in El Dorado Hills, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "garage construction el dorado hills",
@@ -8391,7 +8493,7 @@
         "area",
         "service"
       ],
-      "title": "Room Additions and Home Additions in El Dorado Hills, CA | TDI Builders, Inc.",
+      "title": "Room Additions and Home Additions in El Dorado Hills, CA | TDI USA, Inc.",
       "h1": "Room Additions and Home Additions in El Dorado Hills",
       "meta_description": "Trusted room additions and home additions in El Dorado Hills, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "room additions and home additions el dorado hills",
@@ -8435,7 +8537,7 @@
         "area",
         "service"
       ],
-      "title": "Commercial Construction and Tenant Improvements in Loomis, CA | TDI Builders, Inc.",
+      "title": "Commercial Construction and Tenant Improvements in Loomis, CA | TDI USA, Inc.",
       "h1": "Commercial Construction and Tenant Improvements in Loomis",
       "meta_description": "Trusted commercial construction and tenant improvements in Loomis, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "commercial construction and tenant improvements loomis",
@@ -8479,7 +8581,7 @@
         "area",
         "service"
       ],
-      "title": "Renovations, Remodels and General Contracting in Loomis, CA | TDI Builders, Inc.",
+      "title": "Renovations, Remodels and General Contracting in Loomis, CA | TDI USA, Inc.",
       "h1": "Renovations, Remodels and General Contracting in Loomis",
       "meta_description": "Trusted renovations, remodels and general contracting in Loomis, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "renovations, remodels and general contracting loomis",
@@ -8523,7 +8625,7 @@
         "area",
         "service"
       ],
-      "title": "New Home Construction in Loomis, CA | TDI Builders, Inc.",
+      "title": "New Home Construction in Loomis, CA | TDI USA, Inc.",
       "h1": "New Home Construction in Loomis",
       "meta_description": "Trusted new home construction in Loomis, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "new home construction loomis",
@@ -8567,7 +8669,7 @@
         "area",
         "service"
       ],
-      "title": "Fire and Smoke Damage Rebuilding in Loomis, CA | TDI Builders, Inc.",
+      "title": "Fire and Smoke Damage Rebuilding in Loomis, CA | TDI USA, Inc.",
       "h1": "Fire and Smoke Damage Rebuilding in Loomis",
       "meta_description": "Trusted fire and smoke damage rebuilding in Loomis, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "fire and smoke damage rebuilding loomis",
@@ -8611,7 +8713,7 @@
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Loomis, CA | TDI Builders, Inc.",
+      "title": "Water Damage Restoration in Loomis, CA | TDI USA, Inc.",
       "h1": "Water Damage Restoration in Loomis",
       "meta_description": "Trusted water damage restoration in Loomis, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "water damage restoration loomis",
@@ -8655,7 +8757,7 @@
         "area",
         "service"
       ],
-      "title": "Storm Damage Restoration in Loomis, CA | TDI Builders, Inc.",
+      "title": "Storm Damage Restoration in Loomis, CA | TDI USA, Inc.",
       "h1": "Storm Damage Restoration in Loomis",
       "meta_description": "Trusted storm damage restoration in Loomis, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "storm damage restoration loomis",
@@ -8699,7 +8801,7 @@
         "area",
         "service"
       ],
-      "title": "Mold Remediation in Loomis, CA | TDI Builders, Inc.",
+      "title": "Mold Remediation in Loomis, CA | TDI USA, Inc.",
       "h1": "Mold Remediation in Loomis",
       "meta_description": "Trusted mold remediation in Loomis, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "mold remediation loomis",
@@ -8743,7 +8845,7 @@
         "area",
         "service"
       ],
-      "title": "Home Remodeling in Loomis, CA | TDI Builders, Inc.",
+      "title": "Home Remodeling in Loomis, CA | TDI USA, Inc.",
       "h1": "Home Remodeling in Loomis",
       "meta_description": "Trusted home remodeling in Loomis, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "home remodeling loomis",
@@ -8787,7 +8889,7 @@
         "area",
         "service"
       ],
-      "title": "Kitchen Remodeling in Loomis, CA | TDI Builders, Inc.",
+      "title": "Kitchen Remodeling in Loomis, CA | TDI USA, Inc.",
       "h1": "Kitchen Remodeling in Loomis",
       "meta_description": "Trusted kitchen remodeling in Loomis, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "kitchen remodeling loomis",
@@ -8831,7 +8933,7 @@
         "area",
         "service"
       ],
-      "title": "Bathroom Remodeling in Loomis, CA | TDI Builders, Inc.",
+      "title": "Bathroom Remodeling in Loomis, CA | TDI USA, Inc.",
       "h1": "Bathroom Remodeling in Loomis",
       "meta_description": "Trusted bathroom remodeling in Loomis, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "bathroom remodeling loomis",
@@ -8875,7 +8977,7 @@
         "area",
         "service"
       ],
-      "title": "Garage Construction in Loomis, CA | TDI Builders, Inc.",
+      "title": "Garage Construction in Loomis, CA | TDI USA, Inc.",
       "h1": "Garage Construction in Loomis",
       "meta_description": "Trusted garage construction in Loomis, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "garage construction loomis",
@@ -8919,7 +9021,7 @@
         "area",
         "service"
       ],
-      "title": "Room Additions and Home Additions in Loomis, CA | TDI Builders, Inc.",
+      "title": "Room Additions and Home Additions in Loomis, CA | TDI USA, Inc.",
       "h1": "Room Additions and Home Additions in Loomis",
       "meta_description": "Trusted room additions and home additions in Loomis, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
       "primary_keyword": "room additions and home additions loomis",
@@ -8951,6 +9053,1062 @@
         "/service-areas/loomis-ca/",
         "/service-areas/loomis-ca/home-remodeling/",
         "/service-areas/loomis-ca/bathroom-remodeling/",
+        "/service-areas/carmichael-ca/room-addition/",
+        "/service-areas/citrus-heights-ca/room-addition/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/manteca-ca/commercial-construction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Commercial Construction and Tenant Improvements in Manteca, CA | TDI USA, Inc.",
+      "h1": "Commercial Construction and Tenant Improvements in Manteca",
+      "meta_description": "Trusted commercial construction and tenant improvements in Manteca, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
+      "primary_keyword": "commercial construction and tenant improvements manteca",
+      "secondary_keywords": [
+        "commercial general contractor",
+        "tenant improvement contractor",
+        "commercial buildout",
+        "office renovation",
+        "retail construction"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/commercial-construction/",
+        "/service-areas/manteca-ca/",
+        "/service-areas/manteca-ca/home-remodeling/",
+        "/service-areas/manteca-ca/bathroom-remodeling/",
+        "/service-areas/carmichael-ca/commercial-construction/",
+        "/service-areas/citrus-heights-ca/commercial-construction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/manteca-ca/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Manteca, CA | TDI USA, Inc.",
+      "h1": "Renovations, Remodels and General Contracting in Manteca",
+      "meta_description": "Trusted renovations, remodels and general contracting in Manteca, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
+      "primary_keyword": "renovations, remodels and general contracting manteca",
+      "secondary_keywords": [
+        "general contractor",
+        "licensed general contractor",
+        "home improvement contractor",
+        "residential general contracting",
+        "design-build contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/manteca-ca/",
+        "/service-areas/manteca-ca/home-remodeling/",
+        "/service-areas/manteca-ca/bathroom-remodeling/",
+        "/service-areas/carmichael-ca/general-contracting/",
+        "/service-areas/citrus-heights-ca/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/manteca-ca/new-construction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "New Home Construction in Manteca, CA | TDI USA, Inc.",
+      "h1": "New Home Construction in Manteca",
+      "meta_description": "Trusted new home construction in Manteca, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
+      "primary_keyword": "new home construction manteca",
+      "secondary_keywords": [
+        "custom home builder",
+        "new home builder",
+        "build a house",
+        "residential construction",
+        "ground-up construction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/new-construction/",
+        "/service-areas/manteca-ca/",
+        "/service-areas/manteca-ca/home-remodeling/",
+        "/service-areas/manteca-ca/bathroom-remodeling/",
+        "/service-areas/carmichael-ca/new-construction/",
+        "/service-areas/citrus-heights-ca/new-construction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/manteca-ca/fire-smoke-rebuilding/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire and Smoke Damage Rebuilding in Manteca, CA | TDI USA, Inc.",
+      "h1": "Fire and Smoke Damage Rebuilding in Manteca",
+      "meta_description": "Trusted fire and smoke damage rebuilding in Manteca, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
+      "primary_keyword": "fire and smoke damage rebuilding manteca",
+      "secondary_keywords": [
+        "fire damage rebuild",
+        "fire damage repair contractor",
+        "smoke damage repair",
+        "fire restoration contractor",
+        "rebuild after fire"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-smoke-rebuilding/",
+        "/service-areas/manteca-ca/",
+        "/service-areas/manteca-ca/home-remodeling/",
+        "/service-areas/manteca-ca/bathroom-remodeling/",
+        "/service-areas/carmichael-ca/fire-smoke-rebuilding/",
+        "/service-areas/citrus-heights-ca/fire-smoke-rebuilding/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/manteca-ca/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Manteca, CA | TDI USA, Inc.",
+      "h1": "Water Damage Restoration in Manteca",
+      "meta_description": "Trusted water damage restoration in Manteca, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
+      "primary_keyword": "water damage restoration manteca",
+      "secondary_keywords": [
+        "water damage repair",
+        "water damage rebuild",
+        "drywall water damage repair",
+        "ceiling water damage repair",
+        "post-leak renovation"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/manteca-ca/",
+        "/service-areas/manteca-ca/home-remodeling/",
+        "/service-areas/manteca-ca/bathroom-remodeling/",
+        "/service-areas/carmichael-ca/water-damage-restoration/",
+        "/service-areas/citrus-heights-ca/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/manteca-ca/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Manteca, CA | TDI USA, Inc.",
+      "h1": "Storm Damage Restoration in Manteca",
+      "meta_description": "Trusted storm damage restoration in Manteca, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
+      "primary_keyword": "storm damage restoration manteca",
+      "secondary_keywords": [
+        "storm damage repair",
+        "roof storm damage repair",
+        "siding storm damage repair",
+        "wind damage repair contractor",
+        "storm damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/manteca-ca/",
+        "/service-areas/manteca-ca/home-remodeling/",
+        "/service-areas/manteca-ca/bathroom-remodeling/",
+        "/service-areas/carmichael-ca/storm-damage-restoration/",
+        "/service-areas/citrus-heights-ca/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/manteca-ca/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Manteca, CA | TDI USA, Inc.",
+      "h1": "Mold Remediation in Manteca",
+      "meta_description": "Trusted mold remediation in Manteca, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
+      "primary_keyword": "mold remediation manteca",
+      "secondary_keywords": [
+        "mold removal",
+        "mold remediation contractor",
+        "mold repair and rebuild",
+        "mold-safe renovation",
+        "post-remediation reconstruction"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/manteca-ca/",
+        "/service-areas/manteca-ca/home-remodeling/",
+        "/service-areas/manteca-ca/bathroom-remodeling/",
+        "/service-areas/carmichael-ca/mold-remediation/",
+        "/service-areas/citrus-heights-ca/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/manteca-ca/home-remodeling/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Home Remodeling in Manteca, CA | TDI USA, Inc.",
+      "h1": "Home Remodeling in Manteca",
+      "meta_description": "Trusted home remodeling in Manteca, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
+      "primary_keyword": "home remodeling manteca",
+      "secondary_keywords": [
+        "home renovation",
+        "whole home remodel",
+        "interior remodeling contractor",
+        "house renovation contractor",
+        "remodeling company"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/home-remodeling/",
+        "/service-areas/manteca-ca/",
+        "/service-areas/manteca-ca/bathroom-remodeling/",
+        "/service-areas/manteca-ca/kitchen-remodeling/",
+        "/service-areas/carmichael-ca/home-remodeling/",
+        "/service-areas/citrus-heights-ca/home-remodeling/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/manteca-ca/kitchen-remodeling/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Kitchen Remodeling in Manteca, CA | TDI USA, Inc.",
+      "h1": "Kitchen Remodeling in Manteca",
+      "meta_description": "Trusted kitchen remodeling in Manteca, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
+      "primary_keyword": "kitchen remodeling manteca",
+      "secondary_keywords": [
+        "kitchen remodel contractor",
+        "kitchen renovation",
+        "custom kitchen remodel",
+        "kitchen cabinet installation",
+        "kitchen makeover"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/kitchen-remodeling/",
+        "/service-areas/manteca-ca/",
+        "/service-areas/manteca-ca/home-remodeling/",
+        "/service-areas/manteca-ca/bathroom-remodeling/",
+        "/service-areas/carmichael-ca/kitchen-remodeling/",
+        "/service-areas/citrus-heights-ca/kitchen-remodeling/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/manteca-ca/bathroom-remodeling/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Bathroom Remodeling in Manteca, CA | TDI USA, Inc.",
+      "h1": "Bathroom Remodeling in Manteca",
+      "meta_description": "Trusted bathroom remodeling in Manteca, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
+      "primary_keyword": "bathroom remodeling manteca",
+      "secondary_keywords": [
+        "bathroom remodel contractor",
+        "bathroom renovation",
+        "shower remodel",
+        "tub to shower conversion",
+        "master bath remodel"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/bathroom-remodeling/",
+        "/service-areas/manteca-ca/",
+        "/service-areas/manteca-ca/home-remodeling/",
+        "/service-areas/manteca-ca/kitchen-remodeling/",
+        "/service-areas/carmichael-ca/bathroom-remodeling/",
+        "/service-areas/citrus-heights-ca/bathroom-remodeling/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/manteca-ca/garage-construction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Garage Construction in Manteca, CA | TDI USA, Inc.",
+      "h1": "Garage Construction in Manteca",
+      "meta_description": "Trusted garage construction in Manteca, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
+      "primary_keyword": "garage construction manteca",
+      "secondary_keywords": [
+        "garage builder",
+        "detached garage construction",
+        "attached garage addition",
+        "garage conversion",
+        "custom garage contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/garage-construction/",
+        "/service-areas/manteca-ca/",
+        "/service-areas/manteca-ca/home-remodeling/",
+        "/service-areas/manteca-ca/bathroom-remodeling/",
+        "/service-areas/carmichael-ca/garage-construction/",
+        "/service-areas/citrus-heights-ca/garage-construction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/manteca-ca/room-addition/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Room Additions and Home Additions in Manteca, CA | TDI USA, Inc.",
+      "h1": "Room Additions and Home Additions in Manteca",
+      "meta_description": "Trusted room additions and home additions in Manteca, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
+      "primary_keyword": "room additions and home additions manteca",
+      "secondary_keywords": [
+        "home addition contractor",
+        "room addition",
+        "add a room to house",
+        "house addition",
+        "bump out addition"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/room-addition/",
+        "/service-areas/manteca-ca/",
+        "/service-areas/manteca-ca/home-remodeling/",
+        "/service-areas/manteca-ca/bathroom-remodeling/",
+        "/service-areas/carmichael-ca/room-addition/",
+        "/service-areas/citrus-heights-ca/room-addition/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/turlock-ca/commercial-construction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Commercial Construction and Tenant Improvements in Turlock, CA | TDI USA, Inc.",
+      "h1": "Commercial Construction and Tenant Improvements in Turlock",
+      "meta_description": "Trusted commercial construction and tenant improvements in Turlock, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
+      "primary_keyword": "commercial construction and tenant improvements turlock",
+      "secondary_keywords": [
+        "commercial general contractor",
+        "tenant improvement contractor",
+        "commercial buildout",
+        "office renovation",
+        "retail construction"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/commercial-construction/",
+        "/service-areas/turlock-ca/",
+        "/service-areas/turlock-ca/home-remodeling/",
+        "/service-areas/turlock-ca/bathroom-remodeling/",
+        "/service-areas/carmichael-ca/commercial-construction/",
+        "/service-areas/citrus-heights-ca/commercial-construction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/turlock-ca/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Turlock, CA | TDI USA, Inc.",
+      "h1": "Renovations, Remodels and General Contracting in Turlock",
+      "meta_description": "Trusted renovations, remodels and general contracting in Turlock, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
+      "primary_keyword": "renovations, remodels and general contracting turlock",
+      "secondary_keywords": [
+        "general contractor",
+        "licensed general contractor",
+        "home improvement contractor",
+        "residential general contracting",
+        "design-build contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/turlock-ca/",
+        "/service-areas/turlock-ca/home-remodeling/",
+        "/service-areas/turlock-ca/bathroom-remodeling/",
+        "/service-areas/carmichael-ca/general-contracting/",
+        "/service-areas/citrus-heights-ca/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/turlock-ca/new-construction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "New Home Construction in Turlock, CA | TDI USA, Inc.",
+      "h1": "New Home Construction in Turlock",
+      "meta_description": "Trusted new home construction in Turlock, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
+      "primary_keyword": "new home construction turlock",
+      "secondary_keywords": [
+        "custom home builder",
+        "new home builder",
+        "build a house",
+        "residential construction",
+        "ground-up construction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/new-construction/",
+        "/service-areas/turlock-ca/",
+        "/service-areas/turlock-ca/home-remodeling/",
+        "/service-areas/turlock-ca/bathroom-remodeling/",
+        "/service-areas/carmichael-ca/new-construction/",
+        "/service-areas/citrus-heights-ca/new-construction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/turlock-ca/fire-smoke-rebuilding/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire and Smoke Damage Rebuilding in Turlock, CA | TDI USA, Inc.",
+      "h1": "Fire and Smoke Damage Rebuilding in Turlock",
+      "meta_description": "Trusted fire and smoke damage rebuilding in Turlock, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
+      "primary_keyword": "fire and smoke damage rebuilding turlock",
+      "secondary_keywords": [
+        "fire damage rebuild",
+        "fire damage repair contractor",
+        "smoke damage repair",
+        "fire restoration contractor",
+        "rebuild after fire"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-smoke-rebuilding/",
+        "/service-areas/turlock-ca/",
+        "/service-areas/turlock-ca/home-remodeling/",
+        "/service-areas/turlock-ca/bathroom-remodeling/",
+        "/service-areas/carmichael-ca/fire-smoke-rebuilding/",
+        "/service-areas/citrus-heights-ca/fire-smoke-rebuilding/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/turlock-ca/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Turlock, CA | TDI USA, Inc.",
+      "h1": "Water Damage Restoration in Turlock",
+      "meta_description": "Trusted water damage restoration in Turlock, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
+      "primary_keyword": "water damage restoration turlock",
+      "secondary_keywords": [
+        "water damage repair",
+        "water damage rebuild",
+        "drywall water damage repair",
+        "ceiling water damage repair",
+        "post-leak renovation"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/turlock-ca/",
+        "/service-areas/turlock-ca/home-remodeling/",
+        "/service-areas/turlock-ca/bathroom-remodeling/",
+        "/service-areas/carmichael-ca/water-damage-restoration/",
+        "/service-areas/citrus-heights-ca/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/turlock-ca/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Turlock, CA | TDI USA, Inc.",
+      "h1": "Storm Damage Restoration in Turlock",
+      "meta_description": "Trusted storm damage restoration in Turlock, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
+      "primary_keyword": "storm damage restoration turlock",
+      "secondary_keywords": [
+        "storm damage repair",
+        "roof storm damage repair",
+        "siding storm damage repair",
+        "wind damage repair contractor",
+        "storm damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/turlock-ca/",
+        "/service-areas/turlock-ca/home-remodeling/",
+        "/service-areas/turlock-ca/bathroom-remodeling/",
+        "/service-areas/carmichael-ca/storm-damage-restoration/",
+        "/service-areas/citrus-heights-ca/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/turlock-ca/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Turlock, CA | TDI USA, Inc.",
+      "h1": "Mold Remediation in Turlock",
+      "meta_description": "Trusted mold remediation in Turlock, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
+      "primary_keyword": "mold remediation turlock",
+      "secondary_keywords": [
+        "mold removal",
+        "mold remediation contractor",
+        "mold repair and rebuild",
+        "mold-safe renovation",
+        "post-remediation reconstruction"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/turlock-ca/",
+        "/service-areas/turlock-ca/home-remodeling/",
+        "/service-areas/turlock-ca/bathroom-remodeling/",
+        "/service-areas/carmichael-ca/mold-remediation/",
+        "/service-areas/citrus-heights-ca/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/turlock-ca/home-remodeling/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Home Remodeling in Turlock, CA | TDI USA, Inc.",
+      "h1": "Home Remodeling in Turlock",
+      "meta_description": "Trusted home remodeling in Turlock, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
+      "primary_keyword": "home remodeling turlock",
+      "secondary_keywords": [
+        "home renovation",
+        "whole home remodel",
+        "interior remodeling contractor",
+        "house renovation contractor",
+        "remodeling company"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/home-remodeling/",
+        "/service-areas/turlock-ca/",
+        "/service-areas/turlock-ca/bathroom-remodeling/",
+        "/service-areas/turlock-ca/kitchen-remodeling/",
+        "/service-areas/carmichael-ca/home-remodeling/",
+        "/service-areas/citrus-heights-ca/home-remodeling/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/turlock-ca/kitchen-remodeling/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Kitchen Remodeling in Turlock, CA | TDI USA, Inc.",
+      "h1": "Kitchen Remodeling in Turlock",
+      "meta_description": "Trusted kitchen remodeling in Turlock, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
+      "primary_keyword": "kitchen remodeling turlock",
+      "secondary_keywords": [
+        "kitchen remodel contractor",
+        "kitchen renovation",
+        "custom kitchen remodel",
+        "kitchen cabinet installation",
+        "kitchen makeover"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/kitchen-remodeling/",
+        "/service-areas/turlock-ca/",
+        "/service-areas/turlock-ca/home-remodeling/",
+        "/service-areas/turlock-ca/bathroom-remodeling/",
+        "/service-areas/carmichael-ca/kitchen-remodeling/",
+        "/service-areas/citrus-heights-ca/kitchen-remodeling/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/turlock-ca/bathroom-remodeling/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Bathroom Remodeling in Turlock, CA | TDI USA, Inc.",
+      "h1": "Bathroom Remodeling in Turlock",
+      "meta_description": "Trusted bathroom remodeling in Turlock, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
+      "primary_keyword": "bathroom remodeling turlock",
+      "secondary_keywords": [
+        "bathroom remodel contractor",
+        "bathroom renovation",
+        "shower remodel",
+        "tub to shower conversion",
+        "master bath remodel"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/bathroom-remodeling/",
+        "/service-areas/turlock-ca/",
+        "/service-areas/turlock-ca/home-remodeling/",
+        "/service-areas/turlock-ca/kitchen-remodeling/",
+        "/service-areas/carmichael-ca/bathroom-remodeling/",
+        "/service-areas/citrus-heights-ca/bathroom-remodeling/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/turlock-ca/garage-construction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Garage Construction in Turlock, CA | TDI USA, Inc.",
+      "h1": "Garage Construction in Turlock",
+      "meta_description": "Trusted garage construction in Turlock, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
+      "primary_keyword": "garage construction turlock",
+      "secondary_keywords": [
+        "garage builder",
+        "detached garage construction",
+        "attached garage addition",
+        "garage conversion",
+        "custom garage contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/garage-construction/",
+        "/service-areas/turlock-ca/",
+        "/service-areas/turlock-ca/home-remodeling/",
+        "/service-areas/turlock-ca/bathroom-remodeling/",
+        "/service-areas/carmichael-ca/garage-construction/",
+        "/service-areas/citrus-heights-ca/garage-construction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/turlock-ca/room-addition/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Room Additions and Home Additions in Turlock, CA | TDI USA, Inc.",
+      "h1": "Room Additions and Home Additions in Turlock",
+      "meta_description": "Trusted room additions and home additions in Turlock, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
+      "primary_keyword": "room additions and home additions turlock",
+      "secondary_keywords": [
+        "home addition contractor",
+        "room addition",
+        "add a room to house",
+        "house addition",
+        "bump out addition"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/room-addition/",
+        "/service-areas/turlock-ca/",
+        "/service-areas/turlock-ca/home-remodeling/",
+        "/service-areas/turlock-ca/bathroom-remodeling/",
         "/service-areas/carmichael-ca/room-addition/",
         "/service-areas/citrus-heights-ca/room-addition/",
         "/contact/"
@@ -9261,10 +10419,10 @@
       "vars_keys": [
         "instance"
       ],
-      "title": "Privacy Policy | TDI Builders, Inc.",
+      "title": "Privacy Policy | TDI USA, Inc.",
       "h1": "Privacy Policy",
       "meta_description": "Privacy Policy | {brand.display_name}.",
-      "primary_keyword": "tdi builders, inc. privacy",
+      "primary_keyword": "tdi usa, inc. privacy",
       "secondary_keywords": [],
       "search_intent": "navigational_legal",
       "target_word_count": 600,
@@ -9282,10 +10440,10 @@
       "vars_keys": [
         "instance"
       ],
-      "title": "Terms of Service | TDI Builders, Inc.",
+      "title": "Terms of Service | TDI USA, Inc.",
       "h1": "Terms of Service",
       "meta_description": "Terms of Service | {brand.display_name}.",
-      "primary_keyword": "tdi builders, inc. terms",
+      "primary_keyword": "tdi usa, inc. terms",
       "secondary_keywords": [],
       "search_intent": "navigational_legal",
       "target_word_count": 600,
@@ -9303,10 +10461,10 @@
       "vars_keys": [
         "instance"
       ],
-      "title": "Accessibility Statement | TDI Builders, Inc.",
+      "title": "Accessibility Statement | TDI USA, Inc.",
       "h1": "Accessibility Statement",
       "meta_description": "Accessibility Statement | {brand.display_name}.",
-      "primary_keyword": "tdi builders, inc. accessibility",
+      "primary_keyword": "tdi usa, inc. accessibility",
       "secondary_keywords": [],
       "search_intent": "navigational_legal",
       "target_word_count": 400,

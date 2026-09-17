@@ -1,20 +1,20 @@
-# Site Plan Report — TDI Builders, Inc.
+# Site Plan Report — TDI USA, Inc.
 
 - Template: `construction` v0.1.0
-- Generated: 2026-08-24T07:43:17.597777+00:00
+- Generated: 2026-09-17T22:59:01.122439+00:00
 - Domain: `tdiusa.com`
 - Services selected: 12 of 23 catalog entries
-- Service areas: 15
+- Service areas: 17
 - Cross-product enabled: True
-- Total URLs: **211**
-- Total internal links: 1710 (avg 8.1 per page)
+- Total URLs: **237**
+- Total internal links: 1916 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 168 |
-| `service-area` | 14 |
+| `service-area-service` | 192 |
+| `service-area` | 16 |
 | `service-landing` | 12 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -57,6 +57,8 @@
 - `granite-bay-ca` — Granite Bay, CA
 - `el-dorado-hills-ca` — El Dorado Hills, CA
 - `loomis-ca` — Loomis, CA
+- `manteca-ca` — Manteca, CA
+- `turlock-ca` — Turlock, CA
 
 ## Top 10 priority pages
 

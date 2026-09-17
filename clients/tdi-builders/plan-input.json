@@ -148,6 +148,16 @@
       "city": "Loomis",
       "state": "CA",
       "slug": "loomis-ca"
+    },
+    {
+      "city": "Manteca",
+      "state": "CA",
+      "slug": "manteca-ca"
+    },
+    {
+      "city": "Turlock",
+      "state": "CA",
+      "slug": "turlock-ca"
     }
   ],
   "template": "construction",

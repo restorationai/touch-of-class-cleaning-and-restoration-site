@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Home Remodeling in Manteca, CA | TDI USA, Inc."
+h1: "Home Remodeling in Manteca"
+meta_description: "Trusted home remodeling in Manteca, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
+primary_keyword: "home remodeling manteca"
+secondary_keywords: ["home renovation", "whole home remodel", "interior remodeling contractor", "house renovation contractor", "remodeling company"]
+search_intent: "local_commercial"
+priority: 7.0
+plan_hash: "a0b479f027cb007c"
+generated_at: "2026-09-17T22:59:25.587363+00:00"
+manual_override: false
+internal_links: ["/services/home-remodeling/", "/service-areas/manteca-ca/", "/service-areas/manteca-ca/bathroom-remodeling/", "/service-areas/manteca-ca/kitchen-remodeling/", "/service-areas/carmichael-ca/home-remodeling/", "/service-areas/citrus-heights-ca/home-remodeling/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Manteca", "url": "/service-areas/manteca-ca/"}, {"name": "Home Remodeling"}]
+faq: []
+area_slug: "manteca-ca"
+service_slug: "home-remodeling"
+city: "Manteca"
+state: "CA"
+service_display: "Home Remodeling"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug tdi-builders` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Home Remodeling in Manteca.

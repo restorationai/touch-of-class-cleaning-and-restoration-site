@@ -25,10 +25,12 @@
     "/service-areas/granite-bay-ca/",
     "/service-areas/lincoln-ca/",
     "/service-areas/loomis-ca/",
+    "/service-areas/manteca-ca/",
     "/service-areas/modesto-ca/",
     "/service-areas/rancho-cordova-ca/",
     "/service-areas/rocklin-ca/",
     "/service-areas/roseville-ca/",
+    "/service-areas/turlock-ca/",
     "/service-areas/west-sacramento-ca/"
   ],
   "/services/": [
@@ -57,10 +59,12 @@
     "/service-areas/granite-bay-ca/",
     "/service-areas/lincoln-ca/",
     "/service-areas/loomis-ca/",
+    "/service-areas/manteca-ca/",
     "/service-areas/modesto-ca/",
     "/service-areas/rancho-cordova-ca/",
     "/service-areas/rocklin-ca/",
     "/service-areas/roseville-ca/",
+    "/service-areas/turlock-ca/",
     "/service-areas/west-sacramento-ca/"
   ],
   "/blog/": [
@@ -96,9 +100,9 @@
     "/service-areas/granite-bay-ca/commercial-construction/",
     "/service-areas/lincoln-ca/commercial-construction/",
     "/service-areas/loomis-ca/commercial-construction/",
+    "/service-areas/manteca-ca/commercial-construction/",
     "/service-areas/modesto-ca/commercial-construction/",
-    "/service-areas/rancho-cordova-ca/commercial-construction/",
-    "/service-areas/rocklin-ca/commercial-construction/"
+    "/service-areas/rancho-cordova-ca/commercial-construction/"
   ],
   "/services/general-contracting/": [
     "/services/",
@@ -112,9 +116,9 @@
     "/service-areas/granite-bay-ca/general-contracting/",
     "/service-areas/lincoln-ca/general-contracting/",
     "/service-areas/loomis-ca/general-contracting/",
+    "/service-areas/manteca-ca/general-contracting/",
     "/service-areas/modesto-ca/general-contracting/",
     "/service-areas/rancho-cordova-ca/general-contracting/",
-    "/service-areas/rocklin-ca/general-contracting/",
     "/blog/choosing-a-general-contractor/",
     "/blog/how-to-plan-a-home-remodel/",
     "/blog/do-you-need-a-permit/"
@@ -131,9 +135,9 @@
     "/service-areas/granite-bay-ca/new-construction/",
     "/service-areas/lincoln-ca/new-construction/",
     "/service-areas/loomis-ca/new-construction/",
+    "/service-areas/manteca-ca/new-construction/",
     "/service-areas/modesto-ca/new-construction/",
     "/service-areas/rancho-cordova-ca/new-construction/",
-    "/service-areas/rocklin-ca/new-construction/",
     "/blog/choosing-a-general-contractor/"
   ],
   "/services/fire-smoke-rebuilding/": [
@@ -148,9 +152,9 @@
     "/service-areas/granite-bay-ca/fire-smoke-rebuilding/",
     "/service-areas/lincoln-ca/fire-smoke-rebuilding/",
     "/service-areas/loomis-ca/fire-smoke-rebuilding/",
+    "/service-areas/manteca-ca/fire-smoke-rebuilding/",
     "/service-areas/modesto-ca/fire-smoke-rebuilding/",
-    "/service-areas/rancho-cordova-ca/fire-smoke-rebuilding/",
-    "/service-areas/rocklin-ca/fire-smoke-rebuilding/"
+    "/service-areas/rancho-cordova-ca/fire-smoke-rebuilding/"
   ],
   "/services/water-damage-restoration/": [
     "/services/",
@@ -164,9 +168,9 @@
     "/service-areas/granite-bay-ca/water-damage-restoration/",
     "/service-areas/lincoln-ca/water-damage-restoration/",
     "/service-areas/loomis-ca/water-damage-restoration/",
+    "/service-areas/manteca-ca/water-damage-restoration/",
     "/service-areas/modesto-ca/water-damage-restoration/",
-    "/service-areas/rancho-cordova-ca/water-damage-restoration/",
-    "/service-areas/rocklin-ca/water-damage-restoration/"
+    "/service-areas/rancho-cordova-ca/water-damage-restoration/"
   ],
   "/services/storm-damage-restoration/": [
     "/services/",
@@ -180,9 +184,9 @@
     "/service-areas/granite-bay-ca/storm-damage-restoration/",
     "/service-areas/lincoln-ca/storm-damage-restoration/",
     "/service-areas/loomis-ca/storm-damage-restoration/",
+    "/service-areas/manteca-ca/storm-damage-restoration/",
     "/service-areas/modesto-ca/storm-damage-restoration/",
     "/service-areas/rancho-cordova-ca/storm-damage-restoration/",
-    "/service-areas/rocklin-ca/storm-damage-restoration/",
     "/blog/storm-damage-insurance-claim-checklist/",
     "/blog/storm-damage-repair-process/"
   ],
@@ -198,9 +202,9 @@
     "/service-areas/granite-bay-ca/mold-remediation/",
     "/service-areas/lincoln-ca/mold-remediation/",
     "/service-areas/loomis-ca/mold-remediation/",
+    "/service-areas/manteca-ca/mold-remediation/",
     "/service-areas/modesto-ca/mold-remediation/",
     "/service-areas/rancho-cordova-ca/mold-remediation/",
-    "/service-areas/rocklin-ca/mold-remediation/",
     "/blog/mold-found-during-renovation/"
   ],
   "/services/home-remodeling/": [
@@ -215,9 +219,9 @@
     "/service-areas/granite-bay-ca/home-remodeling/",
     "/service-areas/lincoln-ca/home-remodeling/",
     "/service-areas/loomis-ca/home-remodeling/",
+    "/service-areas/manteca-ca/home-remodeling/",
     "/service-areas/modesto-ca/home-remodeling/",
     "/service-areas/rancho-cordova-ca/home-remodeling/",
-    "/service-areas/rocklin-ca/home-remodeling/",
     "/blog/choosing-a-general-contractor/",
     "/blog/how-to-plan-a-home-remodel/",
     "/blog/do-you-need-a-permit/"
@@ -234,9 +238,9 @@
     "/service-areas/granite-bay-ca/kitchen-remodeling/",
     "/service-areas/lincoln-ca/kitchen-remodeling/",
     "/service-areas/loomis-ca/kitchen-remodeling/",
+    "/service-areas/manteca-ca/kitchen-remodeling/",
     "/service-areas/modesto-ca/kitchen-remodeling/",
     "/service-areas/rancho-cordova-ca/kitchen-remodeling/",
-    "/service-areas/rocklin-ca/kitchen-remodeling/",
     "/blog/kitchen-remodel-cost-breakdown/"
   ],
   "/services/bathroom-remodeling/": [
@@ -251,9 +255,9 @@
     "/service-areas/granite-bay-ca/bathroom-remodeling/",
     "/service-areas/lincoln-ca/bathroom-remodeling/",
     "/service-areas/loomis-ca/bathroom-remodeling/",
+    "/service-areas/manteca-ca/bathroom-remodeling/",
     "/service-areas/modesto-ca/bathroom-remodeling/",
-    "/service-areas/rancho-cordova-ca/bathroom-remodeling/",
-    "/service-areas/rocklin-ca/bathroom-remodeling/"
+    "/service-areas/rancho-cordova-ca/bathroom-remodeling/"
   ],
   "/services/garage-construction/": [
     "/services/",
@@ -267,9 +271,9 @@
     "/service-areas/granite-bay-ca/garage-construction/",
     "/service-areas/lincoln-ca/garage-construction/",
     "/service-areas/loomis-ca/garage-construction/",
+    "/service-areas/manteca-ca/garage-construction/",
     "/service-areas/modesto-ca/garage-construction/",
-    "/service-areas/rancho-cordova-ca/garage-construction/",
-    "/service-areas/rocklin-ca/garage-construction/"
+    "/service-areas/rancho-cordova-ca/garage-construction/"
   ],
   "/services/room-addition/": [
     "/services/",
@@ -283,9 +287,9 @@
     "/service-areas/granite-bay-ca/room-addition/",
     "/service-areas/lincoln-ca/room-addition/",
     "/service-areas/loomis-ca/room-addition/",
+    "/service-areas/manteca-ca/room-addition/",
     "/service-areas/modesto-ca/room-addition/",
     "/service-areas/rancho-cordova-ca/room-addition/",
-    "/service-areas/rocklin-ca/room-addition/",
     "/blog/do-you-need-a-permit/"
   ],
   "/service-areas/roseville-ca/": [
@@ -550,6 +554,44 @@
     "/service-areas/loomis-ca/storm-damage-restoration/",
     "/service-areas/loomis-ca/water-damage-restoration/",
     "/service-areas/loomis-ca/garage-construction/",
+    "/service-areas/carmichael-ca/",
+    "/service-areas/citrus-heights-ca/",
+    "/service-areas/el-dorado-hills-ca/"
+  ],
+  "/service-areas/manteca-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/manteca-ca/home-remodeling/",
+    "/service-areas/manteca-ca/bathroom-remodeling/",
+    "/service-areas/manteca-ca/kitchen-remodeling/",
+    "/service-areas/manteca-ca/new-construction/",
+    "/service-areas/manteca-ca/general-contracting/",
+    "/service-areas/manteca-ca/room-addition/",
+    "/service-areas/manteca-ca/commercial-construction/",
+    "/service-areas/manteca-ca/fire-smoke-rebuilding/",
+    "/service-areas/manteca-ca/mold-remediation/",
+    "/service-areas/manteca-ca/storm-damage-restoration/",
+    "/service-areas/manteca-ca/water-damage-restoration/",
+    "/service-areas/manteca-ca/garage-construction/",
+    "/service-areas/carmichael-ca/",
+    "/service-areas/citrus-heights-ca/",
+    "/service-areas/el-dorado-hills-ca/"
+  ],
+  "/service-areas/turlock-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/turlock-ca/home-remodeling/",
+    "/service-areas/turlock-ca/bathroom-remodeling/",
+    "/service-areas/turlock-ca/kitchen-remodeling/",
+    "/service-areas/turlock-ca/new-construction/",
+    "/service-areas/turlock-ca/general-contracting/",
+    "/service-areas/turlock-ca/room-addition/",
+    "/service-areas/turlock-ca/commercial-construction/",
+    "/service-areas/turlock-ca/fire-smoke-rebuilding/",
+    "/service-areas/turlock-ca/mold-remediation/",
+    "/service-areas/turlock-ca/storm-damage-restoration/",
+    "/service-areas/turlock-ca/water-damage-restoration/",
+    "/service-areas/turlock-ca/garage-construction/",
     "/service-areas/carmichael-ca/",
     "/service-areas/citrus-heights-ca/",
     "/service-areas/el-dorado-hills-ca/"
@@ -2062,6 +2104,222 @@
     "/service-areas/loomis-ca/",
     "/service-areas/loomis-ca/home-remodeling/",
     "/service-areas/loomis-ca/bathroom-remodeling/",
+    "/service-areas/carmichael-ca/room-addition/",
+    "/service-areas/citrus-heights-ca/room-addition/",
+    "/contact/"
+  ],
+  "/service-areas/manteca-ca/commercial-construction/": [
+    "/services/commercial-construction/",
+    "/service-areas/manteca-ca/",
+    "/service-areas/manteca-ca/home-remodeling/",
+    "/service-areas/manteca-ca/bathroom-remodeling/",
+    "/service-areas/carmichael-ca/commercial-construction/",
+    "/service-areas/citrus-heights-ca/commercial-construction/",
+    "/contact/"
+  ],
+  "/service-areas/manteca-ca/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/manteca-ca/",
+    "/service-areas/manteca-ca/home-remodeling/",
+    "/service-areas/manteca-ca/bathroom-remodeling/",
+    "/service-areas/carmichael-ca/general-contracting/",
+    "/service-areas/citrus-heights-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/manteca-ca/new-construction/": [
+    "/services/new-construction/",
+    "/service-areas/manteca-ca/",
+    "/service-areas/manteca-ca/home-remodeling/",
+    "/service-areas/manteca-ca/bathroom-remodeling/",
+    "/service-areas/carmichael-ca/new-construction/",
+    "/service-areas/citrus-heights-ca/new-construction/",
+    "/contact/"
+  ],
+  "/service-areas/manteca-ca/fire-smoke-rebuilding/": [
+    "/services/fire-smoke-rebuilding/",
+    "/service-areas/manteca-ca/",
+    "/service-areas/manteca-ca/home-remodeling/",
+    "/service-areas/manteca-ca/bathroom-remodeling/",
+    "/service-areas/carmichael-ca/fire-smoke-rebuilding/",
+    "/service-areas/citrus-heights-ca/fire-smoke-rebuilding/",
+    "/contact/"
+  ],
+  "/service-areas/manteca-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/manteca-ca/",
+    "/service-areas/manteca-ca/home-remodeling/",
+    "/service-areas/manteca-ca/bathroom-remodeling/",
+    "/service-areas/carmichael-ca/water-damage-restoration/",
+    "/service-areas/citrus-heights-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/manteca-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/manteca-ca/",
+    "/service-areas/manteca-ca/home-remodeling/",
+    "/service-areas/manteca-ca/bathroom-remodeling/",
+    "/service-areas/carmichael-ca/storm-damage-restoration/",
+    "/service-areas/citrus-heights-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/manteca-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/manteca-ca/",
+    "/service-areas/manteca-ca/home-remodeling/",
+    "/service-areas/manteca-ca/bathroom-remodeling/",
+    "/service-areas/carmichael-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/manteca-ca/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/manteca-ca/",
+    "/service-areas/manteca-ca/bathroom-remodeling/",
+    "/service-areas/manteca-ca/kitchen-remodeling/",
+    "/service-areas/carmichael-ca/home-remodeling/",
+    "/service-areas/citrus-heights-ca/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/manteca-ca/kitchen-remodeling/": [
+    "/services/kitchen-remodeling/",
+    "/service-areas/manteca-ca/",
+    "/service-areas/manteca-ca/home-remodeling/",
+    "/service-areas/manteca-ca/bathroom-remodeling/",
+    "/service-areas/carmichael-ca/kitchen-remodeling/",
+    "/service-areas/citrus-heights-ca/kitchen-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/manteca-ca/bathroom-remodeling/": [
+    "/services/bathroom-remodeling/",
+    "/service-areas/manteca-ca/",
+    "/service-areas/manteca-ca/home-remodeling/",
+    "/service-areas/manteca-ca/kitchen-remodeling/",
+    "/service-areas/carmichael-ca/bathroom-remodeling/",
+    "/service-areas/citrus-heights-ca/bathroom-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/manteca-ca/garage-construction/": [
+    "/services/garage-construction/",
+    "/service-areas/manteca-ca/",
+    "/service-areas/manteca-ca/home-remodeling/",
+    "/service-areas/manteca-ca/bathroom-remodeling/",
+    "/service-areas/carmichael-ca/garage-construction/",
+    "/service-areas/citrus-heights-ca/garage-construction/",
+    "/contact/"
+  ],
+  "/service-areas/manteca-ca/room-addition/": [
+    "/services/room-addition/",
+    "/service-areas/manteca-ca/",
+    "/service-areas/manteca-ca/home-remodeling/",
+    "/service-areas/manteca-ca/bathroom-remodeling/",
+    "/service-areas/carmichael-ca/room-addition/",
+    "/service-areas/citrus-heights-ca/room-addition/",
+    "/contact/"
+  ],
+  "/service-areas/turlock-ca/commercial-construction/": [
+    "/services/commercial-construction/",
+    "/service-areas/turlock-ca/",
+    "/service-areas/turlock-ca/home-remodeling/",
+    "/service-areas/turlock-ca/bathroom-remodeling/",
+    "/service-areas/carmichael-ca/commercial-construction/",
+    "/service-areas/citrus-heights-ca/commercial-construction/",
+    "/contact/"
+  ],
+  "/service-areas/turlock-ca/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/turlock-ca/",
+    "/service-areas/turlock-ca/home-remodeling/",
+    "/service-areas/turlock-ca/bathroom-remodeling/",
+    "/service-areas/carmichael-ca/general-contracting/",
+    "/service-areas/citrus-heights-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/turlock-ca/new-construction/": [
+    "/services/new-construction/",
+    "/service-areas/turlock-ca/",
+    "/service-areas/turlock-ca/home-remodeling/",
+    "/service-areas/turlock-ca/bathroom-remodeling/",
+    "/service-areas/carmichael-ca/new-construction/",
+    "/service-areas/citrus-heights-ca/new-construction/",
+    "/contact/"
+  ],
+  "/service-areas/turlock-ca/fire-smoke-rebuilding/": [
+    "/services/fire-smoke-rebuilding/",
+    "/service-areas/turlock-ca/",
+    "/service-areas/turlock-ca/home-remodeling/",
+    "/service-areas/turlock-ca/bathroom-remodeling/",
+    "/service-areas/carmichael-ca/fire-smoke-rebuilding/",
+    "/service-areas/citrus-heights-ca/fire-smoke-rebuilding/",
+    "/contact/"
+  ],
+  "/service-areas/turlock-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/turlock-ca/",
+    "/service-areas/turlock-ca/home-remodeling/",
+    "/service-areas/turlock-ca/bathroom-remodeling/",
+    "/service-areas/carmichael-ca/water-damage-restoration/",
+    "/service-areas/citrus-heights-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/turlock-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/turlock-ca/",
+    "/service-areas/turlock-ca/home-remodeling/",
+    "/service-areas/turlock-ca/bathroom-remodeling/",
+    "/service-areas/carmichael-ca/storm-damage-restoration/",
+    "/service-areas/citrus-heights-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/turlock-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/turlock-ca/",
+    "/service-areas/turlock-ca/home-remodeling/",
+    "/service-areas/turlock-ca/bathroom-remodeling/",
+    "/service-areas/carmichael-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/turlock-ca/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/turlock-ca/",
+    "/service-areas/turlock-ca/bathroom-remodeling/",
+    "/service-areas/turlock-ca/kitchen-remodeling/",
+    "/service-areas/carmichael-ca/home-remodeling/",
+    "/service-areas/citrus-heights-ca/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/turlock-ca/kitchen-remodeling/": [
+    "/services/kitchen-remodeling/",
+    "/service-areas/turlock-ca/",
+    "/service-areas/turlock-ca/home-remodeling/",
+    "/service-areas/turlock-ca/bathroom-remodeling/",
+    "/service-areas/carmichael-ca/kitchen-remodeling/",
+    "/service-areas/citrus-heights-ca/kitchen-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/turlock-ca/bathroom-remodeling/": [
+    "/services/bathroom-remodeling/",
+    "/service-areas/turlock-ca/",
+    "/service-areas/turlock-ca/home-remodeling/",
+    "/service-areas/turlock-ca/kitchen-remodeling/",
+    "/service-areas/carmichael-ca/bathroom-remodeling/",
+    "/service-areas/citrus-heights-ca/bathroom-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/turlock-ca/garage-construction/": [
+    "/services/garage-construction/",
+    "/service-areas/turlock-ca/",
+    "/service-areas/turlock-ca/home-remodeling/",
+    "/service-areas/turlock-ca/bathroom-remodeling/",
+    "/service-areas/carmichael-ca/garage-construction/",
+    "/service-areas/citrus-heights-ca/garage-construction/",
+    "/contact/"
+  ],
+  "/service-areas/turlock-ca/room-addition/": [
+    "/services/room-addition/",
+    "/service-areas/turlock-ca/",
+    "/service-areas/turlock-ca/home-remodeling/",
+    "/service-areas/turlock-ca/bathroom-remodeling/",
     "/service-areas/carmichael-ca/room-addition/",
     "/service-areas/citrus-heights-ca/room-addition/",
     "/contact/"
