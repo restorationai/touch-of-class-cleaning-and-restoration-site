@@ -24,6 +24,7 @@ import base64
 import json
 import os
 import sys
+import time
 import urllib.request
 import urllib.error
 from datetime import datetime, timezone
@@ -306,6 +307,16 @@ def main() -> int:
     ap.add_argument("--engines", default=",".join(DEFAULT_ENGINES),
                     help=f"comma-separated engines. available: {','.join(ENGINES)}")
     ap.add_argument("--dry-run", action="store_true")
+    # B1 SHARDING (2026-09-17): the fleet run NEVER finished inside the
+    # 20-minute step budget — it died mid-alphabet every week since early
+    # August, so late-roster clients (RestorationXpress...) had frozen
+    # history and the app showed stale 0%s. A shard scans N clients from a
+    # durable ops_kv cursor and stops early on the wall-clock budget;
+    # Mon+Thu shards of 19 = full fleet every week, every run completing.
+    ap.add_argument("--shard", type=int, default=0,
+                    help="scan N clients from the saved cursor (0 = all, old behavior)")
+    ap.add_argument("--budget-min", type=int, default=0,
+                    help="stop early after this many minutes (cursor saves progress)")
     args = ap.parse_args()
     if not (os.environ.get("SUPABASE_URL") and os.environ.get("SUPABASE_SERVICE_ROLE_KEY")):
         print("ERROR: SUPABASE_URL + SUPABASE_SERVICE_ROLE_KEY required.", file=sys.stderr); return 1
@@ -314,12 +325,59 @@ def main() -> int:
         print(f"ERROR: no valid engines. available: {','.join(ENGINES)}", file=sys.stderr); return 1
     u, p = load_dfs_creds()
     auth = base64.b64encode(f"{u}:{p}".encode()).decode()
-    slugs = list(json.loads((ROOT / "clients" / "company_map.json").read_text())) if args.all else [args.slug]
-    total = 0.0
+    all_slugs = sorted(json.loads((ROOT / "clients" / "company_map.json").read_text())) \
+        if args.all else [args.slug]
+    start_i = 0
+    if args.all and args.shard:
+        row = _sb_get_kv("ai-scan-cursor")
+        start_i = int((row or {}).get("i") or 0) % max(len(all_slugs), 1)
+        slugs = [all_slugs[(start_i + k) % len(all_slugs)]
+                 for k in range(min(args.shard, len(all_slugs)))]
+        print(f"shard: {len(slugs)} client(s) from cursor {start_i} "
+              f"({slugs[0]} ...)")
+    else:
+        slugs = all_slugs
+    total, done = 0.0, 0
+    t0 = time.monotonic()
     for s in slugs:
+        if args.budget_min and (time.monotonic() - t0) > args.budget_min * 60:
+            print(f"  budget reached after {done} client(s) — cursor saves the rest")
+            break
         total += run_for(s, auth, args.limit, engines, args.dry_run)
-    print(f"\nTOTAL DataForSEO spend: ${total:.3f}")
+        done += 1
+        if args.all and args.shard and not args.dry_run:
+            _sb_set_kv("ai-scan-cursor", {"i": (start_i + done) % len(all_slugs),
+                                          "at": datetime.now(timezone.utc).isoformat()})
+    if args.all and args.shard and not args.dry_run:
+        _sb_set_kv("heartbeat:ai-scan",
+                   {"at": datetime.now(timezone.utc).isoformat(),
+                    "scanned": done})
+    print(f"\nTOTAL DataForSEO spend: ${total:.3f} ({done} client(s))")
     return 0
+
+
+def _sb_get_kv(key: str) -> dict | None:
+    import urllib.request as _u
+    k = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+    req = _u.Request(os.environ["SUPABASE_URL"].rstrip("/")
+                     + f"/rest/v1/ops_kv?k=eq.{key}&select=v",
+                     headers={"apikey": k, "Authorization": f"Bearer {k}"})
+    with _u.urlopen(req, timeout=20) as r:
+        rows = json.loads(r.read() or b"[]")
+    return rows[0]["v"] if rows else None
+
+
+def _sb_set_kv(key: str, val: dict) -> None:
+    import urllib.request as _u
+    k = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+    req = _u.Request(os.environ["SUPABASE_URL"].rstrip("/")
+                     + "/rest/v1/ops_kv?on_conflict=k", method="POST",
+                     data=json.dumps({"k": key, "v": val}).encode(),
+                     headers={"apikey": k, "Authorization": f"Bearer {k}",
+                              "Content-Type": "application/json",
+                              "Prefer": "resolution=merge-duplicates"})
+    with _u.urlopen(req, timeout=20) as r:
+        r.read()
 
 
 if __name__ == "__main__":

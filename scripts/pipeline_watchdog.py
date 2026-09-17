@@ -51,7 +51,8 @@ WATCHED_WORKFLOWS = [
     "weekly-maintenance.yml", "call-intel.yml", "gbp-maintenance.yml",
     "monthly-reports.yml", "dev-agent.yml", "site-render.yml",
 ]
-HEARTBEATS = {"heartbeat:parity": 8, "heartbeat:service-bank": 8}
+HEARTBEATS = {"heartbeat:parity": 8, "heartbeat:service-bank": 8,
+              "heartbeat:ai-scan": 5}
 NOW = datetime.now(timezone.utc)
 
 

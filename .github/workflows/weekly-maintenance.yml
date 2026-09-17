@@ -251,19 +251,31 @@ jobs:
           GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
         run: python3 scripts/gbp_photos.py --all --limit 3
 
-      - name: Scan AI search visibility (weekly — Monday + manual)
-        if: ${{ !inputs.content_only && (github.event.schedule == '0 16 * * 1' || github.event_name == 'workflow_dispatch') }}
-        # 08-24 run: this step hung 41 minutes and the 2h job cap killed the
-        # whole workflow before content was committed. Cap it, never let it
-        # take the run down.
-        timeout-minutes: 20
+      - name: Service bank fan-out (A5 weekly, 2026-09-17)
+        if: ${{ !inputs.content_only }}
+        timeout-minutes: 10
+        continue-on-error: true
+        env:
+          SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: python3 scripts/gbp_service_bank.py
+
+      - name: Scan AI search visibility (sharded — every run completes)
+        if: ${{ !inputs.content_only }}
+        timeout-minutes: 45
         continue-on-error: true
         env:
           SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           DATAFORSEO_USERNAME:        ${{ secrets.DATAFORSEO_USERNAME }}
           DATAFORSEO_PASSWORD:        ${{ secrets.DATAFORSEO_PASSWORD }}
-        run: python3 scripts/ai_search_scan.py --all --limit 8 --engines chatgpt,gemini,perplexity,claude
+        # B1 (2026-09-17): the unsharded fleet run timed out at 20 min EVERY
+        # week since early August — late-roster clients never got scanned and
+        # the app's visibility history froze. 19-client shards from a durable
+        # cursor, Mon + Thu = the whole fleet every week, with per-client
+        # history written as each client completes and a heartbeat the
+        # pipeline watchdog monitors.
+        run: python3 scripts/ai_search_scan.py --all --limit 8 --engines chatgpt,gemini,perplexity,claude --shard 19 --budget-min 38
 
       - name: Track Google AI Overviews (weekly — Monday + manual)
         if: ${{ !inputs.content_only && (github.event.schedule == '0 16 * * 1' || github.event_name == 'workflow_dispatch') }}
