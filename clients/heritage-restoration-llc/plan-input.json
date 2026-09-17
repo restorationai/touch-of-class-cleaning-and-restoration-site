@@ -11,6 +11,8 @@
   "state": "MN",
   "postal_code": "56345",
   "theme": "light",
+  "primary_color": "#184080",
+  "color_source": "sampled from the client logo (public/images/logo.png, 2026-09-17): royal navy #184080 is the dominant flat fill of the H house mark and the HERITAGE RESTORATION wordmark; gold ~#f8d888 is the secondary accent (house window + wordmark divider).",
   "certifications": [
    "IICRC WRT (WATER)",
    "IICRC FSRT (FIRE & SMOKE)",
