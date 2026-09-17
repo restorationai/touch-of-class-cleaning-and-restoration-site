@@ -1,6 +1,60 @@
 {
   "slug": "heritage-restoration-llc",
   "assets": {
+    "crew:1789657306938-3fa5ed4b": {
+      "source": "crew",
+      "storage": "job-photos/1789657306938-3fa5ed4b.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1789496674784/job-photos/1789657306938-3fa5ed4b.jpg",
+      "width": 1079,
+      "height": 422,
+      "bytes": 102947,
+      "sha1": "7de48ae856b428e6",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Side-by-side before and after roof replacement collage",
+      "quality": 62,
+      "slots": {
+        "hero": 15,
+        "team": 5,
+        "services": 40
+      },
+      "service_slugs": [
+        "storm-damage-restoration",
+        "general-contracting"
+      ],
+      "flags": [
+        "text_overlay"
+      ],
+      "reason": "Before/After labels burnt into composite collage; counts as graphic not before_after.",
+      "triaged_at": "2026-09-17T16:26:24Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789660810913-heritage_Restoration_Van__Wrap-Rough": {
+      "source": "crew",
+      "storage": "job-photos/1789660810913-heritage_Restoration_Van__Wrap-Rough.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1789496674784/job-photos/1789660810913-heritage_Restoration_Van__Wrap-Rough.png",
+      "width": 1280,
+      "height": 514,
+      "bytes": 498010,
+      "sha1": "4be25ad06ea50885",
+      "exif": {},
+      "category": "fleet",
+      "subject": "Two Heritage Restoration branded white Transit vans side by side",
+      "quality": 72,
+      "slots": {
+        "hero": 55,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "storm-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Real vehicle wraps with company branding; clean studio-style composite but authentic fleet imagery.",
+      "triaged_at": "2026-09-17T16:26:24Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipNgL1_o5ykII-3zHaf-CMIfg8vXt9_AlSi8jOkS": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipNgL1_o5ykII-3zHaf-CMIfg8vXt9_AlSi8jOkS.jpg",
@@ -101,5 +155,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-09-16T07:41:34Z"
+  "triaged_at": "2026-09-17T16:26:24Z"
 }
