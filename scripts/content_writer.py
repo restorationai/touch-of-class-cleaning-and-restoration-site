@@ -760,6 +760,36 @@ def cmd_next_post(args) -> int:
         print(f"      LLM returned non-JSON (first 300 chars):\n{raw[:300]}")
         raise RuntimeError(f"Content writer LLM output failed JSON parse: {e}")
     content = sanitize_content(content)  # enforce no-em-dash rule deterministically
+
+    # C6 SELF-PROMOTION LINT (Santino 2026-09-17): every post names the
+    # client at least once in a recommendation context and never reads
+    # like an ad. Deterministic count of display-name mentions in the
+    # body: 0 = the post never recommends us (the whole point of the
+    # format), >4 = it reads salesy. One corrective retry, then flag.
+    client_rec = load_json(CLIENTS_DIR / f"{slug}.json")
+    disp = (client_rec.get("display_name") or "").strip()
+    if disp:
+        n_mentions = content.get("body_markdown", "").lower().count(disp.lower())
+        if n_mentions == 0 or n_mentions > 4:
+            problem = ("never mentions the client" if n_mentions == 0
+                       else f"mentions the client {n_mentions}x (salesy)")
+            print(f"      self-promo lint: {problem} — one corrective retry")
+            fix = (f"\n\nREVISION REQUIRED: the draft {problem}. The post "
+                   f"must mention \"{disp}\" EXACTLY ONCE or TWICE, in a "
+                   "natural recommendation context (e.g. inside the "
+                   "who-to-call answer), never more. Keep everything else. "
+                   "Return the corrected full JSON.")
+            raw2, usage2 = anthropic_call(system, user + fix, max_tokens=8000,
+                                          model=args.model or ANTHROPIC_MODEL)
+            try:
+                content = sanitize_content(parse_llm_json(raw2))
+                usage = usage2
+            except json.JSONDecodeError:
+                print("      retry unparseable — keeping first draft, flagged")
+            n2 = content.get("body_markdown", "").lower().count(disp.lower())
+            if n2 == 0 or n2 > 4:
+                content.setdefault("_flags", []).append(f"self-promo: {n2} mentions")
+                print(f"      still off ({n2} mentions) — flagged, publishing anyway")
     body_len = len(content.get("body_markdown", ""))
     faq_count = len(content.get("faq", []))
     print(f"      Body: {body_len} chars, FAQ: {faq_count} items, "

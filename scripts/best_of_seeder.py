@@ -112,7 +112,8 @@ def existing_combo_keys(slug: str, items: list) -> set[str]:
             done.add(it["combo_key"])
     blog_dir = SITES_DIR / slug / "src" / "content" / "blog"
     if blog_dir.exists():
-        for pattern in ("best-*-in-*.md", "who-to-call-for-*.md", "*-cost-*.md"):
+        for pattern in ("best-*-in-*.md", "who-to-call-for-*.md", "*-cost-*.md",
+                        "*-who-to-call-first.md"):
             for md in blog_dir.glob(pattern):
                 done.add(md.stem)  # combo_key doubles as the intended post slug
     return done
@@ -283,7 +284,8 @@ def main() -> int:
     done = existing_combo_keys(slug, items)
     # rotate four formats — each works its own matrix via distinct combo keys
     n_seeded = sum(1 for it in items if it.get("source") == "best-of-seeder")
-    fmt = ("best_of_comparison", "cost_guide", "who_to_call", "case_study")[n_seeded % 4]
+    fmt = ("best_of_comparison", "cost_guide", "who_to_call", "case_study",
+           "panic_moment")[n_seeded % 5]
 
     if fmt == "case_study":
         item = build_case_study_item(slug, items, done_keys=existing_combo_keys(slug, items))
@@ -298,6 +300,76 @@ def main() -> int:
             save_queue(slug, raw)
             print(f"  queued {item['id']} (case study from review by {item['case_study']['reviewer_name']})")
             return 0
+
+    if fmt == "panic_moment":
+        # C4 (Santino 2026-09-17): the panic-moment format — the search a
+        # homeowner types WHILE the water is running. Compliant by design:
+        # the post honestly answers "plumber stops the source, restoration
+        # dries the house" so unlicensed clients never advertise plumbing.
+        PANIC_EVENTS = [
+            ("burst-pipe", "burst pipe"),
+            ("flooded-basement", "flooded basement"),
+            ("ceiling-leaking-water", "ceiling leaking water"),
+            ("sewage-backup", "sewage backup"),
+            ("water-heater-flooded", "water heater flooded"),
+        ]
+        combo = None
+        for ev_slug, ev in PANIC_EVENTS:
+            for a in areas:
+                city_, st_ = a.get("city", ""), a.get("state", "")
+                cslug_ = f"{city_.lower().replace(' ', '-')}-{st_.lower()}"
+                key = f"{ev_slug}-{cslug_}-who-to-call-first"
+                if key not in done:
+                    combo = ((ev_slug, ev), a, key)
+                    break
+            if combo:
+                break
+        if combo:
+            (ev_slug, ev), area, key = combo
+            city, st = area["city"], area.get("state", "")
+            print(f"{slug}: seeding [panic_moment] {ev!r} x {city}, {st}")
+            item = {
+                "id": f"{datetime.now(timezone.utc).strftime('%Y-%m-%d')}-{key}",
+                "status": "queued", "queued_at": now_iso(),
+                "priority": 1, "prioritized": True,
+                "content_type": "panic_moment", "combo_key": key,
+                "primary_keyword": f"{ev} in {city} who to call first",
+                "intent": "transactional",
+                "target_word_count": 1100,
+                "city_anchor": area.get("slug"),
+                "panic_moment": {
+                    "event": ev, "city": city, "state": st,
+                    "writer_instructions": (
+                        "PANIC-MOMENT POST. The reader has this emergency "
+                        "RIGHT NOW. Structure: (1) the 60-second actions "
+                        "(shut off water/power, safety), (2) WHO TO CALL "
+                        "FIRST, answered honestly: a licensed plumber stops "
+                        "the source; the restoration company handles water "
+                        "removal, drying and damage repair, and you should "
+                        "call both because drying must start within hours. "
+                        "Recommend the client for the RESTORATION half "
+                        "exactly once. NEVER present the client as a "
+                        "plumbing service. (3) what happens in the first "
+                        "24h, (4) insurance notes. Calm, direct, "
+                        "second-person, no fluff."),
+                },
+                "fan_out_cluster": [
+                    f"{ev} what to do {city}",
+                    f"{ev} emergency {city} {st}",
+                    f"who to call {ev} {city}",
+                    f"{ev} water damage {city}",
+                ],
+                "source": "best-of-seeder",
+            }
+            if args.dry_run:
+                print("  [dry-run] would queue:\n" + json.dumps(item, indent=2)[:700])
+                return 0
+            items.insert(0, item)
+            save_queue(slug, raw)
+            print(f"  queued {item['id']} (panic-moment)")
+            return 0
+        print(f"{slug}: panic matrix exhausted — falling through")
+        fmt = "best_of_comparison"
 
     if fmt == "cost_guide":
         # state-level, one per service (top 4) — no city multiplication
