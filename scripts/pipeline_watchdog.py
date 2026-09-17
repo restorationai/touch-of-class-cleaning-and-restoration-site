@@ -151,28 +151,33 @@ def check_coverage() -> list[str]:
         issues.append(f"optimizer SLA: {nm} has {n} auto-safe item(s) open "
                       ">7 days — the nightly apply is not clearing them")
 
-    # CADENCE FLOOR (C5, Santino 2026-09-17: 1 post/client/week; the batch
-    # must scale with fleet growth). Fleet-level: if the MEDIAN days-since-
-    # last-post across publishable clients exceeds 7, throughput has fallen
-    # behind the roster — one alert naming the number, so the fix (bigger
-    # daily budget) happens before any client feels it.
-    gaps: list[int] = []
+    # PER-CLIENT CADENCE SLA (Santino 2026-09-17: "twice per week per
+    # client... a full-sweep metric breaks as we acquire clients rapidly").
+    # Judged individually: every active client with a scaffolded blog and
+    # material to post (queued or banked items) must show >= 2 posts in the
+    # trailing 8 days. No fleet averages — growth can never dilute one
+    # client's promise invisibly.
     for mp_dir in glob.glob(str(ROOT / "sites/*/src/content/blog")):
-        slugd = Path(mp_dir).parent.parent.parent.name
-        last = None
+        slugc = Path(mp_dir).parent.parent.parent.name
+        qf2 = ROOT / "clients" / slugc / "content-queue.json"
+        if not qf2.exists():
+            continue
+        try:
+            q2 = json.loads(qf2.read_text())
+        except Exception:
+            continue
+        material = any(i.get("status") in ("queued", "banked")
+                       for i in (q2.get("items") or []))
+        if not material:
+            continue
+        recent = 0
         for mp in glob.glob(mp_dir + "/*.md"):
             m = re.search(r'published_at:\s*"?(\d{4}-\d{2}-\d{2})', Path(mp).read_text())
-            if m and (last is None or m.group(1) > last):
-                last = m.group(1)
-        if last:
-            gaps.append((NOW.date() - datetime.fromisoformat(last).date()).days)
-    if len(gaps) >= 5:
-        gaps.sort()
-        median = gaps[len(gaps) // 2]
-        if median > 7:
-            issues.append(f"content cadence floor: fleet median is {median}d "
-                          f"since last post across {len(gaps)} sites (floor: 7d) "
-                          "— scale the daily content budget")
+            if m and (NOW.date() - datetime.fromisoformat(m.group(1)).date()).days <= 8:
+                recent += 1
+        if recent < 2:
+            issues.append(f"cadence SLA: {slugc} published {recent}/2 posts "
+                          "in the last 8 days (promise: 2 per week)")
 
     # CONTENT SLA (C1)
     for qf in glob.glob(str(ROOT / "clients/*/content-queue.json")):
