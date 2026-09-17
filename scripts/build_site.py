@@ -1538,13 +1538,15 @@ def cmd_render(args) -> int:
         pages = [p for p in pages if p["url_path"] == args.url]
     # Order by priority desc so high-value pages render first (best output if interrupted)
     pages.sort(key=lambda p: -p.get("priority", 0))
-    if args.limit:
-        pages = pages[: args.limit]
 
     if not pages:
         die("No pages matched the filter.")
 
-    # Skip already-rendered unless --force
+    # Skip already-rendered unless --force. MUST happen BEFORE --limit is
+    # applied (2026-09-17: dispatch_render's CI runs use --limit 50, and on a
+    # mostly-rendered site the first 50 by priority were ALL already-rendered,
+    # so every dispatch reported "Rendering 0 page(s)" and the 340 pending
+    # drycor pages were unreachable no matter how many times it re-ran).
     skipped_pre = 0
     if not args.force:
         filtered = []
@@ -1554,6 +1556,8 @@ def cmd_render(args) -> int:
             else:
                 filtered.append(p)
         pages = filtered
+    if args.limit:
+        pages = pages[: args.limit]
 
     total_target = len(pages)
     print(f"==> Rendering {total_target} page(s) for {slug}")
