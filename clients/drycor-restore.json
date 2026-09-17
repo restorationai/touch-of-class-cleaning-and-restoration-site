@@ -10,10 +10,10 @@
   "plan": {
     "template": "restoration",
     "template_version": "0.3.0",
-    "url_count": 286,
-    "generated_at": "2026-09-11T21:36:52.173963+00:00"
+    "url_count": 626,
+    "generated_at": "2026-09-17T20:46:25.755219+00:00"
   },
-  "updated_at": "2026-09-16T18:07:15.851890+00:00",
+  "updated_at": "2026-09-17T20:46:25.755224+00:00",
   "indexnow_key": "240bb5d741474b6c82ce0287639ce378",
   "build": {
     "scaffolded_at": "2026-09-11T21:37:06.902807+00:00",
@@ -24,7 +24,7 @@
     "pages_status": "exists",
     "last_rendered_at": "2026-09-17T22:24:27.611617+00:00",
     "last_pushed_staging_at": "2026-09-12T00:12:56.597733+00:00",
-    "last_pushed_main_at": "2026-09-16T18:07:15.851874+00:00"
+    "last_pushed_main_at": "2026-09-17T19:52:51.914460+00:00"
   },
   "build_status": "content_rendered",
   "cutover_prep": {
@@ -33,7 +33,7 @@
     "url_count": 385,
     "backlinked_count": 1,
     "redirects_added": 379,
-    "mapped_at": "2026-09-03T14:16:57+00:00"
+    "mapped_at": "2026-09-17T22:31:54+00:00"
   },
   "brightlocal": {
     "location_id": 4147639,
