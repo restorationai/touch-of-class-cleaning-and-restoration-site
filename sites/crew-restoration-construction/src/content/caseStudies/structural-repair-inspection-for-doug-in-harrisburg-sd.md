@@ -17,6 +17,8 @@ faq: [{"question": "What does a structural inspection for water intrusion typica
 published_at: "2025-07-24"
 services: ["general-contracting"]
 rendered: true
+city: "Harrisburg"
+state: "SD"
 ---
 When a storm raises questions about a roof's integrity, a thorough inspection is often the first and most important step. This case study covers a structural assessment Crew completed for Doug in Harrisburg, SD, where tenant-reported water staining prompted a closer look at the roof and attic of a relatively new property.
 

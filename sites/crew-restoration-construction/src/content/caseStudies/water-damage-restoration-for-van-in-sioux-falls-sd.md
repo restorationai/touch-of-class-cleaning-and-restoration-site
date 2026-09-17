@@ -17,6 +17,8 @@ faq: [{"question": "How long does the drying process typically take after a wate
 published_at: "2025-09-03"
 services: ["water-damage-restoration"]
 rendered: true
+city: "Sioux Falls"
+state: "SD"
 ---
 When a water loss strikes without warning, the first hours of response determine how much of a home or building can be saved. This case study covers an emergency water damage restoration project completed by Crew Restoration & Construction for Van in Sioux Falls, SD. The work involved immediate mitigation, standing water extraction, and a structured drying plan designed to protect as much of the existing structure as possible.
 

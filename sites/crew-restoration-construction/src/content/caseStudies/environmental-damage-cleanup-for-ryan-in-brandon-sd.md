@@ -17,6 +17,8 @@ faq: [{"question": "Do I have to remove drywall during mold remediation, or can 
 published_at: "2025-05-20"
 services: ["mold-remediation"]
 rendered: true
+city: "Brandon"
+state: "SD"
 ---
 Mold growth behind walls and under fixtures is one of the more involved environmental cleanup scenarios a homeowner can face. When affected areas span multiple rooms and require fixture removal to access contaminated materials, a methodical, contained approach is essential. This case study documents the work Crew Restoration & Construction completed for Ryan in Brandon, SD in May 2025.
 

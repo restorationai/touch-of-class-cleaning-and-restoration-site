@@ -17,6 +17,8 @@ faq: [{"question": "Does carpet always need to be replaced after a basement floo
 published_at: "2025-09-01"
 services: ["water-damage-restoration"]
 rendered: true
+city: "Sioux Falls"
+state: "SD"
 ---
 A disconnected supply line is one of the more common sources of unexpected indoor flooding. Water can travel quickly from the point of failure, spreading across hard floors and wicking into soft materials before the problem is even noticed. This case study documents a water damage restoration job Crew Restoration completed for Alice in Sioux Falls, SD.
 

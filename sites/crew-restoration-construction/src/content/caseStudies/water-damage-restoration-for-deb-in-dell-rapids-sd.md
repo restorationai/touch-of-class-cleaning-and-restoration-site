@@ -17,6 +17,8 @@ faq: [{"question": "Why do restoration technicians remove baseboards and drill h
 published_at: "2024-05-07"
 services: ["water-damage-restoration"]
 rendered: true
+city: "Dell Rapids"
+state: "SD"
 ---
 When a hidden plumbing failure goes undetected, water can spread quickly through flooring, walls, and trim before anyone realizes the full scope of the problem. This case study covers a water damage restoration project completed by Crew Restoration & Construction for Deb in Dell Rapids, SD. The work involved source identification, structural drying, and a planned restoration phase to return the space to its pre-loss condition.
 

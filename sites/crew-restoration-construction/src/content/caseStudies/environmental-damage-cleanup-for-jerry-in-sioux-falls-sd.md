@@ -17,6 +17,8 @@ faq: [{"question": "How do I know if a ceiling leak has caused mold growth?", "a
 published_at: "2025-08-12"
 services: ["mold-remediation"]
 rendered: true
+city: "Sioux Falls"
+state: "SD"
 ---
 A slow or hidden plumbing leak can do significant damage long before it becomes visible. By the time water shows up as bubbling drywall or a strong odor, saturation and mold growth may already be well underway. This case study covers an environmental damage cleanup job completed for Jerry in Sioux Falls, SD.
 

@@ -17,6 +17,8 @@ faq: [{"question": "What does a structural repair project typically involve?", "
 published_at: "2025-06-25"
 services: ["general-contracting"]
 rendered: true
+city: "Tea"
+state: "SD"
 ---
 When structural damage affects a home, the repair process often goes well beyond patching a single surface. A thorough restoration may require gutting affected areas entirely, replacing building materials, and upgrading finishes to bring the space back to a livable, functional condition. That was the scope of work Crew Restoration & Construction took on for Angela in Tea, SD.
 

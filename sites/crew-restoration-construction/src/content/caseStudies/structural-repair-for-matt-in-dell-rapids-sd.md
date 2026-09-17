@@ -17,6 +17,8 @@ faq: [{"question": "Can a leaking window really cause structural damage?", "answ
 published_at: "2024-05-01"
 services: ["general-contracting"]
 rendered: true
+city: "Dell Rapids"
+state: "SD"
 ---
 Window leaks that go unaddressed can quietly compromise the structural elements around them, including trim, baseboards, and the wall cavity behind the interior finish. When rainwater finds a path through a window's perimeter, the damage is often more extensive than it first appears. That was the situation Crew Restoration & Construction encountered when working with Matt in Dell Rapids, SD.
 

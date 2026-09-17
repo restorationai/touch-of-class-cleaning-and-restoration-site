@@ -17,6 +17,8 @@ faq: [{"question": "What is the difference between structural repair mitigation 
 published_at: "2025-07-29"
 services: ["general-contracting"]
 rendered: true
+city: "Sioux Falls"
+state: "SD"
 ---
 When a tree strikes a home, the damage rarely stops at the roof. The impact can compromise ceiling framing, allow water intrusion, and leave building materials saturated before a crew ever arrives on site. This case study covers the structural repair mitigation Crew Restoration & Construction completed for Chad in Sioux Falls, SD in July 2025.
 

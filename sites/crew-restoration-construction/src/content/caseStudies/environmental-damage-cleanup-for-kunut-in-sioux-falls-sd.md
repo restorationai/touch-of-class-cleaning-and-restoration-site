@@ -17,6 +17,8 @@ faq: [{"question": "How do restoration crews find the source of a leak in a cath
 published_at: "2025-08-25"
 services: ["mold-remediation"]
 rendered: true
+city: "Sioux Falls"
+state: "SD"
 ---
 When water finds its way into a cathedral ceiling, the source is rarely obvious. There is no attic space to walk through, no easy vantage point, and the moisture can travel a surprising distance from where it first entered the structure. That combination of hidden pathways and limited access is exactly what made this Sioux Falls job a careful, methodical investigation from the start.
 

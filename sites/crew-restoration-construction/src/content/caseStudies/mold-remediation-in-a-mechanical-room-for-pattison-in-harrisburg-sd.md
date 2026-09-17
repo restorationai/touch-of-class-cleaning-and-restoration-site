@@ -17,6 +17,8 @@ faq: [{"question": "Does mold remediation in a mechanical room require the HVAC 
 published_at: "2025-05-20"
 services: ["mold-remediation"]
 rendered: true
+city: "Harrisburg"
+state: "SD"
 ---
 Mold found in a mechanical room can complicate a home sale and raise concerns for buyers, inspectors, and lenders alike. When the goal is to remediate effectively while keeping the property market-ready, the scope of work and the methods chosen both matter. This project in Harrisburg, SD illustrates how a focused, guideline-driven remediation can address the problem without creating new cosmetic issues.
 

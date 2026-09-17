@@ -17,6 +17,8 @@ faq: [{"question": "Is sewage water damage different from a regular water leak?"
 published_at: "2025-04-09"
 services: ["water-damage-restoration"]
 rendered: true
+city: "Parker"
+state: "SD"
 ---
 Sewage-related water damage is one of the more involved categories of water loss a homeowner can face. Beyond the visible moisture, the presence of waste material introduces health concerns and persistent odor that require a structured, multi-step response. This case study documents the work Crew Restoration & Construction performed for Wanda in Parker, SD in April 2025.
 

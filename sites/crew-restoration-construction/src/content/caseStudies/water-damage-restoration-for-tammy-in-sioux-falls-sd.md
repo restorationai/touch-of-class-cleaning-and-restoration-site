@@ -17,6 +17,8 @@ faq: [{"question": "Can a restoration contractor work directly with my insurance
 published_at: "2025-08-19"
 services: ["water-damage-restoration"]
 rendered: true
+city: "Sioux Falls"
+state: "SD"
 ---
 Water damage in a home rarely stays contained to one area. When multiple surfaces are affected at the same time, including flooring, stairs, and a bathroom, the restoration process involves careful documentation, targeted drying equipment, and coordination with an insurance claim. This case study covers a water damage restoration project completed by Crew Restoration & Construction for Tammy in Sioux Falls, SD.
 

@@ -17,6 +17,8 @@ faq: [{"question": "Why do restoration technicians remove doors and vanities dur
 published_at: "2025-05-22"
 services: ["water-damage-restoration"]
 rendered: true
+city: "Sioux Falls"
+state: "SD"
 ---
 Bathroom water intrusion is one of the more common calls a restoration team receives, and it often involves more hidden moisture than the visible damage suggests. When water finds its way into wall cavities, closets, and cabinetry, a methodical approach to drying and documentation is essential before any reconstruction can begin. Here is how Crew Restoration & Construction handled this type of loss for Lavoy in Sioux Falls.
 

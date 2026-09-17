@@ -17,6 +17,8 @@ faq: [{"question": "Why is containment necessary during mold remediation?", "ans
 published_at: "2025-08-08"
 services: ["water-damage-restoration"]
 rendered: true
+city: "Sioux Falls"
+state: "SD"
 ---
 Water damage that reaches a home's structural framing, particularly the floor joists beneath a kitchen, calls for a methodical remediation approach that goes beyond surface drying. When moisture lingers in wood members, mold growth can follow, requiring cleaning, treatment, and careful air quality management before the space is safe again. That was the situation at a Sioux Falls residence handled by Crew Restoration and Construction in August 2025.
 

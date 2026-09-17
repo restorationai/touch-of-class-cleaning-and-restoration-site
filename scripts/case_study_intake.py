@@ -433,6 +433,20 @@ def set_published_at(path: Path, date_str: str) -> None:
     path.write_text(txt)
 
 
+def set_location(path: Path, city: str, state: str) -> None:
+    """Stamp city:/state: frontmatter (2026-09-17): the /case-studies/ index
+    city filter and the detail page's context line read data.city/data.state,
+    but write_markdown's blog contract never emits them — 25 Crew studies
+    shipped without a city and the filter was dead."""
+    txt = path.read_text()
+    if re.search(r"(?m)^city:", txt):
+        return
+    lines = f'city: "{city}"' + (f'\nstate: "{state}"' if state else "")
+    # First "\n---\n" after the opening line is the frontmatter close.
+    txt = txt.replace("\n---\n", f"\n{lines}\n---\n", 1)
+    path.write_text(txt)
+
+
 def publish_study(slug: str, sub: dict, *, photos: list[tuple[str, bytes]],
                   preserved_date: str | None, allow_generated_hero: bool) -> dict:
     """Render + gate + write one study. Returns
@@ -502,6 +516,21 @@ def publish_study(slug: str, sub: dict, *, photos: list[tuple[str, bytes]],
         path = newp
     if preserved_date:
         set_published_at(path, preserved_date)
+
+    # City/state frontmatter (2026-09-17): powers the index city filter and
+    # the detail page's "{City, ST} · date" line. State comes from an embedded
+    # "City, ST" in the submission or a plan-input service-area match.
+    city = (sub.get("city") or "").strip()
+    state = (sub.get("state") or "").strip()
+    cm = re.match(r"^(.+?),\s*([A-Za-z]{2})\.?$", city)
+    if cm:
+        city, state = cm.group(1).strip(), state or cm.group(2).upper()
+    if city and not state:
+        areas = cw.load_json(CLIENTS_DIR / slug / "plan-input.json").get("service_areas", [])
+        state = next((str(a.get("state") or "").strip() for a in areas
+                      if str(a.get("city") or "").strip().lower() == city.lower()), "")
+    if city:
+        set_location(path, city, state)
 
     # MANDATORY claims gate — errors block publication (stricter than
     # content_writer's advisory flags: this lane publishes third-party text).

@@ -17,6 +17,8 @@ faq: [{"question": "What are flood cuts and when are they necessary?", "answer":
 published_at: "2025-08-10"
 services: ["water-damage-restoration"]
 rendered: true
+city: "Brandon"
+state: "SD"
 ---
 Water damage in a bathroom can spread quickly into adjacent spaces, affecting walls, flooring, trim, and cabinetry before the full scope is even visible. When that damage reaches a basement or multi-room area, the restoration scope grows to include careful demolition, material salvage decisions, and coordination with a homeowner's insurance carrier. This case study documents the work Crew Restoration & Construction performed for Brian in Brandon, SD.
 

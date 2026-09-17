@@ -17,6 +17,8 @@ faq: [{"question": "How do restoration crews determine which materials need to b
 published_at: "2026-01-24"
 services: ["water-damage-restoration"]
 rendered: true
+city: "Sioux Falls"
+state: "SD"
 ---
 A slow or undetected water supply failure can affect far more of a home than the room where it originates. When water runs unchecked for an extended period, it migrates through flooring assemblies, wall cavities, and structural materials, reaching areas that are not immediately visible. This project in Sioux Falls, SD illustrates how a single plumbing failure can escalate into a multi-level, multi-room water loss requiring systematic assessment, extraction, and monitored drying.
 

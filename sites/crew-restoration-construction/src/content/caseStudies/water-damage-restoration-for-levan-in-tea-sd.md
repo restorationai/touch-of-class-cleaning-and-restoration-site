@@ -17,6 +17,8 @@ faq: [{"question": "What are flood cuts and why are they used in water damage re
 published_at: "2025-03-10"
 services: ["water-damage-restoration"]
 rendered: true
+city: "Tea"
+state: "SD"
 ---
 Water losses that spread across multiple rooms require a methodical, room-by-room approach to make sure no wet material is left behind. When a home in Tea, SD experienced water damage affecting a utility room, a family room, and an additional area, Crew Restoration & Construction was called in to stabilize the structure and prevent further deterioration.
 

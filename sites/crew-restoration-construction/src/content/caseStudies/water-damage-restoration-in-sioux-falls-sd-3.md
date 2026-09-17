@@ -17,6 +17,8 @@ faq: [{"question": "How do I know if my water damage requires full material repl
 published_at: "2026-04-22"
 services: ["water-damage-restoration"]
 rendered: true
+city: "Sioux Falls"
+state: "SD"
 ---
 When water damage is left unaddressed over time, the scope of needed repairs can grow well beyond a single room or system. This project in Sioux Falls, SD illustrates how prolonged moisture exposure can affect flooring, wall systems, plumbing surrounds, HVAC components, and indoor air quality all at once, requiring a coordinated, whole-home approach rather than isolated spot repairs.
 

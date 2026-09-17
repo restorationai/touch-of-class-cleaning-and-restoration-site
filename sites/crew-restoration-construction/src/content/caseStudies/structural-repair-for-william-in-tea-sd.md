@@ -17,6 +17,8 @@ faq: [{"question": "Why do restoration crews install containment barriers before
 published_at: "2025-08-12"
 services: ["general-contracting"]
 rendered: true
+city: "Tea"
+state: "SD"
 ---
 When a home requires structural repair, controlling the work environment is just as important as the repair work itself. Isolating affected areas, managing airborne particles, and stabilizing moisture conditions are all standard steps that protect the rest of the home during an active project. This case study documents the work Crew Restoration & Construction completed for William in Tea, SD.
 

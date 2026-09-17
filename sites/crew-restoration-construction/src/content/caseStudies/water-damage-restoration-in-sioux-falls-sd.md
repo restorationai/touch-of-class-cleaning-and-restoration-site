@@ -17,6 +17,8 @@ faq: [{"question": "Do I need to leave my home during water damage mitigation?",
 published_at: "2026-01-22"
 services: ["water-damage-restoration"]
 rendered: true
+city: "Sioux Falls"
+state: "SD"
 ---
 Widespread moisture intrusion affecting multiple rooms of a home presents one of the more complex scenarios a restoration crew can face. When saturation reaches drywall, flooring, subfloor, and structural cavities simultaneously, the mitigation process demands careful sequencing, continuous monitoring, and coordination with adjusters and homeowners alike. This project in Sioux Falls, SD illustrates exactly that kind of multi-room, multi-material water loss.
 

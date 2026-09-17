@@ -17,6 +17,8 @@ faq: [{"question": "What happens if my deck footings are not up to code?", "answ
 published_at: "2025-07-18"
 services: ["general-contracting"]
 rendered: true
+city: "Harrisburg"
+state: "SD"
 ---
 Deck repairs that involve code compliance, ledger board construction, and stair additions require careful planning before a single board is replaced. When a homeowner in Harrisburg, SD reached out to Crew Restoration & Construction, the scope included not just surface-level decking work but also foundational concerns that needed to be addressed properly. Here is what the project notes captured from that initial visit.
 

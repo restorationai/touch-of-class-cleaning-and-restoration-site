@@ -17,6 +17,8 @@ faq: [{"question": "Why does water damage restoration require multiple visits in
 published_at: "2026-01-20"
 services: ["water-damage-restoration"]
 rendered: true
+city: "Sioux Falls"
+state: "SD"
 ---
 A broken water line can send water traveling far from its source before anyone notices, affecting multiple floors and material types at once. This case study from Crew Restoration & Construction documents a water loss in Sioux Falls, SD, where a supply line failure on the upper floor caused standing water to accumulate in a basement bedroom below. The work involved extraction, demolition, structural drying, and careful documentation across multiple visits.
 

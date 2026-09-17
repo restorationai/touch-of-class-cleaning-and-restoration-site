@@ -17,6 +17,8 @@ faq: [{"question": "Do I need to move furniture before a structural remediation 
 published_at: "2025-08-21"
 services: ["general-contracting"]
 rendered: true
+city: "Sioux Falls"
+state: "SD"
 ---
 Basement structural repairs often involve more than replacing damaged materials. When moisture reaches wood framing, mold staining can develop on joists and other structural members, requiring remediation steps alongside the physical repairs. This project for Dan in Sioux Falls, SD illustrates how those two scopes, structural and microbial, are handled together in a controlled environment.
 

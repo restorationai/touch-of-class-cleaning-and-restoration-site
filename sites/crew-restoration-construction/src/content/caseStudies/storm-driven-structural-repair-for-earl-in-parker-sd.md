@@ -17,6 +17,8 @@ faq: [{"question": "Do I need a structural engineer before a contractor can begi
 published_at: "2024-01-03"
 services: ["general-contracting"]
 rendered: true
+city: "Parker"
+state: "SD"
 ---
 Severe wind events can do more than break windows or lift shingles. When a storm is powerful enough to shift a home's position on its foundation, the resulting damage touches nearly every system in the structure, from the masonry at the front entry to the door frames in the finished lower level. This case study documents the structural damage assessment and repair work performed for Earl in Parker, SD.
 
