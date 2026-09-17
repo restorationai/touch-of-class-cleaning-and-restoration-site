@@ -148,6 +148,7 @@ def main() -> int:
     issues = check_workflows() + check_heartbeats() + check_coverage()
     if not issues:
         print("pipeline watchdog: ALL SYSTEMS ALIVE")
+    fresh: list[str] = []
     for issue in issues:
         print(f"  !! {issue}")
         if a.dry_run:
@@ -157,13 +158,31 @@ def main() -> int:
         at = (seen.get("v") or {}).get("at")
         if at and (NOW - datetime.fromisoformat(at)).days < 7:
             continue  # already alerted this week
+        fresh.append(issue)
         _sb("POST", "/rest/v1/marketing_ops_notes",
             {"company_id": None, "status": "open", "author": "pipeline_watchdog",
              "body": f"[PIPELINE ALERT] {issue}"}, prefer="return=minimal")
         _sb("POST", "/rest/v1/ops_kv?on_conflict=k",
             {"k": key, "v": {"at": NOW.isoformat()}},
             prefer="resolution=merge-duplicates")
-    print(f"pipeline watchdog: {len(issues)} issue(s)")
+    # SMS to Santino (2026-09-17: "not only Ops Attention but also a text —
+    # I don't really view Ops Attention"). One text per run, NEW issues only
+    # (the 7-day dedupe above already keeps repeats quiet). Same ops-ping
+    # path the credit canary uses.
+    if fresh and not a.dry_run:
+        heads = [i.split(" — ")[0] for i in fresh[:4]]
+        body = (f"PIPELINE ALERT ({len(fresh)} new): " + "; ".join(heads)
+                + ("; +more" if len(fresh) > 4 else "")
+                + ". Details in the app's Errors tab.")
+        try:
+            from client_concierge import (send_message, OPS_PING_CONTACT_ID,
+                                          OPS_PING_CELL, SendBlocked)
+            send_message({"id": OPS_PING_CONTACT_ID, "phone": OPS_PING_CELL},
+                         "sms", body[:640])
+            print("  -> alert SMS sent")
+        except Exception as e:  # noqa: BLE001 — SMS failure never kills the run
+            print(f"  -> alert SMS failed: {str(e)[:100]}")
+    print(f"pipeline watchdog: {len(issues)} issue(s), {len(fresh)} new")
     return 0
 
 
