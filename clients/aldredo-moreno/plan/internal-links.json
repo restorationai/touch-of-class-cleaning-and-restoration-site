@@ -9,7 +9,9 @@
     "/services/storm-damage-restoration/",
     "/services/water-cleanup/",
     "/services/air-duct-cleaning/",
+    "/services/junk-debris-removal/",
     "/services/carpet-cleaning/",
+    "/services/tile-grout-cleaning/",
     "/service-areas/andrews-tx/",
     "/service-areas/big-spring-tx/",
     "/service-areas/gardendale-tx/",
@@ -25,7 +27,9 @@
     "/services/storm-damage-restoration/",
     "/services/water-cleanup/",
     "/services/air-duct-cleaning/",
-    "/services/carpet-cleaning/"
+    "/services/junk-debris-removal/",
+    "/services/carpet-cleaning/",
+    "/services/tile-grout-cleaning/"
   ],
   "/service-areas/": [
     "/",
@@ -68,6 +72,7 @@
     "/service-areas/greenwood-tx/water-damage-restoration/",
     "/service-areas/odessa-tx/water-damage-restoration/",
     "/service-areas/stanton-tx/water-damage-restoration/",
+    "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
     "/blog/choosing-a-restoration-company/"
@@ -116,7 +121,8 @@
     "/service-areas/goldsmith-tx/water-cleanup/",
     "/service-areas/greenwood-tx/water-cleanup/",
     "/service-areas/odessa-tx/water-cleanup/",
-    "/service-areas/stanton-tx/water-cleanup/"
+    "/service-areas/stanton-tx/water-cleanup/",
+    "/services/water-damage-restoration/"
   ],
   "/services/carpet-cleaning/": [
     "/services/",
@@ -129,6 +135,28 @@
     "/service-areas/odessa-tx/carpet-cleaning/",
     "/service-areas/stanton-tx/carpet-cleaning/"
   ],
+  "/services/junk-debris-removal/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/andrews-tx/junk-debris-removal/",
+    "/service-areas/big-spring-tx/junk-debris-removal/",
+    "/service-areas/gardendale-tx/junk-debris-removal/",
+    "/service-areas/goldsmith-tx/junk-debris-removal/",
+    "/service-areas/greenwood-tx/junk-debris-removal/",
+    "/service-areas/odessa-tx/junk-debris-removal/",
+    "/service-areas/stanton-tx/junk-debris-removal/"
+  ],
+  "/services/tile-grout-cleaning/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/andrews-tx/tile-grout-cleaning/",
+    "/service-areas/big-spring-tx/tile-grout-cleaning/",
+    "/service-areas/gardendale-tx/tile-grout-cleaning/",
+    "/service-areas/goldsmith-tx/tile-grout-cleaning/",
+    "/service-areas/greenwood-tx/tile-grout-cleaning/",
+    "/service-areas/odessa-tx/tile-grout-cleaning/",
+    "/service-areas/stanton-tx/tile-grout-cleaning/"
+  ],
   "/service-areas/odessa-tx/": [
     "/service-areas/",
     "/contact/",
@@ -137,7 +165,9 @@
     "/service-areas/odessa-tx/storm-damage-restoration/",
     "/service-areas/odessa-tx/water-cleanup/",
     "/service-areas/odessa-tx/air-duct-cleaning/",
+    "/service-areas/odessa-tx/junk-debris-removal/",
     "/service-areas/odessa-tx/carpet-cleaning/",
+    "/service-areas/odessa-tx/tile-grout-cleaning/",
     "/service-areas/andrews-tx/",
     "/service-areas/big-spring-tx/",
     "/service-areas/gardendale-tx/"
@@ -150,7 +180,9 @@
     "/service-areas/big-spring-tx/storm-damage-restoration/",
     "/service-areas/big-spring-tx/water-cleanup/",
     "/service-areas/big-spring-tx/air-duct-cleaning/",
+    "/service-areas/big-spring-tx/junk-debris-removal/",
     "/service-areas/big-spring-tx/carpet-cleaning/",
+    "/service-areas/big-spring-tx/tile-grout-cleaning/",
     "/service-areas/andrews-tx/",
     "/service-areas/gardendale-tx/",
     "/service-areas/goldsmith-tx/"
@@ -163,7 +195,9 @@
     "/service-areas/stanton-tx/storm-damage-restoration/",
     "/service-areas/stanton-tx/water-cleanup/",
     "/service-areas/stanton-tx/air-duct-cleaning/",
+    "/service-areas/stanton-tx/junk-debris-removal/",
     "/service-areas/stanton-tx/carpet-cleaning/",
+    "/service-areas/stanton-tx/tile-grout-cleaning/",
     "/service-areas/andrews-tx/",
     "/service-areas/big-spring-tx/",
     "/service-areas/gardendale-tx/"
@@ -176,7 +210,9 @@
     "/service-areas/andrews-tx/storm-damage-restoration/",
     "/service-areas/andrews-tx/water-cleanup/",
     "/service-areas/andrews-tx/air-duct-cleaning/",
+    "/service-areas/andrews-tx/junk-debris-removal/",
     "/service-areas/andrews-tx/carpet-cleaning/",
+    "/service-areas/andrews-tx/tile-grout-cleaning/",
     "/service-areas/big-spring-tx/",
     "/service-areas/gardendale-tx/",
     "/service-areas/goldsmith-tx/"
@@ -189,7 +225,9 @@
     "/service-areas/gardendale-tx/storm-damage-restoration/",
     "/service-areas/gardendale-tx/water-cleanup/",
     "/service-areas/gardendale-tx/air-duct-cleaning/",
+    "/service-areas/gardendale-tx/junk-debris-removal/",
     "/service-areas/gardendale-tx/carpet-cleaning/",
+    "/service-areas/gardendale-tx/tile-grout-cleaning/",
     "/service-areas/andrews-tx/",
     "/service-areas/big-spring-tx/",
     "/service-areas/goldsmith-tx/"
@@ -202,7 +240,9 @@
     "/service-areas/greenwood-tx/storm-damage-restoration/",
     "/service-areas/greenwood-tx/water-cleanup/",
     "/service-areas/greenwood-tx/air-duct-cleaning/",
+    "/service-areas/greenwood-tx/junk-debris-removal/",
     "/service-areas/greenwood-tx/carpet-cleaning/",
+    "/service-areas/greenwood-tx/tile-grout-cleaning/",
     "/service-areas/andrews-tx/",
     "/service-areas/big-spring-tx/",
     "/service-areas/gardendale-tx/"
@@ -215,7 +255,9 @@
     "/service-areas/goldsmith-tx/storm-damage-restoration/",
     "/service-areas/goldsmith-tx/water-cleanup/",
     "/service-areas/goldsmith-tx/air-duct-cleaning/",
+    "/service-areas/goldsmith-tx/junk-debris-removal/",
     "/service-areas/goldsmith-tx/carpet-cleaning/",
+    "/service-areas/goldsmith-tx/tile-grout-cleaning/",
     "/service-areas/andrews-tx/",
     "/service-areas/big-spring-tx/",
     "/service-areas/gardendale-tx/"
@@ -274,6 +316,24 @@
     "/service-areas/big-spring-tx/carpet-cleaning/",
     "/contact/"
   ],
+  "/service-areas/odessa-tx/junk-debris-removal/": [
+    "/services/junk-debris-removal/",
+    "/service-areas/odessa-tx/",
+    "/service-areas/odessa-tx/water-damage-restoration/",
+    "/service-areas/odessa-tx/sewage-cleanup/",
+    "/service-areas/andrews-tx/junk-debris-removal/",
+    "/service-areas/big-spring-tx/junk-debris-removal/",
+    "/contact/"
+  ],
+  "/service-areas/odessa-tx/tile-grout-cleaning/": [
+    "/services/tile-grout-cleaning/",
+    "/service-areas/odessa-tx/",
+    "/service-areas/odessa-tx/water-damage-restoration/",
+    "/service-areas/odessa-tx/sewage-cleanup/",
+    "/service-areas/andrews-tx/tile-grout-cleaning/",
+    "/service-areas/big-spring-tx/tile-grout-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/big-spring-tx/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/big-spring-tx/",
@@ -326,6 +386,24 @@
     "/service-areas/big-spring-tx/sewage-cleanup/",
     "/service-areas/andrews-tx/carpet-cleaning/",
     "/service-areas/gardendale-tx/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/big-spring-tx/junk-debris-removal/": [
+    "/services/junk-debris-removal/",
+    "/service-areas/big-spring-tx/",
+    "/service-areas/big-spring-tx/water-damage-restoration/",
+    "/service-areas/big-spring-tx/sewage-cleanup/",
+    "/service-areas/andrews-tx/junk-debris-removal/",
+    "/service-areas/gardendale-tx/junk-debris-removal/",
+    "/contact/"
+  ],
+  "/service-areas/big-spring-tx/tile-grout-cleaning/": [
+    "/services/tile-grout-cleaning/",
+    "/service-areas/big-spring-tx/",
+    "/service-areas/big-spring-tx/water-damage-restoration/",
+    "/service-areas/big-spring-tx/sewage-cleanup/",
+    "/service-areas/andrews-tx/tile-grout-cleaning/",
+    "/service-areas/gardendale-tx/tile-grout-cleaning/",
     "/contact/"
   ],
   "/service-areas/stanton-tx/water-damage-restoration/": [
@@ -382,6 +460,24 @@
     "/service-areas/big-spring-tx/carpet-cleaning/",
     "/contact/"
   ],
+  "/service-areas/stanton-tx/junk-debris-removal/": [
+    "/services/junk-debris-removal/",
+    "/service-areas/stanton-tx/",
+    "/service-areas/stanton-tx/water-damage-restoration/",
+    "/service-areas/stanton-tx/sewage-cleanup/",
+    "/service-areas/andrews-tx/junk-debris-removal/",
+    "/service-areas/big-spring-tx/junk-debris-removal/",
+    "/contact/"
+  ],
+  "/service-areas/stanton-tx/tile-grout-cleaning/": [
+    "/services/tile-grout-cleaning/",
+    "/service-areas/stanton-tx/",
+    "/service-areas/stanton-tx/water-damage-restoration/",
+    "/service-areas/stanton-tx/sewage-cleanup/",
+    "/service-areas/andrews-tx/tile-grout-cleaning/",
+    "/service-areas/big-spring-tx/tile-grout-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/andrews-tx/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/andrews-tx/",
@@ -434,6 +530,24 @@
     "/service-areas/andrews-tx/sewage-cleanup/",
     "/service-areas/big-spring-tx/carpet-cleaning/",
     "/service-areas/gardendale-tx/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/andrews-tx/junk-debris-removal/": [
+    "/services/junk-debris-removal/",
+    "/service-areas/andrews-tx/",
+    "/service-areas/andrews-tx/water-damage-restoration/",
+    "/service-areas/andrews-tx/sewage-cleanup/",
+    "/service-areas/big-spring-tx/junk-debris-removal/",
+    "/service-areas/gardendale-tx/junk-debris-removal/",
+    "/contact/"
+  ],
+  "/service-areas/andrews-tx/tile-grout-cleaning/": [
+    "/services/tile-grout-cleaning/",
+    "/service-areas/andrews-tx/",
+    "/service-areas/andrews-tx/water-damage-restoration/",
+    "/service-areas/andrews-tx/sewage-cleanup/",
+    "/service-areas/big-spring-tx/tile-grout-cleaning/",
+    "/service-areas/gardendale-tx/tile-grout-cleaning/",
     "/contact/"
   ],
   "/service-areas/gardendale-tx/water-damage-restoration/": [
@@ -490,6 +604,24 @@
     "/service-areas/big-spring-tx/carpet-cleaning/",
     "/contact/"
   ],
+  "/service-areas/gardendale-tx/junk-debris-removal/": [
+    "/services/junk-debris-removal/",
+    "/service-areas/gardendale-tx/",
+    "/service-areas/gardendale-tx/water-damage-restoration/",
+    "/service-areas/gardendale-tx/sewage-cleanup/",
+    "/service-areas/andrews-tx/junk-debris-removal/",
+    "/service-areas/big-spring-tx/junk-debris-removal/",
+    "/contact/"
+  ],
+  "/service-areas/gardendale-tx/tile-grout-cleaning/": [
+    "/services/tile-grout-cleaning/",
+    "/service-areas/gardendale-tx/",
+    "/service-areas/gardendale-tx/water-damage-restoration/",
+    "/service-areas/gardendale-tx/sewage-cleanup/",
+    "/service-areas/andrews-tx/tile-grout-cleaning/",
+    "/service-areas/big-spring-tx/tile-grout-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/greenwood-tx/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/greenwood-tx/",
@@ -544,6 +676,24 @@
     "/service-areas/big-spring-tx/carpet-cleaning/",
     "/contact/"
   ],
+  "/service-areas/greenwood-tx/junk-debris-removal/": [
+    "/services/junk-debris-removal/",
+    "/service-areas/greenwood-tx/",
+    "/service-areas/greenwood-tx/water-damage-restoration/",
+    "/service-areas/greenwood-tx/sewage-cleanup/",
+    "/service-areas/andrews-tx/junk-debris-removal/",
+    "/service-areas/big-spring-tx/junk-debris-removal/",
+    "/contact/"
+  ],
+  "/service-areas/greenwood-tx/tile-grout-cleaning/": [
+    "/services/tile-grout-cleaning/",
+    "/service-areas/greenwood-tx/",
+    "/service-areas/greenwood-tx/water-damage-restoration/",
+    "/service-areas/greenwood-tx/sewage-cleanup/",
+    "/service-areas/andrews-tx/tile-grout-cleaning/",
+    "/service-areas/big-spring-tx/tile-grout-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/goldsmith-tx/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/goldsmith-tx/",
@@ -596,6 +746,24 @@
     "/service-areas/goldsmith-tx/sewage-cleanup/",
     "/service-areas/andrews-tx/carpet-cleaning/",
     "/service-areas/big-spring-tx/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/goldsmith-tx/junk-debris-removal/": [
+    "/services/junk-debris-removal/",
+    "/service-areas/goldsmith-tx/",
+    "/service-areas/goldsmith-tx/water-damage-restoration/",
+    "/service-areas/goldsmith-tx/sewage-cleanup/",
+    "/service-areas/andrews-tx/junk-debris-removal/",
+    "/service-areas/big-spring-tx/junk-debris-removal/",
+    "/contact/"
+  ],
+  "/service-areas/goldsmith-tx/tile-grout-cleaning/": [
+    "/services/tile-grout-cleaning/",
+    "/service-areas/goldsmith-tx/",
+    "/service-areas/goldsmith-tx/water-damage-restoration/",
+    "/service-areas/goldsmith-tx/sewage-cleanup/",
+    "/service-areas/andrews-tx/tile-grout-cleaning/",
+    "/service-areas/big-spring-tx/tile-grout-cleaning/",
     "/contact/"
   ],
   "/blog/what-to-do-first-24-hours-water-damage/": [

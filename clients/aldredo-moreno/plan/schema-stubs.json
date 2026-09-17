@@ -118,6 +118,26 @@
     ],
     "missing_stubs": []
   },
+  "/services/junk-debris-removal/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/tile-grout-cleaning/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/odessa-tx/": {
     "archetype": "service-area",
     "stubs": [
@@ -241,6 +261,26 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/odessa-tx/junk-debris-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/odessa-tx/tile-grout-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/big-spring-tx/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -292,6 +332,26 @@
     "missing_stubs": []
   },
   "/service-areas/big-spring-tx/carpet-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/big-spring-tx/junk-debris-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/big-spring-tx/tile-grout-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -361,6 +421,26 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/stanton-tx/junk-debris-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/stanton-tx/tile-grout-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/andrews-tx/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -412,6 +492,26 @@
     "missing_stubs": []
   },
   "/service-areas/andrews-tx/carpet-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/andrews-tx/junk-debris-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/andrews-tx/tile-grout-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -481,6 +581,26 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/gardendale-tx/junk-debris-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/gardendale-tx/tile-grout-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/greenwood-tx/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -541,6 +661,26 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/greenwood-tx/junk-debris-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/greenwood-tx/tile-grout-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/goldsmith-tx/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -592,6 +732,26 @@
     "missing_stubs": []
   },
   "/service-areas/goldsmith-tx/carpet-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/goldsmith-tx/junk-debris-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/goldsmith-tx/tile-grout-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
