@@ -1190,7 +1190,7 @@
     },
     {
       "id": "2026-08-28-pin-biohazard-cleanup",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-28T02:11:47.875237+00:00",
       "prioritized": true,
       "source": "strategist-pin",
@@ -1199,7 +1199,9 @@
       "volume": null,
       "kd": null,
       "target_word_count": 1500,
-      "notes": "Pinned from AI Search. Write a NUMBERED ranked listicle (#1, #2, #3...) of real local companies for this query. Our client is #1 with a factual justification (verifiable certifications, license, response time, review count/rating); competitors at #2-#5 are REAL businesses with their REAL Google ratings and one honest strength each \u2014 never invented, never disparaged. End with an FAQ section whose first question is the search query itself, answered directly, plus 3-4 people-also-ask variants (cost, how to choose, response time) phrased the way customers search. Every claim about our client must pass the claims truth table."
+      "notes": "Pinned from AI Search. Write a NUMBERED ranked listicle (#1, #2, #3...) of real local companies for this query. Our client is #1 with a factual justification (verifiable certifications, license, response time, review count/rating); competitors at #2-#5 are REAL businesses with their REAL Google ratings and one honest strength each \u2014 never invented, never disparaged. End with an FAQ section whose first question is the search query itself, answered directly, plus 3-4 people-also-ask variants (cost, how to choose, response time) phrased the way customers search. Every claim about our client must pass the claims truth table.",
+      "written_at": "2026-09-17T20:46:35Z",
+      "post_url": "https://narestco.com/blog/biohazard-cleanup/"
     },
     {
       "id": "2026-08-28-pin-fire-damage-restoration",
@@ -1213,6 +1215,161 @@
       "kd": 19,
       "target_word_count": 1500,
       "notes": "Pinned from AI Search. Write a NUMBERED ranked listicle (#1, #2, #3...) of real local companies for this query. Our client is #1 with a factual justification (verifiable certifications, license, response time, review count/rating); competitors at #2-#5 are REAL businesses with their REAL Google ratings and one honest strength each \u2014 never invented, never disparaged. End with an FAQ section whose first question is the search query itself, answered directly, plus 3-4 people-also-ask variants (cost, how to choose, response time) phrased the way customers search. Every claim about our client must pass the claims truth table."
+    },
+    {
+      "id": "2026-09-17-how-much-does-biohazard-cleanup-cost",
+      "status": "queued",
+      "queued_at": "2026-09-17T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how much does biohazard cleanup cost",
+      "intent": "commercial",
+      "volume": 70,
+      "kd": 0,
+      "fan_out_cluster": [
+        "biohazard cleanup cost",
+        "biohazard cleanup cost per hour",
+        "biohazard cleanup cost Seattle",
+        "how long does biohazard cleanup take",
+        "biohazard cleanup companies",
+        "biohazard cleanup companies near me"
+      ],
+      "suggested_slug": "how-much-does-biohazard-cleanup-cost",
+      "suggested_title": "How Much Does Biohazard Cleanup Cost in Federal Way, WA? 2026 Price Ranges",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/biohazard-cleanup/",
+        "/services/unattended-death-cleanup/",
+        "/services/trauma-scene-cleanup/"
+      ],
+      "service_tags": [
+        "biohazard-cleanup",
+        "unattended-death-cleanup",
+        "trauma-scene-cleanup"
+      ],
+      "city_anchor": "federal-way-wa",
+      "external_authority_candidates": [
+        "https://app.leg.wa.gov/rcw/default.aspx?cite=64.44",
+        "https://ecology.wa.gov/regulations-permits/guidance-technical-assistance/guidance-for-residential-cleanups",
+        "https://www.iicrc.org/page/IICRCS540"
+      ],
+      "notes": "Highest-CPC term in the whole seed family (biohazard cleanup cost carries $84.96 CPC), so treat this as the money page for the biohazard cluster. Give real dollar bands (roughly $1,000 to $5,000 for typical residential jobs, $10,000+ for decomposition, hoarding or structural contamination) and explain the cost drivers: scene type, porous material removal, containment, regulated disposal, and documentation. Do NOT re-explain insurance: link to the already published /blog/does-homeowners-insurance-cover-biohazard-cleanup/ instead. Sensitive-content guardrails apply: no graphic description, no photos of scenes, lead with the fact that we handle the insurer and the paperwork."
+    },
+    {
+      "id": "2026-09-17-do-you-need-a-license-for-biohazard-cleanup-washington",
+      "status": "queued",
+      "queued_at": "2026-09-17T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "do you need a license for biohazard cleanup in washington",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "biohazard cleanup requirements",
+        "osha biohazard cleanup guidelines",
+        "biohazard cleaning services near me",
+        "emergency biohazard cleanup Federal Way",
+        "biohazard cleanup Federal Way WA",
+        "biohazard cleanup companies Seattle"
+      ],
+      "suggested_slug": "do-you-need-a-license-for-biohazard-cleanup-washington",
+      "suggested_title": "Do You Need a License for Biohazard Cleanup in Washington? RCW 64.44 Explained (Federal Way, WA)",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/biohazard-cleanup/",
+        "/services/crime-scene-cleanup/",
+        "/services/trauma-scene-cleanup/"
+      ],
+      "service_tags": [
+        "biohazard-cleanup",
+        "crime-scene-cleanup",
+        "trauma-scene-cleanup"
+      ],
+      "city_anchor": "federal-way-wa",
+      "external_authority_candidates": [
+        "https://app.leg.wa.gov/rcw/default.aspx?cite=64.44.050",
+        "https://www.osha.gov/bloodborne-pathogens",
+        "https://lni.wa.gov/licensing-permits/contractors/verify-a-contractor",
+        "https://www.iicrc.org/page/IICRCS540"
+      ],
+      "notes": "Zero measured Google volume but the ChatGPT scraper surfaced the Washington authorized-contractor rule (RCW 64.44.050) unprompted and cited leg.wa.gov, which means AI answers about WA biohazard cleanup already turn on this statute. This is the single strongest local-authority passage available in the seed family and nothing on the site covers it. Cover: what RCW 64.44 actually regulates (contaminated property decontamination), where OSHA bloodborne-pathogen rules apply instead, why no standalone 'biohazard license' exists in WA, and how a homeowner verifies a contractor through L&I. Include NARESTCO's L&I registration NATIORC792M6 and the IICRC certification as proof."
+    },
+    {
+      "id": "2026-09-17-is-urine-a-biohazard",
+      "status": "queued",
+      "queued_at": "2026-09-17T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "is urine biohazard",
+      "intent": "informational",
+      "volume": 480,
+      "kd": 0,
+      "fan_out_cluster": [
+        "vomit clean up",
+        "biohazard clean up",
+        "biohazard clean",
+        "biohazard cleanup",
+        "biohazard cleanup near me"
+      ],
+      "suggested_slug": "is-urine-a-biohazard",
+      "suggested_title": "Is Urine Biohazard Waste? When Pet and Human Urine Damage Needs a Pro in Bellevue, WA",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/biohazard-cleanup/",
+        "/services/hoarding-cleanup/",
+        "/services/odor-removal/"
+      ],
+      "service_tags": [
+        "biohazard-cleanup",
+        "hoarding-cleanup",
+        "odor-removal"
+      ],
+      "city_anchor": "bellevue-wa",
+      "external_authority_candidates": [
+        "https://www.osha.gov/bloodborne-pathogens",
+        "https://www.cdc.gov/hygiene/about/index.html",
+        "https://www.iicrc.org/page/IICRCS540"
+      ],
+      "notes": "480/mo at KD 0: the cleanest uncontested informational win in this seed family. Answer the literal question first in two sentences (urine alone is not an OSHA bloodborne-pathogen material, but volume, saturation into subfloor and drywall, and age change the answer), then pivot to the three real jobs: pet urine saturation, incontinence and long-term-care situations, and hoarding-scale contamination. Bellevue angle: HOA-mandated post-remediation clearance testing in townhome and condo developments. Handle the hoarding section with dignity, no judgment language."
+    },
+    {
+      "id": "2026-09-17-vomit-cleanup-when-to-call-a-pro",
+      "status": "queued",
+      "queued_at": "2026-09-17T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "vomit clean up",
+      "intent": "informational",
+      "volume": 590,
+      "kd": 0,
+      "fan_out_cluster": [
+        "what happens during a biohazard cleanup",
+        "can i clean up blood myself",
+        "biohazard clean up after death",
+        "who cleans up blood after a death in a home",
+        "who do you call after an unattended death at home"
+      ],
+      "suggested_slug": "vomit-cleanup-when-to-call-a-pro",
+      "suggested_title": "Vomit Clean Up at Home: Safe Steps and When It Becomes a Biohazard Job (Tacoma, WA)",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/biohazard-cleanup/",
+        "/services/odor-removal/",
+        "/services/trauma-scene-cleanup/"
+      ],
+      "service_tags": [
+        "biohazard-cleanup",
+        "odor-removal",
+        "trauma-scene-cleanup"
+      ],
+      "city_anchor": "tacoma-wa",
+      "external_authority_candidates": [
+        "https://www.cdc.gov/norovirus/reducing-risk/cleaning-disinfecting.html",
+        "https://www.osha.gov/bloodborne-pathogens",
+        "https://www.iicrc.org/page/IICRCS540"
+      ],
+      "notes": "590/mo at KD 0 and completely uncovered. Frame it as the DIY-versus-pro decision line, which is the passage AI assistants lift: small fresh spill on a hard surface is a homeowner job with the right PPE and disinfectant contact time, while anything soaked into carpet pad, upholstery, subfloor, or HVAC, plus norovirus exposure and anything involving blood, is a professional call. Tacoma angle: the municipal HEPA filtration ordinance for work that produces airborne particulate. Use the blood and death cluster terms only as a short 'when it is more than vomit' section that links out to the trauma pages, do not turn the post into a death-cleanup article."
     }
   ]
 }
