@@ -166,6 +166,9 @@ jobs:
           # ("no token/place") while the run stayed green.
           GOOGLE_OAUTH_CLIENT_ID:     ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
           GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
+          # Parity placeId resolution (2026-09-18 wipe postmortem): every
+          # serviceArea place is geocoded to a placeId before writing.
+          GEOCODING_API_KEY:         ${{ secrets.GEOCODING_API_KEY }}
           # The watchdog's alert SMS rides the concierge ops-ping path.
           GHL_API_KEY:               ${{ secrets.GHL_API_KEY }}
           GHL_LOCATION_ID:           ${{ secrets.GHL_LOCATION_ID }}

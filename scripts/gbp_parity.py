@@ -40,6 +40,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import math
 import re
 import sys
@@ -211,6 +212,55 @@ def location_plan(slug: str, cid: str) -> dict | None:
     }
 
 
+# placeId resolution (2026-09-18 WIPE POSTMORTEM): name-only placeInfos
+# returned 200 on some profiles and then resolved to NOTHING server-side —
+# RestorationXpress's 14 areas were silently erased by a write Google
+# acknowledged. Every place we write now carries a geocoded placeId, and
+# the write path has two hard guards: never send fewer real places than
+# the profile already has, and read the serviceArea BACK after the write —
+# a shrunken result restores the pre-write set immediately.
+GEO_KEY_PATH = ROOT / ".secrets" / "geocoding-key"
+_GEO_CACHE_KEY = "geocode-place-ids"
+_geo_cache: dict | None = None
+
+
+def _geo_key() -> str:
+    if os.environ.get("GEOCODING_API_KEY"):
+        return os.environ["GEOCODING_API_KEY"]
+    if GEO_KEY_PATH.exists():
+        return GEO_KEY_PATH.read_text().strip()
+    return ""
+
+
+def _resolve_place(city: str, state: str) -> dict | None:
+    """-> {placeName, placeId} via the Geocoding API, cached in ops_kv."""
+    global _geo_cache
+    if _geo_cache is None:
+        rows = _sb("GET", f"/rest/v1/ops_kv?k=eq.{_GEO_CACHE_KEY}&select=v") or []
+        _geo_cache = (rows[0].get("v") if rows else {}) or {}
+    key = f"{city}, {state}"
+    if key in _geo_cache:
+        return _geo_cache[key] or None
+    api_key = _geo_key()
+    if not api_key:
+        return None
+    try:
+        r = requests.get("https://maps.googleapis.com/maps/api/geocode/json",
+                         params={"address": key, "components": "country:US",
+                                 "key": api_key}, timeout=20)
+        res = (r.json().get("results") or [{}])[0]
+        hit = ({"placeName": res["formatted_address"].removesuffix(", USA"),
+                "placeId": res["place_id"]}
+               if res.get("place_id") else None)
+    except Exception:  # noqa: BLE001 — resolution failure = skip this city
+        return None    # (NOT cached, so a transient error retries next run)
+    _geo_cache[key] = hit
+    _sb("POST", "/rest/v1/ops_kv?on_conflict=k",
+        {"k": _GEO_CACHE_KEY, "v": _geo_cache},
+        prefer="resolution=merge-duplicates")
+    return hit
+
+
 def write_service_area(slug: str, cid: str, target: list[dict]) -> str:
     brand = json.loads((ROOT / "clients" / slug / "plan-input.json").read_text()).get("brand", {})
     token = gbp.get_access_token(cid)
@@ -220,9 +270,33 @@ def write_service_area(slug: str, cid: str, target: list[dict]) -> str:
     loc = gbp.find_location(token, place)
     if not loc:
         return "skip (no location)"
-    sa = dict(loc.get("serviceArea") or {})
-    sa["places"] = {"placeInfos": [
-        {"placeName": f"{c['city']}, {c['state']}"} for c in target]}
+    prev_sa = dict(loc.get("serviceArea") or {})
+    prev_places = ((prev_sa.get("places") or {}).get("placeInfos") or [])
+    infos, unresolved = [], []
+    for c in target:
+        hit = _resolve_place(c["city"], c["state"])
+        if hit and hit["placeId"] not in {i.get("placeId") for i in infos}:
+            infos.append(hit)
+        elif not hit:
+            unresolved.append(c["city"])
+    if unresolved:
+        print(f"    (geocode skipped: {', '.join(unresolved[:5])}"
+              + (" ..." if len(unresolved) > 5 else "") + ")")
+    # IDEMPOTENT: identical placeId set = nothing to do. Without this every
+    # nightly rewrote all ~24 profiles with the same data (churn Google may
+    # read as instability).
+    if infos and {i["placeId"] for i in infos} == {
+            pi.get("placeId") for pi in prev_places}:
+        return f"in sync ({len(infos)} places)"
+    # GUARD 1: never write a set smaller than what the profile holds now.
+    if not infos or len(infos) < len(prev_places):
+        return (f"refused (would shrink {len(prev_places)} -> {len(infos)} "
+                "places — resolve more cities first)")
+    sa = dict(prev_sa)
+    sa.setdefault("businessType", "CUSTOMER_LOCATION_ONLY"
+                  if not loc.get("storefrontAddress")
+                  else "CUSTOMER_AND_BUSINESS_LOCATION")
+    sa["places"] = {"placeInfos": infos}
     hdrs = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
     v = requests.patch(f"{gbp.INFO_API}/{loc['name']}"
                        "?updateMask=serviceArea&validateOnly=true",
@@ -233,7 +307,24 @@ def write_service_area(slug: str, cid: str, target: list[dict]) -> str:
     r = requests.patch(f"{gbp.INFO_API}/{loc['name']}?updateMask=serviceArea",
                        headers=hdrs, data=json.dumps({"serviceArea": sa}),
                        timeout=60)
-    return "updated" if r.status_code == 200 else f"failed {r.status_code}: {r.text[:140]}"
+    if r.status_code != 200:
+        return f"failed {r.status_code}: {r.text[:140]}"
+    # GUARD 2: trust nothing — read it back. A 200 that resolved to fewer
+    # places than we wrote is exactly the RX wipe; restore the old set.
+    try:
+        chk = requests.get(f"{gbp.INFO_API}/{loc['name']}?readMask=serviceArea",
+                           headers=hdrs, timeout=60).json()
+        got = ((chk.get("serviceArea") or {}).get("places") or {}).get("placeInfos") or []
+    except Exception:  # noqa: BLE001
+        got = None
+    if got is not None and len(got) < len(infos):
+        if prev_places:
+            requests.patch(f"{gbp.INFO_API}/{loc['name']}?updateMask=serviceArea",
+                           headers=hdrs,
+                           data=json.dumps({"serviceArea": prev_sa}), timeout=60)
+        return (f"WIPE GUARD: wrote {len(infos)} but Google kept "
+                f"{len(got)} — restored previous {len(prev_places)}")
+    return f"updated ({len(infos)} places, verified)"
 
 
 def service_parity(slug: str, cid: str, terms: list[str], apply: bool) -> dict:
