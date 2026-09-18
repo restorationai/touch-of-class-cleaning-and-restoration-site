@@ -9875,6 +9875,30 @@ def cmd_rename_pitch(args) -> int:
                   "(--force overrides)")
             return 1
     notes = [n for n in (getattr(args, "note", None) or []) if n.strip()]
+    # PRIMARY-CATEGORY NUDGE (Santino 2026-09-18, QCI "General contractor"
+    # discovery): a restoration company whose GBP primary category is not
+    # Water damage restoration service is competing in the wrong map pack,
+    # and the rename conversation is the natural moment to say so. Data-
+    # driven from the synced profile, so it never fires falsely; the client
+    # agreeing becomes an escalation (Monica passes it along, never claims
+    # the flip herself).
+    if _company_vertical(company) == "restoration":
+        try:
+            _prof = (_sb("GET", "/rest/v1/marketing_gbp_profiles?company_id="
+                         f"eq.{company['id']}&select=primary_category&limit=1")
+                     or [{}])[0]
+            _cur = str(_prof.get("primary_category") or "").strip()
+            if _cur and _cur.lower() != "water damage restoration service":
+                notes.append(
+                    f"We also noticed the profile's primary category is set "
+                    f"to '{_cur}'. We recommend switching it to 'Water damage "
+                    "restoration service', it is the single biggest lever for "
+                    "showing up when people search for water damage help "
+                    "nearby. Say the word and we will handle the switch.")
+                print(f"  (auto-note: primary category '{_cur}' -> "
+                      "recommending Water damage restoration service)")
+        except Exception:  # noqa: BLE001 — the nudge must never block a pitch
+            pass
     if notes or dry_run:
         preview = _rename_options_body(company, cands,
                                        _company_vertical(company), notes)
