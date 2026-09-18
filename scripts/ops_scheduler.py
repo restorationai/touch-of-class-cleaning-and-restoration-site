@@ -58,6 +58,9 @@ WORKFLOW_DISPATCH_JOBS = [
     # in dev-agent.yml).
     ("dev-agent-nightly", "dev-agent.yml", ["09:07"], False, {}),
     ("dev-agent-daytime", "dev-agent.yml", ["20:07"], True, {}),
+    # Weekly-maintenance (2026-09-18: GitHub dropped the Thu 16:00 cron the
+    # very day the sharded AI scanner was due to stamp its first heartbeat).
+    ("weekly-maint", "weekly-maintenance.yml", ["16:00"], False, {}),
 ]
 # How long after a slot we still fire a missed dispatch (worker restarts).
 DISPATCH_CATCHUP = timedelta(hours=3)
