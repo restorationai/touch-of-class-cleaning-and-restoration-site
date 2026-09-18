@@ -9550,8 +9550,12 @@ def _verify_dba_upload(company: dict, contact: dict, rel: str,
                       "the hub DBA upload", state, dry_run)
 
 
+RENAME_PITCH_EMAIL_SUBJECT = "A visibility idea for your Google listing"
+
+
 def _rename_send(company: dict, contact: dict, body: str, state: dict,
-                 dry_run: bool, label: str, pend: dict | None = None) -> bool:
+                 dry_run: bool, label: str, pend: dict | None = None,
+                 channel: str = "sms", operator: bool = False) -> bool:
     grounding = outbound_guard(body, None)
     if grounding:
         print(f"    RENAME {label} BLOCKED (outbound guard): {grounding}")
@@ -9569,7 +9573,13 @@ def _rename_send(company: dict, contact: dict, body: str, state: dict,
     if dry_run:
         return True
     try:
-        res = send_message(contact, "sms", body, company=company)
+        # channel/operator (2026-09-18 app pitch button): email rides the
+        # same body + laws; an operator click is the human speaking, so it
+        # is exempt from the talk-over-a-human window (send_now precedent).
+        res = send_message(
+            contact, channel, body,
+            subject=RENAME_PITCH_EMAIL_SUBJECT if channel == "email" else None,
+            company=company, human_hold_exempt=operator)
         record_sent_message(state, res)
     except SendBlocked as e:
         # Writes/pings already happened; a held text must not kill the
@@ -9863,7 +9873,9 @@ def cmd_rename_pitch(args) -> int:
         for ln in preview.splitlines():
             print(f"    | {ln}")
     if not _rename_send(company, contact, RENAME_PITCH_BODY, state,
-                        dry_run, "pitch"):
+                        dry_run, "pitch",
+                        channel=getattr(args, "channel", "sms") or "sms",
+                        operator=getattr(args, "operator", False)):
         return 1
     if not dry_run:
         _rename_save(company["id"], {
@@ -13039,6 +13051,11 @@ def main() -> int:
                          "(repeatable)")
     pr.add_argument("--force", action="store_true",
                     help="pitch despite a coverage gap warning")
+    pr.add_argument("--channel", choices=("sms", "email"), default="sms",
+                    help="delivery channel for the opening pitch")
+    pr.add_argument("--operator", action="store_true",
+                    help="operator-initiated (app button): exempt from the "
+                         "human quiet window, like send_now")
 
     sub.add_parser("watchdog", help="loud alarm for directives stuck unsent "
                    ">2h (Sarha/Jimmy class silence, 2026-09-04)")

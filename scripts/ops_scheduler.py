@@ -196,6 +196,11 @@ JOBS = [
                               "sync", "--send"]),
     ("nudge", 3600, [sys.executable, str(HERE / "client_concierge.py"),
                      "compose", "--all", "--send"]),
+    # App-initiated rename pitches (2026-09-18): the Build Stages RENAME
+    # card queues a pitch into ops_kv; this executes it through the
+    # concierge chokepoint within a minute of the click.
+    ("rename-pitch", 60, [sys.executable,
+                          str(HERE / "rename_pitch_worker.py")]),
 ]
 
 JOB_TIMEOUT = 15 * 60
