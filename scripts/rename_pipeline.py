@@ -154,6 +154,80 @@ def main() -> int:
                    "&select=client_id,bl_ordered:connection_metadata->bl_ordered") or []
     bl_by = {r["client_id"]: (r.get("bl_ordered") or []) for r in cit_rows}
 
+    # RECONCILE (Santino 2026-09-18, Kenny/Veterans): whatever lane a DBA
+    # arrives through (text, email forward, hub upload, an operator at
+    # 11pm), the next sweep trues up the two links that used to be manual:
+    #   1. a verified DBA with no dba_doc_url picks up the newest document
+    #      sitting in branding/{cid}/docs/dba
+    #   2. a recorded dba_name marks its matching candidate row "chosen"
+    #      and dismisses the siblings — a decided name never displays as an
+    #      open question.
+    if not a.dry_run:
+        import os as _os
+        import requests as _rq2
+        _sb_url = _os.environ["SUPABASE_URL"].rstrip("/")
+        _sb_key = _os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+        _H = {"apikey": _sb_key, "Authorization": f"Bearer {_sb_key}",
+              "Content-Type": "application/json"}
+
+        def _norm_nm(t: str) -> str:
+            import re as _re
+            t = _re.sub(r"[‐-―−]", "-", str(t or ""))
+            t = _re.sub(r"\s*&\s*", " and ", t)
+            return _re.sub(r"\s+", " ", t).strip().lower()
+
+        for co in comps:
+            cid, ints = co["id"], co.get("integration_settings") or {}
+            ri = dict(ints.get("rename_intent") or {})
+            # 1. doc link heal
+            if (ri.get("dba_filed") or ri.get("dba_verified"))                     and not ri.get("dba_doc_url"):
+                try:
+                    lr = _rq2.post(f"{_sb_url}/storage/v1/object/list/branding",
+                                   headers=_H,
+                                   json={"prefix": f"{cid}/docs/dba",
+                                         "limit": 20}, timeout=30)
+                    objs = [o for o in (lr.json() if lr.ok else [])
+                            if isinstance(o, dict) and o.get("name")]
+                    objs.sort(key=lambda o: (not str(o["name"]).lower()
+                                             .endswith(".pdf"),
+                                             str(o.get("created_at") or "")))
+                    if objs:
+                        ri["dba_doc_url"] = (f"{_sb_url}/storage/v1/object/"
+                                             f"public/branding/{cid}/docs/dba/"
+                                             f"{objs[0]['name']}")
+                        ints["rename_intent"] = ri
+                        co["integration_settings"] = ints
+                        _sb("PATCH", f"/rest/v1/companies?id=eq.{cid}",
+                            {"integration_settings": ints})
+                        print(f"  >> heal: {co.get('name')} dba_doc_url <- "
+                              f"{objs[0]['name']}")
+                except Exception as e:  # noqa: BLE001 — heal never breaks sync
+                    print(f"  doc-link heal failed for {co.get('name')}: "
+                          f"{str(e)[:80]}")
+            # 2. chosen-candidate heal
+            dba = ri.get("dba_name")
+            rows = sugs_by.get(cid) or []
+            if dba and rows and not any(x.get("status") == "chosen"
+                                        for x in rows):
+                target = next((x for x in rows
+                               if _norm_nm(x["item"]) == _norm_nm(dba)), None)
+                if target:
+                    from urllib.parse import quote as _q
+                    for x in rows:
+                        if x.get("status") == "dismissed":
+                            continue
+                        st = ("chosen" if x is target else "dismissed")
+                        _sb("PATCH", "/rest/v1/marketing_gbp_suggestions"
+                            f"?company_id=eq.{cid}&item_type=eq.name"
+                            f"&item=eq.{_q(x['item'])}",
+                            {"status": st,
+                             "reason": ("DBA on record matches — healed by "
+                                        "the sweep" if st == "chosen" else
+                                        "name decision final (DBA on record)")})
+                        x["status"] = st
+                    print(f"  >> heal: {co.get('name')} slate finalized "
+                          f"-> {target['item'][:50]}")
+
     # PHASE 3c (2026-09-16, A4): verification poll. For every client whose
     # GBP rename was executed (gbp_renamed_at) but not yet confirmed, read
     # the LIVE GBP title and compare against the chosen name. Match ->
