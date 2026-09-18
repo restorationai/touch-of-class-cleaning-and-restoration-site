@@ -145,7 +145,7 @@ def main() -> int:
     rows = sb("GET", "marketing_tracked_calls?recording_url=not.is.null"
               "&transcript=is.null&order=started_at.desc"
               f"&limit={MAX_PER_RUN}"
-              "&select=id,call_sid,recording_url,duration_seconds,source") or []
+              "&select=id,call_sid,recording_url,duration_seconds,source,from_number") or []
     print(f"==> {len(rows)} call(s) pending intel")
     done = short = failed = 0
     for row in rows:
@@ -171,6 +171,24 @@ def main() -> int:
                {"transcript": text, "analysis": analysis,
                 "transcribed_at": datetime.now(timezone.utc).isoformat()},
                prefer="return=minimal")
+            # E1 feedback loop (Santino 2026-09-18): a transcript-classified
+            # spam number joins the fleet blocklist — the call router dead-
+            # ends its next call before the client's phone ever rings.
+            if (analysis or {}).get("outcome") == "spam" and row.get("from_number"):
+                try:
+                    _blrows = sb("GET", "ops_kv?k=eq.spam-blocklist&select=v") or []
+                    _bl = (_blrows[0].get("v") if _blrows else {}) or {}
+                    n = row["from_number"]
+                    e = _bl.get(n) or {"hits": 0}
+                    e["hits"] = e.get("hits", 0) + 1
+                    e["at"] = datetime.now(timezone.utc).isoformat()
+                    _bl[n] = e
+                    sb("POST", "ops_kv?on_conflict=k",
+                       {"k": "spam-blocklist", "v": _bl},
+                       prefer="resolution=merge-duplicates")
+                    print(f"    spam-blocklist += {n} ({e['hits']} hit(s))")
+                except Exception as e2:  # noqa: BLE001
+                    print(f"    (blocklist update warn: {str(e2)[:80]})")
             done += 1
             print(f"  {row['call_sid'][-8:]}: {len(text)} chars, "
                   f"outcome={analysis.get('outcome')}")

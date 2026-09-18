@@ -314,6 +314,31 @@ def _outcomes_stat(outcomes: dict) -> str:
               'labeled a missed opportunity or callback</div></div>')
 
 
+def _spam_blocked_stat(n: int) -> str:
+    """E3: spam is a POSITIVE line, not noise (Roy: dozens of lead-farm
+    robocalls made the call report look broken)."""
+    if not n:
+        return ""
+    return ('<div class="stat"><div class="lbl">Spam calls blocked</div>'
+            f'<div class="num">{_fmt(n)}</div>'
+            '<div class="from">robocalls and solicitors we filtered so they '
+            'never rang your line or counted above</div></div>')
+
+
+def _answer_rate_stat(calls: dict) -> str:
+    """E4: answer rate on real calls. Voicemail is the silent leak (RX:
+    105 of 200 calls ended in voicemail) — clients should see it monthly."""
+    total = calls.get("total") or 0
+    if total < 10:
+        return ""
+    pct = round(100 * (calls.get("answered_live") or 0) / total)
+    return ('<div class="stat"><div class="lbl">Answered live</div>'
+            f'<div class="num">{pct}%</div>'
+            '<div class="from">calls reaching a person, not voicemail'
+            + ('. Answering faster is the cheapest way to win more jobs'
+               if pct < 70 else '') + '</div></div>')
+
+
 def calls_section(cid: str, days: int = 31) -> dict | None:
     """Tracked phone calls (Santino 2026-08-31: "add the ability to see how
     many calls happen and the list of calls from both Google and the
@@ -325,20 +350,35 @@ def calls_section(cid: str, days: int = 31) -> dict | None:
                "&select=source,from_number,status,duration_seconds,started_at,analysis&limit=200")
     if not rows:
         return None
+    # E3 (2026-09-18, Roy's "cleaned call report"): spam never counts as a
+    # tracked call in anything client-facing. Calls the AI classified spam
+    # or the router dead-ended are pulled out and reported as ONE positive
+    # number ("N spam calls blocked") instead of polluting every stat.
+    def _is_spam(r: dict) -> bool:
+        a = r.get("analysis")
+        return (r.get("status") == "blocked_spam"
+                or (isinstance(a, dict) and a.get("outcome") == "spam"))
+    spam = sum(1 for r in rows if _is_spam(r))
+    rows = [r for r in rows if not _is_spam(r)]
     by_src = {"gbp": 0, "website": 0}
     answered = 0
+    answered_live = 0   # E4: connected to a human, not voicemail
     outcomes: dict[str, int] = {}
     for r in rows:
         by_src[r.get("source") or "gbp"] = by_src.get(r.get("source") or "gbp", 0) + 1
+        a = r.get("analysis")
+        oc = a.get("outcome") if isinstance(a, dict) else None
         if (r.get("duration_seconds") or 0) >= 20:
             answered += 1
-        a = r.get("analysis")
-        if isinstance(a, dict) and a.get("outcome"):
-            outcomes[a["outcome"]] = outcomes.get(a["outcome"], 0) + 1
+        if oc != "voicemail" and (r.get("duration_seconds") or 0) >= 20:
+            answered_live += 1
+        if oc:
+            outcomes[oc] = outcomes.get(oc, 0) + 1
     for r in rows:
         r.pop("analysis", None)   # the table renderer never needs it
     return {"total": len(rows), "gbp": by_src.get("gbp", 0),
             "website": by_src.get("website", 0), "answered": answered,
+            "answered_live": answered_live, "spam_blocked": spam,
             "outcomes": outcomes, "recent": rows[:20]}
 
 
@@ -599,10 +639,12 @@ def render_html(name: str, period: str, gsc: dict | None, rev: dict | None,
 <div class="stats">
   <div class="stat"><div class="lbl">Tracked calls, last 30 days</div>
     <div class="num">{_fmt(calls['total'])}</div>
-    <div class="from">{calls['answered']} connected for 20+ seconds</div></div>
+    <div class="from">{calls['answered_live']} reached a person live</div></div>
   <div class="stat"><div class="lbl">Where they came from</div>
     <div class="num">{_fmt(calls['gbp'])}<span class="of"> Google</span> &#183; {_fmt(calls['website'])}<span class="of"> website</span></div>
     <div class="from">every call rings straight to your line and is recorded</div></div>
+  {_answer_rate_stat(calls)}
+  {_spam_blocked_stat(calls.get('spam_blocked') or 0)}
   {_outcomes_stat(calls.get('outcomes') or {})}
 </div>
 <div class='twrap'><table><tr><th>Date</th><th>Source</th><th class='n'>Caller</th><th class='n'>Length</th></tr>{rows_html}</table></div>

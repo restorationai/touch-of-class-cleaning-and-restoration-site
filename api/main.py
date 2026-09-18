@@ -1771,6 +1771,70 @@ def _state_abbrev(state: str) -> str:
 _TWIML_CO_CACHE: dict[str, tuple[float, list]] = {}
 
 
+# ---- SPAM SHIELD (E1+E2, Santino 2026-09-18, the RestorationXpress
+# forensics: 74 spam calls, all on the GBP line, dozens of rotating 561
+# numbers at machine-length durations — the number is scraped from the
+# Google listing by lead-gen farms).
+#   E1: numbers call-intel classified as spam land in ops_kv
+#       'spam-blocklist'; a repeat caller never rings the client again.
+#   E2: FIRST-TIME callers get a Twilio Lookup line-type check with a
+#       Nomorobo spam score when the add-on is installed; high-risk goes
+#       to the same dead end. Verdicts cache in 'spam-lookup-cache' so a
+#       number is looked up once, ever. Lookup is capped at 1.5s — on any
+#       error or timeout the call goes THROUGH (a real customer must never
+#       be blocked by our plumbing).
+_SPAM_KV_CACHE: dict = {}
+
+
+def _spam_blocklist() -> dict:
+    hit = _SPAM_KV_CACHE.get("bl")
+    if hit and (time.time() - hit[0]) < 120:
+        return hit[1]
+    try:
+        rows = sb().table("ops_kv").select("v").eq("k", "spam-blocklist")             .limit(1).execute().data
+        bl = (rows[0]["v"] if rows else {}) or {}
+    except Exception:
+        bl = (hit[1] if hit else {})
+    _SPAM_KV_CACHE["bl"] = (time.time(), bl)
+    return bl
+
+
+def _spam_lookup_verdict(from_num: str) -> str:
+    """'block' | 'allow'. Cached per number forever; fails open."""
+    try:
+        rows = sb().table("ops_kv").select("v").eq("k", "spam-lookup-cache")             .limit(1).execute().data
+        cache = (rows[0]["v"] if rows else {}) or {}
+    except Exception:
+        cache = {}
+    if from_num in cache:
+        return cache[from_num].get("verdict", "allow")
+    verdict, why = "allow", ""
+    try:
+        import requests as _rq
+        _sid = os.environ.get("TWILIO_MASTER_ACCOUNT_SID", "")
+        _tok = os.environ.get("TWILIO_MASTER_AUTH_TOKEN", "")
+        if _sid and _tok and from_num.startswith("+"):
+            r = _rq.get(
+                f"https://lookups.twilio.com/v1/PhoneNumbers/{from_num}",
+                params={"AddOns": "nomorobo_spamscore"},
+                auth=(_sid, _tok), timeout=1.5)
+            if r.status_code == 200:
+                add = ((r.json().get("add_ons") or {}).get("results") or {})                     .get("nomorobo_spamscore") or {}
+                score = ((add.get("result") or {}).get("score"))
+                if add.get("status") == "successful" and score == 1:
+                    verdict, why = "block", "nomorobo score 1"
+    except Exception:
+        pass  # fail open, always
+    try:
+        cache[from_num] = {"verdict": verdict, "why": why,
+                           "at": datetime.now(timezone.utc).isoformat()}
+        sb().table("ops_kv").upsert({"k": "spam-lookup-cache", "v": cache},
+                                    on_conflict="k").execute()
+    except Exception:
+        pass
+    return verdict
+
+
 @app.post("/call-tracking/twiml/{company_id}/{source}")
 async def call_tracking_twiml(company_id: str, source: str, request: Request,
                               background_tasks: BackgroundTasks):
@@ -1780,6 +1844,43 @@ async def call_tracking_twiml(company_id: str, source: str, request: Request,
     call_sid = str(form.get("CallSid") or "")
     from_num = str(form.get("From") or "")
     to_num = str(form.get("To") or "")
+    # SPAM SHIELD gate: repeat offenders (E1) and lookup-flagged robocallers
+    # (E2) get a polite dead end and a logged row — they never ring the
+    # client, and the app counts them as "blocked".
+    _bl = _spam_blocklist()
+    _blocked_reason = None
+    if from_num and from_num in _bl:
+        _blocked_reason = "blocklist"
+    elif from_num and from_num not in _bl:
+        pass  # first-time lookup happens below only when configured on
+    if _blocked_reason is None and from_num             and os.environ.get("SPAM_LOOKUP_ENABLED") == "1":
+        _seen_hit = _SPAM_KV_CACHE.get("seen:" + from_num)
+        if not _seen_hit:
+            _SPAM_KV_CACHE["seen:" + from_num] = True
+            if _spam_lookup_verdict(from_num) == "block":
+                _blocked_reason = "lookup"
+    if _blocked_reason:
+        def _log_blocked():
+            try:
+                if call_sid:
+                    sb().table("marketing_tracked_calls").upsert({
+                        "company_id": company_id, "source": source,
+                        "tracking_number": to_num, "from_number": from_num,
+                        "call_sid": call_sid, "status": "blocked_spam",
+                        "analysis": {"outcome": "spam",
+                                     "blocked": _blocked_reason},
+                    }, on_conflict="call_sid").execute()
+            except Exception as e:  # noqa: BLE001
+                print("[spam-shield] log failed:", str(e)[:120])
+        background_tasks.add_task(_log_blocked)
+        from fastapi.responses import Response as _Resp
+        return _Resp(content=(
+            '<?xml version="1.0" encoding="UTF-8"?><Response>'
+            '<Say voice="Polly.Joanna">This number does not accept '
+            'solicitation calls. If you are a customer, please call back '
+            'from your primary phone.</Say><Hangup/></Response>'),
+            media_type="application/xml")
+
     _hit = _TWIML_CO_CACHE.get(company_id)
     if _hit and (time.time() - _hit[0]) < 120:
         co = _hit[1]
