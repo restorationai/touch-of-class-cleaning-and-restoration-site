@@ -1,6 +1,35 @@
 {
   "items": [
     {
+      "id": "2026-09-18-asbestos-testing-cost-ca",
+      "status": "queued",
+      "queued_at": "2026-09-18T12:16:41Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "cost_guide",
+      "combo_key": "asbestos-testing-cost-ca",
+      "primary_keyword": "asbestos testing cost CA",
+      "intent": "transactional",
+      "target_word_count": 1500,
+      "city_anchor": "kingsburg-ca",
+      "best_of": {
+        "service": "asbestos-testing",
+        "service_pretty": "Asbestos Testing",
+        "city": "Kingsburg",
+        "state": "CA",
+        "competitors": []
+      },
+      "fan_out_cluster": [
+        "how much does asbestos testing cost in CA",
+        "asbestos testing price CA",
+        "average cost of asbestos testing CA",
+        "asbestos test CA",
+        "asbestos testing near me CA",
+        "asbestos check CA"
+      ],
+      "source": "best-of-seeder"
+    },
+    {
       "id": "2026-09-06-mold-testing",
       "status": "queued",
       "queued_at": "2026-09-06T10:23:57Z",
@@ -306,7 +335,7 @@
     },
     {
       "id": "2026-09-15-mold-testing-kingsburg",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-15T14:24:35Z",
       "priority": 1,
       "prioritized": true,
@@ -316,7 +345,20 @@
       "intent": "commercial",
       "target_word_count": 1400,
       "city_anchor": "kingsburg-ca",
-      "source": "gameplan-2026-09-5 (dev-agent)"
+      "source": "gameplan-2026-09-5 (dev-agent)",
+      "written_at": "2026-09-18T12:18:41Z",
+      "post_url": "https://archenviroservice.com/blog/mold-testing-kingsburg/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/mold-testing-kingsburg.md",
+          "part": "frontmatter",
+          "family": "24/7",
+          "severity": "error",
+          "matched": "24 hours",
+          "context": "ves the samples. Rush analysis, usually 24 hours or same-day, is available from most acc",
+          "reason": "claims round-the-clock availability but brand.hours is \"(unset)\""
+        }
+      ]
     },
     {
       "id": "2026-09-15-lead-testing-kingsburg",
