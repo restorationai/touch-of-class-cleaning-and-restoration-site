@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-14-who-to-call-for-fire-damage-restoration-in-las-vegas-nv",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-14T20:22:05Z",
       "priority": 1,
       "prioritized": true,
@@ -27,7 +27,83 @@
         "fire restoration Las Vegas",
         "smoke damage cleanup Las Vegas"
       ],
-      "source": "best-of-seeder"
+      "source": "best-of-seeder",
+      "written_at": "2026-09-18T11:01:51Z",
+      "post_url": "https://purocleaneastlasvegas.com/blog/who-to-call-for-fire-damage-restoration-in-las-vegas-nv/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/who-to-call-for-fire-damage-restoration-in-las-vegas-nv.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "error",
+          "matched": "certified restoration",
+          "context": "of East Las Vegas at (702) 551-3040. A certified restoration crew should be your first call before a",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/who-to-call-for-fire-damage-restoration-in-las-vegas-nv.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "error",
+          "matched": "certified restoration",
+          "context": "cope. A written damage inventory from a certified restoration company strengthens your claim and help",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/who-to-call-for-fire-damage-restoration-in-las-vegas-nv.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "certified restoration",
+          "context": "nd the building is structurally safe, a certified restoration crew is your next call after the fire d",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/who-to-call-for-fire-damage-restoration-in-las-vegas-nv.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "that's PuroClean of East Las Vegas, an IICRC-certified restoration company serving t",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/who-to-call-for-fire-damage-restoration-in-las-vegas-nv.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "certified restoration",
+          "context": "s PuroClean of East Las Vegas, an IICRC-certified restoration company serving the greater Las Vegas v",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/who-to-call-for-fire-damage-restoration-in-las-vegas-nv.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "our insurance claim the same day. The [IICRC S700 Standard for Professional Fire and",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/who-to-call-for-fire-damage-restoration-in-las-vegas-nv.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "as** PuroClean of East Las Vegas is an IICRC-certified restoration company based at",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/who-to-call-for-fire-damage-restoration-in-las-vegas-nv.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "certified restoration",
+          "context": "PuroClean of East Las Vegas is an IICRC-certified restoration company based at 2777 N Lamb Blvd, Las",
+          "reason": "names a certification not present in brand.certifications"
+        }
+      ]
     },
     {
       "id": "2026-09-06-trauma-crime-scene-biohazard",
