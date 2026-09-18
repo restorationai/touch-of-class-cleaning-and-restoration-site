@@ -1,6 +1,6 @@
 {
  "domain": "dissrestoration.com",
- "captured_at": "2026-09-09T14:34:18+00:00",
+ "captured_at": "2026-09-18T23:22:35+00:00",
  "authoritative": {
   "ns": [
    "ns4.wixdns.net",
@@ -13,26 +13,20 @@
    }
   ],
   "apex_txt": [
-   "google-site-verification=epCHLEezTv_qh0yc_SP0GMlMXr30I0ImYkYdB_ZSpPM",
-   "google-site-verification=Qw3zFvhbBqK1wUEiq06O7JaSDFLnLzyydu4bczXdN1s",
-   "v=verifydomain MS=4025810",
    "v=spf1 include:spf.protection.outlook.com -all",
+   "v=verifydomain MS=4025810",
+   "google-site-verification=epCHLEezTv_qh0yc_SP0GMlMXr30I0ImYkYdB_ZSpPM",
+   "google-site-verification=8wa0N1gYDTDmxKMxeKPRu-b9YHXC72syzONWdl2qBpk",
    "google-site-verification=7Ye_uDSA_FZXe8AO_Tvel_gjSSdyywYnjkdCz0uR8s8",
-   "google-site-verification=8wa0N1gYDTDmxKMxeKPRu-b9YHXC72syzONWdl2qBpk"
+   "google-site-verification=Qw3zFvhbBqK1wUEiq06O7JaSDFLnLzyydu4bczXdN1s"
   ],
   "dmarc_txt": [
    "v=DMARC1; p=none;"
   ],
   "dkim": {},
-  "apex_a": [
-   "185.230.63.186",
-   "185.230.63.171",
-   "185.230.63.107"
-  ],
+  "apex_a": [],
   "apex_cname": [],
-  "www_cname": [
-   "cdn3.wixdns.net"
-  ]
+  "www_cname": []
  },
  "cf_zone": {
   "zone_id": "8647d3d8dd8479ca76eb136f6f5d262c",
