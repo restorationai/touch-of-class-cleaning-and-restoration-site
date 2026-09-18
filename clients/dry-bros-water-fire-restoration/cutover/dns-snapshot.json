@@ -1,6 +1,6 @@
 {
  "domain": "drybros.com",
- "captured_at": "2026-09-18T18:31:26+00:00",
+ "captured_at": "2026-09-18T18:31:57+00:00",
  "authoritative": {
   "ns": [
    "ns53.domaincontrol.com",
@@ -28,6 +28,23 @@
    "amos.ns.cloudflare.com",
    "anastasia.ns.cloudflare.com"
   ],
-  "records": []
+  "records": [
+   {
+    "id": "cf010ef301394dc95e8dad8b5b22804a",
+    "type": "TXT",
+    "name": "_dmarc.drybros.com",
+    "content": "v=DMARC1; p=quarantine; adkim=r; aspf=r; rua=mailto:dmarc_rua@onsecureserver.net;",
+    "priority": null,
+    "proxied": false
+   },
+   {
+    "id": "3d6d8e20974a82d5f7160f2c71380231",
+    "type": "TXT",
+    "name": "drybros.com",
+    "content": "v=spf1 include:secureserver.net ~all",
+    "priority": null,
+    "proxied": false
+   }
+  ]
  }
 }
