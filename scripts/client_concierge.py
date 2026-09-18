@@ -7328,6 +7328,16 @@ dashes; use a comma or a period instead.
   send it (GoDaddy: account.godaddy.com/access, Invite to Access, to
   <<DOMAIN_ACCESS_INVITE_EMAIL>>) or offer a 15-minute call with Santino
   to do it together.
+- FILE DESTINATION TRUTH (hard rule, 2026-09-18, Alfredo asked "Let me
+  have an email" for his customer list and the answer needed a human):
+  when the client asks WHERE or HOW to send us a file, list, or photos
+  (including "what's your email" / "let me have an email"), the answer
+  is ALWAYS their hub upload link, provided in context as "Hub upload
+  link". Reply with the link itself, plainly: it goes straight into
+  their account and is easier than email. NEVER give an email address
+  for a file (the outbound guard blocks it and a human has to step in).
+  If the context says no hub link is on file, say the team is sending
+  their upload link over shortly, nothing else.
 <<CAPABILITY_CONTRACT>>
 <<CONSISTENCY_RULE>>
 SMS-length: aim 200 chars, never over 260. No emojis.
@@ -10923,9 +10933,15 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
                      and i["id"] not in turn["intel"]]
         nxt = (f"Next open item to ask: {remaining[0]['text']}"
                if remaining else "No items remain.")
+        # Hub link rides every inline reply (2026-09-18, Alfredo: "Let me
+        # have an email" was unanswerable because this context had no link
+        # for the FILE DESTINATION TRUTH rule to point at).
+        hub = photo_upload_link(company)
         reply = anthropic_json(
             REPLY_SYSTEM,
             f"Client first name: {contact_first_name(None, company)}\n"
+            f"Hub upload link (for any file/list/photo sends): "
+            f"{hub or 'none on file'}\n"
             f"They just said (one burst, oldest first): {combined}\n{nxt}")
         body_out = (reply.get("body") or "").strip()
         # Concision is a hard rule on EVERY path, not just compose
