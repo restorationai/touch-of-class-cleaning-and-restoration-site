@@ -95,10 +95,74 @@ def _run_pitch(entry: dict) -> tuple[str, str]:
     return "error", tail or f"exit {r.returncode}"
 
 
+REFRESH_KV = "rename-refresh-queue"
+
+
+def process_refreshes(dry: bool) -> None:
+    """App 'Refresh names' clicks (Santino 2026-09-18: "if there is a hold,
+    there needs to be a way to remove it in the app... we can just run a
+    refresh"). A refresh DISMISSES every open name row — hold placeholders
+    included — and reruns the researcher (gbp_name_suggest.py), so a stale
+    or held slate becomes a fresh one with no CLI involved."""
+    rows = _sb("GET", f"/rest/v1/ops_kv?k=eq.{REFRESH_KV}&select=v") or []
+    q = (rows[0].get("v") if rows else {}) or {}
+    changed = False
+    for cid, entry in list(q.items()):
+        if entry.get("status") != "queued":
+            try:
+                done = entry.get("finished_at")
+                if done and (_now() - datetime.fromisoformat(done)).days >= PRUNE_DAYS:
+                    del q[cid]; changed = True
+            except Exception:  # noqa: BLE001
+                pass
+            continue
+        if dry:
+            print(f"  refresh {entry.get('slug') or cid} [dry-run]")
+            continue
+        slug = entry.get("slug") or ""
+        try:
+            _sb("PATCH", "/rest/v1/marketing_gbp_suggestions"
+                f"?company_id=eq.{cid}&item_type=eq.name&status=eq.open",
+                {"status": "dismissed",
+                 "reason": f"refreshed via app by {entry.get('requested_by')} "
+                           f"({_now().date()})"})
+            r = subprocess.run(
+                [sys.executable, str(ROOT / "scripts" / "gbp_name_suggest.py"),
+                 "--slug", slug],
+                capture_output=True, text=True, timeout=600, cwd=str(ROOT))
+            fresh = _sb("GET", "/rest/v1/marketing_gbp_suggestions"
+                        f"?company_id=eq.{cid}&item_type=eq.name"
+                        "&status=eq.open&select=item") or []
+            if r.returncode == 0 and fresh:
+                entry["status"] = "done"
+                entry["detail"] = f"{len(fresh)} fresh candidate(s)"
+            else:
+                tail = "\n".join(((r.stdout or "") + (r.stderr or ""))
+                                 .strip().splitlines()[-3:])[:300]
+                entry["status"] = "failed"
+                entry["detail"] = tail or "researcher produced no candidates"
+        except Exception as e:  # noqa: BLE001
+            entry["status"] = "failed"
+            entry["detail"] = str(e)[:300]
+        entry["finished_at"] = _now().isoformat()
+        q[cid] = entry
+        changed = True
+        print(f"  refresh {slug or cid}: {entry['status']} ({entry['detail']})")
+        subprocess.run([sys.executable, str(ROOT / "scripts" / "rename_pipeline.py")],
+                       capture_output=True, timeout=300, cwd=str(ROOT))
+    if changed and not dry:
+        _sb("POST", "/rest/v1/ops_kv?on_conflict=k", {"k": REFRESH_KV, "v": q},
+            prefer="resolution=merge-duplicates")
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
+    try:
+        process_refreshes(a.dry_run)
+    except Exception as e:  # noqa: BLE001 — refreshes never block pitches
+        print(f"  refresh queue error: {str(e)[:150]}")
     q = _kv_get()
     if not q:
         return 0
