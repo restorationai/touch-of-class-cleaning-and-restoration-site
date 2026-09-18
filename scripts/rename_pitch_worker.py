@@ -126,8 +126,13 @@ def process_refreshes(dry: bool) -> None:
                 {"status": "dismissed",
                  "reason": f"refreshed via app by {entry.get('requested_by')} "
                            f"({_now().date()})"})
+            # gbp_rename_research (2026-09-18): the SLATE researcher — it
+            # writes marketing_gbp_suggestions name rows, which is what the
+            # Profile Rename card displays. (gbp_name_suggest writes single
+            # action-plan cards; wiring it here made the first TDI refresh
+            # look like nothing happened.)
             r = subprocess.run(
-                [sys.executable, str(ROOT / "scripts" / "gbp_name_suggest.py"),
+                [sys.executable, str(ROOT / "scripts" / "gbp_rename_research.py"),
                  "--slug", slug],
                 capture_output=True, text=True, timeout=600, cwd=str(ROOT))
             fresh = _sb("GET", "/rest/v1/marketing_gbp_suggestions"
