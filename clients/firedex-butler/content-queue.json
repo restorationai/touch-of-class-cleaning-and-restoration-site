@@ -194,10 +194,10 @@
     },
     {
       "id": "2026-08-26-flooded-basement-what-to-do",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-26T23:55:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-18T11:35:19Z",
+      "post_url": "https://firedex.net/blog/flooded-basement-what-to-do/",
       "primary_keyword": "flooded basement what to do",
       "intent": "informational",
       "volume": 1000,
@@ -231,7 +231,36 @@
       ],
       "notes": "Differentiate from the planned /blog/what-to-do-first-24-hours-water-damage/ post: that one is whole-home and generic, this one is basement-specific (power and gas shutoff before entering standing water, sump pit and floor drain checks, finished-basement drywall and carpet-pad decisions, category escalation if the water came from a floor drain). Nearly every home in Cranberry Township, Wexford and Seven Fields has a basement and many are finished, so this is the client's highest-frequency loss scenario. Do not claim IICRC certification or membership: cite the S500 standard as an external source only. Never quote GBP rating or review count.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/flooded-basement-what-to-do.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "kup. That is Category 3 water under the IICRC S500 classification, which means it con",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/flooded-basement-what-to-do.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "nd what your insurance will cover. The [IICRC S500 Standard for Professional Water Da",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/flooded-basement-what-to-do.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "ach acceptable moisture content per the IICRC S500 standard. Guessing is not a strate",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
     },
     {
       "id": "2026-08-26-water-damage-restoration-cost",
