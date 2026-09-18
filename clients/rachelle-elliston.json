@@ -1,9 +1,9 @@
 {
- "slug": "rachelle-elliston",
- "display_name": "Desert Valley Contracting Inc ",
- "domain": null,
- "tier": "standard",
- "vertical": "restoration",
- "contact": "relliston@desertvalleyco.com",
- "status": "onboarding"
+  "slug": "rachelle-elliston",
+  "display_name": "Desert Valley Contracting Inc ",
+  "domain": "desertvalleycontracting.net",
+  "tier": "standard",
+  "vertical": "restoration",
+  "contact": "relliston@desertvalleyco.com",
+  "status": "onboarding"
 }

@@ -1,7 +1,7 @@
 {
   "slug": "dry-bros-water-fire-restoration",
   "display_name": "Dry Bros Water & Fire Restoration",
-  "domain": null,
+  "domain": "drybros.com",
   "tier": "standard",
   "vertical": "restoration",
   "contact": "amin.mashouf@gmail.com",
@@ -13,7 +13,7 @@
     "url_count": 128,
     "generated_at": "2026-09-17T15:06:19.345471+00:00"
   },
-  "updated_at": "2026-09-17T19:35:17.629850+00:00",
+  "updated_at": "2026-09-18T17:26:06.491735+00:00",
   "indexnow_key": "c6ac0439f07d44adb611dfb90b41c8e1",
   "build": {
     "scaffolded_at": "2026-09-08T20:19:57.946792+00:00",
@@ -23,7 +23,7 @@
     "url_count": 56,
     "pages_status": "created",
     "last_rendered_at": "2026-09-17T14:24:37.839122+00:00",
-    "last_pushed_staging_at": "2026-09-17T19:35:17.629806+00:00"
+    "last_pushed_staging_at": "2026-09-18T17:26:06.491685+00:00"
   },
   "build_status": "pushed_staging",
   "brightlocal": {

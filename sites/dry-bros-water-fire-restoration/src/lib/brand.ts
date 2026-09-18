@@ -13,8 +13,8 @@ export const brand = {
   // declares it as the business name, so Google/BrightLocal find the new
   // name corroborated on the site before and during the GBP rename.
   dbaName: "Dry Bros - 24/7 Emergency Water Damage Restoration & Mold Remediation",
-  domain: "dry-bros-water-fire-restoration.invalid",
-  canonicalUrl: "https://dry-bros-water-fire-restoration.invalid",
+  domain: "drybros.com",
+  canonicalUrl: "https://drybros.com",
   phone: "(877) 379-2767",
   phoneRaw: "+18773792767",
   // Sitewide call-tracking number (2026-08-24). When BOTH fields are set,
@@ -43,7 +43,7 @@ export const brand = {
   lng: "-87.6244212",
   placeId: "",
   googleCid: "",
-  imagesBase: "https://images.dry-bros-water-fire-restoration.invalid",
+  imagesBase: "https://images.drybros.com",
   googleMapsApiKey: "",
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
   ga4MeasurementId: "",
@@ -60,7 +60,7 @@ export const brand = {
   certifications: [] as string[],
   trustBadges: ["Licensed & Insured", "Locally Owned & Operated"] as string[],
   jobPhotos: [] as string[],
-  sameAsUrls: ["https://drybros.com/"] as string[],
+  sameAsUrls: [] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "",

@@ -57,7 +57,7 @@ function contentLastmodMap() {
 const LASTMOD_BY_PATH = contentLastmodMap();
 
 export default defineConfig({
-  site: "https://aldredo-moreno.invalid",
+  site: "https://theacs-enterprises.com",
   output: "static",
   trailingSlash: "always",
   integrations: [
@@ -70,7 +70,7 @@ export default defineConfig({
       changefreq: "weekly",
       serialize(item) {
         if (item.url.endsWith("/")) {
-          item.priority = item.url === "https://aldredo-moreno.invalid/" ? 1.0 : 0.7;
+          item.priority = item.url === "https://theacs-enterprises.com/" ? 1.0 : 0.7;
         }
         const urlPath = new URL(item.url).pathname;
         item.lastmod = (LASTMOD_BY_PATH.get(urlPath) ?? BUILD_DATE).toISOString();

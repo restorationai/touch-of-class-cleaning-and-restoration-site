@@ -179,6 +179,11 @@ jobs:
           # in for weeks after launch — this keeps the JSON-LD in step.
           # Live-on-main sites commit + sync-deploy themselves; preview-only
           # edits ride the commit step below. Idempotent, quiet when in sync.
+          # Launch-path rehydration guard (2026-09-18, Dry Bros): domains
+          # recorded in the app flow out to the repo record + site tokens
+          # nightly, so Refresh Readiness never says "no real domain" about
+          # a domain we hold.
+          python3 scripts/domain_hydrate.py || true
           python3 scripts/citations_sync.py || true
           # Rename A2 (2026-09-16): the sweep behind Monica's DBA
           # vision-verify — puts "[legal] doing business as [DBA]" in the

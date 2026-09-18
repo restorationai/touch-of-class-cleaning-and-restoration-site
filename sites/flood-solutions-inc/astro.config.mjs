@@ -57,7 +57,7 @@ function contentLastmodMap() {
 const LASTMOD_BY_PATH = contentLastmodMap();
 
 export default defineConfig({
-  site: "https://flood-solutions-inc.invalid",
+  site: "https://floodsolutionsinc.com",
   output: "static",
   trailingSlash: "always",
   integrations: [
@@ -70,7 +70,7 @@ export default defineConfig({
       changefreq: "weekly",
       serialize(item) {
         if (item.url.endsWith("/")) {
-          item.priority = item.url === "https://flood-solutions-inc.invalid/" ? 1.0 : 0.7;
+          item.priority = item.url === "https://floodsolutionsinc.com/" ? 1.0 : 0.7;
         }
         const urlPath = new URL(item.url).pathname;
         item.lastmod = (LASTMOD_BY_PATH.get(urlPath) ?? BUILD_DATE).toISOString();

@@ -8,7 +8,7 @@ export const brand = {
   shortName: "Dry County Restoration",
   legalName: "Dry County Restoration",
   domain: "",
-  canonicalUrl: "https://dry-county-restoration.invalid",
+  canonicalUrl: "https://drycountyrestoration.com",
   phone: "(951) 667-9910",
   phoneRaw: "+19516679910",
   // Sitewide call-tracking display number (DNI — see BaseLayout).
@@ -32,7 +32,7 @@ export const brand = {
   lng: "-117.566444",
   placeId: "ChIJBQyutfy53IARKDqQsaEwmyQ",
   googleCid: "",
-  imagesBase: "https://images.dry-county-restoration.invalid",
+  imagesBase: "https://images.drycountyrestoration.com",
   googleMapsApiKey: "",
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
   ga4MeasurementId: "G-211581WVBQ",
