@@ -370,6 +370,15 @@ def service_parity(slug: str, cid: str, terms: list[str], apply: bool) -> dict:
     return out
 
 
+
+
+def _active_cids() -> set:
+    """Companies the engines may touch. Cancelled/departed clients (Mold
+    Solutionz class, dead 09-09) must never be staged, applied, or written
+    to — 70 of its suggestions were sitting open because nothing filtered."""
+    return {c["id"] for c in _sb(
+        "GET", "/rest/v1/companies?status=eq.Active&select=id") or []}
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--slug")
@@ -385,10 +394,11 @@ def main() -> int:
     inv = {s: c for c, s in slug_map().items()}
     slugs = [a.slug] if a.slug else sorted(inv)
     ledger: dict = {}
+    active = _active_cids()
 
     for slug in slugs:
         cid = inv.get(slug)
-        if not cid:
+        if not cid or cid not in active:
             continue
         try:
             lp = location_plan(slug, cid)

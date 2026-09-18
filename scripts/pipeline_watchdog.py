@@ -125,13 +125,37 @@ def check_coverage() -> list[str]:
     bank_rows = _sb("GET", "/rest/v1/marketing_gbp_suggestions"
                     "?source=eq.service-bank&select=company_id") or []
     has_bank = {r["company_id"] for r in bank_rows}
+    # Eligibility check (2026-09-18 first pass): RT Olson (plumbing/HVAC,
+    # 150 GBP services) and Arch (testing-only environmental) alerted as
+    # "missed" when the restoration bank truthfully has NOTHING for them.
+    # Only flag clients whose capabilities match at least one bank family.
+    from gbp_service_bank import client_capabilities, load_bank
+    try:
+        bank = load_bank()
+    except Exception:  # noqa: BLE001
+        bank = {}
+    from gbp_auto_apply import _norm
     for slug, cid in inv.items():
         co = comps.get(cid)
         if not co or cid not in profs:
             continue
         age = (NOW - datetime.fromisoformat(
             str(co["created_at"]).replace("Z", "+00:00"))).days
-        if age >= 10 and cid not in has_bank:
+        if age < 10 or cid in has_bank:
+            continue
+        try:
+            caps, on_gbp, plumbing_ok = client_capabilities(slug, cid)
+        except Exception:  # noqa: BLE001
+            caps, on_gbp, plumbing_ok = set(), set(), False
+        eligible = False
+        for base, fam in bank.items():
+            if isinstance(fam, dict) and fam.get("license_gate") == "plumbing"                     and not plumbing_ok:
+                continue
+            if (base in caps or _norm(base.replace("-", " ")) in on_gbp
+                    or any(_norm(base.replace("-", " ")) in g for g in on_gbp)):
+                eligible = True
+                break
+        if eligible:
             issues.append(f"service-bank coverage: {co['name']} active {age}d "
                           "with a GBP but ZERO bank variants — fan-out missed them")
     # OPTIMIZER SLA (A4): auto-safe items are supposed to clear on the
@@ -139,6 +163,10 @@ def check_coverage() -> list[str]:
     # skipping them (or dead), which is exactly how ~700 items piled up
     # invisibly before 09-17.
     stale = _sb("GET", "/rest/v1/marketing_gbp_suggestions?status=eq.open"
+                # auto_safe only (2026-09-18): without this filter the SLA
+                # counted human-review items and kept alerting on piles the
+                # nightly apply had already cleared.
+                "&auto_safe=is.true"
                 "&item_type=in.(service,description)"
                 # '+00:00' in an ISO stamp URL-decodes to a space and 400s (same
                 # gotcha call_alerts hit) — always the Z form in query strings.

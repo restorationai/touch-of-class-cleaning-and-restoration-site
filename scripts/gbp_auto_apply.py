@@ -268,9 +268,12 @@ def main() -> int:
     slugs = [a.slug] if a.slug else (sorted(inv) if a.all else [])
     if not slugs:
         sys.exit("need --slug or --all")
+    # Cancelled/departed clients never get writes (Mold Solutionz class).
+    active = {c["id"] for c in _sb(
+        "GET", "/rest/v1/companies?status=eq.Active&select=id") or []}
     for slug in slugs:
         cid = inv.get(slug)
-        if not cid:
+        if not cid or cid not in active:
             continue
         try:
             run_client(slug, cid, terms, apply=a.apply and not a.dry_run)
