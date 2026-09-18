@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-14-who-to-call-for-water-damage-restoration-in-duncanville-tx",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-14T20:21:50Z",
       "priority": 1,
       "prioritized": true,
@@ -27,7 +27,38 @@
         "water cleanup Duncanville",
         "water removal Duncanville"
       ],
-      "source": "best-of-seeder"
+      "source": "best-of-seeder",
+      "written_at": "2026-09-18T22:43:53Z",
+      "post_url": "https://mccrestoration.com/blog/who-to-call-for-water-damage-restoration-in-duncanville-tx/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/who-to-call-for-water-damage-restoration-in-duncanville-tx.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "r losses take 3 to 5 days to dry to the IICRC S500 standard, depending on the categor",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/who-to-call-for-water-damage-restoration-in-duncanville-tx.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "ly tight. Thorough structural drying to IICRC S500 standards is the primary defense.",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/who-to-call-for-water-damage-restoration-in-duncanville-tx.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "est. The response process follows the [IICRC S500 Standard for Professional Water Da",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
     },
     {
       "id": "2026-08-27-water-damage-restoration-cost-tx",
@@ -67,7 +98,7 @@
           "severity": "review",
           "matched": "IICRC",
           "context": "hing else. **1. Water category.** The [IICRC S500 standard](https://www.iicrc.org) c",
-          "reason": "IICRC standard reference on an uncertified brand — verify it reads as an industry standard, not a credential claim"
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
         },
         {
           "file": "src/content/blog/water-damage-restoration-cost-tx.md",
@@ -139,7 +170,7 @@
           "severity": "review",
           "matched": "IICRC",
           "context": "er extraction, structural drying to the IICRC S500 standard, mold remediation, and fu",
-          "reason": "IICRC standard reference on an uncertified brand — verify it reads as an industry standard, not a credential claim"
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
         },
         {
           "file": "src/content/blog/best-water-damage-restoration-company-in-duncanville-tx.md",
@@ -148,7 +179,7 @@
           "severity": "review",
           "matched": "IICRC",
           "context": "r deployment, structural drying to the [IICRC S500 standard](https://www.iicrc.org),",
-          "reason": "IICRC standard reference on an uncertified brand — verify it reads as an industry standard, not a credential claim"
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
         },
         {
           "file": "src/content/blog/best-water-damage-restoration-company-in-duncanville-tx.md",
@@ -157,7 +188,7 @@
           "severity": "review",
           "matched": "IICRC",
           "context": "| Company | Google Rating | Reviews | IICRC Standard | Full Reconstruction | |---|-",
-          "reason": "IICRC standard reference on an uncertified brand — verify it reads as an industry standard, not a credential claim"
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
         },
         {
           "file": "src/content/blog/best-water-damage-restoration-company-in-duncanville-tx.md",
@@ -166,7 +197,7 @@
           "severity": "review",
           "matched": "IICRC",
           "context": "d Contracting Services |, |, | Dried to IICRC S500 | Yes | | Stanley Restoration, L.L",
-          "reason": "IICRC standard reference on an uncertified brand — verify it reads as an industry standard, not a credential claim"
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
         },
         {
           "file": "src/content/blog/best-water-damage-restoration-company-in-duncanville-tx.md",
@@ -175,7 +206,7 @@
           "severity": "review",
           "matched": "IICRC",
           "context": "48 hours is at elevated mold risk. The [IICRC S520 standard](https://www.iicrc.org) g",
-          "reason": "IICRC standard reference on an uncertified brand — verify it reads as an industry standard, not a credential claim"
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
         },
         {
           "file": "src/content/blog/best-water-damage-restoration-company-in-duncanville-tx.md",
