@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-14-who-to-call-for-water-damage-restoration-in-davie-fl",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-14T20:23:41Z",
       "priority": 1,
       "prioritized": true,
@@ -27,7 +27,74 @@
         "water damage cleanup Davie",
         "water cleanup Davie"
       ],
-      "source": "best-of-seeder"
+      "source": "best-of-seeder",
+      "written_at": "2026-09-18T11:11:14Z",
+      "post_url": "https://restorationxpress.com/blog/who-to-call-for-water-damage-restoration-in-davie-fl/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/who-to-call-for-water-damage-restoration-in-davie-fl.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "-accepted moisture levels following the IICRC S500 standard. Losses involving contami",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/who-to-call-for-water-damage-restoration-in-davie-fl.md",
+          "part": "body",
+          "family": "24/7",
+          "severity": "review",
+          "matched": "24-hour",
+          "context": "y.** Florida City Gas and FPL both have 24-hour emergency lines. Do not re-enter until",
+          "reason": "24-hour availability statement appears to describe a third party (carrier/utility) \u2014 verify it is not about the brand"
+        },
+        {
+          "file": "src/content/blog/who-to-call-for-water-damage-restoration-in-davie-fl.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "ationXpress at (954) 964-6471. They are IICRC-certified and serve all of Davie includ",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/who-to-call-for-water-damage-restoration-in-davie-fl.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "certified restoration",
+          "context": "ps to prevent further damage. Calling a certified restoration company promptly satisfies that duty. Y",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/who-to-call-for-water-damage-restoration-in-davie-fl.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "a drying system. The crew follows the [IICRC S500 standard](https://www.iicrc.org) f",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/who-to-call-for-water-damage-restoration-in-davie-fl.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "rationXpress** RestorationXpress is an IICRC-certified restoration company based in",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/who-to-call-for-water-damage-restoration-in-davie-fl.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "certified restoration",
+          "context": "Xpress** RestorationXpress is an IICRC-certified restoration company based in Davie, FL (33314), ser",
+          "reason": "names a certification not present in brand.certifications"
+        }
+      ]
     },
     {
       "id": "2026-08-28-water-damage-restoration-cost-fl",
