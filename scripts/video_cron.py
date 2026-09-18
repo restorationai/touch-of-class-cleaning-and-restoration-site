@@ -387,7 +387,16 @@ def main() -> int:
     ap.add_argument("--slug", help="One client (default: all connected, active clients)")
     ap.add_argument("--dry-run", action="store_true",
                     help="Show what it would make; render nothing, save no state")
+    ap.add_argument("--budget-min", type=int, default=0,
+                    help="wall-clock budget: stop cleanly (exit 0) before "
+                         "starting a video that would not fit. Turns the "
+                         "'cancelled at timeout mid-render' state into a "
+                         "SUCCESS with a resume-next-run line (2026-09-18: "
+                         "two healthy backfill runs published 16 and 18 "
+                         "videos and both concluded 'cancelled').")
     args = ap.parse_args()
+    import time as _time
+    _t0 = _time.monotonic()
 
     slugs = [args.slug] if args.slug else active_clients()
     connected = connected_company_ids()
@@ -404,6 +413,10 @@ def main() -> int:
             skipped.append((slug, "YouTube connected but the account has NO channel "
                                   "— nothing could be published (ledger card raised)"))
             continue
+        if args.budget_min and (_time.monotonic() - _t0) > args.budget_min * 60 - 600:
+            print(f"\n==> budget reached ({args.budget_min} min): "
+                  f"{len(made)} published this run, resuming next run")
+            break
         st = load_state(slug)
         try:
             plan = plan_next(slug, st)

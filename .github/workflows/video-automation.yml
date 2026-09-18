@@ -67,7 +67,7 @@ jobs:
           CLOUDFLARE_PAGES_API_TOKEN:   ${{ secrets.CLOUDFLARE_PAGES_API_TOKEN }}
           GITHUB_PERSONAL_ACCESS_TOKEN: ${{ secrets.GH_PAT }}
         run: |
-          python3 -u scripts/video_cron.py \
+          python3 -u scripts/video_cron.py --budget-min 170 \
             ${{ github.event.inputs.slug && format('--slug {0}', github.event.inputs.slug) || '' }} \
             ${{ github.event.inputs.dry_run == 'true' && '--dry-run' || '' }}
 
