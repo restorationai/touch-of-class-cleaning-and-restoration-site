@@ -98,6 +98,11 @@
       "city": "Oxford",
       "state": "MA",
       "slug": "oxford-ma"
+    },
+    {
+      "city": "Whitinsville",
+      "state": "MA",
+      "slug": "whitinsville-ma"
     }
   ],
   "service_radius_description": "Southern New England, with crews responding across a 50 mile radius of Auburn"

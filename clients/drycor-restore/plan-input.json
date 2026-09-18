@@ -356,6 +356,11 @@
       "city": "Mango",
       "state": "FL",
       "slug": "mango-fl"
+    },
+    {
+      "city": "East Lake-Orient Park",
+      "state": "FL",
+      "slug": "east-lake-orient-park-fl"
     }
   ],
   "template": "restoration",

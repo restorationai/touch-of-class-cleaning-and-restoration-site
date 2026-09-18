@@ -85,6 +85,11 @@
       "city": "Cedar Hills",
       "state": "UT",
       "slug": "cedar-hills-ut"
+    },
+    {
+      "city": "Lindon",
+      "state": "UT",
+      "slug": "lindon-ut"
     }
   ],
   "template": "restoration",

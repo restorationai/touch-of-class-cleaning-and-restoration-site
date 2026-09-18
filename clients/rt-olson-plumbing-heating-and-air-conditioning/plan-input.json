@@ -214,6 +214,11 @@
       "city": "Silverado",
       "state": "CA",
       "slug": "silverado-ca"
+    },
+    {
+      "city": "Temescal Valley",
+      "state": "CA",
+      "slug": "temescal-valley-ca"
     }
   ],
   "template": "plumbing",

@@ -183,6 +183,11 @@
       "city": "McChord AFB",
       "state": "WA",
       "slug": "mcchord-afb-wa"
+    },
+    {
+      "city": "Steilacoom",
+      "state": "WA",
+      "slug": "steilacoom-wa"
     }
   ],
   "template": "restoration",

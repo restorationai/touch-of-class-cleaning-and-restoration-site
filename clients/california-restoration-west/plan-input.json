@@ -88,6 +88,11 @@
       "city": "Mira Monte",
       "state": "CA",
       "slug": "mira-monte-ca"
+    },
+    {
+      "city": "Oak View",
+      "state": "CA",
+      "slug": "oak-view-ca"
     }
   ],
   "template": "restoration",

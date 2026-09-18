@@ -301,6 +301,11 @@
       "city": "East Niles",
       "state": "CA",
       "slug": "east-niles-ca"
+    },
+    {
+      "city": "Tarina",
+      "state": "CA",
+      "slug": "tarina-ca"
     }
   ],
   "brand": {

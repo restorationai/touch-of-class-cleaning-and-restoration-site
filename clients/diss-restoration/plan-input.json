@@ -99,6 +99,11 @@
       "city": "Campbell",
       "state": "OH",
       "slug": "campbell-oh"
+    },
+    {
+      "city": "Mineral Ridge",
+      "state": "OH",
+      "slug": "mineral-ridge-oh"
     }
   ],
   "template": "restoration",

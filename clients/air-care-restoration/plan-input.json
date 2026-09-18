@@ -224,6 +224,11 @@
       "city": "Potosi",
       "state": "TX",
       "slug": "potosi-tx"
+    },
+    {
+      "city": "Hawley",
+      "state": "TX",
+      "slug": "hawley-tx"
     }
   ],
   "template": "restoration",

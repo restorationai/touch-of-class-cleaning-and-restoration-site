@@ -219,6 +219,11 @@
       "city": "East Niles",
       "state": "CA",
       "slug": "east-niles-ca"
+    },
+    {
+      "city": "Lamont",
+      "state": "CA",
+      "slug": "lamont-ca"
     }
   ],
   "brand": {

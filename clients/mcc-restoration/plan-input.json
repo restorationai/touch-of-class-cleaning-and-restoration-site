@@ -160,6 +160,11 @@
       "city": "Glenn Heights",
       "state": "TX",
       "slug": "glenn-heights-tx"
+    },
+    {
+      "city": "Lancaster",
+      "state": "TX",
+      "slug": "lancaster-tx"
     }
   ],
   "brand": {

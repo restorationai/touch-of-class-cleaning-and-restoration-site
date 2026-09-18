@@ -98,6 +98,11 @@
       "city": "Vineyard",
       "state": "UT",
       "slug": "vineyard-ut"
+    },
+    {
+      "city": "Highland",
+      "state": "UT",
+      "slug": "highland-ut"
     }
   ],
   "brand": {

@@ -399,6 +399,11 @@
       "city": "Lakeland North",
       "state": "WA",
       "slug": "lakeland-north-wa"
+    },
+    {
+      "city": "Des Moines",
+      "state": "WA",
+      "slug": "des-moines-wa"
     }
   ],
   "brand": {

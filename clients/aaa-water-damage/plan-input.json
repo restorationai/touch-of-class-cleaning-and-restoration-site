@@ -348,6 +348,11 @@
       "city": "Urban Honolulu",
       "state": "HI",
       "slug": "urban-honolulu-hi"
+    },
+    {
+      "city": "Hickam Housing",
+      "state": "HI",
+      "slug": "hickam-housing-hi"
     }
   ],
   "brand": {

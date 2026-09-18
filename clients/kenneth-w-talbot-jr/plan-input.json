@@ -85,6 +85,11 @@
       "city": "Ebro",
       "state": "FL",
       "slug": "ebro-fl"
+    },
+    {
+      "city": "Ponce de Leon",
+      "state": "FL",
+      "slug": "ponce-de-leon-fl"
     }
   ],
   "template": "restoration",

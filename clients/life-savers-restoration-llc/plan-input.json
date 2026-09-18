@@ -95,6 +95,11 @@
       "city": "Winchester",
       "state": "NV",
       "slug": "winchester-nv"
+    },
+    {
+      "city": "Nellis AFB",
+      "state": "NV",
+      "slug": "nellis-afb-nv"
     }
   ],
   "template": "restoration",

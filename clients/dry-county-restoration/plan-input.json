@@ -96,6 +96,11 @@
       "city": "Eastvale",
       "state": "CA",
       "slug": "eastvale-ca"
+    },
+    {
+      "city": "Silverado",
+      "state": "CA",
+      "slug": "silverado-ca"
     }
   ],
   "template": "restoration",

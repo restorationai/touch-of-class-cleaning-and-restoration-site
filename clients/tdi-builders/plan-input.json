@@ -163,6 +163,11 @@
       "city": "Rio Linda",
       "state": "CA",
       "slug": "rio-linda-ca"
+    },
+    {
+      "city": "Elverta",
+      "state": "CA",
+      "slug": "elverta-ca"
     }
   ],
   "template": "construction",

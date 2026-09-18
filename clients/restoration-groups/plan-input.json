@@ -1408,6 +1408,11 @@
       "city": "Mountainside",
       "state": "NJ",
       "slug": "mountainside-nj"
+    },
+    {
+      "city": "Short Hills",
+      "state": "NJ",
+      "slug": "short-hills-nj"
     }
   ],
   "brand": {

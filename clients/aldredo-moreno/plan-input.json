@@ -75,6 +75,11 @@
       "city": "West Odessa",
       "state": "TX",
       "slug": "west-odessa-tx"
+    },
+    {
+      "city": "Garden City",
+      "state": "TX",
+      "slug": "garden-city-tx"
     }
   ],
   "template": "restoration",

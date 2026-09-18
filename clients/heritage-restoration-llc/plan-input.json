@@ -88,6 +88,11 @@
       "city": "Sobieski",
       "state": "MN",
       "slug": "sobieski-mn"
+    },
+    {
+      "city": "Flensburg",
+      "state": "MN",
+      "slug": "flensburg-mn"
     }
   ],
   "template": "restoration",

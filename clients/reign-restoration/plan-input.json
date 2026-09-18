@@ -354,6 +354,11 @@
       "city": "Nevada",
       "state": "TX",
       "slug": "nevada-tx"
+    },
+    {
+      "city": "Union Valley",
+      "state": "TX",
+      "slug": "union-valley-tx"
     }
   ],
   "template": "restoration",

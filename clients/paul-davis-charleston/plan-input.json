@@ -42,6 +42,11 @@
       "city": "Hanahan",
       "state": "SC",
       "slug": "hanahan-sc"
+    },
+    {
+      "city": "Goose Creek",
+      "state": "SC",
+      "slug": "goose-creek-sc"
     }
   ]
 }

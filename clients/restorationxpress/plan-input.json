@@ -263,6 +263,11 @@
       "city": "Dania Beach",
       "state": "FL",
       "slug": "dania-beach-fl"
+    },
+    {
+      "city": "West Park",
+      "state": "FL",
+      "slug": "west-park-fl"
     }
   ]
 }

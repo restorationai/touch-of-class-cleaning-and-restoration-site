@@ -267,6 +267,11 @@
       "city": "Economy",
       "state": "PA",
       "slug": "economy-pa"
+    },
+    {
+      "city": "Franklin Park",
+      "state": "PA",
+      "slug": "franklin-park-pa"
     }
   ],
   "brand": {

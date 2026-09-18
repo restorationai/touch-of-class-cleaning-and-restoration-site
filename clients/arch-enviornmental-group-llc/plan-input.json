@@ -113,6 +113,11 @@
       "city": "Porterville",
       "state": "CA",
       "slug": "porterville-ca"
+    },
+    {
+      "city": "Parlier",
+      "state": "CA",
+      "slug": "parlier-ca"
     }
   ],
   "template": "environmental",

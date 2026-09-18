@@ -99,6 +99,11 @@
       "city": "Stickney",
       "state": "IL",
       "slug": "stickney-il"
+    },
+    {
+      "city": "Bedford Park",
+      "state": "IL",
+      "slug": "bedford-park-il"
     }
   ],
   "template": "restoration",

@@ -103,6 +103,11 @@
       "city": "Harmony Grove",
       "state": "CA",
       "slug": "harmony-grove-ca"
+    },
+    {
+      "city": "Hidden Meadows",
+      "state": "CA",
+      "slug": "hidden-meadows-ca"
     }
   ],
   "brand": {

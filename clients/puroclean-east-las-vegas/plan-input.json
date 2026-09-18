@@ -337,6 +337,11 @@
       "city": "Winchester",
       "state": "NV",
       "slug": "winchester-nv"
+    },
+    {
+      "city": "Summerlin South",
+      "state": "NV",
+      "slug": "summerlin-south-nv"
     }
   ]
 }

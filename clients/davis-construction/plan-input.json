@@ -94,6 +94,11 @@
       "city": "Moores Mill",
       "state": "AL",
       "slug": "moores-mill-al"
+    },
+    {
+      "city": "Redstone Arsenal",
+      "state": "AL",
+      "slug": "redstone-arsenal-al"
     }
   ],
   "brand": {
