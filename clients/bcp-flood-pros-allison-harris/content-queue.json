@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-10-storm-wind-damage-restoration",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-10T10:24:15Z",
       "priority": 1,
       "content_type": "target_term",
@@ -11,7 +11,20 @@
       "intent": "commercial",
       "target_word_count": 1400,
       "city_anchor": "pleasant-grove-ut",
-      "source": "app target-term (onboarding)"
+      "source": "app target-term (onboarding)",
+      "written_at": "2026-09-18T11:24:53Z",
+      "post_url": "https://None/blog/storm-wind-damage-restoration/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/storm-wind-damage-restoration.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "to acceptable baseline levels per the [IICRC S500 standard](https://www.iicrc.org).",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
     },
     {
       "id": "2026-09-10-sewage-cleanup-remediation",
