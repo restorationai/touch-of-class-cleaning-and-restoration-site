@@ -103,6 +103,13 @@ def set_orientation(vertical: bool) -> None:
     OUT_W, OUT_H, GEMINI_ASPECT = (1080, 1920, "9:16") if vertical else (1920, 1080, "16:9")
 
 XFADE_DURATION = 0.4  # seconds of dissolve between clips
+# Trailing pad held on the final frame so the narration ALWAYS finishes before
+# the video ends. Each xfade dissolve overlaps two clips by XFADE_DURATION, so a
+# video of N clips is (N-1)*XFADE_DURATION shorter than the sum of its clips.
+# Since clip durations are derived from the narration length, that deficit made
+# the video shorter than the audio and `-shortest` truncated the last words of
+# the narration — the CTA/phone number (fleet-wide, reported by Alfredo 09-18).
+END_PAD_SEC = 1.0
 
 YOUTUBE_SCOPES = [
     "https://www.googleapis.com/auth/youtube.upload",
@@ -1434,10 +1441,22 @@ def assemble_video(
 
     print("  [video] assembling with xfade transitions...")
 
+    # Target length: the full narration plus a breathing tail, so the last
+    # words (the phone-number CTA) always complete before the video ends.
+    target_total = audio_duration + END_PAD_SEC
+
     if n == 1:
-        # Single clip — no transitions needed
+        # Single clip — no transitions needed. Still hold the final frame and
+        # pad the audio with trailing silence so the narration never gets
+        # clipped by a clip that rounds a hair short of the audio.
+        clip_dur = get_audio_duration(clip_paths[0])
+        video_extra = max(target_total - clip_dur, 0.0)
         cmd = [
             "ffmpeg", "-y", "-i", str(clip_paths[0]), "-i", str(final_audio),
+            "-filter_complex",
+            f"[0:v]tpad=stop_mode=clone:stop_duration={video_extra:.3f}[vout]; "
+            f"[1:a]apad=whole_dur={target_total:.3f}[aout]",
+            "-map", "[vout]", "-map", "[aout]",
             "-c:v", "libx264", "-preset", "medium", "-crf", "22",
             "-c:a", "aac", "-b:a", "128k", "-pix_fmt", "yuv420p",
             "-movflags", "+faststart", "-shortest", str(output_path),
@@ -1462,13 +1481,26 @@ def assemble_video(
     prev_label = "[0:v]"
     cum = 0.0
     for i in range(1, n):
-        out_label = "[vout]" if i == n - 1 else f"[v{i}]"
+        out_label = "[vx]" if i == n - 1 else f"[v{i}]"
         cum += durs[i - 1] - t
         filter_parts.append(
             f"{prev_label}[{i}:v]xfade=transition=dissolve:"
             f"duration={t}:offset={cum:.3f}{out_label}"
         )
         prev_label = out_label
+
+    # The xfade timeline is sum(durs) - (n-1)*t, which is shorter than the
+    # audio. Hold the last frame so the video reaches target_total, and pad the
+    # narration with trailing silence to the same length — together with
+    # -shortest this guarantees the narration completes and leaves a clean tail.
+    video_timeline = sum(durs) - (n - 1) * t
+    video_extra = max(target_total - video_timeline, 0.0)
+    filter_parts.append(
+        f"[vx]tpad=stop_mode=clone:stop_duration={video_extra:.3f}[vout]"
+    )
+    filter_parts.append(
+        f"[{n}:a]apad=whole_dur={target_total:.3f}[aout]"
+    )
 
     filter_complex = "; ".join(filter_parts)
 
@@ -1478,7 +1510,7 @@ def assemble_video(
         "-i", str(final_audio),
         "-filter_complex", filter_complex,
         "-map", "[vout]",
-        "-map", f"{n}:a",
+        "-map", "[aout]",
         "-c:v", "libx264", "-preset", "medium", "-crf", "22",
         "-c:a", "aac", "-b:a", "128k",
         "-pix_fmt", "yuv420p",
