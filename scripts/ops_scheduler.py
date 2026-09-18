@@ -60,7 +60,8 @@ WORKFLOW_DISPATCH_JOBS = [
     ("dev-agent-daytime", "dev-agent.yml", ["20:07"], True, {}),
     # Weekly-maintenance (2026-09-18: GitHub dropped the Thu 16:00 cron the
     # very day the sharded AI scanner was due to stamp its first heartbeat).
-    ("weekly-maint", "weekly-maintenance.yml", ["16:00"], False, {}),
+    # {0,3} = Mon+Thu, matching the workflow's own cron days.
+    ("weekly-maint", "weekly-maintenance.yml", ["16:00"], {0, 3}, {}),
 ]
 # How long after a slot we still fire a missed dispatch (worker restarts).
 DISPATCH_CATCHUP = timedelta(hours=3)
@@ -122,8 +123,11 @@ def tick_workflow_dispatches(done: dict) -> None:
     `done` maps (name, date, "HH:MM") -> True for slots this process already
     handled; across restarts the GitHub-side run check is the dedupe."""
     now = datetime.now(timezone.utc)
-    for name, workflow, slots, weekdays_only, inputs in WORKFLOW_DISPATCH_JOBS:
-        if weekdays_only and now.weekday() >= 5:
+    for name, workflow, slots, days, inputs in WORKFLOW_DISPATCH_JOBS:
+        # days: True = weekdays only, False = every day, set = those weekdays
+        if days is True and now.weekday() >= 5:
+            continue
+        if isinstance(days, set) and now.weekday() not in days:
             continue
         for hhmm in slots:
             key = (name, now.date(), hhmm)
