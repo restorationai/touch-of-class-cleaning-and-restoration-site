@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Odor Removal and Deodorization in Cicero, IL | Dry Bros Water & Fire Restoration"
 h1: "Odor Removal and Deodorization in Cicero"
-meta_description: "Odor removal and deodorization in Cicero, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Odor removal and deodorization in Cicero, IL. Insurance billing accepted. Call us now."
 primary_keyword: "odor removal and deodorization cicero"
 secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodorization", "thermal fogging", "professional odor elimination"]
 search_intent: "local_specialty"
@@ -57,4 +57,4 @@ In Cicero's vintage housing stock, the combination of thermal fogging and hydrox
 
 Cicero's brick bungalows often have unfinished basements with poured concrete floors and block walls that were never sealed. When a sump fails or a drain backs up, the concrete absorbs water and the odor compounds that come with it. Surface drying looks complete within a day or two, but the block walls can off-gas musty odors for weeks afterward if they aren't treated directly. Thermal fogging into the block cavities, followed by an encapsulant on the exposed face, addresses what a dehumidifier alone cannot. If you're noticing a smell that returns every time the basement gets humid, the source is almost certainly in the block or the slab, not in the air.
 
-If persistent odors are affecting your Cicero home or rental property, call Dry Bros Water & Fire Restoration at **(877) 379-2767**. We'll assess the source, match the right deodorization method to your building's materials, and document the work for your insurance claim if applicable.
+If persistent odors are affecting your Cicero home or rental property, call Dry Bros Water & Fire Restoration at **call us now**. We'll assess the source, match the right deodorization method to your building's materials, and document the work for your insurance claim if applicable.

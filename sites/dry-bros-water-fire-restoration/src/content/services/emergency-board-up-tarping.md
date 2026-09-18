@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Board-Up and Tarping in Chicago | Dry Bros Water & Fire Restoration"
 h1: "Board-Up and Tarping in Chicago"
-meta_description: "Board-up and tarping in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Board-up and tarping in Chicago and surrounding areas. Insurance billing accepted. Call us now."
 primary_keyword: "emergency board-up and tarping chicago"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -74,4 +74,4 @@ Older housing stock in neighborhoods like Bridgeport, Pilsen, and the bungalow b
 
 Dry Bros Water & Fire Restoration serves Chicago and the surrounding metro, including Evanston, Oak Park, Cicero, Berwyn, Skokie, and communities throughout Cook, DuPage, and Lake counties. Individual city pages detail local considerations for each area; all of them connect back to the same crew and the same process described here.
 
-If your structure has an open breach right now, the next step is a call, not a form. Reach Dry Bros at **(877) 379-2767** to get a technician moving toward your property and stop the exposure from growing.
+If your structure has an open breach right now, the next step is a call, not a form. Reach Dry Bros at **call us now** to get a technician moving toward your property and stop the exposure from growing.

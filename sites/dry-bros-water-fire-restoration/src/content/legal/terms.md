@@ -42,7 +42,7 @@ Dry Bros Water & Fire Restoration operates as a licensed contractor under Illino
 
 ## Dispute Resolution
 
-If a concern arises about work performed, contact us directly at (877) 379-2767 or amin.mashouf@gmail.com, most issues are resolved faster that way than through formal channels. If a dispute cannot be resolved informally, it will be governed by the laws of the State of Illinois, with venue in Cook County.
+If a concern arises about work performed, contact us directly now or amin.mashouf@gmail.com, most issues are resolved faster that way than through formal channels. If a dispute cannot be resolved informally, it will be governed by the laws of the State of Illinois, with venue in Cook County.
 
 ## Changes to These Terms
 
@@ -70,7 +70,7 @@ We retain job-related records for as long as required by Illinois contractor reg
 
 ### Your Rights
 
-If you are a California resident, you have rights under the California Consumer Privacy Act (CCPA), including the right to know what personal information we hold about you and to request deletion. To exercise these rights, contact us at amin.mashouf@gmail.com or (877) 379-2767. Because Dry Bros serves a US-based customer base and does not target visitors in the European Union, GDPR obligations are unlikely to apply, but we are committed to reasonable data practices regardless of jurisdiction.
+If you are a California resident, you have rights under the California Consumer Privacy Act (CCPA), including the right to know what personal information we hold about you and to request deletion. To exercise these rights, contact us at amin.mashouf@gmail.com or call us now. Because Dry Bros serves a US-based customer base and does not target visitors in the European Union, GDPR obligations are unlikely to apply, but we are committed to reasonable data practices regardless of jurisdiction.
 
 ### Questions
 
@@ -82,4 +82,4 @@ For any privacy-related question, email amin.mashouf@gmail.com or write to us at
 
 Dry Bros Water & Fire Restoration is committed to making this website usable for everyone, including people who rely on assistive technology. We aim to meet the Web Content Accessibility Guidelines (WCAG) 2.1 at the AA level, and the site is built to be compatible with screen readers and keyboard navigation.
 
-If you encounter a barrier, a page that is hard to read, a form that does not work with your assistive device, or any other accessibility issue, please contact us at (877) 379-2767 or amin.mashouf@gmail.com. We take reported issues seriously and will work to address them within a reasonable timeframe. Accessibility is an ongoing effort, not a one-time checkbox.
+If you encounter a barrier, a page that is hard to read, a form that does not work with your assistive device, or any other accessibility issue, please contact us now or amin.mashouf@gmail.com. We take reported issues seriously and will work to address them within a reasonable timeframe. Accessibility is an ongoing effort, not a one-time checkbox.

@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Burst Pipe Cleanup and Repair in Chicago | Dry Bros Water & Fire Restoration"
 h1: "Burst Pipe Cleanup and Repair in Chicago"
-meta_description: "Burst pipe cleanup and repair in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Burst pipe cleanup and repair in Chicago and surrounding areas. Insurance billing accepted. Call us now."
 primary_keyword: "burst pipe cleanup and repair chicago"
 secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water line break"]
 search_intent: "local_emergency"
@@ -71,4 +71,4 @@ Spring thaw brings a secondary wave of losses: pipes that cracked under freeze p
 
 Dry Bros Water & Fire Restoration serves Chicago and the surrounding communities throughout the metro area, including the North Shore, the western suburbs, the south side, and surrounding Cook County neighborhoods. Each city-specific page covers local considerations in more detail, find your area in the service map or call directly.
 
-If you're standing in a wet room right now, the fastest next step is a call to **(877) 379-2767**. Dry Bros will walk you through what to do before the crew arrives, document the loss from the first visit, and give you a written scope before any work begins. Call now to schedule your moisture assessment.
+If you're standing in a wet room right now, the fastest next step is a call to **call us now**. Dry Bros will walk you through what to do before the crew arrives, document the loss from the first visit, and give you a written scope before any work begins. Call now to schedule your moisture assessment.

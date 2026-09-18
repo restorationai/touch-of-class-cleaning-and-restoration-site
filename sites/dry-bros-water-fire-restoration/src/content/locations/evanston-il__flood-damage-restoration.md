@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Flood Damage Restoration in Evanston, IL | Dry Bros Water & Fire Restoration"
 h1: "Flood Damage Restoration in Evanston"
-meta_description: "Flood damage restoration in Evanston, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Flood damage restoration in Evanston, IL. Insurance billing accepted. Call us now."
 primary_keyword: "flood damage restoration evanston"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -46,4 +46,4 @@ Dry Bros works directly with insurance carriers, providing the moisture logs, ph
 
 Evanston's older greystones and courtyard buildings often have shared utility chases and party walls that connect adjacent units. When one unit floods, moisture can migrate laterally into a neighboring unit's wall cavity without that neighbor seeing any visible water. In multi-unit buildings, particularly the vintage courtyard apartments common along the city's central residential corridors, we assess adjacent spaces as part of the initial inspection, not as an afterthought. Missing that lateral spread is one of the more common reasons a flood restoration job gets called back weeks later.
 
-If your property has been affected by flooding, call Dry Bros Water & Fire Restoration at **(877) 379-2767**. We serve Evanston and the surrounding North Shore, and we'll walk you through next steps from the first call, so you're not guessing while the clock on mold growth is running.
+If your property has been affected by flooding, call Dry Bros Water & Fire Restoration at **call us now**. We serve Evanston and the surrounding North Shore, and we'll walk you through next steps from the first call, so you're not guessing while the clock on mold growth is running.

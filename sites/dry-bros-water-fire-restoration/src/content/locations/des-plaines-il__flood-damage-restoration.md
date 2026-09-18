@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Flood Damage Restoration in Des Plaines, IL | Dry Bros Water & Fire Restoration"
 h1: "Flood Damage Restoration in Des Plaines"
-meta_description: "Flood damage restoration in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Flood damage restoration in Des Plaines, IL. Insurance billing accepted. Call us now."
 primary_keyword: "flood damage restoration des plaines"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -52,4 +52,4 @@ We document the loss thoroughly from the first day on site: photos of water line
 
 Homes in the lower-elevation sections of Des Plaines near the river corridor frequently have older sump systems with gravity-fed discharge lines that daylight at or near grade, which means during a flood event, the discharge point can become submerged and the pump loses its ability to move water out. If your sump ran continuously during the last storm but the basement still took on water, that's often why. A check valve on the discharge line and an elevated outlet point are straightforward fixes, and knowing to look for that condition is something that comes from working in this specific drainage environment.
 
-If your home or property in Des Plaines has taken on water, whether from the river, a sewer backup, or an overwhelmed drainage system, call Dry Bros at **(877) 379-2767**. We'll assess the damage honestly, explain what the restoration process looks like for your specific situation, and get the work moving.
+If your home or property in Des Plaines has taken on water, whether from the river, a sewer backup, or an overwhelmed drainage system, call Dry Bros at **call us now**. We'll assess the damage honestly, explain what the restoration process looks like for your specific situation, and get the work moving.

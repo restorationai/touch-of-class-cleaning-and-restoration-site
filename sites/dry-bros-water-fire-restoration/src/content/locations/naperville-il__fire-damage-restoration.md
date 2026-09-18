@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Fire Damage Restoration in Naperville, IL | Dry Bros Water & Fire Restoration"
 h1: "Fire Damage Restoration in Naperville"
-meta_description: "Fire damage restoration in Naperville, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Fire damage restoration in Naperville, IL. Insurance billing accepted. Call us now."
 primary_keyword: "fire damage restoration naperville"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -54,4 +54,4 @@ On the insurance side, we document the loss thoroughly: room-by-room photo inven
 
 Naperville's downtown and near-downtown neighborhoods contain a number of older commercial-to-residential conversions and mixed-use buildings where the original construction used balloon framing, a method where wall cavities run continuously from the basement to the roof without fire stops between floors. In a fire, smoke and heat travel vertically through those cavities faster than in platform-framed homes, and the hidden damage can extend two or three floors above the visible burn area. Thermal imaging after stabilization is especially important in these structures, because the surface can look intact while the cavity behind it has been compromised.
 
-If you've had a fire at a Naperville property and you're not sure what you're dealing with, call Dry Bros at (877) 379-2767. We'll walk through what the next 24 to 48 hours need to look like, before any commitments are made.
+If you've had a fire at a Naperville property and you're not sure what you're dealing with, call Dry Bros now. We'll walk through what the next 24 to 48 hours need to look like, before any commitments are made.

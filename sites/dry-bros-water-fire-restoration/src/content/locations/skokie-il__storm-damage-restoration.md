@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Storm Damage Restoration in Skokie, IL | Dry Bros Water & Fire Restoration"
 h1: "Storm Damage Restoration in Skokie"
-meta_description: "Storm damage restoration in Skokie, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Storm damage restoration in Skokie, IL. Insurance billing accepted. Call us now."
 primary_keyword: "storm damage restoration skokie"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -56,4 +56,4 @@ Skokie's brick bungalows were built with plaster walls over wood lath, a constru
 
 If your Skokie home was built before 1960 and took storm water through the ceiling or an exterior wall, plan for a longer drying window than a neighbor with a newer build might need, it's the nature of the construction, not a complication we created.
 
-Call Dry Bros Water & Fire Restoration at (877) 379-2767 to schedule an assessment after storm damage anywhere in Skokie. We'll tell you honestly what we're seeing, what the process looks like, and what comes next.
+Call Dry Bros Water & Fire Restoration now to schedule an assessment after storm damage anywhere in Skokie. We'll tell you honestly what we're seeing, what the process looks like, and what comes next.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Contents Restoration and Storage in Naperville, IL | Dry Bros Water & Fire Restoration"
 h1: "Contents Restoration and Storage in Naperville"
-meta_description: "Contents restoration and storage in Naperville, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Contents restoration and storage in Naperville, IL. Insurance billing accepted. Call us now."
 primary_keyword: "contents restoration and storage naperville"
 secondary_keywords: ["contents pack-out", "contents cleaning", "belongings restoration", "furniture restoration after fire", "contents storage"]
 search_intent: "local_service"
@@ -50,4 +50,4 @@ Dry Bros operates out of the Chicago area and serves Naperville via I-88 (the Re
 
 Naperville's older neighborhoods near the downtown riverfront area include homes with original hardwood floors finished with oil-based products that were common through the mid-twentieth century. When these floors are exposed to smoke or water, the finish can trap odors or develop a haze that looks permanent but often responds well to specialized wood cleaning, provided the floor hasn't been refinished with a water-based product on top, which changes the chemistry entirely. Knowing what generation of finish you're dealing with before cleaning begins prevents the kind of damage that turns a restorable floor into a replacement job.
 
-If water or fire damage has put your belongings at risk, call Dry Bros Water & Fire Restoration at **(877) 379-2767**. We'll assess what can be saved, document everything for your claim, and keep your contents protected while your Naperville home is restored.
+If water or fire damage has put your belongings at risk, call Dry Bros Water & Fire Restoration at **call us now**. We'll assess what can be saved, document everything for your claim, and keep your contents protected while your Naperville home is restored.

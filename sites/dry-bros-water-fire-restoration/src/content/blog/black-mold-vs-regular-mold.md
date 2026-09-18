@@ -62,7 +62,7 @@ Call a mold remediation professional when any of the following is true:
 
 A certified mold remediation contractor will establish containment, typically plastic sheeting and negative air pressure, before disturbing any growth. They'll remove affected materials rather than clean around them when the contamination is deep, and they'll use HEPA-filtered air scrubbers to capture airborne spores during the process. After work is complete, post-remediation testing (also called clearance testing) can confirm that spore counts have returned to normal background levels.
 
-If you're in the Chicago area and you're not sure whether what you're looking at warrants professional attention, Dry Bros Water & Fire Restoration can assess the situation, reach them at **(877) 379-2767**.
+If you're in the Chicago area and you're not sure whether what you're looking at warrants professional attention, Dry Bros Water & Fire Restoration can assess the situation, reach them at **call us now**.
 
 ## What Happens During Professional Mold Remediation
 
@@ -78,4 +78,4 @@ In Chicago, older housing stock, two-flats, greystones, and bungalows built befo
 
 ## What to Do Next
 
-If you've found mold growth and you're still not sure whether it's something you can handle or something that needs a professional, err toward caution. The cost of a professional assessment is almost always lower than the cost of a remediation job that expanded because the problem was disturbed incorrectly. Document what you see with photos, note how long the moisture event lasted, and call a certified remediation contractor before touching anything. Dry Bros Water & Fire Restoration handles mold remediation in the Chicago area, **(877) 379-2767**.
+If you've found mold growth and you're still not sure whether it's something you can handle or something that needs a professional, err toward caution. The cost of a professional assessment is almost always lower than the cost of a remediation job that expanded because the problem was disturbed incorrectly. Document what you see with photos, note how long the moisture event lasted, and call a certified remediation contractor before touching anything. Dry Bros Water & Fire Restoration handles mold remediation in the Chicago area, **call us now**.

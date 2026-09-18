@@ -27,21 +27,24 @@ export default {
           950: "#030712",
         },
         primary: {
-          DEFAULT: "#171717",
-          50: "#f7f7f7",
-          100: "#ebebeb",
-          200: "#d6d6d6",
-          300: "#b8b8b8",
-          400: "#9c9c9c",
-          500: "#808080",
+          /* Dry Bros water blue (sampled from the logo, 2026-09-18):
+             #0172EC identity, #24BEF9 splash light, #00388C/#021939 navy
+             deep rungs for text-on-light. */
+          DEFAULT: "#0172EC",
+          50: "#eff8ff",
+          100: "#daefff",
+          200: "#bde3ff",
+          300: "#8fd2fe",
+          400: "#24BEF9",
+          500: "#0e94f5",
           // 600/700 are the DARKENED rungs — brand-tinted TEXT on a white or
           // light surface (Hero's outline button, ProcessSection icons). They
           // are NOT the button fill; that is `cta` below.
-          600: "#171717",
-          700: "#0a0a0a",
-          800: "#050505",
-          900: "#050505",
-          950: "#050505",
+          600: "#0172EC",
+          700: "#0055c0",
+          800: "#00388C",
+          900: "#021939",
+          950: "#010f24",
         },
         /* cta — the SOLID-FILL pair: `bg-cta` is every call-to-action's
            background and `text-cta-fg` is the label that sits on it. They are
@@ -52,14 +55,17 @@ export default {
            2026-08-05: "Action to call on the website need to match golds as
            the logo" — the fill is the logo gold now, the label moved instead. */
         cta: {
-          DEFAULT: "#171717",
-          hover: "#0a0a0a",
+          /* Fire red from the logo flame (#BC2B1C) — color law: red CTAs,
+             and here the red IS a brand color. */
+          DEFAULT: "#BC2B1C",
+          hover: "#9a2216",
           fg: "#ffffff",
         },
         accent: {
           // Same pair rule as cta — btn-accent renders text-accent-fg on this.
-          DEFAULT: "#171717",
-          fg: "#ffffff",
+          // Dry Bros fire orange; near-black label clears AA on it.
+          DEFAULT: "#FD8B00",
+          fg: "#1a1a1a",
         },
         muted: {
           DEFAULT: "#4b5563",

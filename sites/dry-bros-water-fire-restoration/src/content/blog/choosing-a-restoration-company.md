@@ -75,4 +75,4 @@ You can also ask the company directly: what moisture content do you target for w
 
 If you're dealing with water damage, smoke, or a mold problem right now, the guidance above should help you ask the right questions before committing to anyone. Take notes during your first call. Ask for credentials in writing. Read the scope before you sign it.
 
-If you're in the Chicago area and want to talk through what you're seeing, the stain on the ceiling, the smell in the basement, the damage from last night's fire, Dry Bros Water & Fire Restoration is available at (877) 379-2767. There's no obligation to a conversation.
+If you're in the Chicago area and want to talk through what you're seeing, the stain on the ceiling, the smell in the basement, the damage from last night's fire, Dry Bros Water & Fire Restoration is available now. There's no obligation to a conversation.

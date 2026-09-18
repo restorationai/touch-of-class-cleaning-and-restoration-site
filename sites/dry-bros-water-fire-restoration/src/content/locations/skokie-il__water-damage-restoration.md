@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Damage Restoration in Skokie, IL | Dry Bros Water & Fire Restoration"
 h1: "Water Damage Restoration in Skokie"
-meta_description: "Water damage restoration in Skokie, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Water damage restoration in Skokie, IL. Insurance billing accepted. Call us now."
 primary_keyword: "water damage restoration skokie"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -36,7 +36,7 @@ Once the moisture map is complete, extraction equipment removes standing water, 
 
 ## Reaching Skokie from Chicago
 
-Dry Bros operates out of Chicago, and Skokie is a direct shot up the Edens Expressway (I-94) from the city, with Dempster Street, Golf Road, and Oakton Street all providing straightforward east-west access once off the highway. The village is compact enough that most addresses are reachable quickly from multiple entry points, which matters when a burst pipe is actively running. Call (877) 379-2767 to get a crew dispatched and to talk through any immediate steps, like shutting off the main supply valve, while help is on the way.
+Dry Bros operates out of Chicago, and Skokie is a direct shot up the Edens Expressway (I-94) from the city, with Dempster Street, Golf Road, and Oakton Street all providing straightforward east-west access once off the highway. The village is compact enough that most addresses are reachable quickly from multiple entry points, which matters when a burst pipe is actively running. Call us now to get a crew dispatched and to talk through any immediate steps, like shutting off the main supply valve, while help is on the way.
 
 ## Skokie Insurance Coordination
 
@@ -46,4 +46,4 @@ Most standard homeowner policies cover sudden and accidental water losses, a bur
 
 Skokie's older two-flat and coach-house properties, common in the blocks between Dempster and Main Street, often share a single water shutoff for both units, located in the basement of the primary structure. If a pipe fails in the upper unit, the tenant downstairs may not know where the shutoff is, and the owner may not be on-site. It's worth confirming the shutoff location with every tenant before an emergency happens. When we arrive at a multi-unit property and the water is still running, locating that valve is the first thing we do, before any equipment comes off the truck.
 
-If water has reached your Skokie home or commercial property, the sooner extraction and drying begin, the less structural material ends up in a dumpster. Call Dry Bros Water & Fire Restoration at (877) 379-2767 to get the process started.
+If water has reached your Skokie home or commercial property, the sooner extraction and drying begin, the less structural material ends up in a dumpster. Call Dry Bros Water & Fire Restoration now to get the process started.

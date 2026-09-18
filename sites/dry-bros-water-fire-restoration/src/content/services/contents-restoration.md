@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Contents Restoration and Storage in Chicago | Dry Bros Water & Fire Restoration"
 h1: "Contents Restoration and Storage in Chicago"
-meta_description: "Contents restoration and storage in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Contents restoration and storage in Chicago and surrounding areas. Insurance billing accepted. Call us now."
 primary_keyword: "contents restoration and storage chicago"
 secondary_keywords: ["contents pack-out", "contents cleaning", "belongings restoration", "furniture restoration after fire", "contents storage"]
 search_intent: "local_service"
@@ -74,4 +74,4 @@ Older housing stock throughout Chicago and the surrounding suburbs, much of it b
 
 Dry Bros Water & Fire Restoration serves Chicago and the surrounding region, including communities throughout Cook, DuPage, Lake, and Will counties. City-and-service combination pages cover specific neighborhoods and suburbs, all of them link back here for the full picture of what contents restoration and storage involves.
 
-If your belongings are sitting in a damaged room right now, the clock on salvageability is already running. Call Dry Bros at **(877) 379-2767** to schedule a contents pack-out assessment, the sooner items are out of the loss environment, the more of them can be saved.
+If your belongings are sitting in a damaged room right now, the clock on salvageability is already running. Call Dry Bros at **call us now** to schedule a contents pack-out assessment, the sooner items are out of the loss environment, the more of them can be saved.

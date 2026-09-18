@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Sewage Cleanup and Sanitization in Des Plaines, IL | Dry Bros Water & Fire Restoration"
 h1: "Sewage Cleanup and Sanitization in Des Plaines"
-meta_description: "Sewage cleanup and sanitization in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Sewage cleanup and sanitization in Des Plaines, IL. Insurance billing accepted. Call us now."
 primary_keyword: "sewage cleanup and sanitization des plaines"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -44,7 +44,7 @@ Sewage cleanup follows a strict sequence because cutting corners at any step lea
 
 ## Reaching Des Plaines from Chicago
 
-Dry Bros operates out of Chicago, and Des Plaines is a straightforward run northwest via I-90/94 to I-294 or directly up I-90 to the Des Plaines exits. Depending on traffic patterns, and the Kennedy can be unpredictable during peak hours, the drive to addresses near Mannheim Road or the central downtown corridor is typically under 30 minutes outside of rush windows. For scheduling, call (877) 379-2767 and our team will give you an honest arrival estimate based on current conditions rather than a number that sounds good on paper.
+Dry Bros operates out of Chicago, and Des Plaines is a straightforward run northwest via I-90/94 to I-294 or directly up I-90 to the Des Plaines exits. Depending on traffic patterns, and the Kennedy can be unpredictable during peak hours, the drive to addresses near Mannheim Road or the central downtown corridor is typically under 30 minutes outside of rush windows. For scheduling, call us now and our team will give you an honest arrival estimate based on current conditions rather than a number that sounds good on paper.
 
 ## Insurance Coordination for Des Plaines Sewage Claims
 
@@ -54,4 +54,4 @@ Standard homeowner's insurance policies in Illinois often exclude sewer backup d
 
 Des Plaines has an active basement flooding protection program administered through the city that offers reimbursement assistance for homeowners who install overhead sewers, backwater valves, or sump systems, infrastructure that can prevent future backups even if it doesn't help with the current one. It's worth a call to the city's Public Works department after the immediate cleanup is done. We can note in our documentation that a backwater valve was absent, which sometimes supports both the insurance claim and the city program application.
 
-If your basement is dealing with sewage backup right now, the longer contaminated water sits, the deeper it migrates into concrete and framing. Call Dry Bros at **(877) 379-2767**, we'll walk you through what to do before we arrive and get a crew moving toward Des Plaines.
+If your basement is dealing with sewage backup right now, the longer contaminated water sits, the deeper it migrates into concrete and framing. Call Dry Bros at **call us now**, we'll walk you through what to do before we arrive and get a crew moving toward Des Plaines.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Odor Removal and Deodorization in Evanston, IL | Dry Bros Water & Fire Restoration"
 h1: "Odor Removal and Deodorization in Evanston"
-meta_description: "Odor removal and deodorization in Evanston, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Odor removal and deodorization in Evanston, IL. Insurance billing accepted. Call us now."
 primary_keyword: "odor removal and deodorization evanston"
 secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodorization", "thermal fogging", "professional odor elimination"]
 search_intent: "local_specialty"
@@ -51,4 +51,4 @@ For fire-damaged properties, Evanston's permit and inspection requirements may a
 
 Evanston's two- and three-flat buildings, a housing type that runs throughout the city's neighborhoods, present a specific challenge for smoke and odor remediation that often surprises property owners. These buildings share floor-ceiling assemblies between units, and those assemblies frequently contain original sawdust or cellulose insulation from the early twentieth century. That material is highly absorbent and almost impossible to clean in place. When a fire or heavy smoke event affects one unit, the odor can transfer into adjacent units through the shared assembly. We probe those cavities during the assessment phase so that the scope of treatment reflects what's actually happening inside the structure, not just what's visible on the surface.
 
-If you're dealing with a persistent smell in your Evanston home or rental property, call Dry Bros Water & Fire Restoration at (877) 379-2767. We'll assess the source, explain the method, and get the work done right.
+If you're dealing with a persistent smell in your Evanston home or rental property, call Dry Bros Water & Fire Restoration now. We'll assess the source, explain the method, and get the work done right.

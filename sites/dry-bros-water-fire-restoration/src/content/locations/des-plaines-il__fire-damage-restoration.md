@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Fire Damage Restoration in Des Plaines, IL | Dry Bros Water & Fire Restoration"
 h1: "Fire Damage Restoration in Des Plaines"
-meta_description: "Fire damage restoration in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Fire damage restoration in Des Plaines, IL. Insurance billing accepted. Call us now."
 primary_keyword: "fire damage restoration des plaines"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -50,4 +50,4 @@ If your policy includes additional living expenses (ALE) coverage, we can help y
 
 In Des Plaines, many of the homes built in the postwar decades used a combination of plaster-and-lath walls and original knob-and-tube or early-generation Romex wiring. After a fire, the wiring path matters: smoke and heat can travel along electrical conduit runs into areas that show no visible char, and those areas still need to be assessed before drywall goes back up. Local building permits for fire repair work in Des Plaines are issued through the city's Community and Economic Development department, and inspections are required before walls are closed. We build that inspection window into the project schedule so reconstruction doesn't have to stop and wait.
 
-If you're dealing with fire or smoke damage in Des Plaines, call Dry Bros Water & Fire Restoration at **(877) 379-2767**. We'll walk you through what the process looks like for your specific property, help you get documentation started, and schedule an assessment so you know exactly what you're facing.
+If you're dealing with fire or smoke damage in Des Plaines, call Dry Bros Water & Fire Restoration at **call us now**. We'll walk you through what the process looks like for your specific property, help you get documentation started, and schedule an assessment so you know exactly what you're facing.

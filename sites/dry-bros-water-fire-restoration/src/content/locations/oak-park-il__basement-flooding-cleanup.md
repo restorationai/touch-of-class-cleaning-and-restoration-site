@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Basement Flooding Cleanup in Oak Park, IL | Dry Bros Water & Fire Restoration"
 h1: "Basement Flooding Cleanup in Oak Park"
-meta_description: "Basement flooding cleanup in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Basement flooding cleanup in Oak Park, IL. Insurance billing accepted. Call us now."
 primary_keyword: "basement flooding cleanup oak park"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -52,4 +52,4 @@ Most standard homeowners policies in Illinois distinguish between sewer backup a
 
 Oak Park's older Prairie-style and Foursquare homes frequently have basement walls built from limestone rubble or soft common brick rather than poured concrete, materials that were never intended to hold back groundwater under pressure. When these walls take on water during a sewer surcharge event, the moisture doesn't just sit at the surface. It wicks into the mortar and the brick itself, and a meter reading taken at the wall face can look acceptable while the interior of the wall is still saturated. We take readings at multiple depths and flag this to homeowners and adjusters alike, because drying a rubble or brick foundation wall to an acceptable standard takes longer than drying a poured concrete wall of the same thickness, and skipping that step is how mold problems start inside the wall cavity weeks after the visible water is gone.
 
-If your basement took on water, call Dry Bros at (877) 379-2767. We'll assess the loss, explain the process, and give you a clear picture of what cleanup and drying will involve for your specific Oak Park home, before anything gets signed.
+If your basement took on water, call Dry Bros now. We'll assess the loss, explain the process, and give you a clear picture of what cleanup and drying will involve for your specific Oak Park home, before anything gets signed.

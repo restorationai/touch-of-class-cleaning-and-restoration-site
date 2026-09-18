@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Cleanup in Evanston, IL | Dry Bros Water & Fire Restoration"
 h1: "Water Cleanup in Evanston"
-meta_description: "Water cleanup in Evanston, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Water cleanup in Evanston, IL. Insurance billing accepted. Call us now."
 primary_keyword: "water cleanup evanston"
 secondary_keywords: ["water damage cleanup", "water clean up", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
@@ -46,4 +46,4 @@ Dry Bros operates out of Chicago, and Evanston is a direct run up Sheridan Road 
 
 One thing that comes up repeatedly in Evanston is the timing of sewer backup calls relative to storm events. Because the combined sewer system can take several hours to clear after a major rain, homeowners sometimes call after the water has already receded, and assume the problem is over. It isn't. Water that entered through a floor drain during a sewer surcharge event leaves behind contamination that isn't visible once the water dries. That residue requires proper sanitization, not just surface cleaning. If your basement flooded during a storm and the water came up through a drain rather than in through a window well or wall crack, treat it as a contaminated-water event regardless of how it looks now.
 
-If standing water or a recent backup has left you uncertain about what's wet and what's safe, call Dry Bros Water & Fire Restoration at (877) 379-2767. We serve Evanston properties and can schedule an assessment to document what's actually dry and what still needs attention.
+If standing water or a recent backup has left you uncertain about what's wet and what's safe, call Dry Bros Water & Fire Restoration now. We serve Evanston properties and can schedule an assessment to document what's actually dry and what still needs attention.

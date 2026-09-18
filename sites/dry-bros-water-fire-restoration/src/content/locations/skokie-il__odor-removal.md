@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Odor Removal and Deodorization in Skokie, IL | Dry Bros Water & Fire Restoration"
 h1: "Odor Removal and Deodorization in Skokie"
-meta_description: "Odor removal and deodorization in Skokie, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Odor removal and deodorization in Skokie, IL. Insurance billing accepted. Call us now."
 primary_keyword: "odor removal and deodorization skokie"
 secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodorization", "thermal fogging", "professional odor elimination"]
 search_intent: "local_specialty"
@@ -49,4 +49,4 @@ Dry Bros operates out of Chicago, and Skokie is a straightforward run north via 
 
 Skokie's older housing stock frequently has what contractors call "balloon framing", a construction method where wall cavities run continuously from the basement sill plate to the roof rafters without the fire stops found in platform-framed homes built after the 1950s. In a fire or smoke event, this means odor-carrying soot and gases can travel vertically through the entire wall cavity, depositing residue at every floor level. Deodorization in a balloon-framed Skokie home requires treating the cavity from multiple access points, not just wiping down the visible wall surfaces. Missing this detail is the most common reason a smoke odor returns after a less thorough remediation.
 
-If you are dealing with a persistent smell in a Skokie property, whether it is smoke from a kitchen fire, mustiness from a long-standing moisture problem, or odors following a sewage backup, call Dry Bros at **(877) 379-2767**. We will assess the source, explain the method, and get the work done so the smell does not come back.
+If you are dealing with a persistent smell in a Skokie property, whether it is smoke from a kitchen fire, mustiness from a long-standing moisture problem, or odors following a sewage backup, call Dry Bros at **call us now**. We will assess the source, explain the method, and get the work done so the smell does not come back.

@@ -2,7 +2,7 @@
 archetype: "services-hub"
 title: "Restoration Services in Chicago | Dry Bros Water & Fire Restoration"
 h1: "Our Restoration Services"
-meta_description: "Full-service restoration in Chicago: water, fire, mold, storm, biohazard, and commercial restoration. Prompt scheduling. Call (877) 379-2767."
+meta_description: "Full-service restoration in Chicago: water, fire, mold, storm, biohazard, and commercial restoration. Prompt scheduling. Call us now."
 primary_keyword: "restoration services chicago"
 secondary_keywords: ["damage restoration services", "property restoration services", "disaster restoration"]
 search_intent: "local_commercial"
@@ -31,4 +31,4 @@ Some losses require targeted work that doesn't fit neatly into emergency respons
 
 ---
 
-The most frustrating part of property damage is often the coordination, managing a mitigation company, a separate contractor, and an insurance adjuster who all have different timelines and paperwork. Dry Bros is structured to handle mitigation through final reconstruction as a single, documented process. One call to [(877) 379-2767](tel:8773792767) starts the whole thing, and the same team sees it through to a finished, livable space.
+The most frustrating part of property damage is often the coordination, managing a mitigation company, a separate contractor, and an insurance adjuster who all have different timelines and paperwork. Dry Bros is structured to handle mitigation through final reconstruction as a single, documented process. One call to [call us now](tel:8773792767) starts the whole thing, and the same team sees it through to a finished, livable space.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Sewage Cleanup and Sanitization in Skokie, IL | Dry Bros Water & Fire Restoration"
 h1: "Sewage Cleanup and Sanitization in Skokie"
-meta_description: "Sewage cleanup and sanitization in Skokie, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Sewage cleanup and sanitization in Skokie, IL. Insurance billing accepted. Call us now."
 primary_keyword: "sewage cleanup and sanitization skokie"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -46,7 +46,7 @@ Raw sewage is classified as Category 3 water, the most contaminated classificati
 
 ## Reaching Skokie from Chicago
 
-Dry Bros operates out of Chicago, and Skokie is a direct shot north via the Edens Expressway (I-94) or through the surface grid on Dempster or Oakton. The village is compact, most addresses are reachable quickly from the highway exits at Dempster, Oakton, or Old Orchard Road. We schedule sewage cleanup calls promptly; contact us at (877) 379-2767 to confirm availability and get a crew dispatched.
+Dry Bros operates out of Chicago, and Skokie is a direct shot north via the Edens Expressway (I-94) or through the surface grid on Dempster or Oakton. The village is compact, most addresses are reachable quickly from the highway exits at Dempster, Oakton, or Old Orchard Road. We schedule sewage cleanup calls promptly; contact us now to confirm availability and get a crew dispatched.
 
 ## Skokie Insurance Coordination
 
@@ -56,4 +56,4 @@ Sewer backup coverage is a separate endorsement on most homeowner policies, it i
 
 Skokie's village code has encouraged backwater valve installation for years, and some older homes have had them retrofitted, but the valve only protects you if it has been serviced. A backwater valve with a stuck or corroded flapper provides almost no protection and can actually trap sewage in the lateral during a surcharge event. If your home had a sewage backup despite having a backwater valve, the valve itself should be inspected by a licensed plumber as part of the recovery process. We flag this routinely when we see it during cleanup, it is the kind of detail that prevents the next backup, not just addresses the current one.
 
-If you are dealing with sewage in your Skokie home right now, call Dry Bros at **(877) 379-2767**. We will walk you through what to avoid touching, what to document for your insurance claim, and how quickly we can have a crew on site.
+If you are dealing with sewage in your Skokie home right now, call Dry Bros at **call us now**. We will walk you through what to avoid touching, what to document for your insurance claim, and how quickly we can have a crew on site.

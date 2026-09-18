@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Fire Damage Restoration in Oak Park, IL | Dry Bros Water & Fire Restoration"
 h1: "Fire Damage Restoration in Oak Park"
-meta_description: "Fire damage restoration in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Fire damage restoration in Oak Park, IL. Insurance billing accepted. Call us now."
 primary_keyword: "fire damage restoration oak park"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -58,4 +58,4 @@ Dry Bros provides detailed scope-of-loss documentation, photographs, moisture re
 
 In Oak Park's older balloon-frame homes, fire and smoke often travel into the attic through open stud bays before the fire department arrives. Attic insulation, particularly the blown-in cellulose common in energy retrofits done over the past few decades, absorbs smoke odor deeply and is almost never salvageable after a significant fire. Homeowners are sometimes surprised to learn the attic requires full insulation removal and replacement even when the fire itself was confined to a lower floor. It's one of the details that separates a thorough restoration scope from one that leaves a persistent smell behind.
 
-If you're dealing with fire damage to a home or commercial property in Oak Park, call Dry Bros Water & Fire Restoration at **(877) 379-2767**. The sooner the assessment begins, the more options you have for preserving what matters.
+If you're dealing with fire damage to a home or commercial property in Oak Park, call Dry Bros Water & Fire Restoration at **call us now**. The sooner the assessment begins, the more options you have for preserving what matters.

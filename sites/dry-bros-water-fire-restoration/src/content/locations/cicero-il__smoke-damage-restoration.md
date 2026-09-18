@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Smoke Damage Restoration in Cicero, IL | Dry Bros Water & Fire Restoration"
 h1: "Smoke Damage Restoration in Cicero"
-meta_description: "Smoke damage restoration in Cicero, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Smoke damage restoration in Cicero, IL. Insurance billing accepted. Call us now."
 primary_keyword: "smoke damage restoration cicero"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -56,4 +56,4 @@ Dry Bros operates out of Chicago, and Cicero sits directly on the city's western
 
 Cicero's bungalows frequently have unfinished or partially finished basements with exposed brick foundation walls and wood-joist ceilings. After a fire anywhere in the structure, smoke stratifies, it rises, but it also infiltrates downward into basement spaces through floor gaps and utility penetrations. Restoration crews who don't inspect the basement after an upper-floor fire often miss a significant reservoir of embedded odor. That oversight tends to surface three to six months later when a homeowner notices the smell returning in cooler weather, when the house tightens up and air circulation slows. Any thorough smoke damage assessment in a Cicero bungalow includes the basement, regardless of where the fire originated.
 
-If your home or investment property in Cicero has been affected by fire and smoke, call Dry Bros Water & Fire Restoration at **(877) 379-2767**. We'll assess the full scope of smoke penetration, walls, HVAC, basement, and all, and walk you through exactly what restoration will involve before any work begins.
+If your home or investment property in Cicero has been affected by fire and smoke, call Dry Bros Water & Fire Restoration at **call us now**. We'll assess the full scope of smoke penetration, walls, HVAC, basement, and all, and walk you through exactly what restoration will involve before any work begins.

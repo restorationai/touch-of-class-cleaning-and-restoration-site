@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Sewage Cleanup and Sanitization in Evanston, IL | Dry Bros Water & Fire Restoration"
 h1: "Sewage Cleanup and Sanitization in Evanston"
-meta_description: "Sewage cleanup and sanitization in Evanston, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Sewage cleanup and sanitization in Evanston, IL. Insurance billing accepted. Call us now."
 primary_keyword: "sewage cleanup and sanitization evanston"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -60,4 +60,4 @@ If your policy does not include sewage backup coverage, the documentation still 
 
 Evanston's older homes, particularly the two- and three-flat buildings common in the blocks east of Chicago Avenue, often have finished basement units with below-grade bathrooms. When a sewer backup occurs in one of those units, the contamination footprint is frequently larger than it appears on first inspection because the sewage has traveled under the finished floor before surfacing. Pulling up a small section of tile or laminate at the perimeter often reveals that the contamination extends several feet beyond the visible wet area. Scoping the extent before writing a cleanup plan saves time and prevents incomplete remediation.
 
-If you're dealing with sewage backup in Evanston, call Dry Bros at **(877) 379-2767**. The sooner extraction begins, the less structural material ends up in the dumpster, and the shorter the path back to a clean, usable space.
+If you're dealing with sewage backup in Evanston, call Dry Bros at **call us now**. The sooner extraction begins, the less structural material ends up in the dumpster, and the shorter the path back to a clean, usable space.

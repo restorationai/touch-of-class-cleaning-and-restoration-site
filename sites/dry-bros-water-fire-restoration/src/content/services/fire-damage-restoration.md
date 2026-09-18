@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Fire Damage Restoration in Chicago | Dry Bros Water & Fire Restoration"
 h1: "Fire Damage Restoration in Chicago"
-meta_description: "Fire damage restoration in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Fire damage restoration in Chicago and surrounding areas. Insurance billing accepted. Call us now."
 primary_keyword: "fire damage restoration chicago"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -74,4 +74,4 @@ Older housing stock throughout Chicago and its inner suburbs, two-flats, greysto
 
 Dry Bros Water & Fire Restoration serves Chicago and the surrounding region, including communities across Cook, DuPage, Lake, and Will counties. Individual city pages cover specific service areas in more detail, if you're outside Chicago proper, check the city pages linked from this service for coverage in your area.
 
-If you're standing in a smoke-damaged home right now, the next step is straightforward: call **(877) 379-2767** to begin smoke and soot removal. The sooner the scope is documented and cleaning starts, the more of your home, and your belongings, can be saved.
+If you're standing in a smoke-damaged home right now, the next step is straightforward: call **call us now** to begin smoke and soot removal. The sooner the scope is documented and cleaning starts, the more of your home, and your belongings, can be saved.

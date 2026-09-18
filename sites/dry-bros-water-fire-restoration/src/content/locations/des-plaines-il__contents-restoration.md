@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Contents Restoration and Storage in Des Plaines, IL | Dry Bros Water & Fire Restoration"
 h1: "Contents Restoration and Storage in Des Plaines"
-meta_description: "Contents restoration and storage in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Contents restoration and storage in Des Plaines, IL. Insurance billing accepted. Call us now."
 primary_keyword: "contents restoration and storage des plaines"
 secondary_keywords: ["contents pack-out", "contents cleaning", "belongings restoration", "furniture restoration after fire", "contents storage"]
 search_intent: "local_service"
@@ -38,7 +38,7 @@ Contents that are restorable but cannot return to the home during active remedia
 
 ## Reaching Des Plaines from Chicago
 
-Dry Bros operates out of Chicago and reaches Des Plaines via I-90/94 west to I-294 north, or through the surface route on Touhy Avenue depending on traffic conditions. Des Plaines is a straightforward run from the city, no toll-heavy detours, no complicated interchange stacking under normal conditions. Scheduling is handled by phone at (877) 379-2767, and the team will give you an honest arrival window based on current conditions rather than a number that sounds good.
+Dry Bros operates out of Chicago and reaches Des Plaines via I-90/94 west to I-294 north, or through the surface route on Touhy Avenue depending on traffic conditions. Des Plaines is a straightforward run from the city, no toll-heavy detours, no complicated interchange stacking under normal conditions. Scheduling is handled by phone now, and the team will give you an honest arrival window based on current conditions rather than a number that sounds good.
 
 ## Des Plaines Insurance Coordination
 
@@ -48,4 +48,4 @@ Most homeowner policies in the Chicago metro cover sudden and accidental losses 
 
 Des Plaines has a notable concentration of older split-level and raised-ranch homes built in the 1960s and 1970s where the lower level sits partially below grade. These spaces often have drop ceilings with acoustic tile directly above finished living areas, and those tiles act like sponges during any overhead leak or flood event. When contents from these lower levels are packed out, the ceiling tile material itself is frequently a contamination source that has been dripping onto furniture and stored items for hours before anyone noticed. If your home has this configuration, mention it when you call, it changes the sequence of the pack-out and the cleaning protocol for items that were stored directly underneath.
 
-If your home or rental property in Des Plaines has taken fire, smoke, or water damage, the window for protecting your belongings is measured in hours, not days. Call Dry Bros Water & Fire Restoration at (877) 379-2767 to schedule a contents assessment and get your items into a safe, documented, climate-controlled environment while the rest of the restoration work proceeds.
+If your home or rental property in Des Plaines has taken fire, smoke, or water damage, the window for protecting your belongings is measured in hours, not days. Call Dry Bros Water & Fire Restoration now to schedule a contents assessment and get your items into a safe, documented, climate-controlled environment while the rest of the restoration work proceeds.

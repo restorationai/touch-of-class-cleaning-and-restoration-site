@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Flood Damage Restoration in Oak Park, IL | Dry Bros Water & Fire Restoration"
 h1: "Flood Damage Restoration in Oak Park"
-meta_description: "Flood damage restoration in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Flood damage restoration in Oak Park, IL. Insurance billing accepted. Call us now."
 primary_keyword: "flood damage restoration oak park"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -50,4 +50,4 @@ Flood and sewer backup claims in Oak Park often hinge on a policy detail homeown
 
 Oak Park's plaster-and-lath interior walls, common in the Craftsman bungalows and Prairie-style homes that define the village's character, behave very differently from modern drywall when they get wet. Plaster itself can survive moderate moisture exposure if it dries quickly enough, but the wood lath behind it absorbs and holds water stubbornly. A wall that reads at acceptable surface moisture levels within a few days may still have saturated lath that won't release for another week or more. Rushing the drying timeline in these homes risks trapping moisture that feeds mold growth inside the wall cavity, a problem that won't show up until weeks later. We extend monitoring periods on Oak Park jobs specifically because of this construction reality.
 
-If you're dealing with flood damage in Oak Park right now, call Dry Bros at **(877) 379-2767**. The longer water sits in a balloon-frame home with a masonry foundation, the more material is at risk, a conversation costs nothing and can clarify exactly what needs to happen next.
+If you're dealing with flood damage in Oak Park right now, call Dry Bros at **call us now**. The longer water sits in a balloon-frame home with a masonry foundation, the more material is at risk, a conversation costs nothing and can clarify exactly what needs to happen next.

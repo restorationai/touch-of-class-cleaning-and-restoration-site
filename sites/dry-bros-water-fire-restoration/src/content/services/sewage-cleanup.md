@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Sewage Cleanup and Sanitization in Chicago | Dry Bros Water & Fire Restoration"
 h1: "Sewage Cleanup and Sanitization in Chicago"
-meta_description: "Sewage cleanup and sanitization in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Sewage cleanup and sanitization in Chicago and surrounding areas. Insurance billing accepted. Call us now."
 primary_keyword: "sewage cleanup and sanitization chicago"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -67,4 +67,4 @@ Chicago's combined sewer system, which carries both stormwater and sanitary wast
 
 Dry Bros Water & Fire Restoration serves Chicago and the surrounding metropolitan area, including communities throughout Cook, DuPage, Lake, and Will counties. Individual city and suburb pages detail local response logistics, find your area in the service directory.
 
-If sewage has backed up into your home, the clock on contamination spread is already running. Call Dry Bros Water & Fire Restoration at (877) 379-2767 to begin sewage backup cleanup and get a written scope before work starts.
+If sewage has backed up into your home, the clock on contamination spread is already running. Call Dry Bros Water & Fire Restoration now to begin sewage backup cleanup and get a written scope before work starts.

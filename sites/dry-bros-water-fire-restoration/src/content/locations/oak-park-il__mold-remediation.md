@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in Oak Park, IL | Dry Bros Water & Fire Restoration"
 h1: "Mold Remediation in Oak Park"
-meta_description: "Mold remediation in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Mold remediation in Oak Park, IL. Insurance billing accepted. Call us now."
 primary_keyword: "mold remediation oak park"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
@@ -46,4 +46,4 @@ Because Oak Park is a dense, walkable village with narrow side streets and on-st
 
 Oak Park homes built before 1978 frequently contain lead paint, and many also contain asbestos in floor tile, pipe insulation, or textured ceiling coatings. When mold remediation requires disturbing those materials, cutting into a plaster ceiling, removing vinyl floor tile to reach a wet subfloor, the scope of work changes. Abatement of lead or asbestos is regulated separately from mold remediation under Illinois EPA guidelines, and the two scopes cannot simply be combined into one crew's work without proper handling protocols. When we scope a job in an older Oak Park home and suspect regulated materials may be present, we flag it before work begins so the homeowner isn't caught off guard mid-project.
 
-If you're dealing with visible mold growth, a persistent musty odor in a basement or closet, or a water loss that wasn't fully dried out, call Dry Bros at (877) 379-2767. Oak Park's older homes don't forgive deferred mold problems, the longer colonization continues in a balloon-frame wall cavity, the more framing material is at stake.
+If you're dealing with visible mold growth, a persistent musty odor in a basement or closet, or a water loss that wasn't fully dried out, call Dry Bros now. Oak Park's older homes don't forgive deferred mold problems, the longer colonization continues in a balloon-frame wall cavity, the more framing material is at stake.

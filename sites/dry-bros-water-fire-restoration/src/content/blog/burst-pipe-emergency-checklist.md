@@ -81,4 +81,4 @@ Once the pipe is repaired and the restoration crew is on-site, drying typically 
 
 If you're reading this after a pipe has already burst, the most important thing you can do right now, after the water is off, is get a professional assessment of how far the moisture has traveled. What looks like a contained mess on the surface is often a much larger problem inside the walls.
 
-Dry Bros Water & Fire Restoration serves the Chicago area and can be reached at **(877) 379-2767**. If you're still in the middle of the emergency, call first and read the rest later.
+Dry Bros Water & Fire Restoration serves the Chicago area and can be reached at **call us now**. If you're still in the middle of the emergency, call first and read the rest later.

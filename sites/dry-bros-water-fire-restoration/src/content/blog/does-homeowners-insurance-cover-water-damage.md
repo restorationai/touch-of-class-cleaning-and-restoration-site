@@ -81,4 +81,4 @@ A restoration company can also help. When Dry Bros Water & Fire Restoration resp
 
 Homeowners insurance is a useful safety net for sudden, internal water events, and a frustrating gap for everything else. The single most valuable thing you can do before a loss is read your declarations page, add a water-backup endorsement if you don't have one, and know where your main shutoff valve is.
 
-If you're dealing with an active water loss in the Chicago area and need help with extraction, drying, or understanding the scope of the damage, Dry Bros Water & Fire Restoration can be reached at **(877) 379-2767**. The more quickly water is extracted and the structure is dried, the smaller the claim, and the less time your home spends at risk for secondary mold growth.
+If you're dealing with an active water loss in the Chicago area and need help with extraction, drying, or understanding the scope of the damage, Dry Bros Water & Fire Restoration can be reached at **call us now**. The more quickly water is extracted and the structure is dried, the smaller the claim, and the less time your home spends at risk for secondary mold growth.

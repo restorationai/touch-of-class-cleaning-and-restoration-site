@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Damage Restoration in Naperville, IL | Dry Bros Water & Fire Restoration"
 h1: "Water Damage Restoration in Naperville"
-meta_description: "Water damage restoration in Naperville, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Water damage restoration in Naperville, IL. Insurance billing accepted. Call us now."
 primary_keyword: "water damage restoration naperville"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -46,4 +46,4 @@ Many of Naperville's planned communities and newer subdivisions are governed by 
 
 Naperville's newer subdivisions, particularly those built in the late 1990s and early 2000s, frequently used engineered lumber floor systems with OSB subfloor panels. OSB absorbs water faster than traditional plywood and swells at the edges, which means a slow leak from a refrigerator line or dishwasher that goes unnoticed for even a few days can cause subfloor delamination that looks minor from above but requires full panel replacement. If your home was built in that era and you are seeing soft spots or cupping in your hardwood or LVP flooring, the subfloor beneath it is worth inspecting before assuming the surface material is the only casualty.
 
-If water has reached your home or building in Naperville, call Dry Bros Water & Fire Restoration at **(877) 379-2767**. We will walk you through what to do right now, schedule an inspection, and get the drying process started before the damage has a chance to compound.
+If water has reached your home or building in Naperville, call Dry Bros Water & Fire Restoration at **call us now**. We will walk you through what to do right now, schedule an inspection, and get the drying process started before the damage has a chance to compound.

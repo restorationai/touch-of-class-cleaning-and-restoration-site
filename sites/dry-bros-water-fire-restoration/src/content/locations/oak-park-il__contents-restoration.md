@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Contents Restoration and Storage in Oak Park, IL | Dry Bros Water & Fire Restoration"
 h1: "Contents Restoration and Storage in Oak Park"
-meta_description: "Contents restoration and storage in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Contents restoration and storage in Oak Park, IL. Insurance billing accepted. Call us now."
 primary_keyword: "contents restoration and storage oak park"
 secondary_keywords: ["contents pack-out", "contents cleaning", "belongings restoration", "furniture restoration after fire", "contents storage"]
 search_intent: "local_service"
@@ -55,4 +55,4 @@ Oak Park's alley grid, one of the more intact examples of Chicago's traditional 
 
 Oak Park is a direct shot west from Chicago on I-290 (the Eisenhower Expressway), putting the village well within our service area. Whether the loss is in a home near the village's commercial core along Lake Street or further south toward the Ridgeland Avenue corridor, our crews can reach Oak Park without the routing complications that affect more distant suburbs. We schedule promptly and confirm arrival windows so you're not left waiting.
 
-If you're dealing with a water loss, fire, or storm event and your belongings need to come out of the structure, call Dry Bros at (877) 379-2767. We'll walk you through what the pack-out process looks like for your specific situation in Oak Park before anything is moved.
+If you're dealing with a water loss, fire, or storm event and your belongings need to come out of the structure, call Dry Bros now. We'll walk you through what the pack-out process looks like for your specific situation in Oak Park before anything is moved.

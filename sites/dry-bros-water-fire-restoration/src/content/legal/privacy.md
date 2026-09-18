@@ -18,7 +18,7 @@ rendered: true
 ---
 ## What This Policy Covers
 
-This privacy policy explains how Dry Bros Water & Fire Restoration collects, uses, and protects information you share when you visit this website or contact us about a restoration project. We keep the language plain on purpose, if you have questions after reading it, reach us directly at amin.mashouf@gmail.com or (877) 379-2767.
+This privacy policy explains how Dry Bros Water & Fire Restoration collects, uses, and protects information you share when you visit this website or contact us about a restoration project. We keep the language plain on purpose, if you have questions after reading it, reach us directly at amin.mashouf@gmail.com or call us now.
 
 ## Information We Collect
 
@@ -53,6 +53,6 @@ Visitors from the European Union are uncommon for a Chicago-area restoration con
 Dry Bros Water & Fire Restoration  
 3918 W 63rd St, Chicago, IL 60629  
 Email: amin.mashouf@gmail.com  
-Phone: (877) 379-2767
+Phone: call us now
 
 This policy may be updated periodically. Material changes will be reflected with a revised date at the top of this page.

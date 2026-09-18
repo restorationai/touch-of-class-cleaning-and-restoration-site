@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Smoke Damage Restoration in Oak Park, IL | Dry Bros Water & Fire Restoration"
 h1: "Smoke Damage Restoration in Oak Park"
-meta_description: "Smoke damage restoration in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Smoke damage restoration in Oak Park, IL. Insurance billing accepted. Call us now."
 primary_keyword: "smoke damage restoration oak park"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -52,4 +52,4 @@ Smoke damage claims on older Oak Park properties can be more involved than a car
 
 Oak Park's historic district designations and the general expectation among homeowners here that original materials be preserved, not swapped out, means smoke damage restoration sometimes involves conversations with the village's building department about what constitutes an acceptable repair versus a replacement. If smoke damage has compromised structural elements like original balloon-frame studs or plaster that's part of a designated interior, permits and inspections may be required before work is closed out. Knowing that going in, and building the documentation accordingly, keeps the project from stalling mid-scope.
 
-If smoke has moved through your Oak Park home, call Dry Bros Water & Fire Restoration at (877) 379-2767. The sooner residue is addressed, the less it bonds to surfaces, and in a home with the kind of irreplaceable materials Oak Park is known for, that timing matters.
+If smoke has moved through your Oak Park home, call Dry Bros Water & Fire Restoration now. The sooner residue is addressed, the less it bonds to surfaces, and in a home with the kind of irreplaceable materials Oak Park is known for, that timing matters.

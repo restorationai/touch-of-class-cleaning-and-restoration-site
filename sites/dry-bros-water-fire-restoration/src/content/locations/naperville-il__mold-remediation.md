@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in Naperville, IL | Dry Bros Water & Fire Restoration"
 h1: "Mold Remediation in Naperville"
-meta_description: "Mold remediation in Naperville, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Mold remediation in Naperville, IL. Insurance billing accepted. Call us now."
 primary_keyword: "mold remediation naperville"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
@@ -46,4 +46,4 @@ For homeowners in Naperville's HOA communities, remediation work that involves c
 
 Naperville has a significant number of homes built in the late 1970s through the mid-1990s that used paper-faced drywall in basement finishing, a material that is particularly hospitable to mold when it stays damp. Unlike the moisture-resistant drywall products used in more recent construction, standard paper-faced board wicks water up from the bottom and holds it, often showing no visible sign of a problem until the mold colony is well established. If your home was finished during that era and has had any water intrusion, the affected drywall almost certainly needs to come out rather than be treated in place.
 
-Call Dry Bros Water & Fire Restoration at (877) 379-2767 to schedule a mold assessment in Naperville. The sooner the moisture source and affected materials are identified, the more contained the remediation scope, and the sooner your home is back to normal.
+Call Dry Bros Water & Fire Restoration now to schedule a mold assessment in Naperville. The sooner the moisture source and affected materials are identified, the more contained the remediation scope, and the sooner your home is back to normal.

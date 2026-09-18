@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Basement Flooding Cleanup in Des Plaines, IL | Dry Bros Water & Fire Restoration"
 h1: "Basement Flooding Cleanup in Des Plaines"
-meta_description: "Basement flooding cleanup in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Basement flooding cleanup in Des Plaines, IL. Insurance billing accepted. Call us now."
 primary_keyword: "basement flooding cleanup des plaines"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -50,4 +50,4 @@ We document losses thoroughly: photographs of affected materials, moisture readi
 
 In Des Plaines, homes built on slab-on-grade foundations, common in some of the postwar subdivisions developed through the 1950s and 1960s, present a specific drying challenge that flat-rate timelines don't account for. When water migrates under a concrete slab, standard surface drying equipment can't reach it. We use specialized drying mats and in-slab drying systems to draw moisture up through the concrete rather than waiting for it to evaporate on its own, which can take weeks and allows mold to establish in the meantime. If your basement has a slab floor and you've had standing water, ask us specifically about sub-slab moisture when we arrive, it's a step that gets skipped more often than it should.
 
-If your basement is flooded or you're seeing water coming in now, call Dry Bros at (877) 379-2767. We serve Des Plaines and the surrounding Cook County communities and can walk you through immediate steps to limit damage while we're on the way.
+If your basement is flooded or you're seeing water coming in now, call Dry Bros now. We serve Des Plaines and the surrounding Cook County communities and can walk you through immediate steps to limit damage while we're on the way.

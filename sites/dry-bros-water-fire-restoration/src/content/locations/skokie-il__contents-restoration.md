@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Contents Restoration and Storage in Skokie, IL | Dry Bros Water & Fire Restoration"
 h1: "Contents Restoration and Storage in Skokie"
-meta_description: "Contents restoration and storage in Skokie, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Contents restoration and storage in Skokie, IL. Insurance billing accepted. Call us now."
 primary_keyword: "contents restoration and storage skokie"
 secondary_keywords: ["contents pack-out", "contents cleaning", "belongings restoration", "furniture restoration after fire", "contents storage"]
 search_intent: "local_service"
@@ -36,7 +36,7 @@ Cleaning methods are matched to the material. Porous items like upholstered furn
 
 ## Reaching Skokie from Chicago
 
-Dry Bros operates out of Chicago, and Skokie sits directly on the city's northern border, accessible via the Edens Expressway or surface routes like McCormick Boulevard and Dempster Street depending on traffic and time of day. The village's grid layout means most addresses are straightforward to reach without navigating complex subdivisions. Call (877) 379-2767 to schedule, and a team member will confirm timing based on current conditions.
+Dry Bros operates out of Chicago, and Skokie sits directly on the city's northern border, accessible via the Edens Expressway or surface routes like McCormick Boulevard and Dempster Street depending on traffic and time of day. The village's grid layout means most addresses are straightforward to reach without navigating complex subdivisions. Call us now to schedule, and a team member will confirm timing based on current conditions.
 
 ## Skokie Insurance Coordination for Contents Claims
 
@@ -48,4 +48,4 @@ If your policy includes additional living expense (ALE) coverage, professional c
 
 Skokie's older bungalows and ranch-style homes frequently have finished basements that were converted in the 1960s and 1970s, often with wood-paneled walls, drop ceilings, and built-in cabinetry that homeowners have owned for decades and are reluctant to lose. These spaces tend to flood first in heavy rain events because the village's flat topography and aging storm infrastructure can back up during significant storms. The contents in those basement rooms, furniture, stored clothing, family keepsakes, are often the items with the highest sentimental value and the lowest replacement cost listed on a policy. Careful pack-out and restoration, rather than wholesale disposal, is frequently the right call both financially and personally.
 
-If your home in Skokie has been affected by water, fire, or smoke damage and you are worried about what happens to your belongings during the restoration process, call Dry Bros at (877) 379-2767. We document, pack, clean, store, and return your contents, so that when the work on your home is done, your home actually feels like yours again.
+If your home in Skokie has been affected by water, fire, or smoke damage and you are worried about what happens to your belongings during the restoration process, call Dry Bros now. We document, pack, clean, store, and return your contents, so that when the work on your home is done, your home actually feels like yours again.

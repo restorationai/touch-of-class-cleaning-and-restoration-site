@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Cleanup in Skokie, IL | Dry Bros Water & Fire Restoration"
 h1: "Water Cleanup in Skokie"
-meta_description: "Water cleanup in Skokie, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Water cleanup in Skokie, IL. Insurance billing accepted. Call us now."
 primary_keyword: "water cleanup skokie"
 secondary_keywords: ["water damage cleanup", "water clean up", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
@@ -44,7 +44,7 @@ If the source was a sewer backup or any gray or black water intrusion, affected 
 
 Dry Bros operates out of Chicago, and Skokie is a direct run up the Edens Spur or surface routes through Rogers Park and West Ridge depending on traffic. The city's grid layout and accessible alley system in most residential blocks means crew and equipment can typically stage close to the affected property without the access complications that come with some suburban developments.
 
-Call (877) 379-2767 to get a crew scheduled. When you call, describe what you're seeing, water depth, where it's coming from if known, and whether the source is stopped, so the right equipment loads on the first truck.
+Call us now to get a crew scheduled. When you call, describe what you're seeing, water depth, where it's coming from if known, and whether the source is stopped, so the right equipment loads on the first truck.
 
 ## Working with Insurance on Skokie Water Claims
 
@@ -56,4 +56,4 @@ Dry Bros documents the loss from the first hour on-site: photos, moisture maps, 
 
 Skokie's bungalow belt, the dense stretch of brick and frame homes running through the interior of the city, was built largely before vapor barriers were standard practice. The crawl spaces and partial basements in these homes often have bare soil or single-layer concrete floors that wick ground moisture year-round. After any water event, that baseline moisture load means dehumidifiers need to run longer than they would in a newer home with a properly sealed slab. If a contractor pulls equipment after two days because the air feels dry, ask to see the actual moisture readings from the floor assembly, surface conditions in these homes can be misleading.
 
-Water damage doesn't pause while you figure out next steps. Call Dry Bros Water & Fire Restoration at **(877) 379-2767** to schedule water cleanup in Skokie and get the drying process started before secondary damage compounds the loss.
+Water damage doesn't pause while you figure out next steps. Call Dry Bros Water & Fire Restoration at **call us now** to schedule water cleanup in Skokie and get the drying process started before secondary damage compounds the loss.

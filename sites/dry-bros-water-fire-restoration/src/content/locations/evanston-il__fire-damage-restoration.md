@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Fire Damage Restoration in Evanston, IL | Dry Bros Water & Fire Restoration"
 h1: "Fire Damage Restoration in Evanston"
-meta_description: "Fire damage restoration in Evanston, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Fire damage restoration in Evanston, IL. Insurance billing accepted. Call us now."
 primary_keyword: "fire damage restoration evanston"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -44,7 +44,7 @@ After demolition, smoke residue cleaning of framing, masonry, and mechanical sys
 
 ## Reaching Evanston from Chicago
 
-Dry Bros operates out of Chicago, and Evanston is a direct run north, up Sheridan Road along the lakefront or via the Edens Spur to the city's western edges. Evanston's grid is well-connected, and we're familiar with navigating both the denser central blocks near downtown Evanston and the quieter residential streets further north and west. Scheduling is handled by phone at (877) 379-2767.
+Dry Bros operates out of Chicago, and Evanston is a direct run north, up Sheridan Road along the lakefront or via the Edens Spur to the city's western edges. Evanston's grid is well-connected, and we're familiar with navigating both the denser central blocks near downtown Evanston and the quieter residential streets further north and west. Scheduling is handled by phone now.
 
 ## Evanston Insurance Coordination
 
@@ -58,4 +58,4 @@ For Evanston properties with condo association or HOA structures, it's worth con
 
 Evanston's older greystone and brick courtyard buildings, common in the central and southern parts of the city, often have shared mechanical chases and common-area ductwork that connects individual units. After a fire in one unit, smoke odor can migrate into adjacent units through these shared systems even when the fire itself was contained. Property managers dealing with a fire loss in one of these buildings should plan for odor assessment in neighboring units, not just the unit of origin. Ignoring the shared systems is one of the more common reasons a fire restoration job gets called back for persistent smell complaints weeks after the work is done.
 
-If you're dealing with fire or smoke damage in Evanston, whether it's a single-family home, a two-flat, or a multi-unit building, call Dry Bros Water & Fire Restoration at (877) 379-2767. We'll assess the full scope of the damage, not just what's visible, and walk you through a clear recovery plan from the first call.
+If you're dealing with fire or smoke damage in Evanston, whether it's a single-family home, a two-flat, or a multi-unit building, call Dry Bros Water & Fire Restoration now. We'll assess the full scope of the damage, not just what's visible, and walk you through a clear recovery plan from the first call.

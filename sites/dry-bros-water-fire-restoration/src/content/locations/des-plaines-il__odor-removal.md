@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Odor Removal and Deodorization in Des Plaines, IL | Dry Bros Water & Fire Restoration"
 h1: "Odor Removal and Deodorization in Des Plaines"
-meta_description: "Odor removal and deodorization in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Odor removal and deodorization in Des Plaines, IL. Insurance billing accepted. Call us now."
 primary_keyword: "odor removal and deodorization des plaines"
 secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodorization", "thermal fogging", "professional odor elimination"]
 search_intent: "local_specialty"
@@ -44,7 +44,7 @@ Effective deodorization isn't a single treatment, it's a sequence calibrated to 
 
 ## Reaching Des Plaines from Chicago
 
-Dry Bros operates out of Chicago, and Des Plaines is a straightforward run up I-90/94 to I-294 or along the Tri-State corridor, routes our crews travel regularly for jobs across the northwest suburbs. Scheduling is prompt; call (877) 379-2767 to arrange an assessment and we'll confirm your arrival window when we book.
+Dry Bros operates out of Chicago, and Des Plaines is a straightforward run up I-90/94 to I-294 or along the Tri-State corridor, routes our crews travel regularly for jobs across the northwest suburbs. Scheduling is prompt; call us now to arrange an assessment and we'll confirm your arrival window when we book.
 
 ## Des Plaines Insurance Coordination
 
@@ -54,4 +54,4 @@ Odor removal is frequently covered under homeowner's policies when it's tied to 
 
 Des Plaines homes built in the 1950s and 1960s often have original ductwork with interior surfaces that were never designed to be cleaned or treated, the metal is thinner, joints are less sealed, and insulation wrap on older runs can itself retain odor. When smoke or sewage gases have been pulled through that system, we assess whether duct deodorization alone is sufficient or whether sections of the run need to be replaced before the smell can be fully resolved. It's a detail that matters specifically in this era of construction and one that a surface-only treatment will miss every time.
 
-If a persistent smell in your Des Plaines home has outlasted every cleaning attempt, call Dry Bros Water & Fire Restoration at (877) 379-2767. We'll assess the source, explain the treatment options that fit your building and your situation, and get to work on a timeline that makes sense for your household.
+If a persistent smell in your Des Plaines home has outlasted every cleaning attempt, call Dry Bros Water & Fire Restoration now. We'll assess the source, explain the treatment options that fit your building and your situation, and get to work on a timeline that makes sense for your household.

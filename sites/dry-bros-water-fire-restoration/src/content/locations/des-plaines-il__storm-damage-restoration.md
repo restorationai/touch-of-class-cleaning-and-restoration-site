@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Storm Damage Restoration in Des Plaines, IL | Dry Bros Water & Fire Restoration"
 h1: "Storm Damage Restoration in Des Plaines"
-meta_description: "Storm damage restoration in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Storm damage restoration in Des Plaines, IL. Insurance billing accepted. Call us now."
 primary_keyword: "storm damage restoration des plaines"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -59,4 +59,4 @@ If your policy includes additional living expense coverage and the damage makes 
 
 Des Plaines homes built near the river corridor, particularly those on lower-elevation lots west of River Road, often have basement floor drains that tie directly into the combined sewer system. During a major storm event, when the municipal system surcharges, those floor drains can become the path of least resistance for sewage-contaminated water to enter the basement. Homeowners who see water coming up through a floor drain after a storm should treat it as a potential sewage backup, not just stormwater, until it's been tested. We carry the appropriate PPE and testing protocols for exactly this scenario.
 
-If your property has taken storm damage in Des Plaines, call Dry Bros Water & Fire Restoration at **(877) 379-2767**. We'll assess the full scope of the damage, stop what's still moving, and walk you through every step of the restoration process.
+If your property has taken storm damage in Des Plaines, call Dry Bros Water & Fire Restoration at **call us now**. We'll assess the full scope of the damage, stop what's still moving, and walk you through every step of the restoration process.

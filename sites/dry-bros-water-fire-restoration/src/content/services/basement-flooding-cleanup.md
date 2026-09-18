@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Basement Flooding Cleanup in Chicago | Dry Bros Water & Fire Restoration"
 h1: "Basement Flooding Cleanup in Chicago"
-meta_description: "Basement flooding cleanup in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Basement flooding cleanup in Chicago and surrounding areas. Insurance billing accepted. Call us now."
 primary_keyword: "basement flooding cleanup chicago"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -74,4 +74,4 @@ Chicago basements face a particular combination of stressors. Spring snowmelt an
 
 Dry Bros serves Chicago and the surrounding metro area, including communities throughout Cook, DuPage, Lake, and Will counties. Dedicated service pages for specific cities and neighborhoods link back here for full process detail.
 
-If water is in your basement right now, call Dry Bros at **(877) 379-2767** to schedule your moisture assessment and get a written scope before work begins.
+If water is in your basement right now, call Dry Bros at **call us now** to schedule your moisture assessment and get a written scope before work begins.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in Evanston, IL | Dry Bros Water & Fire Restoration"
 h1: "Mold Remediation in Evanston"
-meta_description: "Mold remediation in Evanston, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Mold remediation in Evanston, IL. Insurance billing accepted. Call us now."
 primary_keyword: "mold remediation evanston"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
@@ -38,7 +38,7 @@ In homes with historic plaster walls, we take additional care. Plaster is denser
 
 ## Reaching Evanston from Chicago
 
-Dry Bros operates out of Chicago, and Evanston sits directly north along the lakefront, accessible via Sheridan Road through Rogers Park or via the Edens Spur and surface routes inland. We schedule promptly and give you an honest arrival window when you call. If you're in the southern end of the city near the Northwestern University campus or further north toward the border with Wilmette, let us know your cross streets when you call (877) 379-2767 so we can route efficiently.
+Dry Bros operates out of Chicago, and Evanston sits directly north along the lakefront, accessible via Sheridan Road through Rogers Park or via the Edens Spur and surface routes inland. We schedule promptly and give you an honest arrival window when you call. If you're in the southern end of the city near the Northwestern University campus or further north toward the border with Wilmette, let us know your cross streets when you call us now so we can route efficiently.
 
 ## Evanston Insurance Coordination
 
@@ -50,4 +50,4 @@ If you're in a condo or multi-unit building, common in Evanston's denser neighbo
 
 In Evanston's older two-flats and courtyard buildings, shared wall assemblies mean mold in one unit can have a moisture source in an adjacent unit or a common-area roof. If your building has a property manager or condo association, looping them in early isn't just courteous, it's often necessary to access the source and prevent the problem from recurring. We're accustomed to coordinating with building management on multi-unit jobs and can communicate scope and findings in a format that works for both the affected resident and the association.
 
-If you're seeing signs of mold in your Evanston home or building, the right move is an assessment before the problem expands into adjacent materials. Call Dry Bros at (877) 379-2767 to schedule mold remediation in Evanston, we'll give you a clear picture of what's there, what needs to come out, and what it takes to keep it from coming back.
+If you're seeing signs of mold in your Evanston home or building, the right move is an assessment before the problem expands into adjacent materials. Call Dry Bros now to schedule mold remediation in Evanston, we'll give you a clear picture of what's there, what needs to come out, and what it takes to keep it from coming back.

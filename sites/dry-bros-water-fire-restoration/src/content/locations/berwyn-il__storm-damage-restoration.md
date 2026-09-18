@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Storm Damage Restoration in Berwyn, IL | Dry Bros Water & Fire Restoration"
 h1: "Storm Damage Restoration in Berwyn"
-meta_description: "Storm damage restoration in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Storm damage restoration in Berwyn, IL. Insurance billing accepted. Call us now."
 primary_keyword: "storm damage restoration berwyn"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -46,7 +46,7 @@ Storm damage restoration isn't a single service, it's a sequence that has to hap
 
 Dry Bros operates out of Chicago, and Berwyn is a direct run west on the Eisenhower Expressway (I-290), one of the most direct suburban corridors from the city. Cermak Road and Roosevelt Road both provide surface-route access when expressway traffic is a factor, which matters during the post-storm congestion that typically follows a widespread weather event across Cook County.
 
-We serve all of Berwyn's residential neighborhoods and commercial corridors. When you call (877) 379-2767, our team will confirm scheduling and give you a realistic arrival window based on current conditions, not a number pulled from a script.
+We serve all of Berwyn's residential neighborhoods and commercial corridors. When you call us now, our team will confirm scheduling and give you a realistic arrival window based on current conditions, not a number pulled from a script.
 
 ## Berwyn Insurance Coordination for Storm Claims
 
@@ -60,4 +60,4 @@ If your property is subject to an HOA, we'll coordinate on exterior repair speci
 
 One pattern worth knowing in Berwyn: many of the city's bungalows and two-flats were built with shallow roof pitches designed for the original clay or concrete tile, materials with significant weight and interlocking profiles that shed water even at low slopes. When those roofs were re-covered decades later with asphalt shingles (a lighter, less interlocking material), the low pitch became a liability. After a severe storm, water can back up under low-slope asphalt shingles in ways it never would have under the original tile, pushing moisture into the roof deck and rafters before any interior ceiling stain appears. If your Berwyn home has a low-pitch roof and you've had a significant storm, it's worth having the deck inspected even if the ceiling looks fine.
 
-Call Dry Bros at (877) 379-2767 to schedule a storm damage assessment for your Berwyn property. We'll walk through what the storm actually did, not just what's visible, and give you a clear picture of what restoration looks like before any work begins.
+Call Dry Bros now to schedule a storm damage assessment for your Berwyn property. We'll walk through what the storm actually did, not just what's visible, and give you a clear picture of what restoration looks like before any work begins.

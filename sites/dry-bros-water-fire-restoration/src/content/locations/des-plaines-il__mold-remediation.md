@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in Des Plaines, IL | Dry Bros Water & Fire Restoration"
 h1: "Mold Remediation in Des Plaines"
-meta_description: "Mold remediation in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Mold remediation in Des Plaines, IL. Insurance billing accepted. Call us now."
 primary_keyword: "mold remediation des plaines"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
@@ -46,4 +46,4 @@ Dry Bros documents the loss thoroughly: moisture mapping, photographic evidence 
 
 Des Plaines has a significant number of homes with crawl spaces rather than full basements, a construction style common in neighborhoods developed in the 1950s on lots where full excavation was cost-prohibitive. Crawl spaces in this area tend to accumulate standing water after heavy rain because the soil grade often pitches slightly toward the foundation rather than away from it. Mold in a crawl space is frequently misidentified as dirt or efflorescence until it's tested. If you're seeing white or gray fuzzy growth on floor joists or vapor barrier plastic, or if your first floor has an unexplained musty smell that intensifies in spring, a crawl space inspection is worth doing before the problem migrates upward into the living space.
 
-If you're dealing with visible mold growth, a persistent musty odor, or recent water damage in a Des Plaines home, call Dry Bros Water & Fire Restoration at (877) 379-2767. Prompt remediation limits both the health exposure and the scope of reconstruction, and in a housing market where disclosure requirements apply to known mold conditions, getting it documented and resolved correctly protects your investment.
+If you're dealing with visible mold growth, a persistent musty odor, or recent water damage in a Des Plaines home, call Dry Bros Water & Fire Restoration now. Prompt remediation limits both the health exposure and the scope of reconstruction, and in a housing market where disclosure requirements apply to known mold conditions, getting it documented and resolved correctly protects your investment.

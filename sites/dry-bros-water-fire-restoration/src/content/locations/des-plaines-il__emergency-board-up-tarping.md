@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Board-Up and Tarping in Des Plaines, IL | Dry Bros Water & Fire Restoration"
 h1: "Board-Up and Tarping in Des Plaines"
-meta_description: "Board-up and tarping in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Board-up and tarping in Des Plaines, IL. Insurance billing accepted. Call us now."
 primary_keyword: "emergency board-up and tarping des plaines"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -50,4 +50,4 @@ If your carrier requires a written scope before authorizing work, call us and we
 
 Des Plaines homes built in the 1950s and early 1960s frequently have balloon-frame construction rather than the platform framing that became standard later. In a balloon-frame structure, wall cavities run continuously from the foundation to the roof, which matters for board-up work because a breach at the roofline can allow smoke, water, and outside air to travel down through the wall cavity to the basement level. When we're boarding up a fire-damaged balloon-frame home, we note the construction type in our documentation and flag it for the restoration team, because the remediation scope may extend further than the visible damage suggests.
 
-If you're looking at a damaged property in Des Plaines and you're not sure what you're dealing with, call (877) 379-2767. We'll walk the structure with you and give you an honest read on what needs to be secured and why.
+If you're looking at a damaged property in Des Plaines and you're not sure what you're dealing with, call us now. We'll walk the structure with you and give you an honest read on what needs to be secured and why.

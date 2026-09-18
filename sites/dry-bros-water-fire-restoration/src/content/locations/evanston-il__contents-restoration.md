@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Contents Restoration and Storage in Evanston, IL | Dry Bros Water & Fire Restoration"
 h1: "Contents Restoration and Storage in Evanston"
-meta_description: "Contents restoration and storage in Evanston, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Contents restoration and storage in Evanston, IL. Insurance billing accepted. Call us now."
 primary_keyword: "contents restoration and storage evanston"
 secondary_keywords: ["contents pack-out", "contents cleaning", "belongings restoration", "furniture restoration after fire", "contents storage"]
 search_intent: "local_service"
@@ -48,4 +48,4 @@ For renters in Evanston's large stock of multi-unit buildings and courtyard apar
 
 Evanston's alley-loaded lots, common throughout the city's older residential blocks, can complicate pack-out logistics in ways that aren't obvious from an address alone. Many of the greystones and brick two-flats near the lakefront have their primary storage and basement access from the rear alley rather than the front door, and those alleys are often narrow enough that a standard moving truck cannot stage there. When we schedule a pack-out in Evanston, we confirm alley width and access points in advance so the crew arrives with the right vehicle configuration and doesn't lose time on-site working around a staging problem.
 
-If you're dealing with a loss right now, call Dry Bros Water & Fire Restoration at (877) 379-2767. We'll assess what needs to come out, document everything before it moves, and keep your belongings safe while your Evanston home is being restored.
+If you're dealing with a loss right now, call Dry Bros Water & Fire Restoration now. We'll assess what needs to come out, document everything before it moves, and keep your belongings safe while your Evanston home is being restored.

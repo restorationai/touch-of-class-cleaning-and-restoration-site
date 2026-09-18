@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Smoke Damage Restoration in Berwyn, IL | Dry Bros Water & Fire Restoration"
 h1: "Smoke Damage Restoration in Berwyn"
-meta_description: "Smoke damage restoration in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Smoke damage restoration in Berwyn, IL. Insurance billing accepted. Call us now."
 primary_keyword: "smoke damage restoration berwyn"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -46,10 +46,10 @@ Finally, we document every step with photographs and moisture readings, the kind
 
 ## Reaching Berwyn from Chicago
 
-Dry Bros operates out of Chicago, and Berwyn sits just west of the city line along the Eisenhower Expressway (I-290) corridor. Ogden Avenue and Cermak Road are the two main surface routes we use depending on traffic and the specific address in Berwyn. The city's compact layout, roughly two miles east to west, means no address in Berwyn is far from a main arterial. Call (877) 379-2767 to reach our team directly and confirm scheduling for your address.
+Dry Bros operates out of Chicago, and Berwyn sits just west of the city line along the Eisenhower Expressway (I-290) corridor. Ogden Avenue and Cermak Road are the two main surface routes we use depending on traffic and the specific address in Berwyn. The city's compact layout, roughly two miles east to west, means no address in Berwyn is far from a main arterial. Call us now to reach our team directly and confirm scheduling for your address.
 
 ## Local Note
 
 One thing that catches homeowners off guard in Berwyn's older bungalows: the original basement ceiling is often unfinished, with exposed floor joists directly below the first floor. In a basement fire or a fire that drops burning material through a floor, those joists absorb smoke at their end-grain cuts, the most porous part of the wood, and hold odor long after the visible char is addressed. Standard surface cleaning misses it entirely. We treat exposed structural wood in unfinished basements as a primary odor source, not an afterthought, because in Berwyn's housing stock it frequently is.
 
-If you're in Berwyn and dealing with smoke residue that lingers despite cleaning attempts, call Dry Bros at **(877) 379-2767**. We'll assess the scope, explain the process honestly, and work with your insurance carrier to document the loss so you're not navigating the claim alone.
+If you're in Berwyn and dealing with smoke residue that lingers despite cleaning attempts, call Dry Bros at **call us now**. We'll assess the scope, explain the process honestly, and work with your insurance carrier to document the loss so you're not navigating the claim alone.

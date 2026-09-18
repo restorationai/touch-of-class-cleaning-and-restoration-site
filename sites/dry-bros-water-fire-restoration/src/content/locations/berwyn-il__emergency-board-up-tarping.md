@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Board-Up and Tarping in Berwyn, IL | Dry Bros Water & Fire Restoration"
 h1: "Board-Up and Tarping in Berwyn"
-meta_description: "Board-up and tarping in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Board-up and tarping in Berwyn, IL. Insurance billing accepted. Call us now."
 primary_keyword: "emergency board-up and tarping berwyn"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"

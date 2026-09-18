@@ -91,4 +91,4 @@ The full timeline from water event to finished repairs can range from a week for
 
 ---
 
-If you're in the middle of a water loss right now and the situation is beyond what you can manage alone, Dry Bros Water & Fire Restoration serves the Chicago area and can be reached at (877) 379-2767. The right call at the right time is the single biggest factor in how much of your home, and your claim, you get back.
+If you're in the middle of a water loss right now and the situation is beyond what you can manage alone, Dry Bros Water & Fire Restoration serves the Chicago area and can be reached now. The right call at the right time is the single biggest factor in how much of your home, and your claim, you get back.

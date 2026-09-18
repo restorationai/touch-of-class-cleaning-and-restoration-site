@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in Skokie, IL | Dry Bros Water & Fire Restoration"
 h1: "Mold Remediation in Skokie"
-meta_description: "Mold remediation in Skokie, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Mold remediation in Skokie, IL. Insurance billing accepted. Call us now."
 primary_keyword: "mold remediation skokie"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
@@ -36,7 +36,7 @@ Contaminated porous materials, drywall, insulation, wood framing, are removed, b
 
 ## Reaching Skokie from Chicago
 
-Dry Bros operates out of Chicago, and Skokie is a straightforward run north, typically via I-94 to the Dempster Street or Old Orchard Road corridors, or up the Edens Spur depending on where in Skokie the property sits. The western stretches of the city near Niles and Morton Grove borders are equally accessible. Call (877) 379-2767 to schedule an assessment and confirm timing based on current conditions.
+Dry Bros operates out of Chicago, and Skokie is a straightforward run north, typically via I-94 to the Dempster Street or Old Orchard Road corridors, or up the Edens Spur depending on where in Skokie the property sits. The western stretches of the city near Niles and Morton Grove borders are equally accessible. Call us now to schedule an assessment and confirm timing based on current conditions.
 
 ## Skokie Insurance Coordination
 

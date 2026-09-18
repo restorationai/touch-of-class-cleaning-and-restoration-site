@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Flood Damage Restoration in Chicago | Dry Bros Water & Fire Restoration"
 h1: "Flood Damage Restoration in Chicago"
-meta_description: "Flood damage restoration in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Flood damage restoration in Chicago and surrounding areas. Insurance billing accepted. Call us now."
 primary_keyword: "flood damage restoration chicago"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -75,4 +75,4 @@ Dry Bros Water & Fire Restoration serves Chicago and the surrounding region, inc
 
 ---
 
-If your basement took on water, call **(877) 379-2767** now to start the extraction process, the sooner water is out, the smaller the drying scope and the lower the risk of secondary mold damage.
+If your basement took on water, call **call us now** now to start the extraction process, the sooner water is out, the smaller the drying scope and the lower the risk of secondary mold damage.

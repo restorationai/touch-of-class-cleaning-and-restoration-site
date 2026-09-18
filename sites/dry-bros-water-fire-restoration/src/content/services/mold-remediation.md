@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Mold Remediation in Chicago | Dry Bros Water & Fire Restoration"
 h1: "Mold Remediation in Chicago"
-meta_description: "Mold remediation in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Mold remediation in Chicago and surrounding areas. Insurance billing accepted. Call us now."
 primary_keyword: "mold remediation chicago"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
@@ -71,4 +71,4 @@ Chicago's climate creates a predictable mold calendar. The combination of humid 
 
 Dry Bros Water & Fire Restoration serves Chicago and the surrounding region, including communities throughout Cook, DuPage, Lake, and Will counties. City-specific mold remediation pages cover individual neighborhoods and suburbs, each linking back here for the full process detail.
 
-If you're seeing visible growth, smelling that characteristic earthy or musty odor, or you've had a water event in the last week, call **(877) 379-2767** to schedule an air quality assessment. The sooner the moisture source and affected materials are identified, the smaller the remediation scope tends to be.
+If you're seeing visible growth, smelling that characteristic earthy or musty odor, or you've had a water event in the last week, call **call us now** to schedule an air quality assessment. The sooner the moisture source and affected materials are identified, the smaller the remediation scope tends to be.

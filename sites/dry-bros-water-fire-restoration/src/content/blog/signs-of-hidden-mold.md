@@ -81,4 +81,4 @@ If the mold followed a covered loss (a burst pipe, an appliance leak, storm-rela
 
 ---
 
-If you're seeing more than one of these signs, or if you've had a water event in the past six months that you're not sure was fully dried out, it's worth having someone look at it before the problem grows. Dry Bros Water & Fire Restoration handles mold remediation in Chicago and the surrounding area, you can reach them at **(877) 379-2767** to talk through what you're seeing and whether an assessment makes sense.
+If you're seeing more than one of these signs, or if you've had a water event in the past six months that you're not sure was fully dried out, it's worth having someone look at it before the problem grows. Dry Bros Water & Fire Restoration handles mold remediation in Chicago and the surrounding area, you can reach them at **call us now** to talk through what you're seeing and whether an assessment makes sense.

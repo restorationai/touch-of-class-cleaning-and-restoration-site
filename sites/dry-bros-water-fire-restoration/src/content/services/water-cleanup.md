@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Water Cleanup in Chicago | Dry Bros Water & Fire Restoration"
 h1: "Water Cleanup in Chicago"
-meta_description: "Water cleanup in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Water cleanup in Chicago and surrounding areas. Insurance billing accepted. Call us now."
 primary_keyword: "water cleanup chicago"
 secondary_keywords: ["water damage cleanup", "water clean up", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
@@ -74,4 +74,4 @@ Chicago's climate creates predictable water damage patterns worth knowing. Freez
 
 Dry Bros Water & Fire Restoration serves Chicago and the surrounding metro area, including communities across Cook, DuPage, Lake, and Will counties. Dedicated service-area pages cover specific cities and neighborhoods, each links back here for the full technical detail on how water cleanup works.
 
-If you're seeing water on the floor right now, call **(877) 379-2767** to schedule your moisture assessment and get a written scope before any work begins.
+If you're seeing water on the floor right now, call **call us now** to schedule your moisture assessment and get a written scope before any work begins.

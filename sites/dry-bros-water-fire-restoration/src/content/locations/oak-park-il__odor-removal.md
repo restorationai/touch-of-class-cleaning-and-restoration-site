@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Odor Removal and Deodorization in Oak Park, IL | Dry Bros Water & Fire Restoration"
 h1: "Odor Removal and Deodorization in Oak Park"
-meta_description: "Odor removal and deodorization in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Odor removal and deodorization in Oak Park, IL. Insurance billing accepted. Call us now."
 primary_keyword: "odor removal and deodorization oak park"
 secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodorization", "thermal fogging", "professional odor elimination"]
 search_intent: "local_specialty"
@@ -43,7 +43,7 @@ The right method, or combination of methods, depends on the odor type, the build
 
 ## Reaching Oak Park from Chicago
 
-Dry Bros operates out of Chicago, and Oak Park sits immediately west along the Eisenhower Expressway (I-290). The village is compact and well-connected, making it straightforward to reach from our base. Whether a call comes from the north end of the village near the Green Line stations or from the quieter residential streets in the southern blocks, we can schedule prompt service without the extended travel times that affect more distant suburbs. We'll confirm scheduling and arrival windows when you call, (877) 379-2767.
+Dry Bros operates out of Chicago, and Oak Park sits immediately west along the Eisenhower Expressway (I-290). The village is compact and well-connected, making it straightforward to reach from our base. Whether a call comes from the north end of the village near the Green Line stations or from the quieter residential streets in the southern blocks, we can schedule prompt service without the extended travel times that affect more distant suburbs. We'll confirm scheduling and arrival windows when you call, call us now.
 
 ## Local Note: What Older Oak Park Homes Do to Odor Timelines
 
@@ -51,4 +51,4 @@ One thing that surprises homeowners in Oak Park's historic districts: odor can r
 
 If your property is in a locally landmarked district or subject to Oak Park's historic preservation guidelines, we're also mindful of material constraints, some aggressive chemical treatments aren't appropriate on original woodwork or period plaster, and we'll flag that before we start.
 
-Odors in Oak Park's older homes are a structural problem as much as a surface one. Call Dry Bros at (877) 379-2767 to schedule an assessment, we'll identify what's holding the smell and give you a clear plan for getting it out for good.
+Odors in Oak Park's older homes are a structural problem as much as a surface one. Call Dry Bros now to schedule an assessment, we'll identify what's holding the smell and give you a clear plan for getting it out for good.

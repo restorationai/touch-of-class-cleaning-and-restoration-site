@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Odor Removal and Deodorization in Chicago | Dry Bros Water & Fire Restoration"
 h1: "Odor Removal and Deodorization in Chicago"
-meta_description: "Odor removal and deodorization in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Odor removal and deodorization in Chicago and surrounding areas. Insurance billing accepted. Call us now."
 primary_keyword: "odor removal and deodorization chicago"
 secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodorization", "thermal fogging", "professional odor elimination"]
 search_intent: "local_specialty"
@@ -77,4 +77,4 @@ Winter also complicates treatment logistics: ozone and thermal fogging work best
 
 Dry Bros serves Chicago and the surrounding region, including communities throughout Cook, DuPage, Lake, and Will counties. City-and-service-specific pages cover individual neighborhoods and suburbs in more detail, this page covers the full scope of what odor removal and deodorization involves regardless of location.
 
-If you're dealing with a persistent smell that's come back after a previous treatment, or an odor that appeared after a fire, flood, or sewage event, call (877) 379-2767. Dry Bros will identify the source, not just treat the air.
+If you're dealing with a persistent smell that's come back after a previous treatment, or an odor that appeared after a fire, flood, or sewage event, call us now. Dry Bros will identify the source, not just treat the air.

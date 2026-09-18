@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Fire Damage Restoration in Berwyn, IL | Dry Bros Water & Fire Restoration"
 h1: "Fire Damage Restoration in Berwyn"
-meta_description: "Fire damage restoration in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Fire damage restoration in Berwyn, IL. Insurance billing accepted. Call us now."
 primary_keyword: "fire damage restoration berwyn"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -54,4 +54,4 @@ If your policy includes additional living expense (ALE) coverage, we can help yo
 
 Berwyn's brick bungalows often have unfinished basements with exposed wood floor joists directly below the first floor, a construction detail that matters after a kitchen or first-floor fire. Suppression water pools in the basement and soaks those joists from below while the floor above dries from the top. Restoration crews who don't check the basement moisture readings after a first-floor fire routinely miss this, and the joists stay wet long enough to develop mold before anyone notices. On Berwyn properties, we treat the basement as part of the fire loss scope even when the fire itself never reached it.
 
-If you're in Berwyn and dealing with fire or smoke damage right now, call Dry Bros Water & Fire Restoration at (877) 379-2767. We'll assess the property, walk you through what needs to happen, and get the work moving.
+If you're in Berwyn and dealing with fire or smoke damage right now, call Dry Bros Water & Fire Restoration now. We'll assess the property, walk you through what needs to happen, and get the work moving.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Smoke Damage Restoration in Evanston, IL | Dry Bros Water & Fire Restoration"
 h1: "Smoke Damage Restoration in Evanston"
-meta_description: "Smoke damage restoration in Evanston, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Smoke damage restoration in Evanston, IL. Insurance billing accepted. Call us now."
 primary_keyword: "smoke damage restoration evanston"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,7 +20,7 @@ state: "IL"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
-Evanston's dense mix of century-old brick two-flats, Victorian-era single-families, and mid-rise condominiums means a kitchen fire or electrical fault doesn't just scorch the room where it starts, smoke migrates through balloon-frame wall cavities, settles into plaster, and works its way into shared HVAC chases before the fire department has packed up the hose. If you're dealing with smoke residue in an Evanston home right now, the clock on secondary damage is already running. Call Dry Bros Water & Fire Restoration at (877) 379-2767.
+Evanston's dense mix of century-old brick two-flats, Victorian-era single-families, and mid-rise condominiums means a kitchen fire or electrical fault doesn't just scorch the room where it starts, smoke migrates through balloon-frame wall cavities, settles into plaster, and works its way into shared HVAC chases before the fire department has packed up the hose. If you're dealing with smoke residue in an Evanston home right now, the clock on secondary damage is already running. Call Dry Bros Water & Fire Restoration now.
 
 ## Why Evanston Properties See Smoke Damage Differently
 
@@ -52,4 +52,4 @@ For Evanston condo owners, the picture is more complicated. Depending on your bu
 
 In Evanston's older neighborhoods, many homes still have original cast-iron radiator systems with decades of paint layers on the radiator fins. After a fire, those fins trap soot in ways that standard wiping won't address, and when the heat comes back on in fall, the radiators essentially bake the residue into the room air all over again. It's a detail that gets missed on a surface-level walkthrough but shows up unmistakably the first cold night of the season. Thorough smoke damage restoration in these homes includes the radiators, not just the walls and ceilings.
 
-If you're in an Evanston home with original steam heat and you've had a fire, even a small one, make sure your restoration team accounts for the heating system before closing out the job. Call us at (877) 379-2767 to schedule an assessment that covers the full scope of how smoke moves through your specific structure.
+If you're in an Evanston home with original steam heat and you've had a fire, even a small one, make sure your restoration team accounts for the heating system before closing out the job. Call us now to schedule an assessment that covers the full scope of how smoke moves through your specific structure.

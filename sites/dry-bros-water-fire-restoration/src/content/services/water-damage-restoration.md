@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Water Damage Restoration in Chicago | Dry Bros Water & Fire Restoration"
 h1: "Water Damage Restoration in Chicago"
-meta_description: "Water damage restoration in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Water damage restoration in Chicago and surrounding areas. Insurance billing accepted. Call us now."
 primary_keyword: "water damage restoration chicago"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -70,4 +70,4 @@ Chicago's climate creates a predictable calendar of water damage events. Freeze-
 
 Dry Bros Water & Fire Restoration serves Chicago and the surrounding region, including communities throughout Cook, DuPage, Lake, and Will counties. Individual service-area pages cover specific cities and neighborhoods, if you're outside Chicago proper, check those pages for local details or call us directly.
 
-If you're standing in a wet room right now, the most useful next step is a moisture assessment, not a general estimate, but a mapped inspection that shows exactly where the water went and what it will take to dry it out. Call Dry Bros Water & Fire Restoration at (877) 379-2767 to schedule your moisture assessment and get a written scope before any work begins.
+If you're standing in a wet room right now, the most useful next step is a moisture assessment, not a general estimate, but a mapped inspection that shows exactly where the water went and what it will take to dry it out. Call Dry Bros Water & Fire Restoration now to schedule your moisture assessment and get a written scope before any work begins.

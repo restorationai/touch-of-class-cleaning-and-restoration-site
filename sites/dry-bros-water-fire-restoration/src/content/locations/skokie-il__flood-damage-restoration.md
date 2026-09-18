@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Flood Damage Restoration in Skokie, IL | Dry Bros Water & Fire Restoration"
 h1: "Flood Damage Restoration in Skokie"
-meta_description: "Flood damage restoration in Skokie, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Flood damage restoration in Skokie, IL. Insurance billing accepted. Call us now."
 primary_keyword: "flood damage restoration skokie"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -54,4 +54,4 @@ We document losses thoroughly: photos, moisture readings, affected material inve
 
 Skokie's postwar ranch and split-level homes were often built with a construction detail that surprises homeowners during flood events: the subfloor extends under the finished drywall at the base of basement walls, and water that appears to stop at the wall face has frequently traveled laterally under the floor. We probe and meter along the full perimeter of flooded spaces, not just the obvious wet zone, because missing that lateral migration means leaving moisture in the structure that will produce odor and mold weeks after the visible damage appears dry.
 
-If you're dealing with flood damage in Skokie, call Dry Bros Water & Fire Restoration at **(877) 379-2767**. We'll assess the full scope of the loss, walk you through the process, and get drying equipment in place before the damage compounds further.
+If you're dealing with flood damage in Skokie, call Dry Bros Water & Fire Restoration at **call us now**. We'll assess the full scope of the loss, walk you through the process, and get drying equipment in place before the damage compounds further.

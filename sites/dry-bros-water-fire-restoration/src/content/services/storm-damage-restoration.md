@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Storm Damage Restoration in Chicago | Dry Bros Water & Fire Restoration"
 h1: "Storm Damage Restoration in Chicago"
-meta_description: "Storm damage restoration in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Storm damage restoration in Chicago and surrounding areas. Insurance billing accepted. Call us now."
 primary_keyword: "storm damage restoration chicago"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -75,4 +75,4 @@ Older Chicago neighborhoods, Bridgeport, Beverly, Avondale, and similar areas wi
 
 Dry Bros serves Chicago and the surrounding region, including communities throughout Cook, DuPage, Lake, and Will counties. The city-specific pages for neighborhoods and suburbs link back here, if you're in the metro area and dealing with storm damage, you're in the service area.
 
-If you're looking at a damaged roof, standing water in a basement, or a tree through a wall, call **(877) 379-2767** to start the triage process and get a written scope before any work begins.
+If you're looking at a damaged roof, standing water in a basement, or a tree through a wall, call **call us now** to start the triage process and get a written scope before any work begins.

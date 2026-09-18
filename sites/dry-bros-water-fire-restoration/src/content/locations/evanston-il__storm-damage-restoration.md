@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Storm Damage Restoration in Evanston, IL | Dry Bros Water & Fire Restoration"
 h1: "Storm Damage Restoration in Evanston"
-meta_description: "Storm damage restoration in Evanston, IL. Insurance billing accepted. Call (877) 379-2767."
+meta_description: "Storm damage restoration in Evanston, IL. Insurance billing accepted. Call us now."
 primary_keyword: "storm damage restoration evanston"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -48,4 +48,4 @@ Evanston also has a significant stock of multi-unit buildings and condominiums, 
 
 In Evanston's older neighborhoods, many homes still have original clay tile or cast-iron drain lines running from the roof downspouts into the municipal combined sewer system. During a major storm event, that system surcharges, pressure backs up through the very drains designed to carry water away, and basements flood from below rather than from above. If you're seeing water coming up through a floor drain after a storm, that's a sewer backup event, not a foundation leak, and it carries different restoration protocols and different insurance triggers than a standard storm loss. Knowing which type of event you're dealing with shapes everything that comes next.
 
-If a storm has left your Evanston property exposed, call Dry Bros at (877) 379-2767. The sooner the building envelope is secured and moisture mapping begins, the smaller the final scope of damage, and the smoother the insurance process.
+If a storm has left your Evanston property exposed, call Dry Bros now. The sooner the building envelope is secured and moisture mapping begins, the smaller the final scope of damage, and the smoother the insurance process.
