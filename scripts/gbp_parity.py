@@ -249,15 +249,20 @@ def service_parity(slug: str, cid: str, terms: list[str], apply: bool) -> dict:
         return out
     existing = _sb("GET", f"/rest/v1/marketing_page_requests?company_id=eq.{cid}"
                    "&select=service,status") or []
-    have = {_norm(r.get("service", "")) for r in existing
-            if r.get("status") in ("queued", "building", "built", "dismissed")}
+    # ANY existing row blocks a re-insert: the table is unique on
+    # (company_id, service), and a row in a status outside the old filter
+    # 409'd the whole client on the first fleet outing (Arch 2026-09-18).
+    have = {_norm(r.get("service", "")) for r in existing}
     for svc in gbp_no_page[:5]:  # cap per night — the drain builds+deploys each
         if _norm(svc) in have:
             continue
-        _sb("POST", "/rest/v1/marketing_page_requests",
-            {"company_id": cid, "service": svc, "status": "queued"},
-            prefer="return=minimal")
-        out["pages_queued"] += 1
+        try:
+            _sb("POST", "/rest/v1/marketing_page_requests",
+                {"company_id": cid, "service": svc, "status": "queued"},
+                prefer="return=minimal")
+            out["pages_queued"] += 1
+        except Exception as e:  # noqa: BLE001 — one dup must not kill the client
+            print(f"    page queue skip ({svc}): {str(e)[:80]}")
     sugg = _sb("GET", f"/rest/v1/marketing_gbp_suggestions?company_id=eq.{cid}"
                "&item_type=eq.service&select=item,status") or []
     known = {_norm(s["item"]) for s in sugg}
