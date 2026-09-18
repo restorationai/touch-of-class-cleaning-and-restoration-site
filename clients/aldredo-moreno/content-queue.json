@@ -153,7 +153,7 @@
     },
     {
       "id": "2026-09-15-water-mitigation-midland",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-15T14:24:35Z",
       "priority": 1,
       "prioritized": true,
@@ -163,7 +163,29 @@
       "intent": "commercial",
       "target_word_count": 1400,
       "city_anchor": "midland-tx",
-      "source": "gameplan-2026-09-4 (dev-agent)"
+      "source": "gameplan-2026-09-4 (dev-agent)",
+      "written_at": "2026-09-18T11:17:04Z",
+      "post_url": "https://None/blog/water-mitigation-midland/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/water-mitigation-midland.md",
+          "part": "body",
+          "family": "service-scope",
+          "severity": "review",
+          "matched": "mold remediation",
+          "context": "$4,000 mitigation turns into a $25,000 mold remediation six weeks later. **Step 1: Assessment",
+          "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, storm-damage-restoration, air-duct-cleaning, water-cleanup, carpet-cleaning"
+        },
+        {
+          "file": "src/content/blog/water-mitigation-midland.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "riage and restoration as surgery. The [IICRC S500 Standard for Professional Water Da",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
     }
   ]
 }
