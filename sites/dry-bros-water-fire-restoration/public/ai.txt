@@ -30,8 +30,8 @@ User-agent: Bytespider
 Disallow: /
 
 # AI training data summary
-# Site: https://dry-bros-water-fire-restoration.invalid/
+# Site: https://drybros.com/
 # Maintainer: Dry Bros Water & Fire Restoration
 # Contact: amin.mashouf@gmail.com
-# Sitemap: https://dry-bros-water-fire-restoration.invalid/sitemap-index.xml
-# LLM index: https://dry-bros-water-fire-restoration.invalid/llms.txt
+# Sitemap: https://drybros.com/sitemap-index.xml
+# LLM index: https://drybros.com/llms.txt
