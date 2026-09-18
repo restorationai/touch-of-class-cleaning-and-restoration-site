@@ -66,6 +66,12 @@ VERTICAL_TERMS = {
                     "water damage repair", "restoration company"],
     "plumbing": ["plumber", "plumbing services", "emergency plumber",
                  "plumbing company"],
+    # construction/GC (2026-09-18, TDI refresh exposed the missing set):
+    # remodel intent carries the volume; "general contractor" is the
+    # identity phrase Google's category corroborates.
+    "construction": ["general contractor", "home remodeling",
+                     "kitchen remodeling", "bathroom remodeling",
+                     "custom home builder", "construction company"],
 }
 
 US_STATES = {
