@@ -348,7 +348,7 @@
     },
     {
       "id": "2026-07-30-what-does-flood-insurance-cover",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-07-30T18:15:58Z",
       "written_at": null,
       "post_url": null,
@@ -382,8 +382,7 @@
         "https://www.floodsmart.gov/what-covered",
         "https://nj.gov/dobi/division_consumers/insurance/homeowner.htm"
       ],
-      "notes": "Highest-volume uncovered informational in the seed family. NJ angle is strong: standard homeowners policies exclude flood, and Ida (September 2021) is still the reference event across Cranford, Springfield, Elizabeth and Union. Lead with the covered-vs-excluded table, then the basement-contents limitation (NFIP pays very little below grade), then the 30-day waiting period. Do not promise coverage outcomes; point readers to their declarations page.",
-      "banked_at": "2026-09-17T22:13:26.025742+00:00"
+      "notes": "Highest-volume uncovered informational in the seed family. NJ angle is strong: standard homeowners policies exclude flood, and Ida (September 2021) is still the reference event across Cranford, Springfield, Elizabeth and Union. Lead with the covered-vs-excluded table, then the basement-contents limitation (NFIP pays very little below grade), then the 30-day waiting period. Do not promise coverage outcomes; point readers to their declarations page."
     },
     {
       "id": "2026-07-30-does-homeowners-insurance-cover-black-mold",

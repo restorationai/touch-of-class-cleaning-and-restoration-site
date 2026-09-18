@@ -1050,7 +1050,7 @@
     },
     {
       "id": "2026-09-10-homeowners-insurance-storm-damage",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-10T20:25:00Z",
       "written_at": null,
       "post_url": null,
@@ -1085,8 +1085,7 @@
         "https://www.ncdoi.gov/documents/consumer/publications/after-disaster-brochure/open",
         "https://www.floodsmart.gov/"
       ],
-      "notes": "KD 22 at 590 a month, and the whole term is decision-stage: people read this before they call anyone. Do NOT rewrite the existing water damage insurance post: the storm angle is the separate-perils problem. Wind driven rain through a damaged roof is usually covered, rising surface water is not and needs a separate NFIP flood policy, and NC coastal and windstorm deductibles are a percentage of dwelling value rather than a flat number. Cite NC DOI, not a carrier blog. Link across to /blog/does-homeowners-insurance-cover-water-damage/ for the non-storm causes.",
-      "banked_at": "2026-09-17T22:13:26.019187+00:00"
+      "notes": "KD 22 at 590 a month, and the whole term is decision-stage: people read this before they call anyone. Do NOT rewrite the existing water damage insurance post: the storm angle is the separate-perils problem. Wind driven rain through a damaged roof is usually covered, rising surface water is not and needs a separate NFIP flood policy, and NC coastal and windstorm deductibles are a percentage of dwelling value rather than a flat number. Cite NC DOI, not a carrier blog. Link across to /blog/does-homeowners-insurance-cover-water-damage/ for the non-storm causes."
     },
     {
       "id": "2026-09-10-storm-damage-insurance-claim",

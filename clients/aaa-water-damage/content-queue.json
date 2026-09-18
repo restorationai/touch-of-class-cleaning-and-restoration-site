@@ -469,7 +469,7 @@
     },
     {
       "id": "2026-08-17-mold-remediation-oahu",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-17T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -503,8 +503,7 @@
       ],
       "notes": "Island-wide gap that mirrors the one the water damage run found: the url-plan has mold-remediation pages for all 13 cities but nothing at Oahu or Hawaii scope, so 'mold remediation oahu' (170/mo, KD 12) and 'mold remediation hawaii' (50/mo, KD 16) have no target. Frame around what makes island mold different: year-round trade-wind humidity that collapses the 24-48 hour growth window, single-wall construction in Kaimuki, Aina Haina and Kailua that wicks water into cavities, the Koolau windward face making Kaneohe the wettest market served, and salt-air corrosion seeding slow leaks. Route readers out to the per-city mold pages. Truth gate: 'over 25 years' phrasing only, no founding year, no license or IICRC claims, no commercial client name-drops.",
       "source": "keyword-researcher",
-      "seed": "mold remediation",
-      "banked_at": "2026-09-17T22:13:26.007946+00:00"
+      "seed": "mold remediation"
     },
     {
       "id": "2026-08-26-flood-insurance-hawaii",

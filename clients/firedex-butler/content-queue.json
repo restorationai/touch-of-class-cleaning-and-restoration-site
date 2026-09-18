@@ -264,7 +264,7 @@
     },
     {
       "id": "2026-08-26-water-damage-restoration-cost",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-26T23:55:00Z",
       "written_at": null,
       "post_url": null,
@@ -301,8 +301,7 @@
       ],
       "notes": "Highest-CPC family in the seed (mitigation CPCs run $30-$118 in this market), so the organic version intercepts spend the client would otherwise pay for. Structure by cost driver: water category (1/2/3), square footage, class of drying, equipment days, and whether reconstruction follows mitigation. Give honest ranges and say plainly that most of it is an insurance claim, not out of pocket. No fabricated price tables and no fake calculator: publish ranges with the drivers that move them.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration",
-      "banked_at": "2026-09-17T22:13:26.017467+00:00"
+      "seed": "water damage restoration"
     },
     {
       "id": "2026-08-26-water-in-basement-after-heavy-rain",

@@ -735,7 +735,7 @@
     },
     {
       "id": "2026-08-27-storm-damage-to-roof",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-27T05:22:00Z",
       "written_at": null,
       "post_url": null,
@@ -769,8 +769,7 @@
         "https://www.iicrc.org/page/IICRCS500",
         "https://www.fema.gov/flood-maps"
       ],
-      "notes": "Highest CPC term in the storm family (about 55 USD), which means roofers and restorers pay real money for it. Lead with the 24 to 48 hour window before roof water intrusion becomes ceiling and drywall damage. Kern County angle: winter atmospheric river rain plus Bakersfield wind events, not hail. Link the tarping how-to post once it is live.",
-      "banked_at": "2026-09-17T22:13:26.024031+00:00"
+      "notes": "Highest CPC term in the storm family (about 55 USD), which means roofers and restorers pay real money for it. Lead with the 24 to 48 hour window before roof water intrusion becomes ceiling and drywall damage. Kern County angle: winter atmospheric river rain plus Bakersfield wind events, not hail. Link the tarping how-to post once it is live."
     },
     {
       "id": "2026-08-27-tree-fell-on-house-what-to-do",

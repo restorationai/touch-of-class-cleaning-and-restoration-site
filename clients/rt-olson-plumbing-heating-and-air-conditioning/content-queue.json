@@ -188,7 +188,7 @@
     },
     {
       "id": "2026-08-28-how-much-does-a-plumber-cost",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-28T01:35:00Z",
       "written_at": null,
       "post_url": null,
@@ -227,8 +227,7 @@
         "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/"
       ],
       "notes": "Cost hub for the whole seed family: absorbs the per-hour cluster (1,600/mo), unclog-drain (480/mo) and toilet-install (1,000/mo) so those stay banked instead of becoming thin standalone posts. Lead with a job-by-job price table (service call, drain clear, hydro jet, camera inspection, leak detection, 50 gal gas water heater, tankless, slab leak reroute, trenchless lining): those are the exact rows ChatGPT is already publishing for the Corona and Riverside County market. Present ranges as market ranges, never as RT Olson's prices, and say plainly what moves a number (access, permits, materials, after-hours).",
-      "source": "rank-ai-keyword-researcher",
-      "banked_at": "2026-09-17T22:13:26.027356+00:00"
+      "source": "rank-ai-keyword-researcher"
     },
     {
       "id": "2026-08-28-should-i-tip-a-plumber",

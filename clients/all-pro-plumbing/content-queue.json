@@ -516,7 +516,7 @@
     },
     {
       "id": "2026-08-17-how-much-does-a-plumber-cost-to-fix-a-pipe",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-17T17:38:35Z",
       "written_at": null,
       "post_url": null,
@@ -554,8 +554,7 @@
         "https://www.epa.gov/watersense/fix-leak-week"
       ],
       "notes": "Absorbs the sibling term 'how much does a plumber cost to fix a leak' (90/mo, KD 16), which is parked at priority 2 in the bank rather than queued so the two do not cannibalise. Price by three axes: pipe material (galvanized, copper, PEX, cast iron), location (accessible, in-wall, under slab), and access cost, because access is usually the bigger line item. Two strong local hooks: pre-1970 homes in Oleander, Westchester and East Bakersfield still run galvanized supply, and Tehachapi at 4,000 ft is the one service-area city that actually freezes and bursts pipes. Include the repair-vs-repipe decision point. LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor) and link the CSLB lookup. SCOPE GATE: stay on stopping the water and fixing the pipe. Do not mention mold remediation, structural drying or reconstruction (restoration vertical, sister company ProRestoration Services).",
-      "source": "rank-ai-keyword-researcher",
-      "banked_at": "2026-09-17T22:13:26.009999+00:00"
+      "source": "rank-ai-keyword-researcher"
     },
     {
       "id": "2026-08-17-do-plumbers-give-free-estimates",

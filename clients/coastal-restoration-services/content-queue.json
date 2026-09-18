@@ -715,7 +715,7 @@
     },
     {
       "id": "2026-08-26-signs-of-hidden-water-damage-behind-walls",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-26T14:20:00Z",
       "written_at": null,
       "post_url": null,
@@ -750,8 +750,7 @@
       ],
       "notes": "/blog/signs-of-hidden-mold/ covers hidden mold, which is the downstream problem, not the leak itself. Write this as the upstream piece and interlink both ways. Central Coast angle: slab-on-grade construction is common here, so cover slab leaks and the warm-floor tell.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration",
-      "banked_at": "2026-09-17T22:13:26.011929+00:00"
+      "seed": "water damage restoration"
     },
     {
       "id": "2026-09-15-coastal-restoration",

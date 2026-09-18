@@ -800,7 +800,7 @@
     },
     {
       "id": "2026-08-27-does-renters-insurance-cover-basement-flooding",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-27T02:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -832,8 +832,7 @@
         "https://www.floodsmart.gov/",
         "https://www.iii.org/article/does-my-homeowners-insurance-cover-water-damage"
       ],
-      "notes": "Highest-volume gap from this seed (720/mo, KD 12) and genuinely uncovered: both existing insurance posts address homeowners policies, not renters. Draw the line clearly between contents coverage (tenant policy) and structure coverage (landlord policy), and note the NFIP flood exclusion. Do not promise coverage outcomes.",
-      "banked_at": "2026-09-17T22:13:26.018240+00:00"
+      "notes": "Highest-volume gap from this seed (720/mo, KD 12) and genuinely uncovered: both existing insurance posts address homeowners policies, not renters. Draw the line clearly between contents coverage (tenant policy) and structure coverage (landlord policy), and note the NFIP flood exclusion. Do not promise coverage outcomes."
     },
     {
       "id": "2026-08-27-basement-flooded-who-to-call",

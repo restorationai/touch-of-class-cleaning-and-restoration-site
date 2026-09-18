@@ -284,7 +284,7 @@
     },
     {
       "id": "2026-08-26-what-is-water-damage-restoration",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-26T14:05:00Z",
       "written_at": null,
       "post_url": null,
@@ -317,8 +317,7 @@
         "https://www.iicrc.org/page/IICRCS500"
       ],
       "notes": "210/mo, KD 3, definitional query with no blog covering it. Prime AI-retrieval passage: answer the definition in the first 40 words, then expand. The mitigation vs restoration distinction is the differentiator competitors skip.",
-      "source": "keyword-researcher",
-      "banked_at": "2026-09-17T22:13:26.011407+00:00"
+      "source": "keyword-researcher"
     },
     {
       "id": "2026-08-26-how-soon-does-mold-grow-after-water-damage",

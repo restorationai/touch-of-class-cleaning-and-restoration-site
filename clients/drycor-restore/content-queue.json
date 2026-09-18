@@ -212,7 +212,7 @@
     },
     {
       "id": "2026-09-03-how-to-fix-water-damage-on-ceiling",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-03T20:29:00Z",
       "written_at": null,
       "post_url": null,
@@ -246,8 +246,7 @@
         "https://www.iicrc.org/page/IICRCS500"
       ],
       "notes": "KD 0 at 1000/mo: the single easiest win in this fan-out. Cover find-the-source first (roof leak vs supply line vs HVAC condensate, all three common in Hillsborough County), then a sagging-ceiling safety warning, then DIY-versus-pro decision criteria. Tie the mold section back to the mold remediation page.",
-      "source": "keyword-researcher",
-      "banked_at": "2026-09-17T22:13:26.016773+00:00"
+      "source": "keyword-researcher"
     },
     {
       "id": "2026-09-03-water-damage-restoration-process",
