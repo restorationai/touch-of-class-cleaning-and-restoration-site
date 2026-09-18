@@ -1,0 +1,33 @@
+{
+ "domain": "drybros.com",
+ "captured_at": "2026-09-18T18:31:26+00:00",
+ "authoritative": {
+  "ns": [
+   "ns53.domaincontrol.com",
+   "ns54.domaincontrol.com"
+  ],
+  "mx": [],
+  "apex_txt": [
+   "v=spf1 include:secureserver.net ~all"
+  ],
+  "dmarc_txt": [
+   "v=DMARC1; p=quarantine; adkim=r; aspf=r; rua=mailto:dmarc_rua@onsecureserver.net;"
+  ],
+  "dkim": {},
+  "apex_a": [
+   "160.153.0.27"
+  ],
+  "apex_cname": [],
+  "www_cname": [
+   "drybros.com"
+  ]
+ },
+ "cf_zone": {
+  "zone_id": "203e30ae4163be4dc4ebba8d96b7d951",
+  "name_servers": [
+   "amos.ns.cloudflare.com",
+   "anastasia.ns.cloudflare.com"
+  ],
+  "records": []
+ }
+}
