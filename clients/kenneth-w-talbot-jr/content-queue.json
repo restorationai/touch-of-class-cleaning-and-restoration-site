@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-07-fire-smoke-restoration",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-07T15:56:45Z",
       "priority": 1,
       "content_type": "target_term",
@@ -11,7 +11,20 @@
       "intent": "commercial",
       "target_word_count": 1400,
       "city_anchor": "defuniak-springs-fl",
-      "source": "app target-term (onboarding-backfill)"
+      "source": "app target-term (onboarding-backfill)",
+      "written_at": "2026-09-18T10:43:07Z",
+      "post_url": "https://veteransremediation.com/blog/fire-smoke-restoration/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/fire-smoke-restoration.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "en the pacemaker. Structural drying to [IICRC S500](https://www.iicrc.org) standards",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
     },
     {
       "id": "2026-09-07-storm-wind-damage-restoration",
