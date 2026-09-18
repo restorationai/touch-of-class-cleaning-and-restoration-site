@@ -353,6 +353,11 @@
       "city": "Hickam Housing",
       "state": "HI",
       "slug": "hickam-housing-hi"
+    },
+    {
+      "city": "East Honolulu",
+      "state": "HI",
+      "slug": "east-honolulu-hi"
     }
   ],
   "brand": {

@@ -93,6 +93,11 @@
       "city": "Flensburg",
       "state": "MN",
       "slug": "flensburg-mn"
+    },
+    {
+      "city": "Randall",
+      "state": "MN",
+      "slug": "randall-mn"
     }
   ],
   "template": "restoration",

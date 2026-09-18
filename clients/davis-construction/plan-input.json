@@ -99,6 +99,11 @@
       "city": "Redstone Arsenal",
       "state": "AL",
       "slug": "redstone-arsenal-al"
+    },
+    {
+      "city": "Meridianville",
+      "state": "AL",
+      "slug": "meridianville-al"
     }
   ],
   "brand": {

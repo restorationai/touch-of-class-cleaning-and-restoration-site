@@ -240,6 +240,32 @@
       "triaged_at": "2026-08-31T17:05:30Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipMOgD-xHr3gRbqOElwFL_XD-E4-UAiLrwaVFXfD": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMOgD-xHr3gRbqOElwFL_XD-E4-UAiLrwaVFXfD.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783527517866/job-photos/posted/gbp-AF1QipMOgD-xHr3gRbqOElwFL_XD-E4-UAiLrwaVFXfD.jpg",
+      "width": 640,
+      "height": 640,
+      "bytes": 535471,
+      "sha1": "ac868526fc5fe061",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician in uniform scrubbing soot-covered wall with vacuum",
+      "quality": 88,
+      "slots": {
+        "hero": 55,
+        "team": 62,
+        "services": 88
+      },
+      "service_slugs": [
+        "fire-damage-restoration",
+        "smoke-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Sharp, well-lit action shot clearly showing fire/smoke remediation work in progress.",
+      "triaged_at": "2026-09-18T17:38:42Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipMPOGxCwKooeYBBOTkNG6KvJGl7X0xtp-MEw7fT": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMPOGxCwKooeYBBOTkNG6KvJGl7X0xtp-MEw7fT.jpg",
@@ -263,6 +289,33 @@
       "flags": [],
       "reason": "Real branded vehicle on job site; slightly off-angle and cluttered foreground.",
       "triaged_at": "2026-08-31T17:05:30Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMT7reP5G43TQY7TvIsS7cnWAU0JCPGnJ6525UD": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMT7reP5G43TQY7TvIsS7cnWAU0JCPGnJ6525UD.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783527517866/job-photos/posted/gbp-AF1QipMT7reP5G43TQY7TvIsS7cnWAU0JCPGnJ6525UD.jpg",
+      "width": 640,
+      "height": 640,
+      "bytes": 464883,
+      "sha1": "86675c625a4fc42a",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician in uniform catching water from damaged leaking ceiling",
+      "quality": 87,
+      "slots": {
+        "hero": 50,
+        "team": 60,
+        "services": 90
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup",
+        "burst-pipe-repair"
+      ],
+      "flags": [],
+      "reason": "Vivid action shot of water intrusion response; excellent services card image.",
+      "triaged_at": "2026-09-18T17:38:42Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipMTGty-B3nzi8hgMlsgp6LaH6gubCHqcTZ_AoPI": {
@@ -1848,6 +1901,32 @@
       "triaged_at": "2026-08-31T17:07:39Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipOvbRphL-4s4s2HBcHNSAUVJmUE73jUHrqHEFok": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOvbRphL-4s4s2HBcHNSAUVJmUE73jUHrqHEFok.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783527517866/job-photos/posted/gbp-AF1QipOvbRphL-4s4s2HBcHNSAUVJmUE73jUHrqHEFok.jpg",
+      "width": 640,
+      "height": 640,
+      "bytes": 508857,
+      "sha1": "cd997522a7fb09cd",
+      "exif": {},
+      "category": "crew",
+      "subject": "Masked technician inspecting interior of large HVAC duct",
+      "quality": 82,
+      "slots": {
+        "hero": 30,
+        "team": 55,
+        "services": 75
+      },
+      "service_slugs": [
+        "mold-inspection-testing",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Clear uniform and task visible; tight dark crop limits hero use but strong for services.",
+      "triaged_at": "2026-09-18T17:38:42Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipOx4iKbTJna3yRchM4MUpXb4nbx7ILcl8UTY0or": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipOx4iKbTJna3yRchM4MUpXb4nbx7ILcl8UTY0or.jpg",
@@ -2127,6 +2206,33 @@
       "triaged_at": "2026-08-31T17:08:10Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipPL5EVHdJpU3Spb64wmmfbc02EGGMre4aT9srJT": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPL5EVHdJpU3Spb64wmmfbc02EGGMre4aT9srJT.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783527517866/job-photos/posted/gbp-AF1QipPL5EVHdJpU3Spb64wmmfbc02EGGMre4aT9srJT.jpg",
+      "width": 640,
+      "height": 640,
+      "bytes": 550883,
+      "sha1": "61c79a609b79de1f",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician deploying air movers and plastic sheeting in living room",
+      "quality": 90,
+      "slots": {
+        "hero": 70,
+        "team": 65,
+        "services": 92
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup",
+        "flood-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Best-composed shot; branded equipment, uniform, and drying setup all clearly visible.",
+      "triaged_at": "2026-09-18T17:38:42Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipPRez6Qrva30t-9iE-1LM7IpaTjGk7ftvLz9dWU": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipPRez6Qrva30t-9iE-1LM7IpaTjGk7ftvLz9dWU.jpg",
@@ -2329,6 +2435,31 @@
       "reason": "Head cropped out, cluttered interior; task readable but composition is poor.",
       "triaged_at": "2026-08-31T17:08:21Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPzPSzIX5dvZD638-rIwRrEfldtlEourOh-_1sX": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPzPSzIX5dvZD638-rIwRrEfldtlEourOh-_1sX.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783527517866/job-photos/posted/gbp-AF1QipPzPSzIX5dvZD638-rIwRrEfldtlEourOh-_1sX.jpg",
+      "width": 640,
+      "height": 640,
+      "bytes": 451136,
+      "sha1": "e445615837f66b63",
+      "exif": {},
+      "category": "crew",
+      "subject": "Smiling uniformed technician holding insurance claim form in office",
+      "quality": 80,
+      "slots": {
+        "hero": 35,
+        "team": 78,
+        "services": 45
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Good team/about-us image; not tied to a specific service; portrait crop limits hero use.",
+      "triaged_at": "2026-09-18T17:38:42Z",
+      "triage_model": "claude-sonnet-4-6"
     }
   },
   "slots": {
@@ -2377,5 +2508,5 @@
       "note": "client-correction override (Michael 2026-08-31): real branded van; below auto hero gate on GBP resolution only"
     }
   },
-  "triaged_at": "2026-09-02T18:59:08Z"
+  "triaged_at": "2026-09-18T17:38:42Z"
 }

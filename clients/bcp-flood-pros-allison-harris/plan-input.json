@@ -90,6 +90,11 @@
       "city": "Lindon",
       "state": "UT",
       "slug": "lindon-ut"
+    },
+    {
+      "city": "Alpine",
+      "state": "UT",
+      "slug": "alpine-ut"
     }
   ],
   "template": "restoration",

@@ -104,6 +104,11 @@
       "city": "Bedford Park",
       "state": "IL",
       "slug": "bedford-park-il"
+    },
+    {
+      "city": "Lincolnwood",
+      "state": "IL",
+      "slug": "lincolnwood-il"
     }
   ],
   "template": "restoration",

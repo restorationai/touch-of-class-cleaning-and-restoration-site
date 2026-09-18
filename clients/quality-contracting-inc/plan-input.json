@@ -103,6 +103,11 @@
       "city": "Whitinsville",
       "state": "MA",
       "slug": "whitinsville-ma"
+    },
+    {
+      "city": "East Douglas",
+      "state": "MA",
+      "slug": "east-douglas-ma"
     }
   ],
   "service_radius_description": "Southern New England, with crews responding across a 50 mile radius of Auburn"

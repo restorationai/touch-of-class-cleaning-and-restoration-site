@@ -224,6 +224,11 @@
       "city": "Lamont",
       "state": "CA",
       "slug": "lamont-ca"
+    },
+    {
+      "city": "Tarina",
+      "state": "CA",
+      "slug": "tarina-ca"
     }
   ],
   "brand": {

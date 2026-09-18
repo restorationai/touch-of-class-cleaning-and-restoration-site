@@ -200,6 +200,11 @@
       "city": "Archer Lodge",
       "state": "NC",
       "slug": "archer-lodge-nc"
+    },
+    {
+      "city": "Lake Royale",
+      "state": "NC",
+      "slug": "lake-royale-nc"
     }
   ],
   "template": "restoration",

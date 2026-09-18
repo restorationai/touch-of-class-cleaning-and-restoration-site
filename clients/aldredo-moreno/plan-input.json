@@ -80,6 +80,11 @@
       "city": "Garden City",
       "state": "TX",
       "slug": "garden-city-tx"
+    },
+    {
+      "city": "Crane",
+      "state": "TX",
+      "slug": "crane-tx"
     }
   ],
   "template": "restoration",

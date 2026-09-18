@@ -404,6 +404,11 @@
       "city": "Des Moines",
       "state": "WA",
       "slug": "des-moines-wa"
+    },
+    {
+      "city": "Lakeland South",
+      "state": "WA",
+      "slug": "lakeland-south-wa"
     }
   ],
   "brand": {

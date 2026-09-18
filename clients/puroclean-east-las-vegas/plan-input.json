@@ -342,6 +342,11 @@
       "city": "Summerlin South",
       "state": "NV",
       "slug": "summerlin-south-nv"
+    },
+    {
+      "city": "Enterprise",
+      "state": "NV",
+      "slug": "enterprise-nv"
     }
   ]
 }

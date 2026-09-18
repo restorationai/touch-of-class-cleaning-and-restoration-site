@@ -272,6 +272,11 @@
       "city": "Franklin Park",
       "state": "PA",
       "slug": "franklin-park-pa"
+    },
+    {
+      "city": "Baden",
+      "state": "PA",
+      "slug": "baden-pa"
     }
   ],
   "brand": {

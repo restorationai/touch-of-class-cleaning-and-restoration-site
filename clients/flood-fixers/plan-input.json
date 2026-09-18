@@ -108,6 +108,11 @@
       "city": "Hidden Meadows",
       "state": "CA",
       "slug": "hidden-meadows-ca"
+    },
+    {
+      "city": "Bonsall",
+      "state": "CA",
+      "slug": "bonsall-ca"
     }
   ],
   "brand": {

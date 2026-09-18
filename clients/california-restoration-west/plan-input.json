@@ -93,6 +93,11 @@
       "city": "Oak View",
       "state": "CA",
       "slug": "oak-view-ca"
+    },
+    {
+      "city": "Somis",
+      "state": "CA",
+      "slug": "somis-ca"
     }
   ],
   "template": "restoration",

@@ -90,6 +90,11 @@
       "city": "Ponce de Leon",
       "state": "FL",
       "slug": "ponce-de-leon-fl"
+    },
+    {
+      "city": "Westville",
+      "state": "FL",
+      "slug": "westville-fl"
     }
   ],
   "template": "restoration",

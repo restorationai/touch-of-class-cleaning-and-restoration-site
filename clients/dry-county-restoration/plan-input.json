@@ -101,6 +101,11 @@
       "city": "Silverado",
       "state": "CA",
       "slug": "silverado-ca"
+    },
+    {
+      "city": "Jurupa Valley",
+      "state": "CA",
+      "slug": "jurupa-valley-ca"
     }
   ],
   "template": "restoration",

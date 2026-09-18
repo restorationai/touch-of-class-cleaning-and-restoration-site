@@ -103,6 +103,11 @@
       "city": "Highland",
       "state": "UT",
       "slug": "highland-ut"
+    },
+    {
+      "city": "Lindon",
+      "state": "UT",
+      "slug": "lindon-ut"
     }
   ],
   "brand": {

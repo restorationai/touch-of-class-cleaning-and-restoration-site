@@ -1413,6 +1413,11 @@
       "city": "Short Hills",
       "state": "NJ",
       "slug": "short-hills-nj"
+    },
+    {
+      "city": "Colonia",
+      "state": "NJ",
+      "slug": "colonia-nj"
     }
   ],
   "brand": {

@@ -188,6 +188,11 @@
       "city": "Steilacoom",
       "state": "WA",
       "slug": "steilacoom-wa"
+    },
+    {
+      "city": "North Fort Lewis",
+      "state": "WA",
+      "slug": "north-fort-lewis-wa"
     }
   ],
   "template": "restoration",

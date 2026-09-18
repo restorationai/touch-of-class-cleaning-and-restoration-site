@@ -168,6 +168,11 @@
       "city": "Elverta",
       "state": "CA",
       "slug": "elverta-ca"
+    },
+    {
+      "city": "McClellan Park",
+      "state": "CA",
+      "slug": "mcclellan-park-ca"
     }
   ],
   "template": "construction",

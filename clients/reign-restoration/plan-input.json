@@ -359,6 +359,11 @@
       "city": "Union Valley",
       "state": "TX",
       "slug": "union-valley-tx"
+    },
+    {
+      "city": "Josephine",
+      "state": "TX",
+      "slug": "josephine-tx"
     }
   ],
   "template": "restoration",
