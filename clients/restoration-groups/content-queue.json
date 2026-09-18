@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-14-who-to-call-for-water-damage-restoration-in-kenilworth-nj",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-14T20:22:58Z",
       "priority": 1,
       "prioritized": true,
@@ -27,7 +27,9 @@
         "water cleanup Kenilworth",
         "water removal Kenilworth"
       ],
-      "source": "best-of-seeder"
+      "source": "best-of-seeder",
+      "written_at": "2026-09-18T11:08:09Z",
+      "post_url": "https://therestorationgroup.com/blog/who-to-call-for-water-damage-restoration-in-kenilworth-nj/"
     },
     {
       "id": "2026-08-27-water-damage-restoration-cost-nj",
