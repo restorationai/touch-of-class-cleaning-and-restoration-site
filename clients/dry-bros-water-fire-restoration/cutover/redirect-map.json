@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T18:07:27+00:00",
+ "generated_at": "2026-09-18T18:08:20+00:00",
  "domain": "drybros.com",
  "routes": 131,
  "map": {
@@ -56,11 +56,11 @@
    "how": "claude"
   },
   "/drying-certificate": {
-   "target": "/certifications/",
+   "target": "/",
    "how": "claude"
   },
   "/emergency-water-removal-chicago": {
-   "target": "/services/water-damage-restoration/",
+   "target": "/services/water-cleanup/",
    "how": "claude"
   },
   "/evanston-water-damage-restoration": {
@@ -96,7 +96,7 @@
    "how": "claude"
   },
   "/insurance-claims": {
-   "target": "/blog/does-homeowners-insurance-cover-water-damage/",
+   "target": "/",
    "how": "claude"
   },
   "/kitchen-leak-water-damage-chicago": {
@@ -140,7 +140,7 @@
    "how": "claude"
   },
   "/reconstruction": {
-   "target": "/services/",
+   "target": "/",
    "how": "claude"
   },
   "/restaurant-water-damage-chicago": {
@@ -164,7 +164,7 @@
    "how": "claude"
   },
   "/stop-the-leak": {
-   "target": "/blog/burst-pipe-emergency-checklist/",
+   "target": "/services/water-damage-restoration/",
    "how": "claude"
   },
   "/storm-water-cleanup-chicago": {
