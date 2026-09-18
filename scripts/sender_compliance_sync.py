@@ -127,6 +127,23 @@ def main() -> int:
             print(f"  {name}: {r.get('compliance_status')} -> {status}"
                   f" ({ctype}{'; ' + reason if reason else ''})")
     print(f"sender compliance sync: {len(rows)} checked, {changed} status change(s)")
+    # A2P state machine advance (CRW pilot 2026-09-18): any client mid-chain
+    # gets its next step attempted — profile approval flows to trust bundle,
+    # brand, campaign, and finally compliance_status=approved, unattended.
+    import subprocess
+    mids = _sb("GET", "/rest/v1/company_phone_setup"
+               "?select=id,a2p_state&a2p_state=not.is.null") or []
+    for m in mids:
+        stg = (m.get("a2p_state") or {}).get("stage")
+        if stg in (None, "approved"):
+            continue
+        r2 = subprocess.run(
+            [sys.executable, str(ROOT / "scripts" / "a2p_provision.py"),
+             "--company", m["id"]],
+            capture_output=True, text=True, timeout=300)
+        tail = (r2.stdout or r2.stderr or "").strip().splitlines()
+        if tail:
+            print("  a2p:", tail[-1][:140])
     return 0
 
 
