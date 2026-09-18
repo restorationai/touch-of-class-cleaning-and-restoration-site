@@ -179,6 +179,13 @@ DAILY_JOBS = [
     # OUTCOME (sites up incl SSL, content/video cadence, GSC/GBP freshness,
     # worker alive, failed jobs). Built 2026-07-23 post-shipping-week.
     ("pulse", "14:45", [sys.executable, str(HERE / "systems_pulse.py")]),
+    # Sender verification truth, twice daily (Santino 2026-09-18: "in case
+    # they get accepted in the morning and we're ready to launch their
+    # campaign that same day") — morning + evening PT.
+    ("sender-compliance-am", "13:05",
+     [sys.executable, str(HERE / "sender_compliance_sync.py")]),
+    ("sender-compliance-pm", "21:05",
+     [sys.executable, str(HERE / "sender_compliance_sync.py")]),
 ]
 
 JOBS = [
