@@ -1,0 +1,159 @@
+{
+ "generated_at": "2026-09-18T18:29:38+00:00",
+ "domain": "drycountyrestoration.com",
+ "routes": 131,
+ "map": {
+  "/2025/04/16/does-homeowners-insurance-cover-mold": {
+   "target": "/blog/does-homeowners-insurance-cover-water-damage/",
+   "how": "claude"
+  },
+  "/2025/04/25/does-homeowners-insurance-cover-water-damage-repair-costs": {
+   "target": "/blog/does-homeowners-insurance-cover-water-damage/",
+   "how": "claude"
+  },
+  "/2025/06/03/does-homeowners-insurance-cover-restoration-costs": {
+   "target": "/blog/does-homeowners-insurance-cover-water-damage/",
+   "how": "claude"
+  },
+  "/404-2": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/author/chris": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/category/dry-county-restoration": {
+   "target": "/blog/",
+   "how": "claude"
+  },
+  "/disclaimer": {
+   "target": "/terms/",
+   "how": "claude"
+  },
+  "/jet-menu/default-mega-item-859": {
+   "target": "/emergency/",
+   "how": "claude"
+  },
+  "/jet-menu/elementor-mega-item-859": {
+   "target": "/emergency/",
+   "how": "claude"
+  },
+  "/news": {
+   "target": "/blog/",
+   "how": "heuristic"
+  },
+  "/photo-gallery": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/portfolio": {
+   "target": "/",
+   "how": "heuristic"
+  },
+  "/portfolio-category/services": {
+   "target": "/services/",
+   "how": "heuristic"
+  },
+  "/portfolio/bathroom-remodeling": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/portfolio/roof-leak-repair": {
+   "target": "/services/water-damage-restoration/",
+   "how": "claude"
+  },
+  "/portfolio/smoke-damage-restoration-services": {
+   "target": "/services/fire-damage-restoration/",
+   "how": "claude"
+  },
+  "/portfolio/water-cleanup-services": {
+   "target": "/services/water-damage-restoration/",
+   "how": "claude"
+  },
+  "/privacy-policy": {
+   "target": "/privacy/",
+   "how": "heuristic"
+  },
+  "/refund_returns": {
+   "target": "/terms/",
+   "how": "claude"
+  },
+  "/service-areas/austin-tx": {
+   "target": "/service-areas/",
+   "how": "claude"
+  },
+  "/service-areas/corona-ca": {
+   "target": "/service-areas/",
+   "how": "claude"
+  },
+  "/service-areas/fredericksburg-tx": {
+   "target": "/service-areas/",
+   "how": "claude"
+  },
+  "/service-areas/long-beach-ca": {
+   "target": "/service-areas/",
+   "how": "claude"
+  },
+  "/service-areas/new-braunfels-tx": {
+   "target": "/service-areas/",
+   "how": "claude"
+  },
+  "/service-areas/san-antonio-tx": {
+   "target": "/service-areas/",
+   "how": "claude"
+  },
+  "/service-areas/sugar-land-tx": {
+   "target": "/service-areas/",
+   "how": "claude"
+  },
+  "/service-areas/the-woodlands-tx": {
+   "target": "/service-areas/",
+   "how": "claude"
+  },
+  "/services-areas": {
+   "target": "/service-areas/",
+   "how": "claude"
+  },
+  "/services/bathroom-remodeling": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/services/leak-detection-services": {
+   "target": "/services/water-damage-restoration/",
+   "how": "claude"
+  },
+  "/services/roof-leak-repair": {
+   "target": "/services/water-damage-restoration/",
+   "how": "claude"
+  },
+  "/services/smoke-damage-restoration-services": {
+   "target": "/services/fire-damage-restoration/",
+   "how": "claude"
+  },
+  "/services/water-cleanup-services": {
+   "target": "/services/water-damage-restoration/",
+   "how": "claude"
+  },
+  "/services/water-damage-mitigation-restoration": {
+   "target": "/services/water-damage-restoration/",
+   "how": "claude"
+  },
+  "/state/california": {
+   "target": "/service-areas/",
+   "how": "claude"
+  },
+  "/state/texas": {
+   "target": "/service-areas/",
+   "how": "claude"
+  },
+  "/terms-and-conditions": {
+   "target": "/terms/",
+   "how": "heuristic"
+  },
+  "/web-components-not-pulish-this": {
+   "target": "/",
+   "how": "claude"
+  }
+ }
+}

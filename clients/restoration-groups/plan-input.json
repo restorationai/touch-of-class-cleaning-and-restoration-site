@@ -1418,6 +1418,11 @@
       "city": "Colonia",
       "state": "NJ",
       "slug": "colonia-nj"
+    },
+    {
+      "city": "New Providence",
+      "state": "NJ",
+      "slug": "new-providence-nj"
     }
   ],
   "brand": {

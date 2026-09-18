@@ -409,6 +409,11 @@
       "city": "Lakeland South",
       "state": "WA",
       "slug": "lakeland-south-wa"
+    },
+    {
+      "city": "Algona",
+      "state": "WA",
+      "slug": "algona-wa"
     }
   ],
   "brand": {

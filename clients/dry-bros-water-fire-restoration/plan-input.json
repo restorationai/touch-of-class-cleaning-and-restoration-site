@@ -109,6 +109,11 @@
       "city": "Lincolnwood",
       "state": "IL",
       "slug": "lincolnwood-il"
+    },
+    {
+      "city": "River Forest",
+      "state": "IL",
+      "slug": "river-forest-il"
     }
   ],
   "template": "restoration",

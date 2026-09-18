@@ -173,6 +173,11 @@
       "city": "McClellan Park",
       "state": "CA",
       "slug": "mcclellan-park-ca"
+    },
+    {
+      "city": "Arden-Arcade",
+      "state": "CA",
+      "slug": "arden-arcade-ca"
     }
   ],
   "template": "construction",

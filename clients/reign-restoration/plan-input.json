@@ -364,6 +364,11 @@
       "city": "Josephine",
       "state": "TX",
       "slug": "josephine-tx"
+    },
+    {
+      "city": "Lavon",
+      "state": "TX",
+      "slug": "lavon-tx"
     }
   ],
   "template": "restoration",

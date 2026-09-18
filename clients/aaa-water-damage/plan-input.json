@@ -358,6 +358,11 @@
       "city": "East Honolulu",
       "state": "HI",
       "slug": "east-honolulu-hi"
+    },
+    {
+      "city": "Waimanalo",
+      "state": "HI",
+      "slug": "waimanalo-hi"
     }
   ],
   "brand": {

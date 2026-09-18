@@ -108,6 +108,11 @@
       "city": "East Douglas",
       "state": "MA",
       "slug": "east-douglas-ma"
+    },
+    {
+      "city": "Northborough",
+      "state": "MA",
+      "slug": "northborough-ma"
     }
   ],
   "service_radius_description": "Southern New England, with crews responding across a 50 mile radius of Auburn"

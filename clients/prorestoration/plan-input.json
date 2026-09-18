@@ -311,6 +311,11 @@
       "city": "Weedpatch",
       "state": "CA",
       "slug": "weedpatch-ca"
+    },
+    {
+      "city": "Buttonwillow",
+      "state": "CA",
+      "slug": "buttonwillow-ca"
     }
   ],
   "brand": {

@@ -95,6 +95,11 @@
       "city": "Westville",
       "state": "FL",
       "slug": "westville-fl"
+    },
+    {
+      "city": "Eglin AFB",
+      "state": "FL",
+      "slug": "eglin-afb-fl"
     }
   ],
   "template": "restoration",

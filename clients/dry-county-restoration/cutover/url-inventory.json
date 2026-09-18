@@ -1,0 +1,418 @@
+{
+ "domain": "drycountyrestoration.com",
+ "harvested_at": "2026-09-18T18:29:24+00:00",
+ "counts": {
+  "total": 45,
+  "sitemap": 45,
+  "crawl": 0,
+  "backlinked": 2,
+  "gsc": 0
+ },
+ "urls": [
+  {
+   "url": "https://drycountyrestoration.com/",
+   "path": "/",
+   "title": "",
+   "backlinks": 159,
+   "referring_domains": 48,
+   "gsc_clicks": 0,
+   "source": "sitemap,backlinks"
+  },
+  {
+   "url": "https://drycountyrestoration.com/about",
+   "path": "/about",
+   "title": "Dry County Restoration - About Us",
+   "backlinks": 2,
+   "referring_domains": 1,
+   "gsc_clicks": 0,
+   "source": "sitemap,backlinks"
+  },
+  {
+   "url": "https://drycountyrestoration.com/2025/04/16/does-homeowners-insurance-cover-mold",
+   "path": "/2025/04/16/does-homeowners-insurance-cover-mold",
+   "title": "Psychiatrist - Jupiter X Templates",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/2025/04/25/does-homeowners-insurance-cover-water-damage-repair-costs",
+   "path": "/2025/04/25/does-homeowners-insurance-cover-water-damage-repair-costs",
+   "title": "Psychiatrist - Jupiter X Templates",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/2025/06/03/does-homeowners-insurance-cover-restoration-costs",
+   "path": "/2025/06/03/does-homeowners-insurance-cover-restoration-costs",
+   "title": "Psychiatrist - Jupiter X Templates",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/404-2",
+   "path": "/404-2",
+   "title": "Psychiatrist - Jupiter X Templates",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/author/chris",
+   "path": "/author/chris",
+   "title": "chris, Author at Dry County Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/category/dry-county-restoration",
+   "path": "/category/dry-county-restoration",
+   "title": "Dry County Restoration Archives - Dry County Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/contact",
+   "path": "/contact",
+   "title": "Dry County Restoration - Contact Us",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/disclaimer",
+   "path": "/disclaimer",
+   "title": "Disclaimer - Dry County Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/jet-menu/default-mega-item-859",
+   "path": "/jet-menu/default-mega-item-859",
+   "title": "24/7 Water, Fire, Mold Damage Response - Inland Empire",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/jet-menu/elementor-mega-item-859",
+   "path": "/jet-menu/elementor-mega-item-859",
+   "title": "24/7 Water, Fire, Mold Damage Response - Inland Empire",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/news",
+   "path": "/news",
+   "title": "Dry County Restoration - Blog",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/photo-gallery",
+   "path": "/photo-gallery",
+   "title": "Gallery - Dry County Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/portfolio",
+   "path": "/portfolio",
+   "title": "Portfolios Archive - Dry County Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/portfolio-category/services",
+   "path": "/portfolio-category/services",
+   "title": "Services Archives - Dry County Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/portfolio/bathroom-remodeling",
+   "path": "/portfolio/bathroom-remodeling",
+   "title": "Bathroom Remodeling - Dry County Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/portfolio/roof-leak-repair",
+   "path": "/portfolio/roof-leak-repair",
+   "title": "Roof Leak Repair - Dry County Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/portfolio/smoke-damage-restoration-services",
+   "path": "/portfolio/smoke-damage-restoration-services",
+   "title": "Smoke Damage Restoration Services - Dry County Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/portfolio/water-cleanup-services",
+   "path": "/portfolio/water-cleanup-services",
+   "title": "Water Cleanup Services - Dry County Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/privacy-policy",
+   "path": "/privacy-policy",
+   "title": "Privacy Policy - Dry County Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/refund_returns",
+   "path": "/refund_returns",
+   "title": "Refund and Returns Policy - Dry County Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/service-areas",
+   "path": "/service-areas",
+   "title": "Service Areas Archive - Dry County Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/service-areas/austin-tx",
+   "path": "/service-areas/austin-tx",
+   "title": "Austin Damage Restoration - Dry County Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/service-areas/corona-ca",
+   "path": "/service-areas/corona-ca",
+   "title": "Corona Damage Restoration - Dry County Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/service-areas/fredericksburg-tx",
+   "path": "/service-areas/fredericksburg-tx",
+   "title": "Fredericksburg Damage Restoration - Dry County Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/service-areas/long-beach-ca",
+   "path": "/service-areas/long-beach-ca",
+   "title": "Long Beach Damage Restoration - Dry County Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/service-areas/new-braunfels-tx",
+   "path": "/service-areas/new-braunfels-tx",
+   "title": "New Braunfels Damage Restoration - Dry County Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/service-areas/riverside-ca",
+   "path": "/service-areas/riverside-ca",
+   "title": "Riverside Damage Restoration - Dry County Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/service-areas/san-antonio-tx",
+   "path": "/service-areas/san-antonio-tx",
+   "title": "San Antonio Damage Restoration - Dry County Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/service-areas/santa-ana-ca",
+   "path": "/service-areas/santa-ana-ca",
+   "title": "Santa Ana Damage Restoration - Dry County Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/service-areas/sugar-land-tx",
+   "path": "/service-areas/sugar-land-tx",
+   "title": "Sugar Land Damage Restoration - Dry County Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/service-areas/the-woodlands-tx",
+   "path": "/service-areas/the-woodlands-tx",
+   "title": "The Woodlands Damage Restoration - Dry County Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/services",
+   "path": "/services",
+   "title": "Dry County Restoration - Services",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/services-areas",
+   "path": "/services-areas",
+   "title": "Service Areas - Dry County Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/services/bathroom-remodeling",
+   "path": "/services/bathroom-remodeling",
+   "title": "Bathroom Remodeling - Dry County Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/services/leak-detection-services",
+   "path": "/services/leak-detection-services",
+   "title": "Leak Detection Services - Dry County Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/services/roof-leak-repair",
+   "path": "/services/roof-leak-repair",
+   "title": "Roof Leak Repair - Dry County Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/services/smoke-damage-restoration-services",
+   "path": "/services/smoke-damage-restoration-services",
+   "title": "Smoke Damage Restoration Services - Dry County Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/services/water-cleanup-services",
+   "path": "/services/water-cleanup-services",
+   "title": "Water Cleanup Services - Dry County Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/services/water-damage-mitigation-restoration",
+   "path": "/services/water-damage-mitigation-restoration",
+   "title": "Water Damage Mitigation & Restoration - Dry County Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/state/california",
+   "path": "/state/california",
+   "title": "California Archives - Dry County Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/state/texas",
+   "path": "/state/texas",
+   "title": "Texas Archives - Dry County Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/terms-and-conditions",
+   "path": "/terms-and-conditions",
+   "title": "Terms and Conditions - Dry County Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drycountyrestoration.com/web-components-not-pulish-this",
+   "path": "/web-components-not-pulish-this",
+   "title": "Web Components - NOT PULISH THIS - Dry County Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  }
+ ]
+}

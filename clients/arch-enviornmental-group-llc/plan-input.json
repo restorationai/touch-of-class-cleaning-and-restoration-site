@@ -123,6 +123,11 @@
       "city": "Centerville",
       "state": "CA",
       "slug": "centerville-ca"
+    },
+    {
+      "city": "Minkler",
+      "state": "CA",
+      "slug": "minkler-ca"
     }
   ],
   "template": "environmental",

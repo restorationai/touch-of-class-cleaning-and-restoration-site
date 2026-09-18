@@ -273,6 +273,11 @@
       "city": "Miami Gardens",
       "state": "FL",
       "slug": "miami-gardens-fl"
+    },
+    {
+      "city": "Lauderhill",
+      "state": "FL",
+      "slug": "lauderhill-fl"
     }
   ]
 }

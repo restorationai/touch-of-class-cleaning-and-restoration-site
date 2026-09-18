@@ -42,5 +42,13 @@
   "brightlocal": {
     "location_id": 4152729,
     "campaign_id": 999577
+  },
+  "cutover_prep": {
+    "domain": "drycountyrestoration.com",
+    "harvested_at": "2026-09-18T18:29:24+00:00",
+    "url_count": 45,
+    "backlinked_count": 2,
+    "redirects_added": 38,
+    "mapped_at": "2026-09-18T18:29:38+00:00"
   }
 }

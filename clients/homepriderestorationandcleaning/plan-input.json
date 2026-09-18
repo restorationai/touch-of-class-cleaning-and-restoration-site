@@ -108,6 +108,11 @@
       "city": "Lindon",
       "state": "UT",
       "slug": "lindon-ut"
+    },
+    {
+      "city": "Fairfield",
+      "state": "UT",
+      "slug": "fairfield-ut"
     }
   ],
   "brand": {

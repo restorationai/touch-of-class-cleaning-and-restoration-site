@@ -193,6 +193,11 @@
       "city": "North Fort Lewis",
       "state": "WA",
       "slug": "north-fort-lewis-wa"
+    },
+    {
+      "city": "Midland",
+      "state": "WA",
+      "slug": "midland-wa"
     }
   ],
   "template": "restoration",

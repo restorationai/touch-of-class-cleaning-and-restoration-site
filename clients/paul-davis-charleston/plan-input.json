@@ -52,6 +52,11 @@
       "city": "Sullivan's Island",
       "state": "SC",
       "slug": "sullivan-s-island-sc"
+    },
+    {
+      "city": "Isle of Palms",
+      "state": "SC",
+      "slug": "isle-of-palms-sc"
     }
   ]
 }

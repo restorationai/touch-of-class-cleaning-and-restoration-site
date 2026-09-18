@@ -26,5 +26,13 @@
     "last_pushed_staging_at": "2026-09-11T04:32:50.199964+00:00",
     "last_pushed_main_at": "2026-09-18T11:25:02.993841+00:00"
   },
-  "build_status": "pushed_main"
+  "build_status": "pushed_main",
+  "cutover_prep": {
+    "domain": "fixofutah.com",
+    "harvested_at": "2026-09-18T18:27:53+00:00",
+    "url_count": 62,
+    "backlinked_count": 6,
+    "redirects_added": 57,
+    "mapped_at": "2026-09-18T18:28:24+00:00"
+  }
 }

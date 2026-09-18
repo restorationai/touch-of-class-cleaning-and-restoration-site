@@ -277,6 +277,11 @@
       "city": "Baden",
       "state": "PA",
       "slug": "baden-pa"
+    },
+    {
+      "city": "Bell Acres",
+      "state": "PA",
+      "slug": "bell-acres-pa"
     }
   ],
   "brand": {

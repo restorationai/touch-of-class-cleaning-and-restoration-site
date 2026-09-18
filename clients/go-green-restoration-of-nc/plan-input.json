@@ -205,6 +205,11 @@
       "city": "Lake Royale",
       "state": "NC",
       "slug": "lake-royale-nc"
+    },
+    {
+      "city": "Spring Hope",
+      "state": "NC",
+      "slug": "spring-hope-nc"
     }
   ],
   "template": "restoration",

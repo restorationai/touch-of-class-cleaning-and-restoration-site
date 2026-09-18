@@ -98,6 +98,11 @@
       "city": "Somis",
       "state": "CA",
       "slug": "somis-ca"
+    },
+    {
+      "city": "San Buenaventura (Ventura)",
+      "state": "CA",
+      "slug": "san-buenaventura-ventura-ca"
     }
   ],
   "template": "restoration",

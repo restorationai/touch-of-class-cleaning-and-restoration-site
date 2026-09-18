@@ -1,0 +1,22 @@
+{
+ "domain": "theacs-enterprises.com",
+ "harvested_at": "2026-09-18T18:27:46+00:00",
+ "counts": {
+  "total": 1,
+  "sitemap": 0,
+  "crawl": 1,
+  "backlinked": 1,
+  "gsc": 0
+ },
+ "urls": [
+  {
+   "url": "https://theacs-enterprises.com/",
+   "path": "/",
+   "title": "Water Damage Restoration & Cleaning in Midland, TX | ACS Enterprises",
+   "backlinks": 11,
+   "referring_domains": 11,
+   "gsc_clicks": 0,
+   "source": "crawl,backlinks"
+  }
+ ]
+}

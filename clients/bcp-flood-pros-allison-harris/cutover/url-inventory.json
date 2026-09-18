@@ -1,0 +1,571 @@
+{
+ "domain": "fixofutah.com",
+ "harvested_at": "2026-09-18T18:27:53+00:00",
+ "counts": {
+  "total": 62,
+  "sitemap": 61,
+  "crawl": 0,
+  "backlinked": 6,
+  "gsc": 0
+ },
+ "urls": [
+  {
+   "url": "https://fixofutah.com/",
+   "path": "/",
+   "title": "",
+   "backlinks": 176,
+   "referring_domains": 65,
+   "gsc_clicks": 0,
+   "source": "sitemap,backlinks"
+  },
+  {
+   "url": "https://fixofutah.com/west-jordan",
+   "path": "/west-jordan",
+   "title": "Water Damage West Jordan UT - FIX Flood & Water Damage Pros",
+   "backlinks": 3,
+   "referring_domains": 3,
+   "gsc_clicks": 0,
+   "source": "sitemap,backlinks"
+  },
+  {
+   "url": "https://fixofutah.com/contact-us",
+   "path": "/contact-us",
+   "title": "",
+   "backlinks": 1,
+   "referring_domains": 1,
+   "gsc_clicks": 0,
+   "source": "backlinks"
+  },
+  {
+   "url": "https://fixofutah.com/fire-restoration",
+   "path": "/fire-restoration",
+   "title": "Fire Restoration - FIX Flood & Water Damage Pros",
+   "backlinks": 1,
+   "referring_domains": 1,
+   "gsc_clicks": 0,
+   "source": "sitemap,backlinks"
+  },
+  {
+   "url": "https://fixofutah.com/flood-restoration",
+   "path": "/flood-restoration",
+   "title": "Flood Restoration - FIX Flood & Water Damage Pros",
+   "backlinks": 1,
+   "referring_domains": 1,
+   "gsc_clicks": 0,
+   "source": "sitemap,backlinks"
+  },
+  {
+   "url": "https://fixofutah.com/sewage-cleanup",
+   "path": "/sewage-cleanup",
+   "title": "Sewage Cleanup - FIX Flood & Water Damage Pros",
+   "backlinks": 1,
+   "referring_domains": 1,
+   "gsc_clicks": 0,
+   "source": "sitemap,backlinks"
+  },
+  {
+   "url": "https://fixofutah.com/24-7-flood-cleanup-why-fast-action-matters",
+   "path": "/24-7-flood-cleanup-why-fast-action-matters",
+   "title": "24/7 Flood Cleanup: Why Fast Action Matters - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/about",
+   "path": "/about",
+   "title": "About - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/alpine",
+   "path": "/alpine",
+   "title": "Water Damage Alpine UT - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/american-fork",
+   "path": "/american-fork",
+   "title": "Water Damage American Fork UT - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/blog",
+   "path": "/blog",
+   "title": "Blog - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/bluffdale",
+   "path": "/bluffdale",
+   "title": "Water Damage Bluffdale UT - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/cedar-hills",
+   "path": "/cedar-hills",
+   "title": "Water Damage Cedar Hills UT - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/cities-we-service",
+   "path": "/cities-we-service",
+   "title": "Cities We Service - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/commercial-water-damage-restoration",
+   "path": "/commercial-water-damage-restoration",
+   "title": "Commercial Water Damage Restoration - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/common-causes-of-water-damage-what-every-homeowner-should-know",
+   "path": "/common-causes-of-water-damage-what-every-homeowner-should-know",
+   "title": "Common Causes of Water Damage: What Every Homeowner Should Know - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/contact",
+   "path": "/contact",
+   "title": "Contact - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/disaster-cleanup",
+   "path": "/disaster-cleanup",
+   "title": "Disaster Cleanup - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/draper",
+   "path": "/draper",
+   "title": "Water Damage Draper UT - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/eagle-mountain",
+   "path": "/eagle-mountain",
+   "title": "Water Damage Eagle Mountain UT - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/emergency-water-cleanup-for-businesses-a-step-by-step-guide",
+   "path": "/emergency-water-cleanup-for-businesses-a-step-by-step-guide",
+   "title": "Emergency Water Cleanup for Businesses: A Step by Step Guide - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/fairfield",
+   "path": "/fairfield",
+   "title": "Water Damage Fairfield UT - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/fast-water-cleanup-why-every-minute-matters",
+   "path": "/fast-water-cleanup-why-every-minute-matters",
+   "title": "Fast Water Cleanup: Why Every Minute Matters - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/health-risks-caused-by-water-damage",
+   "path": "/health-risks-caused-by-water-damage",
+   "title": "Health Risks Caused by Water Damage - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/heber",
+   "path": "/heber",
+   "title": "Water Damage Heber UT - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/herriman",
+   "path": "/herriman",
+   "title": "Water Damage Herriman UT - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/highland",
+   "path": "/highland",
+   "title": "Water Damage Highland UT - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/holladay",
+   "path": "/holladay",
+   "title": "Water Damage Holladay UT - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/home-2",
+   "path": "/home-2",
+   "title": "Home 2 - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/how-to-file-a-water-damage-insurance-claim",
+   "path": "/how-to-file-a-water-damage-insurance-claim",
+   "title": "How to File a Water Damage Insurance Claim | Step by Step Guide - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/how-to-tell-if-ceiling-water-damage-is-serious",
+   "path": "/how-to-tell-if-ceiling-water-damage-is-serious",
+   "title": "How to Tell If Ceiling Water Damage Is Serious - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/kearns",
+   "path": "/kearns",
+   "title": "Water Damage Kearns UT - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/lehi",
+   "path": "/lehi",
+   "title": "Water Damage Lehi UT - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/lindon",
+   "path": "/lindon",
+   "title": "Water Damage Lindon UT - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/magna",
+   "path": "/magna",
+   "title": "Water Damage Magna UT - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/mapleton",
+   "path": "/mapleton",
+   "title": "Water Damage Mapleton UT - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/mold-removal",
+   "path": "/mold-removal",
+   "title": "Mold Removal - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/murray",
+   "path": "/murray",
+   "title": "Water Damage Murray UT - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/orem",
+   "path": "/orem",
+   "title": "Water Damage Orem UT - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/our-flood-cleaup-and-damage-restoration-process",
+   "path": "/our-flood-cleaup-and-damage-restoration-process",
+   "title": "Our Flood Cleanup & Damage Restoration Process - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/payson",
+   "path": "/payson",
+   "title": "Water Damage Payson UT - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/pleasant-grove",
+   "path": "/pleasant-grove",
+   "title": "Water Damage Pleasant Grove UT - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/provo",
+   "path": "/provo",
+   "title": "Water Damage Provo UT - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/riverton",
+   "path": "/riverton",
+   "title": "Water Damage Riverton UT - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/salt-lake-city",
+   "path": "/salt-lake-city",
+   "title": "Water Damage Salt Lake City UT - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/same-day-water-removal-why-it-matters",
+   "path": "/same-day-water-removal-why-it-matters",
+   "title": "Same Day Water Removal: Why it Matters - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/sandy",
+   "path": "/sandy",
+   "title": "Water Damage Sandy UT - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/saratoga-springs",
+   "path": "/saratoga-springs",
+   "title": "Water Damage Saratoga Springs UT - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/seasonal-maintenance-checklist-to-avoid-water-damage",
+   "path": "/seasonal-maintenance-checklist-to-avoid-water-damage",
+   "title": "Seasonal Maintenance Checklist to Avoid Water Damage - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/services",
+   "path": "/services",
+   "title": "Services - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/signs-you-have-water-in-your-basement",
+   "path": "/signs-you-have-water-in-your-basement",
+   "title": "Signs You Have Water in Your Basement - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/south-jordan",
+   "path": "/south-jordan",
+   "title": "Water Damage South Jordan UT - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/spanish-fork",
+   "path": "/spanish-fork",
+   "title": "Water Damage Spanish Fork UT - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/springville",
+   "path": "/springville",
+   "title": "Water Damage Springville UT - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/the-best-water-damage-restoration-company-in-american-fork",
+   "path": "/the-best-water-damage-restoration-company-in-american-fork",
+   "title": "The Best Water Damage Restoration Company in American Fork - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/the-ultimate-guide-to-understanding-water-damage",
+   "path": "/the-ultimate-guide-to-understanding-water-damage",
+   "title": "The Ultimate Guide to Understanding Water Damage - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/vineyard",
+   "path": "/vineyard",
+   "title": "Water Damage Vineyard UT - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/water-damage",
+   "path": "/water-damage",
+   "title": "Water Damage - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/west-valley",
+   "path": "/west-valley",
+   "title": "Water Damage West Valley UT - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/what-to-do-immediately-when-your-carpet-gets-water-damage",
+   "path": "/what-to-do-immediately-when-your-carpet-gets-water-damage",
+   "title": "What to Do Immediately When Your Carpet Gets Water Damage - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/what-to-expect-from-a-professional-emergency-water-removal-service",
+   "path": "/what-to-expect-from-a-professional-emergency-water-removal-service",
+   "title": "What to Expect from a Professional Emergency Water Removal Service - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://fixofutah.com/why-sewage-backups-spike-during-winter-in-american-fork",
+   "path": "/why-sewage-backups-spike-during-winter-in-american-fork",
+   "title": "Why Sewage Backups Spike During Winter in American Fork - FIX Flood & Water Damage Pros",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  }
+ ]
+}

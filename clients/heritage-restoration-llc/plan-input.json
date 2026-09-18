@@ -98,6 +98,11 @@
       "city": "Randall",
       "state": "MN",
       "slug": "randall-mn"
+    },
+    {
+      "city": "Elmdale",
+      "state": "MN",
+      "slug": "elmdale-mn"
     }
   ],
   "template": "restoration",

@@ -104,6 +104,11 @@
       "city": "Meridianville",
       "state": "AL",
       "slug": "meridianville-al"
+    },
+    {
+      "city": "Hazel Green",
+      "state": "AL",
+      "slug": "hazel-green-al"
     }
   ],
   "brand": {

@@ -347,6 +347,11 @@
       "city": "Enterprise",
       "state": "NV",
       "slug": "enterprise-nv"
+    },
+    {
+      "city": "Blue Diamond",
+      "state": "NV",
+      "slug": "blue-diamond-nv"
     }
   ]
 }

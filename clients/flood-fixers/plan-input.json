@@ -113,6 +113,11 @@
       "city": "Bonsall",
       "state": "CA",
       "slug": "bonsall-ca"
+    },
+    {
+      "city": "Rancho Santa Fe",
+      "state": "CA",
+      "slug": "rancho-santa-fe-ca"
     }
   ],
   "brand": {
