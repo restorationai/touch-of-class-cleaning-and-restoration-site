@@ -219,6 +219,11 @@
       "state": "TX",
       "slug": "comanche-tx",
       "primary": false
+    },
+    {
+      "city": "Potosi",
+      "state": "TX",
+      "slug": "potosi-tx"
     }
   ],
   "template": "restoration",

@@ -93,6 +93,11 @@
       "city": "Weston",
       "state": "MA",
       "slug": "weston-ma"
+    },
+    {
+      "city": "Oxford",
+      "state": "MA",
+      "slug": "oxford-ma"
     }
   ],
   "service_radius_description": "Southern New England, with crews responding across a 50 mile radius of Auburn"

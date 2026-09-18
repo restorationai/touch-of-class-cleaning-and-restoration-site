@@ -98,6 +98,11 @@
       "state": "CA",
       "slug": "temecula-ca",
       "primary": false
+    },
+    {
+      "city": "Harmony Grove",
+      "state": "CA",
+      "slug": "harmony-grove-ca"
     }
   ],
   "brand": {

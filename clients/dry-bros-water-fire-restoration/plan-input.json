@@ -94,6 +94,11 @@
       "city": "Des Plaines",
       "state": "IL",
       "slug": "des-plaines-il"
+    },
+    {
+      "city": "Stickney",
+      "state": "IL",
+      "slug": "stickney-il"
     }
   ],
   "template": "restoration",

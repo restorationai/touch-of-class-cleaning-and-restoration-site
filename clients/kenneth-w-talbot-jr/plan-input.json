@@ -1,87 +1,92 @@
 {
- "brand": {
-  "display_name": "Veterans Remediation & Restoration ",
-  "lat": 30.4982516,
-  "lng": -86.1360517,
-  "phone": "(337) 344-1248",
-  "email": "veteranspcusa@gmail.com",
-  "street_address": "101 Hydrangea",
-  "city": "Freeport ",
-  "state": "Fl ",
-  "postal_code": "32439",
-  "theme": "light",
-  "certifications": [
-   "OSHA TRAINED"
+  "brand": {
+    "display_name": "Veterans Remediation & Restoration ",
+    "lat": 30.4982516,
+    "lng": -86.1360517,
+    "phone": "(337) 344-1248",
+    "email": "veteranspcusa@gmail.com",
+    "street_address": "101 Hydrangea",
+    "city": "Freeport ",
+    "state": "Fl ",
+    "postal_code": "32439",
+    "theme": "light",
+    "certifications": [
+      "OSHA TRAINED"
+    ],
+    "hours": "24/7",
+    "licensed_insured_attested": true,
+    "founded_year": "2020",
+    "trust_badges": [
+      "Licensed & Insured",
+      "Veteran Owned & Operated",
+      "Locally Owned & Operated"
+    ]
+  },
+  "services": [
+    "water-damage-restoration",
+    "fire-damage-restoration",
+    "mold-remediation",
+    "storm-damage-restoration",
+    "water-cleanup"
   ],
-  "hours": "24/7",
-  "licensed_insured_attested": true,
-  "founded_year": "2020",
-  "trust_badges": [
-   "Licensed & Insured",
-   "Veteran Owned & Operated",
-   "Locally Owned & Operated"
-  ]
- },
- "services": [
-  "water-damage-restoration",
-  "fire-damage-restoration",
-  "mold-remediation",
-  "storm-damage-restoration",
-  "water-cleanup"
- ],
- "service_areas": [
-  {
-   "city": "Freeport",
-   "state": "FL",
-   "slug": "freeport-fl",
-   "primary": true
-  },
-  {
-   "city": "Destin",
-   "state": "FL",
-   "slug": "destin-fl"
-  },
-  {
-   "city": "Miramar Beach",
-   "state": "FL",
-   "slug": "miramar-beach-fl"
-  },
-  {
-   "city": "Santa Rosa Beach",
-   "state": "FL",
-   "slug": "santa-rosa-beach-fl"
-  },
-  {
-   "city": "Niceville",
-   "state": "FL",
-   "slug": "niceville-fl"
-  },
-  {
-   "city": "Fort Walton Beach",
-   "state": "FL",
-   "slug": "fort-walton-beach-fl"
-  },
-  {
-   "city": "Panama City Beach",
-   "state": "FL",
-   "slug": "panama-city-beach-fl"
-  },
-  {
-   "city": "Crestview",
-   "state": "FL",
-   "slug": "crestview-fl"
-  },
-  {
-   "city": "DeFuniak Springs",
-   "state": "FL",
-   "slug": "defuniak-springs-fl"
-  },
-  {
-   "city": "Valparaiso",
-   "state": "FL",
-   "slug": "valparaiso-fl"
-  }
- ],
- "template": "restoration",
- "blog_seed_count": 8
+  "service_areas": [
+    {
+      "city": "Freeport",
+      "state": "FL",
+      "slug": "freeport-fl",
+      "primary": true
+    },
+    {
+      "city": "Destin",
+      "state": "FL",
+      "slug": "destin-fl"
+    },
+    {
+      "city": "Miramar Beach",
+      "state": "FL",
+      "slug": "miramar-beach-fl"
+    },
+    {
+      "city": "Santa Rosa Beach",
+      "state": "FL",
+      "slug": "santa-rosa-beach-fl"
+    },
+    {
+      "city": "Niceville",
+      "state": "FL",
+      "slug": "niceville-fl"
+    },
+    {
+      "city": "Fort Walton Beach",
+      "state": "FL",
+      "slug": "fort-walton-beach-fl"
+    },
+    {
+      "city": "Panama City Beach",
+      "state": "FL",
+      "slug": "panama-city-beach-fl"
+    },
+    {
+      "city": "Crestview",
+      "state": "FL",
+      "slug": "crestview-fl"
+    },
+    {
+      "city": "DeFuniak Springs",
+      "state": "FL",
+      "slug": "defuniak-springs-fl"
+    },
+    {
+      "city": "Valparaiso",
+      "state": "FL",
+      "slug": "valparaiso-fl"
+    },
+    {
+      "city": "Ebro",
+      "state": "FL",
+      "slug": "ebro-fl"
+    }
+  ],
+  "template": "restoration",
+  "blog_seed_count": 8
 }

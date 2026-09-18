@@ -1,42 +1,47 @@
 {
- "brand": {
-  "display_name": "Paul Davis Restoration of Charleston",
-  "place_id": "ChIJkYy3631v_ogRjyTdLSlEueU",
-  "google_cid": "16553336849030784143",
-  "lat": 32.9026784,
-  "lng": -79.9179674
- },
- "services": [
-  "water-damage-restoration",
-  "fire-damage-restoration",
-  "mold-remediation"
- ],
- "service_areas": [
-  {
-   "city": "Charleston",
-   "state": "SC",
-   "slug": "charleston-sc",
-   "primary": true
+  "brand": {
+    "display_name": "Paul Davis Restoration of Charleston",
+    "place_id": "ChIJkYy3631v_ogRjyTdLSlEueU",
+    "google_cid": "16553336849030784143",
+    "lat": 32.9026784,
+    "lng": -79.9179674
   },
-  {
-   "city": "Mount Pleasant",
-   "state": "SC",
-   "slug": "mount-pleasant-sc"
-  },
-  {
-   "city": "North Charleston",
-   "state": "SC",
-   "slug": "north-charleston-sc"
-  },
-  {
-   "city": "Summerville",
-   "state": "SC",
-   "slug": "summerville-sc"
-  },
-  {
-   "city": "James Island",
-   "state": "SC",
-   "slug": "james-island-sc"
-  }
- ]
+  "services": [
+    "water-damage-restoration",
+    "fire-damage-restoration",
+    "mold-remediation"
+  ],
+  "service_areas": [
+    {
+      "city": "Charleston",
+      "state": "SC",
+      "slug": "charleston-sc",
+      "primary": true
+    },
+    {
+      "city": "Mount Pleasant",
+      "state": "SC",
+      "slug": "mount-pleasant-sc"
+    },
+    {
+      "city": "North Charleston",
+      "state": "SC",
+      "slug": "north-charleston-sc"
+    },
+    {
+      "city": "Summerville",
+      "state": "SC",
+      "slug": "summerville-sc"
+    },
+    {
+      "city": "James Island",
+      "state": "SC",
+      "slug": "james-island-sc"
+    },
+    {
+      "city": "Hanahan",
+      "state": "SC",
+      "slug": "hanahan-sc"
+    }
+  ]
 }

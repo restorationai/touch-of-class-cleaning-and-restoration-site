@@ -156,6 +156,32 @@
       "triaged_at": "2026-09-17T19:33:29Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "crew:1789670184595-579dee48": {
+      "source": "crew",
+      "storage": "job-photos/1789670184595-579dee48.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1789496674784/job-photos/1789670184595-579dee48.jpg",
+      "width": 640,
+      "height": 480,
+      "bytes": 111678,
+      "sha1": "11cda58eb74fdc26",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Weathered deteriorated wood-sided house exterior needing restoration",
+      "quality": 62,
+      "slots": {
+        "hero": 35,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "storm-damage-restoration",
+        "general-contracting"
+      ],
+      "flags": [],
+      "reason": "Decent documentation shot of damaged siding; no crew or equipment visible.",
+      "triaged_at": "2026-09-18T14:11:01Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "crew:1789670185651-3663874a": {
       "source": "crew",
       "storage": "job-photos/1789670185651-3663874a.jpg",
@@ -282,6 +308,29 @@
       "triaged_at": "2026-09-17T19:33:37Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "crew:1789671168990-993a5d6b": {
+      "source": "crew",
+      "storage": "job-photos/1789671168990-993a5d6b.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1789496674784/job-photos/1789671168990-993a5d6b.jpg",
+      "width": 1440,
+      "height": 1920,
+      "bytes": 590661,
+      "sha1": "e049299164f9fa4a",
+      "exif": {},
+      "category": "building",
+      "subject": "Metal pole barn garage exterior with open door blue sky",
+      "quality": 65,
+      "slots": {
+        "hero": 28,
+        "team": 0,
+        "services": 15
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Generic outbuilding exterior; no damage, crew, or restoration work evident.",
+      "triaged_at": "2026-09-18T14:11:01Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "crew:1789671170119-37165b05": {
       "source": "crew",
       "storage": "job-photos/1789671170119-37165b05.jpg",
@@ -405,5 +454,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-09-17T19:33:37Z"
+  "triaged_at": "2026-09-18T14:11:01Z"
 }

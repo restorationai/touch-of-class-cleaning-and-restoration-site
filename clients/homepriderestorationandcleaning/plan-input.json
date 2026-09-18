@@ -93,6 +93,11 @@
       "state": "UT",
       "slug": "park-city-ut",
       "primary": false
+    },
+    {
+      "city": "Vineyard",
+      "state": "UT",
+      "slug": "vineyard-ut"
     }
   ],
   "brand": {

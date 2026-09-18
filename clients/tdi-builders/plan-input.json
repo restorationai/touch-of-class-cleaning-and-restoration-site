@@ -158,6 +158,11 @@
       "city": "Turlock",
       "state": "CA",
       "slug": "turlock-ca"
+    },
+    {
+      "city": "Rio Linda",
+      "state": "CA",
+      "slug": "rio-linda-ca"
     }
   ],
   "template": "construction",

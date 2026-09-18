@@ -209,6 +209,11 @@
       "city": "San Jacinto",
       "state": "CA",
       "slug": "san-jacinto-ca"
+    },
+    {
+      "city": "Silverado",
+      "state": "CA",
+      "slug": "silverado-ca"
     }
   ],
   "template": "plumbing",

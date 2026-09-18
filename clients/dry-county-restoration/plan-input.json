@@ -91,6 +91,11 @@
       "city": "Chino Hills",
       "state": "CA",
       "slug": "chino-hills-ca"
+    },
+    {
+      "city": "Eastvale",
+      "state": "CA",
+      "slug": "eastvale-ca"
     }
   ],
   "template": "restoration",

@@ -351,6 +351,11 @@
       "city": "Venice",
       "state": "FL",
       "slug": "venice-fl"
+    },
+    {
+      "city": "Mango",
+      "state": "FL",
+      "slug": "mango-fl"
     }
   ],
   "template": "restoration",

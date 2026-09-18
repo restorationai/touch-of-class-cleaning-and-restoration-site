@@ -178,6 +178,11 @@
       "city": "Centralia",
       "state": "WA",
       "slug": "centralia-wa"
+    },
+    {
+      "city": "McChord AFB",
+      "state": "WA",
+      "slug": "mcchord-afb-wa"
     }
   ],
   "template": "restoration",

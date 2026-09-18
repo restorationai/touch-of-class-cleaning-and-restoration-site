@@ -94,6 +94,11 @@
       "city": "Hubbard",
       "state": "OH",
       "slug": "hubbard-oh"
+    },
+    {
+      "city": "Campbell",
+      "state": "OH",
+      "slug": "campbell-oh"
     }
   ],
   "template": "restoration",

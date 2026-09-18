@@ -190,6 +190,11 @@
         "27597"
       ],
       "local_notes": "Small-town core with rural properties on the edges; well-and-crawl-space homes are typical."
+    },
+    {
+      "city": "Wendell",
+      "state": "NC",
+      "slug": "wendell-nc"
     }
   ],
   "template": "restoration",

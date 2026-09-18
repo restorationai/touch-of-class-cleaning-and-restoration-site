@@ -349,6 +349,11 @@
       "city": "Terrell",
       "state": "TX",
       "slug": "terrell-tx"
+    },
+    {
+      "city": "Nevada",
+      "state": "TX",
+      "slug": "nevada-tx"
     }
   ],
   "template": "restoration",

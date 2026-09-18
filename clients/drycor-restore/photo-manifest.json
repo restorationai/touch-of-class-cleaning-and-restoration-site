@@ -319,9 +319,9 @@
       "triage_model": "claude-sonnet-4-6"
     },
     "crew:1788554175857-Box_Truck_Isuzu": {
-      "source": "crew",
-      "storage": "job-photos/1788554175857-Box_Truck_Isuzu.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/job-photos/1788554175857-Box_Truck_Isuzu.jpg",
+      "source": "gbp",
+      "storage": "job-photos/posted/1788554175857-Box_Truck_Isuzu.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/job-photos/posted/1788554175857-Box_Truck_Isuzu.jpg",
       "width": 5712,
       "height": 3213,
       "bytes": 3892640,
