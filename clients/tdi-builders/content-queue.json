@@ -219,7 +219,7 @@
     },
     {
       "id": "2026-09-15-home-remodeling-sacramento",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-15T14:24:35Z",
       "priority": 1,
       "prioritized": true,
@@ -229,7 +229,9 @@
       "intent": "commercial",
       "target_word_count": 1400,
       "city_anchor": "sacramento-ca",
-      "source": "gameplan-2026-09-5 (dev-agent)"
+      "source": "gameplan-2026-09-5 (dev-agent)",
+      "written_at": "2026-09-18T11:33:05Z",
+      "post_url": "https://tdiusa.com/blog/home-remodeling-sacramento/"
     },
     {
       "id": "2026-09-15-new-home-construction-sacramento",
