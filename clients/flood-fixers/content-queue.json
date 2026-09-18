@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-07-23-best-water-damage-restoration-in-san-diego-ca",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-07-23T17:23:05Z",
       "priority": 1,
       "content_type": "best_of_comparison",
@@ -44,7 +44,101 @@
         "top rated water damage restoration San Diego CA",
         "who is the best water damage restoration company in San Diego"
       ],
-      "source": "best-of-seeder"
+      "source": "best-of-seeder",
+      "written_at": "2026-09-18T11:44:23Z",
+      "post_url": "https://flood-fixers.com/blog/best-water-damage-restoration-company-in-san-diego-ca/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-san-diego-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "586 reviews",
+          "context": "o holds a 4.9-star Google rating across 586 reviews, one of the highest review volumes amon",
+          "reason": "listicle review-count 586 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-san-diego-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "586 reviews",
+          "context": "Diego market. **Google Rating:** 4.9 (586 reviews) --- ### #3 Risk Free Serv Water Dama",
+          "reason": "listicle review-count 586 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-san-diego-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "125 reviews",
+          "context": "o holds a 5.0-star Google rating across 125 reviews. A perfect average rating is notable, a",
+          "reason": "listicle review-count 125 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-san-diego-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "125 reviews",
+          "context": "perfect average rating is notable, and 125 reviews provides a reasonable sample size. This",
+          "reason": "listicle review-count 125 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-san-diego-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "125 reviews",
+          "context": "an Diego area. **Google Rating:** 5.0 (125 reviews) --- ### #4 SERVPRO of San Diego City",
+          "reason": "listicle review-count 125 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-san-diego-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "161 reviews",
+          "context": "W holds a 4.8-star Google rating across 161 reviews. SERVPRO is a nationally franchised res",
+          "reason": "listicle review-count 161 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-san-diego-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "161 reviews",
+          "context": "ary by location; the 4.8 average across 161 reviews suggests this location performs consist",
+          "reason": "listicle review-count 161 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-san-diego-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "161 reviews",
+          "context": "consistently. **Google Rating:** 4.8 (161 reviews) --- ### #5 Water Damage Restoration",
+          "reason": "listicle review-count 161 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-san-diego-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "45 reviews",
+          "context": "o holds a 4.8-star Google rating across 45 reviews. The lower review count means less data",
+          "reason": "listicle review-count 45 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-san-diego-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "45 reviews",
+          "context": "Diego market. **Google Rating:** 4.8 (45 reviews) --- ![Company Rankings: San Diego Wa",
+          "reason": "listicle review-count 45 (competitor stat \u2014 verify it is not presented as ours)"
+        }
+      ]
     },
     {
       "id": "2026-07-06-what-is-category-3-water-damage",
