@@ -79,6 +79,10 @@ def _run_pitch(entry: dict) -> tuple[str, str]:
         return "sent", ""
     if "HELD (quiet hours)" in out:
         return "held", "their quiet hours — retrying until morning"
+    if "RENAME ON HOLD" in out:
+        why = next((ln.strip() for ln in out.splitlines()
+                    if "RENAME ON HOLD" in ln), "rename on hold")
+        return "refused", why[:300]
     if "COVERAGE GAP" in out:
         gap = next((ln.strip().lstrip("! ") for ln in out.splitlines()
                     if "COVERAGE GAP" in ln), "coverage gap")

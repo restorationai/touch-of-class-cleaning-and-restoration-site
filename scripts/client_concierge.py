@@ -9828,6 +9828,18 @@ def cmd_rename_pitch(args) -> int:
         print(f"ERROR: {company.get('name')} is not active")
         return 1
     cands = _rename_candidates(args.company)
+    # HOLD placeholders (TDI 2026-09-18): research can deliberately park a
+    # client with a "(rename on hold)" row whose reason documents why (TDI:
+    # mid-identity-transition + suppressed services). Those rows are state,
+    # not options — pitching one would text the client our internal note.
+    holds = [c for c in cands
+             if "(rename on hold)" in str(c.get("item", "")).lower()
+             or str(c.get("reason", "")).strip().upper().startswith("HOLD")]
+    cands = [c for c in cands if c not in holds]
+    if holds and not cands:
+        why = str(holds[0].get("reason") or "no reason recorded")
+        print(f"RENAME ON HOLD: {why[:220]}")
+        return 1
     if not cands:
         print("ERROR: no name candidates on record — seed them first "
               "(rank-ai-gbp-rename)")
