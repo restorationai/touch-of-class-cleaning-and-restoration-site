@@ -22,7 +22,7 @@
   },
   "status": "active",
   "created_at": "2026-07-08T16:12:20.849362+00:00",
-  "updated_at": "2026-09-17T23:15:37.229834+00:00",
+  "updated_at": "2026-09-18T12:15:34.706363+00:00",
   "company_id": "CO-1783380243102",
   "nap": {
     "name": "All Pro Plumbing Heating and Air",
@@ -64,7 +64,7 @@
     "last_rendered_at": "2026-07-08T20:22:10.836026+00:00",
     "github_repo": "restorationai/all-pro-plumbing-site",
     "last_pushed_staging_at": "2026-09-17T23:15:02.446546+00:00",
-    "last_pushed_main_at": "2026-09-17T23:15:37.229818+00:00"
+    "last_pushed_main_at": "2026-09-18T12:15:34.706344+00:00"
   },
   "build_status": "pushed_main",
   "indexnow_key": "39ec3a0fa4c14d2f99f975c9f2f61739",

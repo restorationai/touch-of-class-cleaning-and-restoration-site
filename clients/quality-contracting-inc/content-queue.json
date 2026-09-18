@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-14-who-to-call-for-water-damage-restoration-in-auburn-ma",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-14T20:22:13Z",
       "priority": 1,
       "prioritized": true,
@@ -58,7 +58,8 @@
           "context": "footage and the class of loss, per the [IICRC S500 Standard for Professional Water Da",
           "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
         }
-      ]
+      ],
+      "published_verified_at": "2026-09-18T11:05:23Z"
     },
     {
       "id": "2026-08-28-water-damage-restoration-cost-ma",

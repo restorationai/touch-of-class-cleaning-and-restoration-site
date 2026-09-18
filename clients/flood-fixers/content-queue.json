@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-07-23-best-water-damage-restoration-in-san-diego-ca",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-07-23T17:23:05Z",
       "priority": 1,
       "content_type": "best_of_comparison",
@@ -138,7 +138,8 @@
           "context": "Diego market. **Google Rating:** 4.8 (45 reviews) --- ![Company Rankings: San Diego Wa",
           "reason": "listicle review-count 45 (competitor stat \u2014 verify it is not presented as ours)"
         }
-      ]
+      ],
+      "published_verified_at": "2026-09-18T11:45:40Z"
     },
     {
       "id": "2026-07-06-what-is-category-3-water-damage",

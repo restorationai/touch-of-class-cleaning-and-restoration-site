@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-14-who-to-call-for-fire-damage-restoration-in-las-vegas-nv",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-14T20:22:05Z",
       "priority": 1,
       "prioritized": true,
@@ -103,7 +103,8 @@
           "context": "PuroClean of East Las Vegas is an IICRC-certified restoration company based at 2777 N Lamb Blvd, Las",
           "reason": "names a certification not present in brand.certifications"
         }
-      ]
+      ],
+      "published_verified_at": "2026-09-18T11:02:07Z"
     },
     {
       "id": "2026-09-06-trauma-crime-scene-biohazard",

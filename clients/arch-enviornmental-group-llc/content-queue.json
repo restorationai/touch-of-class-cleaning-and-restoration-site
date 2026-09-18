@@ -335,7 +335,7 @@
     },
     {
       "id": "2026-09-15-mold-testing-kingsburg",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-15T14:24:35Z",
       "priority": 1,
       "prioritized": true,
@@ -358,7 +358,8 @@
           "context": "ves the samples. Rush analysis, usually 24 hours or same-day, is available from most acc",
           "reason": "claims round-the-clock availability but brand.hours is \"(unset)\""
         }
-      ]
+      ],
+      "published_verified_at": "2026-09-18T12:18:54Z"
     },
     {
       "id": "2026-09-15-lead-testing-kingsburg",

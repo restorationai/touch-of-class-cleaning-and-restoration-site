@@ -246,7 +246,7 @@
     },
     {
       "id": "2026-08-26-residential-water-damage-restoration",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-26T14:05:00Z",
       "written_at": "2026-09-18T12:20:48Z",
       "post_url": "https://californiarestorationwest.com/blog/residential-water-damage-restoration/",
@@ -279,7 +279,8 @@
         "https://www.iicrc.org/page/IICRCS500"
       ],
       "notes": "320/mo, KD 10, uncovered. Companion piece to the commercial post: cross-link them so the pair captures the residential/commercial split the service pages collapse. Keep the tone calm, the reader is usually mid-emergency.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "published_verified_at": "2026-09-18T12:22:03Z"
     },
     {
       "id": "2026-08-26-what-is-water-damage-restoration",

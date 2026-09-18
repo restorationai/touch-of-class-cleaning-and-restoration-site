@@ -146,7 +146,7 @@
     },
     {
       "id": "2026-08-28-licensed-plumber-c36-verify-california",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-28T01:35:00Z",
       "written_at": "2026-09-18T11:13:25Z",
       "post_url": "https://rtolsonplumbing.com/blog/licensed-plumber-c36-verify-california/",
@@ -183,7 +183,8 @@
         "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/"
       ],
       "notes": "8,100/mo at KD 26 and the strongest AI-retrieval slot in this seed: ChatGPT's own Corona answer opens by telling the homeowner to check CSLB for an active C-36. Teach the lookup step by step and link the CSLB check page. RT Olson holds license 997337 and licensed_insured_attested is true, so the brand may state it is licensed and insured and invite readers to verify 997337 themselves: that self-verification invite is the trust move. Cover which jobs (water heater swaps, repipes, gas lines, sewer work) need a permit and inspection.",
-      "source": "rank-ai-keyword-researcher"
+      "source": "rank-ai-keyword-researcher",
+      "published_verified_at": "2026-09-18T11:15:09Z"
     },
     {
       "id": "2026-08-28-how-much-does-a-plumber-cost",

@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-14-who-to-call-for-water-damage-restoration-in-davie-fl",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-14T20:23:41Z",
       "priority": 1,
       "prioritized": true,
@@ -94,7 +94,8 @@
           "context": "Xpress** RestorationXpress is an IICRC-certified restoration company based in Davie, FL (33314), ser",
           "reason": "names a certification not present in brand.certifications"
         }
-      ]
+      ],
+      "published_verified_at": "2026-09-18T11:11:31Z"
     },
     {
       "id": "2026-08-28-water-damage-restoration-cost-fl",

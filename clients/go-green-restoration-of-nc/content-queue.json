@@ -761,7 +761,7 @@
     },
     {
       "id": "2026-08-09-water-in-crawl-space-after-heavy-rain",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-10T00:57:00Z",
       "written_at": "2026-09-18T11:47:36Z",
       "post_url": "https://gogreenrestorationofnc.com/blog/water-in-crawl-space-after-heavy-rain/",
@@ -815,7 +815,8 @@
           "context": "Go Green Restoration of NC is an IICRC-certified restoration company based in Middlesex, NC, serving",
           "reason": "names a certification not present in brand.certifications"
         }
-      ]
+      ],
+      "published_verified_at": "2026-09-18T11:48:52Z"
     },
     {
       "id": "2026-08-09-how-fast-does-mold-grow-after-water-damage",

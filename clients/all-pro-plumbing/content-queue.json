@@ -433,7 +433,7 @@
     },
     {
       "id": "2026-08-17-what-does-a-plumber-do",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-17T17:38:35Z",
       "written_at": "2026-09-18T12:15:21Z",
       "post_url": "https://allproplumbingheatingandair.com/blog/what-does-a-plumber-do/",
@@ -472,7 +472,8 @@
         "https://www.epa.gov/watersense"
       ],
       "notes": "Highest-volume uncovered informational term for this seed (3,600/mo, KD 21) and the natural topical hub for the whole plumbing service catalog. Structure as scannable question H2s so AI engines can lift passages: what a plumber does day to day, the job categories (drains and sewers, water heaters, leaks and repipes, gas lines, fixtures), plumber vs handyman vs drain-only company, and when a job needs a permit. Bakersfield hook: slab foundations and hard municipal water mean slab leaks and scale-killed water heaters are the two calls that most often surprise homeowners. Link out to every service landing page: this is the internal-linking anchor post. LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor) and link the CSLB lookup. SCOPE GATE: stay on stopping the water and fixing the pipe. Do not mention mold remediation, structural drying or reconstruction (restoration vertical, sister company ProRestoration Services).",
-      "source": "rank-ai-keyword-researcher"
+      "source": "rank-ai-keyword-researcher",
+      "published_verified_at": "2026-09-18T12:16:38Z"
     },
     {
       "id": "2026-08-17-how-much-does-a-plumber-cost-to-unclog-a-toilet",

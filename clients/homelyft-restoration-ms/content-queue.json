@@ -431,7 +431,7 @@
     },
     {
       "id": "2026-09-15-water-damage-restoration-gulfport",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-15T14:24:35Z",
       "priority": 1,
       "prioritized": true,
@@ -443,7 +443,8 @@
       "city_anchor": "gulfport-ms",
       "source": "gameplan-2026-09-3 (dev-agent)",
       "written_at": "2026-09-18T11:52:16Z",
-      "post_url": "https://homelyft.net/blog/water-damage-restoration-gulfport/"
+      "post_url": "https://homelyft.net/blog/water-damage-restoration-gulfport/",
+      "published_verified_at": "2026-09-18T11:52:32Z"
     }
   ]
 }

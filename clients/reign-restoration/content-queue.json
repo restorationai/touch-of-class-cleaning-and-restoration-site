@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-14-who-to-call-for-water-damage-restoration-in-royse-city-tx",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-14T20:21:36Z",
       "priority": 1,
       "prioritized": true,
@@ -29,7 +29,8 @@
       ],
       "source": "best-of-seeder",
       "written_at": "2026-09-18T10:52:41Z",
-      "post_url": "https://reign-restoration.com/blog/who-to-call-for-water-damage-restoration-in-royse-city-tx/"
+      "post_url": "https://reign-restoration.com/blog/who-to-call-for-water-damage-restoration-in-royse-city-tx/",
+      "published_verified_at": "2026-09-18T10:52:56Z"
     },
     {
       "id": "2026-08-27-water-damage-restoration-cost-tx",

@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-07-23-best-water-damage-restoration-in-saratoga-springs-ut",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-07-23T17:26:08Z",
       "priority": 1,
       "content_type": "best_of_comparison",
@@ -84,7 +84,8 @@
           "context": "alists holds a 4.9 Google rating across 68 reviews. They are an established local restorat",
           "reason": "listicle review-count 68 (competitor stat \u2014 verify it is not presented as ours)"
         }
-      ]
+      ],
+      "published_verified_at": "2026-09-18T11:55:59Z"
     },
     {
       "id": "2026-06-23-ice-dam-removal-park-city",
