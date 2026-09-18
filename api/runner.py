@@ -150,11 +150,17 @@ def _push_stamps(co: Path, slug: str) -> str:
     return f"stamp push FAILED after retries: {log[-200:]}"
 
 
-def _run_sync(slug: str) -> None:
-    """Run supabase_sync for a single client after a job completes."""
+def _run_sync(slug: str, co: Path | None = None) -> None:
+    """Run supabase_sync for a single client after a job completes.
+
+    2026-09-18 (Dry Bros push looked like a no-op): ALWAYS prefer the fresh
+    checkout — running from the container's deploy-time code dir synced the
+    STALE client record, so marketing_sites kept build_status
+    pushed_staging after a successful main push and readiness stayed red."""
+    base = co or ROOT
     subprocess.run(
-        ["python3", str(ROOT / "scripts" / "supabase_sync.py"), "--slug", slug],
-        cwd=str(ROOT),
+        ["python3", str(base / "scripts" / "supabase_sync.py"), "--slug", slug],
+        cwd=str(base),
         capture_output=True,
         timeout=120,
     )
@@ -175,7 +181,7 @@ def _execute_job(job_id: str, slug: str, system: int,
                 _update_job(job_id, status="failed", completed_at=_now(),
                             error=f"content_writer exited {rc}", log=log[-8000:])
                 return
-            _run_sync(slug)
+            _run_sync(slug, co)
             _update_job(job_id, status="completed", completed_at=_now(), log=log[-8000:])
 
         elif system == "gbp_face":
@@ -253,7 +259,7 @@ def _execute_job(job_id: str, slug: str, system: int,
                 "sync-deploy", "--slug", slug, "--branch", "main",
             ], cwd=str(co))
             stamp_note = _push_stamps(co, slug) if rc == 0 else ""
-            _run_sync(slug)
+            _run_sync(slug, co)
             if rc == 0:
                 _update_job(job_id, status="completed", completed_at=_now(),
                             log=(log + "\n" + stamp_note)[-8000:],
@@ -285,7 +291,7 @@ def _execute_job(job_id: str, slug: str, system: int,
                 "provision", "--slug", slug, "--apply",
             ], cwd=str(co))
             log += "\n" + _push_stamps(co, slug)
-            _run_sync(slug)
+            _run_sync(slug, co)
             if rc in (0, 3):
                 _update_job(job_id, status="completed", completed_at=_now(), log=log[-8000:],
                             result={"state": "provisioned",
@@ -315,7 +321,7 @@ def _execute_job(job_id: str, slug: str, system: int,
                 "run", "--slug", slug, "--apply",
             ], cwd=str(co))
             log += "\n" + _push_stamps(co, slug)
-            _run_sync(slug)  # partial progress (zone/domain stamp) should surface either way
+            _run_sync(slug, co)  # partial progress (zone/domain stamp) should surface either way
             if rc == 0:
                 _update_job(job_id, status="completed", completed_at=_now(), log=log[-8000:],
                             result={"state": "live"})

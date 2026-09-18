@@ -588,6 +588,25 @@ def run_job(req: RunJobRequest):
     }
 
 
+@app.get("/jobs-active", dependencies=[Depends(auth)])
+def get_active_job(slug: str):
+    """Latest queued/running launch-class job for a slug (2026-09-18: a page
+    reload mid-push lost the 'Pushing' state — the panel resumes polling
+    from this on mount instead of going blind)."""
+    rows = (sb().table("marketing_jobs")
+            .select("id,type,status,queued_at")
+            .in_("type", ["site_push_main", "cutover", "cutover_provision"])
+            .in_("status", ["queued", "running"])
+            .order("queued_at", desc=True).limit(10).execute()).data or []
+    for r in rows:
+        # params carries the slug; cheap post-filter (few rows ever active)
+        full = (sb().table("marketing_jobs").select("params")
+                .eq("id", r["id"]).limit(1).execute()).data
+        if full and str((full[0].get("params") or {}).get("slug")) == slug:
+            return {"job": r}
+    return {"job": None}
+
+
 @app.get("/jobs/{job_id}", dependencies=[Depends(auth)])
 def get_job(job_id: str):
     """Get the current status of a job."""
