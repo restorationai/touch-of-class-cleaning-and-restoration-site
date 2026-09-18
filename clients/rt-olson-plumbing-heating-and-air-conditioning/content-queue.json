@@ -146,10 +146,10 @@
     },
     {
       "id": "2026-08-28-licensed-plumber-c36-verify-california",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-28T01:35:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-18T11:13:25Z",
+      "post_url": "https://rtolsonplumbing.com/blog/licensed-plumber-c36-verify-california/",
       "primary_keyword": "licensed plumber",
       "intent": "transactional",
       "volume": 8100,
