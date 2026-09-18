@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-07-23-best-water-damage-restoration-in-saratoga-springs-ut",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-07-23T17:26:08Z",
       "priority": 1,
       "content_type": "best_of_comparison",
@@ -44,7 +44,47 @@
         "top rated water damage restoration Saratoga Springs UT",
         "who is the best water damage restoration company in Saratoga Springs"
       ],
-      "source": "best-of-seeder"
+      "source": "best-of-seeder",
+      "written_at": "2026-09-18T11:55:43Z",
+      "post_url": "https://homepriderestorationandcleaning.com/blog/best-water-damage-restoration-company-in-saratoga-springs-ut/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-saratoga-springs-ut.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "11 reviews",
+          "context": "olds a perfect 5.0 Google rating across 11 reviews. They are an established local option s",
+          "reason": "listicle review-count 11 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-saratoga-springs-ut.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "555 reviews",
+          "context": "Pros carries a 4.9 Google rating across 555 reviews, one of the highest review volumes on t",
+          "reason": "listicle review-count 555 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-saratoga-springs-ut.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "482 reviews",
+          "context": "rvices holds a 4.9 Google rating across 482 reviews. ServiceMaster Restore is a nationally",
+          "reason": "listicle review-count 482 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-saratoga-springs-ut.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "68 reviews",
+          "context": "alists holds a 4.9 Google rating across 68 reviews. They are an established local restorat",
+          "reason": "listicle review-count 68 (competitor stat \u2014 verify it is not presented as ours)"
+        }
+      ]
     },
     {
       "id": "2026-06-23-ice-dam-removal-park-city",
