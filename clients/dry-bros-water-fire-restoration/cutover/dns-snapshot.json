@@ -1,6 +1,6 @@
 {
  "domain": "drybros.com",
- "captured_at": "2026-09-18T18:53:02+00:00",
+ "captured_at": "2026-09-18T18:56:32+00:00",
  "authoritative": {
   "ns": [
    "amos.ns.cloudflare.com",
@@ -14,7 +14,9 @@
    "v=DMARC1; p=quarantine; adkim=r; aspf=r; rua=mailto:dmarc_rua@onsecureserver.net;"
   ],
   "dkim": {},
-  "apex_a": [],
+  "apex_a": [
+   "160.153.0.27"
+  ],
   "apex_cname": [],
   "www_cname": [
    "drybros.com"
@@ -27,6 +29,22 @@
    "anastasia.ns.cloudflare.com"
   ],
   "records": [
+   {
+    "id": "1a336e95252eae8ce43ff823ff933868",
+    "type": "CNAME",
+    "name": "drybros.com",
+    "content": "rankai-dry-bros-water-fire-restoration.pages.dev",
+    "priority": null,
+    "proxied": true
+   },
+   {
+    "id": "4aaa041f391d99d52e54b526f4a04ab6",
+    "type": "CNAME",
+    "name": "www.drybros.com",
+    "content": "rankai-dry-bros-water-fire-restoration.pages.dev",
+    "priority": null,
+    "proxied": true
+   },
    {
     "id": "cf010ef301394dc95e8dad8b5b22804a",
     "type": "TXT",
