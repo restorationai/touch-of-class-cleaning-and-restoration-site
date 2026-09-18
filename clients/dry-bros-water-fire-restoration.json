@@ -13,7 +13,7 @@
     "url_count": 128,
     "generated_at": "2026-09-17T15:06:19.345471+00:00"
   },
-  "updated_at": "2026-09-18T18:23:00.044645+00:00",
+  "updated_at": "2026-09-18T18:53:37+00:00",
   "indexnow_key": "c6ac0439f07d44adb611dfb90b41c8e1",
   "build": {
     "scaffolded_at": "2026-09-08T20:19:57.946792+00:00",
@@ -60,5 +60,18 @@
     "backlinked_count": 1,
     "redirects_added": 56,
     "mapped_at": "2026-09-18T18:08:20+00:00"
+  },
+  "zone": {
+    "id": "203e30ae4163be4dc4ebba8d96b7d951",
+    "name": "drybros.com",
+    "status": "active",
+    "name_servers": [
+      "amos.ns.cloudflare.com",
+      "anastasia.ns.cloudflare.com"
+    ]
+  },
+  "cut_over_at": "2026-09-18T18:53:37+00:00",
+  "apex_cutover": {
+    "completed_at": "2026-09-18T18:53:37+00:00"
   }
 }

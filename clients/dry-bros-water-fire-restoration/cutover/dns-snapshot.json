@@ -1,10 +1,10 @@
 {
  "domain": "drybros.com",
- "captured_at": "2026-09-18T18:31:57+00:00",
+ "captured_at": "2026-09-18T18:53:02+00:00",
  "authoritative": {
   "ns": [
-   "ns53.domaincontrol.com",
-   "ns54.domaincontrol.com"
+   "amos.ns.cloudflare.com",
+   "anastasia.ns.cloudflare.com"
   ],
   "mx": [],
   "apex_txt": [
@@ -14,9 +14,7 @@
    "v=DMARC1; p=quarantine; adkim=r; aspf=r; rua=mailto:dmarc_rua@onsecureserver.net;"
   ],
   "dkim": {},
-  "apex_a": [
-   "160.153.0.27"
-  ],
+  "apex_a": [],
   "apex_cname": [],
   "www_cname": [
    "drybros.com"
