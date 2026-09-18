@@ -1720,7 +1720,19 @@ OUR WORK IS OURS (Santino 2026-09-14): directory listings, citations and
 business profiles are BUILT BY US, in-house, always. Never say "ordered",
 "purchased", "credits", or name any vendor or third-party service for this
 work — say "building", "created", "publishing". The client's perception
-that we create these ourselves is correct and must stay intact. The SCHEDULING SYSTEM (not
+that we create these ourselves is correct and must stay intact.
+WHAT WE BUILD (Santino 2026-09-18, live failure: Alfredo asked "Are you
+the ones making AI YouTube videos on my behalf?" and Monica said it wasn't
+something on our side — it was OUR System 5 videos on the channel we run
+for him). Our service for every client includes: their website and its
+blog posts, Google Business Profile posts and optimization, directory
+listings and citations, review campaigns, AND YouTube videos — we produce
+AI-made videos and publish them to a YouTube channel we set up and run
+for the client. When a client notices videos, posts, or listings about
+their business appearing online, the answer is a confident YES, that is
+us, part of the visibility system they pay for — never "not something on
+our side" and never "let me check". If they dislike any of it, note the
+feedback and pass it along; but authorship is never in doubt. The SCHEDULING SYSTEM (not
 you) can also book a NEW call: when a client asks to schedule, a separate
 flow offers real open slots and sends its own confirmation only after the
 calendar write succeeds — so YOUR text never proposes, names, or confirms a
@@ -9315,6 +9327,13 @@ the client's message. Read what the client is doing and answer with JSON:
   they reply with a bare yes/agreement (or paste that same name back),
   that IS "confirmed" with confirmed_name = that exact name. Never re-ask
   someone to pick a name they just agreed to.
+  THE EXCEPTION IS NARROW (Alfredo 2026-09-15: his "Cool / I like it"
+  praised a name Monica RETRACTED seconds later, and the flow locked a
+  different name he never picked): it applies ONLY when Monica's LATEST
+  message proposed exactly one name. If her latest message offers a
+  numbered choice ("reply 1 or 2") or lists several names, a bare positive
+  is NEVER confirmed — it is "question", ask which. An agreement that
+  arrived BEFORE a correction or a new set of options confirms nothing.
 - "declined": they clearly do not want a rename at all.
 - SERVICE-TERM OBJECTION (Santino 2026-09-14, the Frontline mold case):
   when they reject a name BECAUSE of a specific service word ("I don't
@@ -9582,6 +9601,13 @@ def _rename_send(company: dict, contact: dict, body: str, state: dict,
                           f"rename {label} blocked by the outbound guard "
                           f"({grounding})", dry_run, ping=True)
         return False
+    # VERBATIM DEDUPE (Alfredo 2026-09-15/18: the confirm body went out
+    # twice 13s apart, then replayed word-for-word 3 days later when an
+    # unrelated question was misread). The same rename text never goes to
+    # the same client twice in a row, whatever branch produced it.
+    if pend is not None and (pend.get("last_outbound") or "")[:400] == body[:400]:
+        print(f"    RENAME {label} SKIPPED (verbatim repeat of last outbound)")
+        return False
     print(f"    RENAME {label} ({len(body)} chars) -> {body!r}")
     # Conversation memory (Amin 09-13: "Yes" after a specific proposal got
     # "which name did you mean?"): the last outbound rides the state so the
@@ -9709,6 +9735,18 @@ def handle_rename_reply(company: dict, contact: dict, msg: dict,
               f"{'yes' if sa.get('offers') else 'no'} ({note})")
     quote_txt = (msg.get("body") or "").strip()[:300]
     if read == "confirmed":
+        # ALREADY CONFIRMED — IDEMPOTENT (Alfredo 2026-09-18: with the
+        # convo at awaiting_dba, his "Are you the ones making AI YouTube
+        # videos on my behalf?" was misread as a fresh confirmation and the
+        # 3-day-old confirm text replayed verbatim). Once a name is chosen
+        # and DBA instructions are out, a re-read of "confirmed" writes
+        # nothing and sends nothing; the message flows to the normal
+        # composer, which can actually answer what they said.
+        if pend.get("stage") in ("awaiting_dba", "dba_verified") and pend.get("chosen"):
+            print("    RENAME confirm re-read ignored (stage "
+                  f"{pend['stage']}, chosen already locked) — passing "
+                  "message to the normal composer")
+            return False
         want = _norm_name(result.get("confirmed_name"))
         match = next((c for c in cands if _norm_name(c["item"]) == want), None)
         if not match:
