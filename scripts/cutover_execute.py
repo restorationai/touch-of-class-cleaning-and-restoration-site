@@ -353,6 +353,19 @@ def local_llms_first_line(slug: str) -> str:
     return ""
 
 
+def _doh_mx(domain: str) -> list:
+    """Live MX via DNS-over-HTTPS (the LAN intercepts port 53)."""
+    try:
+        import requests as _rq
+        r = _rq.get("https://cloudflare-dns.com/dns-query",
+                    params={"name": domain, "type": "MX"},
+                    headers={"accept": "application/dns-json"}, timeout=10)
+        return [a for a in (r.json().get("Answer") or [])
+                if a.get("type") == 15]
+    except Exception:  # noqa: BLE001 — fail closed (treat as unknown/has-mail)
+        return [{"unknown": True}]
+
+
 def snapshot_path(slug: str) -> Path:
     return ROOT / "clients" / slug / "cutover" / "dns-snapshot.json"
 
@@ -1327,11 +1340,24 @@ def cmd_status(slug: str) -> int:
                     zmx = [r for r in zone_records(zone["id"])
                            if r.get("type") == "MX"
                            and strip_dot(r.get("name", "")) == domain]
-                    ph["email"] = {"ready": len(zmx) > 0, "snapshot": False,
-                                   "mx_count": len(zmx),
-                                   "detail": (f"{len(zmx)} MX record(s) staged in zone"
-                                              if zmx else
-                                              "zone exists but MX not staged — run provision")}
+                    if not zmx:
+                        # No MX in the zone AND none in the live world = the
+                        # domain hosts no email — there is nothing to protect
+                        # (Dry Bros 2026-09-18: GoDaddy SPF leftover, zero MX,
+                        # email-safe stuck red after a clean provision).
+                        live_mx = _doh_mx(domain)
+                        if not live_mx:
+                            ph["email"] = {"ready": True, "snapshot": False,
+                                           "mx_count": 0,
+                                           "detail": "no MX anywhere — domain "
+                                                     "hosts no email, nothing "
+                                                     "to protect"}
+                    if "email" not in ph:
+                        ph["email"] = {"ready": len(zmx) > 0, "snapshot": False,
+                                       "mx_count": len(zmx),
+                                       "detail": (f"{len(zmx)} MX record(s) staged in zone"
+                                                  if zmx else
+                                                  "zone exists but MX not staged — run provision")}
                 except Exception as e:
                     ph["email"] = {"ready": False,
                                    "detail": f"zone records unreadable: {str(e)[:120]}"}
