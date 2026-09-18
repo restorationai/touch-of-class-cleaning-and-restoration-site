@@ -51,6 +51,13 @@ WORKFLOW_DISPATCH_JOBS = [
     # Daily content lane (2026-09-05): "must run punctually for every single
     # client" — GH cron alone drops runs, so the worker guarantees the slot.
     ("content-daily", "content-daily.yml", ["10:23"], False, {}),
+    # Dev agent (2026-09-18): GitHub dropped the 2:07 AM cron the night the
+    # [DEV] backlog was draining — same cron-drop class as Monica's slots, so
+    # the same backstop. Two entries because the slots differ on weekends:
+    # 09:07 UTC runs nightly, 20:07 UTC is weekdays-only (mirrors the crons
+    # in dev-agent.yml).
+    ("dev-agent-nightly", "dev-agent.yml", ["09:07"], False, {}),
+    ("dev-agent-daytime", "dev-agent.yml", ["20:07"], True, {}),
 ]
 # How long after a slot we still fire a missed dispatch (worker restarts).
 DISPATCH_CATCHUP = timedelta(hours=3)
