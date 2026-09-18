@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-15-who-to-call-for-water-damage-restoration-in-santa-maria-ca",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-15T15:11:50Z",
       "priority": 1,
       "prioritized": true,
@@ -27,7 +27,9 @@
         "water cleanup Santa Maria",
         "water removal Santa Maria"
       ],
-      "source": "best-of-seeder"
+      "source": "best-of-seeder",
+      "written_at": "2026-09-18T12:24:51Z",
+      "post_url": "https://callcrs.com/blog/who-to-call-for-water-damage-restoration-in-santa-maria-ca/"
     },
     {
       "id": "2026-09-06-water-damage-and-mold-and-fire",
