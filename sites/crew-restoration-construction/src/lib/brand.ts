@@ -47,14 +47,14 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.8",
-  gbpReviewCount: "502",
+  gbpReviewCount: "506",
   gbpReviews: [
-    { author: "Kelli", rating: 5, text: "Victor was awesome!! He was very helpful!", when: "September 2026" },
+    { author: "Noa", rating: 5, text: "Sy is super professional and has astounding communication skills!! Highly recommend crew and especially Sy for all your needs!!", when: "September 2026" },
+    { author: "Sarah", rating: 5, text: "Jayden was outstanding to work with! From start to finish, he was professional, knowledgeable, and went above and beyond on all aspects of our project. I highly recommend Jayden and his crew! 5 stars!", when: "September 2026" },
+    { author: "Mallory", rating: 5, text: "Sy is exceptional at his job!! So kind and respectful and knows what he’s going!!! Love Crew!", when: "September 2026" },
+    { author: "Larry", rating: 5, text: "Brandi, Daniel and Jesse are definitely top of the line professional and prompt. Had my hot water heater replaced and back up and going so quick I was shocked. Thank you all!", when: "September 2026" },
+    { author: "John", rating: 5, text: "Zach Trey and sy... awesome guys vary professional they were here at the time they said just all round grate guys", when: "September 2026" },
     { author: "Ryan", rating: 5, text: "Bryson, did a great job at cleaning up our sewage back up!", when: "August 2026" },
-    { author: "Rylie", rating: 5, text: "loren and jason did an amazing job on the deck at the cabin. I would highly recommend for their expertise", when: "August 2026" },
-    { author: "Andrea", rating: 5, text: "We enlisted the help of Crew Inc. for an after-hours water emergency. Their team was quick to respond and friendly throughout the process despite it being an unexpected job for them. Brandon & Trey put us at ease about the situation and what comes next. We are grateful we called them!", when: "August 2026" },
-    { author: "John", rating: 5, text: "Brandy was amazing helping us curate a beautiful renovation. Her communication was on point and style gave our house a much needed boost. If you’re ever in need of construction or a style boost to your real estate, you can’t beat the quality you’ll get with Brandy.", when: "August 2026" },
-    { author: "Ryan", rating: 5, text: "Zach is great at communicating, works hard and great restoration services", when: "August 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Sioux Falls, SD.",
   ctaLabel: "24/7 Emergency Line",

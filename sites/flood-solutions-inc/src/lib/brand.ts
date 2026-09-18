@@ -57,9 +57,16 @@ export const brand = {
   sameAsUrls: ["https://www.facebook.com/floodsolutions"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
-  gbpRatingValue: "",
-  gbpReviewCount: "",
-  gbpReviews: [] as { author: string; rating: number; text: string; when: string }[],
+  gbpRatingValue: "4.4",
+  gbpReviewCount: "35",
+  gbpReviews: [
+    { author: "Lisa", rating: 4, text: "Staff that visited my home for Mold Restoration process were respectful in every aspect to include my need for less as possible demolition. Both (Will & Stephanie) shared procedures that would be taken, monitored progression daily & ensured I was pleased with the services provided.", when: "July 2026" },
+    { author: "Craig", rating: 5, text: "Did great job in clean up and sanitation", when: "July 2026" },
+    { author: "Angela", rating: 5, text: "I have utilized Flood and Fire solutions twice for my home. I would highly recommend them and will always use them for any needs in the future if I unfortunately have the need. Crew worked very hard, efficiently, and professionally. Luis and his crew were very impressive and take pride in what they…", when: "February 2026" },
+    { author: "Sandy", rating: 5, text: "Louis was very knowledgeable and helpful with the process. Would definitely recommend Flood and Fire solutions.", when: "December 2025" },
+    { author: "Chuck", rating: 5, text: "Very knowledgeable and friendly employees. I had a flooded crawl space that I couldn't take care of myself. But Louis and his crew talked me through the whole process and then finished the job quickly and thoroughly.", when: "October 2025" },
+    { author: "Danielle", rating: 5, text: "Such a great experience this team was so helpful. Got my basement cleaned up and made sure there was no damage to the walls or anything else. They handled everything so fast.", when: "October 2025" },
+  ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Macomb, MI.",
   ctaLabel: "24/7 Emergency Line",
   // Vertical trade-identity copy — resolved at scaffold time from
