@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+commercial fire damage restoration,transactional,320,0,,1,fire damage restoration,,,yes
+soot removal services,transactional,140,0,19.84,2,fire damage restoration,,,no
+fire damage restoration,transactional,110000,13,35.4,3,fire damage restoration,,/services/fire-damage-restoration/,no
+fire damage restoration services,transactional,110000,13,35.4,3,fire damage restoration,,/services/fire-damage-restoration/,no
+fire damage restoration near me,transactional,14800,10,17.17,3,fire damage restoration,,/services/fire-damage-restoration/,no
+fire damage restoration company,transactional,2400,2,43.16,3,fire damage restoration,,/services/fire-damage-restoration/,no
+fire restoration company,transactional,1900,2,43.79,3,fire damage restoration,,/services/fire-damage-restoration/,no
+fire damage restoration contractors,transactional,590,0,32.13,3,fire damage restoration,,/services/fire-damage-restoration/,no
+fire damage restoration companies near me,transactional,390,4,13.36,3,fire damage restoration,,/services/fire-damage-restoration/,no
+residential fire damage restoration,transactional,170,11,,3,fire damage restoration,,/services/fire-damage-restoration/,no
+fire clean up services near me,transactional,170,5,16.12,3,fire damage restoration,,/services/fire-damage-restoration/,no
+fire damage restoration dallas,transactional,170,3,,3,fire damage restoration,Dallas,/service-areas/dallas-tx/fire-damage-restoration/,no
+fire damage restoration dallas tx,transactional,170,0,,3,fire damage restoration,Dallas,/service-areas/dallas-tx/fire-damage-restoration/,no
+dallas fire damage restoration,transactional,170,4,,3,fire damage restoration,Dallas,/service-areas/dallas-tx/fire-damage-restoration/,no
+fire damage restoration in dallas,transactional,170,,,3,fire damage restoration,Dallas,/service-areas/dallas-tx/fire-damage-restoration/,no
+fire damage restoration grand prairie,transactional,70,,,3,fire damage restoration,Grand Prairie,/service-areas/grand-prairie-tx/fire-damage-restoration/,no
+house fire damage restoration,transactional,40,9,,3,fire damage restoration,,/services/fire-damage-restoration/,no
+smoke damage cleaning near me,transactional,40,0,46.54,3,fire damage restoration,,/services/smoke-damage-restoration/,no
+emergency fire damage restoration services,transactional,20,,,3,fire damage restoration,,/services/fire-damage-restoration/,no
+smoke damage restoration dallas,transactional,10,,,3,fire damage restoration,Dallas,/service-areas/dallas-tx/smoke-damage-restoration/,no
+fire damage restoration cost,commercial,260,1,3.69,1,fire damage restoration,,,yes
+fire and water damage restoration,commercial,1300,29,44.69,2,fire damage restoration,,,no
+fire and smoke damage restoration,commercial,590,12,28.79,2,fire damage restoration,,,no
+fire smoke water damage restoration,commercial,10,30,,2,fire damage restoration,,,no
+does homeowners insurance cover fire damage,informational,260,30,16.66,1,fire damage restoration,,,yes
+what to do first after a house fire,informational,,,,1,fire damage restoration,,,yes
+how long does fire damage restoration take,informational,,,,1,fire damage restoration,,,no
+is it safe to go inside after a house fire,informational,,,,1,fire damage restoration,,,no
+what items can be saved after a house fire,informational,,,,1,fire damage restoration,,,no
+what should you throw away after a house fire,informational,,,,1,fire damage restoration,,,no
+how to file a fire damage insurance claim,informational,,,,1,fire damage restoration,,,yes
+how to prevent mold after a house fire,informational,,,,1,fire damage restoration,,,no
+fire restoration cost per square foot,informational,40,1,17.32,2,fire damage restoration,,,no
+house fire debris removal cost,informational,40,0,51.47,2,fire damage restoration,,,no
+fire restoration checklist,informational,20,3,27.51,2,fire damage restoration,,,no
+what does a fire restoration company do,informational,20,0,36.1,2,fire damage restoration,,,no
+how much does fire damage restoration cost,informational,10,,,2,fire damage restoration,,,no
+how to get rid of smoke smell after fire,informational,90,5,4.44,3,fire damage restoration,,/blog/smoke-odor-removal-techniques/,no
+fire damage restoration process,informational,50,14,,3,fire damage restoration,,/blog/fire-damage-restoration-process/,no
+fire damage restoration steps,informational,20,2,,3,fire damage restoration,,/blog/fire-damage-restoration-process/,no
