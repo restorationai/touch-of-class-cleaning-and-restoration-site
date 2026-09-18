@@ -1,0 +1,553 @@
+{
+ "domain": "drybros.com",
+ "harvested_at": "2026-09-18T18:06:40+00:00",
+ "counts": {
+  "total": 60,
+  "sitemap": 60,
+  "crawl": 0,
+  "backlinked": 1,
+  "gsc": 0
+ },
+ "urls": [
+  {
+   "url": "https://drybros.com/",
+   "path": "/",
+   "title": "",
+   "backlinks": 28,
+   "referring_domains": 24,
+   "gsc_clicks": 0,
+   "source": "sitemap,backlinks"
+  },
+  {
+   "url": "https://drybros.com/24-7-water-restoration",
+   "path": "/24-7-water-restoration",
+   "title": "24/7 Water Restoration in Chicago",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/apartment-water-damage-chicago",
+   "path": "/apartment-water-damage-chicago",
+   "title": "Apartment Water Damage Restoration in Chicago",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/burr-ridge-water-damage-restoration",
+   "path": "/burr-ridge-water-damage-restoration",
+   "title": "Emergency Water Leak & Restoration in Burr Ridge | Dry Bros\u2122",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/burst-pipe-water-damage",
+   "path": "/burst-pipe-water-damage",
+   "title": "Burst Pipe Water Damage Restoration in Chicago",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/careers",
+   "path": "/careers",
+   "title": "Restoration Careers in Chicago | Dry Bros\u2122",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/ceiling-leak-water-damage",
+   "path": "/ceiling-leak-water-damage",
+   "title": "Ceiling Leak Water Damage Restoration in Chicago",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/chicago-water-damage-company",
+   "path": "/chicago-water-damage-company",
+   "title": "Chicago Water Damage Restoration Company",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/chicago-water-damage-restoration",
+   "path": "/chicago-water-damage-restoration",
+   "title": "Emergency Water Leak & Restoration in Chicago | Dry Bros\u2122",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/commercial-flood-cleanup",
+   "path": "/commercial-flood-cleanup",
+   "title": "Commercial Flood Cleanup in Chicago",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/commercial-roof-leak-restoration",
+   "path": "/commercial-roof-leak-restoration",
+   "title": "Commercial Roof Leak Restoration in Chicago",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/commercial-water-damage-restoration",
+   "path": "/commercial-water-damage-restoration",
+   "title": "Commercial Water Damage Restoration in Chicago",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/condo-water-damage-chicago",
+   "path": "/condo-water-damage-chicago",
+   "title": "Condo Water Damage Restoration in Chicago",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/dishwasher-leak-water-damage-chicago",
+   "path": "/dishwasher-leak-water-damage-chicago",
+   "title": "Dishwasher Leak Water Damage in Chicago",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/drying-certificate",
+   "path": "/drying-certificate",
+   "title": "Drying Certificate Chicago, IL | Dry Bros\u2122",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/emergency-water-removal-chicago",
+   "path": "/emergency-water-removal-chicago",
+   "title": "Emergency Water Removal in Chicago",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/evanston-water-damage-restoration",
+   "path": "/evanston-water-damage-restoration",
+   "title": "Emergency Water Leak & Restoration in Evanston | Dry Bros\u2122",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/financing",
+   "path": "/financing",
+   "title": "Restoration Financing Options Chicago, IL | Dry Bros\u2122",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/fire-restoration",
+   "path": "/fire-restoration",
+   "title": "Fire Restoration Chicago, IL | Dry Bros\u2122",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/fire-sprinkler-water-damage-chicago",
+   "path": "/fire-sprinkler-water-damage-chicago",
+   "title": "Fire Sprinkler Water Damage in Chicago",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/flood-restoration",
+   "path": "/flood-restoration",
+   "title": "Flood Restoration in Chicago",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/flooded-basement-cleanup",
+   "path": "/flooded-basement-cleanup",
+   "title": "Flooded Basement Cleanup in Chicago",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/frozen-pipe-water-damage-chicago",
+   "path": "/frozen-pipe-water-damage-chicago",
+   "title": "Frozen Pipe Water Damage in Chicago",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/hinsdale-water-damage-restoration",
+   "path": "/hinsdale-water-damage-restoration",
+   "title": "Emergency Water Leak & Restoration in Hinsdale | Dry Bros\u2122",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/insurance-claims",
+   "path": "/insurance-claims",
+   "title": "Insurance Claim Support Chicago, IL | Dry Bros\u2122",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/kitchen-leak-water-damage-chicago",
+   "path": "/kitchen-leak-water-damage-chicago",
+   "title": "Kitchen Leak Water Damage Restoration in Chicago",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/local-restoration",
+   "path": "/local-restoration",
+   "title": "Emergency Water Leak & Restoration in Chicago | Dry Bros\u2122",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/mold-restoration",
+   "path": "/mold-restoration",
+   "title": "Mold Restoration Chicago, IL | Dry Bros\u2122",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/multifamily-water-damage-chicago",
+   "path": "/multifamily-water-damage-chicago",
+   "title": "Multifamily Water Damage Restoration in Chicago",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/oak-brook-water-damage-restoration",
+   "path": "/oak-brook-water-damage-restoration",
+   "title": "Emergency Water Leak & Restoration in Oak Brook | Dry Bros\u2122",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/oak-park-water-damage-restoration",
+   "path": "/oak-park-water-damage-restoration",
+   "title": "Emergency Water Leak & Restoration in Oak Park | Dry Bros\u2122",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/office-water-damage-chicago",
+   "path": "/office-water-damage-chicago",
+   "title": "Office Water Damage Restoration in Chicago",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/palatine-water-damage-restoration",
+   "path": "/palatine-water-damage-restoration",
+   "title": "Emergency Water Leak & Restoration in Palatine | Dry Bros\u2122",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/plumbing-leak-water-damage-chicago",
+   "path": "/plumbing-leak-water-damage-chicago",
+   "title": "Plumbing Leak Water Damage Restoration in Chicago",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/privacy",
+   "path": "/privacy",
+   "title": "Privacy Policy",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/property-management-water-damage-chicago",
+   "path": "/property-management-water-damage-chicago",
+   "title": "Water Damage Help for Chicago Property Managers",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/reconstruction",
+   "path": "/reconstruction",
+   "title": "Reconstruction Chicago, IL | Dry Bros\u2122",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/restaurant-water-damage-chicago",
+   "path": "/restaurant-water-damage-chicago",
+   "title": "Restaurant Water Damage Restoration in Chicago",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/retail-water-damage-chicago",
+   "path": "/retail-water-damage-chicago",
+   "title": "Retail Water Damage Restoration in Chicago",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/roof-leak-water-damage-chicago",
+   "path": "/roof-leak-water-damage-chicago",
+   "title": "Roof Leak Water Damage Restoration in Chicago",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/schaumburg-water-damage-restoration",
+   "path": "/schaumburg-water-damage-restoration",
+   "title": "Emergency Water Leak & Restoration in Schaumburg | Dry Bros\u2122",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/services",
+   "path": "/services",
+   "title": "Water Damage Restoration Chicago | Dry Bros\u2122",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/shower-leak-water-damage-chicago",
+   "path": "/shower-leak-water-damage-chicago",
+   "title": "Shower Leak Water Damage in Chicago",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/stop-the-leak",
+   "path": "/stop-the-leak",
+   "title": "Stop the Leak | Chicago Leak Repair & Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/storm-water-cleanup-chicago",
+   "path": "/storm-water-cleanup-chicago",
+   "title": "Storm Water Cleanup in Chicago",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/sump-pump-failure-chicago",
+   "path": "/sump-pump-failure-chicago",
+   "title": "Sump Pump Failure Cleanup in Chicago",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/terms",
+   "path": "/terms",
+   "title": "Terms of Use",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/toilet-overflow-cleanup-chicago",
+   "path": "/toilet-overflow-cleanup-chicago",
+   "title": "Toilet Overflow Cleanup in Chicago",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/visual-projects",
+   "path": "/visual-projects",
+   "title": "Visual Water Restoration Projects | Dry Bros\u2122",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/warehouse-water-damage-chicago",
+   "path": "/warehouse-water-damage-chicago",
+   "title": "Warehouse Water Damage Restoration in Chicago",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/washing-machine-leak-chicago",
+   "path": "/washing-machine-leak-chicago",
+   "title": "Washing Machine Leak Cleanup in Chicago",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/water-damage-emergency",
+   "path": "/water-damage-emergency",
+   "title": "Water Damage Emergency Response in Chicago",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/water-damage-insurance-documentation-chicago",
+   "path": "/water-damage-insurance-documentation-chicago",
+   "title": "Water Damage Documentation Help in Chicago",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/water-damaged-hardwood-floors-chicago",
+   "path": "/water-damaged-hardwood-floors-chicago",
+   "title": "Water-Damaged Hardwood Floors in Chicago",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/water-extraction-chicago",
+   "path": "/water-extraction-chicago",
+   "title": "Water Extraction in Chicago",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/water-heater-leak-chicago",
+   "path": "/water-heater-leak-chicago",
+   "title": "Water Heater Leak Cleanup in Chicago",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/water-restoration",
+   "path": "/water-restoration",
+   "title": "Water Restoration Chicago, IL | Dry Bros\u2122",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/wet-drywall-repair-chicago",
+   "path": "/wet-drywall-repair-chicago",
+   "title": "Wet Drywall Restoration in Chicago",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/why-dry-bros",
+   "path": "/why-dry-bros",
+   "title": "Why Dry Bros\u2122 | Chicago Restoration Team",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://drybros.com/wilmette-water-damage-restoration",
+   "path": "/wilmette-water-damage-restoration",
+   "title": "Emergency Water Leak & Restoration in Wilmette | Dry Bros\u2122",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  }
+ ]
+}
