@@ -66,6 +66,10 @@ def _run_pitch(entry: dict) -> tuple[str, str]:
            "rename-pitch", "--company", entry["company_id"],
            "--send", "--operator",
            "--channel", entry.get("channel") or "sms"]
+    if entry.get("force"):
+        # App "Send anyway": superadmin chose to override a coverage
+        # refusal for THIS send only — recorded on the entry.
+        cmd.append("--force")
     for n in entry.get("note") or []:
         cmd += ["--note", n]
     r = subprocess.run(cmd, capture_output=True, text=True, timeout=600,

@@ -9134,9 +9134,18 @@ def _rename_coverage_gaps(company: dict,
         pass
     blob = " | ".join(hay)
     names = " ".join(_norm_name(c["item"]) for c in cands)
+    # RULE-OUT store (Santino 2026-09-18: the app must be able to resolve a
+    # coverage refusal natively). A lane recorded in
+    # rename_intent.name_ruled_out was CONSIDERED for the name and excluded
+    # on purpose — it stays a service, it just doesn't block the pitch.
+    ruled_out = set(((company.get("integration_settings") or {})
+                     .get("rename_intent") or {}).get("name_ruled_out") or [])
     blocking, advisory = [], []
     for sell_stem, name_stem, blocks in _COVERAGE_TERMS:
         if sell_stem in blob and name_stem not in names:
+            if sell_stem in ruled_out:
+                advisory.append(f"{sell_stem} (ruled out of naming)")
+                continue
             (blocking if blocks else advisory).append(sell_stem)
     return blocking, advisory
 
