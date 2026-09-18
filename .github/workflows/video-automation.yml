@@ -23,7 +23,11 @@ on:
 jobs:
   videos:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    # 180 not 120 (2026-09-18): the fixed pipeline PRODUCES steadily
+    # (~7 min/video — 16 published in the last 2h window before the old cap
+    # cancelled it). With 3 weeks of backfill in the roster, 120 was a
+    # budget problem wearing a timeout's face.
+    timeout-minutes: 180
 
     steps:
       - name: Checkout repo
@@ -63,7 +67,7 @@ jobs:
           CLOUDFLARE_PAGES_API_TOKEN:   ${{ secrets.CLOUDFLARE_PAGES_API_TOKEN }}
           GITHUB_PERSONAL_ACCESS_TOKEN: ${{ secrets.GH_PAT }}
         run: |
-          python3 scripts/video_cron.py \
+          python3 -u scripts/video_cron.py \
             ${{ github.event.inputs.slug && format('--slug {0}', github.event.inputs.slug) || '' }} \
             ${{ github.event.inputs.dry_run == 'true' && '--dry-run' || '' }}
 
