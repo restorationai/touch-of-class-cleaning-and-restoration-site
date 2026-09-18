@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-12-water-damage-of-any-kind",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-12T13:40:21Z",
       "priority": 1,
       "content_type": "target_term",
@@ -11,7 +11,56 @@
       "intent": "commercial",
       "target_word_count": 1400,
       "city_anchor": "chesterfield-mi",
-      "source": "app target-term (onboarding)"
+      "source": "app target-term (onboarding)",
+      "written_at": "2026-09-18T11:57:48Z",
+      "post_url": "https://None/blog/water-damage-of-any-kind/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/water-damage-of-any-kind.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "idifiers and air movers, positioned per IICRC drying science, are required for a prop",
+          "reason": "certification mention looks like a regulatory reference \u2014 verify it is not a self-claim"
+        },
+        {
+          "file": "src/content/blog/water-damage-of-any-kind.md",
+          "part": "body",
+          "family": "service-scope",
+          "severity": "review",
+          "matched": "mold remediation",
+          "context": "sit, the more likely you are to face a mold remediation cost on top of the water damage bill.",
+          "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration"
+        },
+        {
+          "file": "src/content/blog/water-damage-of-any-kind.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "utions, and the restoration scope. The [IICRC S500 standard](https://www.iicrc.org),",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/water-damage-of-any-kind.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "protocols. Beyond water category, the IICRC also classifies losses by how far water",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/water-damage-of-any-kind.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "s positioned at specific angles per the IICRC drying science) combined with LGR dehum",
+          "reason": "names a certification not present in brand.certifications"
+        }
+      ]
     },
     {
       "id": "2026-09-12-best-water-damage-restoration-in-macomb-mi",
