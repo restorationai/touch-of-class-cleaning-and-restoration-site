@@ -13,7 +13,7 @@
     "url_count": 128,
     "generated_at": "2026-09-17T15:06:19.345471+00:00"
   },
-  "updated_at": "2026-09-18T18:05:08.779813+00:00",
+  "updated_at": "2026-09-18T18:23:00.044645+00:00",
   "indexnow_key": "c6ac0439f07d44adb611dfb90b41c8e1",
   "build": {
     "scaffolded_at": "2026-09-08T20:19:57.946792+00:00",
@@ -23,9 +23,10 @@
     "url_count": 56,
     "pages_status": "created",
     "last_rendered_at": "2026-09-17T14:24:37.839122+00:00",
-    "last_pushed_staging_at": "2026-09-18T18:05:08.779765+00:00"
+    "last_pushed_staging_at": "2026-09-18T18:05:08.779765+00:00",
+    "last_pushed_main_at": "2026-09-18T18:23:00.044625+00:00"
   },
-  "build_status": "pushed_staging",
+  "build_status": "pushed_main",
   "brightlocal": {
     "location_id": 4152728,
     "campaign_id": 999576,
