@@ -120,6 +120,221 @@
           "reason": "claims 5 reviews but no synced gbpReviewCount exists for this site"
         }
       ]
+    },
+    {
+      "id": "2026-09-18-water-damage-restoration-cost-little-falls-mn",
+      "status": "written",
+      "queued_at": "2026-09-18T23:20:00Z",
+      "written_at": "2026-09-18T23:23:12Z",
+      "post_url": "https://heritagermn.com/blog/water-damage-restoration-cost-little-falls-mn/",
+      "priority": 1,
+      "primary_keyword": "water damage restoration cost",
+      "intent": "commercial",
+      "volume": 720,
+      "kd": 0,
+      "fan_out_cluster": [
+        "water damage restoration cost per square foot",
+        "cost of water damage restoration",
+        "water damage restoration prices",
+        "how much does water damage restoration cost",
+        "what does water damage restoration include"
+      ],
+      "suggested_slug": "water-damage-restoration-cost-little-falls-mn",
+      "suggested_title": "Water Damage Restoration Cost in Little Falls, MN: What Homeowners Actually Pay",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/water-cleanup/",
+        "/service-areas/st-cloud-mn/water-damage-restoration/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "city_anchor": "little-falls-mn",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.iii.org/article/what-if-i-have-water-damage"
+      ],
+      "notes": "Highest-value item from this seed: 720/mo at KD 0 with no cost page anywhere in the commercial partition. Give real cost bands by job size (single room, basement, whole floor) and by category 1/2/3 water, plus a cost-per-square-foot table, then explain what moves the number (water category, drying days, materials removed). Do NOT price mold remediation: mold is not in plan-input services. Do NOT cite any Google rating or review count: claims-lint threw review-count errors on the prior best-of post for this client. Attribute every dollar figure to national ranges and say local pricing requires an on-site assessment.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-little-falls-mn.md",
+          "part": "body",
+          "family": "24/7",
+          "severity": "error",
+          "matched": "24 hours",
+          "context": "humidifiers run continuously, typically 24 hours a day, until moisture readings reach ta",
+          "reason": "claims round-the-clock availability but brand.hours is \"(unset)\""
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-little-falls-mn.md",
+          "part": "body",
+          "family": "service-scope",
+          "severity": "review",
+          "matched": "Mold Remediation",
+          "context": "Fire and Smoke Restoration (FSRT), and Mold Remediation (AMRT), and is EPA Lead-Safe Certified.",
+          "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, storm-damage-restoration, general-contracting, water-cleanup"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-18-water-damage-restoration-process-st-cloud-mn",
+      "status": "queued",
+      "queued_at": "2026-09-18T23:20:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "water damage restoration process",
+      "intent": "informational",
+      "volume": 110,
+      "kd": 1,
+      "fan_out_cluster": [
+        "what does water damage restoration include",
+        "can water damage be restored",
+        "water damage restoration equipment and drying",
+        "water damage restoration timeline",
+        "do i need a licensed water damage restoration company"
+      ],
+      "suggested_slug": "water-damage-restoration-process-st-cloud-mn",
+      "suggested_title": "The Water Damage Restoration Process in St. Cloud, MN: Every Step, Start to Finish",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/service-areas/st-cloud-mn/water-damage-restoration/",
+        "/services/water-cleanup/",
+        "/blog/how-long-does-water-damage-restoration-take/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "city_anchor": "st-cloud-mn",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "110/mo at KD 1 and genuinely uncovered: the existing timeline post answers how long, not what happens. Structure as inspection, water extraction, structural drying, cleaning and sanitizing, repair and rebuild, with the equipment named at each step (moisture meters, air movers, LGR dehumidifiers). Link the timeline post for duration instead of repeating it. Certifications to cite: IICRC WRT, ASD, FSRT, license BC807677.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration"
+    },
+    {
+      "id": "2026-09-18-how-long-dry-out-walls-water-damage-brainerd-mn",
+      "status": "queued",
+      "queued_at": "2026-09-18T23:20:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "how long does it take to dry out walls from water damage",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "will a dehumidifier pull moisture out of drywall",
+        "how to draw moisture out of drywall",
+        "how long should you run a dehumidifier in your house",
+        "where not to place a dehumidifier",
+        "how long does water damage restoration take"
+      ],
+      "suggested_slug": "how-long-dry-out-walls-water-damage-brainerd-mn",
+      "suggested_title": "How Long Does It Take to Dry Out Walls From Water Damage? A Brainerd, MN Guide",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/service-areas/brainerd-mn/water-damage-restoration/",
+        "/blog/how-long-does-water-damage-restoration-take/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": "brainerd-mn",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Sourced from live People Also Ask, including a full dehumidifier sub-cluster that the PAA box returns for the seed. Zero measured Google volume: this is an AI-retrieval and PAA play, so write tight extractable answers (a direct one-sentence answer under each H2). Cover the IICRC 3 to 5 day drying standard, why drywall holds water longer than it looks, and the Minnesota winter angle (closed-up houses, low outdoor humidity helps, frozen pipe breaks).",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration"
+    },
+    {
+      "id": "2026-09-18-water-damage-behind-walls-little-falls-mn",
+      "status": "queued",
+      "queued_at": "2026-09-18T23:20:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "how do i know if there is water damage behind my walls",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "signs of water damage behind drywall",
+        "musty smell but no visible water damage",
+        "how to check for moisture in walls",
+        "water stains on ceiling and walls",
+        "what does water damage restoration include"
+      ],
+      "suggested_slug": "water-damage-behind-walls-little-falls-mn",
+      "suggested_title": "How Do I Know if There Is Water Damage Behind My Walls? 7 Signs Little Falls, MN Homeowners Miss",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/water-cleanup/",
+        "/blog/mold-after-water-damage/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "city_anchor": "little-falls-mn",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.epa.gov/mold/mold-course-chapter-2"
+      ],
+      "notes": "Hidden moisture was the top theme in the ChatGPT decomposition of this seed. Nothing on the site covers detection. Signs list: staining, bubbling paint, warped trim, musty odor, unexplained water bill jump, soft drywall, cold spots. Explain what a professional moisture meter and thermal camera add over a visual check. Mold may be referenced as a consequence only, never offered as a service: mold remediation is not in plan-input services.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration"
+    },
+    {
+      "id": "2026-09-18-is-water-damage-permanent-sartell-mn",
+      "status": "queued",
+      "queued_at": "2026-09-18T23:20:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "how to tell if water damage is permanent",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "can water damage be restored",
+        "when does drywall need to be replaced after water damage",
+        "how to tell if water damage is old or new",
+        "warped floors after water damage",
+        "water damage restoration process"
+      ],
+      "suggested_slug": "is-water-damage-permanent-sartell-mn",
+      "suggested_title": "How to Tell if Water Damage Is Permanent (and What Can Still Be Saved) in Sartell, MN",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/general-contracting/",
+        "/service-areas/sartell-mn/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "general-contracting"
+      ],
+      "city_anchor": "sartell-mn",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "PAA question that maps directly to the repair-versus-replace decision, which is where general contracting gets sold. Save-versus-replace table by material (drywall, hardwood, subfloor, insulation, cabinetry, carpet pad). Zero measured volume: write for extractable answers. Natural bridge to the general-contracting page for rebuild work.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration"
     }
   ]
 }
