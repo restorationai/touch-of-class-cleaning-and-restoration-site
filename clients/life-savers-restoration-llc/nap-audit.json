@@ -1,0 +1,133 @@
+{
+  "slug": "life-savers-restoration-llc",
+  "checked_at": "2026-09-18T22:49:43.677164+00:00",
+  "canonical": {
+    "name": "Life Savers Restoration LLC",
+    "phone": "(702) 845-1325",
+    "street_address": "7685 Commercial Way Ste G",
+    "city": "Henderson",
+    "state": "NV",
+    "postal_code": "89011",
+    "domain": "lifesaversrestorationvegas.com"
+  },
+  "results": [
+    {
+      "platform": "google-maps",
+      "url": null,
+      "source": "dataforseo maps live",
+      "status": "not_found",
+      "notes": "listing not found in top 1 maps results for brand query"
+    },
+    {
+      "platform": "gbp-profile",
+      "source": "marketing_gbp_profiles",
+      "status": "ok",
+      "found_name": "Life Savers Restoration",
+      "found_phone": "(702) 766-5003",
+      "found_address": "7685 Commercial Way suite G, Henderson, NV, 89011",
+      "name_match": true,
+      "phone_match": false,
+      "address_match": true
+    },
+    {
+      "platform": "bbb",
+      "url": "https://www.bbb.org/us/nv/henderson/profile/fire-water-damage-restoration/life-savers-restoration-llc-1086-90068182",
+      "status": "ok",
+      "fetch": "google_serp_snippet",
+      "phones_found": [
+        "(702) 845-1325"
+      ],
+      "phone_match": true,
+      "address_match": null,
+      "notes": "via Google snippet (page bot-blocked); canonical street address not found on page"
+    },
+    {
+      "platform": "houzz",
+      "url": "https://www.houzz.com/pro/webuser-359873700/life-savers-restoration-llc",
+      "status": "ok",
+      "fetch": "http",
+      "phones_found": [
+        "(888) 316-4595",
+        "(702) 612-2557",
+        "(888) 610-7168",
+        "(800) 340-9610",
+        "(888) 316-6960",
+        "(714) 689-6633"
+      ],
+      "phone_match": false,
+      "address_match": true,
+      "notes": "canonical phone absent; page shows (888) 316-4595, (702) 612-2557, (888) 610-7168"
+    },
+    {
+      "platform": "homeguide",
+      "url": "https://homeguide.com/nv/henderson/water-damage-restoration/life-savers-restoration-llc-UlP_1GhU4",
+      "status": "ok",
+      "fetch": "http",
+      "phones_found": [
+        "(702) 845-1325"
+      ],
+      "phone_match": true,
+      "address_match": true,
+      "notes": ""
+    },
+    {
+      "platform": "apple_maps",
+      "url": "https://maps.apple.com/place?place-id=I460631CB250672E&address=7685+Commercial+Way%2C+Ste+G%2C+Henderson%2C+NV++89011%2C+United+States&coordinate=36.049802%2C-115.023178&name=Life+Savers+Restoration&_provider=9902",
+      "status": "ok",
+      "fetch": "http",
+      "phones_found": [
+        "(702) 845-1325"
+      ],
+      "phone_match": true,
+      "address_match": true,
+      "notes": ""
+    },
+    {
+      "platform": "bing_places",
+      "url": "https://www.bing.com/maps/search?style=r&q=Life+Savers+Restoration%2C+7685+Commercial+Way%2C+Henderson%2C+NV+89011%2C+United+States&ss=id.local_ypid%3A%22YNF5F9163E27EF0BFC%22&st=Life+Savers+Restoration&sfa=7685+Commercial+Way%2C+Henderson%2C+NV+89011%2C+United+States&FORM=QBMV&cp=36.050137%7E-115.023209&lvl=16",
+      "status": "ok",
+      "fetch": "http",
+      "phones_found": [],
+      "phone_match": null,
+      "address_match": true,
+      "notes": "no phone number found on page"
+    },
+    {
+      "platform": "yellowpages",
+      "url": "https://www.yellowpagesdirectory.com/Henderson-NV/Life+Savers+Restoration+LLC/75688",
+      "status": "ok",
+      "fetch": "http",
+      "phones_found": [
+        "(702) 845-1325",
+        "(574) 516-3595",
+        "(558) 963-7442",
+        "(800) 959-0989"
+      ],
+      "phone_match": true,
+      "address_match": false,
+      "notes": ""
+    }
+  ],
+  "duplicates": [],
+  "mismatches": [
+    {
+      "kind": "phone",
+      "platform": "gbp-profile",
+      "target": "gbp-profile",
+      "title": "Fix wrong phone number on gbp-profile"
+    },
+    {
+      "kind": "phone",
+      "platform": "houzz",
+      "target": "https://www.houzz.com/pro/webuser-359873700/life-savers-restoration-llc",
+      "title": "Fix wrong phone number on houzz"
+    },
+    {
+      "kind": "address",
+      "platform": "yellowpages",
+      "target": "https://www.yellowpagesdirectory.com/Henderson-NV/Life+Savers+Restoration+LLC/75688",
+      "title": "Fix address on yellowpages"
+    }
+  ],
+  "actions_upserted": 0
+}

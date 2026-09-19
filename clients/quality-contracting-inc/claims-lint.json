@@ -1,6 +1,6 @@
 {
   "slug": "quality-contracting-inc",
-  "generated_at": "2026-09-17T20:34:03Z",
+  "generated_at": "2026-09-18T22:55:33Z",
   "truth": {
     "hours": "",
     "is_247": false,
@@ -10,11 +10,11 @@
     "response_minutes": null,
     "family_owned": false,
     "founded_year": "",
-    "gbp_review_count": 100,
+    "gbp_review_count": 102,
     "vertical": "restoration"
   },
   "errors": 16,
-  "review_flags": 22,
+  "review_flags": 25,
   "violations": [
     {
       "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
@@ -239,6 +239,33 @@
       "severity": "review",
       "matched": "IICRC",
       "context": "u receive. **Category of water.** The [IICRC S500 standard](https://www.iicrc.org) c",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/who-to-call-for-water-damage-restoration-in-auburn-ma.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "the structure reaches dry standard per IICRC S500.\"}, {\"question\": \"What is the diff",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/who-to-call-for-water-damage-restoration-in-auburn-ma.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "cavities or subfloors. Proper drying to IICRC S500 dry standard is the primary preven",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/who-to-call-for-water-damage-restoration-in-auburn-ma.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "footage and the class of loss, per the [IICRC S500 Standard for Professional Water Da",
       "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
     },
     {

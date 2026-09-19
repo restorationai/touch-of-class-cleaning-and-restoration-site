@@ -1,6 +1,6 @@
 {
   "slug": "homepriderestorationandcleaning",
-  "generated_at": "2026-09-17T20:34:02Z",
+  "generated_at": "2026-09-18T22:55:32Z",
   "truth": {
     "hours": "24/7",
     "is_247": true,
@@ -18,8 +18,44 @@
     "vertical": "restoration"
   },
   "errors": 0,
-  "review_flags": 13,
+  "review_flags": 17,
   "violations": [
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-saratoga-springs-ut.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "review",
+      "matched": "11 reviews",
+      "context": "olds a perfect 5.0 Google rating across 11 reviews. They are an established local option s",
+      "reason": "listicle review-count 11 (competitor stat \u2014 verify it is not presented as ours)"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-saratoga-springs-ut.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "review",
+      "matched": "555 reviews",
+      "context": "Pros carries a 4.9 Google rating across 555 reviews, one of the highest review volumes on t",
+      "reason": "listicle review-count 555 (competitor stat \u2014 verify it is not presented as ours)"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-saratoga-springs-ut.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "review",
+      "matched": "482 reviews",
+      "context": "rvices holds a 4.9 Google rating across 482 reviews. ServiceMaster Restore is a nationally",
+      "reason": "listicle review-count 482 (competitor stat \u2014 verify it is not presented as ours)"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-saratoga-springs-ut.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "review",
+      "matched": "68 reviews",
+      "context": "alists holds a 4.9 Google rating across 68 reviews. They are an established local restorat",
+      "reason": "listicle review-count 68 (competitor stat \u2014 verify it is not presented as ours)"
+    },
     {
       "file": "src/content/pages/home.md",
       "part": "body",

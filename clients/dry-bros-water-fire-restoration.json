@@ -13,7 +13,7 @@
     "url_count": 128,
     "generated_at": "2026-09-17T15:06:19.345471+00:00"
   },
-  "updated_at": "2026-09-18T18:56:33+00:00",
+  "updated_at": "2026-09-18T23:11:37.018402+00:00",
   "indexnow_key": "c6ac0439f07d44adb611dfb90b41c8e1",
   "build": {
     "scaffolded_at": "2026-09-08T20:19:57.946792+00:00",
@@ -24,7 +24,7 @@
     "pages_status": "created",
     "last_rendered_at": "2026-09-17T14:24:37.839122+00:00",
     "last_pushed_staging_at": "2026-09-18T18:05:08.779765+00:00",
-    "last_pushed_main_at": "2026-09-18T18:23:00.044625+00:00"
+    "last_pushed_main_at": "2026-09-18T23:01:46.726844+00:00"
   },
   "build_status": "pushed_main",
   "brightlocal": {
@@ -74,5 +74,10 @@
   "apex_cutover": {
     "completed_at": "2026-09-18T18:53:37+00:00",
     "legacy_origin": "160.153.0.27"
+  },
+  "audit": {
+    "last_audit_at": "2026-09-18T23:11:37.018402+00:00",
+    "last_audit_verdict": "green",
+    "last_audit_report_path": "audit-runs/2026-09-18-onsite-audit.md"
   }
 }

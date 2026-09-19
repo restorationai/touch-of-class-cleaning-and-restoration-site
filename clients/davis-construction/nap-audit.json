@@ -1,6 +1,6 @@
 {
   "slug": "davis-construction",
-  "checked_at": "2026-08-26T13:46:26.580079+00:00",
+  "checked_at": "2026-09-18T22:45:48.522332+00:00",
   "canonical": {
     "name": "Davis Construction Contractors",
     "phone": "(256) 771-0326",
@@ -16,7 +16,7 @@
       "url": null,
       "source": "dataforseo maps live",
       "status": "not_found",
-      "notes": "listing not found in top 3 maps results for brand query"
+      "notes": "listing not found in top 2 maps results for brand query"
     },
     {
       "platform": "gbp-profile",
@@ -25,16 +25,17 @@
       "notes": "no marketing_gbp_profiles row"
     },
     {
-      "platform": "porch",
-      "url": "https://pro.porch.com/huntsville-al/remodeling-contractors/davis-remodeling-164537953/pp",
+      "platform": "bbb",
+      "url": "https://davisconstructioncontractors.com/about/",
       "status": "ok",
       "fetch": "http",
       "phones_found": [
-        "(223) 591-3003"
+        "(256) 771-0326",
+        "(256) 257-0752"
       ],
-      "phone_match": false,
+      "phone_match": true,
       "address_match": null,
-      "notes": "canonical phone absent; page shows (223) 591-3003; canonical street address not found on page"
+      "notes": "canonical street address not found on page"
     },
     {
       "platform": "facebook",
@@ -63,12 +64,6 @@
   ],
   "duplicates": [],
   "mismatches": [
-    {
-      "kind": "phone",
-      "platform": "porch",
-      "target": "https://pro.porch.com/huntsville-al/remodeling-contractors/davis-remodeling-164537953/pp",
-      "title": "Fix wrong phone number on porch"
-    },
     {
       "kind": "phone",
       "platform": "facebook",

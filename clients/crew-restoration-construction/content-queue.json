@@ -972,7 +972,7 @@
     },
     {
       "id": "2026-09-15-mold-remediation-near-me",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-15T14:24:35Z",
       "priority": 1,
       "prioritized": true,
@@ -984,7 +984,8 @@
       "city_anchor": "sioux-falls-sd",
       "source": "gameplan-2026-09-3 (dev-agent)",
       "written_at": "2026-09-18T23:52:27Z",
-      "post_url": "https://crew3r.com/blog/mold-remediation-near-me/"
+      "post_url": "https://crew3r.com/blog/mold-remediation-near-me/",
+      "published_verified_at": "2026-09-18T23:54:10Z"
     },
     {
       "id": "2026-09-15-crew-sioux-falls",

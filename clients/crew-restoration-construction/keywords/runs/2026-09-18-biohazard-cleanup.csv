@@ -1,0 +1,49 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+rodent droppings cleanup,transactional,320,,17.78,2,biohazard cleanup,,,no
+animal waste cleanup,transactional,,26,,2,biohazard cleanup,,,no
+black mold removal,transactional,12100,17,17.63,3,biohazard cleanup,,/services/mold-remediation/,no
+biohazard cleanup,transactional,2400,8,73.81,3,biohazard cleanup,,/services/biohazard-cleanup/,no
+biohazard cleanup services,transactional,2400,38,62.63,3,biohazard cleanup,,/services/biohazard-cleanup/,no
+biohazard clean up,transactional,1900,17,73.44,3,biohazard cleanup,,/services/biohazard-cleanup/,no
+biohazard cleanup near me,transactional,1600,1,70.96,3,biohazard cleanup,,/services/biohazard-cleanup/,no
+death cleanup services,transactional,880,28,83.63,3,biohazard cleanup,,,no
+sewage odor,transactional,720,5,26.18,3,biohazard cleanup,,/services/sewage-cleanup/,no
+biohazard remediation,transactional,590,14,63.45,3,biohazard cleanup,,/services/biohazard-cleanup/,no
+emergency mold removal,transactional,590,9,76.51,3,biohazard cleanup,,/services/mold-remediation/,no
+unattended death cleanup,transactional,480,0,86.02,3,biohazard cleanup,,,no
+blood spill cleanup,transactional,320,17,35.3,3,biohazard cleanup,,/services/biohazard-cleanup/,no
+suicide cleanup service,transactional,320,,,3,biohazard cleanup,,,no
+trauma scene cleanup,transactional,260,8,50.8,3,biohazard cleanup,,,no
+blood cleanup service,transactional,70,,116.06,3,biohazard cleanup,,/services/biohazard-cleanup/,no
+biohazard clean up after death,transactional,50,0,89.92,3,biohazard cleanup,,,no
+biohazard cleanup Sioux Falls,transactional,,,,3,biohazard cleanup,Sioux Falls,/services/biohazard-cleanup/,no
+biohazard cleanup in Sioux Falls SD,transactional,,,,3,biohazard cleanup,Sioux Falls,/services/biohazard-cleanup/,no
+Sioux Falls biohazard cleanup,transactional,,,,3,biohazard cleanup,Sioux Falls,/services/biohazard-cleanup/,no
+emergency biohazard cleanup Sioux Falls,transactional,,,,3,biohazard cleanup,Sioux Falls,/services/biohazard-cleanup/,no
+blood cleanup Sioux Falls SD,transactional,,,,3,biohazard cleanup,Sioux Falls,/services/biohazard-cleanup/,no
+biohazard cleanup Brookings SD,transactional,,,,3,biohazard cleanup,Brookings,/service-areas/brookings-sd/biohazard-cleanup/,no
+biohazard cleanup Yankton SD,transactional,,,,3,biohazard cleanup,Yankton,/service-areas/yankton-sd/biohazard-cleanup/,no
+biohazard cleanup Brandon SD,transactional,,,,3,biohazard cleanup,Brandon,/service-areas/brandon-sd/biohazard-cleanup/,no
+biohazard cleanup Worthington MN,transactional,,,,3,biohazard cleanup,Worthington,/service-areas/worthington-mn/biohazard-cleanup/,no
+odor removal after death,transactional,,,,3,biohazard cleanup,,,no
+trauma cleanup Sioux Falls,transactional,,,,3,biohazard cleanup,Sioux Falls,,no
+crime scene cleanup Sioux Falls SD,transactional,,,,3,biohazard cleanup,Sioux Falls,,no
+unattended death cleanup Sioux Falls SD,transactional,,,,3,biohazard cleanup,Sioux Falls,,no
+hoarding cleanup Sioux Falls SD,transactional,,,,3,biohazard cleanup,Sioux Falls,,no
+biohazard cleanup cost,commercial,70,0,84.96,1,biohazard cleanup,,,yes
+servpro biohazard cleanup cost,commercial,50,0,10.33,1,biohazard cleanup,,,yes
+biohazard cleanup cost per hour,commercial,40,0,29.94,2,biohazard cleanup,,,no
+biohazard cleanup companies,commercial,2400,18,73.81,3,biohazard cleanup,,/services/biohazard-cleanup/,no
+crime scene cleanup cost,commercial,90,9,26.26,3,biohazard cleanup,,,no
+hoarding cleanup cost,commercial,90,0,12.14,3,biohazard cleanup,,,no
+unattended death cleanup cost,commercial,40,0,27.94,3,biohazard cleanup,,,no
+does homeowners insurance cover biohazard cleanup,informational,20,0,,1,biohazard cleanup,,,yes
+what happens during biohazard cleanup,informational,,,,1,biohazard cleanup,,,yes
+what is considered a biohazard in a home,informational,,,,1,biohazard cleanup,,,yes
+how much does biohazard cleanup cost,informational,70,0,14.2,2,biohazard cleanup,,,no
+how long does biohazard cleanup take,informational,,,,2,biohazard cleanup,,,no
+who pays for crime scene cleanup,informational,50,2,47.5,3,biohazard cleanup,,,no
+who is responsible for cleaning up a crime scene,informational,10,,,3,biohazard cleanup,,,no
+who cleans up after an unattended death,informational,,,,3,biohazard cleanup,,,no
+is a house safe after an unattended death,informational,,,,3,biohazard cleanup,,,no
+do police clean up after a death,informational,,,,3,biohazard cleanup,,,no

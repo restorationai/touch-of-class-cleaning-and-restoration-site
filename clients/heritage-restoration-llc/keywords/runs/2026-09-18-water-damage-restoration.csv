@@ -1,0 +1,40 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+commercial water damage restoration,transactional,720,15,35.62,2,water damage restoration,,,no
+water damage restoration near me,transactional,135000,17,45.75,3,water damage restoration,,/services/water-damage-restoration/,no
+water damage restoration companies near me,transactional,135000,17,45.75,3,water damage restoration,,/services/water-damage-restoration/,no
+water damage restoration company,transactional,110000,25,54.87,3,water damage restoration,,/services/water-damage-restoration/,no
+water damage restoration service,transactional,110000,32,47.12,3,water damage restoration,,/services/water-damage-restoration/,no
+emergency water damage restoration,transactional,2900,19,59.12,3,water damage restoration,,/services/water-damage-restoration/,no
+emergency water damage restoration near me,transactional,1900,14,196.94,3,water damage restoration,,/services/water-damage-restoration/,no
+water damage restoration contractors,transactional,1300,19,19.43,3,water damage restoration,,/services/water-damage-restoration/,no
+water damage restoration specialist,transactional,720,7,102.84,3,water damage restoration,,/services/water-damage-restoration/,no
+water damage restoration st cloud mn,transactional,10,0,,3,water damage restoration,St. Cloud,/service-areas/st-cloud-mn/water-damage-restoration/,no
+st cloud water damage restoration,transactional,10,,,3,water damage restoration,St. Cloud,/service-areas/st-cloud-mn/water-damage-restoration/,no
+water damage restoration little falls mn,transactional,,,,3,water damage restoration,Little Falls,/services/water-damage-restoration/,no
+emergency water damage restoration st cloud,transactional,,,,3,water damage restoration,St. Cloud,/service-areas/st-cloud-mn/water-damage-restoration/,no
+water damage restoration brainerd mn,transactional,,,,3,water damage restoration,Brainerd,/service-areas/brainerd-mn/water-damage-restoration/,no
+water damage restoration sartell mn,transactional,,,,3,water damage restoration,Sartell,/service-areas/sartell-mn/water-damage-restoration/,no
+water damage restoration sauk rapids mn,transactional,,,,3,water damage restoration,Sauk Rapids,/service-areas/sauk-rapids-mn/water-damage-restoration/,no
+water damage restoration baxter mn,transactional,,,,3,water damage restoration,Baxter,/service-areas/baxter-mn/water-damage-restoration/,no
+water damage restoration foley mn,transactional,,,,3,water damage restoration,Foley,/service-areas/foley-mn/water-damage-restoration/,no
+water damage cleanup st cloud mn,transactional,,,,3,water damage restoration,St. Cloud,/service-areas/st-cloud-mn/water-cleanup/,no
+water damage cleanup little falls mn,transactional,,,,3,water damage restoration,Little Falls,/services/water-cleanup/,no
+water damage restoration company st cloud mn,transactional,,,,3,water damage restoration,St. Cloud,/service-areas/st-cloud-mn/water-damage-restoration/,no
+emergency water damage restoration brainerd mn,transactional,,,,3,water damage restoration,Brainerd,/service-areas/brainerd-mn/water-damage-restoration/,no
+water damage restoration cost,commercial,720,0,43.02,1,water damage restoration,,,yes
+cost of water damage restoration,commercial,720,0,43.02,2,water damage restoration,,,no
+water damage restoration prices,commercial,720,0,43.02,2,water damage restoration,,,no
+water damage restoration cost per square foot,commercial,70,3,56.88,2,water damage restoration,,,no
+how much does water damage restoration cost,commercial,40,6,,2,water damage restoration,,,no
+water damage restoration process,informational,110,1,88.27,1,water damage restoration,,,yes
+how long does it take to dry out walls from water damage,informational,,,,1,water damage restoration,,,yes
+how to tell if water damage is permanent,informational,,,,1,water damage restoration,,,yes
+how do i know if there is water damage behind my walls,informational,,,,1,water damage restoration,,,yes
+what does water damage restoration include,informational,10,,9.18,2,water damage restoration,,,no
+will a dehumidifier pull moisture out of drywall,informational,,,,2,water damage restoration,,,no
+can water damage be restored,informational,,,,2,water damage restoration,,,no
+do i need a licensed water damage restoration company,informational,,,,2,water damage restoration,,,no
+how fast does mold grow after water damage,informational,110,1,5.02,3,water damage restoration,,/blog/mold-after-water-damage/,no
+how long does water damage restoration take,informational,50,3,64.28,3,water damage restoration,,/blog/how-long-does-water-damage-restoration-take/,no
+what questions to ask a water damage restoration company,informational,,,,3,water damage restoration,,/blog/choosing-a-restoration-company/,no
+does homeowners insurance cover water damage restoration,informational,,,,3,water damage restoration,,/blog/does-homeowners-insurance-cover-water-damage/,no

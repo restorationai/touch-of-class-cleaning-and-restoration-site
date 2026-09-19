@@ -1,0 +1,581 @@
+{
+  "schema_version": 1,
+  "slug": "heritage-restoration-llc",
+  "site": "staging.rankai-heritage-restoration-llc.pages.dev",
+  "live_origin": "https://staging.rankai-heritage-restoration-llc.pages.dev",
+  "live_origin_source": "staging",
+  "generated_at": "2026-09-18T23:40:00Z",
+  "audit_form_factor": "desktop",
+  "lighthouse_version": "13.4.0",
+  "environment_caveats": [
+    "Lighthouse ran DESKTOP only (formFactor=desktop, cpuSlowdownMultiplier=1, throughputKbps=10240, 1350x940 screen emulation). Mobile scores would typically run 10 to 20 performance points lower. The mobile-only audits font-size, tap-targets and viewport were not evaluated at all.",
+    "Audited the Cloudflare Pages staging preview because the client record has no apex_cutover.completed_at. Cloudflare injects x-robots-tag: noindex on *.pages.dev previews, so the Lighthouse is-crawlable audit fails on all six pages and deflates SEO to 69. SEO is recorded as-is but EXCLUDED from every verdict in this run. is-crawlable is the only failing SEO audit on all six pages, so SEO should measure 100 once the apex is live.",
+    "SEO score is inconclusive - staging noindex artifact, re-audit after apex cutover.",
+    "The apex heritagermn.com resolves to 160.153.0.157 (registrar parking) and the TLS handshake fails; plain HTTP returns 409. The apex is not serving the site yet, so the canonical target of every audited page is currently unreachable.",
+    "Every page canonicalises to https://heritagermn.com/<path>, which is the correct post-cutover target but is not self-referencing on the staging origin, so the DataForSEO canonical check returns false. Recorded at low severity and excluded from the verdict for the same reason as the noindex header. Lighthouse's own canonical audit passes on all six pages.",
+    "DataForSEO has_micromarkup returns false on all six pages. This is a FALSE NEGATIVE: every page serves valid JSON-LD (Organization, WebSite, LocalBusiness, Service, FAQPage, BreadcrumbList; 3 to 5 blocks per page, all parsed clean). The check only detects Microdata and RDFa attributes, not JSON-LD. No missing-schema issue was recorded.",
+    "Client record status is 'onboarding', not 'active'. The audit proceeded because build_status is pushed_main and the staging preview serves the current build. Ops owner should flip status to active at cutover.",
+    "The on_page_lighthouse and on_page_instant_pages MCP tools are not exposed by this MCP server build, which only provides a generic api_request. The audit called the DataForSEO REST API directly at /v3/on_page/lighthouse/live/json (for_mobile=false) and /v3/on_page/instant_pages. Raw responses were written to disk and parsed, never read into context."
+  ],
+  "audited_urls": [
+    {
+      "url": "https://staging.rankai-heritage-restoration-llc.pages.dev/",
+      "archetype": "home",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 870,
+        "CLS": 0.0071,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_score": 97.44,
+      "word_count": 1235,
+      "word_count_target": 1200,
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 212992,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "layout-shifts",
+          "title": "Avoid large layout shifts",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree (no preconnect candidates reported, informational)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (staging x-robots-tag: noindex, environment artifact)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "seo"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "meta_description_length_out_of_range",
+          "title": "Meta description is 181 chars, outside the 70-160 range (will be truncated in SERPs)",
+          "severity": "medium"
+        },
+        {
+          "id": "canonical",
+          "title": "Canonical is not self-referencing on this origin: points to https://heritagermn.com/ (correct post-cutover target, staging artifact)",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-heritage-restoration-llc.pages.dev/services/",
+      "archetype": "services-hub",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 899,
+        "CLS": 0.0064,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_score": 97.44,
+      "word_count": 796,
+      "word_count_target": 800,
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": 150,
+          "estimated_savings_bytes": 200704,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (staging x-robots-tag: noindex, environment artifact)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "seo"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "word_count_below_target",
+          "title": "Word count 796 below plan target 800 (99.5% of target)",
+          "severity": "low"
+        },
+        {
+          "id": "canonical",
+          "title": "Canonical is not self-referencing on this origin: points to https://heritagermn.com/services/ (correct post-cutover target, staging artifact)",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-heritage-restoration-llc.pages.dev/services/water-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 790,
+        "CLS": 0.0077,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_score": 97.44,
+      "word_count": 1761,
+      "word_count_target": 1100,
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 74752,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (staging x-robots-tag: noindex, environment artifact)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "seo"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "canonical",
+          "title": "Canonical is not self-referencing on this origin: points to https://heritagermn.com/services/water-damage-restoration/ (correct post-cutover target, staging artifact)",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-heritage-restoration-llc.pages.dev/services/storm-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 909,
+        "CLS": 0.0077,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_score": 97.44,
+      "word_count": 1888,
+      "word_count_target": 1100,
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": 244736,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "medium",
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (staging x-robots-tag: noindex, environment artifact)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "seo"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "canonical",
+          "title": "Canonical is not self-referencing on this origin: points to https://heritagermn.com/services/storm-damage-restoration/ (correct post-cutover target, staging artifact)",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-heritage-restoration-llc.pages.dev/service-areas/st-cloud-mn/",
+      "archetype": "service-area",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 910,
+        "CLS": 0.0075,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_score": 97.44,
+      "word_count": 1271,
+      "word_count_target": 900,
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": 100,
+          "estimated_savings_bytes": 140288,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "medium",
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 20480,
+          "category": "performance"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (staging x-robots-tag: noindex, environment artifact)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "seo"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "canonical",
+          "title": "Canonical is not self-referencing on this origin: points to https://heritagermn.com/service-areas/st-cloud-mn/ (correct post-cutover target, staging artifact)",
+          "severity": "low"
+        },
+        {
+          "id": "frame",
+          "title": "Page embeds an iframe (Google Maps embed; expected on service-area pages)",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-heritage-restoration-llc.pages.dev/contact/",
+      "archetype": "contact",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 96,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 796,
+        "CLS": 0.0107,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_score": 97.44,
+      "word_count": 676,
+      "word_count_target": 400,
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 207872,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (staging x-robots-tag: noindex, environment artifact)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "seo"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "canonical",
+          "title": "Canonical is not self-referencing on this origin: points to https://heritagermn.com/contact/ (correct post-cutover target, staging artifact)",
+          "severity": "low"
+        }
+      ]
+    }
+  ],
+  "site_rollup": {
+    "avg_scores": {
+      "performance": 99.3,
+      "accessibility": 96.0,
+      "best_practices": 100.0,
+      "seo": 69.0
+    },
+    "verdict": "amber",
+    "url_count": 6,
+    "urls_by_verdict": {
+      "green": 5,
+      "amber": 1,
+      "red": 0,
+      "error": 0
+    },
+    "template_issues": [
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "affected_urls": 6,
+        "severity": "high"
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "affected_urls": 6,
+        "severity": "medium"
+      },
+      {
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing (staging x-robots-tag: noindex, environment artifact)",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "canonical",
+        "title": "Canonical is not self-referencing on this origin: points to https://heritagermn.com/ (correct post-cutover target, staging artifact)",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "affected_urls": 5,
+        "severity": "high"
+      },
+      {
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery",
+        "affected_urls": 5,
+        "severity": "high"
+      },
+      {
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "affected_urls": 5,
+        "severity": "low"
+      }
+    ],
+    "money_page_alerts": [
+      {
+        "url": "https://staging.rankai-heritage-restoration-llc.pages.dev/",
+        "archetype": "home",
+        "verdict": "amber",
+        "main_issue": "Meta description is 181 chars, outside the 70-160 range (will be truncated in SERPs)"
+      }
+    ],
+    "verdict_excludes_seo": true
+  },
+  "regression": {
+    "prior_run_at": null,
+    "score_deltas": null,
+    "verdict_transitions": [],
+    "new_issues": [],
+    "resolved_issues": []
+  }
+}

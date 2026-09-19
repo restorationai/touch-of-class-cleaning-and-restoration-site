@@ -1186,6 +1186,217 @@
       "source": "gameplan-2026-09-3 (dev-agent)",
       "written_at": "2026-09-17T10:29:36Z",
       "post_url": "https://davisconstructioncontractors.com/blog/home-remodeling-madison-al/"
+    },
+    {
+      "id": "2026-09-19-how-much-does-a-kitchen-remodel-cost",
+      "status": "queued",
+      "queued_at": "2026-09-19T00:05:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "target_term",
+      "combo_key": "how-much-does-a-kitchen-remodel-cost-madison-al",
+      "primary_keyword": "how much does a kitchen remodel cost",
+      "intent": "informational",
+      "volume": 6600,
+      "kd": 6,
+      "fan_out_cluster": [
+        "kitchen remodel cost",
+        "kitchen remodel cost per square foot",
+        "10x10 kitchen remodel cost",
+        "12x12 kitchen remodel cost",
+        "galley kitchen remodel cost",
+        "average kitchen remodel cost 2026",
+        "how much should a 10x10 kitchen remodel cost"
+      ],
+      "suggested_slug": "how-much-does-a-kitchen-remodel-cost",
+      "suggested_title": "How much does a kitchen remodel cost in Madison, AL (real 2026 numbers)",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/home-remodeling/",
+        "/services/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "kitchen-remodeling",
+        "home-remodeling"
+      ],
+      "city_anchor": "madison-al",
+      "external_authority_candidates": [
+        "https://www.nahb.org/",
+        "https://www.nkba.org/"
+      ],
+      "source": "keyword-researcher s1 seed=kitchen remodel",
+      "notes": "Flagship cost post for the kitchen cluster. Lead with a cost table by kitchen size (10x10, 12x12, galley, open-concept) and by tier (cosmetic refresh, mid-range, full gut). Ground the numbers in North Alabama labor and material pricing rather than national averages. Link to the existing /blog/how-much-does-a-home-remodel-cost/ post as the parent topic and differentiate clearly: that one is whole-home, this one is kitchen-only. Note that Davis has no kitchen service page yet, so the post carries the conversion load: end with a Madison-specific estimate CTA."
+    },
+    {
+      "id": "2026-09-19-how-long-does-a-kitchen-remodel-take",
+      "status": "queued",
+      "queued_at": "2026-09-19T00:05:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "target_term",
+      "combo_key": "how-long-does-a-kitchen-remodel-take-huntsville-al",
+      "primary_keyword": "how long does a kitchen remodel take",
+      "intent": "informational",
+      "volume": 1300,
+      "kd": 2,
+      "fan_out_cluster": [
+        "kitchen remodel timeline",
+        "how long does a kitchen remodel take from start to finish",
+        "kitchen remodel phases in order",
+        "in what order should you remodel a kitchen",
+        "what slows down a kitchen remodel",
+        "kitchen cabinet lead times"
+      ],
+      "suggested_slug": "how-long-does-a-kitchen-remodel-take",
+      "suggested_title": "How long does a kitchen remodel take in Huntsville, AL, week by week",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/home-remodeling/",
+        "/services/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "kitchen-remodeling",
+        "home-remodeling"
+      ],
+      "city_anchor": "huntsville-al",
+      "external_authority_candidates": [
+        "https://www.nahb.org/",
+        "https://www.nkba.org/"
+      ],
+      "source": "keyword-researcher s1 seed=kitchen remodel",
+      "notes": "Week-by-week timeline: demo, rough-in, inspection, drywall, cabinets, counter template and install, backsplash, punch list. Cabinet and countertop lead times are the real schedule driver, so say so early. Sibling post /blog/how-long-does-a-home-remodel-take/ already exists for whole-home: link to it and keep this one strictly kitchen. Answer the question in the first 60 words for AI retrieval."
+    },
+    {
+      "id": "2026-09-19-small-kitchen-remodel-cost",
+      "status": "queued",
+      "queued_at": "2026-09-19T00:05:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "target_term",
+      "combo_key": "small-kitchen-remodel-cost-athens-al",
+      "primary_keyword": "small kitchen remodel cost",
+      "intent": "commercial",
+      "volume": 1300,
+      "kd": 0,
+      "fan_out_cluster": [
+        "galley kitchen remodel cost",
+        "10x10 kitchen remodel cost",
+        "budget kitchen remodel near me",
+        "kitchen makeover cost",
+        "kitchen remodel ideas on a budget",
+        "cheapest way to update a kitchen"
+      ],
+      "suggested_slug": "small-kitchen-remodel-cost",
+      "suggested_title": "Small kitchen remodel cost in Athens, AL: what a compact kitchen actually runs",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/home-remodeling/",
+        "/services/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "kitchen-remodeling",
+        "home-remodeling"
+      ],
+      "city_anchor": "athens-al",
+      "external_authority_candidates": [
+        "https://www.nahb.org/",
+        "https://www.nkba.org/"
+      ],
+      "source": "keyword-researcher s1 seed=kitchen remodel",
+      "notes": "Athens has a large stock of 1950s-1970s brick ranch homes with small galley kitchens, which makes this a strong local fit. Price the compact-kitchen scenarios honestly and show where money is best spent versus wasted. Commercial intent: include a short comparison of refresh versus full remodel with dollar ranges."
+    },
+    {
+      "id": "2026-09-19-do-i-need-a-permit-to-remodel-a-kitchen",
+      "status": "queued",
+      "queued_at": "2026-09-19T00:05:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "target_term",
+      "combo_key": "do-i-need-a-permit-to-remodel-a-kitchen-madison-al",
+      "primary_keyword": "do i need a permit to remodel a kitchen",
+      "intent": "informational",
+      "volume": 140,
+      "kd": 0,
+      "fan_out_cluster": [
+        "kitchen remodel permit alabama",
+        "when do you need a permit for a kitchen remodel",
+        "does moving plumbing require a permit",
+        "electrical permit for kitchen remodel",
+        "what happens if you remodel without a permit",
+        "who pulls the permit, you or the contractor"
+      ],
+      "suggested_slug": "do-i-need-a-permit-to-remodel-a-kitchen",
+      "suggested_title": "Do I need a permit to remodel a kitchen in Madison, AL?",
+      "target_word_count": 1200,
+      "internal_link_targets": [
+        "/services/home-remodeling/",
+        "/services/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "kitchen-remodeling",
+        "home-remodeling"
+      ],
+      "city_anchor": "madison-al",
+      "external_authority_candidates": [
+        "https://www.nahb.org/",
+        "https://www.nkba.org/"
+      ],
+      "source": "keyword-researcher s1 seed=kitchen remodel",
+      "notes": "High-value decision-stage query with almost no local competition. Be concrete about the Madison, Huntsville and Limestone County permit paths, and be clear on the common trigger line: cosmetic swaps usually do not need a permit, but moving plumbing, gas or electrical does. State plainly that the contractor should pull the permit. Practical tone, no alarmism."
+    },
+    {
+      "id": "2026-09-19-how-much-value-does-a-kitchen-remodel-add",
+      "status": "queued",
+      "queued_at": "2026-09-19T00:05:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "target_term",
+      "combo_key": "how-much-value-does-a-kitchen-remodel-add-huntsville-al",
+      "primary_keyword": "how much value does a kitchen remodel add",
+      "intent": "informational",
+      "volume": 140,
+      "kd": 12,
+      "fan_out_cluster": [
+        "kitchen remodel roi",
+        "does a kitchen remodel increase home value",
+        "minor vs major kitchen remodel roi",
+        "what remodel adds the most value",
+        "kitchen remodel resale value",
+        "how much value does a kitchen remodel add in alabama"
+      ],
+      "suggested_slug": "how-much-value-does-a-kitchen-remodel-add",
+      "suggested_title": "How much value does a kitchen remodel add to a Huntsville home?",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/home-remodeling/",
+        "/services/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "kitchen-remodeling",
+        "home-remodeling"
+      ],
+      "city_anchor": "huntsville-al",
+      "external_authority_candidates": [
+        "https://www.nahb.org/",
+        "https://www.nkba.org/"
+      ],
+      "source": "keyword-researcher s1 seed=kitchen remodel",
+      "notes": "ROI angle for the Huntsville market, where the defense and aerospace job base keeps resale demand steady. Use Cost vs Value style framing but keep the numbers regional and attributed. Make the honest point that a minor kitchen refresh typically returns more than a full gut, which builds trust and still routes to a quote."
     }
   ]
 }

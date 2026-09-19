@@ -1,0 +1,72 @@
+{
+  "slug": "frontline-fire-flood",
+  "checked_at": "2026-09-18T22:47:45.317749+00:00",
+  "canonical": {
+    "name": "Frontline Fire & Flood",
+    "phone": "(253) 200-0503",
+    "street_address": "9520 Front St",
+    "city": "Lakewood",
+    "state": "WA",
+    "postal_code": "98499",
+    "domain": "frontlinefireflood.com"
+  },
+  "results": [
+    {
+      "platform": "google-maps",
+      "url": null,
+      "source": "dataforseo maps live",
+      "status": "ok",
+      "found_name": "Frontline Fire & Flood",
+      "found_phone": "(253) 201-3499",
+      "found_address": "10735 A St S # A, Tacoma, WA 98444",
+      "name_match": true,
+      "phone_match": false,
+      "address_match": null
+    },
+    {
+      "platform": "gbp-profile",
+      "source": "marketing_gbp_profiles",
+      "status": "ok",
+      "found_name": "Frontline Fire & Flood",
+      "found_phone": "(253) 201-3499",
+      "found_address": "10735 A st South Unit A, Tacoma, WA, 98444",
+      "name_match": true,
+      "phone_match": false,
+      "address_match": null
+    },
+    {
+      "platform": "angi",
+      "url": "https://frontlinefireflood.com/meet-the-team/",
+      "status": "ok",
+      "fetch": "wayback:2025-10-07",
+      "phones_found": [
+        "(253) 235-1077"
+      ],
+      "phone_match": false,
+      "address_match": null,
+      "notes": "via Wayback capture 2025-10-07 (page bot-blocked); canonical phone absent; page shows (253) 235-1077; canonical street address not found on page"
+    }
+  ],
+  "duplicates": [],
+  "mismatches": [
+    {
+      "kind": "phone",
+      "platform": "google-maps",
+      "target": "google-maps",
+      "title": "Fix wrong phone number on google-maps"
+    },
+    {
+      "kind": "phone",
+      "platform": "gbp-profile",
+      "target": "gbp-profile",
+      "title": "Fix wrong phone number on gbp-profile"
+    },
+    {
+      "kind": "phone",
+      "platform": "angi",
+      "target": "https://frontlinefireflood.com/meet-the-team/",
+      "title": "Fix wrong phone number on angi"
+    }
+  ],
+  "actions_upserted": 3
+}

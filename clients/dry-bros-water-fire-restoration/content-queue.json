@@ -218,7 +218,7 @@
     },
     {
       "id": "2026-09-18-water-damage-restoration-cost-chicago",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-18T22:55:00Z",
       "written_at": "2026-09-18T23:01:38Z",
       "post_url": "https://drybros.com/blog/water-damage-restoration-cost-chicago/",
@@ -305,7 +305,8 @@
           "context": "restoration estimate first. 4. **Call a certified restoration company.** Mitigation needs to start wi",
           "reason": "names a certification not present in brand.certifications"
         }
-      ]
+      ],
+      "published_verified_at": "2026-09-18T23:02:48Z"
     },
     {
       "id": "2026-09-18-water-damage-restoration-process-naperville",

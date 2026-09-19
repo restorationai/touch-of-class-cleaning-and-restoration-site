@@ -1,6 +1,6 @@
 {
   "slug": "all-pro-plumbing",
-  "checked_at": "2026-08-26T13:46:19.309891+00:00",
+  "checked_at": "2026-09-18T22:44:20.989339+00:00",
   "canonical": {
     "name": "All Pro Plumbing Heating and Air",
     "phone": "(661) 863-9242",
@@ -23,10 +23,10 @@
       "source": "marketing_gbp_profiles",
       "status": "ok",
       "found_name": "All Pro Plumbing Heating & Air",
-      "found_phone": "(661) 863-9242",
+      "found_phone": "(661) 451-5794",
       "found_address": "3556 Bowman Ct suite C, Bakersfield, CA, 93308-5000",
       "name_match": true,
-      "phone_match": true,
+      "phone_match": false,
       "address_match": null
     },
     {
@@ -52,14 +52,8 @@
     {
       "platform": "yelp",
       "url": "https://www.yelp.com/biz/all-pro-plumbing-heating-air-conditioning-and-electrical-oceanside",
-      "status": "ok",
-      "fetch": "google_serp_snippet",
-      "phones_found": [
-        "(760) 681-0313"
-      ],
-      "phone_match": false,
-      "address_match": null,
-      "notes": "via Google snippet (page bot-blocked); canonical phone absent; page shows (760) 681-0313; canonical street address not found on page"
+      "status": "unverified",
+      "notes": "unverifiable \u2014 every fetch tier failed (http 403; dfs_content_parsing Page content is empty; google_serp_snippet: page not indexed; wayback: no 200 capture)"
     },
     {
       "platform": "houzz",
@@ -69,14 +63,14 @@
       "phones_found": [
         "(888) 316-4595",
         "(630) 733-9000",
-        "(800) 340-9610",
         "(888) 610-7168",
+        "(800) 340-9610",
         "(888) 316-6960",
         "(714) 689-6633"
       ],
       "phone_match": false,
       "address_match": null,
-      "notes": "canonical phone absent; page shows (888) 316-4595, (630) 733-9000, (800) 340-9610; canonical street address not found on page"
+      "notes": "canonical phone absent; page shows (888) 316-4595, (630) 733-9000, (888) 610-7168; canonical street address not found on page"
     },
     {
       "platform": "nextdoor",
@@ -114,10 +108,24 @@
       "notes": "canonical phone absent; page shows (909) 253-0664; canonical street address not found on page"
     },
     {
+      "platform": "bing_places",
+      "url": "https://www.bing.com/maps?ss=ypid.YNB76BE949CBC764A1",
+      "status": "ok",
+      "fetch": "http",
+      "phones_found": [],
+      "phone_match": null,
+      "address_match": null,
+      "notes": "no phone number found on page; canonical street address not found on page"
+    },
+    {
       "platform": "homeadvisor",
       "url": "https://www.homeadvisor.com/rated.allproplumbingheatingairelectrical.156415988.html",
-      "status": "unverified",
-      "notes": "unverifiable \u2014 every fetch tier failed (http 403; dfs_content_parsing Page content is empty; google_serp_snippet: page not indexed; wayback: no 200 capture)"
+      "status": "ok",
+      "fetch": "google_serp_snippet",
+      "phones_found": [],
+      "phone_match": null,
+      "address_match": null,
+      "notes": "via Google snippet (page bot-blocked); no phone number found on page; canonical street address not found on page"
     },
     {
       "platform": "yellowpages",
@@ -125,25 +133,25 @@
       "status": "ok",
       "fetch": "http",
       "phones_found": [
+        "(442) 333-3298",
         "(760) 681-0313",
         "(760) 363-9088",
         "(855) 887-4968",
         "(760) 332-0284",
-        "(760) 501-8381",
-        "(866) 772-8112"
+        "(760) 501-8381"
       ],
       "phone_match": false,
       "address_match": null,
-      "notes": "canonical phone absent; page shows (760) 681-0313, (760) 363-9088, (855) 887-4968; canonical street address not found on page"
+      "notes": "canonical phone absent; page shows (442) 333-3298, (760) 681-0313, (760) 363-9088; canonical street address not found on page"
     }
   ],
   "duplicates": [],
   "mismatches": [
     {
       "kind": "phone",
-      "platform": "yelp",
-      "target": "https://www.yelp.com/biz/all-pro-plumbing-heating-air-conditioning-and-electrical-oceanside",
-      "title": "Fix wrong phone number on yelp"
+      "platform": "gbp-profile",
+      "target": "gbp-profile",
+      "title": "Fix wrong phone number on gbp-profile"
     },
     {
       "kind": "phone",
