@@ -340,6 +340,17 @@ def cmd_order(args) -> int:
         m = re.search(r"NAME FINAL: '([^']+)'", why)
         if m:
             new_name = m.group(1)
+            # BrightLocal hard-caps business_name at 90 chars (Kenny
+            # 2026-09-19: his 94-char chosen name 400'd the whole order).
+            # Trim at a word boundary and say so loudly — the directories
+            # carry the closest printable variant of the DBA name; the
+            # full string stays canonical everywhere else.
+            if len(new_name) > 90:
+                cut = new_name[:90]
+                cut = cut[:cut.rfind(" ")].rstrip(" ,;-&")
+                print(f"  NAME >90 chars for directories — trimmed to "
+                      f"{cut!r} ({len(cut)})")
+                new_name = cut
             loc = _bl("GET", f"/locations/{bl['location_id']}")
             cur = ((loc.get("location") or loc) or {}).get("business_name") or ""
             if cur.strip().lower() != new_name.strip().lower():
