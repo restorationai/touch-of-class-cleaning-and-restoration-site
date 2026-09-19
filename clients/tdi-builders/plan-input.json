@@ -178,6 +178,11 @@
       "city": "Arden-Arcade",
       "state": "CA",
       "slug": "arden-arcade-ca"
+    },
+    {
+      "city": "North Highlands",
+      "state": "CA",
+      "slug": "north-highlands-ca"
     }
   ],
   "template": "construction",

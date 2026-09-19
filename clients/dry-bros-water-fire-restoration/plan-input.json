@@ -114,6 +114,11 @@
       "city": "River Forest",
       "state": "IL",
       "slug": "river-forest-il"
+    },
+    {
+      "city": "Forest Park",
+      "state": "IL",
+      "slug": "forest-park-il"
     }
   ],
   "template": "restoration",

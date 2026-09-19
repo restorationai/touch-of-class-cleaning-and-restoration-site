@@ -2251,8 +2251,8 @@
     },
     "gbp:gbp-AF1QipNB3RP7y3v9xQPTU2HQ4wE5qSZ289NVa5f0Zl2g": {
       "source": "gbp",
-      "storage": "job-photos/posted/gbp-AF1QipNB3RP7y3v9xQPTU2HQ4wE5qSZ289NVa5f0Zl2g.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/gbp-AF1QipNB3RP7y3v9xQPTU2HQ4wE5qSZ289NVa5f0Zl2g.jpg",
+      "storage": "job-photos/posted/r1789772275_gbp-AF1QipNB3RP7y3v9xQPTU2HQ4wE5qSZ289NVa5f0Zl2g.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/r1789772275_gbp-AF1QipNB3RP7y3v9xQPTU2HQ4wE5qSZ289NVa5f0Zl2g.jpg",
       "width": 775,
       "height": 1080,
       "bytes": 724603,
@@ -4744,6 +4744,32 @@
       "triaged_at": "2026-08-05T06:07:19Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipPS3R_C5yx9wUnci1K0TkBy-UXo951gstBJBsE1": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPS3R_C5yx9wUnci1K0TkBy-UXo951gstBJBsE1.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/gbp-AF1QipPS3R_C5yx9wUnci1K0TkBy-UXo951gstBJBsE1.jpg",
+      "width": 1200,
+      "height": 900,
+      "bytes": 36192,
+      "sha1": "4f20acfecccf94c1",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Google five-star review card with customer testimonial text",
+      "quality": 45,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "text_overlay",
+        "screenshot"
+      ],
+      "reason": "Designed review card with overlaid text; no photographic content for site slots.",
+      "triaged_at": "2026-09-19T14:11:08Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipPTqg-d49RRPnEjOVFbOAaEoHpP5mU8pzFkgh3Y": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipPTqg-d49RRPnEjOVFbOAaEoHpP5mU8pzFkgh3Y.jpg",
@@ -5346,5 +5372,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-09-17T14:07:35Z"
+  "triaged_at": "2026-09-19T14:11:08Z"
 }

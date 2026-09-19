@@ -118,6 +118,11 @@
       "city": "Rancho Santa Fe",
       "state": "CA",
       "slug": "rancho-santa-fe-ca"
+    },
+    {
+      "city": "Valley Center",
+      "state": "CA",
+      "slug": "valley-center-ca"
     }
   ],
   "brand": {

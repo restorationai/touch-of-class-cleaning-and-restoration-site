@@ -109,6 +109,11 @@
       "city": "Hazel Green",
       "state": "AL",
       "slug": "hazel-green-al"
+    },
+    {
+      "city": "New Market",
+      "state": "AL",
+      "slug": "new-market-al"
     }
   ],
   "brand": {

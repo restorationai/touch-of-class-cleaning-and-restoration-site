@@ -198,6 +198,11 @@
       "city": "Midland",
       "state": "WA",
       "slug": "midland-wa"
+    },
+    {
+      "city": "Fircrest",
+      "state": "WA",
+      "slug": "fircrest-wa"
     }
   ],
   "template": "restoration",

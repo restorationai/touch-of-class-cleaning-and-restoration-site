@@ -113,6 +113,11 @@
       "city": "Fairfield",
       "state": "UT",
       "slug": "fairfield-ut"
+    },
+    {
+      "city": "Cedar Hills",
+      "state": "UT",
+      "slug": "cedar-hills-ut"
     }
   ],
   "brand": {

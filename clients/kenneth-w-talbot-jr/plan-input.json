@@ -100,6 +100,11 @@
       "city": "Eglin AFB",
       "state": "FL",
       "slug": "eglin-afb-fl"
+    },
+    {
+      "city": "Vernon",
+      "state": "FL",
+      "slug": "vernon-fl"
     }
   ],
   "template": "restoration",

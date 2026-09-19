@@ -103,6 +103,11 @@
       "city": "Elmdale",
       "state": "MN",
       "slug": "elmdale-mn"
+    },
+    {
+      "city": "Fort Ripley",
+      "state": "MN",
+      "slug": "fort-ripley-mn"
     }
   ],
   "template": "restoration",

@@ -111,6 +111,11 @@
       "city": "Temescal Valley",
       "state": "CA",
       "slug": "temescal-valley-ca"
+    },
+    {
+      "city": "Yorba Linda",
+      "state": "CA",
+      "slug": "yorba-linda-ca"
     }
   ],
   "template": "restoration",

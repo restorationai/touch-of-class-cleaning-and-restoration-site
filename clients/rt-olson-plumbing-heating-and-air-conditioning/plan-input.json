@@ -229,6 +229,11 @@
       "city": "Woodcrest",
       "state": "CA",
       "slug": "woodcrest-ca"
+    },
+    {
+      "city": "Trabuco Canyon",
+      "state": "CA",
+      "slug": "trabuco-canyon-ca"
     }
   ],
   "template": "plumbing",

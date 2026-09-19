@@ -113,6 +113,11 @@
       "city": "Northborough",
       "state": "MA",
       "slug": "northborough-ma"
+    },
+    {
+      "city": "Southbridge Town",
+      "state": "MA",
+      "slug": "southbridge-town-ma"
     }
   ],
   "service_radius_description": "Southern New England, with crews responding across a 50 mile radius of Auburn"

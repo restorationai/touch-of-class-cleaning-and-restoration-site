@@ -369,6 +369,11 @@
       "city": "Lavon",
       "state": "TX",
       "slug": "lavon-tx"
+    },
+    {
+      "city": "McLendon-Chisholm",
+      "state": "TX",
+      "slug": "mclendon-chisholm-tx"
     }
   ],
   "template": "restoration",

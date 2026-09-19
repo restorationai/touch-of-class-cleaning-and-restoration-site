@@ -414,6 +414,11 @@
       "city": "Algona",
       "state": "WA",
       "slug": "algona-wa"
+    },
+    {
+      "city": "Milton",
+      "state": "WA",
+      "slug": "milton-wa"
     }
   ],
   "brand": {

@@ -57,6 +57,11 @@
       "city": "Isle of Palms",
       "state": "SC",
       "slug": "isle-of-palms-sc"
+    },
+    {
+      "city": "Ladson",
+      "state": "SC",
+      "slug": "ladson-sc"
     }
   ]
 }

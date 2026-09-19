@@ -103,6 +103,11 @@
       "city": "San Buenaventura (Ventura)",
       "state": "CA",
       "slug": "san-buenaventura-ventura-ca"
+    },
+    {
+      "city": "Moorpark",
+      "state": "CA",
+      "slug": "moorpark-ca"
     }
   ],
   "template": "restoration",

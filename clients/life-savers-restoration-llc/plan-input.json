@@ -110,6 +110,11 @@
       "city": "Blue Diamond",
       "state": "NV",
       "slug": "blue-diamond-nv"
+    },
+    {
+      "city": "Nelson",
+      "state": "NV",
+      "slug": "nelson-nv"
     }
   ],
   "template": "restoration",

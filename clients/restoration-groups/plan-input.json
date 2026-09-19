@@ -1423,6 +1423,11 @@
       "city": "New Providence",
       "state": "NJ",
       "slug": "new-providence-nj"
+    },
+    {
+      "city": "Avenel",
+      "state": "NJ",
+      "slug": "avenel-nj"
     }
   ],
   "brand": {

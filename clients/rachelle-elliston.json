@@ -5,5 +5,11 @@
   "tier": "standard",
   "vertical": "restoration",
   "contact": "relliston@desertvalleyco.com",
-  "status": "onboarding"
+  "status": "onboarding",
+  "cutover_prep": {
+    "domain": "desertvalleycontracting.net",
+    "harvested_at": "2026-09-19T14:18:37+00:00",
+    "url_count": 45,
+    "backlinked_count": 31
+  }
 }

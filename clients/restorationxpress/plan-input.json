@@ -278,6 +278,11 @@
       "city": "Lauderhill",
       "state": "FL",
       "slug": "lauderhill-fl"
+    },
+    {
+      "city": "Hallandale Beach",
+      "state": "FL",
+      "slug": "hallandale-beach-fl"
     }
   ]
 }

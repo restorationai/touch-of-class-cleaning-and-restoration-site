@@ -363,6 +363,11 @@
       "city": "Waimanalo",
       "state": "HI",
       "slug": "waimanalo-hi"
+    },
+    {
+      "city": "Heeia",
+      "state": "HI",
+      "slug": "heeia-hi"
     }
   ],
   "brand": {

@@ -234,6 +234,11 @@
       "city": "Weedpatch",
       "state": "CA",
       "slug": "weedpatch-ca"
+    },
+    {
+      "city": "Arvin",
+      "state": "CA",
+      "slug": "arvin-ca"
     }
   ],
   "brand": {

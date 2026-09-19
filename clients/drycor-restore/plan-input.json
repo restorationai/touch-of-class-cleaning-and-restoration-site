@@ -371,6 +371,11 @@
       "city": "University",
       "state": "FL",
       "slug": "university-fl"
+    },
+    {
+      "city": "Palm River-Clair Mel",
+      "state": "FL",
+      "slug": "palm-river-clair-mel-fl"
     }
   ],
   "template": "restoration",

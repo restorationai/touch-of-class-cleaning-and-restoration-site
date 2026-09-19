@@ -210,6 +210,11 @@
       "city": "Spring Hope",
       "state": "NC",
       "slug": "spring-hope-nc"
+    },
+    {
+      "city": "Kenly",
+      "state": "NC",
+      "slug": "kenly-nc"
     }
   ],
   "template": "restoration",

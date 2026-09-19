@@ -282,6 +282,11 @@
       "city": "Bell Acres",
       "state": "PA",
       "slug": "bell-acres-pa"
+    },
+    {
+      "city": "Monaca",
+      "state": "PA",
+      "slug": "monaca-pa"
     }
   ],
   "brand": {
