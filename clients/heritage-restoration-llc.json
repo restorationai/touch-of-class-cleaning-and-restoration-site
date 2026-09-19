@@ -34,6 +34,13 @@
   },
   "brightlocal": {
     "location_id": 4157841,
-    "campaign_id": 1001333
+    "campaign_id": 1001333,
+    "ordered_at": "2026-09-19T21:56:52.912955+00:00",
+    "package_id": "cb25",
+    "publishers": [
+      "dataaxle",
+      "neustar",
+      "ypnetwork"
+    ]
   }
 }
