@@ -99,6 +99,64 @@ def _city_key(c: str) -> str:
     return _norm(re.sub(r",\s*[A-Z]{2}$", "", c))
 
 
+_COUNTY_CACHE_KEY = "fcc-county-cache"
+_county_cache: dict | None = None
+
+
+def _county_of(lat: float, lng: float) -> str | None:
+    """County name for a coordinate via the FCC census API, cached forever
+    in ops_kv (a place does not change counties)."""
+    global _county_cache
+    if _county_cache is None:
+        rows = _sb("GET", f"/rest/v1/ops_kv?k=eq.{_COUNTY_CACHE_KEY}&select=v") or []
+        _county_cache = (rows[0].get("v") if rows else {}) or {}
+    key = f"{round(lat, 4)},{round(lng, 4)}"
+    if key in _county_cache:
+        return _county_cache[key] or None
+    try:
+        r = requests.get("https://geo.fcc.gov/api/census/area",
+                         params={"lat": lat, "lon": lng, "format": "json"},
+                         timeout=15)
+        county = ((r.json().get("results") or [{}])[0].get("county_name")
+                  or None)
+    except Exception:  # noqa: BLE001 — unknown county = unbounded (fail open)
+        return None
+    _county_cache[key] = county
+    _sb("POST", "/rest/v1/ops_kv?on_conflict=k",
+        {"k": _COUNTY_CACHE_KEY, "v": _county_cache},
+        prefer="resolution=merge-duplicates")
+    return county
+
+
+def _norm_county(name: str) -> str:
+    n = str(name or "").lower().strip()
+    return n[:-7] if n.endswith(" county") else n
+
+
+def wizard_boundary(cid: str) -> tuple[set, set] | None:
+    """(declared county names, declared city names) from the onboarding
+    wizard's companies.service_areas (Santino 2026-09-19: "make sure the
+    service areas from the onboarding wizard get connected"). None when the
+    client never filled the wizard — discovery then stays radius-only."""
+    co = (_sb("GET", f"/rest/v1/companies?id=eq.{cid}"
+              "&select=service_areas") or [{}])[0]
+    raw = co.get("service_areas")
+    if isinstance(raw, str):
+        try:
+            raw = json.loads(raw)
+        except ValueError:
+            raw = None
+    if not raw:
+        return None
+    counties, cities = set(), set()
+    for a in raw:
+        if a.get("county"):
+            counties.add(_norm_county(a["county"]))
+        for c in (a.get("cities") or []):
+            cities.add(_norm(str(c)))
+    return (counties, cities) if (counties or cities) else None
+
+
 def location_plan(slug: str, cid: str) -> dict | None:
     """Target closest-20 area list + gaps, or None when geo data missing."""
     pi_p = ROOT / "clients" / slug / "plan-input.json"
@@ -120,6 +178,29 @@ def location_plan(slug: str, cid: str) -> dict | None:
     prof = (_sb("GET", f"/rest/v1/marketing_gbp_profiles?company_id=eq.{cid}"
                 "&select=service_areas") or [{}])[0]
     gbp_areas = [str(x) for x in (prof.get("service_areas") or [])]
+
+    # CONGRUENCE BOUNDARY (2026-09-19): the onboarding wizard's declared
+    # counties/cities bound gazetteer DISCOVERY — radius alone may never
+    # invent an area outside what the client told us they serve. Explicitly
+    # declared cities (wizard lists, plan-input client-declared entries) and
+    # places already on the site/GBP enter as candidates regardless — facts
+    # and existing state are never discovery.
+    boundary = wizard_boundary(cid)
+    _rejected: list[str] = []
+
+    def _in_boundary(g: dict) -> bool:
+        if boundary is None:
+            return True
+        counties, cities = boundary
+        if _norm(g["name"]) in cities:
+            return True
+        county = _county_of(g["lat"], g["lng"])
+        if county is None:
+            return True  # fail open — unknown county never blocks silently
+        ok = _norm_county(county) in counties
+        if not ok and g["name"] not in _rejected:
+            _rejected.append(g["name"])
+        return ok
 
     # Candidate pool: site cities + current GBP areas + gazetteer places
     # within 30 miles, all resolved to coordinates via the gazetteer.
@@ -164,7 +245,8 @@ def location_plan(slug: str, cid: str) -> dict | None:
             continue
         d = _dist_mi(pin, (g["lat"], g["lng"]))
         if d <= 30:
-            add(g["name"], g["state"], "gazetteer")
+            if _in_boundary(g):
+                add(g["name"], g["state"], "gazetteer")
 
     # SPARSE-MARKET WIDENING (ACS/West Texas 2026-09-19): a 30-mile ring in
     # Midland-Odessa yields 11 candidates, so the profile can never reach
@@ -182,8 +264,13 @@ def location_plan(slug: str, cid: str) -> dict | None:
             if g.get("sqmi", 0) < 1.5:
                 continue
             d = _dist_mi(pin, (g["lat"], g["lng"]))
-            if d <= ring:
+            if d <= ring and _in_boundary(g):
                 add(g["name"], g["state"], "gazetteer")
+
+    if boundary is not None and _rejected:
+        print(f"    boundary: {len(_rejected)} gazetteer place(s) outside "
+              f"declared counties skipped: {', '.join(_rejected[:6])}"
+              + (" ..." if len(_rejected) > 6 else ""))
 
     # HOME-COUNTY KEEP: a county area already on the profile that contains
     # the pin (e.g. Broward County for a Davie pin) is broad coverage worth
