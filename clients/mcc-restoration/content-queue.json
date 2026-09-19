@@ -302,7 +302,7 @@
     },
     {
       "id": "2026-08-27-water-damage-restoration-cost",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-27T04:05:32Z",
       "written_at": null,
       "post_url": null,
@@ -334,11 +334,12 @@
       "external_authority_candidates": [
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "No cost content exists anywhere on the site: the whole cost cluster (880 + 880 + 880 + 170 + 140) is uncovered at KD 0-9. Break cost down by water category (1/2/3) and by affected area, and explain what drives price (drying days, equipment count, whether reconstruction is needed). Give ranges, not quotes, and route to a free inspection."
+      "notes": "No cost content exists anywhere on the site: the whole cost cluster (880 + 880 + 880 + 170 + 140) is uncovered at KD 0-9. Break cost down by water category (1/2/3) and by affected area, and explain what drives price (drying days, equipment count, whether reconstruction is needed). Give ranges, not quotes, and route to a free inspection.",
+      "banked_at": "2026-09-19T10:23:53.723776+00:00"
     },
     {
       "id": "2026-08-27-does-renters-insurance-cover-water-damage",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-27T04:05:32Z",
       "written_at": null,
       "post_url": null,
@@ -370,11 +371,12 @@
       "external_authority_candidates": [
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "The existing insurance blog covers homeowners only; the renters cluster (1000 + 1000 + 390) is entirely uncovered at KD 9-11. Real commercial value here is the property manager and landlord audience: plan-input flags dense multifamily along I-35E and Highway 67 as recurring commercial water-loss work. Draw the line between the tenant's contents policy and the building owner's structure coverage."
+      "notes": "The existing insurance blog covers homeowners only; the renters cluster (1000 + 1000 + 390) is entirely uncovered at KD 9-11. Real commercial value here is the property manager and landlord audience: plan-input flags dense multifamily along I-35E and Highway 67 as recurring commercial water-loss work. Draw the line between the tenant's contents policy and the building owner's structure coverage.",
+      "banked_at": "2026-09-19T10:23:53.723781+00:00"
     },
     {
       "id": "2026-08-27-commercial-water-damage-restoration",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-27T04:05:32Z",
       "written_at": null,
       "post_url": null,
@@ -407,11 +409,12 @@
       "external_authority_candidates": [
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "KD 15 at 590/mo with no commercial-specific page on the 92-URL plan. Plays to MCC's reconstruction and general-contracting services, which most pure-restoration competitors cannot self-perform: one vendor from extraction through rebuild is the differentiator. Emphasise business-interruption urgency and after-hours response, but do not state 24/7 (hours are unattested and the claims sanitizer strips it)."
+      "notes": "KD 15 at 590/mo with no commercial-specific page on the 92-URL plan. Plays to MCC's reconstruction and general-contracting services, which most pure-restoration competitors cannot self-perform: one vendor from extraction through rebuild is the differentiator. Emphasise business-interruption urgency and after-hours response, but do not state 24/7 (hours are unattested and the claims sanitizer strips it).",
+      "banked_at": "2026-09-19T10:23:53.723783+00:00"
     },
     {
       "id": "2026-08-27-does-a-home-warranty-cover-water-damage",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-27T04:05:32Z",
       "written_at": null,
       "post_url": null,
@@ -443,7 +446,8 @@
       "external_authority_candidates": [
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "KD 1 with a $21.68 CPC: cheap to win, and the searcher is mid-decision. Key distinction to make: a home warranty may repair the failed appliance or pipe, but the resulting water damage and drying is an insurance and restoration matter. DeSoto and Duncanville housing stock is 30-50 years old with aging water heaters, per plan-input, so use the water-heater failure example."
+      "notes": "KD 1 with a $21.68 CPC: cheap to win, and the searcher is mid-decision. Key distinction to make: a home warranty may repair the failed appliance or pipe, but the resulting water damage and drying is an insurance and restoration matter. DeSoto and Duncanville housing stock is 30-50 years old with aging water heaters, per plan-input, so use the water-heater failure example.",
+      "banked_at": "2026-09-19T10:23:53.723784+00:00"
     },
     {
       "id": "2026-09-18-does-homeowners-insurance-cover-fire-damage",

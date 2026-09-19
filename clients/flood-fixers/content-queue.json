@@ -1,1228 +1,1229 @@
 {
- "items": [
-  {
-   "id": "2026-09-18-water-damage-restoration-cost-ca",
-   "status": "queued",
-   "queued_at": "2026-09-18T14:38:19Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "cost_guide",
-   "combo_key": "water-damage-restoration-cost-ca",
-   "primary_keyword": "water damage restoration cost CA",
-   "intent": "transactional",
-   "target_word_count": 1500,
-   "city_anchor": "san-diego-ca",
-   "best_of": {
-    "service": "water-damage-restoration",
-    "service_pretty": "Water Damage Restoration",
-    "city": "San Diego",
-    "state": "CA",
-    "competitors": []
-   },
-   "fan_out_cluster": [
-    "how much does water damage restoration cost in CA",
-    "water damage restoration price CA",
-    "average cost of water damage restoration CA",
-    "water damage cleanup CA",
-    "water cleanup CA",
-    "water removal CA"
-   ],
-   "source": "best-of-seeder"
-  },
-  {
-   "id": "2026-07-23-best-water-damage-restoration-in-san-diego-ca",
-   "status": "published",
-   "queued_at": "2026-07-23T17:23:05Z",
-   "priority": 1,
-   "content_type": "best_of_comparison",
-   "combo_key": "best-water-damage-restoration-in-san-diego-ca",
-   "primary_keyword": "best water damage restoration company in San Diego, CA",
-   "intent": "commercial",
-   "target_word_count": 1600,
-   "city_anchor": "san-diego-ca",
-   "best_of": {
-    "service": "water-damage-restoration",
-    "service_pretty": "Water Damage Restoration",
-    "city": "San Diego",
-    "state": "CA",
-    "competitors": [
-     {
-      "name": "Mighty Dry San Diego",
-      "google_rating": 4.9,
-      "review_count": 586
-     },
-     {
-      "name": "Water Damage Restoration San Diego",
-      "google_rating": 4.8,
-      "review_count": 45
-     },
-     {
-      "name": "Risk Free Serv Water Damage Repair San Diego",
-      "google_rating": 5,
-      "review_count": 125
-     },
-     {
-      "name": "SERVPRO of San Diego City SW",
-      "google_rating": 4.8,
-      "review_count": 161
-     }
-    ]
-   },
-   "fan_out_cluster": [
-    "best water damage restoration companies San Diego",
-    "top rated water damage restoration San Diego CA",
-    "who is the best water damage restoration company in San Diego"
-   ],
-   "source": "best-of-seeder",
-   "written_at": "2026-09-18T11:44:23Z",
-   "post_url": "https://flood-fixers.com/blog/best-water-damage-restoration-company-in-san-diego-ca/",
-   "claims_flags": [
+  "items": [
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-san-diego-ca.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "review",
-     "matched": "586 reviews",
-     "context": "o holds a 4.9-star Google rating across 586 reviews, one of the highest review volumes amon",
-     "reason": "listicle review-count 586 (competitor stat \u2014 verify it is not presented as ours)"
+      "id": "2026-09-18-water-damage-restoration-cost-ca",
+      "status": "queued",
+      "queued_at": "2026-09-18T14:38:19Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "cost_guide",
+      "combo_key": "water-damage-restoration-cost-ca",
+      "primary_keyword": "water damage restoration cost CA",
+      "intent": "transactional",
+      "target_word_count": 1500,
+      "city_anchor": "san-diego-ca",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "San Diego",
+        "state": "CA",
+        "competitors": []
+      },
+      "fan_out_cluster": [
+        "how much does water damage restoration cost in CA",
+        "water damage restoration price CA",
+        "average cost of water damage restoration CA",
+        "water damage cleanup CA",
+        "water cleanup CA",
+        "water removal CA"
+      ],
+      "source": "best-of-seeder"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-san-diego-ca.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "review",
-     "matched": "586 reviews",
-     "context": "Diego market. **Google Rating:** 4.9 (586 reviews) --- ### #3 Risk Free Serv Water Dama",
-     "reason": "listicle review-count 586 (competitor stat \u2014 verify it is not presented as ours)"
+      "id": "2026-07-23-best-water-damage-restoration-in-san-diego-ca",
+      "status": "published",
+      "queued_at": "2026-07-23T17:23:05Z",
+      "priority": 1,
+      "content_type": "best_of_comparison",
+      "combo_key": "best-water-damage-restoration-in-san-diego-ca",
+      "primary_keyword": "best water damage restoration company in San Diego, CA",
+      "intent": "commercial",
+      "target_word_count": 1600,
+      "city_anchor": "san-diego-ca",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "San Diego",
+        "state": "CA",
+        "competitors": [
+          {
+            "name": "Mighty Dry San Diego",
+            "google_rating": 4.9,
+            "review_count": 586
+          },
+          {
+            "name": "Water Damage Restoration San Diego",
+            "google_rating": 4.8,
+            "review_count": 45
+          },
+          {
+            "name": "Risk Free Serv Water Damage Repair San Diego",
+            "google_rating": 5,
+            "review_count": 125
+          },
+          {
+            "name": "SERVPRO of San Diego City SW",
+            "google_rating": 4.8,
+            "review_count": 161
+          }
+        ]
+      },
+      "fan_out_cluster": [
+        "best water damage restoration companies San Diego",
+        "top rated water damage restoration San Diego CA",
+        "who is the best water damage restoration company in San Diego"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-09-18T11:44:23Z",
+      "post_url": "https://flood-fixers.com/blog/best-water-damage-restoration-company-in-san-diego-ca/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-san-diego-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "586 reviews",
+          "context": "o holds a 4.9-star Google rating across 586 reviews, one of the highest review volumes amon",
+          "reason": "listicle review-count 586 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-san-diego-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "586 reviews",
+          "context": "Diego market. **Google Rating:** 4.9 (586 reviews) --- ### #3 Risk Free Serv Water Dama",
+          "reason": "listicle review-count 586 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-san-diego-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "125 reviews",
+          "context": "o holds a 5.0-star Google rating across 125 reviews. A perfect average rating is notable, a",
+          "reason": "listicle review-count 125 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-san-diego-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "125 reviews",
+          "context": "perfect average rating is notable, and 125 reviews provides a reasonable sample size. This",
+          "reason": "listicle review-count 125 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-san-diego-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "125 reviews",
+          "context": "an Diego area. **Google Rating:** 5.0 (125 reviews) --- ### #4 SERVPRO of San Diego City",
+          "reason": "listicle review-count 125 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-san-diego-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "161 reviews",
+          "context": "W holds a 4.8-star Google rating across 161 reviews. SERVPRO is a nationally franchised res",
+          "reason": "listicle review-count 161 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-san-diego-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "161 reviews",
+          "context": "ary by location; the 4.8 average across 161 reviews suggests this location performs consist",
+          "reason": "listicle review-count 161 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-san-diego-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "161 reviews",
+          "context": "consistently. **Google Rating:** 4.8 (161 reviews) --- ### #5 Water Damage Restoration",
+          "reason": "listicle review-count 161 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-san-diego-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "45 reviews",
+          "context": "o holds a 4.8-star Google rating across 45 reviews. The lower review count means less data",
+          "reason": "listicle review-count 45 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-san-diego-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "45 reviews",
+          "context": "Diego market. **Google Rating:** 4.8 (45 reviews) --- ![Company Rankings: San Diego Wa",
+          "reason": "listicle review-count 45 (competitor stat \u2014 verify it is not presented as ours)"
+        }
+      ],
+      "published_verified_at": "2026-09-18T11:45:40Z"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-san-diego-ca.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "review",
-     "matched": "125 reviews",
-     "context": "o holds a 5.0-star Google rating across 125 reviews. A perfect average rating is notable, a",
-     "reason": "listicle review-count 125 (competitor stat \u2014 verify it is not presented as ours)"
+      "id": "2026-07-06-what-is-category-3-water-damage",
+      "status": "published",
+      "queued_at": "2026-07-06T18:21:18Z",
+      "written_at": "2026-07-06T18:25:34Z",
+      "post_url": "https://flood-fixers.com/blog/what-is-category-3-water-damage/",
+      "primary_keyword": "what is category 3 water damage",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "categories of water damage explained",
+        "clean water vs gray water vs black water",
+        "is category 3 water damage dangerous",
+        "category 1 category 2 category 3 water"
+      ],
+      "suggested_slug": "what-is-category-3-water-damage",
+      "suggested_title": "What Is Category 3 Water Damage? (And Why It Changes Everything)",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/basement-flooding-cleanup/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Explain the three IICRC water categories (clean, gray, black), how each affects safety, drying vs. removal, and cost. Category 3 (sewage/contaminated) requires disposal of porous materials. No metrics: DataForSEO unavailable this run; queued intent-first as a GEO/AI-retrieval definitional query with no existing blog coverage.",
+      "published_verified_at": "2026-07-06T18:27:10Z"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-san-diego-ca.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "review",
-     "matched": "125 reviews",
-     "context": "perfect average rating is notable, and 125 reviews provides a reasonable sample size. This",
-     "reason": "listicle review-count 125 (competitor stat \u2014 verify it is not presented as ours)"
+      "id": "2026-07-06-water-damage-restoration-process",
+      "status": "published",
+      "queued_at": "2026-07-06T18:21:18Z",
+      "written_at": "2026-07-09T18:00:05Z",
+      "post_url": "https://flood-fixers.com/blog/water-damage-restoration-process-explained/",
+      "primary_keyword": "what does the water damage restoration process involve",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "water damage restoration process step by step",
+        "water extraction and drying process",
+        "how do professionals dry out water damage",
+        "moisture testing after water damage",
+        "does water damaged drywall need to be replaced"
+      ],
+      "suggested_slug": "water-damage-restoration-process-explained",
+      "suggested_title": "What Does the Water Damage Restoration Process Involve? A Step-by-Step Guide",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/reconstruction/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "reconstruction"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Walk through inspection, water extraction, structural drying, dehumidification, moisture verification, and reconstruction. Pairs with the water damage restoration and reconstruction service pages. No metrics: DataForSEO unavailable this run; queued intent-first (process explainer, no existing blog coverage).",
+      "published_verified_at": "2026-07-09T18:01:12Z"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-san-diego-ca.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "review",
-     "matched": "125 reviews",
-     "context": "an Diego area. **Google Rating:** 5.0 (125 reviews) --- ### #4 SERVPRO of San Diego City",
-     "reason": "listicle review-count 125 (competitor stat \u2014 verify it is not presented as ours)"
+      "id": "2026-07-06-water-damage-behind-walls",
+      "status": "written",
+      "queued_at": "2026-07-06T18:21:18Z",
+      "written_at": "2026-07-13T18:04:18Z",
+      "post_url": "https://flood-fixers.com/blog/how-to-tell-if-you-have-water-damage-behind-walls/",
+      "primary_keyword": "how to tell if you have water damage behind walls",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "signs of water damage behind walls",
+        "signs of water damage on ceiling",
+        "musty smell from water damage",
+        "bubbling or peeling paint water damage",
+        "hidden water damage detection"
+      ],
+      "suggested_slug": "how-to-tell-if-you-have-water-damage-behind-walls",
+      "suggested_title": "How To Tell if You Have Water Damage Behind Your Walls (7 Warning Signs)",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/burst-pipe-repair/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "burst-pipe-repair"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "List detectable signs (staining, bubbling paint, musty odor, warped drywall, elevated moisture readings), when it points to a hidden burst pipe, and when to call a pro. No metrics: DataForSEO unavailable this run; queued intent-first (diagnostic query, no existing blog coverage)."
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-san-diego-ca.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "review",
-     "matched": "161 reviews",
-     "context": "W holds a 4.8-star Google rating across 161 reviews. SERVPRO is a nationally franchised res",
-     "reason": "listicle review-count 161 (competitor stat \u2014 verify it is not presented as ours)"
+      "id": "2026-07-06-water-damage-left-untreated",
+      "status": "written",
+      "queued_at": "2026-07-06T18:21:18Z",
+      "written_at": "2026-07-16T17:11:25Z",
+      "post_url": "https://flood-fixers.com/blog/what-happens-if-water-damage-is-left-untreated/",
+      "primary_keyword": "what happens if water damage is left untreated",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "is water damage dangerous to your health",
+        "how long before mold grows after water damage",
+        "structural damage from untreated water",
+        "risks of ignoring water damage"
+      ],
+      "suggested_slug": "what-happens-if-water-damage-is-left-untreated",
+      "suggested_title": "What Happens if Water Damage Is Left Untreated? (The 24-Hour to 30-Day Timeline)",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/basement-flooding-cleanup/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "Timeline of escalation: mold in 24-48 hours, structural weakening, insurance implications for delayed mitigation. Reinforces urgency of the 24/7 service. No metrics: DataForSEO unavailable this run; queued intent-first (no existing blog coverage; adjacent to but distinct from the mold-after-water-damage post)."
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-san-diego-ca.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "review",
-     "matched": "161 reviews",
-     "context": "ary by location; the 4.8 average across 161 reviews suggests this location performs consist",
-     "reason": "listicle review-count 161 (competitor stat \u2014 verify it is not presented as ours)"
+      "id": "2026-07-06-water-damage-restoration-cost",
+      "status": "published",
+      "queued_at": "2026-07-06T18:21:18Z",
+      "written_at": "2026-07-20T18:13:16Z",
+      "post_url": "https://flood-fixers.com/blog/how-much-does-water-damage-restoration-cost/",
+      "primary_keyword": "how much does water damage restoration cost",
+      "intent": "commercial",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "water damage restoration cost per square foot",
+        "what affects water damage restoration cost",
+        "does insurance pay for water damage restoration",
+        "category 3 water damage cost"
+      ],
+      "suggested_slug": "how-much-does-water-damage-restoration-cost",
+      "suggested_title": "How Much Does Water Damage Restoration Cost? A 2026 Price Breakdown",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Cost drivers: water category, affected square footage, materials, drying time, mold. Cross-link the insurance-coverage blog. Commercial/decision-stage query with no dedicated cost page in the url-plan. No metrics: DataForSEO unavailable this run; queued intent-first as a high-value decision-stage topic. Keep price ranges general, avoid unverifiable local quotes.",
+      "published_verified_at": "2026-07-20T18:14:53Z"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-san-diego-ca.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "review",
-     "matched": "161 reviews",
-     "context": "consistently. **Google Rating:** 4.8 (161 reviews) --- ### #5 Water Damage Restoration",
-     "reason": "listicle review-count 161 (competitor stat \u2014 verify it is not presented as ours)"
+      "id": "2026-07-13-does-homeowners-insurance-cover-flood-damage",
+      "status": "published",
+      "queued_at": "2026-07-13T18:01:06Z",
+      "written_at": "2026-07-23T17:24:56Z",
+      "post_url": "https://flood-fixers.com/blog/does-homeowners-insurance-cover-flood-damage/",
+      "primary_keyword": "does homeowners insurance cover flood damage",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "is flood damage covered by homeowners insurance",
+        "do i need separate flood insurance",
+        "what does flood insurance cover",
+        "nfip flood insurance explained",
+        "difference between flood insurance and water damage coverage"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-flood-damage",
+      "suggested_title": "Does Homeowners Insurance Cover Flood Damage? What San Diego Homeowners Need To Know",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/flood-damage-restoration/",
+        "/services/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "flood-damage-restoration",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.floodsmart.gov/",
+        "https://www.fema.gov/flood-insurance"
+      ],
+      "notes": "Distinguish NFIP flood policies from standard homeowners water-damage coverage: homeowners policies typically EXCLUDE flooding (rising external water). Cross-link the existing water-damage insurance blog and the flood-damage service page. Decision-stage query, no existing blog coverage. No metrics: DataForSEO unavailable this run; queued intent-first.",
+      "published_verified_at": "2026-07-23T17:26:03Z"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-san-diego-ca.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "review",
-     "matched": "45 reviews",
-     "context": "o holds a 4.8-star Google rating across 45 reviews. The lower review count means less data",
-     "reason": "listicle review-count 45 (competitor stat \u2014 verify it is not presented as ours)"
+      "id": "2026-07-13-what-to-do-after-a-flood-in-your-house",
+      "status": "published",
+      "queued_at": "2026-07-13T18:01:06Z",
+      "written_at": "2026-07-30T17:52:00Z",
+      "post_url": "https://flood-fixers.com/blog/what-to-do-after-a-flood-in-your-house/",
+      "primary_keyword": "what to do after a flood in your house",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "what to do if your house floods",
+        "steps to clean up flood damage",
+        "how to clean up after a flood",
+        "flood cleanup safety tips",
+        "when to call a flood damage professional"
+      ],
+      "suggested_slug": "what-to-do-after-a-flood-in-your-house",
+      "suggested_title": "What To Do After a Flood in Your House (The First 24 Hours)",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/flood-damage-restoration/",
+        "/services/basement-flooding-cleanup/"
+      ],
+      "service_tags": [
+        "flood-damage-restoration",
+        "basement-flooding-cleanup"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.ready.gov/floods",
+        "https://www.cdc.gov/disasters/floods/index.html"
+      ],
+      "notes": "Emergency checklist: safety (power/gas, contaminated water), document damage for insurance, stop the source, act within the 24-48h mold window, when to call a pro. Reinforces 24/7 service. No existing flood-specific blog coverage. No metrics: DataForSEO unavailable this run; queued intent-first.",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/what-to-do-after-a-flood-in-your-house.md",
+          "part": "body",
+          "family": "service-scope",
+          "severity": "review",
+          "matched": "mold remediation",
+          "context": "er, and the cost of getting it wrong, a mold remediation job weeks later, typically far exceeds",
+          "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
+        }
+      ],
+      "published_verified_at": "2026-07-30T17:53:39Z"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-san-diego-ca.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "review",
-     "matched": "45 reviews",
-     "context": "Diego market. **Google Rating:** 4.8 (45 reviews) --- ![Company Rankings: San Diego Wa",
-     "reason": "listicle review-count 45 (competitor stat \u2014 verify it is not presented as ours)"
+      "id": "2026-07-13-how-to-dry-out-a-flooded-house",
+      "status": "written",
+      "queued_at": "2026-07-13T18:01:06Z",
+      "written_at": "2026-08-03T18:07:42Z",
+      "post_url": "https://flood-fixers.com/blog/how-to-dry-out-a-flooded-house/",
+      "primary_keyword": "how to dry out a flooded house",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "how long does it take to dry out a flooded house",
+        "drying out after a flood",
+        "how to dry a flooded room",
+        "do you need professional drying equipment after a flood",
+        "preventing mold after a flood"
+      ],
+      "suggested_slug": "how-to-dry-out-a-flooded-house",
+      "suggested_title": "How To Dry Out a Flooded House: A Step-by-Step Guide",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/flood-damage-restoration/",
+        "/services/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "flood-damage-restoration",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "Water extraction, air movers and dehumidifiers, moisture monitoring, why full structural drying needs pro equipment, the 24-48h mold growth window. No existing blog coverage. No metrics: DataForSEO unavailable this run; queued intent-first."
+    },
+    {
+      "id": "2026-07-13-difference-between-flood-damage-and-water-damage",
+      "status": "published",
+      "queued_at": "2026-07-13T18:01:06Z",
+      "written_at": "2026-08-27T02:00:50Z",
+      "post_url": "https://flood-fixers.com/blog/difference-between-flood-damage-and-water-damage/",
+      "primary_keyword": "difference between flood damage and water damage",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "is flood damage the same as water damage",
+        "flood vs water damage insurance",
+        "what counts as flood damage",
+        "water category in a flood",
+        "why flood damage costs more to restore"
+      ],
+      "suggested_slug": "difference-between-flood-damage-and-water-damage",
+      "suggested_title": "The Difference Between Flood Damage and Water Damage (And Why It Matters)",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/flood-damage-restoration/",
+        "/services/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "flood-damage-restoration",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.floodsmart.gov/",
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "GEO/definitional: flood = external rising water (often category 3, contaminated), water damage = internal source (pipes, appliances). Explains why insurance and remediation differ. Disambiguates the two core services for AI retrieval. No existing blog coverage. No metrics: DataForSEO unavailable this run; queued intent-first.",
+      "published_verified_at": "2026-08-27T02:02:01Z"
+    },
+    {
+      "id": "2026-07-13-is-flood-water-dangerous",
+      "status": "published",
+      "queued_at": "2026-07-13T18:01:06Z",
+      "written_at": "2026-09-10T20:15:09Z",
+      "post_url": "https://flood-fixers.com/blog/is-flood-water-dangerous/",
+      "primary_keyword": "is flood water dangerous",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "is flood water contaminated",
+        "is it safe to stay in a house after a flood",
+        "health risks of flood water",
+        "black water category 3 flood",
+        "can you get sick from flood water"
+      ],
+      "suggested_slug": "is-flood-water-dangerous",
+      "suggested_title": "Is Flood Water Dangerous? Health Risks and What To Do",
+      "target_word_count": 1200,
+      "internal_link_targets": [
+        "/services/flood-damage-restoration/",
+        "/services/basement-flooding-cleanup/"
+      ],
+      "service_tags": [
+        "flood-damage-restoration",
+        "basement-flooding-cleanup"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.cdc.gov/disasters/floods/index.html"
+      ],
+      "notes": "Flood water is typically category 3 (black water): sewage, chemicals, pathogens. Cover contamination risks, PPE, why DIY cleanup is risky, when to evacuate. Keep health claims general and cite CDC. No existing blog coverage. No metrics: DataForSEO unavailable this run; queued intent-first.",
+      "published_verified_at": "2026-09-10T20:15:24Z"
+    },
+    {
+      "id": "2026-07-20-how-to-prevent-mold-after-a-flood",
+      "status": "banked",
+      "queued_at": "2026-07-20T21:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to prevent mold after a flood",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "how long before mold grows after a flood",
+        "how to dry out after a flood to prevent mold",
+        "does flood water always cause mold",
+        "mold prevention after flooding",
+        "when to call a mold professional after a flood"
+      ],
+      "suggested_slug": "how-to-prevent-mold-after-a-flood",
+      "suggested_title": "How To Prevent Mold After a Flood (The 24-48 Hour Window)",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/flood-damage-restoration/",
+        "/services/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "flood-damage-restoration",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home",
+        "https://www.cdc.gov/disasters/floods/index.html"
+      ],
+      "notes": "Actionable prevention post: mold begins in 24-48h after flooding. Cover fast water removal, structural drying, discarding porous materials, dehumidification, and when DIY isn't enough. Distinct from the basement-flooding-prevention (prevents the flood) and mold-after-water-damage (mold growth timing) blogs. No Google volume returned; queued intent-first as a GEO/AI-retrieval question. KD low (null in bulk check).",
+      "banked_at": "2026-09-17T22:13:26.018230+00:00"
+    },
+    {
+      "id": "2026-07-20-what-to-throw-away-after-a-flood",
+      "status": "banked",
+      "queued_at": "2026-07-20T21:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what to throw away after a flood",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "what to save after a flood",
+        "can carpet be saved after flooding",
+        "what materials must be removed after flooding",
+        "is flood damaged furniture salvageable",
+        "cleaning vs discarding items after a flood"
+      ],
+      "suggested_slug": "what-to-throw-away-after-a-flood",
+      "suggested_title": "What To Throw Away After a Flood (And What You Can Save)",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/flood-damage-restoration/",
+        "/services/basement-flooding-cleanup/"
+      ],
+      "service_tags": [
+        "flood-damage-restoration",
+        "basement-flooding-cleanup"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.ready.gov/floods",
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "Save/discard checklist grounded in the ChatGPT decomposition: usually discard carpet padding, wet insulation, particleboard/MDF, mattresses and upholstery exposed to floodwater; can often save solid wood, metal, glass after cleaning. Emphasize category-3 contamination from floodwater. No Google volume returned; queued intent-first.",
+      "banked_at": "2026-09-17T22:13:26.018232+00:00"
+    },
+    {
+      "id": "2026-07-20-how-much-does-flood-damage-cleanup-cost",
+      "status": "banked",
+      "queued_at": "2026-07-20T21:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how much does flood damage cleanup cost",
+      "intent": "commercial",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "flood damage cleanup cost",
+        "what affects flood cleanup cost",
+        "does flood insurance cover cleanup",
+        "flood cleanup cost per square foot",
+        "professional flood cleanup vs diy cost"
+      ],
+      "suggested_slug": "how-much-does-flood-damage-cleanup-cost",
+      "suggested_title": "How Much Does Flood Damage Cleanup Cost? A 2026 Price Breakdown",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/flood-damage-restoration/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "flood-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.floodsmart.gov/",
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Decision-stage cost query, distinct from the queued water-damage-restoration cost post: flood water is typically category 3, driving higher remediation cost, and NFIP flood insurance (not standard homeowners) is the relevant coverage. Keep ranges general; avoid unverifiable local quotes. Commercial intent, no matching commercial page in url-plan; blog is correct home. No Google volume returned; queued intent-first, KD low.",
+      "banked_at": "2026-09-17T22:13:26.018234+00:00"
+    },
+    {
+      "id": "2026-08-03-water-pipe-burst-inside-house",
+      "status": "banked",
+      "queued_at": "2026-08-03T18:04:59Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "water pipe burst inside house",
+      "intent": "informational",
+      "volume": 590,
+      "kd": 1,
+      "fan_out_cluster": [
+        "burst pipe water damage symptoms",
+        "how to tell if a pipe burst in the wall",
+        "what happens when a pipe bursts under your house",
+        "pipe burst in wall",
+        "how to fix burst pipe water damage",
+        "water pipe burst inside house symptoms"
+      ],
+      "suggested_slug": "water-pipe-burst-inside-house",
+      "suggested_title": "Water pipe burst inside house: the damage you can see and the damage you cannot",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/burst-pipe-repair/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/"
+      ],
+      "service_tags": [
+        "burst-pipe-repair",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.allstate.com/resources/home-insurance/burst-pipe-water-damage"
+      ],
+      "notes": "Highest-volume uncovered term from the burst pipe seed (590/mo, KD 1, $25.90 CPC). Do NOT repeat the numbered emergency steps: /blog/burst-pipe-emergency-checklist/ already owns that intent and must be linked instead. This post covers what a burst supply line actually does to drywall, insulation, subfloor and cabinetry, the 24-48 hour mold window, and how a restoration crew finds hidden moisture (meters, thermal imaging, cavity drying).",
+      "banked_at": "2026-09-17T22:13:26.018235+00:00"
+    },
+    {
+      "id": "2026-08-03-pipe-burst-repair-cost",
+      "status": "banked",
+      "queued_at": "2026-08-03T18:04:59Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "pipe burst repair cost",
+      "intent": "commercial",
+      "volume": 480,
+      "kd": null,
+      "fan_out_cluster": [
+        "burst water pipe outside house cost",
+        "pipe burst in house cost",
+        "copper pipe burst repair cost",
+        "pvc pipe burst repair cost",
+        "how much does it cost to fix a broken water pipe underground",
+        "burst pipe repair time"
+      ],
+      "suggested_slug": "pipe-burst-repair-cost",
+      "suggested_title": "Pipe burst repair cost: what the plumbing fix runs and what the water damage adds",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/burst-pipe-repair/",
+        "/services/water-damage-restoration/",
+        "/services/reconstruction/",
+        "/service-areas/san-diego-ca/burst-pipe-repair/"
+      ],
+      "service_tags": [
+        "burst-pipe-repair",
+        "water-damage-restoration",
+        "reconstruction"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.iii.org/article/covering-your-home-water-damage"
+      ],
+      "notes": "$34 CPC, decision-stage. The differentiator: split cost into three buckets (plumbing repair, mitigation/drying, reconstruction) because homeowners searching this only price the first one. Use San Diego County ranges and label every figure as a range, never a fixed quote. Cross-link the insurance posts since most of this cost is claimable.",
+      "banked_at": "2026-09-17T22:13:26.018236+00:00"
+    },
+    {
+      "id": "2026-08-03-does-homeowners-insurance-cover-broken-pipes-under-foundation",
+      "status": "banked",
+      "queued_at": "2026-08-03T18:04:59Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover broken pipes under foundation",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 13,
+      "fan_out_cluster": [
+        "does homeowners insurance cover broken pipes under slab",
+        "burst pipe under concrete floor insurance",
+        "does homeowners insurance cover burst pipes in yard",
+        "does homeowners insurance cover slab leak repair",
+        "does homeowners insurance cover main water line replacement",
+        "slab leak symptoms"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-broken-pipes-under-foundation",
+      "suggested_title": "Does homeowners insurance cover broken pipes under foundation? The sudden-vs-gradual rule that decides it",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/burst-pipe-repair/",
+        "/services/water-damage-restoration/",
+        "/services/reconstruction/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ],
+      "service_tags": [
+        "burst-pipe-repair",
+        "water-damage-restoration",
+        "reconstruction"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iii.org/article/covering-your-home-water-damage",
+        "https://www.allstate.com/resources/home-insurance/burst-pipe-water-damage"
+      ],
+      "notes": "Insurance decision-stage, 24-48 hours before hiring. Keep this narrowly about pipes under the slab, foundation and yard so it does not compete with the existing generic /blog/does-homeowners-insurance-cover-water-damage/ post, which should be linked as the parent. The whole answer hinges on sudden-and-accidental versus long-term seepage, plus the fact that the resulting water damage is often covered even when the pipe itself is not. San Diego is slab-on-grade heavy, so this is a local reality, not an edge case.",
+      "banked_at": "2026-09-17T22:13:26.018237+00:00"
+    },
+    {
+      "id": "2026-08-03-burst-pipe-insurance-claim-tips",
+      "status": "banked",
+      "queued_at": "2026-08-03T18:04:59Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "burst pipe insurance claim tips",
+      "intent": "informational",
+      "volume": 210,
+      "kd": 4,
+      "fan_out_cluster": [
+        "burst pipe insurance claim tips california",
+        "how to document burst pipe damage for insurance",
+        "who to call for burst water pipe",
+        "burst pipe water damage",
+        "water pipe burst in house what to do",
+        "does homeowners insurance cover broken pipes under foundation"
+      ],
+      "suggested_slug": "burst-pipe-insurance-claim-tips",
+      "suggested_title": "Burst pipe insurance claim tips: how to document the loss so the claim actually pays",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/burst-pipe-repair/",
+        "/services/water-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "burst-pipe-repair",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.iii.org/article/how-to-file-a-homeowners-insurance-claim"
+      ],
+      "notes": "Claim-process angle only: eligibility belongs to the foundation-pipes post. Emphasize photo and video documentation before mitigation starts, keeping receipts for emergency spend, and the fact that moisture readings and daily drying logs from an IICRC-certified firm are the strongest claim evidence a homeowner can hand an adjuster. Include the California point that the policyholder chooses their own restoration contractor, not the carrier.",
+      "banked_at": "2026-09-17T22:13:26.018238+00:00"
+    },
+    {
+      "id": "2026-08-03-how-to-tell-if-a-pipe-burst-underground",
+      "status": "banked",
+      "queued_at": "2026-08-03T18:04:59Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to tell if a pipe burst underground",
+      "intent": "informational",
+      "volume": 170,
+      "kd": null,
+      "fan_out_cluster": [
+        "water pipe burst underground",
+        "water pipe burst underground symptoms",
+        "signs of a burst pipe outside",
+        "how to tell if a pipe burst under the house",
+        "burst water pipe outside house",
+        "how to fix burst water pipe outside house"
+      ],
+      "suggested_slug": "how-to-tell-if-a-pipe-burst-underground",
+      "suggested_title": "How to tell if a pipe burst underground: the signs that show up before the water bill does",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/burst-pipe-repair/",
+        "/services/water-damage-restoration/",
+        "/service-areas/san-diego-ca/burst-pipe-repair/"
+      ],
+      "service_tags": [
+        "burst-pipe-repair",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/watersense/fix-leak-week",
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Diagnostic checklist, zero Google-measured KD and a strong AI-retrieval shape (the SERP already carries an AI overview plus people-also-ask). Build it as discrete signal sections: the meter test with everything shut off, an unexplained bill spike, soggy or unusually green patches in the yard, running-water sound in a silent house, warm spots on a slab floor, low pressure, sinkholes or settling. Lead with slab symptoms rather than basement symptoms: San Diego housing stock is mostly slab-on-grade.",
+      "banked_at": "2026-09-17T22:13:26.018239+00:00"
+    },
+    {
+      "id": "2026-08-27-does-renters-insurance-cover-basement-flooding",
+      "status": "banked",
+      "queued_at": "2026-08-27T02:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does renters insurance cover basement flooding",
+      "intent": "informational",
+      "volume": 720,
+      "kd": 12,
+      "fan_out_cluster": [
+        "basement flooding insurance coverage",
+        "my basement flooded what will insurance cover",
+        "does insurance cover basement flooding from rain",
+        "basement flooding insurance",
+        "what to do when your basement floods from rain"
+      ],
+      "suggested_slug": "does-renters-insurance-cover-basement-flooding",
+      "suggested_title": "Does renters insurance cover basement flooding? What tenants in San Diego need to know",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/basement-flooding-cleanup/",
+        "/services/water-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ],
+      "service_tags": [
+        "basement-flooding-cleanup",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.floodsmart.gov/",
+        "https://www.iii.org/article/does-my-homeowners-insurance-cover-water-damage"
+      ],
+      "notes": "Highest-volume gap from this seed (720/mo, KD 12) and genuinely uncovered: both existing insurance posts address homeowners policies, not renters. Draw the line clearly between contents coverage (tenant policy) and structure coverage (landlord policy), and note the NFIP flood exclusion. Do not promise coverage outcomes.",
+      "banked_at": "2026-09-19T10:23:53.721557+00:00"
+    },
+    {
+      "id": "2026-08-27-basement-flooded-who-to-call",
+      "status": "banked",
+      "queued_at": "2026-08-27T02:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "basement flooded who to call",
+      "intent": "commercial",
+      "volume": 260,
+      "kd": 0,
+      "fan_out_cluster": [
+        "who to call for basement flooding",
+        "basement flooding who to call",
+        "flooded basement cleanup companies near me",
+        "basement flooding services",
+        "when to call a professional for flood cleanup"
+      ],
+      "suggested_slug": "basement-flooded-who-to-call",
+      "suggested_title": "Basement flooded: who to call first (plumber, restoration company, or insurer)",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/basement-flooding-cleanup/",
+        "/services/burst-pipe-repair/",
+        "/blog/choosing-a-restoration-company/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "basement-flooding-cleanup",
+        "burst-pipe-repair",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "CPC $94.88 with KD 0: the single best money-to-difficulty ratio in this seed family. Decision-stage query. Order the call list by scenario (still-active water goes to the plumber or shutoff first, then restoration, then the carrier) and close with the 24/7 line.",
+      "banked_at": "2026-09-17T22:13:26.018241+00:00"
+    },
+    {
+      "id": "2026-08-27-why-is-my-basement-flooding",
+      "status": "banked",
+      "queued_at": "2026-08-27T02:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "why is my basement flooding",
+      "intent": "informational",
+      "volume": 210,
+      "kd": 7,
+      "fan_out_cluster": [
+        "what causes basement flooding",
+        "basement flooding causes",
+        "basement flooding when it rains",
+        "basement flooding from rain",
+        "basement flooded after heavy rain",
+        "basement flooding solutions"
+      ],
+      "suggested_slug": "why-is-my-basement-flooding",
+      "suggested_title": "Why is my basement flooding? The 8 most common causes (and which are emergencies)",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/basement-flooding-cleanup/",
+        "/services/burst-pipe-repair/",
+        "/blog/basement-flooding-prevention/"
+      ],
+      "service_tags": [
+        "basement-flooding-cleanup",
+        "burst-pipe-repair",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.ready.gov/floods"
+      ],
+      "notes": "Diagnostic angle, not covered by the existing prevention post. Cause-first structure so AI assistants can lift individual causes as passages. Include a San Diego note: most local basement flooding is plumbing or irrigation driven rather than seasonal groundwater, which differs from the national coverage that dominates this SERP.",
+      "banked_at": "2026-09-17T22:13:26.018242+00:00"
+    },
+    {
+      "id": "2026-08-27-water-heater-flooding-basement",
+      "status": "banked",
+      "queued_at": "2026-08-27T02:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "water heater flooding basement",
+      "intent": "informational",
+      "volume": 210,
+      "kd": 0,
+      "fan_out_cluster": [
+        "water heater leaking into basement",
+        "basement flooding water removal",
+        "how to dry out a basement fast",
+        "emergency flooding in basement",
+        "basement flooding what to do"
+      ],
+      "suggested_slug": "water-heater-flooding-basement",
+      "suggested_title": "Water heater flooding your basement: how to shut it down and what to do next",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/basement-flooding-cleanup/",
+        "/services/water-damage-restoration/",
+        "/services/burst-pipe-repair/"
+      ],
+      "service_tags": [
+        "basement-flooding-cleanup",
+        "water-damage-restoration",
+        "burst-pipe-repair"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "KD 0 at CPC $73.99. Lead with the shutoff sequence (power or gas first, then cold water supply) because that is the passage AI assistants will lift. A failed heater is clean Category 1 water that degrades to Category 2 within roughly 48 hours: state that window explicitly.",
+      "banked_at": "2026-09-17T22:13:26.018243+00:00"
+    },
+    {
+      "id": "2026-08-27-basement-flooding-sump-pump-not-working",
+      "status": "banked",
+      "queued_at": "2026-08-27T02:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "basement flooding sump pump not working",
+      "intent": "informational",
+      "volume": 110,
+      "kd": 0,
+      "fan_out_cluster": [
+        "sump pump failed basement flooded",
+        "basement flooding when it rains",
+        "basement flooding water removal",
+        "emergency flooding in basement",
+        "how to dry out a basement fast"
+      ],
+      "suggested_slug": "basement-flooding-sump-pump-not-working",
+      "suggested_title": "Basement flooding with a sump pump not working: emergency steps and next moves",
+      "target_word_count": 1200,
+      "internal_link_targets": [
+        "/services/basement-flooding-cleanup/",
+        "/services/water-damage-restoration/",
+        "/blog/basement-flooding-prevention/"
+      ],
+      "service_tags": [
+        "basement-flooding-cleanup",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.ready.gov/floods"
+      ],
+      "notes": "KD 0 at CPC $73.24. Split the piece by failure mode (tripped breaker, stuck float, clogged intake, undersized pump, discharge frozen or blocked) and be explicit that standing water plus an electrical outlet is a stop-and-call-a-pro condition. Flood Fixers does not sell or install sump pumps: keep the CTA on cleanup and drying, not pump replacement.",
+      "banked_at": "2026-09-17T22:13:26.018244+00:00"
+    },
+    {
+      "id": "2026-08-28-pin-water-damage-repair",
+      "status": "published",
+      "queued_at": "2026-08-28T02:11:36.668433+00:00",
+      "prioritized": true,
+      "source": "strategist-pin",
+      "primary_keyword": "water damage repair",
+      "intent": "commercial",
+      "volume": null,
+      "kd": null,
+      "target_word_count": 1500,
+      "notes": "Pinned from AI Search. Write a NUMBERED ranked listicle (#1, #2, #3...) of real local companies for this query. Our client is #1 with a factual justification (verifiable certifications, license, response time, review count/rating); competitors at #2-#5 are REAL businesses with their REAL Google ratings and one honest strength each \u2014 never invented, never disparaged. End with an FAQ section whose first question is the search query itself, answered directly, plus 3-4 people-also-ask variants (cost, how to choose, response time) phrased the way customers search. Every claim about our client must pass the claims truth table.",
+      "written_at": "2026-08-31T23:12:50Z",
+      "post_url": "https://flood-fixers.com/blog/water-damage-repair/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/water-damage-repair.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "20 reviews",
+          "context": "right now, you don't have time to read 20 reviews and compare websites. You need a compan",
+          "reason": "claims 20 reviews but synced gbpReviewCount is 9 (allowed \u00b120%: 7-10)"
+        }
+      ],
+      "published_verified_at": "2026-08-31T23:14:02Z"
+    },
+    {
+      "id": "2026-09-10-commercial-water-damage-restoration-san-diego",
+      "status": "queued",
+      "queued_at": "2026-09-10T20:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "commercial water damage restoration",
+      "intent": "transactional",
+      "volume": 590,
+      "kd": 15,
+      "fan_out_cluster": [
+        "commercial water damage",
+        "commercial water damage restoration services",
+        "commercial water damage restoration near me",
+        "commercial water damage clean up",
+        "office water damage cleanup",
+        "restaurant water damage cleanup",
+        "warehouse water damage restoration"
+      ],
+      "suggested_slug": "commercial-water-damage-restoration-san-diego",
+      "suggested_title": "Commercial water damage restoration in San Diego: what property managers need to know",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/burst-pipe-repair/",
+        "/services/reconstruction/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "burst-pipe-repair",
+        "reconstruction"
+      ],
+      "city_anchor": "san-diego-ca",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Highest-volume gap in the whole commercial family (590/mo, KD 15) and the site has zero commercial service pages: the only commercial asset is /blog/commercial-water-damage-business-continuity/. Write for the decision maker, not the homeowner: multi-tenant shutoffs, after-hours response, documenting loss for a commercial carrier, phased drying so part of the building stays open. Break out by property type (office, retail, restaurant, warehouse, multifamily) so the property-type long tail in the bank has a landing spot. Link the burst pipe and reconstruction service pages: commercial losses almost always run through rebuild."
+    },
+    {
+      "id": "2026-09-10-does-commercial-property-insurance-cover-water-damage",
+      "status": "queued",
+      "queued_at": "2026-09-10T20:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does commercial property insurance cover water damage",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "does commercial insurance cover water damage",
+        "commercial property insurance water damage",
+        "commercial water damage claim",
+        "how to file a commercial water damage insurance claim",
+        "water damage business interruption",
+        "commercial water damage cost"
+      ],
+      "suggested_slug": "does-commercial-property-insurance-cover-water-damage",
+      "suggested_title": "Does commercial property insurance cover water damage? A San Diego business owner's guide",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/burst-pipe-repair/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "burst-pipe-repair"
+      ],
+      "city_anchor": "san-diego-ca",
+      "external_authority_candidates": [
+        "https://www.iii.org/",
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "The live insurance post is homeowners-only, so the commercial policy question is wide open. Decision-stage: these readers are 24 to 48 hours from hiring someone. Cover the sudden-and-accidental vs long-term-seepage split, business interruption as a separate coverage, deductible structure on a commercial policy, and flood exclusion (San Diego coastal and canyon properties). Do not give legal or coverage advice: frame as what to check in your policy and what to document."
+    },
+    {
+      "id": "2026-09-10-who-is-responsible-for-water-damage-in-a-rental-property",
+      "status": "queued",
+      "queued_at": "2026-09-10T20:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "who is responsible for water damage in a rental property",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "what should a landlord do when a tenant has water damage",
+        "apartment building water damage",
+        "commercial water damage claim",
+        "does commercial property insurance cover water damage",
+        "can water damage cause structural damage to a commercial building",
+        "commercial water damage restoration chula vista"
+      ],
+      "suggested_slug": "who-is-responsible-for-water-damage-in-a-rental-property",
+      "suggested_title": "Who is responsible for water damage in a rental property? Landlord and tenant duties in Chula Vista, CA",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/service-areas/chula-vista-ca/water-damage-restoration/",
+        "/services/reconstruction/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "burst-pipe-repair",
+        "reconstruction"
+      ],
+      "city_anchor": "chula-vista-ca",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Landlord and property-manager query with no coverage on the site. Both audiences convert: the landlord books the job, the tenant refers the landlord. Split the piece by who pays for the structure vs the contents, habitability and relocation timelines, and why a documented IICRC S500 dry log protects the landlord in a dispute. Chula Vista anchor because the multifamily stock there is the natural reader. Keep it descriptive, not legal advice: point readers to their lease and their carrier."
+    },
+    {
+      "id": "2026-09-10-how-to-prevent-water-damage-in-a-commercial-building",
+      "status": "queued",
+      "queued_at": "2026-09-10T20:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to prevent water damage in a commercial building",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "causes of commercial water damage",
+        "can water damage cause structural damage to a commercial building",
+        "commercial water damage mitigation",
+        "water damage commercial building",
+        "commercial water damage restoration carlsbad",
+        "commercial property water damage"
+      ],
+      "suggested_slug": "how-to-prevent-water-damage-in-a-commercial-building",
+      "suggested_title": "How to prevent water damage in a commercial building: a Carlsbad property manager's checklist",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/burst-pipe-repair/",
+        "/service-areas/carlsbad-ca/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "burst-pipe-repair",
+        "basement-flooding-cleanup"
+      ],
+      "city_anchor": "carlsbad-ca",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "The live prevention post (/blog/basement-flooding-prevention/) is residential, so the commercial angle is uncovered. Make it an actual checklist a property manager can run quarterly: roof drains and scuppers, water heaters and boiler rooms, supply lines to break rooms and ice machines, fire sprinkler line inspections, shutoff valve mapping and labeling, leak sensors on upper floors. Carlsbad anchor: coastal corrosion on supply lines and winter storm runoff are the local hooks."
+    },
+    {
+      "id": "2026-09-10-what-to-do-when-a-pipe-bursts-in-a-commercial-building",
+      "status": "queued",
+      "queued_at": "2026-09-10T20:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what to do when a pipe bursts in a commercial building",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "commercial water damage clean up",
+        "commercial water damage mitigation",
+        "emergency commercial water damage restoration san diego",
+        "commercial building water damage cleanup",
+        "how to file a commercial water damage insurance claim",
+        "commercial water damage restoration oceanside"
+      ],
+      "suggested_slug": "what-to-do-when-a-pipe-bursts-in-a-commercial-building",
+      "suggested_title": "What to do when a pipe bursts in a commercial building: the first 60 minutes",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/burst-pipe-repair/",
+        "/services/water-damage-restoration/",
+        "/service-areas/oceanside-ca/burst-pipe-repair/"
+      ],
+      "service_tags": [
+        "burst-pipe-repair",
+        "water-damage-restoration"
+      ],
+      "city_anchor": "oceanside-ca",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Do not rewrite /blog/burst-pipe-emergency-checklist/: that one is written for homeowners. This is the multi-tenant version, ordered by minute: kill power to affected panels, find and close the building shutoff, notify tenants and the building owner, photograph before anything moves, call the carrier and the restoration contractor in that order. Add the after-hours case (burst at 2am, nobody on site) because that is the panic search. 24/7 emergency service is a verified brand fact."
     }
-   ],
-   "published_verified_at": "2026-09-18T11:45:40Z"
-  },
-  {
-   "id": "2026-07-06-what-is-category-3-water-damage",
-   "status": "published",
-   "queued_at": "2026-07-06T18:21:18Z",
-   "written_at": "2026-07-06T18:25:34Z",
-   "post_url": "https://flood-fixers.com/blog/what-is-category-3-water-damage/",
-   "primary_keyword": "what is category 3 water damage",
-   "intent": "informational",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "categories of water damage explained",
-    "clean water vs gray water vs black water",
-    "is category 3 water damage dangerous",
-    "category 1 category 2 category 3 water"
-   ],
-   "suggested_slug": "what-is-category-3-water-damage",
-   "suggested_title": "What Is Category 3 Water Damage? (And Why It Changes Everything)",
-   "target_word_count": 1300,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/basement-flooding-cleanup/"
-   ],
-   "service_tags": [
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "Explain the three IICRC water categories (clean, gray, black), how each affects safety, drying vs. removal, and cost. Category 3 (sewage/contaminated) requires disposal of porous materials. No metrics: DataForSEO unavailable this run; queued intent-first as a GEO/AI-retrieval definitional query with no existing blog coverage.",
-   "published_verified_at": "2026-07-06T18:27:10Z"
-  },
-  {
-   "id": "2026-07-06-water-damage-restoration-process",
-   "status": "published",
-   "queued_at": "2026-07-06T18:21:18Z",
-   "written_at": "2026-07-09T18:00:05Z",
-   "post_url": "https://flood-fixers.com/blog/water-damage-restoration-process-explained/",
-   "primary_keyword": "what does the water damage restoration process involve",
-   "intent": "informational",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "water damage restoration process step by step",
-    "water extraction and drying process",
-    "how do professionals dry out water damage",
-    "moisture testing after water damage",
-    "does water damaged drywall need to be replaced"
-   ],
-   "suggested_slug": "water-damage-restoration-process-explained",
-   "suggested_title": "What Does the Water Damage Restoration Process Involve? A Step-by-Step Guide",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/reconstruction/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "reconstruction"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "Walk through inspection, water extraction, structural drying, dehumidification, moisture verification, and reconstruction. Pairs with the water damage restoration and reconstruction service pages. No metrics: DataForSEO unavailable this run; queued intent-first (process explainer, no existing blog coverage).",
-   "published_verified_at": "2026-07-09T18:01:12Z"
-  },
-  {
-   "id": "2026-07-06-water-damage-behind-walls",
-   "status": "written",
-   "queued_at": "2026-07-06T18:21:18Z",
-   "written_at": "2026-07-13T18:04:18Z",
-   "post_url": "https://flood-fixers.com/blog/how-to-tell-if-you-have-water-damage-behind-walls/",
-   "primary_keyword": "how to tell if you have water damage behind walls",
-   "intent": "informational",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "signs of water damage behind walls",
-    "signs of water damage on ceiling",
-    "musty smell from water damage",
-    "bubbling or peeling paint water damage",
-    "hidden water damage detection"
-   ],
-   "suggested_slug": "how-to-tell-if-you-have-water-damage-behind-walls",
-   "suggested_title": "How To Tell if You Have Water Damage Behind Your Walls (7 Warning Signs)",
-   "target_word_count": 1300,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/burst-pipe-repair/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "burst-pipe-repair"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.epa.gov/mold/mold-cleanup-your-home"
-   ],
-   "notes": "List detectable signs (staining, bubbling paint, musty odor, warped drywall, elevated moisture readings), when it points to a hidden burst pipe, and when to call a pro. No metrics: DataForSEO unavailable this run; queued intent-first (diagnostic query, no existing blog coverage)."
-  },
-  {
-   "id": "2026-07-06-water-damage-left-untreated",
-   "status": "written",
-   "queued_at": "2026-07-06T18:21:18Z",
-   "written_at": "2026-07-16T17:11:25Z",
-   "post_url": "https://flood-fixers.com/blog/what-happens-if-water-damage-is-left-untreated/",
-   "primary_keyword": "what happens if water damage is left untreated",
-   "intent": "informational",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "is water damage dangerous to your health",
-    "how long before mold grows after water damage",
-    "structural damage from untreated water",
-    "risks of ignoring water damage"
-   ],
-   "suggested_slug": "what-happens-if-water-damage-is-left-untreated",
-   "suggested_title": "What Happens if Water Damage Is Left Untreated? (The 24-Hour to 30-Day Timeline)",
-   "target_word_count": 1300,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/basement-flooding-cleanup/"
-   ],
-   "service_tags": [
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.epa.gov/mold/mold-cleanup-your-home"
-   ],
-   "notes": "Timeline of escalation: mold in 24-48 hours, structural weakening, insurance implications for delayed mitigation. Reinforces urgency of the 24/7 service. No metrics: DataForSEO unavailable this run; queued intent-first (no existing blog coverage; adjacent to but distinct from the mold-after-water-damage post)."
-  },
-  {
-   "id": "2026-07-06-water-damage-restoration-cost",
-   "status": "published",
-   "queued_at": "2026-07-06T18:21:18Z",
-   "written_at": "2026-07-20T18:13:16Z",
-   "post_url": "https://flood-fixers.com/blog/how-much-does-water-damage-restoration-cost/",
-   "primary_keyword": "how much does water damage restoration cost",
-   "intent": "commercial",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "water damage restoration cost per square foot",
-    "what affects water damage restoration cost",
-    "does insurance pay for water damage restoration",
-    "category 3 water damage cost"
-   ],
-   "suggested_slug": "how-much-does-water-damage-restoration-cost",
-   "suggested_title": "How Much Does Water Damage Restoration Cost? A 2026 Price Breakdown",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "Cost drivers: water category, affected square footage, materials, drying time, mold. Cross-link the insurance-coverage blog. Commercial/decision-stage query with no dedicated cost page in the url-plan. No metrics: DataForSEO unavailable this run; queued intent-first as a high-value decision-stage topic. Keep price ranges general, avoid unverifiable local quotes.",
-   "published_verified_at": "2026-07-20T18:14:53Z"
-  },
-  {
-   "id": "2026-07-13-does-homeowners-insurance-cover-flood-damage",
-   "status": "published",
-   "queued_at": "2026-07-13T18:01:06Z",
-   "written_at": "2026-07-23T17:24:56Z",
-   "post_url": "https://flood-fixers.com/blog/does-homeowners-insurance-cover-flood-damage/",
-   "primary_keyword": "does homeowners insurance cover flood damage",
-   "intent": "informational",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "is flood damage covered by homeowners insurance",
-    "do i need separate flood insurance",
-    "what does flood insurance cover",
-    "nfip flood insurance explained",
-    "difference between flood insurance and water damage coverage"
-   ],
-   "suggested_slug": "does-homeowners-insurance-cover-flood-damage",
-   "suggested_title": "Does Homeowners Insurance Cover Flood Damage? What San Diego Homeowners Need To Know",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/flood-damage-restoration/",
-    "/services/water-damage-restoration/"
-   ],
-   "service_tags": [
-    "flood-damage-restoration",
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.floodsmart.gov/",
-    "https://www.fema.gov/flood-insurance"
-   ],
-   "notes": "Distinguish NFIP flood policies from standard homeowners water-damage coverage: homeowners policies typically EXCLUDE flooding (rising external water). Cross-link the existing water-damage insurance blog and the flood-damage service page. Decision-stage query, no existing blog coverage. No metrics: DataForSEO unavailable this run; queued intent-first.",
-   "published_verified_at": "2026-07-23T17:26:03Z"
-  },
-  {
-   "id": "2026-07-13-what-to-do-after-a-flood-in-your-house",
-   "status": "published",
-   "queued_at": "2026-07-13T18:01:06Z",
-   "written_at": "2026-07-30T17:52:00Z",
-   "post_url": "https://flood-fixers.com/blog/what-to-do-after-a-flood-in-your-house/",
-   "primary_keyword": "what to do after a flood in your house",
-   "intent": "informational",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "what to do if your house floods",
-    "steps to clean up flood damage",
-    "how to clean up after a flood",
-    "flood cleanup safety tips",
-    "when to call a flood damage professional"
-   ],
-   "suggested_slug": "what-to-do-after-a-flood-in-your-house",
-   "suggested_title": "What To Do After a Flood in Your House (The First 24 Hours)",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/flood-damage-restoration/",
-    "/services/basement-flooding-cleanup/"
-   ],
-   "service_tags": [
-    "flood-damage-restoration",
-    "basement-flooding-cleanup"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.ready.gov/floods",
-    "https://www.cdc.gov/disasters/floods/index.html"
-   ],
-   "notes": "Emergency checklist: safety (power/gas, contaminated water), document damage for insurance, stop the source, act within the 24-48h mold window, when to call a pro. Reinforces 24/7 service. No existing flood-specific blog coverage. No metrics: DataForSEO unavailable this run; queued intent-first.",
-   "claims_flags": [
-    {
-     "file": "src/content/blog/what-to-do-after-a-flood-in-your-house.md",
-     "part": "body",
-     "family": "service-scope",
-     "severity": "review",
-     "matched": "mold remediation",
-     "context": "er, and the cost of getting it wrong, a mold remediation job weeks later, typically far exceeds",
-     "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
-    }
-   ],
-   "published_verified_at": "2026-07-30T17:53:39Z"
-  },
-  {
-   "id": "2026-07-13-how-to-dry-out-a-flooded-house",
-   "status": "written",
-   "queued_at": "2026-07-13T18:01:06Z",
-   "written_at": "2026-08-03T18:07:42Z",
-   "post_url": "https://flood-fixers.com/blog/how-to-dry-out-a-flooded-house/",
-   "primary_keyword": "how to dry out a flooded house",
-   "intent": "informational",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "how long does it take to dry out a flooded house",
-    "drying out after a flood",
-    "how to dry a flooded room",
-    "do you need professional drying equipment after a flood",
-    "preventing mold after a flood"
-   ],
-   "suggested_slug": "how-to-dry-out-a-flooded-house",
-   "suggested_title": "How To Dry Out a Flooded House: A Step-by-Step Guide",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/flood-damage-restoration/",
-    "/services/water-damage-restoration/"
-   ],
-   "service_tags": [
-    "flood-damage-restoration",
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.epa.gov/mold/mold-cleanup-your-home"
-   ],
-   "notes": "Water extraction, air movers and dehumidifiers, moisture monitoring, why full structural drying needs pro equipment, the 24-48h mold growth window. No existing blog coverage. No metrics: DataForSEO unavailable this run; queued intent-first."
-  },
-  {
-   "id": "2026-07-13-difference-between-flood-damage-and-water-damage",
-   "status": "published",
-   "queued_at": "2026-07-13T18:01:06Z",
-   "written_at": "2026-08-27T02:00:50Z",
-   "post_url": "https://flood-fixers.com/blog/difference-between-flood-damage-and-water-damage/",
-   "primary_keyword": "difference between flood damage and water damage",
-   "intent": "informational",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "is flood damage the same as water damage",
-    "flood vs water damage insurance",
-    "what counts as flood damage",
-    "water category in a flood",
-    "why flood damage costs more to restore"
-   ],
-   "suggested_slug": "difference-between-flood-damage-and-water-damage",
-   "suggested_title": "The Difference Between Flood Damage and Water Damage (And Why It Matters)",
-   "target_word_count": 1300,
-   "internal_link_targets": [
-    "/services/flood-damage-restoration/",
-    "/services/water-damage-restoration/"
-   ],
-   "service_tags": [
-    "flood-damage-restoration",
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.floodsmart.gov/",
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "GEO/definitional: flood = external rising water (often category 3, contaminated), water damage = internal source (pipes, appliances). Explains why insurance and remediation differ. Disambiguates the two core services for AI retrieval. No existing blog coverage. No metrics: DataForSEO unavailable this run; queued intent-first.",
-   "published_verified_at": "2026-08-27T02:02:01Z"
-  },
-  {
-   "id": "2026-07-13-is-flood-water-dangerous",
-   "status": "published",
-   "queued_at": "2026-07-13T18:01:06Z",
-   "written_at": "2026-09-10T20:15:09Z",
-   "post_url": "https://flood-fixers.com/blog/is-flood-water-dangerous/",
-   "primary_keyword": "is flood water dangerous",
-   "intent": "informational",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "is flood water contaminated",
-    "is it safe to stay in a house after a flood",
-    "health risks of flood water",
-    "black water category 3 flood",
-    "can you get sick from flood water"
-   ],
-   "suggested_slug": "is-flood-water-dangerous",
-   "suggested_title": "Is Flood Water Dangerous? Health Risks and What To Do",
-   "target_word_count": 1200,
-   "internal_link_targets": [
-    "/services/flood-damage-restoration/",
-    "/services/basement-flooding-cleanup/"
-   ],
-   "service_tags": [
-    "flood-damage-restoration",
-    "basement-flooding-cleanup"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.cdc.gov/disasters/floods/index.html"
-   ],
-   "notes": "Flood water is typically category 3 (black water): sewage, chemicals, pathogens. Cover contamination risks, PPE, why DIY cleanup is risky, when to evacuate. Keep health claims general and cite CDC. No existing blog coverage. No metrics: DataForSEO unavailable this run; queued intent-first.",
-   "published_verified_at": "2026-09-10T20:15:24Z"
-  },
-  {
-   "id": "2026-07-20-how-to-prevent-mold-after-a-flood",
-   "status": "banked",
-   "queued_at": "2026-07-20T21:15:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "how to prevent mold after a flood",
-   "intent": "informational",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "how long before mold grows after a flood",
-    "how to dry out after a flood to prevent mold",
-    "does flood water always cause mold",
-    "mold prevention after flooding",
-    "when to call a mold professional after a flood"
-   ],
-   "suggested_slug": "how-to-prevent-mold-after-a-flood",
-   "suggested_title": "How To Prevent Mold After a Flood (The 24-48 Hour Window)",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/flood-damage-restoration/",
-    "/services/water-damage-restoration/"
-   ],
-   "service_tags": [
-    "flood-damage-restoration",
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.epa.gov/mold/mold-cleanup-your-home",
-    "https://www.cdc.gov/disasters/floods/index.html"
-   ],
-   "notes": "Actionable prevention post: mold begins in 24-48h after flooding. Cover fast water removal, structural drying, discarding porous materials, dehumidification, and when DIY isn't enough. Distinct from the basement-flooding-prevention (prevents the flood) and mold-after-water-damage (mold growth timing) blogs. No Google volume returned; queued intent-first as a GEO/AI-retrieval question. KD low (null in bulk check).",
-   "banked_at": "2026-09-17T22:13:26.018230+00:00"
-  },
-  {
-   "id": "2026-07-20-what-to-throw-away-after-a-flood",
-   "status": "banked",
-   "queued_at": "2026-07-20T21:15:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "what to throw away after a flood",
-   "intent": "informational",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "what to save after a flood",
-    "can carpet be saved after flooding",
-    "what materials must be removed after flooding",
-    "is flood damaged furniture salvageable",
-    "cleaning vs discarding items after a flood"
-   ],
-   "suggested_slug": "what-to-throw-away-after-a-flood",
-   "suggested_title": "What To Throw Away After a Flood (And What You Can Save)",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/flood-damage-restoration/",
-    "/services/basement-flooding-cleanup/"
-   ],
-   "service_tags": [
-    "flood-damage-restoration",
-    "basement-flooding-cleanup"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.ready.gov/floods",
-    "https://www.epa.gov/mold/mold-cleanup-your-home"
-   ],
-   "notes": "Save/discard checklist grounded in the ChatGPT decomposition: usually discard carpet padding, wet insulation, particleboard/MDF, mattresses and upholstery exposed to floodwater; can often save solid wood, metal, glass after cleaning. Emphasize category-3 contamination from floodwater. No Google volume returned; queued intent-first.",
-   "banked_at": "2026-09-17T22:13:26.018232+00:00"
-  },
-  {
-   "id": "2026-07-20-how-much-does-flood-damage-cleanup-cost",
-   "status": "banked",
-   "queued_at": "2026-07-20T21:15:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "how much does flood damage cleanup cost",
-   "intent": "commercial",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "flood damage cleanup cost",
-    "what affects flood cleanup cost",
-    "does flood insurance cover cleanup",
-    "flood cleanup cost per square foot",
-    "professional flood cleanup vs diy cost"
-   ],
-   "suggested_slug": "how-much-does-flood-damage-cleanup-cost",
-   "suggested_title": "How Much Does Flood Damage Cleanup Cost? A 2026 Price Breakdown",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/flood-damage-restoration/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "flood-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.floodsmart.gov/",
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "Decision-stage cost query, distinct from the queued water-damage-restoration cost post: flood water is typically category 3, driving higher remediation cost, and NFIP flood insurance (not standard homeowners) is the relevant coverage. Keep ranges general; avoid unverifiable local quotes. Commercial intent, no matching commercial page in url-plan; blog is correct home. No Google volume returned; queued intent-first, KD low.",
-   "banked_at": "2026-09-17T22:13:26.018234+00:00"
-  },
-  {
-   "id": "2026-08-03-water-pipe-burst-inside-house",
-   "status": "banked",
-   "queued_at": "2026-08-03T18:04:59Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "water pipe burst inside house",
-   "intent": "informational",
-   "volume": 590,
-   "kd": 1,
-   "fan_out_cluster": [
-    "burst pipe water damage symptoms",
-    "how to tell if a pipe burst in the wall",
-    "what happens when a pipe bursts under your house",
-    "pipe burst in wall",
-    "how to fix burst pipe water damage",
-    "water pipe burst inside house symptoms"
-   ],
-   "suggested_slug": "water-pipe-burst-inside-house",
-   "suggested_title": "Water pipe burst inside house: the damage you can see and the damage you cannot",
-   "target_word_count": 1600,
-   "internal_link_targets": [
-    "/services/burst-pipe-repair/",
-    "/services/water-damage-restoration/",
-    "/blog/burst-pipe-emergency-checklist/"
-   ],
-   "service_tags": [
-    "burst-pipe-repair",
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500",
-    "https://www.allstate.com/resources/home-insurance/burst-pipe-water-damage"
-   ],
-   "notes": "Highest-volume uncovered term from the burst pipe seed (590/mo, KD 1, $25.90 CPC). Do NOT repeat the numbered emergency steps: /blog/burst-pipe-emergency-checklist/ already owns that intent and must be linked instead. This post covers what a burst supply line actually does to drywall, insulation, subfloor and cabinetry, the 24-48 hour mold window, and how a restoration crew finds hidden moisture (meters, thermal imaging, cavity drying).",
-   "banked_at": "2026-09-17T22:13:26.018235+00:00"
-  },
-  {
-   "id": "2026-08-03-pipe-burst-repair-cost",
-   "status": "banked",
-   "queued_at": "2026-08-03T18:04:59Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "pipe burst repair cost",
-   "intent": "commercial",
-   "volume": 480,
-   "kd": null,
-   "fan_out_cluster": [
-    "burst water pipe outside house cost",
-    "pipe burst in house cost",
-    "copper pipe burst repair cost",
-    "pvc pipe burst repair cost",
-    "how much does it cost to fix a broken water pipe underground",
-    "burst pipe repair time"
-   ],
-   "suggested_slug": "pipe-burst-repair-cost",
-   "suggested_title": "Pipe burst repair cost: what the plumbing fix runs and what the water damage adds",
-   "target_word_count": 1600,
-   "internal_link_targets": [
-    "/services/burst-pipe-repair/",
-    "/services/water-damage-restoration/",
-    "/services/reconstruction/",
-    "/service-areas/san-diego-ca/burst-pipe-repair/"
-   ],
-   "service_tags": [
-    "burst-pipe-repair",
-    "water-damage-restoration",
-    "reconstruction"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500",
-    "https://www.iii.org/article/covering-your-home-water-damage"
-   ],
-   "notes": "$34 CPC, decision-stage. The differentiator: split cost into three buckets (plumbing repair, mitigation/drying, reconstruction) because homeowners searching this only price the first one. Use San Diego County ranges and label every figure as a range, never a fixed quote. Cross-link the insurance posts since most of this cost is claimable.",
-   "banked_at": "2026-09-17T22:13:26.018236+00:00"
-  },
-  {
-   "id": "2026-08-03-does-homeowners-insurance-cover-broken-pipes-under-foundation",
-   "status": "banked",
-   "queued_at": "2026-08-03T18:04:59Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "does homeowners insurance cover broken pipes under foundation",
-   "intent": "informational",
-   "volume": 260,
-   "kd": 13,
-   "fan_out_cluster": [
-    "does homeowners insurance cover broken pipes under slab",
-    "burst pipe under concrete floor insurance",
-    "does homeowners insurance cover burst pipes in yard",
-    "does homeowners insurance cover slab leak repair",
-    "does homeowners insurance cover main water line replacement",
-    "slab leak symptoms"
-   ],
-   "suggested_slug": "does-homeowners-insurance-cover-broken-pipes-under-foundation",
-   "suggested_title": "Does homeowners insurance cover broken pipes under foundation? The sudden-vs-gradual rule that decides it",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/burst-pipe-repair/",
-    "/services/water-damage-restoration/",
-    "/services/reconstruction/",
-    "/blog/does-homeowners-insurance-cover-water-damage/"
-   ],
-   "service_tags": [
-    "burst-pipe-repair",
-    "water-damage-restoration",
-    "reconstruction"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iii.org/article/covering-your-home-water-damage",
-    "https://www.allstate.com/resources/home-insurance/burst-pipe-water-damage"
-   ],
-   "notes": "Insurance decision-stage, 24-48 hours before hiring. Keep this narrowly about pipes under the slab, foundation and yard so it does not compete with the existing generic /blog/does-homeowners-insurance-cover-water-damage/ post, which should be linked as the parent. The whole answer hinges on sudden-and-accidental versus long-term seepage, plus the fact that the resulting water damage is often covered even when the pipe itself is not. San Diego is slab-on-grade heavy, so this is a local reality, not an edge case.",
-   "banked_at": "2026-09-17T22:13:26.018237+00:00"
-  },
-  {
-   "id": "2026-08-03-burst-pipe-insurance-claim-tips",
-   "status": "banked",
-   "queued_at": "2026-08-03T18:04:59Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "burst pipe insurance claim tips",
-   "intent": "informational",
-   "volume": 210,
-   "kd": 4,
-   "fan_out_cluster": [
-    "burst pipe insurance claim tips california",
-    "how to document burst pipe damage for insurance",
-    "who to call for burst water pipe",
-    "burst pipe water damage",
-    "water pipe burst in house what to do",
-    "does homeowners insurance cover broken pipes under foundation"
-   ],
-   "suggested_slug": "burst-pipe-insurance-claim-tips",
-   "suggested_title": "Burst pipe insurance claim tips: how to document the loss so the claim actually pays",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/burst-pipe-repair/",
-    "/services/water-damage-restoration/",
-    "/blog/does-homeowners-insurance-cover-water-damage/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "burst-pipe-repair",
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500",
-    "https://www.iii.org/article/how-to-file-a-homeowners-insurance-claim"
-   ],
-   "notes": "Claim-process angle only: eligibility belongs to the foundation-pipes post. Emphasize photo and video documentation before mitigation starts, keeping receipts for emergency spend, and the fact that moisture readings and daily drying logs from an IICRC-certified firm are the strongest claim evidence a homeowner can hand an adjuster. Include the California point that the policyholder chooses their own restoration contractor, not the carrier.",
-   "banked_at": "2026-09-17T22:13:26.018238+00:00"
-  },
-  {
-   "id": "2026-08-03-how-to-tell-if-a-pipe-burst-underground",
-   "status": "banked",
-   "queued_at": "2026-08-03T18:04:59Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "how to tell if a pipe burst underground",
-   "intent": "informational",
-   "volume": 170,
-   "kd": null,
-   "fan_out_cluster": [
-    "water pipe burst underground",
-    "water pipe burst underground symptoms",
-    "signs of a burst pipe outside",
-    "how to tell if a pipe burst under the house",
-    "burst water pipe outside house",
-    "how to fix burst water pipe outside house"
-   ],
-   "suggested_slug": "how-to-tell-if-a-pipe-burst-underground",
-   "suggested_title": "How to tell if a pipe burst underground: the signs that show up before the water bill does",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/burst-pipe-repair/",
-    "/services/water-damage-restoration/",
-    "/service-areas/san-diego-ca/burst-pipe-repair/"
-   ],
-   "service_tags": [
-    "burst-pipe-repair",
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.epa.gov/watersense/fix-leak-week",
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "Diagnostic checklist, zero Google-measured KD and a strong AI-retrieval shape (the SERP already carries an AI overview plus people-also-ask). Build it as discrete signal sections: the meter test with everything shut off, an unexplained bill spike, soggy or unusually green patches in the yard, running-water sound in a silent house, warm spots on a slab floor, low pressure, sinkholes or settling. Lead with slab symptoms rather than basement symptoms: San Diego housing stock is mostly slab-on-grade.",
-   "banked_at": "2026-09-17T22:13:26.018239+00:00"
-  },
-  {
-   "id": "2026-08-27-does-renters-insurance-cover-basement-flooding",
-   "status": "queued",
-   "queued_at": "2026-08-27T02:00:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "does renters insurance cover basement flooding",
-   "intent": "informational",
-   "volume": 720,
-   "kd": 12,
-   "fan_out_cluster": [
-    "basement flooding insurance coverage",
-    "my basement flooded what will insurance cover",
-    "does insurance cover basement flooding from rain",
-    "basement flooding insurance",
-    "what to do when your basement floods from rain"
-   ],
-   "suggested_slug": "does-renters-insurance-cover-basement-flooding",
-   "suggested_title": "Does renters insurance cover basement flooding? What tenants in San Diego need to know",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/basement-flooding-cleanup/",
-    "/services/water-damage-restoration/",
-    "/blog/does-homeowners-insurance-cover-water-damage/"
-   ],
-   "service_tags": [
-    "basement-flooding-cleanup",
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.floodsmart.gov/",
-    "https://www.iii.org/article/does-my-homeowners-insurance-cover-water-damage"
-   ],
-   "notes": "Highest-volume gap from this seed (720/mo, KD 12) and genuinely uncovered: both existing insurance posts address homeowners policies, not renters. Draw the line clearly between contents coverage (tenant policy) and structure coverage (landlord policy), and note the NFIP flood exclusion. Do not promise coverage outcomes."
-  },
-  {
-   "id": "2026-08-27-basement-flooded-who-to-call",
-   "status": "banked",
-   "queued_at": "2026-08-27T02:00:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "basement flooded who to call",
-   "intent": "commercial",
-   "volume": 260,
-   "kd": 0,
-   "fan_out_cluster": [
-    "who to call for basement flooding",
-    "basement flooding who to call",
-    "flooded basement cleanup companies near me",
-    "basement flooding services",
-    "when to call a professional for flood cleanup"
-   ],
-   "suggested_slug": "basement-flooded-who-to-call",
-   "suggested_title": "Basement flooded: who to call first (plumber, restoration company, or insurer)",
-   "target_word_count": 1300,
-   "internal_link_targets": [
-    "/services/basement-flooding-cleanup/",
-    "/services/burst-pipe-repair/",
-    "/blog/choosing-a-restoration-company/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "basement-flooding-cleanup",
-    "burst-pipe-repair",
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "CPC $94.88 with KD 0: the single best money-to-difficulty ratio in this seed family. Decision-stage query. Order the call list by scenario (still-active water goes to the plumber or shutoff first, then restoration, then the carrier) and close with the 24/7 line.",
-   "banked_at": "2026-09-17T22:13:26.018241+00:00"
-  },
-  {
-   "id": "2026-08-27-why-is-my-basement-flooding",
-   "status": "banked",
-   "queued_at": "2026-08-27T02:00:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "why is my basement flooding",
-   "intent": "informational",
-   "volume": 210,
-   "kd": 7,
-   "fan_out_cluster": [
-    "what causes basement flooding",
-    "basement flooding causes",
-    "basement flooding when it rains",
-    "basement flooding from rain",
-    "basement flooded after heavy rain",
-    "basement flooding solutions"
-   ],
-   "suggested_slug": "why-is-my-basement-flooding",
-   "suggested_title": "Why is my basement flooding? The 8 most common causes (and which are emergencies)",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/basement-flooding-cleanup/",
-    "/services/burst-pipe-repair/",
-    "/blog/basement-flooding-prevention/"
-   ],
-   "service_tags": [
-    "basement-flooding-cleanup",
-    "burst-pipe-repair",
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.ready.gov/floods"
-   ],
-   "notes": "Diagnostic angle, not covered by the existing prevention post. Cause-first structure so AI assistants can lift individual causes as passages. Include a San Diego note: most local basement flooding is plumbing or irrigation driven rather than seasonal groundwater, which differs from the national coverage that dominates this SERP.",
-   "banked_at": "2026-09-17T22:13:26.018242+00:00"
-  },
-  {
-   "id": "2026-08-27-water-heater-flooding-basement",
-   "status": "banked",
-   "queued_at": "2026-08-27T02:00:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "water heater flooding basement",
-   "intent": "informational",
-   "volume": 210,
-   "kd": 0,
-   "fan_out_cluster": [
-    "water heater leaking into basement",
-    "basement flooding water removal",
-    "how to dry out a basement fast",
-    "emergency flooding in basement",
-    "basement flooding what to do"
-   ],
-   "suggested_slug": "water-heater-flooding-basement",
-   "suggested_title": "Water heater flooding your basement: how to shut it down and what to do next",
-   "target_word_count": 1300,
-   "internal_link_targets": [
-    "/services/basement-flooding-cleanup/",
-    "/services/water-damage-restoration/",
-    "/services/burst-pipe-repair/"
-   ],
-   "service_tags": [
-    "basement-flooding-cleanup",
-    "water-damage-restoration",
-    "burst-pipe-repair"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "KD 0 at CPC $73.99. Lead with the shutoff sequence (power or gas first, then cold water supply) because that is the passage AI assistants will lift. A failed heater is clean Category 1 water that degrades to Category 2 within roughly 48 hours: state that window explicitly.",
-   "banked_at": "2026-09-17T22:13:26.018243+00:00"
-  },
-  {
-   "id": "2026-08-27-basement-flooding-sump-pump-not-working",
-   "status": "banked",
-   "queued_at": "2026-08-27T02:00:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "basement flooding sump pump not working",
-   "intent": "informational",
-   "volume": 110,
-   "kd": 0,
-   "fan_out_cluster": [
-    "sump pump failed basement flooded",
-    "basement flooding when it rains",
-    "basement flooding water removal",
-    "emergency flooding in basement",
-    "how to dry out a basement fast"
-   ],
-   "suggested_slug": "basement-flooding-sump-pump-not-working",
-   "suggested_title": "Basement flooding with a sump pump not working: emergency steps and next moves",
-   "target_word_count": 1200,
-   "internal_link_targets": [
-    "/services/basement-flooding-cleanup/",
-    "/services/water-damage-restoration/",
-    "/blog/basement-flooding-prevention/"
-   ],
-   "service_tags": [
-    "basement-flooding-cleanup",
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.ready.gov/floods"
-   ],
-   "notes": "KD 0 at CPC $73.24. Split the piece by failure mode (tripped breaker, stuck float, clogged intake, undersized pump, discharge frozen or blocked) and be explicit that standing water plus an electrical outlet is a stop-and-call-a-pro condition. Flood Fixers does not sell or install sump pumps: keep the CTA on cleanup and drying, not pump replacement.",
-   "banked_at": "2026-09-17T22:13:26.018244+00:00"
-  },
-  {
-   "id": "2026-08-28-pin-water-damage-repair",
-   "status": "published",
-   "queued_at": "2026-08-28T02:11:36.668433+00:00",
-   "prioritized": true,
-   "source": "strategist-pin",
-   "primary_keyword": "water damage repair",
-   "intent": "commercial",
-   "volume": null,
-   "kd": null,
-   "target_word_count": 1500,
-   "notes": "Pinned from AI Search. Write a NUMBERED ranked listicle (#1, #2, #3...) of real local companies for this query. Our client is #1 with a factual justification (verifiable certifications, license, response time, review count/rating); competitors at #2-#5 are REAL businesses with their REAL Google ratings and one honest strength each \u2014 never invented, never disparaged. End with an FAQ section whose first question is the search query itself, answered directly, plus 3-4 people-also-ask variants (cost, how to choose, response time) phrased the way customers search. Every claim about our client must pass the claims truth table.",
-   "written_at": "2026-08-31T23:12:50Z",
-   "post_url": "https://flood-fixers.com/blog/water-damage-repair/",
-   "claims_flags": [
-    {
-     "file": "src/content/blog/water-damage-repair.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "20 reviews",
-     "context": "right now, you don't have time to read 20 reviews and compare websites. You need a compan",
-     "reason": "claims 20 reviews but synced gbpReviewCount is 9 (allowed \u00b120%: 7-10)"
-    }
-   ],
-   "published_verified_at": "2026-08-31T23:14:02Z"
-  },
-  {
-   "id": "2026-09-10-commercial-water-damage-restoration-san-diego",
-   "status": "queued",
-   "queued_at": "2026-09-10T20:15:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "commercial water damage restoration",
-   "intent": "transactional",
-   "volume": 590,
-   "kd": 15,
-   "fan_out_cluster": [
-    "commercial water damage",
-    "commercial water damage restoration services",
-    "commercial water damage restoration near me",
-    "commercial water damage clean up",
-    "office water damage cleanup",
-    "restaurant water damage cleanup",
-    "warehouse water damage restoration"
-   ],
-   "suggested_slug": "commercial-water-damage-restoration-san-diego",
-   "suggested_title": "Commercial water damage restoration in San Diego: what property managers need to know",
-   "target_word_count": 1600,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/burst-pipe-repair/",
-    "/services/reconstruction/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "burst-pipe-repair",
-    "reconstruction"
-   ],
-   "city_anchor": "san-diego-ca",
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "Highest-volume gap in the whole commercial family (590/mo, KD 15) and the site has zero commercial service pages: the only commercial asset is /blog/commercial-water-damage-business-continuity/. Write for the decision maker, not the homeowner: multi-tenant shutoffs, after-hours response, documenting loss for a commercial carrier, phased drying so part of the building stays open. Break out by property type (office, retail, restaurant, warehouse, multifamily) so the property-type long tail in the bank has a landing spot. Link the burst pipe and reconstruction service pages: commercial losses almost always run through rebuild."
-  },
-  {
-   "id": "2026-09-10-does-commercial-property-insurance-cover-water-damage",
-   "status": "queued",
-   "queued_at": "2026-09-10T20:15:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "does commercial property insurance cover water damage",
-   "intent": "informational",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "does commercial insurance cover water damage",
-    "commercial property insurance water damage",
-    "commercial water damage claim",
-    "how to file a commercial water damage insurance claim",
-    "water damage business interruption",
-    "commercial water damage cost"
-   ],
-   "suggested_slug": "does-commercial-property-insurance-cover-water-damage",
-   "suggested_title": "Does commercial property insurance cover water damage? A San Diego business owner's guide",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/burst-pipe-repair/",
-    "/blog/does-homeowners-insurance-cover-water-damage/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "burst-pipe-repair"
-   ],
-   "city_anchor": "san-diego-ca",
-   "external_authority_candidates": [
-    "https://www.iii.org/",
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "The live insurance post is homeowners-only, so the commercial policy question is wide open. Decision-stage: these readers are 24 to 48 hours from hiring someone. Cover the sudden-and-accidental vs long-term-seepage split, business interruption as a separate coverage, deductible structure on a commercial policy, and flood exclusion (San Diego coastal and canyon properties). Do not give legal or coverage advice: frame as what to check in your policy and what to document."
-  },
-  {
-   "id": "2026-09-10-who-is-responsible-for-water-damage-in-a-rental-property",
-   "status": "queued",
-   "queued_at": "2026-09-10T20:15:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "who is responsible for water damage in a rental property",
-   "intent": "informational",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "what should a landlord do when a tenant has water damage",
-    "apartment building water damage",
-    "commercial water damage claim",
-    "does commercial property insurance cover water damage",
-    "can water damage cause structural damage to a commercial building",
-    "commercial water damage restoration chula vista"
-   ],
-   "suggested_slug": "who-is-responsible-for-water-damage-in-a-rental-property",
-   "suggested_title": "Who is responsible for water damage in a rental property? Landlord and tenant duties in Chula Vista, CA",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/service-areas/chula-vista-ca/water-damage-restoration/",
-    "/services/reconstruction/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "burst-pipe-repair",
-    "reconstruction"
-   ],
-   "city_anchor": "chula-vista-ca",
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "Landlord and property-manager query with no coverage on the site. Both audiences convert: the landlord books the job, the tenant refers the landlord. Split the piece by who pays for the structure vs the contents, habitability and relocation timelines, and why a documented IICRC S500 dry log protects the landlord in a dispute. Chula Vista anchor because the multifamily stock there is the natural reader. Keep it descriptive, not legal advice: point readers to their lease and their carrier."
-  },
-  {
-   "id": "2026-09-10-how-to-prevent-water-damage-in-a-commercial-building",
-   "status": "queued",
-   "queued_at": "2026-09-10T20:15:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "how to prevent water damage in a commercial building",
-   "intent": "informational",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "causes of commercial water damage",
-    "can water damage cause structural damage to a commercial building",
-    "commercial water damage mitigation",
-    "water damage commercial building",
-    "commercial water damage restoration carlsbad",
-    "commercial property water damage"
-   ],
-   "suggested_slug": "how-to-prevent-water-damage-in-a-commercial-building",
-   "suggested_title": "How to prevent water damage in a commercial building: a Carlsbad property manager's checklist",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/burst-pipe-repair/",
-    "/service-areas/carlsbad-ca/water-damage-restoration/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "burst-pipe-repair",
-    "basement-flooding-cleanup"
-   ],
-   "city_anchor": "carlsbad-ca",
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "The live prevention post (/blog/basement-flooding-prevention/) is residential, so the commercial angle is uncovered. Make it an actual checklist a property manager can run quarterly: roof drains and scuppers, water heaters and boiler rooms, supply lines to break rooms and ice machines, fire sprinkler line inspections, shutoff valve mapping and labeling, leak sensors on upper floors. Carlsbad anchor: coastal corrosion on supply lines and winter storm runoff are the local hooks."
-  },
-  {
-   "id": "2026-09-10-what-to-do-when-a-pipe-bursts-in-a-commercial-building",
-   "status": "queued",
-   "queued_at": "2026-09-10T20:15:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "what to do when a pipe bursts in a commercial building",
-   "intent": "informational",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "commercial water damage clean up",
-    "commercial water damage mitigation",
-    "emergency commercial water damage restoration san diego",
-    "commercial building water damage cleanup",
-    "how to file a commercial water damage insurance claim",
-    "commercial water damage restoration oceanside"
-   ],
-   "suggested_slug": "what-to-do-when-a-pipe-bursts-in-a-commercial-building",
-   "suggested_title": "What to do when a pipe bursts in a commercial building: the first 60 minutes",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/burst-pipe-repair/",
-    "/services/water-damage-restoration/",
-    "/service-areas/oceanside-ca/burst-pipe-repair/"
-   ],
-   "service_tags": [
-    "burst-pipe-repair",
-    "water-damage-restoration"
-   ],
-   "city_anchor": "oceanside-ca",
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "Do not rewrite /blog/burst-pipe-emergency-checklist/: that one is written for homeowners. This is the multi-tenant version, ordered by minute: kill power to affected panels, find and close the building shutoff, notify tenants and the building owner, photograph before anything moves, call the carrier and the restoration contractor in that order. Add the after-hours case (burst at 2am, nobody on site) because that is the panic search. 24/7 emergency service is a verified brand fact."
-  }
- ]
+  ]
 }

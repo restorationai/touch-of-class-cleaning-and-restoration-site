@@ -809,7 +809,7 @@
     },
     {
       "id": "2026-08-10-how-much-does-a-home-addition-cost",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-10T18:25:00Z",
       "written_at": null,
       "post_url": null,
@@ -842,7 +842,8 @@
         "https://www.nahb.org/",
         "https://www.huntsvilleal.gov/"
       ],
-      "notes": "Lead with a cost table by finished square footage (200 / 400 / 600 / 1000 sq ft) and note that a bare price per square foot hides scope. Break out what drives the number in Madison and Huntsville: foundation type, tie-in to existing roof and HVAC, plumbing for a bath, and finish level. Include a 10 to 15 percent contingency line. Keep ranges as planning ranges, not quotes."
+      "notes": "Lead with a cost table by finished square footage (200 / 400 / 600 / 1000 sq ft) and note that a bare price per square foot hides scope. Break out what drives the number in Madison and Huntsville: foundation type, tie-in to existing roof and HVAC, plumbing for a bath, and finish level. Include a 10 to 15 percent contingency line. Keep ranges as planning ranges, not quotes.",
+      "banked_at": "2026-09-19T10:23:53.719961+00:00"
     },
     {
       "id": "2026-08-10-do-i-need-a-permit-for-a-home-addition-in-alabama",
@@ -1029,7 +1030,7 @@
     },
     {
       "id": "2026-08-26-400-sq-ft-master-suite-addition-cost",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T22:55:00Z",
       "written_at": null,
       "post_url": null,
@@ -1061,11 +1062,12 @@
         "https://www.nahb.org/",
         "https://www.remodeling.hw.net/cost-vs-value/"
       ],
-      "notes": "Highest-intent size query in the addition family. Cover the ensuite bath as the main cost driver (plumbing runs, vanity, tile), plus HVAC load and whether the existing roofline allows a simple tie-in. Madison and Hampton Cove ranch homes are the natural example set."
+      "notes": "Highest-intent size query in the addition family. Cover the ensuite bath as the main cost driver (plumbing runs, vanity, tile), plus HVAC load and whether the existing roofline allows a simple tie-in. Madison and Hampton Cove ranch homes are the natural example set.",
+      "banked_at": "2026-09-19T10:23:53.719966+00:00"
     },
     {
       "id": "2026-08-26-home-addition-ideas",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T22:55:00Z",
       "written_at": null,
       "post_url": null,
@@ -1098,11 +1100,12 @@
       "external_authority_candidates": [
         "https://www.nahb.org/"
       ],
-      "notes": "Top-of-funnel inspiration piece that feeds the whole addition cluster. Organize by addition type (bump-out, sunroom, master suite, second story, garage conversion, in-law suite) and note which suit the 1970s-80s brick ranches common in Athens and Madison versus newer HOA subdivisions with architectural review."
+      "notes": "Top-of-funnel inspiration piece that feeds the whole addition cluster. Organize by addition type (bump-out, sunroom, master suite, second story, garage conversion, in-law suite) and note which suit the 1970s-80s brick ranches common in Athens and Madison versus newer HOA subdivisions with architectural review.",
+      "banked_at": "2026-09-19T10:23:53.719968+00:00"
     },
     {
       "id": "2026-08-26-cheapest-way-to-add-addition-to-house",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T22:55:00Z",
       "written_at": null,
       "post_url": null,
@@ -1133,11 +1136,12 @@
       "external_authority_candidates": [
         "https://www.nahb.org/"
       ],
-      "notes": "Budget-first angle, no overlap with the queued build-up-or-out post (that one is a structural comparison, this one ranks options by dollars per square foot). Rank the cheap routes honestly: garage conversion, bump-out, finishing existing space, sunroom. Flag where cutting cost creates resale or permit problems."
+      "notes": "Budget-first angle, no overlap with the queued build-up-or-out post (that one is a structural comparison, this one ranks options by dollars per square foot). Rank the cheap routes honestly: garage conversion, bump-out, finishing existing space, sunroom. Flag where cutting cost creates resale or permit problems.",
+      "banked_at": "2026-09-19T10:23:53.719969+00:00"
     },
     {
       "id": "2026-08-26-can-you-live-in-your-house-during-a-home-addition",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T22:55:00Z",
       "written_at": null,
       "post_url": null,
@@ -1169,7 +1173,8 @@
       "external_authority_candidates": [
         "https://www.nahb.org/"
       ],
-      "notes": "Sourced from the ChatGPT decomposition, not Google volume: this is AI-retrieval fuel and no competitor in the market has a page on it. Answer the question directly in the first 60 words so AI engines can lift the passage. Cover dust containment, utility shutoffs, which weeks are worst (roof tie-in, HVAC cut-over), and the summer heat and humidity angle for North Alabama."
+      "notes": "Sourced from the ChatGPT decomposition, not Google volume: this is AI-retrieval fuel and no competitor in the market has a page on it. Answer the question directly in the first 60 words so AI engines can lift the passage. Cover dust containment, utility shutoffs, which weeks are worst (roof tie-in, HVAC cut-over), and the summer heat and humidity angle for North Alabama.",
+      "banked_at": "2026-09-19T10:23:53.719970+00:00"
     },
     {
       "id": "2026-09-15-home-remodeling-madison-al",

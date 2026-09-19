@@ -1040,7 +1040,7 @@
     },
     {
       "id": "2026-09-18-what-happens-during-biohazard-cleanup",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-18T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -1072,11 +1072,12 @@
         "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030",
         "https://www.cdc.gov/infection-control/hcp/environmental-control/index.html"
       ],
-      "notes": "Zero Google volume but the ChatGPT scraper decomposed the seed straight into a five-step process answer, so this is AI-retrieval fuel. Mirror that structure: assessment and written scope, PPE, removal of contaminated materials, disinfection and odor treatment, documentation and insurance paperwork. Keep each step as its own short H2 so an AI engine can lift the passage verbatim."
+      "notes": "Zero Google volume but the ChatGPT scraper decomposed the seed straight into a five-step process answer, so this is AI-retrieval fuel. Mirror that structure: assessment and written scope, PPE, removal of contaminated materials, disinfection and odor treatment, documentation and insurance paperwork. Keep each step as its own short H2 so an AI engine can lift the passage verbatim.",
+      "banked_at": "2026-09-19T10:23:53.718911+00:00"
     },
     {
       "id": "2026-09-18-does-homeowners-insurance-cover-biohazard-cleanup",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-18T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -1108,11 +1109,12 @@
         "https://www.naic.org/consumer_home_insurance.htm",
         "https://dlr.sd.gov/insurance/"
       ],
-      "notes": "Decision-stage insurance query: low Google volume but the ChatGPT answer led its 'who usually pays' section with homeowners insurance, so it is real AI demand. Write it SD-first (cite the SD Division of Insurance, sudden-and-accidental language, deductible mechanics) rather than as a national explainer. Cross-link the existing does-homeowners-insurance-cover-water-damage post."
+      "notes": "Decision-stage insurance query: low Google volume but the ChatGPT answer led its 'who usually pays' section with homeowners insurance, so it is real AI demand. Write it SD-first (cite the SD Division of Insurance, sudden-and-accidental language, deductible mechanics) rather than as a national explainer. Cross-link the existing does-homeowners-insurance-cover-water-damage post.",
+      "banked_at": "2026-09-19T10:23:53.718922+00:00"
     },
     {
       "id": "2026-09-18-what-is-considered-a-biohazard-in-a-home",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-18T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -1145,11 +1147,12 @@
         "https://www.osha.gov/bloodborne-pathogens",
         "https://www.cdc.gov/rodents/cleaning/index.html"
       ],
-      "notes": "Definition-stage GEO page. The ChatGPT answer listed the qualifying situations (blood and bodily fluids, sewage or infectious contamination, animal waste) so build the post around a scannable qualifies / does not qualify list. Anchored to Brookings to spread city coverage off the primary; SDSU rental turnovers are a natural local hook."
+      "notes": "Definition-stage GEO page. The ChatGPT answer listed the qualifying situations (blood and bodily fluids, sewage or infectious contamination, animal waste) so build the post around a scannable qualifies / does not qualify list. Anchored to Brookings to spread city coverage off the primary; SDSU rental turnovers are a natural local hook.",
+      "banked_at": "2026-09-19T10:23:53.718924+00:00"
     },
     {
       "id": "2026-09-18-servpro-biohazard-cleanup-cost-vs-local-sioux-falls",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-18T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -1180,7 +1183,8 @@
         "https://www.osha.gov/bloodborne-pathogens",
         "https://www.iicrc.org/"
       ],
-      "notes": "Comparison-stage. ChatGPT names SERVPRO of Sioux Falls first among local biohazard providers, so this page exists to win that comparison. Keep it factual on pricing structure (franchise hourly vs local flat scope, response time, who handles the insurance paperwork). No disparagement: state verifiable differences only, and lead with Crew's IICRC certification and license 3814."
+      "notes": "Comparison-stage. ChatGPT names SERVPRO of Sioux Falls first among local biohazard providers, so this page exists to win that comparison. Keep it factual on pricing structure (franchise hourly vs local flat scope, response time, who handles the insurance paperwork). No disparagement: state verifiable differences only, and lead with Crew's IICRC certification and license 3814.",
+      "banked_at": "2026-09-19T10:23:53.718925+00:00"
     }
   ]
 }
