@@ -1194,7 +1194,7 @@
     },
     {
       "id": "2026-09-19-how-much-does-a-kitchen-remodel-cost",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-19T00:05:00Z",
       "written_at": "2026-09-19T14:03:10Z",
       "post_url": "https://davisconstructioncontractors.com/blog/how-much-does-a-kitchen-remodel-cost/",
@@ -1233,7 +1233,8 @@
         "https://www.nkba.org/"
       ],
       "source": "keyword-researcher s1 seed=kitchen remodel",
-      "notes": "Flagship cost post for the kitchen cluster. Lead with a cost table by kitchen size (10x10, 12x12, galley, open-concept) and by tier (cosmetic refresh, mid-range, full gut). Ground the numbers in North Alabama labor and material pricing rather than national averages. Link to the existing /blog/how-much-does-a-home-remodel-cost/ post as the parent topic and differentiate clearly: that one is whole-home, this one is kitchen-only. Note that Davis has no kitchen service page yet, so the post carries the conversion load: end with a Madison-specific estimate CTA."
+      "notes": "Flagship cost post for the kitchen cluster. Lead with a cost table by kitchen size (10x10, 12x12, galley, open-concept) and by tier (cosmetic refresh, mid-range, full gut). Ground the numbers in North Alabama labor and material pricing rather than national averages. Link to the existing /blog/how-much-does-a-home-remodel-cost/ post as the parent topic and differentiate clearly: that one is whole-home, this one is kitchen-only. Note that Davis has no kitchen service page yet, so the post carries the conversion load: end with a Madison-specific estimate CTA.",
+      "published_verified_at": "2026-09-19T14:04:35Z"
     },
     {
       "id": "2026-09-19-how-long-does-a-kitchen-remodel-take",
