@@ -50,7 +50,7 @@ WORKFLOW_DISPATCH_JOBS = [
     ("ops-sync", "client-ops-sync.yml", ["14:00"], False, {}),
     # Daily content lane (2026-09-05): "must run punctually for every single
     # client" — GH cron alone drops runs, so the worker guarantees the slot.
-    ("content-daily", "content-daily.yml", ["10:23"], False, {}),
+    ("content-daily", "content-daily.yml", ["10:23", "22:23"], False, {}),
     # Dev agent (2026-09-18): GitHub dropped the 2:07 AM cron the night the
     # [DEV] backlog was draining — same cron-drop class as Monica's slots, so
     # the same backstop. Two entries because the slots differ on weekends:
