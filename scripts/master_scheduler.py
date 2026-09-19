@@ -502,6 +502,25 @@ def alert_starved_queues(clients: list[dict]) -> None:
     )
 
 
+def cmd_list_due(args) -> int:
+    """JSON array of slugs due for any of --systems (per-client fan-out:
+    the content-daily matrix runs ONE isolated job per due client, so
+    fleet growth adds parallel jobs instead of queue depth — Santino
+    2026-09-19: "per-client basis, not bulk")."""
+    import json as _json
+    wanted = tuple(int(x) for x in str(getattr(args, "systems", "") or "").split(",")
+                   if x.strip().isdigit()) or (0, 2)
+    out = []
+    for c in load_clients(None):
+        for sys_id in wanted:
+            due, _ = is_due(c, sys_id)
+            if due and can_run_directly(c, sys_id):
+                out.append(c["slug"])
+                break
+    print(_json.dumps(sorted(set(out))))
+    return 0
+
+
 def cmd_run_due(args) -> int:
     clients = load_clients(args.slug if not args.all else None)
     if not clients:
@@ -912,6 +931,10 @@ def build_parser() -> argparse.ArgumentParser:
     pr.add_argument("--systems", default="",
                     help="Comma-separated system ids to run (e.g. 0,2). Empty = all.")
     pr.set_defaults(func=cmd_run_due)
+
+    pl = sub.add_parser("list-due", help="JSON slugs due for --systems (matrix fan-out)")
+    pl.add_argument("--systems", default="0,2")
+    pl.set_defaults(func=cmd_list_due)
 
     pf = sub.add_parser("force-run", help="Force-run one system on one client regardless of schedule")
     pf.add_argument("--slug", required=True)
