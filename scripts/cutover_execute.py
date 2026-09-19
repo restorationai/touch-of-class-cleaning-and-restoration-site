@@ -1088,7 +1088,11 @@ def commit_artifacts(slug: str) -> None:
     supabase_sync from a fresh checkout). Same pull-rebase-push dance as
     content_writer.commit_and_sync. Fail-soft: a push failure is loud but
     never un-launches a verified site."""
-    files = [f"clients/{slug}.json", f"clients/{slug}/cutover"]
+    # sites/{slug} included (DISS 2026-09-18: the stamp phase's DNI patch
+    # writes brand.ts, and leaving it uncommitted shipped a build without
+    # the tracking number — outside verification then failed honestly).
+    files = [f"clients/{slug}.json", f"clients/{slug}/cutover",
+             f"sites/{slug}/src"]
     try:
         subprocess.run(["git", "add", *files], cwd=ROOT, check=True,
                        capture_output=True, text=True)
@@ -1398,6 +1402,13 @@ def cmd_status(slug: str) -> int:
         # nudge it so the app's green arrives without a human in the loop
         if nudge_zone_activation(zone):
             zone["status"] = "active"
+    # DISS launch 2026-09-18: the panel flip-flopped green/red as resolver
+    # caches alternated between the old Wix NS (long TTL) and ours. Same
+    # QCI lesson the RUN path already carries: a Cloudflare zone only goes
+    # ACTIVE after ITS authoritative registry check passes — trust it over
+    # any cached resolver answer, in BOTH directions (steady green).
+    if not ns_ready and bool(expected_ns) and (zone or {}).get("status") == "active":
+        ns_ready = True
     # Top-level nameserver facts for the app's reference block (Santino
     # 2026-08-17: "Check launch readiness" never showed WHICH nameservers the
     # client must set). `required` is the zone's ASSIGNED pair — it only
@@ -1409,7 +1420,10 @@ def cmd_status(slug: str) -> int:
                  "zone_exists": bool(zone)}
     ph["ns"] = {"ready": ns_ready, "expected_ns": expected_ns or None,
                 "current_ns": current_ns or None,
-                "detail": ("nameservers point at our zone" if ns_ready else
+                "detail": (("nameservers point at our zone"
+                            if current_ns == expected_ns else
+                            "zone ACTIVE on Cloudflare (resolver caches still "
+                            "draining the old pair)") if ns_ready else
                            "zone not created yet — launch creates it and reports the pair"
                            if not expected_ns else
                            "waiting on nameserver transfer")}
