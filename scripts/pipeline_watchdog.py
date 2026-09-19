@@ -137,6 +137,35 @@ def check_site_area_gap() -> list[str]:
     return issues
 
 
+def check_citation_stall() -> list[str]:
+    """DBA verified but no citation order (Kenny + Heritage 2026-09-19: both
+    sat in citations_building with nothing building — order placement is
+    deliberately manual credit-spend, so the failure mode is silence).
+    Alert-only: a human places the order; this just refuses to let the
+    stage lie."""
+    issues = []
+    try:
+        kv = ((_sb("GET", "/rest/v1/ops_kv?k=eq.rename-pipeline&select=v")
+               or [{}])[0].get("v") or {})
+    except Exception:  # noqa: BLE001
+        return issues
+    for cid, e in (kv.get("clients") or kv).items():
+        if not isinstance(e, dict) or e.get("stage") != "citations_building":
+            continue
+        slug = e.get("slug") or cid
+        try:
+            bl = json.loads((ROOT / "clients" / f"{slug}.json")
+                            .read_text()).get("brightlocal") or {}
+        except Exception:  # noqa: BLE001
+            bl = {}
+        if not bl.get("ordered_at"):
+            issues.append(
+                f"citation stall: {slug} has a verified DBA but no citation "
+                "order placed — stage says building, nothing is building "
+                "(run brightlocal.py order)")
+    return issues
+
+
 def check_coverage() -> list[str]:
     issues = []
     inv = {s: c for c, s in slug_map().items()}
@@ -263,7 +292,7 @@ def main() -> int:
     ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
     issues = (check_workflows() + check_heartbeats() + check_coverage()
-              + check_site_area_gap())
+              + check_site_area_gap() + check_citation_stall())
     if not issues:
         print("pipeline watchdog: ALL SYSTEMS ALIVE")
     fresh: list[str] = []
