@@ -260,10 +260,36 @@ def run(cid: str) -> int:
     return 0
 
 
+def advance_all() -> int:
+    """Hourly business-hours advance (Santino 2026-09-19: profile approvals
+    can land in minutes — twice daily left CRW approved-but-parked for
+    hours). Only clients mid-chain; quiet when there are none."""
+    from datetime import datetime, timezone
+    h = datetime.now(timezone.utc).hour
+    if not (13 <= h <= 23):   # ~6am-4pm PT: Twilio reviews land in business hours
+        return 0
+    mids = _sb("GET", "/rest/v1/company_phone_setup"
+               "?select=id,a2p_state&a2p_state=not.is.null") or []
+    for m in mids:
+        stg = (m.get("a2p_state") or {}).get("stage")
+        if stg in (None, "approved"):
+            continue
+        try:
+            run(m["id"])
+        except Exception as e:  # noqa: BLE001 — one client never stops the loop
+            print(f"  {m['id']}: {str(e)[:120]}")
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--company", required=True)
+    ap.add_argument("--company")
+    ap.add_argument("--advance-all", action="store_true")
     a = ap.parse_args()
+    if a.advance_all:
+        return advance_all()
+    if not a.company:
+        ap.error("--company or --advance-all required")
     return run(a.company)
 
 

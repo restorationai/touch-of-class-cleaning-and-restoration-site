@@ -215,6 +215,10 @@ JOBS = [
     # concierge chokepoint within a minute of the click.
     ("rename-pitch", 60, [sys.executable,
                           str(HERE / "rename_pitch_worker.py")]),
+    # A2P chain advance, hourly during business hours (2026-09-19: Twilio
+    # profile approvals land in minutes; twice-daily parked CRW for hours).
+    ("a2p-advance", 3600, [sys.executable,
+                           str(HERE / "a2p_provision.py"), "--advance-all"]),
 ]
 
 JOB_TIMEOUT = 15 * 60

@@ -248,7 +248,10 @@ def main() -> int:
         print(f"  !! {issue}")
         if a.dry_run:
             continue
-        key = "wd-alert:" + re.sub(r"[^a-z0-9]+", "-", issue.split("—")[0].lower())[:60]
+        # digits stripped (2026-09-19: '0/2 posts' -> '1/2 posts' minted a
+        # NEW key daily, so one starved client stacked rows + SMS noise)
+        key = "wd-alert:" + re.sub(
+            r"[^a-z]+", "-", issue.split("—")[0].lower())[:60]
         seen = (_sb("GET", f"/rest/v1/ops_kv?k=eq.{key}&select=v") or [{}])[0]
         at = (seen.get("v") or {}).get("at")
         if at and (NOW - datetime.fromisoformat(at)).days < 7:
