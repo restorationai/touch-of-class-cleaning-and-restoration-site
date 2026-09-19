@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dry-county-restoration.invalid/sitemap-index.xml
+Sitemap: https://drycountyrestoration.com/sitemap-index.xml
