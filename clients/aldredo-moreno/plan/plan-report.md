@@ -1,22 +1,22 @@
 # Site Plan Report — ACS Enterprise 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-17T23:02:46.340588+00:00
-- Domain: `None`
+- Generated: 2026-09-19T18:28:44.509628+00:00
+- Domain: `theacs-enterprises.com`
 - Services selected: 8 of 65 catalog entries
-- Service areas: 8
+- Service areas: 12
 - Cross-product enabled: True
-- Total URLs: **88**
-- Total internal links: 647 (avg 7.4 per page)
+- Total URLs: **124**
+- Total internal links: 963 (avg 7.8 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 56 |
+| `service-area-service` | 88 |
+| `service-area` | 11 |
 | `service-landing` | 8 |
 | `blog-post` | 8 |
-| `service-area` | 7 |
 | `legal` | 3 |
 | `home` | 1 |
 | `services-hub` | 1 |
@@ -46,6 +46,10 @@
 - `gardendale-tx` — Gardendale, TX
 - `greenwood-tx` — Greenwood, TX
 - `goldsmith-tx` — Goldsmith, TX
+- `west-odessa-tx` — West Odessa, TX
+- `garden-city-tx` — Garden City, TX
+- `crane-tx` — Crane, TX
+- `monahans-tx` — Monahans, TX
 
 ## Top 10 priority pages
 
@@ -57,10 +61,10 @@
 | `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup midland |
 | `/service-areas/andrews-tx/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration andrews |
 | `/service-areas/big-spring-tx/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration big spring |
+| `/service-areas/crane-tx/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration crane |
+| `/service-areas/garden-city-tx/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration garden city |
 | `/service-areas/gardendale-tx/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration gardendale |
 | `/service-areas/goldsmith-tx/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration goldsmith |
-| `/service-areas/greenwood-tx/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration greenwood |
-| `/service-areas/odessa-tx/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration odessa |
 
 ## Validation
 

@@ -13,8 +13,10 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Sewage Cleanup and Sanitization](https://theacs-enterprises.com/services/sewage-cleanup/)
 - [Storm Damage Restoration](https://theacs-enterprises.com/services/storm-damage-restoration/)
 - [Air Duct Cleaning](https://theacs-enterprises.com/services/air-duct-cleaning/)
-- [Water Cleanup](https://theacs-enterprises.com/services/water-cleanup/)
+- [Emergency Water Cleanup](https://theacs-enterprises.com/services/water-cleanup/)
 - [Carpet Cleaning](https://theacs-enterprises.com/services/carpet-cleaning/)
+- [Junk & Debris Removal](https://theacs-enterprises.com/services/junk-debris-removal/)
+- [Tile & Grout Cleaning](https://theacs-enterprises.com/services/tile-grout-cleaning/)
 
 ### Service area pages
 - [Midland, TX](https://theacs-enterprises.com/service-areas/midland-tx/)
@@ -25,6 +27,10 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Gardendale, TX](https://theacs-enterprises.com/service-areas/gardendale-tx/)
 - [Greenwood, TX](https://theacs-enterprises.com/service-areas/greenwood-tx/)
 - [Goldsmith, TX](https://theacs-enterprises.com/service-areas/goldsmith-tx/)
+- [West Odessa, TX](https://theacs-enterprises.com/service-areas/west-odessa-tx/)
+- [Garden City, TX](https://theacs-enterprises.com/service-areas/garden-city-tx/)
+- [Crane, TX](https://theacs-enterprises.com/service-areas/crane-tx/)
+- [Monahans, TX](https://theacs-enterprises.com/service-areas/monahans-tx/)
 
 ### Resources
 - [Blog](https://theacs-enterprises.com/blog/): Restoration guides and local resources
@@ -37,7 +43,6 @@ This file is intended for AI assistants and language models to efficiently inges
 
 ## Key facts
 
-- Rated 5.0/5 from 361 Google reviews
 - **Founded:** 2019
 - **Licenses:**  · 
 - **Certifications:** Available on request

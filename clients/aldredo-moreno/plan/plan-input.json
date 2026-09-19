@@ -17,7 +17,20 @@
       "Locally Owned & Operated"
     ],
     "place_id": "ChIJ_8rF3eff-4YRWkbhWgvgu_8",
-    "logo_url": "/images/logo.png"
+    "logo_url": "/images/logo.png",
+    "colors": {
+      "primary": "#b97a55",
+      "secondary": "#111827",
+      "accent": "#cd9068",
+      "palette": [
+        "#b97a55",
+        "#cd9068",
+        "#f0c0a0",
+        "#111827",
+        "#dc2626"
+      ],
+      "source": "Sampled 2026-09-19 from the client's real logo (branding/CO-1788916409529/brand/logo_1788918252249.jpg): rose-gold/copper botanical mark on black. Brand colors were previously null and the scaffold defaults (navy/orange in the style guide, black primary in tailwind) were shipping \u2014 the red/orange vans came from those defaults, not the brand."
+    }
   },
   "services": [
     "water-damage-restoration",
@@ -70,6 +83,27 @@
       "city": "Goldsmith",
       "state": "TX",
       "slug": "goldsmith-tx"
+    },
+    {
+      "city": "West Odessa",
+      "state": "TX",
+      "slug": "west-odessa-tx"
+    },
+    {
+      "city": "Garden City",
+      "state": "TX",
+      "slug": "garden-city-tx"
+    },
+    {
+      "city": "Crane",
+      "state": "TX",
+      "slug": "crane-tx"
+    },
+    {
+      "city": "Monahans",
+      "state": "TX",
+      "slug": "monahans-tx",
+      "source": "client-declared (Alfredo, sales call 2026-09-08: 'Andrews, Monahans, Spring')"
     }
   ],
   "template": "restoration",

@@ -7,6 +7,12 @@ export const brand = {
   displayName: "ACS Enterprise ",
   shortName: "ACS Enterprise ",
   legalName: "ACS Enterprise ",
+  // Registered DBA / trade name — filled by rename_site_sync.py the moment
+  // the state approves the client's DBA filing (empty until then). When set,
+  // the footer carries the "[legal] doing business as [DBA]" line and schema
+  // declares it as the business name, so Google/BrightLocal find the new
+  // name corroborated on the site before and during the GBP rename.
+  dbaName: "",
   domain: "theacs-enterprises.com",
   canonicalUrl: "https://theacs-enterprises.com",
   phone: "(432) 847-4704",
@@ -18,8 +24,8 @@ export const brand = {
   // keep the canonical NAP number above — humans dial the tracked line,
   // Google sees consistent NAP. Empty = feature off (default at scaffold;
   // filled by the call-tracking provisioning step).
-  trackingPhone: "(432) 226-7459",
-  trackingPhoneRaw: "+14322267459",
+  trackingPhone: "",
+  trackingPhoneRaw: "",
   email: "elcabimero1971@gmail.com",
   hours: "24/7",
   foundedYear: "2019",
@@ -35,7 +41,7 @@ export const brand = {
   postalCode: "70705",
   lat: "31.83688",
   lng: "-102.0103767",
-  placeId: "",
+  placeId: "ChIJ_8rF3eff-4YRWkbhWgvgu_8",
   googleCid: "",
   imagesBase: "https://images.theacs-enterprises.com",
   googleMapsApiKey: "",
@@ -57,21 +63,17 @@ export const brand = {
   sameAsUrls: [] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
-  gbpRatingValue: "5.0",
-  gbpReviewCount: "361",
-  gbpReviews: [
-    { author: "Cami", rating: 5, text: "Mr. Moreno was very kind, easy to communicate with, and quick to complete the job. I would definitely use ASC Enterprise again and recommend them.", when: "September 2026" },
-    { author: "Brian", rating: 5, text: "Quick and easy, picked up same day", when: "August 2026" },
-    { author: "Kyle", rating: 5, text: "These guys are phenomenal!!! I bought a house recently and it had insulation issues and needed to be removed. The air ducts needed cleaning, as well. I called around to and was given the number for ACS. Alfredo’s guys showed up to work and that they did! They completed the job in a timely manner…", when: "July 2026" },
-    { author: "Rosa", rating: 5, text: "Very friendly, punctual nd helpful overall SUPER AWESOME!!! 💯👍", when: "July 2026" },
-    { author: "Vivian", rating: 5, text: "Great guys very professional extremely happy with the service", when: "July 2026" },
-    { author: "Hilary", rating: 5, text: "Fantastic experience. Great service. Job well done.", when: "July 2026" },
-  ] as { author: string; rating: number; text: string; when: string }[],
+  gbpRatingValue: "",
+  gbpReviewCount: "",
+  gbpReviews: [] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Midland, TX.",
   ctaLabel: "24/7 Emergency Line",
   // Vertical trade-identity copy — resolved at scaffold time from
   // templates/{vertical}/vertical-tokens.json (see scripts/verticals.py).
   // Components must use these instead of hardcoding a trade phrase.
+  // vertical gates layout too: restoration is call-first, so the homepage
+  // hero renders NO estimate form there (Santino 2026-09-11).
+  vertical: "restoration",
   tradeNoun: "restoration",
   specialistPhrase: "Damage Restoration Specialists",
   announcementSuffix: "24/7 Emergency Response",

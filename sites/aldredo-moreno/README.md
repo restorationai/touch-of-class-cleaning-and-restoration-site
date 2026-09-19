@@ -28,8 +28,8 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `ACS Enterprise ` | plan-input `brand.display_name` | `National Restoration Construction` |
 | `ACS Enterprise ` | plan-input `brand.short_name` | `NARESTCO` |
 | `ACS Enterprise ` | plan-input `brand.legal_name` | `National Restoration Construction LLC` |
-| `aldredo-moreno.invalid` | client record `domain` | `narestco.com` |
-| `https://aldredo-moreno.invalid` | derived | `https://narestco.com` |
+| `theacs-enterprises.com` | client record `domain` | `narestco.com` |
+| `https://theacs-enterprises.com` | derived | `https://narestco.com` |
 | `(432) 847-4704` / `+14328474704` | brand.phone | `(206) 883-0333` / `+12068830333` |
 | `elcabimero1971@gmail.com` | brand.email | `info@narestco.com` |
 | `24/7` | brand.hours | `24/7` |
@@ -37,30 +37,36 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `Midland` / `TX` | derived from primary area | `Federal Way` / `WA` |
 | `2318 Horizon Rd Midland` / `70705` | brand.street_address / brand.postal_code | |
 | `31.83688` / `-102.0103767` | brand.lat / brand.lng | from GBP |
-| `` / `` | brand.place_id / brand.google_cid | from GBP |
+| `ChIJ_8rF3eff-4YRWkbhWgvgu_8` / `` | brand.place_id / brand.google_cid | from GBP |
 | `[]` | brand.license_numbers (JSON-encoded array) | `["NATIORC792M6"]` |
 | `` / `` | brand.license_authority / brand.license_type | |
 | `[]` | brand.certifications (JSON-encoded array) | `["IICRC", "BBB Accredited"]` |
 | `[]` | brand.same_as_urls (JSON-encoded array) | |
 | `` / `` | from GBP | `5.0` / `31` |
 | `24/7 restoration services in Midland, TX.` | brand.tagline | short marketing line |
-| `#171717` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
+| `#b97a55` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
 | `Inter` / `Inter` | brand.fonts | `Inter` / `Inter` |
-| `https://images.aldredo-moreno.invalid/brand/logo.png` / `AE` | derived; logo lives on the per-client R2 bucket | |
-| `https://images.aldredo-moreno.invalid` | `https://images.{domain}` | |
-| `- [Water Damage Restoration](https://aldredo-moreno.invalid/services/water-damage-restoration/)
-- [Sewage Cleanup and Sanitization](https://aldredo-moreno.invalid/services/sewage-cleanup/)
-- [Storm Damage Restoration](https://aldredo-moreno.invalid/services/storm-damage-restoration/)
-- [Air Duct Cleaning](https://aldredo-moreno.invalid/services/air-duct-cleaning/)
-- [Water Cleanup](https://aldredo-moreno.invalid/services/water-cleanup/)
-- [Carpet Cleaning](https://aldredo-moreno.invalid/services/carpet-cleaning/)` / `- [Midland, TX](https://aldredo-moreno.invalid/service-areas/midland-tx/)
-- [Odessa, TX](https://aldredo-moreno.invalid/service-areas/odessa-tx/)
-- [Big Spring, TX](https://aldredo-moreno.invalid/service-areas/big-spring-tx/)
-- [Stanton, TX](https://aldredo-moreno.invalid/service-areas/stanton-tx/)
-- [Andrews, TX](https://aldredo-moreno.invalid/service-areas/andrews-tx/)
-- [Gardendale, TX](https://aldredo-moreno.invalid/service-areas/gardendale-tx/)
-- [Greenwood, TX](https://aldredo-moreno.invalid/service-areas/greenwood-tx/)
-- [Goldsmith, TX](https://aldredo-moreno.invalid/service-areas/goldsmith-tx/)` / `Available on request` / `Greater Midland region` | computed at scaffold from plan + brand | |
+| `/images/logo.png` / `AE` | derived; logo lives on the per-client R2 bucket | |
+| `https://images.theacs-enterprises.com` | `https://images.{domain}` | |
+| `- [Water Damage Restoration](https://theacs-enterprises.com/services/water-damage-restoration/)
+- [Sewage Cleanup and Sanitization](https://theacs-enterprises.com/services/sewage-cleanup/)
+- [Storm Damage Restoration](https://theacs-enterprises.com/services/storm-damage-restoration/)
+- [Air Duct Cleaning](https://theacs-enterprises.com/services/air-duct-cleaning/)
+- [Emergency Water Cleanup](https://theacs-enterprises.com/services/water-cleanup/)
+- [Carpet Cleaning](https://theacs-enterprises.com/services/carpet-cleaning/)
+- [Junk & Debris Removal](https://theacs-enterprises.com/services/junk-debris-removal/)
+- [Tile & Grout Cleaning](https://theacs-enterprises.com/services/tile-grout-cleaning/)` / `- [Midland, TX](https://theacs-enterprises.com/service-areas/midland-tx/)
+- [Odessa, TX](https://theacs-enterprises.com/service-areas/odessa-tx/)
+- [Big Spring, TX](https://theacs-enterprises.com/service-areas/big-spring-tx/)
+- [Stanton, TX](https://theacs-enterprises.com/service-areas/stanton-tx/)
+- [Andrews, TX](https://theacs-enterprises.com/service-areas/andrews-tx/)
+- [Gardendale, TX](https://theacs-enterprises.com/service-areas/gardendale-tx/)
+- [Greenwood, TX](https://theacs-enterprises.com/service-areas/greenwood-tx/)
+- [Goldsmith, TX](https://theacs-enterprises.com/service-areas/goldsmith-tx/)
+- [West Odessa, TX](https://theacs-enterprises.com/service-areas/west-odessa-tx/)
+- [Garden City, TX](https://theacs-enterprises.com/service-areas/garden-city-tx/)
+- [Crane, TX](https://theacs-enterprises.com/service-areas/crane-tx/)
+- [Monahans, TX](https://theacs-enterprises.com/service-areas/monahans-tx/)` / `Available on request` / `Greater Midland region` | computed at scaffold from plan + brand | |
 
 ## File layout
 

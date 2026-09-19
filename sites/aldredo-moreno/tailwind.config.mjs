@@ -13,7 +13,7 @@ export default {
     extend: {
       colors: {
         dark: {
-          DEFAULT: "#111827",
+          DEFAULT: "#181716",
           50: "#f9fafb",
           100: "#f3f4f6",
           200: "#e5e7eb",
@@ -27,21 +27,21 @@ export default {
           950: "#030712",
         },
         primary: {
-          /* ACS copper / rose-gold, sampled from the real logo
-             (2026-09-19; brand had NO recorded colors and the scaffold
-             black+default was shipping — see plan-input colors note). */
           DEFAULT: "#b97a55",
-          50: "#faf4ef",
-          100: "#f4e5da",
-          200: "#eaccb6",
-          300: "#ddad8d",
-          400: "#cd9068",
-          500: "#b97a55",
-          600: "#a05f3d",
-          700: "#7d4527",
-          800: "#5c3018",
-          900: "#3d1f0e",
-          950: "#2a1408",
+          50: "#fbf7f4",
+          100: "#f3e8e2",
+          200: "#e7d2c5",
+          300: "#d5b09a",
+          400: "#c59172",
+          500: "#b5724a",
+          // 600/700 are the DARKENED rungs — brand-tinted TEXT on a white or
+          // light surface (Hero's outline button, ProcessSection icons). They
+          // are NOT the button fill; that is `cta` below.
+          600: "#a26643",
+          700: "#7b4d33",
+          800: "#623d28",
+          900: "#4c301f",
+          950: "#2b1b12",
         },
         /* cta — the SOLID-FILL pair: `bg-cta` is every call-to-action's
            background and `text-cta-fg` is the label that sits on it. They are
@@ -52,15 +52,14 @@ export default {
            2026-08-05: "Action to call on the website need to match golds as
            the logo" — the fill is the logo gold now, the label moved instead. */
         cta: {
-          /* color law: red CTAs on a neutral canvas */
-          DEFAULT: "#dc2626",
-          hover: "#b91c1c",
-          fg: "#ffffff",
+          DEFAULT: "#b97a55",
+          hover: "#c38e6e",
+          fg: "#181716",
         },
         accent: {
           // Same pair rule as cta — btn-accent renders text-accent-fg on this.
           DEFAULT: "#cd9068",
-          fg: "#2a1408",
+          fg: "#181716",
         },
         muted: {
           DEFAULT: "#4b5563",
