@@ -8,79 +8,81 @@ secondary_keywords: ["water damage restoration", "fire damage restoration", "mol
 search_intent: "commercial_decision"
 priority: 5.4
 plan_hash: "0e56b52d4d81284f"
-generated_at: "2026-09-09T01:44:14.365074+00:00"
+generated_at: "2026-09-19T23:52:31.218761+00:00"
 manual_override: false
 internal_links: ["/blog/", "/services/water-damage-restoration/", "/blog/burst-pipe-emergency-checklist/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/does-homeowners-insurance-cover-water-damage/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Blog", "url": "/blog/"}, {"name": "How To Choose a Restoration Company in  (Without Getting Burned)"}]
-faq: [{"question": "How do I know if my damage is covered by homeowners insurance?", "answer": "Coverage depends on the cause of the loss, not the type of damage. Sudden and accidental events, a pipe that bursts, an appliance that fails, are typically covered under a standard homeowners policy. Gradual damage from a slow leak you didn't address, or flooding from outside the home, usually is not. The fastest way to get a clear answer is to call your insurance agent and describe the cause before you file a claim, so you understand your position before the adjuster gets involved."}, {"question": "Can I do my own water damage cleanup to save money?", "answer": "You can handle surface water on non-porous materials, wiping down a tile floor, for example, but anything involving carpet, drywall, insulation, or wood framing carries real risk if you don't have moisture meters to verify the materials are actually dry. Water that looks and feels dry at the surface can still be at levels that support mold growth inside the wall cavity or under the subfloor. If the affected area is larger than a small bathroom, or if the water touched any porous building material, a professional moisture assessment is worth the cost."}, {"question": "What's the difference between mitigation and restoration?", "answer": "Mitigation is the emergency phase, stopping further damage, extracting water, removing unsalvageable materials, and stabilizing the structure. Restoration is the rebuild phase, replacing drywall, flooring, cabinetry, and finishes to return the property to its pre-loss condition. Some companies handle both under one contract; others hand off the reconstruction to a separate general contractor. It's worth clarifying upfront which services a company provides so you're not coordinating multiple vendors during an already stressful process."}, {"question": "How soon does mold start growing after water damage?", "answer": "Mold can begin colonizing porous materials within 24 to 48 hours of a moisture event under the right temperature and humidity conditions, and indoor environments in Texas often meet those conditions. That doesn't mean visible mold appears that quickly, but the biological process can start before you see or smell anything. This is why the drying timeline in water damage restoration isn't arbitrary: getting materials below the threshold moisture content quickly is the primary way to prevent a secondary mold problem."}]
+faq: [{"question": "Should I start cleanup myself before the restoration company arrives?", "answer": "For small, contained spills, blotting up surface water and moving valuables out of the affected area is reasonable. For anything involving sewage backup, water that has been sitting more than 24 hours, or water that reached walls or subfloor, stop. Disturbing saturated materials without proper containment and documentation can complicate your insurance claim and spread contamination. Let the contractor do the initial assessment before you remove anything structural."}, {"question": "How do I know if a restoration company is actually certified or just says they are?", "answer": "IICRC maintains a public directory at iicrc.org where you can search by company name or individual technician. If a contractor claims IICRC certification, that search takes about 60 seconds to verify. For state licensing, the Texas Department of Licensing and Regulation handles several trades relevant to restoration work. Asking for a license number and checking it yourself is always appropriate."}, {"question": "What does 'documenting the loss for insurance' actually mean in practice?", "answer": "A properly documented water damage job includes daily moisture readings taken with a calibrated meter and logged by location, photographs of affected materials before and after removal, a written drying log showing when target moisture levels were reached, and an itemized invoice that matches the scope of work your adjuster approved. This documentation is what your insurer uses to process the claim. Without it, carriers often reduce or deny payment."}, {"question": "Can a restoration company tell me whether I have mold without a separate mold inspection?", "answer": "A restoration technician can note visible mold growth and elevated moisture conditions that create mold risk, but a formal mold assessment with air sampling and a written report is a separate service typically performed by a licensed mold assessment consultant. In Texas, mold assessment and mold remediation are licensed separately by the state. If a single company offers to assess and remediate in one step without explaining that distinction, ask how they handle the separation of those roles."}]
 published_at: "2026-09-01"
 services: ["water-damage-restoration", "fire-damage-restoration", "mold-remediation"]
 rendered: true
 ---
-## The Short Answer: Vet Before You're Desperate
+## The Short Answer: Verify Before You Sign Anything
 
-The worst time to choose a restoration company is at 11 p.m. with water spreading across your living room floor. Decisions made under that kind of pressure, soggy carpet, smoke smell soaking into drywall, a spouse on the phone with the insurance adjuster, are how homeowners end up with contractors who disappear mid-job or pad an invoice beyond recognition. The smarter move is knowing what to look for *before* you need it. This guide walks you through the questions that separate a legitimate restoration contractor from one you'll regret calling.
+When water is pouring through your ceiling or sewage is backing up into your laundry room, the pressure to hire the first company that answers the phone is real. That urgency is exactly what separates good restoration contractors from bad ones. Before you hand over your home or your insurance claim, check three things: licensure and insurance, certifications, and a clear written scope of work. Everything else in this post is detail that helps you do those three things without getting taken advantage of.
 
----
+## Why Restoration Hiring Goes Wrong in the First Place
 
-## What Makes Restoration Different From Regular Contracting
+Most homeowners hire a restoration company once in their lives, during one of the worst weeks they've had. That information gap is where problems start.
 
-A plumber fixes the broken pipe. A restoration company deals with everything the broken pipe did to your house afterward, and those are two very different skill sets.
+After a major storm or a burst pipe, some contractors follow the damage. They knock on doors, offer fast starts, and pressure you to sign an Assignment of Benefits form before your own adjuster has seen the property. In Texas, that form transfers your insurance claim rights to the contractor. Once signed, you lose direct control over what gets approved and paid.
 
-Water damage restoration, for example, isn't about mopping up visible water. It's about measuring moisture content in framing lumber, tracking the dew point inside wall cavities, and knowing when a floor that looks dry is still holding enough moisture to grow mold within 24 to 48 hours. Fire damage work involves understanding how smoke residue behaves differently on porous versus non-porous surfaces, and why the smell that seems gone after airing out the house is still chemically bonded to your HVAC ductwork. Mold remediation requires containment protocols that keep spores from spreading to unaffected rooms during removal.
+Other problems are less dramatic but just as costly. A company might start drying equipment, run it for a week, and then hand you a bill your insurer won't fully cover because the work wasn't documented to industry standards. Or a crew removes wet drywall but leaves saturated framing behind because they're moving on to the next job.
 
-None of that is general contracting. A company that primarily does remodels or roofing but offers "restoration" as a side service may not have the specialized equipment, industrial desiccant dehumidifiers, thermal imaging cameras, negative air pressure machines, or the technical training to do the job correctly. In Midland and the wider Permian Basin, where the climate swings between dry heat and sudden heavy rain events, moisture can behave unpredictably inside homes. A contractor who doesn't understand that dynamic can leave a structure that looks restored but isn't.
+None of this means every contractor is predatory. It means you need a short checklist before anyone starts work.
 
----
+## What to Check Before You Hire
 
-## The Five Questions to Ask Any Restoration Company
+**1. Confirm they carry general liability and workers' compensation insurance.**
+Ask for a certificate of insurance, not just a verbal confirmation. If a worker is injured on your property and the company isn't covered, your homeowner's policy may be on the hook.
 
-Before you sign anything or let a crew start work, get clear answers to these:
+**2. Look for IICRC certification.**
+The Institute of Inspection, Cleaning and Restoration Certification sets the technical standards most insurers expect. The S500 standard governs water damage drying; the S520 governs mold. A company following these standards uses moisture mapping, documents readings daily, and doesn't call a job dry because the surface feels dry. Ask directly: do your technicians hold IICRC credentials?
 
-1. **Are you IICRC-certified?** The Institute of Inspection, Cleaning and Restoration Certification sets the technical standards most insurance carriers recognize, including the S500 standard for water damage and the S520 for mold remediation. A certified firm has technicians who have been tested on those standards, not just trained in-house. Ask which certifications apply to your specific type of loss.
+**3. Get a written scope before work begins.**
+This document should list what materials will be removed, what equipment will be placed, how long drying is expected to take, and how the work will be documented for your insurer. If a contractor is reluctant to put this in writing, that reluctance is your answer.
 
-2. **Do you bill insurance directly?** Legitimate restoration companies deal with insurance carriers regularly. They know how to document a loss, photographs, moisture readings, scope of work, in the format adjusters need. If a contractor seems unfamiliar with the insurance process or pushes you to pay out of pocket and "sort it out later," that's a flag.
+**4. Understand what they do and don't handle.**
+Restoration is not one trade. Water damage cleanup, mold remediation, fire and smoke restoration, and reconstruction are often separate specialties. A company that does everything may do some things well and others poorly. Ask specifically: what is your core service? A contractor who is honest about their lane is usually more trustworthy than one who claims to do it all.
 
-3. **Who is actually doing the work?** Some restoration companies are primarily sales and project management operations that subcontract the physical work. That's not automatically bad, but you should know who will be on your property, whether those workers are vetted, and who is liable if something goes wrong.
+**5. Check their reviews for process detail, not just star ratings.**
+A five-star review that says "great job" tells you nothing. Look for reviews that describe how the company communicated with the insurance adjuster, whether equipment was picked up on time, and whether the final bill matched the estimate.
 
-4. **Can you show me a written scope of work before you start?** A professional restoration company can give you a documented scope, what they're removing, what equipment they're placing, what the drying targets are, and what the reconstruction phase involves. Verbal promises are not a contract.
+## Red Flags That Should Make You Pause
 
-5. **What does the monitoring process look like?** Drying a structure isn't a one-visit job. Technicians should be returning to take moisture readings and adjust equipment until the structure meets the drying standard. If a company drops dehumidifiers and says "call us when they're done," ask how they'll know when done actually is.
+- They ask you to sign paperwork before explaining what the paperwork does.
+- They can't name the drying standard they follow or the equipment they use.
+- They quote a flat price for water damage without doing a moisture assessment first. Water damage pricing depends on affected square footage, material types, and saturation depth. No honest contractor quotes it blind.
+- They guarantee mold won't return. No one can guarantee that. Mold is a function of moisture. Control the moisture and you control the risk, but a guarantee of zero future mold growth is a sales line, not a technical promise.
+- They push you to delay contacting your insurance company or suggest they'll "handle the adjuster" without explaining what that means.
 
----
+## What to Ask Your Insurance Company First
 
-## Red Flags That Should Stop You Cold
+Before you call any contractor, spend ten minutes on the phone with your insurer. Ask:
 
-The restoration industry, unfortunately, attracts storm chasers and opportunists, contractors who show up in force after a weather event, pressure homeowners into quick decisions, and then either do poor work or disappear. Here's what to watch for:
+- Is this loss covered under my policy?
+- Do I need to use a contractor from your preferred vendor list, or can I choose my own?
+- What documentation do you need from the contractor to process my claim?
+- Will you send an adjuster before work starts, or do you want mitigation to begin immediately?
 
-- **Door-to-door solicitation after a storm.** Reputable local contractors don't need to knock on doors the morning after a hail event or a flash flood. If someone shows up unsolicited and wants you to sign an authorization form on the spot, slow down.
+In Midland, where summer thunderstorms can push water through flat roofs and older slab foundations can shift enough to crack supply lines, insurers sometimes want an adjuster on-site before demo begins. Other times, especially with active water intrusion, they want mitigation started within 24 to 48 hours to prevent secondary damage. Knowing which situation you're in before a contractor arrives saves arguments later.
 
-- **Requests to sign over your insurance claim.** An Assignment of Benefits (AOB) agreement hands control of your claim to the contractor. Texas has specific regulations around this practice. Read anything you sign carefully, and if you don't understand it, ask your insurance agent before signing.
+## A Note on Fire, Mold, and Reconstruction
 
-- **No physical local address.** A company that operates out of a P.O. box or lists only a phone number has no accountability to the community. In a market like Midland, where word-of-mouth matters and the contractor community is relatively visible, a legitimate company will have a traceable local presence.
+This post covers restoration broadly, but these are genuinely different categories of work.
 
-- **Pressure to skip the insurance process entirely.** Some contractors will offer a cash discount to avoid involving your carrier. Sometimes that's legitimate. More often, it means the scope of work won't be properly documented, and you'll have no recourse if problems surface later, like mold behind walls that weren't dried correctly.
+Fire and smoke damage involves odor neutralization, soot chemistry, and HVAC decontamination that water damage crews aren't always trained for. Mold remediation requires containment protocols, air scrubbing, and in many cases EPA-registered biocides applied by trained technicians. Reconstruction, meaning the rebuild after demo, is a general contracting function entirely separate from mitigation.
 
-- **Vague or missing documentation.** If a contractor can't produce a clear written estimate, a certificate of insurance, or references on request, move on.
+If you're dealing with water damage, ACS Enterprise handles the cleanup and drying side. For mold work or fire restoration, they'll point you to the right specialist rather than take on work outside their scope. That kind of honesty about scope is itself a green flag when you're evaluating any contractor.
 
----
+## The Longer Recovery: What Happens After Mitigation
 
-## Understanding the Restoration Timeline (So You're Not Surprised)
+Mitigation stops the damage from getting worse. It does not restore your home to its pre-loss condition. After the drying equipment comes out and the wet materials are removed, you're typically looking at a separate rebuild phase: replacing drywall, repainting, reinstalling flooring, and addressing any structural issues the water exposed.
 
-One of the most common sources of frustration for property owners is not understanding how long legitimate restoration actually takes. Here's a realistic picture:
+Plan for this to take longer than the mitigation phase. Permits may be required depending on the scope of work. In Midland, the city's building department issues permits for structural repairs, and some insurers require permitted work before they'll close a claim. Ask your contractor and your adjuster about permit requirements before the rebuild begins, not after.
 
-**Water damage** mitigation, extracting standing water, placing drying equipment, removing unsalvageable materials, typically begins within the first day or two. But the *drying* phase, where dehumidifiers and air movers run continuously and technicians monitor moisture levels, often takes three to five days or longer depending on the materials involved. Plaster walls, hardwood subfloors, and concrete slabs hold moisture differently than drywall, and each requires its own drying target.
+Keep copies of every moisture reading log, every invoice, and every photo the mitigation company provides. If your claim is disputed or if you sell the property in the future, that documentation is your evidence that the work was done correctly.
 
-**Fire damage** work involves multiple phases: emergency board-up and stabilization, smoke and soot cleaning, odor neutralization (which may include thermal fogging or ozone treatment), and then reconstruction. The cleaning phase alone can take longer than homeowners expect because smoke residue penetrates deeply into porous materials.
+## If You're Ready to Talk to Someone
 
-**Mold remediation** requires containment setup, removal of affected materials, HEPA vacuuming and antimicrobial treatment, and, in many cases, post-remediation testing by a third party to confirm the area is clear before reconstruction begins. Rushing any of these steps creates liability for the contractor and ongoing health risk for the occupants.
-
-If a company promises a faster timeline than this without explaining why your situation is different, ask questions.
-
----
-
-## Closing: Do This Before You Need It
-
-The homeowners who navigate restoration claims most smoothly are the ones who did a little homework before anything went wrong, or at least before they were standing in two inches of water making decisions on adrenaline. If you're in Midland and you've recently had a leak, noticed a musty smell that won't go away, or dealt with any kind of fire or smoke event, the time to evaluate your options is now.
-
-ACS Enterprise serves the Midland area and works directly with insurance carriers on water damage, fire damage, and mold remediation losses. If you have questions about a specific situation, even if you're not sure yet whether it warrants a professional response, call (432) 847-4704.
+If you're in the Midland area and dealing with water damage or a sewage backup, ACS Enterprise is a straightforward call: (432) 847-4704. They handle the water damage and cleanup side, document the work for your insurer, and won't oversell you on services outside their specialty. If the situation involves mold or fire damage, they'll tell you that directly and help point you toward the right resource.
