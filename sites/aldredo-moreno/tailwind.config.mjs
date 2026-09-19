@@ -27,21 +27,21 @@ export default {
           950: "#030712",
         },
         primary: {
-          DEFAULT: "#171717",
-          50: "#f7f7f7",
-          100: "#ebebeb",
-          200: "#d6d6d6",
-          300: "#b8b8b8",
-          400: "#9c9c9c",
-          500: "#808080",
-          // 600/700 are the DARKENED rungs — brand-tinted TEXT on a white or
-          // light surface (Hero's outline button, ProcessSection icons). They
-          // are NOT the button fill; that is `cta` below.
-          600: "#171717",
-          700: "#0a0a0a",
-          800: "#050505",
-          900: "#050505",
-          950: "#050505",
+          /* ACS copper / rose-gold, sampled from the real logo
+             (2026-09-19; brand had NO recorded colors and the scaffold
+             black+default was shipping — see plan-input colors note). */
+          DEFAULT: "#b97a55",
+          50: "#faf4ef",
+          100: "#f4e5da",
+          200: "#eaccb6",
+          300: "#ddad8d",
+          400: "#cd9068",
+          500: "#b97a55",
+          600: "#a05f3d",
+          700: "#7d4527",
+          800: "#5c3018",
+          900: "#3d1f0e",
+          950: "#2a1408",
         },
         /* cta — the SOLID-FILL pair: `bg-cta` is every call-to-action's
            background and `text-cta-fg` is the label that sits on it. They are
@@ -52,14 +52,15 @@ export default {
            2026-08-05: "Action to call on the website need to match golds as
            the logo" — the fill is the logo gold now, the label moved instead. */
         cta: {
-          DEFAULT: "#171717",
-          hover: "#0a0a0a",
+          /* color law: red CTAs on a neutral canvas */
+          DEFAULT: "#dc2626",
+          hover: "#b91c1c",
           fg: "#ffffff",
         },
         accent: {
           // Same pair rule as cta — btn-accent renders text-accent-fg on this.
-          DEFAULT: "#171717",
-          fg: "#ffffff",
+          DEFAULT: "#cd9068",
+          fg: "#2a1408",
         },
         muted: {
           DEFAULT: "#4b5563",
