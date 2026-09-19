@@ -1,10 +1,10 @@
 {
  "domain": "dissrestoration.com",
- "captured_at": "2026-09-18T23:22:35+00:00",
+ "captured_at": "2026-09-18T23:59:57+00:00",
  "authoritative": {
   "ns": [
-   "ns4.wixdns.net",
-   "ns5.wixdns.net"
+   "daisy.ns.cloudflare.com",
+   "henry.ns.cloudflare.com"
   ],
   "mx": [
    {
@@ -14,17 +14,20 @@
   ],
   "apex_txt": [
    "v=spf1 include:spf.protection.outlook.com -all",
-   "v=verifydomain MS=4025810",
-   "google-site-verification=epCHLEezTv_qh0yc_SP0GMlMXr30I0ImYkYdB_ZSpPM",
    "google-site-verification=8wa0N1gYDTDmxKMxeKPRu-b9YHXC72syzONWdl2qBpk",
    "google-site-verification=7Ye_uDSA_FZXe8AO_Tvel_gjSSdyywYnjkdCz0uR8s8",
+   "v=verifydomain MS=4025810",
+   "google-site-verification=epCHLEezTv_qh0yc_SP0GMlMXr30I0ImYkYdB_ZSpPM",
    "google-site-verification=Qw3zFvhbBqK1wUEiq06O7JaSDFLnLzyydu4bczXdN1s"
   ],
   "dmarc_txt": [
    "v=DMARC1; p=none;"
   ],
   "dkim": {},
-  "apex_a": [],
+  "apex_a": [
+   "172.67.144.148",
+   "104.21.39.111"
+  ],
   "apex_cname": [],
   "www_cname": []
  },
@@ -35,6 +38,22 @@
    "henry.ns.cloudflare.com"
   ],
   "records": [
+   {
+    "id": "07df99def06b8a6b932bdeb04955c6f2",
+    "type": "CNAME",
+    "name": "dissrestoration.com",
+    "content": "rankai-diss-restoration.pages.dev",
+    "priority": null,
+    "proxied": true
+   },
+   {
+    "id": "c093f0175236afd3e521c91c3d44e95b",
+    "type": "CNAME",
+    "name": "www.dissrestoration.com",
+    "content": "rankai-diss-restoration.pages.dev",
+    "priority": null,
+    "proxied": true
+   },
    {
     "id": "2c58289981d06810d0e96dfd4291e348",
     "type": "MX",
