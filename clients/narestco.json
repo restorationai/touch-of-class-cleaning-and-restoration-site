@@ -24,7 +24,7 @@
   },
   "status": "active",
   "created_at": "2026-05-10T03:18:58.761481+00:00",
-  "updated_at": "2026-09-17T20:47:00.808255+00:00",
+  "updated_at": "2026-09-19T22:28:49.235261+00:00",
   "plan_status": "planned",
   "plan": {
     "template": "restoration",
@@ -40,7 +40,7 @@
     "url_count": 229,
     "pages_status": "created",
     "last_rendered_at": "2026-07-15T05:38:19.287586+00:00",
-    "last_pushed_main_at": "2026-09-17T20:47:00.808237+00:00",
+    "last_pushed_main_at": "2026-09-19T22:28:49.235244+00:00",
     "last_pushed_staging_at": "2026-09-14T16:03:52.203683+00:00"
   },
   "build_status": "pushed_main",

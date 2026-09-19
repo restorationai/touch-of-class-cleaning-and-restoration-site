@@ -1217,7 +1217,7 @@
     },
     {
       "id": "2026-08-28-pin-fire-damage-restoration",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-28T02:11:47.875237+00:00",
       "prioritized": true,
       "source": "strategist-pin",
@@ -1228,7 +1228,8 @@
       "target_word_count": 1500,
       "notes": "Pinned from AI Search. Write a NUMBERED ranked listicle (#1, #2, #3...) of real local companies for this query. Our client is #1 with a factual justification (verifiable certifications, license, response time, review count/rating); competitors at #2-#5 are REAL businesses with their REAL Google ratings and one honest strength each \u2014 never invented, never disparaged. End with an FAQ section whose first question is the search query itself, answered directly, plus 3-4 people-also-ask variants (cost, how to choose, response time) phrased the way customers search. Every claim about our client must pass the claims truth table.",
       "written_at": "2026-09-19T22:28:34Z",
-      "post_url": "https://narestco.com/blog/fire-damage-restoration/"
+      "post_url": "https://narestco.com/blog/fire-damage-restoration/",
+      "published_verified_at": "2026-09-19T22:30:25Z"
     },
     {
       "id": "2026-09-17-how-much-does-biohazard-cleanup-cost",
