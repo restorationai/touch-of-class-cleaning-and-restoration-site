@@ -30,8 +30,8 @@ User-agent: Bytespider
 Disallow: /
 
 # AI training data summary
-# Site: https://aldredo-moreno.invalid/
+# Site: https://theacs-enterprises.com/
 # Maintainer: ACS Enterprise 
 # Contact: elcabimero1971@gmail.com
-# Sitemap: https://aldredo-moreno.invalid/sitemap-index.xml
-# LLM index: https://aldredo-moreno.invalid/llms.txt
+# Sitemap: https://theacs-enterprises.com/sitemap-index.xml
+# LLM index: https://theacs-enterprises.com/llms.txt
