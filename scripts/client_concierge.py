@@ -4153,16 +4153,38 @@ def soften_device_assumption(body: str) -> str:
     return out
 
 
-def internal_leak_violation(body: str, internal: list[dict] | None) -> str | None:
+def internal_leak_violation(body: str, internal: list[dict] | None,
+                            company: dict | None = None) -> str | None:
     """Refusal reason when a draft leaks internal work, else None.
 
     Only armed when this client actually HAS internal work in play — the same
     words in an unrelated message are not evidence of a leak, and a guard that
     fires on everything gets switched off.
+
+    THE CLIENT'S OWN PREVIEW LINK IS NOT A LEAK (2026-09-19: ACS + DryCor
+    reveals both held the same afternoon — the preview-share flow EXISTS to
+    send a rankai-{slug}.pages.dev URL, so any client with an open internal
+    task could never be shown their site). Strip this client's own sanctioned
+    preview URLs before matching; every other pages.dev / cutover / NS
+    mention still holds.
     """
     if not internal:
         return None
-    m = _INTERNAL_LEAK_RE.search(body or "")
+    scan = body or ""
+    slug = str((company or {}).get("rank_ai_slug") or "").strip()
+    if not slug and (company or {}).get("id"):
+        try:
+            rows = _sb("GET", "/rest/v1/marketing_sites?company_id=eq."
+                       f"{company['id']}&select=rank_ai_slug&limit=1") or []
+            slug = str((rows[0] if rows else {}).get("rank_ai_slug")
+                       or "").strip()
+        except Exception:  # noqa: BLE001 — no slug just means no exemption
+            slug = ""
+    if slug:
+        scan = re.sub(
+            r"https?://(staging\.)?rankai-" + re.escape(slug)
+            + r"\.pages\.dev[^\s]*", " ", scan, flags=re.I)
+    m = _INTERNAL_LEAK_RE.search(scan)
     if not m:
         return None
     return (f"draft mentions internal work ({m.group(0)!r}) while "
@@ -4440,7 +4462,8 @@ def send_message(contact: dict, channel: str, body: str,
         if live_claim:
             raise SendBlocked(live_claim)
         # INTERNAL LEAK — last line, same standing as the topic ban.
-        leak = internal_leak_violation(body, fetch_internal_work(company["id"]))
+        leak = internal_leak_violation(body, fetch_internal_work(company["id"]),
+                                       company)
         if leak:
             raise SendBlocked(leak)
         # FILE REQUESTS — hub link only, never email.
@@ -12924,6 +12947,20 @@ def cmd_selfcheck(_args) -> int:
         fails += (not ok)
         print(f"  {'ok  ' if ok else 'FAIL'} internal={str(has_work):<5} "
               f"blocked={str(bool(got)):<5} {draft[:52]!r}")
+    # ...the client's OWN preview link is the preview-share flow doing its
+    # job, never a leak (2026-09-19: ACS + DryCor reveals both held) — but
+    # ANOTHER client's pages.dev link is still one.
+    _co = {"rank_ai_slug": "aldredo-moreno"}
+    own = internal_leak_violation(
+        "Your new site is up: https://rankai-aldredo-moreno.pages.dev "
+        "What do you think?", _open, _co)
+    other = internal_leak_violation(
+        "See https://rankai-drycor-restore.pages.dev", _open, _co)
+    fails += bool(own) + (not other)
+    print(f"  {'ok  ' if not own else 'FAIL'} own preview link passes "
+          "with internal work open")
+    print(f"  {'ok  ' if other else 'FAIL'} someone else's pages.dev "
+          "link still holds")
 
     # ---- file requests are hub-link-only and device-neutral ---------------
     print("\nfile requests: never email, never assume a phone:")
