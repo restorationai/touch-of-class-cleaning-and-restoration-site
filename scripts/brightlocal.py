@@ -411,12 +411,19 @@ def cmd_order(args) -> int:
         print("  [dry-run] would confirm with credits")
         return 0
     picked: list[str] = []
+    # NEVER submit google.com through Citation Builder (Santino 2026-09-19:
+    # "definitely exclude Google"). We hold owner access + API write on every
+    # client's GBP and execute the rename ourselves — BL's Google line only
+    # adds an owner-verification chore for a surface we already control.
+    # yelp.com stays IN pending Santino's separate call on it.
+    pick_exclude = {"google.com"}
     if args.pick_top:
         # Hand-pick: highest domain-authority SAB-supported sites first
         # (Santino 2026-09-03: we choose the sources, not their picker)
         avail = _bl("GET", f"/citation-builder/{cid}/citations").get("data") or []
         ranked = sorted(
-            (a for a in avail if a.get("is_sab_supported") is not False),
+            (a for a in avail if a.get("is_sab_supported") is not False
+             and a.get("domain") not in pick_exclude),
             key=lambda a: -(a.get("domain_authority") or 0))
         picked = [a["domain"] for a in ranked[:cost]]
         print(f"  hand-picked top {len(picked)} by DA: "
