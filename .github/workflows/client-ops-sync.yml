@@ -417,8 +417,13 @@ jobs:
             echo "Nothing to commit."
           else
             git commit -m "chore: client ops sync $(date +%Y-%m-%d) [automated]"
-            git pull --rebase --autostash
-            git push
+            # rebase-retry with merge fallback (2026-09-19: a rebase conflict
+            # with a same-day session commit failed the whole nightly)
+            for i in 1 2 3 4 5; do
+              git pull --rebase --autostash origin main || { git rebase --abort 2>/dev/null || true; git pull --no-rebase --no-edit -X ours origin main || true; }
+              git push origin main && break
+              sleep $((RANDOM % 15 + 5))
+            done
           fi
 
       - name: Alert on failure
