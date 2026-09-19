@@ -166,6 +166,25 @@ def location_plan(slug: str, cid: str) -> dict | None:
         if d <= 30:
             add(g["name"], g["state"], "gazetteer")
 
+    # SPARSE-MARKET WIDENING (ACS/West Texas 2026-09-19): a 30-mile ring in
+    # Midland-Odessa yields 11 candidates, so the profile can never reach
+    # its 20 slots and cities the client actually serves (Alfredo named
+    # Monahans on the sales call) sit outside the ring. When the pool is
+    # short of 20, widen in 10-mile steps to at most 60 miles — dense
+    # metros never trigger this (they fill at 30), rural clients get the
+    # real trade area they drive.
+    ring = 30
+    while len(cands) < 20 and ring < 60:
+        ring += 10
+        for g in gaz:
+            if g.get("cdp") and g.get("sqmi", 0) < 3.0:
+                continue
+            if g.get("sqmi", 0) < 1.5:
+                continue
+            d = _dist_mi(pin, (g["lat"], g["lng"]))
+            if d <= ring:
+                add(g["name"], g["state"], "gazetteer")
+
     # HOME-COUNTY KEEP: a county area already on the profile that contains
     # the pin (e.g. Broward County for a Davie pin) is broad coverage worth
     # its slot — it stays pinned at the head of the list; out-of-market

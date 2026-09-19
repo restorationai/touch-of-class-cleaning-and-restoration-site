@@ -85,6 +85,27 @@
       "city": "Crane",
       "state": "TX",
       "slug": "crane-tx"
+    },
+    {
+      "city": "Monahans",
+      "state": "TX",
+      "slug": "monahans-tx",
+      "source": "client-declared (Alfredo, sales call 2026-09-08: 'Andrews, Monahans, Spring')"
+    },
+    {
+      "city": "McCamey",
+      "state": "TX",
+      "slug": "mccamey-tx"
+    },
+    {
+      "city": "Southwest Sandhill",
+      "state": "TX",
+      "slug": "southwest-sandhill-tx"
+    },
+    {
+      "city": "Big Lake",
+      "state": "TX",
+      "slug": "big-lake-tx"
     }
   ],
   "template": "restoration",
