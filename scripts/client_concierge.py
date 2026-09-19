@@ -465,6 +465,29 @@ def _client_allowlist() -> tuple[set[str], list[str]]:
             name = " ".join(x for x in ((pref.get("first_name") or "").strip(),
                                         (pref.get("last_name") or "").strip()) if x)
             who.append(f"{c.get('name')} -> {name or '?'}")
+        # THE LINKED GHL CONTACT IS THE SAME PERSON (Sarah/Heritage
+        # 2026-09-19): sends go to the GHL record's phone, which can differ
+        # from the card's cell (8 of 38 clients on the day this shipped).
+        # Authorising only the card number left every such client silently
+        # canary-blocked. When the company's ghl_contact_id link is
+        # identity-verified against the card (shared email OR shared phone),
+        # the GHL record's other coordinates are the same person — authorise
+        # them. No match = possibly the wrong person = add nothing.
+        gid = str((c.get("integration_settings") or {})
+                  .get("ghl_contact_id") or "").strip()
+        if gid and pref:
+            try:
+                g = (_ghl("GET", f"/contacts/{gid}") or {}).get("contact") or {}
+                gp, ge = _norm_phone(g.get("phone")), _norm_email(g.get("email"))
+                same = ((ge and ge == _norm_email(email))
+                        or (gp and gp == _norm_phone(cell)))
+                if same:
+                    if gp:
+                        out.add(gp)
+                    if ge:
+                        out.add(ge)
+            except Exception:  # noqa: BLE001 — fail closed, card list stands
+                pass
     return out, who
 
 
