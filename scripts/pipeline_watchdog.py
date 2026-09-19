@@ -115,6 +115,28 @@ def check_heartbeats() -> list[str]:
     return issues
 
 
+def check_site_area_gap() -> list[str]:
+    """Site area pages lagging the GBP area set (Santino 2026-09-19, ACS:
+    Google carried 16 areas while the site served 7 and nothing said so).
+    gbp_parity writes ops_kv 'site-area-gap' {slug: {count, since}} nightly
+    and its ripple (plan generate + add-pages + 3:07 render sweep) should
+    drain any gap within ~2 nights. A gap older than 3 days means the
+    ripple chain broke somewhere — alert with the client's name."""
+    issues = []
+    gaps = ((_sb("GET", "/rest/v1/ops_kv?k=eq.site-area-gap&select=v")
+             or [{}])[0].get("v") or {})
+    for slug, g in sorted(gaps.items()):
+        since = g.get("since")
+        if not since:
+            continue
+        age = (NOW.date() - datetime.fromisoformat(since).date()).days
+        if age > 3:
+            issues.append(
+                f"site-area gap: {slug} site is missing {g.get('count')} "
+                f"GBP area page(s), stuck {age}d — ripple/render sweep broke")
+    return issues
+
+
 def check_coverage() -> list[str]:
     issues = []
     inv = {s: c for c, s in slug_map().items()}
@@ -240,7 +262,8 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
-    issues = check_workflows() + check_heartbeats() + check_coverage()
+    issues = (check_workflows() + check_heartbeats() + check_coverage()
+              + check_site_area_gap())
     if not issues:
         print("pipeline watchdog: ALL SYSTEMS ALIVE")
     fresh: list[str] = []

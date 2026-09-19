@@ -43,6 +43,7 @@ import json
 import os
 import math
 import re
+import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -500,6 +501,7 @@ def main() -> int:
     inv = {s: c for c, s in slug_map().items()}
     slugs = [a.slug] if a.slug else sorted(inv)
     ledger: dict = {}
+    gap_now: dict = {}
     active = _active_cids()
 
     for slug in slugs:
@@ -556,11 +558,57 @@ def main() -> int:
                         {"city": c["city"], "state": c["state"],
                          "slug": re.sub(r"[^a-z0-9]+", "-",
                                         f"{c['city']} {c['state']}".lower()).strip("-")})
-                    print(f"    site: appended {c['city']} to plan-input "
-                          "(next build ripples the pages)")
+                    print(f"    site: appended {c['city']} to plan-input")
                 pi_p.write_text(json.dumps(pi, indent=2) + "\n")
+                # RIPPLE (Santino 2026-09-19, ACS: GBP carried 16 areas while
+                # the site served 7 — appending to plan-input alone builds
+                # nothing). Chain the two SAFE steps here: re-plan, then
+                # add-pages, which writes ONLY missing stubs (never full
+                # scaffold — that overwrites per-site customizations, the
+                # work.ts lesson). The nightly site-render sweep (3:07 PT)
+                # renders + deploys any rendered:false stub, closing the loop.
+                if (SITES := ROOT / "sites" / slug).is_dir():
+                    for step in (["plan_site.py", "generate", "--slug", slug],
+                                 ["build_site.py", "add-pages", "--slug", slug]):
+                        rr = subprocess.run(
+                            [sys.executable, str(ROOT / "scripts" / step[0]),
+                             *step[1:]], capture_output=True, text=True,
+                            timeout=600)
+                        tail = (rr.stdout or rr.stderr or "").strip().splitlines()
+                        print(f"    ripple {step[0]} {step[1]}: "
+                              f"{(tail[-1][:120] if tail else 'ok')}"
+                              + ("" if rr.returncode == 0 else
+                                 f" [EXIT {rr.returncode}]"))
+                else:
+                    print(f"    ripple skipped: sites/{slug} not built yet")
         ledger[cid] = entry
+        # Site-area-gap tracker: how long has this client's site lagged the
+        # GBP area set? pipeline_watchdog alerts when a gap sticks — the
+        # ripple above should drain it within a night or two.
+        if lp is not None:
+            gap_now[slug] = len(lp["site_missing"])
 
+    if not a.dry_run and gap_now:
+        # site-area-gap: per-slug {count, since}. `since` = first day the gap
+        # was seen and holds while the gap persists; cleared rows drop out.
+        # pipeline_watchdog alerts on any gap older than 3 days (ripple or
+        # render sweep broke). Read-merge-write so --slug runs don't wipe
+        # other clients' entries.
+        try:
+            prev = ((_sb("GET", "/rest/v1/ops_kv?k=eq.site-area-gap&select=v")
+                     or [{}])[0].get("v") or {})
+        except Exception:  # noqa: BLE001
+            prev = {}
+        today = datetime.now(timezone.utc).date().isoformat()
+        for s, n in gap_now.items():
+            if n <= 0:
+                prev.pop(s, None)
+            else:
+                prev[s] = {"count": n,
+                           "since": (prev.get(s) or {}).get("since") or today}
+        _sb("POST", "/rest/v1/ops_kv?on_conflict=k",
+            {"k": "site-area-gap", "v": prev},
+            prefer="resolution=merge-duplicates")
     if not a.dry_run and not a.slug:
         _sb("POST", "/rest/v1/ops_kv?on_conflict=k",
             {"k": "parity-ledger",
