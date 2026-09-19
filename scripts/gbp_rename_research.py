@@ -131,9 +131,9 @@ and early (display truncates around 35-40 characters).
 HARD LIMIT: the full name must be 90 characters or fewer. Directory and
 citation platforms reject or truncate longer names, and the name must
 print IDENTICALLY on every surface (GBP, citations, site). Count before
-you answer. House standard: the word "and", never "&" (DBA portals
-normalize special characters unpredictably) — when a name runs long,
-shorten or drop a service lane instead of reaching for "&".
+you answer. House standard (2026-09-19): "&" is the DEFAULT joiner, not
+the word "and" — it saves characters that buy keyword lanes under the
+cap. If a name still runs over 90 with "&", shorten or drop a lane.
 
 Return STRICT JSON only:
 {{"candidates": [{{"name": str, "confidence": float 0.5-0.95, "reason": str (one sentence naming the volumes/pattern that justify it)}}]}}
@@ -165,10 +165,16 @@ Return STRICT JSON only:
         name = re.sub(r"\s*[—–]\s*", " - ", str(c.get("name", ""))).strip()
         if not name.lower().startswith(base.lower()[:12]) or name.lower() in existing:
             continue
+        # House standard 2026-09-19: "&" is the default joiner — normalize
+        # any "and" the model produced between service phrases (the brand
+        # portion before " - " keeps its own spelling: "Flood and Fire
+        # Solutions" stays itself).
+        if " - " in name:
+            brand_part, _, tail = name.partition(" - ")
+            name = brand_part + " - " + re.sub(r"\band\b", "&", tail)
         if len(name) > 90:
-            # HARD CAP (Santino 2026-09-19): >90 breaks BrightLocal + many
-            # directories, and the name must print identically everywhere.
-            # No "&" rescue — house standard is the word "and" (09-14);
+            # HARD CAP: >90 breaks BrightLocal + many directories, and the
+            # name must print identically everywhere. "&" already applied;
             # an overlong name simply doesn't make the slate.
             print(f"  [len {len(name)}>90 — REJECTED] {name}")
             continue

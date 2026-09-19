@@ -14,9 +14,13 @@ name discussion never has to be reconstructed from chat history again.
   same range — and the name must print IDENTICALLY on every surface (GBP,
   citations, site, llms.txt). Kenny's 94-char chosen name 400'd his whole
   citation order; FF Solutions confirmed a 91-char name and needed a
-  pre-filing correction SMS. Use "&" instead of "and" to save characters.
-  The researcher (gbp_rename_research.py) enforces this at generation;
-  anything hand-written gets counted before it is pitched.
+  pre-filing correction SMS. "&" is the DEFAULT joiner (standard REVERSED
+  2026-09-19, was "and"): it saves characters that buy keyword lanes under
+  the cap; Dry Bros' "&" DBA filed and verified fine. If a state portal
+  rejects "&" at filing, file with "and" and keep "&" as display canon —
+  the concierge matcher treats the two as equivalent. The researcher
+  (gbp_rename_research.py) enforces cap + joiner at generation; anything
+  hand-written gets counted before it is pitched.
 
 - **Proof case**: OneStop Plumbers, Corona — CSLB #951907 registered under
   the keyworded name; they outrank on brand+keyword blend. The playbook

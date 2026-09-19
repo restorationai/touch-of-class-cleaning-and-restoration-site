@@ -81,7 +81,7 @@ def active_clients() -> list[str]:
     Santino). Blog-kind videos still require published posts and fall back
     to geo naturally. Only truly departed clients are excluded."""
     DEPARTED = {"archived", "churned", "paused", "cancelled", "canceled",
-                "inactive"}
+                "inactive", "suspended"}  # suspended added 2026-09-19 (MCC)
     # The app's pause button writes companies.status in Supabase and NEVER
     # touches the local clients/*.json status (Mold Solutionz 2026-08-04:
     # local status 'onboarding', DB 'paused', YouTube connected — the cron
