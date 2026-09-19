@@ -1030,7 +1030,7 @@
     },
     {
       "id": "2026-08-26-400-sq-ft-master-suite-addition-cost",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-26T22:55:00Z",
       "written_at": null,
       "post_url": null,
@@ -1062,8 +1062,7 @@
         "https://www.nahb.org/",
         "https://www.remodeling.hw.net/cost-vs-value/"
       ],
-      "notes": "Highest-intent size query in the addition family. Cover the ensuite bath as the main cost driver (plumbing runs, vanity, tile), plus HVAC load and whether the existing roofline allows a simple tie-in. Madison and Hampton Cove ranch homes are the natural example set.",
-      "banked_at": "2026-09-19T10:23:53.719966+00:00"
+      "notes": "Highest-intent size query in the addition family. Cover the ensuite bath as the main cost driver (plumbing runs, vanity, tile), plus HVAC load and whether the existing roofline allows a simple tie-in. Madison and Hampton Cove ranch homes are the natural example set."
     },
     {
       "id": "2026-08-26-home-addition-ideas",
