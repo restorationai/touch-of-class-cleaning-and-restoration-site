@@ -1465,7 +1465,15 @@ def repeats_recent_outbound(company_id: str | None, body: str,
             return ("CONTRADICTS what we already told them: we reported this "
                     f"work DONE {age_min:.0f} min ago ({cand['body'][:70]!r}) "
                     "and this message promises it as future work")
-    # 3. back-to-back: we spoke last and the client has not answered yet
+    # 3. back-to-back: we spoke last and the client has not answered yet.
+    # BOSS-DIRECTIVE EXEMPTION (ACS 2026-09-19): a [FROM SANTINO] correction
+    # of a wrong outbound has to land IN the same turn — that is when the
+    # client is about to act on the wrong message. Net 3's target is
+    # accidental second passes; a directive is human-adjudicated, and the
+    # directive resolves on first send so a racing pass no longer carries
+    # it. Nets 1-2 (same copy / already answered) still apply in full.
+    if boss_directive:
+        return None
     newest = cands[0]
     gap_min = (now - newest["when"]).total_seconds() / 60
     if gap_min <= TOPIC_REPEAT_MINUTES and (
@@ -6895,7 +6903,8 @@ def send_now(company_id: str, channel: str = "sms") -> dict:
     reply_key = _reply_key(pending)
     dup = repeats_recent_outbound(company_id, body, history,
                                   evidence=_evidence_slice(intel),
-                                  reply_to=reply_key)
+                                  reply_to=reply_key,
+                                  boss_directive=bool(directives))
     if dup:
         return {**base, "sent": False, "body": body,
                 "reason": f"duplicate guard: {dup}"}
