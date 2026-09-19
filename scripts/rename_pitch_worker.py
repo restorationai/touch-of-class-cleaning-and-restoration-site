@@ -190,7 +190,10 @@ def _process_action_queue(kv_key: str, label: str, run_cmd, dry: bool) -> None:
                                timeout=1200, cwd=str(ROOT))
             tail = "\n".join(((r.stdout or "") + (r.stderr or ""))
                              .strip().splitlines()[-3:])[:300]
-            entry["status"] = "done" if r.returncode == 0 else "failed"
+            # A gate refusal (site_sync_hold etc.) exits 0 but did NOT do
+            # the work — 'held' so the card never wears it as success.
+            entry["status"] = ("held" if "HELD" in (r.stdout or "")
+                               else "done" if r.returncode == 0 else "failed")
             entry["detail"] = tail
         except Exception as e:  # noqa: BLE001
             entry["status"] = "failed"
