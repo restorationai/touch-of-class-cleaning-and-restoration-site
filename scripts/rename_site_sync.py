@@ -75,6 +75,33 @@ def _git(args: list) -> None:
         raise RuntimeError(f"git {' '.join(args)}: {r.stderr.strip()[:200]}")
 
 
+def _llms_patch(slug: str, dba: str, legal: str, dry_run: bool) -> bool:
+    """llms.txt is a Google/AI-facing name surface too (Santino 2026-09-19:
+    'even the backend, the jsonld, the llms.txt'). Idempotently ensure it
+    carries the DBA right under the title line. Returns True when the file
+    changed (caller commits it with the brand.ts edit)."""
+    p = ROOT / "sites" / slug / "public" / "llms.txt"
+    if not p.exists():
+        return False
+    txt = p.read_text()
+    line = f"Doing business as: {dba} (registered trade name of {legal})."
+    if dba in txt:
+        return False
+    if dry_run:
+        return True
+    lines = txt.splitlines()
+    ins = 1 if lines and lines[0].startswith("#") else 0
+    lines.insert(ins, "")
+    lines.insert(ins + 1, line)
+    p.write_text("\n".join(lines) + ("\n" if txt.endswith("\n") else ""))
+    return True
+
+
+_DBA_FIELD_TMPL = (
+    '  // Registered DBA / trade name (backfilled by rename_site_sync.py '
+    'on old scaffolds).\n  dbaName: "",\n')
+
+
 def sync_one(slug: str, cid: str, co: dict, dry_run: bool,
              no_deploy: bool) -> str | None:
     ints = co.get("integration_settings") or {}
@@ -83,8 +110,8 @@ def sync_one(slug: str, cid: str, co: dict, dry_run: bool,
     verified = bool(ri.get("dba_verified") or ri.get("dba_verified_at"))
     if not (filed and verified):
         return None
-    if ri.get("site_synced_at"):
-        return None  # already carried to the site
+    if ri.get("site_sync_hold"):
+        return f"{slug}: site sync HELD — {ri['site_sync_hold']}"
 
     brand_path = ROOT / "sites" / slug / "src" / "lib" / "brand.ts"
     if not brand_path.exists():
@@ -93,8 +120,21 @@ def sync_one(slug: str, cid: str, co: dict, dry_run: bool,
     if "{{BRAND_" in src:
         return f"{slug}: SKIP (unsubstituted scaffold tokens)"
     if "dbaName" not in src:
-        return (f"{slug}: SKIP — brand.ts predates the dbaName field; "
-                "re-port the template legal surfaces to this site")
+        # OLD SCAFFOLD BACKFILL (Kenny 2026-09-19: the silent skip left his
+        # site unsynced behind a green-looking pipeline). Insert the field
+        # after displayName; schema/footer consumption still needs the
+        # template port, so say so LOUDLY instead of skipping quietly.
+        m = re.search(r'(\bdisplayName:\s*"[^"]*",\n)', src)
+        if not m:
+            return (f"{slug}: OLD SCAFFOLD — could not backfill dbaName "
+                    "(no displayName anchor); port the template legal "
+                    "surfaces to this site by hand")
+        src = src[:m.end()] + _DBA_FIELD_TMPL + src[m.end():]
+        if not dry_run:
+            brand_path.write_text(src)
+        print(f"  {slug}: OLD SCAFFOLD — dbaName field backfilled; footer/"
+              "schema still consume displayName only — port the template "
+              "legal surfaces to finish")
 
     dba = _display_case(cid, filed)
     legal = (co.get("legal_business_name") or "").strip() \
@@ -108,17 +148,23 @@ def sync_one(slug: str, cid: str, co: dict, dry_run: bool,
     if _DBA_RE.search(src).group(2) != dba:
         changes.append(f'dbaName -> "{dba[:60]}..."' if len(dba) > 60
                        else f'dbaName -> "{dba}"')
-    if _LEGAL_RE.search(src).group(2) != legal:
+    if _LEGAL_RE.search(src) and _LEGAL_RE.search(src).group(2) != legal:
         changes.append(f'legalName -> "{legal}"')
+    llms_changed = _llms_patch(slug, dba, legal, dry_run)
+    if llms_changed:
+        changes.append("llms.txt DBA line")
     if not changes:
+        if ri.get("site_synced_at"):
+            return None  # fully carried already, llms included
         return f"{slug}: brand.ts already carries the DBA"
     verdict = f"{slug}: {'; '.join(changes)}"
     if dry_run:
         return verdict + "  [dry-run]"
 
     src = _DBA_RE.sub(lambda m: m.group(1) + dba + m.group(3), src, count=1)
-    src = _LEGAL_RE.sub(lambda m: m.group(1) + legal + m.group(3), src,
-                        count=1)
+    if _LEGAL_RE.search(src):
+        src = _LEGAL_RE.sub(lambda m: m.group(1) + legal + m.group(3), src,
+                            count=1)
     brand_path.write_text(src)
 
     rec_path = ROOT / "clients" / f"{slug}.json"
@@ -132,11 +178,12 @@ def sync_one(slug: str, cid: str, co: dict, dry_run: bool,
 
     deployed = False
     if on_main and not no_deploy:
-        rel = f"sites/{slug}/src/lib/brand.ts"
-        _git(["add", rel])
+        rels = [f"sites/{slug}/src/lib/brand.ts",
+                f"sites/{slug}/public/llms.txt"]
+        _git(["add", *rels])
         _git(["commit", "-m",
-              f"{slug}: DBA on legal surfaces (footer + schema) [automated]",
-              "--", rel])
+              f"{slug}: DBA on legal surfaces (footer + schema + llms.txt) "
+              "[automated]", "--", *rels])
         r = subprocess.run(
             [sys.executable, str(ROOT / "scripts" / "build_site.py"),
              "sync-deploy", "--slug", slug, "--branch", "main",

@@ -150,9 +150,26 @@ def check_citation_stall() -> list[str]:
     except Exception:  # noqa: BLE001
         return issues
     for cid, e in (kv.get("clients") or kv).items():
-        if not isinstance(e, dict) or e.get("stage") != "citations_building":
+        if not isinstance(e, dict):
             continue
         slug = e.get("slug") or cid
+        # dba_on_file = the honest stage for this exact state (2026-09-19
+        # split); flag it once it lingers past 2 days. Keep the old
+        # citations_building/no-order check as a belt-and-suspenders.
+        if e.get("stage") == "dba_on_file":
+            since = str(e.get("since") or "")[:10]
+            try:
+                age = (NOW.date()
+                       - datetime.fromisoformat(since).date()).days
+            except ValueError:
+                age = 99
+            if age >= 2:
+                issues.append(
+                    f"citation stall: {slug} DBA on file {age}d with no "
+                    "citation order — click Order on the rename card")
+            continue
+        if e.get("stage") != "citations_building":
+            continue
         try:
             bl = json.loads((ROOT / "clients" / f"{slug}.json")
                             .read_text()).get("brightlocal") or {}

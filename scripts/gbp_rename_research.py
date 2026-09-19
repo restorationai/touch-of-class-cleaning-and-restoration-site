@@ -128,6 +128,12 @@ Rules: max 3 service lanes per name; ampersand allowed; NEVER an em dash;
 no city names inside the name; no superlatives; every phrase must map to a
 service they actually sell; keep the strongest exact search phrases intact
 and early (display truncates around 35-40 characters).
+HARD LIMIT: the full name must be 90 characters or fewer. Directory and
+citation platforms reject or truncate longer names, and the name must
+print IDENTICALLY on every surface (GBP, citations, site). Count before
+you answer. House standard: the word "and", never "&" (DBA portals
+normalize special characters unpredictably) — when a name runs long,
+shorten or drop a service lane instead of reaching for "&".
 
 Return STRICT JSON only:
 {{"candidates": [{{"name": str, "confidence": float 0.5-0.95, "reason": str (one sentence naming the volumes/pattern that justify it)}}]}}
@@ -158,6 +164,13 @@ Return STRICT JSON only:
     for c in cands[:4]:
         name = re.sub(r"\s*[—–]\s*", " - ", str(c.get("name", ""))).strip()
         if not name.lower().startswith(base.lower()[:12]) or name.lower() in existing:
+            continue
+        if len(name) > 90:
+            # HARD CAP (Santino 2026-09-19): >90 breaks BrightLocal + many
+            # directories, and the name must print identically everywhere.
+            # No "&" rescue — house standard is the word "and" (09-14);
+            # an overlong name simply doesn't make the slate.
+            print(f"  [len {len(name)}>90 — REJECTED] {name}")
             continue
         print(f"  [{c.get('confidence')}] {name}\n      {c.get('reason')}")
         if dry:

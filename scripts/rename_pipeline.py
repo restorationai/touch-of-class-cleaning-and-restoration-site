@@ -15,7 +15,10 @@ STAGES (the client's journey, in order):
   researched         candidates seeded, conversation not opened
   outreach           pitch sent / options out — client is choosing
   name_locked        name chosen/confirmed — waiting on their DBA filing
-  citations_building DBA verified — listings being built under the name
+  dba_on_file        DBA verified, NO citation order yet — a human must
+                     click Order (Santino 2026-09-19: Kenny + Heritage sat
+                     invisible behind an aspirational "citations building")
+  citations_building citation order actually EXISTS — listings being built
   ready_for_rename   citations live — the one-time GBP change can happen
                      (NEVER auto-executed: Amin law, human clicks)
   renamed_verifying  GBP renamed — watching Google verification
@@ -59,8 +62,49 @@ def _now() -> str:
     return datetime.now(timezone.utc).isoformat()
 
 
+def _bl_order_placed(slug: str | None) -> bool:
+    """Evidential order signal: clients/{slug}.json brightlocal.ordered_at,
+    stamped by brightlocal.py the moment credits are actually spent. The
+    old derivation treated dba_verified alone as 'citations building' —
+    aspirational, and exactly how Kenny + Heritage went invisible."""
+    if not slug:
+        return False
+    try:
+        c = json.loads((ROOT / "clients" / f"{slug}.json").read_text())
+        return bool((c.get("brightlocal") or {}).get("ordered_at"))
+    except Exception:  # noqa: BLE001 — unknown reads as not ordered
+        return False
+
+
+def _site_dba_live(slug: str | None, dba: str | None) -> dict:
+    """Live verification of the site surfaces (Santino 2026-09-19: 'a visual
+    verifier that the site gets updated as well'). A stamp can lie (Kenny's
+    site was silently skipped behind one); fetching the deployed page and
+    finding the DBA in the JSON-LD cannot. Returns {'synced': stamp-level
+    truth is added by the caller, 'live': bool, 'checked': url} — errors
+    read as not-live, never as a crash."""
+    if not (slug and dba):
+        return {"live": False}
+    try:
+        c = json.loads((ROOT / "clients" / f"{slug}.json").read_text())
+    except Exception:  # noqa: BLE001
+        c = {}
+    dom = str(c.get("domain") or "").strip().lower()
+    urls = ([f"https://{dom}/"] if dom and c.get("apex_live") else []) + \
+        [f"https://rankai-{slug}.pages.dev/"]
+    import requests as _rq
+    norm = lambda t: " ".join(str(t).lower().split())  # noqa: E731
+    for u in urls:
+        try:
+            html = _rq.get(u, timeout=12).text
+        except Exception:  # noqa: BLE001
+            continue
+        return {"live": norm(dba) in norm(html), "checked": u}
+    return {"live": False}
+
+
 def derive(co: dict, sugs: list[dict], convo: dict | None,
-           bl_ordered: list[dict]) -> dict:
+           bl_ordered: list[dict], ordered: bool = False) -> dict:
     ri = (co.get("integration_settings") or {}).get("rename_intent") or {}
     stage = "not_started"
     detail: dict = {}
@@ -90,11 +134,13 @@ def derive(co: dict, sugs: list[dict], convo: dict | None,
     elif ri.get("gbp_renamed_at"):
         stage = "renamed_verifying"
         detail["renamed_at"] = ri["gbp_renamed_at"]
-    elif ri.get("dba_verified") and len(live) >= min(
+    elif ri.get("dba_verified") and bl_ordered and len(live) >= min(
             MIN_LIVE_FOR_READY, max(len(bl_ordered), 1)):
         stage = "ready_for_rename"
-    elif ri.get("dba_verified"):
+    elif ri.get("dba_verified") and (ordered or bl_ordered):
         stage = "citations_building"
+    elif ri.get("dba_verified"):
+        stage = "dba_on_file"
     elif chosen or kv_stage in ("confirmed", "awaiting_dba"):
         stage = "name_locked"
     elif kv_stage in ("pitched", "options"):
@@ -303,9 +349,20 @@ def main() -> int:
         if a.slug and slug != a.slug:
             continue
         d = derive(co, sugs_by.get(cid, []), convo_by.get(cid),
-                   bl_by.get(cid, []))
+                   bl_by.get(cid, []), ordered=_bl_order_placed(slug))
         if d["stage"] == "not_started" and cid not in prev_clients:
             continue  # keep the map tight: only clients in the program
+        # SITE ROLLOUT CHIP (2026-09-19): stamp + live verification, only
+        # once a DBA exists — the board shows 'Site updated' green ONLY
+        # when the deployed page really carries the new name.
+        if d["stage"] in ("dba_on_file", "citations_building",
+                          "ready_for_rename", "renamed_verifying",
+                          "live_verified"):
+            ri_ = (co.get("integration_settings") or {}) \
+                .get("rename_intent") or {}
+            site = _site_dba_live(slug, d.get("chosen") or ri_.get("dba_name"))
+            site["synced"] = bool(ri_.get("site_synced_at"))
+            d["site"] = site
         old = prev_clients.get(cid) or {}
         d["since"] = (old.get("since") if old.get("stage") == d["stage"]
                       else _now())

@@ -8,6 +8,16 @@ name discussion never has to be reconstructed from chat history again.
 
 ## Method (settled 2026-09-09/10)
 
+- **HARD 90-CHARACTER CAP (LAW 2026-09-19)**: every candidate name must be
+  90 characters or fewer, counted exactly. BrightLocal's platform rejects
+  longer business names outright and many directories truncate near the
+  same range — and the name must print IDENTICALLY on every surface (GBP,
+  citations, site, llms.txt). Kenny's 94-char chosen name 400'd his whole
+  citation order; FF Solutions confirmed a 91-char name and needed a
+  pre-filing correction SMS. Use "&" instead of "and" to save characters.
+  The researcher (gbp_rename_research.py) enforces this at generation;
+  anything hand-written gets counted before it is pitched.
+
 - **Proof case**: OneStop Plumbers, Corona — CSLB #951907 registered under
   the keyworded name; they outrank on brand+keyword blend. The playbook
   works when the paper trail matches the name.

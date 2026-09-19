@@ -160,6 +160,89 @@ def process_refreshes(dry: bool) -> None:
             prefer="resolution=merge-duplicates")
 
 
+SITESYNC_KV = "rename-site-sync-queue"
+ORDER_KV = "rename-citation-order-queue"
+
+
+def _process_action_queue(kv_key: str, label: str, run_cmd, dry: bool) -> None:
+    """Shared processor for the rename card's action buttons (Santino
+    2026-09-19: Update-site + Order-citations are explicit human clicks;
+    the worker just executes them through the real scripts). run_cmd(slug)
+    returns the argv to execute; success = returncode 0."""
+    rows = _sb("GET", f"/rest/v1/ops_kv?k=eq.{kv_key}&select=v") or []
+    q = (rows[0].get("v") if rows else {}) or {}
+    changed = False
+    for cid, entry in list(q.items()):
+        if entry.get("status") != "queued":
+            try:
+                done = entry.get("finished_at")
+                if done and (_now() - datetime.fromisoformat(done)).days >= PRUNE_DAYS:
+                    del q[cid]; changed = True
+            except Exception:  # noqa: BLE001
+                pass
+            continue
+        if dry:
+            print(f"  {label} {entry.get('slug') or cid} [dry-run]")
+            continue
+        slug = entry.get("slug") or ""
+        try:
+            r = subprocess.run(run_cmd(slug), capture_output=True, text=True,
+                               timeout=1200, cwd=str(ROOT))
+            tail = "\n".join(((r.stdout or "") + (r.stderr or ""))
+                             .strip().splitlines()[-3:])[:300]
+            entry["status"] = "done" if r.returncode == 0 else "failed"
+            entry["detail"] = tail
+        except Exception as e:  # noqa: BLE001
+            entry["status"] = "failed"
+            entry["detail"] = str(e)[:300]
+        entry["finished_at"] = _now().isoformat()
+        q[cid] = entry
+        changed = True
+        print(f"  {label} {slug or cid}: {entry['status']} "
+              f"({entry['detail'][:120]})")
+        subprocess.run([sys.executable,
+                        str(ROOT / "scripts" / "rename_pipeline.py")],
+                       capture_output=True, timeout=300, cwd=str(ROOT))
+    if changed and not dry:
+        _sb("POST", "/rest/v1/ops_kv?on_conflict=k", {"k": kv_key, "v": q},
+            prefer="resolution=merge-duplicates")
+
+
+def process_site_syncs(dry: bool) -> None:
+    """App 'Update site' clicks — clears any site_sync_hold implicitly? NO:
+    the hold is a deliberate name-decision gate; the sync script refuses
+    while it stands, and that refusal surfaces in the card detail."""
+    _process_action_queue(
+        SITESYNC_KV, "site-sync",
+        lambda slug: [sys.executable,
+                      str(ROOT / "scripts" / "rename_site_sync.py"),
+                      "--slug", slug], dry)
+
+
+def process_citation_orders(dry: bool) -> None:
+    """App 'Order citations' clicks — the ONE sanctioned credit-spend path
+    (Santino 2026-09-19: spends always ride an explicit human click).
+    Runs setup when the campaign is missing, then the cb25 order; the
+    rename gate inside brightlocal.py still has final say."""
+    def cmd(slug):
+        import json as _j
+        bl = {}
+        try:
+            bl = (_j.loads((ROOT / "clients" / f"{slug}.json").read_text())
+                  .get("brightlocal") or {})
+        except Exception:  # noqa: BLE001
+            pass
+        if not bl.get("campaign_id"):
+            subprocess.run([sys.executable,
+                            str(ROOT / "scripts" / "brightlocal.py"),
+                            "setup", "--slug", slug, "--apply"],
+                           capture_output=True, text=True, timeout=600,
+                           cwd=str(ROOT))
+        return [sys.executable, str(ROOT / "scripts" / "brightlocal.py"),
+                "order", "--slug", slug, "--package", "cb25", "--apply"]
+    _process_action_queue(ORDER_KV, "citation-order", cmd, dry)
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
@@ -168,6 +251,14 @@ def main() -> int:
         process_refreshes(a.dry_run)
     except Exception as e:  # noqa: BLE001 — refreshes never block pitches
         print(f"  refresh queue error: {str(e)[:150]}")
+    try:
+        process_site_syncs(a.dry_run)
+    except Exception as e:  # noqa: BLE001
+        print(f"  site-sync queue error: {str(e)[:150]}")
+    try:
+        process_citation_orders(a.dry_run)
+    except Exception as e:  # noqa: BLE001
+        print(f"  citation-order queue error: {str(e)[:150]}")
     q = _kv_get()
     if not q:
         return 0
