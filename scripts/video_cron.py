@@ -387,6 +387,9 @@ def main() -> int:
     ap.add_argument("--slug", help="One client (default: all connected, active clients)")
     ap.add_argument("--dry-run", action="store_true",
                     help="Show what it would make; render nothing, save no state")
+    ap.add_argument("--list-due", action="store_true",
+                    help="print JSON slugs with video work due (per-client "
+                         "matrix fan-out, Santino 2026-09-19) and exit")
     ap.add_argument("--budget-min", type=int, default=0,
                     help="wall-clock budget: stop cleanly (exit 0) before "
                          "starting a video that would not fit. Turns the "
@@ -400,6 +403,20 @@ def main() -> int:
 
     slugs = [args.slug] if args.slug else active_clients()
     connected = connected_company_ids()
+    if args.list_due:
+        import json as _json
+        due = []
+        for slug in slugs:
+            cid = _company_id_for(slug)
+            if cid not in connected or not has_publishable_channel(slug):
+                continue
+            try:
+                if plan_next(slug, load_state(slug)):
+                    due.append(slug)
+            except Exception:  # noqa: BLE001 — a broken ledger read isn't "due"
+                pass
+        print(_json.dumps(sorted(due)))
+        return 0
     print(f"==> Video cron: {len(slugs)} client(s) | {len(connected)} with YouTube connected"
           f" | cadence blog->geo->geo | mode: {'DRY-RUN' if args.dry_run else 'LIVE'}\n")
 

@@ -62,6 +62,9 @@ WORKFLOW_DISPATCH_JOBS = [
     # very day the sharded AI scanner was due to stamp its first heartbeat).
     # {0,3} = Mon+Thu, matching the workflow's own cron days.
     ("weekly-maint", "weekly-maintenance.yml", ["16:00"], {0, 3}, {}),
+    # Video lane, Mon/Wed/Fri 16:00 (2026-09-19: same cron-drop insurance
+    # as every other production lane).
+    ("video", "video-automation.yml", ["16:00"], {0, 2, 4}, {}),
 ]
 # How long after a slot we still fire a missed dispatch (worker restarts).
 DISPATCH_CATCHUP = timedelta(hours=3)

@@ -1,16 +1,18 @@
 name: Rank AI Video Automation
 
-# Paced video generation: for each active client that has CONNECTED their YouTube
-# channel in the app, produce AT MOST ONE video per run on the blog->geo->geo
-# cadence (Mon = blog video for the next post without one, Wed/Fri = geo
-# local-ranker videos from the service x city matrix) = 1 blog + 2 geo per
-# client per week. Cadence state: clients/{slug}/video-state.json. Upload
-# privacy honours the per-client video_publish_mode (default unlisted).
-# No-ops for clients who haven't connected YouTube.
+# Paced video generation, PER-CLIENT FAN-OUT (Santino 2026-09-19: "per-client
+# basis for all of our systems"). A cheap plan job lists every connected
+# client with video work due, then ONE isolated job renders + publishes that
+# client's single video (blog->geo->geo cadence, at most one per run). Fleet
+# growth adds parallel jobs, never queue depth — the 3-hour timeout saga
+# (16/18/24-video bulk runs cancelled mid-render) is structurally dead: each
+# job owns a 35-minute clock for its one ~7-25 min video.
+# Cadence state: clients/{slug}/video-state.json, committed per client with
+# rebase-retry. Upload privacy honours per-client video_publish_mode.
 on:
   schedule:
-    - cron: '0 16 * * 1,3,5'   # Mon/Wed/Fri, 9 am PDT / 8 am PST (Mon run follows the content cron)
-  workflow_dispatch:         # manual trigger for testing
+    - cron: '0 16 * * 1,3,5'   # Mon/Wed/Fri, 9 am PDT / 8 am PST
+  workflow_dispatch:
     inputs:
       slug:
         description: 'Optional: run for one client slug only'
@@ -20,39 +22,68 @@ on:
         type: boolean
         default: false
 
-jobs:
-  videos:
-    runs-on: ubuntu-latest
-    # 180 not 120 (2026-09-18): the fixed pipeline PRODUCES steadily
-    # (~7 min/video — 16 published in the last 2h window before the old cap
-    # cancelled it). With 3 weeks of backfill in the roster, 120 was a
-    # budget problem wearing a timeout's face.
-    timeout-minutes: 180
+concurrency:
+  group: video-automation
+  cancel-in-progress: false
 
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    outputs:
+      slugs: ${{ steps.due.outputs.slugs }}
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: List due clients
+        id: due
+        env:
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          GOOGLE_OAUTH_CLIENT_ID:     ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
+          GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
+        run: |
+          SLUG="${{ github.event.inputs.slug }}"
+          if [ -n "$SLUG" ]; then
+            echo "slugs=[\"$SLUG\"]" >> "$GITHUB_OUTPUT"
+          else
+            echo "slugs=$(python3 scripts/video_cron.py --list-due)" >> "$GITHUB_OUTPUT"
+          fi
+
+  video:
+    needs: plan
+    if: ${{ needs.plan.outputs.slugs != '[]' && needs.plan.outputs.slugs != '' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    strategy:
+      fail-fast: false
+      max-parallel: 5
+      matrix:
+        slug: ${{ fromJSON(needs.plan.outputs.slugs) }}
+    steps:
+      - uses: actions/checkout@v4
         with:
           token: ${{ secrets.GH_PAT }}
           fetch-depth: 0
-
-      - name: Set up Python 3.11
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
+          cache: pip
       - name: Install ffmpeg
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
-
-      - name: Install Python dependencies
-        run: pip install -r requirements.txt
-
+      - run: pip install -r requirements.txt
       - name: Configure git identity
         run: |
           git config user.email "ops@restorationai.io"
           git config user.name "Rank AI Bot"
-
-      - name: Run paced video automation
+      - name: Make video for ${{ matrix.slug }}
+        timeout-minutes: 32
         env:
           ANTHROPIC_API_KEY:            ${{ secrets.ANTHROPIC_API_KEY }}
           GOOGLE_AI_API_KEY:            ${{ secrets.GOOGLE_AI_API_KEY }}
@@ -67,23 +98,21 @@ jobs:
           CLOUDFLARE_PAGES_API_TOKEN:   ${{ secrets.CLOUDFLARE_PAGES_API_TOKEN }}
           GITHUB_PERSONAL_ACCESS_TOKEN: ${{ secrets.GH_PAT }}
         run: |
-          python3 -u scripts/video_cron.py --budget-min 170 \
-            ${{ github.event.inputs.slug && format('--slug {0}', github.event.inputs.slug) || '' }} \
+          python3 -u scripts/video_cron.py --slug "${{ matrix.slug }}" \
             ${{ github.event.inputs.dry_run == 'true' && '--dry-run' || '' }}
 
-      - name: Commit any frontmatter/state changes
+      - name: Commit state for ${{ matrix.slug }}
+        if: always()
         run: |
-          git add clients/ sites/ 2>/dev/null || true
+          git add "clients/${{ matrix.slug }}" "sites/${{ matrix.slug }}" 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "Nothing to commit."
           else
-            git commit -m "chore: video automation run $(date +%Y-%m-%d) [automated]"
-            # rebase-retry (2026-09-18: a 90-min run raced main and the bare
-            # push failed the whole run AFTER 24 videos published cleanly)
-            for i in 1 2 3; do
+            git commit -m "chore: video ${{ matrix.slug }} $(date +%Y-%m-%d) [automated]"
+            for i in 1 2 3 4 5; do
               git pull --rebase --autostash origin main || true
               git push && break
-              sleep 5
+              sleep $((RANDOM % 15 + 5))
             done
           fi
 
@@ -93,5 +122,5 @@ jobs:
           SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
         run: |
           python3 scripts/notify_failure.py \
-            --subject "[Rank AI] CI failure: Video Automation run #${{ github.run_number }}" \
+            --subject "[Rank AI] video automation failed for ${{ matrix.slug }}" \
             --run-url "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" || true
