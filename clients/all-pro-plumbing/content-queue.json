@@ -559,7 +559,7 @@
     },
     {
       "id": "2026-08-17-do-plumbers-give-free-estimates",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-17T17:38:35Z",
       "written_at": null,
       "post_url": null,
@@ -594,8 +594,7 @@
         "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/"
       ],
       "notes": "Trust and pricing-transparency topic that also captures the transactional 'plumber near me free estimate' cluster (2,900/mo) which has no commercial page of its own. Explain the real distinction honestly: a quote on visible, straightforward work is usually free, while diagnostic work that takes time and equipment (leak detection, camera inspection) normally carries a fee that is often credited to the repair. Complements /blog/how-to-find-a-good-plumber/ (vetting) and /blog/how-much-does-a-plumber-cost-per-hour/ (rates) rather than repeating them. Do not state All Pro's own estimate policy unless it is confirmed in plan-input. LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor) and link the CSLB lookup. SCOPE GATE: stay on stopping the water and fixing the pipe. Do not mention mold remediation, structural drying or reconstruction (restoration vertical, sister company ProRestoration Services).",
-      "source": "rank-ai-keyword-researcher",
-      "banked_at": "2026-09-17T22:13:26.010000+00:00"
+      "source": "rank-ai-keyword-researcher"
     },
     {
       "id": "2026-08-26-should-i-tip-a-plumber",

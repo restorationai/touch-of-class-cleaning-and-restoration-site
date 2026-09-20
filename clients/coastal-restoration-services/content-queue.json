@@ -368,7 +368,7 @@
     },
     {
       "id": "2026-08-17-water-damage-restoration-equipment",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-17T17:55:00Z",
       "written_at": null,
       "post_url": null,
@@ -401,8 +401,7 @@
         "https://www.iicrc.org/page/IICRCS500",
         "https://www.epa.gov/mold/mold-cleanup-your-home"
       ],
-      "notes": "Lead with what the homeowner actually sees on day one: air movers, LGR dehumidifiers, moisture meters, thermal cameras. Tie to Coastal's ASD (Applied Structural Drying) certification. Explain why DIY box fans push moisture into wall cavities instead of removing it. Good AI-retrieval passage target: a plain table of equipment, what it does, how long it runs.",
-      "banked_at": "2026-09-17T22:13:26.011923+00:00"
+      "notes": "Lead with what the homeowner actually sees on day one: air movers, LGR dehumidifiers, moisture meters, thermal cameras. Tie to Coastal's ASD (Applied Structural Drying) certification. Explain why DIY box fans push moisture into wall cavities instead of removing it. Good AI-retrieval passage target: a plain table of equipment, what it does, how long it runs."
     },
     {
       "id": "2026-08-17-water-damage-restoration-process",

@@ -264,7 +264,7 @@
     },
     {
       "id": "2026-08-27-water-damage-restoration-cost",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-27T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -295,8 +295,7 @@
       "external_authority_candidates": [
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "Highest-value uncovered term this run: 880/mo, KD 3, CPC $14.73. No commercial URL targets pricing. Break cost out by category 1/2/3 water and by affected square footage, and give a Las Vegas Valley range rather than a national average. Pairs with the already-queued 'best water damage restoration company in Henderson, NV' item: link the two.",
-      "banked_at": "2026-09-17T22:13:26.021349+00:00"
+      "notes": "Highest-value uncovered term this run: 880/mo, KD 3, CPC $14.73. No commercial URL targets pricing. Break cost out by category 1/2/3 water and by affected square footage, and give a Las Vegas Valley range rather than a national average. Pairs with the already-queued 'best water damage restoration company in Henderson, NV' item: link the two."
     },
     {
       "id": "2026-08-27-category-3-water-damage",

@@ -250,7 +250,7 @@
     },
     {
       "id": "2026-09-03-water-damage-restoration-process",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-03T20:29:00Z",
       "written_at": null,
       "post_url": null,
@@ -284,8 +284,7 @@
         "https://www.iicrc.org/page/IICRCS500"
       ],
       "notes": "Sister post to the existing fire damage restoration process article, so the water side gets the same treatment. Walk the IICRC S500 sequence: inspection and moisture mapping, extraction, controlled demolition, drying and dehumidification, monitoring to dry standard, reconstruction. Mention DRYCOR's IICRC WRT credential and 24/7 response.",
-      "source": "keyword-researcher",
-      "banked_at": "2026-09-17T22:13:26.016775+00:00"
+      "source": "keyword-researcher"
     },
     {
       "id": "2026-09-03-how-soon-can-mold-grow-after-water-damage",

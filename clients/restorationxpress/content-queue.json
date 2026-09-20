@@ -911,7 +911,7 @@
     },
     {
       "id": "2026-08-28-burst-pipe-cleanup",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-28T01:12:00Z",
       "written_at": null,
       "post_url": null,
@@ -944,8 +944,7 @@
       "external_authority_candidates": [
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "Transactional, KD 0, 590/mo, CPC 11.71. This one converts: the reader already has water on the floor. Structure it as the actual mitigation sequence (extraction, demo of unsalvageable materials, air movers and dehumidifiers, moisture mapping, clearance readings) with realistic timelines. Distinguish it from the planned /blog/burst-pipe-emergency-checklist/ post, which covers the homeowner's first-hour actions: this post picks up where that one ends. Cross-link the two.",
-      "banked_at": "2026-09-17T22:13:26.026819+00:00"
+      "notes": "Transactional, KD 0, 590/mo, CPC 11.71. This one converts: the reader already has water on the floor. Structure it as the actual mitigation sequence (extraction, demo of unsalvageable materials, air movers and dehumidifiers, moisture mapping, clearance readings) with realistic timelines. Distinguish it from the planned /blog/burst-pipe-emergency-checklist/ post, which covers the homeowner's first-hour actions: this post picks up where that one ends. Cross-link the two."
     },
     {
       "id": "2026-08-28-does-homeowners-insurance-cover-plumbing-leaks",

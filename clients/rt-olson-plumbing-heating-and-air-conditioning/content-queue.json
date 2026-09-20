@@ -231,7 +231,7 @@
     },
     {
       "id": "2026-08-28-should-i-tip-a-plumber",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-28T01:35:00Z",
       "written_at": null,
       "post_url": null,
@@ -262,8 +262,7 @@
       "city_anchor": null,
       "external_authority_candidates": [],
       "notes": "2,400/mo at KD 0 and zero competition (competition_index 1): the cheapest win in this seed. Low direct dispatch value, high trust and AI-answer value, and it lands people on the site while they already have a plumber in the house. Answer the question in the first 40 words (no, tipping is not expected; cash tips on holidays or brutal after-hours calls are appreciated but never required), then pivot to the alternatives that actually help a local shop: a Google review, referrals, cold drinks. Point the review CTA at the GBP review link on file.",
-      "source": "rank-ai-keyword-researcher",
-      "banked_at": "2026-09-17T22:13:26.027358+00:00"
+      "source": "rank-ai-keyword-researcher"
     }
   ]
 }

@@ -258,7 +258,7 @@
     },
     {
       "id": "2026-09-03-what-happens-during-a-mold-inspection",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-03T19:32:00Z",
       "written_at": null,
       "post_url": null,
@@ -292,8 +292,7 @@
       ],
       "notes": "Low Google volume, high AI-retrieval value: ChatGPT structured its entire mold-inspection answer around this sequence (interview and history, visual inspection, moisture meter and thermal imaging, hidden-source investigation, sampling only if warranted, written report). Mirror those six stages as H2s so the passages are liftable. Add a Kingsburg and Fresno County note on what inspectors check in slab-on-grade homes and swamp-cooler humidity.",
       "source": "keyword-researcher",
-      "seed": "mold inspection",
-      "banked_at": "2026-09-17T22:13:26.010882+00:00"
+      "seed": "mold inspection"
     },
     {
       "id": "2026-09-03-does-homeowners-insurance-cover-mold-testing",

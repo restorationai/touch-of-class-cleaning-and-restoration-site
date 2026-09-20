@@ -1137,7 +1137,7 @@
     },
     {
       "id": "2026-09-10-storm-damage-insurance-claim",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-10T20:25:00Z",
       "written_at": null,
       "post_url": null,
@@ -1171,8 +1171,7 @@
         "https://www.ncdoi.gov/consumers/disaster/how-deal-aftermath-disaster",
         "https://www.ncdoi.gov/documents/consumer/publications/after-disaster-brochure/open"
       ],
-      "notes": "KD 4 with a 21 dollar CPC: the ads side is paying for this intent, so own it organically. Structure as the actual sequence: photograph everything before touching it, make temporary repairs only (tarp, board up, extract standing water) and keep receipts, do not make permanent repairs until the adjuster has agreed scope. Note that mitigation is a policy DUTY, so delaying drying can reduce the payout, which is the honest reason to call fast. Same-topic siblings 'how to file a storm damage insurance claim' stay in the bank as H2s.",
-      "banked_at": "2026-09-17T22:13:26.019188+00:00"
+      "notes": "KD 4 with a 21 dollar CPC: the ads side is paying for this intent, so own it organically. Structure as the actual sequence: photograph everything before touching it, make temporary repairs only (tarp, board up, extract standing water) and keep receipts, do not make permanent repairs until the adjuster has agreed scope. Note that mitigation is a policy DUTY, so delaying drying can reduce the payout, which is the honest reason to call fast. Same-topic siblings 'how to file a storm damage insurance claim' stay in the bank as H2s."
     },
     {
       "id": "2026-09-10-what-to-do-after-storm-damage",

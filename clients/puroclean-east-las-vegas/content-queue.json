@@ -1038,7 +1038,7 @@
     },
     {
       "id": "2026-08-27-does-homeowners-insurance-cover-wind-damage",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-27T05:45:00Z",
       "written_at": null,
       "post_url": null,
@@ -1071,8 +1071,7 @@
         "https://www.weather.gov/vef/monsoon",
         "https://www.iii.org/article/what-is-covered-by-standard-homeowners-policy"
       ],
-      "notes": "170/mo, KD 19. Scope guard for the writer: PuroClean of East Las Vegas does NOT do roofing. Cover wind damage from the interior-damage angle only (wind lifts tile or flashing, rain gets in, ceiling and drywall soak, mold follows in 24 to 48 hours). Point roof repair itself at a roofer and keep the CTA on water intrusion drying and mold prevention. Las Vegas monsoon microbursts routinely hit 60 to 80 mph, which is the local hook.",
-      "banked_at": "2026-09-17T22:13:26.024780+00:00"
+      "notes": "170/mo, KD 19. Scope guard for the writer: PuroClean of East Las Vegas does NOT do roofing. Cover wind damage from the interior-damage angle only (wind lifts tile or flashing, rain gets in, ceiling and drywall soak, mold follows in 24 to 48 hours). Point roof repair itself at a roofer and keep the CTA on water intrusion drying and mold prevention. Las Vegas monsoon microbursts routinely hit 60 to 80 mph, which is the local hook."
     },
     {
       "id": "2026-08-27-hidden-water-damage-after-a-storm",
