@@ -1,0 +1,121 @@
+{
+  "items": [
+    {
+      "id": "2026-09-20-best-water-damage-restoration-in-north-las-vegas-nv",
+      "status": "written",
+      "queued_at": "2026-09-20T10:25:37Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "best_of_comparison",
+      "combo_key": "best-water-damage-restoration-in-north-las-vegas-nv",
+      "primary_keyword": "best water damage restoration company in North Las Vegas, NV",
+      "intent": "commercial",
+      "target_word_count": 1600,
+      "city_anchor": "north-las-vegas-nv",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "North Las Vegas",
+        "state": "NV",
+        "competitors": [
+          {
+            "name": "WFM Restoration LLC",
+            "google_rating": 4.9,
+            "review_count": 1069
+          },
+          {
+            "name": "911 Restoration of Las Vegas",
+            "google_rating": 5,
+            "review_count": 86
+          },
+          {
+            "name": "Elevate Restore",
+            "google_rating": 4.9,
+            "review_count": 188
+          },
+          {
+            "name": "SERVPRO of Northwest Las Vegas",
+            "google_rating": 4.9,
+            "review_count": 69
+          }
+        ]
+      },
+      "fan_out_cluster": [
+        "best water damage restoration companies North Las Vegas",
+        "top rated water damage restoration North Las Vegas NV",
+        "who is the best water damage restoration company in North Las Vegas",
+        "water damage cleanup North Las Vegas",
+        "water cleanup North Las Vegas",
+        "water removal North Las Vegas"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-09-20T10:28:55Z",
+      "post_url": "https://desertvalleycontracting.net/blog/best-water-damage-restoration-company-in-north-las-vegas-nv/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-north-las-vegas-nv.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "50 reviews",
+          "context": "rating and review volume**: A 4.9 with 50 reviews means something different than a 4.9 wi",
+          "reason": "listicle review-count 50 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-north-las-vegas-nv.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "000 reviews",
+          "context": "s something different than a 4.9 with 1,000 reviews. Both numbers matter. - **IICRC certifi",
+          "reason": "listicle review-count 0 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-north-las-vegas-nv.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "069 reviews",
+          "context": "toration LLC **Google Rating:** 4.9 (1,069 reviews) WFM Restoration LLC carries the highe",
+          "reason": "listicle review-count 69 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-north-las-vegas-nv.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "188 reviews",
+          "context": "levate Restore **Google Rating:** 4.9 (188 reviews) Elevate Restore holds a 4.9 rating ac",
+          "reason": "listicle review-count 188 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-north-las-vegas-nv.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "188 Google reviews",
+          "context": "evate Restore holds a 4.9 rating across 188 Google reviews, placing them in the upper tier by both",
+          "reason": "listicle review-count 188 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-north-las-vegas-nv.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "69 reviews",
+          "context": "west Las Vegas **Google Rating:** 4.9 (69 reviews) SERVPRO is one of the most recognized",
+          "reason": "listicle review-count 69 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-north-las-vegas-nv.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "69 Google reviews",
+          "context": "gas franchise holds a 4.9 rating across 69 Google reviews. SERVPRO franchises operate under a sta",
+          "reason": "listicle review-count 69 (competitor stat \u2014 verify it is not presented as ours)"
+        }
+      ]
+    }
+  ]
+}
