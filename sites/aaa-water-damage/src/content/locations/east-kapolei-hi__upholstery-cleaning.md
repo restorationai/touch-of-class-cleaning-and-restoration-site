@@ -8,7 +8,7 @@ secondary_keywords: ["sofa cleaning", "couch cleaning", "furniture steam cleanin
 search_intent: "local_specialty"
 priority: 2.8
 plan_hash: "4220838e34d88689"
-generated_at: "2026-09-20T18:58:25.496655+00:00"
+generated_at: "2026-09-20T19:16:56.950643+00:00"
 manual_override: false
 internal_links: ["/services/upholstery-cleaning/", "/service-areas/east-kapolei-hi/", "/service-areas/east-kapolei-hi/mold-remediation/", "/service-areas/east-kapolei-hi/water-damage-restoration/", "/service-areas/aiea-hi/upholstery-cleaning/", "/service-areas/aina-haina-hi/upholstery-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "East Kapolei", "url": "/service-areas/east-kapolei-hi/"}, {"name": "Upholstery Cleaning"}]

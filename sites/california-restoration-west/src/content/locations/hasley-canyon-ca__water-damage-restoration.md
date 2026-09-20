@@ -8,7 +8,7 @@ secondary_keywords: ["water removal", "water extraction", "water cleanup", "stru
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "598cdd3807d84f3d"
-generated_at: "2026-09-20T18:58:35.184466+00:00"
+generated_at: "2026-09-20T19:17:07.913093+00:00"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/hasley-canyon-ca/", "/service-areas/hasley-canyon-ca/mold-remediation/", "/service-areas/hasley-canyon-ca/storm-damage-restoration/", "/service-areas/camarillo-ca/water-damage-restoration/", "/service-areas/fillmore-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hasley Canyon", "url": "/service-areas/hasley-canyon-ca/"}, {"name": "Water Damage Restoration"}]

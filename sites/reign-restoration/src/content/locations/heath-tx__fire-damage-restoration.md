@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "cd0012a9d35a0bc9"
-generated_at: "2026-09-20T18:59:14.030960+00:00"
+generated_at: "2026-09-20T19:17:47.258555+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/heath-tx/", "/service-areas/heath-tx/mold-remediation/", "/service-areas/heath-tx/water-damage-restoration/", "/service-areas/allen-tx/fire-damage-restoration/", "/service-areas/caddo-mills-tx/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Heath", "url": "/service-areas/heath-tx/"}, {"name": "Fire Damage Restoration"}]

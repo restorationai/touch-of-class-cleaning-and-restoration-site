@@ -8,7 +8,7 @@ secondary_keywords: ["searchlight restoration company", "damage restoration sear
 search_intent: "local_commercial"
 priority: 4.8
 plan_hash: "1dc992df9b4f6eae"
-generated_at: "2026-09-20T18:59:01.122185+00:00"
+generated_at: "2026-09-20T19:17:34.108265+00:00"
 manual_override: false
 internal_links: ["/service-areas/", "/contact/", "/service-areas/searchlight-nv/fire-damage-restoration/", "/service-areas/searchlight-nv/mold-remediation/", "/service-areas/searchlight-nv/water-damage-restoration/", "/service-areas/searchlight-nv/sewage-cleanup/", "/service-areas/searchlight-nv/storm-damage-restoration/", "/service-areas/searchlight-nv/water-cleanup/", "/service-areas/searchlight-nv/biohazard-cleanup/", "/service-areas/searchlight-nv/contents-restoration/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/enterprise-nv/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Searchlight"}]

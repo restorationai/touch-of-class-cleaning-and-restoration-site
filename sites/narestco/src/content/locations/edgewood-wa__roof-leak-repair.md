@@ -8,7 +8,7 @@ secondary_keywords: ["roof leak cleanup", "ceiling water damage", "attic water d
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "efe4a6a7ee506003"
-generated_at: "2026-09-20T18:59:03.094745+00:00"
+generated_at: "2026-09-20T19:17:35.994207+00:00"
 manual_override: false
 internal_links: ["/services/roof-leak-repair/", "/service-areas/edgewood-wa/", "/service-areas/edgewood-wa/fire-damage-restoration/", "/service-areas/edgewood-wa/mold-remediation/", "/service-areas/algona-wa/roof-leak-repair/", "/service-areas/auburn-wa/roof-leak-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Edgewood", "url": "/service-areas/edgewood-wa/"}, {"name": "Roof Leak Cleanup and Repair"}]

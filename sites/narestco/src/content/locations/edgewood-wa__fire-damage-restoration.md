@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "84f7d0cf9dca1a15"
-generated_at: "2026-09-20T18:59:03.095120+00:00"
+generated_at: "2026-09-20T19:17:35.994363+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/edgewood-wa/", "/service-areas/edgewood-wa/mold-remediation/", "/service-areas/edgewood-wa/water-damage-restoration/", "/service-areas/algona-wa/fire-damage-restoration/", "/service-areas/auburn-wa/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Edgewood", "url": "/service-areas/edgewood-wa/"}, {"name": "Fire Damage Restoration"}]

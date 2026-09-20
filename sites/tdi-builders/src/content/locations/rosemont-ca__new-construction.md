@@ -8,7 +8,7 @@ secondary_keywords: ["custom home builder", "new home builder", "build a house",
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "6a0c7e0988924c0b"
-generated_at: "2026-09-20T18:59:20.252599+00:00"
+generated_at: "2026-09-20T19:17:53.764699+00:00"
 manual_override: false
 internal_links: ["/services/new-construction/", "/service-areas/rosemont-ca/", "/service-areas/rosemont-ca/home-remodeling/", "/service-areas/rosemont-ca/bathroom-remodeling/", "/service-areas/antelope-ca/new-construction/", "/service-areas/arden-arcade-ca/new-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rosemont", "url": "/service-areas/rosemont-ca/"}, {"name": "New Home Construction"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["expert witness environmental testing", "forensic mold inve
 search_intent: "local_b2b"
 priority: 2.8
 plan_hash: "c76da96d96582a3c"
-generated_at: "2026-09-20T18:58:32.113736+00:00"
+generated_at: "2026-09-20T19:17:04.366834+00:00"
 manual_override: false
 internal_links: ["/services/litigation-support-sampling/", "/service-areas/ivanhoe-ca/", "/service-areas/ivanhoe-ca/indoor-air-quality-testing/", "/service-areas/ivanhoe-ca/mold-inspection-testing/", "/service-areas/bakersfield-ca/litigation-support-sampling/", "/service-areas/centerville-ca/litigation-support-sampling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ivanhoe", "url": "/service-areas/ivanhoe-ca/"}, {"name": "Litigation Support and Forensic Sampling"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["roof tarping", "fire damage board up", "broken window boar
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "e49bde7f06b7a6c8"
-generated_at: "2026-09-20T18:58:33.533867+00:00"
+generated_at: "2026-09-20T19:17:06.158434+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/sandy-ut/", "/service-areas/sandy-ut/fire-damage-restoration/", "/service-areas/sandy-ut/mold-remediation/", "/service-areas/alpine-ut/emergency-board-up-tarping/", "/service-areas/bluffdale-ut/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sandy", "url": "/service-areas/sandy-ut/"}, {"name": "Emergency Board-Up and Tarping"}]

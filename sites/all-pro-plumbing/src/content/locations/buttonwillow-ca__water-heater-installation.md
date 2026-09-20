@@ -8,7 +8,7 @@ secondary_keywords: ["water heater replacement", "tankless water heater installa
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "9b16ca51a72f20f3"
-generated_at: "2026-09-20T18:58:30.374991+00:00"
+generated_at: "2026-09-20T19:17:02.514896+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-installation/", "/service-areas/buttonwillow-ca/", "/service-areas/buttonwillow-ca/ac-repair/", "/service-areas/buttonwillow-ca/drain-cleaning/", "/service-areas/arvin-ca/water-heater-installation/", "/service-areas/bear-valley-springs-ca/water-heater-installation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Buttonwillow", "url": "/service-areas/buttonwillow-ca/"}, {"name": "Water Heater Installation and Replacement"}]

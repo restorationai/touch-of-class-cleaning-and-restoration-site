@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "f342fc7b6aac6eac"
-generated_at: "2026-09-20T18:58:55.612166+00:00"
+generated_at: "2026-09-20T19:17:30.791184+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/alpine-ut/", "/service-areas/alpine-ut/fire-damage-restoration/", "/service-areas/alpine-ut/mold-remediation/", "/service-areas/american-fork-ut/smoke-damage-restoration/", "/service-areas/bluffdale-ut/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Alpine", "url": "/service-areas/alpine-ut/"}, {"name": "Smoke Damage Restoration"}]

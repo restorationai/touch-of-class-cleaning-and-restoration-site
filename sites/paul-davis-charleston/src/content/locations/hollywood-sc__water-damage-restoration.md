@@ -8,7 +8,7 @@ secondary_keywords: ["water removal", "water extraction", "water cleanup", "stru
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "bb5afab204f5eef6"
-generated_at: "2026-09-20T18:59:05.116354+00:00"
+generated_at: "2026-09-20T19:17:38.161678+00:00"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/hollywood-sc/", "/service-areas/hollywood-sc/fire-damage-restoration/", "/service-areas/hollywood-sc/mold-remediation/", "/service-areas/awendaw-sc/water-damage-restoration/", "/service-areas/folly-beach-sc/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hollywood", "url": "/service-areas/hollywood-sc/"}, {"name": "Water Damage Restoration"}]

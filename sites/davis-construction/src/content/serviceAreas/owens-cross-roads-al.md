@@ -8,7 +8,7 @@ secondary_keywords: ["owens cross roads construction company", "general contract
 search_intent: "local_commercial"
 priority: 4.8
 plan_hash: "6b044302ab539f3b"
-generated_at: "2026-09-20T18:58:39.434281+00:00"
+generated_at: "2026-09-20T19:17:13.008023+00:00"
 manual_override: false
 internal_links: ["/service-areas/", "/contact/", "/service-areas/owens-cross-roads-al/home-remodeling/", "/service-areas/owens-cross-roads-al/roofing/", "/service-areas/owens-cross-roads-al/decks-pergolas-fences/", "/service-areas/owens-cross-roads-al/new-construction/", "/service-areas/owens-cross-roads-al/siding-gutters/", "/service-areas/owens-cross-roads-al/mold-remediation/", "/service-areas/owens-cross-roads-al/painting-trim/", "/service-areas/owens-cross-roads-al/storm-damage-restoration/", "/service-areas/owens-cross-roads-al/water-damage-restoration/", "/service-areas/athens-al/", "/service-areas/gurley-al/", "/service-areas/harvest-al/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Owens Cross Roads"}]

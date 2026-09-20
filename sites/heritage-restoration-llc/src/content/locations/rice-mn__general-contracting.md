@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "797b2186dc950a69"
-generated_at: "2026-09-20T18:58:52.508896+00:00"
+generated_at: "2026-09-20T19:17:27.310401+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/rice-mn/", "/service-areas/rice-mn/water-damage-restoration/", "/service-areas/rice-mn/storm-damage-restoration/", "/service-areas/baxter-mn/general-contracting/", "/service-areas/brainerd-mn/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rice", "url": "/service-areas/rice-mn/"}, {"name": "Renovations, Remodels and General Contracting"}]

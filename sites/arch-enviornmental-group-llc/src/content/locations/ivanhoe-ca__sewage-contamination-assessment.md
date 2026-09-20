@@ -8,7 +8,7 @@ secondary_keywords: ["sewage backup testing", "sewage contamination testing", "c
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "4becacdb3cf0f66e"
-generated_at: "2026-09-20T18:58:32.112705+00:00"
+generated_at: "2026-09-20T19:17:04.366370+00:00"
 manual_override: false
 internal_links: ["/services/sewage-contamination-assessment/", "/service-areas/ivanhoe-ca/", "/service-areas/ivanhoe-ca/indoor-air-quality-testing/", "/service-areas/ivanhoe-ca/mold-inspection-testing/", "/service-areas/bakersfield-ca/sewage-contamination-assessment/", "/service-areas/centerville-ca/sewage-contamination-assessment/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ivanhoe", "url": "/service-areas/ivanhoe-ca/"}, {"name": "Sewage Contamination Assessment"}]

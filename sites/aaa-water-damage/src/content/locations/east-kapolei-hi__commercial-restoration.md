@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "88f3ce9c63759a79"
-generated_at: "2026-09-20T18:58:25.497025+00:00"
+generated_at: "2026-09-20T19:16:56.950796+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/east-kapolei-hi/", "/service-areas/east-kapolei-hi/mold-remediation/", "/service-areas/east-kapolei-hi/water-damage-restoration/", "/service-areas/aiea-hi/commercial-restoration/", "/service-areas/aina-haina-hi/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "East Kapolei", "url": "/service-areas/east-kapolei-hi/"}, {"name": "Commercial Restoration"}]

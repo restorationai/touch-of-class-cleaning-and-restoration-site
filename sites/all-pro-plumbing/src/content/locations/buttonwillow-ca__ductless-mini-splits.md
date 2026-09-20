@@ -8,7 +8,7 @@ secondary_keywords: ["mini split installation", "ductless AC installation", "min
 search_intent: "local_commercial"
 priority: 4.9
 plan_hash: "c39a635d9d433b87"
-generated_at: "2026-09-20T18:58:30.377484+00:00"
+generated_at: "2026-09-20T19:17:02.516026+00:00"
 manual_override: false
 internal_links: ["/services/ductless-mini-splits/", "/service-areas/buttonwillow-ca/", "/service-areas/buttonwillow-ca/ac-repair/", "/service-areas/buttonwillow-ca/drain-cleaning/", "/service-areas/arvin-ca/ductless-mini-splits/", "/service-areas/bear-valley-springs-ca/ductless-mini-splits/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Buttonwillow", "url": "/service-areas/buttonwillow-ca/"}, {"name": "Ductless Mini-Split Systems"}]

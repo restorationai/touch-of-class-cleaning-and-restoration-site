@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "0956fe4eafefd1c6"
-generated_at: "2026-09-20T18:58:33.534217+00:00"
+generated_at: "2026-09-20T19:17:06.158618+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/sandy-ut/", "/service-areas/sandy-ut/fire-damage-restoration/", "/service-areas/sandy-ut/water-damage-restoration/", "/service-areas/alpine-ut/mold-remediation/", "/service-areas/bluffdale-ut/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sandy", "url": "/service-areas/sandy-ut/"}, {"name": "Mold Remediation"}]

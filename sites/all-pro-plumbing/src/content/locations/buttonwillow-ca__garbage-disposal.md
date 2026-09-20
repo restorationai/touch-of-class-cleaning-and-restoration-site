@@ -8,7 +8,7 @@ secondary_keywords: ["garbage disposal replacement", "garbage disposal humming",
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "8ef0b6400a68c388"
-generated_at: "2026-09-20T18:58:30.376440+00:00"
+generated_at: "2026-09-20T19:17:02.515554+00:00"
 manual_override: false
 internal_links: ["/services/garbage-disposal/", "/service-areas/buttonwillow-ca/", "/service-areas/buttonwillow-ca/ac-repair/", "/service-areas/buttonwillow-ca/drain-cleaning/", "/service-areas/arvin-ca/garbage-disposal/", "/service-areas/bear-valley-springs-ca/garbage-disposal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Buttonwillow", "url": "/service-areas/buttonwillow-ca/"}, {"name": "Garbage Disposal Repair and Installation"}]

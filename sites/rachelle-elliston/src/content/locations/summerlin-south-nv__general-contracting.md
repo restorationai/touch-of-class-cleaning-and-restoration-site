@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "bbcfab0f0d9e7bcb"
-generated_at: "2026-09-20T18:59:12.376749+00:00"
+generated_at: "2026-09-20T19:17:45.551486+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/summerlin-south-nv/", "/service-areas/summerlin-south-nv/fire-damage-restoration/", "/service-areas/summerlin-south-nv/mold-remediation/", "/service-areas/boulder-city-nv/general-contracting/", "/service-areas/enterprise-nv/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Summerlin South", "url": "/service-areas/summerlin-south-nv/"}, {"name": "Renovations, Remodels and General Contracting"}]

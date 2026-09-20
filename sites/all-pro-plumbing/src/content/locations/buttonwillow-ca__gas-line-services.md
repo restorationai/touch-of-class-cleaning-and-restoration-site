@@ -8,7 +8,7 @@ secondary_keywords: ["gas leak repair", "gas line installation", "gas leak detec
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "efe560028cb55255"
-generated_at: "2026-09-20T18:58:30.375693+00:00"
+generated_at: "2026-09-20T19:17:02.515216+00:00"
 manual_override: false
 internal_links: ["/services/gas-line-services/", "/service-areas/buttonwillow-ca/", "/service-areas/buttonwillow-ca/ac-repair/", "/service-areas/buttonwillow-ca/drain-cleaning/", "/service-areas/arvin-ca/gas-line-services/", "/service-areas/bear-valley-springs-ca/gas-line-services/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Buttonwillow", "url": "/service-areas/buttonwillow-ca/"}, {"name": "Gas Line Installation and Leak Repair"}]

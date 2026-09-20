@@ -8,7 +8,7 @@ secondary_keywords: ["trauma cleanup services", "trauma scene cleaning", "accide
 search_intent: "local_sensitive"
 priority: 4.9
 plan_hash: "cafefdaa9daff547"
-generated_at: "2026-09-20T18:59:03.096574+00:00"
+generated_at: "2026-09-20T19:17:35.995048+00:00"
 manual_override: false
 internal_links: ["/services/trauma-scene-cleanup/", "/service-areas/edgewood-wa/", "/service-areas/edgewood-wa/fire-damage-restoration/", "/service-areas/edgewood-wa/mold-remediation/", "/service-areas/algona-wa/trauma-scene-cleanup/", "/service-areas/auburn-wa/trauma-scene-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Edgewood", "url": "/service-areas/edgewood-wa/"}, {"name": "Trauma Scene Cleanup"}]

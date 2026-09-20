@@ -8,7 +8,7 @@ secondary_keywords: ["hasley canyon restoration company", "damage restoration ha
 search_intent: "local_commercial"
 priority: 4.8
 plan_hash: "456e9daaa851874f"
-generated_at: "2026-09-20T18:58:35.183010+00:00"
+generated_at: "2026-09-20T19:17:07.912069+00:00"
 manual_override: false
 internal_links: ["/service-areas/", "/contact/", "/service-areas/hasley-canyon-ca/mold-remediation/", "/service-areas/hasley-canyon-ca/water-damage-restoration/", "/service-areas/hasley-canyon-ca/storm-damage-restoration/", "/service-areas/hasley-canyon-ca/water-cleanup/", "/service-areas/hasley-canyon-ca/contents-restoration/", "/service-areas/hasley-canyon-ca/crawl-space-encapsulation/", "/service-areas/camarillo-ca/", "/service-areas/fillmore-ca/", "/service-areas/mira-monte-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hasley Canyon"}]

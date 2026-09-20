@@ -8,7 +8,7 @@ secondary_keywords: ["mold clearance testing", "post remediation verification", 
 search_intent: "local_health"
 priority: 6.3
 plan_hash: "01793cea75849ae7"
-generated_at: "2026-09-20T18:58:32.112000+00:00"
+generated_at: "2026-09-20T19:17:04.366052+00:00"
 manual_override: false
 internal_links: ["/services/clearance-testing/", "/service-areas/ivanhoe-ca/", "/service-areas/ivanhoe-ca/indoor-air-quality-testing/", "/service-areas/ivanhoe-ca/mold-inspection-testing/", "/service-areas/bakersfield-ca/clearance-testing/", "/service-areas/centerville-ca/clearance-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ivanhoe", "url": "/service-areas/ivanhoe-ca/"}, {"name": "Clearance Testing and Post-Remediation Verification"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["clogged drain cleaning", "hydro jetting", "rooter service"
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "e702817c6c951315"
-generated_at: "2026-09-20T18:58:30.374428+00:00"
+generated_at: "2026-09-20T19:17:02.514655+00:00"
 manual_override: false
 internal_links: ["/services/drain-cleaning/", "/service-areas/buttonwillow-ca/", "/service-areas/buttonwillow-ca/ac-repair/", "/service-areas/buttonwillow-ca/emergency-plumbing/", "/service-areas/arvin-ca/drain-cleaning/", "/service-areas/bear-valley-springs-ca/drain-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Buttonwillow", "url": "/service-areas/buttonwillow-ca/"}, {"name": "Drain Cleaning"}]

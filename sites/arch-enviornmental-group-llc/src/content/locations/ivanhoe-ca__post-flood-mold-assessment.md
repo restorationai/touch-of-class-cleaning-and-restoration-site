@@ -8,7 +8,7 @@ secondary_keywords: ["mold testing after flood", "water damage mold inspection",
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "603406abd29e9bb9"
-generated_at: "2026-09-20T18:58:32.112902+00:00"
+generated_at: "2026-09-20T19:17:04.366451+00:00"
 manual_override: false
 internal_links: ["/services/post-flood-mold-assessment/", "/service-areas/ivanhoe-ca/", "/service-areas/ivanhoe-ca/indoor-air-quality-testing/", "/service-areas/ivanhoe-ca/mold-inspection-testing/", "/service-areas/bakersfield-ca/post-flood-mold-assessment/", "/service-areas/centerville-ca/post-flood-mold-assessment/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ivanhoe", "url": "/service-areas/ivanhoe-ca/"}, {"name": "Post-Flood Mold Assessment"}]

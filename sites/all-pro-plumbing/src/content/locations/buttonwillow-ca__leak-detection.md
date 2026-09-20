@@ -8,7 +8,7 @@ secondary_keywords: ["water leak detection", "electronic leak detection", "hidde
 search_intent: "local_specialty"
 priority: 4.9
 plan_hash: "143355912a981218"
-generated_at: "2026-09-20T18:58:30.375170+00:00"
+generated_at: "2026-09-20T19:17:02.514978+00:00"
 manual_override: false
 internal_links: ["/services/leak-detection/", "/service-areas/buttonwillow-ca/", "/service-areas/buttonwillow-ca/ac-repair/", "/service-areas/buttonwillow-ca/drain-cleaning/", "/service-areas/arvin-ca/leak-detection/", "/service-areas/bear-valley-springs-ca/leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Buttonwillow", "url": "/service-areas/buttonwillow-ca/"}, {"name": "Leak Detection"}]

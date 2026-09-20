@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "7fc230622e2a7788"
-generated_at: "2026-09-20T18:58:40.706952+00:00"
+generated_at: "2026-09-20T19:17:14.587835+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/elmwood-park-il/", "/service-areas/elmwood-park-il/fire-damage-restoration/", "/service-areas/elmwood-park-il/mold-remediation/", "/service-areas/bedford-park-il/burst-pipe-repair/", "/service-areas/berwyn-il/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elmwood Park", "url": "/service-areas/elmwood-park-il/"}, {"name": "Burst Pipe Cleanup and Repair"}]

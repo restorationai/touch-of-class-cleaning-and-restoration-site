@@ -8,7 +8,7 @@ secondary_keywords: ["indoor allergen testing", "dust mite allergen test", "pet 
 search_intent: "local_health"
 priority: 3.5
 plan_hash: "6380061999a9c93f"
-generated_at: "2026-09-20T18:58:32.113071+00:00"
+generated_at: "2026-09-20T19:17:04.366538+00:00"
 manual_override: false
 internal_links: ["/services/allergen-testing/", "/service-areas/ivanhoe-ca/", "/service-areas/ivanhoe-ca/indoor-air-quality-testing/", "/service-areas/ivanhoe-ca/mold-inspection-testing/", "/service-areas/bakersfield-ca/allergen-testing/", "/service-areas/centerville-ca/allergen-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ivanhoe", "url": "/service-areas/ivanhoe-ca/"}, {"name": "Allergen Testing"}]

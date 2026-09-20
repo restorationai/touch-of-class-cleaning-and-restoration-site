@@ -8,7 +8,7 @@ secondary_keywords: ["soot cleaning", "soot residue removal", "post-fire soot cl
 search_intent: "local_specialty"
 priority: 4.9
 plan_hash: "533add25864f23de"
-generated_at: "2026-09-20T18:59:06.891029+00:00"
+generated_at: "2026-09-20T19:17:39.959014+00:00"
 manual_override: false
 internal_links: ["/services/soot-removal/", "/service-areas/woody-ca/", "/service-areas/woody-ca/fire-damage-restoration/", "/service-areas/woody-ca/home-remodeling/", "/service-areas/arvin-ca/soot-removal/", "/service-areas/buttonwillow-ca/soot-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Woody", "url": "/service-areas/woody-ca/"}, {"name": "Soot Removal"}]

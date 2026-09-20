@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos testing near me", "asbestos inspection", "asbesto
 search_intent: "local_health"
 priority: 6.3
 plan_hash: "d1fe3eda69a45f76"
-generated_at: "2026-09-20T18:58:32.111410+00:00"
+generated_at: "2026-09-20T19:17:04.365813+00:00"
 manual_override: false
 internal_links: ["/services/asbestos-testing/", "/service-areas/ivanhoe-ca/", "/service-areas/ivanhoe-ca/indoor-air-quality-testing/", "/service-areas/ivanhoe-ca/mold-inspection-testing/", "/service-areas/bakersfield-ca/asbestos-testing/", "/service-areas/centerville-ca/asbestos-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ivanhoe", "url": "/service-areas/ivanhoe-ca/"}, {"name": "Asbestos Testing and Inspection"}]

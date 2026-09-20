@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "licensed general contractor", "home 
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "e3a66945af4225ae"
-generated_at: "2026-09-20T18:59:20.252413+00:00"
+generated_at: "2026-09-20T19:17:53.764577+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/rosemont-ca/", "/service-areas/rosemont-ca/home-remodeling/", "/service-areas/rosemont-ca/bathroom-remodeling/", "/service-areas/antelope-ca/general-contracting/", "/service-areas/arden-arcade-ca/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rosemont", "url": "/service-areas/rosemont-ca/"}, {"name": "Renovations, Remodels and General Contracting"}]

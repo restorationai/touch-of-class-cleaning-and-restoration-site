@@ -8,7 +8,7 @@ secondary_keywords: ["slab leak detection", "under slab plumbing repair", "hot s
 search_intent: "local_specialty"
 priority: 4.9
 plan_hash: "4d6c80926302d0ae"
-generated_at: "2026-09-20T18:58:30.375347+00:00"
+generated_at: "2026-09-20T19:17:02.515061+00:00"
 manual_override: false
 internal_links: ["/services/slab-leak-repair/", "/service-areas/buttonwillow-ca/", "/service-areas/buttonwillow-ca/ac-repair/", "/service-areas/buttonwillow-ca/drain-cleaning/", "/service-areas/arvin-ca/slab-leak-repair/", "/service-areas/bear-valley-springs-ca/slab-leak-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Buttonwillow", "url": "/service-areas/buttonwillow-ca/"}, {"name": "Slab Leak Repair"}]

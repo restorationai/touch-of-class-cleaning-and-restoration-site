@@ -8,7 +8,7 @@ secondary_keywords: ["water heater not working", "no hot water", "water heater l
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "8a7c1366d1ea99db"
-generated_at: "2026-09-20T18:58:30.374805+00:00"
+generated_at: "2026-09-20T19:17:02.514817+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-repair/", "/service-areas/buttonwillow-ca/", "/service-areas/buttonwillow-ca/ac-repair/", "/service-areas/buttonwillow-ca/drain-cleaning/", "/service-areas/arvin-ca/water-heater-repair/", "/service-areas/bear-valley-springs-ca/water-heater-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Buttonwillow", "url": "/service-areas/buttonwillow-ca/"}, {"name": "Water Heater Repair"}]

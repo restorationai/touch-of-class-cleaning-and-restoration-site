@@ -8,7 +8,7 @@ secondary_keywords: ["storm damage repair", "roof storm damage repair", "siding 
 search_intent: "local_commercial"
 priority: 4.9
 plan_hash: "adea2e3cbb0c4c8f"
-generated_at: "2026-09-20T18:59:20.253175+00:00"
+generated_at: "2026-09-20T19:17:53.764962+00:00"
 manual_override: false
 internal_links: ["/services/storm-damage-restoration/", "/service-areas/rosemont-ca/", "/service-areas/rosemont-ca/home-remodeling/", "/service-areas/rosemont-ca/bathroom-remodeling/", "/service-areas/antelope-ca/storm-damage-restoration/", "/service-areas/arden-arcade-ca/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rosemont", "url": "/service-areas/rosemont-ca/"}, {"name": "Storm Damage Restoration"}]

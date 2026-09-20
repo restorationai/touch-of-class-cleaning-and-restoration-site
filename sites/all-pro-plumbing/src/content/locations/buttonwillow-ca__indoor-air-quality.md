@@ -8,7 +8,7 @@ secondary_keywords: ["whole house air purifier", "UV air purifier for HVAC", "wh
 search_intent: "local_health"
 priority: 4.2
 plan_hash: "9d4d2c276410e6e3"
-generated_at: "2026-09-20T18:58:30.377845+00:00"
+generated_at: "2026-09-20T19:17:02.516174+00:00"
 manual_override: false
 internal_links: ["/services/indoor-air-quality/", "/service-areas/buttonwillow-ca/", "/service-areas/buttonwillow-ca/ac-repair/", "/service-areas/buttonwillow-ca/drain-cleaning/", "/service-areas/arvin-ca/indoor-air-quality/", "/service-areas/bear-valley-springs-ca/indoor-air-quality/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Buttonwillow", "url": "/service-areas/buttonwillow-ca/"}, {"name": "Indoor Air Quality Services"}]

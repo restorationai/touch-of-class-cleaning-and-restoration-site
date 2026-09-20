@@ -2923,9 +2923,18 @@ def filter_already_satisfied(company: dict, items: list[dict],
         if "preview" in text and ("site" in text or "website" in text):
             if preview_ready_at is None:
                 try:
+                    # STABLE ANCHOR (2026-09-20, FIX/DryCor): updated_at is
+                    # bumped by every deploy — content pushes kept resetting
+                    # the soak clock, holding finished sites indefinitely.
+                    # scaffolded_at (first build) is immutable; staging push
+                    # is the next-best; updated_at only as a last resort.
                     rows = _sb("GET", "/rest/v1/marketing_sites?company_id=eq."
-                               f"{company.get('id')}&select=updated_at,build_status") or []
-                    preview_ready_at = (rows[0].get("updated_at") or "") if rows else ""
+                               f"{company.get('id')}&select=scaffolded_at,"
+                               "last_pushed_staging_at,updated_at,build_status") or []
+                    r0 = rows[0] if rows else {}
+                    preview_ready_at = (r0.get("scaffolded_at")
+                                        or r0.get("last_pushed_staging_at")
+                                        or r0.get("updated_at") or "")
                 except Exception:  # noqa: BLE001 — unknown age: show it, don't stall
                     preview_ready_at = ""
             if preview_ready_at:
@@ -2933,7 +2942,25 @@ def filter_already_satisfied(company: dict, items: list[dict],
                     built = datetime.fromisoformat(
                         preview_ready_at.replace("Z", "+00:00"))
                     age_d = (datetime.now(timezone.utc) - built).days
-                    if age_d < PREVIEW_SOAK_DAYS:
+                    # FINISHING GATE (pairs with the stable anchor above):
+                    # a slow build can pass day 10 with pages still
+                    # rendering — the reveal waits for BOTH the clock and a
+                    # finished site, exactly like setup_ledger's window.
+                    unfinished: list = []
+                    if age_d >= PREVIEW_SOAK_DAYS:
+                        try:
+                            from setup_ledger import _site_unfinished_bits
+                            _srows = _sb(
+                                "GET", "/rest/v1/marketing_sites?company_id="
+                                f"eq.{company.get('id')}"
+                                "&select=rank_ai_slug&limit=1") or []
+                            _slug = str((_srows[0] if _srows else {})
+                                        .get("rank_ai_slug") or "")
+                            if _slug:
+                                unfinished = _site_unfinished_bits(_slug)
+                        except Exception:  # noqa: BLE001 — fail open (ready)
+                            unfinished = []
+                    if age_d < PREVIEW_SOAK_DAYS or unfinished:
                         # "share now" note override (2026-09-11, DryCor: a
                         # deploy refresh reset updated_at, so an explicitly
                         # approved reveal would have re-soaked 10 days) —
@@ -2950,8 +2977,11 @@ def filter_already_satisfied(company: dict, items: list[dict],
                         except Exception:  # noqa: BLE001
                             released = False
                         if not released:
-                            print(f"    [preview-soak] site is {age_d}d old — holding "
-                                  f"the preview until day {PREVIEW_SOAK_DAYS}; other "
+                            print(f"    [preview-soak] site is {age_d}d old"
+                                  + (f", unfinished: {', '.join(unfinished)}"
+                                     if unfinished else "")
+                                  + f" — holding the preview until day "
+                                  f"{PREVIEW_SOAK_DAYS} and finished; other "
                                   f"asks still go out")
                             continue
                         print("    [preview-soak] released by 'share now' note")
@@ -4489,6 +4519,50 @@ def wrong_name_violation(company: dict, contact: dict,
     return None
 
 
+_SLUG_CACHE: dict = {}
+
+
+def _company_slug(cid: str) -> str:
+    """rank_ai_slug for a company id, cached per process ('' = no site)."""
+    if cid not in _SLUG_CACHE:
+        try:
+            rows = _sb("GET", "/rest/v1/marketing_sites?company_id=eq."
+                       f"{cid}&select=rank_ai_slug&limit=1") or []
+            _SLUG_CACHE[cid] = str((rows[0] if rows else {})
+                                   .get("rank_ai_slug") or "").strip()
+        except Exception:  # noqa: BLE001
+            return ""  # transient read failure: don't cache the miss
+    return _SLUG_CACHE[cid]
+
+
+def _stamp_preview_reveal(company: dict | None, body: str) -> None:
+    """First successful client send carrying THIS client's preview URL =
+    the reveal moment. Writes integration_settings.site_reveal
+    {sent_at, url} exactly once; the Build Stages website board anchors
+    its silence-release clock to sent_at (FIX Restoration 2026-09-20)."""
+    cid = str((company or {}).get("id") or "")
+    if not (cid and body):
+        return
+    slug = _company_slug(cid)
+    if not slug or f"rankai-{slug}.pages.dev" not in body:
+        return
+    rows = _sb("GET", f"/rest/v1/companies?id=eq.{cid}"
+               "&select=integration_settings") or []
+    ints = (rows[0].get("integration_settings") if rows else {}) or {}
+    reveal = ints.get("site_reveal") or {}
+    if reveal.get("sent_at"):
+        return  # already stamped — the clock never restarts
+    m = re.search(r"https?://\S*rankai-" + re.escape(slug)
+                  + r"\.pages\.dev\S*", body)
+    ints["site_reveal"] = {
+        "sent_at": datetime.now(timezone.utc).isoformat(),
+        "url": (m.group(0) if m else f"https://rankai-{slug}.pages.dev"),
+    }
+    _sb("PATCH", f"/rest/v1/companies?id=eq.{cid}",
+        {"integration_settings": ints})
+    print(f"  [reveal-stamp] preview reveal recorded for {slug}")
+
+
 def send_message(contact: dict, channel: str, body: str,
                  subject: str | None = None,
                  company: dict | None = None,
@@ -4702,6 +4776,17 @@ def send_message(contact: dict, channel: str, body: str,
         # lands — GHL's own history is minutes behind and cost Jerrott two
         # contradicting texts.
         note_outbound((company or {}).get("id"), body, reply_to)
+        # PREVIEW-REVEAL SENT STAMP (Santino 2026-09-20, FIX Restoration:
+        # the board's silence-release counted 2 days from the ask ROW's
+        # creation — seeded at build — so a client who was never sent his
+        # site promoted to "Ready to launch" on pure silence. The durable
+        # truth is THIS moment: a successful client send whose body carries
+        # their preview URL. Stamped once; the board's silence clock starts
+        # here and nowhere else.)
+        try:
+            _stamp_preview_reveal(company, body)
+        except Exception as _e:  # noqa: BLE001 — stamping never breaks a send
+            print(f"  [reveal-stamp] {str(_e)[:80]}")
         # DURABLE machine-sent marks (2026-09-14, the Mike/Tony instant-reply
         # poisoning): the state-blob ledger races across processes, so a
         # concurrent run can clobber freshly recorded ids and this send then

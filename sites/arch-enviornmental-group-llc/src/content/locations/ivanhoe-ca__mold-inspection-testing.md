@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection near me", "mold testing", "mold spore test
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "5500cc5bcd849af8"
-generated_at: "2026-09-20T18:58:32.111012+00:00"
+generated_at: "2026-09-20T19:17:04.365590+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/ivanhoe-ca/", "/service-areas/ivanhoe-ca/indoor-air-quality-testing/", "/service-areas/ivanhoe-ca/asbestos-testing/", "/service-areas/bakersfield-ca/mold-inspection-testing/", "/service-areas/centerville-ca/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ivanhoe", "url": "/service-areas/ivanhoe-ca/"}, {"name": "Mold Inspection and Testing"}]

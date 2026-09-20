@@ -8,7 +8,7 @@ secondary_keywords: ["radon testing near me", "radon test for home", "radon insp
 search_intent: "local_health"
 priority: 4.9
 plan_hash: "de3c41ba84d1f9d6"
-generated_at: "2026-09-20T18:58:32.112360+00:00"
+generated_at: "2026-09-20T19:17:04.366217+00:00"
 manual_override: false
 internal_links: ["/services/radon-testing/", "/service-areas/ivanhoe-ca/", "/service-areas/ivanhoe-ca/indoor-air-quality-testing/", "/service-areas/ivanhoe-ca/mold-inspection-testing/", "/service-areas/bakersfield-ca/radon-testing/", "/service-areas/centerville-ca/radon-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ivanhoe", "url": "/service-areas/ivanhoe-ca/"}, {"name": "Radon Testing"}]

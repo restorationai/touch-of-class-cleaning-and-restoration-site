@@ -8,7 +8,7 @@ secondary_keywords: ["sewer backup", "trenchless sewer repair", "sewer line repl
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "fffbd0768fd2b5b3"
-generated_at: "2026-09-20T18:58:30.374607+00:00"
+generated_at: "2026-09-20T19:17:02.514738+00:00"
 manual_override: false
 internal_links: ["/services/sewer-line-repair/", "/service-areas/buttonwillow-ca/", "/service-areas/buttonwillow-ca/ac-repair/", "/service-areas/buttonwillow-ca/drain-cleaning/", "/service-areas/arvin-ca/sewer-line-repair/", "/service-areas/bear-valley-springs-ca/sewer-line-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Buttonwillow", "url": "/service-areas/buttonwillow-ca/"}, {"name": "Sewer Line Repair and Replacement"}]

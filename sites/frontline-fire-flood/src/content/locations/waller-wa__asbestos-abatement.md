@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediati
 search_intent: "local_specialty"
 priority: 4.2
 plan_hash: "63a1e1c89c5decbb"
-generated_at: "2026-09-20T18:58:49.250678+00:00"
+generated_at: "2026-09-20T19:17:23.978329+00:00"
 manual_override: false
 internal_links: ["/services/asbestos-abatement/", "/service-areas/waller-wa/", "/service-areas/waller-wa/fire-damage-restoration/", "/service-areas/waller-wa/mold-remediation/", "/service-areas/anderson-island-wa/asbestos-abatement/", "/service-areas/auburn-wa/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Waller", "url": "/service-areas/waller-wa/"}, {"name": "Asbestos Abatement"}]

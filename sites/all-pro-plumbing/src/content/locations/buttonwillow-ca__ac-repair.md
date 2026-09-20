@@ -8,7 +8,7 @@ secondary_keywords: ["ac not cooling", "air conditioner repair", "central air re
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "b62703d30fa505ec"
-generated_at: "2026-09-20T18:58:30.377147+00:00"
+generated_at: "2026-09-20T19:17:02.515877+00:00"
 manual_override: false
 internal_links: ["/services/ac-repair/", "/service-areas/buttonwillow-ca/", "/service-areas/buttonwillow-ca/drain-cleaning/", "/service-areas/buttonwillow-ca/emergency-plumbing/", "/service-areas/arvin-ca/ac-repair/", "/service-areas/bear-valley-springs-ca/ac-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Buttonwillow", "url": "/service-areas/buttonwillow-ca/"}, {"name": "Air Conditioning Repair"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["water removal", "water extraction", "water cleanup", "stru
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "e3bfcce2366d82c9"
-generated_at: "2026-09-20T18:59:17.672803+00:00"
+generated_at: "2026-09-20T19:17:50.855120+00:00"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/oakland-park-fl/", "/service-areas/oakland-park-fl/fire-damage-restoration/", "/service-areas/oakland-park-fl/mold-remediation/", "/service-areas/cooper-city-fl/water-damage-restoration/", "/service-areas/dania-beach-fl/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oakland Park", "url": "/service-areas/oakland-park-fl/"}, {"name": "Water Damage Restoration"}]

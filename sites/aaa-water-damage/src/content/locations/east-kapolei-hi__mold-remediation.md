@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "30f82e966e4ac273"
-generated_at: "2026-09-20T18:58:25.496128+00:00"
+generated_at: "2026-09-20T19:16:56.950364+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/east-kapolei-hi/", "/service-areas/east-kapolei-hi/water-damage-restoration/", "/service-areas/east-kapolei-hi/commercial-restoration/", "/service-areas/aiea-hi/mold-remediation/", "/service-areas/aina-haina-hi/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "East Kapolei", "url": "/service-areas/east-kapolei-hi/"}, {"name": "Mold Remediation"}]

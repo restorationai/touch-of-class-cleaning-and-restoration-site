@@ -8,7 +8,7 @@ secondary_keywords: ["water softener installation", "whole house water filtratio
 search_intent: "local_commercial"
 priority: 4.2
 plan_hash: "7b0e851b875dc54b"
-generated_at: "2026-09-20T18:58:30.376098+00:00"
+generated_at: "2026-09-20T19:17:02.515369+00:00"
 manual_override: false
 internal_links: ["/services/water-softeners-filtration/", "/service-areas/buttonwillow-ca/", "/service-areas/buttonwillow-ca/ac-repair/", "/service-areas/buttonwillow-ca/drain-cleaning/", "/service-areas/arvin-ca/water-softeners-filtration/", "/service-areas/bear-valley-springs-ca/water-softeners-filtration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Buttonwillow", "url": "/service-areas/buttonwillow-ca/"}, {"name": "Water Softeners and Filtration Systems"}]

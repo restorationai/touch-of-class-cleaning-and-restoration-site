@@ -8,7 +8,7 @@ secondary_keywords: ["custom home builder", "new home builder", "build a house",
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "4337944697c9741e"
-generated_at: "2026-09-20T18:58:39.435851+00:00"
+generated_at: "2026-09-20T19:17:13.009015+00:00"
 manual_override: false
 internal_links: ["/services/new-construction/", "/service-areas/owens-cross-roads-al/", "/service-areas/owens-cross-roads-al/home-remodeling/", "/service-areas/owens-cross-roads-al/roofing/", "/service-areas/athens-al/new-construction/", "/service-areas/gurley-al/new-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Owens Cross Roads", "url": "/service-areas/owens-cross-roads-al/"}, {"name": "New Home Construction"}]

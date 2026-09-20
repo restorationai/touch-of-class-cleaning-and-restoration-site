@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "29d319d6c9bfcab8"
-generated_at: "2026-09-20T18:58:47.307927+00:00"
+generated_at: "2026-09-20T19:17:21.682404+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/del-mar-ca/", "/service-areas/del-mar-ca/water-damage-restoration/", "/service-areas/del-mar-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/reconstruction/", "/service-areas/carlsbad-ca/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Del Mar", "url": "/service-areas/del-mar-ca/"}, {"name": "Reconstruction Services"}]

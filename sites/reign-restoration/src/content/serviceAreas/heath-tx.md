@@ -8,7 +8,7 @@ secondary_keywords: ["heath restoration company", "damage restoration heath", "h
 search_intent: "local_commercial"
 priority: 4.8
 plan_hash: "0caa81816e70e429"
-generated_at: "2026-09-20T18:59:14.028355+00:00"
+generated_at: "2026-09-20T19:17:47.256926+00:00"
 manual_override: false
 internal_links: ["/service-areas/", "/contact/", "/service-areas/heath-tx/fire-damage-restoration/", "/service-areas/heath-tx/mold-remediation/", "/service-areas/heath-tx/water-damage-restoration/", "/service-areas/heath-tx/storm-damage-restoration/", "/service-areas/heath-tx/water-cleanup/", "/service-areas/heath-tx/general-contracting/", "/service-areas/heath-tx/contents-restoration/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Heath"}]

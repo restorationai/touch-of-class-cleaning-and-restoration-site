@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "36e1114d468d4eb8"
-generated_at: "2026-09-20T18:59:01.124478+00:00"
+generated_at: "2026-09-20T19:17:34.109600+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/searchlight-nv/", "/service-areas/searchlight-nv/mold-remediation/", "/service-areas/searchlight-nv/water-damage-restoration/", "/service-areas/blue-diamond-nv/fire-damage-restoration/", "/service-areas/boulder-city-nv/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Searchlight", "url": "/service-areas/searchlight-nv/"}, {"name": "Fire Damage Restoration"}]

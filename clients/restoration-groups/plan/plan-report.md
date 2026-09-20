@@ -1,7 +1,7 @@
 # Site Plan Report — The Restoration Group
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T18:59:15.832447+00:00
+- Generated: 2026-09-20T19:17:49.090367+00:00
 - Domain: `therestorationgroup.com`
 - Services selected: 18 of 65 catalog entries
 - Service areas: 61

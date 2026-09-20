@@ -8,7 +8,7 @@ secondary_keywords: ["hollywood restoration company", "damage restoration hollyw
 search_intent: "local_commercial"
 priority: 4.8
 plan_hash: "e332e3b3bbd6b33c"
-generated_at: "2026-09-20T18:59:05.115488+00:00"
+generated_at: "2026-09-20T19:17:38.161143+00:00"
 manual_override: false
 internal_links: ["/service-areas/", "/contact/", "/service-areas/hollywood-sc/fire-damage-restoration/", "/service-areas/hollywood-sc/mold-remediation/", "/service-areas/hollywood-sc/water-damage-restoration/", "/service-areas/hollywood-sc/water-cleanup/", "/service-areas/awendaw-sc/", "/service-areas/folly-beach-sc/", "/service-areas/goose-creek-sc/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hollywood"}]

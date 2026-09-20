@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "ead6a006f560f449"
-generated_at: "2026-09-20T18:58:39.436217+00:00"
+generated_at: "2026-09-20T19:17:13.009183+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/owens-cross-roads-al/", "/service-areas/owens-cross-roads-al/home-remodeling/", "/service-areas/owens-cross-roads-al/decks-pergolas-fences/", "/service-areas/athens-al/roofing/", "/service-areas/gurley-al/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Owens Cross Roads", "url": "/service-areas/owens-cross-roads-al/"}, {"name": "Roofing Installation and Replacement"}]

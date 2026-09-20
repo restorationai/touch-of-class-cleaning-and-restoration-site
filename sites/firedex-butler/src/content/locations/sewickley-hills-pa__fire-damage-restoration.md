@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "5c46185807b68a5d"
-generated_at: "2026-09-20T18:58:45.694391+00:00"
+generated_at: "2026-09-20T19:17:19.889645+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/sewickley-hills-pa/", "/service-areas/sewickley-hills-pa/mold-remediation/", "/service-areas/sewickley-hills-pa/water-damage-restoration/", "/service-areas/aliquippa-pa/fire-damage-restoration/", "/service-areas/baden-pa/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sewickley Hills", "url": "/service-areas/sewickley-hills-pa/"}, {"name": "Fire Damage Restoration"}]

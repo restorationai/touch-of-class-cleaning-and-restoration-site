@@ -8,7 +8,7 @@ secondary_keywords: ["VOC testing", "formaldehyde testing", "chemical odor testi
 search_intent: "local_health"
 priority: 4.2
 plan_hash: "4cce539f8056a721"
-generated_at: "2026-09-20T18:58:32.112531+00:00"
+generated_at: "2026-09-20T19:17:04.366295+00:00"
 manual_override: false
 internal_links: ["/services/voc-formaldehyde-testing/", "/service-areas/ivanhoe-ca/", "/service-areas/ivanhoe-ca/indoor-air-quality-testing/", "/service-areas/ivanhoe-ca/mold-inspection-testing/", "/service-areas/bakersfield-ca/voc-formaldehyde-testing/", "/service-areas/centerville-ca/voc-formaldehyde-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ivanhoe", "url": "/service-areas/ivanhoe-ca/"}, {"name": "VOC and Formaldehyde Testing"}]

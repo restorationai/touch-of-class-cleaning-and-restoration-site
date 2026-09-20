@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "17870189ef34d891"
-generated_at: "2026-09-20T18:59:06.892423+00:00"
+generated_at: "2026-09-20T19:17:39.959636+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/woody-ca/", "/service-areas/woody-ca/fire-damage-restoration/", "/service-areas/woody-ca/home-remodeling/", "/service-areas/arvin-ca/general-contracting/", "/service-areas/buttonwillow-ca/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Woody", "url": "/service-areas/woody-ca/"}, {"name": "Renovations, Remodels and General Contracting"}]

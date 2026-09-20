@@ -8,7 +8,7 @@ secondary_keywords: ["environmental compliance consulting", "AHERA compliance in
 search_intent: "local_b2b"
 priority: 3.5
 plan_hash: "9c999910dab487d7"
-generated_at: "2026-09-20T18:58:32.113572+00:00"
+generated_at: "2026-09-20T19:17:04.366759+00:00"
 manual_override: false
 internal_links: ["/services/compliance-consulting/", "/service-areas/ivanhoe-ca/", "/service-areas/ivanhoe-ca/indoor-air-quality-testing/", "/service-areas/ivanhoe-ca/mold-inspection-testing/", "/service-areas/bakersfield-ca/compliance-consulting/", "/service-areas/centerville-ca/compliance-consulting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ivanhoe", "url": "/service-areas/ivanhoe-ca/"}, {"name": "Environmental Compliance Consulting"}]

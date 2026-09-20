@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "fb2d44057eac56c5"
-generated_at: "2026-09-20T18:59:17.673718+00:00"
+generated_at: "2026-09-20T19:17:50.855552+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/oakland-park-fl/", "/service-areas/oakland-park-fl/fire-damage-restoration/", "/service-areas/oakland-park-fl/mold-remediation/", "/service-areas/cooper-city-fl/smoke-damage-restoration/", "/service-areas/dania-beach-fl/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oakland Park", "url": "/service-areas/oakland-park-fl/"}, {"name": "Smoke Damage Restoration"}]

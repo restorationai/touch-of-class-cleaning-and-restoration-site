@@ -8,7 +8,7 @@ secondary_keywords: ["whole house repipe", "copper repiping", "PEX repiping", "g
 search_intent: "local_commercial"
 priority: 4.9
 plan_hash: "2981d5d9ae46776e"
-generated_at: "2026-09-20T18:58:30.375521+00:00"
+generated_at: "2026-09-20T19:17:02.515138+00:00"
 manual_override: false
 internal_links: ["/services/repiping/", "/service-areas/buttonwillow-ca/", "/service-areas/buttonwillow-ca/ac-repair/", "/service-areas/buttonwillow-ca/drain-cleaning/", "/service-areas/arvin-ca/repiping/", "/service-areas/bear-valley-springs-ca/repiping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Buttonwillow", "url": "/service-areas/buttonwillow-ca/"}, {"name": "Whole-House Repiping"}]

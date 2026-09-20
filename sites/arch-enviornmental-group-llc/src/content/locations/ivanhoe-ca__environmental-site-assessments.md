@@ -8,7 +8,7 @@ secondary_keywords: ["phase 1 environmental site assessment", "phase 2 environme
 search_intent: "local_b2b"
 priority: 5.6
 plan_hash: "86a406dacc93ff8a"
-generated_at: "2026-09-20T18:58:32.112179+00:00"
+generated_at: "2026-09-20T19:17:04.366132+00:00"
 manual_override: false
 internal_links: ["/services/environmental-site-assessments/", "/service-areas/ivanhoe-ca/", "/service-areas/ivanhoe-ca/indoor-air-quality-testing/", "/service-areas/ivanhoe-ca/mold-inspection-testing/", "/service-areas/bakersfield-ca/environmental-site-assessments/", "/service-areas/centerville-ca/environmental-site-assessments/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ivanhoe", "url": "/service-areas/ivanhoe-ca/"}, {"name": "Environmental Site Assessments"}]

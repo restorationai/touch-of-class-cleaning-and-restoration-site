@@ -8,7 +8,7 @@ secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "03cbd90cd8b28263"
-generated_at: "2026-09-20T18:58:52.509081+00:00"
+generated_at: "2026-09-20T19:17:27.310484+00:00"
 manual_override: false
 internal_links: ["/services/water-cleanup/", "/service-areas/rice-mn/", "/service-areas/rice-mn/water-damage-restoration/", "/service-areas/rice-mn/storm-damage-restoration/", "/service-areas/baxter-mn/water-cleanup/", "/service-areas/brainerd-mn/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rice", "url": "/service-areas/rice-mn/"}, {"name": "Emergency Water Cleanup"}]

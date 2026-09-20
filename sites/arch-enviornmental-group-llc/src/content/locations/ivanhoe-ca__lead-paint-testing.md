@@ -8,7 +8,7 @@ secondary_keywords: ["lead paint testing", "lead paint inspection", "XRF lead te
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "fe893dc6178f3035"
-generated_at: "2026-09-20T18:58:32.111586+00:00"
+generated_at: "2026-09-20T19:17:04.365895+00:00"
 manual_override: false
 internal_links: ["/services/lead-paint-testing/", "/service-areas/ivanhoe-ca/", "/service-areas/ivanhoe-ca/indoor-air-quality-testing/", "/service-areas/ivanhoe-ca/mold-inspection-testing/", "/service-areas/bakersfield-ca/lead-paint-testing/", "/service-areas/centerville-ca/lead-paint-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ivanhoe", "url": "/service-areas/ivanhoe-ca/"}, {"name": "Lead Paint Testing and Inspection"}]

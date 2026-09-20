@@ -8,7 +8,7 @@ secondary_keywords: ["furnace replacement", "new furnace cost", "high efficiency
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "d2935ce43e03b2c2"
-generated_at: "2026-09-20T18:58:30.376795+00:00"
+generated_at: "2026-09-20T19:17:02.515720+00:00"
 manual_override: false
 internal_links: ["/services/furnace-installation/", "/service-areas/buttonwillow-ca/", "/service-areas/buttonwillow-ca/ac-repair/", "/service-areas/buttonwillow-ca/drain-cleaning/", "/service-areas/arvin-ca/furnace-installation/", "/service-areas/bear-valley-springs-ca/furnace-installation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Buttonwillow", "url": "/service-areas/buttonwillow-ca/"}, {"name": "Furnace Installation and Replacement"}]

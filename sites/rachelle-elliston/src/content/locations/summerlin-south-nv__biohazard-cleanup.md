@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "6becc145feca4b70"
-generated_at: "2026-09-20T18:59:12.377130+00:00"
+generated_at: "2026-09-20T19:17:45.551672+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/summerlin-south-nv/", "/service-areas/summerlin-south-nv/fire-damage-restoration/", "/service-areas/summerlin-south-nv/mold-remediation/", "/service-areas/boulder-city-nv/biohazard-cleanup/", "/service-areas/enterprise-nv/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Summerlin South", "url": "/service-areas/summerlin-south-nv/"}, {"name": "Biohazard Cleanup"}]

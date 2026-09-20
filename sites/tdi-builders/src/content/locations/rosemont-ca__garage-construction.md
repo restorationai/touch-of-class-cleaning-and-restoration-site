@@ -8,7 +8,7 @@ secondary_keywords: ["garage builder", "detached garage construction", "attached
 search_intent: "local_commercial"
 priority: 4.2
 plan_hash: "ced03d02f0f4cef7"
-generated_at: "2026-09-20T18:59:20.254070+00:00"
+generated_at: "2026-09-20T19:17:53.765369+00:00"
 manual_override: false
 internal_links: ["/services/garage-construction/", "/service-areas/rosemont-ca/", "/service-areas/rosemont-ca/home-remodeling/", "/service-areas/rosemont-ca/bathroom-remodeling/", "/service-areas/antelope-ca/garage-construction/", "/service-areas/arden-arcade-ca/garage-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rosemont", "url": "/service-areas/rosemont-ca/"}, {"name": "Garage Construction"}]

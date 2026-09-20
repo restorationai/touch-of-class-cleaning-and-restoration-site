@@ -8,7 +8,7 @@ secondary_keywords: ["ac replacement", "central air installation", "new ac unit 
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "d93132cc1e26e405"
-generated_at: "2026-09-20T18:58:30.377316+00:00"
+generated_at: "2026-09-20T19:17:02.515952+00:00"
 manual_override: false
 internal_links: ["/services/ac-installation/", "/service-areas/buttonwillow-ca/", "/service-areas/buttonwillow-ca/ac-repair/", "/service-areas/buttonwillow-ca/drain-cleaning/", "/service-areas/arvin-ca/ac-installation/", "/service-areas/bear-valley-springs-ca/ac-installation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Buttonwillow", "url": "/service-areas/buttonwillow-ca/"}, {"name": "AC Installation and Replacement"}]

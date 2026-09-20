@@ -8,7 +8,7 @@ secondary_keywords: ["commercial general contractor", "tenant improvement contra
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "73acfc53f41a0937"
-generated_at: "2026-09-20T18:59:20.252206+00:00"
+generated_at: "2026-09-20T19:17:53.764347+00:00"
 manual_override: false
 internal_links: ["/services/commercial-construction/", "/service-areas/rosemont-ca/", "/service-areas/rosemont-ca/home-remodeling/", "/service-areas/rosemont-ca/bathroom-remodeling/", "/service-areas/antelope-ca/commercial-construction/", "/service-areas/arden-arcade-ca/commercial-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rosemont", "url": "/service-areas/rosemont-ca/"}, {"name": "Commercial Construction and Tenant Improvements"}]

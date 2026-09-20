@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "d0bd90d902d91415"
-generated_at: "2026-09-20T18:59:08.624117+00:00"
+generated_at: "2026-09-20T19:17:41.785646+00:00"
 manual_override: false
 internal_links: ["/services/burst-frozen-pipes/", "/service-areas/moapa-town-nv/", "/service-areas/moapa-town-nv/fire-damage-restoration/", "/service-areas/moapa-town-nv/mold-remediation/", "/service-areas/blue-diamond-nv/burst-frozen-pipes/", "/service-areas/boulder-city-nv/burst-frozen-pipes/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Moapa Town", "url": "/service-areas/moapa-town-nv/"}, {"name": "Burst & Frozen Pipes"}]

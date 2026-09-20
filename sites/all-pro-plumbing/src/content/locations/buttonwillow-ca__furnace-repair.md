@@ -8,7 +8,7 @@ secondary_keywords: ["furnace not working", "heater repair", "no heat repair", "
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "76d75ae444d51fdf"
-generated_at: "2026-09-20T18:58:30.376608+00:00"
+generated_at: "2026-09-20T19:17:02.515641+00:00"
 manual_override: false
 internal_links: ["/services/furnace-repair/", "/service-areas/buttonwillow-ca/", "/service-areas/buttonwillow-ca/ac-repair/", "/service-areas/buttonwillow-ca/drain-cleaning/", "/service-areas/arvin-ca/furnace-repair/", "/service-areas/bear-valley-springs-ca/furnace-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Buttonwillow", "url": "/service-areas/buttonwillow-ca/"}, {"name": "Furnace Repair"}]

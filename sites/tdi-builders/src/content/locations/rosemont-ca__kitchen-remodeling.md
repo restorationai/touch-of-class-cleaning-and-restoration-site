@@ -8,7 +8,7 @@ secondary_keywords: ["kitchen remodel contractor", "kitchen renovation", "custom
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "e7f0c96105498fb1"
-generated_at: "2026-09-20T18:59:20.253701+00:00"
+generated_at: "2026-09-20T19:17:53.765214+00:00"
 manual_override: false
 internal_links: ["/services/kitchen-remodeling/", "/service-areas/rosemont-ca/", "/service-areas/rosemont-ca/home-remodeling/", "/service-areas/rosemont-ca/bathroom-remodeling/", "/service-areas/antelope-ca/kitchen-remodeling/", "/service-areas/arden-arcade-ca/kitchen-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rosemont", "url": "/service-areas/rosemont-ca/"}, {"name": "Kitchen Remodeling"}]

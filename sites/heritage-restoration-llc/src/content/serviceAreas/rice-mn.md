@@ -8,7 +8,7 @@ secondary_keywords: ["rice restoration company", "damage restoration rice", "ric
 search_intent: "local_commercial"
 priority: 4.8
 plan_hash: "ebac6f2e66e7fd0b"
-generated_at: "2026-09-20T18:58:52.507403+00:00"
+generated_at: "2026-09-20T19:17:27.309558+00:00"
 manual_override: false
 internal_links: ["/service-areas/", "/contact/", "/service-areas/rice-mn/water-damage-restoration/", "/service-areas/rice-mn/storm-damage-restoration/", "/service-areas/rice-mn/water-cleanup/", "/service-areas/rice-mn/general-contracting/", "/service-areas/baxter-mn/", "/service-areas/brainerd-mn/", "/service-areas/elmdale-mn/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rice"}]

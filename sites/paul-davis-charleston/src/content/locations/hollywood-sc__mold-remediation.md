@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "15cc20a8543148b4"
-generated_at: "2026-09-20T18:59:05.116744+00:00"
+generated_at: "2026-09-20T19:17:38.161866+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/hollywood-sc/", "/service-areas/hollywood-sc/fire-damage-restoration/", "/service-areas/hollywood-sc/water-damage-restoration/", "/service-areas/awendaw-sc/mold-remediation/", "/service-areas/folly-beach-sc/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hollywood", "url": "/service-areas/hollywood-sc/"}, {"name": "Mold Remediation"}]

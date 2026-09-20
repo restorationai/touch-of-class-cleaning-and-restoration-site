@@ -8,7 +8,7 @@ secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "ca
 search_intent: "local_specialty"
 priority: 2.8
 plan_hash: "f5a8c96b1b0824ff"
-generated_at: "2026-09-20T18:58:55.612672+00:00"
+generated_at: "2026-09-20T19:17:30.791407+00:00"
 manual_override: false
 internal_links: ["/services/carpet-cleaning/", "/service-areas/alpine-ut/", "/service-areas/alpine-ut/fire-damage-restoration/", "/service-areas/alpine-ut/mold-remediation/", "/service-areas/american-fork-ut/carpet-cleaning/", "/service-areas/bluffdale-ut/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Alpine", "url": "/service-areas/alpine-ut/"}, {"name": "Carpet Cleaning"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "a98a4421e46d677c"
-generated_at: "2026-09-20T18:58:33.533496+00:00"
+generated_at: "2026-09-20T19:17:06.158268+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/sandy-ut/", "/service-areas/sandy-ut/fire-damage-restoration/", "/service-areas/sandy-ut/mold-remediation/", "/service-areas/alpine-ut/general-contracting/", "/service-areas/bluffdale-ut/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sandy", "url": "/service-areas/sandy-ut/"}, {"name": "Renovations, Remodels and General Contracting"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "mold remediation contractor", "mold repair
 search_intent: "local_health"
 priority: 4.9
 plan_hash: "35586b0697ceb99e"
-generated_at: "2026-09-20T18:59:20.253350+00:00"
+generated_at: "2026-09-20T19:17:53.765046+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/rosemont-ca/", "/service-areas/rosemont-ca/home-remodeling/", "/service-areas/rosemont-ca/bathroom-remodeling/", "/service-areas/antelope-ca/mold-remediation/", "/service-areas/arden-arcade-ca/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rosemont", "url": "/service-areas/rosemont-ca/"}, {"name": "Mold Remediation"}]

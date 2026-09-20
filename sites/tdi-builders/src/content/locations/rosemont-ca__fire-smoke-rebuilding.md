@@ -8,7 +8,7 @@ secondary_keywords: ["fire damage rebuild", "fire damage repair contractor", "sm
 search_intent: "local_commercial"
 priority: 4.9
 plan_hash: "5c61d11ad817dd81"
-generated_at: "2026-09-20T18:59:20.252809+00:00"
+generated_at: "2026-09-20T19:17:53.764787+00:00"
 manual_override: false
 internal_links: ["/services/fire-smoke-rebuilding/", "/service-areas/rosemont-ca/", "/service-areas/rosemont-ca/home-remodeling/", "/service-areas/rosemont-ca/bathroom-remodeling/", "/service-areas/antelope-ca/fire-smoke-rebuilding/", "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rosemont", "url": "/service-areas/rosemont-ca/"}, {"name": "Fire and Smoke Damage Rebuilding"}]

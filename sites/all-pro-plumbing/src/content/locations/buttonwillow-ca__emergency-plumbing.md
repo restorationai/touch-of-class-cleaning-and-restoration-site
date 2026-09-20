@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "after hours plumbe
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "9ca15f83c1d3878a"
-generated_at: "2026-09-20T18:58:30.374038+00:00"
+generated_at: "2026-09-20T19:17:02.514432+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/buttonwillow-ca/", "/service-areas/buttonwillow-ca/ac-repair/", "/service-areas/buttonwillow-ca/drain-cleaning/", "/service-areas/arvin-ca/emergency-plumbing/", "/service-areas/bear-valley-springs-ca/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Buttonwillow", "url": "/service-areas/buttonwillow-ca/"}, {"name": "Emergency Plumbing"}]

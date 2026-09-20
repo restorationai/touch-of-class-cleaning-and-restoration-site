@@ -8,7 +8,7 @@ secondary_keywords: ["trabuco canyon restoration company", "damage restoration t
 search_intent: "local_commercial"
 priority: 4.8
 plan_hash: "c67e588cb5387c4e"
-generated_at: "2026-09-20T18:58:42.403318+00:00"
+generated_at: "2026-09-20T19:17:16.426312+00:00"
 manual_override: false
 internal_links: ["/service-areas/", "/contact/", "/service-areas/trabuco-canyon-ca/fire-damage-restoration/", "/service-areas/trabuco-canyon-ca/mold-remediation/", "/service-areas/trabuco-canyon-ca/water-damage-restoration/", "/service-areas/trabuco-canyon-ca/sewage-cleanup/", "/service-areas/trabuco-canyon-ca/storm-damage-restoration/", "/service-areas/trabuco-canyon-ca/water-cleanup/", "/service-areas/trabuco-canyon-ca/general-contracting/", "/service-areas/trabuco-canyon-ca/emergency-board-up-tarping/", "/service-areas/trabuco-canyon-ca/air-duct-cleaning/", "/service-areas/trabuco-canyon-ca/contents-restoration/", "/service-areas/trabuco-canyon-ca/carpet-cleaning/", "/service-areas/trabuco-canyon-ca/post-construction-cleaning/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Trabuco Canyon"}]

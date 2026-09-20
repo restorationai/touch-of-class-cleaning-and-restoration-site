@@ -8,7 +8,7 @@ secondary_keywords: ["toilet repair", "toilet installation", "faucet replacement
 search_intent: "local_commercial"
 priority: 4.9
 plan_hash: "c0fcff43c455efba"
-generated_at: "2026-09-20T18:58:30.376270+00:00"
+generated_at: "2026-09-20T19:17:02.515448+00:00"
 manual_override: false
 internal_links: ["/services/toilet-faucet-repair/", "/service-areas/buttonwillow-ca/", "/service-areas/buttonwillow-ca/ac-repair/", "/service-areas/buttonwillow-ca/drain-cleaning/", "/service-areas/arvin-ca/toilet-faucet-repair/", "/service-areas/bear-valley-springs-ca/toilet-faucet-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Buttonwillow", "url": "/service-areas/buttonwillow-ca/"}, {"name": "Toilet, Faucet and Fixture Services"}]

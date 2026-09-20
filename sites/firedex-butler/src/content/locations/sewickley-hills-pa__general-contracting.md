@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "c5a324cec5e0bb8b"
-generated_at: "2026-09-20T18:58:45.696017+00:00"
+generated_at: "2026-09-20T19:17:19.890337+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/sewickley-hills-pa/", "/service-areas/sewickley-hills-pa/fire-damage-restoration/", "/service-areas/sewickley-hills-pa/mold-remediation/", "/service-areas/aliquippa-pa/general-contracting/", "/service-areas/baden-pa/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sewickley Hills", "url": "/service-areas/sewickley-hills-pa/"}, {"name": "Renovations, Remodels and General Contracting"}]

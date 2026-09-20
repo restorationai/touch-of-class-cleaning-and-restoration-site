@@ -8,7 +8,7 @@ secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "450cc84b1c464b17"
-generated_at: "2026-09-20T18:59:14.031322+00:00"
+generated_at: "2026-09-20T19:17:47.258729+00:00"
 manual_override: false
 internal_links: ["/services/storm-damage-restoration/", "/service-areas/heath-tx/", "/service-areas/heath-tx/fire-damage-restoration/", "/service-areas/heath-tx/mold-remediation/", "/service-areas/allen-tx/storm-damage-restoration/", "/service-areas/caddo-mills-tx/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Heath", "url": "/service-areas/heath-tx/"}, {"name": "Storm Damage Restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "dcc3043583ca2be5"
-generated_at: "2026-09-20T18:59:06.891546+00:00"
+generated_at: "2026-09-20T19:17:39.959250+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/woody-ca/", "/service-areas/woody-ca/fire-damage-restoration/", "/service-areas/woody-ca/home-remodeling/", "/service-areas/arvin-ca/mold-inspection-testing/", "/service-areas/buttonwillow-ca/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Woody", "url": "/service-areas/woody-ca/"}, {"name": "Mold Inspection and Testing"}]

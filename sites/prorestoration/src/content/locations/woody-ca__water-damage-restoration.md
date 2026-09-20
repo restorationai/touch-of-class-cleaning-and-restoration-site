@@ -8,7 +8,7 @@ secondary_keywords: ["water removal", "water extraction", "water cleanup", "stru
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "4326444a421459c5"
-generated_at: "2026-09-20T18:59:06.889675+00:00"
+generated_at: "2026-09-20T19:17:39.958355+00:00"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/woody-ca/", "/service-areas/woody-ca/fire-damage-restoration/", "/service-areas/woody-ca/home-remodeling/", "/service-areas/arvin-ca/water-damage-restoration/", "/service-areas/buttonwillow-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Woody", "url": "/service-areas/woody-ca/"}, {"name": "Water Damage Restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["indoor air quality testing", "air quality testing near me"
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "490e28454939f93b"
-generated_at: "2026-09-20T18:58:32.111222+00:00"
+generated_at: "2026-09-20T19:17:04.365720+00:00"
 manual_override: false
 internal_links: ["/services/indoor-air-quality-testing/", "/service-areas/ivanhoe-ca/", "/service-areas/ivanhoe-ca/mold-inspection-testing/", "/service-areas/ivanhoe-ca/asbestos-testing/", "/service-areas/bakersfield-ca/indoor-air-quality-testing/", "/service-areas/centerville-ca/indoor-air-quality-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ivanhoe", "url": "/service-areas/ivanhoe-ca/"}, {"name": "Indoor Air Quality Testing"}]

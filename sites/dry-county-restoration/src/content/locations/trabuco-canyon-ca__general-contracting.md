@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "f5d532a658937a2f"
-generated_at: "2026-09-20T18:58:42.406505+00:00"
+generated_at: "2026-09-20T19:17:16.428489+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/trabuco-canyon-ca/", "/service-areas/trabuco-canyon-ca/fire-damage-restoration/", "/service-areas/trabuco-canyon-ca/mold-remediation/", "/service-areas/anaheim-ca/general-contracting/", "/service-areas/chino-ca/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Trabuco Canyon", "url": "/service-areas/trabuco-canyon-ca/"}, {"name": "Renovations, Remodels and General Contracting"}]

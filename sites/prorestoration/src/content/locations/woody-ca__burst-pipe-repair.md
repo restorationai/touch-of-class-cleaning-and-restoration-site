@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "92552b64cb33637c"
-generated_at: "2026-09-20T18:59:06.890090+00:00"
+generated_at: "2026-09-20T19:17:39.958602+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/woody-ca/", "/service-areas/woody-ca/fire-damage-restoration/", "/service-areas/woody-ca/home-remodeling/", "/service-areas/arvin-ca/burst-pipe-repair/", "/service-areas/buttonwillow-ca/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Woody", "url": "/service-areas/woody-ca/"}, {"name": "Burst Pipe Cleanup and Repair"}]

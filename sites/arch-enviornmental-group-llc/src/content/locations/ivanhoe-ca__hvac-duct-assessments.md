@@ -8,7 +8,7 @@ secondary_keywords: ["HVAC mold inspection", "air duct inspection", "duct contam
 search_intent: "local_health"
 priority: 4.2
 plan_hash: "0180cd84ebfa1a0e"
-generated_at: "2026-09-20T18:58:32.113240+00:00"
+generated_at: "2026-09-20T19:17:04.366614+00:00"
 manual_override: false
 internal_links: ["/services/hvac-duct-assessments/", "/service-areas/ivanhoe-ca/", "/service-areas/ivanhoe-ca/indoor-air-quality-testing/", "/service-areas/ivanhoe-ca/mold-inspection-testing/", "/service-areas/bakersfield-ca/hvac-duct-assessments/", "/service-areas/centerville-ca/hvac-duct-assessments/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ivanhoe", "url": "/service-areas/ivanhoe-ca/"}, {"name": "HVAC and Duct System Assessments"}]

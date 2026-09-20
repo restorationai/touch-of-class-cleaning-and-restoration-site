@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "ab55213639c06311"
-generated_at: "2026-09-20T18:58:25.495743+00:00"
+generated_at: "2026-09-20T19:16:56.950207+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/east-kapolei-hi/", "/service-areas/east-kapolei-hi/mold-remediation/", "/service-areas/east-kapolei-hi/water-damage-restoration/", "/service-areas/aiea-hi/burst-pipe-repair/", "/service-areas/aina-haina-hi/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "East Kapolei", "url": "/service-areas/east-kapolei-hi/"}, {"name": "Burst Pipe Cleanup and Repair"}]

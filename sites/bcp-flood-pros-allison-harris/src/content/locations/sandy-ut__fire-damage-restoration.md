@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "61d22412c0b26e3b"
-generated_at: "2026-09-20T18:58:33.533322+00:00"
+generated_at: "2026-09-20T19:17:06.158185+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/sandy-ut/", "/service-areas/sandy-ut/mold-remediation/", "/service-areas/sandy-ut/water-damage-restoration/", "/service-areas/alpine-ut/fire-damage-restoration/", "/service-areas/bluffdale-ut/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sandy", "url": "/service-areas/sandy-ut/"}, {"name": "Fire Damage Restoration"}]

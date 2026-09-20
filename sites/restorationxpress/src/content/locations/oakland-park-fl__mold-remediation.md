@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "3c1757d9a91840b0"
-generated_at: "2026-09-20T18:59:17.673194+00:00"
+generated_at: "2026-09-20T19:17:50.855310+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/oakland-park-fl/", "/service-areas/oakland-park-fl/fire-damage-restoration/", "/service-areas/oakland-park-fl/water-damage-restoration/", "/service-areas/cooper-city-fl/mold-remediation/", "/service-areas/dania-beach-fl/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oakland Park", "url": "/service-areas/oakland-park-fl/"}, {"name": "Mold Remediation"}]
