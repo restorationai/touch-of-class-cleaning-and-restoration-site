@@ -359,7 +359,17 @@ def main() -> None:
 
     sender, sender_mode = sender_preflight(sb, company_id, args.fallback_from)
     if not sender:
-        die(f"NO SENDER would resolve for {co['name']}: {sender_mode} — not enrolling")
+        # STAGED rows are dispatcher-invisible, so a missing sender is not a
+        # reason to refuse STAGING (Santino 2026-09-20, FIX: list waiting on
+        # a sender that's waiting on an EIN — stage now, activate later; the
+        # Activate button re-runs the real preflight). Live enrollment still
+        # hard-refuses.
+        if args.staged:
+            print(f"  WARNING: no sender resolves yet ({sender_mode}) — "
+                  "staging anyway; activation will require one")
+            sender, sender_mode = "(none yet)", "staged-without-sender"
+        else:
+            die(f"NO SENDER would resolve for {co['name']}: {sender_mode} — not enrolling")
 
     # ---- file ----
     if args.file.startswith("storage:"):

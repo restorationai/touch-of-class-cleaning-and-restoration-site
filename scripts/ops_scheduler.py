@@ -222,6 +222,12 @@ JOBS = [
     # profile approvals land in minutes; twice-daily parked CRW for hours).
     ("a2p-advance", 3600, [sys.executable,
                            str(HERE / "a2p_provision.py"), "--advance-all"]),
+    # B1 (2026-09-20): hub-uploaded customer lists auto-stage into the
+    # review campaign within the hour (staged = dispatcher-invisible; the
+    # app's Activate button goes live). Also seeds the B2 readiness asks
+    # (missing EIN etc.). Cheap no-op when no pins are waiting.
+    ("review-list-stage", 3600, [sys.executable,
+                                 str(HERE / "review_list_stage.py")]),
 ]
 
 JOB_TIMEOUT = 15 * 60
