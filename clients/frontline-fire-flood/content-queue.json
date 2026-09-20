@@ -1,6 +1,37 @@
 {
   "items": [
     {
+      "id": "2026-09-20-water-damage-restoration-cost-wa",
+      "status": "written",
+      "queued_at": "2026-09-20T14:28:52Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "cost_guide",
+      "combo_key": "water-damage-restoration-cost-wa",
+      "primary_keyword": "water damage restoration cost WA",
+      "intent": "transactional",
+      "target_word_count": 1500,
+      "city_anchor": "lakewood-wa",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Lakewood",
+        "state": "WA",
+        "competitors": []
+      },
+      "fan_out_cluster": [
+        "how much does water damage restoration cost in WA",
+        "water damage restoration price WA",
+        "average cost of water damage restoration WA",
+        "water damage cleanup WA",
+        "water cleanup WA",
+        "water removal WA"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-09-20T14:32:30Z",
+      "post_url": "https://frontlinefireflood.com/blog/water-damage-restoration-cost-wa/"
+    },
+    {
       "id": "2026-09-07-storm-wind-damage-restoration",
       "status": "published",
       "queued_at": "2026-09-07T10:24:01Z",
