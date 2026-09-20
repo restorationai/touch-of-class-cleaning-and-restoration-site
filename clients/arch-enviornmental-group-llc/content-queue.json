@@ -363,7 +363,7 @@
     },
     {
       "id": "2026-09-15-lead-testing-kingsburg",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-15T14:24:35Z",
       "priority": 1,
       "prioritized": true,
@@ -375,7 +375,8 @@
       "city_anchor": "kingsburg-ca",
       "source": "gameplan-2026-09-5 (dev-agent)",
       "written_at": "2026-09-20T14:22:05Z",
-      "post_url": "https://archenviroservice.com/blog/lead-testing-kingsburg/"
+      "post_url": "https://archenviroservice.com/blog/lead-testing-kingsburg/",
+      "published_verified_at": "2026-09-20T14:23:56Z"
     }
   ]
 }
