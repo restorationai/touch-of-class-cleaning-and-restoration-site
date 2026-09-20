@@ -11,9 +11,14 @@ import { Star, ExternalLink } from "@lucide/astro";
 const rating = String(brand.gbpRatingValue || "");
 const count = String(brand.gbpReviewCount || "");
 const hasSynced = rating !== "" && count !== "";
-const mapsUrl = brand.placeId
-  ? `https://www.google.com/maps/place/?q=place_id:${brand.placeId}`
-  : (Array.isArray(brand.sameAsUrls) ? brand.sameAsUrls.find((u: string) => u.includes("google.com/maps")) : "") || "";
+// cid FIRST (2026-09-19, ACS "this link is dead"): hidden-address SABs
+// often don't resolve through the placeid viewer; maps?cid= is the mapsUri
+// Google itself hands back in GBP metadata and always lands.
+const mapsUrl = brand.googleCid
+  ? `https://www.google.com/maps?cid=${brand.googleCid}`
+  : brand.placeId
+    ? `https://www.google.com/maps/place/?q=place_id:${brand.placeId}`
+    : (Array.isArray(brand.sameAsUrls) ? brand.sameAsUrls.find((u: string) => u.includes("google.com/maps")) : "") || "";
 
 const title = `Reviews | ${brand.displayName}`;
 const meta = hasSynced

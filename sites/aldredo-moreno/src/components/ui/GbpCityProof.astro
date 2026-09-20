@@ -19,10 +19,13 @@ const review = hasRating && reviews.length > 0 ? reviews[cityHash(city) % review
 const heading = isHqCity(city)
   ? `Headquartered right here in ${city} — ★ ${rating} · ${count} Google reviews`
   : `Serving ${city} from our ${brand.primaryCity} headquarters — ★ ${rating} · ${count} Google reviews`;
-const reviewsUrl = brand.placeId
-  ? `https://search.google.com/local/reviews?placeid=${brand.placeId}`
-  : brand.googleCid
-    ? `https://www.google.com/maps?cid=${brand.googleCid}`
+// cid FIRST (2026-09-19, ACS "this link is dead"): hidden-address SABs
+// often don't resolve through the placeid reviews viewer; maps?cid= is the
+// mapsUri Google itself hands back in GBP metadata and always lands.
+const reviewsUrl = brand.googleCid
+  ? `https://www.google.com/maps?cid=${brand.googleCid}`
+  : brand.placeId
+    ? `https://search.google.com/local/reviews?placeid=${brand.placeId}`
     : "";
 ---
 
