@@ -28,7 +28,7 @@
     },
     {
       "id": "2026-09-10-sewage-cleanup-remediation",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-10T10:24:15Z",
       "priority": 1,
       "content_type": "target_term",
@@ -37,7 +37,47 @@
       "intent": "commercial",
       "target_word_count": 1400,
       "city_anchor": "orem-ut",
-      "source": "app target-term (onboarding)"
+      "source": "app target-term (onboarding)",
+      "written_at": "2026-09-20T14:22:07Z",
+      "post_url": "https://fixofutah.com/blog/sewage-cleanup-remediation/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/sewage-cleanup-remediation.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "lassified as Category 3 water under the IICRC S500 standard, meaning it contains bact",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/sewage-cleanup-remediation.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "n?\", \"answer\": \"Category 3 water is the IICRC's classification for grossly contaminat",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/sewage-cleanup-remediation.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "assified as Category 3 water under the [IICRC S500 standard](https://www.iicrc.org),",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/sewage-cleanup-remediation.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "s a structured process that mirrors the IICRC S500 and the companion S520 standard fo",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
     },
     {
       "id": "2026-09-10-general-contracting-reconstruction-renovation",
