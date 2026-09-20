@@ -129,6 +129,12 @@ jobs:
           # retire an "accept our invite" ask from what this step wrote down.
           # Unrun for a week = Monica asking clients for access we already
           # hold (Jaziel/RestorationXpress, 2026-08-05 13:13).
+          # AUTO-ACCEPT our own MCC invites as the client (Santino
+          # 2026-09-20: ACS + FF Solutions sat PENDING because the accepter
+          # was only ever run by hand — invites and the audit were
+          # scheduled, acceptance never was). Runs BEFORE the audit so the
+          # audit reconciles the fresh ACTIVE states same-night.
+          python3 scripts/ads_link_accept.py --apply || true
           python3 scripts/lsa_link_audit.py --apply || true
           rm -f clients/narestco/.ads-token.json
 
