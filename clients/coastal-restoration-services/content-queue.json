@@ -559,7 +559,7 @@
     },
     {
       "id": "2026-08-26-mold-remediation-cost-after-water-damage",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-26T14:20:00Z",
       "written_at": "2026-09-20T14:26:47Z",
       "post_url": "https://callcrs.com/blog/mold-remediation-cost-after-water-damage/",
@@ -594,7 +594,8 @@
       ],
       "notes": "Highest-value gap this run: mold carries the top local CPC in the Santa Barbara-Santa Maria-SLO DMA ($86.24) and the site has zero cost content for it. Give real Central Coast ranges, split contained-area vs whole-home, and be explicit that drying alone is cheaper than remediation so the 24-48 hour urgency argument lands.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "published_verified_at": "2026-09-20T14:28:40Z"
     },
     {
       "id": "2026-08-26-call-insurance-or-restoration-company-first",
