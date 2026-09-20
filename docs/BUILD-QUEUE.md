@@ -111,6 +111,21 @@ PASSED: budget + settings are the whole job). Dead twin 481-522-7444
 - FIX Monday message order: site reveal first (priority law) vs GBP
   connect link first.
 
+## Reviews go-live sprint (2026-09-20 evening)
+
+- HomeLyft: two texts to Josiah SENT (campaign-ready confirm + team-photo
+  question w/ upload link). ACTIVATION fires on his reply (photo lands ->
+  attach to dynamic_images -> activate; "start without" -> activate now).
+  337 contacts staged, sender approved. Gate currently OFF for them.
+- DryCor: fully provisioned BOTH lanes 2026-09-20 — subaccount
+  ACeffee350…, LOCAL +1 (813) 798-3837 (A2P lane, voice through the
+  call-tracking review router, opt-out SMS handler), TOLL-FREE
+  +1 (855) 983-1710 (agent_phone_1, autoreg lane). Submissions auto-fire
+  when Ashley's EIN lands (Monica ask out): TF via nightly
+  tollfree_autoreg watch, A2P via hourly advance. 280 contacts staged.
+- Review gate leak FIXED: "Go back" removed from the feedback form
+  (negative raters could return to the rating and reach Google).
+
 ## Standing watches (no action needed)
 
 - DISS toll-free verification (pending review under IRS legal name).
