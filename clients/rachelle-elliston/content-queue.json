@@ -1,6 +1,32 @@
 {
   "items": [
     {
+      "id": "2026-09-20-fire-smoke-restoration",
+      "status": "queued",
+      "queued_at": "2026-09-20T14:17:54Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "fire-smoke-restoration",
+      "primary_keyword": "Fire & Smoke Restoration",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "enterprise-nv",
+      "source": "app target-term (onboarding)"
+    },
+    {
+      "id": "2026-09-20-general-contracting-reconstruction-renovation",
+      "status": "queued",
+      "queued_at": "2026-09-20T14:17:54Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "general-contracting-reconstruction-renovation",
+      "primary_keyword": "General Contracting (Reconstruction & Renovation)",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "boulder-city-nv",
+      "source": "app target-term (onboarding)"
+    },
+    {
       "id": "2026-09-20-best-water-damage-restoration-in-north-las-vegas-nv",
       "status": "written",
       "queued_at": "2026-09-20T10:25:37Z",
