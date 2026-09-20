@@ -2178,6 +2178,22 @@ def cmd_scaffold(args) -> int:
                   "pages_project": project_name, "url_count": len(url_plan["pages"])},
         source="build_site.py scaffold")
 
+    # REVIEWS AT BUILD TIME (ACS 2026-09-19: the strip self-hides until
+    # sync_brand_reviews fills the live GBP numbers, and the sync only rode
+    # weekly-maintenance — a site built Thursday evening previewed
+    # ratings-less until Monday. Alfredo has 362 five-star reviews; the
+    # preview showed none of them). Fail-soft: no GBP connection just
+    # leaves the strip hidden, exactly as before.
+    try:
+        _r = subprocess.run(
+            [sys.executable,
+             str(REPO_ROOT / "scripts" / "sync_brand_reviews.py"),
+             slug], capture_output=True, text=True, timeout=300)
+        _tail = (_r.stdout or _r.stderr or "").strip().splitlines()[-1:]
+        print(f"    reviews sync: {_tail[0][:120] if _tail else _r.returncode}")
+    except Exception as _e:  # noqa: BLE001 — never blocks a scaffold
+        print(f"    reviews sync skipped ({str(_e)[:80]})")
+
     print()
     print("==> Scaffold complete.")
     print(f"    Local working tree: {site_dir}")

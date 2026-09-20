@@ -185,6 +185,11 @@ jobs:
           # a domain we hold.
           python3 scripts/domain_hydrate.py || true
           python3 scripts/citations_sync.py || true
+          # Live GBP rating/review-count onto every site NIGHTLY (ACS
+          # 2026-09-19: the strip hid 362 five-star reviews because this
+          # only rode Mon/Thu weekly-maintenance; review counts move daily
+          # and a fresh build could preview ratings-less for 4 days).
+          python3 scripts/sync_brand_reviews.py --all || true
           # Rename A2 (2026-09-16): the sweep behind Monica's DBA
           # vision-verify — puts "[legal] doing business as [DBA]" in the
           # footer + the DBA as the schema.org business name, so BL's
